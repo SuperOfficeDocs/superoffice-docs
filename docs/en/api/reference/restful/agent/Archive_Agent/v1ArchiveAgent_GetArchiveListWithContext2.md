@@ -170,18 +170,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Waelchi, Tremblay and Kub",
-  "ProviderName": "Stokes-Schultz",
-  "SortOrder": "excepturi",
-  "Restriction": "nam",
-  "Entities": "modi",
-  "Page": 987,
-  "PageSize": 966,
-  "Context": "et"
+  "GuiName": "Beahan, Keeling and Harvey",
+  "ProviderName": "Orn LLC",
+  "SortOrder": "ipsam",
+  "Restriction": "sed",
+  "Entities": "eveniet",
+  "Page": 213,
+  "PageSize": 175,
+  "Context": "error"
 }
 ```
 
@@ -193,23 +193,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schumm LLC",
-    "PrimaryKey": 591,
+    "EntityName": "Rippin, Miller and Kerluke",
+    "PrimaryKey": 43,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolore",
-        "TooltipHint": "assumenda",
-        "LinkHint": "aliquid"
+        "DisplayValue": "quam",
+        "TooltipHint": "repellat",
+        "LinkHint": "aut"
       }
     },
-    "LinkHint": "magni",
-    "StyleHint": "nostrum",
+    "LinkHint": "quia",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

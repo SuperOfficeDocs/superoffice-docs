@@ -78,18 +78,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 30,
-  "Name": "Mraz-Kemmer",
-  "Tooltip": "error",
-  "Rank": 72,
-  "Key": "ullam",
+  "LegalBaseId": 816,
+  "Name": "Bartell, Emard and Kovacek",
+  "Tooltip": "omnis",
+  "Rank": 168,
+  "Key": "voluptates",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   }
 }

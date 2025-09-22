@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 398,
-  "UserInput": "occaecati",
-  "PriceListKey": "labore"
+  "QuoteAlternativeId": 379,
+  "UserInput": "numquam",
+  "PriceListKey": "culpa"
 }
 ```
 
@@ -127,73 +127,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 232,
-    "ERPProductKey": "dolorem",
-    "ERPPriceListKey": "illum",
-    "Name": "Raynor, Hilpert and Reichert",
-    "Description": "Exclusive asynchronous moratorium",
-    "Code": "velit",
-    "PriceUnit": "sint",
-    "QuantityUnit": "voluptatem",
+    "ProductId": 400,
+    "ERPProductKey": "consequatur",
+    "ERPPriceListKey": "impedit",
+    "Name": "Fadel LLC",
+    "Description": "Horizontal exuding secured line",
+    "Code": "minima",
+    "PriceUnit": "eum",
+    "QuantityUnit": "aut",
     "IsSubscription": false,
-    "SubscriptionUnit": "non",
-    "DefaultSubscriptionQuantity": 10523.972,
-    "ItemNumber": "365677",
+    "SubscriptionUnit": "est",
+    "DefaultSubscriptionQuantity": 22652.552,
+    "ItemNumber": "978730",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eveniet",
-    "ProductTypeKey": "temporibus",
-    "VAT": 8493.14,
-    "VATInfo": "rerum",
-    "UnitCost": 9010.25,
-    "UnitMinimumPrice": 24730.394,
-    "UnitListPrice": 733.356,
+    "ProductFamilyKey": "porro",
+    "ProductTypeKey": "qui",
+    "VAT": 241.31799999999998,
+    "VATInfo": "vitae",
+    "UnitCost": 28622.822,
+    "UnitMinimumPrice": 18625.362,
+    "UnitListPrice": 20273.845999999998,
     "InAssortment": false,
-    "Supplier": "quibusdam",
-    "SupplierCode": "et",
-    "Rights": "expedita",
-    "Rule": "voluptates",
+    "Supplier": "nihil",
+    "SupplierCode": "ipsam",
+    "Rights": "tenetur",
+    "Rule": "est",
     "ExtraInfo": [
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Herzog, Huels and Wiegand",
+        "Value": "assumenda",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 823
           }
         }
       },
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Herzog, Huels and Wiegand",
+        "Value": "assumenda",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 823
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "et",
-    "ExtraField2": "accusamus",
-    "ExtraField3": "facere",
-    "ExtraField4": "minima",
-    "ExtraField5": "quos",
-    "InStock": 13419.788,
+    "RawExtraInfo": "rerum",
+    "ExtraField1": "possimus",
+    "ExtraField2": "commodi",
+    "ExtraField3": "reprehenderit",
+    "ExtraField4": "iusto",
+    "ExtraField5": "sit",
+    "InStock": 25698.8,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

@@ -82,7 +82,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,76 +93,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "rem",
-  "AssociateId": 281,
+  "Associate": "sit",
+  "AssociateId": 580,
   "IsPerson": false,
-  "PersonId": 936,
-  "CountryId": 314,
-  "HomeCountryId": 492,
-  "ContactId": 796,
-  "GroupId": 561,
-  "BusinessId": 465,
-  "CategoryId": 220,
-  "ContactOwner": 130,
-  "RoleId": 564,
-  "RoleName": "Hand, Konopelski and Haag",
-  "RoleDescription": "Cloned bottom-line time-frame",
+  "PersonId": 144,
+  "CountryId": 616,
+  "HomeCountryId": 494,
+  "ContactId": 163,
+  "GroupId": 23,
+  "BusinessId": 906,
+  "CategoryId": 805,
+  "ContactOwner": 235,
+  "RoleId": 560,
+  "RoleName": "Ritchie-Zulauf",
+  "RoleDescription": "Extended modular orchestration",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 161,
-      "OwnerName": "Lemke-Roberts",
-      "OwnerDescription": "Persevering clear-thinking info-mediaries",
-      "ModuleId": 311,
-      "Name": "Bradtke-Leuschke",
-      "Description": "Sharable incremental workforce",
-      "Version": "rerum",
+      "OwnerId": 267,
+      "OwnerName": "Hansen LLC",
+      "OwnerDescription": "Exclusive regional strategy",
+      "ModuleId": 808,
+      "Name": "Robel-Runolfsson",
+      "Description": "Multi-channelled multi-state implementation",
+      "Version": "amet",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 435,
-      "ExtraInfo": "quasi",
-      "SortOrder": 628,
-      "LicenseNumber": 54,
+      "ExtraFlags": 537,
+      "ExtraInfo": "sunt",
+      "SortOrder": 616,
+      "LicenseNumber": 945,
       "IsHidden": true,
       "IsUnrestricted": false,
-      "ExpiryDate": "2009-11-21T03:47:00.5349272+01:00",
+      "ExpiryDate": "2025-05-06T11:24:53.8280427+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldLength": 598
         }
       }
     }
   ],
-  "FullName": "Crawford Kris",
-  "EMailAddress": "consequatur",
+  "FullName": "Audra Price",
+  "EMailAddress": "aut",
   "FunctionRights": [
-    "quam",
-    "quisquam"
+    "expedita",
+    "sit"
   ],
-  "EjUserId": 470,
-  "EjAccessLevel": 942,
+  "EjUserId": 239,
+  "EjAccessLevel": 386,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "deleniti",
-      "SearchName": "Dickens-Blick",
-      "DisplayName": "Schowalter-Thiel",
-      "CredentialId": 508
+      "Type": "necessitatibus",
+      "SearchName": "Schamberger-Hessel",
+      "DisplayName": "Conn LLC",
+      "CredentialId": 101
     },
     {
-      "Type": "deleniti",
-      "SearchName": "Dickens-Blick",
-      "DisplayName": "Schowalter-Thiel",
-      "CredentialId": 508
+      "Type": "necessitatibus",
+      "SearchName": "Schamberger-Hessel",
+      "DisplayName": "Conn LLC",
+      "CredentialId": 101
     }
   ],
   "SecondaryGroups": [
-    654,
-    492
+    480,
+    523
   ],
-  "DatabaseContextIdentifier": "est",
-  "UserName": "Greenfelder-Schneider"
+  "DatabaseContextIdentifier": "beatae",
+  "UserName": "Goyette, Feest and Schamberger"
 }
 ```

@@ -82,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Oct 2011 03:47:00 G10T
+Last-Modified: Fri, 16 Nov 2018 11:24:53 G11T
 
 {
-  "BlobId": 869,
-  "BlobSize": 983,
-  "Description": "Optional eco-centric model",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 645,
+  "BlobSize": 932,
+  "Description": "Quality-focused fresh-thinking support",
+  "ExtraInfo": "laboriosam",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 278,
-  "CreatedDate": "2000-05-09T03:47:00.4255562+02:00",
-  "UpdatedDate": "2011-10-03T03:47:00.4255562+02:00",
+  "MimeType": "ut",
+  "OriginalSize": 640,
+  "CreatedDate": "2005-02-17T11:24:53.7655512+01:00",
+  "UpdatedDate": "2018-11-16T11:24:53.7655512+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 23
     }
   }
 }

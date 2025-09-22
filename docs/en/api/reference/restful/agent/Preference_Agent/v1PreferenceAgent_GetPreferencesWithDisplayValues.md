@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "libero",
+      "Key": "eos"
     },
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "libero",
+      "Key": "eos"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "et",
     "Specification": null,
-    "DisplayValue": "accusamus",
-    "DisplayTooltip": "voluptatem",
+    "DisplayValue": "culpa",
+    "DisplayTooltip": "perspiciatis",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 645,
-    "PrefDescId": 818,
-    "TableName": "Nikolaus Group",
-    "UserPreferenceId": 484,
+    "TargetId": 649,
+    "PrefDescId": 160,
+    "TableName": "Tillman LLC",
+    "UserPreferenceId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

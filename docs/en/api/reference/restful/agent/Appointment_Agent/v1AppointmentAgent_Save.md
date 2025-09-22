@@ -137,13 +137,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -160,121 +160,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2025-08-21T03:46:54.1445302+02:00",
-  "AppointmentId": 491,
-  "Description": "Synchronised maximized installation",
-  "Title": "quia",
-  "Agenda": "ea",
-  "InternalNotes": "et",
-  "StartDate": "2020-11-13T03:46:54.1445302+01:00",
-  "EndDate": "2003-03-29T03:46:54.1445302+01:00",
+  "CreatedDate": "2021-09-15T11:24:47.4064385+02:00",
+  "AppointmentId": 899,
+  "Description": "Seamless maximized task-force",
+  "Title": "earum",
+  "Agenda": "quis",
+  "InternalNotes": "dolore",
+  "StartDate": "2001-01-28T11:24:47.4064385+01:00",
+  "EndDate": "2024-12-07T11:24:47.4064385+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 851,
+  "MotherId": 302,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-09-17T03:46:54.1445302+02:00",
+  "UpdatedDate": "2017-03-16T11:24:47.4064385+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 393,
   "Links": [
     {
-      "EntityName": "Cole LLC",
-      "Id": 311,
-      "Description": "Synergized value-added analyzer",
-      "ExtraInfo": "rem",
-      "LinkId": 819,
+      "EntityName": "Rogahn, Blick and Frami",
+      "Id": 403,
+      "Description": "Open-source system-worthy capability",
+      "ExtraInfo": "et",
+      "LinkId": 1001,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 52
         }
       }
     }
   ],
-  "AlarmLeadTime": "quis",
+  "AlarmLeadTime": "vel",
   "HasAlarm": true,
-  "ColorIndex": 249,
+  "ColorIndex": 775,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "optio",
-  "LeadTime": "ut",
-  "Location": "aut",
-  "RejectCounter": 485,
+  "IsAlldayEvent": false,
+  "LagTime": "dolorem",
+  "LeadTime": "placeat",
+  "Location": "expedita",
+  "RejectCounter": 58,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 750,
-      "PersonId": 195,
-      "ContactId": 308,
-      "EmailId": 686,
+      "AssociateId": 46,
+      "PersonId": 40,
+      "ContactId": 978,
+      "EmailId": 973,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "colten.kuhic@hudson.us",
-      "Description": "Centralized full-range collaboration"
+      "EmailAddress": "joel@friesen.biz",
+      "Description": "Profit-focused mobile customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-05-24T03:46:54.1445302+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-09-27T11:24:47.4064385+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 484,
+  "PreferredTZLocation": 840,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 394,
+  "SuggestedAppointmentId": 4,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "cumque",
+  "CentralserviceVideomeetId": "temporibus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Yasmin Hamill",
-    "SuperOffice:2": "2081557638"
+    "SuperOffice:1": "193135904",
+    "SuperOffice:2": "Jarrod Janick Rice DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "enim"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2021-03-02T03:46:54.1445302+01:00",
-  "PublishTo": "2024-02-24T03:46:54.1445302+01:00",
-  "PublishFrom": "2021-01-06T03:46:54.1445302+01:00",
+  "PublishEventDate": "2013-08-27T11:24:47.4064385+02:00",
+  "PublishTo": "2017-10-10T11:24:47.4064385+02:00",
+  "PublishFrom": "2019-07-30T11:24:47.4064385+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 660,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 17
         }
       }
     },
     {
-      "VisibleId": 660,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 17
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 683
     }
   }
 }

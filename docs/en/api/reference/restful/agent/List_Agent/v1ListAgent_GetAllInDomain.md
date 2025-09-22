@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 363,
+    "HierarchyId": 770,
     "Domain": "Dashboards",
-    "Name": "Schaefer-Fadel",
-    "Fullname": "distinctio",
-    "ParentId": 481,
+    "Name": "Hudson-O'Hara",
+    "Fullname": "veniam",
+    "ParentId": 468,
     "Children": [
       {
-        "HierarchyId": 129,
+        "HierarchyId": 173,
         "Domain": "Dashboards",
-        "Name": "Grimes, Powlowski and Trantow",
-        "Fullname": "quas",
-        "ParentId": 927,
+        "Name": "Parisian Inc and Sons",
+        "Fullname": "illum",
+        "ParentId": 476,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1999-03-19T03:46:54.9726245+01:00",
-        "RegisteredAssociateId": 602,
-        "Updated": "2015-04-20T03:46:54.9726245+02:00",
-        "UpdatedAssociateId": 791,
+        "Registered": "2009-06-05T11:24:48.234527+02:00",
+        "RegisteredAssociateId": 223,
+        "Updated": "2005-02-18T11:24:48.234527+01:00",
+        "UpdatedAssociateId": 796,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldLength": 760
           }
         }
       }
     ],
-    "Registered": "2002-07-10T03:46:54.9726245+02:00",
-    "RegisteredAssociateId": 543,
-    "Updated": "1998-10-13T03:46:54.9726245+02:00",
-    "UpdatedAssociateId": 439,
+    "Registered": "2014-03-13T11:24:48.234527+01:00",
+    "RegisteredAssociateId": 594,
+    "Updated": "2024-05-31T11:24:48.234527+02:00",
+    "UpdatedAssociateId": 974,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 298
       }
     }
   }

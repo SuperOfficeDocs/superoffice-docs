@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=ipsam
+GET /api/v1/List/LegalBase/MDOItems?query=sit
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Abbott LLC",
-    "ToolTip": "Dolores perspiciatis.",
-    "Deleted": true,
-    "Rank": 962,
-    "Type": "maiores",
+    "Id": 759,
+    "Name": "Schoen, Ferry and Larkin",
+    "ToolTip": "Saepe ab voluptate dolores itaque nostrum.",
+    "Deleted": false,
+    "Rank": 157,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Qui ea praesentium id et omnis suscipit.",
-        "Deleted": true,
-        "Rank": 982,
-        "Type": "voluptatibus",
+        "Id": 129,
+        "Name": "Vandervort, Lesch and Moen",
+        "ToolTip": "Debitis sed.",
+        "Deleted": false,
+        "Rank": 376,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perspiciatis",
-        "ColorBlock": 601,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "inventore",
-        "FullName": "Jamil Kuvalis",
+        "IconHint": "minima",
+        "ColorBlock": 941,
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "dolorem",
+        "FullName": "Miss Unique Estefania McLaughlin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 470,
-    "ExtraInfo": "quis",
-    "StyleHint": "temporibus",
-    "FullName": "Favian White",
+    "IconHint": "voluptatum",
+    "ColorBlock": 859,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "et",
+    "FullName": "Miss Mazie Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 398
       }
     }
   }

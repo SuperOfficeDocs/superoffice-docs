@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Kihn-Satterfield",
-    "Tooltip": "in",
+    "HeadingId": 975,
+    "Name": "Crist Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 1000,
+    "Rank": 237,
+    "UdListDefinitionId": 851,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldLength": 118
       }
     }
   }

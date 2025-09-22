@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    920,
-    24
+    632,
+    850
   ]
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Runolfsdottir Group",
-    "AssociateId": 79,
-    "DetailsTable": 772,
-    "DetailsRecord": 842,
-    "IsSystemTask": true,
+    "Id": 751,
+    "Name": "Huel, Gutkowski and Torp",
+    "AssociateId": 19,
+    "DetailsTable": 588,
+    "DetailsRecord": 346,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "libero"
+      "ParameterObject1": "dicta",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2005-04-03T03:46:54.3007673+02:00",
-    "Created": "2022-04-07T03:46:54.3007673+02:00",
-    "StartCount": 956,
-    "DatabaseSerialNumber": "811505",
-    "Context": "illo",
-    "Result": "eum",
+    "LastStarted": "2011-08-27T11:24:47.6095526+02:00",
+    "Created": "2012-04-21T11:24:47.6095526+02:00",
+    "StartCount": 428,
+    "DatabaseSerialNumber": "389528",
+    "Context": "eum",
+    "Result": "veniam",
     "State": "All",
-    "Description": "Self-enabling tangible project",
-    "Response": "nostrum",
-    "Request": "esse",
-    "ProgressDescription": "Up-sized maximized protocol",
-    "ProgressPercent": 958,
-    "FileName": "Windler-Nienow",
+    "Description": "Cross-group neutral groupware",
+    "Response": "quia",
+    "Request": "nobis",
+    "ProgressDescription": "Switchable coherent attitude",
+    "ProgressPercent": 734,
+    "FileName": "Deckow-Trantow",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 849
       }
     }
   }

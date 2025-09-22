@@ -76,7 +76,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,21 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellat",
+  "odata.nextLink": "laborum",
   "value": [
     {
-      "PrimaryKey": 5683,
-      "EntityName": "sale",
-      "saleId": 5683,
-      "contactId": 5230,
-      "name": "Blick-Runolfsson"
+      "PrimaryKey": 9838,
+      "EntityName": "person",
+      "personId": 9838,
+      "fullName": "Baron Robel"
     },
     {
-      "PrimaryKey": 3796,
-      "EntityName": "sale",
-      "saleId": 3796,
-      "contactId": 8750,
-      "name": "Lowe, Brown and Oberbrunner"
+      "PrimaryKey": 5126,
+      "EntityName": "person",
+      "personId": 5126,
+      "fullName": "Oda Abshire MD"
     }
   ]
 }

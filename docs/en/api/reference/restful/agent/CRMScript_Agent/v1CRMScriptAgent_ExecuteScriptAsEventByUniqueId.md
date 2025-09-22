@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "asperiores",
+  "CRMScriptUniqueId": "nisi",
   "EventData": null
 }
 ```
@@ -111,34 +111,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "deserunt",
-    "InputValues2": "ea"
+    "InputValues1": "soluta",
+    "InputValues2": "quas"
   },
-  "BlockExecution": false,
-  "NavigateTo": "voluptatem",
-  "Message": "molestiae",
-  "ShowDialog": "vel",
+  "BlockExecution": true,
+  "NavigateTo": "voluptate",
+  "Message": "fuga",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "laudantium",
-    "OutputValues2": "fuga"
+    "OutputValues1": "et",
+    "OutputValues2": "eaque"
   },
   "StateValues": {
-    "StateValues1": "assumenda",
-    "StateValues2": "est"
+    "StateValues1": "quaerat",
+    "StateValues2": "quia"
   },
-  "Exception": "unde",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "soluta",
-    "ParserValues2": "repudiandae"
+    "ParserValues1": "eligendi",
+    "ParserValues2": "accusantium"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "rerum"
+    "CgiVariables1": "esse",
+    "CgiVariables2": "quae"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "illo",
   "Headers": {
-    "Headers1": "nostrum",
-    "Headers2": "illo"
+    "Headers1": "eveniet",
+    "Headers2": "possimus"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 624
     }
   }
 }

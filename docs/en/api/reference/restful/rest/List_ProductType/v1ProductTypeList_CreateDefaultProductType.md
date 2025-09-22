@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Block LLC",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "UdListDefinitionId": 459,
-  "Rank": 466,
+  "Id": 44,
+  "Name": "Runolfsson LLC",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "UdListDefinitionId": 243,
+  "Rank": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 141
     }
   }
 }

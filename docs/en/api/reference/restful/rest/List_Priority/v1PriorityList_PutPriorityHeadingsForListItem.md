@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Tillman Inc and Sons",
-    "ToolTip": "Consequatur eum magni recusandae esse ipsam quia.",
+    "Id": 321,
+    "Name": "Watsica Inc and Sons",
+    "ToolTip": "Sint consectetur a sit.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "est",
-    "ColorBlock": 438,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2018-07-23T03:47:00.7224209+02:00",
+    "Rank": 203,
+    "Type": "deleniti",
+    "ColorBlock": 952,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2011-01-03T11:24:53.9999166+01:00",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Baumbach Group",
-        "ToolTip": "Natus aut omnis et eum atque itaque.",
+        "Id": 801,
+        "Name": "Haley, Nienow and Dietrich",
+        "ToolTip": "Eligendi et enim fugiat ipsam explicabo commodi.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "ducimus",
-        "ColorBlock": 643,
-        "IconHint": "et",
+        "Rank": 487,
+        "Type": "debitis",
+        "ColorBlock": 448,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2002-02-19T03:47:00.7224209+01:00",
+        "LastChanged": "2012-01-18T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "sunt",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Litzy Pinkie Gusikowski DVM"
+        "FullName": "Dr. D'angelo Brakus"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Tatyana Langosh"
+    "ExtraInfo": "minus",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Mrs. Eleanora Rohan V"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Schimmel LLC",
-    "ToolTip": "Molestias sunt.",
+    "Id": 149,
+    "Name": "Crona LLC",
+    "ToolTip": "Cumque fuga enim voluptate voluptatem minima.",
     "Deleted": false,
-    "Rank": 734,
-    "Type": "suscipit",
-    "ColorBlock": 331,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2014-11-07T03:47:00.7224209+01:00",
+    "Rank": 867,
+    "Type": "rerum",
+    "ColorBlock": 643,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2005-10-13T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Est vel ad molestiae veniam quos.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "qui",
-        "ColorBlock": 146,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2009-03-25T03:47:00.7224209+01:00",
+        "Id": 475,
+        "Name": "Hettinger Group",
+        "ToolTip": "Aut quia neque quia.",
+        "Deleted": false,
+        "Rank": 65,
+        "Type": "minima",
+        "ColorBlock": 230,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2017-07-13T11:24:53.9999166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "magnam",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Laurel Kris",
+        "FullName": "Mrs. Bert Schumm DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 683
+            "FieldLength": 710
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "officia",
+    "ExtraInfo": "odio",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Mrs. Amelia Osborne Nolan DVM",
+    "FullName": "Clemens Stanton Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

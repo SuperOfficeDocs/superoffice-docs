@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 224,
-    "Name": "Baumbach, Heathcote and Hoppe",
-    "Description": "Profound client-driven leverage",
+    "ProjectId": 36,
+    "Name": "Kilback, Beer and Stokes",
+    "Description": "Sharable multimedia hardware",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 610,
-    "AssociateFullName": "Daron Brakus",
-    "TypeId": 770,
-    "Updated": "2008-12-13T03:46:55.1757421+01:00",
-    "StatusId": 428,
-    "Status": "recusandae",
-    "TextId": 588,
-    "PublishTo": "2003-02-14T03:46:55.1757421+01:00",
-    "PublishFrom": "2010-10-03T03:46:55.1757421+02:00",
-    "IsPublished": false,
+    "Type": "officia",
+    "AssociateId": 709,
+    "AssociateFullName": "Jeffrey Spinka",
+    "TypeId": 537,
+    "Updated": "2008-05-04T11:24:48.4845166+02:00",
+    "StatusId": 861,
+    "Status": "corporis",
+    "TextId": 597,
+    "PublishTo": "2011-08-29T11:24:48.4845166+02:00",
+    "PublishFrom": "2021-04-10T11:24:48.4845166+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1958447",
-    "ActiveErpLinks": 243,
+    "ProjectNumber": "1343578",
+    "ActiveErpLinks": 335,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 802
       }
     }
   }

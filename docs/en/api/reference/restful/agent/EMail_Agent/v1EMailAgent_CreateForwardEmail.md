@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 162,
-      "ContactName": "Tillman Group",
-      "PersonId": 83,
-      "PersonName": "Heller Inc and Sons",
-      "AssociateId": 239,
-      "Address": "atque",
-      "EmailId": 961,
+      "ContactId": 424,
+      "ContactName": "Champlin, Kertzmann and Sawayn",
+      "PersonId": 991,
+      "PersonName": "Weber, Metz and Wisoky",
+      "AssociateId": 351,
+      "Address": "et",
+      "EmailId": 132,
       "DuplicatePersonIds": [
-        785,
-        111
+        549,
+        641
       ],
-      "Name": "Cummerata, Macejkovic and Moore",
+      "Name": "Miller, Spencer and Halvorson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 330
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 504,
-      "ContactName": "Kling-Morar",
-      "PersonId": 324,
-      "PersonName": "Borer LLC",
-      "AssociateId": 300,
-      "Address": "dolor",
-      "EmailId": 45,
+      "ContactId": 263,
+      "ContactName": "Howell LLC",
+      "PersonId": 326,
+      "PersonName": "Runolfsson LLC",
+      "AssociateId": 722,
+      "Address": "quia",
+      "EmailId": 447,
       "DuplicatePersonIds": [
-        147,
-        528
+        85,
+        545
       ],
-      "Name": "Schinner-Abshire",
+      "Name": "Kulas, Luettgen and Paucek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 111,
-      "ContactName": "Brekke, Littel and Schroeder",
-      "PersonId": 802,
-      "PersonName": "Haley Inc and Sons",
-      "AssociateId": 692,
-      "Address": "vel",
-      "EmailId": 966,
+      "ContactId": 538,
+      "ContactName": "Dibbert, Osinski and Will",
+      "PersonId": 137,
+      "PersonName": "VonRueden Group",
+      "AssociateId": 251,
+      "Address": "id",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        175,
-        970
+        162,
+        866
       ],
-      "Name": "Bednar, Robel and Rosenbaum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
-        }
-      }
-    }
-  ],
-  "Subject": "omnis",
-  "HTMLBody": "velit",
-  "From": null,
-  "Sent": "2018-05-03T03:46:54.707009+02:00",
-  "Size": 489,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "animi",
-  "PlainBody": "quia",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 309,
-  "Attachments": [
-    {
-      "Description": "Pre-emptive directional policy",
-      "Filename": "rerum",
-      "Size": 180,
-      "Type": "vitae",
-      "Encoding": "dignissimos",
-      "Id": "soluta",
-      "Disposition": "ducimus",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Cummings Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 795
+          "FieldLength": 933
+        }
+      }
+    }
+  ],
+  "Subject": "voluptatibus",
+  "HTMLBody": "dolores",
+  "From": null,
+  "Sent": "2007-12-19T11:24:48.03141+01:00",
+  "Size": 846,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "expedita",
+  "PlainBody": "ut",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 683,
+  "Attachments": [
+    {
+      "Description": "Open-architected 3rd generation installation",
+      "Filename": "numquam",
+      "Size": 61,
+      "Type": "quis",
+      "Encoding": "sit",
+      "Id": "est",
+      "Disposition": "vel",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 916
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rutherford-Cole",
+      "Name": "Cremin-Botsford",
       "Values": [
-        "reiciendis",
-        "dignissimos"
+        "sit",
+        "neque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 291
         }
       }
     },
     {
-      "Name": "Rutherford-Cole",
+      "Name": "Cremin-Botsford",
       "Values": [
-        "reiciendis",
-        "dignissimos"
+        "sit",
+        "neque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 291
         }
       }
     }
   ],
-  "FolderName": "Hirthe, Stracke and Murphy",
-  "EmailItemId": 90,
-  "AccountId": 803,
-  "ReceivedAt": "2022-06-13T03:46:54.707009+02:00",
+  "FolderName": "Goodwin-Becker",
+  "EmailItemId": 64,
+  "AccountId": 979,
+  "ReceivedAt": "2005-12-24T11:24:48.03141+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-08-24T03:46:54.707009+02:00",
+  "RepliedAt": "1999-02-06T11:24:48.03141+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 639
     }
   }
 }

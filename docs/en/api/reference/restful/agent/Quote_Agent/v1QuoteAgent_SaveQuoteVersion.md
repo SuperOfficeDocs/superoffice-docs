@@ -112,7 +112,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 388,
-  "ERPQuoteVersionKey": "non",
-  "QuoteId": 8,
-  "Description": "Virtual logistical model",
-  "Number": "404393",
+  "QuoteVersionId": 861,
+  "ERPQuoteVersionKey": "voluptate",
+  "QuoteId": 535,
+  "Description": "Implemented discrete benchmark",
+  "Number": "1296153",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 658,
-  "SentDate": "2004-07-10T03:46:55.1913666+02:00",
-  "FollowupId": 669,
-  "ExpirationDate": "1998-09-13T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 121,
+  "LikelyQuoteAlternativeId": 884,
+  "SentDate": "2009-12-29T11:24:48.5157652+01:00",
+  "FollowupId": 846,
+  "ExpirationDate": "1999-03-14T11:24:48.5157652+01:00",
+  "DeliveryCountryId": 484,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 423,
+  "InvoiceCountryId": 861,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "delectus",
-  "ERPPaymentTypeKey": "numquam",
-  "ERPDeliveryTermsKey": "voluptatem",
-  "ERPDeliveryTypeKey": "assumenda",
-  "Rank": 941,
-  "ApprovedBy": 362,
-  "ApprovedText": "vel",
-  "ApprovedRegisteredBy": 691,
-  "ApprovedRegisteredDate": "2022-06-08T03:46:55.1913666+02:00",
-  "ExtraField1": "libero",
-  "ExtraField2": "et",
+  "ERPPaymentTermsKey": "aut",
+  "ERPPaymentTypeKey": "fugit",
+  "ERPDeliveryTermsKey": "quo",
+  "ERPDeliveryTypeKey": "excepturi",
+  "Rank": 306,
+  "ApprovedBy": 658,
+  "ApprovedText": "ad",
+  "ApprovedRegisteredBy": 386,
+  "ApprovedRegisteredDate": "2008-05-26T11:24:48.5157652+02:00",
+  "ExtraField1": "aliquam",
+  "ExtraField2": "numquam",
   "ExtraField3": "aspernatur",
-  "ExtraField4": "amet",
-  "ExtraField5": "similique",
-  "LastRecalculated": "2015-11-10T03:46:55.1913666+01:00",
-  "Updated": "2004-09-19T03:46:55.1913666+02:00",
-  "UpdatedAssociateId": 917,
-  "Registered": "2020-07-22T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 887,
-  "RequestAssociateId": 346,
-  "RequestComment": "nobis",
+  "ExtraField4": "aliquam",
+  "ExtraField5": "iusto",
+  "LastRecalculated": "2024-09-12T11:24:48.5157652+02:00",
+  "Updated": "2023-05-08T11:24:48.5157652+02:00",
+  "UpdatedAssociateId": 562,
+  "Registered": "2025-06-27T11:24:48.5157652+02:00",
+  "RegisteredAssociateId": 846,
+  "RequestAssociateId": 934,
+  "RequestComment": "iure",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 160,
-      "ERPQuoteAlternativeKey": "hic",
-      "QuoteVersionId": 92,
-      "Name": "Veum-Parisian",
-      "Description": "Open-source modular solution",
+      "QuoteAlternativeId": 821,
+      "ERPQuoteAlternativeKey": "maiores",
+      "QuoteVersionId": 516,
+      "Name": "Tillman-Keebler",
+      "Description": "Phased tertiary moderator",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11812.046,
-      "ERPDiscountAmount": 30757.075999999997,
-      "DiscountPercent": 2986.7019999999998,
-      "DiscountAmount": 25745.809999999998,
+      "ERPDiscountPercent": 27964.682,
+      "ERPDiscountAmount": 1773.844,
+      "DiscountPercent": 31104.95,
+      "DiscountAmount": 20794.09,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nesciunt",
-      "VAT": 16635.272,
-      "EarningPercent": 20314.588,
-      "EarningAmount": 1306.878,
-      "SubTotal": 20233.104,
-      "TotalPrice": 8897.426,
-      "ExtraField1": "illo",
-      "ExtraField2": "enim",
-      "ExtraField3": "fugiat",
-      "ExtraField4": "provident",
-      "ExtraField5": "sint",
+      "VATInfo": "quis",
+      "VAT": 8596.562,
+      "EarningPercent": 4707.268,
+      "EarningAmount": 26858.379999999997,
+      "SubTotal": 2554.21,
+      "TotalPrice": 3394.122,
+      "ExtraField1": "fuga",
+      "ExtraField2": "perspiciatis",
+      "ExtraField3": "vitae",
+      "ExtraField4": "maxime",
+      "ExtraField5": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldLength": 252
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 506
     }
   }
 }

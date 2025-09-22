@@ -95,147 +95,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 539,
-      "ContactName": "Bogisich LLC",
-      "PersonId": 477,
-      "PersonName": "Rodriguez, Connelly and Morissette",
-      "AssociateId": 420,
-      "Address": "qui",
-      "EmailId": 169,
+      "ContactId": 331,
+      "ContactName": "Sipes Inc and Sons",
+      "PersonId": 60,
+      "PersonName": "O'Reilly-Waters",
+      "AssociateId": 200,
+      "Address": "vel",
+      "EmailId": 299,
       "DuplicatePersonIds": [
-        75,
-        312
+        882,
+        877
       ],
-      "Name": "McDermott, Bode and Swift",
+      "Name": "Lind, Thompson and Haley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 803
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 727,
-      "ContactName": "DuBuque LLC",
-      "PersonId": 493,
-      "PersonName": "Reynolds Group",
-      "AssociateId": 66,
-      "Address": "voluptatum",
-      "EmailId": 2,
+      "ContactId": 135,
+      "ContactName": "Cronin LLC",
+      "PersonId": 405,
+      "PersonName": "Stamm-Franecki",
+      "AssociateId": 473,
+      "Address": "culpa",
+      "EmailId": 975,
       "DuplicatePersonIds": [
-        20,
-        981
+        203,
+        855
       ],
-      "Name": "Lesch, Heidenreich and Prohaska",
+      "Name": "Wunsch-Walker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldType": "System.Int32",
+          "FieldLength": 45
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 409,
-      "ContactName": "Crist LLC",
-      "PersonId": 779,
-      "PersonName": "Runte-Runolfsson",
-      "AssociateId": 906,
-      "Address": "qui",
-      "EmailId": 561,
+      "ContactId": 286,
+      "ContactName": "Blanda-Robel",
+      "PersonId": 183,
+      "PersonName": "Schneider-Connelly",
+      "AssociateId": 196,
+      "Address": "animi",
+      "EmailId": 816,
       "DuplicatePersonIds": [
-        162,
-        638
+        569,
+        686
       ],
-      "Name": "Auer-Koch",
+      "Name": "Bradtke-Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 350
         }
       }
     }
   ],
-  "Subject": "eligendi",
-  "HTMLBody": "quisquam",
+  "Subject": "quibusdam",
+  "HTMLBody": "recusandae",
   "From": null,
-  "Sent": "2010-12-02T03:46:54.7695066+01:00",
-  "Size": 201,
+  "Sent": "2011-02-21T11:24:48.078283+01:00",
+  "Size": 206,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quis",
-  "PlainBody": "aspernatur",
-  "IsSent": false,
+  "MessageID": "distinctio",
+  "PlainBody": "consequatur",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 483,
+  "ServerId": 88,
   "Attachments": [
     {
-      "Description": "Visionary bandwidth-monitored leverage",
-      "Filename": "ut",
-      "Size": 646,
-      "Type": "est",
-      "Encoding": "eveniet",
-      "Id": "laboriosam",
-      "Disposition": "rem",
+      "Description": "Balanced homogeneous internet solution",
+      "Filename": "nostrum",
+      "Size": 312,
+      "Type": "et",
+      "Encoding": "delectus",
+      "Id": "quam",
+      "Disposition": "voluptatem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stracke Group",
+      "Name": "Leffler Inc and Sons",
       "Values": [
-        "quia",
-        "ea"
+        "ut",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 5
         }
       }
     },
     {
-      "Name": "Stracke Group",
+      "Name": "Leffler Inc and Sons",
       "Values": [
-        "quia",
-        "ea"
+        "ut",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 5
         }
       }
     }
   ],
-  "FolderName": "Kutch-Lowe",
-  "EmailItemId": 509,
-  "AccountId": 660,
-  "ReceivedAt": "2023-08-27T03:46:54.7695066+02:00",
+  "FolderName": "Harber-Von",
+  "EmailItemId": 421,
+  "AccountId": 305,
+  "ReceivedAt": "2006-06-30T11:24:48.078283+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-04-19T03:46:54.7695066+02:00",
+  "RepliedAt": "2007-03-19T11:24:48.078283+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -243,8 +243,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 875
     }
   }
 }

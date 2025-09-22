@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 332,
-    "Value": "consectetur",
-    "Tooltip": "veniam",
-    "Probability": 855,
+    "SaleStageId": 175,
+    "Value": "eaque",
+    "Tooltip": "quidem",
+    "Probability": 875,
     "Deleted": false,
-    "Rank": 830,
+    "Rank": 392,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldType": "System.String",
+        "FieldLength": 128
       }
     }
   }

@@ -91,7 +91,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 385,
-    "ColumnId": 683,
-    "FieldDefault": "at",
-    "FieldHeight": 371,
-    "FieldLabel": "sit",
-    "FieldLeft": 309,
-    "FieldTop": 20,
+    "UDefFieldId": 294,
+    "ColumnId": 967,
+    "FieldDefault": "aut",
+    "FieldHeight": 728,
+    "FieldLabel": "earum",
+    "FieldLeft": 844,
+    "FieldTop": 629,
     "FieldType": "Checkbox",
-    "FieldWidth": 756,
-    "FormatMask": "laudantium",
-    "HideLabel": true,
+    "FieldWidth": 101,
+    "FormatMask": "repudiandae",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 932,
-    "LabelLeft": 539,
-    "LabelTop": 763,
-    "LabelWidth": 590,
-    "LastVersionId": 952,
-    "ListTableId": 992,
+    "LabelHeight": 153,
+    "LabelLeft": 313,
+    "LabelTop": 148,
+    "LabelWidth": 13,
+    "LastVersionId": 331,
+    "ListTableId": 362,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 569,
-    "ProgId": "officia",
-    "IsReadOnly": true,
-    "ShortLabel": "expedita",
-    "TabOrder": 493,
-    "TextLength": 391,
-    "Tooltip": "iusto",
-    "UdefIdentity": 673,
-    "UDListDefinitionId": 821,
+    "Page1LineNo": 962,
+    "ProgId": "qui",
+    "IsReadOnly": false,
+    "ShortLabel": "omnis",
+    "TabOrder": 475,
+    "TextLength": 344,
+    "Tooltip": "distinctio",
+    "UdefIdentity": 443,
+    "UDListDefinitionId": 391,
     "Justification": "Center",
-    "Version": 586,
-    "TemplateVariableName": "Parisian, Lebsack and Jakubowski",
-    "HasBeenPublished": true,
-    "MdoListName": "Dickinson-VonRueden",
+    "Version": 973,
+    "TemplateVariableName": "Satterfield, Huels and O'Kon",
+    "HasBeenPublished": false,
+    "MdoListName": "Grant Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldLength": 867
       }
     }
   }

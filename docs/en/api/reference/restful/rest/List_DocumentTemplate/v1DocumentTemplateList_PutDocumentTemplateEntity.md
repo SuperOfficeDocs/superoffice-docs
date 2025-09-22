@@ -119,34 +119,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 636,
-  "Name": "Boehm-Bode",
-  "Tooltip": "corporis",
-  "SaveInDb": 104,
-  "Filename": "dolorem",
-  "DefaultOref": "praesentium",
+  "DocumentTemplateId": 24,
+  "Name": "Romaguera, Weber and Lynch",
+  "Tooltip": "velit",
+  "SaveInDb": 247,
+  "Filename": "consequatur",
+  "DefaultOref": "id",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 556,
-  "IntentId": 639,
-  "IsDefaultPublished": true,
-  "Rank": 460,
-  "LoadTemplateFromPlugin": 487,
-  "MimeType": "accusantium",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 942,
+  "AutoeventId": 439,
+  "IntentId": 67,
+  "IsDefaultPublished": false,
+  "Rank": 47,
+  "LoadTemplateFromPlugin": 381,
+  "MimeType": "voluptatum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 153,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "genevieve_baumbach@hamill.uk",
+  "EmailSubject": "freida@funk.uk",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonora_pfannerstill@mraz.info",
+  "SenderEmailAddress": "shanie@kub.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -158,37 +158,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 627,
-  "Name": "Keeling-Kessler",
-  "Tooltip": "id",
-  "SaveInDb": 975,
-  "Filename": "fugiat",
-  "DefaultOref": "ea",
+  "DocumentTemplateId": 835,
+  "Name": "O'Kon-Tillman",
+  "Tooltip": "sed",
+  "SaveInDb": 7,
+  "Filename": "eos",
+  "DefaultOref": "sit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 793,
-  "IntentId": 483,
+  "AutoeventId": 794,
+  "IntentId": 362,
   "IsDefaultPublished": false,
-  "Rank": 387,
-  "LoadTemplateFromPlugin": 574,
-  "MimeType": "nesciunt",
+  "Rank": 802,
+  "LoadTemplateFromPlugin": 349,
+  "MimeType": "assumenda",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 43,
+  "DocumentTypeKey": 431,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rodger@sanfordabernathy.name",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "kiarra@baileyklocko.co.uk",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jewel@krajcik.uk",
+  "SenderEmailAddress": "alec@heathcotestreich.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 651
     }
   }
 }

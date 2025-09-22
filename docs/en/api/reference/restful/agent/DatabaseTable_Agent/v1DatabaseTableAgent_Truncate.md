@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutkowski, Crooks and Haley"
+  "TableName": "Schroeder-Schroeder"
 }
 ```
 
@@ -96,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "adipisci",
-  "Inserts": 239,
-  "Updates": 499,
-  "Deletes": 567,
+  "Success": false,
+  "Message": "cumque",
+  "Inserts": 249,
+  "Updates": 860,
+  "Deletes": 789,
   "RowStatus": [
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 327,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "consequatur",
+        "aliquid"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 109
         }
       }
     },
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 327,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "consequatur",
+        "aliquid"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 109
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldLength": 615
     }
   }
 }

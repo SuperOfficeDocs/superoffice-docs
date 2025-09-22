@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Wehner-Morar",
-    "ToolTip": "Amet cum odit vitae maxime.",
+    "Id": 655,
+    "Name": "Feest-Krajcik",
+    "ToolTip": "Eaque aut sit.",
     "Deleted": true,
-    "Rank": 895,
-    "Type": "eum",
-    "ColorBlock": 928,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2024-12-24T03:47:00.8005429+01:00",
+    "Rank": 954,
+    "Type": "velit",
+    "ColorBlock": 821,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2005-04-09T11:24:54.1249113+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Erdman-Kerluke",
-        "ToolTip": "Et adipisci tempora modi.",
+        "Id": 35,
+        "Name": "Ritchie, Price and Borer",
+        "ToolTip": "Molestiae aperiam qui est rerum.",
         "Deleted": false,
-        "Rank": 93,
-        "Type": "numquam",
-        "ColorBlock": 631,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2005-08-19T03:47:00.8005429+02:00",
+        "Rank": 131,
+        "Type": "facilis",
+        "ColorBlock": 985,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2003-08-23T11:24:54.1249113+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "earum",
+        "ExtraInfo": "cum",
+        "StyleHint": "debitis",
         "Hidden": true,
-        "FullName": "Olaf McGlynn",
+        "FullName": "Wellington Oren Barton I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldType": "System.String",
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Garnet Murray PhD",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "quasi",
+    "Hidden": false,
+    "FullName": "Dr. Aliya Romaguera V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

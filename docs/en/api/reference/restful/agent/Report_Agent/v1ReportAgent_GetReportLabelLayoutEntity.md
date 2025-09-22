@@ -27,7 +27,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=340
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=982
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -89,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 971,
-  "Name": "Gutmann-Kuphal",
-  "Description": "Multi-lateral foreground approach",
+  "ReportLabelLayoutId": 928,
+  "Name": "Strosin, Rosenbaum and Gibson",
+  "Description": "Extended holistic capacity",
   "Orientation": "Landscape",
-  "PaperWidth": 832,
-  "PaperHeight": 33,
-  "LeftMargin": 582,
-  "RightMargin": 640,
-  "TopMargin": 521,
-  "BottomMargin": 41,
-  "CountColumns": 409,
-  "CountRows": 422,
+  "PaperWidth": 694,
+  "PaperHeight": 572,
+  "LeftMargin": 744,
+  "RightMargin": 14,
+  "TopMargin": 641,
+  "BottomMargin": 230,
+  "CountColumns": 997,
+  "CountRows": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

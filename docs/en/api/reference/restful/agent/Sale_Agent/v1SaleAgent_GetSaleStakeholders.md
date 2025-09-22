@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 809
+  "SaleId": 582
 }
 ```
 
@@ -108,31 +108,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Weber LLC",
-    "Comment": "perspiciatis",
-    "StakeholderRoleId": 541,
-    "CountryId": 865,
-    "PersonId": 528,
-    "EmailDescription": "winnifred.anderson@west.biz",
-    "EmailId": 101,
-    "EmailAddress": "imani@beatty.name",
-    "PhoneId": 887,
-    "ContactName": "Pacocha, Cremin and Corwin",
-    "ContactId": 610,
-    "SaleId": 690,
-    "Mrmrs": "et",
-    "Firstname": "Jess",
-    "MiddleName": "Toy, Daugherty and Witting",
-    "Lastname": "Walker",
-    "SaleStakeholderId": 294,
-    "Rank": 423,
-    "Phone": "614-525-3108",
+    "StakeholderRoleName": "Reilly Group",
+    "Comment": "saepe",
+    "StakeholderRoleId": 986,
+    "CountryId": 552,
+    "PersonId": 427,
+    "EmailDescription": "delphine_becker@howell.name",
+    "EmailId": 319,
+    "EmailAddress": "rosendo_cummerata@hoeger.biz",
+    "PhoneId": 522,
+    "ContactName": "Hauck, Ruecker and Morar",
+    "ContactId": 702,
+    "SaleId": 545,
+    "Mrmrs": "eum",
+    "Firstname": "Wyman",
+    "MiddleName": "Blanda Inc and Sons",
+    "Lastname": "Willms",
+    "SaleStakeholderId": 153,
+    "Rank": 786,
+    "Phone": "1-893-752-6516 x00040",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldType": "System.String",
+        "FieldLength": 46
       }
     }
   }

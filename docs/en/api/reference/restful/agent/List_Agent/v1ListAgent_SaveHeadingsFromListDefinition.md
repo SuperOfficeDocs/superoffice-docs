@@ -80,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
+  "Id": 467,
   "Entities": [
     {
-      "HeadingId": 51,
-      "Name": "Medhurst Inc and Sons",
-      "Tooltip": "illo",
+      "HeadingId": 659,
+      "Name": "Kovacek Group",
+      "Tooltip": "ratione",
       "Deleted": true,
-      "Rank": 994,
-      "UdListDefinitionId": 172
+      "Rank": 78,
+      "UdListDefinitionId": 483
     },
     {
-      "HeadingId": 51,
-      "Name": "Medhurst Inc and Sons",
-      "Tooltip": "illo",
+      "HeadingId": 659,
+      "Name": "Kovacek Group",
+      "Tooltip": "ratione",
       "Deleted": true,
-      "Rank": 994,
-      "UdListDefinitionId": 172
+      "Rank": 78,
+      "UdListDefinitionId": 483
     }
   ]
 }
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Little Group",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 147,
-    "UdListDefinitionId": 350,
+    "HeadingId": 650,
+    "Name": "Grimes Group",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "Rank": 240,
+    "UdListDefinitionId": 760,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 927
       }
     }
   }

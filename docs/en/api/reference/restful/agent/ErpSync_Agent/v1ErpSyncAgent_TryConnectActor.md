@@ -76,30 +76,30 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 588,
-  "CrmRecordId": 207,
+  "ErpConnectionId": 700,
+  "CrmRecordId": 251,
   "CrmActorType": "Contact",
-  "ErpKey": "alias",
+  "ErpKey": "aliquam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hoppe, Purdy and Fadel",
-      "CrmFieldKey": "sint",
-      "Value": "velit",
-      "DisplayValue": "tenetur",
-      "SyncToCrm": false,
+      "DisplayName": "Tillman, Deckow and Towne",
+      "CrmFieldKey": "similique",
+      "Value": "excepturi",
+      "DisplayValue": "voluptates",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Hoppe, Purdy and Fadel",
-      "CrmFieldKey": "sint",
-      "Value": "velit",
-      "DisplayValue": "tenetur",
-      "SyncToCrm": false,
+      "DisplayName": "Tillman, Deckow and Towne",
+      "CrmFieldKey": "similique",
+      "Value": "excepturi",
+      "DisplayValue": "voluptates",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

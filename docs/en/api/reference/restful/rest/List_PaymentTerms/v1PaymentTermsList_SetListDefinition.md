@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Lebsack-Glover",
-  "Tooltip": "excepturi",
+  "Id": 682,
+  "Name": "Swift-Olson",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 126,
+  "Rank": 735,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "illo",
+  "Id": 369,
+  "Name": "Gleichner Inc and Sons",
+  "Tooltip": "dicta",
   "Deleted": true,
-  "Rank": 437,
+  "Rank": 329,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 873
     }
   }
 }

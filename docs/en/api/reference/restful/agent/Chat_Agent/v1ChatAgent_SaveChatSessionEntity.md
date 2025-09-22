@@ -124,33 +124,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 49,
-  "TopicId": 964,
+  "ChatSessionId": 944,
+  "TopicId": 863,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "similique",
-  "CustomerName": "Ledner-Berge",
-  "CustomerEmail": "pasquale.graham@wardcummerata.com",
-  "CustomerPhone": "(486)442-6515",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Emmerich, Tremblay and Rowe",
+  "CustomerAlias": "est",
+  "CustomerHost": "eius",
+  "CustomerName": "Wolf LLC",
+  "CustomerEmail": "garret@hirtheluettgen.co.uk",
+  "CustomerPhone": "200.837.5420 x0413",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Abernathy Group",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "suscipit",
-  "WhenRequested": "2021-05-15T03:46:54.3320222+02:00",
-  "WhenStarted": "2013-08-12T03:46:54.3320222+02:00",
-  "WhenEnded": "2016-12-19T03:46:54.3320222+01:00",
-  "WhenIdle": "1998-12-25T03:46:54.3320222+01:00",
-  "WhenFetched": "2015-06-21T03:46:54.3320222+02:00",
-  "SessionKey": "officia",
-  "InitialQueuePos": 790,
-  "AlertLevel": 945,
-  "Rank": 645,
+  "FirstMessage": "id",
+  "LastMessage": "asperiores",
+  "WhenRequested": "2009-08-23T11:24:47.6408014+02:00",
+  "WhenStarted": "1999-09-16T11:24:47.6408014+02:00",
+  "WhenEnded": "2000-09-21T11:24:47.6408014+02:00",
+  "WhenIdle": "2016-06-16T11:24:47.6408014+02:00",
+  "WhenFetched": "2001-04-16T11:24:47.6408014+02:00",
+  "SessionKey": "at",
+  "InitialQueuePos": 570,
+  "AlertLevel": 678,
+  "Rank": 512,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 623
+  "Rating": 768
 }
 ```
 
@@ -169,29 +169,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 659,
-  "TopicId": 607,
+  "ChatSessionId": 728,
+  "TopicId": 185,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repudiandae",
-  "CustomerHost": "qui",
-  "CustomerName": "Dach-Spencer",
-  "CustomerEmail": "daryl.murazik@schaeferyost.ca",
-  "CustomerPhone": "(205)085-8171 x21171",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Dare Inc and Sons",
+  "CustomerAlias": "sit",
+  "CustomerHost": "nobis",
+  "CustomerName": "Corkery-DuBuque",
+  "CustomerEmail": "retta@wymankeebler.name",
+  "CustomerPhone": "771-590-4921",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Tremblay, Dicki and Cole",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "omnis",
-  "WhenRequested": "2017-12-19T03:46:54.3320222+01:00",
-  "WhenStarted": "2013-01-25T03:46:54.3320222+01:00",
-  "WhenEnded": "2007-11-15T03:46:54.3320222+01:00",
-  "WhenIdle": "2017-10-02T03:46:54.3320222+02:00",
-  "WhenFetched": "2018-09-30T03:46:54.3320222+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 117,
-  "AlertLevel": 168,
-  "Rank": 869,
+  "FirstMessage": "omnis",
+  "LastMessage": "et",
+  "WhenRequested": "2023-06-02T11:24:47.6408014+02:00",
+  "WhenStarted": "2015-12-11T11:24:47.6408014+01:00",
+  "WhenEnded": "1999-01-06T11:24:47.6408014+01:00",
+  "WhenIdle": "2008-10-14T11:24:47.6408014+02:00",
+  "WhenFetched": "2009-12-02T11:24:47.6408014+01:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 294,
+  "AlertLevel": 118,
+  "Rank": 838,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -199,13 +199,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 236,
+  "Rating": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 395
     }
   }
 }

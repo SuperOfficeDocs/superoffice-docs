@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 995,
-  "Currency": "nam"
+  "QuoteConnectionId": 742,
+  "Currency": "qui"
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 931,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 56,
-    "Name": "Cole-Jacobson",
-    "Description": "Re-contextualized uniform monitoring",
-    "Currency": "ab",
-    "CurrencyName": "Mann, Ryan and Streich",
-    "ValidFrom": "2000-06-27T03:46:55.2226157+02:00",
-    "ValidTo": "2016-02-29T03:46:55.2226157+01:00",
-    "IsActive": false,
+    "PriceListId": 577,
+    "ERPPriceListKey": "distinctio",
+    "QuoteConnectionId": 797,
+    "Name": "Feest-Crist",
+    "Description": "Realigned coherent hub",
+    "Currency": "unde",
+    "CurrencyName": "Thompson-Kris",
+    "ValidFrom": "2004-09-27T11:24:48.5313897+02:00",
+    "ValidTo": "2024-05-21T11:24:48.5313897+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 658
       }
     }
   }

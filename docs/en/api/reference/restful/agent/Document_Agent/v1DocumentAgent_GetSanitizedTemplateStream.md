@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kovacek, Rosenbaum and Schultz",
-  "AllowPersonal": true,
-  "UiCulture": "excepturi"
+  "TemplateName": "Schulist-Bergstrom",
+  "AllowPersonal": false,
+  "UiCulture": "exercitationem"
 }
 ```
 

@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Nader, Bergnaum and Fadel",
-  "Tooltip": "sapiente",
+  "Id": 829,
+  "Name": "Dibbert LLC",
+  "Tooltip": "harum",
   "Deleted": false,
-  "UdListDefinitionId": 560,
-  "Rank": 730,
+  "UdListDefinitionId": 723,
+  "Rank": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

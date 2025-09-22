@@ -68,34 +68,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Funk Group",
-  "StorageKey": "numquam",
+  "StorageType": "perferendis",
+  "ProviderName": "Yost LLC",
+  "StorageKey": "repellendus",
   "Restrictions": [
     {
-      "Name": "Hackett Inc and Sons",
-      "Operator": "beatae",
+      "Name": "Little-Olson",
+      "Operator": "veritatis",
       "Values": [
-        "iure",
-        "hic"
+        "distinctio",
+        "cumque"
       ],
       "DisplayValues": [
-        "rerum",
-        "dolor"
+        "repellendus",
+        "nulla"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 857,
+      "InterParenthesis": 359,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 874
     }
   ]
 }

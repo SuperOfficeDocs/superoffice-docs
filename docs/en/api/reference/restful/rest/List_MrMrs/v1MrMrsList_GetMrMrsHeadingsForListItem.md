@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Mueller Group",
-    "ToolTip": "Iure veniam.",
-    "Deleted": false,
-    "Rank": 884,
-    "Type": "consequatur",
-    "ColorBlock": 187,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2011-09-15T03:47:00.6755475+02:00",
+    "Id": 903,
+    "Name": "Stoltenberg-Prosacco",
+    "ToolTip": "Saepe quia iste nobis.",
+    "Deleted": true,
+    "Rank": 757,
+    "Type": "saepe",
+    "ColorBlock": 434,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "1998-06-21T11:24:53.9530436+02:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Gutkowski, Emard and Stoltenberg",
-        "ToolTip": "Ullam accusamus error ea dolorum.",
-        "Deleted": true,
-        "Rank": 369,
-        "Type": "animi",
-        "ColorBlock": 44,
-        "IconHint": "illo",
-        "Selected": false,
-        "LastChanged": "2019-12-03T03:47:00.6755475+01:00",
+        "Id": 906,
+        "Name": "Nicolas LLC",
+        "ToolTip": "Et excepturi eos dicta.",
+        "Deleted": false,
+        "Rank": 863,
+        "Type": "quis",
+        "ColorBlock": 31,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2010-05-01T11:24:53.9530436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Ms. Keely Retha Toy III",
+        "ExtraInfo": "nihil",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Zula Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldType": "System.Int32",
+            "FieldLength": 973
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "dolores",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Bella Herman",
+    "FullName": "Prof. Magnolia Aric Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 362
       }
     }
   }

@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 328,
-  "TableName": "Marquardt-Kling",
+  "RoleId": 796,
+  "TableName": "Russel, Kuphal and Crona",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repellat"
+"quo"
 ```

@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,36 +90,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 72,
-  "ParentId": 567,
-  "Name": "Kutch, Robel and Skiles",
-  "Fullname": "odit",
-  "CategoryMaster": 700,
+  "TicketCategoryId": 33,
+  "ParentId": 580,
+  "Name": "Lehner LLC",
+  "Fullname": "dicta",
+  "CategoryMaster": 26,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Daniel, McLaughlin and Schneider",
+  "ExternalName": "Thiel, Sanford and Satterfield",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 174,
-  "ReplyTemplate": 991,
-  "NotificationEmail": "carlotta_cummings@tillman.us",
+  "AssignmentLag": 377,
+  "ReplyTemplate": 300,
+  "NotificationEmail": "edyth@mertz.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 47,
+  "EffectiveReplyTemplateId": 678,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "expedita"
+    "CustomFields1": "molestias",
+    "CustomFields2": "odio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 930
     }
   }
 }

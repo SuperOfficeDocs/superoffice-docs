@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    655,
-    698
+    826,
+    527
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 627,
-    "MessageId": "dolor",
-    "Subject": "accusantium",
+    "ServerId": 303,
+    "MessageId": "et",
+    "Subject": "quos",
     "From": null,
     "To": [
       {
-        "ContactId": 94,
-        "ContactName": "Beatty, Kassulke and Koch",
-        "PersonId": 401,
-        "PersonName": "Kessler-Lowe",
-        "AssociateId": 943,
-        "Address": "sed",
-        "EmailId": 129,
+        "ContactId": 617,
+        "ContactName": "Thiel-Gerlach",
+        "PersonId": 486,
+        "PersonName": "Friesen Inc and Sons",
+        "AssociateId": 321,
+        "Address": "sunt",
+        "EmailId": 450,
         "DuplicatePersonIds": [
-          890,
-          257
+          34,
+          794
         ],
-        "Name": "Douglas LLC",
+        "Name": "Weber, Lebsack and Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldType": "System.String",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "Sent": "2007-11-27T03:46:54.7226337+01:00",
+    "Sent": "2009-12-31T11:24:48.03141+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 184,
+    "Size": 721,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 40
       }
     }
   }

@@ -68,22 +68,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Botsford-Orn",
+  "ProviderName": "Sauer-Pacocha",
   "Restrictions": [
     {
-      "Name": "Kub-Beier",
-      "Operator": "quos",
+      "Name": "Hartmann LLC",
+      "Operator": "maiores",
       "Values": [
-        "iure",
-        "vel"
+        "possimus",
+        "dolor"
       ],
       "DisplayValues": [
-        "minima",
-        "temporibus"
+        "eligendi",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -91,13 +91,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 841,
+      "InterParenthesis": 901,
       "InterOperator": "And",
-      "UniqueHash": 520
+      "UniqueHash": 241
     }
   ],
-  "AssociateId": 67,
-  "ExtraInfo": "deserunt"
+  "AssociateId": 131,
+  "ExtraInfo": "corrupti"
 }
 ```
 

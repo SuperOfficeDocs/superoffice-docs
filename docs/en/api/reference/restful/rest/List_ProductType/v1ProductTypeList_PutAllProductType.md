@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Windler-Kuvalis",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 806
+    "Id": 432,
+    "Name": "Gaylord-Smith",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 761,
+    "Rank": 285
   },
   {
-    "Id": 402,
-    "Name": "Windler-Kuvalis",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 806
+    "Id": 432,
+    "Name": "Gaylord-Smith",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 761,
+    "Rank": 285
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Crist Group",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "UdListDefinitionId": 103,
-    "Rank": 862,
+    "Id": 856,
+    "Name": "Glover Group",
+    "Tooltip": "error",
+    "Deleted": false,
+    "UdListDefinitionId": 555,
+    "Rank": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 621
       }
     }
   }

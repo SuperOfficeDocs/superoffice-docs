@@ -104,10 +104,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 249,
+  "TicketId": 974,
   "MessageIds": [
-    719,
-    164
+    763,
+    710
   ]
 }
 ```
@@ -120,79 +120,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 490,
+    "EjMessageId": 755,
     "Ticket": null,
-    "CreatedAt": "2019-10-17T03:46:55.51948+02:00",
+    "CreatedAt": "2003-07-12T11:24:48.8438771+02:00",
     "CreatedBy": null,
-    "Author": "accusamus",
+    "Author": "aut",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "qui",
-    "TimeSpent": 717,
-    "Body": "odit",
-    "HtmlBody": "qui",
-    "EmailHeader": "tatyana@sporer.name",
-    "DebugInfo": "et",
-    "MailSorter": "quas",
+    "MessageId": "molestiae",
+    "TimeSpent": 806,
+    "Body": "adipisci",
+    "HtmlBody": "voluptas",
+    "EmailHeader": "alysha@johnstonratke.co.uk",
+    "DebugInfo": "laboriosam",
+    "MailSorter": "possimus",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "sit",
+    "SearchTitle": "ut",
     "MessageHeaders": [
       {
-        "Id": 715,
-        "Name": "Hauck-Lowe",
-        "Value": "molestiae",
+        "Id": 585,
+        "Name": "Wolf, Schmeler and Raynor",
+        "Value": "nam",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 738
+            "FieldType": "System.String",
+            "FieldLength": 160
           }
         }
       }
     ],
     "Important": false,
-    "Language": "perferendis",
-    "Sentiment": 18,
-    "SentimentConfidence": 689,
+    "Language": "et",
+    "Sentiment": 594,
+    "SentimentConfidence": 433,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 11,
-        "Name": "Kozey, Homenick and Heller",
-        "ContentType": "impedit",
-        "AttSize": 33,
+        "AttachmentId": 916,
+        "Name": "Howe Inc and Sons",
+        "ContentType": "aut",
+        "AttSize": 906,
         "InlineImage": true,
-        "ContentId": "ducimus",
-        "AuthKey": "qui",
+        "ContentId": "nulla",
+        "AuthKey": "omnis",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 432
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "deserunt",
-      "ExtraFields2": "velit"
+      "ExtraFields1": "numquam",
+      "ExtraFields2": "voluptatem"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "atque"
+      "CustomFields1": "cumque",
+      "CustomFields2": "sit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 828
       }
     }
   }

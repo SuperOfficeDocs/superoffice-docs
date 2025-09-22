@@ -26,7 +26,7 @@ Deletes the ListEntity
 | listEntityId | int32 | **Required** The identity of the ListEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteListEntity?listEntityId=933
+POST /api/v1/Agents/List/DeleteListEntity?listEntityId=784
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

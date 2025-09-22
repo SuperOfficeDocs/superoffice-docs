@@ -84,18 +84,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "molestias",
-  "RecordId": 917,
-  "CreatedDate": "2020-12-27T03:47:00.0349452+01:00",
-  "UpdatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "quisquam",
-  "TableName": "Goyette-Braun"
+  "Key": "ut",
+  "Value": "voluptate",
+  "RecordId": 373,
+  "CreatedDate": "2015-06-09T11:24:53.2968202+02:00",
+  "UpdatedDate": "2003-11-02T11:24:53.2968202+01:00",
+  "UpdatedBy": "doloremque",
+  "CreatedBy": "officiis",
+  "TableName": "Medhurst, Wolf and Klein"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "recusandae",
-  "Value": "minus",
-  "RecordId": 646,
-  "CreatedDate": "2003-07-06T03:47:00.0349452+02:00",
-  "UpdatedDate": "2024-07-16T03:47:00.0349452+02:00",
-  "UpdatedBy": "laborum",
-  "CreatedBy": "eum",
-  "TableName": "Dickens Inc and Sons",
+  "Key": "incidunt",
+  "Value": "ipsum",
+  "RecordId": 239,
+  "CreatedDate": "2009-11-16T11:24:53.2968202+01:00",
+  "UpdatedDate": "2006-05-30T11:24:53.2968202+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "rerum",
+  "TableName": "Blick, Gaylord and Rath",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 858
     }
   }
 }

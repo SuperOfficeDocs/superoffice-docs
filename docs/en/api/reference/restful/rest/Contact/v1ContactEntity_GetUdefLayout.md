@@ -91,7 +91,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 739,
-    "ColumnId": 177,
-    "FieldDefault": "amet",
-    "FieldHeight": 985,
-    "FieldLabel": "rerum",
-    "FieldLeft": 931,
-    "FieldTop": 216,
+    "UDefFieldId": 815,
+    "ColumnId": 850,
+    "FieldDefault": "quos",
+    "FieldHeight": 60,
+    "FieldLabel": "asperiores",
+    "FieldLeft": 336,
+    "FieldTop": 325,
     "FieldType": "Checkbox",
-    "FieldWidth": 941,
-    "FormatMask": "qui",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 106,
-    "LabelLeft": 159,
-    "LabelTop": 845,
-    "LabelWidth": 110,
-    "LastVersionId": 340,
-    "ListTableId": 462,
-    "IsMandatory": true,
+    "FieldWidth": 169,
+    "FormatMask": "quis",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 391,
+    "LabelLeft": 99,
+    "LabelTop": 735,
+    "LabelWidth": 198,
+    "LastVersionId": 503,
+    "ListTableId": 472,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 948,
-    "ProgId": "sapiente",
-    "IsReadOnly": true,
-    "ShortLabel": "nobis",
-    "TabOrder": 983,
-    "TextLength": 268,
-    "Tooltip": "impedit",
-    "UdefIdentity": 187,
-    "UDListDefinitionId": 549,
+    "Page1LineNo": 9,
+    "ProgId": "quae",
+    "IsReadOnly": false,
+    "ShortLabel": "fuga",
+    "TabOrder": 628,
+    "TextLength": 740,
+    "Tooltip": "fuga",
+    "UdefIdentity": 927,
+    "UDListDefinitionId": 221,
     "Justification": "Center",
-    "Version": 344,
-    "TemplateVariableName": "O'Hara-Jast",
+    "Version": 965,
+    "TemplateVariableName": "Mosciski-Parker",
     "HasBeenPublished": false,
-    "MdoListName": "Anderson-Blanda",
+    "MdoListName": "Jast Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 904
       }
     }
   }

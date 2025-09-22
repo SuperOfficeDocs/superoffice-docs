@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 854,
-  "Name": "Will Group",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 74,
-  "Filename": "error",
-  "Parameters": "adipisci",
-  "Workdir": "reprehenderit",
+  "ExtAppId": 924,
+  "Name": "Conn-Will",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 212,
+  "Filename": "nostrum",
+  "Parameters": "saepe",
+  "Workdir": "qui",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 653,
-  "WaitToFinish": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 355,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "minus",
+  "Path": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

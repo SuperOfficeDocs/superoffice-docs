@@ -119,6 +119,8 @@ ProjectMember  updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -129,18 +131,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -153,33 +155,35 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 455,
-  "ContactId": 285,
-  "ProjectId": 173,
-  "ContactName": "Bins-Walter",
+  "ProjectmemberId": 551,
+  "ContactId": 493,
+  "ProjectId": 673,
+  "ContactName": "Harvey-Buckridge",
   "ContactDepartment": "",
-  "ProjectName": "Reichert Inc and Sons",
-  "EmailId": 25,
-  "EmailAddress": "earl@corkery.name",
-  "CountryId": 919,
-  "Firstname": "Nathen",
-  "MiddleName": "Hoppe Inc and Sons",
-  "Lastname": "Metz",
-  "PersonId": 166,
-  "Mrmrs": "nesciunt",
-  "ProjectMemberTypeName": "Hayes LLC",
-  "Phone": "551-966-2810",
-  "PhoneId": 415,
-  "ProjectMemberTypeId": 469,
-  "EmailAddressName": "brooklyn@stehrzemlak.name",
-  "Comment": "qui",
-  "FullName": "Dr. Lauryn Mills",
+  "ProjectName": "Stracke-Hammes",
+  "EmailId": 529,
+  "EmailAddress": "cyrus_hermann@lehner.uk",
+  "CountryId": 68,
+  "Firstname": "Jacky",
+  "MiddleName": "Brekke-Hagenes",
+  "Lastname": "Erdman",
+  "PersonId": 705,
+  "Mrmrs": "odit",
+  "ProjectMemberTypeName": "Donnelly LLC",
+  "Phone": "112.588.9547",
+  "PhoneId": 471,
+  "ProjectMemberTypeId": 756,
+  "EmailAddressName": "devon@homenick.info",
+  "Comment": "aspernatur",
+  "FullName": "Jonas Gutmann",
+  "Registered": "2006-07-12T11:24:53.7655512+02:00",
+  "Updated": "2009-07-12T11:24:53.7655512+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   },
   "_Links": {

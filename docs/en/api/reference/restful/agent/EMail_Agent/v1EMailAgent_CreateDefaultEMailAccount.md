@@ -79,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 549,
-  "EMailAddress": "expedita",
-  "AssociateId": 458,
+  "EMailAccountId": 370,
+  "EMailAddress": "sit",
+  "AssociateId": 399,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 366,
-  "ErrorCount": 762,
+  "AccountStatus": 497,
+  "ErrorCount": 475,
   "ErrorReason": "",
-  "InboxFolder": "aut",
-  "SentFolder": "voluptatum",
-  "SimpleMode": 154,
-  "LastFetch": "2010-05-22T03:46:54.7538824+02:00",
+  "InboxFolder": "voluptatum",
+  "SentFolder": "voluptatem",
+  "SimpleMode": 425,
+  "LastFetch": "2003-08-09T11:24:48.0626591+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

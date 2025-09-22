@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Russel-Beahan",
-    "AssociateId": 631,
-    "DetailsTable": 279,
-    "DetailsRecord": 483,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 724,
+    "Name": "Kerluke Group",
+    "AssociateId": 55,
+    "DetailsTable": 682,
+    "DetailsRecord": 917,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "incidunt",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "illo",
+      "ParameterObject2": "velit"
     },
-    "LastStarted": "2009-12-24T03:47:00.3943072+01:00",
-    "Created": "1998-07-16T03:47:00.3943072+02:00",
-    "StartCount": 581,
-    "DatabaseSerialNumber": "575285",
-    "Context": "est",
-    "Result": "quasi",
+    "LastStarted": "2025-09-03T11:24:53.7343025+02:00",
+    "Created": "2017-11-02T11:24:53.7343025+01:00",
+    "StartCount": 986,
+    "DatabaseSerialNumber": "853764",
+    "Context": "illum",
+    "Result": "blanditiis",
     "State": "All",
-    "Description": "Fully-configurable value-added concept",
-    "Response": "qui",
-    "Request": "autem",
-    "ProgressDescription": "Centralized full-range knowledge user",
-    "ProgressPercent": 450,
-    "FileName": "Kunze, Johns and Glover",
+    "Description": "Compatible empowering model",
+    "Response": "exercitationem",
+    "Request": "libero",
+    "ProgressDescription": "Extended empowering system engine",
+    "ProgressPercent": 785,
+    "FileName": "Keeling, Schmitt and Mitchell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

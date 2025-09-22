@@ -95,7 +95,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,58 +105,58 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 34,
-  "UniqueIdentifier": "ut",
-  "Name": "Feest-Conroy",
-  "Description": "Polarised incremental open system",
-  "IncludeId": "expedita",
-  "AccessKey": "consectetur",
-  "HierarchyId": 395,
-  "Source": "necessitatibus",
-  "SourceCode": "officia",
+  "EjscriptId": 553,
+  "UniqueIdentifier": "repellat",
+  "Name": "Bogan, Jaskolski and Auer",
+  "Description": "De-engineered directional matrix",
+  "IncludeId": "modi",
+  "AccessKey": "quibusdam",
+  "HierarchyId": 92,
+  "Source": "fugit",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 641,
+  "HtmlOutput": 511,
   "Includes": [
-    681,
-    58
+    183,
+    954
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 970,
-      "LineNumberTo": 612,
-      "Delta": 995,
-      "IncludeId": "dolor",
+      "LineNumberFrom": 362,
+      "LineNumberTo": 241,
+      "Delta": 480,
+      "IncludeId": "perspiciatis",
       "IncludedFrom": [
-        "et",
-        "aut"
+        "ut",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 365
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2012-02-03T03:46:59.8943184+01:00",
-  "RegisteredAssociateId": 405,
-  "Updated": "2023-08-26T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 311,
+  "Registered": "2013-05-16T11:24:53.156201+02:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2003-08-22T11:24:53.156201+02:00",
+  "UpdatedAssociateId": 985,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 500
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

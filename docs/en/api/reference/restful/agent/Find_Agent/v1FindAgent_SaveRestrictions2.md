@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rem",
-  "ProviderName": "Abernathy, Marquardt and Batz",
-  "StorageKey": "non",
-  "Restrictions": "sed"
+  "StorageType": "quam",
+  "ProviderName": "Doyle, Pollich and Schmidt",
+  "StorageKey": "ut",
+  "Restrictions": "expedita"
 }
 ```
 

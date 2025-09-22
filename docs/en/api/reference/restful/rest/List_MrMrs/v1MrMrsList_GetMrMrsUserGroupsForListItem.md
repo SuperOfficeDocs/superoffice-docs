@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Torp LLC",
-    "ToolTip": "Nihil rerum ullam consequatur eos occaecati laboriosam quaerat.",
+    "Id": 778,
+    "Name": "Ernser, Nienow and Ferry",
+    "ToolTip": "Veniam accusantium distinctio at dicta inventore expedita deserunt.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "molestiae",
-    "ColorBlock": 384,
-    "IconHint": "voluptate",
-    "Selected": false,
-    "LastChanged": "2017-01-11T03:47:00.6755475+01:00",
+    "Rank": 809,
+    "Type": "id",
+    "ColorBlock": 776,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2022-06-27T11:24:53.9530436+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Kuvalis Inc and Sons",
-        "ToolTip": "Autem aliquam.",
-        "Deleted": true,
-        "Rank": 398,
-        "Type": "est",
-        "ColorBlock": 660,
-        "IconHint": "quia",
+        "Id": 856,
+        "Name": "Reichel, Murphy and Koepp",
+        "ToolTip": "Dolore dolore eaque dignissimos.",
+        "Deleted": false,
+        "Rank": 197,
+        "Type": "sunt",
+        "ColorBlock": 495,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2007-04-29T03:47:00.6755475+02:00",
+        "LastChanged": "2009-11-24T11:24:53.9530436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Miss Antone Nicole Pfeffer MD",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Pansy Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Darrell Kuhlman",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Jennyfer Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldLength": 841
       }
     }
   }

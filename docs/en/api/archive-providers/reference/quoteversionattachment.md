@@ -112,7 +112,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=suggestedDocumentId,name,associate/firstName
+GET /api/v1/archive/QuoteVersionAttachment?$select=name,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -27,7 +27,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=982
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=822
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 250,
-  "TopicId": 158,
+  "ChatSessionId": 919,
+  "TopicId": 198,
   "User": null,
   "Person": null,
-  "CustomerAlias": "harum",
-  "CustomerHost": "et",
-  "CustomerName": "Gottlieb, Collins and Cronin",
-  "CustomerEmail": "arvid.langworth@damore.com",
-  "CustomerPhone": "327.582.4552",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hodkiewicz, Quitzon and Crona",
+  "CustomerAlias": "deserunt",
+  "CustomerHost": "doloribus",
+  "CustomerName": "Nitzsche Inc and Sons",
+  "CustomerEmail": "carlos@block.info",
+  "CustomerPhone": "297.829.0396",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Kassulke-Pfannerstill",
   "Status": "Closed",
-  "FirstMessage": "tempore",
-  "LastMessage": "eligendi",
-  "WhenRequested": "2007-03-25T03:46:54.3320222+02:00",
-  "WhenStarted": "2020-03-01T03:46:54.3320222+01:00",
-  "WhenEnded": "2006-04-24T03:46:54.3320222+02:00",
-  "WhenIdle": "1999-02-16T03:46:54.3320222+01:00",
-  "WhenFetched": "2011-06-02T03:46:54.3320222+02:00",
-  "SessionKey": "vitae",
-  "InitialQueuePos": 225,
-  "AlertLevel": 455,
-  "Rank": 346,
+  "FirstMessage": "qui",
+  "LastMessage": "laborum",
+  "WhenRequested": "2014-07-09T11:24:47.6564254+02:00",
+  "WhenStarted": "2019-11-28T11:24:47.6564254+01:00",
+  "WhenEnded": "2020-03-08T11:24:47.6564254+01:00",
+  "WhenIdle": "2010-04-06T11:24:47.6564254+02:00",
+  "WhenFetched": "2022-02-13T11:24:47.6564254+01:00",
+  "SessionKey": "occaecati",
+  "InitialQueuePos": 160,
+  "AlertLevel": 459,
+  "Rank": 642,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 1002,
+  "ChatbotIsActive": false,
+  "Rating": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 316
     }
   }
 }

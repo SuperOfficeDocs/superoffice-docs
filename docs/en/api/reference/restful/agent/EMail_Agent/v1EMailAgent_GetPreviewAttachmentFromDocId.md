@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 927,
-  "AttachmentId": "voluptas"
+  "DocId": 401,
+  "AttachmentId": "et"
 }
 ```
 
@@ -104,13 +104,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive mobile system engine",
-  "Filename": "quia",
-  "Size": 2,
-  "Type": "cupiditate",
-  "Encoding": "maxime",
-  "Id": "enim",
-  "Disposition": "architecto",
+  "Description": "Synergistic logistical help-desk",
+  "Filename": "vitae",
+  "Size": 665,
+  "Type": "et",
+  "Encoding": "eligendi",
+  "Id": "voluptatem",
+  "Disposition": "et",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 905
     }
   }
 }

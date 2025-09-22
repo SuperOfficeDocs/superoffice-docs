@@ -740,7 +740,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelection?$select=getAllRows,recurring,contact/contactAssociate/otherGroups,contact/LastCompletedSale,person/middleName
+GET /api/v1/archive/AppointmentStaticSelection?$select=contact/contactAssociate/contactFullName,person/personId,person/contactId,person/hasInterests,person/personUdef/SuperOffice:9
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -98,16 +98,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 463,
-  "Name": "Romaguera, O'Reilly and Moore",
-  "Tooltip": "labore",
+  "RoleId": 381,
+  "Name": "Christiansen-Weimann",
+  "Tooltip": "excepturi",
   "RoleType": "Anonymous",
-  "Deleted": 802,
-  "Rank": 548,
-  "Created": "2002-10-15T03:47:00.2068137+02:00",
-  "UseCategories": 460,
+  "Deleted": 655,
+  "Rank": 481,
+  "Created": "2019-09-15T11:24:53.4843128+02:00",
+  "UseCategories": 920,
   "CreatedBy": null,
-  "Updated": "2018-01-09T03:47:00.2068137+01:00",
+  "Updated": "2002-05-30T11:24:53.4843128+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 546
     }
   },
   "_Links": {

@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 840,
-  "ERPProductKey": "quasi"
+  "QuoteConnectionId": 548,
+  "ERPProductKey": "in"
 }
 ```
 
@@ -124,73 +124,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 377,
-  "ERPProductKey": "suscipit",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kutch, Kessler and Fadel",
-  "Description": "Fully-configurable responsive software",
-  "Code": "iste",
-  "PriceUnit": "ut",
-  "QuantityUnit": "occaecati",
+  "ProductId": 13,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "doloremque",
+  "Name": "Goldner-Kessler",
+  "Description": "Persevering next generation toolset",
+  "Code": "veritatis",
+  "PriceUnit": "totam",
+  "QuantityUnit": "consectetur",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 4481.62,
-  "ItemNumber": "1124968",
+  "SubscriptionUnit": "dignissimos",
+  "DefaultSubscriptionQuantity": 10257.582,
+  "ItemNumber": "1509033",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "quia",
-  "VAT": 14410.132,
-  "VATInfo": "enim",
-  "UnitCost": 19092.327999999998,
-  "UnitMinimumPrice": 23254.28,
-  "UnitListPrice": 20747.079999999998,
+  "ProductFamilyKey": "cupiditate",
+  "ProductTypeKey": "maiores",
+  "VAT": 11094.359999999999,
+  "VATInfo": "in",
+  "UnitCost": 830.51,
+  "UnitMinimumPrice": 6305.608,
+  "UnitListPrice": 1328.816,
   "InAssortment": true,
-  "Supplier": "nostrum",
-  "SupplierCode": "repellendus",
-  "Rights": "beatae",
-  "Rule": "et",
+  "Supplier": "quia",
+  "SupplierCode": "voluptate",
+  "Rights": "voluptatem",
+  "Rule": "placeat",
   "ExtraInfo": [
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Reilly-Flatley",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 313
         }
       }
     },
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Reilly-Flatley",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 313
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "placeat",
-  "ExtraField3": "possimus",
-  "ExtraField4": "nostrum",
-  "ExtraField5": "numquam",
-  "InStock": 12426.31,
+  "RawExtraInfo": "beatae",
+  "ExtraField1": "molestiae",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "quam",
+  "ExtraField4": "aut",
+  "ExtraField5": "itaque",
+  "InStock": 4710.402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 660
     }
   }
 }

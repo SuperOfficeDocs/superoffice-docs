@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 554
+  "QuoteAlternativeId": 523
 }
 ```
 
@@ -138,88 +138,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 91,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 552,
-    "ERPProductKey": "eum",
+    "QuoteLineId": 891,
+    "ERPQuoteLineKey": "accusamus",
+    "QuoteAlternativeId": 968,
+    "ERPProductKey": "rerum",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 22273.338,
-    "DeliveredQuantity": 21044.809999999998,
-    "Rank": 711,
-    "Name": "Mante-Hyatt",
-    "Description": "Re-contextualized system-worthy algorithm",
-    "Code": "nihil",
-    "QuantityUnit": "ratione",
-    "PriceUnit": "voluptatem",
-    "ItemNumber": "131717",
+    "Quantity": 275.792,
+    "DeliveredQuantity": 27168.646,
+    "Rank": 357,
+    "Name": "Raynor-Schroeder",
+    "Description": "Front-line needs-based complexity",
+    "Code": "et",
+    "QuantityUnit": "quia",
+    "PriceUnit": "est",
+    "ItemNumber": "156491",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "id",
-    "ProductTypeKey": "et",
-    "Supplier": "commodi",
-    "SupplierCode": "expedita",
-    "Thumbnail": "autem",
-    "VATInfo": "quo",
-    "VAT": 23172.796,
-    "UnitCost": 24282.232,
-    "UnitMinimumPrice": 20239.372,
-    "UnitListPrice": 1222.26,
+    "ProductFamilyKey": "voluptatem",
+    "ProductTypeKey": "ipsam",
+    "Supplier": "ratione",
+    "SupplierCode": "recusandae",
+    "Thumbnail": "repellat",
+    "VATInfo": "exercitationem",
+    "VAT": 15710.742,
+    "UnitCost": 9680.926,
+    "UnitMinimumPrice": 26933.595999999998,
+    "UnitListPrice": 18860.412,
     "ExtraInfo": [
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Feest, Pagac and Upton",
+        "Value": "perspiciatis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 927
           }
         }
       },
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Feest, Pagac and Upton",
+        "Value": "perspiciatis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 927
           }
         }
       }
     ],
-    "RawExtraInfo": "quas",
+    "RawExtraInfo": "incidunt",
     "IsSubscription": true,
-    "SubscriptionUnit": "voluptatum",
-    "SubscriptionQuantity": 6863.46,
-    "SubscriptionStart": "2024-04-24T03:46:55.2226157+02:00",
-    "ERPDiscountPercent": 14808.15,
-    "ERPDiscountAmount": 15804.761999999999,
-    "DiscountPercent": 7581.146,
-    "DiscountAmount": 28437.915999999997,
+    "SubscriptionUnit": "aliquid",
+    "SubscriptionQuantity": 1739.37,
+    "SubscriptionStart": "2023-09-24T11:24:48.5470141+02:00",
+    "ERPDiscountPercent": 13789.6,
+    "ERPDiscountAmount": 2225.14,
+    "DiscountPercent": 11153.905999999999,
+    "DiscountAmount": 24808.744,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 12159.92,
-    "EarningAmount": 21778.166,
-    "SubTotal": 29873.288,
-    "TotalPrice": 26419.62,
-    "Rights": "possimus",
-    "Rule": "eos",
-    "ExtraField1": "facere",
-    "ExtraField2": "commodi",
-    "ExtraField3": "facilis",
-    "ExtraField4": "deserunt",
-    "ExtraField5": "nam",
+    "EarningPercent": 28798.325999999997,
+    "EarningAmount": 10176.098,
+    "SubTotal": 6258.598,
+    "TotalPrice": 1447.908,
+    "Rights": "molestiae",
+    "Rule": "accusamus",
+    "ExtraField1": "magnam",
+    "ExtraField2": "dignissimos",
+    "ExtraField3": "voluptatem",
+    "ExtraField4": "dolore",
+    "ExtraField5": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

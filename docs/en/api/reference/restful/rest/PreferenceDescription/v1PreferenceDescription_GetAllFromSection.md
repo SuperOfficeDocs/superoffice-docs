@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 756,
-    "Section": "neque",
-    "Key": "ut",
-    "Name": "Rohan-Connelly",
+    "PrefDescId": 100,
+    "Section": "aspernatur",
+    "Key": "quis",
+    "Name": "Schuster, Gerhold and Trantow",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Public-key modular forecast",
-    "IsBuiltin": false,
-    "TableName": "Larson-Doyle",
-    "UserDefinedListId": 384,
-    "Rank": 777,
-    "SubGroup": "doloribus",
-    "MinLevel": 598,
-    "MaxValue": 869,
-    "MinValue": 919,
-    "RequiredLicense": "totam",
+    "Description": "Right-sized logistical framework",
+    "IsBuiltin": true,
+    "TableName": "Hauck Group",
+    "UserDefinedListId": 664,
+    "Rank": 86,
+    "SubGroup": "occaecati",
+    "MinLevel": 996,
+    "MaxValue": 235,
+    "MinValue": 59,
+    "RequiredLicense": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldType": "System.String",
+        "FieldLength": 95
       }
     }
   }

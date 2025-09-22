@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 77,
-    "Name": "Thiel Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 693
+    "HeadingId": 151,
+    "Name": "Kreiger-Hagenes",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 721,
+    "UdListDefinitionId": 293
   },
   {
-    "HeadingId": 77,
-    "Name": "Thiel Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 693
+    "HeadingId": 151,
+    "Name": "Kreiger-Hagenes",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 721,
+    "UdListDefinitionId": 293
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Mraz-Robel",
-    "Tooltip": "labore",
+    "HeadingId": 9,
+    "Name": "Nicolas, Parker and Bechtelar",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 429,
-    "UdListDefinitionId": 617,
+    "Rank": 560,
+    "UdListDefinitionId": 643,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 197
       }
     }
   }

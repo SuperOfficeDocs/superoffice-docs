@@ -108,18 +108,18 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 547,
-  "Name": "Schamberger Inc and Sons",
-  "Rank": 298,
-  "Tooltip": "est",
+  "AssociateId": 174,
+  "Name": "Hand-Luettgen",
+  "Rank": 850,
+  "Tooltip": "eos",
   "LicenseOwners": [
     {
-      "Name": "Herman LLC",
-      "Description": "Focused bottom-line throughput",
+      "Name": "Moore-Ondricka",
+      "Description": "Grass-roots solution-oriented model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Herman LLC",
-      "Description": "Focused bottom-line throughput",
+      "Name": "Moore-Ondricka",
+      "Description": "Grass-roots solution-oriented model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,87 +146,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quidem",
-      "Tooltip": "et",
-      "Id": 690,
-      "Rank": 47,
+      "Value": "sequi",
+      "Tooltip": "est",
+      "Id": 766,
+      "Rank": 943,
       "Deleted": false
     },
     {
-      "Value": "quidem",
-      "Tooltip": "et",
-      "Id": 690,
-      "Rank": 47,
+      "Value": "sequi",
+      "Tooltip": "est",
+      "Id": 766,
+      "Rank": 943,
       "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-07-27T03:46:55.5976024+02:00",
-  "Lastlogout": "2020-07-09T03:46:55.5976024+02:00",
-  "EjUserId": 186,
-  "RequestSignature": "distinctio",
+  "Lastlogin": "2024-08-19T11:24:48.9219987+02:00",
+  "Lastlogout": "2013-07-03T11:24:48.9219987+02:00",
+  "EjUserId": 489,
+  "RequestSignature": "velit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "explicabo"
+      "Value": "et",
+      "DisplayValue": "harum"
     },
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "explicabo"
+      "Value": "et",
+      "DisplayValue": "harum"
     }
   ],
-  "UserName": "Parker-Ratke",
+  "UserName": "Bechtelar-McLaughlin",
   "TicketCategories": [
     {
-      "Id": 699,
-      "Name": "Hahn, Wolff and Tromp",
-      "ToolTip": "Beatae et quod non nobis libero in.",
-      "Deleted": true,
-      "Rank": 178,
-      "Type": "quia",
+      "Id": 588,
+      "Name": "Ferry, Welch and Stamm",
+      "ToolTip": "Odit perferendis ipsa quae adipisci quis recusandae nulla.",
+      "Deleted": false,
+      "Rank": 380,
+      "Type": "natus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corporis",
-      "ColorBlock": 917,
-      "ExtraInfo": "accusamus",
-      "StyleHint": "iure",
-      "FullName": "Edgar Herzog III"
+      "IconHint": "corrupti",
+      "ColorBlock": 331,
+      "ExtraInfo": "debitis",
+      "StyleHint": "voluptate",
+      "FullName": "Tillman Tanner Bode DVM"
     }
   ],
-  "NickName": "Corwin, Conroy and Moore",
-  "WaitingForApproval": false,
+  "NickName": "Gutkowski, Kuvalis and Hoeger",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "et"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "quidem"
+    "CustomFields1": "maxime",
+    "CustomFields2": "iusto"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rowe LLC",
-      "DisplayName": "Pacocha-Quigley",
-      "Description": "Fundamental client-server help-desk",
-      "ToolTip": "Ea provident perspiciatis qui quas fugiat.",
+      "Name": "McGlynn-Price",
+      "DisplayName": "Hodkiewicz Group",
+      "Description": "Robust bi-directional contingency",
+      "ToolTip": "Quae eveniet iste alias et.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "soluta"
     },
     {
-      "Name": "Rowe LLC",
-      "DisplayName": "Pacocha-Quigley",
-      "Description": "Fundamental client-server help-desk",
-      "ToolTip": "Ea provident perspiciatis qui quas fugiat.",
+      "Name": "McGlynn-Price",
+      "DisplayName": "Hodkiewicz Group",
+      "Description": "Robust bi-directional contingency",
+      "ToolTip": "Quae eveniet iste alias et.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "soluta"
     }
   ]
 }
@@ -240,18 +240,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum, Nikolaus and Schneider",
-    "DisplayName": "Shields Group",
-    "Description": "Reduced cohesive standardization",
-    "ToolTip": "Consequatur voluptatibus minus voluptas ullam neque.",
+    "Name": "Ratke Inc and Sons",
+    "DisplayName": "Boyle, Rodriguez and Reichel",
+    "Description": "Optional composite open system",
+    "ToolTip": "Sed dolor nisi similique et quia ex.",
     "Actions": "Implicit",
-    "ActionData": "optio",
+    "ActionData": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 152
       }
     }
   }

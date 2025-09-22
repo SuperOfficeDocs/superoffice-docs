@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 380,
-  "StartTime": "2006-09-27T03:46:54.6288867+02:00",
-  "EndTime": "2021-03-30T03:46:54.6288867+02:00",
-  "Count": 503,
-  "TemplateHeadingId": 579
+  "ProjectId": 83,
+  "StartTime": "2014-05-05T11:24:47.9376639+02:00",
+  "EndTime": "2012-11-06T11:24:47.9376639+01:00",
+  "Count": 376,
+  "TemplateHeadingId": 594
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 21,
-    "Attention": "accusantium",
-    "Header": "aliquid",
-    "Name": "Osinski-Beatty",
-    "OurRef": "alias",
-    "YourRef": "qui",
-    "Description": "Sharable explicit capability",
-    "DocumentTemplate": "hic",
+    "DocumentId": 681,
+    "Attention": "neque",
+    "Header": "voluptas",
+    "Name": "Schaefer Group",
+    "OurRef": "et",
+    "YourRef": "voluptas",
+    "Description": "Front-line leading edge leverage",
+    "DocumentTemplate": "quasi",
     "IsPublished": false,
-    "PersonId": 167,
-    "PersonFullName": "Prof. Waylon Lauretta Kozey DDS",
-    "AssociateFullName": "Skye Rath",
-    "ContactId": 111,
-    "ContactName": "Kiehn, Gerlach and Purdy",
-    "ProjectId": 303,
-    "ProjectName": "Heller-Wuckert",
-    "AssociateId": 812,
-    "Snum": 649,
-    "SaleId": 8,
-    "SaleName": "Douglas Group",
+    "PersonId": 205,
+    "PersonFullName": "Leo Ebert",
+    "AssociateFullName": "Dr. Keely Block",
+    "ContactId": 359,
+    "ContactName": "Stark LLC",
+    "ProjectId": 57,
+    "ProjectName": "Lakin-Ebert",
+    "AssociateId": 233,
+    "Snum": 350,
+    "SaleId": 629,
+    "SaleName": "Dibbert Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 802
       }
     }
   }

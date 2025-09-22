@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kihn Group"
+  "TableName": "Waelchi, Labadie and Orn"
 }
 ```
 
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "nihil",
+  "Mask": "totam",
   "Reason": ""
 }
 ```

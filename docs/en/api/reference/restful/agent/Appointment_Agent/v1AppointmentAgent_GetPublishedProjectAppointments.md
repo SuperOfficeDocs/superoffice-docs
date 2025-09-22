@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 984
+  "ProjectId": 205
 }
 ```
 
@@ -144,67 +144,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 949,
-    "StartDate": "2020-03-19T03:46:54.0039095+01:00",
-    "EndDate": "2003-11-01T03:46:54.0039095+01:00",
+    "AppointmentId": 452,
+    "StartDate": "2015-01-30T11:24:47.3126897+01:00",
+    "EndDate": "2005-02-18T11:24:47.3126897+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatum",
-    "AssociateFullName": "River Weber",
-    "ContactName": "Stamm, Nader and Hane",
-    "Description": "Multi-lateral bandwidth-monitored orchestration",
-    "PersonFullName": "Mrs. Ryann Romaguera Sr.",
-    "PersonId": 937,
-    "ContactId": 797,
-    "ProjectId": 77,
-    "ProjectName": "O'Connell Group",
-    "IsPublished": true,
-    "AssociateId": 842,
-    "ColorIndex": 13,
+    "Task": "unde",
+    "AssociateFullName": "Mr. Billy Little",
+    "ContactName": "Stracke, Anderson and Ernser",
+    "Description": "User-friendly radical algorithm",
+    "PersonFullName": "Eldora Waelchi",
+    "PersonId": 752,
+    "ContactId": 369,
+    "ProjectId": 875,
+    "ProjectName": "Bailey, Kshlerin and Kris",
+    "IsPublished": false,
+    "AssociateId": 673,
+    "ColorIndex": 382,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 904,
-    "PriorityName": "Abernathy LLC",
+    "PriorityId": 245,
+    "PriorityName": "Prohaska, Conroy and Kunze",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2024-05-18T03:46:54.0039095+02:00",
+    "ActiveDate": "2000-04-29T11:24:47.3126897+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-09T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2024-09-01T03:46:54.0039095+02:00",
-    "MotherId": 90,
-    "AssignedBy": 349,
-    "AssignedByFullName": "Lexus Langosh",
-    "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "tenetur",
-    "SaleId": 213,
-    "SaleName": "Lakin Group",
-    "AssociateName": "Rosenbaum-Stroman",
-    "CreatedDate": "2000-06-26T03:46:54.0039095+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Kyla Renner",
-    "CreatedByAssociateId": 992,
+    "RecurringStartDate": "2019-10-17T11:24:47.3126897+02:00",
+    "RecurringEndDate": "2017-11-20T11:24:47.3126897+01:00",
+    "MotherId": 856,
+    "AssignedBy": 285,
+    "AssignedByFullName": "Tina Leannon",
+    "RejectReason": "transition holistic paradigms",
+    "Location": "voluptatum",
+    "AlarmLeadTime": "totam",
+    "SaleId": 2,
+    "SaleName": "Friesen LLC",
+    "AssociateName": "Stoltenberg Group",
+    "CreatedDate": "2005-09-08T11:24:47.3126897+02:00",
+    "CreatedBy": "facilis",
+    "CreatedByFullName": "Serena Myrna Kuvalis IV",
+    "CreatedByAssociateId": 352,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 923,
+    "MotherAssociateId": 648,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 557,
-    "Title": "porro",
-    "Agenda": "suscipit",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 758,
+    "Title": "eaque",
+    "Agenda": "autem",
+    "InternalNotes": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldType": "System.Int32",
+        "FieldLength": 565
       }
     }
   }

@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 203,
-  "IsCustomList": false,
+  "Id": 614,
+  "Name": "Nader, Beahan and Glover",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "Rank": 642,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "iste",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Metz, Greenholt and Kemmer",
-  "Tooltip": "voluptates",
+  "Id": 736,
+  "Name": "Wolf-Reichel",
+  "Tooltip": "explicabo",
   "Deleted": true,
-  "Rank": 927,
-  "IsCustomList": true,
+  "Rank": 438,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

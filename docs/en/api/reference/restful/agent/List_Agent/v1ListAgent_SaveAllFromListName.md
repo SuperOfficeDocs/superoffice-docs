@@ -80,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Flatley-Nicolas",
+  "UdListDefinitionName": "Kerluke, Williamson and Ortiz",
   "Items": [
     {
-      "Id": 139,
-      "Name": "Pollich, Emard and Franecki",
-      "Tooltip": "deserunt",
+      "Id": 566,
+      "Name": "Little, Fay and Mosciski",
+      "Tooltip": "aut",
       "Deleted": false,
-      "UdListDefinitionId": 632,
-      "Rank": 600
+      "UdListDefinitionId": 879,
+      "Rank": 531
     },
     {
-      "Id": 139,
-      "Name": "Pollich, Emard and Franecki",
-      "Tooltip": "deserunt",
+      "Id": 566,
+      "Name": "Little, Fay and Mosciski",
+      "Tooltip": "aut",
       "Deleted": false,
-      "UdListDefinitionId": 632,
-      "Rank": 600
+      "UdListDefinitionId": 879,
+      "Rank": 531
     }
   ]
 }
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Kovacek-Corkery",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "UdListDefinitionId": 84,
-    "Rank": 768,
+    "Id": 742,
+    "Name": "Krajcik-O'Connell",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "UdListDefinitionId": 710,
+    "Rank": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldType": "System.String",
+        "FieldLength": 643
       }
     }
   }

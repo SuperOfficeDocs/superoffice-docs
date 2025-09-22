@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,38 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 447,
-  "FormKey": "nisi",
-  "Name": "Becker-Douglas",
-  "Description": "Networked 3rd generation algorithm",
-  "Config": "incidunt",
-  "FolderId": 75,
-  "ScriptId": 134,
-  "ResponseShipmentId": 713,
+  "FormId": 494,
+  "FormKey": "omnis",
+  "Name": "Roob Inc and Sons",
+  "Description": "Implemented multimedia info-mediaries",
+  "Config": "consectetur",
+  "FolderId": 508,
+  "ScriptId": 637,
+  "ResponseShipmentId": 370,
   "Active": false,
-  "Expires": "2011-10-17T03:46:55.0038735+02:00",
-  "MaxSubmits": 689,
+  "Expires": "2005-08-27T11:24:48.2501511+02:00",
+  "MaxSubmits": 293,
   "Type": "Normal",
-  "Recipe": "provident",
-  "GroupId": 248,
-  "NewTicket": false,
+  "Recipe": "tenetur",
+  "GroupId": 523,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2025-04-14T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "2016-06-07T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 294,
-  "UpdatedCount": 838,
+  "Registered": "2018-04-21T11:24:48.2501511+02:00",
+  "RegisteredAssociateId": 741,
+  "Updated": "2012-02-26T11:24:48.2501511+01:00",
+  "UpdatedAssociateId": 802,
+  "UpdatedCount": 760,
   "EmailFlows": [
-    348,
-    529
+    535,
+    917
   ],
-  "FolderName": "Hilpert-Schmitt",
+  "FolderName": "Nienow LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 88
     }
   }
 }

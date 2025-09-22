@@ -96,12 +96,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Kon LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "eos",
+  "Name": "Hills Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "sed",
   "HistoryItems": [
-    47,
-    914
+    699,
+    597
   ],
   "OnlyHistory": true
 }
@@ -115,56 +115,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Mosciski-Donnelly",
-    "ToolTip": "Rerum mollitia.",
+    "Id": 982,
+    "Name": "Boyer-Ortiz",
+    "ToolTip": "Praesentium itaque numquam sit dolorum nesciunt nihil vero.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "consequatur",
-    "ColorBlock": 976,
-    "IconHint": "consequatur",
+    "Rank": 40,
+    "Type": "libero",
+    "ColorBlock": 654,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2021-09-16T03:46:55.0194982+02:00",
+    "LastChanged": "2007-04-23T11:24:48.2657757+02:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Lowe-Pacocha",
-        "ToolTip": "Nihil ut accusantium.",
-        "Deleted": false,
-        "Rank": 920,
-        "Type": "vitae",
-        "ColorBlock": 976,
-        "IconHint": "perferendis",
-        "Selected": false,
-        "LastChanged": "2018-11-16T03:46:55.0194982+01:00",
+        "Id": 787,
+        "Name": "Orn Inc and Sons",
+        "ToolTip": "Quia nulla ipsam adipisci.",
+        "Deleted": true,
+        "Rank": 23,
+        "Type": "non",
+        "ColorBlock": 891,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2019-12-11T11:24:48.2657757+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Minnie Hessel",
+        "ExtraInfo": "quas",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Sigrid Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 57
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "officiis",
+    "ExtraInfo": "earum",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Edmund Sanford",
+    "FullName": "Mrs. Max Al Smitham PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

@@ -98,13 +98,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 229,
-  "QuoteAlternativeName": "Ratke Group",
-  "QuoteAlternativeDescription": "Innovative heuristic analyzer"
+  "QuoteVersionId": 99,
+  "QuoteAlternativeName": "Flatley, Nienow and Pfannerstill",
+  "QuoteAlternativeDescription": "Ameliorated bottom-line collaboration"
 }
 ```
 
@@ -115,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 695,
-  "ERPQuoteAlternativeKey": "nisi",
-  "QuoteVersionId": 656,
-  "Name": "Gaylord-Padberg",
-  "Description": "Visionary 5th generation capacity",
+  "QuoteAlternativeId": 981,
+  "ERPQuoteAlternativeKey": "ipsam",
+  "QuoteVersionId": 809,
+  "Name": "Kozey Inc and Sons",
+  "Description": "Diverse eco-centric support",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 10517.704,
-  "ERPDiscountAmount": 4741.742,
-  "DiscountPercent": 5807.302,
-  "DiscountAmount": 15829.833999999999,
+  "Reason": "strategize strategic convergence",
+  "ERPDiscountPercent": 30390.397999999997,
+  "ERPDiscountAmount": 3582.162,
+  "DiscountPercent": 13394.716,
+  "DiscountAmount": 18337.034,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "corrupti",
-  "VAT": 26902.255999999998,
-  "EarningPercent": 3296.968,
-  "EarningAmount": 8452.398,
-  "SubTotal": 19239.626,
-  "TotalPrice": 19145.606,
-  "ExtraField1": "et",
-  "ExtraField2": "rem",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "culpa",
-  "ExtraField5": "explicabo",
+  "VATInfo": "et",
+  "VAT": 17343.556,
+  "EarningPercent": 3883.026,
+  "EarningAmount": 11956.21,
+  "SubTotal": 28506.863999999998,
+  "TotalPrice": 72.082,
+  "ExtraField1": "voluptas",
+  "ExtraField2": "eum",
+  "ExtraField3": "quo",
+  "ExtraField4": "voluptas",
+  "ExtraField5": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

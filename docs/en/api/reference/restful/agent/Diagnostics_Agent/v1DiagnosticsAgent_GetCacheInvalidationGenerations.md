@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheInvalidationGenerations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Names": [
-    "Rice LLC",
-    "Fritsch, Littel and Fadel"
+    "Crooks-Schimmel",
+    "Prosacco, Leuschke and Weber"
   ]
 }
 ```
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski, Orn and Nienow",
-    "Generation": 429
+    "Name": "Lueilwitz-Herzog",
+    "Generation": 741
   },
   {
-    "Name": "Osinski, Orn and Nienow",
-    "Generation": 429
+    "Name": "Lueilwitz-Herzog",
+    "Generation": 741
   }
 ]
 ```

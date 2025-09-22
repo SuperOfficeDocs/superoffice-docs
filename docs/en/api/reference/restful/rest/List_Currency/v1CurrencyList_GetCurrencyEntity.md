@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 271,
-  "Name": "Bednar Group",
-  "Tooltip": "non",
-  "Rank": 10,
-  "Rate": 27917.672,
-  "Units": 3886.16,
+  "CurrencyId": 346,
+  "Name": "Blanda LLC",
+  "Tooltip": "odio",
+  "Rank": 607,
+  "Rate": 8505.676,
+  "Units": 670.67599999999993,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 473
     }
   }
 }

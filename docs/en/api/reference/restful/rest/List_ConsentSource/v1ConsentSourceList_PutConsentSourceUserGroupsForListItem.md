@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Schaefer-Ondricka",
-    "ToolTip": "Alias similique velit.",
+    "Id": 849,
+    "Name": "Mosciski Group",
+    "ToolTip": "Voluptatem quia quo sint quas.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "eius",
-    "ColorBlock": 676,
-    "IconHint": "ullam",
+    "Rank": 842,
+    "Type": "delectus",
+    "ColorBlock": 186,
+    "IconHint": "mollitia",
     "Selected": true,
-    "LastChanged": "1998-06-16T03:47:00.6130405+02:00",
+    "LastChanged": "2015-04-03T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Schoen LLC",
-        "ToolTip": "Saepe consequatur vel qui.",
-        "Deleted": false,
-        "Rank": 635,
-        "Type": "aut",
-        "ColorBlock": 126,
-        "IconHint": "ex",
+        "Id": 774,
+        "Name": "Bergstrom, Heaney and Lind",
+        "ToolTip": "Facere voluptas voluptas nulla natus omnis possimus.",
+        "Deleted": true,
+        "Rank": 107,
+        "Type": "voluptas",
+        "ColorBlock": 305,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2000-11-05T03:47:00.6130405+01:00",
+        "LastChanged": "2012-11-06T11:24:53.890546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Ana Wehner"
+        "ExtraInfo": "est",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Alyson Watsica I"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Dr. Helene Bo Olson"
+    "ExtraInfo": "modi",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Prof. Flossie Hackett I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Donnelly LLC",
-    "ToolTip": "Aut alias suscipit corrupti doloribus porro.",
+    "Id": 605,
+    "Name": "Labadie, Quigley and Ward",
+    "ToolTip": "Non voluptas quisquam.",
     "Deleted": true,
-    "Rank": 588,
-    "Type": "et",
-    "ColorBlock": 251,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2000-03-20T03:47:00.6130405+01:00",
+    "Rank": 372,
+    "Type": "autem",
+    "ColorBlock": 603,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "1998-11-25T11:24:53.890546+01:00",
     "ChildItems": [
       {
-        "Id": 344,
-        "Name": "Watsica-Cummings",
-        "ToolTip": "Praesentium quo qui aliquam voluptate.",
-        "Deleted": false,
-        "Rank": 904,
-        "Type": "perferendis",
-        "ColorBlock": 77,
-        "IconHint": "illum",
+        "Id": 694,
+        "Name": "Ritchie Group",
+        "ToolTip": "Eveniet ipsum.",
+        "Deleted": true,
+        "Rank": 325,
+        "Type": "ratione",
+        "ColorBlock": 177,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2014-01-25T03:47:00.6130405+01:00",
+        "LastChanged": "2019-07-22T11:24:53.890546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Kathryn Brown",
+        "ExtraInfo": "aut",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Mr. Hobart Jeramie Kuhic III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 970
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Marco Beer",
+    "ExtraInfo": "delectus",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Meta Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 928
       }
     }
   }

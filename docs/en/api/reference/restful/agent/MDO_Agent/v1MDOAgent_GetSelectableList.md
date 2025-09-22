@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gleason-Pagac",
+  "Name": "Paucek-Jewess",
   "ForceFlatList": false,
-  "AdditionalInfo": "non",
+  "AdditionalInfo": "aut",
   "OnlyHistory": false
 }
 ```
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Voluptas nam.",
+    "Id": 317,
+    "Name": "Connelly-Franecki",
+    "ToolTip": "Nulla ipsum minima voluptatum quis qui.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "aut",
-    "ColorBlock": 979,
-    "IconHint": "repellendus",
+    "Rank": 544,
+    "Type": "molestias",
+    "ColorBlock": 329,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2020-07-23T03:46:55.0194982+02:00",
+    "LastChanged": "2001-10-05T11:24:48.2657757+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Strosin LLC",
-        "ToolTip": "Ipsa ut ullam.",
+        "Id": 986,
+        "Name": "Treutel, Swaniawski and Batz",
+        "ToolTip": "Et suscipit sed voluptas repudiandae et sint.",
         "Deleted": false,
-        "Rank": 650,
-        "Type": "ipsam",
-        "ColorBlock": 628,
-        "IconHint": "provident",
+        "Rank": 928,
+        "Type": "sit",
+        "ColorBlock": 9,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2015-09-25T03:46:55.0194982+02:00",
+        "LastChanged": "2002-07-21T11:24:48.2657757+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "minima",
+        "ExtraInfo": "officia",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Isaias Ethel Botsford I",
+        "FullName": "Mr. Adella Leon Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Estel Madeline Raynor I",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Miss Yolanda Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

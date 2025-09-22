@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetAllLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 752,
-    "Name": "Dietrich-Kassulke",
-    "Tooltip": "inventore",
-    "Rank": 589,
-    "Key": "quia",
-    "Deleted": false,
+    "LegalBaseId": 705,
+    "Name": "Larson, Sauer and Deckow",
+    "Tooltip": "voluptatem",
+    "Rank": 362,
+    "Key": "omnis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldLength": 630
       }
     }
   }

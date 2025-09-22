@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Ratke, Lowe and Hartmann",
-    "ToolTip": "Delectus id.",
+    "Id": 906,
+    "Name": "Kling Inc and Sons",
+    "ToolTip": "Sequi quo in earum.",
     "Deleted": false,
-    "Rank": 670,
-    "Type": "accusamus",
-    "ColorBlock": 27,
-    "IconHint": "numquam",
+    "Rank": 944,
+    "Type": "est",
+    "ColorBlock": 407,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2025-02-26T03:47:00.628674+01:00",
+    "LastChanged": "2010-12-26T11:24:53.9061703+01:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Ortiz, Balistreri and Blick",
-        "ToolTip": "Fugit officiis.",
+        "Id": 223,
+        "Name": "Hodkiewicz-McDermott",
+        "ToolTip": "Repellat doloribus.",
         "Deleted": false,
-        "Rank": 960,
-        "Type": "eum",
-        "ColorBlock": 879,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2004-06-23T03:47:00.628674+02:00",
+        "Rank": 503,
+        "Type": "deleniti",
+        "ColorBlock": 793,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2016-11-02T11:24:53.9061703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
+        "ExtraInfo": "labore",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Harold Jewess",
+        "FullName": "Shayne Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 597
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ad",
+    "ExtraInfo": "amet",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Miss Dariana Evans Ernser",
+    "FullName": "Dr. Delilah Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 664
       }
     }
   }

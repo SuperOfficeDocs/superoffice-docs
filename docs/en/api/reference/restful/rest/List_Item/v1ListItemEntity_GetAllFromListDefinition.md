@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Ernser LLC",
-    "Tooltip": "eaque",
+    "Id": 569,
+    "Name": "Lakin, Kuhic and Rosenbaum",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "UdListDefinitionId": 885,
-    "Rank": 485,
+    "UdListDefinitionId": 64,
+    "Rank": 190,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 147
       }
     }
   }

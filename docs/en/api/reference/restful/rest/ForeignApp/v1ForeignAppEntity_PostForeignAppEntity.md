@@ -89,27 +89,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 402,
-  "Name": "O'Conner, Volkman and Dickens",
-  "CreatedDate": "2017-01-08T03:47:00.0193121+01:00",
-  "UpdatedDate": "1998-07-28T03:47:00.0193121+02:00",
+  "ForeignAppId": 852,
+  "Name": "Koch, Dietrich and Kshlerin",
+  "CreatedDate": "2020-09-30T11:24:53.2968202+02:00",
+  "UpdatedDate": "2018-09-16T11:24:53.2968202+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 989,
-      "Name": "Romaguera-Dietrich",
-      "CreatedDate": "2022-05-22T03:47:00.0193121+02:00",
-      "UpdatedDate": "1999-04-30T03:47:00.0193121+02:00",
-      "AssociateFullName": "Marcos Wuckert",
-      "CreatedBy": "harum",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 808
+      "ForeignDeviceId": 977,
+      "Name": "Nader, Senger and Wiegand",
+      "CreatedDate": "2014-11-24T11:24:53.2968202+01:00",
+      "UpdatedDate": "2024-03-03T11:24:53.2968202+01:00",
+      "AssociateFullName": "Amber Larkin",
+      "CreatedBy": "praesentium",
+      "UpdatedBy": "minima",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 782
     }
   ]
 }
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 450,
-  "Name": "Gibson Inc and Sons",
-  "CreatedDate": "2010-01-06T03:47:00.0193121+01:00",
-  "UpdatedDate": "2021-01-03T03:47:00.0193121+01:00",
+  "ForeignAppId": 617,
+  "Name": "Koss-Murazik",
+  "CreatedDate": "2017-05-11T11:24:53.2968202+02:00",
+  "UpdatedDate": "2016-12-05T11:24:53.2968202+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 467,
-      "Name": "Rosenbaum-Hayes",
-      "CreatedDate": "1999-09-24T03:47:00.0193121+02:00",
-      "UpdatedDate": "2003-09-10T03:47:00.0193121+02:00",
-      "AssociateFullName": "Miss Krystel Oswaldo Feest",
-      "CreatedBy": "iste",
-      "UpdatedBy": "maiores",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 873,
+      "ForeignDeviceId": 693,
+      "Name": "Lemke LLC",
+      "CreatedDate": "2013-11-12T11:24:53.2968202+01:00",
+      "UpdatedDate": "2024-03-06T11:24:53.2968202+01:00",
+      "AssociateFullName": "Tyshawn Collier",
+      "CreatedBy": "blanditiis",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 895,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 921
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 445
     }
   },
   "_Links": {

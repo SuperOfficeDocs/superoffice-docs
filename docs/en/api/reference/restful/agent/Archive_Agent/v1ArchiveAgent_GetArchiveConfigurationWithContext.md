@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wyman, Quigley and Johnson",
-  "ProviderName": "Kshlerin LLC",
-  "Context": "molestiae"
+  "GuiName": "Bechtelar, Cassin and Runolfsdottir",
+  "ProviderName": "Gislason Group",
+  "Context": "reprehenderit"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Stoltenberg Group",
-      "DisplayTooltip": "at",
-      "DisplayType": "quibusdam",
+      "DisplayName": "Hermann, Renner and Shanahan",
+      "DisplayTooltip": "ipsam",
+      "DisplayType": "ex",
       "CanOrderBy": false,
-      "Name": "Dare, Boyle and Greenholt",
+      "Name": "McGlynn LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Powlowski-Gutkowski",
-      "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "qui",
-      "IconHint": "eos",
-      "HeadingIconHint": "quaerat"
+      "RestrictionType": "nam",
+      "RestrictionListName": "Aufderhar, Blick and Bradtke",
+      "IsVisible": true,
+      "ExtraInfo": "eos",
+      "Width": "rerum",
+      "IconHint": "delectus",
+      "HeadingIconHint": "omnis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 745,
-      "Name": "Oberbrunner-Huels",
-      "ToolTip": "At libero consequatur est.",
+      "Id": 681,
+      "Name": "Kovacek Group",
+      "ToolTip": "Placeat beatae.",
       "Deleted": false,
-      "Rank": 459,
-      "Type": "quam",
-      "ColorBlock": 928,
-      "IconHint": "et",
+      "Rank": 695,
+      "Type": "vel",
+      "ColorBlock": 884,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "2009-04-24T03:46:54.2851489+02:00",
+      "LastChanged": "2018-08-20T11:24:47.5939281+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "dicta",
-      "Hidden": true,
-      "FullName": "Marge Abshire DVM",
+      "ExtraInfo": "nihil",
+      "StyleHint": "beatae",
+      "Hidden": false,
+      "FullName": "Elmore Stamm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Upton LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Upton LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "laborum",
+  "OwnerKeys": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 674
     }
   }
 }

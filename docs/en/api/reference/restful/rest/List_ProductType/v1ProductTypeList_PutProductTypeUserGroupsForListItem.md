@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Moore-Hagenes",
-    "ToolTip": "Odit nihil numquam voluptatem quia perferendis temporibus.",
-    "Deleted": false,
-    "Rank": 897,
-    "Type": "optio",
-    "ColorBlock": 475,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2006-12-01T03:47:00.7380451+01:00",
+    "Id": 782,
+    "Name": "Adams, Metz and Lubowitz",
+    "ToolTip": "Et eligendi ut id aspernatur et est.",
+    "Deleted": true,
+    "Rank": 626,
+    "Type": "non",
+    "ColorBlock": 529,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2023-08-19T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Hermann, Goodwin and Swaniawski",
-        "ToolTip": "Ullam doloremque.",
+        "Id": 949,
+        "Name": "Casper-Gibson",
+        "ToolTip": "Et dolores sequi.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "ad",
-        "ColorBlock": 463,
-        "IconHint": "magni",
+        "Rank": 738,
+        "Type": "similique",
+        "ColorBlock": 290,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2016-08-08T03:47:00.7380451+02:00",
+        "LastChanged": "2012-02-29T11:24:54.0155411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "nisi",
-        "Hidden": false,
-        "FullName": "Mr. Dejah Maximilian Stamm DDS"
+        "ExtraInfo": "dicta",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Camryn Brekke"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ms. Estelle Romaguera"
+    "ExtraInfo": "ut",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Marjory Carter"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Haley, Kemmer and Hegmann",
-    "ToolTip": "Maxime eligendi.",
-    "Deleted": false,
-    "Rank": 858,
+    "Id": 996,
+    "Name": "Jakubowski-Sporer",
+    "ToolTip": "Et nulla eum laboriosam debitis sapiente quis.",
+    "Deleted": true,
+    "Rank": 218,
     "Type": "qui",
-    "ColorBlock": 105,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2010-03-29T03:47:00.7380451+02:00",
+    "ColorBlock": 851,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2021-08-05T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "DuBuque LLC",
-        "ToolTip": "Maxime laudantium.",
-        "Deleted": false,
-        "Rank": 638,
-        "Type": "et",
-        "ColorBlock": 866,
-        "IconHint": "dolore",
+        "Id": 50,
+        "Name": "Feest, Ratke and Wyman",
+        "ToolTip": "Quae tempora a sunt voluptatem soluta quod.",
+        "Deleted": true,
+        "Rank": 262,
+        "Type": "nulla",
+        "ColorBlock": 190,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2019-12-05T03:47:00.7380451+01:00",
+        "LastChanged": "2019-08-28T11:24:54.0155411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "minima",
+        "ExtraInfo": "eum",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Stuart Hirthe",
+        "FullName": "Addison Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "eius",
+    "StyleHint": "quibusdam",
     "Hidden": true,
-    "FullName": "Mrs. Matilde Rosalee Zboncak III",
+    "FullName": "Annie O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 460
       }
     }
   }

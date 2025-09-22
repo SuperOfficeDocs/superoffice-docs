@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Spencer LLC",
+  "GuiName": "Orn, Lockman and Lakin",
   "ColumnWidths": [
-    "vero",
-    "rerum"
+    "libero",
+    "facilis"
   ]
 }
 ```

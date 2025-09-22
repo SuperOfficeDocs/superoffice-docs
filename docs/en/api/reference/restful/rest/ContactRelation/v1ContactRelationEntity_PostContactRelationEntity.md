@@ -111,28 +111,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 662,
-  "SourcePersonId": 907,
-  "DestinationContactId": 842,
-  "DestinationPersonId": 868,
-  "RelationId": 169,
-  "Comment": "unde",
-  "RelationDefinitionId": 490,
-  "Reversed": 301,
-  "UpdatedDate": "2022-08-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2000-10-10T03:46:59.8786923+02:00",
+  "SourceContactId": 99,
+  "SourcePersonId": 361,
+  "DestinationContactId": 766,
+  "DestinationPersonId": 925,
+  "RelationId": 189,
+  "Comment": "sint",
+  "RelationDefinitionId": 985,
+  "Reversed": 799,
+  "UpdatedDate": "2002-11-01T11:24:53.1405767+01:00",
+  "CreatedDate": "2015-10-28T11:24:53.1405767+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Carter Inc and Sons",
-  "SourcePersonName": "Kiehn Group",
-  "DestinationContactName": "Hansen Group",
-  "DestinationPersonName": "Weber-Muller",
-  "ActiveText": "et",
-  "PassiveText": "optio"
+  "SourceContactName": "Jewess-Bernier",
+  "SourcePersonName": "Torp-Pollich",
+  "DestinationContactName": "Hagenes, Herzog and White",
+  "DestinationPersonName": "Hamill-Mraz",
+  "ActiveText": "possimus",
+  "PassiveText": "debitis"
 }
 ```
 
@@ -143,30 +143,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 79,
-  "SourcePersonId": 466,
-  "DestinationContactId": 702,
-  "DestinationPersonId": 584,
-  "RelationId": 525,
-  "Comment": "eos",
+  "SourceContactId": 115,
+  "SourcePersonId": 33,
+  "DestinationContactId": 533,
+  "DestinationPersonId": 315,
+  "RelationId": 916,
+  "Comment": "explicabo",
   "RelationDefinitionId": 232,
-  "Reversed": 24,
-  "UpdatedDate": "2015-07-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2012-09-06T03:46:59.8786923+02:00",
+  "Reversed": 807,
+  "UpdatedDate": "2005-11-21T11:24:53.1405767+01:00",
+  "CreatedDate": "2003-11-22T11:24:53.1405767+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mann Group",
-  "SourcePersonName": "VonRueden, Jacobs and Kessler",
-  "DestinationContactName": "Tillman-Reynolds",
-  "DestinationPersonName": "Rath Inc and Sons",
-  "ActiveText": "nihil",
-  "PassiveText": "dolor",
+  "SourceContactName": "Gutkowski-Kris",
+  "SourcePersonName": "Grady, Wyman and Kris",
+  "DestinationContactName": "Bernhard, Wuckert and Schroeder",
+  "DestinationPersonName": "D'Amore-Conn",
+  "ActiveText": "quia",
+  "PassiveText": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldLength": 911
     }
   },
   "_Links": {

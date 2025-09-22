@@ -126,18 +126,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "et",
     "value": {}
   }
 ]
@@ -150,30 +150,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 259,
-  "Section": "tempora",
-  "Key": "quis",
-  "Name": "Lang-Fahey",
+  "PrefDescId": 518,
+  "Section": "eum",
+  "Key": "optio",
+  "Name": "Stokes, Littel and Rath",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused eco-centric challenge",
+  "Description": "Diverse 5th generation budgetary management",
   "IsBuiltin": false,
-  "TableName": "Schmeler-Metz",
-  "UserDefinedListId": 500,
-  "Rank": 973,
-  "SubGroup": "voluptas",
-  "MinLevel": 509,
-  "MaxValue": 624,
-  "MinValue": 788,
-  "RequiredLicense": "earum",
+  "TableName": "Hoeger-Jacobs",
+  "UserDefinedListId": 731,
+  "Rank": 981,
+  "SubGroup": "quia",
+  "MinLevel": 353,
+  "MaxValue": 514,
+  "MinValue": 820,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 358
     }
   },
   "_Links": {

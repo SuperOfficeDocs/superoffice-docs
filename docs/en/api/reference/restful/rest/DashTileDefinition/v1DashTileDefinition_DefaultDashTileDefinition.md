@@ -76,7 +76,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 874,
-  "Name": "Bechtelar, Rowe and Robel",
-  "Description": "Compatible stable toolset",
-  "DefaultHeight": 611,
-  "DefaultWidth": 186,
+  "DashboardTileDefinitionId": 490,
+  "Name": "Wiza, Emard and O'Conner",
+  "Description": "Focused regional productivity",
+  "DefaultHeight": 882,
+  "DefaultWidth": 102,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wilderman, Auer and Davis",
-  "SelectionId": 833,
+  "EntityName": "Gerhold Group",
+  "SelectionId": 67,
   "CurrencyMode": "Base",
-  "CurrencyCode": "mollitia",
+  "CurrencyCode": "officiis",
   "Measure": "Average",
-  "MeasureField": "magni",
-  "SortBy": "saepe",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 172,
-  "MeasureByField": "alias",
+  "MeasureField": "ut",
+  "SortBy": "excepturi",
+  "LayoutConfig": "maiores",
+  "SecondarySelectionId": 22,
+  "MeasureByField": "minus",
   "Usage": "Dashboard",
-  "ProviderName": "Witting Group",
+  "ProviderName": "Hackett, Konopelski and Glover",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   }
 }

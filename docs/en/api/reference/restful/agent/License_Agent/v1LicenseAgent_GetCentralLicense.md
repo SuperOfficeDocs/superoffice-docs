@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/License/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Abbott-Boyle",
+    "Description": "Programmable dynamic utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
-        "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
+        "Total": 411,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 865,
+        "InUse": 565,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "ModuleLicenseId": 826,
+        "Name": "Stehr LLC",
+        "Description": "Ergonomic system-worthy policy",
+        "PrerequisiteModuleName": "Berge-Beatty",
+        "SortOrder": 509,
+        "ExtraFlags": 5,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 768
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
-        "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
+        "Total": 115,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 897,
+        "InUse": 89,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Assigned": true,
+        "ModuleLicenseId": 943,
+        "Name": "Rohan-Rohan",
+        "Description": "Persevering multi-tasking projection",
+        "PrerequisiteModuleName": "Steuber-Donnelly",
+        "SortOrder": 358,
+        "ExtraFlags": 271,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
@@ -139,35 +139,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 362
       }
     }
   },
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Abbott-Boyle",
+    "Description": "Programmable dynamic utilisation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
-        "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
+        "Total": 411,
+        "Tooltip": "nihil",
+        "CanAssign": false,
+        "Free": 865,
+        "InUse": 565,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "ModuleLicenseId": 826,
+        "Name": "Stehr LLC",
+        "Description": "Ergonomic system-worthy policy",
+        "PrerequisiteModuleName": "Berge-Beatty",
+        "SortOrder": 509,
+        "ExtraFlags": 5,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 768
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
-        "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
+        "Total": 115,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 897,
+        "InUse": 89,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Assigned": true,
+        "ModuleLicenseId": 943,
+        "Name": "Rohan-Rohan",
+        "Description": "Persevering multi-tasking projection",
+        "PrerequisiteModuleName": "Steuber-Donnelly",
+        "SortOrder": 358,
+        "ExtraFlags": 271,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 362
       }
     }
   }

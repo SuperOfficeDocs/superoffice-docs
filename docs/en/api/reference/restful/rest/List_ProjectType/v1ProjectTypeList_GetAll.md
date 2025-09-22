@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Witting Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 992,
-    "Rank": 445,
+    "Id": 815,
+    "Name": "Schimmel-Von",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "UdListDefinitionId": 660,
+    "Rank": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldLength": 317
       }
     }
   }

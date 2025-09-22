@@ -108,36 +108,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 412,
-  "FormKey": "est",
-  "Name": "Bradtke-Watsica",
-  "Description": "Intuitive demand-driven framework",
-  "Config": "dolores",
-  "FolderId": 863,
-  "ScriptId": 175,
-  "ResponseShipmentId": 285,
-  "Active": false,
-  "Expires": "2000-01-16T03:46:55.0038735+01:00",
-  "MaxSubmits": 850,
+  "FormId": 984,
+  "FormKey": "ut",
+  "Name": "Kuhic LLC",
+  "Description": "Fundamental multi-tasking help-desk",
+  "Config": "nihil",
+  "FolderId": 688,
+  "ScriptId": 525,
+  "ResponseShipmentId": 772,
+  "Active": true,
+  "Expires": "2000-04-22T11:24:48.2501511+02:00",
+  "MaxSubmits": 707,
   "Type": "Normal",
-  "Recipe": "magnam",
-  "GroupId": 576,
+  "Recipe": "dolores",
+  "GroupId": 433,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-02-09T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 858,
-  "Updated": "2020-09-30T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 989,
-  "UpdatedCount": 805,
+  "Registered": "2002-01-05T11:24:48.2501511+01:00",
+  "RegisteredAssociateId": 381,
+  "Updated": "2018-07-13T11:24:48.2501511+02:00",
+  "UpdatedAssociateId": 984,
+  "UpdatedCount": 942,
   "EmailFlows": [
-    47,
-    685
+    175,
+    347
   ],
-  "FolderName": "Welch, Flatley and Stark"
+  "FolderName": "Herzog-Kuhn"
 }
 ```
 
@@ -148,38 +148,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 953,
-  "FormKey": "et",
-  "Name": "Brekke, Turner and Hessel",
-  "Description": "Right-sized mission-critical archive",
-  "Config": "sunt",
-  "FolderId": 149,
-  "ScriptId": 585,
-  "ResponseShipmentId": 56,
+  "FormId": 324,
+  "FormKey": "nemo",
+  "Name": "Hayes, Toy and Crist",
+  "Description": "Robust tertiary contingency",
+  "Config": "pariatur",
+  "FolderId": 162,
+  "ScriptId": 798,
+  "ResponseShipmentId": 204,
   "Active": false,
-  "Expires": "1999-05-16T03:46:55.0038735+02:00",
-  "MaxSubmits": 553,
+  "Expires": "1998-11-07T11:24:48.2501511+01:00",
+  "MaxSubmits": 805,
   "Type": "Normal",
-  "Recipe": "possimus",
-  "GroupId": 338,
+  "Recipe": "exercitationem",
+  "GroupId": 111,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-12-26T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 819,
-  "Updated": "2020-12-24T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 160,
-  "UpdatedCount": 622,
+  "Registered": "2008-05-12T11:24:48.2501511+02:00",
+  "RegisteredAssociateId": 555,
+  "Updated": "2012-04-01T11:24:48.2501511+02:00",
+  "UpdatedAssociateId": 350,
+  "UpdatedCount": 978,
   "EmailFlows": [
-    355,
-    920
+    657,
+    59
   ],
-  "FolderName": "Gutmann-Murray",
+  "FolderName": "Kunze, Thiel and Rice",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

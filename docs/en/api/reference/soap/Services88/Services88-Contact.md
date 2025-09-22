@@ -87,7 +87,7 @@ content_type: reference
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Domains" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
+              <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="tns:SavedUtmParameters" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -520,11 +520,17 @@ content_type: reference
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="AddressType" nillable="true" type="tns:AddressType" />
-      <xs:complexType name="InitalUtmParameters">
+      <xs:complexType name="SavedUtmParameters">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
               <xs:element minOccurs="0" name="FormName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchSource" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchMedium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchCampaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchTerm" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchContent" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchReferrerDomain" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
@@ -535,7 +541,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="InitalUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
+      <xs:element name="SavedUtmParameters" nillable="true" type="tns:SavedUtmParameters" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -946,7 +952,8 @@ content_type: reference
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
-              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
+              <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="tns:SavedUtmParameters" />
+              <xs:element minOccurs="0" name="LeadstatusId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />

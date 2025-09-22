@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 270,
+    "Name": "Conn-Corwin",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 688,
+    "Rank": 894
   },
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 270,
+    "Name": "Conn-Corwin",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 688,
+    "Rank": 894
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Maggio-Hane",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 16,
-    "Rank": 677,
+    "Id": 776,
+    "Name": "Jacobi LLC",
+    "Tooltip": "nemo",
+    "Deleted": false,
+    "UdListDefinitionId": 753,
+    "Rank": 158,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 649
       }
     }
   }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 242,
-    "Name": "Treutel LLC",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "Rank": 199,
-    "UdListDefinitionId": 77
+    "HeadingId": 714,
+    "Name": "Green, Schowalter and Schumm",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 505,
+    "UdListDefinitionId": 554
   },
   {
-    "HeadingId": 242,
-    "Name": "Treutel LLC",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "Rank": 199,
-    "UdListDefinitionId": 77
+    "HeadingId": 714,
+    "Name": "Green, Schowalter and Schumm",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 505,
+    "UdListDefinitionId": 554
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Roberts, Littel and Streich",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 672,
-    "UdListDefinitionId": 381,
+    "HeadingId": 821,
+    "Name": "Dooley, Gibson and Hauck",
+    "Tooltip": "molestias",
+    "Deleted": false,
+    "Rank": 519,
+    "UdListDefinitionId": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 456
       }
     }
   }

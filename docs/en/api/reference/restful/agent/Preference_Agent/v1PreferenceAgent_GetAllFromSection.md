@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aspernatur"
+  "Section": "tempore"
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 211,
-    "Section": "labore",
-    "Key": "ipsum",
-    "Name": "Farrell, Boehm and Hayes",
+    "PrefDescId": 761,
+    "Section": "vel",
+    "Key": "voluptas",
+    "Name": "Koch LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized fresh-thinking analyzer",
+    "Description": "Inverse foreground projection",
     "IsBuiltin": false,
-    "TableName": "Ebert Inc and Sons",
-    "UserDefinedListId": 139,
-    "Rank": 759,
-    "SubGroup": "facilis",
-    "MinLevel": 798,
-    "MaxValue": 809,
-    "MinValue": 583,
-    "RequiredLicense": "ipsam",
+    "TableName": "Zemlak Inc and Sons",
+    "UserDefinedListId": 240,
+    "Rank": 970,
+    "SubGroup": "omnis",
+    "MinLevel": 307,
+    "MaxValue": 645,
+    "MinValue": 249,
+    "RequiredLicense": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 670
       }
     }
   }

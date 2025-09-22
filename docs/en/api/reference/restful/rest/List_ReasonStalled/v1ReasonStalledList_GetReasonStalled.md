@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Jenkins-Lueilwitz",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "UdListDefinitionId": 918,
-  "Rank": 174,
+  "Id": 531,
+  "Name": "Bayer, Feest and Roob",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "UdListDefinitionId": 717,
+  "Rank": 209,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 795
     }
   }
 }

@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "suscipit",
-    "adipisci"
+    "vel",
+    "eum"
   ]
 }
 ```
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir, Towne and Lindgren",
-    "Delimiter": "omnis",
-    "Flags": "debitis",
-    "TotalItems": 536,
-    "UnreadItems": 961,
-    "Subscribed": false,
-    "EmailFolderId": 776,
+    "Name": "Pfannerstill Group",
+    "Delimiter": "aut",
+    "Flags": "dolor",
+    "TotalItems": 766,
+    "UnreadItems": 564,
+    "Subscribed": true,
+    "EmailFolderId": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 768
       }
     }
   }

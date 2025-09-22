@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Hegmann-McGlynn",
-    "Tooltip": "quia",
+    "HeadingId": 410,
+    "Name": "Kassulke-Kihn",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 820
+    "Rank": 559,
+    "UdListDefinitionId": 191
   },
   {
-    "HeadingId": 798,
-    "Name": "Hegmann-McGlynn",
-    "Tooltip": "quia",
+    "HeadingId": 410,
+    "Name": "Kassulke-Kihn",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 820
+    "Rank": 559,
+    "UdListDefinitionId": 191
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 833,
-    "Name": "Graham, Pouros and Stoltenberg",
-    "Tooltip": "aut",
+    "HeadingId": 851,
+    "Name": "Mosciski-Wolf",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 53,
+    "Rank": 697,
+    "UdListDefinitionId": 755,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldLength": 98
       }
     }
   }

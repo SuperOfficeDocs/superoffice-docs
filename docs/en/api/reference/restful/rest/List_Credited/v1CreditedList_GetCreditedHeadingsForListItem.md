@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "White Group",
-    "ToolTip": "Ullam voluptates.",
+    "Id": 192,
+    "Name": "Swift Group",
+    "ToolTip": "Nihil ea rerum est dolores.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "odit",
-    "ColorBlock": 128,
-    "IconHint": "repellendus",
+    "Rank": 493,
+    "Type": "error",
+    "ColorBlock": 940,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2009-02-18T03:47:00.628674+01:00",
+    "LastChanged": "2002-03-23T11:24:53.9061703+01:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Wunsch-McClure",
-        "ToolTip": "Quam explicabo.",
+        "Id": 346,
+        "Name": "Lowe Inc and Sons",
+        "ToolTip": "Enim quia facilis repellendus minus commodi.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "voluptatem",
-        "ColorBlock": 427,
-        "IconHint": "placeat",
+        "Rank": 227,
+        "Type": "quia",
+        "ColorBlock": 741,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2021-08-12T03:47:00.628674+02:00",
+        "LastChanged": "2006-06-18T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "ut",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Kellen Frami",
+        "FullName": "Ms. Rhoda Addison Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldLength": 477
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mrs. Carmen Margarete Brown IV",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Mr. Forest Jakayla Murphy Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldLength": 283
       }
     }
   }

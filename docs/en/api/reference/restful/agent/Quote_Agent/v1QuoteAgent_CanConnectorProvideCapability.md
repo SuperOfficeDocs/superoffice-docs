@@ -74,8 +74,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 54,
-  "CapabilityName": "Schroeder, Ortiz and Lynch"
+  "QuoteConnectionId": 762,
+  "CapabilityName": "Kuhic-Gusikowski"
 }
 ```
 

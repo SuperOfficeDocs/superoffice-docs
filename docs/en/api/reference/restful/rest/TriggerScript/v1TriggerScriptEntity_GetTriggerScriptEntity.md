@@ -96,27 +96,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 358,
-  "Name": "Rempel-Frami",
+  "ScreenChooserId": 825,
+  "Name": "Lindgren-Sauer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptatum",
-  "Source": "harum",
-  "Registered": "2020-05-17T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 14,
-  "Updated": "2015-10-29T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 483,
+  "Enabled": false,
+  "UniqueIdentifier": "earum",
+  "Source": "ea",
+  "Registered": "2002-07-21T11:24:53.7186781+02:00",
+  "RegisteredAssociateId": 429,
+  "Updated": "2006-08-09T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

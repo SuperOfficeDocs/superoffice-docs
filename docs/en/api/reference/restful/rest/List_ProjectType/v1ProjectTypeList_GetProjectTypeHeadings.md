@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 467,
-    "Name": "Haag, Kuphal and Hermann",
-    "Tooltip": "quasi",
+    "HeadingId": 638,
+    "Name": "Lubowitz, Bogisich and Wuckert",
+    "Tooltip": "modi",
     "Deleted": true,
-    "Rank": 863,
-    "UdListDefinitionId": 452,
+    "Rank": 412,
+    "UdListDefinitionId": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 540
       }
     }
   }

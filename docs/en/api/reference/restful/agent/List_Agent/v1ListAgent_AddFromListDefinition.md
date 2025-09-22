@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 511,
+  "UdListDefinitionId": 744,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Fisher-Prohaska",
-  "Tooltip": "aspernatur",
+  "Id": 710,
+  "Name": "Cronin, Rutherford and Jacobs",
+  "Tooltip": "cum",
   "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 342,
+  "UdListDefinitionId": 660,
+  "Rank": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldLength": 855
     }
   }
 }

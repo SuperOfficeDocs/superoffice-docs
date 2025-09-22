@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 391,
-  "Name": "Walsh Group",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 165,
-  "UdListDefinitionId": 577
+  "HeadingId": 686,
+  "Name": "Halvorson, Kuhn and Kuhlman",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 706,
+  "UdListDefinitionId": 893
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 949,
-  "Name": "King Inc and Sons",
-  "Tooltip": "exercitationem",
+  "HeadingId": 239,
+  "Name": "Lowe-Green",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 483,
-  "UdListDefinitionId": 44,
+  "Rank": 418,
+  "UdListDefinitionId": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldLength": 858
     }
   }
 }

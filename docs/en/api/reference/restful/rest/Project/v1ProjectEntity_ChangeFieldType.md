@@ -31,7 +31,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -105,7 +105,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 632,
-  "ColumnId": 192,
-  "FieldDefault": "possimus",
-  "FieldHeight": 574,
-  "FieldLabel": "et",
-  "FieldLeft": 812,
-  "FieldTop": 240,
+  "UDefFieldId": 803,
+  "ColumnId": 716,
+  "FieldDefault": "nemo",
+  "FieldHeight": 282,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 967,
+  "FieldTop": 266,
   "FieldType": "Checkbox",
-  "FieldWidth": 155,
-  "FormatMask": "id",
-  "HideLabel": false,
+  "FieldWidth": 343,
+  "FormatMask": "vero",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 84,
-  "LabelLeft": 500,
-  "LabelTop": 414,
-  "LabelWidth": 737,
-  "LastVersionId": 915,
-  "ListTableId": 812,
+  "LabelHeight": 159,
+  "LabelLeft": 446,
+  "LabelTop": 740,
+  "LabelWidth": 165,
+  "LastVersionId": 813,
+  "ListTableId": 928,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 413,
-  "ProgId": "fugiat",
-  "IsReadOnly": true,
-  "ShortLabel": "quidem",
-  "TabOrder": 174,
-  "TextLength": 101,
-  "Tooltip": "alias",
-  "UdefIdentity": 41,
-  "UDListDefinitionId": 933,
+  "Page1LineNo": 163,
+  "ProgId": "debitis",
+  "IsReadOnly": false,
+  "ShortLabel": "exercitationem",
+  "TabOrder": 873,
+  "TextLength": 372,
+  "Tooltip": "amet",
+  "UdefIdentity": 328,
+  "UDListDefinitionId": 541,
   "Justification": "Center",
-  "Version": 187,
-  "TemplateVariableName": "Thiel, Boyle and Ziemann",
+  "Version": 524,
+  "TemplateVariableName": "Von Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Schmeler LLC",
+  "MdoListName": "Konopelski-DuBuque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 173
     }
   }
 }

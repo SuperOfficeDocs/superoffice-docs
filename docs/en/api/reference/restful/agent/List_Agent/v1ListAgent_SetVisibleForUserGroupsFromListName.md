@@ -94,28 +94,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runolfsson Group",
-  "ListItemId": 110,
+  "UdListDefinitionName": "Kris Inc and Sons",
+  "ListItemId": 453,
   "UserGroups": [
     {
-      "Id": 933,
-      "Name": "Ferry-Roob",
-      "ToolTip": "Quod veniam adipisci.",
-      "Deleted": true,
-      "Rank": 344,
-      "Type": "eos",
-      "ColorBlock": 155,
-      "IconHint": "ducimus",
+      "Id": 939,
+      "Name": "Rogahn, Jacobs and Batz",
+      "ToolTip": "Dolor consequatur aliquam id enim deleniti culpa.",
+      "Deleted": false,
+      "Rank": 189,
+      "Type": "consectetur",
+      "ColorBlock": 767,
+      "IconHint": "iusto",
       "Selected": true,
-      "LastChanged": "2015-09-07T03:46:54.9569999+02:00",
+      "LastChanged": "2000-08-15T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Christophe Cummings"
+      "ExtraInfo": "est",
+      "StyleHint": "fugiat",
+      "Hidden": false,
+      "FullName": "Shaniya Maybelle Wyman PhD"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Anderson LLC",
-    "ToolTip": "Quia eaque quas cumque aliquam similique.",
+    "Id": 208,
+    "Name": "Block, Stokes and O'Reilly",
+    "ToolTip": "Sit sit earum suscipit expedita iste autem consequuntur.",
     "Deleted": false,
-    "Rank": 559,
-    "Type": "eum",
-    "ColorBlock": 114,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2020-10-07T03:46:54.9569999+02:00",
+    "Rank": 528,
+    "Type": "quasi",
+    "ColorBlock": 861,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2007-04-08T11:24:48.2032781+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Bernier, Jacobson and Tillman",
-        "ToolTip": "Rerum et sint.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "aut",
-        "ColorBlock": 158,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "1999-07-11T03:46:54.9569999+02:00",
+        "Id": 430,
+        "Name": "Wintheiser-Reichel",
+        "ToolTip": "Est odio modi fuga velit.",
+        "Deleted": false,
+        "Rank": 642,
+        "Type": "ullam",
+        "ColorBlock": 217,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "1998-12-07T11:24:48.2032781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Isidro Walker",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Ila Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 734
+            "FieldType": "System.String",
+            "FieldLength": 496
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "officia",
+    "ExtraInfo": "repellat",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Jules Abernathy",
+    "FullName": "Leslie Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldLength": 377
       }
     }
   }

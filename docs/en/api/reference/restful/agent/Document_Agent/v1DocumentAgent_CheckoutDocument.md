@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 849,
+  "DocumentId": 982,
   "AllowedReturnTypes": [
-    "officia",
-    "ut"
+    "assumenda",
+    "et"
   ]
 }
 ```
@@ -97,11 +97,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "esse",
-  "VersionId": "aut",
+  "ExternalReference": "qui",
+  "VersionId": "et",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "doloremque",
-  "AdditionalInfo": "et"
+  "Value": "maiores",
+  "AdditionalInfo": "ut"
 }
 ```

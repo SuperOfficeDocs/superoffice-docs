@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Weber-Johnson",
-  "Tooltip": "tempora",
+  "Id": 860,
+  "Name": "Vandervort, Sporer and Frami",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 277,
-  "Rank": 254
+  "UdListDefinitionId": 465,
+  "Rank": 880
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Schiller Inc and Sons",
-  "Tooltip": "adipisci",
+  "Id": 701,
+  "Name": "Denesik-Ward",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 656,
-  "Rank": 314,
+  "UdListDefinitionId": 200,
+  "Rank": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

@@ -93,12 +93,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "minima",
+  "Section": "officiis",
+  "Key": "consequatur",
   "PreferenceDescription": null
 }
 ```
@@ -110,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 509,
-  "Section": "placeat",
-  "Key": "placeat",
-  "Name": "Casper-Ankunding",
+  "PrefDescId": 628,
+  "Section": "fugit",
+  "Key": "unde",
+  "Name": "Langworth, Rohan and Keebler",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered static help-desk",
+  "Description": "Proactive actuating open architecture",
   "IsBuiltin": false,
-  "TableName": "Wilderman Inc and Sons",
-  "UserDefinedListId": 418,
-  "Rank": 18,
-  "SubGroup": "numquam",
-  "MinLevel": 36,
-  "MaxValue": 548,
-  "MinValue": 255,
-  "RequiredLicense": "saepe",
+  "TableName": "Armstrong, Gleichner and Bashirian",
+  "UserDefinedListId": 106,
+  "Rank": 731,
+  "SubGroup": "praesentium",
+  "MinLevel": 674,
+  "MaxValue": 472,
+  "MinValue": 794,
+  "RequiredLicense": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

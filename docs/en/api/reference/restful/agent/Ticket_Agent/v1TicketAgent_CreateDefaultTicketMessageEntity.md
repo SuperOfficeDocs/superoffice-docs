@@ -91,28 +91,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 293,
+  "EjMessageId": 929,
   "Ticket": null,
-  "CreatedAt": "2005-09-17T03:46:55.5351045+02:00",
+  "CreatedAt": "2008-08-18T11:24:48.8595017+02:00",
   "CreatedBy": null,
-  "Author": "iste",
+  "Author": "nobis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "atque",
-  "TimeSpent": 610,
-  "Body": "qui",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "raymundo.schumm@strosin.co.uk",
-  "DebugInfo": "ut",
-  "MailSorter": "illum",
+  "MessageId": "est",
+  "TimeSpent": 809,
+  "Body": "ipsa",
+  "HtmlBody": "nihil",
+  "EmailHeader": "micheal@eichmann.name",
+  "DebugInfo": "consequatur",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "eligendi",
   "MessageHeaders": [
     {
-      "Id": 183,
-      "Name": "Satterfield-Koelpin",
-      "Value": "odio",
+      "Id": 719,
+      "Name": "Purdy Inc and Sons",
+      "Value": "rem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -120,50 +120,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 935
         }
       }
     }
   ],
   "Important": false,
-  "Language": "magni",
-  "Sentiment": 179,
-  "SentimentConfidence": 832,
+  "Language": "quas",
+  "Sentiment": 790,
+  "SentimentConfidence": 166,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 425,
-      "Name": "Toy LLC",
-      "ContentType": "deserunt",
-      "AttSize": 142,
+      "AttachmentId": 977,
+      "Name": "Bins, Sauer and Stark",
+      "ContentType": "atque",
+      "AttSize": 987,
       "InlineImage": true,
-      "ContentId": "vel",
-      "AuthKey": "quibusdam",
+      "ContentId": "quia",
+      "AuthKey": "velit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldType": "System.String",
+          "FieldLength": 756
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "est"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "beatae",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

@@ -70,10 +70,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 229,
+  "UdListDefinitionId": 942,
   "HeadingIds": [
-    306,
-    979
+    58,
+    101
   ]
 }
 ```

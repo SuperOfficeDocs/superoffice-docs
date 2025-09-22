@@ -72,7 +72,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,16 +82,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 571,
-  "Name": "Wolf-Grant",
-  "Tooltip": "eum",
+  "RoleId": 892,
+  "Name": "Beahan, Rogahn and Kassulke",
+  "Tooltip": "molestiae",
   "RoleType": "Anonymous",
-  "Deleted": 231,
-  "Rank": 946,
-  "Created": "2000-01-16T03:47:00.2068137+01:00",
-  "UseCategories": 691,
+  "Deleted": 326,
+  "Rank": 50,
+  "Created": "2003-06-02T11:24:53.4843128+02:00",
+  "UseCategories": 78,
   "CreatedBy": null,
-  "Updated": "2003-10-20T03:47:00.2068137+02:00",
+  "Updated": "2025-07-01T11:24:53.4843128+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 135
     }
   }
 }

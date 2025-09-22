@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "commodi",
-    "consequatur"
+    "delectus",
+    "alias"
   ]
 }
 ```
@@ -144,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 81,
-  "ERPQuoteLineKey": "eos",
-  "QuoteAlternativeId": 503,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 455,
+  "ERPQuoteLineKey": "corrupti",
+  "QuoteAlternativeId": 951,
+  "ERPProductKey": "nobis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13231.748,
-  "DeliveredQuantity": 10956.464,
-  "Rank": 886,
-  "Name": "Ortiz LLC",
-  "Description": "Cloned multi-tasking alliance",
-  "Code": "modi",
-  "QuantityUnit": "laudantium",
-  "PriceUnit": "ut",
-  "ItemNumber": "942909",
+  "Quantity": 1225.394,
+  "DeliveredQuantity": 27394.293999999998,
+  "Rank": 302,
+  "Name": "Kautzer, Parker and Stiedemann",
+  "Description": "Devolved empowering task-force",
+  "Code": "consectetur",
+  "QuantityUnit": "neque",
+  "PriceUnit": "nulla",
+  "ItemNumber": "1582855",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repudiandae",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "expedita",
-  "SupplierCode": "vel",
-  "Thumbnail": "saepe",
-  "VATInfo": "dolorem",
-  "VAT": 30462.48,
-  "UnitCost": 30042.523999999998,
-  "UnitMinimumPrice": 19311.708,
-  "UnitListPrice": 3459.9359999999997,
+  "ProductFamilyKey": "quod",
+  "ProductTypeKey": "sed",
+  "Supplier": "aspernatur",
+  "SupplierCode": "voluptatem",
+  "Thumbnail": "fugit",
+  "VATInfo": "et",
+  "VAT": 11636.542,
+  "UnitCost": 30258.77,
+  "UnitMinimumPrice": 5672.54,
+  "UnitListPrice": 23508.134,
   "ExtraInfo": [
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Bruen-Breitenberg",
+      "Value": "officiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldType": "System.String",
+          "FieldLength": 899
         }
       }
     },
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Bruen-Breitenberg",
+      "Value": "officiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldType": "System.String",
+          "FieldLength": 899
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "veritatis",
-  "SubscriptionQuantity": 14159.412,
-  "SubscriptionStart": "2010-02-08T03:46:55.1913666+01:00",
-  "ERPDiscountPercent": 18283.755999999998,
-  "ERPDiscountAmount": 26676.608,
-  "DiscountPercent": 8057.514,
-  "DiscountAmount": 31.34,
+  "RawExtraInfo": "quidem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quis",
+  "SubscriptionQuantity": 20182.96,
+  "SubscriptionStart": "2007-01-08T11:24:48.5001409+01:00",
+  "ERPDiscountPercent": 16516.18,
+  "ERPDiscountAmount": 13714.384,
+  "DiscountPercent": 22937.746,
+  "DiscountAmount": 9790.616,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24489.076,
-  "EarningAmount": 10304.592,
-  "SubTotal": 18064.376,
-  "TotalPrice": 19600.036,
-  "Rights": "praesentium",
-  "Rule": "laudantium",
-  "ExtraField1": "et",
-  "ExtraField2": "aut",
-  "ExtraField3": "a",
-  "ExtraField4": "laborum",
-  "ExtraField5": "minus",
+  "EarningPercent": 12507.794,
+  "EarningAmount": 10013.13,
+  "SubTotal": 16469.17,
+  "TotalPrice": 9091.734,
+  "Rights": "ipsam",
+  "Rule": "nulla",
+  "ExtraField1": "porro",
+  "ExtraField2": "sint",
+  "ExtraField3": "magni",
+  "ExtraField4": "omnis",
+  "ExtraField5": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

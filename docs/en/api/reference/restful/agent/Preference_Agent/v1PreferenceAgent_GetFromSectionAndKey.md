@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est",
-  "Key": "rem"
+  "Section": "distinctio",
+  "Key": "et"
 }
 ```
 
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 620,
-  "Section": "et",
-  "Key": "enim",
-  "Name": "Koepp, Cruickshank and Ullrich",
+  "PrefDescId": 62,
+  "Section": "reprehenderit",
+  "Key": "adipisci",
+  "Name": "Weber LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly fresh-thinking Graphical User Interface",
-  "IsBuiltin": false,
-  "TableName": "Rosenbaum Group",
-  "UserDefinedListId": 587,
-  "Rank": 705,
-  "SubGroup": "et",
-  "MinLevel": 178,
-  "MaxValue": 24,
-  "MinValue": 42,
-  "RequiredLicense": "ratione",
+  "Description": "Focused demand-driven capability",
+  "IsBuiltin": true,
+  "TableName": "Terry, Walter and Rutherford",
+  "UserDefinedListId": 329,
+  "Rank": 988,
+  "SubGroup": "labore",
+  "MinLevel": 510,
+  "MaxValue": 248,
+  "MinValue": 111,
+  "RequiredLicense": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 827
     }
   }
 }

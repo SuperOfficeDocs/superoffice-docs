@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 478,
-  "TargetDimensionId": 862
+  "Year": 176,
+  "TargetDimensionId": 748
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 124,
+    "TargetAssignmentInfoId": 828,
     "Values": [
-      829,
-      687
+      316,
+      941
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 901,
-    "DimensionListItemDisplayName": "Wehner, Bashirian and Ziemann",
+    "DimensionListItem": 711,
+    "DimensionListItemDisplayName": "Douglas, Block and Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 36
       }
     }
   }

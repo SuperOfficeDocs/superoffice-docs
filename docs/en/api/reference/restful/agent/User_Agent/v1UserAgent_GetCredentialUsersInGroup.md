@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ut",
-  "GroupName": "Emmerich-Kertzmann"
+  "Type": "sed",
+  "GroupName": "Sporer-Schiller"
 }
 ```
 
@@ -95,16 +95,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "est",
-    "voluptatibus"
+    "nesciunt",
+    "nam"
   ],
   "Users": [
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "ad",
+      "DisplayValue": "id",
       "Columns": [
-        "sequi",
-        "illum"
+        "eum",
+        "doloremque"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -112,16 +112,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 728
         }
       }
     },
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "ad",
+      "DisplayValue": "id",
       "Columns": [
-        "sequi",
-        "illum"
+        "eum",
+        "doloremque"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 728
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Koepp-Mueller",
-    "ToolTip": "Voluptatem dolorum consectetur eos.",
-    "Deleted": true,
-    "Rank": 872,
-    "Type": "repudiandae",
-    "ColorBlock": 896,
-    "IconHint": "aut",
+    "Id": 753,
+    "Name": "Homenick, Lindgren and Nienow",
+    "ToolTip": "Molestiae quo consequatur.",
+    "Deleted": false,
+    "Rank": 832,
+    "Type": "ab",
+    "ColorBlock": 12,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2009-04-25T03:47:00.8161673+02:00",
+    "LastChanged": "2015-08-01T11:24:54.1405361+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Ward Group",
-        "ToolTip": "Recusandae possimus facere.",
-        "Deleted": false,
-        "Rank": 360,
-        "Type": "cum",
-        "ColorBlock": 561,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2010-08-17T03:47:00.8161673+02:00",
+        "Id": 795,
+        "Name": "Schoen-Johnston",
+        "ToolTip": "Est rem soluta et sequi iste repudiandae ratione.",
+        "Deleted": true,
+        "Rank": 718,
+        "Type": "est",
+        "ColorBlock": 982,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2005-08-23T11:24:54.1405361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "natus",
+        "StyleHint": "exercitationem",
         "Hidden": true,
-        "FullName": "Miss Mason Beatty DVM"
+        "FullName": "Jazmyn Schroeder"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ad",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Jude Harvey"
+    "FullName": "Shaina Rohan"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Schuppe, White and Hilpert",
-    "ToolTip": "Quis in.",
+    "Id": 160,
+    "Name": "Considine LLC",
+    "ToolTip": "Ullam illum aperiam dolores voluptatem et enim.",
     "Deleted": true,
-    "Rank": 90,
-    "Type": "iure",
-    "ColorBlock": 275,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2006-01-23T03:47:00.8161673+01:00",
+    "Rank": 753,
+    "Type": "corporis",
+    "ColorBlock": 238,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2011-03-30T11:24:54.1561606+02:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Maggio-McCullough",
-        "ToolTip": "Enim eum voluptatem vel rerum in ut dolor.",
-        "Deleted": false,
-        "Rank": 405,
-        "Type": "molestias",
-        "ColorBlock": 136,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2020-09-09T03:47:00.8161673+02:00",
+        "Id": 400,
+        "Name": "Nikolaus LLC",
+        "ToolTip": "Consequatur est delectus rerum sapiente quas consequatur dolorem.",
+        "Deleted": true,
+        "Rank": 437,
+        "Type": "at",
+        "ColorBlock": 773,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2013-02-06T11:24:54.1561606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "dicta",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dovie Willms",
+        "FullName": "Katarina Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 743
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "quia",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mrs. Marguerite Romaguera",
+    "FullName": "Bertha Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 737
       }
     }
   }

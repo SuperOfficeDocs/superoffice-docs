@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Zulauf-Crist",
-    "Tooltip": "qui",
+    "Id": 24,
+    "Name": "Jast-Harris",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 125,
-    "Rank": 668
+    "UdListDefinitionId": 470,
+    "Rank": 752
   },
   {
-    "Id": 953,
-    "Name": "Zulauf-Crist",
-    "Tooltip": "qui",
+    "Id": 24,
+    "Name": "Jast-Harris",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 125,
-    "Rank": 668
+    "UdListDefinitionId": 470,
+    "Rank": 752
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Altenwerth Group",
-    "Tooltip": "consequatur",
+    "Id": 191,
+    "Name": "Tillman, Bauch and Toy",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "UdListDefinitionId": 158,
-    "Rank": 421,
+    "UdListDefinitionId": 470,
+    "Rank": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 59
       }
     }
   }

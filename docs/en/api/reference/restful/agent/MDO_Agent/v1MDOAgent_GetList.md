@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "consequuntur",
+  "Name": "Bergstrom Inc and Sons",
+  "ForceFlatList": true,
+  "AdditionalInfo": "cumque",
   "OnlyHistory": true
 }
 ```
@@ -107,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Smith-Homenick",
-    "ToolTip": "Quaerat distinctio.",
+    "Id": 877,
+    "Name": "Senger Inc and Sons",
+    "ToolTip": "Ullam suscipit officiis at odio quidem.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "ut",
+    "Rank": 799,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Kertzmann LLC",
-        "ToolTip": "Nisi qui inventore rem praesentium.",
-        "Deleted": true,
-        "Rank": 65,
-        "Type": "deserunt",
+        "Id": 115,
+        "Name": "O'Conner-McKenzie",
+        "ToolTip": "Dolor tenetur laborum iusto consequatur et.",
+        "Deleted": false,
+        "Rank": 349,
+        "Type": "aperiam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 874,
-        "ExtraInfo": "id",
-        "StyleHint": "impedit",
-        "FullName": "Mrs. Dominic Adela Rempel",
+        "IconHint": "consequatur",
+        "ColorBlock": 521,
+        "ExtraInfo": "aut",
+        "StyleHint": "rerum",
+        "FullName": "Cathy Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldLength": 770
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 329,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quam",
-    "FullName": "Eryn Reynolds",
+    "IconHint": "ut",
+    "ColorBlock": 270,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "eligendi",
+    "FullName": "Prof. Darwin Hagenes Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

@@ -102,20 +102,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 640,
-  "Name": "Buckridge, DuBuque and Sipes",
-  "Tooltip": "officia",
+  "RoleId": 241,
+  "Name": "Windler, Kozey and Haley",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 450,
-  "Rank": 367,
-  "Created": "2012-08-20T03:47:00.2068137+02:00",
-  "UseCategories": 384,
+  "Deleted": 569,
+  "Rank": 922,
+  "Created": "2007-03-25T11:24:53.4843128+02:00",
+  "UseCategories": 573,
   "CreatedBy": null,
-  "Updated": "2025-02-24T03:47:00.2068137+01:00",
+  "Updated": "2008-09-20T11:24:53.4843128+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,16 +128,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 454,
-  "Name": "Swaniawski, Koss and Hoeger",
-  "Tooltip": "cum",
+  "RoleId": 577,
+  "Name": "Durgan, Rodriguez and Kemmer",
+  "Tooltip": "delectus",
   "RoleType": "Anonymous",
-  "Deleted": 623,
-  "Rank": 538,
-  "Created": "2020-05-16T03:47:00.2068137+02:00",
-  "UseCategories": 930,
+  "Deleted": 360,
+  "Rank": 70,
+  "Created": "2012-06-23T11:24:53.4843128+02:00",
+  "UseCategories": 997,
   "CreatedBy": null,
-  "Updated": "2005-11-12T03:47:00.2068137+01:00",
+  "Updated": "2020-12-07T11:24:53.4843128+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 508
     }
   },
   "_Links": {

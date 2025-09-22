@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 163
+  "DocumentId": 798
 }
 ```
 
@@ -121,156 +121,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 798,
-      "ContactName": "Tillman Group",
-      "PersonId": 837,
-      "PersonName": "Abshire Group",
-      "AssociateId": 983,
-      "Address": "quia",
-      "EmailId": 954,
+      "ContactId": 596,
+      "ContactName": "Stokes, Ullrich and Ryan",
+      "PersonId": 330,
+      "PersonName": "Runolfsson LLC",
+      "AssociateId": 906,
+      "Address": "voluptatem",
+      "EmailId": 298,
       "DuplicatePersonIds": [
-        877,
-        989
+        482,
+        670
       ],
-      "Name": "Keeling-Hand",
+      "Name": "Quitzon Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 324,
-      "ContactName": "Stiedemann, Torp and Keeling",
-      "PersonId": 735,
-      "PersonName": "Lebsack LLC",
-      "AssociateId": 125,
-      "Address": "rerum",
-      "EmailId": 456,
+      "ContactId": 150,
+      "ContactName": "Skiles-Morissette",
+      "PersonId": 913,
+      "PersonName": "Jakubowski LLC",
+      "AssociateId": 620,
+      "Address": "et",
+      "EmailId": 613,
       "DuplicatePersonIds": [
-        995,
-        888
+        491,
+        89
       ],
-      "Name": "Pollich-Harvey",
+      "Name": "Parker-Klocko",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldType": "System.Int32",
+          "FieldLength": 842
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 216,
-      "ContactName": "Nienow-Parker",
-      "PersonId": 484,
-      "PersonName": "Anderson, Tromp and Daugherty",
-      "AssociateId": 819,
-      "Address": "aut",
-      "EmailId": 110,
+      "ContactId": 929,
+      "ContactName": "Rau LLC",
+      "PersonId": 395,
+      "PersonName": "Bailey Group",
+      "AssociateId": 313,
+      "Address": "similique",
+      "EmailId": 513,
       "DuplicatePersonIds": [
-        634,
-        50
+        975,
+        533
       ],
-      "Name": "Ortiz, O'Conner and Roberts",
+      "Name": "Windler Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 997
         }
       }
     }
   ],
-  "Subject": "voluptates",
-  "HTMLBody": "iusto",
+  "Subject": "eos",
+  "HTMLBody": "vel",
   "From": null,
-  "Sent": "2021-03-18T03:46:54.785131+01:00",
-  "Size": 932,
+  "Sent": "2006-08-08T11:24:48.0939075+02:00",
+  "Size": 26,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "qui",
-  "IsSent": false,
+  "MessageID": "voluptatem",
+  "PlainBody": "voluptatum",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 83,
+  "ServerId": 733,
   "Attachments": [
     {
-      "Description": "Pre-emptive stable circuit",
-      "Filename": "cupiditate",
-      "Size": 243,
-      "Type": "cumque",
-      "Encoding": "non",
-      "Id": "quibusdam",
-      "Disposition": "laboriosam",
-      "IsSafeFileExtension": false,
+      "Description": "Profit-focused tertiary circuit",
+      "Filename": "soluta",
+      "Size": 266,
+      "Type": "culpa",
+      "Encoding": "laudantium",
+      "Id": "libero",
+      "Disposition": "sed",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 316
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Waters-Koepp",
       "Values": [
-        "qui",
-        "eius"
+        "enim",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 39
         }
       }
     },
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Waters-Koepp",
       "Values": [
-        "qui",
-        "eius"
+        "enim",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 39
         }
       }
     }
   ],
-  "FolderName": "Moen LLC",
-  "EmailItemId": 287,
-  "AccountId": 807,
-  "ReceivedAt": "1999-02-03T03:46:54.785131+01:00",
+  "FolderName": "Hilll-Aufderhar",
+  "EmailItemId": 669,
+  "AccountId": 422,
+  "ReceivedAt": "2022-02-25T11:24:48.0939075+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-01-24T03:46:54.785131+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-12-08T11:24:48.0939075+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 713
     }
   }
 }

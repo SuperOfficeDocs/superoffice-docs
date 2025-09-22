@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Schuster-Zulauf",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 960,
-  "Rank": 575
+  "Id": 652,
+  "Name": "Orn Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 501,
+  "Rank": 228
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Kshlerin-Jerde",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "UdListDefinitionId": 538,
-  "Rank": 889,
+  "Id": 210,
+  "Name": "Johnston LLC",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 372,
+  "Rank": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 36
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

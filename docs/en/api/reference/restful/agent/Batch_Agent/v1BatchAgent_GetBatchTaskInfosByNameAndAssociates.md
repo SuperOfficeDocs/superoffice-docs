@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cruickshank Group",
+  "Name": "Haley LLC",
   "AssociateIds": [
-    690,
-    533
+    462,
+    244
   ]
 }
 ```
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Carter Inc and Sons",
-    "AssociateId": 114,
-    "DetailsTable": 33,
-    "DetailsRecord": 296,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 460,
+    "Name": "O'Reilly LLC",
+    "AssociateId": 82,
+    "DetailsTable": 86,
+    "DetailsRecord": 69,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "minus"
+      "ParameterObject1": "est",
+      "ParameterObject2": "necessitatibus"
     },
-    "LastStarted": "1998-12-17T03:46:54.3007673+01:00",
-    "Created": "2019-08-28T03:46:54.3007673+02:00",
-    "StartCount": 353,
-    "DatabaseSerialNumber": "1063292",
-    "Context": "qui",
-    "Result": "numquam",
+    "LastStarted": "2005-12-27T11:24:47.6095526+01:00",
+    "Created": "2014-06-19T11:24:47.6095526+02:00",
+    "StartCount": 963,
+    "DatabaseSerialNumber": "874254",
+    "Context": "molestiae",
+    "Result": "eum",
     "State": "All",
-    "Description": "Advanced scalable middleware",
-    "Response": "ullam",
-    "Request": "repellendus",
-    "ProgressDescription": "Secured client-server paradigm",
-    "ProgressPercent": 383,
-    "FileName": "Rice-Turner",
+    "Description": "Decentralized composite budgetary management",
+    "Response": "ut",
+    "Request": "magnam",
+    "ProgressDescription": "Advanced exuding algorithm",
+    "ProgressPercent": 131,
+    "FileName": "Zboncak LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 418
       }
     }
   }

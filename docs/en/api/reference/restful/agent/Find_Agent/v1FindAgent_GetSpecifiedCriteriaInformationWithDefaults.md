@@ -87,16 +87,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Abernathy, Stehr and Mayer",
-  "StorageKey": "quos",
+  "StorageType": "odio",
+  "ProviderName": "Trantow Inc and Sons",
+  "StorageKey": "iste",
   "DesiredColumnNames": [
-    "Homenick, Kautzer and Beier",
-    "Simonis-Mann"
+    "Rippin Group",
+    "Kohler Group"
   ],
   "StaticColumns": [
-    "in",
-    "qui"
+    "nihil",
+    "dignissimos"
   ]
 }
 ```
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Veum-Hackett",
-      "Operator": "fugiat",
+      "Name": "Medhurst, Bailey and Sawayn",
+      "Operator": "rerum",
       "Values": [
-        "ducimus",
-        "non"
+        "accusantium",
+        "aut"
       ],
       "DisplayValues": [
-        "et",
-        "accusamus"
+        "nihil",
+        "eum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +126,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 38,
+      "InterParenthesis": 985,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 51
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Erdman-Kertzmann",
-      "DisplayTooltip": "amet",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Morissette-Bins",
-      "CanRestrictBy": true,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Heaney Group",
-      "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "maxime",
-      "IconHint": "et",
-      "HeadingIconHint": "numquam"
+      "DisplayName": "Mante-Donnelly",
+      "DisplayTooltip": "earum",
+      "DisplayType": "rem",
+      "CanOrderBy": false,
+      "Name": "Tremblay, Kuvalis and McClure",
+      "CanRestrictBy": false,
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Hyatt-Kautzer",
+      "IsVisible": true,
+      "ExtraInfo": "eum",
+      "Width": "ut",
+      "IconHint": "sint",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Roob Inc and Sons",
-      "PrimaryKey": 727,
+      "EntityName": "Lehner, Rowe and Powlowski",
+      "PrimaryKey": 850,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "excepturi",
-          "LinkHint": "iure"
+          "DisplayValue": "velit",
+          "TooltipHint": "eius",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quaerat",
+      "LinkHint": "ea",
+      "StyleHint": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldType": "System.String",
+          "FieldLength": 657
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Hartmann Inc and Sons",
+      "Description": "Digitized intermediate model",
+      "Rank": 500,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Hartmann Inc and Sons",
+      "Description": "Digitized intermediate model",
+      "Rank": 500,
       "Restrictions": [
         {},
         {}
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

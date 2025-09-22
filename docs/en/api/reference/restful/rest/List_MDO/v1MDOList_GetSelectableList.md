@@ -31,7 +31,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=saepe
+GET /api/v1/MDOList/{listname}/selectable?additional=omnis
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Terry, Feeney and Walter",
-    "ToolTip": "Vel dolores quibusdam.",
+    "Id": 693,
+    "Name": "Glover Inc and Sons",
+    "ToolTip": "Omnis sunt.",
     "Deleted": true,
-    "Rank": 317,
-    "Type": "nihil",
-    "ColorBlock": 596,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2014-03-14T03:47:00.6755475+01:00",
+    "Rank": 756,
+    "Type": "harum",
+    "ColorBlock": 465,
+    "IconHint": "dicta",
+    "Selected": true,
+    "LastChanged": "2001-12-01T11:24:53.9530436+01:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Trantow-Kuphal",
-        "ToolTip": "Quibusdam in.",
+        "Id": 555,
+        "Name": "Wyman, Stamm and Klein",
+        "ToolTip": "Repudiandae in rerum.",
         "Deleted": false,
-        "Rank": 960,
-        "Type": "dolorum",
-        "ColorBlock": 543,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2013-07-15T03:47:00.6755475+02:00",
+        "Rank": 8,
+        "Type": "deserunt",
+        "ColorBlock": 41,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2014-01-10T11:24:53.9530436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "qui",
+        "ExtraInfo": "velit",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Tessie D'Amore IV",
+        "FullName": "Beth O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "provident",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Randi Batz DDS",
+    "FullName": "Fanny Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 485
       }
     }
   }

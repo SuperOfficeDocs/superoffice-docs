@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger Group",
+  "ProviderName": "Lehner Group",
   "DesiredColumns": [
-    "fuga",
-    "doloremque"
+    "quidem",
+    "praesentium"
   ]
 }
 ```
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Jacobson Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Jacobson Group",
     "Direction": "ASC"
   }
 ]

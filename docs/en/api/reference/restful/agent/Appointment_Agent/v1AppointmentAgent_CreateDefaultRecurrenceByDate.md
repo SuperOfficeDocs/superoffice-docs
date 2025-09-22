@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-04-02T03:46:54.1914032+02:00"
+  "StartDate": "1998-11-22T11:24:47.4533128+01:00"
 }
 ```
 
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 748,
-  "StartDate": "2003-01-10T03:46:54.1914032+01:00",
-  "EndDate": "2017-08-31T03:46:54.1914032+02:00",
-  "RecurrenceCounter": 649,
+  "RecurrenceId": 887,
+  "StartDate": "2000-10-24T11:24:47.4533128+02:00",
+  "EndDate": "2012-11-20T11:24:47.4533128+01:00",
+  "RecurrenceCounter": 494,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
-      "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Date": "2020-09-16T11:24:47.4533128+02:00",
+      "IsConflict": true,
+      "Description": "Inverse analyzing complexity",
+      "DescriptionStyleHint": "Profit-focused exuding alliance",
+      "Tooltip": "qui"
     },
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
-      "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Date": "2020-09-16T11:24:47.4533128+02:00",
+      "IsConflict": true,
+      "Description": "Inverse analyzing complexity",
+      "DescriptionStyleHint": "Profit-focused exuding alliance",
+      "Tooltip": "qui"
     }
   ],
   "IsRecurrence": true

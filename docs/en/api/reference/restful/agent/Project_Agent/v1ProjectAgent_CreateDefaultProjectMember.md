@@ -67,6 +67,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -76,7 +78,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 274,
-  "ContactId": 82,
-  "ProjectId": 148,
-  "ContactName": "Brown, Koch and Bergnaum",
+  "ProjectmemberId": 195,
+  "ContactId": 596,
+  "ProjectId": 314,
+  "ContactName": "Barton-Kuhlman",
   "ContactDepartment": "",
-  "ProjectName": "Senger, Sporer and Mayer",
-  "EmailId": 10,
-  "EmailAddress": "mayra.oberbrunner@morar.ca",
-  "CountryId": 661,
-  "Firstname": "Helga",
-  "MiddleName": "Farrell LLC",
-  "Lastname": "Bruen",
-  "PersonId": 7,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Kuhn, Grant and Dach",
-  "Phone": "202.744.8754 x19684",
-  "PhoneId": 637,
-  "ProjectMemberTypeId": 436,
-  "EmailAddressName": "norberto@mann.ca",
-  "Comment": "distinctio",
-  "FullName": "Dominique Osinski",
+  "ProjectName": "Wilkinson, Kemmer and Wolf",
+  "EmailId": 240,
+  "EmailAddress": "brandy_leuschke@hudson.us",
+  "CountryId": 972,
+  "Firstname": "Jacklyn",
+  "MiddleName": "Bahringer, McGlynn and Lemke",
+  "Lastname": "Berge",
+  "PersonId": 62,
+  "Mrmrs": "esse",
+  "ProjectMemberTypeName": "Casper, O'Kon and Bogisich",
+  "Phone": "760-942-0495",
+  "PhoneId": 314,
+  "ProjectMemberTypeId": 752,
+  "EmailAddressName": "myles@turner.ca",
+  "Comment": "blanditiis",
+  "FullName": "Marlene Littel",
+  "Registered": "2023-06-17T11:24:48.5001409+02:00",
+  "Updated": "2022-01-03T11:24:48.5001409+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 747
     }
   }
 }

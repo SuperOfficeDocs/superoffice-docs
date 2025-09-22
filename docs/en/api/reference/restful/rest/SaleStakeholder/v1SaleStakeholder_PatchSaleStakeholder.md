@@ -127,18 +127,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "laboriosam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "laboriosam",
     "value": {}
   }
 ]
@@ -151,36 +151,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Upton Group",
-  "Comment": "est",
-  "StakeholderRoleId": 540,
-  "CountryId": 364,
-  "PersonId": 247,
-  "EmailDescription": "aron@wehner.us",
-  "EmailId": 908,
-  "EmailAddress": "dedrick.durgan@effertzwill.name",
-  "PhoneId": 729,
-  "ContactName": "Parker-Kessler",
-  "ContactId": 478,
-  "SaleId": 967,
-  "Mrmrs": "aliquam",
-  "Firstname": "Terrill",
-  "MiddleName": "Hartmann, Corwin and Monahan",
-  "Lastname": "Greenholt",
-  "SaleStakeholderId": 131,
-  "Rank": 879,
-  "Phone": "004.916.9127 x2050",
+  "StakeholderRoleName": "Volkman-Hand",
+  "Comment": "odit",
+  "StakeholderRoleId": 303,
+  "CountryId": 320,
+  "PersonId": 578,
+  "EmailDescription": "celestino@greenholtparker.name",
+  "EmailId": 970,
+  "EmailAddress": "jacques@quitzon.info",
+  "PhoneId": 396,
+  "ContactName": "King, Klocko and Shields",
+  "ContactId": 342,
+  "SaleId": 478,
+  "Mrmrs": "est",
+  "Firstname": "Lela",
+  "MiddleName": "McDermott, Schmitt and Leffler",
+  "Lastname": "Ernser",
+  "SaleStakeholderId": 263,
+  "Rank": 393,
+  "Phone": "417.898.5316",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 129
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

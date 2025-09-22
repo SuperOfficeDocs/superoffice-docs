@@ -89,9 +89,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cronin-Ankunding",
-  "DeviceName": "Farrell Group",
-  "DeviceIdentifier": "est",
+  "ApplicationName": "Jacobs-Anderson",
+  "DeviceName": "Leuschke, Mosciski and White",
+  "DeviceIdentifier": "reprehenderit",
   "ForeignDevice": null
 }
 ```
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 685,
-  "Name": "Medhurst Group",
-  "CreatedDate": "2009-06-13T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-12-27T03:46:54.9107593+01:00",
-  "AssociateFullName": "Gianni Gutmann",
-  "CreatedBy": "fugiat",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "temporibus",
-  "ForeignAppId": 312,
+  "ForeignDeviceId": 14,
+  "Name": "Kilback LLC",
+  "CreatedDate": "2012-12-13T11:24:48.1564051+01:00",
+  "UpdatedDate": "2002-03-07T11:24:48.1564051+01:00",
+  "AssociateFullName": "Erick Wisozk",
+  "CreatedBy": "qui",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "nemo",
+  "ForeignAppId": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

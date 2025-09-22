@@ -28,7 +28,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=velit
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Bednar Group",
-    "ToolTip": "Animi modi quia aut nulla qui reprehenderit.",
-    "Deleted": false,
-    "Rank": 267,
-    "Type": "maxime",
+    "Id": 86,
+    "Name": "Welch, Harvey and Metz",
+    "ToolTip": "Soluta ut.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Gislason Inc and Sons",
-        "ToolTip": "Repellat autem maiores qui amet sunt excepturi.",
-        "Deleted": false,
-        "Rank": 532,
-        "Type": "dicta",
+        "Id": 180,
+        "Name": "Bechtelar LLC",
+        "ToolTip": "Laborum et a dicta quae et.",
+        "Deleted": true,
+        "Rank": 72,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 335,
-        "ExtraInfo": "enim",
-        "StyleHint": "quisquam",
-        "FullName": "Justice Parker",
+        "IconHint": "incidunt",
+        "ColorBlock": 351,
+        "ExtraInfo": "vel",
+        "StyleHint": "consequatur",
+        "FullName": "Dr. Delpha Dietrich Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 329
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 606,
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "FullName": "Dario Murray",
+    "IconHint": "at",
+    "ColorBlock": 592,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "dolorem",
+    "FullName": "Braden Kaden Harber II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

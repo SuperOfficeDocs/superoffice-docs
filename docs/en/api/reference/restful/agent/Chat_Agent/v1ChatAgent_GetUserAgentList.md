@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Eichmann, Cremin and Yundt",
-    "ToolTip": "Illum est.",
+    "Id": 277,
+    "Name": "Moore Group",
+    "ToolTip": "Aut ullam sint nulla.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "molestiae",
+    "Rank": 327,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Zemlak, Kulas and Considine",
-        "ToolTip": "Sunt tempora et in veritatis.",
+        "Id": 512,
+        "Name": "Macejkovic-Hoppe",
+        "ToolTip": "Dolorem beatae doloribus labore.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "sequi",
+        "Rank": 471,
+        "Type": "ducimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 617,
-        "ExtraInfo": "distinctio",
-        "StyleHint": "repellendus",
-        "FullName": "Aileen Walker",
+        "IconHint": "dicta",
+        "ColorBlock": 230,
+        "ExtraInfo": "et",
+        "StyleHint": "maiores",
+        "FullName": "Adelbert Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldType": "System.String",
+            "FieldLength": 625
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 179,
-    "ExtraInfo": "qui",
+    "IconHint": "aut",
+    "ColorBlock": 283,
+    "ExtraInfo": "sunt",
     "StyleHint": "dolorem",
-    "FullName": "Retta DuBuque",
+    "FullName": "Shyanne Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

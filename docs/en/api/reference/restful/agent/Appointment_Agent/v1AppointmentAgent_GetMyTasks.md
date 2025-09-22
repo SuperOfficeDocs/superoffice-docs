@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 901
+  "Count": 754
 }
 ```
 
@@ -146,67 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 637,
-    "StartDate": "2011-02-04T03:46:54.2695244+01:00",
-    "EndDate": "2006-03-10T03:46:54.2695244+01:00",
+    "AppointmentId": 806,
+    "StartDate": "2018-07-15T11:24:47.5939281+02:00",
+    "EndDate": "2010-08-28T11:24:47.5939281+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Miss Roxanne Renner DDS",
-    "ContactName": "Jerde, Koss and Mann",
-    "Description": "Versatile holistic matrices",
-    "PersonFullName": "Mr. Rod Haag Sr.",
-    "PersonId": 441,
-    "ContactId": 338,
-    "ProjectId": 96,
-    "ProjectName": "Wyman-Hoeger",
+    "Task": "quos",
+    "AssociateFullName": "Carol Von PhD",
+    "ContactName": "Hoeger, Nader and Bins",
+    "Description": "Enhanced transitional initiative",
+    "PersonFullName": "Prof. Libby Jewell Kuvalis",
+    "PersonId": 140,
+    "ContactId": 283,
+    "ProjectId": 948,
+    "ProjectName": "Dickens-Jacobi",
     "IsPublished": false,
-    "AssociateId": 947,
-    "ColorIndex": 281,
+    "AssociateId": 461,
+    "ColorIndex": 718,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 569,
-    "PriorityName": "Erdman, Ward and Pacocha",
+    "PriorityId": 371,
+    "PriorityName": "Cummings Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-12-15T03:46:54.2695244+01:00",
+    "ActiveDate": "2016-10-17T11:24:47.5939281+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-06-25T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2015-07-28T03:46:54.2695244+02:00",
-    "MotherId": 624,
-    "AssignedBy": 691,
-    "AssignedByFullName": "Dovie Boehm III",
+    "RecurringStartDate": "2015-10-31T11:24:47.5939281+01:00",
+    "RecurringEndDate": "2013-08-30T11:24:47.5939281+02:00",
+    "MotherId": 987,
+    "AssignedBy": 281,
+    "AssignedByFullName": "Devin Weissnat",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "eligendi",
-    "SaleId": 785,
-    "SaleName": "Wiza, Conn and Christiansen",
-    "AssociateName": "Bode LLC",
-    "CreatedDate": "2024-01-23T03:46:54.2695244+01:00",
-    "CreatedBy": "iusto",
-    "CreatedByFullName": "Miss Paolo McLaughlin",
-    "CreatedByAssociateId": 773,
+    "Location": "dolor",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 263,
+    "SaleName": "Larkin-Schamberger",
+    "AssociateName": "Douglas-Pacocha",
+    "CreatedDate": "2007-08-15T11:24:47.5939281+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Miss Esteban Reilly PhD",
+    "CreatedByAssociateId": 363,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 21,
+    "MotherAssociateId": 605,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 896,
-    "Title": "officia",
-    "Agenda": "maxime",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 731,
+    "Title": "porro",
+    "Agenda": "quia",
+    "InternalNotes": "aperiam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

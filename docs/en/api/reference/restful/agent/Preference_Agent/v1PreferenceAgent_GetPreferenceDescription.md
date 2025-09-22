@@ -27,7 +27,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=781
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=709
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 362,
-  "Section": "et",
-  "Key": "quis",
-  "Name": "Baumbach, McCullough and Schowalter",
+  "PrefDescId": 285,
+  "Section": "magni",
+  "Key": "praesentium",
+  "Name": "Keebler-Littel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced user-facing attitude",
+  "Description": "Decentralized 4th generation algorithm",
   "IsBuiltin": false,
-  "TableName": "Jewess, Hammes and Hammes",
-  "UserDefinedListId": 389,
-  "Rank": 585,
-  "SubGroup": "nihil",
-  "MinLevel": 258,
-  "MaxValue": 638,
-  "MinValue": 7,
-  "RequiredLicense": "consequatur",
+  "TableName": "Bayer-Bins",
+  "UserDefinedListId": 629,
+  "Rank": 42,
+  "SubGroup": "suscipit",
+  "MinLevel": 997,
+  "MaxValue": 689,
+  "MinValue": 380,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 901
     }
   }
 }

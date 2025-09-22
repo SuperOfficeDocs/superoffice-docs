@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 636
+  "PersonId": 8
 }
 ```
 
@@ -106,27 +106,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 23,
-    "Comment": "omnis",
-    "Registered": "2017-07-10T03:46:55.0976201+02:00",
-    "RegisteredAssociateId": 710,
-    "Updated": "2003-05-01T03:46:55.0976201+02:00",
-    "UpdatedAssociateId": 896,
-    "LegalBaseId": 853,
-    "LegalBaseKey": "qui",
-    "LegalBaseName": "Lesch Inc and Sons",
-    "ConsentPurposeId": 886,
-    "ConsentPurposeKey": "facere",
-    "ConsentPurposeName": "Kutch Inc and Sons",
-    "ConsentSourceId": 139,
-    "ConsentSourceKey": "nostrum",
-    "ConsentSourceName": "King Inc and Sons",
+    "ConsentPersonId": 619,
+    "Comment": "repellendus",
+    "Registered": "2024-10-18T11:24:48.3595217+02:00",
+    "RegisteredAssociateId": 29,
+    "Updated": "2019-05-28T11:24:48.3595217+02:00",
+    "UpdatedAssociateId": 665,
+    "LegalBaseId": 69,
+    "LegalBaseKey": "et",
+    "LegalBaseName": "Lind-Wyman",
+    "ConsentPurposeId": 709,
+    "ConsentPurposeKey": "recusandae",
+    "ConsentPurposeName": "O'Connell-VonRueden",
+    "ConsentSourceId": 291,
+    "ConsentSourceKey": "et",
+    "ConsentSourceName": "Carter LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldType": "System.String",
+        "FieldLength": 172
       }
     }
   }

@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Stoltenberg-Funk",
-  "Id": 536
+  "HistoryName": "Jenkins-Bayer",
+  "Id": 870
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 598,
-  "Id": 306,
-  "HistoryName": "Herman-Weber",
-  "HistoryId": 708,
-  "AssociateId": 28,
-  "Name": "Flatley-Price",
-  "ItemInfo": "eaque",
+  "Rank": 435,
+  "Id": 13,
+  "HistoryName": "Strosin Group",
+  "HistoryId": 389,
+  "AssociateId": 474,
+  "Name": "Douglas Group",
+  "ItemInfo": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 200
     }
   }
 }

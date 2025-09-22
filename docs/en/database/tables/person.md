@@ -1,7 +1,7 @@
 ---
 uid: table-person
 title: person table
-description: Persons in a company or an organizations. All associates have a corresponding person record
+description: Persons
 generated: true
 keywords: database table person
 content_type: reference
@@ -10,7 +10,7 @@ envir: onsite, online
 
 # person Table (6)
 
-Persons in a company or an organizations. All associates have a corresponding person record
+Persons
 
 ## Fields
 
@@ -73,6 +73,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |created\_by\_form\_id|The form this person was created by|FK [form](form.md)|&#x25CF;|
 |modified\_by\_workflow\_id|The workflow this person last was modified by|FK [workflow](workflow.md)|&#x25CF;|
 |modified\_by\_workflow\_when|When the workflow modified this person|UtcDateTime|&#x25CF;|
+|leadstatus\_id|Refinement of categories of lead type. Empty if the category is not a lead type. If this person has a contact, the leadstatus is from the contact and not editable on the person|FK [leadstatus](leadstatus.md)|&#x25CF;|
 
 
 ![person table relationship diagram](./media/person.png)
@@ -104,6 +105,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |DeletedDate |UtcDateTime |Index |
 |created\_by\_form\_id |FK |Index |
 |modified\_by\_workflow\_id |FK |Index |
+|leadstatus\_id |FK |Index |
 
 ## Relationships
 
@@ -116,7 +118,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[Category](category.md)  |Category list table |
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[country](country.md)  |Country information |
 |[Credentials](credentials.md)  |Alternative credentials |
@@ -130,6 +132,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[invoice](invoice.md)  |This table contains invoice entries, normally created when an invoice is sent to a customer, and we want to update the balance. |
 |[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
 |[kb\_entry\_comment](kb-entry-comment.md)  |Comments to entries in the knowledge base, typically made by customers |
+|[leadstatus](leadstatus.md)  |List items of lead status that is selectable for contacts and persons that have specific category |
 |[login\_customer](login-customer.md)  |This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins |
 |[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |

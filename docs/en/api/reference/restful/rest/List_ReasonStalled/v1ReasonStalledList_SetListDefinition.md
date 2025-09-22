@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Beahan, Zboncak and Hilpert",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 759,
+  "Id": 19,
+  "Name": "Sanford Inc and Sons",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "Rank": 144,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Crona LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 943,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": false,
+  "Id": 975,
+  "Name": "Strosin Inc and Sons",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 317,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "a",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

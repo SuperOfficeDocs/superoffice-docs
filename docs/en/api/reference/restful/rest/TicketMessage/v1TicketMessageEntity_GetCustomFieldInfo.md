@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Yundt-Gibson",
-  "DisplayName": "Parisian-Considine",
-  "Description": "Persistent content-based hierarchy",
-  "ShortLabel": "in",
+  "FieldName": "Weber-Jacobs",
+  "DisplayName": "Auer, Bradtke and Thompson",
+  "Description": "Mandatory client-driven data-warehouse",
+  "ShortLabel": "sed",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
+  "IsMandatory": false,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 266,
-  "TemplateVariableName": "Frami-Graham"
+  "Rank": 446,
+  "TemplateVariableName": "Schulist-Green"
 }
 ```

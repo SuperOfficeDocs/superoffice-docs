@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 483,
+    "Name": "Harris-Botsford",
+    "Tooltip": "accusantium",
     "Deleted": true,
-    "Rank": 750,
-    "UdListDefinitionId": 787,
+    "Rank": 85,
+    "UdListDefinitionId": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

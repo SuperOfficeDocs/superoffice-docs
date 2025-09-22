@@ -120,34 +120,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 511,
-  "Name": "Wehner-Lueilwitz",
-  "Rank": 962,
-  "Tooltip": "illo",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 617,
+  "TicketTypeId": 380,
+  "Name": "Zieme Group",
+  "Rank": 612,
+  "Tooltip": "accusamus",
+  "Icon": "error",
+  "DefaultTicketStatus": 515,
   "TicketStatuses": [
-    997,
-    417
+    177,
+    386
   ],
-  "DefaultTicketPriority": 397,
+  "DefaultTicketPriority": 628,
   "TicketPriorities": [
-    115,
-    626
+    664,
+    44
   ],
-  "ReplyTemplate": 473,
+  "ReplyTemplate": 580,
   "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": false,
+  "IsDefault": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    780,
-    28
+    306,
+    257
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -158,45 +158,45 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 565,
-  "Name": "Treutel-Rutherford",
-  "Rank": 13,
-  "Tooltip": "ea",
-  "Icon": "sunt",
-  "DefaultTicketStatus": 38,
+  "TicketTypeId": 978,
+  "Name": "Metz, Sipes and Johns",
+  "Rank": 910,
+  "Tooltip": "in",
+  "Icon": "doloremque",
+  "DefaultTicketStatus": 529,
   "TicketStatuses": [
-    80,
-    909
+    605,
+    65
   ],
-  "DefaultTicketPriority": 360,
+  "DefaultTicketPriority": 913,
   "TicketPriorities": [
-    803,
-    361
+    762,
+    719
   ],
-  "ReplyTemplate": 944,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 328,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    266,
-    1002
+    411,
+    695
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pouros LLC",
-  "ModuleName": "Lindgren, Sipes and Rutherford",
-  "ModuleDescription": "Distributed hybrid time-frame",
-  "ModuleTooltip": "esse",
-  "ModuleVersion": "quod",
+  "OwnerName": "Greenholt-Conroy",
+  "ModuleName": "Rosenbaum LLC",
+  "ModuleDescription": "Enhanced fault-tolerant collaboration",
+  "ModuleTooltip": "a",
+  "ModuleVersion": "quia",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 541,
-  "ExtraFlags": 196,
-  "ExtraInfo": "doloribus",
-  "SortOrder": 463,
+  "NumberOfLicenses": 354,
+  "ExtraFlags": 654,
+  "ExtraInfo": "et",
+  "SortOrder": 983,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Yost, Durgan and Schamberger",
-  "Signature": "suscipit"
+  "PrerequisiteModuleName": "Yundt, Treutel and Feil",
+  "Signature": "eaque"
 }
 ```

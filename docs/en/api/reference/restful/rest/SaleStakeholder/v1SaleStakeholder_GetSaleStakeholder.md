@@ -92,7 +92,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,36 +102,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kris, Lueilwitz and Mertz",
-  "Comment": "dignissimos",
-  "StakeholderRoleId": 761,
-  "CountryId": 784,
-  "PersonId": 947,
-  "EmailDescription": "hollie@dicki.biz",
-  "EmailId": 211,
-  "EmailAddress": "edward.lockman@jones.ca",
-  "PhoneId": 426,
-  "ContactName": "Stracke-Braun",
-  "ContactId": 588,
-  "SaleId": 590,
-  "Mrmrs": "est",
-  "Firstname": "Helena",
-  "MiddleName": "West LLC",
-  "Lastname": "Harber",
-  "SaleStakeholderId": 309,
-  "Rank": 364,
-  "Phone": "1-346-105-1411",
+  "StakeholderRoleName": "Grant-Kihn",
+  "Comment": "iste",
+  "StakeholderRoleId": 991,
+  "CountryId": 105,
+  "PersonId": 256,
+  "EmailDescription": "jazmin@vonrueden.com",
+  "EmailId": 65,
+  "EmailAddress": "adella@durgan.co.uk",
+  "PhoneId": 402,
+  "ContactName": "Pfeffer-Brekke",
+  "ContactId": 67,
+  "SaleId": 533,
+  "Mrmrs": "nihil",
+  "Firstname": "Caleigh",
+  "MiddleName": "Kuhn Inc and Sons",
+  "Lastname": "Vandervort",
+  "SaleStakeholderId": 82,
+  "Rank": 610,
+  "Phone": "(714)705-1732 x8540",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 397
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

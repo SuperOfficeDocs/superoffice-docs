@@ -67,7 +67,7 @@ No Content
 POST /api/v1/Agents/EMail/CreateFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

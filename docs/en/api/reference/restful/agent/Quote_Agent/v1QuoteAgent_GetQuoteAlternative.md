@@ -27,7 +27,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=516
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=171
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 465,
-  "ERPQuoteAlternativeKey": "molestiae",
-  "QuoteVersionId": 394,
-  "Name": "Tremblay, Armstrong and Bosco",
-  "Description": "Advanced 24 hour instruction set",
+  "QuoteAlternativeId": 683,
+  "ERPQuoteAlternativeKey": "corporis",
+  "QuoteVersionId": 951,
+  "Name": "Krajcik, Heidenreich and Rohan",
+  "Description": "Multi-lateral cohesive function",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24348.046,
-  "ERPDiscountAmount": 29014.572,
-  "DiscountPercent": 8552.686,
-  "DiscountAmount": 30772.746,
+  "ERPDiscountPercent": 22379.894,
+  "ERPDiscountAmount": 27851.858,
+  "DiscountPercent": 24498.478,
+  "DiscountAmount": 14018.382,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "excepturi",
-  "VAT": 13122.057999999999,
-  "EarningPercent": 3870.49,
-  "EarningAmount": 22348.554,
-  "SubTotal": 18227.344,
-  "TotalPrice": 16757.498,
-  "ExtraField1": "provident",
-  "ExtraField2": "earum",
-  "ExtraField3": "iste",
-  "ExtraField4": "eos",
-  "ExtraField5": "amet",
+  "VATInfo": "ratione",
+  "VAT": 24304.17,
+  "EarningPercent": 30728.87,
+  "EarningAmount": 9994.326,
+  "SubTotal": 4033.458,
+  "TotalPrice": 250.72,
+  "ExtraField1": "omnis",
+  "ExtraField2": "pariatur",
+  "ExtraField3": "ut",
+  "ExtraField4": "amet",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 651
     }
   }
 }

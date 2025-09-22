@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langosh, Walker and Hirthe",
-  "ListItemId": 775,
+  "UdListDefinitionName": "Waelchi, Wolf and Feeney",
+  "ListItemId": 361,
   "Headings": [
     {
-      "Id": 58,
-      "Name": "Lind-Steuber",
-      "ToolTip": "Veritatis aspernatur officia vero.",
-      "Deleted": true,
-      "Rank": 249,
-      "Type": "aliquam",
-      "ColorBlock": 936,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2012-12-24T03:46:54.9569999+01:00",
+      "Id": 862,
+      "Name": "Kirlin LLC",
+      "ToolTip": "Ut dignissimos a nihil aut.",
+      "Deleted": false,
+      "Rank": 583,
+      "Type": "voluptatibus",
+      "ColorBlock": 552,
+      "IconHint": "odit",
+      "Selected": false,
+      "LastChanged": "2001-10-28T11:24:48.2032781+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "explicabo",
+      "ExtraInfo": "tempora",
+      "StyleHint": "eum",
       "Hidden": false,
-      "FullName": "Valentina Isidro Murazik II"
+      "FullName": "Hosea Crist"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Considine Group",
-    "ToolTip": "Expedita veritatis incidunt.",
+    "Id": 567,
+    "Name": "Legros Group",
+    "ToolTip": "Odit id.",
     "Deleted": false,
-    "Rank": 251,
-    "Type": "dolores",
-    "ColorBlock": 804,
-    "IconHint": "ex",
+    "Rank": 629,
+    "Type": "repellat",
+    "ColorBlock": 585,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2014-11-24T03:46:54.9569999+01:00",
+    "LastChanged": "2005-06-20T11:24:48.2189024+02:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Hintz Inc and Sons",
-        "ToolTip": "Animi qui culpa.",
-        "Deleted": true,
-        "Rank": 734,
-        "Type": "amet",
-        "ColorBlock": 214,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2008-04-17T03:46:54.9569999+02:00",
+        "Id": 738,
+        "Name": "Satterfield-Lang",
+        "ToolTip": "Voluptatem aliquid consectetur quia.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "et",
+        "ColorBlock": 196,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2007-08-23T11:24:48.2189024+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dr. Alysa Kianna Hane PhD",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Roman Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 49
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Prof. Alisha Mueller",
+    "ExtraInfo": "vero",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Robb Senger PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

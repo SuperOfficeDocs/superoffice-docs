@@ -64,6 +64,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [RemoveSelectionMembersById](RemoveSelectionMembersById.md)
 * [RemoveSelectionMembersFromSearch](RemoveSelectionMembersFromSearch.md)
 * [SaveBoardViewSettings](SaveBoardViewSettings.md)
+* [SaveBoardViewSettingsForSelectionAndAssociate](SaveBoardViewSettingsForSelectionAndAssociate.md)
 * [SaveSelectionEntity](SaveSelectionEntity.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetDynamicSelectionCriteria](SetDynamicSelectionCriteria.md)

@@ -770,7 +770,7 @@ Shadow contact provider for the static quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=alternative/version/reason,alternative/version/quote/sale/saleTypeCategory,alternative/version/quote/sale/person/restrictionAddress/zip,alternative/version/quote/sale/person/personExtra/y_rental/x_start,alternative/version/quote/sale/person/personExtra/y_rental/y_equipment/x_name
+GET /api/v1/archive/QuoteLineShadowStaticSelection?$select=priceUnit,alternative/version/quote/sale/personId,alternative/version/quote/sale/sale/description,alternative/version/quote/sale/person/retired,alternative/version/quote/sale/person/correspondingAssociate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

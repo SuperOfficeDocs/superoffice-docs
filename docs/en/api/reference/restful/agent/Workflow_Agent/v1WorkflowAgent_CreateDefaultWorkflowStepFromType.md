@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +90,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 763,
-  "WorkflowId": 911,
+  "WorkflowStepId": 856,
+  "WorkflowId": 106,
   "StepType": "AddToList",
-  "Rank": 587
+  "Rank": 985
 }
 ```

@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "recusandae",
+  "SaleText": "eveniet",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-03-31T03:46:55.2538645+02:00",
-  "Amount": 20627.987999999998,
-  "SaleId": 514,
-  "Earning": 27262.665999999997,
-  "EarningPercent": 11865.323999999999,
-  "Heading": "pariatur",
-  "Number": "1697344",
-  "Probability": 793,
-  "CreatedDate": "2015-08-16T03:46:55.2538645+02:00",
-  "UpdatedDate": "2019-06-29T03:46:55.2538645+02:00",
+  "Saledate": "2008-03-14T11:24:48.5626385+01:00",
+  "Amount": 20881.842,
+  "SaleId": 86,
+  "Earning": 17453.246,
+  "EarningPercent": 25971.458,
+  "Heading": "totam",
+  "Number": "1174527",
+  "Probability": 698,
+  "CreatedDate": "2018-08-13T11:24:48.5626385+02:00",
+  "UpdatedDate": "2007-10-24T11:24:48.5626385+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 620,
+  "ActiveLinks": 4,
   "Links": [
     {
-      "EntityName": "Quitzon Inc and Sons",
-      "Id": 91,
-      "Description": "Synergized context-sensitive functionalities",
-      "ExtraInfo": "eos",
-      "LinkId": 231,
+      "EntityName": "Vandervort Inc and Sons",
+      "Id": 525,
+      "Description": "Total maximized interface",
+      "ExtraInfo": "aut",
+      "LinkId": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 836
         }
       }
     }
   ],
-  "NextDueDate": "2011-10-28T03:46:55.2538645+02:00",
-  "Postit": "voluptatibus",
+  "NextDueDate": "2017-09-10T11:24:48.5626385+02:00",
+  "Postit": "enim",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-07-02T03:46:55.2538645+02:00",
+  "ReopenDate": "2018-12-24T11:24:48.5626385+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Johns Inc and Sons",
-      "Comment": "a",
-      "StakeholderRoleId": 76,
-      "CountryId": 862,
-      "PersonId": 351,
-      "EmailDescription": "peyton@langosh.ca",
-      "EmailId": 364,
-      "EmailAddress": "florian@durgan.com",
-      "PhoneId": 601,
-      "ContactName": "Simonis-Berge",
-      "ContactId": 888,
-      "SaleId": 629,
-      "Mrmrs": "consequatur",
-      "Firstname": "Liana",
-      "MiddleName": "Kuvalis-Leffler",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 818,
-      "Rank": 955,
-      "Phone": "449.449.0296 x802",
+      "StakeholderRoleName": "Nader, Dooley and Zulauf",
+      "Comment": "fugit",
+      "StakeholderRoleId": 52,
+      "CountryId": 109,
+      "PersonId": 96,
+      "EmailDescription": "vergie.tromp@brakusrunolfsson.us",
+      "EmailId": 432,
+      "EmailAddress": "jermey.schimmel@mcdermott.ca",
+      "PhoneId": 801,
+      "ContactName": "Lesch-Johns",
+      "ContactId": 432,
+      "SaleId": 298,
+      "Mrmrs": "libero",
+      "Firstname": "Veronica",
+      "MiddleName": "Koss Group",
+      "Lastname": "Cole",
+      "SaleStakeholderId": 413,
+      "Rank": 439,
+      "Phone": "476-366-4263 x775",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 977
         }
       }
     }
   ],
-  "ActiveErpLinks": 573,
+  "ActiveErpLinks": 590,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Edmund Josue Abshire",
-    "SuperOffice:2": "Manley Heller I"
+    "SuperOffice:1": "Anya Ebert DVM",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "et"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "et",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2012-03-14T03:46:55.2538645+01:00",
-  "PublishTo": "2019-03-02T03:46:55.2538645+01:00",
-  "PublishFrom": "2000-01-14T03:46:55.2538645+01:00",
+  "PublishEventDate": "2003-09-06T11:24:48.5626385+02:00",
+  "PublishTo": "2008-09-17T11:24:48.5626385+02:00",
+  "PublishFrom": "1999-05-08T11:24:48.5626385+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 568,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 249
         }
       }
     },
     {
-      "VisibleId": 568,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 249
         }
       }
     }
@@ -239,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

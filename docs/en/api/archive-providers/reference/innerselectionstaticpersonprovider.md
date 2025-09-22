@@ -840,7 +840,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personMobilePhone/description,personUrl/URLDescription,personExtra/x_person_date,correspondingAssociate/middleName,correspondingAssociate/ejDisplayName
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=whenUpdatedByWorkflow,personSourceRelation/supportLanguage,personSourceRelation/personBusiness,correspondingAssociate/fullName,contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

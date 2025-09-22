@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 969,
-    "ParentId": 162,
-    "Name": "Wehner, Christiansen and Waters",
-    "Fullname": "dolor",
-    "CategoryMaster": 153,
+    "TicketCategoryId": 615,
+    "ParentId": 571,
+    "Name": "Hand-Bergstrom",
+    "Fullname": "autem",
+    "CategoryMaster": 398,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "West, Dicki and Lehner",
+    "ExternalName": "Kihn Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 53,
-    "ReplyTemplate": 82,
-    "NotificationEmail": "fredrick.nikolaus@vandervort.biz",
+    "AssignmentLag": 274,
+    "ReplyTemplate": 306,
+    "NotificationEmail": "bennett@bergnaum.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 580,
+    "EffectiveReplyTemplateId": 39,
     "ExtraFields": {
-      "ExtraFields1": "dolorem",
-      "ExtraFields2": "vero"
+      "ExtraFields1": "ex",
+      "ExtraFields2": "non"
     },
     "CustomFields": {
-      "CustomFields1": "ex",
-      "CustomFields2": "ducimus"
+      "CustomFields1": "soluta",
+      "CustomFields2": "cupiditate"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 976
       }
     }
   }

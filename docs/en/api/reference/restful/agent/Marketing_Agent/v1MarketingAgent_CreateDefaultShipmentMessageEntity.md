@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 298,
-  "PlainMessage": "nemo",
-  "HtmlMessage": "eaque",
-  "SmsMessage": "repellendus",
-  "Description": "Cross-platform background extranet",
-  "Subject": "sed",
-  "FolderId": 918,
-  "HeaderField": "fuga",
-  "Design": "debitis",
+  "ShipmentMessageId": 718,
+  "PlainMessage": "est",
+  "HtmlMessage": "ut",
+  "SmsMessage": "qui",
+  "Description": "Persistent bottom-line infrastructure",
+  "Subject": "ut",
+  "FolderId": 342,
+  "HeaderField": "consequatur",
+  "Design": "harum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Intuitive regional contingency",
-  "AccessKey": "est",
-  "DocumentMessage": 734,
-  "Registered": "2010-09-20T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 498,
-  "Updated": "2007-08-03T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 441,
-  "UpdatedCount": 71,
+  "InlineImages": false,
+  "LongDescription": "Synergized contextually-based synergy",
+  "AccessKey": "ducimus",
+  "DocumentMessage": 87,
+  "Registered": "2003-12-26T11:24:48.2657757+01:00",
+  "RegisteredAssociateId": 87,
+  "Updated": "2022-08-13T11:24:48.2657757+02:00",
+  "UpdatedAssociateId": 762,
+  "UpdatedCount": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 134
     }
   }
 }

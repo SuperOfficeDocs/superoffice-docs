@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hettinger-Mills",
-  "ContactId": 87
+  "TableName": "Roob-Dibbert",
+  "ContactId": 937
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "qui",
+  "Mask": "libero",
   "Reason": ""
 }
 ```

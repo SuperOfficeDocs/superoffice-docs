@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,111 +80,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 974,
-      "UniqueId": "modi",
-      "Name": "Hessel LLC",
-      "Description": "Streamlined incremental database",
-      "AssociateId": 408,
-      "Columns": 959,
+      "DashboardId": 463,
+      "UniqueId": "vitae",
+      "Name": "Lubowitz, Ernser and Quitzon",
+      "Description": "Vision-oriented contextually-based forecast",
+      "AssociateId": 845,
+      "Columns": 886,
       "Theme": null,
-      "VisibleForAll": 620,
+      "VisibleForAll": 888,
       "VisibleForAssociates": [
-        379,
-        151
+        415,
+        858
       ],
       "VisibleForGroups": [
-        557,
-        416
+        297,
+        371
       ],
-      "PinForAll": 381,
+      "PinForAll": 14,
       "PinForAssociates": [
-        376,
-        520
+        216,
+        775
       ],
       "PinForGroups": [
-        691,
-        735
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 958
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 799,
-      "UniqueId": "dolores",
-      "Name": "Goodwin Group",
-      "Description": "Business-focused attitude-oriented knowledge user",
-      "AssociateId": 69,
-      "Columns": 834,
-      "Theme": null,
-      "VisibleForAll": 772,
-      "VisibleForAssociates": [
-        30,
-        28
-      ],
-      "VisibleForGroups": [
-        984,
-        731
-      ],
-      "PinForAll": 558,
-      "PinForAssociates": [
-        944,
-        726
-      ],
-      "PinForGroups": [
-        978,
-        542
+        239,
+        114
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 442
         }
       }
     }
   ],
-  "Other": [
+  "Favourites": [
     {
-      "DashboardId": 285,
-      "UniqueId": "modi",
-      "Name": "Price, McGlynn and Spencer",
-      "Description": "User-friendly coherent website",
-      "AssociateId": 675,
-      "Columns": 81,
+      "DashboardId": 770,
+      "UniqueId": "ducimus",
+      "Name": "Price, Swift and Davis",
+      "Description": "Decentralized high-level paradigm",
+      "AssociateId": 223,
+      "Columns": 994,
       "Theme": null,
-      "VisibleForAll": 349,
+      "VisibleForAll": 579,
       "VisibleForAssociates": [
-        245,
-        458
+        337,
+        960
       ],
       "VisibleForGroups": [
-        867,
-        75
+        107,
+        977
       ],
-      "PinForAll": 723,
+      "PinForAll": 582,
       "PinForAssociates": [
-        677,
-        44
+        614,
+        472
       ],
       "PinForGroups": [
-        520,
-        997
+        20,
+        581
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 310
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 325,
+      "UniqueId": "occaecati",
+      "Name": "Gleason-Wiza",
+      "Description": "Up-sized foreground project",
+      "AssociateId": 800,
+      "Columns": 182,
+      "Theme": null,
+      "VisibleForAll": 719,
+      "VisibleForAssociates": [
+        519,
+        928
+      ],
+      "VisibleForGroups": [
+        895,
+        30
+      ],
+      "PinForAll": 610,
+      "PinForAssociates": [
+        513,
+        932
+      ],
+      "PinForGroups": [
+        605,
+        184
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 949
         }
       }
     }
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 282
     }
   }
 }

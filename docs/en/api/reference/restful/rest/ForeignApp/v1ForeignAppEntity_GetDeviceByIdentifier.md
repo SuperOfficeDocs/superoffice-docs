@@ -70,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Oct 2014 03:47:00 G10T
+Last-Modified: Wed, 29 May 2002 11:24:53 G5T
 
 {
-  "ForeignDeviceId": 137,
-  "Name": "Purdy Inc and Sons",
-  "CreatedDate": "2006-05-25T03:47:00.0349452+02:00",
-  "UpdatedDate": "2014-10-02T03:47:00.0349452+02:00",
-  "AssociateFullName": "Prof. Tobin Beahan Jr.",
-  "CreatedBy": "et",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "exercitationem",
-  "ForeignAppId": 858,
+  "ForeignDeviceId": 152,
+  "Name": "Pollich, Hammes and Swaniawski",
+  "CreatedDate": "2005-04-28T11:24:53.2968202+02:00",
+  "UpdatedDate": "2002-05-29T11:24:53.2968202+02:00",
+  "AssociateFullName": "Miss Nicholas Dare",
+  "CreatedBy": "id",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 934
     }
   }
 }

@@ -27,8 +27,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=similique
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=consequatur
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Kuhn LLC",
-    "ToolTip": "Omnis maiores sed porro libero.",
-    "Deleted": false,
-    "Rank": 941,
-    "Type": "nam",
+    "Id": 296,
+    "Name": "Hyatt Group",
+    "ToolTip": "Quia et magnam corporis libero.",
+    "Deleted": true,
+    "Rank": 268,
+    "Type": "soluta",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Price-Jenkins",
-        "ToolTip": "Modi quos expedita eum laudantium.",
-        "Deleted": true,
-        "Rank": 874,
-        "Type": "cum",
+        "Id": 335,
+        "Name": "Schneider-Sipes",
+        "ToolTip": "Excepturi asperiores recusandae accusantium.",
+        "Deleted": false,
+        "Rank": 420,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 124,
-        "ExtraInfo": "nam",
-        "StyleHint": "adipisci",
-        "FullName": "Breana Royal Macejkovic PhD",
+        "IconHint": "quidem",
+        "ColorBlock": 751,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "fugit",
+        "FullName": "Dashawn Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 493
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 21,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "quisquam",
-    "FullName": "Dr. Rosetta Kilback",
+    "IconHint": "recusandae",
+    "ColorBlock": 382,
+    "ExtraInfo": "animi",
+    "StyleHint": "quia",
+    "FullName": "Ms. Brooklyn Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

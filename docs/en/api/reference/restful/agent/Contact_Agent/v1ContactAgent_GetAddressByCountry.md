@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 917,
-  "CountryId": 304
+  "ContactId": 398,
+  "CountryId": 105
 }
 ```
 
@@ -96,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6054.888,
-  "Wgs84Longitude": 27278.336,
+  "Wgs84Latitude": 25667.46,
+  "Wgs84Longitude": 13708.116,
   "LocalizedAddress": [
     [
       {
-        "Name": "Sauer, Mayert and Stoltenberg",
-        "Value": "repudiandae",
-        "Tooltip": "non",
-        "Label": "illum",
-        "ValueLength": 105,
-        "AddressType": "et",
+        "Name": "Little LLC",
+        "Value": "vitae",
+        "Tooltip": "veniam",
+        "Label": "quia",
+        "ValueLength": 226,
+        "AddressType": "nobis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 306
           }
         }
       }
     ],
     [
       {
-        "Name": "Vandervort LLC",
-        "Value": "ipsam",
-        "Tooltip": "voluptatem",
-        "Label": "temporibus",
-        "ValueLength": 375,
-        "AddressType": "cumque",
+        "Name": "Haley Inc and Sons",
+        "Value": "consequatur",
+        "Tooltip": "iusto",
+        "Label": "dolorum",
+        "ValueLength": 354,
+        "AddressType": "soluta",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 731
+            "FieldLength": 62
           }
         }
       }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aspernatur",
+  "Formatted": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 934
     }
   }
 }

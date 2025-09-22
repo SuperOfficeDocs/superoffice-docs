@@ -89,15 +89,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schuster, Parker and Rippin",
-      "Operator": "est",
+      "Name": "Medhurst-Bradtke",
+      "Operator": "unde",
       "Values": [
-        "quo",
-        "harum"
+        "ullam",
+        "quaerat"
       ],
       "DisplayValues": [
-        "ex",
-        "id"
+        "aut",
+        "corrupti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 721,
+      "InterParenthesis": 247,
       "InterOperator": "And",
-      "UniqueHash": 403
+      "UniqueHash": 140
     }
   ]
 }
@@ -121,44 +121,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang, Oberbrunner and Hettinger",
-    "Operator": "ex",
+    "Name": "Brown, Crist and Franecki",
+    "Operator": "ut",
     "Values": [
-      "qui",
-      "iste"
+      "fuga",
+      "doloremque"
     ],
     "DisplayValues": [
-      "hic",
-      "qui"
+      "quasi",
+      "cum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schuster-Langworth",
-        "Operator": "quibusdam",
+        "Name": "Weimann Inc and Sons",
+        "Operator": "est",
         "Values": [
-          "in",
-          "ad"
+          "labore",
+          "ut"
         ],
         "DisplayValues": [
-          "aut",
-          "exercitationem"
+          "repellendus",
+          "eum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 106,
+        "InterParenthesis": 401,
         "InterOperator": "And",
-        "UniqueHash": 457
+        "UniqueHash": 275
       }
     ],
-    "InterParenthesis": 972,
+    "InterParenthesis": 776,
     "InterOperator": "And",
-    "UniqueHash": 550
+    "UniqueHash": 371
   }
 ]
 ```

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 429
+  "TicketMessageEntityId": 432
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 980,
-    "Name": "Nienow Group",
-    "ContentType": "neque",
-    "AttSize": 845,
+    "AttachmentId": 959,
+    "Name": "Ebert Inc and Sons",
+    "ContentType": "repellat",
+    "AttSize": 772,
     "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "inventore",
-    "IsSafeFileExtension": true,
+    "ContentId": "sint",
+    "AuthKey": "est",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 702
       }
     }
   }

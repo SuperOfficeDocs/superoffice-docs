@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "inventore"
+  "UniqueIdentifier": "ut"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UniqueIdentifier": "omnis",
-  "Name": "Steuber-Kris",
-  "Description": "Mandatory system-worthy installation",
-  "IncludeId": "ducimus",
-  "Source": "aut",
-  "Registered": "2020-09-28T03:46:54.5663888+02:00",
-  "RegisteredBy": "quasi",
-  "Updated": "2019-03-30T03:46:54.5663888+01:00",
-  "UpdatedBy": "tempora",
-  "Path": "cumque",
+  "Name": "Tremblay-Emmerich",
+  "Description": "Function-based static flexibility",
+  "IncludeId": "esse",
+  "Source": "est",
+  "Registered": "2010-02-23T11:24:47.8439178+01:00",
+  "RegisteredBy": "natus",
+  "Updated": "2007-06-24T11:24:47.8439178+02:00",
+  "UpdatedBy": "ut",
+  "Path": "unde",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

@@ -89,16 +89,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 954,
+  "Id": 66,
+  "Name": "Altenwerth, Wiza and Yundt",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "Rank": 652,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Ferry-Fadel",
-  "Tooltip": "quae",
+  "Id": 629,
+  "Name": "Stoltenberg, Fadel and Mayert",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 110,
+  "Rank": 835,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldLength": 488
     }
   }
 }

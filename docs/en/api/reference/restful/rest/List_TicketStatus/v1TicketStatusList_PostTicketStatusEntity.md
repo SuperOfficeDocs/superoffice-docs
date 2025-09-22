@@ -82,13 +82,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 755,
-  "Name": "Johnson-Schroeder",
+  "TicketStatusId": 736,
+  "Name": "Schneider LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false
+  "IsDefault": false,
+  "UsedInQueue": true
 }
 ```
 
@@ -99,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 129,
-  "Name": "Little-Mayer",
+  "TicketStatusId": 832,
+  "Name": "Green-Zemlak",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 813
     }
   }
 }

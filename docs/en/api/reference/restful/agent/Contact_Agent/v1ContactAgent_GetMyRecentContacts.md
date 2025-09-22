@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 904,
-    "Name": "O'Kon LLC",
-    "OrgNr": "1052720",
-    "Department": "brand revolutionary eyeballs",
+    "ContactId": 677,
+    "Name": "Fahey Inc and Sons",
+    "OrgNr": "1699635",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-430-448-0253",
-    "AssociateId": 213,
-    "CountryId": 172,
-    "EmailAddress": "stefan@shanahanrau.us",
-    "Kananame": "soluta",
-    "EmailAddressName": "estevan@nolan.uk",
+    "City": "quaerat",
+    "DirectPhone": "1-793-403-6855 x3706",
+    "AssociateId": 632,
+    "CountryId": 604,
+    "EmailAddress": "reanna_blanda@lang.uk",
+    "Kananame": "et",
+    "EmailAddressName": "hal_homenick@manteschroeder.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ima Schuster",
+    "AssociateFullName": "Darrion Nikolas Lubowitz III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "libero",
-    "FullName": "Minnie Nikolaus",
+    "FormattedAddress": "iste",
+    "FullName": "Mr. Samanta Shields",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 931,
-    "Number1": "819861",
-    "Number2": "1289355",
+    "ActiveErpLinks": 124,
+    "Number1": "825466",
+    "Number2": "801751",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 245
       }
     }
   }

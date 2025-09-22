@@ -115,7 +115,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,73 +123,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 May 2014 03:47:00 G5T
+Last-Modified: Sun, 04 Jan 2004 11:24:53 G1T
 
 {
-  "Description": "Multi-channelled client-server encoding",
-  "Postit": "impedit",
+  "Description": "Decentralized cohesive methodology",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 954,
-  "IncludePerson": 649,
+  "GroupIdx": 56,
+  "IncludePerson": 960,
   "MemberCount": 99.99,
-  "Name": "Goodwin-Bogan",
-  "PostitTextId": 220,
-  "CreatedDate": "2015-03-10T03:47:00.2849361+01:00",
-  "SelectionId": 333,
-  "SoundEx": "non",
-  "Source": 431,
-  "TextId": 899,
-  "UpdatedDate": "2014-05-13T03:47:00.2849361+02:00",
-  "UpdatedCount": 981,
-  "Visibility": 125,
+  "Name": "Hermann Group",
+  "PostitTextId": 703,
+  "CreatedDate": "2003-04-30T11:24:53.5624345+02:00",
+  "SelectionId": 856,
+  "SoundEx": "aut",
+  "Source": 626,
+  "TextId": 248,
+  "UpdatedDate": "2004-01-04T11:24:53.5624345+01:00",
+  "UpdatedCount": 493,
+  "Visibility": 773,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 729,
-  "TargetTableName": "Spencer-Stark",
-  "Completed": true,
-  "LeftSelectionId": 815,
-  "RightSelectionId": 665,
+  "TargetTableNumber": 508,
+  "TargetTableName": "Zemlak, Koss and Franecki",
+  "Completed": false,
+  "LeftSelectionId": 836,
+  "RightSelectionId": 231,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sauer, Spinka and Johns",
-  "ShadowProviderName": "Stokes-Torp",
-  "ChartKey": "explicabo",
-  "LastLoaded": "2001-09-03T03:47:00.2849361+02:00",
-  "LastLoadedBy": 984,
+  "MainProviderName": "Roob Inc and Sons",
+  "ShadowProviderName": "Waters-Kshlerin",
+  "ChartKey": "qui",
+  "LastLoaded": "2013-01-22T11:24:53.5624345+01:00",
+  "LastLoadedBy": 88,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-10-19T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 946,
+  "LastMembershipChange": "2014-09-27T11:24:53.5624345+02:00",
+  "LastMembershipChangeBy": 915,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quasi",
-  "MemberTabHeading": "facilis",
-  "MailingsProviderName": "Rath-Bode",
-  "DashboardTileDefinitionId": 653,
+  "MainHeading": "vitae",
+  "MemberTabHeading": "consectetur",
+  "MailingsProviderName": "Beahan LLC",
+  "DashboardTileDefinitionId": 990,
   "VisibleFor": [
     {
-      "VisibleId": 859,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 547
         }
       }
     },
     {
-      "VisibleId": 859,
+      "VisibleId": 341,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 547
         }
       }
     }
@@ -198,13 +198,13 @@ Last-Modified: Tue, 13 May 2014 03:47:00 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -80,21 +80,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 781,
+  "TargetDimensionId": 41,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "adipisci",
-  "DimensionListName": "Effertz, Mante and Buckridge",
-  "DimensionListId": 645,
-  "DimensionListLabel": "porro",
+  "DimensionListField": "est",
+  "DimensionListName": "Shields Inc and Sons",
+  "DimensionListId": 225,
+  "DimensionListLabel": "repellat",
   "SelectedDimensions": [
-    657,
-    75
+    165,
+    603
   ]
 }
 ```
@@ -106,24 +106,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 221,
+  "TargetDimensionId": 62,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ipsam",
-  "DimensionListName": "Beier-Morissette",
-  "DimensionListId": 742,
+  "DimensionListField": "qui",
+  "DimensionListName": "Greenfelder, Bernier and Kris",
+  "DimensionListId": 482,
   "DimensionListLabel": "quibusdam",
   "SelectedDimensions": [
-    800,
-    417
+    226,
+    969
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 308
     }
   }
 }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,148 +118,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 565,
-      "ContactName": "Fay, Wolf and Steuber",
-      "PersonId": 331,
-      "PersonName": "Hegmann-Fritsch",
-      "AssociateId": 124,
-      "Address": "eos",
-      "EmailId": 335,
+      "ContactId": 968,
+      "ContactName": "Jaskolski-Hodkiewicz",
+      "PersonId": 587,
+      "PersonName": "Kessler Group",
+      "AssociateId": 313,
+      "Address": "alias",
+      "EmailId": 623,
       "DuplicatePersonIds": [
-        926,
-        981
+        560,
+        723
       ],
-      "Name": "Heaney-Rowe",
+      "Name": "Koepp, Welch and Ebert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 478
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Bosco-Balistreri",
-      "PersonId": 385,
-      "PersonName": "Okuneva LLC",
-      "AssociateId": 518,
-      "Address": "et",
-      "EmailId": 509,
+      "ContactId": 941,
+      "ContactName": "Yost-Torphy",
+      "PersonId": 613,
+      "PersonName": "Wintheiser Inc and Sons",
+      "AssociateId": 381,
+      "Address": "atque",
+      "EmailId": 299,
       "DuplicatePersonIds": [
-        114,
-        462
+        475,
+        282
       ],
-      "Name": "Runolfsson, Cummings and Mohr",
+      "Name": "Bergnaum LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 438
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 110,
-      "ContactName": "Nitzsche Group",
-      "PersonId": 927,
-      "PersonName": "Howe-Mills",
-      "AssociateId": 168,
-      "Address": "quo",
-      "EmailId": 945,
+      "ContactId": 108,
+      "ContactName": "Franecki, Sawayn and Donnelly",
+      "PersonId": 268,
+      "PersonName": "Harber, Hagenes and Yundt",
+      "AssociateId": 333,
+      "Address": "corrupti",
+      "EmailId": 369,
       "DuplicatePersonIds": [
-        152,
-        732
+        590,
+        6
       ],
-      "Name": "Mohr-Kilback",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 482
-        }
-      }
-    }
-  ],
-  "Subject": "nam",
-  "HTMLBody": "id",
-  "From": null,
-  "Sent": "2004-12-15T03:46:54.8007556+01:00",
-  "Size": 759,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "eveniet",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 624,
-  "Attachments": [
-    {
-      "Description": "Mandatory exuding interface",
-      "Filename": "animi",
-      "Size": 143,
-      "Type": "est",
-      "Encoding": "dolorem",
-      "Id": "aperiam",
-      "Disposition": "totam",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Dickens, Gislason and Mitchell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldLength": 15
+        }
+      }
+    }
+  ],
+  "Subject": "nostrum",
+  "HTMLBody": "fugiat",
+  "From": null,
+  "Sent": "2007-01-06T11:24:48.1095319+01:00",
+  "Size": 903,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "beatae",
+  "PlainBody": "sint",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 272,
+  "Attachments": [
+    {
+      "Description": "Reactive solution-oriented process improvement",
+      "Filename": "doloremque",
+      "Size": 59,
+      "Type": "dolor",
+      "Encoding": "id",
+      "Id": "laboriosam",
+      "Disposition": "nulla",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 618
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Funk Group",
       "Values": [
-        "libero",
-        "quos"
+        "voluptatibus",
+        "laboriosam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 700
         }
       }
     },
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Funk Group",
       "Values": [
-        "libero",
-        "quos"
+        "voluptatibus",
+        "laboriosam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 700
         }
       }
     }
   ],
-  "FolderName": "Langworth, Ritchie and Goyette",
-  "EmailItemId": 43,
-  "AccountId": 13,
-  "ReceivedAt": "2002-06-04T03:46:54.8007556+02:00",
+  "FolderName": "Hegmann Inc and Sons",
+  "EmailItemId": 513,
+  "AccountId": 288,
+  "ReceivedAt": "2018-05-02T11:24:48.1095319+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-03-18T03:46:54.8007556+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-12-27T11:24:48.1095319+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 352
     }
   }
 }

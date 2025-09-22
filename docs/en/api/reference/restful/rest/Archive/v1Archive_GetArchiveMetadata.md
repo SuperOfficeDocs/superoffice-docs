@@ -77,21 +77,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "magni",
   "value": [
     {
-      "PrimaryKey": 1133,
-      "EntityName": "sale",
-      "saleId": 1133,
-      "contactId": 1752,
-      "name": "Harber, Runolfsdottir and Rutherford"
+      "PrimaryKey": 8009,
+      "EntityName": "person",
+      "personId": 8009,
+      "fullName": "Prof. Arne Kuhlman"
     },
     {
-      "PrimaryKey": 1597,
-      "EntityName": "sale",
-      "saleId": 1597,
-      "contactId": 9686,
-      "name": "Becker, Feil and Harber"
+      "PrimaryKey": 3548,
+      "EntityName": "person",
+      "personId": 3548,
+      "fullName": "Ms. Filomena Rempel I"
     }
   ]
 }

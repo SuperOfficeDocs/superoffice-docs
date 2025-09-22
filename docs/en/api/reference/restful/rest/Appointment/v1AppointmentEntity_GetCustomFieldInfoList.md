@@ -69,7 +69,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Weber, Metz and Waters",
-    "DisplayName": "Schowalter-Russel",
-    "Description": "Configurable content-based focus group",
-    "ShortLabel": "quaerat",
+    "FieldName": "Kuhlman, Will and Little",
+    "DisplayName": "Waelchi, Grady and Brekke",
+    "Description": "Balanced even-keeled flexibility",
+    "ShortLabel": "molestias",
     "HideLabel": false,
     "HideField": true,
     "IsIndexed": true,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 686,
-    "TemplateVariableName": "Paucek, Wuckert and Lubowitz"
+    "Rank": 879,
+    "TemplateVariableName": "O'Reilly-Monahan"
   }
 ]
 ```

@@ -99,7 +99,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 195,
-  "ColumnId": 258,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 551,
-  "FieldLabel": "ea",
-  "FieldLeft": 370,
-  "FieldTop": 321,
+  "UDefFieldId": 629,
+  "ColumnId": 551,
+  "FieldDefault": "tempora",
+  "FieldHeight": 301,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 534,
+  "FieldTop": 360,
   "FieldType": "Checkbox",
-  "FieldWidth": 380,
-  "FormatMask": "assumenda",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 163,
-  "LabelLeft": 464,
-  "LabelTop": 542,
-  "LabelWidth": 937,
-  "LastVersionId": 507,
-  "ListTableId": 565,
+  "FieldWidth": 699,
+  "FormatMask": "voluptates",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 448,
+  "LabelLeft": 567,
+  "LabelTop": 511,
+  "LabelWidth": 907,
+  "LastVersionId": 669,
+  "ListTableId": 499,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 131,
-  "ProgId": "reprehenderit",
-  "IsReadOnly": true,
-  "ShortLabel": "aliquam",
-  "TabOrder": 399,
-  "TextLength": 833,
-  "Tooltip": "sit",
-  "UdefIdentity": 663,
-  "UDListDefinitionId": 918,
+  "Page1LineNo": 498,
+  "ProgId": "esse",
+  "IsReadOnly": false,
+  "ShortLabel": "aut",
+  "TabOrder": 702,
+  "TextLength": 104,
+  "Tooltip": "facilis",
+  "UdefIdentity": 801,
+  "UDListDefinitionId": 246,
   "Justification": "Center",
-  "Version": 304,
-  "TemplateVariableName": "Connelly, Kilback and Schoen",
+  "Version": 69,
+  "TemplateVariableName": "Leffler Group",
   "HasBeenPublished": true,
-  "MdoListName": "Smith Group",
+  "MdoListName": "Jast Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

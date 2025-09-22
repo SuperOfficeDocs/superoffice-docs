@@ -92,7 +92,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 460,
-    "Name": "Haag, Koepp and Swift",
-    "Tooltip": "consequatur",
-    "SaveInDb": 133,
-    "Filename": "hic",
-    "DefaultOref": "sint",
+    "DocumentTemplateId": 530,
+    "Name": "Huel-Connelly",
+    "Tooltip": "nam",
+    "SaveInDb": 96,
+    "Filename": "magnam",
+    "DefaultOref": "nisi",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 493,
-    "IntentId": 64,
-    "IsDefaultPublished": true,
-    "Rank": 988,
-    "LoadTemplateFromPlugin": 203,
-    "MimeType": "voluptatem",
+    "AutoeventId": 779,
+    "IntentId": 830,
+    "IsDefaultPublished": false,
+    "Rank": 670,
+    "LoadTemplateFromPlugin": 299,
+    "MimeType": "quo",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 818,
+    "DocumentTypeKey": 289,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "susie.hane@jacobs.us",
-    "IncludeSignature": true,
+    "EmailSubject": "triston@crooks.ca",
+    "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "carolyn.little@herzog.ca",
+    "SenderEmailAddress": "amara_kuhn@kertzmann.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 104
       }
     }
   }

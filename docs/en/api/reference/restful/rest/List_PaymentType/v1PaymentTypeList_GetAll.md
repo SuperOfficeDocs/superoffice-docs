@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Kunde, Runolfsson and Gottlieb",
-    "Tooltip": "minima",
+    "Id": 304,
+    "Name": "Grady, Huels and Mohr",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 324,
-    "Rank": 351,
+    "UdListDefinitionId": 302,
+    "Rank": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 414
       }
     }
   }

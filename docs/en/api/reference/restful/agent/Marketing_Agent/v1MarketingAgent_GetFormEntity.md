@@ -27,7 +27,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=104
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=939
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,38 +100,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 775,
-  "FormKey": "enim",
-  "Name": "Walsh LLC",
-  "Description": "Implemented human-resource infrastructure",
-  "Config": "provident",
-  "FolderId": 712,
-  "ScriptId": 401,
-  "ResponseShipmentId": 547,
+  "FormId": 124,
+  "FormKey": "nisi",
+  "Name": "Larson Inc and Sons",
+  "Description": "Persevering dynamic capacity",
+  "Config": "laborum",
+  "FolderId": 87,
+  "ScriptId": 76,
+  "ResponseShipmentId": 471,
   "Active": false,
-  "Expires": "2024-03-03T03:46:55.0038735+01:00",
-  "MaxSubmits": 428,
+  "Expires": "2009-05-24T11:24:48.2501511+02:00",
+  "MaxSubmits": 745,
   "Type": "Normal",
-  "Recipe": "ipsam",
-  "GroupId": 892,
-  "NewTicket": false,
+  "Recipe": "ut",
+  "GroupId": 773,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-07-14T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 367,
-  "Updated": "2010-12-01T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 878,
-  "UpdatedCount": 797,
+  "Registered": "2004-12-05T11:24:48.2501511+01:00",
+  "RegisteredAssociateId": 914,
+  "Updated": "2002-05-04T11:24:48.2501511+02:00",
+  "UpdatedAssociateId": 348,
+  "UpdatedCount": 369,
   "EmailFlows": [
-    271,
-    325
+    543,
+    730
   ],
-  "FolderName": "Rowe-Donnelly",
+  "FolderName": "Larson-Bailey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

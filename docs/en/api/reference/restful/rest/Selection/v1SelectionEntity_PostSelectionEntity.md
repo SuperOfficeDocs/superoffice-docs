@@ -157,60 +157,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed didactic software",
-  "Postit": "qui",
+  "Description": "Assimilated well-modulated monitoring",
+  "Postit": "nam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 12,
-  "IncludePerson": 618,
+  "GroupIdx": 749,
+  "IncludePerson": 977,
   "MemberCount": 99.99,
-  "Name": "Fritsch Inc and Sons",
-  "PostitTextId": 593,
-  "CreatedDate": "2005-07-18T03:47:00.2849361+02:00",
-  "SelectionId": 766,
-  "SoundEx": "iusto",
-  "Source": 273,
-  "TextId": 673,
-  "UpdatedDate": "2001-01-01T03:47:00.2849361+01:00",
-  "UpdatedCount": 354,
-  "Visibility": 98,
+  "Name": "Wuckert, Von and Hermann",
+  "PostitTextId": 63,
+  "CreatedDate": "2018-04-18T11:24:53.5624345+02:00",
+  "SelectionId": 667,
+  "SoundEx": "adipisci",
+  "Source": 496,
+  "TextId": 190,
+  "UpdatedDate": "2018-06-23T11:24:53.5624345+02:00",
+  "UpdatedCount": 468,
+  "Visibility": 580,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 962,
-  "TargetTableName": "Kirlin, Christiansen and Kirlin",
-  "Completed": true,
-  "LeftSelectionId": 822,
-  "RightSelectionId": 593,
+  "TargetTableNumber": 82,
+  "TargetTableName": "Dickens LLC",
+  "Completed": false,
+  "LeftSelectionId": 444,
+  "RightSelectionId": 233,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gislason-Rodriguez",
-  "ShadowProviderName": "Kessler-Schaden",
-  "ChartKey": "qui",
-  "LastLoaded": "1999-05-11T03:47:00.2849361+02:00",
-  "LastLoadedBy": 818,
+  "MainProviderName": "Goyette, Orn and Hamill",
+  "ShadowProviderName": "Williamson-Stroman",
+  "ChartKey": "sit",
+  "LastLoaded": "2017-05-04T11:24:53.5624345+02:00",
+  "LastLoadedBy": 124,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-08T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 741,
+  "LastMembershipChange": "2019-04-16T11:24:53.5624345+02:00",
+  "LastMembershipChangeBy": 671,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Gulgowski Inc and Sons",
-  "DashboardTileDefinitionId": 81,
+  "MainHeading": "sequi",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Wisozk, Adams and Weber",
+  "DashboardTileDefinitionId": 852,
   "VisibleFor": [
     {
-      "VisibleId": 110,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "molestias"
     },
     {
-      "VisibleId": 110,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "molestias"
     }
   ]
 }
@@ -223,70 +223,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless static methodology",
-  "Postit": "iusto",
+  "Description": "Focused client-server architecture",
+  "Postit": "vero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 266,
-  "IncludePerson": 563,
+  "GroupIdx": 245,
+  "IncludePerson": 584,
   "MemberCount": 99.99,
-  "Name": "Purdy Inc and Sons",
-  "PostitTextId": 501,
-  "CreatedDate": "2014-07-08T03:47:00.2849361+02:00",
-  "SelectionId": 566,
-  "SoundEx": "tenetur",
-  "Source": 52,
-  "TextId": 391,
-  "UpdatedDate": "2010-11-23T03:47:00.2849361+01:00",
-  "UpdatedCount": 141,
-  "Visibility": 438,
+  "Name": "Simonis, Considine and Mills",
+  "PostitTextId": 776,
+  "CreatedDate": "2002-10-31T11:24:53.5624345+01:00",
+  "SelectionId": 213,
+  "SoundEx": "velit",
+  "Source": 410,
+  "TextId": 920,
+  "UpdatedDate": "2024-12-18T11:24:53.5624345+01:00",
+  "UpdatedCount": 622,
+  "Visibility": 364,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 858,
-  "TargetTableName": "Cartwright, McGlynn and Halvorson",
+  "CompanyUnique": true,
+  "TargetTableNumber": 92,
+  "TargetTableName": "Schneider, Macejkovic and Block",
   "Completed": false,
-  "LeftSelectionId": 463,
-  "RightSelectionId": 506,
+  "LeftSelectionId": 327,
+  "RightSelectionId": 363,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Baumbach-McDermott",
-  "ShadowProviderName": "Heaney LLC",
-  "ChartKey": "nulla",
-  "LastLoaded": "1999-03-28T03:47:00.2849361+02:00",
-  "LastLoadedBy": 479,
+  "MainProviderName": "Stanton-Brakus",
+  "ShadowProviderName": "Weimann Group",
+  "ChartKey": "aperiam",
+  "LastLoaded": "2020-02-28T11:24:53.5624345+01:00",
+  "LastLoadedBy": 4,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-08-10T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 441,
+  "LastMembershipChange": "2009-01-10T11:24:53.5624345+01:00",
+  "LastMembershipChangeBy": 681,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "explicabo",
-  "MemberTabHeading": "voluptatibus",
-  "MailingsProviderName": "Ward, Mann and Lakin",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "fuga",
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Gislason, Dach and Waelchi",
+  "DashboardTileDefinitionId": 495,
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 403
         }
       }
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 403
         }
       }
     }
@@ -296,7 +296,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 907
     }
   },
   "_Links": {

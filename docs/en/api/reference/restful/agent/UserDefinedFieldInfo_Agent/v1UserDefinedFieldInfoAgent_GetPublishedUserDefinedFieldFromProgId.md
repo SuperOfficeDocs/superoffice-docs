@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "libero",
+  "ProgId": "tenetur",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 692,
-  "FieldDefault": "officia",
-  "FieldHeight": 162,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 335,
-  "FieldTop": 821,
+  "UDefFieldId": 740,
+  "ColumnId": 887,
+  "FieldDefault": "ut",
+  "FieldHeight": 95,
+  "FieldLabel": "libero",
+  "FieldLeft": 12,
+  "FieldTop": 549,
   "FieldType": "Checkbox",
-  "FieldWidth": 575,
-  "FormatMask": "minus",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 953,
-  "LabelLeft": 966,
-  "LabelTop": 994,
-  "LabelWidth": 729,
-  "LastVersionId": 434,
-  "ListTableId": 297,
-  "IsMandatory": true,
+  "FieldWidth": 143,
+  "FormatMask": "architecto",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 93,
+  "LabelLeft": 607,
+  "LabelTop": 962,
+  "LabelWidth": 870,
+  "LastVersionId": 48,
+  "ListTableId": 773,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 509,
-  "ProgId": "tenetur",
+  "Page1LineNo": 971,
+  "ProgId": "harum",
   "IsReadOnly": true,
-  "ShortLabel": "dicta",
-  "TabOrder": 56,
-  "TextLength": 463,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 534,
-  "UDListDefinitionId": 691,
+  "ShortLabel": "saepe",
+  "TabOrder": 17,
+  "TextLength": 605,
+  "Tooltip": "et",
+  "UdefIdentity": 562,
+  "UDListDefinitionId": 980,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Fisher-Beahan",
+  "Version": 573,
+  "TemplateVariableName": "Heaney Group",
   "HasBeenPublished": true,
-  "MdoListName": "Zboncak Inc and Sons",
+  "MdoListName": "Abshire-Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

@@ -71,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Raynor, Gottlieb and Ryan",
+  "ProviderName": "Adams-Fay",
   "Restrictions": [
     {
-      "Name": "Crooks LLC",
-      "Operator": "aspernatur",
+      "Name": "Moore LLC",
+      "Operator": "eius",
       "Values": [
-        "delectus",
-        "et"
+        "ut",
+        "totam"
       ],
       "DisplayValues": [
-        "ipsum",
-        "recusandae"
+        "et",
+        "iste"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 977,
+      "InterParenthesis": 628,
       "InterOperator": "And",
-      "UniqueHash": 112
+      "UniqueHash": 950
     }
   ],
-  "AssociateId": 272
+  "AssociateId": 902
 }
 ```
 

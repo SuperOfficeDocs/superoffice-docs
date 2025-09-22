@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Legros Inc and Sons",
-  "GroupId": 466
+  "UdListDefinitionName": "Lehner-Fritsch",
+  "GroupId": 367
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Fritsch, Donnelly and Johnston",
-    "ToolTip": "Earum rerum qui et eaque.",
+    "Id": 975,
+    "Name": "Mills Group",
+    "ToolTip": "Est dolores aut officiis blanditiis id et.",
     "Deleted": true,
-    "Rank": 886,
-    "Type": "sed",
-    "ColorBlock": 454,
-    "IconHint": "iste",
+    "Rank": 697,
+    "Type": "magni",
+    "ColorBlock": 548,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2010-11-20T03:46:54.9569999+01:00",
+    "LastChanged": "2003-07-18T11:24:48.2032781+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Roberts LLC",
-        "ToolTip": "Vero corporis.",
+        "Id": 974,
+        "Name": "Cremin, Schiller and Wintheiser",
+        "ToolTip": "Voluptatem est est dolores et enim expedita in.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "id",
-        "ColorBlock": 750,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2020-04-27T03:46:54.9569999+02:00",
+        "Rank": 652,
+        "Type": "officia",
+        "ColorBlock": 648,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2020-10-14T11:24:48.2032781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "architecto",
+        "ExtraInfo": "sequi",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Athena Block",
+        "FullName": "Keyshawn Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldType": "System.String",
+            "FieldLength": 480
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Kallie Feil",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Alison Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 682
       }
     }
   }

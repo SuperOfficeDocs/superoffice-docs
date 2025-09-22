@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,45 +77,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 795,
-  "MessageId": "error",
-  "Subject": "consequatur",
+  "ServerId": 703,
+  "MessageId": "perferendis",
+  "Subject": "est",
   "From": null,
   "To": [
     {
-      "ContactId": 842,
-      "ContactName": "Haag-Pollich",
-      "PersonId": 176,
-      "PersonName": "Boyle Inc and Sons",
-      "AssociateId": 205,
-      "Address": "nobis",
-      "EmailId": 141,
+      "ContactId": 75,
+      "ContactName": "Bosco Group",
+      "PersonId": 214,
+      "PersonName": "Stehr, Douglas and Hintz",
+      "AssociateId": 752,
+      "Address": "nihil",
+      "EmailId": 545,
       "DuplicatePersonIds": [
-        999,
-        633
+        787,
+        522
       ],
-      "Name": "Hartmann, Spinka and Gerhold",
+      "Name": "Thiel-Simonis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 710
         }
       }
     }
   ],
-  "Sent": "2004-04-26T03:46:54.7538824+02:00",
+  "Sent": "1998-07-27T11:24:48.0626591+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 816,
+  "Size": 47,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

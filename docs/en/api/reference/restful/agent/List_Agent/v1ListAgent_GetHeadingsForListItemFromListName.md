@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langworth, Sporer and Feeney",
-  "ListItemId": 439,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Wilkinson-Fisher",
+  "ListItemId": 759,
+  "ShowDeleted": false
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Lueilwitz, Nikolaus and Kirlin",
-    "ToolTip": "Ut ab aliquid deserunt omnis voluptate facere voluptas.",
+    "Id": 197,
+    "Name": "Walter, Terry and Hills",
+    "ToolTip": "Quidem necessitatibus omnis molestias laudantium doloremque rerum omnis.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "sint",
-    "ColorBlock": 940,
-    "IconHint": "nobis",
+    "Rank": 978,
+    "Type": "odio",
+    "ColorBlock": 568,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "1998-09-01T03:46:54.9569999+02:00",
+    "LastChanged": "2019-03-20T11:24:48.2032781+01:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Gerhold Group",
-        "ToolTip": "Dignissimos libero soluta assumenda cupiditate enim.",
+        "Id": 164,
+        "Name": "Bayer LLC",
+        "ToolTip": "Et et eos porro praesentium animi quam.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "praesentium",
-        "ColorBlock": 168,
-        "IconHint": "nisi",
+        "Rank": 60,
+        "Type": "quo",
+        "ColorBlock": 418,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2006-04-16T03:46:54.9569999+02:00",
+        "LastChanged": "2024-12-13T11:24:48.2032781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "et",
+        "ExtraInfo": "qui",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Dr. Elta Hills",
+        "FullName": "Mr. Alana Wayne Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Melissa Brakus Jr.",
+    "FullName": "Mrs. Verdie Maida Murazik V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 722
       }
     }
   }

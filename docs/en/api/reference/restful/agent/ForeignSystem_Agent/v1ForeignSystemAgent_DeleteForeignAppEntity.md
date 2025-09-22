@@ -26,7 +26,7 @@ Deletes the ForeignAppEntity
 | foreignAppEntityId | int32 | **Required** The identity of the ForeignAppEntity |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=767
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=717
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

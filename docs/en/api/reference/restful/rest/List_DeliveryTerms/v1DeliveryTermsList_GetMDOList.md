@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=suscipit
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=mollitia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Green Group",
-    "ToolTip": "Reprehenderit earum tenetur.",
+    "Id": 688,
+    "Name": "Zboncak-Kreiger",
+    "ToolTip": "Officiis id provident voluptatem est consequatur aut non.",
     "Deleted": false,
-    "Rank": 640,
-    "Type": "velit",
+    "Rank": 91,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Sporer LLC",
-        "ToolTip": "Autem iste nemo quia magni iste.",
+        "Id": 296,
+        "Name": "Klein Inc and Sons",
+        "ToolTip": "Dolorem tempore debitis sit quaerat doloribus.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "aut",
+        "Rank": 950,
+        "Type": "officia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 52,
-        "ExtraInfo": "est",
-        "StyleHint": "itaque",
-        "FullName": "Clarissa Kulas",
+        "IconHint": "facere",
+        "ColorBlock": 303,
+        "ExtraInfo": "alias",
+        "StyleHint": "cupiditate",
+        "FullName": "Mr. Nikko Gulgowski IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 14
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 24,
-    "ExtraInfo": "quo",
-    "StyleHint": "cum",
-    "FullName": "Mr. Horace Torp PhD",
+    "IconHint": "quis",
+    "ColorBlock": 151,
+    "ExtraInfo": "facere",
+    "StyleHint": "optio",
+    "FullName": "Ms. Sally Stacy Kreiger I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

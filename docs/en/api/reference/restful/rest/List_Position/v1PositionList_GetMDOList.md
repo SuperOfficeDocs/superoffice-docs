@@ -27,8 +27,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=nihil
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=saepe
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Rutherford LLC",
-    "ToolTip": "Nihil architecto amet perferendis suscipit dolores.",
+    "Id": 856,
+    "Name": "Jones, Gerhold and Nitzsche",
+    "ToolTip": "Sapiente sed sapiente error.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "sit",
+    "Rank": 902,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Leuschke-Bode",
-        "ToolTip": "Dolores dolores deserunt ut officiis.",
+        "Id": 518,
+        "Name": "Keebler, Hagenes and Reichert",
+        "ToolTip": "Doloribus dolorem consequatur sit unde occaecati doloribus.",
         "Deleted": false,
-        "Rank": 788,
-        "Type": "repellat",
+        "Rank": 685,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 55,
-        "ExtraInfo": "error",
-        "StyleHint": "optio",
-        "FullName": "Janick Waldo Williamson IV",
+        "IconHint": "pariatur",
+        "ColorBlock": 317,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "dolorem",
+        "FullName": "Grayce Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 238
           }
         }
       }
     ],
-    "IconHint": "blanditiis",
-    "ColorBlock": 618,
-    "ExtraInfo": "est",
-    "StyleHint": "vero",
-    "FullName": "Kasandra Sawayn",
+    "IconHint": "nulla",
+    "ColorBlock": 162,
+    "ExtraInfo": "tempora",
+    "StyleHint": "ab",
+    "FullName": "Clemens Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 221
       }
     }
   }

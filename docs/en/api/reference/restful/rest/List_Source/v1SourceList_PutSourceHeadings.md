@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 538,
-    "Name": "Kris, Zulauf and Bechtelar",
-    "Tooltip": "cupiditate",
-    "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 97
+    "HeadingId": 909,
+    "Name": "Rogahn Inc and Sons",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 261,
+    "UdListDefinitionId": 702
   },
   {
-    "HeadingId": 538,
-    "Name": "Kris, Zulauf and Bechtelar",
-    "Tooltip": "cupiditate",
-    "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 97
+    "HeadingId": 909,
+    "Name": "Rogahn Inc and Sons",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 261,
+    "UdListDefinitionId": 702
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Tromp LLC",
-    "Tooltip": "quaerat",
+    "HeadingId": 422,
+    "Name": "Rath, Bartell and Mills",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 108,
-    "UdListDefinitionId": 813,
+    "Rank": 495,
+    "UdListDefinitionId": 366,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 575
       }
     }
   }

@@ -91,7 +91,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 509,
-    "ColumnId": 59,
-    "FieldDefault": "aut",
-    "FieldHeight": 797,
-    "FieldLabel": "omnis",
-    "FieldLeft": 17,
-    "FieldTop": 372,
+    "UDefFieldId": 167,
+    "ColumnId": 889,
+    "FieldDefault": "at",
+    "FieldHeight": 311,
+    "FieldLabel": "sapiente",
+    "FieldLeft": 491,
+    "FieldTop": 358,
     "FieldType": "Checkbox",
-    "FieldWidth": 156,
-    "FormatMask": "ut",
+    "FieldWidth": 379,
+    "FormatMask": "amet",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 774,
-    "LabelLeft": 100,
-    "LabelTop": 67,
-    "LabelWidth": 228,
-    "LastVersionId": 494,
-    "ListTableId": 849,
+    "LabelHeight": 260,
+    "LabelLeft": 79,
+    "LabelTop": 371,
+    "LabelWidth": 654,
+    "LastVersionId": 355,
+    "ListTableId": 185,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 605,
-    "ProgId": "exercitationem",
-    "IsReadOnly": false,
-    "ShortLabel": "facere",
-    "TabOrder": 217,
-    "TextLength": 172,
-    "Tooltip": "quas",
-    "UdefIdentity": 214,
-    "UDListDefinitionId": 463,
+    "Page1LineNo": 772,
+    "ProgId": "enim",
+    "IsReadOnly": true,
+    "ShortLabel": "ipsum",
+    "TabOrder": 140,
+    "TextLength": 402,
+    "Tooltip": "incidunt",
+    "UdefIdentity": 149,
+    "UDListDefinitionId": 183,
     "Justification": "Center",
-    "Version": 319,
-    "TemplateVariableName": "Kunze-Schaefer",
+    "Version": 385,
+    "TemplateVariableName": "O'Keefe LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Blanda, Tromp and Rowe",
+    "MdoListName": "Homenick LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 986
       }
     }
   }

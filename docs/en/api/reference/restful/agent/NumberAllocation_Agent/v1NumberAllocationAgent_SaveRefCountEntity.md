@@ -84,38 +84,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 623,
-  "Field": "in",
-  "RecordId": 920,
+  "RefCountsId": 6,
+  "Field": "et",
+  "RecordId": 152,
   "SuggestedRecords": [
     {
-      "Id": 972,
-      "Name": "Luettgen Group",
-      "ToolTip": "Optio dolorem sed sed.",
+      "Id": 594,
+      "Name": "Welch, Schiller and Greenfelder",
+      "ToolTip": "Quam aut iste.",
       "Deleted": false,
-      "Rank": 224,
-      "Type": "necessitatibus",
+      "Rank": 3,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sequi",
-      "ColorBlock": 199,
-      "ExtraInfo": "ut",
-      "StyleHint": "tempora",
-      "FullName": "Madeline Adams"
+      "IconHint": "ipsa",
+      "ColorBlock": 531,
+      "ExtraInfo": "ex",
+      "StyleHint": "non",
+      "FullName": "Prof. Karli Satterfield Jr."
     }
   ],
-  "CurrentValue": 53,
-  "TravelPrefix": 362,
-  "SatPrefix": 669,
-  "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "CurrentValue": 601,
+  "TravelPrefix": 401,
+  "SatPrefix": 411,
+  "Allocate": true,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": true
 }
 ```
@@ -127,49 +127,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 308,
-  "Field": "sequi",
-  "RecordId": 175,
+  "RefCountsId": 260,
+  "Field": "nihil",
+  "RecordId": 684,
   "SuggestedRecords": [
     {
-      "Id": 677,
-      "Name": "Zulauf, Murazik and Kohler",
-      "ToolTip": "Ipsum aut asperiores repudiandae commodi odit voluptas.",
+      "Id": 598,
+      "Name": "Ruecker Group",
+      "ToolTip": "Fugiat est.",
       "Deleted": false,
-      "Rank": 197,
-      "Type": "dignissimos",
+      "Rank": 669,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 319,
-      "ExtraInfo": "est",
-      "StyleHint": "eligendi",
-      "FullName": "Kaycee Effertz",
+      "IconHint": "quo",
+      "ColorBlock": 5,
+      "ExtraInfo": "non",
+      "StyleHint": "assumenda",
+      "FullName": "Mrs. Braulio Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
   ],
-  "CurrentValue": 247,
-  "TravelPrefix": 392,
-  "SatPrefix": 345,
+  "CurrentValue": 454,
+  "TravelPrefix": 474,
+  "SatPrefix": 994,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

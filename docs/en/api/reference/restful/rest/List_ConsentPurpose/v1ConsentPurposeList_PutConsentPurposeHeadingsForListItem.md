@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Rogahn Inc and Sons",
-    "ToolTip": "Excepturi dolores ut architecto voluptatibus eligendi.",
+    "Id": 819,
+    "Name": "Gusikowski Group",
+    "ToolTip": "Quam iusto sed facere.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "harum",
-    "ColorBlock": 858,
-    "IconHint": "eos",
+    "Rank": 431,
+    "Type": "magnam",
+    "ColorBlock": 205,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2020-11-06T03:47:00.6130405+01:00",
+    "LastChanged": "2007-08-25T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Lang-Balistreri",
-        "ToolTip": "Non distinctio ipsa minima corrupti aspernatur.",
+        "Id": 553,
+        "Name": "Bradtke, Hand and Cole",
+        "ToolTip": "Omnis ducimus eum aut non dolores.",
         "Deleted": true,
-        "Rank": 590,
-        "Type": "eligendi",
-        "ColorBlock": 60,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2008-11-15T03:47:00.6130405+01:00",
+        "Rank": 474,
+        "Type": "dicta",
+        "ColorBlock": 132,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2014-08-16T11:24:53.890546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Shemar Cassin"
+        "ExtraInfo": "et",
+        "StyleHint": "dolorum",
+        "Hidden": true,
+        "FullName": "Isai Rippin"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "magni",
+    "ExtraInfo": "earum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Leonora Schmidt"
+    "FullName": "Mrs. Jared Vincenza Roob"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Durgan-Cremin",
-    "ToolTip": "Et aliquam enim voluptatem rem quia id quia.",
-    "Deleted": true,
-    "Rank": 790,
-    "Type": "impedit",
-    "ColorBlock": 409,
-    "IconHint": "aut",
+    "Id": 123,
+    "Name": "Flatley, Kessler and Hirthe",
+    "ToolTip": "Et sit dolor reiciendis eaque.",
+    "Deleted": false,
+    "Rank": 298,
+    "Type": "error",
+    "ColorBlock": 728,
+    "IconHint": "accusantium",
     "Selected": true,
-    "LastChanged": "1998-12-31T03:47:00.6130405+01:00",
+    "LastChanged": "2021-05-29T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Kovacek-Weimann",
-        "ToolTip": "Aut ratione inventore consequatur.",
+        "Id": 305,
+        "Name": "Brakus Group",
+        "ToolTip": "Exercitationem voluptatibus repellat consequatur dolorem sit ut.",
         "Deleted": false,
-        "Rank": 935,
-        "Type": "iure",
-        "ColorBlock": 588,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "1999-09-09T03:47:00.6130405+02:00",
+        "Rank": 645,
+        "Type": "aliquid",
+        "ColorBlock": 591,
+        "IconHint": "ipsa",
+        "Selected": false,
+        "LastChanged": "2016-01-04T11:24:53.890546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Mrs. Thad Robyn Pfeffer",
+        "ExtraInfo": "a",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Graham Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 647
+            "FieldLength": 927
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "officia",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Mrs. Bobbie Greenfelder IV",
+    "FullName": "Joseph Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

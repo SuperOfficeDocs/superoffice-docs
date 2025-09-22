@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 109
+  "ErpConnectorId": 801
 }
 ```
 
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "tempora",
-    "Rank": 42,
-    "DisplayName": "Zboncak Inc and Sons",
-    "DisplayDescription": "Operative regional contingency",
+    "FieldKey": "delectus",
+    "Rank": 927,
+    "DisplayName": "Herman Group",
+    "DisplayDescription": "Diverse static utilisation",
     "FieldType": "Checkbox",
-    "ListName": "Davis-Boehm",
-    "DefaultValue": "consequatur",
-    "MaxLength": 925,
+    "ListName": "Quigley Inc and Sons",
+    "DefaultValue": "quia",
+    "MaxLength": 883,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 495
       }
     }
   }

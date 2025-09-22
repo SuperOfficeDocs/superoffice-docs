@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 148,
-  "Rank": 130,
-  "DefaultTask": 583,
-  "DefaultTaskText": "qui",
-  "IsVisual": false,
-  "LastGenerated": "1999-07-19T03:46:55.2382402+02:00",
-  "Description": "Customizable attitude-oriented definition",
-  "Name": "Herman, Wyman and Wolf",
-  "StatusMonitorId": 982,
-  "PictureId": 996,
-  "NeedsUpdate": true,
+  "OwnerTable": 595,
+  "Rank": 307,
+  "DefaultTask": 855,
+  "DefaultTaskText": "non",
+  "IsVisual": true,
+  "LastGenerated": "2015-10-27T11:24:48.5470141+01:00",
+  "Description": "Cloned modular local area network",
+  "Name": "Moen, Konopelski and Rice",
+  "StatusMonitorId": 418,
+  "PictureId": 371,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 806,
-  "NumNeedUpdate": 940,
-  "GenerationStart": "2000-07-06T03:46:55.2382402+02:00",
+  "NumMatches": 817,
+  "NumNeedUpdate": 626,
+  "GenerationStart": "2005-08-28T11:24:48.5470141+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

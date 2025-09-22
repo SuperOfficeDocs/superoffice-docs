@@ -84,6 +84,8 @@ ProjectMember found.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -94,7 +96,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,33 +106,35 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 607,
-  "ContactId": 915,
-  "ProjectId": 734,
-  "ContactName": "Howell LLC",
+  "ProjectmemberId": 335,
+  "ContactId": 398,
+  "ProjectId": 621,
+  "ContactName": "Auer, Mayert and Rowe",
   "ContactDepartment": "",
-  "ProjectName": "Brown Inc and Sons",
-  "EmailId": 318,
-  "EmailAddress": "remington_heathcote@hessel.info",
-  "CountryId": 812,
-  "Firstname": "Nella",
-  "MiddleName": "Lockman, Fay and Stokes",
-  "Lastname": "McGlynn",
-  "PersonId": 959,
-  "Mrmrs": "mollitia",
-  "ProjectMemberTypeName": "Green-Spencer",
-  "Phone": "(192)112-4007",
-  "PhoneId": 432,
-  "ProjectMemberTypeId": 236,
-  "EmailAddressName": "beth@grahamschimmel.com",
-  "Comment": "qui",
-  "FullName": "Madilyn Wolff",
+  "ProjectName": "Franecki Inc and Sons",
+  "EmailId": 274,
+  "EmailAddress": "angelita@bergnaum.uk",
+  "CountryId": 74,
+  "Firstname": "Price",
+  "MiddleName": "Cummings-Beer",
+  "Lastname": "Christiansen",
+  "PersonId": 383,
+  "Mrmrs": "reiciendis",
+  "ProjectMemberTypeName": "Blick, Ortiz and Kuhn",
+  "Phone": "094-991-4850 x85648",
+  "PhoneId": 650,
+  "ProjectMemberTypeId": 338,
+  "EmailAddressName": "anastacio_ohara@schuster.com",
+  "Comment": "voluptas",
+  "FullName": "Miss Bessie Gerlach",
+  "Registered": "2005-03-14T11:24:53.7655512+01:00",
+  "Updated": "2019-03-26T11:24:53.7655512+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 426
     }
   },
   "_Links": {

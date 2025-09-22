@@ -89,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Cruickshank, Lesch and Schinner",
-  "DeviceName": "Kohler Group",
-  "DeviceIdentifier": "vel"
+  "ApplicationName": "Abernathy LLC",
+  "DeviceName": "Carter, Watsica and Bogisich",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "minus",
-  "Value": "voluptates",
-  "RecordId": 559,
-  "CreatedDate": "2017-11-06T03:46:54.9107593+01:00",
-  "UpdatedDate": "2020-07-26T03:46:54.9107593+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "quia",
-  "TableName": "Beahan-Osinski",
+  "Key": "voluptas",
+  "Value": "unde",
+  "RecordId": 144,
+  "CreatedDate": "2011-06-04T11:24:48.1564051+02:00",
+  "UpdatedDate": "2015-11-01T11:24:48.1564051+01:00",
+  "UpdatedBy": "alias",
+  "CreatedBy": "in",
+  "TableName": "Skiles, Metz and Goyette",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 984
     }
   }
 }

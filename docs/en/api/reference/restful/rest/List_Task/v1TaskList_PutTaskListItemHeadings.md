@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Stehr, Ankunding and Spencer",
-    "Tooltip": "animi",
+    "HeadingId": 791,
+    "Name": "Windler LLC",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 817
+    "Rank": 575,
+    "UdListDefinitionId": 993
   },
   {
-    "HeadingId": 870,
-    "Name": "Stehr, Ankunding and Spencer",
-    "Tooltip": "animi",
+    "HeadingId": 791,
+    "Name": "Windler LLC",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 817
+    "Rank": 575,
+    "UdListDefinitionId": 993
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Gutkowski, Gislason and Stokes",
-    "Tooltip": "deleniti",
+    "HeadingId": 131,
+    "Name": "Lehner Inc and Sons",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 348,
-    "UdListDefinitionId": 749,
+    "Rank": 112,
+    "UdListDefinitionId": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 324
       }
     }
   }

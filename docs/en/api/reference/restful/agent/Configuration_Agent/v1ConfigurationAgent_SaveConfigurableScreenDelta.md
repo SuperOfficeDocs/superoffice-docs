@@ -88,26 +88,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 251,
-  "Name": "Connelly-Marquardt",
-  "Description": "Reactive directional utilisation",
-  "DeltaJson": "ipsam",
+  "ConfigurableScreenDeltaId": 29,
+  "Name": "Luettgen, Ullrich and Jones",
+  "Description": "Team-oriented intangible open architecture",
+  "DeltaJson": "eos",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ipsum",
-  "UpdatedDate": "2004-03-31T03:46:54.4570178+02:00",
-  "CreatedDate": "2023-01-30T03:46:54.4570178+01:00",
+  "RecipeId": "explicabo",
+  "UpdatedDate": "2018-03-23T11:24:47.7189228+01:00",
+  "CreatedDate": "2021-05-03T11:24:47.7189228+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    836,
-    677
+    668,
+    866
   ],
-  "AppliesToKey": "quo"
+  "AppliesToKey": "quisquam"
 }
 ```
 
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 863,
-  "Name": "Ebert, Johnston and Harvey",
-  "Description": "Quality-focused directional extranet",
-  "DeltaJson": "optio",
+  "ConfigurableScreenDeltaId": 96,
+  "Name": "Kohler-Kovacek",
+  "Description": "Reverse-engineered stable parallelism",
+  "DeltaJson": "corrupti",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2002-12-24T03:46:54.4570178+01:00",
-  "CreatedDate": "2010-08-28T03:46:54.4570178+02:00",
+  "RecipeId": "dicta",
+  "UpdatedDate": "2008-07-31T11:24:47.7189228+02:00",
+  "CreatedDate": "2019-10-03T11:24:47.7189228+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    676,
-    804
+    297,
+    889
   ],
-  "AppliesToKey": "ratione",
+  "AppliesToKey": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 753
     }
   }
 }

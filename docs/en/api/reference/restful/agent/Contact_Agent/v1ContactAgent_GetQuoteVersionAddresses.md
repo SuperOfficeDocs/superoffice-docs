@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 835
+  "QuoteVersionId": 36
 }
 ```
 
@@ -97,41 +97,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 2131.12,
-    "Wgs84Longitude": 17064.63,
+    "Wgs84Latitude": 16697.952,
+    "Wgs84Longitude": 27347.284,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daniel, Kris and Schultz",
-          "Value": "error",
-          "Tooltip": "est",
-          "Label": "dolores",
-          "ValueLength": 624,
-          "AddressType": "inventore",
+          "Name": "Schiller-Schultz",
+          "Value": "quo",
+          "Tooltip": "enim",
+          "Label": "quidem",
+          "ValueLength": 405,
+          "AddressType": "veritatis",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 720
+              "FieldType": "System.String",
+              "FieldLength": 499
             }
           }
         }
       ],
       [
         {
-          "Name": "Lesch-Bradtke",
-          "Value": "cum",
-          "Tooltip": "sed",
-          "Label": "qui",
-          "ValueLength": 679,
-          "AddressType": "facere",
+          "Name": "Ebert Inc and Sons",
+          "Value": "qui",
+          "Tooltip": "tempora",
+          "Label": "ut",
+          "ValueLength": 438,
+          "AddressType": "odio",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 614
+              "FieldType": "System.Int32",
+              "FieldLength": 197
             }
           }
         }
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "exercitationem",
+    "Formatted": "dicta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 438
       }
     }
   }

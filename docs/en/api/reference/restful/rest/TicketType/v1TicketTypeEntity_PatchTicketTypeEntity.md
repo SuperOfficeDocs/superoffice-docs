@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "cumque",
+    "path": "fugiat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cumque",
+    "path": "fugiat",
     "value": {}
   }
 ]
@@ -151,31 +151,31 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 501,
-  "Name": "Legros, Sauer and Fay",
-  "Rank": 148,
-  "Tooltip": "aut",
-  "Icon": "occaecati",
-  "DefaultTicketStatus": 666,
+  "TicketTypeId": 888,
+  "Name": "Kautzer, Cummerata and Kozey",
+  "Rank": 875,
+  "Tooltip": "veritatis",
+  "Icon": "eos",
+  "DefaultTicketStatus": 489,
   "TicketStatuses": [
-    931,
-    832
+    707,
+    208
   ],
-  "DefaultTicketPriority": 574,
+  "DefaultTicketPriority": 192,
   "TicketPriorities": [
-    542,
-    66
+    303,
+    947
   ],
-  "ReplyTemplate": 488,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 60,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    526,
-    551
+    397,
+    494
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldLength": 181
     }
   },
   "_Links": {

@@ -116,18 +116,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ex",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ex",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -140,20 +140,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 638,
-  "Name": "Ratke-Graham",
-  "ContentType": "dolorem",
-  "AttSize": 282,
+  "AttachmentId": 52,
+  "Name": "Stokes-Wuckert",
+  "ContentType": "soluta",
+  "AttSize": 187,
   "InlineImage": true,
-  "ContentId": "maiores",
-  "AuthKey": "quas",
+  "ContentId": "qui",
+  "AuthKey": "nesciunt",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   },
   "_Links": {

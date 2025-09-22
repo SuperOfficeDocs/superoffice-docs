@@ -28,7 +28,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=et
+GET /api/v1/List/Currency/MDOItems?query=deleniti
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Cremin Group",
-    "ToolTip": "Illum totam sint iure laborum voluptates.",
-    "Deleted": false,
-    "Rank": 457,
-    "Type": "hic",
+    "Id": 531,
+    "Name": "Fadel-Kreiger",
+    "ToolTip": "Aut perspiciatis nostrum.",
+    "Deleted": true,
+    "Rank": 447,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Hirthe, Jacobs and Kutch",
-        "ToolTip": "Odio accusamus incidunt omnis ut qui.",
+        "Id": 720,
+        "Name": "Langworth, Stamm and Kshlerin",
+        "ToolTip": "Magni reprehenderit a esse.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "tempora",
+        "Rank": 994,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 269,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quaerat",
-        "FullName": "Morris Will",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 820,
+        "ExtraInfo": "qui",
+        "StyleHint": "incidunt",
+        "FullName": "Dr. Schuyler Abagail Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 554
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 62,
-    "ExtraInfo": "est",
-    "StyleHint": "animi",
-    "FullName": "Clovis Ebert",
+    "IconHint": "optio",
+    "ColorBlock": 158,
+    "ExtraInfo": "sint",
+    "StyleHint": "cupiditate",
+    "FullName": "Edmund Alvina Kihn IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldLength": 698
       }
     }
   }

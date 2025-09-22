@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Satterfield, Wuckert and Gibson",
-    "ToolTip": "Commodi repellendus saepe laboriosam at.",
-    "Deleted": true,
-    "Rank": 429,
-    "Type": "culpa",
-    "ColorBlock": 138,
-    "IconHint": "minima",
+    "Id": 375,
+    "Name": "Weimann Inc and Sons",
+    "ToolTip": "Atque non.",
+    "Deleted": false,
+    "Rank": 179,
+    "Type": "in",
+    "ColorBlock": 742,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2007-02-09T03:47:00.6442984+01:00",
+    "LastChanged": "2000-04-15T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Quigley, O'Hara and Kassulke",
-        "ToolTip": "Blanditiis iste numquam non exercitationem saepe voluptas iure.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "sunt",
-        "ColorBlock": 492,
-        "IconHint": "et",
+        "Id": 492,
+        "Name": "Herzog, Cremin and Brown",
+        "ToolTip": "Voluptatem aut.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "aut",
+        "ColorBlock": 44,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "1999-08-11T03:47:00.6442984+02:00",
+        "LastChanged": "2024-09-16T11:24:53.9217949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Beulah Thompson",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Einar Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldType": "System.Int32",
+            "FieldLength": 828
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "esse",
+    "StyleHint": "blanditiis",
     "Hidden": true,
-    "FullName": "Barton Walker",
+    "FullName": "Ludie Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

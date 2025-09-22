@@ -75,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 713,
-  "Name": "Bergstrom-Hand",
-  "Tooltip": "aut",
-  "PassiveText": "quod",
-  "Deleted": false,
-  "Rank": 829,
+  "ReldefId": 473,
+  "Name": "Goldner, Beier and Kemmer",
+  "Tooltip": "facere",
+  "PassiveText": "et",
+  "Deleted": true,
+  "Rank": 596,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 306
     }
   }
 }

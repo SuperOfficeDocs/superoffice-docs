@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Johns-Turcotte"
+  "FileName": "Champlin, Wunsch and Halvorson"
 }
 ```
 
@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 919,
-      "ContactName": "Lakin-Harvey",
-      "PersonId": 146,
-      "PersonName": "Funk Group",
-      "AssociateId": 665,
-      "Address": "eaque",
-      "EmailId": 259,
+      "ContactId": 717,
+      "ContactName": "McKenzie Inc and Sons",
+      "PersonId": 157,
+      "PersonName": "Zieme Group",
+      "AssociateId": 140,
+      "Address": "sit",
+      "EmailId": 438,
       "DuplicatePersonIds": [
-        970,
-        631
+        402,
+        260
       ],
-      "Name": "Kemmer-Bednar",
+      "Name": "Gerhold, Torphy and Haley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 367
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 345,
-      "ContactName": "McCullough-Hills",
-      "PersonId": 563,
-      "PersonName": "Jakubowski, Moore and Zulauf",
-      "AssociateId": 494,
-      "Address": "earum",
-      "EmailId": 323,
+      "ContactId": 430,
+      "ContactName": "Von, Grimes and Wolf",
+      "PersonId": 684,
+      "PersonName": "Bergstrom Group",
+      "AssociateId": 957,
+      "Address": "veniam",
+      "EmailId": 198,
       "DuplicatePersonIds": [
-        959,
-        395
+        574,
+        259
       ],
-      "Name": "Douglas, Franecki and Dare",
+      "Name": "Lakin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 283
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 561,
-      "ContactName": "Monahan-Morar",
-      "PersonId": 421,
-      "PersonName": "Schaden-Larson",
-      "AssociateId": 309,
-      "Address": "excepturi",
-      "EmailId": 963,
+      "ContactId": 777,
+      "ContactName": "Runte Group",
+      "PersonId": 234,
+      "PersonName": "Koepp-Price",
+      "AssociateId": 477,
+      "Address": "est",
+      "EmailId": 362,
       "DuplicatePersonIds": [
-        829,
-        695
+        230,
+        978
       ],
-      "Name": "Glover, Becker and Miller",
+      "Name": "Fahey Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     }
   ],
-  "Subject": "earum",
-  "HTMLBody": "culpa",
+  "Subject": "beatae",
+  "HTMLBody": "veritatis",
   "From": null,
-  "Sent": "2001-06-03T03:46:54.785131+02:00",
-  "Size": 718,
+  "Sent": "2003-09-25T11:24:48.1095319+02:00",
+  "Size": 890,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "ut",
-  "IsSent": false,
+  "MessageID": "dolores",
+  "PlainBody": "omnis",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 920,
+  "ServerId": 203,
   "Attachments": [
     {
-      "Description": "Devolved mission-critical core",
-      "Filename": "modi",
-      "Size": 965,
-      "Type": "sint",
-      "Encoding": "est",
-      "Id": "ut",
-      "Disposition": "voluptas",
-      "IsSafeFileExtension": false,
+      "Description": "Grass-roots system-worthy capacity",
+      "Filename": "impedit",
+      "Size": 507,
+      "Type": "non",
+      "Encoding": "quis",
+      "Id": "voluptate",
+      "Disposition": "enim",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldType": "System.String",
+          "FieldLength": 547
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyle, Douglas and Larson",
+      "Name": "Huel-Renner",
       "Values": [
-        "et",
-        "animi"
+        "aut",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     },
     {
-      "Name": "Boyle, Douglas and Larson",
+      "Name": "Huel-Renner",
       "Values": [
-        "et",
-        "animi"
+        "aut",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     }
   ],
-  "FolderName": "Ward LLC",
-  "EmailItemId": 350,
-  "AccountId": 588,
-  "ReceivedAt": "2022-05-03T03:46:54.785131+02:00",
+  "FolderName": "Hegmann, Baumbach and Beatty",
+  "EmailItemId": 547,
+  "AccountId": 755,
+  "ReceivedAt": "2015-02-06T11:24:48.1095319+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-09-03T03:46:54.785131+02:00",
+  "RepliedAt": "2003-10-21T11:24:48.1095319+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 969
     }
   }
 }

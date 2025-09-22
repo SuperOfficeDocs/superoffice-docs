@@ -65,22 +65,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Hoppe Inc and Sons",
-      "DisplayName": "Upton Group",
-      "DisplayTooltip": "eum",
-      "IsActive": false
+      "Name": "Grant Inc and Sons",
+      "DisplayName": "Littel Group",
+      "DisplayTooltip": "nisi",
+      "IsActive": true
     },
     {
-      "Name": "Hoppe Inc and Sons",
-      "DisplayName": "Upton Group",
-      "DisplayTooltip": "eum",
-      "IsActive": false
+      "Name": "Grant Inc and Sons",
+      "DisplayName": "Littel Group",
+      "DisplayTooltip": "nisi",
+      "IsActive": true
     }
   ]
 }

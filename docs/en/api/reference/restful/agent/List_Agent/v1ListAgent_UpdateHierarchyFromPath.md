@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "consequatur",
+  "Path": "voluptatem",
   "Entity": null
 }
 ```
@@ -102,46 +102,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 215,
+  "HierarchyId": 49,
   "Domain": "Dashboards",
-  "Name": "Kessler, Vandervort and Schumm",
-  "Fullname": "quod",
-  "ParentId": 142,
+  "Name": "Smith-Mills",
+  "Fullname": "illum",
+  "ParentId": 188,
   "Children": [
     {
-      "HierarchyId": 974,
+      "HierarchyId": 297,
       "Domain": "Dashboards",
-      "Name": "Rempel, Greenfelder and Wiegand",
-      "Fullname": "facere",
-      "ParentId": 123,
+      "Name": "Parisian LLC",
+      "Fullname": "vel",
+      "ParentId": 466,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-08-25T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 227,
-      "Updated": "2019-09-13T03:46:54.9726245+02:00",
-      "UpdatedAssociateId": 610,
+      "Registered": "2014-08-12T11:24:48.234527+02:00",
+      "RegisteredAssociateId": 841,
+      "Updated": "2001-02-23T11:24:48.234527+01:00",
+      "UpdatedAssociateId": 559,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 406
+          "FieldLength": 817
         }
       }
     }
   ],
-  "Registered": "2016-03-12T03:46:54.9726245+01:00",
-  "RegisteredAssociateId": 896,
-  "Updated": "2002-02-17T03:46:54.9726245+01:00",
-  "UpdatedAssociateId": 901,
+  "Registered": "2004-01-29T11:24:48.234527+01:00",
+  "RegisteredAssociateId": 583,
+  "Updated": "2024-06-26T11:24:48.234527+02:00",
+  "UpdatedAssociateId": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 757
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 603,
-  "Name": "Bartoletti, Boyer and Hodkiewicz",
-  "Tooltip": "nostrum",
+  "Id": 966,
+  "Name": "Mills-Sauer",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "UdListDefinitionId": 717,
-  "Rank": 750,
+  "UdListDefinitionId": 951,
+  "Rank": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 453
     }
   }
 }

@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 15,
+  "QuoteVersionId": 872,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 425
+  "CountryId": 641
 }
 ```
 
@@ -100,41 +100,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22655.685999999998,
-  "Wgs84Longitude": 1720.566,
+  "Wgs84Latitude": 24511.014,
+  "Wgs84Longitude": 16481.706,
   "LocalizedAddress": [
     [
       {
-        "Name": "Goodwin-Zemlak",
-        "Value": "consequatur",
-        "Tooltip": "porro",
-        "Label": "praesentium",
-        "ValueLength": 657,
-        "AddressType": "labore",
+        "Name": "Toy, Mayer and Johnston",
+        "Value": "sunt",
+        "Tooltip": "et",
+        "Label": "quasi",
+        "ValueLength": 261,
+        "AddressType": "tempore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 712
           }
         }
       }
     ],
     [
       {
-        "Name": "Pfannerstill Inc and Sons",
-        "Value": "aperiam",
-        "Tooltip": "est",
-        "Label": "error",
+        "Name": "Barton, Hagenes and Macejkovic",
+        "Value": "corporis",
+        "Tooltip": "facere",
+        "Label": "sapiente",
         "ValueLength": 32,
-        "AddressType": "voluptatum",
+        "AddressType": "necessitatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 984
           }
         }
       }
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "incidunt",
+  "Formatted": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 250
     }
   }
 }

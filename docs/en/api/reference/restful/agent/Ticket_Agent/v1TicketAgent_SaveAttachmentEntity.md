@@ -78,18 +78,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 592,
-  "Name": "Heller Inc and Sons",
-  "ContentType": "sit",
-  "AttSize": 425,
+  "AttachmentId": 950,
+  "Name": "Schulist, Rau and Vandervort",
+  "ContentType": "est",
+  "AttSize": 262,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "voluptate",
-  "IsSafeFileExtension": true
+  "ContentId": "blanditiis",
+  "AuthKey": "quas",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 527,
-  "Name": "Bahringer-Williamson",
-  "ContentType": "consequuntur",
-  "AttSize": 385,
+  "AttachmentId": 245,
+  "Name": "Rolfson, Cummings and Crona",
+  "ContentType": "sed",
+  "AttSize": 913,
   "InlineImage": false,
-  "ContentId": "illum",
-  "AuthKey": "sed",
+  "ContentId": "et",
+  "AuthKey": "maxime",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Schuster-Cummings",
-    "ToolTip": "Nam ut dignissimos corporis explicabo.",
-    "Deleted": false,
-    "Rank": 701,
-    "Type": "sunt",
-    "ColorBlock": 868,
-    "IconHint": "maxime",
+    "Id": 784,
+    "Name": "Orn, Fisher and Ruecker",
+    "ToolTip": "Et voluptas temporibus qui quia.",
+    "Deleted": true,
+    "Rank": 103,
+    "Type": "enim",
+    "ColorBlock": 744,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2005-10-20T03:47:00.7067961+02:00",
+    "LastChanged": "2014-11-10T11:24:53.9999166+01:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Russel-Schmeler",
-        "ToolTip": "Commodi qui sapiente.",
+        "Id": 980,
+        "Name": "Bruen-Sipes",
+        "ToolTip": "Quo nam quia voluptatem tenetur.",
         "Deleted": true,
-        "Rank": 694,
-        "Type": "et",
-        "ColorBlock": 942,
-        "IconHint": "praesentium",
+        "Rank": 984,
+        "Type": "sapiente",
+        "ColorBlock": 729,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2025-06-11T03:47:00.7067961+02:00",
+        "LastChanged": "1999-11-17T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quia",
+        "ExtraInfo": "eos",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Mr. Vicente Herminio Kuhic DDS",
+        "FullName": "Karli Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldType": "System.String",
+            "FieldLength": 413
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "impedit",
+    "ExtraInfo": "ut",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Sid Beatty",
+    "FullName": "Berry Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

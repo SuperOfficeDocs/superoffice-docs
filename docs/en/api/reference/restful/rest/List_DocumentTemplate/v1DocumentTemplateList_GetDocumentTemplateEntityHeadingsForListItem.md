@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Johnston Inc and Sons",
-    "ToolTip": "Omnis ea sed et sapiente fugit numquam.",
+    "Id": 551,
+    "Name": "Mante-Swift",
+    "ToolTip": "Sint veritatis ut nesciunt exercitationem.",
     "Deleted": true,
-    "Rank": 320,
-    "Type": "occaecati",
-    "ColorBlock": 103,
-    "IconHint": "quas",
+    "Rank": 797,
+    "Type": "laudantium",
+    "ColorBlock": 256,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2020-08-20T03:47:00.6599229+02:00",
+    "LastChanged": "2002-06-13T11:24:53.9374193+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Grimes-Ryan",
-        "ToolTip": "Esse aut et et ratione est consequuntur earum.",
+        "Id": 297,
+        "Name": "Gutmann-Schowalter",
+        "ToolTip": "Commodi qui et adipisci eveniet sint error.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "labore",
-        "ColorBlock": 117,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2004-08-23T03:47:00.6599229+02:00",
+        "Rank": 202,
+        "Type": "maxime",
+        "ColorBlock": 829,
+        "IconHint": "iste",
+        "Selected": false,
+        "LastChanged": "2022-07-30T11:24:53.9374193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "quos",
+        "ExtraInfo": "est",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Mr. Amira Schowalter",
+        "FullName": "Lilly Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 225
+            "FieldType": "System.Int32",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Mrs. Rosalind Ryder Windler",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Alessandra Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldLength": 825
       }
     }
   }

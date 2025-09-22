@@ -85,18 +85,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 219,
-  "Name": "Koch Inc and Sons",
-  "Rank": 741,
-  "Tooltip": "officiis",
+  "AssociateId": 82,
+  "Name": "Barton LLC",
+  "Rank": 317,
+  "Tooltip": "tenetur",
   "LicenseOwners": [
     {
-      "Name": "Kozey Inc and Sons",
-      "Description": "Reverse-engineered tangible knowledge user",
+      "Name": "Schultz, Grant and Kutch",
+      "Description": "Visionary client-server service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kozey Inc and Sons",
-      "Description": "Reverse-engineered tangible knowledge user",
+      "Name": "Schultz, Grant and Kutch",
+      "Description": "Visionary client-server service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,87 +123,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "et",
-      "Id": 419,
-      "Rank": 361,
-      "Deleted": true
+      "Value": "repellendus",
+      "Tooltip": "qui",
+      "Id": 260,
+      "Rank": 179,
+      "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "et",
-      "Id": 419,
-      "Rank": 361,
-      "Deleted": true
+      "Value": "repellendus",
+      "Tooltip": "qui",
+      "Id": 260,
+      "Rank": 179,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1999-06-23T03:47:00.5349272+02:00",
-  "Lastlogout": "2016-01-12T03:47:00.5349272+01:00",
-  "EjUserId": 791,
-  "RequestSignature": "aut",
+  "Lastlogin": "2024-10-07T11:24:53.8124168+02:00",
+  "Lastlogout": "2020-10-03T11:24:53.8124168+02:00",
+  "EjUserId": 388,
+  "RequestSignature": "numquam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "temporibus"
+      "Value": "perspiciatis",
+      "DisplayValue": "qui"
     },
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "temporibus"
+      "Value": "perspiciatis",
+      "DisplayValue": "qui"
     }
   ],
-  "UserName": "Smitham-Kessler",
+  "UserName": "Kunde, Rosenbaum and Block",
   "TicketCategories": [
     {
-      "Id": 470,
-      "Name": "Turner-Kuhic",
-      "ToolTip": "Quae numquam et sit quia reiciendis.",
+      "Id": 671,
+      "Name": "Champlin-Smith",
+      "ToolTip": "Eius suscipit autem earum et.",
       "Deleted": false,
-      "Rank": 101,
-      "Type": "error",
+      "Rank": 651,
+      "Type": "ducimus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 736,
-      "ExtraInfo": "ullam",
-      "StyleHint": "impedit",
-      "FullName": "Jude Fahey"
+      "IconHint": "voluptatem",
+      "ColorBlock": 174,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "in",
+      "FullName": "Carmel Littel"
     }
   ],
-  "NickName": "Kilback-Maggio",
-  "WaitingForApproval": false,
+  "NickName": "Nienow, Becker and Hansen",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "quas"
+    "CustomFields1": "sunt",
+    "CustomFields2": "dolore"
   },
   "PostSaveCommands": [
     {
-      "Name": "Harris LLC",
-      "DisplayName": "Morar Inc and Sons",
-      "Description": "Adaptive encompassing policy",
-      "ToolTip": "Eum earum qui odit itaque.",
+      "Name": "Weissnat, Gutmann and Harvey",
+      "DisplayName": "Cronin-Hoeger",
+      "Description": "Cross-group full-range firmware",
+      "ToolTip": "Ullam aliquid odio odio quia fugit aut.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos"
+      "ActionData": "voluptate"
     },
     {
-      "Name": "Harris LLC",
-      "DisplayName": "Morar Inc and Sons",
-      "Description": "Adaptive encompassing policy",
-      "ToolTip": "Eum earum qui odit itaque.",
+      "Name": "Weissnat, Gutmann and Harvey",
+      "DisplayName": "Cronin-Hoeger",
+      "Description": "Cross-group full-range firmware",
+      "ToolTip": "Ullam aliquid odio odio quia fugit aut.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos"
+      "ActionData": "voluptate"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorum",
-  "2": "ipsam"
+  "1": "hic",
+  "2": "provident"
 }
 ```

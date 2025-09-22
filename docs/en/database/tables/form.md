@@ -59,7 +59,7 @@ A form which can be published on a webpage and submitted by visitors
 |[ejscript](ejscript.md)  |ejscript |
 |[email\_flow\_content\_link](email-flow-content-link.md)  |Links content to an email workflow |
 |[form\_submission](form-submission.md)  |A form submission |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
 |[s\_picture\_folder](s-picture-folder.md)  |This table contains all picture folders |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 376,
-  "DimensionId": 353
+  "TargetYear": 667,
+  "DimensionId": 21
 }
 ```
 
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 493,
-  "Year": 793,
+  "TargetGroupId": 370,
+  "Year": 525,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 949,
+      "TargetAssignmentInfoId": 209,
       "Values": [
-        654,
-        68
+        302,
+        520
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 876,
-      "DimensionListItemDisplayName": "Bartell-Wintheiser",
+      "DimensionListItem": 25,
+      "DimensionListItemDisplayName": "Smith Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldLength": 631
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 706
     }
   }
 }

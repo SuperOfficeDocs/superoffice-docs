@@ -28,7 +28,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=nostrum
+GET /api/v1/List/Category/MDOItems?query=excepturi
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Wilkinson-Prosacco",
-    "ToolTip": "Rerum beatae qui voluptas adipisci.",
+    "Id": 761,
+    "Name": "Morissette-Pagac",
+    "ToolTip": "At vel quis.",
     "Deleted": false,
-    "Rank": 64,
-    "Type": "aut",
+    "Rank": 666,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Quaerat amet velit.",
+        "Id": 577,
+        "Name": "Morar LLC",
+        "ToolTip": "Eum doloremque quam aut consequuntur magnam asperiores beatae.",
         "Deleted": false,
-        "Rank": 37,
-        "Type": "qui",
+        "Rank": 257,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 658,
-        "ExtraInfo": "ut",
-        "StyleHint": "consequatur",
-        "FullName": "Velva Pagac",
+        "IconHint": "culpa",
+        "ColorBlock": 397,
+        "ExtraInfo": "autem",
+        "StyleHint": "ab",
+        "FullName": "Lottie Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 786
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 113,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "facilis",
-    "FullName": "Rhett Schuppe V",
+    "IconHint": "corporis",
+    "ColorBlock": 999,
+    "ExtraInfo": "quod",
+    "StyleHint": "voluptatem",
+    "FullName": "Alessandro Devan Dietrich DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

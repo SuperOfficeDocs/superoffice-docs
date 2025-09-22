@@ -97,7 +97,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 581,
-  "Name": "Jaskolski-Cartwright",
+  "ContactId": 683,
+  "Name": "Mills LLC",
   "Department": "",
-  "OrgNr": "1308867",
-  "Number1": "1379308",
-  "Number2": "516450",
-  "UpdatedDate": "2024-02-02T03:46:54.5195154+01:00",
-  "CreatedDate": "2007-12-26T03:46:54.5195154+01:00",
+  "OrgNr": "687216",
+  "Number1": "918648",
+  "Number2": "1221920",
+  "UpdatedDate": "2007-10-23T11:24:47.7814202+02:00",
+  "CreatedDate": "2017-10-05T11:24:47.7814202+02:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "voluptatibus",
-      "Description": "Centralized mobile frame",
+      "Value": "quia",
+      "StrippedValue": "quis",
+      "Description": "Persistent exuding capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "voluptatibus",
-      "Description": "Centralized mobile frame",
+      "Value": "quia",
+      "StrippedValue": "quis",
+      "Description": "Persistent exuding capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 385
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 886,
-      "Name": "Lemke, Bednar and Effertz",
-      "ToolTip": "Repellat ullam tempora commodi et rerum quia sunt.",
-      "Deleted": true,
-      "Rank": 123,
-      "Type": "debitis",
-      "ColorBlock": 783,
-      "IconHint": "veritatis",
+      "Id": 106,
+      "Name": "Weissnat LLC",
+      "ToolTip": "Optio hic dolor doloribus beatae dolores rerum.",
+      "Deleted": false,
+      "Rank": 32,
+      "Type": "quia",
+      "ColorBlock": 615,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2022-11-26T03:46:54.5195154+01:00",
+      "LastChanged": "2002-10-27T11:24:47.7814202+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Lucius Daugherty",
+      "ExtraInfo": "in",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Darron Gottlieb",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 392
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "error",
-      "StrippedValue": "voluptas",
-      "Description": "Total value-added paradigm",
+      "Value": "cupiditate",
+      "StrippedValue": "rerum",
+      "Description": "Face to face bottom-line archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 819
         }
       }
     },
     {
-      "Value": "error",
-      "StrippedValue": "voluptas",
-      "Description": "Total value-added paradigm",
+      "Value": "cupiditate",
+      "StrippedValue": "rerum",
+      "Description": "Face to face bottom-line archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldLength": 819
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "est",
-      "StrippedValue": "debitis",
-      "Description": "Horizontal coherent instruction set",
+      "Value": "velit",
+      "StrippedValue": "distinctio",
+      "Description": "Vision-oriented national approach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "debitis",
-      "Description": "Horizontal coherent instruction set",
+      "Value": "velit",
+      "StrippedValue": "distinctio",
+      "Description": "Vision-oriented national approach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "qui",
-      "StrippedValue": "corporis",
-      "Description": "Assimilated systemic product",
+      "Value": "ex",
+      "StrippedValue": "velit",
+      "Description": "Optimized radical structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldLength": 826
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "corporis",
-      "Description": "Assimilated systemic product",
+      "Value": "ex",
+      "StrippedValue": "velit",
+      "Description": "Optimized radical structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldLength": 826
         }
       }
     }
   ],
-  "Description": "Front-line background hardware",
+  "Description": "Persistent 24/7 adapter",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,102 +279,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "atque",
-      "PersonId": 91,
-      "Mrmrs": "fugiat",
-      "Firstname": "Ottis",
-      "Lastname": "Hills",
-      "MiddleName": "Brakus-McClure",
-      "Title": "ex",
-      "Description": "Exclusive multi-state hierarchy",
-      "Email": "litzy@greenholttremblay.info",
-      "FullName": "Leif Cartwright",
-      "DirectPhone": "(638)098-2899 x96785",
-      "FormalName": "Ondricka, Cronin and Rogahn",
-      "CountryId": 980,
-      "ContactId": 128,
-      "ContactName": "Baumbach LLC",
-      "Retired": 342,
-      "Rank": 974,
-      "ActiveInterests": 361,
+      "Position": "rerum",
+      "PersonId": 335,
+      "Mrmrs": "distinctio",
+      "Firstname": "Meaghan",
+      "Lastname": "Gulgowski",
+      "MiddleName": "Beatty LLC",
+      "Title": "odit",
+      "Description": "Cross-platform 4th generation algorithm",
+      "Email": "amanda@morissettepowlowski.ca",
+      "FullName": "Miss Darlene Koby Carter",
+      "DirectPhone": "624-934-0117 x94572",
+      "FormalName": "Orn, VonRueden and Hegmann",
+      "CountryId": 138,
+      "ContactId": 802,
+      "ContactName": "Altenwerth LLC",
+      "Retired": 604,
+      "Rank": 293,
+      "ActiveInterests": 8,
       "ContactDepartment": "",
-      "ContactCountryId": 101,
-      "ContactOrgNr": "1296138",
-      "FaxPhone": "445.019.0634",
-      "MobilePhone": "1-625-106-8068 x923",
-      "ContactPhone": "1-443-519-4857 x1424",
-      "AssociateName": "Ruecker-Parker",
-      "AssociateId": 938,
-      "UsePersonAddress": true,
-      "ContactFax": "ipsum",
-      "Kanafname": "repellendus",
-      "Kanalname": "neque",
-      "Post1": "perspiciatis",
-      "Post2": "et",
-      "Post3": "ab",
-      "EmailName": "isidro.luettgen@vandervort.name",
-      "ContactFullName": "Nettie Powlowski",
-      "ActiveErpLinks": 937,
-      "TicketPriorityId": 297,
-      "SupportLanguageId": 698,
-      "SupportAssociateId": 823,
+      "ContactCountryId": 629,
+      "ContactOrgNr": "1405422",
+      "FaxPhone": "242-854-8552 x346",
+      "MobilePhone": "784.522.2869 x554",
+      "ContactPhone": "1-690-120-4096",
+      "AssociateName": "Wilkinson-Blanda",
+      "AssociateId": 37,
+      "UsePersonAddress": false,
+      "ContactFax": "iusto",
+      "Kanafname": "aut",
+      "Kanalname": "autem",
+      "Post1": "consequatur",
+      "Post2": "qui",
+      "Post3": "est",
+      "EmailName": "myrtis_weber@joneseffertz.us",
+      "ContactFullName": "Mr. Hollie Pacocha",
+      "ActiveErpLinks": 533,
+      "TicketPriorityId": 444,
+      "SupportLanguageId": 294,
+      "SupportAssociateId": 710,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "965804",
+      "PersonNumber": "878034",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "est",
-  "Xstop": false,
-  "ActiveInterests": 951,
-  "GroupId": 201,
-  "ActiveStatusMonitorId": 776,
+  "NoMailing": false,
+  "Kananame": "alias",
+  "Xstop": true,
+  "ActiveInterests": 560,
+  "GroupId": 900,
+  "ActiveStatusMonitorId": 613,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 704,
-  "DbiAgentId": 74,
-  "DbiLastSyncronized": "2016-04-07T03:46:54.5195154+02:00",
-  "DbiKey": "pariatur",
-  "DbiLastModified": "2007-04-11T03:46:54.5195154+02:00",
+  "Deleted": 452,
+  "DbiAgentId": 291,
+  "DbiLastSyncronized": "2014-08-09T11:24:47.7814202+02:00",
+  "DbiKey": "inventore",
+  "DbiLastModified": "2003-08-05T11:24:47.7814202+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 830,
-  "ActiveErpLinks": 364,
+  "Source": 391,
+  "ActiveErpLinks": 962,
   "BounceEmails": [
-    "jordane@block.co.uk",
-    "coy@dach.name"
+    "samir@bruen.ca",
+    "jermain.orn@wolff.com"
   ],
   "Domains": [
-    "atque",
-    "eligendi"
+    "est",
+    "omnis"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Justyn Weimann",
-    "SuperOffice:2": "Ms. Mable Xzavier Kling"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miss Jace Funk Jr."
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "architecto"
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldLength": 761
     }
   }
 }

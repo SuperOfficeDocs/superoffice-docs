@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type Table (534)
+# ticket\_type Table (535)
 
 A ticket (request) type
 

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 285,
+  "SourceDocumentTemplateId": 562,
   "DocumentTemplateEntity": null
 }
 ```
@@ -115,37 +115,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 655,
-  "Name": "Turcotte, Cassin and Dickens",
-  "Tooltip": "animi",
-  "SaveInDb": 93,
-  "Filename": "qui",
-  "DefaultOref": "ut",
+  "DocumentTemplateId": 6,
+  "Name": "Legros-Ward",
+  "Tooltip": "necessitatibus",
+  "SaveInDb": 224,
+  "Filename": "unde",
+  "DefaultOref": "perferendis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 20,
-  "IntentId": 325,
-  "IsDefaultPublished": false,
-  "Rank": 869,
-  "LoadTemplateFromPlugin": 915,
-  "MimeType": "neque",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 25,
+  "AutoeventId": 514,
+  "IntentId": 496,
+  "IsDefaultPublished": true,
+  "Rank": 754,
+  "LoadTemplateFromPlugin": 788,
+  "MimeType": "voluptate",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 437,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cheyenne@oberbrunnermann.info",
-  "IncludeSignature": true,
+  "EmailSubject": "tierra.quitzon@rippin.com",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonor.huel@mccullough.uk",
+  "SenderEmailAddress": "amalia_shields@lueilwitz.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 213
     }
   }
 }

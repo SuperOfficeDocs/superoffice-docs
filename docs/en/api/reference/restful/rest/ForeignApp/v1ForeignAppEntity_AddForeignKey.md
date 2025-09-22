@@ -84,18 +84,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "dolores",
-  "RecordId": 323,
-  "CreatedDate": "2009-07-13T03:47:00.0349452+02:00",
-  "UpdatedDate": "2018-01-26T03:47:00.0349452+01:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "fugiat",
-  "TableName": "Gutkowski-Ryan"
+  "Key": "veniam",
+  "Value": "consequuntur",
+  "RecordId": 977,
+  "CreatedDate": "2021-03-22T11:24:53.2968202+01:00",
+  "UpdatedDate": "2002-08-08T11:24:53.2968202+02:00",
+  "UpdatedBy": "ea",
+  "CreatedBy": "repudiandae",
+  "TableName": "Heidenreich Group"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatibus",
-  "Value": "ratione",
-  "RecordId": 42,
-  "CreatedDate": "1999-01-24T03:47:00.0349452+01:00",
-  "UpdatedDate": "2011-01-25T03:47:00.0349452+01:00",
-  "UpdatedBy": "quasi",
-  "CreatedBy": "molestiae",
-  "TableName": "Weimann LLC",
+  "Key": "qui",
+  "Value": "laudantium",
+  "RecordId": 401,
+  "CreatedDate": "2016-06-08T11:24:53.2968202+02:00",
+  "UpdatedDate": "2003-04-03T11:24:53.2968202+02:00",
+  "UpdatedBy": "quidem",
+  "CreatedBy": "quaerat",
+  "TableName": "Parker Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 158
     }
   }
 }

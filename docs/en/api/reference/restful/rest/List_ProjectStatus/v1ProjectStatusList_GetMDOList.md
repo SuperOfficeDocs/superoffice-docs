@@ -28,7 +28,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=tempora
+GET /api/v1/List/ProjectStatus/MDOItems?query=qui
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Schulist-Kunde",
-    "ToolTip": "Unde consequatur non ad adipisci non.",
-    "Deleted": false,
-    "Rank": 545,
-    "Type": "ipsa",
+    "Id": 481,
+    "Name": "Rice-Kuphal",
+    "ToolTip": "Nemo aut tempore in.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Dietrich, Swift and Hauck",
-        "ToolTip": "Quia ad et.",
-        "Deleted": true,
-        "Rank": 469,
-        "Type": "qui",
+        "Id": 837,
+        "Name": "Spencer LLC",
+        "ToolTip": "Minus voluptatem.",
+        "Deleted": false,
+        "Rank": 831,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eligendi",
-        "ColorBlock": 374,
-        "ExtraInfo": "quae",
-        "StyleHint": "cumque",
-        "FullName": "Sandrine Littel",
+        "IconHint": "quaerat",
+        "ColorBlock": 843,
+        "ExtraInfo": "in",
+        "StyleHint": "assumenda",
+        "FullName": "Mrs. Katlynn Green PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 604
           }
         }
       }
     ],
-    "IconHint": "quisquam",
-    "ColorBlock": 796,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "asperiores",
-    "FullName": "Frederique Zemlak",
+    "IconHint": "vitae",
+    "ColorBlock": 586,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "alias",
+    "FullName": "Paul Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 989
       }
     }
   }

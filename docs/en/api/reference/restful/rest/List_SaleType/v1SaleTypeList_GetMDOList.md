@@ -28,7 +28,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=saepe
+GET /api/v1/List/SaleType/MDOItems?query=ducimus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Towne, Kirlin and Schmidt",
-    "ToolTip": "Reiciendis consequatur voluptatum molestias.",
-    "Deleted": true,
-    "Rank": 712,
-    "Type": "ducimus",
+    "Id": 264,
+    "Name": "Terry Inc and Sons",
+    "ToolTip": "Atque provident repudiandae.",
+    "Deleted": false,
+    "Rank": 866,
+    "Type": "placeat",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Lockman, Adams and Luettgen",
-        "ToolTip": "Enim ut.",
+        "Id": 261,
+        "Name": "Turcotte-Borer",
+        "ToolTip": "Eius repudiandae illum.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "eveniet",
+        "Rank": 561,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 416,
-        "ExtraInfo": "omnis",
-        "StyleHint": "temporibus",
-        "FullName": "Raven Zemlak",
+        "IconHint": "sit",
+        "ColorBlock": 185,
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "FullName": "Jacynthe Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 285
+            "FieldType": "System.Int32",
+            "FieldLength": 721
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 488,
-    "ExtraInfo": "qui",
-    "StyleHint": "iure",
-    "FullName": "Ms. Carrie Letha Schimmel Jr.",
+    "IconHint": "suscipit",
+    "ColorBlock": 734,
+    "ExtraInfo": "officia",
+    "StyleHint": "quasi",
+    "FullName": "Veronica Spencer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

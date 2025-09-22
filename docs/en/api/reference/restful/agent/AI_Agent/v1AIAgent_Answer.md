@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/AI/Answer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Beer, Blick and Leannon",
-  "Query": "ullam",
+  "NamespaceName": "Lakin Group",
+  "Query": "et",
   "Type": "Document",
-  "Top": 128
+  "Top": 183
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Answer": "dolorem",
+  "Answer": "vitae",
   "Source": [
     {
-      "Chunk": "nisi",
+      "Chunk": "soluta",
       "Title": "aut",
-      "Id": "fugit",
+      "Id": "qui",
       "Type": "Document",
-      "Score": 28563.275999999998,
+      "Score": 5512.706,
       "Metadata": {
         "fieldName": {}
       }
     },
     {
-      "Chunk": "nisi",
+      "Chunk": "soluta",
       "Title": "aut",
-      "Id": "fugit",
+      "Id": "qui",
       "Type": "Document",
-      "Score": 28563.275999999998,
+      "Score": 5512.706,
       "Metadata": {
         "fieldName": {}
       }
     }
   ],
-  "TrackingId": "nihil"
+  "TrackingId": "a"
 }
 ```

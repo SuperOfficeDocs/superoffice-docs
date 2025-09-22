@@ -69,17 +69,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Senger LLC",
+  "Name": "Lemke, Moen and Roberts",
   "Values": [
-    "magni",
-    "quis"
+    "veniam",
+    "quibusdam"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

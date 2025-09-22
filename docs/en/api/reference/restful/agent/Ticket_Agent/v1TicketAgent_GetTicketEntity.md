@@ -27,7 +27,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=148
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=40
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -135,21 +135,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 389,
-  "Title": "ut",
-  "CreatedAt": "2017-12-24T03:46:55.4569825+01:00",
-  "LastChanged": "2012-02-17T03:46:55.4569825+01:00",
-  "ReadByOwner": "2019-04-02T03:46:55.4569825+02:00",
-  "ReadByCustomer": "2003-06-26T03:46:55.4569825+02:00",
-  "FirstReadByOwner": "2013-01-22T03:46:55.4569825+01:00",
-  "FirstReadByUser": "2013-07-14T03:46:55.4569825+02:00",
-  "Activate": "2002-01-03T03:46:55.4569825+01:00",
-  "ClosedAt": "2016-04-28T03:46:55.4569825+02:00",
-  "RepliedAt": "1998-12-27T03:46:55.4569825+01:00",
-  "AlertTimeout": "2008-10-27T03:46:55.4569825+01:00",
-  "Deadline": "2000-09-28T03:46:55.4569825+02:00",
+  "TicketId": 169,
+  "Title": "corporis",
+  "CreatedAt": "2015-04-19T11:24:48.7188732+02:00",
+  "LastChanged": "2019-09-23T11:24:48.7188732+02:00",
+  "ReadByOwner": "2019-01-13T11:24:48.7188732+01:00",
+  "ReadByCustomer": "2004-03-05T11:24:48.7188732+01:00",
+  "FirstReadByOwner": "2016-06-12T11:24:48.7188732+02:00",
+  "FirstReadByUser": "2005-03-06T11:24:48.7188732+01:00",
+  "Activate": "1999-06-15T11:24:48.7188732+02:00",
+  "ClosedAt": "2018-09-29T11:24:48.7188732+02:00",
+  "RepliedAt": "2016-04-14T11:24:48.7188732+02:00",
+  "AlertTimeout": "2021-08-27T11:24:48.7188732+02:00",
+  "Deadline": "2013-12-11T11:24:48.7188732+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -160,163 +160,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "asperiores",
-      "PersonId": 643,
-      "Mrmrs": "aut",
-      "Firstname": "Shane",
-      "Lastname": "Ankunding",
-      "MiddleName": "Kerluke, Pfeffer and Casper",
-      "Title": "consequuntur",
-      "Description": "Exclusive national customer loyalty",
-      "Email": "amani_osinski@daughertyratke.co.uk",
-      "FullName": "Prof. Marques Wuckert DDS",
-      "DirectPhone": "610.906.3199",
-      "FormalName": "Pacocha-McKenzie",
-      "CountryId": 351,
-      "ContactId": 44,
-      "ContactName": "McCullough, Altenwerth and Greenfelder",
-      "Retired": 147,
-      "Rank": 409,
-      "ActiveInterests": 190,
+      "Position": "recusandae",
+      "PersonId": 211,
+      "Mrmrs": "nisi",
+      "Firstname": "Roberto",
+      "Lastname": "Wolff",
+      "MiddleName": "Terry-Will",
+      "Title": "ad",
+      "Description": "Stand-alone fresh-thinking functionalities",
+      "Email": "rahul.heidenreich@stark.uk",
+      "FullName": "Filiberto Morissette",
+      "DirectPhone": "(206)961-5407",
+      "FormalName": "Schuppe, Sauer and Kulas",
+      "CountryId": 48,
+      "ContactId": 778,
+      "ContactName": "Schmeler LLC",
+      "Retired": 211,
+      "Rank": 467,
+      "ActiveInterests": 136,
       "ContactDepartment": "",
-      "ContactCountryId": 903,
-      "ContactOrgNr": "1287254",
-      "FaxPhone": "013.331.5991",
-      "MobilePhone": "1-155-782-1723 x469",
-      "ContactPhone": "495-284-4609 x89035",
-      "AssociateName": "Pagac-Jenkins",
-      "AssociateId": 778,
-      "UsePersonAddress": false,
-      "ContactFax": "fugit",
-      "Kanafname": "quidem",
-      "Kanalname": "velit",
-      "Post1": "beatae",
-      "Post2": "tenetur",
-      "Post3": "facere",
-      "EmailName": "charlotte.zieme@goyettecronin.name",
-      "ContactFullName": "Mr. Treva Annabel Jerde",
-      "ActiveErpLinks": 684,
-      "TicketPriorityId": 720,
-      "SupportLanguageId": 603,
-      "SupportAssociateId": 964,
+      "ContactCountryId": 230,
+      "ContactOrgNr": "1871759",
+      "FaxPhone": "(869)374-1146 x3332",
+      "MobilePhone": "563-988-3821 x20030",
+      "ContactPhone": "(490)630-2845 x684",
+      "AssociateName": "VonRueden Inc and Sons",
+      "AssociateId": 702,
+      "UsePersonAddress": true,
+      "ContactFax": "quia",
+      "Kanafname": "voluptatibus",
+      "Kanalname": "labore",
+      "Post1": "soluta",
+      "Post2": "rerum",
+      "Post3": "inventore",
+      "EmailName": "zelda@miller.name",
+      "ContactFullName": "Florencio Schimmel Sr.",
+      "ActiveErpLinks": 162,
+      "TicketPriorityId": 187,
+      "SupportLanguageId": 70,
+      "SupportAssociateId": 70,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1279783",
+      "PersonNumber": "507102",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 195
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
   ],
-  "AlertLevel": 51,
-  "ConnectId": 165,
+  "AlertLevel": 428,
+  "ConnectId": 545,
   "ReadStatus": "Green",
-  "TimeToReply": 355,
-  "RealTimeToReply": 654,
-  "TimeToClose": 860,
-  "RealTimeToClose": 680,
-  "TimeSpentInternally": 556,
-  "TimeSpentExternally": 21,
-  "TimeSpentQueue": 750,
-  "RealTimeSpentInternally": 991,
-  "RealTimeSpentExternally": 862,
-  "RealTimeSpentQueue": 301,
-  "TimeSpent": 310,
+  "TimeToReply": 469,
+  "RealTimeToReply": 287,
+  "TimeToClose": 339,
+  "RealTimeToClose": 146,
+  "TimeSpentInternally": 908,
+  "TimeSpentExternally": 989,
+  "TimeSpentQueue": 686,
+  "RealTimeSpentInternally": 849,
+  "RealTimeSpentExternally": 90,
+  "RealTimeSpentQueue": 673,
+  "TimeSpent": 213,
   "HasAttachment": true,
-  "NumReplies": 254,
-  "NumMessages": 224,
-  "FromAddress": "nulla",
+  "NumReplies": 557,
+  "NumMessages": 281,
+  "FromAddress": "quo",
   "Messages": [
     {
-      "TicketMessageId": 529,
-      "CreatedAt": "2017-10-31T03:46:55.4569825+01:00",
+      "TicketMessageId": 265,
+      "CreatedAt": "2020-06-11T11:24:48.7188732+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quod",
-      "PersonId": 559,
-      "PersonFullName": "Miss Daniela Fernando Streich",
-      "ContactId": 255,
-      "ContactName": "Glover Group",
-      "ContactDepartment": "",
-      "NumAttachments": 353,
-      "EmailHeader": "delfina_reilly@ohara.com",
+      "Author": "sed",
+      "PersonId": 939,
+      "PersonFullName": "Antoinette Erdman",
+      "ContactId": 56,
+      "ContactName": "Rogahn Group",
+      "ContactDepartment": "incubate granular ROI",
+      "NumAttachments": 464,
+      "EmailHeader": "dayna@shieldsabbott.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "consequatur",
-      "Sentiment": 396,
-      "SentimentConfidence": 875,
-      "CreatedBy": 139,
-      "ChangedAt": "2005-07-03T03:46:55.4569825+02:00",
+      "Language": "fuga",
+      "Sentiment": 459,
+      "SentimentConfidence": 814,
+      "CreatedBy": 383,
+      "ChangedAt": "2009-12-02T11:24:48.7188732+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 7
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 208,
-      "Name": "Schumm-Barton",
-      "ToolTip": "Et laboriosam minima.",
+      "Id": 880,
+      "Name": "Jast, Satterfield and Ankunding",
+      "ToolTip": "Et doloremque autem quia in et beatae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 927
         }
       }
     },
     {
-      "Id": 208,
-      "Name": "Schumm-Barton",
-      "ToolTip": "Et laboriosam minima.",
+      "Id": 880,
+      "Name": "Jast, Satterfield and Ankunding",
+      "ToolTip": "Et doloremque autem quia in et beatae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldLength": 927
         }
       }
     }
   ],
-  "Language": "dolores",
-  "Sentiment": 332,
-  "SentimentConfidence": 785,
-  "SuggestedCategoryId": 830,
+  "Language": "vel",
+  "Sentiment": 199,
+  "SentimentConfidence": 592,
+  "SuggestedCategoryId": 577,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 143,
-  "IconHint": "enim",
+  "OrigHumanCategoryId": 430,
+  "IconHint": "dolor",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 757,
+  "ActiveStatusMonitorId": 368,
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "ut"
+    "CustomFields1": "quia",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

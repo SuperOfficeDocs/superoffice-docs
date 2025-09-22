@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Luettgen-Bayer",
+    "Description": "Operative incremental process improvement",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Unrestricted": true,
+        "Total": 441,
+        "Tooltip": "quis",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
+        "Free": 203,
+        "InUse": 631,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "ModuleLicenseId": 192,
+        "Name": "Ritchie-Ernser",
+        "Description": "Visionary incremental framework",
+        "PrerequisiteModuleName": "Kuhlman Group",
+        "SortOrder": 720,
+        "ExtraFlags": 110,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 737
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
+        "Total": 434,
+        "Tooltip": "ut",
         "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
+        "Free": 738,
+        "InUse": 40,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 823,
+        "Name": "Prosacco LLC",
+        "Description": "Front-line intangible artificial intelligence",
+        "PrerequisiteModuleName": "Rath-Bayer",
+        "SortOrder": 145,
+        "ExtraFlags": 262,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 49
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 145
       }
     }
   },
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Luettgen-Bayer",
+    "Description": "Operative incremental process improvement",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Unrestricted": true,
+        "Total": 441,
+        "Tooltip": "quis",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
+        "Free": 203,
+        "InUse": 631,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "ModuleLicenseId": 192,
+        "Name": "Ritchie-Ernser",
+        "Description": "Visionary incremental framework",
+        "PrerequisiteModuleName": "Kuhlman Group",
+        "SortOrder": 720,
+        "ExtraFlags": 110,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 737
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
+        "Total": 434,
+        "Tooltip": "ut",
         "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
+        "Free": 738,
+        "InUse": 40,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 823,
+        "Name": "Prosacco LLC",
+        "Description": "Front-line intangible artificial intelligence",
+        "PrerequisiteModuleName": "Rath-Bayer",
+        "SortOrder": 145,
+        "ExtraFlags": 262,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 49
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 145
       }
     }
   }

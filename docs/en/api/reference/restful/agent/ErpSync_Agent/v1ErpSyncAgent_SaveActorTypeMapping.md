@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 840,
+  "ErpConnectionId": 319,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 713,
-      "CrmFieldKey": "quis",
-      "CrmDisplayName": "Becker Group",
-      "CrmDisplayTooltip": "porro",
-      "ErpFieldKey": "commodi",
+      "ErpFieldId": 184,
+      "CrmFieldKey": "sit",
+      "CrmDisplayName": "Leannon, Robel and Berge",
+      "CrmDisplayTooltip": "consequatur",
+      "ErpFieldKey": "omnis",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Kuvalis Group",
-      "ErpDisplayTooltip": "expedita",
+      "ErpDisplayName": "Langosh, Moen and Greenfelder",
+      "ErpDisplayTooltip": "neque",
       "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": false,
+      "SyncToErp": false,
+      "ShowInGui": true,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "autem",
+      "ListReference": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 66
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 442
     }
   }
 }

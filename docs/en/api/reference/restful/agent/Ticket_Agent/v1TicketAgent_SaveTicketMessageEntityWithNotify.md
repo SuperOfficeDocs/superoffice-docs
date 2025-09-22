@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 943,
+  "EjMessageId": 210,
   "Ticket": null,
-  "CreatedAt": "2001-11-16T03:46:55.550729+01:00",
+  "CreatedAt": "2017-01-08T11:24:48.8751256+01:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 620,
-  "Body": "dicta",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "cecile@walker.name",
-  "DebugInfo": "provident",
-  "MailSorter": "ut",
+  "MessageId": "enim",
+  "TimeSpent": 951,
+  "Body": "aut",
+  "HtmlBody": "non",
+  "EmailHeader": "orval.hessel@whitekuphal.info",
+  "DebugInfo": "vero",
+  "MailSorter": "nobis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 259,
-      "Name": "Hudson-Turcotte",
-      "Value": "harum",
+      "Id": 199,
+      "Name": "Skiles Group",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -145,50 +145,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 449
         }
       }
     }
   ],
   "Important": false,
-  "Language": "similique",
-  "Sentiment": 286,
-  "SentimentConfidence": 255,
+  "Language": "quae",
+  "Sentiment": 671,
+  "SentimentConfidence": 564,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 801,
-      "Name": "Beatty-Osinski",
-      "ContentType": "optio",
-      "AttSize": 230,
+      "AttachmentId": 337,
+      "Name": "Little-Stamm",
+      "ContentType": "non",
+      "AttSize": 665,
       "InlineImage": false,
-      "ContentId": "vero",
-      "AuthKey": "quos",
+      "ContentId": "odit",
+      "AuthKey": "consequatur",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 571
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "laborum"
+    "CustomFields1": "aut",
+    "CustomFields2": "mollitia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 739
     }
   }
 }

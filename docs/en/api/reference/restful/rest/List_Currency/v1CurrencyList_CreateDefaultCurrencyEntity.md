@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 530,
-  "Name": "Mann-Ankunding",
-  "Tooltip": "sed",
-  "Rank": 282,
-  "Rate": 21417.755999999998,
-  "Units": 23840.338,
+  "CurrencyId": 298,
+  "Name": "Homenick Inc and Sons",
+  "Tooltip": "sunt",
+  "Rank": 46,
+  "Rate": 18725.649999999998,
+  "Units": 28782.656,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

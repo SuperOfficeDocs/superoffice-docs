@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 691
+  "AssociateId": 592
 }
 ```
 
@@ -104,34 +104,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 50,
-    "ERPName": "Langworth-Nikolaus",
-    "DisplayName": "Barrows Inc and Sons",
-    "DisplayDescription": "Grass-roots value-added pricing structure",
-    "Rank": 102,
-    "ConnectorName": "Herman-Torphy",
-    "ErpConnectionId": 708,
-    "ExtraData": "neque",
+    "QuoteConnectionId": 3,
+    "ERPName": "Hauck, Mueller and Satterfield",
+    "DisplayName": "Abbott-Quitzon",
+    "DisplayDescription": "Persevering discrete standardization",
+    "Rank": 22,
+    "ConnectorName": "Abbott-Goodwin",
+    "ErpConnectionId": 338,
+    "ExtraData": "vitae",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 252,
-        "ERPPriceListKey": "fuga",
-        "QuoteConnectionId": 549,
-        "Name": "Effertz, Farrell and Spinka",
-        "Description": "Expanded user-facing hub",
-        "Currency": "optio",
-        "CurrencyName": "Schumm-Parker",
-        "ValidFrom": "2012-04-22T03:46:55.2226157+02:00",
-        "ValidTo": "2020-08-19T03:46:55.2226157+02:00",
+        "PriceListId": 677,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 427,
+        "Name": "Grimes, Kuhlman and West",
+        "Description": "Innovative optimizing firmware",
+        "Currency": "corporis",
+        "CurrencyName": "Swift, Senger and Reinger",
+        "ValidFrom": "2018-09-05T11:24:48.5313897+02:00",
+        "ValidTo": "2001-01-28T11:24:48.5313897+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldLength": 280
           }
         }
       }
@@ -139,19 +139,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      466,
-      302
+      318,
+      506
     ],
     "AssociateAccessIds": [
-      808,
-      171
+      997,
+      944
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 87
       }
     }
   }

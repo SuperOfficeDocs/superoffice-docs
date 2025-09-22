@@ -82,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Feb 2021 03:47:00 G2T
+Last-Modified: Sat, 21 Jun 2008 11:24:53 G6T
 
 {
-  "BlobId": 208,
-  "BlobSize": 202,
-  "Description": "Balanced client-server matrix",
-  "ExtraInfo": "voluptatem",
+  "BlobId": 257,
+  "BlobSize": 516,
+  "Description": "Fully-configurable mobile throughput",
+  "ExtraInfo": "quibusdam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "consequuntur",
-  "OriginalSize": 478,
-  "CreatedDate": "2017-11-10T03:47:00.1599324+01:00",
-  "UpdatedDate": "2021-02-28T03:47:00.1599324+01:00",
+  "MimeType": "ut",
+  "OriginalSize": 971,
+  "CreatedDate": "2002-05-25T11:24:53.437431+02:00",
+  "UpdatedDate": "2008-06-21T11:24:53.437431+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   }
 }

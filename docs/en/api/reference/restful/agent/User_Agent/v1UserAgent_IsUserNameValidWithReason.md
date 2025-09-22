@@ -84,10 +84,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
+  "AssociateId": 152,
   "Type": "AnonymousAssociate",
-  "PersonId": 234,
-  "UserName": "Stanton, Fadel and Gutmann"
+  "PersonId": 678,
+  "UserName": "Schneider-Smitham"
 }
 ```
 
@@ -99,13 +99,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": false,
+  "Result": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   }
 }

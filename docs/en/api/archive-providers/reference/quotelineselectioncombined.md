@@ -770,7 +770,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombined?$select=alternative/version/quote/sale/person/useAsMailingAddress,alternative/version/quote/sale/person/correspondingAssociate/personId,alternative/version/quote/sale/contact/saintIntention,alternative/version/quote/sale/associate/title
+GET /api/v1/archive/QuoteLineSelectionCombined?$select=alternative/version/approvalRegisteredBy,alternative/version/quote/sale/completed,alternative/version/quote/sale/updatedByFullName,alternative/version/quote/sale/activeErpLinks,alternative/version/quote/sale/person/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

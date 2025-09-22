@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 779,
-    "Name": "Koch Inc and Sons",
-    "ConsentText": "rem",
-    "FormText": "ad",
-    "Key": "dignissimos",
-    "Tooltip": "ut",
-    "Active": 163,
-    "UpdatedDate": "2014-06-01T03:46:54.9882491+02:00",
+    "ConsentPurposeId": 615,
+    "Name": "Volkman-Abernathy",
+    "ConsentText": "deserunt",
+    "FormText": "quaerat",
+    "Key": "voluptatem",
+    "Tooltip": "est",
+    "Active": 40,
+    "UpdatedDate": "2015-10-04T11:24:48.2501511+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 33,
-    "PrivacyStatementDesc": "ex",
+    "Deleted": true,
+    "Rank": 236,
+    "PrivacyStatementDesc": "dolor",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 175
       }
     }
   }

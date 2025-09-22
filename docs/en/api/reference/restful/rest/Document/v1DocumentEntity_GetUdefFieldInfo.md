@@ -94,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 783,
-  "ColumnId": 7,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 148,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 685,
-  "FieldTop": 571,
+  "UDefFieldId": 425,
+  "ColumnId": 429,
+  "FieldDefault": "eos",
+  "FieldHeight": 911,
+  "FieldLabel": "quasi",
+  "FieldLeft": 440,
+  "FieldTop": 796,
   "FieldType": "Checkbox",
-  "FieldWidth": 797,
-  "FormatMask": "voluptatibus",
+  "FieldWidth": 983,
+  "FormatMask": "tempore",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 50,
-  "LabelLeft": 375,
-  "LabelTop": 550,
-  "LabelWidth": 659,
-  "LastVersionId": 797,
-  "ListTableId": 112,
-  "IsMandatory": false,
+  "LabelHeight": 626,
+  "LabelLeft": 297,
+  "LabelTop": 912,
+  "LabelWidth": 323,
+  "LastVersionId": 90,
+  "ListTableId": 106,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 134,
-  "ProgId": "facilis",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 536,
-  "TextLength": 778,
-  "Tooltip": "ea",
-  "UdefIdentity": 827,
-  "UDListDefinitionId": 382,
+  "Page1LineNo": 401,
+  "ProgId": "dolor",
+  "IsReadOnly": false,
+  "ShortLabel": "dolores",
+  "TabOrder": 155,
+  "TextLength": 442,
+  "Tooltip": "fugiat",
+  "UdefIdentity": 242,
+  "UDListDefinitionId": 630,
   "Justification": "Center",
-  "Version": 21,
-  "TemplateVariableName": "Nitzsche, Pfannerstill and Barton",
-  "HasBeenPublished": false,
-  "MdoListName": "Howell-Cartwright",
+  "Version": 718,
+  "TemplateVariableName": "Walker, Bechtelar and Farrell",
+  "HasBeenPublished": true,
+  "MdoListName": "Grant LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldLength": 383
     }
   }
 }

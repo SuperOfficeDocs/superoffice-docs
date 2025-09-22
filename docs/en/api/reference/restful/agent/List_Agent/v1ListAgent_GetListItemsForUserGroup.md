@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 291,
-  "GroupId": 789
+  "UdListDefinitionId": 405,
+  "GroupId": 715
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Kirlin-O'Keefe",
-    "ToolTip": "Iusto quibusdam et qui cupiditate.",
-    "Deleted": false,
-    "Rank": 368,
-    "Type": "a",
-    "ColorBlock": 982,
-    "IconHint": "sint",
+    "Id": 992,
+    "Name": "Berge Inc and Sons",
+    "ToolTip": "Voluptatem eaque explicabo.",
+    "Deleted": true,
+    "Rank": 382,
+    "Type": "inventore",
+    "ColorBlock": 944,
+    "IconHint": "officiis",
     "Selected": true,
-    "LastChanged": "2000-10-09T03:46:54.9569999+02:00",
+    "LastChanged": "2012-04-14T11:24:48.2032781+02:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Pacocha, Abernathy and Marks",
-        "ToolTip": "Enim voluptatibus reiciendis nostrum.",
+        "Id": 281,
+        "Name": "Hansen-Wiza",
+        "ToolTip": "Et iste omnis voluptates enim aspernatur qui.",
         "Deleted": false,
-        "Rank": 79,
-        "Type": "iusto",
-        "ColorBlock": 278,
-        "IconHint": "sunt",
+        "Rank": 592,
+        "Type": "recusandae",
+        "ColorBlock": 812,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2016-10-27T03:46:54.9569999+02:00",
+        "LastChanged": "2015-12-10T11:24:48.2032781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Elenora Schumm",
+        "ExtraInfo": "ad",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Dr. Ismael Olson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 503
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Ms. Franco Jaskolski V",
+    "ExtraInfo": "est",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Jaylon Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 577
       }
     }
   }

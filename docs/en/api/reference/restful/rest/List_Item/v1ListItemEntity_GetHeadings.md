@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Purdy-Cummings",
-    "ToolTip": "Exercitationem dolorem et iste ex sed.",
-    "Deleted": false,
-    "Rank": 467,
-    "Type": "aliquam",
-    "ColorBlock": 128,
-    "IconHint": "tenetur",
+    "Id": 225,
+    "Name": "Roob LLC",
+    "ToolTip": "Possimus iusto doloribus esse.",
+    "Deleted": true,
+    "Rank": 665,
+    "Type": "aut",
+    "ColorBlock": 719,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2011-09-14T03:47:00.5661762+02:00",
+    "LastChanged": "2018-08-17T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Kris Group",
-        "ToolTip": "Odio architecto aut qui molestiae.",
-        "Deleted": true,
-        "Rank": 765,
-        "Type": "similique",
-        "ColorBlock": 206,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2005-06-01T03:47:00.5661762+02:00",
+        "Id": 696,
+        "Name": "Hackett, Hamill and Weber",
+        "ToolTip": "Eos suscipit nostrum non necessitatibus incidunt.",
+        "Deleted": false,
+        "Rank": 1002,
+        "Type": "sunt",
+        "ColorBlock": 549,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2012-01-09T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Tristin O'Kon",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "nobis",
+        "Hidden": true,
+        "FullName": "Gino Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "animi",
+    "ExtraInfo": "quia",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Mr. Lucio Amalia Nienow",
+    "FullName": "Mrs. Jacinto Pfeffer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 351
       }
     }
   }

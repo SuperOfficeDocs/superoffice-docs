@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Stroman, Moore and Durgan",
-    "ToolTip": "Maiores distinctio sequi eum dolorum repellendus odio.",
+    "Id": 894,
+    "Name": "Hintz, Rippin and Cartwright",
+    "ToolTip": "Commodi error sit ipsam dolorem perspiciatis voluptas.",
     "Deleted": false,
-    "Rank": 221,
-    "Type": "tempore",
-    "ColorBlock": 679,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2013-12-08T03:47:00.7380451+01:00",
+    "Rank": 89,
+    "Type": "quidem",
+    "ColorBlock": 33,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2003-08-11T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Hammes, O'Kon and Ryan",
-        "ToolTip": "Neque sit.",
+        "Id": 406,
+        "Name": "Gusikowski-Jaskolski",
+        "ToolTip": "Voluptas eveniet rerum et alias magnam.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "sed",
-        "ColorBlock": 99,
-        "IconHint": "accusamus",
+        "Rank": 251,
+        "Type": "id",
+        "ColorBlock": 799,
+        "IconHint": "nemo",
         "Selected": true,
-        "LastChanged": "2009-01-06T03:47:00.7380451+01:00",
+        "LastChanged": "2016-09-06T11:24:54.0155411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Johnathon Bergnaum Sr.",
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Marcella Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nihil",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Nick Kertzmann",
+    "FullName": "Mrs. Haley Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 410
       }
     }
   }

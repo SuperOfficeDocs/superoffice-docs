@@ -166,16 +166,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "laudantium",
-  "ProviderName": "Torphy-Emard",
+  "Restrictions": "consequatur",
+  "ProviderName": "Fisher Group",
   "DesiredColumns": "qui",
-  "OrderBy": "voluptatum",
-  "PageSize": 883,
-  "PageNumber": 854
+  "OrderBy": "mollitia",
+  "PageSize": 511,
+  "PageNumber": 361
 }
 ```
 
@@ -188,51 +188,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Conroy Group",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "numquam",
+      "DisplayName": "Bayer, Collins and Weissnat",
+      "DisplayTooltip": "consectetur",
+      "DisplayType": "accusantium",
       "CanOrderBy": true,
-      "Name": "Skiles, Lubowitz and Kautzer",
+      "Name": "Legros Group",
       "CanRestrictBy": true,
-      "RestrictionType": "odit",
-      "RestrictionListName": "Quigley, Okuneva and Marvin",
+      "RestrictionType": "amet",
+      "RestrictionListName": "Hyatt Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "sequi",
-      "Width": "numquam",
-      "IconHint": "maiores",
-      "HeadingIconHint": "dolore"
+      "ExtraInfo": "et",
+      "Width": "quod",
+      "IconHint": "porro",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jast, Langworth and Crist",
-      "PrimaryKey": 750,
+      "EntityName": "Wintheiser Group",
+      "PrimaryKey": 967,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "optio",
-          "LinkHint": "hic"
+          "DisplayValue": "fugit",
+          "TooltipHint": "in",
+          "LinkHint": "corporis"
         }
       },
-      "LinkHint": "quisquam",
-      "StyleHint": "harum",
+      "LinkHint": "consectetur",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 557
         }
       }
     }
   ],
-  "RowCount": 147,
+  "RowCount": 137,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 466
     }
   }
 }

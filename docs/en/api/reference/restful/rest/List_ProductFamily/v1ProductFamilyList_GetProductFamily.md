@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Mohr, Kuhic and Rohan",
-  "Tooltip": "officia",
+  "Id": 344,
+  "Name": "Lakin-Bosco",
+  "Tooltip": "mollitia",
   "Deleted": true,
-  "UdListDefinitionId": 9,
-  "Rank": 547,
+  "UdListDefinitionId": 187,
+  "Rank": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 637
     }
   }
 }

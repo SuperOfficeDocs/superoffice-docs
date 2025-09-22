@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms Group",
+  "Name": "Cummings, Von and Schuppe",
   "ListEntity": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Barrows LLC",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "Rank": 277,
+  "Id": 379,
+  "Name": "Trantow-Toy",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 355,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "pariatur",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 531
     }
   }
 }

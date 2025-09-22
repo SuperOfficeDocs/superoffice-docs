@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 415,
-    "Name": "Osinski-Eichmann",
-    "Tooltip": "sit",
-    "Rank": 14,
-    "Key": "voluptates",
-    "Deleted": false,
+    "LegalBaseId": 358,
+    "Name": "Funk-King",
+    "Tooltip": "excepturi",
+    "Rank": 546,
+    "Key": "et",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 112
       }
     }
   }

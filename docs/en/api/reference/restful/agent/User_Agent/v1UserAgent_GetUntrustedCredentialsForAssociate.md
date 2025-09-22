@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 542,
-  "Type": "et"
+  "AssociateId": 662,
+  "Type": "ducimus"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2006-08-03T03:46:55.6132266+02:00",
-    "ValidTo": "2017-09-18T03:46:55.6132266+02:00",
-    "Comment": "non",
-    "SecretValue": "sed",
-    "PublicValue": "minima",
+    "ValidFrom": "2023-03-17T11:24:48.9376234+01:00",
+    "ValidTo": "2024-06-30T11:24:48.9376234+02:00",
+    "Comment": "recusandae",
+    "SecretValue": "perferendis",
+    "PublicValue": "est",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 446
       }
     }
   }

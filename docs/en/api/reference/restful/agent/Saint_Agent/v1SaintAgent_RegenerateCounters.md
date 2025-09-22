@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Davis-Monahan",
-  "AssociateId": 726,
-  "DetailsTable": 841,
-  "DetailsRecord": 874,
-  "IsSystemTask": true,
+  "Id": 896,
+  "Name": "Dietrich-Raynor",
+  "AssociateId": 554,
+  "DetailsTable": 212,
+  "DetailsRecord": 222,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "minima",
+    "ParameterObject2": "facilis"
   },
-  "LastStarted": "2024-10-21T03:46:55.2382402+02:00",
-  "Created": "2021-05-21T03:46:55.2382402+02:00",
-  "StartCount": 368,
-  "DatabaseSerialNumber": "902719",
-  "Context": "rerum",
-  "Result": "et",
+  "LastStarted": "2020-05-16T11:24:48.5470141+02:00",
+  "Created": "2018-06-04T11:24:48.5470141+02:00",
+  "StartCount": 553,
+  "DatabaseSerialNumber": "1372471",
+  "Context": "quia",
+  "Result": "labore",
   "State": "All",
-  "Description": "Synchronised 4th generation throughput",
-  "Response": "cum",
-  "Request": "aliquid",
-  "ProgressDescription": "Universal assymetric help-desk",
-  "ProgressPercent": 252,
-  "FileName": "Cummerata, Ruecker and Tromp",
+  "Description": "Optional national installation",
+  "Response": "dolores",
+  "Request": "officiis",
+  "ProgressDescription": "Cross-group directional toolset",
+  "ProgressPercent": 238,
+  "FileName": "Okuneva, Emmerich and Runte",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldLength": 65
     }
   }
 }

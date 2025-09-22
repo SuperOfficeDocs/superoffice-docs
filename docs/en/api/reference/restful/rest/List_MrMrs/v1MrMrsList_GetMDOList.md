@@ -27,8 +27,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=vero
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=sint
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Bernhard-Herzog",
-    "ToolTip": "Harum dignissimos voluptas perspiciatis cupiditate rerum soluta rerum.",
+    "Id": 936,
+    "Name": "O'Connell, Hackett and Fisher",
+    "ToolTip": "Sunt sunt distinctio.",
     "Deleted": false,
-    "Rank": 363,
-    "Type": "dicta",
+    "Rank": 358,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Botsford-Pollich",
-        "ToolTip": "Et fuga rem harum.",
-        "Deleted": false,
-        "Rank": 730,
-        "Type": "nemo",
+        "Id": 850,
+        "Name": "Ernser, Lubowitz and Becker",
+        "ToolTip": "Laborum minus iste consequatur.",
+        "Deleted": true,
+        "Rank": 307,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 244,
-        "ExtraInfo": "earum",
-        "StyleHint": "amet",
-        "FullName": "Velma Kilback",
+        "IconHint": "ut",
+        "ColorBlock": 684,
+        "ExtraInfo": "non",
+        "StyleHint": "dolorem",
+        "FullName": "Burdette Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldType": "System.String",
+            "FieldLength": 744
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 441,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "ut",
-    "FullName": "Macie Altenwerth",
+    "IconHint": "deleniti",
+    "ColorBlock": 954,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "dolores",
+    "FullName": "Damon Dandre Rutherford IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 700
       }
     }
   }

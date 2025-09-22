@@ -34,7 +34,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -120,7 +120,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,7 +128,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
+Last-Modified: Sat, 30 Jul 2005 11:24:53 G7T
 
 {
   "Appointment": null,
@@ -137,7 +137,7 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vitae",
+  "SaleText": "quaerat",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -146,113 +146,113 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-04-02T03:47:00.2536872+02:00",
-  "Amount": 122.226,
-  "SaleId": 473,
-  "Earning": 13830.341999999999,
-  "EarningPercent": 24391.922,
-  "Heading": "consequatur",
-  "Number": "406527",
-  "Probability": 785,
-  "CreatedDate": "2006-05-16T03:47:00.2536872+02:00",
-  "UpdatedDate": "2014-04-04T03:47:00.2536872+02:00",
+  "Saledate": "2010-10-21T11:24:53.5155612+02:00",
+  "Amount": 27215.656,
+  "SaleId": 714,
+  "Earning": 30995.26,
+  "EarningPercent": 31039.136,
+  "Heading": "impedit",
+  "Number": "979437",
+  "Probability": 598,
+  "CreatedDate": "2008-04-04T11:24:53.5155612+02:00",
+  "UpdatedDate": "2005-07-30T11:24:53.5155612+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 548,
+  "ActiveLinks": 594,
   "Links": [
     {
-      "EntityName": "Emmerich-Wiegand",
-      "Id": 708,
-      "Description": "Function-based context-sensitive methodology",
-      "ExtraInfo": "sit",
-      "LinkId": 24,
+      "EntityName": "Murphy-Mann",
+      "Id": 350,
+      "Description": "Horizontal holistic initiative",
+      "ExtraInfo": "quis",
+      "LinkId": 582,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 609
         }
       }
     }
   ],
-  "NextDueDate": "2012-11-08T03:47:00.2536872+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2012-04-26T11:24:53.5311857+02:00",
+  "Postit": "ut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-12-18T03:47:00.2536872+01:00",
+  "ReopenDate": "1998-06-28T11:24:53.5311857+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Little Group",
-      "Comment": "consequuntur",
-      "StakeholderRoleId": 439,
-      "CountryId": 411,
-      "PersonId": 591,
-      "EmailDescription": "thad_klocko@blick.co.uk",
-      "EmailId": 544,
-      "EmailAddress": "dereck@ziemannconsidine.com",
-      "PhoneId": 753,
-      "ContactName": "Langworth Group",
-      "ContactId": 434,
-      "SaleId": 887,
-      "Mrmrs": "sit",
-      "Firstname": "Maryam",
-      "MiddleName": "Moen LLC",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 558,
-      "Rank": 93,
-      "Phone": "145-664-3084",
+      "StakeholderRoleName": "Shields-Balistreri",
+      "Comment": "iste",
+      "StakeholderRoleId": 55,
+      "CountryId": 381,
+      "PersonId": 663,
+      "EmailDescription": "shana@grady.info",
+      "EmailId": 990,
+      "EmailAddress": "agustin@hauck.com",
+      "PhoneId": 34,
+      "ContactName": "Davis LLC",
+      "ContactId": 447,
+      "SaleId": 582,
+      "Mrmrs": "qui",
+      "Firstname": "Kenna",
+      "MiddleName": "Rodriguez Inc and Sons",
+      "Lastname": "Kuhn",
+      "SaleStakeholderId": 29,
+      "Rank": 180,
+      "Phone": "670-552-1793",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 424
         }
       }
     }
   ],
-  "ActiveErpLinks": 930,
+  "ActiveErpLinks": 655,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jessyca Becker IV",
-    "SuperOffice:2": "1588955661"
+    "SuperOffice:1": "65458210",
+    "SuperOffice:2": "Mr. Bryce Schroeder MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eos"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2004-11-10T03:47:00.2536872+01:00",
-  "PublishTo": "2010-04-10T03:47:00.2536872+02:00",
-  "PublishFrom": "2024-11-01T03:47:00.2536872+01:00",
+  "PublishEventDate": "2011-04-07T11:24:53.5311857+02:00",
+  "PublishTo": "1998-12-14T11:24:53.5311857+01:00",
+  "PublishFrom": "2004-03-29T11:24:53.5311857+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 369,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 155
         }
       }
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 369,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 155
         }
       }
     }
@@ -261,13 +261,13 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

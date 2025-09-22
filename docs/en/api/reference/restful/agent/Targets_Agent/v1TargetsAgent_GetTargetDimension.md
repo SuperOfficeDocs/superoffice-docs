@@ -27,7 +27,7 @@ Gets a TargetDimension object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=11
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=105
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 116,
+  "TargetDimensionId": 474,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quia",
-  "DimensionListName": "Goodwin-Hodkiewicz",
-  "DimensionListId": 714,
-  "DimensionListLabel": "ratione",
+  "DimensionListField": "quas",
+  "DimensionListName": "Turner-White",
+  "DimensionListId": 707,
+  "DimensionListLabel": "soluta",
   "SelectedDimensions": [
-    10,
-    782
+    141,
+    311
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

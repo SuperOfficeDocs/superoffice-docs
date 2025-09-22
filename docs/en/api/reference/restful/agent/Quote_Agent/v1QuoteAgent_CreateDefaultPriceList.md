@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 986,
-  "ERPPriceListKey": "quos",
-  "QuoteConnectionId": 533,
-  "Name": "Quigley Group",
-  "Description": "User-friendly composite protocol",
-  "Currency": "maiores",
-  "CurrencyName": "Marks, Steuber and Roob",
-  "ValidFrom": "2024-01-11T03:46:55.2069913+01:00",
-  "ValidTo": "2015-06-06T03:46:55.2069913+02:00",
+  "PriceListId": 205,
+  "ERPPriceListKey": "debitis",
+  "QuoteConnectionId": 915,
+  "Name": "Senger, Schroeder and Ullrich",
+  "Description": "Re-engineered static access",
+  "Currency": "saepe",
+  "CurrencyName": "Reichel-Lemke",
+  "ValidFrom": "2007-02-03T11:24:48.5157652+01:00",
+  "ValidTo": "2023-12-24T11:24:48.5157652+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

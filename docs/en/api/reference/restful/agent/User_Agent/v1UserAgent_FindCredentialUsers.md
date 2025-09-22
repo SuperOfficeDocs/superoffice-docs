@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "id",
-  "SearchString": "inventore"
+  "Type": "qui",
+  "SearchString": "consequatur"
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "sit",
-    "amet"
+    "minus",
+    "officiis"
   ],
   "Users": [
     {
-      "Value": "et",
-      "DisplayValue": "voluptas",
+      "Value": "ab",
+      "DisplayValue": "quod",
       "Columns": [
-        "officiis",
-        "eveniet"
+        "nesciunt",
+        "quaerat"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 18
         }
       }
     },
     {
-      "Value": "et",
-      "DisplayValue": "voluptas",
+      "Value": "ab",
+      "DisplayValue": "quod",
       "Columns": [
-        "officiis",
-        "eveniet"
+        "nesciunt",
+        "quaerat"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 18
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

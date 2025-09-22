@@ -100,35 +100,35 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 336,
-  "Name": "Mante, Huels and Murphy",
-  "Rank": 470,
-  "Tooltip": "ipsa",
-  "Icon": "quibusdam",
-  "DefaultTicketStatus": 97,
+  "TicketTypeId": 517,
+  "Name": "Mante Group",
+  "Rank": 799,
+  "Tooltip": "aut",
+  "Icon": "quo",
+  "DefaultTicketStatus": 322,
   "TicketStatuses": [
-    581,
-    56
+    535,
+    95
   ],
-  "DefaultTicketPriority": 480,
+  "DefaultTicketPriority": 258,
   "TicketPriorities": [
-    471,
-    248
+    829,
+    208
   ],
-  "ReplyTemplate": 900,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 184,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    951,
-    487
+    796,
+    376
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -142,40 +142,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 607,
-  "Name": "Jacobs-Huels",
-  "Rank": 251,
-  "Tooltip": "et",
-  "Icon": "deserunt",
-  "DefaultTicketStatus": 172,
+  "TicketTypeId": 676,
+  "Name": "Armstrong Inc and Sons",
+  "Rank": 654,
+  "Tooltip": "fugit",
+  "Icon": "harum",
+  "DefaultTicketStatus": 952,
   "TicketStatuses": [
-    385,
-    551
+    941,
+    619
   ],
-  "DefaultTicketPriority": 618,
+  "DefaultTicketPriority": 916,
   "TicketPriorities": [
-    222,
-    243
+    941,
+    162
   ],
-  "ReplyTemplate": 777,
+  "ReplyTemplate": 839,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    783,
-    143
+    53,
+    931
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 420
     }
   }
 }

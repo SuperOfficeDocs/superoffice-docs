@@ -84,32 +84,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 822,
+  "SelectionId": 577,
   "Criteria": [
     {
-      "Name": "Boyle Group",
-      "Operator": "excepturi",
+      "Name": "Pouros, Mills and Fahey",
+      "Operator": "nostrum",
       "Values": [
-        "aut",
-        "sed"
+        "quia",
+        "aliquam"
       ],
       "DisplayValues": [
-        "sint",
-        "vel"
+        "sunt",
+        "aliquid"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 495,
+      "InterParenthesis": 643,
       "InterOperator": "And",
-      "UniqueHash": 194
+      "UniqueHash": 247
     }
   ]
 }
@@ -123,29 +123,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schinner, Turner and Smith",
-    "Operator": "laborum",
+    "Name": "Willms-Crist",
+    "Operator": "deserunt",
     "Values": [
-      "impedit",
-      "et"
+      "repellendus",
+      "omnis"
     ],
     "DisplayValues": [
-      "ab",
-      "exercitationem"
+      "magni",
+      "nihil"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fritsch LLC",
-        "Operator": "voluptas",
+        "Name": "Lockman Inc and Sons",
+        "Operator": "doloribus",
         "Values": [
-          "architecto",
-          "eius"
+          "facilis",
+          "ipsam"
         ],
         "DisplayValues": [
-          "molestiae",
-          "laudantium"
+          "deserunt",
+          "quisquam"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -153,14 +153,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 856,
+        "InterParenthesis": 165,
         "InterOperator": "And",
-        "UniqueHash": 703
+        "UniqueHash": 846
       }
     ],
-    "InterParenthesis": 90,
+    "InterParenthesis": 952,
     "InterOperator": "And",
-    "UniqueHash": 295
+    "UniqueHash": 512
   }
 ]
 ```

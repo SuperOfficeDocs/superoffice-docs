@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 527,
-    "Name": "Hamill-Rempel",
-    "Tooltip": "nulla",
-    "Rank": 105,
-    "Key": "autem",
+    "LegalBaseId": 272,
+    "Name": "Wisoky Group",
+    "Tooltip": "id",
+    "Rank": 838,
+    "Key": "porro",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 580
       }
     }
   }

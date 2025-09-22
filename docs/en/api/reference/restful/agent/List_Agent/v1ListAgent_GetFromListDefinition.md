@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "UdListDefinitionId": 554
+  "Id": 955,
+  "UdListDefinitionId": 732
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Bergstrom-Hessel",
-  "Tooltip": "fugit",
+  "Id": 376,
+  "Name": "Streich Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 916,
-  "Rank": 898,
+  "UdListDefinitionId": 719,
+  "Rank": 641,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

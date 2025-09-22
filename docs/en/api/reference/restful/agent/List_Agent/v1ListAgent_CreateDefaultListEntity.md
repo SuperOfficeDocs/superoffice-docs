@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Mitchell, Bartell and Oberbrunner",
-  "Tooltip": "facilis",
+  "Id": 285,
+  "Name": "Frami-Lind",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 956,
-  "IsCustomList": true,
+  "Rank": 12,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 194
     }
   }
 }

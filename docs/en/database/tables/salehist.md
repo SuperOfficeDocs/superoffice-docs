@@ -89,10 +89,10 @@ Mirror image of the Sale table, providing a full transaction history. Every time
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[Currency](currency.md)  |Currency list table |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
 |[project](project.md)  |Projects |
 |[Reason](reason.md)  |Reason list table. Why we lost the sale (list) |

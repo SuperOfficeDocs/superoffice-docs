@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 709,
-  "Name": "Gleichner-Corwin",
-  "Tooltip": "iste",
+  "Id": 207,
+  "Name": "Farrell, Little and Stamm",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 962,
-  "Rank": 322,
+  "UdListDefinitionId": 380,
+  "Rank": 20,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 346
     }
   }
 }

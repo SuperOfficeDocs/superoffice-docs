@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 780,
-    "Name": "Braun LLC",
-    "PersonId": 215,
-    "Rank": 763,
-    "Tooltip": "esse",
+    "AssociateId": 59,
+    "Name": "Hudson-Cole",
+    "PersonId": 715,
+    "Rank": 479,
+    "Tooltip": "earum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 252,
-    "FullName": "Dr. Eleanora Kelton Legros",
-    "FormalName": "Grady Inc and Sons",
+    "GroupIdx": 336,
+    "FullName": "Payton Braun",
+    "FormalName": "Bergstrom Group",
     "Deleted": false,
-    "EjUserId": 51,
-    "UserName": "Jacobson-Hane",
+    "EjUserId": 554,
+    "UserName": "Schneider-Bashirian",
     "ExtraFields": {
-      "ExtraFields1": "saepe",
-      "ExtraFields2": "omnis"
+      "ExtraFields1": "corporis",
+      "ExtraFields2": "libero"
     },
     "CustomFields": {
-      "CustomFields1": "suscipit",
-      "CustomFields2": "rerum"
+      "CustomFields1": "molestiae",
+      "CustomFields2": "sint"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 508
       }
     }
   }

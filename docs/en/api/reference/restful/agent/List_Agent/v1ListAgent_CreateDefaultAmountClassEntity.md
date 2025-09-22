@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 242,
-  "Name": "Johnson-Kilback",
-  "Tooltip": "ex",
-  "Rank": 327,
-  "AmountFrom": 11448.502,
-  "AmountTo": 23357.701999999997,
-  "Deleted": false,
-  "CurrencyId": 333,
+  "AmountClassId": 390,
+  "Name": "Abernathy Group",
+  "Tooltip": "cumque",
+  "Rank": 108,
+  "AmountFrom": 770.96399999999994,
+  "AmountTo": 23552.01,
+  "Deleted": true,
+  "CurrencyId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 486
     }
   }
 }

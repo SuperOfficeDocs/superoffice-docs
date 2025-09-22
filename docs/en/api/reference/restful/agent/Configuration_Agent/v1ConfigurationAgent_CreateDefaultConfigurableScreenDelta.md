@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 215,
-  "Name": "Kunde Inc and Sons",
-  "Description": "Team-oriented systematic database",
-  "DeltaJson": "voluptate",
+  "ConfigurableScreenDeltaId": 619,
+  "Name": "Howe-O'Conner",
+  "Description": "Advanced directional toolset",
+  "DeltaJson": "expedita",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ut",
-  "UpdatedDate": "2022-05-26T03:46:54.4570178+02:00",
-  "CreatedDate": "2003-07-08T03:46:54.4570178+02:00",
+  "RecipeId": "quia",
+  "UpdatedDate": "2010-08-14T11:24:47.7189228+02:00",
+  "CreatedDate": "2009-01-21T11:24:47.7189228+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    496,
-    391
+    883,
+    879
   ],
-  "AppliesToKey": "aut",
+  "AppliesToKey": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 381
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Gerhold-Collins",
-    "ToolTip": "Voluptatem consequatur ea doloremque.",
-    "Deleted": true,
-    "Rank": 830,
-    "Type": "tempora",
-    "ColorBlock": 502,
-    "IconHint": "aut",
+    "Id": 585,
+    "Name": "Metz, Morissette and Fritsch",
+    "ToolTip": "Et neque voluptatem est nam aut.",
+    "Deleted": false,
+    "Rank": 962,
+    "Type": "sint",
+    "ColorBlock": 830,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2011-11-07T03:47:00.2224384+01:00",
+    "LastChanged": "2012-04-06T11:24:53.499937+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Considine Group",
-        "ToolTip": "Necessitatibus itaque quam explicabo est.",
-        "Deleted": true,
-        "Rank": 452,
-        "Type": "iusto",
-        "ColorBlock": 743,
-        "IconHint": "delectus",
+        "Id": 564,
+        "Name": "Pollich Inc and Sons",
+        "ToolTip": "Deserunt similique blanditiis tenetur incidunt voluptas magni libero.",
+        "Deleted": false,
+        "Rank": 295,
+        "Type": "minima",
+        "ColorBlock": 142,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2008-04-29T03:47:00.2224384+02:00",
+        "LastChanged": "2025-09-14T11:24:53.499937+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "saepe",
+        "ExtraInfo": "unde",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Mrs. Cameron Von",
+        "FullName": "Daisy Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 844
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "neque",
+    "ExtraInfo": "est",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Isaac Heaney",
+    "FullName": "Prof. Derick VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 373
       }
     }
   }

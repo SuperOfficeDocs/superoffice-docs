@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,31 +81,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 121,
-    "Name": "Bartell LLC",
-    "TZLocationCode": "qui",
-    "TZLocationCities": "eos",
-    "IsoNumber": 924,
+    "TZLocationID": 277,
+    "Name": "Weber-Paucek",
+    "TZLocationCode": "voluptatum",
+    "TZLocationCities": "libero",
+    "IsoNumber": 613,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 284,
-        "StartMonth": 551,
-        "EndDay": 96,
-        "EndMonth": 884,
-        "TZOffset": 274,
-        "StartRulePattern": "et",
-        "EndRulePattern": "et"
+        "StartDay": 727,
+        "StartMonth": 202,
+        "EndDay": 861,
+        "EndMonth": 887,
+        "TZOffset": 3,
+        "StartRulePattern": "veritatis",
+        "EndRulePattern": "veniam"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 755,
-        "StartMonth": 33,
-        "EndDay": 792,
-        "EndMonth": 366,
-        "TZOffset": 634,
-        "StartRulePattern": "necessitatibus",
-        "EndRulePattern": "aut"
+        "StartDay": 119,
+        "StartMonth": 269,
+        "EndDay": 447,
+        "EndMonth": 85,
+        "TZOffset": 186,
+        "StartRulePattern": "voluptas",
+        "EndRulePattern": "animi"
       }
     }
   }

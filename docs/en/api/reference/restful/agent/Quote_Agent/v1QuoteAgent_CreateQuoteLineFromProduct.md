@@ -123,11 +123,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 849,
+  "QuoteAlternativeId": 975,
   "Product": null
 }
 ```
@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 711,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 935,
-  "ERPProductKey": "ex",
+  "QuoteLineId": 138,
+  "ERPQuoteLineKey": "tempora",
+  "QuoteAlternativeId": 767,
+  "ERPProductKey": "deleniti",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 30029.987999999998,
-  "DeliveredQuantity": 20740.811999999998,
-  "Rank": 786,
-  "Name": "Ernser-Reinger",
-  "Description": "Compatible system-worthy parallelism",
-  "Code": "iste",
-  "QuantityUnit": "corporis",
-  "PriceUnit": "rerum",
-  "ItemNumber": "787906",
+  "Reason": "transition sticky convergence",
+  "Quantity": 222.51399999999998,
+  "DeliveredQuantity": 21781.3,
+  "Rank": 485,
+  "Name": "Hessel LLC",
+  "Description": "Front-line attitude-oriented installation",
+  "Code": "est",
+  "QuantityUnit": "non",
+  "PriceUnit": "reiciendis",
+  "ItemNumber": "868417",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "dolor",
-  "Supplier": "in",
-  "SupplierCode": "accusamus",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "sed",
-  "VAT": 19117.399999999998,
-  "UnitCost": 25006.185999999998,
-  "UnitMinimumPrice": 6246.062,
-  "UnitListPrice": 19603.17,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "rerum",
+  "Supplier": "error",
+  "SupplierCode": "soluta",
+  "Thumbnail": "animi",
+  "VATInfo": "ab",
+  "VAT": 17121.041999999998,
+  "UnitCost": 24930.969999999998,
+  "UnitMinimumPrice": 27450.706,
+  "UnitListPrice": 12147.384,
   "ExtraInfo": [
     {
-      "Name": "Medhurst, Carroll and Pollich",
-      "Value": "labore",
+      "Name": "Mayer, Spencer and Rodriguez",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 688
         }
       }
     },
     {
-      "Name": "Medhurst, Carroll and Pollich",
-      "Value": "labore",
+      "Name": "Mayer, Spencer and Rodriguez",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 688
         }
       }
     }
   ],
-  "RawExtraInfo": "adipisci",
+  "RawExtraInfo": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "SubscriptionQuantity": 573.52199999999993,
-  "SubscriptionStart": "2013-06-13T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 3763.9339999999997,
-  "ERPDiscountAmount": 14635.779999999999,
-  "DiscountPercent": 26425.888,
-  "DiscountAmount": 23063.106,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 17581.739999999998,
+  "SubscriptionStart": "2008-06-17T11:24:48.5470141+02:00",
+  "ERPDiscountPercent": 4118.076,
+  "ERPDiscountAmount": 3760.7999999999997,
+  "DiscountPercent": 3785.872,
+  "DiscountAmount": 28845.336,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18728.784,
-  "EarningAmount": 5493.902,
-  "SubTotal": 29290.363999999998,
-  "TotalPrice": 9226.496,
-  "Rights": "a",
-  "Rule": "id",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "est",
-  "ExtraField4": "eos",
-  "ExtraField5": "sunt",
+  "EarningPercent": 3491.276,
+  "EarningAmount": 11627.14,
+  "SubTotal": 17722.77,
+  "TotalPrice": 20239.372,
+  "Rights": "error",
+  "Rule": "deleniti",
+  "ExtraField1": "minima",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "sunt",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 124
     }
   }
 }

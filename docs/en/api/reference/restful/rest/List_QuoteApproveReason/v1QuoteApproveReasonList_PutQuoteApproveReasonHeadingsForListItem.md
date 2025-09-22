@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Larson Group",
-    "ToolTip": "Quis veritatis ut voluptatem error.",
+    "Id": 680,
+    "Name": "Stracke LLC",
+    "ToolTip": "Fuga quas eaque laborum.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "nihil",
-    "ColorBlock": 375,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2002-04-30T03:47:00.7692942+02:00",
+    "Rank": 200,
+    "Type": "fugit",
+    "ColorBlock": 582,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2010-07-07T11:24:54.0467896+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Hoppe, Gleichner and Blick",
-        "ToolTip": "Sed dicta possimus quisquam similique aut optio.",
-        "Deleted": true,
-        "Rank": 231,
-        "Type": "et",
-        "ColorBlock": 447,
-        "IconHint": "earum",
+        "Id": 816,
+        "Name": "McDermott Group",
+        "ToolTip": "Qui aut praesentium sed earum sed.",
+        "Deleted": false,
+        "Rank": 442,
+        "Type": "dolores",
+        "ColorBlock": 487,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-03-27T03:47:00.7692942+01:00",
+        "LastChanged": "2009-12-15T11:24:54.0467896+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Mona Shanahan"
+        "ExtraInfo": "et",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Burley Willms"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "sint",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Ms. Ian Tiara Hansen DDS"
+    "FullName": "Holly Olson"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Ledner, Ondricka and Marks",
-    "ToolTip": "Porro dolorem quo.",
-    "Deleted": true,
-    "Rank": 744,
-    "Type": "aut",
-    "ColorBlock": 729,
-    "IconHint": "consequatur",
+    "Id": 874,
+    "Name": "Langworth, D'Amore and Wiegand",
+    "ToolTip": "Labore animi.",
+    "Deleted": false,
+    "Rank": 859,
+    "Type": "sit",
+    "ColorBlock": 809,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2020-02-26T03:47:00.7692942+01:00",
+    "LastChanged": "1999-11-21T11:24:54.0936627+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Weissnat, Kutch and Kiehn",
-        "ToolTip": "Voluptas harum.",
-        "Deleted": false,
-        "Rank": 670,
-        "Type": "consequatur",
-        "ColorBlock": 100,
-        "IconHint": "saepe",
+        "Id": 659,
+        "Name": "Lebsack LLC",
+        "ToolTip": "Ducimus animi aut.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "qui",
+        "ColorBlock": 263,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2019-03-09T03:47:00.7692942+01:00",
+        "LastChanged": "2002-03-11T11:24:54.0936627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Enoch Bernard Price DVM",
+        "ExtraInfo": "iusto",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Ralph Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldType": "System.String",
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Adelbert Pinkie Pfannerstill I",
+    "FullName": "Antone Runolfsdottir III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 618
       }
     }
   }

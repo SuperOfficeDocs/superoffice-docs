@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Hilll LLC",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 861,
-  "Rank": 392,
+  "Id": 352,
+  "Name": "Bartoletti Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 671,
+  "Rank": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 746
     }
   }
 }

@@ -75,6 +75,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -110,6 +112,8 @@ ProjectMember updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -120,31 +124,33 @@ ProjectMember updated.
 PUT /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 501,
-  "ContactId": 569,
-  "ProjectId": 943,
-  "ContactName": "Larson, Koss and Braun",
+  "ProjectmemberId": 985,
+  "ContactId": 313,
+  "ProjectId": 79,
+  "ContactName": "Pfannerstill Group",
   "ContactDepartment": "",
-  "ProjectName": "Hermann Inc and Sons",
-  "EmailId": 27,
-  "EmailAddress": "keira@creminbarrows.uk",
-  "CountryId": 267,
-  "Firstname": "Madilyn",
-  "MiddleName": "Graham-Homenick",
-  "Lastname": "Nolan",
-  "PersonId": 296,
-  "Mrmrs": "repudiandae",
-  "ProjectMemberTypeName": "Lemke, Marvin and Wilderman",
-  "Phone": "930.336.2116 x0578",
-  "PhoneId": 730,
-  "ProjectMemberTypeId": 888,
-  "EmailAddressName": "mitchell_romaguera@nitzsche.uk",
-  "Comment": "quidem",
-  "FullName": "Terence Gleason"
+  "ProjectName": "Parisian Group",
+  "EmailId": 570,
+  "EmailAddress": "lourdes@sporer.co.uk",
+  "CountryId": 707,
+  "Firstname": "Thea",
+  "MiddleName": "Schumm Group",
+  "Lastname": "Treutel",
+  "PersonId": 997,
+  "Mrmrs": "labore",
+  "ProjectMemberTypeName": "Oberbrunner Inc and Sons",
+  "Phone": "(668)298-5810",
+  "PhoneId": 660,
+  "ProjectMemberTypeId": 1001,
+  "EmailAddressName": "daphney_dickens@sanfordturcotte.co.uk",
+  "Comment": "et",
+  "FullName": "Cielo Bode",
+  "Registered": "2023-01-09T11:24:53.7655512+01:00",
+  "Updated": "1999-10-30T11:24:53.7655512+02:00"
 }
 ```
 
@@ -155,33 +161,35 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 130,
-  "ContactId": 683,
-  "ProjectId": 552,
-  "ContactName": "Dickinson, Bechtelar and Bartell",
+  "ProjectmemberId": 487,
+  "ContactId": 876,
+  "ProjectId": 795,
+  "ContactName": "Corkery, Feeney and Ratke",
   "ContactDepartment": "",
-  "ProjectName": "Kirlin, Emard and Hane",
-  "EmailId": 149,
-  "EmailAddress": "madilyn.pollich@weberpouros.name",
-  "CountryId": 105,
-  "Firstname": "Delphine",
-  "MiddleName": "Ruecker-Cummerata",
-  "Lastname": "Dare",
-  "PersonId": 538,
-  "Mrmrs": "illo",
-  "ProjectMemberTypeName": "Waters-Lowe",
-  "Phone": "017-933-7282 x8667",
-  "PhoneId": 994,
-  "ProjectMemberTypeId": 796,
-  "EmailAddressName": "margarett_leannon@reichert.ca",
-  "Comment": "ut",
-  "FullName": "Shaylee Strosin",
+  "ProjectName": "Jacobson, Metz and Jaskolski",
+  "EmailId": 693,
+  "EmailAddress": "alvis_mitchell@beatty.uk",
+  "CountryId": 234,
+  "Firstname": "Herman",
+  "MiddleName": "Schaden, Fay and Walsh",
+  "Lastname": "Jenkins",
+  "PersonId": 544,
+  "Mrmrs": "labore",
+  "ProjectMemberTypeName": "Jacobson Inc and Sons",
+  "Phone": "431-871-1220",
+  "PhoneId": 182,
+  "ProjectMemberTypeId": 18,
+  "EmailAddressName": "helena@monahan.name",
+  "Comment": "officia",
+  "FullName": "Mr. Norma Ed Farrell MD",
+  "Registered": "2015-06-04T11:24:53.7655512+02:00",
+  "Updated": "2011-02-04T11:24:53.7655512+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 342
     }
   },
   "_Links": {

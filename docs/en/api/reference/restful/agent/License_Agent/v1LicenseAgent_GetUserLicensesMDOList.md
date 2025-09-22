@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Wolf, Schoen and Nienow",
-    "ToolTip": "Porro aspernatur ut ut et dolore.",
+    "Id": 174,
+    "Name": "Kemmer Group",
+    "ToolTip": "Veniam reprehenderit non expedita occaecati.",
     "Deleted": false,
-    "Rank": 190,
-    "Type": "nihil",
-    "ColorBlock": 378,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2024-10-21T03:46:54.9107593+02:00",
+    "Rank": 621,
+    "Type": "necessitatibus",
+    "ColorBlock": 744,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2023-02-24T11:24:48.1720293+01:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Nam quod qui repudiandae illo.",
-        "Deleted": false,
-        "Rank": 947,
-        "Type": "quam",
-        "ColorBlock": 319,
-        "IconHint": "autem",
+        "Id": 480,
+        "Name": "Kautzer, Stark and Lueilwitz",
+        "ToolTip": "Molestiae sequi nihil.",
+        "Deleted": true,
+        "Rank": 664,
+        "Type": "facere",
+        "ColorBlock": 836,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2001-05-25T03:46:54.9107593+02:00",
+        "LastChanged": "2023-08-21T11:24:48.1720293+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
+        "ExtraInfo": "vel",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Theo Keebler",
+        "FullName": "Amira Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 956
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "numquam",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Laurianne Batz",
+    "FullName": "Augustine Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 558
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 42,
-  "Name": "Bogan Inc and Sons",
-  "ConsentText": "sit",
-  "FormText": "consequatur",
-  "Key": "omnis",
-  "Tooltip": "ut",
-  "Active": 64,
-  "UpdatedDate": "2014-09-16T03:46:54.9882491+02:00",
+  "ConsentPurposeId": 919,
+  "Name": "Baumbach Inc and Sons",
+  "ConsentText": "sed",
+  "FormText": "iure",
+  "Key": "sunt",
+  "Tooltip": "quia",
+  "Active": 691,
+  "UpdatedDate": "2023-08-25T11:24:48.2501511+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 642,
-  "PrivacyStatementDesc": "enim",
+  "Rank": 331,
+  "PrivacyStatementDesc": "repellat",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 153
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   }
 }

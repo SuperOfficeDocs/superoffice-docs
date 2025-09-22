@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 382,
+  "ErpConnectionId": 88,
   "ActorTypeErp": "Customer",
-  "ErpKey": "dolore"
+  "ErpKey": "rem"
 }
 ```
 
@@ -101,10 +101,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Collins, Bayer and Luettgen",
-    "CrmFieldKey": "non",
-    "Value": "suscipit",
-    "DisplayValue": "facilis",
+    "DisplayName": "Upton, Hoeger and Parker",
+    "CrmFieldKey": "velit",
+    "Value": "ab",
+    "DisplayValue": "omnis",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 223
       }
     }
   }

@@ -117,12 +117,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 649
+  "Count": 76
 }
 ```
 
@@ -134,53 +134,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nisi",
-    "PersonId": 609,
-    "Mrmrs": "qui",
-    "Firstname": "Alessandro",
-    "Lastname": "Senger",
-    "MiddleName": "Klocko-Schuster",
-    "Title": "vel",
-    "Description": "Focused actuating structure",
-    "Email": "zakary.morissette@zboncak.biz",
-    "FullName": "Dr. Rosetta Jada Leuschke PhD",
-    "DirectPhone": "(287)852-3219 x79321",
-    "FormalName": "Blanda-Kreiger",
-    "CountryId": 856,
-    "ContactId": 493,
-    "ContactName": "Halvorson Group",
-    "Retired": 799,
-    "Rank": 632,
-    "ActiveInterests": 216,
+    "Position": "earum",
+    "PersonId": 676,
+    "Mrmrs": "quisquam",
+    "Firstname": "Laury",
+    "Lastname": "Armstrong",
+    "MiddleName": "Brown LLC",
+    "Title": "omnis",
+    "Description": "Triple-buffered holistic core",
+    "Email": "rosalinda@smitham.info",
+    "FullName": "Malcolm Hillary Wintheiser PhD",
+    "DirectPhone": "453-117-3231 x130",
+    "FormalName": "King Group",
+    "CountryId": 520,
+    "ContactId": 446,
+    "ContactName": "Spinka, Conn and Lesch",
+    "Retired": 683,
+    "Rank": 419,
+    "ActiveInterests": 776,
     "ContactDepartment": "",
-    "ContactCountryId": 120,
-    "ContactOrgNr": "1327057",
-    "FaxPhone": "851.619.2773 x965",
-    "MobilePhone": "(754)498-2691",
-    "ContactPhone": "(136)030-5199",
-    "AssociateName": "Barton, Braun and Wintheiser",
-    "AssociateId": 505,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "possimus",
-    "Kanalname": "ex",
-    "Post1": "amet",
-    "Post2": "sequi",
-    "Post3": "aperiam",
-    "EmailName": "dewayne@lakin.name",
-    "ContactFullName": "Pablo Leif Dickens Sr.",
-    "ActiveErpLinks": 749,
-    "TicketPriorityId": 839,
-    "SupportLanguageId": 20,
-    "SupportAssociateId": 804,
+    "ContactCountryId": 663,
+    "ContactOrgNr": "765336",
+    "FaxPhone": "947.539.1161 x618",
+    "MobilePhone": "833-307-6098",
+    "ContactPhone": "1-767-551-4545 x31955",
+    "AssociateName": "Braun, Heathcote and Eichmann",
+    "AssociateId": 587,
+    "UsePersonAddress": false,
+    "ContactFax": "vitae",
+    "Kanafname": "officiis",
+    "Kanalname": "est",
+    "Post1": "nulla",
+    "Post2": "recusandae",
+    "Post3": "est",
+    "EmailName": "esmeralda@heathcote.name",
+    "ContactFullName": "Evangeline Johnston",
+    "ActiveErpLinks": 193,
+    "TicketPriorityId": 138,
+    "SupportLanguageId": 600,
+    "SupportAssociateId": 886,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1800876",
+    "PersonNumber": "1463664",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 244
       }
     }
   }

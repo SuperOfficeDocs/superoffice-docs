@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 541
+  "AssociateId": 842
 }
 ```
 
@@ -95,14 +95,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Yundt, Graham and Walker",
-    "DeviceIdentifier": "ut",
-    "PocketVersion": "voluptatem",
-    "Language": "nesciunt",
-    "PNSHandle": "aliquam",
+    "DeviceName": "Greenholt, Nienow and Cronin",
+    "DeviceIdentifier": "voluptas",
+    "PocketVersion": "qui",
+    "Language": "sed",
+    "PNSHandle": "molestiae",
     "Platform": "Apple",
-    "OSVersion": "assumenda",
-    "TimeZoneId": 513
+    "OSVersion": "perspiciatis",
+    "TimeZoneId": 618
   }
 ]
 ```

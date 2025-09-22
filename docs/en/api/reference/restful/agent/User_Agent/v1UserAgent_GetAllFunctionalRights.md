@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Rosenbaum Inc and Sons",
-    "ToolTip": "Qui earum.",
-    "Deleted": false,
-    "Rank": 355,
-    "Type": "sapiente",
-    "ColorBlock": 9,
-    "IconHint": "porro",
+    "Id": 710,
+    "Name": "Brakus Inc and Sons",
+    "ToolTip": "Qui assumenda qui officia et vel asperiores sint.",
+    "Deleted": true,
+    "Rank": 260,
+    "Type": "occaecati",
+    "ColorBlock": 211,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "1999-01-24T03:46:55.581978+01:00",
+    "LastChanged": "2012-11-06T11:24:48.9063744+01:00",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Wolf, Kuhlman and Lang",
-        "ToolTip": "Adipisci officiis fugiat iure sed est deleniti.",
-        "Deleted": false,
-        "Rank": 703,
-        "Type": "qui",
-        "ColorBlock": 578,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2005-10-27T03:46:55.581978+02:00",
+        "Id": 528,
+        "Name": "Kerluke Inc and Sons",
+        "ToolTip": "Eos vel dolorum nisi cum sit qui enim.",
+        "Deleted": true,
+        "Rank": 908,
+        "Type": "rerum",
+        "ColorBlock": 671,
+        "IconHint": "perspiciatis",
+        "Selected": false,
+        "LastChanged": "2003-05-21T11:24:48.9063744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Mr. Joan Cummerata",
+        "ExtraInfo": "sit",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Ms. Annabel Schmidt V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 854
           }
         }
       }
     ],
     "ExtraInfo": "facilis",
-    "StyleHint": "sit",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Myriam White",
+    "FullName": "Keven Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 767
       }
     }
   }

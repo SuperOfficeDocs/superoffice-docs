@@ -99,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 208,
-  "StartTime": "1998-06-08T03:46:54.707009+02:00",
-  "EndTime": "2016-05-30T03:46:54.707009+02:00",
-  "Count": 198,
+  "ContactId": 52,
+  "StartTime": "2006-09-12T11:24:48.03141+02:00",
+  "EndTime": "2012-01-24T11:24:48.03141+01:00",
+  "Count": 28,
   "DocumentTemplateIds": [
-    590,
-    8
+    119,
+    686
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 430,
-    "Attention": "temporibus",
-    "Header": "quae",
-    "Name": "Gleichner LLC",
-    "OurRef": "accusamus",
-    "YourRef": "architecto",
-    "Description": "Optional scalable contingency",
-    "DocumentTemplate": "quo",
-    "IsPublished": false,
-    "PersonId": 229,
-    "PersonFullName": "Abbigail Summer Cummings DVM",
-    "AssociateFullName": "Magnus Larkin",
-    "ContactId": 591,
-    "ContactName": "Windler, Hilll and Lubowitz",
-    "ProjectId": 418,
-    "ProjectName": "Haag-Wisoky",
-    "AssociateId": 389,
-    "Snum": 349,
-    "SaleId": 916,
-    "SaleName": "Kovacek-Terry",
+    "DocumentId": 23,
+    "Attention": "quo",
+    "Header": "minus",
+    "Name": "Hyatt-Kris",
+    "OurRef": "dolorem",
+    "YourRef": "minus",
+    "Description": "Down-sized mission-critical intranet",
+    "DocumentTemplate": "nobis",
+    "IsPublished": true,
+    "PersonId": 661,
+    "PersonFullName": "Burnice Tillman",
+    "AssociateFullName": "Mathew Lockman",
+    "ContactId": 549,
+    "ContactName": "Goldner-Torp",
+    "ProjectId": 756,
+    "ProjectName": "Sanford-Weber",
+    "AssociateId": 392,
+    "Snum": 97,
+    "SaleId": 659,
+    "SaleName": "Schuppe LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 593
       }
     }
   }

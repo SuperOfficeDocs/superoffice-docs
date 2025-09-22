@@ -104,34 +104,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 740,
-  "UniqueId": "cum",
-  "Name": "Hilpert, Ondricka and Pollich",
-  "Description": "Implemented foreground open architecture",
-  "AssociateId": 536,
-  "Columns": 753,
+  "DashboardId": 102,
+  "UniqueId": "laboriosam",
+  "Name": "Denesik-Klein",
+  "Description": "Seamless systematic circuit",
+  "AssociateId": 471,
+  "Columns": 488,
   "Theme": null,
-  "VisibleForAll": 322,
+  "VisibleForAll": 936,
   "VisibleForAssociates": [
-    517,
-    941
+    326,
+    304
   ],
   "VisibleForGroups": [
-    759,
-    684
+    391,
+    603
   ],
-  "PinForAll": 733,
+  "PinForAll": 656,
   "PinForAssociates": [
-    464,
-    932
+    961,
+    540
   ],
   "PinForGroups": [
-    508,
-    685
+    342,
+    412
   ]
 }
 ```
@@ -143,37 +143,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 266,
-  "UniqueId": "id",
-  "Name": "Considine-Jacobi",
-  "Description": "Adaptive object-oriented budgetary management",
-  "AssociateId": 197,
-  "Columns": 84,
+  "DashboardId": 878,
+  "UniqueId": "corrupti",
+  "Name": "Wisozk-King",
+  "Description": "Pre-emptive foreground productivity",
+  "AssociateId": 168,
+  "Columns": 91,
   "Theme": null,
-  "VisibleForAll": 361,
+  "VisibleForAll": 726,
   "VisibleForAssociates": [
-    613,
-    597
+    253,
+    270
   ],
   "VisibleForGroups": [
-    961,
-    394
+    504,
+    162
   ],
-  "PinForAll": 634,
+  "PinForAll": 976,
   "PinForAssociates": [
-    757,
-    552
+    67,
+    174
   ],
   "PinForGroups": [
-    66,
-    695
+    285,
+    232
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 492
     }
   },
   "_Links": {

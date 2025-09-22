@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller Group",
-  "DeviceName": "Koch, Rutherford and Walter",
-  "KeyName": "Auer, Gaylord and Klein",
-  "TableName": "Stracke Group",
-  "RecordId": 847
+  "ApplicationName": "Green LLC",
+  "DeviceName": "Homenick, Greenholt and Terry",
+  "KeyName": "Lowe, Shanahan and Russel",
+  "TableName": "Lowe-Dach",
+  "RecordId": 108
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ratione",
-  "Value": "et",
-  "RecordId": 626,
-  "CreatedDate": "2001-02-11T03:46:54.9107593+01:00",
-  "UpdatedDate": "2023-07-01T03:46:54.9107593+02:00",
-  "UpdatedBy": "voluptates",
-  "CreatedBy": "nesciunt",
-  "TableName": "Mann, Rice and Rutherford",
+  "Key": "repellat",
+  "Value": "distinctio",
+  "RecordId": 605,
+  "CreatedDate": "2018-10-27T11:24:48.1564051+02:00",
+  "UpdatedDate": "1999-12-22T11:24:48.1564051+01:00",
+  "UpdatedBy": "accusamus",
+  "CreatedBy": "dolore",
+  "TableName": "Beatty LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

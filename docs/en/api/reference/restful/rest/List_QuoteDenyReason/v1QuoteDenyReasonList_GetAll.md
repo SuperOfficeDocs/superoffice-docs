@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Wisoky, Hagenes and Farrell",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 510,
-    "Rank": 559,
+    "Id": 548,
+    "Name": "Legros, Fadel and Rempel",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "UdListDefinitionId": 994,
+    "Rank": 977,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 467
       }
     }
   }

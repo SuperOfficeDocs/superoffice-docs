@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "reprehenderit",
-    "blanditiis"
+    "molestiae",
+    "voluptas"
   ]
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 74,
-    "ResourceId": 716,
-    "Text": "et",
+    "LanguageId": 212,
+    "ResourceId": 267,
+    "Text": "totam",
     "Type": "Column",
-    "LocalizedTextId": 631,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 690,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 164
+        "FieldLength": 575
       }
     }
   }

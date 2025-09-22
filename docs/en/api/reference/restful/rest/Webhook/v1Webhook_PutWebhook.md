@@ -106,32 +106,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 585,
-  "Name": "Batz, Breitenberg and Yundt",
+  "WebhookId": 795,
+  "Name": "Grant Group",
   "Events": [
-    "consequuntur",
-    "sint"
+    "qui",
+    "alias"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "molestiae",
+  "Secret": "natus",
   "State": "Active",
-  "Type": "perspiciatis",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "ex",
-    "Headers2": "qui"
+    "Headers1": "dolorum",
+    "Headers2": "ducimus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-04-16T03:47:00.5505518+02:00",
+  "Registered": "2020-07-28T11:24:53.8280427+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-12-01T03:47:00.5505518+01:00",
+  "Updated": "2022-11-25T11:24:53.8280427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "boris@harber.info"
+  "ErrorsEmail": "dianna.walsh@denesik.uk"
 }
 ```
 
@@ -142,28 +142,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 366,
-  "Name": "Stehr, Ward and Ondricka",
+  "WebhookId": 362,
+  "Name": "Swift Inc and Sons",
   "Events": [
-    "corporis",
-    "neque"
+    "illum",
+    "veniam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eaque",
+  "Secret": "natus",
   "State": "Active",
-  "Type": "porro",
+  "Type": "et",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "non"
+    "Headers1": "non",
+    "Headers2": "nisi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-07-07T03:47:00.5505518+02:00",
+  "Registered": "2007-07-12T11:24:53.8280427+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-10-06T03:47:00.5505518+02:00",
+  "Updated": "2014-12-25T11:24:53.8280427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kaycee.hahn@whitelabadie.info",
+  "ErrorsEmail": "royal_mcdermott@schillerbahringer.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

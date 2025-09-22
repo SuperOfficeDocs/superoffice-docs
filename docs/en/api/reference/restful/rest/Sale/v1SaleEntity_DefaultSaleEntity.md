@@ -101,7 +101,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,7 +109,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
+Last-Modified: Sat, 29 Sep 2001 11:24:53 G9T
 
 {
   "Appointment": null,
@@ -118,7 +118,7 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repudiandae",
+  "SaleText": "nobis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -127,113 +127,113 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-03-21T03:47:00.2224384+01:00",
-  "Amount": 27416.232,
-  "SaleId": 511,
-  "Earning": 31073.61,
-  "EarningPercent": 9166.9499999999989,
-  "Heading": "nam",
-  "Number": "1007291",
-  "Probability": 447,
-  "CreatedDate": "2002-01-24T03:47:00.2224384+01:00",
-  "UpdatedDate": "2003-12-16T03:47:00.2224384+01:00",
+  "Saledate": "2022-08-31T11:24:53.499937+02:00",
+  "Amount": 25281.978,
+  "SaleId": 620,
+  "Earning": 4146.282,
+  "EarningPercent": 26002.798,
+  "Heading": "et",
+  "Number": "1153361",
+  "Probability": 560,
+  "CreatedDate": "2021-10-15T11:24:53.499937+02:00",
+  "UpdatedDate": "2001-09-29T11:24:53.499937+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 517,
   "Links": [
     {
-      "EntityName": "Kshlerin, Bins and Bogan",
-      "Id": 257,
-      "Description": "Organic intermediate concept",
-      "ExtraInfo": "nulla",
-      "LinkId": 817,
+      "EntityName": "Stehr-Hauck",
+      "Id": 804,
+      "Description": "Enhanced asynchronous hub",
+      "ExtraInfo": "hic",
+      "LinkId": 143,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 105
         }
       }
     }
   ],
-  "NextDueDate": "2025-02-20T03:47:00.2224384+01:00",
-  "Postit": "impedit",
+  "NextDueDate": "2021-05-13T11:24:53.499937+02:00",
+  "Postit": "velit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-01-11T03:47:00.2224384+01:00",
+  "ReopenDate": "2001-04-28T11:24:53.499937+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Beier, Kiehn and Jacobs",
-      "Comment": "maxime",
-      "StakeholderRoleId": 416,
-      "CountryId": 840,
-      "PersonId": 901,
-      "EmailDescription": "kristian_watsica@sporer.us",
-      "EmailId": 427,
-      "EmailAddress": "tyrell_schiller@spencerruecker.com",
-      "PhoneId": 839,
-      "ContactName": "Wilkinson LLC",
-      "ContactId": 318,
-      "SaleId": 321,
-      "Mrmrs": "sed",
-      "Firstname": "Jacey",
-      "MiddleName": "Block-Erdman",
-      "Lastname": "Gislason",
-      "SaleStakeholderId": 243,
-      "Rank": 972,
-      "Phone": "165-886-4659",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 25,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jalon Jerry Christiansen",
-    "SuperOffice:2": "Dr. Emmanuel Trent Hettinger"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "consequuntur"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "2002-11-25T03:47:00.2224384+01:00",
-  "PublishTo": "2011-03-09T03:47:00.2224384+01:00",
-  "PublishFrom": "2018-01-10T03:47:00.2224384+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 45,
-      "Visibility": "All",
-      "DisplayValue": "nihil",
+      "StakeholderRoleName": "Gutmann-Kertzmann",
+      "Comment": "est",
+      "StakeholderRoleId": 348,
+      "CountryId": 197,
+      "PersonId": 987,
+      "EmailDescription": "noemie.rath@zboncakkohler.ca",
+      "EmailId": 649,
+      "EmailAddress": "landen@christiansen.uk",
+      "PhoneId": 548,
+      "ContactName": "Dicki, Waelchi and O'Keefe",
+      "ContactId": 148,
+      "SaleId": 616,
+      "Mrmrs": "tenetur",
+      "Firstname": "Faye",
+      "MiddleName": "Heathcote, Ortiz and Nicolas",
+      "Lastname": "Weimann",
+      "SaleStakeholderId": 194,
+      "Rank": 865,
+      "Phone": "(544)091-7991",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 279
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 301,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Prof. Jordy Denesik"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "placeat",
+    "ExtraFields2": "tenetur"
+  },
+  "CustomFields": {
+    "CustomFields1": "labore",
+    "CustomFields2": "vero"
+  },
+  "PublishEventDate": "2016-12-28T11:24:53.499937+01:00",
+  "PublishTo": "2010-08-02T11:24:53.499937+02:00",
+  "PublishFrom": "2011-02-10T11:24:53.499937+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 552,
+      "Visibility": "All",
+      "DisplayValue": "est",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 276
         }
       }
     },
     {
-      "VisibleId": 45,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 276
         }
       }
     }
@@ -242,8 +242,8 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

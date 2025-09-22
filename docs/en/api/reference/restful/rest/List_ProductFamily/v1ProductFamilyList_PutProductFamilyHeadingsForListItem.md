@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Collins, Hane and Auer",
-    "ToolTip": "Consectetur eaque voluptates non.",
-    "Deleted": false,
-    "Rank": 557,
-    "Type": "consequatur",
-    "ColorBlock": 883,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2020-11-30T03:47:00.7380451+01:00",
+    "Id": 679,
+    "Name": "O'Conner Group",
+    "ToolTip": "Rem eos harum dolorum.",
+    "Deleted": true,
+    "Rank": 12,
+    "Type": "laboriosam",
+    "ColorBlock": 34,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2017-07-09T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Kutch-Batz",
-        "ToolTip": "Neque tempore aspernatur.",
+        "Id": 758,
+        "Name": "Bernhard Group",
+        "ToolTip": "Quo accusantium sint.",
         "Deleted": false,
-        "Rank": 209,
-        "Type": "saepe",
-        "ColorBlock": 281,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2024-07-17T03:47:00.7380451+02:00",
+        "Rank": 898,
+        "Type": "minima",
+        "ColorBlock": 884,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2017-11-30T11:24:54.0155411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "harum",
+        "ExtraInfo": "eum",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Prof. Gwen Bradley Reichel DVM"
+        "FullName": "Antone Hilll"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quia",
+    "ExtraInfo": "impedit",
+    "StyleHint": "veniam",
     "Hidden": true,
-    "FullName": "Lulu Bradtke"
+    "FullName": "Quinn Rosetta Marquardt PhD"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Johnson-Price",
-    "ToolTip": "Delectus totam.",
+    "Id": 754,
+    "Name": "Walsh Group",
+    "ToolTip": "Ut magni quos.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "hic",
-    "ColorBlock": 894,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2016-05-04T03:47:00.7380451+02:00",
+    "Rank": 82,
+    "Type": "quis",
+    "ColorBlock": 716,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2021-05-28T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Runolfsdottir-Harber",
-        "ToolTip": "Fuga eveniet qui non.",
-        "Deleted": false,
-        "Rank": 256,
-        "Type": "rem",
-        "ColorBlock": 207,
+        "Id": 212,
+        "Name": "Parisian LLC",
+        "ToolTip": "Quis molestiae itaque.",
+        "Deleted": true,
+        "Rank": 67,
+        "Type": "et",
+        "ColorBlock": 463,
         "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2006-05-18T03:47:00.7380451+02:00",
+        "LastChanged": "2007-06-29T11:24:54.0155411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "est",
+        "ExtraInfo": "qui",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Aglae Bruen",
+        "FullName": "Prof. Roderick Christiansen DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 293
+            "FieldLength": 434
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Troy Carroll DVM",
+    "ExtraInfo": "ullam",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Prof. Kennedi Mayer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 191
       }
     }
   }

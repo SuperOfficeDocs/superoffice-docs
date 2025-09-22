@@ -82,19 +82,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 848,
-      "Id": 141,
-      "HistoryName": "Cremin, Kreiger and Cole",
-      "HistoryId": 294,
-      "AssociateId": 422,
-      "Name": "Crist-Lesch",
-      "ItemInfo": "natus"
+      "Rank": 135,
+      "Id": 932,
+      "HistoryName": "Balistreri-Heller",
+      "HistoryId": 953,
+      "AssociateId": 447,
+      "Name": "Bode, Schaden and Marvin",
+      "ItemInfo": "omnis"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 876,
-    "Id": 908,
-    "HistoryName": "Emmerich-Kub",
-    "HistoryId": 968,
-    "AssociateId": 183,
-    "Name": "Prohaska Group",
-    "ItemInfo": "asperiores",
+    "Rank": 424,
+    "Id": 376,
+    "HistoryName": "Reichel, Cruickshank and Koch",
+    "HistoryId": 354,
+    "AssociateId": 480,
+    "Name": "Daniel, Howell and Armstrong",
+    "ItemInfo": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 361
       }
     }
   }

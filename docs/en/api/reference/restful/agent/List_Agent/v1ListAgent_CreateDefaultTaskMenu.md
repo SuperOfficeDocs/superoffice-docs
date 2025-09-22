@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 322,
-  "Name": "Towne LLC",
-  "Tooltip": "velit",
-  "TableName": "Schowalter-Jaskolski",
-  "Area": "consequatur",
+  "TaskMenuId": 465,
+  "Name": "Wuckert LLC",
+  "Tooltip": "est",
+  "TableName": "Kerluke-Luettgen",
+  "Area": "libero",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 732,
+  "CrmScriptId": 257,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 496,
+  "Rank": 720,
   "Encoding": "ANSI",
-  "ProgId": "numquam",
+  "ProgId": "autem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

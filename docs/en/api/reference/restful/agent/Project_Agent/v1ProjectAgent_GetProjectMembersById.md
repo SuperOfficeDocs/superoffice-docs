@@ -85,6 +85,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,13 +96,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    110,
-    300
+    797,
+    465
   ]
 }
 ```
@@ -113,33 +115,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 965,
-    "ContactId": 417,
-    "ProjectId": 185,
-    "ContactName": "Schamberger, Ullrich and Kassulke",
+    "ProjectmemberId": 159,
+    "ContactId": 875,
+    "ProjectId": 555,
+    "ContactName": "Roberts, Veum and Mitchell",
     "ContactDepartment": "",
-    "ProjectName": "Senger, Lang and Nicolas",
-    "EmailId": 815,
-    "EmailAddress": "timmothy@trantow.info",
-    "CountryId": 371,
-    "Firstname": "Jaydon",
-    "MiddleName": "Kovacek-Torphy",
-    "Lastname": "Tillman",
-    "PersonId": 424,
-    "Mrmrs": "amet",
-    "ProjectMemberTypeName": "Boyer, Bogisich and Boyer",
-    "Phone": "187-212-0118 x938",
-    "PhoneId": 216,
-    "ProjectMemberTypeId": 547,
-    "EmailAddressName": "tomas.tremblay@donnelly.ca",
-    "Comment": "quo",
-    "FullName": "Jonatan Corwin",
+    "ProjectName": "Schoen, O'Conner and Lowe",
+    "EmailId": 888,
+    "EmailAddress": "darryl_beer@dach.us",
+    "CountryId": 711,
+    "Firstname": "Montana",
+    "MiddleName": "Muller-Hilll",
+    "Lastname": "King",
+    "PersonId": 639,
+    "Mrmrs": "sed",
+    "ProjectMemberTypeName": "Fritsch-Tromp",
+    "Phone": "1-680-850-3692 x820",
+    "PhoneId": 315,
+    "ProjectMemberTypeId": 312,
+    "EmailAddressName": "angelita@heaney.ca",
+    "Comment": "hic",
+    "FullName": "Gerhard Schmeler",
+    "Registered": "2014-09-11T11:24:48.5001409+02:00",
+    "Updated": "2018-12-31T11:24:48.5001409+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

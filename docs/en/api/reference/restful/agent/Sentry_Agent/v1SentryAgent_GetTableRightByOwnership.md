@@ -79,9 +79,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Beer Group",
-  "ContactGroupId": 229,
-  "ContactAssociateId": 927
+  "TableName": "Koelpin LLC",
+  "ContactGroupId": 892,
+  "ContactAssociateId": 71
 }
 ```
 
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "laboriosam",
+  "Mask": "voluptates",
   "Reason": ""
 }
 ```

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 950
+  "ContactId": 994
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "138-842-7789",
-    "PersonCellPhone": "690.482.7980 x9085",
-    "PersonPrivatePhone": "378.839.5942",
-    "PersonFaxNumber": "359964",
-    "PersonPagerNumber": "846944",
-    "PersonEmail": "adrienne_toy@whiteupton.name",
-    "Id": 918,
-    "Name": "Schuster-Eichmann",
-    "Tooltip": "recusandae",
-    "UniqueId": "nesciunt",
+    "PersonDirectPhone": "136-331-5042 x6544",
+    "PersonCellPhone": "(480)902-8130 x5859",
+    "PersonPrivatePhone": "(154)760-9308",
+    "PersonFaxNumber": "289634",
+    "PersonPagerNumber": "828204",
+    "PersonEmail": "brook@miller.co.uk",
+    "Id": 753,
+    "Name": "Lemke-Jones",
+    "Tooltip": "rerum",
+    "UniqueId": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

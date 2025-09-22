@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 958,
-  "Name": "Stiedemann-Dickinson",
+  "ScreenChooserId": 660,
+  "Name": "Bernier Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "recusandae",
-  "Source": "est",
-  "Registered": "2017-01-25T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 499,
-  "Updated": "2019-06-03T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 185,
+  "UniqueIdentifier": "quia",
+  "Source": "natus",
+  "Registered": "2017-06-11T11:24:53.7186781+02:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2003-12-31T11:24:53.7186781+01:00",
+  "UpdatedAssociateId": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   }
 }

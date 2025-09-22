@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goyette, Lueilwitz and Reichert",
-  "DeviceName": "Langosh, Runolfsdottir and Koelpin"
+  "ApplicationName": "Rempel Group",
+  "DeviceName": "Stracke-Nienow"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quis",
-    "Value": "ut",
-    "RecordId": 410,
-    "CreatedDate": "2018-08-28T03:46:54.9107593+02:00",
-    "UpdatedDate": "2021-11-13T03:46:54.9107593+01:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "vitae",
-    "TableName": "Collier, Reichel and Quitzon",
+    "Key": "possimus",
+    "Value": "quisquam",
+    "RecordId": 699,
+    "CreatedDate": "2005-03-15T11:24:48.1720293+01:00",
+    "UpdatedDate": "2008-09-07T11:24:48.1720293+02:00",
+    "UpdatedBy": "veniam",
+    "CreatedBy": "non",
+    "TableName": "Jones-Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

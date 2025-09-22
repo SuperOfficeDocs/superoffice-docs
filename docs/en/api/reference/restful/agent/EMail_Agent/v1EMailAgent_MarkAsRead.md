@@ -69,14 +69,14 @@ No Content
 POST /api/v1/Agents/EMail/MarkAsRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    534,
-    297
+    670,
+    734
   ],
   "Read": false
 }

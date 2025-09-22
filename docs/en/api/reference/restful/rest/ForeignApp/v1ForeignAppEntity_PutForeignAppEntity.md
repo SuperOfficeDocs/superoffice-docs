@@ -93,27 +93,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 333,
-  "Name": "Crist Group",
-  "CreatedDate": "2005-09-03T03:47:00.0193121+02:00",
-  "UpdatedDate": "2025-06-11T03:47:00.0193121+02:00",
+  "ForeignAppId": 442,
+  "Name": "O'Keefe Group",
+  "CreatedDate": "2005-10-20T11:24:53.2968202+02:00",
+  "UpdatedDate": "2025-01-07T11:24:53.2968202+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 79,
-      "Name": "Halvorson-Block",
-      "CreatedDate": "2005-04-26T03:47:00.0193121+02:00",
-      "UpdatedDate": "2025-04-26T03:47:00.0193121+02:00",
-      "AssociateFullName": "Jalen Colton Larkin Jr.",
-      "CreatedBy": "est",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 486
+      "ForeignDeviceId": 574,
+      "Name": "Medhurst Group",
+      "CreatedDate": "2023-05-01T11:24:53.2968202+02:00",
+      "UpdatedDate": "2006-11-29T11:24:53.2968202+01:00",
+      "AssociateFullName": "Kattie Nitzsche",
+      "CreatedBy": "consectetur",
+      "UpdatedBy": "iusto",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 348
     }
   ]
 }
@@ -126,29 +126,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 314,
-  "Name": "Boyer-Konopelski",
-  "CreatedDate": "2011-09-24T03:47:00.0193121+02:00",
-  "UpdatedDate": "2007-12-05T03:47:00.0193121+01:00",
+  "ForeignAppId": 338,
+  "Name": "Jenkins-Kreiger",
+  "CreatedDate": "2009-06-22T11:24:53.2968202+02:00",
+  "UpdatedDate": "2021-08-07T11:24:53.2968202+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 463,
-      "Name": "Klein-Hansen",
-      "CreatedDate": "2006-04-11T03:47:00.0193121+02:00",
-      "UpdatedDate": "2008-10-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Marcelino Glover IV",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "nihil",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 152,
+      "ForeignDeviceId": 280,
+      "Name": "Padberg-Ratke",
+      "CreatedDate": "2001-05-27T11:24:53.2968202+02:00",
+      "UpdatedDate": "2023-03-24T11:24:53.2968202+01:00",
+      "AssociateFullName": "Mrs. Alisha Zemlak",
+      "CreatedBy": "sit",
+      "UpdatedBy": "assumenda",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 822,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 608
         }
       }
     }
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 961
     }
   },
   "_Links": {

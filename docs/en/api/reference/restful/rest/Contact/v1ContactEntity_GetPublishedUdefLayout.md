@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 183,
-    "ColumnId": 640,
-    "FieldDefault": "ullam",
-    "FieldHeight": 143,
-    "FieldLabel": "culpa",
-    "FieldLeft": 829,
-    "FieldTop": 310,
+    "UDefFieldId": 248,
+    "ColumnId": 72,
+    "FieldDefault": "dolor",
+    "FieldHeight": 951,
+    "FieldLabel": "voluptatem",
+    "FieldLeft": 268,
+    "FieldTop": 654,
     "FieldType": "Checkbox",
-    "FieldWidth": 702,
-    "FormatMask": "eligendi",
+    "FieldWidth": 145,
+    "FormatMask": "rerum",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 281,
-    "LabelLeft": 977,
-    "LabelTop": 669,
-    "LabelWidth": 581,
-    "LastVersionId": 816,
-    "ListTableId": 21,
+    "IsIndexed": true,
+    "LabelHeight": 544,
+    "LabelLeft": 954,
+    "LabelTop": 716,
+    "LabelWidth": 557,
+    "LastVersionId": 164,
+    "ListTableId": 98,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 430,
-    "ProgId": "dicta",
+    "Page1LineNo": 545,
+    "ProgId": "eligendi",
     "IsReadOnly": false,
-    "ShortLabel": "quo",
-    "TabOrder": 918,
-    "TextLength": 166,
-    "Tooltip": "consectetur",
-    "UdefIdentity": 912,
-    "UDListDefinitionId": 108,
+    "ShortLabel": "quia",
+    "TabOrder": 892,
+    "TextLength": 715,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 202,
+    "UDListDefinitionId": 848,
     "Justification": "Center",
-    "Version": 292,
-    "TemplateVariableName": "Conroy, Anderson and Lind",
-    "HasBeenPublished": true,
-    "MdoListName": "Herman, Herzog and Schmitt",
+    "Version": 616,
+    "TemplateVariableName": "Corkery, Hegmann and Bartell",
+    "HasBeenPublished": false,
+    "MdoListName": "Crooks, Howell and Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   }

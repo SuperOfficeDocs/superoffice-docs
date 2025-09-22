@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis, Goyette and Gutkowski",
-  "DeviceName": "Cummings-Bechtelar",
-  "DeviceIdentifier": "vero",
-  "TableName": "Herman, Crona and Schaefer",
-  "RecordId": 812
+  "ApplicationName": "Miller LLC",
+  "DeviceName": "Anderson Group",
+  "DeviceIdentifier": "consequatur",
+  "TableName": "Rempel Inc and Sons",
+  "RecordId": 836
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "vitae",
-    "Value": "omnis",
-    "RecordId": 459,
-    "CreatedDate": "2014-12-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2017-12-03T03:46:54.9107593+01:00",
-    "UpdatedBy": "tenetur",
-    "CreatedBy": "omnis",
-    "TableName": "Haley Inc and Sons",
+    "Key": "laboriosam",
+    "Value": "autem",
+    "RecordId": 659,
+    "CreatedDate": "2003-10-01T11:24:48.1720293+02:00",
+    "UpdatedDate": "2011-10-24T11:24:48.1720293+02:00",
+    "UpdatedBy": "qui",
+    "CreatedBy": "dolorum",
+    "TableName": "Oberbrunner-Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 289
       }
     }
   }

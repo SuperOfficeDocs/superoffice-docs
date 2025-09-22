@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 602,
-    "ColumnId": 961,
-    "FieldDefault": "repellat",
-    "FieldHeight": 465,
-    "FieldLabel": "cumque",
-    "FieldLeft": 868,
-    "FieldTop": 832,
+    "UDefFieldId": 393,
+    "ColumnId": 435,
+    "FieldDefault": "harum",
+    "FieldHeight": 112,
+    "FieldLabel": "dolorem",
+    "FieldLeft": 237,
+    "FieldTop": 745,
     "FieldType": "Checkbox",
-    "FieldWidth": 49,
+    "FieldWidth": 929,
     "FormatMask": "optio",
-    "HideLabel": true,
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 61,
-    "LabelLeft": 137,
-    "LabelTop": 754,
-    "LabelWidth": 489,
-    "LastVersionId": 825,
-    "ListTableId": 616,
-    "IsMandatory": true,
+    "LabelHeight": 227,
+    "LabelLeft": 456,
+    "LabelTop": 844,
+    "LabelWidth": 61,
+    "LastVersionId": 208,
+    "ListTableId": 250,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 904,
-    "ProgId": "tenetur",
+    "Page1LineNo": 242,
+    "ProgId": "quos",
     "IsReadOnly": false,
-    "ShortLabel": "a",
-    "TabOrder": 44,
-    "TextLength": 90,
-    "Tooltip": "cum",
-    "UdefIdentity": 850,
-    "UDListDefinitionId": 898,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 8,
+    "TextLength": 369,
+    "Tooltip": "totam",
+    "UdefIdentity": 937,
+    "UDListDefinitionId": 349,
     "Justification": "Center",
-    "Version": 780,
-    "TemplateVariableName": "Heaney Group",
-    "HasBeenPublished": true,
-    "MdoListName": "McLaughlin-Hoppe",
+    "Version": 13,
+    "TemplateVariableName": "Roob-Keeling",
+    "HasBeenPublished": false,
+    "MdoListName": "Jewess Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 235
       }
     }
   }

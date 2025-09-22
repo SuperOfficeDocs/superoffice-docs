@@ -101,28 +101,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 574,
-  "Name": "Flatley, Okuneva and Beahan",
-  "Description": "Down-sized encompassing methodology",
-  "DeltaJson": "sunt",
+  "ConfigurableScreenDeltaId": 994,
+  "Name": "Parker-Gleason",
+  "Description": "Optional bottom-line matrix",
+  "DeltaJson": "quia",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptatum",
-  "UpdatedDate": "1999-07-04T03:46:54.4570178+02:00",
-  "CreatedDate": "1999-03-01T03:46:54.4570178+01:00",
+  "RecipeId": "eum",
+  "UpdatedDate": "2002-03-13T11:24:47.7189228+01:00",
+  "CreatedDate": "2017-12-03T11:24:47.7189228+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    709,
-    762
+    559,
+    863
   ],
-  "AppliesToKey": "quia",
+  "AppliesToKey": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 691
     }
   }
 }

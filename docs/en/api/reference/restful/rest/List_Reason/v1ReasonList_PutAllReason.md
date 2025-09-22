@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Eichmann LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 733,
-    "Rank": 97
+    "Id": 21,
+    "Name": "Kuvalis-Fritsch",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "UdListDefinitionId": 115,
+    "Rank": 889
   },
   {
-    "Id": 404,
-    "Name": "Eichmann LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 733,
-    "Rank": 97
+    "Id": 21,
+    "Name": "Kuvalis-Fritsch",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "UdListDefinitionId": 115,
+    "Rank": 889
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Bogisich, O'Connell and Kris",
-    "Tooltip": "ipsa",
-    "Deleted": false,
-    "UdListDefinitionId": 240,
-    "Rank": 335,
+    "Id": 87,
+    "Name": "Kassulke-Nikolaus",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 627,
+    "Rank": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 276
+        "FieldLength": 237
       }
     }
   }

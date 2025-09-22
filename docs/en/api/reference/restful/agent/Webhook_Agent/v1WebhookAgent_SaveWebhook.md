@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 283,
-  "Name": "Walsh-Champlin",
+  "WebhookId": 337,
+  "Name": "Cormier, Swift and Zemlak",
   "Events": [
-    "perferendis",
-    "voluptatem"
+    "officia",
+    "dolor"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "cum",
   "State": "Active",
-  "Type": "sit",
+  "Type": "quod",
   "Headers": {
-    "Headers1": "velit",
-    "Headers2": "consequatur"
+    "Headers1": "consequuntur",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-06-04T03:46:55.6444757+02:00",
+  "Registered": "2002-06-28T11:24:48.9532475+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-05-01T03:46:55.6444757+02:00",
+  "Updated": "2019-12-21T11:24:48.9532475+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "maribel_jewess@lowe.info"
+  "ErrorsEmail": "monroe_pouros@hintz.info"
 }
 ```
 
@@ -126,27 +126,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "Hartmann, Schmidt and Towne",
+  "WebhookId": 391,
+  "Name": "Turner, O'Hara and Jenkins",
   "Events": [
-    "sit",
-    "voluptate"
+    "et",
+    "earum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusamus",
+  "Secret": "aliquam",
   "State": "Active",
-  "Type": "maxime",
+  "Type": "molestiae",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "voluptatem"
+    "Headers1": "est",
+    "Headers2": "repellat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-07-09T03:46:55.6444757+02:00",
+  "Registered": "2024-02-12T11:24:48.9688719+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-06-12T03:46:55.6444757+02:00",
+  "Updated": "2018-01-08T11:24:48.9688719+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jevon@osinski.name"
+  "ErrorsEmail": "jovan_harris@bergstrom.name"
 }
 ```

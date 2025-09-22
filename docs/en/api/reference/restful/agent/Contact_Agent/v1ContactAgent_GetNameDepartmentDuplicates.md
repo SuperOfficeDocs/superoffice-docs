@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Champlin, McDermott and Schuster",
+  "Name": "Koch LLC",
   "Department": ""
 }
 ```
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Reilly, Cruickshank and Marks",
-    "SoPrimaryKey": 603,
-    "EntryName": "Ankunding LLC",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Hettinger-Gaylord",
+    "RuleName": "Considine-Lueilwitz",
+    "SoPrimaryKey": 921,
+    "EntryName": "Robel Inc and Sons",
+    "EntryIdentifier": "neque",
+    "RuleDisplayName": "Hahn-Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 855
       }
     }
   }

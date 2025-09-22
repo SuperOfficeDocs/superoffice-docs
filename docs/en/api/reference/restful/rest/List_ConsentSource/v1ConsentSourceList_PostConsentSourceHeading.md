@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 72,
-  "Name": "O'Reilly Inc and Sons",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 717,
-  "UdListDefinitionId": 994
+  "HeadingId": 595,
+  "Name": "Roob, O'Conner and Hayes",
+  "Tooltip": "alias",
+  "Deleted": false,
+  "Rank": 966,
+  "UdListDefinitionId": 569
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 250,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "ad",
+  "HeadingId": 933,
+  "Name": "Yost-Hudson",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 913,
-  "UdListDefinitionId": 930,
+  "Rank": 70,
+  "UdListDefinitionId": 562,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldLength": 372
     }
   }
 }

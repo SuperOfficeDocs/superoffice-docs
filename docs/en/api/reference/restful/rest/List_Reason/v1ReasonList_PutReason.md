@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "Name": "Heaney-Berge",
-  "Tooltip": "consequatur",
+  "Id": 678,
+  "Name": "Mueller LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 430,
-  "Rank": 738
+  "UdListDefinitionId": 53,
+  "Rank": 701
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Waters-Gusikowski",
-  "Tooltip": "in",
+  "Id": 561,
+  "Name": "Lang, Batz and Wisozk",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 227,
-  "Rank": 352,
+  "UdListDefinitionId": 607,
+  "Rank": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 72
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

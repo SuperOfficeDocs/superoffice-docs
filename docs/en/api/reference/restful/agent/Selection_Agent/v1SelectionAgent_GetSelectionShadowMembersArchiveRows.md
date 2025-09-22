@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 295,
-  "Select": "ea"
+  "SelectionId": 713,
+  "Select": "quo"
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Homenick, Bernier and Conroy",
-    "PrimaryKey": 512,
+    "EntityName": "Bauch-Fay",
+    "PrimaryKey": 771,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quo",
-        "TooltipHint": "et",
-        "LinkHint": "pariatur"
+        "DisplayValue": "expedita",
+        "TooltipHint": "dolorem",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "sit",
-    "StyleHint": "animi",
+    "LinkHint": "sint",
+    "StyleHint": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

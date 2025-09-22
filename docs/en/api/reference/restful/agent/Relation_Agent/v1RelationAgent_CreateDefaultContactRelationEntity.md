@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 92,
-  "SourcePersonId": 491,
-  "DestinationContactId": 119,
-  "DestinationPersonId": 607,
-  "RelationId": 915,
-  "Comment": "unde",
-  "RelationDefinitionId": 196,
-  "Reversed": 250,
-  "UpdatedDate": "2008-08-31T03:46:55.2382402+02:00",
-  "CreatedDate": "2012-06-18T03:46:55.2382402+02:00",
+  "SourceContactId": 460,
+  "SourcePersonId": 174,
+  "DestinationContactId": 693,
+  "DestinationPersonId": 265,
+  "RelationId": 787,
+  "Comment": "vero",
+  "RelationDefinitionId": 396,
+  "Reversed": 451,
+  "UpdatedDate": "2011-05-29T11:24:48.5470141+02:00",
+  "CreatedDate": "2020-09-25T11:24:48.5470141+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Powlowski-Schultz",
-  "SourcePersonName": "Kris-Beahan",
-  "DestinationContactName": "Rodriguez Inc and Sons",
-  "DestinationPersonName": "Armstrong Group",
-  "ActiveText": "voluptates",
-  "PassiveText": "quia",
+  "SourceContactName": "DuBuque, Gutkowski and Carter",
+  "SourcePersonName": "Jast LLC",
+  "DestinationContactName": "Kuhn Inc and Sons",
+  "DestinationPersonName": "Heller LLC",
+  "ActiveText": "quis",
+  "PassiveText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 873
     }
   }
 }

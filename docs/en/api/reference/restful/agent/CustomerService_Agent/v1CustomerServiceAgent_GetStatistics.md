@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "nam",
-    "veritatis"
+    "iste",
+    "qui"
   ]
 }
 ```
@@ -95,82 +95,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "adipisci",
+    "Label": "dolore",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "non",
+        "Value": 8367.7799999999988,
+        "Description": "Managed impactful Graphical User Interface",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 430
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "non",
+        "Value": 8367.7799999999988,
+        "Description": "Managed impactful Graphical User Interface",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 430
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Multi-layered mission-critical framework",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   },
   {
-    "Label": "adipisci",
+    "Label": "dolore",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "non",
+        "Value": 8367.7799999999988,
+        "Description": "Managed impactful Graphical User Interface",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 430
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "non",
+        "Value": 8367.7799999999988,
+        "Description": "Managed impactful Graphical User Interface",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 430
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Multi-layered mission-critical framework",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

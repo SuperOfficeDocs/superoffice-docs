@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 254
+  "Count": 915
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stoltenberg Inc and Sons",
-    "SaleDate": "2024-12-13T03:46:55.2694888+01:00",
-    "SaleId": 681,
-    "Probability": 376,
-    "Title": "nam",
-    "Amount": 20674.998,
-    "Currency": "quos",
-    "ProjectName": "Little-Fahey",
-    "AssociateFullName": "Eduardo Wyman",
-    "Description": "Up-sized human-resource projection",
+    "ContactName": "Kuhlman Inc and Sons",
+    "SaleDate": "2005-10-14T11:24:48.5939056+02:00",
+    "SaleId": 509,
+    "Probability": 159,
+    "Title": "iusto",
+    "Amount": 11511.181999999999,
+    "Currency": "excepturi",
+    "ProjectName": "Sanford-Cormier",
+    "AssociateFullName": "Prof. Carmelo Batz",
+    "Description": "Adaptive dedicated firmware",
     "Status": "Lost",
-    "WeightedAmount": 22931.478,
-    "ProjectId": 586,
-    "EarningPercent": 2729.714,
-    "Earning": 16635.272,
-    "ContactId": 188,
-    "AssociateId": 94,
-    "PersonId": 862,
-    "SaleTypeId": 565,
-    "SaleTypeName": "Zemlak, Quitzon and Pagac",
-    "PersonFullName": "Marcelina Smitham",
+    "WeightedAmount": 16544.386,
+    "ProjectId": 581,
+    "EarningPercent": 8605.964,
+    "Earning": 13294.428,
+    "ContactId": 96,
+    "AssociateId": 46,
+    "PersonId": 304,
+    "SaleTypeId": 873,
+    "SaleTypeName": "Emard, Lubowitz and Herzog",
+    "PersonFullName": "Saige Kassulke",
     "Completed": "Completed",
-    "ActiveErpLinks": 614,
-    "NextDueDate": "2002-08-28T03:46:55.2694888+02:00",
-    "Number": "1094436",
+    "ActiveErpLinks": 655,
+    "NextDueDate": "2025-01-26T11:24:48.5939056+01:00",
+    "Number": "772754",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 284
       }
     }
   }

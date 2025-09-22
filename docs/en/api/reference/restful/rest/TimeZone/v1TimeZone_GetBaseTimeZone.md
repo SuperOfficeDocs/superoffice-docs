@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 253,
-  "Name": "Kilback-Boyle",
-  "TZLocationCode": "sit",
-  "TZLocationCities": "sed",
-  "IsoNumber": 238,
+  "TZLocationID": 669,
+  "Name": "Hamill-Johnston",
+  "TZLocationCode": "quo",
+  "TZLocationCities": "ratione",
+  "IsoNumber": 705,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 913,
-      "StartMonth": 130,
-      "EndDay": 345,
-      "EndMonth": 488,
-      "TZOffset": 294,
-      "StartRulePattern": "deserunt",
-      "EndRulePattern": "cum"
+      "StartDay": 156,
+      "StartMonth": 511,
+      "EndDay": 684,
+      "EndMonth": 661,
+      "TZOffset": 141,
+      "StartRulePattern": "accusantium",
+      "EndRulePattern": "quia"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 905,
-      "StartMonth": 336,
-      "EndDay": 846,
-      "EndMonth": 423,
-      "TZOffset": 793,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "sequi"
+      "StartDay": 352,
+      "StartMonth": 222,
+      "EndDay": 738,
+      "EndMonth": 273,
+      "TZOffset": 380,
+      "StartRulePattern": "est",
+      "EndRulePattern": "et"
     }
   }
 }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Graham Group"
+  "ApplicationName": "Ritchie-Wilderman"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "pariatur",
-    "Value": "qui",
-    "RecordId": 809,
-    "CreatedDate": "2015-02-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2015-05-05T03:46:54.9107593+02:00",
-    "UpdatedBy": "atque",
-    "CreatedBy": "eum",
-    "TableName": "Wunsch, Effertz and Dicki",
+    "Key": "neque",
+    "Value": "quidem",
+    "RecordId": 177,
+    "CreatedDate": "2022-10-05T11:24:48.1720293+02:00",
+    "UpdatedDate": "2002-07-01T11:24:48.1720293+02:00",
+    "UpdatedBy": "animi",
+    "CreatedBy": "ea",
+    "TableName": "Goldner-Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 621
       }
     }
   }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 693,
-  "Select": "non"
+  "SelectionId": 390,
+  "Select": "et"
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jones, Funk and Wuckert",
-    "PrimaryKey": 466,
+    "EntityName": "Koss Inc and Sons",
+    "PrimaryKey": 80,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "cupiditate",
-        "LinkHint": "maiores"
+        "DisplayValue": "veniam",
+        "TooltipHint": "modi",
+        "LinkHint": "maxime"
       }
     },
-    "LinkHint": "magnam",
-    "StyleHint": "architecto",
+    "LinkHint": "deserunt",
+    "StyleHint": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 675
       }
     }
   }

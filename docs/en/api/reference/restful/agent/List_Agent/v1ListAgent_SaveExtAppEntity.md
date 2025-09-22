@@ -106,32 +106,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 216,
-  "Name": "Ratke, Hane and Kris",
-  "Tooltip": "quia",
+  "ExtAppId": 623,
+  "Name": "Kulas, Rosenbaum and Jewess",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 724,
-  "Filename": "corrupti",
-  "Parameters": "blanditiis",
-  "Workdir": "occaecati",
+  "Rank": 935,
+  "Filename": "molestias",
+  "Parameters": "aut",
+  "Workdir": "facere",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 326,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 872,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non"
+  "Path": "consequatur"
 }
 ```
 
@@ -142,34 +142,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 534,
-  "Name": "Gorczany-Macejkovic",
-  "Tooltip": "hic",
+  "ExtAppId": 464,
+  "Name": "Schoen Inc and Sons",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 555,
-  "Filename": "ut",
-  "Parameters": "sed",
-  "Workdir": "qui",
+  "Rank": 837,
+  "Filename": "aliquid",
+  "Parameters": "est",
+  "Workdir": "cupiditate",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 344,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 921,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

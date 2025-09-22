@@ -86,10 +86,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 159,
-  "NumSentences": 885,
-  "Summary": "voluptate",
-  "IsoLangCode": "adipisci"
+  "TicketId": 3,
+  "NumSentences": 495,
+  "Summary": "fugit",
+  "IsoLangCode": "nesciunt"
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2009-11-17T03:46:53.9726601+01:00",
-  "UserPrompt": "enim",
-  "UserDisplayText": "vitae",
-  "BotResponse": "officia",
+  "Timestamp": "2003-02-17T11:24:47.2814408+01:00",
+  "UserPrompt": "quo",
+  "UserDisplayText": "autem",
+  "BotResponse": "nemo",
   "BotActions": {
-    "BotActions1": "temporibus",
-    "BotActions2": "ipsum"
+    "BotActions1": "et",
+    "BotActions2": "aperiam"
   },
   "Attachments": [
-    "ipsam",
-    "magni"
+    "voluptatum",
+    "enim"
   ]
 }
 ```

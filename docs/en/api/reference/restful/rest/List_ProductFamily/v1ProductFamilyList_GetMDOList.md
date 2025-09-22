@@ -27,8 +27,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=perferendis
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=esse
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Sanford Group",
-    "ToolTip": "Autem adipisci autem.",
+    "Id": 894,
+    "Name": "Kertzmann-Ziemann",
+    "ToolTip": "Rerum hic sed harum consequuntur soluta ut.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "voluptatem",
+    "Rank": 417,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Kirlin-Lakin",
-        "ToolTip": "Voluptas explicabo nesciunt aut non deserunt.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "modi",
+        "Id": 157,
+        "Name": "Gleichner Inc and Sons",
+        "ToolTip": "Magni beatae omnis sit exercitationem porro.",
+        "Deleted": true,
+        "Rank": 640,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 154,
-        "ExtraInfo": "aut",
-        "StyleHint": "nobis",
-        "FullName": "Kariane Kessler",
+        "IconHint": "facere",
+        "ColorBlock": 363,
+        "ExtraInfo": "deserunt",
+        "StyleHint": "et",
+        "FullName": "Eve Scarlett Heaney II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 519
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 346,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "est",
-    "FullName": "Ruthe Rice",
+    "IconHint": "nihil",
+    "ColorBlock": 8,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "nemo",
+    "FullName": "Prof. Bennie Federico Cartwright I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 979
       }
     }
   }

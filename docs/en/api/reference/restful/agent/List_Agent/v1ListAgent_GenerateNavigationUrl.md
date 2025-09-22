@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Dietrich LLC"
+  "WindowName": "Bayer, Stiedemann and Hettinger"
 }
 ```
 

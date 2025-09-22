@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Hettinger-McDermott",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 963,
+  "Id": 673,
+  "Name": "Hand Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 616,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Cummings Group",
-  "Tooltip": "consequatur",
+  "Id": 752,
+  "Name": "Schaden, Ward and McDermott",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 288,
-  "IsCustomList": true,
+  "Rank": 64,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 234
     }
   }
 }

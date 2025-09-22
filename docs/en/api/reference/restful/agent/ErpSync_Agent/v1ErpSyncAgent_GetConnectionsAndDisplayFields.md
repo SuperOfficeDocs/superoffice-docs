@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 733
+  "EntityId": 498
 }
 ```
 
@@ -100,27 +100,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 210,
-    "ConnectionName": "Jast LLC",
+    "ErpConnectionId": 599,
+    "ConnectionName": "Mitchell, Buckridge and Lesch",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "non",
-        "Rank": 12,
-        "DisplayName": "Considine-Kuhn",
-        "DisplayDescription": "Extended background system engine",
+        "FieldKey": "alias",
+        "Rank": 971,
+        "DisplayName": "Morar LLC",
+        "DisplayDescription": "Right-sized user-facing policy",
         "FieldType": "Checkbox",
-        "ListName": "Terry LLC",
-        "DefaultValue": "numquam",
-        "MaxLength": 101,
+        "ListName": "Hartmann-Lang",
+        "DefaultValue": "ipsam",
+        "MaxLength": 589,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 803
+            "FieldLength": 193
           }
         }
       }
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "sed",
-      "doloribus"
+      "laudantium",
+      "tempore"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

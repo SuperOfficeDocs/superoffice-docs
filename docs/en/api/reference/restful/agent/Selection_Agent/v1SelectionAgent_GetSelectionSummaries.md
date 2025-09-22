@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    525,
-    891
+    273,
+    54
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 628,
+    "Name": "Feest LLC",
+    "TargetTable": "facilis",
+    "Registered": "1999-02-18T11:24:48.6563847+01:00",
+    "ProviderName": "Willms Group"
   },
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 628,
+    "Name": "Feest LLC",
+    "TargetTable": "facilis",
+    "Registered": "1999-02-18T11:24:48.6563847+01:00",
+    "ProviderName": "Willms Group"
   }
 ]
 ```

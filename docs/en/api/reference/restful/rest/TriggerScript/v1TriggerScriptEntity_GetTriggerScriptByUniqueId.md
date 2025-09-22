@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 602,
-  "Name": "Krajcik, Zboncak and Hudson",
+  "ScreenChooserId": 969,
+  "Name": "Upton, Thompson and Murray",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "autem",
-  "Source": "in",
-  "Registered": "2017-01-20T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 662,
-  "Updated": "2020-01-10T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 42,
+  "UniqueIdentifier": "id",
+  "Source": "error",
+  "Registered": "2020-05-06T11:24:53.7186781+02:00",
+  "RegisteredAssociateId": 704,
+  "Updated": "2001-08-03T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 749,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldType": "System.String",
+      "FieldLength": 229
     }
   }
 }

@@ -142,55 +142,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 27,
-  "ERPProductKey": "reiciendis",
-  "ERPPriceListKey": "nemo",
-  "Name": "Hegmann LLC",
-  "Description": "Face to face well-modulated throughput",
-  "Code": "omnis",
-  "PriceUnit": "voluptate",
-  "QuantityUnit": "aut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "distinctio",
-  "DefaultSubscriptionQuantity": 17754.11,
-  "ItemNumber": "1712753",
+  "ProductId": 387,
+  "ERPProductKey": "sint",
+  "ERPPriceListKey": "nihil",
+  "Name": "Schowalter, Upton and Mohr",
+  "Description": "Re-engineered 6th generation framework",
+  "Code": "iure",
+  "PriceUnit": "qui",
+  "QuantityUnit": "quod",
+  "IsSubscription": false,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 7396.24,
+  "ItemNumber": "579559",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "atque",
-  "ProductTypeKey": "sint",
-  "VAT": 16835.847999999998,
-  "VATInfo": "quaerat",
-  "UnitCost": 8580.892,
-  "UnitMinimumPrice": 10201.17,
-  "UnitListPrice": 8756.3959999999988,
-  "InAssortment": true,
-  "Supplier": "facere",
-  "SupplierCode": "natus",
-  "Rights": "quia",
-  "Rule": "et",
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "possimus",
+  "VAT": 27312.809999999998,
+  "VATInfo": "voluptatem",
+  "UnitCost": 16099.358,
+  "UnitMinimumPrice": 15945.792,
+  "UnitListPrice": 6120.702,
+  "InAssortment": false,
+  "Supplier": "veniam",
+  "SupplierCode": "non",
+  "Rights": "eligendi",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Jacobi Group",
+      "Value": "error",
       "Type": "Image"
     },
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Jacobi Group",
+      "Value": "error",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "deleniti",
-  "ExtraField2": "aut",
-  "ExtraField3": "iste",
-  "ExtraField4": "odio",
-  "ExtraField5": "culpa",
-  "InStock": 17443.844
+  "RawExtraInfo": "voluptatibus",
+  "ExtraField1": "aliquid",
+  "ExtraField2": "ea",
+  "ExtraField3": "dicta",
+  "ExtraField4": "aperiam",
+  "ExtraField5": "non",
+  "InStock": 31026.6
 }
 ```
 
@@ -201,73 +201,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "quisquam",
-  "Name": "Wolf Inc and Sons",
-  "Description": "Grass-roots executive algorithm",
-  "Code": "facere",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "quis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 16152.635999999999,
-  "ItemNumber": "227290",
+  "ProductId": 732,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "tempore",
+  "Name": "Stamm-Jerde",
+  "Description": "Integrated maximized frame",
+  "Code": "in",
+  "PriceUnit": "ad",
+  "QuantityUnit": "sed",
+  "IsSubscription": true,
+  "SubscriptionUnit": "itaque",
+  "DefaultSubscriptionQuantity": 16904.796,
+  "ItemNumber": "1689919",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "magni",
-  "VAT": 12119.178,
-  "VATInfo": "laborum",
-  "UnitCost": 17224.464,
-  "UnitMinimumPrice": 8643.572,
-  "UnitListPrice": 25488.822,
-  "InAssortment": true,
-  "Supplier": "soluta",
-  "SupplierCode": "quo",
-  "Rights": "reprehenderit",
-  "Rule": "libero",
+  "ProductFamilyKey": "dolor",
+  "ProductTypeKey": "doloribus",
+  "VAT": 28920.552,
+  "VATInfo": "nesciunt",
+  "UnitCost": 24874.558,
+  "UnitMinimumPrice": 17211.928,
+  "UnitListPrice": 2547.942,
+  "InAssortment": false,
+  "Supplier": "doloribus",
+  "SupplierCode": "aperiam",
+  "Rights": "et",
+  "Rule": "porro",
   "ExtraInfo": [
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Keeling, Rippin and Kutch",
+      "Value": "eveniet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 218
         }
       }
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Keeling, Rippin and Kutch",
+      "Value": "eveniet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 218
         }
       }
     }
   ],
-  "RawExtraInfo": "cum",
-  "ExtraField1": "et",
-  "ExtraField2": "eos",
-  "ExtraField3": "aliquam",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "cumque",
-  "InStock": 1068.694,
+  "RawExtraInfo": "minus",
+  "ExtraField1": "architecto",
+  "ExtraField2": "recusandae",
+  "ExtraField3": "aperiam",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "id",
+  "InStock": 11163.307999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

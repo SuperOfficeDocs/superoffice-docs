@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 209,
-    "Name": "Bednar Inc and Sons",
-    "CurrencyId": 35,
-    "EnglishName": "Bosco LLC",
+    "CountryId": 132,
+    "Name": "Streich-Brown",
+    "CurrencyId": 940,
+    "EnglishName": "Abbott-Conn",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Robust system-worthy time-frame",
-    "OrgNrText": "1325872",
-    "InterAreaPrefix": "a",
-    "DialInPrefix": "ipsum",
-    "ZipPrefix": "voluptatem",
-    "DomainName": "Yundt, O'Keefe and Hilll",
-    "AddressLayoutId": 714,
-    "DomesticAddressLayoutId": 355,
-    "ForeignAddressLayoutId": 363,
-    "Rank": 737,
-    "Tooltip": "rerum",
+    "ImageDescription": "De-engineered disintermediate attitude",
+    "OrgNrText": "1207725",
+    "InterAreaPrefix": "consequatur",
+    "DialInPrefix": "qui",
+    "ZipPrefix": "suscipit",
+    "DomainName": "Cremin-Miller",
+    "AddressLayoutId": 126,
+    "DomesticAddressLayoutId": 443,
+    "ForeignAddressLayoutId": 289,
+    "Rank": 582,
+    "Tooltip": "reprehenderit",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

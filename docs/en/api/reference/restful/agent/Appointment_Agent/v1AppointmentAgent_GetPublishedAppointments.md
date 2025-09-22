@@ -128,13 +128,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    657,
-    114
+    543,
+    877
   ]
 }
 ```
@@ -147,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 587,
-    "StartDate": "2001-03-29T03:46:54.0039095+02:00",
-    "EndDate": "2018-11-05T03:46:54.0039095+01:00",
+    "AppointmentId": 628,
+    "StartDate": "2000-04-28T11:24:47.3126897+02:00",
+    "EndDate": "2016-05-06T11:24:47.3126897+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Myra Conroy",
-    "ContactName": "Lehner Group",
-    "Description": "Business-focused mobile success",
-    "PersonFullName": "Justine Lubowitz",
-    "PersonId": 149,
-    "ContactId": 352,
-    "ProjectId": 957,
-    "ProjectName": "Farrell, Frami and Zboncak",
-    "IsPublished": true,
-    "AssociateId": 599,
-    "ColorIndex": 841,
+    "Task": "iure",
+    "AssociateFullName": "Dimitri Kilback",
+    "ContactName": "Rogahn-Schamberger",
+    "Description": "Re-contextualized zero defect software",
+    "PersonFullName": "Okey Effertz",
+    "PersonId": 810,
+    "ContactId": 304,
+    "ProjectId": 262,
+    "ProjectName": "Treutel, Mraz and Ledner",
+    "IsPublished": false,
+    "AssociateId": 796,
+    "ColorIndex": 727,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 183,
-    "PriorityName": "Welch Group",
+    "PriorityId": 677,
+    "PriorityName": "Mraz-Hudson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-08-15T03:46:54.0039095+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2006-04-15T11:24:47.3126897+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-19T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2023-05-20T03:46:54.0039095+02:00",
-    "MotherId": 295,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Nathaniel Deckow",
+    "RecurringStartDate": "2012-07-05T11:24:47.3126897+02:00",
+    "RecurringEndDate": "2008-02-13T11:24:47.3126897+01:00",
+    "MotherId": 321,
+    "AssignedBy": 297,
+    "AssignedByFullName": "Prof. Yessenia Baumbach Jr.",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "eos",
-    "SaleId": 479,
-    "SaleName": "Douglas Group",
-    "AssociateName": "Lubowitz, Zboncak and Emard",
-    "CreatedDate": "2010-04-14T03:46:54.0039095+02:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Leatha Williamson",
-    "CreatedByAssociateId": 148,
+    "Location": "autem",
+    "AlarmLeadTime": "quo",
+    "SaleId": 392,
+    "SaleName": "Trantow Group",
+    "AssociateName": "Rau-Pagac",
+    "CreatedDate": "2006-11-06T11:24:47.3126897+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Grace Cruickshank",
+    "CreatedByAssociateId": 803,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 753,
+    "MotherAssociateId": 224,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 560,
-    "Title": "reiciendis",
-    "Agenda": "provident",
-    "InternalNotes": "tempora",
+    "PreferredTZLocation": 975,
+    "Title": "nisi",
+    "Agenda": "itaque",
+    "InternalNotes": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "sapiente",
-  "AppliesToKey": "earum"
+  "RecipeId": "consequuntur",
+  "AppliesToKey": "consequuntur"
 }
 ```
 

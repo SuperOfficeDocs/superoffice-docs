@@ -27,7 +27,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=281
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=990
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 293,
-  "Name": "Kassulke-Reilly",
-  "Tooltip": "vero",
-  "Rank": 756,
+  "SaleTypeId": 597,
+  "Name": "Ondricka-Wisoky",
+  "Tooltip": "dolore",
+  "Rank": 134,
   "DurationUnit": "Century",
-  "SaleDuration": 215,
-  "SaleTypeCatId": 579,
-  "Deleted": true,
+  "SaleDuration": 275,
+  "SaleTypeCatId": 802,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 254,
-  "QuoteLinesTemplate": 816,
-  "ConfirmationLinesTemplate": 748,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 120,
+  "QuoteLinesTemplate": 331,
+  "ConfirmationLinesTemplate": 304,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 731,
-  "MinEarningPercent": 213,
-  "GroupQuoteLinesBy": 640,
-  "SortGroupLinesBy": 870,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 31,
+  "MinEarningPercent": 101,
+  "GroupQuoteLinesBy": 361,
+  "SortGroupLinesBy": 341,
   "Stages": [
     {
-      "Id": 271,
-      "Name": "Frami Group",
-      "ToolTip": "Dolorum nesciunt earum.",
-      "Deleted": true,
-      "Rank": 552,
-      "Type": "facilis",
-      "ColorBlock": 92,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "1998-10-20T03:46:54.9413809+02:00",
+      "Id": 440,
+      "Name": "Gibson, Schinner and Anderson",
+      "ToolTip": "Beatae blanditiis animi.",
+      "Deleted": false,
+      "Rank": 935,
+      "Type": "et",
+      "ColorBlock": 627,
+      "IconHint": "perferendis",
+      "Selected": true,
+      "LastChanged": "2019-08-13T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "quibusdam",
+      "ExtraInfo": "quia",
+      "StyleHint": "nulla",
       "Hidden": true,
-      "FullName": "Darrick Weber",
+      "FullName": "Ms. Johnathon Watsica DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldType": "System.String",
+          "FieldLength": 371
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 18
     }
   }
 }

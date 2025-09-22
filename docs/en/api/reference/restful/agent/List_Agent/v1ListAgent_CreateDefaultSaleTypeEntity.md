@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 547,
-  "Name": "Jenkins, Kulas and Auer",
-  "Tooltip": "fugit",
-  "Rank": 402,
+  "SaleTypeId": 654,
+  "Name": "Reinger Inc and Sons",
+  "Tooltip": "ut",
+  "Rank": 772,
   "DurationUnit": "Century",
-  "SaleDuration": 633,
-  "SaleTypeCatId": 84,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "SaleDuration": 90,
+  "SaleTypeCatId": 765,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 231,
-  "QuoteLinesTemplate": 704,
-  "ConfirmationLinesTemplate": 19,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 245,
+  "QuoteLinesTemplate": 214,
+  "ConfirmationLinesTemplate": 88,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 669,
-  "MinEarningPercent": 340,
-  "GroupQuoteLinesBy": 649,
-  "SortGroupLinesBy": 226,
+  "MaxDiscountPercent": 892,
+  "MinEarningPercent": 645,
+  "GroupQuoteLinesBy": 7,
+  "SortGroupLinesBy": 260,
   "Stages": [
     {
-      "Id": 739,
-      "Name": "Crist LLC",
-      "ToolTip": "Officiis non id quis.",
-      "Deleted": true,
-      "Rank": 334,
-      "Type": "rerum",
-      "ColorBlock": 30,
-      "IconHint": "et",
+      "Id": 211,
+      "Name": "Metz, Boyer and Hegmann",
+      "ToolTip": "Commodi minima.",
+      "Deleted": false,
+      "Rank": 450,
+      "Type": "porro",
+      "ColorBlock": 647,
+      "IconHint": "nulla",
       "Selected": true,
-      "LastChanged": "2006-08-16T03:46:54.9413809+02:00",
+      "LastChanged": "2019-07-22T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "vero",
-      "Hidden": false,
-      "FullName": "Mr. Quincy Brooklyn Waters Jr.",
+      "ExtraInfo": "nisi",
+      "StyleHint": "asperiores",
+      "Hidden": true,
+      "FullName": "Leann Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 626
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldLength": 149
     }
   }
 }

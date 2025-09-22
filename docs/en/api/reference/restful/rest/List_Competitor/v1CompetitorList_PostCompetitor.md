@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 121,
-  "Name": "Rogahn, O'Conner and Hermiston",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 811,
-  "Rank": 973
+  "Id": 921,
+  "Name": "Herman, Greenholt and Howell",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 687,
+  "Rank": 594
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 786,
-  "Name": "Cormier LLC",
-  "Tooltip": "sunt",
+  "Id": 402,
+  "Name": "Jenkins, Bailey and Ortiz",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 591,
-  "Rank": 223,
+  "UdListDefinitionId": 215,
+  "Rank": 785,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

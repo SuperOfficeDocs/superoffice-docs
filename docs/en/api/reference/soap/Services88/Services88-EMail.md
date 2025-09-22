@@ -1503,7 +1503,8 @@ content_type: reference
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q141:ArrayOfstring" xmlns:q141="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
-              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="q140:InitalUtmParameters" />
+              <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="q140:SavedUtmParameters" />
+              <xs:element minOccurs="0" name="LeadstatusId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q140:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q140:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q140:StringDictionary" />
@@ -1876,11 +1877,17 @@ content_type: reference
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="ConsentInfo" nillable="true" type="q186:ConsentInfo" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="InitalUtmParameters">
+      <xs:complexType name="SavedUtmParameters">
         <xs:complexContent mixed="false">
           <xs:extension base="q187:Carrier" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="FormName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchSource" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchMedium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchCampaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchTerm" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchContent" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchReferrerDomain" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
@@ -1891,7 +1898,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="InitalUtmParameters" nillable="true" type="q188:InitalUtmParameters" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SavedUtmParameters" nillable="true" type="q188:SavedUtmParameters" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetPersonsFromEmailAddress">
         <xs:complexType>
           <xs:sequence>

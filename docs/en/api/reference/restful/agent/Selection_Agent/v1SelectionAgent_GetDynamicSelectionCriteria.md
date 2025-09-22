@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 72
+  "SelectionId": 127
 }
 ```
 
@@ -97,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert Inc and Sons",
-    "Operator": "ut",
+    "Name": "Rutherford-Farrell",
+    "Operator": "deleniti",
     "Values": [
-      "aut",
-      "nisi"
+      "ut",
+      "asperiores"
     ],
     "DisplayValues": [
-      "est",
-      "dignissimos"
+      "dolorem",
+      "cupiditate"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Tremblay, Gutmann and Kreiger",
-        "Operator": "sapiente",
+        "Name": "Grimes Group",
+        "Operator": "consectetur",
         "Values": [
-          "voluptatem",
-          "iure"
+          "rerum",
+          "veniam"
         ],
         "DisplayValues": [
-          "at",
-          "facere"
+          "autem",
+          "odit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,14 +127,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 788,
+        "InterParenthesis": 440,
         "InterOperator": "And",
-        "UniqueHash": 310
+        "UniqueHash": 272
       }
     ],
-    "InterParenthesis": 753,
+    "InterParenthesis": 561,
     "InterOperator": "And",
-    "UniqueHash": 279
+    "UniqueHash": 560
   }
 ]
 ```

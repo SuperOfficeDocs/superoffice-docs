@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Kutch-Flatley",
-    "ToolTip": "Consequatur non et veniam impedit pariatur.",
-    "Deleted": true,
-    "Rank": 249,
-    "Type": "voluptate",
-    "ColorBlock": 562,
-    "IconHint": "adipisci",
+    "Id": 633,
+    "Name": "Roberts-Mayer",
+    "ToolTip": "Accusantium vero sit aut aliquam alias.",
+    "Deleted": false,
+    "Rank": 464,
+    "Type": "optio",
+    "ColorBlock": 814,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2000-04-14T03:47:00.5974251+02:00",
+    "LastChanged": "2000-08-01T11:24:53.8749217+02:00",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Grant-Wilderman",
-        "ToolTip": "Tenetur impedit officiis autem mollitia.",
+        "Id": 743,
+        "Name": "McGlynn, Collier and Blick",
+        "ToolTip": "Minima excepturi voluptates laborum et.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "possimus",
-        "ColorBlock": 62,
-        "IconHint": "exercitationem",
+        "Rank": 843,
+        "Type": "amet",
+        "ColorBlock": 237,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1999-01-29T03:47:00.5974251+01:00",
+        "LastChanged": "1999-10-02T11:24:53.8749217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Miss Wilbert Larry Stehr",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "aliquid",
+        "Hidden": true,
+        "FullName": "Madelyn Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 230
+            "FieldLength": 284
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "sed",
+    "StyleHint": "provident",
     "Hidden": true,
-    "FullName": "Ms. Jaleel Dooley DVM",
+    "FullName": "Justen Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 596
       }
     }
   }

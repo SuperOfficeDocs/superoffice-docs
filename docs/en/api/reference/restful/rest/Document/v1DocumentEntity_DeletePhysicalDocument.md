@@ -79,11 +79,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quaerat",
-  "VersionId": "dolores",
+  "ExternalReference": "voluptatem",
+  "VersionId": "quam",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "similique",
-  "AdditionalInfo": "numquam"
+  "Value": "velit",
+  "AdditionalInfo": "sit"
 }
 ```

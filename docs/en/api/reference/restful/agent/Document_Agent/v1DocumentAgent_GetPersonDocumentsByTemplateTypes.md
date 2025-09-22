@@ -100,18 +100,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 884,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2003-03-27T03:46:54.6288867+01:00",
-  "EndTime": "2012-11-19T03:46:54.6288867+01:00",
-  "Count": 145,
+  "PersonId": 912,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2000-11-23T11:24:47.9376639+01:00",
+  "EndTime": "2003-12-10T11:24:47.9376639+01:00",
+  "Count": 4,
   "DocumentTemplateIds": [
-    955,
-    767
+    112,
+    879
   ]
 }
 ```
@@ -124,32 +124,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 20,
-    "Attention": "pariatur",
-    "Header": "laborum",
-    "Name": "Morar, Huels and Roob",
-    "OurRef": "alias",
-    "YourRef": "pariatur",
-    "Description": "Fully-configurable executive circuit",
-    "DocumentTemplate": "est",
+    "DocumentId": 841,
+    "Attention": "reprehenderit",
+    "Header": "nostrum",
+    "Name": "Abbott-Murazik",
+    "OurRef": "consequatur",
+    "YourRef": "sapiente",
+    "Description": "Assimilated directional access",
+    "DocumentTemplate": "omnis",
     "IsPublished": true,
-    "PersonId": 863,
-    "PersonFullName": "Stuart Gleason",
-    "AssociateFullName": "Lucienne Wolf",
-    "ContactId": 635,
-    "ContactName": "West-Huel",
-    "ProjectId": 665,
-    "ProjectName": "Kunze-Spinka",
-    "AssociateId": 450,
-    "Snum": 888,
-    "SaleId": 504,
-    "SaleName": "Sipes-Larkin",
+    "PersonId": 908,
+    "PersonFullName": "Allene Aufderhar MD",
+    "AssociateFullName": "Rosella Jakubowski",
+    "ContactId": 817,
+    "ContactName": "West-Yost",
+    "ProjectId": 188,
+    "ProjectName": "Conn-Konopelski",
+    "AssociateId": 936,
+    "Snum": 814,
+    "SaleId": 556,
+    "SaleName": "Koch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

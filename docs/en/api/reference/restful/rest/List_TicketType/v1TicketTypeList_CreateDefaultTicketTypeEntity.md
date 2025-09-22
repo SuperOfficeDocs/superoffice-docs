@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 966,
-  "Name": "Nader Inc and Sons",
-  "Rank": 136,
-  "Tooltip": "quasi",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 765,
+  "TicketTypeId": 324,
+  "Name": "Klocko, Kemmer and Lueilwitz",
+  "Rank": 389,
+  "Tooltip": "nihil",
+  "Icon": "tenetur",
+  "DefaultTicketStatus": 298,
   "TicketStatuses": [
-    841,
-    693
+    899,
+    715
   ],
-  "DefaultTicketPriority": 751,
+  "DefaultTicketPriority": 380,
   "TicketPriorities": [
-    878,
-    987
+    921,
+    702
   ],
-  "ReplyTemplate": 732,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 535,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    258,
-    478
+    26,
+    633
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

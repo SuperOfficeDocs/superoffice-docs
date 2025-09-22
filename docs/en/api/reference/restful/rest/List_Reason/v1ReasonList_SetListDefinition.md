@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 593,
-  "Name": "Hintz-Labadie",
-  "Tooltip": "quia",
+  "Id": 932,
+  "Name": "Kuhic-Jacobson",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 467,
-  "IsCustomList": true,
+  "Rank": 140,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": true
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Sipes Inc and Sons",
-  "Tooltip": "placeat",
+  "Id": 66,
+  "Name": "Fadel Group",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 769,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 580,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "quae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 687
     }
   }
 }

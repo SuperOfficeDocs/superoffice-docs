@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 829
+  "SelectedListId": 837
 }
 ```
 
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 602,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 487,
-  "FieldLabel": "nulla",
-  "FieldLeft": 764,
-  "FieldTop": 62,
+  "UDefFieldId": 296,
+  "ColumnId": 632,
+  "FieldDefault": "eveniet",
+  "FieldHeight": 40,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 724,
+  "FieldTop": 894,
   "FieldType": "Checkbox",
-  "FieldWidth": 676,
-  "FormatMask": "sint",
-  "HideLabel": true,
+  "FieldWidth": 286,
+  "FormatMask": "velit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 229,
-  "LabelLeft": 455,
-  "LabelTop": 140,
-  "LabelWidth": 288,
-  "LastVersionId": 426,
-  "ListTableId": 214,
-  "IsMandatory": false,
+  "LabelHeight": 246,
+  "LabelLeft": 162,
+  "LabelTop": 847,
+  "LabelWidth": 199,
+  "LastVersionId": 633,
+  "ListTableId": 415,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 708,
-  "ProgId": "rerum",
-  "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 411,
-  "TextLength": 204,
-  "Tooltip": "nulla",
-  "UdefIdentity": 797,
-  "UDListDefinitionId": 867,
+  "Page1LineNo": 539,
+  "ProgId": "nemo",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 419,
+  "TextLength": 471,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 943,
+  "UDListDefinitionId": 639,
   "Justification": "Center",
-  "Version": 482,
-  "TemplateVariableName": "Klein Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Osinski, Connelly and Hyatt",
+  "Version": 376,
+  "TemplateVariableName": "Kihn-Koelpin",
+  "HasBeenPublished": true,
+  "MdoListName": "Upton LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldLength": 638
     }
   }
 }

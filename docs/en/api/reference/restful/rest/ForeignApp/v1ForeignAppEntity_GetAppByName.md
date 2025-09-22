@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,32 +74,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Aug 2011 03:47:00 G8T
+Last-Modified: Wed, 10 May 2006 11:24:53 G5T
 
 {
-  "ForeignAppId": 235,
-  "Name": "Robel, Spencer and Feeney",
-  "CreatedDate": "2007-11-08T03:47:00.0193121+01:00",
-  "UpdatedDate": "2011-08-14T03:47:00.0193121+02:00",
+  "ForeignAppId": 303,
+  "Name": "Little Group",
+  "CreatedDate": "2009-11-20T11:24:53.2968202+01:00",
+  "UpdatedDate": "2006-05-10T11:24:53.2968202+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 208,
-      "Name": "Toy-Becker",
-      "CreatedDate": "2011-01-14T03:47:00.0349452+01:00",
-      "UpdatedDate": "2022-05-10T03:47:00.0349452+02:00",
-      "AssociateFullName": "Ms. Lilla Elinor Macejkovic",
-      "CreatedBy": "quibusdam",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "consequatur",
-      "ForeignAppId": 80,
+      "ForeignDeviceId": 154,
+      "Name": "Kozey-Green",
+      "CreatedDate": "2016-11-23T11:24:53.2968202+01:00",
+      "UpdatedDate": "2001-07-23T11:24:53.2968202+02:00",
+      "AssociateFullName": "Jonathon Grant",
+      "CreatedBy": "ratione",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "ad",
+      "ForeignAppId": 176,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 653
         }
       }
     }
@@ -109,7 +109,7 @@ Last-Modified: Sun, 14 Aug 2011 03:47:00 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 277
     }
   }
 }

@@ -83,9 +83,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "vel",
-  "From": "tempore",
-  "UseStoredPassword": false
+  "SmtpUri": "non",
+  "From": "dolorem",
+  "UseStoredPassword": true
 }
 ```
 
@@ -97,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "ErrorMessage": "quis",
+  "ErrorMessage": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 620
     }
   }
 }

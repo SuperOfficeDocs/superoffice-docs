@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 809,
+    "Name": "Sauer, Olson and Doyle",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 319,
+    "UdListDefinitionId": 80
   },
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 809,
+    "Name": "Sauer, Olson and Doyle",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "Rank": 319,
+    "UdListDefinitionId": 80
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "McDermott, Grant and Kirlin",
-    "Tooltip": "consequatur",
+    "HeadingId": 831,
+    "Name": "Beer Group",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "Rank": 685,
-    "UdListDefinitionId": 445,
+    "Rank": 153,
+    "UdListDefinitionId": 633,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldType": "System.Int32",
+        "FieldLength": 249
       }
     }
   }

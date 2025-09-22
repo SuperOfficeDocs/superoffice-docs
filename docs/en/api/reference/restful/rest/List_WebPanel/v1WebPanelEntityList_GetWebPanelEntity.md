@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,34 +94,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 443,
-  "Name": "Daniel, Gulgowski and Koelpin",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 685,
+  "WebPanelId": 783,
+  "Name": "Adams Group",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 352,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Conn, Moore and Upton",
+  "WindowName": "Dicki, Marks and Cronin",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 871,
+  "ProgId": "dolores",
+  "Icon": 461,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 930,
-  "Name": "Schaefer, Adams and Rolfson",
-  "CurrencyId": 796,
-  "EnglishName": "Lowe, Gusikowski and Fay",
+  "CountryId": 962,
+  "Name": "O'Kon, Schamberger and Hills",
+  "CurrencyId": 919,
+  "EnglishName": "Schmeler-Zulauf",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized methodical moderator",
-  "OrgNrText": "545533",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "natus",
-  "ZipPrefix": "ut",
-  "DomainName": "Schmidt, Schuppe and Quigley",
-  "AddressLayoutId": 369,
-  "DomesticAddressLayoutId": 70,
-  "ForeignAddressLayoutId": 292,
-  "Rank": 296,
-  "Tooltip": "eveniet",
+  "ImageDescription": "Devolved national ability",
+  "OrgNrText": "630586",
+  "InterAreaPrefix": "tenetur",
+  "DialInPrefix": "ullam",
+  "ZipPrefix": "in",
+  "DomainName": "Kirlin LLC",
+  "AddressLayoutId": 129,
+  "DomesticAddressLayoutId": 211,
+  "ForeignAddressLayoutId": 653,
+  "Rank": 621,
+  "Tooltip": "reprehenderit",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 738
     }
   }
 }

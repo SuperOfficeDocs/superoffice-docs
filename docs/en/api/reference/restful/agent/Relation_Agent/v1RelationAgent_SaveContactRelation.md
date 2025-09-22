@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 318,
-  "SourcePersonId": 129,
-  "DestinationContactId": 678,
-  "DestinationPersonId": 659,
-  "RelationId": 46,
-  "Comment": "autem",
-  "RelationDefinitionId": 71,
-  "Reversed": 478,
-  "UpdatedDate": "2007-05-20T03:46:55.2382402+02:00",
-  "CreatedDate": "2025-02-10T03:46:55.2382402+01:00",
+  "SourceContactId": 825,
+  "SourcePersonId": 219,
+  "DestinationContactId": 469,
+  "DestinationPersonId": 692,
+  "RelationId": 569,
+  "Comment": "necessitatibus",
+  "RelationDefinitionId": 848,
+  "Reversed": 782,
+  "UpdatedDate": "2006-08-26T11:24:48.5470141+02:00",
+  "CreatedDate": "2015-06-16T11:24:48.5470141+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Abernathy Group",
-  "SourcePersonName": "Olson-McLaughlin",
-  "DestinationContactName": "Towne LLC",
-  "DestinationPersonName": "Gorczany-Abbott",
-  "ActiveText": "dolor",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Hessel Inc and Sons",
+  "SourcePersonName": "Homenick LLC",
+  "DestinationContactName": "Lang LLC",
+  "DestinationPersonName": "Stiedemann Group",
+  "ActiveText": "quis",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 722
     }
   }
 }

@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 433,
-  "ParentId": 53,
-  "Name": "Jakubowski-Auer",
-  "Fullname": "vero",
-  "CategoryMaster": 425,
+  "TicketCategoryId": 459,
+  "ParentId": 320,
+  "Name": "Ledner, Padberg and Williamson",
+  "Fullname": "qui",
+  "CategoryMaster": 792,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rowe Group",
+  "ExternalName": "Lubowitz, Franecki and Shields",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 155,
-  "ReplyTemplate": 304,
-  "NotificationEmail": "dillan@kuphalprice.biz",
+  "AssignmentLag": 251,
+  "ReplyTemplate": 747,
+  "NotificationEmail": "timmothy@keeling.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 224,
+  "EffectiveReplyTemplateId": 566,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "tempora"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "provident"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   }
 }

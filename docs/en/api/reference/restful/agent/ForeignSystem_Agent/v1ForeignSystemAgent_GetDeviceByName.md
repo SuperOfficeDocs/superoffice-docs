@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goldner-Corkery",
-  "DeviceName": "Hermann, Ankunding and Pollich"
+  "ApplicationName": "Blanda, Mitchell and Jacobi",
+  "DeviceName": "Nikolaus, Wisozk and Toy"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 186,
-  "Name": "Ratke Inc and Sons",
-  "CreatedDate": "1998-09-01T03:46:54.847629+02:00",
-  "UpdatedDate": "2022-06-03T03:46:54.847629+02:00",
-  "AssociateFullName": "Brigitte Williamson",
-  "CreatedBy": "rem",
-  "UpdatedBy": "laudantium",
-  "DeviceIdentifier": "expedita",
-  "ForeignAppId": 927,
+  "ForeignDeviceId": 363,
+  "Name": "Schmeler LLC",
+  "CreatedDate": "2021-01-09T11:24:48.1564051+01:00",
+  "UpdatedDate": "2006-12-25T11:24:48.1564051+01:00",
+  "AssociateFullName": "Mr. Sincere Creola O'Hara PhD",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "rerum",
+  "ForeignAppId": 41,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 574
     }
   }
 }

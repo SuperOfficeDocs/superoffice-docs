@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "Thiel-Beer",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 440,
-  "IsCustomList": false,
+  "Id": 270,
+  "Name": "Weissnat, Smith and Strosin",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 95,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   },
   "_Links": {

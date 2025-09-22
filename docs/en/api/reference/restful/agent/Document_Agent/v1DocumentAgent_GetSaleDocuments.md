@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 752
+  "SaleId": 222
 }
 ```
 
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 6,
-    "Attention": "eligendi",
-    "Header": "nulla",
-    "Name": "Hegmann, Schuppe and Ziemann",
-    "OurRef": "perspiciatis",
-    "YourRef": "laborum",
-    "Description": "Fundamental background focus group",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": true,
-    "PersonId": 527,
-    "PersonFullName": "Mr. Noemie Cristal Hagenes",
-    "AssociateFullName": "Alivia Sanford",
-    "ContactId": 185,
-    "ContactName": "Langosh, Fadel and Brakus",
-    "ProjectId": 983,
-    "ProjectName": "Rippin, Kunze and Considine",
-    "AssociateId": 749,
-    "Snum": 318,
-    "SaleId": 363,
-    "SaleName": "Roberts Inc and Sons",
+    "DocumentId": 979,
+    "Attention": "enim",
+    "Header": "est",
+    "Name": "Moen Inc and Sons",
+    "OurRef": "ratione",
+    "YourRef": "omnis",
+    "Description": "Switchable transitional pricing structure",
+    "DocumentTemplate": "voluptatibus",
+    "IsPublished": false,
+    "PersonId": 382,
+    "PersonFullName": "Mathilde Parisian",
+    "AssociateFullName": "Mrs. Aryanna Flavio Ortiz",
+    "ContactId": 542,
+    "ContactName": "Swaniawski-Feeney",
+    "ProjectId": 66,
+    "ProjectName": "Mosciski-White",
+    "AssociateId": 126,
+    "Snum": 167,
+    "SaleId": 291,
+    "SaleName": "Nienow, Brekke and Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

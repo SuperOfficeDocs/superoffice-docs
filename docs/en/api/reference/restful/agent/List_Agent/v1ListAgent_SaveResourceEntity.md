@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 672,
-  "Name": "Ortiz, Wisozk and Wiza",
-  "Rank": 577,
-  "Tooltip": "quod",
+  "ResourceId": 819,
+  "Name": "Aufderhar-Bogisich",
+  "Rank": 761,
+  "Tooltip": "nemo",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "reiciendis"
+  "LocationAddress": "nisi"
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 735,
-  "Name": "Goyette Inc and Sons",
-  "Rank": 33,
-  "Tooltip": "at",
+  "ResourceId": 294,
+  "Name": "Schneider-Crona",
+  "Rank": 2,
+  "Tooltip": "sit",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "voluptate",
+  "LocationAddress": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 20
     }
   }
 }

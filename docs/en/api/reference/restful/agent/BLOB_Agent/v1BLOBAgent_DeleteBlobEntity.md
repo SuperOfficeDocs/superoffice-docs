@@ -26,7 +26,7 @@ Deletes the BlobEntity
 | blobEntityId | int32 | **Required** The identity of the BlobEntity |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=589
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=413
 ```
 
 

@@ -75,9 +75,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "nostrum",
-  "Currents": "quia",
-  "Frameless": false
+  "SoProtocol": "fugiat",
+  "Currents": "autem",
+  "Frameless": true
 }
 ```
 

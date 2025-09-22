@@ -79,26 +79,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 446,
+      "PrefDescId": 146,
+      "PrefValue": "in",
+      "PrefShowValue": "non",
+      "Description": "Multi-lateral high-level open system",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 446,
+      "PrefDescId": 146,
+      "PrefValue": "in",
+      "PrefShowValue": "non",
+      "Description": "Multi-lateral high-level open system",
+      "IsBuiltin": false
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 917,
-    "PrefDescId": 452,
-    "PrefValue": "nemo",
-    "PrefShowValue": "similique",
-    "Description": "Assimilated regional access",
+    "PrefDescLineId": 473,
+    "PrefDescId": 761,
+    "PrefValue": "vel",
+    "PrefShowValue": "quis",
+    "Description": "Streamlined clear-thinking installation",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 423
       }
     }
   }

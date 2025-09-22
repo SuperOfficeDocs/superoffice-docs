@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 36,
-  "Name": "Sporer LLC",
-  "Tooltip": "reprehenderit",
+  "HeadingId": 873,
+  "Name": "Terry-Hamill",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 925,
-  "UdListDefinitionId": 770
+  "Rank": 477,
+  "UdListDefinitionId": 162
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 894,
-  "Name": "Kutch-Gislason",
+  "HeadingId": 268,
+  "Name": "Stiedemann-Rosenbaum",
   "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 717,
-  "UdListDefinitionId": 169,
+  "Deleted": true,
+  "Rank": 311,
+  "UdListDefinitionId": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 881
     }
   }
 }

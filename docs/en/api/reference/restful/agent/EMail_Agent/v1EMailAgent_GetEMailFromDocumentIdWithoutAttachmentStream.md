@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 68
+  "DocumentId": 264
 }
 ```
 
@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 437,
-      "ContactName": "Stokes, Trantow and Dickens",
-      "PersonId": 699,
-      "PersonName": "Kohler-Robel",
-      "AssociateId": 129,
-      "Address": "sint",
-      "EmailId": 295,
+      "ContactId": 675,
+      "ContactName": "Sanford Inc and Sons",
+      "PersonId": 91,
+      "PersonName": "Robel, O'Keefe and Torp",
+      "AssociateId": 826,
+      "Address": "quia",
+      "EmailId": 975,
       "DuplicatePersonIds": [
-        473,
-        696
+        889,
+        890
       ],
-      "Name": "Mosciski, Gutmann and Breitenberg",
+      "Name": "Witting, Osinski and Ebert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 924
+          "FieldLength": 896
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 214,
-      "ContactName": "Kunze, O'Conner and Kovacek",
-      "PersonId": 900,
-      "PersonName": "Torphy-Reynolds",
-      "AssociateId": 281,
-      "Address": "dolorem",
-      "EmailId": 773,
+      "ContactId": 524,
+      "ContactName": "Schumm Group",
+      "PersonId": 225,
+      "PersonName": "Homenick Inc and Sons",
+      "AssociateId": 115,
+      "Address": "excepturi",
+      "EmailId": 810,
       "DuplicatePersonIds": [
-        581,
-        257
+        318,
+        31
       ],
-      "Name": "Jerde-Bechtelar",
+      "Name": "Walsh-Schulist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 606
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 565,
-      "ContactName": "Spencer-Sauer",
-      "PersonId": 459,
-      "PersonName": "Hammes-Mueller",
-      "AssociateId": 501,
-      "Address": "quia",
-      "EmailId": 159,
+      "ContactId": 806,
+      "ContactName": "Abshire Inc and Sons",
+      "PersonId": 351,
+      "PersonName": "Osinski, Kertzmann and Murray",
+      "AssociateId": 765,
+      "Address": "cum",
+      "EmailId": 26,
       "DuplicatePersonIds": [
-        194,
-        250
+        449,
+        527
       ],
-      "Name": "Gutkowski-Becker",
+      "Name": "Runte-Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 985
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "nisi",
+  "Subject": "aut",
+  "HTMLBody": "animi",
   "From": null,
-  "Sent": "2005-08-31T03:46:54.7382579+02:00",
-  "Size": 507,
+  "Sent": "2023-05-26T11:24:48.0470345+02:00",
+  "Size": 754,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "libero",
+  "MessageID": "aliquid",
+  "PlainBody": "quo",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 110,
+  "ServerId": 570,
   "Attachments": [
     {
-      "Description": "Self-enabling zero tolerance firmware",
-      "Filename": "ut",
-      "Size": 687,
-      "Type": "totam",
-      "Encoding": "non",
-      "Id": "enim",
-      "Disposition": "excepturi",
+      "Description": "Object-based directional strategy",
+      "Filename": "quo",
+      "Size": 623,
+      "Type": "aperiam",
+      "Encoding": "consequatur",
+      "Id": "non",
+      "Disposition": "et",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldType": "System.Int32",
+          "FieldLength": 825
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schinner Group",
+      "Name": "McDermott Inc and Sons",
       "Values": [
-        "assumenda",
-        "illo"
+        "eveniet",
+        "provident"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Schinner Group",
+      "Name": "McDermott Inc and Sons",
       "Values": [
-        "assumenda",
-        "illo"
+        "eveniet",
+        "provident"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 476
         }
       }
     }
   ],
-  "FolderName": "Reilly Inc and Sons",
-  "EmailItemId": 464,
-  "AccountId": 980,
-  "ReceivedAt": "1999-10-17T03:46:54.7382579+02:00",
+  "FolderName": "King Inc and Sons",
+  "EmailItemId": 888,
+  "AccountId": 961,
+  "ReceivedAt": "2009-10-21T11:24:48.0470345+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-05-28T03:46:54.7382579+02:00",
+  "RepliedAt": "2025-03-19T11:24:48.0470345+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 45
     }
   }
 }

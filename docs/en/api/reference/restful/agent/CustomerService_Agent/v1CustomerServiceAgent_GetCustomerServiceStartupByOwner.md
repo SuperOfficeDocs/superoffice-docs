@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 475
+  "UserId": 317
 }
 ```
 
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 521,
-  "RecaptchaSiteKey": "et",
+  "TimezoneEnabled": true,
+  "TZOffset": 671,
+  "RecaptchaSiteKey": "magnam",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "nam",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "illo",
-      "DisplayTooltip": "labore",
+      "DisplayValue": "nihil",
+      "DisplayTooltip": "tenetur",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 868,
-      "PrefDescId": 873,
-      "TableName": "Brown, Weimann and Pacocha",
-      "UserPreferenceId": 46,
+      "TargetId": 293,
+      "PrefDescId": 948,
+      "TableName": "O'Hara LLC",
+      "UserPreferenceId": 357,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 436
         }
       }
     }
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

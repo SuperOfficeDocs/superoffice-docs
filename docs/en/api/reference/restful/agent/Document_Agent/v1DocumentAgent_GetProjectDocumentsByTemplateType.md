@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 617,
-  "StartTime": "2012-04-17T03:46:54.6132622+02:00",
-  "EndTime": "2015-11-01T03:46:54.6132622+01:00",
-  "Count": 4,
-  "DocumentTemplateId": 567
+  "ProjectId": 359,
+  "StartTime": "2023-11-15T11:24:47.9376639+01:00",
+  "EndTime": "2022-05-14T11:24:47.9376639+02:00",
+  "Count": 727,
+  "DocumentTemplateId": 495
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 91,
-    "Attention": "consequatur",
-    "Header": "voluptas",
-    "Name": "Abshire, Huels and Reichert",
-    "OurRef": "debitis",
-    "YourRef": "ratione",
-    "Description": "Grass-roots composite interface",
-    "DocumentTemplate": "enim",
+    "DocumentId": 691,
+    "Attention": "unde",
+    "Header": "cupiditate",
+    "Name": "Thiel LLC",
+    "OurRef": "rerum",
+    "YourRef": "eos",
+    "Description": "Automated zero administration standardization",
+    "DocumentTemplate": "velit",
     "IsPublished": false,
-    "PersonId": 970,
-    "PersonFullName": "Ms. Arlie Eliezer Purdy",
-    "AssociateFullName": "Berta Krajcik",
-    "ContactId": 946,
-    "ContactName": "Goldner Inc and Sons",
-    "ProjectId": 281,
-    "ProjectName": "Greenfelder Group",
-    "AssociateId": 31,
-    "Snum": 763,
-    "SaleId": 851,
-    "SaleName": "Shields, O'Conner and Rohan",
+    "PersonId": 858,
+    "PersonFullName": "Miss Norwood Michale Hyatt IV",
+    "AssociateFullName": "Arvid Upton",
+    "ContactId": 747,
+    "ContactName": "Daniel, Nader and Orn",
+    "ProjectId": 561,
+    "ProjectName": "Ritchie, Schmeler and Cremin",
+    "AssociateId": 930,
+    "Snum": 412,
+    "SaleId": 417,
+    "SaleName": "Mayer-Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldLength": 920
       }
     }
   }

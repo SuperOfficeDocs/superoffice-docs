@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Roberts, Gorczany and Weissnat",
-  "ProviderName": "Yundt Inc and Sons",
-  "Context": "molestiae",
-  "OwnerKeys": "sed"
+  "GuiName": "Gutmann LLC",
+  "ProviderName": "Wuckert LLC",
+  "Context": "laborum",
+  "OwnerKeys": "in"
 }
 ```
 
@@ -102,68 +102,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hahn Inc and Sons",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Rolfson, Bauch and Mills",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Rice-Gislason",
+      "DisplayName": "Quigley, Turcotte and Braun",
+      "DisplayTooltip": "laudantium",
+      "DisplayType": "est",
+      "CanOrderBy": false,
+      "Name": "Marquardt, Hand and Rolfson",
+      "CanRestrictBy": true,
+      "RestrictionType": "aliquam",
+      "RestrictionListName": "Hand Group",
       "IsVisible": false,
-      "ExtraInfo": "consectetur",
-      "Width": "consequatur",
-      "IconHint": "illum",
-      "HeadingIconHint": "molestias"
+      "ExtraInfo": "cumque",
+      "Width": "et",
+      "IconHint": "omnis",
+      "HeadingIconHint": "quas"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 508,
-      "Name": "Sawayn, Effertz and Gerhold",
-      "ToolTip": "Accusamus deleniti est qui iure quia aperiam placeat.",
-      "Deleted": true,
-      "Rank": 675,
-      "Type": "inventore",
-      "ColorBlock": 609,
-      "IconHint": "omnis",
-      "Selected": false,
-      "LastChanged": "2016-04-15T03:46:54.2851489+02:00",
+      "Id": 857,
+      "Name": "Koss, Haley and Bosco",
+      "ToolTip": "Laboriosam aut et pariatur consequatur aut asperiores eum.",
+      "Deleted": false,
+      "Rank": 995,
+      "Type": "qui",
+      "ColorBlock": 385,
+      "IconHint": "corporis",
+      "Selected": true,
+      "LastChanged": "2007-09-08T11:24:47.5939281+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "et",
+      "ExtraInfo": "molestiae",
+      "StyleHint": "saepe",
       "Hidden": false,
-      "FullName": "Melyssa Daugherty",
+      "FullName": "Alyson Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 896
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Krajcik LLC",
+      "Name": "McKenzie-Davis",
       "Direction": "ASC"
     },
     {
-      "Name": "Krajcik LLC",
+      "Name": "McKenzie-Davis",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptatum",
+  "OwnerKeys": "blanditiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 279
     }
   }
 }

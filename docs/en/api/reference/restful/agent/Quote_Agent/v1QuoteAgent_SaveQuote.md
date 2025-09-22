@@ -102,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 496,
-  "SaleId": 461,
-  "QuoteConnectionId": 543,
-  "ERPQuoteKey": "esse",
-  "ERPOrderKey": "enim",
-  "ActiveQuoteVersionId": 658,
-  "AcceptedQuoteAlternativeId": 676,
-  "UseValuesFromQuote": 440,
-  "DocumentId": 744,
-  "PoNumber": "1045251",
-  "OrderComment": "non",
-  "PreferredEmailCulture": "nyasia_bartoletti@rolfson.co.uk",
+  "QuoteId": 810,
+  "SaleId": 618,
+  "QuoteConnectionId": 621,
+  "ERPQuoteKey": "veniam",
+  "ERPOrderKey": "modi",
+  "ActiveQuoteVersionId": 775,
+  "AcceptedQuoteAlternativeId": 422,
+  "UseValuesFromQuote": 420,
+  "DocumentId": 482,
+  "PoNumber": "620412",
+  "OrderComment": "ut",
+  "PreferredEmailCulture": "jan.hartmann@walsh.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   }
 }

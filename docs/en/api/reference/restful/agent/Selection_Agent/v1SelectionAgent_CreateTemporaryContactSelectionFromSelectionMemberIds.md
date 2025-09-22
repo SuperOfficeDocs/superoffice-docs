@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 326,
+  "SelectionId": 359,
   "SelectionMemberIds": [
-    941,
-    222
+    300,
+    380
   ]
 }
 ```
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional content-based algorithm",
-  "Postit": "atque",
+  "Description": "Pre-emptive responsive approach",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 963,
-  "IncludePerson": 379,
+  "GroupIdx": 82,
+  "IncludePerson": 60,
   "MemberCount": 99.99,
-  "Name": "Hermiston Group",
-  "PostitTextId": 711,
-  "CreatedDate": "2000-03-29T03:46:55.3788724+02:00",
-  "SelectionId": 558,
-  "SoundEx": "facere",
-  "Source": 761,
-  "TextId": 681,
-  "UpdatedDate": "2002-07-29T03:46:55.3788724+02:00",
-  "UpdatedCount": 991,
-  "Visibility": 25,
+  "Name": "Conroy, Jacobson and Mann",
+  "PostitTextId": 902,
+  "CreatedDate": "2022-08-13T11:24:48.6407604+02:00",
+  "SelectionId": 718,
+  "SoundEx": "consequatur",
+  "Source": 830,
+  "TextId": 508,
+  "UpdatedDate": "2001-11-17T11:24:48.6407604+01:00",
+  "UpdatedCount": 682,
+  "Visibility": 322,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 903,
-  "TargetTableName": "Kub, Hudson and Kilback",
+  "CompanyUnique": false,
+  "TargetTableNumber": 731,
+  "TargetTableName": "West-Orn",
   "Completed": false,
-  "LeftSelectionId": 772,
-  "RightSelectionId": 74,
+  "LeftSelectionId": 546,
+  "RightSelectionId": 299,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mraz, Hilll and Hamill",
-  "ShadowProviderName": "Rath LLC",
-  "ChartKey": "quia",
-  "LastLoaded": "2013-09-17T03:46:55.3788724+02:00",
-  "LastLoadedBy": 707,
+  "MainProviderName": "Sporer, Brown and Toy",
+  "ShadowProviderName": "Langworth Group",
+  "ChartKey": "deleniti",
+  "LastLoaded": "2006-10-18T11:24:48.6407604+02:00",
+  "LastLoadedBy": 852,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-06-19T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 941,
+  "LastMembershipChange": "2001-04-03T11:24:48.6407604+02:00",
+  "LastMembershipChangeBy": 828,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "inventore",
-  "MemberTabHeading": "corrupti",
-  "MailingsProviderName": "Haag, Lueilwitz and Thiel",
-  "DashboardTileDefinitionId": 55,
+  "MainHeading": "nulla",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Fritsch, Nolan and Koch",
+  "DashboardTileDefinitionId": 552,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 589,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 589,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 245
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

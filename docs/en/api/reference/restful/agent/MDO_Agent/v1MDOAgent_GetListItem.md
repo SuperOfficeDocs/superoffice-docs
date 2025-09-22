@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Weissnat, Greenholt and Jakubowski",
-  "Id": 997
+  "ListName": "Wunsch LLC",
+  "Id": 697
 }
 ```
 
@@ -102,50 +102,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Effertz, Murray and Feeney",
-  "ToolTip": "Dolor consequatur eum error ut et maxime.",
-  "Deleted": true,
-  "Rank": 354,
-  "Type": "ut",
+  "Id": 869,
+  "Name": "McClure Group",
+  "ToolTip": "Tempore est.",
+  "Deleted": false,
+  "Rank": 475,
+  "Type": "sed",
   "ChildItems": [
     {
-      "Id": 986,
-      "Name": "Gislason Inc and Sons",
-      "ToolTip": "Modi mollitia est tempore soluta.",
-      "Deleted": true,
-      "Rank": 795,
-      "Type": "consequuntur",
+      "Id": 35,
+      "Name": "Bartell, Kirlin and Stracke",
+      "ToolTip": "Quae praesentium sapiente.",
+      "Deleted": false,
+      "Rank": 586,
+      "Type": "fuga",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "saepe",
-      "ColorBlock": 238,
-      "ExtraInfo": "nisi",
-      "StyleHint": "sed",
-      "FullName": "Merle Wilkinson",
+      "IconHint": "fugiat",
+      "ColorBlock": 957,
+      "ExtraInfo": "quo",
+      "StyleHint": "adipisci",
+      "FullName": "Mrs. Luella Gibson IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 50
         }
       }
     }
   ],
-  "IconHint": "ut",
-  "ColorBlock": 375,
-  "ExtraInfo": "et",
-  "StyleHint": "voluptate",
-  "FullName": "Tyreek Meaghan Schmeler IV",
+  "IconHint": "officiis",
+  "ColorBlock": 132,
+  "ExtraInfo": "odio",
+  "StyleHint": "nostrum",
+  "FullName": "Dr. Brandt Sonya Murazik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 557
     }
   }
 }

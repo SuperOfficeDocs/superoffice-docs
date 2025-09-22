@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmitt Inc and Sons",
-  "DeviceName": "Prosacco-Bahringer",
-  "DeviceIdentifier": "tempora",
-  "KeyName": "Howell LLC",
-  "KeyValue": "laboriosam",
-  "TableName": "Bartell LLC"
+  "ApplicationName": "Baumbach-Farrell",
+  "DeviceName": "Wiegand Inc and Sons",
+  "DeviceIdentifier": "accusantium",
+  "KeyName": "Ledner Group",
+  "KeyValue": "aut",
+  "TableName": "Rippin Group"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "fugit",
-  "RecordId": 298,
-  "CreatedDate": "2004-03-31T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-10-28T03:46:54.9107593+02:00",
-  "UpdatedBy": "nulla",
-  "CreatedBy": "assumenda",
-  "TableName": "Mertz-Koelpin",
+  "Key": "laboriosam",
+  "Value": "aliquid",
+  "RecordId": 18,
+  "CreatedDate": "2017-04-05T11:24:48.1564051+02:00",
+  "UpdatedDate": "1998-08-10T11:24:48.1564051+02:00",
+  "UpdatedBy": "natus",
+  "CreatedBy": "cum",
+  "TableName": "Prosacco Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

@@ -168,10 +168,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "vitae",
-  "ProviderName": "Douglas Group",
-  "PageSize": 232,
-  "PageNumber": 977
+  "Restrictions": "a",
+  "ProviderName": "Prosacco, Flatley and Parisian",
+  "PageSize": 982,
+  "PageNumber": 784
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden Group",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "modi",
+      "DisplayName": "Ledner, Torp and Reichert",
+      "DisplayTooltip": "asperiores",
+      "DisplayType": "voluptas",
       "CanOrderBy": false,
-      "Name": "Swift Group",
+      "Name": "Daniel-Ritchie",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Abernathy-Greenfelder",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "natus",
-      "IconHint": "ducimus",
-      "HeadingIconHint": "velit"
+      "RestrictionType": "aliquid",
+      "RestrictionListName": "Dibbert-Roob",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "debitis",
+      "IconHint": "fugiat",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyer LLC",
-      "PrimaryKey": 222,
+      "EntityName": "Ledner Group",
+      "PrimaryKey": 468,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "hic",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "et",
+          "TooltipHint": "eos",
+          "LinkHint": "odio"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "dolorem",
+      "LinkHint": "qui",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 580
         }
       }
     }
   ],
-  "RowCount": 496,
+  "RowCount": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   }
 }

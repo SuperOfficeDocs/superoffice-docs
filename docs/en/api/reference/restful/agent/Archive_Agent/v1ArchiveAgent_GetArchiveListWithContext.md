@@ -110,48 +110,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larkin Group",
-  "ProviderName": "Stark, Schaden and Tillman",
+  "GuiName": "Zulauf LLC",
+  "ProviderName": "Spencer-Nolan",
   "SortOrder": [
     {
-      "Name": "Veum, Koch and Halvorson",
+      "Name": "Hilpert, Spencer and Reynolds",
       "Direction": "ASC"
     },
     {
-      "Name": "Veum, Koch and Halvorson",
+      "Name": "Hilpert, Spencer and Reynolds",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hilpert-Abshire",
-      "Operator": "et",
+      "Name": "Nitzsche-Bartell",
+      "Operator": "qui",
       "Values": [
-        "quibusdam",
-        "incidunt"
+        "qui",
+        "quisquam"
       ],
       "DisplayValues": [
-        "id",
-        "odio"
+        "asperiores",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 492,
       "InterOperator": "And",
-      "UniqueHash": 532
+      "UniqueHash": 496
     }
   ],
   "Entities": [
-    "alias",
-    "commodi"
+    "et",
+    "libero"
   ],
-  "Page": 982,
-  "PageSize": 687,
-  "Context": "officia"
+  "Page": 48,
+  "PageSize": 720,
+  "Context": "qui"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Batz LLC",
-    "PrimaryKey": 956,
+    "EntityName": "McKenzie, McKenzie and Bayer",
+    "PrimaryKey": 905,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "eos",
-        "TooltipHint": "omnis",
-        "LinkHint": "est"
+        "DisplayValue": "nulla",
+        "TooltipHint": "nisi",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "et",
+    "LinkHint": "sed",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 817
       }
     }
   }

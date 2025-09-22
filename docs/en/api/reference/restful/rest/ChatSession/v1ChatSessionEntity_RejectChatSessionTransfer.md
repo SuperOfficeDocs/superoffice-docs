@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,42 +102,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 140,
-  "TopicId": 425,
+  "ChatSessionId": 278,
+  "TopicId": 916,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequatur",
-  "CustomerHost": "ea",
-  "CustomerName": "Brekke, Monahan and Douglas",
-  "CustomerEmail": "electa.nikolaus@mante.us",
-  "CustomerPhone": "(827)507-4828",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Ullrich LLC",
+  "CustomerAlias": "iure",
+  "CustomerHost": "aut",
+  "CustomerName": "Zboncak, Smith and Cummings",
+  "CustomerEmail": "camden.kutch@hane.ca",
+  "CustomerPhone": "(054)059-9880 x88776",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Effertz, Nienow and Luettgen",
   "Status": "Closed",
-  "FirstMessage": "possimus",
-  "LastMessage": "sit",
-  "WhenRequested": "2011-07-09T03:46:59.7693215+02:00",
-  "WhenStarted": "2005-12-04T03:46:59.7693215+01:00",
-  "WhenEnded": "2022-02-12T03:46:59.7693215+01:00",
-  "WhenIdle": "2012-07-01T03:46:59.7693215+02:00",
-  "WhenFetched": "2019-02-05T03:46:59.7693215+01:00",
-  "SessionKey": "quae",
-  "InitialQueuePos": 963,
-  "AlertLevel": 217,
-  "Rank": 971,
+  "FirstMessage": "nam",
+  "LastMessage": "unde",
+  "WhenRequested": "2002-03-24T11:24:53.0312061+01:00",
+  "WhenStarted": "2021-02-04T11:24:53.0312061+01:00",
+  "WhenEnded": "2011-02-08T11:24:53.0312061+01:00",
+  "WhenIdle": "2023-01-27T11:24:53.0312061+01:00",
+  "WhenFetched": "2016-07-01T11:24:53.0312061+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 19,
+  "AlertLevel": 168,
+  "Rank": 675,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 419,
+  "ChatbotIsActive": true,
+  "Rating": 330,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 862
     }
   }

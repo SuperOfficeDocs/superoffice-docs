@@ -76,26 +76,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 657,
-  "CrmRecordId": 251,
+  "ErpConnectionId": 556,
+  "CrmRecordId": 957,
   "CrmActorType": "Contact",
-  "ErpKey": "vel",
+  "ErpKey": "dignissimos",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
-      "SyncToCrm": false,
+      "DisplayName": "Hirthe-Blanda",
+      "CrmFieldKey": "sit",
+      "Value": "quibusdam",
+      "DisplayValue": "maxime",
+      "SyncToCrm": true,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
-      "SyncToCrm": false,
+      "DisplayName": "Hirthe-Blanda",
+      "CrmFieldKey": "sit",
+      "Value": "quibusdam",
+      "DisplayValue": "maxime",
+      "SyncToCrm": true,
       "SyncToErp": false
     }
   ]

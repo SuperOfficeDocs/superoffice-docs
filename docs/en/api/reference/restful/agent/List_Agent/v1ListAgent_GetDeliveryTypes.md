@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Value": "aut",
-    "Tooltip": "earum",
+    "Id": 451,
+    "Value": "quasi",
+    "Tooltip": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 286
       }
     }
   },
   {
-    "Id": 676,
-    "Value": "aut",
-    "Tooltip": "earum",
+    "Id": 451,
+    "Value": "quasi",
+    "Tooltip": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 286
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 645,
-    "UserName": "Wiza Group",
-    "PersonId": 33,
-    "Rank": 601,
-    "Tooltip": "eum",
-    "UserGroupId": 952,
-    "EjUserId": 731,
+    "UserInfoId": 343,
+    "UserName": "Hermann-Corwin",
+    "PersonId": 871,
+    "Rank": 43,
+    "Tooltip": "quam",
+    "UserGroupId": 709,
+    "EjUserId": 752,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "minus",
-      "repudiandae"
+      "consequatur",
+      "quasi"
     ],
-    "CanLogon": true,
-    "RoleName": "Yundt-Hyatt",
-    "RoleTooltip": "fugiat",
-    "UserGroupName": "Zulauf, Homenick and Gusikowski",
-    "UserGroupTooltip": "pariatur",
+    "CanLogon": false,
+    "RoleName": "Cassin, Runte and Tromp",
+    "RoleTooltip": "et",
+    "UserGroupName": "Jast-O'Kon",
+    "UserGroupTooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 740
       }
     }
   }

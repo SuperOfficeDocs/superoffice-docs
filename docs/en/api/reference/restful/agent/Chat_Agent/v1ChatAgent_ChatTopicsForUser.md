@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,43 +109,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 78,
-    "Name": "Jacobi LLC",
-    "Description": "Reverse-engineered zero administration open system",
-    "WelcomeMessage": "rerum",
+    "ChatTopicId": 641,
+    "Name": "Raynor Inc and Sons",
+    "Description": "User-centric bottom-line initiative",
+    "WelcomeMessage": "quo",
     "Language": null,
-    "LastAccept": "2005-02-02T03:46:54.3945199+01:00",
-    "SecondsPrAccept": 862,
-    "AlertRecipient": "similique",
+    "LastAccept": "2024-03-04T11:24:47.7032984+01:00",
+    "SecondsPrAccept": 380,
+    "AlertRecipient": "et",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "nam",
+    "CollectConsent": true,
+    "BadgeHeader": "fugiat",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "distinctio",
-    "WarnNewChatMinutes": 309,
-    "WarnManagerNewChatMinutes": 427,
-    "TicketEnabled": false,
+    "CustomQueueText": "porro",
+    "WarnNewChatMinutes": 415,
+    "WarnManagerNewChatMinutes": 161,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 576,
-    "WarnManagerChatMessageMinutes": 386,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 871,
-    "OfflineFormQueueLength": 912,
+    "WarnChatMessageMinutes": 450,
+    "WarnManagerChatMessageMinutes": 863,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 900,
+    "OfflineFormQueueLength": 97,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "eveniet",
+    "WidgetRatingText": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 464
       }
     }
   }

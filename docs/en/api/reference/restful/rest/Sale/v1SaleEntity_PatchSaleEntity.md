@@ -158,12 +158,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "dicta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "dicta",
     "value": {}
   }
 ]
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sint",
+  "SaleText": "saepe",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -191,113 +191,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2025-07-02T03:47:00.2693116+02:00",
-  "Amount": 25736.408,
-  "SaleId": 198,
-  "Earning": 5233.78,
-  "EarningPercent": 28193.464,
-  "Heading": "provident",
-  "Number": "1299457",
-  "Probability": 375,
-  "CreatedDate": "2000-12-14T03:47:00.2693116+01:00",
-  "UpdatedDate": "2012-04-21T03:47:00.2693116+02:00",
+  "Saledate": "2020-04-16T11:24:53.54681+02:00",
+  "Amount": 11131.967999999999,
+  "SaleId": 647,
+  "Earning": 949.602,
+  "EarningPercent": 15516.434,
+  "Heading": "reprehenderit",
+  "Number": "800473",
+  "Probability": 264,
+  "CreatedDate": "2013-06-07T11:24:53.54681+02:00",
+  "UpdatedDate": "2009-07-13T11:24:53.54681+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 505,
+  "ActiveLinks": 140,
   "Links": [
     {
-      "EntityName": "Kuhic, Gottlieb and Ratke",
-      "Id": 87,
-      "Description": "Managed discrete capacity",
-      "ExtraInfo": "nemo",
-      "LinkId": 341,
+      "EntityName": "Kreiger-Yost",
+      "Id": 343,
+      "Description": "Pre-emptive tertiary approach",
+      "ExtraInfo": "sed",
+      "LinkId": 838,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 252
         }
       }
     }
   ],
-  "NextDueDate": "2012-04-26T03:47:00.2693116+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2005-09-24T11:24:53.54681+02:00",
+  "Postit": "harum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-03-18T03:47:00.2693116+01:00",
+  "ReopenDate": "2017-08-20T11:24:53.54681+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Anderson Group",
-      "Comment": "rerum",
-      "StakeholderRoleId": 968,
-      "CountryId": 107,
-      "PersonId": 789,
-      "EmailDescription": "bradley@schaefer.us",
-      "EmailId": 136,
-      "EmailAddress": "edgardo_heathcote@mcdermottdooley.uk",
-      "PhoneId": 333,
-      "ContactName": "Ankunding Inc and Sons",
-      "ContactId": 483,
-      "SaleId": 353,
-      "Mrmrs": "voluptatibus",
-      "Firstname": "Violet",
-      "MiddleName": "Kunde LLC",
-      "Lastname": "Emmerich",
-      "SaleStakeholderId": 616,
-      "Rank": 529,
-      "Phone": "005-217-8993 x6387",
+      "StakeholderRoleName": "Schuster, Barrows and Thompson",
+      "Comment": "aut",
+      "StakeholderRoleId": 530,
+      "CountryId": 888,
+      "PersonId": 989,
+      "EmailDescription": "ryley@cartwright.ca",
+      "EmailId": 598,
+      "EmailAddress": "jeremie@botsforddonnelly.name",
+      "PhoneId": 849,
+      "ContactName": "Denesik Inc and Sons",
+      "ContactId": 405,
+      "SaleId": 907,
+      "Mrmrs": "doloremque",
+      "Firstname": "Waldo",
+      "MiddleName": "Funk Inc and Sons",
+      "Lastname": "Lind",
+      "SaleStakeholderId": 407,
+      "Rank": 976,
+      "Phone": "(559)235-2288",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldType": "System.String",
+          "FieldLength": 33
         }
       }
     }
   ],
-  "ActiveErpLinks": 716,
+  "ActiveErpLinks": 395,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kira Roob",
-    "SuperOffice:2": "1706238604"
+    "SuperOffice:1": "Loren Gibson",
+    "SuperOffice:2": "1983332896"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "autem"
+    "CustomFields1": "officiis",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "2002-12-28T03:47:00.2693116+01:00",
-  "PublishTo": "2019-09-26T03:47:00.2693116+02:00",
-  "PublishFrom": "2021-03-27T03:47:00.2693116+01:00",
+  "PublishEventDate": "2004-10-14T11:24:53.54681+02:00",
+  "PublishTo": "2004-03-13T11:24:53.54681+01:00",
+  "PublishFrom": "2021-05-20T11:24:53.54681+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 998,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 911
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 998,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 911
         }
       }
     }
@@ -307,7 +307,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 364
     }
   },
   "_Links": {

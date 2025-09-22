@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 438,
-    "Name": "Purdy-Ullrich",
-    "Tooltip": "neque",
-    "Rank": 355,
-    "Key": "aut",
-    "Deleted": true,
+    "LegalBaseId": 940,
+    "Name": "Feil, Hayes and McKenzie",
+    "Tooltip": "maxime",
+    "Rank": 186,
+    "Key": "dolor",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 947
       }
     }
   }

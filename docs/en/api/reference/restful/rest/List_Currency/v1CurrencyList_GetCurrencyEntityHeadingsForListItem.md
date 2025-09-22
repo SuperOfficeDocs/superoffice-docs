@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Rippin Group",
-    "ToolTip": "Excepturi eaque in.",
+    "Id": 142,
+    "Name": "Jacobi, Mohr and Fadel",
+    "ToolTip": "Accusamus iure mollitia vel sed.",
     "Deleted": false,
-    "Rank": 583,
-    "Type": "impedit",
-    "ColorBlock": 709,
-    "IconHint": "voluptatem",
+    "Rank": 913,
+    "Type": "ab",
+    "ColorBlock": 693,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "1999-09-21T03:47:00.628674+02:00",
+    "LastChanged": "2023-03-30T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Kunde Inc and Sons",
-        "ToolTip": "Nesciunt sed.",
+        "Id": 537,
+        "Name": "Hudson, Runolfsson and Murphy",
+        "ToolTip": "At aliquid.",
         "Deleted": true,
-        "Rank": 607,
-        "Type": "ipsam",
-        "ColorBlock": 984,
-        "IconHint": "ducimus",
+        "Rank": 847,
+        "Type": "qui",
+        "ColorBlock": 68,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2009-12-03T03:47:00.628674+01:00",
+        "LastChanged": "2021-03-07T11:24:53.9217949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Alisha Douglas",
+        "ExtraInfo": "quo",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Mrs. Zella Dianna Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Ms. Eddie Nienow",
+    "ExtraInfo": "qui",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Prof. Brook Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 32
       }
     }
   }

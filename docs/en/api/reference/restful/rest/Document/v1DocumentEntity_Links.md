@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=quod
-GET /api/v1/Document/{id}/Links?$top=911
-GET /api/v1/Document/{id}/Links?$skip=767
+GET /api/v1/Document/{id}/Links?$entities=et
+GET /api/v1/Document/{id}/Links?$top=291
+GET /api/v1/Document/{id}/Links?$skip=918
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=maiores
+GET /api/v1/Document/{id}/Links?$context=ullam
 GET /api/v1/Document/{id}/Links?$format=JSON
-GET /api/v1/Document/{id}/Links?$jsonSafe=False
+GET /api/v1/Document/{id}/Links?$jsonSafe=True
 GET /api/v1/Document/{id}/Links?$output=Display
 ```
 
@@ -135,21 +135,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "a",
+  "odata.nextLink": "fugiat",
   "value": [
     {
-      "PrimaryKey": 7297,
-      "EntityName": "sale",
-      "saleId": 7297,
-      "contactId": 6247,
-      "name": "Carter Group"
+      "PrimaryKey": 4462,
+      "EntityName": "person",
+      "personId": 4462,
+      "fullName": "Sophie Williamson"
     },
     {
-      "PrimaryKey": 3293,
-      "EntityName": "sale",
-      "saleId": 3293,
-      "contactId": 4707,
-      "name": "Anderson, Reynolds and Toy"
+      "PrimaryKey": 3636,
+      "EntityName": "person",
+      "personId": 3636,
+      "fullName": "Ms. Guido Wilbert Pouros MD"
     }
   ]
 }

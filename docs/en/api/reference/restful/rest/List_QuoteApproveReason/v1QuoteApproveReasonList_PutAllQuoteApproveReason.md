@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Dickinson, Klocko and Reynolds",
-    "Tooltip": "accusantium",
+    "Id": 349,
+    "Name": "Feil, Boyle and Heathcote",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 751,
-    "Rank": 834
+    "UdListDefinitionId": 675,
+    "Rank": 579
   },
   {
-    "Id": 258,
-    "Name": "Dickinson, Klocko and Reynolds",
-    "Tooltip": "accusantium",
+    "Id": 349,
+    "Name": "Feil, Boyle and Heathcote",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 751,
-    "Rank": 834
+    "UdListDefinitionId": 675,
+    "Rank": 579
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 402,
-    "Rank": 287,
+    "Id": 318,
+    "Name": "Kessler, Bauch and Dickens",
+    "Tooltip": "repellat",
+    "Deleted": true,
+    "UdListDefinitionId": 797,
+    "Rank": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 476
       }
     }
   }

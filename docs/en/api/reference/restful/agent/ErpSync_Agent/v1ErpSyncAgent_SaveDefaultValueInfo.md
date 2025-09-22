@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 182,
-  "DefaultValue": "vero",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "et",
+  "ErpFieldId": 572,
+  "DefaultValue": "facere",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "sit",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "velit",
+  "ErpFieldKey": "et",
   "FieldType": "Checkbox",
-  "ListName": "Hayes Group",
+  "ListName": "Murphy, Pollich and Wyman",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 902
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Ziemann, Volkman and Gleichner",
-  "Tooltip": "expedita",
+  "Id": 307,
+  "Name": "West Inc and Sons",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "UdListDefinitionId": 866,
-  "Rank": 491,
+  "UdListDefinitionId": 898,
+  "Rank": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldLength": 588
     }
   }
 }

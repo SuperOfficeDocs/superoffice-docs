@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 516,
+  "DocumentId": 633,
   "AllowedReturnTypes": [
-    "rem",
-    "facilis"
+    "harum",
+    "et"
   ]
 }
 ```
@@ -99,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quitzon, Cassin and Koss",
-    "DisplayName": "Roberts Group",
-    "DisplayTooltip": "saepe",
-    "IconHint": "ea",
+    "Name": "Halvorson Group",
+    "DisplayName": "Heathcote, DuBuque and Ullrich",
+    "DisplayTooltip": "quae",
+    "IconHint": "cum",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Quitzon, Cassin and Koss",
-    "DisplayName": "Roberts Group",
-    "DisplayTooltip": "saepe",
-    "IconHint": "ea",
+    "Name": "Halvorson Group",
+    "DisplayName": "Heathcote, DuBuque and Ullrich",
+    "DisplayTooltip": "quae",
+    "IconHint": "cum",
     "ReturnType": "CustomGui"
   }
 ]

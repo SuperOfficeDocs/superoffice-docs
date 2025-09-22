@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "inventore",
-    "soluta"
+    "saepe",
+    "et"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
+    "Date": "2013-02-06T11:24:47.4064385+01:00",
     "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Description": "Synergized logistical artificial intelligence",
+    "DescriptionStyleHint": "User-friendly real-time leverage",
+    "Tooltip": "voluptates"
   },
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
+    "Date": "2013-02-06T11:24:47.4064385+01:00",
     "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Description": "Synergized logistical artificial intelligence",
+    "DescriptionStyleHint": "User-friendly real-time leverage",
+    "Tooltip": "voluptates"
   }
 ]
 ```

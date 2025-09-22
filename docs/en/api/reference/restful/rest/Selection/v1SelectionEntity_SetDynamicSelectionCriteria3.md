@@ -96,34 +96,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice Group",
-    "Operator": "quia",
+    "Name": "Herzog, Jerde and Deckow",
+    "Operator": "sit",
     "Values": [
-      "repellat",
-      "quia"
+      "magnam",
+      "vero"
     ],
     "DisplayValues": [
-      "commodi",
-      "iusto"
+      "minus",
+      "alias"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Monahan Group",
-        "Operator": "dicta",
+        "Name": "Osinski, Jacobson and Renner",
+        "Operator": "itaque",
         "Values": [
-          "minima",
-          "quasi"
+          "totam",
+          "consequatur"
         ],
         "DisplayValues": [
-          "assumenda",
-          "neque"
+          "quis",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -131,14 +131,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 423,
+        "InterParenthesis": 77,
         "InterOperator": "And",
-        "UniqueHash": 909
+        "UniqueHash": 604
       }
     ],
-    "InterParenthesis": 101,
+    "InterParenthesis": 919,
     "InterOperator": "And",
-    "UniqueHash": 329
+    "UniqueHash": 437
   }
 ]
 ```
@@ -151,29 +151,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhic, Donnelly and Mills",
-    "Operator": "ad",
+    "Name": "Haag, Bergstrom and Spencer",
+    "Operator": "illum",
     "Values": [
-      "laborum",
-      "officiis"
+      "quaerat",
+      "reiciendis"
     ],
     "DisplayValues": [
-      "neque",
-      "quis"
+      "rem",
+      "tempore"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Robel Inc and Sons",
-        "Operator": "itaque",
+        "Name": "O'Hara-Hand",
+        "Operator": "eum",
         "Values": [
-          "voluptas",
-          "esse"
+          "id",
+          "minus"
         ],
         "DisplayValues": [
-          "dolor",
-          "est"
+          "omnis",
+          "veritatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 384,
+        "InterParenthesis": 319,
         "InterOperator": "And",
-        "UniqueHash": 119
+        "UniqueHash": 478
       }
     ],
-    "InterParenthesis": 762,
+    "InterParenthesis": 589,
     "InterOperator": "And",
-    "UniqueHash": 567
+    "UniqueHash": 320
   }
 ]
 ```

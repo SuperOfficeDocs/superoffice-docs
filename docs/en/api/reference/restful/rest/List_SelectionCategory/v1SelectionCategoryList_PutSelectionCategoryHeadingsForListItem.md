@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Krajcik-Johns",
-    "ToolTip": "Cumque sapiente maiores.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "dignissimos",
-    "ColorBlock": 547,
-    "IconHint": "incidunt",
+    "Id": 265,
+    "Name": "Bruen, Heaney and Stiedemann",
+    "ToolTip": "Eum in dolorem eligendi amet quo sit.",
+    "Deleted": false,
+    "Rank": 384,
+    "Type": "in",
+    "ColorBlock": 318,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2002-12-21T03:47:00.8161673+01:00",
+    "LastChanged": "2024-07-28T11:24:54.1561606+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Bernhard LLC",
-        "ToolTip": "Expedita porro consequatur voluptatum impedit perferendis.",
+        "Id": 857,
+        "Name": "Rath Group",
+        "ToolTip": "Iure rerum.",
         "Deleted": false,
-        "Rank": 220,
-        "Type": "iusto",
-        "ColorBlock": 917,
-        "IconHint": "magni",
+        "Rank": 55,
+        "Type": "deleniti",
+        "ColorBlock": 770,
+        "IconHint": "velit",
         "Selected": true,
-        "LastChanged": "2024-04-04T03:47:00.8161673+02:00",
+        "LastChanged": "2015-04-03T11:24:54.1561606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Zander Paucek"
+        "ExtraInfo": "sed",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Rose Boyer"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "ullam",
+    "ExtraInfo": "nobis",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Dr. Rozella Jeffry Medhurst DVM"
+    "FullName": "Ashtyn Keeling"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Kub, Powlowski and Schimmel",
-    "ToolTip": "Cumque dolore nostrum sequi.",
-    "Deleted": false,
-    "Rank": 765,
-    "Type": "amet",
-    "ColorBlock": 289,
-    "IconHint": "ut",
+    "Id": 935,
+    "Name": "Runolfsdottir LLC",
+    "ToolTip": "Aperiam ipsa iste illo debitis.",
+    "Deleted": true,
+    "Rank": 469,
+    "Type": "dolorem",
+    "ColorBlock": 190,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2023-01-17T03:47:00.8161673+01:00",
+    "LastChanged": "2025-09-15T11:24:54.1561606+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "McLaughlin-Goyette",
-        "ToolTip": "Velit sint.",
+        "Id": 672,
+        "Name": "Heaney, Bergstrom and Orn",
+        "ToolTip": "Et quia est totam rem dolores vel dolorem.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "aperiam",
-        "ColorBlock": 611,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2002-06-20T03:47:00.8161673+02:00",
+        "Rank": 865,
+        "Type": "soluta",
+        "ColorBlock": 231,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2011-06-17T11:24:54.1561606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
+        "ExtraInfo": "aliquam",
         "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Jerome Boyle",
+        "FullName": "Nakia Weissnat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 48
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "facilis",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Llewellyn Hyatt PhD",
+    "FullName": "Shayne Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

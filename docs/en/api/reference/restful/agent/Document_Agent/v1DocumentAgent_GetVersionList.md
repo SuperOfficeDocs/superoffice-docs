@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 294
+  "DocumentId": 391
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "aut",
-    "DocumentId": 964,
-    "VersionId": "laborum",
-    "CheckedInDate": "2014-10-10T03:46:54.6913844+02:00",
-    "CheckedInByName": "Mills-Wiegand",
-    "CheckedInByAssociateId": 936,
-    "Description": "Reactive client-driven database",
-    "DisplayText": "et",
+    "ExternalReference": "natus",
+    "DocumentId": 296,
+    "VersionId": "est",
+    "CheckedInDate": "2003-03-10T11:24:48.0001535+01:00",
+    "CheckedInByName": "Predovic, Stehr and Quigley",
+    "CheckedInByAssociateId": 156,
+    "Description": "Versatile value-added workforce",
+    "DisplayText": "dolorem",
     "ExtraFields": [
-      "et",
-      "laborum"
+      "recusandae",
+      "ex"
     ]
   }
 ]

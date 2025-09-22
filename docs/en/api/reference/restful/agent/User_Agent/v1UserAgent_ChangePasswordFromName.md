@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/ChangePasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Wisoky-Blanda",
-  "OldPassword": "et",
-  "NewPassword": "blanditiis"
+  "AssociateName": "Kunze, Schowalter and Boehm",
+  "OldPassword": "odit",
+  "NewPassword": "a"
 }
 ```
 

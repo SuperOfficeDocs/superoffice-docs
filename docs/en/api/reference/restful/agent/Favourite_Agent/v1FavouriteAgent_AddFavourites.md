@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nienow, Boyer and Torp",
+  "TableName": "Rowe LLC",
   "RecordIds": [
-    413,
-    824
+    636,
+    929
   ],
-  "AssociateId": 448,
-  "ExtraInfo": "dolorem"
+  "AssociateId": 849,
+  "ExtraInfo": "reiciendis"
 }
 ```
 

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Pfannerstill-Dare",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 300,
-  "Rank": 395,
+  "Id": 32,
+  "Name": "Ruecker Inc and Sons",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "UdListDefinitionId": 341,
+  "Rank": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 764
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 877
+  "AttachmentId": 98
 }
 ```
 
@@ -100,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feest-Connelly",
-  "MimeType": "natus",
-  "Size": 389,
+  "Name": "Howell Group",
+  "MimeType": "facilis",
+  "Size": 568,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "charlie.kuhlman@treutel.name",
-  "EmailFrom": "jess_satterfield@hane.info",
-  "EmailTo": "grant@jewess.ca",
-  "EmailCc": "juwan.johns@halvorsonrau.name",
-  "EmailDate": "2008-06-02T03:46:55.550729+02:00",
+  "EmailSubject": "ernestine@mullerbode.ca",
+  "EmailFrom": "rubie@ebert.uk",
+  "EmailTo": "evangeline.christiansen@ward.biz",
+  "EmailCc": "bailey@heller.ca",
+  "EmailDate": "2013-03-08T11:24:48.8595017+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 447,
-      "Name": "Von-Herzog",
-      "ContentType": "distinctio",
-      "AttSize": 382,
+      "AttachmentId": 505,
+      "Name": "Pouros-Ledner",
+      "ContentType": "ea",
+      "AttSize": 407,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "rerum",
-      "IsSafeFileExtension": true,
+      "ContentId": "qui",
+      "AuthKey": "omnis",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 317
     }
   }
 }

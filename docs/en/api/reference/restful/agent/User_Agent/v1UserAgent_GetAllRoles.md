@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Vandervort Inc and Sons",
-    "ToolTip": "Sit praesentium aut officiis.",
-    "Deleted": false,
-    "Rank": 666,
-    "Type": "dolor",
-    "ColorBlock": 236,
-    "IconHint": "velit",
+    "Id": 116,
+    "Name": "Orn-Braun",
+    "ToolTip": "Nesciunt aliquid perspiciatis necessitatibus sed.",
+    "Deleted": true,
+    "Rank": 827,
+    "Type": "minima",
+    "ColorBlock": 472,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2023-10-20T03:46:55.581978+02:00",
+    "LastChanged": "2008-02-16T11:24:48.8907508+01:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Runolfsson-Thiel",
-        "ToolTip": "In quia sint accusantium qui consequuntur.",
+        "Id": 67,
+        "Name": "Robel, Kilback and VonRueden",
+        "ToolTip": "Ut placeat illum aperiam.",
         "Deleted": true,
-        "Rank": 298,
-        "Type": "sit",
-        "ColorBlock": 689,
-        "IconHint": "at",
+        "Rank": 203,
+        "Type": "repellendus",
+        "ColorBlock": 717,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2003-05-01T03:46:55.581978+02:00",
+        "LastChanged": "2019-01-02T11:24:48.8907508+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "expedita",
+        "ExtraInfo": "eum",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Miss Lacy Mara Trantow V",
+        "FullName": "Sandy Zoe Ondricka PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "rem",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Einar O'Keefe",
+    "FullName": "Cale Berniece Greenholt MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 162
       }
     }
   }

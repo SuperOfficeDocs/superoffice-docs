@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectionById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 276
+  "ErpConnectionId": 279
 }
 ```
 

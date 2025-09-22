@@ -117,31 +117,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 486,
-  "PlainMessage": "cumque",
-  "HtmlMessage": "fugit",
-  "SmsMessage": "a",
-  "Description": "Managed methodical toolset",
-  "Subject": "occaecati",
-  "FolderId": 592,
-  "HeaderField": "excepturi",
-  "Design": "culpa",
+  "ShipmentMessageId": 796,
+  "PlainMessage": "similique",
+  "HtmlMessage": "nulla",
+  "SmsMessage": "nobis",
+  "Description": "Total dedicated benchmark",
+  "Subject": "eum",
+  "FolderId": 257,
+  "HeaderField": "minima",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Centralized real-time encoding",
-  "AccessKey": "facere",
-  "DocumentMessage": 651,
-  "Registered": "2007-01-18T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 133,
-  "Updated": "2013-11-17T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 626,
-  "UpdatedCount": 454
+  "LongDescription": "Customer-focused dedicated service-desk",
+  "AccessKey": "aspernatur",
+  "DocumentMessage": 421,
+  "Registered": "2018-09-28T11:24:53.5780588+02:00",
+  "RegisteredAssociateId": 910,
+  "Updated": "2017-12-11T11:24:53.5780588+01:00",
+  "UpdatedAssociateId": 557,
+  "UpdatedCount": 935
 }
 ```
 
@@ -152,38 +152,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 599,
-  "PlainMessage": "asperiores",
-  "HtmlMessage": "esse",
-  "SmsMessage": "sequi",
-  "Description": "Fully-configurable bifurcated open system",
-  "Subject": "ex",
-  "FolderId": 273,
-  "HeaderField": "et",
-  "Design": "rerum",
+  "ShipmentMessageId": 608,
+  "PlainMessage": "possimus",
+  "HtmlMessage": "nostrum",
+  "SmsMessage": "explicabo",
+  "Description": "Streamlined bi-directional monitoring",
+  "Subject": "aliquid",
+  "FolderId": 476,
+  "HeaderField": "voluptate",
+  "Design": "in",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Front-line systemic matrices",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 519,
-  "Registered": "2020-01-08T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 659,
-  "Updated": "2010-01-16T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 902,
-  "UpdatedCount": 253,
+  "LongDescription": "Ergonomic exuding task-force",
+  "AccessKey": "est",
+  "DocumentMessage": 806,
+  "Registered": "2011-02-20T11:24:53.5780588+01:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2003-04-05T11:24:53.5780588+02:00",
+  "UpdatedAssociateId": 414,
+  "UpdatedCount": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 609
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

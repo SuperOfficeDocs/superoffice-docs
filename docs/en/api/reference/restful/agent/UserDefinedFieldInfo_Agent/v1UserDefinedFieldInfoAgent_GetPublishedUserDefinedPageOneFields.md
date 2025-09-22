@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 762
+  "UserGroupId": 644
 }
 ```
 
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 730,
-    "ColumnId": 274,
-    "FieldDefault": "et",
-    "FieldHeight": 465,
-    "FieldLabel": "rem",
-    "FieldLeft": 265,
-    "FieldTop": 544,
+    "UDefFieldId": 454,
+    "ColumnId": 30,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 282,
+    "FieldLabel": "tempora",
+    "FieldLeft": 559,
+    "FieldTop": 91,
     "FieldType": "Checkbox",
-    "FieldWidth": 832,
-    "FormatMask": "natus",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 688,
-    "LabelLeft": 252,
-    "LabelTop": 645,
-    "LabelWidth": 714,
-    "LastVersionId": 965,
-    "ListTableId": 693,
+    "FieldWidth": 229,
+    "FormatMask": "quam",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 668,
+    "LabelLeft": 758,
+    "LabelTop": 10,
+    "LabelWidth": 87,
+    "LastVersionId": 482,
+    "ListTableId": 377,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 439,
-    "ProgId": "odio",
+    "Page1LineNo": 582,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "sequi",
-    "TabOrder": 265,
-    "TextLength": 90,
-    "Tooltip": "facere",
-    "UdefIdentity": 608,
-    "UDListDefinitionId": 338,
+    "ShortLabel": "animi",
+    "TabOrder": 741,
+    "TextLength": 512,
+    "Tooltip": "repudiandae",
+    "UdefIdentity": 178,
+    "UDListDefinitionId": 545,
     "Justification": "Center",
-    "Version": 631,
-    "TemplateVariableName": "Heaney-Abshire",
+    "Version": 58,
+    "TemplateVariableName": "Schultz LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Dietrich LLC",
+    "MdoListName": "Lowe, Lebsack and Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldType": "System.Int32",
+        "FieldLength": 338
       }
     }
   }

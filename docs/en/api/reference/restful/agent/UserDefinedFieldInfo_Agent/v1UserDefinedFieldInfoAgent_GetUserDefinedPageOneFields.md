@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 118
+  "UserGroupId": 61
 }
 ```
 
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 161,
-    "ColumnId": 751,
-    "FieldDefault": "enim",
-    "FieldHeight": 613,
-    "FieldLabel": "et",
-    "FieldLeft": 320,
-    "FieldTop": 835,
+    "UDefFieldId": 755,
+    "ColumnId": 277,
+    "FieldDefault": "expedita",
+    "FieldHeight": 263,
+    "FieldLabel": "sit",
+    "FieldLeft": 991,
+    "FieldTop": 460,
     "FieldType": "Checkbox",
-    "FieldWidth": 660,
-    "FormatMask": "doloremque",
-    "HideLabel": true,
+    "FieldWidth": 746,
+    "FormatMask": "mollitia",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 332,
-    "LabelLeft": 898,
-    "LabelTop": 567,
-    "LabelWidth": 425,
-    "LastVersionId": 115,
-    "ListTableId": 82,
-    "IsMandatory": true,
+    "LabelHeight": 113,
+    "LabelLeft": 227,
+    "LabelTop": 409,
+    "LabelWidth": 527,
+    "LastVersionId": 180,
+    "ListTableId": 962,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 860,
-    "ProgId": "minus",
+    "Page1LineNo": 942,
+    "ProgId": "dolores",
     "IsReadOnly": false,
-    "ShortLabel": "rem",
-    "TabOrder": 739,
-    "TextLength": 297,
-    "Tooltip": "dolorum",
-    "UdefIdentity": 236,
-    "UDListDefinitionId": 353,
+    "ShortLabel": "fuga",
+    "TabOrder": 543,
+    "TextLength": 887,
+    "Tooltip": "sapiente",
+    "UdefIdentity": 25,
+    "UDListDefinitionId": 202,
     "Justification": "Center",
-    "Version": 846,
-    "TemplateVariableName": "Labadie-Schmeler",
+    "Version": 201,
+    "TemplateVariableName": "Mayer, Feil and Kuhic",
     "HasBeenPublished": false,
-    "MdoListName": "Rempel-Gaylord",
+    "MdoListName": "Cronin, Bechtelar and Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

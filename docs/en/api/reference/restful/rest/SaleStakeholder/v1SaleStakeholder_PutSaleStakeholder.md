@@ -116,29 +116,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dibbert-Lakin",
-  "Comment": "aperiam",
-  "StakeholderRoleId": 100,
-  "CountryId": 43,
-  "PersonId": 528,
-  "EmailDescription": "liam_kuhlman@bradtkestokes.us",
-  "EmailId": 865,
-  "EmailAddress": "velda@mcglynn.name",
-  "PhoneId": 859,
-  "ContactName": "Considine Group",
-  "ContactId": 408,
-  "SaleId": 883,
-  "Mrmrs": "incidunt",
-  "Firstname": "Alfred",
-  "MiddleName": "Willms Group",
-  "Lastname": "Stanton",
-  "SaleStakeholderId": 271,
-  "Rank": 218,
-  "Phone": "(311)483-2732 x68094"
+  "StakeholderRoleName": "Jerde, Zulauf and Turner",
+  "Comment": "non",
+  "StakeholderRoleId": 859,
+  "CountryId": 226,
+  "PersonId": 855,
+  "EmailDescription": "korey@flatley.us",
+  "EmailId": 25,
+  "EmailAddress": "theresa.hagenes@west.us",
+  "PhoneId": 965,
+  "ContactName": "Emard Group",
+  "ContactId": 202,
+  "SaleId": 654,
+  "Mrmrs": "fugiat",
+  "Firstname": "Nichole",
+  "MiddleName": "Dickens, Fadel and Cummerata",
+  "Lastname": "Ferry",
+  "SaleStakeholderId": 119,
+  "Rank": 493,
+  "Phone": "353-452-9768 x32569"
 }
 ```
 
@@ -149,36 +149,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Renner-Heller",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 457,
-  "CountryId": 798,
-  "PersonId": 562,
-  "EmailDescription": "lora_lockman@auerfisher.com",
-  "EmailId": 103,
-  "EmailAddress": "julio@wunsch.uk",
-  "PhoneId": 33,
-  "ContactName": "McDermott-Torphy",
-  "ContactId": 965,
-  "SaleId": 710,
-  "Mrmrs": "pariatur",
-  "Firstname": "Gerson",
-  "MiddleName": "McKenzie Group",
-  "Lastname": "Fisher",
-  "SaleStakeholderId": 282,
-  "Rank": 63,
-  "Phone": "121.176.1315 x228",
+  "StakeholderRoleName": "Farrell-Strosin",
+  "Comment": "quia",
+  "StakeholderRoleId": 643,
+  "CountryId": 779,
+  "PersonId": 877,
+  "EmailDescription": "scarlett_schulist@tromp.uk",
+  "EmailId": 111,
+  "EmailAddress": "lia@padberg.name",
+  "PhoneId": 244,
+  "ContactName": "Hammes Group",
+  "ContactId": 606,
+  "SaleId": 604,
+  "Mrmrs": "nesciunt",
+  "Firstname": "Kaelyn",
+  "MiddleName": "Stokes Inc and Sons",
+  "Lastname": "Ernser",
+  "SaleStakeholderId": 546,
+  "Rank": 422,
+  "Phone": "242.562.4229 x672",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

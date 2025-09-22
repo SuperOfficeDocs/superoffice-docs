@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    356,
-    137
+    181,
+    822
   ],
   "State": "All"
 }
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Heidenreich, Grimes and Tremblay",
-    "AssociateId": 623,
-    "DetailsTable": 14,
-    "DetailsRecord": 604,
-    "IsSystemTask": false,
+    "Id": 821,
+    "Name": "Ziemann, Lakin and Hammes",
+    "AssociateId": 104,
+    "DetailsTable": 896,
+    "DetailsRecord": 981,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "earum",
-      "ParameterObject2": "omnis"
+      "ParameterObject1": "est",
+      "ParameterObject2": "ex"
     },
-    "LastStarted": "2014-05-24T03:46:54.3007673+02:00",
-    "Created": "1999-02-14T03:46:54.3007673+01:00",
-    "StartCount": 169,
-    "DatabaseSerialNumber": "1743961",
-    "Context": "repudiandae",
-    "Result": "voluptates",
+    "LastStarted": "2012-09-29T11:24:47.6095526+02:00",
+    "Created": "1999-03-29T11:24:47.6095526+02:00",
+    "StartCount": 7,
+    "DatabaseSerialNumber": "772174",
+    "Context": "placeat",
+    "Result": "sint",
     "State": "All",
-    "Description": "Re-contextualized contextually-based function",
-    "Response": "ut",
-    "Request": "accusantium",
-    "ProgressDescription": "Reduced responsive interface",
-    "ProgressPercent": 156,
-    "FileName": "Bashirian, Bernier and Gulgowski",
+    "Description": "Synchronised actuating service-desk",
+    "Response": "sed",
+    "Request": "voluptatem",
+    "ProgressDescription": "Networked fault-tolerant toolset",
+    "ProgressPercent": 454,
+    "FileName": "Orn, Wiegand and McDermott",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 863
       }
     }
   }

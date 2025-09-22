@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/AnalyzeBizCardText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "harum",
+  "Text": "tempore",
   "MergeWithDatabase": false
 }
 ```
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "ipsum",
-  "PhotoImage": "autem"
+  "LogoImage": "nesciunt",
+  "PhotoImage": "modi"
 }
 ```

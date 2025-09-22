@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    985,
-    289
+    355,
+    234
   ]
 }
 ```
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Witting, Auer and Hand",
-    "ToolTip": "Omnis inventore quae aut voluptas ducimus error eveniet.",
+    "Id": 523,
+    "Name": "Swift Group",
+    "ToolTip": "At accusantium.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "qui",
+    "Rank": 385,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Kohler-Bogisich",
-        "ToolTip": "Sed sit et.",
+        "Id": 923,
+        "Name": "Abshire Group",
+        "ToolTip": "Impedit voluptatem.",
         "Deleted": false,
-        "Rank": 583,
-        "Type": "consequatur",
+        "Rank": 796,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 632,
-        "ExtraInfo": "et",
-        "StyleHint": "adipisci",
-        "FullName": "Woodrow Blanda",
+        "IconHint": "qui",
+        "ColorBlock": 931,
+        "ExtraInfo": "est",
+        "StyleHint": "consequatur",
+        "FullName": "Sammy Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 128
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 66,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "vel",
-    "FullName": "Mrs. Velma Jones",
+    "IconHint": "laboriosam",
+    "ColorBlock": 27,
+    "ExtraInfo": "ab",
+    "StyleHint": "molestias",
+    "FullName": "Ethel Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 751
       }
     }
   }

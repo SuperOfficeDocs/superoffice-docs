@@ -770,7 +770,7 @@ Static archive Provider for the Selection quoteline archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineStaticSelection?$select=quoteAlternativeId,alternative/erpDiscountAmount,alternative/version/approvedDate,alternative/version/quote/sale/text,alternative/version/quote/sale/person/personId
+GET /api/v1/archive/QuoteLineStaticSelection?$select=alternative/version/quote/sale/date,alternative/version/quote/sale/person/personDirectPhone/formattedNumber,alternative/version/quote/sale/person/personAssociate/usergroup,alternative/version/quote/sale/contact/LastSale,alternative/version/quote/sale/project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

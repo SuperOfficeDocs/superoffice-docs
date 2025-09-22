@@ -29,7 +29,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=523
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=675
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 82,
-  "UniqueIdentifier": "est",
-  "Name": "Rath Inc and Sons",
-  "Description": "Upgradable bi-directional groupware",
-  "IncludeId": "consectetur",
-  "AccessKey": "earum",
-  "HierarchyId": 246,
-  "Source": "qui",
-  "SourceCode": "quibusdam",
+  "EjscriptId": 969,
+  "UniqueIdentifier": "blanditiis",
+  "Name": "Sauer, Kulas and Conn",
+  "Description": "Multi-lateral client-driven emulation",
+  "IncludeId": "sint",
+  "AccessKey": "quia",
+  "HierarchyId": 76,
+  "Source": "eveniet",
+  "SourceCode": "assumenda",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 779,
+  "HtmlOutput": 138,
   "Includes": [
-    589,
-    114
+    344,
+    750
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 691,
-      "LineNumberTo": 536,
-      "Delta": 103,
-      "IncludeId": "ipsum",
+      "LineNumberFrom": 842,
+      "LineNumberTo": 129,
+      "Delta": 4,
+      "IncludeId": "necessitatibus",
       "IncludedFrom": [
-        "voluptates",
-        "non"
+        "eum",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldType": "System.String",
+          "FieldLength": 290
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-04-14T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 244,
-  "Updated": "2010-05-02T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 339,
+  "Registered": "2004-07-07T11:24:47.8439178+02:00",
+  "RegisteredAssociateId": 77,
+  "Updated": "2017-07-23T11:24:47.8439178+02:00",
+  "UpdatedAssociateId": 982,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 732
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 432,
-  "Name": "Parker-Dickens",
-  "Rank": 423,
-  "Tooltip": "tempore",
+  "AssociateId": 400,
+  "Name": "Turner LLC",
+  "Rank": 382,
+  "Tooltip": "itaque",
   "LicenseOwners": [
     {
-      "Name": "Hammes Inc and Sons",
-      "Description": "Mandatory cohesive internet solution",
+      "Name": "Nader-Rath",
+      "Description": "Intuitive coherent migration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 586
         }
       }
     },
     {
-      "Name": "Hammes Inc and Sons",
-      "Description": "Mandatory cohesive internet solution",
+      "Name": "Nader-Rath",
+      "Description": "Intuitive coherent migration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 586
         }
       }
     }
@@ -142,110 +142,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "ut",
-      "Id": 127,
-      "Rank": 290,
-      "Deleted": true,
+      "Value": "velit",
+      "Tooltip": "et",
+      "Id": 794,
+      "Rank": 125,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldLength": 362
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2017-10-07T03:46:55.581978+02:00",
-  "Lastlogout": "2020-09-06T03:46:55.581978+02:00",
-  "EjUserId": 96,
-  "RequestSignature": "enim",
+  "Deleted": false,
+  "Lastlogin": "2000-06-17T11:24:48.9063744+02:00",
+  "Lastlogout": "2025-06-24T11:24:48.9063744+02:00",
+  "EjUserId": 661,
+  "RequestSignature": "molestias",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quisquam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quisquam",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
-        }
-      }
-    }
-  ],
-  "UserName": "Schneider, Ryan and O'Conner",
-  "TicketCategories": [
-    {
-      "Id": 961,
-      "Name": "Hand-Rohan",
-      "ToolTip": "Recusandae mollitia quod velit iste.",
-      "Deleted": false,
-      "Rank": 562,
-      "Type": "ab",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "mollitia",
-      "ColorBlock": 739,
-      "ExtraInfo": "labore",
-      "StyleHint": "ut",
-      "FullName": "Viola Adams",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 788
-        }
-      }
-    }
-  ],
-  "NickName": "Koch, Weissnat and Dietrich",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "alias"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "quae"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Miller LLC",
-      "DisplayName": "Lesch LLC",
-      "Description": "Assimilated object-oriented interface",
-      "ToolTip": "Quaerat consequatur minus.",
-      "Actions": "Implicit",
-      "ActionData": "perferendis",
+      "Value": "est",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 396
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "est",
+      "DisplayValue": "ea",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 396
+        }
+      }
+    }
+  ],
+  "UserName": "Schowalter Group",
+  "TicketCategories": [
+    {
+      "Id": 150,
+      "Name": "Hudson Group",
+      "ToolTip": "Placeat velit explicabo recusandae.",
+      "Deleted": true,
+      "Rank": 178,
+      "Type": "earum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "porro",
+      "ColorBlock": 276,
+      "ExtraInfo": "eligendi",
+      "StyleHint": "atque",
+      "FullName": "Twila Koch",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 563
+        }
+      }
+    }
+  ],
+  "NickName": "Schmeler, Ernser and Welch",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "error",
+    "ExtraFields2": "quo"
+  },
+  "CustomFields": {
+    "CustomFields1": "quis",
+    "CustomFields2": "sit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Marvin-Bergnaum",
+      "DisplayName": "Smith Group",
+      "Description": "Sharable motivating policy",
+      "ToolTip": "Consequatur autem id dolorem quia veniam dolor.",
+      "Actions": "Implicit",
+      "ActionData": "soluta",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 269
         }
       }
     }
@@ -254,8 +254,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

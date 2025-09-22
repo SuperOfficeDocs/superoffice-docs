@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Schiller, Trantow and Bednar",
-    "Tooltip": "ea",
+    "HeadingId": 104,
+    "Name": "Eichmann, Turcotte and Reichel",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 121,
-    "UdListDefinitionId": 493,
+    "Rank": 588,
+    "UdListDefinitionId": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldLength": 193
       }
     }
   }

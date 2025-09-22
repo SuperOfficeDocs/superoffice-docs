@@ -145,12 +145,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -163,43 +163,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 754,
-  "TopicId": 776,
+  "ChatSessionId": 500,
+  "TopicId": 402,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Kautzer-Mann",
-  "CustomerEmail": "roma@reichelstreich.biz",
-  "CustomerPhone": "294.359.5769 x8910",
+  "CustomerAlias": "modi",
+  "CustomerHost": "in",
+  "CustomerName": "Kling-Kihn",
+  "CustomerEmail": "kade@waelchireichert.info",
+  "CustomerPhone": "033.311.6128 x22901",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Littel-Kovacek",
+  "CustomerCompanyName": "Sporer, Kilback and Walter",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "sint",
-  "WhenRequested": "2012-12-05T03:46:59.7536971+01:00",
-  "WhenStarted": "2021-12-12T03:46:59.7536971+01:00",
-  "WhenEnded": "2020-12-30T03:46:59.7536971+01:00",
-  "WhenIdle": "2008-01-01T03:46:59.7536971+01:00",
-  "WhenFetched": "1998-06-06T03:46:59.7536971+02:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 915,
-  "AlertLevel": 135,
-  "Rank": 32,
+  "FirstMessage": "hic",
+  "LastMessage": "et",
+  "WhenRequested": "1999-11-03T11:24:53.0155818+01:00",
+  "WhenStarted": "2022-04-28T11:24:53.0155818+02:00",
+  "WhenEnded": "2017-05-30T11:24:53.0155818+02:00",
+  "WhenIdle": "2001-04-14T11:24:53.0155818+02:00",
+  "WhenFetched": "2013-09-02T11:24:53.0155818+02:00",
+  "SessionKey": "magni",
+  "InitialQueuePos": 647,
+  "AlertLevel": 514,
+  "Rank": 692,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 891,
+  "ChatbotIsActive": false,
+  "Rating": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 846
     }
   },
   "_Links": {

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Weimann LLC"
+  "TaskName": "Ullrich-Gaylord"
 }
 ```
 
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Bednar-Monahan",
-    "AssociateId": 58,
-    "DetailsTable": 269,
-    "DetailsRecord": 962,
+    "Id": 624,
+    "Name": "Mante, Ruecker and Carroll",
+    "AssociateId": 640,
+    "DetailsTable": 548,
+    "DetailsRecord": 236,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "fugit",
-      "ParameterObject2": "et"
+      "ParameterObject1": "velit",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2023-07-12T03:46:54.3007673+02:00",
-    "Created": "2013-12-13T03:46:54.3007673+01:00",
-    "StartCount": 833,
-    "DatabaseSerialNumber": "707387",
-    "Context": "molestiae",
-    "Result": "esse",
+    "LastStarted": "1998-06-13T11:24:47.6095526+02:00",
+    "Created": "2011-08-16T11:24:47.6095526+02:00",
+    "StartCount": 4,
+    "DatabaseSerialNumber": "1018216",
+    "Context": "amet",
+    "Result": "qui",
     "State": "All",
-    "Description": "Public-key didactic orchestration",
-    "Response": "qui",
-    "Request": "debitis",
-    "ProgressDescription": "Multi-lateral heuristic complexity",
-    "ProgressPercent": 21,
-    "FileName": "Dickens-Flatley",
+    "Description": "Compatible leading edge approach",
+    "Response": "quos",
+    "Request": "a",
+    "ProgressDescription": "Visionary transitional hierarchy",
+    "ProgressPercent": 929,
+    "FileName": "Davis, Bogisich and Kilback",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 290
       }
     }
   }

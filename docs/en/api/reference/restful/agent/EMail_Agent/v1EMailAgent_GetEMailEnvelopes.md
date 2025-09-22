@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    65,
-    697
+    45,
+    679
   ]
 }
 ```
@@ -106,45 +106,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 355,
-    "MessageId": "rerum",
-    "Subject": "doloremque",
+    "ServerId": 216,
+    "MessageId": "blanditiis",
+    "Subject": "eos",
     "From": null,
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Lynch-Schroeder",
-        "PersonId": 437,
-        "PersonName": "Terry Inc and Sons",
-        "AssociateId": 429,
-        "Address": "officia",
-        "EmailId": 412,
+        "ContactId": 905,
+        "ContactName": "Brown Group",
+        "PersonId": 193,
+        "PersonName": "Kunze-Runolfsson",
+        "AssociateId": 111,
+        "Address": "at",
+        "EmailId": 840,
         "DuplicatePersonIds": [
-          470,
-          180
+          7,
+          905
         ],
-        "Name": "Vandervort Inc and Sons",
+        "Name": "Kuhn, Konopelski and Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 433
           }
         }
       }
     ],
-    "Sent": "2006-05-10T03:46:54.785131+02:00",
+    "Sent": "2012-02-02T11:24:48.0939075+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 644,
+    "Size": 754,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 57
       }
     }
   }

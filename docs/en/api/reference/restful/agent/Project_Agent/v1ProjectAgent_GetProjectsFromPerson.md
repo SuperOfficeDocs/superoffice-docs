@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 35
+  "PersonId": 704
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 105,
-    "Name": "Padberg-Hauck",
-    "Description": "Team-oriented bandwidth-monitored internet solution",
+    "ProjectId": 441,
+    "Name": "Walsh Group",
+    "Description": "Distributed national complexity",
     "URL": "http://www.example.com/",
-    "Type": "minus",
-    "AssociateId": 509,
-    "AssociateFullName": "Ms. Antonia Gibson III",
-    "TypeId": 248,
-    "Updated": "2001-02-04T03:46:55.1757421+01:00",
-    "StatusId": 676,
-    "Status": "veritatis",
-    "TextId": 56,
-    "PublishTo": "2007-03-28T03:46:55.1757421+02:00",
-    "PublishFrom": "2001-10-31T03:46:55.1757421+01:00",
-    "IsPublished": false,
+    "Type": "asperiores",
+    "AssociateId": 377,
+    "AssociateFullName": "Heidi Hegmann",
+    "TypeId": 735,
+    "Updated": "2023-02-04T11:24:48.4845166+01:00",
+    "StatusId": 389,
+    "Status": "suscipit",
+    "TextId": 724,
+    "PublishTo": "2024-05-09T11:24:48.4845166+02:00",
+    "PublishFrom": "2014-02-21T11:24:48.4845166+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1514317",
-    "ActiveErpLinks": 242,
+    "ProjectNumber": "970672",
+    "ActiveErpLinks": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

@@ -126,18 +126,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "tenetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "tenetur",
     "value": {}
   }
 ]
@@ -150,30 +150,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 954,
-  "SourcePersonId": 752,
-  "DestinationContactId": 204,
-  "DestinationPersonId": 234,
-  "RelationId": 275,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 169,
-  "Reversed": 228,
-  "UpdatedDate": "2012-05-02T03:46:59.8943184+02:00",
-  "CreatedDate": "2005-05-01T03:46:59.8943184+02:00",
+  "SourceContactId": 627,
+  "SourcePersonId": 353,
+  "DestinationContactId": 797,
+  "DestinationPersonId": 917,
+  "RelationId": 7,
+  "Comment": "et",
+  "RelationDefinitionId": 721,
+  "Reversed": 588,
+  "UpdatedDate": "2003-07-09T11:24:53.156201+02:00",
+  "CreatedDate": "2019-01-24T11:24:53.156201+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Yost, Bashirian and Jakubowski",
-  "SourcePersonName": "Predovic LLC",
-  "DestinationContactName": "Aufderhar-Stracke",
-  "DestinationPersonName": "Koch, Dickens and Barton",
-  "ActiveText": "et",
-  "PassiveText": "at",
+  "SourceContactName": "Lang, Zboncak and Nikolaus",
+  "SourcePersonName": "Watsica Inc and Sons",
+  "DestinationContactName": "DuBuque Group",
+  "DestinationPersonName": "Bruen Group",
+  "ActiveText": "rerum",
+  "PassiveText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   },
   "_Links": {

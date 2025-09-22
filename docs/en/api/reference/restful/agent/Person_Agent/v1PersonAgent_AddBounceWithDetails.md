@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "elissa.blanda@raynor.uk",
-  "Counts": 54,
-  "Code": 899,
+  "EmailAddress": "kobe_frami@leannonmcglynn.us",
+  "Counts": 716,
+  "Code": 976,
   "Reason": ""
 }
 ```

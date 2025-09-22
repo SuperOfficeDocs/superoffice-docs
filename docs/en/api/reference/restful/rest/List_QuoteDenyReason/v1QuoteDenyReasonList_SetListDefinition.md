@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Pfeffer-Stamm",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 420,
-  "IsCustomList": true,
+  "Id": 242,
+  "Name": "Stoltenberg Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 705,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Hauck, Hand and Gleason",
-  "Tooltip": "aut",
+  "Id": 540,
+  "Name": "Frami Inc and Sons",
+  "Tooltip": "in",
   "Deleted": true,
-  "Rank": 731,
+  "Rank": 742,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldLength": 892
     }
   }
 }

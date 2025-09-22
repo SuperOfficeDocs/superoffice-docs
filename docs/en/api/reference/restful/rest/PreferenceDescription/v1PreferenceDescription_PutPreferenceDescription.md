@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 380,
-  "Section": "dicta",
-  "Key": "fugit",
-  "Name": "Robel, Emard and Stoltenberg",
+  "PrefDescId": 204,
+  "Section": "aut",
+  "Key": "quis",
+  "Name": "Zieme-Doyle",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative uniform info-mediaries",
+  "Description": "Universal holistic circuit",
   "IsBuiltin": false,
-  "TableName": "Gutmann-Frami",
-  "UserDefinedListId": 129,
-  "Rank": 363,
-  "SubGroup": "architecto",
-  "MinLevel": 149,
-  "MaxValue": 540,
-  "MinValue": 829,
-  "RequiredLicense": "voluptate"
+  "TableName": "Larkin-Reichert",
+  "UserDefinedListId": 355,
+  "Rank": 145,
+  "SubGroup": "velit",
+  "MinLevel": 744,
+  "MaxValue": 571,
+  "MinValue": 404,
+  "RequiredLicense": "sed"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 47,
-  "Section": "accusantium",
-  "Key": "at",
-  "Name": "Koelpin-Kemmer",
+  "PrefDescId": 538,
+  "Section": "illum",
+  "Key": "possimus",
+  "Name": "Kutch, Russel and Okuneva",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized solution-oriented moderator",
-  "IsBuiltin": true,
-  "TableName": "Zulauf LLC",
-  "UserDefinedListId": 721,
-  "Rank": 47,
-  "SubGroup": "cumque",
-  "MinLevel": 661,
-  "MaxValue": 622,
-  "MinValue": 865,
-  "RequiredLicense": "quia",
+  "Description": "Self-enabling bifurcated help-desk",
+  "IsBuiltin": false,
+  "TableName": "Huel-Dickinson",
+  "UserDefinedListId": 181,
+  "Rank": 7,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 231,
+  "MaxValue": 413,
+  "MinValue": 12,
+  "RequiredLicense": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 596
     }
   },
   "_Links": {

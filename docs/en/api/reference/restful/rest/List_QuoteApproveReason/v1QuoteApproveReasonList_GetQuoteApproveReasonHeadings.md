@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 169,
-    "Name": "Nienow Inc and Sons",
-    "Tooltip": "laudantium",
+    "HeadingId": 554,
+    "Name": "Dibbert, Fadel and Becker",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 339,
-    "UdListDefinitionId": 788,
+    "Rank": 295,
+    "UdListDefinitionId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldType": "System.String",
+        "FieldLength": 586
       }
     }
   }

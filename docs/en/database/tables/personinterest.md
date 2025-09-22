@@ -50,7 +50,7 @@ Note; If you add or remove rows in this table, you will need to update the inter
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

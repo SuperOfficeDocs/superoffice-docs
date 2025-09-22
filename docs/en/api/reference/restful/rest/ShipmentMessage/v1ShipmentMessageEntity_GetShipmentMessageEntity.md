@@ -104,33 +104,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 436,
-  "PlainMessage": "delectus",
-  "HtmlMessage": "deleniti",
-  "SmsMessage": "aliquid",
-  "Description": "Automated discrete adapter",
-  "Subject": "itaque",
-  "FolderId": 298,
-  "HeaderField": "cupiditate",
-  "Design": "adipisci",
+  "ShipmentMessageId": 38,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "reiciendis",
+  "SmsMessage": "voluptatibus",
+  "Description": "Balanced methodical framework",
+  "Subject": "doloribus",
+  "FolderId": 723,
+  "HeaderField": "ullam",
+  "Design": "mollitia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Vision-oriented 24/7 protocol",
-  "AccessKey": "maiores",
-  "DocumentMessage": 27,
-  "Registered": "2009-06-20T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 824,
-  "Updated": "2003-07-19T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 527,
-  "UpdatedCount": 526,
+  "LongDescription": "Object-based next generation initiative",
+  "AccessKey": "sint",
+  "DocumentMessage": 783,
+  "Registered": "1999-02-28T11:24:53.5780588+01:00",
+  "RegisteredAssociateId": 767,
+  "Updated": "2001-02-15T11:24:53.5780588+01:00",
+  "UpdatedAssociateId": 57,
+  "UpdatedCount": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 271
     }
   },
   "_Links": {

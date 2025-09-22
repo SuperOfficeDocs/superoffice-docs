@@ -87,23 +87,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 866,
-    "Name": "Ruecker LLC",
-    "Tooltip": "iusto",
-    "SaveInDb": 58,
-    "Filename": "necessitatibus",
-    "DefaultOref": "quas",
+    "DocumentTemplateId": 5,
+    "Name": "Glover, Bechtelar and Towne",
+    "Tooltip": "ipsam",
+    "SaveInDb": 592,
+    "Filename": "doloribus",
+    "DefaultOref": "iste",
     "RecordType": "Appointment",
-    "Deleted": 994,
+    "Deleted": 346,
     "Direction": "Incoming",
-    "AutoeventId": 391,
+    "AutoeventId": 895,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   }

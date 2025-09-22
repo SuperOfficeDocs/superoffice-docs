@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 480,
-  "Name": "Pagac, Greenfelder and Paucek",
-  "Tooltip": "repellat",
-  "Deleted": false,
-  "Rank": 307,
-  "UdListDefinitionId": 225
+  "HeadingId": 540,
+  "Name": "Bogisich-Considine",
+  "Tooltip": "sapiente",
+  "Deleted": true,
+  "Rank": 624,
+  "UdListDefinitionId": 434
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 20,
-  "Name": "Davis, Hilpert and Buckridge",
-  "Tooltip": "corrupti",
+  "HeadingId": 821,
+  "Name": "Huels, Morar and Labadie",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 210,
-  "UdListDefinitionId": 211,
+  "Rank": 188,
+  "UdListDefinitionId": 986,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 596
     }
   }
 }

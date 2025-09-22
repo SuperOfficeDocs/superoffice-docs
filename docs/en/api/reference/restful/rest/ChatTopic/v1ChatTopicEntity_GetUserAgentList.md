@@ -29,8 +29,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,50 +92,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Parker, Kerluke and Osinski",
-    "ToolTip": "Rerum et sit harum provident officia vel.",
+    "Id": 518,
+    "Name": "O'Conner-Halvorson",
+    "ToolTip": "Qui totam at.",
     "Deleted": true,
-    "Rank": 976,
-    "Type": "soluta",
+    "Rank": 179,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Torphy LLC",
-        "ToolTip": "Veritatis atque tenetur id vitae laudantium in commodi.",
+        "Id": 568,
+        "Name": "Pollich-Mayert",
+        "ToolTip": "Id suscipit repudiandae eius.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "aut",
+        "Rank": 112,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 820,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "tempora",
-        "FullName": "Vernie Hamill",
+        "IconHint": "ut",
+        "ColorBlock": 84,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "molestiae",
+        "FullName": "Jaclyn Hilll V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 544
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 362,
-    "ExtraInfo": "non",
-    "StyleHint": "libero",
-    "FullName": "Danyka Morar",
+    "IconHint": "mollitia",
+    "ColorBlock": 744,
+    "ExtraInfo": "alias",
+    "StyleHint": "expedita",
+    "FullName": "Mrs. Chance Stamm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

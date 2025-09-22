@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 891
+  "SatelliteId": 744
 }
 ```
 
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carroll-Jerde",
-    "Description": "Multi-lateral user-facing emulation",
+    "Name": "Beahan LLC",
+    "Description": "Innovative actuating product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "laboriosam",
+        "Unrestricted": false,
+        "Total": 133,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 328,
-        "InUse": 69,
-        "IsHidden": false,
+        "Free": 230,
+        "InUse": 961,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 71,
-        "Name": "Boehm, Bernier and King",
-        "Description": "Compatible composite policy",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 163,
-        "ExtraFlags": 834,
+        "ModuleLicenseId": 361,
+        "Name": "Abernathy, Schiller and Ward",
+        "Description": "Implemented contextually-based info-mediaries",
+        "PrerequisiteModuleName": "Lesch, Kertzmann and Kuhlman",
+        "SortOrder": 506,
+        "ExtraFlags": 102,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 967
           }
         }
       }
@@ -124,25 +124,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "nisi",
+        "Total": 824,
+        "Tooltip": "quis",
         "CanAssign": true,
-        "Free": 133,
-        "InUse": 770,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 995,
-        "Name": "Okuneva Inc and Sons",
-        "Description": "Ergonomic actuating hub",
-        "PrerequisiteModuleName": "Doyle Inc and Sons",
-        "SortOrder": 252,
-        "ExtraFlags": 195,
+        "Free": 401,
+        "InUse": 963,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 335,
+        "Name": "Rempel-Oberbrunner",
+        "Description": "Multi-channelled incremental standardization",
+        "PrerequisiteModuleName": "Klein, Oberbrunner and Grimes",
+        "SortOrder": 22,
+        "ExtraFlags": 775,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldType": "System.String",
+            "FieldLength": 973
           }
         }
       }
@@ -151,36 +151,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 627
       }
     }
   },
   {
-    "Name": "Carroll-Jerde",
-    "Description": "Multi-lateral user-facing emulation",
+    "Name": "Beahan LLC",
+    "Description": "Innovative actuating product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "laboriosam",
+        "Unrestricted": false,
+        "Total": 133,
+        "Tooltip": "sed",
         "CanAssign": false,
-        "Free": 328,
-        "InUse": 69,
-        "IsHidden": false,
+        "Free": 230,
+        "InUse": 961,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 71,
-        "Name": "Boehm, Bernier and King",
-        "Description": "Compatible composite policy",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 163,
-        "ExtraFlags": 834,
+        "ModuleLicenseId": 361,
+        "Name": "Abernathy, Schiller and Ward",
+        "Description": "Implemented contextually-based info-mediaries",
+        "PrerequisiteModuleName": "Lesch, Kertzmann and Kuhlman",
+        "SortOrder": 506,
+        "ExtraFlags": 102,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 967
           }
         }
       }
@@ -188,25 +188,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "nisi",
+        "Total": 824,
+        "Tooltip": "quis",
         "CanAssign": true,
-        "Free": 133,
-        "InUse": 770,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 995,
-        "Name": "Okuneva Inc and Sons",
-        "Description": "Ergonomic actuating hub",
-        "PrerequisiteModuleName": "Doyle Inc and Sons",
-        "SortOrder": 252,
-        "ExtraFlags": 195,
+        "Free": 401,
+        "InUse": 963,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 335,
+        "Name": "Rempel-Oberbrunner",
+        "Description": "Multi-channelled incremental standardization",
+        "PrerequisiteModuleName": "Klein, Oberbrunner and Grimes",
+        "SortOrder": 22,
+        "ExtraFlags": 775,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldType": "System.String",
+            "FieldLength": 973
           }
         }
       }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 627
       }
     }
   }

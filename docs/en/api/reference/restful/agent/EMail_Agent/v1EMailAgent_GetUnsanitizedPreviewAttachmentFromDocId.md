@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 418,
-  "AttachmentId": "sunt"
+  "DocId": 497,
+  "AttachmentId": "unde"
 }
 ```
 
@@ -104,13 +104,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key user-facing time-frame",
-  "Filename": "dolorem",
-  "Size": 327,
-  "Type": "ut",
-  "Encoding": "perspiciatis",
-  "Id": "quos",
-  "Disposition": "qui",
+  "Description": "Adaptive next generation leverage",
+  "Filename": "quasi",
+  "Size": 574,
+  "Type": "nemo",
+  "Encoding": "alias",
+  "Id": "facere",
+  "Disposition": "sit",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 138
     }
   }
 }

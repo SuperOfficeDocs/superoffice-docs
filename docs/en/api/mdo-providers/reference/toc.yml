@@ -333,6 +333,8 @@ items:
   href: kbentry.md
 - name: Language
   href: language.md
+- name: Leadstatus
+  href: leadstatus.md
 - name: Legalbase
   href: legalbase.md
 - name: Lists

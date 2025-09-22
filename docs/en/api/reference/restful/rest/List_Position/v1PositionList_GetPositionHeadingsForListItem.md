@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Volkman, Wiza and Swaniawski",
-    "ToolTip": "Rerum inventore ipsa perferendis accusamus.",
+    "Id": 278,
+    "Name": "Fay LLC",
+    "ToolTip": "A velit reprehenderit.",
     "Deleted": true,
-    "Rank": 413,
-    "Type": "dignissimos",
-    "ColorBlock": 875,
-    "IconHint": "inventore",
+    "Rank": 302,
+    "Type": "nulla",
+    "ColorBlock": 140,
+    "IconHint": "voluptatibus",
     "Selected": true,
-    "LastChanged": "2011-12-12T03:47:00.7067961+01:00",
+    "LastChanged": "2023-10-11T11:24:53.9842923+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Veritatis qui.",
-        "Deleted": true,
-        "Rank": 34,
-        "Type": "quos",
-        "ColorBlock": 910,
-        "IconHint": "deleniti",
+        "Id": 96,
+        "Name": "Barton, Williamson and Waelchi",
+        "ToolTip": "Quidem sed modi libero qui.",
+        "Deleted": false,
+        "Rank": 359,
+        "Type": "delectus",
+        "ColorBlock": 100,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-02-11T03:47:00.7067961+01:00",
+        "LastChanged": "2025-03-16T11:24:53.9842923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sit",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Prof. Halle Alena Casper",
+        "FullName": "Miss Cristian Jaskolski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldType": "System.String",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "neque",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Miss Billy Little",
+    "FullName": "Tyrel Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 896
       }
     }
   }

@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 347,
-    "Tooltip": "molestiae",
-    "CanAssign": false,
-    "Free": 538,
-    "InUse": 245,
-    "IsHidden": false,
+    "Total": 217,
+    "Tooltip": "aspernatur",
+    "CanAssign": true,
+    "Free": 274,
+    "InUse": 118,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 969,
-    "Name": "Green-Farrell",
-    "Description": "Triple-buffered high-level ability",
-    "PrerequisiteModuleName": "Thompson Inc and Sons",
-    "SortOrder": 391,
-    "ExtraFlags": 226,
+    "ModuleLicenseId": 859,
+    "Name": "Monahan-Muller",
+    "Description": "Triple-buffered stable local area network",
+    "PrerequisiteModuleName": "Stamm Inc and Sons",
+    "SortOrder": 746,
+    "ExtraFlags": 506,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldType": "System.Int32",
+        "FieldLength": 971
       }
     }
   }

@@ -99,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 501,
-  "StartTime": "2011-07-06T03:46:54.6132622+02:00",
-  "EndTime": "2022-09-21T03:46:54.6132622+02:00",
-  "Count": 940,
+  "PersonId": 558,
+  "StartTime": "2016-08-23T11:24:47.8751665+02:00",
+  "EndTime": "2015-02-13T11:24:47.8751665+01:00",
+  "Count": 689,
   "DocumentTemplateIds": [
-    190,
-    244
+    763,
+    299
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 37,
-    "Attention": "dolorum",
-    "Header": "est",
-    "Name": "Lakin LLC",
-    "OurRef": "dicta",
-    "YourRef": "sint",
-    "Description": "Visionary neutral knowledge base",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 365,
+    "Attention": "debitis",
+    "Header": "et",
+    "Name": "Mayer LLC",
+    "OurRef": "accusantium",
+    "YourRef": "non",
+    "Description": "Quality-focused intermediate forecast",
+    "DocumentTemplate": "at",
     "IsPublished": false,
-    "PersonId": 381,
-    "PersonFullName": "Lilian Huels",
-    "AssociateFullName": "Hanna Alta Jakubowski Jr.",
-    "ContactId": 803,
-    "ContactName": "O'Kon Inc and Sons",
-    "ProjectId": 392,
-    "ProjectName": "Turner-Daniel",
-    "AssociateId": 124,
-    "Snum": 654,
-    "SaleId": 140,
-    "SaleName": "Herman, Gerhold and Powlowski",
+    "PersonId": 369,
+    "PersonFullName": "Annalise Kreiger",
+    "AssociateFullName": "Prof. Letha Carmelo Hermann III",
+    "ContactId": 947,
+    "ContactName": "Halvorson, Williamson and Friesen",
+    "ProjectId": 151,
+    "ProjectName": "Medhurst LLC",
+    "AssociateId": 621,
+    "Snum": 69,
+    "SaleId": 411,
+    "SaleName": "Wintheiser, Gerlach and Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldType": "System.String",
+        "FieldLength": 864
       }
     }
   }

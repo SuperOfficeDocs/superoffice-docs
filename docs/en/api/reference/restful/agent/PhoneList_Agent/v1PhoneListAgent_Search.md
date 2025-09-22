@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "reiciendis"
+  "SearchString": "corrupti"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-609-980-3701 x6434",
-    "PersonCellPhone": "731-547-5475 x677",
-    "PersonPrivatePhone": "593-704-5053",
-    "PersonFaxNumber": "1657745",
-    "PersonPagerNumber": "1116250",
-    "PersonEmail": "robbie.weimann@wymanspinka.us",
-    "Id": 345,
-    "Name": "Schamberger-Grant",
-    "Tooltip": "dolores",
-    "UniqueId": "itaque",
+    "PersonDirectPhone": "(572)005-2560 x262",
+    "PersonCellPhone": "1-446-980-3564",
+    "PersonPrivatePhone": "1-115-327-2503 x41721",
+    "PersonFaxNumber": "941664",
+    "PersonPagerNumber": "1459392",
+    "PersonEmail": "jadyn.corkery@wisozk.co.uk",
+    "Id": 651,
+    "Name": "Macejkovic, Muller and Wolf",
+    "Tooltip": "velit",
+    "UniqueId": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 625
       }
     }
   }

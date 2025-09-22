@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 250,
-    "Name": "Pfeffer LLC",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "Rank": 647,
-    "UdListDefinitionId": 663,
+    "HeadingId": 373,
+    "Name": "Witting, Cummings and Sipes",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 442,
+    "UdListDefinitionId": 738,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

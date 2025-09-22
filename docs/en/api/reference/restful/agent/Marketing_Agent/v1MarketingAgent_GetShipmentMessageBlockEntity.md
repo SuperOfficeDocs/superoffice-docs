@@ -27,7 +27,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=277
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=399
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -85,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 266,
-  "AssociateId": 1000,
-  "Block": "quo",
-  "Registered": "2009-11-16T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 360,
-  "Updated": "2016-12-20T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 216,
-  "UpdatedCount": 412,
+  "ShipmentMessageBlockId": 628,
+  "AssociateId": 628,
+  "Block": "qui",
+  "Registered": "2011-07-27T11:24:48.2657757+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2021-06-13T11:24:48.2657757+02:00",
+  "UpdatedAssociateId": 629,
+  "UpdatedCount": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

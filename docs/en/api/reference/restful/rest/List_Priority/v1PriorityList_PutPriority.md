@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Howell LLC",
-  "Tooltip": "molestiae",
+  "Id": 51,
+  "Name": "Braun-Corwin",
+  "Tooltip": "minima",
   "Deleted": false,
-  "UdListDefinitionId": 911,
-  "Rank": 670
+  "UdListDefinitionId": 660,
+  "Rank": 728
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Feeney LLC",
-  "Tooltip": "quisquam",
+  "Id": 599,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 583,
+  "UdListDefinitionId": 523,
+  "Rank": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

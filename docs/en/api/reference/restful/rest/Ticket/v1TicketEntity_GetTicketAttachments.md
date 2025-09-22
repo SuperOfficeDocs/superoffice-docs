@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 342,
-    "Name": "Walter Group",
-    "ContentType": "tenetur",
-    "AttSize": 448,
-    "InlineImage": true,
-    "ContentId": "magni",
-    "AuthKey": "ipsa",
+    "AttachmentId": 499,
+    "Name": "Kihn-Wunsch",
+    "ContentType": "a",
+    "AttSize": 366,
+    "InlineImage": false,
+    "ContentId": "necessitatibus",
+    "AuthKey": "numquam",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 267
       }
     }
   }

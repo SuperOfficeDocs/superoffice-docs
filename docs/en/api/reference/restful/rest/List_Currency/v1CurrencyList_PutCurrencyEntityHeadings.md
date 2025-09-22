@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "molestiae",
+    "HeadingId": 543,
+    "Name": "DuBuque LLC",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 255
+    "Rank": 626,
+    "UdListDefinitionId": 893
   },
   {
-    "HeadingId": 415,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "molestiae",
+    "HeadingId": 543,
+    "Name": "DuBuque LLC",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 255
+    "Rank": 626,
+    "UdListDefinitionId": 893
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Mills-Dietrich",
-    "Tooltip": "et",
+    "HeadingId": 472,
+    "Name": "Veum-McClure",
+    "Tooltip": "vel",
     "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 668,
+    "Rank": 427,
+    "UdListDefinitionId": 767,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 917
       }
     }
   }

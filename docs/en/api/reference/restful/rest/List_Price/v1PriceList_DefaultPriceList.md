@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 546,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 32,
-  "Name": "Stanton-Baumbach",
-  "Description": "Balanced systemic budgetary management",
-  "Currency": "et",
-  "CurrencyName": "Conn-Price",
-  "ValidFrom": "2013-08-26T03:47:00.7067961+02:00",
-  "ValidTo": "2018-04-21T03:47:00.7067961+02:00",
+  "PriceListId": 489,
+  "ERPPriceListKey": "excepturi",
+  "QuoteConnectionId": 504,
+  "Name": "Kihn Group",
+  "Description": "Visionary human-resource internet solution",
+  "Currency": "delectus",
+  "CurrencyName": "Kuhic, Schaden and Grant",
+  "ValidFrom": "2017-09-16T11:24:53.9842923+02:00",
+  "ValidTo": "2006-09-08T11:24:53.9842923+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 885
     }
   }
 }

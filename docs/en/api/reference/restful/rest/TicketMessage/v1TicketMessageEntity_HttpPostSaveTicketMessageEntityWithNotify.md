@@ -124,67 +124,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 940,
+  "EjMessageId": 573,
   "Ticket": null,
-  "CreatedAt": "2000-03-02T03:47:00.3630582+01:00",
+  "CreatedAt": "2005-05-12T11:24:53.703054+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 277,
-  "Body": "earum",
-  "HtmlBody": "minima",
-  "EmailHeader": "rollin@boehm.us",
-  "DebugInfo": "quis",
-  "MailSorter": "voluptatibus",
+  "MessageId": "ex",
+  "TimeSpent": 711,
+  "Body": "repudiandae",
+  "HtmlBody": "commodi",
+  "EmailHeader": "rosanna@watsica.co.uk",
+  "DebugInfo": "velit",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "possimus",
   "MessageHeaders": [
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 212,
+      "Name": "Oberbrunner, Rolfson and Kiehn",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 212,
+      "Name": "Oberbrunner, Rolfson and Kiehn",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ut",
-  "Sentiment": 513,
-  "SentimentConfidence": 897,
+  "Language": "facilis",
+  "Sentiment": 563,
+  "SentimentConfidence": 36,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 410,
-      "Name": "Senger Inc and Sons",
-      "ContentType": "modi",
-      "AttSize": 493,
+      "AttachmentId": 415,
+      "Name": "Murray, Dibbert and Wilkinson",
+      "ContentType": "nam",
+      "AttSize": 655,
       "InlineImage": false,
-      "ContentId": "cum",
-      "AuthKey": "ipsam",
+      "ContentId": "vero",
+      "AuthKey": "a",
       "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "id"
+    "CustomFields1": "sunt",
+    "CustomFields2": "aspernatur"
   }
 }
 ```
@@ -196,28 +196,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 129,
+  "EjMessageId": 988,
   "Ticket": null,
-  "CreatedAt": "1999-06-16T03:47:00.3786828+02:00",
+  "CreatedAt": "2008-05-23T11:24:53.703054+02:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 148,
-  "Body": "est",
-  "HtmlBody": "officia",
-  "EmailHeader": "arnaldo@farrell.co.uk",
-  "DebugInfo": "esse",
-  "MailSorter": "atque",
+  "MessageId": "aspernatur",
+  "TimeSpent": 545,
+  "Body": "sint",
+  "HtmlBody": "sed",
+  "EmailHeader": "dangelo@damore.com",
+  "DebugInfo": "vel",
+  "MailSorter": "doloribus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sit",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Id": 803,
-      "Name": "Crooks-Ward",
-      "Value": "vero",
+      "Id": 822,
+      "Name": "Heidenreich, Doyle and Wolf",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldLength": 435
         }
       }
     }
   ],
   "Important": false,
   "Language": "aut",
-  "Sentiment": 522,
-  "SentimentConfidence": 59,
+  "Sentiment": 247,
+  "SentimentConfidence": 558,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 384,
-      "Name": "Vandervort, Gutkowski and Kohler",
-      "ContentType": "ipsum",
-      "AttSize": 375,
+      "AttachmentId": 749,
+      "Name": "Dietrich-Pollich",
+      "ContentType": "at",
+      "AttSize": 240,
       "InlineImage": true,
-      "ContentId": "itaque",
-      "AuthKey": "ullam",
-      "IsSafeFileExtension": false,
+      "ContentId": "alias",
+      "AuthKey": "autem",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 278
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "eum"
+    "CustomFields1": "vero",
+    "CustomFields2": "vitae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 826
     }
   }
 }

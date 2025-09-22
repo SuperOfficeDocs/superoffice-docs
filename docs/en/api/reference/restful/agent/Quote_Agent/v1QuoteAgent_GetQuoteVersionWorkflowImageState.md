@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 107
+  "QuoteVersionId": 612
 }
 ```
 
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "impedit",
-  "DisplayText": "expedita",
+  "ImageHint": "sit",
+  "DisplayText": "quisquam",
   "TooltipText": "et",
   "Enabled": false,
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 452
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Rosenbaum-Fahey",
-  "Tooltip": "aspernatur",
+  "Id": 714,
+  "Name": "Mertz Group",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 972,
+  "UdListDefinitionId": 130,
+  "Rank": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

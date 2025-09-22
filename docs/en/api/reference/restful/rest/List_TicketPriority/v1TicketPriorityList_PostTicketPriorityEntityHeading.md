@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 996,
-  "Name": "Bashirian, Walsh and Ziemann",
-  "Tooltip": "omnis",
+  "HeadingId": 335,
+  "Name": "Ullrich, Altenwerth and Wilderman",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 914,
-  "UdListDefinitionId": 375
+  "Rank": 397,
+  "UdListDefinitionId": 648
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 766,
-  "Name": "Krajcik LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 716,
-  "UdListDefinitionId": 980,
+  "HeadingId": 5,
+  "Name": "Dickens-Harvey",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 851,
+  "UdListDefinitionId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

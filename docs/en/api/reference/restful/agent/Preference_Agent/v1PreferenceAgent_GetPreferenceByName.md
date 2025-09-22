@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "distinctio",
-  "PrefKey": "dolorem",
+  "PrefSection": "ipsum",
+  "PrefKey": "dolores",
   "PrefLevel": "Database"
 }
 ```
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "cum",
   "Specification": null,
-  "DisplayValue": "quisquam",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "saepe",
+  "DisplayTooltip": "sapiente",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 878,
-  "PrefDescId": 373,
-  "TableName": "Raynor Inc and Sons",
-  "UserPreferenceId": 463,
+  "TargetId": 975,
+  "PrefDescId": 343,
+  "TableName": "West, Kilback and O'Keefe",
+  "UserPreferenceId": 573,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

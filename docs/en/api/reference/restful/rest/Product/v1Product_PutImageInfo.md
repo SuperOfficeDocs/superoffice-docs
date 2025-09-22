@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 538,
-  "BlobSize": 249,
-  "Description": "Horizontal incremental access",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": false,
+  "BlobId": 583,
+  "BlobSize": 945,
+  "Description": "Adaptive secondary utilisation",
+  "ExtraInfo": "corrupti",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "praesentium",
-  "OriginalSize": 113,
-  "CreatedDate": "2019-07-14T03:47:00.4255562+02:00",
-  "UpdatedDate": "2000-12-26T03:47:00.4255562+01:00",
+  "MimeType": "ratione",
+  "OriginalSize": 468,
+  "CreatedDate": "2008-02-08T11:24:53.7655512+01:00",
+  "UpdatedDate": "2013-07-24T11:24:53.7655512+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequuntur"
+  "ConceptualType": "aliquid"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 128,
-  "BlobSize": 345,
-  "Description": "User-centric eco-centric success",
-  "ExtraInfo": "magni",
+  "BlobId": 975,
+  "BlobSize": 262,
+  "Description": "Re-engineered cohesive extranet",
+  "ExtraInfo": "nobis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "distinctio",
-  "OriginalSize": 241,
-  "CreatedDate": "2006-12-18T03:47:00.4255562+01:00",
-  "UpdatedDate": "2012-05-26T03:47:00.4255562+02:00",
+  "IsZipped": false,
+  "MimeType": "dolores",
+  "OriginalSize": 820,
+  "CreatedDate": "2014-08-07T11:24:53.7655512+02:00",
+  "UpdatedDate": "2019-01-01T11:24:53.7655512+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 24
     }
   }
 }

@@ -82,19 +82,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 262,
+  "SystemEventId": 473,
   "Scope": "Database",
-  "Eta": "2010-03-11T03:46:54.4570178+01:00",
-  "Eventkey": "quisquam",
-  "Eventmess": "molestiae",
-  "ExtraInfo": 111,
-  "Owner": 564,
-  "UpdatedCount": 863,
-  "Registered": "2017-05-21T03:46:54.4570178+02:00",
+  "Eta": "2016-05-31T11:24:47.7189228+02:00",
+  "Eventkey": "tempore",
+  "Eventmess": "consequatur",
+  "ExtraInfo": 550,
+  "Owner": 547,
+  "UpdatedCount": 840,
+  "Registered": "2004-05-27T11:24:47.7189228+02:00",
   "ActivatedBy": null
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 742,
+  "SystemEventId": 795,
   "Scope": "Database",
-  "Eta": "2007-09-07T03:46:54.4570178+02:00",
-  "Eventkey": "veniam",
-  "Eventmess": "at",
-  "ExtraInfo": 142,
-  "Owner": 251,
-  "UpdatedCount": 204,
-  "Registered": "2011-08-12T03:46:54.4570178+02:00",
+  "Eta": "2024-04-12T11:24:47.7189228+02:00",
+  "Eventkey": "qui",
+  "Eventmess": "tempora",
+  "ExtraInfo": 169,
+  "Owner": 908,
+  "UpdatedCount": 798,
+  "Registered": "2016-08-03T11:24:47.7189228+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

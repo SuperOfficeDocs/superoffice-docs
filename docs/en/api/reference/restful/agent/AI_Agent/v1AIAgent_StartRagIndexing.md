@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/AI/StartRagIndexing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Boyle-Parker",
-  "SourceId": "beatae"
+  "NamespaceName": "Beatty, Schamberger and Franecki",
+  "SourceId": "ducimus"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-831
+657
 ```

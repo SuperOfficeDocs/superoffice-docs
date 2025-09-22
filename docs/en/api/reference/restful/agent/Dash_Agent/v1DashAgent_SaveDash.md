@@ -88,34 +88,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 620,
-  "UniqueId": "tempora",
-  "Name": "Bartoletti-Glover",
-  "Description": "Versatile interactive access",
-  "AssociateId": 177,
-  "Columns": 172,
+  "DashboardId": 3,
+  "UniqueId": "nostrum",
+  "Name": "Maggio-Gleichner",
+  "Description": "Re-contextualized radical data-warehouse",
+  "AssociateId": 317,
+  "Columns": 300,
   "Theme": null,
-  "VisibleForAll": 969,
+  "VisibleForAll": 679,
   "VisibleForAssociates": [
-    666,
-    422
+    742,
+    721
   ],
   "VisibleForGroups": [
-    181,
-    345
+    721,
+    673
   ],
-  "PinForAll": 670,
+  "PinForAll": 305,
   "PinForAssociates": [
-    272,
-    860
+    858,
+    963
   ],
   "PinForGroups": [
-    82,
-    656
+    169,
+    254
   ]
 }
 ```
@@ -127,37 +127,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 805,
-  "UniqueId": "neque",
-  "Name": "Ryan LLC",
-  "Description": "Mandatory zero defect attitude",
-  "AssociateId": 448,
-  "Columns": 650,
+  "DashboardId": 742,
+  "UniqueId": "consequatur",
+  "Name": "Borer LLC",
+  "Description": "De-engineered user-facing encoding",
+  "AssociateId": 455,
+  "Columns": 682,
   "Theme": null,
-  "VisibleForAll": 527,
+  "VisibleForAll": 483,
   "VisibleForAssociates": [
-    699,
-    228
+    130,
+    369
   ],
   "VisibleForGroups": [
-    656,
-    589
+    299,
+    447
   ],
-  "PinForAll": 220,
+  "PinForAll": 832,
   "PinForAssociates": [
-    721,
-    630
+    456,
+    858
   ],
   "PinForGroups": [
-    552,
-    498
+    268,
+    913
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 568
     }
   }
 }

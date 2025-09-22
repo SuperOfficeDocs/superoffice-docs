@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 27,
-  "Name": "Reichel, Effertz and Kris",
-  "Tooltip": "et",
+  "HeadingId": 869,
+  "Name": "Moen-Erdman",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 84,
-  "UdListDefinitionId": 804
+  "Rank": 477,
+  "UdListDefinitionId": 306
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Stracke, Bradtke and McKenzie",
-  "Tooltip": "eum",
+  "HeadingId": 393,
+  "Name": "McDermott Inc and Sons",
+  "Tooltip": "occaecati",
   "Deleted": true,
-  "Rank": 843,
-  "UdListDefinitionId": 608,
+  "Rank": 641,
+  "UdListDefinitionId": 184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

@@ -78,38 +78,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Swaniawski Group",
-      "Operator": "ipsa",
+      "Name": "Bogan Inc and Sons",
+      "Operator": "magni",
       "Values": [
-        "enim",
-        "nemo"
+        "esse",
+        "ut"
       ],
       "DisplayValues": [
-        "quasi",
-        "rerum"
+        "laborum",
+        "maxime"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 819,
+      "InterParenthesis": 535,
       "InterOperator": "And",
-      "UniqueHash": 293
+      "UniqueHash": 37
     }
   ],
   "Columns": [
-    "ex",
-    "excepturi"
+    "id",
+    "sit"
   ],
-  "ConnectionId": 509,
+  "ConnectionId": 332,
   "ErpActorType": "Customer"
 }
 ```
@@ -124,47 +124,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "unde"
+        "deleniti",
+        "quis"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "est",
+      "ExternalKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 792
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
+      "Name": "O'Hara Inc and Sons",
+      "DisplayName": "Lakin Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 950
         }
       }
     },
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
+      "Name": "O'Hara Inc and Sons",
+      "DisplayName": "Lakin Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 950
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 602
     }
   }
 }

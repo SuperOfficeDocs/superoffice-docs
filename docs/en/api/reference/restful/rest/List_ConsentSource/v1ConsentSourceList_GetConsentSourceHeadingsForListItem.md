@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Blanda-Rogahn",
-    "ToolTip": "Voluptas sint qui voluptas sequi commodi est quidem.",
+    "Id": 625,
+    "Name": "Waelchi, Mraz and Harber",
+    "ToolTip": "Enim beatae.",
     "Deleted": true,
-    "Rank": 663,
-    "Type": "optio",
-    "ColorBlock": 151,
-    "IconHint": "sit",
+    "Rank": 410,
+    "Type": "non",
+    "ColorBlock": 245,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2001-05-06T03:47:00.6130405+02:00",
+    "LastChanged": "2009-09-10T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Treutel, Wintheiser and Barton",
-        "ToolTip": "Ex sit neque dolorum sunt.",
-        "Deleted": true,
-        "Rank": 54,
-        "Type": "quaerat",
-        "ColorBlock": 178,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2011-10-21T03:47:00.6130405+02:00",
+        "Id": 266,
+        "Name": "Raynor-Friesen",
+        "ToolTip": "Magni suscipit delectus exercitationem ex dolores laborum.",
+        "Deleted": false,
+        "Rank": 915,
+        "Type": "est",
+        "ColorBlock": 85,
+        "IconHint": "impedit",
+        "Selected": true,
+        "LastChanged": "2016-12-12T11:24:53.890546+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "quia",
+        "ExtraInfo": "quod",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Mr. Vickie Bauch",
+        "FullName": "Chance Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 229
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Leo Kohler I",
+    "ExtraInfo": "molestias",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Arlene Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

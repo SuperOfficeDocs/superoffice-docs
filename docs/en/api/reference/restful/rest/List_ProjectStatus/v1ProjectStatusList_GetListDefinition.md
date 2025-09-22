@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 532,
-  "Name": "Adams Inc and Sons",
-  "Tooltip": "sit",
+  "Id": 672,
+  "Name": "Satterfield Inc and Sons",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "Rank": 609,
-  "IsCustomList": true,
+  "Rank": 149,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   },
   "_Links": {

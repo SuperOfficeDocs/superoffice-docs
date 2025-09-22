@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schumm-Howell",
-  "ProviderName": "Schmeler Group",
+  "GuiName": "Huels, Skiles and Mertz",
+  "ProviderName": "Flatley, Hirthe and Herzog",
   "ChosenColumns": [
-    "nesciunt",
-    "quia"
+    "provident",
+    "modi"
   ]
 }
 ```

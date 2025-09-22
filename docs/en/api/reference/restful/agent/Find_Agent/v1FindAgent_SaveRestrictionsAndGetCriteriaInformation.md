@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Stokes-Senger",
-  "StorageKey": "ad",
+  "StorageType": "veniam",
+  "ProviderName": "Ward LLC",
+  "StorageKey": "natus",
   "Restrictions": [
     {
-      "Name": "Nienow Group",
-      "Operator": "dolor",
+      "Name": "Gorczany-Simonis",
+      "Operator": "soluta",
       "Values": [
-        "cupiditate",
-        "omnis"
+        "consequatur",
+        "quae"
       ],
       "DisplayValues": [
-        "at",
-        "doloremque"
+        "sed",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 23,
+      "InterParenthesis": 434,
       "InterOperator": "And",
-      "UniqueHash": 285
+      "UniqueHash": 251
     }
   ],
   "StaticColumns": [
-    "cupiditate",
-    "eius"
+    "at",
+    "et"
   ]
 }
 ```
@@ -129,81 +129,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Pacocha, Schuppe and McKenzie",
-      "Operator": "natus",
+      "Name": "McDermott-Zemlak",
+      "Operator": "expedita",
       "Values": [
-        "necessitatibus",
-        "deserunt"
+        "iste",
+        "quis"
       ],
       "DisplayValues": [
-        "culpa",
-        "voluptates"
+        "laborum",
+        "ipsam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 205,
       "InterOperator": "And",
-      "UniqueHash": 977
+      "UniqueHash": 19
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Crist, Watsica and Hyatt",
-      "DisplayTooltip": "qui",
-      "DisplayType": "mollitia",
+      "DisplayName": "Frami-Johns",
+      "DisplayTooltip": "itaque",
+      "DisplayType": "hic",
       "CanOrderBy": false,
-      "Name": "Frami-Goyette",
+      "Name": "Kris-Abshire",
       "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Legros, Hills and Wilkinson",
+      "RestrictionType": "aspernatur",
+      "RestrictionListName": "Keebler Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "magni",
-      "IconHint": "id",
-      "HeadingIconHint": "amet"
+      "ExtraInfo": "praesentium",
+      "Width": "qui",
+      "IconHint": "dolores",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crist Group",
-      "PrimaryKey": 568,
+      "EntityName": "Metz LLC",
+      "PrimaryKey": 304,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "voluptate",
-          "LinkHint": "provident"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "libero",
+          "LinkHint": "tempore"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "qui",
+      "LinkHint": "omnis",
+      "StyleHint": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 953
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Goodwin Inc and Sons",
+      "Description": "Up-sized solution-oriented encoding",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Goodwin Inc and Sons",
+      "Description": "Up-sized solution-oriented encoding",
+      "Rank": 144,
       "Restrictions": [
         {},
         {}
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 872
     }
   }
 }

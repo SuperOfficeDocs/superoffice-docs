@@ -81,7 +81,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,32 +89,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
+Last-Modified: Tue, 06 Nov 2018 11:24:53 G11T
 
 {
-  "ForeignAppId": 337,
-  "Name": "Ferry-Pfeffer",
-  "CreatedDate": "2015-09-05T03:47:00.0193121+02:00",
-  "UpdatedDate": "2020-06-09T03:47:00.0193121+02:00",
+  "ForeignAppId": 479,
+  "Name": "Raynor-Hoppe",
+  "CreatedDate": "2017-09-01T11:24:53.2968202+02:00",
+  "UpdatedDate": "2018-11-06T11:24:53.2968202+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 669,
-      "Name": "Schamberger Inc and Sons",
-      "CreatedDate": "2013-05-04T03:47:00.0193121+02:00",
-      "UpdatedDate": "2004-08-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ursula Anderson MD",
-      "CreatedBy": "eos",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "ipsam",
-      "ForeignAppId": 996,
+      "ForeignDeviceId": 881,
+      "Name": "Jewess Inc and Sons",
+      "CreatedDate": "2022-05-20T11:24:53.2968202+02:00",
+      "UpdatedDate": "2016-09-06T11:24:53.2968202+02:00",
+      "AssociateFullName": "Earl Lueilwitz",
+      "CreatedBy": "deleniti",
+      "UpdatedBy": "modi",
+      "DeviceIdentifier": "iste",
+      "ForeignAppId": 848,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 272
         }
       }
     }
@@ -124,7 +124,7 @@ Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 537
     }
   },
   "_Links": {

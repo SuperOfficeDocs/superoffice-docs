@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 790,
-  "UniqueIdentifier": "perferendis",
-  "Name": "Yundt, Ondricka and Kilback",
-  "Description": "Mandatory foreground parallelism",
-  "IncludeId": "dolorem",
-  "AccessKey": "doloremque",
-  "HierarchyId": 256,
-  "Source": "dicta",
-  "SourceCode": "dolorem",
+  "EjscriptId": 287,
+  "UniqueIdentifier": "eaque",
+  "Name": "Mills-Toy",
+  "Description": "Exclusive client-server product",
+  "IncludeId": "nulla",
+  "AccessKey": "est",
+  "HierarchyId": 110,
+  "Source": "officiis",
+  "SourceCode": "natus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 812,
+  "HtmlOutput": 349,
   "Includes": [
-    771,
-    190
+    432,
+    464
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 615,
-      "LineNumberTo": 613,
-      "Delta": 295,
-      "IncludeId": "consectetur",
+      "LineNumberFrom": 401,
+      "LineNumberTo": 529,
+      "Delta": 625,
+      "IncludeId": "quis",
       "IncludedFrom": [
-        "autem",
-        "consequatur"
+        "et",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 492
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2025-04-30T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 863,
-  "Updated": "2013-07-25T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 304,
+  "Registered": "2024-04-28T11:24:47.8439178+02:00",
+  "RegisteredAssociateId": 477,
+  "Updated": "2018-11-08T11:24:47.8439178+01:00",
+  "UpdatedAssociateId": 249,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

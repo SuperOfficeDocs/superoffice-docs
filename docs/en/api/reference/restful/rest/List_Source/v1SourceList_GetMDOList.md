@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=quia
+GET /api/v1/List/Source/MDOItems?query=porro
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Laudantium qui porro delectus.",
+    "Id": 927,
+    "Name": "Streich, Jerde and Halvorson",
+    "ToolTip": "Molestiae autem inventore consequatur nobis quas.",
     "Deleted": false,
-    "Rank": 430,
-    "Type": "ipsum",
+    "Rank": 663,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Smitham, Watsica and Bode",
-        "ToolTip": "Voluptas temporibus ut quia.",
+        "Id": 92,
+        "Name": "Nicolas LLC",
+        "ToolTip": "Aperiam eum odio deserunt accusamus explicabo.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "veritatis",
+        "Rank": 40,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 924,
-        "ExtraInfo": "animi",
-        "StyleHint": "molestiae",
-        "FullName": "Gaylord Baumbach",
+        "IconHint": "et",
+        "ColorBlock": 601,
+        "ExtraInfo": "magnam",
+        "StyleHint": "accusamus",
+        "FullName": "Ole Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldType": "System.String",
+            "FieldLength": 401
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 922,
-    "ExtraInfo": "eos",
-    "StyleHint": "expedita",
-    "FullName": "Eva Claud Gutkowski III",
+    "IconHint": "cum",
+    "ColorBlock": 981,
+    "ExtraInfo": "ut",
+    "StyleHint": "a",
+    "FullName": "Hunter Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 473
       }
     }
   }

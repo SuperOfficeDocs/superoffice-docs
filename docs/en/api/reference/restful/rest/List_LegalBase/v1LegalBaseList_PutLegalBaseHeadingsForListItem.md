@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Bergstrom Group",
-    "ToolTip": "Beatae eligendi et.",
-    "Deleted": true,
-    "Rank": 71,
-    "Type": "facere",
-    "ColorBlock": 465,
-    "IconHint": "facilis",
+    "Id": 300,
+    "Name": "Bernier Group",
+    "ToolTip": "Quasi est incidunt.",
+    "Deleted": false,
+    "Rank": 552,
+    "Type": "velit",
+    "ColorBlock": 157,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2022-07-15T03:47:00.6755475+02:00",
+    "LastChanged": "2013-11-30T11:24:53.9530436+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Torphy-Johnson",
-        "ToolTip": "Velit nesciunt fugiat possimus non.",
+        "Id": 255,
+        "Name": "McGlynn, Effertz and Johnston",
+        "ToolTip": "Optio fugit quae illum tempore autem impedit.",
         "Deleted": true,
-        "Rank": 438,
-        "Type": "ut",
-        "ColorBlock": 823,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2022-11-26T03:47:00.6755475+01:00",
+        "Rank": 370,
+        "Type": "dolorem",
+        "ColorBlock": 223,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2005-08-07T11:24:53.9530436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "impedit",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Rollin O'Conner"
+        "FullName": "Ambrose Katlyn Collier MD"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Raphaelle Kertzmann"
+    "ExtraInfo": "sed",
+    "StyleHint": "occaecati",
+    "Hidden": false,
+    "FullName": "Hassie Murray"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Jacobs, Schneider and Krajcik",
-    "ToolTip": "Omnis inventore id reprehenderit perferendis reprehenderit a.",
-    "Deleted": true,
-    "Rank": 670,
-    "Type": "vel",
-    "ColorBlock": 94,
-    "IconHint": "quam",
+    "Id": 100,
+    "Name": "Mertz-Langworth",
+    "ToolTip": "Et officiis dignissimos fuga.",
+    "Deleted": false,
+    "Rank": 689,
+    "Type": "quidem",
+    "ColorBlock": 626,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2009-05-03T03:47:00.6755475+02:00",
+    "LastChanged": "2003-09-02T11:24:53.9530436+02:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Harvey-Schuppe",
-        "ToolTip": "Consequuntur quisquam laudantium cumque beatae doloremque recusandae et.",
+        "Id": 260,
+        "Name": "Goodwin Inc and Sons",
+        "ToolTip": "Accusamus qui reiciendis magni modi natus.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "consequatur",
-        "ColorBlock": 435,
-        "IconHint": "ut",
+        "Rank": 539,
+        "Type": "quod",
+        "ColorBlock": 361,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2004-06-06T03:47:00.6755475+02:00",
+        "LastChanged": "2002-12-23T11:24:53.9530436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "at",
+        "ExtraInfo": "sed",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Lyric Wuckert",
+        "FullName": "Dr. Elmore Wuckert I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Eugenia Blanda V",
+    "ExtraInfo": "eaque",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Dr. Delia Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

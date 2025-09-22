@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 596,
-    "Name": "Kessler, Kub and Barton",
-    "Tooltip": "dolorem",
+    "HeadingId": 154,
+    "Name": "Nolan-Russel",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 269,
-    "UdListDefinitionId": 602
+    "Rank": 549,
+    "UdListDefinitionId": 506
   },
   {
-    "HeadingId": 596,
-    "Name": "Kessler, Kub and Barton",
-    "Tooltip": "dolorem",
+    "HeadingId": 154,
+    "Name": "Nolan-Russel",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 269,
-    "UdListDefinitionId": 602
+    "Rank": 549,
+    "UdListDefinitionId": 506
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 727,
-    "Name": "Langosh, Mann and Emard",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 346,
-    "UdListDefinitionId": 471,
+    "HeadingId": 938,
+    "Name": "Pollich-Braun",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 602,
+    "UdListDefinitionId": 711,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 890
       }
     }
   }

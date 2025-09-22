@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,31 +100,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Langworth-Bahringer",
-    "Comment": "vel",
-    "StakeholderRoleId": 138,
-    "CountryId": 306,
-    "PersonId": 762,
-    "EmailDescription": "sylvan_runolfsson@renner.info",
-    "EmailId": 740,
-    "EmailAddress": "maggie@mante.biz",
-    "PhoneId": 323,
-    "ContactName": "Marquardt LLC",
-    "ContactId": 160,
-    "SaleId": 912,
-    "Mrmrs": "doloremque",
-    "Firstname": "Gilbert",
-    "MiddleName": "Yost Inc and Sons",
-    "Lastname": "Kub",
-    "SaleStakeholderId": 574,
-    "Rank": 818,
-    "Phone": "131.261.5279 x69756",
+    "StakeholderRoleName": "Spencer Inc and Sons",
+    "Comment": "quod",
+    "StakeholderRoleId": 753,
+    "CountryId": 21,
+    "PersonId": 789,
+    "EmailDescription": "delores.schiller@weimann.name",
+    "EmailId": 16,
+    "EmailAddress": "randall.nader@vandervort.biz",
+    "PhoneId": 401,
+    "ContactName": "Lockman-Nader",
+    "ContactId": 867,
+    "SaleId": 580,
+    "Mrmrs": "optio",
+    "Firstname": "Lonie",
+    "MiddleName": "Green-Bruen",
+    "Lastname": "Murray",
+    "SaleStakeholderId": 679,
+    "Rank": 831,
+    "Phone": "(224)842-4370 x56229",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 518
       }
     }
   }

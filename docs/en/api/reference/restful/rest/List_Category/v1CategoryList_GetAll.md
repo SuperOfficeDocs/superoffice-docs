@@ -26,7 +26,7 @@ Gets all the Category items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Category/Items?includeDeleted=False
+GET /api/v1/List/Category/Items?includeDeleted=True
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Hegmann Group",
-    "Tooltip": "qui",
+    "Id": 884,
+    "Name": "Bechtelar Inc and Sons",
+    "Tooltip": "illum",
     "Deleted": false,
-    "UdListDefinitionId": 21,
-    "Rank": 790,
+    "UdListDefinitionId": 25,
+    "Rank": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

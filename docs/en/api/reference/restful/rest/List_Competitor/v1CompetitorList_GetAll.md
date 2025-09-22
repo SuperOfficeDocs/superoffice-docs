@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Wintheiser, Bailey and Witting",
-    "Tooltip": "vero",
+    "Id": 531,
+    "Name": "Hills, Crona and Bosco",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "UdListDefinitionId": 246,
-    "Rank": 369,
+    "UdListDefinitionId": 460,
+    "Rank": 696,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

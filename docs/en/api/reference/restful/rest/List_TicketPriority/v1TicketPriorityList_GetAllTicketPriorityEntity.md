@@ -28,7 +28,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=True
+GET /api/v1/List/TicketPriority/Items?includeDeleted=False
 ```
 
 
@@ -106,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 632,
-    "Name": "Bechtelar-Jast",
+    "TicketPriorityId": 494,
+    "Name": "Kerluke, Schmitt and Sanford",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 888,
+    "SortOrder": 181,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 469,
-    "MonStart": "2016-03-03T03:47:00.8942898+01:00",
-    "MonStop": "2017-12-12T03:47:00.8942898+01:00",
-    "TueStart": "2005-03-06T03:47:00.8942898+01:00",
-    "TueStop": "2009-02-24T03:47:00.8942898+01:00",
-    "WedStart": "1998-05-22T03:47:00.8942898+02:00",
-    "WedStop": "2006-08-11T03:47:00.8942898+02:00",
-    "ThuStart": "2012-09-10T03:47:00.8942898+02:00",
-    "ThuStop": "2005-03-10T03:47:00.8942898+01:00",
-    "FriStart": "2015-06-09T03:47:00.8942898+02:00",
-    "FriStop": "2000-06-13T03:47:00.8942898+02:00",
-    "SatStart": "2018-01-03T03:47:00.8942898+01:00",
-    "SatStop": "2001-08-26T03:47:00.8942898+02:00",
-    "SunStart": "1999-05-04T03:47:00.8942898+02:00",
-    "SunStop": "2016-10-12T03:47:00.8942898+02:00",
+    "Deadline": 193,
+    "MonStart": "2013-06-29T11:24:54.1717846+02:00",
+    "MonStop": "2006-12-08T11:24:54.1717846+01:00",
+    "TueStart": "2024-02-22T11:24:54.1717846+01:00",
+    "TueStop": "2001-04-27T11:24:54.1717846+02:00",
+    "WedStart": "2005-04-05T11:24:54.1717846+02:00",
+    "WedStop": "2016-02-04T11:24:54.1717846+01:00",
+    "ThuStart": "2009-12-02T11:24:54.1717846+01:00",
+    "ThuStop": "2022-08-18T11:24:54.1717846+02:00",
+    "FriStart": "2003-08-19T11:24:54.1717846+02:00",
+    "FriStop": "2021-07-16T11:24:54.1717846+02:00",
+    "SatStart": "2018-01-01T11:24:54.1717846+01:00",
+    "SatStop": "2004-08-28T11:24:54.1717846+02:00",
+    "SunStart": "2003-04-26T11:24:54.1717846+02:00",
+    "SunStop": "2012-10-19T11:24:54.1717846+02:00",
     "NonDates": [
-      "error",
-      "facilis"
+      "magnam",
+      "placeat"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 339,
-        "AlertLevel": 747,
-        "AlertTimeout": 521,
-        "Action": 116,
-        "DelegateTo": 716,
-        "ScriptId": 889,
-        "EmailTo": "aletha_block@quigley.uk",
-        "SmsTo": "sunt",
-        "ReplyTemplateIdCustomer": 877,
-        "ReplyTemplateIdUser": 505,
-        "ReplyTemplateIdCatmast": 341,
-        "ReplyTemplateIdEmail": 66,
-        "RtiCustomerSms": 286,
-        "ReplyTemplateIdUserSms": 343,
-        "ReplyTemplateIdCatmastSms": 121,
-        "ReplyTemplateIdSms": 712,
+        "TicketAlertId": 222,
+        "AlertLevel": 201,
+        "AlertTimeout": 975,
+        "Action": 628,
+        "DelegateTo": 52,
+        "ScriptId": 710,
+        "EmailTo": "marilou@hackett.us",
+        "SmsTo": "architecto",
+        "ReplyTemplateIdCustomer": 511,
+        "ReplyTemplateIdUser": 208,
+        "ReplyTemplateIdCatmast": 538,
+        "ReplyTemplateIdEmail": 576,
+        "RtiCustomerSms": 578,
+        "ReplyTemplateIdUserSms": 18,
+        "ReplyTemplateIdCatmastSms": 161,
+        "ReplyTemplateIdSms": 324,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldType": "System.String",
+            "FieldLength": 535
           }
         }
       }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

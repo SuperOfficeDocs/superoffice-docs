@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 205,
-  "Rank": 198,
+  "Id": 143,
+  "Name": "Beatty-Dicki",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "UdListDefinitionId": 437,
+  "Rank": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldLength": 871
     }
   }
 }

@@ -107,34 +107,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Frami-Huels",
-      "Operator": "tenetur",
+      "Name": "Osinski LLC",
+      "Operator": "architecto",
       "Values": [
-        "autem",
-        "laborum"
+        "tempora",
+        "esse"
       ],
       "DisplayValues": [
-        "itaque",
-        "officia"
+        "facere",
+        "odit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 658,
       "InterOperator": "And",
-      "UniqueHash": 501
+      "UniqueHash": 653
     }
   ],
-  "ProviderName": "Hane, Strosin and McDermott",
+  "ProviderName": "Kilback-Bruen",
   "DesiredColumns": [
-    "ut",
-    "deleniti"
+    "odio",
+    "voluptatibus"
   ],
-  "PageSize": 651,
-  "PageNumber": 625
+  "PageSize": 211,
+  "PageNumber": 486
 }
 ```
 
@@ -147,51 +147,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sanford, West and Schimmel",
-      "DisplayTooltip": "est",
-      "DisplayType": "molestias",
-      "CanOrderBy": false,
-      "Name": "Fahey-Vandervort",
-      "CanRestrictBy": true,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Schmidt-Schoen",
+      "DisplayName": "Mueller-Parisian",
+      "DisplayTooltip": "facere",
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Mosciski, Wisoky and Pfeffer",
+      "CanRestrictBy": false,
+      "RestrictionType": "cumque",
+      "RestrictionListName": "Lockman-Sawayn",
       "IsVisible": true,
-      "ExtraInfo": "excepturi",
-      "Width": "voluptas",
-      "IconHint": "nihil",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "et",
+      "Width": "necessitatibus",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyle-Beahan",
-      "PrimaryKey": 614,
+      "EntityName": "Kuhn-Koch",
+      "PrimaryKey": 17,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "dolor",
-          "LinkHint": "et"
+          "DisplayValue": "quia",
+          "TooltipHint": "qui",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "consequatur",
+      "LinkHint": "similique",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 971
         }
       }
     }
   ],
-  "RowCount": 991,
+  "RowCount": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 47
     }
   }
 }

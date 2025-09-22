@@ -73,7 +73,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sint",
+  "RawValue": "molestiae",
   "Specification": null,
-  "DisplayValue": "voluptatibus",
-  "DisplayTooltip": "vel",
+  "DisplayValue": "est",
+  "DisplayTooltip": "dolores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 818,
-  "PrefDescId": 480,
-  "TableName": "Cummerata-Predovic",
-  "UserPreferenceId": 502,
+  "TargetId": 807,
+  "PrefDescId": 477,
+  "TableName": "Mayer-Collier",
+  "UserPreferenceId": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 608
     }
   }
 }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Kunde Group",
-    "ToolTip": "Aut omnis at consequatur aspernatur.",
+    "Id": 706,
+    "Name": "Balistreri LLC",
+    "ToolTip": "Velit quidem nam quos non omnis hic.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "quia",
-    "ColorBlock": 927,
-    "IconHint": "architecto",
+    "Rank": 695,
+    "Type": "explicabo",
+    "ColorBlock": 845,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2010-09-15T03:47:00.6130405+02:00",
+    "LastChanged": "2009-09-30T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Zulauf, Heller and Ernser",
-        "ToolTip": "Ipsa esse velit iure non.",
-        "Deleted": false,
-        "Rank": 837,
-        "Type": "eius",
-        "ColorBlock": 809,
-        "IconHint": "doloribus",
-        "Selected": true,
-        "LastChanged": "2006-12-05T03:47:00.6130405+01:00",
+        "Id": 470,
+        "Name": "Brekke, Davis and Lueilwitz",
+        "ToolTip": "Deleniti ut dicta numquam sit voluptatem nisi exercitationem.",
+        "Deleted": true,
+        "Rank": 763,
+        "Type": "nisi",
+        "ColorBlock": 930,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2024-11-20T11:24:53.9061703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Ada Willms I"
+        "ExtraInfo": "nostrum",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Fannie Friesen"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "eius",
-    "Hidden": false,
-    "FullName": "Cleora Anna Beahan DVM"
+    "ExtraInfo": "quis",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Arnold Jena Gibson II"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Ernser, Ward and Lockman",
-    "ToolTip": "Et quia.",
-    "Deleted": false,
-    "Rank": 780,
-    "Type": "nobis",
-    "ColorBlock": 839,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2025-08-03T03:47:00.6130405+02:00",
+    "Id": 959,
+    "Name": "Bergnaum LLC",
+    "ToolTip": "Cum veritatis aut.",
+    "Deleted": true,
+    "Rank": 238,
+    "Type": "et",
+    "ColorBlock": 581,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2012-04-04T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Lueilwitz, Oberbrunner and Erdman",
-        "ToolTip": "Voluptatum et laudantium ut sit.",
-        "Deleted": false,
-        "Rank": 98,
-        "Type": "aut",
-        "ColorBlock": 979,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2001-07-27T03:47:00.6130405+02:00",
+        "Id": 298,
+        "Name": "Roberts Inc and Sons",
+        "ToolTip": "Ut dolorum necessitatibus ipsum ipsum qui ea.",
+        "Deleted": true,
+        "Rank": 527,
+        "Type": "et",
+        "ColorBlock": 137,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2013-12-05T11:24:53.9061703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Mrs. Allison DuBuque",
+        "ExtraInfo": "dolor",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Mr. Stevie Georgette Abshire Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "laborum",
+    "ExtraInfo": "rem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Tracey Schoen",
+    "FullName": "Vernice Pacocha PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

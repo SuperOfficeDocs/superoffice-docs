@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 915,
-  "ConnectorName": "Nienow Inc and Sons"
+  "ConnectionId": 142,
+  "ConnectorName": "Willms, Herzog and Adams"
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "repellat",
-    "Rank": 101,
-    "DisplayName": "Lebsack LLC",
-    "DisplayDescription": "Operative local success",
+    "FieldKey": "harum",
+    "Rank": 66,
+    "DisplayName": "Skiles-Roberts",
+    "DisplayDescription": "Implemented 3rd generation workforce",
     "FieldType": "Checkbox",
-    "ListName": "Dietrich-Nolan",
-    "DefaultValue": "quia",
-    "MaxLength": 895,
+    "ListName": "O'Reilly Inc and Sons",
+    "DefaultValue": "at",
+    "MaxLength": 766,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 9
       }
     }
   }

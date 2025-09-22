@@ -117,47 +117,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 259,
-  "Name": "Kunde LLC",
-  "Tooltip": "ea",
-  "Rank": 683,
+  "SaleTypeId": 195,
+  "Name": "Stoltenberg Group",
+  "Tooltip": "eaque",
+  "Rank": 840,
   "DurationUnit": "Century",
-  "SaleDuration": 630,
-  "SaleTypeCatId": 616,
-  "Deleted": true,
+  "SaleDuration": 619,
+  "SaleTypeCatId": 434,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 794,
-  "QuoteLinesTemplate": 419,
-  "ConfirmationLinesTemplate": 50,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 450,
-  "MinEarningPercent": 747,
-  "GroupQuoteLinesBy": 782,
-  "SortGroupLinesBy": 58,
+  "DefaultQuoteValidity": 533,
+  "QuoteLinesTemplate": 649,
+  "ConfirmationLinesTemplate": 520,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 813,
+  "MinEarningPercent": 238,
+  "GroupQuoteLinesBy": 612,
+  "SortGroupLinesBy": 561,
   "Stages": [
     {
-      "Id": 405,
-      "Name": "Schuppe, Fritsch and Thompson",
-      "ToolTip": "Quidem facilis omnis voluptatem illo et.",
-      "Deleted": true,
-      "Rank": 241,
-      "Type": "consectetur",
-      "ColorBlock": 639,
-      "IconHint": "harum",
+      "Id": 220,
+      "Name": "Reilly-Johnson",
+      "ToolTip": "Quibusdam enim voluptas ut quia veritatis non exercitationem.",
+      "Deleted": false,
+      "Rank": 347,
+      "Type": "incidunt",
+      "ColorBlock": 915,
+      "IconHint": "voluptates",
       "Selected": false,
-      "LastChanged": "2017-04-01T03:47:00.8005429+02:00",
+      "LastChanged": "2005-07-07T11:24:54.1405361+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "odio",
+      "ExtraInfo": "deleniti",
+      "StyleHint": "suscipit",
       "Hidden": false,
-      "FullName": "Zane Watsica"
+      "FullName": "Ms. Kenna Jacobson IV"
     }
   ]
 }
@@ -170,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 648,
-  "Name": "Krajcik-Rodriguez",
-  "Tooltip": "non",
-  "Rank": 353,
+  "SaleTypeId": 800,
+  "Name": "Lebsack, Hudson and Leuschke",
+  "Tooltip": "molestiae",
+  "Rank": 556,
   "DurationUnit": "Century",
-  "SaleDuration": 368,
-  "SaleTypeCatId": 570,
+  "SaleDuration": 479,
+  "SaleTypeCatId": 673,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 632,
-  "QuoteLinesTemplate": 235,
-  "ConfirmationLinesTemplate": 700,
+  "DefaultQuoteValidity": 307,
+  "QuoteLinesTemplate": 149,
+  "ConfirmationLinesTemplate": 89,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 412,
-  "MinEarningPercent": 163,
-  "GroupQuoteLinesBy": 413,
-  "SortGroupLinesBy": 986,
+  "MaxDiscountPercent": 367,
+  "MinEarningPercent": 388,
+  "GroupQuoteLinesBy": 582,
+  "SortGroupLinesBy": 712,
   "Stages": [
     {
-      "Id": 12,
-      "Name": "Labadie Group",
-      "ToolTip": "Eos quo.",
+      "Id": 681,
+      "Name": "O'Reilly Inc and Sons",
+      "ToolTip": "Et quasi quo nulla commodi eum.",
       "Deleted": false,
-      "Rank": 566,
-      "Type": "voluptatum",
-      "ColorBlock": 219,
-      "IconHint": "reiciendis",
-      "Selected": false,
-      "LastChanged": "2009-11-11T03:47:00.8161673+01:00",
+      "Rank": 982,
+      "Type": "dolorum",
+      "ColorBlock": 364,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2006-11-15T11:24:54.1405361+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "culpa",
       "Hidden": false,
-      "FullName": "Heloise Therese Feeney MD",
+      "FullName": "Miss Fritz McLaughlin II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 40
         }
       }
     }
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   }
 }

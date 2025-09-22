@@ -894,7 +894,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=who,personExtra/x_person_float,project/imageThumbnail,project/NumberOfNotCompletedActivities,project/NumberOfSalesInPeriod
+GET /api/v1/archive/Favourites?$select=salePublish/publishedBy,saleUdef/SuperOffice:7,personAssociate/contactFullName,consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

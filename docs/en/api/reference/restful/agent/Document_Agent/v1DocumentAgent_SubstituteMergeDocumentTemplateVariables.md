@@ -78,15 +78,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 702,
-  "AssociateId": 228,
+  "DocumentId": 958,
+  "AssociateId": 774,
   "CustomTags": [
-    "quasi",
+    "repudiandae",
     "aut"
   ],
   "CustomValues": [
-    "quibusdam",
-    "non"
+    "cum",
+    "optio"
   ]
 }
 ```

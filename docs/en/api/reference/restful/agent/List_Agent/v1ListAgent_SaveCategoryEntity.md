@@ -78,18 +78,18 @@ OK
 POST /api/v1/Agents/List/SaveCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 86,
-  "Name": "Predovic Inc and Sons",
+  "CategoryId": 888,
+  "Name": "Green, Rath and Bernier",
   "CategoryGroup": "Customer",
-  "Tooltip": "laudantium",
-  "Rank": 772,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 276,
-  "Deleted": true
+  "Tooltip": "dolore",
+  "Rank": 454,
+  "EnableLeadStatus": false,
+  "CategoryFamilyId": 790,
+  "Deleted": false
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 67,
-  "Name": "Greenfelder Group",
+  "CategoryId": 446,
+  "Name": "Rogahn-Blanda",
   "CategoryGroup": "Customer",
-  "Tooltip": "explicabo",
-  "Rank": 436,
-  "EnableLeadStatus": false,
-  "CategoryFamilyId": 696,
+  "Tooltip": "mollitia",
+  "Rank": 155,
+  "EnableLeadStatus": true,
+  "CategoryFamilyId": 657,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 551
     }
   }
 }

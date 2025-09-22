@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 761,
-  "Name": "Legros, Mueller and Doyle",
-  "Tooltip": "a",
+  "HeadingId": 566,
+  "Name": "Rempel, Windler and Marquardt",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 78,
-  "UdListDefinitionId": 874
+  "Rank": 591,
+  "UdListDefinitionId": 442
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 966,
-  "Name": "Lakin Group",
-  "Tooltip": "earum",
+  "HeadingId": 692,
+  "Name": "Pagac LLC",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 86,
-  "UdListDefinitionId": 687,
+  "Rank": 940,
+  "UdListDefinitionId": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

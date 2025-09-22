@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 603,
-  "CurrencyId": 644
+  "QuoteConnectionId": 535,
+  "CurrencyId": 523
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 66,
-    "ERPPriceListKey": "quos",
-    "QuoteConnectionId": 822,
-    "Name": "Rath-Yundt",
-    "Description": "Synergistic static database",
-    "Currency": "perferendis",
-    "CurrencyName": "Morissette-Cartwright",
-    "ValidFrom": "2008-11-07T03:46:55.2226157+01:00",
-    "ValidTo": "2017-08-29T03:46:55.2226157+02:00",
+    "PriceListId": 996,
+    "ERPPriceListKey": "quo",
+    "QuoteConnectionId": 128,
+    "Name": "Veum LLC",
+    "Description": "Streamlined content-based monitoring",
+    "Currency": "dolor",
+    "CurrencyName": "Prohaska, Veum and Fadel",
+    "ValidFrom": "2016-12-13T11:24:48.5313897+01:00",
+    "ValidTo": "2008-06-10T11:24:48.5313897+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 70
       }
     }
   }

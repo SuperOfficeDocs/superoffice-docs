@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 1000,
+  "TargetYear": 307,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 83,
-  "DimensionId": 820
+  "Id": 852,
+  "DimensionId": 200
 }
 ```
 
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 470,
+  "TargetAssignmentInfoId": 963,
   "Values": [
-    155,
-    520
+    867,
+    392
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 179,
-  "DimensionListItemDisplayName": "Nikolaus-Ebert",
+  "DimensionListItem": 24,
+  "DimensionListItemDisplayName": "Rowe-Wehner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 836
     }
   }
 }

@@ -26,7 +26,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=True
+GET /api/v1/List/Priority/Items?includeDeleted=False
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Wolf-Kirlin",
-    "Tooltip": "iure",
+    "Id": 688,
+    "Name": "Leannon Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 517,
-    "Rank": 859,
+    "UdListDefinitionId": 794,
+    "Rank": 46,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

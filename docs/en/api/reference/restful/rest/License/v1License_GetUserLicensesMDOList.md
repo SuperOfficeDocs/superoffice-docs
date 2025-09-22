@@ -70,7 +70,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Armstrong-Yost",
-    "ToolTip": "Quod quibusdam consectetur.",
-    "Deleted": true,
-    "Rank": 223,
-    "Type": "consequatur",
-    "ColorBlock": 306,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2013-11-09T03:47:00.4099317+01:00",
+    "Id": 521,
+    "Name": "Wiza Inc and Sons",
+    "ToolTip": "Perspiciatis nihil temporibus alias asperiores excepturi.",
+    "Deleted": false,
+    "Rank": 910,
+    "Type": "exercitationem",
+    "ColorBlock": 39,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2017-02-20T11:24:53.7499269+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Johnson-Stamm",
-        "ToolTip": "Suscipit vero et est vitae similique omnis dolorem.",
+        "Id": 896,
+        "Name": "Weber-Hintz",
+        "ToolTip": "Delectus quas autem.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "provident",
-        "ColorBlock": 80,
-        "IconHint": "qui",
+        "Rank": 433,
+        "Type": "molestiae",
+        "ColorBlock": 120,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2019-09-23T03:47:00.4099317+02:00",
+        "LastChanged": "2001-05-19T11:24:53.7499269+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "molestias",
+        "ExtraInfo": "et",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Tanner O'Conner",
+        "FullName": "Vincenza Lesch PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldType": "System.String",
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "eos",
+    "ExtraInfo": "ad",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Miss Justyn Okuneva",
+    "FullName": "Dessie Shirley Lebsack IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 133
       }
     }
   }

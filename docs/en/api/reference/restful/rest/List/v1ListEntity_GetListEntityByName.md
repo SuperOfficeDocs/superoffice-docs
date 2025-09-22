@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Anderson, Hintz and Kris",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 943,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 603,
+  "Name": "Kassulke-Mohr",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "Rank": 666,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perferendis",
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 961
     }
   }
 }

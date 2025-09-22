@@ -89,10 +89,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 667,
+  "TargetYear": 288,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 929
+  "Id": 568
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 367,
+  "TargetAssignmentInfoId": 869,
   "Values": [
-    17,
-    900
+    547,
+    585
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 296,
-  "DimensionListItemDisplayName": "Herzog, Bednar and Kulas",
+  "DimensionListItem": 714,
+  "DimensionListItemDisplayName": "O'Conner-Brown",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

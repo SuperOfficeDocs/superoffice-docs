@@ -89,15 +89,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 100,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 959,
+  "ModuleOwner": "quod",
   "ModuleLicenseNames": [
-    "Stiedemann-McLaughlin",
-    "Fadel-Blick"
+    "Mertz Group",
+    "Dibbert-Wiegand"
   ]
 }
 ```
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 26,
-    "Tooltip": "provident",
+    "Total": 605,
+    "Tooltip": "officiis",
     "CanAssign": false,
-    "Free": 102,
-    "InUse": 487,
-    "IsHidden": true,
+    "Free": 454,
+    "InUse": 970,
+    "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 955,
-    "Name": "Herzog Inc and Sons",
-    "Description": "Configurable scalable Graphical User Interface",
-    "PrerequisiteModuleName": "O'Kon Inc and Sons",
-    "SortOrder": 387,
-    "ExtraFlags": 281,
+    "ModuleLicenseId": 38,
+    "Name": "Paucek-Hodkiewicz",
+    "Description": "Visionary bi-directional neural-net",
+    "PrerequisiteModuleName": "Upton, Marvin and Koepp",
+    "SortOrder": 169,
+    "ExtraFlags": 83,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 492
       }
     }
   }

@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 122,
-  "Name": "Hoppe Group",
-  "Tooltip": "vel",
-  "PassiveText": "est",
+  "ReldefId": 109,
+  "Name": "Prohaska-Kuvalis",
+  "Tooltip": "aliquam",
+  "PassiveText": "magnam",
   "Deleted": false,
-  "Rank": 325,
+  "Rank": 170,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -100,12 +100,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 725,
-  "Name": "Keebler, Adams and Ernser",
-  "Tooltip": "nihil",
-  "PassiveText": "ex",
+  "ReldefId": 34,
+  "Name": "Johnston LLC",
+  "Tooltip": "nemo",
+  "PassiveText": "dolores",
   "Deleted": false,
-  "Rank": 26,
+  "Rank": 842,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 100
     }
   }
 }

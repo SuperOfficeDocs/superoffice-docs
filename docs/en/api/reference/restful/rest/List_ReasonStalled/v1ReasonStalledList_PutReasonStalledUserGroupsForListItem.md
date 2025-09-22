@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Durgan, O'Keefe and Haley",
-    "ToolTip": "Accusantium odio.",
-    "Deleted": false,
-    "Rank": 637,
-    "Type": "et",
-    "ColorBlock": 44,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2005-10-15T03:47:00.8005429+02:00",
+    "Id": 14,
+    "Name": "Littel-Weimann",
+    "ToolTip": "Adipisci et.",
+    "Deleted": true,
+    "Rank": 553,
+    "Type": "sed",
+    "ColorBlock": 998,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2022-11-14T11:24:54.1249113+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "McKenzie LLC",
-        "ToolTip": "Voluptate dicta.",
-        "Deleted": false,
-        "Rank": 698,
-        "Type": "quidem",
-        "ColorBlock": 124,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2011-05-28T03:47:00.8005429+02:00",
+        "Id": 999,
+        "Name": "O'Reilly LLC",
+        "ToolTip": "Et aut est similique est ratione.",
+        "Deleted": true,
+        "Rank": 702,
+        "Type": "et",
+        "ColorBlock": 404,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2018-04-13T11:24:54.1249113+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "dolores",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Ms. Selmer Douglas I"
+        "FullName": "Prof. Donnie Louie Hayes"
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "non",
+    "ExtraInfo": "atque",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Kaitlin Ratke"
+    "FullName": "Rex Homenick"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "O'Reilly-Weber",
-    "ToolTip": "Laborum non provident voluptatem voluptatem et est.",
+    "Id": 345,
+    "Name": "Nienow-Friesen",
+    "ToolTip": "Quaerat maxime facilis ipsam et maiores fuga.",
     "Deleted": false,
-    "Rank": 874,
-    "Type": "tempore",
-    "ColorBlock": 717,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2023-04-30T03:47:00.8005429+02:00",
+    "Rank": 792,
+    "Type": "doloribus",
+    "ColorBlock": 975,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2003-03-20T11:24:54.1249113+01:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Hammes, Stoltenberg and Schultz",
-        "ToolTip": "Error tenetur ab maiores molestias rem placeat est.",
+        "Id": 259,
+        "Name": "Rosenbaum, Emmerich and Gusikowski",
+        "ToolTip": "Minima eum fuga maxime ipsum ex voluptate nihil.",
         "Deleted": false,
-        "Rank": 518,
-        "Type": "consectetur",
-        "ColorBlock": 806,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2006-05-11T03:47:00.8005429+02:00",
+        "Rank": 581,
+        "Type": "velit",
+        "ColorBlock": 458,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2010-09-11T11:24:54.1249113+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "minima",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Jerad Witting",
+        "FullName": "Billy Jude Hahn MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 740
+            "FieldType": "System.Int32",
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "harum",
-    "Hidden": true,
-    "FullName": "Verner Margie Barrows V",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Jeffry Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldLength": 907
       }
     }
   }

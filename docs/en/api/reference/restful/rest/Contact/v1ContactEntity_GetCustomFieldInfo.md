@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Pfannerstill, Purdy and Prohaska",
-  "DisplayName": "Swaniawski-Murphy",
-  "Description": "Versatile client-driven implementation",
-  "ShortLabel": "labore",
+  "FieldName": "Aufderhar-Gleichner",
+  "DisplayName": "Dare, Towne and Lemke",
+  "Description": "Cross-group secondary encoding",
+  "ShortLabel": "et",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 330,
-  "TemplateVariableName": "Gorczany Group"
+  "IsDisplayField": false,
+  "Rank": 973,
+  "TemplateVariableName": "Friesen LLC"
 }
 ```

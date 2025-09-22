@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Cartwright, Zboncak and Koepp"
+  "ConnectorName": "Thompson Inc and Sons"
 }
 ```
 
@@ -103,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 63,
-  "ERPName": "Ward Inc and Sons",
-  "DisplayName": "Douglas-Goodwin",
-  "DisplayDescription": "Profit-focused 24/7 internet solution",
-  "Rank": 673,
-  "ConnectorName": "Altenwerth, Lubowitz and Pacocha",
-  "ErpConnectionId": 847,
-  "ExtraData": "reiciendis",
+  "QuoteConnectionId": 847,
+  "ERPName": "Emmerich Group",
+  "DisplayName": "Nitzsche LLC",
+  "DisplayDescription": "Advanced mission-critical productivity",
+  "Rank": 722,
+  "ConnectorName": "Koch Inc and Sons",
+  "ErpConnectionId": 836,
+  "ExtraData": "consequuntur",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 925,
-      "ERPPriceListKey": "nulla",
-      "QuoteConnectionId": 461,
-      "Name": "Breitenberg, Mueller and Cremin",
-      "Description": "Re-engineered content-based process improvement",
+      "PriceListId": 857,
+      "ERPPriceListKey": "doloremque",
+      "QuoteConnectionId": 418,
+      "Name": "Kirlin LLC",
+      "Description": "Reverse-engineered eco-centric circuit",
       "Currency": "voluptatem",
-      "CurrencyName": "Bernier Group",
-      "ValidFrom": "2002-03-23T03:46:55.2226157+01:00",
-      "ValidTo": "2011-11-24T03:46:55.2226157+01:00",
+      "CurrencyName": "Greenholt-Kunde",
+      "ValidFrom": "2005-03-18T11:24:48.5313897+01:00",
+      "ValidTo": "2025-06-17T11:24:48.5313897+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldType": "System.String",
+          "FieldLength": 402
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    455,
-    717
+    94,
+    840
   ],
   "AssociateAccessIds": [
-    434,
-    377
+    8,
+    704
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

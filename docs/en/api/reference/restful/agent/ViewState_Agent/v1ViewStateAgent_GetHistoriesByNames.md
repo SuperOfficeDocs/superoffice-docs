@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Becker, Mraz and Jast",
-    "Luettgen Group"
+    "Rice, Thiel and Flatley",
+    "Bechtelar, Hane and Effertz"
   ]
 }
 ```
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 75,
-    "Id": 851,
-    "HistoryName": "Reichert Group",
-    "HistoryId": 478,
-    "AssociateId": 570,
-    "Name": "Paucek Group",
-    "ItemInfo": "alias",
+    "Rank": 957,
+    "Id": 847,
+    "HistoryName": "Graham, Casper and Carroll",
+    "HistoryId": 519,
+    "AssociateId": 496,
+    "Name": "Legros LLC",
+    "ItemInfo": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

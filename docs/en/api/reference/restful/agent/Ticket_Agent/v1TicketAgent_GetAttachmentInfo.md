@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 12
+  "TicketMessageEntityId": 272
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 190,
-    "Name": "Konopelski-Spencer",
-    "ContentType": "iusto",
-    "AttSize": 87,
+    "AttachmentId": 778,
+    "Name": "Schroeder, Walker and O'Kon",
+    "ContentType": "reiciendis",
+    "AttSize": 328,
     "InlineImage": false,
-    "ContentId": "soluta",
-    "AuthKey": "doloremque",
-    "IsSafeFileExtension": false,
+    "ContentId": "est",
+    "AuthKey": "dicta",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 195
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Russel, Hudson and Parisian",
-  "Tooltip": "deleniti",
+  "Id": 127,
+  "Name": "Zieme LLC",
+  "Tooltip": "officia",
   "Deleted": true,
-  "UdListDefinitionId": 631,
-  "Rank": 745,
+  "UdListDefinitionId": 363,
+  "Rank": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 998
     }
   }
 }

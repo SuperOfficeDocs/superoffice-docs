@@ -26,7 +26,7 @@ Deletes the EmailFlow
 | emailFlowId | int32 | **Required** The identity of the EmailFlow |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteEmailFlow?emailFlowId=529
+POST /api/v1/Agents/Workflow/DeleteEmailFlow?emailFlowId=300
 ```
 
 

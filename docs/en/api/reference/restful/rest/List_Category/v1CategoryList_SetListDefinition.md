@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "ullam",
-  "Deleted": false,
-  "Rank": 817,
+  "Id": 288,
+  "Name": "Wintheiser-Corwin",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "Rank": 600,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": true
+  "ListType": "delectus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Ullrich, Yundt and Schroeder",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 706,
+  "Id": 261,
+  "Name": "Effertz-Skiles",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "Rank": 846,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 842
     }
   }
 }

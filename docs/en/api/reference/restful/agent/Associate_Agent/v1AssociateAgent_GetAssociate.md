@@ -27,7 +27,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=894
+POST /api/v1/Agents/Associate/GetAssociate?associateId=394
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 420,
-  "Name": "Fisher Group",
-  "PersonId": 912,
-  "Rank": 388,
-  "Tooltip": "distinctio",
+  "AssociateId": 7,
+  "Name": "Nitzsche Inc and Sons",
+  "PersonId": 723,
+  "Rank": 222,
+  "Tooltip": "ut",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 438,
-  "FullName": "Ms. Lane Gorczany",
-  "FormalName": "Wolf, Lowe and Kiehn",
+  "GroupIdx": 395,
+  "FullName": "Delbert Jacobi",
+  "FormalName": "Ward, Kirlin and Purdy",
   "Deleted": false,
-  "EjUserId": 961,
-  "UserName": "Bode Group",
+  "EjUserId": 514,
+  "UserName": "Hauck, McCullough and Effertz",
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "quam"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "saepe"
+    "CustomFields1": "amet",
+    "CustomFields2": "accusamus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 822
     }
   }
 }

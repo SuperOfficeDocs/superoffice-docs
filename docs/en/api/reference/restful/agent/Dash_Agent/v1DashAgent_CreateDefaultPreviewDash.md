@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,33 +71,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 605,
-  "Name": "Kunze, Lowe and O'Keefe",
-  "Description": "Future-proofed incremental adapter",
-  "OwnedByFullName": "Miss Erna Kaia Kulas Sr.",
-  "Registered": "2014-12-03T03:46:54.6132622+01:00",
+  "DashboardId": 107,
+  "Name": "Swift LLC",
+  "Description": "Pre-emptive 6th generation budgetary management",
+  "OwnedByFullName": "Manuela Schinner",
+  "Registered": "2022-10-04T11:24:47.8751665+02:00",
   "Tiles": [
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Will-Yundt",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldType": "System.String",
+          "FieldLength": 102
         }
       }
     },
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Will-Yundt",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldType": "System.String",
+          "FieldLength": 102
         }
       }
     }
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 498
     }
   }
 }

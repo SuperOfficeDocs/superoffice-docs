@@ -85,6 +85,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -98,7 +100,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 593
+  "ProjectId": 242
 }
 ```
 
@@ -110,33 +112,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 361,
-    "ContactId": 39,
-    "ProjectId": 339,
-    "ContactName": "Lind LLC",
-    "ContactDepartment": "",
-    "ProjectName": "Ebert-Gaylord",
-    "EmailId": 160,
-    "EmailAddress": "jennifer@durgannader.ca",
-    "CountryId": 62,
-    "Firstname": "Zakary",
-    "MiddleName": "Paucek Group",
-    "Lastname": "Tromp",
-    "PersonId": 121,
-    "Mrmrs": "ut",
-    "ProjectMemberTypeName": "Leannon Group",
-    "Phone": "226.609.9748",
-    "PhoneId": 89,
-    "ProjectMemberTypeId": 792,
-    "EmailAddressName": "antonina.sauer@daughertyveum.com",
-    "Comment": "modi",
-    "FullName": "Kamren Lakin V",
+    "ProjectmemberId": 456,
+    "ContactId": 533,
+    "ProjectId": 340,
+    "ContactName": "Daugherty LLC",
+    "ContactDepartment": "transform value-added action-items",
+    "ProjectName": "Jenkins, Schowalter and Murazik",
+    "EmailId": 878,
+    "EmailAddress": "koby_ortiz@balistreri.ca",
+    "CountryId": 582,
+    "Firstname": "Lou",
+    "MiddleName": "Boyer LLC",
+    "Lastname": "Baumbach",
+    "PersonId": 780,
+    "Mrmrs": "provident",
+    "ProjectMemberTypeName": "Romaguera LLC",
+    "Phone": "1-424-130-6112 x32542",
+    "PhoneId": 77,
+    "ProjectMemberTypeId": 913,
+    "EmailAddressName": "maggie.kirlin@mann.co.uk",
+    "Comment": "aut",
+    "FullName": "Adrienne Jayce Adams I",
+    "Registered": "2020-07-09T11:24:48.5001409+02:00",
+    "Updated": "2002-10-29T11:24:48.5001409+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 927
       }
     }
   }

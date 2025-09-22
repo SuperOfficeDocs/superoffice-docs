@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "O'Reilly LLC",
-    "ToolTip": "Aliquam veritatis qui modi.",
+    "Id": 10,
+    "Name": "Dicki-Ullrich",
+    "ToolTip": "Ea ratione nisi et.",
     "Deleted": false,
-    "Rank": 488,
-    "Type": "velit",
-    "ColorBlock": 877,
-    "IconHint": "eum",
+    "Rank": 932,
+    "Type": "nam",
+    "ColorBlock": 572,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2012-08-14T03:47:00.7849183+02:00",
+    "LastChanged": "2014-02-22T11:24:54.1092872+01:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Cronin LLC",
-        "ToolTip": "Voluptatem laboriosam fugiat voluptatibus delectus quo blanditiis fugit.",
-        "Deleted": false,
-        "Rank": 6,
-        "Type": "eos",
-        "ColorBlock": 961,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2008-06-11T03:47:00.7849183+02:00",
+        "Id": 256,
+        "Name": "Dicki Inc and Sons",
+        "ToolTip": "Quisquam necessitatibus vitae.",
+        "Deleted": true,
+        "Rank": 553,
+        "Type": "quo",
+        "ColorBlock": 835,
+        "IconHint": "laboriosam",
+        "Selected": false,
+        "LastChanged": "2020-01-25T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "sunt",
+        "ExtraInfo": "vitae",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Abelardo Cassin",
+        "FullName": "Elbert Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Orlando Leuschke",
+    "ExtraInfo": "ea",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Malika Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldType": "System.Int32",
+        "FieldLength": 860
       }
     }
   }

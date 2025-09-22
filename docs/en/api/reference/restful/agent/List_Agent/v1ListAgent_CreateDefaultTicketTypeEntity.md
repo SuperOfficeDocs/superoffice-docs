@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 378,
-  "Name": "Rutherford-Pfannerstill",
-  "Rank": 641,
-  "Tooltip": "doloremque",
-  "Icon": "qui",
-  "DefaultTicketStatus": 435,
+  "TicketTypeId": 436,
+  "Name": "Collier Inc and Sons",
+  "Rank": 699,
+  "Tooltip": "neque",
+  "Icon": "illo",
+  "DefaultTicketStatus": 213,
   "TicketStatuses": [
-    940,
-    598
+    193,
+    468
   ],
-  "DefaultTicketPriority": 539,
+  "DefaultTicketPriority": 64,
   "TicketPriorities": [
-    446,
-    638
+    591,
+    739
   ],
-  "ReplyTemplate": 314,
+  "ReplyTemplate": 327,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    938,
-    797
+    636,
+    471
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 281
     }
   }
 }

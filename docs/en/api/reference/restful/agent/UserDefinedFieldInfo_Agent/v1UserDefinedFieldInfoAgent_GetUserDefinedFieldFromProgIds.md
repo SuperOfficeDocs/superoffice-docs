@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "nihil",
-    "sunt"
+    "ea",
+    "eum"
   ],
   "OwnerType": "Appointment"
 }
@@ -130,46 +130,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 547,
-    "ColumnId": 973,
-    "FieldDefault": "doloremque",
-    "FieldHeight": 477,
-    "FieldLabel": "optio",
-    "FieldLeft": 259,
-    "FieldTop": 133,
+    "UDefFieldId": 622,
+    "ColumnId": 924,
+    "FieldDefault": "adipisci",
+    "FieldHeight": 3,
+    "FieldLabel": "praesentium",
+    "FieldLeft": 908,
+    "FieldTop": 979,
     "FieldType": "Checkbox",
-    "FieldWidth": 947,
-    "FormatMask": "in",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 198,
-    "LabelLeft": 778,
-    "LabelTop": 845,
-    "LabelWidth": 670,
-    "LastVersionId": 615,
-    "ListTableId": 366,
+    "FieldWidth": 821,
+    "FormatMask": "necessitatibus",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 424,
+    "LabelLeft": 679,
+    "LabelTop": 356,
+    "LabelWidth": 935,
+    "LastVersionId": 872,
+    "ListTableId": 826,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 835,
-    "ProgId": "harum",
-    "IsReadOnly": true,
-    "ShortLabel": "culpa",
-    "TabOrder": 77,
-    "TextLength": 242,
-    "Tooltip": "impedit",
-    "UdefIdentity": 1002,
-    "UDListDefinitionId": 698,
+    "Page1LineNo": 538,
+    "ProgId": "voluptatem",
+    "IsReadOnly": false,
+    "ShortLabel": "omnis",
+    "TabOrder": 516,
+    "TextLength": 805,
+    "Tooltip": "ut",
+    "UdefIdentity": 295,
+    "UDListDefinitionId": 902,
     "Justification": "Center",
-    "Version": 454,
-    "TemplateVariableName": "Schaefer-Yost",
+    "Version": 570,
+    "TemplateVariableName": "Windler Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Glover Group",
+    "MdoListName": "Jacobson, Kunde and Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldType": "System.Int32",
+        "FieldLength": 957
       }
     }
   }

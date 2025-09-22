@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "McClure, Gerlach and Farrell",
-  "Culture": "maxime",
-  "IsActive": false
+  "ResourceName": "Ryan-McGlynn",
+  "Culture": "sit",
+  "IsActive": true
 }
 ```
 

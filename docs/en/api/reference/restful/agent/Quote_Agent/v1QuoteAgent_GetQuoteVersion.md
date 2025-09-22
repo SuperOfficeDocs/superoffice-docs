@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 572
+  "QuoteVersionId": 290
 }
 ```
 
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 129,
-  "ERPQuoteVersionKey": "sed",
-  "QuoteId": 605,
-  "Description": "Open-architected cohesive customer loyalty",
-  "Number": "1872320",
+  "QuoteVersionId": 168,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 713,
+  "Description": "Universal client-driven synergy",
+  "Number": "1408237",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 979,
-  "SentDate": "2000-03-03T03:46:55.1913666+01:00",
-  "FollowupId": 53,
-  "ExpirationDate": "2022-07-04T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 955,
+  "LikelyQuoteAlternativeId": 485,
+  "SentDate": "1999-12-06T11:24:48.5157652+01:00",
+  "FollowupId": 809,
+  "ExpirationDate": "2024-02-15T11:24:48.5157652+01:00",
+  "DeliveryCountryId": 349,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 874,
+  "InvoiceCountryId": 45,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "cupiditate",
-  "ERPPaymentTypeKey": "rerum",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "fugiat",
-  "Rank": 289,
-  "ApprovedBy": 961,
-  "ApprovedText": "sit",
-  "ApprovedRegisteredBy": 37,
-  "ApprovedRegisteredDate": "2004-10-04T03:46:55.1913666+02:00",
-  "ExtraField1": "sit",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "repellendus",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "quam",
-  "LastRecalculated": "2002-07-15T03:46:55.1913666+02:00",
-  "Updated": "2014-03-16T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 529,
-  "Registered": "2012-08-03T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 897,
-  "RequestAssociateId": 747,
-  "RequestComment": "quia",
+  "ERPPaymentTermsKey": "quos",
+  "ERPPaymentTypeKey": "possimus",
+  "ERPDeliveryTermsKey": "placeat",
+  "ERPDeliveryTypeKey": "labore",
+  "Rank": 831,
+  "ApprovedBy": 752,
+  "ApprovedText": "provident",
+  "ApprovedRegisteredBy": 36,
+  "ApprovedRegisteredDate": "2016-12-13T11:24:48.5157652+01:00",
+  "ExtraField1": "qui",
+  "ExtraField2": "possimus",
+  "ExtraField3": "reiciendis",
+  "ExtraField4": "voluptas",
+  "ExtraField5": "unde",
+  "LastRecalculated": "2010-08-08T11:24:48.5157652+02:00",
+  "Updated": "2019-04-12T11:24:48.5157652+02:00",
+  "UpdatedAssociateId": 144,
+  "Registered": "2017-07-10T11:24:48.5157652+02:00",
+  "RegisteredAssociateId": 341,
+  "RequestAssociateId": 476,
+  "RequestComment": "ratione",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 643,
-      "ERPQuoteAlternativeKey": "provident",
-      "QuoteVersionId": 109,
-      "Name": "Dare-Gutkowski",
-      "Description": "Operative object-oriented challenge",
+      "QuoteAlternativeId": 510,
+      "ERPQuoteAlternativeKey": "officia",
+      "QuoteVersionId": 384,
+      "Name": "Lubowitz, Weimann and Stark",
+      "Description": "Inverse zero tolerance archive",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16168.305999999999,
-      "ERPDiscountAmount": 13447.993999999999,
-      "DiscountPercent": 1551.33,
-      "DiscountAmount": 11793.242,
+      "ERPDiscountPercent": 6105.032,
+      "ERPDiscountAmount": 30628.582,
+      "DiscountPercent": 554.718,
+      "DiscountAmount": 4979.9259999999995,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 15494.496,
-      "EarningPercent": 27268.933999999997,
-      "EarningAmount": 9333.052,
-      "SubTotal": 7650.094,
-      "TotalPrice": 10549.044,
-      "ExtraField1": "debitis",
-      "ExtraField2": "temporibus",
-      "ExtraField3": "quos",
-      "ExtraField4": "laborum",
-      "ExtraField5": "placeat",
+      "VATInfo": "consequatur",
+      "VAT": 17428.174,
+      "EarningPercent": 30208.626,
+      "EarningAmount": 1407.166,
+      "SubTotal": 20270.712,
+      "TotalPrice": 24442.066,
+      "ExtraField1": "occaecati",
+      "ExtraField2": "porro",
+      "ExtraField3": "inventore",
+      "ExtraField4": "maiores",
+      "ExtraField5": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 205
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

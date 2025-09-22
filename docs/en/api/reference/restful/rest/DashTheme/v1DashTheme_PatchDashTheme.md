@@ -114,18 +114,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quod",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quod",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -138,23 +138,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 571,
-  "Name": "Lindgren-Schmitt",
-  "Config": "itaque",
-  "Rank": 906,
-  "Client": "repudiandae",
-  "Style": "magnam",
+  "DashboardThemeId": 698,
+  "Name": "Lesch, Satterfield and Harris",
+  "Config": "nobis",
+  "Rank": 535,
+  "Client": "voluptate",
+  "Style": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 755
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

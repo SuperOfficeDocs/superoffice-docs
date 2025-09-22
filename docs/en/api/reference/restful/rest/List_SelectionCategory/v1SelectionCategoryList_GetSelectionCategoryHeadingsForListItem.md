@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Conroy LLC",
-    "ToolTip": "Voluptates reprehenderit reprehenderit modi.",
-    "Deleted": true,
-    "Rank": 763,
-    "Type": "aliquam",
-    "ColorBlock": 32,
-    "IconHint": "harum",
+    "Id": 958,
+    "Name": "Schowalter Inc and Sons",
+    "ToolTip": "Deleniti aliquam aperiam et quam asperiores sapiente beatae.",
+    "Deleted": false,
+    "Rank": 390,
+    "Type": "nobis",
+    "ColorBlock": 408,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2006-05-26T03:47:00.8161673+02:00",
+    "LastChanged": "2023-06-18T11:24:54.1561606+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Kilback, Kuvalis and Leannon",
-        "ToolTip": "Eligendi laboriosam culpa.",
+        "Id": 672,
+        "Name": "McGlynn-Hane",
+        "ToolTip": "Magnam voluptatem qui fuga.",
         "Deleted": false,
-        "Rank": 309,
-        "Type": "non",
-        "ColorBlock": 180,
-        "IconHint": "ut",
+        "Rank": 152,
+        "Type": "vero",
+        "ColorBlock": 625,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2017-08-16T03:47:00.8161673+02:00",
+        "LastChanged": "2003-01-08T11:24:54.1561606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Dr. Thurman Marco Kemmer PhD",
+        "ExtraInfo": "sit",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Annabel Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldType": "System.String",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Savanna Grady",
+    "ExtraInfo": "qui",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Mr. Brenna Deontae Friesen Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 224
       }
     }
   }

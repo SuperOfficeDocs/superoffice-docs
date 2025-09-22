@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Ratke Inc and Sons",
-  "Tooltip": "accusamus",
+  "Id": 432,
+  "Name": "Feest, Volkman and Beahan",
+  "Tooltip": "recusandae",
   "Deleted": true,
-  "UdListDefinitionId": 541,
-  "Rank": 41
+  "UdListDefinitionId": 202,
+  "Rank": 899
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 593,
-  "Name": "Nienow-Nienow",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 555,
-  "Rank": 917,
+  "Id": 274,
+  "Name": "Okuneva-Krajcik",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "UdListDefinitionId": 41,
+  "Rank": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 821
     }
   }
 }

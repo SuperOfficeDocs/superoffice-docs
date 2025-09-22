@@ -52,8 +52,8 @@ A set of properties related to the workflow instance of one participant going th
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_step](workflow-step.md)  |A set of steps related to a workflow. |

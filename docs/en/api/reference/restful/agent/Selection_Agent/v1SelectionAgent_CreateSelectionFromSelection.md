@@ -121,8 +121,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 867,
-  "Name": "Schimmel-Carter",
+  "SelectionId": 592,
+  "Name": "Armstrong LLC",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -135,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable context-sensitive methodology",
-  "Postit": "adipisci",
+  "Description": "Profound incremental throughput",
+  "Postit": "repellat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 412,
-  "IncludePerson": 908,
+  "GroupIdx": 243,
+  "IncludePerson": 566,
   "MemberCount": 99.99,
-  "Name": "Rowe LLC",
-  "PostitTextId": 478,
-  "CreatedDate": "2005-09-26T03:46:55.3788724+02:00",
-  "SelectionId": 844,
-  "SoundEx": "qui",
-  "Source": 549,
-  "TextId": 393,
-  "UpdatedDate": "2025-05-10T03:46:55.3788724+02:00",
-  "UpdatedCount": 266,
-  "Visibility": 98,
+  "Name": "Little Group",
+  "PostitTextId": 547,
+  "CreatedDate": "2020-08-12T11:24:48.6407604+02:00",
+  "SelectionId": 876,
+  "SoundEx": "quis",
+  "Source": 380,
+  "TextId": 685,
+  "UpdatedDate": "2000-06-20T11:24:48.6407604+02:00",
+  "UpdatedCount": 152,
+  "Visibility": 624,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 279,
-  "TargetTableName": "Koss-Gerlach",
+  "CompanyUnique": false,
+  "TargetTableNumber": 989,
+  "TargetTableName": "West Group",
   "Completed": false,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 433,
+  "LeftSelectionId": 300,
+  "RightSelectionId": 544,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McDermott Inc and Sons",
-  "ShadowProviderName": "Bradtke Group",
-  "ChartKey": "tempora",
-  "LastLoaded": "2017-11-03T03:46:55.3788724+01:00",
-  "LastLoadedBy": 484,
+  "MainProviderName": "Kreiger, Lubowitz and Nitzsche",
+  "ShadowProviderName": "Ortiz LLC",
+  "ChartKey": "sed",
+  "LastLoaded": "2019-09-02T11:24:48.6407604+02:00",
+  "LastLoadedBy": 182,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-10T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 827,
+  "LastMembershipChange": "2001-10-04T11:24:48.6407604+02:00",
+  "LastMembershipChangeBy": 426,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "illo",
-  "MailingsProviderName": "Durgan LLC",
-  "DashboardTileDefinitionId": 868,
+  "MainHeading": "enim",
+  "MemberTabHeading": "corrupti",
+  "MailingsProviderName": "Zulauf, Walter and Schumm",
+  "DashboardTileDefinitionId": 458,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 388,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 96
         }
       }
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 388,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 96
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 65
     }
   }
 }

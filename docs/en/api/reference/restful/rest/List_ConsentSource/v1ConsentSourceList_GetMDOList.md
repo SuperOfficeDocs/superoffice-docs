@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=harum
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=sapiente
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Russel-Frami",
-    "ToolTip": "Qui dolorem temporibus necessitatibus.",
+    "Id": 774,
+    "Name": "Schultz LLC",
+    "ToolTip": "Nisi iste eos rerum dolores in quod.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "libero",
+    "Rank": 209,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Yundt-Schmidt",
-        "ToolTip": "Molestias eum ea earum aut tenetur quae.",
+        "Id": 819,
+        "Name": "Jacobson Inc and Sons",
+        "ToolTip": "Qui alias rerum.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "excepturi",
+        "Rank": 343,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 829,
-        "ExtraInfo": "impedit",
-        "StyleHint": "qui",
-        "FullName": "Selena Predovic",
+        "IconHint": "pariatur",
+        "ColorBlock": 746,
+        "ExtraInfo": "cum",
+        "StyleHint": "autem",
+        "FullName": "Emerald Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldLength": 32
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 184,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptate",
-    "FullName": "Marguerite Nikolaus",
+    "IconHint": "labore",
+    "ColorBlock": 338,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "facere",
+    "FullName": "Mr. Bonita Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 521
       }
     }
   }

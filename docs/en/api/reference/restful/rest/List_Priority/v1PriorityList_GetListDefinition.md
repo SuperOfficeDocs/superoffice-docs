@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Block LLC",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 401,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 609,
+  "Name": "Hills-Kerluke",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 155,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true,
+  "ListType": "iusto",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 143
     }
   },
   "_Links": {

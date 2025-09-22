@@ -94,7 +94,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 277,
-  "ColumnId": 66,
-  "FieldDefault": "pariatur",
-  "FieldHeight": 535,
+  "UDefFieldId": 527,
+  "ColumnId": 911,
+  "FieldDefault": "natus",
+  "FieldHeight": 662,
   "FieldLabel": "impedit",
-  "FieldLeft": 405,
-  "FieldTop": 133,
+  "FieldLeft": 338,
+  "FieldTop": 479,
   "FieldType": "Checkbox",
-  "FieldWidth": 221,
-  "FormatMask": "voluptatem",
-  "HideLabel": false,
+  "FieldWidth": 390,
+  "FormatMask": "consequatur",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 328,
-  "LabelLeft": 648,
-  "LabelTop": 653,
-  "LabelWidth": 114,
-  "LastVersionId": 906,
-  "ListTableId": 229,
-  "IsMandatory": false,
+  "LabelHeight": 732,
+  "LabelLeft": 431,
+  "LabelTop": 1002,
+  "LabelWidth": 756,
+  "LastVersionId": 93,
+  "ListTableId": 839,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 360,
-  "ProgId": "neque",
-  "IsReadOnly": true,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 215,
-  "TextLength": 455,
-  "Tooltip": "aliquam",
-  "UdefIdentity": 651,
-  "UDListDefinitionId": 516,
+  "Page1LineNo": 879,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "molestiae",
+  "TabOrder": 454,
+  "TextLength": 173,
+  "Tooltip": "quibusdam",
+  "UdefIdentity": 246,
+  "UDListDefinitionId": 690,
   "Justification": "Center",
-  "Version": 530,
-  "TemplateVariableName": "Schulist, Brakus and Wehner",
-  "HasBeenPublished": true,
-  "MdoListName": "Schmitt Group",
+  "Version": 523,
+  "TemplateVariableName": "Steuber, Corkery and Hartmann",
+  "HasBeenPublished": false,
+  "MdoListName": "Crooks-Krajcik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 663
     }
   }
 }

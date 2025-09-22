@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "Casper-Hermiston",
+    "Description": "Diverse static matrix",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
+        "Total": 296,
+        "Tooltip": "atque",
         "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
-        "IsHidden": true,
+        "Free": 921,
+        "InUse": 232,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "ModuleLicenseId": 35,
+        "Name": "Tromp Group",
+        "Description": "Reverse-engineered 24/7 hardware",
+        "PrerequisiteModuleName": "Lindgren, Mills and Boyle",
+        "SortOrder": 563,
+        "ExtraFlags": 198,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldLength": 892
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 435,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
+        "Free": 343,
+        "InUse": 292,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Assigned": false,
+        "ModuleLicenseId": 286,
+        "Name": "Block, Boyer and Anderson",
+        "Description": "Team-oriented client-server neural-net",
+        "PrerequisiteModuleName": "Gutkowski LLC",
+        "SortOrder": 715,
+        "ExtraFlags": 844,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 300
       }
     }
   },
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "Casper-Hermiston",
+    "Description": "Diverse static matrix",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
+        "Total": 296,
+        "Tooltip": "atque",
         "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
-        "IsHidden": true,
+        "Free": 921,
+        "InUse": 232,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "ModuleLicenseId": 35,
+        "Name": "Tromp Group",
+        "Description": "Reverse-engineered 24/7 hardware",
+        "PrerequisiteModuleName": "Lindgren, Mills and Boyle",
+        "SortOrder": 563,
+        "ExtraFlags": 198,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldLength": 892
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 435,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
+        "Free": 343,
+        "InUse": 292,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Assigned": false,
+        "ModuleLicenseId": 286,
+        "Name": "Block, Boyer and Anderson",
+        "Description": "Team-oriented client-server neural-net",
+        "PrerequisiteModuleName": "Gutkowski LLC",
+        "SortOrder": 715,
+        "ExtraFlags": 844,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 300
       }
     }
   }

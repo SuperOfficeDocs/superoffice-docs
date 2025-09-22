@@ -28,7 +28,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=porro
+GET /api/v1/List/ProjectType/MDOItems?query=voluptatem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Quaerat sunt neque praesentium animi.",
+    "Id": 912,
+    "Name": "Dach LLC",
+    "ToolTip": "Sint mollitia vero ab itaque aut enim.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "quo",
+    "Rank": 312,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Roob-Stark",
-        "ToolTip": "Aliquid sunt molestiae quia.",
+        "Id": 803,
+        "Name": "Ondricka-O'Kon",
+        "ToolTip": "Cupiditate eligendi.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "atque",
+        "Rank": 676,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 947,
-        "ExtraInfo": "officia",
-        "StyleHint": "et",
-        "FullName": "Lucious Hammes",
+        "IconHint": "ut",
+        "ColorBlock": 838,
+        "ExtraInfo": "neque",
+        "StyleHint": "ut",
+        "FullName": "Prof. Dortha Bartoletti Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 483
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 749,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptate",
-    "FullName": "Estefania Deckow",
+    "IconHint": "vitae",
+    "ColorBlock": 548,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "qui",
+    "FullName": "Freida Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 940
       }
     }
   }

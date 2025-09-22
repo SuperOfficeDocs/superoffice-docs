@@ -139,18 +139,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -163,43 +163,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 916,
-  "Name": "Schaden, Volkman and Dare",
-  "Description": "Ameliorated tangible portal",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 292,
+  "Name": "Corwin, Yundt and Walker",
+  "Description": "Configurable solution-oriented matrix",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2007-06-24T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 112,
+  "LastAccept": "2017-01-11T11:24:53.0624548+01:00",
+  "SecondsPrAccept": 786,
   "AlertRecipient": "sint",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quos",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eligendi",
-  "WarnNewChatMinutes": 679,
-  "WarnManagerNewChatMinutes": 296,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "nam",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "necessitatibus",
+  "WarnNewChatMinutes": 405,
+  "WarnManagerNewChatMinutes": 135,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 4,
-  "WarnManagerChatMessageMinutes": 276,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 122,
-  "OfflineFormQueueLength": 106,
+  "WarnChatMessageMinutes": 774,
+  "WarnManagerChatMessageMinutes": 86,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 456,
+  "OfflineFormQueueLength": 12,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "distinctio",
+  "WidgetRatingText": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 609
     }
   },
   "_Links": {

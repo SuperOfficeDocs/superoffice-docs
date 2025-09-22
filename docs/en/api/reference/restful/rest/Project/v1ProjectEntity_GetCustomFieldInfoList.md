@@ -69,7 +69,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gerhold, Okuneva and Pacocha",
-    "DisplayName": "Sipes Group",
-    "Description": "Organized interactive archive",
-    "ShortLabel": "ex",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": true,
+    "FieldName": "Jacobs Inc and Sons",
+    "DisplayName": "Frami-Wisoky",
+    "Description": "Fully-configurable exuding model",
+    "ShortLabel": "explicabo",
+    "HideLabel": false,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 264,
-    "TemplateVariableName": "Schmitt Inc and Sons"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 542,
+    "TemplateVariableName": "Cassin Inc and Sons"
   }
 ]
 ```

@@ -168,18 +168,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heathcote-Terry",
-  "Columns": "quibusdam",
-  "SortOrder": "est",
-  "Restriction": "esse",
-  "Entities": "ipsam",
-  "Page": 506,
-  "PageSize": 978,
-  "Context": "laudantium"
+  "ProviderName": "Schmitt, Buckridge and Dicki",
+  "Columns": "dolores",
+  "SortOrder": "qui",
+  "Restriction": "et",
+  "Entities": "culpa",
+  "Page": 993,
+  "PageSize": 181,
+  "Context": "impedit"
 }
 ```
 
@@ -191,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Grant-Lang",
-    "PrimaryKey": 876,
+    "EntityName": "Casper, Reynolds and Hane",
+    "PrimaryKey": 69,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "tenetur",
-        "TooltipHint": "aut",
-        "LinkHint": "sint"
+        "DisplayValue": "ducimus",
+        "TooltipHint": "odio",
+        "LinkHint": "consequatur"
       }
     },
-    "LinkHint": "molestiae",
-    "StyleHint": "nihil",
+    "LinkHint": "laudantium",
+    "StyleHint": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldType": "System.String",
+        "FieldLength": 28
       }
     }
   }

@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    965,
-    596
+    267,
+    963
   ]
 }
 ```
@@ -112,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 673,
-    "Attention": "qui",
-    "Header": "vel",
-    "Name": "Stiedemann LLC",
-    "OurRef": "repudiandae",
-    "YourRef": "consequatur",
-    "Description": "Business-focused systemic flexibility",
-    "DocumentTemplate": "cumque",
-    "IsPublished": false,
-    "PersonId": 693,
-    "PersonFullName": "Bell Cremin",
-    "AssociateFullName": "Walker Nienow",
-    "ContactId": 344,
-    "ContactName": "Thiel Group",
-    "ProjectId": 186,
-    "ProjectName": "Lang Group",
-    "AssociateId": 181,
-    "Snum": 622,
-    "SaleId": 828,
-    "SaleName": "Bauch LLC",
+    "DocumentId": 690,
+    "Attention": "rerum",
+    "Header": "recusandae",
+    "Name": "Monahan Group",
+    "OurRef": "dolore",
+    "YourRef": "quam",
+    "Description": "Monitored value-added definition",
+    "DocumentTemplate": "voluptates",
+    "IsPublished": true,
+    "PersonId": 243,
+    "PersonFullName": "Mr. Luis Sonny Cruickshank III",
+    "AssociateFullName": "Jerald Heller I",
+    "ContactId": 263,
+    "ContactName": "Murray-Cronin",
+    "ProjectId": 422,
+    "ProjectName": "Von, Bogan and Sporer",
+    "AssociateId": 320,
+    "Snum": 561,
+    "SaleId": 532,
+    "SaleName": "Ullrich Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 512
       }
     }
   }

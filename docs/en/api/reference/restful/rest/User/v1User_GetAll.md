@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=nobis
-GET /api/v1/User?$top=478
-GET /api/v1/User?$skip=425
+GET /api/v1/User?$entities=assumenda
+GET /api/v1/User?$top=906
+GET /api/v1/User?$skip=53
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=rerum
+GET /api/v1/User?$context=qui
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "perferendis",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 6190,
-      "EntityName": "sale",
-      "saleId": 6190,
-      "contactId": 8832,
-      "name": "Lockman-Schuppe"
+      "PrimaryKey": 6836,
+      "EntityName": "person",
+      "personId": 6836,
+      "fullName": "Jayne Block"
     },
     {
-      "PrimaryKey": 3573,
-      "EntityName": "sale",
-      "saleId": 3573,
-      "contactId": 535,
-      "name": "Rutherford, Rosenbaum and Marvin"
+      "PrimaryKey": 2369,
+      "EntityName": "person",
+      "personId": 2369,
+      "fullName": "Dr. Chelsea Zoey King"
     }
   ]
 }

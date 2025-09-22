@@ -27,8 +27,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=ipsum
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=ratione
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Padberg Inc and Sons",
-    "ToolTip": "Dolorem facere.",
+    "Id": 439,
+    "Name": "Wiegand-Beatty",
+    "ToolTip": "In quo impedit et.",
     "Deleted": false,
-    "Rank": 169,
-    "Type": "qui",
+    "Rank": 802,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Howell Group",
-        "ToolTip": "Voluptatem sit reprehenderit ab alias qui dicta error.",
-        "Deleted": false,
-        "Rank": 488,
-        "Type": "debitis",
+        "Id": 627,
+        "Name": "Zemlak LLC",
+        "ToolTip": "Eaque consequatur.",
+        "Deleted": true,
+        "Rank": 622,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 584,
-        "ExtraInfo": "iure",
-        "StyleHint": "ratione",
-        "FullName": "Ms. Franz Johnston",
+        "IconHint": "quaerat",
+        "ColorBlock": 134,
+        "ExtraInfo": "autem",
+        "StyleHint": "accusamus",
+        "FullName": "Alexander Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 320
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 779,
-    "ExtraInfo": "nemo",
-    "StyleHint": "ut",
-    "FullName": "Harrison Swift I",
+    "IconHint": "voluptatem",
+    "ColorBlock": 365,
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
+    "FullName": "Nyasia Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 76
       }
     }
   }

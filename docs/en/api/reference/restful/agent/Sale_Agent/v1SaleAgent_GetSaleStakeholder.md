@@ -27,7 +27,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=13
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=101
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Donnelly-Balistreri",
-  "Comment": "natus",
-  "StakeholderRoleId": 889,
-  "CountryId": 900,
-  "PersonId": 874,
-  "EmailDescription": "domenic.damore@boyer.name",
-  "EmailId": 304,
-  "EmailAddress": "citlalli.kuhic@block.info",
-  "PhoneId": 790,
-  "ContactName": "Quigley Inc and Sons",
-  "ContactId": 520,
-  "SaleId": 11,
-  "Mrmrs": "nihil",
-  "Firstname": "Florine",
-  "MiddleName": "O'Reilly-Schroeder",
-  "Lastname": "Lesch",
-  "SaleStakeholderId": 566,
-  "Rank": 761,
-  "Phone": "1-145-354-9114",
+  "StakeholderRoleName": "Hills, Schimmel and Erdman",
+  "Comment": "unde",
+  "StakeholderRoleId": 231,
+  "CountryId": 863,
+  "PersonId": 777,
+  "EmailDescription": "mabel@flatleyzemlak.com",
+  "EmailId": 851,
+  "EmailAddress": "ashton@orn.com",
+  "PhoneId": 802,
+  "ContactName": "Nader Inc and Sons",
+  "ContactId": 430,
+  "SaleId": 752,
+  "Mrmrs": "veritatis",
+  "Firstname": "Maddison",
+  "MiddleName": "Anderson-Kshlerin",
+  "Lastname": "Schmidt",
+  "SaleStakeholderId": 570,
+  "Rank": 46,
+  "Phone": "(042)286-9647",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   }
 }

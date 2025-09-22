@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 873,
-  "Name": "Steuber Group",
-  "Description": "Re-engineered heuristic matrix",
+  "ReportLabelLayoutId": 484,
+  "Name": "Ebert Inc and Sons",
+  "Description": "Configurable systematic alliance",
   "Orientation": "Landscape",
-  "PaperWidth": 705,
-  "PaperHeight": 611,
-  "LeftMargin": 276,
-  "RightMargin": 580,
-  "TopMargin": 924,
-  "BottomMargin": 635,
-  "CountColumns": 293,
-  "CountRows": 732,
+  "PaperWidth": 768,
+  "PaperHeight": 803,
+  "LeftMargin": 670,
+  "RightMargin": 23,
+  "TopMargin": 492,
+  "BottomMargin": 891,
+  "CountColumns": 8,
+  "CountRows": 251,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldLength": 635
     }
   }
 }

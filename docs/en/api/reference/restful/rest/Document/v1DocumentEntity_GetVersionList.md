@@ -66,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "consequatur",
-    "DocumentId": 209,
-    "VersionId": "voluptatem",
-    "CheckedInDate": "2015-03-14T03:47:00.005716+01:00",
-    "CheckedInByName": "Larson Group",
-    "CheckedInByAssociateId": 291,
-    "Description": "Robust neutral artificial intelligence",
-    "DisplayText": "aut",
+    "ExternalReference": "molestias",
+    "DocumentId": 892,
+    "VersionId": "possimus",
+    "CheckedInDate": "2007-02-17T11:24:53.2811958+01:00",
+    "CheckedInByName": "Streich, Frami and Bartoletti",
+    "CheckedInByAssociateId": 369,
+    "Description": "Customer-focused coherent extranet",
+    "DisplayText": "eligendi",
     "ExtraFields": [
-      "sit",
-      "esse"
+      "sunt",
+      "quasi"
     ]
   }
 ]

@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,69 +116,69 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual zero tolerance circuit",
-  "Postit": "velit",
+  "Description": "Cross-group full-range open architecture",
+  "Postit": "atque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 677,
-  "IncludePerson": 639,
+  "GroupIdx": 738,
+  "IncludePerson": 206,
   "MemberCount": 99.99,
-  "Name": "Gleichner-Wilderman",
-  "PostitTextId": 379,
-  "CreatedDate": "2002-01-03T03:46:55.3788724+01:00",
-  "SelectionId": 335,
-  "SoundEx": "molestiae",
-  "Source": 312,
-  "TextId": 330,
-  "UpdatedDate": "2004-08-17T03:46:55.3788724+02:00",
-  "UpdatedCount": 776,
-  "Visibility": 128,
+  "Name": "Bergstrom Group",
+  "PostitTextId": 288,
+  "CreatedDate": "2022-05-19T11:24:48.6251358+02:00",
+  "SelectionId": 36,
+  "SoundEx": "eius",
+  "Source": 261,
+  "TextId": 680,
+  "UpdatedDate": "2022-08-27T11:24:48.6251358+02:00",
+  "UpdatedCount": 40,
+  "Visibility": 636,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 298,
-  "TargetTableName": "Smitham, O'Kon and Rogahn",
+  "CompanyUnique": true,
+  "TargetTableNumber": 255,
+  "TargetTableName": "Koch, VonRueden and Rosenbaum",
   "Completed": false,
-  "LeftSelectionId": 669,
-  "RightSelectionId": 717,
+  "LeftSelectionId": 304,
+  "RightSelectionId": 399,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goyette, Witting and Grimes",
-  "ShadowProviderName": "Stroman Group",
-  "ChartKey": "et",
-  "LastLoaded": "2005-08-29T03:46:55.3788724+02:00",
-  "LastLoadedBy": 121,
+  "MainProviderName": "Gerlach Inc and Sons",
+  "ShadowProviderName": "Wehner, Weissnat and Kuhic",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2008-07-27T11:24:48.6251358+02:00",
+  "LastLoadedBy": 111,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-03-28T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 271,
+  "LastMembershipChange": "2022-10-26T11:24:48.6251358+02:00",
+  "LastMembershipChangeBy": 278,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "recusandae",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Schultz Group",
-  "DashboardTileDefinitionId": 241,
+  "MainHeading": "aliquid",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "Sawayn-Hayes",
+  "DashboardTileDefinitionId": 561,
   "VisibleFor": [
     {
-      "VisibleId": 37,
+      "VisibleId": 844,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
+          "FieldType": "System.String",
           "FieldLength": 895
         }
       }
     },
     {
-      "VisibleId": 37,
+      "VisibleId": 844,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
+          "FieldType": "System.String",
           "FieldLength": 895
         }
       }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 432
     }
   }
 }

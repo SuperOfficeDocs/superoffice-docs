@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "O'Connell-Schinner",
-    "Tooltip": "nam",
+    "HeadingId": 156,
+    "Name": "Kerluke, McLaughlin and Rice",
+    "Tooltip": "cumque",
     "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 528,
+    "Rank": 901,
+    "UdListDefinitionId": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

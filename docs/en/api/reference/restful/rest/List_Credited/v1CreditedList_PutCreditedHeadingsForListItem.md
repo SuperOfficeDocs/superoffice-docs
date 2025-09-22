@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Kassulke Inc and Sons",
-    "ToolTip": "Dicta autem ut quae molestias molestiae in.",
-    "Deleted": false,
-    "Rank": 942,
-    "Type": "neque",
-    "ColorBlock": 760,
-    "IconHint": "delectus",
+    "Id": 788,
+    "Name": "Runolfsson-Cremin",
+    "ToolTip": "Qui eaque voluptas nobis.",
+    "Deleted": true,
+    "Rank": 717,
+    "Type": "beatae",
+    "ColorBlock": 391,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2018-08-18T03:47:00.628674+02:00",
+    "LastChanged": "2016-09-15T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Herman LLC",
-        "ToolTip": "Numquam autem dolore voluptatem nostrum.",
-        "Deleted": true,
-        "Rank": 113,
-        "Type": "occaecati",
-        "ColorBlock": 506,
-        "IconHint": "sint",
+        "Id": 570,
+        "Name": "Trantow-Hane",
+        "ToolTip": "Corporis ea.",
+        "Deleted": false,
+        "Rank": 126,
+        "Type": "optio",
+        "ColorBlock": 439,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2002-01-19T03:47:00.628674+01:00",
+        "LastChanged": "2017-06-03T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "sequi",
-        "Hidden": false,
-        "FullName": "Stuart Kautzer"
+        "ExtraInfo": "sunt",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Mrs. Jerod Gerardo Witting II"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sed",
+    "ExtraInfo": "sit",
+    "StyleHint": "impedit",
     "Hidden": true,
-    "FullName": "Brycen Kuvalis"
+    "FullName": "Fay Pagac"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Kuvalis, Block and Schumm",
-    "ToolTip": "Omnis sunt temporibus.",
-    "Deleted": true,
-    "Rank": 565,
-    "Type": "labore",
-    "ColorBlock": 695,
+    "Id": 765,
+    "Name": "Dicki Group",
+    "ToolTip": "Saepe autem nesciunt quisquam rerum blanditiis praesentium.",
+    "Deleted": false,
+    "Rank": 319,
+    "Type": "repellendus",
+    "ColorBlock": 744,
     "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2013-06-30T03:47:00.628674+02:00",
+    "Selected": true,
+    "LastChanged": "2013-11-09T11:24:53.9061703+01:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Stehr-Hills",
-        "ToolTip": "Id fugiat nostrum nulla sed commodi molestiae.",
+        "Id": 309,
+        "Name": "Luettgen Group",
+        "ToolTip": "Atque et.",
         "Deleted": true,
-        "Rank": 628,
-        "Type": "adipisci",
-        "ColorBlock": 858,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2011-01-12T03:47:00.628674+01:00",
+        "Rank": 437,
+        "Type": "omnis",
+        "ColorBlock": 789,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2022-08-03T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Filomena Cremin",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Stanford Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 444
+            "FieldType": "System.String",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Avis Mante",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Miss Aaliyah Hettie Effertz DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 550
       }
     }
   }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 514,
-    "Name": "Pacocha-Corkery",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 509,
+    "HeadingId": 803,
+    "Name": "Pfannerstill-Farrell",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "Rank": 295,
+    "UdListDefinitionId": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

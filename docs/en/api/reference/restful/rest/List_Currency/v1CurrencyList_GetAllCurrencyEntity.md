@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 851,
-    "Name": "Fay, Crooks and Volkman",
-    "Tooltip": "ullam",
-    "Rank": 455,
-    "Rate": 27889.466,
-    "Units": 19998.054,
-    "Deleted": true,
+    "CurrencyId": 452,
+    "Name": "Roob Group",
+    "Tooltip": "voluptatem",
+    "Rank": 494,
+    "Rate": 12636.288,
+    "Units": 23505.0,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldLength": 781
       }
     }
   }

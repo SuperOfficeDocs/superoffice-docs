@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Simonis-Kunze",
-  "Tooltip": "reiciendis",
+  "Id": 654,
+  "Name": "Aufderhar, Stark and Waelchi",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 129,
-  "Rank": 639,
+  "UdListDefinitionId": 390,
+  "Rank": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   }
 }

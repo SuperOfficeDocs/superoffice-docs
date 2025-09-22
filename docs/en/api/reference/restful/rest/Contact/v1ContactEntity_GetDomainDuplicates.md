@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mills-Boehm",
-    "SoPrimaryKey": 312,
-    "EntryName": "Schneider-Quigley",
-    "EntryIdentifier": "libero",
-    "RuleDisplayName": "Johns, Jacobs and Moen",
+    "RuleName": "Mante-Brekke",
+    "SoPrimaryKey": 759,
+    "EntryName": "Kshlerin, Funk and Welch",
+    "EntryIdentifier": "commodi",
+    "RuleDisplayName": "Paucek, Bartell and Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 464
       }
     }
   }

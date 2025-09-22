@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 548,
+  "ChatSessionId": 769,
   "Message": null
 }
 ```
@@ -97,14 +97,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 918,
-  "ChatSessionId": 758,
+  "ChatMessageId": 320,
+  "ChatSessionId": 453,
   "Type": "Invalid",
-  "Message": "cumque",
-  "Author": "culpa",
-  "ReadByCustomer": 867,
+  "Message": "eaque",
+  "Author": "voluptas",
+  "ReadByCustomer": 188,
   "SpecialType": "Block",
-  "SpecialParam": "labore",
-  "WhenPosted": "2011-03-21T03:46:54.3788954+01:00"
+  "SpecialParam": "officia",
+  "WhenPosted": "2006-11-08T11:24:47.6876742+01:00"
 }
 ```

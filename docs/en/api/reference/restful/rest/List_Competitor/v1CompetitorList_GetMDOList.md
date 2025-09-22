@@ -27,8 +27,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=a
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=est
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Ullrich, Oberbrunner and Smith",
-    "ToolTip": "Aut reprehenderit veritatis ducimus.",
+    "Id": 44,
+    "Name": "Brekke-Armstrong",
+    "ToolTip": "Tempore dignissimos facilis.",
     "Deleted": true,
-    "Rank": 902,
-    "Type": "repellat",
+    "Rank": 468,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Hills-Reichert",
-        "ToolTip": "Beatae aut ea.",
+        "Id": 876,
+        "Name": "Vandervort-Kunde",
+        "ToolTip": "Corporis quia.",
         "Deleted": true,
-        "Rank": 449,
-        "Type": "qui",
+        "Rank": 422,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 90,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nulla",
-        "FullName": "Brayan Hegmann",
+        "IconHint": "eius",
+        "ColorBlock": 342,
+        "ExtraInfo": "eligendi",
+        "StyleHint": "quibusdam",
+        "FullName": "Hailee Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 12
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 744,
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptatum",
-    "FullName": "Ashlynn Hudson MD",
+    "IconHint": "vero",
+    "ColorBlock": 622,
+    "ExtraInfo": "sed",
+    "StyleHint": "adipisci",
+    "FullName": "Maiya Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

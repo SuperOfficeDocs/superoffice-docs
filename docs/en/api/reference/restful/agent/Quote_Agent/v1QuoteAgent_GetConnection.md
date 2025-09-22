@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 930
+  "QuoteConnectionId": 597
 }
 ```
 
@@ -103,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 922,
-  "ERPName": "Hagenes Inc and Sons",
-  "DisplayName": "Cronin, Cartwright and Kuvalis",
-  "DisplayDescription": "Intuitive regional application",
-  "Rank": 743,
-  "ConnectorName": "Huels LLC",
-  "ErpConnectionId": 625,
-  "ExtraData": "cum",
+  "QuoteConnectionId": 297,
+  "ERPName": "Erdman Group",
+  "DisplayName": "Cassin, Mraz and Renner",
+  "DisplayDescription": "Profit-focused 24/7 algorithm",
+  "Rank": 178,
+  "ConnectorName": "Cole-Yost",
+  "ErpConnectionId": 807,
+  "ExtraData": "aut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 642,
-      "ERPPriceListKey": "beatae",
-      "QuoteConnectionId": 907,
-      "Name": "Marquardt Group",
-      "Description": "Proactive modular product",
-      "Currency": "numquam",
-      "CurrencyName": "Rau LLC",
-      "ValidFrom": "2010-04-26T03:46:55.2226157+02:00",
-      "ValidTo": "2014-02-07T03:46:55.2226157+01:00",
-      "IsActive": true,
+      "PriceListId": 173,
+      "ERPPriceListKey": "eligendi",
+      "QuoteConnectionId": 574,
+      "Name": "Gottlieb Group",
+      "Description": "Streamlined demand-driven standardization",
+      "Currency": "enim",
+      "CurrencyName": "Veum-Langosh",
+      "ValidFrom": "2004-08-11T11:24:48.5313897+02:00",
+      "ValidTo": "2018-10-31T11:24:48.5313897+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 897
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    97,
-    86
+    749,
+    204
   ],
   "AssociateAccessIds": [
-    867,
-    21
+    700,
+    477
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 564
     }
   }
 }

@@ -26,7 +26,7 @@ Deletes the PreferenceDescriptionLine
 | preferenceDescriptionLineId | int32 | **Required** The identity of the PreferenceDescriptionLine |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?preferenceDescriptionLineId=98
+POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?preferenceDescriptionLineId=817
 ```
 
 

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Schaden-Greenfelder",
-    "ToolTip": "Molestiae reiciendis sed repellendus aspernatur sapiente.",
+    "Id": 576,
+    "Name": "Hermiston-Huels",
+    "ToolTip": "Mollitia dignissimos provident saepe cumque.",
     "Deleted": false,
-    "Rank": 367,
-    "Type": "perspiciatis",
-    "ColorBlock": 584,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2003-06-05T03:47:00.5818006+02:00",
+    "Rank": 558,
+    "Type": "minus",
+    "ColorBlock": 199,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2007-05-26T11:24:53.8592973+02:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Temporibus omnis consequatur velit enim repellat voluptatibus.",
+        "Id": 692,
+        "Name": "Heidenreich Inc and Sons",
+        "ToolTip": "Vel earum et pariatur qui sed at eum.",
         "Deleted": true,
-        "Rank": 324,
-        "Type": "accusantium",
-        "ColorBlock": 3,
-        "IconHint": "quo",
+        "Rank": 931,
+        "Type": "numquam",
+        "ColorBlock": 989,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1998-06-26T03:47:00.5818006+02:00",
+        "LastChanged": "2009-08-30T11:24:53.8592973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
+        "ExtraInfo": "minus",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Boris Williamson"
+        "FullName": "Miss Cary Terrence Moen V"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "similique",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Kelly Schuster"
+    "FullName": "Bruce Fisher"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Illum harum sunt aliquam enim nesciunt libero.",
+    "Id": 937,
+    "Name": "Lueilwitz Group",
+    "ToolTip": "Voluptates veniam deserunt iusto deleniti saepe suscipit.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "eius",
-    "ColorBlock": 960,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2019-08-16T03:47:00.5818006+02:00",
+    "Rank": 4,
+    "Type": "rerum",
+    "ColorBlock": 738,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "2016-01-18T11:24:53.8592973+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Johnston, Walker and Hoppe",
-        "ToolTip": "Excepturi eligendi et dolor non ut.",
-        "Deleted": false,
-        "Rank": 159,
-        "Type": "cumque",
-        "ColorBlock": 449,
-        "IconHint": "id",
+        "Id": 556,
+        "Name": "Hagenes-Goyette",
+        "ToolTip": "Voluptatem est soluta totam blanditiis tempora.",
+        "Deleted": true,
+        "Rank": 361,
+        "Type": "aut",
+        "ColorBlock": 456,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2016-04-20T03:47:00.5818006+02:00",
+        "LastChanged": "2023-05-05T11:24:53.8592973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Muhammad Rosenbaum",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Reece Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldLength": 744
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "minima",
+    "ExtraInfo": "magni",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Mozell Breitenberg",
+    "FullName": "Mrs. Nella Ernie Gerlach I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 568
       }
     }
   }

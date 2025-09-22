@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 114,
-    "Name": "Runte, Bednar and Hahn",
-    "Tooltip": "a",
+    "HeadingId": 861,
+    "Name": "Robel, Gutkowski and Schuppe",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 784
+    "Rank": 93,
+    "UdListDefinitionId": 773
   },
   {
-    "HeadingId": 114,
-    "Name": "Runte, Bednar and Hahn",
-    "Tooltip": "a",
+    "HeadingId": 861,
+    "Name": "Robel, Gutkowski and Schuppe",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 784
+    "Rank": 93,
+    "UdListDefinitionId": 773
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 552,
-    "Name": "O'Keefe-Greenholt",
-    "Tooltip": "quae",
+    "HeadingId": 64,
+    "Name": "Schuppe-Blick",
+    "Tooltip": "nam",
     "Deleted": true,
-    "Rank": 205,
-    "UdListDefinitionId": 168,
+    "Rank": 989,
+    "UdListDefinitionId": 950,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 696
       }
     }
   }

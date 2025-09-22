@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,30 +90,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 337,
-  "Name": "Shanahan, Bradtke and Bernhard",
-  "CurrencyId": 20,
-  "EnglishName": "Schiller Group",
+  "CountryId": 556,
+  "Name": "Jakubowski-Weissnat",
+  "CurrencyId": 166,
+  "EnglishName": "McDermott-Kling",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Future-proofed eco-centric knowledge user",
-  "OrgNrText": "924361",
-  "InterAreaPrefix": "officia",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "repudiandae",
-  "DomainName": "Klocko, Murazik and Aufderhar",
-  "AddressLayoutId": 64,
-  "DomesticAddressLayoutId": 81,
-  "ForeignAddressLayoutId": 567,
-  "Rank": 951,
-  "Tooltip": "iure",
-  "Deleted": true,
+  "ImageDescription": "Business-focused incremental infrastructure",
+  "OrgNrText": "1819222",
+  "InterAreaPrefix": "voluptatem",
+  "DialInPrefix": "numquam",
+  "ZipPrefix": "ut",
+  "DomainName": "Lowe Group",
+  "AddressLayoutId": 298,
+  "DomesticAddressLayoutId": 943,
+  "ForeignAddressLayoutId": 721,
+  "Rank": 868,
+  "Tooltip": "hic",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldLength": 537
     }
   }
 }

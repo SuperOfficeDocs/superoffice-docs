@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 841
+  "AppointmentId": 898
 }
 ```
 
@@ -143,67 +143,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 490,
-  "StartDate": "2000-11-08T03:46:54.0039095+01:00",
-  "EndDate": "2012-03-05T03:46:54.0039095+01:00",
+  "AppointmentId": 187,
+  "StartDate": "2005-09-21T11:24:47.3126897+02:00",
+  "EndDate": "2003-08-30T11:24:47.3126897+02:00",
   "Type": "BookingForChecklist",
-  "Task": "in",
-  "AssociateFullName": "Zora Yundt",
-  "ContactName": "Erdman, Stehr and Gaylord",
-  "Description": "De-engineered reciprocal parallelism",
-  "PersonFullName": "Sophia Spinka",
-  "PersonId": 518,
-  "ContactId": 107,
-  "ProjectId": 146,
-  "ProjectName": "Quigley LLC",
+  "Task": "est",
+  "AssociateFullName": "Kaylee Brakus",
+  "ContactName": "Daniel Inc and Sons",
+  "Description": "Persevering analyzing alliance",
+  "PersonFullName": "Dewayne Treutel",
+  "PersonId": 361,
+  "ContactId": 789,
+  "ProjectId": 34,
+  "ProjectName": "Kihn-Boyle",
   "IsPublished": true,
-  "AssociateId": 667,
-  "ColorIndex": 607,
+  "AssociateId": 203,
+  "ColorIndex": 258,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 326,
-  "PriorityName": "Krajcik-Erdman",
+  "PriorityId": 409,
+  "PriorityName": "Stanton, Bradtke and Grady",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2003-03-12T03:46:54.0039095+01:00",
+  "ActiveDate": "2020-08-04T11:24:47.3126897+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2012-05-01T03:46:54.0039095+02:00",
-  "RecurringEndDate": "2015-08-30T03:46:54.0039095+02:00",
-  "MotherId": 567,
-  "AssignedBy": 958,
-  "AssignedByFullName": "Moshe Nader IV",
+  "RecurringStartDate": "2022-04-12T11:24:47.3126897+02:00",
+  "RecurringEndDate": "2001-01-30T11:24:47.3126897+01:00",
+  "MotherId": 699,
+  "AssignedBy": 796,
+  "AssignedByFullName": "Willard Arlo Strosin Sr.",
   "RejectReason": "",
-  "Location": "aut",
-  "AlarmLeadTime": "eos",
-  "SaleId": 172,
-  "SaleName": "Fritsch LLC",
-  "AssociateName": "Torphy-Russel",
-  "CreatedDate": "2010-01-25T03:46:54.0039095+01:00",
-  "CreatedBy": "qui",
-  "CreatedByFullName": "Bruce Herzog PhD",
-  "CreatedByAssociateId": 209,
+  "Location": "minima",
+  "AlarmLeadTime": "minima",
+  "SaleId": 38,
+  "SaleName": "Schamberger Group",
+  "AssociateName": "Schmitt Inc and Sons",
+  "CreatedDate": "2017-09-01T11:24:47.3126897+02:00",
+  "CreatedBy": "dolores",
+  "CreatedByFullName": "Ms. Juston Dalton Little",
+  "CreatedByAssociateId": 756,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 253,
+  "MotherAssociateId": 942,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 644,
-  "Title": "ut",
-  "Agenda": "consequuntur",
-  "InternalNotes": "rerum",
+  "PreferredTZLocation": 935,
+  "Title": "vero",
+  "Agenda": "optio",
+  "InternalNotes": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   }
 }

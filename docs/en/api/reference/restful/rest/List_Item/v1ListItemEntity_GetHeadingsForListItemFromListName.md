@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Pagac, Schmeler and Fahey",
-    "ToolTip": "Et doloribus accusamus omnis ipsa omnis numquam quia.",
-    "Deleted": false,
-    "Rank": 235,
-    "Type": "ullam",
-    "ColorBlock": 32,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2014-12-18T03:47:00.5661762+01:00",
+    "Id": 967,
+    "Name": "Romaguera-Durgan",
+    "ToolTip": "Reprehenderit rerum mollitia tempora.",
+    "Deleted": true,
+    "Rank": 7,
+    "Type": "corrupti",
+    "ColorBlock": 173,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2021-08-16T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Bode, Kertzmann and O'Connell",
-        "ToolTip": "Id aliquid quam et ut laboriosam.",
+        "Id": 155,
+        "Name": "Block, Purdy and Skiles",
+        "ToolTip": "Et non.",
         "Deleted": false,
-        "Rank": 826,
-        "Type": "in",
-        "ColorBlock": 368,
-        "IconHint": "voluptatum",
+        "Rank": 626,
+        "Type": "iusto",
+        "ColorBlock": 347,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2001-05-17T03:47:00.5661762+02:00",
+        "LastChanged": "2013-11-03T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "rerum",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Cortney Lindgren",
+        "FullName": "Mr. Giovanna Imani Bins Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "facilis",
+    "ExtraInfo": "et",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Thora McLaughlin",
+    "FullName": "Loma Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

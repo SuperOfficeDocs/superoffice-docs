@@ -90,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ferry, Legros and Haley",
-  "EmailAddress": "isabell@littlevon.us",
-  "NumberOfContacts": 681,
-  "NumberOfPersons": 258
+  "Name": "Pagac, Walter and Feil",
+  "EmailAddress": "rachel@hesselconsidine.us",
+  "NumberOfContacts": 276,
+  "NumberOfPersons": 803
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 873,
-    "FullName": "Dillon Schuster",
-    "EmailAddress": "gloria.mills@ferry.us",
-    "ContactId": 63,
-    "ContactName": "Smith-Nicolas",
-    "ContactDepartment": "iterate B2B synergies",
+    "PersonId": 418,
+    "FullName": "Eulah Baumbach Sr.",
+    "EmailAddress": "fanny@romagueracronin.ca",
+    "ContactId": 622,
+    "ContactName": "Jast Inc and Sons",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Kris, Runolfsdottir and Wisozk",
+    "SortName": "Padberg-Zieme",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

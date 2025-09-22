@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Bailey, Moore and Breitenberg",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 394,
-  "IsCustomList": false,
+  "Id": 246,
+  "Name": "Jewess, Feest and Bergstrom",
+  "Tooltip": "soluta",
+  "Deleted": false,
+  "Rank": 711,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   },
   "_Links": {

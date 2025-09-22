@@ -120,10 +120,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    354,
-    147
+    226,
+    184
   ],
-  "TargetTableNumber": 1000
+  "TargetTableNumber": 568
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered executive encoding",
-  "Postit": "quam",
+  "Description": "Decentralized optimizing structure",
+  "Postit": "quo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 176,
-  "IncludePerson": 686,
+  "GroupIdx": 50,
+  "IncludePerson": 203,
   "MemberCount": 99.99,
-  "Name": "Stiedemann-Hilpert",
-  "PostitTextId": 693,
-  "CreatedDate": "2009-03-17T03:46:55.3788724+01:00",
-  "SelectionId": 699,
-  "SoundEx": "temporibus",
-  "Source": 267,
-  "TextId": 848,
-  "UpdatedDate": "2021-12-06T03:46:55.3788724+01:00",
-  "UpdatedCount": 743,
-  "Visibility": 378,
+  "Name": "Gulgowski Group",
+  "PostitTextId": 599,
+  "CreatedDate": "2022-07-25T11:24:48.6407604+02:00",
+  "SelectionId": 10,
+  "SoundEx": "tempora",
+  "Source": 283,
+  "TextId": 138,
+  "UpdatedDate": "2019-08-04T11:24:48.6407604+02:00",
+  "UpdatedCount": 204,
+  "Visibility": 717,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 183,
-  "TargetTableName": "Conn-Ratke",
-  "Completed": false,
-  "LeftSelectionId": 779,
-  "RightSelectionId": 105,
+  "TargetTableNumber": 22,
+  "TargetTableName": "Hartmann, Bernier and Hirthe",
+  "Completed": true,
+  "LeftSelectionId": 671,
+  "RightSelectionId": 85,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cremin-Metz",
-  "ShadowProviderName": "Hoppe, Klein and Fadel",
-  "ChartKey": "natus",
-  "LastLoaded": "2005-09-04T03:46:55.3788724+02:00",
-  "LastLoadedBy": 53,
+  "MainProviderName": "Zulauf-Willms",
+  "ShadowProviderName": "Ullrich-Heathcote",
+  "ChartKey": "perferendis",
+  "LastLoaded": "2015-02-14T11:24:48.6407604+01:00",
+  "LastLoadedBy": 144,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-06T03:46:55.3788724+01:00",
-  "LastMembershipChangeBy": 998,
+  "LastMembershipChange": "2001-03-16T11:24:48.6407604+01:00",
+  "LastMembershipChangeBy": 85,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "modi",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Kautzer, Langosh and Maggio",
-  "DashboardTileDefinitionId": 177,
+  "MainHeading": "aut",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Gislason, Armstrong and Lehner",
+  "DashboardTileDefinitionId": 601,
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 491,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 94
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 491,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 94
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 314
     }
   }
 }

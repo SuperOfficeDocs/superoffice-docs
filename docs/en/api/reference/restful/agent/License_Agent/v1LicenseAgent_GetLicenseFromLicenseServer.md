@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Cummerata, McKenzie and Kunze"
+  "OwnerName": "O'Hara-Franecki"
 }
 ```
 
@@ -93,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 222,
-      "NumberOfLicensesFree": 474,
-      "NumberOfLicensesAdded": 218,
-      "NumberOfLicensesNewTotal": 601,
-      "NumberOfLicensesNewFree": 834,
-      "NumberOfLicensesTotal": 871
+      "NumberOfLicensesInUse": 621,
+      "NumberOfLicensesFree": 614,
+      "NumberOfLicensesAdded": 639,
+      "NumberOfLicensesNewTotal": 924,
+      "NumberOfLicensesNewFree": 34,
+      "NumberOfLicensesTotal": 774
     }
   ],
-  "AccumulatedNextCheckDate": "1999-06-11T03:46:54.9107593+02:00"
+  "AccumulatedNextCheckDate": "2000-05-02T11:24:48.1720293+02:00"
 }
 ```

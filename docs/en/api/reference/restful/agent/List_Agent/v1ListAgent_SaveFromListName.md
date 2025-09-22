@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "UdListDefinitionName": "Wolff-D'Amore",
+  "Id": 781,
+  "UdListDefinitionName": "Ward Group",
   "Item": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Koepp-Hamill",
-  "Tooltip": "rem",
+  "Id": 370,
+  "Name": "Rogahn LLC",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 503,
-  "Rank": 181,
+  "UdListDefinitionId": 884,
+  "Rank": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 224
     }
   }
 }

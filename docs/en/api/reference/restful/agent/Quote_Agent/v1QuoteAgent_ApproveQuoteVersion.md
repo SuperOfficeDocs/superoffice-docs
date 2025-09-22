@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 4,
-  "ApprovedByText": "et",
-  "ApprovedByAssociateId": 865,
-  "ApprovalText": "temporibus"
+  "QuoteVersionId": 743,
+  "ApprovedByText": "occaecati",
+  "ApprovedByAssociateId": 912,
+  "ApprovalText": "sint"
 }
 ```
 
@@ -97,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 909,
+  "CreatedAppointmentId": 228,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

@@ -94,8 +94,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 703,
-  "ListItemId": 496,
+  "UdListDefinitionId": 186,
+  "ListItemId": 577,
   "ShowDeleted": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Marvin-Hamill",
-    "ToolTip": "At eaque eius odio totam aut est.",
-    "Deleted": false,
-    "Rank": 131,
-    "Type": "qui",
-    "ColorBlock": 104,
-    "IconHint": "earum",
+    "Id": 188,
+    "Name": "Green Inc and Sons",
+    "ToolTip": "Pariatur id deserunt et consequatur magnam molestias deleniti.",
+    "Deleted": true,
+    "Rank": 714,
+    "Type": "eum",
+    "ColorBlock": 859,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-04-18T03:46:54.9569999+02:00",
+    "LastChanged": "1998-12-01T11:24:48.2032781+01:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Armstrong Inc and Sons",
-        "ToolTip": "Animi quidem sint quis neque natus.",
-        "Deleted": true,
-        "Rank": 3,
-        "Type": "quam",
-        "ColorBlock": 352,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2007-05-26T03:46:54.9569999+02:00",
+        "Id": 899,
+        "Name": "Klocko-Stark",
+        "ToolTip": "Dolor repudiandae vitae dolor sed commodi.",
+        "Deleted": false,
+        "Rank": 873,
+        "Type": "odit",
+        "ColorBlock": 610,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "1999-02-12T11:24:48.2032781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "id",
+        "ExtraInfo": "aut",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Prof. Yessenia Cormier",
+        "FullName": "Ms. Pattie Jasen Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldType": "System.String",
+            "FieldLength": 703
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Roxane Marion Rodriguez DVM",
+    "ExtraInfo": "dolores",
+    "StyleHint": "magni",
+    "Hidden": true,
+    "FullName": "Elvie Franecki V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Jacobi-Oberbrunner",
-    "AssociateId": 727,
-    "DetailsTable": 227,
-    "DetailsRecord": 30,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 367,
+    "Name": "Hilpert-Christiansen",
+    "AssociateId": 798,
+    "DetailsTable": 103,
+    "DetailsRecord": 994,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "necessitatibus",
+      "ParameterObject2": "quas"
     },
-    "LastStarted": "2012-09-17T03:46:54.3007673+02:00",
-    "Created": "2014-05-02T03:46:54.3007673+02:00",
-    "StartCount": 160,
-    "DatabaseSerialNumber": "1643260",
-    "Context": "dolore",
-    "Result": "minima",
+    "LastStarted": "2009-11-13T11:24:47.6095526+01:00",
+    "Created": "1998-12-10T11:24:47.6095526+01:00",
+    "StartCount": 245,
+    "DatabaseSerialNumber": "1322911",
+    "Context": "consequatur",
+    "Result": "quo",
     "State": "All",
-    "Description": "Seamless multi-state orchestration",
-    "Response": "porro",
-    "Request": "maxime",
-    "ProgressDescription": "Cloned systemic help-desk",
-    "ProgressPercent": 272,
-    "FileName": "Bernhard, Parker and Kunze",
+    "Description": "Right-sized 24 hour Graphic Interface",
+    "Response": "culpa",
+    "Request": "animi",
+    "ProgressDescription": "Future-proofed well-modulated collaboration",
+    "ProgressPercent": 175,
+    "FileName": "Ullrich, Marvin and Schneider",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 348
       }
     }
   }

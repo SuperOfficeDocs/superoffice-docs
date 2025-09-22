@@ -113,31 +113,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 24,
-  "Name": "Legros-Dickinson",
-  "Tooltip": "necessitatibus",
+  "WebPanelId": 356,
+  "Name": "Christiansen, Weber and Mraz",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 834,
+  "Rank": 551,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Leuschke, Parisian and Schiller",
+  "WindowName": "Larkin-Quitzon",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 841,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "omnis",
+  "Icon": 665,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
 ```
@@ -149,34 +149,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 374,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "reiciendis",
+  "WebPanelId": 718,
+  "Name": "McDermott, Gutkowski and Langosh",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 868,
+  "Rank": 738,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Murphy, Wolf and Hoeger",
+  "WindowName": "Kunde Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "exercitationem",
-  "Icon": 619,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "ut",
+  "Icon": 184,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 667
     }
   }
 }

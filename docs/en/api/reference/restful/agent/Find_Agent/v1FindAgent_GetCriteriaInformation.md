@@ -86,12 +86,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Rutherford-Breitenberg",
-  "StorageKey": "enim",
+  "StorageType": "quos",
+  "ProviderName": "Ortiz-Bradtke",
+  "StorageKey": "assumenda",
   "StaticColumns": [
-    "nisi",
-    "et"
+    "quia",
+    "ullam"
   ]
 }
 ```
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Heller Group",
-      "Operator": "ea",
+      "Name": "Hermann Group",
+      "Operator": "fugit",
       "Values": [
-        "dolorem",
-        "et"
+        "eos",
+        "est"
       ],
       "DisplayValues": [
-        "recusandae",
-        "voluptatem"
+        "voluptas",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 863,
       "InterOperator": "And",
-      "UniqueHash": 4
+      "UniqueHash": 402
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Considine-Kautzer",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quasi",
-      "CanOrderBy": true,
-      "Name": "Connelly, O'Keefe and Keeling",
-      "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Becker, Flatley and Lynch",
+      "DisplayName": "Grimes-Kuphal",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "a",
+      "CanOrderBy": false,
+      "Name": "Crooks, Leuschke and Hilpert",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Lakin LLC",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "possimus",
-      "IconHint": "incidunt",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "mollitia",
+      "Width": "facere",
+      "IconHint": "reprehenderit",
+      "HeadingIconHint": "dolore"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kihn Group",
-      "PrimaryKey": 950,
+      "EntityName": "Goodwin LLC",
+      "PrimaryKey": 509,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "voluptate",
-          "LinkHint": "nostrum"
+          "DisplayValue": "et",
+          "TooltipHint": "exercitationem",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "deserunt",
-      "StyleHint": "temporibus",
+      "LinkHint": "qui",
+      "StyleHint": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Funk, Frami and Carroll",
+      "Description": "Right-sized optimal firmware",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Funk, Frami and Carroll",
+      "Description": "Right-sized optimal firmware",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

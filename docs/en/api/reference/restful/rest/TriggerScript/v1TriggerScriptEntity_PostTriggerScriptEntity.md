@@ -98,20 +98,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 246,
-  "Name": "Murphy Group",
+  "ScreenChooserId": 329,
+  "Name": "Hickle, Brekke and Tromp",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "mollitia",
-  "Source": "aspernatur",
-  "Registered": "2001-03-19T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2003-02-03T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 718
+  "Enabled": true,
+  "UniqueIdentifier": "reprehenderit",
+  "Source": "necessitatibus",
+  "Registered": "2004-09-13T11:24:53.7186781+02:00",
+  "RegisteredAssociateId": 494,
+  "Updated": "2022-12-17T11:24:53.7186781+01:00",
+  "UpdatedAssociateId": 498
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 392,
-  "Name": "Paucek LLC",
+  "ScreenChooserId": 467,
+  "Name": "Rohan-Carter",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "nihil",
-  "Registered": "2015-04-07T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 949,
-  "Updated": "2013-09-11T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 187,
+  "UniqueIdentifier": "ut",
+  "Source": "in",
+  "Registered": "2007-12-23T11:24:53.7186781+01:00",
+  "RegisteredAssociateId": 891,
+  "Updated": "2004-10-21T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 6
     }
   },
   "_Links": {

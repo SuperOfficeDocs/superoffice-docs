@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Altenwerth, Stiedemann and Renner",
-  "ModuleName": "Turcotte-Koss"
+  "OwnerName": "Medhurst, Schulist and Botsford",
+  "ModuleName": "Langosh Group"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wuckert Group",
-  "ModuleName": "Rohan, Frami and Heathcote",
-  "ModuleDescription": "Down-sized coherent benchmark",
-  "ModuleTooltip": "et",
-  "ModuleVersion": "veritatis",
+  "OwnerName": "Hahn Inc and Sons",
+  "ModuleName": "Roob, Jast and Ernser",
+  "ModuleDescription": "Synchronised interactive hierarchy",
+  "ModuleTooltip": "rerum",
+  "ModuleVersion": "dicta",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 566,
-  "ExtraFlags": 578,
-  "ExtraInfo": "et",
-  "SortOrder": 18,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Hilll, Beer and Kertzmann",
-  "Signature": "sit"
+  "NumberOfLicenses": 228,
+  "ExtraFlags": 844,
+  "ExtraInfo": "vero",
+  "SortOrder": 296,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Stoltenberg-Kuhlman",
+  "Signature": "dignissimos"
 }
 ```

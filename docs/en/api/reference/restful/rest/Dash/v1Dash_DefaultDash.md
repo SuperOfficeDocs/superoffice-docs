@@ -70,7 +70,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 761,
-  "UniqueId": "rerum",
-  "Name": "Quigley-Stoltenberg",
-  "Description": "Optional fault-tolerant application",
-  "AssociateId": 484,
-  "Columns": 163,
+  "DashboardId": 439,
+  "UniqueId": "velit",
+  "Name": "Bailey Group",
+  "Description": "Automated next generation extranet",
+  "AssociateId": 926,
+  "Columns": 285,
   "Theme": null,
-  "VisibleForAll": 273,
+  "VisibleForAll": 41,
   "VisibleForAssociates": [
-    734,
-    792
+    767,
+    307
   ],
   "VisibleForGroups": [
-    87,
-    130
+    307,
+    807
   ],
-  "PinForAll": 158,
+  "PinForAll": 249,
   "PinForAssociates": [
-    794,
-    548
+    915,
+    136
   ],
   "PinForGroups": [
-    629,
-    292
+    5,
+    979
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 573
     }
   }
 }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    969,
-    276
+    779,
+    11
   ]
 }
 ```
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 413,
-    "ContactName": "Luettgen Inc and Sons",
-    "PersonId": 386,
-    "PersonName": "Rice Inc and Sons",
-    "AssociateId": 897,
-    "Address": "dolores",
-    "EmailId": 458,
+    "ContactId": 929,
+    "ContactName": "Stehr, Jacobs and Cormier",
+    "PersonId": 498,
+    "PersonName": "Ebert Group",
+    "AssociateId": 114,
+    "Address": "iste",
+    "EmailId": 760,
     "DuplicatePersonIds": [
-      268,
-      815
+      928,
+      247
     ],
-    "Name": "Goyette-Vandervort",
+    "Name": "Miller-Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 1002
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 981,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 703,
-  "Name": "Huel-Kovacek",
-  "Description": "Versatile exuding analyzer",
+  "QuoteAlternativeId": 468,
+  "ERPQuoteAlternativeKey": "nulla",
+  "QuoteVersionId": 803,
+  "Name": "Bauch LLC",
+  "Description": "Intuitive logistical moderator",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30462.48,
-  "ERPDiscountAmount": 5794.766,
-  "DiscountPercent": 24532.951999999997,
-  "DiscountAmount": 16666.612,
+  "ERPDiscountPercent": 19828.818,
+  "ERPDiscountAmount": 22599.273999999998,
+  "DiscountPercent": 19863.291999999998,
+  "DiscountAmount": 21775.032,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "placeat",
-  "VAT": 13413.52,
-  "EarningPercent": 23003.559999999998,
-  "EarningAmount": 13379.046,
-  "SubTotal": 17443.844,
-  "TotalPrice": 990.34399999999994,
-  "ExtraField1": "non",
-  "ExtraField2": "et",
-  "ExtraField3": "architecto",
-  "ExtraField4": "rerum",
-  "ExtraField5": "quaerat",
+  "VATInfo": "voluptatibus",
+  "VAT": 20358.464,
+  "EarningPercent": 1316.28,
+  "EarningAmount": 22210.658,
+  "SubTotal": 25589.11,
+  "TotalPrice": 7173.726,
+  "ExtraField1": "et",
+  "ExtraField2": "labore",
+  "ExtraField3": "est",
+  "ExtraField4": "veniam",
+  "ExtraField5": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 313
     }
   }
 }

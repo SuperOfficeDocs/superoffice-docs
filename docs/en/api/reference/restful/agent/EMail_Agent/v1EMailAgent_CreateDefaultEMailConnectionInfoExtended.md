@@ -74,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 970,
-  "ServerName": "Luettgen Inc and Sons",
-  "Protocol": "dolores",
-  "UserName": "Steuber, Goyette and Ryan",
-  "Password": "dolor",
+  "Port": 294,
+  "ServerName": "Bahringer-Purdy",
+  "Protocol": "laborum",
+  "UserName": "Runolfsson, Lowe and Vandervort",
+  "Password": "repellat",
   "UseSSL": false,
-  "Folder": "et",
+  "Folder": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldLength": 794
     }
   }
 }

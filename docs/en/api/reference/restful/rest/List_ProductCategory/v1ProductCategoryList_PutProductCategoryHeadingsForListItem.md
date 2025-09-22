@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Bartoletti-Fay",
-    "ToolTip": "Dolore labore nam at velit voluptatem quia.",
+    "Id": 302,
+    "Name": "Keeling, Kirlin and Davis",
+    "ToolTip": "Adipisci cumque aspernatur unde et non voluptatibus delectus.",
     "Deleted": true,
-    "Rank": 596,
-    "Type": "repellat",
-    "ColorBlock": 56,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2018-09-02T03:47:00.7224209+02:00",
+    "Rank": 74,
+    "Type": "deleniti",
+    "ColorBlock": 597,
+    "IconHint": "debitis",
+    "Selected": true,
+    "LastChanged": "2001-04-09T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Conn, Rempel and Johns",
-        "ToolTip": "Dolores harum velit sed.",
-        "Deleted": true,
-        "Rank": 477,
-        "Type": "beatae",
-        "ColorBlock": 464,
-        "IconHint": "libero",
+        "Id": 503,
+        "Name": "Conroy, Hauck and VonRueden",
+        "ToolTip": "Ut cupiditate sit dolorum.",
+        "Deleted": false,
+        "Rank": 672,
+        "Type": "aut",
+        "ColorBlock": 849,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2002-08-31T03:47:00.7224209+02:00",
+        "LastChanged": "2001-03-07T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Jaiden Grant"
+        "FullName": "Otilia Walter"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "illum",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Dr. Jalon VonRueden"
+    "FullName": "Emmanuel Holly Batz IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Pfeffer LLC",
-    "ToolTip": "Quisquam sint repudiandae fugit reiciendis.",
+    "Id": 101,
+    "Name": "Torphy LLC",
+    "ToolTip": "Et iusto quos.",
     "Deleted": false,
-    "Rank": 816,
-    "Type": "quas",
-    "ColorBlock": 841,
-    "IconHint": "maxime",
+    "Rank": 358,
+    "Type": "debitis",
+    "ColorBlock": 195,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2017-04-09T03:47:00.7224209+02:00",
+    "LastChanged": "2017-03-23T11:24:53.9999166+01:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Daugherty Group",
-        "ToolTip": "Et sed inventore consequatur magnam enim beatae.",
-        "Deleted": false,
-        "Rank": 644,
-        "Type": "atque",
-        "ColorBlock": 356,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2003-08-09T03:47:00.7224209+02:00",
+        "Id": 325,
+        "Name": "Grant, Swaniawski and Stokes",
+        "ToolTip": "Dolorem minima.",
+        "Deleted": true,
+        "Rank": 14,
+        "Type": "nulla",
+        "ColorBlock": 404,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2002-09-21T11:24:53.9999166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Robin Kale Vandervort Sr.",
+        "ExtraInfo": "porro",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Luther Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "soluta",
-    "Hidden": false,
-    "FullName": "Sammy Brown I",
+    "ExtraInfo": "sunt",
+    "StyleHint": "itaque",
+    "Hidden": true,
+    "FullName": "Ken Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 108
       }
     }
   }

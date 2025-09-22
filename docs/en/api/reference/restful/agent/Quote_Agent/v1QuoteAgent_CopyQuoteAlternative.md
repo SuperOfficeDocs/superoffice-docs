@@ -98,13 +98,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 949,
-  "QuoteAlternativeId": 920,
-  "QuoteAlternativeName": "Kessler-Hintz"
+  "QuoteVersionId": 869,
+  "QuoteAlternativeId": 967,
+  "QuoteAlternativeName": "Boyle LLC"
 }
 ```
 
@@ -115,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 639,
-  "ERPQuoteAlternativeKey": "atque",
-  "QuoteVersionId": 322,
-  "Name": "Marquardt, Kerluke and Olson",
-  "Description": "User-centric fresh-thinking challenge",
+  "QuoteAlternativeId": 627,
+  "ERPQuoteAlternativeKey": "magni",
+  "QuoteVersionId": 821,
+  "Name": "Jakubowski, Wolf and Quigley",
+  "Description": "Adaptive clear-thinking toolset",
   "Status": "Error",
-  "Reason": "optimize front-end paradigms",
-  "ERPDiscountPercent": 7512.1979999999994,
-  "ERPDiscountAmount": 28412.843999999997,
-  "DiscountPercent": 10207.438,
-  "DiscountAmount": 18647.3,
+  "Reason": "",
+  "ERPDiscountPercent": 2895.816,
+  "ERPDiscountAmount": 24025.244,
+  "DiscountPercent": 29788.67,
+  "DiscountAmount": 27027.615999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "omnis",
-  "VAT": 26497.969999999998,
-  "EarningPercent": 18321.363999999998,
-  "EarningAmount": 16882.858,
-  "SubTotal": 24733.528,
-  "TotalPrice": 12504.66,
-  "ExtraField1": "natus",
-  "ExtraField2": "labore",
-  "ExtraField3": "ut",
-  "ExtraField4": "commodi",
-  "ExtraField5": "repudiandae",
+  "VATInfo": "dolor",
+  "VAT": 351.008,
+  "EarningPercent": 12401.238,
+  "EarningAmount": 15679.402,
+  "SubTotal": 11739.964,
+  "TotalPrice": 30672.458,
+  "ExtraField1": "sunt",
+  "ExtraField2": "enim",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "aliquam",
+  "ExtraField5": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

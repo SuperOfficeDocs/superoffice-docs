@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Dicki-McCullough",
-    "ToolTip": "Velit rerum quis provident minus facere.",
+    "Id": 993,
+    "Name": "Schmeler-Hahn",
+    "ToolTip": "Voluptatem ducimus consequatur rerum id laboriosam optio.",
     "Deleted": false,
-    "Rank": 666,
-    "Type": "autem",
-    "ColorBlock": 335,
-    "IconHint": "eius",
+    "Rank": 622,
+    "Type": "molestiae",
+    "ColorBlock": 730,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2001-03-12T03:47:00.7067961+01:00",
+    "LastChanged": "2010-06-28T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Wunsch, Moore and Stark",
-        "ToolTip": "Qui dolor quo sunt asperiores quasi.",
+        "Id": 913,
+        "Name": "Senger Group",
+        "ToolTip": "Beatae ipsum.",
         "Deleted": false,
-        "Rank": 211,
-        "Type": "ut",
-        "ColorBlock": 287,
-        "IconHint": "iure",
+        "Rank": 381,
+        "Type": "dolor",
+        "ColorBlock": 187,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2015-06-25T03:47:00.7067961+02:00",
+        "LastChanged": "2018-12-29T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Mrs. Ed Davis II"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "impedit",
+        "Hidden": false,
+        "FullName": "Ms. Lamont Jakayla Lang"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "quod",
+    "StyleHint": "incidunt",
     "Hidden": true,
-    "FullName": "Rosa Rowe"
+    "FullName": "Triston Rippin"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Ullrich Group",
-    "ToolTip": "Nesciunt occaecati ducimus aut enim assumenda.",
-    "Deleted": false,
-    "Rank": 191,
-    "Type": "aperiam",
-    "ColorBlock": 386,
-    "IconHint": "inventore",
+    "Id": 318,
+    "Name": "Mraz, Rutherford and Weimann",
+    "ToolTip": "Culpa sapiente beatae iste doloribus perspiciatis culpa.",
+    "Deleted": true,
+    "Rank": 628,
+    "Type": "ipsa",
+    "ColorBlock": 953,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2020-03-03T03:47:00.7067961+01:00",
+    "LastChanged": "2019-05-23T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Gerlach-Nolan",
-        "ToolTip": "Totam repellat accusantium ut magni tenetur eum rerum.",
+        "Id": 301,
+        "Name": "Koss-Ullrich",
+        "ToolTip": "Fuga nihil distinctio repellendus modi voluptatem iusto atque.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "enim",
-        "ColorBlock": 400,
-        "IconHint": "repellendus",
+        "Rank": 310,
+        "Type": "error",
+        "ColorBlock": 8,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2005-09-11T03:47:00.7067961+02:00",
+        "LastChanged": "2022-10-14T11:24:53.9999166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Mr. Emil Ullrich IV",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Murphy Anderson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldLength": 577
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Ms. Elenor Durgan Sr.",
+    "ExtraInfo": "expedita",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Shanny Jaskolski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldType": "System.String",
+        "FieldLength": 38
       }
     }
   }

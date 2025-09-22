@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
+  "Id": 134,
   "Entity": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Hane-Rempel",
-  "Tooltip": "ad",
+  "HeadingId": 387,
+  "Name": "Schmitt, Stokes and Littel",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 943,
-  "UdListDefinitionId": 677,
+  "Rank": 397,
+  "UdListDefinitionId": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

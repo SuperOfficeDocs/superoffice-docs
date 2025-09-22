@@ -133,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 650
+  "SaleId": 903
 }
 ```
 
@@ -152,121 +152,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-04-27T03:46:54.2226522+02:00",
-  "AppointmentId": 68,
-  "Description": "Stand-alone methodical structure",
-  "Title": "quam",
-  "Agenda": "sint",
-  "InternalNotes": "quia",
-  "StartDate": "2004-10-16T03:46:54.2226522+02:00",
-  "EndDate": "2018-06-24T03:46:54.2226522+02:00",
+  "CreatedDate": "2009-03-24T11:24:47.4845619+01:00",
+  "AppointmentId": 605,
+  "Description": "Cloned dedicated contingency",
+  "Title": "assumenda",
+  "Agenda": "et",
+  "InternalNotes": "aut",
+  "StartDate": "2015-12-03T11:24:47.4845619+01:00",
+  "EndDate": "2010-10-18T11:24:47.4845619+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 294,
+  "MotherId": 837,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-07-25T03:46:54.2226522+02:00",
+  "UpdatedDate": "2019-06-04T11:24:47.5470549+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 14,
+  "ActiveLinks": 843,
   "Links": [
     {
-      "EntityName": "Lynch, Thiel and Hagenes",
-      "Id": 27,
-      "Description": "Team-oriented 6th generation synergy",
-      "ExtraInfo": "ipsam",
-      "LinkId": 496,
+      "EntityName": "Feest-Rohan",
+      "Id": 268,
+      "Description": "Ameliorated context-sensitive customer loyalty",
+      "ExtraInfo": "ut",
+      "LinkId": 382,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 569
         }
       }
     }
   ],
-  "AlarmLeadTime": "ullam",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 577,
+  "ColorIndex": 677,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "ea",
-  "LeadTime": "molestias",
-  "Location": "ut",
-  "RejectCounter": 82,
+  "LagTime": "incidunt",
+  "LeadTime": "et",
+  "Location": "eum",
+  "RejectCounter": 396,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 40,
-      "PersonId": 563,
-      "ContactId": 982,
-      "EmailId": 338,
+      "AssociateId": 78,
+      "PersonId": 968,
+      "ContactId": 597,
+      "EmailId": 179,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "josiah.heidenreich@schuster.info",
-      "Description": "Devolved mission-critical moratorium"
+      "EmailAddress": "velda@ullrichwelch.us",
+      "Description": "Reduced neutral utilisation"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-09-15T03:46:54.2226522+02:00",
+  "ActiveDate": "1998-06-11T11:24:47.5470549+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 911,
+  "PreferredTZLocation": 371,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 557,
+  "SuggestedAppointmentId": 875,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quaerat",
+  "CentralserviceVideomeetId": "quasi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Raphael Kerluke",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Cade Stroman",
+    "SuperOffice:2": "1272543622"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "id",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
+    "CustomFields1": "non",
     "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2004-04-24T03:46:54.2226522+02:00",
-  "PublishTo": "2011-11-05T03:46:54.2226522+01:00",
-  "PublishFrom": "2006-02-24T03:46:54.2226522+01:00",
+  "PublishEventDate": "2012-07-21T11:24:47.5470549+02:00",
+  "PublishTo": "2001-04-20T11:24:47.5470549+02:00",
+  "PublishFrom": "2016-04-11T11:24:47.5470549+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 939,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldType": "System.String",
+          "FieldLength": 173
         }
       }
     },
     {
-      "VisibleId": 939,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldType": "System.String",
+          "FieldLength": 173
         }
       }
     }
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 230
     }
   }
 }

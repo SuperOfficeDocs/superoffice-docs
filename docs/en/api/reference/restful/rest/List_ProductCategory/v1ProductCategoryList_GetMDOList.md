@@ -28,7 +28,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=sunt
+GET /api/v1/List/ProductCategory/MDOItems?query=voluptatem
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Harvey, Turcotte and Smith",
-    "ToolTip": "Est consequatur eos est est ea.",
-    "Deleted": false,
-    "Rank": 111,
-    "Type": "quis",
+    "Id": 567,
+    "Name": "Green-Kovacek",
+    "ToolTip": "Rem voluptates.",
+    "Deleted": true,
+    "Rank": 331,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Durgan-Hessel",
-        "ToolTip": "Consequatur totam qui omnis recusandae.",
+        "Id": 867,
+        "Name": "Roob-Homenick",
+        "ToolTip": "Consequatur est voluptatem consequatur.",
         "Deleted": false,
-        "Rank": 877,
-        "Type": "quos",
+        "Rank": 595,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 777,
-        "ExtraInfo": "enim",
-        "StyleHint": "tempore",
-        "FullName": "Nova Johns",
+        "IconHint": "illum",
+        "ColorBlock": 463,
+        "ExtraInfo": "odit",
+        "StyleHint": "praesentium",
+        "FullName": "Mercedes Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 8
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 503,
-    "ExtraInfo": "et",
-    "StyleHint": "error",
-    "FullName": "Prof. Wilhelmine Feil II",
+    "IconHint": "animi",
+    "ColorBlock": 876,
+    "ExtraInfo": "enim",
+    "StyleHint": "suscipit",
+    "FullName": "Mr. Ruthie Collins DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldType": "System.String",
+        "FieldLength": 159
       }
     }
   }

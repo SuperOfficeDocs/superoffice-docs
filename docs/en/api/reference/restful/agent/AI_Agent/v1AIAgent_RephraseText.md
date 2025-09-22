@@ -75,9 +75,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "consequatur",
+  "Text": "enim",
   "Style": "Casual",
-  "IsoLangCode": "voluptas"
+  "IsoLangCode": "voluptatum"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nesciunt"
+"non"
 ```

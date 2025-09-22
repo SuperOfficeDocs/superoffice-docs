@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Torphy-Wuckert",
-  "StorageKey": "vero",
-  "Context": "eius"
+  "StorageType": "ut",
+  "ProviderName": "Lynch Inc and Sons",
+  "StorageKey": "repellendus",
+  "Context": "est"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Hand-Roberts",
+    "Description": "Ameliorated exuding middleware",
+    "Rank": 996,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Zieme LLC",
+        "Operator": "sed",
         "Values": [
-          "qui",
-          "magni"
+          "neque",
+          "beatae"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "illo",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -118,27 +118,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 795,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 902
       }
     ]
   },
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Hand-Roberts",
+    "Description": "Ameliorated exuding middleware",
+    "Rank": 996,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Zieme LLC",
+        "Operator": "sed",
         "Values": [
-          "qui",
-          "magni"
+          "neque",
+          "beatae"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "illo",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -146,9 +146,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 795,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 902
       }
     ]
   }

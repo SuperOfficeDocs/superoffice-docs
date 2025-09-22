@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 2,
-  "Name": "Bernhard-Raynor",
-  "Rank": 434,
-  "Tooltip": "quas",
+  "ResourceId": 857,
+  "Name": "Turcotte LLC",
+  "Rank": 837,
+  "Tooltip": "sed",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "et",
+  "LocationAddress": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 409
     }
   }
 }

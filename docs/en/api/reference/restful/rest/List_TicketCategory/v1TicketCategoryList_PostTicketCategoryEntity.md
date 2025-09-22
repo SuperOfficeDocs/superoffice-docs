@@ -104,29 +104,29 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 470,
-  "ParentId": 367,
-  "Name": "Kertzmann LLC",
-  "Fullname": "distinctio",
-  "CategoryMaster": 621,
+  "TicketCategoryId": 256,
+  "ParentId": 688,
+  "Name": "Jenkins, Will and Fahey",
+  "Fullname": "aut",
+  "CategoryMaster": 647,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mitchell-Douglas",
+  "ExternalName": "Jerde-Moore",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 181,
-  "ReplyTemplate": 768,
-  "NotificationEmail": "elsie.lueilwitz@grady.com",
+  "AssignmentLag": 265,
+  "ReplyTemplate": 559,
+  "NotificationEmail": "queen@goodwinborer.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 210,
+  "EffectiveReplyTemplateId": 77,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "modi"
+    "CustomFields1": "soluta",
+    "CustomFields2": "blanditiis"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 407,
-  "ParentId": 306,
-  "Name": "Armstrong, Keeling and Schuster",
-  "Fullname": "sapiente",
-  "CategoryMaster": 715,
+  "TicketCategoryId": 12,
+  "ParentId": 314,
+  "Name": "Towne, O'Keefe and Hand",
+  "Fullname": "autem",
+  "CategoryMaster": 266,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ward LLC",
+  "ExternalName": "Kunde-Kuhlman",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 629,
-  "ReplyTemplate": 624,
-  "NotificationEmail": "sarah_grady@upton.co.uk",
+  "AssignmentLag": 309,
+  "ReplyTemplate": 857,
+  "NotificationEmail": "lamont_goyette@huels.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 616,
+  "EffectiveReplyTemplateId": 514,
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "qui"
+    "CustomFields1": "sed",
+    "CustomFields2": "beatae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 244
     }
   }
 }

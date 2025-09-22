@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 223,
-    "ColumnId": 270,
-    "FieldDefault": "libero",
-    "FieldHeight": 970,
-    "FieldLabel": "itaque",
-    "FieldLeft": 179,
-    "FieldTop": 929,
+    "UDefFieldId": 367,
+    "ColumnId": 680,
+    "FieldDefault": "illum",
+    "FieldHeight": 266,
+    "FieldLabel": "id",
+    "FieldLeft": 526,
+    "FieldTop": 262,
     "FieldType": "Checkbox",
-    "FieldWidth": 695,
-    "FormatMask": "dolor",
-    "HideLabel": true,
+    "FieldWidth": 458,
+    "FormatMask": "dolores",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 579,
-    "LabelLeft": 7,
-    "LabelTop": 532,
-    "LabelWidth": 897,
-    "LastVersionId": 441,
-    "ListTableId": 43,
+    "LabelHeight": 982,
+    "LabelLeft": 841,
+    "LabelTop": 913,
+    "LabelWidth": 415,
+    "LastVersionId": 710,
+    "ListTableId": 941,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 490,
-    "ProgId": "autem",
+    "Page1LineNo": 145,
+    "ProgId": "inventore",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 920,
-    "TextLength": 547,
-    "Tooltip": "officia",
-    "UdefIdentity": 827,
-    "UDListDefinitionId": 645,
+    "ShortLabel": "et",
+    "TabOrder": 660,
+    "TextLength": 1000,
+    "Tooltip": "maiores",
+    "UdefIdentity": 634,
+    "UDListDefinitionId": 908,
     "Justification": "Center",
-    "Version": 250,
-    "TemplateVariableName": "Fahey-Hudson",
-    "HasBeenPublished": false,
-    "MdoListName": "Stokes Inc and Sons",
+    "Version": 121,
+    "TemplateVariableName": "Moore, Jones and Renner",
+    "HasBeenPublished": true,
+    "MdoListName": "Schiller-Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   }

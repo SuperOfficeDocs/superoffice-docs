@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 523,
-  "Name": "Tillman LLC",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 310,
-  "UdListDefinitionId": 562
+  "HeadingId": 218,
+  "Name": "Kovacek-Stehr",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 514,
+  "UdListDefinitionId": 195
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Swaniawski, Schmidt and Emard",
-  "Tooltip": "inventore",
+  "HeadingId": 657,
+  "Name": "Wolff-Funk",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 418,
-  "UdListDefinitionId": 62,
+  "Rank": 874,
+  "UdListDefinitionId": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 150
     }
   }
 }

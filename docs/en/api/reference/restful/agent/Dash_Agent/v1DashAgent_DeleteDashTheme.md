@@ -26,7 +26,7 @@ Deletes the DashTheme
 | dashThemeId | int32 | **Required** The identity of the DashTheme |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=361
+POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=747
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

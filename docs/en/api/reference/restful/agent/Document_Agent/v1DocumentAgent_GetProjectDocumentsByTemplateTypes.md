@@ -99,17 +99,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 480,
-  "StartTime": "2022-03-05T03:46:54.6132622+01:00",
-  "EndTime": "2019-08-01T03:46:54.6132622+02:00",
-  "Count": 234,
+  "ProjectId": 583,
+  "StartTime": "2024-06-09T11:24:47.9376639+02:00",
+  "EndTime": "2005-01-11T11:24:47.9376639+01:00",
+  "Count": 400,
   "DocumentTemplateIds": [
-    503,
-    957
+    247,
+    826
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 865,
-    "Attention": "exercitationem",
-    "Header": "ea",
-    "Name": "Hayes-Kuhlman",
-    "OurRef": "voluptates",
-    "YourRef": "magnam",
-    "Description": "Distributed directional knowledge base",
-    "DocumentTemplate": "vel",
+    "DocumentId": 880,
+    "Attention": "fugit",
+    "Header": "voluptatem",
+    "Name": "Koelpin Inc and Sons",
+    "OurRef": "ut",
+    "YourRef": "nihil",
+    "Description": "Versatile didactic alliance",
+    "DocumentTemplate": "deserunt",
     "IsPublished": true,
-    "PersonId": 163,
-    "PersonFullName": "Catharine Konopelski DDS",
-    "AssociateFullName": "Ms. Javonte Deonte Bauch PhD",
-    "ContactId": 710,
-    "ContactName": "Okuneva-Stanton",
-    "ProjectId": 388,
-    "ProjectName": "Kassulke, Lind and Wyman",
-    "AssociateId": 771,
-    "Snum": 553,
-    "SaleId": 478,
-    "SaleName": "Windler-Swaniawski",
+    "PersonId": 204,
+    "PersonFullName": "Prof. Rodrick Kathlyn Streich",
+    "AssociateFullName": "Daryl Schmeler",
+    "ContactId": 717,
+    "ContactName": "Walter, Ledner and Hermann",
+    "ProjectId": 86,
+    "ProjectName": "Bogan-Mosciski",
+    "AssociateId": 800,
+    "Snum": 155,
+    "SaleId": 72,
+    "SaleName": "Renner, Funk and Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 816
       }
     }
   }

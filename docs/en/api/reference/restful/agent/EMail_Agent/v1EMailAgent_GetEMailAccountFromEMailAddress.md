@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "occaecati"
+  "FromAddress": "eos"
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 715,
-  "EMailAddress": "voluptas",
-  "AssociateId": 465,
+  "EMailAccountId": 129,
+  "EMailAddress": "et",
+  "AssociateId": 280,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 120,
-  "ErrorCount": 887,
+  "AccountStatus": 958,
+  "ErrorCount": 920,
   "ErrorReason": "",
-  "InboxFolder": "quasi",
-  "SentFolder": "repellendus",
-  "SimpleMode": 917,
-  "LastFetch": "2008-06-21T03:46:54.7538824+02:00",
+  "InboxFolder": "et",
+  "SentFolder": "deserunt",
+  "SimpleMode": 459,
+  "LastFetch": "2014-07-09T11:24:48.0626591+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

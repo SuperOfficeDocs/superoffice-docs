@@ -28,7 +28,7 @@ This table supports Soft Delete; records will be marked as deleted and disappear
 | personEntityId | int32 | **Required** The identity of the PersonEntity |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=993
+POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=671
 ```
 
 
@@ -59,7 +59,7 @@ No Content
 POST /api/v1/Agents/Person/DeletePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

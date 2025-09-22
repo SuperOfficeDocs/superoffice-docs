@@ -109,47 +109,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nader-Kutch",
-  "ProviderName": "Jenkins, Gleason and Gutkowski",
+  "GuiName": "Gutkowski, Stamm and Sipes",
+  "ProviderName": "Koelpin, Berge and Rogahn",
   "SortOrder": [
     {
-      "Name": "Ortiz-Goyette",
+      "Name": "Mosciski-Bernhard",
       "Direction": "ASC"
     },
     {
-      "Name": "Ortiz-Goyette",
+      "Name": "Mosciski-Bernhard",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Shanahan, Quitzon and Kertzmann",
-      "Operator": "qui",
+      "Name": "Hane LLC",
+      "Operator": "assumenda",
       "Values": [
-        "rerum",
-        "sit"
+        "earum",
+        "aut"
       ],
       "DisplayValues": [
-        "officia",
-        "et"
+        "eum",
+        "culpa"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 403,
       "InterOperator": "And",
-      "UniqueHash": 22
+      "UniqueHash": 548
     }
   ],
   "Entities": [
-    "et",
-    "praesentium"
+    "aliquam",
+    "quaerat"
   ],
-  "Page": 336,
-  "PageSize": 562
+  "Page": 914,
+  "PageSize": 626
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Fritsch, Kihn and Hoeger",
-    "PrimaryKey": 395,
+    "EntityName": "Kertzmann-Schiller",
+    "PrimaryKey": 970,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ut",
-        "TooltipHint": "repellat",
-        "LinkHint": "sit"
+        "DisplayValue": "quia",
+        "TooltipHint": "est",
+        "LinkHint": "incidunt"
       }
     },
-    "LinkHint": "ipsam",
-    "StyleHint": "repellendus",
+    "LinkHint": "quis",
+    "StyleHint": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

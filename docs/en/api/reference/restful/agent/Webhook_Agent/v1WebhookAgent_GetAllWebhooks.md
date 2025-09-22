@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Prohaska Group",
-  "EventFilter": "est",
+  "NameFilter": "Schaden, Jacobson and Zboncak",
+  "EventFilter": "autem",
   "StatusFilter": "Active"
 }
 ```
@@ -107,28 +107,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 112,
-    "Name": "Stamm Inc and Sons",
+    "WebhookId": 916,
+    "Name": "Sanford-Lakin",
     "Events": [
-      "itaque",
-      "expedita"
+      "dolor",
+      "eius"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "occaecati",
+    "Secret": "dolorum",
     "State": "Active",
-    "Type": "quam",
+    "Type": "ut",
     "Headers": {
-      "Headers1": "est",
-      "Headers2": "magnam"
+      "Headers1": "cumque",
+      "Headers2": "pariatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2005-12-18T03:46:55.6444757+01:00",
+    "Registered": "2005-09-28T11:24:48.9688719+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2012-12-01T03:46:55.6444757+01:00",
+    "Updated": "2021-02-17T11:24:48.9688719+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "kaitlin@mckenzie.com"
+    "ErrorsEmail": "merritt_tremblay@keeling.com"
   }
 ]
 ```

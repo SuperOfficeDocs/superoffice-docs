@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 567
+  "SuggestedDocumentId": 770
 }
 ```
 
@@ -122,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 862,
+  "DocumentId": 426,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "omnis",
-  "Header": "omnis",
-  "Name": "Greenfelder-Dickinson",
-  "OurRef": "dolores",
-  "YourRef": "velit",
-  "CreatedDate": "2018-05-22T03:46:54.6913844+02:00",
-  "UpdatedDate": "1998-06-21T03:46:54.6913844+02:00",
-  "Description": "Front-line transitional pricing structure",
+  "Attention": "id",
+  "Header": "qui",
+  "Name": "Stanton Inc and Sons",
+  "OurRef": "veniam",
+  "YourRef": "sit",
+  "CreatedDate": "2010-10-04T11:24:48.0157858+02:00",
+  "UpdatedDate": "2012-06-23T11:24:48.0157858+02:00",
+  "Description": "Seamless well-modulated definition",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-01-09T03:46:54.6913844+01:00",
-  "ExternalRef": "mollitia",
+  "Date": "2011-01-27T11:24:48.0157858+01:00",
+  "ExternalRef": "beatae",
   "Completed": "Completed",
-  "ActiveLinks": 682,
+  "ActiveLinks": 364,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jacobs Group",
-      "Id": 290,
-      "Description": "Diverse reciprocal monitoring",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 721,
+      "EntityName": "Spinka-Mohr",
+      "Id": 467,
+      "Description": "Reverse-engineered neutral service-desk",
+      "ExtraInfo": "dolor",
+      "LinkId": 340,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 522,
-  "Snum": 628,
+  "SuggestedDocumentId": 30,
+  "Snum": 317,
   "UserDefinedFields": {
-    "SuperOffice:1": "Thomas Johns",
-    "SuperOffice:2": "795172046"
+    "SuperOffice:1": "Baron Cummerata MD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "autem",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2012-01-03T03:46:54.6913844+01:00",
-  "PublishTo": "2020-02-16T03:46:54.6913844+01:00",
-  "PublishFrom": "2023-11-20T03:46:54.6913844+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-08-03T11:24:48.0157858+02:00",
+  "PublishTo": "2024-11-06T11:24:48.0157858+01:00",
+  "PublishFrom": "1999-05-26T11:24:48.0157858+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 534,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 999
     }
   }
 }

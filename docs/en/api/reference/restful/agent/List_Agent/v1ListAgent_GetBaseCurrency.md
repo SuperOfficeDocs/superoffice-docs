@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 817,
-  "Name": "Wisoky LLC",
-  "Tooltip": "ab",
-  "Rank": 811,
-  "Rate": 12225.734,
-  "Units": 8229.884,
-  "Deleted": false,
+  "CurrencyId": 408,
+  "Name": "Nolan Group",
+  "Tooltip": "aliquam",
+  "Rank": 151,
+  "Rate": 30735.138,
+  "Units": 3152.804,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 603
     }
   }
 }

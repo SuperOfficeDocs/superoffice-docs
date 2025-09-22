@@ -69,29 +69,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 125,
-  "NumDocumentsAlreadyMigrated": 717,
+  "NumDocumentsOmitted": 234,
+  "NumDocumentsAlreadyMigrated": 784,
   "Documents": [
     {
-      "DocumentId": 552,
-      "ContactId": 99,
-      "PersonId": 947,
-      "SaleId": 776,
-      "ProjectId": 959,
-      "DocTmplId": 750,
-      "AssociateId": 926,
-      "UserGroupId": 691,
-      "VisibleForId": 424
+      "DocumentId": 85,
+      "ContactId": 220,
+      "PersonId": 924,
+      "SaleId": 734,
+      "ProjectId": 26,
+      "DocTmplId": 169,
+      "AssociateId": 801,
+      "UserGroupId": 673,
+      "VisibleForId": 948
     }
   ],
   "Associates": [
     {
-      "AssociateId": 348,
-      "EmailAddress": "bailee.davis@mullerschaefer.uk"
+      "AssociateId": 615,
+      "EmailAddress": "landen_leffler@bernhardrempel.ca"
     },
     {
-      "AssociateId": 348,
-      "EmailAddress": "bailee.davis@mullerschaefer.uk"
+      "AssociateId": 615,
+      "EmailAddress": "landen_leffler@bernhardrempel.ca"
     }
   ]
 }

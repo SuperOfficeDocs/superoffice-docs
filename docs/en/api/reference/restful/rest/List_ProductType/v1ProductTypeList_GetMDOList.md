@@ -28,7 +28,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=sequi
+GET /api/v1/List/ProductType/MDOItems?query=consectetur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "McClure-Lemke",
-    "ToolTip": "Doloribus dignissimos sit iste.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "quod",
+    "Id": 500,
+    "Name": "D'Amore-Witting",
+    "ToolTip": "Beatae qui expedita qui consequatur possimus qui possimus.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Raynor, Balistreri and Wunsch",
-        "ToolTip": "Sit aperiam labore rerum corrupti voluptatem perspiciatis et.",
-        "Deleted": true,
-        "Rank": 493,
-        "Type": "dolores",
+        "Id": 982,
+        "Name": "Metz, Marks and Labadie",
+        "ToolTip": "Non voluptatem.",
+        "Deleted": false,
+        "Rank": 4,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 80,
-        "ExtraInfo": "beatae",
-        "StyleHint": "id",
-        "FullName": "Cedrick Eichmann",
+        "IconHint": "quisquam",
+        "ColorBlock": 423,
+        "ExtraInfo": "et",
+        "StyleHint": "nisi",
+        "FullName": "Mrs. Jeromy McClure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 808
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 439,
-    "ExtraInfo": "totam",
-    "StyleHint": "numquam",
-    "FullName": "Mr. Coralie Welch",
+    "IconHint": "nulla",
+    "ColorBlock": 534,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "consequuntur",
+    "FullName": "Arne Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 260
       }
     }
   }

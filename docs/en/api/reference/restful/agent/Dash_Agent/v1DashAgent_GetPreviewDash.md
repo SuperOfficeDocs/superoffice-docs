@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 589
+  "DashboardId": 53
 }
 ```
 
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 418,
-  "Name": "Hermiston-Oberbrunner",
-  "Description": "Virtual optimal help-desk",
-  "OwnedByFullName": "Emmitt Rice",
-  "Registered": "2019-10-28T03:46:54.6132622+01:00",
+  "DashboardId": 590,
+  "Name": "Roob-Leuschke",
+  "Description": "Ameliorated homogeneous concept",
+  "OwnedByFullName": "Reggie Kemmer",
+  "Registered": "2002-03-29T11:24:47.8751665+01:00",
   "Tiles": [
     {
-      "Name": "Krajcik, Block and McCullough",
+      "Name": "McClure-Williamson",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     },
     {
-      "Name": "Krajcik, Block and McCullough",
+      "Name": "McClure-Williamson",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldLength": 401
     }
   }
 }

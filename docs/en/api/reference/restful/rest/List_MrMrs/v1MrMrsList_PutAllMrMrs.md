@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Haley-Lemke",
-    "Tooltip": "sed",
+    "Id": 538,
+    "Name": "Thiel, Bogisich and Hermiston",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 247
+    "UdListDefinitionId": 62,
+    "Rank": 567
   },
   {
-    "Id": 9,
-    "Name": "Haley-Lemke",
-    "Tooltip": "sed",
+    "Id": 538,
+    "Name": "Thiel, Bogisich and Hermiston",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 247
+    "UdListDefinitionId": 62,
+    "Rank": 567
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Pacocha LLC",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "UdListDefinitionId": 452,
-    "Rank": 415,
+    "Id": 694,
+    "Name": "Barrows, Carroll and Vandervort",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "UdListDefinitionId": 312,
+    "Rank": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldLength": 546
       }
     }
   }

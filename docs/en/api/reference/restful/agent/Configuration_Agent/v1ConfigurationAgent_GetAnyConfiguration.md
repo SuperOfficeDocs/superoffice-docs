@@ -78,10 +78,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "accusamus",
-  "Instance": "saepe",
-  "Item": "id",
-  "Type": "est"
+  "Application": "et",
+  "Instance": "similique",
+  "Item": "ipsum",
+  "Type": "id"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsum"
+"iste"
 ```

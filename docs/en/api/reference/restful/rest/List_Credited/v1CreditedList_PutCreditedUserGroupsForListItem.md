@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Howe, West and Corwin",
-    "ToolTip": "Ducimus unde.",
-    "Deleted": false,
-    "Rank": 277,
-    "Type": "debitis",
-    "ColorBlock": 453,
-    "IconHint": "culpa",
+    "Id": 796,
+    "Name": "Bins Group",
+    "ToolTip": "Autem similique est aut.",
+    "Deleted": true,
+    "Rank": 754,
+    "Type": "consequatur",
+    "ColorBlock": 973,
+    "IconHint": "eligendi",
     "Selected": true,
-    "LastChanged": "2005-02-02T03:47:00.628674+01:00",
+    "LastChanged": "1999-07-24T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Klocko LLC",
-        "ToolTip": "Beatae provident aperiam fugiat qui.",
+        "Id": 197,
+        "Name": "Howe-Kub",
+        "ToolTip": "Modi accusamus.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "minus",
-        "ColorBlock": 731,
+        "Rank": 979,
+        "Type": "qui",
+        "ColorBlock": 6,
         "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2001-04-17T03:47:00.628674+02:00",
+        "LastChanged": "2016-02-11T11:24:53.9061703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Bo Bauch"
+        "ExtraInfo": "tempore",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Dr. Jayson Howell"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "qui",
+    "ExtraInfo": "velit",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Luisa Anderson"
+    "FullName": "Dr. Adela O'Kon"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "O'Conner, Maggio and Brakus",
-    "ToolTip": "Magnam ducimus eum laborum voluptates deleniti.",
+    "Id": 378,
+    "Name": "Gislason-Grady",
+    "ToolTip": "Repudiandae est.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "laudantium",
-    "ColorBlock": 601,
-    "IconHint": "magnam",
+    "Rank": 105,
+    "Type": "ex",
+    "ColorBlock": 338,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2012-08-09T03:47:00.628674+02:00",
+    "LastChanged": "2006-09-22T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Little, Franecki and Hauck",
-        "ToolTip": "Voluptate dolorum culpa repellat repudiandae temporibus voluptas.",
-        "Deleted": true,
-        "Rank": 344,
-        "Type": "consequatur",
-        "ColorBlock": 353,
-        "IconHint": "occaecati",
+        "Id": 424,
+        "Name": "Abbott-Bednar",
+        "ToolTip": "Autem porro sed ut et ut similique.",
+        "Deleted": false,
+        "Rank": 957,
+        "Type": "voluptates",
+        "ColorBlock": 826,
+        "IconHint": "dicta",
         "Selected": true,
-        "LastChanged": "2010-03-03T03:47:00.628674+01:00",
+        "LastChanged": "2000-06-18T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "rem",
+        "ExtraInfo": "similique",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Lucio Cole",
+        "FullName": "Mrs. Simeon Hayes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldType": "System.String",
+            "FieldLength": 989
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Maurine Barrows",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Edythe Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 514,
+  "ErpConnectionId": 500,
   "ActorType": "Customer"
 }
 ```
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 206,
-  "IsActive": false,
+  "ErpConnectionId": 348,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 969,
-      "CrmFieldKey": "cum",
-      "CrmDisplayName": "Hodkiewicz-Davis",
-      "CrmDisplayTooltip": "in",
-      "ErpFieldKey": "quaerat",
+      "ErpFieldId": 561,
+      "CrmFieldKey": "aperiam",
+      "CrmDisplayName": "Harvey-Thompson",
+      "CrmDisplayTooltip": "est",
+      "ErpFieldKey": "ea",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Heller, Torp and Cremin",
-      "ErpDisplayTooltip": "omnis",
+      "ErpDisplayName": "Schmitt Inc and Sons",
+      "ErpDisplayTooltip": "ducimus",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": true,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "dolore",
+      "ListReference": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 937
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

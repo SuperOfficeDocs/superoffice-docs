@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 241,
-    "Name": "Gutkowski-Kulas",
-    "Tooltip": "molestiae",
+    "HeadingId": 909,
+    "Name": "Adams LLC",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 243,
+    "Rank": 323,
+    "UdListDefinitionId": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldType": "System.String",
+        "FieldLength": 768
       }
     }
   }

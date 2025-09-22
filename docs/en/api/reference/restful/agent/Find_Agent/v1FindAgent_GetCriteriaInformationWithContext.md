@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Beier, Powlowski and Nikolaus",
-  "StorageKey": "voluptas",
+  "StorageType": "sit",
+  "ProviderName": "Rau Group",
+  "StorageKey": "hic",
   "StaticColumns": [
-    "omnis",
-    "enim"
+    "accusantium",
+    "consequuntur"
   ],
-  "Context": "consequatur"
+  "Context": "et"
 }
 ```
 
@@ -107,81 +107,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Feeney-Dare",
-      "Operator": "illum",
+      "Name": "Smitham, Leannon and Douglas",
+      "Operator": "in",
       "Values": [
-        "ipsam",
-        "alias"
+        "deserunt",
+        "quasi"
       ],
       "DisplayValues": [
-        "consequuntur",
-        "architecto"
+        "non",
+        "dolor"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 922,
+      "InterParenthesis": 751,
       "InterOperator": "And",
-      "UniqueHash": 557
+      "UniqueHash": 920
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grant LLC",
-      "DisplayTooltip": "qui",
-      "DisplayType": "minus",
+      "DisplayName": "Brown, Moore and Zieme",
+      "DisplayTooltip": "eos",
+      "DisplayType": "consequuntur",
       "CanOrderBy": false,
-      "Name": "Bauch-Thompson",
+      "Name": "Quigley, Gottlieb and Cummings",
       "CanRestrictBy": false,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Emmerich, Deckow and Mertz",
+      "RestrictionType": "optio",
+      "RestrictionListName": "Gutkowski-Braun",
       "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "vel",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "quia",
+      "Width": "qui",
+      "IconHint": "aperiam",
+      "HeadingIconHint": "placeat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Harris, Bernier and Herman",
-      "PrimaryKey": 998,
+      "EntityName": "Kreiger-Wolf",
+      "PrimaryKey": 373,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ad",
-          "TooltipHint": "optio",
-          "LinkHint": "dolores"
+          "DisplayValue": "sint",
+          "TooltipHint": "sunt",
+          "LinkHint": "sit"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "sed",
+      "LinkHint": "esse",
+      "StyleHint": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldType": "System.Int32",
+          "FieldLength": 184
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Haley Inc and Sons",
+      "Description": "Proactive mission-critical project",
+      "Rank": 283,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Haley Inc and Sons",
+      "Description": "Proactive mission-critical project",
+      "Rank": 283,
       "Restrictions": [
         {},
         {}
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 415
     }
   }
 }

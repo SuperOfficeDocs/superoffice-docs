@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 711,
+  "ProjectEntityId": 387,
   "MemberIds": [
-    166,
-    850
+    242,
+    367
   ]
 }
 ```

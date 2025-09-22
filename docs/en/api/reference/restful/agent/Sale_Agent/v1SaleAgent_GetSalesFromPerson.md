@@ -103,7 +103,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
+  "PersonId": 853,
   "OnlyOpenSales": true
 }
 ```
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Breitenberg LLC",
-    "SaleDate": "2004-11-28T03:46:55.285132+01:00",
-    "SaleId": 350,
-    "Probability": 857,
-    "Title": "ad",
-    "Amount": 10762.155999999999,
-    "Currency": "illo",
-    "ProjectName": "Johns-Bechtelar",
-    "AssociateFullName": "Melvina White",
-    "Description": "Customizable clear-thinking flexibility",
+    "ContactName": "Heller Group",
+    "SaleDate": "2010-05-21T11:24:48.5939056+02:00",
+    "SaleId": 548,
+    "Probability": 436,
+    "Title": "ea",
+    "Amount": 2532.272,
+    "Currency": "voluptas",
+    "ProjectName": "Ernser-Smitham",
+    "AssociateFullName": "Damion Pacocha",
+    "Description": "Public-key static synergy",
     "Status": "Lost",
-    "WeightedAmount": 25908.778,
-    "ProjectId": 159,
-    "EarningPercent": 13695.58,
-    "Earning": 607.996,
-    "ContactId": 395,
-    "AssociateId": 373,
-    "PersonId": 573,
-    "SaleTypeId": 758,
-    "SaleTypeName": "Heidenreich Group",
-    "PersonFullName": "Eva DuBuque",
+    "WeightedAmount": 2836.27,
+    "ProjectId": 198,
+    "EarningPercent": 7158.056,
+    "Earning": 266.39,
+    "ContactId": 653,
+    "AssociateId": 436,
+    "PersonId": 167,
+    "SaleTypeId": 911,
+    "SaleTypeName": "Robel Group",
+    "PersonFullName": "Adolphus Blanda",
     "Completed": "Completed",
-    "ActiveErpLinks": 945,
-    "NextDueDate": "2014-03-18T03:46:55.285132+01:00",
-    "Number": "1014967",
+    "ActiveErpLinks": 527,
+    "NextDueDate": "2019-01-11T11:24:48.5939056+01:00",
+    "Number": "889131",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 2
       }
     }
   }

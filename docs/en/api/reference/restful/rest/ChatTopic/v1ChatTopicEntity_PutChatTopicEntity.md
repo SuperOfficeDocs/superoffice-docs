@@ -140,41 +140,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 39,
-  "Name": "Kemmer, Gaylord and Thompson",
-  "Description": "Cloned cohesive data-warehouse",
-  "WelcomeMessage": "itaque",
+  "ChatTopicId": 448,
+  "Name": "Schneider, Schaefer and Bashirian",
+  "Description": "Innovative assymetric attitude",
+  "WelcomeMessage": "modi",
   "Language": null,
-  "LastAccept": "2022-08-20T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 70,
-  "AlertRecipient": "quod",
+  "LastAccept": "2015-07-02T11:24:53.0624548+02:00",
+  "SecondsPrAccept": 489,
+  "AlertRecipient": "delectus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptatem",
+  "BadgeHeader": "id",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sit",
-  "WarnNewChatMinutes": 574,
-  "WarnManagerNewChatMinutes": 577,
+  "CustomQueueText": "culpa",
+  "WarnNewChatMinutes": 409,
+  "WarnManagerNewChatMinutes": 556,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 879,
-  "WarnManagerChatMessageMinutes": 288,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 105,
+  "WarnManagerChatMessageMinutes": 652,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 490,
-  "OfflineFormQueueLength": 676,
+  "OfflineFormTimeLimit": 417,
+  "OfflineFormQueueLength": 820,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et"
+  "WidgetRatingText": "iure"
 }
 ```
 
@@ -185,48 +185,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 64,
-  "Name": "Nikolaus, Berge and Bayer",
-  "Description": "Reverse-engineered national implementation",
-  "WelcomeMessage": "eligendi",
+  "ChatTopicId": 377,
+  "Name": "Halvorson-Stamm",
+  "Description": "Polarised transitional groupware",
+  "WelcomeMessage": "officiis",
   "Language": null,
-  "LastAccept": "2010-11-14T03:46:59.8005718+01:00",
-  "SecondsPrAccept": 852,
-  "AlertRecipient": "aut",
+  "LastAccept": "2015-05-31T11:24:53.0624548+02:00",
+  "SecondsPrAccept": 395,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "et",
+  "CollectConsent": true,
+  "BadgeHeader": "vitae",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 273,
-  "WarnManagerNewChatMinutes": 501,
-  "TicketEnabled": true,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 448,
+  "WarnManagerNewChatMinutes": 30,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 983,
-  "WarnManagerChatMessageMinutes": 325,
+  "WarnChatMessageMinutes": 208,
+  "WarnManagerChatMessageMinutes": 484,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 422,
-  "OfflineFormQueueLength": 750,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "recusandae",
+  "OfflineFormTimeLimit": 813,
+  "OfflineFormQueueLength": 752,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 468
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

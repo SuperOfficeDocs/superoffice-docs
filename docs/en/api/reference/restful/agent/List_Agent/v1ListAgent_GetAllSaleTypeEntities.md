@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -111,53 +111,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 709,
-    "Name": "Lemke LLC",
-    "Tooltip": "quia",
-    "Rank": 51,
+    "SaleTypeId": 454,
+    "Name": "Dicki Inc and Sons",
+    "Tooltip": "iusto",
+    "Rank": 823,
     "DurationUnit": "Century",
-    "SaleDuration": 893,
-    "SaleTypeCatId": 150,
+    "SaleDuration": 455,
+    "SaleTypeCatId": 459,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "HasGuide": true,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 165,
-    "QuoteLinesTemplate": 880,
-    "ConfirmationLinesTemplate": 936,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 846,
+    "QuoteLinesTemplate": 900,
+    "ConfirmationLinesTemplate": 82,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 833,
+    "MaxDiscountPercent": 665,
     "MinEarningPercent": 573,
-    "GroupQuoteLinesBy": 876,
-    "SortGroupLinesBy": 110,
+    "GroupQuoteLinesBy": 265,
+    "SortGroupLinesBy": 268,
     "Stages": [
       {
-        "Id": 165,
-        "Name": "O'Connell, VonRueden and Parisian",
-        "ToolTip": "Nihil est quidem sit aut.",
-        "Deleted": true,
-        "Rank": 582,
-        "Type": "omnis",
-        "ColorBlock": 74,
-        "IconHint": "molestias",
+        "Id": 130,
+        "Name": "Boehm, Kulas and Becker",
+        "ToolTip": "Necessitatibus molestias et earum soluta corrupti impedit.",
+        "Deleted": false,
+        "Rank": 748,
+        "Type": "similique",
+        "ColorBlock": 901,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2012-03-02T03:46:54.9413809+01:00",
+        "LastChanged": "2014-04-17T11:24:48.2032781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Sylvan Luettgen",
+        "ExtraInfo": "dolores",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Michael Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldType": "System.Int32",
+            "FieldLength": 612
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 746
       }
     }
   }

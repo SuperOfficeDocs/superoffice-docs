@@ -26,7 +26,7 @@ Deletes the DashTileDefinition
 | dashTileDefinitionId | int32 | **Required** The identity of the DashTileDefinition |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=253
+POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=588
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

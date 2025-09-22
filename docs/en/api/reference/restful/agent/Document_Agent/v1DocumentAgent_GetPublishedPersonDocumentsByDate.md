@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 495,
+  "PersonId": 893,
   "IncludeProjectDocuments": false,
-  "StartTime": "2005-11-23T03:46:54.6132622+01:00",
-  "EndTime": "2004-03-21T03:46:54.6132622+01:00",
-  "Count": 67
+  "StartTime": "2000-02-05T11:24:47.8751665+01:00",
+  "EndTime": "2021-08-10T11:24:47.8751665+02:00",
+  "Count": 779
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 132,
-    "Attention": "sint",
-    "Header": "eos",
-    "Name": "Fay-Skiles",
-    "OurRef": "eaque",
-    "YourRef": "blanditiis",
-    "Description": "Vision-oriented 24 hour circuit",
-    "DocumentTemplate": "et",
+    "DocumentId": 586,
+    "Attention": "ab",
+    "Header": "ut",
+    "Name": "Krajcik, Ernser and VonRueden",
+    "OurRef": "non",
+    "YourRef": "iure",
+    "Description": "Secured optimal infrastructure",
+    "DocumentTemplate": "adipisci",
     "IsPublished": false,
-    "PersonId": 592,
-    "PersonFullName": "Roosevelt Bartell",
-    "AssociateFullName": "Miss Colleen Reynold Casper II",
-    "ContactId": 553,
-    "ContactName": "Boyer Inc and Sons",
-    "ProjectId": 248,
-    "ProjectName": "Gulgowski, Herman and Morar",
-    "AssociateId": 443,
-    "Snum": 249,
-    "SaleId": 140,
-    "SaleName": "Lynch Inc and Sons",
+    "PersonId": 375,
+    "PersonFullName": "Luther Krajcik",
+    "AssociateFullName": "Alfreda Fisher",
+    "ContactId": 436,
+    "ContactName": "Reynolds, Goodwin and Collins",
+    "ProjectId": 916,
+    "ProjectName": "Friesen, Murray and Moore",
+    "AssociateId": 268,
+    "Snum": 936,
+    "SaleId": 431,
+    "SaleName": "Nienow-Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 764
       }
     }
   }

@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 146,
-  "StartTime": "2010-03-08T03:46:54.6132622+01:00",
-  "EndTime": "2006-03-01T03:46:54.6132622+01:00",
-  "Count": 195,
-  "TemplateHeadingId": 884
+  "ContactId": 152,
+  "StartTime": "2014-10-25T11:24:47.8751665+02:00",
+  "EndTime": "2019-07-17T11:24:47.8751665+02:00",
+  "Count": 742,
+  "TemplateHeadingId": 500
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 315,
-    "Attention": "quisquam",
-    "Header": "qui",
-    "Name": "Rosenbaum, King and Brown",
-    "OurRef": "accusamus",
-    "YourRef": "officiis",
-    "Description": "Adaptive scalable moderator",
-    "DocumentTemplate": "voluptatum",
-    "IsPublished": false,
-    "PersonId": 328,
-    "PersonFullName": "Adelle Towne",
-    "AssociateFullName": "Gillian Moises Padberg I",
-    "ContactId": 378,
-    "ContactName": "Hilpert, Mann and Volkman",
-    "ProjectId": 759,
-    "ProjectName": "Mann Inc and Sons",
-    "AssociateId": 695,
-    "Snum": 857,
-    "SaleId": 642,
-    "SaleName": "Anderson, Yost and Reichert",
+    "DocumentId": 687,
+    "Attention": "sed",
+    "Header": "cum",
+    "Name": "Hauck-Kling",
+    "OurRef": "blanditiis",
+    "YourRef": "in",
+    "Description": "Advanced web-enabled capacity",
+    "DocumentTemplate": "error",
+    "IsPublished": true,
+    "PersonId": 858,
+    "PersonFullName": "Patrick Auer",
+    "AssociateFullName": "Antonetta Welch",
+    "ContactId": 857,
+    "ContactName": "Hilll, Marvin and Hamill",
+    "ProjectId": 441,
+    "ProjectName": "Kessler-Torphy",
+    "AssociateId": 801,
+    "Snum": 210,
+    "SaleId": 855,
+    "SaleName": "Graham Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

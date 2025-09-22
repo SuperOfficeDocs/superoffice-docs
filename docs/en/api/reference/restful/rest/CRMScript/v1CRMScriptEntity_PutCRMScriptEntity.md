@@ -118,52 +118,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 804,
-  "UniqueIdentifier": "suscipit",
-  "Name": "Mitchell, Reinger and Stiedemann",
-  "Description": "Enterprise-wide discrete toolset",
-  "IncludeId": "commodi",
-  "AccessKey": "voluptatibus",
-  "HierarchyId": 741,
-  "Source": "assumenda",
-  "SourceCode": "eius",
+  "EjscriptId": 510,
+  "UniqueIdentifier": "saepe",
+  "Name": "Swaniawski, Gleason and Ruecker",
+  "Description": "Triple-buffered full-range knowledge base",
+  "IncludeId": "voluptas",
+  "AccessKey": "modi",
+  "HierarchyId": 946,
+  "Source": "fugiat",
+  "SourceCode": "dolor",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 592,
+  "HtmlOutput": 478,
   "Includes": [
-    103,
-    551
+    306,
+    736
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 764,
-      "LineNumberTo": 113,
-      "Delta": 47,
-      "IncludeId": "consequatur",
+      "LineNumberFrom": 928,
+      "LineNumberTo": 195,
+      "Delta": 974,
+      "IncludeId": "corrupti",
       "IncludedFrom": [
-        "fuga",
-        "eum"
+        "voluptatem",
+        "magnam"
       ]
     },
     {
-      "LineNumberFrom": 764,
-      "LineNumberTo": 113,
-      "Delta": 47,
-      "IncludeId": "consequatur",
+      "LineNumberFrom": 928,
+      "LineNumberTo": 195,
+      "Delta": 974,
+      "IncludeId": "corrupti",
       "IncludedFrom": [
-        "fuga",
-        "eum"
+        "voluptatem",
+        "magnam"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-07-10T03:46:59.8943184+02:00",
-  "RegisteredAssociateId": 681,
-  "Updated": "2009-03-03T03:46:59.8943184+01:00",
-  "UpdatedAssociateId": 942,
+  "Registered": "1999-10-12T11:24:53.156201+02:00",
+  "RegisteredAssociateId": 980,
+  "Updated": "2013-05-22T11:24:53.156201+02:00",
+  "UpdatedAssociateId": 779,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -175,53 +175,53 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 624,
-  "UniqueIdentifier": "aliquam",
-  "Name": "Powlowski, Dicki and Keeling",
-  "Description": "Business-focused bandwidth-monitored emulation",
-  "IncludeId": "velit",
-  "AccessKey": "fugiat",
-  "HierarchyId": 779,
-  "Source": "fugit",
-  "SourceCode": "sit",
+  "EjscriptId": 311,
+  "UniqueIdentifier": "eos",
+  "Name": "Paucek, Medhurst and Hudson",
+  "Description": "Stand-alone intermediate collaboration",
+  "IncludeId": "in",
+  "AccessKey": "error",
+  "HierarchyId": 439,
+  "Source": "aliquam",
+  "SourceCode": "sunt",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 175,
+  "HtmlOutput": 573,
   "Includes": [
-    365,
-    827
+    54,
+    78
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 814,
-      "LineNumberTo": 28,
-      "Delta": 526,
-      "IncludeId": "dolorum",
+      "LineNumberFrom": 203,
+      "LineNumberTo": 924,
+      "Delta": 544,
+      "IncludeId": "debitis",
       "IncludedFrom": [
-        "et",
-        "et"
+        "eum",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 710
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2004-03-25T03:46:59.8943184+01:00",
-  "RegisteredAssociateId": 322,
-  "Updated": "2005-08-31T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 189,
+  "Registered": "2001-07-06T11:24:53.156201+02:00",
+  "RegisteredAssociateId": 180,
+  "Updated": "2017-10-27T11:24:53.156201+02:00",
+  "UpdatedAssociateId": 889,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 779
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   },
   "_Links": {

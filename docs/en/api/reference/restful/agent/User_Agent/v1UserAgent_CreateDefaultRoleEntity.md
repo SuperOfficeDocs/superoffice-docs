@@ -79,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 488,
-  "Name": "Wisozk LLC",
-  "Tooltip": "ut",
+  "RoleId": 129,
+  "Name": "Graham, Zboncak and Gutmann",
+  "Tooltip": "esse",
   "RoleType": "Anonymous",
-  "Deleted": 2,
-  "Rank": 73,
-  "Created": "2009-03-11T03:46:55.5663534+01:00",
-  "UseCategories": 618,
+  "Deleted": 75,
+  "Rank": 975,
+  "Created": "2020-04-23T11:24:48.8907508+02:00",
+  "UseCategories": 808,
   "CreatedBy": null,
-  "Updated": "2016-09-08T03:46:55.5663534+02:00",
+  "Updated": "2000-05-25T11:24:48.8907508+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

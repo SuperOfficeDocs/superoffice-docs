@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jerde, Ward and Mraz",
+  "UdListDefinitionName": "Yundt-Runolfsdottir",
   "IncludeDeleted": false
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Wolff Group",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 670,
-    "Rank": 336,
+    "Id": 797,
+    "Name": "O'Conner, Raynor and Bailey",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "UdListDefinitionId": 652,
+    "Rank": 988,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 302
       }
     }
   }

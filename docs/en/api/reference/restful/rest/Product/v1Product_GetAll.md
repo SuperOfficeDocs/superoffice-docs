@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=minus
-GET /api/v1/Product?$top=890
-GET /api/v1/Product?$skip=366
+GET /api/v1/Product?$entities=occaecati
+GET /api/v1/Product?$top=433
+GET /api/v1/Product?$skip=866
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=necessitatibus
+GET /api/v1/Product?$context=suscipit
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorum",
+  "odata.nextLink": "ea",
   "value": [
     {
-      "PrimaryKey": 6160,
-      "EntityName": "sale",
-      "saleId": 6160,
-      "contactId": 6194,
-      "name": "Balistreri LLC"
+      "PrimaryKey": 296,
+      "EntityName": "person",
+      "personId": 296,
+      "fullName": "Carleton O'Conner"
     },
     {
-      "PrimaryKey": 3654,
-      "EntityName": "sale",
-      "saleId": 3654,
-      "contactId": 2516,
-      "name": "Armstrong, Jakubowski and Goyette"
+      "PrimaryKey": 1621,
+      "EntityName": "person",
+      "personId": 1621,
+      "fullName": "Nils Marques Denesik III"
     }
   ]
 }

@@ -79,58 +79,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Cassin, Casper and Bartoletti",
+    "Description": "Devolved client-driven projection",
+    "Rank": 634,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Hills-Stracke",
+        "Operator": "officia",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "qui",
+          "voluptas"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "omnis",
+          "inventore"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 921,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 425
       }
     ]
   },
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Cassin, Casper and Bartoletti",
+    "Description": "Devolved client-driven projection",
+    "Rank": 634,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Hills-Stracke",
+        "Operator": "officia",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "qui",
+          "voluptas"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "omnis",
+          "inventore"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 921,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 425
       }
     ]
   }
@@ -145,20 +145,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Miller, Klein and Renner",
+    "Description": "Polarised tertiary framework",
+    "Rank": 170,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Lesch, Bode and Shanahan",
+        "Operator": "necessitatibus",
         "Values": [
-          "cum",
-          "est"
+          "earum",
+          "consequatur"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,27 +166,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 157,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 894
       }
     ]
   },
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Miller, Klein and Renner",
+    "Description": "Polarised tertiary framework",
+    "Rank": 170,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Lesch, Bode and Shanahan",
+        "Operator": "necessitatibus",
         "Values": [
-          "cum",
-          "est"
+          "earum",
+          "consequatur"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -194,9 +194,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 157,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 894
       }
     ]
   }

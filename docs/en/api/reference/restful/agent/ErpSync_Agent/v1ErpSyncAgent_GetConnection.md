@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 10
+  "ErpConnectionId": 818
 }
 ```
 
@@ -102,33 +102,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 218,
-  "ErpConnectorId": 45,
-  "DisplayName": "Gulgowski, Runolfsson and Kertzmann",
-  "DisplayDescription": "User-centric high-level process improvement",
-  "Active": false,
-  "ConnectionId": "cumque",
-  "MostRecentTimestamp": "at",
+  "ErpConnectionId": 288,
+  "ErpConnectorId": 272,
+  "DisplayName": "Watsica LLC",
+  "DisplayDescription": "Horizontal incremental contingency",
+  "Active": true,
+  "ConnectionId": "voluptatem",
+  "MostRecentTimestamp": "deserunt",
   "ConfigFields": {
-    "ConfigFields1": "numquam",
-    "ConfigFields2": "in"
+    "ConfigFields1": "eligendi",
+    "ConfigFields2": "tempore"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    487,
-    441
+    433,
+    699
   ],
   "AssociateAccessIds": [
-    394,
-    386
+    247,
+    345
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

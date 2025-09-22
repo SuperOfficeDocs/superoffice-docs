@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,37 +97,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 543,
-  "Name": "Swift Group",
-  "Tooltip": "consequatur",
-  "SaveInDb": 339,
-  "Filename": "omnis",
-  "DefaultOref": "cumque",
+  "DocumentTemplateId": 888,
+  "Name": "Crooks LLC",
+  "Tooltip": "amet",
+  "SaveInDb": 988,
+  "Filename": "ea",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 66,
-  "IntentId": 911,
+  "AutoeventId": 508,
+  "IntentId": 651,
   "IsDefaultPublished": false,
-  "Rank": 924,
-  "LoadTemplateFromPlugin": 894,
-  "MimeType": "dolorem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 977,
+  "Rank": 88,
+  "LoadTemplateFromPlugin": 982,
+  "MimeType": "eius",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 615,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "taya@kuphal.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "javon.johnston@hauckcruickshank.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ricardo.kautzer@zboncak.us",
+  "SenderEmailAddress": "stefanie.durgan@bernhard.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 924
     }
   }
 }

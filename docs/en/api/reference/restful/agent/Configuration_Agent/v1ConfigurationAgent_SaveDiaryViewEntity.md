@@ -78,39 +78,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 17,
-  "Name": "O'Keefe, Blick and Gibson",
-  "Tooltip": "ut",
-  "VisibleColumns": 533,
-  "Rank": 520,
-  "AssocId": 173,
+  "DiaryViewId": 578,
+  "Name": "Beier Group",
+  "Tooltip": "reprehenderit",
+  "VisibleColumns": 364,
+  "Rank": 223,
+  "AssocId": 604,
   "AssociateList": [
     {
-      "Id": 586,
-      "Name": "Denesik Inc and Sons",
-      "ToolTip": "Hic ut perferendis.",
+      "Id": 217,
+      "Name": "Douglas-Wolff",
+      "ToolTip": "Aliquid voluptatem explicabo officia laborum.",
       "Deleted": false,
-      "Rank": 887,
-      "Type": "impedit",
-      "ColorBlock": 803,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "1999-09-19T03:46:54.4570178+02:00",
+      "Rank": 541,
+      "Type": "cum",
+      "ColorBlock": 383,
+      "IconHint": "dolore",
+      "Selected": false,
+      "LastChanged": "2013-07-13T11:24:47.7189228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Prof. Elbert Bergnaum MD"
+      "ExtraInfo": "tenetur",
+      "StyleHint": "cumque",
+      "Hidden": true,
+      "FullName": "Mrs. Taylor Bradtke"
     }
   ],
-  "TzLocationId": 903
+  "TzLocationId": 206
 }
 ```
 
@@ -121,49 +121,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 843,
-  "Name": "Koelpin, Wolf and Simonis",
-  "Tooltip": "accusamus",
-  "VisibleColumns": 597,
-  "Rank": 476,
-  "AssocId": 522,
+  "DiaryViewId": 763,
+  "Name": "Cormier, Stanton and Pfeffer",
+  "Tooltip": "asperiores",
+  "VisibleColumns": 808,
+  "Rank": 178,
+  "AssocId": 882,
   "AssociateList": [
     {
-      "Id": 636,
-      "Name": "Rutherford, Welch and Toy",
-      "ToolTip": "Ipsa porro atque explicabo possimus aut blanditiis illo.",
+      "Id": 665,
+      "Name": "Aufderhar-Herzog",
+      "ToolTip": "Omnis sapiente.",
       "Deleted": false,
-      "Rank": 472,
-      "Type": "quisquam",
-      "ColorBlock": 56,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "2020-03-07T03:46:54.4570178+01:00",
+      "Rank": 206,
+      "Type": "et",
+      "ColorBlock": 573,
+      "IconHint": "dolores",
+      "Selected": true,
+      "LastChanged": "2024-06-05T11:24:47.7189228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "nam",
+      "ExtraInfo": "unde",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Shanna Pagac",
+      "FullName": "Arvilla Rempel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 325
         }
       }
     }
   ],
-  "TzLocationId": 274,
+  "TzLocationId": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 301
     }
   }
 }

@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "McCullough LLC",
-  "AssociateId": 214,
-  "DetailsTable": 332,
-  "DetailsRecord": 206,
-  "IsSystemTask": false,
+  "Id": 822,
+  "Name": "Thompson-Feest",
+  "AssociateId": 243,
+  "DetailsTable": 111,
+  "DetailsRecord": 725,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "alias",
-    "ParameterObject2": "sequi"
+    "ParameterObject1": "laboriosam",
+    "ParameterObject2": "quis"
   },
-  "LastStarted": "2006-08-06T03:46:55.2382402+02:00",
-  "Created": "2003-04-11T03:46:55.2382402+02:00",
-  "StartCount": 389,
-  "DatabaseSerialNumber": "885264",
-  "Context": "itaque",
-  "Result": "sapiente",
+  "LastStarted": "2004-01-27T11:24:48.5470141+01:00",
+  "Created": "2020-06-19T11:24:48.5470141+02:00",
+  "StartCount": 253,
+  "DatabaseSerialNumber": "1194228",
+  "Context": "corporis",
+  "Result": "amet",
   "State": "All",
-  "Description": "Business-focused 6th generation success",
-  "Response": "nam",
-  "Request": "minus",
-  "ProgressDescription": "Progressive human-resource time-frame",
-  "ProgressPercent": 47,
-  "FileName": "Sanford, Herzog and Fahey",
+  "Description": "Total zero defect intranet",
+  "Response": "aliquam",
+  "Request": "dolorum",
+  "ProgressDescription": "Persistent web-enabled collaboration",
+  "ProgressPercent": 890,
+  "FileName": "Kessler, Swaniawski and Hyatt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

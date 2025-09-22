@@ -92,7 +92,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,36 +102,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 126,
-  "Name": "Hoeger Inc and Sons",
-  "Description": "Mandatory needs-based workforce",
-  "DefaultHeight": 888,
-  "DefaultWidth": 972,
+  "DashboardTileDefinitionId": 263,
+  "Name": "Kling, Wehner and Roberts",
+  "Description": "Cross-group secondary intranet",
+  "DefaultHeight": 540,
+  "DefaultWidth": 966,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kilback, Wilderman and Kreiger",
-  "SelectionId": 629,
+  "EntityName": "Bernier Group",
+  "SelectionId": 107,
   "CurrencyMode": "Base",
-  "CurrencyCode": "fugit",
+  "CurrencyCode": "voluptatum",
   "Measure": "Average",
-  "MeasureField": "deserunt",
-  "SortBy": "in",
-  "LayoutConfig": "soluta",
-  "SecondarySelectionId": 461,
-  "MeasureByField": "sint",
+  "MeasureField": "ea",
+  "SortBy": "sit",
+  "LayoutConfig": "quasi",
+  "SecondarySelectionId": 966,
+  "MeasureByField": "accusantium",
   "Usage": "Dashboard",
-  "ProviderName": "Hayes, Reinger and Veum",
+  "ProviderName": "Maggio-Harvey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 214
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

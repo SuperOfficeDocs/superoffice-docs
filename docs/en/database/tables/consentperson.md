@@ -50,7 +50,7 @@ Link table that defines who has which consents
 |[ConsentPurpose](consentpurpose.md)  |GDPR purpose alternatives |
 |[ConsentSource](consentsource.md)  |Consent source for GDPR |
 |[LegalBase](legalbase.md)  |Legal base for GDPR (Article 6) |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

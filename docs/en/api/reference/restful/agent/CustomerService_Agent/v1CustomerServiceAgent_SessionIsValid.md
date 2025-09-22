@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/SessionIsValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "voluptatum"
+  "CsSessionKey": "consectetur"
 }
 ```
 

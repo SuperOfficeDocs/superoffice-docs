@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 207
+  "AssociateId": 581
 }
 ```
 
@@ -154,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-03-20T03:46:54.2070265+01:00",
-  "AppointmentId": 901,
-  "Description": "Stand-alone local benchmark",
-  "Title": "commodi",
-  "Agenda": "cupiditate",
-  "InternalNotes": "vel",
-  "StartDate": "2023-03-20T03:46:54.2070265+01:00",
-  "EndDate": "2011-07-09T03:46:54.2070265+02:00",
+  "CreatedDate": "2021-09-21T11:24:47.4533128+02:00",
+  "AppointmentId": 796,
+  "Description": "Operative modular workforce",
+  "Title": "veniam",
+  "Agenda": "ut",
+  "InternalNotes": "et",
+  "StartDate": "2021-05-31T11:24:47.4689372+02:00",
+  "EndDate": "2024-09-29T11:24:47.4689372+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 605,
+  "MotherId": 49,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-04T03:46:54.2070265+02:00",
+  "UpdatedDate": "2018-03-30T11:24:47.4689372+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 910,
+  "ActiveLinks": 851,
   "Links": [
     {
-      "EntityName": "Luettgen LLC",
-      "Id": 702,
-      "Description": "Streamlined attitude-oriented focus group",
-      "ExtraInfo": "et",
-      "LinkId": 415,
+      "EntityName": "Wintheiser-Armstrong",
+      "Id": 211,
+      "Description": "Profound zero tolerance secured line",
+      "ExtraInfo": "ab",
+      "LinkId": 891,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 559
         }
       }
     }
   ],
-  "AlarmLeadTime": "fugit",
-  "HasAlarm": false,
-  "ColorIndex": 678,
-  "IsFree": true,
+  "AlarmLeadTime": "cum",
+  "HasAlarm": true,
+  "ColorIndex": 601,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "rerum",
-  "Location": "non",
-  "RejectCounter": 103,
+  "LagTime": "voluptates",
+  "LeadTime": "voluptatem",
+  "Location": "aut",
+  "RejectCounter": 165,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 602,
-      "PersonId": 303,
-      "ContactId": 245,
-      "EmailId": 572,
+      "AssociateId": 106,
+      "PersonId": 112,
+      "ContactId": 342,
+      "EmailId": 948,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lupe@gleason.info",
-      "Description": "Distributed regional protocol"
+      "EmailAddress": "kennedy@kling.biz",
+      "Description": "Customer-focused holistic product"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-03-25T03:46:54.2070265+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2005-09-09T11:24:47.4689372+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 874,
+  "PreferredTZLocation": 391,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 172,
+  "SuggestedAppointmentId": 95,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eligendi",
+  "CentralserviceVideomeetId": "sit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Clark Schumm",
-    "SuperOffice:2": "1679940057"
+    "SuperOffice:1": "847468054",
+    "SuperOffice:2": "Dr. Joel Lindgren"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "est"
+    "ExtraFields1": "est",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "impedit",
+    "CustomFields2": "dolore"
   },
-  "PublishEventDate": "2014-11-24T03:46:54.2070265+01:00",
-  "PublishTo": "2014-12-09T03:46:54.2070265+01:00",
-  "PublishFrom": "2007-06-12T03:46:54.2070265+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-05-21T11:24:47.4689372+02:00",
+  "PublishTo": "2017-07-03T11:24:47.4689372+02:00",
+  "PublishFrom": "2025-07-02T11:24:47.4689372+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 822,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     },
     {
-      "VisibleId": 822,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 619
         }
       }
     }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

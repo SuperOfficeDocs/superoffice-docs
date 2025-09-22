@@ -165,15 +165,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quo",
-  "ProviderName": "Ruecker, Goldner and Frami",
-  "DesiredColumns": "voluptas",
-  "PageSize": 156,
-  "PageNumber": 407
+  "Restrictions": "ea",
+  "ProviderName": "Wilderman-Labadie",
+  "DesiredColumns": "error",
+  "PageSize": 970,
+  "PageNumber": 9
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Walter LLC",
-      "DisplayTooltip": "aperiam",
-      "DisplayType": "sed",
-      "CanOrderBy": true,
-      "Name": "Hudson LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "consectetur",
-      "RestrictionListName": "Haley, Kunze and Kassulke",
-      "IsVisible": false,
-      "ExtraInfo": "alias",
-      "Width": "dignissimos",
-      "IconHint": "nam",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Treutel, Tromp and Medhurst",
+      "DisplayTooltip": "excepturi",
+      "DisplayType": "alias",
+      "CanOrderBy": false,
+      "Name": "O'Keefe Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "natus",
+      "RestrictionListName": "Conroy LLC",
+      "IsVisible": true,
+      "ExtraInfo": "beatae",
+      "Width": "iusto",
+      "IconHint": "quia",
+      "HeadingIconHint": "atque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bashirian-Kulas",
-      "PrimaryKey": 543,
+      "EntityName": "Doyle, Schuppe and Konopelski",
+      "PrimaryKey": 861,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "illo",
-          "LinkHint": "voluptas"
+          "DisplayValue": "recusandae",
+          "TooltipHint": "tenetur",
+          "LinkHint": "asperiores"
         }
       },
-      "LinkHint": "id",
-      "StyleHint": "et",
+      "LinkHint": "odit",
+      "StyleHint": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 334
         }
       }
     }
   ],
-  "RowCount": 661,
+  "RowCount": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldType": "System.Int32",
+      "FieldLength": 211
     }
   }
 }

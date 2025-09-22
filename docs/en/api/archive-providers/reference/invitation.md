@@ -751,7 +751,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=registeredBy,contact/code,person/firstName,person/personDirectFax/description,person/correspondingAssociate/otherGroups
+GET /api/v1/archive/Invitation?$select=contact/postAddress/formattedMultiLineAddress,contact/contactAssociate/contactId,contact/contactAssociate/title,project/projectAssociate/usergroup,sale/associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

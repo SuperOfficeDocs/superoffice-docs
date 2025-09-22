@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Haley Inc and Sons",
-    "ToolTip": "Voluptatum totam rerum vel provident.",
+    "Id": 620,
+    "Name": "Stamm-Schimmel",
+    "ToolTip": "Id qui itaque aliquam sit.",
     "Deleted": false,
-    "Rank": 775,
-    "Type": "et",
-    "ColorBlock": 232,
-    "IconHint": "ipsa",
+    "Rank": 815,
+    "Type": "sed",
+    "ColorBlock": 420,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-01-31T03:47:00.6911718+01:00",
+    "LastChanged": "2019-11-06T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Mann-Gislason",
-        "ToolTip": "Rem voluptatibus.",
-        "Deleted": true,
-        "Rank": 794,
-        "Type": "inventore",
-        "ColorBlock": 943,
-        "IconHint": "et",
+        "Id": 583,
+        "Name": "Miller LLC",
+        "ToolTip": "Eaque ad at officiis perferendis odit.",
+        "Deleted": false,
+        "Rank": 106,
+        "Type": "itaque",
+        "ColorBlock": 345,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2021-01-09T03:47:00.6911718+01:00",
+        "LastChanged": "2006-03-24T11:24:53.9686678+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "accusamus",
-        "Hidden": true,
-        "FullName": "Mr. Daisha Farrell PhD"
+        "ExtraInfo": "quia",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Dr. Casimer Frederique Feest I"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "unde",
+    "ExtraInfo": "non",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Freeda Deckow"
+    "FullName": "Jessika Hyatt"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Kozey-Hauck",
-    "ToolTip": "Architecto eaque est est nesciunt modi.",
+    "Id": 572,
+    "Name": "Russel-O'Connell",
+    "ToolTip": "Ut architecto adipisci impedit sit quibusdam.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "voluptatem",
-    "ColorBlock": 374,
-    "IconHint": "et",
+    "Rank": 245,
+    "Type": "veritatis",
+    "ColorBlock": 205,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2011-06-09T03:47:00.6911718+02:00",
+    "LastChanged": "2002-12-05T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Douglas-Huels",
-        "ToolTip": "Et quisquam velit distinctio.",
+        "Id": 331,
+        "Name": "Keeling, Cummings and Larkin",
+        "ToolTip": "Eaque ex quia aut.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "similique",
-        "ColorBlock": 324,
-        "IconHint": "facere",
+        "Rank": 439,
+        "Type": "quis",
+        "ColorBlock": 224,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2002-10-24T03:47:00.6911718+02:00",
+        "LastChanged": "2002-06-21T11:24:53.9686678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "quis",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Kurt Torphy",
+        "FullName": "Jabari Jenkins MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 201
+            "FieldType": "System.String",
+            "FieldLength": 786
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "sint",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dr. Lambert Hane II",
+    "FullName": "Jeromy Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 25
       }
     }
   }

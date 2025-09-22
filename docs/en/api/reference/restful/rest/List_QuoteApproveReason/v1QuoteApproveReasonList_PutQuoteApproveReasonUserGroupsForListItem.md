@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Hammes-Grant",
-    "ToolTip": "Laboriosam molestias et accusantium.",
-    "Deleted": true,
-    "Rank": 984,
-    "Type": "et",
-    "ColorBlock": 856,
-    "IconHint": "iste",
+    "Id": 722,
+    "Name": "Reinger LLC",
+    "ToolTip": "Dolor doloribus expedita in voluptas qui voluptatem.",
+    "Deleted": false,
+    "Rank": 963,
+    "Type": "itaque",
+    "ColorBlock": 588,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "1999-05-10T03:47:00.7536695+02:00",
+    "LastChanged": "2004-03-15T11:24:54.0311654+01:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Cole Group",
-        "ToolTip": "Voluptatem provident rerum ab natus.",
+        "Id": 504,
+        "Name": "Williamson-Bergstrom",
+        "ToolTip": "Autem delectus sunt necessitatibus eos accusantium.",
         "Deleted": true,
-        "Rank": 31,
-        "Type": "doloribus",
-        "ColorBlock": 648,
-        "IconHint": "error",
+        "Rank": 608,
+        "Type": "autem",
+        "ColorBlock": 708,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2004-06-30T03:47:00.7536695+02:00",
+        "LastChanged": "2005-04-12T11:24:54.0311654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "nihil",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Ms. Antonina Eve Bergstrom DVM"
+        "FullName": "Toy Swaniawski"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "placeat",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Lessie Dannie Murazik V"
+    "FullName": "Heloise Mosciski"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "O'Reilly, Koch and Hills",
-    "ToolTip": "Autem eligendi atque fuga libero minus praesentium mollitia.",
+    "Id": 249,
+    "Name": "Pfannerstill, Labadie and Gerlach",
+    "ToolTip": "Nostrum cumque voluptas voluptatem non sunt fugit doloremque.",
     "Deleted": false,
-    "Rank": 726,
-    "Type": "fugiat",
-    "ColorBlock": 262,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-11-13T03:47:00.7692942+01:00",
+    "Rank": 977,
+    "Type": "ut",
+    "ColorBlock": 23,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2000-05-14T11:24:54.0467896+02:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Boyer-Nader",
-        "ToolTip": "Ut laudantium deleniti eius incidunt fugiat.",
-        "Deleted": true,
-        "Rank": 490,
-        "Type": "fugiat",
-        "ColorBlock": 677,
-        "IconHint": "omnis",
+        "Id": 571,
+        "Name": "Murazik, Okuneva and Volkman",
+        "ToolTip": "Rerum cupiditate eligendi eum quas quod.",
+        "Deleted": false,
+        "Rank": 447,
+        "Type": "voluptas",
+        "ColorBlock": 340,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2003-06-20T03:47:00.7692942+02:00",
+        "LastChanged": "2000-03-06T11:24:54.0467896+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Monique Russel",
+        "ExtraInfo": "dolor",
+        "StyleHint": "labore",
+        "Hidden": false,
+        "FullName": "Patricia Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldLength": 476
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Prof. Shany Rath Sr.",
+    "ExtraInfo": "rerum",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Josie Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldLength": 180
       }
     }
   }

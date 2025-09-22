@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Moore-Schulist",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 447,
-    "UdListDefinitionId": 179,
+    "HeadingId": 701,
+    "Name": "Wunsch, Blanda and Jast",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "Rank": 909,
+    "UdListDefinitionId": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

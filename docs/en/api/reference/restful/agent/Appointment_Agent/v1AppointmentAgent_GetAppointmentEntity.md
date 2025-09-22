@@ -27,7 +27,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=290
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=661
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +127,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -141,121 +141,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-06-11T03:46:54.0664078+02:00",
-  "AppointmentId": 778,
-  "Description": "Open-architected tangible hardware",
-  "Title": "rerum",
-  "Agenda": "illo",
-  "InternalNotes": "nobis",
-  "StartDate": "2014-01-26T03:46:54.0664078+01:00",
-  "EndDate": "2012-10-02T03:46:54.0664078+02:00",
+  "CreatedDate": "2006-03-20T11:24:47.3751914+01:00",
+  "AppointmentId": 837,
+  "Description": "Progressive asynchronous conglomeration",
+  "Title": "numquam",
+  "Agenda": "dolore",
+  "InternalNotes": "cumque",
+  "StartDate": "1999-11-05T11:24:47.3751914+01:00",
+  "EndDate": "2000-11-02T11:24:47.3751914+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 582,
+  "MotherId": 445,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-02-24T03:46:54.0664078+01:00",
+  "UpdatedDate": "2000-08-11T11:24:47.3751914+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 972,
+  "ActiveLinks": 691,
   "Links": [
     {
-      "EntityName": "Schinner, Erdman and Pouros",
-      "Id": 783,
-      "Description": "Re-engineered client-driven flexibility",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 734,
+      "EntityName": "Robel, Graham and Dach",
+      "Id": 945,
+      "Description": "Self-enabling even-keeled middleware",
+      "ExtraInfo": "esse",
+      "LinkId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatum",
+  "AlarmLeadTime": "in",
   "HasAlarm": false,
-  "ColorIndex": 997,
+  "ColorIndex": 830,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "labore",
-  "LeadTime": "optio",
-  "Location": "neque",
-  "RejectCounter": 421,
+  "LagTime": "qui",
+  "LeadTime": "ea",
+  "Location": "qui",
+  "RejectCounter": 586,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 173,
-      "PersonId": 551,
-      "ContactId": 688,
-      "EmailId": 633,
+      "AssociateId": 777,
+      "PersonId": 108,
+      "ContactId": 970,
+      "EmailId": 656,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "malcolm.haag@pacocha.biz",
-      "Description": "Synergized impactful frame"
+      "EmailAddress": "walton@murazikdooley.co.uk",
+      "Description": "Customizable client-server alliance"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-05-20T03:46:54.0664078+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2023-07-28T11:24:47.3751914+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 623,
+  "PreferredTZLocation": 262,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 609,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 789,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "totam",
+  "CentralserviceVideomeetId": "commodi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Thaddeus Collins DDS",
-    "SuperOffice:2": "275568627"
+    "SuperOffice:1": "Gage Daugherty",
+    "SuperOffice:2": "887507638"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "impedit"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "accusantium"
   },
-  "PublishEventDate": "2002-03-09T03:46:54.0664078+01:00",
-  "PublishTo": "2002-01-30T03:46:54.0664078+01:00",
-  "PublishFrom": "2021-05-28T03:46:54.0664078+02:00",
+  "PublishEventDate": "2009-07-16T11:24:47.3751914+02:00",
+  "PublishTo": "2025-09-06T11:24:47.3751914+02:00",
+  "PublishFrom": "2019-02-16T11:24:47.3751914+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 188,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
@@ -264,8 +264,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

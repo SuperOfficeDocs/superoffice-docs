@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Abbott Group",
-  "Tooltip": "inventore",
+  "Id": 37,
+  "Name": "Kling-Von",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 726,
+  "UdListDefinitionId": 816,
+  "Rank": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

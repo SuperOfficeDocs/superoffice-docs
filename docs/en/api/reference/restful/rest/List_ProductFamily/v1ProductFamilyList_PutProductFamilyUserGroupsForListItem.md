@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Dibbert, Bartoletti and Goyette",
-    "ToolTip": "Velit quia impedit laudantium dolorum rerum.",
+    "Id": 965,
+    "Name": "Barrows, Witting and Armstrong",
+    "ToolTip": "Et doloribus velit sapiente qui.",
     "Deleted": false,
-    "Rank": 849,
-    "Type": "et",
-    "ColorBlock": 4,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2023-03-21T03:47:00.7224209+01:00",
+    "Rank": 56,
+    "Type": "officiis",
+    "ColorBlock": 531,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2011-05-11T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Hilll-Effertz",
-        "ToolTip": "Architecto et.",
+        "Id": 985,
+        "Name": "Toy, Sporer and Bins",
+        "ToolTip": "Omnis sapiente sapiente omnis temporibus sed.",
         "Deleted": true,
-        "Rank": 568,
-        "Type": "modi",
-        "ColorBlock": 502,
-        "IconHint": "tempora",
+        "Rank": 620,
+        "Type": "atque",
+        "ColorBlock": 994,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2018-07-14T03:47:00.7224209+02:00",
+        "LastChanged": "2004-03-07T11:24:54.0155411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Mr. Sierra Heaney"
+        "ExtraInfo": "corrupti",
+        "StyleHint": "repellendus",
+        "Hidden": false,
+        "FullName": "Vern Orn"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Brianne Sawayn"
+    "ExtraInfo": "tempora",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Lesly Earline Sanford IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Oberbrunner, Quigley and O'Keefe",
-    "ToolTip": "Magni ipsa totam molestias eaque autem qui.",
-    "Deleted": true,
-    "Rank": 911,
-    "Type": "est",
-    "ColorBlock": 466,
-    "IconHint": "aliquid",
+    "Id": 654,
+    "Name": "Ferry Group",
+    "ToolTip": "Et aut quae.",
+    "Deleted": false,
+    "Rank": 476,
+    "Type": "tempore",
+    "ColorBlock": 879,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2006-10-26T03:47:00.7224209+02:00",
+    "LastChanged": "2000-05-29T11:24:54.0155411+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Littel Group",
-        "ToolTip": "Et qui illum amet.",
-        "Deleted": false,
-        "Rank": 796,
-        "Type": "laborum",
-        "ColorBlock": 996,
-        "IconHint": "mollitia",
+        "Id": 862,
+        "Name": "Brakus LLC",
+        "ToolTip": "Perspiciatis qui nemo molestias fugit asperiores quod.",
+        "Deleted": true,
+        "Rank": 722,
+        "Type": "porro",
+        "ColorBlock": 335,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2008-12-22T03:47:00.7224209+01:00",
+        "LastChanged": "2023-10-07T11:24:54.0155411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Reggie Beier",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Ms. Cleveland Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 910
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Mr. Flossie Abernathy",
+    "ExtraInfo": "illum",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Bonita Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

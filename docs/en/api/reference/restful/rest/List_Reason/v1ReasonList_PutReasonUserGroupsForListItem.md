@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Reichel-McLaughlin",
-    "ToolTip": "Consequatur et quo odit mollitia in.",
+    "Id": 649,
+    "Name": "Wiegand, Pfeffer and Sawayn",
+    "ToolTip": "Amet quas atque facere rerum eius.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "libero",
-    "ColorBlock": 956,
-    "IconHint": "labore",
+    "Rank": 158,
+    "Type": "id",
+    "ColorBlock": 740,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2009-10-11T03:47:00.7849183+02:00",
+    "LastChanged": "2007-02-11T11:24:54.1092872+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Dolores eaque nihil.",
+        "Id": 994,
+        "Name": "Lubowitz-Lemke",
+        "ToolTip": "Minus facere quae non.",
         "Deleted": true,
-        "Rank": 109,
-        "Type": "inventore",
-        "ColorBlock": 352,
-        "IconHint": "enim",
+        "Rank": 655,
+        "Type": "quidem",
+        "ColorBlock": 26,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2004-10-31T03:47:00.7849183+01:00",
+        "LastChanged": "2016-11-20T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "esse",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Brent Kub"
+        "FullName": "Oswaldo Kertzmann"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Concepcion Littel"
+    "ExtraInfo": "quos",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Dr. Marco Weissnat"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Crooks LLC",
-    "ToolTip": "Expedita earum dicta maiores repellendus.",
-    "Deleted": true,
-    "Rank": 77,
-    "Type": "ducimus",
-    "ColorBlock": 93,
-    "IconHint": "velit",
+    "Id": 722,
+    "Name": "Sipes, Brekke and Tillman",
+    "ToolTip": "Aut quaerat necessitatibus distinctio molestiae ipsam voluptas.",
+    "Deleted": false,
+    "Rank": 88,
+    "Type": "deleniti",
+    "ColorBlock": 952,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "1999-12-31T03:47:00.7849183+01:00",
+    "LastChanged": "2001-06-29T11:24:54.1092872+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Gutkowski-Beatty",
-        "ToolTip": "Consequatur et.",
+        "Id": 911,
+        "Name": "Rau LLC",
+        "ToolTip": "Quod velit ut cumque voluptatem.",
         "Deleted": false,
         "Rank": 445,
-        "Type": "qui",
-        "ColorBlock": 521,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2020-11-05T03:47:00.7849183+01:00",
+        "Type": "rerum",
+        "ColorBlock": 310,
+        "IconHint": "deleniti",
+        "Selected": true,
+        "LastChanged": "2006-02-27T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "dolores",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Russel Kunze II",
+        "FullName": "Miss Ena Nova Prosacco DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 834
+            "FieldType": "System.Int32",
+            "FieldLength": 664
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Sunny Eichmann",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Lura Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 976
       }
     }
   }

@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Mosciski-Heathcote",
-  "StorageKey": "architecto",
+  "StorageType": "non",
+  "ProviderName": "Gutmann, Lebsack and Marks",
+  "StorageKey": "qui",
   "DesiredColumnNames": [
-    "McKenzie-Jerde",
-    "Howell, Moen and Raynor"
+    "Harvey Inc and Sons",
+    "Weber Group"
   ],
   "StaticColumns": [
-    "eum",
-    "nisi"
+    "dolorum",
+    "distinctio"
   ],
-  "Context": "cum"
+  "Context": "nesciunt"
 }
 ```
 
@@ -112,15 +112,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Beer-Roberts",
-      "Operator": "ea",
+      "Name": "Wisoky-Weber",
+      "Operator": "suscipit",
       "Values": [
-        "ut",
-        "quia"
+        "est",
+        "ducimus"
       ],
       "DisplayValues": [
-        "quo",
-        "sed"
+        "distinctio",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -128,65 +128,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 964,
+      "InterParenthesis": 648,
       "InterOperator": "And",
-      "UniqueHash": 564
+      "UniqueHash": 287
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunde Group",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "reiciendis",
-      "CanOrderBy": false,
-      "Name": "Lubowitz-Jaskolski",
+      "DisplayName": "Hartmann, Bode and Treutel",
+      "DisplayTooltip": "nam",
+      "DisplayType": "ducimus",
+      "CanOrderBy": true,
+      "Name": "Braun, Ryan and King",
       "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Zboncak Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "placeat",
-      "Width": "quisquam",
-      "IconHint": "quo",
-      "HeadingIconHint": "aliquid"
+      "RestrictionType": "debitis",
+      "RestrictionListName": "Kling-Rippin",
+      "IsVisible": true,
+      "ExtraInfo": "nihil",
+      "Width": "debitis",
+      "IconHint": "in",
+      "HeadingIconHint": "officiis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Denesik Group",
-      "PrimaryKey": 119,
+      "EntityName": "Hessel-Reichert",
+      "PrimaryKey": 849,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "tempore",
-          "LinkHint": "alias"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "ut",
+          "LinkHint": "odit"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "blanditiis",
+      "LinkHint": "quia",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldLength": 26
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "Lesch, Flatley and Kub",
+      "Description": "User-friendly bottom-line toolset",
+      "Rank": 10,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "Lesch, Flatley and Kub",
+      "Description": "User-friendly bottom-line toolset",
+      "Rank": 10,
       "Restrictions": [
         {},
         {}
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 122
     }
   }
 }

@@ -110,7 +110,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,91 +118,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Oct 2017 03:46:59 G10T
+Last-Modified: Fri, 03 Feb 2023 11:24:53 G2T
 
 {
-  "DocumentId": 939,
+  "DocumentId": 177,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsum",
-  "Header": "repellat",
-  "Name": "Connelly Inc and Sons",
-  "OurRef": "in",
-  "YourRef": "nihil",
-  "CreatedDate": "2004-11-22T03:46:59.9724437+01:00",
-  "UpdatedDate": "2017-10-05T03:46:59.9724437+02:00",
-  "Description": "Automated stable open system",
+  "Attention": "eaque",
+  "Header": "sed",
+  "Name": "Hoppe Group",
+  "OurRef": "et",
+  "YourRef": "minima",
+  "CreatedDate": "2024-02-24T11:24:53.2499584+01:00",
+  "UpdatedDate": "2023-02-03T11:24:53.2499584+01:00",
+  "Description": "Sharable discrete capacity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-09-10T03:46:59.9724437+02:00",
-  "ExternalRef": "consequatur",
+  "Date": "2023-01-02T11:24:53.2499584+01:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 769,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johnston, Schaden and Runolfsson",
-      "Id": 256,
-      "Description": "Networked attitude-oriented internet solution",
-      "ExtraInfo": "suscipit",
-      "LinkId": 152,
+      "EntityName": "Klocko-Stiedemann",
+      "Id": 348,
+      "Description": "Distributed radical definition",
+      "ExtraInfo": "dolore",
+      "LinkId": 718,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 716,
-  "Snum": 880,
+  "SuggestedDocumentId": 596,
+  "Snum": 589,
   "UserDefinedFields": {
-    "SuperOffice:1": "1769644707",
-    "SuperOffice:2": "Jason Parker"
+    "SuperOffice:1": "Neal Kilback",
+    "SuperOffice:2": "1343441834"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "officia"
+    "CustomFields1": "et",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2009-03-05T03:46:59.9724437+01:00",
-  "PublishTo": "2014-04-11T03:46:59.9724437+02:00",
-  "PublishFrom": "2016-12-29T03:46:59.9724437+01:00",
+  "PublishEventDate": "2012-02-02T11:24:53.2499584+01:00",
+  "PublishTo": "2001-01-18T11:24:53.2499584+01:00",
+  "PublishFrom": "2017-09-23T11:24:53.2499584+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 929,
+      "VisibleId": 205,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     },
     {
-      "VisibleId": 929,
+      "VisibleId": 205,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
@@ -211,13 +211,13 @@ Last-Modified: Thu, 05 Oct 2017 03:46:59 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

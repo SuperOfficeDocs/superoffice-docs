@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 431,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "odit",
+    "WebPanelId": 172,
+    "Name": "Metz LLC",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 696,
+    "Rank": 325,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnCentral": true,
+    "OnSatellite": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Dickens Inc and Sons",
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "Koch-Kohler",
     "Url": "http://www.example.com/",
-    "ProgId": "ullam",
-    "Icon": 551,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "qui",
+    "Icon": 781,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

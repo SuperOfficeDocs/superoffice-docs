@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Watsica, Gutkowski and Tremblay",
-    "ToolTip": "Deserunt et eos non ut eos quia enim.",
+    "Id": 143,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Vero totam nisi aut.",
     "Deleted": false,
-    "Rank": 840,
-    "Type": "explicabo",
-    "ColorBlock": 430,
-    "IconHint": "sapiente",
+    "Rank": 828,
+    "Type": "blanditiis",
+    "ColorBlock": 835,
+    "IconHint": "vero",
     "Selected": true,
-    "LastChanged": "2022-01-05T03:47:00.6911718+01:00",
+    "LastChanged": "2013-03-26T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Kertzmann, Koelpin and Collins",
-        "ToolTip": "Voluptas aspernatur eum ea iste ut.",
+        "Id": 700,
+        "Name": "Graham-McDermott",
+        "ToolTip": "Repudiandae enim tempore voluptate ducimus iure dolorem.",
         "Deleted": true,
-        "Rank": 213,
-        "Type": "eveniet",
-        "ColorBlock": 210,
+        "Rank": 196,
+        "Type": "et",
+        "ColorBlock": 453,
         "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2000-01-05T03:47:00.6911718+01:00",
+        "Selected": false,
+        "LastChanged": "2023-04-29T11:24:53.9686678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "dolores",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Enola Maryse Hirthe I",
+        "FullName": "Brody Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Maia Larson",
+    "FullName": "Norma D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 350
       }
     }
   }

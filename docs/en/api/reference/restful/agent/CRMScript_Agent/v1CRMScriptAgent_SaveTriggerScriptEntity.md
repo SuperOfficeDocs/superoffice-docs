@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 86,
-  "Name": "Marvin Inc and Sons",
+  "ScreenChooserId": 212,
+  "Name": "Larkin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "blanditiis",
-  "Source": "reiciendis",
-  "Registered": "2008-10-07T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 951,
-  "Updated": "2019-11-01T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 110
+  "UniqueIdentifier": "quia",
+  "Source": "ut",
+  "Registered": "2007-10-21T11:24:47.8439178+02:00",
+  "RegisteredAssociateId": 635,
+  "Updated": "2024-12-23T11:24:47.8439178+01:00",
+  "UpdatedAssociateId": 757
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 934,
-  "Name": "Senger Group",
+  "ScreenChooserId": 52,
+  "Name": "Murphy, Jast and Christiansen",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aliquam",
-  "Source": "voluptates",
-  "Registered": "2021-03-18T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 825,
-  "Updated": "1999-07-22T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 577,
+  "Enabled": true,
+  "UniqueIdentifier": "est",
+  "Source": "veritatis",
+  "Registered": "2012-02-21T11:24:47.8439178+01:00",
+  "RegisteredAssociateId": 288,
+  "Updated": "2008-05-30T11:24:47.8439178+02:00",
+  "UpdatedAssociateId": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldLength": 118
     }
   }
 }

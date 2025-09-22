@@ -123,7 +123,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -133,21 +133,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 239,
-  "Title": "eveniet",
-  "CreatedAt": "2012-05-25T03:46:55.4882311+02:00",
-  "LastChanged": "2013-11-11T03:46:55.4882311+01:00",
-  "ReadByOwner": "2002-02-14T03:46:55.4882311+01:00",
-  "ReadByCustomer": "2018-09-24T03:46:55.4882311+02:00",
-  "FirstReadByOwner": "2001-03-18T03:46:55.4882311+01:00",
-  "FirstReadByUser": "2023-12-21T03:46:55.4882311+01:00",
-  "Activate": "2020-11-19T03:46:55.4882311+01:00",
-  "ClosedAt": "2015-12-03T03:46:55.4882311+01:00",
-  "RepliedAt": "2005-10-09T03:46:55.4882311+02:00",
-  "AlertTimeout": "2011-12-22T03:46:55.4882311+01:00",
-  "Deadline": "2017-07-08T03:46:55.4882311+02:00",
+  "TicketId": 889,
+  "Title": "necessitatibus",
+  "CreatedAt": "2007-07-20T11:24:48.7501308+02:00",
+  "LastChanged": "2010-12-12T11:24:48.7501308+01:00",
+  "ReadByOwner": "2001-10-22T11:24:48.7501308+02:00",
+  "ReadByCustomer": "2009-11-19T11:24:48.7501308+01:00",
+  "FirstReadByOwner": "2016-08-24T11:24:48.7501308+02:00",
+  "FirstReadByUser": "1998-12-22T11:24:48.7501308+01:00",
+  "Activate": "2024-05-19T11:24:48.7501308+02:00",
+  "ClosedAt": "2018-07-19T11:24:48.7501308+02:00",
+  "RepliedAt": "2002-04-04T11:24:48.7501308+02:00",
+  "AlertTimeout": "2020-04-18T11:24:48.7501308+02:00",
+  "Deadline": "2005-06-13T11:24:48.7501308+02:00",
   "CreatedBy": null,
-  "Author": "quam",
+  "Author": "iusto",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -158,163 +158,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "maxime",
-      "PersonId": 884,
-      "Mrmrs": "perspiciatis",
-      "Firstname": "Cedrick",
-      "Lastname": "Hyatt",
-      "MiddleName": "Hintz, Hyatt and Watsica",
-      "Title": "et",
-      "Description": "Enterprise-wide solution-oriented functionalities",
-      "Email": "pearl_mcdermott@crona.co.uk",
-      "FullName": "Jamar Hauck",
-      "DirectPhone": "1-875-596-6998",
-      "FormalName": "Armstrong, Schumm and Wolff",
-      "CountryId": 660,
-      "ContactId": 865,
-      "ContactName": "Dicki Inc and Sons",
-      "Retired": 753,
-      "Rank": 397,
-      "ActiveInterests": 148,
+      "Position": "laborum",
+      "PersonId": 17,
+      "Mrmrs": "omnis",
+      "Firstname": "Aracely",
+      "Lastname": "Grant",
+      "MiddleName": "Jakubowski-Jenkins",
+      "Title": "voluptatem",
+      "Description": "Quality-focused 3rd generation strategy",
+      "Email": "shyann@ziemann.co.uk",
+      "FullName": "Ms. Herbert Dion Gerhold Jr.",
+      "DirectPhone": "048.104.6891 x644",
+      "FormalName": "Walsh, Conroy and Murray",
+      "CountryId": 283,
+      "ContactId": 957,
+      "ContactName": "Johnston Group",
+      "Retired": 709,
+      "Rank": 483,
+      "ActiveInterests": 991,
       "ContactDepartment": "",
-      "ContactCountryId": 265,
-      "ContactOrgNr": "718198",
-      "FaxPhone": "(101)266-5244 x3217",
-      "MobilePhone": "781.146.3974 x8291",
-      "ContactPhone": "948-471-8216 x64327",
-      "AssociateName": "Jewess Group",
-      "AssociateId": 110,
-      "UsePersonAddress": true,
-      "ContactFax": "cum",
-      "Kanafname": "quibusdam",
-      "Kanalname": "iusto",
-      "Post1": "enim",
-      "Post2": "non",
-      "Post3": "reiciendis",
-      "EmailName": "catharine.roberts@boyergoldner.biz",
-      "ContactFullName": "Mr. Herman Fadel",
-      "ActiveErpLinks": 225,
-      "TicketPriorityId": 364,
-      "SupportLanguageId": 98,
-      "SupportAssociateId": 495,
+      "ContactCountryId": 984,
+      "ContactOrgNr": "486523",
+      "FaxPhone": "653-883-4516 x42276",
+      "MobilePhone": "920-041-1338 x6424",
+      "ContactPhone": "443-844-2578 x420",
+      "AssociateName": "Purdy-DuBuque",
+      "AssociateId": 597,
+      "UsePersonAddress": false,
+      "ContactFax": "itaque",
+      "Kanafname": "illo",
+      "Kanalname": "et",
+      "Post1": "aspernatur",
+      "Post2": "earum",
+      "Post3": "tenetur",
+      "EmailName": "dovie_tremblay@howe.biz",
+      "ContactFullName": "Ms. Matilda Abbigail Kulas",
+      "ActiveErpLinks": 885,
+      "TicketPriorityId": 704,
+      "SupportLanguageId": 51,
+      "SupportAssociateId": 546,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1170757",
+      "PersonNumber": "1668556",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 748
         }
       }
     }
   ],
-  "AlertLevel": 819,
-  "ConnectId": 626,
+  "AlertLevel": 798,
+  "ConnectId": 396,
   "ReadStatus": "Green",
-  "TimeToReply": 115,
-  "RealTimeToReply": 426,
-  "TimeToClose": 245,
-  "RealTimeToClose": 351,
-  "TimeSpentInternally": 151,
-  "TimeSpentExternally": 869,
-  "TimeSpentQueue": 53,
-  "RealTimeSpentInternally": 182,
-  "RealTimeSpentExternally": 440,
-  "RealTimeSpentQueue": 247,
-  "TimeSpent": 266,
+  "TimeToReply": 872,
+  "RealTimeToReply": 380,
+  "TimeToClose": 17,
+  "RealTimeToClose": 77,
+  "TimeSpentInternally": 989,
+  "TimeSpentExternally": 738,
+  "TimeSpentQueue": 240,
+  "RealTimeSpentInternally": 512,
+  "RealTimeSpentExternally": 85,
+  "RealTimeSpentQueue": 215,
+  "TimeSpent": 900,
   "HasAttachment": false,
-  "NumReplies": 553,
-  "NumMessages": 569,
-  "FromAddress": "est",
+  "NumReplies": 81,
+  "NumMessages": 1001,
+  "FromAddress": "sapiente",
   "Messages": [
     {
-      "TicketMessageId": 78,
-      "CreatedAt": "2014-05-21T03:46:55.4882311+02:00",
+      "TicketMessageId": 903,
+      "CreatedAt": "2021-06-28T11:24:48.7501308+02:00",
       "Slevel": "External",
       "Important": false,
       "Author": "quia",
-      "PersonId": 52,
-      "PersonFullName": "Sheldon Ratke",
-      "ContactId": 816,
-      "ContactName": "Stokes LLC",
+      "PersonId": 210,
+      "PersonFullName": "Geraldine Alexandria Hamill IV",
+      "ContactId": 818,
+      "ContactName": "O'Conner, Schowalter and Hahn",
       "ContactDepartment": "",
-      "NumAttachments": 891,
-      "EmailHeader": "baylee@witting.info",
+      "NumAttachments": 979,
+      "EmailHeader": "wilton.bosco@glover.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "inventore",
-      "Sentiment": 770,
-      "SentimentConfidence": 711,
-      "CreatedBy": 966,
-      "ChangedAt": "2005-04-20T03:46:55.4882311+02:00",
+      "Language": "eum",
+      "Sentiment": 328,
+      "SentimentConfidence": 575,
+      "CreatedBy": 70,
+      "ChangedAt": "2013-07-18T11:24:48.7501308+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 957
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 37,
-      "Name": "Little-Haag",
-      "ToolTip": "Reprehenderit doloribus corporis sit.",
+      "Id": 530,
+      "Name": "Haag Inc and Sons",
+      "ToolTip": "Aut natus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 445
         }
       }
     },
     {
-      "Id": 37,
-      "Name": "Little-Haag",
-      "ToolTip": "Reprehenderit doloribus corporis sit.",
+      "Id": 530,
+      "Name": "Haag Inc and Sons",
+      "ToolTip": "Aut natus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 445
         }
       }
     }
   ],
-  "Language": "quo",
-  "Sentiment": 507,
-  "SentimentConfidence": 426,
-  "SuggestedCategoryId": 446,
+  "Language": "sit",
+  "Sentiment": 58,
+  "SentimentConfidence": 592,
+  "SuggestedCategoryId": 688,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 586,
-  "IconHint": "maxime",
+  "OrigHumanCategoryId": 771,
+  "IconHint": "nobis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 660,
+  "ActiveStatusMonitorId": 790,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "id"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "placeat"
+    "CustomFields1": "sed",
+    "CustomFields2": "eos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

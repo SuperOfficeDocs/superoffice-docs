@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hayes, Kohler and Tremblay",
-  "DeviceName": "Hyatt, Hartmann and Hansen",
-  "DeviceIdentifier": "vel",
-  "KeyName": "Champlin-Watsica",
-  "TableName": "Murphy, Kozey and Predovic",
-  "RecordId": 544
+  "ApplicationName": "Emmerich, Boyer and Torphy",
+  "DeviceName": "Hane, Effertz and Grimes",
+  "DeviceIdentifier": "quidem",
+  "KeyName": "Orn LLC",
+  "TableName": "Leuschke Group",
+  "RecordId": 852
 }
 ```
 
@@ -108,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "qui",
-  "RecordId": 171,
-  "CreatedDate": "2012-01-10T03:46:54.9107593+01:00",
-  "UpdatedDate": "2021-08-10T03:46:54.9107593+02:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "cum",
-  "TableName": "Hills LLC",
+  "Key": "qui",
+  "Value": "voluptas",
+  "RecordId": 351,
+  "CreatedDate": "2023-01-23T11:24:48.1564051+01:00",
+  "UpdatedDate": "2013-05-08T11:24:48.1564051+02:00",
+  "UpdatedBy": "aliquam",
+  "CreatedBy": "labore",
+  "TableName": "Muller-Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

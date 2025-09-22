@@ -117,12 +117,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 876,
-  "Name": "Goodwin, Cormier and Kreiger"
+  "SelectionId": 27,
+  "Name": "Durgan Inc and Sons"
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured systemic help-desk",
-  "Postit": "aut",
+  "Description": "Future-proofed bottom-line matrix",
+  "Postit": "numquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 321,
-  "IncludePerson": 305,
+  "GroupIdx": 662,
+  "IncludePerson": 366,
   "MemberCount": 99.99,
-  "Name": "Rath-Gulgowski",
-  "PostitTextId": 865,
-  "CreatedDate": "2008-04-15T03:46:55.3944846+02:00",
-  "SelectionId": 267,
-  "SoundEx": "modi",
-  "Source": 620,
-  "TextId": 34,
-  "UpdatedDate": "2015-02-10T03:46:55.3944846+01:00",
-  "UpdatedCount": 571,
-  "Visibility": 107,
+  "Name": "Funk-Blanda",
+  "PostitTextId": 418,
+  "CreatedDate": "2025-07-31T11:24:48.6407604+02:00",
+  "SelectionId": 29,
+  "SoundEx": "placeat",
+  "Source": 856,
+  "TextId": 117,
+  "UpdatedDate": "2025-05-31T11:24:48.6407604+02:00",
+  "UpdatedCount": 3,
+  "Visibility": 20,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 275,
-  "TargetTableName": "Hackett, Friesen and Tillman",
-  "Completed": false,
-  "LeftSelectionId": 43,
-  "RightSelectionId": 744,
+  "TargetTableNumber": 329,
+  "TargetTableName": "Wolf-Heller",
+  "Completed": true,
+  "LeftSelectionId": 127,
+  "RightSelectionId": 656,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolf, Macejkovic and West",
-  "ShadowProviderName": "Kirlin, Stark and Hermiston",
-  "ChartKey": "eos",
-  "LastLoaded": "2009-05-09T03:46:55.3944846+02:00",
-  "LastLoadedBy": 216,
+  "MainProviderName": "Farrell Inc and Sons",
+  "ShadowProviderName": "Sanford Inc and Sons",
+  "ChartKey": "impedit",
+  "LastLoaded": "2017-09-03T11:24:48.6407604+02:00",
+  "LastLoadedBy": 353,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-10-06T03:46:55.3944846+02:00",
-  "LastMembershipChangeBy": 171,
+  "LastMembershipChange": "2020-07-04T11:24:48.6407604+02:00",
+  "LastMembershipChangeBy": 417,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
+  "MainHeading": "omnis",
   "MemberTabHeading": "et",
-  "MailingsProviderName": "Dicki-Bergnaum",
-  "DashboardTileDefinitionId": 470,
+  "MailingsProviderName": "Ullrich, Cartwright and Thiel",
+  "DashboardTileDefinitionId": 417,
   "VisibleFor": [
     {
-      "VisibleId": 549,
+      "VisibleId": 606,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldLength": 558
         }
       }
     },
     {
-      "VisibleId": 549,
+      "VisibleId": 606,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldLength": 558
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 472
     }
   }
 }

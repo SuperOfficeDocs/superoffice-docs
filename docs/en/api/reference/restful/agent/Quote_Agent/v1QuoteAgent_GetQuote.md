@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 884
+  "QuoteId": 816
 }
 ```
 
@@ -102,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 453,
-  "SaleId": 79,
-  "QuoteConnectionId": 335,
-  "ERPQuoteKey": "qui",
-  "ERPOrderKey": "officiis",
-  "ActiveQuoteVersionId": 706,
-  "AcceptedQuoteAlternativeId": 221,
-  "UseValuesFromQuote": 693,
-  "DocumentId": 479,
-  "PoNumber": "727100",
-  "OrderComment": "totam",
-  "PreferredEmailCulture": "bennie@hartmannkuhlman.ca",
+  "QuoteId": 3,
+  "SaleId": 769,
+  "QuoteConnectionId": 263,
+  "ERPQuoteKey": "quis",
+  "ERPOrderKey": "sequi",
+  "ActiveQuoteVersionId": 575,
+  "AcceptedQuoteAlternativeId": 680,
+  "UseValuesFromQuote": 426,
+  "DocumentId": 171,
+  "PoNumber": "1316682",
+  "OrderComment": "at",
+  "PreferredEmailCulture": "chase_hansen@robel.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

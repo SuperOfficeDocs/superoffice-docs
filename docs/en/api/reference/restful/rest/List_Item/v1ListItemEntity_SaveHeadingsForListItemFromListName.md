@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Wiegand, Langworth and Kirlin",
-    "ToolTip": "Consequuntur a.",
+    "Id": 726,
+    "Name": "Beatty Inc and Sons",
+    "ToolTip": "Et harum.",
     "Deleted": true,
-    "Rank": 764,
-    "Type": "et",
-    "ColorBlock": 734,
-    "IconHint": "dolore",
-    "Selected": true,
-    "LastChanged": "2011-11-08T03:47:00.5661762+01:00",
+    "Rank": 766,
+    "Type": "eveniet",
+    "ColorBlock": 804,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2004-04-23T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Champlin, Stehr and Schulist",
-        "ToolTip": "Consectetur quae ut nemo quae.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "aliquid",
-        "ColorBlock": 38,
-        "IconHint": "eligendi",
+        "Id": 342,
+        "Name": "Koch LLC",
+        "ToolTip": "Facilis omnis.",
+        "Deleted": true,
+        "Rank": 842,
+        "Type": "iusto",
+        "ColorBlock": 196,
+        "IconHint": "officiis",
         "Selected": true,
-        "LastChanged": "2025-03-25T03:47:00.5661762+01:00",
+        "LastChanged": "2023-11-17T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "officiis",
-        "Hidden": false,
-        "FullName": "Mrs. Lavada Rene Emmerich III"
+        "ExtraInfo": "adipisci",
+        "StyleHint": "iure",
+        "Hidden": true,
+        "FullName": "Dr. Jayson Ward DVM"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "porro",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Alexandrine Glover"
+    "FullName": "Mr. Santina Bartell V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Buckridge-Daugherty",
-    "ToolTip": "Voluptatum totam quasi.",
+    "Id": 515,
+    "Name": "Heller-Padberg",
+    "ToolTip": "Id in molestiae.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "sed",
-    "ColorBlock": 766,
-    "IconHint": "cum",
+    "Rank": 154,
+    "Type": "nesciunt",
+    "ColorBlock": 263,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2011-04-20T03:47:00.5661762+02:00",
+    "LastChanged": "2021-11-07T11:24:53.8436729+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Conroy Group",
-        "ToolTip": "Et molestiae ut est accusantium corrupti vitae.",
+        "Id": 577,
+        "Name": "Torp Group",
+        "ToolTip": "Id ut perferendis perspiciatis officiis reiciendis ut saepe.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "dolor",
-        "ColorBlock": 512,
-        "IconHint": "ea",
+        "Rank": 539,
+        "Type": "occaecati",
+        "ColorBlock": 116,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2010-04-13T03:47:00.5661762+02:00",
+        "LastChanged": "2019-02-27T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Shana Marian Wilkinson MD",
+        "ExtraInfo": "cumque",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Coralie Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "ut",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Ms. Lilly Velda Kertzmann DVM",
+    "FullName": "Terrance Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

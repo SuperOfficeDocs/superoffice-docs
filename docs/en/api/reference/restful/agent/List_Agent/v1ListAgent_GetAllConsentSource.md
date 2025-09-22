@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetAllConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 220,
-    "Name": "Robel-Corkery",
-    "Tooltip": "a",
-    "Rank": 323,
-    "Key": "commodi",
-    "MailTemplateId": 948,
+    "ConsentSourceId": 430,
+    "Name": "Jakubowski, Weber and Gutmann",
+    "Tooltip": "dolorum",
+    "Rank": 900,
+    "Key": "ipsa",
+    "MailTemplateId": 904,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldLength": 303
       }
     }
   }

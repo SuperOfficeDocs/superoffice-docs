@@ -103,7 +103,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 707,
+  "ContactId": 156,
   "OnlyOpenSales": true
 }
 ```
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Quigley Group",
-    "SaleDate": "2005-05-23T03:46:55.285132+02:00",
-    "SaleId": 274,
-    "Probability": 832,
-    "Title": "neque",
-    "Amount": 24410.726,
-    "Currency": "facilis",
-    "ProjectName": "Orn LLC",
-    "AssociateFullName": "Ms. Murray Johnson V",
-    "Description": "Re-engineered 24 hour knowledge user",
+    "ContactName": "Walsh, Boyer and Trantow",
+    "SaleDate": "2018-12-08T11:24:48.5939056+01:00",
+    "SaleId": 824,
+    "Probability": 411,
+    "Title": "eveniet",
+    "Amount": 20994.666,
+    "Currency": "tempore",
+    "ProjectName": "Skiles LLC",
+    "AssociateFullName": "Dr. Kenyon Schumm IV",
+    "Description": "De-engineered actuating interface",
     "Status": "Lost",
-    "WeightedAmount": 26479.165999999997,
-    "ProjectId": 38,
-    "EarningPercent": 4957.988,
-    "Earning": 3290.7,
-    "ContactId": 161,
-    "AssociateId": 822,
-    "PersonId": 9,
-    "SaleTypeId": 503,
-    "SaleTypeName": "Gleason, Jast and Erdman",
-    "PersonFullName": "Mr. Tara Talia Bogan I",
+    "WeightedAmount": 4002.118,
+    "ProjectId": 286,
+    "EarningPercent": 11655.346,
+    "Earning": 648.73799999999994,
+    "ContactId": 850,
+    "AssociateId": 478,
+    "PersonId": 29,
+    "SaleTypeId": 28,
+    "SaleTypeName": "Dietrich-Beer",
+    "PersonFullName": "Ms. Shawn Strosin",
     "Completed": "Completed",
-    "ActiveErpLinks": 252,
-    "NextDueDate": "2024-05-24T03:46:55.285132+02:00",
-    "Number": "1568800",
+    "ActiveErpLinks": 222,
+    "NextDueDate": "2009-05-14T11:24:48.5939056+02:00",
+    "Number": "1465270",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 535
       }
     }
   }

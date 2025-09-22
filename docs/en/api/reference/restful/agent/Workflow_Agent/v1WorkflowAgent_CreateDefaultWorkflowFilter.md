@@ -56,7 +56,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,18 +68,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Ondricka-Smith",
-      "Description": "Sharable actuating firmware",
-      "Rank": 559,
+      "Name": "Labadie, Gerlach and Paucek",
+      "Description": "Ergonomic executive analyzer",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ondricka-Smith",
-      "Description": "Sharable actuating firmware",
-      "Rank": 559,
+      "Name": "Labadie, Gerlach and Paucek",
+      "Description": "Ergonomic executive analyzer",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldLength": 330
     }
   }
 }

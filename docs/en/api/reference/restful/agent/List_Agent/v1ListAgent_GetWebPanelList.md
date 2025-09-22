@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 697,
-    "Name": "O'Keefe, Wyman and Kshlerin",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 407,
+    "WebPanelId": 856,
+    "Name": "Muller Group",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 838,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Stiedemann, Kiehn and Boehm",
+    "WindowName": "Jewess LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 479,
+    "ProgId": "non",
+    "Icon": 444,
     "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

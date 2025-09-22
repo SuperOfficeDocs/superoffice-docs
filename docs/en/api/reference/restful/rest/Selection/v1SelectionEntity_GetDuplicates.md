@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schamberger-Gusikowski",
-    "SoPrimaryKey": 937,
-    "EntryName": "Collins LLC",
-    "EntryIdentifier": "non",
-    "RuleDisplayName": "Cruickshank Group",
+    "RuleName": "Weimann LLC",
+    "SoPrimaryKey": 312,
+    "EntryName": "Larson Group",
+    "EntryIdentifier": "dolores",
+    "RuleDisplayName": "Vandervort, Brakus and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 358
       }
     }
   }

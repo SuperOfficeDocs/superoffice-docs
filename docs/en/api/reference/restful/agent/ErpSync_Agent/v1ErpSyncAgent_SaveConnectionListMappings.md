@@ -96,31 +96,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Becker-Johnson",
+      "ErpListName": "Barrows, Wintheiser and Ruecker",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Purdy-Fritsch",
-      "ErpFieldId": 728,
+      "ErpActorTypeName": "Nitzsche, Nikolaus and Emard",
+      "ErpFieldId": 193,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldType": "System.String",
+          "FieldLength": 874
         }
       }
     }
   ],
-  "ErpConnectionId": 12,
-  "ErpConnectionName": "Botsford LLC",
+  "ErpConnectionId": 399,
+  "ErpConnectionName": "Swaniawski-Davis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldLength": 583
     }
   }
 }

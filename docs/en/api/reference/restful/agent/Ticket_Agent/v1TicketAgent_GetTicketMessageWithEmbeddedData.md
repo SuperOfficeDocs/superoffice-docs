@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
+  "Id": 661,
   "EmbedImages": "Inline"
 }
 ```
@@ -118,79 +118,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 436,
+  "EjMessageId": 157,
   "Ticket": null,
-  "CreatedAt": "2023-03-05T03:46:55.4257333+01:00",
+  "CreatedAt": "2015-11-21T11:24:48.6720089+01:00",
   "CreatedBy": null,
-  "Author": "inventore",
+  "Author": "similique",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 534,
-  "Body": "dolor",
-  "HtmlBody": "officiis",
-  "EmailHeader": "matilda@okonkunze.co.uk",
-  "DebugInfo": "laboriosam",
-  "MailSorter": "est",
+  "MessageId": "fugit",
+  "TimeSpent": 172,
+  "Body": "accusamus",
+  "HtmlBody": "qui",
+  "EmailHeader": "cierra_maggio@champlin.name",
+  "DebugInfo": "fugit",
+  "MailSorter": "sint",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "voluptates",
   "MessageHeaders": [
     {
-      "Id": 514,
-      "Name": "Jerde, Becker and O'Kon",
-      "Value": "est",
+      "Id": 255,
+      "Name": "Larkin-Kuphal",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 672
+          "FieldType": "System.Int32",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "laboriosam",
-  "Sentiment": 781,
-  "SentimentConfidence": 686,
+  "Important": false,
+  "Language": "dolore",
+  "Sentiment": 741,
+  "SentimentConfidence": 508,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 154,
-      "Name": "Grimes Group",
-      "ContentType": "quas",
-      "AttSize": 438,
+      "AttachmentId": 446,
+      "Name": "Hintz LLC",
+      "ContentType": "reprehenderit",
+      "AttSize": 361,
       "InlineImage": false,
-      "ContentId": "nisi",
-      "AuthKey": "nisi",
-      "IsSafeFileExtension": true,
+      "ContentId": "eos",
+      "AuthKey": "dolorem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 208
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "illum"
+    "CustomFields1": "vel",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 338
     }
   }
 }

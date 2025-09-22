@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Blick-Boyle",
-    "ToolTip": "Nihil laboriosam aut.",
-    "Deleted": false,
-    "Rank": 679,
-    "Type": "natus",
-    "ColorBlock": 905,
-    "IconHint": "quia",
+    "Id": 666,
+    "Name": "Leuschke, Doyle and Nolan",
+    "ToolTip": "Sequi assumenda vero aut voluptas eaque qui repellendus.",
+    "Deleted": true,
+    "Rank": 579,
+    "Type": "impedit",
+    "ColorBlock": 499,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2016-04-21T03:47:00.8005429+02:00",
+    "LastChanged": "2012-11-12T11:24:54.1249113+01:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Torp, Gleason and Bayer",
-        "ToolTip": "Dolores et.",
-        "Deleted": false,
-        "Rank": 208,
-        "Type": "sapiente",
-        "ColorBlock": 212,
-        "IconHint": "quas",
+        "Id": 130,
+        "Name": "Hegmann-Abernathy",
+        "ToolTip": "Vitae neque eligendi eveniet voluptatem aspernatur doloremque possimus.",
+        "Deleted": true,
+        "Rank": 528,
+        "Type": "expedita",
+        "ColorBlock": 312,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2021-09-05T03:47:00.8005429+02:00",
+        "LastChanged": "2018-10-10T11:24:54.1249113+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "unde",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Lazaro Kuhn",
+        "FullName": "Mercedes Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldLength": 267
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "aut",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Prof. Matilda Quigley III",
+    "FullName": "Jan Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 832
       }
     }
   }

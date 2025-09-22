@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 664,
-  "Type": "maiores",
+  "AssociateId": 729,
+  "Type": "esse",
   "Credentials": null
 }
 ```

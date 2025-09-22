@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Selection/SaveBoardViewSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 839,
+  "BoardViewSettingsId": 74,
   "EntityType": "None",
-  "AssociateId": 226,
-  "SelectionId": 587,
+  "AssociateId": 251,
+  "SelectionId": 237,
   "HideEmptyGroups": false,
-  "GroupBy": "aut",
-  "SubGroupBy": "autem",
-  "SortBy": "reiciendis",
-  "SortDesc": false,
-  "SumBy": "eligendi",
-  "ColorBy": "similique",
-  "Filters": "qui"
+  "GroupBy": "unde",
+  "SubGroupBy": "occaecati",
+  "SortBy": "architecto",
+  "SortDesc": true,
+  "SumBy": "officia",
+  "ColorBy": "et",
+  "Filters": "error"
 }
 ```

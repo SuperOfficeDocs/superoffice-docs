@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 402,
-  "StartTime": "2021-08-25T03:46:54.0039095+02:00",
-  "EndTime": "2007-07-23T03:46:54.0039095+02:00",
-  "Count": 914
+  "AssociateId": 562,
+  "StartTime": "2012-08-18T11:24:47.3126897+02:00",
+  "EndTime": "2023-10-17T11:24:47.3126897+02:00",
+  "Count": 702
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 317,
-    "StartDate": "2011-03-06T03:46:54.0039095+01:00",
-    "EndDate": "2022-09-06T03:46:54.0039095+02:00",
+    "AppointmentId": 243,
+    "StartDate": "2025-05-13T11:24:47.3126897+02:00",
+    "EndDate": "2012-05-16T11:24:47.3126897+02:00",
     "Type": "BookingForChecklist",
-    "Task": "cumque",
-    "AssociateFullName": "Marlee Harber",
-    "ContactName": "O'Conner LLC",
-    "Description": "Persevering homogeneous approach",
-    "PersonFullName": "Miss Adrianna Lueilwitz I",
-    "PersonId": 91,
-    "ContactId": 300,
-    "ProjectId": 853,
-    "ProjectName": "Wunsch Group",
-    "IsPublished": true,
-    "AssociateId": 340,
-    "ColorIndex": 558,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "quia",
+    "AssociateFullName": "Judson Quitzon",
+    "ContactName": "Hickle, Volkman and Trantow",
+    "Description": "Innovative heuristic encryption",
+    "PersonFullName": "Vita Hagenes",
+    "PersonId": 324,
+    "ContactId": 427,
+    "ProjectId": 402,
+    "ProjectName": "Buckridge-Senger",
+    "IsPublished": false,
+    "AssociateId": 102,
+    "ColorIndex": 407,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 540,
-    "PriorityName": "Mohr-Schaefer",
+    "PriorityId": 835,
+    "PriorityName": "Koch-Wilkinson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-10-14T03:46:54.0039095+02:00",
+    "ActiveDate": "1998-09-26T11:24:47.3126897+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-09-09T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2021-06-25T03:46:54.0039095+02:00",
-    "MotherId": 263,
-    "AssignedBy": 902,
-    "AssignedByFullName": "Uriel Pouros",
+    "RecurringStartDate": "2010-11-15T11:24:47.3126897+01:00",
+    "RecurringEndDate": "2022-05-12T11:24:47.3126897+02:00",
+    "MotherId": 475,
+    "AssignedBy": 971,
+    "AssignedByFullName": "Mr. Duane Steuber DVM",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "impedit",
-    "SaleId": 808,
-    "SaleName": "Sipes Group",
-    "AssociateName": "Abbott Inc and Sons",
-    "CreatedDate": "2017-05-23T03:46:54.0039095+02:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Gilbert Maida Bernier I",
-    "CreatedByAssociateId": 80,
+    "Location": "amet",
+    "AlarmLeadTime": "mollitia",
+    "SaleId": 423,
+    "SaleName": "Medhurst-Jacobs",
+    "AssociateName": "Wisoky, Lindgren and Jones",
+    "CreatedDate": "2017-09-25T11:24:47.3126897+02:00",
+    "CreatedBy": "accusamus",
+    "CreatedByFullName": "Chet Treutel DDS",
+    "CreatedByAssociateId": 557,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 279,
+    "MotherAssociateId": 396,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 656,
-    "Title": "nostrum",
-    "Agenda": "error",
-    "InternalNotes": "distinctio",
+    "PreferredTZLocation": 248,
+    "Title": "fugiat",
+    "Agenda": "qui",
+    "InternalNotes": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 171
       }
     }
   }

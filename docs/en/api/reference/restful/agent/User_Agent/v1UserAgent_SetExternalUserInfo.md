@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 134,
-  "UserName": "Beier-Torp",
-  "Password": "quia",
+  "AssociateId": 32,
+  "UserName": "Kassulke Inc and Sons",
+  "Password": "sunt",
   "IsActive": true,
-  "RoleId": 259,
+  "RoleId": 837,
   "ExternalUserInfoModification": "Active"
 }
 ```

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EnrichId": "maxime"
+  "EnrichId": "est"
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 269,
-  "Name": "Ruecker-Mann",
+  "ContactId": 247,
+  "Name": "Grimes, King and Lockman",
   "Department": "",
-  "CountryId": 940,
-  "Number2": "1401007",
-  "DirectPhone": "1-352-073-2561 x67812",
+  "CountryId": 891,
+  "Number2": "469445",
+  "DirectPhone": "1-030-645-7910 x218",
   "URL": "http://www.example.com/",
-  "EmailAddress": "lenna@yundt.us",
+  "EmailAddress": "hellen@leffler.ca",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Celia Katelyn White II",
+  "AssociateFullName": "Ms. Bernhard Colt Cremin",
   "Address": null
 }
 ```

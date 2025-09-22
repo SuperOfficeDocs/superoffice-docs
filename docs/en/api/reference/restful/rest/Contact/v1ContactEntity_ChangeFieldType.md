@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -105,7 +105,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 674,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 40,
-  "FieldLabel": "pariatur",
-  "FieldLeft": 469,
-  "FieldTop": 988,
+  "UDefFieldId": 567,
+  "ColumnId": 505,
+  "FieldDefault": "perferendis",
+  "FieldHeight": 257,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 451,
+  "FieldTop": 17,
   "FieldType": "Checkbox",
-  "FieldWidth": 472,
-  "FormatMask": "qui",
-  "HideLabel": true,
+  "FieldWidth": 160,
+  "FormatMask": "praesentium",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 175,
-  "LabelLeft": 997,
-  "LabelTop": 755,
-  "LabelWidth": 332,
-  "LastVersionId": 495,
-  "ListTableId": 279,
+  "LabelHeight": 35,
+  "LabelLeft": 696,
+  "LabelTop": 744,
+  "LabelWidth": 826,
+  "LastVersionId": 490,
+  "ListTableId": 665,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 63,
-  "ProgId": "quo",
+  "Page1LineNo": 703,
+  "ProgId": "asperiores",
   "IsReadOnly": false,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 482,
-  "TextLength": 656,
-  "Tooltip": "enim",
-  "UdefIdentity": 244,
-  "UDListDefinitionId": 719,
+  "ShortLabel": "eaque",
+  "TabOrder": 664,
+  "TextLength": 128,
+  "Tooltip": "architecto",
+  "UdefIdentity": 566,
+  "UDListDefinitionId": 331,
   "Justification": "Center",
-  "Version": 527,
-  "TemplateVariableName": "Maggio, Hermiston and Kirlin",
+  "Version": 940,
+  "TemplateVariableName": "Lowe Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Wintheiser LLC",
+  "MdoListName": "Koss Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 243
     }
   }
 }

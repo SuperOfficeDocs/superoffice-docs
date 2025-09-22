@@ -71,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "possimus",
-  "2": "totam"
+  "1": "omnis",
+  "2": "tempora"
 }
 ```

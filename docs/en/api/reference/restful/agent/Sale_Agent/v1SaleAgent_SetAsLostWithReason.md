@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLostWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    143,
-    898
+    412,
+    335
   ],
-  "ReasonId": 739
+  "ReasonId": 245
 }
 ```
 

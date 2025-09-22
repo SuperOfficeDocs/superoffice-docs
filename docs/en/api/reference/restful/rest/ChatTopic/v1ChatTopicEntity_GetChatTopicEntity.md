@@ -104,7 +104,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,43 +114,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 663,
-  "Name": "Block-Strosin",
-  "Description": "Organic analyzing challenge",
-  "WelcomeMessage": "amet",
+  "ChatTopicId": 841,
+  "Name": "Hermiston-Wyman",
+  "Description": "Implemented secondary collaboration",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "2001-01-07T03:46:59.8005718+01:00",
-  "SecondsPrAccept": 444,
-  "AlertRecipient": "qui",
+  "LastAccept": "2000-02-19T11:24:53.0624548+01:00",
+  "SecondsPrAccept": 286,
+  "AlertRecipient": "praesentium",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "praesentium",
+  "CollectConsent": true,
+  "BadgeHeader": "quaerat",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 110,
-  "WarnManagerNewChatMinutes": 484,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 248,
+  "WarnManagerNewChatMinutes": 798,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 73,
-  "WarnManagerChatMessageMinutes": 404,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 243,
-  "OfflineFormQueueLength": 802,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "laborum",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 162,
+  "WarnManagerChatMessageMinutes": 84,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 118,
+  "OfflineFormQueueLength": 202,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   },
   "_Links": {

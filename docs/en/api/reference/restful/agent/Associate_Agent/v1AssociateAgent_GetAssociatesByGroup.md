@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 413,
-  "Type": 669
+  "GroupId": 493,
+  "Type": 490
 }
 ```
 
@@ -107,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 107,
-    "Name": "Kassulke LLC",
-    "PersonId": 177,
-    "Rank": 301,
-    "Tooltip": "dolor",
+    "AssociateId": 279,
+    "Name": "Volkman Inc and Sons",
+    "PersonId": 641,
+    "Rank": 98,
+    "Tooltip": "molestiae",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 825,
-    "FullName": "Ray Leannon",
-    "FormalName": "Goyette, Towne and Mertz",
+    "GroupIdx": 559,
+    "FullName": "Vella Hansen",
+    "FormalName": "Durgan, Zieme and Spencer",
     "Deleted": false,
-    "EjUserId": 273,
-    "UserName": "Volkman-O'Conner",
+    "EjUserId": 13,
+    "UserName": "Mohr, Feil and Terry",
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "aperiam"
+      "ExtraFields1": "blanditiis",
+      "ExtraFields2": "aliquid"
     },
     "CustomFields": {
-      "CustomFields1": "facilis",
-      "CustomFields2": "tenetur"
+      "CustomFields1": "quisquam",
+      "CustomFields2": "laudantium"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 274
       }
     }
   }

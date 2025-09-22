@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Walsh LLC",
-    "Tooltip": "itaque",
+    "Id": 902,
+    "Name": "Upton Inc and Sons",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 440,
+    "Rank": 780,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "id",
-    "InUseByUserDefinedFields": true,
+    "ListType": "necessitatibus",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

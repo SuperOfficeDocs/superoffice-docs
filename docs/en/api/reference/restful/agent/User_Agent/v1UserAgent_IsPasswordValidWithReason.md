@@ -84,10 +84,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 374,
+  "AssociateId": 70,
   "Type": "AnonymousAssociate",
-  "PersonId": 452,
-  "Password": "nihil"
+  "PersonId": 515,
+  "Password": "harum"
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "deliver proactive web services",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 890
     }
   }
 }

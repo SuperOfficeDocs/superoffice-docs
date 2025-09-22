@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Abernathy-Pouros",
-    "ToolTip": "Provident nulla delectus illum animi explicabo aliquid.",
-    "Deleted": true,
-    "Rank": 611,
-    "Type": "culpa",
-    "ColorBlock": 149,
-    "IconHint": "porro",
+    "Id": 110,
+    "Name": "Gerlach-Schimmel",
+    "ToolTip": "Sed ea culpa provident voluptates non sint voluptatem.",
+    "Deleted": false,
+    "Rank": 526,
+    "Type": "cum",
+    "ColorBlock": 882,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2017-05-15T03:47:00.7067961+02:00",
+    "LastChanged": "2019-09-27T11:24:53.9842923+02:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Jacobi, Keeling and Dach",
-        "ToolTip": "Sunt est doloremque hic et.",
-        "Deleted": false,
-        "Rank": 330,
-        "Type": "rem",
-        "ColorBlock": 313,
-        "IconHint": "veniam",
+        "Id": 871,
+        "Name": "Fadel, Keeling and Gibson",
+        "ToolTip": "Dolor suscipit illum voluptatum dolorem vero beatae.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "labore",
+        "ColorBlock": 818,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2012-10-07T03:47:00.7067961+02:00",
+        "LastChanged": "2021-03-20T11:24:53.9842923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "in",
+        "ExtraInfo": "modi",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Dusty Upton"
+        "FullName": "Glenda Reichert"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "est",
+    "ExtraInfo": "est",
+    "StyleHint": "officiis",
     "Hidden": true,
-    "FullName": "Palma Pagac"
+    "FullName": "Ms. Elenor Pollich"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Purdy-Bernier",
-    "ToolTip": "Et ad aut.",
-    "Deleted": true,
-    "Rank": 335,
-    "Type": "molestiae",
-    "ColorBlock": 421,
-    "IconHint": "rerum",
+    "Id": 944,
+    "Name": "Dickinson Group",
+    "ToolTip": "Aut et recusandae cumque.",
+    "Deleted": false,
+    "Rank": 158,
+    "Type": "sequi",
+    "ColorBlock": 164,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2010-01-16T03:47:00.7067961+01:00",
+    "LastChanged": "2019-07-09T11:24:53.9842923+02:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Kertzmann, Smith and Cremin",
-        "ToolTip": "Alias quia fugiat qui est quos molestiae.",
+        "Id": 543,
+        "Name": "Beier, Volkman and Ondricka",
+        "ToolTip": "Asperiores accusamus quae delectus.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "maxime",
-        "ColorBlock": 664,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2003-10-23T03:47:00.7067961+02:00",
+        "Rank": 106,
+        "Type": "vero",
+        "ColorBlock": 279,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2005-01-20T11:24:53.9842923+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Joaquin Schroeder",
+        "ExtraInfo": "a",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Carolyn Russel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 238
+            "FieldLength": 38
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "non",
+    "ExtraInfo": "sed",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Mrs. Winfield Tara Ritchie",
+    "FullName": "Osvaldo Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 757
       }
     }
   }

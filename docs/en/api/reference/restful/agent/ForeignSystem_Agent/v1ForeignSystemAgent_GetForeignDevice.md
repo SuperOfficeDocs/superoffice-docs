@@ -27,7 +27,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=833
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=532
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,21 +86,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 886,
-  "Name": "Rosenbaum Inc and Sons",
-  "CreatedDate": "2006-10-30T03:46:54.9107593+01:00",
-  "UpdatedDate": "2005-12-21T03:46:54.9107593+01:00",
-  "AssociateFullName": "Garland Zboncak PhD",
-  "CreatedBy": "inventore",
-  "UpdatedBy": "rerum",
-  "DeviceIdentifier": "quaerat",
-  "ForeignAppId": 852,
+  "ForeignDeviceId": 80,
+  "Name": "Herzog-Morar",
+  "CreatedDate": "2000-09-23T11:24:48.1564051+02:00",
+  "UpdatedDate": "2015-05-31T11:24:48.1564051+02:00",
+  "AssociateFullName": "Yvette Marquardt",
+  "CreatedBy": "id",
+  "UpdatedBy": "iste",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 460,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldLength": 470
     }
   }
 }

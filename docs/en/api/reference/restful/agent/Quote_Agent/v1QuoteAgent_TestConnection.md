@@ -86,10 +86,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Keeling, Kunde and Hilpert",
+  "ConnectorName": "Skiles, West and Cronin",
   "ConnectionData": {
-    "ConnectionData1": "et",
-    "ConnectionData2": "aut"
+    "ConnectionData1": "iusto",
+    "ConnectionData2": "ut"
   }
 }
 ```
@@ -102,17 +102,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "asperiores",
+  "UserExplanation": "quaerat",
   "TechExplanation": "et",
-  "ErrorCode": "aut",
+  "ErrorCode": "tempora",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

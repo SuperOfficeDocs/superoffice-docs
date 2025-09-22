@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 816,
-      "FieldName": "Dooley-Von",
-      "Label": "modi",
-      "Tooltip": "quis",
+      "QuoteLineConfigurationId": 810,
+      "FieldName": "Klein, Kirlin and Larson",
+      "Label": "quis",
+      "Tooltip": "libero",
       "Editable": false,
       "InUse": false,
-      "Mandatory": false,
-      "Rank": 648,
-      "RestrictEdit": false
+      "Mandatory": true,
+      "Rank": 526,
+      "RestrictEdit": true
     }
   ]
 }
@@ -112,21 +112,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 700,
-    "FieldName": "Johnson, Quigley and Jewess",
-    "Label": "voluptatibus",
-    "Tooltip": "facere",
+    "QuoteLineConfigurationId": 733,
+    "FieldName": "Jacobs, Schmidt and Ward",
+    "Label": "omnis",
+    "Tooltip": "ducimus",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 552,
-    "RestrictEdit": false,
+    "Rank": 893,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

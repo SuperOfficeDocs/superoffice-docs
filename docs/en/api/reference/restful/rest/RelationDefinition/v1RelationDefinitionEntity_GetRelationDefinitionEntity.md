@@ -91,12 +91,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 449,
-  "Name": "Tremblay Inc and Sons",
-  "Tooltip": "repudiandae",
-  "PassiveText": "voluptatem",
-  "Deleted": true,
-  "Rank": 777,
+  "ReldefId": 687,
+  "Name": "Wilderman-Leuschke",
+  "Tooltip": "atque",
+  "PassiveText": "est",
+  "Deleted": false,
+  "Rank": 57,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 989
     }
   },
   "_Links": {

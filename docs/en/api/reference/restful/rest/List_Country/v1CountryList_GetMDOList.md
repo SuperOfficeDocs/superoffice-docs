@@ -27,8 +27,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=eius
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=eaque
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Boyle Group",
-    "ToolTip": "Laborum excepturi laborum.",
-    "Deleted": false,
-    "Rank": 368,
-    "Type": "veritatis",
+    "Id": 633,
+    "Name": "Leffler, Brown and Macejkovic",
+    "ToolTip": "Ab expedita voluptates eveniet omnis ut.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 598,
-        "Name": "Hagenes, Collins and Kerluke",
-        "ToolTip": "Laudantium laboriosam id deserunt molestiae tenetur quam ea.",
+        "Id": 152,
+        "Name": "Deckow, Breitenberg and Littel",
+        "ToolTip": "Molestias amet rerum temporibus autem ratione aut ipsum.",
         "Deleted": true,
-        "Rank": 842,
-        "Type": "sed",
+        "Rank": 642,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 369,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "eligendi",
-        "FullName": "Miss Emmanuelle Josh Kirlin",
+        "IconHint": "voluptatum",
+        "ColorBlock": 27,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "repellat",
+        "FullName": "Cali Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldLength": 426
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 511,
-    "ExtraInfo": "amet",
-    "StyleHint": "et",
-    "FullName": "Miss Rylee Bosco MD",
+    "IconHint": "qui",
+    "ColorBlock": 55,
+    "ExtraInfo": "et",
+    "StyleHint": "asperiores",
+    "FullName": "Prof. Amelie Farrell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 895
       }
     }
   }

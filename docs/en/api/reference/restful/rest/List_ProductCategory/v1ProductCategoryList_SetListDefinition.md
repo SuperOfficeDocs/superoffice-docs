@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Fritsch-Zemlak",
-  "Tooltip": "nisi",
+  "Id": 643,
+  "Name": "Hermann Inc and Sons",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 67,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Frami, Bogisich and Feil",
-  "Tooltip": "totam",
+  "Id": 458,
+  "Name": "Mohr Group",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 476,
+  "Rank": 269,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 130
     }
   }
 }

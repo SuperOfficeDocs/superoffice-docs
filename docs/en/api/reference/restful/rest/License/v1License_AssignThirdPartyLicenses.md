@@ -79,7 +79,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 352,
-    "Tooltip": "velit",
-    "CanAssign": true,
-    "Free": 801,
-    "InUse": 782,
+    "Total": 524,
+    "Tooltip": "quia",
+    "CanAssign": false,
+    "Free": 407,
+    "InUse": 535,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 776,
-    "Name": "Haley-Kuhn",
-    "Description": "Managed client-driven function",
-    "PrerequisiteModuleName": "Kuhlman LLC",
-    "SortOrder": 704,
-    "ExtraFlags": 398,
+    "Assigned": false,
+    "ModuleLicenseId": 139,
+    "Name": "Pollich-Homenick",
+    "Description": "Function-based even-keeled archive",
+    "PrerequisiteModuleName": "Waelchi-McKenzie",
+    "SortOrder": 670,
+    "ExtraFlags": 189,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

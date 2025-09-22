@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 629,
-    "Name": "Hickle, Nikolaus and Morar",
+    "HeadingId": 50,
+    "Name": "Nolan-Bartoletti",
     "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 664,
-    "UdListDefinitionId": 536,
+    "Rank": 782,
+    "UdListDefinitionId": 64,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 134
       }
     }
   }

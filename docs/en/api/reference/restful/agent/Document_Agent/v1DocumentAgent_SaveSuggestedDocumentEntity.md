@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 174,
-  "Name": "Cormier-Weber",
-  "Tooltip": "ab",
-  "Rank": 561,
-  "DoctmplId": 29,
-  "Header": "aut",
-  "OurRef": "voluptatem",
-  "Deleted": false,
+  "SuggestedDocumentId": 977,
+  "Name": "Macejkovic Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 600,
+  "DoctmplId": 294,
+  "Header": "et",
+  "OurRef": "at",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -109,13 +109,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 441,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "laboriosam",
-  "Rank": 476,
-  "DoctmplId": 54,
-  "Header": "distinctio",
-  "OurRef": "enim",
+  "SuggestedDocumentId": 884,
+  "Name": "Botsford Group",
+  "Tooltip": "quibusdam",
+  "Rank": 833,
+  "DoctmplId": 698,
+  "Header": "nemo",
+  "OurRef": "consequatur",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

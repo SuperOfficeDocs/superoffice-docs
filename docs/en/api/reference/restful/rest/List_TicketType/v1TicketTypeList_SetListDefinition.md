@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Bernier Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 674,
+  "Id": 829,
+  "Name": "Trantow LLC",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "Rank": 145,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Hane, Haley and Boyle",
-  "Tooltip": "et",
+  "Id": 758,
+  "Name": "Upton Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 833,
+  "Rank": 53,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 816
     }
   }
 }

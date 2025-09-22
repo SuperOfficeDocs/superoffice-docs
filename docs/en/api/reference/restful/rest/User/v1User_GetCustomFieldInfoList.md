@@ -69,7 +69,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Labadie, Dooley and Miller",
-    "DisplayName": "Feest LLC",
-    "Description": "Focused discrete firmware",
-    "ShortLabel": "libero",
+    "FieldName": "Mraz-Murazik",
+    "DisplayName": "Schulist Inc and Sons",
+    "Description": "Re-contextualized well-modulated alliance",
+    "ShortLabel": "quis",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 320,
-    "TemplateVariableName": "Torphy-Rempel"
+    "IsDisplayField": false,
+    "Rank": 425,
+    "TemplateVariableName": "Bashirian Group"
   }
 ]
 ```

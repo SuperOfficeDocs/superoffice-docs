@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schulist-Walker",
-  "RecordId": 287,
-  "AssociateId": 55,
-  "ExtraInfo": "est"
+  "TableName": "Rau, Borer and Ondricka",
+  "RecordId": 896,
+  "AssociateId": 682,
+  "ExtraInfo": "voluptatum"
 }
 ```
 

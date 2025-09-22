@@ -117,14 +117,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 201,
-  "Name": "Shields, Gerhold and Halvorson",
+  "SelectionId": 47,
+  "Name": "Pfeffer Group",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -135,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly next generation migration",
-  "Postit": "molestias",
+  "Description": "Reactive bi-directional framework",
+  "Postit": "exercitationem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 83,
-  "IncludePerson": 979,
+  "GroupIdx": 21,
+  "IncludePerson": 155,
   "MemberCount": 99.99,
-  "Name": "Fay Inc and Sons",
-  "PostitTextId": 294,
-  "CreatedDate": "2002-12-19T03:46:55.3007553+01:00",
-  "SelectionId": 377,
-  "SoundEx": "veritatis",
-  "Source": 287,
-  "TextId": 743,
-  "UpdatedDate": "2014-10-28T03:46:55.3007553+01:00",
-  "UpdatedCount": 797,
-  "Visibility": 87,
+  "Name": "Stanton-Stehr",
+  "PostitTextId": 464,
+  "CreatedDate": "2016-09-22T11:24:48.6251358+02:00",
+  "SelectionId": 818,
+  "SoundEx": "velit",
+  "Source": 901,
+  "TextId": 887,
+  "UpdatedDate": "2016-06-13T11:24:48.6251358+02:00",
+  "UpdatedCount": 49,
+  "Visibility": 331,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Funk-Senger",
+  "TargetTableNumber": 27,
+  "TargetTableName": "Rohan-Goodwin",
   "Completed": false,
-  "LeftSelectionId": 386,
-  "RightSelectionId": 996,
+  "LeftSelectionId": 878,
+  "RightSelectionId": 666,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer, Von and Champlin",
-  "ShadowProviderName": "Rippin Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2018-11-25T03:46:55.3007553+01:00",
-  "LastLoadedBy": 966,
+  "MainProviderName": "Zemlak, Mraz and Nolan",
+  "ShadowProviderName": "Turcotte Group",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "1999-09-20T11:24:48.6251358+02:00",
+  "LastLoadedBy": 758,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-04T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 909,
+  "LastMembershipChange": "2018-02-07T11:24:48.6251358+01:00",
+  "LastMembershipChangeBy": 697,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Turcotte LLC",
-  "DashboardTileDefinitionId": 82,
+  "MainHeading": "nostrum",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Jast Group",
+  "DashboardTileDefinitionId": 877,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 121
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 121
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 744
     }
   }
 }

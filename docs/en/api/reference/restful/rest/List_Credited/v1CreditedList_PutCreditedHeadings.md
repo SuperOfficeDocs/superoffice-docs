@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Kulas Group",
-    "Tooltip": "vitae",
+    "HeadingId": 78,
+    "Name": "Green-Murray",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 255
+    "Rank": 696,
+    "UdListDefinitionId": 181
   },
   {
-    "HeadingId": 579,
-    "Name": "Kulas Group",
-    "Tooltip": "vitae",
+    "HeadingId": 78,
+    "Name": "Green-Murray",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 255
+    "Rank": 696,
+    "UdListDefinitionId": 181
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "eos",
+    "HeadingId": 170,
+    "Name": "Braun-Shields",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 237,
-    "UdListDefinitionId": 736,
+    "Rank": 532,
+    "UdListDefinitionId": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldLength": 364
       }
     }
   }
