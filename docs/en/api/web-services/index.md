@@ -160,6 +160,8 @@ An SOTicket Authorization header credential is used:
 
 When a web page is running in the context of a SuperOffice web panel, and web panel is configured to pass the usec template variable, the current user's `SoCredential.Ticket` credential is sent as a query string parameters to the web application. In that case, the application can use the Authentication header value "SOTicket " plus the ticket string to request additional API data. Once again, notice the space following *SOTicket*.
 
+[!include[Usec Forbidden Online](../../includes/usec-forbidden-online.md)]
+
 **When used in online**, the `SOTicket` header must accompany with the `SO-AppToken` header, and the `SO-AppToken` value must be the application secret (OAuth client_secret).
 
 ```http

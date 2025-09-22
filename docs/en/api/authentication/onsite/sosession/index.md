@@ -79,6 +79,8 @@ using (SoSession session = SoSession.Authenticate("UserName","P@55w0rd"))
 
 SoCredentials contains only one property, Ticket. **Ticket** represents a stored credential record that can be used to authenticate a user. Tickets have the "7T:" prefix, and is generated in onsite by the [\<usec\>][6] template variable.
 
+[!include[Usec Forbidden Online](../../../../includes/usec-forbidden-online.md)]
+
 In the online environment, tickets are issues by the [System User flow][7].
 
 The code below demonstrates authentication using `SoCredentials`. The code first authenticates using a username and password, obtains the users Ticket from the users `session.Principal.GetSafeCredentials()` method.

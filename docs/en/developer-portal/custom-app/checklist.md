@@ -43,6 +43,8 @@ Custom apps therefore do not need to implement the [workflow for giving consent]
 
 [!include[ALT](../includes/protect-webpanels.md)]
 
+[!include[ALT](../../includes/usec-forbidden-online.md)]
+
 ## System user and important rules
 
 * Never rename the **owner company** (`contact.name` field for the company with `contact_id` found in the Company database table). If you do, our license check fails and all users are locked out!
