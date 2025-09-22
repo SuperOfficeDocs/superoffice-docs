@@ -2,7 +2,7 @@
 uid: help-da-saint-update
 title: Opdater aktivitetsovervågning
 description: Opdater aktivitetsovervågning
-keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning, kriterier
+keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning, kriterier, regenerer statusovervågning, regenerer tæller
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -20,6 +20,8 @@ redirect_from:
   - /da/saint/admin/restore-status
   - /da/sale/saint/learn/admin/select-status-criteria
   - /da/saint/admin/select-status-criteria
+  - /da/sale/saint/learn/admin/manage-status-monitors
+  - /da/saint/admin/manage-status-monitors
 ---
 
 # Opdater aktivitetsovervågning
@@ -96,6 +98,25 @@ Du kan gendanne en tidligere slettet status og regenerere den.
     Statussen gendannes og vises med sort tekst på listen.
 
 1. Vælg **Regenerer valgt statusovervågning** for at opdatere den gendannede status.
+
+## <a id="regen"></a>Regenerer statusser og tællere <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+I bunden af fanen **Statusovervågning** viser indikatorer datoen for den seneste opdatering. Et rødt kryds i statuslisten betyder, at statusen ikke er aktiv, før du regenererer den. Hvis et element aldrig er blevet genereret, eller den sidste generering var for længe siden, kan resultaterne være forældede.
+
+Statusser og tællere, der ikke er opdaterede, forbliver synlige i SuperOffice CRM, men dataene kan være forkerte. Du bør regenerere, når kriterier ændres, du har redigeret en hensigt for en opgave, eller når indikatorerne antyder, at dataene er forældede.
+
+### Regenerer statusser
+
+| Navn | Beskrivelse | Placering |
+|---|---|---|
+| Genopretter valgt statusovervågning | Opdaterer den valgte status | I bunden af fanen **Firma**, **Person** eller **Projekt** |
+| Generer alle statusser igen | Opdaterer alle statusser | I bunden af fanen **Statusovervågning** |
+
+### Regenerer tællere
+
+| Navn | Beskrivelse |
+|---|---|
+| Genopret alle tællere | Opdaterer alle tællere |
 
 <!-- Referenced links -->
 [1]: create-status.md

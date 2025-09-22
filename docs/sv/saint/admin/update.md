@@ -2,7 +2,7 @@
 uid: help-sv-saint-update
 title: Uppdatera aktivitetsövervakning
 description: Uppdatera aktivitetsövervakning
-keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning, kriterier
+keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning, kriterier, regenerera statusövervakning, regenerera räknare
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -20,6 +20,8 @@ redirect_from:
   - /sv/saint/admin/restore-status
   - /sv/sale/saint/learn/admin/select-status-criteria
   - /sv/saint/admin/select-status-criteria
+  - /sv/sale/saint/learn/admin/manage-status-monitors
+  - /sv/saint/admin/manage-status-monitors
 ---
 
 # Uppdatera aktivitetsövervakning
@@ -96,6 +98,25 @@ Du kan återställa en tidigare borttagen status och regenerera den.
     Statusen återställs och visas med svart text i listan.
 
 1. Välj **Regenerera vald statusövervakning** för att uppdatera den återställda statusen.
+
+## <a id="regen"></a>Regenerera statusar och räknare <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+Längst ned på fliken **Statusövervakning** visar indikatorer datumet för den senaste uppdateringen. Ett rött kryss i statuslistan betyder att statusen inte är aktiv förrän du regenererar den. Om ett element aldrig har genererats, eller den senaste genereringen var för länge sedan, kan resultaten vara inaktuella.
+
+Statusar och räknare som inte är uppdaterade förblir synliga i SuperOffice CRM, men data kan vara felaktiga. Du bör regenerera när kriterier ändras, du har redigerat ett syfte för en uppgift, eller när indikatorerna antyder att data är inaktuella.
+
+### Regenerera statusar
+
+| Namn | Beskrivning | Plats |
+|---|---|---|
+| Återskapa vald statusövervakning | Uppdaterar den valda statusen | Längst ned på fliken **Företag**, **Kontakt** eller **Projekt** |
+| Återskapa all statusövervakning | Uppdaterar alla statusar | Längst ned på fliken **Statusövervakning** |
+
+### Regenerera räknare
+
+| Namn | Beskrivning |
+|---|---|
+| Återskapa alla räknare | Uppdaterar alla räknare |
 
 <!-- Referenced links -->
 [1]: create-status.md

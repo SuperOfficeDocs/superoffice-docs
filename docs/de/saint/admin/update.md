@@ -2,7 +2,7 @@
 uid: help-de-saint-update
 title: Aktivitätsüberwachung aktualisieren
 description: Aktivitätsüberwachung aktualisieren
-keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe, Statusüberwachung löschen, Statusüberwachung wiederherstellen, Kriterien
+keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe, Statusüberwachung löschen, Statusüberwachung wiederherstellen, Kriterien, Statusangaben regenerieren, Zähler regenerieren
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -20,6 +20,8 @@ redirect_from:
   - /de/saint/admin/restore-status
   - /de/sale/saint/learn/admin/select-status-criteria
   - /de/saint/admin/select-status-criteria
+  - /de/sale/saint/learn/admin/manage-status-monitors
+  - /de/saint/admin/manage-status-monitors
 ---
 
 # Aktivitätsüberwachung aktualisieren
@@ -96,6 +98,26 @@ Sie können einen zuvor gelöschten Status wiederherstellen und regenerieren.
     Der Status wird wiederhergestellt und in schwarzer Schrift in der Liste angezeigt.
 
 1. Wählen Sie **Ausgewählte Statusüberwachung regenerieren** aus, um den wiederhergestellten Status zu aktualisieren.
+
+<!-- markdownlint-disable-next-line MD013 -->
+## <a id="regen"></a>Statusangaben und Zähler regenerieren <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+Am unteren Rand der Registerkarte **Statuskontrollen** zeigen Indikatoren das Datum der letzten Aktualisierung an. Ein rotes Kreuz in der Statusliste bedeutet, dass der Status nicht aktiv ist, bis Sie ihn regenerieren. Wenn ein Element noch nie generiert wurde oder die letzte Generierung zu lange her ist, können die Ergebnisse veraltet sein.
+
+Statusangaben und Zähler, die nicht aktualisiert werden, bleiben in SuperOffice CRM sichtbar, aber die Daten können falsch sein. Sie sollten regenerieren, wenn sich Kriterien ändern, Sie eine Absicht für eine Aufgabe bearbeitet haben oder wenn die Indikatoren darauf hinweisen, dass die Daten veraltet sind.
+
+### Statusangaben regenerieren
+
+| Name | Beschreibung | Ort |
+|---|---|---|
+| Ausgewählte Statusangaben erneuern | Aktualisiert den ausgewählten Status | Unten auf der Registerkarte **Firma**, **Person** oder **Projekt** |
+| Alle Statuskontrollen erneuern | Aktualisiert alle Statusangaben | Unten auf der Registerkarte **Statusangaben** |
+
+### Zähler regenerieren
+
+| Name | Beschreibung |
+|---|---|
+| Alle Zähler erneuern | Aktualisiert alle Zähler |
 
 <!-- Referenced links -->
 [1]: create-status.md

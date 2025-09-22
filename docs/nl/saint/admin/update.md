@@ -97,7 +97,24 @@ U kunt een eerder verwijderde status herstellen en regenereren.
 
 1. Selecteer **Geselecteerde statusmonitoring regenereren** om de herstelde status bij te werken.
 
-## Taak 3
+## <a id="regen"></a>Statussen en tellers opnieuw genereren <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+Onderaan het tabblad **Statusmonitors** ziet u indicatoren met de datum van de meest recente update. Een rood kruis in de statuslijst betekent dat de status niet actief is totdat u deze opnieuw genereert. Als een item nog nooit is gegenereerd of de laatste generatie lang geleden is, kunnen de resultaten verouderd zijn.
+
+Statussen en tellers die niet zijn bijgewerkt, blijven zichtbaar in SuperOffice CRM, maar de gegevens kunnen onjuist zijn. U moet opnieuw genereren wanneer criteria veranderen, een intentie voor een taak bewerkt zijn, of wanneer de indicatoren aangeven dat de gegevens niet actueel zijn.
+
+### Statussen opnieuw genereren
+
+| Naam | Beschrijving | Locatie |
+|---|---|---|
+| Geselecteerde statusmonitor opnieuw genereren | Werkt de geselecteerde status bij | Onderaan het tabblad **Bedrijf**, **Contact** of **Project** |
+| Alle statusmonitors opnieuw genereren | Werkt alle statussen bij | Onderaan het tabblad **Statusmonitors** |
+
+### Tellers opnieuw genereren
+
+| Naam | Beschrijving |
+|---|---|
+| Alle tellers regenereren | Werkt alle tellers bij |
 
 <!-- Referenced links -->
 [1]: create-status.md

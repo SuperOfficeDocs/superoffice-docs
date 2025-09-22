@@ -2,7 +2,7 @@
 uid: help-en-saint-update
 title: Update activity monitors
 description: Update activity monitors
-keywords: SAINT, activity monitor, default follow-up type, delete status monitor, restore status monitor
+keywords: SAINT, activity monitor, default follow-up type, delete status monitor, restore status monitor, regenerate status monitor, regenerate counter
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -20,6 +20,8 @@ redirect_from:
   - /en/saint/admin/restore-status
   - /en/sale/saint/learn/admin/select-status-criteria
   - /en/saint/admin/select-status-criteria
+  - /en/sale/saint/learn/admin/manage-status-monitors
+  - /en/saint/admin/manage-status-monitors
 ---
 
 # Update activity monitors
@@ -96,6 +98,25 @@ You can restore a previously deleted status and regenerate it.
     The status is restored and displayed in black text in the list.
 
 1. Select **Regenerate selected status monitor** to update the restored status.
+
+## <a id="regen"></a>Regenerate statuses and counters <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+At the bottom of the **Status monitors** tab, indicators show the date of the most recent update. A red cross in the status list means the status is not active until you regenerate it. If an item has never been generated, or the last generation was a long time ago, the results may be outdated.
+
+Statuses and counters that are not updated remain visible in SuperOffice CRM, but the data may be incorrect. You should regenerate whenever criteria change, you have edited an intention for a task, or when the indicators suggest the data is stale.
+
+### Regenerate statuses
+
+| Name | Description | Location |
+|---|---|---|
+| Regenerate selected status monitor | Updates the selected status | Bottom of the **Company**, **Contact**, or **Project** tab |
+| Regenerate all status monitors | Updates all statuses | Bottom of the **Status monitors** tab |
+
+### Regenerate counters
+
+| Name | Description |
+|---|---|
+| Regenerate all counters | Updates all counters |
 
 <!-- Referenced links -->
 [1]: create-status.md

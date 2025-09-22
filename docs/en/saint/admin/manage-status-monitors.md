@@ -1,17 +1,5 @@
 ---
-uid: help-en-manage-status-monitors
-title: Manage status monitors
-description: Manage status monitors
-keywords: SAINT, activity monitor
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
-content_type: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: en
-index: true
-redirect_from: /en/sale/saint/learn/admin/manage-status-monitors
+redirect_url: https://docs.superoffice.com/en/saint/admin/update.html#regen
 ---
 
 # Manage status monitors

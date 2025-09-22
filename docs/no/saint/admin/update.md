@@ -2,7 +2,7 @@
 uid: help-no-saint-update
 title: Oppdatere aktivitetsovervåking
 description: Oppdatere aktivitetsovervåking
-keywords: SAINT, aktivitetsovervåking, standard oppfølgingstype, slette statusovervåking, gjenopprette statusovervåking, kriterier
+keywords: SAINT, aktivitetsovervåking, standard oppfølgingstype, slette statusovervåking, gjenopprette statusovervåking, kriterier, regenerere statusovervåking, regenerere teller
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -20,6 +20,8 @@ redirect_from:
   - /no/saint/admin/restore-status
   - /no/sale/saint/learn/admin/select-status-criteria
   - /no/saint/admin/select-status-criteria
+  - /no/sale/saint/learn/admin/manage-status-monitors
+  - /no/saint/admin/manage-status-monitors
 ---
 
 # Oppdatere aktivitetsovervåking
@@ -96,6 +98,25 @@ Du kan gjenopprette en tidligere slettet status og regenerere den.
     Statusen blir gjenopprettet og vises med svart tekst i listen.
 
 1. Velg **Regenerer valgt statusovervåking** for å oppdatere den gjenopprettede statusen.
+
+## <a id="regen"></a>Regenerere statuser og tellere <i class="ph ph-arrow-circle-right" aria-hidden="true"></i>
+
+Nederst i fanen **Statusovervåking** viser indikatorer datoen for den nyeste oppdateringen. Et rødt kryss i statuslisten betyr at statusen ikke er aktiv før du regenererer den. Hvis et element aldri har blitt generert, eller den siste genereringen var for lenge siden, kan resultatene være utdaterte.
+
+Statuser og tellere som ikke er oppdaterte forblir synlige i SuperOffice CRM, men dataene kan være feil. Du bør regenerere når kriterier endres, du har redigert en intensjon for en oppgave, eller når indikatorene antyder at dataene er utdaterte.
+
+### Regenerere statuser
+
+| Navn | Beskrivelse | Plassering |
+|---|---|---|
+| Regenerer valgt statusovervåking | Oppdaterer den valgte statusen | Nederst i fanen **Firma**, **Person** eller **Prosjekt** |
+| Regenerer alle statusovervåkinger | Oppdaterer alle statuser | Nederst i fanen **Statusovervåking** |
+
+### Regenerere tellere
+
+| Navn | Beskrivelse |
+|---|---|
+| Regenerer alle tellere | Oppdaterer alle tellere |
 
 <!-- Referenced links -->
 [1]: create-status.md
