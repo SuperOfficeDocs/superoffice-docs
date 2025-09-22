@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hodkiewicz-Wehner",
-  "AssociateId": 599
+  "TableName": "Harris Inc and Sons",
+  "AssociateId": 435
 }
 ```
 
@@ -96,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Abernathy Inc and Sons",
-    "RecordId": 44,
-    "AssociateId": 330,
-    "ExtraInfo": "perspiciatis",
-    "Rank": 279,
+    "TableName": "Macejkovic Inc and Sons",
+    "RecordId": 81,
+    "AssociateId": 922,
+    "ExtraInfo": "voluptatem",
+    "Rank": 373,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 620
       }
     }
   }

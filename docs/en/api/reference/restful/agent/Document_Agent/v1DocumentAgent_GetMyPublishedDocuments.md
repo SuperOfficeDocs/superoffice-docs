@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 167,
-    "Attention": "vitae",
-    "Header": "sit",
-    "Name": "Rempel LLC",
-    "OurRef": "nulla",
-    "YourRef": "ut",
-    "Description": "Re-contextualized mobile portal",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": true,
-    "PersonId": 282,
-    "PersonFullName": "Mr. Devante Bode MD",
-    "AssociateFullName": "Joel Armstrong",
-    "ContactId": 115,
-    "ContactName": "Schoen Inc and Sons",
-    "ProjectId": 953,
-    "ProjectName": "Schaden Group",
-    "AssociateId": 776,
-    "Snum": 581,
-    "SaleId": 420,
-    "SaleName": "Rippin-Romaguera",
+    "DocumentId": 354,
+    "Attention": "at",
+    "Header": "quia",
+    "Name": "Zulauf, Kozey and Osinski",
+    "OurRef": "aperiam",
+    "YourRef": "sit",
+    "Description": "Robust bottom-line knowledge user",
+    "DocumentTemplate": "praesentium",
+    "IsPublished": false,
+    "PersonId": 148,
+    "PersonFullName": "Patrick Beier",
+    "AssociateFullName": "Braeden Waters",
+    "ContactId": 562,
+    "ContactName": "Stoltenberg-Kautzer",
+    "ProjectId": 596,
+    "ProjectName": "Hagenes, Lind and Smitham",
+    "AssociateId": 404,
+    "Snum": 823,
+    "SaleId": 332,
+    "SaleName": "Goldner-Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 171
       }
     }
   }

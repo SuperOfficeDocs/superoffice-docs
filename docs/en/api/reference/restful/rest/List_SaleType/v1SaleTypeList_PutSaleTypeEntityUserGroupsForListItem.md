@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Altenwerth, Altenwerth and Herzog",
-    "ToolTip": "Quas ipsa.",
+    "Id": 980,
+    "Name": "Johns LLC",
+    "ToolTip": "Sunt at quo labore.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "aspernatur",
-    "ColorBlock": 28,
-    "IconHint": "non",
+    "Rank": 394,
+    "Type": "expedita",
+    "ColorBlock": 692,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2019-01-30T03:47:00.8161673+01:00",
+    "LastChanged": "2015-01-30T11:24:54.1405361+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Deckow, Hudson and Watsica",
-        "ToolTip": "Nisi suscipit ducimus voluptas possimus odio voluptatem.",
+        "Id": 125,
+        "Name": "Koss LLC",
+        "ToolTip": "Quis tempore vel.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "aut",
-        "ColorBlock": 76,
-        "IconHint": "vitae",
+        "Rank": 939,
+        "Type": "enim",
+        "ColorBlock": 270,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2010-08-15T03:47:00.8161673+02:00",
+        "LastChanged": "2005-09-25T11:24:54.1405361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "eos",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Madisyn Bechtelar IV"
+        "FullName": "Mr. Malvina Stark"
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "quia",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Dr. Tyler Favian Mills PhD"
+    "FullName": "Roderick Veum"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Ruecker LLC",
-    "ToolTip": "Alias ut voluptate vel.",
+    "Id": 279,
+    "Name": "Simonis, Fadel and Davis",
+    "ToolTip": "Vel rem accusantium.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "rerum",
-    "ColorBlock": 350,
-    "IconHint": "sit",
+    "Rank": 283,
+    "Type": "iste",
+    "ColorBlock": 914,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2003-04-02T03:47:00.8161673+02:00",
+    "LastChanged": "2008-03-28T11:24:54.1405361+01:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Reynolds-Hettinger",
-        "ToolTip": "Voluptatem ut perspiciatis minima.",
-        "Deleted": true,
-        "Rank": 73,
-        "Type": "rem",
-        "ColorBlock": 35,
-        "IconHint": "maxime",
-        "Selected": true,
-        "LastChanged": "2022-12-29T03:47:00.8161673+01:00",
+        "Id": 426,
+        "Name": "Orn, Mitchell and Nikolaus",
+        "ToolTip": "Et suscipit qui ut.",
+        "Deleted": false,
+        "Rank": 315,
+        "Type": "eum",
+        "ColorBlock": 611,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2014-06-14T11:24:54.1405361+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Dessie Jerde",
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Pierce Louvenia O'Reilly MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Anya Witting",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Prof. Providenci Emie O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldLength": 396
       }
     }
   }

@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Kessler, Kerluke and Kemmer",
-  "StorageKey": "soluta"
+  "StorageType": "soluta",
+  "ProviderName": "Grimes, Witting and Harris",
+  "StorageKey": "assumenda"
 }
 ```
 
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan-Ankunding",
-    "DisplayTooltip": "et",
-    "DisplayType": "ipsum",
+    "DisplayName": "Pollich-Legros",
+    "DisplayTooltip": "animi",
+    "DisplayType": "exercitationem",
     "CanOrderBy": false,
-    "Name": "Mosciski Inc and Sons",
+    "Name": "Schowalter-Rosenbaum",
     "CanRestrictBy": true,
-    "RestrictionType": "rerum",
-    "RestrictionListName": "Kshlerin-Halvorson",
+    "RestrictionType": "et",
+    "RestrictionListName": "Hahn-McGlynn",
     "IsVisible": true,
-    "ExtraInfo": "error",
-    "Width": "beatae",
-    "IconHint": "ad",
-    "HeadingIconHint": "tenetur"
+    "ExtraInfo": "voluptas",
+    "Width": "eligendi",
+    "IconHint": "doloribus",
+    "HeadingIconHint": "corporis"
   }
 ]
 ```

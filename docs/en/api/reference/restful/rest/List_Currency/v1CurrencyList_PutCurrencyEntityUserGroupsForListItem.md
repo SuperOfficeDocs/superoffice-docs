@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "White, Luettgen and Hermiston",
-    "ToolTip": "Enim minima.",
+    "Id": 861,
+    "Name": "Schamberger, Swift and Hackett",
+    "ToolTip": "At nulla iste.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "ut",
-    "ColorBlock": 253,
-    "IconHint": "sequi",
+    "Rank": 165,
+    "Type": "ipsum",
+    "ColorBlock": 634,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2018-08-21T03:47:00.628674+02:00",
+    "LastChanged": "2018-12-16T11:24:53.9061703+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Kilback Group",
-        "ToolTip": "Cumque vitae quo odit ad velit.",
-        "Deleted": false,
-        "Rank": 5,
-        "Type": "beatae",
-        "ColorBlock": 639,
-        "IconHint": "omnis",
+        "Id": 17,
+        "Name": "Pfeffer, Wiza and Bartell",
+        "ToolTip": "Occaecati molestiae ad provident.",
+        "Deleted": true,
+        "Rank": 173,
+        "Type": "quam",
+        "ColorBlock": 475,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2024-09-07T03:47:00.628674+02:00",
+        "LastChanged": "2010-09-12T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Breana Anderson"
+        "ExtraInfo": "quia",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Prof. Francis Ashlynn King"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "quam",
-    "Hidden": false,
-    "FullName": "Michele Joelle Torp Sr."
+    "ExtraInfo": "tempora",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Tiana Spinka"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Marvin, Quitzon and Rogahn",
-    "ToolTip": "Error iusto nihil.",
-    "Deleted": true,
-    "Rank": 407,
-    "Type": "id",
-    "ColorBlock": 526,
-    "IconHint": "eaque",
+    "Id": 653,
+    "Name": "Rogahn Group",
+    "ToolTip": "Dolorem sint alias odio accusantium.",
+    "Deleted": false,
+    "Rank": 417,
+    "Type": "quaerat",
+    "ColorBlock": 615,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2021-03-19T03:47:00.628674+01:00",
+    "LastChanged": "2019-02-27T11:24:53.9061703+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Schneider, Tillman and Lemke",
-        "ToolTip": "Dolores pariatur culpa et voluptas doloremque qui.",
-        "Deleted": false,
-        "Rank": 270,
-        "Type": "unde",
-        "ColorBlock": 290,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2017-06-08T03:47:00.628674+02:00",
+        "Id": 144,
+        "Name": "Stokes Inc and Sons",
+        "ToolTip": "Quo vero voluptas voluptatem ut rerum quasi quia.",
+        "Deleted": true,
+        "Rank": 764,
+        "Type": "cumque",
+        "ColorBlock": 997,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2000-07-13T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Lula Mann",
+        "ExtraInfo": "facere",
+        "StyleHint": "at",
+        "Hidden": true,
+        "FullName": "Miss Lafayette Wendell Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 935
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eum",
+    "ExtraInfo": "non",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Guido Myrna Crona PhD",
+    "FullName": "Etha Bartoletti V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 364
       }
     }
   }

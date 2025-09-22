@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "non",
-  "PersonId": 830,
-  "Mrmrs": "commodi",
-  "Firstname": "Harley",
-  "Lastname": "Murphy",
-  "MiddleName": "Green LLC",
-  "Title": "nesciunt",
-  "Description": "Grass-roots holistic ability",
-  "Email": "bria_reinger@rogahn.us",
-  "FullName": "Calista Gleason",
-  "DirectPhone": "181.544.1423 x66162",
-  "FormalName": "Rau LLC",
-  "CountryId": 707,
-  "ContactId": 303,
-  "ContactName": "Medhurst-Zieme",
-  "Retired": 84,
-  "Rank": 614,
-  "ActiveInterests": 818,
+  "Position": "sit",
+  "PersonId": 777,
+  "Mrmrs": "occaecati",
+  "Firstname": "Bobby",
+  "Lastname": "Jakubowski",
+  "MiddleName": "Emard, Terry and Treutel",
+  "Title": "ut",
+  "Description": "Virtual hybrid info-mediaries",
+  "Email": "wyatt@parisian.co.uk",
+  "FullName": "Oran Hayes",
+  "DirectPhone": "139-409-4372 x99352",
+  "FormalName": "Fay, Osinski and Tremblay",
+  "CountryId": 459,
+  "ContactId": 488,
+  "ContactName": "Raynor Inc and Sons",
+  "Retired": 959,
+  "Rank": 1002,
+  "ActiveInterests": 966,
   "ContactDepartment": "",
-  "ContactCountryId": 987,
-  "ContactOrgNr": "820954",
-  "FaxPhone": "912-723-6311 x58228",
-  "MobilePhone": "074.872.8243 x163",
-  "ContactPhone": "1-662-685-0667 x6224",
-  "AssociateName": "Cormier LLC",
-  "AssociateId": 76,
+  "ContactCountryId": 779,
+  "ContactOrgNr": "1357906",
+  "FaxPhone": "1-179-515-4613",
+  "MobilePhone": "1-458-140-9489 x6132",
+  "ContactPhone": "1-560-204-9077",
+  "AssociateName": "Sipes-Robel",
+  "AssociateId": 464,
   "UsePersonAddress": false,
-  "ContactFax": "beatae",
-  "Kanafname": "corrupti",
-  "Kanalname": "impedit",
-  "Post1": "praesentium",
-  "Post2": "dolores",
-  "Post3": "veniam",
-  "EmailName": "lora@douglasohara.biz",
-  "ContactFullName": "King Oberbrunner",
-  "ActiveErpLinks": 444,
-  "TicketPriorityId": 339,
-  "SupportLanguageId": 970,
-  "SupportAssociateId": 662,
+  "ContactFax": "veniam",
+  "Kanafname": "qui",
+  "Kanalname": "atque",
+  "Post1": "est",
+  "Post2": "vitae",
+  "Post3": "praesentium",
+  "EmailName": "kaleb.quitzon@ziemeblick.ca",
+  "ContactFullName": "Kayley Rosemary Hackett III",
+  "ActiveErpLinks": 512,
+  "TicketPriorityId": 261,
+  "SupportLanguageId": 187,
+  "SupportAssociateId": 108,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1481613",
+  "PersonNumber": "1704252",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 328
     }
   }
 }

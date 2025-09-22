@@ -36,13 +36,13 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.Firstname
   - SuperOffice.WebApi.Data.PersonEntity.FormalName
   - SuperOffice.WebApi.Data.PersonEntity.FullName
-  - SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
   - SuperOffice.WebApi.Data.PersonEntity.Interests
   - SuperOffice.WebApi.Data.PersonEntity.InternetPhones
   - SuperOffice.WebApi.Data.PersonEntity.IsAssociate
   - SuperOffice.WebApi.Data.PersonEntity.Kanafname
   - SuperOffice.WebApi.Data.PersonEntity.Kanalname
   - SuperOffice.WebApi.Data.PersonEntity.Lastname
+  - SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
   - SuperOffice.WebApi.Data.PersonEntity.MiddleName
   - SuperOffice.WebApi.Data.PersonEntity.MobilePhones
   - SuperOffice.WebApi.Data.PersonEntity.Mrmrs
@@ -71,6 +71,7 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
   - SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   - SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  - SuperOffice.WebApi.Data.PersonEntity.UtmParameters
   langs:
   - csharp
   - vb
@@ -1579,29 +1580,52 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CreatedByFormId As Integer
   overload: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId*
-- uid: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
-  commentId: P:SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
-  id: InitialUtmParameters
+- uid: SuperOffice.WebApi.Data.PersonEntity.UtmParameters
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UtmParameters
+  id: UtmParameters
   parent: SuperOffice.WebApi.Data.PersonEntity
   langs:
   - csharp
   - vb
-  name: InitialUtmParameters
-  nameWithType: PersonEntity.InitialUtmParameters
-  fullName: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+  name: UtmParameters
+  nameWithType: PersonEntity.UtmParameters
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UtmParameters
   type: Property
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Initial utm parameters when creating this person, readonly fields
+  summary: Utm parameters when creating this person, readonly fields
   example: []
   syntax:
-    content: public virtual InitalUtmParameters InitialUtmParameters { get; set; }
+    content: public virtual SavedUtmParameters UtmParameters { get; set; }
     parameters: []
     return:
-      type: SuperOffice.WebApi.Data.InitalUtmParameters
-    content.vb: Public Overridable Property InitialUtmParameters As InitalUtmParameters
-  overload: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters*
+      type: SuperOffice.WebApi.Data.SavedUtmParameters
+    content.vb: Public Overridable Property UtmParameters As SavedUtmParameters
+  overload: SuperOffice.WebApi.Data.PersonEntity.UtmParameters*
+- uid: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: PersonEntity.LeadstatusId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Refinement of categories of lead type. Empty if the category is not a lead type.
+  example: []
+  syntax:
+    content: public virtual int LeadstatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LeadstatusId As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId*
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2703,21 +2727,28 @@ references:
   name: CreatedByFormId
   nameWithType: PersonEntity.CreatedByFormId
   fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
-- uid: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters*
-  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+- uid: SuperOffice.WebApi.Data.PersonEntity.UtmParameters*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UtmParameters
   isExternal: true
-  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_InitialUtmParameters
-  name: InitialUtmParameters
-  nameWithType: PersonEntity.InitialUtmParameters
-  fullName: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
-- uid: SuperOffice.WebApi.Data.InitalUtmParameters
-  commentId: T:SuperOffice.WebApi.Data.InitalUtmParameters
+  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_UtmParameters
+  name: UtmParameters
+  nameWithType: PersonEntity.UtmParameters
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UtmParameters
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters
+  commentId: T:SuperOffice.WebApi.Data.SavedUtmParameters
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.InitalUtmParameters.html
-  name: InitalUtmParameters
-  nameWithType: InitalUtmParameters
-  fullName: SuperOffice.WebApi.Data.InitalUtmParameters
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html
+  name: SavedUtmParameters
+  nameWithType: SavedUtmParameters
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters
+- uid: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_LeadstatusId
+  name: LeadstatusId
+  nameWithType: PersonEntity.LeadstatusId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.LeadstatusId
 - uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomFields
   isExternal: true

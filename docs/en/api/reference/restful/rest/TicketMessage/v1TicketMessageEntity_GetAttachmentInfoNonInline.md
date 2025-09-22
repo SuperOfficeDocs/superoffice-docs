@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 352,
-    "Name": "Pouros Group",
-    "ContentType": "non",
-    "AttSize": 205,
-    "InlineImage": true,
-    "ContentId": "quidem",
-    "AuthKey": "delectus",
+    "AttachmentId": 401,
+    "Name": "Davis-Mills",
+    "ContentType": "magni",
+    "AttSize": 938,
+    "InlineImage": false,
+    "ContentId": "sunt",
+    "AuthKey": "itaque",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 603
       }
     }
   }

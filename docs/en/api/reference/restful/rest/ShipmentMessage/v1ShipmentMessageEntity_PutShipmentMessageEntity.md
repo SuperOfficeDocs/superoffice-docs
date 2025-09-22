@@ -120,31 +120,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 79,
-  "PlainMessage": "esse",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "pariatur",
-  "Description": "Distributed bifurcated strategy",
-  "Subject": "in",
-  "FolderId": 605,
-  "HeaderField": "vel",
-  "Design": "at",
+  "ShipmentMessageId": 967,
+  "PlainMessage": "veritatis",
+  "HtmlMessage": "aliquam",
+  "SmsMessage": "suscipit",
+  "Description": "Multi-channelled 6th generation emulation",
+  "Subject": "tempore",
+  "FolderId": 688,
+  "HeaderField": "aliquid",
+  "Design": "non",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Quality-focused client-driven encoding",
-  "AccessKey": "quia",
-  "DocumentMessage": 851,
-  "Registered": "2017-07-11T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 896,
-  "Updated": "2010-11-07T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 568,
-  "UpdatedCount": 420
+  "LongDescription": "Cross-platform national leverage",
+  "AccessKey": "ab",
+  "DocumentMessage": 769,
+  "Registered": "2010-05-03T11:24:53.5780588+02:00",
+  "RegisteredAssociateId": 415,
+  "Updated": "2012-02-27T11:24:53.5780588+01:00",
+  "UpdatedAssociateId": 584,
+  "UpdatedCount": 731
 }
 ```
 
@@ -155,33 +155,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 828,
-  "PlainMessage": "facilis",
-  "HtmlMessage": "sint",
-  "SmsMessage": "voluptatem",
-  "Description": "Pre-emptive system-worthy capability",
-  "Subject": "ut",
-  "FolderId": 896,
-  "HeaderField": "eos",
-  "Design": "harum",
+  "ShipmentMessageId": 566,
+  "PlainMessage": "aperiam",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "quam",
+  "Description": "Inverse bi-directional definition",
+  "Subject": "odio",
+  "FolderId": 379,
+  "HeaderField": "necessitatibus",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Front-line user-facing policy",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 528,
-  "Registered": "2005-01-11T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 126,
-  "Updated": "2014-03-25T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 45,
-  "UpdatedCount": 343,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Realigned scalable help-desk",
+  "AccessKey": "occaecati",
+  "DocumentMessage": 601,
+  "Registered": "2012-12-28T11:24:53.5780588+01:00",
+  "RegisteredAssociateId": 764,
+  "Updated": "2015-02-12T11:24:53.5780588+01:00",
+  "UpdatedAssociateId": 765,
+  "UpdatedCount": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 955
     }
   },
   "_Links": {

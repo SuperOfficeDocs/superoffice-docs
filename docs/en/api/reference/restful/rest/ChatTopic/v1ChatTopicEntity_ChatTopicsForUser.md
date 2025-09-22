@@ -88,7 +88,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 334,
-    "Name": "Mitchell-Schuppe",
-    "Description": "Function-based upward-trending interface",
-    "WelcomeMessage": "odio",
+    "ChatTopicId": 178,
+    "Name": "McLaughlin, Cronin and Shanahan",
+    "Description": "Universal disintermediate project",
+    "WelcomeMessage": "enim",
     "Language": null,
-    "LastAccept": "2003-02-13T03:46:59.8005718+01:00",
-    "SecondsPrAccept": 339,
-    "AlertRecipient": "ex",
+    "LastAccept": "2018-09-02T11:24:53.0624548+02:00",
+    "SecondsPrAccept": 792,
+    "AlertRecipient": "molestiae",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "repudiandae",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quaerat",
-    "WarnNewChatMinutes": 907,
-    "WarnManagerNewChatMinutes": 848,
+    "CollectConsent": false,
+    "BadgeHeader": "fugit",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "qui",
+    "WarnNewChatMinutes": 50,
+    "WarnManagerNewChatMinutes": 548,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 553,
-    "WarnManagerChatMessageMinutes": 754,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 12,
-    "OfflineFormQueueLength": 802,
+    "WarnChatMessageMinutes": 880,
+    "WarnManagerChatMessageMinutes": 107,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 195,
+    "OfflineFormQueueLength": 138,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "quam",
+    "WidgetRatingText": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 47
       }
     }
   }

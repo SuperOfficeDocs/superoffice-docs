@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Cole, Keebler and Oberbrunner",
-  "StorageKey": "dolore",
+  "StorageType": "molestiae",
+  "ProviderName": "Hills, Walter and Bergnaum",
+  "StorageKey": "enim",
   "RestrictionGroup": null,
-  "Context": "vitae"
+  "Context": "ut"
 }
 ```
 

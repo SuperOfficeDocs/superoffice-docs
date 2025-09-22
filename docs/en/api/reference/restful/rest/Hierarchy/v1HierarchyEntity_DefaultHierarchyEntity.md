@@ -67,7 +67,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,46 +77,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 435,
+  "HierarchyId": 266,
   "Domain": "Dashboards",
-  "Name": "Goyette-Braun",
-  "Fullname": "molestias",
-  "ParentId": 522,
+  "Name": "Walsh Group",
+  "Fullname": "tempore",
+  "ParentId": 84,
   "Children": [
     {
-      "HierarchyId": 500,
+      "HierarchyId": 845,
       "Domain": "Dashboards",
-      "Name": "Thiel, Lang and Kilback",
-      "Fullname": "voluptatem",
-      "ParentId": 431,
+      "Name": "Luettgen, Hackett and Harris",
+      "Fullname": "rerum",
+      "ParentId": 19,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-11-25T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 601,
-      "Updated": "2009-02-11T03:47:00.0349452+01:00",
-      "UpdatedAssociateId": 963,
+      "Registered": "1999-04-09T11:24:53.2968202+02:00",
+      "RegisteredAssociateId": 388,
+      "Updated": "2020-07-22T11:24:53.2968202+02:00",
+      "UpdatedAssociateId": 154,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     }
   ],
-  "Registered": "2002-07-06T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 292,
-  "Updated": "2002-05-28T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 960,
+  "Registered": "2001-07-18T11:24:53.2968202+02:00",
+  "RegisteredAssociateId": 157,
+  "Updated": "2003-04-27T11:24:53.2968202+02:00",
+  "UpdatedAssociateId": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

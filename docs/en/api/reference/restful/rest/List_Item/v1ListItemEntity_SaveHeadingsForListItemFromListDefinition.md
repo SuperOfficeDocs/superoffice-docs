@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Hermann, Ortiz and Parisian",
-    "ToolTip": "Est dolorem ea sit saepe id.",
+    "Id": 580,
+    "Name": "Weimann Group",
+    "ToolTip": "Optio saepe voluptatibus sed aliquam inventore praesentium enim.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "qui",
-    "ColorBlock": 394,
-    "IconHint": "dolorem",
+    "Rank": 677,
+    "Type": "perferendis",
+    "ColorBlock": 910,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2016-09-13T03:47:00.5661762+02:00",
+    "LastChanged": "2021-07-09T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Hoeger, Rau and Herman",
-        "ToolTip": "Eos modi atque corrupti.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "quisquam",
-        "ColorBlock": 501,
-        "IconHint": "eveniet",
-        "Selected": false,
-        "LastChanged": "2010-01-14T03:47:00.5661762+01:00",
+        "Id": 101,
+        "Name": "Stamm, Schuppe and Emmerich",
+        "ToolTip": "Dolor ducimus nemo quaerat autem sapiente similique.",
+        "Deleted": true,
+        "Rank": 916,
+        "Type": "quia",
+        "ColorBlock": 467,
+        "IconHint": "necessitatibus",
+        "Selected": true,
+        "LastChanged": "2020-06-18T11:24:53.8436729+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "eaque",
+        "ExtraInfo": "eos",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Hugh Jacobson"
+        "FullName": "Prof. Murl Carey Ziemann DDS"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ut",
+    "ExtraInfo": "porro",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Prof. Edison Willms IV"
+    "FullName": "Prof. Norene Jazlyn Gerhold"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Bradtke, Effertz and Konopelski",
-    "ToolTip": "Dolores in fugiat maiores quia quis voluptatem.",
+    "Id": 886,
+    "Name": "Zemlak, Weissnat and Kohler",
+    "ToolTip": "Aut sit doloremque aut.",
     "Deleted": true,
-    "Rank": 626,
-    "Type": "quaerat",
-    "ColorBlock": 955,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2013-09-18T03:47:00.5661762+02:00",
+    "Rank": 480,
+    "Type": "debitis",
+    "ColorBlock": 858,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2024-02-18T11:24:53.8436729+01:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Leannon LLC",
-        "ToolTip": "Eaque maiores.",
+        "Id": 103,
+        "Name": "Wisozk, Rau and Swaniawski",
+        "ToolTip": "Molestiae molestias aut ut.",
         "Deleted": false,
-        "Rank": 682,
-        "Type": "veritatis",
-        "ColorBlock": 274,
-        "IconHint": "itaque",
+        "Rank": 89,
+        "Type": "quo",
+        "ColorBlock": 942,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2011-11-23T03:47:00.5661762+01:00",
+        "LastChanged": "2013-04-21T11:24:53.8436729+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Cesar Haley",
+        "ExtraInfo": "placeat",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "Josie Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 204
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "odit",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Ms. Nova Rolfson II",
+    "FullName": "Brain Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

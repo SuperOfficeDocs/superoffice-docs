@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe LLC",
-  "AdditionalInfo": "alias",
-  "SearchValue": "accusamus"
+  "Name": "Thompson, Abernathy and Beahan",
+  "AdditionalInfo": "dignissimos",
+  "SearchValue": "esse"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Jakubowski, West and Stracke",
-    "ToolTip": "Id enim nihil officia quod quia quisquam.",
+    "Id": 633,
+    "Name": "Runolfsson, Cummerata and Buckridge",
+    "ToolTip": "Placeat sint quis ullam labore.",
     "Deleted": true,
-    "Rank": 630,
-    "Type": "earum",
+    "Rank": 937,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Jacobs Inc and Sons",
-        "ToolTip": "Fuga omnis deleniti odit cum.",
+        "Id": 932,
+        "Name": "Will-Kub",
+        "ToolTip": "Qui sint.",
         "Deleted": false,
-        "Rank": 754,
-        "Type": "impedit",
+        "Rank": 118,
+        "Type": "quaerat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 695,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "et",
-        "FullName": "Lazaro O'Reilly",
+        "IconHint": "fugiat",
+        "ColorBlock": 833,
+        "ExtraInfo": "tempore",
+        "StyleHint": "rerum",
+        "FullName": "Owen Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 748
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 908,
-    "ExtraInfo": "velit",
-    "StyleHint": "quia",
-    "FullName": "Lauren Huel",
+    "IconHint": "qui",
+    "ColorBlock": 813,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "aut",
+    "FullName": "Hazel Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldLength": 769
       }
     }
   }

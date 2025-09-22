@@ -119,24 +119,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 13,
-  "SourcePersonId": 46,
-  "DestinationContactId": 838,
-  "DestinationPersonId": 534,
-  "RelationId": 555,
-  "Comment": "inventore",
-  "RelationDefinitionId": 107,
-  "Reversed": 401,
-  "UpdatedDate": "2016-03-28T03:46:59.8943184+02:00",
-  "CreatedDate": "2022-09-10T03:46:59.8943184+02:00",
+  "SourceContactId": 168,
+  "SourcePersonId": 728,
+  "DestinationContactId": 572,
+  "DestinationPersonId": 170,
+  "RelationId": 798,
+  "Comment": "voluptate",
+  "RelationDefinitionId": 647,
+  "Reversed": 115,
+  "UpdatedDate": "2006-06-23T11:24:53.156201+02:00",
+  "CreatedDate": "2024-06-25T11:24:53.156201+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Flatley-Zulauf",
-  "SourcePersonName": "Fadel LLC",
-  "DestinationContactName": "Bashirian Inc and Sons",
-  "DestinationPersonName": "Jakubowski-Veum",
-  "ActiveText": "accusamus",
-  "PassiveText": "hic"
+  "SourceContactName": "Dibbert, Padberg and Rath",
+  "SourcePersonName": "Barton LLC",
+  "DestinationContactName": "Howe, Shields and Abbott",
+  "DestinationPersonName": "Larkin-Nienow",
+  "ActiveText": "non",
+  "PassiveText": "minima"
 }
 ```
 
@@ -147,30 +147,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 317,
-  "SourcePersonId": 538,
-  "DestinationContactId": 498,
-  "DestinationPersonId": 609,
-  "RelationId": 980,
-  "Comment": "mollitia",
-  "RelationDefinitionId": 267,
-  "Reversed": 987,
-  "UpdatedDate": "2015-02-13T03:46:59.8943184+01:00",
-  "CreatedDate": "2022-07-02T03:46:59.8943184+02:00",
+  "SourceContactId": 491,
+  "SourcePersonId": 566,
+  "DestinationContactId": 963,
+  "DestinationPersonId": 527,
+  "RelationId": 597,
+  "Comment": "laudantium",
+  "RelationDefinitionId": 988,
+  "Reversed": 93,
+  "UpdatedDate": "2015-04-10T11:24:53.156201+02:00",
+  "CreatedDate": "2020-05-30T11:24:53.156201+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Blick-Murphy",
-  "SourcePersonName": "Moore, Mueller and Larson",
-  "DestinationContactName": "Cassin-Bayer",
-  "DestinationPersonName": "Kub-D'Amore",
-  "ActiveText": "laboriosam",
-  "PassiveText": "quia",
+  "SourceContactName": "Fritsch Inc and Sons",
+  "SourcePersonName": "Padberg LLC",
+  "DestinationContactName": "Kautzer, Ratke and Bosco",
+  "DestinationPersonName": "Collier Inc and Sons",
+  "ActiveText": "est",
+  "PassiveText": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 372
     }
   },
   "_Links": {

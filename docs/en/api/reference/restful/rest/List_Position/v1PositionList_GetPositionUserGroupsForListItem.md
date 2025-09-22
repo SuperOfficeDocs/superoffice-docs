@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Cremin, Bradtke and Hilll",
-    "ToolTip": "Neque quibusdam veritatis est voluptatem veritatis unde doloribus.",
-    "Deleted": true,
-    "Rank": 202,
-    "Type": "et",
-    "ColorBlock": 344,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2014-05-23T03:47:00.7067961+02:00",
+    "Id": 533,
+    "Name": "Reinger LLC",
+    "ToolTip": "Aut earum repellendus dolore labore aperiam quod.",
+    "Deleted": false,
+    "Rank": 916,
+    "Type": "totam",
+    "ColorBlock": 701,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2001-12-11T11:24:53.9842923+01:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Schiller, Berge and Roberts",
-        "ToolTip": "Animi labore veniam enim labore.",
+        "Id": 350,
+        "Name": "Frami Inc and Sons",
+        "ToolTip": "Ipsa inventore ut doloremque ex autem voluptas.",
         "Deleted": false,
-        "Rank": 666,
-        "Type": "rerum",
-        "ColorBlock": 25,
-        "IconHint": "maxime",
+        "Rank": 958,
+        "Type": "aut",
+        "ColorBlock": 507,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2008-04-11T03:47:00.7067961+02:00",
+        "LastChanged": "2017-09-26T11:24:53.9842923+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Dr. Alexander Britney Wisoky",
+        "ExtraInfo": "eum",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Fausto Alisa Muller V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldType": "System.String",
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "ipsam",
-    "Hidden": true,
-    "FullName": "Ophelia Satterfield",
+    "ExtraInfo": "vel",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Grayson Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

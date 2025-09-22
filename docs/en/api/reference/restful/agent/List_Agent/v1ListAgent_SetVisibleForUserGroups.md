@@ -94,28 +94,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 239,
-  "ListItemId": 624,
+  "UdListDefinitionId": 927,
+  "ListItemId": 675,
   "UserGroups": [
     {
-      "Id": 828,
-      "Name": "Collier Group",
-      "ToolTip": "Consequatur quaerat ut.",
-      "Deleted": false,
-      "Rank": 115,
-      "Type": "consequatur",
-      "ColorBlock": 758,
-      "IconHint": "distinctio",
-      "Selected": false,
-      "LastChanged": "2020-07-20T03:46:54.9413809+02:00",
+      "Id": 44,
+      "Name": "Pfeffer Group",
+      "ToolTip": "Et vel.",
+      "Deleted": true,
+      "Rank": 373,
+      "Type": "pariatur",
+      "ColorBlock": 893,
+      "IconHint": "consequatur",
+      "Selected": true,
+      "LastChanged": "2007-08-08T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "natus",
+      "ExtraInfo": "magni",
+      "StyleHint": "itaque",
       "Hidden": false,
-      "FullName": "Mrs. Erick Sadie Kutch"
+      "FullName": "Krystel Batz"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Schneider LLC",
-    "ToolTip": "Veritatis ex.",
+    "Id": 726,
+    "Name": "Huels Inc and Sons",
+    "ToolTip": "Atque iure praesentium non eos vel ut.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "enim",
-    "ColorBlock": 722,
-    "IconHint": "maiores",
+    "Rank": 634,
+    "Type": "voluptate",
+    "ColorBlock": 314,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1999-08-07T03:46:54.9569999+02:00",
+    "LastChanged": "2008-04-27T11:24:48.2032781+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Tillman, Labadie and Tillman",
-        "ToolTip": "Qui molestiae nemo modi qui facere.",
-        "Deleted": false,
-        "Rank": 907,
-        "Type": "qui",
-        "ColorBlock": 145,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2008-05-05T03:46:54.9569999+02:00",
+        "Id": 778,
+        "Name": "Borer-Daugherty",
+        "ToolTip": "Eaque quod magnam sunt.",
+        "Deleted": true,
+        "Rank": 579,
+        "Type": "velit",
+        "ColorBlock": 943,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2025-02-27T11:24:48.2032781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "enim",
+        "ExtraInfo": "commodi",
+        "StyleHint": "quasi",
         "Hidden": true,
-        "FullName": "Miss Austen Keegan Jacobs MD",
+        "FullName": "Parker Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 471
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "modi",
+    "StyleHint": "eius",
     "Hidden": false,
-    "FullName": "Dortha Runolfsdottir",
+    "FullName": "Alexzander Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 689
       }
     }
   }

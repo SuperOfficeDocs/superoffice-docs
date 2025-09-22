@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 72,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "est",
-  "Name": "Roberts-Donnelly",
-  "Description": "Future-proofed human-resource core",
-  "Code": "quisquam",
-  "PriceUnit": "temporibus",
-  "QuantityUnit": "exercitationem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 18951.298,
-  "ItemNumber": "724102",
+  "ProductId": 548,
+  "ERPProductKey": "dolores",
+  "ERPPriceListKey": "omnis",
+  "Name": "Barrows, Runolfsson and Smith",
+  "Description": "Face to face systemic middleware",
+  "Code": "aliquam",
+  "PriceUnit": "omnis",
+  "QuantityUnit": "facilis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 5801.034,
+  "ItemNumber": "915122",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "soluta",
-  "VAT": 21314.334,
-  "VATInfo": "laborum",
-  "UnitCost": 5384.2119999999995,
-  "UnitMinimumPrice": 27927.074,
-  "UnitListPrice": 30666.19,
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "iusto",
+  "VAT": 15347.198,
+  "VATInfo": "id",
+  "UnitCost": 3961.3759999999997,
+  "UnitMinimumPrice": 25322.719999999998,
+  "UnitListPrice": 4942.318,
   "InAssortment": true,
-  "Supplier": "doloremque",
-  "SupplierCode": "numquam",
-  "Rights": "nisi",
-  "Rule": "numquam",
+  "Supplier": "modi",
+  "SupplierCode": "ab",
+  "Rights": "et",
+  "Rule": "delectus",
   "ExtraInfo": [
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Kub-Purdy",
+      "Value": "pariatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 984
         }
       }
     },
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Kub-Purdy",
+      "Value": "pariatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 984
         }
       }
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "est",
-  "ExtraField2": "id",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "aut",
-  "ExtraField5": "adipisci",
-  "InStock": 2905.218,
+  "RawExtraInfo": "et",
+  "ExtraField1": "sit",
+  "ExtraField2": "dicta",
+  "ExtraField3": "sed",
+  "ExtraField4": "saepe",
+  "ExtraField5": "possimus",
+  "InStock": 14616.975999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

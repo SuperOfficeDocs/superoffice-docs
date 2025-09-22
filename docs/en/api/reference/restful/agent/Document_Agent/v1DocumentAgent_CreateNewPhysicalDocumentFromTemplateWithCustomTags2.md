@@ -121,18 +121,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 967,
-  "PersonId": 221,
-  "AppointmentId": 481,
-  "DocumentId": 2,
-  "SaleId": 528,
-  "SelectionId": 638,
-  "ProjectId": 261,
+  "ContactId": 12,
+  "PersonId": 791,
+  "AppointmentId": 71,
+  "DocumentId": 595,
+  "SaleId": 128,
+  "SelectionId": 664,
+  "ProjectId": 286,
   "CustomTags": {
-    "CustomTags1": "inventore",
-    "CustomTags2": "nulla"
+    "CustomTags1": "aut",
+    "CustomTags2": "aut"
   },
-  "UiCulture": "qui"
+  "UiCulture": "provident"
 }
 ```
 
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 825,
+  "DocumentId": 552,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "hic",
-  "Header": "rerum",
-  "Name": "Schuster, Nienow and Pagac",
-  "OurRef": "est",
-  "YourRef": "qui",
-  "CreatedDate": "2014-02-17T03:46:54.67576+01:00",
-  "UpdatedDate": "2013-05-27T03:46:54.67576+02:00",
-  "Description": "Versatile bandwidth-monitored groupware",
+  "Attention": "officiis",
+  "Header": "illo",
+  "Name": "Steuber LLC",
+  "OurRef": "cumque",
+  "YourRef": "in",
+  "CreatedDate": "2023-07-23T11:24:48.0001535+02:00",
+  "UpdatedDate": "2005-01-07T11:24:48.0001535+01:00",
+  "Description": "Streamlined non-volatile benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-11-02T03:46:54.67576+01:00",
-  "ExternalRef": "recusandae",
+  "Date": "2007-07-28T11:24:48.0001535+02:00",
+  "ExternalRef": "quos",
   "Completed": "Completed",
-  "ActiveLinks": 428,
+  "ActiveLinks": 643,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bernhard-Beatty",
-      "Id": 741,
-      "Description": "Networked object-oriented array",
-      "ExtraInfo": "modi",
-      "LinkId": 897,
+      "EntityName": "Lubowitz-Kub",
+      "Id": 851,
+      "Description": "Implemented coherent info-mediaries",
+      "ExtraInfo": "commodi",
+      "LinkId": 577,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 257
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 528,
-  "Snum": 398,
+  "SuggestedDocumentId": 865,
+  "Snum": 503,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Rodolfo Schinner",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Bernadette Hegmann",
+    "SuperOffice:2": "Braulio Jacobi"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "soluta",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2023-08-23T03:46:54.67576+02:00",
-  "PublishTo": "2021-12-07T03:46:54.67576+01:00",
-  "PublishFrom": "2012-06-13T03:46:54.67576+02:00",
+  "PublishEventDate": "2019-06-01T11:24:48.0001535+02:00",
+  "PublishTo": "2022-07-23T11:24:48.0001535+02:00",
+  "PublishFrom": "2009-12-01T11:24:48.0001535+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 249,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldType": "System.Int32",
+          "FieldLength": 324
         }
       }
     },
     {
-      "VisibleId": 249,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldType": "System.Int32",
+          "FieldLength": 324
         }
       }
     }
@@ -233,8 +233,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 804
     }
   }
 }

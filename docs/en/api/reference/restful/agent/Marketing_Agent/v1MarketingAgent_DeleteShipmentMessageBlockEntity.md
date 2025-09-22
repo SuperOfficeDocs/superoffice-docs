@@ -26,7 +26,7 @@ Deletes the ShipmentMessageBlockEntity
 | shipmentMessageBlockEntityId | int32 | **Required** The identity of the ShipmentMessageBlockEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=815
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=366
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

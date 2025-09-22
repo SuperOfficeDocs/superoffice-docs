@@ -109,8 +109,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "IncludeAttachments": true
+  "Id": 491,
+  "IncludeAttachments": false
 }
 ```
 
@@ -123,97 +123,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 753,
-      "ContactName": "Bednar Inc and Sons",
-      "PersonId": 202,
-      "PersonName": "Torphy, Lemke and Mann",
-      "AssociateId": 774,
-      "Address": "sunt",
-      "EmailId": 542,
+      "ContactId": 575,
+      "ContactName": "Kozey LLC",
+      "PersonId": 35,
+      "PersonName": "Watsica-Kunze",
+      "AssociateId": 241,
+      "Address": "id",
+      "EmailId": 906,
       "DuplicatePersonIds": [
-        180,
-        635
+        50,
+        807
       ],
-      "Name": "Hermiston Group",
+      "Name": "Stoltenberg Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 227
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 59,
-      "ContactName": "Balistreri, Kutch and Harvey",
-      "PersonId": 561,
-      "PersonName": "Halvorson-Welch",
-      "AssociateId": 229,
-      "Address": "vero",
-      "EmailId": 650,
+      "ContactId": 494,
+      "ContactName": "Moen LLC",
+      "PersonId": 645,
+      "PersonName": "Goldner, Beatty and Durgan",
+      "AssociateId": 143,
+      "Address": "tempore",
+      "EmailId": 956,
       "DuplicatePersonIds": [
-        915,
-        19
+        562,
+        887
       ],
-      "Name": "Brekke, Weimann and Morissette",
+      "Name": "Greenfelder Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 871
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 411,
-      "ContactName": "Kshlerin, Feeney and Daniel",
-      "PersonId": 686,
-      "PersonName": "Johns, Gorczany and Parisian",
-      "AssociateId": 52,
-      "Address": "temporibus",
-      "EmailId": 550,
+      "ContactId": 155,
+      "ContactName": "Christiansen LLC",
+      "PersonId": 583,
+      "PersonName": "Bergstrom-Senger",
+      "AssociateId": 293,
+      "Address": "culpa",
+      "EmailId": 555,
       "DuplicatePersonIds": [
-        527,
-        803
+        419,
+        590
       ],
-      "Name": "Halvorson Group",
+      "Name": "Gutmann-D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldLength": 846
         }
       }
     }
   ],
-  "Subject": "consequuntur",
-  "HTMLBody": "optio",
+  "Subject": "quia",
+  "HTMLBody": "vel",
   "From": null,
-  "Sent": "2001-08-07T03:46:54.8007556+02:00",
-  "Size": 569,
+  "Sent": "2007-07-02T11:24:48.1095319+02:00",
+  "Size": 910,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "asperiores",
-  "PlainBody": "veritatis",
+  "MessageID": "nobis",
+  "PlainBody": "fugiat",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 32,
+  "ServerId": 775,
   "Attachments": [
     {
-      "Description": "Secured incremental middleware",
+      "Description": "Automated human-resource emulation",
       "Filename": "eum",
-      "Size": 250,
-      "Type": "qui",
-      "Encoding": "fuga",
-      "Id": "impedit",
-      "Disposition": "consectetur",
+      "Size": 828,
+      "Type": "possimus",
+      "Encoding": "ducimus",
+      "Id": "totam",
+      "Disposition": "repellat",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -221,58 +221,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 472
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Kunde Inc and Sons",
       "Values": [
-        "quia",
-        "nihil"
+        "nulla",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 971
         }
       }
     },
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Kunde Inc and Sons",
       "Values": [
-        "quia",
-        "nihil"
+        "nulla",
+        "nobis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 971
         }
       }
     }
   ],
-  "FolderName": "Walsh, Orn and Berge",
-  "EmailItemId": 64,
-  "AccountId": 265,
-  "ReceivedAt": "2019-04-24T03:46:54.8007556+02:00",
+  "FolderName": "Marvin, Witting and Stroman",
+  "EmailItemId": 861,
+  "AccountId": 714,
+  "ReceivedAt": "2017-03-13T11:24:48.1095319+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-05-10T03:46:54.8007556+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2020-01-06T11:24:48.1095319+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 320
     }
   }
 }

@@ -118,18 +118,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -142,27 +142,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Bogan LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 775,
-  "IsCustomList": true,
+  "Id": 854,
+  "Name": "Walsh Group",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "Rank": 343,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

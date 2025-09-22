@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 199,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 68,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -116,79 +116,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 381,
+  "EjMessageId": 674,
   "Ticket": null,
-  "CreatedAt": "2019-11-07T03:46:55.4257333+01:00",
+  "CreatedAt": "2023-02-15T11:24:48.6876333+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 640,
-  "Body": "itaque",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "jadon.moen@graham.us",
-  "DebugInfo": "veniam",
-  "MailSorter": "ut",
+  "MessageId": "ea",
+  "TimeSpent": 518,
+  "Body": "nesciunt",
+  "HtmlBody": "tempora",
+  "EmailHeader": "mabel.beatty@koeppbuckridge.us",
+  "DebugInfo": "aut",
+  "MailSorter": "dolorem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequuntur",
+  "SearchTitle": "distinctio",
   "MessageHeaders": [
     {
-      "Id": 886,
-      "Name": "Sauer-Cartwright",
-      "Value": "molestiae",
+      "Id": 517,
+      "Name": "Spencer-Jakubowski",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldType": "System.Int32",
+          "FieldLength": 119
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 193,
+  "Important": true,
+  "Language": "nihil",
+  "Sentiment": 47,
   "SentimentConfidence": 484,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 176,
-      "Name": "Beier Group",
-      "ContentType": "quo",
-      "AttSize": 982,
-      "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "placeat",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 697,
+      "Name": "Lang-Hettinger",
+      "ContentType": "omnis",
+      "AttSize": 19,
+      "InlineImage": true,
+      "ContentId": "itaque",
+      "AuthKey": "architecto",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 267
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "rem"
+    "CustomFields1": "quae",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 973
     }
   }
 }

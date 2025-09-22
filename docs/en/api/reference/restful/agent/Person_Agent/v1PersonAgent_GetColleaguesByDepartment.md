@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 126
+  "DepartmentId": 767
 }
 ```
 
@@ -132,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quaerat",
-    "PersonId": 599,
-    "Mrmrs": "totam",
-    "Firstname": "Alphonso",
-    "Lastname": "Cassin",
-    "MiddleName": "Grady Group",
-    "Title": "nihil",
-    "Description": "Business-focused dynamic firmware",
-    "Email": "emmalee_mann@gutmann.com",
-    "FullName": "Queen Pacocha",
-    "DirectPhone": "666.180.9556 x867",
-    "FormalName": "DuBuque LLC",
-    "CountryId": 592,
-    "ContactId": 27,
-    "ContactName": "Ledner-Daniel",
-    "Retired": 215,
-    "Rank": 709,
-    "ActiveInterests": 846,
+    "Position": "voluptatem",
+    "PersonId": 105,
+    "Mrmrs": "ad",
+    "Firstname": "Cary",
+    "Lastname": "Fritsch",
+    "MiddleName": "Satterfield-Nicolas",
+    "Title": "fuga",
+    "Description": "Future-proofed optimal groupware",
+    "Email": "jany@wyman.co.uk",
+    "FullName": "Nicole Janelle Leannon PhD",
+    "DirectPhone": "287.288.4338 x559",
+    "FormalName": "Breitenberg-Mitchell",
+    "CountryId": 406,
+    "ContactId": 740,
+    "ContactName": "Streich, Wolff and Mitchell",
+    "Retired": 415,
+    "Rank": 208,
+    "ActiveInterests": 167,
     "ContactDepartment": "",
-    "ContactCountryId": 960,
-    "ContactOrgNr": "1191682",
-    "FaxPhone": "759-369-7447",
-    "MobilePhone": "811-713-3895 x623",
-    "ContactPhone": "276-932-1397 x914",
-    "AssociateName": "Thompson, Volkman and Sipes",
-    "AssociateId": 641,
-    "UsePersonAddress": false,
-    "ContactFax": "eveniet",
-    "Kanafname": "enim",
-    "Kanalname": "iusto",
-    "Post1": "sit",
-    "Post2": "veritatis",
-    "Post3": "minus",
-    "EmailName": "jocelyn_nienow@kiehn.ca",
-    "ContactFullName": "Ms. Wyatt Prosacco",
-    "ActiveErpLinks": 190,
-    "TicketPriorityId": 42,
-    "SupportLanguageId": 345,
-    "SupportAssociateId": 149,
+    "ContactCountryId": 599,
+    "ContactOrgNr": "647772",
+    "FaxPhone": "1-944-618-3075",
+    "MobilePhone": "(457)594-8160 x710",
+    "ContactPhone": "(967)512-4400",
+    "AssociateName": "Goyette-Abernathy",
+    "AssociateId": 444,
+    "UsePersonAddress": true,
+    "ContactFax": "qui",
+    "Kanafname": "dolorem",
+    "Kanalname": "maxime",
+    "Post1": "mollitia",
+    "Post2": "et",
+    "Post3": "fugit",
+    "EmailName": "americo_hermiston@green.com",
+    "ContactFullName": "Dr. Kailey Shania Padberg IV",
+    "ActiveErpLinks": 763,
+    "TicketPriorityId": 997,
+    "SupportLanguageId": 232,
+    "SupportAssociateId": 513,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1455199",
+    "PersonNumber": "723794",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 686
       }
     }
   }

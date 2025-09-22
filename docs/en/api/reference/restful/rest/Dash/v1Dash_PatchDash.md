@@ -121,18 +121,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -145,37 +145,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 548,
-  "UniqueId": "sit",
-  "Name": "Brekke Inc and Sons",
-  "Description": "Distributed cohesive circuit",
-  "AssociateId": 475,
-  "Columns": 362,
+  "DashboardId": 429,
+  "UniqueId": "tempora",
+  "Name": "Murazik-Macejkovic",
+  "Description": "Organic demand-driven product",
+  "AssociateId": 118,
+  "Columns": 155,
   "Theme": null,
-  "VisibleForAll": 623,
+  "VisibleForAll": 597,
   "VisibleForAssociates": [
-    356,
-    846
+    966,
+    644
   ],
   "VisibleForGroups": [
-    970,
-    89
+    313,
+    929
   ],
-  "PinForAll": 371,
+  "PinForAll": 245,
   "PinForAssociates": [
-    440,
-    819
+    612,
+    189
   ],
   "PinForGroups": [
-    181,
-    58
+    709,
+    176
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 248
     }
   },
   "_Links": {

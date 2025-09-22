@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=doloremque
+GET /api/v1/List/PaymentTerm/MDOItems?query=magni
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Prosacco-Lindgren",
-    "ToolTip": "Iste quaerat consectetur numquam laboriosam suscipit qui.",
+    "Id": 640,
+    "Name": "Hackett Group",
+    "ToolTip": "Ut molestias debitis.",
     "Deleted": true,
-    "Rank": 946,
-    "Type": "odit",
+    "Rank": 571,
+    "Type": "ad",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Fisher Inc and Sons",
-        "ToolTip": "Molestiae commodi ut.",
+        "Id": 199,
+        "Name": "Kiehn LLC",
+        "ToolTip": "Optio impedit.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "nostrum",
+        "Rank": 202,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 692,
-        "ExtraInfo": "quasi",
-        "StyleHint": "sed",
-        "FullName": "Georgianna Mann",
+        "IconHint": "accusamus",
+        "ColorBlock": 338,
+        "ExtraInfo": "ex",
+        "StyleHint": "facere",
+        "FullName": "Vena Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldType": "System.String",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 764,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "non",
-    "FullName": "Brendon Smitham",
+    "IconHint": "sequi",
+    "ColorBlock": 120,
+    "ExtraInfo": "sunt",
+    "StyleHint": "nisi",
+    "FullName": "Mr. Graciela Arielle McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

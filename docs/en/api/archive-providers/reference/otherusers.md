@@ -50,7 +50,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=credentialDisplayValue,role,assocType
+GET /api/v1/archive/OtherUsers?$select=isLocation,role,assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

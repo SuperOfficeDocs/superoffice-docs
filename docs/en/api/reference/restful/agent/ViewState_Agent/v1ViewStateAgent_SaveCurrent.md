@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 414,
-  "Id": 561,
-  "HistoryName": "Brekke-Keeling",
-  "HistoryId": 949,
-  "AssociateId": 357,
-  "Name": "Reinger, Spinka and Dach",
-  "ItemInfo": "iure",
+  "Rank": 64,
+  "Id": 616,
+  "HistoryName": "Howe-Littel",
+  "HistoryId": 946,
+  "AssociateId": 200,
+  "Name": "Tremblay Inc and Sons",
+  "ItemInfo": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 246
     }
   }
 }

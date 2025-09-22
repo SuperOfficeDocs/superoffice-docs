@@ -5,7 +5,7 @@ items:
   id: TrackEventSender
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  - SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
   - SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
   langs:
   - csharp
@@ -48,34 +48,34 @@ items:
   extensionMethods:
   - SuperOffice.Util.TrackEventSender.EnumUtil.MapEnums``2
   - SuperOffice.Util.TrackEventSender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
-  commentId: M:SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
-  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})'
+- uid: SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  commentId: M:SuperOffice.Util.TrackEventSender.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender},SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent})'
   parent: SuperOffice.Util.TrackEventSender
   langs:
   - csharp
   - vb
-  name: TrackEventSender(IOptions<TrackEventConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
-  nameWithType: TrackEventSender.TrackEventSender(IOptions<TrackEventConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
-  fullName: SuperOffice.Util.TrackEventSender.TrackEventSender(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventSender>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>)
+  name: TrackEventSender(IOptions<OnlineConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
+  nameWithType: TrackEventSender.TrackEventSender(IOptions<ConfigFile.OnlineConfiguration>, ILogger<TrackEventSender>, IAsyncQueue<TrackEvent>)
+  fullName: SuperOffice.Util.TrackEventSender.TrackEventSender(Microsoft.Extensions.Options.IOptions<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.TrackEventSender>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public TrackEventSender(IOptions<TrackEventConfiguration> options, ILogger<TrackEventSender> logger, IAsyncQueue<TrackEvent> queue)
+    content: public TrackEventSender(IOptions<ConfigFile.OnlineConfiguration> options, ILogger<TrackEventSender> logger, IAsyncQueue<TrackEvent> queue)
     parameters:
     - id: options
-      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}
     - id: queue
       type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent}
-    content.vb: Public Sub New(options As IOptions(Of TrackEventConfiguration), logger As ILogger(Of TrackEventSender), queue As IAsyncQueue(Of TrackEvent))
+    content.vb: Public Sub New(options As IOptions(Of ConfigFile.OnlineConfiguration), logger As ILogger(Of TrackEventSender), queue As IAsyncQueue(Of TrackEvent))
   overload: SuperOffice.Util.TrackEventSender.#ctor*
-  nameWithType.vb: TrackEventSender.New(IOptions(Of TrackEventConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
-  fullName.vb: SuperOffice.Util.TrackEventSender.New(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventSender), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent))
-  name.vb: New(IOptions(Of TrackEventConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
+  nameWithType.vb: TrackEventSender.New(IOptions(Of ConfigFile.OnlineConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
+  fullName.vb: SuperOffice.Util.TrackEventSender.New(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.TrackEventSender), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent))
+  name.vb: New(IOptions(Of OnlineConfiguration), ILogger(Of TrackEventSender), IAsyncQueue(Of TrackEvent))
 - uid: SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.TrackEventSender.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
   id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
@@ -1195,34 +1195,37 @@ references:
 - uid: SuperOffice.Util.TrackEventSender.#ctor*
   commentId: Overload:SuperOffice.Util.TrackEventSender.#ctor
   isExternal: true
-  href: SuperOffice.Util.TrackEventSender.html#SuperOffice_Util_TrackEventSender__ctor_Microsoft_Extensions_Options_IOptions_SuperOffice_Util_TrackEventConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_TrackEventSender__SuperOffice_Threading_IAsyncQueue_SuperOffice_Util_TrackEvent__
+  href: SuperOffice.Util.TrackEventSender.html#SuperOffice_Util_TrackEventSender__ctor_Microsoft_Extensions_Options_IOptions_SuperOffice_Configuration_ConfigFile_OnlineConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_TrackEventSender__SuperOffice_Threading_IAsyncQueue_SuperOffice_Util_TrackEvent__
   name: TrackEventSender
   nameWithType: TrackEventSender.TrackEventSender
   fullName: SuperOffice.Util.TrackEventSender.TrackEventSender
   nameWithType.vb: TrackEventSender.New
   fullName.vb: SuperOffice.Util.TrackEventSender.New
   name.vb: New
-- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
-  commentId: T:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
+  commentId: T:Microsoft.Extensions.Options.IOptions{SuperOffice.Configuration.ConfigFile.OnlineConfiguration}
   parent: Microsoft.Extensions.Options
   definition: Microsoft.Extensions.Options.IOptions`1
   href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
-  name: IOptions<TrackEventConfiguration>
-  nameWithType: IOptions<TrackEventConfiguration>
-  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>
-  nameWithType.vb: IOptions(Of TrackEventConfiguration)
-  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration)
-  name.vb: IOptions(Of TrackEventConfiguration)
+  name: IOptions<ConfigFile.OnlineConfiguration>
+  nameWithType: IOptions<ConfigFile.OnlineConfiguration>
+  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Configuration.ConfigFile.OnlineConfiguration>
+  nameWithType.vb: IOptions(Of ConfigFile.OnlineConfiguration)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Configuration.ConfigFile.OnlineConfiguration)
+  name.vb: IOptions(Of ConfigFile.OnlineConfiguration)
   spec.csharp:
   - uid: Microsoft.Extensions.Options.IOptions`1
     name: IOptions
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
   - name: <
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
     isExternal: true
-    href: SuperOffice.Util.TrackEventConfiguration.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
   - name: '>'
   spec.vb:
   - uid: Microsoft.Extensions.Options.IOptions`1
@@ -1232,10 +1235,13 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
+  - uid: SuperOffice.Configuration.ConfigFile
+    name: ConfigFile
     isExternal: true
-    href: SuperOffice.Util.TrackEventConfiguration.html
+  - name: .
+  - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+    name: OnlineConfiguration
+    isExternal: true
   - name: )
 - uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}
   commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.TrackEventSender}

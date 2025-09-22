@@ -26,7 +26,7 @@ Deletes the Product
 | productId | int32 | **Required** The identity of the Product |
 
 ```http
-POST /api/v1/Agents/Quote/DeleteProduct?productId=261
+POST /api/v1/Agents/Quote/DeleteProduct?productId=150
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Quote/DeleteProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

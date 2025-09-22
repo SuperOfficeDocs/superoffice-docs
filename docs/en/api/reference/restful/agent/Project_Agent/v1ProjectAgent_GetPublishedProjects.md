@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    678,
-    305
+    29,
+    715
   ]
 }
 ```
@@ -110,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 5,
-    "Name": "Konopelski Inc and Sons",
-    "Description": "Automated optimal extranet",
+    "ProjectId": 996,
+    "Name": "Ortiz Inc and Sons",
+    "Description": "Universal uniform paradigm",
     "URL": "http://www.example.com/",
-    "Type": "iure",
-    "AssociateId": 876,
-    "AssociateFullName": "Miss Moshe Candelario Conn III",
-    "TypeId": 616,
-    "Updated": "2017-09-06T03:46:55.1757421+02:00",
-    "StatusId": 450,
-    "Status": "assumenda",
-    "TextId": 722,
-    "PublishTo": "2000-06-02T03:46:55.1757421+02:00",
-    "PublishFrom": "1999-02-09T03:46:55.1757421+01:00",
+    "Type": "sit",
+    "AssociateId": 88,
+    "AssociateFullName": "Hector Jerde",
+    "TypeId": 128,
+    "Updated": "2005-12-05T11:24:48.4845166+01:00",
+    "StatusId": 897,
+    "Status": "quasi",
+    "TextId": 838,
+    "PublishTo": "2002-04-09T11:24:48.4845166+02:00",
+    "PublishFrom": "2006-01-04T11:24:48.4845166+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1103289",
-    "ActiveErpLinks": 25,
+    "ProjectNumber": "878765",
+    "ActiveErpLinks": 420,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 251
       }
     }
   }

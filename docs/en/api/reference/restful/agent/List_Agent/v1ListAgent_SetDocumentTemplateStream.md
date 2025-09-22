@@ -103,14 +103,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ea",
-  "PluginId": 165
+  "LanguageCode": "laborum",
+  "PluginId": 712
 }
 ```
 
@@ -121,37 +121,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 462,
-  "Name": "Schiller-Labadie",
-  "Tooltip": "aliquam",
-  "SaveInDb": 179,
-  "Filename": "sit",
-  "DefaultOref": "minus",
+  "DocumentTemplateId": 310,
+  "Name": "Corkery-Abshire",
+  "Tooltip": "unde",
+  "SaveInDb": 900,
+  "Filename": "qui",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 381,
-  "IntentId": 24,
+  "AutoeventId": 256,
+  "IntentId": 231,
   "IsDefaultPublished": false,
-  "Rank": 54,
-  "LoadTemplateFromPlugin": 582,
-  "MimeType": "id",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 95,
+  "Rank": 367,
+  "LoadTemplateFromPlugin": 196,
+  "MimeType": "sed",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 257,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcelino_nolan@pagac.ca",
+  "EmailSubject": "georgiana@friesenokeefe.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stacy_jacobs@turcotte.ca",
+  "SenderEmailAddress": "paxton@zieme.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

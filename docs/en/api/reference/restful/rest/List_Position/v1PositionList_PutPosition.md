@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Crona LLC",
-  "Tooltip": "ab",
+  "Id": 131,
+  "Name": "Bernier Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "UdListDefinitionId": 321,
-  "Rank": 728
+  "UdListDefinitionId": 514,
+  "Rank": 913
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Effertz-Larkin",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 170,
-  "Rank": 797,
+  "Id": 408,
+  "Name": "Quitzon Group",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 339,
+  "Rank": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldLength": 365
     }
   }
 }

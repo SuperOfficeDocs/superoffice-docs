@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Fahey Group",
-  "Tooltip": "facere",
-  "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 80,
+  "Id": 575,
+  "Name": "Cremin-Hand",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 577,
+  "Rank": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

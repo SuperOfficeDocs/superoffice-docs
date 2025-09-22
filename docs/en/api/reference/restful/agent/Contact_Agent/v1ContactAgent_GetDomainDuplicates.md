@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "est"
+  "Domain": "ratione"
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Wisoky-Sawayn",
-    "SoPrimaryKey": 745,
-    "EntryName": "Crona-Wolf",
-    "EntryIdentifier": "facilis",
-    "RuleDisplayName": "Koelpin-Walker",
+    "RuleName": "Hammes-Gutmann",
+    "SoPrimaryKey": 121,
+    "EntryName": "Konopelski, Sawayn and Weber",
+    "EntryIdentifier": "rerum",
+    "RuleDisplayName": "Steuber, Sawayn and Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 231
+        "FieldType": "System.Int32",
+        "FieldLength": 172
       }
     }
   }

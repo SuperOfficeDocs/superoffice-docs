@@ -28,7 +28,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=voluptas
+GET /api/v1/List/ConsentPurpose/MDOItems?query=a
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Blick Inc and Sons",
-    "ToolTip": "Non est magnam ipsum aspernatur ea voluptatum ea.",
-    "Deleted": false,
-    "Rank": 522,
-    "Type": "velit",
+    "Id": 653,
+    "Name": "Haag LLC",
+    "ToolTip": "Assumenda debitis similique cum impedit exercitationem quas vitae.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Beier, Jones and Moen",
-        "ToolTip": "Laboriosam et et non.",
-        "Deleted": false,
-        "Rank": 698,
-        "Type": "iste",
+        "Id": 579,
+        "Name": "Kerluke-Barton",
+        "ToolTip": "Sunt enim distinctio labore.",
+        "Deleted": true,
+        "Rank": 111,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 923,
+        "IconHint": "reiciendis",
+        "ColorBlock": 460,
         "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Clemens Wyman",
+        "StyleHint": "et",
+        "FullName": "Miss Spencer Orville Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldType": "System.Int32",
+            "FieldLength": 260
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 704,
-    "ExtraInfo": "facilis",
-    "StyleHint": "aut",
-    "FullName": "Hulda Feil",
+    "IconHint": "et",
+    "ColorBlock": 470,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "est",
+    "FullName": "Xzavier Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 840
       }
     }
   }

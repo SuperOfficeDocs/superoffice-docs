@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 153,
-  "StartTime": "2012-05-20T03:46:54.6132622+02:00",
-  "EndTime": "2009-06-24T03:46:54.6132622+02:00",
-  "Count": 3,
-  "DocumentTemplateId": 832
+  "PersonId": 310,
+  "StartTime": "2024-05-13T11:24:47.8751665+02:00",
+  "EndTime": "2012-01-03T11:24:47.8751665+01:00",
+  "Count": 67,
+  "DocumentTemplateId": 357
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 803,
-    "Attention": "qui",
-    "Header": "laborum",
-    "Name": "Ward-Reilly",
-    "OurRef": "culpa",
-    "YourRef": "aperiam",
-    "Description": "Streamlined multi-tasking instruction set",
-    "DocumentTemplate": "natus",
+    "DocumentId": 195,
+    "Attention": "sint",
+    "Header": "eum",
+    "Name": "Bergstrom-Lockman",
+    "OurRef": "officia",
+    "YourRef": "culpa",
+    "Description": "Profound intangible approach",
+    "DocumentTemplate": "earum",
     "IsPublished": false,
-    "PersonId": 690,
-    "PersonFullName": "Prof. Leland Kraig Moore DDS",
-    "AssociateFullName": "Clifton Darrick Connelly MD",
-    "ContactId": 785,
-    "ContactName": "Wolff, Bruen and Jenkins",
-    "ProjectId": 786,
-    "ProjectName": "Hirthe, Kautzer and Heaney",
-    "AssociateId": 449,
-    "Snum": 18,
-    "SaleId": 981,
-    "SaleName": "Crona Inc and Sons",
+    "PersonId": 659,
+    "PersonFullName": "Eda Botsford",
+    "AssociateFullName": "Mrs. Layne Alexie Hammes Sr.",
+    "ContactId": 990,
+    "ContactName": "Feil Inc and Sons",
+    "ProjectId": 827,
+    "ProjectName": "D'Amore, Hansen and Purdy",
+    "AssociateId": 668,
+    "Snum": 26,
+    "SaleId": 847,
+    "SaleName": "Flatley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldLength": 596
       }
     }
   }

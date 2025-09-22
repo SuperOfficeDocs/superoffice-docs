@@ -98,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 811,
-    "Name": "Blick-Kertzmann",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 863,
+    "WebPanelId": 451,
+    "Name": "Yundt, Lakin and Blanda",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 457,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Runolfsson, Russel and Lubowitz",
+    "ShowInStatusBar": true,
+    "WindowName": "Parker LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "vel",
-    "Icon": 350,
+    "ProgId": "veniam",
+    "Icon": 19,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldLength": 58
       }
     }
   }

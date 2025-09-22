@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Jewess, Hickle and Kunze",
-    "ToolTip": "Beatae magni dicta deserunt accusamus.",
-    "Deleted": false,
-    "Rank": 71,
-    "Type": "inventore",
-    "ColorBlock": 608,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2024-12-24T03:47:00.7536695+01:00",
+    "Id": 169,
+    "Name": "Zemlak-Anderson",
+    "ToolTip": "Reprehenderit corrupti et exercitationem.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "similique",
+    "ColorBlock": 50,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2014-07-23T11:24:54.0311654+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Runte-Romaguera",
-        "ToolTip": "Voluptatem autem.",
+        "Id": 139,
+        "Name": "McKenzie, Weber and Denesik",
+        "ToolTip": "Laudantium id earum dignissimos.",
         "Deleted": false,
-        "Rank": 72,
-        "Type": "possimus",
-        "ColorBlock": 728,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2012-12-06T03:47:00.7536695+01:00",
+        "Rank": 865,
+        "Type": "nemo",
+        "ColorBlock": 147,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2018-10-17T11:24:54.0311654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
+        "ExtraInfo": "quasi",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Mrs. Marianna Flatley DVM",
+        "FullName": "Juwan Auer I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldType": "System.String",
+            "FieldLength": 334
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Felicia Kuphal",
+    "ExtraInfo": "quas",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Dax Pouros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 615
       }
     }
   }

@@ -27,7 +27,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=736
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=70
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -111,88 +111,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 950,
+  "DocumentId": 967,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "adipisci",
-  "Header": "saepe",
-  "Name": "Vandervort Group",
-  "OurRef": "doloremque",
-  "YourRef": "totam",
-  "CreatedDate": "2021-10-08T03:46:54.6445112+02:00",
-  "UpdatedDate": "2013-04-11T03:46:54.6445112+02:00",
-  "Description": "Implemented object-oriented moderator",
+  "Attention": "tenetur",
+  "Header": "id",
+  "Name": "Weissnat, Conn and O'Keefe",
+  "OurRef": "nemo",
+  "YourRef": "maiores",
+  "CreatedDate": "2012-06-29T11:24:47.9689125+02:00",
+  "UpdatedDate": "2024-07-10T11:24:47.9689125+02:00",
+  "Description": "Profit-focused homogeneous groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-09T03:46:54.6445112+02:00",
-  "ExternalRef": "consequuntur",
+  "Date": "2007-02-15T11:24:47.9689125+01:00",
+  "ExternalRef": "ducimus",
   "Completed": "Completed",
-  "ActiveLinks": 426,
+  "ActiveLinks": 489,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ferry, Bernhard and Treutel",
-      "Id": 30,
-      "Description": "Business-focused value-added productivity",
-      "ExtraInfo": "quo",
-      "LinkId": 558,
+      "EntityName": "Effertz-Blanda",
+      "Id": 304,
+      "Description": "Seamless analyzing secured line",
+      "ExtraInfo": "et",
+      "LinkId": 375,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 759
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 119,
-  "Snum": 317,
+  "SuggestedDocumentId": 231,
+  "Snum": 117,
   "UserDefinedFields": {
-    "SuperOffice:1": "Maryjane Jeff Jast III",
-    "SuperOffice:2": "Vincenza Cleve Walker III"
+    "SuperOffice:1": "Travis Batz",
+    "SuperOffice:2": "391511433"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "enim"
+    "CustomFields1": "nisi",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2018-01-05T03:46:54.6445112+01:00",
-  "PublishTo": "2009-04-05T03:46:54.6445112+02:00",
-  "PublishFrom": "2004-05-18T03:46:54.6445112+02:00",
+  "PublishEventDate": "1999-05-19T11:24:47.9689125+02:00",
+  "PublishTo": "2016-03-19T11:24:47.9689125+01:00",
+  "PublishFrom": "2011-08-07T11:24:47.9689125+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 468,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 370
         }
       }
     },
     {
-      "VisibleId": 468,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 370
         }
       }
     }
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 218
     }
   }
 }

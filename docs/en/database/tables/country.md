@@ -66,12 +66,12 @@ Country information
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[CountryGroupLink](countrygrouplink.md)  |User group link table for Country, for MDO item hiding |
 |[CountryHeadingLink](countryheadinglink.md)  |Heading link table for Country, for MDO headers |
 |[Currency](currency.md)  |Currency list table |
 |[LanguageInfoCountry](languageinfocountry.md)  |Many-many link between countries and languages, to give intelligent choices for language |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[PhoneFormat](phoneformat.md)  |Formatting information for telephone numbers |
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |
 |[redletterday](redletterday.md)  |Red letter days for calendar (holidays, birthday of king etc) |

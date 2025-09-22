@@ -86,18 +86,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "at",
+      "Key": "quaerat"
     },
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "at",
+      "Key": "quaerat"
     }
   ]
 }
@@ -112,22 +112,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "tempore",
+    "RawValue": "quas",
     "Specification": null,
-    "DisplayValue": "vero",
-    "DisplayTooltip": "voluptas",
+    "DisplayValue": "voluptas",
+    "DisplayTooltip": "doloremque",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 121,
-    "PrefDescId": 909,
-    "TableName": "Dach LLC",
-    "UserPreferenceId": 763,
+    "TargetId": 735,
+    "PrefDescId": 763,
+    "TableName": "Feil, Schamberger and Robel",
+    "UserPreferenceId": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 1000
       }
     }
   }

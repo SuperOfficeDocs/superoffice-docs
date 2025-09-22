@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 841,
+  "HierarchyId": 991,
   "Domain": "Dashboards",
-  "Name": "Bergnaum LLC",
-  "Fullname": "cupiditate",
-  "ParentId": 633,
+  "Name": "Smitham, Russel and Hansen",
+  "Fullname": "consequatur",
+  "ParentId": 398,
   "Children": [
     {
-      "HierarchyId": 334,
+      "HierarchyId": 119,
       "Domain": "Dashboards",
-      "Name": "Russel, Muller and Heidenreich",
-      "Fullname": "enim",
-      "ParentId": 493,
+      "Name": "Hegmann, Greenfelder and Little",
+      "Fullname": "aut",
+      "ParentId": 252,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-08-20T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 937,
-      "Updated": "2020-12-01T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 788,
+      "Registered": "2002-04-03T11:24:48.234527+02:00",
+      "RegisteredAssociateId": 584,
+      "Updated": "2018-05-16T11:24:48.234527+02:00",
+      "UpdatedAssociateId": 346,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldLength": 268
         }
       }
     }
   ],
-  "Registered": "2002-09-02T03:46:54.9726245+02:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2002-03-06T03:46:54.9726245+01:00",
-  "UpdatedAssociateId": 54,
+  "Registered": "2024-07-29T11:24:48.234527+02:00",
+  "RegisteredAssociateId": 43,
+  "Updated": "1999-09-27T11:24:48.234527+02:00",
+  "UpdatedAssociateId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

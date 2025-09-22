@@ -74,16 +74,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Mosciski Inc and Sons",
-  "Tooltip": "est",
+  "HeadingId": 329,
+  "Name": "Spencer Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 840,
-  "UdListDefinitionId": 937
+  "Rank": 295,
+  "UdListDefinitionId": 432
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 780,
-  "Name": "Reinger-Turcotte",
-  "Tooltip": "mollitia",
+  "HeadingId": 527,
+  "Name": "Reichert Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 352,
-  "UdListDefinitionId": 384,
+  "Rank": 285,
+  "UdListDefinitionId": 923,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 604
     }
   }
 }

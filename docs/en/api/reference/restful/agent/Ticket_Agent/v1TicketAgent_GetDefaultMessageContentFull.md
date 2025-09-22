@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 867,
+  "TicketId": 404,
   "MessageActionType": "Forward",
-  "TicketMessageId": 703,
-  "TicketTypeId": 271
+  "TicketMessageId": 601,
+  "TicketTypeId": 683
 }
 ```
 
@@ -94,23 +94,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "nisi",
+  "Body": "quia",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 747,
-      "Name": "Vandervort, Rath and Koepp",
-      "ContentType": "quasi",
-      "AttSize": 244,
+      "AttachmentId": 629,
+      "Name": "Rodriguez-Hessel",
+      "ContentType": "et",
+      "AttSize": 968,
       "InlineImage": false,
-      "ContentId": "dolorem",
-      "AuthKey": "similique",
+      "ContentId": "nulla",
+      "AuthKey": "cumque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Veum, Zemlak and Grady",
-    "ToolTip": "Ut explicabo nostrum praesentium velit.",
+    "Id": 372,
+    "Name": "Runolfsdottir-Pfeffer",
+    "ToolTip": "Quos ex.",
     "Deleted": false,
-    "Rank": 26,
-    "Type": "velit",
-    "ColorBlock": 239,
-    "IconHint": "possimus",
+    "Rank": 614,
+    "Type": "qui",
+    "ColorBlock": 749,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2006-07-23T03:47:00.8317917+02:00",
+    "LastChanged": "2018-11-19T11:24:54.1561606+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Kutch, Stark and Moore",
-        "ToolTip": "Adipisci blanditiis velit expedita.",
+        "Id": 182,
+        "Name": "Walker-Skiles",
+        "ToolTip": "Veritatis sunt laborum rerum est ex.",
         "Deleted": false,
-        "Rank": 486,
-        "Type": "nisi",
-        "ColorBlock": 761,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2008-11-27T03:47:00.8317917+01:00",
+        "Rank": 395,
+        "Type": "autem",
+        "ColorBlock": 534,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "2021-12-08T11:24:54.1561606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quo",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Hildegard Davin Ortiz",
+        "FullName": "Beverly Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldType": "System.Int32",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Estell McGlynn DDS",
+    "ExtraInfo": "sint",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Hank Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldLength": 702
       }
     }
   }

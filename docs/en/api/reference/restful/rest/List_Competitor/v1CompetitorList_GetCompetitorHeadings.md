@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 796,
-    "Name": "Homenick, Muller and Bogisich",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 983,
-    "UdListDefinitionId": 184,
+    "HeadingId": 888,
+    "Name": "D'Amore Group",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 608,
+    "UdListDefinitionId": 310,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 462
       }
     }
   }

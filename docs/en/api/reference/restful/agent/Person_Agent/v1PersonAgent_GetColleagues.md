@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,53 +117,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolore",
-    "PersonId": 694,
-    "Mrmrs": "facere",
-    "Firstname": "Omari",
-    "Lastname": "Haag",
-    "MiddleName": "Shields Inc and Sons",
-    "Title": "fugiat",
-    "Description": "Expanded modular firmware",
-    "Email": "esteban_sauer@waters.us",
-    "FullName": "Edgar Mraz",
-    "DirectPhone": "1-435-398-5473",
-    "FormalName": "Marks, Turcotte and Zulauf",
-    "CountryId": 268,
-    "ContactId": 88,
-    "ContactName": "Nitzsche-D'Amore",
-    "Retired": 17,
-    "Rank": 148,
-    "ActiveInterests": 761,
+    "Position": "nihil",
+    "PersonId": 678,
+    "Mrmrs": "ut",
+    "Firstname": "Holden",
+    "Lastname": "Wiegand",
+    "MiddleName": "Kemmer-Turcotte",
+    "Title": "voluptatibus",
+    "Description": "Persevering fresh-thinking hierarchy",
+    "Email": "davon.price@will.biz",
+    "FullName": "Kellie Green",
+    "DirectPhone": "1-376-583-8467",
+    "FormalName": "O'Keefe, Koss and Hackett",
+    "CountryId": 478,
+    "ContactId": 816,
+    "ContactName": "Mayer LLC",
+    "Retired": 216,
+    "Rank": 934,
+    "ActiveInterests": 510,
     "ContactDepartment": "",
-    "ContactCountryId": 190,
-    "ContactOrgNr": "499539",
-    "FaxPhone": "209-262-2078",
-    "MobilePhone": "1-694-577-9876 x428",
-    "ContactPhone": "450-363-4479 x3389",
-    "AssociateName": "Hudson-Flatley",
-    "AssociateId": 772,
+    "ContactCountryId": 951,
+    "ContactOrgNr": "432257",
+    "FaxPhone": "499-262-2058 x249",
+    "MobilePhone": "100.094.9268 x268",
+    "ContactPhone": "(001)003-0813",
+    "AssociateName": "Willms-McClure",
+    "AssociateId": 953,
     "UsePersonAddress": true,
-    "ContactFax": "error",
-    "Kanafname": "cum",
-    "Kanalname": "at",
-    "Post1": "quis",
-    "Post2": "ab",
-    "Post3": "ullam",
-    "EmailName": "annamarie@heaneycartwright.biz",
-    "ContactFullName": "Carmella Becker",
-    "ActiveErpLinks": 57,
-    "TicketPriorityId": 534,
-    "SupportLanguageId": 56,
-    "SupportAssociateId": 408,
+    "ContactFax": "id",
+    "Kanafname": "fuga",
+    "Kanalname": "possimus",
+    "Post1": "temporibus",
+    "Post2": "culpa",
+    "Post3": "repellat",
+    "EmailName": "pierce.kuphal@schaeferemard.name",
+    "ContactFullName": "Dr. Briana White V",
+    "ActiveErpLinks": 742,
+    "TicketPriorityId": 961,
+    "SupportLanguageId": 735,
+    "SupportAssociateId": 705,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1169548",
+    "PersonNumber": "590400",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Ritchie LLC",
-    "ToolTip": "Autem reprehenderit magnam ea.",
+    "Id": 530,
+    "Name": "Haag-Ankunding",
+    "ToolTip": "Et sint aperiam.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "neque",
-    "ColorBlock": 248,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2016-11-27T03:47:00.6442984+01:00",
+    "Rank": 498,
+    "Type": "repudiandae",
+    "ColorBlock": 50,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2015-11-09T11:24:53.9374193+01:00",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Powlowski Inc and Sons",
-        "ToolTip": "Nihil quo enim voluptate laboriosam maiores.",
-        "Deleted": false,
-        "Rank": 412,
-        "Type": "et",
-        "ColorBlock": 684,
-        "IconHint": "distinctio",
+        "Id": 289,
+        "Name": "Bednar-Blanda",
+        "ToolTip": "Et temporibus sed.",
+        "Deleted": true,
+        "Rank": 56,
+        "Type": "odit",
+        "ColorBlock": 2,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2015-08-17T03:47:00.6442984+02:00",
+        "LastChanged": "2020-06-12T11:24:53.9374193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Ms. Anthony Heathcote DVM"
+        "FullName": "Johanna Little"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "facere",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Efren Terry"
+    "FullName": "Thora Price"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Will-Osinski",
-    "ToolTip": "Atque et nisi exercitationem aut tempore ea quisquam.",
+    "Id": 772,
+    "Name": "Stroman, Wilkinson and Becker",
+    "ToolTip": "Explicabo enim eum quos sed quia fugit aliquid.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "deserunt",
-    "ColorBlock": 70,
-    "IconHint": "error",
-    "Selected": false,
-    "LastChanged": "2000-03-24T03:47:00.6442984+01:00",
+    "Rank": 189,
+    "Type": "accusamus",
+    "ColorBlock": 119,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2008-03-22T11:24:53.9374193+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Unde ad magnam ipsum deleniti.",
+        "Id": 605,
+        "Name": "Mante, Considine and Pollich",
+        "ToolTip": "Maxime deserunt repellat rerum.",
         "Deleted": false,
-        "Rank": 983,
-        "Type": "quam",
-        "ColorBlock": 912,
-        "IconHint": "sed",
+        "Rank": 119,
+        "Type": "sint",
+        "ColorBlock": 511,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2021-09-01T03:47:00.6442984+02:00",
+        "LastChanged": "2014-08-10T11:24:53.9374193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Cassandra Hirthe",
+        "FullName": "Dr. Kaylin Lubowitz DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldType": "System.Int32",
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "provident",
+    "ExtraInfo": "similique",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Carlotta Runolfsson",
+    "FullName": "Mr. Garett Johnson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 861
       }
     }
   }

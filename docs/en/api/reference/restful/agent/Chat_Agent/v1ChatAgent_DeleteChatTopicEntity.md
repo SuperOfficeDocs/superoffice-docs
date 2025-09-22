@@ -26,7 +26,7 @@ Deletes the ChatTopicEntity
 | chatTopicEntityId | int32 | **Required** The identity of the ChatTopicEntity |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=183
+POST /api/v1/Agents/Chat/DeleteChatTopicEntity?chatTopicEntityId=967
 ```
 
 

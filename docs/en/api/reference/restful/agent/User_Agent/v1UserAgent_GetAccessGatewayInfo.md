@@ -79,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "provident",
-  "RedirectUri": "minima",
+  "ClientId": "consequatur",
+  "RedirectUri": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 734
     }
   }
 }

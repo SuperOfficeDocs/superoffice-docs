@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 935
+  "ErpFieldId": 369
 }
 ```
 
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 950,
-  "DefaultValue": "expedita",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "voluptas",
-  "PromptUser": true,
+  "ErpFieldId": 217,
+  "DefaultValue": "quis",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "nobis",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "dolorem",
+  "ErpFieldKey": "enim",
   "FieldType": "Checkbox",
-  "ListName": "Murphy, Ullrich and McGlynn",
+  "ListName": "Sanford Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 451
     }
   }
 }

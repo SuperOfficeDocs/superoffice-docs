@@ -205,7 +205,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecycleContact?$select=streetAddress/line2,contactAssociate/mrMrs
+GET /api/v1/archive/RecycleContact?$select=contactExtra/x_contact_boolean,streetAddress/line2,contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

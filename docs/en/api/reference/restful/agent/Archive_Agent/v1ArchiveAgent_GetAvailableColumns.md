@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler-Schroeder",
-  "Context": "error"
+  "ProviderName": "Cummerata LLC",
+  "Context": "et"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Nader-Greenfelder",
-    "DisplayTooltip": "nisi",
-    "DisplayType": "qui",
+    "DisplayName": "Wunsch-Goodwin",
+    "DisplayTooltip": "molestiae",
+    "DisplayType": "repellendus",
     "CanOrderBy": false,
-    "Name": "Orn-Ward",
-    "CanRestrictBy": false,
-    "RestrictionType": "quibusdam",
-    "RestrictionListName": "Murazik Inc and Sons",
+    "Name": "McLaughlin, Fritsch and Mohr",
+    "CanRestrictBy": true,
+    "RestrictionType": "ipsum",
+    "RestrictionListName": "Botsford, Morissette and Howell",
     "IsVisible": false,
-    "ExtraInfo": "omnis",
-    "Width": "nesciunt",
-    "IconHint": "impedit",
-    "HeadingIconHint": "laudantium"
+    "ExtraInfo": "ex",
+    "Width": "et",
+    "IconHint": "corrupti",
+    "HeadingIconHint": "sit"
   }
 ]
 ```

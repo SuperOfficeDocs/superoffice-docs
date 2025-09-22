@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 273
+  "ContactId": 437
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20117.146,
-  "Wgs84Longitude": 24768.002,
+  "Wgs84Latitude": 7719.0419999999995,
+  "Wgs84Longitude": 1986.956,
   "LocalizedAddress": [
     [
       {
-        "Name": "Deckow, Boyle and Friesen",
-        "Value": "corporis",
-        "Tooltip": "porro",
-        "Label": "perspiciatis",
-        "ValueLength": 624,
-        "AddressType": "molestiae",
+        "Name": "Harris-Lubowitz",
+        "Value": "dolor",
+        "Tooltip": "fuga",
+        "Label": "non",
+        "ValueLength": 816,
+        "AddressType": "accusantium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldType": "System.String",
+            "FieldLength": 472
           }
         }
       }
     ],
     [
       {
-        "Name": "Breitenberg, Hammes and Quitzon",
-        "Value": "inventore",
-        "Tooltip": "ut",
-        "Label": "dolor",
-        "ValueLength": 912,
-        "AddressType": "voluptas",
+        "Name": "Pfannerstill Group",
+        "Value": "aspernatur",
+        "Tooltip": "facilis",
+        "Label": "vitae",
+        "ValueLength": 378,
+        "AddressType": "perspiciatis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 266
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "repudiandae",
+  "Formatted": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 305
     }
   }
 }

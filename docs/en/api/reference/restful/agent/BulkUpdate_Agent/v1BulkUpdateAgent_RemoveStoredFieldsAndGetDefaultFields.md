@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "VonRueden Inc and Sons",
-  "Context": "sapiente"
+  "TableName": "Greenfelder-Lowe",
+  "Context": "nesciunt"
 }
 ```
 
@@ -106,76 +106,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "enim",
-    "ValueType": "omnis",
+    "Key": "autem",
+    "ValueType": "laboriosam",
     "Mandatory": false,
-    "EncodedDisplayName": "Tremblay-Swaniawski",
-    "EncodedDisplayDescription": "Down-sized mission-critical matrix",
-    "IconHint": "consequatur",
+    "EncodedDisplayName": "Friesen-Kohler",
+    "EncodedDisplayDescription": "Multi-tiered leading edge success",
+    "IconHint": "autem",
     "ControlInfos": [
       {
-        "Type": "sunt",
-        "Label": "omnis",
-        "Dimension": 774,
-        "ListProviderName": "Towne Inc and Sons",
-        "ListProviderExtraInfo": "nesciunt",
-        "ListProviderPrimaryKeyName": "Turner-Roberts",
-        "ListLeadText": "qui",
+        "Type": "voluptatem",
+        "Label": "nam",
+        "Dimension": 434,
+        "ListProviderName": "Lynch, Ward and Yundt",
+        "ListProviderExtraInfo": "unde",
+        "ListProviderPrimaryKeyName": "Christiansen Group",
+        "ListLeadText": "saepe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldLength": 567
           }
         }
       }
     ],
-    "EncodedDataCaption": "eos",
-    "EncodedDataCaptionDescription": "Customer-focused dynamic support",
-    "CurrentOperationType": "quisquam",
+    "EncodedDataCaption": "rerum",
+    "EncodedDataCaptionDescription": "Virtual systemic framework",
+    "CurrentOperationType": "expedita",
     "Values": [
-      "modi",
-      "neque"
+      "ut",
+      "aut"
     ],
     "DisplayValues": [
-      "animi",
-      "impedit"
+      "accusantium",
+      "ut"
     ],
     "OperationInfos": [
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "minus",
+        "EncodedDisplayName": "Howell-Rempel",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "sed",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldType": "System.Int32",
+            "FieldLength": 153
           }
         }
       },
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "minus",
+        "EncodedDisplayName": "Howell-Rempel",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "sed",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldType": "System.Int32",
+            "FieldLength": 153
           }
         }
       }

@@ -75,9 +75,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 206,
-  "NumSentences": 579,
-  "IsoLangCode": "est"
+  "SaleId": 189,
+  "NumSentences": 59,
+  "IsoLangCode": "tempora"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptates"
+"molestias"
 ```

@@ -46,10 +46,10 @@ A form submission
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
 |[form\_field\_value](form-field-value.md)  |Form field values saved in a searchable format |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[utm\_parameters](utm-parameters.md)  |Table for utm parameters collected from visits and formsubmissions |

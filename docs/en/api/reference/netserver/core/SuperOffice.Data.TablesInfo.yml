@@ -206,6 +206,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetKbWorkflowTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoCountryTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoTableInfo
+  - SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
   - SuperOffice.Data.TablesInfo.GetLegalBaseTableInfo
   - SuperOffice.Data.TablesInfo.GetLegalHtmlTagsTableInfo
   - SuperOffice.Data.TablesInfo.GetLicenseAssocLinkTableInfo
@@ -614,8 +615,12 @@ items:
 
       [DatabaseStep]
 
+      [DatabaseStep]
+
       public static class TablesInfo
     content.vb: >-
+      <DatabaseStep>
+
       <DatabaseStep>
 
       <DatabaseStep>
@@ -682,6 +687,9 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   attributes:
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+    arguments: []
   - type: SuperOffice.Data.DatabaseStepAttribute
     ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
     arguments: []
@@ -905,7 +913,7 @@ items:
   summary: >-
     New instance of ContactTableInfo:
 
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+    Companies and Organizations.
   example: []
   syntax:
     content: public static ContactTableInfo GetContactTableInfo()
@@ -930,7 +938,7 @@ items:
   summary: >-
     New instance of PersonTableInfo:
 
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
   example: []
   syntax:
     content: public static PersonTableInfo GetPersonTableInfo()
@@ -14088,6 +14096,31 @@ items:
       type: SuperOffice.CRM.Data.UtmParametersTableInfo
     content.vb: Public Shared Function GetUtmParametersTableInfo() As UtmParametersTableInfo
   overload: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
+  id: GetLeadstatusTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLeadstatusTableInfo()
+  nameWithType: TablesInfo.GetLeadstatusTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of LeadstatusTableInfo:
+
+    List items of lead status that is selectable for contacts and persons that have specific category
+  example: []
+  syntax:
+    content: public static LeadstatusTableInfo GetLeadstatusTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.LeadstatusTableInfo
+    content.vb: Public Shared Function GetLeadstatusTableInfo() As LeadstatusTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   id: GetTicketTypeTableInfo
@@ -22603,6 +22636,21 @@ references:
   name: UtmParametersTableInfo
   nameWithType: UtmParametersTableInfo
   fullName: SuperOffice.CRM.Data.UtmParametersTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetLeadstatusTableInfo
+  name: GetLeadstatusTableInfo
+  nameWithType: TablesInfo.GetLeadstatusTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
+- uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.LeadstatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  name: LeadstatusTableInfo
+  nameWithType: LeadstatusTableInfo
+  fullName: SuperOffice.CRM.Data.LeadstatusTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   isExternal: true

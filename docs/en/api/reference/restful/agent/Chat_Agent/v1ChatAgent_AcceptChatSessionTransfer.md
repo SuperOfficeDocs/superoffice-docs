@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 346
+  "ChatSessionId": 948
 }
 ```
 
@@ -121,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 117,
-  "TopicId": 741,
+  "ChatSessionId": 826,
+  "TopicId": 694,
   "User": null,
   "Person": null,
-  "CustomerAlias": "libero",
-  "CustomerHost": "ipsa",
-  "CustomerName": "Grant, Haag and Prohaska",
-  "CustomerEmail": "kimberly.hilll@mcglynndonnelly.biz",
-  "CustomerPhone": "(016)106-9469",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Spencer, Heidenreich and Beier",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "aspernatur",
+  "CustomerName": "Bernier Group",
+  "CustomerEmail": "vance_smith@legros.uk",
+  "CustomerPhone": "758-637-7527 x05533",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "O'Reilly Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "praesentium",
-  "LastMessage": "neque",
-  "WhenRequested": "2008-12-10T03:46:54.3632712+01:00",
-  "WhenStarted": "2002-05-03T03:46:54.3632712+02:00",
-  "WhenEnded": "2012-03-01T03:46:54.3632712+01:00",
-  "WhenIdle": "2012-12-05T03:46:54.3632712+01:00",
-  "WhenFetched": "2004-01-11T03:46:54.3632712+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 51,
-  "AlertLevel": 967,
-  "Rank": 103,
+  "FirstMessage": "consequatur",
+  "LastMessage": "excepturi",
+  "WhenRequested": "2002-10-14T11:24:47.6720496+02:00",
+  "WhenStarted": "2012-03-30T11:24:47.6720496+02:00",
+  "WhenEnded": "2019-12-10T11:24:47.6720496+01:00",
+  "WhenIdle": "1999-09-03T11:24:47.6720496+02:00",
+  "WhenFetched": "2022-04-15T11:24:47.6720496+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 636,
+  "AlertLevel": 12,
+  "Rank": 634,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 567,
+  "ChatbotIsActive": true,
+  "Rating": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 285
     }
   }
 }

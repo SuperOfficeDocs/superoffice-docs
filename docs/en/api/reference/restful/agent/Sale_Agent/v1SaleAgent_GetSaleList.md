@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,37 +106,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "McDermott LLC",
-    "SaleDate": "2017-05-31T03:46:55.2694888+02:00",
-    "SaleId": 925,
-    "Probability": 82,
-    "Title": "quaerat",
-    "Amount": 11655.346,
-    "Currency": "voluptas",
-    "ProjectName": "Hartmann-Rohan",
-    "AssociateFullName": "Prof. Jacinthe Eliane Mosciski Jr.",
-    "Description": "Managed leading edge frame",
+    "ContactName": "Blanda, Brekke and Quigley",
+    "SaleDate": "2008-10-21T11:24:48.5939056+02:00",
+    "SaleId": 726,
+    "Probability": 865,
+    "Title": "quae",
+    "Amount": 28046.165999999997,
+    "Currency": "iusto",
+    "ProjectName": "Oberbrunner Group",
+    "AssociateFullName": "Anna Bartoletti",
+    "Description": "Down-sized bi-directional emulation",
     "Status": "Lost",
-    "WeightedAmount": 24454.602,
-    "ProjectId": 534,
-    "EarningPercent": 20537.102,
-    "Earning": 26419.62,
-    "ContactId": 215,
-    "AssociateId": 901,
-    "PersonId": 319,
-    "SaleTypeId": 848,
-    "SaleTypeName": "Cartwright, Lind and Thiel",
-    "PersonFullName": "Hailie Hilpert III",
+    "WeightedAmount": 12946.554,
+    "ProjectId": 387,
+    "EarningPercent": 24670.847999999998,
+    "Earning": 10959.598,
+    "ContactId": 811,
+    "AssociateId": 594,
+    "PersonId": 411,
+    "SaleTypeId": 551,
+    "SaleTypeName": "Konopelski Inc and Sons",
+    "PersonFullName": "Georgette Labadie Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 439,
-    "NextDueDate": "2022-10-13T03:46:55.2694888+02:00",
-    "Number": "900100",
+    "ActiveErpLinks": 319,
+    "NextDueDate": "2016-04-16T11:24:48.5939056+02:00",
+    "Number": "309397",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

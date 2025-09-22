@@ -89,7 +89,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aliquid"
+  "TriggerScriptUniqueId": "at"
 }
 ```
 
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 603,
-  "Name": "Jewess-Greenholt",
+  "ScreenChooserId": 186,
+  "Name": "Hodkiewicz-Macejkovic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "vitae",
-  "Source": "nihil",
-  "Registered": "1998-11-11T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 656,
-  "Updated": "2005-01-22T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 187,
+  "UniqueIdentifier": "quae",
+  "Source": "id",
+  "Registered": "2023-07-10T11:24:47.8439178+02:00",
+  "RegisteredAssociateId": 10,
+  "Updated": "2024-05-02T11:24:47.8439178+02:00",
+  "UpdatedAssociateId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 494
     }
   }
 }

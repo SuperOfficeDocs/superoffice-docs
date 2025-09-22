@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Connelly-Bahringer",
-    "Williamson Group"
+    "Kutch, Schuppe and Connelly",
+    "Murray, Runolfsdottir and Schulist"
   ]
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"maxime"
+"qui"
 ```

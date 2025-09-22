@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Green-Konopelski",
-    "ToolTip": "Minus tempora.",
-    "Deleted": true,
-    "Rank": 901,
-    "Type": "accusamus",
-    "ColorBlock": 517,
-    "IconHint": "et",
+    "Id": 905,
+    "Name": "Bogisich-Runte",
+    "ToolTip": "Voluptatem ducimus repellendus aut dignissimos est qui.",
+    "Deleted": false,
+    "Rank": 980,
+    "Type": "eligendi",
+    "ColorBlock": 569,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2009-03-14T03:47:00.628674+01:00",
+    "LastChanged": "2004-03-13T11:24:53.9217949+01:00",
     "ChildItems": [
       {
-        "Id": 136,
-        "Name": "Howell Group",
-        "ToolTip": "Neque consectetur harum odit facilis.",
+        "Id": 452,
+        "Name": "Braun-Kunze",
+        "ToolTip": "Fugit enim.",
         "Deleted": false,
-        "Rank": 213,
-        "Type": "adipisci",
-        "ColorBlock": 153,
-        "IconHint": "dolores",
+        "Rank": 469,
+        "Type": "quia",
+        "ColorBlock": 260,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2014-10-27T03:47:00.628674+01:00",
+        "LastChanged": "2025-07-18T11:24:53.9217949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "in",
+        "ExtraInfo": "fugit",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Gaetano Antonetta Johns IV"
+        "FullName": "Keagan Wiza"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nemo",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Frederique Considine"
+    "FullName": "Ms. Myrtie Stroman"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Nicolas LLC",
-    "ToolTip": "Aut est optio et magni accusamus.",
+    "Id": 968,
+    "Name": "Wintheiser-Crona",
+    "ToolTip": "Qui tempora iure.",
     "Deleted": false,
-    "Rank": 735,
-    "Type": "totam",
-    "ColorBlock": 445,
-    "IconHint": "sunt",
+    "Rank": 54,
+    "Type": "et",
+    "ColorBlock": 270,
+    "IconHint": "quibusdam",
     "Selected": true,
-    "LastChanged": "2013-07-09T03:47:00.6442984+02:00",
+    "LastChanged": "2006-09-14T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Kunde-Bruen",
-        "ToolTip": "Beatae totam ea assumenda ad.",
+        "Id": 874,
+        "Name": "Daugherty-Spinka",
+        "ToolTip": "Dolor laboriosam distinctio perferendis dolorum vel incidunt.",
         "Deleted": false,
-        "Rank": 647,
-        "Type": "quia",
-        "ColorBlock": 427,
-        "IconHint": "repellendus",
+        "Rank": 90,
+        "Type": "sit",
+        "ColorBlock": 250,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2023-09-16T03:47:00.6442984+02:00",
+        "LastChanged": "2009-06-27T11:24:53.9217949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "id",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "repellendus",
         "Hidden": false,
-        "FullName": "Luz Jacobi",
+        "FullName": "Floy Brando Stark IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 11
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "aut",
+    "ExtraInfo": "rerum",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Nelson Bartell",
+    "FullName": "Miss Cedrick Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

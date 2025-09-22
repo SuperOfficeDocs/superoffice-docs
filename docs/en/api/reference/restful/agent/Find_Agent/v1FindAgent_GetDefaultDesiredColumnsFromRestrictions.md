@@ -91,28 +91,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gorczany-D'Amore",
+  "ProviderName": "Schoen-Jacobi",
   "Restrictions": [
     {
-      "Name": "Anderson-Walter",
-      "Operator": "natus",
+      "Name": "Hintz Group",
+      "Operator": "ratione",
       "Values": [
-        "inventore",
-        "occaecati"
+        "quis",
+        "est"
       ],
       "DisplayValues": [
-        "eos",
-        "consequatur"
+        "occaecati",
+        "itaque"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 906,
+      "InterParenthesis": 978,
       "InterOperator": "And",
-      "UniqueHash": 993
+      "UniqueHash": 741
     }
   ]
 }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gerhold, Sawayn and Gusikowski",
-    "DisplayTooltip": "amet",
-    "DisplayType": "assumenda",
+    "DisplayName": "Harris, Shields and Bernier",
+    "DisplayTooltip": "cum",
+    "DisplayType": "ex",
     "CanOrderBy": false,
-    "Name": "Collier, Stiedemann and Kutch",
-    "CanRestrictBy": true,
-    "RestrictionType": "aliquid",
-    "RestrictionListName": "Effertz Inc and Sons",
+    "Name": "Durgan Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "sed",
+    "RestrictionListName": "Pagac-Senger",
     "IsVisible": false,
-    "ExtraInfo": "modi",
-    "Width": "repellat",
-    "IconHint": "minus",
-    "HeadingIconHint": "minima"
+    "ExtraInfo": "totam",
+    "Width": "a",
+    "IconHint": "non",
+    "HeadingIconHint": "veritatis"
   }
 ]
 ```

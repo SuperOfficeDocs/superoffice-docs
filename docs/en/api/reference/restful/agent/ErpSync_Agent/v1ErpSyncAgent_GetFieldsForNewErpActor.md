@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 61,
+  "ErpConnectionId": 330,
   "ErpActorType": "Customer"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 471,
-    "DisplayName": "McCullough, Hilll and Kreiger",
-    "DisplayDescription": "Secured high-level solution",
+    "FieldKey": "minima",
+    "Rank": 23,
+    "DisplayName": "Swift-Schuster",
+    "DisplayDescription": "Virtual assymetric middleware",
     "FieldType": "Checkbox",
-    "ListName": "Cronin-Kohler",
-    "DefaultValue": "eligendi",
-    "MaxLength": 53,
+    "ListName": "Kilback LLC",
+    "DefaultValue": "enim",
+    "MaxLength": 244,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 850
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Runolfsson-Klein",
-  "Tooltip": "sed",
+  "Id": 935,
+  "Name": "Cummerata Group",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 796,
+  "Rank": 322,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   },
   "_Links": {

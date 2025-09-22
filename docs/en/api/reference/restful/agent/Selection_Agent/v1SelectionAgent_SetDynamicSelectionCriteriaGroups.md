@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 531,
+  "SelectionId": 400,
   "Criteria": [
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Simonis, Hagenes and Rohan",
+      "Description": "Upgradable zero administration application",
+      "Rank": 134,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Simonis, Hagenes and Rohan",
+      "Description": "Upgradable zero administration application",
+      "Rank": 134,
       "Restrictions": [
         {},
         {}
@@ -114,58 +114,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Parisian Inc and Sons",
+    "Description": "Future-proofed secondary open system",
+    "Rank": 224,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Kuvalis, Barton and Fahey",
+        "Operator": "recusandae",
         "Values": [
-          "quas",
-          "consequatur"
+          "omnis",
+          "et"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "aut",
+          "animi"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 459,
+        "InterParenthesis": 404,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 301
       }
     ]
   },
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Parisian Inc and Sons",
+    "Description": "Future-proofed secondary open system",
+    "Rank": 224,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Kuvalis, Barton and Fahey",
+        "Operator": "recusandae",
         "Values": [
-          "quas",
-          "consequatur"
+          "omnis",
+          "et"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "aut",
+          "animi"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 459,
+        "InterParenthesis": 404,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 301
       }
     ]
   }

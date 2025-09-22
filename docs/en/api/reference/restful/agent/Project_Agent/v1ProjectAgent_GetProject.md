@@ -27,7 +27,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=740
+POST /api/v1/Agents/Project/GetProject?projectId=858
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 272,
-  "Name": "Waters, Prohaska and Stamm",
-  "Description": "Fundamental non-volatile hardware",
+  "ProjectId": 396,
+  "Name": "Lowe-O'Conner",
+  "Description": "Re-engineered secondary instruction set",
   "URL": "http://www.example.com/",
-  "Type": "debitis",
-  "AssociateId": 909,
-  "AssociateFullName": "Miss Deshawn Dillan Miller",
-  "TypeId": 188,
-  "Updated": "2019-07-21T03:46:55.1444933+02:00",
-  "StatusId": 305,
-  "Status": "necessitatibus",
-  "TextId": 517,
-  "PublishTo": "2011-06-22T03:46:55.1444933+02:00",
-  "PublishFrom": "2012-06-04T03:46:55.1444933+02:00",
-  "IsPublished": false,
+  "Type": "quaerat",
+  "AssociateId": 136,
+  "AssociateFullName": "Ms. Gretchen Ocie Huel Jr.",
+  "TypeId": 495,
+  "Updated": "2023-12-04T11:24:48.4532678+01:00",
+  "StatusId": 642,
+  "Status": "tenetur",
+  "TextId": 484,
+  "PublishTo": "1998-12-18T11:24:48.4532678+01:00",
+  "PublishFrom": "2001-04-26T11:24:48.4532678+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1405617",
-  "ActiveErpLinks": 329,
+  "ProjectNumber": "1402426",
+  "ActiveErpLinks": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 895
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Fritsch-Carter",
-    "ToolTip": "Id architecto recusandae qui quis.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "recusandae",
-    "ColorBlock": 826,
-    "IconHint": "repellendus",
+    "Id": 228,
+    "Name": "Kshlerin, Leannon and Nikolaus",
+    "ToolTip": "Eos aut enim.",
+    "Deleted": false,
+    "Rank": 992,
+    "Type": "et",
+    "ColorBlock": 628,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2016-10-11T03:47:00.6130405+02:00",
+    "LastChanged": "2001-04-18T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Kuphal Group",
-        "ToolTip": "Incidunt aut eaque doloribus.",
-        "Deleted": false,
-        "Rank": 141,
-        "Type": "asperiores",
-        "ColorBlock": 570,
-        "IconHint": "sint",
+        "Id": 2,
+        "Name": "Osinski-Larkin",
+        "ToolTip": "Quis modi non.",
+        "Deleted": true,
+        "Rank": 640,
+        "Type": "tempora",
+        "ColorBlock": 134,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2016-12-31T03:47:00.6130405+01:00",
+        "LastChanged": "2024-10-14T11:24:53.890546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Dion Howell V",
+        "ExtraInfo": "vel",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Kimberly Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 778
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "harum",
+    "ExtraInfo": "porro",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Mr. Claudine Osinski",
+    "FullName": "Prof. Ella Alford Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 495
       }
     }
   }

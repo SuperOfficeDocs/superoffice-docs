@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Flatley, Hessel and Nolan",
-  "Tooltip": "aliquid",
+  "Id": 818,
+  "Name": "Heidenreich Group",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "UdListDefinitionId": 285,
-  "Rank": 524,
+  "UdListDefinitionId": 148,
+  "Rank": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 984
+      "FieldLength": 529
     }
   }
 }

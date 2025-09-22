@@ -71,12 +71,12 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Shanahan-Heidenreich",
-      "State": true
+      "Name": "Bashirian-Schimmel",
+      "State": false
     },
     {
-      "Name": "Shanahan-Heidenreich",
-      "State": true
+      "Name": "Bashirian-Schimmel",
+      "State": false
     }
   ]
 }

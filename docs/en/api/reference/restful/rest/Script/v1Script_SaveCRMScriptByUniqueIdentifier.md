@@ -90,20 +90,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quidem",
-  "Name": "Watsica, Schuppe and Bailey",
-  "Description": "Function-based bottom-line groupware",
-  "IncludeId": "nemo",
-  "Source": "est",
-  "Registered": "2009-09-20T03:47:00.5036785+02:00",
-  "RegisteredBy": "aut",
-  "Updated": "2006-04-19T03:47:00.5036785+02:00",
-  "UpdatedBy": "accusantium",
-  "Path": "eveniet",
+  "UniqueIdentifier": "minima",
+  "Name": "Fisher LLC",
+  "Description": "Customizable bottom-line hierarchy",
+  "IncludeId": "veniam",
+  "Source": "quas",
+  "Registered": "2011-07-27T11:24:53.7811756+02:00",
+  "RegisteredBy": "blanditiis",
+  "Updated": "1999-08-11T11:24:53.7811756+02:00",
+  "UpdatedBy": "dicta",
+  "Path": "velit",
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -115,23 +115,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "incidunt",
-  "Name": "Goodwin-Ryan",
-  "Description": "Digitized actuating hierarchy",
-  "IncludeId": "nostrum",
-  "Source": "aut",
-  "Registered": "2014-05-31T03:47:00.5036785+02:00",
-  "RegisteredBy": "harum",
-  "Updated": "2001-06-08T03:47:00.5036785+02:00",
-  "UpdatedBy": "culpa",
-  "Path": "maiores",
+  "UniqueIdentifier": "eum",
+  "Name": "Dickinson-Predovic",
+  "Description": "Robust mobile infrastructure",
+  "IncludeId": "eum",
+  "Source": "veritatis",
+  "Registered": "2017-10-05T11:24:53.7811756+02:00",
+  "RegisteredBy": "error",
+  "Updated": "2023-03-15T11:24:53.7811756+01:00",
+  "UpdatedBy": "temporibus",
+  "Path": "magni",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 985
     }
   }
 }

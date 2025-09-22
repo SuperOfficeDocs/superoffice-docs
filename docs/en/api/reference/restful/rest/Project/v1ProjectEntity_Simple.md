@@ -80,7 +80,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,30 +90,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 915,
-  "Name": "Hintz-Waelchi",
-  "Description": "Proactive hybrid framework",
+  "ProjectId": 555,
+  "Name": "Hessel-Boyer",
+  "Description": "Secured needs-based analyzer",
   "URL": "http://www.example.com/",
-  "Type": "excepturi",
-  "AssociateId": 484,
-  "AssociateFullName": "Dustin Magdalen Schumm MD",
-  "TypeId": 223,
-  "Updated": "2004-10-31T03:47:00.1911895+01:00",
-  "StatusId": 525,
-  "Status": "laboriosam",
-  "TextId": 524,
-  "PublishTo": "2020-03-03T03:47:00.1911895+01:00",
-  "PublishFrom": "2020-08-30T03:47:00.1911895+02:00",
+  "Type": "sit",
+  "AssociateId": 683,
+  "AssociateFullName": "Mr. Aaliyah Wintheiser Sr.",
+  "TypeId": 414,
+  "Updated": "2022-08-23T11:24:53.4686882+02:00",
+  "StatusId": 654,
+  "Status": "reprehenderit",
+  "TextId": 815,
+  "PublishTo": "2014-03-13T11:24:53.4686882+01:00",
+  "PublishFrom": "2000-03-11T11:24:53.4686882+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1811871",
-  "ActiveErpLinks": 288,
+  "ProjectNumber": "1109662",
+  "ActiveErpLinks": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   }
 }

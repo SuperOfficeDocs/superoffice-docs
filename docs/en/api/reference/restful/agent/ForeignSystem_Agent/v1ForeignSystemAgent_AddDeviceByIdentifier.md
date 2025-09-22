@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Effertz, Jacobson and Labadie",
-  "DeviceName": "Durgan-Roob",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Goldner LLC",
+  "DeviceName": "Abbott Inc and Sons",
+  "DeviceIdentifier": "recusandae"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 763,
-  "Name": "Rath Group",
-  "CreatedDate": "2004-11-27T03:46:54.8788782+01:00",
-  "UpdatedDate": "2016-12-02T03:46:54.8788782+01:00",
-  "AssociateFullName": "Emie Hilll",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "doloribus",
-  "DeviceIdentifier": "nesciunt",
-  "ForeignAppId": 31,
+  "ForeignDeviceId": 46,
+  "Name": "Gorczany, Franecki and Lesch",
+  "CreatedDate": "2007-02-13T11:24:48.1564051+01:00",
+  "UpdatedDate": "2007-06-12T11:24:48.1564051+02:00",
+  "AssociateFullName": "Anibal Reynolds",
+  "CreatedBy": "et",
+  "UpdatedBy": "quod",
+  "DeviceIdentifier": "dolorum",
+  "ForeignAppId": 35,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 985
     }
   }
 }

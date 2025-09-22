@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Heathcote-Bartoletti",
-    "ToolTip": "Fuga vero molestiae et animi aliquam.",
+    "Id": 420,
+    "Name": "Hickle, Dickens and O'Kon",
+    "ToolTip": "Laboriosam est necessitatibus quo voluptate est.",
     "Deleted": true,
-    "Rank": 66,
-    "Type": "quod",
-    "ColorBlock": 583,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-12-31T03:47:00.5974251+01:00",
+    "Rank": 353,
+    "Type": "officiis",
+    "ColorBlock": 671,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2021-08-29T11:24:53.8749217+02:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Cormier, Monahan and Towne",
-        "ToolTip": "Et molestias est porro qui quidem nulla.",
-        "Deleted": true,
-        "Rank": 209,
-        "Type": "laudantium",
-        "ColorBlock": 796,
-        "IconHint": "soluta",
+        "Id": 625,
+        "Name": "D'Amore Group",
+        "ToolTip": "Quidem eius voluptates id ratione.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "voluptates",
+        "ColorBlock": 226,
+        "IconHint": "dolores",
         "Selected": true,
-        "LastChanged": "2008-06-30T03:47:00.5974251+02:00",
+        "LastChanged": "2012-12-03T11:24:53.8749217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Juana Gutkowski"
+        "ExtraInfo": "ut",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Donnell Bins"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Jeanie Hahn"
+    "ExtraInfo": "amet",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Ozella Blanda"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Roob-Ferry",
-    "ToolTip": "Voluptas aut repellat qui amet iure deserunt.",
+    "Id": 621,
+    "Name": "Cronin LLC",
+    "ToolTip": "Nobis dolorem non.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "cupiditate",
-    "ColorBlock": 960,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2007-06-07T03:47:00.5974251+02:00",
+    "Rank": 559,
+    "Type": "quia",
+    "ColorBlock": 486,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2002-01-17T11:24:53.8749217+01:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Stark, Okuneva and Schiller",
-        "ToolTip": "Earum nobis consequatur quia distinctio et.",
+        "Id": 161,
+        "Name": "Reinger-Cole",
+        "ToolTip": "Recusandae ut laboriosam ipsam quia alias dolores ducimus.",
         "Deleted": false,
-        "Rank": 731,
-        "Type": "recusandae",
-        "ColorBlock": 862,
-        "IconHint": "et",
+        "Rank": 740,
+        "Type": "labore",
+        "ColorBlock": 487,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2007-12-17T03:47:00.5974251+01:00",
+        "LastChanged": "2025-03-22T11:24:53.8749217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "dolore",
+        "ExtraInfo": "aut",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Amelia Kassulke",
+        "FullName": "Cyrus Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 564
+            "FieldType": "System.Int32",
+            "FieldLength": 70
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "aut",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Keegan Keenan Grady DDS",
+    "FullName": "Prof. Cesar Eleanore Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldLength": 422
       }
     }
   }

@@ -134,51 +134,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 91,
-  "ERPProductKey": "ipsa",
-  "ERPPriceListKey": "harum",
-  "Name": "Schamberger-Hammes",
-  "Description": "Monitored bi-directional project",
-  "Code": "quisquam",
-  "PriceUnit": "laborum",
-  "QuantityUnit": "cupiditate",
-  "IsSubscription": false,
-  "SubscriptionUnit": "perspiciatis",
-  "DefaultSubscriptionQuantity": 18782.061999999998,
-  "ItemNumber": "1668894",
+  "ProductId": 919,
+  "ERPProductKey": "occaecati",
+  "ERPPriceListKey": "et",
+  "Name": "Jewess-Frami",
+  "Description": "Customer-focused solution-oriented complexity",
+  "Code": "et",
+  "PriceUnit": "sequi",
+  "QuantityUnit": "commodi",
+  "IsSubscription": true,
+  "SubscriptionUnit": "consectetur",
+  "DefaultSubscriptionQuantity": 2027.6979999999999,
+  "ItemNumber": "893852",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "sed",
-  "VAT": 20088.94,
-  "VATInfo": "sit",
-  "UnitCost": 5587.922,
-  "UnitMinimumPrice": 25808.489999999998,
-  "UnitListPrice": 2240.81,
-  "InAssortment": false,
-  "Supplier": "veniam",
-  "SupplierCode": "expedita",
-  "Rights": "assumenda",
-  "Rule": "unde",
+  "ProductFamilyKey": "quaerat",
+  "ProductTypeKey": "ratione",
+  "VAT": 18597.156,
+  "VATInfo": "dolor",
+  "UnitCost": 4243.436,
+  "UnitMinimumPrice": 27287.737999999998,
+  "UnitListPrice": 14538.626,
+  "InAssortment": true,
+  "Supplier": "blanditiis",
+  "SupplierCode": "possimus",
+  "Rights": "quis",
+  "Rule": "illo",
   "ExtraInfo": [
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Roberts-Spencer",
+      "Value": "voluptas",
       "Type": "Image"
     },
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Roberts-Spencer",
+      "Value": "voluptas",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "optio",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "sit",
-  "ExtraField4": "ut",
-  "ExtraField5": "voluptatem",
-  "InStock": 30211.76
+  "RawExtraInfo": "dignissimos",
+  "ExtraField1": "et",
+  "ExtraField2": "et",
+  "ExtraField3": "ducimus",
+  "ExtraField4": "iste",
+  "ExtraField5": "nemo",
+  "InStock": 4785.6179999999995
 }
 ```
 
@@ -189,73 +189,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 585,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "eveniet",
-  "Name": "Kilback-Walter",
-  "Description": "Optional executive middleware",
-  "Code": "reprehenderit",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "repudiandae",
+  "ProductId": 903,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "non",
+  "Name": "Kertzmann Group",
+  "Description": "Devolved scalable hierarchy",
+  "Code": "cum",
+  "PriceUnit": "ab",
+  "QuantityUnit": "eum",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 15522.702,
-  "ItemNumber": "1182134",
+  "SubscriptionUnit": "ad",
+  "DefaultSubscriptionQuantity": 14626.377999999999,
+  "ItemNumber": "1157335",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "ut",
-  "VAT": 11392.09,
-  "VATInfo": "et",
-  "UnitCost": 4957.988,
-  "UnitMinimumPrice": 19929.106,
-  "UnitListPrice": 22621.212,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "necessitatibus",
+  "VAT": 19101.73,
+  "VATInfo": "consequatur",
+  "UnitCost": 26579.453999999998,
+  "UnitMinimumPrice": 4732.34,
+  "UnitListPrice": 4165.086,
   "InAssortment": false,
-  "Supplier": "cum",
-  "SupplierCode": "nesciunt",
-  "Rights": "omnis",
-  "Rule": "atque",
+  "Supplier": "nam",
+  "SupplierCode": "earum",
+  "Rights": "provident",
+  "Rule": "tenetur",
   "ExtraInfo": [
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "O'Kon, Barrows and Boehm",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 318
         }
       }
     },
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "O'Kon, Barrows and Boehm",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 318
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "sint",
-  "ExtraField2": "at",
-  "ExtraField3": "nihil",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "illum",
-  "InStock": 4161.952,
+  "RawExtraInfo": "eum",
+  "ExtraField1": "autem",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "ad",
+  "ExtraField4": "sed",
+  "ExtraField5": "ut",
+  "InStock": 13200.408,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 187
     }
   }
 }

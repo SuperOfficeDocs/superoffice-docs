@@ -107,24 +107,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 15,
-  "Section": "omnis",
-  "Key": "libero",
-  "Name": "Veum, Bosco and Ritchie",
+  "PrefDescId": 371,
+  "Section": "ipsa",
+  "Key": "quibusdam",
+  "Name": "Sawayn Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable client-server architecture",
+  "Description": "Open-source radical instruction set",
   "IsBuiltin": false,
-  "TableName": "Brakus, Haley and Hackett",
-  "UserDefinedListId": 247,
-  "Rank": 140,
-  "SubGroup": "amet",
-  "MinLevel": 61,
-  "MaxValue": 777,
-  "MinValue": 308,
-  "RequiredLicense": "dignissimos"
+  "TableName": "Breitenberg, Collier and Kuhic",
+  "UserDefinedListId": 772,
+  "Rank": 881,
+  "SubGroup": "quia",
+  "MinLevel": 297,
+  "MaxValue": 12,
+  "MinValue": 801,
+  "RequiredLicense": "possimus"
 }
 ```
 
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 101,
-  "Section": "voluptates",
-  "Key": "quod",
-  "Name": "Batz, Jacobson and Tillman",
+  "PrefDescId": 634,
+  "Section": "commodi",
+  "Key": "et",
+  "Name": "Graham Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source 24 hour superstructure",
+  "Description": "Distributed bottom-line synergy",
   "IsBuiltin": false,
-  "TableName": "Hickle LLC",
-  "UserDefinedListId": 984,
-  "Rank": 965,
-  "SubGroup": "ut",
-  "MinLevel": 608,
-  "MaxValue": 102,
-  "MinValue": 812,
-  "RequiredLicense": "quo",
+  "TableName": "Ferry, Schroeder and Jewess",
+  "UserDefinedListId": 37,
+  "Rank": 428,
+  "SubGroup": "molestias",
+  "MinLevel": 380,
+  "MaxValue": 786,
+  "MinValue": 298,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

@@ -27,8 +27,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=praesentium
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=beatae
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Koch Inc and Sons",
-    "ToolTip": "Dolores similique doloremque dolor molestiae harum ullam ut.",
-    "Deleted": false,
-    "Rank": 318,
-    "Type": "alias",
+    "Id": 527,
+    "Name": "Bins, Reichel and Boyer",
+    "ToolTip": "Sed qui beatae et non laboriosam.",
+    "Deleted": true,
+    "Rank": 697,
+    "Type": "beatae",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Boyer, Hagenes and McKenzie",
-        "ToolTip": "Omnis at minus omnis et unde.",
-        "Deleted": true,
-        "Rank": 399,
-        "Type": "cum",
+        "Id": 825,
+        "Name": "Towne, D'Amore and Franecki",
+        "ToolTip": "Fugiat animi ipsam dolorem.",
+        "Deleted": false,
+        "Rank": 223,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 48,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quaerat",
-        "FullName": "Ludwig Kavon Heathcote DVM",
+        "IconHint": "aliquam",
+        "ColorBlock": 568,
+        "ExtraInfo": "sed",
+        "StyleHint": "et",
+        "FullName": "Mr. Layne Rachel Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 158,
-    "ExtraInfo": "nam",
-    "StyleHint": "alias",
-    "FullName": "Nat Hyatt",
+    "IconHint": "quasi",
+    "ColorBlock": 663,
+    "ExtraInfo": "qui",
+    "StyleHint": "omnis",
+    "FullName": "Miss Lesly Dale Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Klocko-Smith",
-  "CreatedDate": "2016-10-13T03:46:54.8320045+02:00",
-  "UpdatedDate": "2006-08-24T03:46:54.8320045+02:00",
+  "ForeignAppId": 508,
+  "Name": "Wisoky Group",
+  "CreatedDate": "2022-01-24T11:24:48.1407806+01:00",
+  "UpdatedDate": "2002-07-30T11:24:48.1407806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 263,
-      "Name": "Quigley-O'Reilly",
-      "CreatedDate": "1999-02-14T03:46:54.8320045+01:00",
-      "UpdatedDate": "2010-07-08T03:46:54.8320045+02:00",
-      "AssociateFullName": "Dr. Caroline Justice Bahringer Sr.",
-      "CreatedBy": "non",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "tenetur",
-      "ForeignAppId": 384,
+      "ForeignDeviceId": 264,
+      "Name": "Koepp, West and Collier",
+      "CreatedDate": "2012-07-23T11:24:48.1407806+02:00",
+      "UpdatedDate": "2024-11-02T11:24:48.1407806+01:00",
+      "AssociateFullName": "Coty Yundt",
+      "CreatedBy": "inventore",
+      "UpdatedBy": "quae",
+      "DeviceIdentifier": "dolorum",
+      "ForeignAppId": 990,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldLength": 217
     }
   }
 }

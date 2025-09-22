@@ -27,7 +27,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=354
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=12
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -111,46 +111,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 233,
-  "ColumnId": 757,
-  "FieldDefault": "delectus",
-  "FieldHeight": 890,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 568,
-  "FieldTop": 842,
+  "UDefFieldId": 762,
+  "ColumnId": 883,
+  "FieldDefault": "itaque",
+  "FieldHeight": 50,
+  "FieldLabel": "modi",
+  "FieldLeft": 707,
+  "FieldTop": 934,
   "FieldType": "Checkbox",
-  "FieldWidth": 486,
-  "FormatMask": "vel",
+  "FieldWidth": 804,
+  "FormatMask": "blanditiis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 563,
-  "LabelLeft": 7,
-  "LabelTop": 286,
-  "LabelWidth": 166,
-  "LastVersionId": 927,
-  "ListTableId": 187,
+  "IsIndexed": false,
+  "LabelHeight": 5,
+  "LabelLeft": 76,
+  "LabelTop": 53,
+  "LabelWidth": 504,
+  "LastVersionId": 605,
+  "ListTableId": 127,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 841,
-  "ProgId": "doloremque",
+  "Page1LineNo": 492,
+  "ProgId": "fuga",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 623,
-  "TextLength": 168,
-  "Tooltip": "tempora",
-  "UdefIdentity": 774,
-  "UDListDefinitionId": 843,
+  "ShortLabel": "molestiae",
+  "TabOrder": 634,
+  "TextLength": 300,
+  "Tooltip": "qui",
+  "UdefIdentity": 565,
+  "UDListDefinitionId": 225,
   "Justification": "Center",
-  "Version": 800,
-  "TemplateVariableName": "Rutherford-Hahn",
+  "Version": 836,
+  "TemplateVariableName": "Moen, Kassulke and Cremin",
   "HasBeenPublished": false,
-  "MdoListName": "Koch, Glover and Kling",
+  "MdoListName": "Kutch-Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 465
     }
   }
 }

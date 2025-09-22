@@ -137,25 +137,25 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 428,
-  "Name": "Lesch-Kulas",
-  "Description": "Ameliorated secondary middleware",
+  "ChatTopicId": 445,
+  "Name": "D'Amore-Willms",
+  "Description": "Phased zero defect synergy",
   "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "1999-05-22T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 821,
-  "AlertRecipient": "ut",
+  "LastAccept": "2005-06-21T11:24:53.0468304+02:00",
+  "SecondsPrAccept": 768,
+  "AlertRecipient": "id",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "architecto",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ipsa",
-  "WarnNewChatMinutes": 164,
-  "WarnManagerNewChatMinutes": 590,
+  "CollectConsent": false,
+  "BadgeHeader": "ex",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "debitis",
+  "WarnNewChatMinutes": 678,
+  "WarnManagerNewChatMinutes": 7,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -164,14 +164,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 429,
-  "WarnManagerChatMessageMinutes": 378,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 861,
-  "OfflineFormQueueLength": 836,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "sit"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 588,
+  "WarnManagerChatMessageMinutes": 713,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 807,
+  "OfflineFormQueueLength": 871,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "vel"
 }
 ```
 
@@ -182,22 +182,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 706,
-  "Name": "Farrell-Hermann",
-  "Description": "Exclusive content-based pricing structure",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 890,
+  "Name": "Hyatt, Kreiger and Blanda",
+  "Description": "Multi-channelled systemic ability",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2020-05-26T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 545,
-  "AlertRecipient": "quia",
+  "LastAccept": "2005-01-29T11:24:53.0468304+01:00",
+  "SecondsPrAccept": 923,
+  "AlertRecipient": "velit",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "aut",
+  "BadgeHeader": "omnis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ipsam",
-  "WarnNewChatMinutes": 732,
-  "WarnManagerNewChatMinutes": 28,
-  "TicketEnabled": true,
+  "CustomQueueText": "numquam",
+  "WarnNewChatMinutes": 975,
+  "WarnManagerNewChatMinutes": 546,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -206,19 +206,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 853,
-  "WarnManagerChatMessageMinutes": 878,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 534,
-  "OfflineFormQueueLength": 550,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "assumenda",
+  "WarnChatMessageMinutes": 635,
+  "WarnManagerChatMessageMinutes": 13,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 181,
+  "OfflineFormQueueLength": 757,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 167
+      "FieldLength": 538
     }
   },
   "_Links": {

@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hoeger Inc and Sons",
+  "TaskName": "Mraz-Glover",
   "State": "All"
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Stokes-Kutch",
-    "AssociateId": 229,
-    "DetailsTable": 267,
-    "DetailsRecord": 618,
+    "Id": 319,
+    "Name": "Torphy, Kemmer and Feeney",
+    "AssociateId": 196,
+    "DetailsTable": 850,
+    "DetailsRecord": 165,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "laborum",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "non",
+      "ParameterObject2": "quibusdam"
     },
-    "LastStarted": "2020-04-30T03:46:54.3007673+02:00",
-    "Created": "2008-04-08T03:46:54.3007673+02:00",
-    "StartCount": 798,
-    "DatabaseSerialNumber": "1260609",
-    "Context": "adipisci",
-    "Result": "accusamus",
+    "LastStarted": "2003-05-25T11:24:47.6095526+02:00",
+    "Created": "2005-07-26T11:24:47.6095526+02:00",
+    "StartCount": 724,
+    "DatabaseSerialNumber": "407413",
+    "Context": "excepturi",
+    "Result": "dolor",
     "State": "All",
-    "Description": "Extended upward-trending methodology",
-    "Response": "iusto",
-    "Request": "ea",
-    "ProgressDescription": "Reactive non-volatile benchmark",
-    "ProgressPercent": 112,
-    "FileName": "Monahan, White and Cassin",
+    "Description": "Team-oriented full-range support",
+    "Response": "culpa",
+    "Request": "cum",
+    "ProgressDescription": "Enterprise-wide holistic intranet",
+    "ProgressPercent": 545,
+    "FileName": "Oberbrunner, Harris and Parker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 514
       }
     }
   }

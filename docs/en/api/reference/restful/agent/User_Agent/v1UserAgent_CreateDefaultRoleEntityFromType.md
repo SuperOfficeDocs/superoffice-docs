@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,16 +105,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 910,
-  "Name": "Cremin-Parisian",
-  "Tooltip": "consectetur",
+  "RoleId": 736,
+  "Name": "Buckridge-Brown",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 758,
-  "Rank": 637,
-  "Created": "2006-08-26T03:46:55.581978+02:00",
-  "UseCategories": 979,
+  "Deleted": 261,
+  "Rank": 832,
+  "Created": "2024-06-04T11:24:48.9063744+02:00",
+  "UseCategories": 871,
   "CreatedBy": null,
-  "Updated": "2022-12-23T03:46:55.581978+01:00",
+  "Updated": "2021-12-05T11:24:48.9063744+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 495
     }
   }
 }

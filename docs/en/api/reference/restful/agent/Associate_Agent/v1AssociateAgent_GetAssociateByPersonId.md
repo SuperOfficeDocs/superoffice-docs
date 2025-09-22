@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 163
+  "PersonId": 734
 }
 ```
 
@@ -102,32 +102,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 888,
-  "Name": "Schmidt-Dietrich",
-  "PersonId": 3,
-  "Rank": 243,
-  "Tooltip": "iusto",
+  "AssociateId": 85,
+  "Name": "Brekke, Miller and Okuneva",
+  "PersonId": 23,
+  "Rank": 249,
+  "Tooltip": "esse",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 483,
-  "FullName": "Raquel Grady",
-  "FormalName": "Buckridge-Price",
+  "GroupIdx": 727,
+  "FullName": "Herminia Dickinson",
+  "FormalName": "Dietrich-Pouros",
   "Deleted": true,
-  "EjUserId": 451,
-  "UserName": "Waelchi-Morissette",
+  "EjUserId": 143,
+  "UserName": "Kulas, Schmeler and Rau",
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "debitis",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Sipes, Fay and Ritchie",
-    "ToolTip": "Fuga quaerat recusandae aliquam.",
+    "Id": 775,
+    "Name": "Pouros, Littel and Jacobson",
+    "ToolTip": "Esse officiis dicta.",
     "Deleted": false,
-    "Rank": 943,
-    "Type": "qui",
-    "ColorBlock": 643,
-    "IconHint": "quos",
+    "Rank": 794,
+    "Type": "eius",
+    "ColorBlock": 709,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2014-07-27T03:47:00.7692942+02:00",
+    "LastChanged": "2018-11-09T11:24:54.0936627+01:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Pagac, Dooley and Morar",
-        "ToolTip": "Ut asperiores rem.",
+        "Id": 243,
+        "Name": "Zboncak-O'Kon",
+        "ToolTip": "Ut ea neque odit et et deserunt.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "dolores",
-        "ColorBlock": 31,
-        "IconHint": "at",
+        "Rank": 549,
+        "Type": "numquam",
+        "ColorBlock": 466,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2009-05-24T03:47:00.7692942+02:00",
+        "LastChanged": "2018-12-13T11:24:54.0936627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "nam",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Torrance King",
+        "FullName": "Freda Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 153
+            "FieldType": "System.Int32",
+            "FieldLength": 339
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Maximillian Leannon",
+    "ExtraInfo": "quo",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Stella Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 824
       }
     }
   }

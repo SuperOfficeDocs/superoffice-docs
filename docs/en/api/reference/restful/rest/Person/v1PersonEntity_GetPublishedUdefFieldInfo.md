@@ -94,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 255,
-  "ColumnId": 215,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 54,
-  "FieldLabel": "minima",
-  "FieldLeft": 96,
-  "FieldTop": 790,
+  "UDefFieldId": 585,
+  "ColumnId": 127,
+  "FieldDefault": "non",
+  "FieldHeight": 927,
+  "FieldLabel": "ex",
+  "FieldLeft": 402,
+  "FieldTop": 950,
   "FieldType": "Checkbox",
-  "FieldWidth": 447,
-  "FormatMask": "exercitationem",
-  "HideLabel": true,
+  "FieldWidth": 619,
+  "FormatMask": "eos",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 875,
-  "LabelLeft": 855,
-  "LabelTop": 687,
-  "LabelWidth": 522,
-  "LastVersionId": 62,
-  "ListTableId": 863,
+  "LabelHeight": 791,
+  "LabelLeft": 759,
+  "LabelTop": 852,
+  "LabelWidth": 697,
+  "LastVersionId": 474,
+  "ListTableId": 347,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 367,
-  "ProgId": "qui",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptas",
-  "TabOrder": 791,
-  "TextLength": 759,
-  "Tooltip": "sint",
-  "UdefIdentity": 90,
-  "UDListDefinitionId": 675,
+  "Page1LineNo": 928,
+  "ProgId": "ea",
+  "IsReadOnly": false,
+  "ShortLabel": "qui",
+  "TabOrder": 324,
+  "TextLength": 847,
+  "Tooltip": "esse",
+  "UdefIdentity": 569,
+  "UDListDefinitionId": 201,
   "Justification": "Center",
-  "Version": 531,
-  "TemplateVariableName": "Brekke-Ward",
+  "Version": 283,
+  "TemplateVariableName": "Jacobson, Beer and Hane",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Blick and Predovic",
+  "MdoListName": "Bartell LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldLength": 466
     }
   }
 }

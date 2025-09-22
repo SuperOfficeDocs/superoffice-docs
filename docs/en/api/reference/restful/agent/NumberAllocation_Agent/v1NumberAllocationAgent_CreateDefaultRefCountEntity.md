@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 729,
-  "Field": "id",
-  "RecordId": 968,
+  "RefCountsId": 138,
+  "Field": "eligendi",
+  "RecordId": 301,
   "SuggestedRecords": [
     {
-      "Id": 832,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Soluta voluptatum et.",
+      "Id": 689,
+      "Name": "Hessel-Marvin",
+      "ToolTip": "Dolorum nesciunt in illum dignissimos.",
       "Deleted": false,
-      "Rank": 390,
-      "Type": "sit",
+      "Rank": 197,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 372,
-      "ExtraInfo": "dolores",
-      "StyleHint": "tempore",
-      "FullName": "Nicklaus Schoen",
+      "IconHint": "eveniet",
+      "ColorBlock": 106,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "eaque",
+      "FullName": "Randi Block",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 213
         }
       }
     }
   ],
-  "CurrentValue": 745,
-  "TravelPrefix": 156,
-  "SatPrefix": 773,
-  "Allocate": false,
-  "Unique": true,
+  "CurrentValue": 719,
+  "TravelPrefix": 483,
+  "SatPrefix": 304,
+  "Allocate": true,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 301
     }
   }
 }

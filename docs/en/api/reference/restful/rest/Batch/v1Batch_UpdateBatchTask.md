@@ -112,34 +112,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Hyatt-Kuhic",
-  "AssociateId": 688,
-  "DetailsTable": 699,
-  "DetailsRecord": 15,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 148,
+  "Name": "Walker Inc and Sons",
+  "AssociateId": 891,
+  "DetailsTable": 564,
+  "DetailsRecord": 113,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "inventore",
-    "ParameterObject2": "exercitationem"
+    "ParameterObject1": "dolorem",
+    "ParameterObject2": "dolorum"
   },
-  "LastStarted": "2006-08-14T03:47:00.3943072+02:00",
-  "Created": "2013-11-27T03:47:00.3943072+01:00",
-  "StartCount": 603,
-  "DatabaseSerialNumber": "918108",
-  "Context": "voluptatibus",
-  "Result": "quam",
+  "LastStarted": "2000-03-03T11:24:53.7343025+01:00",
+  "Created": "2012-05-18T11:24:53.7343025+02:00",
+  "StartCount": 552,
+  "DatabaseSerialNumber": "1252938",
+  "Context": "aut",
+  "Result": "non",
   "State": "All",
-  "Description": "Digitized radical forecast",
-  "Response": "velit",
-  "Request": "deleniti",
-  "ProgressDescription": "Up-sized context-sensitive support",
-  "ProgressPercent": 692,
-  "FileName": "Schmeler, Maggio and Gleason",
+  "Description": "Ameliorated contextually-based archive",
+  "Response": "et",
+  "Request": "aut",
+  "ProgressDescription": "Adaptive maximized support",
+  "ProgressPercent": 741,
+  "FileName": "Rice, Spencer and Graham",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Spinka-Reilly",
-  "AssociateId": 180,
-  "DetailsTable": 766,
-  "DetailsRecord": 572,
-  "IsSystemTask": true,
+  "Id": 396,
+  "Name": "Armstrong LLC",
+  "AssociateId": 221,
+  "DetailsTable": 909,
+  "DetailsRecord": 383,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "molestiae"
+    "ParameterObject1": "quas",
+    "ParameterObject2": "repellat"
   },
-  "LastStarted": "2009-04-22T03:47:00.3943072+02:00",
-  "Created": "1998-05-13T03:47:00.3943072+02:00",
-  "StartCount": 867,
-  "DatabaseSerialNumber": "1186878",
-  "Context": "sit",
-  "Result": "hic",
+  "LastStarted": "2004-10-27T11:24:53.7343025+02:00",
+  "Created": "1999-08-22T11:24:53.7343025+02:00",
+  "StartCount": 700,
+  "DatabaseSerialNumber": "1364591",
+  "Context": "doloribus",
+  "Result": "placeat",
   "State": "All",
-  "Description": "Fundamental holistic infrastructure",
-  "Response": "officia",
-  "Request": "nihil",
-  "ProgressDescription": "Organic bandwidth-monitored extranet",
-  "ProgressPercent": 873,
-  "FileName": "Schimmel Inc and Sons",
+  "Description": "Vision-oriented multi-tasking middleware",
+  "Response": "ad",
+  "Request": "culpa",
+  "ProgressDescription": "Customer-focused actuating superstructure",
+  "ProgressPercent": 650,
+  "FileName": "Hayes LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 560,
+  "HierarchyId": 512,
   "Domain": "Dashboards",
-  "Name": "Stamm-McLaughlin",
-  "Fullname": "animi",
-  "ParentId": 237,
+  "Name": "Paucek Inc and Sons",
+  "Fullname": "eligendi",
+  "ParentId": 970,
   "Children": [
     {
-      "HierarchyId": 607,
+      "HierarchyId": 771,
       "Domain": "Dashboards",
-      "Name": "Fisher, Heller and Howe",
-      "Fullname": "minima",
-      "ParentId": 273,
+      "Name": "Crona, Mante and Nolan",
+      "Fullname": "fuga",
+      "ParentId": 82,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-08-28T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 910,
-      "Updated": "2013-07-21T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 771,
+      "Registered": "2003-07-08T11:24:53.3124447+02:00",
+      "RegisteredAssociateId": 671,
+      "Updated": "2021-08-29T11:24:53.3124447+02:00",
+      "UpdatedAssociateId": 337,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
   ],
-  "Registered": "2019-11-15T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 110,
-  "Updated": "2001-11-07T03:47:00.0349452+01:00",
-  "UpdatedAssociateId": 615,
+  "Registered": "2016-06-11T11:24:53.3124447+02:00",
+  "RegisteredAssociateId": 384,
+  "Updated": "2017-09-13T11:24:53.3124447+02:00",
+  "UpdatedAssociateId": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

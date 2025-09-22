@@ -87,36 +87,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 884,
+  "HierarchyId": 221,
   "Domain": "Dashboards",
-  "Name": "Schmeler LLC",
-  "Fullname": "consequatur",
-  "ParentId": 368,
+  "Name": "Pfeffer, Oberbrunner and Beahan",
+  "Fullname": "unde",
+  "ParentId": 770,
   "Children": [
     {
-      "HierarchyId": 758,
+      "HierarchyId": 930,
       "Domain": "Dashboards",
-      "Name": "West LLC",
-      "Fullname": "fugit",
-      "ParentId": 185,
+      "Name": "Oberbrunner-Hayes",
+      "Fullname": "sit",
+      "ParentId": 491,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-08-20T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 805,
-      "Updated": "2012-11-30T03:47:00.0349452+01:00",
-      "UpdatedAssociateId": 184
+      "Registered": "2023-07-01T11:24:53.3124447+02:00",
+      "RegisteredAssociateId": 386,
+      "Updated": "2023-04-26T11:24:53.3124447+02:00",
+      "UpdatedAssociateId": 551
     }
   ],
-  "Registered": "2001-04-05T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 46,
-  "Updated": "2009-06-22T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 965
+  "Registered": "1999-08-09T11:24:53.3124447+02:00",
+  "RegisteredAssociateId": 399,
+  "Updated": "2002-10-07T11:24:53.3124447+02:00",
+  "UpdatedAssociateId": 760
 }
 ```
 
@@ -127,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 726,
+  "HierarchyId": 305,
   "Domain": "Dashboards",
-  "Name": "Ryan Group",
-  "Fullname": "quia",
-  "ParentId": 809,
+  "Name": "Cummings, Cummings and Greenfelder",
+  "Fullname": "facilis",
+  "ParentId": 538,
   "Children": [
     {
-      "HierarchyId": 97,
+      "HierarchyId": 254,
       "Domain": "Dashboards",
-      "Name": "Koepp-Franecki",
-      "Fullname": "facere",
-      "ParentId": 166,
+      "Name": "Bernier, Rodriguez and Stark",
+      "Fullname": "molestiae",
+      "ParentId": 518,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-09-19T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 560,
-      "Updated": "2017-07-26T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 37,
+      "Registered": "2000-04-21T11:24:53.3124447+02:00",
+      "RegisteredAssociateId": 322,
+      "Updated": "2010-06-26T11:24:53.3124447+02:00",
+      "UpdatedAssociateId": 105,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 591
         }
       }
     }
   ],
-  "Registered": "2000-11-16T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 890,
-  "Updated": "2025-07-21T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 406,
+  "Registered": "2020-03-27T11:24:53.3124447+01:00",
+  "RegisteredAssociateId": 42,
+  "Updated": "2020-11-02T11:24:53.3124447+01:00",
+  "UpdatedAssociateId": 515,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldLength": 443
     }
   }
 }

@@ -82,23 +82,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Feb 2009 03:47:00 G2T
+Last-Modified: Sun, 05 Dec 2004 11:24:53 G12T
 
 {
-  "Key": "aut",
-  "Value": "aut",
-  "RecordId": 199,
-  "CreatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedDate": "2009-02-16T03:47:00.0349452+01:00",
-  "UpdatedBy": "corrupti",
-  "CreatedBy": "aliquid",
-  "TableName": "Borer-Satterfield",
+  "Key": "minus",
+  "Value": "id",
+  "RecordId": 238,
+  "CreatedDate": "2006-01-25T11:24:53.2968202+01:00",
+  "UpdatedDate": "2004-12-05T11:24:53.2968202+01:00",
+  "UpdatedBy": "unde",
+  "CreatedBy": "ipsa",
+  "TableName": "Collins-Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 554,
-  "UdListDefinitionName": "Bauch Inc and Sons"
+  "Id": 437,
+  "UdListDefinitionName": "Mayert-Lindgren"
 }
 ```
 

@@ -118,97 +118,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 5,
-      "ContactName": "Smitham, Gutmann and Boyle",
-      "PersonId": 837,
-      "PersonName": "Hoppe Inc and Sons",
-      "AssociateId": 977,
-      "Address": "voluptatum",
-      "EmailId": 325,
+      "ContactId": 450,
+      "ContactName": "Kovacek LLC",
+      "PersonId": 834,
+      "PersonName": "Schumm-Nikolaus",
+      "AssociateId": 946,
+      "Address": "accusamus",
+      "EmailId": 765,
       "DuplicatePersonIds": [
-        898,
-        632
+        105,
+        12
       ],
-      "Name": "Haag Group",
+      "Name": "Russel-Muller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 740
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 294,
-      "ContactName": "Lesch-Braun",
-      "PersonId": 325,
-      "PersonName": "Abshire, Schaden and Brown",
-      "AssociateId": 927,
-      "Address": "ducimus",
-      "EmailId": 418,
+      "ContactId": 488,
+      "ContactName": "DuBuque Inc and Sons",
+      "PersonId": 560,
+      "PersonName": "Ondricka LLC",
+      "AssociateId": 896,
+      "Address": "harum",
+      "EmailId": 953,
       "DuplicatePersonIds": [
-        48,
-        61
+        626,
+        100
       ],
-      "Name": "Kautzer-Ferry",
+      "Name": "Sipes, Wehner and Fay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 215
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 73,
-      "ContactName": "Macejkovic, Cronin and Will",
-      "PersonId": 242,
-      "PersonName": "Feil, Kunde and Reinger",
-      "AssociateId": 563,
-      "Address": "dolorem",
-      "EmailId": 654,
+      "ContactId": 470,
+      "ContactName": "Rippin, Romaguera and Goodwin",
+      "PersonId": 600,
+      "PersonName": "Heathcote, Carter and Labadie",
+      "AssociateId": 892,
+      "Address": "sit",
+      "EmailId": 682,
       "DuplicatePersonIds": [
-        941,
-        638
+        768,
+        595
       ],
-      "Name": "Botsford Group",
+      "Name": "Eichmann, Smitham and Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     }
   ],
-  "Subject": "sint",
+  "Subject": "omnis",
   "HTMLBody": "et",
   "From": null,
-  "Sent": "2008-04-04T03:46:54.8007556+02:00",
-  "Size": 722,
+  "Sent": "2022-02-24T11:24:48.1095319+01:00",
+  "Size": 295,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "voluptate",
+  "MessageID": "est",
+  "PlainBody": "nihil",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 678,
+  "ServerId": 529,
   "Attachments": [
     {
-      "Description": "Stand-alone discrete initiative",
-      "Filename": "provident",
-      "Size": 907,
-      "Type": "ex",
-      "Encoding": "vel",
-      "Id": "ut",
-      "Disposition": "non",
+      "Description": "Optional exuding paradigm",
+      "Filename": "ratione",
+      "Size": 710,
+      "Type": "saepe",
+      "Encoding": "mollitia",
+      "Id": "iure",
+      "Disposition": "accusamus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,50 +216,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 215
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hoeger-Daniel",
+      "Name": "Romaguera Group",
       "Values": [
-        "autem",
-        "et"
+        "et",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     },
     {
-      "Name": "Hoeger-Daniel",
+      "Name": "Romaguera Group",
       "Values": [
-        "autem",
-        "et"
+        "et",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 497
         }
       }
     }
   ],
-  "FolderName": "Marks LLC",
-  "EmailItemId": 242,
-  "AccountId": 354,
-  "ReceivedAt": "2007-09-25T03:46:54.8007556+02:00",
+  "FolderName": "Lesch, Pfannerstill and Macejkovic",
+  "EmailItemId": 511,
+  "AccountId": 752,
+  "ReceivedAt": "1999-03-27T11:24:48.1095319+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-12-05T03:46:54.8007556+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2024-04-19T11:24:48.1095319+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 691
     }
   }
 }

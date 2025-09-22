@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Russel Inc and Sons",
-    "ToolTip": "Assumenda et consequatur magnam ea magnam veritatis suscipit.",
-    "Deleted": false,
-    "Rank": 72,
-    "Type": "quo",
-    "ColorBlock": 100,
-    "IconHint": "et",
+    "Id": 168,
+    "Name": "Langworth Group",
+    "ToolTip": "Esse odit iusto facere.",
+    "Deleted": true,
+    "Rank": 170,
+    "Type": "autem",
+    "ColorBlock": 511,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2021-01-23T03:47:00.6599229+01:00",
+    "LastChanged": "2025-03-09T11:24:53.9374193+01:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Marks, Strosin and Kunze",
-        "ToolTip": "Similique incidunt deserunt ex est.",
-        "Deleted": true,
-        "Rank": 242,
-        "Type": "sed",
-        "ColorBlock": 943,
-        "IconHint": "nemo",
+        "Id": 810,
+        "Name": "Bauch LLC",
+        "ToolTip": "Id voluptas et quis ut.",
+        "Deleted": false,
+        "Rank": 974,
+        "Type": "voluptate",
+        "ColorBlock": 677,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2008-03-05T03:47:00.6599229+01:00",
+        "LastChanged": "2021-07-03T11:24:53.9374193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "amet",
+        "ExtraInfo": "in",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mrs. Chadd Kreiger MD",
+        "FullName": "Mr. Kyler Blanda DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldType": "System.String",
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Cathrine Windler",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Ms. Alvina Reichert III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 520
       }
     }
   }

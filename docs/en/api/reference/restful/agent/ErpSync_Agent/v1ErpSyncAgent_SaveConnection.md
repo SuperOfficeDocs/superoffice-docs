@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,33 +102,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 281,
-  "ErpConnectorId": 306,
-  "DisplayName": "Metz-Hamill",
-  "DisplayDescription": "Configurable web-enabled hardware",
-  "Active": true,
-  "ConnectionId": "in",
-  "MostRecentTimestamp": "architecto",
+  "ErpConnectionId": 417,
+  "ErpConnectorId": 162,
+  "DisplayName": "Von, Bernier and Beatty",
+  "DisplayDescription": "Team-oriented discrete attitude",
+  "Active": false,
+  "ConnectionId": "iste",
+  "MostRecentTimestamp": "alias",
   "ConfigFields": {
-    "ConfigFields1": "molestias",
-    "ConfigFields2": "et"
+    "ConfigFields1": "excepturi",
+    "ConfigFields2": "facere"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    126,
-    974
+    884,
+    51
   ],
   "AssociateAccessIds": [
-    499,
-    365
+    400,
+    840
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 826
     }
   }
 }

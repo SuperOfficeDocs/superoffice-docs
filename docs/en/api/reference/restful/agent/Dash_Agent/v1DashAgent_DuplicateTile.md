@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 424,
-  "Name": "Wisoky, Green and Jones"
+  "DashTileId": 540,
+  "Name": "Botsford-Denesik"
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 111,
-  "DashboardId": 141,
-  "Height": 416,
-  "Width": 14,
-  "Rank": 589,
+  "DashboardTileId": 771,
+  "DashboardId": 728,
+  "Height": 809,
+  "Width": 578,
+  "Rank": 999,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

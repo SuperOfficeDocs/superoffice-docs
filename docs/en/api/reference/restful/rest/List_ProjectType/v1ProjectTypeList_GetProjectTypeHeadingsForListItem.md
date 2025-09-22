@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Bosco LLC",
-    "ToolTip": "Qui eos expedita repellendus aliquid aperiam.",
+    "Id": 623,
+    "Name": "Spinka-Brakus",
+    "ToolTip": "Dolorem et doloribus perspiciatis aut nihil omnis.",
     "Deleted": false,
-    "Rank": 699,
-    "Type": "et",
-    "ColorBlock": 968,
-    "IconHint": "impedit",
+    "Rank": 824,
+    "Type": "est",
+    "ColorBlock": 282,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2014-02-21T03:47:00.7536695+01:00",
+    "LastChanged": "2024-09-24T11:24:54.0311654+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Jacobson-Dickinson",
-        "ToolTip": "Asperiores autem non culpa.",
+        "Id": 710,
+        "Name": "Lindgren, Kautzer and Ruecker",
+        "ToolTip": "Id eum molestiae non.",
         "Deleted": false,
-        "Rank": 519,
-        "Type": "et",
+        "Rank": 425,
+        "Type": "voluptas",
         "ColorBlock": 280,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2006-03-13T03:47:00.7536695+01:00",
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2010-01-08T11:24:54.0311654+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "omnis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Jayden Kub",
+        "FullName": "Pamela Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 691
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Mrs. Selmer Norene Medhurst DVM",
+    "ExtraInfo": "quasi",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Dillon Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

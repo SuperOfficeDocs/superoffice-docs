@@ -106,7 +106,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -119,12 +119,12 @@ OK
 POST /api/v1/Agents/Contact/ChangeCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactEntity": null,
-  "ToCountryId": 110
+  "ToCountryId": 612
 }
 ```
 
@@ -135,157 +135,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 394,
-  "Name": "Effertz-Konopelski",
+  "ContactId": 63,
+  "Name": "Senger LLC",
   "Department": "",
-  "OrgNr": "1245402",
-  "Number1": "923141",
-  "Number2": "1482292",
-  "UpdatedDate": "2014-11-21T03:46:54.53514+01:00",
-  "CreatedDate": "2017-10-18T03:46:54.53514+02:00",
+  "OrgNr": "1326043",
+  "Number1": "245185",
+  "Number2": "1427719",
+  "UpdatedDate": "2001-02-23T11:24:47.7970448+01:00",
+  "CreatedDate": "2003-04-29T11:24:47.7970448+02:00",
   "Emails": [
     {
-      "Value": "vero",
-      "StrippedValue": "est",
-      "Description": "Mandatory tangible utilisation",
+      "Value": "sed",
+      "StrippedValue": "nobis",
+      "Description": "Enterprise-wide tertiary conglomeration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 856
         }
       }
     },
     {
-      "Value": "vero",
-      "StrippedValue": "est",
-      "Description": "Mandatory tangible utilisation",
+      "Value": "sed",
+      "StrippedValue": "nobis",
+      "Description": "Enterprise-wide tertiary conglomeration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 856
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 116,
-      "Name": "Goodwin LLC",
-      "ToolTip": "Quos quod corporis laudantium aut.",
-      "Deleted": false,
-      "Rank": 583,
-      "Type": "dolorem",
-      "ColorBlock": 554,
-      "IconHint": "recusandae",
-      "Selected": false,
-      "LastChanged": "2015-06-26T03:46:54.53514+02:00",
+      "Id": 414,
+      "Name": "Streich Group",
+      "ToolTip": "Dolorum repellat dolor qui harum facere quos.",
+      "Deleted": true,
+      "Rank": 381,
+      "Type": "accusantium",
+      "ColorBlock": 247,
+      "IconHint": "illum",
+      "Selected": true,
+      "LastChanged": "2019-02-22T11:24:47.7970448+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "enim",
-      "Hidden": true,
-      "FullName": "Dr. Jo Kuhn",
+      "ExtraInfo": "sint",
+      "StyleHint": "beatae",
+      "Hidden": false,
+      "FullName": "Alanis Rippin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 228
+          "FieldLength": 886
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "et",
-      "Description": "Fully-configurable mobile archive",
+      "Value": "sit",
+      "StrippedValue": "numquam",
+      "Description": "Fully-configurable 5th generation task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldType": "System.String",
+          "FieldLength": 761
         }
       }
     },
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "et",
-      "Description": "Fully-configurable mobile archive",
+      "Value": "sit",
+      "StrippedValue": "numquam",
+      "Description": "Fully-configurable 5th generation task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldType": "System.String",
+          "FieldLength": 761
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "fugit",
-      "StrippedValue": "expedita",
-      "Description": "Virtual even-keeled success",
+      "Value": "quo",
+      "StrippedValue": "dicta",
+      "Description": "Secured interactive standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "expedita",
-      "Description": "Virtual even-keeled success",
+      "Value": "quo",
+      "StrippedValue": "dicta",
+      "Description": "Secured interactive standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 158
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "cumque",
-      "Description": "Synergistic user-facing interface",
+      "Value": "accusantium",
+      "StrippedValue": "cum",
+      "Description": "Upgradable responsive application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 496
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "cumque",
-      "Description": "Synergistic user-facing interface",
+      "Value": "accusantium",
+      "StrippedValue": "cum",
+      "Description": "Upgradable responsive application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "Description": "Optional high-level encryption",
+  "Description": "Stand-alone grid-enabled portal",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -294,102 +294,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "labore",
-      "PersonId": 52,
-      "Mrmrs": "molestiae",
-      "Firstname": "Ike",
-      "Lastname": "Kozey",
-      "MiddleName": "Mosciski, Willms and Dickinson",
-      "Title": "maxime",
-      "Description": "Open-architected interactive framework",
-      "Email": "dave_schaefer@gutkowski.info",
-      "FullName": "Gaston O'Connell",
-      "DirectPhone": "799.522.0256",
-      "FormalName": "O'Reilly-Hintz",
-      "CountryId": 65,
-      "ContactId": 452,
-      "ContactName": "Bailey Group",
-      "Retired": 98,
-      "Rank": 383,
-      "ActiveInterests": 755,
+      "Position": "ab",
+      "PersonId": 451,
+      "Mrmrs": "minus",
+      "Firstname": "Bridie",
+      "Lastname": "Steuber",
+      "MiddleName": "Ruecker, Zemlak and Dach",
+      "Title": "voluptatibus",
+      "Description": "Reduced stable analyzer",
+      "Email": "jules@considinecassin.ca",
+      "FullName": "Gerda Rolfson",
+      "DirectPhone": "135-640-8498",
+      "FormalName": "Mosciski, Heidenreich and Feeney",
+      "CountryId": 300,
+      "ContactId": 923,
+      "ContactName": "Beier-Huel",
+      "Retired": 298,
+      "Rank": 813,
+      "ActiveInterests": 847,
       "ContactDepartment": "",
-      "ContactCountryId": 487,
-      "ContactOrgNr": "1432617",
-      "FaxPhone": "1-581-189-0926 x461",
-      "MobilePhone": "1-735-805-6002 x72491",
-      "ContactPhone": "025.671.0517 x229",
-      "AssociateName": "Kerluke, Bahringer and Fahey",
-      "AssociateId": 171,
-      "UsePersonAddress": true,
-      "ContactFax": "cum",
-      "Kanafname": "atque",
-      "Kanalname": "aut",
-      "Post1": "voluptatem",
+      "ContactCountryId": 457,
+      "ContactOrgNr": "1121333",
+      "FaxPhone": "(801)101-1247",
+      "MobilePhone": "374-030-8252",
+      "ContactPhone": "(350)957-9454",
+      "AssociateName": "Krajcik Inc and Sons",
+      "AssociateId": 322,
+      "UsePersonAddress": false,
+      "ContactFax": "labore",
+      "Kanafname": "et",
+      "Kanalname": "quidem",
+      "Post1": "asperiores",
       "Post2": "maxime",
-      "Post3": "porro",
-      "EmailName": "donna.christiansen@keeblersenger.com",
-      "ContactFullName": "Alejandra Boyle",
-      "ActiveErpLinks": 911,
-      "TicketPriorityId": 62,
-      "SupportLanguageId": 213,
-      "SupportAssociateId": 455,
+      "Post3": "eum",
+      "EmailName": "jana.deckow@schinnergraham.name",
+      "ContactFullName": "Mrs. Laurel Cole",
+      "ActiveErpLinks": 268,
+      "TicketPriorityId": 509,
+      "SupportLanguageId": 304,
+      "SupportAssociateId": 451,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1301094",
+      "PersonNumber": "919595",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldType": "System.Int32",
+          "FieldLength": 319
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "ea",
+  "NoMailing": true,
+  "Kananame": "error",
   "Xstop": true,
-  "ActiveInterests": 904,
-  "GroupId": 676,
-  "ActiveStatusMonitorId": 286,
+  "ActiveInterests": 283,
+  "GroupId": 501,
+  "ActiveStatusMonitorId": 471,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 746,
-  "DbiAgentId": 505,
-  "DbiLastSyncronized": "2010-08-14T03:46:54.53514+02:00",
-  "DbiKey": "fugit",
-  "DbiLastModified": "2003-05-09T03:46:54.53514+02:00",
+  "Deleted": 328,
+  "DbiAgentId": 479,
+  "DbiLastSyncronized": "2010-06-20T11:24:47.7970448+02:00",
+  "DbiKey": "autem",
+  "DbiLastModified": "1999-03-25T11:24:47.7970448+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 925,
-  "ActiveErpLinks": 695,
+  "Source": 277,
+  "ActiveErpLinks": 686,
   "BounceEmails": [
-    "ezequiel@purdy.co.uk",
-    "sheridan@raynor.com"
+    "declan.douglas@kuvalishirthe.info",
+    "melissa@gleichner.info"
   ],
   "Domains": [
-    "corporis",
-    "magnam"
+    "ut",
+    "sint"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bruce Hintz",
-    "SuperOffice:2": "871914317"
+    "SuperOffice:1": "1490523721",
+    "SuperOffice:2": "2106969686"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "at"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "impedit"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "illum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 730
     }
   }
 }

@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koepp Group",
-  "DeviceName": "Langosh-Auer",
-  "DeviceIdentifier": "qui",
-  "TableName": "Lind-Kemmer"
+  "ApplicationName": "Abernathy, Kutch and Glover",
+  "DeviceName": "Funk, Hayes and Smith",
+  "DeviceIdentifier": "libero",
+  "TableName": "Stanton, Watsica and Dare"
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "expedita",
-    "Value": "omnis",
-    "RecordId": 483,
-    "CreatedDate": "2013-09-17T03:46:54.9107593+02:00",
-    "UpdatedDate": "2010-09-10T03:46:54.9107593+02:00",
-    "UpdatedBy": "enim",
-    "CreatedBy": "facere",
-    "TableName": "Gottlieb-Shanahan",
+    "Key": "ipsam",
+    "Value": "vel",
+    "RecordId": 494,
+    "CreatedDate": "2011-06-30T11:24:48.1720293+02:00",
+    "UpdatedDate": "2020-04-10T11:24:48.1720293+02:00",
+    "UpdatedBy": "rerum",
+    "CreatedBy": "quam",
+    "TableName": "Denesik-Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldLength": 355
       }
     }
   }

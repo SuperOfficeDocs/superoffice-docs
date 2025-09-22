@@ -86,10 +86,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 923,
-  "NumSentences": 397,
-  "Summary": "quibusdam",
-  "IsoLangCode": "est"
+  "SaleId": 761,
+  "NumSentences": 859,
+  "Summary": "et",
+  "IsoLangCode": "odio"
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2018-09-11T03:46:53.9726601+02:00",
-  "UserPrompt": "fugiat",
-  "UserDisplayText": "qui",
-  "BotResponse": "et",
+  "Timestamp": "2008-09-07T11:24:47.2814408+02:00",
+  "UserPrompt": "ut",
+  "UserDisplayText": "beatae",
+  "BotResponse": "facere",
   "BotActions": {
-    "BotActions1": "sit",
-    "BotActions2": "accusantium"
+    "BotActions1": "qui",
+    "BotActions2": "et"
   },
   "Attachments": [
-    "necessitatibus",
-    "doloremque"
+    "placeat",
+    "et"
   ]
 }
 ```

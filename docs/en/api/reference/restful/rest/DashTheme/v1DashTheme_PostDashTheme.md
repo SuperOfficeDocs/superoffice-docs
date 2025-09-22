@@ -91,12 +91,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 814,
-  "Name": "Batz-Ryan",
-  "Config": "est",
-  "Rank": 15,
-  "Client": "maiores",
-  "Style": "ut"
+  "DashboardThemeId": 514,
+  "Name": "Gibson, McCullough and Miller",
+  "Config": "veniam",
+  "Rank": 994,
+  "Client": "atque",
+  "Style": "et"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 500,
-  "Name": "Spinka LLC",
-  "Config": "omnis",
-  "Rank": 619,
-  "Client": "quia",
-  "Style": "quaerat",
+  "DashboardThemeId": 751,
+  "Name": "Harber LLC",
+  "Config": "quas",
+  "Rank": 748,
+  "Client": "laudantium",
+  "Style": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

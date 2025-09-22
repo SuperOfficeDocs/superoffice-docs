@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/AI/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Ratke, Harris and Mann",
-  "Query": "eos",
+  "NamespaceName": "Schroeder, Rogahn and Hyatt",
+  "Query": "rerum",
   "Type": "Document",
-  "Top": 571
+  "Top": 135
 }
 ```
 
@@ -99,21 +99,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Chunk": "consectetur",
-    "Title": "cupiditate",
-    "Id": "error",
+    "Chunk": "veniam",
+    "Title": "culpa",
+    "Id": "similique",
     "Type": "Document",
-    "Score": 16585.128,
+    "Score": 11298.07,
     "Metadata": {
       "fieldName": {}
     }
   },
   {
-    "Chunk": "consectetur",
-    "Title": "cupiditate",
-    "Id": "error",
+    "Chunk": "veniam",
+    "Title": "culpa",
+    "Id": "similique",
     "Type": "Document",
-    "Score": 16585.128,
+    "Score": 11298.07,
     "Metadata": {
       "fieldName": {}
     }

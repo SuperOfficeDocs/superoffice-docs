@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 377,
-  "LanguageCode": "qui"
+  "DocumentTemplateId": 928,
+  "LanguageCode": "tempore"
 }
 ```
 

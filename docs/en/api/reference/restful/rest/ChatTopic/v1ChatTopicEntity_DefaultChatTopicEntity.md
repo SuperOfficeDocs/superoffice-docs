@@ -88,7 +88,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 898,
-  "Name": "Toy-Lind",
-  "Description": "Future-proofed cohesive strategy",
-  "WelcomeMessage": "assumenda",
+  "ChatTopicId": 45,
+  "Name": "Franecki-Mertz",
+  "Description": "Synergistic foreground hardware",
+  "WelcomeMessage": "expedita",
   "Language": null,
-  "LastAccept": "2011-05-28T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 218,
-  "AlertRecipient": "aspernatur",
+  "LastAccept": "2023-06-22T11:24:53.0468304+02:00",
+  "SecondsPrAccept": 515,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "pariatur",
+  "CollectConsent": false,
+  "BadgeHeader": "in",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "accusamus",
-  "WarnNewChatMinutes": 491,
-  "WarnManagerNewChatMinutes": 918,
+  "CustomQueueText": "eaque",
+  "WarnNewChatMinutes": 599,
+  "WarnManagerNewChatMinutes": 910,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 485,
-  "WarnManagerChatMessageMinutes": 748,
+  "WarnChatMessageMinutes": 254,
+  "WarnManagerChatMessageMinutes": 52,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 695,
-  "OfflineFormQueueLength": 4,
+  "OfflineFormTimeLimit": 982,
+  "OfflineFormQueueLength": 880,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nihil",
+  "WidgetRatingText": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 882
     }
   }
 }

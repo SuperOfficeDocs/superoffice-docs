@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 180,
-  "Name": "Hilpert-Skiles",
-  "TZLocationCode": "exercitationem",
-  "TZLocationCities": "harum",
-  "IsoNumber": 383,
+  "TZLocationID": 914,
+  "Name": "Smitham, Balistreri and Dach",
+  "TZLocationCode": "molestiae",
+  "TZLocationCities": "mollitia",
+  "IsoNumber": 188,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 108,
-      "StartMonth": 977,
-      "EndDay": 839,
-      "EndMonth": 909,
-      "TZOffset": 909,
-      "StartRulePattern": "magnam",
-      "EndRulePattern": "eius"
+      "StartDay": 640,
+      "StartMonth": 925,
+      "EndDay": 811,
+      "EndMonth": 98,
+      "TZOffset": 746,
+      "StartRulePattern": "non",
+      "EndRulePattern": "eaque"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 535,
-      "StartMonth": 513,
-      "EndDay": 687,
-      "EndMonth": 735,
-      "TZOffset": 227,
-      "StartRulePattern": "autem",
-      "EndRulePattern": "quia"
+      "StartDay": 556,
+      "StartMonth": 552,
+      "EndDay": 297,
+      "EndMonth": 660,
+      "TZOffset": 444,
+      "StartRulePattern": "est",
+      "EndRulePattern": "quod"
     }
   }
 }

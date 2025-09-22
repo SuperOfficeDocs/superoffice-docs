@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "atque",
+  "Provider": "beatae",
   "Restrictions": [
     {
-      "Name": "Koss, Hoeger and Langworth",
-      "Operator": "possimus",
+      "Name": "Gibson, Dickinson and Greenfelder",
+      "Operator": "atque",
       "Values": [
-        "ut",
-        "dolores"
+        "culpa",
+        "omnis"
       ],
       "DisplayValues": [
-        "nihil",
-        "a"
+        "consequuntur",
+        "dolores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 749,
+      "InterParenthesis": 131,
       "InterOperator": "And",
-      "UniqueHash": 130
+      "UniqueHash": 181
     }
   ],
   "NewStatus": "Green"
@@ -110,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  44,
-  487
+  68,
+  942
 ]
 ```

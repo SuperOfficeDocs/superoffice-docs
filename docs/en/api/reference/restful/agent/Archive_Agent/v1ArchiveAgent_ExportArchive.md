@@ -84,41 +84,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klocko-Kling",
-  "Context": "quidem",
+  "ProviderName": "Fisher LLC",
+  "Context": "porro",
   "DesiredEntities": [
-    "aut",
-    "numquam"
+    "omnis",
+    "voluptate"
   ],
   "Columns": [
-    "beatae",
-    "sunt"
+    "praesentium",
+    "corporis"
   ],
   "SortOrder": [
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Bosco, Runte and Tromp",
       "Direction": "ASC"
     },
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Bosco, Runte and Tromp",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "West-Beatty",
-      "Operator": "non",
+      "Name": "Brown, Koss and Schmeler",
+      "Operator": "possimus",
       "Values": [
-        "iste",
-        "ducimus"
+        "molestias",
+        "sapiente"
       ],
       "DisplayValues": [
-        "sit",
-        "vel"
+        "quas",
+        "tempore"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -126,17 +126,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 474,
+      "InterParenthesis": 82,
       "InterOperator": "And",
-      "UniqueHash": 365
+      "UniqueHash": 765
     }
   ],
-  "ExportType": "saepe",
+  "ExportType": "reiciendis",
   "SelectedRowIds": [
-    "blanditiis",
-    "quas"
+    "voluptatem",
+    "magnam"
   ],
-  "EstimatedRowCount": 190
+  "EstimatedRowCount": 585
 }
 ```
 
@@ -147,15 +147,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 422,
-  "FileName": "Crooks, Torp and Harber",
-  "Message": "magni",
+  "BatchTaskId": 432,
+  "FileName": "Johnston, Larson and Lebsack",
+  "Message": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 809
     }
   }
 }

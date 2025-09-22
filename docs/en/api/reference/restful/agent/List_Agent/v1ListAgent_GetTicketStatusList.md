@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,11 +88,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 305,
-    "Name": "Gutmann LLC",
+    "TicketStatusId": 84,
+    "Name": "Sipes-Huel",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
@@ -100,7 +100,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 83
       }
     }
   }

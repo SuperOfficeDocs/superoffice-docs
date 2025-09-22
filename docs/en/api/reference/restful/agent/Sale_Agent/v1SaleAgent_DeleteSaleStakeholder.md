@@ -26,7 +26,7 @@ Deletes the SaleStakeholder
 | saleStakeholderId | int32 | **Required** The identity of the SaleStakeholder |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=746
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=640
 ```
 
 

@@ -108,7 +108,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 5
+  "DocumentId": 710
 }
 ```
 
@@ -121,148 +121,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 817,
-      "ContactName": "Miller, Shanahan and Rutherford",
-      "PersonId": 19,
-      "PersonName": "Nader, Kessler and Vandervort",
-      "AssociateId": 782,
-      "Address": "possimus",
-      "EmailId": 411,
+      "ContactId": 674,
+      "ContactName": "Padberg-Hettinger",
+      "PersonId": 568,
+      "PersonName": "Wunsch, Botsford and Wyman",
+      "AssociateId": 640,
+      "Address": "voluptas",
+      "EmailId": 7,
       "DuplicatePersonIds": [
-        754,
-        234
+        599,
+        695
       ],
-      "Name": "Wehner-Jenkins",
+      "Name": "Collier, Bahringer and Will",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 883
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 737,
-      "ContactName": "Borer, Fahey and Koepp",
-      "PersonId": 676,
-      "PersonName": "Langosh-Schinner",
-      "AssociateId": 222,
-      "Address": "quis",
-      "EmailId": 511,
+      "ContactId": 794,
+      "ContactName": "Satterfield, Osinski and Rowe",
+      "PersonId": 691,
+      "PersonName": "Witting, Schamberger and Mayert",
+      "AssociateId": 356,
+      "Address": "necessitatibus",
+      "EmailId": 494,
       "DuplicatePersonIds": [
-        820,
-        709
+        758,
+        210
       ],
-      "Name": "Braun Inc and Sons",
+      "Name": "Senger-Krajcik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 909
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 456,
-      "ContactName": "Carroll Inc and Sons",
-      "PersonId": 589,
-      "PersonName": "Glover-Schneider",
-      "AssociateId": 292,
-      "Address": "cumque",
-      "EmailId": 38,
+      "ContactId": 906,
+      "ContactName": "Spinka Inc and Sons",
+      "PersonId": 131,
+      "PersonName": "Brown-Skiles",
+      "AssociateId": 244,
+      "Address": "et",
+      "EmailId": 149,
       "DuplicatePersonIds": [
-        9,
-        601
+        123,
+        609
       ],
-      "Name": "Douglas-Abbott",
+      "Name": "Reilly, Simonis and Cruickshank",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 836
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "impedit",
+  "Subject": "quia",
+  "HTMLBody": "officiis",
   "From": null,
-  "Sent": "2000-06-10T03:46:54.7382579+02:00",
-  "Size": 850,
+  "Sent": "1999-08-24T11:24:48.0470345+02:00",
+  "Size": 513,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "adipisci",
-  "IsSent": true,
+  "MessageID": "iusto",
+  "PlainBody": "repellat",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 130,
+  "ServerId": 520,
   "Attachments": [
     {
-      "Description": "Ergonomic disintermediate capacity",
-      "Filename": "ipsam",
-      "Size": 289,
-      "Type": "quo",
-      "Encoding": "quibusdam",
-      "Id": "tempora",
-      "Disposition": "veritatis",
-      "IsSafeFileExtension": true,
+      "Description": "Profit-focused didactic utilisation",
+      "Filename": "alias",
+      "Size": 614,
+      "Type": "repellat",
+      "Encoding": "sunt",
+      "Id": "et",
+      "Disposition": "veniam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldType": "System.Int32",
+          "FieldLength": 84
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Gottlieb, Marvin and Mitchell",
       "Values": [
-        "ipsum",
-        "amet"
+        "ab",
+        "tempore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 381
         }
       }
     },
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Gottlieb, Marvin and Mitchell",
       "Values": [
-        "ipsum",
-        "amet"
+        "ab",
+        "tempore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 381
         }
       }
     }
   ],
-  "FolderName": "Gorczany Inc and Sons",
-  "EmailItemId": 348,
-  "AccountId": 199,
-  "ReceivedAt": "2003-10-31T03:46:54.7382579+01:00",
+  "FolderName": "Runolfsdottir, Rogahn and Walter",
+  "EmailItemId": 675,
+  "AccountId": 492,
+  "ReceivedAt": "2007-08-25T11:24:48.0470345+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-05-18T03:46:54.7382579+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1998-10-15T11:24:48.0470345+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 594
     }
   }
 }

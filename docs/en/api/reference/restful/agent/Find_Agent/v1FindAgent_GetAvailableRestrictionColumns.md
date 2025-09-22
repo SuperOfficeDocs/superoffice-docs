@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Witting, Ankunding and Mayert"
+  "StorageType": "cupiditate",
+  "ProviderName": "Conn-Halvorson"
 }
 ```
 
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "impedit",
-  "magni"
+  "sint",
+  "fuga"
 ]
 ```

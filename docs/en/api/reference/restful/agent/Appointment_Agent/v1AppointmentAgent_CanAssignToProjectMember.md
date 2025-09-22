@@ -74,8 +74,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 161,
-  "SuggestedAppointmentId": 871
+  "ProjectId": 620,
+  "SuggestedAppointmentId": 94
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

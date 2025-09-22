@@ -27,7 +27,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=197
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=681
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -96,47 +96,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 847,
-  "CreatedAt": "2009-07-06T03:46:55.5351045+02:00",
+  "TicketMessageId": 560,
+  "CreatedAt": "2015-03-28T11:24:48.8595017+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "reprehenderit",
-  "PersonId": 703,
-  "PersonFullName": "Einar Kemmer",
-  "ContactId": 637,
-  "ContactName": "Muller LLC",
+  "Important": false,
+  "Author": "voluptatem",
+  "PersonId": 48,
+  "PersonFullName": "Lauren Haag",
+  "ContactId": 835,
+  "ContactName": "Hahn-Von",
   "ContactDepartment": "",
-  "NumAttachments": 640,
-  "EmailHeader": "taylor_reichel@hintzquitzon.co.uk",
+  "NumAttachments": 765,
+  "EmailHeader": "murl_tillman@kohlerfadel.uk",
   "MessageHeaders": [
     {
-      "Id": 679,
-      "Name": "Terry-Jewess",
-      "Value": "pariatur",
+      "Id": 608,
+      "Name": "Shanahan Group",
+      "Value": "tempore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldType": "System.String",
+          "FieldLength": 402
         }
       }
     }
   ],
-  "Language": "consequatur",
-  "Sentiment": 35,
-  "SentimentConfidence": 586,
-  "CreatedBy": 544,
-  "ChangedAt": "2024-04-25T03:46:55.5351045+02:00",
+  "Language": "sed",
+  "Sentiment": 130,
+  "SentimentConfidence": 282,
+  "CreatedBy": 17,
+  "ChangedAt": "2001-05-08T11:24:48.8595017+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldLength": 465
     }
   }
 }

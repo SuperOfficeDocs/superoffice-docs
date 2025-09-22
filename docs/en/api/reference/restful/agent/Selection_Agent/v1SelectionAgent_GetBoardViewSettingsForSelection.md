@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Selection/GetBoardViewSettingsForSelection
 ```
 
-Get BoardViewSettings by selection id, associate id, and settings type
+Get BoardViewSettings by associate id and selection id
 
 
 
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Selection/GetBoardViewSettingsForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 866,
-  "SelectionId": 926
+  "AssociateId": 550,
+  "SelectionId": 35
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 895,
+  "BoardViewSettingsId": 441,
   "EntityType": "None",
-  "AssociateId": 131,
-  "SelectionId": 623,
+  "AssociateId": 68,
+  "SelectionId": 529,
   "HideEmptyGroups": false,
-  "GroupBy": "nemo",
-  "SubGroupBy": "rerum",
-  "SortBy": "vel",
-  "SortDesc": true,
-  "SumBy": "aut",
-  "ColorBy": "iusto",
-  "Filters": "ut"
+  "GroupBy": "et",
+  "SubGroupBy": "voluptates",
+  "SortBy": "quam",
+  "SortDesc": false,
+  "SumBy": "necessitatibus",
+  "ColorBy": "optio",
+  "Filters": "id"
 }
 ```

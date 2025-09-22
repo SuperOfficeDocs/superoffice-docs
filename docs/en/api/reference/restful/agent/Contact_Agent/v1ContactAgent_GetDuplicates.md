@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Volkman-Keebler"
+  "Name": "Oberbrunner-Koss"
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "O'Connell, Boyle and Ferry",
-    "SoPrimaryKey": 248,
-    "EntryName": "Mayert Inc and Sons",
-    "EntryIdentifier": "molestiae",
-    "RuleDisplayName": "Kling-Abbott",
+    "RuleName": "Abshire Inc and Sons",
+    "SoPrimaryKey": 212,
+    "EntryName": "Kris LLC",
+    "EntryIdentifier": "iste",
+    "RuleDisplayName": "Treutel-Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

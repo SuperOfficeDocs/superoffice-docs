@@ -633,7 +633,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=originalStage,person/fullName,person/updatedByWorkflow,person/personAddress/addressId,person/personUdef/SuperOffice:7
+GET /api/v1/archive/SimpleSale?$select=person/personAddress/addressId,person/personAddress/city,person/personAssociate/simultaneousEjUser,contact/contactNoMail,contact/email/emailLastBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

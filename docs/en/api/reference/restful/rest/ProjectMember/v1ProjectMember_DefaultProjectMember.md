@@ -69,6 +69,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,33 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 59,
-  "ContactId": 160,
-  "ProjectId": 320,
-  "ContactName": "Robel, Heaney and Tremblay",
-  "ContactDepartment": "",
-  "ProjectName": "Kutch Inc and Sons",
-  "EmailId": 762,
-  "EmailAddress": "jasmin.ziemann@predovic.ca",
-  "CountryId": 30,
-  "Firstname": "Edwina",
-  "MiddleName": "Cronin-Kuhn",
-  "Lastname": "Kling",
-  "PersonId": 623,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Lynch LLC",
-  "Phone": "1-837-583-2586 x95505",
-  "PhoneId": 290,
-  "ProjectMemberTypeId": 188,
-  "EmailAddressName": "stella@vonruedenreynolds.ca",
-  "Comment": "perspiciatis",
-  "FullName": "Katelin Jacobs",
+  "ProjectmemberId": 540,
+  "ContactId": 920,
+  "ProjectId": 100,
+  "ContactName": "Crona-Bernier",
+  "ContactDepartment": "harness enterprise systems",
+  "ProjectName": "Dickens-Yundt",
+  "EmailId": 856,
+  "EmailAddress": "shaniya@carter.biz",
+  "CountryId": 533,
+  "Firstname": "Dannie",
+  "MiddleName": "Block, Shields and Hartmann",
+  "Lastname": "Koelpin",
+  "PersonId": 192,
+  "Mrmrs": "eius",
+  "ProjectMemberTypeName": "Koch Inc and Sons",
+  "Phone": "119-773-8200 x31065",
+  "PhoneId": 708,
+  "ProjectMemberTypeId": 38,
+  "EmailAddressName": "gerald@beerpredovic.com",
+  "Comment": "et",
+  "FullName": "Mariano Crooks",
+  "Registered": "2025-05-12T11:24:53.7655512+02:00",
+  "Updated": "1998-08-09T11:24:53.7655512+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 593
     }
   }
 }

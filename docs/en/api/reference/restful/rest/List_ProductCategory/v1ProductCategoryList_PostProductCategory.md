@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Blick, Conn and Rempel",
-  "Tooltip": "similique",
+  "Id": 36,
+  "Name": "Nader-Bode",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 147,
-  "Rank": 893
+  "UdListDefinitionId": 924,
+  "Rank": 730
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Quigley, Stoltenberg and Hessel",
-  "Tooltip": "pariatur",
+  "Id": 376,
+  "Name": "Homenick Group",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 122,
-  "Rank": 368,
+  "UdListDefinitionId": 621,
+  "Rank": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 403
     }
   }
 }

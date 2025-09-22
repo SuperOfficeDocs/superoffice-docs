@@ -91,9 +91,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "amy@beier.name",
-  "Subject": "quia",
-  "TemplateLanguage": "sit"
+  "EmailBody": "daren@bogan.ca",
+  "Subject": "qui",
+  "TemplateLanguage": "dolores"
 }
 ```
 
@@ -105,13 +105,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "EmailCreated": false,
+  "EmailCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

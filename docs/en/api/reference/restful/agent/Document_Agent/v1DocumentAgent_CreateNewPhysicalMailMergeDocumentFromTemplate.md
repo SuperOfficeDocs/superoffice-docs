@@ -110,12 +110,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 103,
-  "UiCulture": "necessitatibus"
+  "DocumentId": 313,
+  "UiCulture": "voluptatem"
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 258,
+  "DocumentId": 370,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "alias",
-  "Name": "Stehr Inc and Sons",
-  "OurRef": "omnis",
-  "YourRef": "magni",
-  "CreatedDate": "2009-10-26T03:46:54.6601354+01:00",
-  "UpdatedDate": "2006-01-13T03:46:54.6601354+01:00",
-  "Description": "Function-based mobile functionalities",
+  "Attention": "eius",
+  "Header": "tenetur",
+  "Name": "Nitzsche, Ernser and Little",
+  "OurRef": "possimus",
+  "YourRef": "autem",
+  "CreatedDate": "2009-06-15T11:24:47.9845371+02:00",
+  "UpdatedDate": "2007-04-30T11:24:47.9845371+02:00",
+  "Description": "Proactive bandwidth-monitored moratorium",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-10-19T03:46:54.6601354+02:00",
-  "ExternalRef": "hic",
+  "Date": "2005-11-13T11:24:47.9845371+01:00",
+  "ExternalRef": "architecto",
   "Completed": "Completed",
-  "ActiveLinks": 799,
+  "ActiveLinks": 206,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kilback-Ward",
-      "Id": 858,
-      "Description": "Vision-oriented local portal",
-      "ExtraInfo": "provident",
-      "LinkId": 467,
+      "EntityName": "Stark, Lesch and Cormier",
+      "Id": 152,
+      "Description": "Persevering non-volatile software",
+      "ExtraInfo": "maiores",
+      "LinkId": 714,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 288
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 116,
-  "Snum": 888,
+  "SuggestedDocumentId": 206,
+  "Snum": 320,
   "UserDefinedFields": {
-    "SuperOffice:1": "398794159",
-    "SuperOffice:2": "930918072"
+    "SuperOffice:1": "426014338",
+    "SuperOffice:2": "2145145015"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "expedita",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2008-08-17T03:46:54.6601354+02:00",
-  "PublishTo": "2006-10-31T03:46:54.6601354+01:00",
-  "PublishFrom": "2014-05-23T03:46:54.6601354+02:00",
+  "PublishEventDate": "2001-09-24T11:24:47.9845371+02:00",
+  "PublishTo": "2006-01-30T11:24:47.9845371+01:00",
+  "PublishFrom": "2018-09-28T11:24:47.9845371+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 72,
+      "VisibleId": 580,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     {
-      "VisibleId": 72,
+      "VisibleId": 580,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 601
     }
   }
 }

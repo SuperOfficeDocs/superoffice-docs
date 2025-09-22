@@ -114,18 +114,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 225,
+      "ContactId": 980
     },
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 225,
+      "ContactId": 980
     }
   ]
 }
@@ -138,70 +138,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable motivating algorithm",
-  "Postit": "sed",
+  "Description": "Implemented regional hub",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 920,
-  "IncludePerson": 117,
+  "GroupIdx": 616,
+  "IncludePerson": 982,
   "MemberCount": 99.99,
-  "Name": "Stracke-Thompson",
-  "PostitTextId": 725,
-  "CreatedDate": "2021-01-21T03:46:55.3163674+01:00",
-  "SelectionId": 994,
-  "SoundEx": "pariatur",
-  "Source": 888,
-  "TextId": 757,
-  "UpdatedDate": "2005-06-19T03:46:55.3163674+02:00",
-  "UpdatedCount": 443,
-  "Visibility": 882,
+  "Name": "Legros, Cronin and Beier",
+  "PostitTextId": 131,
+  "CreatedDate": "2018-04-10T11:24:48.6251358+02:00",
+  "SelectionId": 806,
+  "SoundEx": "labore",
+  "Source": 964,
+  "TextId": 759,
+  "UpdatedDate": "2024-02-20T11:24:48.6251358+01:00",
+  "UpdatedCount": 342,
+  "Visibility": 988,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Lakin Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 628,
+  "TargetTableName": "Rohan, Trantow and Dibbert",
   "Completed": false,
-  "LeftSelectionId": 259,
-  "RightSelectionId": 352,
+  "LeftSelectionId": 846,
+  "RightSelectionId": 350,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reilly Group",
-  "ShadowProviderName": "Hermann-Huels",
-  "ChartKey": "sed",
-  "LastLoaded": "2009-03-10T03:46:55.3163674+01:00",
-  "LastLoadedBy": 961,
+  "MainProviderName": "O'Keefe-Spinka",
+  "ShadowProviderName": "Kunde, Kovacek and Zulauf",
+  "ChartKey": "quis",
+  "LastLoaded": "2009-10-05T11:24:48.6251358+02:00",
+  "LastLoadedBy": 516,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-06-18T03:46:55.3163674+02:00",
-  "LastMembershipChangeBy": 391,
+  "LastMembershipChange": "2012-11-04T11:24:48.6251358+01:00",
+  "LastMembershipChangeBy": 907,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Treutel, Pollich and Veum",
-  "DashboardTileDefinitionId": 512,
+  "MainHeading": "aliquid",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Cruickshank Inc and Sons",
+  "DashboardTileDefinitionId": 740,
   "VisibleFor": [
     {
-      "VisibleId": 323,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 563
         }
       }
     },
     {
-      "VisibleId": 323,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 563
         }
       }
     }
@@ -211,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 100
     }
   }
 }

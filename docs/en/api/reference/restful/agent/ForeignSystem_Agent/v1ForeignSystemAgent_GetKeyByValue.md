@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Block Group",
-  "DeviceName": "Konopelski, Mraz and Reinger",
-  "KeyName": "Reichel-Walter",
-  "KeyValue": "qui",
-  "TableName": "Mills-Jenkins"
+  "ApplicationName": "Gorczany-Mohr",
+  "DeviceName": "Hand LLC",
+  "KeyName": "Howe-Orn",
+  "KeyValue": "ipsa",
+  "TableName": "Block-Cummings"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quos",
-  "Value": "inventore",
-  "RecordId": 278,
-  "CreatedDate": "2014-11-20T03:46:54.9107593+01:00",
-  "UpdatedDate": "1999-05-09T03:46:54.9107593+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "placeat",
-  "TableName": "Reichel-McCullough",
+  "Key": "odio",
+  "Value": "molestiae",
+  "RecordId": 686,
+  "CreatedDate": "2002-11-16T11:24:48.1564051+01:00",
+  "UpdatedDate": "2020-07-05T11:24:48.1564051+02:00",
+  "UpdatedBy": "cum",
+  "CreatedBy": "repellendus",
+  "TableName": "Christiansen Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   }
 }

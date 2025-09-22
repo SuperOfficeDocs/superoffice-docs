@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 562,
+  "TicketId": 877,
   "MessageActionType": "Forward",
-  "TicketMessageId": 166,
-  "TicketTypeId": 776,
-  "ExcludeSignature": true
+  "TicketMessageId": 350,
+  "TicketTypeId": 85,
+  "ExcludeSignature": false
 }
 ```
 
@@ -96,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "adipisci",
+  "Body": "delectus",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 213,
-      "Name": "Ryan, Ledner and Schmitt",
-      "ContentType": "et",
-      "AttSize": 609,
-      "InlineImage": true,
-      "ContentId": "quia",
-      "AuthKey": "vero",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 82,
+      "Name": "Kovacek, Greenfelder and Sawayn",
+      "ContentType": "voluptas",
+      "AttSize": 395,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "iusto",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldType": "System.String",
+          "FieldLength": 975
         }
       }
     }

@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 601,
-  "ERPProductKey": "pariatur",
-  "ERPPriceListKey": "eos",
-  "Name": "Kozey Inc and Sons",
-  "Description": "Balanced motivating archive",
-  "Code": "architecto",
-  "PriceUnit": "ut",
-  "QuantityUnit": "culpa",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellendus",
-  "DefaultSubscriptionQuantity": 19929.106,
-  "ItemNumber": "1035505",
+  "ProductId": 897,
+  "ERPProductKey": "tenetur",
+  "ERPPriceListKey": "omnis",
+  "Name": "Ward LLC",
+  "Description": "Proactive eco-centric concept",
+  "Code": "delectus",
+  "PriceUnit": "sapiente",
+  "QuantityUnit": "molestiae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "eos",
+  "DefaultSubscriptionQuantity": 18615.96,
+  "ItemNumber": "1013747",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "officiis",
-  "VAT": 1009.1479999999999,
-  "VATInfo": "placeat",
-  "UnitCost": 21088.685999999998,
-  "UnitMinimumPrice": 23771.39,
-  "UnitListPrice": 22818.654,
-  "InAssortment": false,
-  "Supplier": "nihil",
-  "SupplierCode": "distinctio",
-  "Rights": "rem",
-  "Rule": "et",
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "facilis",
+  "VAT": 26472.897999999997,
+  "VATInfo": "quam",
+  "UnitCost": 22715.232,
+  "UnitMinimumPrice": 8571.49,
+  "UnitListPrice": 6894.8,
+  "InAssortment": true,
+  "Supplier": "nesciunt",
+  "SupplierCode": "est",
+  "Rights": "eveniet",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Jacobs, O'Kon and Mills",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     },
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Jacobs, O'Kon and Mills",
+      "Value": "nam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "corporis",
-  "ExtraField2": "dolores",
-  "ExtraField3": "maiores",
-  "ExtraField4": "autem",
-  "ExtraField5": "impedit",
-  "InStock": 24673.982,
+  "RawExtraInfo": "autem",
+  "ExtraField1": "exercitationem",
+  "ExtraField2": "minima",
+  "ExtraField3": "provident",
+  "ExtraField4": "officia",
+  "ExtraField5": "nulla",
+  "InStock": 17747.842,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 675
     }
   }
 }

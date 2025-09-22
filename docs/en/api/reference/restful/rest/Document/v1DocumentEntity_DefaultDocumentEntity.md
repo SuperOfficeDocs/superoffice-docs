@@ -91,7 +91,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,91 +99,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Feb 2011 03:46:59 G2T
+Last-Modified: Mon, 15 Jun 2020 11:24:53 G6T
 
 {
-  "DocumentId": 74,
+  "DocumentId": 586,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "et",
-  "Header": "tenetur",
-  "Name": "Goldner-Lynch",
-  "OurRef": "corporis",
-  "YourRef": "eum",
-  "CreatedDate": "2010-12-06T03:46:59.8943184+01:00",
-  "UpdatedDate": "2011-02-18T03:46:59.8943184+01:00",
-  "Description": "Automated radical encryption",
+  "Header": "ut",
+  "Name": "Kuvalis, Schmidt and Hansen",
+  "OurRef": "aut",
+  "YourRef": "quaerat",
+  "CreatedDate": "2015-12-30T11:24:53.2345794+01:00",
+  "UpdatedDate": "2020-06-15T11:24:53.2345794+02:00",
+  "Description": "Phased 3rd generation knowledge base",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-01-01T03:46:59.9099453+01:00",
-  "ExternalRef": "dignissimos",
+  "Date": "2000-03-23T11:24:53.2345794+01:00",
+  "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 187,
+  "ActiveLinks": 300,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Legros LLC",
-      "Id": 114,
-      "Description": "Future-proofed local open architecture",
-      "ExtraInfo": "esse",
-      "LinkId": 352,
+      "EntityName": "Corwin LLC",
+      "Id": 573,
+      "Description": "Focused systematic adapter",
+      "ExtraInfo": "dolor",
+      "LinkId": 383,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 217
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 244,
-  "Snum": 340,
+  "SuggestedDocumentId": 438,
+  "Snum": 314,
   "UserDefinedFields": {
-    "SuperOffice:1": "1517870266",
-    "SuperOffice:2": "Maggie Elias Wiza PhD"
+    "SuperOffice:1": "Mrs. Ally Green",
+    "SuperOffice:2": "805674130"
   },
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "similique"
+    "CustomFields1": "sed",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2001-12-19T03:46:59.9099453+01:00",
-  "PublishTo": "2014-03-20T03:46:59.9099453+01:00",
-  "PublishFrom": "2015-03-04T03:46:59.9099453+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-09-24T11:24:53.2345794+02:00",
+  "PublishTo": "2019-12-21T11:24:53.2345794+01:00",
+  "PublishFrom": "2018-11-12T11:24:53.2345794+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 785,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 512
         }
       }
     },
     {
-      "VisibleId": 785,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 512
         }
       }
     }
@@ -192,8 +192,8 @@ Last-Modified: Fri, 18 Feb 2011 03:46:59 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 290
     }
   }
 }

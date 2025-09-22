@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 963,
-  "BlobSize": 834,
-  "Description": "Centralized object-oriented Graphical User Interface",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 544,
-  "CreatedDate": "2019-04-08T03:46:54.3007673+02:00",
-  "UpdatedDate": "2005-06-15T03:46:54.3007673+02:00",
+  "BlobId": 362,
+  "BlobSize": 795,
+  "Description": "Function-based exuding complexity",
+  "ExtraInfo": "non",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "molestias",
+  "OriginalSize": 525,
+  "CreatedDate": "2008-09-20T11:24:47.6251768+02:00",
+  "UpdatedDate": "1999-11-08T11:24:47.6251768+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 965
     }
   }
 }

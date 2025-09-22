@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 455,
-  "EmailAddress": "dominic@douglas.co.uk",
+  "PersonId": 3,
+  "EmailAddress": "adrian@baumbach.ca",
   "SetAsPrimaryEmail": false
 }
 ```

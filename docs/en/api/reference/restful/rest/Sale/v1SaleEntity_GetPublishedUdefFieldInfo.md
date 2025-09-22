@@ -94,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 162,
-  "ColumnId": 230,
-  "FieldDefault": "eum",
-  "FieldHeight": 57,
-  "FieldLabel": "maxime",
-  "FieldLeft": 495,
-  "FieldTop": 292,
+  "UDefFieldId": 582,
+  "ColumnId": 626,
+  "FieldDefault": "commodi",
+  "FieldHeight": 913,
+  "FieldLabel": "veniam",
+  "FieldLeft": 682,
+  "FieldTop": 422,
   "FieldType": "Checkbox",
-  "FieldWidth": 402,
-  "FormatMask": "sint",
+  "FieldWidth": 435,
+  "FormatMask": "aspernatur",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 945,
-  "LabelLeft": 954,
-  "LabelTop": 721,
-  "LabelWidth": 729,
-  "LastVersionId": 465,
-  "ListTableId": 298,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 730,
+  "LabelLeft": 331,
+  "LabelTop": 882,
+  "LabelWidth": 270,
+  "LastVersionId": 124,
+  "ListTableId": 118,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 679,
-  "ProgId": "quo",
-  "IsReadOnly": true,
-  "ShortLabel": "excepturi",
-  "TabOrder": 380,
-  "TextLength": 874,
-  "Tooltip": "omnis",
-  "UdefIdentity": 912,
-  "UDListDefinitionId": 81,
+  "Page1LineNo": 815,
+  "ProgId": "fuga",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 161,
+  "TextLength": 786,
+  "Tooltip": "odio",
+  "UdefIdentity": 697,
+  "UDListDefinitionId": 964,
   "Justification": "Center",
-  "Version": 834,
-  "TemplateVariableName": "Ruecker, Murazik and Herzog",
+  "Version": 229,
+  "TemplateVariableName": "Kilback-Green",
   "HasBeenPublished": false,
-  "MdoListName": "Koepp LLC",
+  "MdoListName": "Dicki Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 987
     }
   }
 }

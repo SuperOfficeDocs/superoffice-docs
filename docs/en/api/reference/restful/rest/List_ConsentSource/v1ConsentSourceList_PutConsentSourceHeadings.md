@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 10,
-    "Name": "Emmerich, Borer and Jast",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 249
+    "HeadingId": 825,
+    "Name": "Rodriguez, Nienow and Skiles",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 776,
+    "UdListDefinitionId": 339
   },
   {
-    "HeadingId": 10,
-    "Name": "Emmerich, Borer and Jast",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 249
+    "HeadingId": 825,
+    "Name": "Rodriguez, Nienow and Skiles",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 776,
+    "UdListDefinitionId": 339
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Crona LLC",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "Rank": 249,
-    "UdListDefinitionId": 63,
+    "HeadingId": 743,
+    "Name": "Kautzer, Herzog and Turner",
+    "Tooltip": "fugit",
+    "Deleted": false,
+    "Rank": 300,
+    "UdListDefinitionId": 338,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 834
       }
     }
   }

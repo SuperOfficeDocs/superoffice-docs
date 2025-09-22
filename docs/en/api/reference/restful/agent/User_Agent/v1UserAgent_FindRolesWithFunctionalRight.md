@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Kutch, Hickle and Krajcik"
+  "FunctionalRightName": "Bogisich LLC"
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Wintheiser LLC",
-    "ToolTip": "Asperiores et et.",
+    "Id": 367,
+    "Name": "Sporer, Dibbert and Pacocha",
+    "ToolTip": "Et tempora aperiam dicta quidem et.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "rerum",
+    "Rank": 11,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Miller LLC",
-        "ToolTip": "Alias non nihil tenetur quo.",
+        "Id": 391,
+        "Name": "Satterfield Inc and Sons",
+        "ToolTip": "Reiciendis tempora.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "quibusdam",
+        "Rank": 490,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 614,
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
-        "FullName": "Khalil Halvorson",
+        "IconHint": "temporibus",
+        "ColorBlock": 194,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quas",
+        "FullName": "Armand Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldType": "System.Int32",
+            "FieldLength": 394
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 696,
-    "ExtraInfo": "qui",
-    "StyleHint": "id",
-    "FullName": "Miss Amie Maymie Heller",
+    "IconHint": "ipsum",
+    "ColorBlock": 359,
+    "ExtraInfo": "nemo",
+    "StyleHint": "necessitatibus",
+    "FullName": "Domingo Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 396
       }
     }
   }

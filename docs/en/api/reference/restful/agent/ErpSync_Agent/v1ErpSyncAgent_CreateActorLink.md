@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 665,
-  "CrmRecordId": 671,
+  "ErpConnectionId": 748,
+  "CrmRecordId": 538,
   "CrmActorType": "Contact",
-  "ErpKey": "dolorem",
+  "ErpKey": "qui",
   "ErpActorType": "Customer"
 }
 ```

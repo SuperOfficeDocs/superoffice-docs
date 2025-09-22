@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 454
+  "ContactId": 776
 }
 ```
 
@@ -101,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 931,
-  "BlobSize": 487,
-  "Description": "Synergistic regional pricing structure",
-  "ExtraInfo": "laudantium",
+  "BlobId": 730,
+  "BlobSize": 964,
+  "Description": "Multi-lateral logistical concept",
+  "ExtraInfo": "sint",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "necessitatibus",
-  "OriginalSize": 610,
-  "CreatedDate": "2024-06-08T03:46:54.3163903+02:00",
-  "UpdatedDate": "2015-08-08T03:46:54.3163903+02:00",
+  "MimeType": "eaque",
+  "OriginalSize": 531,
+  "CreatedDate": "2015-05-08T11:24:47.6251768+02:00",
+  "UpdatedDate": "2016-08-06T11:24:47.6251768+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

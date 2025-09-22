@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 914,
-    "Name": "Robel Group",
-    "Tooltip": "et",
+    "HeadingId": 255,
+    "Name": "Welch-Kris",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 263,
-    "UdListDefinitionId": 423,
+    "Rank": 344,
+    "UdListDefinitionId": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 327
       }
     }
   }

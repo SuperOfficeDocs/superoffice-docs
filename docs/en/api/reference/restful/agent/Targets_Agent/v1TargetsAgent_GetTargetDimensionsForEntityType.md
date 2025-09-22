@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 881,
+    "TargetDimensionId": 380,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "accusantium",
-    "DimensionListName": "Lesch LLC",
-    "DimensionListId": 431,
-    "DimensionListLabel": "neque",
+    "DimensionListField": "ratione",
+    "DimensionListName": "Kilback-Cruickshank",
+    "DimensionListId": 5,
+    "DimensionListLabel": "amet",
     "SelectedDimensions": [
-      185,
-      192
+      538,
+      581
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 846
       }
     }
   }

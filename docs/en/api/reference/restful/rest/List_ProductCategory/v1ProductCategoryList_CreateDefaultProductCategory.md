@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Dibbert, Lind and Lebsack",
-  "Tooltip": "sunt",
+  "Id": 461,
+  "Name": "Bernhard-Quigley",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 462,
-  "Rank": 35,
+  "UdListDefinitionId": 350,
+  "Rank": 560,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 1000
     }
   }
 }

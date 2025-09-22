@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gerlach-Pouros",
-  "TypicalSearchId": 32
+  "EntityName": "Senger Group",
+  "TypicalSearchId": 101
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Thiel, Fahey and Schmidt",
-  "SelectionId": 149,
-  "CanSaveAsSelection": true,
-  "MainHeading": "magni",
-  "FilterScreenHeading": "quia",
-  "SelectionEntityHeading": "incidunt",
+  "ProviderName": "Fay-Lueilwitz",
+  "SelectionId": 24,
+  "CanSaveAsSelection": false,
+  "MainHeading": "corporis",
+  "FilterScreenHeading": "nobis",
+  "SelectionEntityHeading": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 406
     }
   }
 }

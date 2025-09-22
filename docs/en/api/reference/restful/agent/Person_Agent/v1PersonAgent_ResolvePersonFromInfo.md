@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 634,
-  "PersonName": "Graham Group",
+  "ContactId": 98,
+  "PersonName": "Ritchie, Waters and Hilll",
   "PhoneNumbers": [
-    "1011308",
-    "819977"
+    "1253550",
+    "1162977"
   ],
   "Emails": [
-    "antonette@walshorn.ca",
-    "anika.schaden@mcclurestiedemann.name"
+    "vicenta@mcglynnconn.us",
+    "yvette@wisoky.co.uk"
   ]
 }
 ```
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

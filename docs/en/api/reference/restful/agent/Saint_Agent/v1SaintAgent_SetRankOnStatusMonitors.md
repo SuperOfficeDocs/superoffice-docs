@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "molestiae",
+  "Type": "nemo",
   "ItemsIds": [
-    138,
-    29
+    582,
+    666
   ]
 }
 ```

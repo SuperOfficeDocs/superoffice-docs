@@ -91,17 +91,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 809,
-  "Name": "Rosenbaum, Schuster and Carter",
-  "ContentType": "rerum",
-  "AttSize": 717,
+  "AttachmentId": 104,
+  "Name": "Adams-Kessler",
+  "ContentType": "molestiae",
+  "AttSize": 117,
   "InlineImage": false,
-  "ContentId": "eum",
-  "AuthKey": "blanditiis",
+  "ContentId": "dolores",
+  "AuthKey": "accusamus",
   "IsSafeFileExtension": false
 }
 ```
@@ -113,20 +113,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 203,
-  "Name": "Hoeger, Kertzmann and O'Hara",
-  "ContentType": "omnis",
-  "AttSize": 339,
-  "InlineImage": true,
-  "ContentId": "asperiores",
-  "AuthKey": "ut",
+  "AttachmentId": 975,
+  "Name": "Franecki LLC",
+  "ContentType": "excepturi",
+  "AttSize": 820,
+  "InlineImage": false,
+  "ContentId": "vero",
+  "AuthKey": "voluptatum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   },
   "_Links": {

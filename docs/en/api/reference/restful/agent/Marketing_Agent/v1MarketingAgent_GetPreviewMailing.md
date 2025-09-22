@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 17
+  "ShipmentAddrId": 854
 }
 ```
 
@@ -104,28 +104,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2023-01-25T03:46:55.0038735+01:00",
+  "SendingTime": "2007-03-01T11:24:48.2657757+01:00",
   "Status": "Blocked",
-  "ShipmentId": 679,
-  "ShipmentDescription": "Optimized explicit service-desk",
-  "FromAddress": "aut",
-  "Configuration": 640,
-  "ContactId": 477,
-  "ContactName": "Reynolds, Mann and Maggio",
-  "PersonId": 769,
-  "PersonFullName": "Malcolm Grady",
-  "ShipmentType": "sit",
-  "MessageId": 9,
-  "MessageSubject": "repudiandae",
-  "DocumentMessageId": 279,
-  "Opened": "2022-03-11T03:46:55.0038735+01:00",
-  "LinkClicks": 611,
+  "ShipmentId": 423,
+  "ShipmentDescription": "Self-enabling solution-oriented focus group",
+  "FromAddress": "neque",
+  "Configuration": 794,
+  "ContactId": 534,
+  "ContactName": "Lemke Group",
+  "PersonId": 174,
+  "PersonFullName": "Dr. Yasmeen Amari Gibson",
+  "ShipmentType": "aut",
+  "MessageId": 793,
+  "MessageSubject": "nemo",
+  "DocumentMessageId": 601,
+  "Opened": "2017-01-29T11:24:48.2657757+01:00",
+  "LinkClicks": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 308
     }
   }
 }

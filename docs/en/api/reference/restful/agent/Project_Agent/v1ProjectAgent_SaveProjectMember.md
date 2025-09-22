@@ -61,6 +61,8 @@ The ProjectMember that is saved
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -95,6 +97,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,31 +108,33 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 857,
-  "ContactId": 528,
-  "ProjectId": 8,
-  "ContactName": "Goodwin, Zboncak and White",
+  "ProjectmemberId": 561,
+  "ContactId": 484,
+  "ProjectId": 881,
+  "ContactName": "Prohaska, Walter and Farrell",
   "ContactDepartment": "",
-  "ProjectName": "Kuhn LLC",
-  "EmailId": 507,
-  "EmailAddress": "savion@tillmandouglas.uk",
-  "CountryId": 783,
-  "Firstname": "Rossie",
-  "MiddleName": "Stoltenberg Inc and Sons",
-  "Lastname": "Bednar",
-  "PersonId": 793,
-  "Mrmrs": "maxime",
-  "ProjectMemberTypeName": "Murray LLC",
-  "Phone": "(596)550-6416",
-  "PhoneId": 39,
-  "ProjectMemberTypeId": 454,
-  "EmailAddressName": "bennett@schimmel.us",
-  "Comment": "assumenda",
-  "FullName": "Ms. Mariela Theron Sawayn"
+  "ProjectName": "Collins-Weber",
+  "EmailId": 603,
+  "EmailAddress": "eliane@gislason.uk",
+  "CountryId": 980,
+  "Firstname": "Elias",
+  "MiddleName": "Huels-Ebert",
+  "Lastname": "Morar",
+  "PersonId": 671,
+  "Mrmrs": "reprehenderit",
+  "ProjectMemberTypeName": "Zieme, Ward and Bode",
+  "Phone": "634-339-1416",
+  "PhoneId": 831,
+  "ProjectMemberTypeId": 786,
+  "EmailAddressName": "tyrel.mcclure@rosenbaumheller.co.uk",
+  "Comment": "sit",
+  "FullName": "Rex Berge",
+  "Registered": "2000-06-23T11:24:48.5001409+02:00",
+  "Updated": "2017-05-20T11:24:48.5001409+02:00"
 }
 ```
 
@@ -139,33 +145,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 992,
-  "ContactId": 924,
-  "ProjectId": 713,
-  "ContactName": "Jacobs Group",
+  "ProjectmemberId": 947,
+  "ContactId": 797,
+  "ProjectId": 657,
+  "ContactName": "Ondricka, Aufderhar and Ondricka",
   "ContactDepartment": "",
-  "ProjectName": "Ondricka-Rath",
-  "EmailId": 515,
-  "EmailAddress": "kaden@baumbach.ca",
-  "CountryId": 825,
-  "Firstname": "Esteban",
-  "MiddleName": "Beier LLC",
-  "Lastname": "Thompson",
-  "PersonId": 218,
-  "Mrmrs": "deserunt",
-  "ProjectMemberTypeName": "Harris-Sawayn",
-  "Phone": "375-783-8390",
-  "PhoneId": 163,
-  "ProjectMemberTypeId": 584,
-  "EmailAddressName": "delfina@wolforn.com",
-  "Comment": "velit",
-  "FullName": "Arielle Schamberger",
+  "ProjectName": "Heller, Goodwin and Gusikowski",
+  "EmailId": 350,
+  "EmailAddress": "darrick@klingsporer.name",
+  "CountryId": 735,
+  "Firstname": "Lisandro",
+  "MiddleName": "Bradtke-White",
+  "Lastname": "Jaskolski",
+  "PersonId": 55,
+  "Mrmrs": "dolore",
+  "ProjectMemberTypeName": "Mann-Dietrich",
+  "Phone": "917-614-7888 x51103",
+  "PhoneId": 393,
+  "ProjectMemberTypeId": 934,
+  "EmailAddressName": "toni.stamm@beahan.com",
+  "Comment": "eum",
+  "FullName": "Gia Sipes",
+  "Registered": "2018-03-28T11:24:48.5001409+02:00",
+  "Updated": "2012-08-19T11:24:48.5001409+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 773
     }
   }
 }

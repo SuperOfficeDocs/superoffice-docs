@@ -98,7 +98,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,79 +108,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 760,
+  "EjMessageId": 866,
   "Ticket": null,
-  "CreatedAt": "2011-01-14T03:47:00.3786828+01:00",
+  "CreatedAt": "2019-12-31T11:24:53.703054+01:00",
   "CreatedBy": null,
-  "Author": "quos",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 679,
-  "Body": "ullam",
-  "HtmlBody": "laudantium",
-  "EmailHeader": "rhiannon.sawayn@rowe.com",
-  "DebugInfo": "sapiente",
-  "MailSorter": "est",
+  "MessageId": "dolores",
+  "TimeSpent": 127,
+  "Body": "molestiae",
+  "HtmlBody": "ea",
+  "EmailHeader": "regan.gottlieb@aufderhar.us",
+  "DebugInfo": "quibusdam",
+  "MailSorter": "quas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quod",
+  "SearchTitle": "nihil",
   "MessageHeaders": [
     {
-      "Id": 60,
-      "Name": "Dibbert-O'Hara",
-      "Value": "omnis",
+      "Id": 390,
+      "Name": "Medhurst-Reichel",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 797
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 220,
-  "SentimentConfidence": 340,
+  "Language": "similique",
+  "Sentiment": 957,
+  "SentimentConfidence": 507,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Daugherty-Crona",
-      "ContentType": "optio",
-      "AttSize": 448,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "culpa",
+      "AttachmentId": 339,
+      "Name": "Batz Group",
+      "ContentType": "dicta",
+      "AttSize": 995,
+      "InlineImage": true,
+      "ContentId": "facere",
+      "AuthKey": "molestiae",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldLength": 781
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "explicabo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldLength": 936
     }
   }
 }

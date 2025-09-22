@@ -118,18 +118,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "repellat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "repellat",
     "value": {}
   }
 ]
@@ -142,27 +142,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 804,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 708,
-  "Name": "Borer, Torp and Koss",
-  "Description": "User-centric 6th generation system engine",
-  "Currency": "ratione",
-  "CurrencyName": "Tillman-Sauer",
-  "ValidFrom": "2014-06-16T03:47:00.7067961+02:00",
-  "ValidTo": "2000-02-11T03:47:00.7067961+01:00",
+  "PriceListId": 654,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 273,
+  "Name": "Haag-Crooks",
+  "Description": "Fundamental user-facing flexibility",
+  "Currency": "quasi",
+  "CurrencyName": "Haley, Hirthe and Schmitt",
+  "ValidFrom": "2003-02-06T11:24:53.9842923+01:00",
+  "ValidTo": "2012-11-12T11:24:53.9842923+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 130
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

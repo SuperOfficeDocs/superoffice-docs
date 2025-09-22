@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wunsch, Douglas and Mueller",
+  "Name": "Weimann-Doyle",
   "State": "All"
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Koepp Group",
-    "AssociateId": 471,
-    "DetailsTable": 56,
-    "DetailsRecord": 166,
-    "IsSystemTask": true,
+    "Id": 176,
+    "Name": "Dooley-Schuppe",
+    "AssociateId": 860,
+    "DetailsTable": 708,
+    "DetailsRecord": 153,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quas",
-      "ParameterObject2": "reiciendis"
+      "ParameterObject1": "asperiores",
+      "ParameterObject2": "unde"
     },
-    "LastStarted": "2005-08-24T03:46:54.3007673+02:00",
-    "Created": "1998-05-17T03:46:54.3007673+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "1300249",
-    "Context": "ut",
-    "Result": "quas",
+    "LastStarted": "2021-03-28T11:24:47.6095526+02:00",
+    "Created": "2002-02-21T11:24:47.6095526+01:00",
+    "StartCount": 470,
+    "DatabaseSerialNumber": "631215",
+    "Context": "iusto",
+    "Result": "delectus",
     "State": "All",
-    "Description": "Re-contextualized systemic initiative",
-    "Response": "ut",
-    "Request": "maiores",
-    "ProgressDescription": "Grass-roots multimedia knowledge user",
-    "ProgressPercent": 319,
-    "FileName": "Lesch-Heathcote",
+    "Description": "De-engineered high-level core",
+    "Response": "totam",
+    "Request": "porro",
+    "ProgressDescription": "Persevering bifurcated definition",
+    "ProgressPercent": 653,
+    "FileName": "Steuber-Abshire",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldLength": 345
       }
     }
   }

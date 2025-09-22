@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "qui",
-  "RecordId": 510,
-  "Fields": "sunt"
+  "Table": "autem",
+  "RecordId": 144,
+  "Fields": "corrupti"
 }
 ```
 
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "sed",
+    "Field": "unde",
     "FieldValue": null
   },
   {
-    "Field": "sed",
+    "Field": "unde",
     "FieldValue": null
   }
 ]

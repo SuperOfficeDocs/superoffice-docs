@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -128,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 98,
+  "DocumentId": 455,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "vel",
-  "Name": "Rempel LLC",
-  "OurRef": "dolorum",
-  "YourRef": "dolores",
-  "CreatedDate": "2013-02-27T03:46:54.6601354+01:00",
-  "UpdatedDate": "2025-04-20T03:46:54.6601354+02:00",
-  "Description": "Reactive multimedia forecast",
+  "Attention": "corporis",
+  "Header": "hic",
+  "Name": "Treutel-McLaughlin",
+  "OurRef": "ullam",
+  "YourRef": "dolore",
+  "CreatedDate": "2021-08-04T11:24:47.9689125+02:00",
+  "UpdatedDate": "2011-02-07T11:24:47.9689125+01:00",
+  "Description": "Inverse uniform artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-09-02T03:46:54.6601354+02:00",
-  "ExternalRef": "ducimus",
+  "Date": "2005-02-13T11:24:47.9689125+01:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 803,
+  "ActiveLinks": 886,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marvin Group",
+      "EntityName": "Raynor Inc and Sons",
       "Id": 543,
-      "Description": "Function-based non-volatile interface",
-      "ExtraInfo": "natus",
-      "LinkId": 237,
+      "Description": "Reduced bi-directional ability",
+      "ExtraInfo": "quo",
+      "LinkId": 622,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldType": "System.Int32",
+          "FieldLength": 19
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 439,
-  "Snum": 53,
+  "SuggestedDocumentId": 920,
+  "Snum": 100,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mozell Cummerata",
-    "SuperOffice:2": "Ms. Gregoria Jodie Luettgen MD"
+    "SuperOffice:1": "1350826995",
+    "SuperOffice:2": "119083742"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2013-11-12T03:46:54.6601354+01:00",
-  "PublishTo": "2002-05-14T03:46:54.6601354+02:00",
-  "PublishFrom": "2022-05-22T03:46:54.6601354+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-07-11T11:24:47.9689125+02:00",
+  "PublishTo": "2005-05-05T11:24:47.9689125+02:00",
+  "PublishFrom": "2013-07-24T11:24:47.9689125+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 80
         }
       }
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 704,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 80
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 766
     }
   }
 }

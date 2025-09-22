@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Howell-Moore"
+  "OwnerName": "Brekke LLC"
 }
 ```
 
@@ -92,22 +92,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
-  "CanBeActivated": false,
+  "Reason": "disintermediate holistic paradigms",
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 973,
-      "NumberOfLicensesFree": 964,
-      "NumberOfLicensesAdded": 981,
-      "NumberOfLicensesNewTotal": 797,
-      "NumberOfLicensesNewFree": 264,
-      "NumberOfLicensesTotal": 548
+      "NumberOfLicensesInUse": 608,
+      "NumberOfLicensesFree": 716,
+      "NumberOfLicensesAdded": 488,
+      "NumberOfLicensesNewTotal": 368,
+      "NumberOfLicensesNewFree": 916,
+      "NumberOfLicensesTotal": 407
     }
   ],
-  "AccumulatedNextCheckDate": "2018-01-07T03:46:54.9107593+01:00"
+  "AccumulatedNextCheckDate": "2003-07-06T11:24:48.1720293+02:00"
 }
 ```

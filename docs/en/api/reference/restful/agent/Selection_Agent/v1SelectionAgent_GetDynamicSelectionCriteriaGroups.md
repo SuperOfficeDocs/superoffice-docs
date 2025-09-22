@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 573
+  "SelectionId": 721
 }
 ```
 
@@ -93,20 +93,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Armstrong-Watsica",
+    "Description": "Universal homogeneous portal",
+    "Rank": 702,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Gleason LLC",
+        "Operator": "et",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "eos",
+          "et"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "officiis",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -114,27 +114,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 517,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 42
       }
     ]
   },
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Armstrong-Watsica",
+    "Description": "Universal homogeneous portal",
+    "Rank": 702,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Gleason LLC",
+        "Operator": "et",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "eos",
+          "et"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "officiis",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -142,9 +142,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 517,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 42
       }
     ]
   }

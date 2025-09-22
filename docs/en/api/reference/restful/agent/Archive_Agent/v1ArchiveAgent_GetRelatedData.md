@@ -81,11 +81,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "asperiores",
-  "RecordId": 716,
+  "Table": "ut",
+  "RecordId": 715,
   "Fields": [
-    "facilis",
-    "voluptatem"
+    "rerum",
+    "corporis"
   ]
 }
 ```
@@ -98,11 +98,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "iusto",
+    "Field": "et",
     "FieldValue": null
   },
   {
-    "Field": "iusto",
+    "Field": "et",
     "FieldValue": null
   }
 ]

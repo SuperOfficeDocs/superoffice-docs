@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Name": "Stehr LLC",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 317,
-  "Rank": 827,
+  "Id": 474,
+  "Name": "Bruen Group",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "UdListDefinitionId": 25,
+  "Rank": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 1001
     }
   }
 }

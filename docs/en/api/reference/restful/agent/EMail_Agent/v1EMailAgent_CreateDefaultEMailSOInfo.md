@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 758,
-  "AppointmentId": 691,
-  "ProjectId": 730,
-  "SaleId": 704,
+  "DocumentId": 96,
+  "AppointmentId": 718,
+  "ProjectId": 182,
+  "SaleId": 266,
   "Archived": false,
-  "ArchivedAt": "2014-12-09T03:46:54.7538824+01:00",
-  "ArchivedBy": 346,
-  "ArchivedDisplayName": "Strosin-Wuckert",
+  "ArchivedAt": "2006-03-14T11:24:48.0626591+01:00",
+  "ArchivedBy": 487,
+  "ArchivedDisplayName": "Zulauf Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

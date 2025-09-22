@@ -83,33 +83,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Apr 2005 03:46:59 G4T
+Last-Modified: Thu, 05 Jul 2012 11:24:53 G7T
 
 {
-  "SourceContactId": 675,
-  "SourcePersonId": 167,
-  "DestinationContactId": 446,
-  "DestinationPersonId": 360,
-  "RelationId": 75,
-  "Comment": "voluptatem",
-  "RelationDefinitionId": 995,
-  "Reversed": 524,
-  "UpdatedDate": "2005-04-12T03:46:59.8786923+02:00",
-  "CreatedDate": "2009-09-22T03:46:59.8786923+02:00",
+  "SourceContactId": 600,
+  "SourcePersonId": 670,
+  "DestinationContactId": 360,
+  "DestinationPersonId": 245,
+  "RelationId": 876,
+  "Comment": "laboriosam",
+  "RelationDefinitionId": 670,
+  "Reversed": 491,
+  "UpdatedDate": "2012-07-05T11:24:53.1405767+02:00",
+  "CreatedDate": "2005-07-26T11:24:53.1405767+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kovacek Inc and Sons",
-  "SourcePersonName": "Daniel-Marks",
-  "DestinationContactName": "Monahan, D'Amore and Jast",
-  "DestinationPersonName": "Crona, Konopelski and Leuschke",
-  "ActiveText": "quia",
-  "PassiveText": "amet",
+  "SourceContactName": "Wolff, Balistreri and Mitchell",
+  "SourcePersonName": "Bechtelar, Bednar and Farrell",
+  "DestinationContactName": "Boyle-Dare",
+  "DestinationPersonName": "Wilderman-O'Connell",
+  "ActiveText": "nulla",
+  "PassiveText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldLength": 599
     }
   }
 }

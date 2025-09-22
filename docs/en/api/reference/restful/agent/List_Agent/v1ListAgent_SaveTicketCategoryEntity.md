@@ -98,33 +98,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 997,
-  "ParentId": 617,
-  "Name": "Bahringer-Turner",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 741,
+  "TicketCategoryId": 393,
+  "ParentId": 550,
+  "Name": "Smith-Vandervort",
+  "Fullname": "et",
+  "CategoryMaster": 474,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cremin LLC",
+  "ExternalName": "McClure Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 735,
-  "ReplyTemplate": 307,
-  "NotificationEmail": "viola@christiansen.uk",
+  "AssignmentLag": 792,
+  "ReplyTemplate": 719,
+  "NotificationEmail": "ralph_koss@watershowell.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 392,
+  "EffectiveReplyTemplateId": 826,
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "vel"
+    "CustomFields1": "quam",
+    "CustomFields2": "harum"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 383,
-  "ParentId": 585,
-  "Name": "Reinger, Bergnaum and Lind",
-  "Fullname": "distinctio",
-  "CategoryMaster": 632,
+  "TicketCategoryId": 316,
+  "ParentId": 967,
+  "Name": "McDermott, Hessel and Feest",
+  "Fullname": "labore",
+  "CategoryMaster": 325,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howell, Considine and Bradtke",
+  "ExternalName": "Sawayn, Littel and Gleichner",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 298,
-  "ReplyTemplate": 921,
-  "NotificationEmail": "mitchell.glover@huelwitting.us",
+  "AssignmentLag": 873,
+  "ReplyTemplate": 629,
+  "NotificationEmail": "elton@kleinstokes.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 902,
+  "EffectiveReplyTemplateId": 467,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "quo"
+    "CustomFields1": "fugit",
+    "CustomFields2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 40
     }
   }
 }

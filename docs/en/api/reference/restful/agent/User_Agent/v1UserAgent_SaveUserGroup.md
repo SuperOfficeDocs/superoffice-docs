@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "similique",
-  "Tooltip": "veritatis",
-  "Id": 526,
-  "Rank": 515,
+  "Value": "rem",
+  "Tooltip": "quibusdam",
+  "Id": 156,
+  "Rank": 969,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldLength": 967
     }
   }
 }

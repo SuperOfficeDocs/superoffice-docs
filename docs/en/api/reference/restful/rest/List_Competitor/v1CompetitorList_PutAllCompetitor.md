@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Lebsack Inc and Sons",
-    "Tooltip": "earum",
+    "Id": 109,
+    "Name": "McClure, King and Bartoletti",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "UdListDefinitionId": 994,
-    "Rank": 192
+    "UdListDefinitionId": 660,
+    "Rank": 964
   },
   {
-    "Id": 809,
-    "Name": "Lebsack Inc and Sons",
-    "Tooltip": "earum",
+    "Id": 109,
+    "Name": "McClure, King and Bartoletti",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "UdListDefinitionId": 994,
-    "Rank": 192
+    "UdListDefinitionId": 660,
+    "Rank": 964
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Pouros, Huel and Hayes",
-    "Tooltip": "voluptates",
+    "Id": 267,
+    "Name": "Goldner-Deckow",
+    "Tooltip": "nam",
     "Deleted": false,
-    "UdListDefinitionId": 88,
-    "Rank": 139,
+    "UdListDefinitionId": 335,
+    "Rank": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldLength": 478
       }
     }
   }

@@ -87,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 80,
-    "Comment": "ut",
-    "Registered": "2000-04-03T03:47:00.1443174+02:00",
-    "RegisteredAssociateId": 119,
-    "Updated": "2004-04-01T03:47:00.1443174+02:00",
-    "UpdatedAssociateId": 971,
-    "LegalBaseId": 825,
-    "LegalBaseKey": "laboriosam",
-    "LegalBaseName": "Pfeffer, Conn and Dietrich",
-    "ConsentPurposeId": 448,
-    "ConsentPurposeKey": "ipsum",
-    "ConsentPurposeName": "Schaefer, Medhurst and Swaniawski",
-    "ConsentSourceId": 740,
-    "ConsentSourceKey": "est",
-    "ConsentSourceName": "Rogahn LLC",
+    "ConsentPersonId": 256,
+    "Comment": "fugiat",
+    "Registered": "2006-09-01T11:24:53.4218153+02:00",
+    "RegisteredAssociateId": 687,
+    "Updated": "2009-06-04T11:24:53.4218153+02:00",
+    "UpdatedAssociateId": 66,
+    "LegalBaseId": 66,
+    "LegalBaseKey": "quia",
+    "LegalBaseName": "Bruen, Zieme and Reichert",
+    "ConsentPurposeId": 162,
+    "ConsentPurposeKey": "nulla",
+    "ConsentPurposeName": "Reichert Group",
+    "ConsentSourceId": 99,
+    "ConsentSourceKey": "sunt",
+    "ConsentSourceName": "Stracke Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldLength": 85
       }
     }
   }

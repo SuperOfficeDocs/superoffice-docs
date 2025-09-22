@@ -104,42 +104,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "molestiae"
+    "InputValues1": "ab",
+    "InputValues2": "quibusdam"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quia",
-  "Message": "illo",
-  "ShowDialog": "quia",
+  "BlockExecution": false,
+  "NavigateTo": "et",
+  "Message": "dolore",
+  "ShowDialog": "illo",
   "OutputValues": {
-    "OutputValues1": "architecto",
-    "OutputValues2": "sit"
+    "OutputValues1": "consequuntur",
+    "OutputValues2": "maxime"
   },
   "StateValues": {
-    "StateValues1": "eos",
-    "StateValues2": "tempora"
+    "StateValues1": "optio",
+    "StateValues2": "veniam"
   },
-  "Exception": "animi",
+  "Exception": "esse",
   "ParserValues": {
-    "ParserValues1": "consequatur",
-    "ParserValues2": "id"
+    "ParserValues1": "excepturi",
+    "ParserValues2": "minus"
   },
   "CgiVariables": {
-    "CgiVariables1": "dolore",
-    "CgiVariables2": "et"
+    "CgiVariables1": "et",
+    "CgiVariables2": "labore"
   },
-  "CgiContent": "quia",
+  "CgiContent": "atque",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "voluptates"
+    "Headers1": "commodi",
+    "Headers2": "tempora"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

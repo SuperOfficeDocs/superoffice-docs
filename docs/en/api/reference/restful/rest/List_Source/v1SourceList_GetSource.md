@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Monahan Group",
-  "Tooltip": "maxime",
+  "Id": 476,
+  "Name": "Moore, Miller and Rutherford",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 51,
-  "Rank": 772,
+  "UdListDefinitionId": 833,
+  "Rank": 658,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 956
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 210,
-    "Name": "Koss Group",
-    "Tooltip": "eum",
+    "HeadingId": 397,
+    "Name": "Murazik, Prosacco and Harris",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "Rank": 537,
-    "UdListDefinitionId": 507,
+    "Rank": 501,
+    "UdListDefinitionId": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 412
       }
     }
   }

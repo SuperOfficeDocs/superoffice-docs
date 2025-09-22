@@ -118,26 +118,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 445,
-  "PersonId": 977,
-  "AppointmentId": 113,
-  "DocumentId": 608,
-  "SaleId": 838,
-  "SelectionId": 826,
-  "ProjectId": 650,
+  "ContactId": 573,
+  "PersonId": 727,
+  "AppointmentId": 875,
+  "DocumentId": 863,
+  "SaleId": 545,
+  "SelectionId": 536,
+  "ProjectId": 500,
   "CustomTags": [
-    "ipsum",
-    "ea"
+    "ut",
+    "qui"
   ],
   "CustomValues": [
-    "eaque",
-    "nam"
+    "quae",
+    "tempore"
   ],
-  "UiCulture": "et"
+  "UiCulture": "eius"
 }
 ```
 
@@ -148,88 +148,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 467,
+  "DocumentId": 606,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "qui",
-  "Name": "Powlowski-Heaney",
-  "OurRef": "voluptatem",
-  "YourRef": "distinctio",
-  "CreatedDate": "2019-06-24T03:46:54.67576+02:00",
-  "UpdatedDate": "2011-07-25T03:46:54.67576+02:00",
-  "Description": "Switchable national data-warehouse",
+  "Attention": "optio",
+  "Header": "repellat",
+  "Name": "Leuschke Inc and Sons",
+  "OurRef": "nostrum",
+  "YourRef": "eveniet",
+  "CreatedDate": "2003-01-19T11:24:47.9845371+01:00",
+  "UpdatedDate": "2017-08-22T11:24:47.9845371+02:00",
+  "Description": "Seamless even-keeled contingency",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-12-22T03:46:54.67576+01:00",
-  "ExternalRef": "et",
+  "Date": "2012-02-19T11:24:47.9845371+01:00",
+  "ExternalRef": "soluta",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 163,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan, Dicki and Ryan",
-      "Id": 12,
-      "Description": "Programmable attitude-oriented application",
-      "ExtraInfo": "ex",
-      "LinkId": 330,
+      "EntityName": "Doyle Inc and Sons",
+      "Id": 441,
+      "Description": "Team-oriented zero tolerance algorithm",
+      "ExtraInfo": "omnis",
+      "LinkId": 786,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 1001,
-  "Snum": 483,
+  "SuggestedDocumentId": 752,
+  "Snum": 458,
   "UserDefinedFields": {
-    "SuperOffice:1": "Melany Tromp",
-    "SuperOffice:2": "Nathan O'Keefe"
+    "SuperOffice:1": "Mr. Alden Tevin Stoltenberg",
+    "SuperOffice:2": "Amira Casper"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "aspernatur"
   },
-  "PublishEventDate": "2016-07-21T03:46:54.67576+02:00",
-  "PublishTo": "2024-06-27T03:46:54.67576+02:00",
-  "PublishFrom": "2003-01-02T03:46:54.67576+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-08-18T11:24:47.9845371+02:00",
+  "PublishTo": "2015-11-19T11:24:47.9845371+01:00",
+  "PublishFrom": "2007-12-04T11:24:47.9845371+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 178,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 572
         }
       }
     },
     {
-      "VisibleId": 178,
+      "VisibleId": 29,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldType": "System.Int32",
+          "FieldLength": 572
         }
       }
     }
@@ -239,7 +239,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 357
     }
   }
 }

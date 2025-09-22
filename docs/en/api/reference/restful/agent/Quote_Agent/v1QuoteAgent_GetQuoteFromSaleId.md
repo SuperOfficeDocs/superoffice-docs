@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 358
+  "SaleId": 464
 }
 ```
 
@@ -102,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 704,
-  "SaleId": 385,
-  "QuoteConnectionId": 825,
-  "ERPQuoteKey": "tenetur",
-  "ERPOrderKey": "doloremque",
-  "ActiveQuoteVersionId": 762,
-  "AcceptedQuoteAlternativeId": 571,
-  "UseValuesFromQuote": 166,
-  "DocumentId": 551,
-  "PoNumber": "1775120",
-  "OrderComment": "blanditiis",
-  "PreferredEmailCulture": "gavin@wintheiser.uk",
+  "QuoteId": 942,
+  "SaleId": 326,
+  "QuoteConnectionId": 684,
+  "ERPQuoteKey": "ad",
+  "ERPOrderKey": "quia",
+  "ActiveQuoteVersionId": 160,
+  "AcceptedQuoteAlternativeId": 62,
+  "UseValuesFromQuote": 550,
+  "DocumentId": 992,
+  "PoNumber": "1101525",
+  "OrderComment": "doloribus",
+  "PreferredEmailCulture": "gia_schowalter@littel.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 885
     }
   }
 }

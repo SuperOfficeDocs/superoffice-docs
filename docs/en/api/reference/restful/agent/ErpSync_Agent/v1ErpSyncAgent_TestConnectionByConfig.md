@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectionByConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 393,
+  "ErpConnectionId": 589,
   "ConfigFields": {
-    "ConfigFields1": "neque",
-    "ConfigFields2": "rerum"
+    "ConfigFields1": "aut",
+    "ConfigFields2": "cum"
   }
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

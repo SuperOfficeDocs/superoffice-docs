@@ -98,13 +98,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 20,
-  "Name": "Wehner Group",
-  "ContentType": "beatae",
-  "AttSize": 701,
+  "AttachmentId": 346,
+  "Name": "Homenick-Nader",
+  "ContentType": "quisquam",
+  "AttSize": 362,
   "InlineImage": true,
-  "ContentId": "eos",
-  "AuthKey": "dicta",
+  "ContentId": "illo",
+  "AuthKey": "est",
   "IsSafeFileExtension": true
 }
 ```
@@ -116,20 +116,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 905,
-  "Name": "Shields LLC",
-  "ContentType": "qui",
-  "AttSize": 680,
+  "AttachmentId": 510,
+  "Name": "Ruecker Inc and Sons",
+  "ContentType": "velit",
+  "AttSize": 630,
   "InlineImage": false,
-  "ContentId": "corporis",
-  "AuthKey": "autem",
+  "ContentId": "non",
+  "AuthKey": "laudantium",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 773
     }
   },
   "_Links": {

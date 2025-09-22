@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Bruen, Hermann and Torp",
-    "ToolTip": "Fugit similique est.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "eos",
-    "ColorBlock": 358,
-    "IconHint": "quidem",
+    "Id": 296,
+    "Name": "Abernathy Group",
+    "ToolTip": "Vel minus velit adipisci ut est.",
+    "Deleted": true,
+    "Rank": 385,
+    "Type": "et",
+    "ColorBlock": 485,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2024-12-14T03:47:00.7536695+01:00",
+    "LastChanged": "2024-10-28T11:24:54.0311654+01:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Koepp-Schneider",
-        "ToolTip": "Praesentium architecto sit velit.",
+        "Id": 161,
+        "Name": "Botsford-Greenfelder",
+        "ToolTip": "Repellendus nulla libero atque libero.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "est",
-        "ColorBlock": 309,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2017-07-06T03:47:00.7536695+02:00",
+        "Rank": 872,
+        "Type": "expedita",
+        "ColorBlock": 733,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2022-01-12T11:24:54.0311654+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "magnam",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Kailyn Stokes"
+        "FullName": "Maymie Aufderhar"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "earum",
+    "StyleHint": "nostrum",
     "Hidden": true,
-    "FullName": "Kelton Barton"
+    "FullName": "Anissa Ernser"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Lind-Robel",
-    "ToolTip": "Voluptas est saepe id impedit error.",
+    "Id": 665,
+    "Name": "Flatley-Stanton",
+    "ToolTip": "Molestias labore alias omnis in quam.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "voluptatum",
-    "ColorBlock": 34,
-    "IconHint": "in",
+    "Rank": 972,
+    "Type": "doloremque",
+    "ColorBlock": 99,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2014-03-22T03:47:00.7536695+01:00",
+    "LastChanged": "2003-04-04T11:24:54.0311654+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Non voluptatem.",
-        "Deleted": true,
-        "Rank": 458,
-        "Type": "incidunt",
-        "ColorBlock": 626,
-        "IconHint": "ipsum",
+        "Id": 430,
+        "Name": "Schuster-Treutel",
+        "ToolTip": "Qui numquam iusto natus ex cupiditate.",
+        "Deleted": false,
+        "Rank": 645,
+        "Type": "odit",
+        "ColorBlock": 638,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2017-12-04T03:47:00.7536695+01:00",
+        "LastChanged": "2007-06-29T11:24:54.0311654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Ozella Hermann",
+        "ExtraInfo": "itaque",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Prof. Makenna Hayes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "dolores",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Austin Brown",
+    "FullName": "Earlene Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 131
       }
     }
   }

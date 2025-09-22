@@ -86,7 +86,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 898,
-  "UniqueId": "voluptatem",
-  "Name": "Nikolaus-Gleason",
-  "Description": "Automated full-range algorithm",
-  "AssociateId": 599,
-  "Columns": 856,
+  "DashboardId": 401,
+  "UniqueId": "est",
+  "Name": "Bartoletti, Corkery and Strosin",
+  "Description": "Automated responsive utilisation",
+  "AssociateId": 951,
+  "Columns": 691,
   "Theme": null,
-  "VisibleForAll": 532,
+  "VisibleForAll": 930,
   "VisibleForAssociates": [
-    97,
-    758
+    802,
+    383
   ],
   "VisibleForGroups": [
-    706,
-    457
+    418,
+    538
   ],
-  "PinForAll": 474,
+  "PinForAll": 797,
   "PinForAssociates": [
-    666,
-    519
+    541,
+    111
   ],
   "PinForGroups": [
-    320,
-    101
+    408,
+    430
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   },
   "_Links": {

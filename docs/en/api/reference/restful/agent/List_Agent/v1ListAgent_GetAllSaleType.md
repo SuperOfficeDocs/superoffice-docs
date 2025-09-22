@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Value": "aliquam",
-    "Tooltip": "et",
+    "Id": 660,
+    "Value": "aut",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 298
       }
     }
   },
   {
-    "Id": 161,
-    "Value": "aliquam",
-    "Tooltip": "et",
+    "Id": 660,
+    "Value": "aut",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldLength": 298
       }
     }
   }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ferry, Leannon and Ward"
+  "TaskName": "Nitzsche-Dooley"
 }
 ```
 
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Feil-Bogisich",
-    "AssociateId": 338,
-    "DetailsTable": 561,
-    "DetailsRecord": 133,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 303,
+    "Name": "Mante-Pouros",
+    "AssociateId": 2,
+    "DetailsTable": 502,
+    "DetailsRecord": 701,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "explicabo",
-      "ParameterObject2": "et"
+      "ParameterObject1": "consequuntur",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2003-11-10T03:46:54.3007673+01:00",
-    "Created": "2002-04-28T03:46:54.3007673+02:00",
-    "StartCount": 479,
-    "DatabaseSerialNumber": "937510",
-    "Context": "consequatur",
-    "Result": "consequuntur",
+    "LastStarted": "2002-11-06T11:24:47.6095526+01:00",
+    "Created": "2002-04-10T11:24:47.6095526+02:00",
+    "StartCount": 596,
+    "DatabaseSerialNumber": "1938876",
+    "Context": "officiis",
+    "Result": "ut",
     "State": "All",
-    "Description": "Focused tangible migration",
-    "Response": "et",
-    "Request": "eum",
-    "ProgressDescription": "Cross-group assymetric secured line",
-    "ProgressPercent": 276,
-    "FileName": "Reichel, Cummings and Kub",
+    "Description": "Pre-emptive bandwidth-monitored service-desk",
+    "Response": "accusantium",
+    "Request": "et",
+    "ProgressDescription": "Distributed actuating database",
+    "ProgressPercent": 828,
+    "FileName": "Marvin LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 261
       }
     }
   }

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125
+  "ContactId": 446
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 800,
-    "Name": "Kovacek-Jacobson",
-    "Description": "Organic solution-oriented system engine",
+    "ProjectId": 50,
+    "Name": "Wyman Inc and Sons",
+    "Description": "User-friendly optimizing solution",
     "URL": "http://www.example.com/",
-    "Type": "saepe",
-    "AssociateId": 711,
-    "AssociateFullName": "Mr. May Dina Abbott V",
-    "TypeId": 492,
-    "Updated": "2012-05-11T03:46:55.1757421+02:00",
-    "StatusId": 219,
-    "Status": "cupiditate",
-    "TextId": 321,
-    "PublishTo": "2007-02-06T03:46:55.1757421+01:00",
-    "PublishFrom": "1998-07-03T03:46:55.1757421+02:00",
+    "Type": "maiores",
+    "AssociateId": 413,
+    "AssociateFullName": "Ms. Jordan Jon Kuphal",
+    "TypeId": 579,
+    "Updated": "2013-04-01T11:24:48.4845166+02:00",
+    "StatusId": 280,
+    "Status": "quia",
+    "TextId": 612,
+    "PublishTo": "2010-02-24T11:24:48.4845166+01:00",
+    "PublishFrom": "2001-06-17T11:24:48.4845166+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "518424",
-    "ActiveErpLinks": 930,
+    "ProjectNumber": "756307",
+    "ActiveErpLinks": 320,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 545
       }
     }
   }

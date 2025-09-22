@@ -75,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 619
+  "ChatTopicId": 696
 }
 ```
 

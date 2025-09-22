@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 310,
+  "DocumentId": 678,
   "AllowedReturnTypes": [
-    "veniam",
-    "molestiae"
+    "aut",
+    "eligendi"
   ],
-  "VersionDescription": "Virtual mission-critical function",
+  "VersionDescription": "Team-oriented 4th generation synergy",
   "VersionExtraFields": [
-    "ipsam",
-    "deserunt"
+    "assumenda",
+    "itaque"
   ]
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "inventore",
-  "VersionId": "laboriosam",
+  "ExternalReference": "eveniet",
+  "VersionId": "omnis",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "ipsa",
-  "AdditionalInfo": "consequuntur"
+  "Value": "natus",
+  "AdditionalInfo": "error"
 }
 ```

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 261,
-  "Name": "Abshire Group",
-  "Tooltip": "quam",
+  "WebPanelId": 914,
+  "Name": "Tromp Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 568,
+  "Rank": 221,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Shanahan-Sanford",
+  "ShowInStatusBar": true,
+  "WindowName": "Windler, Ondricka and Hilpert",
   "Url": "http://www.example.com/",
-  "ProgId": "atque",
-  "Icon": 186,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "distinctio",
+  "Icon": 871,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

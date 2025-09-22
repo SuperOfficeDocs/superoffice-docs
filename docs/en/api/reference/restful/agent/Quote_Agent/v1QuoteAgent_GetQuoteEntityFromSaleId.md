@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 399
+  "SaleId": 371
 }
 ```
 
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 375,
-  "SaleId": 169,
-  "QuoteConnectionId": 205,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "sint",
-  "ActiveQuoteVersionId": 909,
-  "AcceptedQuoteAlternativeId": 984,
-  "UseValuesFromQuote": 195,
-  "DocumentId": 895,
-  "PoNumber": "606655",
-  "OrderComment": "incidunt",
-  "PreferredEmailCulture": "lysanne@hickleokuneva.ca",
+  "QuoteId": 969,
+  "SaleId": 521,
+  "QuoteConnectionId": 433,
+  "ERPQuoteKey": "aperiam",
+  "ERPOrderKey": "consequatur",
+  "ActiveQuoteVersionId": 598,
+  "AcceptedQuoteAlternativeId": 785,
+  "UseValuesFromQuote": 104,
+  "DocumentId": 397,
+  "PoNumber": "1162937",
+  "OrderComment": "asperiores",
+  "PreferredEmailCulture": "annabel@johnstonbrakus.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 190,
-      "ERPQuoteVersionKey": "officia",
-      "QuoteId": 896,
-      "Description": "Horizontal background middleware",
-      "Number": "826460",
+      "QuoteVersionId": 285,
+      "ERPQuoteVersionKey": "rerum",
+      "QuoteId": 658,
+      "Description": "Fundamental neutral challenge",
+      "Number": "1355905",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 195,
-      "SentDate": "2023-08-14T03:46:55.2226157+02:00",
-      "FollowupId": 513,
-      "ExpirationDate": "2016-08-11T03:46:55.2226157+02:00",
-      "DeliveryCountryId": 726,
+      "LikelyQuoteAlternativeId": 76,
+      "SentDate": "2000-02-21T11:24:48.5313897+01:00",
+      "FollowupId": 241,
+      "ExpirationDate": "2000-11-25T11:24:48.5313897+01:00",
+      "DeliveryCountryId": 392,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 350,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eum",
-      "ERPPaymentTypeKey": "dolores",
-      "ERPDeliveryTermsKey": "et",
-      "ERPDeliveryTypeKey": "voluptas",
-      "Rank": 269,
-      "ApprovedBy": 911,
-      "ApprovedText": "consectetur",
-      "ApprovedRegisteredBy": 985,
-      "ApprovedRegisteredDate": "2008-11-20T03:46:55.2226157+01:00",
-      "ExtraField1": "praesentium",
-      "ExtraField2": "nesciunt",
-      "ExtraField3": "et",
-      "ExtraField4": "et",
-      "ExtraField5": "qui",
-      "LastRecalculated": "2006-01-18T03:46:55.2226157+01:00",
-      "Updated": "2025-06-25T03:46:55.2226157+02:00",
-      "UpdatedAssociateId": 647,
-      "Registered": "2013-10-22T03:46:55.2226157+02:00",
-      "RegisteredAssociateId": 88,
-      "RequestAssociateId": 947,
-      "RequestComment": "aliquam",
+      "InvoiceCountryId": 651,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "ea",
+      "ERPPaymentTypeKey": "impedit",
+      "ERPDeliveryTermsKey": "voluptatem",
+      "ERPDeliveryTypeKey": "hic",
+      "Rank": 419,
+      "ApprovedBy": 393,
+      "ApprovedText": "ut",
+      "ApprovedRegisteredBy": 341,
+      "ApprovedRegisteredDate": "1999-08-25T11:24:48.5313897+02:00",
+      "ExtraField1": "facilis",
+      "ExtraField2": "aspernatur",
+      "ExtraField3": "voluptas",
+      "ExtraField4": "expedita",
+      "ExtraField5": "sed",
+      "LastRecalculated": "2010-10-12T11:24:48.5313897+02:00",
+      "Updated": "2001-08-28T11:24:48.5313897+02:00",
+      "UpdatedAssociateId": 421,
+      "Registered": "2000-07-23T11:24:48.5313897+02:00",
+      "RegisteredAssociateId": 260,
+      "RequestAssociateId": 631,
+      "RequestComment": "molestias",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 964
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

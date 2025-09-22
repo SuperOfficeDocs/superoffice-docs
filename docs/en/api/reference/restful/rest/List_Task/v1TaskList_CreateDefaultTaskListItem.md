@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,16 +78,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 708,
-  "Value": "ducimus",
+  "TaskListItemId": 931,
+  "Value": "incidunt",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quam",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "IntentId": 931,
-  "Rank": 245,
+  "IntentId": 822,
+  "Rank": 597,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

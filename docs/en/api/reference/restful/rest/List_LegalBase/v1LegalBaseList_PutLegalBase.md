@@ -81,16 +81,16 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 161,
-  "Name": "Muller Group",
-  "Tooltip": "modi",
-  "Rank": 401,
+  "LegalBaseId": 809,
+  "Name": "Torphy Inc and Sons",
+  "Tooltip": "quasi",
+  "Rank": 10,
   "Key": "possimus",
-  "Deleted": true
+  "Deleted": false
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 777,
-  "Name": "Reichel Group",
-  "Tooltip": "possimus",
-  "Rank": 243,
-  "Key": "non",
+  "LegalBaseId": 779,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "iure",
+  "Rank": 800,
+  "Key": "alias",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 805
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Flatley, Schneider and Brakus",
-    "ToolTip": "Et consequatur voluptas illo laboriosam architecto molestias sit.",
+    "Id": 786,
+    "Name": "Monahan-Ward",
+    "ToolTip": "Error cumque officiis dolor odit exercitationem qui.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "numquam",
-    "ColorBlock": 480,
-    "IconHint": "dolore",
+    "Rank": 246,
+    "Type": "reiciendis",
+    "ColorBlock": 922,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2009-05-29T03:47:00.8161673+02:00",
+    "LastChanged": "2013-10-06T11:24:54.1405361+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Balistreri-Keebler",
-        "ToolTip": "Laboriosam dolorum nesciunt in odio.",
+        "Id": 551,
+        "Name": "Gutmann, Harris and Boyer",
+        "ToolTip": "Ut earum vitae.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "quae",
-        "ColorBlock": 200,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2018-08-23T03:47:00.8161673+02:00",
+        "Rank": 32,
+        "Type": "ut",
+        "ColorBlock": 30,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2007-11-24T11:24:54.1405361+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quia",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Perry Louvenia Frami Jr.",
+        "FullName": "Prof. Grady Haley MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldType": "System.Int32",
+            "FieldLength": 534
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "illo",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mckenna Dietrich",
+    "FullName": "Lucile Balistreri V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 722
       }
     }
   }

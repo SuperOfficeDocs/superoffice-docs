@@ -27,7 +27,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=453
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=341
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -105,60 +105,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 901,
-  "Name": "Weber, Schroeder and Kutch",
+  "TicketPriorityId": 336,
+  "Name": "Marvin-Wintheiser",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 950,
+  "SortOrder": 68,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 449,
-  "MonStart": "2014-03-07T03:46:54.9257675+01:00",
-  "MonStop": "2013-02-19T03:46:54.9257675+01:00",
-  "TueStart": "2007-08-28T03:46:54.9257675+02:00",
-  "TueStop": "2003-11-01T03:46:54.9257675+01:00",
-  "WedStart": "1999-04-20T03:46:54.9257675+02:00",
-  "WedStop": "2006-05-12T03:46:54.9257675+02:00",
-  "ThuStart": "2020-12-08T03:46:54.9257675+01:00",
-  "ThuStop": "2017-01-30T03:46:54.9257675+01:00",
-  "FriStart": "2025-03-14T03:46:54.9257675+01:00",
-  "FriStop": "1998-12-28T03:46:54.9257675+01:00",
-  "SatStart": "2023-11-20T03:46:54.9257675+01:00",
-  "SatStop": "2009-11-01T03:46:54.9257675+01:00",
-  "SunStart": "2020-11-27T03:46:54.9257675+01:00",
-  "SunStop": "2006-10-01T03:46:54.9257675+02:00",
+  "Deadline": 103,
+  "MonStart": "2010-07-10T11:24:48.1876539+02:00",
+  "MonStop": "2025-08-07T11:24:48.1876539+02:00",
+  "TueStart": "2004-02-06T11:24:48.1876539+01:00",
+  "TueStop": "2005-09-10T11:24:48.1876539+02:00",
+  "WedStart": "2001-07-06T11:24:48.1876539+02:00",
+  "WedStop": "2001-11-05T11:24:48.1876539+01:00",
+  "ThuStart": "2008-06-12T11:24:48.1876539+02:00",
+  "ThuStop": "2017-06-04T11:24:48.1876539+02:00",
+  "FriStart": "1999-05-09T11:24:48.1876539+02:00",
+  "FriStop": "2019-06-05T11:24:48.1876539+02:00",
+  "SatStart": "1999-11-27T11:24:48.1876539+01:00",
+  "SatStop": "2022-09-21T11:24:48.1876539+02:00",
+  "SunStart": "2011-12-30T11:24:48.1876539+01:00",
+  "SunStop": "2002-02-15T11:24:48.1876539+01:00",
   "NonDates": [
-    "aut",
-    "recusandae"
+    "perferendis",
+    "eum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 610,
-      "AlertLevel": 380,
-      "AlertTimeout": 614,
-      "Action": 278,
-      "DelegateTo": 890,
-      "ScriptId": 874,
-      "EmailTo": "jerome@herzog.ca",
-      "SmsTo": "aut",
-      "ReplyTemplateIdCustomer": 638,
-      "ReplyTemplateIdUser": 625,
-      "ReplyTemplateIdCatmast": 850,
-      "ReplyTemplateIdEmail": 238,
-      "RtiCustomerSms": 636,
-      "ReplyTemplateIdUserSms": 271,
-      "ReplyTemplateIdCatmastSms": 621,
-      "ReplyTemplateIdSms": 496,
+      "TicketAlertId": 45,
+      "AlertLevel": 656,
+      "AlertTimeout": 692,
+      "Action": 536,
+      "DelegateTo": 601,
+      "ScriptId": 397,
+      "EmailTo": "abel@lowe.uk",
+      "SmsTo": "nulla",
+      "ReplyTemplateIdCustomer": 695,
+      "ReplyTemplateIdUser": 882,
+      "ReplyTemplateIdCatmast": 976,
+      "ReplyTemplateIdEmail": 662,
+      "RtiCustomerSms": 121,
+      "ReplyTemplateIdUserSms": 58,
+      "ReplyTemplateIdCatmastSms": 704,
+      "ReplyTemplateIdSms": 150,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 947
+          "FieldLength": 997
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 969
     }
   }
 }

@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketChangeDataAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketCustomersAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketDataAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketSecurityLevelAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
@@ -645,6 +646,34 @@ items:
   nameWithType.vb: TicketHelper.AddRestrictionToOwnCategories(Select, TicketTableInfo, Integer)
   fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select, SuperOffice.CRM.Data.TicketTableInfo, Integer)
   name.vb: AddRestrictionToOwnCategories(Select, TicketTableInfo, Integer)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetTicketMessageIdsAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTicketMessageIdsAsync(int, CancellationToken)
+  nameWithType: TicketHelper.GetTicketMessageIdsAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task<List<int>> GetTicketMessageIdsAsync(int ticketId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+    content.vb: Public Shared Function GetTicketMessageIdsAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of List(Of Integer))
+  overload: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync*
+  nameWithType.vb: TicketHelper.GetTicketMessageIdsAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetTicketMessageIdsAsync(Integer, CancellationToken)
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -1685,3 +1714,59 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.CRM.Data.html
+- uid: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_GetTicketMessageIdsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetTicketMessageIdsAsync
+  nameWithType: TicketHelper.GetTicketMessageIdsAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.GetTicketMessageIdsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<int>>
+  nameWithType: Task<List<int>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<int>>
+  nameWithType.vb: Task(Of List(Of Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of Integer))
+  name.vb: Task(Of List(Of Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: )

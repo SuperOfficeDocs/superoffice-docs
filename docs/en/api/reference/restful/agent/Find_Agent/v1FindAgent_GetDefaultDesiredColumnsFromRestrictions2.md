@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wolff-Torphy",
-  "Restrictions": "et"
+  "ProviderName": "Weissnat Inc and Sons",
+  "Restrictions": "ipsa"
 }
 ```
 
@@ -187,19 +187,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Renner Group",
-    "DisplayTooltip": "labore",
-    "DisplayType": "voluptas",
-    "CanOrderBy": false,
-    "Name": "Konopelski LLC",
-    "CanRestrictBy": true,
-    "RestrictionType": "provident",
-    "RestrictionListName": "Waters Group",
+    "DisplayName": "Beier Group",
+    "DisplayTooltip": "tenetur",
+    "DisplayType": "aspernatur",
+    "CanOrderBy": true,
+    "Name": "Paucek-Okuneva",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "Robel, Kuhn and Keebler",
     "IsVisible": false,
-    "ExtraInfo": "eligendi",
-    "Width": "illo",
-    "IconHint": "dicta",
-    "HeadingIconHint": "hic"
+    "ExtraInfo": "consectetur",
+    "Width": "dolore",
+    "IconHint": "omnis",
+    "HeadingIconHint": "consequatur"
   }
 ]
 ```

@@ -91,6 +91,7 @@ items:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemsAsync(System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAppointmentAgent.GetUIDFromAppointmentIdAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAppointmentAgent.MoveAsync(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAppointmentAgent.MoveExtendedAsync(SuperOffice.CRM.Services.AppointmentMoveData,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IAppointmentAgent.MoveWithEmailAsync(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo,System.Threading.CancellationToken)
@@ -4317,6 +4318,32 @@ items:
   nameWithType.vb: IAppointmentAgent.DeleteVideoMeetingReservationAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservationAsync(String, System.Threading.CancellationToken)
   name.vb: DeleteVideoMeetingReservationAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(System.Threading.CancellationToken)
+  id: GetVideoMeetingConnectedStateAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetVideoMeetingConnectedStateAsync(CancellationToken)
+  nameWithType: IAppointmentAgent.GetVideoMeetingConnectedStateAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current users connected state. This indicates if a user is configured to use VideoMeetings.
+  example: []
+  syntax:
+    content: Task<UserConnectedState> GetVideoMeetingConnectedStateAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserConnectedState}
+      description: Details about the users connected state
+    content.vb: Function GetVideoMeetingConnectedStateAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UserConnectedState)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -6486,3 +6513,45 @@ references:
   name: DeleteVideoMeetingReservationAsync
   nameWithType: IAppointmentAgent.DeleteVideoMeetingReservationAsync
   fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservationAsync
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_GetVideoMeetingConnectedStateAsync_System_Threading_CancellationToken_
+  name: GetVideoMeetingConnectedStateAsync
+  nameWithType: IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserConnectedState}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserConnectedState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UserConnectedState>
+  nameWithType: Task<UserConnectedState>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UserConnectedState>
+  nameWithType.vb: Task(Of UserConnectedState)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UserConnectedState)
+  name.vb: Task(Of UserConnectedState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.CRM.Services.UserConnectedState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.CRM.Services.UserConnectedState.html
+  - name: )

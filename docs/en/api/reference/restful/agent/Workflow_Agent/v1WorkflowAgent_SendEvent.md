@@ -93,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "ullam",
+  "Attributes": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "numquam"
 }
 ```
 
@@ -110,34 +110,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 283,
-  "Name": "Kuhlman, Block and Hettinger",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 919,
+  "WebPanelId": 947,
+  "Name": "DuBuque, Bode and Pfeffer",
+  "Tooltip": "libero",
+  "Deleted": false,
+  "Rank": 636,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Thiel, Gislason and Wyman",
+  "WindowName": "Connelly-Dicki",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 449,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "neque",
+  "Icon": 946,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

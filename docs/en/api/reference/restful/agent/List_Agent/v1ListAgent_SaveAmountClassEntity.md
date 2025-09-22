@@ -82,14 +82,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 464,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "laudantium",
-  "Rank": 55,
-  "AmountFrom": 7311.6219999999994,
-  "AmountTo": 16716.756,
-  "Deleted": false,
-  "CurrencyId": 807
+  "AmountClassId": 443,
+  "Name": "Dach, Price and Wehner",
+  "Tooltip": "sed",
+  "Rank": 867,
+  "AmountFrom": 12996.698,
+  "AmountTo": 6299.34,
+  "Deleted": true,
+  "CurrencyId": 59
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 33,
-  "Name": "Hahn-Sipes",
-  "Tooltip": "repellat",
-  "Rank": 2,
-  "AmountFrom": 26535.577999999998,
-  "AmountTo": 2018.2959999999998,
-  "Deleted": false,
-  "CurrencyId": 683,
+  "AmountClassId": 471,
+  "Name": "Runolfsdottir, Schroeder and Hauck",
+  "Tooltip": "est",
+  "Rank": 155,
+  "AmountFrom": 29061.582,
+  "AmountTo": 26751.824,
+  "Deleted": true,
+  "CurrencyId": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

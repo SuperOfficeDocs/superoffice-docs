@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 426
+  "ChatSessionId": 551
 }
 ```
 
@@ -121,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 417,
-  "TopicId": 199,
+  "ChatSessionId": 838,
+  "TopicId": 488,
   "User": null,
   "Person": null,
-  "CustomerAlias": "totam",
-  "CustomerHost": "illum",
-  "CustomerName": "McLaughlin-Kris",
-  "CustomerEmail": "carole@stokes.us",
-  "CustomerPhone": "538.429.5760",
+  "CustomerAlias": "ut",
+  "CustomerHost": "ut",
+  "CustomerName": "Tremblay Inc and Sons",
+  "CustomerEmail": "sonny@borer.ca",
+  "CustomerPhone": "(373)519-2351 x13879",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Swift Inc and Sons",
+  "CustomerCompanyName": "Streich, Cole and Corkery",
   "Status": "Closed",
-  "FirstMessage": "nobis",
-  "LastMessage": "ut",
-  "WhenRequested": "2016-10-08T03:46:54.3788954+02:00",
-  "WhenStarted": "2017-01-25T03:46:54.3788954+01:00",
-  "WhenEnded": "2018-11-02T03:46:54.3788954+01:00",
-  "WhenIdle": "2014-01-25T03:46:54.3788954+01:00",
-  "WhenFetched": "2000-01-06T03:46:54.3788954+01:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 746,
-  "AlertLevel": 873,
-  "Rank": 250,
+  "FirstMessage": "neque",
+  "LastMessage": "animi",
+  "WhenRequested": "2005-10-17T11:24:47.6876742+02:00",
+  "WhenStarted": "2019-12-12T11:24:47.6876742+01:00",
+  "WhenEnded": "2006-02-05T11:24:47.6876742+01:00",
+  "WhenIdle": "2002-06-02T11:24:47.6876742+02:00",
+  "WhenFetched": "2003-11-12T11:24:47.6876742+01:00",
+  "SessionKey": "atque",
+  "InitialQueuePos": 720,
+  "AlertLevel": 799,
+  "Rank": 833,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 27,
+  "ChatbotIsActive": true,
+  "Rating": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 53
     }
   }
 }

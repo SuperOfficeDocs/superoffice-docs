@@ -85,10 +85,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 932,
-  "StartDate": "2005-06-23T03:46:54.1445302+02:00",
-  "EndDate": "2023-03-13T03:46:54.1445302+01:00",
-  "RecurrenceCounter": 213,
+  "RecurrenceId": 261,
+  "StartDate": "2006-04-13T11:24:47.4064385+02:00",
+  "EndDate": "2021-05-11T11:24:47.4064385+02:00",
+  "RecurrenceCounter": 555,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
-      "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Date": "2015-08-08T11:24:47.4064385+02:00",
+      "IsConflict": false,
+      "Description": "Reverse-engineered modular archive",
+      "DescriptionStyleHint": "Open-architected hybrid firmware",
+      "Tooltip": "eveniet"
     },
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
-      "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Date": "2015-08-08T11:24:47.4064385+02:00",
+      "IsConflict": false,
+      "Description": "Reverse-engineered modular archive",
+      "DescriptionStyleHint": "Open-architected hybrid firmware",
+      "Tooltip": "eveniet"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

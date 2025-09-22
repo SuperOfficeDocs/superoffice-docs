@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=qui
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=deserunt
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Wolff LLC",
-    "ToolTip": "Molestiae labore dolore dolorem molestiae eos repellendus.",
-    "Deleted": true,
-    "Rank": 71,
-    "Type": "dolorum",
+    "Id": 15,
+    "Name": "Kihn, Ondricka and Brown",
+    "ToolTip": "Dolor et sit.",
+    "Deleted": false,
+    "Rank": 783,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Roberts, Streich and Jerde",
-        "ToolTip": "Officiis quia et et.",
-        "Deleted": false,
-        "Rank": 225,
-        "Type": "distinctio",
+        "Id": 619,
+        "Name": "Johnston Inc and Sons",
+        "ToolTip": "Voluptates repudiandae vel possimus et.",
+        "Deleted": true,
+        "Rank": 98,
+        "Type": "eligendi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 991,
-        "ExtraInfo": "quia",
-        "StyleHint": "exercitationem",
-        "FullName": "Granville Schowalter",
+        "IconHint": "est",
+        "ColorBlock": 221,
+        "ExtraInfo": "placeat",
+        "StyleHint": "est",
+        "FullName": "Matt Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 77
+            "FieldLength": 415
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 268,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "voluptatem",
-    "FullName": "Ms. Morris Rice III",
+    "IconHint": "mollitia",
+    "ColorBlock": 480,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "praesentium",
+    "FullName": "Lavinia Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 198
       }
     }
   }

@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Nikolaus Group",
-  "AssociateId": 84,
-  "DetailsTable": 723,
-  "DetailsRecord": 873,
+  "Id": 413,
+  "Name": "Welch LLC",
+  "AssociateId": 655,
+  "DetailsTable": 45,
+  "DetailsRecord": 976,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "temporibus",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "necessitatibus",
+    "ParameterObject2": "ducimus"
   },
-  "LastStarted": "2021-05-13T03:46:54.9107593+02:00",
-  "Created": "2023-06-16T03:46:54.9107593+02:00",
-  "StartCount": 427,
-  "DatabaseSerialNumber": "421900",
-  "Context": "incidunt",
-  "Result": "delectus",
+  "LastStarted": "2008-12-11T11:24:48.1720293+01:00",
+  "Created": "2020-01-02T11:24:48.1720293+01:00",
+  "StartCount": 601,
+  "DatabaseSerialNumber": "1142299",
+  "Context": "non",
+  "Result": "totam",
   "State": "All",
-  "Description": "Managed homogeneous benchmark",
-  "Response": "unde",
-  "Request": "deleniti",
-  "ProgressDescription": "Decentralized encompassing capacity",
-  "ProgressPercent": 291,
-  "FileName": "Cummerata, Koelpin and Abbott",
+  "Description": "Fundamental multimedia initiative",
+  "Response": "quidem",
+  "Request": "illum",
+  "ProgressDescription": "Expanded needs-based encryption",
+  "ProgressPercent": 929,
+  "FileName": "Terry-Keeling",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldLength": 807
     }
   }
 }

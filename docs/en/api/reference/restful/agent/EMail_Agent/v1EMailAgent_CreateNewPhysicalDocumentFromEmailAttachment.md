@@ -111,13 +111,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 643,
-  "EmailItemId": 204,
-  "AttachmentId": "neque"
+  "DocumentId": 960,
+  "EmailItemId": 256,
+  "AttachmentId": "quos"
 }
 ```
 
@@ -128,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 578,
+  "DocumentId": 154,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "saepe",
-  "Header": "voluptatem",
-  "Name": "Bartoletti, Heathcote and Stanton",
-  "OurRef": "et",
-  "YourRef": "impedit",
-  "CreatedDate": "2017-01-08T03:46:54.7226337+01:00",
-  "UpdatedDate": "2013-11-09T03:46:54.7226337+01:00",
-  "Description": "Configurable context-sensitive forecast",
+  "Attention": "sint",
+  "Header": "voluptates",
+  "Name": "Shanahan LLC",
+  "OurRef": "molestiae",
+  "YourRef": "autem",
+  "CreatedDate": "2009-07-19T11:24:48.0470345+02:00",
+  "UpdatedDate": "2015-07-20T11:24:48.0470345+02:00",
+  "Description": "Intuitive heuristic data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-05-23T03:46:54.7226337+02:00",
-  "ExternalRef": "natus",
+  "Date": "2003-02-17T11:24:48.0470345+01:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 746,
+  "ActiveLinks": 469,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kozey-Jakubowski",
-      "Id": 163,
-      "Description": "Horizontal client-driven workforce",
-      "ExtraInfo": "hic",
-      "LinkId": 842,
+      "EntityName": "Bode, Schuppe and Keebler",
+      "Id": 347,
+      "Description": "Multi-tiered contextually-based standardization",
+      "ExtraInfo": "dolorem",
+      "LinkId": 876,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 994
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 873,
-  "Snum": 841,
+  "SuggestedDocumentId": 129,
+  "Snum": 692,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lauriane Keegan Berge V",
+    "SuperOffice:2": "Aida McCullough"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ut"
+    "CustomFields1": "magnam",
+    "CustomFields2": "eius"
   },
-  "PublishEventDate": "2007-08-22T03:46:54.7226337+02:00",
-  "PublishTo": "2017-09-15T03:46:54.7226337+02:00",
-  "PublishFrom": "2024-07-07T03:46:54.7226337+02:00",
+  "PublishEventDate": "2012-12-08T11:24:48.0470345+01:00",
+  "PublishTo": "2022-09-20T11:24:48.0470345+02:00",
+  "PublishFrom": "2013-05-25T11:24:48.0470345+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 362,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 229
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 362,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 229
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 819
     }
   }
 }

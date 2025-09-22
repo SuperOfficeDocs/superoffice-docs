@@ -89,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 165,
-  "EMailAddress": "nostrum",
-  "AssociateId": 252,
+  "EMailAccountId": 491,
+  "EMailAddress": "saepe",
+  "AssociateId": 563,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 710,
-  "ErrorCount": 445,
+  "AccountStatus": 346,
+  "ErrorCount": 823,
   "ErrorReason": "",
-  "InboxFolder": "ut",
-  "SentFolder": "ut",
-  "SimpleMode": 513,
-  "LastFetch": "2008-11-02T03:46:54.7538824+01:00",
+  "InboxFolder": "nobis",
+  "SentFolder": "minima",
+  "SimpleMode": 73,
+  "LastFetch": "2024-05-31T11:24:48.0626591+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

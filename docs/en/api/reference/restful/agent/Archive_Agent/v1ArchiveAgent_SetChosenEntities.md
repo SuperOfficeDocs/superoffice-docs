@@ -73,11 +73,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Klein, Braun and Homenick",
-  "ProviderName": "Green-Batz",
+  "GuiName": "Homenick Group",
+  "ProviderName": "Schimmel Inc and Sons",
   "Entities": [
-    "omnis",
-    "soluta"
+    "corrupti",
+    "sequi"
   ]
 }
 ```

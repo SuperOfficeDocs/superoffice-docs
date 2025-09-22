@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Wiza-Torp",
-    "Tooltip": "aperiam",
+    "HeadingId": 29,
+    "Name": "Halvorson LLC",
+    "Tooltip": "atque",
     "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 812
+    "Rank": 559,
+    "UdListDefinitionId": 684
   },
   {
-    "HeadingId": 986,
-    "Name": "Wiza-Torp",
-    "Tooltip": "aperiam",
+    "HeadingId": 29,
+    "Name": "Halvorson LLC",
+    "Tooltip": "atque",
     "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 812
+    "Rank": 559,
+    "UdListDefinitionId": 684
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Fahey-Gusikowski",
-    "Tooltip": "id",
+    "HeadingId": 571,
+    "Name": "Brekke-Pfannerstill",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 109,
-    "UdListDefinitionId": 886,
+    "Rank": 639,
+    "UdListDefinitionId": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 132
       }
     }
   }

@@ -1330,7 +1330,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelection?$select=person/personAssociate/usergroupId,contact/country,contact/restrictionAddress/formattedMultiLineAddress,appointment/associate/contactDepartment,project/associateId
+GET /api/v1/archive/SaleShadowSelection?$select=person/personDirectPhone/description,person/personUdef/SuperOffice:9,person/personAssociate/isActiveText,person/consentSourceStore,contact/url/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

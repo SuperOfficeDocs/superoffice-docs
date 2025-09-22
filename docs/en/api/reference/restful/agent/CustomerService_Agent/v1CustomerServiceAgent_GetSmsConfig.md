@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "esse",
-  "NsPluginSender": "ea",
+  "NetServerSmsProvider": "labore",
+  "NsPluginSender": "neque",
   "NsPluginConfig": {
-    "NsPluginConfig1": "quibusdam",
-    "NsPluginConfig2": "aliquam"
+    "NsPluginConfig1": "est",
+    "NsPluginConfig2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

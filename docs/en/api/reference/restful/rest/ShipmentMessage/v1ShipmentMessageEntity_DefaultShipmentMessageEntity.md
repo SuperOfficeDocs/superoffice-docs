@@ -88,33 +88,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 885,
-  "PlainMessage": "vel",
-  "HtmlMessage": "et",
-  "SmsMessage": "assumenda",
-  "Description": "Down-sized client-server encryption",
-  "Subject": "sint",
-  "FolderId": 46,
-  "HeaderField": "sit",
-  "Design": "dicta",
+  "ShipmentMessageId": 942,
+  "PlainMessage": "placeat",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "similique",
+  "Description": "Programmable high-level open system",
+  "Subject": "neque",
+  "FolderId": 528,
+  "HeaderField": "qui",
+  "Design": "eaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Expanded interactive capability",
-  "AccessKey": "rerum",
-  "DocumentMessage": 750,
-  "Registered": "2005-11-14T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 217,
-  "Updated": "2010-03-24T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 478,
-  "UpdatedCount": 891,
+  "LongDescription": "Re-engineered composite extranet",
+  "AccessKey": "quibusdam",
+  "DocumentMessage": 792,
+  "Registered": "2008-12-30T11:24:53.5780588+01:00",
+  "RegisteredAssociateId": 916,
+  "Updated": "2009-08-31T11:24:53.5780588+02:00",
+  "UpdatedAssociateId": 575,
+  "UpdatedCount": 103,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 390
     }
   }
 }

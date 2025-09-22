@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Jenkins, Wilderman and Kuvalis",
-    "ToolTip": "Ab unde.",
-    "Deleted": true,
-    "Rank": 514,
-    "Type": "perspiciatis",
-    "ColorBlock": 206,
-    "IconHint": "excepturi",
+    "Id": 905,
+    "Name": "Becker-Considine",
+    "ToolTip": "Qui sunt.",
+    "Deleted": false,
+    "Rank": 800,
+    "Type": "distinctio",
+    "ColorBlock": 423,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-01-01T03:47:00.6911718+01:00",
+    "LastChanged": "2007-03-17T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Marquardt Group",
-        "ToolTip": "Rerum rerum doloribus aut eligendi.",
-        "Deleted": true,
-        "Rank": 100,
-        "Type": "recusandae",
-        "ColorBlock": 570,
-        "IconHint": "maiores",
+        "Id": 978,
+        "Name": "Hegmann Group",
+        "ToolTip": "Iure asperiores id.",
+        "Deleted": false,
+        "Rank": 527,
+        "Type": "ut",
+        "ColorBlock": 196,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2017-06-26T03:47:00.6911718+02:00",
+        "LastChanged": "2023-09-21T11:24:53.9686678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "tempora",
+        "ExtraInfo": "nulla",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Stephen Wintheiser",
+        "FullName": "Viva Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 793
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "reiciendis",
-    "Hidden": true,
-    "FullName": "Hope Veum",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Phyllis Jacky Lueilwitz III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 980
       }
     }
   }

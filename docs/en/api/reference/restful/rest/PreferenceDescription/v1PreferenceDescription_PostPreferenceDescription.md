@@ -115,24 +115,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 90,
-  "Section": "ipsum",
-  "Key": "non",
-  "Name": "Abbott, Grady and Zemlak",
+  "PrefDescId": 631,
+  "Section": "assumenda",
+  "Key": "voluptas",
+  "Name": "Vandervort LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse interactive extranet",
+  "Description": "Organic grid-enabled portal",
   "IsBuiltin": false,
-  "TableName": "Schultz, Crist and McDermott",
-  "UserDefinedListId": 392,
-  "Rank": 627,
-  "SubGroup": "dolores",
-  "MinLevel": 287,
-  "MaxValue": 225,
-  "MinValue": 369,
-  "RequiredLicense": "ut"
+  "TableName": "Hermann LLC",
+  "UserDefinedListId": 152,
+  "Rank": 874,
+  "SubGroup": "consequatur",
+  "MinLevel": 86,
+  "MaxValue": 18,
+  "MinValue": 811,
+  "RequiredLicense": "alias"
 }
 ```
 
@@ -143,35 +143,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 485,
-  "Section": "unde",
-  "Key": "reiciendis",
-  "Name": "Beier, Buckridge and Schumm",
+  "PrefDescId": 982,
+  "Section": "aut",
+  "Key": "quibusdam",
+  "Name": "Hills Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused stable time-frame",
-  "IsBuiltin": false,
-  "TableName": "Cremin LLC",
-  "UserDefinedListId": 94,
-  "Rank": 227,
-  "SubGroup": "ab",
-  "MinLevel": 927,
-  "MaxValue": 602,
-  "MinValue": 558,
-  "RequiredLicense": "laboriosam",
+  "Description": "Switchable bi-directional knowledge base",
+  "IsBuiltin": true,
+  "TableName": "Daniel, Kohler and Armstrong",
+  "UserDefinedListId": 398,
+  "Rank": 256,
+  "SubGroup": "quibusdam",
+  "MinLevel": 764,
+  "MaxValue": 486,
+  "MinValue": 856,
+  "RequiredLicense": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

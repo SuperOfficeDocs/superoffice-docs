@@ -94,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 674,
-  "ColumnId": 675,
-  "FieldDefault": "ea",
-  "FieldHeight": 17,
-  "FieldLabel": "ab",
-  "FieldLeft": 826,
-  "FieldTop": 199,
+  "UDefFieldId": 546,
+  "ColumnId": 867,
+  "FieldDefault": "quibusdam",
+  "FieldHeight": 399,
+  "FieldLabel": "ut",
+  "FieldLeft": 668,
+  "FieldTop": 427,
   "FieldType": "Checkbox",
-  "FieldWidth": 49,
-  "FormatMask": "iusto",
+  "FieldWidth": 878,
+  "FormatMask": "sint",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 880,
-  "LabelLeft": 39,
-  "LabelTop": 180,
-  "LabelWidth": 37,
-  "LastVersionId": 814,
-  "ListTableId": 816,
+  "IsIndexed": true,
+  "LabelHeight": 527,
+  "LabelLeft": 582,
+  "LabelTop": 342,
+  "LabelWidth": 347,
+  "LastVersionId": 30,
+  "ListTableId": 573,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 197,
-  "ProgId": "sit",
+  "Page1LineNo": 227,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "neque",
-  "TabOrder": 47,
-  "TextLength": 946,
-  "Tooltip": "beatae",
-  "UdefIdentity": 765,
-  "UDListDefinitionId": 19,
+  "ShortLabel": "repellendus",
+  "TabOrder": 853,
+  "TextLength": 46,
+  "Tooltip": "et",
+  "UdefIdentity": 355,
+  "UDListDefinitionId": 664,
   "Justification": "Center",
-  "Version": 5,
-  "TemplateVariableName": "Dare, Hilll and Kohler",
-  "HasBeenPublished": false,
-  "MdoListName": "Carroll, Doyle and Blick",
+  "Version": 437,
+  "TemplateVariableName": "Weissnat, Toy and Ziemann",
+  "HasBeenPublished": true,
+  "MdoListName": "Doyle Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 708
     }
   }
 }

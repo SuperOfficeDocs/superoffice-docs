@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,33 +106,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 70,
-    "ErpConnectorId": 858,
-    "DisplayName": "Kuhlman-Upton",
-    "DisplayDescription": "Balanced heuristic model",
+    "ErpConnectionId": 319,
+    "ErpConnectorId": 621,
+    "DisplayName": "Crooks LLC",
+    "DisplayDescription": "Front-line real-time portal",
     "Active": false,
-    "ConnectionId": "pariatur",
-    "MostRecentTimestamp": "dolorem",
+    "ConnectionId": "aliquam",
+    "MostRecentTimestamp": "ad",
     "ConfigFields": {
-      "ConfigFields1": "tenetur",
-      "ConfigFields2": "voluptate"
+      "ConfigFields1": "dolor",
+      "ConfigFields2": "explicabo"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      544,
-      534
+      582,
+      922
     ],
     "AssociateAccessIds": [
-      495,
-      837
+      852,
+      128
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

@@ -80,32 +80,32 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 199,
-  "Name": "Boehm, Senger and Mosciski",
+  "WebhookId": 841,
+  "Name": "Reynolds, McDermott and Walker",
   "Events": [
-    "id",
-    "et"
+    "quia",
+    "saepe"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "necessitatibus",
+  "Secret": "non",
   "State": "Active",
-  "Type": "debitis",
+  "Type": "nisi",
   "Headers": {
-    "Headers1": "accusantium",
-    "Headers2": "illo"
+    "Headers1": "eum",
+    "Headers2": "dolorem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-07-11T03:47:00.5505518+02:00",
+  "Registered": "2020-12-22T11:24:53.8280427+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-03-20T03:47:00.5505518+01:00",
+  "Updated": "1999-01-21T11:24:53.8280427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "friedrich@johnsonzulauf.com"
+  "ErrorsEmail": "betsy@zulauf.info"
 }
 ```
 
@@ -117,13 +117,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "commodi",
+  "Message": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 382
     }
   }
 }

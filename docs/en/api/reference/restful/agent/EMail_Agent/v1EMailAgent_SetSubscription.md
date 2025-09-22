@@ -75,13 +75,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Pfeffer-Beer",
-      "Delimiter": "velit",
-      "Flags": "alias",
-      "TotalItems": 277,
-      "UnreadItems": 383,
+      "Name": "Thompson, Mayer and Lakin",
+      "Delimiter": "at",
+      "Flags": "minus",
+      "TotalItems": 172,
+      "UnreadItems": 657,
       "Subscribed": false,
-      "EmailFolderId": 22
+      "EmailFolderId": 511
     }
   ]
 }

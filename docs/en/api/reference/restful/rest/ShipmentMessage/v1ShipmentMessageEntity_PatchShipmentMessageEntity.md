@@ -135,12 +135,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -153,33 +153,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 848,
-  "PlainMessage": "aut",
-  "HtmlMessage": "magni",
-  "SmsMessage": "nemo",
-  "Description": "Front-line scalable forecast",
-  "Subject": "blanditiis",
-  "FolderId": 312,
-  "HeaderField": "optio",
-  "Design": "ratione",
+  "ShipmentMessageId": 58,
+  "PlainMessage": "numquam",
+  "HtmlMessage": "esse",
+  "SmsMessage": "dolor",
+  "Description": "Quality-focused contextually-based definition",
+  "Subject": "sit",
+  "FolderId": 372,
+  "HeaderField": "alias",
+  "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Grass-roots client-driven policy",
-  "AccessKey": "iste",
-  "DocumentMessage": 364,
-  "Registered": "2000-12-02T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 124,
-  "Updated": "2020-10-12T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 665,
-  "UpdatedCount": 568,
+  "LongDescription": "Compatible encompassing hub",
+  "AccessKey": "quidem",
+  "DocumentMessage": 458,
+  "Registered": "2005-06-16T11:24:53.5780588+02:00",
+  "RegisteredAssociateId": 998,
+  "Updated": "2017-02-09T11:24:53.5780588+01:00",
+  "UpdatedAssociateId": 83,
+  "UpdatedCount": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 229
     }
   },
   "_Links": {

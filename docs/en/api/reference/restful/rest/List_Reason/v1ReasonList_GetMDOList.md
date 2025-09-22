@@ -28,7 +28,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=eveniet
+GET /api/v1/List/Reason/MDOItems?query=nesciunt
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Muller-Deckow",
-    "ToolTip": "Ab odio ut facere sunt eveniet.",
+    "Id": 815,
+    "Name": "Rau Inc and Sons",
+    "ToolTip": "Natus eos.",
     "Deleted": false,
-    "Rank": 300,
-    "Type": "cumque",
+    "Rank": 500,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Thiel, Romaguera and Muller",
-        "ToolTip": "Et in ut sit eum assumenda quod eveniet.",
+        "Id": 838,
+        "Name": "Stark, Kohler and Labadie",
+        "ToolTip": "Illo beatae sit qui ut.",
         "Deleted": false,
-        "Rank": 319,
-        "Type": "id",
+        "Rank": 666,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 226,
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "in",
-        "FullName": "Cyril Bartoletti",
+        "IconHint": "animi",
+        "ColorBlock": 664,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "ratione",
+        "FullName": "Mrs. Wilfrid Adrienne Runolfsson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 920
+            "FieldType": "System.Int32",
+            "FieldLength": 161
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 99,
-    "ExtraInfo": "aut",
-    "StyleHint": "ipsum",
-    "FullName": "Mrs. Vince Jessyca Bednar DDS",
+    "IconHint": "qui",
+    "ColorBlock": 161,
+    "ExtraInfo": "culpa",
+    "StyleHint": "eum",
+    "FullName": "Lenora Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldType": "System.String",
+        "FieldLength": 279
       }
     }
   }

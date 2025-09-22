@@ -118,7 +118,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,106 +126,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-10-12T03:46:59.7068256+02:00",
-  "AppointmentId": 579,
-  "Description": "Switchable background toolset",
-  "Title": "repellendus",
-  "Agenda": "qui",
-  "InternalNotes": "reiciendis",
-  "StartDate": "2009-05-12T03:46:59.7068256+02:00",
-  "EndDate": "2021-12-29T03:46:59.7068256+01:00",
+  "CreatedDate": "2019-05-05T11:24:52.9687087+02:00",
+  "AppointmentId": 506,
+  "Description": "Decentralized scalable projection",
+  "Title": "aut",
+  "Agenda": "ut",
+  "InternalNotes": "vel",
+  "StartDate": "2009-05-02T11:24:52.9687087+02:00",
+  "EndDate": "2014-10-04T11:24:52.9687087+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 175,
+  "MotherId": 692,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-12-29T03:46:59.7068256+01:00",
+  "UpdatedDate": "2004-07-25T11:24:52.9687087+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 355,
+  "ActiveLinks": 666,
   "Links": [
     {
-      "EntityName": "Erdman LLC",
-      "Id": 934,
-      "Description": "Advanced human-resource conglomeration",
-      "ExtraInfo": "itaque",
-      "LinkId": 152
+      "EntityName": "Bechtelar, Parisian and Rohan",
+      "Id": 203,
+      "Description": "Devolved executive benchmark",
+      "ExtraInfo": "quidem",
+      "LinkId": 279
     },
     {
-      "EntityName": "Erdman LLC",
-      "Id": 934,
-      "Description": "Advanced human-resource conglomeration",
-      "ExtraInfo": "itaque",
-      "LinkId": 152
+      "EntityName": "Bechtelar, Parisian and Rohan",
+      "Id": 203,
+      "Description": "Devolved executive benchmark",
+      "ExtraInfo": "quidem",
+      "LinkId": 279
     }
   ],
-  "AlarmLeadTime": "iure",
-  "HasAlarm": false,
-  "ColorIndex": 350,
+  "AlarmLeadTime": "perferendis",
+  "HasAlarm": true,
+  "ColorIndex": 407,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ipsam",
-  "LeadTime": "nulla",
-  "Location": "et",
-  "RejectCounter": 648,
+  "LagTime": "et",
+  "LeadTime": "quo",
+  "Location": "molestiae",
+  "RejectCounter": 48,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 632,
-      "PersonId": 192,
-      "ContactId": 943,
-      "EmailId": 878,
+      "AssociateId": 433,
+      "PersonId": 297,
+      "ContactId": 570,
+      "EmailId": 268,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "gerson_wintheiser@toy.info",
-      "Description": "Centralized needs-based approach"
+      "EmailAddress": "rowan@bosco.biz",
+      "Description": "Open-architected motivating complexity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-03-28T03:46:59.7068256+01:00",
+  "ActiveDate": "2018-03-20T11:24:52.9687087+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 278,
+  "PreferredTZLocation": 733,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 703,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 922,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "laborum",
+  "CentralserviceVideomeetId": "vero",
   "UserDefinedFields": {
-    "SuperOffice:1": "374616537",
-    "SuperOffice:2": "Peggie Bradtke"
+    "SuperOffice:1": "Mr. Jamey Wintheiser",
+    "SuperOffice:2": "Prof. Delphia Kiehn III"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nemo",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2003-10-16T03:46:59.7068256+02:00",
-  "PublishTo": "2007-12-15T03:46:59.7068256+01:00",
-  "PublishFrom": "2018-12-18T03:46:59.7068256+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-11-22T11:24:52.9687087+01:00",
+  "PublishTo": "1999-07-20T11:24:52.9687087+02:00",
+  "PublishFrom": "2016-05-27T11:24:52.9687087+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 146,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "minima"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 146,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "minima"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -238,7 +238,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "qui",
-  "2": "dolores"
+  "1": "in",
+  "2": "voluptatibus"
 }
 ```

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,53 +94,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 504,
-  "Name": "Crist LLC",
-  "Tooltip": "quae",
-  "Rank": 237,
+  "SaleTypeId": 558,
+  "Name": "Purdy Inc and Sons",
+  "Tooltip": "tenetur",
+  "Rank": 340,
   "DurationUnit": "Century",
-  "SaleDuration": 658,
-  "SaleTypeCatId": 437,
+  "SaleDuration": 905,
+  "SaleTypeCatId": 457,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 198,
-  "QuoteLinesTemplate": 667,
-  "ConfirmationLinesTemplate": 955,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 531,
-  "MinEarningPercent": 222,
-  "GroupQuoteLinesBy": 321,
-  "SortGroupLinesBy": 105,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 906,
+  "QuoteLinesTemplate": 749,
+  "ConfirmationLinesTemplate": 190,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 982,
+  "MinEarningPercent": 609,
+  "GroupQuoteLinesBy": 410,
+  "SortGroupLinesBy": 876,
   "Stages": [
     {
-      "Id": 449,
-      "Name": "Howe, Conn and Schiller",
-      "ToolTip": "Harum dolores.",
-      "Deleted": false,
-      "Rank": 38,
-      "Type": "quisquam",
-      "ColorBlock": 195,
-      "IconHint": "eaque",
+      "Id": 81,
+      "Name": "Gerhold-Dach",
+      "ToolTip": "Totam nostrum voluptatem ipsam necessitatibus placeat.",
+      "Deleted": true,
+      "Rank": 49,
+      "Type": "et",
+      "ColorBlock": 801,
+      "IconHint": "aliquid",
       "Selected": true,
-      "LastChanged": "2000-06-19T03:47:00.8005429+02:00",
+      "LastChanged": "2005-06-26T11:24:54.1405361+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "vitae",
-      "Hidden": true,
-      "FullName": "Ms. Earline Waylon Rowe III",
+      "ExtraInfo": "laborum",
+      "StyleHint": "voluptate",
+      "Hidden": false,
+      "FullName": "Laney Cecilia Heller III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 425
         }
       }
     }
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

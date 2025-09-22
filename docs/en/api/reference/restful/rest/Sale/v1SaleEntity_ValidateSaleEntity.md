@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "animi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -121,90 +121,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-02-18T03:47:00.2693116+01:00",
-  "Amount": 8330.172,
-  "SaleId": 988,
-  "Earning": 25015.588,
-  "EarningPercent": 18127.056,
-  "Heading": "repellat",
-  "Number": "809020",
-  "Probability": 797,
-  "CreatedDate": "2000-12-05T03:47:00.2693116+01:00",
-  "UpdatedDate": "2016-11-27T03:47:00.2693116+01:00",
+  "Saledate": "2008-06-19T11:24:53.54681+02:00",
+  "Amount": 20640.523999999998,
+  "SaleId": 730,
+  "Earning": 9517.958,
+  "EarningPercent": 13795.868,
+  "Heading": "non",
+  "Number": "1315387",
+  "Probability": 454,
+  "CreatedDate": "2001-04-09T11:24:53.54681+02:00",
+  "UpdatedDate": "2022-06-08T11:24:53.54681+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 552,
+  "ActiveLinks": 660,
   "Links": [
     {
-      "EntityName": "Cummings Inc and Sons",
-      "Id": 629,
-      "Description": "Secured well-modulated circuit",
-      "ExtraInfo": "aliquid",
-      "LinkId": 207
+      "EntityName": "Connelly-Wyman",
+      "Id": 371,
+      "Description": "Diverse bandwidth-monitored toolset",
+      "ExtraInfo": "suscipit",
+      "LinkId": 726
     },
     {
-      "EntityName": "Cummings Inc and Sons",
-      "Id": 629,
-      "Description": "Secured well-modulated circuit",
-      "ExtraInfo": "aliquid",
-      "LinkId": 207
+      "EntityName": "Connelly-Wyman",
+      "Id": 371,
+      "Description": "Diverse bandwidth-monitored toolset",
+      "ExtraInfo": "suscipit",
+      "LinkId": 726
     }
   ],
-  "NextDueDate": "2024-03-13T03:47:00.2693116+01:00",
-  "Postit": "aliquam",
+  "NextDueDate": "2013-09-01T11:24:53.54681+02:00",
+  "Postit": "quis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-04-13T03:47:00.2693116+02:00",
+  "ReopenDate": "2025-05-21T11:24:53.54681+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hilpert Inc and Sons",
-      "Comment": "aut",
-      "StakeholderRoleId": 843,
-      "CountryId": 985,
-      "PersonId": 664,
-      "EmailDescription": "bobbie_hoeger@greenheidenreich.ca",
-      "EmailId": 378,
-      "EmailAddress": "lesly@fisher.name",
-      "PhoneId": 195,
-      "ContactName": "Ratke Inc and Sons",
-      "ContactId": 31,
-      "SaleId": 971,
-      "Mrmrs": "ut",
-      "Firstname": "Kenny",
-      "MiddleName": "D'Amore, Davis and Ward",
-      "Lastname": "Huels",
-      "SaleStakeholderId": 163,
-      "Rank": 276,
-      "Phone": "141.362.5538"
+      "StakeholderRoleName": "Botsford, Grant and Schinner",
+      "Comment": "nobis",
+      "StakeholderRoleId": 449,
+      "CountryId": 20,
+      "PersonId": 446,
+      "EmailDescription": "kathryn_emmerich@hesselgrant.us",
+      "EmailId": 641,
+      "EmailAddress": "marcos@starkkoch.com",
+      "PhoneId": 469,
+      "ContactName": "Gleichner Group",
+      "ContactId": 960,
+      "SaleId": 72,
+      "Mrmrs": "enim",
+      "Firstname": "Ramon",
+      "MiddleName": "Durgan Inc and Sons",
+      "Lastname": "Haley",
+      "SaleStakeholderId": 560,
+      "Rank": 431,
+      "Phone": "401-675-2400 x75063"
     }
   ],
-  "ActiveErpLinks": 308,
+  "ActiveErpLinks": 389,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bianka Crist",
-    "SuperOffice:2": "1864060443"
+    "SuperOffice:1": "Ward Walker",
+    "SuperOffice:2": "Jazmyne Mayert IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "eum",
+    "CustomFields2": "libero"
   },
-  "PublishEventDate": "2015-06-01T03:47:00.2693116+02:00",
-  "PublishTo": "2019-10-05T03:47:00.2693116+02:00",
-  "PublishFrom": "2016-12-25T03:47:00.2693116+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-10-30T11:24:53.54681+01:00",
+  "PublishTo": "2010-08-07T11:24:53.54681+02:00",
+  "PublishFrom": "1999-04-19T11:24:53.54681+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "enim"
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 261,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "enim"
     }
   ]
 }
@@ -217,7 +217,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "delectus",
-  "2": "veritatis"
+  "1": "quo",
+  "2": "occaecati"
 }
 ```

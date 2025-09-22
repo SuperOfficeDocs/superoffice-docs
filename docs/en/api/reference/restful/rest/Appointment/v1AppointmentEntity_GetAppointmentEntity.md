@@ -34,7 +34,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -144,128 +144,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Oct 2002 03:46:59 G10T
+Last-Modified: Sat, 12 Dec 1998 11:24:52 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-09-29T03:46:59.6911992+02:00",
-  "AppointmentId": 233,
-  "Description": "Reverse-engineered solution-oriented concept",
-  "Title": "aliquam",
-  "Agenda": "ea",
-  "InternalNotes": "iste",
-  "StartDate": "2016-04-20T03:46:59.6911992+02:00",
-  "EndDate": "2000-10-07T03:46:59.6911992+02:00",
+  "CreatedDate": "2000-03-14T11:24:52.93746+01:00",
+  "AppointmentId": 813,
+  "Description": "Down-sized methodical support",
+  "Title": "voluptatibus",
+  "Agenda": "tempora",
+  "InternalNotes": "quo",
+  "StartDate": "2011-08-23T11:24:52.93746+02:00",
+  "EndDate": "2004-06-16T11:24:52.93746+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 460,
+  "MotherId": 263,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-10-04T03:46:59.6911992+02:00",
+  "UpdatedDate": "1998-12-12T11:24:52.93746+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 893,
+  "ActiveLinks": 786,
   "Links": [
     {
-      "EntityName": "Breitenberg, Hessel and Okuneva",
-      "Id": 415,
-      "Description": "Quality-focused fault-tolerant concept",
-      "ExtraInfo": "non",
-      "LinkId": 132,
+      "EntityName": "Gleichner LLC",
+      "Id": 300,
+      "Description": "Robust tangible solution",
+      "ExtraInfo": "tempora",
+      "LinkId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "itaque",
   "HasAlarm": true,
-  "ColorIndex": 490,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "repudiandae",
-  "LeadTime": "aspernatur",
-  "Location": "aperiam",
-  "RejectCounter": 900,
+  "ColorIndex": 957,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "excepturi",
+  "LeadTime": "vero",
+  "Location": "distinctio",
+  "RejectCounter": 8,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 684,
-      "PersonId": 81,
-      "ContactId": 805,
-      "EmailId": 925,
-      "SendEmail": true,
+      "AssociateId": 540,
+      "PersonId": 194,
+      "ContactId": 709,
+      "EmailId": 373,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kirsten@bailey.name",
-      "Description": "Decentralized dynamic system engine"
+      "EmailAddress": "harley@ward.ca",
+      "Description": "Optimized 5th generation circuit"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-10-26T03:46:59.6911992+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2018-07-11T11:24:52.93746+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 523,
+  "PreferredTZLocation": 104,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 441,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 964,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sint",
+  "CentralserviceVideomeetId": "voluptatum",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Adolph Green"
+    "SuperOffice:1": "Victoria Kautzer",
+    "SuperOffice:2": "64565279"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "sint"
+    "CustomFields1": "rem",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2010-02-19T03:46:59.6911992+01:00",
-  "PublishTo": "2006-08-31T03:46:59.6911992+02:00",
-  "PublishFrom": "2018-06-09T03:46:59.6911992+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-09-10T11:24:52.93746+02:00",
+  "PublishTo": "2001-08-17T11:24:52.93746+02:00",
+  "PublishFrom": "2021-08-04T11:24:52.93746+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 180,
+      "VisibleId": 993,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 454
         }
       }
     },
     {
-      "VisibleId": 180,
+      "VisibleId": 993,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 454
         }
       }
     }
@@ -274,13 +274,13 @@ Last-Modified: Fri, 04 Oct 2002 03:46:59 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

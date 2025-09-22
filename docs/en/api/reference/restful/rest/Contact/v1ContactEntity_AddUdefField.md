@@ -99,7 +99,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 919,
-  "ColumnId": 954,
-  "FieldDefault": "porro",
-  "FieldHeight": 242,
-  "FieldLabel": "inventore",
-  "FieldLeft": 300,
-  "FieldTop": 314,
+  "UDefFieldId": 386,
+  "ColumnId": 847,
+  "FieldDefault": "sed",
+  "FieldHeight": 880,
+  "FieldLabel": "doloremque",
+  "FieldLeft": 813,
+  "FieldTop": 636,
   "FieldType": "Checkbox",
-  "FieldWidth": 466,
-  "FormatMask": "sit",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 602,
-  "LabelLeft": 502,
-  "LabelTop": 800,
-  "LabelWidth": 62,
-  "LastVersionId": 463,
-  "ListTableId": 258,
-  "IsMandatory": true,
+  "FieldWidth": 833,
+  "FormatMask": "quas",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 424,
+  "LabelLeft": 794,
+  "LabelTop": 371,
+  "LabelWidth": 455,
+  "LastVersionId": 594,
+  "ListTableId": 474,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 786,
-  "ProgId": "iure",
-  "IsReadOnly": true,
-  "ShortLabel": "sapiente",
-  "TabOrder": 719,
-  "TextLength": 192,
-  "Tooltip": "harum",
-  "UdefIdentity": 827,
-  "UDListDefinitionId": 471,
+  "Page1LineNo": 757,
+  "ProgId": "voluptates",
+  "IsReadOnly": false,
+  "ShortLabel": "aliquam",
+  "TabOrder": 231,
+  "TextLength": 479,
+  "Tooltip": "ipsam",
+  "UdefIdentity": 719,
+  "UDListDefinitionId": 438,
   "Justification": "Center",
-  "Version": 745,
-  "TemplateVariableName": "Heller Group",
+  "Version": 243,
+  "TemplateVariableName": "Sauer, Luettgen and Herzog",
   "HasBeenPublished": false,
-  "MdoListName": "Carter-Welch",
+  "MdoListName": "Macejkovic, Gulgowski and Littel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 841
     }
   }
 }

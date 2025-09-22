@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Murray-Mayert",
-    "ToolTip": "Nulla qui.",
+    "Id": 462,
+    "Name": "Hayes-Champlin",
+    "ToolTip": "Ut rerum.",
     "Deleted": true,
-    "Rank": 408,
-    "Type": "non",
-    "ColorBlock": 85,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "1999-10-17T03:47:00.7692942+02:00",
+    "Rank": 862,
+    "Type": "ut",
+    "ColorBlock": 142,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2003-06-09T11:24:54.0936627+02:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Effertz-Walker",
-        "ToolTip": "Sed rem.",
-        "Deleted": false,
-        "Rank": 709,
-        "Type": "autem",
-        "ColorBlock": 780,
-        "IconHint": "excepturi",
+        "Id": 415,
+        "Name": "Satterfield-Barton",
+        "ToolTip": "Tempore explicabo repellat expedita.",
+        "Deleted": true,
+        "Rank": 467,
+        "Type": "qui",
+        "ColorBlock": 287,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2000-01-25T03:47:00.7692942+01:00",
+        "LastChanged": "2006-04-04T11:24:54.0936627+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Hardy Nat Hintz PhD"
+        "FullName": "Cora Mitchell"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "repellat",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "eaque",
     "Hidden": false,
-    "FullName": "Mrs. Blanca Grimes"
+    "FullName": "Prof. Violet Justen Kirlin DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Jenkins, Kling and Mante",
-    "ToolTip": "Odit officiis.",
+    "Id": 317,
+    "Name": "Leannon-Bogisich",
+    "ToolTip": "Et ut.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "qui",
-    "ColorBlock": 358,
-    "IconHint": "dolores",
+    "Rank": 788,
+    "Type": "expedita",
+    "ColorBlock": 833,
+    "IconHint": "exercitationem",
     "Selected": true,
-    "LastChanged": "2014-01-05T03:47:00.7692942+01:00",
+    "LastChanged": "2001-07-26T11:24:54.0936627+02:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Klocko-Blick",
-        "ToolTip": "Quod consequatur omnis odit omnis earum et.",
+        "Id": 645,
+        "Name": "Bins-Herman",
+        "ToolTip": "Nihil aut quia iure.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "quasi",
-        "ColorBlock": 694,
-        "IconHint": "reiciendis",
+        "Rank": 857,
+        "Type": "explicabo",
+        "ColorBlock": 438,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2015-05-19T03:47:00.7692942+02:00",
+        "LastChanged": "1999-11-09T11:24:54.0936627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Pedro Spencer V",
+        "ExtraInfo": "culpa",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Mr. Ed Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "natus",
+    "ExtraInfo": "veniam",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Gene Crona",
+    "FullName": "Miss Diana Thompson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 403
       }
     }
   }

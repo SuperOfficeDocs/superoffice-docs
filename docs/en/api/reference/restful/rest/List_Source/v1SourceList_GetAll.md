@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Rath-Corkery",
-    "Tooltip": "itaque",
+    "Id": 970,
+    "Name": "Bashirian, Gutkowski and Hackett",
+    "Tooltip": "eos",
     "Deleted": true,
-    "UdListDefinitionId": 534,
-    "Rank": 399,
+    "UdListDefinitionId": 293,
+    "Rank": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

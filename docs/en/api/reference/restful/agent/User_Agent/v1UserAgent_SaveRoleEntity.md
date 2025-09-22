@@ -92,16 +92,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 732,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "ab",
+  "RoleId": 752,
+  "Name": "Stroman-VonRueden",
+  "Tooltip": "nostrum",
   "RoleType": "Anonymous",
-  "Deleted": 902,
-  "Rank": 592,
-  "Created": "2002-07-18T03:46:55.5663534+02:00",
-  "UseCategories": 269,
+  "Deleted": 903,
+  "Rank": 664,
+  "Created": "2000-01-17T11:24:48.8907508+01:00",
+  "UseCategories": 764,
   "CreatedBy": null,
-  "Updated": "2002-12-20T03:46:55.5663534+01:00",
+  "Updated": "1999-08-18T11:24:48.8907508+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -114,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 699,
-  "Name": "Wintheiser-Reilly",
-  "Tooltip": "non",
+  "RoleId": 232,
+  "Name": "Sipes, Jacobi and Lebsack",
+  "Tooltip": "placeat",
   "RoleType": "Anonymous",
-  "Deleted": 398,
-  "Rank": 680,
-  "Created": "2025-04-16T03:46:55.5663534+02:00",
-  "UseCategories": 285,
+  "Deleted": 208,
+  "Rank": 508,
+  "Created": "2015-09-21T11:24:48.8907508+02:00",
+  "UseCategories": 928,
   "CreatedBy": null,
-  "Updated": "1998-07-02T03:46:55.5663534+02:00",
+  "Updated": "2012-02-11T11:24:48.8907508+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   }
 }

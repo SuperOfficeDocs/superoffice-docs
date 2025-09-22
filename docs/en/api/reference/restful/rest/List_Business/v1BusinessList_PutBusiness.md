@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Bruen Inc and Sons",
-  "Tooltip": "libero",
+  "Id": 293,
+  "Name": "Lubowitz Group",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 62,
-  "Rank": 223
+  "UdListDefinitionId": 630,
+  "Rank": 364
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Stracke Inc and Sons",
-  "Tooltip": "expedita",
+  "Id": 11,
+  "Name": "Corkery Group",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "UdListDefinitionId": 510,
-  "Rank": 486,
+  "UdListDefinitionId": 409,
+  "Rank": 652,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 485
     }
   }
 }

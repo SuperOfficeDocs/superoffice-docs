@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nolan Inc and Sons",
-    "DisplayName": "Dietrich LLC",
-    "DisplayTooltip": "voluptatem",
+    "Name": "Bins Group",
+    "DisplayName": "Boyle Inc and Sons",
+    "DisplayTooltip": "rerum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldLength": 338
       }
     }
   },
   {
-    "Name": "Nolan Inc and Sons",
-    "DisplayName": "Dietrich LLC",
-    "DisplayTooltip": "voluptatem",
+    "Name": "Bins Group",
+    "DisplayName": "Boyle Inc and Sons",
+    "DisplayTooltip": "rerum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldLength": 338
       }
     }
   }

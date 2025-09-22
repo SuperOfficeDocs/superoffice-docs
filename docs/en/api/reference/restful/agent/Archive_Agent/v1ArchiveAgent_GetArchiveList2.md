@@ -169,17 +169,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Morissette, Mosciski and Steuber",
-  "ProviderName": "Abernathy-Bergnaum",
-  "SortOrder": "voluptatem",
-  "Restriction": "quos",
-  "Entities": "voluptas",
-  "Page": 824,
-  "PageSize": 514
+  "GuiName": "Lemke Inc and Sons",
+  "ProviderName": "Hahn, Cartwright and Beier",
+  "SortOrder": "perspiciatis",
+  "Restriction": "itaque",
+  "Entities": "sit",
+  "Page": 889,
+  "PageSize": 559
 }
 ```
 
@@ -191,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bins, Bauch and Schumm",
-    "PrimaryKey": 234,
+    "EntityName": "Olson, Jenkins and Kihn",
+    "PrimaryKey": 820,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aut",
-        "TooltipHint": "recusandae",
-        "LinkHint": "doloribus"
+        "DisplayValue": "blanditiis",
+        "TooltipHint": "voluptatum",
+        "LinkHint": "molestiae"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "et",
+    "LinkHint": "labore",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 130
       }
     }
   }

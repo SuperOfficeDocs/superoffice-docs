@@ -82,23 +82,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quidem",
-  "Name": "Abernathy-Hodkiewicz",
-  "Description": "Ergonomic background internet solution",
-  "IncludeId": "consequuntur",
-  "Source": "incidunt",
-  "Registered": "2011-06-12T03:47:00.5036785+02:00",
-  "RegisteredBy": "ut",
-  "Updated": "2016-06-01T03:47:00.5036785+02:00",
-  "UpdatedBy": "facere",
-  "Path": "ut",
+  "UniqueIdentifier": "et",
+  "Name": "Gulgowski-Green",
+  "Description": "Configurable 24/7 matrix",
+  "IncludeId": "nihil",
+  "Source": "eum",
+  "Registered": "2025-04-28T11:24:53.7811756+02:00",
+  "RegisteredBy": "non",
+  "Updated": "2021-01-27T11:24:53.7811756+01:00",
+  "UpdatedBy": "odio",
+  "Path": "necessitatibus",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 227
     }
   }
 }

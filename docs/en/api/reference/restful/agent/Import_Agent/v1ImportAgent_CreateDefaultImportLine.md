@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 194
+  "CountColumns": 802
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "nostrum",
-    "autem"
+    "unde",
+    "maiores"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "officia",
+  "ExternalKey": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

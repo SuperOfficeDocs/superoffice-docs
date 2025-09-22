@@ -104,16 +104,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 408,
-  "Name": "Zieme, Baumbach and Cummings",
+  "ScreenChooserId": 440,
+  "Name": "Trantow, Marks and Beatty",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolore",
-  "Source": "facilis",
-  "Registered": "2012-04-14T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2011-01-23T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 640
+  "UniqueIdentifier": "sunt",
+  "Source": "sapiente",
+  "Registered": "2017-09-14T11:24:53.7186781+02:00",
+  "RegisteredAssociateId": 713,
+  "Updated": "1999-05-24T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 188
 }
 ```
 
@@ -124,27 +124,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 506,
-  "Name": "Wiegand, Hodkiewicz and Dietrich",
+  "ScreenChooserId": 267,
+  "Name": "Kreiger, Goyette and Sporer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "deserunt",
-  "Source": "nobis",
-  "Registered": "1998-12-12T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 206,
-  "Updated": "2011-05-10T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 985,
+  "Enabled": true,
+  "UniqueIdentifier": "dolorem",
+  "Source": "ducimus",
+  "Registered": "2024-03-30T11:24:53.7186781+01:00",
+  "RegisteredAssociateId": 592,
+  "Updated": "2017-06-16T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 606,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 751
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

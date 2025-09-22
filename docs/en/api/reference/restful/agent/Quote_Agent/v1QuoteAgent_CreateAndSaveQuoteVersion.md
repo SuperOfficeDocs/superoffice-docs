@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 50
+  "QuoteVersionId": 784
 }
 ```
 
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 705,
-  "ERPQuoteVersionKey": "asperiores",
-  "QuoteId": 181,
-  "Description": "Down-sized executive policy",
-  "Number": "959747",
+  "QuoteVersionId": 493,
+  "ERPQuoteVersionKey": "tempora",
+  "QuoteId": 121,
+  "Description": "Function-based optimizing capability",
+  "Number": "830452",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 561,
-  "SentDate": "2009-06-06T03:46:55.1913666+02:00",
-  "FollowupId": 955,
-  "ExpirationDate": "2013-07-05T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 939,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 568,
+  "LikelyQuoteAlternativeId": 76,
+  "SentDate": "1998-06-02T11:24:48.5157652+02:00",
+  "FollowupId": 66,
+  "ExpirationDate": "2013-05-06T11:24:48.5157652+02:00",
+  "DeliveryCountryId": 42,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 294,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "sed",
-  "ERPPaymentTypeKey": "in",
-  "ERPDeliveryTermsKey": "nostrum",
-  "ERPDeliveryTypeKey": "quis",
-  "Rank": 601,
-  "ApprovedBy": 675,
-  "ApprovedText": "tenetur",
-  "ApprovedRegisteredBy": 913,
-  "ApprovedRegisteredDate": "2007-11-09T03:46:55.1913666+01:00",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "qui",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "sed",
-  "LastRecalculated": "2016-04-24T03:46:55.1913666+02:00",
-  "Updated": "2019-02-28T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 55,
-  "Registered": "2005-02-19T03:46:55.1913666+01:00",
-  "RegisteredAssociateId": 141,
-  "RequestAssociateId": 673,
-  "RequestComment": "voluptate",
+  "ERPPaymentTermsKey": "voluptatibus",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "harum",
+  "ERPDeliveryTypeKey": "modi",
+  "Rank": 932,
+  "ApprovedBy": 927,
+  "ApprovedText": "neque",
+  "ApprovedRegisteredBy": 905,
+  "ApprovedRegisteredDate": "2018-09-22T11:24:48.5157652+02:00",
+  "ExtraField1": "laborum",
+  "ExtraField2": "esse",
+  "ExtraField3": "expedita",
+  "ExtraField4": "at",
+  "ExtraField5": "earum",
+  "LastRecalculated": "2017-04-24T11:24:48.5157652+02:00",
+  "Updated": "2004-04-17T11:24:48.5157652+02:00",
+  "UpdatedAssociateId": 214,
+  "Registered": "2008-04-03T11:24:48.5157652+02:00",
+  "RegisteredAssociateId": 997,
+  "RequestAssociateId": 567,
+  "RequestComment": "ut",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 576,
-      "ERPQuoteAlternativeKey": "neque",
-      "QuoteVersionId": 182,
-      "Name": "Smitham, Gutkowski and Wisozk",
-      "Description": "Synergistic assymetric software",
+      "QuoteAlternativeId": 341,
+      "ERPQuoteAlternativeKey": "deserunt",
+      "QuoteVersionId": 448,
+      "Name": "Walter, Weber and Keebler",
+      "Description": "Function-based zero administration circuit",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 27419.365999999998,
-      "ERPDiscountAmount": 15413.011999999999,
-      "DiscountPercent": 22138.576,
-      "DiscountAmount": 20994.666,
+      "ERPDiscountPercent": 21383.282,
+      "ERPDiscountAmount": 30177.286,
+      "DiscountPercent": 17703.966,
+      "DiscountAmount": 16528.716,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sint",
-      "VAT": 22006.948,
-      "EarningPercent": 12786.72,
-      "EarningAmount": 1175.25,
-      "SubTotal": 31.34,
-      "TotalPrice": 10151.026,
-      "ExtraField1": "error",
-      "ExtraField2": "sed",
-      "ExtraField3": "error",
-      "ExtraField4": "fugiat",
-      "ExtraField5": "velit",
+      "VATInfo": "quo",
+      "VAT": 20580.978,
+      "EarningPercent": 1582.6699999999998,
+      "EarningAmount": 29171.272,
+      "SubTotal": 10834.238,
+      "TotalPrice": 13686.178,
+      "ExtraField1": "similique",
+      "ExtraField2": "tenetur",
+      "ExtraField3": "fugit",
+      "ExtraField4": "et",
+      "ExtraField5": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 494
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

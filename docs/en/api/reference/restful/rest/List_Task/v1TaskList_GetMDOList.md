@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=qui
+GET /api/v1/List/Task/MDOItems?query=pariatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "O'Keefe Inc and Sons",
-    "ToolTip": "Quia ex porro incidunt eaque corrupti.",
-    "Deleted": false,
-    "Rank": 152,
-    "Type": "autem",
+    "Id": 994,
+    "Name": "Corkery-Ritchie",
+    "ToolTip": "Ut modi accusamus accusantium quia.",
+    "Deleted": true,
+    "Rank": 647,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Haag-Howe",
-        "ToolTip": "Necessitatibus autem.",
+        "Id": 191,
+        "Name": "Wilkinson Group",
+        "ToolTip": "Eos nobis.",
         "Deleted": true,
-        "Rank": 533,
-        "Type": "quidem",
+        "Rank": 843,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 395,
-        "ExtraInfo": "dolores",
-        "StyleHint": "quidem",
-        "FullName": "Tyson Kuhic",
+        "IconHint": "deserunt",
+        "ColorBlock": 385,
+        "ExtraInfo": "illo",
+        "StyleHint": "eos",
+        "FullName": "Freddy Graham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldLength": 961
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 64,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "dolorum",
-    "FullName": "Miss Kaci Esmeralda Hodkiewicz DVM",
+    "IconHint": "unde",
+    "ColorBlock": 729,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "vero",
+    "FullName": "Prof. Joannie Ismael Marvin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldType": "System.Int32",
+        "FieldLength": 734
       }
     }
   }

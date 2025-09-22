@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "McCullough-Goldner",
-    "Tooltip": "esse",
-    "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 730
+    "HeadingId": 224,
+    "Name": "Jacobi-O'Kon",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "Rank": 413,
+    "UdListDefinitionId": 465
   },
   {
-    "HeadingId": 334,
-    "Name": "McCullough-Goldner",
-    "Tooltip": "esse",
-    "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 730
+    "HeadingId": 224,
+    "Name": "Jacobi-O'Kon",
+    "Tooltip": "facere",
+    "Deleted": false,
+    "Rank": 413,
+    "UdListDefinitionId": 465
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 545,
-    "Name": "Jacobs Group",
-    "Tooltip": "eius",
+    "HeadingId": 143,
+    "Name": "Osinski Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 537,
+    "Rank": 581,
+    "UdListDefinitionId": 474,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 639
       }
     }
   }

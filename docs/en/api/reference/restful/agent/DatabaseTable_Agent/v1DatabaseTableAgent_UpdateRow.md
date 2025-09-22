@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kshlerin-West",
-  "Id": 594,
+  "TableName": "Brown, Ward and Kunde",
+  "Id": 468,
   "Values": {
-    "Values1": "quis",
-    "Values2": "aperiam"
+    "Values1": "perspiciatis",
+    "Values2": "ipsum"
   }
 }
 ```

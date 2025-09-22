@@ -100,36 +100,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 786,
-    "Name": "Ruecker, Hansen and Barrows",
-    "OrgNr": "1279435",
-    "Department": "reinvent customized niches",
+    "ContactId": 798,
+    "Name": "Lind, Farrell and Upton",
+    "OrgNr": "1650997",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "iure",
-    "DirectPhone": "1-321-676-2216",
-    "AssociateId": 636,
-    "CountryId": 993,
-    "EmailAddress": "amira_rutherford@sipesmurray.biz",
-    "Kananame": "rem",
-    "EmailAddressName": "sylvan.fahey@bartoncarter.biz",
+    "City": "quasi",
+    "DirectPhone": "(914)406-6130 x2433",
+    "AssociateId": 722,
+    "CountryId": 997,
+    "EmailAddress": "casandra@kunde.info",
+    "Kananame": "cum",
+    "EmailAddressName": "marty@lueilwitzbashirian.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Austen Gibson IV",
+    "AssociateFullName": "Robyn Heidenreich",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Kurt Green",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 902,
-    "Number1": "516090",
-    "Number2": "962212",
+    "FormattedAddress": "est",
+    "FullName": "Miss Reva Beatty V",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 417,
+    "Number1": "111465",
+    "Number2": "829845",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 249
       }
     }
   }

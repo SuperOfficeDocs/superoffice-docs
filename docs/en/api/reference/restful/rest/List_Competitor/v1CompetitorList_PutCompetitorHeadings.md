@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 333,
-    "Name": "Powlowski-Welch",
-    "Tooltip": "aut",
+    "HeadingId": 739,
+    "Name": "O'Connell Group",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "Rank": 188,
-    "UdListDefinitionId": 464
+    "Rank": 287,
+    "UdListDefinitionId": 390
   },
   {
-    "HeadingId": 333,
-    "Name": "Powlowski-Welch",
-    "Tooltip": "aut",
+    "HeadingId": 739,
+    "Name": "O'Connell Group",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "Rank": 188,
-    "UdListDefinitionId": 464
+    "Rank": 287,
+    "UdListDefinitionId": 390
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 75,
-    "Name": "Tremblay, Thompson and Miller",
-    "Tooltip": "reiciendis",
+    "HeadingId": 109,
+    "Name": "Feeney, Jacobs and Rosenbaum",
+    "Tooltip": "neque",
     "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 649,
+    "Rank": 24,
+    "UdListDefinitionId": 830,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 96
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

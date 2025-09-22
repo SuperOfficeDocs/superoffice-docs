@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Reichel-Hilpert",
-    "Tooltip": "minima",
-    "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 316
+    "HeadingId": 122,
+    "Name": "Hauck, Effertz and Hamill",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 564,
+    "UdListDefinitionId": 728
   },
   {
-    "HeadingId": 128,
-    "Name": "Reichel-Hilpert",
-    "Tooltip": "minima",
-    "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 316
+    "HeadingId": 122,
+    "Name": "Hauck, Effertz and Hamill",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 564,
+    "UdListDefinitionId": 728
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Leffler-Gutkowski",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 354,
-    "UdListDefinitionId": 195,
+    "HeadingId": 539,
+    "Name": "Crooks, Metz and Stracke",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 679,
+    "UdListDefinitionId": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 754
       }
     }
   }

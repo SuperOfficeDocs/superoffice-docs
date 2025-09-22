@@ -115,18 +115,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -139,29 +139,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 145,
-  "Name": "Stamm, Cole and Robel",
-  "CreatedDate": "2011-01-16T03:47:00.0193121+01:00",
-  "UpdatedDate": "2010-03-07T03:47:00.0193121+01:00",
+  "ForeignAppId": 7,
+  "Name": "Lowe, Anderson and Harber",
+  "CreatedDate": "2011-05-12T11:24:53.2968202+02:00",
+  "UpdatedDate": "2004-08-17T11:24:53.2968202+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 743,
-      "Name": "Cummings LLC",
-      "CreatedDate": "2008-03-07T03:47:00.0193121+01:00",
-      "UpdatedDate": "2015-06-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Mrs. Katrina Ashley Kunze III",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "eligendi",
-      "ForeignAppId": 624,
+      "ForeignDeviceId": 254,
+      "Name": "Aufderhar LLC",
+      "CreatedDate": "2023-04-03T11:24:53.2968202+02:00",
+      "UpdatedDate": "2016-01-17T11:24:53.2968202+01:00",
+      "AssociateFullName": "Evert Corwin",
+      "CreatedBy": "molestias",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "iste",
+      "ForeignAppId": 522,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldType": "System.String",
+          "FieldLength": 332
         }
       }
     }
@@ -171,12 +171,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 265
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

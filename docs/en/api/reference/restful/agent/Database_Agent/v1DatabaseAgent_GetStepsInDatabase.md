@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Kuhn, Collier and Reinger",
+    "StepNumber": 388,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 527
       }
     }
   },
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Kuhn, Collier and Reinger",
+    "StepNumber": 388,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 527
       }
     }
   }

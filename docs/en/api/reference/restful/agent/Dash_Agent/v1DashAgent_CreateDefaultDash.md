@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 558,
-  "UniqueId": "officiis",
-  "Name": "Russel-Gottlieb",
-  "Description": "Pre-emptive bi-directional access",
-  "AssociateId": 164,
-  "Columns": 162,
+  "DashboardId": 619,
+  "UniqueId": "repellat",
+  "Name": "Moore, Goldner and Schmeler",
+  "Description": "Grass-roots eco-centric architecture",
+  "AssociateId": 706,
+  "Columns": 991,
   "Theme": null,
-  "VisibleForAll": 262,
+  "VisibleForAll": 547,
   "VisibleForAssociates": [
-    476,
-    825
+    561,
+    104
   ],
   "VisibleForGroups": [
-    556,
-    896
+    951,
+    928
   ],
-  "PinForAll": 284,
+  "PinForAll": 67,
   "PinForAssociates": [
-    369,
-    645
+    49,
+    515
   ],
   "PinForGroups": [
-    962,
-    341
+    687,
+    89
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 29
     }
   }
 }

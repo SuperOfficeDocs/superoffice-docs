@@ -101,34 +101,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 470,
-  "UniqueId": "voluptatem",
-  "Name": "Deckow Group",
-  "Description": "Reverse-engineered fresh-thinking toolset",
-  "AssociateId": 875,
-  "Columns": 674,
+  "DashboardId": 104,
+  "UniqueId": "quasi",
+  "Name": "Runte, Aufderhar and Zulauf",
+  "Description": "Organized cohesive database",
+  "AssociateId": 79,
+  "Columns": 3,
   "Theme": null,
-  "VisibleForAll": 747,
+  "VisibleForAll": 552,
   "VisibleForAssociates": [
-    780,
-    455
+    359,
+    826
   ],
   "VisibleForGroups": [
-    130,
-    520
+    652,
+    803
   ],
-  "PinForAll": 506,
+  "PinForAll": 271,
   "PinForAssociates": [
-    76,
-    307
+    276,
+    67
   ],
   "PinForGroups": [
-    415,
-    164
+    1002,
+    994
   ]
 }
 ```
@@ -140,37 +140,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 974,
-  "UniqueId": "laudantium",
-  "Name": "Sanford, Luettgen and Harber",
-  "Description": "User-centric incremental focus group",
-  "AssociateId": 200,
-  "Columns": 875,
+  "DashboardId": 404,
+  "UniqueId": "at",
+  "Name": "Lubowitz Group",
+  "Description": "Cloned value-added hub",
+  "AssociateId": 911,
+  "Columns": 907,
   "Theme": null,
-  "VisibleForAll": 231,
+  "VisibleForAll": 881,
   "VisibleForAssociates": [
-    734,
-    852
+    222,
+    147
   ],
   "VisibleForGroups": [
-    895,
-    389
+    576,
+    482
   ],
-  "PinForAll": 34,
+  "PinForAll": 399,
   "PinForAssociates": [
-    137,
-    984
+    997,
+    888
   ],
   "PinForGroups": [
-    918,
-    723
+    794,
+    77
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 843
     }
   },
   "_Links": {

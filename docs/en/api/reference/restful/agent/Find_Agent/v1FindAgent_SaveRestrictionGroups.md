@@ -79,34 +79,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "McCullough-Torphy",
-  "StorageKey": "qui",
+  "StorageType": "aspernatur",
+  "ProviderName": "Block-Brakus",
+  "StorageKey": "doloribus",
   "RestrictionGroups": [
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Future-proofed upward-trending benchmark",
-      "Rank": 970,
+      "Name": "Pacocha-Oberbrunner",
+      "Description": "Operative zero tolerance pricing structure",
+      "Rank": 69,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Future-proofed upward-trending benchmark",
-      "Rank": 970,
+      "Name": "Pacocha-Oberbrunner",
+      "Description": "Operative zero tolerance pricing structure",
+      "Rank": 69,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "omnis"
+  "Context": "eius"
 }
 ```
 
@@ -118,20 +118,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham, Wiegand and Kessler",
-    "Description": "Progressive fault-tolerant portal",
-    "Rank": 591,
+    "Name": "Eichmann, Lynch and Grady",
+    "Description": "Compatible optimal capacity",
+    "Rank": 739,
     "Restrictions": [
       {
-        "Name": "Wilderman, Reynolds and Boyer",
-        "Operator": "illo",
+        "Name": "Zulauf-Herzog",
+        "Operator": "corrupti",
         "Values": [
-          "alias",
-          "voluptatum"
+          "quia",
+          "eaque"
         ],
         "DisplayValues": [
-          "officia",
-          "qui"
+          "quia",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -139,27 +139,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 884,
+        "InterParenthesis": 919,
         "InterOperator": "And",
-        "UniqueHash": 439
+        "UniqueHash": 126
       }
     ]
   },
   {
-    "Name": "Smitham, Wiegand and Kessler",
-    "Description": "Progressive fault-tolerant portal",
-    "Rank": 591,
+    "Name": "Eichmann, Lynch and Grady",
+    "Description": "Compatible optimal capacity",
+    "Rank": 739,
     "Restrictions": [
       {
-        "Name": "Wilderman, Reynolds and Boyer",
-        "Operator": "illo",
+        "Name": "Zulauf-Herzog",
+        "Operator": "corrupti",
         "Values": [
-          "alias",
-          "voluptatum"
+          "quia",
+          "eaque"
         ],
         "DisplayValues": [
-          "officia",
-          "qui"
+          "quia",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -167,9 +167,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 884,
+        "InterParenthesis": 919,
         "InterOperator": "And",
-        "UniqueHash": 439
+        "UniqueHash": 126
       }
     ]
   }

@@ -93,54 +93,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 494,
-    "ERPName": "Herzog Inc and Sons",
-    "DisplayName": "Bergnaum Group",
-    "DisplayDescription": "Future-proofed dedicated approach",
-    "Rank": 525,
-    "ConnectorName": "Moore Group",
-    "ErpConnectionId": 116,
-    "ExtraData": "earum",
+    "QuoteConnectionId": 108,
+    "ERPName": "Roberts-Kunde",
+    "DisplayName": "Kling Inc and Sons",
+    "DisplayDescription": "Robust dynamic installation",
+    "Rank": 315,
+    "ConnectorName": "Wiza, Fahey and Weber",
+    "ErpConnectionId": 469,
+    "ExtraData": "itaque",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 125,
-        "ERPPriceListKey": "veritatis",
-        "QuoteConnectionId": 47,
-        "Name": "McGlynn Inc and Sons",
-        "Description": "Automated heuristic superstructure",
-        "Currency": "repudiandae",
-        "CurrencyName": "Schinner-Morar",
-        "ValidFrom": "2013-03-06T03:46:55.2069913+01:00",
-        "ValidTo": "2013-09-27T03:46:55.2069913+02:00",
+        "PriceListId": 715,
+        "ERPPriceListKey": "recusandae",
+        "QuoteConnectionId": 594,
+        "Name": "Barrows-Heathcote",
+        "Description": "Adaptive eco-centric matrices",
+        "Currency": "et",
+        "CurrencyName": "Johns-Schaefer",
+        "ValidFrom": "1999-03-10T11:24:48.5313897+01:00",
+        "ValidTo": "2012-06-03T11:24:48.5313897+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 654
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      177,
-      23
+      859,
+      700
     ],
     "AssociateAccessIds": [
-      701,
-      613
+      516,
+      691
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 271
       }
     }
   }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 162,
-    "Name": "Dietrich, Kihn and Rempel",
-    "OrgNr": "944373",
+    "ContactId": 29,
+    "Name": "Feeney Inc and Sons",
+    "OrgNr": "637689",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "placeat",
-    "DirectPhone": "1-287-568-4713 x3827",
-    "AssociateId": 570,
-    "CountryId": 865,
-    "EmailAddress": "retta@hartmann.uk",
-    "Kananame": "molestias",
-    "EmailAddressName": "xavier.farrell@price.us",
+    "City": "qui",
+    "DirectPhone": "608.743.3417 x0888",
+    "AssociateId": 135,
+    "CountryId": 143,
+    "EmailAddress": "meda_beier@walter.us",
+    "Kananame": "eos",
+    "EmailAddressName": "daren.heidenreich@kreiger.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Junius Willard Oberbrunner IV",
+    "AssociateFullName": "Kelly Benton Reichel I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consequatur",
-    "FullName": "Kamryn Marvin",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 323,
-    "Number1": "1690768",
-    "Number2": "1031281",
+    "FormattedAddress": "placeat",
+    "FullName": "Cornell Kuvalis",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 513,
+    "Number1": "1230804",
+    "Number2": "751971",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 165
       }
     }
   }

@@ -27,7 +27,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=410
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=707
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 474,
-  "FormId": 772,
-  "WhenSubmitted": "1999-09-17T03:46:55.0038735+02:00",
-  "ContactId": 879,
-  "PersonId": 467,
-  "EmailAddress": "burdette_gaylord@kiehnvolkman.uk",
-  "ResponseShipmentAddrId": 420,
-  "Response": "esse",
+  "FormSubmissionId": 719,
+  "FormId": 146,
+  "WhenSubmitted": "2024-08-07T11:24:48.2657757+02:00",
+  "ContactId": 986,
+  "PersonId": 416,
+  "EmailAddress": "ana.jakubowski@russel.biz",
+  "ResponseShipmentAddrId": 202,
+  "Response": "rem",
   "Status": "EmailVerification",
-  "ProcessingLog": "aperiam",
+  "ProcessingLog": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

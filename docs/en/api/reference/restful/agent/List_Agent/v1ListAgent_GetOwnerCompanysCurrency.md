@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetOwnerCompanysCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Value": "dolores",
-  "Tooltip": "qui",
+  "Id": 211,
+  "Value": "quos",
+  "Tooltip": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 622
     }
   }
 }

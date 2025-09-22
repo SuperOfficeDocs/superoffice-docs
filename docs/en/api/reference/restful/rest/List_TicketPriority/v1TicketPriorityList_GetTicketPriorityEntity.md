@@ -100,60 +100,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 49,
-  "Name": "Bayer, Doyle and Olson",
+  "TicketPriorityId": 429,
+  "Name": "Vandervort Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 733,
+  "SortOrder": 781,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 201,
-  "MonStart": "2013-09-07T03:47:00.9099142+02:00",
-  "MonStop": "2001-09-06T03:47:00.9099142+02:00",
-  "TueStart": "1999-10-11T03:47:00.9099142+02:00",
-  "TueStop": "2009-08-18T03:47:00.9099142+02:00",
-  "WedStart": "2006-04-26T03:47:00.9099142+02:00",
-  "WedStop": "2006-05-23T03:47:00.9099142+02:00",
-  "ThuStart": "2004-03-20T03:47:00.9099142+01:00",
-  "ThuStop": "2009-08-07T03:47:00.9099142+02:00",
-  "FriStart": "2024-01-15T03:47:00.9099142+01:00",
-  "FriStop": "2016-12-18T03:47:00.9099142+01:00",
-  "SatStart": "2019-12-31T03:47:00.9099142+01:00",
-  "SatStop": "2001-12-05T03:47:00.9099142+01:00",
-  "SunStart": "2002-06-05T03:47:00.9099142+02:00",
-  "SunStop": "2021-04-21T03:47:00.9099142+02:00",
+  "Deadline": 380,
+  "MonStart": "2009-01-18T11:24:54.1717846+01:00",
+  "MonStop": "2008-12-08T11:24:54.1717846+01:00",
+  "TueStart": "2013-03-19T11:24:54.1717846+01:00",
+  "TueStop": "2008-10-24T11:24:54.1717846+02:00",
+  "WedStart": "2006-05-26T11:24:54.1717846+02:00",
+  "WedStop": "2012-04-28T11:24:54.1717846+02:00",
+  "ThuStart": "2016-08-06T11:24:54.1717846+02:00",
+  "ThuStop": "2005-12-05T11:24:54.1717846+01:00",
+  "FriStart": "1999-04-25T11:24:54.1717846+02:00",
+  "FriStop": "2011-04-06T11:24:54.1717846+02:00",
+  "SatStart": "2007-03-09T11:24:54.1717846+01:00",
+  "SatStop": "2014-07-05T11:24:54.1717846+02:00",
+  "SunStart": "2004-11-29T11:24:54.1717846+01:00",
+  "SunStop": "2004-07-21T11:24:54.1717846+02:00",
   "NonDates": [
-    "cum",
-    "aliquam"
+    "enim",
+    "quas"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 822,
-      "AlertLevel": 659,
-      "AlertTimeout": 697,
-      "Action": 697,
-      "DelegateTo": 175,
-      "ScriptId": 556,
-      "EmailTo": "daron_miller@gutkowski.ca",
-      "SmsTo": "repellat",
-      "ReplyTemplateIdCustomer": 405,
-      "ReplyTemplateIdUser": 933,
-      "ReplyTemplateIdCatmast": 287,
-      "ReplyTemplateIdEmail": 427,
-      "RtiCustomerSms": 802,
-      "ReplyTemplateIdUserSms": 273,
-      "ReplyTemplateIdCatmastSms": 240,
-      "ReplyTemplateIdSms": 131,
+      "TicketAlertId": 729,
+      "AlertLevel": 803,
+      "AlertTimeout": 474,
+      "Action": 593,
+      "DelegateTo": 823,
+      "ScriptId": 424,
+      "EmailTo": "carole.hettinger@oberbrunnerhettinger.biz",
+      "SmsTo": "dolore",
+      "ReplyTemplateIdCustomer": 883,
+      "ReplyTemplateIdUser": 511,
+      "ReplyTemplateIdCatmast": 547,
+      "ReplyTemplateIdEmail": 711,
+      "RtiCustomerSms": 574,
+      "ReplyTemplateIdUserSms": 753,
+      "ReplyTemplateIdCatmastSms": 235,
+      "ReplyTemplateIdSms": 74,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldType": "System.String",
+          "FieldLength": 475
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

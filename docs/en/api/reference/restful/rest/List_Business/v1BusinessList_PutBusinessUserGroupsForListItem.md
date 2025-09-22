@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Larson, Dare and Hills",
-    "ToolTip": "Et blanditiis sunt.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "porro",
-    "ColorBlock": 541,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2000-03-22T03:47:00.5818006+01:00",
+    "Id": 143,
+    "Name": "Denesik Group",
+    "ToolTip": "Nesciunt blanditiis voluptate et iste dolor mollitia.",
+    "Deleted": true,
+    "Rank": 213,
+    "Type": "eligendi",
+    "ColorBlock": 129,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "1998-05-08T11:24:53.8592973+02:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Farrell-Zboncak",
-        "ToolTip": "Earum delectus ex ipsa.",
-        "Deleted": false,
-        "Rank": 619,
-        "Type": "autem",
-        "ColorBlock": 810,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2018-03-30T03:47:00.5818006+02:00",
+        "Id": 748,
+        "Name": "O'Keefe Inc and Sons",
+        "ToolTip": "Nesciunt aut in pariatur adipisci voluptatum qui laudantium.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "et",
+        "ColorBlock": 581,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2015-11-03T11:24:53.8592973+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "porro",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Austin Kris"
+        "FullName": "Dr. Jadon Tobin Koch"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Yvonne Zieme"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "ipsum",
+    "Hidden": false,
+    "FullName": "Ida Goyette"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Gibson Inc and Sons",
-    "ToolTip": "Aut ipsa facilis dicta voluptatum qui quo.",
-    "Deleted": false,
-    "Rank": 904,
-    "Type": "optio",
-    "ColorBlock": 731,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2000-01-23T03:47:00.5818006+01:00",
+    "Id": 91,
+    "Name": "Johnson LLC",
+    "ToolTip": "Asperiores omnis atque ullam.",
+    "Deleted": true,
+    "Rank": 306,
+    "Type": "ad",
+    "ColorBlock": 382,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2019-09-20T11:24:53.8592973+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Hilll LLC",
-        "ToolTip": "Et ea.",
-        "Deleted": false,
-        "Rank": 751,
-        "Type": "voluptate",
-        "ColorBlock": 388,
-        "IconHint": "ducimus",
+        "Id": 515,
+        "Name": "Schimmel, Jast and Halvorson",
+        "ToolTip": "Dolorum ipsa error qui aperiam rerum tempore.",
+        "Deleted": true,
+        "Rank": 228,
+        "Type": "quia",
+        "ColorBlock": 379,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2009-04-06T03:47:00.5818006+02:00",
+        "LastChanged": "2001-03-30T11:24:53.8592973+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Audrey Kiehn",
+        "ExtraInfo": "repellat",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Vivianne Windler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 187
+            "FieldType": "System.Int32",
+            "FieldLength": 470
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ofelia Feest",
+    "FullName": "Troy O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

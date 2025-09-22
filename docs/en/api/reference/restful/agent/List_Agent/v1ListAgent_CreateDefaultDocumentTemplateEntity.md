@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 321,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "occaecati",
-  "SaveInDb": 183,
-  "Filename": "eveniet",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 450,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 492,
+  "Filename": "qui",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 190,
-  "IntentId": 653,
+  "AutoeventId": 405,
+  "IntentId": 778,
   "IsDefaultPublished": false,
-  "Rank": 296,
-  "LoadTemplateFromPlugin": 32,
-  "MimeType": "ullam",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 519,
+  "Rank": 809,
+  "LoadTemplateFromPlugin": 418,
+  "MimeType": "consequuntur",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 569,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mac_stokes@dickinsonmraz.us",
+  "EmailSubject": "abdiel@gutkowski.us",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abagail@skiles.name",
+  "SenderEmailAddress": "herbert_batz@jewess.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 219
     }
   }
 }

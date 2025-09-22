@@ -519,7 +519,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=emailId,personId,personContact/hasInfoText,personContact/orgnr,postAddress/line3
+GET /api/v1/archive/EmailAddress?$select=url/URLDescription,NumberOfSales,associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

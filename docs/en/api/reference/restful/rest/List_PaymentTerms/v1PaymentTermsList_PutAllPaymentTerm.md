@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Pagac LLC",
-    "Tooltip": "facilis",
+    "Id": 911,
+    "Name": "Hand-Haley",
+    "Tooltip": "ipsum",
     "Deleted": true,
-    "UdListDefinitionId": 84,
-    "Rank": 216
+    "UdListDefinitionId": 67,
+    "Rank": 104
   },
   {
-    "Id": 564,
-    "Name": "Pagac LLC",
-    "Tooltip": "facilis",
+    "Id": 911,
+    "Name": "Hand-Haley",
+    "Tooltip": "ipsum",
     "Deleted": true,
-    "UdListDefinitionId": 84,
-    "Rank": 216
+    "UdListDefinitionId": 67,
+    "Rank": 104
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Padberg-Pagac",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 961,
+    "Id": 289,
+    "Name": "Rippin LLC",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "UdListDefinitionId": 83,
+    "Rank": 636,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

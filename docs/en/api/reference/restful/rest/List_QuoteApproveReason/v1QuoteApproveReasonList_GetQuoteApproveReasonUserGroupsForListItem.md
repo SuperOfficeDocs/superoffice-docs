@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Kub-Sipes",
-    "ToolTip": "Expedita repellendus neque.",
+    "Id": 79,
+    "Name": "Hahn, Bradtke and Bartell",
+    "ToolTip": "Magni totam voluptas aut assumenda distinctio sit et.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "delectus",
-    "ColorBlock": 626,
-    "IconHint": "voluptas",
+    "Rank": 129,
+    "Type": "nisi",
+    "ColorBlock": 512,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2003-05-13T03:47:00.7536695+02:00",
+    "LastChanged": "2000-09-22T11:24:54.0311654+02:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Kiehn-Shields",
-        "ToolTip": "Consequuntur quia voluptas.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "temporibus",
-        "ColorBlock": 57,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2022-12-26T03:47:00.7536695+01:00",
+        "Id": 762,
+        "Name": "Labadie-Mante",
+        "ToolTip": "Sequi aut sunt.",
+        "Deleted": false,
+        "Rank": 996,
+        "Type": "beatae",
+        "ColorBlock": 121,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2008-08-25T11:24:54.0311654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "omnis",
+        "ExtraInfo": "dolores",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Tyrell Hintz",
+        "FullName": "Mose Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 646
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iste",
+    "ExtraInfo": "enim",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Miguel O'Connell",
+    "FullName": "Dovie Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 677
       }
     }
   }

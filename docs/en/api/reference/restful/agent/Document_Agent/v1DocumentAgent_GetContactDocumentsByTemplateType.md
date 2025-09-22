@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 527,
-  "StartTime": "2025-03-31T03:46:54.6132622+02:00",
-  "EndTime": "2023-10-04T03:46:54.6132622+02:00",
-  "Count": 129,
-  "DocumentTemplateId": 117
+  "ContactId": 927,
+  "StartTime": "1999-03-03T11:24:47.8751665+01:00",
+  "EndTime": "2025-05-25T11:24:47.8751665+02:00",
+  "Count": 882,
+  "DocumentTemplateId": 639
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 597,
-    "Attention": "quo",
-    "Header": "incidunt",
-    "Name": "Jast, Altenwerth and Keeling",
-    "OurRef": "eos",
-    "YourRef": "quis",
-    "Description": "Fundamental modular pricing structure",
-    "DocumentTemplate": "quidem",
+    "DocumentId": 240,
+    "Attention": "repellat",
+    "Header": "saepe",
+    "Name": "Hegmann Group",
+    "OurRef": "et",
+    "YourRef": "voluptas",
+    "Description": "Grass-roots 4th generation throughput",
+    "DocumentTemplate": "molestias",
     "IsPublished": false,
-    "PersonId": 145,
-    "PersonFullName": "Justice Gottlieb",
-    "AssociateFullName": "Prof. Lyla Edd VonRueden DDS",
-    "ContactId": 28,
-    "ContactName": "Abshire Group",
-    "ProjectId": 650,
-    "ProjectName": "Von Inc and Sons",
-    "AssociateId": 446,
-    "Snum": 29,
-    "SaleId": 614,
-    "SaleName": "Grimes, Rutherford and Sauer",
+    "PersonId": 94,
+    "PersonFullName": "Bette Nitzsche",
+    "AssociateFullName": "Miss Gunnar Astrid Rodriguez II",
+    "ContactId": 721,
+    "ContactName": "Marquardt Group",
+    "ProjectId": 833,
+    "ProjectName": "Champlin-Howe",
+    "AssociateId": 40,
+    "Snum": 460,
+    "SaleId": 409,
+    "SaleName": "Crona, Johnston and Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 534
       }
     }
   }

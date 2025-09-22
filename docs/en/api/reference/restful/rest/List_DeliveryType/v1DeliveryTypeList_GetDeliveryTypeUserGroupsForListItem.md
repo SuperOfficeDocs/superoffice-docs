@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Sanford, Rosenbaum and Schultz",
-    "ToolTip": "Fuga praesentium.",
+    "Id": 276,
+    "Name": "Bosco-Donnelly",
+    "ToolTip": "Explicabo eius.",
     "Deleted": true,
-    "Rank": 558,
-    "Type": "doloribus",
-    "ColorBlock": 103,
-    "IconHint": "odit",
+    "Rank": 661,
+    "Type": "et",
+    "ColorBlock": 179,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2007-12-02T03:47:00.6442984+01:00",
+    "LastChanged": "2021-03-28T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Frami LLC",
-        "ToolTip": "Molestias modi adipisci dolor.",
+        "Id": 531,
+        "Name": "Farrell Group",
+        "ToolTip": "Cum magnam necessitatibus illum ut et quibusdam.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "aut",
-        "ColorBlock": 821,
-        "IconHint": "accusamus",
-        "Selected": false,
-        "LastChanged": "2015-10-05T03:47:00.6442984+02:00",
+        "Rank": 882,
+        "Type": "qui",
+        "ColorBlock": 871,
+        "IconHint": "minus",
+        "Selected": true,
+        "LastChanged": "2010-06-30T11:24:53.9217949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Ms. Athena Rath",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "molestias",
+        "Hidden": true,
+        "FullName": "Dr. Kristy Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Dr. Dominique Goodwin V",
+    "ExtraInfo": "est",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Miss Amy Schroeder DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 428
       }
     }
   }

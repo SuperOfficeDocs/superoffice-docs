@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 32,
-  "Name": "Lubowitz-Wunsch",
-  "Tooltip": "soluta",
+  "HeadingId": 529,
+  "Name": "Berge Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 362,
-  "UdListDefinitionId": 218
+  "Rank": 636,
+  "UdListDefinitionId": 857
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 527,
-  "Name": "Schimmel, Stanton and Erdman",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 195,
-  "UdListDefinitionId": 833,
+  "HeadingId": 778,
+  "Name": "Lockman LLC",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 339,
+  "UdListDefinitionId": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 944
     }
   }
 }

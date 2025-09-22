@@ -87,15 +87,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 182,
-  "PrefDescId": 337,
-  "PrefValue": "enim",
-  "PrefShowValue": "culpa",
-  "Description": "Multi-layered solution-oriented frame",
+  "PrefDescLineId": 334,
+  "PrefDescId": 98,
+  "PrefValue": "minus",
+  "PrefShowValue": "aut",
+  "Description": "Enterprise-wide solution-oriented artificial intelligence",
   "IsBuiltin": false
 }
 ```
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 365,
-  "PrefDescId": 805,
-  "PrefValue": "nihil",
-  "PrefShowValue": "assumenda",
-  "Description": "Streamlined neutral firmware",
+  "PrefDescLineId": 534,
+  "PrefDescId": 90,
+  "PrefValue": "ut",
+  "PrefShowValue": "alias",
+  "Description": "Digitized heuristic Graphic Interface",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 800
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

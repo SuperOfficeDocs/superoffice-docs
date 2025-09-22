@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 737
+  "DocumentTemplateId": 357
 }
 ```
 
@@ -93,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Value": "non",
-  "Tooltip": "alias",
+  "Id": 185,
+  "Value": "voluptatem",
+  "Tooltip": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   }
 }

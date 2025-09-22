@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 354
+  "RoleId": 810
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Bogan Group",
-    "ToolTip": "Possimus cum illo in quia delectus rerum iure.",
+    "Id": 173,
+    "Name": "Goodwin-Kulas",
+    "ToolTip": "Accusantium aspernatur voluptas non magni provident eum.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "perferendis",
-    "ColorBlock": 234,
-    "IconHint": "rerum",
+    "Rank": 522,
+    "Type": "optio",
+    "ColorBlock": 385,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2017-03-26T03:46:55.581978+02:00",
+    "LastChanged": "2022-04-09T11:24:48.9063744+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Corkery, Hettinger and Satterfield",
-        "ToolTip": "Nostrum ex saepe expedita aliquid.",
+        "Id": 62,
+        "Name": "Pfeffer, Windler and Armstrong",
+        "ToolTip": "Ea velit asperiores ipsum qui dolores et.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "maxime",
-        "ColorBlock": 3,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2006-09-22T03:46:55.581978+02:00",
+        "Rank": 123,
+        "Type": "officia",
+        "ColorBlock": 720,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2017-08-12T11:24:48.9063744+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "itaque",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Prof. Audie Morissette",
+        "FullName": "Mr. Bette Nedra Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "id",
+    "ExtraInfo": "natus",
+    "StyleHint": "nesciunt",
     "Hidden": false,
-    "FullName": "Abagail Murphy",
+    "FullName": "Mark Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 450
       }
     }
   }

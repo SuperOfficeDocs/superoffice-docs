@@ -118,7 +118,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 | Table|  Description |
 |------|-------------|
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[dbi\_agent](dbi-agent.md)  |DBI agent settings |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
@@ -128,7 +128,7 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[outbox](outbox.md)  |Outgoing emails with sending status and other info |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[project](project.md)  |Projects |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |

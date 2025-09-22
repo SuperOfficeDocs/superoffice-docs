@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=rem
-GET /api/v1/Project?$top=534
-GET /api/v1/Project?$skip=855
+GET /api/v1/Project?$entities=saepe
+GET /api/v1/Project?$top=387
+GET /api/v1/Project?$skip=251
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=dignissimos
+GET /api/v1/Project?$context=sint
 GET /api/v1/Project?$format=JSON
-GET /api/v1/Project?$jsonSafe=True
+GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
 ```
 
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "reiciendis",
   "value": [
     {
-      "PrimaryKey": 9132,
-      "EntityName": "sale",
-      "saleId": 9132,
-      "contactId": 6906,
-      "name": "Greenfelder-Feest"
+      "PrimaryKey": 6768,
+      "EntityName": "person",
+      "personId": 6768,
+      "fullName": "Reva Pagac"
     },
     {
-      "PrimaryKey": 4049,
-      "EntityName": "sale",
-      "saleId": 4049,
-      "contactId": 4658,
-      "name": "Kutch Inc and Sons"
+      "PrimaryKey": 8180,
+      "EntityName": "person",
+      "personId": 8180,
+      "fullName": "Mr. Maxie Jalen Ernser"
     }
   ]
 }

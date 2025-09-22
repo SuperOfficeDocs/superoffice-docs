@@ -763,7 +763,7 @@ Sale selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/extraField1,alternative/version/quote/sale/person/personAddress/line3,alternative/version/quote/sale/contact/postAddress/addressId,alternative/version/quote/sale/contact/contactAssociate/usergroup,alternative/version/quote/sale/contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/QuoteLineDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/registeredBy,alternative/version/quote/sale/person/whenUpdatedByWorkflow,alternative/version/quote/sale/person/personDirectPhone/description,alternative/version/quote/sale/person/personAssociate/ejDisplayName,alternative/version/quote/sale/contact/contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

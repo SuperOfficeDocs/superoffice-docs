@@ -67,46 +67,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 487,
-      "ColumnId": 194,
-      "FieldDefault": "ut",
-      "FieldHeight": 5,
-      "FieldLabel": "quia",
-      "FieldLeft": 411,
-      "FieldTop": 849,
+      "UDefFieldId": 544,
+      "ColumnId": 966,
+      "FieldDefault": "quae",
+      "FieldHeight": 211,
+      "FieldLabel": "cumque",
+      "FieldLeft": 466,
+      "FieldTop": 516,
       "FieldType": "Checkbox",
-      "FieldWidth": 127,
-      "FormatMask": "quaerat",
-      "HideLabel": false,
+      "FieldWidth": 992,
+      "FormatMask": "illum",
+      "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 751,
-      "LabelLeft": 428,
-      "LabelTop": 154,
-      "LabelWidth": 229,
-      "LastVersionId": 927,
-      "ListTableId": 486,
+      "LabelHeight": 693,
+      "LabelLeft": 11,
+      "LabelTop": 783,
+      "LabelWidth": 848,
+      "LastVersionId": 746,
+      "ListTableId": 525,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 522,
-      "ProgId": "quidem",
+      "Page1LineNo": 857,
+      "ProgId": "nihil",
       "IsReadOnly": false,
-      "ShortLabel": "aut",
-      "TabOrder": 364,
-      "TextLength": 551,
-      "Tooltip": "ut",
-      "UdefIdentity": 62,
-      "UDListDefinitionId": 468,
+      "ShortLabel": "consectetur",
+      "TabOrder": 982,
+      "TextLength": 592,
+      "Tooltip": "voluptatem",
+      "UdefIdentity": 1000,
+      "UDListDefinitionId": 235,
       "Justification": "Center",
-      "Version": 326,
-      "TemplateVariableName": "Paucek, Gleason and Swift",
+      "Version": 149,
+      "TemplateVariableName": "Hilll Group",
       "HasBeenPublished": false,
-      "MdoListName": "Gusikowski, Keebler and Kautzer"
+      "MdoListName": "Block-Stoltenberg"
     }
   ]
 }

@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=quod
-GET /api/v1/ForeignApp?$top=911
-GET /api/v1/ForeignApp?$skip=216
+GET /api/v1/ForeignApp?$entities=in
+GET /api/v1/ForeignApp?$top=789
+GET /api/v1/ForeignApp?$skip=184
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=qui
+GET /api/v1/ForeignApp?$context=expedita
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vel",
+  "odata.nextLink": "adipisci",
   "value": [
     {
-      "PrimaryKey": 320,
-      "EntityName": "sale",
-      "saleId": 320,
-      "contactId": 7033,
-      "name": "Cormier LLC"
+      "PrimaryKey": 6186,
+      "EntityName": "person",
+      "personId": 6186,
+      "fullName": "Sonny Miller"
     },
     {
-      "PrimaryKey": 8815,
-      "EntityName": "sale",
-      "saleId": 8815,
-      "contactId": 4591,
-      "name": "Kling, Kris and Rau"
+      "PrimaryKey": 37,
+      "EntityName": "person",
+      "personId": 37,
+      "fullName": "Mrs. Maxie Welch"
     }
   ]
 }

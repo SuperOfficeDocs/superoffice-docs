@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bahringer, Fay and Homenick",
-  "Delimiter": "perferendis",
-  "Flags": "velit",
-  "TotalItems": 377,
-  "UnreadItems": 597,
-  "Subscribed": false,
-  "EmailFolderId": 530,
+  "Name": "Hoppe-Bogan",
+  "Delimiter": "quod",
+  "Flags": "consequatur",
+  "TotalItems": 451,
+  "UnreadItems": 652,
+  "Subscribed": true,
+  "EmailFolderId": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 795
     }
   }
 }

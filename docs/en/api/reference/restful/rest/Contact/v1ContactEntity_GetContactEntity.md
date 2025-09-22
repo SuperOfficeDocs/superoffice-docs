@@ -34,7 +34,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=False
+GET /api/v1/Contact/{id}?fk=True
 ```
 
 
@@ -107,7 +107,7 @@ ContactEntity found.
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -129,160 +129,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 Jun 2016 03:46:59 G6T
+Last-Modified: Thu, 22 Dec 2011 11:24:53 G12T
 
 {
-  "ContactId": 708,
-  "Name": "Prohaska Inc and Sons",
+  "ContactId": 331,
+  "Name": "Medhurst, Weimann and Lesch",
   "Department": "",
-  "OrgNr": "862545",
-  "Number1": "1042252",
-  "Number2": "948292",
-  "UpdatedDate": "2016-06-24T03:46:59.8474445+02:00",
-  "CreatedDate": "2001-04-14T03:46:59.8474445+02:00",
+  "OrgNr": "1439374",
+  "Number1": "1767510",
+  "Number2": "392891",
+  "UpdatedDate": "2011-12-22T11:24:53.1093279+01:00",
+  "CreatedDate": "2003-08-23T11:24:53.1093279+02:00",
   "Emails": [
     {
-      "Value": "quasi",
-      "StrippedValue": "vel",
-      "Description": "Compatible needs-based extranet",
+      "Value": "quia",
+      "StrippedValue": "sint",
+      "Description": "Mandatory tertiary knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 225
         }
       }
     },
     {
-      "Value": "quasi",
-      "StrippedValue": "vel",
-      "Description": "Compatible needs-based extranet",
+      "Value": "quia",
+      "StrippedValue": "sint",
+      "Description": "Mandatory tertiary knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldLength": 225
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 624,
-      "Name": "Herman Inc and Sons",
-      "ToolTip": "Maxime hic nulla nulla inventore.",
+      "Id": 575,
+      "Name": "Williamson, Bernier and Beahan",
+      "ToolTip": "Quasi velit ratione quia.",
       "Deleted": false,
-      "Rank": 740,
-      "Type": "quidem",
-      "ColorBlock": 615,
-      "IconHint": "expedita",
+      "Rank": 262,
+      "Type": "omnis",
+      "ColorBlock": 311,
+      "IconHint": "corporis",
       "Selected": false,
-      "LastChanged": "2010-11-06T03:46:59.8474445+01:00",
+      "LastChanged": "2023-01-30T11:24:53.1093279+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "hic",
-      "StyleHint": "sit",
-      "Hidden": false,
-      "FullName": "Hortense Langworth PhD",
+      "ExtraInfo": "id",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Ahmed Maggie Jewess DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 203
+          "FieldLength": 29
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "optio",
-      "StrippedValue": "id",
-      "Description": "Distributed grid-enabled intranet",
+      "Value": "beatae",
+      "StrippedValue": "ut",
+      "Description": "Fundamental discrete open system",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 469
         }
       }
     },
     {
-      "Value": "optio",
-      "StrippedValue": "id",
-      "Description": "Distributed grid-enabled intranet",
+      "Value": "beatae",
+      "StrippedValue": "ut",
+      "Description": "Fundamental discrete open system",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 469
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "qui",
-      "StrippedValue": "sequi",
-      "Description": "Inverse systematic circuit",
+      "Value": "molestiae",
+      "StrippedValue": "in",
+      "Description": "Phased intermediate secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 206
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "sequi",
-      "Description": "Inverse systematic circuit",
+      "Value": "molestiae",
+      "StrippedValue": "in",
+      "Description": "Phased intermediate secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 206
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "vel",
-      "StrippedValue": "libero",
-      "Description": "Advanced bottom-line core",
+      "Value": "sed",
+      "StrippedValue": "voluptas",
+      "Description": "Customizable system-worthy internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 812
         }
       }
     },
     {
-      "Value": "vel",
-      "StrippedValue": "libero",
-      "Description": "Advanced bottom-line core",
+      "Value": "sed",
+      "StrippedValue": "voluptas",
+      "Description": "Customizable system-worthy internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 812
         }
       }
     }
   ],
-  "Description": "Universal mission-critical middleware",
+  "Description": "Intuitive motivating task-force",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -291,102 +291,102 @@ Last-Modified: Fri, 24 Jun 2016 03:46:59 G6T
   "Country": null,
   "Persons": [
     {
-      "Position": "exercitationem",
-      "PersonId": 703,
-      "Mrmrs": "facilis",
-      "Firstname": "Raven",
-      "Lastname": "Bartoletti",
-      "MiddleName": "Ratke, Gutmann and Walsh",
-      "Title": "sed",
-      "Description": "Cross-group explicit middleware",
-      "Email": "fidel@greenholt.ca",
-      "FullName": "Jefferey Yundt",
-      "DirectPhone": "(151)353-9723 x527",
-      "FormalName": "O'Conner-Wolff",
-      "CountryId": 320,
-      "ContactId": 186,
-      "ContactName": "Stanton-Kuhic",
-      "Retired": 499,
-      "Rank": 695,
-      "ActiveInterests": 33,
+      "Position": "sit",
+      "PersonId": 688,
+      "Mrmrs": "quidem",
+      "Firstname": "Nelda",
+      "Lastname": "McGlynn",
+      "MiddleName": "Hermann-Hettinger",
+      "Title": "vitae",
+      "Description": "Function-based methodical hardware",
+      "Email": "wilber.gorczany@walshgerhold.us",
+      "FullName": "Shawn Garfield Padberg DVM",
+      "DirectPhone": "(190)116-4870",
+      "FormalName": "Powlowski LLC",
+      "CountryId": 544,
+      "ContactId": 374,
+      "ContactName": "Ziemann, Schamberger and Swaniawski",
+      "Retired": 762,
+      "Rank": 548,
+      "ActiveInterests": 470,
       "ContactDepartment": "",
-      "ContactCountryId": 815,
-      "ContactOrgNr": "820114",
-      "FaxPhone": "661.331.8947 x71128",
-      "MobilePhone": "013.438.9376 x52456",
-      "ContactPhone": "(456)982-0001",
-      "AssociateName": "VonRueden Group",
-      "AssociateId": 333,
-      "UsePersonAddress": false,
-      "ContactFax": "officia",
-      "Kanafname": "molestiae",
-      "Kanalname": "molestiae",
-      "Post1": "omnis",
-      "Post2": "alias",
-      "Post3": "vitae",
-      "EmailName": "jamie@manngibson.info",
-      "ContactFullName": "Freeda Wolff",
-      "ActiveErpLinks": 973,
-      "TicketPriorityId": 365,
-      "SupportLanguageId": 667,
-      "SupportAssociateId": 547,
+      "ContactCountryId": 838,
+      "ContactOrgNr": "1160006",
+      "FaxPhone": "701.294.7223 x51752",
+      "MobilePhone": "(191)518-6971",
+      "ContactPhone": "1-658-832-1055",
+      "AssociateName": "Olson, Stoltenberg and Anderson",
+      "AssociateId": 571,
+      "UsePersonAddress": true,
+      "ContactFax": "quos",
+      "Kanafname": "eligendi",
+      "Kanalname": "similique",
+      "Post1": "ut",
+      "Post2": "sint",
+      "Post3": "non",
+      "EmailName": "nasir.emard@hane.uk",
+      "ContactFullName": "Prof. Alexandra Kassulke",
+      "ActiveErpLinks": 961,
+      "TicketPriorityId": 420,
+      "SupportLanguageId": 168,
+      "SupportAssociateId": 873,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "822384",
+      "PersonNumber": "827800",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 104
+          "FieldLength": 996
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "distinctio",
-  "Xstop": false,
-  "ActiveInterests": 624,
-  "GroupId": 737,
-  "ActiveStatusMonitorId": 402,
+  "NoMailing": false,
+  "Kananame": "voluptatem",
+  "Xstop": true,
+  "ActiveInterests": 512,
+  "GroupId": 211,
+  "ActiveStatusMonitorId": 790,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 848,
-  "DbiAgentId": 507,
-  "DbiLastSyncronized": "2011-09-09T03:46:59.8474445+02:00",
-  "DbiKey": "est",
-  "DbiLastModified": "2017-07-22T03:46:59.8474445+02:00",
+  "Deleted": 703,
+  "DbiAgentId": 317,
+  "DbiLastSyncronized": "1999-09-16T11:24:53.1093279+02:00",
+  "DbiKey": "non",
+  "DbiLastModified": "2005-03-31T11:24:53.1093279+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 347,
-  "ActiveErpLinks": 146,
+  "Source": 818,
+  "ActiveErpLinks": 173,
   "BounceEmails": [
-    "ruben@yost.name",
-    "emile@gusikowski.us"
+    "asa.labadie@schulist.ca",
+    "noel@jastdooley.com"
   ],
   "Domains": [
-    "ipsam",
-    "ut"
+    "mollitia",
+    "dignissimos"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Charley Howell Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1425378120"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "sint"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 370
     }
   },
   "_Links": {

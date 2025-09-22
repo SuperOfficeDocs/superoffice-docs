@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 172,
-  "Name": "Hoeger-Schultz",
-  "Tooltip": "perferendis",
+  "Id": 806,
+  "Name": "Turner, Pouros and Stamm",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 757,
+  "Rank": 635,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "neque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 179
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

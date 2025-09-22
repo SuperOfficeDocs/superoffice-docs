@@ -102,16 +102,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    851,
-    559
+    491,
+    294
   ],
-  "StartTime": "2016-08-05T03:46:54.0195335+02:00",
-  "EndTime": "1998-09-30T03:46:54.0195335+02:00"
+  "StartTime": "2007-09-10T11:24:47.3283137+02:00",
+  "EndTime": "2020-11-10T11:24:47.3283137+01:00"
 }
 ```
 
@@ -123,39 +123,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 55,
-    "AssociateId": 628,
-    "MotherId": 718,
-    "StartDate": "2019-07-30T03:46:54.0195335+02:00",
-    "EndDate": "2007-01-19T03:46:54.0195335+01:00",
+    "AppointmentId": 349,
+    "AssociateId": 912,
+    "MotherId": 163,
+    "StartDate": "2001-04-11T11:24:47.3283137+02:00",
+    "EndDate": "2019-08-16T11:24:47.3283137+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Ziemann, Corwin and Eichmann",
-    "ContactName": "Moen, Rosenbaum and Zboncak",
-    "ProjectName": "Koss-Little",
-    "Title": "cupiditate",
-    "Agenda": "praesentium",
+    "TaskName": "Feest, O'Connell and O'Kon",
+    "ContactName": "Wunsch-Kutch",
+    "ProjectName": "Marquardt, Quitzon and Baumbach",
+    "Title": "id",
+    "Agenda": "non",
     "IsAllDay": false,
     "IsBusy": true,
     "IsRecurring": true,
-    "IsVideoMeeting": true,
+    "IsVideoMeeting": false,
     "HasAlarm": true,
     "IsCompleted": false,
-    "IsTentative": false,
+    "IsTentative": true,
     "IsBookingMain": false,
-    "SendEmail": false,
+    "SendEmail": true,
     "AnySendEmail": false,
     "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Lockman-Koepp",
-    "IsBooking": false,
+    "PersonName": "Rolfson LLC",
+    "IsBooking": true,
     "OwnedExternally": "Google",
-    "MotherAssociateId": 191,
+    "MotherAssociateId": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 865
       }
     }
   }

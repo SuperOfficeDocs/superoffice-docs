@@ -93,18 +93,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 524,
-  "LeadDescription": "Team-oriented demand-driven policy",
-  "Relation": "sit",
-  "RelationId": 61,
-  "LeadContact": "et",
-  "LeadPersonFirstname": "Reese",
-  "LeadPersonLastname": "Schmitt",
-  "LeadPersonEmail": "jayden.rowe@emmerich.uk",
-  "LeadPhoneNumber": "568461",
-  "CreatorsContact": "non",
-  "CreatorsFirstname": "Ahmed",
-  "CreatorsLastname": "Kautzer"
+  "AssociateIdForNewContact": 818,
+  "LeadDescription": "Realigned zero defect structure",
+  "Relation": "aut",
+  "RelationId": 938,
+  "LeadContact": "ea",
+  "LeadPersonFirstname": "Berenice",
+  "LeadPersonLastname": "Johnson",
+  "LeadPersonEmail": "dagmar.mckenzie@pouros.name",
+  "LeadPhoneNumber": "1388830",
+  "CreatorsContact": "provident",
+  "CreatorsFirstname": "Rickey",
+  "CreatorsLastname": "Langosh"
 }
 ```
 
@@ -117,36 +117,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 366,
-      "Name": "Herzog Inc and Sons",
-      "OrgNr": "1169258",
+      "ContactId": 300,
+      "Name": "Prosacco, Hartmann and Muller",
+      "OrgNr": "1253235",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "ullam",
-      "DirectPhone": "(079)275-9150 x12904",
-      "AssociateId": 317,
-      "CountryId": 890,
-      "EmailAddress": "salvatore.mante@kuhic.co.uk",
-      "Kananame": "dicta",
-      "EmailAddressName": "wilford_ward@kulas.info",
+      "City": "qui",
+      "DirectPhone": "(060)608-8833",
+      "AssociateId": 855,
+      "CountryId": 518,
+      "EmailAddress": "margaretta_kuvalis@gerholdvolkman.co.uk",
+      "Kananame": "natus",
+      "EmailAddressName": "martin@ohara.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Daniela Becker",
+      "AssociateFullName": "Dell Smith V",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "reiciendis",
-      "FullName": "Euna Conroy",
+      "FormattedAddress": "sit",
+      "FullName": "Darian Berge",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 854,
-      "Number1": "814642",
-      "Number2": "1241474",
+      "ActiveErpLinks": 1000,
+      "Number1": "822644",
+      "Number2": "296688",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     }
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 249
     }
   }
 }

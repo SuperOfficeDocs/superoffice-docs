@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Hirthe-Hamill",
+  "Id": 611,
+  "Name": "Simonis, Heathcote and Fay",
   "Tooltip": "eum",
-  "Deleted": true,
-  "UdListDefinitionId": 583,
-  "Rank": 201,
+  "Deleted": false,
+  "UdListDefinitionId": 117,
+  "Rank": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 113
     }
   }
 }

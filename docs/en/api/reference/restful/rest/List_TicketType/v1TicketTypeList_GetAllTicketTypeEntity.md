@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,40 +87,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 625,
-    "Name": "Harvey-Stehr",
-    "Rank": 164,
-    "Tooltip": "rerum",
-    "Icon": "dolorum",
-    "DefaultTicketStatus": 519,
+    "TicketTypeId": 614,
+    "Name": "DuBuque, Sauer and Eichmann",
+    "Rank": 870,
+    "Tooltip": "qui",
+    "Icon": "et",
+    "DefaultTicketStatus": 726,
     "TicketStatuses": [
-      485,
-      153
+      570,
+      469
     ],
-    "DefaultTicketPriority": 197,
+    "DefaultTicketPriority": 553,
     "TicketPriorities": [
-      62,
-      581
+      21,
+      543
     ],
-    "ReplyTemplate": 117,
+    "ReplyTemplate": 218,
     "IsExternalVisible": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "ShowInNew": true,
-    "ExcludeSignature": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      888,
-      171
+      445,
+      397
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

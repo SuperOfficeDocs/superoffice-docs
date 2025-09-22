@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 796,
-    "Name": "Huel Group",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "Rank": 950,
-    "UdListDefinitionId": 249,
+    "HeadingId": 264,
+    "Name": "Spencer, Rowe and Medhurst",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 980,
+    "UdListDefinitionId": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 855
       }
     }
   }

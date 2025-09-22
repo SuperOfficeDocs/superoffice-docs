@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Brekke-Hansen",
-    "ToolTip": "Ut et quo.",
-    "Deleted": false,
-    "Rank": 748,
-    "Type": "iure",
-    "ColorBlock": 665,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2002-05-31T03:47:00.6599229+02:00",
+    "Id": 20,
+    "Name": "Rohan LLC",
+    "ToolTip": "Suscipit omnis nihil.",
+    "Deleted": true,
+    "Rank": 824,
+    "Type": "voluptate",
+    "ColorBlock": 252,
+    "IconHint": "suscipit",
+    "Selected": true,
+    "LastChanged": "2014-11-26T11:24:53.9374193+01:00",
     "ChildItems": [
       {
-        "Id": 840,
-        "Name": "Stark, Koch and Hahn",
-        "ToolTip": "Ducimus quia dolor ut voluptatem.",
+        "Id": 217,
+        "Name": "Schultz, McDermott and Harvey",
+        "ToolTip": "Est quasi.",
         "Deleted": false,
-        "Rank": 584,
-        "Type": "porro",
-        "ColorBlock": 722,
-        "IconHint": "nihil",
+        "Rank": 896,
+        "Type": "est",
+        "ColorBlock": 854,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2008-08-25T03:47:00.6599229+02:00",
+        "LastChanged": "2022-07-20T11:24:53.9374193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "quo",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Katrine Grant"
+        "FullName": "Hailee Deondre Wiza Sr."
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "maiores",
-    "Hidden": false,
-    "FullName": "Ruby Baumbach I"
+    "ExtraInfo": "debitis",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Rodger Balistreri MD"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Jakubowski-Stroman",
-    "ToolTip": "Eos numquam sunt consequatur.",
+    "Id": 175,
+    "Name": "Stamm, Bogisich and Mitchell",
+    "ToolTip": "Et natus sit.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "perferendis",
-    "ColorBlock": 464,
-    "IconHint": "consequatur",
+    "Rank": 571,
+    "Type": "ad",
+    "ColorBlock": 422,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2000-12-23T03:47:00.6599229+01:00",
+    "LastChanged": "2023-11-07T11:24:53.9374193+01:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Zemlak Inc and Sons",
-        "ToolTip": "Reiciendis consequatur est enim ut.",
-        "Deleted": false,
-        "Rank": 221,
-        "Type": "ratione",
-        "ColorBlock": 102,
-        "IconHint": "et",
+        "Id": 841,
+        "Name": "Beer Group",
+        "ToolTip": "Quae sequi at aliquid ad vel velit ducimus.",
+        "Deleted": true,
+        "Rank": 382,
+        "Type": "ipsam",
+        "ColorBlock": 483,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2000-03-08T03:47:00.6599229+01:00",
+        "LastChanged": "2013-02-16T11:24:53.9374193+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "optio",
+        "ExtraInfo": "totam",
+        "StyleHint": "unde",
         "Hidden": true,
-        "FullName": "Ms. Garfield Amya Gleason II",
+        "FullName": "Dr. Tracy Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 969
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "eaque",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Fern Goldner",
+    "FullName": "Dr. Gia Marianne Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 103
+        "FieldLength": 9
       }
     }
   }

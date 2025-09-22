@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 976
+  "LanguageId": 719
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 343,
-    "ResourceId": 685,
-    "Text": "iure",
+    "LanguageId": 369,
+    "ResourceId": 9,
+    "Text": "a",
     "Type": "Column",
-    "LocalizedTextId": 374,
+    "LocalizedTextId": 390,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 607
       }
     }
   }

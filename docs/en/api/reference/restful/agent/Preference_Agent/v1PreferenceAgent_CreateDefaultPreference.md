@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "nihil",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "iste",
+  "DisplayValue": "nobis",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 415,
-  "PrefDescId": 339,
-  "TableName": "Denesik-VonRueden",
-  "UserPreferenceId": 735,
+  "TargetId": 586,
+  "PrefDescId": 162,
+  "TableName": "Hauck, Mayert and Bosco",
+  "UserPreferenceId": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 469
     }
   }
 }

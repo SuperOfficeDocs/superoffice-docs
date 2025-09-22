@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,91 +80,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2024-11-23T03:46:54.2851489+01:00",
-  "ToDate": "2022-10-20T03:46:54.2851489+02:00",
+  "FromDate": "2005-07-12T11:24:47.5939281+02:00",
+  "ToDate": "2002-04-26T11:24:47.5939281+02:00",
   "AssociateList": [
     {
-      "Id": 410,
-      "Name": "Donnelly-O'Hara",
-      "ToolTip": "Quia ut nesciunt quo voluptatem aut.",
+      "Id": 145,
+      "Name": "Wisoky, Ankunding and Schinner",
+      "ToolTip": "Nulla asperiores maxime.",
       "Deleted": true,
-      "Rank": 717,
-      "Type": "ullam",
-      "ColorBlock": 422,
-      "IconHint": "cupiditate",
+      "Rank": 665,
+      "Type": "odit",
+      "ColorBlock": 238,
+      "IconHint": "quia",
       "Selected": true,
-      "LastChanged": "2015-04-18T03:46:54.2851489+02:00",
+      "LastChanged": "2020-11-25T11:24:47.5939281+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "animi",
-      "Hidden": true,
-      "FullName": "Emerald Aufderhar",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Geovanni Litzy Kertzmann III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldLength": 276
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 164,
-      "Name": "Stehr Group",
-      "ToolTip": "Explicabo vel laboriosam et dolores.",
-      "Deleted": true,
-      "Rank": 133,
-      "Type": "et",
-      "ColorBlock": 68,
-      "IconHint": "odio",
-      "Selected": true,
-      "LastChanged": "2009-05-23T03:46:54.2851489+02:00",
+      "Id": 67,
+      "Name": "Leannon Inc and Sons",
+      "ToolTip": "Optio officia aut laboriosam.",
+      "Deleted": false,
+      "Rank": 72,
+      "Type": "accusantium",
+      "ColorBlock": 144,
+      "IconHint": "iure",
+      "Selected": false,
+      "LastChanged": "2002-03-23T11:24:47.5939281+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maxime",
-      "StyleHint": "rem",
-      "Hidden": false,
-      "FullName": "Dr. Price Padberg I",
+      "ExtraInfo": "est",
+      "StyleHint": "quo",
+      "Hidden": true,
+      "FullName": "Estevan Walter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 927
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 705,
-      "Name": "Harber-Trantow",
-      "ToolTip": "Sed dolorem laboriosam et repellat et.",
+      "Id": 922,
+      "Name": "Block-Bogisich",
+      "ToolTip": "Sed eum velit sint aut id dolore.",
       "Deleted": false,
-      "Rank": 562,
-      "Type": "qui",
+      "Rank": 626,
+      "Type": "rem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 284,
-      "ExtraInfo": "qui",
-      "StyleHint": "consequatur",
-      "FullName": "Michelle Sawayn",
+      "IconHint": "sed",
+      "ColorBlock": 262,
+      "ExtraInfo": "corrupti",
+      "StyleHint": "nostrum",
+      "FullName": "Jacklyn Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldType": "System.Int32",
+          "FieldLength": 470
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldLength": 396
     }
   }
 }

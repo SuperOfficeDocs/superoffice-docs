@@ -30,7 +30,7 @@ Get length of the document content in bytes.
 | versionId | string |  Version ID if applicable; a blank value implies "latest" version and is always acceptable. |
 
 ```http
-GET /api/v1/Document/{documentId}/Length?versionId=voluptatibus
+GET /api/v1/Document/{documentId}/Length?versionId=neque
 ```
 
 
@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Length
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

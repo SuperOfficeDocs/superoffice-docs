@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 979,
+  "AssociateId": 596,
   "Type": "AnonymousAssociate",
-  "PersonId": 376,
-  "UserName": "Armstrong-Lang"
+  "PersonId": 92,
+  "UserName": "Nader, Thiel and Hermiston"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Barton, Boehm and Moore"
+"Hettinger-Reynolds"
 ```

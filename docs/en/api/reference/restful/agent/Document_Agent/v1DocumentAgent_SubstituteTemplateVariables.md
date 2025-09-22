@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "placeat",
+  "Source": "et",
   "GeneratorEncoding": "Html",
-  "ContactId": 216,
-  "PersonId": 602,
-  "AppointmentId": 13,
-  "DocumentId": 620,
-  "SaleId": 849,
-  "SelectionId": 695,
-  "ProjectId": 968,
+  "ContactId": 75,
+  "PersonId": 707,
+  "AppointmentId": 582,
+  "DocumentId": 370,
+  "SaleId": 509,
+  "SelectionId": 197,
+  "ProjectId": 761,
   "CultureName": "sv"
 }
 ```
@@ -101,5 +101,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"maiores"
+"ut"
 ```

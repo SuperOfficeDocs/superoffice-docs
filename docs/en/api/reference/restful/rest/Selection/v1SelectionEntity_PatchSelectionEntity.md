@@ -149,18 +149,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "ab",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "ab",
     "value": {}
   }
 ]
@@ -173,70 +173,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable human-resource help-desk",
-  "Postit": "est",
+  "Description": "Sharable homogeneous standardization",
+  "Postit": "libero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 226,
-  "IncludePerson": 661,
+  "GroupIdx": 434,
+  "IncludePerson": 219,
   "MemberCount": 99.99,
-  "Name": "Conroy-Quitzon",
-  "PostitTextId": 241,
-  "CreatedDate": "2012-09-27T03:47:00.3005605+02:00",
-  "SelectionId": 452,
-  "SoundEx": "cupiditate",
-  "Source": 142,
-  "TextId": 130,
-  "UpdatedDate": "2005-02-07T03:47:00.3005605+01:00",
-  "UpdatedCount": 267,
-  "Visibility": 111,
+  "Name": "Schmidt LLC",
+  "PostitTextId": 997,
+  "CreatedDate": "2010-08-02T11:24:53.5780588+02:00",
+  "SelectionId": 521,
+  "SoundEx": "et",
+  "Source": 923,
+  "TextId": 769,
+  "UpdatedDate": "2015-07-02T11:24:53.5780588+02:00",
+  "UpdatedCount": 189,
+  "Visibility": 369,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 889,
-  "TargetTableName": "Dicki, Labadie and Rogahn",
+  "TargetTableNumber": 625,
+  "TargetTableName": "Hermann Group",
   "Completed": false,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 832,
+  "LeftSelectionId": 179,
+  "RightSelectionId": 178,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Fadel-Rempel",
-  "ShadowProviderName": "Gislason Group",
-  "ChartKey": "quia",
-  "LastLoaded": "2018-05-10T03:47:00.3005605+02:00",
-  "LastLoadedBy": 291,
+  "MainProviderName": "Auer-Heaney",
+  "ShadowProviderName": "Wolf-Hills",
+  "ChartKey": "optio",
+  "LastLoaded": "2021-02-17T11:24:53.5780588+01:00",
+  "LastLoadedBy": 343,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-10-16T03:47:00.3005605+02:00",
-  "LastMembershipChangeBy": 830,
+  "LastMembershipChange": "2001-05-14T11:24:53.5780588+02:00",
+  "LastMembershipChangeBy": 19,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ex",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Bergnaum-Aufderhar",
-  "DashboardTileDefinitionId": 132,
+  "MainHeading": "sed",
+  "MemberTabHeading": "cumque",
+  "MailingsProviderName": "Collins Group",
+  "DashboardTileDefinitionId": 834,
   "VisibleFor": [
     {
-      "VisibleId": 770,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 82
         }
       }
     },
     {
-      "VisibleId": 770,
+      "VisibleId": 765,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 82
         }
       }
     }
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 877
     }
   },
   "_Links": {

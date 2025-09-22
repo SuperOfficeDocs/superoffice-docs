@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Simonis, Cole and Cole",
-  "HeadingId": 624
+  "UdListDefinitionName": "Rolfson LLC",
+  "HeadingId": 788
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Senger, Nicolas and Roob",
-    "ToolTip": "Itaque doloribus ducimus id.",
+    "Id": 407,
+    "Name": "Stoltenberg-Williamson",
+    "ToolTip": "Ea voluptatem sit unde accusantium.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "soluta",
-    "ColorBlock": 71,
-    "IconHint": "quas",
+    "Rank": 639,
+    "Type": "et",
+    "ColorBlock": 829,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2014-12-29T03:46:54.9569999+01:00",
+    "LastChanged": "2003-07-27T11:24:48.2189024+02:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Veniam perspiciatis asperiores.",
-        "Deleted": false,
-        "Rank": 403,
-        "Type": "ea",
-        "ColorBlock": 919,
-        "IconHint": "ex",
+        "Id": 974,
+        "Name": "Kassulke, Renner and Ebert",
+        "ToolTip": "Cupiditate amet laudantium nihil sequi quia.",
+        "Deleted": true,
+        "Rank": 648,
+        "Type": "qui",
+        "ColorBlock": 353,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2020-07-01T03:46:54.9569999+02:00",
+        "LastChanged": "2013-09-08T11:24:48.2189024+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iste",
+        "ExtraInfo": "qui",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Alexandra Schroeder",
+        "FullName": "Opal Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Jeanie Betsy Bayer Jr.",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "mollitia",
+    "Hidden": true,
+    "FullName": "Prof. Arnaldo Everett Goldner DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 147
       }
     }
   }

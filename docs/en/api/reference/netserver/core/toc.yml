@@ -3939,6 +3939,8 @@ items:
     name: DBC.LanguageInfoCountryFields
   - uid: SuperOffice.CRM.Data.DBC.LanguageInfoFields
     name: DBC.LanguageInfoFields
+  - uid: SuperOffice.CRM.Data.DBC.LeadstatusFields
+    name: DBC.LeadstatusFields
   - uid: SuperOffice.CRM.Data.DBC.LegalBaseFields
     name: DBC.LegalBaseFields
   - uid: SuperOffice.CRM.Data.DBC.LegalHtmlTagsFields
@@ -4863,6 +4865,8 @@ items:
     name: LanguageInfoCountryTableInfo
   - uid: SuperOffice.CRM.Data.LanguageInfoTableInfo
     name: LanguageInfoTableInfo
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
   - uid: SuperOffice.CRM.Data.LegalBaseTableInfo
     name: LegalBaseTableInfo
   - uid: SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
@@ -6433,6 +6437,8 @@ items:
     name: KbEntryListProvider
   - uid: SuperOffice.CRM.Lists.LanguageProvider
     name: LanguageProvider
+  - uid: SuperOffice.CRM.Lists.LeadStatusListProvider
+    name: LeadStatusListProvider
   - uid: SuperOffice.CRM.Lists.LegalBaseListProvider
     name: LegalBaseListProvider
   - uid: SuperOffice.CRM.Lists.ListBase`2
@@ -10814,6 +10820,22 @@ items:
     name: LanguageInfoRows
   - uid: SuperOffice.CRM.Rows.LanguageInfoRows.CustomSearch
     name: LanguageInfoRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+    name: LeadstatusRecordData
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+    name: LeadstatusRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+    name: LeadstatusRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+    name: LeadstatusRow.IdxLeadstatusId
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+    name: LeadstatusRow.IdxName
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows
+    name: LeadstatusRows
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+    name: LeadstatusRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.LegalBaseRecordData
     name: LegalBaseRecordData
   - uid: SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions
@@ -11990,6 +12012,8 @@ items:
     name: PersonRows.IdxKanalname
   - uid: SuperOffice.CRM.Rows.PersonRows.IdxLastname
     name: PersonRows.IdxLastname
+  - uid: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+    name: PersonRows.IdxLeadstatusId
   - uid: SuperOffice.CRM.Rows.PersonRows.IdxMiddleName
     name: PersonRows.IdxMiddleName
   - uid: SuperOffice.CRM.Rows.PersonRows.IdxModifiedByWorkflowId
@@ -17376,6 +17400,8 @@ items:
     name: SentryQueryBinaryObjectableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryContactTableUpdater
     name: SentryQueryContactTableUpdater
+  - uid: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
+    name: SentryQueryCustomObjectTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
     name: SentryQueryDashBoardTableUpdater
   - uid: SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
@@ -17539,8 +17565,6 @@ items:
   items:
   - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
     name: ServiceFacade
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacadeRequestHeader
-    name: ServiceFacadeRequestHeader
 - uid: SuperOffice.CRM.Services.Util
   name: SuperOffice.CRM.Services.Util
   items:
@@ -19411,8 +19435,18 @@ items:
     name: ServiceCallsRepositoryResourceLoggerContext
   - uid: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
     name: SimplePeriodicGrafanaReporter
+  - uid: SuperOffice.Diagnostics.SoActivity
+    name: SoActivity
+  - uid: SuperOffice.Diagnostics.SoEnvironment
+    name: SoEnvironment
   - uid: SuperOffice.Diagnostics.SoLogger
     name: SoLogger
+  - uid: SuperOffice.Diagnostics.SoMetrics
+    name: SoMetrics
+  - uid: SuperOffice.Diagnostics.SoOperation
+    name: SoOperation
+  - uid: SuperOffice.Diagnostics.SoOperation.DisposableDummy
+    name: SoOperation.DisposableDummy
   - uid: SuperOffice.Diagnostics.SoTimeLogger
     name: SoTimeLogger
   - uid: SuperOffice.Diagnostics.SoTimeLoggerPlugin
@@ -19440,10 +19474,10 @@ items:
     name: ILoggerProviderPlugin
   - uid: SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
     name: ILoggerProviderPluginAttribute
-  - uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
-    name: ISoMetricsPlugin
-  - uid: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
-    name: SoMetricsPluginAttribute
+  - uid: SuperOffice.Diagnostics.Logging.ISoMetrics
+    name: ISoMetrics
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
 - uid: SuperOffice.ErpSync
   name: SuperOffice.ErpSync
   items:
@@ -20124,6 +20158,8 @@ items:
     name: ITextEncodingDetector
   - uid: SuperOffice.Util.ITrackEventDispatcher
     name: ITrackEventDispatcher
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
   - uid: SuperOffice.Util.ImageUtilities
     name: ImageUtilities
   - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
@@ -20166,8 +20202,6 @@ items:
     name: ObjectExtensions
   - uid: SuperOffice.Util.OnlineConfigWaiter
     name: OnlineConfigWaiter
-  - uid: SuperOffice.Util.OperationTracker
-    name: OperationTracker
   - uid: SuperOffice.Util.ParameterBuilder
     name: ParameterBuilder
   - uid: SuperOffice.Util.PreferenceLicenseRequired
@@ -20226,8 +20260,6 @@ items:
     name: TimeZoneUtility
   - uid: SuperOffice.Util.TrackEvent
     name: TrackEvent
-  - uid: SuperOffice.Util.TrackEventConfiguration
-    name: TrackEventConfiguration
   - uid: SuperOffice.Util.TrackEventDispatcher
     name: TrackEventDispatcher
   - uid: SuperOffice.Util.TrackEventSender
@@ -20246,6 +20278,8 @@ items:
     name: VideoMeetingHelper
   - uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
     name: VideoMeetingHelper.SoAppointment
+  - uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+    name: VideoMeetingHelper.UserConnectedState
   - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
     name: VideoMeetingHelper.VideoMeetingReservation
   - uid: SuperOffice.Util.VisitorPatternHelper`1

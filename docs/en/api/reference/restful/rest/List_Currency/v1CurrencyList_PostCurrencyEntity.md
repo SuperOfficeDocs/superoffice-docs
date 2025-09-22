@@ -78,17 +78,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 178,
-  "Name": "Lemke, Cormier and Champlin",
-  "Tooltip": "eum",
-  "Rank": 578,
-  "Rate": 18550.146,
-  "Units": 9809.42,
-  "Deleted": true
+  "CurrencyId": 151,
+  "Name": "Doyle Inc and Sons",
+  "Tooltip": "quod",
+  "Rank": 540,
+  "Rate": 9380.062,
+  "Units": 17635.018,
+  "Deleted": false
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 527,
-  "Name": "Mante Inc and Sons",
-  "Tooltip": "iusto",
-  "Rank": 995,
-  "Rate": 22329.75,
-  "Units": 22802.984,
-  "Deleted": true,
+  "CurrencyId": 726,
+  "Name": "Bednar-Heller",
+  "Tooltip": "ut",
+  "Rank": 202,
+  "Rate": 3691.852,
+  "Units": 22273.338,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

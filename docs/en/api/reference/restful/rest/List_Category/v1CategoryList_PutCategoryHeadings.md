@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 212,
+    "Name": "Nienow, Wisozk and Gibson",
+    "Tooltip": "corrupti",
+    "Deleted": false,
+    "Rank": 558,
+    "UdListDefinitionId": 205
   },
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 212,
+    "Name": "Nienow, Wisozk and Gibson",
+    "Tooltip": "corrupti",
+    "Deleted": false,
+    "Rank": 558,
+    "UdListDefinitionId": 205
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Weimann LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 842,
-    "UdListDefinitionId": 461,
+    "HeadingId": 612,
+    "Name": "McKenzie-McGlynn",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 480,
+    "UdListDefinitionId": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 254
       }
     }
   }

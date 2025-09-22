@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 961
+  "PrefDescId": 744
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 575,
-    "PrefDescId": 760,
-    "PrefValue": "dolor",
-    "PrefShowValue": "qui",
-    "Description": "Switchable homogeneous superstructure",
-    "IsBuiltin": false,
+    "PrefDescLineId": 551,
+    "PrefDescId": 330,
+    "PrefValue": "sit",
+    "PrefShowValue": "sapiente",
+    "Description": "Compatible user-facing middleware",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 250
       }
     }
   }

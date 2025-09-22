@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 553,
-  "StartDate": "2005-11-16T03:46:54.1445302+01:00",
-  "EndDate": "2005-09-20T03:46:54.1445302+02:00",
-  "RecurrenceCounter": 451,
+  "RecurrenceId": 910,
+  "StartDate": "1998-07-11T11:24:47.4064385+02:00",
+  "EndDate": "1998-05-16T11:24:47.4064385+02:00",
+  "RecurrenceCounter": 894,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
+      "Date": "2010-02-02T11:24:47.4064385+01:00",
       "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Description": "Assimilated fresh-thinking attitude",
+      "DescriptionStyleHint": "Profound radical concept",
+      "Tooltip": "temporibus"
     },
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
+      "Date": "2010-02-02T11:24:47.4064385+01:00",
       "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Description": "Assimilated fresh-thinking attitude",
+      "DescriptionStyleHint": "Profound radical concept",
+      "Tooltip": "temporibus"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 280
+  "QuoteVersionId": 591
 }
 ```
 
@@ -112,35 +112,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 394,
-    "ERPQuoteAlternativeKey": "neque",
-    "QuoteVersionId": 934,
-    "Name": "Treutel-Leannon",
-    "Description": "Assimilated directional extranet",
+    "QuoteAlternativeId": 416,
+    "ERPQuoteAlternativeKey": "corporis",
+    "QuoteVersionId": 130,
+    "Name": "Kohler-Wiegand",
+    "Description": "Distributed neutral algorithm",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 5102.152,
-    "ERPDiscountAmount": 28861.005999999998,
-    "DiscountPercent": 2704.642,
-    "DiscountAmount": 12683.297999999999,
+    "ERPDiscountPercent": 1084.364,
+    "ERPDiscountAmount": 24724.126,
+    "DiscountPercent": 30108.338,
+    "DiscountAmount": 26889.719999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "rerum",
-    "VAT": 9944.1819999999989,
-    "EarningPercent": 13347.706,
-    "EarningAmount": 10335.931999999999,
-    "SubTotal": 26369.476,
-    "TotalPrice": 26269.188,
-    "ExtraField1": "placeat",
-    "ExtraField2": "eligendi",
-    "ExtraField3": "impedit",
-    "ExtraField4": "sed",
-    "ExtraField5": "eos",
+    "VATInfo": "a",
+    "VAT": 1827.1219999999998,
+    "EarningPercent": 23671.102,
+    "EarningAmount": 7715.9079999999994,
+    "SubTotal": 29428.26,
+    "TotalPrice": 12921.482,
+    "ExtraField1": "quasi",
+    "ExtraField2": "ipsa",
+    "ExtraField3": "vitae",
+    "ExtraField4": "veniam",
+    "ExtraField5": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

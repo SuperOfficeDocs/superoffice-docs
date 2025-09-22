@@ -29,7 +29,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=702
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=954
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 263,
-  "AppointmentId": 620,
-  "ProjectId": 93,
-  "SaleId": 417,
-  "Archived": false,
-  "ArchivedAt": "2004-05-12T03:46:54.7538824+02:00",
-  "ArchivedBy": 946,
-  "ArchivedDisplayName": "Kovacek, Larkin and McCullough",
+  "DocumentId": 579,
+  "AppointmentId": 8,
+  "ProjectId": 348,
+  "SaleId": 222,
+  "Archived": true,
+  "ArchivedAt": "2022-08-12T11:24:48.0626591+02:00",
+  "ArchivedBy": 15,
+  "ArchivedDisplayName": "O'Reilly-Rolfson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   }
 }

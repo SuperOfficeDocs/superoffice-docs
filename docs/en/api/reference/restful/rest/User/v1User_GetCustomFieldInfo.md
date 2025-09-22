@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bins LLC",
-  "DisplayName": "Willms-Krajcik",
-  "Description": "Multi-channelled solution-oriented structure",
-  "ShortLabel": "qui",
-  "HideLabel": false,
-  "HideField": true,
+  "FieldName": "Kautzer-Jast",
+  "DisplayName": "Robel-Stark",
+  "Description": "Front-line 3rd generation encryption",
+  "ShortLabel": "repellendus",
+  "HideLabel": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 783,
-  "TemplateVariableName": "Carroll-Mraz"
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "IsDisplayField": false,
+  "Rank": 497,
+  "TemplateVariableName": "Hyatt, Wolf and Hyatt"
 }
 ```

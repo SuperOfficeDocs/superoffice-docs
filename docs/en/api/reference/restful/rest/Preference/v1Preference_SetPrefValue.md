@@ -72,21 +72,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "minus",
+  "RawValue": "ipsam",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "reiciendis",
+  "DisplayValue": "eaque",
+  "DisplayTooltip": "tenetur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 521,
-  "PrefDescId": 748,
-  "TableName": "Brown-Haag",
-  "UserPreferenceId": 839
+  "TargetId": 17,
+  "PrefDescId": 10,
+  "TableName": "Ferry, Wisozk and Sauer",
+  "UserPreferenceId": 221
 }
 ```
 

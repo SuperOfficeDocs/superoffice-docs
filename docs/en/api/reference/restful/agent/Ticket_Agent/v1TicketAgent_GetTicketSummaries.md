@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    736,
-    933
+    550,
+    149
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 886,
-    "TicketStatus": 689,
-    "Title": "magni",
-    "Registered": "1998-08-29T03:46:55.4257333+02:00",
-    "IconHint": "enim"
+    "TicketId": 443,
+    "TicketStatus": 590,
+    "Title": "omnis",
+    "Registered": "2015-08-11T11:24:48.6876333+02:00",
+    "IconHint": "aut"
   },
   {
-    "TicketId": 886,
-    "TicketStatus": 689,
-    "Title": "magni",
-    "Registered": "1998-08-29T03:46:55.4257333+02:00",
-    "IconHint": "enim"
+    "TicketId": 443,
+    "TicketStatus": 590,
+    "Title": "omnis",
+    "Registered": "2015-08-11T11:24:48.6876333+02:00",
+    "IconHint": "aut"
   }
 ]
 ```

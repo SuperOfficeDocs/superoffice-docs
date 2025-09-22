@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 570
+  "ProjectId": 322
 }
 ```
 
@@ -143,67 +143,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 777,
-  "StartDate": "2003-12-04T03:46:55.1601179+01:00",
-  "EndDate": "2010-11-07T03:46:55.1601179+01:00",
+  "AppointmentId": 333,
+  "StartDate": "2019-05-17T11:24:48.4688922+02:00",
+  "EndDate": "2014-12-05T11:24:48.4688922+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Nannie Corwin III",
-  "ContactName": "Torphy, Crist and Kohler",
-  "Description": "Reverse-engineered non-volatile middleware",
-  "PersonFullName": "Tara Reinger",
-  "PersonId": 404,
-  "ContactId": 520,
-  "ProjectId": 901,
-  "ProjectName": "Schmitt LLC",
-  "IsPublished": true,
-  "AssociateId": 980,
-  "ColorIndex": 861,
+  "Task": "aperiam",
+  "AssociateFullName": "Otilia Bergnaum",
+  "ContactName": "Heathcote, Schiller and Reinger",
+  "Description": "Innovative 5th generation attitude",
+  "PersonFullName": "Nola Swift",
+  "PersonId": 57,
+  "ContactId": 637,
+  "ProjectId": 598,
+  "ProjectName": "Kreiger Inc and Sons",
+  "IsPublished": false,
+  "AssociateId": 250,
+  "ColorIndex": 659,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 370,
-  "PriorityName": "Jaskolski, Rodriguez and Sipes",
+  "PriorityId": 188,
+  "PriorityName": "Schowalter Group",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2001-09-10T03:46:55.1601179+02:00",
+  "ActiveDate": "2011-12-22T11:24:48.4688922+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-09-16T03:46:55.1601179+02:00",
-  "RecurringEndDate": "2011-12-31T03:46:55.1601179+01:00",
-  "MotherId": 47,
-  "AssignedBy": 555,
-  "AssignedByFullName": "Prof. Colin Deshawn Baumbach",
+  "RecurringStartDate": "2006-01-18T11:24:48.4688922+01:00",
+  "RecurringEndDate": "2016-05-10T11:24:48.4688922+02:00",
+  "MotherId": 717,
+  "AssignedBy": 570,
+  "AssignedByFullName": "Ms. Ryley Emelia Schinner",
   "RejectReason": "",
-  "Location": "deserunt",
-  "AlarmLeadTime": "cumque",
-  "SaleId": 48,
-  "SaleName": "Koch, Lowe and Jerde",
-  "AssociateName": "Crist, Osinski and Gaylord",
-  "CreatedDate": "2021-07-05T03:46:55.1601179+02:00",
-  "CreatedBy": "sint",
-  "CreatedByFullName": "Mrs. Jovany Alan Kuvalis V",
-  "CreatedByAssociateId": 914,
+  "Location": "ut",
+  "AlarmLeadTime": "id",
+  "SaleId": 393,
+  "SaleName": "O'Kon-Von",
+  "AssociateName": "Kiehn Group",
+  "CreatedDate": "2004-07-06T11:24:48.4688922+02:00",
+  "CreatedBy": "praesentium",
+  "CreatedByFullName": "Dr. Seth Ayla Fay",
+  "CreatedByAssociateId": 35,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 559,
+  "MotherAssociateId": 69,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 85,
-  "Title": "in",
-  "Agenda": "quo",
-  "InternalNotes": "rerum",
+  "PreferredTZLocation": 762,
+  "Title": "ut",
+  "Agenda": "vitae",
+  "InternalNotes": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

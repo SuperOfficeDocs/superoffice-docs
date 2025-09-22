@@ -48,7 +48,7 @@ Revision history info in case the original target group or assignment info was d
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 |[target\_group](target-group.md)  |Info about a set of (sales, project, selection...) targets |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Name": "Greenholt, Conroy and Baumbach",
-  "Tooltip": "eum",
+  "Id": 57,
+  "Name": "Wuckert, Ullrich and Bode",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "UdListDefinitionId": 58,
-  "Rank": 8,
+  "UdListDefinitionId": 291,
+  "Rank": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

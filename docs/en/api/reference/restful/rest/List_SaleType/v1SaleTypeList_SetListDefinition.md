@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Barrows, Kutch and Keebler",
-  "Tooltip": "veritatis",
+  "Id": 492,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 220,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 365,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Hane-Schmitt",
-  "Tooltip": "voluptatem",
+  "Id": 488,
+  "Name": "Skiles-Gutkowski",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 839,
-  "IsCustomList": false,
+  "Rank": 40,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
+  "UseGroupsAndHeadings": false,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 198
     }
   }
 }

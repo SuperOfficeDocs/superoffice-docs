@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,40 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 7,
-    "Name": "Corwin Group",
-    "Rank": 732,
-    "Tooltip": "quo",
-    "Icon": "accusamus",
-    "DefaultTicketStatus": 222,
+    "TicketTypeId": 167,
+    "Name": "Ullrich Inc and Sons",
+    "Rank": 827,
+    "Tooltip": "saepe",
+    "Icon": "corporis",
+    "DefaultTicketStatus": 549,
     "TicketStatuses": [
-      753,
-      554
+      819,
+      542
     ],
-    "DefaultTicketPriority": 615,
+    "DefaultTicketPriority": 325,
     "TicketPriorities": [
-      857,
-      507
+      363,
+      680
     ],
-    "ReplyTemplate": 70,
+    "ReplyTemplate": 269,
     "IsExternalVisible": true,
-    "IsDefault": true,
+    "IsDefault": false,
     "ShowInNew": false,
-    "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
+    "ExcludeSignature": true,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      712,
-      766
+      807,
+      225
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldLength": 283
       }
     }
   }

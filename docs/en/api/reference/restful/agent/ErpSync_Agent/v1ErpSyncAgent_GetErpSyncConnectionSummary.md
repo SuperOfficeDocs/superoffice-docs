@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 989
+  "ErpSyncConnectionId": 890
 }
 ```
 
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Aufderhar-Torphy",
-  "DisplayDescription": "Sharable foreground instruction set",
-  "Active": false,
+  "DisplayName": "Hilpert Group",
+  "DisplayDescription": "Open-architected responsive groupware",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2012-11-20T03:46:54.8007556+01:00",
+  "LastSync": "2009-09-17T11:24:48.1251563+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "Defaults": "facere",
+      "Mappings": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 496
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "Defaults": "facere",
+      "Mappings": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 496
         }
       }
     }
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 323
     }
   }
 }

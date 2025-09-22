@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=voluptas
-GET /api/v1/Script?$top=914
-GET /api/v1/Script?$skip=169
+GET /api/v1/Script?$entities=rem
+GET /api/v1/Script?$top=633
+GET /api/v1/Script?$skip=997
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=iusto
+GET /api/v1/Script?$context=quia
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "expedita",
+  "odata.nextLink": "illo",
   "value": [
     {
-      "PrimaryKey": 8904,
-      "EntityName": "sale",
-      "saleId": 8904,
-      "contactId": 9754,
-      "name": "Vandervort-Fahey"
+      "PrimaryKey": 8231,
+      "EntityName": "person",
+      "personId": 8231,
+      "fullName": "Dr. Soledad Garret Rau II"
     },
     {
-      "PrimaryKey": 685,
-      "EntityName": "sale",
-      "saleId": 685,
-      "contactId": 9667,
-      "name": "Howell Inc and Sons"
+      "PrimaryKey": 7304,
+      "EntityName": "person",
+      "personId": 7304,
+      "fullName": "Trisha Gulgowski"
     }
   ]
 }

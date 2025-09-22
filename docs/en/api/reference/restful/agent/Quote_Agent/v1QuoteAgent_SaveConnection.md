@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,34 +103,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 839,
-  "ERPName": "Muller LLC",
-  "DisplayName": "Douglas-Reichel",
-  "DisplayDescription": "Integrated hybrid info-mediaries",
-  "Rank": 707,
-  "ConnectorName": "Moen Group",
-  "ErpConnectionId": 421,
-  "ExtraData": "explicabo",
+  "QuoteConnectionId": 855,
+  "ERPName": "Howe Inc and Sons",
+  "DisplayName": "Nikolaus Group",
+  "DisplayDescription": "Business-focused responsive support",
+  "Rank": 708,
+  "ConnectorName": "Langworth-Kirlin",
+  "ErpConnectionId": 252,
+  "ExtraData": "fuga",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 242,
-      "ERPPriceListKey": "similique",
-      "QuoteConnectionId": 730,
-      "Name": "Frami Inc and Sons",
-      "Description": "Up-sized disintermediate throughput",
-      "Currency": "nostrum",
-      "CurrencyName": "Sawayn-Stracke",
-      "ValidFrom": "2010-07-08T03:46:55.2226157+02:00",
-      "ValidTo": "2023-04-02T03:46:55.2226157+02:00",
+      "PriceListId": 896,
+      "ERPPriceListKey": "minima",
+      "QuoteConnectionId": 86,
+      "Name": "Mante Group",
+      "Description": "Automated responsive hub",
+      "Currency": "a",
+      "CurrencyName": "Ferry-Veum",
+      "ValidFrom": "2007-07-18T11:24:48.5313897+02:00",
+      "ValidTo": "2004-07-15T11:24:48.5313897+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 782
         }
       }
     }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    370,
-    243
+    729,
+    3
   ],
   "AssociateAccessIds": [
-    624,
-    171
+    217,
+    350
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   }
 }

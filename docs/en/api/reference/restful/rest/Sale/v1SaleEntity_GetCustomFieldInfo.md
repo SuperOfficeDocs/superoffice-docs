@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weissnat, Mann and Jones",
-  "DisplayName": "Quigley-Wintheiser",
-  "Description": "Assimilated global archive",
-  "ShortLabel": "sapiente",
-  "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "FieldName": "Padberg, Christiansen and Baumbach",
+  "DisplayName": "Prosacco-Bahringer",
+  "Description": "Customizable attitude-oriented time-frame",
+  "ShortLabel": "quas",
+  "HideLabel": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 666,
-  "TemplateVariableName": "Yundt, Frami and Mayer"
+  "Rank": 126,
+  "TemplateVariableName": "Bayer Inc and Sons"
 }
 ```

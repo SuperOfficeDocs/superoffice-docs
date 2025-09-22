@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Jewess-Weber",
-    "ToolTip": "Voluptatibus aut omnis eaque.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "est",
-    "ColorBlock": 885,
-    "IconHint": "eaque",
+    "Id": 127,
+    "Name": "Borer, West and Eichmann",
+    "ToolTip": "Iste delectus voluptatem earum error ratione nostrum.",
+    "Deleted": false,
+    "Rank": 420,
+    "Type": "reiciendis",
+    "ColorBlock": 505,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2003-11-25T03:47:00.7224209+01:00",
+    "LastChanged": "2010-09-25T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Kuphal, Wunsch and Rogahn",
-        "ToolTip": "Aut doloribus aut doloribus quos.",
+        "Id": 743,
+        "Name": "Jacobi Group",
+        "ToolTip": "Autem sit delectus est in sit.",
         "Deleted": false,
-        "Rank": 895,
-        "Type": "et",
-        "ColorBlock": 96,
-        "IconHint": "aut",
+        "Rank": 183,
+        "Type": "quae",
+        "ColorBlock": 661,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2005-11-30T03:47:00.7224209+01:00",
+        "LastChanged": "2020-07-02T11:24:53.9999166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "nemo",
+        "ExtraInfo": "similique",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Annalise Langosh",
+        "FullName": "Lyda Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldType": "System.Int32",
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Janice Mosciski",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "praesentium",
+    "Hidden": true,
+    "FullName": "Ms. Sim Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldLength": 278
       }
     }
   }

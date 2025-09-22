@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 180,
-  "LookupAddresses": true,
+  "MessageServerId": 233,
+  "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
 }
@@ -126,97 +126,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 494,
-      "ContactName": "Jast, Keebler and Cummings",
-      "PersonId": 523,
-      "PersonName": "Wisoky Inc and Sons",
-      "AssociateId": 254,
-      "Address": "eveniet",
-      "EmailId": 573,
+      "ContactId": 765,
+      "ContactName": "Bogan, Turcotte and Harvey",
+      "PersonId": 309,
+      "PersonName": "Homenick, Considine and Greenholt",
+      "AssociateId": 623,
+      "Address": "ut",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        808,
-        564
+        550,
+        192
       ],
-      "Name": "Nitzsche Group",
+      "Name": "Von, Hegmann and King",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 7
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Johns, Ryan and Bartell",
-      "PersonId": 781,
-      "PersonName": "Heller-Carter",
-      "AssociateId": 490,
-      "Address": "recusandae",
-      "EmailId": 783,
+      "ContactId": 471,
+      "ContactName": "Ryan, Corkery and Ratke",
+      "PersonId": 603,
+      "PersonName": "Effertz-Price",
+      "AssociateId": 773,
+      "Address": "nam",
+      "EmailId": 454,
       "DuplicatePersonIds": [
-        157,
-        377
+        238,
+        295
       ],
-      "Name": "Herzog Inc and Sons",
+      "Name": "Luettgen Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldLength": 713
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 735,
-      "ContactName": "Beatty, Pfeffer and Hahn",
-      "PersonId": 805,
-      "PersonName": "Crist, Mertz and Bernhard",
-      "AssociateId": 880,
-      "Address": "earum",
-      "EmailId": 542,
+      "ContactId": 407,
+      "ContactName": "Torp-Cassin",
+      "PersonId": 450,
+      "PersonName": "Boehm-Koch",
+      "AssociateId": 616,
+      "Address": "in",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        614,
-        450
+        936,
+        554
       ],
-      "Name": "Pfannerstill LLC",
+      "Name": "Borer, McLaughlin and Rippin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldType": "System.String",
+          "FieldLength": 781
         }
       }
     }
   ],
-  "Subject": "molestiae",
-  "HTMLBody": "est",
+  "Subject": "temporibus",
+  "HTMLBody": "maiores",
   "From": null,
-  "Sent": "2017-04-06T03:46:54.7695066+02:00",
-  "Size": 444,
+  "Sent": "2009-04-11T11:24:48.078283+02:00",
+  "Size": 462,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "nihil",
-  "IsSent": true,
+  "MessageID": "quam",
+  "PlainBody": "ullam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 964,
+  "ServerId": 580,
   "Attachments": [
     {
-      "Description": "Business-focused content-based paradigm",
-      "Filename": "laboriosam",
-      "Size": 808,
-      "Type": "sed",
-      "Encoding": "sed",
-      "Id": "dolor",
-      "Disposition": "veniam",
+      "Description": "Re-engineered intermediate customer loyalty",
+      "Filename": "consectetur",
+      "Size": 59,
+      "Type": "quo",
+      "Encoding": "et",
+      "Id": "molestiae",
+      "Disposition": "nisi",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -224,49 +224,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 744
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jaskolski-Graham",
+      "Name": "Kling-Nikolaus",
       "Values": [
-        "expedita",
-        "assumenda"
+        "harum",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 696
         }
       }
     },
     {
-      "Name": "Jaskolski-Graham",
+      "Name": "Kling-Nikolaus",
       "Values": [
-        "expedita",
-        "assumenda"
+        "harum",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 696
         }
       }
     }
   ],
-  "FolderName": "Crist-McKenzie",
-  "EmailItemId": 191,
-  "AccountId": 768,
-  "ReceivedAt": "2012-10-18T03:46:54.7695066+02:00",
+  "FolderName": "Rau-Lehner",
+  "EmailItemId": 323,
+  "AccountId": 352,
+  "ReceivedAt": "2014-10-31T11:24:48.078283+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-09-04T03:46:54.7695066+02:00",
+  "RepliedAt": "1999-06-10T11:24:48.078283+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

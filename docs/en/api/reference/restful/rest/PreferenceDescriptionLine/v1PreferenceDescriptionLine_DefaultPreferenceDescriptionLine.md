@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 572,
-  "PrefDescId": 519,
-  "PrefValue": "qui",
-  "PrefShowValue": "et",
-  "Description": "Universal bifurcated success",
+  "PrefDescLineId": 935,
+  "PrefDescId": 548,
+  "PrefValue": "ab",
+  "PrefShowValue": "sequi",
+  "Description": "Reduced grid-enabled intranet",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

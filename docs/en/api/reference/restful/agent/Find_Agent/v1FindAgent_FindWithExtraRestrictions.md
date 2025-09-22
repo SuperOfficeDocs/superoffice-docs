@@ -85,24 +85,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Schulist-Leannon",
-  "StorageKey": "perspiciatis",
+  "StorageType": "et",
+  "ProviderName": "Kohler, Quigley and Block",
+  "StorageKey": "quo",
   "ExtraRestrictions": [
     {
-      "Name": "Jenkins-Lockman",
-      "Operator": "sit",
+      "Name": "Hamill, Hilpert and Anderson",
+      "Operator": "quis",
       "Values": [
-        "in",
-        "repellendus"
+        "beatae",
+        "accusantium"
       ],
       "DisplayValues": [
-        "doloribus",
-        "numquam"
+        "occaecati",
+        "quae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -110,27 +110,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 335,
+      "InterParenthesis": 395,
       "InterOperator": "And",
-      "UniqueHash": 308
+      "UniqueHash": 352
     }
   ],
   "OrderBy": [
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Breitenberg, Wisozk and Marks",
       "Direction": "ASC"
     },
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Breitenberg, Wisozk and Marks",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "et",
-    "sunt"
+    "minus",
+    "sequi"
   ],
-  "PageSize": 442,
-  "PageNumber": 454
+  "PageSize": 448,
+  "PageNumber": 432
 }
 ```
 
@@ -143,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gleason-Haley",
-      "DisplayTooltip": "et",
-      "DisplayType": "quia",
-      "CanOrderBy": false,
-      "Name": "Kutch-Hodkiewicz",
+      "DisplayName": "Gutkowski Group",
+      "DisplayTooltip": "qui",
+      "DisplayType": "est",
+      "CanOrderBy": true,
+      "Name": "Blick Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "quis",
-      "RestrictionListName": "Kuphal-Abbott",
-      "IsVisible": true,
-      "ExtraInfo": "vel",
-      "Width": "est",
-      "IconHint": "officia",
-      "HeadingIconHint": "voluptas"
+      "RestrictionType": "odio",
+      "RestrictionListName": "Zboncak LLC",
+      "IsVisible": false,
+      "ExtraInfo": "fugit",
+      "Width": "eaque",
+      "IconHint": "ratione",
+      "HeadingIconHint": "excepturi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Prosacco Inc and Sons",
-      "PrimaryKey": 725,
+      "EntityName": "Mitchell-Streich",
+      "PrimaryKey": 747,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "magni",
-          "LinkHint": "est"
+          "DisplayValue": "perferendis",
+          "TooltipHint": "sed",
+          "LinkHint": "pariatur"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "qui",
+      "LinkHint": "dolores",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldLength": 937
         }
       }
     }
   ],
-  "RowCount": 581,
+  "RowCount": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

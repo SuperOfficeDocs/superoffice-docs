@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 May 2003 03:47:00 G5T
+Last-Modified: Sat, 09 Jul 2016 11:24:53 G7T
 
 {
-  "ForeignAppId": 942,
-  "Name": "Fadel, Mayert and Howe",
-  "CreatedDate": "2025-04-07T03:47:00.0193121+02:00",
-  "UpdatedDate": "2003-05-06T03:47:00.0193121+02:00",
+  "ForeignAppId": 127,
+  "Name": "Greenfelder-Wiegand",
+  "CreatedDate": "2011-01-31T11:24:53.2811958+01:00",
+  "UpdatedDate": "2016-07-09T11:24:53.2811958+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 937,
-      "Name": "Hartmann Group",
-      "CreatedDate": "2007-07-24T03:47:00.0193121+02:00",
-      "UpdatedDate": "2013-11-15T03:47:00.0193121+01:00",
-      "AssociateFullName": "Eric Reichert",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "voluptatum",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 437,
+      "ForeignDeviceId": 32,
+      "Name": "Hoppe, Brown and Kuhn",
+      "CreatedDate": "2021-12-19T11:24:53.2811958+01:00",
+      "UpdatedDate": "2023-08-13T11:24:53.2811958+02:00",
+      "AssociateFullName": "Julia Reichert",
+      "CreatedBy": "amet",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 434,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldType": "System.String",
+          "FieldLength": 808
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Tue, 06 May 2003 03:47:00 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 535
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "Halvorson, Jerde and Hane",
-  "Tooltip": "aut",
+  "Id": 525,
+  "Name": "Schuster-Runte",
+  "Tooltip": "accusantium",
   "Deleted": true,
-  "Rank": 694,
+  "Rank": 919,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 984
     }
   },
   "_Links": {

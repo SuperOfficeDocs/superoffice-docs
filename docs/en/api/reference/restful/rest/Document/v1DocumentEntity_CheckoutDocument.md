@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "sit",
-  "VersionId": "libero",
-  "Success": true,
+  "ExternalReference": "unde",
+  "VersionId": "eum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "perferendis",
-  "AdditionalInfo": "ut"
+  "Value": "et",
+  "AdditionalInfo": "temporibus"
 }
 ```

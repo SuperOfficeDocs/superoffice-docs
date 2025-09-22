@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Daniel, Dickens and Stamm",
-  "Id": 221
+  "HistoryName": "Mayert-Krajcik",
+  "Id": 180
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 689,
-  "Id": 466,
-  "HistoryName": "Sporer Inc and Sons",
-  "HistoryId": 90,
-  "AssociateId": 313,
-  "Name": "Oberbrunner-Schumm",
-  "ItemInfo": "adipisci",
+  "Rank": 479,
+  "Id": 752,
+  "HistoryName": "Bernier, Rogahn and Luettgen",
+  "HistoryId": 129,
+  "AssociateId": 622,
+  "Name": "Bergnaum, Tromp and Wehner",
+  "ItemInfo": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

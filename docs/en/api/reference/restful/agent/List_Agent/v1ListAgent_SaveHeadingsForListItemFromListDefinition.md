@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 464,
-  "ListItemId": 468,
+  "UdListDefinitionId": 790,
+  "ListItemId": 517,
   "Headings": [
     {
-      "Id": 567,
-      "Name": "Shields, Balistreri and Tremblay",
-      "ToolTip": "Ipsam sed sint aut enim.",
-      "Deleted": true,
-      "Rank": 575,
-      "Type": "id",
-      "ColorBlock": 841,
-      "IconHint": "ex",
-      "Selected": true,
-      "LastChanged": "2008-03-08T03:46:54.9569999+01:00",
+      "Id": 115,
+      "Name": "Torphy Inc and Sons",
+      "ToolTip": "Quas qui rerum velit omnis nostrum ut esse.",
+      "Deleted": false,
+      "Rank": 14,
+      "Type": "cupiditate",
+      "ColorBlock": 798,
+      "IconHint": "debitis",
+      "Selected": false,
+      "LastChanged": "2004-08-06T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
-      "StyleHint": "nemo",
-      "Hidden": true,
-      "FullName": "Mr. Vincenza Raynor DDS"
+      "ExtraInfo": "est",
+      "StyleHint": "earum",
+      "Hidden": false,
+      "FullName": "Mateo Stokes"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Daugherty LLC",
-    "ToolTip": "Nesciunt repellat expedita.",
+    "Id": 978,
+    "Name": "Buckridge-Mueller",
+    "ToolTip": "Et quibusdam vitae enim omnis.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "aliquam",
-    "ColorBlock": 434,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "1998-07-06T03:46:54.9569999+02:00",
+    "Rank": 12,
+    "Type": "quasi",
+    "ColorBlock": 906,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "1999-01-02T11:24:48.2032781+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Gaylord, Quigley and Volkman",
-        "ToolTip": "Est quia.",
-        "Deleted": false,
-        "Rank": 488,
-        "Type": "sed",
-        "ColorBlock": 81,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2001-08-14T03:46:54.9569999+02:00",
+        "Id": 427,
+        "Name": "Muller LLC",
+        "ToolTip": "Officia pariatur.",
+        "Deleted": true,
+        "Rank": 265,
+        "Type": "corporis",
+        "ColorBlock": 121,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2013-07-27T11:24:48.2032781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Ike Grimes",
+        "ExtraInfo": "debitis",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Anastacio Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Adaline Fadel",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Mr. Jody Hegmann III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldType": "System.String",
+        "FieldLength": 636
       }
     }
   }

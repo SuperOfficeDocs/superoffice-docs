@@ -108,51 +108,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 507,
-  "Name": "Kunze, Stamm and Okuneva",
-  "Tooltip": "aut",
-  "Rank": 996,
+  "SaleTypeId": 791,
+  "Name": "Heaney-Witting",
+  "Tooltip": "ab",
+  "Rank": 414,
   "DurationUnit": "Century",
-  "SaleDuration": 782,
-  "SaleTypeCatId": 680,
+  "SaleDuration": 352,
+  "SaleTypeCatId": 351,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 852,
-  "QuoteLinesTemplate": 341,
+  "DefaultQuoteValidity": 837,
+  "QuoteLinesTemplate": 244,
   "ConfirmationLinesTemplate": 362,
-  "MaxDiscountPercentSet": true,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 820,
-  "MinEarningPercent": 341,
-  "GroupQuoteLinesBy": 458,
-  "SortGroupLinesBy": 467,
+  "MaxDiscountPercent": 885,
+  "MinEarningPercent": 916,
+  "GroupQuoteLinesBy": 351,
+  "SortGroupLinesBy": 45,
   "Stages": [
     {
-      "Id": 438,
-      "Name": "Jakubowski-Weissnat",
-      "ToolTip": "Sapiente voluptatem sed temporibus quis.",
-      "Deleted": true,
-      "Rank": 530,
-      "Type": "ipsa",
-      "ColorBlock": 756,
-      "IconHint": "nihil",
-      "Selected": false,
-      "LastChanged": "2005-01-16T03:47:00.8005429+01:00",
+      "Id": 461,
+      "Name": "Feest-Murray",
+      "ToolTip": "Qui iusto quam error.",
+      "Deleted": false,
+      "Rank": 583,
+      "Type": "et",
+      "ColorBlock": 975,
+      "IconHint": "eos",
+      "Selected": true,
+      "LastChanged": "2009-10-08T11:24:54.1405361+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "ipsam",
+      "ExtraInfo": "veritatis",
+      "StyleHint": "dolore",
       "Hidden": false,
-      "FullName": "Karen Glover"
+      "FullName": "Brady Murphy"
     }
   ]
 }
@@ -165,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 298,
-  "Name": "Frami, Moen and Padberg",
-  "Tooltip": "quos",
-  "Rank": 32,
+  "SaleTypeId": 559,
+  "Name": "Keebler LLC",
+  "Tooltip": "vel",
+  "Rank": 899,
   "DurationUnit": "Century",
-  "SaleDuration": 435,
-  "SaleTypeCatId": 745,
+  "SaleDuration": 351,
+  "SaleTypeCatId": 530,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 852,
-  "QuoteLinesTemplate": 955,
-  "ConfirmationLinesTemplate": 527,
-  "MaxDiscountPercentSet": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 582,
+  "QuoteLinesTemplate": 898,
+  "ConfirmationLinesTemplate": 183,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 371,
-  "MinEarningPercent": 258,
-  "GroupQuoteLinesBy": 884,
-  "SortGroupLinesBy": 323,
+  "MaxDiscountPercent": 231,
+  "MinEarningPercent": 440,
+  "GroupQuoteLinesBy": 327,
+  "SortGroupLinesBy": 485,
   "Stages": [
     {
-      "Id": 768,
-      "Name": "Oberbrunner, Larson and Simonis",
-      "ToolTip": "Omnis qui et excepturi.",
+      "Id": 275,
+      "Name": "Donnelly-Gusikowski",
+      "ToolTip": "Et sint.",
       "Deleted": false,
-      "Rank": 776,
-      "Type": "et",
-      "ColorBlock": 202,
-      "IconHint": "rerum",
+      "Rank": 774,
+      "Type": "aliquid",
+      "ColorBlock": 79,
+      "IconHint": "veniam",
       "Selected": false,
-      "LastChanged": "2025-01-15T03:47:00.8005429+01:00",
+      "LastChanged": "2005-12-05T11:24:54.1405361+01:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "omnis",
-      "StyleHint": "consequatur",
-      "Hidden": true,
-      "FullName": "Ms. Gunnar Nicolette Wintheiser V",
+      "StyleHint": "eveniet",
+      "Hidden": false,
+      "FullName": "Mr. Bailey Garrett Bauch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 985
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

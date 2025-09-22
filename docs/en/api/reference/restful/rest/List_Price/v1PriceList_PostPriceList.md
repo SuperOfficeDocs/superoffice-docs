@@ -95,20 +95,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 373,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 405,
-  "Name": "Fay, Kiehn and Satterfield",
-  "Description": "Business-focused web-enabled attitude",
-  "Currency": "modi",
-  "CurrencyName": "Kohler LLC",
-  "ValidFrom": "2006-06-04T03:47:00.7067961+02:00",
-  "ValidTo": "2014-06-22T03:47:00.7067961+02:00",
-  "IsActive": false
+  "PriceListId": 209,
+  "ERPPriceListKey": "voluptatum",
+  "QuoteConnectionId": 819,
+  "Name": "Klein, Wehner and Emmerich",
+  "Description": "Expanded neutral orchestration",
+  "Currency": "voluptatum",
+  "CurrencyName": "Ferry-Tillman",
+  "ValidFrom": "2006-04-03T11:24:53.9842923+02:00",
+  "ValidTo": "2007-04-12T11:24:53.9842923+02:00",
+  "IsActive": true
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 774,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 665,
-  "Name": "Wisoky-Homenick",
-  "Description": "Integrated neutral moderator",
-  "Currency": "magnam",
-  "CurrencyName": "Smith, Hamill and Crooks",
-  "ValidFrom": "2003-11-04T03:47:00.7067961+01:00",
-  "ValidTo": "2013-04-22T03:47:00.7067961+02:00",
+  "PriceListId": 740,
+  "ERPPriceListKey": "officia",
+  "QuoteConnectionId": 770,
+  "Name": "Ondricka, Aufderhar and Aufderhar",
+  "Description": "Decentralized neutral emulation",
+  "Currency": "quasi",
+  "CurrencyName": "Hermiston, Wilderman and Watsica",
+  "ValidFrom": "2005-07-21T11:24:53.9842923+02:00",
+  "ValidTo": "2001-05-24T11:24:53.9842923+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 764
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

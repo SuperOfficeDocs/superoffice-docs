@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wiegand-Kris",
-  "DeviceName": "Fisher-Gutmann",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Ledner-Miller",
+  "DeviceName": "Hintz Group",
+  "DeviceIdentifier": "nesciunt"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "at",
-  "RecordId": 906,
-  "CreatedDate": "2025-08-16T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-07-21T03:46:54.9107593+02:00",
-  "UpdatedBy": "hic",
-  "CreatedBy": "rerum",
-  "TableName": "Langosh-Bode",
+  "Key": "fuga",
+  "Value": "itaque",
+  "RecordId": 592,
+  "CreatedDate": "2014-08-09T11:24:48.1564051+02:00",
+  "UpdatedDate": "2001-03-25T11:24:48.1564051+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "iste",
+  "TableName": "Thompson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 776
     }
   }
 }

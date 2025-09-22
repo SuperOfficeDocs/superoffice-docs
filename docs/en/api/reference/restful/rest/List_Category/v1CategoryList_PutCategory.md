@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 727,
+  "Name": "Jakubowski, Fritsch and Considine",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 777,
-  "Rank": 612
+  "UdListDefinitionId": 329,
+  "Rank": 120
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 465,
-  "Name": "Oberbrunner-O'Reilly",
-  "Tooltip": "aut",
+  "Id": 757,
+  "Name": "Schmitt-Klein",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 123,
-  "Rank": 976,
+  "UdListDefinitionId": 200,
+  "Rank": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Feest Inc and Sons",
-    "ToolTip": "Aperiam dolore sint.",
+    "Id": 423,
+    "Name": "Dickinson Inc and Sons",
+    "ToolTip": "Odio occaecati beatae.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "quia",
-    "ColorBlock": 884,
-    "IconHint": "deleniti",
+    "Rank": 842,
+    "Type": "praesentium",
+    "ColorBlock": 174,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2020-06-19T03:47:00.7380451+02:00",
+    "LastChanged": "2004-02-26T11:24:54.0155411+01:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Ruecker-Blanda",
-        "ToolTip": "Est ut.",
+        "Id": 780,
+        "Name": "Swift Inc and Sons",
+        "ToolTip": "Harum aperiam.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "cum",
-        "ColorBlock": 43,
-        "IconHint": "cumque",
-        "Selected": false,
-        "LastChanged": "2013-06-10T03:47:00.7380451+02:00",
+        "Rank": 62,
+        "Type": "consequuntur",
+        "ColorBlock": 796,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2012-03-20T11:24:54.0155411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "sit",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Shania Bosco",
+        "FullName": "Noemi Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldType": "System.String",
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Genoveva Nasir Okuneva II",
+    "ExtraInfo": "nam",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Miss Chloe Harvey Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 739
       }
     }
   }

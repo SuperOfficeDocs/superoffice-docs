@@ -105,8 +105,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 250,
-  "Count": 571
+  "AmountLimit": 725,
+  "Count": 217
 }
 ```
 
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Borer Inc and Sons",
-    "SaleDate": "2004-10-15T03:46:55.2694888+02:00",
-    "SaleId": 312,
-    "Probability": 913,
-    "Title": "enim",
-    "Amount": 3810.944,
-    "Currency": "repudiandae",
-    "ProjectName": "Wolf-Reinger",
-    "AssociateFullName": "Joshuah Tillman II",
-    "Description": "Secured value-added info-mediaries",
+    "ContactName": "Legros, Lebsack and Bernhard",
+    "SaleDate": "2012-02-21T11:24:48.5939056+01:00",
+    "SaleId": 426,
+    "Probability": 525,
+    "Title": "labore",
+    "Amount": 25645.522,
+    "Currency": "beatae",
+    "ProjectName": "Wolff, Jerde and Reichert",
+    "AssociateFullName": "Patience Manuela Bins IV",
+    "Description": "Seamless fault-tolerant parallelism",
     "Status": "Lost",
-    "WeightedAmount": 30854.23,
-    "ProjectId": 51,
-    "EarningPercent": 5697.612,
-    "Earning": 21333.138,
-    "ContactId": 295,
-    "AssociateId": 840,
-    "PersonId": 423,
-    "SaleTypeId": 776,
-    "SaleTypeName": "Walsh Inc and Sons",
-    "PersonFullName": "Amaya Hoeger",
+    "WeightedAmount": 25100.206,
+    "ProjectId": 170,
+    "EarningPercent": 30885.57,
+    "Earning": 12670.761999999999,
+    "ContactId": 27,
+    "AssociateId": 970,
+    "PersonId": 582,
+    "SaleTypeId": 63,
+    "SaleTypeName": "Little-Doyle",
+    "PersonFullName": "Judah Murazik",
     "Completed": "Completed",
-    "ActiveErpLinks": 296,
-    "NextDueDate": "2019-02-19T03:46:55.2694888+01:00",
-    "Number": "770645",
+    "ActiveErpLinks": 502,
+    "NextDueDate": "2002-01-13T11:24:48.5939056+01:00",
+    "Number": "1272167",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

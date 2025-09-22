@@ -75,9 +75,9 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Activities?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Activities?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Activities?$orderBy=name asc
-GET /api/v1/Contact/{id}/Activities?$entities=doloremque
-GET /api/v1/Contact/{id}/Activities?$top=948
-GET /api/v1/Contact/{id}/Activities?$skip=45
+GET /api/v1/Contact/{id}/Activities?$entities=fugiat
+GET /api/v1/Contact/{id}/Activities?$top=177
+GET /api/v1/Contact/{id}/Activities?$skip=865
 GET /api/v1/Contact/{id}/Activities?$mode=Full
 GET /api/v1/Contact/{id}/Activities?$options=GrandTotal=true
 GET /api/v1/Contact/{id}/Activities?$context=rem
@@ -135,21 +135,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellendus",
+  "odata.nextLink": "id",
   "value": [
     {
-      "PrimaryKey": 3284,
-      "EntityName": "sale",
-      "saleId": 3284,
-      "contactId": 9078,
-      "name": "O'Reilly, Berge and Champlin"
+      "PrimaryKey": 7591,
+      "EntityName": "person",
+      "personId": 7591,
+      "fullName": "Clint Jast"
     },
     {
-      "PrimaryKey": 8625,
-      "EntityName": "sale",
-      "saleId": 8625,
-      "contactId": 8279,
-      "name": "Considine-Friesen"
+      "PrimaryKey": 7483,
+      "EntityName": "person",
+      "personId": 7483,
+      "fullName": "Prof. Tremaine Reichel"
     }
   ]
 }

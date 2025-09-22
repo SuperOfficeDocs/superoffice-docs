@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Wyman Inc and Sons",
+    "Records": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldLength": 71
       }
     }
   },
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Wyman Inc and Sons",
+    "Records": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldLength": 71
       }
     }
   }

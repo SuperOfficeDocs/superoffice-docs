@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=et
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=fuga
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Apr 2014 03:47:00 G4T
+Last-Modified: Thu, 06 Apr 2023 11:24:53 G4T
 
 {
-  "Key": "ut",
-  "Value": "exercitationem",
-  "RecordId": 242,
-  "CreatedDate": "2025-02-11T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-04-18T03:47:00.0349452+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "consequatur",
-  "TableName": "Ratke Group",
+  "Key": "quidem",
+  "Value": "non",
+  "RecordId": 154,
+  "CreatedDate": "1999-02-06T11:24:53.2968202+01:00",
+  "UpdatedDate": "2023-04-06T11:24:53.2968202+02:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "quo",
+  "TableName": "King Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 374
     }
   }
 }

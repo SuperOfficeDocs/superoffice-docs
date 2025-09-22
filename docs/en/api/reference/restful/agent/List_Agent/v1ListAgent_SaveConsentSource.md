@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 224,
-  "Name": "O'Conner, Hilpert and Windler",
-  "Tooltip": "molestias",
-  "Rank": 2,
-  "Key": "aut",
-  "MailTemplateId": 814,
-  "Deleted": false,
+  "ConsentSourceId": 759,
+  "Name": "Windler-Hermiston",
+  "Tooltip": "sit",
+  "Rank": 429,
+  "Key": "omnis",
+  "MailTemplateId": 190,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

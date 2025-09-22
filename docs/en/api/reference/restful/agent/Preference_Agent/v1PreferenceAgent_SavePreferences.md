@@ -74,16 +74,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "inventore",
+      "RawValue": "rem",
       "Specification": null,
-      "DisplayValue": "perspiciatis",
-      "DisplayTooltip": "vel",
+      "DisplayValue": "consectetur",
+      "DisplayTooltip": "voluptas",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 635,
-      "PrefDescId": 778,
-      "TableName": "Boyle Group",
-      "UserPreferenceId": 972
+      "TargetId": 90,
+      "PrefDescId": 459,
+      "TableName": "Bartoletti, Medhurst and Reynolds",
+      "UserPreferenceId": 879
     }
   ]
 }

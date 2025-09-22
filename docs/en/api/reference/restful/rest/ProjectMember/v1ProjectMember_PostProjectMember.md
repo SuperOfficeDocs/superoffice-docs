@@ -73,6 +73,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -107,6 +109,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -117,31 +121,33 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 969,
-  "ContactId": 666,
-  "ProjectId": 639,
-  "ContactName": "Lueilwitz-Muller",
-  "ContactDepartment": "",
-  "ProjectName": "Stokes, Wisozk and Hilll",
-  "EmailId": 960,
-  "EmailAddress": "osbaldo@hyatthaag.info",
-  "CountryId": 591,
-  "Firstname": "Harrison",
-  "MiddleName": "Jacobi LLC",
-  "Lastname": "Pacocha",
-  "PersonId": 809,
-  "Mrmrs": "quidem",
-  "ProjectMemberTypeName": "Abernathy LLC",
-  "Phone": "(429)884-9750 x99705",
-  "PhoneId": 935,
-  "ProjectMemberTypeId": 285,
-  "EmailAddressName": "euna_denesik@howe.co.uk",
-  "Comment": "necessitatibus",
-  "FullName": "Jarrett Greenfelder"
+  "ProjectmemberId": 441,
+  "ContactId": 469,
+  "ProjectId": 114,
+  "ContactName": "Heller LLC",
+  "ContactDepartment": "iterate strategic infrastructures",
+  "ProjectName": "Fritsch, Paucek and Wiza",
+  "EmailId": 754,
+  "EmailAddress": "josue@fay.uk",
+  "CountryId": 730,
+  "Firstname": "Allan",
+  "MiddleName": "Rau, Powlowski and Graham",
+  "Lastname": "Beer",
+  "PersonId": 544,
+  "Mrmrs": "id",
+  "ProjectMemberTypeName": "Mante-Reichel",
+  "Phone": "(817)554-6829 x23044",
+  "PhoneId": 859,
+  "ProjectMemberTypeId": 554,
+  "EmailAddressName": "alfred.greenholt@bogisich.com",
+  "Comment": "et",
+  "FullName": "Moses Nader",
+  "Registered": "2012-03-17T11:24:53.7655512+01:00",
+  "Updated": "2000-01-10T11:24:53.7655512+01:00"
 }
 ```
 
@@ -152,33 +158,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 376,
-  "ContactId": 515,
-  "ProjectId": 296,
-  "ContactName": "Simonis-Gutkowski",
-  "ContactDepartment": "target e-business eyeballs",
-  "ProjectName": "Collier-Gusikowski",
-  "EmailId": 511,
-  "EmailAddress": "vincenza@abernathycasper.ca",
-  "CountryId": 652,
-  "Firstname": "Kasandra",
-  "MiddleName": "Mosciski-Ankunding",
-  "Lastname": "Harber",
-  "PersonId": 170,
-  "Mrmrs": "minima",
-  "ProjectMemberTypeName": "Kemmer-Larson",
-  "Phone": "393.112.8205 x654",
-  "PhoneId": 775,
-  "ProjectMemberTypeId": 373,
-  "EmailAddressName": "erling@quitzonsauer.name",
-  "Comment": "id",
-  "FullName": "Dr. Carolanne Legros IV",
+  "ProjectmemberId": 751,
+  "ContactId": 356,
+  "ProjectId": 968,
+  "ContactName": "Keeling, Terry and Jerde",
+  "ContactDepartment": "",
+  "ProjectName": "Eichmann, Gulgowski and Goodwin",
+  "EmailId": 584,
+  "EmailAddress": "carmella@johns.ca",
+  "CountryId": 153,
+  "Firstname": "Moises",
+  "MiddleName": "Beier-Kris",
+  "Lastname": "Conn",
+  "PersonId": 23,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Ebert Group",
+  "Phone": "129-686-3614",
+  "PhoneId": 944,
+  "ProjectMemberTypeId": 526,
+  "EmailAddressName": "lavon_ritchie@pricewhite.info",
+  "Comment": "et",
+  "FullName": "Skyla Johnson II",
+  "Registered": "2013-02-25T11:24:53.7655512+01:00",
+  "Updated": "2018-08-20T11:24:53.7655512+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   },
   "_Links": {

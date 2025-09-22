@@ -33,7 +33,12 @@ items:
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+  - SuperOffice.Diagnostics.SoActivity
+  - SuperOffice.Diagnostics.SoEnvironment
   - SuperOffice.Diagnostics.SoLogger
+  - SuperOffice.Diagnostics.SoMetrics
+  - SuperOffice.Diagnostics.SoOperation
+  - SuperOffice.Diagnostics.SoOperation.DisposableDummy
   - SuperOffice.Diagnostics.SoTimeLogger
   - SuperOffice.Diagnostics.SoTimeLoggerPlugin
   - SuperOffice.Diagnostics.SoTimeRecorderPluginAttribute
@@ -261,6 +266,20 @@ references:
   name: SimplePeriodicGrafanaReporter
   nameWithType: SimplePeriodicGrafanaReporter
   fullName: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
+- uid: SuperOffice.Diagnostics.SoActivity
+  commentId: T:SuperOffice.Diagnostics.SoActivity
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoActivity.html
+  name: SoActivity
+  nameWithType: SoActivity
+  fullName: SuperOffice.Diagnostics.SoActivity
+- uid: SuperOffice.Diagnostics.SoEnvironment
+  commentId: T:SuperOffice.Diagnostics.SoEnvironment
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoEnvironment.html
+  name: SoEnvironment
+  nameWithType: SoEnvironment
+  fullName: SuperOffice.Diagnostics.SoEnvironment
 - uid: SuperOffice.Diagnostics.SoLogger
   commentId: T:SuperOffice.Diagnostics.SoLogger
   parent: SuperOffice.Diagnostics
@@ -283,6 +302,48 @@ references:
   name: SqlCommandInfo
   nameWithType: SqlCommandInfo
   fullName: SuperOffice.Diagnostics.SqlCommandInfo
+- uid: SuperOffice.Diagnostics.SoMetrics
+  commentId: T:SuperOffice.Diagnostics.SoMetrics
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoMetrics.html
+  name: SoMetrics
+  nameWithType: SoMetrics
+  fullName: SuperOffice.Diagnostics.SoMetrics
+- uid: SuperOffice.Diagnostics.SoOperation
+  commentId: T:SuperOffice.Diagnostics.SoOperation
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoOperation.html
+  name: SoOperation
+  nameWithType: SoOperation
+  fullName: SuperOffice.Diagnostics.SoOperation
+- uid: SuperOffice.Diagnostics.SoOperation.DisposableDummy
+  commentId: T:SuperOffice.Diagnostics.SoOperation.DisposableDummy
+  isExternal: true
+  href: SuperOffice.Diagnostics.SoOperation.html
+  name: SoOperation.DisposableDummy
+  nameWithType: SoOperation.DisposableDummy
+  fullName: SuperOffice.Diagnostics.SoOperation.DisposableDummy
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.SoOperation
+    name: SoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoOperation.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.SoOperation.DisposableDummy
+    name: DisposableDummy
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoOperation.DisposableDummy.html
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.SoOperation
+    name: SoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoOperation.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.SoOperation.DisposableDummy
+    name: DisposableDummy
+    isExternal: true
+    href: SuperOffice.Diagnostics.SoOperation.DisposableDummy.html
 - uid: SuperOffice.Diagnostics.DeferredToString
   commentId: T:SuperOffice.Diagnostics.DeferredToString
   parent: SuperOffice.Diagnostics

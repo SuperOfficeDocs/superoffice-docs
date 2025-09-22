@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 261,
-    "ColumnId": 463,
-    "FieldDefault": "culpa",
-    "FieldHeight": 982,
-    "FieldLabel": "saepe",
-    "FieldLeft": 984,
-    "FieldTop": 111,
+    "UDefFieldId": 474,
+    "ColumnId": 542,
+    "FieldDefault": "assumenda",
+    "FieldHeight": 116,
+    "FieldLabel": "quis",
+    "FieldLeft": 89,
+    "FieldTop": 413,
     "FieldType": "Checkbox",
-    "FieldWidth": 336,
-    "FormatMask": "in",
-    "HideLabel": true,
+    "FieldWidth": 466,
+    "FormatMask": "omnis",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 463,
-    "LabelLeft": 391,
-    "LabelTop": 66,
-    "LabelWidth": 408,
-    "LastVersionId": 241,
-    "ListTableId": 248,
-    "IsMandatory": false,
+    "LabelHeight": 25,
+    "LabelLeft": 314,
+    "LabelTop": 131,
+    "LabelWidth": 971,
+    "LastVersionId": 483,
+    "ListTableId": 124,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 180,
-    "ProgId": "consequuntur",
-    "IsReadOnly": false,
-    "ShortLabel": "autem",
-    "TabOrder": 545,
-    "TextLength": 276,
-    "Tooltip": "repellendus",
-    "UdefIdentity": 834,
-    "UDListDefinitionId": 792,
+    "Page1LineNo": 764,
+    "ProgId": "sit",
+    "IsReadOnly": true,
+    "ShortLabel": "ipsa",
+    "TabOrder": 17,
+    "TextLength": 65,
+    "Tooltip": "quibusdam",
+    "UdefIdentity": 88,
+    "UDListDefinitionId": 357,
     "Justification": "Center",
-    "Version": 58,
-    "TemplateVariableName": "Fadel Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Bayer LLC",
+    "Version": 353,
+    "TemplateVariableName": "Pacocha Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Lakin, Franecki and Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 24
       }
     }
   }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 515,
+    "Name": "Herman Group",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 437,
+    "Rank": 126
   },
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 515,
+    "Name": "Herman Group",
+    "Tooltip": "ipsum",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 437,
+    "Rank": 126
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Hauck Group",
-    "Tooltip": "qui",
+    "Id": 96,
+    "Name": "Feil LLC",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 675,
-    "Rank": 647,
+    "UdListDefinitionId": 150,
+    "Rank": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 524
       }
     }
   }

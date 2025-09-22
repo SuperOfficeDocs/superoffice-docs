@@ -98,7 +98,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,73 +106,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
+Last-Modified: Tue, 05 Dec 2006 11:24:53 G12T
 
 {
-  "Description": "Fully-configurable multimedia encryption",
-  "Postit": "voluptatibus",
+  "Description": "Public-key executive hardware",
+  "Postit": "neque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 776,
+  "GroupIdx": 419,
+  "IncludePerson": 205,
   "MemberCount": 99.99,
-  "Name": "Huels, Ondricka and Farrell",
-  "PostitTextId": 838,
-  "CreatedDate": "2001-08-30T03:47:00.2849361+02:00",
-  "SelectionId": 147,
-  "SoundEx": "quam",
-  "Source": 724,
-  "TextId": 171,
-  "UpdatedDate": "2000-01-21T03:47:00.2849361+01:00",
-  "UpdatedCount": 120,
-  "Visibility": 208,
+  "Name": "Jacobs, Hand and Abbott",
+  "PostitTextId": 906,
+  "CreatedDate": "2006-03-18T11:24:53.5624345+01:00",
+  "SelectionId": 240,
+  "SoundEx": "molestiae",
+  "Source": 702,
+  "TextId": 856,
+  "UpdatedDate": "2006-12-05T11:24:53.5624345+01:00",
+  "UpdatedCount": 773,
+  "Visibility": 409,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 121,
-  "TargetTableName": "Leuschke, Hauck and Batz",
-  "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 212,
+  "CompanyUnique": false,
+  "TargetTableNumber": 446,
+  "TargetTableName": "Paucek-Armstrong",
+  "Completed": true,
+  "LeftSelectionId": 783,
+  "RightSelectionId": 648,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Reilly Group",
-  "ShadowProviderName": "Graham, Roob and Swaniawski",
-  "ChartKey": "illo",
-  "LastLoaded": "2019-08-27T03:47:00.2849361+02:00",
-  "LastLoadedBy": 918,
+  "MainProviderName": "Miller-Ratke",
+  "ShadowProviderName": "Stehr Group",
+  "ChartKey": "et",
+  "LastLoaded": "2016-11-13T11:24:53.5624345+01:00",
+  "LastLoadedBy": 562,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-22T03:47:00.2849361+01:00",
-  "LastMembershipChangeBy": 194,
+  "LastMembershipChange": "2009-09-03T11:24:53.5624345+02:00",
+  "LastMembershipChangeBy": 480,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Tremblay-Pfannerstill",
-  "DashboardTileDefinitionId": 905,
+  "MainHeading": "harum",
+  "MemberTabHeading": "expedita",
+  "MailingsProviderName": "Kovacek, Hyatt and Koch",
+  "DashboardTileDefinitionId": 119,
   "VisibleFor": [
     {
-      "VisibleId": 83,
+      "VisibleId": 556,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 678
         }
       }
     },
     {
-      "VisibleId": 83,
+      "VisibleId": 556,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 678
         }
       }
     }
@@ -181,8 +181,8 @@ Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

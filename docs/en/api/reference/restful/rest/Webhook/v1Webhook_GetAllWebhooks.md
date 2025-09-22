@@ -30,8 +30,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=aut
-GET /api/v1/Webhook?eventFilter=assumenda
+GET /api/v1/Webhook?nameFilter=quae
+GET /api/v1/Webhook?eventFilter=ipsa
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 562,
-    "Name": "Ryan, Parker and Rempel",
+    "WebhookId": 303,
+    "Name": "Hirthe-Bayer",
     "Events": [
-      "modi",
-      "unde"
+      "debitis",
+      "maxime"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "placeat",
+    "Secret": "accusamus",
     "State": "Active",
-    "Type": "magnam",
+    "Type": "qui",
     "Headers": {
-      "Headers1": "fugit",
-      "Headers2": "quos"
+      "Headers1": "aut",
+      "Headers2": "dolor"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-05-04T03:47:00.5505518+02:00",
+    "Registered": "2009-01-05T11:24:53.8280427+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2015-09-28T03:47:00.5505518+02:00",
+    "Updated": "2014-04-14T11:24:53.8280427+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "marquis@okon.ca"
+    "ErrorsEmail": "kamille@stanton.com"
   }
 ]
 ```

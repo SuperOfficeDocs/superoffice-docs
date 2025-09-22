@@ -68,34 +68,36 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 791,
+  "ProjectId": 568,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 395,
-      "ContactId": 553,
-      "ProjectId": 337,
-      "ContactName": "Gleichner Group",
-      "ContactDepartment": "",
-      "ProjectName": "Murray, Beer and Sanford",
-      "EmailId": 957,
-      "EmailAddress": "kailee.watsica@beahan.info",
-      "CountryId": 832,
-      "Firstname": "Nils",
-      "MiddleName": "Daniel-Beer",
-      "Lastname": "Leuschke",
-      "PersonId": 805,
-      "Mrmrs": "delectus",
-      "ProjectMemberTypeName": "Kuhn LLC",
-      "Phone": "831.490.0324 x171",
-      "PhoneId": 373,
-      "ProjectMemberTypeId": 763,
-      "EmailAddressName": "fabiola@huel.info",
-      "Comment": "autem",
-      "FullName": "Marcus Bashirian"
+      "ProjectmemberId": 997,
+      "ContactId": 695,
+      "ProjectId": 640,
+      "ContactName": "Russel Group",
+      "ContactDepartment": "target sticky content",
+      "ProjectName": "Schinner Inc and Sons",
+      "EmailId": 327,
+      "EmailAddress": "freda@maggio.name",
+      "CountryId": 493,
+      "Firstname": "Isabell",
+      "MiddleName": "Friesen-Anderson",
+      "Lastname": "Feest",
+      "PersonId": 222,
+      "Mrmrs": "cumque",
+      "ProjectMemberTypeName": "Kreiger-Corwin",
+      "Phone": "1-666-564-7493 x2954",
+      "PhoneId": 708,
+      "ProjectMemberTypeId": 9,
+      "EmailAddressName": "sandra.cassin@hettinger.biz",
+      "Comment": "ea",
+      "FullName": "Amely Funk",
+      "Registered": "2021-08-10T11:24:48.5001409+02:00",
+      "Updated": "2011-06-25T11:24:48.5001409+02:00"
     }
   ]
 }

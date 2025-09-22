@@ -163,7 +163,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ducimus",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -182,90 +182,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-11-03T03:47:00.2380627+01:00",
-  "Amount": 17547.266,
-  "SaleId": 857,
-  "Earning": 25745.809999999998,
-  "EarningPercent": 24341.778,
-  "Heading": "eveniet",
-  "Number": "1164061",
-  "Probability": 821,
-  "CreatedDate": "2002-05-25T03:47:00.2380627+02:00",
-  "UpdatedDate": "2001-09-08T03:47:00.2380627+02:00",
+  "Saledate": "2006-08-01T11:24:53.5155612+02:00",
+  "Amount": 7925.8859999999995,
+  "SaleId": 407,
+  "Earning": 29854.484,
+  "EarningPercent": 5186.7699999999995,
+  "Heading": "voluptatem",
+  "Number": "1110515",
+  "Probability": 895,
+  "CreatedDate": "2017-09-07T11:24:53.5155612+02:00",
+  "UpdatedDate": "1999-10-28T11:24:53.5155612+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 269,
+  "ActiveLinks": 116,
   "Links": [
     {
-      "EntityName": "Beier-Hansen",
-      "Id": 308,
-      "Description": "Mandatory intermediate process improvement",
-      "ExtraInfo": "sint",
-      "LinkId": 984
+      "EntityName": "O'Conner, Ruecker and Monahan",
+      "Id": 69,
+      "Description": "Ergonomic global workforce",
+      "ExtraInfo": "accusantium",
+      "LinkId": 885
     },
     {
-      "EntityName": "Beier-Hansen",
-      "Id": 308,
-      "Description": "Mandatory intermediate process improvement",
-      "ExtraInfo": "sint",
-      "LinkId": 984
+      "EntityName": "O'Conner, Ruecker and Monahan",
+      "Id": 69,
+      "Description": "Ergonomic global workforce",
+      "ExtraInfo": "accusantium",
+      "LinkId": 885
     }
   ],
-  "NextDueDate": "2012-08-29T03:47:00.2380627+02:00",
-  "Postit": "exercitationem",
+  "NextDueDate": "2025-01-04T11:24:53.5155612+01:00",
+  "Postit": "ipsum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-08-05T03:47:00.2380627+02:00",
+  "ReopenDate": "2019-05-07T11:24:53.5155612+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "West LLC",
-      "Comment": "ratione",
-      "StakeholderRoleId": 635,
-      "CountryId": 573,
-      "PersonId": 761,
-      "EmailDescription": "ewald@jast.info",
-      "EmailId": 359,
-      "EmailAddress": "dan_bradtke@lemke.com",
-      "PhoneId": 139,
-      "ContactName": "Collier, Hane and Doyle",
-      "ContactId": 332,
-      "SaleId": 669,
-      "Mrmrs": "doloribus",
-      "Firstname": "Maximilian",
-      "MiddleName": "Erdman, Schoen and Schimmel",
-      "Lastname": "Kuphal",
-      "SaleStakeholderId": 510,
-      "Rank": 539,
-      "Phone": "(686)875-1648 x1968"
+      "StakeholderRoleName": "Yundt Group",
+      "Comment": "architecto",
+      "StakeholderRoleId": 407,
+      "CountryId": 292,
+      "PersonId": 84,
+      "EmailDescription": "lucy.schultz@quigleyfeest.biz",
+      "EmailId": 724,
+      "EmailAddress": "cassidy@lesch.biz",
+      "PhoneId": 769,
+      "ContactName": "Maggio LLC",
+      "ContactId": 30,
+      "SaleId": 956,
+      "Mrmrs": "quo",
+      "Firstname": "Tracey",
+      "MiddleName": "Wehner-Gislason",
+      "Lastname": "Parisian",
+      "SaleStakeholderId": 861,
+      "Rank": 713,
+      "Phone": "070.147.1841 x3013"
     }
   ],
-  "ActiveErpLinks": 8,
+  "ActiveErpLinks": 202,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Trisha Paige Harris DDS",
-    "SuperOffice:2": "Imelda Pfannerstill"
+    "SuperOffice:1": "Lucy Abbott",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "ut"
+    "CustomFields1": "dolor",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2003-05-21T03:47:00.2380627+02:00",
-  "PublishTo": "1999-11-17T03:47:00.2380627+01:00",
-  "PublishFrom": "2024-03-05T03:47:00.2380627+01:00",
+  "PublishEventDate": "2009-08-23T11:24:53.5155612+02:00",
+  "PublishTo": "2007-09-29T11:24:53.5155612+02:00",
+  "PublishFrom": "2019-07-22T11:24:53.5155612+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 997,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "iste"
+      "DisplayValue": "rem"
     },
     {
-      "VisibleId": 997,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "iste"
+      "DisplayValue": "rem"
     }
   ]
 }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "accusamus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -293,113 +293,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-10-22T03:47:00.2380627+02:00",
-  "Amount": 10912.588,
-  "SaleId": 675,
-  "Earning": 1472.98,
-  "EarningPercent": 25614.182,
-  "Heading": "odit",
-  "Number": "1404093",
-  "Probability": 867,
-  "CreatedDate": "2021-11-13T03:47:00.2380627+01:00",
-  "UpdatedDate": "2014-04-06T03:47:00.2380627+02:00",
+  "Saledate": "2007-05-26T11:24:53.5155612+02:00",
+  "Amount": 14729.8,
+  "SaleId": 114,
+  "Earning": 28334.494,
+  "EarningPercent": 4249.704,
+  "Heading": "ducimus",
+  "Number": "970356",
+  "Probability": 9,
+  "CreatedDate": "1999-11-30T11:24:53.5155612+01:00",
+  "UpdatedDate": "2005-02-28T11:24:53.5155612+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 12,
+  "ActiveLinks": 598,
   "Links": [
     {
-      "EntityName": "Ankunding-Macejkovic",
-      "Id": 982,
-      "Description": "Multi-lateral stable encoding",
-      "ExtraInfo": "alias",
-      "LinkId": 736,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2017-06-26T03:47:00.2380627+02:00",
-  "Postit": "ipsam",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1999-11-12T03:47:00.2380627+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Larson-Renner",
-      "Comment": "voluptatum",
-      "StakeholderRoleId": 471,
-      "CountryId": 838,
-      "PersonId": 368,
-      "EmailDescription": "anita.thompson@blockshanahan.ca",
-      "EmailId": 65,
-      "EmailAddress": "josiah_leannon@kovacek.uk",
-      "PhoneId": 314,
-      "ContactName": "Bashirian Group",
-      "ContactId": 461,
-      "SaleId": 567,
-      "Mrmrs": "odio",
-      "Firstname": "Linnea",
-      "MiddleName": "Hartmann-Casper",
-      "Lastname": "Kulas",
-      "SaleStakeholderId": 764,
-      "Rank": 267,
-      "Phone": "024-135-6797 x35699",
+      "EntityName": "DuBuque, Bechtelar and Kunze",
+      "Id": 418,
+      "Description": "Fundamental bandwidth-monitored product",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 159,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 33
         }
       }
     }
   ],
-  "ActiveErpLinks": 245,
+  "NextDueDate": "2007-02-04T11:24:53.5155612+01:00",
+  "Postit": "quos",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2010-09-19T11:24:53.5155612+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Volkman Group",
+      "Comment": "ea",
+      "StakeholderRoleId": 869,
+      "CountryId": 886,
+      "PersonId": 65,
+      "EmailDescription": "kristoffer.gutkowski@satterfield.com",
+      "EmailId": 519,
+      "EmailAddress": "marcelo.miller@corkery.ca",
+      "PhoneId": 668,
+      "ContactName": "Schmidt, Klein and Jast",
+      "ContactId": 903,
+      "SaleId": 60,
+      "Mrmrs": "sed",
+      "Firstname": "Felipe",
+      "MiddleName": "Klocko, Stamm and Schulist",
+      "Lastname": "Boehm",
+      "SaleStakeholderId": 769,
+      "Rank": 412,
+      "Phone": "298.304.6903",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 853
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 423,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jarrod Katherine Cormier Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "200902503",
+    "SuperOffice:2": "1466733668"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "pariatur"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2000-09-20T03:47:00.2380627+02:00",
-  "PublishTo": "2014-02-20T03:47:00.2380627+01:00",
-  "PublishFrom": "2011-04-21T03:47:00.2380627+02:00",
+  "PublishEventDate": "2005-10-23T11:24:53.5155612+02:00",
+  "PublishTo": "2010-05-30T11:24:53.5155612+02:00",
+  "PublishFrom": "2020-04-16T11:24:53.5155612+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 602,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldLength": 406
         }
       }
     },
     {
-      "VisibleId": 602,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldLength": 406
         }
       }
     }
@@ -409,7 +409,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 638
     }
   },
   "_Links": {

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 473,
-  "Section": "illum",
-  "Key": "rerum",
-  "Name": "Wyman-Abbott",
+  "PrefDescId": 878,
+  "Section": "sint",
+  "Key": "autem",
+  "Name": "Ortiz-Zemlak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized even-keeled time-frame",
+  "Description": "User-friendly analyzing monitoring",
   "IsBuiltin": true,
-  "TableName": "Carter, Lueilwitz and Ryan",
-  "UserDefinedListId": 789,
-  "Rank": 888,
-  "SubGroup": "et",
-  "MinLevel": 233,
-  "MaxValue": 120,
-  "MinValue": 523,
-  "RequiredLicense": "et",
+  "TableName": "Stark, Lowe and Barton",
+  "UserDefinedListId": 333,
+  "Rank": 14,
+  "SubGroup": "similique",
+  "MinLevel": 263,
+  "MaxValue": 441,
+  "MinValue": 329,
+  "RequiredLicense": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

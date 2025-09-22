@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abshire, Goyette and Heller",
-  "FieldName": "Simonis Group"
+  "TableName": "Greenfelder Group",
+  "FieldName": "Casper, Dooley and Bailey"
 }
 ```
 
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Medhurst LLC",
-  "DisplayName": "White LLC",
-  "Description": "Proactive real-time access",
-  "ShortLabel": "vero",
+  "FieldName": "Wiegand, Howe and Kuhic",
+  "DisplayName": "Nicolas, Barton and Bogan",
+  "Description": "Cross-group reciprocal structure",
+  "ShortLabel": "assumenda",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "HideField": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 359,
-  "TemplateVariableName": "Cronin, Dooley and Wiegand"
+  "IsDisplayField": true,
+  "Rank": 944,
+  "TemplateVariableName": "Stracke, Hilll and Stark"
 }
 ```

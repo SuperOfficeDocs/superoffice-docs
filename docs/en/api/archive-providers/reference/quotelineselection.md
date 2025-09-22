@@ -770,7 +770,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=alternative/version/quote/sale/person/email/emailAddress,alternative/version/quote/sale/person/personAssociate/userName,alternative/version/quote/sale/person/correspondingAssociate/assocType,alternative/version/quote/sale/contact/hasInterests,alternative/version/quote/sale/contact/restrictionAddress/wgs84longitude
+GET /api/v1/archive/QuoteLineSelection?$select=quoteLineThumbnail,alternative/version/quote/sale/person/personNumber,alternative/version/quote/sale/person/personNoMail,alternative/version/quote/sale/person/personAssociate/fullName,alternative/version/quote/sale/person/personAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

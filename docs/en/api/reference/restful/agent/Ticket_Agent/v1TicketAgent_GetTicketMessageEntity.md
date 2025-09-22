@@ -27,7 +27,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=684
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=374
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -103,79 +103,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 355,
+  "EjMessageId": 294,
   "Ticket": null,
-  "CreatedAt": "1998-11-25T03:46:55.5351045+01:00",
+  "CreatedAt": "2020-06-12T11:24:48.8595017+02:00",
   "CreatedBy": null,
-  "Author": "iusto",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 510,
-  "Body": "nobis",
-  "HtmlBody": "unde",
-  "EmailHeader": "alexandrine@mitchell.info",
-  "DebugInfo": "dignissimos",
-  "MailSorter": "nostrum",
+  "MessageId": "nesciunt",
+  "TimeSpent": 831,
+  "Body": "explicabo",
+  "HtmlBody": "dolore",
+  "EmailHeader": "tillman_windler@zulauf.uk",
+  "DebugInfo": "sed",
+  "MailSorter": "consequatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tenetur",
+  "SearchTitle": "esse",
   "MessageHeaders": [
     {
-      "Id": 596,
-      "Name": "Nienow Group",
-      "Value": "quam",
+      "Id": 588,
+      "Name": "Mills-Daniel",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldType": "System.Int32",
+          "FieldLength": 81
         }
       }
     }
   ],
   "Important": false,
-  "Language": "perspiciatis",
-  "Sentiment": 999,
-  "SentimentConfidence": 782,
+  "Language": "culpa",
+  "Sentiment": 507,
+  "SentimentConfidence": 98,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 724,
-      "Name": "Luettgen, Cruickshank and Hudson",
-      "ContentType": "sed",
-      "AttSize": 612,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "iste",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 91,
+      "Name": "Bailey-Lubowitz",
+      "ContentType": "recusandae",
+      "AttSize": 411,
+      "InlineImage": true,
+      "ContentId": "hic",
+      "AuthKey": "ipsa",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 686
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "impedit"
+    "CustomFields1": "corporis",
+    "CustomFields2": "quos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 844
     }
   }
 }

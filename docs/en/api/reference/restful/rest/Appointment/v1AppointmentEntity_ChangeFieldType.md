@@ -105,7 +105,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 442,
-  "ColumnId": 36,
-  "FieldDefault": "aliquid",
-  "FieldHeight": 934,
-  "FieldLabel": "facilis",
-  "FieldLeft": 414,
-  "FieldTop": 983,
+  "UDefFieldId": 52,
+  "ColumnId": 834,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 22,
+  "FieldLabel": "aspernatur",
+  "FieldLeft": 262,
+  "FieldTop": 386,
   "FieldType": "Checkbox",
-  "FieldWidth": 308,
-  "FormatMask": "qui",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 690,
-  "LabelLeft": 29,
-  "LabelTop": 654,
-  "LabelWidth": 74,
-  "LastVersionId": 510,
-  "ListTableId": 799,
-  "IsMandatory": true,
+  "FieldWidth": 861,
+  "FormatMask": "quasi",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 598,
+  "LabelLeft": 586,
+  "LabelTop": 136,
+  "LabelWidth": 745,
+  "LastVersionId": 569,
+  "ListTableId": 751,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 319,
-  "ProgId": "maxime",
-  "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 114,
-  "TextLength": 590,
+  "Page1LineNo": 654,
+  "ProgId": "aut",
+  "IsReadOnly": true,
+  "ShortLabel": "saepe",
+  "TabOrder": 525,
+  "TextLength": 589,
   "Tooltip": "voluptatum",
-  "UdefIdentity": 526,
-  "UDListDefinitionId": 159,
+  "UdefIdentity": 554,
+  "UDListDefinitionId": 244,
   "Justification": "Center",
-  "Version": 626,
-  "TemplateVariableName": "Legros, Ratke and Thompson",
-  "HasBeenPublished": true,
-  "MdoListName": "Walsh, Grady and Hartmann",
+  "Version": 403,
+  "TemplateVariableName": "Waters, Bins and Buckridge",
+  "HasBeenPublished": false,
+  "MdoListName": "Gibson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 756
     }
   }
 }

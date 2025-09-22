@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "possimus",
+  "UniqueIdentifier": "amet",
   "Crmscript": null
 }
 ```
@@ -103,23 +103,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Stanton, Runolfsdottir and Kuhn",
-  "Description": "Total bifurcated forecast",
-  "IncludeId": "excepturi",
-  "Source": "voluptatem",
-  "Registered": "1998-06-07T03:46:54.5663888+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2005-04-05T03:46:54.5663888+02:00",
-  "UpdatedBy": "unde",
-  "Path": "vitae",
+  "UniqueIdentifier": "natus",
+  "Name": "Bartell Inc and Sons",
+  "Description": "Automated homogeneous software",
+  "IncludeId": "dolores",
+  "Source": "non",
+  "Registered": "2021-02-12T11:24:47.8439178+01:00",
+  "RegisteredBy": "dolore",
+  "Updated": "2000-02-05T11:24:47.8439178+01:00",
+  "UpdatedBy": "sed",
+  "Path": "natus",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 219
     }
   }
 }

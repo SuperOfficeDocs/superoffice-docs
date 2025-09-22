@@ -86,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Dickens-Wilderman",
-    "Tooltip": "optio",
+    "Id": 324,
+    "Name": "Torp Group",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 604,
-    "IsCustomList": true,
+    "Rank": 880,
+    "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "consequatur",
+    "UseGroupsAndHeadings": true,
+    "ListType": "doloremque",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 342
       }
     }
   }

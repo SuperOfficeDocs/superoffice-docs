@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Becker, Schmeler and Okuneva",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 579,
-  "Rank": 966,
+  "Id": 319,
+  "Name": "Nicolas-Reilly",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 262,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 191
     }
   }
 }

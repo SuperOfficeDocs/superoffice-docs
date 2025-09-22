@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Hodkiewicz, Wiza and O'Kon",
-    "ToolTip": "Est expedita consequuntur nostrum dicta est nihil a.",
+    "Id": 288,
+    "Name": "Parisian Inc and Sons",
+    "ToolTip": "Quis consequuntur et et dolorem.",
     "Deleted": false,
-    "Rank": 716,
-    "Type": "aut",
+    "Rank": 552,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Padberg Group",
-        "ToolTip": "Exercitationem maiores iure explicabo praesentium officia nam.",
+        "Id": 299,
+        "Name": "Schroeder-Reichert",
+        "ToolTip": "Dolores atque molestiae vel est.",
         "Deleted": true,
-        "Rank": 293,
-        "Type": "autem",
+        "Rank": 895,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 318,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "rerum",
-        "FullName": "Jeff Schneider",
+        "IconHint": "numquam",
+        "ColorBlock": 719,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "beatae",
+        "FullName": "Kyleigh Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 165
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 442,
-    "ExtraInfo": "rem",
-    "StyleHint": "quam",
-    "FullName": "Mr. Noemie Margarett Schaefer IV",
+    "IconHint": "expedita",
+    "ColorBlock": 248,
+    "ExtraInfo": "at",
+    "StyleHint": "similique",
+    "FullName": "Alverta Joany Hickle Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 376
       }
     }
   }

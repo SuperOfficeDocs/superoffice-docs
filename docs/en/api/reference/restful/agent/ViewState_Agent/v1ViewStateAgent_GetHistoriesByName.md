@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Beatty-Willms"
+  "HistoryName": "Bahringer-Bode"
 }
 ```
 
@@ -96,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 46,
-    "Id": 430,
-    "HistoryName": "Heidenreich LLC",
-    "HistoryId": 490,
-    "AssociateId": 564,
-    "Name": "Cole Inc and Sons",
-    "ItemInfo": "non",
+    "Rank": 252,
+    "Id": 41,
+    "HistoryName": "Frami Group",
+    "HistoryId": 591,
+    "AssociateId": 760,
+    "Name": "Koelpin-Cummings",
+    "ItemInfo": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldLength": 899
       }
     }
   }

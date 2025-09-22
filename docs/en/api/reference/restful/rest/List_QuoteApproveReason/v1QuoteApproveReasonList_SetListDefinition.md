@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Kuphal-Stanton",
-  "Tooltip": "ad",
-  "Deleted": false,
-  "Rank": 941,
+  "Id": 185,
+  "Name": "Jakubowski, Schowalter and Medhurst",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 520,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
+  "UseGroupsAndHeadings": true,
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 301,
-  "Name": "Russel-Haag",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "Rank": 478,
+  "Id": 930,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 595,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 491
     }
   }
 }

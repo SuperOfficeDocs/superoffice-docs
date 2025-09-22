@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nobis
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=accusantium
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Oct 2014 03:47:00 G10T
+Last-Modified: Sat, 06 Dec 2008 11:24:53 G12T
 
 {
-  "Key": "laudantium",
-  "Value": "quas",
-  "RecordId": 907,
-  "CreatedDate": "2024-12-23T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-10-06T03:47:00.0349452+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "quo",
-  "TableName": "Labadie LLC",
+  "Key": "sequi",
+  "Value": "magnam",
+  "RecordId": 345,
+  "CreatedDate": "2007-02-14T11:24:53.2968202+01:00",
+  "UpdatedDate": "2008-12-06T11:24:53.2968202+01:00",
+  "UpdatedBy": "quos",
+  "CreatedBy": "accusamus",
+  "TableName": "Bosco Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 622
     }
   }
 }

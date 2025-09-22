@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Johns-Murphy",
-    "ToolTip": "Molestiae facilis iste soluta ipsa assumenda est delectus.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "non",
-    "ColorBlock": 225,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "2010-01-22T03:47:00.7536695+01:00",
+    "Id": 452,
+    "Name": "Crooks-Swift",
+    "ToolTip": "Hic tempore expedita.",
+    "Deleted": false,
+    "Rank": 177,
+    "Type": "odit",
+    "ColorBlock": 394,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2006-02-08T11:24:54.0311654+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Wolf-Swaniawski",
-        "ToolTip": "Laborum ut cupiditate saepe ut distinctio.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "et",
-        "ColorBlock": 679,
-        "IconHint": "enim",
+        "Id": 372,
+        "Name": "Olson, Funk and Von",
+        "ToolTip": "Voluptatum corporis omnis est.",
+        "Deleted": false,
+        "Rank": 168,
+        "Type": "voluptas",
+        "ColorBlock": 650,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2010-04-23T03:47:00.7536695+02:00",
+        "LastChanged": "2010-01-27T11:24:54.0311654+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Yasmin Nasir Lubowitz Sr.",
+        "FullName": "Miss Ryann Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Miss Lexi Borer Sr.",
+    "FullName": "Dustin Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 972
       }
     }
   }

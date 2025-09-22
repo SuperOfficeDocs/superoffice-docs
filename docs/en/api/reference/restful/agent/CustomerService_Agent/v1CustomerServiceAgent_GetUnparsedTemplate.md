@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 749,
-  "LanguageId": 31
+  "ReplyTemplateId": 726,
+  "LanguageId": 297
 }
 ```
 
@@ -97,36 +97,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 763,
-  "PlainParsed": "deserunt",
-  "HtmlParsed": "est",
+  "ReplyTemplateId": 90,
+  "PlainParsed": "excepturi",
+  "HtmlParsed": "voluptas",
   "Attachments": [
     {
-      "AttachmentId": 318,
-      "Name": "Langosh, Wuckert and Tillman",
-      "ContentType": "adipisci",
-      "AttSize": 901,
-      "InlineImage": false,
-      "ContentId": "tempora",
-      "AuthKey": "itaque",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 913,
+      "Name": "Parker-Grady",
+      "ContentType": "rerum",
+      "AttSize": 491,
+      "InlineImage": true,
+      "ContentId": "repellendus",
+      "AuthKey": "quia",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 933
         }
       }
     }
   ],
-  "Subject": "sed",
+  "Subject": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 906
     }
   }
 }

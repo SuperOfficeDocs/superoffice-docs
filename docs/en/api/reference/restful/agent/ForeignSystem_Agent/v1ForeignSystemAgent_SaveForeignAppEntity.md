@@ -80,23 +80,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 548,
-  "Name": "Nolan Group",
-  "CreatedDate": "2003-04-08T03:46:54.8320045+02:00",
-  "UpdatedDate": "2012-07-08T03:46:54.8320045+02:00",
+  "ForeignAppId": 132,
+  "Name": "Breitenberg Inc and Sons",
+  "CreatedDate": "2013-05-14T11:24:48.1564051+02:00",
+  "UpdatedDate": "2009-02-06T11:24:48.1564051+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 594,
-      "Name": "Schumm-Champlin",
-      "CreatedDate": "2007-04-05T03:46:54.8320045+02:00",
-      "UpdatedDate": "2023-07-09T03:46:54.8320045+02:00",
-      "AssociateFullName": "Cleo Watsica III",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 595
+      "ForeignDeviceId": 585,
+      "Name": "Collins-Schinner",
+      "CreatedDate": "2003-04-07T11:24:48.1564051+02:00",
+      "UpdatedDate": "2002-08-21T11:24:48.1564051+02:00",
+      "AssociateFullName": "Ms. Avis Alba Jewess PhD",
+      "CreatedBy": "eaque",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 409
     }
   ]
 }
@@ -109,29 +109,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 710,
-  "Name": "Leannon-Greenholt",
-  "CreatedDate": "2017-08-11T03:46:54.8320045+02:00",
-  "UpdatedDate": "2024-08-07T03:46:54.8320045+02:00",
+  "ForeignAppId": 302,
+  "Name": "Leannon LLC",
+  "CreatedDate": "2019-08-12T11:24:48.1564051+02:00",
+  "UpdatedDate": "2023-12-24T11:24:48.1564051+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 574,
-      "Name": "Wisozk-Reilly",
-      "CreatedDate": "2008-02-13T03:46:54.8320045+01:00",
-      "UpdatedDate": "2025-05-25T03:46:54.8320045+02:00",
-      "AssociateFullName": "Wilburn Gibson",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 884,
+      "ForeignDeviceId": 206,
+      "Name": "Kassulke Group",
+      "CreatedDate": "2018-10-10T11:24:48.1564051+02:00",
+      "UpdatedDate": "2017-07-09T11:24:48.1564051+02:00",
+      "AssociateFullName": "Mr. Albina Frederik Bode PhD",
+      "CreatedBy": "natus",
+      "UpdatedBy": "excepturi",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 259,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 842
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 145
     }
   }
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 827,
-  "Name": "Rice, Lebsack and Heller",
-  "Tooltip": "in",
+  "HeadingId": 144,
+  "Name": "Zulauf Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 444,
-  "UdListDefinitionId": 62
+  "Rank": 195,
+  "UdListDefinitionId": 585
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 428,
-  "Name": "Luettgen-Sawayn",
-  "Tooltip": "veniam",
+  "HeadingId": 850,
+  "Name": "Turcotte-Walker",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 590,
-  "UdListDefinitionId": 594,
+  "Rank": 714,
+  "UdListDefinitionId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 169
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   }
 }

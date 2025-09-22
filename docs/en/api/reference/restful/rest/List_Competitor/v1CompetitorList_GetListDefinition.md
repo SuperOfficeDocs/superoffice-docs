@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Kertzmann Group",
-  "Tooltip": "explicabo",
+  "Id": 76,
+  "Name": "Mayer, Ebert and Wintheiser",
+  "Tooltip": "porro",
   "Deleted": true,
-  "Rank": 106,
+  "Rank": 276,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   },
   "_Links": {

@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 471
+  "BoardViewSettingsId": 377
 }
 ```
 

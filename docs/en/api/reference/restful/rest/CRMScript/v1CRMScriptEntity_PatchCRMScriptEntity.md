@@ -130,18 +130,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quos",
+    "path": "quaerat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quos",
+    "path": "quaerat",
     "value": {}
   }
 ]
@@ -154,58 +154,58 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 215,
-  "UniqueIdentifier": "error",
-  "Name": "Kuhic LLC",
-  "Description": "Multi-channelled coherent ability",
-  "IncludeId": "dolores",
-  "AccessKey": "sed",
-  "HierarchyId": 473,
-  "Source": "impedit",
-  "SourceCode": "unde",
+  "EjscriptId": 820,
+  "UniqueIdentifier": "dolorem",
+  "Name": "Rippin, Ward and Spencer",
+  "Description": "Down-sized user-facing contingency",
+  "IncludeId": "ab",
+  "AccessKey": "eum",
+  "HierarchyId": 627,
+  "Source": "voluptatum",
+  "SourceCode": "enim",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 578,
+  "HtmlOutput": 589,
   "Includes": [
-    256,
-    924
+    915,
+    261
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 719,
-      "LineNumberTo": 792,
-      "Delta": 222,
-      "IncludeId": "rem",
+      "LineNumberFrom": 493,
+      "LineNumberTo": 897,
+      "Delta": 1002,
+      "IncludeId": "modi",
       "IncludedFrom": [
-        "a",
-        "ex"
+        "neque",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 149
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2008-01-23T03:46:59.8943184+01:00",
-  "RegisteredAssociateId": 263,
-  "Updated": "2013-07-15T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 263,
+  "Registered": "2002-02-11T11:24:53.156201+01:00",
+  "RegisteredAssociateId": 754,
+  "Updated": "2015-01-15T11:24:53.156201+01:00",
+  "UpdatedAssociateId": 67,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 829
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

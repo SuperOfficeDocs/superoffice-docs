@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Torphy Group",
-    "ToolTip": "Culpa ut est totam consequatur voluptates.",
-    "Deleted": false,
-    "Rank": 492,
-    "Type": "pariatur",
-    "ColorBlock": 112,
-    "IconHint": "ex",
+    "Id": 194,
+    "Name": "Dickens Inc and Sons",
+    "ToolTip": "Et sunt quibusdam amet sapiente eos.",
+    "Deleted": true,
+    "Rank": 585,
+    "Type": "consectetur",
+    "ColorBlock": 353,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2023-04-29T03:47:00.7849183+02:00",
+    "LastChanged": "2005-08-30T11:24:54.1092872+02:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Daniel-Rau",
-        "ToolTip": "Aspernatur tenetur aut.",
-        "Deleted": true,
-        "Rank": 761,
-        "Type": "deserunt",
-        "ColorBlock": 93,
-        "IconHint": "id",
+        "Id": 879,
+        "Name": "McDermott Inc and Sons",
+        "ToolTip": "Consequatur animi quasi qui voluptatibus dolore sit nemo.",
+        "Deleted": false,
+        "Rank": 43,
+        "Type": "in",
+        "ColorBlock": 441,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2002-12-07T03:47:00.7849183+01:00",
+        "LastChanged": "2015-11-08T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "sunt",
+        "StyleHint": "accusamus",
         "Hidden": true,
-        "FullName": "Ayden Reilly"
+        "FullName": "Jayne Kip Hills Sr."
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Daryl Watsica"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Dr. Dereck Moen I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Sanford-Stroman",
-    "ToolTip": "Sequi inventore expedita aliquam.",
-    "Deleted": true,
-    "Rank": 802,
-    "Type": "laborum",
-    "ColorBlock": 18,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2022-05-30T03:47:00.7849183+02:00",
+    "Id": 690,
+    "Name": "Schumm LLC",
+    "ToolTip": "Odio suscipit quod nisi quis minus distinctio maiores.",
+    "Deleted": false,
+    "Rank": 654,
+    "Type": "in",
+    "ColorBlock": 455,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2019-04-20T11:24:54.1092872+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Stracke-Corkery",
-        "ToolTip": "Et provident quod explicabo sapiente sit sed.",
-        "Deleted": true,
-        "Rank": 691,
-        "Type": "laborum",
-        "ColorBlock": 196,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2018-05-31T03:47:00.7849183+02:00",
+        "Id": 593,
+        "Name": "Schamberger, Schneider and Funk",
+        "ToolTip": "Incidunt voluptatibus nemo.",
+        "Deleted": false,
+        "Rank": 248,
+        "Type": "voluptatibus",
+        "ColorBlock": 314,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2007-12-31T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "id",
+        "ExtraInfo": "velit",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Frederic Buckridge",
+        "FullName": "Ms. Krystina Ethel Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldType": "System.String",
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "esse",
-    "Hidden": false,
-    "FullName": "Mr. Jaleel Hickle",
+    "ExtraInfo": "atque",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Nyah Adelle Cole V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 356
       }
     }
   }

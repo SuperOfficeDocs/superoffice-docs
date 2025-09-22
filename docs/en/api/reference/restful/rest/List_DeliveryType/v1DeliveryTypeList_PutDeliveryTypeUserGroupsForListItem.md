@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Parisian, Reinger and Kunde",
-    "ToolTip": "Voluptas expedita dolores eos.",
+    "Id": 830,
+    "Name": "Feeney, Durgan and Nitzsche",
+    "ToolTip": "Fugit fugit necessitatibus commodi.",
     "Deleted": false,
-    "Rank": 946,
-    "Type": "natus",
-    "ColorBlock": 693,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2006-01-17T03:47:00.6442984+01:00",
+    "Rank": 655,
+    "Type": "reprehenderit",
+    "ColorBlock": 883,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2017-03-06T11:24:53.9217949+01:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "Schuppe Group",
-        "ToolTip": "Aut exercitationem sapiente ut aut qui nulla distinctio.",
-        "Deleted": true,
-        "Rank": 764,
-        "Type": "nisi",
-        "ColorBlock": 232,
-        "IconHint": "atque",
+        "Id": 771,
+        "Name": "Pacocha, Jenkins and Schultz",
+        "ToolTip": "Rerum velit rerum nostrum sed.",
+        "Deleted": false,
+        "Rank": 297,
+        "Type": "maxime",
+        "ColorBlock": 637,
+        "IconHint": "iste",
         "Selected": true,
-        "LastChanged": "2014-11-08T03:47:00.6442984+01:00",
+        "LastChanged": "2001-01-11T11:24:53.9217949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Electa Gusikowski"
+        "FullName": "Maryse Legros III"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Joel Herzog"
+    "ExtraInfo": "deleniti",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Alysa Deangelo Gleichner Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Goyette LLC",
-    "ToolTip": "Ut tempore.",
+    "Id": 354,
+    "Name": "Howe-Jacobs",
+    "ToolTip": "Voluptas aliquam consequatur.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "et",
-    "ColorBlock": 665,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2017-09-03T03:47:00.6442984+02:00",
+    "Rank": 940,
+    "Type": "est",
+    "ColorBlock": 746,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2021-03-06T11:24:53.9217949+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Nienow-DuBuque",
-        "ToolTip": "Iste est odit et sed.",
-        "Deleted": false,
-        "Rank": 528,
-        "Type": "eligendi",
-        "ColorBlock": 520,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2005-03-02T03:47:00.6442984+01:00",
+        "Id": 269,
+        "Name": "Cormier, Howe and Mitchell",
+        "ToolTip": "Voluptas ut vero dolor ab porro.",
+        "Deleted": true,
+        "Rank": 688,
+        "Type": "cum",
+        "ColorBlock": 270,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2023-04-16T11:24:53.9217949+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Ms. Gunner Schneider V",
+        "FullName": "Laurel Roberts Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Melisa Dietrich",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Myles Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

@@ -87,8 +87,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 845,
-  "TargetDimensionId": 970
+  "UserGroupId": 756,
+  "TargetDimensionId": 787
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 290,
+    "TargetAssignmentInfoId": 983,
     "Values": [
-      340,
-      713
+      827,
+      242
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 759,
-    "DimensionListItemDisplayName": "Friesen, Gottlieb and Jones",
+    "DimensionListItem": 118,
+    "DimensionListItemDisplayName": "Fisher Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 122
       }
     }
   }

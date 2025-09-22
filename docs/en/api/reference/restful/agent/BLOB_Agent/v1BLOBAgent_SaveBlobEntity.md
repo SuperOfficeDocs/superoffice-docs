@@ -88,23 +88,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 841,
-  "BlobSize": 176,
-  "Description": "Adaptive 24 hour policy",
-  "ExtraInfo": "cumque",
+  "BlobId": 426,
+  "BlobSize": 263,
+  "Description": "Upgradable clear-thinking framework",
+  "ExtraInfo": "perferendis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 900,
-  "CreatedDate": "2008-10-23T03:46:54.3007673+02:00",
-  "UpdatedDate": "2022-11-14T03:46:54.3007673+01:00",
+  "IsZipped": true,
+  "MimeType": "eum",
+  "OriginalSize": 5,
+  "CreatedDate": "2001-02-07T11:24:47.6251768+01:00",
+  "UpdatedDate": "2019-04-10T11:24:47.6251768+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus"
+  "ConceptualType": "dolorum"
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 898,
-  "BlobSize": 966,
-  "Description": "Multi-channelled well-modulated neural-net",
-  "ExtraInfo": "eum",
+  "BlobId": 669,
+  "BlobSize": 307,
+  "Description": "Self-enabling high-level parallelism",
+  "ExtraInfo": "doloremque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 972,
-  "CreatedDate": "1999-09-21T03:46:54.3007673+02:00",
-  "UpdatedDate": "2019-05-18T03:46:54.3007673+02:00",
+  "IsZipped": true,
+  "MimeType": "doloribus",
+  "OriginalSize": 550,
+  "CreatedDate": "2016-06-20T11:24:47.6251768+02:00",
+  "UpdatedDate": "2005-10-16T11:24:47.6251768+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 698
     }
   }
 }

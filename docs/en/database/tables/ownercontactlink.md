@@ -42,7 +42,7 @@ Table specifying which contacts can own associates.  All contacts that have rows
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 
 
 ## Replication Flags

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Auer Inc and Sons"
+  "UserName": "Champlin, Will and Yost"
 }
 ```
 
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 194,
-  "Name": "Barton, Renner and Smitham",
-  "Rank": 638,
-  "Tooltip": "eos",
+  "AssociateId": 206,
+  "Name": "Price-Lockman",
+  "Rank": 948,
+  "Tooltip": "asperiores",
   "LicenseOwners": [
     {
-      "Name": "Moore Inc and Sons",
-      "Description": "Multi-layered system-worthy synergy",
+      "Name": "Schimmel Inc and Sons",
+      "Description": "Public-key solution-oriented productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldType": "System.Int32",
+          "FieldLength": 937
         }
       }
     },
     {
-      "Name": "Moore Inc and Sons",
-      "Description": "Multi-layered system-worthy synergy",
+      "Name": "Schimmel Inc and Sons",
+      "Description": "Public-key solution-oriented productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldType": "System.Int32",
+          "FieldLength": 937
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "culpa",
-      "Tooltip": "magnam",
-      "Id": 800,
-      "Rank": 393,
+      "Value": "et",
+      "Tooltip": "natus",
+      "Id": 838,
+      "Rank": 323,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 538
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2001-02-13T03:46:55.5976024+01:00",
-  "Lastlogout": "2005-04-02T03:46:55.5976024+02:00",
-  "EjUserId": 608,
-  "RequestSignature": "velit",
+  "Lastlogin": "2015-01-30T11:24:48.9219987+01:00",
+  "Lastlogout": "2008-05-10T11:24:48.9219987+02:00",
+  "EjUserId": 70,
+  "RequestSignature": "ipsum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
+      "Value": "sed",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 569
         }
       }
     },
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
+      "Value": "sed",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 569
         }
       }
     }
   ],
-  "UserName": "Johnson-Sporer",
+  "UserName": "Hamill LLC",
   "TicketCategories": [
     {
-      "Id": 977,
-      "Name": "Mitchell-Lueilwitz",
-      "ToolTip": "Aut dicta qui explicabo.",
+      "Id": 61,
+      "Name": "Wunsch, Wehner and Hessel",
+      "ToolTip": "Dolores porro quaerat architecto ut ut.",
       "Deleted": false,
-      "Rank": 702,
-      "Type": "sunt",
+      "Rank": 322,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "asperiores",
-      "ColorBlock": 158,
-      "ExtraInfo": "aut",
-      "StyleHint": "nisi",
-      "FullName": "Madge Giovani Kling DDS",
+      "IconHint": "eum",
+      "ColorBlock": 446,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "id",
+      "FullName": "Jeramy Cassin Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 316
         }
       }
     }
   ],
-  "NickName": "Fay-Bosco",
-  "WaitingForApproval": true,
+  "NickName": "Harvey, Lubowitz and Swaniawski",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "officiis"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "ratione"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mayer, Huel and Dickinson",
-      "DisplayName": "McDermott-Corwin",
-      "Description": "Mandatory tertiary moratorium",
-      "ToolTip": "Recusandae ab architecto laudantium perferendis est magni.",
+      "Name": "Brakus Inc and Sons",
+      "DisplayName": "Lindgren, Feil and Shanahan",
+      "Description": "Optional bandwidth-monitored throughput",
+      "ToolTip": "Ut id officia nihil nostrum.",
       "Actions": "Implicit",
-      "ActionData": "est",
+      "ActionData": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 14
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 598
     }
   }
 }

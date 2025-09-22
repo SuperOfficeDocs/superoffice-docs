@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "voluptate",
+  "Id": 325,
+  "Name": "Schamberger Group",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 646,
+  "Rank": 230,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "cum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 95
     }
   },
   "_Links": {

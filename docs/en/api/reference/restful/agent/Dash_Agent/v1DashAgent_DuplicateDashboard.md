@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "Name": "Muller-Beer"
+  "DashboardId": 116,
+  "Name": "Abernathy, Stehr and Kassulke"
 }
 ```
 
@@ -103,37 +103,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 220,
-  "UniqueId": "eos",
-  "Name": "Stark, Treutel and Shanahan",
-  "Description": "Realigned 24/7 capability",
-  "AssociateId": 94,
-  "Columns": 333,
+  "DashboardId": 259,
+  "UniqueId": "sit",
+  "Name": "Kozey, Beier and Block",
+  "Description": "User-centric grid-enabled implementation",
+  "AssociateId": 122,
+  "Columns": 413,
   "Theme": null,
-  "VisibleForAll": 933,
+  "VisibleForAll": 630,
   "VisibleForAssociates": [
-    689,
-    679
+    111,
+    93
   ],
   "VisibleForGroups": [
-    767,
-    455
+    610,
+    715
   ],
-  "PinForAll": 353,
+  "PinForAll": 317,
   "PinForAssociates": [
-    763,
-    978
+    94,
+    397
   ],
   "PinForGroups": [
-    241,
-    176
+    51,
+    631
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 934
     }
   }
 }

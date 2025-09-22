@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Murphy Inc and Sons",
-    "Tooltip": "delectus",
+    "HeadingId": 861,
+    "Name": "Okuneva LLC",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "Rank": 969,
-    "UdListDefinitionId": 364,
+    "Rank": 152,
+    "UdListDefinitionId": 820,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

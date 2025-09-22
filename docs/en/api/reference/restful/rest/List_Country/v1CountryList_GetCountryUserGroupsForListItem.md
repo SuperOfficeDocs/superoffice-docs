@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Larson Group",
-    "ToolTip": "Similique tenetur non voluptas quo sed.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "maiores",
-    "ColorBlock": 630,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2012-09-15T03:47:00.6130405+02:00",
+    "Id": 995,
+    "Name": "Volkman LLC",
+    "ToolTip": "Quo sed ullam perspiciatis voluptates.",
+    "Deleted": false,
+    "Rank": 230,
+    "Type": "ea",
+    "ColorBlock": 893,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2016-10-28T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Koepp, Weimann and Muller",
-        "ToolTip": "Odit aut rerum aut nemo sed.",
-        "Deleted": false,
-        "Rank": 986,
-        "Type": "blanditiis",
-        "ColorBlock": 122,
-        "IconHint": "dolorem",
+        "Id": 149,
+        "Name": "Zemlak LLC",
+        "ToolTip": "Sunt cupiditate voluptatem nostrum et rerum laudantium ex.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "non",
+        "ColorBlock": 402,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2000-03-11T03:47:00.6130405+01:00",
+        "LastChanged": "2022-04-14T11:24:53.9061703+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Prof. Bertha Derrick Mayer III",
+        "ExtraInfo": "dolore",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Waldo Cleo Jerde MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldType": "System.String",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Janiya Hettinger",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Mrs. Michale Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

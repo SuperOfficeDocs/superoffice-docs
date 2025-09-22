@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 811,
-  "Name": "Kuvalis-Towne",
-  "Tooltip": "unde",
-  "Rank": 192,
+  "ProjTypeId": 126,
+  "Name": "Huel-Runolfsdottir",
+  "Tooltip": "accusantium",
+  "Rank": 36,
   "DurationUnit": "Century",
-  "ProjectDuration": 703,
+  "ProjectDuration": 673,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Dach LLC",
-      "ToolTip": "Dolorum facilis dolorum architecto excepturi qui nesciunt molestias.",
-      "Deleted": true,
-      "Rank": 73,
-      "Type": "necessitatibus",
-      "ColorBlock": 528,
-      "IconHint": "sit",
+      "Id": 179,
+      "Name": "Luettgen-Spinka",
+      "ToolTip": "Occaecati dicta ipsa quo et tempore delectus.",
+      "Deleted": false,
+      "Rank": 103,
+      "Type": "cum",
+      "ColorBlock": 510,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2024-05-14T03:46:54.9413809+02:00",
+      "LastChanged": "2025-06-13T11:24:48.1876539+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "corporis",
+      "ExtraInfo": "tempora",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Faustino Feest",
+      "FullName": "Prof. Conor Parisian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldType": "System.String",
+          "FieldLength": 924
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 231
     }
   }
 }

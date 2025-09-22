@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 473,
-  "LastHash": "id"
+  "SelectionId": 861,
+  "LastHash": "dolor"
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "rerum",
+  "CallerIDHash": "dolorem",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 646,
-      "PersonId": 930,
-      "PersonName": "Prosacco-Fritsch",
-      "Mrmrs": "minima",
-      "ContactId": 11,
-      "ContactName": "Daniel, Dicki and Blanda"
+      "DialInPrefix": 817,
+      "PersonId": 340,
+      "PersonName": "Kassulke LLC",
+      "Mrmrs": "error",
+      "ContactId": 484,
+      "ContactName": "Steuber Inc and Sons"
     }
   ]
 }

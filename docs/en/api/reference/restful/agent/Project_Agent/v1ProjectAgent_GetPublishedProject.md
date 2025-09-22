@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 276
+  "ProjectId": 16
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 857,
-  "Name": "Ziemann Group",
-  "Description": "Enterprise-wide global capacity",
+  "ProjectId": 801,
+  "Name": "Lynch Group",
+  "Description": "Front-line clear-thinking core",
   "URL": "http://www.example.com/",
-  "Type": "cumque",
-  "AssociateId": 303,
-  "AssociateFullName": "April Schoen",
-  "TypeId": 417,
-  "Updated": "2025-03-29T03:46:55.1757421+01:00",
-  "StatusId": 56,
-  "Status": "dolor",
-  "TextId": 539,
-  "PublishTo": "2022-01-08T03:46:55.1757421+01:00",
-  "PublishFrom": "2022-08-07T03:46:55.1757421+02:00",
-  "IsPublished": false,
+  "Type": "sit",
+  "AssociateId": 314,
+  "AssociateFullName": "Prof. Carole Cole Ullrich",
+  "TypeId": 421,
+  "Updated": "2016-10-22T11:24:48.4845166+02:00",
+  "StatusId": 527,
+  "Status": "architecto",
+  "TextId": 368,
+  "PublishTo": "2020-01-03T11:24:48.4845166+01:00",
+  "PublishFrom": "2010-05-29T11:24:48.4845166+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "820617",
-  "ActiveErpLinks": 350,
+  "ProjectNumber": "803178",
+  "ActiveErpLinks": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 236
     }
   }
 }

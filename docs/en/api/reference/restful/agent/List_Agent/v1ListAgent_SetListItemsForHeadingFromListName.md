@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lind Group",
-  "HeadingId": 83,
+  "UdListDefinitionName": "Predovic, Conn and McDermott",
+  "HeadingId": 856,
   "ListItemIds": [
-    366,
-    434
+    863,
+    591
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

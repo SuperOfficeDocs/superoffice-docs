@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lowe LLC",
-  "Id": 744
+  "HistoryName": "Abshire-Haag",
+  "Id": 729
 }
 ```
 

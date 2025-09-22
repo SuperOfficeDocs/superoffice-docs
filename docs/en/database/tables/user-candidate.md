@@ -38,7 +38,7 @@ This table will hold user candidate secrets
 
 | Table|  Description |
 |------|-------------|
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

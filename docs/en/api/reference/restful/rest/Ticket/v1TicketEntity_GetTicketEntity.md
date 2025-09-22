@@ -34,7 +34,7 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=True
+GET /api/v1/Ticket/{id}?fk=False
 ```
 
 
@@ -143,21 +143,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 924,
-  "Title": "et",
-  "CreatedAt": "2023-07-11T03:47:00.3318094+02:00",
-  "LastChanged": "2000-11-09T03:47:00.3318094+01:00",
-  "ReadByOwner": "2001-03-10T03:47:00.3318094+01:00",
-  "ReadByCustomer": "2007-05-03T03:47:00.3318094+02:00",
-  "FirstReadByOwner": "2000-04-19T03:47:00.3318094+02:00",
-  "FirstReadByUser": "1999-03-11T03:47:00.3318094+01:00",
-  "Activate": "2001-04-30T03:47:00.3318094+02:00",
-  "ClosedAt": "2003-01-06T03:47:00.3318094+01:00",
-  "RepliedAt": "2002-06-18T03:47:00.3318094+02:00",
-  "AlertTimeout": "2007-12-04T03:47:00.3318094+01:00",
-  "Deadline": "2012-08-16T03:47:00.3318094+02:00",
+  "TicketId": 510,
+  "Title": "iste",
+  "CreatedAt": "2013-07-15T11:24:53.6093075+02:00",
+  "LastChanged": "2007-11-27T11:24:53.6093075+01:00",
+  "ReadByOwner": "2017-06-04T11:24:53.6093075+02:00",
+  "ReadByCustomer": "2014-12-12T11:24:53.6093075+01:00",
+  "FirstReadByOwner": "2020-04-28T11:24:53.6093075+02:00",
+  "FirstReadByUser": "2010-01-25T11:24:53.6093075+01:00",
+  "Activate": "2001-09-07T11:24:53.6093075+02:00",
+  "ClosedAt": "2011-10-26T11:24:53.6093075+02:00",
+  "RepliedAt": "2021-09-10T11:24:53.6093075+02:00",
+  "AlertTimeout": "2009-12-28T11:24:53.6093075+01:00",
+  "Deadline": "2018-10-03T11:24:53.6093075+02:00",
   "CreatedBy": null,
-  "Author": "maiores",
+  "Author": "eum",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -168,163 +168,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "accusantium",
-      "PersonId": 211,
-      "Mrmrs": "vero",
-      "Firstname": "Tad",
-      "Lastname": "Harber",
-      "MiddleName": "Hamill Inc and Sons",
-      "Title": "enim",
-      "Description": "Enhanced assymetric synergy",
-      "Email": "elinor.hilpert@wuckertfay.co.uk",
-      "FullName": "Presley Funk",
-      "DirectPhone": "367.789.7490",
-      "FormalName": "Cassin-Pagac",
-      "CountryId": 187,
-      "ContactId": 676,
-      "ContactName": "Huels, Stoltenberg and Willms",
-      "Retired": 263,
-      "Rank": 328,
-      "ActiveInterests": 140,
+      "Position": "repellendus",
+      "PersonId": 138,
+      "Mrmrs": "aut",
+      "Firstname": "Beatrice",
+      "Lastname": "Konopelski",
+      "MiddleName": "Kub, Frami and Jacobson",
+      "Title": "magnam",
+      "Description": "Digitized foreground info-mediaries",
+      "Email": "kayley.smitham@johnsonledner.name",
+      "FullName": "Joey Kerluke",
+      "DirectPhone": "1-896-273-6083 x6516",
+      "FormalName": "Walter-DuBuque",
+      "CountryId": 943,
+      "ContactId": 687,
+      "ContactName": "Fisher, Turcotte and Nienow",
+      "Retired": 538,
+      "Rank": 840,
+      "ActiveInterests": 341,
       "ContactDepartment": "",
-      "ContactCountryId": 981,
-      "ContactOrgNr": "58514",
-      "FaxPhone": "742-517-7131",
-      "MobilePhone": "(717)134-6228",
-      "ContactPhone": "799.168.0373 x7249",
-      "AssociateName": "Windler, Schulist and Boehm",
-      "AssociateId": 745,
-      "UsePersonAddress": false,
-      "ContactFax": "quas",
-      "Kanafname": "assumenda",
-      "Kanalname": "quos",
-      "Post1": "et",
-      "Post2": "perferendis",
-      "Post3": "voluptatem",
-      "EmailName": "arely@shields.com",
-      "ContactFullName": "Jon Swaniawski",
-      "ActiveErpLinks": 913,
-      "TicketPriorityId": 115,
-      "SupportLanguageId": 887,
-      "SupportAssociateId": 83,
+      "ContactCountryId": 937,
+      "ContactOrgNr": "1362261",
+      "FaxPhone": "(659)890-2910 x746",
+      "MobilePhone": "1-386-124-0602",
+      "ContactPhone": "221-807-8205 x9194",
+      "AssociateName": "Stokes Group",
+      "AssociateId": 397,
+      "UsePersonAddress": true,
+      "ContactFax": "et",
+      "Kanafname": "tenetur",
+      "Kanalname": "quis",
+      "Post1": "similique",
+      "Post2": "temporibus",
+      "Post3": "omnis",
+      "EmailName": "pearlie@mcdermott.co.uk",
+      "ContactFullName": "Mrs. Edward Mireille Buckridge IV",
+      "ActiveErpLinks": 426,
+      "TicketPriorityId": 319,
+      "SupportLanguageId": 701,
+      "SupportAssociateId": 210,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "894128",
+      "PersonNumber": "1871292",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 693
+          "FieldType": "System.Int32",
+          "FieldLength": 446
         }
       }
     }
   ],
-  "AlertLevel": 596,
-  "ConnectId": 939,
+  "AlertLevel": 654,
+  "ConnectId": 406,
   "ReadStatus": "Green",
-  "TimeToReply": 885,
-  "RealTimeToReply": 696,
-  "TimeToClose": 620,
-  "RealTimeToClose": 377,
-  "TimeSpentInternally": 840,
-  "TimeSpentExternally": 33,
-  "TimeSpentQueue": 68,
-  "RealTimeSpentInternally": 718,
-  "RealTimeSpentExternally": 843,
-  "RealTimeSpentQueue": 639,
-  "TimeSpent": 520,
+  "TimeToReply": 760,
+  "RealTimeToReply": 662,
+  "TimeToClose": 270,
+  "RealTimeToClose": 695,
+  "TimeSpentInternally": 645,
+  "TimeSpentExternally": 820,
+  "TimeSpentQueue": 168,
+  "RealTimeSpentInternally": 905,
+  "RealTimeSpentExternally": 201,
+  "RealTimeSpentQueue": 277,
+  "TimeSpent": 835,
   "HasAttachment": false,
-  "NumReplies": 312,
-  "NumMessages": 243,
-  "FromAddress": "atque",
+  "NumReplies": 335,
+  "NumMessages": 771,
+  "FromAddress": "maiores",
   "Messages": [
     {
-      "TicketMessageId": 258,
-      "CreatedAt": "2024-01-10T03:47:00.3318094+01:00",
+      "TicketMessageId": 82,
+      "CreatedAt": "1998-06-16T11:24:53.6093075+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "laudantium",
-      "PersonId": 924,
-      "PersonFullName": "Miss Gaylord Howe PhD",
-      "ContactId": 788,
-      "ContactName": "Baumbach, Homenick and Emard",
-      "ContactDepartment": "",
-      "NumAttachments": 151,
-      "EmailHeader": "alphonso_gulgowski@feeney.com",
+      "Author": "sed",
+      "PersonId": 901,
+      "PersonFullName": "Krystel Gleason",
+      "ContactId": 96,
+      "ContactName": "Lubowitz-Nolan",
+      "ContactDepartment": "seize mission-critical networks",
+      "NumAttachments": 419,
+      "EmailHeader": "tyrese_considine@runte.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "commodi",
-      "Sentiment": 333,
-      "SentimentConfidence": 353,
-      "CreatedBy": 825,
-      "ChangedAt": "2021-03-17T03:47:00.3318094+01:00",
+      "Language": "accusantium",
+      "Sentiment": 246,
+      "SentimentConfidence": 513,
+      "CreatedBy": 341,
+      "ChangedAt": "2002-11-17T11:24:53.6093075+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 263
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 487,
-      "Name": "Herzog Inc and Sons",
-      "ToolTip": "Debitis nulla id.",
+      "Id": 99,
+      "Name": "Koepp Inc and Sons",
+      "ToolTip": "Vitae molestias.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     },
     {
-      "Id": 487,
-      "Name": "Herzog Inc and Sons",
-      "ToolTip": "Debitis nulla id.",
+      "Id": 99,
+      "Name": "Koepp Inc and Sons",
+      "ToolTip": "Vitae molestias.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
   ],
-  "Language": "perspiciatis",
-  "Sentiment": 599,
-  "SentimentConfidence": 719,
-  "SuggestedCategoryId": 765,
+  "Language": "quibusdam",
+  "Sentiment": 418,
+  "SentimentConfidence": 388,
+  "SuggestedCategoryId": 273,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 860,
-  "IconHint": "soluta",
+  "OrigHumanCategoryId": 718,
+  "IconHint": "veritatis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 332,
+  "ActiveStatusMonitorId": 540,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "officia"
+    "CustomFields1": "autem",
+    "CustomFields2": "natus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   },
   "_Links": {

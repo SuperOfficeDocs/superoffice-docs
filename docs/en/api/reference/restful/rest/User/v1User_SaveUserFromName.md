@@ -118,18 +118,18 @@ OK
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 734,
-  "Name": "Prosacco Group",
-  "Rank": 566,
-  "Tooltip": "accusamus",
+  "AssociateId": 637,
+  "Name": "Beatty, Keebler and Durgan",
+  "Rank": 26,
+  "Tooltip": "sint",
   "LicenseOwners": [
     {
-      "Name": "Spencer, Goyette and Pacocha",
-      "Description": "De-engineered foreground artificial intelligence",
+      "Name": "Rowe, Spencer and Bartell",
+      "Description": "Reduced secondary conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Spencer, Goyette and Pacocha",
-      "Description": "De-engineered foreground artificial intelligence",
+      "Name": "Rowe, Spencer and Bartell",
+      "Description": "Reduced secondary conglomeration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,87 +156,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "rerum",
-      "Tooltip": "laboriosam",
-      "Id": 546,
-      "Rank": 580,
-      "Deleted": true
+      "Value": "ullam",
+      "Tooltip": "inventore",
+      "Id": 110,
+      "Rank": 389,
+      "Deleted": false
     },
     {
-      "Value": "rerum",
-      "Tooltip": "laboriosam",
-      "Id": 546,
-      "Rank": 580,
-      "Deleted": true
+      "Value": "ullam",
+      "Tooltip": "inventore",
+      "Id": 110,
+      "Rank": 389,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2008-12-13T03:47:00.5193028+01:00",
-  "Lastlogout": "2007-05-23T03:47:00.5193028+02:00",
-  "EjUserId": 39,
-  "RequestSignature": "et",
+  "Lastlogin": "2000-11-21T11:24:53.8124168+01:00",
+  "Lastlogout": "2012-10-12T11:24:53.8124168+02:00",
+  "EjUserId": 48,
+  "RequestSignature": "placeat",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aliquid",
-      "DisplayValue": "reprehenderit"
+      "Value": "totam",
+      "DisplayValue": "dicta"
     },
     {
       "Type": null,
-      "Value": "aliquid",
-      "DisplayValue": "reprehenderit"
+      "Value": "totam",
+      "DisplayValue": "dicta"
     }
   ],
-  "UserName": "Glover Inc and Sons",
+  "UserName": "Heller-Hyatt",
   "TicketCategories": [
     {
-      "Id": 911,
-      "Name": "Parker, Hamill and Robel",
-      "ToolTip": "Aliquam alias neque harum laboriosam qui et.",
+      "Id": 582,
+      "Name": "Strosin-Dooley",
+      "ToolTip": "Aut enim sed nihil alias nulla praesentium cumque.",
       "Deleted": false,
-      "Rank": 686,
-      "Type": "perspiciatis",
+      "Rank": 901,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 367,
-      "ExtraInfo": "sunt",
-      "StyleHint": "at",
-      "FullName": "Reese Wisoky"
+      "IconHint": "similique",
+      "ColorBlock": 693,
+      "ExtraInfo": "laborum",
+      "StyleHint": "voluptas",
+      "FullName": "Lavon Cassin"
     }
   ],
-  "NickName": "Emard Inc and Sons",
+  "NickName": "Dooley, Hackett and Keebler",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "assumenda",
-    "CustomFields2": "officia"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "id"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kreiger-Murphy",
-      "DisplayName": "Berge, Armstrong and Brekke",
-      "Description": "Upgradable bifurcated project",
-      "ToolTip": "Non vel ipsa ex assumenda reiciendis.",
+      "Name": "Thiel-Huel",
+      "DisplayName": "Hagenes, Beahan and Fisher",
+      "Description": "Universal disintermediate portal",
+      "ToolTip": "Assumenda corporis nihil quas.",
       "Actions": "Implicit",
-      "ActionData": "iusto"
+      "ActionData": "facilis"
     },
     {
-      "Name": "Kreiger-Murphy",
-      "DisplayName": "Berge, Armstrong and Brekke",
-      "Description": "Upgradable bifurcated project",
-      "ToolTip": "Non vel ipsa ex assumenda reiciendis.",
+      "Name": "Thiel-Huel",
+      "DisplayName": "Hagenes, Beahan and Fisher",
+      "Description": "Universal disintermediate portal",
+      "ToolTip": "Assumenda corporis nihil quas.",
       "Actions": "Implicit",
-      "ActionData": "iusto"
+      "ActionData": "facilis"
     }
   ]
 }
@@ -249,14 +249,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 547,
-  "Name": "Lindgren-Miller",
-  "Rank": 559,
-  "Tooltip": "repellendus",
+  "AssociateId": 819,
+  "Name": "Barton, Littel and Ondricka",
+  "Rank": 107,
+  "Tooltip": "ullam",
   "LicenseOwners": [
     {
-      "Name": "Sawayn, Williamson and Rice",
-      "Description": "Function-based needs-based protocol",
+      "Name": "O'Conner, Kilback and Stamm",
+      "Description": "Polarised fault-tolerant encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -269,14 +269,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     },
     {
-      "Name": "Sawayn, Williamson and Rice",
-      "Description": "Function-based needs-based protocol",
+      "Name": "O'Conner, Kilback and Stamm",
+      "Description": "Polarised fault-tolerant encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -289,8 +289,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
@@ -299,110 +299,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "asperiores",
-      "Id": 947,
-      "Rank": 823,
-      "Deleted": false,
+      "Value": "reprehenderit",
+      "Tooltip": "est",
+      "Id": 883,
+      "Rank": 508,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 967
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2013-09-15T03:47:00.5349272+02:00",
-  "Lastlogout": "2005-11-27T03:47:00.5349272+01:00",
-  "EjUserId": 679,
-  "RequestSignature": "laudantium",
+  "Lastlogin": "2007-02-27T11:24:53.8124168+01:00",
+  "Lastlogout": "2024-07-15T11:24:53.8124168+02:00",
+  "EjUserId": 899,
+  "RequestSignature": "est",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "ipsum",
+      "Value": "perspiciatis",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     },
     {
       "Type": null,
-      "Value": "doloribus",
-      "DisplayValue": "ipsum",
+      "Value": "perspiciatis",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "UserName": "Boyer Inc and Sons",
+  "UserName": "Wilkinson Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 15,
-      "Name": "Yost, Bayer and Quitzon",
-      "ToolTip": "Et corporis ipsum eos commodi architecto natus quidem.",
+      "Id": 816,
+      "Name": "Greenholt, Barrows and Bogisich",
+      "ToolTip": "Dolore neque autem quo.",
       "Deleted": false,
-      "Rank": 12,
-      "Type": "eius",
+      "Rank": 946,
+      "Type": "cumque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 965,
-      "ExtraInfo": "velit",
-      "StyleHint": "tenetur",
-      "FullName": "Ms. Evan Hammes",
+      "IconHint": "possimus",
+      "ColorBlock": 252,
+      "ExtraInfo": "eum",
+      "StyleHint": "rerum",
+      "FullName": "Mr. Holly Issac Funk MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 987
         }
       }
     }
   ],
-  "NickName": "Hilll Inc and Sons",
+  "NickName": "Greenholt-Wehner",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "et"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "at"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Nienow-Johnson",
-      "DisplayName": "Ward-Wyman",
-      "Description": "Innovative modular extranet",
-      "ToolTip": "Inventore illo sint.",
+      "Name": "Wilderman, Harris and Conroy",
+      "DisplayName": "Howe, Jewess and Rodriguez",
+      "Description": "Seamless motivating paradigm",
+      "ToolTip": "Quo explicabo.",
       "Actions": "Implicit",
-      "ActionData": "molestiae",
+      "ActionData": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 608
         }
       }
     }
@@ -412,7 +412,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 847
     }
   }
 }

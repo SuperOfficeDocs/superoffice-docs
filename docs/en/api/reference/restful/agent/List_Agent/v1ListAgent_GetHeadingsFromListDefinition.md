@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139
+  "Id": 230
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 927,
-    "Name": "Larkin-Brown",
-    "Tooltip": "aliquam",
-    "Deleted": false,
-    "Rank": 37,
-    "UdListDefinitionId": 375,
+    "HeadingId": 744,
+    "Name": "Harris, Bechtelar and Bayer",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "Rank": 374,
+    "UdListDefinitionId": 608,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 379
       }
     }
   }

@@ -77,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 830,
-  "VersionId": "autem",
-  "WriteableUrl": true
+  "DocumentId": 977,
+  "VersionId": "dolores",
+  "WriteableUrl": false
 }
 ```
 

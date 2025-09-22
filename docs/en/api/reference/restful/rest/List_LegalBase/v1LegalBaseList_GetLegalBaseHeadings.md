@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 485,
-    "Name": "Lebsack, Legros and Jacobi",
+    "HeadingId": 230,
+    "Name": "Hickle LLC",
     "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 180,
+    "Deleted": true,
+    "Rank": 677,
+    "UdListDefinitionId": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 485
       }
     }
   }

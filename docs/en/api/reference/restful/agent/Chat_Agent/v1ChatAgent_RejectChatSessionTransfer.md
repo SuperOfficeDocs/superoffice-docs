@@ -110,7 +110,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 872
+  "ChatSessionId": 328
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 538,
-  "TopicId": 253,
+  "ChatSessionId": 147,
+  "TopicId": 87,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatum",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Hand Inc and Sons",
-  "CustomerEmail": "hester@hills.us",
-  "CustomerPhone": "1-441-726-7768 x924",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Welch-McClure",
+  "CustomerAlias": "eum",
+  "CustomerHost": "atque",
+  "CustomerName": "Baumbach-Mills",
+  "CustomerEmail": "carlo@gulgowskiskiles.info",
+  "CustomerPhone": "(963)225-8389",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bogisich LLC",
   "Status": "Closed",
-  "FirstMessage": "cumque",
-  "LastMessage": "atque",
-  "WhenRequested": "2019-05-19T03:46:54.3632712+02:00",
-  "WhenStarted": "2016-03-17T03:46:54.3632712+01:00",
-  "WhenEnded": "2008-04-26T03:46:54.3632712+02:00",
-  "WhenIdle": "2017-01-11T03:46:54.3632712+01:00",
-  "WhenFetched": "2018-03-08T03:46:54.3632712+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 710,
-  "AlertLevel": 631,
-  "Rank": 544,
+  "FirstMessage": "porro",
+  "LastMessage": "sed",
+  "WhenRequested": "2023-01-19T11:24:47.6720496+01:00",
+  "WhenStarted": "2010-03-05T11:24:47.6720496+01:00",
+  "WhenEnded": "2018-06-17T11:24:47.6720496+02:00",
+  "WhenIdle": "2006-09-20T11:24:47.6720496+02:00",
+  "WhenFetched": "2023-09-18T11:24:47.6720496+02:00",
+  "SessionKey": "commodi",
+  "InitialQueuePos": 69,
+  "AlertLevel": 548,
+  "Rank": 849,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 926,
+  "Rating": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 701
     }
   }
 }

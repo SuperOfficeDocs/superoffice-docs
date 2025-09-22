@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 491
+  "DashboardTileDefinitionId": 852
 }
 ```
 
@@ -93,26 +93,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "animi",
-    "Html": "nam",
+    "LanguageCode": "ipsum",
+    "Html": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 373
       }
     }
   },
   {
-    "LanguageCode": "animi",
-    "Html": "nam",
+    "LanguageCode": "ipsum",
+    "Html": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 373
       }
     }
   }

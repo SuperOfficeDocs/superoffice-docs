@@ -27,7 +27,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=527
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=896
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 585,
-  "Name": "Cormier-Heller",
-  "Description": "Enhanced zero defect structure",
-  "WelcomeMessage": "sit",
+  "ChatTopicId": 183,
+  "Name": "Keeling, Yost and Mann",
+  "Description": "Grass-roots composite challenge",
+  "WelcomeMessage": "illum",
   "Language": null,
-  "LastAccept": "2015-05-13T03:46:54.3945199+02:00",
-  "SecondsPrAccept": 612,
-  "AlertRecipient": "harum",
+  "LastAccept": "2001-08-28T11:24:47.7032984+02:00",
+  "SecondsPrAccept": 390,
+  "AlertRecipient": "doloribus",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "possimus",
+  "BadgeHeader": "reprehenderit",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "commodi",
-  "WarnNewChatMinutes": 912,
-  "WarnManagerNewChatMinutes": 906,
+  "CustomQueueText": "rem",
+  "WarnNewChatMinutes": 987,
+  "WarnManagerNewChatMinutes": 370,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 329,
-  "WarnManagerChatMessageMinutes": 179,
+  "WarnChatMessageMinutes": 906,
+  "WarnManagerChatMessageMinutes": 890,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 713,
-  "OfflineFormQueueLength": 600,
+  "OfflineFormTimeLimit": 990,
+  "OfflineFormQueueLength": 109,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "id",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 242
     }
   }
 }

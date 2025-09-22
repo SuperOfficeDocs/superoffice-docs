@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Pfannerstill-Stiedemann",
-    "ToolTip": "Velit dignissimos aut omnis.",
+    "Id": 759,
+    "Name": "Wehner Inc and Sons",
+    "ToolTip": "Perspiciatis deleniti dolorum ducimus nihil eveniet.",
     "Deleted": true,
-    "Rank": 682,
-    "Type": "odit",
-    "ColorBlock": 796,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2023-12-03T03:47:00.6130405+01:00",
+    "Rank": 179,
+    "Type": "iste",
+    "ColorBlock": 13,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2021-05-11T11:24:53.890546+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Roob, Boyer and Bechtelar",
-        "ToolTip": "Nostrum enim maxime quo architecto non repellat nisi.",
+        "Id": 835,
+        "Name": "Conn, Effertz and Fisher",
+        "ToolTip": "Deserunt nihil rerum consequatur illo.",
         "Deleted": false,
-        "Rank": 338,
-        "Type": "corporis",
-        "ColorBlock": 1002,
-        "IconHint": "unde",
+        "Rank": 74,
+        "Type": "qui",
+        "ColorBlock": 435,
+        "IconHint": "nihil",
         "Selected": true,
-        "LastChanged": "2020-06-19T03:47:00.6130405+02:00",
+        "LastChanged": "2001-06-18T11:24:53.890546+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "inventore",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Vincent Wolf Jr.",
+        "FullName": "Mr. Aaron Olson III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 681
+            "FieldType": "System.String",
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "tempore",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Quincy Zulauf",
+    "FullName": "Frida Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

@@ -75,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    572,
-    558
+    565,
+    724
   ],
-  "MoveToFolder": "ad"
+  "MoveToFolder": "molestias"
 }
 ```
 

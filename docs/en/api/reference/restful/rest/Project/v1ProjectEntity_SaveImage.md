@@ -63,7 +63,7 @@ The blob id for the image
 PUT /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 The blob id for the image
 Content-Type: application/json; charset=utf-8
 
-266
+856
 ```

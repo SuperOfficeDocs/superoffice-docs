@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756
+  "ProjectId": 894
 }
 ```
 

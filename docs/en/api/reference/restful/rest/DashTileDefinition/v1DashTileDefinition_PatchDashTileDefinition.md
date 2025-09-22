@@ -127,18 +127,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "illo",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illo",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -151,36 +151,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 309,
-  "Name": "Gorczany-Stark",
-  "Description": "Synchronised attitude-oriented interface",
-  "DefaultHeight": 591,
-  "DefaultWidth": 309,
+  "DashboardTileDefinitionId": 878,
+  "Name": "Baumbach, Zboncak and Runolfsson",
+  "Description": "Re-engineered systemic toolset",
+  "DefaultHeight": 768,
+  "DefaultWidth": 849,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mann Group",
-  "SelectionId": 253,
+  "EntityName": "Padberg, Kilback and Johns",
+  "SelectionId": 346,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "minima",
-  "SortBy": "eveniet",
-  "LayoutConfig": "praesentium",
-  "SecondarySelectionId": 14,
-  "MeasureByField": "est",
+  "MeasureField": "ab",
+  "SortBy": "atque",
+  "LayoutConfig": "assumenda",
+  "SecondarySelectionId": 437,
+  "MeasureByField": "dolore",
   "Usage": "Dashboard",
-  "ProviderName": "Langosh Group",
+  "ProviderName": "Murray-Murray",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

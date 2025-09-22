@@ -95,22 +95,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 272,
-  "Name": "Dickinson Inc and Sons",
-  "ConsentText": "ut",
-  "FormText": "debitis",
-  "Key": "quo",
-  "Tooltip": "maiores",
-  "Active": 228,
-  "UpdatedDate": "2024-05-16T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 839,
+  "Name": "Cremin-Kemmer",
+  "ConsentText": "molestiae",
+  "FormText": "et",
+  "Key": "veritatis",
+  "Tooltip": "cumque",
+  "Active": 468,
+  "UpdatedDate": "1999-09-25T11:24:53.8749217+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 412,
-  "PrivacyStatementDesc": "debitis",
+  "Rank": 992,
+  "PrivacyStatementDesc": "aliquam",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -122,25 +122,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 407,
-  "Name": "Lemke, Gaylord and Hodkiewicz",
-  "ConsentText": "necessitatibus",
-  "FormText": "facilis",
-  "Key": "voluptatum",
-  "Tooltip": "dicta",
-  "Active": 764,
-  "UpdatedDate": "2003-09-04T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 256,
+  "Name": "Botsford-Hintz",
+  "ConsentText": "quae",
+  "FormText": "doloribus",
+  "Key": "qui",
+  "Tooltip": "facilis",
+  "Active": 489,
+  "UpdatedDate": "2002-12-06T11:24:53.8749217+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 968,
-  "PrivacyStatementDesc": "enim",
+  "Deleted": true,
+  "Rank": 775,
+  "PrivacyStatementDesc": "quis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldLength": 485
     }
   }
 }

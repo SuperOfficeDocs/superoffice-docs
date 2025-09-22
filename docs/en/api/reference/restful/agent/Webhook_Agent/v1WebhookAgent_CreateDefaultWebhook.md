@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,27 +79,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 767,
-  "Name": "Langosh LLC",
+  "WebhookId": 750,
+  "Name": "Hoppe, Leannon and Hoeger",
   "Events": [
-    "fuga",
-    "ad"
+    "expedita",
+    "quis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "sint",
   "State": "Active",
-  "Type": "quis",
+  "Type": "tempora",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "labore"
+    "Headers1": "est",
+    "Headers2": "aliquid"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-04-25T03:46:55.6444757+02:00",
+  "Registered": "2007-07-16T11:24:48.9532475+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-06-21T03:46:55.6444757+02:00",
+  "Updated": "1999-02-01T11:24:48.9532475+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "carolanne.ebert@brown.name"
+  "ErrorsEmail": "garret@effertzspencer.com"
 }
 ```

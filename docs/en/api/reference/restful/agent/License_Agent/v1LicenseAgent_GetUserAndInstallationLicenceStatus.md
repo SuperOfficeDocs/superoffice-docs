@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 72
+  "AssociateId": 512
 }
 ```
 
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2022-09-16T03:46:54.9107593+02:00",
-  "ExpiryDate": "2017-02-17T03:46:54.9107593+01:00",
-  "GraceDate": "2010-08-24T03:46:54.9107593+02:00",
-  "CompanyName": "Boehm, Hahn and Hand",
+  "AdminWarningDate": "2003-02-17T11:24:48.1720293+01:00",
+  "ExpiryDate": "2020-05-05T11:24:48.1720293+02:00",
+  "GraceDate": "2010-10-02T11:24:48.1720293+02:00",
+  "CompanyName": "Purdy Group",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "doloremque",
-    "dolor"
+    "asperiores",
+    "non"
   ]
 }
 ```

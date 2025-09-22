@@ -71,17 +71,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kiehn-Reichel",
-  "ProviderName": "Gibson, Tillman and Wolf",
-  "Context": "sapiente",
-  "OwnerKeys": "est",
+  "GuiName": "Dibbert Group",
+  "ProviderName": "McClure Inc and Sons",
+  "Context": "cupiditate",
+  "OwnerKeys": "optio",
   "ChosenColumns": [
-    "quis",
-    "praesentium"
+    "sequi",
+    "aut"
   ]
 }
 ```

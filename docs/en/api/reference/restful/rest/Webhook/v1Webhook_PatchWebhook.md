@@ -123,18 +123,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "molestias",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "molestias",
     "value": {}
   }
 ]
@@ -147,31 +147,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 710,
-  "Name": "Kilback-Rolfson",
+  "WebhookId": 489,
+  "Name": "Cassin-Funk",
   "Events": [
-    "eum",
-    "architecto"
+    "minima",
+    "repudiandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "animi",
+  "Secret": "alias",
   "State": "Active",
-  "Type": "eaque",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "debitis"
+    "Headers1": "voluptatem",
+    "Headers2": "sapiente"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-11-14T03:47:00.5505518+01:00",
+  "Registered": "2023-04-03T11:24:53.8280427+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-06T03:47:00.5505518+02:00",
+  "Updated": "2012-10-14T11:24:53.8280427+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "micah@satterfield.com",
+  "ErrorsEmail": "mafalda_bernier@dachgreenholt.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

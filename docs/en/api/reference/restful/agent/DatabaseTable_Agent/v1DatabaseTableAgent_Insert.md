@@ -87,10 +87,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber Inc and Sons",
+  "TableName": "Weber-Cremin",
   "Columns": [
-    "voluptatibus",
-    "possimus"
+    "non",
+    "aut"
   ],
   "Data": [
     [
@@ -110,41 +110,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "aut",
-  "Inserts": 130,
-  "Updates": 700,
-  "Deletes": 958,
+  "Success": false,
+  "Message": "qui",
+  "Inserts": 769,
+  "Updates": 743,
+  "Deletes": 559,
   "RowStatus": [
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 37,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "assumenda",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 706
         }
       }
     },
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 37,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "assumenda",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 706
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 839
     }
   }
 }

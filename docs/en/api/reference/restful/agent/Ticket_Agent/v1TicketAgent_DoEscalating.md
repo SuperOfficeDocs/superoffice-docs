@@ -68,11 +68,11 @@ No Content
 POST /api/v1/Agents/Ticket/DoEscalating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 503,
+  "TicketId": 735,
   "Action": "ActionChangedOwner"
 }
 ```

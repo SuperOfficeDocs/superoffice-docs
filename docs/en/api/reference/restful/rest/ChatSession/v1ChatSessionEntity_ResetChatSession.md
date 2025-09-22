@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 498,
-  "TopicId": 237,
+  "ChatSessionId": 557,
+  "TopicId": 275,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "vel",
-  "CustomerName": "Marquardt-Jacobson",
-  "CustomerEmail": "aubrey.jewess@beatty.name",
-  "CustomerPhone": "(553)084-7154",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Smith-Wolf",
+  "CustomerAlias": "debitis",
+  "CustomerHost": "repellendus",
+  "CustomerName": "Erdman Inc and Sons",
+  "CustomerEmail": "bette@johnstonjacobi.ca",
+  "CustomerPhone": "139.586.5387",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Gaylord, Huels and Fritsch",
   "Status": "Closed",
-  "FirstMessage": "nesciunt",
-  "LastMessage": "excepturi",
-  "WhenRequested": "1999-03-16T03:46:59.7849459+01:00",
-  "WhenStarted": "2010-12-22T03:46:59.7849459+01:00",
-  "WhenEnded": "2022-03-27T03:46:59.7849459+02:00",
-  "WhenIdle": "2002-04-18T03:46:59.7849459+02:00",
-  "WhenFetched": "2002-07-21T03:46:59.7849459+02:00",
-  "SessionKey": "culpa",
-  "InitialQueuePos": 493,
-  "AlertLevel": 994,
-  "Rank": 806,
+  "FirstMessage": "molestiae",
+  "LastMessage": "libero",
+  "WhenRequested": "2002-11-13T11:24:53.0468304+01:00",
+  "WhenStarted": "2012-02-05T11:24:53.0468304+01:00",
+  "WhenEnded": "2010-04-21T11:24:53.0468304+02:00",
+  "WhenIdle": "2000-05-16T11:24:53.0468304+02:00",
+  "WhenFetched": "2012-01-19T11:24:53.0468304+01:00",
+  "SessionKey": "porro",
+  "InitialQueuePos": 272,
+  "AlertLevel": 514,
+  "Rank": 109,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 388,
+  "ChatbotIsActive": true,
+  "Rating": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

@@ -116,7 +116,7 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
@@ -140,20 +140,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 727,
-  "Name": "Berge Group",
-  "Tooltip": "sed",
-  "PassiveText": "enim",
-  "Deleted": true,
-  "Rank": 162,
+  "ReldefId": 560,
+  "Name": "Roberts-Boyer",
+  "Tooltip": "recusandae",
+  "PassiveText": "occaecati",
+  "Deleted": false,
+  "Rank": 813,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   },
   "_Links": {

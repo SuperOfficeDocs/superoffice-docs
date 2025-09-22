@@ -24,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.LogViewStateAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(System.Threading.CancellationToken)
@@ -862,6 +863,41 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  id: PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterCustomObjectTableCreatedAsync(string, CancellationToken)
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: A temporary method to be used from c++ until CustomObjectsAgent.CreateTable implemented in NetServer
+  example: []
+  syntax:
+    content: public Task PerformTasksAfterCustomObjectTableCreatedAsync(string tableName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of DB table of the custom object that was created. E.g., 'y_car'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function PerformTasksAfterCustomObjectTableCreatedAsync(tableName As String, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, System.Threading.CancellationToken)
+  name.vb: PerformTasksAfterCustomObjectTableCreatedAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
   id: PerformTasksAfterCustomObjectTableDeletedAsync(System.String,System.Threading.CancellationToken)
@@ -2928,6 +2964,56 @@ references:
     name: PerformTasksAfterUpgradeAsync
     isExternal: true
   - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_PerformTasksAfterCustomObjectTableCreatedAsync_System_String_System_Threading_CancellationToken_
+  name: PerformTasksAfterCustomObjectTableCreatedAsync
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: PerformTasksAfterCustomObjectTableCreatedAsync(string, CancellationToken)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, System.Threading.CancellationToken)
+  name.vb: PerformTasksAfterCustomObjectTableCreatedAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+    name: PerformTasksAfterCustomObjectTableCreatedAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,System.Threading.CancellationToken)
+    name: PerformTasksAfterCustomObjectTableCreatedAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true

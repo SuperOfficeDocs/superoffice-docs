@@ -102,28 +102,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 461,
-    "Name": "Roob LLC",
-    "Description": "Quality-focused national infrastructure",
-    "DeltaJson": "dicta",
+    "ConfigurableScreenDeltaId": 410,
+    "Name": "Mitchell, Romaguera and Langworth",
+    "Description": "Organized secondary utilisation",
+    "DeltaJson": "animi",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "velit",
-    "UpdatedDate": "2016-01-30T03:46:54.4570178+01:00",
-    "CreatedDate": "2021-08-21T03:46:54.4570178+02:00",
+    "RecipeId": "nihil",
+    "UpdatedDate": "2016-11-27T11:24:47.7189228+01:00",
+    "CreatedDate": "2001-12-25T11:24:47.7189228+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      600,
-      653
+      242,
+      949
     ],
-    "AppliesToKey": "fuga",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldLength": 34
       }
     }
   }

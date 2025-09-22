@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 522
+  "ProductId": 704
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 211,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "fugit",
-  "Name": "Reichel-Mann",
-  "Description": "Phased actuating strategy",
-  "Code": "amet",
+  "ProductId": 618,
+  "ERPProductKey": "non",
+  "ERPPriceListKey": "ut",
+  "Name": "Hahn-Heaney",
+  "Description": "Public-key systemic infrastructure",
+  "Code": "odio",
   "PriceUnit": "rem",
-  "QuantityUnit": "iste",
-  "IsSubscription": true,
-  "SubscriptionUnit": "reprehenderit",
-  "DefaultSubscriptionQuantity": 19023.38,
-  "ItemNumber": "1053678",
+  "QuantityUnit": "ea",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 27156.11,
+  "ItemNumber": "845969",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "reprehenderit",
-  "VAT": 21793.836,
-  "VATInfo": "dolorum",
-  "UnitCost": 8518.212,
-  "UnitMinimumPrice": 3998.984,
-  "UnitListPrice": 20101.476,
-  "InAssortment": true,
-  "Supplier": "qui",
-  "SupplierCode": "nemo",
-  "Rights": "nesciunt",
-  "Rule": "facere",
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "impedit",
+  "VAT": 4444.012,
+  "VATInfo": "tempore",
+  "UnitCost": 28290.618,
+  "UnitMinimumPrice": 27870.662,
+  "UnitListPrice": 19731.664,
+  "InAssortment": false,
+  "Supplier": "dolor",
+  "SupplierCode": "magnam",
+  "Rights": "rerum",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Casper-D'Amore",
+      "Value": "expedita",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldLength": 818
         }
       }
     },
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Casper-D'Amore",
+      "Value": "expedita",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldLength": 818
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "numquam",
-  "ExtraField3": "perferendis",
-  "ExtraField4": "iusto",
-  "ExtraField5": "praesentium",
-  "InStock": 11561.326,
+  "RawExtraInfo": "adipisci",
+  "ExtraField1": "labore",
+  "ExtraField2": "ab",
+  "ExtraField3": "debitis",
+  "ExtraField4": "sed",
+  "ExtraField5": "sit",
+  "InStock": 5180.5019999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 755
     }
   }
 }

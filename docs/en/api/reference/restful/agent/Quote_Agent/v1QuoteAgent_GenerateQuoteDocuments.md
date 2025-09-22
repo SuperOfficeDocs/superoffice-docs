@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 286,
-  "EmailBodyTemplateId": 33,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 556,
+  "QuoteVersionId": 676,
+  "EmailBodyTemplateId": 719,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 290,
   "IncludeAttachments": false,
-  "RawMailSubject": "labore"
+  "RawMailSubject": "esse"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 592,
-  "QuotedProductsId": 487,
+  "QuoteDocumentId": 353,
+  "QuotedProductsId": 489,
   "QuoteAttachmentIds": [
-    586,
-    541
+    102,
+    104
   ],
-  "MailBody": "est",
-  "MailSubject": "et",
-  "ToEmail": "hazel_tillman@rempelcummerata.info",
-  "ToFullName": "Alexandro Kautzer",
-  "ErrorMessage": "debitis",
+  "MailBody": "voluptas",
+  "MailSubject": "nesciunt",
+  "ToEmail": "rosemary.schroeder@gerhold.com",
+  "ToFullName": "Regan Watsica",
+  "ErrorMessage": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

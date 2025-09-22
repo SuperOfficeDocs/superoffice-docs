@@ -76,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 146,
-  "NewFilename": "eos"
+  "DocumentId": 718,
+  "NewFilename": "assumenda"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cupiditate"
+"velit"
 ```

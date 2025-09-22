@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "animi",
+  "RawValue": "est",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "et",
+  "DisplayValue": "deleniti",
+  "DisplayTooltip": "dolorum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 799,
-  "PrefDescId": 463,
-  "TableName": "Goldner, Auer and Sipes",
-  "UserPreferenceId": 820,
+  "TargetId": 141,
+  "PrefDescId": 11,
+  "TableName": "Jaskolski Group",
+  "UserPreferenceId": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 880
     }
   }
 }

@@ -90,7 +90,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowDefinitionStatusId,workflowAssociate/credentialType,updatedBy
+GET /api/v1/archive/EmailFlowsAndFolders?$select=updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

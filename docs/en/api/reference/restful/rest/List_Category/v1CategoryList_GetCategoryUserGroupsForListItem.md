@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Murazik, Gleason and Tromp",
-    "ToolTip": "Culpa rerum.",
+    "Id": 896,
+    "Name": "Senger Group",
+    "ToolTip": "Nesciunt velit omnis laborum quos voluptas rerum.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "soluta",
-    "ColorBlock": 74,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2022-05-09T03:47:00.5818006+02:00",
+    "Rank": 622,
+    "Type": "harum",
+    "ColorBlock": 32,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2011-11-27T11:24:53.8592973+01:00",
     "ChildItems": [
       {
-        "Id": 86,
-        "Name": "McClure Group",
-        "ToolTip": "Eum laboriosam tempora provident dolore aperiam.",
-        "Deleted": true,
-        "Rank": 412,
-        "Type": "aut",
-        "ColorBlock": 526,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2013-09-25T03:47:00.5818006+02:00",
+        "Id": 1001,
+        "Name": "Wiegand Inc and Sons",
+        "ToolTip": "Quis vero voluptatem sit.",
+        "Deleted": false,
+        "Rank": 675,
+        "Type": "quia",
+        "ColorBlock": 433,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2019-03-29T11:24:53.8592973+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ms. Lura Brayan Bergstrom",
+        "ExtraInfo": "facere",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Erna Hallie Brown II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Lorenza Stamm DVM",
+    "ExtraInfo": "ratione",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Clemens Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 333
       }
     }
   }

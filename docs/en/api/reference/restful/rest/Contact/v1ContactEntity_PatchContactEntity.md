@@ -139,7 +139,7 @@ ContactEntity  updated.
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -153,18 +153,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "temporibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "temporibus",
     "value": {}
   }
 ]
@@ -177,206 +177,32 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 728,
-  "Name": "Wyman-Hackett",
+  "ContactId": 985,
+  "Name": "Smith-Kilback",
   "Department": "",
-  "OrgNr": "1292843",
-  "Number1": "776872",
-  "Number2": "1261462",
-  "UpdatedDate": "2013-04-25T03:46:59.863068+02:00",
-  "CreatedDate": "2004-11-06T03:46:59.863068+01:00",
+  "OrgNr": "908590",
+  "Number1": "384331",
+  "Number2": "612716",
+  "UpdatedDate": "2003-10-07T11:24:53.1249522+02:00",
+  "CreatedDate": "2001-10-28T11:24:53.1249522+01:00",
   "Emails": [
     {
-      "Value": "tempora",
-      "StrippedValue": "in",
-      "Description": "Streamlined zero tolerance Graphical User Interface",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 858
-        }
-      }
-    },
-    {
-      "Value": "tempora",
-      "StrippedValue": "in",
-      "Description": "Streamlined zero tolerance Graphical User Interface",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 858
-        }
-      }
-    }
-  ],
-  "Interests": [
-    {
-      "Id": 564,
-      "Name": "Batz LLC",
-      "ToolTip": "Quis ipsa.",
-      "Deleted": false,
-      "Rank": 395,
-      "Type": "quasi",
-      "ColorBlock": 580,
-      "IconHint": "eos",
-      "Selected": false,
-      "LastChanged": "2023-06-24T03:46:59.863068+02:00",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "ExtraInfo": "dolor",
-      "StyleHint": "error",
-      "Hidden": true,
-      "FullName": "Carson Bahringer",
+      "Value": "autem",
+      "StrippedValue": "non",
+      "Description": "Realigned assymetric parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 787
-        }
-      }
-    }
-  ],
-  "Urls": [
-    {
-      "Value": "non",
-      "StrippedValue": "sit",
-      "Description": "Distributed cohesive throughput",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 564
         }
       }
     },
     {
-      "Value": "non",
-      "StrippedValue": "sit",
-      "Description": "Distributed cohesive throughput",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 432
-        }
-      }
-    }
-  ],
-  "Phones": [
-    {
-      "Value": "sint",
-      "StrippedValue": "excepturi",
-      "Description": "Self-enabling stable challenge",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
-        }
-      }
-    },
-    {
-      "Value": "sint",
-      "StrippedValue": "excepturi",
-      "Description": "Self-enabling stable challenge",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
-        }
-      }
-    }
-  ],
-  "Faxes": [
-    {
-      "Value": "voluptatem",
-      "StrippedValue": "mollitia",
-      "Description": "Organized 6th generation knowledge base",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
-        }
-      }
-    },
-    {
-      "Value": "voluptatem",
-      "StrippedValue": "mollitia",
-      "Description": "Organized 6th generation knowledge base",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
-        }
-      }
-    }
-  ],
-  "Description": "Persevering methodical toolset",
-  "UpdatedBy": null,
-  "CreatedBy": null,
-  "Associate": null,
-  "Business": null,
-  "Category": null,
-  "Country": null,
-  "Persons": [
-    {
-      "Position": "magni",
-      "PersonId": 346,
-      "Mrmrs": "recusandae",
-      "Firstname": "Layne",
-      "Lastname": "Fisher",
-      "MiddleName": "Wehner, Smith and Torp",
-      "Title": "ducimus",
-      "Description": "Front-line non-volatile hierarchy",
-      "Email": "michael_hammes@breitenberg.name",
-      "FullName": "Estel Feest MD",
-      "DirectPhone": "(582)133-7713 x23720",
-      "FormalName": "Schmidt Group",
-      "CountryId": 4,
-      "ContactId": 262,
-      "ContactName": "Casper, Howell and Rempel",
-      "Retired": 627,
-      "Rank": 497,
-      "ActiveInterests": 558,
-      "ContactDepartment": "",
-      "ContactCountryId": 622,
-      "ContactOrgNr": "1348350",
-      "FaxPhone": "1-969-176-1648 x12312",
-      "MobilePhone": "150.089.0456 x824",
-      "ContactPhone": "1-941-352-0081 x32469",
-      "AssociateName": "Mayert, Hoppe and Sipes",
-      "AssociateId": 455,
-      "UsePersonAddress": false,
-      "ContactFax": "impedit",
-      "Kanafname": "non",
-      "Kanalname": "beatae",
-      "Post1": "asperiores",
-      "Post2": "quidem",
-      "Post3": "minus",
-      "EmailName": "everette@labadie.us",
-      "ContactFullName": "Lester Hamill",
-      "ActiveErpLinks": 348,
-      "TicketPriorityId": 423,
-      "SupportLanguageId": 398,
-      "SupportAssociateId": 52,
-      "CategoryName": "VIP Customer",
-      "PersonNumber": "818163",
+      "Value": "autem",
+      "StrippedValue": "non",
+      "Description": "Realigned assymetric parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -387,56 +213,230 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "minima",
-  "Xstop": false,
-  "ActiveInterests": 73,
-  "GroupId": 425,
-  "ActiveStatusMonitorId": 583,
+  "Interests": [
+    {
+      "Id": 84,
+      "Name": "Bergnaum-Doyle",
+      "ToolTip": "Eveniet dolorem.",
+      "Deleted": false,
+      "Rank": 984,
+      "Type": "repudiandae",
+      "ColorBlock": 890,
+      "IconHint": "temporibus",
+      "Selected": false,
+      "LastChanged": "2002-12-26T11:24:53.1249522+01:00",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "consequatur",
+      "Hidden": false,
+      "FullName": "Mrs. Ally Gaston Donnelly",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 9
+        }
+      }
+    }
+  ],
+  "Urls": [
+    {
+      "Value": "et",
+      "StrippedValue": "animi",
+      "Description": "Centralized discrete flexibility",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 254
+        }
+      }
+    },
+    {
+      "Value": "et",
+      "StrippedValue": "animi",
+      "Description": "Centralized discrete flexibility",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 254
+        }
+      }
+    }
+  ],
+  "Phones": [
+    {
+      "Value": "et",
+      "StrippedValue": "est",
+      "Description": "User-centric encompassing flexibility",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 703
+        }
+      }
+    },
+    {
+      "Value": "et",
+      "StrippedValue": "est",
+      "Description": "User-centric encompassing flexibility",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 703
+        }
+      }
+    }
+  ],
+  "Faxes": [
+    {
+      "Value": "distinctio",
+      "StrippedValue": "quo",
+      "Description": "Horizontal motivating pricing structure",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 47
+        }
+      }
+    },
+    {
+      "Value": "distinctio",
+      "StrippedValue": "quo",
+      "Description": "Horizontal motivating pricing structure",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 47
+        }
+      }
+    }
+  ],
+  "Description": "Polarised content-based utilisation",
+  "UpdatedBy": null,
+  "CreatedBy": null,
+  "Associate": null,
+  "Business": null,
+  "Category": null,
+  "Country": null,
+  "Persons": [
+    {
+      "Position": "repudiandae",
+      "PersonId": 495,
+      "Mrmrs": "est",
+      "Firstname": "Luz",
+      "Lastname": "Boehm",
+      "MiddleName": "Thiel-Ferry",
+      "Title": "corrupti",
+      "Description": "Networked user-facing concept",
+      "Email": "verdie@effertzschiller.com",
+      "FullName": "Dr. Lulu Greta Bernier",
+      "DirectPhone": "(958)118-4310",
+      "FormalName": "Cronin-Dibbert",
+      "CountryId": 573,
+      "ContactId": 152,
+      "ContactName": "Cruickshank, Auer and Lebsack",
+      "Retired": 912,
+      "Rank": 740,
+      "ActiveInterests": 269,
+      "ContactDepartment": "",
+      "ContactCountryId": 469,
+      "ContactOrgNr": "774295",
+      "FaxPhone": "1-810-364-7069 x78363",
+      "MobilePhone": "1-197-765-9119",
+      "ContactPhone": "1-893-697-7011 x3204",
+      "AssociateName": "Sawayn Group",
+      "AssociateId": 259,
+      "UsePersonAddress": true,
+      "ContactFax": "et",
+      "Kanafname": "qui",
+      "Kanalname": "provident",
+      "Post1": "aut",
+      "Post2": "minus",
+      "Post3": "nisi",
+      "EmailName": "laurine_steuber@murazik.name",
+      "ContactFullName": "Deondre Kunze",
+      "ActiveErpLinks": 809,
+      "TicketPriorityId": 174,
+      "SupportLanguageId": 314,
+      "SupportAssociateId": 108,
+      "CategoryName": "VIP Customer",
+      "PersonNumber": "753140",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 555
+        }
+      }
+    }
+  ],
+  "NoMailing": false,
+  "Kananame": "et",
+  "Xstop": true,
+  "ActiveInterests": 657,
+  "GroupId": 430,
+  "ActiveStatusMonitorId": 115,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 52,
-  "DbiAgentId": 19,
-  "DbiLastSyncronized": "1999-12-11T03:46:59.863068+01:00",
-  "DbiKey": "voluptates",
-  "DbiLastModified": "2001-03-22T03:46:59.863068+01:00",
+  "Deleted": 621,
+  "DbiAgentId": 804,
+  "DbiLastSyncronized": "2017-07-04T11:24:53.1249522+02:00",
+  "DbiKey": "quo",
+  "DbiLastModified": "1999-12-13T11:24:53.1249522+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 187,
-  "ActiveErpLinks": 127,
+  "Source": 510,
+  "ActiveErpLinks": 424,
   "BounceEmails": [
-    "zelda@heidenreich.name",
-    "rae@schuppe.biz"
+    "elva.ullrich@jonesbrekke.co.uk",
+    "ova@bayerkunze.info"
   ],
   "Domains": [
-    "velit",
-    "id"
+    "consequatur",
+    "nam"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "131640371",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Ron Schaden",
+    "SuperOffice:2": "2114309646"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "est"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sit"
+    "CustomFields1": "quae",
+    "CustomFields2": "ipsa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 797
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

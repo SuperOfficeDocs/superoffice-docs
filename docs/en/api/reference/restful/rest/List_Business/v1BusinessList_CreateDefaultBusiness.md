@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Fahey-McKenzie",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 496,
+  "Id": 72,
+  "Name": "Mayert LLC",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "UdListDefinitionId": 784,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   }
 }

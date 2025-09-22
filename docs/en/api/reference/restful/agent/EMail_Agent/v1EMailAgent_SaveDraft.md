@@ -118,156 +118,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 306,
-      "ContactName": "Luettgen Inc and Sons",
-      "PersonId": 193,
-      "PersonName": "Lubowitz, Schowalter and Toy",
-      "AssociateId": 713,
-      "Address": "non",
-      "EmailId": 818,
+      "ContactId": 37,
+      "ContactName": "Jones, McClure and Shanahan",
+      "PersonId": 716,
+      "PersonName": "Nikolaus-Grady",
+      "AssociateId": 308,
+      "Address": "aut",
+      "EmailId": 508,
       "DuplicatePersonIds": [
-        67,
-        418
+        290,
+        912
       ],
-      "Name": "Gerhold-Schroeder",
+      "Name": "Rempel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 807
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 305,
-      "ContactName": "O'Keefe LLC",
-      "PersonId": 88,
-      "PersonName": "Armstrong Group",
-      "AssociateId": 929,
-      "Address": "suscipit",
-      "EmailId": 851,
+      "ContactId": 420,
+      "ContactName": "Lynch LLC",
+      "PersonId": 433,
+      "PersonName": "Heathcote Group",
+      "AssociateId": 507,
+      "Address": "unde",
+      "EmailId": 616,
       "DuplicatePersonIds": [
-        385,
-        651
+        756,
+        99
       ],
-      "Name": "Rolfson, Ebert and Little",
+      "Name": "Spencer-Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 104
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 286,
-      "ContactName": "Pfeffer-Crona",
-      "PersonId": 8,
-      "PersonName": "Hills Inc and Sons",
-      "AssociateId": 788,
-      "Address": "dolore",
-      "EmailId": 815,
+      "ContactId": 925,
+      "ContactName": "Rohan, Schmidt and Windler",
+      "PersonId": 821,
+      "PersonName": "Champlin-Hudson",
+      "AssociateId": 290,
+      "Address": "distinctio",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        110,
-        384
+        333,
+        162
       ],
-      "Name": "Dare, Weimann and McKenzie",
+      "Name": "Bradtke Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 506
         }
       }
     }
   ],
-  "Subject": "atque",
-  "HTMLBody": "est",
+  "Subject": "consequatur",
+  "HTMLBody": "ipsum",
   "From": null,
-  "Sent": "2006-01-09T03:46:54.7382579+01:00",
-  "Size": 664,
+  "Sent": "2002-03-22T11:24:48.0470345+01:00",
+  "Size": 759,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ducimus",
-  "PlainBody": "velit",
+  "MessageID": "enim",
+  "PlainBody": "nobis",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 483,
+  "ServerId": 556,
   "Attachments": [
     {
-      "Description": "Realigned composite projection",
-      "Filename": "qui",
-      "Size": 622,
-      "Type": "necessitatibus",
-      "Encoding": "quo",
-      "Id": "ducimus",
-      "Disposition": "enim",
+      "Description": "Down-sized content-based hub",
+      "Filename": "non",
+      "Size": 301,
+      "Type": "quis",
+      "Encoding": "assumenda",
+      "Id": "deserunt",
+      "Disposition": "error",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 31
+          "FieldType": "System.Int32",
+          "FieldLength": 657
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Witting, Langosh and Stoltenberg",
+      "Name": "Graham LLC",
       "Values": [
-        "quia",
-        "aspernatur"
+        "tempora",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     },
     {
-      "Name": "Witting, Langosh and Stoltenberg",
+      "Name": "Graham LLC",
       "Values": [
-        "quia",
-        "aspernatur"
+        "tempora",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     }
   ],
-  "FolderName": "Bergstrom, Mueller and Cremin",
-  "EmailItemId": 525,
-  "AccountId": 12,
-  "ReceivedAt": "2016-12-21T03:46:54.7382579+01:00",
+  "FolderName": "West LLC",
+  "EmailItemId": 445,
+  "AccountId": 941,
+  "ReceivedAt": "2018-10-14T11:24:48.0470345+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-09-02T03:46:54.7382579+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2023-11-15T11:24:48.0470345+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

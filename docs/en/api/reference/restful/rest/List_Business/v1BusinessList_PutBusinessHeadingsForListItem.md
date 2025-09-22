@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Wisoky Group",
-    "ToolTip": "Minus repellat.",
-    "Deleted": true,
-    "Rank": 1001,
-    "Type": "et",
-    "ColorBlock": 199,
-    "IconHint": "impedit",
+    "Id": 853,
+    "Name": "Schaefer LLC",
+    "ToolTip": "Assumenda doloremque.",
+    "Deleted": false,
+    "Rank": 154,
+    "Type": "eos",
+    "ColorBlock": 710,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2011-05-03T03:47:00.5818006+02:00",
+    "LastChanged": "2020-04-15T11:24:53.8592973+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Bogisich, Vandervort and McGlynn",
-        "ToolTip": "Molestiae est placeat similique reprehenderit vel blanditiis eveniet.",
+        "Id": 518,
+        "Name": "Predovic Inc and Sons",
+        "ToolTip": "Sunt dolorem suscipit incidunt sed.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "et",
-        "ColorBlock": 364,
-        "IconHint": "quae",
+        "Rank": 706,
+        "Type": "autem",
+        "ColorBlock": 532,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2004-02-04T03:47:00.5818006+01:00",
+        "LastChanged": "2002-11-16T11:24:53.8592973+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "error",
+        "ExtraInfo": "quasi",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Dr. Brain Bahringer IV"
+        "FullName": "Darian Feil"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "et",
+    "ExtraInfo": "eum",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Jayda Geovanny Runolfsdottir DDS"
+    "FullName": "Lesly Erdman"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Gorczany, Bergnaum and Bernier",
-    "ToolTip": "Iste similique dolor qui.",
-    "Deleted": true,
-    "Rank": 610,
-    "Type": "rerum",
-    "ColorBlock": 970,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2021-04-03T03:47:00.5818006+02:00",
+    "Id": 138,
+    "Name": "Howell Inc and Sons",
+    "ToolTip": "Rerum molestiae nam.",
+    "Deleted": false,
+    "Rank": 278,
+    "Type": "eos",
+    "ColorBlock": 393,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "1999-01-02T11:24:53.8592973+01:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Hermiston, Crist and Ferry",
-        "ToolTip": "Nostrum architecto dolor odit corrupti excepturi facere assumenda.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "alias",
-        "ColorBlock": 948,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2009-09-11T03:47:00.5818006+02:00",
+        "Id": 678,
+        "Name": "Windler-Ryan",
+        "ToolTip": "Rerum ducimus nihil.",
+        "Deleted": false,
+        "Rank": 634,
+        "Type": "modi",
+        "ColorBlock": 835,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "2017-12-29T11:24:53.8592973+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "quos",
+        "ExtraInfo": "minus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Angelina Bauch",
+        "FullName": "Prof. Madeline Brekke Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Stanford Welch",
+    "ExtraInfo": "possimus",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Arne Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 226
       }
     }
   }

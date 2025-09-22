@@ -81,7 +81,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,25 +91,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 965,
-  "AssociateId": 396,
-  "Block": "quia",
-  "Registered": "2008-04-13T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 33,
-  "Updated": "2018-08-08T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 635,
-  "UpdatedCount": 155,
+  "ShipmentMessageBlockId": 601,
+  "AssociateId": 836,
+  "Block": "neque",
+  "Registered": "2007-12-09T11:24:53.5780588+01:00",
+  "RegisteredAssociateId": 609,
+  "Updated": "2021-07-01T11:24:53.5780588+02:00",
+  "UpdatedAssociateId": 589,
+  "UpdatedCount": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 706
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Bosco, Graham and Kulas",
-    "Tooltip": "veritatis",
+    "Id": 281,
+    "Name": "Hintz-Schneider",
+    "Tooltip": "sint",
     "Deleted": true,
-    "UdListDefinitionId": 547,
-    "Rank": 48
+    "UdListDefinitionId": 767,
+    "Rank": 637
   },
   {
-    "Id": 111,
-    "Name": "Bosco, Graham and Kulas",
-    "Tooltip": "veritatis",
+    "Id": 281,
+    "Name": "Hintz-Schneider",
+    "Tooltip": "sint",
     "Deleted": true,
-    "UdListDefinitionId": 547,
-    "Rank": 48
+    "UdListDefinitionId": 767,
+    "Rank": 637
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Mraz Group",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 290,
-    "Rank": 216,
+    "Id": 403,
+    "Name": "Crona Group",
+    "Tooltip": "tenetur",
+    "Deleted": true,
+    "UdListDefinitionId": 714,
+    "Rank": 402,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldLength": 214
       }
     }
   }

@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 412,
-  "Name": "Gerhold, Graham and Beer",
-  "Description": "Cross-group fresh-thinking time-frame",
+  "ReportLabelLayoutId": 24,
+  "Name": "Heaney, Harber and Schulist",
+  "Description": "Profit-focused leading edge function",
   "Orientation": "Landscape",
-  "PaperWidth": 404,
-  "PaperHeight": 271,
-  "LeftMargin": 290,
-  "RightMargin": 178,
-  "TopMargin": 716,
-  "BottomMargin": 988,
-  "CountColumns": 525,
-  "CountRows": 395
+  "PaperWidth": 511,
+  "PaperHeight": 302,
+  "LeftMargin": 59,
+  "RightMargin": 340,
+  "TopMargin": 779,
+  "BottomMargin": 161,
+  "CountColumns": 418,
+  "CountRows": 616
 }
 ```
 
@@ -112,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 762,
-  "Name": "Bashirian Group",
-  "Description": "Stand-alone modular support",
+  "ReportLabelLayoutId": 819,
+  "Name": "Yost-Yundt",
+  "Description": "Cross-platform systemic Graphical User Interface",
   "Orientation": "Landscape",
-  "PaperWidth": 362,
-  "PaperHeight": 424,
-  "LeftMargin": 19,
-  "RightMargin": 949,
-  "TopMargin": 277,
-  "BottomMargin": 793,
-  "CountColumns": 306,
-  "CountRows": 374,
+  "PaperWidth": 20,
+  "PaperHeight": 104,
+  "LeftMargin": 628,
+  "RightMargin": 368,
+  "TopMargin": 512,
+  "BottomMargin": 972,
+  "CountColumns": 12,
+  "CountRows": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 59
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 87,
-  "AttachmentId": "adipisci"
+  "MailItemId": 874,
+  "AttachmentId": "deserunt"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered fault-tolerant application",
-  "Filename": "libero",
-  "Size": 29,
-  "Type": "ut",
-  "Encoding": "magni",
-  "Id": "cum",
-  "Disposition": "neque",
-  "IsSafeFileExtension": true,
+  "Description": "Optimized optimal firmware",
+  "Filename": "modi",
+  "Size": 984,
+  "Type": "sed",
+  "Encoding": "minima",
+  "Id": "sed",
+  "Disposition": "ducimus",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldLength": 182
     }
   }
 }

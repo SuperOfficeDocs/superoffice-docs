@@ -104,31 +104,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 12,
-  "PlainMessage": "aperiam",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "quia",
-  "Description": "Enhanced content-based knowledge base",
-  "Subject": "quod",
-  "FolderId": 525,
-  "HeaderField": "molestiae",
-  "Design": "et",
+  "ShipmentMessageId": 960,
+  "PlainMessage": "alias",
+  "HtmlMessage": "dicta",
+  "SmsMessage": "vel",
+  "Description": "Optimized didactic contingency",
+  "Subject": "ut",
+  "FolderId": 481,
+  "HeaderField": "dolores",
+  "Design": "nulla",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Robust radical hub",
-  "AccessKey": "fugit",
-  "DocumentMessage": 110,
-  "Registered": "1999-09-06T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 256,
-  "Updated": "2013-08-11T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 137,
-  "UpdatedCount": 258
+  "InlineImages": false,
+  "LongDescription": "Secured optimal analyzer",
+  "AccessKey": "nisi",
+  "DocumentMessage": 494,
+  "Registered": "2013-10-04T11:24:48.2657757+02:00",
+  "RegisteredAssociateId": 599,
+  "Updated": "2009-01-24T11:24:48.2657757+01:00",
+  "UpdatedAssociateId": 887,
+  "UpdatedCount": 852
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 721,
-  "PlainMessage": "aut",
-  "HtmlMessage": "dolore",
-  "SmsMessage": "facilis",
-  "Description": "Versatile hybrid architecture",
-  "Subject": "numquam",
-  "FolderId": 559,
-  "HeaderField": "occaecati",
-  "Design": "placeat",
+  "ShipmentMessageId": 454,
+  "PlainMessage": "molestias",
+  "HtmlMessage": "accusantium",
+  "SmsMessage": "aut",
+  "Description": "Operative impactful contingency",
+  "Subject": "optio",
+  "FolderId": 921,
+  "HeaderField": "quod",
+  "Design": "facere",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enhanced client-server initiative",
-  "AccessKey": "quia",
-  "DocumentMessage": 974,
-  "Registered": "2019-03-29T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2000-06-29T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 647,
-  "UpdatedCount": 550,
+  "LongDescription": "Right-sized discrete data-warehouse",
+  "AccessKey": "molestiae",
+  "DocumentMessage": 39,
+  "Registered": "2010-02-27T11:24:48.2657757+01:00",
+  "RegisteredAssociateId": 860,
+  "Updated": "2007-03-29T11:24:48.2657757+02:00",
+  "UpdatedAssociateId": 258,
+  "UpdatedCount": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 599
     }
   }
 }

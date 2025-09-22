@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Stracke-Shanahan",
-    "ToolTip": "Autem voluptates ut labore.",
+    "Id": 184,
+    "Name": "Satterfield-Botsford",
+    "ToolTip": "Voluptatum cupiditate iusto.",
     "Deleted": true,
-    "Rank": 841,
-    "Type": "est",
-    "ColorBlock": 387,
-    "IconHint": "fuga",
+    "Rank": 963,
+    "Type": "mollitia",
+    "ColorBlock": 702,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2024-07-10T03:47:00.6911718+02:00",
+    "LastChanged": "2024-04-02T11:24:53.9686678+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Towne-Lind",
-        "ToolTip": "Beatae magnam voluptatem esse.",
+        "Id": 676,
+        "Name": "Skiles Group",
+        "ToolTip": "Quo animi voluptatibus dolorem.",
         "Deleted": false,
-        "Rank": 727,
-        "Type": "et",
-        "ColorBlock": 948,
-        "IconHint": "hic",
+        "Rank": 669,
+        "Type": "dolorem",
+        "ColorBlock": 618,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2017-03-15T03:47:00.6911718+01:00",
+        "LastChanged": "2007-04-11T11:24:53.9686678+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "sed",
+        "ExtraInfo": "sunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Sasha Simonis"
+        "FullName": "Dr. Zane Rosenbaum PhD"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "est",
+    "StyleHint": "veritatis",
     "Hidden": true,
-    "FullName": "Antonina Cronin"
+    "FullName": "Chasity Turcotte"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Smith LLC",
-    "ToolTip": "Harum aut est veniam veniam nostrum.",
+    "Id": 143,
+    "Name": "Runte, Stiedemann and Toy",
+    "ToolTip": "Perspiciatis aut aut odio ex adipisci.",
     "Deleted": false,
-    "Rank": 359,
-    "Type": "voluptas",
-    "ColorBlock": 279,
-    "IconHint": "ut",
+    "Rank": 331,
+    "Type": "enim",
+    "ColorBlock": 728,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2003-07-27T03:47:00.6911718+02:00",
+    "LastChanged": "2013-02-22T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Mills-Mohr",
-        "ToolTip": "Sed nemo qui.",
+        "Id": 274,
+        "Name": "Lynch, Gorczany and Brakus",
+        "ToolTip": "Deserunt occaecati quibusdam saepe.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 404,
+        "Rank": 911,
+        "Type": "ut",
+        "ColorBlock": 798,
         "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2014-02-15T03:47:00.6911718+01:00",
+        "Selected": false,
+        "LastChanged": "2006-12-13T11:24:53.9686678+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "in",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Susan Wiza",
+        "FullName": "Boris Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Mariela D'Amore",
+    "ExtraInfo": "culpa",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Rafaela Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 758
       }
     }
   }

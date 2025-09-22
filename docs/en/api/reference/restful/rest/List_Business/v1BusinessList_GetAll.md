@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Nader-Ziemann",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "UdListDefinitionId": 692,
-    "Rank": 918,
+    "Id": 637,
+    "Name": "Lehner Group",
+    "Tooltip": "ipsum",
+    "Deleted": true,
+    "UdListDefinitionId": 136,
+    "Rank": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

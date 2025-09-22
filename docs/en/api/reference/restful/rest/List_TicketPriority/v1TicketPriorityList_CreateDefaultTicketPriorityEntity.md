@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 136,
-  "Name": "Rice, Roob and White",
+  "TicketPriorityId": 318,
+  "Name": "Brown Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 757,
+  "SortOrder": 143,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 974,
-  "MonStart": "2025-04-05T03:47:00.9099142+02:00",
-  "MonStop": "2001-11-13T03:47:00.9099142+01:00",
-  "TueStart": "2023-04-03T03:47:00.9099142+02:00",
-  "TueStop": "2005-09-30T03:47:00.9099142+02:00",
-  "WedStart": "2007-06-01T03:47:00.9099142+02:00",
-  "WedStop": "2006-07-29T03:47:00.9099142+02:00",
-  "ThuStart": "2017-10-19T03:47:00.9099142+02:00",
-  "ThuStop": "2001-06-22T03:47:00.9099142+02:00",
-  "FriStart": "2000-11-05T03:47:00.9099142+01:00",
-  "FriStop": "2011-03-03T03:47:00.9099142+01:00",
-  "SatStart": "2006-12-15T03:47:00.9099142+01:00",
-  "SatStop": "2017-01-24T03:47:00.9099142+01:00",
-  "SunStart": "2017-01-10T03:47:00.9099142+01:00",
-  "SunStop": "2007-02-01T03:47:00.9099142+01:00",
+  "Deadline": 185,
+  "MonStart": "2024-11-25T11:24:54.1717846+01:00",
+  "MonStop": "2023-10-17T11:24:54.1717846+02:00",
+  "TueStart": "2004-05-09T11:24:54.1717846+02:00",
+  "TueStop": "2019-07-05T11:24:54.1717846+02:00",
+  "WedStart": "2005-01-27T11:24:54.1717846+01:00",
+  "WedStop": "2007-05-05T11:24:54.1717846+02:00",
+  "ThuStart": "2017-12-27T11:24:54.1717846+01:00",
+  "ThuStop": "2016-05-17T11:24:54.1717846+02:00",
+  "FriStart": "2005-07-10T11:24:54.1717846+02:00",
+  "FriStop": "2019-05-23T11:24:54.1717846+02:00",
+  "SatStart": "2012-08-21T11:24:54.1717846+02:00",
+  "SatStop": "2012-03-28T11:24:54.1717846+02:00",
+  "SunStart": "1998-08-13T11:24:54.1717846+02:00",
+  "SunStop": "1999-05-28T11:24:54.1717846+02:00",
   "NonDates": [
-    "ducimus",
-    "et"
+    "et",
+    "inventore"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 344,
-      "AlertLevel": 162,
-      "AlertTimeout": 611,
-      "Action": 652,
-      "DelegateTo": 583,
-      "ScriptId": 14,
-      "EmailTo": "derick@cummingskoepp.us",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 433,
-      "ReplyTemplateIdUser": 484,
-      "ReplyTemplateIdCatmast": 534,
-      "ReplyTemplateIdEmail": 410,
-      "RtiCustomerSms": 57,
-      "ReplyTemplateIdUserSms": 424,
-      "ReplyTemplateIdCatmastSms": 722,
-      "ReplyTemplateIdSms": 768,
+      "TicketAlertId": 21,
+      "AlertLevel": 630,
+      "AlertTimeout": 556,
+      "Action": 956,
+      "DelegateTo": 513,
+      "ScriptId": 339,
+      "EmailTo": "brooke_lesch@ortizcrooks.us",
+      "SmsTo": "laudantium",
+      "ReplyTemplateIdCustomer": 535,
+      "ReplyTemplateIdUser": 133,
+      "ReplyTemplateIdCatmast": 825,
+      "ReplyTemplateIdEmail": 70,
+      "RtiCustomerSms": 935,
+      "ReplyTemplateIdUserSms": 870,
+      "ReplyTemplateIdCatmastSms": 306,
+      "ReplyTemplateIdSms": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

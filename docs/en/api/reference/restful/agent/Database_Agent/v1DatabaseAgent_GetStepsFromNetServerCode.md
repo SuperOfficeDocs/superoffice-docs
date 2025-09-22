@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Steuber-Upton",
-    "StepNumber": 307,
+    "Name": "Smith, Baumbach and Boyer",
+    "StepNumber": 171,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   },
   {
-    "Name": "Steuber-Upton",
-    "StepNumber": 307,
+    "Name": "Smith, Baumbach and Boyer",
+    "StepNumber": 171,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 894
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   }

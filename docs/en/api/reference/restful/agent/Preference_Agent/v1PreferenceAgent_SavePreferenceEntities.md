@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "quis",
+      "RawValue": "nihil",
       "Specification": null,
-      "DisplayValue": "natus",
-      "DisplayTooltip": "quisquam",
+      "DisplayValue": "quia",
+      "DisplayTooltip": "in",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 23,
-      "PrefDescId": 310,
-      "TableName": "Crist-Huels",
-      "UserPreferenceId": 409
+      "TargetId": 346,
+      "PrefDescId": 855,
+      "TableName": "Schaefer-Stanton",
+      "UserPreferenceId": 895
     }
   ],
   "RemoveLowerLevels": false

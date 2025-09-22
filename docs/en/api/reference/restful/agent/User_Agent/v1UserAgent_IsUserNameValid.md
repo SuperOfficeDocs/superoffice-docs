@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 569,
+  "AssociateId": 182,
   "Type": "AnonymousAssociate",
-  "PersonId": 144,
-  "UserName": "Grady-Torphy"
+  "PersonId": 1002,
+  "UserName": "Thiel Group"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

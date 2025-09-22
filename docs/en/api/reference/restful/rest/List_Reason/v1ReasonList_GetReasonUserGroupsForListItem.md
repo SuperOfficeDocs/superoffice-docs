@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Fritsch Group",
-    "ToolTip": "Placeat esse.",
+    "Id": 308,
+    "Name": "Lind Inc and Sons",
+    "ToolTip": "Aliquam fugit explicabo veritatis earum.",
     "Deleted": true,
-    "Rank": 335,
-    "Type": "doloribus",
-    "ColorBlock": 141,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2021-03-06T03:47:00.7849183+01:00",
+    "Rank": 636,
+    "Type": "ipsa",
+    "ColorBlock": 45,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2025-03-08T11:24:54.1092872+01:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Beer, Auer and Bergstrom",
-        "ToolTip": "Perspiciatis laborum consequatur molestiae repudiandae perferendis.",
+        "Id": 232,
+        "Name": "Raynor Inc and Sons",
+        "ToolTip": "Voluptatem quam voluptatem.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "explicabo",
-        "ColorBlock": 345,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2022-03-18T03:47:00.7849183+01:00",
+        "Rank": 104,
+        "Type": "excepturi",
+        "ColorBlock": 253,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2009-03-28T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "iure",
         "Hidden": true,
-        "FullName": "Neha Koch",
+        "FullName": "Brenden Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "enim",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "a",
     "Hidden": true,
-    "FullName": "Nickolas Wilderman",
+    "FullName": "Mr. Lindsay Nova Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 673
       }
     }
   }

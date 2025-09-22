@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 316,
-  "SystemMessageId": "dignissimos"
+  "OnlineappId": 13,
+  "SystemMessageId": "et"
 }
 ```
 

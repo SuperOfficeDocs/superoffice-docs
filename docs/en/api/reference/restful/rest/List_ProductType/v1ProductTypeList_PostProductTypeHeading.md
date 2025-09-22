@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Morissette-Goyette",
-  "Tooltip": "cupiditate",
+  "HeadingId": 630,
+  "Name": "Kirlin LLC",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 136,
-  "UdListDefinitionId": 810
+  "Rank": 156,
+  "UdListDefinitionId": 402
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 141,
-  "Name": "Harber Inc and Sons",
-  "Tooltip": "eius",
+  "HeadingId": 353,
+  "Name": "O'Kon, Mertz and Hirthe",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 991,
-  "UdListDefinitionId": 551,
+  "Rank": 578,
+  "UdListDefinitionId": 936,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Ondricka, Orn and Bosco",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 1001,
+  "Id": 145,
+  "Name": "Gutmann Group",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 660,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "repellat",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Sanford-King",
-  "Tooltip": "sed",
+  "Id": 68,
+  "Name": "Feest, Hyatt and Russel",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 561,
+  "Rank": 376,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": false,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

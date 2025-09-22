@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 191,
-  "ListItemId": 99
+  "UdListDefinitionId": 631,
+  "ListItemId": 286
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Rempel, Miller and Greenfelder",
-    "ToolTip": "Nobis qui occaecati molestiae soluta cumque impedit.",
+    "Id": 370,
+    "Name": "Rodriguez, Kling and Little",
+    "ToolTip": "In ea illo rerum ut.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "repudiandae",
-    "ColorBlock": 195,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2021-07-26T03:46:54.9882491+02:00",
+    "Rank": 596,
+    "Type": "quo",
+    "ColorBlock": 650,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2009-09-27T11:24:48.234527+02:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Abshire-Labadie",
-        "ToolTip": "Molestias voluptatem.",
+        "Id": 212,
+        "Name": "Erdman Group",
+        "ToolTip": "Aliquam modi.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "nobis",
-        "ColorBlock": 496,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2009-06-17T03:46:54.9882491+02:00",
+        "Rank": 389,
+        "Type": "minus",
+        "ColorBlock": 739,
+        "IconHint": "dolore",
+        "Selected": true,
+        "LastChanged": "2014-01-23T11:24:48.234527+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "natus",
+        "ExtraInfo": "velit",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "General Corwin",
+        "FullName": "Eric Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 92
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "quo",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Prof. Elvis Cecil Hintz",
+    "FullName": "Colton Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 10
       }
     }
   }

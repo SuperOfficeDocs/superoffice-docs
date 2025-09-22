@@ -1042,7 +1042,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=email/emailAddress,personContact/restrictionAddress/line3,personContact/contactAssociate/usergroup,personContact/contactSupportPerson/personUpdatedDate,personContact/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/SimplePerson?$select=personMobilePhone/formattedNumber,personTargetRelation/personBusiness,correspondingAssociate/ejDisplayName,personContact/restrictionPostalAddress/city,personContact/contactSupportPerson/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

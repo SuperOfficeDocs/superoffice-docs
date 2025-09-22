@@ -26,7 +26,7 @@ Deletes the ReportLabelLayoutEntity
 | reportLabelLayoutEntityId | int32 | **Required** The identity of the ReportLabelLayoutEntity |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=813
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=687
 ```
 
 

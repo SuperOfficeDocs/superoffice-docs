@@ -788,7 +788,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=person/rank,person/supportAssociateFullName,person/restrictionAddress/wgs84longitude,contact/associateId,project/status
+GET /api/v1/archive/TicketSelectionV2?$select=sentimentConfidence,createdBy/isLocation,ownedBy/userName,person/personRegisteredBy,person/restrictionAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

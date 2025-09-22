@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 382,
-  "RecaptchaSiteKey": "atque",
+  "TZOffset": 969,
+  "RecaptchaSiteKey": "fugit",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quia",
+      "RawValue": "qui",
       "Specification": null,
-      "DisplayValue": "iste",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "nemo",
+      "DisplayTooltip": "eius",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 644,
-      "PrefDescId": 489,
-      "TableName": "Simonis Inc and Sons",
-      "UserPreferenceId": 933,
+      "TargetId": 525,
+      "PrefDescId": 698,
+      "TableName": "Luettgen, Armstrong and Mosciski",
+      "UserPreferenceId": 289,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldType": "System.Int32",
+          "FieldLength": 216
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

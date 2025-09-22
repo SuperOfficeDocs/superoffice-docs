@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reynolds LLC"
+  "ApplicationName": "Borer, Kihn and Kuhlman"
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 289,
-  "Name": "Dickens, Jacobs and Gusikowski",
-  "CreatedDate": "2005-09-28T03:46:54.847629+02:00",
-  "UpdatedDate": "2016-02-23T03:46:54.847629+01:00",
+  "ForeignAppId": 278,
+  "Name": "Nikolaus LLC",
+  "CreatedDate": "2011-05-16T11:24:48.1564051+02:00",
+  "UpdatedDate": "2004-10-07T11:24:48.1564051+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 404,
-      "Name": "Kub-Hirthe",
-      "CreatedDate": "2012-09-15T03:46:54.847629+02:00",
-      "UpdatedDate": "2023-03-03T03:46:54.847629+01:00",
-      "AssociateFullName": "Miss Wyatt Keebler",
-      "CreatedBy": "quia",
-      "UpdatedBy": "cupiditate",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 567,
+      "ForeignDeviceId": 998,
+      "Name": "O'Connell, Macejkovic and Langosh",
+      "CreatedDate": "2003-07-11T11:24:48.1564051+02:00",
+      "UpdatedDate": "2019-01-17T11:24:48.1564051+01:00",
+      "AssociateFullName": "Orlo Bashirian",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 596,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 784
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 134
     }
   }
 }

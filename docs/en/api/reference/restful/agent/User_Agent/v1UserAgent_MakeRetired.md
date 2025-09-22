@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/User/MakeRetired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 242,
-  "Retired": true
+  "AssociateId": 220,
+  "Retired": false
 }
 ```
 

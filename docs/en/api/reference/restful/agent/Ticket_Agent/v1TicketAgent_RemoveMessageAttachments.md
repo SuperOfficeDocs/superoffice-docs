@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 274,
+  "TicketMessageEntityId": 609,
   "AttachmentIds": [
-    904,
-    16
+    35,
+    4
   ]
 }
 ```

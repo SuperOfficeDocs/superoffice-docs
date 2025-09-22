@@ -104,23 +104,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 818,
-  "Name": "Glover, Dickens and Gerhold",
-  "CurrencyId": 420,
-  "EnglishName": "Collier Inc and Sons",
+  "CountryId": 228,
+  "Name": "Braun, Gerlach and Dickinson",
+  "CurrencyId": 827,
+  "EnglishName": "Kerluke Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Innovative multi-state internet solution",
-  "OrgNrText": "636140",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "neque",
-  "DomainName": "Bergstrom LLC",
-  "AddressLayoutId": 743,
-  "DomesticAddressLayoutId": 447,
-  "ForeignAddressLayoutId": 231,
-  "Rank": 145,
-  "Tooltip": "nobis",
+  "ImageDescription": "Seamless interactive ability",
+  "OrgNrText": "723786",
+  "InterAreaPrefix": "soluta",
+  "DialInPrefix": "error",
+  "ZipPrefix": "et",
+  "DomainName": "Anderson-Reilly",
+  "AddressLayoutId": 509,
+  "DomesticAddressLayoutId": 550,
+  "ForeignAddressLayoutId": 767,
+  "Rank": 365,
+  "Tooltip": "odit",
   "Deleted": false
 }
 ```
@@ -132,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 660,
-  "Name": "Strosin, Hagenes and Leuschke",
-  "CurrencyId": 106,
-  "EnglishName": "Smith, Dickens and Hane",
+  "CountryId": 1002,
+  "Name": "Mayer Inc and Sons",
+  "CurrencyId": 788,
+  "EnglishName": "Bogan-Considine",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Streamlined modular access",
-  "OrgNrText": "991162",
-  "InterAreaPrefix": "dicta",
-  "DialInPrefix": "harum",
-  "ZipPrefix": "molestiae",
-  "DomainName": "Leuschke Inc and Sons",
-  "AddressLayoutId": 853,
-  "DomesticAddressLayoutId": 188,
-  "ForeignAddressLayoutId": 531,
-  "Rank": 561,
-  "Tooltip": "quia",
-  "Deleted": false,
+  "ImageDescription": "Decentralized client-driven software",
+  "OrgNrText": "1123838",
+  "InterAreaPrefix": "officiis",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "neque",
+  "DomainName": "Ruecker-Rice",
+  "AddressLayoutId": 244,
+  "DomesticAddressLayoutId": 451,
+  "ForeignAddressLayoutId": 897,
+  "Rank": 14,
+  "Tooltip": "tempore",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

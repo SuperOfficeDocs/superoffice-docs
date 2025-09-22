@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 764,
-  "TZLocationId": 862,
-  "LocationCode": "aut",
-  "Description": "Optimized actuating ability",
+  "PreferenceId": 558,
+  "TZLocationId": 866,
+  "LocationCode": "ut",
+  "Description": "Managed asynchronous superstructure",
   "Country": "Sokovia",
-  "Bias": 749
+  "Bias": 856
 }
 ```

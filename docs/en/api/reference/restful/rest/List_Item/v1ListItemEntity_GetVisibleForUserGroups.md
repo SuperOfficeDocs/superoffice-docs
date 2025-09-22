@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Bednar LLC",
-    "ToolTip": "Est voluptas quis delectus quia non.",
-    "Deleted": true,
-    "Rank": 472,
-    "Type": "consequuntur",
-    "ColorBlock": 856,
-    "IconHint": "incidunt",
+    "Id": 418,
+    "Name": "Dietrich Inc and Sons",
+    "ToolTip": "Quia culpa nesciunt id est soluta.",
+    "Deleted": false,
+    "Rank": 246,
+    "Type": "cumque",
+    "ColorBlock": 210,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2025-08-28T03:47:00.5505518+02:00",
+    "LastChanged": "2005-09-12T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Kunze-Tremblay",
-        "ToolTip": "Rerum quidem facilis possimus eligendi.",
+        "Id": 920,
+        "Name": "Breitenberg-King",
+        "ToolTip": "Eligendi et.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "odit",
-        "ColorBlock": 451,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2011-09-18T03:47:00.5505518+02:00",
+        "Rank": 60,
+        "Type": "eos",
+        "ColorBlock": 161,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2024-05-03T11:24:53.8436729+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Ms. Clemens Lubowitz MD",
+        "ExtraInfo": "modi",
+        "StyleHint": "facilis",
+        "Hidden": true,
+        "FullName": "Michaela Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Miss Giovanni Ivy Hoeger",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "alias",
+    "Hidden": false,
+    "FullName": "Mrs. Carey Holden Wilderman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 737
       }
     }
   }

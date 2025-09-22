@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 368,
-  "Name": "McClure, Kling and Spinka",
-  "CurrencyId": 330,
-  "EnglishName": "Beier, Connelly and Steuber",
+  "CountryId": 332,
+  "Name": "Goyette Inc and Sons",
+  "CurrencyId": 837,
+  "EnglishName": "Hammes Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable optimal Graphical User Interface",
-  "OrgNrText": "1212930",
-  "InterAreaPrefix": "non",
-  "DialInPrefix": "fugit",
-  "ZipPrefix": "recusandae",
-  "DomainName": "Ziemann, Gleichner and Eichmann",
-  "AddressLayoutId": 345,
-  "DomesticAddressLayoutId": 835,
-  "ForeignAddressLayoutId": 460,
-  "Rank": 499,
-  "Tooltip": "blanditiis",
+  "ImageDescription": "Centralized user-facing structure",
+  "OrgNrText": "213294",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "velit",
+  "ZipPrefix": "ea",
+  "DomainName": "Schaden Inc and Sons",
+  "AddressLayoutId": 127,
+  "DomesticAddressLayoutId": 238,
+  "ForeignAddressLayoutId": 329,
+  "Rank": 346,
+  "Tooltip": "ut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

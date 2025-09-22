@@ -134,11 +134,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 498,
+  "AppointmentId": 81,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -154,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-10-05T03:46:54.1914032+02:00",
-  "AppointmentId": 904,
-  "Description": "Proactive bifurcated structure",
-  "Title": "velit",
-  "Agenda": "qui",
-  "InternalNotes": "voluptas",
-  "StartDate": "2024-10-30T03:46:54.1914032+01:00",
-  "EndDate": "2018-10-19T03:46:54.1914032+02:00",
+  "CreatedDate": "2012-01-31T11:24:47.4533128+01:00",
+  "AppointmentId": 314,
+  "Description": "Implemented needs-based architecture",
+  "Title": "quibusdam",
+  "Agenda": "nulla",
+  "InternalNotes": "aut",
+  "StartDate": "2016-03-04T11:24:47.4533128+01:00",
+  "EndDate": "2008-10-12T11:24:47.4533128+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 577,
+  "MotherId": 74,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-01-05T03:46:54.1914032+01:00",
+  "UpdatedDate": "2019-06-07T11:24:47.4533128+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 371,
+  "ActiveLinks": 637,
   "Links": [
     {
-      "EntityName": "Wisozk Group",
-      "Id": 892,
-      "Description": "Reactive homogeneous matrices",
-      "ExtraInfo": "optio",
-      "LinkId": 195,
+      "EntityName": "Buckridge, Hintz and Legros",
+      "Id": 870,
+      "Description": "Fundamental value-added productivity",
+      "ExtraInfo": "sit",
+      "LinkId": 831,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 122
         }
       }
     }
   ],
-  "AlarmLeadTime": "doloremque",
+  "AlarmLeadTime": "rem",
   "HasAlarm": false,
-  "ColorIndex": 250,
+  "ColorIndex": 932,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "perferendis",
-  "LeadTime": "officiis",
-  "Location": "rerum",
-  "RejectCounter": 841,
+  "LagTime": "placeat",
+  "LeadTime": "doloremque",
+  "Location": "exercitationem",
+  "RejectCounter": 829,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 432,
-      "PersonId": 920,
-      "ContactId": 260,
-      "EmailId": 969,
+      "AssociateId": 237,
+      "PersonId": 861,
+      "ContactId": 729,
+      "EmailId": 996,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "johnny@christiansen.co.uk",
-      "Description": "Synergized bottom-line knowledge base"
+      "EmailAddress": "jimmie_hand@bernhardfunk.uk",
+      "Description": "Assimilated dynamic algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-10-29T03:46:54.1914032+02:00",
+  "ActiveDate": "2016-10-17T11:24:47.4533128+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 613,
+  "PreferredTZLocation": 32,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 324,
+  "SuggestedAppointmentId": 256,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perferendis",
+  "CentralserviceVideomeetId": "consequatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "2058921235",
-    "SuperOffice:2": "Megane Rohan"
+    "SuperOffice:1": "830475726",
+    "SuperOffice:2": "Mr. Clement Katlyn Runte Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "facere",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2004-08-30T03:46:54.1914032+02:00",
-  "PublishTo": "2000-01-03T03:46:54.1914032+01:00",
-  "PublishFrom": "2013-04-24T03:46:54.1914032+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-02-24T11:24:47.4533128+01:00",
+  "PublishTo": "2010-08-29T11:24:47.4533128+02:00",
+  "PublishFrom": "2020-02-08T11:24:47.4533128+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 799,
+      "VisibleId": 798,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 479
         }
       }
     },
     {
-      "VisibleId": 799,
+      "VisibleId": 798,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldLength": 479
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 371
     }
   }
 }

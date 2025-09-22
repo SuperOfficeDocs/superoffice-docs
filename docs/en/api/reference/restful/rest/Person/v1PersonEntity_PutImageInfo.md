@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 319,
-  "BlobSize": 255,
-  "Description": "Optimized content-based website",
-  "ExtraInfo": "sed",
+  "BlobId": 496,
+  "BlobSize": 968,
+  "Description": "Centralized exuding knowledge user",
+  "ExtraInfo": "necessitatibus",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "commodi",
-  "OriginalSize": 153,
-  "CreatedDate": "2004-06-07T03:47:00.1599324+02:00",
-  "UpdatedDate": "2023-06-28T03:47:00.1599324+02:00",
+  "IsZipped": false,
+  "MimeType": "architecto",
+  "OriginalSize": 802,
+  "CreatedDate": "2021-08-03T11:24:53.437431+02:00",
+  "UpdatedDate": "2002-01-31T11:24:53.437431+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt"
+  "ConceptualType": "doloremque"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 686,
-  "BlobSize": 276,
-  "Description": "Synergized non-volatile system engine",
-  "ExtraInfo": "atque",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "maxime",
-  "OriginalSize": 181,
-  "CreatedDate": "2013-12-27T03:47:00.1599324+01:00",
-  "UpdatedDate": "2020-03-15T03:47:00.1599324+01:00",
+  "BlobId": 739,
+  "BlobSize": 518,
+  "Description": "Self-enabling 6th generation success",
+  "ExtraInfo": "totam",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "cum",
+  "OriginalSize": 691,
+  "CreatedDate": "2013-09-17T11:24:53.437431+02:00",
+  "UpdatedDate": "2024-03-26T11:24:53.437431+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 65
     }
   }
 }

@@ -31,7 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 200,
-  "ColumnId": 241,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 935,
-  "FieldLabel": "sint",
-  "FieldLeft": 535,
-  "FieldTop": 497,
+  "UDefFieldId": 684,
+  "ColumnId": 261,
+  "FieldDefault": "nihil",
+  "FieldHeight": 930,
+  "FieldLabel": "nulla",
+  "FieldLeft": 814,
+  "FieldTop": 496,
   "FieldType": "Checkbox",
-  "FieldWidth": 912,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 744,
+  "FormatMask": "consectetur",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 772,
-  "LabelLeft": 956,
-  "LabelTop": 393,
-  "LabelWidth": 334,
-  "LastVersionId": 412,
-  "ListTableId": 252,
-  "IsMandatory": false,
+  "LabelHeight": 219,
+  "LabelLeft": 575,
+  "LabelTop": 909,
+  "LabelWidth": 650,
+  "LastVersionId": 266,
+  "ListTableId": 328,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 677,
-  "ProgId": "repellat",
+  "Page1LineNo": 817,
+  "ProgId": "doloremque",
   "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 850,
-  "TextLength": 449,
-  "Tooltip": "omnis",
-  "UdefIdentity": 648,
-  "UDListDefinitionId": 52,
+  "ShortLabel": "fugiat",
+  "TabOrder": 283,
+  "TextLength": 840,
+  "Tooltip": "amet",
+  "UdefIdentity": 231,
+  "UDListDefinitionId": 293,
   "Justification": "Center",
-  "Version": 182,
-  "TemplateVariableName": "Fisher Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Bosco Inc and Sons",
+  "Version": 613,
+  "TemplateVariableName": "Torp-Beer",
+  "HasBeenPublished": false,
+  "MdoListName": "Runte-Bogisich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

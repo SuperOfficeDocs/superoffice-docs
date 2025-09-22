@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Reilly LLC",
-    "ToolTip": "Reiciendis atque et harum officiis illum reprehenderit et.",
-    "Deleted": false,
-    "Rank": 777,
-    "Type": "similique",
-    "ColorBlock": 921,
-    "IconHint": "vel",
+    "Id": 622,
+    "Name": "King-Ferry",
+    "ToolTip": "Ab dolorum est ipsum voluptas quaerat molestiae error.",
+    "Deleted": true,
+    "Rank": 581,
+    "Type": "enim",
+    "ColorBlock": 35,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2022-07-13T03:47:00.6911718+02:00",
+    "LastChanged": "1999-01-18T11:24:53.9686678+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Kirlin Group",
-        "ToolTip": "Et rerum quasi doloribus quia aut quo.",
+        "Id": 710,
+        "Name": "D'Amore, Schaefer and Schmidt",
+        "ToolTip": "Ipsam deserunt alias.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "natus",
-        "ColorBlock": 266,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2000-01-11T03:47:00.6911718+01:00",
+        "Rank": 121,
+        "Type": "vel",
+        "ColorBlock": 837,
+        "IconHint": "nisi",
+        "Selected": true,
+        "LastChanged": "2007-11-09T11:24:53.9686678+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "odit",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Jonatan Mills V",
+        "FullName": "Darrick Koepp V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Catherine Luettgen",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Ebba Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 124
       }
     }
   }

@@ -32,7 +32,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Ratione quaerat architecto.",
+    "Id": 421,
+    "Name": "Swaniawski Inc and Sons",
+    "ToolTip": "Ut sit ut dolor velit consequatur repellendus.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "placeat",
-    "ColorBlock": 758,
-    "IconHint": "doloremque",
-    "Selected": false,
-    "LastChanged": "1998-09-15T03:47:00.8942898+02:00",
+    "Rank": 588,
+    "Type": "et",
+    "ColorBlock": 335,
+    "IconHint": "tempore",
+    "Selected": true,
+    "LastChanged": "2001-12-16T11:24:54.1717846+01:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Harber Inc and Sons",
-        "ToolTip": "Non consectetur et.",
-        "Deleted": false,
-        "Rank": 773,
-        "Type": "eveniet",
-        "ColorBlock": 582,
-        "IconHint": "tempora",
+        "Id": 468,
+        "Name": "Armstrong, Osinski and Oberbrunner",
+        "ToolTip": "Officia sit.",
+        "Deleted": true,
+        "Rank": 512,
+        "Type": "voluptatibus",
+        "ColorBlock": 326,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "1998-09-19T03:47:00.8942898+02:00",
+        "LastChanged": "2000-07-02T11:24:54.1717846+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Micheal Batz",
+        "ExtraInfo": "numquam",
+        "StyleHint": "suscipit",
+        "Hidden": false,
+        "FullName": "Prof. Ally Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldLength": 761
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "ut",
+    "ExtraInfo": "commodi",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Prof. Tavares Adrienne Kutch",
+    "FullName": "Bertram Lang MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldLength": 621
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Durgan LLC"
+  "Name": "Miller Group"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Value": "numquam",
-    "Tooltip": "repudiandae",
+    "Id": 849,
+    "Value": "soluta",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 558
       }
     }
   },
   {
-    "Id": 204,
-    "Value": "numquam",
-    "Tooltip": "repudiandae",
+    "Id": 849,
+    "Value": "soluta",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 558
       }
     }
   }

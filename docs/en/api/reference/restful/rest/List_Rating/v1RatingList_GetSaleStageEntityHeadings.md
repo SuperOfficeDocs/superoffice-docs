@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 685,
-    "Name": "Kerluke LLC",
-    "Tooltip": "dolor",
+    "HeadingId": 111,
+    "Name": "Glover, Koss and Little",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 771,
-    "UdListDefinitionId": 50,
+    "Rank": 232,
+    "UdListDefinitionId": 728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldLength": 420
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 372
+  "ErpConnectionId": 994
 }
 ```
 
@@ -96,31 +96,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Lakin-Langworth",
+      "ErpListName": "Yundt-Bednar",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Witting-Becker",
-      "ErpFieldId": 102,
+      "ErpActorTypeName": "Batz Group",
+      "ErpFieldId": 780,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 706
         }
       }
     }
   ],
-  "ErpConnectionId": 23,
-  "ErpConnectionName": "Luettgen LLC",
+  "ErpConnectionId": 380,
+  "ErpConnectionName": "Schowalter, Lueilwitz and Beer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 193
     }
   }
 }

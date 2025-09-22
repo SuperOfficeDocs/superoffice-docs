@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "ea",
-  "PhotoImage": "mollitia"
+  "LogoImage": "natus",
+  "PhotoImage": "non"
 }
 ```

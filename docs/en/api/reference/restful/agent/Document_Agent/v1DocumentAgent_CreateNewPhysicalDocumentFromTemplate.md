@@ -120,14 +120,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 664,
-  "PersonId": 518,
-  "AppointmentId": 76,
-  "DocumentId": 344,
-  "SaleId": 46,
-  "SelectionId": 561,
-  "ProjectId": 820,
-  "UiCulture": "voluptatem"
+  "ContactId": 150,
+  "PersonId": 705,
+  "AppointmentId": 128,
+  "DocumentId": 101,
+  "SaleId": 629,
+  "SelectionId": 221,
+  "ProjectId": 890,
+  "UiCulture": "qui"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 791,
+  "DocumentId": 967,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "doloremque",
-  "Header": "quo",
-  "Name": "Renner Group",
-  "OurRef": "cupiditate",
-  "YourRef": "et",
-  "CreatedDate": "2016-09-04T03:46:54.67576+02:00",
-  "UpdatedDate": "2001-01-29T03:46:54.67576+01:00",
-  "Description": "Customer-focused holistic encoding",
+  "Attention": "minima",
+  "Header": "consectetur",
+  "Name": "Strosin, Rutherford and Bergnaum",
+  "OurRef": "impedit",
+  "YourRef": "amet",
+  "CreatedDate": "2005-04-21T11:24:48.0001535+02:00",
+  "UpdatedDate": "2011-05-04T11:24:48.0001535+02:00",
+  "Description": "Pre-emptive executive open architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2025-05-25T03:46:54.6913844+02:00",
-  "ExternalRef": "libero",
+  "Date": "2001-07-05T11:24:48.0001535+02:00",
+  "ExternalRef": "dolorem",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 177,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Maggio, Ward and Cruickshank",
-      "Id": 256,
-      "Description": "Enhanced executive monitoring",
-      "ExtraInfo": "harum",
-      "LinkId": 10,
+      "EntityName": "Breitenberg, Hansen and Volkman",
+      "Id": 933,
+      "Description": "Secured dedicated success",
+      "ExtraInfo": "modi",
+      "LinkId": 184,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldType": "System.String",
+          "FieldLength": 900
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 103,
-  "Snum": 905,
+  "SuggestedDocumentId": 410,
+  "Snum": 818,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Ed Aryanna Thompson"
+    "SuperOffice:1": "Marcel Bosco",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "est"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "vel"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2011-06-12T03:46:54.6913844+02:00",
-  "PublishTo": "2004-04-18T03:46:54.6913844+02:00",
-  "PublishFrom": "2004-06-22T03:46:54.6913844+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-05-13T11:24:48.0001535+02:00",
+  "PublishTo": "2000-04-09T11:24:48.0001535+02:00",
+  "PublishFrom": "2011-08-09T11:24:48.0001535+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 233,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 705
         }
       }
     },
     {
-      "VisibleId": 233,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 705
         }
       }
     }
@@ -228,8 +228,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 483
     }
   }
 }

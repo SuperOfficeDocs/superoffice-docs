@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 770,
-  "Name": "Walker Group",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 357,
-  "Rank": 720
+  "Id": 645,
+  "Name": "McKenzie, Mertz and Krajcik",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 704,
+  "Rank": 879
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Daugherty-Gleason",
-  "Tooltip": "qui",
+  "Id": 258,
+  "Name": "Cassin Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 748,
-  "Rank": 618,
+  "UdListDefinitionId": 251,
+  "Rank": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 866
     }
   }
 }

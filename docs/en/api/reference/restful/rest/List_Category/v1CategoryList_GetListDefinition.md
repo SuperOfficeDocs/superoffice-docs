@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 243,
-  "Name": "Hudson LLC",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 70,
-  "IsCustomList": true,
+  "Id": 581,
+  "Name": "Bergstrom-Sawayn",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 822,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 603
     }
   },
   "_Links": {

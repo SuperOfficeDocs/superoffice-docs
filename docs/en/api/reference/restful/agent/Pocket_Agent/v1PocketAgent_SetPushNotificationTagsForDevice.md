@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "et",
-  "Tags": "consequuntur"
+  "DeviceIdentifier": "quam",
+  "Tags": "corporis"
 }
 ```
 

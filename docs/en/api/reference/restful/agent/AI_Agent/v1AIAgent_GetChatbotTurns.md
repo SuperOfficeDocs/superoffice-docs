@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "ipsa"
+  "ChatId": "quo"
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
-    "UserPrompt": "ducimus",
-    "UserDisplayText": "qui",
-    "BotResponse": "tenetur",
+    "Timestamp": "2015-08-02T11:24:47.2814408+02:00",
+    "UserPrompt": "voluptas",
+    "UserDisplayText": "iusto",
+    "BotResponse": "ex",
     "BotActions": {
-      "BotActions1": "asperiores",
-      "BotActions2": "nihil"
+      "BotActions1": "amet",
+      "BotActions2": "architecto"
     },
     "Attachments": [
-      "aliquam",
-      "a"
+      "rerum",
+      "sunt"
     ]
   },
   {
-    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
-    "UserPrompt": "ducimus",
-    "UserDisplayText": "qui",
-    "BotResponse": "tenetur",
+    "Timestamp": "2015-08-02T11:24:47.2814408+02:00",
+    "UserPrompt": "voluptas",
+    "UserDisplayText": "iusto",
+    "BotResponse": "ex",
     "BotActions": {
-      "BotActions1": "asperiores",
-      "BotActions2": "nihil"
+      "BotActions1": "amet",
+      "BotActions2": "architecto"
     },
     "Attachments": [
-      "aliquam",
-      "a"
+      "rerum",
+      "sunt"
     ]
   }
 ]

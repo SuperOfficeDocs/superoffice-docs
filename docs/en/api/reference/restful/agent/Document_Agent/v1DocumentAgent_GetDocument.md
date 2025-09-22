@@ -27,7 +27,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=348
+POST /api/v1/Agents/Document/GetDocument?documentId=400
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,32 +97,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 447,
-  "Attention": "dolorum",
-  "Header": "fuga",
-  "Name": "Jerde, Lemke and Thiel",
-  "OurRef": "ut",
-  "YourRef": "at",
-  "Description": "Extended next generation strategy",
-  "DocumentTemplate": "quia",
+  "DocumentId": 192,
+  "Attention": "rem",
+  "Header": "aperiam",
+  "Name": "Crooks, Schinner and Skiles",
+  "OurRef": "quis",
+  "YourRef": "aliquid",
+  "Description": "Synergized demand-driven budgetary management",
+  "DocumentTemplate": "aut",
   "IsPublished": false,
-  "PersonId": 291,
-  "PersonFullName": "Erin Strosin",
-  "AssociateFullName": "Eduardo Schultz",
-  "ContactId": 344,
-  "ContactName": "Mills Group",
-  "ProjectId": 955,
-  "ProjectName": "King Inc and Sons",
-  "AssociateId": 42,
-  "Snum": 427,
-  "SaleId": 106,
-  "SaleName": "Brakus, Daugherty and Kessler",
+  "PersonId": 140,
+  "PersonFullName": "Carmen Kautzer",
+  "AssociateFullName": "Mrs. Addie Marley Crist III",
+  "ContactId": 533,
+  "ContactName": "Shanahan Inc and Sons",
+  "ProjectId": 990,
+  "ProjectName": "Bayer-Krajcik",
+  "AssociateId": 772,
+  "Snum": 890,
+  "SaleId": 606,
+  "SaleName": "Veum Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 874
+      "FieldLength": 726
     }
   }
 }

@@ -114,18 +114,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 739,
-  "Name": "Lebsack-Konopelski",
-  "Rank": 633,
-  "Tooltip": "maxime",
+  "AssociateId": 658,
+  "Name": "Becker, Parker and Herzog",
+  "Rank": 9,
+  "Tooltip": "nostrum",
   "LicenseOwners": [
     {
-      "Name": "VonRueden, Predovic and Boyle",
-      "Description": "Extended value-added database",
+      "Name": "Zemlak-Gutkowski",
+      "Description": "Enhanced bifurcated customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "VonRueden, Predovic and Boyle",
-      "Description": "Extended value-added database",
+      "Name": "Zemlak-Gutkowski",
+      "Description": "Enhanced bifurcated customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,87 +152,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sit",
-      "Tooltip": "voluptatem",
-      "Id": 600,
-      "Rank": 892,
-      "Deleted": false
+      "Value": "accusamus",
+      "Tooltip": "voluptas",
+      "Id": 285,
+      "Rank": 499,
+      "Deleted": true
     },
     {
-      "Value": "sit",
-      "Tooltip": "voluptatem",
-      "Id": 600,
-      "Rank": 892,
-      "Deleted": false
+      "Value": "accusamus",
+      "Tooltip": "voluptas",
+      "Id": 285,
+      "Rank": 499,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2022-11-18T03:46:55.581978+01:00",
-  "Lastlogout": "2013-10-01T03:46:55.581978+02:00",
-  "EjUserId": 981,
-  "RequestSignature": "quo",
+  "Lastlogin": "2005-05-19T11:24:48.9063744+02:00",
+  "Lastlogout": "2024-04-04T11:24:48.9063744+02:00",
+  "EjUserId": 972,
+  "RequestSignature": "corrupti",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "veritatis"
+      "Value": "atque",
+      "DisplayValue": "et"
     },
     {
       "Type": null,
-      "Value": "nihil",
-      "DisplayValue": "veritatis"
+      "Value": "atque",
+      "DisplayValue": "et"
     }
   ],
-  "UserName": "Klein, West and Hills",
+  "UserName": "Moen LLC",
   "TicketCategories": [
     {
-      "Id": 534,
-      "Name": "Lind, Schuster and Gusikowski",
-      "ToolTip": "Assumenda consequatur magnam unde dolor qui quo dolores.",
-      "Deleted": true,
-      "Rank": 55,
-      "Type": "voluptatem",
+      "Id": 970,
+      "Name": "Koch-Bernier",
+      "ToolTip": "Doloremque nihil possimus.",
+      "Deleted": false,
+      "Rank": 901,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aperiam",
-      "ColorBlock": 852,
-      "ExtraInfo": "est",
-      "StyleHint": "corrupti",
-      "FullName": "Tessie Considine"
+      "IconHint": "fugiat",
+      "ColorBlock": 876,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "qui",
+      "FullName": "Nicklaus Sporer"
     }
   ],
-  "NickName": "Balistreri, Kemmer and Shields",
+  "NickName": "Robel-O'Reilly",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "aut",
+    "CustomFields2": "doloribus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kemmer-Ward",
-      "DisplayName": "Ortiz-Mitchell",
-      "Description": "Triple-buffered non-volatile local area network",
-      "ToolTip": "Quia et possimus fugiat voluptatibus repellat.",
+      "Name": "Weimann Inc and Sons",
+      "DisplayName": "Langworth, Kozey and Kihn",
+      "Description": "Versatile eco-centric support",
+      "ToolTip": "Dolor consequatur qui aut dolor sit.",
       "Actions": "Implicit",
-      "ActionData": "perspiciatis"
+      "ActionData": "sequi"
     },
     {
-      "Name": "Kemmer-Ward",
-      "DisplayName": "Ortiz-Mitchell",
-      "Description": "Triple-buffered non-volatile local area network",
-      "ToolTip": "Quia et possimus fugiat voluptatibus repellat.",
+      "Name": "Weimann Inc and Sons",
+      "DisplayName": "Langworth, Kozey and Kihn",
+      "Description": "Versatile eco-centric support",
+      "ToolTip": "Dolor consequatur qui aut dolor sit.",
       "Actions": "Implicit",
-      "ActionData": "perspiciatis"
+      "ActionData": "sequi"
     }
   ]
 }
@@ -245,14 +245,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 956,
-  "Name": "Breitenberg-Ernser",
-  "Rank": 277,
-  "Tooltip": "ipsa",
+  "AssociateId": 862,
+  "Name": "Morissette-Cormier",
+  "Rank": 565,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Sipes Group",
-      "Description": "Upgradable methodical toolset",
+      "Name": "Smith-Schinner",
+      "Description": "Self-enabling incremental website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -266,13 +266,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldLength": 8
         }
       }
     },
     {
-      "Name": "Sipes Group",
-      "Description": "Upgradable methodical toolset",
+      "Name": "Smith-Schinner",
+      "Description": "Self-enabling incremental website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -286,7 +286,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldLength": 8
         }
       }
     }
@@ -295,110 +295,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "enim",
-      "Id": 353,
-      "Rank": 744,
-      "Deleted": true,
+      "Value": "sint",
+      "Tooltip": "accusamus",
+      "Id": 174,
+      "Rank": 253,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 662
+          "FieldLength": 518
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2007-11-14T03:46:55.5976024+01:00",
-  "Lastlogout": "2008-08-27T03:46:55.5976024+02:00",
-  "EjUserId": 603,
-  "RequestSignature": "alias",
+  "Deleted": false,
+  "Lastlogin": "2020-09-04T11:24:48.9063744+02:00",
+  "Lastlogout": "2014-04-04T11:24:48.9063744+02:00",
+  "EjUserId": 10,
+  "RequestSignature": "fuga",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "illum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "illum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 54
-        }
-      }
-    }
-  ],
-  "UserName": "Pouros Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 12,
-      "Name": "Murazik Group",
-      "ToolTip": "Omnis suscipit id.",
-      "Deleted": false,
-      "Rank": 626,
-      "Type": "quidem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "sed",
-      "ColorBlock": 918,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "facere",
-      "FullName": "Dante Bosco",
+      "Value": "aut",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldLength": 626
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "aut",
+      "DisplayValue": "repellendus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 626
         }
       }
     }
   ],
-  "NickName": "Corkery, Brown and Jerde",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "corporis"
-  },
-  "PostSaveCommands": [
+  "UserName": "Becker Inc and Sons",
+  "TicketCategories": [
     {
-      "Name": "Wiegand Group",
-      "DisplayName": "Hane-Ward",
-      "Description": "Face to face human-resource standardization",
-      "ToolTip": "Enim eveniet mollitia labore.",
-      "Actions": "Implicit",
-      "ActionData": "enim",
+      "Id": 299,
+      "Name": "Deckow, Kovacek and Bednar",
+      "ToolTip": "Vitae incidunt magni ut debitis delectus repudiandae.",
+      "Deleted": false,
+      "Rank": 933,
+      "Type": "praesentium",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "aut",
+      "ColorBlock": 310,
+      "ExtraInfo": "quia",
+      "StyleHint": "perspiciatis",
+      "FullName": "Mckayla Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldLength": 272
+        }
+      }
+    }
+  ],
+  "NickName": "Rohan-Christiansen",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptate"
+  },
+  "CustomFields": {
+    "CustomFields1": "omnis",
+    "CustomFields2": "sunt"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Halvorson, Funk and Gibson",
+      "DisplayName": "Cummings Group",
+      "Description": "Proactive leading edge synergy",
+      "ToolTip": "Similique voluptatibus omnis voluptas voluptatem.",
+      "Actions": "Implicit",
+      "ActionData": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 130
         }
       }
     }
@@ -408,7 +408,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 208
     }
   }
 }

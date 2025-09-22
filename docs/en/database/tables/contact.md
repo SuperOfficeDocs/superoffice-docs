@@ -1,7 +1,7 @@
 ---
 uid: table-contact
 title: contact table
-description: Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
+description: Companies and Organizations.
 generated: true
 keywords: database table contact
 content_type: reference
@@ -10,7 +10,7 @@ envir: onsite, online
 
 # contact Table (5)
 
-Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
+Companies and Organizations.
 
 ## Fields
 
@@ -97,7 +97,7 @@ Companies and Organizations.   This table features a special record containing i
 |[Category](category.md)  |Category list table |
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[company\_domain](company-domain.md)  |This table contains web-domains associated with a certain cust_company entry. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[contactinterest](contactinterest.md)  |Link-table between contact and interests in ContInt |
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[country](country.md)  |Country information |
@@ -111,7 +111,7 @@ Companies and Organizations.   This table features a special record containing i
 |[invoice\_sum](invoice-sum.md)  |This table is used temporarily when listing invoice statistics. It is used because we need to sort balances from both customers and companies. |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[OwnerContactLink](ownercontactlink.md)  |Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency.  |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[phone](phone.md)  |Contact and Person phonenumbers (+fax) |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |

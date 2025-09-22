@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 808,
-  "Name": "Cruickshank, Kuvalis and Rogahn",
-  "Tooltip": "libero",
+  "WebPanelId": 111,
+  "Name": "Ruecker-Nienow",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 351,
+  "Rank": 537,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bergstrom Group",
+  "WindowName": "Cormier Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 185,
+  "ProgId": "neque",
+  "Icon": 838,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

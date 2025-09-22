@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Predovic-Pfeffer",
-  "RecordId": 378,
-  "AssociateId": 936
+  "TableName": "Schulist Group",
+  "RecordId": 991,
+  "AssociateId": 532
 }
 ```
 

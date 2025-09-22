@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=incidunt
-GET /api/v1/Contact?$top=672
-GET /api/v1/Contact?$skip=82
+GET /api/v1/Contact?$entities=occaecati
+GET /api/v1/Contact?$top=278
+GET /api/v1/Contact?$skip=321
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=et
+GET /api/v1/Contact?$context=fugit
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -130,21 +130,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 4247,
-      "EntityName": "sale",
-      "saleId": 4247,
-      "contactId": 6959,
-      "name": "Hamill, Dach and Sauer"
+      "PrimaryKey": 1919,
+      "EntityName": "person",
+      "personId": 1919,
+      "fullName": "Ms. Sid Alfonso Hettinger Jr."
     },
     {
-      "PrimaryKey": 5375,
-      "EntityName": "sale",
-      "saleId": 5375,
-      "contactId": 6600,
-      "name": "Bernier LLC"
+      "PrimaryKey": 1199,
+      "EntityName": "person",
+      "personId": 1199,
+      "fullName": "Eliseo Robel"
     }
   ]
 }

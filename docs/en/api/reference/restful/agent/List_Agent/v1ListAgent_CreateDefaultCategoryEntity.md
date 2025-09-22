@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 268,
-  "Name": "Bogan Group",
+  "CategoryId": 402,
+  "Name": "Macejkovic LLC",
   "CategoryGroup": "Customer",
-  "Tooltip": "placeat",
-  "Rank": 77,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 228,
-  "Deleted": false,
+  "Tooltip": "velit",
+  "Rank": 478,
+  "EnableLeadStatus": false,
+  "CategoryFamilyId": 739,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 540
+      "FieldLength": 800
     }
   }
 }

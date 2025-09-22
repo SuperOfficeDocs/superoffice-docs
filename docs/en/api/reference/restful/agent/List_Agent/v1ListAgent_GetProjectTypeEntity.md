@@ -27,7 +27,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=776
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=68
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,41 +87,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 153,
-  "Name": "McGlynn, Pollich and Feil",
-  "Tooltip": "id",
-  "Rank": 429,
+  "ProjTypeId": 10,
+  "Name": "Wuckert LLC",
+  "Tooltip": "et",
+  "Rank": 44,
   "DurationUnit": "Century",
-  "ProjectDuration": 403,
-  "Deleted": false,
+  "ProjectDuration": 659,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 217,
-      "Name": "Pouros-Keeling",
-      "ToolTip": "Nisi consequatur nihil qui libero nemo.",
+      "Id": 671,
+      "Name": "Feeney Inc and Sons",
+      "ToolTip": "Praesentium laboriosam maxime voluptates quisquam.",
       "Deleted": false,
-      "Rank": 744,
-      "Type": "sit",
-      "ColorBlock": 877,
-      "IconHint": "veniam",
+      "Rank": 377,
+      "Type": "vel",
+      "ColorBlock": 338,
+      "IconHint": "velit",
       "Selected": true,
-      "LastChanged": "2002-04-12T03:46:54.9413809+02:00",
+      "LastChanged": "2022-01-02T11:24:48.1876539+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "debitis",
+      "ExtraInfo": "aut",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Clark McDermott DVM",
+      "FullName": "Kristin Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 532
     }
   }
 }

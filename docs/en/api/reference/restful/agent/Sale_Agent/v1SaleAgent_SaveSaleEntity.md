@@ -150,7 +150,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maiores",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -169,90 +169,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-09-27T03:46:55.2538645+02:00",
-  "Amount": 8386.5839999999989,
-  "SaleId": 564,
-  "Earning": 26338.136,
-  "EarningPercent": 22865.664,
-  "Heading": "unde",
-  "Number": "767804",
-  "Probability": 721,
-  "CreatedDate": "2000-04-10T03:46:55.2538645+02:00",
-  "UpdatedDate": "2024-02-02T03:46:55.2538645+01:00",
+  "Saledate": "2001-03-28T11:24:48.5626385+02:00",
+  "Amount": 16071.152,
+  "SaleId": 193,
+  "Earning": 6130.1039999999994,
+  "EarningPercent": 26830.174,
+  "Heading": "corrupti",
+  "Number": "862452",
+  "Probability": 566,
+  "CreatedDate": "2013-12-16T11:24:48.5626385+01:00",
+  "UpdatedDate": "2003-08-23T11:24:48.5626385+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 692,
+  "ActiveLinks": 818,
   "Links": [
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Howell Inc and Sons",
+      "Id": 242,
+      "Description": "Quality-focused logistical info-mediaries",
+      "ExtraInfo": "cumque",
+      "LinkId": 805
     },
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Howell Inc and Sons",
+      "Id": 242,
+      "Description": "Quality-focused logistical info-mediaries",
+      "ExtraInfo": "cumque",
+      "LinkId": 805
     }
   ],
-  "NextDueDate": "2023-06-30T03:46:55.2538645+02:00",
-  "Postit": "sit",
+  "NextDueDate": "1999-10-28T11:24:48.5626385+02:00",
+  "Postit": "eius",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-12-05T03:46:55.2538645+01:00",
+  "ReopenDate": "2010-02-18T11:24:48.5626385+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kerluke Group",
-      "Comment": "unde",
-      "StakeholderRoleId": 656,
-      "CountryId": 469,
-      "PersonId": 724,
-      "EmailDescription": "derrick.crona@greenholt.uk",
-      "EmailId": 882,
-      "EmailAddress": "annamae.purdy@schustervonrueden.co.uk",
-      "PhoneId": 134,
-      "ContactName": "Kuhn, Tillman and Cronin",
-      "ContactId": 261,
-      "SaleId": 403,
-      "Mrmrs": "eaque",
-      "Firstname": "Brown",
-      "MiddleName": "Lehner, McKenzie and Legros",
-      "Lastname": "Davis",
-      "SaleStakeholderId": 435,
-      "Rank": 557,
-      "Phone": "964-498-5722"
+      "StakeholderRoleName": "Mills, Cartwright and Kozey",
+      "Comment": "itaque",
+      "StakeholderRoleId": 281,
+      "CountryId": 911,
+      "PersonId": 848,
+      "EmailDescription": "juston.murphy@shields.co.uk",
+      "EmailId": 209,
+      "EmailAddress": "shyann_kulas@kovacekhackett.ca",
+      "PhoneId": 744,
+      "ContactName": "Hegmann Group",
+      "ContactId": 994,
+      "SaleId": 118,
+      "Mrmrs": "aut",
+      "Firstname": "Cheyanne",
+      "MiddleName": "Tillman Inc and Sons",
+      "Lastname": "Hills",
+      "SaleStakeholderId": 909,
+      "Rank": 131,
+      "Phone": "1-428-742-9582"
     }
   ],
-  "ActiveErpLinks": 502,
+  "ActiveErpLinks": 608,
   "UserDefinedFields": {
-    "SuperOffice:1": "1369531858",
-    "SuperOffice:2": "Zoila Doyle"
+    "SuperOffice:1": "Uriel Lynch",
+    "SuperOffice:2": "Michelle Boyer"
   },
   "ExtraFields": {
     "ExtraFields1": "aut",
-    "ExtraFields2": "consequatur"
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "corporis"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2008-03-04T03:46:55.2538645+01:00",
-  "PublishTo": "2000-10-07T03:46:55.2538645+02:00",
-  "PublishFrom": "2021-07-25T03:46:55.2538645+02:00",
+  "PublishEventDate": "2012-02-01T11:24:48.5626385+01:00",
+  "PublishTo": "2007-02-12T11:24:48.5626385+01:00",
+  "PublishFrom": "1999-03-03T11:24:48.5626385+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "asperiores"
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 984,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "asperiores"
     }
   ]
 }
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "mollitia",
+  "SaleText": "laudantium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -280,113 +280,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-04-24T03:46:55.2538645+02:00",
-  "Amount": 14767.408,
-  "SaleId": 37,
-  "Earning": 7787.99,
-  "EarningPercent": 5086.482,
-  "Heading": "sunt",
-  "Number": "355760",
-  "Probability": 992,
-  "CreatedDate": "2010-04-14T03:46:55.2538645+02:00",
-  "UpdatedDate": "2006-01-26T03:46:55.2538645+01:00",
+  "Saledate": "2025-01-29T11:24:48.5782627+01:00",
+  "Amount": 6340.0819999999994,
+  "SaleId": 938,
+  "Earning": 6628.41,
+  "EarningPercent": 5600.458,
+  "Heading": "eos",
+  "Number": "1343635",
+  "Probability": 631,
+  "CreatedDate": "2015-05-19T11:24:48.5782627+02:00",
+  "UpdatedDate": "2020-09-18T11:24:48.5782627+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 119,
+  "ActiveLinks": 84,
   "Links": [
     {
-      "EntityName": "McGlynn Group",
-      "Id": 648,
-      "Description": "Diverse multi-tasking model",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 377,
+      "EntityName": "Parisian-Dibbert",
+      "Id": 757,
+      "Description": "Fundamental scalable adapter",
+      "ExtraInfo": "sit",
+      "LinkId": 376,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 635
         }
       }
     }
   ],
-  "NextDueDate": "2008-04-21T03:46:55.2538645+02:00",
-  "Postit": "velit",
+  "NextDueDate": "2023-07-13T11:24:48.5782627+02:00",
+  "Postit": "ut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-12-02T03:46:55.2538645+01:00",
+  "ReopenDate": "2024-01-02T11:24:48.5782627+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wuckert, Doyle and Littel",
-      "Comment": "quo",
-      "StakeholderRoleId": 972,
-      "CountryId": 1001,
-      "PersonId": 133,
-      "EmailDescription": "modesta@wiegandbaumbach.name",
-      "EmailId": 520,
-      "EmailAddress": "fatima_mann@schadenlemke.ca",
-      "PhoneId": 901,
-      "ContactName": "Marks-Boyer",
-      "ContactId": 432,
-      "SaleId": 909,
-      "Mrmrs": "est",
-      "Firstname": "Waldo",
-      "MiddleName": "Jenkins-Hickle",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 550,
-      "Rank": 58,
-      "Phone": "1-790-980-7273",
+      "StakeholderRoleName": "Schoen-Reichert",
+      "Comment": "dolore",
+      "StakeholderRoleId": 812,
+      "CountryId": 294,
+      "PersonId": 787,
+      "EmailDescription": "zula_kunze@stiedemannmccullough.biz",
+      "EmailId": 949,
+      "EmailAddress": "mercedes.daniel@mueller.co.uk",
+      "PhoneId": 658,
+      "ContactName": "Hamill, Jaskolski and Gislason",
+      "ContactId": 55,
+      "SaleId": 835,
+      "Mrmrs": "debitis",
+      "Firstname": "Deion",
+      "MiddleName": "Hilpert, Carter and Beatty",
+      "Lastname": "Walter",
+      "SaleStakeholderId": 294,
+      "Rank": 499,
+      "Phone": "1-032-641-0258",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
   ],
-  "ActiveErpLinks": 544,
+  "ActiveErpLinks": 950,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Naomi Trisha Tromp",
-    "SuperOffice:2": "Prof. Aniya Nicolas"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "2036446241"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "beatae"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "iste"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "repellendus"
   },
-  "PublishEventDate": "2000-02-08T03:46:55.2538645+01:00",
-  "PublishTo": "2006-03-28T03:46:55.2538645+02:00",
-  "PublishFrom": "2004-11-19T03:46:55.2538645+01:00",
+  "PublishEventDate": "2021-10-03T11:24:48.5782627+02:00",
+  "PublishTo": "2021-07-11T11:24:48.5782627+02:00",
+  "PublishFrom": "2012-02-06T11:24:48.5782627+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 315
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 315
         }
       }
     }
@@ -395,8 +395,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

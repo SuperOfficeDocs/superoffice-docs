@@ -81,38 +81,38 @@ OK
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "quia"
+        "omnis",
+        "saepe"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "deserunt"
+      "ExternalKey": "ipsa"
     },
     {
       "Values": [
-        "et",
-        "quia"
+        "omnis",
+        "saepe"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "deserunt"
+      "ExternalKey": "ipsa"
     }
   ],
   "ColumnDefinition": [
-    "rerum",
-    "laudantium"
+    "quam",
+    "optio"
   ],
-  "Culture": "id",
-  "Context": "hic"
+  "Culture": "est",
+  "Context": "excepturi"
 }
 ```
 
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "iusto",
-      "sed"
+      "quod",
+      "non"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "ut",
+    "ExternalKey": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 458
       }
     }
   }

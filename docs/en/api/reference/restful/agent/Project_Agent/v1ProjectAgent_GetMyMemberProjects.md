@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 826,
-    "Name": "Klein, Boyle and Rath",
-    "Description": "Multi-channelled dynamic hub",
+    "ProjectId": 562,
+    "Name": "Hilll Group",
+    "Description": "Profit-focused methodical initiative",
     "URL": "http://www.example.com/",
-    "Type": "sint",
-    "AssociateId": 528,
-    "AssociateFullName": "Keely Sawayn",
-    "TypeId": 726,
-    "Updated": "2020-06-23T03:46:55.1757421+02:00",
-    "StatusId": 962,
-    "Status": "et",
-    "TextId": 720,
-    "PublishTo": "2008-11-30T03:46:55.1757421+01:00",
-    "PublishFrom": "2006-05-11T03:46:55.1757421+02:00",
-    "IsPublished": false,
+    "Type": "reiciendis",
+    "AssociateId": 201,
+    "AssociateFullName": "Kaela Brekke",
+    "TypeId": 881,
+    "Updated": "2009-03-16T11:24:48.4845166+01:00",
+    "StatusId": 580,
+    "Status": "illum",
+    "TextId": 371,
+    "PublishTo": "2002-05-06T11:24:48.4845166+02:00",
+    "PublishFrom": "2016-07-06T11:24:48.4845166+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1067068",
-    "ActiveErpLinks": 347,
+    "ProjectNumber": "1132773",
+    "ActiveErpLinks": 420,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 942
       }
     }
   }

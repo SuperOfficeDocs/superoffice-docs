@@ -85,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 695,
-  "Section": "expedita",
-  "Key": "aut",
-  "Name": "Von Inc and Sons",
+  "PrefDescId": 133,
+  "Section": "exercitationem",
+  "Key": "voluptatibus",
+  "Name": "Torp LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized global synergy",
-  "IsBuiltin": true,
-  "TableName": "O'Kon Inc and Sons",
-  "UserDefinedListId": 927,
-  "Rank": 740,
-  "SubGroup": "rem",
-  "MinLevel": 731,
-  "MaxValue": 630,
-  "MinValue": 337,
-  "RequiredLicense": "officia",
+  "Description": "Future-proofed global moratorium",
+  "IsBuiltin": false,
+  "TableName": "Heidenreich, Halvorson and Lehner",
+  "UserDefinedListId": 162,
+  "Rank": 357,
+  "SubGroup": "voluptatem",
+  "MinLevel": 470,
+  "MaxValue": 237,
+  "MinValue": 111,
+  "RequiredLicense": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldType": "System.String",
+      "FieldLength": 923
     }
   }
 }

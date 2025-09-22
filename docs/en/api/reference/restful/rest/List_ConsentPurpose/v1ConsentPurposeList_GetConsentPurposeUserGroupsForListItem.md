@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Boehm-Heller",
-    "ToolTip": "Nihil saepe et autem pariatur ut.",
-    "Deleted": true,
-    "Rank": 337,
-    "Type": "natus",
-    "ColorBlock": 394,
-    "IconHint": "at",
+    "Id": 536,
+    "Name": "Wuckert, Murazik and Grimes",
+    "ToolTip": "A nostrum ratione ut nisi voluptatem harum.",
+    "Deleted": false,
+    "Rank": 264,
+    "Type": "suscipit",
+    "ColorBlock": 606,
+    "IconHint": "perspiciatis",
     "Selected": true,
-    "LastChanged": "2007-06-20T03:47:00.5974251+02:00",
+    "LastChanged": "2006-11-01T11:24:53.8749217+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Daniel, Sanford and Hamill",
-        "ToolTip": "Debitis ab iure consequatur ducimus.",
-        "Deleted": true,
-        "Rank": 882,
-        "Type": "qui",
-        "ColorBlock": 621,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2015-11-13T03:47:00.5974251+01:00",
+        "Id": 999,
+        "Name": "Stracke, Langworth and Deckow",
+        "ToolTip": "Cum praesentium non est.",
+        "Deleted": false,
+        "Rank": 642,
+        "Type": "ut",
+        "ColorBlock": 584,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2014-03-06T11:24:53.8749217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Sarai Zboncak",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Agustina Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 923
+            "FieldType": "System.Int32",
+            "FieldLength": 257
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Mustafa Spinka Sr.",
+    "ExtraInfo": "sint",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Cedrick Bennie Quitzon I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

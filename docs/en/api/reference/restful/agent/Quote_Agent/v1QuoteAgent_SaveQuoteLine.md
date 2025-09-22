@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 280,
-  "ERPQuoteLineKey": "temporibus",
-  "QuoteAlternativeId": 70,
-  "ERPProductKey": "facere",
+  "QuoteLineId": 334,
+  "ERPQuoteLineKey": "est",
+  "QuoteAlternativeId": 803,
+  "ERPProductKey": "molestiae",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13893.021999999999,
-  "DeliveredQuantity": 18496.868,
-  "Rank": 862,
-  "Name": "King Inc and Sons",
-  "Description": "Distributed stable moderator",
-  "Code": "iusto",
-  "QuantityUnit": "praesentium",
-  "PriceUnit": "doloribus",
-  "ItemNumber": "1084014",
+  "Quantity": 1090.632,
+  "DeliveredQuantity": 7731.5779999999995,
+  "Rank": 233,
+  "Name": "Nader LLC",
+  "Description": "Reactive contextually-based protocol",
+  "Code": "asperiores",
+  "QuantityUnit": "eum",
+  "PriceUnit": "sed",
+  "ItemNumber": "1243920",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "voluptas",
-  "Supplier": "quia",
-  "SupplierCode": "est",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "asperiores",
-  "VAT": 9129.342,
-  "UnitCost": 27118.502,
-  "UnitMinimumPrice": 29666.444,
-  "UnitListPrice": 9054.126,
+  "ProductFamilyKey": "ad",
+  "ProductTypeKey": "et",
+  "Supplier": "sequi",
+  "SupplierCode": "libero",
+  "Thumbnail": "illo",
+  "VATInfo": "accusantium",
+  "VAT": 4243.436,
+  "UnitCost": 28014.825999999997,
+  "UnitMinimumPrice": 4597.5779999999995,
+  "UnitListPrice": 23561.412,
   "ExtraInfo": [
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Bergnaum-Rippin",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 600
         }
       }
     },
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Bergnaum-Rippin",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 600
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
+  "RawExtraInfo": "dolores",
   "IsSubscription": false,
-  "SubscriptionUnit": "consectetur",
-  "SubscriptionQuantity": 18678.64,
-  "SubscriptionStart": "2015-05-28T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 30211.76,
-  "ERPDiscountAmount": 19737.932,
-  "DiscountPercent": 7283.416,
-  "DiscountAmount": 14720.398,
+  "SubscriptionUnit": "incidunt",
+  "SubscriptionQuantity": 17340.422,
+  "SubscriptionStart": "2016-08-01T11:24:48.5470141+02:00",
+  "ERPDiscountPercent": 27447.572,
+  "ERPDiscountAmount": 16409.624,
+  "DiscountPercent": 9840.76,
+  "DiscountAmount": 25777.149999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16876.59,
-  "EarningAmount": 5707.014,
-  "SubTotal": 5895.054,
-  "TotalPrice": 13153.398,
-  "Rights": "assumenda",
-  "Rule": "est",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "officia",
-  "ExtraField4": "fugit",
-  "ExtraField5": "dolores",
+  "EarningPercent": 22633.748,
+  "EarningAmount": 16895.394,
+  "SubTotal": 3632.306,
+  "TotalPrice": 4976.7919999999995,
+  "Rights": "vel",
+  "Rule": "omnis",
+  "ExtraField1": "aut",
+  "ExtraField2": "minima",
+  "ExtraField3": "est",
+  "ExtraField4": "totam",
+  "ExtraField5": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldType": "System.String",
+      "FieldLength": 409
     }
   }
 }

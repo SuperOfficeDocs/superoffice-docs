@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 501
+  "DocumentId": 679
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 531,
-  "Name": "Shields, Botsford and Heaney",
-  "ContentType": "voluptates",
-  "AttSize": 888,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "enim",
+  "AttachmentId": 752,
+  "Name": "Kulas, Hills and Abshire",
+  "ContentType": "necessitatibus",
+  "AttSize": 35,
+  "InlineImage": false,
+  "ContentId": "illum",
+  "AuthKey": "sunt",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 489
     }
   }
 }

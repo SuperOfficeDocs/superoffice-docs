@@ -83,7 +83,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,79 +93,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 695,
+  "EjMessageId": 832,
   "Ticket": null,
-  "CreatedAt": "2010-08-09T03:47:00.3630582+02:00",
+  "CreatedAt": "1999-12-24T11:24:53.703054+01:00",
   "CreatedBy": null,
-  "Author": "voluptas",
+  "Author": "expedita",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "in",
-  "TimeSpent": 224,
-  "Body": "veritatis",
-  "HtmlBody": "nihil",
-  "EmailHeader": "ludie@goyette.com",
-  "DebugInfo": "velit",
-  "MailSorter": "placeat",
+  "MessageId": "quod",
+  "TimeSpent": 109,
+  "Body": "voluptatem",
+  "HtmlBody": "dolorem",
+  "EmailHeader": "cyrus_roberts@carroll.biz",
+  "DebugInfo": "quia",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestias",
+  "SearchTitle": "dolorem",
   "MessageHeaders": [
     {
-      "Id": 426,
-      "Name": "Block LLC",
-      "Value": "delectus",
+      "Id": 191,
+      "Name": "Goldner-Schmitt",
+      "Value": "vitae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quam",
-  "Sentiment": 562,
-  "SentimentConfidence": 678,
+  "Language": "dolorem",
+  "Sentiment": 128,
+  "SentimentConfidence": 459,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 108,
-      "Name": "Mraz, McCullough and Hirthe",
-      "ContentType": "rerum",
-      "AttSize": 57,
+      "AttachmentId": 427,
+      "Name": "Rath Inc and Sons",
+      "ContentType": "nihil",
+      "AttSize": 44,
       "InlineImage": false,
-      "ContentId": "neque",
-      "AuthKey": "aliquam",
+      "ContentId": "quos",
+      "AuthKey": "consequatur",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 319
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "est",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quia"
+    "CustomFields1": "nihil",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 336
     }
   }
 }

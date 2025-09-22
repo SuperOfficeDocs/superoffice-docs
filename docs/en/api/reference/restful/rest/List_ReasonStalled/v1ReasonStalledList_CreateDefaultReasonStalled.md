@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "Fisher-Towne",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "UdListDefinitionId": 37,
-  "Rank": 210,
+  "Id": 433,
+  "Name": "Cassin-Keebler",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 878,
+  "Rank": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   }
 }

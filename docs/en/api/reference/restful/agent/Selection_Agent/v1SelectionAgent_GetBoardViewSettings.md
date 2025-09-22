@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 904
+  "BoardViewSettingsId": 957
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 407,
+  "BoardViewSettingsId": 101,
   "EntityType": "None",
-  "AssociateId": 531,
-  "SelectionId": 102,
+  "AssociateId": 997,
+  "SelectionId": 380,
   "HideEmptyGroups": false,
-  "GroupBy": "perferendis",
+  "GroupBy": "qui",
   "SubGroupBy": "et",
-  "SortBy": "iure",
+  "SortBy": "necessitatibus",
   "SortDesc": false,
-  "SumBy": "expedita",
-  "ColorBy": "ratione",
-  "Filters": "ut"
+  "SumBy": "in",
+  "ColorBy": "beatae",
+  "Filters": "nemo"
 }
 ```

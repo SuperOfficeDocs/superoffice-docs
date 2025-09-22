@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 690,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "autem",
-    "Rank": 286,
+    "SaleTypeId": 649,
+    "Name": "Herzog-Koelpin",
+    "Tooltip": "aperiam",
+    "Rank": 664,
     "DurationUnit": "Century",
-    "SaleDuration": 992,
-    "SaleTypeCatId": 776,
+    "SaleDuration": 787,
+    "SaleTypeCatId": 567,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 324,
-    "QuoteLinesTemplate": 806,
-    "ConfirmationLinesTemplate": 17,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 608,
+    "QuoteLinesTemplate": 638,
+    "ConfirmationLinesTemplate": 683,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 664,
-    "MinEarningPercent": 210,
-    "GroupQuoteLinesBy": 176,
-    "SortGroupLinesBy": 159,
+    "MaxDiscountPercent": 346,
+    "MinEarningPercent": 949,
+    "GroupQuoteLinesBy": 233,
+    "SortGroupLinesBy": 285,
     "Stages": [
       {
-        "Id": 1001,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Vitae neque quia sunt aut.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "quisquam",
-        "ColorBlock": 496,
-        "IconHint": "veniam",
+        "Id": 154,
+        "Name": "Watsica LLC",
+        "ToolTip": "Rerum nesciunt odio quos et est eligendi voluptatum.",
+        "Deleted": false,
+        "Rank": 171,
+        "Type": "aliquam",
+        "ColorBlock": 141,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2024-10-28T03:47:00.8005429+01:00",
+        "LastChanged": "2000-12-17T11:24:54.1405361+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "facere",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "esse",
         "Hidden": true,
-        "FullName": "Loy Casper",
+        "FullName": "Kevon Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldLength": 651
       }
     }
   }

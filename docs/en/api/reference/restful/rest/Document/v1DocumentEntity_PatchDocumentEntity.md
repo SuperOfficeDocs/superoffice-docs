@@ -142,18 +142,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "debitis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "debitis",
     "value": {}
   }
 ]
@@ -166,88 +166,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 62,
+  "DocumentId": 323,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "doloremque",
-  "Name": "Gibson, Harris and Torp",
-  "OurRef": "similique",
-  "YourRef": "et",
-  "CreatedDate": "2008-05-27T03:46:59.988068+02:00",
-  "UpdatedDate": "2002-04-28T03:46:59.988068+02:00",
-  "Description": "Polarised multimedia framework",
+  "Attention": "sit",
+  "Header": "aut",
+  "Name": "Luettgen, Ernser and Paucek",
+  "OurRef": "beatae",
+  "YourRef": "ut",
+  "CreatedDate": "2003-06-15T11:24:53.2655719+02:00",
+  "UpdatedDate": "2004-07-16T11:24:53.2655719+02:00",
+  "Description": "Compatible high-level circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-09-14T03:46:59.988068+02:00",
-  "ExternalRef": "est",
+  "Date": "2003-07-12T11:24:53.2655719+02:00",
+  "ExternalRef": "soluta",
   "Completed": "Completed",
-  "ActiveLinks": 427,
+  "ActiveLinks": 626,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Adams, Lebsack and Gleason",
-      "Id": 770,
-      "Description": "Networked multi-state methodology",
-      "ExtraInfo": "accusamus",
-      "LinkId": 251,
+      "EntityName": "Kutch-Ankunding",
+      "Id": 236,
+      "Description": "Devolved 6th generation throughput",
+      "ExtraInfo": "quos",
+      "LinkId": 585,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 162,
-  "Snum": 217,
+  "SuggestedDocumentId": 131,
+  "Snum": 785,
   "UserDefinedFields": {
-    "SuperOffice:1": "Quinn Purdy",
-    "SuperOffice:2": "Cynthia Heller"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Emely Balistreri"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "id"
+    "ExtraFields1": "in",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sed"
+    "CustomFields1": "ab",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2012-05-10T03:46:59.988068+02:00",
-  "PublishTo": "2017-11-06T03:46:59.988068+01:00",
-  "PublishFrom": "2015-07-17T03:46:59.988068+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-06-20T11:24:53.2655719+02:00",
+  "PublishTo": "2021-06-13T11:24:53.2655719+02:00",
+  "PublishFrom": "2017-07-25T11:24:53.2655719+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 175
         }
       }
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 175
         }
       }
     }
@@ -256,13 +256,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

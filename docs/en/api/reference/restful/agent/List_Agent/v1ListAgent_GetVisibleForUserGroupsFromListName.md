@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Turcotte-Treutel",
-  "ListItemId": 813
+  "UdListDefinitionName": "Ledner, Hodkiewicz and Fisher",
+  "ListItemId": 23
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "At et impedit sequi sed perferendis porro.",
+    "Id": 457,
+    "Name": "Prohaska Group",
+    "ToolTip": "Et voluptate nemo rem.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "rerum",
-    "ColorBlock": 466,
-    "IconHint": "quia",
+    "Rank": 453,
+    "Type": "veniam",
+    "ColorBlock": 729,
+    "IconHint": "exercitationem",
     "Selected": true,
-    "LastChanged": "2012-08-07T03:46:54.9882491+02:00",
+    "LastChanged": "2011-11-02T11:24:48.2501511+01:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Halvorson-Block",
-        "ToolTip": "Nostrum aliquam odio neque exercitationem.",
-        "Deleted": false,
-        "Rank": 615,
-        "Type": "illo",
-        "ColorBlock": 527,
-        "IconHint": "vel",
+        "Id": 825,
+        "Name": "Konopelski-Oberbrunner",
+        "ToolTip": "Illum distinctio temporibus et mollitia quia incidunt.",
+        "Deleted": true,
+        "Rank": 477,
+        "Type": "sequi",
+        "ColorBlock": 518,
+        "IconHint": "quaerat",
         "Selected": true,
-        "LastChanged": "2018-10-28T03:46:54.9882491+01:00",
+        "LastChanged": "2019-12-03T11:24:48.2501511+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "quia",
+        "ExtraInfo": "omnis",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Rylee Weimann",
+        "FullName": "Prof. Kaylah Ocie Bartell IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "in",
+    "ExtraInfo": "a",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Macy Gutmann",
+    "FullName": "Aliyah Carole Smith PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

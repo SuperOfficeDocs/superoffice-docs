@@ -102,15 +102,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    768,
-    46
+    271,
+    267
   ],
   "UpdateRepliedAt": false
 }
@@ -123,28 +123,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 252,
+  "EjMessageId": 490,
   "Ticket": null,
-  "CreatedAt": "2003-06-03T03:46:55.550729+02:00",
+  "CreatedAt": "2006-12-25T11:24:48.8751256+01:00",
   "CreatedBy": null,
   "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quibusdam",
-  "TimeSpent": 384,
-  "Body": "non",
-  "HtmlBody": "et",
-  "EmailHeader": "christopher@macejkovic.name",
-  "DebugInfo": "aut",
-  "MailSorter": "iusto",
+  "MessageId": "a",
+  "TimeSpent": 990,
+  "Body": "laboriosam",
+  "HtmlBody": "ipsum",
+  "EmailHeader": "susan@senger.info",
+  "DebugInfo": "dicta",
+  "MailSorter": "ducimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "reiciendis",
   "MessageHeaders": [
     {
-      "Id": 865,
-      "Name": "Spinka LLC",
-      "Value": "nihil",
+      "Id": 742,
+      "Name": "Johns, Reichert and O'Reilly",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -152,50 +152,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 65
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 983,
-  "SentimentConfidence": 471,
+  "Language": "cum",
+  "Sentiment": 961,
+  "SentimentConfidence": 694,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 855,
-      "Name": "Lakin, Prosacco and Jones",
-      "ContentType": "aspernatur",
-      "AttSize": 699,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "velit",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 389,
+      "Name": "Von-Schowalter",
+      "ContentType": "recusandae",
+      "AttSize": 842,
+      "InlineImage": true,
+      "ContentId": "alias",
+      "AuthKey": "fuga",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "sed"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "incidunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

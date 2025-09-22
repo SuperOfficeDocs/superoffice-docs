@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 79,
-  "Currency": "doloremque"
+  "QuoteConnectionId": 885,
+  "Currency": "accusantium"
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 512,
-    "ERPPriceListKey": "laborum",
-    "QuoteConnectionId": 725,
-    "Name": "Veum-Effertz",
-    "Description": "Synergized coherent superstructure",
-    "Currency": "voluptas",
-    "CurrencyName": "Fay Inc and Sons",
-    "ValidFrom": "2011-04-16T03:46:55.2226157+02:00",
-    "ValidTo": "2005-08-05T03:46:55.2226157+02:00",
+    "PriceListId": 524,
+    "ERPPriceListKey": "itaque",
+    "QuoteConnectionId": 539,
+    "Name": "Parker LLC",
+    "Description": "Multi-layered analyzing paradigm",
+    "Currency": "dolor",
+    "CurrencyName": "Sipes-Bergstrom",
+    "ValidFrom": "2013-07-26T11:24:48.5313897+02:00",
+    "ValidTo": "1999-09-19T11:24:48.5313897+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 76
       }
     }
   }

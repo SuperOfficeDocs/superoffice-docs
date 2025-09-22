@@ -27,7 +27,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=112
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=957
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 301,
-  "WorkflowStepId": 106,
-  "WorkflowId": 279,
-  "Rank": 160,
+  "WorkflowWaitForActionId": 975,
+  "WorkflowStepId": 781,
+  "WorkflowId": 597,
+  "Rank": 961,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Kling Inc and Sons",
-      "Description": "Sharable uniform monitoring",
-      "Rank": 564,
+      "Name": "Armstrong Group",
+      "Description": "Organic optimal support",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kling Inc and Sons",
-      "Description": "Sharable uniform monitoring",
-      "Rank": 564,
+      "Name": "Armstrong Group",
+      "Description": "Organic optimal support",
+      "Rank": 414,
       "Restrictions": [
         {},
         {}
@@ -112,8 +112,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 908
     }
   }
 }

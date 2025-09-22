@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 993,
-  "ERPProductKey": "et"
+  "QuoteAlternativeId": 759,
+  "ERPProductKey": "possimus"
 }
 ```
 
@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 712,
-  "ERPQuoteLineKey": "corporis",
-  "QuoteAlternativeId": 445,
-  "ERPProductKey": "blanditiis",
+  "QuoteLineId": 385,
+  "ERPQuoteLineKey": "suscipit",
+  "QuoteAlternativeId": 746,
+  "ERPProductKey": "modi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28616.554,
-  "DeliveredQuantity": 21430.291999999998,
-  "Rank": 205,
-  "Name": "Schuppe LLC",
-  "Description": "Right-sized intermediate hardware",
-  "Code": "explicabo",
-  "QuantityUnit": "aut",
-  "PriceUnit": "autem",
-  "ItemNumber": "319607",
+  "Quantity": 3663.6459999999997,
+  "DeliveredQuantity": 10539.642,
+  "Rank": 677,
+  "Name": "Lehner-Tillman",
+  "Description": "Progressive maximized task-force",
+  "Code": "possimus",
+  "QuantityUnit": "libero",
+  "PriceUnit": "explicabo",
+  "ItemNumber": "1229924",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "optio",
-  "ProductTypeKey": "praesentium",
-  "Supplier": "praesentium",
-  "SupplierCode": "possimus",
-  "Thumbnail": "aut",
-  "VATInfo": "est",
-  "VAT": 19032.782,
-  "UnitCost": 2080.976,
-  "UnitMinimumPrice": 5221.244,
-  "UnitListPrice": 3738.862,
+  "ProductFamilyKey": "incidunt",
+  "ProductTypeKey": "quae",
+  "Supplier": "dolor",
+  "SupplierCode": "quo",
+  "Thumbnail": "deleniti",
+  "VATInfo": "et",
+  "VAT": 27952.146,
+  "UnitCost": 23887.347999999998,
+  "UnitMinimumPrice": 17672.626,
+  "UnitListPrice": 6575.132,
   "ExtraInfo": [
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Paucek-Jenkins",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 361
         }
       }
     },
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Paucek-Jenkins",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 361
         }
       }
     }
   ],
-  "RawExtraInfo": "ratione",
-  "IsSubscription": false,
-  "SubscriptionUnit": "labore",
-  "SubscriptionQuantity": 30594.108,
-  "SubscriptionStart": "2009-10-22T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 10063.274,
-  "ERPDiscountAmount": 24965.444,
-  "DiscountPercent": 13664.24,
-  "DiscountAmount": 27544.726,
+  "RawExtraInfo": "est",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quia",
+  "SubscriptionQuantity": 17030.156,
+  "SubscriptionStart": "2001-09-06T11:24:48.5470141+02:00",
+  "ERPDiscountPercent": 10022.532,
+  "ERPDiscountAmount": 1494.918,
+  "DiscountPercent": 21047.944,
+  "DiscountAmount": 3450.534,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23075.642,
-  "EarningAmount": 20806.626,
-  "SubTotal": 14341.184,
-  "TotalPrice": 5243.182,
-  "Rights": "voluptatibus",
-  "Rule": "esse",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "eaque",
-  "ExtraField3": "facilis",
-  "ExtraField4": "minus",
-  "ExtraField5": "iste",
+  "EarningPercent": 9558.6999999999989,
+  "EarningAmount": 17515.926,
+  "SubTotal": 25178.556,
+  "TotalPrice": 26056.076,
+  "Rights": "provident",
+  "Rule": "suscipit",
+  "ExtraField1": "beatae",
+  "ExtraField2": "quasi",
+  "ExtraField3": "ut",
+  "ExtraField4": "est",
+  "ExtraField5": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 180
     }
   }
 }

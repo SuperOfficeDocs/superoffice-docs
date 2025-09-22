@@ -83,7 +83,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,51 +93,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 926,
+  "HierarchyId": 43,
   "Domain": "Dashboards",
-  "Name": "Ward, Funk and Dooley",
-  "Fullname": "et",
-  "ParentId": 737,
+  "Name": "Ernser-Moen",
+  "Fullname": "quasi",
+  "ParentId": 217,
   "Children": [
     {
-      "HierarchyId": 1001,
+      "HierarchyId": 338,
       "Domain": "Dashboards",
-      "Name": "Willms Group",
-      "Fullname": "quidem",
-      "ParentId": 643,
+      "Name": "Quigley, King and Kreiger",
+      "Fullname": "quia",
+      "ParentId": 289,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-03-04T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 551,
-      "Updated": "2023-03-18T03:47:00.0349452+01:00",
-      "UpdatedAssociateId": 105,
+      "Registered": "2011-03-15T11:24:53.2968202+01:00",
+      "RegisteredAssociateId": 77,
+      "Updated": "2010-04-02T11:24:53.2968202+02:00",
+      "UpdatedAssociateId": 885,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldLength": 82
         }
       }
     }
   ],
-  "Registered": "1998-04-17T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2020-08-13T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 477,
+  "Registered": "2018-01-02T11:24:53.2968202+01:00",
+  "RegisteredAssociateId": 807,
+  "Updated": "2003-05-15T11:24:53.2968202+02:00",
+  "UpdatedAssociateId": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 134
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

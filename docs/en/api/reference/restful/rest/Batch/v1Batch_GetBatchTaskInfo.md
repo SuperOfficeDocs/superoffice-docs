@@ -82,7 +82,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Borer, Keeling and Bergnaum",
-  "AssociateId": 610,
-  "DetailsTable": 174,
-  "DetailsRecord": 511,
+  "Id": 334,
+  "Name": "Kautzer, Sipes and Dare",
+  "AssociateId": 317,
+  "DetailsTable": 640,
+  "DetailsRecord": 952,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "amet"
+    "ParameterObject1": "delectus",
+    "ParameterObject2": "nulla"
   },
-  "LastStarted": "2024-04-30T03:47:00.3943072+02:00",
-  "Created": "2003-06-23T03:47:00.3943072+02:00",
-  "StartCount": 491,
-  "DatabaseSerialNumber": "385130",
-  "Context": "dolorem",
-  "Result": "odit",
+  "LastStarted": "2020-01-09T11:24:53.7343025+01:00",
+  "Created": "2002-04-05T11:24:53.7343025+02:00",
+  "StartCount": 642,
+  "DatabaseSerialNumber": "927228",
+  "Context": "iure",
+  "Result": "aspernatur",
   "State": "All",
-  "Description": "Exclusive homogeneous open system",
-  "Response": "temporibus",
-  "Request": "ducimus",
-  "ProgressDescription": "Automated contextually-based capacity",
-  "ProgressPercent": 565,
-  "FileName": "Raynor, Erdman and Cassin",
+  "Description": "Reactive contextually-based frame",
+  "Response": "voluptate",
+  "Request": "et",
+  "ProgressDescription": "Innovative uniform orchestration",
+  "ProgressPercent": 311,
+  "FileName": "Jakubowski, Hayes and Sawayn",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

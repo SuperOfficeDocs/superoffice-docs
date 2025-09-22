@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 5,
+  "AssociateIdForNewContact": 176,
   "Channel": "et",
-  "Regarding": "voluptatum",
-  "ContactName": "Leffler LLC",
-  "PersonFirstname": "Charity",
-  "PersonLastname": "Haley",
-  "EmailAddress": "marisol_jakubowski@hintz.co.uk",
-  "PhoneNumber": "830568"
+  "Regarding": "mollitia",
+  "ContactName": "Sanford Inc and Sons",
+  "PersonFirstname": "Piper",
+  "PersonLastname": "Steuber",
+  "EmailAddress": "birdie.wolf@schowalter.ca",
+  "PhoneNumber": "1048255"
 }
 ```
 
@@ -109,36 +109,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 611,
-      "Name": "Smith, Connelly and Kris",
-      "OrgNr": "601005",
-      "Department": "",
+      "ContactId": 983,
+      "Name": "Price, Abbott and Little",
+      "OrgNr": "1324858",
+      "Department": "optimize enterprise platforms",
       "URL": "http://www.example.com/",
-      "City": "est",
-      "DirectPhone": "1-288-642-6881 x837",
-      "AssociateId": 542,
-      "CountryId": 438,
-      "EmailAddress": "sheila.collier@boganjohns.co.uk",
-      "Kananame": "architecto",
-      "EmailAddressName": "ona@paucek.ca",
+      "City": "officiis",
+      "DirectPhone": "(831)000-6865 x90358",
+      "AssociateId": 795,
+      "CountryId": 807,
+      "EmailAddress": "candace@roob.biz",
+      "Kananame": "fugiat",
+      "EmailAddressName": "teagan@crona.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Diamond Nikolaus",
+      "AssociateFullName": "Miss Philip Buckridge V",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "in",
-      "FullName": "Dillon Sauer",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 926,
-      "Number1": "1131064",
-      "Number2": "904984",
+      "FormattedAddress": "inventore",
+      "FullName": "Carroll Mckenna Wisoky MD",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 99,
+      "Number1": "1470995",
+      "Number2": "441487",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 485
         }
       }
     }
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 322
     }
   }
 }

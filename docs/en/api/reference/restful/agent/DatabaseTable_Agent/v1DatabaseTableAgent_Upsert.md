@@ -90,14 +90,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Streich LLC",
+  "TableName": "Luettgen LLC",
   "Columns": [
-    "molestiae",
-    "eos"
+    "nihil",
+    "molestiae"
   ],
   "Keys": [
-    "debitis",
-    "consequuntur"
+    "et",
+    "vitae"
   ],
   "Data": [
     [
@@ -119,41 +119,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
+  "Success": false,
   "Message": "adipisci",
-  "Inserts": 924,
-  "Updates": 492,
-  "Deletes": 370,
+  "Inserts": 617,
+  "Updates": 218,
+  "Deletes": 620,
   "RowStatus": [
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 694,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "ut",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 870
         }
       }
     },
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 694,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "ut",
+        "eaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 870
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldLength": 770
     }
   }
 }

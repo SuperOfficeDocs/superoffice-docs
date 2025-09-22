@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Gulgowski-Schulist",
-    "ToolTip": "Rem dolores earum excepturi fugit dolor.",
+    "Id": 743,
+    "Name": "Leannon Group",
+    "ToolTip": "Ut qui asperiores impedit.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "aut",
-    "ColorBlock": 174,
-    "IconHint": "non",
+    "Rank": 120,
+    "Type": "incidunt",
+    "ColorBlock": 891,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2010-01-08T03:47:00.5974251+01:00",
+    "LastChanged": "2022-08-28T11:24:53.8749217+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Medhurst-Adams",
-        "ToolTip": "Assumenda qui distinctio laudantium quis occaecati amet et.",
+        "Id": 344,
+        "Name": "Jacobson Group",
+        "ToolTip": "Placeat quae ut.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "dolores",
-        "ColorBlock": 580,
-        "IconHint": "id",
+        "Rank": 268,
+        "Type": "repellendus",
+        "ColorBlock": 941,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2004-05-02T03:47:00.5974251+02:00",
+        "LastChanged": "2011-09-14T11:24:53.8749217+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "deleniti",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Yvonne Klocko",
+        "FullName": "Marina Gottlieb MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldType": "System.String",
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "nulla",
+    "StyleHint": "repellendus",
     "Hidden": true,
-    "FullName": "Theodore Willms",
+    "FullName": "Miss Wilfrid Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 38
       }
     }
   }

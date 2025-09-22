@@ -51,7 +51,7 @@ Secondary user groups
 |[BusinessGroupLink](businessgrouplink.md)  |User group link table for Business, for MDO item hiding |
 |[CategoryGroupLink](categorygrouplink.md)  |User group link table for Category, for MDO item hiding |
 |[ComptrGroupLink](comptrgrouplink.md)  |User group link table for Comptr, for MDO item hiding |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[ContIntGroupLink](contintgrouplink.md)  |User group link table for ContInt, for MDO item hiding |
 |[CountryGroupLink](countrygrouplink.md)  |User group link table for Country, for MDO item hiding |
 |[CreditedGroupLink](creditedgrouplink.md)  |User group link table for Credited, for MDO item hiding |

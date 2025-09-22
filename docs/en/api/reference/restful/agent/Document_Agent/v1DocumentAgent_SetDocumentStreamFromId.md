@@ -114,7 +114,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682,
+  "DocumentId": 784,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 503,
+  "DocumentId": 873,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "ullam",
-  "Name": "McKenzie-Doyle",
-  "OurRef": "aperiam",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2009-12-21T03:46:54.6913844+01:00",
-  "UpdatedDate": "2003-04-20T03:46:54.6913844+02:00",
-  "Description": "Ergonomic optimizing moratorium",
+  "Attention": "magni",
+  "Header": "qui",
+  "Name": "Simonis, Wilderman and Considine",
+  "OurRef": "sit",
+  "YourRef": "dolor",
+  "CreatedDate": "2001-06-23T11:24:48.0157858+02:00",
+  "UpdatedDate": "1999-01-09T11:24:48.0157858+01:00",
+  "Description": "Face to face discrete synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-05-06T03:46:54.707009+02:00",
-  "ExternalRef": "porro",
+  "Date": "2003-03-10T11:24:48.0157858+01:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 973,
+  "ActiveLinks": 584,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Macejkovic Group",
-      "Id": 143,
-      "Description": "Phased coherent product",
-      "ExtraInfo": "totam",
-      "LinkId": 942,
+      "EntityName": "Daugherty, Kessler and Doyle",
+      "Id": 447,
+      "Description": "Versatile radical customer loyalty",
+      "ExtraInfo": "eum",
+      "LinkId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 519
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 471,
-  "Snum": 963,
+  "SuggestedDocumentId": 265,
+  "Snum": 538,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vena Fahey",
-    "SuperOffice:2": "Miss Eloy Spencer Stiedemann Sr."
+    "SuperOffice:1": "Mrs. Lora Flo Littel DVM",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "ratione",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2021-04-18T03:46:54.707009+02:00",
-  "PublishTo": "2024-10-22T03:46:54.707009+02:00",
-  "PublishFrom": "2005-01-25T03:46:54.707009+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-01-21T11:24:48.0157858+01:00",
+  "PublishTo": "2018-02-05T11:24:48.0157858+01:00",
+  "PublishFrom": "2006-03-27T11:24:48.0157858+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

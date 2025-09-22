@@ -131,12 +131,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 163,
-  "RecurrenceRuleId": 996
+  "MotherId": 442,
+  "RecurrenceRuleId": 442
 }
 ```
 
@@ -148,67 +148,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 681,
-    "StartDate": "2016-06-20T03:46:54.0195335+02:00",
-    "EndDate": "2010-07-30T03:46:54.0195335+02:00",
+    "AppointmentId": 65,
+    "StartDate": "2017-06-23T11:24:47.3283137+02:00",
+    "EndDate": "2002-08-01T11:24:47.3283137+02:00",
     "Type": "BookingForChecklist",
-    "Task": "occaecati",
-    "AssociateFullName": "Johnpaul Kovacek",
-    "ContactName": "Okuneva, Schmitt and Lynch",
-    "Description": "Team-oriented intangible analyzer",
-    "PersonFullName": "Estelle Smith",
-    "PersonId": 655,
-    "ContactId": 687,
-    "ProjectId": 33,
-    "ProjectName": "Robel Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 458,
-    "ColorIndex": 459,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "voluptas",
+    "AssociateFullName": "Valentin Schinner IV",
+    "ContactName": "Nikolaus-Kirlin",
+    "Description": "Programmable tertiary local area network",
+    "PersonFullName": "Miss Scotty Sam Bosco IV",
+    "PersonId": 262,
+    "ContactId": 753,
+    "ProjectId": 732,
+    "ProjectName": "Labadie-Carter",
+    "IsPublished": true,
+    "AssociateId": 303,
+    "ColorIndex": 956,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 285,
-    "PriorityName": "Rutherford Group",
+    "PriorityId": 369,
+    "PriorityName": "Sanford, Casper and Goodwin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2017-03-26T03:46:54.0195335+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2008-07-20T11:24:47.3283137+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-06T03:46:54.0195335+02:00",
-    "RecurringEndDate": "2014-11-27T03:46:54.0195335+01:00",
-    "MotherId": 41,
-    "AssignedBy": 346,
-    "AssignedByFullName": "Watson Vernice Quitzon Jr.",
+    "RecurringStartDate": "2022-08-04T11:24:47.3283137+02:00",
+    "RecurringEndDate": "2004-02-23T11:24:47.3283137+01:00",
+    "MotherId": 112,
+    "AssignedBy": 148,
+    "AssignedByFullName": "Dante Hoppe I",
     "RejectReason": "",
-    "Location": "veniam",
-    "AlarmLeadTime": "quas",
-    "SaleId": 283,
-    "SaleName": "Bins-Barton",
-    "AssociateName": "Towne LLC",
-    "CreatedDate": "2021-07-21T03:46:54.0195335+02:00",
-    "CreatedBy": "quos",
-    "CreatedByFullName": "Mrs. Toni Lue Flatley I",
-    "CreatedByAssociateId": 917,
+    "Location": "occaecati",
+    "AlarmLeadTime": "est",
+    "SaleId": 419,
+    "SaleName": "Effertz-Torp",
+    "AssociateName": "Larson, Mayert and Emard",
+    "CreatedDate": "2013-05-16T11:24:47.3283137+02:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Tina Kessler Jr.",
+    "CreatedByAssociateId": 457,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 59,
+    "MotherAssociateId": 873,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 476,
-    "Title": "amet",
-    "Agenda": "hic",
-    "InternalNotes": "dolores",
+    "PreferredTZLocation": 482,
+    "Title": "dignissimos",
+    "Agenda": "sit",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

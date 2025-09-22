@@ -26,7 +26,7 @@ Deletes the ConfigurableScreenDelta
 | configurableScreenDeltaId | int32 | **Required** The identity of the ConfigurableScreenDelta |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=408
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=29
 ```
 
 

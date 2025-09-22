@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Lesch, Fay and Feil",
-    "ToolTip": "Ad et.",
+    "Id": 712,
+    "Name": "Buckridge, Mosciski and Boehm",
+    "ToolTip": "Temporibus voluptates quos inventore et rerum sit voluptatem.",
     "Deleted": false,
-    "Rank": 480,
-    "Type": "soluta",
-    "ColorBlock": 140,
-    "IconHint": "aspernatur",
+    "Rank": 712,
+    "Type": "sint",
+    "ColorBlock": 707,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2012-12-03T03:47:00.5505518+01:00",
+    "LastChanged": "2001-10-05T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Kilback Group",
-        "ToolTip": "Ipsam sunt.",
+        "Id": 537,
+        "Name": "Brakus, Balistreri and Gulgowski",
+        "ToolTip": "Voluptatibus nisi dolorem exercitationem.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "reiciendis",
-        "ColorBlock": 572,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2020-08-03T03:47:00.5505518+02:00",
+        "Rank": 739,
+        "Type": "in",
+        "ColorBlock": 881,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "2021-09-14T11:24:53.8436729+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Santiago Treutel"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Henriette Gulgowski"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "iure",
+    "ExtraInfo": "id",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Winona Prudence Gerlach V"
+    "FullName": "Stacey Erdman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Rath LLC",
-    "ToolTip": "Consequatur rerum similique animi perferendis.",
-    "Deleted": true,
-    "Rank": 983,
-    "Type": "incidunt",
-    "ColorBlock": 832,
-    "IconHint": "veritatis",
+    "Id": 909,
+    "Name": "Renner-O'Connell",
+    "ToolTip": "Impedit ab voluptatum sit nostrum in numquam et.",
+    "Deleted": false,
+    "Rank": 569,
+    "Type": "eos",
+    "ColorBlock": 739,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2010-10-05T03:47:00.5505518+02:00",
+    "LastChanged": "2018-11-25T11:24:53.8436729+01:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Cassin LLC",
-        "ToolTip": "Alias amet officia qui ab voluptatem facere voluptas.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "quidem",
-        "ColorBlock": 127,
-        "IconHint": "quam",
-        "Selected": false,
-        "LastChanged": "2007-07-26T03:47:00.5505518+02:00",
+        "Id": 446,
+        "Name": "Hudson Inc and Sons",
+        "ToolTip": "Dolorem eum laboriosam nisi vitae.",
+        "Deleted": true,
+        "Rank": 809,
+        "Type": "repudiandae",
+        "ColorBlock": 346,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2025-02-26T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "quia",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Theodore McDermott",
+        "FullName": "Mrs. Catalina Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 923
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Aurelio Rippin DDS",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Myrtis Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

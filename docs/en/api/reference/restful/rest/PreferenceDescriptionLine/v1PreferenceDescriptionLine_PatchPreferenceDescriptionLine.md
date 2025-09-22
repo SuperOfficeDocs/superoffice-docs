@@ -114,18 +114,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -138,18 +138,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 304,
-  "PrefDescId": 395,
-  "PrefValue": "fugit",
-  "PrefShowValue": "odit",
-  "Description": "Automated zero defect application",
+  "PrefDescLineId": 38,
+  "PrefDescId": 443,
+  "PrefValue": "autem",
+  "PrefShowValue": "et",
+  "Description": "Managed hybrid parallelism",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   },
   "_Links": {

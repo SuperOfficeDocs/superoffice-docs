@@ -66,32 +66,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 127,
+  "SaleId": 53,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bode-Gottlieb",
-      "Comment": "rerum",
-      "StakeholderRoleId": 443,
-      "CountryId": 479,
-      "PersonId": 746,
-      "EmailDescription": "tierra_hartmann@nitzsche.us",
-      "EmailId": 917,
-      "EmailAddress": "clemens_lockman@wyman.info",
-      "PhoneId": 674,
-      "ContactName": "Dickens Group",
-      "ContactId": 467,
-      "SaleId": 429,
-      "Mrmrs": "omnis",
-      "Firstname": "Enid",
-      "MiddleName": "Ankunding-Raynor",
-      "Lastname": "Borer",
-      "SaleStakeholderId": 871,
-      "Rank": 91,
-      "Phone": "1-276-718-2852"
+      "StakeholderRoleName": "Thiel, Huel and Hackett",
+      "Comment": "nobis",
+      "StakeholderRoleId": 380,
+      "CountryId": 176,
+      "PersonId": 271,
+      "EmailDescription": "osbaldo.damore@blanda.name",
+      "EmailId": 404,
+      "EmailAddress": "selina@koch.com",
+      "PhoneId": 852,
+      "ContactName": "Dach-Kassulke",
+      "ContactId": 624,
+      "SaleId": 327,
+      "Mrmrs": "qui",
+      "Firstname": "Liliana",
+      "MiddleName": "Lemke, Cummerata and Osinski",
+      "Lastname": "Padberg",
+      "SaleStakeholderId": 128,
+      "Rank": 486,
+      "Phone": "910.309.0233 x593"
     }
   ]
 }

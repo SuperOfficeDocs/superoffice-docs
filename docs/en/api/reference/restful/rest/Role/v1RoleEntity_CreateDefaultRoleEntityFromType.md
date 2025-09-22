@@ -86,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 146,
-  "Name": "Torp, Padberg and Bruen",
-  "Tooltip": "repellendus",
+  "RoleId": 952,
+  "Name": "Terry-Sawayn",
+  "Tooltip": "exercitationem",
   "RoleType": "Anonymous",
-  "Deleted": 307,
-  "Rank": 628,
-  "Created": "2007-12-18T03:47:00.2224384+01:00",
-  "UseCategories": 824,
+  "Deleted": 296,
+  "Rank": 541,
+  "Created": "2009-12-31T11:24:53.499937+01:00",
+  "UseCategories": 101,
   "CreatedBy": null,
-  "Updated": "2003-06-27T03:47:00.2224384+02:00",
+  "Updated": "2011-07-05T11:24:53.499937+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

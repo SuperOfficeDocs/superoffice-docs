@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 347,
-  "MinDate": "2000-03-17T03:46:54.707009+01:00",
-  "MaxDate": "2010-11-25T03:46:54.707009+01:00",
+  "DocumentPluginId": 818,
+  "MinDate": "2016-02-02T11:24:48.03141+01:00",
+  "MaxDate": "2023-11-24T11:24:48.03141+01:00",
   "IncludeEmails": false
 }
 ```
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 983,
-  "NumDocumentsAlreadyMigrated": 917,
+  "NumDocumentsOmitted": 817,
+  "NumDocumentsAlreadyMigrated": 226,
   "Documents": [
     {
-      "DocumentId": 6,
-      "ContactId": 279,
-      "PersonId": 158,
-      "SaleId": 308,
-      "ProjectId": 50,
-      "DocTmplId": 607,
-      "AssociateId": 742,
-      "UserGroupId": 537,
-      "VisibleForId": 827
+      "DocumentId": 734,
+      "ContactId": 54,
+      "PersonId": 532,
+      "SaleId": 9,
+      "ProjectId": 174,
+      "DocTmplId": 465,
+      "AssociateId": 416,
+      "UserGroupId": 238,
+      "VisibleForId": 355
     }
   ],
   "Associates": [
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 798,
+      "EmailAddress": "aimee@gerholddaniel.uk"
     },
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 798,
+      "EmailAddress": "aimee@gerholddaniel.uk"
     }
   ]
 }

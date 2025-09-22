@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 532,
-  "TableName": "Fritsch Inc and Sons",
+  "RoleId": 386,
+  "TableName": "Auer Inc and Sons",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "maiores"
+  "DataRightValue": "enim"
 }
 ```
 

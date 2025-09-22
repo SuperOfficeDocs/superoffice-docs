@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 329
+  "TargetGroupId": 381
 }
 ```
 
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskId": 717,
-  "FileName": "Gibson-Murphy",
-  "Message": "consequatur",
+  "FileName": "Prohaska-Wunsch",
+  "Message": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 125
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

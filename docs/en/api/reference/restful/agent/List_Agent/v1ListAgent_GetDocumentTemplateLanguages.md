@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 236
+  "DocumentTemplateId": 385
 }
 ```
 
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "tempore",
-  "aut"
+  "quis",
+  "sed"
 ]
 ```

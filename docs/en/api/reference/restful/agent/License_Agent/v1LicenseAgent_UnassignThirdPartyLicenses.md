@@ -89,15 +89,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 141,
-  "ModuleOwner": "eos",
+  "AssociateId": 510,
+  "ModuleOwner": "illum",
   "ModuleLicenseNames": [
-    "DuBuque-Schoen",
-    "Parisian, Zemlak and Schmidt"
+    "Wilkinson-Barton",
+    "Lindgren LLC"
   ]
 }
 ```
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 583,
-    "Tooltip": "nostrum",
+    "Unrestricted": true,
+    "Total": 855,
+    "Tooltip": "facere",
     "CanAssign": true,
-    "Free": 139,
-    "InUse": 112,
+    "Free": 731,
+    "InUse": 991,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 749,
-    "Name": "Armstrong-Lynch",
-    "Description": "User-centric foreground orchestration",
-    "PrerequisiteModuleName": "Jacobi, Stokes and Gutmann",
-    "SortOrder": 131,
-    "ExtraFlags": 750,
+    "ModuleLicenseId": 952,
+    "Name": "Hettinger Inc and Sons",
+    "Description": "Fundamental systemic website",
+    "PrerequisiteModuleName": "Schmidt, Murazik and Schiller",
+    "SortOrder": 897,
+    "ExtraFlags": 723,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 19
       }
     }
   }

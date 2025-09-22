@@ -108,32 +108,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 890,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "cumque",
+  "WebPanelId": 219,
+  "Name": "Abshire, Lueilwitz and Flatley",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 907,
+  "Rank": 505,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Walter, Gutkowski and Wolf",
+  "WindowName": "Kunze Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 286,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "rerum",
+  "Icon": 763,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -144,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 243,
-  "Name": "Thompson LLC",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 987,
+  "WebPanelId": 895,
+  "Name": "Zieme Group",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 686,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Littel LLC",
+  "WindowName": "Stanton-Smitham",
   "Url": "http://www.example.com/",
-  "ProgId": "provident",
-  "Icon": 366,
+  "ProgId": "sed",
+  "Icon": 313,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 249
     }
   }
 }

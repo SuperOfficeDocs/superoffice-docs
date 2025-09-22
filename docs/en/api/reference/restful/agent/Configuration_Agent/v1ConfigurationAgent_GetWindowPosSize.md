@@ -27,7 +27,7 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=22
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=6
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -88,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "aut",
-  "PersonId": 978,
-  "AssociateId": 956,
-  "ExtraId": 132,
-  "ExtraInfo": "est",
-  "Height": 433,
-  "LeftX": 838,
+  "OwnerWindow": "maxime",
+  "PersonId": 9,
+  "AssociateId": 991,
+  "ExtraId": 24,
+  "ExtraInfo": "ratione",
+  "Height": 434,
+  "LeftX": 522,
   "State": "Maximized",
-  "UpperY": 624,
-  "Width": 88,
-  "WindowPosSizeId": 254,
+  "UpperY": 991,
+  "Width": 780,
+  "WindowPosSizeId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

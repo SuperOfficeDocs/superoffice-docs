@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Ticket/CopyToTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "dicta",
-  "AttachmentId": 467
+  "Filename": "et",
+  "AttachmentId": 888
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eligendi"
+"rerum"
 ```

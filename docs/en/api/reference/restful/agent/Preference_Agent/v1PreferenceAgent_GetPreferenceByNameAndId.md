@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "consequatur",
-  "PrefKey": "laborum",
+  "PrefSection": "eum",
+  "PrefKey": "asperiores",
   "PrefLevel": "Database",
-  "OwnerId": 643
+  "OwnerId": 745
 }
 ```
 
@@ -108,20 +108,20 @@ Content-Type: application/json; charset=utf-8
   "Level": "Database",
   "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "est",
+  "DisplayValue": "et",
+  "DisplayTooltip": "minima",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 630,
-  "PrefDescId": 508,
-  "TableName": "Hudson, Jenkins and Buckridge",
-  "UserPreferenceId": 218,
+  "TargetId": 869,
+  "PrefDescId": 449,
+  "TableName": "Kovacek, Kulas and Stokes",
+  "UserPreferenceId": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldLength": 437
     }
   }
 }

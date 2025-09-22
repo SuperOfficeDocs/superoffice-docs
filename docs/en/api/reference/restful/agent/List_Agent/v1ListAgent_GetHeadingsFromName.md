@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "VonRueden-Wintheiser"
+  "Name": "Zulauf-O'Reilly"
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 351,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 371,
-    "UdListDefinitionId": 796,
+    "HeadingId": 420,
+    "Name": "Jacobson Group",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "Rank": 195,
+    "UdListDefinitionId": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 740
       }
     }
   }

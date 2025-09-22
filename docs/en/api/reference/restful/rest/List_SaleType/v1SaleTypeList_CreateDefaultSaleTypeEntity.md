@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 140,
-  "Name": "Daniel Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Rank": 754,
+  "SaleTypeId": 208,
+  "Name": "Pagac, Kuvalis and Mertz",
+  "Tooltip": "illum",
+  "Rank": 737,
   "DurationUnit": "Century",
-  "SaleDuration": 171,
-  "SaleTypeCatId": 588,
-  "Deleted": true,
+  "SaleDuration": 72,
+  "SaleTypeCatId": 8,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 383,
-  "QuoteLinesTemplate": 339,
-  "ConfirmationLinesTemplate": 757,
+  "DefaultQuoteValidity": 112,
+  "QuoteLinesTemplate": 680,
+  "ConfirmationLinesTemplate": 672,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 540,
-  "MinEarningPercent": 175,
-  "GroupQuoteLinesBy": 11,
-  "SortGroupLinesBy": 883,
+  "MaxDiscountPercent": 444,
+  "MinEarningPercent": 887,
+  "GroupQuoteLinesBy": 658,
+  "SortGroupLinesBy": 392,
   "Stages": [
     {
-      "Id": 7,
-      "Name": "Effertz, Ankunding and Ferry",
-      "ToolTip": "Nihil laborum commodi temporibus nemo voluptatem et.",
+      "Id": 916,
+      "Name": "Keeling LLC",
+      "ToolTip": "Id quis nostrum facere sunt autem totam.",
       "Deleted": false,
-      "Rank": 879,
-      "Type": "dolorem",
-      "ColorBlock": 251,
-      "IconHint": "veritatis",
-      "Selected": true,
-      "LastChanged": "2016-08-31T03:47:00.8005429+02:00",
+      "Rank": 232,
+      "Type": "et",
+      "ColorBlock": 191,
+      "IconHint": "eligendi",
+      "Selected": false,
+      "LastChanged": "2018-12-06T11:24:54.1405361+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "dolor",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "quaerat",
       "Hidden": false,
-      "FullName": "Santiago Steuber",
+      "FullName": "Brielle Bartell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldType": "System.Int32",
+          "FieldLength": 184
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 79
     }
   }
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 71,
-  "Name": "West Inc and Sons",
-  "Tooltip": "voluptas",
+  "HeadingId": 554,
+  "Name": "Schumm-Thompson",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 596,
-  "UdListDefinitionId": 771
+  "Rank": 763,
+  "UdListDefinitionId": 590
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 893,
-  "Name": "Weber-Shields",
-  "Tooltip": "mollitia",
+  "HeadingId": 10,
+  "Name": "Koch-Langosh",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 279,
-  "UdListDefinitionId": 557,
+  "Rank": 826,
+  "UdListDefinitionId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 659
     }
   }
 }

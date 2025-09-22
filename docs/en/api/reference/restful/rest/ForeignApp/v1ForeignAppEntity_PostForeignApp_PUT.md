@@ -68,7 +68,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 972,
-  "Name": "Abbott-Hickle",
-  "CreatedDate": "2016-05-17T03:47:00.0193121+02:00",
-  "UpdatedDate": "2008-09-01T03:47:00.0193121+02:00",
+  "ForeignAppId": 881,
+  "Name": "Weissnat-Koss",
+  "CreatedDate": "2016-03-15T11:24:53.2811958+01:00",
+  "UpdatedDate": "2009-08-15T11:24:53.2811958+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 929,
-      "Name": "Olson, Harvey and Batz",
-      "CreatedDate": "1999-02-04T03:47:00.0193121+01:00",
-      "UpdatedDate": "2012-09-13T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ms. Karen Jevon Stroman",
-      "CreatedBy": "a",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 244,
+      "ForeignDeviceId": 362,
+      "Name": "Pagac, Breitenberg and Bartoletti",
+      "CreatedDate": "2016-08-31T11:24:53.2811958+02:00",
+      "UpdatedDate": "1999-09-09T11:24:53.2811958+02:00",
+      "AssociateFullName": "Buddy Christopher Jacobi MD",
+      "CreatedBy": "quas",
+      "UpdatedBy": "numquam",
+      "DeviceIdentifier": "expedita",
+      "ForeignAppId": 75,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 430
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

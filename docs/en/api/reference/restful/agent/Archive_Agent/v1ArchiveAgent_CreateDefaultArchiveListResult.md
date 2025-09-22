@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 978,
+  "RowCount": 385,
   "Rows": [
     {
-      "EntityName": "Anderson-Littel",
-      "PrimaryKey": 776,
+      "EntityName": "Hoeger-Brakus",
+      "PrimaryKey": 199,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "ut",
-          "LinkHint": "sed"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "porro",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "iusto",
-      "StyleHint": "nam",
+      "LinkHint": "architecto",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 970
         }
       }
     }
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 219
     }
   }
 }

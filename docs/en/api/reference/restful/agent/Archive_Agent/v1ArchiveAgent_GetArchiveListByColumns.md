@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Paucek, Pacocha and Johnston",
+  "ProviderName": "Conn, Turner and Willms",
   "Columns": [
-    "magnam",
-    "aperiam"
+    "ut",
+    "explicabo"
   ],
   "SortOrder": [
     {
-      "Name": "Langosh, Smith and Bashirian",
+      "Name": "Auer Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Langosh, Smith and Bashirian",
+      "Name": "Auer Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Weber-Kerluke",
-      "Operator": "eveniet",
+      "Name": "Stroman-Christiansen",
+      "Operator": "veritatis",
       "Values": [
-        "nostrum",
-        "fuga"
+        "quis",
+        "nostrum"
       ],
       "DisplayValues": [
-        "fuga",
-        "error"
+        "voluptas",
+        "exercitationem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,17 +141,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 903,
+      "InterParenthesis": 513,
       "InterOperator": "And",
-      "UniqueHash": 261
+      "UniqueHash": 590
     }
   ],
   "Entities": [
-    "id",
-    "alias"
+    "aperiam",
+    "non"
   ],
-  "Page": 607,
-  "PageSize": 565
+  "Page": 319,
+  "PageSize": 545
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bayer, Beatty and Lynch",
-    "PrimaryKey": 724,
+    "EntityName": "Bernhard Group",
+    "PrimaryKey": 855,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolor",
-        "TooltipHint": "aut",
-        "LinkHint": "doloremque"
+        "DisplayValue": "ipsa",
+        "TooltipHint": "aliquam",
+        "LinkHint": "quam"
       }
     },
-    "LinkHint": "optio",
-    "StyleHint": "odio",
+    "LinkHint": "rerum",
+    "StyleHint": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 243
       }
     }
   }

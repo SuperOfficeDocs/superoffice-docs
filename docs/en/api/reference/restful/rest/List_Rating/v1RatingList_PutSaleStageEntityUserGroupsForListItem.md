@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Emmerich Group",
-    "ToolTip": "Nostrum doloremque commodi sunt ipsum at.",
+    "Id": 222,
+    "Name": "Emmerich-Pagac",
+    "ToolTip": "Omnis quia nesciunt debitis quas dolorum.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "et",
-    "ColorBlock": 941,
-    "IconHint": "sint",
+    "Rank": 391,
+    "Type": "autem",
+    "ColorBlock": 331,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2016-10-20T03:47:00.7849183+02:00",
+    "LastChanged": "2004-03-05T11:24:54.1092872+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Kihn, Toy and Heller",
-        "ToolTip": "Qui labore.",
+        "Id": 269,
+        "Name": "Donnelly, Kshlerin and Wintheiser",
+        "ToolTip": "Sint in nemo et qui.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "voluptatum",
-        "ColorBlock": 51,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2011-03-22T03:47:00.7849183+01:00",
+        "Rank": 763,
+        "Type": "repellat",
+        "ColorBlock": 837,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2024-12-29T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Jennyfer Greenfelder Jr."
+        "FullName": "Robin Braun"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Albertha Stroman"
+    "ExtraInfo": "adipisci",
+    "StyleHint": "maiores",
+    "Hidden": false,
+    "FullName": "Adela Schumm"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Simonis-Hammes",
-    "ToolTip": "Rerum qui et et et dicta voluptas.",
+    "Id": 618,
+    "Name": "Powlowski, Stokes and Lueilwitz",
+    "ToolTip": "Est repellat.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "voluptatibus",
-    "ColorBlock": 491,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2016-07-26T03:47:00.7849183+02:00",
+    "Rank": 554,
+    "Type": "repudiandae",
+    "ColorBlock": 132,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2021-04-08T11:24:54.1092872+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Hagenes-Farrell",
-        "ToolTip": "Qui suscipit odit.",
+        "Id": 137,
+        "Name": "Quitzon, Kassulke and Stiedemann",
+        "ToolTip": "Mollitia et.",
         "Deleted": true,
-        "Rank": 852,
-        "Type": "velit",
-        "ColorBlock": 118,
-        "IconHint": "voluptatem",
+        "Rank": 902,
+        "Type": "dolorem",
+        "ColorBlock": 687,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2013-08-06T03:47:00.7849183+02:00",
+        "LastChanged": "2001-02-08T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "a",
+        "ExtraInfo": "earum",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Miss Rozella Bailee Hermann Jr.",
+        "FullName": "Retha Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "hic",
+    "ExtraInfo": "sequi",
+    "StyleHint": "repellendus",
     "Hidden": true,
-    "FullName": "Chloe Yost",
+    "FullName": "Ms. Isabelle Damian Gulgowski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 921
       }
     }
   }

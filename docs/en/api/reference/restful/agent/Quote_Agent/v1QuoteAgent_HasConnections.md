@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "ut",
-  "TechExplanation": "veniam",
-  "ErrorCode": "est",
+  "IsOk": false,
+  "UserExplanation": "iusto",
+  "TechExplanation": "minima",
+  "ErrorCode": "perspiciatis",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

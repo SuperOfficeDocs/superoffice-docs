@@ -770,7 +770,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/totalPrice,alternative/version/expiration,alternative/version/quote/sale/heading,alternative/version/quote/sale/person/whenUpdatedByWorkflow,alternative/version/quote/sale/person/personDirectFax/formattedNumber
+GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/erpDiscountAmount,alternative/version/quote/sale/person/useAsMailingAddress,alternative/version/quote/sale/person/email/emailAddress,alternative/version/quote/sale/person/email/emailLastBounce,alternative/version/quote/sale/contact/contactAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

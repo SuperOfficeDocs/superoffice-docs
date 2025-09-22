@@ -79,7 +79,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,18 +89,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 361,
-  "PrefDescId": 270,
-  "PrefValue": "quasi",
-  "PrefShowValue": "assumenda",
-  "Description": "Enhanced content-based emulation",
-  "IsBuiltin": false,
+  "PrefDescLineId": 899,
+  "PrefDescId": 248,
+  "PrefValue": "minima",
+  "PrefShowValue": "odit",
+  "Description": "Team-oriented scalable paradigm",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 505
     }
   },
   "_Links": {

@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 563,
+  "RecordId": 412,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Daniel, Weissnat and Sauer",
+    "DisplayName": "Williamson, Hermiston and Bode",
     "CrmFieldKey": "unde",
-    "Value": "at",
-    "DisplayValue": "et",
-    "SyncToCrm": true,
+    "Value": "deleniti",
+    "DisplayValue": "perferendis",
+    "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

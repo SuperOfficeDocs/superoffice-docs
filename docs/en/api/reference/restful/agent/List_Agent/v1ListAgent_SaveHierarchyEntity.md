@@ -82,36 +82,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 268,
+  "HierarchyId": 889,
   "Domain": "Dashboards",
-  "Name": "Moore Inc and Sons",
-  "Fullname": "et",
-  "ParentId": 4,
+  "Name": "Abshire-Gibson",
+  "Fullname": "pariatur",
+  "ParentId": 78,
   "Children": [
     {
-      "HierarchyId": 486,
+      "HierarchyId": 445,
       "Domain": "Dashboards",
-      "Name": "Lubowitz-Jast",
-      "Fullname": "vel",
-      "ParentId": 378,
+      "Name": "Kreiger-Kuhn",
+      "Fullname": "esse",
+      "ParentId": 732,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-02-04T03:46:54.9726245+01:00",
-      "RegisteredAssociateId": 237,
-      "Updated": "2020-01-16T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 361
+      "Registered": "2005-05-04T11:24:48.234527+02:00",
+      "RegisteredAssociateId": 96,
+      "Updated": "2025-06-07T11:24:48.234527+02:00",
+      "UpdatedAssociateId": 971
     }
   ],
-  "Registered": "2001-01-17T03:46:54.9726245+01:00",
-  "RegisteredAssociateId": 847,
-  "Updated": "2011-09-06T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 894
+  "Registered": "2003-09-27T11:24:48.234527+02:00",
+  "RegisteredAssociateId": 742,
+  "Updated": "2001-07-28T11:24:48.234527+02:00",
+  "UpdatedAssociateId": 473
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 162,
+  "HierarchyId": 411,
   "Domain": "Dashboards",
-  "Name": "Hodkiewicz, Johnson and Kerluke",
-  "Fullname": "ducimus",
-  "ParentId": 713,
+  "Name": "Harris-Goodwin",
+  "Fullname": "quos",
+  "ParentId": 52,
   "Children": [
     {
-      "HierarchyId": 311,
+      "HierarchyId": 228,
       "Domain": "Dashboards",
-      "Name": "Collins, Mayer and Feeney",
-      "Fullname": "necessitatibus",
-      "ParentId": 386,
+      "Name": "Reichert Inc and Sons",
+      "Fullname": "non",
+      "ParentId": 385,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-02-06T03:46:54.9726245+01:00",
-      "RegisteredAssociateId": 357,
-      "Updated": "2024-07-30T03:46:54.9726245+02:00",
-      "UpdatedAssociateId": 734,
+      "Registered": "2001-01-26T11:24:48.234527+01:00",
+      "RegisteredAssociateId": 11,
+      "Updated": "2002-11-28T11:24:48.234527+01:00",
+      "UpdatedAssociateId": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     }
   ],
-  "Registered": "2008-11-23T03:46:54.9726245+01:00",
-  "RegisteredAssociateId": 480,
-  "Updated": "2007-04-12T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 439,
+  "Registered": "2017-08-11T11:24:48.234527+02:00",
+  "RegisteredAssociateId": 866,
+  "Updated": "2006-10-18T11:24:48.234527+02:00",
+  "UpdatedAssociateId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 65
     }
   }
 }

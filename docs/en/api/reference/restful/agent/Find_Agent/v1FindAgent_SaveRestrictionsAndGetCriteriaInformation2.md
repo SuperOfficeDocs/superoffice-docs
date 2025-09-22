@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Watsica Inc and Sons",
-  "StorageKey": "voluptates",
-  "Restrictions": "fugiat",
-  "StaticColumns": "necessitatibus"
+  "StorageType": "beatae",
+  "ProviderName": "Sporer Inc and Sons",
+  "StorageKey": "dignissimos",
+  "Restrictions": "recusandae",
+  "StaticColumns": "qui"
 }
 ```
 
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hauck Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Skiles, Ratke and Fahey",
+      "Operator": "dolorem",
       "Values": [
-        "ea",
-        "corporis"
+        "earum",
+        "omnis"
       ],
       "DisplayValues": [
-        "corporis",
-        "fugiat"
+        "magnam",
+        "totam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 443,
+      "InterParenthesis": 986,
       "InterOperator": "And",
-      "UniqueHash": 338
+      "UniqueHash": 868
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Von, Botsford and Franecki",
-      "DisplayTooltip": "odio",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Bayer Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "occaecati",
-      "RestrictionListName": "Christiansen, Dooley and Cole",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "eos",
-      "IconHint": "architecto",
-      "HeadingIconHint": "aperiam"
+      "DisplayName": "Boehm, Mohr and Grant",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "omnis",
+      "CanOrderBy": false,
+      "Name": "Hammes-Auer",
+      "CanRestrictBy": true,
+      "RestrictionType": "vero",
+      "RestrictionListName": "Ratke, Reinger and Robel",
+      "IsVisible": false,
+      "ExtraInfo": "in",
+      "Width": "qui",
+      "IconHint": "culpa",
+      "HeadingIconHint": "quod"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen, Kerluke and Abbott",
-      "PrimaryKey": 905,
+      "EntityName": "Fisher-Kiehn",
+      "PrimaryKey": 560,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "eos",
-          "LinkHint": "ea"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "minus",
+          "LinkHint": "pariatur"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "consectetur",
+      "LinkHint": "dolore",
+      "StyleHint": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Kulas-Hauck",
+      "Description": "Triple-buffered assymetric time-frame",
+      "Rank": 163,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Kulas-Hauck",
+      "Description": "Triple-buffered assymetric time-frame",
+      "Rank": 163,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 488
     }
   }
 }

@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 732,
-  "Name": "Wisozk Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 771,
+  "Name": "Heidenreich-Kub",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 48,
-  "Rank": 296
+  "UdListDefinitionId": 340,
+  "Rank": 946
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Towne LLC",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "UdListDefinitionId": 377,
-  "Rank": 661,
+  "Id": 2,
+  "Name": "Christiansen Inc and Sons",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 868,
+  "Rank": 883,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

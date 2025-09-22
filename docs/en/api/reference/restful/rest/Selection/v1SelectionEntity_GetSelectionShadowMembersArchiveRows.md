@@ -76,7 +76,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,21 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "atque",
+  "odata.nextLink": "numquam",
   "value": [
     {
-      "PrimaryKey": 6541,
-      "EntityName": "sale",
-      "saleId": 6541,
-      "contactId": 4740,
-      "name": "Vandervort-Johns"
+      "PrimaryKey": 7119,
+      "EntityName": "person",
+      "personId": 7119,
+      "fullName": "Prof. Emelia Cassidy Beatty DVM"
     },
     {
-      "PrimaryKey": 6833,
-      "EntityName": "sale",
-      "saleId": 6833,
-      "contactId": 1684,
-      "name": "Gerlach, Mills and Williamson"
+      "PrimaryKey": 535,
+      "EntityName": "person",
+      "personId": 535,
+      "fullName": "Miss Brent Heller"
     }
   ]
 }

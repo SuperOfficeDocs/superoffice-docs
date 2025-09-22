@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 392,
-  "CurrentAppointmentId": 276,
+  "SaleId": 579,
+  "CurrentAppointmentId": 614,
   "SkipCompleteCheck": true
 }
 ```
@@ -106,26 +106,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 149,
-  "Deleted": 318,
-  "DaysFuture": 788,
-  "Tooltip": "quaerat",
-  "Text": "et",
-  "TaskId": 857,
-  "SuggestedAppointmentId": 117,
-  "SaleTypeStageLinkId": 827,
-  "RegisteredAssociateId": 293,
-  "Rank": 314,
-  "ProjectTypeStatusLinkId": 305,
-  "Name": "Pollich Group",
-  "Duration": 308,
+  "AutoSuggest": 853,
+  "Deleted": 568,
+  "DaysFuture": 506,
+  "Tooltip": "est",
+  "Text": "ut",
+  "TaskId": 893,
+  "SuggestedAppointmentId": 569,
+  "SaleTypeStageLinkId": 692,
+  "RegisteredAssociateId": 70,
+  "Rank": 342,
+  "ProjectTypeStatusLinkId": 240,
+  "Name": "Koepp, Robel and Cormier",
+  "Duration": 453,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 754
     }
   }
 }

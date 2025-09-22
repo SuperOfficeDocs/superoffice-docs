@@ -99,7 +99,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 725,
-  "FieldDefault": "eum",
-  "FieldHeight": 755,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 485,
-  "FieldTop": 441,
+  "UDefFieldId": 759,
+  "ColumnId": 576,
+  "FieldDefault": "et",
+  "FieldHeight": 722,
+  "FieldLabel": "eos",
+  "FieldLeft": 651,
+  "FieldTop": 303,
   "FieldType": "Checkbox",
-  "FieldWidth": 203,
-  "FormatMask": "magni",
+  "FieldWidth": 373,
+  "FormatMask": "aut",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 341,
-  "LabelLeft": 92,
-  "LabelTop": 640,
-  "LabelWidth": 311,
-  "LastVersionId": 791,
-  "ListTableId": 962,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 41,
+  "LabelLeft": 779,
+  "LabelTop": 290,
+  "LabelWidth": 295,
+  "LastVersionId": 627,
+  "ListTableId": 5,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 715,
-  "ProgId": "consequatur",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 251,
-  "TextLength": 948,
-  "Tooltip": "commodi",
-  "UdefIdentity": 102,
-  "UDListDefinitionId": 922,
+  "Page1LineNo": 809,
+  "ProgId": "neque",
+  "IsReadOnly": true,
+  "ShortLabel": "aspernatur",
+  "TabOrder": 262,
+  "TextLength": 242,
+  "Tooltip": "nulla",
+  "UdefIdentity": 292,
+  "UDListDefinitionId": 830,
   "Justification": "Center",
-  "Version": 239,
-  "TemplateVariableName": "Trantow Group",
+  "Version": 638,
+  "TemplateVariableName": "Howe-Dietrich",
   "HasBeenPublished": false,
-  "MdoListName": "Williamson, Treutel and Kilback",
+  "MdoListName": "Harvey-Becker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 164
     }
   }
 }

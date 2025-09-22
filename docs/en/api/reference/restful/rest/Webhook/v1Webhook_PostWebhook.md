@@ -104,32 +104,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 85,
-  "Name": "Conn-Smitham",
+  "WebhookId": 255,
+  "Name": "Waelchi, Collier and Treutel",
   "Events": [
-    "et",
-    "ea"
+    "ex",
+    "recusandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "modi",
+  "Secret": "omnis",
   "State": "Active",
-  "Type": "saepe",
+  "Type": "aliquid",
   "Headers": {
-    "Headers1": "id",
-    "Headers2": "iste"
+    "Headers1": "ipsam",
+    "Headers2": "in"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-04T03:47:00.5505518+02:00",
+  "Registered": "2001-02-12T11:24:53.8280427+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-03-21T03:47:00.5505518+01:00",
+  "Updated": "2000-04-19T11:24:53.8280427+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "emil@schamberger.us"
+  "ErrorsEmail": "omer@tillman.biz"
 }
 ```
 
@@ -140,28 +140,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 856,
-  "Name": "Hettinger Inc and Sons",
+  "WebhookId": 191,
+  "Name": "Huels-Jacobson",
   "Events": [
-    "blanditiis",
-    "ut"
+    "placeat",
+    "inventore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "dolor",
   "State": "Active",
-  "Type": "est",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "dolores",
-    "Headers2": "qui"
+    "Headers1": "iure",
+    "Headers2": "deserunt"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2025-04-01T03:47:00.5505518+02:00",
+  "Registered": "2019-09-21T11:24:53.8280427+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2025-04-08T03:47:00.5505518+02:00",
+  "Updated": "2004-04-17T11:24:53.8280427+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "willie.will@damore.us",
+  "ErrorsEmail": "nat.lemke@turner.ca",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

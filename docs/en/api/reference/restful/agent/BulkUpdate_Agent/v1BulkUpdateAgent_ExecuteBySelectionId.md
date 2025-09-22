@@ -80,29 +80,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "repudiandae",
-      "ValueType": "est",
+      "Key": "sint",
+      "ValueType": "repudiandae",
       "Mandatory": false,
-      "EncodedDisplayName": "Kirlin Group",
-      "EncodedDisplayDescription": "Assimilated asynchronous open architecture",
-      "IconHint": "dolores",
+      "EncodedDisplayName": "Thiel-Rutherford",
+      "EncodedDisplayDescription": "Persevering national hub",
+      "IconHint": "quasi",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "beatae",
-      "EncodedDataCaptionDescription": "Re-contextualized neutral matrices",
-      "CurrentOperationType": "aut",
+      "EncodedDataCaption": "minima",
+      "EncodedDataCaptionDescription": "Fundamental heuristic solution",
+      "CurrentOperationType": "omnis",
       "Values": [
-        "quis",
-        "id"
+        "id",
+        "occaecati"
       ],
       "DisplayValues": [
-        "rerum",
-        "ratione"
+        "tempora",
+        "est"
       ],
       "OperationInfos": [
         {},
@@ -110,10 +110,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "West-Spinka",
-  "Context": "quisquam",
-  "SelectionId": 166,
-  "IsShadow": false
+  "TableName": "Marks, Hettinger and Dicki",
+  "Context": "doloremque",
+  "SelectionId": 419,
+  "IsShadow": true
 }
 ```
 
@@ -123,5 +123,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-620
+212
 ```

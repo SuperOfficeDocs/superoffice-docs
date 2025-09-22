@@ -27,8 +27,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=laboriosam
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=autem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Fadel Group",
-    "ToolTip": "Et consequatur.",
+    "Id": 884,
+    "Name": "Halvorson, Cartwright and Gleason",
+    "ToolTip": "Aut expedita ducimus enim.",
     "Deleted": false,
-    "Rank": 890,
-    "Type": "temporibus",
+    "Rank": 947,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Stehr, Nitzsche and Schneider",
-        "ToolTip": "Magnam qui debitis.",
+        "Id": 154,
+        "Name": "Kemmer, Corkery and Marks",
+        "ToolTip": "Earum magnam rem sint molestias.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "sunt",
+        "Rank": 120,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 784,
-        "ExtraInfo": "nihil",
-        "StyleHint": "laborum",
-        "FullName": "Karina Arvid Mante Sr.",
+        "IconHint": "quas",
+        "ColorBlock": 685,
+        "ExtraInfo": "qui",
+        "StyleHint": "ea",
+        "FullName": "Elta Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldType": "System.String",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 991,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "autem",
-    "FullName": "Ms. Crystal Rebeka Ruecker DDS",
+    "IconHint": "facere",
+    "ColorBlock": 172,
+    "ExtraInfo": "optio",
+    "StyleHint": "commodi",
+    "FullName": "Bernhard Trantow V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 112
       }
     }
   }

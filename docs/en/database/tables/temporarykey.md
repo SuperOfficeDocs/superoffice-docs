@@ -45,7 +45,7 @@ Temporary keys for lightweight authentications such as changing ones subscriptio
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

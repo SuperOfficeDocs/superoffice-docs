@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Baumbach, Nitzsche and Turner",
-    "ToolTip": "Cupiditate mollitia laudantium modi vel perferendis rem iure.",
-    "Deleted": false,
-    "Rank": 973,
-    "Type": "sint",
-    "ColorBlock": 512,
-    "IconHint": "veniam",
+    "Id": 227,
+    "Name": "Marks, Lockman and Legros",
+    "ToolTip": "Nemo quis.",
+    "Deleted": true,
+    "Rank": 971,
+    "Type": "voluptatem",
+    "ColorBlock": 497,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2008-11-16T03:47:00.6755475+01:00",
+    "LastChanged": "1999-05-25T11:24:53.9530436+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Huels-Reilly",
-        "ToolTip": "Eaque maxime qui consequatur consequatur.",
-        "Deleted": false,
-        "Rank": 145,
-        "Type": "aliquid",
-        "ColorBlock": 460,
-        "IconHint": "quaerat",
+        "Id": 708,
+        "Name": "Schuster Group",
+        "ToolTip": "Optio nulla autem officia assumenda.",
+        "Deleted": true,
+        "Rank": 205,
+        "Type": "ad",
+        "ColorBlock": 938,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2002-12-06T03:47:00.6755475+01:00",
+        "LastChanged": "2003-02-11T11:24:53.9530436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Ms. Jaylin Muller III",
+        "FullName": "Holden Kenyon Roberts Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Rashad Beahan",
+    "ExtraInfo": "illum",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Jodie Lorine Tromp II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

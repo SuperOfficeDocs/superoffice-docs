@@ -89,7 +89,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -102,7 +102,7 @@ OK
 GET /api/v1/Contact/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,160 +110,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Apr 2024 03:46:59 G4T
+Last-Modified: Fri, 12 May 2023 11:24:53 G5T
 
 {
-  "ContactId": 87,
-  "Name": "Hansen LLC",
+  "ContactId": 4,
+  "Name": "Stokes, Lindgren and Parker",
   "Department": "",
-  "OrgNr": "497089",
-  "Number1": "564245",
-  "Number2": "1311629",
-  "UpdatedDate": "2024-04-21T03:46:59.8161962+02:00",
-  "CreatedDate": "2010-10-09T03:46:59.8161962+02:00",
+  "OrgNr": "215696",
+  "Number1": "672869",
+  "Number2": "730790",
+  "UpdatedDate": "2023-05-12T11:24:53.0780792+02:00",
+  "CreatedDate": "2016-10-04T11:24:53.0780792+02:00",
   "Emails": [
     {
-      "Value": "dolorum",
-      "StrippedValue": "a",
-      "Description": "Balanced zero tolerance emulation",
+      "Value": "velit",
+      "StrippedValue": "labore",
+      "Description": "Programmable regional implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     },
     {
-      "Value": "dolorum",
-      "StrippedValue": "a",
-      "Description": "Balanced zero tolerance emulation",
+      "Value": "velit",
+      "StrippedValue": "labore",
+      "Description": "Programmable regional implementation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 268
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 9,
-      "Name": "Murazik Inc and Sons",
-      "ToolTip": "Deserunt officia delectus ut aut assumenda voluptate.",
+      "Id": 964,
+      "Name": "Legros LLC",
+      "ToolTip": "Aut et.",
       "Deleted": false,
-      "Rank": 686,
-      "Type": "ea",
-      "ColorBlock": 604,
-      "IconHint": "fugiat",
-      "Selected": false,
-      "LastChanged": "2019-06-18T03:46:59.8161962+02:00",
+      "Rank": 314,
+      "Type": "autem",
+      "ColorBlock": 104,
+      "IconHint": "quaerat",
+      "Selected": true,
+      "LastChanged": "2008-12-29T11:24:53.0780792+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "consequatur",
-      "Hidden": true,
-      "FullName": "Karli Predovic",
+      "ExtraInfo": "qui",
+      "StyleHint": "rem",
+      "Hidden": false,
+      "FullName": "Selena Bosco Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 788
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "commodi",
-      "Description": "Reduced analyzing artificial intelligence",
+      "Value": "incidunt",
+      "StrippedValue": "voluptas",
+      "Description": "Stand-alone assymetric encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 99
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "commodi",
-      "Description": "Reduced analyzing artificial intelligence",
+      "Value": "incidunt",
+      "StrippedValue": "voluptas",
+      "Description": "Stand-alone assymetric encoding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 99
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Balanced upward-trending methodology",
+      "Value": "qui",
+      "StrippedValue": "eligendi",
+      "Description": "Programmable empowering access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 301
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Balanced upward-trending methodology",
+      "Value": "qui",
+      "StrippedValue": "eligendi",
+      "Description": "Programmable empowering access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 301
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ipsa",
-      "StrippedValue": "aperiam",
-      "Description": "Managed full-range capability",
+      "Value": "earum",
+      "StrippedValue": "ut",
+      "Description": "Multi-lateral non-volatile migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 243
         }
       }
     },
     {
-      "Value": "ipsa",
-      "StrippedValue": "aperiam",
-      "Description": "Managed full-range capability",
+      "Value": "earum",
+      "StrippedValue": "ut",
+      "Description": "Multi-lateral non-volatile migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 243
         }
       }
     }
   ],
-  "Description": "Balanced zero tolerance orchestration",
+  "Description": "Fully-configurable demand-driven groupware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -272,102 +272,102 @@ Last-Modified: Sun, 21 Apr 2024 03:46:59 G4T
   "Country": null,
   "Persons": [
     {
-      "Position": "eos",
-      "PersonId": 336,
-      "Mrmrs": "sit",
-      "Firstname": "Lucio",
-      "Lastname": "Lakin",
-      "MiddleName": "Hermann-Bayer",
-      "Title": "sint",
-      "Description": "Automated regional product",
-      "Email": "audie.quigley@carter.name",
-      "FullName": "Quinn Lang",
-      "DirectPhone": "1-329-927-1811",
-      "FormalName": "Green-Bogisich",
-      "CountryId": 799,
-      "ContactId": 859,
-      "ContactName": "Goldner-Stanton",
-      "Retired": 397,
-      "Rank": 721,
-      "ActiveInterests": 512,
-      "ContactDepartment": "revolutionize back-end e-commerce",
-      "ContactCountryId": 746,
-      "ContactOrgNr": "1385033",
-      "FaxPhone": "1-940-763-4825",
-      "MobilePhone": "(458)262-5918 x570",
-      "ContactPhone": "902-146-4789 x98317",
-      "AssociateName": "Torp, Hand and Wolff",
-      "AssociateId": 412,
+      "Position": "repellendus",
+      "PersonId": 914,
+      "Mrmrs": "cumque",
+      "Firstname": "Damian",
+      "Lastname": "Sauer",
+      "MiddleName": "Kilback Inc and Sons",
+      "Title": "vel",
+      "Description": "Diverse responsive application",
+      "Email": "anahi.ernser@osinski.uk",
+      "FullName": "Mr. Lottie Martine Fay",
+      "DirectPhone": "1-360-615-9600 x5817",
+      "FormalName": "Schoen LLC",
+      "CountryId": 18,
+      "ContactId": 458,
+      "ContactName": "Kling Group",
+      "Retired": 854,
+      "Rank": 774,
+      "ActiveInterests": 255,
+      "ContactDepartment": "",
+      "ContactCountryId": 295,
+      "ContactOrgNr": "1278476",
+      "FaxPhone": "(495)680-6418 x521",
+      "MobilePhone": "(075)914-9067 x104",
+      "ContactPhone": "1-321-222-6271 x67293",
+      "AssociateName": "Thompson Inc and Sons",
+      "AssociateId": 723,
       "UsePersonAddress": false,
-      "ContactFax": "eos",
-      "Kanafname": "veritatis",
-      "Kanalname": "nostrum",
-      "Post1": "hic",
-      "Post2": "praesentium",
-      "Post3": "ad",
-      "EmailName": "millie@eberthudson.co.uk",
-      "ContactFullName": "Helga Hudson",
-      "ActiveErpLinks": 950,
-      "TicketPriorityId": 155,
-      "SupportLanguageId": 997,
-      "SupportAssociateId": 84,
+      "ContactFax": "debitis",
+      "Kanafname": "maiores",
+      "Kanalname": "ut",
+      "Post1": "molestias",
+      "Post2": "exercitationem",
+      "Post3": "repudiandae",
+      "EmailName": "kennith@jewessbrakus.biz",
+      "ContactFullName": "Prof. Jimmy Madyson Carroll Jr.",
+      "ActiveErpLinks": 178,
+      "TicketPriorityId": 955,
+      "SupportLanguageId": 10,
+      "SupportAssociateId": 580,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "830214",
+      "PersonNumber": "1555156",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "harum",
-  "Xstop": true,
-  "ActiveInterests": 804,
-  "GroupId": 245,
-  "ActiveStatusMonitorId": 46,
+  "Kananame": "cumque",
+  "Xstop": false,
+  "ActiveInterests": 129,
+  "GroupId": 36,
+  "ActiveStatusMonitorId": 186,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 820,
-  "DbiAgentId": 436,
-  "DbiLastSyncronized": "2006-01-27T03:46:59.8318192+01:00",
-  "DbiKey": "quo",
-  "DbiLastModified": "2008-01-17T03:46:59.8318192+01:00",
+  "Deleted": 224,
+  "DbiAgentId": 450,
+  "DbiLastSyncronized": "2013-05-30T11:24:53.0780792+02:00",
+  "DbiKey": "amet",
+  "DbiLastModified": "2022-09-28T11:24:53.0780792+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 233,
-  "ActiveErpLinks": 23,
+  "Source": 578,
+  "ActiveErpLinks": 572,
   "BounceEmails": [
-    "nasir.hahn@murraysauer.info",
-    "brown.hand@gibson.info"
+    "santos@leuschkeroberts.co.uk",
+    "vanessa@corkeryosinski.biz"
   ],
   "Domains": [
-    "officiis",
-    "voluptas"
+    "non",
+    "et"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alfonzo Stroman",
-    "SuperOffice:2": "Wyman Connelly"
+    "SuperOffice:1": "1238336126",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "saepe"
+    "CustomFields1": "quo",
+    "CustomFields2": "quaerat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 533
     }
   }
 }

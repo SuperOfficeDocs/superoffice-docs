@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Jul 2024 03:47:00 G7T
+Last-Modified: Thu, 26 Jun 2025 11:24:53 G6T
 
 {
-  "Key": "sint",
-  "Value": "corporis",
-  "RecordId": 285,
-  "CreatedDate": "2016-02-25T03:47:00.0349452+01:00",
-  "UpdatedDate": "2024-07-15T03:47:00.0349452+02:00",
-  "UpdatedBy": "repellat",
-  "CreatedBy": "cupiditate",
-  "TableName": "Rath, Schmidt and Friesen",
+  "Key": "voluptas",
+  "Value": "itaque",
+  "RecordId": 652,
+  "CreatedDate": "2016-11-11T11:24:53.2968202+01:00",
+  "UpdatedDate": "2025-06-26T11:24:53.2968202+02:00",
+  "UpdatedBy": "enim",
+  "CreatedBy": "vitae",
+  "TableName": "Thiel, Friesen and Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   }
 }

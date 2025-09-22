@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590
+  "Id": 400
 }
 ```
 
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "Terry Group",
-  "AssociateId": 561,
-  "DetailsTable": 998,
-  "DetailsRecord": 189,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 66,
+  "Name": "Larkin-Paucek",
+  "AssociateId": 154,
+  "DetailsTable": 94,
+  "DetailsRecord": 590,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "aliquid"
+    "ParameterObject1": "quia",
+    "ParameterObject2": "sint"
   },
-  "LastStarted": "2020-08-24T03:46:54.3007673+02:00",
-  "Created": "2003-02-25T03:46:54.3007673+01:00",
-  "StartCount": 75,
-  "DatabaseSerialNumber": "1814330",
-  "Context": "ut",
-  "Result": "facere",
+  "LastStarted": "2019-06-09T11:24:47.6095526+02:00",
+  "Created": "2021-03-11T11:24:47.6095526+01:00",
+  "StartCount": 886,
+  "DatabaseSerialNumber": "1527964",
+  "Context": "nihil",
+  "Result": "quia",
   "State": "All",
-  "Description": "Profound executive secured line",
-  "Response": "sed",
-  "Request": "autem",
-  "ProgressDescription": "Future-proofed impactful software",
-  "ProgressPercent": 670,
-  "FileName": "Windler, Brown and Sipes",
+  "Description": "Vision-oriented client-server superstructure",
+  "Response": "sunt",
+  "Request": "natus",
+  "ProgressDescription": "Mandatory 5th generation moratorium",
+  "ProgressPercent": 115,
+  "FileName": "Shanahan-Lakin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

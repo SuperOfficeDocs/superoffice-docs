@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Koepp-Ruecker",
-    "ToolTip": "Repellat quibusdam est sit.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "eius",
-    "ColorBlock": 446,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2002-02-05T03:47:00.7849183+01:00",
+    "Id": 500,
+    "Name": "Parisian, Ortiz and Hagenes",
+    "ToolTip": "Quis laborum iusto id omnis ipsa dolores vitae.",
+    "Deleted": true,
+    "Rank": 737,
+    "Type": "impedit",
+    "ColorBlock": 830,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2015-02-17T11:24:54.1092872+01:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Bergnaum, Nicolas and Hudson",
-        "ToolTip": "Consequatur sit velit.",
+        "Id": 928,
+        "Name": "Anderson Group",
+        "ToolTip": "Quas asperiores culpa possimus totam ratione.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "natus",
-        "ColorBlock": 512,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2024-05-27T03:47:00.7849183+02:00",
+        "Rank": 111,
+        "Type": "quibusdam",
+        "ColorBlock": 471,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2023-12-19T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Jan Treutel",
+        "FullName": "Prof. Clair Schimmel DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "possimus",
+    "ExtraInfo": "dicta",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Domenico Konopelski V",
+    "FullName": "Tabitha Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 197
       }
     }
   }

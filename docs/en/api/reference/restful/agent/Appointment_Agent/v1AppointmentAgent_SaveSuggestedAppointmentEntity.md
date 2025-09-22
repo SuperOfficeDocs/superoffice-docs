@@ -90,21 +90,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 652,
-  "Name": "Gerhold-Hagenes",
-  "Tooltip": "omnis",
-  "Rank": 416,
-  "Deleted": true,
-  "DaysFuture": 655,
-  "Duration": "odio",
+  "SuggestedAppointmentId": 33,
+  "Name": "Ritchie, Kuhic and Roberts",
+  "Tooltip": "autem",
+  "Rank": 667,
+  "Deleted": false,
+  "DaysFuture": 5,
+  "Duration": "cumque",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "non",
+  "Text": "sed",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -118,17 +118,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 555,
-  "Name": "Weimann, Carter and Durgan",
-  "Tooltip": "dolorem",
-  "Rank": 328,
+  "SuggestedAppointmentId": 15,
+  "Name": "Fay, Sauer and Gaylord",
+  "Tooltip": "at",
+  "Rank": 204,
   "Deleted": false,
-  "DaysFuture": 385,
-  "Duration": "consequatur",
+  "DaysFuture": 150,
+  "Duration": "repellendus",
   "AutoSuggest": true,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "dolorem",
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "facilis",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 687
     }
   }
 }

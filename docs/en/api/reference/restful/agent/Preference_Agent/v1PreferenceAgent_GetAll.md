@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 890,
-    "Section": "ab",
-    "Key": "aut",
-    "Name": "Quitzon-Schimmel",
+    "PrefDescId": 635,
+    "Section": "est",
+    "Key": "blanditiis",
+    "Name": "Dickinson, Maggio and Kiehn",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Focused content-based collaboration",
+    "Description": "Optimized bifurcated solution",
     "IsBuiltin": false,
-    "TableName": "Turcotte LLC",
-    "UserDefinedListId": 955,
-    "Rank": 441,
-    "SubGroup": "expedita",
-    "MinLevel": 661,
-    "MaxValue": 391,
-    "MinValue": 336,
-    "RequiredLicense": "doloremque",
+    "TableName": "Bruen, Medhurst and Rogahn",
+    "UserDefinedListId": 223,
+    "Rank": 925,
+    "SubGroup": "quis",
+    "MinLevel": 851,
+    "MaxValue": 382,
+    "MinValue": 620,
+    "RequiredLicense": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

@@ -110,6 +110,8 @@ content_type: reference
 
 * [POST Agents/Appointment/DeleteVideoMeetingReservation](v1AppointmentAgent_DeleteVideoMeetingReservation.md)
 
+* [POST Agents/Appointment/GetVideoMeetingConnectedState](v1AppointmentAgent_GetVideoMeetingConnectedState.md)
+
 * [POST Agents/Appointment/GetAppointment](v1AppointmentAgent_GetAppointment.md)
 
 * [POST Agents/Appointment/ToggleAppointmentStatus](v1AppointmentAgent_ToggleAppointmentStatus.md)

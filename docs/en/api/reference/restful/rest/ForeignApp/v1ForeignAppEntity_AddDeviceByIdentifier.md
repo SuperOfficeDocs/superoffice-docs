@@ -70,7 +70,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,21 +80,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 564,
-  "Name": "Boyle Group",
-  "CreatedDate": "2013-04-26T03:47:00.0349452+02:00",
-  "UpdatedDate": "2010-10-24T03:47:00.0349452+02:00",
-  "AssociateFullName": "Adonis Weimann",
-  "CreatedBy": "rem",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 659,
+  "ForeignDeviceId": 644,
+  "Name": "Davis-Konopelski",
+  "CreatedDate": "2005-08-07T11:24:53.2968202+02:00",
+  "UpdatedDate": "2004-04-11T11:24:53.2968202+02:00",
+  "AssociateFullName": "Mr. Modesto Powlowski DVM",
+  "CreatedBy": "sapiente",
+  "UpdatedBy": "officiis",
+  "DeviceIdentifier": "nulla",
+  "ForeignAppId": 91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 1002
     }
   }
 }

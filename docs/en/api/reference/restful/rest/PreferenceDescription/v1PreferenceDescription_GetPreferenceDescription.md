@@ -101,35 +101,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 228,
-  "Section": "est",
-  "Key": "non",
-  "Name": "Dibbert Group",
+  "PrefDescId": 318,
+  "Section": "aut",
+  "Key": "exercitationem",
+  "Name": "Ankunding Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile intangible leverage",
+  "Description": "Balanced encompassing synergy",
   "IsBuiltin": false,
-  "TableName": "Brekke, Bednar and Wolff",
-  "UserDefinedListId": 648,
-  "Rank": 795,
-  "SubGroup": "et",
-  "MinLevel": 389,
-  "MaxValue": 24,
-  "MinValue": 919,
-  "RequiredLicense": "quisquam",
+  "TableName": "Satterfield Group",
+  "UserDefinedListId": 46,
+  "Rank": 550,
+  "SubGroup": "consequatur",
+  "MinLevel": 427,
+  "MaxValue": 437,
+  "MinValue": 388,
+  "RequiredLicense": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

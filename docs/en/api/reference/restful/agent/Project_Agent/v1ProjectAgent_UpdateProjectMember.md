@@ -85,6 +85,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +111,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 840,
-  "ContactId": 505,
-  "ProjectId": 25,
-  "ContactName": "Anderson LLC",
+  "ProjectmemberId": 858,
+  "ContactId": 363,
+  "ProjectId": 834,
+  "ContactName": "Parker, Haag and Hilpert",
   "ContactDepartment": "",
-  "ProjectName": "Pouros-Abshire",
-  "EmailId": 489,
-  "EmailAddress": "luella.monahan@wintheiserrunolfsdottir.us",
-  "CountryId": 271,
-  "Firstname": "Danika",
-  "MiddleName": "Corwin, Littel and Bogan",
-  "Lastname": "Strosin",
-  "PersonId": 138,
-  "Mrmrs": "perferendis",
-  "ProjectMemberTypeName": "Fritsch Inc and Sons",
-  "Phone": "(295)378-2529 x00653",
-  "PhoneId": 338,
-  "ProjectMemberTypeId": 719,
-  "EmailAddressName": "nia@medhurstlakin.ca",
-  "Comment": "quaerat",
-  "FullName": "Gaylord Elouise Jenkins I",
+  "ProjectName": "Hane Group",
+  "EmailId": 888,
+  "EmailAddress": "vidal.hudson@dach.co.uk",
+  "CountryId": 50,
+  "Firstname": "Clemmie",
+  "MiddleName": "Harris, Pfannerstill and Herman",
+  "Lastname": "Schaefer",
+  "PersonId": 541,
+  "Mrmrs": "neque",
+  "ProjectMemberTypeName": "Mueller, Lynch and Anderson",
+  "Phone": "531.120.5004",
+  "PhoneId": 740,
+  "ProjectMemberTypeId": 366,
+  "EmailAddressName": "brenden@buckridgecummerata.name",
+  "Comment": "reprehenderit",
+  "FullName": "Ms. Micaela Bode",
+  "Registered": "2017-01-31T11:24:48.5001409+01:00",
+  "Updated": "2024-03-30T11:24:48.5001409+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 904
     }
   }
 }

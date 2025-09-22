@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 485,
-  "LanguageId": 25,
-  "PersonId": 920,
-  "TicketId": 818
+  "ReplyTemplateId": 77,
+  "LanguageId": 813,
+  "PersonId": 221,
+  "TicketId": 869
 }
 ```
 
@@ -99,36 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 439,
-  "PlainParsed": "eos",
-  "HtmlParsed": "enim",
+  "ReplyTemplateId": 310,
+  "PlainParsed": "nulla",
+  "HtmlParsed": "natus",
   "Attachments": [
     {
-      "AttachmentId": 981,
-      "Name": "Cremin-Heller",
-      "ContentType": "veniam",
-      "AttSize": 51,
+      "AttachmentId": 965,
+      "Name": "Renner, Howell and Marks",
+      "ContentType": "necessitatibus",
+      "AttSize": 825,
       "InlineImage": false,
-      "ContentId": "at",
-      "AuthKey": "harum",
+      "ContentId": "commodi",
+      "AuthKey": "iste",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 306
         }
       }
     }
   ],
-  "Subject": "sit",
+  "Subject": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 932
     }
   }
 }

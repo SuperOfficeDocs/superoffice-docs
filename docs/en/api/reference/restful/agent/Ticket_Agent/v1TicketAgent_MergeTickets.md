@@ -132,14 +132,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    259,
-    498
+    528,
+    870
   ]
 }
 ```
@@ -151,21 +151,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 63,
-  "Title": "voluptatem",
-  "CreatedAt": "2003-06-14T03:46:55.51948+02:00",
-  "LastChanged": "2021-11-05T03:46:55.51948+01:00",
-  "ReadByOwner": "2013-08-11T03:46:55.51948+02:00",
-  "ReadByCustomer": "2021-10-12T03:46:55.51948+02:00",
-  "FirstReadByOwner": "2001-10-22T03:46:55.51948+02:00",
-  "FirstReadByUser": "1998-11-30T03:46:55.51948+01:00",
-  "Activate": "2002-11-15T03:46:55.51948+01:00",
-  "ClosedAt": "2020-07-06T03:46:55.51948+02:00",
-  "RepliedAt": "2014-12-21T03:46:55.51948+01:00",
-  "AlertTimeout": "2011-07-30T03:46:55.51948+02:00",
-  "Deadline": "2015-12-31T03:46:55.51948+01:00",
+  "TicketId": 651,
+  "Title": "corporis",
+  "CreatedAt": "2003-04-10T11:24:48.7813718+02:00",
+  "LastChanged": "2010-03-30T11:24:48.7813718+02:00",
+  "ReadByOwner": "2015-06-02T11:24:48.7813718+02:00",
+  "ReadByCustomer": "2012-05-22T11:24:48.7813718+02:00",
+  "FirstReadByOwner": "2020-09-09T11:24:48.7813718+02:00",
+  "FirstReadByUser": "2015-09-15T11:24:48.7813718+02:00",
+  "Activate": "2013-04-04T11:24:48.7813718+02:00",
+  "ClosedAt": "2025-01-08T11:24:48.7813718+01:00",
+  "RepliedAt": "2020-05-20T11:24:48.7813718+02:00",
+  "AlertTimeout": "2010-06-21T11:24:48.7813718+02:00",
+  "Deadline": "2006-01-13T11:24:48.7813718+01:00",
   "CreatedBy": null,
-  "Author": "iste",
+  "Author": "accusamus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -176,163 +176,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "odio",
-      "PersonId": 877,
-      "Mrmrs": "cupiditate",
-      "Firstname": "Leonel",
-      "Lastname": "Stracke",
-      "MiddleName": "Swaniawski, Lockman and Rosenbaum",
-      "Title": "sunt",
-      "Description": "Re-engineered solution-oriented firmware",
-      "Email": "tressa@zboncak.ca",
-      "FullName": "Mr. Hallie Rosenbaum DVM",
-      "DirectPhone": "524.283.3286 x2364",
-      "FormalName": "Kassulke-Haag",
-      "CountryId": 713,
-      "ContactId": 319,
-      "ContactName": "Yundt LLC",
-      "Retired": 426,
-      "Rank": 327,
-      "ActiveInterests": 684,
+      "Position": "eius",
+      "PersonId": 240,
+      "Mrmrs": "fugiat",
+      "Firstname": "Jose",
+      "Lastname": "Ratke",
+      "MiddleName": "McGlynn-Metz",
+      "Title": "nemo",
+      "Description": "Enhanced interactive projection",
+      "Email": "bernadine@mosciskidavis.ca",
+      "FullName": "Joel Earnest Kuhn V",
+      "DirectPhone": "(630)691-7919",
+      "FormalName": "Spinka, Cummings and Macejkovic",
+      "CountryId": 904,
+      "ContactId": 587,
+      "ContactName": "Powlowski LLC",
+      "Retired": 127,
+      "Rank": 368,
+      "ActiveInterests": 414,
       "ContactDepartment": "",
-      "ContactCountryId": 576,
-      "ContactOrgNr": "264075",
-      "FaxPhone": "049.743.0738 x644",
-      "MobilePhone": "521-075-3086 x40711",
-      "ContactPhone": "1-087-327-3218 x5229",
-      "AssociateName": "Schamberger-Sauer",
-      "AssociateId": 973,
+      "ContactCountryId": 880,
+      "ContactOrgNr": "1093587",
+      "FaxPhone": "(174)631-9368 x34044",
+      "MobilePhone": "998.448.8812 x841",
+      "ContactPhone": "(891)160-4731 x1854",
+      "AssociateName": "Feest-Hauck",
+      "AssociateId": 19,
       "UsePersonAddress": false,
-      "ContactFax": "dolorum",
-      "Kanafname": "dolores",
-      "Kanalname": "totam",
-      "Post1": "quo",
-      "Post2": "rerum",
-      "Post3": "corrupti",
-      "EmailName": "fay.grant@legrosbernier.info",
-      "ContactFullName": "Emerson Bernhard",
-      "ActiveErpLinks": 867,
-      "TicketPriorityId": 474,
-      "SupportLanguageId": 384,
-      "SupportAssociateId": 290,
+      "ContactFax": "qui",
+      "Kanafname": "repudiandae",
+      "Kanalname": "a",
+      "Post1": "et",
+      "Post2": "quia",
+      "Post3": "consequatur",
+      "EmailName": "jaqueline@dibbertbalistreri.info",
+      "ContactFullName": "Reggie Langworth",
+      "ActiveErpLinks": 277,
+      "TicketPriorityId": 535,
+      "SupportLanguageId": 969,
+      "SupportAssociateId": 202,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1305398",
+      "PersonNumber": "1026966",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 265
         }
       }
     }
   ],
-  "AlertLevel": 873,
-  "ConnectId": 124,
+  "AlertLevel": 426,
+  "ConnectId": 381,
   "ReadStatus": "Green",
-  "TimeToReply": 68,
-  "RealTimeToReply": 177,
-  "TimeToClose": 783,
-  "RealTimeToClose": 905,
-  "TimeSpentInternally": 182,
-  "TimeSpentExternally": 294,
-  "TimeSpentQueue": 496,
-  "RealTimeSpentInternally": 709,
-  "RealTimeSpentExternally": 302,
-  "RealTimeSpentQueue": 342,
-  "TimeSpent": 25,
-  "HasAttachment": true,
-  "NumReplies": 138,
-  "NumMessages": 973,
-  "FromAddress": "possimus",
+  "TimeToReply": 267,
+  "RealTimeToReply": 676,
+  "TimeToClose": 8,
+  "RealTimeToClose": 407,
+  "TimeSpentInternally": 615,
+  "TimeSpentExternally": 398,
+  "TimeSpentQueue": 323,
+  "RealTimeSpentInternally": 200,
+  "RealTimeSpentExternally": 720,
+  "RealTimeSpentQueue": 978,
+  "TimeSpent": 117,
+  "HasAttachment": false,
+  "NumReplies": 902,
+  "NumMessages": 82,
+  "FromAddress": "necessitatibus",
   "Messages": [
     {
-      "TicketMessageId": 132,
-      "CreatedAt": "2018-03-18T03:46:55.51948+01:00",
+      "TicketMessageId": 656,
+      "CreatedAt": "2015-02-04T11:24:48.7813718+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "qui",
-      "PersonId": 685,
-      "PersonFullName": "Ms. Jean Hoeger III",
-      "ContactId": 445,
-      "ContactName": "Ritchie LLC",
+      "Author": "ratione",
+      "PersonId": 107,
+      "PersonFullName": "Edgar Powlowski",
+      "ContactId": 34,
+      "ContactName": "Rath Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 334,
-      "EmailHeader": "leila@feeneycole.uk",
+      "NumAttachments": 514,
+      "EmailHeader": "orin@harvey.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quia",
-      "Sentiment": 944,
-      "SentimentConfidence": 204,
-      "CreatedBy": 86,
-      "ChangedAt": "2024-07-16T03:46:55.51948+02:00",
+      "Language": "eveniet",
+      "Sentiment": 932,
+      "SentimentConfidence": 174,
+      "CreatedBy": 81,
+      "ChangedAt": "2008-01-06T11:24:48.7813718+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 149
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 928,
-      "Name": "Tremblay, Green and O'Connell",
-      "ToolTip": "Eligendi ab unde.",
+      "Id": 552,
+      "Name": "Ratke, Franecki and O'Kon",
+      "ToolTip": "Eum sit mollitia et assumenda est voluptas hic.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 314
         }
       }
     },
     {
-      "Id": 928,
-      "Name": "Tremblay, Green and O'Connell",
-      "ToolTip": "Eligendi ab unde.",
+      "Id": 552,
+      "Name": "Ratke, Franecki and O'Kon",
+      "ToolTip": "Eum sit mollitia et assumenda est voluptas hic.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 314
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 312,
-  "SentimentConfidence": 326,
-  "SuggestedCategoryId": 302,
+  "Language": "necessitatibus",
+  "Sentiment": 149,
+  "SentimentConfidence": 13,
+  "SuggestedCategoryId": 217,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 382,
-  "IconHint": "est",
+  "OrigHumanCategoryId": 580,
+  "IconHint": "quibusdam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 159,
+  "ActiveStatusMonitorId": 657,
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "omnis"
+    "CustomFields1": "et",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   }
 }

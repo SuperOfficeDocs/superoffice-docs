@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 635
+  "QuoteId": 807
 }
 ```
 
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 664,
-  "SaleId": 594,
-  "QuoteConnectionId": 825,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "culpa",
-  "ActiveQuoteVersionId": 755,
-  "AcceptedQuoteAlternativeId": 456,
-  "UseValuesFromQuote": 588,
-  "DocumentId": 259,
-  "PoNumber": "1725738",
-  "OrderComment": "quo",
-  "PreferredEmailCulture": "jalon@rippinmitchell.com",
+  "QuoteId": 145,
+  "SaleId": 791,
+  "QuoteConnectionId": 841,
+  "ERPQuoteKey": "sed",
+  "ERPOrderKey": "id",
+  "ActiveQuoteVersionId": 463,
+  "AcceptedQuoteAlternativeId": 905,
+  "UseValuesFromQuote": 722,
+  "DocumentId": 577,
+  "PoNumber": "224905",
+  "OrderComment": "est",
+  "PreferredEmailCulture": "crystal@wintheiserschumm.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 507,
-      "ERPQuoteVersionKey": "quia",
-      "QuoteId": 143,
-      "Description": "Compatible interactive function",
-      "Number": "1196249",
+      "QuoteVersionId": 128,
+      "ERPQuoteVersionKey": "cupiditate",
+      "QuoteId": 410,
+      "Description": "Configurable disintermediate algorithm",
+      "Number": "1411974",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 833,
-      "SentDate": "2002-07-20T03:46:55.2226157+02:00",
-      "FollowupId": 686,
-      "ExpirationDate": "2016-08-07T03:46:55.2226157+02:00",
-      "DeliveryCountryId": 762,
+      "LikelyQuoteAlternativeId": 155,
+      "SentDate": "2006-05-09T11:24:48.5313897+02:00",
+      "FollowupId": 584,
+      "ExpirationDate": "2005-01-05T11:24:48.5313897+01:00",
+      "DeliveryCountryId": 512,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 923,
+      "InvoiceCountryId": 510,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ut",
-      "ERPPaymentTypeKey": "ratione",
-      "ERPDeliveryTermsKey": "quibusdam",
-      "ERPDeliveryTypeKey": "ut",
-      "Rank": 437,
-      "ApprovedBy": 68,
-      "ApprovedText": "enim",
-      "ApprovedRegisteredBy": 986,
-      "ApprovedRegisteredDate": "2011-08-13T03:46:55.2226157+02:00",
-      "ExtraField1": "ea",
-      "ExtraField2": "quae",
-      "ExtraField3": "officiis",
-      "ExtraField4": "soluta",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2012-01-29T03:46:55.2226157+01:00",
-      "Updated": "2013-06-14T03:46:55.2226157+02:00",
-      "UpdatedAssociateId": 698,
-      "Registered": "2021-12-27T03:46:55.2226157+01:00",
-      "RegisteredAssociateId": 591,
-      "RequestAssociateId": 784,
-      "RequestComment": "quis",
+      "ERPPaymentTermsKey": "dolores",
+      "ERPPaymentTypeKey": "enim",
+      "ERPDeliveryTermsKey": "voluptas",
+      "ERPDeliveryTypeKey": "aut",
+      "Rank": 52,
+      "ApprovedBy": 109,
+      "ApprovedText": "quia",
+      "ApprovedRegisteredBy": 397,
+      "ApprovedRegisteredDate": "2011-05-01T11:24:48.5313897+02:00",
+      "ExtraField1": "debitis",
+      "ExtraField2": "quidem",
+      "ExtraField3": "optio",
+      "ExtraField4": "sint",
+      "ExtraField5": "minus",
+      "LastRecalculated": "2001-04-09T11:24:48.5313897+02:00",
+      "Updated": "2015-10-06T11:24:48.5313897+02:00",
+      "UpdatedAssociateId": 102,
+      "Registered": "2021-02-15T11:24:48.5313897+01:00",
+      "RegisteredAssociateId": 643,
+      "RequestAssociateId": 736,
+      "RequestComment": "vitae",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldLength": 850
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 521
+  "UdListDefinitionId": 170
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 592,
-  "Name": "Hintz-Kuphal",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 22,
-  "UdListDefinitionId": 932,
+  "HeadingId": 145,
+  "Name": "Stiedemann, Hauck and Altenwerth",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 356,
+  "UdListDefinitionId": 417,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 845
     }
   }
 }

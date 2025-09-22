@@ -84,30 +84,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Kunde Inc and Sons",
-  "AssociateId": 634,
-  "DetailsTable": 694,
-  "DetailsRecord": 337,
-  "IsSystemTask": false,
+  "Id": 521,
+  "Name": "Johns, Torphy and Pollich",
+  "AssociateId": 379,
+  "DetailsTable": 405,
+  "DetailsRecord": 975,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "a"
+    "ParameterObject1": "vero",
+    "ParameterObject2": "nostrum"
   },
-  "LastStarted": "2022-08-16T03:47:00.3943072+02:00",
-  "Created": "2016-09-08T03:47:00.3943072+02:00",
-  "StartCount": 488,
-  "DatabaseSerialNumber": "1079885",
-  "Context": "fugiat",
-  "Result": "consectetur",
+  "LastStarted": "2005-08-23T11:24:53.7343025+02:00",
+  "Created": "2001-07-31T11:24:53.7343025+02:00",
+  "StartCount": 31,
+  "DatabaseSerialNumber": "989808",
+  "Context": "rerum",
+  "Result": "quibusdam",
   "State": "All",
-  "Description": "Networked grid-enabled methodology",
-  "Response": "voluptas",
-  "Request": "consectetur",
-  "ProgressDescription": "Assimilated bandwidth-monitored benchmark",
-  "ProgressPercent": 449,
-  "FileName": "VonRueden, Runolfsson and Kirlin",
+  "Description": "Digitized encompassing system engine",
+  "Response": "omnis",
+  "Request": "aspernatur",
+  "ProgressDescription": "Synergistic neutral structure",
+  "ProgressPercent": 34,
+  "FileName": "Renner-Smith",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-469
+21
 ```

@@ -76,18 +76,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermiston Inc and Sons",
+  "ProviderName": "Rolfson-Kuhic",
   "Restrictions": [
     {
-      "Name": "Kuphal Group",
-      "Operator": "modi",
+      "Name": "Gislason-Balistreri",
+      "Operator": "corporis",
       "Values": [
-        "recusandae",
-        "doloremque"
+        "perspiciatis",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "voluptates",
-        "ratione"
+        "sed",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 451,
+      "InterParenthesis": 462,
       "InterOperator": "And",
-      "UniqueHash": 891
+      "UniqueHash": 89
     }
   ]
 }
@@ -110,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  839,
-  966
+  65,
+  844
 ]
 ```

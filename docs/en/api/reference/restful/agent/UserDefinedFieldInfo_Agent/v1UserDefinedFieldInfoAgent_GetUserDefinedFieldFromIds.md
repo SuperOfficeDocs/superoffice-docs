@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    831,
-    388
+    872,
+    516
   ]
 }
 ```
@@ -126,46 +126,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 955,
-    "ColumnId": 612,
-    "FieldDefault": "est",
-    "FieldHeight": 985,
-    "FieldLabel": "rerum",
-    "FieldLeft": 717,
-    "FieldTop": 717,
+    "UDefFieldId": 464,
+    "ColumnId": 992,
+    "FieldDefault": "unde",
+    "FieldHeight": 711,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 683,
+    "FieldTop": 726,
     "FieldType": "Checkbox",
-    "FieldWidth": 459,
-    "FormatMask": "quas",
-    "HideLabel": true,
+    "FieldWidth": 148,
+    "FormatMask": "quo",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 29,
-    "LabelLeft": 383,
-    "LabelTop": 581,
-    "LabelWidth": 114,
-    "LastVersionId": 327,
-    "ListTableId": 978,
-    "IsMandatory": true,
+    "LabelHeight": 242,
+    "LabelLeft": 832,
+    "LabelTop": 785,
+    "LabelWidth": 249,
+    "LastVersionId": 923,
+    "ListTableId": 640,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 880,
-    "ProgId": "numquam",
+    "Page1LineNo": 759,
+    "ProgId": "aspernatur",
     "IsReadOnly": false,
-    "ShortLabel": "unde",
-    "TabOrder": 443,
-    "TextLength": 986,
-    "Tooltip": "aut",
-    "UdefIdentity": 721,
-    "UDListDefinitionId": 164,
+    "ShortLabel": "optio",
+    "TabOrder": 924,
+    "TextLength": 81,
+    "Tooltip": "commodi",
+    "UdefIdentity": 508,
+    "UDListDefinitionId": 472,
     "Justification": "Center",
-    "Version": 987,
-    "TemplateVariableName": "Flatley, Mills and Braun",
-    "HasBeenPublished": false,
-    "MdoListName": "Paucek LLC",
+    "Version": 442,
+    "TemplateVariableName": "Kautzer-Schamberger",
+    "HasBeenPublished": true,
+    "MdoListName": "Brown-Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldType": "System.String",
+        "FieldLength": 444
       }
     }
   }

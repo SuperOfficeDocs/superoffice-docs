@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Klein-Torp",
-  "Tooltip": "non",
+  "Id": 841,
+  "Name": "Mosciski LLC",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 343,
-  "Rank": 181
+  "UdListDefinitionId": 471,
+  "Rank": 869
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Name": "Roberts-Koepp",
-  "Tooltip": "sit",
+  "Id": 310,
+  "Name": "Toy Group",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 1000,
-  "Rank": 974,
+  "UdListDefinitionId": 137,
+  "Rank": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 102
     }
   }
 }

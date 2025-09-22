@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 852,
-    "ParentId": 242,
-    "Name": "Greenfelder-Crooks",
-    "Fullname": "quia",
-    "CategoryMaster": 392,
+    "TicketCategoryId": 885,
+    "ParentId": 31,
+    "Name": "Buckridge-Yundt",
+    "Fullname": "est",
+    "CategoryMaster": 857,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Koch, Raynor and Fadel",
+    "ExternalName": "Lind-Rice",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 827,
-    "ReplyTemplate": 88,
-    "NotificationEmail": "cedrick_stanton@goyette.biz",
+    "AssignmentLag": 775,
+    "ReplyTemplate": 859,
+    "NotificationEmail": "arturo.jenkins@marvin.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 678,
+    "EffectiveReplyTemplateId": 959,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "repellendus"
+      "ExtraFields1": "eaque",
+      "ExtraFields2": "dolores"
     },
     "CustomFields": {
-      "CustomFields1": "rerum",
-      "CustomFields2": "itaque"
+      "CustomFields1": "voluptatem",
+      "CustomFields2": "est"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

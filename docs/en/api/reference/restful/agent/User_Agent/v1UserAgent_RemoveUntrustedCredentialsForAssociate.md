@@ -73,9 +73,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 855,
-  "Type": "alias",
-  "PublicValue": "doloribus"
+  "AssociateId": 380,
+  "Type": "minima",
+  "PublicValue": "voluptatem"
 }
 ```
 

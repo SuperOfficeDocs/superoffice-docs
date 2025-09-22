@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Mitchell Inc and Sons",
-    "ToolTip": "Aut illo id aspernatur.",
+    "Id": 706,
+    "Name": "Mohr, Pouros and Cummerata",
+    "ToolTip": "Quis ipsam voluptate natus est culpa.",
     "Deleted": false,
-    "Rank": 163,
-    "Type": "recusandae",
-    "ColorBlock": 751,
-    "IconHint": "qui",
+    "Rank": 121,
+    "Type": "expedita",
+    "ColorBlock": 294,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2011-12-14T03:47:00.7380451+01:00",
+    "LastChanged": "2022-01-03T11:24:54.0155411+01:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Bechtelar LLC",
-        "ToolTip": "Rerum ut nisi.",
-        "Deleted": true,
-        "Rank": 336,
-        "Type": "libero",
-        "ColorBlock": 151,
-        "IconHint": "veritatis",
+        "Id": 468,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Minus saepe adipisci eos qui aut molestiae.",
+        "Deleted": false,
+        "Rank": 576,
+        "Type": "vel",
+        "ColorBlock": 975,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2023-12-17T03:47:00.7380451+01:00",
+        "LastChanged": "2019-11-16T11:24:54.0155411+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Leonor Jaskolski",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Vicente Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "et",
+    "StyleHint": "mollitia",
     "Hidden": true,
-    "FullName": "Crystel Stoltenberg",
+    "FullName": "Marge Pagac DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldType": "System.String",
+        "FieldLength": 571
       }
     }
   }

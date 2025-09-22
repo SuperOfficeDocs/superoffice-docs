@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRecordData.Kanafname
   - SuperOffice.CRM.Rows.PersonRecordData.Kanalname
   - SuperOffice.CRM.Rows.PersonRecordData.Lastname
+  - SuperOffice.CRM.Rows.PersonRecordData.LeadstatusId
   - SuperOffice.CRM.Rows.PersonRecordData.MiddleName
   - SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowId
   - SuperOffice.CRM.Rows.PersonRecordData.ModifiedByWorkflowWhen
@@ -1302,6 +1303,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Public ModifiedByWorkflowWhen As Date
+- uid: SuperOffice.CRM.Rows.PersonRecordData.LeadstatusId
+  commentId: F:SuperOffice.CRM.Rows.PersonRecordData.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.CRM.Rows.PersonRecordData
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: PersonRecordData.LeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRecordData.LeadstatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Refinement of categories of lead type. Empty if the category is not a lead type. If this person has a contact, the leadstatus is from the contact and not editable on the person
+  example: []
+  syntax:
+    content: public int LeadstatusId
+    return:
+      type: System.Int32
+    content.vb: Public LeadstatusId As Integer
 - uid: SuperOffice.CRM.Rows.PersonRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.PersonRecordData.#ctor
   id: '#ctor'

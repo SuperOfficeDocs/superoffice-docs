@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "amet",
+  "TriggerScriptUniqueId": "enim",
   "Entity": null
 }
 ```
@@ -105,16 +105,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 953,
-  "Name": "Rosenbaum, Barrows and McDermott",
+  "ScreenChooserId": 379,
+  "Name": "Kilback LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "labore",
-  "Source": "facere",
-  "Registered": "2004-11-30T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 163,
-  "Updated": "2000-11-24T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 312,
+  "UniqueIdentifier": "illo",
+  "Source": "praesentium",
+  "Registered": "2016-09-21T11:24:47.8439178+02:00",
+  "RegisteredAssociateId": 283,
+  "Updated": "2023-08-13T11:24:47.8439178+02:00",
+  "UpdatedAssociateId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Kilback, Klocko and Willms",
-    "ToolTip": "Ut non numquam.",
+    "Id": 237,
+    "Name": "Abernathy Inc and Sons",
+    "ToolTip": "Ullam sequi ipsam quos rerum.",
     "Deleted": false,
-    "Rank": 612,
-    "Type": "facilis",
-    "ColorBlock": 273,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-08-08T03:47:00.6130405+02:00",
+    "Rank": 202,
+    "Type": "iusto",
+    "ColorBlock": 775,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2002-08-09T11:24:53.9061703+02:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Rerum rerum quod.",
+        "Id": 932,
+        "Name": "Cartwright Group",
+        "ToolTip": "Ea cumque corrupti aspernatur aut.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "alias",
-        "ColorBlock": 973,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "2015-10-12T03:47:00.6130405+02:00",
+        "Rank": 391,
+        "Type": "exercitationem",
+        "ColorBlock": 438,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "2010-03-17T11:24:53.9061703+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "molestias",
+        "ExtraInfo": "qui",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Brittany Leuschke",
+        "FullName": "Miss Griffin Lubowitz V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldLength": 125
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Kamren Reilly",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Dr. Garrett Satterfield IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 943
       }
     }
   }

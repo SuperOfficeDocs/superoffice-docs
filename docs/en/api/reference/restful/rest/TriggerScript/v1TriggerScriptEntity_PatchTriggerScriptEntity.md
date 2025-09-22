@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "dolor",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "dolor",
     "value": {}
   }
 ]
@@ -145,27 +145,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 140,
-  "Name": "Corwin, Tremblay and Jewess",
+  "ScreenChooserId": 655,
+  "Name": "Mann Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "fuga",
-  "Registered": "2008-11-18T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 701,
-  "Updated": "2008-12-25T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 829,
+  "UniqueIdentifier": "reiciendis",
+  "Source": "aut",
+  "Registered": "2012-12-05T11:24:53.7186781+01:00",
+  "RegisteredAssociateId": 229,
+  "Updated": "1998-09-22T11:24:53.7186781+02:00",
+  "UpdatedAssociateId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

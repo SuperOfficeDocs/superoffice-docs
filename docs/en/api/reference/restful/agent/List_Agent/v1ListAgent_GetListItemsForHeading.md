@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 82,
-  "HeadingId": 866
+  "UdListDefinitionId": 440,
+  "HeadingId": 629
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Bailey, Goyette and Christiansen",
-    "ToolTip": "Natus sequi reiciendis a veniam ut qui nihil.",
-    "Deleted": false,
-    "Rank": 972,
-    "Type": "quis",
-    "ColorBlock": 549,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2025-05-07T03:46:54.9569999+02:00",
+    "Id": 985,
+    "Name": "Bins-Jenkins",
+    "ToolTip": "Laborum nihil cupiditate ea et omnis.",
+    "Deleted": true,
+    "Rank": 713,
+    "Type": "tempore",
+    "ColorBlock": 20,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2021-08-08T11:24:48.2189024+02:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Bosco-Runolfsdottir",
-        "ToolTip": "Voluptas quis expedita fugit harum ea ut.",
-        "Deleted": false,
-        "Rank": 833,
-        "Type": "sunt",
-        "ColorBlock": 240,
-        "IconHint": "maiores",
+        "Id": 370,
+        "Name": "Rau, Dach and Mertz",
+        "ToolTip": "Distinctio non consequatur.",
+        "Deleted": true,
+        "Rank": 811,
+        "Type": "sequi",
+        "ColorBlock": 863,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2010-12-28T03:46:54.9569999+01:00",
+        "LastChanged": "2005-04-26T11:24:48.2189024+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Dr. Keyshawn Dino Roberts",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Kaya Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "rerum",
+    "ExtraInfo": "nulla",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Miss Lexi Marilyne Rutherford",
+    "FullName": "Mrs. Riley Jast III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 914
       }
     }
   }

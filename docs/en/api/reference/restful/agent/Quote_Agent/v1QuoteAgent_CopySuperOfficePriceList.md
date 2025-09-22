@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 197,
-  "NewName": "Ziemann LLC",
-  "ValidFrom": "2006-06-14T03:46:55.2069913+02:00",
-  "ValidTo": "2016-05-06T03:46:55.2069913+02:00",
-  "NewCurrencyId": 420,
+  "OriginalPriceListId": 541,
+  "NewName": "Sauer LLC",
+  "ValidFrom": "2009-06-07T11:24:48.5157652+02:00",
+  "ValidTo": "1998-09-22T11:24:48.5157652+02:00",
+  "NewCurrencyId": 164,
   "ConvertCurrency": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 627,
-  "ERPPriceListKey": "assumenda",
-  "QuoteConnectionId": 914,
-  "Name": "Maggio, Carroll and Feil",
-  "Description": "Fundamental 5th generation website",
-  "Currency": "numquam",
-  "CurrencyName": "Windler, Schinner and Nitzsche",
-  "ValidFrom": "2009-06-04T03:46:55.2069913+02:00",
-  "ValidTo": "2012-10-02T03:46:55.2069913+02:00",
+  "PriceListId": 180,
+  "ERPPriceListKey": "quam",
+  "QuoteConnectionId": 623,
+  "Name": "Hessel-Koelpin",
+  "Description": "Triple-buffered client-server synergy",
+  "Currency": "voluptatibus",
+  "CurrencyName": "Little, Wintheiser and Rohan",
+  "ValidFrom": "1999-02-27T11:24:48.5157652+01:00",
+  "ValidTo": "2008-06-15T11:24:48.5157652+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 370
     }
   }
 }

@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 827,
-    "AssociateId": 544,
-    "Block": "neque",
-    "Registered": "2023-02-20T03:47:00.3005605+01:00",
-    "RegisteredAssociateId": 661,
-    "Updated": "2015-08-09T03:47:00.3005605+02:00",
-    "UpdatedAssociateId": 761,
-    "UpdatedCount": 322,
+    "ShipmentMessageBlockId": 374,
+    "AssociateId": 203,
+    "Block": "quisquam",
+    "Registered": "2000-05-30T11:24:53.5780588+02:00",
+    "RegisteredAssociateId": 24,
+    "Updated": "2014-12-15T11:24:53.5780588+01:00",
+    "UpdatedAssociateId": 332,
+    "UpdatedCount": 710,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 285
       }
     }
   }

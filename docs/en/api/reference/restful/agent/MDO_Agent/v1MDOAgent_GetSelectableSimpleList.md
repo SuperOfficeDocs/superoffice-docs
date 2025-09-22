@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schamberger, Hermann and Torp"
+  "Name": "Torphy-Kiehn"
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Paucek, Gulgowski and Pagac",
-    "ToolTip": "Iusto veritatis mollitia voluptas saepe velit aut.",
-    "Deleted": true,
-    "Rank": 56,
-    "Type": "soluta",
-    "ColorBlock": 279,
-    "IconHint": "molestiae",
+    "Id": 416,
+    "Name": "Wuckert-Keebler",
+    "ToolTip": "Et blanditiis harum omnis maiores reprehenderit.",
+    "Deleted": false,
+    "Rank": 595,
+    "Type": "dolorem",
+    "ColorBlock": 980,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2014-04-21T03:46:55.0038735+02:00",
+    "LastChanged": "2013-05-04T11:24:48.2657757+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Considine-Hills",
-        "ToolTip": "Ea qui facilis.",
+        "Id": 586,
+        "Name": "Bashirian, Weber and Schaefer",
+        "ToolTip": "Sit ipsum suscipit nostrum qui non esse maiores.",
         "Deleted": true,
-        "Rank": 195,
-        "Type": "explicabo",
-        "ColorBlock": 449,
-        "IconHint": "quia",
+        "Rank": 517,
+        "Type": "officia",
+        "ColorBlock": 718,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2011-12-05T03:46:55.0038735+01:00",
+        "LastChanged": "2015-09-13T11:24:48.2657757+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "aut",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Madelyn Klein",
+        "FullName": "Damon Alessia Wyman III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldType": "System.String",
+            "FieldLength": 766
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Marge Murphy",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Gwendolyn Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 697
       }
     }
   }

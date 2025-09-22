@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Funk-O'Kon",
-    "ToolTip": "Voluptatem quam quos laudantium quia earum cupiditate.",
-    "Deleted": true,
-    "Rank": 689,
-    "Type": "voluptates",
-    "ColorBlock": 379,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2014-04-18T03:47:00.7224209+02:00",
+    "Id": 654,
+    "Name": "Hartmann, Abbott and Cartwright",
+    "ToolTip": "Est et.",
+    "Deleted": false,
+    "Rank": 312,
+    "Type": "quas",
+    "ColorBlock": 423,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2005-06-22T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Ferry-Kovacek",
-        "ToolTip": "Architecto quaerat qui.",
-        "Deleted": false,
-        "Rank": 890,
-        "Type": "sed",
-        "ColorBlock": 834,
-        "IconHint": "fugiat",
+        "Id": 646,
+        "Name": "Pouros Group",
+        "ToolTip": "Omnis mollitia dicta expedita et voluptatem.",
+        "Deleted": true,
+        "Rank": 862,
+        "Type": "harum",
+        "ColorBlock": 558,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2010-08-09T03:47:00.7224209+02:00",
+        "LastChanged": "2013-01-31T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Mrs. Eunice Magali Hackett",
+        "FullName": "Dr. Liam Paige Welch IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 203
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Mrs. Kaitlin Kerluke MD",
+    "ExtraInfo": "aut",
+    "StyleHint": "deserunt",
+    "Hidden": true,
+    "FullName": "Jewel Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 276
       }
     }
   }

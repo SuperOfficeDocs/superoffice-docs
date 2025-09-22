@@ -75,7 +75,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,26 +86,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 337,
-    "Tooltip": "occaecati",
+    "Unrestricted": false,
+    "Total": 971,
+    "Tooltip": "explicabo",
     "CanAssign": false,
-    "Free": 475,
-    "InUse": 450,
+    "Free": 590,
+    "InUse": 480,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 378,
-    "Name": "Murazik LLC",
-    "Description": "Ameliorated uniform solution",
-    "PrerequisiteModuleName": "Dibbert, Mitchell and Zulauf",
-    "SortOrder": 910,
-    "ExtraFlags": 638,
+    "Assigned": false,
+    "ModuleLicenseId": 503,
+    "Name": "Bailey, Hansen and Metz",
+    "Description": "Distributed mission-critical productivity",
+    "PrerequisiteModuleName": "Fisher, Ebert and Lowe",
+    "SortOrder": 617,
+    "ExtraFlags": 32,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 522
       }
     }
   }

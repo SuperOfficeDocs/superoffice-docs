@@ -92,18 +92,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 661,
-  "EMailAddress": "odit",
-  "AssociateId": 621,
+  "EMailAccountId": 92,
+  "EMailAddress": "aspernatur",
+  "AssociateId": 272,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 832,
-  "ErrorCount": 278,
+  "AccountStatus": 926,
+  "ErrorCount": 637,
   "ErrorReason": "",
-  "InboxFolder": "unde",
-  "SentFolder": "ratione",
-  "SimpleMode": 452,
-  "LastFetch": "2019-03-28T03:46:54.7538824+01:00"
+  "InboxFolder": "eius",
+  "SentFolder": "repudiandae",
+  "SimpleMode": 734,
+  "LastFetch": "2015-09-29T11:24:48.0626591+02:00"
 }
 ```
 
@@ -114,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 430,
-  "EMailAddress": "alias",
-  "AssociateId": 453,
+  "EMailAccountId": 639,
+  "EMailAddress": "dolore",
+  "AssociateId": 85,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 400,
-  "ErrorCount": 308,
-  "ErrorReason": "evolve integrated users",
-  "InboxFolder": "similique",
-  "SentFolder": "sit",
-  "SimpleMode": 977,
-  "LastFetch": "2003-03-16T03:46:54.7538824+01:00",
+  "AccountStatus": 188,
+  "ErrorCount": 172,
+  "ErrorReason": "",
+  "InboxFolder": "non",
+  "SentFolder": "eius",
+  "SimpleMode": 803,
+  "LastFetch": "2024-08-01T11:24:48.0626591+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

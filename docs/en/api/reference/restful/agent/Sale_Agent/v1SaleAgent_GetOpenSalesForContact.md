@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 256
+  "ContactId": 846
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Miller Group",
-    "SaleDate": "2005-08-14T03:46:55.2694888+02:00",
-    "SaleId": 636,
-    "Probability": 470,
-    "Title": "blanditiis",
-    "Amount": 22310.946,
-    "Currency": "earum",
-    "ProjectName": "Schneider-Rowe",
-    "AssociateFullName": "Mr. Rodrick Carolyne Romaguera IV",
-    "Description": "Enterprise-wide holistic function",
+    "ContactName": "Senger-Hamill",
+    "SaleDate": "2000-07-31T11:24:48.5939056+02:00",
+    "SaleId": 403,
+    "Probability": 213,
+    "Title": "quo",
+    "Amount": 27529.056,
+    "Currency": "soluta",
+    "ProjectName": "Keeling Group",
+    "AssociateFullName": "Mr. Lacey Carroll DVM",
+    "Description": "Seamless bifurcated standardization",
     "Status": "Lost",
-    "WeightedAmount": 2663.9,
-    "ProjectId": 541,
-    "EarningPercent": 11357.616,
-    "Earning": 22875.066,
-    "ContactId": 263,
-    "AssociateId": 238,
-    "PersonId": 987,
-    "SaleTypeId": 411,
-    "SaleTypeName": "Osinski Group",
-    "PersonFullName": "Dr. Mariane Bartell",
+    "WeightedAmount": 13357.108,
+    "ProjectId": 897,
+    "EarningPercent": 12448.248,
+    "Earning": 15190.498,
+    "ContactId": 884,
+    "AssociateId": 323,
+    "PersonId": 817,
+    "SaleTypeId": 248,
+    "SaleTypeName": "Hamill Group",
+    "PersonFullName": "Prof. Fern Reilly",
     "Completed": "Completed",
-    "ActiveErpLinks": 643,
-    "NextDueDate": "2012-09-25T03:46:55.2694888+02:00",
-    "Number": "1597160",
+    "ActiveErpLinks": 616,
+    "NextDueDate": "2021-07-08T11:24:48.5939056+02:00",
+    "Number": "1781783",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 855
       }
     }
   }

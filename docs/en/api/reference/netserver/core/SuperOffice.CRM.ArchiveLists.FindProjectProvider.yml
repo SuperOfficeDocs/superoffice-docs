@@ -101,6 +101,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveProjectRow}.RootExtenders
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveProjectRow}.HaveReadToEnd
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{SuperOffice.CRM.ArchiveLists.ArchiveProjectRow}.ValueOverrides
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -1955,6 +1956,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.QueryProviderBase<SuperOffice.CRM.ArchiveLists.ArchiveProjectRow>.ValueOverrides
   nameWithType.vb: QueryProviderBase(Of ArchiveProjectRow).ValueOverrides
   fullName.vb: SuperOffice.CRM.ArchiveLists.QueryProviderBase(Of SuperOffice.CRM.ArchiveLists.ArchiveProjectRow).ValueOverrides
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

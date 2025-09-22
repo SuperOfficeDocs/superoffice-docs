@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 799,
-  "BlobSize": 87,
-  "Description": "Persevering systematic analyzer",
-  "ExtraInfo": "vero",
+  "BlobId": 225,
+  "BlobSize": 179,
+  "Description": "Ameliorated regional capability",
+  "ExtraInfo": "incidunt",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quos",
-  "OriginalSize": 524,
-  "CreatedDate": "2005-12-22T03:46:59.8161962+01:00",
-  "UpdatedDate": "2001-10-30T03:46:59.8161962+01:00",
+  "IsZipped": true,
+  "MimeType": "sit",
+  "OriginalSize": 437,
+  "CreatedDate": "2020-10-22T11:24:53.0780792+02:00",
+  "UpdatedDate": "2017-03-26T11:24:53.0780792+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "quis"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 629,
-  "BlobSize": 808,
-  "Description": "Re-contextualized 24 hour monitoring",
-  "ExtraInfo": "nulla",
+  "BlobId": 373,
+  "BlobSize": 77,
+  "Description": "Open-source clear-thinking pricing structure",
+  "ExtraInfo": "illo",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 288,
-  "CreatedDate": "2017-05-03T03:46:59.8161962+02:00",
-  "UpdatedDate": "2011-04-11T03:46:59.8161962+02:00",
+  "IsZipped": false,
+  "MimeType": "repellendus",
+  "OriginalSize": 938,
+  "CreatedDate": "2001-02-26T11:24:53.0780792+01:00",
+  "UpdatedDate": "2004-05-26T11:24:53.0780792+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 456
     }
   }
 }

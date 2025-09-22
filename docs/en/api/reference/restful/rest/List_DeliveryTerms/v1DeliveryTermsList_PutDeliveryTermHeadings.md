@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 124,
-    "Name": "Corkery, Hoppe and Walker",
-    "Tooltip": "ut",
+    "HeadingId": 957,
+    "Name": "Schulist-Labadie",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 385
+    "Rank": 502,
+    "UdListDefinitionId": 358
   },
   {
-    "HeadingId": 124,
-    "Name": "Corkery, Hoppe and Walker",
-    "Tooltip": "ut",
+    "HeadingId": 957,
+    "Name": "Schulist-Labadie",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 385
+    "Rank": 502,
+    "UdListDefinitionId": 358
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Stamm-Moen",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 821,
-    "UdListDefinitionId": 918,
+    "HeadingId": 667,
+    "Name": "Reynolds Group",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "Rank": 520,
+    "UdListDefinitionId": 738,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 422
       }
     }
   }

@@ -27,7 +27,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=695
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=454
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -79,6 +79,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -98,33 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 60,
-  "ContactId": 422,
-  "ProjectId": 991,
-  "ContactName": "Hettinger, Maggio and Weimann",
+  "ProjectmemberId": 98,
+  "ContactId": 399,
+  "ProjectId": 735,
+  "ContactName": "Ondricka, Mayer and Witting",
   "ContactDepartment": "",
-  "ProjectName": "Johnson LLC",
-  "EmailId": 577,
-  "EmailAddress": "palma@paucek.co.uk",
-  "CountryId": 479,
-  "Firstname": "Mallie",
-  "MiddleName": "Hackett LLC",
-  "Lastname": "Koss",
-  "PersonId": 566,
-  "Mrmrs": "dolores",
-  "ProjectMemberTypeName": "Koch-Stroman",
-  "Phone": "083.592.9534 x85805",
-  "PhoneId": 387,
-  "ProjectMemberTypeId": 733,
-  "EmailAddressName": "vilma@langoshfeeney.ca",
-  "Comment": "velit",
-  "FullName": "Jaydon Keebler",
+  "ProjectName": "Halvorson-Bogan",
+  "EmailId": 415,
+  "EmailAddress": "marcellus@hackett.co.uk",
+  "CountryId": 235,
+  "Firstname": "Karine",
+  "MiddleName": "Prohaska-O'Kon",
+  "Lastname": "Lubowitz",
+  "PersonId": 482,
+  "Mrmrs": "quos",
+  "ProjectMemberTypeName": "Murphy Group",
+  "Phone": "709.018.9415 x933",
+  "PhoneId": 912,
+  "ProjectMemberTypeId": 720,
+  "EmailAddressName": "jayce.lehner@veum.us",
+  "Comment": "repudiandae",
+  "FullName": "Rogelio Weber",
+  "Registered": "2004-04-26T11:24:48.5001409+02:00",
+  "Updated": "2021-03-06T11:24:48.5001409+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 84
     }
   }
 }

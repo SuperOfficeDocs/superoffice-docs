@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Torp, Hane and Denesik",
-    "ToolTip": "Non officiis laudantium fugiat.",
+    "Id": 751,
+    "Name": "Weissnat-Willms",
+    "ToolTip": "Itaque repellat.",
     "Deleted": false,
-    "Rank": 455,
-    "Type": "eaque",
-    "ColorBlock": 418,
-    "IconHint": "accusantium",
+    "Rank": 351,
+    "Type": "repellendus",
+    "ColorBlock": 44,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "1999-04-06T03:47:00.6442984+02:00",
+    "LastChanged": "2020-08-04T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Sanford, Witting and Balistreri",
-        "ToolTip": "Sed esse.",
+        "Id": 7,
+        "Name": "Wilderman-Haley",
+        "ToolTip": "Alias amet ut.",
         "Deleted": false,
-        "Rank": 166,
-        "Type": "vitae",
-        "ColorBlock": 203,
-        "IconHint": "repellat",
+        "Rank": 941,
+        "Type": "distinctio",
+        "ColorBlock": 851,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2007-02-22T03:47:00.6442984+01:00",
+        "LastChanged": "2004-02-27T11:24:53.9217949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "ea",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Prof. Aliza Branson Stiedemann"
+        "FullName": "Randi Glennie Hegmann PhD"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "est",
+    "ExtraInfo": "velit",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Mason Ratke"
+    "FullName": "Abigayle Witting"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Vandervort, Boyer and Turcotte",
-    "ToolTip": "Tempora nihil quis id.",
+    "Id": 631,
+    "Name": "Watsica LLC",
+    "ToolTip": "Rem in non.",
     "Deleted": true,
-    "Rank": 366,
-    "Type": "quis",
-    "ColorBlock": 807,
-    "IconHint": "et",
+    "Rank": 507,
+    "Type": "enim",
+    "ColorBlock": 84,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2004-03-27T03:47:00.6442984+01:00",
+    "LastChanged": "2010-06-21T11:24:53.9217949+02:00",
     "ChildItems": [
       {
-        "Id": 106,
-        "Name": "Kiehn-Wuckert",
-        "ToolTip": "Soluta non veritatis ut deserunt vel.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "non",
-        "ColorBlock": 962,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2007-01-24T03:47:00.6442984+01:00",
+        "Id": 788,
+        "Name": "Bednar, Boyle and Lind",
+        "ToolTip": "Sint qui natus sequi quia delectus molestias quis.",
+        "Deleted": true,
+        "Rank": 831,
+        "Type": "ipsum",
+        "ColorBlock": 701,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2016-02-21T11:24:53.9217949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Aracely Langosh",
+        "ExtraInfo": "tempora",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Trever Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 557
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Mrs. Mathew Isaiah Medhurst V",
+    "ExtraInfo": "soluta",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Carmela Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 256
       }
     }
   }

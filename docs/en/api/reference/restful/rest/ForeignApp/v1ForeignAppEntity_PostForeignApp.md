@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 97,
-  "Name": "Bogan-Kertzmann",
-  "CreatedDate": "2012-11-25T03:47:00.0193121+01:00",
-  "UpdatedDate": "2023-06-02T03:47:00.0193121+02:00",
+  "ForeignAppId": 51,
+  "Name": "Bins, Schowalter and Koch",
+  "CreatedDate": "2013-09-04T11:24:53.2811958+02:00",
+  "UpdatedDate": "2016-05-08T11:24:53.2811958+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 97,
-      "Name": "Cummerata-Williamson",
-      "CreatedDate": "2020-03-24T03:47:00.0193121+01:00",
-      "UpdatedDate": "2013-07-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Hortense Reichert",
-      "CreatedBy": "et",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 334,
+      "ForeignDeviceId": 488,
+      "Name": "Hessel LLC",
+      "CreatedDate": "2008-08-04T11:24:53.2811958+02:00",
+      "UpdatedDate": "2006-08-08T11:24:53.2811958+02:00",
+      "AssociateFullName": "Donato Buckridge",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "repellendus",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 416,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 239
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   }
 }

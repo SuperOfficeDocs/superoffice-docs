@@ -90,16 +90,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 605,
-  "PrefDescId": 240,
-  "PrefValue": "qui",
-  "PrefShowValue": "recusandae",
-  "Description": "Open-source actuating encoding",
-  "IsBuiltin": false
+  "PrefDescLineId": 696,
+  "PrefDescId": 536,
+  "PrefValue": "ipsum",
+  "PrefShowValue": "necessitatibus",
+  "Description": "De-engineered multi-state migration",
+  "IsBuiltin": true
 }
 ```
 
@@ -110,18 +110,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 72,
-  "PrefDescId": 32,
-  "PrefValue": "aliquid",
-  "PrefShowValue": "in",
-  "Description": "Cross-platform object-oriented extranet",
-  "IsBuiltin": false,
+  "PrefDescLineId": 689,
+  "PrefDescId": 178,
+  "PrefValue": "expedita",
+  "PrefShowValue": "voluptatibus",
+  "Description": "Optimized modular approach",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   },
   "_Links": {

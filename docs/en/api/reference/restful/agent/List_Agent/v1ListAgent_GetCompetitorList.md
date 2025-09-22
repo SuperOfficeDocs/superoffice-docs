@@ -84,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Value": "consequatur",
-    "Tooltip": "ab",
+    "Id": 873,
+    "Value": "vitae",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldLength": 961
       }
     }
   },
   {
-    "Id": 614,
-    "Value": "consequatur",
-    "Tooltip": "ab",
+    "Id": 873,
+    "Value": "vitae",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldLength": 961
       }
     }
   }

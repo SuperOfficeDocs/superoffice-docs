@@ -93,34 +93,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 620,
-    "ERPName": "Kuhlman, Spencer and Lemke",
-    "DisplayName": "McDermott, Bednar and Heaney",
-    "DisplayDescription": "Advanced cohesive knowledge user",
-    "Rank": 810,
-    "ConnectorName": "Schuppe Group",
-    "ErpConnectionId": 615,
-    "ExtraData": "consequatur",
+    "QuoteConnectionId": 285,
+    "ERPName": "Hermann Inc and Sons",
+    "DisplayName": "O'Reilly Inc and Sons",
+    "DisplayDescription": "Quality-focused zero defect adapter",
+    "Rank": 3,
+    "ConnectorName": "Harber-Lang",
+    "ErpConnectionId": 370,
+    "ExtraData": "est",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 939,
-        "ERPPriceListKey": "aliquam",
-        "QuoteConnectionId": 581,
-        "Name": "Renner, Johns and Gleason",
-        "Description": "Re-contextualized disintermediate attitude",
-        "Currency": "quas",
-        "CurrencyName": "Murphy, Jenkins and Senger",
-        "ValidFrom": "2006-12-29T03:46:55.2069913+01:00",
-        "ValidTo": "2012-08-08T03:46:55.2069913+02:00",
+        "PriceListId": 588,
+        "ERPPriceListKey": "odit",
+        "QuoteConnectionId": 210,
+        "Name": "Raynor, Johns and McDermott",
+        "Description": "Programmable systematic intranet",
+        "Currency": "quia",
+        "CurrencyName": "Quitzon-Heathcote",
+        "ValidFrom": "2010-05-01T11:24:48.5313897+02:00",
+        "ValidTo": "2006-08-10T11:24:48.5313897+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldType": "System.Int32",
+            "FieldLength": 573
           }
         }
       }
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      889,
-      361
+      594,
+      364
     ],
     "AssociateAccessIds": [
-      586,
-      875
+      205,
+      988
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

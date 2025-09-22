@@ -100,16 +100,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 61,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2024-01-08T03:46:54.6288867+01:00",
-  "EndTime": "2002-07-24T03:46:54.6288867+02:00",
-  "Count": 51,
-  "DocumentTemplateId": 617
+  "PersonId": 958,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2022-10-01T11:24:47.9376639+02:00",
+  "EndTime": "2019-07-17T11:24:47.9376639+02:00",
+  "Count": 142,
+  "DocumentTemplateId": 987
 }
 ```
 
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 120,
-    "Attention": "aliquam",
-    "Header": "voluptatibus",
-    "Name": "Grimes Group",
-    "OurRef": "assumenda",
-    "YourRef": "molestiae",
-    "Description": "Compatible optimizing synergy",
-    "DocumentTemplate": "est",
+    "DocumentId": 403,
+    "Attention": "qui",
+    "Header": "distinctio",
+    "Name": "Williamson, King and Sporer",
+    "OurRef": "a",
+    "YourRef": "porro",
+    "Description": "Compatible full-range data-warehouse",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 774,
-    "PersonFullName": "Mrs. Bobby Langworth",
-    "AssociateFullName": "Miss Grayce Jaleel Aufderhar DDS",
-    "ContactId": 239,
-    "ContactName": "Jast, Schoen and Ernser",
-    "ProjectId": 253,
-    "ProjectName": "Pollich, Kshlerin and Murray",
-    "AssociateId": 867,
-    "Snum": 953,
-    "SaleId": 50,
-    "SaleName": "Shanahan Inc and Sons",
+    "PersonId": 727,
+    "PersonFullName": "Daija Luettgen",
+    "AssociateFullName": "Weston Walker",
+    "ContactId": 737,
+    "ContactName": "Hoppe-Howe",
+    "ProjectId": 33,
+    "ProjectName": "Grant Inc and Sons",
+    "AssociateId": 483,
+    "Snum": 650,
+    "SaleId": 871,
+    "SaleName": "Stoltenberg-Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldLength": 112
       }
     }
   }

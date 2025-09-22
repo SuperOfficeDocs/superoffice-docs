@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    353,
-    612
+    658,
+    311
   ]
 }
 ```
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morissette-Ruecker",
-    "Comment": "qui",
-    "StakeholderRoleId": 697,
-    "CountryId": 81,
-    "PersonId": 286,
-    "EmailDescription": "alaina_will@schmitt.info",
-    "EmailId": 862,
-    "EmailAddress": "camryn@runtewolf.uk",
-    "PhoneId": 302,
-    "ContactName": "Zulauf, Hackett and Romaguera",
-    "ContactId": 352,
-    "SaleId": 595,
-    "Mrmrs": "aut",
-    "Firstname": "Oda",
-    "MiddleName": "Gutkowski Group",
-    "Lastname": "Thiel",
-    "SaleStakeholderId": 816,
-    "Rank": 102,
-    "Phone": "1-553-482-8464",
+    "StakeholderRoleName": "Yost LLC",
+    "Comment": "officia",
+    "StakeholderRoleId": 663,
+    "CountryId": 374,
+    "PersonId": 844,
+    "EmailDescription": "adrienne_lemke@terry.ca",
+    "EmailId": 407,
+    "EmailAddress": "german.toy@moore.info",
+    "PhoneId": 519,
+    "ContactName": "Welch-Bogan",
+    "ContactId": 640,
+    "SaleId": 830,
+    "Mrmrs": "sed",
+    "Firstname": "Rolando",
+    "MiddleName": "Langworth-Wiegand",
+    "Lastname": "King",
+    "SaleStakeholderId": 880,
+    "Rank": 679,
+    "Phone": "1-800-848-0502 x82552",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 130
       }
     }
   }

@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 348,
-    "Name": "Turcotte-Bergnaum",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 360,
-    "UdListDefinitionId": 276,
+    "HeadingId": 968,
+    "Name": "Wyman-Schmitt",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 959,
+    "UdListDefinitionId": 619,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 945
       }
     }
   }

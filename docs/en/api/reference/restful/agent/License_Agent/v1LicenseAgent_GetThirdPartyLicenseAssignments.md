@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 609,
-  "ModuleOwner": "repudiandae"
+  "AssociateId": 744,
+  "ModuleOwner": "sunt"
 }
 ```
 
@@ -105,26 +105,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 678,
-    "Tooltip": "magni",
-    "CanAssign": true,
-    "Free": 768,
-    "InUse": 838,
+    "Unrestricted": false,
+    "Total": 595,
+    "Tooltip": "animi",
+    "CanAssign": false,
+    "Free": 640,
+    "InUse": 513,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 232,
-    "Name": "Bayer-Feil",
-    "Description": "Realigned grid-enabled frame",
-    "PrerequisiteModuleName": "Bayer Group",
-    "SortOrder": 403,
-    "ExtraFlags": 131,
+    "ModuleLicenseId": 357,
+    "Name": "O'Kon LLC",
+    "Description": "Exclusive full-range productivity",
+    "PrerequisiteModuleName": "Gerhold LLC",
+    "SortOrder": 672,
+    "ExtraFlags": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 169
       }
     }
   }

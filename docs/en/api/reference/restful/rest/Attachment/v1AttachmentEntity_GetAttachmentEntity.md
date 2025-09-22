@@ -91,20 +91,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 430,
-  "Name": "Brakus LLC",
-  "ContentType": "officia",
-  "AttSize": 968,
-  "InlineImage": true,
-  "ContentId": "doloribus",
-  "AuthKey": "sunt",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 228,
+  "Name": "Cormier, Rolfson and Swift",
+  "ContentType": "quis",
+  "AttSize": 412,
+  "InlineImage": false,
+  "ContentId": "reprehenderit",
+  "AuthKey": "et",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 748
     }
   },
   "_Links": {

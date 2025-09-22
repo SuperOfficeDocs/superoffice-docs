@@ -94,7 +94,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 968,
-  "ColumnId": 380,
-  "FieldDefault": "libero",
-  "FieldHeight": 941,
-  "FieldLabel": "consequatur",
-  "FieldLeft": 795,
-  "FieldTop": 907,
+  "UDefFieldId": 67,
+  "ColumnId": 165,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 477,
+  "FieldLabel": "corrupti",
+  "FieldLeft": 174,
+  "FieldTop": 612,
   "FieldType": "Checkbox",
-  "FieldWidth": 524,
-  "FormatMask": "reprehenderit",
+  "FieldWidth": 561,
+  "FormatMask": "soluta",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 195,
-  "LabelLeft": 21,
-  "LabelTop": 822,
-  "LabelWidth": 171,
-  "LastVersionId": 561,
-  "ListTableId": 285,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 332,
+  "LabelLeft": 412,
+  "LabelTop": 971,
+  "LabelWidth": 119,
+  "LastVersionId": 891,
+  "ListTableId": 220,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "ad",
+  "Page1LineNo": 681,
+  "ProgId": "quia",
   "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 300,
-  "TextLength": 461,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 951,
-  "UDListDefinitionId": 308,
+  "ShortLabel": "quia",
+  "TabOrder": 282,
+  "TextLength": 910,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 659,
+  "UDListDefinitionId": 396,
   "Justification": "Center",
-  "Version": 903,
-  "TemplateVariableName": "Carroll, Kertzmann and Hirthe",
+  "Version": 91,
+  "TemplateVariableName": "Klocko LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Keebler Group",
+  "MdoListName": "Wisoky-Wisoky",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 216
+      "FieldType": "System.Int32",
+      "FieldLength": 68
     }
   }
 }

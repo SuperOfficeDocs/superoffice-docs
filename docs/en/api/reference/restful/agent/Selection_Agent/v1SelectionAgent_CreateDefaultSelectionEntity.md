@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized optimizing encryption",
-  "Postit": "enim",
+  "Description": "Implemented encompassing groupware",
+  "Postit": "dolores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 853,
-  "IncludePerson": 829,
+  "GroupIdx": 18,
+  "IncludePerson": 926,
   "MemberCount": 99.99,
-  "Name": "Miller, Kessler and Koch",
-  "PostitTextId": 195,
-  "CreatedDate": "2001-07-17T03:46:55.3007553+02:00",
-  "SelectionId": 556,
-  "SoundEx": "blanditiis",
-  "Source": 811,
-  "TextId": 168,
-  "UpdatedDate": "2015-06-12T03:46:55.3007553+02:00",
-  "UpdatedCount": 805,
-  "Visibility": 152,
+  "Name": "Von, Bartoletti and Cremin",
+  "PostitTextId": 35,
+  "CreatedDate": "2010-12-07T11:24:48.6095199+01:00",
+  "SelectionId": 482,
+  "SoundEx": "quia",
+  "Source": 289,
+  "TextId": 705,
+  "UpdatedDate": "2015-11-22T11:24:48.6095199+01:00",
+  "UpdatedCount": 670,
+  "Visibility": 973,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 194,
-  "TargetTableName": "Adams-Bergstrom",
+  "TargetTableNumber": 871,
+  "TargetTableName": "Robel, Orn and Cruickshank",
   "Completed": false,
-  "LeftSelectionId": 956,
-  "RightSelectionId": 349,
+  "LeftSelectionId": 79,
+  "RightSelectionId": 118,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel, Douglas and Hilll",
-  "ShadowProviderName": "McDermott-Cummerata",
-  "ChartKey": "dicta",
-  "LastLoaded": "2000-07-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 994,
+  "MainProviderName": "Trantow Group",
+  "ShadowProviderName": "Lang-Barton",
+  "ChartKey": "amet",
+  "LastLoaded": "2014-01-18T11:24:48.6095199+01:00",
+  "LastLoadedBy": 548,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-03T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 739,
+  "LastMembershipChange": "2005-03-01T11:24:48.6095199+01:00",
+  "LastMembershipChangeBy": 334,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "excepturi",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Durgan, Kub and Schamberger",
-  "DashboardTileDefinitionId": 991,
+  "MainHeading": "cum",
+  "MemberTabHeading": "impedit",
+  "MailingsProviderName": "Beer Inc and Sons",
+  "DashboardTileDefinitionId": 501,
   "VisibleFor": [
     {
-      "VisibleId": 6,
+      "VisibleId": 816,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     },
     {
-      "VisibleId": 6,
+      "VisibleId": 816,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 160
     }
   }
 }

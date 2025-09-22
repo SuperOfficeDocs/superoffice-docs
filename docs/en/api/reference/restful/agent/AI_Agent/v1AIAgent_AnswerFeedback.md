@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/AI/AnswerFeedback
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "eaque",
-  "IsThumbsUp": true
+  "TrackingId": "sequi",
+  "IsThumbsUp": false
 }
 ```
 

@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 114,
-    "Name": "Yundt-Walker",
-    "Tooltip": "eligendi",
+    "HeadingId": 666,
+    "Name": "Lehner-Schmidt",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 576
+    "Rank": 998,
+    "UdListDefinitionId": 776
   },
   {
-    "HeadingId": 114,
-    "Name": "Yundt-Walker",
-    "Tooltip": "eligendi",
+    "HeadingId": 666,
+    "Name": "Lehner-Schmidt",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 576
+    "Rank": 998,
+    "UdListDefinitionId": 776
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 690,
-    "Name": "Langworth-Kassulke",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 297,
-    "UdListDefinitionId": 391,
+    "HeadingId": 632,
+    "Name": "Weber Group",
+    "Tooltip": "molestiae",
+    "Deleted": true,
+    "Rank": 530,
+    "UdListDefinitionId": 640,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

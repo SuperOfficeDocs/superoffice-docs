@@ -90,22 +90,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 292,
-  "Name": "Bradtke LLC",
-  "ConsentText": "quis",
-  "FormText": "doloremque",
-  "Key": "maiores",
-  "Tooltip": "aut",
-  "Active": 268,
-  "UpdatedDate": "2004-08-12T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 157,
+  "Name": "Lakin-Pfannerstill",
+  "ConsentText": "adipisci",
+  "FormText": "quia",
+  "Key": "dolorem",
+  "Tooltip": "consequatur",
+  "Active": 604,
+  "UpdatedDate": "2018-10-01T11:24:53.8749217+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 157,
-  "PrivacyStatementDesc": "cupiditate",
+  "Deleted": false,
+  "Rank": 499,
+  "PrivacyStatementDesc": "maxime",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -117,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 3,
-  "Name": "Auer, Tromp and Beier",
-  "ConsentText": "nihil",
-  "FormText": "et",
-  "Key": "enim",
-  "Tooltip": "error",
-  "Active": 443,
-  "UpdatedDate": "2003-01-21T03:47:00.5974251+01:00",
+  "ConsentPurposeId": 565,
+  "Name": "Kihn-Gusikowski",
+  "ConsentText": "sit",
+  "FormText": "labore",
+  "Key": "error",
+  "Tooltip": "sit",
+  "Active": 728,
+  "UpdatedDate": "2005-10-04T11:24:53.8749217+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 783,
-  "PrivacyStatementDesc": "accusantium",
+  "Deleted": true,
+  "Rank": 399,
+  "PrivacyStatementDesc": "vitae",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 455
     }
   }
 }

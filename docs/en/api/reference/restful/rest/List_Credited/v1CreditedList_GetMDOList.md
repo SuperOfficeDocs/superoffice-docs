@@ -27,8 +27,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=a
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=incidunt
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Orn Inc and Sons",
-    "ToolTip": "In illo iure doloremque et ratione numquam aut.",
+    "Id": 22,
+    "Name": "Wilkinson, Durgan and Mraz",
+    "ToolTip": "Cum iure quia repudiandae.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "earum",
+    "Rank": 373,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Hartmann-Glover",
-        "ToolTip": "Commodi atque aut unde nemo molestias recusandae.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "laboriosam",
+        "Id": 215,
+        "Name": "Denesik-Tremblay",
+        "ToolTip": "Et id voluptatem odio.",
+        "Deleted": false,
+        "Rank": 685,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 371,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "molestiae",
-        "FullName": "Destin Parisian",
+        "IconHint": "cupiditate",
+        "ColorBlock": 698,
+        "ExtraInfo": "eius",
+        "StyleHint": "unde",
+        "FullName": "Karine Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldType": "System.String",
+            "FieldLength": 281
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 277,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sequi",
-    "FullName": "Dr. Carrie Kub V",
+    "IconHint": "odio",
+    "ColorBlock": 50,
+    "ExtraInfo": "harum",
+    "StyleHint": "aspernatur",
+    "FullName": "Efrain Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

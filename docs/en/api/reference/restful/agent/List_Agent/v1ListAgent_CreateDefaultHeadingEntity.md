@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 613,
-  "Name": "Reichert-Cronin",
-  "Tooltip": "fuga",
+  "HeadingId": 779,
+  "Name": "Barton-Rippin",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 644,
-  "UdListDefinitionId": 279,
+  "Rank": 116,
+  "UdListDefinitionId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 236
     }
   }
 }

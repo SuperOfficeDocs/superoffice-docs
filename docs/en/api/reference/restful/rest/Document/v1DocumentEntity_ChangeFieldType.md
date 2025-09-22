@@ -31,7 +31,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 371,
-  "ColumnId": 483,
-  "FieldDefault": "in",
-  "FieldHeight": 293,
-  "FieldLabel": "et",
-  "FieldLeft": 869,
-  "FieldTop": 991,
+  "UDefFieldId": 390,
+  "ColumnId": 181,
+  "FieldDefault": "illo",
+  "FieldHeight": 114,
+  "FieldLabel": "provident",
+  "FieldLeft": 763,
+  "FieldTop": 879,
   "FieldType": "Checkbox",
-  "FieldWidth": 926,
-  "FormatMask": "quidem",
+  "FieldWidth": 334,
+  "FormatMask": "aspernatur",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 456,
-  "LabelLeft": 738,
-  "LabelTop": 34,
-  "LabelWidth": 406,
-  "LastVersionId": 381,
-  "ListTableId": 18,
+  "LabelHeight": 842,
+  "LabelLeft": 200,
+  "LabelTop": 380,
+  "LabelWidth": 359,
+  "LastVersionId": 401,
+  "ListTableId": 338,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "repellat",
-  "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 368,
-  "TextLength": 98,
-  "Tooltip": "sed",
-  "UdefIdentity": 877,
-  "UDListDefinitionId": 375,
+  "Page1LineNo": 83,
+  "ProgId": "sint",
+  "IsReadOnly": true,
+  "ShortLabel": "maiores",
+  "TabOrder": 422,
+  "TextLength": 218,
+  "Tooltip": "cum",
+  "UdefIdentity": 618,
+  "UDListDefinitionId": 187,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Kemmer-Greenholt",
+  "Version": 187,
+  "TemplateVariableName": "Oberbrunner, Bosco and Legros",
   "HasBeenPublished": true,
-  "MdoListName": "Flatley, Rohan and Yundt",
+  "MdoListName": "Feest-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

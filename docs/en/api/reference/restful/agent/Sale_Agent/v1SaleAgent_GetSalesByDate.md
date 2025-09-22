@@ -107,9 +107,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-12-04T03:46:55.2694888+01:00",
-  "ToDate": "2003-09-02T03:46:55.2694888+02:00",
-  "AmountLimit": 541,
+  "FromDate": "2020-03-13T11:24:48.5939056+01:00",
+  "ToDate": "2004-08-12T11:24:48.5939056+02:00",
+  "AmountLimit": 243,
   "Status": "Lost"
 }
 ```
@@ -122,37 +122,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zulauf-Hartmann",
-    "SaleDate": "2010-01-15T03:46:55.2694888+01:00",
-    "SaleId": 789,
-    "Probability": 280,
-    "Title": "distinctio",
-    "Amount": 18929.36,
-    "Currency": "saepe",
-    "ProjectName": "Walsh, Willms and Cole",
-    "AssociateFullName": "Georgette Evangeline Runte MD",
-    "Description": "Self-enabling non-volatile knowledge user",
+    "ContactName": "Ortiz-Lueilwitz",
+    "SaleDate": "2006-06-01T11:24:48.5939056+02:00",
+    "SaleId": 715,
+    "Probability": 433,
+    "Title": "qui",
+    "Amount": 23761.987999999998,
+    "Currency": "nam",
+    "ProjectName": "Bartell-Dibbert",
+    "AssociateFullName": "Sheridan Roberts",
+    "Description": "Future-proofed next generation software",
     "Status": "Lost",
-    "WeightedAmount": 13178.47,
-    "ProjectId": 668,
-    "EarningPercent": 17193.124,
-    "Earning": 18352.703999999998,
-    "ContactId": 253,
-    "AssociateId": 894,
-    "PersonId": 484,
-    "SaleTypeId": 946,
-    "SaleTypeName": "Yundt, Streich and Douglas",
-    "PersonFullName": "Mrs. Johnnie Darwin Feil",
+    "WeightedAmount": 11103.761999999999,
+    "ProjectId": 309,
+    "EarningPercent": 28948.757999999998,
+    "Earning": 17249.536,
+    "ContactId": 688,
+    "AssociateId": 711,
+    "PersonId": 667,
+    "SaleTypeId": 20,
+    "SaleTypeName": "Prohaska-Hammes",
+    "PersonFullName": "Laurianne Summer Boehm DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 976,
-    "NextDueDate": "2025-08-01T03:46:55.2694888+02:00",
-    "Number": "1168986",
+    "ActiveErpLinks": 963,
+    "NextDueDate": "2021-07-04T11:24:48.5939056+02:00",
+    "Number": "328879",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 202
       }
     }
   }

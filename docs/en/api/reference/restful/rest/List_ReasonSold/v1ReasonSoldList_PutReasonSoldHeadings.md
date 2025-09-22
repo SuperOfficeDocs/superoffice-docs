@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 431,
-    "Name": "Schroeder-Hyatt",
-    "Tooltip": "id",
+    "HeadingId": 768,
+    "Name": "Dare-McKenzie",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 804
+    "Rank": 887,
+    "UdListDefinitionId": 622
   },
   {
-    "HeadingId": 431,
-    "Name": "Schroeder-Hyatt",
-    "Tooltip": "id",
+    "HeadingId": 768,
+    "Name": "Dare-McKenzie",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 804
+    "Rank": 887,
+    "UdListDefinitionId": 622
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Funk-Hettinger",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 492,
-    "UdListDefinitionId": 570,
+    "HeadingId": 134,
+    "Name": "Terry Inc and Sons",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "Rank": 154,
+    "UdListDefinitionId": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 960
       }
     }
   }

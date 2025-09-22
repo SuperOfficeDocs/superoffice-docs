@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Kshlerin-Kerluke",
-    "ToolTip": "Accusantium fugiat expedita aut.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "sint",
-    "ColorBlock": 757,
-    "IconHint": "magni",
+    "Id": 737,
+    "Name": "Stracke, Leuschke and Pouros",
+    "ToolTip": "Exercitationem officia et ea.",
+    "Deleted": false,
+    "Rank": 601,
+    "Type": "repellendus",
+    "ColorBlock": 403,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2014-02-03T03:47:00.7849183+01:00",
+    "LastChanged": "2010-08-05T11:24:54.1092872+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Schneider, Durgan and Russel",
-        "ToolTip": "Voluptatibus molestiae corrupti deserunt.",
-        "Deleted": false,
-        "Rank": 766,
-        "Type": "et",
-        "ColorBlock": 403,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2020-05-23T03:47:00.7849183+02:00",
+        "Id": 244,
+        "Name": "Kulas, Bernier and Kshlerin",
+        "ToolTip": "Incidunt ipsum molestiae et odit repellat voluptatum similique.",
+        "Deleted": true,
+        "Rank": 500,
+        "Type": "in",
+        "ColorBlock": 303,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "1999-01-07T11:24:54.1092872+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quasi",
+        "ExtraInfo": "dicta",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mrs. Estevan Jenkins II",
+        "FullName": "Donavon Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 189
+            "FieldLength": 914
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ratione",
+    "ExtraInfo": "sint",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Roma Wyman",
+    "FullName": "Brigitte Greenfelder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldType": "System.String",
+        "FieldLength": 729
       }
     }
   }

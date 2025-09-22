@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "facilis",
-  "Name": "Ruecker-Luettgen"
+  "Path": "velit",
+  "Name": "Johnson, Adams and Hauck"
 }
 ```
 
@@ -102,46 +102,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 855,
+  "HierarchyId": 789,
   "Domain": "Dashboards",
-  "Name": "Ruecker-Bernhard",
-  "Fullname": "eaque",
-  "ParentId": 17,
+  "Name": "Champlin, Hagenes and Kessler",
+  "Fullname": "amet",
+  "ParentId": 96,
   "Children": [
     {
-      "HierarchyId": 694,
+      "HierarchyId": 576,
       "Domain": "Dashboards",
-      "Name": "Daugherty, Lemke and Schumm",
-      "Fullname": "consectetur",
-      "ParentId": 645,
+      "Name": "Greenholt Inc and Sons",
+      "Fullname": "numquam",
+      "ParentId": 657,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-05-27T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 409,
-      "Updated": "2022-03-06T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 342,
+      "Registered": "2008-11-15T11:24:48.234527+01:00",
+      "RegisteredAssociateId": 957,
+      "Updated": "2024-01-30T11:24:48.234527+01:00",
+      "UpdatedAssociateId": 822,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldLength": 315
         }
       }
     }
   ],
-  "Registered": "2022-07-15T03:46:54.9726245+02:00",
-  "RegisteredAssociateId": 257,
-  "Updated": "2021-10-18T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 725,
+  "Registered": "2018-11-19T11:24:48.234527+01:00",
+  "RegisteredAssociateId": 33,
+  "Updated": "2005-04-11T11:24:48.234527+02:00",
+  "UpdatedAssociateId": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 737
     }
   }
 }

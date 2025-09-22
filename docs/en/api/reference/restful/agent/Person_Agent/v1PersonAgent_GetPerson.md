@@ -27,7 +27,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=14
+POST /api/v1/Agents/Person/GetPerson?personId=725
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -118,53 +118,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "nulla",
-  "PersonId": 585,
-  "Mrmrs": "eum",
-  "Firstname": "Luciano",
-  "Lastname": "Huels",
-  "MiddleName": "Murphy-Collins",
-  "Title": "unde",
-  "Description": "Future-proofed optimal analyzer",
-  "Email": "furman@weimanngreen.uk",
-  "FullName": "Joanny Berge",
-  "DirectPhone": "823.032.6633 x74222",
-  "FormalName": "Ledner-O'Connell",
-  "CountryId": 261,
-  "ContactId": 551,
-  "ContactName": "Kulas, Pfeffer and Johnston",
-  "Retired": 289,
-  "Rank": 247,
-  "ActiveInterests": 160,
+  "Position": "vel",
+  "PersonId": 687,
+  "Mrmrs": "voluptas",
+  "Firstname": "Blanca",
+  "Lastname": "Heidenreich",
+  "MiddleName": "Beier-Weimann",
+  "Title": "eum",
+  "Description": "Function-based next generation moratorium",
+  "Email": "judd_huel@johnson.biz",
+  "FullName": "Mr. Brando Natalie Nader Sr.",
+  "DirectPhone": "(948)020-1218",
+  "FormalName": "Koss-Rath",
+  "CountryId": 160,
+  "ContactId": 97,
+  "ContactName": "Gorczany, Gutmann and Turcotte",
+  "Retired": 863,
+  "Rank": 93,
+  "ActiveInterests": 825,
   "ContactDepartment": "",
-  "ContactCountryId": 842,
-  "ContactOrgNr": "1048308",
-  "FaxPhone": "1-570-435-2094 x9035",
-  "MobilePhone": "231-164-0647 x936",
-  "ContactPhone": "1-073-417-8213 x58268",
-  "AssociateName": "Gislason, Schiller and Altenwerth",
-  "AssociateId": 985,
+  "ContactCountryId": 869,
+  "ContactOrgNr": "1021441",
+  "FaxPhone": "930-382-1683 x80365",
+  "MobilePhone": "1-131-892-9678",
+  "ContactPhone": "591-049-6118",
+  "AssociateName": "McCullough, VonRueden and Rogahn",
+  "AssociateId": 670,
   "UsePersonAddress": true,
-  "ContactFax": "necessitatibus",
-  "Kanafname": "soluta",
-  "Kanalname": "enim",
-  "Post1": "incidunt",
-  "Post2": "qui",
-  "Post3": "natus",
-  "EmailName": "travis@trompswaniawski.info",
-  "ContactFullName": "Cleo Emard",
-  "ActiveErpLinks": 665,
-  "TicketPriorityId": 276,
-  "SupportLanguageId": 104,
-  "SupportAssociateId": 408,
+  "ContactFax": "fugiat",
+  "Kanafname": "labore",
+  "Kanalname": "pariatur",
+  "Post1": "aperiam",
+  "Post2": "omnis",
+  "Post3": "tenetur",
+  "EmailName": "matteo@spinkaschultz.ca",
+  "ContactFullName": "Danyka Wehner",
+  "ActiveErpLinks": 455,
+  "TicketPriorityId": 729,
+  "SupportLanguageId": 98,
+  "SupportAssociateId": 949,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "242617",
+  "PersonNumber": "634032",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

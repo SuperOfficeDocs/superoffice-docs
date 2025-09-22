@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "rocky_okon@walsh.ca"
+  "EmailAddress": "neva_sipes@koepphirthe.biz"
 }
 ```
 
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 909,
-    "ContactName": "Strosin-Gusikowski",
-    "PersonId": 631,
-    "PersonName": "Herman Group",
-    "AssociateId": 823,
-    "Address": "in",
-    "EmailId": 827,
+    "ContactId": 220,
+    "ContactName": "Hayes LLC",
+    "PersonId": 357,
+    "PersonName": "Ward-Hirthe",
+    "AssociateId": 81,
+    "Address": "numquam",
+    "EmailId": 130,
     "DuplicatePersonIds": [
-      67,
-      820
+      945,
+      444
     ],
-    "Name": "Hodkiewicz Inc and Sons",
+    "Name": "Feeney, Zboncak and Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 463
       }
     }
   }

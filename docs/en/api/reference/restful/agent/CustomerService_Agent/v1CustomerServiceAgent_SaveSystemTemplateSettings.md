@@ -111,33 +111,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 620,
-  "CustomerCustomerReplyTemplateId": 427,
-  "CustomerPasswordTemplateId": 224,
-  "CustomerConfirmEmailTemplateId": 17,
-  "CustomerChatLogTemplateId": 16,
-  "NewLinkTemplateId": 45,
-  "HotlistNewMessageTemplateId": 621,
-  "HotlistTicketActivatedTemplateId": 358,
-  "UserTicketAlarmTemplateId": 791,
-  "HotlistTicketTakenOverTemplateId": 434,
-  "UserActiveTicketsTemplateId": 717,
-  "UserNewMessageTemplateId": 692,
-  "UserTicketActivatedTemplateId": 601,
-  "UserNewTicketTemplateId": 311,
-  "PublishKbQuestionTemplateId": 585,
-  "PublishKbAnswerTemplateId": 981,
-  "UserTicketTakenOverTemplateId": 781,
-  "PrintTicketTemplateId": 292,
-  "WeekStatTemplateId": 64,
-  "TicketAlarmHotlistTemplateId": 354,
-  "EmailAddresses": "derrick.bins@moore.com",
+  "CustomerNewCustomerTemplateId": 209,
+  "CustomerCustomerReplyTemplateId": 901,
+  "CustomerPasswordTemplateId": 819,
+  "CustomerConfirmEmailTemplateId": 666,
+  "CustomerChatLogTemplateId": 85,
+  "NewLinkTemplateId": 229,
+  "HotlistNewMessageTemplateId": 372,
+  "HotlistTicketActivatedTemplateId": 320,
+  "UserTicketAlarmTemplateId": 657,
+  "HotlistTicketTakenOverTemplateId": 382,
+  "UserActiveTicketsTemplateId": 573,
+  "UserNewMessageTemplateId": 972,
+  "UserTicketActivatedTemplateId": 640,
+  "UserNewTicketTemplateId": 321,
+  "PublishKbQuestionTemplateId": 881,
+  "PublishKbAnswerTemplateId": 585,
+  "UserTicketTakenOverTemplateId": 491,
+  "PrintTicketTemplateId": 188,
+  "WeekStatTemplateId": 562,
+  "TicketAlarmHotlistTemplateId": 59,
+  "EmailAddresses": "kamille.crona@hartmann.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 356
     }
   }
 }

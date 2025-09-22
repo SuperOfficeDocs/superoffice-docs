@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 839,
-  "Name": "Mitchell Inc and Sons",
-  "ContentType": "neque",
-  "AttSize": 317,
-  "InlineImage": true,
-  "ContentId": "id",
-  "AuthKey": "debitis",
+  "AttachmentId": 46,
+  "Name": "Ebert LLC",
+  "ContentType": "soluta",
+  "AttSize": 363,
+  "InlineImage": false,
+  "ContentId": "aperiam",
+  "AuthKey": "omnis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

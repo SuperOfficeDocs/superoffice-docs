@@ -102,16 +102,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Murray, Heaney and Romaguera",
-  "Tooltip": "dolore",
+  "Id": 516,
+  "Name": "Abernathy, Ziemann and Erdman",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 922,
+  "Rank": 70,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Schaefer, Corkery and White",
-  "Tooltip": "est",
+  "Id": 802,
+  "Name": "Olson LLC",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 297,
+  "Rank": 68,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {

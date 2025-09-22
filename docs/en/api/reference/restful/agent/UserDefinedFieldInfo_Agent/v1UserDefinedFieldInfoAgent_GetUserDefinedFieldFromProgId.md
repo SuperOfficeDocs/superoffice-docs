@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quis",
+  "ProgId": "atque",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 132,
-  "ColumnId": 58,
-  "FieldDefault": "quo",
-  "FieldHeight": 900,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 860,
-  "FieldTop": 150,
+  "UDefFieldId": 824,
+  "ColumnId": 227,
+  "FieldDefault": "est",
+  "FieldHeight": 942,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 619,
+  "FieldTop": 374,
   "FieldType": "Checkbox",
-  "FieldWidth": 547,
-  "FormatMask": "voluptates",
+  "FieldWidth": 268,
+  "FormatMask": "consectetur",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 17,
-  "LabelLeft": 506,
-  "LabelTop": 235,
-  "LabelWidth": 194,
-  "LastVersionId": 473,
-  "ListTableId": 611,
+  "LabelHeight": 813,
+  "LabelLeft": 676,
+  "LabelTop": 913,
+  "LabelWidth": 918,
+  "LastVersionId": 733,
+  "ListTableId": 463,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 102,
-  "ProgId": "ducimus",
+  "Page1LineNo": 241,
+  "ProgId": "odit",
   "IsReadOnly": false,
-  "ShortLabel": "quo",
-  "TabOrder": 765,
-  "TextLength": 456,
-  "Tooltip": "qui",
-  "UdefIdentity": 380,
-  "UDListDefinitionId": 549,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 958,
+  "TextLength": 599,
+  "Tooltip": "voluptate",
+  "UdefIdentity": 536,
+  "UDListDefinitionId": 18,
   "Justification": "Center",
-  "Version": 438,
-  "TemplateVariableName": "Conroy Inc and Sons",
+  "Version": 815,
+  "TemplateVariableName": "Erdman-Kautzer",
   "HasBeenPublished": false,
-  "MdoListName": "Rempel-Torphy",
+  "MdoListName": "Klein, Volkman and Langosh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 498
     }
   }
 }

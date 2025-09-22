@@ -100,36 +100,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schmitt, Pagac and Baumbach",
-      "Operator": "laboriosam",
+      "Name": "Jast, Gibson and Wisozk",
+      "Operator": "dolore",
       "Values": [
-        "qui",
-        "nemo"
+        "voluptatum",
+        "dolorem"
       ],
       "DisplayValues": [
-        "architecto",
-        "et"
+        "qui",
+        "cupiditate"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 496,
+      "InterParenthesis": 649,
       "InterOperator": "And",
-      "UniqueHash": 910
+      "UniqueHash": 241
     }
   ],
-  "ProviderName": "Dickens, Zieme and Fadel",
-  "PageSize": 481,
-  "PageNumber": 991
+  "ProviderName": "Turner, Berge and Wyman",
+  "PageSize": 214,
+  "PageNumber": 263
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sporer, Volkman and Lueilwitz",
-      "DisplayTooltip": "eligendi",
-      "DisplayType": "velit",
-      "CanOrderBy": false,
-      "Name": "Lowe Inc and Sons",
+      "DisplayName": "Wiegand-Kunde",
+      "DisplayTooltip": "et",
+      "DisplayType": "dolore",
+      "CanOrderBy": true,
+      "Name": "Beatty-Nikolaus",
       "CanRestrictBy": false,
-      "RestrictionType": "accusamus",
-      "RestrictionListName": "Leffler LLC",
-      "IsVisible": true,
-      "ExtraInfo": "id",
-      "Width": "nihil",
-      "IconHint": "perferendis",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "iste",
+      "RestrictionListName": "Nitzsche LLC",
+      "IsVisible": false,
+      "ExtraInfo": "aperiam",
+      "Width": "magni",
+      "IconHint": "aut",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuhic, Anderson and Walker",
-      "PrimaryKey": 884,
+      "EntityName": "Thiel-Hermiston",
+      "PrimaryKey": 177,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quam",
-          "TooltipHint": "sunt",
-          "LinkHint": "qui"
+          "DisplayValue": "nulla",
+          "TooltipHint": "ad",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "architecto",
+      "LinkHint": "explicabo",
+      "StyleHint": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldType": "System.String",
+          "FieldLength": 341
         }
       }
     }
   ],
-  "RowCount": 776,
+  "RowCount": 600,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 903
     }
   }
 }

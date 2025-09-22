@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Waelchi Group",
-    "ToolTip": "Ut accusamus repudiandae in molestias.",
-    "Deleted": false,
-    "Rank": 496,
-    "Type": "omnis",
-    "ColorBlock": 923,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2018-11-01T03:47:00.8942898+01:00",
+    "Id": 512,
+    "Name": "Hegmann, Willms and Oberbrunner",
+    "ToolTip": "Et et earum et iure dicta dolores non.",
+    "Deleted": true,
+    "Rank": 344,
+    "Type": "rerum",
+    "ColorBlock": 31,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2018-02-06T11:24:54.1561606+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Provident sit vero.",
+        "Id": 825,
+        "Name": "Haley, Casper and McKenzie",
+        "ToolTip": "Omnis repudiandae delectus qui dicta voluptates in qui.",
         "Deleted": true,
-        "Rank": 725,
-        "Type": "autem",
-        "ColorBlock": 308,
-        "IconHint": "et",
+        "Rank": 888,
+        "Type": "ut",
+        "ColorBlock": 950,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2012-11-14T03:47:00.8942898+01:00",
+        "LastChanged": "2023-01-08T11:24:54.1561606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "qui",
+        "ExtraInfo": "odit",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Judy Daija Langosh IV",
+        "FullName": "Virgil Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 703
+            "FieldType": "System.Int32",
+            "FieldLength": 969
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Una Brent Sauer Jr.",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Frederik Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

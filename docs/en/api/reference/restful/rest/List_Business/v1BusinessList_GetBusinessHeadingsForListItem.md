@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Morissette-Moen",
-    "ToolTip": "Est facere et ab et nisi molestias exercitationem.",
+    "Id": 401,
+    "Name": "Anderson, Lesch and Stamm",
+    "ToolTip": "Quia dignissimos et facilis magni omnis nostrum.",
     "Deleted": false,
-    "Rank": 684,
-    "Type": "fuga",
-    "ColorBlock": 207,
-    "IconHint": "et",
+    "Rank": 7,
+    "Type": "est",
+    "ColorBlock": 796,
+    "IconHint": "beatae",
     "Selected": true,
-    "LastChanged": "2011-01-08T03:47:00.5818006+01:00",
+    "LastChanged": "2017-08-03T11:24:53.8592973+02:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Hagenes, Mayer and Murphy",
-        "ToolTip": "Dolores sed incidunt corrupti est est.",
+        "Id": 779,
+        "Name": "Cruickshank-Terry",
+        "ToolTip": "Non omnis vitae.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "veritatis",
-        "ColorBlock": 597,
-        "IconHint": "commodi",
+        "Rank": 372,
+        "Type": "aliquid",
+        "ColorBlock": 988,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2005-03-27T03:47:00.5818006+02:00",
+        "LastChanged": "2024-01-26T11:24:53.8592973+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "est",
+        "ExtraInfo": "vitae",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Darian Kling",
+        "FullName": "Ms. Santina Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "assumenda",
-    "Hidden": false,
-    "FullName": "William Glover",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Carleton Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

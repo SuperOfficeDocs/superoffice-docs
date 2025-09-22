@@ -79,15 +79,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Von, Kozey and Rowe",
-    "Gaylord LLC"
+    "Romaguera-Schroeder",
+    "Dooley, Schamberger and Sanford"
   ],
-  "Culture": "aliquam",
+  "Culture": "consectetur",
   "ActiveOnly": false
 }
 ```
@@ -100,30 +100,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Koepp, Anderson and Waelchi",
-    "ResourceValue": "et",
-    "Culture": "repellendus",
+    "ResourceName": "Monahan-Ortiz",
+    "ResourceValue": "occaecati",
+    "Culture": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 286
       }
     }
   },
   {
-    "ResourceName": "Koepp, Anderson and Waelchi",
-    "ResourceValue": "et",
-    "Culture": "repellendus",
+    "ResourceName": "Monahan-Ortiz",
+    "ResourceValue": "occaecati",
+    "Culture": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 286
       }
     }
   }

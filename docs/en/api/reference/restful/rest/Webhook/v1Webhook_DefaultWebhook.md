@@ -72,7 +72,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 996,
-  "Name": "Conn Inc and Sons",
+  "WebhookId": 790,
+  "Name": "Sauer-Nitzsche",
   "Events": [
-    "laborum",
-    "sequi"
+    "esse",
+    "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sunt",
+  "Secret": "ea",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "natus",
   "Headers": {
-    "Headers1": "reiciendis",
-    "Headers2": "non"
+    "Headers1": "ducimus",
+    "Headers2": "quaerat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-04-10T03:47:00.5505518+02:00",
+  "Registered": "2007-02-03T11:24:53.8280427+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-06-02T03:47:00.5505518+02:00",
+  "Updated": "2022-05-15T11:24:53.8280427+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "josianne.moore@farrell.info"
+  "ErrorsEmail": "leatha.krajcik@feestwilliamson.ca"
 }
 ```

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320
+  "Id": 639
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "quos",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "fuga",
+  "DisplayValue": "eum",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 872,
-  "PrefDescId": 589,
-  "TableName": "Miller-Dare",
-  "UserPreferenceId": 944,
+  "TargetId": 407,
+  "PrefDescId": 840,
+  "TableName": "Parker, Kuhic and Doyle",
+  "UserPreferenceId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 838
     }
   }
 }

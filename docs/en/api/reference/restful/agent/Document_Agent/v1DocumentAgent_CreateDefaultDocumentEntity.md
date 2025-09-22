@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 74,
+  "DocumentId": 60,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "non",
-  "Name": "Pfeffer-Grant",
-  "OurRef": "quisquam",
-  "YourRef": "qui",
-  "CreatedDate": "2010-05-07T03:46:54.6288867+02:00",
-  "UpdatedDate": "1999-11-11T03:46:54.6288867+01:00",
-  "Description": "Multi-channelled foreground emulation",
+  "Attention": "voluptatem",
+  "Header": "necessitatibus",
+  "Name": "Kuvalis Inc and Sons",
+  "OurRef": "dignissimos",
+  "YourRef": "voluptas",
+  "CreatedDate": "1998-08-13T11:24:47.9532883+02:00",
+  "UpdatedDate": "2017-04-01T11:24:47.9532883+02:00",
+  "Description": "Visionary logistical productivity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-10-23T03:46:54.6445112+02:00",
-  "ExternalRef": "culpa",
+  "Date": "2001-03-07T11:24:47.9532883+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 443,
+  "ActiveLinks": 777,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pacocha Group",
-      "Id": 230,
-      "Description": "Versatile assymetric parallelism",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 650,
+      "EntityName": "Pfannerstill LLC",
+      "Id": 339,
+      "Description": "Organic optimal methodology",
+      "ExtraInfo": "dolorum",
+      "LinkId": 968,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldLength": 963
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 375,
-  "Snum": 902,
+  "SuggestedDocumentId": 536,
+  "Snum": 499,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hershel Hand",
-    "SuperOffice:2": "Duane Bernier"
+    "SuperOffice:1": "Ramona Rogahn",
+    "SuperOffice:2": "1209808885"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "architecto"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "aliquam"
   },
-  "PublishEventDate": "2019-01-25T03:46:54.6445112+01:00",
-  "PublishTo": "2013-03-31T03:46:54.6445112+02:00",
-  "PublishFrom": "2004-03-15T03:46:54.6445112+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2024-12-22T11:24:47.9532883+01:00",
+  "PublishTo": "2007-06-23T11:24:47.9532883+02:00",
+  "PublishFrom": "2021-12-07T11:24:47.9532883+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 782,
+      "VisibleId": 848,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     },
     {
-      "VisibleId": 782,
+      "VisibleId": 848,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldLength": 52
     }
   }
 }

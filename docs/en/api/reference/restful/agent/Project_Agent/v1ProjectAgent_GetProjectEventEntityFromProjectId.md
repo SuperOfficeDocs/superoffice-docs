@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 266
+  "ProjectId": 623
 }
 ```
 
@@ -118,94 +118,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quaerat",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quis",
-  "SignOnText": "fuga",
-  "EventDate": "2024-02-29T03:46:55.1757421+01:00",
+  "SignOffConfirmationText": "maxime",
+  "SignOffText": "esse",
+  "SignOnConfirmationText": "et",
+  "SignOnText": "quos",
+  "EventDate": "2016-04-20T11:24:48.4845166+02:00",
   "Enabled": false,
-  "CreatedDate": "2015-03-31T03:46:55.1757421+02:00",
+  "CreatedDate": "2025-09-14T11:24:48.4845166+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 328,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 73,
   "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 412,
+  "SignOnTaskId": 559,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2021-03-18T03:46:55.1757421+01:00",
+  "UpdatedDate": "2015-02-14T11:24:48.4845166+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 742,
-  "Id": 581,
-  "PublishFrom": "2008-09-26T03:46:55.1757421+02:00",
+  "ProjectId": 926,
+  "Id": 859,
+  "PublishFrom": "2019-10-16T11:24:48.4845166+02:00",
   "PublishType": "External",
-  "PublishTo": "2012-09-17T03:46:55.1757421+02:00",
+  "PublishTo": "2006-01-04T11:24:48.4845166+01:00",
   "VisibleForCategories": [
     {
-      "Id": 915,
-      "Name": "Williamson Group",
-      "ToolTip": "Eius dolorum libero.",
-      "Deleted": true,
-      "Rank": 86,
-      "Type": "dolores",
+      "Id": 398,
+      "Name": "Satterfield, Herzog and Dickens",
+      "ToolTip": "Id eligendi voluptas sunt expedita quam.",
+      "Deleted": false,
+      "Rank": 970,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 695,
-      "ExtraInfo": "expedita",
-      "StyleHint": "magni",
-      "FullName": "Anastasia Gutmann",
+      "IconHint": "dolorum",
+      "ColorBlock": 123,
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "ex",
+      "FullName": "Rupert Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldType": "System.Int32",
+          "FieldLength": 752
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 521,
-      "Name": "Kihn, Roberts and Labadie",
-      "ToolTip": "Fugiat qui.",
-      "Deleted": true,
-      "Rank": 70,
-      "Type": "natus",
+      "Id": 593,
+      "Name": "Kling-Schumm",
+      "ToolTip": "Corrupti qui libero commodi dicta fugit voluptate.",
+      "Deleted": false,
+      "Rank": 170,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 574,
-      "ExtraInfo": "nihil",
-      "StyleHint": "et",
-      "FullName": "Miss Darren Cummerata Sr.",
+      "IconHint": "hic",
+      "ColorBlock": 447,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "nisi",
+      "FullName": "Angelica Rowe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 961,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 98
     }
   }
 }

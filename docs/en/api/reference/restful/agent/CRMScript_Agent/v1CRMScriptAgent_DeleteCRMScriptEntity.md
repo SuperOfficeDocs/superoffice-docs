@@ -28,7 +28,7 @@ Deletes the CRMScriptEntity
 | cRMScriptEntityId | int32 | **Required** The identity of the CRMScriptEntity |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=469
+POST /api/v1/Agents/CRMScript/DeleteCRMScriptEntity?cRMScriptEntityId=448
 ```
 
 

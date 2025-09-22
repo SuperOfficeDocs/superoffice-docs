@@ -106,51 +106,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 24,
-  "Name": "Roob Group",
-  "Tooltip": "quia",
-  "Rank": 390,
+  "SaleTypeId": 379,
+  "Name": "Stanton Group",
+  "Tooltip": "veniam",
+  "Rank": 267,
   "DurationUnit": "Century",
-  "SaleDuration": 181,
-  "SaleTypeCatId": 232,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 606,
+  "SaleTypeCatId": 281,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 500,
-  "QuoteLinesTemplate": 45,
-  "ConfirmationLinesTemplate": 23,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 664,
-  "MinEarningPercent": 674,
-  "GroupQuoteLinesBy": 236,
-  "SortGroupLinesBy": 552,
+  "DefaultQuoteValidity": 548,
+  "QuoteLinesTemplate": 756,
+  "ConfirmationLinesTemplate": 251,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 109,
+  "MinEarningPercent": 788,
+  "GroupQuoteLinesBy": 587,
+  "SortGroupLinesBy": 489,
   "Stages": [
     {
-      "Id": 741,
-      "Name": "Streich-Grimes",
-      "ToolTip": "Perferendis quia est officiis dicta eos eligendi labore.",
+      "Id": 130,
+      "Name": "Bartoletti-Sporer",
+      "ToolTip": "Recusandae iste qui aperiam.",
       "Deleted": true,
-      "Rank": 7,
-      "Type": "natus",
-      "ColorBlock": 70,
-      "IconHint": "soluta",
+      "Rank": 287,
+      "Type": "aspernatur",
+      "ColorBlock": 869,
+      "IconHint": "velit",
       "Selected": false,
-      "LastChanged": "2010-03-20T03:46:54.9413809+01:00",
+      "LastChanged": "2010-07-02T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "id",
+      "StyleHint": "voluptas",
       "Hidden": false,
-      "FullName": "Kathryn Tillman PhD"
+      "FullName": "Rosalia O'Keefe DVM"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 239,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "tempore",
-  "Rank": 145,
+  "SaleTypeId": 936,
+  "Name": "Graham LLC",
+  "Tooltip": "commodi",
+  "Rank": 90,
   "DurationUnit": "Century",
-  "SaleDuration": 498,
-  "SaleTypeCatId": 859,
-  "Deleted": true,
+  "SaleDuration": 750,
+  "SaleTypeCatId": 408,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 4,
-  "QuoteLinesTemplate": 909,
-  "ConfirmationLinesTemplate": 121,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 397,
+  "QuoteLinesTemplate": 268,
+  "ConfirmationLinesTemplate": 770,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 59,
-  "MinEarningPercent": 751,
-  "GroupQuoteLinesBy": 71,
-  "SortGroupLinesBy": 730,
+  "MaxDiscountPercent": 731,
+  "MinEarningPercent": 907,
+  "GroupQuoteLinesBy": 67,
+  "SortGroupLinesBy": 5,
   "Stages": [
     {
-      "Id": 499,
-      "Name": "Runte, Bogisich and Rodriguez",
-      "ToolTip": "Perspiciatis rerum earum reiciendis voluptatum voluptatibus eos.",
-      "Deleted": true,
-      "Rank": 803,
-      "Type": "occaecati",
-      "ColorBlock": 531,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2019-11-08T03:46:54.9413809+01:00",
+      "Id": 296,
+      "Name": "Gutkowski, Gerlach and Koelpin",
+      "ToolTip": "Et dolor iusto dolorum.",
+      "Deleted": false,
+      "Rank": 520,
+      "Type": "odit",
+      "ColorBlock": 647,
+      "IconHint": "officia",
+      "Selected": false,
+      "LastChanged": "2019-09-06T11:24:48.2032781+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "doloremque",
+      "ExtraInfo": "soluta",
+      "StyleHint": "ratione",
       "Hidden": false,
-      "FullName": "Jarrett Leannon",
+      "FullName": "Dr. Steve Konopelski I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 849
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 615
     }
   }
 }

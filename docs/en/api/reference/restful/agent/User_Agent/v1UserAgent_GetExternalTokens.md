@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "blanditiis"
+  "Key": "saepe"
 }
 ```
 
@@ -93,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "fugiat",
-  "AccessToken": "officiis",
-  "RefreshToken": "inventore",
+  "Provider": "ipsum",
+  "AccessToken": "nihil",
+  "RefreshToken": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 15
     }
   }
 }

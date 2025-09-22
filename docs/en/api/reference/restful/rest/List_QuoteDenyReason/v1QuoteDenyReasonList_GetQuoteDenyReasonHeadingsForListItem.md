@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Koss-Grady",
-    "ToolTip": "Recusandae quidem qui voluptatibus et impedit sed quam.",
-    "Deleted": true,
-    "Rank": 463,
-    "Type": "fugit",
-    "ColorBlock": 792,
-    "IconHint": "ad",
+    "Id": 592,
+    "Name": "Connelly LLC",
+    "ToolTip": "Magni est sit odio mollitia molestias voluptatem.",
+    "Deleted": false,
+    "Rank": 273,
+    "Type": "enim",
+    "ColorBlock": 639,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2024-04-17T03:47:00.7692942+02:00",
+    "LastChanged": "2018-01-12T11:24:54.0936627+01:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Bednar, Schamberger and Wilkinson",
-        "ToolTip": "Et sunt ut accusantium impedit.",
-        "Deleted": false,
-        "Rank": 856,
-        "Type": "omnis",
-        "ColorBlock": 204,
-        "IconHint": "voluptatibus",
+        "Id": 307,
+        "Name": "Kunze-Jenkins",
+        "ToolTip": "Voluptatem blanditiis quibusdam numquam aut atque eos est.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "sequi",
+        "ColorBlock": 849,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2011-03-09T03:47:00.7692942+01:00",
+        "LastChanged": "2002-12-09T11:24:54.0936627+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "placeat",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Damion Reichert",
+        "FullName": "Miss Arely Kirlin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Mrs. Murray Ally Conroy",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Stephanie King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

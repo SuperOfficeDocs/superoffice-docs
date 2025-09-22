@@ -5,7 +5,7 @@ items:
   id: UdefPublishHelper
   parent: SuperOffice.Data
   children:
-  - SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper})
+  - SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper},SuperOffice.Util.IWebAppUsageRecorder)
   - SuperOffice.Data.UdefPublishHelper.ClearCachesAfterPublish
   - SuperOffice.Data.UdefPublishHelper.DetectChangesInPageOneFields(System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Collections.Generic.List{SuperOffice.Data.PageOneFieldInfo},System.Int32)
   - SuperOffice.Data.UdefPublishHelper.DetectColumnIdChangesAsync(SuperOffice.Data.UDefType)
@@ -44,22 +44,22 @@ items:
   extensionMethods:
   - SuperOffice.Data.UdefPublishHelper.EnumUtil.MapEnums``2
   - SuperOffice.Data.UdefPublishHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper})
-  commentId: M:SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper})
-  id: '#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper})'
+- uid: SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper},SuperOffice.Util.IWebAppUsageRecorder)
+  commentId: M:SuperOffice.Data.UdefPublishHelper.#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper},SuperOffice.Util.IWebAppUsageRecorder)
+  id: '#ctor(SuperOffice.Data.IUdefHelper,SuperOffice.Data.ISystemEventHelper,Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper},SuperOffice.Util.IWebAppUsageRecorder)'
   parent: SuperOffice.Data.UdefPublishHelper
   langs:
   - csharp
   - vb
-  name: UdefPublishHelper(IUdefHelper, ISystemEventHelper, ILogger<UdefPublishHelper>)
-  nameWithType: UdefPublishHelper.UdefPublishHelper(IUdefHelper, ISystemEventHelper, ILogger<UdefPublishHelper>)
-  fullName: SuperOffice.Data.UdefPublishHelper.UdefPublishHelper(SuperOffice.Data.IUdefHelper, SuperOffice.Data.ISystemEventHelper, Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.UdefPublishHelper>)
+  name: UdefPublishHelper(IUdefHelper, ISystemEventHelper, ILogger<UdefPublishHelper>, IWebAppUsageRecorder)
+  nameWithType: UdefPublishHelper.UdefPublishHelper(IUdefHelper, ISystemEventHelper, ILogger<UdefPublishHelper>, IWebAppUsageRecorder)
+  fullName: SuperOffice.Data.UdefPublishHelper.UdefPublishHelper(SuperOffice.Data.IUdefHelper, SuperOffice.Data.ISystemEventHelper, Microsoft.Extensions.Logging.ILogger<SuperOffice.Data.UdefPublishHelper>, SuperOffice.Util.IWebAppUsageRecorder)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Data
   syntax:
-    content: public UdefPublishHelper(IUdefHelper udefHelper, ISystemEventHelper systemEventHelper, ILogger<UdefPublishHelper> logger)
+    content: public UdefPublishHelper(IUdefHelper udefHelper, ISystemEventHelper systemEventHelper, ILogger<UdefPublishHelper> logger, IWebAppUsageRecorder usageRecorder)
     parameters:
     - id: udefHelper
       type: SuperOffice.Data.IUdefHelper
@@ -67,11 +67,13 @@ items:
       type: SuperOffice.Data.ISystemEventHelper
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Data.UdefPublishHelper}
-    content.vb: Public Sub New(udefHelper As IUdefHelper, systemEventHelper As ISystemEventHelper, logger As ILogger(Of UdefPublishHelper))
+    - id: usageRecorder
+      type: SuperOffice.Util.IWebAppUsageRecorder
+    content.vb: Public Sub New(udefHelper As IUdefHelper, systemEventHelper As ISystemEventHelper, logger As ILogger(Of UdefPublishHelper), usageRecorder As IWebAppUsageRecorder)
   overload: SuperOffice.Data.UdefPublishHelper.#ctor*
-  nameWithType.vb: UdefPublishHelper.New(IUdefHelper, ISystemEventHelper, ILogger(Of UdefPublishHelper))
-  fullName.vb: SuperOffice.Data.UdefPublishHelper.New(SuperOffice.Data.IUdefHelper, SuperOffice.Data.ISystemEventHelper, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.UdefPublishHelper))
-  name.vb: New(IUdefHelper, ISystemEventHelper, ILogger(Of UdefPublishHelper))
+  nameWithType.vb: UdefPublishHelper.New(IUdefHelper, ISystemEventHelper, ILogger(Of UdefPublishHelper), IWebAppUsageRecorder)
+  fullName.vb: SuperOffice.Data.UdefPublishHelper.New(SuperOffice.Data.IUdefHelper, SuperOffice.Data.ISystemEventHelper, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Data.UdefPublishHelper), SuperOffice.Util.IWebAppUsageRecorder)
+  name.vb: New(IUdefHelper, ISystemEventHelper, ILogger(Of UdefPublishHelper), IWebAppUsageRecorder)
 - uid: SuperOffice.Data.UdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.Data.UdefPublishHelper.RevertAsync(SuperOffice.Data.UDefType)
   id: RevertAsync(SuperOffice.Data.UDefType)
@@ -821,7 +823,7 @@ references:
 - uid: SuperOffice.Data.UdefPublishHelper.#ctor*
   commentId: Overload:SuperOffice.Data.UdefPublishHelper.#ctor
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.html#SuperOffice_Data_UdefPublishHelper__ctor_SuperOffice_Data_IUdefHelper_SuperOffice_Data_ISystemEventHelper_Microsoft_Extensions_Logging_ILogger_SuperOffice_Data_UdefPublishHelper__
+  href: SuperOffice.Data.UdefPublishHelper.html#SuperOffice_Data_UdefPublishHelper__ctor_SuperOffice_Data_IUdefHelper_SuperOffice_Data_ISystemEventHelper_Microsoft_Extensions_Logging_ILogger_SuperOffice_Data_UdefPublishHelper__SuperOffice_Util_IWebAppUsageRecorder_
   name: UdefPublishHelper
   nameWithType: UdefPublishHelper.UdefPublishHelper
   fullName: SuperOffice.Data.UdefPublishHelper.UdefPublishHelper
@@ -879,6 +881,14 @@ references:
     isExternal: true
     href: SuperOffice.Data.UdefPublishHelper.html
   - name: )
+- uid: SuperOffice.Util.IWebAppUsageRecorder
+  commentId: T:SuperOffice.Util.IWebAppUsageRecorder
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.IWebAppUsageRecorder.html
+  name: IWebAppUsageRecorder
+  nameWithType: IWebAppUsageRecorder
+  fullName: SuperOffice.Util.IWebAppUsageRecorder
 - uid: Microsoft.Extensions.Logging.ILogger`1
   commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
@@ -944,6 +954,33 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: SuperOffice.Data.UdefPublishHelper.RevertAsync*
   commentId: Overload:SuperOffice.Data.UdefPublishHelper.RevertAsync
   isExternal: true

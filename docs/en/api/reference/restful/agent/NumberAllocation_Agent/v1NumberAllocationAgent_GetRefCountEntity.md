@@ -27,7 +27,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=129
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=3
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,39 +88,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 636,
-  "Field": "dolorem",
-  "RecordId": 864,
+  "RefCountsId": 822,
+  "Field": "sint",
+  "RecordId": 151,
   "SuggestedRecords": [
     {
-      "Id": 144,
-      "Name": "Von, Fisher and Stokes",
-      "ToolTip": "Dolor laboriosam aut.",
-      "Deleted": true,
-      "Rank": 675,
-      "Type": "aliquid",
+      "Id": 271,
+      "Name": "Nitzsche-Cummings",
+      "ToolTip": "Odit ex.",
+      "Deleted": false,
+      "Rank": 823,
+      "Type": "omnis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 781,
-      "ExtraInfo": "vitae",
-      "StyleHint": "eligendi",
-      "FullName": "Tia Crooks",
+      "IconHint": "molestiae",
+      "ColorBlock": 807,
+      "ExtraInfo": "quis",
+      "StyleHint": "quia",
+      "FullName": "Dr. Evans Mike Stehr Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 502
         }
       }
     }
   ],
-  "CurrentValue": 938,
-  "TravelPrefix": 535,
-  "SatPrefix": 565,
+  "CurrentValue": 361,
+  "TravelPrefix": 996,
+  "SatPrefix": 205,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldType": "System.Int32",
+      "FieldLength": 788
     }
   }
 }

@@ -88,10 +88,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quis",
-    "cupiditate"
+    "quia",
+    "voluptate"
   ],
-  "CurrentClientTime": "2020-09-18T03:46:55.1288689+02:00"
+  "CurrentClientTime": "2022-12-31T11:24:48.4532678+01:00"
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "eum",
-    "et"
+    "dolor",
+    "consectetur"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 820,
-  "NotificationsCount": 620,
+  "OverdueSalesCount": 975,
+  "NotificationsCount": 700,
   "SystemWebPanels": [
     {
-      "WebPanelId": 720,
-      "Name": "Gottlieb-Farrell",
-      "Tooltip": "illum",
+      "WebPanelId": 618,
+      "Name": "Kemmer, Ratke and Kiehn",
+      "Tooltip": "impedit",
       "Deleted": false,
-      "Rank": 300,
+      "Rank": 1002,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
@@ -124,22 +124,22 @@ Content-Type: application/json; charset=utf-8
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
+      "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": true,
-      "WindowName": "Denesik, Barrows and Hessel",
+      "WindowName": "Romaguera, Jones and Haag",
       "Url": "http://www.example.com/",
-      "ProgId": "eius",
-      "Icon": 752,
-      "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": true,
+      "ProgId": "totam",
+      "Icon": 340,
+      "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 250
         }
       }
     }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "totam",
+      "RawValue": "aperiam",
       "Specification": null,
-      "DisplayValue": "hic",
-      "DisplayTooltip": "explicabo",
+      "DisplayValue": "ex",
+      "DisplayTooltip": "hic",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 754,
-      "PrefDescId": 751,
-      "TableName": "Harvey-Luettgen",
-      "UserPreferenceId": 993,
+      "TargetId": 6,
+      "PrefDescId": 372,
+      "TableName": "Padberg Inc and Sons",
+      "UserPreferenceId": 483,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 113
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "quis",
+  "CustomData": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 410
     }
   }
 }

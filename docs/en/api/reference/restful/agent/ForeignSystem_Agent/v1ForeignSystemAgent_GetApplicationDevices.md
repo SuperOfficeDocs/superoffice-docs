@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Boehm, Daniel and Witting"
+  "ApplicationName": "Koss-Nitzsche"
 }
 ```
 
@@ -98,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 706,
-    "Name": "Thompson-Kuhn",
-    "CreatedDate": "2014-05-22T03:46:54.847629+02:00",
-    "UpdatedDate": "2009-07-22T03:46:54.847629+02:00",
-    "AssociateFullName": "Miss Jonathon Declan Kunze",
-    "CreatedBy": "qui",
-    "UpdatedBy": "sit",
-    "DeviceIdentifier": "eligendi",
-    "ForeignAppId": 879,
+    "ForeignDeviceId": 622,
+    "Name": "Turner-Mann",
+    "CreatedDate": "2022-02-20T11:24:48.1564051+01:00",
+    "UpdatedDate": "1999-01-02T11:24:48.1564051+01:00",
+    "AssociateFullName": "Lexus Windler",
+    "CreatedBy": "ut",
+    "UpdatedBy": "accusantium",
+    "DeviceIdentifier": "vero",
+    "ForeignAppId": 517,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 716
       }
     }
   }

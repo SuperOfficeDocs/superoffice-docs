@@ -27,7 +27,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=788
+POST /api/v1/Agents/List/GetCountry?countryId=819
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 13,
-  "Name": "Rohan LLC",
-  "CurrencyId": 24,
-  "EnglishName": "Rohan, Upton and Johns",
+  "CountryId": 930,
+  "Name": "McDermott, Mohr and Collins",
+  "CurrencyId": 83,
+  "EnglishName": "Huels Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved demand-driven product",
-  "OrgNrText": "1188870",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "fugiat",
-  "ZipPrefix": "voluptates",
-  "DomainName": "Rippin-Spencer",
-  "AddressLayoutId": 276,
-  "DomesticAddressLayoutId": 986,
-  "ForeignAddressLayoutId": 135,
-  "Rank": 179,
-  "Tooltip": "voluptas",
-  "Deleted": false,
+  "ImageDescription": "Advanced dynamic portal",
+  "OrgNrText": "493193",
+  "InterAreaPrefix": "reiciendis",
+  "DialInPrefix": "delectus",
+  "ZipPrefix": "magnam",
+  "DomainName": "Stiedemann Inc and Sons",
+  "AddressLayoutId": 687,
+  "DomesticAddressLayoutId": 222,
+  "ForeignAddressLayoutId": 767,
+  "Rank": 626,
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 48
     }
   }
 }

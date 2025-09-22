@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,25 +81,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 163,
-    "Name": "Keebler Inc and Sons",
-    "ConsentText": "praesentium",
-    "FormText": "pariatur",
-    "Key": "dicta",
-    "Tooltip": "vel",
-    "Active": 73,
-    "UpdatedDate": "2002-12-08T03:47:00.5974251+01:00",
+    "ConsentPurposeId": 13,
+    "Name": "Ortiz Group",
+    "ConsentText": "dolorem",
+    "FormText": "eveniet",
+    "Key": "dolore",
+    "Tooltip": "modi",
+    "Active": 444,
+    "UpdatedDate": "2018-10-17T11:24:53.8749217+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 313,
-    "PrivacyStatementDesc": "aut",
+    "Deleted": true,
+    "Rank": 361,
+    "PrivacyStatementDesc": "quia",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 847
       }
     }
   }

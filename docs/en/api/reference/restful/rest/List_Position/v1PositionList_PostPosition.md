@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Kovacek-Gottlieb",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 934
+  "Id": 69,
+  "Name": "Hilll-Kub",
+  "Tooltip": "in",
+  "Deleted": true,
+  "UdListDefinitionId": 723,
+  "Rank": 313
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Name": "Marquardt, Rohan and Nader",
-  "Tooltip": "voluptatum",
+  "Id": 980,
+  "Name": "Littel Inc and Sons",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 988,
-  "Rank": 78,
+  "UdListDefinitionId": 280,
+  "Rank": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 250
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Stehr LLC",
-  "Tooltip": "et",
+  "Id": 471,
+  "Name": "Stokes, Parker and Reilly",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 129,
-  "Rank": 138,
+  "UdListDefinitionId": 808,
+  "Rank": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

@@ -17,6 +17,7 @@ items:
   - SuperOffice.Security.Principal.IUserInfoService.GetGroupId(System.Int32)
   - SuperOffice.Security.Principal.IUserInfoService.GetHomeCountryId(System.Int32)
   - SuperOffice.Security.Principal.IUserInfoService.GetIsPerson(System.Int32)
+  - SuperOffice.Security.Principal.IUserInfoService.GetLicenses(System.Int32)
   - SuperOffice.Security.Principal.IUserInfoService.GetPersonId(System.Int32)
   - SuperOffice.Security.Principal.IUserInfoService.GetRoleDescription(System.Int32)
   - SuperOffice.Security.Principal.IUserInfoService.GetRoleId(System.Int32)
@@ -572,6 +573,34 @@ items:
   nameWithType.vb: IUserInfoService.GetSecondaryGroups(Integer)
   fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetSecondaryGroups(Integer)
   name.vb: GetSecondaryGroups(Integer)
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetLicenses(System.Int32)
+  commentId: M:SuperOffice.Security.Principal.IUserInfoService.GetLicenses(System.Int32)
+  id: GetLicenses(System.Int32)
+  parent: SuperOffice.Security.Principal.IUserInfoService
+  langs:
+  - csharp
+  - vb
+  name: GetLicenses(int)
+  nameWithType: IUserInfoService.GetLicenses(int)
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetLicenses(int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Principal
+  summary: Returns a set of licenses the user has been granted on the form of "module.license".
+  example: []
+  syntax:
+    content: HashSet<string> GetLicenses(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.HashSet{System.String}
+    content.vb: Function GetLicenses(associateId As Integer) As HashSet(Of String)
+  overload: SuperOffice.Security.Principal.IUserInfoService.GetLicenses*
+  nameWithType.vb: IUserInfoService.GetLicenses(Integer)
+  fullName.vb: SuperOffice.Security.Principal.IUserInfoService.GetLicenses(Integer)
+  name.vb: GetLicenses(Integer)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -1186,3 +1215,110 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
+- uid: SuperOffice.Security.Principal.IUserInfoService.GetLicenses*
+  commentId: Overload:SuperOffice.Security.Principal.IUserInfoService.GetLicenses
+  isExternal: true
+  href: SuperOffice.Security.Principal.IUserInfoService.html#SuperOffice_Security_Principal_IUserInfoService_GetLicenses_System_Int32_
+  name: GetLicenses
+  nameWithType: IUserInfoService.GetLicenses
+  fullName: SuperOffice.Security.Principal.IUserInfoService.GetLicenses
+- uid: System.Collections.Generic.HashSet{System.String}
+  commentId: T:System.Collections.Generic.HashSet{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<string>
+  nameWithType: HashSet<string>
+  fullName: System.Collections.Generic.HashSet<string>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

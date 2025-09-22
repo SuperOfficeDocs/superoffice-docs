@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 38,
+  "PersonId": 574,
   "IncludeProjectDocuments": true,
-  "StartTime": "2002-07-03T03:46:54.707009+02:00",
-  "EndTime": "2015-10-04T03:46:54.707009+02:00",
-  "Count": 988
+  "StartTime": "2009-12-11T11:24:48.03141+01:00",
+  "EndTime": "2004-08-10T11:24:48.03141+02:00",
+  "Count": 983
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 701,
-    "Attention": "eveniet",
-    "Header": "non",
-    "Name": "Goyette-Klocko",
-    "OurRef": "repudiandae",
-    "YourRef": "quis",
-    "Description": "Virtual didactic matrices",
-    "DocumentTemplate": "voluptates",
-    "IsPublished": true,
-    "PersonId": 693,
-    "PersonFullName": "Mrs. Abbigail Cecelia Hickle I",
-    "AssociateFullName": "Waino Dach",
-    "ContactId": 545,
-    "ContactName": "Greenfelder-Kiehn",
-    "ProjectId": 330,
-    "ProjectName": "Lebsack-Feest",
-    "AssociateId": 404,
-    "Snum": 566,
-    "SaleId": 244,
-    "SaleName": "Bogan, Luettgen and Rosenbaum",
+    "DocumentId": 24,
+    "Attention": "nesciunt",
+    "Header": "harum",
+    "Name": "Kemmer Group",
+    "OurRef": "et",
+    "YourRef": "deserunt",
+    "Description": "Cross-platform explicit analyzer",
+    "DocumentTemplate": "id",
+    "IsPublished": false,
+    "PersonId": 202,
+    "PersonFullName": "Mr. Kieran Buckridge MD",
+    "AssociateFullName": "Flossie Webster Daniel Sr.",
+    "ContactId": 94,
+    "ContactName": "Homenick-Murphy",
+    "ProjectId": 393,
+    "ProjectName": "Kihn Inc and Sons",
+    "AssociateId": 747,
+    "Snum": 510,
+    "SaleId": 304,
+    "SaleName": "Kling LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 288
       }
     }
   }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 17,
-  "SelectionId": 835,
+  "DocumentPluginId": 97,
+  "SelectionId": 122,
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 503,
-  "NumDocumentsAlreadyMigrated": 103,
+  "NumDocumentsOmitted": 31,
+  "NumDocumentsAlreadyMigrated": 325,
   "Documents": [
     {
-      "DocumentId": 395,
-      "ContactId": 398,
-      "PersonId": 827,
-      "SaleId": 59,
-      "ProjectId": 423,
-      "DocTmplId": 166,
-      "AssociateId": 358,
-      "UserGroupId": 354,
-      "VisibleForId": 439
+      "DocumentId": 830,
+      "ContactId": 696,
+      "PersonId": 561,
+      "SaleId": 585,
+      "ProjectId": 227,
+      "DocTmplId": 430,
+      "AssociateId": 18,
+      "UserGroupId": 507,
+      "VisibleForId": 412
     }
   ],
   "Associates": [
     {
-      "AssociateId": 490,
-      "EmailAddress": "cordelia@bernierhalvorson.ca"
+      "AssociateId": 3,
+      "EmailAddress": "deborah@wiza.us"
     },
     {
-      "AssociateId": 490,
-      "EmailAddress": "cordelia@bernierhalvorson.ca"
+      "AssociateId": 3,
+      "EmailAddress": "deborah@wiza.us"
     }
   ]
 }

@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -117,60 +117,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 735,
-    "Name": "Padberg, O'Conner and Bosco",
+    "TicketPriorityId": 367,
+    "Name": "Herzog Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 843,
+    "SortOrder": 573,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 286,
-    "MonStart": "2022-07-29T03:46:54.9257675+02:00",
-    "MonStop": "2000-09-05T03:46:54.9257675+02:00",
-    "TueStart": "2005-04-21T03:46:54.9257675+02:00",
-    "TueStop": "2013-12-27T03:46:54.9257675+01:00",
-    "WedStart": "2017-05-01T03:46:54.9257675+02:00",
-    "WedStop": "2006-11-07T03:46:54.9257675+01:00",
-    "ThuStart": "2002-12-26T03:46:54.9257675+01:00",
-    "ThuStop": "1999-05-17T03:46:54.9257675+02:00",
-    "FriStart": "1998-08-27T03:46:54.9257675+02:00",
-    "FriStop": "2006-12-17T03:46:54.9257675+01:00",
-    "SatStart": "2013-03-31T03:46:54.9257675+02:00",
-    "SatStop": "2023-10-11T03:46:54.9257675+02:00",
-    "SunStart": "2002-07-20T03:46:54.9257675+02:00",
-    "SunStop": "2009-01-24T03:46:54.9257675+01:00",
+    "Deadline": 737,
+    "MonStart": "2013-11-14T11:24:48.1876539+01:00",
+    "MonStop": "2019-09-06T11:24:48.1876539+02:00",
+    "TueStart": "2012-06-29T11:24:48.1876539+02:00",
+    "TueStop": "2015-10-22T11:24:48.1876539+02:00",
+    "WedStart": "2002-10-08T11:24:48.1876539+02:00",
+    "WedStop": "2020-04-06T11:24:48.1876539+02:00",
+    "ThuStart": "2008-10-23T11:24:48.1876539+02:00",
+    "ThuStop": "2017-04-13T11:24:48.1876539+02:00",
+    "FriStart": "2007-11-18T11:24:48.1876539+01:00",
+    "FriStop": "2008-07-16T11:24:48.1876539+02:00",
+    "SatStart": "2020-04-12T11:24:48.1876539+02:00",
+    "SatStop": "2016-11-24T11:24:48.1876539+01:00",
+    "SunStart": "2007-09-25T11:24:48.1876539+02:00",
+    "SunStop": "2018-12-24T11:24:48.1876539+01:00",
     "NonDates": [
-      "eum",
-      "nemo"
+      "laboriosam",
+      "sed"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 788,
-        "AlertLevel": 264,
-        "AlertTimeout": 578,
-        "Action": 870,
-        "DelegateTo": 332,
-        "ScriptId": 261,
-        "EmailTo": "ottis_senger@buckridge.uk",
-        "SmsTo": "ipsam",
-        "ReplyTemplateIdCustomer": 847,
-        "ReplyTemplateIdUser": 949,
-        "ReplyTemplateIdCatmast": 761,
-        "ReplyTemplateIdEmail": 38,
-        "RtiCustomerSms": 903,
-        "ReplyTemplateIdUserSms": 600,
-        "ReplyTemplateIdCatmastSms": 758,
-        "ReplyTemplateIdSms": 434,
+        "TicketAlertId": 159,
+        "AlertLevel": 159,
+        "AlertTimeout": 280,
+        "Action": 717,
+        "DelegateTo": 269,
+        "ScriptId": 771,
+        "EmailTo": "clare@cummerataemard.info",
+        "SmsTo": "recusandae",
+        "ReplyTemplateIdCustomer": 992,
+        "ReplyTemplateIdUser": 606,
+        "ReplyTemplateIdCatmast": 111,
+        "ReplyTemplateIdEmail": 546,
+        "RtiCustomerSms": 580,
+        "ReplyTemplateIdUserSms": 342,
+        "ReplyTemplateIdCatmastSms": 563,
+        "ReplyTemplateIdSms": 997,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 351
+            "FieldLength": 757
           }
         }
       }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 565
       }
     }
   }

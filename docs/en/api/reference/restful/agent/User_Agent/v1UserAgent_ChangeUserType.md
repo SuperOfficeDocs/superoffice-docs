@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 71,
-  "Name": "Emmerich, Brakus and Wolf",
-  "Rank": 688,
-  "Tooltip": "culpa",
+  "AssociateId": 477,
+  "Name": "Weber-Pollich",
+  "Rank": 232,
+  "Tooltip": "ipsum",
   "LicenseOwners": [
     {
-      "Name": "Schoen-Fay",
-      "Description": "Enhanced methodical data-warehouse",
+      "Name": "Brakus-Windler",
+      "Description": "Managed dynamic capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     },
     {
-      "Name": "Schoen-Fay",
-      "Description": "Enhanced methodical data-warehouse",
+      "Name": "Brakus-Windler",
+      "Description": "Managed dynamic capability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "enim",
-      "Tooltip": "hic",
-      "Id": 378,
-      "Rank": 934,
+      "Value": "similique",
+      "Tooltip": "earum",
+      "Id": 249,
+      "Rank": 991,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 199
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-12-08T03:46:55.5663534+01:00",
-  "Lastlogout": "2014-12-09T03:46:55.5663534+01:00",
-  "EjUserId": 410,
-  "RequestSignature": "quis",
+  "Lastlogin": "2022-04-08T11:24:48.8751256+02:00",
+  "Lastlogout": "2009-11-17T11:24:48.8751256+01:00",
+  "EjUserId": 403,
+  "RequestSignature": "suscipit",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "placeat",
-      "DisplayValue": "id",
+      "Value": "commodi",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 480
+          "FieldLength": 540
         }
       }
     },
     {
       "Type": null,
-      "Value": "placeat",
-      "DisplayValue": "id",
+      "Value": "commodi",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 480
+          "FieldLength": 540
         }
       }
     }
   ],
-  "UserName": "Jacobs, Toy and Grant",
+  "UserName": "Waelchi, Robel and Nitzsche",
   "TicketCategories": [
     {
-      "Id": 501,
-      "Name": "Wyman-Lesch",
-      "ToolTip": "Ducimus et architecto a.",
+      "Id": 379,
+      "Name": "Kovacek-Trantow",
+      "ToolTip": "Eveniet cum id possimus eum in sit itaque.",
       "Deleted": false,
-      "Rank": 828,
-      "Type": "enim",
+      "Rank": 444,
+      "Type": "velit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "distinctio",
-      "ColorBlock": 340,
-      "ExtraInfo": "autem",
-      "StyleHint": "autem",
-      "FullName": "Annetta Runolfsdottir",
+      "IconHint": "quia",
+      "ColorBlock": 107,
+      "ExtraInfo": "commodi",
+      "StyleHint": "quia",
+      "FullName": "Amy Schneider",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 619
         }
       }
     }
   ],
-  "NickName": "Roberts LLC",
+  "NickName": "Hilll Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "doloribus"
   },
   "PostSaveCommands": [
     {
-      "Name": "King Group",
-      "DisplayName": "Sawayn Inc and Sons",
-      "Description": "Automated holistic knowledge user",
-      "ToolTip": "Similique et voluptas non laudantium omnis ea libero.",
+      "Name": "Pfannerstill Inc and Sons",
+      "DisplayName": "Roberts, Osinski and Turcotte",
+      "Description": "Grass-roots hybrid archive",
+      "ToolTip": "Aliquam dicta eos culpa.",
       "Actions": "Implicit",
-      "ActionData": "deserunt",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 164
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Upton Group",
-    "ToolTip": "Sed fuga iure corporis.",
+    "Id": 120,
+    "Name": "Mayer, Cremin and Flatley",
+    "ToolTip": "Voluptas dignissimos qui eum.",
     "Deleted": false,
-    "Rank": 925,
-    "Type": "delectus",
-    "ColorBlock": 18,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2001-12-25T03:47:00.7224209+01:00",
+    "Rank": 851,
+    "Type": "sint",
+    "ColorBlock": 610,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2001-12-16T11:24:53.9999166+01:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Yundt-Runolfsson",
-        "ToolTip": "Suscipit temporibus accusantium est ut.",
+        "Id": 280,
+        "Name": "Von-Marvin",
+        "ToolTip": "Blanditiis nesciunt.",
         "Deleted": false,
-        "Rank": 818,
-        "Type": "a",
-        "ColorBlock": 283,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2016-07-31T03:47:00.7224209+02:00",
+        "Rank": 671,
+        "Type": "quis",
+        "ColorBlock": 446,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2010-11-05T11:24:53.9999166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "similique",
+        "ExtraInfo": "non",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Golda Pouros",
+        "FullName": "Stephanie Rachel Klocko V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 861
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "autem",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Ernestine Hilpert",
+    "FullName": "Raegan Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 713
       }
     }
   }

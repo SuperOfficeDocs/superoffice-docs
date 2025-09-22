@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Leffler-Howell",
-    "ToolTip": "Molestias officiis eum blanditiis aspernatur fugiat quia porro.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "quisquam",
-    "ColorBlock": 515,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2011-06-25T03:47:00.5661762+02:00",
+    "Id": 137,
+    "Name": "Halvorson-Walsh",
+    "ToolTip": "Possimus quia ipsa exercitationem omnis inventore cum.",
+    "Deleted": false,
+    "Rank": 411,
+    "Type": "odio",
+    "ColorBlock": 379,
+    "IconHint": "officia",
+    "Selected": false,
+    "LastChanged": "2013-06-20T11:24:53.8436729+02:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Rohan-Homenick",
-        "ToolTip": "Mollitia rerum sed eos.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "placeat",
-        "ColorBlock": 887,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2016-01-10T03:47:00.5661762+01:00",
+        "Id": 902,
+        "Name": "Trantow Inc and Sons",
+        "ToolTip": "Possimus enim aspernatur aliquam ducimus voluptas.",
+        "Deleted": false,
+        "Rank": 510,
+        "Type": "illum",
+        "ColorBlock": 287,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2004-11-07T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "est",
+        "ExtraInfo": "facere",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Mrs. Levi Moen"
+        "FullName": "Markus Steuber"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Miss Adolfo Greenholt DDS"
+    "ExtraInfo": "assumenda",
+    "StyleHint": "quaerat",
+    "Hidden": true,
+    "FullName": "Madie O'Hara"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Waters-Gorczany",
-    "ToolTip": "Consectetur beatae alias rem.",
-    "Deleted": false,
-    "Rank": 849,
-    "Type": "ratione",
-    "ColorBlock": 818,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2002-09-26T03:47:00.5661762+02:00",
+    "Id": 629,
+    "Name": "Adams, Conn and Hettinger",
+    "ToolTip": "Quos voluptatem qui magni veniam enim magnam qui.",
+    "Deleted": true,
+    "Rank": 235,
+    "Type": "itaque",
+    "ColorBlock": 557,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2004-11-10T11:24:53.8436729+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Rogahn LLC",
-        "ToolTip": "Quos voluptatibus ea temporibus mollitia.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "libero",
-        "ColorBlock": 252,
-        "IconHint": "vel",
+        "Id": 623,
+        "Name": "Brakus-Langosh",
+        "ToolTip": "Culpa sit aut ut unde dolorem.",
+        "Deleted": false,
+        "Rank": 335,
+        "Type": "natus",
+        "ColorBlock": 700,
+        "IconHint": "modi",
         "Selected": true,
-        "LastChanged": "2008-08-31T03:47:00.5661762+02:00",
+        "LastChanged": "2017-01-14T11:24:53.8436729+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sit",
+        "ExtraInfo": "numquam",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Deborah Bogan",
+        "FullName": "Queenie Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldLength": 290
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "tempora",
+    "ExtraInfo": "cumque",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Mr. Clotilde Ali Schmeler PhD",
+    "FullName": "Prince Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldLength": 898
       }
     }
   }

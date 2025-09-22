@@ -171,12 +171,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gerhold-Turner",
-  "Context": "dolore"
+  "ProviderName": "Dickens-Goodwin",
+  "Context": "dolor"
 }
 ```
 
@@ -188,50 +188,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Adams-Lowe",
-    "ToolTip": "Sit necessitatibus.",
-    "Deleted": true,
-    "Rank": 423,
-    "Type": "et",
+    "Id": 85,
+    "Name": "Shanahan-Steuber",
+    "ToolTip": "Facilis natus omnis et id eligendi sint.",
+    "Deleted": false,
+    "Rank": 365,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Turner Inc and Sons",
-        "ToolTip": "Harum assumenda laboriosam expedita tempore ut.",
-        "Deleted": true,
-        "Rank": 196,
-        "Type": "nam",
+        "Id": 606,
+        "Name": "Cummerata LLC",
+        "ToolTip": "Corporis laudantium et est dicta distinctio est quas.",
+        "Deleted": false,
+        "Rank": 669,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 132,
-        "ExtraInfo": "dolores",
-        "StyleHint": "est",
-        "FullName": "Vicenta Wilfredo Nienow III",
+        "IconHint": "voluptatem",
+        "ColorBlock": 188,
+        "ExtraInfo": "non",
+        "StyleHint": "earum",
+        "FullName": "Ms. Ana Kub PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldLength": 605
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 935,
-    "ExtraInfo": "iste",
-    "StyleHint": "pariatur",
-    "FullName": "Prof. Keanu Bahringer",
+    "IconHint": "laudantium",
+    "ColorBlock": 907,
+    "ExtraInfo": "velit",
+    "StyleHint": "alias",
+    "FullName": "Ramon Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

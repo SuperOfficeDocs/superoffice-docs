@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Ferry, Luettgen and Jakubowski",
-    "ToolTip": "At nesciunt necessitatibus sed.",
+    "Id": 693,
+    "Name": "Hermann-Emard",
+    "ToolTip": "Esse ducimus iure et nisi eaque.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "possimus",
-    "ColorBlock": 335,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2000-01-17T03:47:00.7224209+01:00",
+    "Rank": 305,
+    "Type": "ullam",
+    "ColorBlock": 650,
+    "IconHint": "praesentium",
+    "Selected": false,
+    "LastChanged": "2013-08-13T11:24:53.9999166+02:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Sanford, Koch and Lesch",
-        "ToolTip": "Et quasi.",
-        "Deleted": false,
-        "Rank": 631,
-        "Type": "maxime",
-        "ColorBlock": 505,
-        "IconHint": "qui",
+        "Id": 659,
+        "Name": "Hegmann Inc and Sons",
+        "ToolTip": "Odit iure alias nulla aliquid eos sit vel.",
+        "Deleted": true,
+        "Rank": 342,
+        "Type": "doloremque",
+        "ColorBlock": 344,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2009-10-04T03:47:00.7224209+02:00",
+        "LastChanged": "2017-09-21T11:24:53.9999166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sit",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Elna Hilll II",
+        "FullName": "Ian Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "omnis",
+    "ExtraInfo": "atque",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Adriel Carter",
+    "FullName": "Mrs. Allie Heaven Gerlach V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

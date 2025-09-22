@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 188,
-  "Name": "White-Corwin",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 767,
+  "Id": 767,
+  "Name": "Kuphal-Sawayn",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 924,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Tremblay-Abshire",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "Rank": 408,
+  "Id": 36,
+  "Name": "VonRueden-Dooley",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 355,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 933
     }
   }
 }

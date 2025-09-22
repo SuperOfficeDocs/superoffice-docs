@@ -105,28 +105,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 833,
-  "Name": "Gleason, Nikolaus and Grady",
-  "CurrencyId": 429,
-  "EnglishName": "Wolff, Senger and Ritchie",
+  "CountryId": 532,
+  "Name": "Gaylord-O'Keefe",
+  "CurrencyId": 335,
+  "EnglishName": "Corwin Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized next generation monitoring",
-  "OrgNrText": "1521601",
-  "InterAreaPrefix": "dolorem",
-  "DialInPrefix": "velit",
-  "ZipPrefix": "facilis",
-  "DomainName": "Schiller LLC",
-  "AddressLayoutId": 683,
-  "DomesticAddressLayoutId": 424,
-  "ForeignAddressLayoutId": 949,
-  "Rank": 303,
-  "Tooltip": "repudiandae",
-  "Deleted": true
+  "ImageDescription": "Adaptive global array",
+  "OrgNrText": "985294",
+  "InterAreaPrefix": "nemo",
+  "DialInPrefix": "perferendis",
+  "ZipPrefix": "impedit",
+  "DomainName": "Kemmer LLC",
+  "AddressLayoutId": 48,
+  "DomesticAddressLayoutId": 868,
+  "ForeignAddressLayoutId": 954,
+  "Rank": 174,
+  "Tooltip": "in",
+  "Deleted": false
 }
 ```
 
@@ -137,30 +137,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 1002,
-  "Name": "Gerhold-Schneider",
-  "CurrencyId": 231,
-  "EnglishName": "Pouros, Paucek and Friesen",
+  "CountryId": 223,
+  "Name": "Blick-O'Kon",
+  "CurrencyId": 361,
+  "EnglishName": "Jewess Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-channelled bi-directional leverage",
-  "OrgNrText": "508371",
-  "InterAreaPrefix": "quae",
-  "DialInPrefix": "facilis",
-  "ZipPrefix": "vel",
-  "DomainName": "Brown, Robel and VonRueden",
-  "AddressLayoutId": 724,
-  "DomesticAddressLayoutId": 879,
-  "ForeignAddressLayoutId": 225,
-  "Rank": 703,
-  "Tooltip": "voluptatum",
+  "ImageDescription": "Stand-alone dynamic matrix",
+  "OrgNrText": "1466173",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "cupiditate",
+  "ZipPrefix": "sit",
+  "DomainName": "Mertz-Toy",
+  "AddressLayoutId": 753,
+  "DomesticAddressLayoutId": 642,
+  "ForeignAddressLayoutId": 887,
+  "Rank": 65,
+  "Tooltip": "debitis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   }
 }

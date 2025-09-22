@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Hartmann-Hettinger",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 824
+    "HeadingId": 186,
+    "Name": "Hoeger Group",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "Rank": 916,
+    "UdListDefinitionId": 581
   },
   {
-    "HeadingId": 749,
-    "Name": "Hartmann-Hettinger",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 824
+    "HeadingId": 186,
+    "Name": "Hoeger Group",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "Rank": 916,
+    "UdListDefinitionId": 581
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Feeney, Hammes and Thiel",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 527,
-    "UdListDefinitionId": 558,
+    "HeadingId": 73,
+    "Name": "Hansen LLC",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "Rank": 27,
+    "UdListDefinitionId": 526,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldType": "System.Int32",
+        "FieldLength": 386
       }
     }
   }

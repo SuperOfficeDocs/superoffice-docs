@@ -27,7 +27,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=113
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=581
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 922,
-  "Name": "Zulauf, Kshlerin and Weissnat",
-  "Description": "Assimilated content-based encryption",
-  "DefaultHeight": 272,
-  "DefaultWidth": 436,
+  "DashboardTileDefinitionId": 913,
+  "Name": "Reynolds, Nicolas and Ryan",
+  "Description": "Reactive systemic matrix",
+  "DefaultHeight": 686,
+  "DefaultWidth": 841,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle Group",
-  "SelectionId": 30,
+  "EntityName": "Macejkovic-Davis",
+  "SelectionId": 843,
   "CurrencyMode": "Base",
-  "CurrencyCode": "possimus",
+  "CurrencyCode": "ad",
   "Measure": "Average",
-  "MeasureField": "officiis",
-  "SortBy": "dignissimos",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 675,
-  "MeasureByField": "veniam",
+  "MeasureField": "voluptates",
+  "SortBy": "iste",
+  "LayoutConfig": "suscipit",
+  "SecondarySelectionId": 555,
+  "MeasureByField": "distinctio",
   "Usage": "Dashboard",
-  "ProviderName": "Marvin-Windler",
+  "ProviderName": "Nienow, Bartell and Reinger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 94
     }
   }
 }

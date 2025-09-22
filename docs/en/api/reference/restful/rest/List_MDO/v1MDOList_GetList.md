@@ -33,8 +33,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=ut
-GET /api/v1/MDOList/{listname}?query=eveniet
+GET /api/v1/MDOList/{listname}?additional=illum
+GET /api/v1/MDOList/{listname}?query=ea
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Conroy, Schaden and Rice",
-    "ToolTip": "Eos id.",
-    "Deleted": false,
-    "Rank": 321,
-    "Type": "qui",
+    "Id": 32,
+    "Name": "Schulist-Christiansen",
+    "ToolTip": "Sequi ea tempore recusandae amet quod voluptates asperiores.",
+    "Deleted": true,
+    "Rank": 287,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Conn LLC",
-        "ToolTip": "Repellendus aut maiores pariatur maiores voluptas aliquid dolores.",
+        "Id": 560,
+        "Name": "Mraz Group",
+        "ToolTip": "Ut expedita iste et.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "provident",
+        "Rank": 399,
+        "Type": "perferendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 559,
-        "ExtraInfo": "fuga",
-        "StyleHint": "occaecati",
-        "FullName": "Timmothy Wyman",
+        "IconHint": "eos",
+        "ColorBlock": 326,
+        "ExtraInfo": "nihil",
+        "StyleHint": "veritatis",
+        "FullName": "Mr. Ramiro Mraz DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldType": "System.Int32",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 691,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "id",
-    "FullName": "Lavina Okuneva",
+    "IconHint": "dignissimos",
+    "ColorBlock": 762,
+    "ExtraInfo": "sit",
+    "StyleHint": "illum",
+    "FullName": "Zula Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 743
       }
     }
   }

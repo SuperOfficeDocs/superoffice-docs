@@ -86,15 +86,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 730,
-  "ChatSessionId": 129,
+  "ChatMessageId": 378,
+  "ChatSessionId": 156,
   "Type": "Invalid",
-  "Message": "odio",
-  "Author": "ipsa",
-  "ReadByCustomer": 737,
+  "Message": "nam",
+  "Author": "at",
+  "ReadByCustomer": 846,
   "SpecialType": "Block",
-  "SpecialParam": "natus",
-  "WhenPosted": "2012-09-06T03:46:59.8005718+02:00"
+  "SpecialParam": "excepturi",
+  "WhenPosted": "2001-04-30T11:24:53.0468304+02:00"
 }
 ```
 
@@ -105,14 +105,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 391,
-  "ChatSessionId": 523,
+  "ChatMessageId": 115,
+  "ChatSessionId": 909,
   "Type": "Invalid",
-  "Message": "ea",
-  "Author": "provident",
-  "ReadByCustomer": 727,
+  "Message": "unde",
+  "Author": "dolor",
+  "ReadByCustomer": 286,
   "SpecialType": "Block",
-  "SpecialParam": "delectus",
-  "WhenPosted": "2010-06-09T03:46:59.8005718+02:00"
+  "SpecialParam": "fuga",
+  "WhenPosted": "2017-09-24T11:24:53.0468304+02:00"
 }
 ```

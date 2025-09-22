@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Rohan, Legros and Wolff",
-  "Tooltip": "sint",
+  "Id": 277,
+  "Name": "Schmidt-Kunze",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 586,
+  "Rank": 558,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugit",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dignissimos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 986
     }
   },
   "_Links": {

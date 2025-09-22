@@ -115,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,121 +129,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-08-01T03:46:54.0351587+02:00",
-  "AppointmentId": 83,
-  "Description": "Inverse transitional model",
-  "Title": "nostrum",
-  "Agenda": "et",
-  "InternalNotes": "delectus",
-  "StartDate": "2019-05-08T03:46:54.0351587+02:00",
-  "EndDate": "2011-12-24T03:46:54.0351587+01:00",
+  "CreatedDate": "2021-02-01T11:24:47.3595642+01:00",
+  "AppointmentId": 164,
+  "Description": "Profound 24/7 projection",
+  "Title": "ea",
+  "Agenda": "laudantium",
+  "InternalNotes": "harum",
+  "StartDate": "2001-03-24T11:24:47.3595642+01:00",
+  "EndDate": "2023-07-03T11:24:47.3595642+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 500,
+  "MotherId": 413,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-06-18T03:46:54.0351587+02:00",
+  "UpdatedDate": "2007-08-01T11:24:47.3595642+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 686,
+  "ActiveLinks": 383,
   "Links": [
     {
-      "EntityName": "Baumbach, Brakus and Kuphal",
-      "Id": 50,
-      "Description": "Diverse real-time application",
-      "ExtraInfo": "minus",
-      "LinkId": 764,
+      "EntityName": "Anderson LLC",
+      "Id": 952,
+      "Description": "Compatible demand-driven policy",
+      "ExtraInfo": "aut",
+      "LinkId": 333,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 778
         }
       }
     }
   ],
-  "AlarmLeadTime": "quas",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 282,
-  "IsFree": false,
+  "ColorIndex": 664,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "possimus",
-  "LeadTime": "qui",
-  "Location": "adipisci",
-  "RejectCounter": 118,
+  "LagTime": "error",
+  "LeadTime": "fugit",
+  "Location": "voluptatem",
+  "RejectCounter": 106,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 91,
-      "PersonId": 615,
-      "ContactId": 391,
-      "EmailId": 318,
-      "SendEmail": false,
+      "AssociateId": 524,
+      "PersonId": 696,
+      "ContactId": 621,
+      "EmailId": 347,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rahul_nicolas@zieme.name",
-      "Description": "Configurable holistic product"
+      "EmailAddress": "hal.torphy@kunze.biz",
+      "Description": "Enhanced foreground alliance"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-04-05T03:46:54.0351587+02:00",
+  "ActiveDate": "2008-08-05T11:24:47.3595642+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 359,
+  "PreferredTZLocation": 894,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 652,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 472,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "optio",
   "UserDefinedFields": {
-    "SuperOffice:1": "301244631",
-    "SuperOffice:2": "1955108899"
+    "SuperOffice:1": "Miss Orville Kayley Beatty",
+    "SuperOffice:2": "Eugenia Christiansen"
   },
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "culpa"
+    "CustomFields1": "nulla",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2018-10-08T03:46:54.050783+02:00",
-  "PublishTo": "2021-12-31T03:46:54.050783+01:00",
-  "PublishFrom": "2015-09-25T03:46:54.050783+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-04-08T11:24:47.3595642+02:00",
+  "PublishTo": "2013-04-06T11:24:47.3595642+02:00",
+  "PublishFrom": "2008-08-24T11:24:47.3595642+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 1001,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     },
     {
-      "VisibleId": 1001,
+      "VisibleId": 176,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
@@ -252,8 +252,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

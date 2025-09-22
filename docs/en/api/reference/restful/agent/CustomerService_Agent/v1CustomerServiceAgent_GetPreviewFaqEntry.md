@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 32
+  "KbEntryId": 33
 }
 ```
 
@@ -93,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "debitis",
-  "RegisteredByFullName": "Kristopher Pagac",
-  "Updated": "2009-06-05T03:46:54.5976376+02:00",
-  "Question": "magnam",
-  "Answer": "non",
+  "Title": "minima",
+  "RegisteredByFullName": "Mr. Christian Dach DDS",
+  "Updated": "2003-04-14T11:24:47.8595421+02:00",
+  "Question": "rerum",
+  "Answer": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

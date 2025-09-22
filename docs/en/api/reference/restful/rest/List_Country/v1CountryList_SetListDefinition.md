@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Rowe, Turcotte and Bode",
-  "Tooltip": "quae",
+  "Id": 459,
+  "Name": "Welch Group",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 297,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "Rank": 772,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Quigley, Breitenberg and O'Connell",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 44,
+  "Id": 98,
+  "Name": "Haley, Nienow and Stiedemann",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 364,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 826
     }
   }
 }

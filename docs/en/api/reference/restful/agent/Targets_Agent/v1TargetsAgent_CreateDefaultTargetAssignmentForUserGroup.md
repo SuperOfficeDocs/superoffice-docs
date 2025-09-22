@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 56
+  "UserGroupId": 202
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 64,
+    "TargetAssignmentInfoId": 715,
     "Values": [
-      559,
-      889
+      95,
+      350
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 353,
-    "DimensionListItemDisplayName": "Homenick LLC",
+    "DimensionListItem": 141,
+    "DimensionListItemDisplayName": "Jewess-Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 313,
-  "ColumnId": 494,
-  "FieldDefault": "harum",
-  "FieldHeight": 521,
-  "FieldLabel": "quia",
-  "FieldLeft": 517,
-  "FieldTop": 995,
+  "UDefFieldId": 266,
+  "ColumnId": 965,
+  "FieldDefault": "qui",
+  "FieldHeight": 673,
+  "FieldLabel": "id",
+  "FieldLeft": 744,
+  "FieldTop": 9,
   "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "facilis",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 937,
-  "LabelLeft": 144,
-  "LabelTop": 539,
-  "LabelWidth": 997,
-  "LastVersionId": 662,
-  "ListTableId": 74,
-  "IsMandatory": true,
+  "FieldWidth": 805,
+  "FormatMask": "inventore",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 393,
+  "LabelLeft": 308,
+  "LabelTop": 500,
+  "LabelWidth": 158,
+  "LastVersionId": 866,
+  "ListTableId": 437,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 573,
-  "ProgId": "nesciunt",
+  "Page1LineNo": 489,
+  "ProgId": "aut",
   "IsReadOnly": true,
-  "ShortLabel": "enim",
-  "TabOrder": 723,
-  "TextLength": 271,
-  "Tooltip": "maiores",
-  "UdefIdentity": 902,
-  "UDListDefinitionId": 667,
+  "ShortLabel": "laudantium",
+  "TabOrder": 830,
+  "TextLength": 957,
+  "Tooltip": "sed",
+  "UdefIdentity": 36,
+  "UDListDefinitionId": 766,
   "Justification": "Center",
-  "Version": 27,
-  "TemplateVariableName": "Bahringer, Smitham and Goyette",
+  "Version": 650,
+  "TemplateVariableName": "Stanton, Ondricka and Lemke",
   "HasBeenPublished": true,
-  "MdoListName": "Ullrich-Mitchell",
+  "MdoListName": "Stoltenberg, Streich and Stanton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 146
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 632,
-  "Name": "Hahn-Johnston",
-  "Tooltip": "commodi",
-  "SaveInDb": 243,
-  "Filename": "numquam",
-  "DefaultOref": "natus",
+  "DocumentTemplateId": 267,
+  "Name": "Swaniawski Inc and Sons",
+  "Tooltip": "doloribus",
+  "SaveInDb": 48,
+  "Filename": "corrupti",
+  "DefaultOref": "vero",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 245,
-  "IntentId": 783,
+  "AutoeventId": 216,
+  "IntentId": 163,
   "IsDefaultPublished": false,
-  "Rank": 6,
-  "LoadTemplateFromPlugin": 761,
-  "MimeType": "quam",
+  "Rank": 242,
+  "LoadTemplateFromPlugin": 705,
+  "MimeType": "velit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 198,
+  "DocumentTypeKey": 706,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alfonso_willms@mueller.us",
+  "EmailSubject": "ryley.bins@walker.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jayme_boehm@krisfay.name",
+  "SenderEmailAddress": "samantha.abbott@schummvolkman.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

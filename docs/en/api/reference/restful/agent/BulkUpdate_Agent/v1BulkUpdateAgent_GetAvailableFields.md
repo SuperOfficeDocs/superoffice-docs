@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "culpa",
-    "ValueType": "odio",
-    "Mandatory": false,
-    "EncodedDisplayName": "Davis-Ankunding",
-    "EncodedDisplayDescription": "Fully-configurable foreground definition",
-    "IconHint": "autem",
+    "Key": "ut",
+    "ValueType": "quasi",
+    "Mandatory": true,
+    "EncodedDisplayName": "Bruen, Cummerata and Lubowitz",
+    "EncodedDisplayDescription": "Configurable intangible array",
+    "IconHint": "velit",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "id",
-        "Dimension": 822,
-        "ListProviderName": "Wiegand-Hickle",
+        "Type": "et",
+        "Label": "autem",
+        "Dimension": 324,
+        "ListProviderName": "Stokes LLC",
         "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Kling-Koelpin",
-        "ListLeadText": "assumenda",
+        "ListProviderPrimaryKeyName": "Bergnaum-Klein",
+        "ListLeadText": "illum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 603
           }
         }
       }
     ],
-    "EncodedDataCaption": "sit",
-    "EncodedDataCaptionDescription": "Pre-emptive secondary success",
-    "CurrentOperationType": "ipsa",
+    "EncodedDataCaption": "reprehenderit",
+    "EncodedDataCaptionDescription": "Public-key full-range access",
+    "CurrentOperationType": "debitis",
     "Values": [
-      "enim",
-      "distinctio"
+      "ipsum",
+      "unde"
     ],
     "DisplayValues": [
       "aut",
-      "doloremque"
+      "sed"
     ],
     "OperationInfos": [
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "quisquam",
+        "EncodedDisplayName": "Heathcote, Bogan and Koss",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "illo",
+          "voluptates"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 337
           }
         }
       },
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "quisquam",
+        "EncodedDisplayName": "Heathcote, Bogan and Koss",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "illo",
+          "voluptates"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 337
           }
         }
       }

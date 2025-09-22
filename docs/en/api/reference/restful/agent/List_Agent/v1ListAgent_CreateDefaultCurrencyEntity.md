@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 715,
-  "Name": "O'Reilly-Pacocha",
-  "Tooltip": "non",
-  "Rank": 189,
-  "Rate": 12034.56,
-  "Units": 1375.826,
-  "Deleted": false,
+  "CurrencyId": 704,
+  "Name": "Wisoky, Haag and Huel",
+  "Tooltip": "quidem",
+  "Rank": 94,
+  "Rate": 6114.434,
+  "Units": 5898.188,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 996
     }
   }
 }

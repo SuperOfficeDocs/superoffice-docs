@@ -86,19 +86,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 348,
-  "Name": "Boyer, Kiehn and Bradtke",
-  "CreatedDate": "2004-08-15T03:47:00.0349452+02:00",
-  "UpdatedDate": "2001-05-18T03:47:00.0349452+02:00",
-  "AssociateFullName": "Rosalyn Luettgen",
-  "CreatedBy": "qui",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "praesentium",
-  "ForeignAppId": 814
+  "ForeignDeviceId": 616,
+  "Name": "Fahey, Stark and Kulas",
+  "CreatedDate": "2014-07-07T11:24:53.2968202+02:00",
+  "UpdatedDate": "2013-04-14T11:24:53.2968202+02:00",
+  "AssociateFullName": "Joaquin Turcotte",
+  "CreatedBy": "et",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "minus",
+  "ForeignAppId": 292
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 673,
-  "Name": "Bednar, Stokes and Monahan",
-  "CreatedDate": "2002-01-07T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-03-27T03:47:00.0349452+01:00",
-  "AssociateFullName": "Karson Camylle Deckow Sr.",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "in",
-  "ForeignAppId": 464,
+  "ForeignDeviceId": 474,
+  "Name": "Haley-Fadel",
+  "CreatedDate": "2017-12-24T11:24:53.2968202+01:00",
+  "UpdatedDate": "2012-01-14T11:24:53.2968202+01:00",
+  "AssociateFullName": "Nona Beth Fadel PhD",
+  "CreatedBy": "voluptatibus",
+  "UpdatedBy": "aliquam",
+  "DeviceIdentifier": "aut",
+  "ForeignAppId": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }
