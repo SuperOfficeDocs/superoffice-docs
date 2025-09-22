@@ -2,47 +2,41 @@
 uid: help-da-sale-forecasting
 title: Overvåg din pipeline, og forudsig salg
 description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards og udvalg.
-keywords: salg
+keywords: salg, prognose, pipeline
 author: Bergfrid Dias
-date: 05.12.2025
-version: 10.4
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salesessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Overvåg din pipeline, og forudsig salg
 
-For at nå dine langsigtede salgsmål er det vigtigt at opretholde en sund pipeline. Den vil hjælpe dig med at få et objektiv overblik over både den individuelle pipeline og gruppens pipeline, så du kan reagere hurtigere, udfylde hullerne og identificere de t hjælper dig med at få et objektivt overblik over både individet og gruppepipelinen, så du kan reagere hurtigere, udfylde hullerne og identificerer de handler, der kræver yderligere ressourcer eller indsatser.
+For at nå dine salgsmål er det vigtigt at opretholde en sund pipeline. SuperOffice CRM giver to hovedmåder at forudsige salg og overvåge fremskridt på: **dashboard-ruder** og **udvalg (Find)**.
 
-## Brug dashboards til at administrere din salgspipeline
+Disse værktøjer hjælper dig med at identificere huller, fremhæve fastlåste handler og sammenligne dit faktiske salg med dine mål - uanset om du arbejder individuelt eller i en gruppe.
 
-[SuperOffice Dashboard][2] giver dig hurtig adgang til ruderne som for eksempel diagrammer, rapporter og statistikker, der er vigtige for dig.
+## Overvåg din pipeline med dashboards
 
-Når du [opretter et dashboard][1], kan du vælge mellem en lang række foruddefinerede ruder. Klik på en diagramrude for at analysere diagramdataene.
-
-### Eksempler
-
-Ruderne **Min prognose** vil hjælpe dig med at holde dig på sporet ved at vise dig dit lukkede salg og dit åbne salg for sidste måned, denne måned og den kommende måned.
+Dashboards giver dig et hurtigt overblik over vigtige salgsdata. Du kan bruge ruder til at spore dine egne fremskridt, grupperesultater eller specifikke pipeline-målinger.
 
 ![Eksempel på ruden Min prognose -screenshot][img1]
 
-De forskellige ruder med **Stort nummer** vil give dig et overblik over din pipeline med aktuelle salgstal og salgsværdier. Dermed kender du altid den nøjagtige værdi af det, du arbejder på.
+Almindelige rudetyper til salgsprognoser inkluderer:
 
-![Eksempel på rude med Stort nummer -screenshot][img2]
+* **Min prognose sammenlignet med mål denne måned/kvartal:** Visualiser dine faktiske fremskridt i forhold til fastsatte mål.
+* **Teamprognose sammenlignet med mål:** Overvåg hvordan dit team klarer sig i forhold til deres fælles mål.
+* **Min pipeline næste 3 måneder (faktisk eller vægtet):** Se kommende salg, enten med fulde eller vægtede beløb.
+* **Min prognose efter salgstype:** Opdel din prognose efter kategori eller produktlinje.
+* **Største åbne eller solgte salg denne måned:** Identificer højværdi-handler at prioritere eller analysere ydeevne.
+* **Gruppeprognose / omsætning denne måned:** Spor gruppens salgsaktivitet og fremskridt.
 
-Ruden **Største kommende salg** gør det muligt for dig at se alle dine salg i rækkefølge efter deres værdi, hvilket hjælper dig med at prioritere din tid tilsvarende.
+Du kan tilpasse hver rude ved at indstille datoområder, filtre og sammenligne resultater med mål.
 
-![Eksempel på ruden Mit største kommende salg -screenshot][img3]
-
-Ruden **Mit aktivitetstempo** gør det muligt for dig at se dine aktiviteter sorteret efter type. Dataene hjælper dig med at identificere, om du bruger for meget eller for lidt tid på bestemte aktiviteter.
-
-![Eksempel på ruden Mit aktivitetstempo -screenshot][img4]
-
-Ruden **Salg indtil nu i år for min gruppe** er en fantastisk måde at holde øje med, om dit teams salg vokser.
-
-![Eksempel på Salg indtil nu i år for min gruppe -screenshot][img5]
-
-## Brug udvalg til at forudsige salg
+## Analyser din pipeline ved hjælp af udvalg
 
 Med funktionen [Find][5] i SuperOffice CRM kan du søge og finde forskellige typer data. Det betyder, at du også kan bruge Find til at forudsige dit salg. Ved hjælp af funktionen Find kan du frafiltrere dataene i et hvilket som helst felt i dit SuperOffice CRM.
 
@@ -79,21 +73,21 @@ For at demonstrere, hvordan du kan bruge funktionen Find til salgsprognoser, er 
 
 7. Tryk på Find nederst i skærmbilledet for at se alle dine åbne salgsmuligheder, der har en værdi over € 5000.
 
-Du har nu oprettet en liste med alle åbne salg til en værdi af over € 5000 foretaget i år. Du kan bruge denne liste, som den er, eller du kan bruge denne liste til at præsentere dine resultater på en anden måde. Du kan for eksempel [visualisere din liste med en graf][6] og tilføje den til dit [personlige salgsdashboard][7].
+## Relateret indhold
+
+* [Visualiser salgsmål i dashboard-ruder][7]
+* [Opret et nyt salg][1]
+* [Vis et udvalg som et diagram][6]
+* [Brug af skærmbilledet Find][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../dashboard/learn/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
-[7]:  ../../dashboard/learn/show-sales-targets.md
+[7]: ../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/my-forecast.png
-[img2]: ../../../media/loc/en/sale/big-numbers.png
-[img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
-[img4]: ../../../media/loc/en/sale/my-activity-pace.png
-[img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img7]: ../../../media/loc/en/sale/typical-search.png
-[img8]: ../../../media/loc/en/sale/find-screen.png
-[img9]: ../../../media/loc/en/sale/add-search-criteria.png
+[img1]: ../../../media/loc/en/sale/forecasting.png
+[img7]: ../../../media/loc/en/search-options/typical-sale-searches.png
+[img8]: ../../../media/loc/en/search-options/find-screen.png
+[img9]: ../../../media/loc/en/search-options/find-sale.png

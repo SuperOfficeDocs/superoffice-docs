@@ -2,11 +2,13 @@
 uid: help-de-dashboard-tile-sales-targets
 title: Verwenden von Vertriebszielen in Kacheln
 description: Verwenden Sie Dashboards und Kacheln, um Ihre Verkaufsziele mit Ihren tatsächlichen Verkäufen zu vergleichen.
-keywords: Dashboard, Verkauf, Ziel, Diagramm
+keywords: Dashboard, Verkaufsziel, Diagramm
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -14,11 +16,11 @@ language: de
 
 # Verwenden von Zielen in Kacheln
 
-Wenn [Verkaufsziele][4] für Ihre Firma, Teams/Gruppen und/oder Vertriebsmitarbeiter definiert wurden, können Sie diese Ziele zu Ihren Dashboard-Kacheln hinzufügen. Sie erhalten dann eine visuelle Darstellung Ihrer tatsächlichen Verkäufe verglichen mit den Zielen.
+Sobald [Verkaufsziele][4] für Ihr Firmen, Teams oder einzelne Benutzer eingerichtet sind, können Sie diese Ziele zu Dashboard-Kacheln hinzufügen. Dies ermöglicht es Ihnen, tatsächliche Verkäufe mit Zielen direkt in visuellen Diagrammen wie Messanzeigen, Balkendiagrammen und großen Zahlen zu vergleichen.
 
-Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst die Kacheln im Dashboard hinzufügen oder bearbeiten. Nachdem Sie die richtige Kachel ausgewählt haben, können Sie das Layout und den Diagrammtyp der Kacheln bearbeiten.
+Um zu erfahren, wie Dashboards und Auswahlen Ihnen bei der Überwachung und Prognose von Verkäufen helfen können, siehe [Verkäufe prognostizieren][8].
 
-![Öffnen Sie die Registerkarte Layout und wählen Sie im Bereich Gruppieren die Option Mit Ziel vergleichen aus -screenshot][img7]
+![Öffnen Sie die Registerkarte Layout und wählen Sie im Bereich Gruppieren die Option Mit Ziel vergleichen aus -screenshot][img1]
 
 ## Kacheln mit Vertriebszielen zum Dashboard hinzufügen
 
@@ -77,8 +79,6 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 Wenn Sie das Feld Mit Ziel vergleichen zwar sehen, aber deaktiviert ist, können Sie Ihre Maus über das Feld bewegen, um eine QuickInfo anzuzeigen, die erklärt, was Sie ändern müssen, um das Feld zu aktivieren und auszuwählen.
 
-![Die Maus über das Feld Mit Ziel vergleichen bewegen, um eine QuickInfo anzuzeigen -screenshot][img8]
-
 Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, dass Sie den richtigen Diagrammtyp ausgewählt und das Verkaufsdatum als Kriterium auf der Registerkarte Datensatz verwendet haben.
 
 ## Verwandte Inhalt
@@ -86,6 +86,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 * [Neues Dashboard hinzufügen][5]
 * [Kacheln bearbeiten oder erstellen][6]
 * [Verkaufsziele festlegen][7]
+* [Verkäufe prognostizieren][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, 
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png
