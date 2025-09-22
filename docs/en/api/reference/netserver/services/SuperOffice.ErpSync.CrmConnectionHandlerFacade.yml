@@ -5,6 +5,7 @@ items:
   id: CrmConnectionHandlerFacade
   parent: SuperOffice.ErpSync
   children:
+  - SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
   - SuperOffice.ErpSync.CrmConnectionHandlerFacade.CreateActorAsync(SuperOffice.ErpSync.ErpSyncActor,SuperOffice.Data.ErpActorType)
   - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorAsync(System.Int32,System.Int32)
   - SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetActorsAsync(SuperOffice.Data.ErpActorType,System.String[])
@@ -57,6 +58,32 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  id: '#ctor(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)'
+  parent: SuperOffice.ErpSync.CrmConnectionHandlerFacade
+  langs:
+  - csharp
+  - vb
+  name: CrmConnectionHandlerFacade(IServiceScopeFactory)
+  nameWithType: CrmConnectionHandlerFacade.CrmConnectionHandlerFacade(IServiceScopeFactory)
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CrmConnectionHandlerFacade(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.ErpSync
+  summary: The constructor is private, in accordance with the singleton pattern
+  example: []
+  syntax:
+    content: public CrmConnectionHandlerFacade(IServiceScopeFactory serviceScopeFactory)
+    parameters:
+    - id: serviceScopeFactory
+      type: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+    content.vb: Public Sub New(serviceScopeFactory As IServiceScopeFactory)
+  overload: SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor*
+  nameWithType.vb: CrmConnectionHandlerFacade.New(IServiceScopeFactory)
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.New(Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  name.vb: New(IServiceScopeFactory)
 - uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
   commentId: M:SuperOffice.ErpSync.CrmConnectionHandlerFacade.GetConnectionIdAsync
   id: GetConnectionIdAsync
@@ -1117,6 +1144,61 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.CrmConnectionHandlerFacade.#ctor
+  isExternal: true
+  href: SuperOffice.ErpSync.CrmConnectionHandlerFacade.html#SuperOffice_ErpSync_CrmConnectionHandlerFacade__ctor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_
+  name: CrmConnectionHandlerFacade
+  nameWithType: CrmConnectionHandlerFacade.CrmConnectionHandlerFacade
+  fullName: SuperOffice.ErpSync.CrmConnectionHandlerFacade.CrmConnectionHandlerFacade
+  nameWithType.vb: CrmConnectionHandlerFacade.New
+  fullName.vb: SuperOffice.ErpSync.CrmConnectionHandlerFacade.New
+  name.vb: New
+- uid: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory
+  name: IServiceScopeFactory
+  nameWithType: IServiceScopeFactory
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
 - uid: SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
   commentId: M:SuperOffice.ErpSync.ConnectionHandlerFacadeBase.GetConnectionIdAsync
   parent: SuperOffice.ErpSync.ConnectionHandlerFacadeBase

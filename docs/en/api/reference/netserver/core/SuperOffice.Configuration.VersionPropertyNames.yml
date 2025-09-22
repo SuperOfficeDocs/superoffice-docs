@@ -6,12 +6,15 @@ items:
   parent: SuperOffice.Configuration
   children:
   - SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
+  - SuperOffice.Configuration.VersionPropertyNames.AppiAllArchiveCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   - SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
   - SuperOffice.Configuration.VersionPropertyNames.DebugUser
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  - SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
+  - SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
   - SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   langs:
   - csharp
@@ -97,13 +100,34 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: All SQL calls will be logged to Application Insights as an SQL Dependence telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SQL Dependency telemetry items.
+  summary: All SQL calls will be logged to Application Insights as an SQL Dependency telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SQL Dependency telemetry items.
   example: []
   syntax:
     content: public const string AppiAllSqlCalls = "AppiAllSqlCalls"
     return:
       type: System.String
     content.vb: Public Const AppiAllSqlCalls As String = "AppiAllSqlCalls"
+- uid: SuperOffice.Configuration.VersionPropertyNames.AppiAllArchiveCalls
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiAllArchiveCalls
+  id: AppiAllArchiveCalls
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: AppiAllArchiveCalls
+  nameWithType: VersionPropertyNames.AppiAllArchiveCalls
+  fullName: SuperOffice.Configuration.VersionPropertyNames.AppiAllArchiveCalls
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: All SuperOffice Archive calls will be logged to Application Insights as an SuperOffice.Archive Dependency telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SuperOffice.Archive Dependency telemetry items.
+  example: []
+  syntax:
+    content: public const string AppiAllArchiveCalls = "AppiAllArchiveCalls"
+    return:
+      type: System.String
+    content.vb: Public Const AppiAllArchiveCalls As String = "AppiAllArchiveCalls"
 - uid: SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   id: AppiSqlQueryText
@@ -209,6 +233,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const CollectSoConnectionStack As String = "CollectSoConnectionStack"
+- uid: SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
+  id: DetailedTiming
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: DetailedTiming
+  nameWithType: VersionPropertyNames.DetailedTiming
+  fullName: SuperOffice.Configuration.VersionPropertyNames.DetailedTiming
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Collect callstack in SoConnection.Open, to make it possible to find sinners who do not clean up their database connections properly
+  example: []
+  syntax:
+    content: public const string DetailedTiming = "DetailedTiming"
+    return:
+      type: System.String
+    content.vb: Public Const DetailedTiming As String = "DetailedTiming"
+- uid: SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
+  id: ReportEndpointUsage
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: ReportEndpointUsage
+  nameWithType: VersionPropertyNames.ReportEndpointUsage
+  fullName: SuperOffice.Configuration.VersionPropertyNames.ReportEndpointUsage
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Report aggregated endpoint usage data to webappusage table. Only works if AggregateApisInSnapshot is set
+  example: []
+  syntax:
+    content: public const string ReportEndpointUsage = "ReportEndpointUsage"
+    return:
+      type: System.String
+    content.vb: Public Const ReportEndpointUsage As String = "ReportEndpointUsage"
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration

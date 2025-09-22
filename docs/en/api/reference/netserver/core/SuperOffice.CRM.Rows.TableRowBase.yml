@@ -283,6 +283,7 @@ items:
   - SuperOffice.CRM.Rows.KbWorkflowRow
   - SuperOffice.CRM.Rows.LanguageInfoCountryRow
   - SuperOffice.CRM.Rows.LanguageInfoRow
+  - SuperOffice.CRM.Rows.LeadstatusRow
   - SuperOffice.CRM.Rows.LegalBaseRow
   - SuperOffice.CRM.Rows.LegalHtmlTagsRow
   - SuperOffice.CRM.Rows.LicenseAssocLinkRow

@@ -4,7 +4,8 @@ items:
   commentId: T:SuperOffice.CRM.ArchiveLists.Constants
   id: Constants
   parent: SuperOffice.CRM.ArchiveLists
-  children: []
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.DependencyTypeName
   langs:
   - csharp
   - vb
@@ -38,6 +39,25 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DependencyTypeName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DependencyTypeName
+  id: DependencyTypeName
+  parent: SuperOffice.CRM.ArchiveLists.Constants
+  langs:
+  - csharp
+  - vb
+  name: DependencyTypeName
+  nameWithType: Constants.DependencyTypeName
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DependencyTypeName
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string DependencyTypeName = "InProc | SuperOffice.Archive"
+    return:
+      type: System.String
+    content.vb: Public Const DependencyTypeName As String = "InProc | SuperOffice.Archive"
 references:
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveActivityRow
@@ -321,3 +341,14 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

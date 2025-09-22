@@ -134,6 +134,7 @@ items:
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
   - SuperOffice.CRM.Lists.LanguageProvider
+  - SuperOffice.CRM.Lists.LeadStatusListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
   - SuperOffice.CRM.Lists.ListBase`2
   - SuperOffice.CRM.Lists.ListHelper
@@ -1300,6 +1301,13 @@ references:
   name: LanguageProvider
   nameWithType: LanguageProvider
   fullName: SuperOffice.CRM.Lists.LanguageProvider
+- uid: SuperOffice.CRM.Lists.LeadStatusListProvider
+  commentId: T:SuperOffice.CRM.Lists.LeadStatusListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.LeadStatusListProvider.html
+  name: LeadStatusListProvider
+  nameWithType: LeadStatusListProvider
+  fullName: SuperOffice.CRM.Lists.LeadStatusListProvider
 - uid: SuperOffice.CRM.Lists.LegalBaseListProvider
   commentId: T:SuperOffice.CRM.Lists.LegalBaseListProvider
   isExternal: true

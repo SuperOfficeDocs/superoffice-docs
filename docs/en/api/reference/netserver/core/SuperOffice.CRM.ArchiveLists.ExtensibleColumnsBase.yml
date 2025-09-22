@@ -119,6 +119,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.WantColumnForRestriction(System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   langs:
   - csharp
   - vb
@@ -167,6 +168,27 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  id: _orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  langs:
+  - csharp
+  - vb
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: The current order by settings, as requested by the outside client
+  example: []
+  syntax:
+    content: protected ArchiveOrderByInfo[] _orderBy
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Protected _orderBy As ArchiveOrderByInfo()
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   id: _minuteFields
@@ -4062,6 +4084,29 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    isExternal: true
+    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
+  - name: (
+  - name: )
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
   commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.SQL.FieldInfo}
   parent: System.Collections.Generic
@@ -4549,29 +4594,6 @@ references:
     isExternal: true
   - name: (
   - name: )
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
-  name: ArchiveOrderByInfo[]
-  nameWithType: ArchiveOrderByInfo[]
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
-  nameWithType.vb: ArchiveOrderByInfo()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
-  name.vb: ArchiveOrderByInfo()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
-    name: ArchiveOrderByInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
-    name: ArchiveOrderByInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
-  - name: (
   - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping

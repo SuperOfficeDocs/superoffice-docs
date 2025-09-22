@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation
+  commentId: T:SuperOffice.Diagnostics.Logging.ISoOperation
+  id: ISoOperation
+  parent: SuperOffice.Diagnostics.Logging
+  children:
+  - SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation(System.String,System.Collections.Specialized.NameValueCollection,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISoOperation
+  nameWithType: ISoOperation
+  fullName: SuperOffice.Diagnostics.Logging.ISoOperation
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics.Logging
+  syntax:
+    content: public interface ISoOperation
+    content.vb: Public Interface ISoOperation
+  extensionMethods:
+  - SuperOffice.Diagnostics.Logging.ISoOperation.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.Logging.ISoOperation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation(System.String,System.Collections.Specialized.NameValueCollection,System.String)
+  commentId: M:SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation(System.String,System.Collections.Specialized.NameValueCollection,System.String)
+  id: TraceOperation(System.String,System.Collections.Specialized.NameValueCollection,System.String)
+  parent: SuperOffice.Diagnostics.Logging.ISoOperation
+  langs:
+  - csharp
+  - vb
+  name: TraceOperation(string, NameValueCollection, string)
+  nameWithType: ISoOperation.TraceOperation(string, NameValueCollection, string)
+  fullName: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation(string, System.Collections.Specialized.NameValueCollection, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics.Logging
+  summary: Log operation start. Dispose of the returned value to log the operation duration.
+  example: []
+  syntax:
+    content: IDisposable TraceOperation(string operationName, NameValueCollection tags, string dependencyTypeName = "Other")
+    parameters:
+    - id: operationName
+      type: System.String
+      description: Name of the operation
+    - id: tags
+      type: System.Collections.Specialized.NameValueCollection
+      description: parameters to add to operation trace
+    - id: dependencyTypeName
+      type: System.String
+    return:
+      type: System.IDisposable
+      description: disposable object
+    content.vb: Function TraceOperation(operationName As String, tags As NameValueCollection, dependencyTypeName As String = "Other") As IDisposable
+  overload: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation*
+  nameWithType.vb: ISoOperation.TraceOperation(String, NameValueCollection, String)
+  fullName.vb: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation(String, System.Collections.Specialized.NameValueCollection, String)
+  name.vb: TraceOperation(String, NameValueCollection, String)
+references:
+- uid: SuperOffice.Diagnostics.Logging
+  commentId: N:SuperOffice.Diagnostics.Logging
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Diagnostics.Logging
+  nameWithType: SuperOffice.Diagnostics.Logging
+  fullName: SuperOffice.Diagnostics.Logging
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.Logging
+    name: Logging
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: SuperOffice.Diagnostics.html
+  - name: .
+  - uid: SuperOffice.Diagnostics.Logging
+    name: Logging
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.html
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ISoOperation, To>(ISoOperation)
+  nameWithType: EnumUtil.MapEnums<ISoOperation, To>(ISoOperation)
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Logging.ISoOperation, To>(SuperOffice.Diagnostics.Logging.ISoOperation)
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoOperation, To)(ISoOperation)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoOperation, To)(SuperOffice.Diagnostics.Logging.ISoOperation)
+  name.vb: MapEnums(Of ISoOperation, To)(ISoOperation)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoOperation)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoOperation)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: )
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ISoOperation, To>(ISoOperation)
+  nameWithType: Converters.MapEnums<ISoOperation, To>(ISoOperation)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Logging.ISoOperation, To>(SuperOffice.Diagnostics.Logging.ISoOperation)
+  nameWithType.vb: Converters.MapEnums(Of ISoOperation, To)(ISoOperation)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Logging.ISoOperation, To)(SuperOffice.Diagnostics.Logging.ISoOperation)
+  name.vb: MapEnums(Of ISoOperation, To)(ISoOperation)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoOperation)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.Logging.ISoOperation)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Diagnostics.Logging.ISoOperation
+    name: ISoOperation
+    isExternal: true
+    href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation*
+  commentId: Overload:SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation
+  isExternal: true
+  href: SuperOffice.Diagnostics.Logging.ISoOperation.html#SuperOffice_Diagnostics_Logging_ISoOperation_TraceOperation_System_String_System_Collections_Specialized_NameValueCollection_System_String_
+  name: TraceOperation
+  nameWithType: ISoOperation.TraceOperation
+  fullName: SuperOffice.Diagnostics.Logging.ISoOperation.TraceOperation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Specialized.NameValueCollection
+  commentId: T:System.Collections.Specialized.NameValueCollection
+  parent: System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.namevaluecollection
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Specialized
+    name: Specialized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized

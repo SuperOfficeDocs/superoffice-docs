@@ -18,7 +18,6 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.LunchEndTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.LunchStartTime
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
-  - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SecretaryMode
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.Section
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SilentAfter
   - SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SundayFirstDay
@@ -308,30 +307,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const LunchStartTime As String = "LunchStartTime"
-- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SecretaryMode
-  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SecretaryMode
-  id: SecretaryMode
-  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView
-  langs:
-  - csharp
-  - vb
-  name: SecretaryMode
-  nameWithType: UserPreferenceStrings.DiaryView.SecretaryMode
-  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SecretaryMode
-  type: Field
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Keeps the current diary owner in all panels (Default = No)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
-  syntax:
-    content: public const string SecretaryMode = "SecretaryMode"
-    return:
-      type: System.String
-    content.vb: Public Const SecretaryMode As String = "SecretaryMode"
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SilentAfter
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.DiaryView.SilentAfter
   id: SilentAfter

@@ -615,8 +615,6 @@ items:
     name: ImportErpData
   - uid: SuperOffice.CRM.Services.ImportLine
     name: ImportLine
-  - uid: SuperOffice.CRM.Services.InitalUtmParameters
-    name: InitalUtmParameters
   - uid: SuperOffice.CRM.Services.Installation
     name: Installation
   - uid: SuperOffice.CRM.Services.KbCategory
@@ -923,6 +921,8 @@ items:
     name: SaleTypeStageLink
   - uid: SuperOffice.CRM.Services.SalesActivity
     name: SalesActivity
+  - uid: SuperOffice.CRM.Services.SavedUtmParameters
+    name: SavedUtmParameters
   - uid: SuperOffice.CRM.Services.Script
     name: Script
   - uid: SuperOffice.CRM.Services.SelectableMDOListItem
@@ -1083,6 +1083,8 @@ items:
     name: UserAndInstallationLicenceStatus
   - uid: SuperOffice.CRM.Services.UserCandidate
     name: UserCandidate
+  - uid: SuperOffice.CRM.Services.UserConnectedState
+    name: UserConnectedState
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent

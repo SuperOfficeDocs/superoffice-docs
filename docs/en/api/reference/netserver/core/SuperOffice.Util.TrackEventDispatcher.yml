@@ -19,7 +19,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: Sends events to Amplitude on a background thread
+  summary: Sends events to Amplitude and Userflow on a background thread
   example: []
   syntax:
     content: 'public class TrackEventDispatcher : ITrackEventDispatcher'

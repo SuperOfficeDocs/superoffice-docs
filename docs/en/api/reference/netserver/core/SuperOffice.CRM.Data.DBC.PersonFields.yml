@@ -28,6 +28,7 @@ items:
   - SuperOffice.CRM.Data.DBC.PersonFields.Kanafname
   - SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
   - SuperOffice.CRM.Data.DBC.PersonFields.Lastname
+  - SuperOffice.CRM.Data.DBC.PersonFields.LeadstatusId
   - SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
   - SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowId
   - SuperOffice.CRM.Data.DBC.PersonFields.ModifiedByWorkflowWhen
@@ -72,7 +73,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Person, Persons in a company or an organizations. All associates have a corresponding person record
+  summary: Fields for Person, Persons
   example: []
   syntax:
     content: public static class DBC.PersonFields
@@ -1284,6 +1285,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ModifiedByWorkflowWhen As String = "modified_by_workflow_when"
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.LeadstatusId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: DBC.PersonFields.LeadstatusId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.LeadstatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Person.LeadstatusId: Refinement of categories of lead type. Empty if the category is not a lead type. If this person has a contact, the leadstatus is from the contact and not editable on the person'
+  example: []
+  syntax:
+    content: public const string LeadstatusId = "leadstatus_id"
+    return:
+      type: System.String
+    content.vb: Public Const LeadstatusId As String = "leadstatus_id"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
