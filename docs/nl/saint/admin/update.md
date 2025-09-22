@@ -2,7 +2,7 @@
 uid: help-nl-saint-update
 title: Activiteitsmonitoring bijwerken
 description: Activiteitsmonitoring bijwerken
-keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit, statusmonitoring verwijderen, statusmonitoring herstellen
+keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit, statusmonitoring verwijderen, statusmonitoring herstellen, criteria
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -18,6 +18,8 @@ redirect_from:
   - /nl/saint/admin/select-default-follow-up-type-for-status
   - /nl/sale/saint/learn/admin/restore-status
   - /nl/saint/admin/restore-status
+  - /nl/sale/saint/learn/admin/select-status-criteria
+  - /nl/saint/admin/select-status-criteria
 ---
 
 # Activiteitsmonitoring bijwerken
@@ -49,6 +51,27 @@ Om een standaard vervolgactiviteitstype en beschrijving op te geven, gebruikt u 
 
 ![Het tabblad 'Vervolgactiviteit maken' in de SAINT-statusmonitoring, dat de selectie van vervolgactiviteitstype en invoer van aangepast bericht toont. -screenshot][img1]
 
+## <a id="criteria"></a>Criteria toevoegen aan een status
+
+Elke status moet ten minste één criterium hebben. De [criteria][2] bepalen voor welke bedrijven, personen of projecten de status van toepassing is.
+
+1. Selecteer in de statuslijst de gewenste status.
+
+1. Selecteer onder de criterialijst **Toevoegen** om een nieuwe rij in te voegen.
+
+1. Selecteer een criteriatype uit de dropdown.
+
+    ![Criterialijst met meerdere gedefinieerde voorwaarden en de knop Toevoegen onder de lijst -screenshot][img3]
+
+1. Stel de voorwaarde in (zoals **Voor**, **Na** of **Gelijk aan**) en voer een waarde in.
+
+1. Herhaal om meer criteria toe te voegen.
+
+    > [!NOTE]
+    > U kunt slechts één van elk criteriatype toevoegen. U kunt bijvoorbeeld het criterium **Postcode** niet twee keer toevoegen.
+
+1. Selecteer <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Geselecteerde statuscontrole opnieuw genereren** om de wijzigingen toe te passen.
+
 ## <a id="delete"></a>Een statusmonitoring verwijderen
 
 U kunt een status verwijderen uit de statusmonitoringlijst. Verwijderde statussen kunnen later worden hersteld.
@@ -78,7 +101,9 @@ U kunt een eerder verwijderde status herstellen en regenereren.
 
 <!-- Referenced links -->
 [1]: create-status.md
+[2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
 [img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
+[img3]: ../../../media/loc/en/saint/criteria.png

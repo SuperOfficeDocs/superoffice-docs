@@ -2,7 +2,7 @@
 uid: help-da-saint-update
 title: Opdater aktivitetsovervågning
 description: Opdater aktivitetsovervågning
-keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning
+keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning, kriterier
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -18,6 +18,8 @@ redirect_from:
   - /da/saint/admin/select-default-follow-up-type-for-status
   - /da/sale/saint/learn/admin/restore-status
   - /da/saint/admin/restore-status
+  - /da/sale/saint/learn/admin/select-status-criteria
+  - /da/saint/admin/select-status-criteria
 ---
 
 # Opdater aktivitetsovervågning
@@ -49,6 +51,27 @@ For at angive en standardopfølgningstype og beskrivelse skal du bruge fanen **O
 
 ![Fanen 'Opret opfølgning' i SAINT-statusovervågningen, der viser valg af opfølgningstype og indtastning af tilpasset besked. -screenshot][img1]
 
+## <a id="criteria"></a>Tilføj kriterier til en status
+
+Hver status skal have mindst ét kriterium. [Kriterierne][2] bestemmer, hvilke firmaer, personer eller projekter statusen gælder for.
+
+1. På statuslisten skal du vælge den ønskede status.
+
+1. Under kriterielisten skal du vælge **Tilføj** for at indsætte en ny række.
+
+1. Vælg en kriterietype fra rullelisten.
+
+    ![Kriterieliste med flere betingelser defineret og knappen Tilføj under listen -screenshot][img3]
+
+1. Angiv betingelsen (såsom **Før**, **Efter** eller **Lig med**), og indtast en værdi.
+
+1. Gentag for at tilføje flere kriterier.
+
+    > [!NOTE]
+    > Du kan kun tilføje ét af hver kriterietype. Du kan f.eks. ikke tilføje kriteriet **Postnr.** to gange.
+
+1. Vælg <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Genopretter valgt statusovervågning** for at anvende ændringerne.
+
 ## <a id="delete"></a>Slet en statusovervågning
 
 Du kan slette en status fra statusovervågningslisten. Slettede statusser kan gendannes senere.
@@ -76,7 +99,9 @@ Du kan gendanne en tidligere slettet status og regenerere den.
 
 <!-- Referenced links -->
 [1]: create-status.md
+[2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
 [img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
+[img3]: ../../../media/loc/en/saint/criteria.png

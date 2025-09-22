@@ -2,7 +2,7 @@
 uid: help-de-saint-update
 title: Aktivitätsüberwachung aktualisieren
 description: Aktivitätsüberwachung aktualisieren
-keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe, Statusüberwachung löschen, Statusüberwachung wiederherstellen
+keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe, Statusüberwachung löschen, Statusüberwachung wiederherstellen, Kriterien
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -18,6 +18,8 @@ redirect_from:
   - /de/saint/admin/select-default-follow-up-type-for-status
   - /de/sale/saint/learn/admin/restore-status
   - /de/saint/admin/restore-status
+  - /de/sale/saint/learn/admin/select-status-criteria
+  - /de/saint/admin/select-status-criteria
 ---
 
 # Aktivitätsüberwachung aktualisieren
@@ -49,6 +51,27 @@ Um einen Standard-Folgeaufgabentyp und eine Beschreibung festzulegen, verwenden 
 
 ![Die Registerkarte 'Folgeaufgabe erstellen' in der SAINT-Statusüberwachung, die die Auswahl des Folgeaufgabentyps und die Eingabe einer benutzerdefinierten Nachricht zeigt. -screenshot][img1]
 
+## <a id="criteria"></a>Kriterien zu einem Status hinzufügen
+
+Jeder Status muss mindestens ein Kriterium haben. Die [Kriterien][2] bestimmen, für welche Firmen, Personen oder Projekte der Status gilt.
+
+1. Wählen Sie in der Statusliste den gewünschten Status aus.
+
+1. Wählen Sie unter der Kriterienliste **Hinzufügen**, um eine neue Zeile einzufügen.
+
+1. Wählen Sie einen Kriterientyp aus der Dropdown-Liste aus.
+
+    ![Kriterienliste mit mehreren definierten Bedingungen und der Schaltfläche Hinzufügen unter der Liste -screenshot][img3]
+
+1. Legen Sie die Bedingung fest (wie **Vor**, **Nach** oder **Gleich**) und geben Sie einen Wert ein.
+
+1. Wiederholen Sie den Vorgang, um weitere Kriterien hinzuzufügen.
+
+    > [!NOTE]
+    > Sie können nur eines von jedem Kriterientyp hinzufügen. Sie können beispielsweise das Kriterium **Postleitzahl** nicht zweimal hinzufügen.
+
+1. Wählen Sie <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Ausgewählte Statusangaben aktualisieren**, um die Änderungen anzuwenden.
+
 ## <a id="delete"></a>Eine Statusüberwachung löschen
 
 Sie können einen Status aus der Statusüberwachungsliste löschen. Gelöschte Statusangaben können später wiederhergestellt werden.
@@ -76,7 +99,9 @@ Sie können einen zuvor gelöschten Status wiederherstellen und regenerieren.
 
 <!-- Referenced links -->
 [1]: create-status.md
+[2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
 [img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
+[img3]: ../../../media/loc/en/saint/criteria.png

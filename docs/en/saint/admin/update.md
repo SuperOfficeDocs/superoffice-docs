@@ -18,6 +18,8 @@ redirect_from:
   - /en/saint/admin/select-default-follow-up-type-for-status
   - /en/sale/saint/learn/admin/restore-status
   - /en/saint/admin/restore-status
+  - /en/sale/saint/learn/admin/select-status-criteria
+  - /en/saint/admin/select-status-criteria
 ---
 
 # Update activity monitors
@@ -49,6 +51,27 @@ To specify a default follow-up type and description, use the **Create follow-up*
 
 ![The 'Create follow-up' tab in the SAINT status monitor, showing follow-up type selection and custom message entry. -screenshot][img1]
 
+## <a id="criteria"></a>Add criteria to a status
+
+Each status must have at least one criterion. The [criteria][2] determine which companies, contacts, or projects the status applies to.
+
+1. In the status list, select the required status.
+
+1. Below the criteria list, select **Add** to insert a new row.
+
+1. Select a criterion type from the dropdown.
+
+    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+
+1. Set the condition (such as **Before**, **After**, or **Equals**), and enter a value.
+
+1. Repeat to add more criteria.
+
+    > [!NOTE]
+    > You can add only one of each criterion type. For example, you cannot add the **Postcode** criterion twice.
+
+1. Select <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerate selected status monitor** to apply the changes.
+
 ## <a id="delete"></a>Delete a status monitor
 
 You can delete a status from the status monitor list. Deleted statuses can be restored later.
@@ -76,7 +99,9 @@ You can restore a previously deleted status and regenerate it.
 
 <!-- Referenced links -->
 [1]: create-status.md
+[2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
 [img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
+[img3]: ../../../media/loc/en/saint/criteria.png

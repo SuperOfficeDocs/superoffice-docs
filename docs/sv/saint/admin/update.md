@@ -2,7 +2,7 @@
 uid: help-sv-saint-update
 title: Uppdatera aktivitetsövervakning
 description: Uppdatera aktivitetsövervakning
-keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning
+keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning, kriterier
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -18,6 +18,8 @@ redirect_from:
   - /sv/saint/admin/select-default-follow-up-type-for-status
   - /sv/sale/saint/learn/admin/restore-status
   - /sv/saint/admin/restore-status
+  - /sv/sale/saint/learn/admin/select-status-criteria
+  - /sv/saint/admin/select-status-criteria
 ---
 
 # Uppdatera aktivitetsövervakning
@@ -49,6 +51,27 @@ För att ange en standardhändelsetyp och beskrivning, använd fliken **Skapa h�
 
 ![Fliken 'Skapa händelse' i SAINT-statusövervakningen, som visar val av händelsetyp och inmatning av anpassat meddelande. -screenshot][img1]
 
+## <a id="criteria"></a>Lägg till kriterier till en status
+
+Varje status måste ha minst ett kriterium. [Kriterierna][2] avgör vilka företag, kontakter eller projekt som statusen gäller för.
+
+1. I statuslistan väljer du önskad status.
+
+1. Under kriterielistan väljer du **Lägg till** för att infoga en ny rad.
+
+1. Välj en kriterietyp från rullgardinsmenyn.
+
+    ![Kriterielista med flera definierade villkor och knappen Lägg till under listan -screenshot][img3]
+
+1. Ange villkoret (som **Före**, **Efter** eller **Lika med**) och ange ett värde.
+
+1. Upprepa för att lägga till fler kriterier.
+
+    > [!NOTE]
+    > Du kan bara lägga till ett av varje kriterietyp. Du kan till exempel inte lägga till kriteriet **Postnummer** två gånger.
+
+1. Välj <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Återskapar vald status** för att tillämpa ändringarna.
+
 ## <a id="delete"></a>Ta bort en statusövervakning
 
 Du kan ta bort en status från statusövervakningslistan. Borttagna statusar kan återställas senare.
@@ -76,7 +99,9 @@ Du kan återställa en tidigare borttagen status och regenerera den.
 
 <!-- Referenced links -->
 [1]: create-status.md
+[2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
 [img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
+[img3]: ../../../media/loc/en/saint/criteria.png

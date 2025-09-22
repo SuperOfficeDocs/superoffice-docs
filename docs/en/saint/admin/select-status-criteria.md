@@ -1,17 +1,5 @@
 ---
-uid: help-en-select-status-criteria
-title: Select status criteria
-description: Select status criteria
-keywords: SAINT, activity monitor
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
-content_type: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: en
-index: true
-redirect_from: /en/sale/saint/learn/admin/select-status-criteria
+redirect_url: https://docs.superoffice.com/en/saint/admin/update.html#criteria
 ---
 
 # Specify status criteria
