@@ -54,6 +54,8 @@ It is a good practice to check the actual type of your value and to check you do
 
 Don't use **USEC** variable as login_secret or preview_secret in web panels. This is obsolete since version 8.1 where we introduced unified log-in and you do not need to authenticate the user for viewing screens/data coming from Service in the sales client. It is also a security risk!
 
+[!include[Usec Forbidden Online](../../../includes/usec-forbidden-online.md)]
+
 ## API usage
 
 * Don't try to create an app with CRMScript. Scripts are great for small tweaks and customizations.

@@ -45,6 +45,8 @@ SoContext.CurrentPrincipal.GetSafeCredentials()
 
 This is also the return value of the `Authenticate` web-service methods and the `<usec>` template variable. Later on, you can pass in the ticket in a `WebRequest` header. You can also send it in, as the username.
 
+[!include[Usec Forbidden Online](../../includes/usec-forbidden-online.md)]
+
 * This means that **anyplace** that takes username/password, ticket/blank will work.
 * This applies to Win and Web equally - main clients, OLE DB, URL authentication, and similar.
 

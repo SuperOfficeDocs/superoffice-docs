@@ -37,6 +37,8 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 10. DO NOT check **Append ID** or **Append &lt;usec&gt;**, or values will be added behind the URL you defined.
 
+   [!include[Usec Forbidden Online](../../../../includes/usec-forbidden-online.md)]
+
 11. DO NOT check **Return to same screen**. If checked, external URLs do not work. See [Menu properties][1].
 
 12. In the **Target** field, enter "\_blank", so that the website opens in a new tab in the browser.

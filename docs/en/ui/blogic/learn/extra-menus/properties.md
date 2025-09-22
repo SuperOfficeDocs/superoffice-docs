@@ -27,7 +27,9 @@ Here you can edit the properties of options on extra menus and web panels.
 
   * Example of when NOT to use this option: If you create a button (script) that displays a lot of information on the screen, then you do not want this checked, because you want to view the information on the screen. The same goes for external URLs, because you want to go to the website when you click the button.
 
-* **Append &lt;usec&gt;**: &lt;usec&gt; is the session key for the NetServer session. To make a web panel work with NetServer using authentication, this key must be included.
+* **Append &lt;usec&gt;**: (NOT RECOMMENDED), not necessary since v8.5. &lt;usec&gt; is the session key for the NetServer session. To make a web panel work with NetServer using authentication, this key must be included.
+
+  > [!include[Usec Forbidden Online](../../../../includes/usec-forbidden-online.md)]
 
 * **Target**: Target for the URL. You can select which window the URL will open in, by entering the window instance name in the **Target** field. You can enter "_blank" if you always want to open a new window/tab or, for example, "customer" to open a separate window for this menu option or a group of menu options.
 
