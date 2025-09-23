@@ -29,7 +29,7 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
 ## Trinn
 
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. Åpne **SAINT**-bildet, og velg fanen **Firma**, **Person** eller **Prosjekt**.
 
 1. Klikk på **Legg til** under listen **Statusovervåking**.
 

@@ -29,7 +29,7 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 ## Schritte
 
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. Öffnen Sie die Anzeige **SAINT** und wählen Sie die Registerkarte **Firma**, **Kontakt** oder **Projekt** aus.
 
 1. Klicken Sie unter der Liste **Statuskontrollen** auf die Schaltfläche **Hinzufügen**.
 

@@ -29,7 +29,7 @@ Du vill övervaka företag som du har väldigt få aktiviteter tillsammans med, 
 
 ## Steg
 
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. Öppna fönstret **SAINT** och välj fliken **Företag**, **Kontakt** eller**Projekt**.
 
 1. Klicka på **Lägg till** under listan **Statusövervakning**.
 

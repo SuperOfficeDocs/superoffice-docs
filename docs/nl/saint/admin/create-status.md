@@ -29,7 +29,7 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
 ## Stappen
 
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. Open het scherm **SAINT** en selecteer het tabblad **Bedrijf**, **Persoon** of **Project**.
 
 1. Klik op **Toevoegen** onder de lijst **Statuscontroles**.
 
