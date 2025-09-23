@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: da
 index: true
 redirect_from:
-  - /da/sale/saint/learn/admin/specify-period-length
-  - /da/saint/admin/specify-period-length
+  - /da/sale/saint/learn/admin/select-period-length
+  - /da/saint/admin/select-period-length
 ---
 
 # Tællere og tællerindstillinger

@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: de
 index: true
 redirect_from:
-  - /de/sale/saint/learn/admin/specify-period-length
-  - /de/saint/admin/specify-period-length
+  - /de/sale/saint/learn/admin/select-period-length
+  - /de/saint/admin/select-period-length
 ---
 
 # Zähler und Zählereinstellungen

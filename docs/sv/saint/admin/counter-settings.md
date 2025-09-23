@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: sv
 index: true
 redirect_from:
-  - /sv/sale/saint/learn/admin/specify-period-length
-  - /sv/saint/admin/specify-period-length
+  - /sv/sale/saint/learn/admin/select-period-length
+  - /sv/saint/admin/select-period-length
 ---
 
 # Räknare och räknarinställningar

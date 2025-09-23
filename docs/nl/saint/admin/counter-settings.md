@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: nl
 index: true
 redirect_from:
-  - /nl/sale/saint/learn/admin/specify-period-length
-  - /nl/saint/admin/specify-period-length
+  - /nl/sale/saint/learn/admin/select-period-length
+  - /nl/saint/admin/select-period-length
 ---
 
 # Tellers en tellerinstellingen

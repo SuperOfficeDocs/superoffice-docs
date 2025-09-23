@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: no
 index: true
 redirect_from:
-  - /no/sale/saint/learn/admin/specify-period-length
-  - /no/saint/admin/specify-period-length
+  - /no/sale/saint/learn/admin/select-period-length
+  - /no/saint/admin/select-period-length
 ---
 
 # Tellere og tellerinnstillinger

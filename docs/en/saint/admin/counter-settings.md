@@ -12,8 +12,8 @@ audience_tooltip: Settings and maintenance
 language: en
 index: true
 redirect_from:
-  - /en/sale/saint/learn/admin/specify-period-length
-  - /en/saint/admin/specify-period-length
+  - /en/sale/saint/learn/admin/select-period-length
+  - /en/saint/admin/select-period-length
 ---
 
 # Counters and counter settings

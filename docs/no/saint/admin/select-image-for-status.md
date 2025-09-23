@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/no/saint/admin/update.html#image
+redirect_url: https://docs.superoffice.com/no/saint/admin/set-up.html#image
 ---

@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/saint/admin/counter-settings.html
+redirect_url: https://docs.superoffice.com/sv/saint/admin/counter-settings.html
 ---
