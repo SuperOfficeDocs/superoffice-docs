@@ -49,4 +49,4 @@ Sie können bis zu drei verschiedene Zeiträume definieren. Dadurch können Sie 
 [2]: update.md#regen
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/saint/counters.png
+[img1]: ../../../media/loc/en/saint/counter-settings.png

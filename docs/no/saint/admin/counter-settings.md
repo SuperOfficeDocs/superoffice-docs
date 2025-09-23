@@ -49,4 +49,4 @@ Du kan angi inntil tre ulike perioder. Dette lar deg opprette SAINT-kriterier fo
 [2]: update.md#regen
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/saint/counters.png
+[img1]: ../../../media/loc/en/saint/counter-settings.png

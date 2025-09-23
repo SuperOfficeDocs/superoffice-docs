@@ -2,7 +2,7 @@
 uid: help-en-saint-admin
 title: Set up SAINT
 description: Learn how to set up SuperOffice SAINT in this guide.
-keywords: SAINT, activity monitor
+keywords: SAINT, activity monitor, status monitor
 author: SuperOffice Product and Engineering
 date: 09.23.2025
 version: 10.5
@@ -27,6 +27,19 @@ After you know what you want to improve, try to think of the action your company
 [!include[Requirement](../includes/note-saint-req.md)]
 
 Using the **Status monitors/SAINT** tab, you can create statuses for companies, contacts and projects. Status monitors represent the functionality behind the Sales Intelligence (SAINT) concept. This facilitates following up companies, contacts and projects and provides more intelligent search options in SuperOffice CRM.
+
+![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+
+## The status list
+
+The status list on the **Company**, **Contact**, and **Project** tabs shows active status monitors for that entity and, if **Show deleted** is selected, also deleted ones.
+
+| Element | Description |
+|---|---|
+| **Visualize icon** <i class="ph ph-eye" aria-label="eye"></i> | Indicates if a status image is displayed on company, contact, or project cards. The icon appears only if the **Visualize** box is checked. |
+| **Red X** | Shown next to statuses that must be [regenerated][8]. These statuses are not updated and do not return current data. |
+| **Name column** | Displays the names of the statuses. Deleted statuses are shown in red if **Show deleted** is checked below the list. |
+| **Priority column** | Determines which status image is shown on the card when a company, contact, or project matches the criteria for multiple statuses. The highest-priority status is displayed, while other active statuses are available as links in the status dialog. |
 
 ## Status images
 
@@ -110,8 +123,9 @@ SAINT **values** are simple binary values (on or off) that determine the look an
 [5]: select-period-length.md
 [6]: restore-status.md
 [7]: edit-status.md
-[8]: manage-status-monitors.md
+[8]: update.md#regen
 [13]: ../../database/tables/countervalue.md
 [14]: ../../database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

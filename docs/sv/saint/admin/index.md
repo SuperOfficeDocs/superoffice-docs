@@ -28,6 +28,19 @@ När du vet vad du vill förbättra, försök att tänka på de åtgärder ditt 
 
 På fliken **Statusövervakning/SAINT** i kan du skapa statusar för företag, kontakter och projekt. Statusövervakning är funktionaliteten bakom Sales Intelligence (SAINT). Detta underlättar uppföljningen av företag, kontakter och projekt och ger mer intelligenta sökfunktioner i SuperOffice CRM.
 
+![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+
+## Statuslistan
+
+Statuslistan på flikarna **Företag**, **Kontakt** och **Projekt** visar aktiva statusmonitorer för denna post och – om **Visa borttagna** är markerat – även raderade.
+
+| Element | Beskrivning |
+|---|---|
+| **Visualisera-ikon** <i class="ph ph-eye" aria-label="eye"></i> | Anger om en statusbild visas på företags-, kontakt- eller projektkort. Ikonen visas endast om **Visualisera**-rutan är markerad. |
+| **Rött X** | Visas bredvid statusar som måste [regenereras][8]. Dessa statusar uppdateras inte och returnerar inte aktuella data. |
+| **Namnkolumn** | Visar namnen på statusarna. Raderade statusar visas i rött om **Visa borttagna** är markerat under listan. |
+| **Prioritetskolumn** | Anger vilken statusbild som visas på kortet när ett företag, en kontakt eller ett projekt matchar kriterierna för flera statusar. Statusen med högsta prioritet visas, medan andra aktiva statusar är tillgängliga som länkar i statusdialogen. |
+
 ## Statusbilder
 
 Status kan visas som bilder på projekt-, kontakt- eller företagskort om de uppfyller dina kriterier. En kund som du inte har haft kontakt med på ett tag kan till exempel ha ett spindelnät som statusbild. Då får du en visuell, direkt indikation på hur förhållandet till kunden är eller hur det går med ett projekt. När användaren klickar på eller håller muspekaren över en statusbild i SuperOffice CRM visas en del text. Till exempel för att ange de åtgärder som bör vidtas (du anger själv texten när du skapar statusen).
@@ -110,8 +123,9 @@ SAINT-värden är enkla binära värden (på eller av) som bestämmer utseendet 
 [5]: select-period-length.md
 [6]: restore-status.md
 [7]: edit-status.md
-[8]: manage-status-monitors.md
+[8]: update.md#regen
 [13]: ../../../../en/database/tables/countervalue.md
 [14]: ../../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

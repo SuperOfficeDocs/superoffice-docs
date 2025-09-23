@@ -49,4 +49,4 @@ U kunt maximaal drie verschillende perioden definiëren. Hiermee kunt u SAINT-cr
 [2]: update.md#regen
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/saint/counters.png
+[img1]: ../../../media/loc/en/saint/counter-settings.png

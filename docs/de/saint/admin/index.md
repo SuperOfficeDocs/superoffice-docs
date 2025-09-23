@@ -28,6 +28,19 @@ Wenn Sie wissen, was Sie verbessern möchten, sollten Sie die Aktion nachdenken,
 
 Mit der Registerkarte **Statuskontrollen/SAINT** können Sie Statusangaben für Firmen, Personen und Projekte erstellen. Statuskontrollen stellen die Funktionalität hinter dem SAINT-Konzept (Sales Intelligence) dar. Dies erleichtert die Folgeaufgaben für Firmen, Personen und Projekte und das Bereitstellen von sinnvolleren Suchoptionen in SuperOffice CRM.
 
+![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+
+## Statusliste
+
+Die Statusliste auf den Registerkarten **Firma**, **Person** und **Projekt** zeigt aktive Statusmonitore für dieses Datensatz und – wenn **Gelöschte anzeigen** ausgewählt ist – auch gelöschte.
+
+| Element | Beschreibung |
+|---|---|
+| **Darstellen-Symbol** <i class="ph ph-eye" aria-label="eye"></i> | Zeigt an, ob ein Statusbild auf Firmen-, Personen- oder Projektkarten angezeigt wird. Das Symbol wird nur angezeigt, wenn das Kontrollkästchen **Darstellen** aktiviert ist. |
+| **Rotes X** | Wird neben Statusangaben angezeigt, die [regeneriert][8] werden müssen. Diese Statusangaben werden nicht aktualisiert und geben keine aktuellen Daten zurück. |
+| **Namensspalte** | Zeigt die Namen der Statusangaben an. Gelöschte Statusangaben werden rot angezeigt, wenn **Gelöschte anzeigen** unter der Liste aktiviert ist. |
+| **Prioritätsspalte** | Legt fest, welches Statusbild auf der Karte angezeigt wird, wenn ein Firmen, Person oder Projekt die Kriterien für mehrere Status erfüllt. Die Statusangabe mit der höchsten Priorität wird angezeigt, während andere aktive Statusangaben als Links im Statusdialog verfügbar sind. |
+
 ## Statusbilder
 
 Ein Status kann als Bilder auf den Karten der Projekte, Personen oder Firmen angezeigt werden, die Ihre Kriterien erfüllen. Das Statusbild für einen Kunden, mit dem Sie längere Zeit keinen Kontakt hatten, könnte zum Beispiel ein Spinnennetz sein. Dies ist ein visueller und sofortiger Hinweis für die aktuelle Beziehung zum Kunden oder für den Fortschritt eines Projekts. Wenn der Benutzer auf ein Statusbild in SuperOffice CRM klickt oder den Mauszeiger darüber hält, wird ein Teil des Textes angezeigt, um zum Beispiel die Aktionen anzugeben, die ausgeführt werden sollen (Sie selbst geben Status ein, wenn Sie den Text erstellen).
@@ -110,8 +123,9 @@ SAINT-Werte sind einfache binäre Werte (ein oder aus), die das Erscheinungsbild
 [5]: select-period-length.md
 [6]: restore-status.md
 [7]: edit-status.md
-[8]: manage-status-monitors.md
+[8]: update.md#regen
 [13]: ../../../../en/database/tables/countervalue.md
 [14]: ../../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

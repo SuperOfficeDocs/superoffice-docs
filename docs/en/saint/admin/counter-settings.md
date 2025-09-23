@@ -49,4 +49,4 @@ You can define up to three different periods. This lets you create SAINT criteri
 [2]: update.md#regen
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/saint/counters.png
+[img1]: ../../../media/loc/en/saint/counter-settings.png

@@ -75,21 +75,9 @@ Het toevoegen van een afbeelding is optioneel. Het kan helpen om aandacht te tre
 > [!TIP]
 > Gebruik eenvoudige, lichtgekleurde afbeeldingen die de status op een zinvolle manier weergeven. Een spinnenweb kan bijvoorbeeld inactiviteit symboliseren.
 
-### Waaruit bestaat de statuslijst?
-
-* Het pictogram **Visualiseren** (<i class="ph ph-eye" aria-hidden="true"></i>) geeft aan of een [statusafbeelding][3] moet worden weergegeven voor bedrijven, personen of projectkaarten die aan de statuscriteria voldoen. Het pictogram wordt alleen weergegeven als u **Visualiseren** hebt aangevinkt op het tabblad **Afbeelding** voor de betreffende status.
-
-* Een rood kruis geeft aan dat de status opnieuw moet worden gegenereerd. Telkens wanneer u een criterium toevoegt, bewerkt of verwijdert, of bijvoorbeeld een intentie voor een taak wijzigt, moet de [status opnieuw worden gegenereerd][4]. Statussen met rode kruizen worden niet bijgewerkt en leveren geen actuele gegevens op bij gebruik van SuperOffice CRM.
-
-* **Naam** – de naam van de statussen. Verwijderde statussen worden in rood weergegeven als u **Verwijderde items weergeven** hebt ingeschakeld.
-
-* **Prioriteit** – de prioriteit van de statussen. De prioriteit bepaalt welke status weergegeven wordt als een bedrijf, persoon of project aan de criteria voor meerdere statussen voldoet.
-
 ## Waarom moet ik een prioriteit voor een status opgeven?
 
-Een bedrijf, persoon of project kan aan de criteria voor meerdere statussen voldoen, maar er kan slechts één statusafbeelding op de bedrijfskaart, het persoonskaart of de projectkaart in SuperOffice CRM worden weergegeven. Er moet dus een prioriteitsvolgorde worden opgegeven voor de weergave van statussen in SuperOffice CRM. Als een bedrijf, persoon of project niet voldoet aan de criteria voor de status met de hoogste prioriteit, wordt de status met de op een na hoogste prioriteit weergegeven. Als het bedrijf, de persoon of het project niet aan deze criteria voldoet, wordt de eerstvolgende status weergegeven, enzovoort.
-
-Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de statussen met lagere prioriteit weergegeven als koppelingen in het dialoogvenster Status. Dit dialoogvenster wordt weergegeven wanneer de gebruiker op de statusafbeelding in SuperOffice CRM klikt of voor een bedrijf, persoon of project met een actieve status **Statusinformatie weergeven** in het menu **Bedrijf**, **Persoon** of **Project** selecteert.
+Een bedrijf, persoon of project kan aan de criteria voor meerdere statussen voldoen, maar er kan slechts één statusafbeelding op de bedrijfskaart, het persoonskaart of de projectkaart in SuperOffice CRM worden weergegeven. Er moet dus een prioriteitsvolgorde worden opgegeven voor de weergave van statussen in SuperOffice CRM.
 
 ## Gerelateerde inhoud
 
@@ -99,7 +87,6 @@ Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de 
 
 <!-- Referenced links -->
 [2]: edit-status.md
-[3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md

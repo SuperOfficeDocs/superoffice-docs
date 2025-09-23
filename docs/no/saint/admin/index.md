@@ -28,6 +28,19 @@ Når du vet hva du vil forbedre, kan du prøve å tenke på hva firmaet kan gjø
 
 Fra fanen **Statusovervåking/SAINT** kan du opprette statuser for firmaer, personer og prosjekter. Statusovervåking er funksjonaliteten konseptet Sales Intelligence (SAINT). Dette forenkler oppfølging av firmaer, personer og prosjekter og gir mer intelligente søkealternativer i SuperOffice CRM.
 
+![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+
+## Statuslisten
+
+Statuslisten på fanene **Firma**, **Person** og **Prosjekt** viser aktive statusmonitorer for den posten og – hvis **Vis slettede** er valgt – også slettede.
+
+| Element | Beskrivelse |
+|---|---|
+| **Visualiser-ikon** <i class="ph ph-eye" aria-label="eye"></i> | Indikerer om et statusbilde vises på firma-, person- eller prosjektkort. Ikonet vises bare hvis **Visualiser**-boksen er merket av. |
+| **Rødt X** | Vises ved siden av statuser som må [regenereres][8]. Disse statusene oppdateres ikke og returnerer ikke gjeldende data. |
+| **Navnekolonne** | Viser navnene på statusene. Slettede statuser vises i rødt hvis **Vis slettede** er merket av nedenfor listen. |
+| **Prioritetskolonne** | Bestemmer hvilket statusbilde som vises på kortet når et firma, en person eller et prosjekt samsvarer med kriteriene for flere statuser. Den høyeste prioritetsstatusen vises, mens andre aktive statuser er tilgjengelige som lenker i statusdialogen. |
+
 ## Statusbilder
 
 Statuser kan vises som bilder på kortene til prosjekter, personer eller firmaer som oppfyller kriteriene dine. Statusbildet for en kunde du ikke har hatt kontakt med på en stund kan for eksempel være et edderkoppnett. På denne måten får du en visuell og umiddelbar indikasjon på hvordan forholdet til kunden er, eller hvordan det går med et prosjekt. Når brukeren klikker eller holder musepekeren over et statusbilde i SuperOffice CRM, vises noe av teksten. For eksempel for å indikere handlingene som skal utføres (du skriver selv inn teksten når du oppretter statusen).
@@ -110,8 +123,9 @@ SAINT-**verdier** er enkle binære verdier (på eller av) som bestemmer utseende
 [5]: select-period-length.md
 [6]: restore-status.md
 [7]: edit-status.md
-[8]: manage-status-monitors.md
+[8]: update.md#regen
 [13]: ../../database/tables/countervalue.md
 [14]: ../../database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

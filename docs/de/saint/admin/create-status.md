@@ -75,21 +75,9 @@ Das Hinzufügen eines Bildes ist optional. Es kann dazu beitragen, Aufmerksamkei
 > [!TIP]
 > Verwenden Sie einfache, helle Bilder, die den Status sinnvoll darstellen. Ein Spinnennetz kann beispielsweise Inaktivität symbolisieren.
 
-### Was ist in der Statusliste enthalten?
-
-* Das **Anzeigen**-Symbol (<i class="ph ph-eye" aria-hidden="true"></i>) gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
-
-* Ein rotes Kreuz weist darauf hin, dass der Status neu erstellt werden muss. Der [Status muss erneuert werden][4], wenn Sie ein Kriterium hinzugefügt, bearbeitet oder gelöscht oder wenn Sie zum Beispiel den Zweck für eine Aufgabe geändert haben. Statusangaben mit einem roten Kreuz werden nicht aktualisiert und geben beim Verwenden von SuperOffice CRM keine aktuellen Daten zurück.
-
-* **Name** – Der Name des Status. Gelöschte Statusangaben werden rot dargestellt, wenn das Kontrollkästchen **Gelöschte anzeigen** aktiviert wurde.
-
-* **Priorität** – Die Priorität des Status. Die Priorität bestimmt, welcher Status angezeigt werden soll, wenn eine Firma, eine Person oder ein Projekt die Kriterien für mehrere Statusangaben erfüllt.
-
 ## Warum muss ich die Priorität für einen Status festlegen?
 
-Eine Firma, eine Person oder ein Projekt kann zwar die Kriterien für mehrere Statusangaben erfüllen, in SuperOffice CRM kann jedoch nur ein Statusbild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Daher muss für die Anzeige von Statusangaben in SuperOffice CRM eine Rangfolge festgelegt werden. Bei Firmen, Personen oder Projekten, die die Kriterien für den Status mit der höchsten Priorität nicht erfüllen, wird der Status mit der nächsthöheren Priorität angezeigt. Erfüllt die Firma, die Person oder das Projekt auch diese Kriterien nicht, wird der nächste Status angezeigt usw.
-
-Bei mehreren aktiven Statusangaben für eine Firma, eine Person oder ein Projekt werden die Statusangaben mit niedrigerer Priorität als Verknüpfungen im Statusdialogfeld angezeigt. Dieses Dialogfeld wird angezeigt, wenn der Benutzer auf das Statusbild in SuperOffice CRM klickt oder im Menü **Firma**, **Person** oder **Projekt** die Option **Statusinformationen anzeigen** für eine Firma, eine Person oder ein Projekt mit aktivem Status auswählt.
+Eine Firma, eine Person oder ein Projekt kann zwar die Kriterien für mehrere Statusangaben erfüllen, in SuperOffice CRM kann jedoch nur ein Statusbild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Daher muss für die Anzeige von Statusangaben in SuperOffice CRM eine Rangfolge festgelegt werden.
 
 ## Verwandte Themen
 
@@ -99,7 +87,6 @@ Bei mehreren aktiven Statusangaben für eine Firma, eine Person oder ein Projekt
 
 <!-- Referenced links -->
 [2]: edit-status.md
-[3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md

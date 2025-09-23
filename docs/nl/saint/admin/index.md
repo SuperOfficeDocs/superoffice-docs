@@ -28,6 +28,19 @@ Nadat u hebt bepaald wat u wilt verbeteren, is de volgende stap na te gaan welke
 
 Via het tabblad **Statuscontroles/SAINT** in het scherm kunt u statussen voor bedrijven, personen en projecten maken. Statuscontroles vertegenwoordigen de functionaliteit van het Sales Intelligence-concept (SAINT). Dit maakt het mogelijk om bedrijven, personen en projecten op te volgen en biedt geavanceerde zoekopties in SuperOffice CRM.
 
+![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+
+## Statuslijst
+
+De statuslijst op de tabbladen **Bedrijf**, **Persoon** en **Project** toont actieve statusmonitors voor dit record en – als **Verwijderde tonen** is geselecteerd – ook verwijderde.
+
+| Element | Beschrijving |
+|---|---|
+| **Visualiseren-pictogram** <i class="ph ph-eye" aria-label="eye"></i> | Geeft aan of een statusafbeelding wordt weergegeven op bedrijfs-, persoon- of projectkaarten. Het pictogram verschijnt alleen als het **Visualiseren**-vakje is aangevinkt. |
+| **Rode X** | Wordt weergegeven naast statussen die [geregenereerd][8] moeten worden. Deze statussen worden niet bijgewerkt en geven geen actuele gegevens terug. |
+| **Naamkolom** | Toont de namen van de statussen. Verwijderde statussen worden rood weergegeven als **Verwijderde weergeven** is aangevinkt onder de lijst. |
+| **Prioriteitskolom** | Bepaalt welke statusafbeelding op de kaart wordt weergegeven wanneer een bedrijf, persoon of project overeenkomt met de criteria voor meerdere statussen. De status met de hoogste prioriteit wordt weergegeven, terwijl andere actieve statussen beschikbaar zijn als koppelingen in het statusdialoogvenster. |
+
 ## Statusafbeeldingen
 
 Statussen kunnen worden weergegeven als afbeeldingen op de kaarten van projecten, personen of bedrijven die voldoen aan de uw criteria. De statusafbeelding voor een klant waarmee u enige tijd geen contact hebt gehad, zou bijvoorbeeld een spinnenweb kunnen zijn. Zo beschikt u over een visuele en directe aanduiding van de status van uw relatie met de klant of van de voortgang van een project. Wanneer de gebruiker op een statusafbeelding in SuperOffice CRM klikt of de muisaanwijzer boven een statusafbeelding houdt, verschijnt er een tekst. Bijvoorbeeld om aan te geven welke acties ondernomen moeten worden (u voert deze tekst zelf in bij het maken van de status).
@@ -110,8 +123,9 @@ SAINT-waarden zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk van
 [5]: select-period-length.md
 [6]: restore-status.md
 [7]: edit-status.md
-[8]: manage-status-monitors.md
+[8]: update.md#regen
 [13]: ../../../../en/database/tables/countervalue.md
 [14]: ../../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

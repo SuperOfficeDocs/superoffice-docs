@@ -75,21 +75,9 @@ Att lägga till en bild är valfritt. Det kan hjälpa till att dra uppmärksamhe
 > [!TIP]
 > Använd enkla, ljusfarget bilder som representerar statusen på ett meningsfullt sätt. Till exempel kan ett spindelnät symbolisera inaktivitet.
 
-### Vad innehåller statuslistan?
-
-* Ikonen **Visualisera** (<i class="ph ph-eye" aria-hidden="true"></i>) indikerar om man kan [visa en statusbild][3] för företag, kontakt eller projektkort som uppfyller statuskriterierna. Ikonen visas bara om du har markerat **Visualisera** på fliken **Bild** för statusen i fråga.
-
-* Ett rött kryss indikerar att statusen måste återskapas. [Statusen måste återskapas][4] varje gång du lägger till, redigerar eller tar bort ett kriterium eller om du till exempel ändrar syftet för en uppgift. Statusar med röda kryss uppdateras inte och returnerar inte aktuella data när mana använder SuperOffice CRM.
-
-* **Namn** – namnet på statusarna. Borttagna statusar visas i rött om **Visa borttagna** är markerat.
-
-* **Prioritet** – statusarnas prioritet. Prioriteten avgör vilken status som ska visas om ett företag, en kontakt eller ett projekt uppfyller kriterierna för flera statusar.
-
 ## Varför måste jag ange prioritet för en status?
 
-Ett företag, en kontakt eller ett projekt kan uppfylla kriterierna för flera olika statusar, men det är bara möjligt att visa en statusbild på företagskortet, kontaktkortet eller projektkortet i SuperOffice CRM. En prioritetsordning måste därför anges för visning av statusar i SuperOffice CRM. Om ett företag, en kontakt eller ett projekt inte uppfyller kriterierna för högsta prioritet, visas statusen med näst högsta prioritet. Om företaget, kontakten eller projektet inte uppfyller dessa kriterier, visas nästa och så vidare.
-
-Om ett företag, en kontakt eller ett projekt har flera aktiva statusar, visas statusen med lägre prioritet som länkar i statusdialogrutan. Den här dialogrutan visas när användaren klickar på statusbilden i SuperOffice CRM eller väljer **Visa statusinformation** i menyn **Företag**, **Kontakt** eller **Projekt** för ett företag, en kontakt eller ett projekt med en aktiv status.
+Ett företag, en kontakt eller ett projekt kan uppfylla kriterierna för flera olika statusar, men det är bara möjligt att visa en statusbild på företagskortet, kontaktkortet eller projektkortet i SuperOffice CRM. En prioritetsordning måste därför anges för visning av statusar i SuperOffice CRM.
 
 ## Relaterat innehåll
 
@@ -99,7 +87,6 @@ Om ett företag, en kontakt eller ett projekt har flera aktiva statusar, visas s
 
 <!-- Referenced links -->
 [2]: edit-status.md
-[3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md

@@ -75,21 +75,9 @@ Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort 
 > [!TIP]
 > Bruk enkle, lysfarget bilder som representerer statusen på en meningsfull måte. For eksempel kan et edderkoppnett symbolisere inaktivitet.
 
-### Hva inneholder statuslisten?
-
-* **Visualiser**-ikonet (<i class="ph ph-eye" aria-hidden="true"></i>) indikerer om det skal [vises statusbilde][3] på firma, person- eller prosjektkort som oppfyller statuskriteriene. Ikonet vises bare hvis du har merket av for **Visualiser** i fanen **Bilde** for den aktuelle statusen.
-
-* Et rødt kryss indikerer at statusen må regenereres. [Statusen må regenereres][4] hver gang du har lagt til, endret eller slettet et kriterium, eller hvis du for eksempel har endret en hensikt for en oppgave. Statuser med rødt kryss har ikke blitt oppdatert og returnerer ikke oppdaterte data ved bruk i SuperOffice CRM.
-
-* **Navn** – navnet på statusene. Slettede statuser vises med rød tekst **Vis slettede** er merket av.
-
-* **Prioritet** – prioriteten til statusene. Prioriteten bestemmer hvilken status som vises hvis et firma, en person eller et prosjekt oppfyller kriteriene til flere statuser.
-
 ## Hvorfor må jeg angi prioritet?
 
-Et firma, en person eller et prosjekt kan oppfylle kriteriene til flere ulike statuser, men det er kun mulig å vise ett statusbilde på firma-, person- eller prosjektkortet i SuperOffice CRM. Derfor må det angis en prioritert rekkefølge for visning av statuser i SuperOffice CRM. Hvis et firma, en person eller et prosjekt ikke oppfyller kriteriene til statusen med høyest prioritet, vises statusen med nest høyest prioritet. Hvis firmaet, personen eller prosjektet heller ikke oppfyller disse kriteriene, vises neste status, og så videre.
-
-Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises statusene som ikke har høyest prioritet, som koblinger i dialogboksen for status. Denne dialogboksen vises når brukeren klikker på statusbildet i SuperOffice CRM eller velger **Vis statusinformasjon** på **Firma**-, **Person**- eller **Prosjekt**-menyen for et firma, en person eller et prosjekt med aktiv status.
+Et firma, en person eller et prosjekt kan oppfylle kriteriene til flere ulike statuser, men det er kun mulig å vise ett statusbilde på firma-, person- eller prosjektkortet i SuperOffice CRM. Derfor må det angis en prioritert rekkefølge for visning av statuser i SuperOffice CRM.
 
 ## Aktuelt innhold
 
@@ -99,7 +87,6 @@ Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises stat
 
 <!-- Referenced links -->
 [2]: edit-status.md
-[3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
