@@ -49,27 +49,6 @@ Statuses can be shown as images on the cards of projects, contacts or companies 
 
 When the user opens the status dialog in SuperOffice CRM, they may also create a follow-up for the status in question. The follow-up type and text can be predefined.
 
-### Example
-
-A status could, for example, apply to companies that fulfil the following criteria:
-
-* Category = Customer
-* Last sale more than 2 months old
-* Number of sales greater than 50
-
-The text in the **Description** field could then be:
-
-"&lt;name&gt; has previously been a good customer, but we have not sold anything to them in 2 months. &lt;cont&gt; is the main contact for this customer and should get in touch with the customer soon by phone (&lt;cpho&gt;) or email (&lt;mail&gt;) to find out why."
-
-In this example, the following template variables are used to tailor the text to the company in question:
-
-| Variable | Description |
-|---|---|
-| name | The name of the company |
-| cont | The name of our contact for the company |
-| cpho | The company's phone number |
-| mail | The company's email address |
-
 ## Searches and selections
 
 Statuses and counters can be used in searches and to create dynamic selections. For example, you can search for companies, contacts or projects that fulfil a status or a counter. [!include[Define counter](../includes/def-counter.md)]
@@ -79,31 +58,6 @@ You can set up 3 different counters/periods, these counters are the number of da
 ## Periods
 
 You can specify up to three different periods for counters, so that the SAINT criteria can cover shorter or longer periods. If you specify three periods of 30, 60 and 90 days respectively, you can select SAINT criteria for each of these periods.
-
-## Creation of new statuses
-
-First of all, log into SuperOffice CRM, go to the Main menu in the top-right corner and open Settings and maintenance, click on SAINT in the navigator. There you can set up your Sales Intelligence and status monitors.
-
-To create a status:
-
-1. [Create a new status][1]
-1. [Select an image for a status][2]
-1. [Select a default follow-up type for a status][3]
-1. [Specify status criteria][4]
-1. [Specify a period length][5]
-
-You can now go back to SuperOffice CRM and open a new dynamic selection to see all the contacts you have to follow up on.
-
-Make sure to add your SAINT criteria. Click Add, then click next to the field and choose Company – Counters (SAINT). Find your SAINT status monitor. In our example, we will choose Neglected Customers and click OK. Refresh your selection and you will know exactly which customers need to be followed up on.
-
-## Restore and edit statuses
-
-* [Restore a deleted status][6]
-* [Edit a status description][7]
-
-## Administrate and maintain status monitors
-
-* [Manage status monitors][8]
 
 ## <a id="database"></a>How SAINT stores counters and statuses
 
@@ -115,14 +69,19 @@ SAINT counters are stored in the [countervalue][13] table and updated automatica
 
 SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][14] table.
 
+## Related content
+
+* [Set up a new status monitor][1]
+* [Visualize statuses with images][2]
+* [Counters and counter settings][5]
+* [Update, delete, and restore status monitors][7]
+* [Regenerate status monitors and counters][8]
+
 <!-- Referenced links -->
 [1]: create-status.md
-[2]: select-image-for-status.md
-[3]: select-default-follow-up-type-for-status.md
-[4]: select-status-criteria.md
-[5]: select-period-length.md
-[6]: restore-status.md
-[7]: edit-status.md
+[2]: create-status.md#image
+[5]: counter-settings.md
+[7]: update.md
 [8]: update.md#regen
 [13]: ../../database/tables/countervalue.md
 [14]: ../../database/tables/statusvalue.md

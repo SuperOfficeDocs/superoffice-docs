@@ -85,6 +85,31 @@ Adding an image is optional. It can help draw attention and symbolize the type o
 > [!TIP]
 > Use simple, light-colored images that represent the status meaningfully. For example, a spider's web can symbolize inactivity.
 
+## Use template variables in descriptions
+
+You can use template variables in the **Description** field to personalize the text shown in follow-ups or status dialogs. Variables are replaced with information from the company, contact, or project.
+
+### Example
+
+A status could apply to companies that meet the following criteria:
+
+* Category = Customer
+* Last sale more than 2 months old
+* Number of sales greater than 50
+
+The text in the **Description** field could be:
+
+"&lt;name&gt; has previously been a good customer, but we have not sold anything to them in 2 months. &lt;cont&gt; is the main contact for this customer and should get in touch with the customer soon by phone (&lt;cpho&gt;) or email (&lt;mail&gt;) to find out why."
+
+In this example, the following template variables are used:
+
+| Variable | Description |
+|---|---|
+| name | The name of the company |
+| cont | The name of our contact for the company |
+| cpho | The company's phone number |
+| mail | The company's email address |
+
 ## Related content
 
 * [Update, delete, and restore status monitors][2]

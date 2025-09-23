@@ -85,6 +85,31 @@ Tilføjelse af et billede er valgfrit. Det kan hjælpe med at tiltrække opmærk
 > [!TIP]
 > Brug enkle, lysfarvet billeder, der repræsenterer statusen meningsfuldt. For eksempel kan et spindelvæv symbolisere inaktivitet.
 
+## Brug skabelonvariabler i beskrivelser
+
+Du kan bruge skabelonvariabler i feltet **Beskrivelse** til at tilpasse teksten, der vises i opfølgninger eller statusdialoger. Variabler erstattes med oplysninger fra firmaet, personen eller projektet.
+
+### Eksempel
+
+En status kan for eksempel gælde for firmaer, som opfylder følgende kriterier:
+
+* Kategori = Kunde
+* Sidste salg er mere end 2 måneder gammelt
+* Antal salg er højere end 50
+
+Teksten i feltet **Beskrivelse** kunne for eksempel være følgende:
+
+"&lt;name&gt; har tidligere været en god kunde, men vi har ikke solgt noget til dem i 2 måneder. &lt;cont&gt; er hovedkontakten for denne kunde og bør kontakte kunden snart på telefon (&lt;cpho&gt;) eller e-mail (&lt;mail&gt;) for at finde ud af hvorfor."
+
+I dette eksempel bruges følgende skabelonvariabler:
+
+| Variabel | Beskrivelse |
+|---|---|
+| name | Navnet på firmaet |
+| cont | Navnet på vores kontakt for firmaet |
+| cpho | Firmaets telefonnummer |
+| mail | Firmaets e-mailadresse |
+
 ## Relateret indhold
 
 * [Opdater, slet og gendan statusovervågning][2]

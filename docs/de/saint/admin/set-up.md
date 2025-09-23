@@ -85,6 +85,31 @@ Das Hinzufügen eines Bildes ist optional. Es kann helfen, Aufmerksamkeit zu err
 > [!TIP]
 > Verwenden Sie einfache, helle Bilder, die den Status auf sinnvolle Weise darstellen. Ein Spinnennetz kann beispielsweise Inaktivität symbolisieren.
 
+## Vorlagenvariablen in Beschreibungen verwenden
+
+Sie können Vorlagenvariablen im Feld **Beschreibung** verwenden, um den Text zu personalisieren, der in Folgeaufgaben oder Statusdialogen angezeigt wird. Variablen werden durch Informationen aus der Firma, der Person oder dem Projekt ersetzt.
+
+### Beispiel
+
+Ein Status könnte sich zum Beispiel auf Firmen beziehen, die folgende Kriterien erfüllen:
+
+* Kategorie = Kunde
+* Letzter Verkauf älter als 2 Monate
+* Anzahl der Verkäufe größer als 50
+
+Der Text im Feld **Beschreibung** könnte wie folgt lauten:
+
+"&lt;name&gt; war früher ein guter Kunde, aber wir haben seit 2 Monaten nichts an sie verkauft. &lt;cont&gt; ist der Hauptkontakt für diesen Kunden und sollte den Kunden bald telefonisch (&lt;cpho&gt;) oder per E-Mail (&lt;mail&gt;) kontaktieren, um herauszufinden warum."
+
+In diesem Beispiel werden folgende Vorlagenvariablen verwendet:
+
+| Variable | Beschreibung |
+|---|---|
+| name | Der Name der Firma |
+| cont | Der Name unseres Kontakts für die Firma |
+| cpho | Die Telefonnummer der Firma |
+| mail | Die E-Mail-Adresse der Firma |
+
 ## Verwandte Inhalte
 
 * [Statusüberwachung aktualisieren, löschen und wiederherstellen][2]

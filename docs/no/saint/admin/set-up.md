@@ -85,6 +85,31 @@ Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort 
 > [!TIP]
 > Bruk enkle, lysfarget bilder som representerer statusen på en meningsfull måte. For eksempel kan et edderkoppnett symbolisere inaktivitet.
 
+## Bruk malvariabler i beskrivelser
+
+Du kan bruke malvariabler i feltet **Beskrivelse** for å tilpasse teksten som vises i oppfølginger eller statusdialoger. Variabler erstattes med informasjon fra firmaet, personen eller prosjektet.
+
+### Eksempel
+
+En status kan for eksempel gjelde for firmaer som oppfyller følgende kriterier:
+
+* Kategori = Kunde
+* Siste salg er mer enn 2 måneder gammelt
+* Antall salg større enn 50
+
+Teksten i feltet **Beskrivelse** kan da være:
+
+"&lt;name&gt; har tidligere vært en god kunde, men vi har ikke solgt noe til dem på 2 måneder. &lt;cont&gt; er hovedkontakten for denne kunden og bør ta kontakt med kunden snart per telefon (&lt;cpho&gt;) eller e-post (&lt;mail&gt;) for å finne ut hvorfor."
+
+I dette eksemplet brukes følgende malvariabler:
+
+| Variabel | Beskrivelse |
+|---|---|
+| name | Navnet på firmaet |
+| cont | Navnet på vår kontakt for firmaet |
+| cpho | Firmaets telefonnummer |
+| mail | Firmaets e-postadresse |
+
 ## Aktuelt innhold
 
 * [Oppdater, slett og gjenopprett statusovervåkning][2]

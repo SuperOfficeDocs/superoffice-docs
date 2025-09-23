@@ -85,6 +85,31 @@ Att lägga till en bild är valfritt. Det kan hjälpa till att dra uppmärksamhe
 > [!TIP]
 > Använd enkla, ljusfarget bilder som representerar statusen på ett meningsfullt sätt. Till exempel kan ett spindelnät symbolisera inaktivitet.
 
+## Använd mallvariabler i beskrivningar
+
+Du kan använda mallvariabler i fältet **Beskrivning** för att anpassa texten som visas i uppföljningar eller statusdialoger. Variabler ersätts med information från företaget, kontakten eller projektet.
+
+### Exempel
+
+En status kan gälla för till exempel alla företag som uppfyller följande kriterier:
+
+* Kategori = Kund
+* Den senaste försäljningen var för över 2 månader sedan
+* Antal försäljningar är över 50
+
+Texten i fältet **Beskrivning** kan till exempel vara:
+
+"&lt;name&gt; har tidigare varit en bra kund, men vi har inte sålt något till dem på 2 månader. &lt;cont&gt; är huvudkontakten för denna kund och bör kontakta kunden snart per telefon (&lt;cpho&gt;) eller e-post (&lt;mail&gt;) för att ta reda på varför."
+
+I detta exempel används följande mallvariabler:
+
+| Variabel | Beskrivning |
+|---|---|
+| name | Namnet på företaget |
+| cont | Namnet på vår kontakt för företaget |
+| cpho | Företagets telefonnummer |
+| mail | Företagets e-postadress |
+
 ## Relaterat innehåll
 
 * [Uppdatera, ta bort och återställ statusövervakning][2]

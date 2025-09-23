@@ -49,27 +49,6 @@ Status kan visas som bilder på projekt-, kontakt- eller företagskort om de upp
 
 När dialogrutan för status öppnas i SuperOffice CRM, får man också möjlighet att skapa en händelse för den aktuella statusen. Händelsetyp och händelsetext kan fördefinieras.
 
-### Exempel
-
-En status kan gälla för till exempel alla företag som uppfyller följande kriterier:
-
-* Kategori = Kund
-* Den senaste försäljningen var för över 2 månader sedan
-* Antal försäljningar är över 50
-
-Texten i fältet **Beskrivning** kan till exempel vara:
-
-"&lt;name&gt; har tidigare varit en bra kund, men vi har inte sålt något till dem på två månader. &lt;cont&gt; är huvudkontakt för den här kunden och bör snarast ta kontakt med kunden på telefon (&lt;cpho&gt;) eller e-post (&lt;mail&gt;) och ta reda på varför."
-
-I detta exempel användes följande mallvariabler för att skräddarsy texten till det aktuella företaget:
-
-| Variabel | Beskrivning |
-|---|---|
-| name | Företagets namn |
-| cont | Namnet på vår kontakt för företaget |
-| cpho | Företagets telefonnummer |
-| mail | Företagets e-postadress |
-
 ## Sökningar och urval
 
 Statusar och räknare kan användas i sökningar och när du skapar dynamiska urval. Du kan till exempel söka efter företag. kontakter eller projekt som har en viss status eller räknare. [!include[Define counter](../includes/def-counter.md)]

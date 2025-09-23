@@ -49,27 +49,6 @@ Statussen kunnen worden weergegeven als afbeeldingen op de kaarten van projecten
 
 Wanneer de gebruiker het dialoogvenster status in SuperOffice CRM opent,kan deze ook een vervolgactiviteit voor de betreffende status maken. Het type vervolgactiviteit en de tekst kunnen vooraf worden gedefinieerd.
 
-### Voorbeeld
-
-Een status zou bijvoorbeeld van toepassing kunnen zijn op bedrijven die aan de volgende criteria voldoen:
-
-* Categorie = Klant
-* Laatste verkoop meer dan 2 maanden geleden
-* Aantal verkopen groter dan 50
-
-De tekst in het veld **Beschrijving** zou dan als volgt kunnen luiden:
-
-"&lt;name&gt; was voorheen een goede klant, maar we hebben al 2 maanden niets aan hen verkocht. &lt;cont&gt; is de hoofdcontactpersoon voor deze klant en moet snel telefonisch (&lt;cpho&gt;) of per e-mail (&lt;mail&gt;) contact opnemen met de klant om de reden te achterhalen."
-
-In dit voorbeeld worden de volgende sjabloonvariabelen gebruikt om de tekst aan het specifieke bedrijf aan te passen:
-
-| Variabele | Beschrijving |
-|---|---|
-| naam | De naam van het bedrijf |
-| cont | De naam van onze contactpersoon voor het bedrijf |
-| cpho | Telefoonnummer van bedrijf |
-| mail | E-mailadres van het bedrijf |
-
 ## Zoekbewerkingen en selecties
 
 Statussen en tellers kunnen worden gebruikt in zoekbewerkingen en voor het maken van dynamische selecties. Zo kunt u bijvoorbeeld zoeken naar bedrijven, personen of projecten die voldoen aan criteria voor een status of teller.[!include[Define counter](../includes/def-counter.md)]

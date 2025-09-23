@@ -49,27 +49,6 @@ Statuser kan vises som bilder på kortene til prosjekter, personer eller firmaer
 
 Når brukeren åpner statusdialogen i SuperOffice CRM, kan brukeren også opprette en oppfølging av den aktuelle statusen. Oppfølgingstype og -tekst kan forhåndsdefineres.
 
-### Eksempel
-
-En status kan for eksempel gjelde for firmaer som oppfyller følgende kriterier:
-
-* Kategori = Kunde
-* Siste salg er mer enn 2 måneder gammelt
-* Antall salg større enn 50
-
-Teksten i feltet **Beskrivelse** kan da være:
-
-"&lt;navn&gt; har tidligere vært en god kunde, men vi har ikke solgt noe til dem på 2 måneder. &lt;forts&gt; er primærkontakten for denne kunden og bør kontakte kunden snart på telefon (&lt;cpho&gt;) eller e-post (&lt;post&gt;) for å finne ut hvorfor."
-
-I dette eksempelet er følgende malvariabler brukt for å skreddersy teksten til gjeldende firma:
-
-| Variabel | Beskrivelse |
-|---|---|
-| navn | Navnet på firmaet |
-| cont | Navnet på vår kontaktperson for firmaet |
-| cpho | Firmaets telefonnummer |
-| e-post | Firmaets e-postadresse |
-
 ## Søk og utvalg
 
 Statuser og tellere kan brukes i søk og til å opprette dynamiske utvalg. Du kan for eksempel søke etter firmaer, personer eller prosjekter som oppfyller en status eller en teller. [!include[Define counter](../includes/def-counter.md)]

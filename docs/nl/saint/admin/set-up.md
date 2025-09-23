@@ -85,6 +85,31 @@ Het toevoegen van een afbeelding is optioneel. Het kan helpen om aandacht te tre
 > [!TIP]
 > Gebruik eenvoudige, lichtgekleurde afbeeldingen die de status op een zinvolle manier vertegenwoordigen. Een spinnenweb kan bijvoorbeeld inactiviteit symboliseren.
 
+## Sjabloonvariabelen gebruiken in beschrijvingen
+
+U kunt sjabloonvariabelen gebruiken in het veld **Beschrijving** om de tekst te personaliseren die wordt weergegeven in vervolgactiviteiten of statusdialogen. Variabelen worden vervangen door informatie van het bedrijf, de persoon of het project.
+
+### Voorbeeld
+
+Een status zou bijvoorbeeld van toepassing kunnen zijn op bedrijven die aan de volgende criteria voldoen:
+
+* Categorie = Klant
+* Laatste verkoop meer dan 2 maanden geleden
+* Aantal verkopen groter dan 50
+
+De tekst in het veld **Beschrijving** zou dan als volgt kunnen luiden:
+
+"&lt;name&gt; is eerder een goede klant geweest, maar we hebben al 2 maanden niets aan hen verkocht. &lt;cont&gt; is het hoofdcontact voor deze klant en zou de klant binnenkort telefonisch (&lt;cpho&gt;) of per e-mail (&lt;mail&gt;) moeten benaderen om erachter te komen waarom."
+
+In dit voorbeeld worden de volgende sjabloonvariabelen gebruikt:
+
+| Variabele | Beschrijving |
+|---|---|
+| name | De naam van het bedrijf |
+| cont | De naam van ons contact voor het bedrijf |
+| cpho | Het telefoonnummer van het bedrijf |
+| mail | Het e-mailadres van het bedrijf |
+
 ## Gerelateerde inhoud
 
 * [Statusbewaking bijwerken, verwijderen en herstellen][2]

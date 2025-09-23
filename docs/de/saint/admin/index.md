@@ -49,27 +49,6 @@ Ein Status kann als Bilder auf den Karten der Projekte, Personen oder Firmen ang
 
 Wenn der Benutzer das Statusdialogfeld in SuperOffice CRM öffnet, kann er auch eine Folgeaufgabe für den betreffenden Status erstellen. Der Folgeaufgabentyp und -text kann voreingestellt sein.
 
-### Beispiel
-
-Ein Status könnte sich zum Beispiel auf Firmen beziehen, die folgende Kriterien erfüllen:
-
-* Kategorie = Kunde
-* Letzter Verkauf älter als 2 Monate
-* Anzahl der Verkäufe größer als 50
-
-Der Text im Feld **Beschreibung** könnte wie folgt lauten:
-
-"&lt;name&gt; war früher ein guter Kunde, aber wir haben seit 2 Monaten nichts mehr an sie verkauft. &lt;cont&gt; ist die Hauptperson für diesen Kunden und sollte sich demnächst telefonisch (&lt;cpho&gt;) oder per E-Mail (&lt;mail&gt;) mit dem Kunden in Verbindung setzen, um den Grund herauszufinden."
-
-In diesem Beispiel wird der Text mit den folgenden Vorlagenvariablen an die entsprechende Firma angepasst:
-
-| Variable | Beschreibung |
-|---|---|
-| Name | Der Name der Firma |
-| cont | Der Name der Person für die Firma |
-| cpho | Telefonnummer der Firma |
-| mail | E-Mail-Adresse der Firma |
-
 ## Suchen und Selektionen
 
 Statusangaben und Zähler können in Suchen und für das Erstellen dynamischer Selektionen verwendet werden. Sie können zum Beispiel nach Firmen, Personen oder Projekten, die einem Status oder Zähler entsprechen, suchen. [!include[Define counter](../includes/def-counter.md)]
