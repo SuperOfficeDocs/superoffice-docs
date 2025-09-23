@@ -2,15 +2,18 @@
 uid: help-nl-saint-status-create
 title: Nieuwe status maken
 description: Nieuwe status maken
-keywords: SAINT, statuscontroles
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+keywords: SAINT, statuscontroles, afbeelding, visualiseren, zoeken
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-redirect_from: /nl/sale/saint/learn/admin/create-status
+redirect_from: 
+  - /nl/sale/saint/learn/admin/create-status
+  - /nl/sale/saint/learn/admin/select-image-for-status
+  - /nl/saint/admin/select-image-for-status
 index: true
 ---
 
@@ -44,6 +47,34 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
 1. Als er meerdere statussen in de lijst staan, moet u een prioriteit opgeven voor de nieuwe status. Klik op de status en gebruik de pijltoetsen rechts van de statuslijst om de status omhoog of omlaag te verplaatsen in de lijst.
 
+### Criteria voor de status opgeven
+
+Elke status moet ten minste één criterium bevatten. Na het maken van de status:
+
+1. Selecteer de nieuwe status in de lijst.
+1. Selecteer **Toevoegen** om een nieuw criterium in te voegen.
+1. Kies een criteriumtype, stel de voorwaarde in en voer een waarde in.
+1. Herhaal indien nodig en selecteer vervolgens **Geselecteerde statuscontrole regenereren** om de status te activeren.
+
+## <a id="image"></a>Een afbeelding selecteren voor een status
+
+U kunt een afbeelding toevoegen die wordt weergegeven op bedrijfs-, persoons- of projectkaarten die voldoen aan de statuscriteria. De afbeelding verschijnt als een licht watermerk (40% transparantie) zodat het andere inhoud niet verbergt.
+
+Het toevoegen van een afbeelding is optioneel. Het kan helpen om aandacht te trekken en het type vervolgactie te symboliseren dat u wilt dat gebruikers ondernemen. Als u de status alleen wilt gebruiken voor zoekopdrachten of selecties, kunt u deze zonder afbeelding laten.
+
+1. Selecteer in de statuslijst de gewenste status.
+1. Vink aan de rechterkant van het scherm **Visualiseren** aan om de afbeelding weer te geven.
+1. Selecteer **Afbeelding wijzigen**.
+1. Voer een van de volgende handelingen uit:
+    * Selecteer een van de bestaande afbeeldingen uit de lijst **Afbeeldingen**.
+    * Selecteer **Toevoegen**, upload een bestand, voer een beschrijving in en selecteer **Opslaan**.
+1. Selecteer **OK** om te bevestigen.
+
+[!include[File type and size](../../learn/includes/image-type-and-size.md)]
+
+> [!TIP]
+> Gebruik eenvoudige, lichtgekleurde afbeeldingen die de status op een zinvolle manier weergeven. Een spinnenweb kan bijvoorbeeld inactiviteit symboliseren.
+
 ### Waaruit bestaat de statuslijst?
 
 * Het pictogram **Visualiseren** (<i class="ph ph-eye" aria-hidden="true"></i>) geeft aan of een [statusafbeelding][3] moet worden weergegeven voor bedrijven, personen of projectkaarten die aan de statuscriteria voldoen. Het pictogram wordt alleen weergegeven als u **Visualiseren** hebt aangevinkt op het tabblad **Afbeelding** voor de betreffende status.
@@ -62,8 +93,6 @@ Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de 
 
 ## Gerelateerde inhoud
 
-* [Een afbeelding selecteren voor een status][3]
-* [Een standaardtype vervolgactiviteit selecteren voor een status][5]
 * [Statuscriteria opgeven][6]
 * [Een periodeduur opgeven][7]
 * [Statuscontroles beheren][4]
@@ -72,7 +101,6 @@ Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de 
 [2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
-[5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md

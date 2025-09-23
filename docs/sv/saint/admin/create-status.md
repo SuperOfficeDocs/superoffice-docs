@@ -2,15 +2,18 @@
 uid: help-sv-saint-status-create
 title: Skapa ny status
 description: Skapa ny status
-keywords: SAINT, statusövervakning
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+keywords: SAINT, statusövervakning, bild, visualisera, sökning
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/sale/saint/learn/admin/create-status
+redirect_from: 
+  - /sv/sale/saint/learn/admin/create-status
+  - /sv/sale/saint/learn/admin/select-image-for-status
+  - /sv/saint/admin/select-image-for-status
 index: true
 ---
 
@@ -44,6 +47,34 @@ Du vill övervaka företag som du har väldigt få aktiviteter tillsammans med, 
 
 1. Om det finns flera statusar i listan, anger du vilken prioritet du vill att den nya statusen ska ha. Klicka på statusen och använd pilknapparna till höger om statuslistan för att flytta den upp eller ner i listan.
 
+### Ange kriterier för statusen
+
+Varje status måste innehålla minst ett kriterium. Efter att ha skapat statusen:
+
+1. Välj den nya statusen i listan.
+1. Välj **Lägg till** för att infoga ett nytt kriterium.
+1. Välj en kriteriumtyp, ställ in villkoret och ange ett värde.
+1. Upprepa vid behov, välj sedan **Regenerera vald statusövervakning** för att aktivera statusen.
+
+## <a id="image"></a>Välja en bild för en status
+
+Du kan lägga till en bild som ska visas på företags-, kontakt- eller projektkort som uppfyller statuskriterierna. Bilden visas som ett ljust vattenstämpel (40% transparens) så att den inte skymmer annat innehåll.
+
+Att lägga till en bild är valfritt. Det kan hjälpa till att dra uppmärksamhet och symbolisera den åtgärd du vill att användarna ska vidta. Om du bara vill använda statusen för sökningar eller urval kan du lämna den utan bild.
+
+1. I statuslistan väljer du önskad status.
+1. På höger sida av skärmen markerar du **Visualisera** för att visa bilden.
+1. Välj **Ändra bild**.
+1. Gör något av följande:
+    * Välj en av de befintliga bilderna från listan **Bilder**.
+    * Välj **Lägg till**, ladda upp en fil, ange en beskrivning och välj **Spara**.
+1. Välj **OK** för att bekräfta.
+
+[!include[File type and size](../../learn/includes/image-type-and-size.md)]
+
+> [!TIP]
+> Använd enkla, ljusfarget bilder som representerar statusen på ett meningsfullt sätt. Till exempel kan ett spindelnät symbolisera inaktivitet.
+
 ### Vad innehåller statuslistan?
 
 * Ikonen **Visualisera** (<i class="ph ph-eye" aria-hidden="true"></i>) indikerar om man kan [visa en statusbild][3] för företag, kontakt eller projektkort som uppfyller statuskriterierna. Ikonen visas bara om du har markerat **Visualisera** på fliken **Bild** för statusen i fråga.
@@ -62,8 +93,6 @@ Om ett företag, en kontakt eller ett projekt har flera aktiva statusar, visas s
 
 ## Relaterat innehåll
 
-* [Välja bild för status][3]
-* [Välja typ av standardhändelse för status][5]
 * [Ange statuskriterier][6]
 * [Ange periodlängd][7]
 * [Administrera statusövervakning][4]
@@ -72,7 +101,6 @@ Om ett företag, en kontakt eller ett projekt har flera aktiva statusar, visas s
 [2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
-[5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md

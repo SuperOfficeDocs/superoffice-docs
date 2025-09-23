@@ -2,15 +2,18 @@
 uid: help-no-saint-status-create
 title: Opprette ny status
 description: Opprette ny status
-keywords: SAINT, statusovervåking
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+keywords: SAINT, statusovervåking, bilde, visualiser, søk
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
-redirect_from: /no/sale/saint/learn/admin/create-status
+redirect_from: 
+  - /no/sale/saint/learn/admin/create-status
+  - /no/sale/saint/learn/admin/select-image-for-status
+  - /no/saint/admin/select-image-for-status
 index: true
 ---
 
@@ -44,6 +47,34 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
 1. Hvis det er flere statuser i listen, angir du prioriteten du vil at den nye statusen skal ha. Klikk på statusen, og bruk pilknappene til høyre for statuslisten for å flytte den opp eller ned på listen.
 
+### Angi kriterier for statusen
+
+Hver status må inneholde minst ett kriterium. Etter å ha opprettet statusen:
+
+1. Velg den nye statusen i listen.
+1. Velg **Legg til** for å sette inn et nytt kriterium.
+1. Velg en kriteriumtype, sett betingelsen og angi en verdi.
+1. Gjenta etter behov, velg deretter **Regenerer valgt statusovervåking** for å aktivere statusen.
+
+## <a id="image"></a>Velge et bilde for en status
+
+Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort som oppfyller statuskriteriene. Bildet vises som et lett vannmerke (40% gjennomsiktighet) slik at det ikke skjuler annet innhold.
+
+Å legge til et bilde er valgfritt. Det kan bidra til å tiltrekke oppmerksomhet og symbolisere handlingen du ønsker at brukerne skal utføre. Hvis du bare vil bruke statusen for søk eller utvalg, kan du utelate bilde.
+
+1. I statuslisten velger du ønsket status.
+1. På høyre side av skjermen merker du av for **Visualiser** for å vise bildet.
+1. Velg **Endre bilde**.
+1. Gjør ett av følgende:
+    * Velg et av de eksisterende bildene fra **Bilder**-listen.
+    * Velg **Legg til**, last opp en fil, skriv inn en beskrivelse og velg **Lagre**.
+1. Velg **OK** for å bekrefte.
+
+[!include[File type and size](../../learn/includes/image-type-and-size.md)]
+
+> [!TIP]
+> Bruk enkle, lysfarget bilder som representerer statusen på en meningsfull måte. For eksempel kan et edderkoppnett symbolisere inaktivitet.
+
 ### Hva inneholder statuslisten?
 
 * **Visualiser**-ikonet (<i class="ph ph-eye" aria-hidden="true"></i>) indikerer om det skal [vises statusbilde][3] på firma, person- eller prosjektkort som oppfyller statuskriteriene. Ikonet vises bare hvis du har merket av for **Visualiser** i fanen **Bilde** for den aktuelle statusen.
@@ -62,8 +93,6 @@ Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises stat
 
 ## Aktuelt innhold
 
-* [Velge bilde for status][3]
-* [Velge standard oppfølgingstype for status][5]
 * [Angi statuskriterier][6]
 * [Angi periodelengde][7]
 * [Administrere statusovervåking][4]
@@ -72,7 +101,6 @@ Hvis et firma, en person eller et prosjekt har flere aktive statuser, vises stat
 [2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
-[5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md

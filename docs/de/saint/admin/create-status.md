@@ -2,15 +2,18 @@
 uid: help-de-saint-status-create
 title: Neuen Status erstellen
 description: Neuen Status erstellen
-keywords: SAINT, Statuskontrollen
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+keywords: SAINT, Statuskontrollen, Bild, darstellen, Suche
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/sale/saint/learn/admin/create-status
+redirect_from: 
+  - /de/sale/saint/learn/admin/create-status
+  - /de/sale/saint/learn/admin/select-image-for-status
+  - /de/saint/admin/select-image-for-status
 index: true
 ---
 
@@ -44,6 +47,34 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 1. Wenn mehrere Statusangaben in der Liste enthalten sind, müssen Sie die Priorität für den neuen Status festlegen. Klicken Sie auf den Status und verschieben Sie ihn mit den Pfeiltasten rechts neben der Statusliste nach oben oder nach unten.
 
+### Kriterien für den Status festlegen
+
+Jeder Status muss mindestens ein Kriterium enthalten. Nach dem Erstellen des Status:
+
+1. Wählen Sie den neuen Status in der Liste aus.
+1. Wählen Sie **Hinzufügen**, um ein neues Kriterium einzufügen.
+1. Wählen Sie einen Kriteriumtyp, stellen Sie die Bedingung ein und geben Sie einen Wert ein.
+1. Wiederholen Sie den Vorgang nach Bedarf und wählen Sie dann **Ausgewählte Statusüberwachung regenerieren**, um den Status zu aktivieren.
+
+## <a id="image"></a>Ein Bild für einen Status auswählen
+
+Sie können ein Bild hinzufügen, das auf Firmen-, Personen- oder Projektkarten angezeigt wird, die den Statuskriterien entsprechen. Das Bild erscheint als helles Wasserzeichen (40% Transparenz), sodass es andere Inhalte nicht verdeckt.
+
+Das Hinzufügen eines Bildes ist optional. Es kann dazu beitragen, Aufmerksamkeit zu erregen und die Art der Folgeaktion zu symbolisieren, die Benutzer ausführen sollen. Wenn Sie den Status nur für Suchen oder Selektionen verwenden möchten, können Sie ihn ohne Bild belassen.
+
+1. Wählen Sie in der Statusliste den gewünschten Status aus.
+1. Aktivieren Sie auf der rechten Seite des Bildschirms **Darstellen**, um das Bild anzuzeigen.
+1. Wählen Sie **Bild ändern**.
+1. Führen Sie einen der folgenden Schritte aus:
+    * Wählen Sie eines der vorhandenen Bilder aus der Liste **Bilder** aus.
+    * Wählen Sie **Hinzufügen**, laden Sie eine Datei hoch, geben Sie eine Beschreibung ein und wählen Sie **Speichern**.
+1. Wählen Sie **OK** zur Bestätigung.
+
+[!include[File type and size](../../learn/includes/image-type-and-size.md)]
+
+> [!TIP]
+> Verwenden Sie einfache, helle Bilder, die den Status sinnvoll darstellen. Ein Spinnennetz kann beispielsweise Inaktivität symbolisieren.
+
 ### Was ist in der Statusliste enthalten?
 
 * Das **Anzeigen**-Symbol (<i class="ph ph-eye" aria-hidden="true"></i>) gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
@@ -62,8 +93,6 @@ Bei mehreren aktiven Statusangaben für eine Firma, eine Person oder ein Projekt
 
 ## Verwandte Themen
 
-* [Bild für einen Status auswählen][3]
-* [Standardfolgeaufgabe für einen Status auswählen][5]
 * [Statuskriterien festlegen][6]
 * [Zeitraum festlegen][7]
 * [Statuskontrollen verwalten][4]
@@ -72,7 +101,6 @@ Bei mehreren aktiven Statusangaben für eine Firma, eine Person oder ein Projekt
 [2]: edit-status.md
 [3]: select-image-for-status.md
 [4]: manage-status-monitors.md
-[5]: select-default-follow-up-type-for-status.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md
