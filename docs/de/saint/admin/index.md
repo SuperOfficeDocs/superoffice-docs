@@ -3,9 +3,9 @@ uid: help-de-saint-admin
 title: SAINT festlegen
 description: Lernen Sie in dieser Anleitung, wie Sie SuperOffice SAINT festlegen.
 keywords: SAINT, Statuskontrollen
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -92,6 +92,16 @@ Stellen Sie sicher, dass Sie Ihre SAINT-Kriterien hinzufügen. Klicken Sie auf H
 
 * [Statuskontrollen verwalten][8]
 
+## <a id="database"></a>Wie SAINT Zähler und Status speichert
+
+SAINT-Zähler werden in der [countervalue][13]-Tabelle gespeichert und automatisch aktualisiert, wenn Sie Aktionen durchführen:
+
+* Wenn SAINT aktiviert ist, wird bei der Erstellung einer Person oder eines Projekts eine Reihe von Zählerzeilen erstellt.
+
+* Wann immer eine Folgeaufgabe, ein Dokument oder ein Verkauf erstellt wird, werden die entsprechenden Zählerzeilen aktualisiert.
+
+SAINT-Werte sind einfache binäre Werte (ein oder aus), die das Erscheinungsbild der Firmen- und Projektkarten bestimmen. Diese Werte werden in der [statusvalue][14]-Tabelle gespeichert.
+
 <!-- Referenced links -->
 [1]: create-status.md
 [2]: select-image-for-status.md
@@ -101,5 +111,7 @@ Stellen Sie sicher, dass Sie Ihre SAINT-Kriterien hinzufügen. Klicken Sie auf H
 [6]: restore-status.md
 [7]: edit-status.md
 [8]: manage-status-monitors.md
+[13]: ../../../../en/database/tables/countervalue.md
+[14]: ../../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->

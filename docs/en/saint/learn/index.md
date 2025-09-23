@@ -134,27 +134,17 @@ The **View statuses** dialog is displayed when you click a status image for a co
 | Create follow-up | Used to [create a new follow-up][1] for the company, contact, or project. The type of follow-up created by default is defined in Settings and maintenance. |
 | Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. This option can be used only for static selections. [How to use statuses in dynamic selections][2].|
 
-## Behind the scenes
-
-SAINT counters are stored in the [countervalue][3] table and updated automatically as you do things:
-
-* When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
-
-* Whenever a follow-up, document, or sale is created, then the corresponding counter rows are updated.
-
-SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][4] table.
-
 ## Related content
 
 * [Set up activity monitors][5]
+* [How SAINT stores counters and statuses][4]
 * [Use status monitors in a dynamic selection][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../database/tables/countervalue.md
-[4]: ../../database/tables/statusvalue.md
-[5]: ../admin/index.md
+[4]: ../admin/index.md#database
+[5]: ../admin/set-up.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png

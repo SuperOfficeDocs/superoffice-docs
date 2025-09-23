@@ -3,9 +3,9 @@ uid: help-nl-saint
 title: Sales Intelligence (SAINT)
 description: In deze gids staat hoe SAINT uw verkoop- en klantprocessen kan verbeteren en workflows kan verbeteren.
 keywords: SAINT, statuscontroles
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -133,27 +133,17 @@ Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een st
 | Vervolgactiviteit maken | Wordt gebruikt om een nieuwe [vervolgactiviteit te maken][1] voor het bedrijf, de persoon of het project. Het type vervolgactiviteit dat standaard wordt gemaakt, is gedefinieerd in Instellingen en onderhoud. |
 | Toevoegen aan selectie | Klikken op deze knop opent het dialoogvenster **Toevoegen aan selectie** waarin u het huidige bedrijf of de huidige persoon kunt toevoegen aan een willekeurige statische selectie. Deze optie kan alleen worden gebruikt voor statische selecties. [Statussen gebruiken in dynamische selecties][2].|
 
-## Achter de schermen
-
-SAINT-tellers worden opgeslagen in de [countervalue][3]-tabel en automatisch bijgewerkt wanneer je acties uitvoert:
-
-* Wanneer SAINT is ingeschakeld, worden er een aantal tellerregels aangemaakt telkens als een persoon of project wordt aangemaakt.
-
-* Telkens wanneer een vervolgactiviteit, document of verkoop wordt aangemaakt, worden de bijbehorende tellerregels bijgewerkt.
-
-SAINT-waarden zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk van de bedrijfs- en projectkaarten bepalen. Deze waarden worden opgeslagen in de [statusvalue][4]-tabel.
-
-## Gerelateerde inhoud
+## Gerelateerde onderwerpen
 
 * [Instellen SAINT][5]
+* [Hoe SAINT tellers en statussen opslaat][4]
 * [Statuscontroles gebruiken in een dynamische selectie][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png

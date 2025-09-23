@@ -3,9 +3,9 @@ uid: help-da-saint-admin
 title: Konfigurer SAINT
 description: Lær, hvordan du konfigurerer SuperOffice SAINT i denne guide.
 keywords: SAINT, statusovervågning
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -92,6 +92,16 @@ Sørg for at tilføje dine SAINT-kriterier. Klik på Tilføj, klik derefter ud f
 
 * [Administration af statusovervågning][8]
 
+## <a id="database"></a>Hvordan SAINT gemmer tællere og statusser
+
+SAINT-tællere gemmes i [countervalue][13]-tabellen og opdateres automatisk, når du udfører handlinger:
+
+* Når SAINT er aktiveret, oprettes der en række tællerlinjer, hver gang en kontakt eller et projekt oprettes.
+
+* Når der oprettes en opfølgning, et dokument eller et salg, opdateres de tilsvarende tællerlinjer.
+
+SAINT-**værdier** er simple binære værdier (til eller fra), der bestemmer udseendet og følelsen af virksomhedens og projektets kort. Disse værdier gemmes i [statusvalue][14]-tabellen.
+
 <!-- Referenced links -->
 [1]: create-status.md
 [2]: select-image-for-status.md
@@ -101,5 +111,7 @@ Sørg for at tilføje dine SAINT-kriterier. Klik på Tilføj, klik derefter ud f
 [6]: restore-status.md
 [7]: edit-status.md
 [8]: manage-status-monitors.md
+[13]: ../../database/tables/countervalue.md
+[14]: ../../database/tables/statusvalue.md
 
 <!-- Referenced images -->

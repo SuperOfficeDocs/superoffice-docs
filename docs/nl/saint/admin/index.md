@@ -3,9 +3,9 @@ uid: help-nl-saint-admin
 title: Instellen SAINT
 description: In deze gids staat hoe u SuperOffice SAINT instelt.
 keywords: SAINT, statuscontroles
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -92,6 +92,16 @@ Zorg ervoor dat u uw SAINT-criteria toevoegt. Klik op Toevoegen, klik vervolgens
 
 * [Statuscontroles beheren][8]
 
+## <a id="database"></a>Hoe SAINT tellers en statussen opslaat
+
+SAINT-tellers worden opgeslagen in de [countervalue][13]-tabel en automatisch bijgewerkt wanneer je acties uitvoert:
+
+* Wanneer SAINT is ingeschakeld, worden er een aantal tellerregels aangemaakt telkens als een persoon of project wordt aangemaakt.
+
+* Telkens wanneer een vervolgactiviteit, document of verkoop wordt aangemaakt, worden de bijbehorende tellerregels bijgewerkt.
+
+SAINT-waarden zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk van de bedrijfs- en projectkaarten bepalen. Deze waarden worden opgeslagen in de [statusvalue][14]-tabel.
+
 <!-- Referenced links -->
 [1]: create-status.md
 [2]: select-image-for-status.md
@@ -101,5 +111,7 @@ Zorg ervoor dat u uw SAINT-criteria toevoegt. Klik op Toevoegen, klik vervolgens
 [6]: restore-status.md
 [7]: edit-status.md
 [8]: manage-status-monitors.md
+[13]: ../../../../en/database/tables/countervalue.md
+[14]: ../../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->

@@ -3,9 +3,9 @@ uid: help-da-saint
 title: Sales Intelligence (SAINT)
 description: I denne guide lærer du, hvordan SAINT kan skabe fremskridt i dine salgs- og kundeprocesser samt forbedre workflows.
 keywords: SAINT, statusovervågning
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -133,27 +133,17 @@ Dialogboksen **Vis statusser** vises, når du klikker på et statusbillede på e
 | Opret opfølgning | Bruges til at [oprette en ny opfølgning][1] for firmaet, personen eller projektet. Hvilken type opfølgning, der oprettes som standard, defineres i Indstillinger og vedligeholdelse. |
 | Tilføj til udvalg | Når der klikkes på denne knap, åbnes dialogboksen **Tilføj til udvalg**, hvor du kan tilføje det gældende firma eller den gældende person til et statisk udvalg, som du selv vælger. Dette valg kan kun bruges til statiske udvalg. [Sådan bruges statusser i dynamiske udvalg][2].|
 
-## Bag kulisserne
-
-SAINT-tællere gemmes i [countervalue][3]-tabellen og opdateres automatisk, når du udfører handlinger:
-
-* Når SAINT er aktiveret, oprettes der en række tællerlinjer, hver gang en kontakt eller et projekt oprettes.
-
-* Når der oprettes en opfølgning, et dokument eller et salg, opdateres de tilsvarende tællerlinjer.
-
-SAINT-værdier er simple binære værdier (til eller fra), der bestemmer udseendet og følelsen af virksomhedens og projektets kort. Disse værdier gemmes i [statusvalue][4]-tabellen.
-
 ## Relateret indhold
 
 * [Konfigurer SAINT][5]
+* [Hvordan SAINT gemmer tællere og statusser][4]
 * [Anvendelse af statusovervågning i dynamiske udvalg][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png

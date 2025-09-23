@@ -3,9 +3,9 @@ uid: help-sv-saint
 title: Sales Intelligence (SAINT)
 description: I den här guiden lär du dig hur SAINT kan utveckla dina försäljnings- och kundprocesser, samt förbättra arbetsflöden.
 keywords: SAINT
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -133,27 +133,17 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 | Skapa uppföljning | Används för att [skapa en ny händelse][1] för företaget eller projektet. Vilken typ av händelse som skapas som standard definieras i Inställningar och underhåll. |
 | Lägg till i urval | När man klickar här, öppnas dialogrutan **Lägg till i urval**, och du kan lägga till det aktuella företaget eller den aktuella kontakten i ett statiskt urval som du väljer själv. Detta alternativ kan endast används för statiska urval. [Så här använder du statusar i dynamiska urval][2].|
 
-## Bakom kulisserna
-
-SAINT-räknare lagras i [countervalue][3]-tabellen och uppdateras automatiskt när du utför handlingar:
-
-* När SAINT är aktiverat, skapas ett antal räknarposter varje gång en kontakt eller ett projekt skapas.
-
-* Varje gång en händelse, ett dokument eller en försäljning skapas uppdateras motsvarande räknarposter.
-
-SAINT-värden är enkla binära värden (på eller av) som bestämmer utseendet på företags- och projektkort. Dessa värden lagras i [statusvalue][4]-tabellen.
-
 ## Relaterat innehåll
 
 * [Konfigurera SAINT][5]
+* [Hur SAINT lagrar räknare och statusar][4]
 * [Använda statusövervakning i dynamiska urval][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png

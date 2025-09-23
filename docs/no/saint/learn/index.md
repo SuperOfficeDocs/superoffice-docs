@@ -3,9 +3,9 @@ uid: help-no-saint
 title: Sales Intelligence (SAINT)
 description: I denne veiledningen lærer du hvordan SAINT kan utvikle salgs- og kundeprosessene dine, samt forbedre arbeidsflyten.
 keywords: SAINT, statusovervåking
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -133,27 +133,17 @@ Dialogboksen **Vis statuser** vises når du klikker på et statusbilde på et fi
 | Opprett oppfølging | Brukes til å [opprette en ny oppfølging][1] for firmaet, personen eller prosjektet. Typen oppfølging som opprettes som standard, er definert i Innstillinger og vedlikehold. |
 | Legg til i utvalg | Når du klikker på den, åpnes dialogboksen **Legg til i utvalg**, og du kan legge til gjeldende firma eller person i ønsket statisk utvalg. Dette alternativet kan bare brukes for statiske utvalg. [Slik bruker du statuser i dynamiske utvalg][2].|
 
-## Bak kulissene
-
-SAINT-tellere lagres i [countervalue][3]-tabellen og oppdateres automatisk når du utfører handlinger:
-
-* Når SAINT er aktivert, opprettes det en rekke tellerlinjer hver gang en person eller et prosjekt opprettes.
-
-* Når en oppfølging, et dokument eller et salg opprettes, oppdateres de tilsvarende tellerlinjene.
-
-SAINT-verdier er enkle binære verdier (på eller av) som bestemmer utseendet til firma- og prosjektkortene. Disse verdiene lagres i [statusvalue][4]-tabellen.
-
 ## Aktuelt innhold
 
 * [Konfigurer SAINT][5]
+* [Hvordan SAINT lagrer tellere og statuser][4]
 * [Bruk statusovervåking i dynamiske utvalg][2]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/saint-selection.png

@@ -3,9 +3,9 @@ uid: help-en-saint-admin
 title: Set up SAINT
 description: Learn how to set up SuperOffice SAINT in this guide.
 keywords: SAINT, activity monitor
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -92,6 +92,16 @@ Make sure to add your SAINT criteria. Click Add, then click next to the field an
 
 * [Manage status monitors][8]
 
+## <a id="database"></a>How SAINT stores counters and statuses
+
+SAINT counters are stored in the [countervalue][13] table and updated automatically as you do things:
+
+* When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
+
+* Whenever a follow-up, document, or sale is created, then the corresponding counter rows are updated.
+
+SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][14] table.
+
 <!-- Referenced links -->
 [1]: create-status.md
 [2]: select-image-for-status.md
@@ -101,5 +111,7 @@ Make sure to add your SAINT criteria. Click Add, then click next to the field an
 [6]: restore-status.md
 [7]: edit-status.md
 [8]: manage-status-monitors.md
+[13]: ../../database/tables/countervalue.md
+[14]: ../../database/tables/statusvalue.md
 
 <!-- Referenced images -->
