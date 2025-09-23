@@ -1,64 +1,69 @@
 ---
-uid: help-da-saint-status-create
-title: Opret nyt status
-description: Opret nyt status
-keywords: SAINT, statusovervågning, billede, visualiser, søgning
+uid: help-da-saint-setup
+title: Konfigurer ny aktivitetsovervågning
+description: Konfigurer ny aktivitetsovervågning
+keywords: SAINT, aktivitetsovervågning, statusovervågning
 author: SuperOffice Product and Engineering
-date: 09.22.2025
+date: 09.23.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
+index: true
 redirect_from: 
   - /da/sale/saint/learn/admin/create-status
   - /da/sale/saint/learn/admin/select-image-for-status
   - /da/saint/admin/select-image-for-status
-index: true
 ---
 
-# Oprettelse af ny status
+# Konfigurer ny aktivitetsovervågning
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-## Hvorfor skal du oprette en statusovervågning?
+Med statusovervågning ser du nemt alle de kunder, der har brug for opmærksomhed.
 
-Du vil overvåge firmaer, som du har meget få aktiviteter med, for at undgå utilfredse kunder og kundeafgang. Med denne statusovervågning ser du nemt alle de kunder, der har brug for opmærksomhed.
-
-![Opret en statusovervågning ved at klikke på knappen Tilføj i skærmbilledet -screenshot][img1]
+For at oprette en status definerer du dens navn og beskrivelse, tilføjer mindst ét kriterium og indstiller eventuelt en prioritet, standardopfølgningstype eller billede. Trinene nedenfor viser hele processen.
 
 ## Trin
 
-1. Åbn skærmbilledet **SAINT**, og vælg fanen **Firma**, **Person** eller **Projekt**
+1. Åbn skærmbilledet **SAINT** i Indstillinger og vedligeholdelse, og vælg fanen **Firma**, **Person** eller **Projekt**.
 
-1. Klik på **Tilføj** nedenunder listen **Statusovervågning** .
+1. Klik **Tilføj** under listen **Statusovervågning**.
 
-1. Udfyld disse felter i dialogboksen:
+1. I dialogboksen skal du udfylde disse felter:
 
-    * **Navn**: Angiv et beskrivende navn for den status, du vil tilføje.
+    * **Navn:** Angiv et beskrivende navn for den status, du vil tilføje.
+        Valgfrit: Vælg <i class="ph ph-translate" aria-label="Translate"></i> for at [tilføje oversættelser][8] af statusnavnet.
 
-        Valgfrit: Klik på <i class="ph ph-translate" aria-label="Translate"></i> for at [tilføje oversættelser][8] af statusnavnet.
+    * **Beskrivelse:** Angiv en klar beskrivelse af statusen og hvilken handling der kræves eller anbefales. Du kan også bruge [skabelonvariabler][9] til at skræddersy teksten til firmaet, personen eller projektet.
 
-    * **Beskrivelse**: Angiv en forklarende beskrivelse af status, og hvilke foranstaltninger der kræves eller anbefales. I dette felt kan du også bruge [skabelonvariabler][9] til at skræddersy teksten til det relevante firma, den relevante person eller det relevante projekt.
+    ![New status monitor dialog -screenshot][img1]
 
-    Navnet og beskrivelsen vises i SuperOffice CRM, når brugeren holder musemarkøren over statusbilledet eller åbner statusbilledet for firmaet. Du kan efterfølgende [redigere beskrivelsen][2].
+    Navnet og beskrivelsen vises i SuperOffice CRM, når brugeren holder musemarkøren over statusbilledet eller åbner statusdialogen. Du kan senere redigere beskrivelsen.
 
-1. Klik på **Gem**. Status vises på statuslisten.
+1. Klik **Gem**. Vælg derefter den nye status på listen for at fortsætte med opsætningen.
 
-1. Hvis der er flere statusser i listen, angiv **prioritet** for at bestemme, hvilket statusbillede der vises på kortet.
+1. **Angiv kriterier for statusen:**
+
+    1. Under kriterielisten skal du vælge **Tilføj** for at indsætte et nyt kriterium.
+    1. Vælg en kriterietype, indstil betingelsen og indtast en værdi.
+
+    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+
+    Hver status skal indeholde mindst ét kriterium. Gentag efter behov for at tilføje flere.
+
+1. *(Valgfrit)* [Definer en standardopfølgningstype][2] for statusen i fanen **Opret opfølgning**.
+
+1. *(Valgfrit)* [Vælg et billede for at visualisere statusen](#image).
+
+1. Hvis der er flere statusser på listen, indstil **prioriteten** for at kontrollere, hvilket statusbillede der vises på kortet.
     Et firma, en person eller et projekt kan matche kriterierne for flere statusser, men kun ét billede kan vises.
     Vælg en status, og brug pileknapperne under listen til at flytte den op eller ned.
 
-    ![Liste over statusmonitorer med prioritet -screenshot][img2]
+    ![List of status monitors with priorities -screenshot][img2]
 
-### Angiv kriterier for status
-
-Hver status skal indeholde mindst ét kriterium. Efter oprettelse af statusen:
-
-1. Vælg den nye status på listen.
-1. Vælg **Tilføj** for at indsætte et nyt kriterium.
-1. Vælg en kriterietype, indstil betingelsen og indtast en værdi.
-1. Gentag efter behov, vælg derefter **Regenerer valgte statusovervågning** for at aktivere statusen.
+1. Når du er færdig, skal du vælge <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerer valgte statusovervågning** for at aktivere statusen.
 
 ## <a id="image"></a>Valg af billede til status
 
@@ -81,18 +86,18 @@ Tilføjelse af et billede er valgfrit. Det kan hjælpe med at tiltrække opmærk
 
 ## Relateret indhold
 
-* [Angivelse af statuskriterier][6]
-* [Angivelse af periodelængde][7]
-* [Administration af statusovervågning][4]
+* [Opdater, slet og gendan statusovervågning][2]
+* [Tællere og tællerindstillinger (periode)][7]
+* [Regenerer statusovervågning og tællere][4]
 
 <!-- Referenced links -->
-[2]: edit-status.md
-[4]: manage-status-monitors.md
-[6]: select-status-criteria.md
-[7]: select-period-length.md
+[2]: update.md
+[4]: update.md#regen
+[7]: counter-settings.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img1]: ../../../media/loc/en/saint/new-status-monitor.png
 [img2]: ../../../media/loc/en/saint/status-list-priority.png
+[img3]: ../../../media/loc/en/saint/criteria.png

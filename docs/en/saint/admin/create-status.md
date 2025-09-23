@@ -1,10 +1,10 @@
 ---
-uid: help-en-saint-status-create
-title: Create new status
-description: Create new status
+uid: help-en-saint-setup
+title: Set up a new activity monitor
+description: Set up a new activity monitor
 keywords: SAINT, activity monitor, status monitor
 author: SuperOffice Product and Engineering
-date: 09.22.2025
+date: 09.23.2025
 version: 10.5
 content_type: howto
 audience: settings
@@ -17,15 +17,13 @@ redirect_from:
   - /en/saint/admin/select-image-for-status
 ---
 
-# Create a new status
+# Set up a new activity monitor
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-## Why should you create a status monitor?
+With an activity monitor, you easily see all the customers who need attention.
 
-You want to monitor companies that you have very few activities with, to avoid unhappy customers and churn. With this status monitor, you easily see all the customers who need attention.
-
-![Create a status monitor by clicking the Add button -screenshot][img1]
+To create a status, you define its name and description, add at least one criterion, and optionally set a priority, default follow-up type, or image. The steps below show the full process.
 
 ## Steps
 
@@ -35,15 +33,29 @@ You want to monitor companies that you have very few activities with, to avoid u
 
 1. In the dialog, complete these fields:
 
-    * **Name**: Enter a descriptive name for the status you want to add.
-
+    * **Name:** Enter a descriptive name for the status you want to add.
         Optional: Click <i class="ph ph-translate" aria-label="Translate"></i> to [add translations][8] of the status name.
 
-    * **Description**: Enter an explanatory description of the status and what measures are required or recommended. In this field you can also use [template variables][9] to tailor the text to the relevant company, contact or project.
+    * **Description:** Enter a clear description of the status and what action is required or recommended. You can also use [template variables][9] to tailor the text to the company, contact, or project.
 
-    The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently [edit the description][2].
+    ![New status monitor dialog -screenshot][img1]
 
-1. Click **Save**. The status is displayed in the status list.
+    The name and description are displayed in SuperOffice CRM when the user hovers over the status image or opens the status dialog. You can later edit the description.
+
+1. Click **Save**. Then select the new status in the list to continue with the setup.
+
+1. **Specify criteria for the status:**
+
+    1. Below the criteria list, select **Add** to insert a new criterion.
+    1. Choose a criterion type, set the condition, and enter a value.
+
+    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+
+    Each status must include at least one criterion. Repeat as needed to add more.
+
+1. *(Optional)* [Define a default follow-up type][2] for the status in the **Create follow-up** tab.
+
+1. *(Optional)* [Select an image to visualize the status](#image).
 
 1. If there are several statuses in the list, set the **priority** to control which status image is displayed on the card.
     A company, contact, or project can match the criteria for multiple statuses, but only one image can be shown.
@@ -51,14 +63,7 @@ You want to monitor companies that you have very few activities with, to avoid u
 
     ![List of status monitors with priorities -screenshot][img2]
 
-### Specify criteria for the status
-
-Each status must include at least one criterion. After creating the status:
-
-1. Select the new status in the list.
-1. Select **Add** to insert a new criterion.
-1. Choose a criterion type, set the condition, and enter a value.
-1. Repeat as needed, then select **Regenerate selected status monitor** to activate the status.
+1. When you are done, select <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerate selected status monitor** to activate the status.
 
 ## <a id="image"></a>Select an image for a status
 
@@ -81,18 +86,18 @@ Adding an image is optional. It can help draw attention and symbolize the type o
 
 ## Related content
 
-* [Specify status criteria][6]
-* [Specify a period length][7]
+* [Update, delete, and restore status monitors][2]
+* [Counters and counter settings (period)][7]
 * [Regenerate status monitors and counters][4]
 
 <!-- Referenced links -->
-[2]: edit-status.md
-[4]: manage-status-monitors.md
-[6]: select-status-criteria.md
-[7]: select-period-length.md
+[2]: update.md
+[4]: update.md#regen
+[7]: counter-settings.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img1]: ../../../media/loc/en/saint/new-status-monitor.png
 [img2]: ../../../media/loc/en/saint/status-list-priority.png
+[img3]: ../../../media/loc/en/saint/criteria.png

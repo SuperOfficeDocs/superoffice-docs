@@ -1,64 +1,69 @@
 ---
-uid: help-de-saint-status-create
-title: Neuen Status erstellen
-description: Neuen Status erstellen
-keywords: SAINT, Statuskontrollen, Bild, darstellen, Suche
+uid: help-de-saint-setup
+title: Neue Aktivitätsüberwachung einrichten
+description: Neue Aktivitätsüberwachung einrichten
+keywords: SAINT, Aktivitätsüberwachung, Statusüberwachung
 author: SuperOffice Product and Engineering
-date: 09.22.2025
+date: 09.23.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+index: true
 redirect_from: 
   - /de/sale/saint/learn/admin/create-status
   - /de/sale/saint/learn/admin/select-image-for-status
   - /de/saint/admin/select-image-for-status
-index: true
 ---
 
-# Neuen Status erstellen
+# Neue Aktivitätsüberwachung einrichten
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-## Warum man eine Statuskontrolle erstellen sollte?
+Mit dieser Statusüberwachung sehen Sie leicht alle Kunden, die Ihre Aufmerksamkeit verlangen.
 
-Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten haben, um unzufriedene Kunden und Abwanderung zu vermeiden. Mit dieser Statuskontrolle sehen Sie leicht alle Kunden, die Ihre Aufmerksamkeit verlangen.
-
-![Statuskontrolle durch Anklicken der Hinzufügen-Schaltfläche auf der Anzeige erstellen -screenshot][img1]
+Um einen Status zu erstellen, definieren Sie seinen Namen und die Beschreibung, fügen mindestens ein Kriterium hinzu und legen optional eine Priorität, einen Standard-Folgeaufgabentyp oder ein Bild fest. Die folgenden Schritte zeigen den gesamten Prozess.
 
 ## Schritte
 
-1. Öffnen Sie die Anzeige **SAINT** und wählen Sie die Registerkarte **Firma**, **Person** oder **Projekt** aus.
+1. Öffnen Sie die Anzeige **SAINT** in Einstellungen und Verwaltung und wählen Sie die Registerkarte **Firma**, **Person** oder **Projekt** aus.
 
-1. Klicken Sie unter der Liste **Statuskontrollen** auf die Schaltfläche **Hinzufügen**.
+1. Klicken Sie unter der Liste **Statusüberwachung** auf **Hinzufügen**.
 
-1. Füllen Sie im Dialogfeld die folgenden Felder aus:
+1. Füllen Sie im Dialogfeld diese Felder aus:
 
-    * **Name**: Geben Sie einen beschreibenden Namen für den hinzuzufügenden Status ein.
+    * **Name:** Geben Sie einen beschreibenden Namen für den hinzuzufügenden Status ein.
+        Optional: Wählen Sie <i class="ph ph-translate" aria-label="Translate"></i> aus, um [Übersetzungen][8] des Statusnamens hinzuzufügen.
 
-        Optional: Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, damit Sie für den Statusnamen [Übersetzungen hinzufügen][8] können.
+    * **Beschreibung:** Geben Sie eine klare Beschreibung des Status und der erforderlichen oder empfohlenen Aktion ein. Sie können auch [Vorlagenvariablen][9] verwenden, um den Text an die Firma, Person oder das Projekt anzupassen.
 
-    * **Beschreibung**: Geben Sie eine erklärende Beschreibung des Status und die erforderlichen oder empfohlenen Maßnahmen ein. In diesem Feld können Sie den Text mit [Vorlagenvariablen][9] auch auf die entsprechende Firma, Person oder das entsprechende Projekt zuschneiden.
+    ![New status monitor dialog -screenshot][img1]
 
-    Name und Beschreibung werden in SuperOffice CRM angezeigt, wenn der Benutzer mit dem Mauszeiger über das Statusbild fährt oder das Statusbild für das Unternehmen öffnet. Sie können nachträglich die [Beschreibung bearbeiten][2].
+    Name und Beschreibung werden in SuperOffice CRM angezeigt, wenn der Benutzer mit dem Mauszeiger über das Statusbild fährt oder den Statusdialog öffnet. Sie können später die Beschreibung bearbeiten.
 
-1. Klicken Sie auf **Speichern**. Der Status wird in der Statusliste angezeigt.
+1. Klicken Sie auf **Speichern**. Wählen Sie dann den neuen Status in der Liste aus, um mit der Einrichtung fortzufahren.
+
+1. **Kriterien für den Status festlegen:**
+
+    1. Wählen Sie unter der Kriterienliste **Hinzufügen** aus, um ein neues Kriterium einzufügen.
+    1. Wählen Sie einen Kriteriumtyp aus, stellen Sie die Bedingung ein und geben Sie einen Wert ein.
+
+    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+
+    Jeder Status muss mindestens ein Kriterium enthalten. Wiederholen Sie den Vorgang nach Bedarf, um weitere hinzuzufügen.
+
+1. *(Optional)* [Definieren Sie einen Standard-Folgeaufgabentyp][2] für den Status auf der Registerkarte **Folgeaufgabe erstellen**.
+
+1. *(Optional)* [Wählen Sie ein Bild aus, um den Status zu visualisieren](#image).
 
 1. Wenn es mehrere Status in der Liste gibt, legen Sie die **Priorität** fest, um zu steuern, welches Statusbild auf der Karte angezeigt wird.
     Eine Firma, eine Person oder ein Projekt kann die Kriterien für mehrere Status erfüllen, aber es kann nur ein Bild angezeigt werden.
     Wählen Sie einen Status aus und verwenden Sie die Pfeiltasten unter der Liste, um ihn nach oben oder unten zu verschieben.
 
-    ![Liste der Statusmonitore mit Prioritäten -screenshot][img2]
+    ![List of status monitors with priorities -screenshot][img2]
 
-### Kriterien für den Status festlegen
-
-Jeder Status muss mindestens ein Kriterium enthalten. Nach dem Erstellen des Status:
-
-1. Wählen Sie den neuen Status in der Liste aus.
-1. Wählen Sie **Hinzufügen**, um ein neues Kriterium einzufügen.
-1. Wählen Sie einen Kriteriumtyp, stellen Sie die Bedingung ein und geben Sie einen Wert ein.
-1. Wiederholen Sie den Vorgang nach Bedarf und wählen Sie dann **Ausgewählte Statusüberwachung regenerieren**, um den Status zu aktivieren.
+1. Wenn Sie fertig sind, wählen Sie <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Ausgewählte Statusüberwachung regenerieren** aus, um den Status zu aktivieren.
 
 ## <a id="image"></a>Ein Bild für einen Status auswählen
 
@@ -79,24 +84,20 @@ Das Hinzufügen eines Bildes ist optional. Es kann dazu beitragen, Aufmerksamkei
 > [!TIP]
 > Verwenden Sie einfache, helle Bilder, die den Status sinnvoll darstellen. Ein Spinnennetz kann beispielsweise Inaktivität symbolisieren.
 
-## Warum muss ich die Priorität für einen Status festlegen?
-
-Eine Firma, eine Person oder ein Projekt kann zwar die Kriterien für mehrere Statusangaben erfüllen, in SuperOffice CRM kann jedoch nur ein Statusbild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Daher muss für die Anzeige von Statusangaben in SuperOffice CRM eine Rangfolge festgelegt werden.
-
 ## Verwandte Themen
 
-* [Statuskriterien festlegen][6]
-* [Zeitraum festlegen][7]
-* [Statuskontrollen verwalten][4]
+* [Statusüberwachung aktualisieren, löschen und wiederherstellen][2]
+* [Zähler und Zählereinstellungen (Zeitraum)][7]
+* [Statusüberwachung und Zähler regenerieren][4]
 
 <!-- Referenced links -->
-[2]: edit-status.md
-[4]: manage-status-monitors.md
-[6]: select-status-criteria.md
-[7]: select-period-length.md
+[2]: update.md
+[4]: update.md#regen
+[7]: counter-settings.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img1]: ../../../media/loc/en/saint/new-status-monitor.png
 [img2]: ../../../media/loc/en/saint/status-list-priority.png
+[img3]: ../../../media/loc/en/saint/criteria.png

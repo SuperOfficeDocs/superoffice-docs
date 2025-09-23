@@ -1,70 +1,75 @@
 ---
-uid: help-no-saint-status-create
-title: Opprette ny status
-description: Opprette ny status
-keywords: SAINT, statusovervåking, bilde, visualiser, søk
+uid: help-no-saint-setup
+title: Sett opp ny aktivitetsovervåkning
+description: Sett opp ny aktivitetsovervåkning
+keywords: SAINT, aktivitetsovervåkning, statusovervåkning
 author: SuperOffice Product and Engineering
-date: 09.22.2025
+date: 09.23.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+index: true
 redirect_from: 
   - /no/sale/saint/learn/admin/create-status
   - /no/sale/saint/learn/admin/select-image-for-status
   - /no/saint/admin/select-image-for-status
-index: true
 ---
 
-# Opprette ny status
+# Sett opp ny aktivitetsovervåkning
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-## Hvorfor bør du opprette en statusovervåking?
+Med statusovervåkingen ser du enkelt alle kundene som må vies oppmerksomhet.
 
-Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå misfornøyde kunder og kundeavgang. Med denne statusovervåkingen ser du enkelt alle kundene som må vies oppmerksomhet.
-
-![Opprett en statusovervåking ved å klikke på Legg til-knappen på skjermen -screenshot][img1]
+For å opprette en status definerer du navnet og beskrivelsen, legger til minst ett kriterium, og setter eventuelt en prioritet, standard oppfølgingstype eller bilde. Trinnene nedenfor viser hele prosessen.
 
 ## Trinn
 
-1. Åpne **SAINT**-bildet, og velg fanen **Firma**, **Person** eller **Prosjekt**.
+1. Åpne **SAINT**-skjermen i Innstillinger og vedlikehold, og velg fanen **Firma**, **Person** eller **Prosjekt**.
 
-1. Klikk på **Legg til** under listen **Statusovervåking**.
+1. Klikk **Legg til** under listen **Statusovervåkning**.
 
-1. Fyll ut disse feltene i dialogboksen:
+1. I dialogboksen fyller du ut disse feltene:
 
-    * **Navn**: Angi et beskrivende navn på statusen du skal legge til.
+    * **Navn:** Angi et beskrivende navn på statusen du vil legge til.
+        Valgfritt: Klikk <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til oversettelser][8] av statusnavnet.
 
-        Valgfritt: Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til oversettelser][8] av statusnavnet.
+    * **Beskrivelse:** Angi en klar beskrivelse av statusen og hvilken handling som kreves eller anbefales. Du kan også bruke [malvariabler][9] for å skreddersy teksten til firmaet, personen eller prosjektet.
 
-    * **Beskrivelse**: Angi en forklarende beskrivelse av statusen, og hvilke tiltak som kreves eller anbefales. I dette feltet kan du i tillegg bruke [malvariabler][9] for å skreddersy teksten til gjeldende firma, person eller prosjekt.
+    ![New status monitor dialog -screenshot][img1]
 
-    Navnet og beskrivelsen vises i SuperOffice CRM når brukeren holder musepekeren over statusbildet eller åpner statusbildet for firmaet. Du kan deretter [redigere beskrivelsen][2].
+    Navnet og beskrivelsen vises i SuperOffice CRM når brukeren holder musepekeren over statusbildet eller åpner statusdialogen. Du kan senere redigere beskrivelsen.
 
-1. Klikk på **Lagre**. Statusen vises i statuslisten.
+1. Klikk **Lagre**. Velg deretter den nye statusen i listen for å fortsette med oppsettet.
 
-1. Hvis det er flere statuser i listen, angi **prioritet** for å bestemme hvilket statusbilde som vises på kortet.
+1. **Angi kriterier for statusen:**
+
+    1. Under kriterielisten velger du **Legg til** for å sette inn et nytt kriterium.
+    1. Velg en kriteriumtype, sett betingelsen og angi en verdi.
+
+    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+
+    Hver status må inneholde minst ett kriterium. Gjenta etter behov for å legge til flere.
+
+1. *(Valgfritt)* [Definer en standard oppfølgingstype][2] for statusen i fanen **Opprett oppfølging**.
+
+1. *(Valgfritt)* [Velg et bilde for å visualisere statusen](#image).
+
+1. Hvis det er flere statuser i listen, sett **prioritet** for å kontrollere hvilket statusbilde som vises på kortet.
     Et firma, en person eller et prosjekt kan samsvare med kriteriene for flere statuser, men bare ett bilde kan vises.
     Velg en status og bruk pilknappene under listen for å flytte den opp eller ned.
 
-    ![Liste over statusmonitorer med prioritet -screenshot][img2]
+    ![List of status monitors with priorities -screenshot][img2]
 
-### Angi kriterier for statusen
-
-Hver status må inneholde minst ett kriterium. Etter å ha opprettet statusen:
-
-1. Velg den nye statusen i listen.
-1. Velg **Legg til** for å sette inn et nytt kriterium.
-1. Velg en kriteriumtype, sett betingelsen og angi en verdi.
-1. Gjenta etter behov, velg deretter **Regenerer valgt statusovervåking** for å aktivere statusen.
+1. Når du er ferdig, velg <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerer valgt statusovervåkning** for å aktivere statusen.
 
 ## <a id="image"></a>Velge et bilde for en status
 
 Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort som oppfyller statuskriteriene. Bildet vises som et lett vannmerke (40% gjennomsiktighet) slik at det ikke skjuler annet innhold.
 
-Å legge til et bilde er valgfritt. Det kan bidra til å tiltrekke oppmerksomhet og symbolisere handlingen du ønsker at brukerne skal utføre. Hvis du bare vil bruke statusen for søk eller utvalg, kan du utelate bilde.
+Å legge til et bilde er valgfritt. Det kan bidra til å tiltrekke oppmerksomhet og symbolisere typen oppfølgingshandling du ønsker at brukerne skal utføre. Hvis du bare vil bruke statusen for søk eller utvalg, kan du la den være uten bilde.
 
 1. I statuslisten velger du ønsket status.
 1. På høyre side av skjermen merker du av for **Visualiser** for å vise bildet.
@@ -81,18 +86,18 @@ Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort 
 
 ## Aktuelt innhold
 
-* [Angi statuskriterier][6]
-* [Angi periodelengde][7]
-* [Administrere statusovervåking][4]
+* [Oppdater, slett og gjenopprett statusovervåkning][2]
+* [Tellere og tellerinnstillinger (periode)][7]
+* [Regenerer statusovervåkning og tellere][4]
 
 <!-- Referenced links -->
-[2]: edit-status.md
-[4]: manage-status-monitors.md
-[6]: select-status-criteria.md
-[7]: select-period-length.md
+[2]: update.md
+[4]: update.md#regen
+[7]: counter-settings.md
 [8]: ../../globalization-and-localization/learn/translate-fields.md
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img1]: ../../../media/loc/en/saint/new-status-monitor.png
 [img2]: ../../../media/loc/en/saint/status-list-priority.png
+[img3]: ../../../media/loc/en/saint/criteria.png
