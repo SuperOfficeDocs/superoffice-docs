@@ -120,7 +120,7 @@ Statusangaben und Zähler, die nicht aktualisiert werden, bleiben in SuperOffice
 | Alle Zähler erneuern | Aktualisiert alle Zähler |
 
 <!-- Referenced links -->
-[1]: create-status.md
+[1]: set-up.md
 [2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

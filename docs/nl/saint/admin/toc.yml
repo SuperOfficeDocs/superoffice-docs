@@ -1,19 +1,9 @@
 items:
-  - name: Overzicht
-    href: index.md
-  - name: Statuscontroles beheren
-    href: manage-status-monitors.md
-  - name: Nieuwe status maken
-    href: create-status.md
-  - name: Beschrijving bewerken voor status
-    href: edit-status.md
-  - name: Verwijderde status herstellen
-    href: restore-status.md
-  - name: Standaardtype vervolgactiviteit voor status
-    href: select-default-follow-up-type-for-status.md
-  - name: Afbeelding voor status
-    href: select-image-for-status.md
-  - name: Periodeduur
-    href: select-period-length.md
-  - name: Statuscriteria
-    href: select-status-criteria.md
+- name: Introductie
+  href: index.md
+- name: Statusmonitor instellen
+  href: set-up.md
+- name: Statusmonitor bijwerken
+  href: update.md
+- name: Tellerinstellingen (periode)
+  href: counter-settings.md

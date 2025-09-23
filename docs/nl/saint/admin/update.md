@@ -117,7 +117,7 @@ Statussen en tellers die niet zijn bijgewerkt, blijven zichtbaar in SuperOffice 
 | Alle tellers regenereren | Werkt alle tellers bij |
 
 <!-- Referenced links -->
-[1]: create-status.md
+[1]: set-up.md
 [2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

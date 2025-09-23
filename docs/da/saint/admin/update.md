@@ -119,7 +119,7 @@ Statusser og tællere, der ikke er opdaterede, forbliver synlige i SuperOffice C
 | Genopret alle tællere | Opdaterer alle tællere |
 
 <!-- Referenced links -->
-[1]: create-status.md
+[1]: set-up.md
 [2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

@@ -119,7 +119,7 @@ Statusar och räknare som inte är uppdaterade förblir synliga i SuperOffice CR
 | Återskapa alla räknare | Uppdaterar alla räknare |
 
 <!-- Referenced links -->
-[1]: create-status.md
+[1]: set-up.md
 [2]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

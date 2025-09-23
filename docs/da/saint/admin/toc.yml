@@ -1,19 +1,9 @@
 items:
-  - name: Oversigt
-    href: index.md
-  - name: Administrer statusovervågning
-    href: manage-status-monitors.md
-  - name: Opret ny status
-    href: create-status.md
-  - name: Rediger beskrivelse af status
-    href: edit-status.md
-  - name: Gendan slettet status
-    href: restore-status.md
-  - name: Standardopfølgningstype for status
-    href: select-default-follow-up-type-for-status.md
-  - name: Billede for status
-    href: select-image-for-status.md
-  - name: Periodelængde
-    href: select-period-length.md
-  - name: Statuskriterier
-    href: select-status-criteria.md
+- name: Introduktion
+  href: index.md
+- name: Oprette statusovervågning
+  href: set-up.md
+- name: Opdatere statusovervågning
+  href: update.md
+- name: Tællerindstillinger (periode)
+  href: counter-settings.md
