@@ -29,7 +29,7 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 ## Schritte
 
-1. Öffnen Sie die Anzeige **SAINT** und wählen Sie die Registerkarte **Firma**, **Kontakt** oder **Projekt** aus.
+1. Öffnen Sie die Anzeige **SAINT** und wählen Sie die Registerkarte **Firma**, **Person** oder **Projekt** aus.
 
 1. Klicken Sie unter der Liste **Statuskontrollen** auf die Schaltfläche **Hinzufügen**.
 
@@ -45,7 +45,11 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 1. Klicken Sie auf **Speichern**. Der Status wird in der Statusliste angezeigt.
 
-1. Wenn mehrere Statusangaben in der Liste enthalten sind, müssen Sie die Priorität für den neuen Status festlegen. Klicken Sie auf den Status und verschieben Sie ihn mit den Pfeiltasten rechts neben der Statusliste nach oben oder nach unten.
+1. Wenn es mehrere Status in der Liste gibt, legen Sie die **Priorität** fest, um zu steuern, welches Statusbild auf der Karte angezeigt wird.
+    Eine Firma, eine Person oder ein Projekt kann die Kriterien für mehrere Status erfüllen, aber es kann nur ein Bild angezeigt werden.
+    Wählen Sie einen Status aus und verwenden Sie die Pfeiltasten unter der Liste, um ihn nach oben oder unten zu verschieben.
+
+    ![Liste der Statusmonitore mit Prioritäten -screenshot][img2]
 
 ### Kriterien für den Status festlegen
 
@@ -95,3 +99,4 @@ Eine Firma, eine Person oder ein Projekt kann zwar die Kriterien für mehrere St
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png

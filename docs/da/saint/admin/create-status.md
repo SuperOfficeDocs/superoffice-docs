@@ -45,7 +45,11 @@ Du vil overvåge firmaer, som du har meget få aktiviteter med, for at undgå ut
 
 1. Klik på **Gem**. Status vises på statuslisten.
 
-1. Hvis der er flere statusser på listen, skal du angive den prioritet, som du ønsker, at den nye status skal have. Klik på statussen og brug pileknapperne til højre for statuslisten for at flytte den op eller ned på listen.
+1. Hvis der er flere statusser i listen, angiv **prioritet** for at bestemme, hvilket statusbillede der vises på kortet.
+    Et firma, en person eller et projekt kan matche kriterierne for flere statusser, men kun ét billede kan vises.
+    Vælg en status, og brug pileknapperne under listen til at flytte den op eller ned.
+
+    ![Liste over statusmonitorer med prioritet -screenshot][img2]
 
 ### Angiv kriterier for status
 
@@ -75,10 +79,6 @@ Tilføjelse af et billede er valgfrit. Det kan hjælpe med at tiltrække opmærk
 > [!TIP]
 > Brug enkle, lysfarvet billeder, der repræsenterer statusen meningsfuldt. For eksempel kan et spindelvæv symbolisere inaktivitet.
 
-## Hvorfor skal jeg angive, hvilken prioritet en status har?
-
-Et firma, en person eller et projekt kan opfylde kriterierne for flere forskellige statusser, men det er kun muligt at vise ét statusbillede på firmakortet, personkortet eller projektkortet i SuperOffice CRM. Der skal derfor angives en prioritetsrækkefølge for visning af statusser i SuperOffice CRM.
-
 ## Relateret indhold
 
 * [Angivelse af statuskriterier][6]
@@ -95,3 +95,4 @@ Et firma, en person eller et projekt kan opfylde kriterierne for flere forskelli
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png

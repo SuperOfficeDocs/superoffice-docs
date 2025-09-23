@@ -45,7 +45,11 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
 1. Klik op **Opslaan**. De status wordt weergegeven in de statuslijst.
 
-1. Als er meerdere statussen in de lijst staan, moet u een prioriteit opgeven voor de nieuwe status. Klik op de status en gebruik de pijltoetsen rechts van de statuslijst om de status omhoog of omlaag te verplaatsen in de lijst.
+1. Als er meerdere statussen in de lijst staan, stel dan de **prioriteit** in om te bepalen welke statusafbeelding op de kaart wordt weergegeven.
+    Een bedrijf, persoon of project kan overeenkomen met de criteria voor meerdere statussen, maar er kan slechts één afbeelding worden weergegeven.
+    Selecteer een status en gebruik de pijltjestoetsen onder de lijst om deze omhoog of omlaag te verplaatsen.
+
+    ![Lijst met statusmonitors en prioriteiten -screenshot][img2]
 
 ### Criteria voor de status opgeven
 
@@ -75,10 +79,6 @@ Het toevoegen van een afbeelding is optioneel. Het kan helpen om aandacht te tre
 > [!TIP]
 > Gebruik eenvoudige, lichtgekleurde afbeeldingen die de status op een zinvolle manier weergeven. Een spinnenweb kan bijvoorbeeld inactiviteit symboliseren.
 
-## Waarom moet ik een prioriteit voor een status opgeven?
-
-Een bedrijf, persoon of project kan aan de criteria voor meerdere statussen voldoen, maar er kan slechts één statusafbeelding op de bedrijfskaart, het persoonskaart of de projectkaart in SuperOffice CRM worden weergegeven. Er moet dus een prioriteitsvolgorde worden opgegeven voor de weergave van statussen in SuperOffice CRM.
-
 ## Gerelateerde inhoud
 
 * [Statuscriteria opgeven][6]
@@ -95,3 +95,4 @@ Een bedrijf, persoon of project kan aan de criteria voor meerdere statussen vold
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png

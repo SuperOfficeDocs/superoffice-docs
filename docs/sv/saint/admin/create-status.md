@@ -45,7 +45,11 @@ Du vill övervaka företag som du har väldigt få aktiviteter tillsammans med, 
 
 1. Klicka på **Spara**. Statusen visas i statuslistan.
 
-1. Om det finns flera statusar i listan, anger du vilken prioritet du vill att den nya statusen ska ha. Klicka på statusen och använd pilknapparna till höger om statuslistan för att flytta den upp eller ner i listan.
+1. Om det finns flera statusar i listan, ange **prioritet** för att bestämma vilken statusbild som visas på kortet.
+    Ett företag, en kontakt eller ett projekt kan matcha kriterierna för flera statusar, men bara en bild kan visas.
+    Välj en status och använd piltangenterna under listan för att flytta den uppåt eller nedåt.
+
+    ![Lista med statusmonitorer och prioritet -screenshot][img2]
 
 ### Ange kriterier för statusen
 
@@ -75,10 +79,6 @@ Att lägga till en bild är valfritt. Det kan hjälpa till att dra uppmärksamhe
 > [!TIP]
 > Använd enkla, ljusfarget bilder som representerar statusen på ett meningsfullt sätt. Till exempel kan ett spindelnät symbolisera inaktivitet.
 
-## Varför måste jag ange prioritet för en status?
-
-Ett företag, en kontakt eller ett projekt kan uppfylla kriterierna för flera olika statusar, men det är bara möjligt att visa en statusbild på företagskortet, kontaktkortet eller projektkortet i SuperOffice CRM. En prioritetsordning måste därför anges för visning av statusar i SuperOffice CRM.
-
 ## Relaterat innehåll
 
 * [Ange statuskriterier][6]
@@ -95,3 +95,4 @@ Ett företag, en kontakt eller ett projekt kan uppfylla kriterierna för flera o
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png

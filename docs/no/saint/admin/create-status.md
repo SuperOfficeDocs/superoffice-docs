@@ -45,7 +45,11 @@ Du vil overvåke firmaer som du har svært få aktiviteter med, for å unngå mi
 
 1. Klikk på **Lagre**. Statusen vises i statuslisten.
 
-1. Hvis det er flere statuser i listen, angir du prioriteten du vil at den nye statusen skal ha. Klikk på statusen, og bruk pilknappene til høyre for statuslisten for å flytte den opp eller ned på listen.
+1. Hvis det er flere statuser i listen, angi **prioritet** for å bestemme hvilket statusbilde som vises på kortet.
+    Et firma, en person eller et prosjekt kan samsvare med kriteriene for flere statuser, men bare ett bilde kan vises.
+    Velg en status og bruk pilknappene under listen for å flytte den opp eller ned.
+
+    ![Liste over statusmonitorer med prioritet -screenshot][img2]
 
 ### Angi kriterier for statusen
 
@@ -75,10 +79,6 @@ Du kan legge til et bilde som skal vises på firma-, person- eller prosjektkort 
 > [!TIP]
 > Bruk enkle, lysfarget bilder som representerer statusen på en meningsfull måte. For eksempel kan et edderkoppnett symbolisere inaktivitet.
 
-## Hvorfor må jeg angi prioritet?
-
-Et firma, en person eller et prosjekt kan oppfylle kriteriene til flere ulike statuser, men det er kun mulig å vise ett statusbilde på firma-, person- eller prosjektkortet i SuperOffice CRM. Derfor må det angis en prioritert rekkefølge for visning av statuser i SuperOffice CRM.
-
 ## Aktuelt innhold
 
 * [Angi statuskriterier][6]
@@ -95,3 +95,4 @@ Et firma, en person eller et prosjekt kan oppfylle kriteriene til flere ulike st
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png

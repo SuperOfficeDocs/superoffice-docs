@@ -45,7 +45,11 @@ You want to monitor companies that you have very few activities with, to avoid u
 
 1. Click **Save**. The status is displayed in the status list.
 
-1. If there are several statuses in the list, specify the priority you want the new status to have. Click the status and use the arrow buttons to the right of the status list to move it up or down the list.
+1. If there are several statuses in the list, set the **priority** to control which status image is displayed on the card.
+    A company, contact, or project can match the criteria for multiple statuses, but only one image can be shown.
+    Select a status and use the arrow buttons below the list to move it up or down.
+
+    ![List of status monitors with priorities -screenshot][img2]
 
 ### Specify criteria for the status
 
@@ -75,22 +79,6 @@ Adding an image is optional. It can help draw attention and symbolize the type o
 > [!TIP]
 > Use simple, light-colored images that represent the status meaningfully. For example, a spider's web can symbolize inactivity.
 
-### What does the status list contain?
-
-* The **Visualize** icon (<i class="ph ph-eye" aria-hidden="true"></i>) indicates if to [display a status image][3] for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question.
-
-* A red X indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
-
-* **Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
-
-* **Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
-
-## Why do I need to specify a status's priority?
-
-A company, contact or project can fulfil the criteria for several different statuses, but it is only possible to show one status image on the company card, contact card or project card in SuperOffice CRM. An order of priority therefore has to be specified for displaying statuses in SuperOffice CRM. If a company, contact or a project does not fulfil the criteria for the highest-priority status, then the status with the next highest priority is displayed. If the company, contact or project does not fulfil these criteria, then the next is displayed and so on.
-
-If a company, contact or project has several active statuses, the lower priority statuses are displayed as links in the status dialog. This dialog is displayed when the user clicks the status image in SuperOffice CRM or selects **Show status information** on the **Company**, **Contact**, or **Project** menu for a company, contact or project with an active status.
-
 ## Related content
 
 * [Specify status criteria][6]
@@ -99,7 +87,6 @@ If a company, contact or project has several active statuses, the lower priority
 
 <!-- Referenced links -->
 [2]: edit-status.md
-[3]: select-image-for-status.md
 [4]: manage-status-monitors.md
 [6]: select-status-criteria.md
 [7]: select-period-length.md
@@ -108,3 +95,4 @@ If a company, contact or project has several active statuses, the lower priority
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png
+[img2]: ../../../media/loc/en/saint/status-list-priority.png
