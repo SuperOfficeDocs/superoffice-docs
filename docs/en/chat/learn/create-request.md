@@ -27,14 +27,12 @@ If you cannot solve the issue via the chat, you can create a request to be handl
 
 ## Related content
 
-* [Link chat to SuperOffice contact][1]
-* [Add customer to SuperOffice][2]
+* [Link chat to person][1]
 * [Respond to a chat][3]
 * [Learn about requests][4]
 
 <!-- Referenced links -->
 [1]: link-to-person.md
-[2]: create-contact.md
 [3]: respond.md
 [4]: ../../request/learn/index.md
 

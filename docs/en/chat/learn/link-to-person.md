@@ -2,7 +2,7 @@
 uid: help-en-chat-link-to-person
 title: Link chat to a existing contact
 description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
-keywords: chat
+keywords: link chat to contact, suggested contact
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -13,6 +13,7 @@ topic: chat
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/chat/learn/create-contact
 ---
 
 # Link chat to existing contact
@@ -39,12 +40,15 @@ If you selected the wrong contact, you can click **Change contact** at the botto
 
 ## Create a new company and contact
 
-If a customer is not found in the SuperOffice CRM database, you can [create a new contact and company][1] in the side panel.
+If a contact is not found in SuperOffice, you can create a new contact and company in the side panel.
 
-## Related topics
+1. Click **Create new company and contact**. Some fields are populated with information that the contact provided in the chat.
+1. Fill in the relevant fields.
+1. Click **Add**. The new contact and company is added to SuperOffice. The contact is also linked to the chat for future reference.
+
+![You can add a new contact to SuperOffice CRM through the side panel -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: create-contact.md
-
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-link-to-contact.png
+[img2]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

@@ -28,13 +28,11 @@ Hvis du ikke kan løse spørsmålet via chatsamtalen, kan du opprette en sak som
 ## Relatert innhold
 
 * [Knytte chatsamtale til person i SuperOffice][1]
-* [Legge til kunde i SuperOffice][2]
 * [Svare på en chat][3]
 * [Finn ut mer om saker][4]
 
 <!-- Referenced links -->
 [1]: link-to-person.md
-[2]: create-contact.md
 [3]: respond.md
 [4]: ../../request/learn/index.md
 

@@ -1,12 +1,15 @@
 ---
 uid: help-sv-chat-link-to-person
 title: Koppla chatt till en befintlig kontakt
-description: "När en kund skickar en fråga via chattwidgeten på webbplatsen är det inte bara viktigt att svara på den, utan också att registrera den på kundens kontaktkort."
-keywords: chatt
+description: När en kund skickar en fråga via chattwidgeten på webbplatsen är det inte bara viktigt att svara på den, utan också att registrera den på kundens kontaktkort.
+keywords: koppla chatt till kontakt, föreslagen kontakt, skapa ny kontakt
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -36,12 +39,15 @@ Om du har valt fel kontakt kan du klicka på **Byt kontakt** längst ned på sid
 
 ## Skapa ett nytt företag och en ny kontakt
 
-Om du inte hittar kunden i databasen i SuperOffice CRM kan du [skapa en ny kontakt och ett nytt företag][1] på sidopanelen.
+Om du inte hittar kontakten i SuperOffice kan du skapa en ny kontakt och nytt företag i sidopanelen.
 
-## Relaterat innehåll
+1. Klicka på **Skapa nytt företag och ny kontakt**. Vissa fält fylls i med information som kontakten har lämnat i chatten.
+1. Fyll i relevanta fält.
+1. Klicka på **Lägg till**. Den nya kontakten och det nya företaget läggs till i SuperOffice. Kontakten kopplas också till chatten för framtida referens.
+
+![Du kan lägga till en ny kontakt till SuperOffice CRM via sidopanelen -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: create-contact.md
-
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-link-to-contact.png
+[img2]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

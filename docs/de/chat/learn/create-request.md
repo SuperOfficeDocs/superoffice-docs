@@ -28,13 +28,11 @@ Wenn Sie das Problem nicht über den Chat lösen können, können Sie eine Anfra
 ## Verwandte Inhalte
 
 * [Chat mit Person in SuperOffice verknüpfen][1]
-* [Kunde zu SuperOffice hinzufügen][2]
 * [Chat beantworten][3]
 * [Informationen über Anfragen][4]
 
 <!-- Referenced links -->
 [1]: link-to-person.md
-[2]: create-contact.md
 [3]: respond.md
 [4]: ../../request/learn/index.md
 

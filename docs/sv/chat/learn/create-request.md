@@ -28,13 +28,11 @@ Om du inte kan lösa problemet via chatten kan du skapa ett ärende som hanteras
 ## Relaterat innehåll
 
 * [Knyta chattsamtal till kontakten i SuperOffice][1]
-* [Lägg till kund i SuperOffice][2]
 * [Svara på ett chattsamtal][3]
 * [Lär dig om ärenden][4]
 
 <!-- Referenced links -->
 [1]: link-to-person.md
-[2]: create-contact.md
 [3]: respond.md
 [4]: ../../request/learn/index.md
 
