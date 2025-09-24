@@ -2,7 +2,7 @@
 uid: help-en-chat-as-customer
 title: Using the chat function from the customer's perspective
 description: Using the chat function from the customer's perspective
-keywords: chat
+keywords: start chat, end chat, incoming chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

@@ -2,7 +2,7 @@
 uid: help-de-chat-as-customer
 title: Chat-Funktion aus Kundenperspektive
 description: Chat-Funktion aus Kundenperspektive
-keywords: Chat
+keywords: chat starten, chat beenden, eingehender chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

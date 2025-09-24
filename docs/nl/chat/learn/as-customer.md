@@ -2,7 +2,7 @@
 uid: help-nl-chat-as-customer
 title: De chatfunctie gebruiken vanuit klantperspectief
 description: De chatfunctie gebruiken vanuit klantperspectief
-keywords: chatten
+keywords: chat starten, chat beëindigen, inkomende chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

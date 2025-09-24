@@ -2,7 +2,7 @@
 uid: help-da-chat-as-customer
 title: Anvendelse af chatfunktion fra kundens perspektiv
 description: Anvendelse af chatfunktion fra kundens perspektiv
-keywords: chat
+keywords: start chat, afslut chat, indkommende chat
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
