@@ -144,5 +144,5 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/sv/saint/find-company-saint-criteria.png
-[img3]: ../../../media/loc/sv/saint/visualize-neglected-company.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

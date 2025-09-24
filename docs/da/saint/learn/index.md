@@ -144,5 +144,5 @@ Dialogboksen **Vis statusser** vises, når du klikker på et statusbillede på e
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/da/saint/find-company-saint-criteria.png
-[img3]: ../../../media/loc/da/saint/visualize-neglected-company.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

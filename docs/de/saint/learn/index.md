@@ -144,5 +144,5 @@ Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein St
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/de/saint/find-company-saint-criteria.png
-[img3]: ../../../media/loc/de/saint/visualize-neglected-company.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png
