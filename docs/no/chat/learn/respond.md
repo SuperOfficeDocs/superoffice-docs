@@ -2,7 +2,7 @@
 uid: help-no-chat-respond
 title: Svare på en chat
 description: Når en kunde sender en forespørsel via chatwidgeten på websiden, er det ikke bare viktig å svare på den, men også å registrere den på vedkommendes personkort.
-keywords: chat
+keywords: svare på chat, neste chat i kø, innkommende chat, tilstedeværelse
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -14,23 +14,21 @@ language: no
 
 # Svare på en chat
 
-Innkommende chatsamtaler annonseres på følgende måter:
+Innkommende chats blir indikert på følgende måter:
 
-* ![ikon][img2] Et ikon med tall på **Dashboard**-fanen. Tallet viser hvor mange innkommende chatsamtaler som ikke er besvart av en agent.
-* I listen **Innkommende chatsamtaler** i **Dashbord**-fanen. Du kan dobbeltklikke på en rad for å svare på en chat.
-* I fanen **Chatsamtaler** viser feltet **I kø** hvor mange ubesvarte chatsamtaler som står i kø.
-* Et popupvindu med en varsling hvis en chatsamtale ikke er besvart innen et angitt tidsrom. Du ser bare varslingen hvis statusen din er **Til stede**.
+* Et tallikon på **Dashboard**-fanen viser hvor mange innkommende chats som ikke er besvart av en agent.
+* I listen **Innkommende chatsamtaler** i **Dashboard**-fanen. Du kan dobbeltklikke på en rad for å svare på en chat.
+* I **Chatsamtaler**-fanen viser feltet **I kø** hvor mange chats som venter på svar.
+* En advarsel vises hvis en chat ikke blir besvart innen en bestemt tid. Denne advarselen vises kun hvis statusen din er **Til stede**.
 
 ## Angi status (Til stede / Borte)
 
-Øverst til høyre i **Chat**-bildet kan du angi om du er til stede eller ikke:
+Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
 
-![ikon][img3] Du er oppført som en agent som er til stede, og du mottar varslinger om ubesvarte chatsamtaler.
+![ikon][img3]
 
-![ikon][img4] Du er ikke oppført som en agent som er til stede, og du mottar ikke varslinger om ubesvarte chatsamtaler. Du kan imidlertid fortsatt svare på innkommende chatsamtaler.
-
-> [!NOTE]
-> Hvis alle agenter har statusen **Borte**, vil kunden bare se det frakoblede skjemaet når de starter chatsamtalen.
+* **Til stede:** Du mottar advarsler for ubesvarte chats.
+* **Borte:** Du mottar ikke advarsler, men kan fortsatt svare på chats. Hvis alle agenter er borte, ser kundene det frakoblede skjemaet når de starter en chat.
 
 ## Svare på neste chatsamtale i køen
 
@@ -86,7 +84,5 @@ Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsm
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

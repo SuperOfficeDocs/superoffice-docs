@@ -2,7 +2,7 @@
 uid: help-de-chat-respond
 title: Chat beantworten
 description: Wenn ein Kunde eine Anfrage über das Chat-Widget auf der Website sendet, ist es nicht nur wichtig, darauf zu antworten, sondern sie auch auf seiner Personenkarte zu erfassen.
-keywords: Chat
+keywords: Chat beantworten, nächster Chat in Warteschlange, eingehender Chat, Anwesenheit
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -19,21 +19,19 @@ language: de
 
 Eingehende Chats werden folgendermaßen angezeigt:
 
-* ![Symbol][img2] Ein Zahlensymbol auf der Registerkarte **Dashboard** . Die Zahl gibt an, wie viele eingegangene Chats noch nicht von einem Mitarbeiter beantwortet wurden.
+* Ein Zahlensymbol auf der Registerkarte **Dashboard** zeigt an, wie viele eingegangene Chats noch nicht von einem Mitarbeiter beantwortet wurden.
 * In der Liste **Eingehender Chat** auf der Registerkarte **Dashboard**. Sie können zum Beantworten eines Chats auf die Zeile doppelklicken.
-* In der Registerkarte **Chats** wird im Feld **In Warteschlange** angezeigt, wie viele unbeantwortete Chats sich in der Warteschlange befinden.
-* Mit einer Popup-Warnung, wenn ein Chat innerhalb einer bestimmten Zeitspanne nicht beantwortet wird. Sie sehen die Warnung nur, wenn Ihr Status **Anwesend** ist.
+* In der Registerkarte **Chats** wird im Feld **In Warteschlange** angezeigt, wie viele Chats auf eine Antwort warten.
+* Eine Warnung wird angezeigt, wenn ein Chat nicht innerhalb einer bestimmten Zeitspanne beantwortet wird. Diese Warnung wird nur angezeigt, wenn Ihr Status **Anwesend** ist.
 
 ## Status einstellen (Anwesend/Abwesend)
 
-In der Ecke rechts oben in der Ansicht **Chat** können Sie Ihren Anwesenheitsstatus einstellen:
+Stellen Sie Ihre Anwesenheit in der rechten oberen Ecke der **Chat**-Ansicht ein.
 
-![Symbol][img3] Sie werden als anwesender Mitarbeiter aufgeführt und erhalten Warnungen vor unbeantworteten Chats.
+![Symbol][img3]
 
-![Symbol][img4] Sie sind nicht als anwesender Mitarbeiter aufgeführt und erhalten keine Warnungen über unbeantwortete Chats. Sie können eingehende Chats dennoch beantworten.
-
-> [!NOTE]
-> Wenn alle Mitarbeiter den Status **Abwesend** haben, sieht der Kunde das Offline-Formular nur, wenn er den Chat startet.
+* **Anwesend:** Sie erhalten Warnungen für unbeantwortete Chats.
+* **Abwesend:** Sie erhalten keine Warnungen, können aber dennoch Chats beantworten. Wenn alle Mitarbeiter abwesend sind, sehen Kunden das Offline-Formular, wenn sie einen Chat starten.
 
 ## Nächsten Chat in Warteschlange beantworten
 
@@ -74,7 +72,7 @@ Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfrage
 
 ![Von der Schaltfläche zum Hinzufügen von vordefiniertem Text können Sie Text aus FAQ, Antwortvorlagen und Schnellantworten auswählen -screenshot][img6]
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Chat-Funktion aus Kundenperspektive][6]
 * [Dokument erstellen oder hochladen][7]
@@ -89,7 +87,5 @@ Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfrage
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

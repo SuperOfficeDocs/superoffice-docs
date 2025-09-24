@@ -2,11 +2,14 @@
 uid: help-nl-chat-respond
 title: Antwoorden op een chat
 description: Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart.
-keywords: chatten
+keywords: reageren op chat, volgende chat in wachtrij, binnenkomende chat, aanwezigheid
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -14,23 +17,21 @@ language: nl
 
 # Antwoorden op een chat
 
-Binnenkomende chats worden op de volgende manieren aangekondigd:
+Binnenkomende chats worden op de volgende manieren aangegeven:
 
-* ![pictogram][img2] Een pictogram met getal op het tabblad **Dashboard**. Het getal geeft aan hoeveel binnenkomende chats nog niet zijn beantwoord door een agent.
+* Een pictogram met getal op het tabblad **Dashboard** toont hoeveel binnenkomende chats nog niet zijn beantwoord door een agent.
 * In de lijst **Binnenkomende chat** in het tabblad **Dashboard**. U kunt dubbelklikken op een rij om op een chat te antwoorden.
-* In het tabblad **Chats** wordt in het veld **In wachtrij** aangegeven hoeveel onbeantwoorde chats zich in de wachtrij bevinden.
-* Een pop-up met een waarschuwing als een chat nog niet is beantwoord binnen een vastgestelde tijd. U kunt de waarschuwing alleen zien als uw status **Aanwezig** is.
+* In het tabblad **Chats** wordt in het veld **In wachtrij** aangegeven hoeveel chats wachten op antwoord.
+* Een waarschuwing wordt weergegeven als een chat niet is beantwoord binnen een bepaalde tijd. Deze waarschuwing wordt alleen getoond als uw status **Aanwezig** is.
 
 ## Uw status instellen (Aanwezig/Afwezig)
 
-In de rechterbovenhoek op het scherm **Chat** kunt u uw aanwezigheid instellen:
+Stel uw aanwezigheid in rechtsboven op het **Chat**-scherm.
 
-![pictogram][img3] U wordt weergegeven als aanwezige agent en zult waarschuwingen ontvangen voor onbeantwoorde chats.
+![pictogram][img3]
 
-![pictogram][img4] U wordt niet weergegeven als aanwezige agent en zult geen waarschuwingen ontvangen voor onbeantwoorde chats. U kunt echter nog steeds antwoorden op binnenkomende chats.
-
-> [!NOTE]
-> Als alle agents de status **Afwezig** hebben, zal de klant alleen het offline-formulier zien wanneer hij/zij de chat start.
+* **Aanwezig:** U ontvangt waarschuwingen voor onbeantwoorde chats.
+* **Afwezig:** U ontvangt geen waarschuwingen maar kunt nog steeds chats beantwoorden. Als alle agents afwezig zijn, zien klanten het offline formulier wanneer ze een chat starten.
 
 ## Antwoorden op de volgende chat in de wachtrij
 
@@ -86,7 +87,5 @@ Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

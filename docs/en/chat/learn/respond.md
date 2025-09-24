@@ -2,7 +2,7 @@
 uid: help-en-chat-respond
 title: Respond to a chat
 description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
-keywords: chat
+keywords: respond to chat, next chat in queue, incoming chat, presence
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -17,23 +17,21 @@ language: en
 
 # Respond to a chat
 
-Incoming chats are announced in the following ways:
+Incoming chats are indicated in the following ways:
 
-* ![icon][img2] A number icon on the **Dashboard** tab. The number indicates how many incoming chats have not been answered by an agent.
-* In the **Incoming chat** list in the **Dashboard** tab. You can double-click a row to respond to a chat.
-* In the **Chats** tab, the **In queue** field will show how many unanswered chats are in queue.
-* A warning popup if a chat has not been answered within a specified amount of time. You will only see the warning if your status is **Present**.
+* A number icon on the **Dashboard** tab shows how many incoming chats have not been answered by an agent.
+* In the **Incoming chat** list in the **Dashboard** tab. Double-click a row to respond to a chat.
+* In the **Chats** tab, the **In queue** field shows how many chats are waiting for a response.
+* A warning appears if a chat is not answered within a specified amount of time. This warning is shown only if your status is **Present**.
 
 ## Setting your status (Present/Away)
 
-In the top-right corner of the **Chat** screen, you can set your presence:
+Set your presence in the upper-right corner of the **Chat** screen.
 
-![icon][img3] You are listed as a present agent and will receive warnings of unanswered chats.
+![icon][img3]
 
-![icon][img4] You are not listed as a present agent and will not receive warnings of unanswered chats. However, you can still respond to incoming chats.
-
-> [!NOTE]
-> If all agents have status **Away**, the customer will only see the offline form when they start the chat.
+* **Present:** You receive warnings for unanswered chats.
+* **Away:** You do not receive warnings but can still respond to chats. If all agents are away, customers see the offline form when they start a chat.
 
 ## Respond to next chat in queue
 
@@ -74,7 +72,7 @@ Save time by using pre-defined texts when answering customer queries through cha
 
 ![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
 
-## Related topics
+## Related content
 
 * [Using the chat function from the customer's perspective][6]
 * [Create or upload a document][7]
@@ -89,7 +87,5 @@ Save time by using pre-defined texts when answering customer queries through cha
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

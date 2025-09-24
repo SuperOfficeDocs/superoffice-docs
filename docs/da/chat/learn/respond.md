@@ -2,7 +2,7 @@
 uid: help-da-chat-respond
 title: Svare på en chatsamtale
 description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort.
-keywords: chat
+keywords: svar på chat, næste chat i kø, indgående chat, tilstedeværelse
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -17,23 +17,21 @@ language: da
 
 # Svare på en chatsamtale
 
-Indgående chatsamtaler annonceres på følgende måder:
+Indgående chatsamtaler indikeres på følgende måder:
 
-* ![ikon][img2] Et talikon på fanen **Dashboard**. Tallet viser, hvor mange indgående chatsamtaler der ikke er besvaret af en repræsentant.
+* Et talikon på fanen **Dashboard** viser hvor mange indgående chatsamtaler, der ikke er besvaret af en repræsentant.
 * På listen **Indgående chat** under fanen **Dashboard**. Du kan dobbeltklikke på en række for at svare på en chat.
-* På fanen **Chat-samtaler** viser feltet **I kø** hvor mange ubesvarede chatsamtaler der står kø.
-* En advarsels-popup, hvis en chat ikke er blevet besvaret inden for et bestemt tidsrum. Du ser kun advarslen, hvis din status er **Til stede**.
+* På fanen **Chat-samtaler** viser feltet **I kø** hvor mange chatsamtaler der venter på svar.
+* En advarsel vises, hvis en chat ikke bliver besvaret inden for et bestemt tidsrum. Denne advarsel vises kun, hvis din status er **Til stede**.
 
 ## Angivelse af status (Til stede / Ikke til stede)
 
-Øverst til højre i **Chat**-skærmbilledet kan du angive, om du er til stede eller ikke:
+Angiv din tilstedeværelse øverst til højre på **Chat**-skærmbilledet.
 
-![ikon][img3] Du er opført som en repræsentant, der er til stede, og modtage advarsler om ubesvarede chatsamtaler.
+![ikon][img3]
 
-![ikon][img4] Du er ikke opført som en repræsentant, der er til stede, og du vil ikke modtage advarsler om ubesvarede chatsamtaler. Du kan dog stadig besvare indgående chatsamtaler.
-
-> [!NOTE]
-> Hvis alle repræsentanter har status **Ikke til stede**, vil kunden kun se det frakoblede skema, når kunden starter chatsamtalen.
+* **Til stede:** Du modtager advarsler om ubesvarede chatsamtaler.
+* **Ikke til stede:** Du modtager ikke advarsler, men kan stadig besvare chatsamtaler. Hvis alle repræsentanter er ikke til stede, ser kunderne det offline skema, når de starter en chat.
 
 ## Svare på næste chatsamtale i køen
 
@@ -89,7 +87,5 @@ Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgs
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

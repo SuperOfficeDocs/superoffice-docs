@@ -2,7 +2,7 @@
 uid: help-sv-chat-respond
 title: Svara på ett chattsamtal
 description: När en kund skickar en fråga via chattwidgeten på webbplatsen är det inte bara viktigt att svara på den, utan också att registrera den på kundens kontaktkort.
-keywords: chatt
+keywords: svara på chatt, nästa chatt i kö, inkommande chatt, närvaro
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -14,23 +14,21 @@ language: sv
 
 # Svara på ett chattsamtal
 
-Inkommande chattsamtal annonseras på följande sätt:
+Inkommande chattar indikeras på följande sätt:
 
-* ![ikon][img2] En sifferikon på **Dashboard**-fliken. Siffran visar hur många inkommande chattsamtal som inte har besvarats av en agent.
+* En sifferikon på **Dashboard**-fliken visar hur många inkommande chattar som inte har besvarats av en handläggare.
 * I listan **Inkommande chatt** på **Dashboard**-fliken. Du kan dubbelklicka på en rad för att svara på en chatt.
-* På fliken **Chattsamtal** visar fältet **I kö** hur många obesvarade chattsamtal som står i kö.
-* Ett popupfönster med en varning om ett chattsamtal inte besvaras inom en angiven tidsram. Du ser bara varningen om din status är **Närvarande**.
+* På **Chattsamtal**-fliken visar fältet **I kö** hur många chattar som väntar på svar.
+* En varning visas om en chatt inte besvaras inom en bestämd tid. Denna varning visas endast om din status är **Närvarande**.
 
 ## Ange status (Närvarande/Frånvarande)
 
-Överst till höger i **Chatt**-fönstret kan du ange om du är närvarande eller inte:
+Ange din närvaro överst till höger i **Chatt**-fönstret.
 
-![ikon][img3] Du listas som närvarande handläggare och får aviseringar om obesvarade chattsamtal.
+![ikon][img3]
 
-![ikon][img4] Du listas inte som närvarande handläggare och får inte aviseringar om obesvarade chattsamtal. Du kan dock fortfarande svara på inkommande chattsamtal.
-
-> [!NOTE]
-> Om alla handläggare har status **Frånvarande** ser kunden bara det frånkopplade formuläret när de startar chattsamtalet.
+* **Närvarande:** Du får varningar för obesvarade chattar.
+* **Frånvarande:** Du får inte varningar men kan fortfarande svara på chattar. Om alla handläggare är frånvarande ser kunder det frånkopplade formuläret när de startar en chatt.
 
 ## Svara på nästa chattsamtal i kön
 
@@ -86,7 +84,5 @@ Spara tid genom att använda fördefinierade texter när du svarar på kundfråg
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
-[img4]: ../../../media/loc/en/chat/chat-status-away.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png
