@@ -5,7 +5,7 @@ description: Live Chat er en populær måte for kunder og potensielle kunder å 
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
-keywords: chat
+keywords: chatbot, connector, AI
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

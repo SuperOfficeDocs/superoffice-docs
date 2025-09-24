@@ -2,7 +2,7 @@
 uid: help-da-chat-channel-create
 title: Opret en chatkanal
 description: Opret en chatkanal
-keywords: chat
+keywords: chatkanal, udseende af chatvindue, tilføj repræsentant, frakoblet skema, startskema for chat, slutformulær for chat, aktivér transskript
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

@@ -2,7 +2,7 @@
 uid: help-en-chat-add-javascript
 title: Add JavaScript for your website
 description: Live Chat is a popular way for your customers and prospects to get in touch with you when they visit your website. This how-to guide will show you how to add a chat widget to your website.
-keywords: chat
+keywords: chat JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

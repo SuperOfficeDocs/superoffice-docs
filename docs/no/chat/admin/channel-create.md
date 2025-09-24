@@ -2,7 +2,7 @@
 uid: help-no-chat-channel-create
 title: Opprette en chatkanal
 description: Opprette en chatkanal
-keywords: chat
+keywords: chatkanal, utseende av chat-widget, legg til agent, offline skjema, skjema før chat, skjema etter chat, aktiver transkripsjon
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

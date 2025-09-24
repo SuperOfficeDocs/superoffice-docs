@@ -2,7 +2,7 @@
 uid: help-en-chat-channel-create
 title: Create a chat channel
 description: Create a chat channel
-keywords: chat
+keywords: chat channel, chat widget layout, add agent, offline form, pre-chat form, post-chat form, enable transcript
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

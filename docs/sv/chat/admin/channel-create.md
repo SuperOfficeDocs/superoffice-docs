@@ -2,7 +2,7 @@
 uid: help-sv-chat-channel-create
 title: Skapa en chattkanal
 description: Skapa en chattkanal
-keywords: chatt
+keywords: chattkanal, layout för chattwidget, lägg till handläggare, frånkopplat formulär, startformulär för chatt, slutformulär för chatt, aktivera avskrift
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

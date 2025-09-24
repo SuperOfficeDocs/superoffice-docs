@@ -2,7 +2,7 @@
 uid: help-de-chat-channel-create
 title: Chat-Kanal erstellen
 description: Chat-Kanal erstellen
-keywords: Chat
+keywords: Chat-Kanal, Layout des Chat-Widgets, Mitarbeiter hinzufügen, Offline-Formular, Formular vor Chat, Formular nach Chat, Transkript aktivieren
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

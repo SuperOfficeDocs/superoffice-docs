@@ -2,7 +2,7 @@
 uid: help-no-chat-add-javascript
 title: Legg til JavaScript for websiden
 description: Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne guiden viser deg hvordan du legger til en chat-widget på websiden din.
-keywords: chat
+keywords: chat JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -42,7 +42,7 @@ Chatvinduet er nå tilgjengelig og live. Besøkende på websiden din kan begynne
 >
 > Parameteren *DEFER* sikrer at dette skriptet ikke blokkerer åpning av en side. Skriptet kjøres etter at siden er ferdig lastet.
 
-## Relatert
+## Relatert innhold
 
 * [Koble chatten til Kundesenter][3]
 * [Tjenester for kunstig intelligens][2]

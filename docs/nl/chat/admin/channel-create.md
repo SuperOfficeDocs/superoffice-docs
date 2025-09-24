@@ -2,7 +2,7 @@
 uid: help-nl-chat-channel-create
 title: Een chatkanaal maken
 description: Een chatkanaal maken
-keywords: chatten
+keywords: chatkanaal, opmaak van chat-widget, agent toevoegen, offline formulier, formulier voor chat, formulier na chat, transcript inschakelen
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5

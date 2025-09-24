@@ -2,7 +2,7 @@
 uid: help-de-chat-admin
 title: Chat-Administration
 description: Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie das Chat-Widget konfigurieren und es dann zu Ihrer Website hinzufügen.
-keywords: Chat
+keywords: chatbot, connector, AI
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

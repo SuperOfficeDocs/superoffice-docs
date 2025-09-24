@@ -2,7 +2,7 @@
 uid: help-sv-chat-add-javascript
 title: Lägg till JavaScript till webbplatsen
 description: Livechatt är ett populärt sätt för dina kunder och prospekt att komma i kontakt med dig när de besöker webbplatsen. Den här guiden visar hur du lägger till en chattwidget på din webbplats.
-keywords: chatt
+keywords: chatt JavaScript
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -42,7 +42,7 @@ Chattwidgeten är nu tillgänglig och live. Webbplatsens besökare kan nu börja
 >
 > Parametern *DEFER* ser till att det här skriptet inte blockerar öppning av en sida. Skriptet körs efter att sidan har öppnats.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Anslut chatten till ditt Kundcenter][3]
 * [AI-tjänster][2]
