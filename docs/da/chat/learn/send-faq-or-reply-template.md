@@ -19,7 +19,7 @@ language: da
 
 Kunder stiller ofte de samme spørgsmål, så du kan spare tid ved at bruge foruddefinerede tekster i stedet for at skrive dit svar. Du kan vælge mellem ofte stillede spørgsmål og svarskabeloner i SuperOffice Service og [hurtige svar, der er oprettet af dig][1].
 
-1. Klik på ![ikon][img1] i den nederste del af chatpanelet.
+1. Klik på <i class="ph ph-article" aria-label="Insert"></i> i den nederste del af chatpanelet.
 
 2. Vælg et af de følgende alternativer, og gennemse mapperne. Du kan også angive en søgetekst i topfeltet eller ved at klikke på de relevante ikoner for at få adgang til historik og foretrukne.
     * **FAQ**: Indsætter et link til en FAQ i SuperOffice Customer Centre. Kun standard-FAQ'er, som er tilgængelige for alle, og som er udgivet, er tilgængelige her.
@@ -32,4 +32,3 @@ Kunder stiller ofte de samme spørgsmål, så du kan spare tid ved at bruge foru
 [1]: create-quick-reply.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/copy-paste-icon.png

@@ -16,7 +16,7 @@ language: nl
 
 Klanten stellen vaak dezelfde vragen. U kunt dus tijd besparen door voorgedefinieerde teksten te gebruiken in plaats van uw hele antwoord te typen. U kunt kiezen uit veelgestelde vragen en antwoordsjablonen in SuperOffice Service en [snelle antwoorden die door u zijn gemaakt][1].
 
-1. Klik op ![pictogram][img1] in het onderste deel van het chatvenster.
+1. Klik op <i class="ph ph-article" aria-label="Insert"></i> in het onderste deel van het chatvenster.
 
 2. Selecteer een van de volgende opties en blader door de mappen. U kunt ook zoektekst opgeven in het bovenste veld of op de relevante pictogrammen klikken om toegang te krijgen tot de historie en favorieten.
     * **Veelgestelde vragen**: Voegt een koppeling in naar veelgestelde vragen in SuperOffice Customer Centre. Alleen veelgestelde vragen die voor iedereen toegankelijk zijn en die worden gepubliceerd, zijn hier beschikbaar.
@@ -29,4 +29,3 @@ Klanten stellen vaak dezelfde vragen. U kunt dus tijd besparen door voorgedefini
 [1]: create-quick-reply.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/copy-paste-icon.png

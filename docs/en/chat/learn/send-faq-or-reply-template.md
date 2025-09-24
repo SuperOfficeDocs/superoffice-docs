@@ -19,7 +19,7 @@ language: en
 
 Customers often ask the same questions, so you can save time by using pre-defined texts instead of typing out your answer. You can select from FAQs and reply templates in SuperOffice Service and [quick replies created by you][1].
 
-1. Click ![icon][img1] in the lower part of the chat panel.
+1. Click <i class="ph ph-article" aria-label="Insert"></i> in the lower part of the chat panel.
 
 2. Select one of the following options and browse the folders. You can also enter search text in the top field, or click the relevant icons to access history and favorites.
     * **FAQ**: Inserts a link to an FAQ in SuperOffice Customer Centre. Only FAQs that are accessible to everyone and that are published, are available here.
@@ -32,4 +32,3 @@ Customers often ask the same questions, so you can save time by using pre-define
 [1]: create-quick-reply.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/copy-paste-icon.png

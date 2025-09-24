@@ -16,7 +16,7 @@ language: no
 
 Kundene stiller ofte de samme spørsmålene, så du kan spare tid på å bruke forhåndsdefinerte tekster i stedet for å skrive inn svaret selv hver gang du svarer. Du kan velge fra FAQ-er og svarmaler i SuperOffice Service og [hurtigsvar som du har opprettet][1].
 
-1. Klikk på ![ikon][img1] nederst i chatpanelet.
+1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> nederst i chatpanelet.
 
 2. Velg et av de følgende alternativene, og bla gjennom mappene. Du kan også skrive inn søketekst i det øverste feltet, eller klikke på de relevante ikonene for å få tilgang til historikk og favoritter.
     * **FAQ**: Setter inn en kobling til en FAQ i SuperOffice Customer Centre. Bare standard FAQer som er tilgjengelige for alle og publisert, er tilgjengelige her.
@@ -29,4 +29,3 @@ Kundene stiller ofte de samme spørsmålene, så du kan spare tid på å bruke f
 [1]: create-quick-reply.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/copy-paste-icon.png
