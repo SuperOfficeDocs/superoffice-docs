@@ -45,8 +45,6 @@ Ved å bruke SAINT kan Bridgecom proaktivt søke etter alle kunder uten åpne el
 
 Med denne oversikten kan Bridgecom bestemme hvordan de ønsker å følge opp kundene sine for å forbedre relasjonene og øke salget.
 
-![Utvalg av forsømte kunder i Innstillinger og vedlikehold -screenshot][img1]
-
 Med SuperOffice SAINT kan du analysere databasen for å få oversikt over kunder, salg, forespørsler og dokumenter. Dette kan gjøres i form av diagrammer og rapporter. Deretter kan personene som er ansvarlige for situasjonen du analyserte med SAINT, handle for å forbedre den eksisterende situasjonen.
 
 ### Firmaer/personer
@@ -90,13 +88,13 @@ SuperOffice SAINT bruker visuelle statusindikatorer på en kunde, potensiell kun
 
 SAINT kan være gøy! Du kan bruke hvilket som helst bakgrunnsbilde, for eksempel:
 
-* En gråtende baby for å symbolisere kundene som ikke er blitt fulgt opp,
+* Et spindelvev for å symbolisere kundene som ikke er blitt fulgt opp,
 * Et dollartegn for kunder med forfalte salg,
 * En livbøye for kunder med for mange serviceforespørsler.
 
 Fra et praktisk synspunkt kan SAINT gi en ansatt forslag til handlinger for en bestemt situasjon. De kan opprette en oppfølgingsaktivitet eller legge til kunden i et utvalg.
 
-![Bruk en visuell indikator som en gråtende baby for å varsle om at en kunde må følges opp -screenshot][img3]
+![Bruk en visuell indikator som et spindelvev for å varsle om at en kunde må følges opp -screenshot][img3]
 
 SAINT-kriteriene som genererer analysene du bruker, blir automatisk søkbare "felt". Alle brukere kan bruke disse feltene til å lage en tilpasset liste med handlinger eller søk i SuperOffice Utvalg.
 
@@ -146,6 +144,5 @@ Dialogboksen **Vis statuser** vises når du klikker på et statusbilde på et fi
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

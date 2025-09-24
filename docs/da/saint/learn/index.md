@@ -45,8 +45,6 @@ Ved at bruge SAINT kan Bridgecom proaktivt søge efter alle kunder uden åbne el
 
 Med dette overblik kan Bridgecom beslutte, hvordan de ønsker at følge op på deres kunder for at forbedre relationerne og øge salget.
 
-![Udvalg af forsømte kunder i Indstillinger og vedligeholdelse -screenshot][img1]
-
 Med SuperOffice SAINT kan du analysere din database for at få overblik over kunder, salg, sager og dokumenter. Dette kan gøres i form af diagrammer og rapporter. Derefter kan de mennesker, der er ansvarlige for den situation, du har analyseret med SAINT, iværksætte handlinger, der har til formål at forbedre den eksisterende situation.
 
 ### Firmaer/personer
@@ -90,13 +88,13 @@ SuperOffice SAINT bruger visuelle statusindikatorer på en kunde, potentiel kund
 
 SAINT kan være sjovt! Du kan bruge et hvilket som helst baggrundsbillede, for eksempel:
 
-* En grædende baby for at symbolisere de kunder, der ikke er blevet fulgt op på
+* Et spindelvæv for at symbolisere de kunder, der ikke er blevet fulgt op på
 * Et dollartegn for kunder med forsinket salg
 * En redningskrans til kunder med for mange servicesager.
 
 Set fra et praktisk synspunkt kan SAINT give en medarbejder forslag til handlinger til en bestemt situation. De kan oprette en opfølgningsaktivitet eller føje kunden til et udvalg.
 
-![Brug en visuel indikator som for eksempel en grædende baby til at advare dig om, at der skal følges op på en kunde -screenshot][img3]
+![Brug en visuel indikator som for eksempel et spindelvæv til at advare dig om, at der skal følges op på en kunde -screenshot][img3]
 
 SAINT-kriterierne, der opretter de analyser, du bruger, bliver automatisk søgbare "felter". Enhver bruger kan bruge disse felter til at oprette en tilpasset liste over handlinger eller søgninger i SuperOffice Udvalg.
 
@@ -146,6 +144,5 @@ Dialogboksen **Vis statusser** vises, når du klikker på et statusbillede på e
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/da/saint/learn/saint-counter-selected.png
+[img3]: ../../../media/loc/da/saint/learn/saint-visual-effects.png

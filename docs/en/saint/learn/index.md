@@ -46,8 +46,6 @@ By using SAINT, Bridgecom can proactively search for all customers with no open 
 
 With this overview, Bridgecom can decide how they wish to follow up on their customers to improve the relationships and to drive up sales.
 
-![Selection of neglected customers in Settings and maintenance -screenshot][img1]
-
 With SuperOffice SAINT you can analyze your database to get an overview of customers, sales, requests, and documents. This can be done in the form of charts and reports. Then, the people responsible for the situation that you analyzed with SAINT can take action to improve the existing situation.
 
 ### Companies/contacts
@@ -91,13 +89,13 @@ SuperOffice SAINT uses visual Status Indicators on a customer, potential custome
 
 SAINT can be fun! You can use any background image, for example:
 
-* A crying baby to symbolize the customers that have not been followed up,
+* A cobweb to symbolize the customers that have not been followed up,
 * A dollar sign for customers with overdue sales,
 * A lifebuoy for customers with too many service requests.
 
 From the practical point of view, SAINT can provide an employee with suggested actions for a specific situation. They can create a follow-up activity or add the customer to a selection.
 
-![Use a visual indicator like a crying baby to warn you that a customer needs to be followed up -screenshot][img3]
+![Use a visual indicator like a cobweb to warn you that a customer needs to be followed up -screenshot][img3]
 
 The SAINT criteria that generate the analyses you use will automatically become searchable "fields". Any user can use these fields to set up his or her customized list of actions or searches in SuperOffice Selection.
 
@@ -147,6 +145,5 @@ The **View statuses** dialog is displayed when you click a status image for a co
 [5]: ../admin/set-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

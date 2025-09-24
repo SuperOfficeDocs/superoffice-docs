@@ -1,5 +1,5 @@
 items:
-- name: Oversigt - Statusovervågning
+- name: Introduktion - Statusovervågning
   href: index.md
 - name: For admins
   href: ../admin/toc.yml

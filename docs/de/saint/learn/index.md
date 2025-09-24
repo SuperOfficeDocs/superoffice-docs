@@ -45,8 +45,6 @@ Durch den Einsatz von SAINT kann Bridgecom proaktiv nach allen Kunden ohne offen
 
 Mit dieser Übersicht kann Bridgecom entscheiden, wie die Firma ihre Kunden betreuen möchten, um die Beziehungen zu verbessern und die Verkäufe zu steigern.
 
-![Selektion vernachlässigter Kunden in Einstellungen und Verwaltung -screenshot][img1]
-
 Mit SuperOffice SAINT können Sie Ihre Datenbank analysieren, um einen Überblick über Kunden, Verkäufe, Anfragen und Dokumente zu erhalten. Dies kann in Form von Diagrammen und Berichten erfolgen. Dann können die verantwortlichen Personen für die Situation, die Sie mit SAINT analysiert haben, aktiv werden, um die vorhandene Situation zu verbessern.
 
 ### Firmen/Personen
@@ -90,13 +88,13 @@ SuperOffice SAINT verwendet visuelle Statusanzeigen für einen Kunden, potenziel
 
 SAINT kann Spaß machen! Sie können ein beliebiges Hintergrundbild verwenden, wie zum Beispiel:
 
-* Ein weinendes Baby, um die Kunden zu symbolisieren, die nicht nachverfolgt wurden,
+* Ein Spinnennetz, um die Kunden zu symbolisieren, die nicht nachverfolgt wurden,
 * Ein Dollarzeichen für Kunden mit überfälligen Verkäufen,
 * Ein Rettungsring für Kunden mit zu vielen Serviceanfragen.
 
 Aus praktischer Sicht kann SAINT einem Mitarbeiter Aktionen für eine bestimmte Situation vorschlagen. Sie können eine Folgeaufgabe-Aktivität erstellen oder den Kunden zu einer Auswahl hinzufügen.
 
-![Verwenden Sie einen visuellen Indikator wie ein weinendes Baby, um Sie zu warnen, dass ein Kunde nachverfolgt werden muss -screenshot][img3]
+![Verwenden Sie einen visuellen Indikator wie ein Spinnennetz, um Sie zu warnen, dass ein Kunde nachverfolgt werden muss -screenshot][img3]
 
 Die SAINT-Kriterien, die durch die von Ihnen verwendeten Analysen erstellt werden, werden automatisch zu suchbaren "Feldern". Jeder Benutzer kann diese Felder verwenden, um seine benutzerdefinierte Liste von Aktionen oder Suchen in SuperOffice Selektion einzurichten.
 
@@ -146,6 +144,5 @@ Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein St
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/de/saint/learn/saint-counter-selected.png
+[img3]: ../../../media/loc/de/saint/learn/saint-visual-effects.png

@@ -45,8 +45,6 @@ Genom att använda SAINT kan Bridgecom proaktivt söka efter alla kunder utan ö
 
 Med denna översikt kan Bridgecom avgöra hur de vill följa upp sina kunder för att förbättra relationerna och öka försäljningen.
 
-![Urval av försummade kunder i Inställningar och underhåll -screenshot][img1]
-
 Med SuperOffice SAINT kan du analysera din databas för att få en översikt över kunder, försäljning, ärenden och dokument. Detta kan göras i form av diagram och rapporter. Sedan kan de personer som är ansvariga för situationen som du analyserade med SAINT vidta åtgärder för att förbättra den.
 
 ### Företag/kontakter
@@ -90,13 +88,13 @@ SuperOffice SAINT använder visuella statusindikatorer på en kund, potentiell k
 
 SAINT kan vara kul! Du kan använda vilken bakgrundsbild som helst, till exempel:
 
-* Ett gråtande barn som symboliserar de kunder som inte har följts upp,
+* Ett spindelnät som symboliserar de kunder som inte har följts upp,
 * Ett dollartecken för kunder med försenad försäljning,
 * En livboj för kunder med för många serviceärenden.
 
 Ur praktisk synvinkel kan SAINT ge en anställd förslag på åtgärder för en specifik situation. De kan skapa en händelseaktivitet eller lägga till kunden i ett urval.
 
-![Använd en visuell indikator som ett gråtande barn för att varna om att en kund behöver följas upp -screenshot][img3]
+![Använd en visuell indikator som ett spindelnät för att varna om att en kund behöver följas upp -screenshot][img3]
 
 De SAINT-kriterier som genererar de analyser du använder blir automatiskt sökbara "fält". Alla användare kan använda dessa fält för att skapa en anpassad lista över åtgärder eller sökningar i SuperOffice Selection.
 
@@ -146,6 +144,5 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/sv/saint/learn/saint-counter-selected.png
+[img3]: ../../../media/loc/sv/saint/learn/saint-visual-effects.png

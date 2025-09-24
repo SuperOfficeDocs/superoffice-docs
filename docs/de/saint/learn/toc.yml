@@ -1,5 +1,5 @@
 items:
-- name: Überblick - Statuskontrollen
+- name: Einführung - Statuskontrollen
   href: index.md
 - name: Für Admins
   href: ../admin/toc.yml

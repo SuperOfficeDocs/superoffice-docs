@@ -1,5 +1,5 @@
 items:
-- name: Overzicht - Statuscontroles
+- name: Introductie - Statuscontroles
   href: index.md
 - name: Voor beheerders
   href: ../admin/toc.yml
