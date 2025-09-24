@@ -50,9 +50,6 @@ items:
     - name: Typ der Folgeaufgabe hinzufügen
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Verkauf - Betragsklasse hinzufügen
-    href: sale-amount-class.md
-
   - name: Allgemein
     topicHref: country.md
     items:

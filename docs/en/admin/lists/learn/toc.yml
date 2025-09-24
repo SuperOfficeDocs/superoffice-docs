@@ -50,9 +50,6 @@ items:
     - name: Add follow-up type
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Add sale amount class
-    href: sale-amount-class.md 
-
   - name: General
     topicHref: country.md
     items:

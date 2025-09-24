@@ -1,19 +1,11 @@
 items:
-  - name: Översikt
-    href: index.md
-  - name: Administrera statusövervakning
-    href: manage-status-monitors.md
-  - name: Skapa ny status
-    href: create-status.md
-  - name: Redigera beskrivning för status
-    href: edit-status.md
-  - name: Återskapa borttagen status
-    href: restore-status.md
-  - name: Typ av standardhändelse för status
-    href: select-default-follow-up-type-for-status.md
-  - name: Bild för status
-    href: select-image-for-status.md
-  - name: Periodlängd
-    href: select-period-length.md
-  - name: Statuskriterier
-    href: select-status-criteria.md
+- name: Introduktion
+  href: index.md
+- name: Konfigurera statusövervakning
+  href: set-up.md
+- name: Uppdatera statusövervakning
+  href: update.md
+- name: Räknarinställningar (period)
+  href: counter-settings.md
+- name: Lägg till beloppsklass för försäljning
+  href: sale-amount-class.md

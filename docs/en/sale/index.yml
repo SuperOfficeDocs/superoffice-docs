@@ -107,22 +107,20 @@ landingContent:
         links:
         - text: What is SAINT and what can it do
           url: saint/learn/index.md
-        - text: Counters and values
-          url: ../saint/learn/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Set up SAINT
+        - text: About SAINT administration
           url: ../saint/admin/index.md
-        - text: Add status monitor
-          url: ../saint/admin/create-status.md
+        - text: Set up activity monitors
+          url: ../saint/admin/set-up.md
         - text: Add sale amount class (list)
-          url: ../admin/lists/learn/sale-amount-class.md
+          url: ../saint/admin/sale-amount-class.md
       - itemType: library_books
         typeDesc: reference
         links:
         - text: The View statuses dialog
-          url: ../saint/learn/status-dialog.md
+          url: ../saint/learn/index.md#dialog
 
   - title: UI customization
     linkLists:

@@ -3,14 +3,17 @@ uid: help-de-saint
 title: Sales Intelligence (SAINT)
 description: In dieser Anleitung lernen Sie, wie SAINT Ihre Vertriebs- und Kundenprozesse vorantreiben und Arbeitsabläufe verbessern kann.
 keywords: SAINT, Statuskontrollen
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-redirect_from: /de/sale/saint/learn/index
+redirect_from:
+  - /de/sale/saint/learn/index
+  - /de/sale/saint/learn/status-dialog
+  - /de/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -41,8 +44,6 @@ Unsere imaginäre Firma Bridgecom verkauft Computer, Laptops und Bürosoftware. 
 Durch den Einsatz von SAINT kann Bridgecom proaktiv nach allen Kunden ohne offene oder abgeschlossene Verkäufe suchen, die in den letzten 2 Jahren auf ihrer Kundenkarte erfasst wurden. Die SAINT-Auswahl erstellt eine Liste dieser Kunden gemäß den Informationen, die nicht in der Kundendatenbank präsent sind – nämlich, dass in den letzten 2 Jahren keine Verkäufe erfasst wurden.
 
 Mit dieser Übersicht kann Bridgecom entscheiden, wie die Firma ihre Kunden betreuen möchten, um die Beziehungen zu verbessern und die Verkäufe zu steigern.
-
-![Selektion vernachlässigter Kunden in Einstellungen und Verwaltung -screenshot][img1]
 
 Mit SuperOffice SAINT können Sie Ihre Datenbank analysieren, um einen Überblick über Kunden, Verkäufe, Anfragen und Dokumente zu erhalten. Dies kann in Form von Diagrammen und Berichten erfolgen. Dann können die verantwortlichen Personen für die Situation, die Sie mit SAINT analysiert haben, aktiv werden, um die vorhandene Situation zu verbessern.
 
@@ -87,13 +88,13 @@ SuperOffice SAINT verwendet visuelle Statusanzeigen für einen Kunden, potenziel
 
 SAINT kann Spaß machen! Sie können ein beliebiges Hintergrundbild verwenden, wie zum Beispiel:
 
-* Ein weinendes Baby, um die Kunden zu symbolisieren, die nicht nachverfolgt wurden,
+* Ein Spinnennetz, um die Kunden zu symbolisieren, die nicht nachverfolgt wurden,
 * Ein Dollarzeichen für Kunden mit überfälligen Verkäufen,
 * Ein Rettungsring für Kunden mit zu vielen Serviceanfragen.
 
 Aus praktischer Sicht kann SAINT einem Mitarbeiter Aktionen für eine bestimmte Situation vorschlagen. Sie können eine Folgeaufgabe-Aktivität erstellen oder den Kunden zu einer Auswahl hinzufügen.
 
-![Verwenden Sie einen visuellen Indikator wie ein weinendes Baby, um Sie zu warnen, dass ein Kunde nachverfolgt werden muss -screenshot][img3]
+![Verwenden Sie einen visuellen Indikator wie ein Spinnennetz, um Sie zu warnen, dass ein Kunde nachverfolgt werden muss -screenshot][img3]
 
 Die SAINT-Kriterien, die durch die von Ihnen verwendeten Analysen erstellt werden, werden automatisch zu suchbaren "Feldern". Jeder Benutzer kann diese Felder verwenden, um seine benutzerdefinierte Liste von Aktionen oder Suchen in SuperOffice Selektion einzurichten.
 
@@ -111,36 +112,37 @@ Wenn ein Statussymbol für eine Firma, eine Person oder ein Projekt angezeigt wi
 
 * Wenn Sie den Mauszeiger über dem Symbol platzieren, wird eine QuickInfo mit dem Namen des Status und einer Beschreibung angezeigt. Sie können auch Informationen über weitere mit der Firma, der Person oder dem Projekt verbundene Statusangaben abrufen.
 
-* Wenn Sie auf das Bild klicken, wird das [Dialogfeld Statuskontrollen anzeigen][1] angezeigt. Hier sehen Sie den Namen und die Beschreibung des Status und können für die Firma, die Person oder das Projekt relevante Aufgaben ausführen.
+* Wenn Sie auf das Bild klicken, wird das Dialogfeld **Statuskontrollen anzeigen** angezeigt. Hier sehen Sie den Namen und die Beschreibung des Status und können für die Firma, die Person oder das Projekt relevante Aufgaben ausführen.
 
 > [!TIP]
 > Sie können eine oder mehrere dieser Statusangaben als Kriterien während der Erstellung einer dynamischen Selektion kombinieren und erhalten auf diese Weise eine einfache Übersicht über Firmen, Personen oder Projekte, deren Statusangaben diesen Kriterien entsprechen.
 >
 > Wenn Sie beim Einrichtung von SAINT Hilfe benötigen, um Ihre Vertriebs- und Kundenprozesse voranzutreiben, empfehlen wir Ihnen immer, sich an einen unserer kompetenten Berater zu wenden.
 
-## Hinter den Kulissen
+### <a id="dialog"></a>Dialogfeld Statuskontrollen anzeigen
 
-SAINT-Zähler werden in der [countervalue][3]-Tabelle gespeichert und automatisch aktualisiert, wenn Sie Aktionen durchführen:
+Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein Statusbild für eine Firmen-, Personen- oder Projektkarte klicken. Das Dialogfeld enthält die folgenden Informationen:
 
-* Wenn SAINT aktiviert ist, wird bei der Erstellung einer Person oder eines Projekts eine Reihe von Zählerzeilen erstellt.
-
-* Wann immer eine Folgeaufgabe, ein Dokument oder ein Verkauf erstellt wird, werden die entsprechenden Zählerzeilen aktualisiert.
-
-SAINT-Werte sind einfache binäre Werte (ein oder aus), die das Erscheinungsbild der Firmen- und Projektkarten bestimmen. Diese Werte werden in der [statusvalue][4]-Tabelle gespeichert.
+| Element | Beschreibung |
+|---|---|
+| Name | Der in Einstellungen und Verwaltung definierte Statusname. |
+| Beschreibung | Eine in Einstellungen und Verwaltung definierte Statusbeschreibung. |
+| Andere Statusangaben | Eine Verknüpfung zu beliebigen Statusangaben, die sich auf die aktuelle Firma, Person bzw. das aktuelle Projekt beziehen. Dieses Feld wird nur angezeigt, wenn mehrere Statusangaben für den betreffenden Datensatz vorhanden sind. |
+| Folgeaufgabe erstellen | Wird für [die Erstellung einer neuen Folgeaufgabe][1] für die Firma, die Person oder das Projekt verwendet. Welcher Typ von Folgeaufgabe standardmäßig erstellt wird, wird in Einstellungen und Verwaltung definiert. |
+| Zu Selektion hinzufügen | Wenn Sie auf diese Option klicken, wird das Dialogfeld **Zu Selektion hinzufügen** geöffnet und Sie können die aktuelle Firma oder Person zu einer statischen Selektion Ihrer Wahl hinzufügen. Diese Option kann nur für statische Selektionen verwendet werden. [Wie man Statusangaben in dynamischen Selektionen verwendet][2].|
 
 ## Verwandte Themen
 
 * [SAINT festlegen][5]
+* [Wie SAINT Zähler und Status speichert][4]
 * [Statuskontrollen in einer dynamischen Selektion verwenden][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

@@ -1,8 +1,6 @@
 items:
-- name: Oversigt - Statusovervågning
+- name: Introduktion - Statusovervågning
   href: index.md
-- name: Dialogboksen Status
-  href: status-dialog.md
 - name: For admins
   href: ../admin/toc.yml
   topicHref: ../admin/index.md
