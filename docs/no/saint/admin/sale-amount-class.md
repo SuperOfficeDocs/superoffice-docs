@@ -16,7 +16,7 @@ redirect_from: /no/admin/lists/learn/sale-amount-class
 
 # Legge til salgsbeløpsklasse
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Listen **Salg - Beløpsklasse** er en del av funksjonen statusovervåking (SAINT) og krever en **Sales Premium** eller **Service Premium** brukerplan.
 

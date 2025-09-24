@@ -16,7 +16,7 @@ redirect_from: /sv/admin/lists/learn/sale-amount-class
 
 # Lägg till beloppsklass för försäljning
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Listan **Försäljning - Beloppsklass** är en del av funktionen för statusövervakningen (SAINT), vilken kräver en **Sales Premium** eller **Service Premium** användarlicens.
 

@@ -144,5 +144,5 @@ Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een st
 [4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/nl/saint/learn/saint-counter-selected.png
-[img3]: ../../../media/loc/nl/saint/learn/saint-visual-effects.png
+[img2]: ../../../media/loc/nl/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/nl/saint/visualize-neglected-company.png

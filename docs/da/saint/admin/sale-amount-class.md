@@ -16,7 +16,7 @@ redirect_from: /da/admin/lists/learn/sale-amount-class
 
 # Tilføjelse af salgsbeløbsklasse
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Listen **Salg - Beløbsklasse** er den del af funktionen Statusovervågning (SAINT), som kræver en **Sales Premium** eller **Service Premium** brugerplan.
 

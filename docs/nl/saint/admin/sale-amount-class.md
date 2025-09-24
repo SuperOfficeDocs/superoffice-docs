@@ -16,7 +16,7 @@ redirect_from: /nl/admin/lists/learn/sale-amount-class
 
 # Verkoopbedragklasse toevoegen
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 De lijst **Verkoop - Bedragklasse** is onderdeel van de statuscontrole-functie (SAINT) waarvoor een **Sales Premium** of **Service Premium** gebruikersplan is vereist.
 

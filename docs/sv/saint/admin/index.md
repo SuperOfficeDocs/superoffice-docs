@@ -81,8 +81,8 @@ SAINT-värden är enkla binära värden (på eller av) som bestämmer utseendet 
 [5]: counter-settings.md
 [7]: update.md
 [8]: update.md#regen
-[13]: ../../../../en/database/tables/countervalue.md
-[14]: ../../../../en/database/tables/statusvalue.md
+[13]: ../../../en/database/tables/countervalue.md
+[14]: ../../../en/database/tables/statusvalue.md
 
 <!-- Refererade bilder -->
 [img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

@@ -16,7 +16,7 @@ redirect_from: /de/admin/lists/learn/sale-amount-class
 
 # Verkauf - Betragsklasse hinzufügen
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Die Liste **Verkauf - Betragsklasse** gehört zur Statuskontrollfunktion (SAINT), für die einen **Sales Premium** oder **Service Premium** Benutzerplan erforderlich ist.
 

@@ -81,8 +81,8 @@ SAINT-**verdier** er enkle binære verdier (på eller av) som bestemmer utseende
 [5]: counter-settings.md
 [7]: update.md
 [8]: update.md#regen
-[13]: ../../database/tables/countervalue.md
-[14]: ../../database/tables/statusvalue.md
+[13]: ../../../en/database/tables/countervalue.md
+[14]: ../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

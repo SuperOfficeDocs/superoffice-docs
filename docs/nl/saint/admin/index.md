@@ -81,8 +81,8 @@ SAINT-**waarden** zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk
 [5]: counter-settings.md
 [7]: update.md
 [8]: update.md#regen
-[13]: ../../../../en/database/tables/countervalue.md
-[14]: ../../../../en/database/tables/statusvalue.md
+[13]: ../../../en/database/tables/countervalue.md
+[14]: ../../../en/database/tables/statusvalue.md
 
 <!-- Gerefereerde afbeeldingen -->
 [img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png
