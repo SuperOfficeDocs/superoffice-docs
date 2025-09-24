@@ -39,7 +39,7 @@ För att skapa en status definierar du dess namn och beskrivning, lägger till m
 
     * **Beskrivning:** Ange en tydlig beskrivning av statusen och vilken åtgärd som krävs eller rekommenderas. Du kan också använda [mallvariabler][9] för att anpassa texten till företaget, kontakten eller projektet.
 
-    ![New status monitor dialog -screenshot][img1]
+    ![Ny statusövervakningsdialogruta -screenshot][img1]
 
     Namnet och beskrivningen visas i SuperOffice CRM när användaren håller muspekaren över statusbilden eller öppnar statusdialogen. Du kan senare redigera beskrivelsen.
 
@@ -50,7 +50,7 @@ För att skapa en status definierar du dess namn och beskrivning, lägger till m
     1. Under kriterielistan väljer du **Lägg till** för att infoga ett nytt kriterium.
     1. Välj en kriterietyp, ställ in villkoret och ange ett värde.
 
-    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+    ![Kriterielista med flera definierade villkor och knappen Lägg till under listan -screenshot][img3]
 
     Varje status måste innehålla minst ett kriterium. Upprepa vid behov för att lägga till fler.
 
@@ -62,7 +62,7 @@ För att skapa en status definierar du dess namn och beskrivning, lägger till m
     Ett företag, en kontakt eller ett projekt kan matcha kriterierna för flera statusar, men bara en bild kan visas.
     Välj en status och använd pilknapparna under listan för att flytta den uppåt eller nedåt.
 
-    ![List of status monitors with priorities -screenshot][img2]
+    ![Lista över statusövervakningar med prioriteringar -screenshot][img2]
 
 1. När du är klar väljer du <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Regenerera vald statusövervakning** för att aktivera statusen.
 

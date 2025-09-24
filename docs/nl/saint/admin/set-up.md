@@ -39,7 +39,7 @@ Om een status te maken, definieert u de naam en beschrijving, voegt u minstens Ã
 
     * **Beschrijving:** Voer een duidelijke beschrijving in van de status en welke actie vereist of aanbevolen is. U kunt ook [sjabloonvariabelen][9] gebruiken om de tekst aan te passen aan het bedrijf, de persoon of het project.
 
-    ![New status monitor dialog -screenshot][img1]
+    ![Nieuw statusmonitoringdialoogvenster -screenshot][img1]
 
     De naam en beschrijving worden weergegeven in SuperOffice CRM wanneer de gebruiker over de statusafbeelding hovert of het statusdialoogvenster opent. U kunt de beschrijving later bewerken.
 
@@ -50,7 +50,7 @@ Om een status te maken, definieert u de naam en beschrijving, voegt u minstens Ã
     1. Selecteer onder de criterialijst **Toevoegen** om een nieuw criterium in te voegen.
     1. Selecteer een criteriatype, stel de voorwaarde in en geef een waarde op.
 
-    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+    ![Criterialijst met meerdere gedefinieerde voorwaarden en de knop Toevoegen onder de lijst -screenshot][img3]
 
     Elke status moet minstens Ã©Ã©n criterium bevatten. Herhaal indien nodig om meer toe te voegen.
 
@@ -62,7 +62,7 @@ Om een status te maken, definieert u de naam en beschrijving, voegt u minstens Ã
     Een bedrijf, persoon of project kan voldoen aan de criteria voor meerdere statussen, maar slechts Ã©Ã©n afbeelding kan worden weergegeven.
     Selecteer een status en gebruik de pijlknoppen onder de lijst om deze omhoog of omlaag te verplaatsen.
 
-    ![List of status monitors with priorities -screenshot][img2]
+    ![Lijst van statusmonitoringen met prioriteiten -screenshot][img2]
 
 1. Wanneer u klaar bent, selecteert u <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Geselecteerde statusbewaking regenereren** om de status te activeren.
 

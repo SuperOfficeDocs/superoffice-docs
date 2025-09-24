@@ -26,7 +26,7 @@ Før du implementerer SAINT, er det vigtigt at vide, hvad du ønsker at forbedre
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-![SAINT screen with status list, description, image, and criteria -screenshot][img1]
+![SAINT-skærm med statusliste, beskrivelse, billede og kriterier -screenshot][img1]
 
 ## Statuslisten
 

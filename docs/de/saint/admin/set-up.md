@@ -39,7 +39,7 @@ Um einen Status zu erstellen, definieren Sie seinen Namen und seine Beschreibung
 
     * **Beschreibung:** Geben Sie eine klare Beschreibung des Status und der erforderlichen oder empfohlenen Maßnahme ein. Sie können auch [Vorlagenvariablen][9] verwenden, um den Text an die Firma, Person oder das Projekt anzupassen.
 
-    ![New status monitor dialog -screenshot][img1]
+    ![Neuer Statusüberwachungsdialog -screenshot][img1]
 
     Der Name und die Beschreibung werden in SuperOffice CRM angezeigt, wenn der Benutzer mit der Maus über das Statusbild fährt oder das Status-Dialogfeld öffnet. Sie können die Beschreibung später bearbeiten.
 
@@ -50,7 +50,7 @@ Um einen Status zu erstellen, definieren Sie seinen Namen und seine Beschreibung
     1. Wählen Sie unter der Kriterienliste **Hinzufügen**, um ein neues Kriterium einzufügen.
     1. Wählen Sie einen Kriterientyp, stellen Sie die Bedingung ein und geben Sie einen Wert an.
 
-    ![Criteria list with multiple conditions defined and the Add button below the list -screenshot][img3]
+    ![Kriterienliste mit mehreren definierten Bedingungen und der Schaltfläche Hinzufügen unter der Liste -screenshot][img3]
 
     Jeder Status muss mindestens ein Kriterium enthalten. Wiederholen Sie den Vorgang bei Bedarf, um weitere hinzuzufügen.
 
@@ -62,7 +62,7 @@ Um einen Status zu erstellen, definieren Sie seinen Namen und seine Beschreibung
     Eine Firma, Person oder ein Projekt kann die Kriterien für mehrere Status erfüllen, aber nur ein Bild kann angezeigt werden.
     Wählen Sie einen Status aus und verwenden Sie die Pfeilschaltflächen unter der Liste, um ihn nach oben oder unten zu verschieben.
 
-    ![List of status monitors with priorities -screenshot][img2]
+    ![Liste der Statusüberwachungen mit Prioritäten -screenshot][img2]
 
 1. Wenn Sie fertig sind, wählen Sie <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Ausgewählte Statusüberwachung regenerieren**, um den Status zu aktivieren.
 
