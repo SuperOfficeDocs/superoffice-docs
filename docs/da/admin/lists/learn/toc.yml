@@ -50,9 +50,6 @@ items:
     - name: Tilføj opfølgningstype
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Tilføj salgsbeløbsklasse
-    href: sale-amount-class.md
-
   - name: Generel
     topicHref: country.md
     items:

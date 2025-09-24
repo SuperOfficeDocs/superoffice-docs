@@ -7,3 +7,5 @@ items:
   href: update.md
 - name: Räknarinställningar (period)
   href: counter-settings.md
+- name: Lägg till beloppsklass för försäljning
+  href: sale-amount-class.md

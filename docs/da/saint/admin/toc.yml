@@ -7,3 +7,5 @@ items:
   href: update.md
 - name: Tællerindstillinger (periode)
   href: counter-settings.md
+- name: Tilføjelse af salgsbeløbsklasse
+  href: sale-amount-class.md

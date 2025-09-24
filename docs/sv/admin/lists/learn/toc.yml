@@ -50,9 +50,6 @@ items:
     - name: Lägga till händelsetyp
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Lägga till beloppsklass för försäljning
-    href: sale-amount-class.md
-
   - name: Allmänt
     topicHref: country.md
     items:

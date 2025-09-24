@@ -7,3 +7,5 @@ items:
   href: update.md
 - name: Tellerinnstillinger (periode)
   href: counter-settings.md
+- name: Legge til salgsbeløpsklasse
+  href: sale-amount-class.md

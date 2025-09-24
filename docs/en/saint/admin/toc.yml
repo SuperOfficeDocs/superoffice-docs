@@ -7,3 +7,5 @@ items:
     href: update.md
   - name: Counter settings (period)
     href: counter-settings.md
+  - name: Add sale amount class
+    href: sale-amount-class.md

@@ -7,3 +7,5 @@ items:
   href: update.md
 - name: Zählereinstellungen (Zeitraum)
   href: counter-settings.md
+- name: Verkauf - Betragsklasse hinzufügen
+  href: sale-amount-class.md

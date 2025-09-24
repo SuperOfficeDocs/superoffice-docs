@@ -7,3 +7,5 @@ items:
   href: update.md
 - name: Tellerinstellingen (periode)
   href: counter-settings.md
+- name: Verkoopbedragklasse toevoegen
+  href: sale-amount-class.md
