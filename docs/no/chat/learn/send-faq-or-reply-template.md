@@ -1,11 +1,14 @@
 ---
 uid: help-no-chat-send-faq-or-reply-template
-title: "Sende FAQer, svarmaler og hurtigsvar i en chat"
-description: "Sende FAQer, svarmaler og hurtigsvar i en chat"
-author: SuperOffice RnD
-date: 06.29.2022
+title: Sende FAQer, svarmaler og hurtigsvar i en chat
+description: Sende FAQer, svarmaler og hurtigsvar i en chat
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

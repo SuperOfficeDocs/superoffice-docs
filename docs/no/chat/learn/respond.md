@@ -1,11 +1,14 @@
 ---
 uid: help-no-chat-respond
 title: Svare på en chat
-description: "Når en kunde sender en forespørsel via chatwidgeten på websiden, er det ikke bare viktig å svare på den, men også å registrere den på vedkommendes personkort."
-author: Bergfrid Dias
-date: 02.14.2023
+description: Når en kunde sender en forespørsel via chatwidgeten på websiden, er det ikke bare viktig å svare på den, men også å registrere den på vedkommendes personkort.
 keywords: chat
+author: Bergfrid Dias
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

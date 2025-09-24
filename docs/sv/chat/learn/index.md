@@ -4,9 +4,11 @@ title: Chatt
 description: Kommunicera med och hjälp befintliga eller potentiella kunder via en chattwidget på din webbplats.
 keywords: chatt
 author: SuperOffice Product and Engineering
-date: 07.10.2025
+date: 09.25.2025
 version: 10.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 redirect_from: /sv/chat/learn/screen/index
 ---

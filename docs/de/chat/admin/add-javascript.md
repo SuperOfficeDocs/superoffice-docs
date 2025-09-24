@@ -1,11 +1,15 @@
 ---
 uid: help-de-chat-add-javascript
 title: JavaScript zur Website hinzufügen
-description: "Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie Ihrer Website ein Chat-Widget hinzufügen."
-author: SuperOffice RnD
-date: 02.22.2023
+description: Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie Ihrer Website ein Chat-Widget hinzufügen.
 keywords: Chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

@@ -2,10 +2,14 @@
 uid: help-de-chat-channel-create
 title: Chat-Kanal erstellen
 description: Chat-Kanal erstellen
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: Chat
+author: Bergfrid Dias
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de

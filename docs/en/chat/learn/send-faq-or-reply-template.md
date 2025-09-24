@@ -2,10 +2,16 @@
 uid: help-en-chat-send-faq-or-reply-template
 title: Send FAQs, reply templates and quick replies in a chat
 description: Send FAQs, reply templates and quick replies in a chat
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

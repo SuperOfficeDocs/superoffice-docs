@@ -2,10 +2,14 @@
 uid: help-en-chat-channel-create
 title: Create a chat channel
 description: Create a chat channel
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: chat
+author: Bergfrid Dias
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

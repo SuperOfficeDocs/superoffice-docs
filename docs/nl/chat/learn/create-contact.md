@@ -2,10 +2,16 @@
 uid: help-nl-chat-create-contact
 title: Een nieuwe contactpersoon maken in SuperOffice
 description: Een nieuwe klant koppelen aan SuperOffice vanuit een chat.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: chatten, contactpersoon
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

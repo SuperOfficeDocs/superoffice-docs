@@ -1,11 +1,14 @@
 ---
 uid: help-no-chat-send-files
-title:  Sende filer i chat
-description:  Sende filer i chat
-author: SuperOffice RnD
-date: 06.29.2022
+title: Sende filer i chat
+description: Sende filer i chat
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

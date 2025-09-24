@@ -4,7 +4,8 @@ title: Skapa en chattkanal
 description: Skapa en chattkanal
 keywords: chatt
 author: Bergfrid Dias
-date: 02.25.2025
+date: 09.25.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

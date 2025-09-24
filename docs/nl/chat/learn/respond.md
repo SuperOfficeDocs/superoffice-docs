@@ -4,8 +4,11 @@ title: Antwoorden op een chat
 description: Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart.
 keywords: chatten
 author: Bergfrid Dias
-date: 02.14.2023
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

@@ -4,8 +4,14 @@ title: Svare på en chatsamtale
 description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort.
 keywords: chat
 author: Bergfrid Dias
-date: 02.14.2023
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

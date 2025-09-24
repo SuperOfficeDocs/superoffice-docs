@@ -4,9 +4,14 @@ title: Chat
 description: Kommunizieren Sie mit bestehenden oder potenziellen Kunden und helfen Sie ihnen über ein Chat-Widget auf Ihrer Website.
 keywords: Chat
 author: SuperOffice Product and Engineering
-date: 07.10.2025
+date: 09.25.2025
 version: 10.5
 content_type: concept
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 redirect_from: /de/chat/learn/screen/index
 ---

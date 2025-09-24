@@ -4,8 +4,12 @@ title: Opret en chatkanal
 description: Opret en chatkanal
 keywords: chat
 author: Bergfrid Dias
-date: 03.24.2023
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da

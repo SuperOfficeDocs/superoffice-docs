@@ -2,10 +2,16 @@
 uid: help-en-chat-create-quick-reply
 title: Create a quick reply
 description: Create a quick reply
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: CRM
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

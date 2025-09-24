@@ -1,11 +1,17 @@
 ---
 uid: help-de-chat-send-faq-or-reply-template
-title: "FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden"
-description: "FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden"
-author: SuperOffice RnD
-date: 06.29.2022
+title: FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden
+description: FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden
 keywords: Chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

@@ -3,9 +3,12 @@ uid: help-nl-chat-create-request
 title: Verzoek maken in chat
 description: In deze handleiding leert u hoe u een verzoek maakt in SuperOffice Chat.
 keywords: chatten
-author: SuperOffice RnD
-date: 02.14.2023
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

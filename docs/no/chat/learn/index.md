@@ -4,9 +4,11 @@ title: Chat
 description: Kommunisere med og hjelpe eksisterende eller potensielle kunder ved hjelp av en chat-widget på nettstedet ditt.
 keywords: chat
 author: SuperOffice Product and Engineering
-date: 07.10.2025
+date: 09.25.2025
 version: 10.5
+audience: person
 content_type: concept
+audience_tooltip: SuperOffice CRM
 language: no
 redirect_from: /no/chat/learn/screen/index
 ---

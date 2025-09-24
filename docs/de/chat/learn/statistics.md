@@ -1,11 +1,17 @@
 ---
 uid: help-de-chat-statistics
 title: Chat-Statistik anzeigen
-description: "In dieser Anleitung erfahren Sie, wie Sie Chat-Statistiken sowohl in einem Dashboard als auch auf dem Chat-Bildschirm anzeigen können."
-author: SuperOffice RnD
-date: 02.14.2023
+description: In dieser Anleitung erfahren Sie, wie Sie Chat-Statistiken sowohl in einem Dashboard als auch auf dem Chat-Bildschirm anzeigen können.
 keywords: Chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

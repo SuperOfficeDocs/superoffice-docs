@@ -2,9 +2,10 @@
 uid: help-nl-chat-admin
 title: Chatbeheer
 description: Live Chat is een populaire manier voor uw klanten en prospects om contact met u op te nemen wanneer ze uw website bezoeken. Deze handleiding laat u zien hoe u de chatwidget configureert en vervolgens aan uw website toevoegt.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: chatten
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

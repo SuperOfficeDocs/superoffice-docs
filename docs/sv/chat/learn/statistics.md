@@ -2,56 +2,58 @@
 uid: help-sv-chat-statistics
 title: Visa chattstatistik
 description: I den här guiden förklarar vi hur du visar chattstatistik både på en dashboard och i chattfönstret.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: chatt
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Visa chattstatistik
 
-Chattstatistiken kan användas för att förbättra kommunikationen och handläggarnas arbete överlag samt för att korta svarstiden. Du kan visa statistiken på fliken **Dashboard** i **chattfönstret**.
+The chat statistics can be used to improve the overall communication and agents' performance, as well as shorten the response time. You can view them in the **Dashboard** tab in the **Chat** screen.
 
-![På fliken Dashboard finns en sektion som visar statistiken över inkommande chattar -screenshot][img1]
+![In the Chat Dashboard tab, you have a section showing the statistics of incoming chats -screenshot][img1]
 
-Förutom allmän statistik om chattsessioner kan du se följande:
+In addition to general statistics about chat sessions, you can monitor the following:
 
-* Hur många personer som väntar på att en handläggare ska svara
-* Hur länge de har väntat
-* Hur många handläggare som finns tillgängliga
-* Hur många chattsessioner som är aktiva
+* How many people are waiting for an agent to respond.
+* How long they have waited.
+* How many agents are available.
+* How many chat sessions are active.
 
-Som standard visas statistik för alla tillgängliga kanaler, men du kan välja en specifik chattkanal från listan **Kanal**.
+By default statistics are shown for all available channels, but you can select a specific chat channel from the **Channel** list.
 
-## Skapa en dashboard för en chattkonversation
+## Create a dashboard for chat conversation
 
-Du kan visualisera statistik från chattkonversationer på en dashboard så att du får en informativ översikt över alla data. När du har [skapat en dashboard][2] kan du [lägga till och redigera figurer][3].
+You can visualize statistics from chat conversations in a dashboard to get an informative overview of the data. After you [create a dashboard][2], you can add and edit tiles.
 
-### Exempel: figurer som du kan lägga till på din dashboard för chattkonversationer
+### Examples - tiles you can add to your dashboard for chat conversations
 
-* Använd **Handläggare med det bästa snittbetyget den här månaden** för att se vilken handläggare som har det bästa genomsnittsresultatet under månaden. Figuren kan användas för motivation eller för interna tävlingar.
+* Use the **Agent with the best average rating this month tile** to see which agent that on average performed best that month. The tile can be used for motivation, or for internal competition.
 
-* Med figuren **Chattkonversationer per månad** kan du hålla koll på hur många chattsamtal ditt företag genomför varje månad.
+* The **Chat conversations per month** tile let you keep track of how many chats your company receives each month.
 
-* Genom att lägga till figuren **Mest upptagna timmen** kan du ta reda på när på dagen flest kunder kontaktar dina chatthandläggare under året. Figuren kan också ändras så att den visar andra tidsramar.
+* By adding the **Most busy hour** tile, you can learn what hour of the day most customers contact your chat agents throughout the year. The tile can also be modified to show other time-frames.
 
-* Med figuren **Mitt genomsnittliga chattbetyg denna månad** kan du se det genomsnittliga betyg du får av dina kunder. Använd det som indikation på hur nöjda kunderna är med din service och som motivation för att bli bättre eller fortsätta på samma framgångsrika sätt.
+* With the **My average chat rating this month** tile you can follow the average rating score you receive from your customers. Use it as an indicator of how satisfied your customers are with your service, and as a motivation to improve or to keep doing the great work.
 
-![Exempel på olika figurer för chattkonversationer -screenshot][img2]
+![Example of different tiles for chat conversations -screenshot][img2]
 
-## Svara på en inkommande chatt
+## Respond to an incoming chat
 
-[Du svarar på en chatt][1] genom att dubbelklicka på den aktuella raden i listan Inkommande chatt. Chatten öppnas på fliken **Chattar**.
+Double-click a row in the Incoming chat list to [respond to that chat][1]. The chat opens in the **Chats** tab.
 
-## Lyssna på en pågående chatt
+## Listen to an ongoing chat
 
-Om du vill lyssna (titta) på en pågående chatt dubbelklickar du på en rad i listan **Aktiva chattsessioner**. Handläggaren får ett meddelande om att du följer chatten. Du kan inte delta i chatten.
+Double-click a row in the **Ongoing chat sessions** list to listen in on (watch) an ongoing chat. The agent will not be notified that you are monitoring to the chat. You cannot participate in the chat.
 
 <!-- Referenced links -->
 [1]: respond.md
 [2]: ../../dashboard/learn/create.md
-[3]: ../../dashboard/learn/add-tile.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-dashboard-statistics.png

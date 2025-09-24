@@ -4,12 +4,16 @@ title: Chatten
 description: Communiceer met en help bestaande of potentiële klanten via een chatwidget op uw website.
 keywords: chatten
 author: SuperOffice Product and Engineering
-date: 07.10.2025
+date: 09.25.2025
 version: 10.5
+audience: person
 content_type: concept
+license: cep
+category: Service
+topic: chat
+audience_tooltip: SuperOffice CRM
 language: nl
-redirect_from:
-  - /nl/chat/learn/screen/
+redirect_from: /nl/chat/learn/screen/
 ---
 
 # Chatten

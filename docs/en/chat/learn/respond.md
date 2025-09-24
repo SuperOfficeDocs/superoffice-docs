@@ -2,10 +2,16 @@
 uid: help-en-chat-respond
 title: Respond to a chat
 description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
-author: Bergfrid Dias
-date: 02.14.2023
 keywords: chat
+author: Bergfrid Dias
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

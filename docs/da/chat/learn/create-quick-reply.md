@@ -3,9 +3,15 @@ uid: help-da-chat-create-quick-reply
 title: Oprettelse af et hurtigt svar
 description: Oprettelse af et hurtigt svar
 keywords: chat
-author: SuperOffice RnD
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

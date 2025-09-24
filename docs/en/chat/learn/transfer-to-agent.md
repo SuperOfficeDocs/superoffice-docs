@@ -2,10 +2,16 @@
 uid: help-en-chat-transfer-to-agent
 title: Transfer a chat to another agent
 description: In this how-to guide, you will learn how to transfer a chat to another agent.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

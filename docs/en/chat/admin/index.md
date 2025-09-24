@@ -2,10 +2,14 @@
 uid: help-en-chat-admin
 title: Chat administration
 description: Live Chat is a popular way for your customers and prospects to get in touch with you when they visit your website. This how-to guide will show you how to configure the chat widget and then add it to your website.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: concept
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

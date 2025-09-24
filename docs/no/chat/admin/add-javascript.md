@@ -2,9 +2,10 @@
 uid: help-no-chat-add-javascript
 title: Legg til JavaScript for websiden
 description: Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne guiden viser deg hvordan du legger til en chat-widget på websiden din.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

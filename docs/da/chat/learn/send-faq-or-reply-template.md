@@ -3,9 +3,15 @@ uid: help-da-chat-send-faq-or-reply-template
 title: Sende FAQ'er, svarskabeloner og hurtige svar i en chat
 description: Sende FAQ'er, svarskabeloner og hurtige svar i en chat
 keywords: chat
-author: SuperOffice RnD
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

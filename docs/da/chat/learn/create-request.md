@@ -3,9 +3,15 @@ uid: help-da-chat-create-request
 title: Oprettelse af sag i chat
 description: I denne vejledning lærer du, hvordan du opretter en anmodning i SuperOffice Chat.
 keywords: chat
-author: SuperOffice RnD
-date: 02.14.2023
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
