@@ -18,6 +18,9 @@ language: en
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
 
+> > [!NOTE]
+> Breaking change: starting from version 3.5, the API response structure changes because **id**, **body**, and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
+
 ## Steps
 
 1. On the page that lists all your Zaps, click **Create**. You will be taken to a new Zap creation window.
@@ -47,9 +50,6 @@ language: en
 1. If the above steps were configured correctly, the response should consist of **Request id**, **Title**, **Author**, **Contact id**, **Company name**, **Owner id**, **Owner**, **Category id**, **Category**, **Priority id**, **Priority**, **Status**, **Access level for request**, **Origin**, **Created by id**, **Created by**, **Replied at**, **Closed at**, **Deadline**, **Self URL**
 
     ![Zapier: Verify -screenshot][img6]
-
-> [!NOTE]
-> Breaking change: starting from version 3.5, the API response structure changes because **id**, **body**, and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
 
 ## Related content
 
