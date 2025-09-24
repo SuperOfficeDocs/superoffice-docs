@@ -1007,7 +1007,7 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesSplitTicket
   id: 'SalesSplitTicket'
   so.intellisense: 
-  so.version: 11.3
+  so.version: 10.5.2
   langs:
   - crmscript
   name: 'SalesSplitTicket'
