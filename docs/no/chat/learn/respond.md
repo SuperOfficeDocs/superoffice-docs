@@ -10,6 +10,8 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: 
+  - /no/chat/learn/send-files
 ---
 
 # Svare på en chat
@@ -47,7 +49,7 @@ Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
 
 1. For å gi tilleggsinformasjon under chatten:
     * [Send en FAQ, en svarmal eller et hurtigsvar][4]
-    * [Send en fil][5]
+    * [Send en fil](#attach)
 
 1. Hvis du ikke kan hjelpe kunden, gjør ett av følgende:
     * [Overfør chatten][2] til en annen agent.
@@ -59,11 +61,23 @@ Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
 > [!NOTE]
 > Hvis sluttskjema for chat er aktivt for denne chattekanalen, kan kunden gå tilbake til chatten. Da aktiveres chatsamtalen igjen.
 
+## <a id="attach"></a>Sende filer i chat
+
+Du kan sende dokumenter eller filer under en chatøkt.
+
+1. Klikk på <i class="ph ph-paperclip" aria-label="Attachments"></i> i chatpanelet.
+1. Velg ett av følgende:
+    * Klikk på **Velg et CRM-dokument**, søk etter og velg en fil fra SuperOffice.
+    * Klikk på **Last opp filer**, velg filen og klikk på **Åpne**.
+    * Dra og slipp en fil direkte på opplastingsområdet. Pass på at **→Flytt** vises ved siden av pekeren når du slipper filen.
+
+Filen sendes umiddelbart.
+
 ## Være effektiv med chatsvar
 
 For at du skal kunne svare på kundenes chat-spørsmål på en rask og profesjonell måte, har SuperOffice Chat en rekke valg for å øke hastigheten og forbedre chatsvarene.
 
-Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsmål via chat. Du kan opprette og sende et hurtigsvar på et vanlig spørsmål. I andre situasjoner, der hurtigsvar ikke er tilstrekkelig, kan du [inkludere FAQ-er, tilpassede svarmaler][4] eller [filer][5].
+Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsmål via chat. Du kan opprette og sende et hurtigsvar på et vanlig spørsmål. I andre situasjoner, der hurtigsvar ikke er tilstrekkelig, kan du [inkludere FAQ-er, tilpassede svarmaler][4] eller filer.
 
 ![Med knappen for å legge til forhåndsdefinert tekst kan du velge tekst fra FAQ, Svarmaler og Hurtigsvar -screenshot][img6]
 
@@ -77,7 +91,6 @@ Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsm
 [2]: transfer-to-agent.md
 [3]: create-request.md
 [4]: send-faq-or-reply-template.md
-[5]: send-files.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

@@ -10,6 +10,8 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: 
+  - /sv/chat/learn/send-files
 ---
 
 # Svara på ett chattsamtal
@@ -47,7 +49,7 @@ Ange din närvaro överst till höger i **Chatt**-fönstret.
 
 1. För att skicka ytterligare information under chatten:
     * [Skicka en FAQ, ett svarsmall eller ett snabbsvar][4]
-    * [Skicka en fil][5]
+    * [Skicka en fil](#attach)
 
 1. Om du inte kan hjälpa kunden, gör något av följande:
     * [Överför chatten][2] till en annan agent.
@@ -59,11 +61,23 @@ Ange din närvaro överst till höger i **Chatt**-fönstret.
 > [!NOTE]
 > Om slutformuläret för chatten har aktiverats för chattkanalen kan kunden välja att återgå till chatten. Då aktiveras chattsamtalen igen.
 
+## <a id="attach"></a>Skicka filer i chatt
+
+Du kan skicka dokument eller filer under en chatt-session.
+
+1. Klicka på <i class="ph ph-paperclip" aria-label="Attachments"></i> i chattfönstret.
+1. Välj något av följande:
+    * Klicka på **Välj ett CRM-dokument**, sök och välj en fil från SuperOffice.
+    * Klicka på **Ladda upp filer**, välj filen och klicka på **Öppna**.
+    * Dra och släpp en fil direkt på uppladdningsområdet. Se till att **→Flytta** visas bredvid din muspekare när du släpper filen.
+
+Filen skickas omedelbart.
+
 ## Svara kunden på ett effektivt sätt i chatten
 
 För att du ska kunna ge snabba och professionella svar på dina kunders chattfrågor finns det flera funktioner i SuperOffice som hjälper dig att svara snabbt och tydligt.
 
-Spara tid genom att använda fördefinierade texter när du svarar på kundfrågor i chatten. Du kan skapa och skicka snabbsvar på vanliga frågor. I andra situationer där snabbsvar inte är tillräckliga kan du [lägga till FAQ-artiklar, anpassade svarsmallar][4] eller [filer][5].
+Spara tid genom att använda fördefinierade texter när du svarar på kundfrågor i chatten. Du kan skapa och skicka snabbsvar på vanliga frågor. I andra situationer där snabbsvar inte är tillräckliga kan du [lägga till FAQ-artiklar, anpassade svarsmallar][4] eller filer.
 
 ![Från knappen för att lägga till fördefinierad text kan du välja text från FAQ-artiklar, svarsmallar och snabbsvar -screenshot][img6]
 
@@ -77,7 +91,6 @@ Spara tid genom att använda fördefinierade texter när du svarar på kundfråg
 [2]: transfer-to-agent.md
 [3]: create-request.md
 [4]: send-faq-or-reply-template.md
-[5]: send-files.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

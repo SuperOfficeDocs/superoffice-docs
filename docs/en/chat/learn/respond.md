@@ -13,6 +13,8 @@ topic: chat
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/chat/learn/send-files
 ---
 
 # Respond to a chat
@@ -50,7 +52,7 @@ Set your presence in the upper-right corner of the **Chat** screen.
 
 1. To send additional information during the chat:
     * [Send an FAQ, a reply template, or quick reply][4]
-    * [Send a file][5]
+    * [Send a file](#attach)
 
 1. If you are unable to help the customer, do one of the following:
     * [Transfer the chat][2] to another agent.
@@ -62,11 +64,23 @@ Set your presence in the upper-right corner of the **Chat** screen.
 > [!NOTE]
 > If the post-chat form is active for this chat channel, the customer may return to the chat. The chat will be reactivated.
 
+## <a id="attach"></a>Send files in chat
+
+You can send documents or files during a chat session.
+
+1. Click <i class="ph ph-paperclip" aria-label="Attachments"></i> in the chat panel.
+1. Choose one of the following:
+    * Click **Select a CRM document**, search, and select a file from SuperOffice.
+    * Click **Upload files**, select the file, and click **Open**.
+    * Drag and drop a file directly onto the upload area. Ensure **→Move** appears next to your pointer when you drop the file.
+
+The file is sent immediately.
+
 ## Be efficient with chat replies
 
 To make sure that you offer quick and professional answers to your customers' chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
 
-Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can [include FAQs, customized reply templates][4], or [files][5].
+Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can [include FAQs, customized reply templates][4], or files.
 
 ![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
 
@@ -80,7 +94,6 @@ Save time by using pre-defined texts when answering customer queries through cha
 [2]: transfer-to-agent.md
 [3]: create-request.md
 [4]: send-faq-or-reply-template.md
-[5]: send-files.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 
