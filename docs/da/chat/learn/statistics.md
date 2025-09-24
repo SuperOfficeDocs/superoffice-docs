@@ -2,7 +2,7 @@
 uid: help-da-chat-statistics
 title: Visning af chatstatistik
 description: I denne vejledning lærer du, hvordan du får vist chatstatistikker både i et dashboard og på chatskærmen.
-keywords: chat
+keywords: chatstatistik, chatdashboard
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

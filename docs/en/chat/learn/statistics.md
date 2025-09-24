@@ -2,7 +2,7 @@
 uid: help-en-chat-statistics
 title: View chat statistics
 description: In this how-to guide, you will learn how to view chat statistics both in a dashboard and on the Chat screen.
-keywords: chat
+keywords: chat statistics, chat dashboard
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

@@ -2,7 +2,7 @@
 uid: help-de-chat-transfer-to-agent
 title: Chat an einen anderen Mitarbeiter übergeben
 description: In dieser Anleitung erfahren Sie, wie Sie einen Chat an einen anderen Mitarbeiter übergeben.
-keywords: Chat
+keywords: Chat übertragen, Übergabe akzeptieren, Übergabe ablehnen
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5

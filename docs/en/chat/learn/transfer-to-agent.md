@@ -2,7 +2,7 @@
 uid: help-en-chat-transfer-to-agent
 title: Transfer a chat to another agent
 description: In this how-to guide, you will learn how to transfer a chat to another agent.
-keywords: chat
+keywords: transfer chat, accept transfer, reject transfer
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -43,7 +43,7 @@ If an agent transfers a chat to you, the chat is automatically displayed in the 
 1. (if relevant) Select the transferred chat in the sessions list to view it.
 2. Click **Accept transfer** (below the chat conversation) to accept the chat. If you do not want to accept the chat, click **Reject transfer**.
 
-## Related
+## Related content
 
 * [Respond to a chat and link it to a contact][2]
 
