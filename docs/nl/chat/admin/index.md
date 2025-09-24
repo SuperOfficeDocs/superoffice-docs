@@ -27,8 +27,6 @@ We hebben een chatbot-connector gemaakt waarmee SuperOffice kan praten met de bo
 
 Er zijn verschillende opties beschikbaar in het chatkanaal om de chatbot te activeren.
 
-![In CRMScript hebt u toegang tot alle standaard botservices -screenshot][img1]
-
 ## Aan de slag met Chat
 
 Live Chat is een populaire manier voor uw klanten en prospects om contact met u op te nemen wanneer ze uw website bezoeken. Deze handleiding laat u zien hoe u de chatwidget configureert en vervolgens aan uw website toevoegt.
@@ -47,4 +45,3 @@ Dit zijn de stappen voor het configureren van de chatwidget en deze vervolgens t
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png
