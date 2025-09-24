@@ -1,105 +1,88 @@
 ---
 uid: help-no-saint-admin
-title: Konfigurer SAINT
-description: Lær hvordan du konfigurerer SuperOffice SAINT i denne veiledningen.
-keywords: SAINT, statusovervåking
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+title: SAINT i Innstillinger og vedlikehold
+description: Lær om nøkkelbegrepene i SuperOffice SAINT, inkludert kriterier, bilder, tellere og standardoppfølginger.
+keywords: SAINT, aktivitetsovervåking, statusovervåking
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
-redirect_from: /no/sale/saint/learn/admin/index
 index: true
+redirect_from: /no/sale/saint/learn/admin/index
 ---
 
-# Konfigurer SAINT
+# SAINT i Innstillinger og vedlikehold
 
-Du kan følge opp kundene på en proaktiv måte ved å bruke SAINT, som står for Sales Intelligence. SuperOffice SAINT kan brukes på mange måter og i mange ulike prosesser. Før du implementerer SAINT-funksjonen, er det viktig å vite hva du ønsker å forbedre og hvordan du kan analysere dette.
+SAINT (Sales Intelligence) hjelper deg med å overvåke firmaer, personer og prosjekter slik at du kan følge opp til rett tid. En **aktivitetsovervåking** (også kjent som statusovervåking) kombinerer kriterier, tellere og valgfrie egenskaper for å fremheve poster som trenger oppmerksomhet.
 
-Når du vet hva du vil forbedre, kan du prøve å tenke på hva firmaet kan gjøre for å forbedre den eksisterende situasjonen. Hva vil du gjøre?
+Før du implementerer SAINT, er det viktig å vite hva du ønsker å forbedre og hvordan du vil analysere det. Vurder deretter hvilke proaktive tiltak firmaet ditt kan ta for å forbedre den nåværende situasjonen. For eksempel:
 
-* Sende ut en gruppeutsendelse ved hjelp av SuperOffice-utsendelser
+* Sende en gruppeutsendelse
 * Ringe alle kunder i SAINT-utvalget
-* Følg opp alle saker
+* Følge opp alle forespørsler
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-Fra fanen **Statusovervåking/SAINT** kan du opprette statuser for firmaer, personer og prosjekter. Statusovervåking er funksjonaliteten konseptet Sales Intelligence (SAINT). Dette forenkler oppfølging av firmaer, personer og prosjekter og gir mer intelligente søkealternativer i SuperOffice CRM.
+![SAINT-skjerm med statusliste, beskrivelse, bilde og kriterier -screenshot][img1]
 
-## Statusbilder
+## Statuslisten
 
-Statuser kan vises som bilder på kortene til prosjekter, personer eller firmaer som oppfyller kriteriene dine. Statusbildet for en kunde du ikke har hatt kontakt med på en stund kan for eksempel være et edderkoppnett. På denne måten får du en visuell og umiddelbar indikasjon på hvordan forholdet til kunden er, eller hvordan det går med et prosjekt. Når brukeren klikker eller holder musepekeren over et statusbilde i SuperOffice CRM, vises noe av teksten. For eksempel for å indikere handlingene som skal utføres (du skriver selv inn teksten når du oppretter statusen).
+Statuslisten på fanene **Firma**, **Person** og **Prosjekt** viser aktive statusmonitorer for den posten og – hvis **Vis slettede** er valgt – også slettede.
 
-## Standardoppfølging for status
-
-Når brukeren åpner statusdialogen i SuperOffice CRM, kan brukeren også opprette en oppfølging av den aktuelle statusen. Oppfølgingstype og -tekst kan forhåndsdefineres.
-
-### Eksempel
-
-En status kan for eksempel gjelde for firmaer som oppfyller følgende kriterier:
-
-* Kategori = Kunde
-* Siste salg er mer enn 2 måneder gammelt
-* Antall salg større enn 50
-
-Teksten i feltet **Beskrivelse** kan da være:
-
-"&lt;navn&gt; har tidligere vært en god kunde, men vi har ikke solgt noe til dem på 2 måneder. &lt;forts&gt; er primærkontakten for denne kunden og bør kontakte kunden snart på telefon (&lt;cpho&gt;) eller e-post (&lt;post&gt;) for å finne ut hvorfor."
-
-I dette eksempelet er følgende malvariabler brukt for å skreddersy teksten til gjeldende firma:
-
-| Variabel | Beskrivelse |
+| Element | Beskrivelse |
 |---|---|
-| navn | Navnet på firmaet |
-| cont | Navnet på vår kontaktperson for firmaet |
-| cpho | Firmaets telefonnummer |
-| e-post | Firmaets e-postadresse |
+| **Visualiser-ikon** <i class="ph ph-eye" aria-label="eye"></i> | Indikerer om et statusbilde vises på firma-, person- eller prosjektkort. Ikonet vises bare hvis **Visualiser**-boksen er merket av. |
+| **Rødt X** | Vises ved siden av statuser som må [regenereres][8]. Disse statusene oppdateres ikke og returnerer ikke gjeldende data. |
+| **Navnekolonne** | Viser navnene på statusene. Slettede statuser vises i rødt hvis **Vis slettede** er merket av nedenfor listen. |
+| **Prioritetskolonne** | Bestemmer hvilket statusbilde som vises på kortet når et firma, en person eller et prosjekt samsvarer med kriteriene for flere statuser. Den høyeste prioritetsstatusen vises, mens andre aktive statuser er tilgjengelige som lenker i statusdialogen. |
 
-## Søk og utvalg
+## Egenskaper
 
-Statuser og tellere kan brukes i søk og til å opprette dynamiske utvalg. Du kan for eksempel søke etter firmaer, personer eller prosjekter som oppfyller en status eller en teller. [!include[Define counter](../includes/def-counter.md)]
+En statusovervåking kombinerer flere egenskaper som definerer hvordan den fungerer:
 
-Du kan sette opp 3 forskjellige tellere/perioder, disse tellerne er antall dager du vil telle aktiviteter, salg og forespørsler. De ulike periodene er angitt for hva som er viktig for deg. Du vil for eksempel bli varslet hvis noen av kundene dine ikke har hatt noen aktiviteter den siste måneden (30 dager), eller hvis det er uløste forespørsler på kundene som er eldre enn 30 dager.
+* **Kriterier:** Hver status må inneholde ett eller flere kriterier. Disse betingelsene bestemmer hvilke firmaer, personer eller prosjekter statusen gjelder for. Du kan for eksempel definere en status for kunder uten salg de siste 90 dagene.
 
-## Perioder
+* **Statusbilder:** Et valgfritt bilde kan vises på firma-, person- eller prosjektkort som oppfyller kriteriene. For eksempel kan et edderkoppnett indikere inaktivitet. Bilder vises som lyse vannmerker og kan klikkes for flere detaljer.
 
-Du kan angi opptil tre ulike perioder for tellere, slik at SAINT-kriteriene kan dekke kortere eller lengre perioder. Hvis du angir tre perioder på henholdsvis 30, 60 og 90 dager, kan du velge SAINT-kriterier for hver av disse periodene.
+* **Standardoppfølging:** Når en bruker klikker på statusen, kan de opprette en oppfølging. Typen og beskrivelsen kan være forhåndsdefinert, slik at oppfølgingen tydelig angir hvilken handling som kreves.
 
-## Oppretting av nye statuser
+## Tellere og perioder
 
-Først logger du inn på SuperOffice CRM, går til hovedmenyen øverst til høyre og åpner Innstillinger og vedlikehold, og klikker på SAINT i navigatoren. Der kan du sette opp Sales Intelligence og statusovervåking.
+Tellere [sporer aktivitet over tid][5], som salg, forespørsler eller fullførte oppfølginger.
+Du kan bruke tellere i søk og utvalg for å identifisere poster som oppfyller eller ikke oppfyller bestemte terskler.
 
-Slik oppretter du en status:
+Du kan definere opptil tre forskjellige perioder (for eksempel 30, 60 og 90 dager).
+Dette lar deg bruke samme teller, som "Antall salg", på forskjellige tidsspenn.
 
-1. [Opprett ny status][1]
-1. [Velge bilde for status][2]
-1. [Velge standard oppfølgingstype for status][3]
-1. [Angi statuskriterier][4]
-1. [Angi periodelengde][5]
+## <a id="database"></a>Hvordan SAINT lagrer tellere og statuser
 
-Nå kan du gå tilbake til SuperOffice CRM og åpne et nytt dynamisk utvalg for å se alle personene du må følge opp.
+SAINT-tellere lagres i [countervalue][13]-tabellen og oppdateres automatisk når du gjør ting:
 
-Sørg for å legge til SAINT-kriteriene dine. Klikk på Legg til og deretter ved siden av feltet og velg Firma – Tellere (SAINT). Finn din SAINT-statusovervåking. I vårt eksempel velger vi Forsømte kunder og klikker på OK. Oppdater utvalget ditt, og så vet du nøyaktig hvilke kunder som må følges opp.
+* Når SAINT er aktivert, opprettes det en rekke tellerlinjer hver gang en person eller et prosjekt opprettes.
 
-## Gjenopprett og rediger statuser
+* Når en oppfølging, et dokument eller et salg opprettes, oppdateres de tilsvarende tellerlinjene.
 
-* [Gjenopprette slettet status][6]
-* [Redigere statusbeskrivelse][7]
+SAINT-**verdier** er enkle binære verdier (på eller av) som bestemmer utseendet til firma- og prosjektkortene. Disse verdiene lagres i [statusvalue][14]-tabellen.
 
-## Administrere og vedlikeholde statusovervåking
+## Aktuelt innhold
 
-* [Administrer statusovervåking][8]
+* [Sett opp en ny statusovervåking][1]
+* [Visualiser statuser med bilder][2]
+* [Tellere og tellerinnstillinger][5]
+* [Oppdater, slett og gjenopprett statusovervåkinger][7]
+* [Regenerer statusovervåkinger og tellere][8]
 
 <!-- Referenced links -->
-[1]: create-status.md
-[2]: select-image-for-status.md
-[3]: select-default-follow-up-type-for-status.md
-[4]: select-status-criteria.md
-[5]: select-period-length.md
-[6]: restore-status.md
-[7]: edit-status.md
-[8]: manage-status-monitors.md
+[1]: set-up.md
+[2]: set-up.md#image
+[5]: counter-settings.md
+[7]: update.md
+[8]: update.md#regen
+[13]: ../../../en/database/tables/countervalue.md
+[14]: ../../../en/database/tables/statusvalue.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png

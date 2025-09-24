@@ -1,19 +1,11 @@
 items:
-  - name: Überblick
-    href: index.md
-  - name: Statuskontrollen verwalten
-    href: manage-status-monitors.md
-  - name: Neuen Status erstellen
-    href: create-status.md
-  - name: Beschreibung für Status bearbeiten
-    href: edit-status.md
-  - name: Gelöschten Status wiederherstellen
-    href: restore-status.md
-  - name: Standardfolgeaufgabe für Status
-    href: select-default-follow-up-type-for-status.md
-  - name: Bild für Status
-    href: select-image-for-status.md
-  - name: Zeitraum
-    href: select-period-length.md
-  - name: Statuskriterien
-    href: select-status-criteria.md
+- name: Einführung
+  href: index.md
+- name: Statusüberwachung einrichten
+  href: set-up.md
+- name: Statusüberwachung aktualisieren
+  href: update.md
+- name: Zählereinstellungen (Zeitraum)
+  href: counter-settings.md
+- name: Verkauf - Betragsklasse hinzufügen
+  href: sale-amount-class.md

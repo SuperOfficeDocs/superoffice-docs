@@ -3,14 +3,17 @@ uid: help-nl-saint
 title: Sales Intelligence (SAINT)
 description: In deze gids staat hoe SAINT uw verkoop- en klantprocessen kan verbeteren en workflows kan verbeteren.
 keywords: SAINT, statuscontroles
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-redirect_from: /nl/sale/saint/learn/index
+redirect_from:
+  - /nl/sale/saint/learn/index
+  - /nl/sale/saint/learn/status-dialog
+  - /nl/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -41,8 +44,6 @@ Ons denkbeeldig bedrijf Bridgecom verkoopt computers, laptops en kantoorsoftware
 Door SAINT te gebruiken, kan Bridgecom proactief zoeken naar alle klanten zonder openstaande of voltooide verkopen die in de afgelopen 2 jaar op hun klantenkaart zijn geregistreerd. De SAINT-selectie genereert een lijst van deze klanten. Op basis van de informatie die niet aanwezig is in het klantenbestand – namelijk dat er in de afgelopen 2 jaar geen verkopen zijn geregistreerd.
 
 Met dit overzicht kan Bridgecom beslissen hoe ze hun klanten willen opvolgen om de relaties te verbeteren en de verkoop te stimuleren.
-
-![Selectie van verwaarloosde klanten in Instellingen en onderhoud -screenshot][img1]
 
 Met SuperOffice SAINT kunt u uw database analyseren om een overzicht te krijgen van klanten, verkopen, aanvragen en documenten. De presentatie kan in de vorm van grafieken en rapporten. Vervolgens kunnen degenen die verantwoordelijk zijn voor de situatie die u met SAINT hebt geanalyseerd, actie ondernemen om de bestaande situatie te verbeteren.
 
@@ -87,13 +88,13 @@ SuperOffice SAINT maakt gebruik van visuele statusindicatoren voor een klant, po
 
 SAINT kan leuk zijn! U kunt elke achtergrondafbeelding gebruiken, bijvoorbeeld:
 
-* een huilende baby om de klanten te symboliseren die niet zijn opgevolgd,
+* een spinnenweb om de klanten te symboliseren die niet zijn opgevolgd,
 * een dollarteken voor klanten met achterstallige verkopen,
 * een reddingsboei voor klanten met te veel serviceverzoeken.
 
 Vanuit praktisch oogpunt kan SAINT helpen door een medewerker voorstellen doen voor acties voor een specifieke situatie. Ze kunnen een vervolgactiviteit maken of de klant toevoegen aan een selectie.
 
-![Gebruik een visuele indicator zoals een huilende baby om u te waarschuwen dat een klant moet worden opgevolgd -screenshot][img3]
+![Gebruik een visuele indicator zoals een spinnenweb om u te waarschuwen dat een klant moet worden opgevolgd -screenshot][img3]
 
 De SAINT-criteria die de analyses genereren die u gebruikt, worden automatisch zoekbare "velden". Elke gebruiker kan deze velden gebruiken om zijn of haar aangepaste lijst met acties of zoekopdrachten in SuperOffice Selection in te stellen.
 
@@ -111,36 +112,37 @@ Wanneer u een statusafbeelding voor een bedrijf, persoon of project ziet, hebt u
 
 * Als u de muisaanwijzer op de afbeelding plaatst, wordt knopinfo weergegeven met de naam van de status en een beschrijving. Daarnaast krijgt u informatie over eventuele andere statussen met betrekking tot het bedrijf, de persoon of het project.
 
-* Als u op de afbeelding klikt, wordt het dialoogvenster [Statussen weergeven][1] weergegeven. Hier ziet u de naam en beschrijving van de status en kunt u relevante taken voor het bedrijf, de persoon of het project uitvoeren.
+* Als u op de afbeelding klikt, wordt het dialoogvenster **Statussen weergeven** weergegeven. Hier ziet u de naam en beschrijving van de status en kunt u relevante taken voor het bedrijf, de persoon of het project uitvoeren.
 
 > [!TIP]
 > U kunt een of meer statussen als criteria combineren wanneer u een dynamische selectie maakt, en op deze manier eenvoudig een overzicht weergeven van bedrijven, personen of projecten waarvan de statussen voldoen aan de criteria.
 >
 > Als u hulp nodig heeft bij het opzetten van SAINT om uw verkoop- en klantprocessen te verbeteren, raden we u aan een van onze bekwame consultants in te schakelen.
 
-## Achter de schermen
+### <a id="dialog"></a>Het dialoogvenster Statussen weergeven
 
-SAINT-tellers worden opgeslagen in de [countervalue][3]-tabel en automatisch bijgewerkt wanneer je acties uitvoert:
+Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een statusafbeelding voor een bedrijfskaart, visitekaartje of projectkaart klikt. Het dialoogvenster bevat de volgende informatie:
 
-* Wanneer SAINT is ingeschakeld, worden er een aantal tellerregels aangemaakt telkens als een persoon of project wordt aangemaakt.
+| Element | Beschrijving |
+|---|---|
+| Naam | De naam van de status is gedefinieerd in Instellingen en onderhoud. |
+| Beschrijving | Een beschrijving van de status is gedefinieerd in Instellingen en onderhoud. |
+| Andere statussen | Een koppeling naar andere statussen met betrekking tot het huidige bedrijf, de huidige persoon of het huidige project. Dit veld wordt alleen weergegeven als er meerdere statussen voor de betreffende record zijn. |
+| Vervolgactiviteit maken | Wordt gebruikt om een nieuwe [vervolgactiviteit te maken][1] voor het bedrijf, de persoon of het project. Het type vervolgactiviteit dat standaard wordt gemaakt, is gedefinieerd in Instellingen en onderhoud. |
+| Toevoegen aan selectie | Klikken op deze knop opent het dialoogvenster **Toevoegen aan selectie** waarin u het huidige bedrijf of de huidige persoon kunt toevoegen aan een willekeurige statische selectie. Deze optie kan alleen worden gebruikt voor statische selecties. [Statussen gebruiken in dynamische selecties][2].|
 
-* Telkens wanneer een vervolgactiviteit, document of verkoop wordt aangemaakt, worden de bijbehorende tellerregels bijgewerkt.
-
-SAINT-waarden zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk van de bedrijfs- en projectkaarten bepalen. Deze waarden worden opgeslagen in de [statusvalue][4]-tabel.
-
-## Gerelateerde inhoud
+## Gerelateerde onderwerpen
 
 * [Instellen SAINT][5]
+* [Hoe SAINT tellers en statussen opslaat][4]
 * [Statuscontroles gebruiken in een dynamische selectie][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

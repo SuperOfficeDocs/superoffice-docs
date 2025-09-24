@@ -3,9 +3,9 @@ uid: help-en-saint
 title: Sales Intelligence (SAINT)
 description: In this guide you will learn how SAINT can progress your sales and customer processes, as well as improve workflows.
 keywords: SAINT, Sales Intelligence, activity monitor, status monitor
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: en
 redirect_from:
   - /en/sale/saint/
   - /en/sale/saint/learn/
+  - /en/sale/saint/learn/status-dialog
+  - /en/saint/learn/status-dialog
 ---
 
 # Activity monitors (SAINT)
@@ -43,8 +45,6 @@ Our imaginary company Bridgecom sells computers, laptops and office software. As
 By using SAINT, Bridgecom can proactively search for all customers with no open or completed sales that were registered in the last 2 years on their Customer card. The SAINT selection will generate a list of these customers. Based on the information that is not present in the customer database – namely, there are no sales registered in the last 2 years.
 
 With this overview, Bridgecom can decide how they wish to follow up on their customers to improve the relationships and to drive up sales.
-
-![Selection of neglected customers in Settings and maintenance -screenshot][img1]
 
 With SuperOffice SAINT you can analyze your database to get an overview of customers, sales, requests, and documents. This can be done in the form of charts and reports. Then, the people responsible for the situation that you analyzed with SAINT can take action to improve the existing situation.
 
@@ -89,13 +89,13 @@ SuperOffice SAINT uses visual Status Indicators on a customer, potential custome
 
 SAINT can be fun! You can use any background image, for example:
 
-* A crying baby to symbolize the customers that have not been followed up,
+* A cobweb to symbolize the customers that have not been followed up,
 * A dollar sign for customers with overdue sales,
 * A lifebuoy for customers with too many service requests.
 
 From the practical point of view, SAINT can provide an employee with suggested actions for a specific situation. They can create a follow-up activity or add the customer to a selection.
 
-![Use a visual indicator like a crying baby to warn you that a customer needs to be followed up -screenshot][img3]
+![Use a visual indicator like a cobweb to warn you that a customer needs to be followed up -screenshot][img3]
 
 The SAINT criteria that generate the analyses you use will automatically become searchable "fields". Any user can use these fields to set up his or her customized list of actions or searches in SuperOffice Selection.
 
@@ -113,36 +113,37 @@ When you see a status image for a company, contact or a project, you have two op
 
 * If you hold the mouse pointer over the image, a tooltip appears showing you the same of the status and a description. You also get information about any other statuses relating to the company, contact or project.
 
-* If you click the image, the [View statuses dialog][1] is displayed, and here you can see the name and description of the status and carry out relevant tasks for the company, contact or project.
+* If you click the image, the **View statuses** dialog is displayed, and here you can see the name and description of the status and carry out relevant tasks for the company, contact or project.
 
 > [!TIP]
 > You can combine one or more of these statuses as criteria when you create a dynamic selection and, in this way, get a simple overview of companies, contacts or projects whose statuses meet these criteria.
 >
 > If you need help to set up SAINT to progress your sales and customer processes, we always recommend using one of our skilled consultants.
 
-## Behind the scenes
+### <a id="dialog"></a>The View statuses dialog
 
-SAINT counters are stored in the [countervalue][3] table and updated automatically as you do things:
+The **View statuses** dialog is displayed when you click a status image for a company card, contact card, or project card. The dialog contains the following information:
 
-* When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
+| Element | Description |
+|---|---|
+| Name | The name of the status, defined in Settings and maintenance. |
+| Description | A description of the status, defined in Settings and maintenance. |
+| Other statuses | A link to any other statuses relating to the current company, contact or project. This field is displayed only if there are several statuses for the record in question. |
+| Create follow-up | Used to [create a new follow-up][1] for the company, contact, or project. The type of follow-up created by default is defined in Settings and maintenance. |
+| Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. This option can be used only for static selections. [How to use statuses in dynamic selections][2].|
 
-* Whenever a follow-up, document, or sale is created, then the corresponding counter rows are updated.
-
-SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][4] table.
-
-## What would you like to do now?
+## Related content
 
 * [Set up activity monitors][5]
+* [How SAINT stores counters and statuses][4]
 * [Use status monitors in a dynamic selection][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../database/tables/countervalue.md
-[4]: ../../database/tables/statusvalue.md
-[5]: ../admin/index.md
+[4]: ../admin/index.md#database
+[5]: ../admin/set-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

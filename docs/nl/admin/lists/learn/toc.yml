@@ -50,9 +50,6 @@ items:
     - name: Type vervolgactiviteit toevoegen
       href: adding-items-to-follow-up-type-list.md
 
-  - name: Verkoopbedragklasse toevoegen
-    href: sale-amount-class.md
-
   - name: Algemeen
     topicHref: country.md
     items:

@@ -3,14 +3,17 @@ uid: help-sv-saint
 title: Sales Intelligence (SAINT)
 description: I den här guiden lär du dig hur SAINT kan utveckla dina försäljnings- och kundprocesser, samt förbättra arbetsflöden.
 keywords: SAINT
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-redirect_from: /sv/sale/saint/learn/index
+redirect_from:
+  - /sv/sale/saint/learn/index
+  - /sv/sale/saint/learn/status-dialog
+  - /sv/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -41,8 +44,6 @@ Vårt påhittade företag Bridgecom säljer datorer, laptops och kontorsprogram.
 Genom att använda SAINT kan Bridgecom proaktivt söka efter alla kunder utan öppen eller slutförd försäljning som registrerades under de senaste två åren på deras kundkort. SAINT-urvalet genererar en lista över dessa kunder. Baserat på den information som inte finns i kunddatabasen – nämligen att det inte finns någon försäljning registrerad under de senaste två åren.
 
 Med denna översikt kan Bridgecom avgöra hur de vill följa upp sina kunder för att förbättra relationerna och öka försäljningen.
-
-![Urval av försummade kunder i Inställningar och underhåll -screenshot][img1]
 
 Med SuperOffice SAINT kan du analysera din databas för att få en översikt över kunder, försäljning, ärenden och dokument. Detta kan göras i form av diagram och rapporter. Sedan kan de personer som är ansvariga för situationen som du analyserade med SAINT vidta åtgärder för att förbättra den.
 
@@ -87,13 +88,13 @@ SuperOffice SAINT använder visuella statusindikatorer på en kund, potentiell k
 
 SAINT kan vara kul! Du kan använda vilken bakgrundsbild som helst, till exempel:
 
-* Ett gråtande barn som symboliserar de kunder som inte har följts upp,
+* Ett spindelnät som symboliserar de kunder som inte har följts upp,
 * Ett dollartecken för kunder med försenad försäljning,
 * En livboj för kunder med för många serviceärenden.
 
 Ur praktisk synvinkel kan SAINT ge en anställd förslag på åtgärder för en specifik situation. De kan skapa en händelseaktivitet eller lägga till kunden i ett urval.
 
-![Använd en visuell indikator som ett gråtande barn för att varna om att en kund behöver följas upp -screenshot][img3]
+![Använd en visuell indikator som ett spindelnät för att varna om att en kund behöver följas upp -screenshot][img3]
 
 De SAINT-kriterier som genererar de analyser du använder blir automatiskt sökbara "fält". Alla användare kan använda dessa fält för att skapa en anpassad lista över åtgärder eller sökningar i SuperOffice Selection.
 
@@ -111,36 +112,37 @@ När du ser en statusbild för ett företag eller projekt har du två möjlighet
 
 * Om du håller muspekaren över bilden visas en inforuta med namn på statusen och en beskrivning. Du får också information om annan eventuell status för företaget eller projektet.
 
-* Om du klickar på fönstret öppnas [dialogrutan Visa status][1], där du kan se statusnamn och en beskrivning och vidta åtgärder för företaget, kontakten eller projektet.
+* Om du klickar på fönstret öppnas dialogrutan **Visa status**, där du kan se statusnamn och en beskrivning och vidta åtgärder för företaget, kontakten eller projektet.
 
 > [!TIP]
 > Du kan kombinera en eller flera statuslägen som kriterier när du skapar dynamiska urval och på så sätt få en praktisk översikt över alla företag, kontakter eller projekt som uppfyller kriterierna.
 >
 > Om du behöver hjälp med att konfigurera SAINT för att utveckla dina försäljnings- och kundprocesser, rekommenderar vi alltid att du tar kontakt med en av våra skickliga konsulter.
 
-## Bakom kulisserna
+### <a id="dialog"></a>Dialogrutan Visa status
 
-SAINT-räknare lagras i [countervalue][3]-tabellen och uppdateras automatiskt när du utför handlingar:
+Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett projektkort för företag eller kontakt. I dialogrutan finns följande information:
 
-* När SAINT är aktiverat, skapas ett antal räknarposter varje gång en kontakt eller ett projekt skapas.
-
-* Varje gång en händelse, ett dokument eller en försäljning skapas uppdateras motsvarande räknarposter.
-
-SAINT-värden är enkla binära värden (på eller av) som bestämmer utseendet på företags- och projektkort. Dessa värden lagras i [statusvalue][4]-tabellen.
+| Objekt | Beskrivning |
+|---|---|
+| Namn | Namnet på statusen anges i Inställningar och underhåll. |
+| Beskrivning | En beskrivning av statusen anges i Inställningar och underhåll. |
+| Andra statuslägen | Här finns länkar till andra eventuella statuslägen som gäller för företag, kontakt eller projektet. Detta fält visas endast om det finns flera statuslägen för den aktuella poster. |
+| Skapa uppföljning | Används för att [skapa en ny händelse][1] för företaget eller projektet. Vilken typ av händelse som skapas som standard definieras i Inställningar och underhåll. |
+| Lägg till i urval | När man klickar här, öppnas dialogrutan **Lägg till i urval**, och du kan lägga till det aktuella företaget eller den aktuella kontakten i ett statiskt urval som du väljer själv. Detta alternativ kan endast används för statiska urval. [Så här använder du statusar i dynamiska urval][2].|
 
 ## Relaterat innehåll
 
 * [Konfigurera SAINT][5]
+* [Hur SAINT lagrar räknare och statusar][4]
 * [Använda statusövervakning i dynamiska urval][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

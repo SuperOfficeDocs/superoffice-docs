@@ -3,14 +3,17 @@ uid: help-da-saint
 title: Sales Intelligence (SAINT)
 description: I denne guide lærer du, hvordan SAINT kan skabe fremskridt i dine salgs- og kundeprocesser samt forbedre workflows.
 keywords: SAINT, statusovervågning
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-redirect_from: /da/sale/saint/learn/index
+redirect_from:
+  - /da/sale/saint/learn/index
+  - /da/sale/saint/learn/status-dialog
+  - /da/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -41,8 +44,6 @@ Vores imaginære firma Bridgecom sælger computere, bærbare computere og kontor
 Ved at bruge SAINT kan Bridgecom proaktivt søge efter alle kunder uden åbne eller fuldførte salg, der er registreret inden for de sidste 2 år, på deres kundekort. SAINT-udvalget genererer en liste over disse kunder. Baseret på den information, der ikke er til stede i kundedatabasen – nemlig at der ikke er registreret salg i de sidste 2 år.
 
 Med dette overblik kan Bridgecom beslutte, hvordan de ønsker at følge op på deres kunder for at forbedre relationerne og øge salget.
-
-![Udvalg af forsømte kunder i Indstillinger og vedligeholdelse -screenshot][img1]
 
 Med SuperOffice SAINT kan du analysere din database for at få overblik over kunder, salg, sager og dokumenter. Dette kan gøres i form af diagrammer og rapporter. Derefter kan de mennesker, der er ansvarlige for den situation, du har analyseret med SAINT, iværksætte handlinger, der har til formål at forbedre den eksisterende situation.
 
@@ -87,13 +88,13 @@ SuperOffice SAINT bruger visuelle statusindikatorer på en kunde, potentiel kund
 
 SAINT kan være sjovt! Du kan bruge et hvilket som helst baggrundsbillede, for eksempel:
 
-* En grædende baby for at symbolisere de kunder, der ikke er blevet fulgt op på
+* Et spindelvæv for at symbolisere de kunder, der ikke er blevet fulgt op på
 * Et dollartegn for kunder med forsinket salg
 * En redningskrans til kunder med for mange servicesager.
 
 Set fra et praktisk synspunkt kan SAINT give en medarbejder forslag til handlinger til en bestemt situation. De kan oprette en opfølgningsaktivitet eller føje kunden til et udvalg.
 
-![Brug en visuel indikator som for eksempel en grædende baby til at advare dig om, at der skal følges op på en kunde -screenshot][img3]
+![Brug en visuel indikator som for eksempel et spindelvæv til at advare dig om, at der skal følges op på en kunde -screenshot][img3]
 
 SAINT-kriterierne, der opretter de analyser, du bruger, bliver automatisk søgbare "felter". Enhver bruger kan bruge disse felter til at oprette en tilpasset liste over handlinger eller søgninger i SuperOffice Udvalg.
 
@@ -111,36 +112,37 @@ Når der vises et statusbillede for et firma, en person eller et projekt, har du
 
 * Hvis du holder musemarkøren over billedet, vises en infoboks, hvor du kan se navnet på statussen samt en beskrivelse af den. Du får også oplysninger om eventuelle andre statusser, som gælder for firmaet, personen eller projektet.
 
-* Hvis du klikker på billedet, vises [dialogboksen Vis statusser][1], hvor du kan se navnet på og beskrivelsen af statussen og udføre relevante opgaver for firmaet, personen eller projektet.
+* Hvis du klikker på billedet, vises dialogboksen **Vis statusser**, hvor du kan se navnet på og beskrivelsen af statussen og udføre relevante opgaver for firmaet, personen eller projektet.
 
 > [!TIP]
 > Du kan kombinere én eller flere af disse statusser som kriterier, når du opretter dynamiske udvalg, og på den måde give dig selv en enkel oversigt over firmaer, personer eller projekter, som opfylder kriterierne for disse statusser.
 >
 > Hvis du har brug for hjælp til at sætte SAINT op for at opnå fremskridt i dine salgs- og kundeprocesser, anbefaler vi altid at bruge en af vores dygtige konsulenter.
 
-## Bag kulisserne
+### <a id="dialog"></a>Dialogboksen Vis statusser
 
-SAINT-tællere gemmes i [countervalue][3]-tabellen og opdateres automatisk, når du udfører handlinger:
+Dialogboksen **Vis statusser** vises, når du klikker på et statusbillede på et firma-, person- eller projektkort. Dialogboksen indeholder følgende oplysninger:
 
-* Når SAINT er aktiveret, oprettes der en række tællerlinjer, hver gang en kontakt eller et projekt oprettes.
-
-* Når der oprettes en opfølgning, et dokument eller et salg, opdateres de tilsvarende tællerlinjer.
-
-SAINT-værdier er simple binære værdier (til eller fra), der bestemmer udseendet og følelsen af virksomhedens og projektets kort. Disse værdier gemmes i [statusvalue][4]-tabellen.
+| Element | Beskrivelse |
+|---|---|
+| Navn | Navnet på statussen defineres i Indstillinger og vedligeholdelse. |
+| Beskrivelse | En beskrivelse af statussen defineres i Indstillinger og vedligeholdelse. |
+| Andre statusser | Her står en henvisning til eventuelle andre statusser, som gælder for det aktuelle firma, den aktuelle person eller det aktuelle projekt. Dette felt vises kun, hvis der gælder flere statusser for den aktuelle post. |
+| Opret opfølgning | Bruges til at [oprette en ny opfølgning][1] for firmaet, personen eller projektet. Hvilken type opfølgning, der oprettes som standard, defineres i Indstillinger og vedligeholdelse. |
+| Tilføj til udvalg | Når der klikkes på denne knap, åbnes dialogboksen **Tilføj til udvalg**, hvor du kan tilføje det gældende firma eller den gældende person til et statisk udvalg, som du selv vælger. Dette valg kan kun bruges til statiske udvalg. [Sådan bruges statusser i dynamiske udvalg][2].|
 
 ## Relateret indhold
 
 * [Konfigurer SAINT][5]
+* [Hvordan SAINT gemmer tællere og statusser][4]
 * [Anvendelse af statusovervågning i dynamiske udvalg][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
-[3]: ../../../en/database/tables/countervalue.md
-[4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md
+[4]: ../admin/index.md#database
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/saint-selection.png
-[img2]: ../../../media/loc/en/sale/saint-criteria.png
-[img3]: ../../../media/loc/en/sale/saint-watermark.png
+[img2]: ../../../media/loc/en/saint/find-company-saint-criteria.png
+[img3]: ../../../media/loc/en/saint/visualize-neglected-company.png

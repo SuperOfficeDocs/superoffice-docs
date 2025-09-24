@@ -1,105 +1,90 @@
 ---
 uid: help-de-saint-admin
-title: SAINT festlegen
-description: Lernen Sie in dieser Anleitung, wie Sie SuperOffice SAINT festlegen.
-keywords: SAINT, Statuskontrollen
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
+title: SAINT in Einstellungen und Verwaltung
+description: Lernen Sie die Schlüsselkonzepte von SuperOffice SAINT kennen, einschließlich Kriterien, Bilder, Zähler und Standard-Folgeaufgaben.
+keywords: SAINT, Aktivitätsüberwachung, Statusüberwachung
+author: SuperOffice Product and Engineering
+date: 09.23.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/sale/saint/learn/admin/index
 index: true
+redirect_from: /de/sale/saint/learn/admin/index
 ---
 
-# SAINT festlegen
+# SAINT in Einstellungen und Verwaltung
 
-Sie können Ihre Kunden mit SAINT (steht für Sales Intelligence) proaktiv betreuen. SuperOffice SAINT kann auf viele Weisen und für viele verschiedene Prozesse verwendet werden. Bevor Sie die SAINT-Funktion erfolgreich implementieren, ist es wichtig zu wissen, was Sie verbessern möchten und wie Sie dies untersuchen können.
+SAINT (Sales Intelligence) hilft Ihnen dabei, Firmen, Personen und Projekte zu überwachen, damit Sie zum richtigen Zeitpunkt nachfassen können. Eine **Aktivitätsüberwachung** (auch als Statusüberwachung bekannt) kombiniert Kriterien, Zähler und optionale Eigenschaften, um Datensätze hervorzuheben, die Aufmerksamkeit benötigen.
 
-Wenn Sie wissen, was Sie verbessern möchten, sollten Sie die Aktion nachdenken, die Ihre Firma ergreifen kann, um die vorhandene Situation zu verbessern. Welche Aktion werden Sie unternehmen?
+Bevor Sie SAINT implementieren, ist es wichtig zu wissen, was Sie verbessern möchten und wie Sie es analysieren werden. Überlegen Sie dann, welche proaktiven Maßnahmen Ihr Unternehmen ergreifen kann, um die aktuelle Situation zu verbessern. Zum Beispiel:
 
-* Senden Sie ein Gruppenkampagne mit SuperOffice Kampagnen
-* Rufen Sie alle Kunden in der SAINT-Auswahl an
-* Verfolgen Sie alle Anfragen
+* Eine Gruppenkampagne senden
+* Alle Kunden in der SAINT-Auswahl anrufen
+* Alle Anfragen nachverfolgen
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
 Mit der Registerkarte **Statuskontrollen/SAINT** können Sie Statusangaben für Firmen, Personen und Projekte erstellen. Statuskontrollen stellen die Funktionalität hinter dem SAINT-Konzept (Sales Intelligence) dar. Dies erleichtert die Folgeaufgaben für Firmen, Personen und Projekte und das Bereitstellen von sinnvolleren Suchoptionen in SuperOffice CRM.
 
-## Statusbilder
+![SAINT-Bildschirm mit Statusliste, Beschreibung, Bild und Kriterien -screenshot][img1]
 
-Ein Status kann als Bilder auf den Karten der Projekte, Personen oder Firmen angezeigt werden, die Ihre Kriterien erfüllen. Das Statusbild für einen Kunden, mit dem Sie längere Zeit keinen Kontakt hatten, könnte zum Beispiel ein Spinnennetz sein. Dies ist ein visueller und sofortiger Hinweis für die aktuelle Beziehung zum Kunden oder für den Fortschritt eines Projekts. Wenn der Benutzer auf ein Statusbild in SuperOffice CRM klickt oder den Mauszeiger darüber hält, wird ein Teil des Textes angezeigt, um zum Beispiel die Aktionen anzugeben, die ausgeführt werden sollen (Sie selbst geben Status ein, wenn Sie den Text erstellen).
+## Statusliste
 
-## Standardfolgeaufgabe für einen Status
+Die Statusliste auf den Registerkarten **Firma**, **Person** und **Projekt** zeigt aktive Statusmonitore für dieses Datensatz und – wenn **Gelöschte anzeigen** ausgewählt ist – auch gelöschte.
 
-Wenn der Benutzer das Statusdialogfeld in SuperOffice CRM öffnet, kann er auch eine Folgeaufgabe für den betreffenden Status erstellen. Der Folgeaufgabentyp und -text kann voreingestellt sein.
-
-### Beispiel
-
-Ein Status könnte sich zum Beispiel auf Firmen beziehen, die folgende Kriterien erfüllen:
-
-* Kategorie = Kunde
-* Letzter Verkauf älter als 2 Monate
-* Anzahl der Verkäufe größer als 50
-
-Der Text im Feld **Beschreibung** könnte wie folgt lauten:
-
-"&lt;name&gt; war früher ein guter Kunde, aber wir haben seit 2 Monaten nichts mehr an sie verkauft. &lt;cont&gt; ist die Hauptperson für diesen Kunden und sollte sich demnächst telefonisch (&lt;cpho&gt;) oder per E-Mail (&lt;mail&gt;) mit dem Kunden in Verbindung setzen, um den Grund herauszufinden."
-
-In diesem Beispiel wird der Text mit den folgenden Vorlagenvariablen an die entsprechende Firma angepasst:
-
-| Variable | Beschreibung |
+| Element | Beschreibung |
 |---|---|
-| Name | Der Name der Firma |
-| cont | Der Name der Person für die Firma |
-| cpho | Telefonnummer der Firma |
-| mail | E-Mail-Adresse der Firma |
+| **Darstellen-Symbol** <i class="ph ph-eye" aria-label="eye"></i> | Zeigt an, ob ein Statusbild auf Firmen-, Personen- oder Projektkarten angezeigt wird. Das Symbol wird nur angezeigt, wenn das Kontrollkästchen **Darstellen** aktiviert ist. |
+| **Rotes X** | Wird neben Statusangaben angezeigt, die [regeneriert][8] werden müssen. Diese Statusangaben werden nicht aktualisiert und geben keine aktuellen Daten zurück. |
+| **Namensspalte** | Zeigt die Namen der Statusangaben an. Gelöschte Statusangaben werden rot angezeigt, wenn **Gelöschte anzeigen** unter der Liste aktiviert ist. |
+| **Prioritätsspalte** | Legt fest, welches Statusbild auf der Karte angezeigt wird, wenn ein Firmen, Person oder Projekt die Kriterien für mehrere Status erfüllt. Die Statusangabe mit der höchsten Priorität wird angezeigt, während andere aktive Statusangaben als Links im Statusdialog verfügbar sind. |
 
-## Suchen und Selektionen
+## Eigenschaften
 
-Statusangaben und Zähler können in Suchen und für das Erstellen dynamischer Selektionen verwendet werden. Sie können zum Beispiel nach Firmen, Personen oder Projekten, die einem Status oder Zähler entsprechen, suchen. [!include[Define counter](../includes/def-counter.md)]
+Eine Statusüberwachung kombiniert mehrere Eigenschaften, die definieren, wie sie funktioniert:
 
-Sie können 3 verschiedene Zähler/Zeiträume einrichten. Diese Zähler sind die Anzahl der Tage, die Sie für Aktivitäten, Verkäufe und Anfragen zählen möchten. Die verschiedenen Zeiträume werden nach dem festgelegt, was für Sie wichtig ist. Wenn Sie zum Beispiel benachrichtigt werden möchten, wenn einige Ihrer Kunden im letzten Monat (30 Tage) keine Aktivitäten hatten oder wenn es ungelöste Anfragen für die Kunden gibt, die älter als 30 Tage sind.
+* **Kriterien:** Jeder Status muss ein oder mehrere Kriterien enthalten. Diese Bedingungen bestimmen, für welche Firmen, Personen oder Projekte der Status gilt. Sie können beispielsweise einen Status für Kunden definieren, die in den letzten 90 Tagen keine Verkäufe hatten.
 
-## Zeiträume
+* **Statusbilder:** Ein optionales Bild kann auf Firmen-, Personen- oder Projektkarten angezeigt werden, die den Kriterien entsprechen. Ein Spinnennetz kann beispielsweise Inaktivität anzeigen. Bilder erscheinen als helle Wasserzeichen und können für weitere Details angeklickt werden.
 
-Sie können bis zu drei unterschiedliche Zeiträume für Zähler festlegen, sodass Sie die SAINT-Kriterien kürzere bzw. längere Zeiträume abdecken können. Wenn Sie jeweils drei Zeiträume von 30, 60 und 90 Tagen festlegen, können Sie SAINT-Kriterien für jeden dieser Zeiträume wählen.
+* **Standard-Folgeaufgabe:** Wenn ein Benutzer auf den Status klickt, kann er eine Folgeaufgabe erstellen. Der Typ und die Beschreibung können vordefiniert werden, sodass die Folgeaufgabe klar angibt, welche Aktion erforderlich ist.
 
-## Neuen Status erstellen
+## Zähler und Zeiträume
 
-Loggen Sie sich zunächst bei SuperOffice CRM ein, gehen Sie zum Hauptmenü in der oberen rechten Ecke, öffnen Sie Einstellungen und Verwaltung und klicken Sie im Navigator auf SAINT. Dort können Sie Ihre Sales Intelligence und Statuskontrollen einrichten.
+Zähler [verfolgen Aktivitäten über die Zeit][5], wie Verkäufe, Anfragen oder abgeschlossene Folgeaufgaben.
+Sie können Zähler in Suchen und Selektionen verwenden, um Datensätze zu identifizieren, die bestimmte Schwellenwerte erfüllen oder verfehlen.
 
-Wie man einen Status erstellt:
+Sie können bis zu drei verschiedene Zeiträume definieren (zum Beispiel 30, 60 und 90 Tage).
+Dies ermöglicht es Ihnen, denselben Zähler, wie "Anzahl der Verkäufe", auf verschiedene Zeitspannen anzuwenden.
 
-1. [Neuen Status erstellen][1]
-1. [Bild für einen Status auswählen][2]
-1. [Standardfolgeaufgabe für einen Status auswählen][3]
-1. [Statuskriterien festlegen][4]
-1. [Zeitraum festlegen][5]
+## <a id="database"></a>Wie SAINT Zähler und Status speichert
 
-Sie können jetzt zu SuperOffice CRM zurückkehren und eine neue dynamische Selektion öffnen, um alle nachverfolgten Personen zu sehen.
+SAINT-Zähler werden in der [countervalue][13]-Tabelle gespeichert und automatisch aktualisiert, wenn Sie Aktionen durchführen:
 
-Stellen Sie sicher, dass Sie Ihre SAINT-Kriterien hinzufügen. Klicken Sie auf Hinzufügen und dann neben das Feld und wählen Sie Firma – Zähler (SAINT) aus. Suchen Sie Ihre SAINT-Statuskontrolle. In unserem Beispiel wählen wir Vernachlässigte Kunden aus und klicken auf OK. Aktualisieren Sie Ihre Auswahl, damit Sie genau wissen, welche Kunden nachverfolgt werden müssen.
+* Wenn SAINT aktiviert ist, wird bei der Erstellung einer Person oder eines Projekts eine Reihe von Zählerzeilen erstellt.
 
-## Status wiederherstellen und bearbeiten
+* Wann immer eine Folgeaufgabe, ein Dokument oder ein Verkauf erstellt wird, werden die entsprechenden Zählerzeilen aktualisiert.
 
-* [Gelöschten Status wiederherstellen][6]
-* [Statusbeschreibung bearbeiten][7]
+SAINT-Werte sind einfache binäre Werte (ein oder aus), die das Erscheinungsbild der Firmen- und Projektkarten bestimmen. Diese Werte werden in der [statusvalue][14]-Tabelle gespeichert.
 
-## Statuskontrollen verwalten und pflegen
+## Verwandte Inhalte
 
-* [Statuskontrollen verwalten][8]
+* [Neue Statusüberwachung einrichten][1]
+* [Status mit Bildern visualisieren][2]
+* [Zähler und Zählereinstellungen][5]
+* [Statusüberwachungen aktualisieren, löschen und wiederherstellen][7]
+* [Statusüberwachungen und Zähler regenerieren][8]
 
-<!-- Referenced links -->
-[1]: create-status.md
-[2]: select-image-for-status.md
-[3]: select-default-follow-up-type-for-status.md
-[4]: select-status-criteria.md
-[5]: select-period-length.md
-[6]: restore-status.md
-[7]: edit-status.md
-[8]: manage-status-monitors.md
+<!-- Referenzierte Links -->
+[1]: set-up.md
+[2]: set-up.md#image
+[5]: counter-settings.md
+[7]: update.md
+[8]: update.md#regen
+[13]: ../../../en/database/tables/countervalue.md
+[14]: ../../../en/database/tables/statusvalue.md
 
-<!-- Referenced images -->
+<!-- Referenzierte Bilder -->
+[img1]: ../../../media/loc/en/saint/status-monitors-company-tab.png
