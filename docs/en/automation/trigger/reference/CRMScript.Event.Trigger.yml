@@ -975,7 +975,7 @@ items:
   commentId: M:CRMScript.Event.Trigger.SalesLoadTicket
   id: 'SalesLoadTicket'
   so.intellisense: 
-  so.version: 10.3.8
+  so.version: 11.3
   langs:
   - crmscript
   name: 'SalesLoadTicket'
