@@ -37,29 +37,27 @@ Stellen Sie Ihre Anwesenheit in der rechten oberen Ecke der **Chat**-Ansicht ein
 
 1. Klicken Sie im Navigator auf **Chat**.
 
-2. Vergewissern Sie sich, dass Ihr Status in der Ecke rechts oben auf **Anwesend** gesetzt ist.
+1. Stellen Sie sicher, dass Ihr Status oben rechts auf **Anwesend** gesetzt ist.
 
-3. Klicken Sie auf **Nächsten in Warteschlange abrufen**, um den nächsten Chat in der Warteschlange zu beantworten.
+1. Klicken Sie auf **Nächsten in Warteschlange abrufen**, um den nächsten unbeantworteten Chat zu übernehmen.
 
-    > [!NOTE]
-    > Um auf einen bestimmten Chat zu antworten (z. B. von einem wiederkehrenden Kunden), doppelklicken Sie auf die entsprechende Zeile in der Liste**Eingehender Chat** auf der Registerkarte **Dashboard**.
+    Um einem bestimmten Kunden zu antworten, wechseln Sie zur Registerkarte **Dashboard**, suchen Sie den Chat in der Liste **Eingehende Chats**, und doppelklicken Sie auf die Zeile.
 
-4. Versuchen Sie, die Option [Kunden in SuperOffice suchen][1] auszuführen, damit Sie relevante Informationen über ihn in der Seitenleiste sehen können, um Ihnen bei der Beantwortung seiner Anfrage zu helfen.
+1. Geben Sie Ihre Antwort in das Nachrichtenfeld ein und drücken Sie **ENTER** oder klicken Sie auf **Senden**, um zu chatten.
 
-5. Geben Sie zum Chatten Text in den unteren Bereich des Bildschirms ein und drücken Sie danach die **EINGABETASTE** oder klicken Sie auf **Senden**.
+    * Um Ihre Antwort zu personalisieren, versuchen Sie, den [Kunden in SuperOffice zu finden][1]. So sehen Sie relevante Informationen im Seitenbereich.
+    * Um Emojis oder Sticker hinzuzufügen, klicken Sie auf <i class="ph ph-smiley" aria-label="Smiley"></i> neben dem Textfeld.
 
-6. Um Emojis/Sticker zu verwenden, klicken Sie auf <i class="ph ph-smiley" aria-label="Smiley"></i> neben dem Textfeld.
+1. Um während des Chats zusätzliche Informationen zu senden:
+    * [Senden Sie eine FAQ, eine Antwortvorlage oder eine Schnellantwort][4]
+    * [Senden Sie eine Datei][5]
 
-7. Wenn Sie dem Kunden bei seiner Frage nicht helfen können, führen Sie einen der folgenden Schritte aus:
+1. Wenn Sie dem Kunden nicht weiterhelfen können, führen Sie eine der folgenden Aktionen aus:
+    * [Übertragen Sie den Chat][2] an einen anderen Mitarbeiter.
+    * [Erstellen Sie eine Anfrage][3] aus dem Chat.
 
-    * An einen anderen Mitarbeiter die [Chat übertragen][2].
-    * Vom Chat eine [Anfrage erstellen][3].
-
-8. Benutzen Sie folgende Optionen, um dem Kunden zusätzliche Informationen zu senden:
-    * [FAQ, eine Antwortvorlage oder eine Schnellantwort send][4], und/oder
-    * [Datei senden][5]
-
-9. Wenn die Konversation beendet ist, können Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> klicken und **Chat beenden** auswählen (es sei denn, der Kunde schließt zuerst das Chat-Fenster). Der Chat wird nach **Letzte Chat-Sitzungen** verschoben. Sie können auch eine Aufzeichnung des Chats auf der Registerkarte **Aktivitäten** in SuperOffice CRM finden.
+1. Wenn das Gespräch beendet ist, klicken Sie auf <i class="ph ph-list" aria-label="Task menu"></i> und wählen Sie **Chat beenden**, es sei denn, der Kunde schließt das Chatfenster zuerst.
+    Der Chat wird in **Kürzliche Chatsitzungen** verschoben und auch im Register **Aktivitäten** in SuperOffice CRM gespeichert.
 
 > [!NOTE]
 > Wenn das Post-Chat-Formular für diesen Chat-Kanal aktiv ist, kann der Kunde zum Chat zurückkehren. Der Chat wird reaktiviert.

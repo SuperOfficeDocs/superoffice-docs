@@ -37,29 +37,27 @@ Set your presence in the upper-right corner of the **Chat** screen.
 
 1. Click **Chat** in the Navigator.
 
-2. In the top-right corner, make sure your status is set to **Present**.
+1. Ensure your status in the upper-right corner is set to **Present**.
 
-3. Click **Get next in queue** to respond to the next chat.
+1. Click **Get next in queue** to claim the next unanswered chat.
 
-    > [!NOTE]
-    > To respond to a specific chat (for instance from a returning customer), double-clicking the relevant row in the **Incoming chat** list in the **Dashboard** tab.
+    To respond to a specific customer, go to the **Dashboard** tab, find the chat in the **Incoming chat** list, and double-click the row.
 
-4. Try to [locate the customer in SuperOffice][1], so you can see relevant information about them in the side panel, to help you respond to their inquiry.
+1. In the message field, type your response and press **ENTER** or click **Send** to chat.
 
-5. To chat, enter text in the lower part of the screen, and press **ENTER** or click **Send**.
+    * To personalize your response, try to [locate the customer in SuperOffice][1]. This lets you view relevant information in the side panel.
+    * To add emojis or stickers, click <i class="ph ph-smiley" aria-label="Smiley"></i> next to the text field.
 
-6. To use emojis/stickers, click <i class="ph ph-smiley" aria-label="Smiley"></i> next to the text field.
+1. To send additional information during the chat:
+    * [Send an FAQ, a reply template, or quick reply][4]
+    * [Send a file][5]
 
-7. If you are unable to help the customer with their question, do one of the following:
-
+1. If you are unable to help the customer, do one of the following:
     * [Transfer the chat][2] to another agent.
     * [Create a request][3] from the chat.
 
-8. To send the customer additional information:
-    * [Send an FAQ, a reply template or quick reply][4], and/or
-    * [Send a file][5]
-
-9. When the conversation is over, you can click <i class="ph ph-list" aria-label="Task menu"></i> and select **End chat** (unless the customer closes the chat window first). The chat is moved to **Recent chat sessions**. You can also find a record of the chat in the **Activities** section tab in SuperOffice CRM.
+1. When the conversation is over, click <i class="ph ph-list" aria-label="Task menu"></i> and select **End chat**, unless the customer closes the chat window first.
+    The chat is moved to **Recent chat sessions**, and a record is also saved in the **Activities** section tab in SuperOffice CRM.
 
 > [!NOTE]
 > If the post-chat form is active for this chat channel, the customer may return to the chat. The chat will be reactivated.

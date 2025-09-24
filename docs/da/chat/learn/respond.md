@@ -35,31 +35,29 @@ Angiv din tilstedeværelse øverst til højre på **Chat**-skærmbilledet.
 
 ## Svare på næste chatsamtale i køen
 
-1. Klik på **Chat** i navigatoren.
+1. Klik på **Chat** i navigationsmenuen.
 
-2. Kontroller, at din status er sat til **Til stede** øverst til højre.
+1. Sørg for, at din status i øverste højre hjørne er sat til **Tilstede**.
 
-3. Klik på **Hent næste fra køen** for at svare på den næste chatsamtale.
+1. Klik på **Hent næste i køen** for at tage den næste ubesvarede chat.
 
-    > [!NOTE]
-    > Hvis du vil svare på en bestemt chatsamtale (for eksempel fra en kunde, der vender tilbage), kan du gøre det ved at dobbeltklikke på den relevante række på listen **Indgående chat** i fanen **Dashboard**.
+    For at svare en bestemt kunde, skal du gå til fanen **Dashboard**, finde chatten i listen **Indgående chat**, og dobbeltklikke på rækken.
 
-4. Prøv at [finde kunden i SuperOffice][1], så du kan se relevante oplysninger om ham/hende i sidepanelet, så du bedre kan besvare deres forespørgsel.
+1. Skriv dit svar i beskedfeltet, og tryk på **ENTER** eller klik på **Send** for at chatte.
 
-5. For at chatte skal du indtaste teksten i den nederste del af skærmbilledet og trykke på **Enter** eller klikke på **Send**.
+    * For at tilpasse dit svar, kan du [finde kunden i SuperOffice][1]. Du kan så se relevante oplysninger i sidepanelet.
+    * For at tilføje emojis eller klistermærker, klik på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden af tekstfeltet.
 
-6. Hvis du vil bruge emojier/etiketter, skal du klikke på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden af tekstfeltet.
-
-7. Hvis du ikke kan svare på det, kunden spørger om, kan du gøre en af følgende:
-
-    * [Overføre chatten][2] til en anden repræsentant
-    * [Oprette en sag][3] fra chatsamtalen
-
-8. Sådan sender du kunden ekstra information:
-    * [Send en FAQ, en svarskabelon eller et hurtigt svar][4], og/eller
+1. For at sende yderligere information under chatten:
+    * [Send en FAQ, et svarskabelon eller et hurtigt svar][4]
     * [Send en fil][5]
 
-9. Når samtalen er afsluttet, kan du klikke på <i class="ph ph-list" aria-label="Task menu"></i> og vælge **Afslut chat** (medmindre kunden lukker chatvinduet først). Chatsamtale flyttes til **Seneste chat-sessioner**. Chatsamtalen er også opført i detaljekortet **Aktiviteter** i SuperOffice CRM.
+1. Hvis du ikke kan hjælpe kunden, gør ét af følgende:
+    * [Overfør chatten][2] til en anden agent.
+    * [Opret en sag][3] ud fra chatten.
+
+1. Når samtalen er slut, klik på <i class="ph ph-list" aria-label="Task menu"></i> og vælg **Afslut chat**, medmindre kunden lukker chatvinduet først.
+    Chatten flyttes til **Seneste chatsessioner**, og en kopi gemmes også under fanen **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Hvis slutskemaet for chat er aktiveret for denne chatkanal, kan kunden vælge at vende tilbage til chatsamtalen. Så aktiveres chatsamtalen igen.

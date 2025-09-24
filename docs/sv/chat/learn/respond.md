@@ -34,29 +34,27 @@ Ange din närvaro överst till höger i **Chatt**-fönstret.
 
 1. Klicka på **Chatt** i navigatorn.
 
-2. Kontrollera att statusen är satt till **Närvarande** längst upp till höger.
+1. Kontrollera att din status uppe till höger är inställd på **Närvarande**.
 
-3. Klicka på **Hämta nästa i kön** för att svara på nästa chattsamtal.
+1. Klicka på **Hämta nästa i kön** för att ta nästa obesvarade chatt.
 
-    > [!NOTE]
-    > Om du vill svara på ett specifikt chattsamtal (till exempel från en återkommande kund) dubbelklickar du på den relevanta raden i listan **Inkommande chatt** på **Dashboard**-fliken.
+    För att svara en specifik kund, gå till fliken **Dashboard**, hitta chatten i listan **Inkommande chatt**, och dubbelklicka på raden.
 
-4. Försök att [hitta kunden i SuperOffice][1] så att du ser relevant information på sidopanelen. Det hjälper dig att svara på frågan.
+1. Skriv ditt svar i meddelandefältet och tryck på **ENTER** eller klicka på **Skicka** för att chatta.
 
-5. För att chatta skriver du in text i den nedre delen av fönstret och trycker på **ENTER** eller klickar på **Skicka**.
+    * För att anpassa ditt svar, försök att [hitta kunden i SuperOffice][1]. Du kan då se relevant information i sidopanelen.
+    * För att lägga till emojis eller klistermärken, klicka på <i class="ph ph-smiley" aria-label="Smiley"></i> bredvid textfältet.
 
-6. Om du vill använda emojier/etiketter klickar du på <i class="ph ph-smiley" aria-label="Smiley"></i> bredvid textfältet.
-
-7. Om du inte kan besvara kundens fråga gör du något av följande:
-
-    * [Överför chatten][2] till en annan handläggare.
-    * [Skapa ett ärende][3] från chatten.
-
-8. Om du vill skicka ytterligare information till kunden:
-    * [Skicka en FAQ-artikel, en svarsmall eller ett snabbsvar och/eller][4]
+1. För att skicka ytterligare information under chatten:
+    * [Skicka en FAQ, ett svarsmall eller ett snabbsvar][4]
     * [Skicka en fil][5]
 
-9. När samtalet har avslutats kan du klicka på <i class="ph ph-list" aria-label="Task menu"></i> och välja **Avsluta chatt** (om inte kunden stänger chattfönstret först). Chattsamtalen flyttas till **Senaste chattsessioner**. Du kan också hitta chattsamtalen som en post på detaljkortet **Aktiviteter** i SuperOffice CRM.
+1. Om du inte kan hjälpa kunden, gör något av följande:
+    * [Överför chatten][2] till en annan agent.
+    * [Skapa ett ärende][3] från chatten.
+
+1. När konversationen är avslutad klickar du på <i class="ph ph-list" aria-label="Task menu"></i> och väljer **Avsluta chatt**, om inte kunden stänger fönstret först.
+    Chatten flyttas till **Senaste chatsessioner**, och en kopia sparas även under fliken **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Om slutformuläret för chatten har aktiverats för chattkanalen kan kunden välja att återgå till chatten. Då aktiveras chattsamtalen igen.

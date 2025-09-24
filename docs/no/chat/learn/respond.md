@@ -34,29 +34,27 @@ Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
 
 1. Klikk på **Chat** i navigatoren.
 
-2. Kontroller at statusen din er satt til **Til stede** øverst til høyre.
+1. Sørg for at statusen øverst til høyre er satt til **Tilstede**.
 
-3. Klikk på **Hent neste i køen** for å svare på den neste chatsamtalen.
+1. Klikk på **Hent neste i køen** for å ta den neste ubesvarte chatten.
 
-    > [!NOTE]
-    >For å svare på en bestemt chatsamtale (for eksempel fra en kunde som vender tilbake), dobbeltklikker du på den relevante raden i listen **Innkommende chat** i **Dashbord**-fanen.
+    For å svare en bestemt kunde, gå til fanen **Dashbord**, finn chatten i listen **Innkommende chat**, og dobbeltklikk på raden.
 
-4. Prøv å [finne kunden i SuperOffice][1], slik at du kan se relevant informasjonen om den i sidepanelet, noe som kan hjelpe deg med å svare på spørsmålet.
+1. Skriv svaret ditt i meldingsfeltet og trykk **ENTER** eller klikk på **Send** for å chatte.
 
-5. For å chatte skriver du inn tekst i den nederste delen av bildet og trykker på **ENTER** eller klikker på **Send**.
+    * For å tilpasse svaret, prøv å [finne kunden i SuperOffice][1]. Da kan du se relevant informasjon i sidepanelet.
+    * For å legge til emojis eller klistremerker, klikk på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden av tekstfeltet.
 
-6. Hvis du vil bruke emojier/etiketter, klikker du på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden av tekstfeltet.
+1. For å gi tilleggsinformasjon under chatten:
+    * [Send en FAQ, en svarmal eller et hurtigsvar][4]
+    * [Send en fil][5]
 
-7. Hvis du ikke kan hjelpe kunden med spørsmålet, gjør du ett av følgende:
-
+1. Hvis du ikke kan hjelpe kunden, gjør ett av følgende:
     * [Overfør chatten][2] til en annen agent.
     * [Opprett en sak][3] fra chatten.
 
-8. Slik sender du tilleggsinformasjon til kunden:
-    * [Sende en FAQ, en svarmal eller et hurtigsvar][4]
-    * [Sende en fil][5]
-
-9. Når samtalen er avsluttet, kan du klikke på <i class="ph ph-list" aria-label="Task menu"></i> og velge **Avslutt chat** (med mindre kunden lukker chatvinduet først). Chatsamtalen flyttes til **Nylige chatsesjoner**. Du kan også finne en oppføring av chatsamtalen i detaljkortet **Aktiviteter** i SuperOffice CRM.
+1. Når samtalen er over, klikk på <i class="ph ph-list" aria-label="Task menu"></i> og velg **Avslutt chat**, med mindre kunden lukker chatvinduet først.
+    Chatten blir flyttet til **Nylige chatsesjoner**, og en kopi lagres også i fanen **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Hvis sluttskjema for chat er aktivt for denne chattekanalen, kan kunden gå tilbake til chatten. Da aktiveres chatsamtalen igjen.
