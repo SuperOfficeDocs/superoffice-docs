@@ -9,8 +9,6 @@ version_sofo: 2024.8.12
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
-category: integration
-topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
