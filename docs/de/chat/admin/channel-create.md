@@ -21,10 +21,7 @@ index: true
 
 Sie können Chat-Kanäle für bestimmte Verwendungszwecke erstellen, z. B. für technischen Support, Produktanfragen und Vertriebsunterstützung, und jedem Kanal die entsprechenden Agenten zuweisen.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihr Chat-Widget einrichten und konfigurieren (Videolänge - 4:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
+![Der Chat-Kanäle-Bildschirm in Einstellungen und Wartung mit geöffnetem Dialog Chat-Kanal bearbeiten -screenshot][img1]
 
 ## Schritte
 
@@ -150,3 +147,6 @@ In der Vorschau auf der rechten Seite ist das Chat-Fenster mit den aktuellen Ein
 ### Kann ich einen Chat-Kanal löschen?
 
 Ja, aber achten Sie darauf, dass der Chat-Kanal nicht auf einer Website verwendet wird. Ansonsten ist das Chatfenster zwar sichtbar, aber nicht funktionsfähig.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

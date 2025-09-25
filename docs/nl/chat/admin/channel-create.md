@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -18,12 +21,7 @@ index: true
 
 U kunt chatkanalen maken voor specifieke doelen, zoals technische ondersteuning, vragen over producten en verkoopondersteuning en aan elk kanaal de relevante agents toewijzen.
 
-Bekijk deze video om te leren hoe u uw chatwidget instelt en configureert:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
-
-(videolengte - 4:37)
+![Het Chatkanalen-scherm in Instellingen en onderhoud met het dialoogvenster Chatkanaal bewerken open -screenshot][img1]
 
 ## Stappen
 
@@ -149,3 +147,6 @@ Het voorbeeld rechts geeft het chatvenster weer met de huidige instellingen.
 ### Kan ik een chatkanaal verwijderen?
 
 Ja, maar zorg ervoor dat het chatkanaal niet wordt gebruikt op een website. Anders is het chatvenster zichtbaar, maar niet functioneel.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

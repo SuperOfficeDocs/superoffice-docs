@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -18,12 +21,7 @@ index: true
 
 Du kan skapa chattkanaler för särskilda ändamål som teknisk support, produktförfrågningar och säljsupport och tilldela handläggare till varje kanal.
 
-I den här filmen förklarar vi hur du konfigurerar din chattwidget:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
-
-(filmens längd: 4:37)
+![Skärmen Chattkanaler i Inställningar och underhåll med dialogrutan Redigera chattkanal öppen -screenshot][img1]
 
 ## Steg
 
@@ -149,3 +147,6 @@ Förhandsgranskningen till höger visar chattfönstret med de aktuella inställn
 ### Kan jag ta bort en chattkanal?
 
 Ja, men se till att chattkanalen inte används på en webbplats. Annars är chattfönstret synligt men fungerar inte.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

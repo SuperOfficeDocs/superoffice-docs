@@ -21,12 +21,7 @@ index: true
 
 Du kan oprette chatkanaler til bestemte formål, for eksempel teknisk support, produkthenvendelser og salgssupport, og tildele de aktuelle repræsentanter til hver kanal.
 
-Se denne video for at få at lære, hvordan du opsætter og konfigurer din chatwidget:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
-
-(videoens længde - 4:37)
+![Chatkanaler-skærmen i Indstillinger og vedligeholdelse med dialogen Rediger chatkanal åben -screenshot][img1]
 
 ## Trin
 
@@ -152,3 +147,6 @@ Forhåndsvisningen til højre viser chatvinduet med de gældende indstillinger.
 ### Kan jeg slette en chatkanal?
 
 Ja, men sørg for at chatkanalen ikke bruges på et websted. Ellers vil chatvinduet være synligt, men uden at fungere.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

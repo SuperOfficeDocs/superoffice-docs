@@ -21,10 +21,7 @@ index: true
 
 You can create chat channels for specific uses, such as technical support, product inquiries and sales support, and assign the relevant agents to each channel.
 
-Watch this video to learn how to set up and configure your chat widget (video length - 4:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
+![The Chat channels screen in Settings and maintenance with the Edit chat channel dialog open -screenshot][img1]
 
 ## Steps
 
@@ -150,3 +147,6 @@ The preview on the right displays the chat window with the current settings.
 ### Can I delete a chat channel?
 
 Yes, but make sure that the chat channel is not being used on a website. Otherwise the chat window is visible, but non-functional.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

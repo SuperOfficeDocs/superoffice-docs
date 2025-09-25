@@ -7,6 +7,9 @@ author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
@@ -18,10 +21,7 @@ index: true
 
 Du kan opprette chatkanaler for bestemte formål, som teknisk støtte, produkthenvendelser og salgsstøtte, og tildele de aktuelle agentene til hver kanal.
 
-Se denne videoen for å finne ut hvordan du konfigurerer kontrollprogrammet for chat (videolengde – 4.37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
+![Skjermen Chatkanaler i Innstillinger og vedlikehold med dialogboksen Rediger chatkanal åpen -screenshot][img1]
 
 ## Trinn
 
@@ -147,3 +147,6 @@ Forhåndsvisningen til høyre viser chatvinduet med de gjeldende innstillingene.
 ### Kan jeg slette en chatkanal?
 
 Ja, men sørg for at chatkanalen ikke brukes på en webside. Ellers er chattevinduet synlig, men ikke funksjonelt.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png
