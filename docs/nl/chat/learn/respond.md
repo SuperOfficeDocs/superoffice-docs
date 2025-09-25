@@ -16,6 +16,7 @@ language: nl
 redirect_from: 
   - /nl/chat/learn/send-files
   - /nl/chat/learn/send-faq-or-reply-template
+  - /nl/chat/learn/create-quick-reply
 ---
 
 # Antwoorden op een chat
@@ -26,6 +27,10 @@ Binnenkomende chats worden op de volgende manieren aangegeven:
 * In de lijst **Binnenkomende chat** in het tabblad **Dashboard**. U kunt dubbelklikken op een rij om op een chat te antwoorden.
 * In het tabblad **Chats** wordt in het veld **In wachtrij** aangegeven hoeveel chats wachten op antwoord.
 * Een waarschuwing wordt weergegeven als een chat niet is beantwoord binnen een bepaalde tijd. Deze waarschuwing wordt alleen getoond als uw status **Aanwezig** is.
+
+Om ervoor te zorgen dat u snelle en professionele antwoorden biedt op de chatvragen van uw klanten, biedt SuperOffice Chat een aantal opties om uw chatantwoorden te versnellen en te verbeteren.
+
+Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden van vragen van klanten via chat. U kunt een snel antwoord op een veelgestelde vraag maken en verzenden. In andere situaties, waarin snelle antwoorden niet voldoende zijn, kunt u veelgestelde vragen, aangepaste antwoordsjablonen, of bestanden opnemen.
 
 ## Uw status instellen (Aanwezig/Afwezig)
 
@@ -79,6 +84,17 @@ Om tijd te besparen, voegt u vooraf gedefinieerde tekst in plaats van volledige 
 
 1. Druk op **ENTER** of klik op **Verzenden** om het bericht te verzenden.
 
+### Een snel antwoord maken
+
+1. Klik tijdens een lopende chat op <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> in het onderste deel van het chatvenster.
+1. Klik op <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
+1. Klik in het venster **Snelle antwoorden** op **Toevoegen**. Er wordt een nieuw antwoord aan de lijst toegevoegd.
+1. Klik in het veld **Nieuwe naam** en geef een titel op voor het snelle antwoord. Deze zal niet zichtbaar zijn voor de klant.
+1. Klik op het veld **Nieuwe inhoud** en geef de antwoordtekst op die u wilt verzenden naar klanten.
+1. Klik op **Opslaan**. Het venster sluit en het nieuwe snelle antwoord wordt opgeslagen. U kunt het snelle antwoord nu selecteren tijdens een chat.
+
+![Via de knop voor het toevoegen van vooraf gedefinieerde tekst kunt u tekst kiezen uit veelgestelde vragen, antwoordsjablonen en snelle antwoorden -screenshot][img6]
+
 ## <a id="attach"></a>Bestanden verzenden in chat
 
 U kunt documenten of bestanden verzenden tijdens een chatsessie.
@@ -90,14 +106,6 @@ U kunt documenten of bestanden verzenden tijdens een chatsessie.
     * Sleep een bestand rechtstreeks naar het uploadgebied. Zorg ervoor dat **→Verplaatsen** naast uw muisaanwijzer verschijnt wanneer u het bestand neerzet.
 
 Het bestand wordt onmiddellijk verzonden.
-
-## Wees efficiënt met chatantwoorden
-
-Om ervoor te zorgen dat u snelle en professionele antwoorden biedt op de chatvragen van uw klanten, biedt SuperOffice Chat een aantal opties om uw chatantwoorden te versnellen en te verbeteren.
-
-Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden van vragen van klanten via chat. U kunt een snel antwoord op een veelgestelde vraag maken en verzenden. In andere situaties, waarin snelle antwoorden niet voldoende zijn, kunt u veelgestelde vragen, aangepaste antwoordsjablonen, of bestanden opnemen.
-
-![Via de knop voor het toevoegen van vooraf gedefinieerde tekst kunt u tekst kiezen uit veelgestelde vragen, antwoordsjablonen en snelle antwoorden -screenshot][img6]
 
 ## Gerelateerde inhoud
 

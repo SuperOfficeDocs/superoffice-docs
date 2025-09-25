@@ -2,7 +2,7 @@
 uid: help-en-chat-respond
 title: Respond to a chat
 description: When a customer sends a query via the chat widget on the website, it is not only important to respond to it, but also to register it on their Contact card.
-keywords: respond to chat, next chat in queue, incoming chat, presence
+keywords: respond to chat, next chat in queue, incoming chat, presence, quick reply
 author: Bergfrid Dias
 date: 09.25.2025
 version: 10.5
@@ -16,6 +16,7 @@ language: en
 redirect_from: 
   - /en/chat/learn/send-files
   - /en/chat/learn/send-faq-or-reply-template
+  - /en/chat/learn/create-quick-reply.md
 ---
 
 # Respond to a chat
@@ -26,6 +27,10 @@ Incoming chats are indicated in the following ways:
 * In the **Incoming chat** list in the **Dashboard** tab. Double-click a row to respond to a chat.
 * In the **Chats** tab, the **In queue** field shows how many chats are waiting for a response.
 * A warning appears if a chat is not answered within a specified amount of time. This warning is shown only if your status is **Present**.
+
+To make sure that you offer quick and professional answers to your customers' chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
+
+Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can include FAQs, customized reply templates, or files.
 
 ## Setting your status (Present/Away)
 
@@ -79,6 +84,16 @@ To save time, insert predefined text instead of typing full replies.
 
 1. Press **ENTER** or click **Send** to send the message.
 
+### Create a new quick reply
+
+1. In the **Quick replies** dialog, click <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
+1. Click **Add**. A new entry is added to the list.
+1. In the **New name** field, enter a title for the quick reply. This is not visible to the customer.
+1. In the **New content** field, enter the reply text.
+1. Click **Save**. The reply is added to your personal list and can be used during chats.
+
+![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
+
 ## <a id="attach"></a>Send files in chat
 
 You can send documents or files during a chat session.
@@ -90,14 +105,6 @@ You can send documents or files during a chat session.
     * Drag and drop a file directly onto the upload area. Ensure **→Move** appears next to your pointer when you drop the file.
 
 The file is sent immediately.
-
-## Be efficient with chat replies
-
-To make sure that you offer quick and professional answers to your customers' chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
-
-Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can include FAQs, customized reply templates, or files.
-
-![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
 
 ## Related content
 

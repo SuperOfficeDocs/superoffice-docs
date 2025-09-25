@@ -13,6 +13,7 @@ language: sv
 redirect_from: 
   - /sv/chat/learn/send-files
   - /sv/chat/learn/send-faq-or-reply-template
+  - /sv/chat/learn/create-quick-reply
 ---
 
 # Svara på ett chattsamtal
@@ -23,6 +24,10 @@ Inkommande chattar indikeras på följande sätt:
 * I listan **Inkommande chatt** på **Dashboard**-fliken. Du kan dubbelklicka på en rad för att svara på en chatt.
 * På **Chattsamtal**-fliken visar fältet **I kö** hur många chattar som väntar på svar.
 * En varning visas om en chatt inte besvaras inom en bestämd tid. Denna varning visas endast om din status är **Närvarande**.
+
+För att du ska kunna ge snabba och professionella svar på dina kunders chattfrågor finns det flera funktioner i SuperOffice som hjälper dig att svara snabbt och tydligt.
+
+Spara tid genom att använda fördefinierade texter när du svarar på kundfrågor i chatten. Du kan skapa och skicka snabbsvar på vanliga frågor. I andra situationer där snabbsvar inte är tillräckliga kan du lägga till FAQ-artiklar, anpassade svarsmallar eller filer.
 
 ## Ange status (Närvarande/Frånvarande)
 
@@ -76,6 +81,17 @@ För att spara tid, infoga fördefinierad text istället för att skriva fullst�
 
 1. Tryck **ENTER** eller klicka **Skicka** för att skicka meddelandet.
 
+### Skapa ett snabbsvar
+
+1. Klicka på <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> i den nedre delen av chattpanelen i en pågående chatt.
+1. Klicka på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
+1. Klicka på **Lägg till** i fönstret **Snabbsvar**. Ett nytt svar läggs till i listan.
+1. Klicka på fältet **Ny rubrik** och ange en ny rubrik för snabbsvaret. Detta kommer inte vara synligt för kunden.
+1. Klicka på fältet **Nytt innehåll** och skriv in texten som du vill skicka till kunderna.
+1. Klicka på **Spara**. Fönstret stängs och det nya snabbsvaret sparas. Nu kan du välja snabbsvaret när du chattar med en kund.
+
+![Från knappen för att lägga till fördefinierad text kan du välja text från FAQ-artiklar, svarsmallar och snabbsvar -screenshot][img6]
+
 ## <a id="attach"></a>Skicka filer i chatt
 
 Du kan skicka dokument eller filer under en chatt-session.
@@ -87,14 +103,6 @@ Du kan skicka dokument eller filer under en chatt-session.
     * Dra och släpp en fil direkt på uppladdningsområdet. Se till att **→Flytta** visas bredvid din muspekare när du släpper filen.
 
 Filen skickas omedelbart.
-
-## Svara kunden på ett effektivt sätt i chatten
-
-För att du ska kunna ge snabba och professionella svar på dina kunders chattfrågor finns det flera funktioner i SuperOffice som hjälper dig att svara snabbt och tydligt.
-
-Spara tid genom att använda fördefinierade texter när du svarar på kundfrågor i chatten. Du kan skapa och skicka snabbsvar på vanliga frågor. I andra situationer där snabbsvar inte är tillräckliga kan du lägga till FAQ-artiklar, anpassade svarsmallar eller filer.
-
-![Från knappen för att lägga till fördefinierad text kan du välja text från FAQ-artiklar, svarsmallar och snabbsvar -screenshot][img6]
 
 ## Relaterat innehåll
 

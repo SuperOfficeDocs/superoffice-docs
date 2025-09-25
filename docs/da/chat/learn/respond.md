@@ -16,6 +16,7 @@ language: da
 redirect_from: 
   - /da/chat/learn/send-files
   - /da/chat/learn/send-faq-or-reply-template
+  - /da/chat/learn/create-quick-reply
 ---
 
 # Svare på en chatsamtale
@@ -26,6 +27,10 @@ Indgående chatsamtaler indikeres på følgende måder:
 * På listen **Indgående chat** under fanen **Dashboard**. Du kan dobbeltklikke på en række for at svare på en chat.
 * På fanen **Chat-samtaler** viser feltet **I kø** hvor mange chatsamtaler der venter på svar.
 * En advarsel vises, hvis en chat ikke bliver besvaret inden for et bestemt tidsrum. Denne advarsel vises kun, hvis din status er **Til stede**.
+
+For at sikre, at du tilbyder hurtige og professionelle svar på dine kunders chatforespørgsler, tilbyder SuperOffice Chat en række muligheder for at fremskynde og forbedre dine chatsvar.
+
+Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgsler via chat. Du kan oprette og sende et hurtigt svar på et ofte stillet spørgsmål. I andre situationer, hvor hurtige svar ikke er tilstrækkelige, kan du medtage ofte stillede spørgsmål, tilpassede svarskabeloner, eller filer.
 
 ## Angivelse af status (Til stede / Ikke til stede)
 
@@ -79,6 +84,17 @@ For at spare tid skal du indsætte foruddefineret tekst i stedet for at skrive f
 
 1. Tryk på **ENTER** eller klik på **Send** for at sende beskeden.
 
+### Opret et nyt hurtigt svar
+
+1. I en igangværende chat skal du klikke på <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> i den nederste del af chatpanelet.
+1. Klik på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
+1. Vinduet **Hurtige svar** åbnes, klik på **Tilføj**. Et nyt svar føjes til listen.
+1. Klik på feltet **Ny titel**, og angiv en titel for det hurtige svar. Dette vil ikke være synligt for kunden.
+1. Klik på feltet **Nyt indhold**, og indtast den svartekst, du vil sende til kunderne.
+1. Klik på **Gem**. Vinduet lukkes, og det nye hurtige svar gemmes. Du kan nu vælge det hurtige svar under en chat.
+
+![Fra knappen for tilføj foruddefineret tekst kan du vælge tekst fra FAQ, Svarskabeloner og Hurtige svar -screenshot][img6]
+
 ## <a id="attach"></a>Sende filer i chat
 
 Du kan sende dokumenter eller filer under en chatsession.
@@ -90,14 +106,6 @@ Du kan sende dokumenter eller filer under en chatsession.
     * Træk og slip en fil direkte på uploadområdet. Sørg for, at **→Flyt** vises ved siden af din markør, når du slipper filen.
 
 Filen sendes med det samme.
-
-## Vær effektiv med chatsvar
-
-For at sikre, at du tilbyder hurtige og professionelle svar på dine kunders chatforespørgsler, tilbyder SuperOffice Chat en række muligheder for at fremskynde og forbedre dine chatsvar.
-
-Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgsler via chat. Du kan oprette og sende et hurtigt svar på et ofte stillet spørgsmål. I andre situationer, hvor hurtige svar ikke er tilstrækkelige, kan du medtage ofte stillede spørgsmål, tilpassede svarskabeloner, eller filer.
-
-![Fra knappen for tilføj foruddefineret tekst kan du vælge tekst fra FAQ, Svarskabeloner og Hurtige svar -screenshot][img6]
 
 ## Relateret indhold
 

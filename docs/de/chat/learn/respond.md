@@ -16,6 +16,7 @@ language: de
 redirect_from: 
   - /de/chat/learn/send-files
   - /de/chat/learn/send-faq-or-reply-template
+  - /de/chat/learn/create-quick-reply
 ---
 
 # Chat beantworten
@@ -26,6 +27,10 @@ Eingehende Chats werden folgendermaßen angezeigt:
 * In der Liste **Eingehender Chat** auf der Registerkarte **Dashboard**. Sie können zum Beantworten eines Chats auf die Zeile doppelklicken.
 * In der Registerkarte **Chats** wird im Feld **In Warteschlange** angezeigt, wie viele Chats auf eine Antwort warten.
 * Eine Warnung wird angezeigt, wenn ein Chat nicht innerhalb einer bestimmten Zeitspanne beantwortet wird. Diese Warnung wird nur angezeigt, wenn Ihr Status **Anwesend** ist.
+
+Um sicherzustellen, dass Sie schnelle und professionelle Antworten auf die Chat-Anfragen Ihrer Kunden geben, bietet SuperOffice Chat eine Reihe von Optionen, um Ihre Chat-Antworten zu beschleunigen und zu verbessern.
+
+Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfragen per Chat beantworten. Sie können eine schnelle Antwort auf eine häufig gestellte Frage erstellen und senden. In anderen Situationen, in denen schnelle Antworten nicht ausreichen, können Sie FAQs, benutzerdefinierte Antwortvorlagen oder Dateien einfügen.
 
 ## Status einstellen (Anwesend/Abwesend)
 
@@ -79,6 +84,17 @@ Um Zeit zu sparen, fügen Sie vordefinierten Text ein, anstatt vollständige Ant
 
 1. Drücken Sie **EINGABE** oder klicken Sie auf **Senden**, um die Nachricht zu senden.
 
+### Schnellantwort erstellen
+
+1. Klicken Sie in einem laufenden Chat auf <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> im unteren Teil des Chat-Fensters.
+1. Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
+1. Klicken Sie im Fenster **Schnellantworten** auf **Hinzufügen**. Der Liste wird eine neue Antwort hinzugefügt.
+1. Klicken Sie auf das Feld **Neuer Name** und geben Sie einen Namen für die Schnellantwort ein. Dieser ist für den Kunden nicht sichtbar.
+1. Klicken Sie auf das Feld **Neuer Inhalt** und geben Sie den Antworttext ein, der an Kunden gesendet werden soll.
+1. Klicken Sie auf **Speichern**. Das Fenster wird geschlossen und die neue Schnellantwort ist gespeichert. Sie können jetzt die Schnellantwort während eines Chats auswählen.
+
+![Von der Schaltfläche zum Hinzufügen von vordefiniertem Text können Sie Text aus FAQ, Antwortvorlagen und Schnellantworten auswählen -screenshot][img6]
+
 ## <a id="attach"></a>Dateien in einem Chat senden
 
 Sie können Dokumente oder Dateien während einer Chat-Sitzung senden.
@@ -90,14 +106,6 @@ Sie können Dokumente oder Dateien während einer Chat-Sitzung senden.
     * Ziehen Sie eine Datei direkt in den Upload-Bereich. Stellen Sie sicher, dass **→Verschieben** neben Ihrem Mauszeiger angezeigt wird, wenn Sie die Datei ablegen.
 
 Die Datei wird sofort gesendet.
-
-## Seien Sie effizient mit Chat-Antworten
-
-Um sicherzustellen, dass Sie schnelle und professionelle Antworten auf die Chat-Anfragen Ihrer Kunden geben, bietet SuperOffice Chat eine Reihe von Optionen, um Ihre Chat-Antworten zu beschleunigen und zu verbessern.
-
-Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfragen per Chat beantworten. Sie können eine schnelle Antwort auf eine häufig gestellte Frage erstellen und senden. In anderen Situationen, in denen schnelle Antworten nicht ausreichen, können Sie FAQs, benutzerdefinierte Antwortvorlagen oder Dateien einfügen.
-
-![Von der Schaltfläche zum Hinzufügen von vordefiniertem Text können Sie Text aus FAQ, Antwortvorlagen und Schnellantworten auswählen -screenshot][img6]
 
 ## Verwandte Inhalte
 
