@@ -3,30 +3,21 @@ items:
   href: index.md
 - name: Visa chattstatistik
   href: statistics.md
-- name: Arbeta med chatt
-  topicHref: respond.md
-  items:
-  - name: Svara på ett chattsamtal
-    href: respond.md
-  - name: Koppla chatt till befintlig kontakt
-    href: link-to-person.md
-  - name: Skapa ny kontakt
-    href: create-contact.md
-  - name: Skapa ärende i chatt
-    href: create-request.md
-  - name: Skapa snabbsvar
-    href: create-quick-reply.md
-  - name: "Skicka FAQ, svarsmall och snabbsvar i chatt"
-    href: send-faq-or-reply-template.md
-  - name: Skicka filer i chatt
-    href: send-files.md
-  - name: Överföra chatt till en annan handläggare
-    href: transfer-to-agent.md
-  - name: Använda chattfunktionen från kundens perspektiv
-    href: as-customer.md
+- name: Svara på ett chattsamtal
+  href: respond.md
+- name: Koppla chatt till person
+  href: link-to-person.md
+- name: Skapa ärende i chatt
+  href: create-request.md
+- name: Överföra chatt till en annan handläggare
+  href: transfer-to-agent.md
+- name: Använda chattfunktionen från kundens perspektiv
+  href: as-customer.md
 - name: För administratörer
   topicHref: ../admin/index.md
   items:
+  - name: Översikt
+    href: ../admin/index.md
   - name: Skapa chattkanal
     href: ../admin/channel-create.md
   - name: Lägg till JavaScript till webbplatsen
