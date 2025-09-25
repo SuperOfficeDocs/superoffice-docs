@@ -2,7 +2,7 @@
 uid: help-da-chat
 title: Chat
 description: Kommuniker med og hjælp eksisterende eller potentielle kunder via en chatwidget på dit websted.
-keywords: chat
+keywords: chat, ongoing chats
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -26,6 +26,8 @@ Dine agenter kan få adgang til chat via Navigator i både SuperOffice CRM and S
 
 ![Chatskærmen består af fanen Dashboard og fanen Chats -screenshot][img1]
 
+(Screenshot fra en tidligere version af SuperOffice. Designet kan afvige lidt, men layoutet og funktionaliteten er den samme.)
+
 ## Skærmbilledet Chat
 
 Skærmbilledet **Chat** består af følgende faner:
@@ -35,15 +37,13 @@ Skærmbilledet **Chat** består af følgende faner:
 
 ### Fanen Dashboard
 
- **På fanen Dashboard** kan du se chatstatistikker, svare på indgående chats og lytte til igangværende chats (hvis du har denne tilladelse). Tallet på fanen **Dashboard** viser, hvor mange indgående chatsamtaler der ikke er besvaret af en repræsentant.
-
-![Fanen Dashboard -screenshot][img2]
+På fanen **Dashboard** kan du se chatstatistikker, svare på indgående chats og lytte til igangværende chats (hvis du har denne tilladelse). Tallet på fanen **Dashboard** viser, hvor mange indgående chatsamtaler der ikke er besvaret af en repræsentant.
 
 ### Fanen Chat-samtaler
 
 Brug fanen **Chat-samtaler** til at svare på indgående chatsamtaler fra kunder.
 
-![Fanen Chatsamtaler -screenshot][img3]  Tallet i fanen **Chatsamtaler** viser, hvor mange chatsamtaler du håndterer i øjeblikket.
+Tallet i fanen viser, hvor mange chatsamtaler du håndterer i øjeblikket.
 
 Fanen **Chat-samtaler** har tre hovedområder:
 
@@ -64,21 +64,13 @@ Følgende ikoner bruges til de aktive chatsessioner på listen:
 
 | Ikon | Beskrivelse |
 |---|---|
-| ![ikon][img4] | Den sidste meddelelse i samtalen fra kunden og agenten. |
-| ![ikon][img5] | Antal ulæste meddelelser fra kunden. |
+| Farvet prik | Den sidste meddelelse i samtalen fra kunden og agenten. |
+| Nummereret badge | Antal ulæste meddelelser fra kunden. |
 | <i class="ph ph-warning-circle" aria-label="Warning"></i> | Overført chatsamtale til dig eller fra dig. Venter på at blive accepteret. |
 
 #### Chatsamtale
 
-Her kan du [chatte med kunden][4].
-
-Handlinger:
-
-* [Oprettelse af sag i chat][11]
-* [Overførsel af en chatsamtale til en anden repræsentant][12]
-* [Sende FAQ'er, svarskabeloner og hurtige svar i en chat][13]
-* [Sende filer i chat][14]
-* [Oprettelse af et hurtigt svar][15]
+Her kan du [chatte med kunden][4]. Hvis du ikke kan hjælpe kunden, kan du [overføre chatten til en anden agent][12] eller [oprette en sag i chat][11].
 
 #### Sidepanelet Person (højre side)
 
@@ -88,13 +80,12 @@ Her kan du matche kunden i chatten med en eksisterende kontakt i SuperOffice, el
 
 Hvis kunden findes i SuperOffice, kan du vise kontaktinformation, sager, salg, opfølgninger og tidligere chat-sessioner, der er blevet registreret.
 
-## Hvad vil du foretage dig?
+## Relateret indhold
 
 * [Svare på en chatsamtale][4]
 * [Visning af chatstatistik][5]
 * [Bruge chatfunktionen som en kunde][6]
 * [Tilknytning af chatsamtale til person i SuperOffice][7]
-* [Tilføjelse af kunde i SuperOffice][8]
 
 <!-- Referenced links -->
 [1]: ../../faq/learn/index.md
@@ -103,16 +94,8 @@ Hvis kunden findes i SuperOffice, kan du vise kontaktinformation, sager, salg, o
 [5]: statistics.md
 [6]: as-customer.md
 [7]: link-to-person.md
-[8]: create-contact.md
 [11]: create-request.md
 [12]: transfer-to-agent.md
-[13]: send-faq-or-reply-template.md
-[14]: send-files.md
-[15]: create-quick-reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/10-chat-mainpage.png
-[img2]: ../../../media/loc/en/chat/chat-tabs.png
-[img3]: ../../../media/loc/en/chat/chat-tab-chats.png
-[img4]: ../../../../common/icons/chat-status-light-blue-h32.png
-[img5]: ../../../media/icons/chat-last-customer-unanswered.png

@@ -2,7 +2,7 @@
 uid: help-de-chat
 title: Chat
 description: Kommunizieren Sie mit bestehenden oder potenziellen Kunden und helfen Sie ihnen über ein Chat-Widget auf Ihrer Website.
-keywords: Chat
+keywords: Chat, laufende Chats
 author: SuperOffice Product and Engineering
 date: 09.25.2025
 version: 10.5
@@ -26,6 +26,8 @@ Die Mitarbeiter können über den Navigator in SuperOffice CRM und SuperOffice S
 
 ![Der Chat-Bildschirm besteht aus einer Registerkarte Dashboard und einer Registerkarte Chats -screenshot][img1]
 
+(Screenshot aus einer früheren Version von SuperOffice. Das Design kann leicht abweichen, aber das Layout und die Funktionalität sind dieselben.)
+
 ## Chat-Bildschirm
 
 Die Ansicht **Chat** besteht aus den folgenden Registerkarten:
@@ -37,13 +39,11 @@ Die Ansicht **Chat** besteht aus den folgenden Registerkarten:
 
 In der Registerkarte **Dashboard** können Sie Chat-Statistiken anzeigen, eingehende Chats beantworten und laufende Chats mitlesen (falls Sie die entsprechende Berechtigung haben). Die Zahl in der Registerkarte **Dashboard** gibt an, wie viele eingegangene Chats noch nicht von einem Mitarbeiter beantwortet wurden.
 
-![Die Registerkarte Dashboard -screenshot][img2]
-
 ### Die Registerkarte Chats
 
 In der Registerkarte **Chats** können Sie eingehende Chats von Kunden beantworten.
 
-![Registerkarte Chats -screenshot][img3] Die Zahl auf der Registerkarte **Chats** gibt die Anzahl der Chats an, die Sie derzeit bearbeiten.
+Die Zahl auf der Registerkarte gibt die Anzahl der Chats an, die Sie derzeit bearbeiten.
 
 Die Registerkarte **Chats** weist drei Hauptbereiche auf:
 
@@ -64,21 +64,13 @@ Die folgenden Symbole werden für die aktiven Chat-Sitzungen in der Liste verwen
 
 | Symbol | Beschreibung |
 |---|---|
-| ![Symbol][img4] | Die letzte Nachricht im Gespräch vom Kunden und Mitarbeiter. |
-| ![Symbol][img5] | Anzahl der ungelesenen Nachrichten vom Kunden. |
+| Farbiger Punkt | Die letzte Nachricht im Gespräch vom Kunden und Mitarbeiter. |
+| Nummeriertes Badge | Anzahl der ungelesenen Nachrichten vom Kunden. |
 | <i class="ph ph-warning-circle" aria-label="Warning"></i> | Ihnen oder von Ihnen übergebener Chat. Warten auf Annahme. |
 
 #### Chat-Gespräch
 
-Hier können Sie [mit dem Kunden chatten][4].
-
-Aktionen:
-
-* [Anfrage in einem Chat erstellen][11]
-* [Chat an einen anderen Mitarbeiter übergeben][12]
-* [FAQs, Antwortvorlagen und Schnellantworten in einem Chat senden][13]
-* [Dateien in einem Chat senden][14]
-* [Schnellantwort erstellen][15]
+Hier können Sie [mit dem Kunden chatten][4]. Wenn Sie dem Kunden nicht weiterhelfen können, können Sie [den Chat an einen anderen Mitarbeiter übergeben][12] oder [eine Anfrage in einem Chat erstellen][11].
 
 #### Seitenleiste Person (rechte Seite)
 
@@ -88,13 +80,12 @@ Hier können Sie den Kunden aus dem Chat einer vorhandenen Person in SuperOffice
 
 Wenn der Kunde in SuperOffice gefunden wird, können Sie Personeninformationen, Anfragen, Verkäufe, Folgeaufgaben und zuvor registrierte Chat-Sitzungen anzeigen.
 
-## Was möchten Sie tun?
+## Verwandte Inhalte
 
 * [Chat beantworten][4]
 * [Chat-Statistik anzeigen][5]
 * [Chatfunktion als Kunde benutzen][6]
 * [Chat mit Person in SuperOffice verknüpfen][7]
-* [Kunde zu SuperOffice hinzufügen][8]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/faq/index.md
@@ -103,16 +94,8 @@ Wenn der Kunde in SuperOffice gefunden wird, können Sie Personeninformationen, 
 [5]: statistics.md
 [6]: as-customer.md
 [7]: link-to-person.md
-[8]: create-contact.md
 [11]: create-request.md
 [12]: transfer-to-agent.md
-[13]: send-faq-or-reply-template.md
-[14]: send-files.md
-[15]: create-quick-reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/10-chat-mainpage.png
-[img2]: ../../../media/loc/en/chat/chat-tabs.png
-[img3]: ../../../media/loc/en/chat/chat-tab-chats.png
-[img4]: ../../../../common/icons/chat-status-light-blue-h32.png
-[img5]: ../../../media/icons/chat-last-customer-unanswered.png
