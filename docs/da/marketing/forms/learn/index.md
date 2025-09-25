@@ -85,7 +85,7 @@ Skærmbilledet **Vis formular** består af følgende faner:
 
 ## <a id="submissions"></a>Formularindsendelser
 
-Når en formular indsendes fra et kundecenter eller websted, indsamles dataene og vises i fanen **Formularindsendelser**. Et rødt ikon på fanen angiver nye formularindsendelser ![ikon][img3]
+Når en formular indsendes fra et kundecenter eller websted, indsamles dataene og vises i fanen **Formularindsendelser**. Et rødt ikon på fanen angiver nye formularindsendelser.
 
 Brug filterindstillingerne nederst på listen for kun at vise indsendelser med bestemte statusser.
 
@@ -121,4 +121,3 @@ Det betyder, at din mailingliste bliver mere pålidelig, hvilket vil hjælpe med
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

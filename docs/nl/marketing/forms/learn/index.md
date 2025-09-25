@@ -85,7 +85,7 @@ Het scherm **Formulier weergeven** bestaat uit de volgende tabbladen:
 
 ## <a id="submissions"></a>Formulierverzendingen
 
-Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan ![pictogram][img3].
+Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan.
 
 Gebruik de filteropties onder aan de lijst om alleen verzendingen weer te geven met specifieke statuswaarden.
 
@@ -121,4 +121,3 @@ Het gebruik van de dubbele opt-in-functie garandeert dat mensen het juiste e-mai
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

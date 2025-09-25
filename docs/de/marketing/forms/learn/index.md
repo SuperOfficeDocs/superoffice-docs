@@ -1,7 +1,7 @@
 ---
 uid: help-de-forms
 title: Mit Formularen arbeiten
-description: "SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen."
+description: SuperOffice Web-Formulare sind eine großartige Möglichkeit, Kundeninformationen und Rückmeldungen zu sammeln. Über Web-Formulare können die Besucher Ihrer Website mit Ihnen in Kontakt treten und ihre Personendetails hinterlassen.
 keywords: Formular, Formularübermittlung, doppeltes Opt-in
 author: Bergfrid Dias
 date: 03.18.2024
@@ -85,7 +85,7 @@ Der Bildschirm **Formular anzeigen** besteht aus den folgenden Registerkarten:
 
 ## <a id="submissions"></a>Formularübermittlungen
 
-Wenn ein Formular von einem Kundenzentrum oder einer Website übermittelt wird, werden die Daten erfasst und auf der Registerkarte **Formularübermittlungen** angezeigt. Ein rotes Symbol auf der Registerkarte weist auf neu übermittelte Formulare hin ![Symbol][img3].
+Wenn ein Formular von einem Kundenzentrum oder einer Website übermittelt wird, werden die Daten erfasst und auf der Registerkarte **Formularübermittlungen** angezeigt. Ein rotes Symbol auf der Registerkarte weist auf neu übermittelte Formulare hin.
 
 Mit den Filteroptionen unten in der Liste können Sie gezielt übermittelte Formulare mit einem bestimmten Status anzeigen.
 
@@ -121,4 +121,3 @@ Durch die Double-Opt-In-Funktion wird sichergestellt, dass die richtige E-Mail-A
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

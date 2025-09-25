@@ -86,7 +86,7 @@ The **View form** screen consists of the following tabs:
 
 ## <a id="submissions"></a>Form submissions
 
-When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img3].
+When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions.
 
 Use the filter options at the bottom of the list to view only submissions with specific statuses.
 
@@ -122,4 +122,3 @@ This means that your mailing list will be more reliable, which will help raise t
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

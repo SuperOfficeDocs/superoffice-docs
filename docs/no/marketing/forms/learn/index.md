@@ -85,7 +85,7 @@ Skjermen **Vis skjema** består av følgende faner:
 
 ## <a id="submissions"></a>Skjemainnsendinger
 
-Når et skjema sendes fra et kundesenter eller webside samles dataene inn og vises i fanen **Skjemainnsendinger**. Et rødt ikon indikerer ny skjemainnsending ![icon][img3].
+Når et skjema sendes fra et kundesenter eller webside samles dataene inn og vises i fanen **Skjemainnsendinger**. Et rødt ikon indikerer ny skjemainnsending.
 
 Bruk filteralternativene nederst i listen for å se bare innsendinger med bestemte statuser.
 
@@ -121,4 +121,3 @@ Dette betyr at adresselisten din vil være mer pålitelig, noe som vil bidra til
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

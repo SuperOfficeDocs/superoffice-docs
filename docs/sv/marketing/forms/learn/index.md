@@ -85,7 +85,7 @@ Skärmen **Visa formulär** består av följande flikar:
 
 ## <a id="submissions"></a>Formulärinlämningar
 
-När ett formulär lämnas in från ett kundcenter eller en webbplats samlas denna information in och visas på fliken **Formulärinlämningar**. En röd ikon på fliken anger nya formulärinlämningar ![ikon][img3].
+När ett formulär lämnas in från ett kundcenter eller en webbplats samlas denna information in och visas på fliken **Formulärinlämningar**. En röd ikon på fliken anger nya formulärinlämningar.
 
 På fliken **Formulärinlämningar** kan du visa alla inlämnade formulär. Använd filteralternativen längst ned i listan om du bara vill visa inlämningar med specifik status.
 
@@ -121,4 +121,3 @@ Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png
