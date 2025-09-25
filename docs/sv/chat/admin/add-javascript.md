@@ -18,10 +18,7 @@ index: true
 
 Om du vill göra chattfunktionen tillgänglig för kunderna måste du lägga till JavaScript på de relevanta sidorna på webbplatsen. Om du har konfigurerat flera chattkanaler har varje kanal ett specifikt JavaScript som måste läggas till på den eller de relevanta sidorna.
 
-Nu när du har [konfigurerat chattwidgeten][1] är det dags att lägga till den på webbplatsen. I den här filmen förklarar vi hur du lägger till chattwidgeten på din webbplats (filmens längd: 2:04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Nu när du har [konfigurerat chattwidgeten][1] visar det här steget hur du lägger till den på webbplatsen.
 
 ## Steg
 
@@ -41,6 +38,16 @@ Chattwidgeten är nu tillgänglig och live. Webbplatsens besökare kan nu börja
 > När du aktiverar chattfunktionen måste ditt företag vara redo att hantera alla inkommande chattkonversationer.
 >
 > Parametern *DEFER* ser till att det här skriptet inte blockerar öppning av en sida. Skriptet körs efter att sidan har öppnats.
+
+## Video: lägg till chattwidgeten
+
+Se den här demon för att se hur du lägger till chattwidgeten på din webbplats.
+(Den här videon visar en tidigare version av SuperOffice, så designen kan se annorlunda ut. Stegen är desamma.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(filmens längd: 2:04)
 
 ## Relaterat innehåll
 

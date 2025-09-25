@@ -18,10 +18,7 @@ index: true
 
 Hvis du vil gjøre chatfunksjonen tilgjengelig for kundene, må du legge til JavaScript på de relevante sidene på websiden din. Hvis du har satt opp flere chatkanaler, har hver kanal et bestemt JavaScript som legges til på den eller de relevante sidene.
 
-Nå som du har [konfigurert chatwidgeten][1], viser dette trinnet hvordan du legger den til på websiden din. Se denne videoen for å finne ut hvordan du legger til chatwidgeten på websiden din (videolengde – 2.04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Nå som du har [konfigurert chatwidgeten][1], viser dette trinnet hvordan du legger den til på websiden din.
 
 ## Trinn
 
@@ -41,6 +38,16 @@ Chatvinduet er nå tilgjengelig og live. Besøkende på websiden din kan begynne
 > Når du aktiverer chat-funksjonen, må organisasjonen være klar til å håndtere alle innkommende chatsamtaler.
 >
 > Parameteren *DEFER* sikrer at dette skriptet ikke blokkerer åpning av en side. Skriptet kjøres etter at siden er ferdig lastet.
+
+## Video: legg til chatwidgeten
+
+Se denne demoen for å se hvordan du legger til chatwidgeten på websiden din.
+(Denne videoen viser en tidligere versjon av SuperOffice, så designet kan se annerledes ut. Trinnene er de samme.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(videolengde – 2.04)
 
 ## Relatert innhold
 

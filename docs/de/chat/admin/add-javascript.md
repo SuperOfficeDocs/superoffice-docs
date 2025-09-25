@@ -21,10 +21,7 @@ index: true
 
 Damit Ihren Kunden die Chat-Funktion zur Verfügung steht, müssen Sie ein JavaScript zu den relevanten Seiten auf Ihrer Website hinzufügen. Wenn Sie mehrere Chat-Kanäle eingerichtet haben, verfügt jeder Chat-Kanal über ein spezifisches JavaScript, das der entsprechenden Seite(n) hinzugefügt werden muss.
 
-Nachdem Sie das [Chat-Widget konfiguriert][1] haben zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen. Sehen Sie sich dieses Video an, um zu lernen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen (Videolänge - 2:04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Nachdem Sie das [Chat-Widget konfiguriert][1] haben, zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen.
 
 ## Schritte
 
@@ -44,6 +41,16 @@ Das Chat-Widget ist jetzt verfügbar und live. Besucher Ihrer Website können an
 > Wenn Sie die Chatfunktion aktivieren, muss Ihre Organisation bereit sein, alle eingehenden Chatunterhaltungen zu verarbeiten.
 >
 > Mit dem Parameter *DEFER* wird sichergestellt, dass dieses Skript das Laden von Seiten nicht verhindert. Das Skript wird ausgeführt, nachdem die Seite vollständig geladen wurde.
+
+## Video: Chat-Widget hinzufügen
+
+Sehen Sie sich diese Demo an, um zu sehen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen.
+(Dieses Video zeigt eine frühere Version von SuperOffice, daher kann das Design anders aussehen. Die Schritte sind dieselben.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(Videolänge - 2:04)
 
 ## Verwandte Inhalte
 
