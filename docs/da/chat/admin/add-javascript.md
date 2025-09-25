@@ -26,7 +26,7 @@ Nu hvor du har [konfigureret chatwidgeten][1], viser dette trin dig, hvordan du 
 ## Trin
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
-1. Vælg i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
+1. Vælg <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
 1. Vælg en chatkanal på listen, og klik på **Vis**. JavaScript for den valgte chatkanal vises.
 1. Vælg og kopier scriptet.
 1. Log ind på redigeringssiden på dit websted.
