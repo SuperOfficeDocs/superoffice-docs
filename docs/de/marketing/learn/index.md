@@ -25,11 +25,6 @@ Mit SuperOffice Marketing können Sie Folgendes erstellen:
 * **Formulare**. [Erste Schritt mit Ihrem ersten Formular][1].
 * **Flows** (Automatisierung).
 
-Sehen Sie sich dieses Produkttour-Video an, um eine Einführung in die SuperOffice Marketing-Funktionen zu erhalten (Videolänge - 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
 ## Über Kampagnen
 
 Sie können die folgenden Kampagnen erstellen:
@@ -118,6 +113,7 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 * [Neue Kampagne erstellen][5]
 * [Ein neues Formular erstellen][1]
 * [Kampagnen und Formulare in Dashboards anzeigen][4]
+* [SuperOffice Marketing Produkttour-Video ansehen][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +134,4 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

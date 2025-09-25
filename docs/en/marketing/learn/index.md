@@ -25,11 +25,6 @@ Using SuperOffice Marketing you can create the following:
 * **Forms**. [Get started on your first form][1].
 * **Flows** (automation).
 
-Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
 ## About mailings
 
 You can create the following mailings:
@@ -118,6 +113,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 * [Create new mailing][5]
 * [Create a new form][1]
 * [View mailings and forms in dashboards][4]
+* [Watch the SuperOffice Marketing product tour video][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +134,4 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

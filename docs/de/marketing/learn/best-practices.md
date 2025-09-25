@@ -42,8 +42,6 @@ Das Erstellen einer guten Nachricht, die auf Ihr Publikum abgestimmt ist, ist de
 
 * **Stellen Sie sicher, dass die Leute Sie erkennen**. Wenn Menschen Ihre E-Mail in ihrem Posteingang betrachten, sollten sie sofort erkennen, dass sie von Ihrem Unternehmen stammt. Seien Sie wieder echt mit Ihrem Publikum. Warum sollten sie eine Nachricht von jemandem öffnen, den sie nicht kennen?
 
-![Wählen Sie vom Namen aus, um Ihre E-Mail erkennbar zu machen][img2]
-
 **Vermeiden Sie das:**
 
 * **Vermeiden Sie es, nur Bilder zu verwenden**. Eine E-Mail mit einem großen Bild kann als SPAM betrachtet werden. Andere E-Mail-Lösungen - wie Outlook - können Bilder anfangs blockieren, sodass Ihre Nachricht verloren geht.
@@ -108,4 +106,3 @@ Um die mobil-spezifischen Einstellungen für eine Nachricht anzupassen, wählen 
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

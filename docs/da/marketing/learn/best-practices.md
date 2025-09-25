@@ -42,8 +42,6 @@ At skabe en god besked, der er relevant for dit publikum, er, hvor det hele bør
 
 * **Sørg for, at folk genkender dig**. Når folk ser på din e-mail i deres indbakke, bør de straks genkende, at den er fra dit firma. Vær igen ægte med dit publikum. Hvorfor skulle de åbne en besked fra nogen, de ikke kender?
 
-![Vælg afsendernavn for at gøre din e-mail genkendelig -screenshot][img2]
-
 **Undgå:**
 
 * **Undgå kun at bruge billeder**. En stor billede-e-mail kan betragtes som SPAM. Andre e-mail-løsninger - som Outlook - kan blokere billeder i starten, så din besked går tabt.
@@ -108,4 +106,3 @@ Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du væ
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

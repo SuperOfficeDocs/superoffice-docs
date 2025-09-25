@@ -25,11 +25,6 @@ Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 * **Skjemaer**. [Kom i gang med det første skjemaet][1].
 * **Flyter** (automatisering).
 
-Se denne produktomvisningen på video og få en introduksjon til funksjonene i SuperOffice Marketing (videolengde – 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
 ## Om utsendelser
 
 Du kan opprette følgende utsendelser:
@@ -118,6 +113,7 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 * [Lage ny utsendelse][5]
 * [Opprette et nytt skjema][1]
 * [Vise utsendelser og skjemaer i dashboard][4]
+* [Se produktomvisningsvideoen for SuperOffice Marketing][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +134,4 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

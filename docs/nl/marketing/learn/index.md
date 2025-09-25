@@ -25,13 +25,6 @@ Met SuperOffice Marketing kunt u het volgende maken:
 * **Formulieren**. [Aan de slag met uw eerste formulier][1].
 * **Flows** (automatisering).
 
-Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
-(videolengte - 2:31)
-
 ## Info mailings
 
 U kunt de volgende mailings maken:
@@ -121,6 +114,7 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 * [Nieuwe mailing maken][5]
 * [Een nieuw formulier maken][1]
 * [Mailings en formulieren weergeven in dashboards][4]
+* [Bekijk de SuperOffice Marketing producttourvideo][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -141,3 +135,4 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

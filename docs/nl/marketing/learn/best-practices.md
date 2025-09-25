@@ -42,8 +42,6 @@ Het maken van een goede boodschap die relevant is voor uw publiek is waar het al
 
 * **Zorg ervoor dat mensen u herkennen**. Wanneer mensen naar uw e-mail in hun inbox kijken, zouden ze meteen moeten herkennen dat deze van uw bedrijf is. Wees opnieuw echt met uw publiek. Waarom zouden ze een bericht openen van iemand die ze niet kennen?
 
-![Selecteer een afzendernaam om uw e-mail herkenbaar te maken][img2]
-
 **Vermijd:**
 
 * **Vermijd alleen afbeeldingen te gebruiken**. Een grote afbeelding in een e-mail kan als SPAM worden beschouwd. Andere e-mailoplossingen - zoals Outlook - kunnen afbeeldingen in eerste instantie blokkeren, waardoor uw bericht verloren gaat.
@@ -108,4 +106,3 @@ Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selectee
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

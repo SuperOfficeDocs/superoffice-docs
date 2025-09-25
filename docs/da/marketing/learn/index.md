@@ -24,13 +24,6 @@ Med SuperOffice Marketing kan du oprette følgende:
 * **Formularer**. [Kom i gang med din første formular][1].
 * **Flows** (automatisering).
 
-Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
-(videoens længde - 2:31)
-
 ## Om udsendelser
 
 Du kan oprette følgende udsendelser:
@@ -121,6 +114,7 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 * [Oprette ny udsendelse][5]
 * [Oprette en ny formular][1]
 * [Få vist udsendelser og formularer i dashboards][4]
+* [Se videorundvisning i SuperOffice Marketing][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -141,3 +135,4 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

@@ -42,8 +42,6 @@ Crafting a good message that is relevant to your audience is where it should all
 
 * **Make sure people recognize you**. When people look at your email in their inbox, they should immediately recognize it is from your company. Again, be real with your audience. Why would they open a message from someone they do not know?
 
-![Select from name to make your email recognizable -screenshot][img2]
-
 **Avoid:**
 
 * **Avoid using just images**. One big-image email can be considered SPAM. Other email solutions – like Outlook - may block images at first, so your message will be lost.
@@ -108,4 +106,3 @@ To adjust mobile-specific settings for a message, select a section in the messag
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

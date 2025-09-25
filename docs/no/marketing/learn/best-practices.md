@@ -42,8 +42,6 @@ redirect_from: /no/marketing/learn/customize-for-mobile
 
 * **Sørg for at folk kjenner igjen deg**. Når folk ser på e-posten din i innboksen deres, bør de umiddelbart kjenne igjen at den er fra selskapet ditt. Igjen, vær ekte med publikumet ditt. Hvorfor skulle de åpne en melding fra noen de ikke kjenner?
 
-![Velg avsender for å gjøre e-posten din gjenkjennbar -screenshot][img2]
-
 **Unngå:**
 
 * **Unngå å bruke bare bilder**. Én stor bilde-e-post kan bli ansett som SPAM. Andre e-postløsninger - som Outlook - kan blokkere bilder først, slik at meldingen din går tapt.
@@ -108,4 +106,3 @@ Hvis du vil justere mobilspesifikke innstillinger for en melding, velger du en s
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

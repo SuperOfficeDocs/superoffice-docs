@@ -42,8 +42,6 @@ Att skapa ett bra meddelande som är relevant för din publik är där det borde
 
 * **Se till att folk känner igen dig**. När folk tittar på ditt e-postmeddelande i sin inkorg bör de omedelbart känna igen att det kommer från ditt företag. Var återigen verklig med din publik. Varför skulle de öppna ett meddelande från någon de inte känner?
 
-![Välj från namn för att göra din e-post igenkännbar][img2]
-
 **Undvik:**
 
 * **Undvik att använda bara bilder**. Ett stort bildmeddelande kan betraktas som SPAM. Andra e-postlösningar - som Outlook - kan blockera bilder från början, så ditt meddelande går förlorat.
@@ -108,4 +106,3 @@ Om du vill justera de mobilspecifika inställningarna för ett meddelande, välj
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif
