@@ -2,10 +2,14 @@
 uid: help-en-chat-add-javascript
 title: Add JavaScript for your website
 description: Live Chat is a popular way for your customers and prospects to get in touch with you when they visit your website. This how-to guide will show you how to add a chat widget to your website.
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: chat
+keywords: chat JavaScript
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -17,10 +21,7 @@ index: true
 
 To make the chat feature available to your customers, you must add a JavaScript to the relevant pages on your website. If you have set up multiple chat channels, each chat channel has a specific JavaScript that must be added to the relevant page(s).
 
-Now that you have [configured the chat widget][1], this step will show you how to add it to your website. Watch this video to learn how to add the chat widget to your website (video length - 2:04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Now that you have [configured the chat widget][1], this step will show you how to add it to your website.
 
 ## Steps
 
@@ -41,7 +42,17 @@ The chat widget is now available and live. Visitors to your website may start ch
 >
 > The *DEFER* parameter ensures that this script does not block page loading. The script will run after the page finish loading.
 
-## Related
+## Video: add the chat widget
+
+Watch this demo to see how to add the chat widget to your website.
+(This video shows a previous version of SuperOffice, so the design may look different. The steps are the same.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(video length - 2:04)
+
+## Related content
 
 * [Connect chat to your Customer Centre][3]
 * [Artificial Intelligence Services][2]

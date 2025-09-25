@@ -2,9 +2,10 @@
 uid: help-no-chat-admin
 title: Chatadministrasjon
 description: Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne veiledningen viser hvordan du konfigurerer chatwidgeten og deretter legger den til på websiden din.
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
+keywords: chatbot, connector, AI
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -27,8 +28,6 @@ Vi har opprettet en chatrobot-kobling som gjør at SuperOffice kan snakke med ro
 
 Det finnes forskjellige alternativer i chatkanalen for å aktivere chatroboten.
 
-![I CRMScript har du tilgang til alle standard robottjenester -screenshot][img1]
-
 ## Komme i gang med Chat
 
 Live Chat er en populær måte for kunder og potensielle kunder å komme i kontakt med deg når de besøker websiden din. Denne veiledningen viser hvordan du konfigurerer chatwidgeten og deretter legger den til på websiden din.
@@ -47,4 +46,3 @@ Dette er trinnene for å konfigurere chatwidgeten og deretter legge den til på 
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png

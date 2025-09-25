@@ -2,10 +2,13 @@
 uid: help-no-chat-as-customer
 title: Bruke chatfunksjonen fra kundens perspektiv
 description: Bruke chatfunksjonen fra kundens perspektiv
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: chat
+keywords: start chat, avslutt chat, innkommende chat
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 

@@ -3,27 +3,16 @@ items:
   href: index.md
 - name: Chat-Statistik anzeigen
   href: statistics.md
-- name: Mit Chat arbeiten
-  topicHref: respond.md
-  items:
-  - name: Chat beantworten
-    href: respond.md
-  - name: Chat mit bestehender Person verknüpfen
-    href: link-to-person.md
-  - name: Neue Person erstellen
-    href: create-contact.md
-  - name: Anfrage in einem Chat erstellen
-    href: create-request.md
-  - name: Schnellantwort erstellen
-    href: create-quick-reply.md
-  - name: "FAQ, Antwortvorlage und Schnellantwort im Chat senden"
-    href: send-faq-or-reply-template.md
-  - name: Dateien in einem Chat senden
-    href: send-files.md
-  - name: Chat an einen anderen Mitarbeiter übergeben
-    href: transfer-to-agent.md
-  - name: Chat-Funktion aus Kundenperspektive
-    href: as-customer.md
+- name: Chat beantworten
+  href: respond.md
+- name: Chat mit Person verknüpfen
+  href: link-to-person.md
+- name: Anfrage in einem Chat erstellen
+  href: create-request.md
+- name: Chat an einen anderen Mitarbeiter übergeben
+  href: transfer-to-agent.md
+- name: Chat-Funktion aus Kundenperspektive
+  href: as-customer.md
 - name: Für Admins
   topicHref: ../admin/index.md
   items:

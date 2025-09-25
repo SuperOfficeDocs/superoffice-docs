@@ -1,12 +1,19 @@
 ---
 uid: help-no-chat-link-to-person
-title: Koble chatten til en eksisterende person
-description: "Når en kunde sender en forespørsel via chatwidgeten på websiden, er det ikke bare viktig å svare på den, men også å registrere den på vedkommendes personkort."
-author: SuperOffice RnD
-date: 02.14.2023
-keywords: chat
+title: Link chat til en eksisterende person
+description: Når en kunde sender en forespørsel via chatwidgetten på nettstedet, er det ikke bare viktig å svare på den, men også å registrere den på deres personkort.
+keywords: link chat til person, foreslått person, opprett ny person
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/chat/learn/create-contact
 ---
 
 # Koble chat til eksisterende person
@@ -33,12 +40,15 @@ Hvis du velger feil person, kan du klikke på **Bytt person** nederst i sidepane
 
 ## Opprette et nytt firma og en ny person
 
-Hvis en person ikke blir funnet i SuperOffice CRM-databasen, kan [du opprette en ny person og et nytt firma][1] i sidepanelet.
+Hvis du ikke finner en person i SuperOffice, kan du opprette en ny person og et nytt firma i sidepanelet.
 
-## Aktuelle emner
+1. Klikk på **Opprett nytt firma og ny person**. Noen av feltene fylles ut med informasjon som personen har oppgitt i chatten.
+1. Fyll ut de aktuelle feltene.
+1. Klikk på **Legg til**. Den nye personen og firmaet legges til i SuperOffice. Personen knyttes også til chatsamtalen for fremtidig referanse.
+
+![Du kan legge til en ny person i SuperOffice CRM fra sidepanelet -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: create-contact.md
-
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-link-to-contact.png
+[img2]: ../../../media/loc/en/chat/chat-add-new-to-contact.png

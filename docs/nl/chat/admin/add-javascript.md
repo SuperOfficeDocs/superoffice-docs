@@ -2,9 +2,10 @@
 uid: help-nl-chat-add-javascript
 title: JavaScript voor uw website toevoegen
 description: Live Chat is een populaire manier voor uw klanten en prospects om contact met u op te nemen wanneer ze uw website bezoeken. Deze handleiding laat u zien hoe u een chatwidget aan uw website kunt toevoegen.
-keywords: chatten
-author: SuperOffice RnD
-date: 02.22.2023
+keywords: chat JavaScript
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -17,10 +18,7 @@ index: true
 
 Als u de chatfunctie beschikbaar wilt maken voor uw klanten, moet u een JavaScript toevoegen aan de relevante pagina's op uw website. Als u meerder chatkanalen hebt ingesteld, moet er voor elk chatkanaal een specifiek JavaScript worden toegevoegd aan de relevante pagina('s).
 
-Nu u [de chatwidget hebt geconfigureerd][1], laat deze stap u zien hoe u deze aan uw website kunt toevoegen. Bekijk deze video om te leren hoe u de chatwidget aan uw website toevoegt (videolengte - 2:04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Nu u [de chatwidget hebt geconfigureerd][1], laat deze stap u zien hoe u deze aan uw website kunt toevoegen.
 
 ## Stappen
 
@@ -40,6 +38,16 @@ De chatwidget is nu beschikbaar en live. Bezoekers van uw website kunnen met u g
 > Wanneer u de chatfunctie inschakelt, moet uw organisatie klaar zijn om alle binnenkomende chatgesprekken af te handelen.
 >
 > De parameter *DEFER* zorgt ervoor dat dit script het laden van de pagina niet blokkeert. Het script wordt uitgevoerd nadat het laden van de pagina is voltooid.
+
+## Video: de chatwidget toevoegen
+
+Bekijk deze demo om te zien hoe u de chatwidget aan uw website toevoegt.
+(Deze video toont een eerdere versie van SuperOffice, dus het ontwerp kan er anders uitzien. De stappen zijn hetzelfde.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(videolengte - 2:04)
 
 ## Gerelateerde inhoud
 

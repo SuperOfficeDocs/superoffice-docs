@@ -3,30 +3,21 @@ items:
   href: index.md
 - name: Chatstatistieken weergeven
   href: statistics.md
-- name: Werken met chatten
-  topicHref: respond.md
-  items:
-  - name: Antwoorden op een chat
-    href: respond.md
-  - name: Chat koppelen aan bestaande contactpersoon
-    href: link-to-person.md
-  - name: Nieuwe persoon maken
-    href: create-contact.md
-  - name: Verzoek maken in chat
-    href: create-request.md
-  - name: Snel antwoord maken
-    href: create-quick-reply.md
-  - name: "Veelgestelde vragen, antwoordsjabloon en snel antwoord in chat verzenden"
-    href: send-faq-or-reply-template.md
-  - name: Bestanden verzenden in chat
-    href: send-files.md
-  - name: Chat overbrengen naar een andere agent
-    href: transfer-to-agent.md
-  - name: De chatfunctie gebruiken vanuit klantperspectief
-    href: as-customer.md
+- name: Antwoorden op een chat
+  href: respond.md
+- name: Chat koppelen aan persoon
+  href: link-to-person.md
+- name: Verzoek maken in chat
+  href: create-request.md
+- name: Chat overbrengen naar een andere agent
+  href: transfer-to-agent.md
+- name: De chatfunctie gebruiken vanuit klantperspectief
+  href: as-customer.md
 - name: Voor beheerders
   topicHref: ../admin/index.md
   items:
+  - name: Overzicht
+    href: ../admin/index.md
   - name: Een chatkanaal maken
     href: ../admin/channel-create.md
   - name: JavaScript voor uw website toevoegen

@@ -1,11 +1,15 @@
 ---
 uid: help-de-chat-add-javascript
 title: JavaScript zur Website hinzufügen
-description: "Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie Ihrer Website ein Chat-Widget hinzufügen."
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: Chat
+description: Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie Ihrer Website ein Chat-Widget hinzufügen.
+keywords: Chat JavaScript
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
@@ -17,10 +21,7 @@ index: true
 
 Damit Ihren Kunden die Chat-Funktion zur Verfügung steht, müssen Sie ein JavaScript zu den relevanten Seiten auf Ihrer Website hinzufügen. Wenn Sie mehrere Chat-Kanäle eingerichtet haben, verfügt jeder Chat-Kanal über ein spezifisches JavaScript, das der entsprechenden Seite(n) hinzugefügt werden muss.
 
-Nachdem Sie das [Chat-Widget konfiguriert][1] haben zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen. Sehen Sie sich dieses Video an, um zu lernen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen (Videolänge - 2:04):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+Nachdem Sie das [Chat-Widget konfiguriert][1] haben, zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen.
 
 ## Schritte
 
@@ -41,7 +42,17 @@ Das Chat-Widget ist jetzt verfügbar und live. Besucher Ihrer Website können an
 >
 > Mit dem Parameter *DEFER* wird sichergestellt, dass dieses Skript das Laden von Seiten nicht verhindert. Das Skript wird ausgeführt, nachdem die Seite vollständig geladen wurde.
 
-## Verwandt
+## Video: Chat-Widget hinzufügen
+
+Sehen Sie sich diese Demo an, um zu sehen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen.
+(Dieses Video zeigt eine frühere Version von SuperOffice, daher kann das Design anders aussehen. Die Schritte sind dieselben.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
+
+(Videolänge - 2:04)
+
+## Verwandte Inhalte
 
 * [Verbinden Sie den Chat mit Ihrem Kundenzentrum][3]
 * [Dienstleistungen für künstliche Intelligenz][2]

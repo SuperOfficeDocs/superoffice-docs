@@ -2,9 +2,10 @@
 uid: help-sv-chat-admin
 title: Administrera chatt
 description: Livechatt är ett populärt sätt för dina kunder och prospekt att komma i kontakt med dig när de besöker webbplatsen. Den här guiden visar hur du konfigurerar chattwidgeten och sedan lägger till den på din webbplats.
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: chatt
+keywords: chatbot, connector, AI
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -27,8 +28,6 @@ Vi har skapat en chattrobotkoppling som gör det möjligt för SuperOffice att p
 
 Det finns olika sätt att aktivera chattroboten i chattkanalen.
 
-![I CRMScript kommer du åt alla standardrobottjänster -screenshot][img1]
-
 ## Kom igång med chatt
 
 Livechatt är ett populärt sätt för dina kunder och prospekt att komma i kontakt med dig när de besöker webbplatsen. Den här guiden visar hur du konfigurerar chattwidgeten och sedan lägger till den på din webbplats.
@@ -47,4 +46,3 @@ Så här konfigurerar du chattwidgeten och lägger till den på webbplatsen:
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png

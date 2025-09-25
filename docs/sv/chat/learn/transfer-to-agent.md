@@ -2,10 +2,16 @@
 uid: help-sv-chat-transfer-to-agent
 title: Överföra ett chattsamtal till en annan agent
 description: I den här guiden förklarar vi hur du överför en chatt till en annan handläggare.
-keywords: chatt
-author: SuperOffice RnD
-date: 02.25.2025
+keywords: överföra chatt, acceptera överföring, avvisa överföring
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -37,7 +43,7 @@ Om en agent överför ett chattsamtal till dig så visas samtalet automatiskt i 
 1. (om relevant) Välj det överförda chattsamtalet i sessionslistan för att visa den.
 2. Klicka på **Acceptera överföring** (nedanför chattsamtalen) om du vill acceptera samtalet. Om du inte vill acceptera chattsamtalet klickar du på **Avvisa överföring**.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Svara på en chatt och koppla den till en kontakt][2]
 

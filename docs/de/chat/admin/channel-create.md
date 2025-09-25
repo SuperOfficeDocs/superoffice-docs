@@ -2,10 +2,14 @@
 uid: help-de-chat-channel-create
 title: Chat-Kanal erstellen
 description: Chat-Kanal erstellen
+keywords: Chat-Kanal, Layout des Chat-Widgets, Mitarbeiter hinzufügen, Offline-Formular, Formular vor Chat, Formular nach Chat, Transkript aktivieren
 author: Bergfrid Dias
-date: 03.24.2023
-keywords: Chat
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
@@ -17,10 +21,7 @@ index: true
 
 Sie können Chat-Kanäle für bestimmte Verwendungszwecke erstellen, z. B. für technischen Support, Produktanfragen und Vertriebsunterstützung, und jedem Kanal die entsprechenden Agenten zuweisen.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihr Chat-Widget einrichten und konfigurieren (Videolänge - 4:37):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
+![Der Chat-Kanäle-Bildschirm in Einstellungen und Wartung mit geöffnetem Dialog Chat-Kanal bearbeiten -screenshot][img1]
 
 ## Schritte
 
@@ -146,3 +147,6 @@ In der Vorschau auf der rechten Seite ist das Chat-Fenster mit den aktuellen Ein
 ### Kann ich einen Chat-Kanal löschen?
 
 Ja, aber achten Sie darauf, dass der Chat-Kanal nicht auf einer Website verwendet wird. Ansonsten ist das Chatfenster zwar sichtbar, aber nicht funktionsfähig.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/chat/admin-chat-channels.png

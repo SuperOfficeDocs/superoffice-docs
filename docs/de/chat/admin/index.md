@@ -2,10 +2,14 @@
 uid: help-de-chat-admin
 title: Chat-Administration
 description: Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie das Chat-Widget konfigurieren und es dann zu Ihrer Website hinzufügen.
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: Chat
+keywords: chatbot, connector, AI
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: concept
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
@@ -27,8 +31,6 @@ Wir haben einen Chatbot-Konnektor erstellt, der es SuperOffice ermöglicht, mit 
 
 Im Chat-Kanal stehen verschiedene Möglichkeiten zur Verfügung, um den Chat-Bot zu aktivieren.
 
-![In CRMScript haben Sie Zugriff auf alle standardmäßigen Bot-Dienstleistungen -screenshot][img1]
-
 ## Erste Schritte mit Chat
 
 Live-Chat ist eine beliebte Möglichkeit für Ihre Kunden und Interessenten, mit Ihnen in Kontakt zu treten, wenn sie Ihre Website besuchen. Diese Anleitung zeigt Ihnen, wie Sie das Chat-Widget konfigurieren und es dann zu Ihrer Website hinzufügen.
@@ -47,4 +49,3 @@ Dies sind die Schritte, um das Chat-Widget zu konfigurieren und es dann zu Ihrer
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png
