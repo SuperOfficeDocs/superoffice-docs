@@ -16,11 +16,7 @@ language: da
 
 Opret en flot udsendelse med billeder. Du kan tilføje billeder fra SuperOffice-databasen, uploade dine egne billeder eller bruge billeder fra et royaltyfrit onlinebilledbibliotek.
 
-![Indsæt billede via drag-and-drop fra online-billedtjenesten -screenshot][img3]
-
 Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt handling, der skal udføres, når der bliver klikket på billedet i mailudsendelsen
-
-![Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt handling, der skal udføres, når der bliver klikket på billedet i mailudsendelsen -screenshot][img4]
 
 ## Sådan vælger du et billede som baggrundsbillede
 
@@ -46,7 +42,7 @@ Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt
 7. Klik på billedet i meddelelsen, og foretag de nødvendige ændringer i sidepanelet. Kontrollér, at billedet vises korrekt og tilpas om nødvendigt.
 
     > [!TIP]
-    > For yderligere billedredigeringsmuligheder, klik på **Brug effekter og andet**.
+    > For yderligere billedredigeringsmuligheder, klik på **Rediger billede**.
 
 8. (Valgfrit) [Indsæt et sporet link][2] i billedet Hvis du f.eks. indsætter et billede af et produkt, du lancerer, kan du tilføje et link til en informationsside om produktet. Du kan oprette et nyt link eller tilføje et eksisterende link.
 
@@ -59,6 +55,8 @@ Når du har tilføjet et billede, kan du angive egenskaber som f.eks. en bestemt
 
 Vælg mellem millioner af billeder fra det royalty-frie onlinebilledbibliotek.
 
+![Indsæt billede via drag-and-drop fra online-billedtjenesten -screenshot][img3]
+
 1. Gå til skærmbilledet **Indhold** i udsendelsen, eller åbn en skabelon til redigering.
 
 2. Vælg **Billeder** ![ikon][img2].
@@ -70,7 +68,7 @@ Vælg mellem millioner af billeder fra det royalty-frie onlinebilledbibliotek.
 5. Klik på billedet i meddelelsen, og foretag de nødvendige ændringer i sidepanelet. Kontrollér, at billedet vises korrekt og tilpas om nødvendigt.
 
     > [!TIP]
-    > For yderligere billedredigeringsmuligheder, klik på **Brug effekter og andet**.
+    > For yderligere billedredigeringsmuligheder, klik på **Rediger billede**.
 
 6. (Valgfrit) [Indsæt et sporet link][2] i billedet. Hvis du f.eks. indsætter et billede af et produkt, du lancerer, kan du tilføje et link til en informationsside om produktet. Du kan oprette et nyt link eller tilføje et eksisterende link.
 
@@ -80,21 +78,17 @@ Vælg mellem millioner af billeder fra det royalty-frie onlinebilledbibliotek.
 
 Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid den rigtige størrelse. I vores maileditor kan du også ændre størrelsen på dine billeder eller bruge effekter for at sikre, at billedet er optimalt til din mailudsendelse og dit branddesign.
 
-1. Når du har valgt et billede som pladsholder i din e-mailskabelon, kan du uploade og lægge effekter på dit billede.
+Når du har uploadet billedet, kan du se, hvordan det ser ud i din mailskabelon. Hvis du ikke er tilfreds med størrelsen, kan du tilpasse billedstørrelsen eller opløsningen
 
-    ![Upload et billede, og klik på knappen Brug effekter og andet for at tilpasse billedstørrelse, opløsning m.m. -screenshot][img5]
+1. Klik på knappen **Rediger billede**.
 
-2. Når du har uploadet billedet, kan du se, hvordan det ser ud i din mailskabelon. Hvis du ikke er tilfreds med størrelsen, kan du tilpasse billedstørrelsen eller opløsningen ved at klikke på knappen **Brug effekter m.m.**
+1. Du er nu i dialogboksen Effekt. Værktøjslinjen giver dig en bred vifte af muligheder for at ændre og justere dit billede.
 
     ![Klik på knappen Tilpas størrelse for at justere størrelsen på dit billede -screenshot][img6]
 
-3. Du er nu i dialogboksen Effekt. Værktøjslinjen øverst giver dig en bred vifte af muligheder for at ændre og justere dit billede.
+1. Klik på knappen **Tilpas størrelse** (anden fra venstre) for at justere størrelsen på dit billede. Du kan ændre bredden og højden, vælge at beholde billedformatet og vælge at arbejde i procenter i stedet for pixels.
 
-4. Klik på knappen Tilpas størrelse (anden fra venstre) for at justere størrelsen på dit billede. Du kan ændre bredden og højden, vælge at beholde billedformatet og vælge at arbejde i procenter i stedet for pixels.
-
-    ![På skærmen Tilpas størrelse kan du justere størrelsen på dit billede, og du har også mulighed for at markere afkrydsningsfeltet Bevar størrelsesforholdet eller Anvend procenter][img7].
-
-5. Når du er tilfreds med den nye størrelse på dit billede, eller hvis du vil tjekke, hvordan det ser ud i din e-mailskabelon, efter du har foretaget ændringerne, kan du klikke på knappen **Anvend**.
+1. Når du er tilfreds med den nye størrelse på dit billede, eller hvis du vil tjekke, hvordan det ser ud i din e-mailskabelon, efter du har foretaget ændringerne, kan du klikke på **Gem**.
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
@@ -104,7 +98,4 @@ Det billede, du gerne vil bruge til din mailudsendelse, har måske ikke altid de
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
 [img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
 [img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png
+[img6]: ../../../../media/loc/en/marketing/edit-image.png

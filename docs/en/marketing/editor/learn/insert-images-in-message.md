@@ -16,11 +16,7 @@ audience_tooltip: SuperOffice Marketing
 
 Create a stylish mailing using images. You can add images from the SuperOffice database, upload your own images, or use images from a royalty-free online image library.
 
-![Insert image with drag and drop from the online image library -screenshot][img3]
-
 After adding an image, you can add properties, such as a certain action, when the image is clicked on in the mailing
-
-![After adding an image, you can add properties, such as a certain action, when the image is clicked on in the mailing -screenshot][img4]
 
 ## How to set an image as background
 
@@ -46,7 +42,7 @@ After adding an image, you can add properties, such as a certain action, when th
 7. Click the image in the message and make any necessary changes in the side-panel. Check that the image is correctly displayed and adjust as necessary.
 
     > [!TIP]
-    > For additional image editing options, click **Apply Effects & More**.
+    > For additional image editing options, click **Edit image**.
 
 8. (optional) [Add a tracked link][2] to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link.
 
@@ -59,6 +55,8 @@ After adding an image, you can add properties, such as a certain action, when th
 
 Choose among millions of images from the royalty-free online image library.
 
+![Insert image with drag and drop from the online image library -screenshot][img3]
+
 1. Go to the **Content** screen in the mailing, or open a template for editing.
 
 2. Select **Images** (![icon][img2]).
@@ -70,7 +68,7 @@ Choose among millions of images from the royalty-free online image library.
 5. Click the image in the message and make any necessary changes in the side-panel. Check that the image is correctly displayed and adjust as necessary.
 
     > [!TIP]
-    > For additional image editing options, click **Apply Effects & More**.
+    > For additional image editing options, click **Edit image**.
 
 6. (optional) [Add a tracked link][2] to the image. For example, if you are inserting a picture of a product you are launching, you can add a link to an information page for the product. You can create a new link or add an existing link.
 
@@ -80,21 +78,17 @@ Choose among millions of images from the royalty-free online image library.
 
 The image you want to use for your mailing might not always be the correct size. In our mailing editor you can also resize your images or add effects to make sure the image is optimal for your mailing and brand design.
 
-1. After you select the placeholder image inside your email template, you can upload and apply effects on your image.
+After you upload the image, you can see how it looks inside your email template. If you are not happy with the size, you can adjust the image size, or resolution
 
-    ![Upload an image and click the apply effects and more button to adjust image size, resolution and more -screenshot][img5]
+1. Click the **Edit image** button.
 
-2. After you upload the image, you can see how it looks inside your email template. If you are not happy with the size, you can adjust the image size, or resolution, by clicking the **Apply Effects and More** button.
+1. You are now in the Effect dialogue. The toolbar gives you a wide range of options to change and adjust your image.
 
-    ![Click the resize button to resize your image -screenshot][img6]
+    ![Click the Resize button to resize your image -screenshot][img6]
 
-3. You are now in the Effect dialogue. The toolbar at the top give you a wide range of options to change and adjust your image.
+1. Click the **Resize** button (second from the left) to adjust the size of your image. You can change the width and height, choose to keep the aspect ratio, and choose to use percentages instead of pixels.
 
-4. Click the Resize button (second from the left) to adjust the size of your image. You can change the width and height, choose to keep the aspect ratio, and choose to use percentages instead of pixels.
-
-    ![In the Resize screen you can adjust the size of your image, and you also have the option tick of the box Maintain the Aspect ration or use Percentages][img7]
-
-5. When you are happy with the new size of your image or you want to check how it looks in your email template after you have made your changes, you can click the **Apply** button.
+1. When you are happy with the new size of your image or you want to check how it looks in your email template after you have made your changes, click **Save**.
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
@@ -104,7 +98,4 @@ The image you want to use for your mailing might not always be the correct size.
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
 [img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
 [img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png
+[img6]: ../../../../media/loc/en/marketing/edit-image.png
