@@ -15,6 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: en
 redirect_from: 
   - /en/chat/learn/send-files
+  - /en/chat/learn/send-faq-or-reply-template
 ---
 
 # Respond to a chat
@@ -35,7 +36,7 @@ Set your presence in the upper-right corner of the **Chat** screen.
 * **Present:** You receive warnings for unanswered chats.
 * **Away:** You do not receive warnings but can still respond to chats. If all agents are away, customers see the offline form when they start a chat.
 
-## Respond to next chat in queue
+## Steps
 
 1. Click **Chat** in the Navigator.
 
@@ -51,7 +52,7 @@ Set your presence in the upper-right corner of the **Chat** screen.
     * To add emojis or stickers, click <i class="ph ph-smiley" aria-label="Smiley"></i> next to the text field.
 
 1. To send additional information during the chat:
-    * [Send an FAQ, a reply template, or quick reply][4]
+    * [Insert an FAQ, a reply template, or quick reply](#insert)
     * [Send a file](#attach)
 
 1. If you are unable to help the customer, do one of the following:
@@ -63,6 +64,20 @@ Set your presence in the upper-right corner of the **Chat** screen.
 
 > [!NOTE]
 > If the post-chat form is active for this chat channel, the customer may return to the chat. The chat will be reactivated.
+
+## <a id="insert"></a>Insert FAQs, reply templates, or quick replies
+
+To save time, insert predefined text instead of typing full replies.
+
+1. Click <i class="ph ph-article" aria-label="Insert"></i> in the chat panel.
+1. Select one of the following:
+    * **FAQ:** Inserts a link to a published FAQ in the customer centre.
+    * **Reply templates:** Inserts reusable message content.
+    * **Quick replies:** Inserts a personal text snippet.
+
+    You can search, browse folders, or use the icons for history and favorites.
+
+1. Press **ENTER** or click **Send** to send the message.
 
 ## <a id="attach"></a>Send files in chat
 
@@ -80,7 +95,7 @@ The file is sent immediately.
 
 To make sure that you offer quick and professional answers to your customers' chat queries, SuperOffice Chat offers a number of options to speed up and improve your chat replies.
 
-Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can [include FAQs, customized reply templates][4], or files.
+Save time by using pre-defined texts when answering customer queries through chat. You can create and send a quick reply to a commonly asked question. In other situations, where quick replies aren't sufficient, you can include FAQs, customized reply templates, or files.
 
 ![From the button for add predefined text, you can choose text from FAQ, Reply templates and Quick replies -screenshot][img6]
 
@@ -93,7 +108,6 @@ Save time by using pre-defined texts when answering customer queries through cha
 [1]: link-to-person.md
 [2]: transfer-to-agent.md
 [3]: create-request.md
-[4]: send-faq-or-reply-template.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

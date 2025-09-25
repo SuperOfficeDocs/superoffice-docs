@@ -15,6 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: nl
 redirect_from: 
   - /nl/chat/learn/send-files
+  - /nl/chat/learn/send-faq-or-reply-template
 ---
 
 # Antwoorden op een chat
@@ -51,7 +52,7 @@ Stel uw aanwezigheid in rechtsboven op het **Chat**-scherm.
     * Om emoji's of stickers toe te voegen, klik op <i class="ph ph-smiley" aria-label="Smiley"></i> naast het tekstveld.
 
 1. Om extra informatie te versturen tijdens de chat:
-    * [Stuur een FAQ, een antwoordsjabloon of een snelantwoord][4]
+    * [Stuur een FAQ, een antwoordsjabloon of een snelantwoord](#insert)
     * [Stuur een bestand](#attach)
 
 1. Als je de klant niet kunt helpen, doe dan een van het volgende:
@@ -63,6 +64,20 @@ Stel uw aanwezigheid in rechtsboven op het **Chat**-scherm.
 
 > [!NOTE]
 > Als het post-chatformulier voor dit chatkanaal actief is, kan de klant teruggaan naar de chat. De chat wordt opnieuw geactiveerd.
+
+## <a id="insert"></a>FAQ's, antwoordsjablonen of snelle antwoorden invoegen
+
+Om tijd te besparen, voegt u vooraf gedefinieerde tekst in plaats van volledige antwoorden te typen.
+
+1. Klik op <i class="ph ph-article" aria-label="Insert"></i> in het chatvenster.
+1. Selecteer een van de volgende opties:
+    * **FAQ:** Voegt een koppeling in naar een gepubliceerde FAQ in het klantcentrum.
+    * **Antwoordsjablonen:** Voegt herbruikbare berichtinhoud in.
+    * **Snelle antwoorden:** Voegt een persoonlijk tekstfragment in.
+
+    U kunt zoeken, door mappen bladeren of de pictogrammen voor historie en favorieten gebruiken.
+
+1. Druk op **ENTER** of klik op **Verzenden** om het bericht te verzenden.
 
 ## <a id="attach"></a>Bestanden verzenden in chat
 
@@ -80,7 +95,7 @@ Het bestand wordt onmiddellijk verzonden.
 
 Om ervoor te zorgen dat u snelle en professionele antwoorden biedt op de chatvragen van uw klanten, biedt SuperOffice Chat een aantal opties om uw chatantwoorden te versnellen en te verbeteren.
 
-Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden van vragen van klanten via chat. U kunt een snel antwoord op een veelgestelde vraag maken en verzenden. In andere situaties, waarin snelle antwoorden niet voldoende zijn, kunt u [veelgestelde vragen, aangepaste antwoordsjablonen][4], of bestanden opnemen.
+Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden van vragen van klanten via chat. U kunt een snel antwoord op een veelgestelde vraag maken en verzenden. In andere situaties, waarin snelle antwoorden niet voldoende zijn, kunt u veelgestelde vragen, aangepaste antwoordsjablonen, of bestanden opnemen.
 
 ![Via de knop voor het toevoegen van vooraf gedefinieerde tekst kunt u tekst kiezen uit veelgestelde vragen, antwoordsjablonen en snelle antwoorden -screenshot][img6]
 
@@ -93,7 +108,6 @@ Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden
 [1]: link-to-person.md
 [2]: transfer-to-agent.md
 [3]: create-request.md
-[4]: send-faq-or-reply-template.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

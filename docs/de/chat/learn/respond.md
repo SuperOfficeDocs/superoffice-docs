@@ -15,6 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: de
 redirect_from: 
   - /de/chat/learn/send-files
+  - /de/chat/learn/send-faq-or-reply-template
 ---
 
 # Chat beantworten
@@ -51,7 +52,7 @@ Stellen Sie Ihre Anwesenheit in der rechten oberen Ecke der **Chat**-Ansicht ein
     * Um Emojis oder Sticker hinzuzufügen, klicken Sie auf <i class="ph ph-smiley" aria-label="Smiley"></i> neben dem Textfeld.
 
 1. Um während des Chats zusätzliche Informationen zu senden:
-    * [Senden Sie eine FAQ, eine Antwortvorlage oder eine Schnellantwort][4]
+    * [Senden Sie eine FAQ, eine Antwortvorlage oder eine Schnellantwort](#insert)
     * [Senden Sie eine Datei](#attach)
 
 1. Wenn Sie dem Kunden nicht weiterhelfen können, führen Sie eine der folgenden Aktionen aus:
@@ -63,6 +64,20 @@ Stellen Sie Ihre Anwesenheit in der rechten oberen Ecke der **Chat**-Ansicht ein
 
 > [!NOTE]
 > Wenn das Post-Chat-Formular für diesen Chat-Kanal aktiv ist, kann der Kunde zum Chat zurückkehren. Der Chat wird reaktiviert.
+
+## <a id="insert"></a>FAQs, Antwortvorlagen oder Schnellantworten einfügen
+
+Um Zeit zu sparen, fügen Sie vordefinierten Text ein, anstatt vollständige Antworten zu schreiben.
+
+1. Klicken Sie auf <i class="ph ph-article" aria-label="Insert"></i> im Chat-Fenster.
+1. Wählen Sie eine der folgenden Optionen:
+    * **FAQ:** Fügt einen Link zu einer veröffentlichten FAQ im Kundenzentrum ein.
+    * **Antwortvorlagen:** Fügt wiederverwendbaren Nachrichteninhalt ein.
+    * **Schnellantworten:** Fügt ein persönliches Textfragment ein.
+
+    Sie können suchen, Ordner durchsuchen oder die Symbole für Verlauf und Favoriten verwenden.
+
+1. Drücken Sie **EINGABE** oder klicken Sie auf **Senden**, um die Nachricht zu senden.
 
 ## <a id="attach"></a>Dateien in einem Chat senden
 
@@ -80,7 +95,7 @@ Die Datei wird sofort gesendet.
 
 Um sicherzustellen, dass Sie schnelle und professionelle Antworten auf die Chat-Anfragen Ihrer Kunden geben, bietet SuperOffice Chat eine Reihe von Optionen, um Ihre Chat-Antworten zu beschleunigen und zu verbessern.
 
-Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfragen per Chat beantworten. Sie können eine schnelle Antwort auf eine häufig gestellte Frage erstellen und senden. In anderen Situationen, in denen schnelle Antworten nicht ausreichen, können [Sie FAQs, benutzerdefinierte Antwortvorlagen][4] oder Dateien einfügen.
+Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfragen per Chat beantworten. Sie können eine schnelle Antwort auf eine häufig gestellte Frage erstellen und senden. In anderen Situationen, in denen schnelle Antworten nicht ausreichen, können Sie FAQs, benutzerdefinierte Antwortvorlagen oder Dateien einfügen.
 
 ![Von der Schaltfläche zum Hinzufügen von vordefiniertem Text können Sie Text aus FAQ, Antwortvorlagen und Schnellantworten auswählen -screenshot][img6]
 
@@ -93,7 +108,6 @@ Sparen Sie Zeit, indem Sie vordefinierte Texte verwenden, wenn Sie Kundenanfrage
 [1]: link-to-person.md
 [2]: transfer-to-agent.md
 [3]: create-request.md
-[4]: send-faq-or-reply-template.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

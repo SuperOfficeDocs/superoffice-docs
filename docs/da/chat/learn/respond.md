@@ -15,6 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: da
 redirect_from: 
   - /da/chat/learn/send-files
+  - /da/chat/learn/send-faq-or-reply-template
 ---
 
 # Svare på en chatsamtale
@@ -51,7 +52,7 @@ Angiv din tilstedeværelse øverst til højre på **Chat**-skærmbilledet.
     * For at tilføje emojis eller klistermærker, klik på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden af tekstfeltet.
 
 1. For at sende yderligere information under chatten:
-    * [Send en FAQ, et svarskabelon eller et hurtigt svar][4]
+    * [Send en FAQ, et svarskabelon eller et hurtigt svar](#insert)
     * [Send en fil](#attach)
 
 1. Hvis du ikke kan hjælpe kunden, gør ét af følgende:
@@ -63,6 +64,20 @@ Angiv din tilstedeværelse øverst til højre på **Chat**-skærmbilledet.
 
 > [!NOTE]
 > Hvis slutskemaet for chat er aktiveret for denne chatkanal, kan kunden vælge at vende tilbage til chatsamtalen. Så aktiveres chatsamtalen igen.
+
+## <a id="insert"></a>Indsæt FAQ'er, svarskabeloner eller hurtige svar
+
+For at spare tid skal du indsætte foruddefineret tekst i stedet for at skrive fulde svar.
+
+1. Klik på <i class="ph ph-article" aria-label="Insert"></i> i chatpanelet.
+1. Vælg en af følgende:
+    * **FAQ:** Indsætter et link til en offentliggjort FAQ i kundecentret.
+    * **Svarskabeloner:** Indsætter genbrugelig beskedindhold.
+    * **Hurtige svar:** Indsætter et personligt tekstudklip.
+
+    Du kan søge, gennemse mapper eller bruge ikonerne til historik og favoritter.
+
+1. Tryk på **ENTER** eller klik på **Send** for at sende beskeden.
 
 ## <a id="attach"></a>Sende filer i chat
 
@@ -80,7 +95,7 @@ Filen sendes med det samme.
 
 For at sikre, at du tilbyder hurtige og professionelle svar på dine kunders chatforespørgsler, tilbyder SuperOffice Chat en række muligheder for at fremskynde og forbedre dine chatsvar.
 
-Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgsler via chat. Du kan oprette og sende et hurtigt svar på et ofte stillet spørgsmål. I andre situationer, hvor hurtige svar ikke er tilstrækkelige, kan [du medtage ofte stillede spørgsmål, tilpassede svarskabeloner][4], eller filer.
+Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgsler via chat. Du kan oprette og sende et hurtigt svar på et ofte stillet spørgsmål. I andre situationer, hvor hurtige svar ikke er tilstrækkelige, kan du medtage ofte stillede spørgsmål, tilpassede svarskabeloner, eller filer.
 
 ![Fra knappen for tilføj foruddefineret tekst kan du vælge tekst fra FAQ, Svarskabeloner og Hurtige svar -screenshot][img6]
 
@@ -93,7 +108,6 @@ Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgs
 [1]: link-to-person.md
 [2]: transfer-to-agent.md
 [3]: create-request.md
-[4]: send-faq-or-reply-template.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 

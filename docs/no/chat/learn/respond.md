@@ -12,6 +12,7 @@ audience_tooltip: SuperOffice CRM
 language: no
 redirect_from: 
   - /no/chat/learn/send-files
+  - /no/chat/learn/send-faq-or-reply-template
 ---
 
 # Svare på en chat
@@ -48,7 +49,7 @@ Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
     * For å legge til emojis eller klistremerker, klikk på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden av tekstfeltet.
 
 1. For å gi tilleggsinformasjon under chatten:
-    * [Send en FAQ, en svarmal eller et hurtigsvar][4]
+    * [Send en FAQ, en svarmal eller et hurtigsvar](#insert)
     * [Send en fil](#attach)
 
 1. Hvis du ikke kan hjelpe kunden, gjør ett av følgende:
@@ -60,6 +61,20 @@ Angi din tilstedeværelse øverst til høyre på **Chat**-skjermen.
 
 > [!NOTE]
 > Hvis sluttskjema for chat er aktivt for denne chattekanalen, kan kunden gå tilbake til chatten. Da aktiveres chatsamtalen igjen.
+
+## <a id="insert"></a>Sett inn FAQ-er, svarmaler eller hurtigsvar
+
+For å spare tid, sett inn forhåndsdefinert tekst i stedet for å skrive hele svar.
+
+1. Klikk på <i class="ph ph-article" aria-label="Insert"></i> i chatpanelet.
+1. Velg ett av følgende:
+    * **FAQ:** Setter inn en kobling til en publisert FAQ i kundesentret.
+    * **Svarmaler:** Setter inn gjenbrukbart meldingsinnhold.
+    * **Hurtigsvar:** Setter inn et personlig tekstutklipp.
+
+    Du kan søke, bla gjennom mapper eller bruke ikonene for historikk og favoritter.
+
+1. Trykk **ENTER** eller klikk **Send** for å sende meldingen.
 
 ## <a id="attach"></a>Sende filer i chat
 
@@ -77,7 +92,7 @@ Filen sendes umiddelbart.
 
 For at du skal kunne svare på kundenes chat-spørsmål på en rask og profesjonell måte, har SuperOffice Chat en rekke valg for å øke hastigheten og forbedre chatsvarene.
 
-Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsmål via chat. Du kan opprette og sende et hurtigsvar på et vanlig spørsmål. I andre situasjoner, der hurtigsvar ikke er tilstrekkelig, kan du [inkludere FAQ-er, tilpassede svarmaler][4] eller filer.
+Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsmål via chat. Du kan opprette og sende et hurtigsvar på et vanlig spørsmål. I andre situasjoner, der hurtigsvar ikke er tilstrekkelig, kan du inkludere FAQ-er, tilpassede svarmaler eller filer.
 
 ![Med knappen for å legge til forhåndsdefinert tekst kan du velge tekst fra FAQ, Svarmaler og Hurtigsvar -screenshot][img6]
 
@@ -90,7 +105,6 @@ Spar tid ved å bruke forhåndsdefinerte tekster når du svarer på kundespørsm
 [1]: link-to-person.md
 [2]: transfer-to-agent.md
 [3]: create-request.md
-[4]: send-faq-or-reply-template.md
 [6]: as-customer.md
 [7]: ../../document/learn/create.md
 
