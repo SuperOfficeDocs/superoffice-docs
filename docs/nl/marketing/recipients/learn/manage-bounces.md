@@ -3,7 +3,7 @@ uid: help-nl-blocked-email-addresses
 title: Geblokkeerde e-mailadressen
 description: Leer hoe u teruggestuurde e-mails kunt verwerken in deze handleiding.
 keywords: geblokkeerde e-mailadressen, te veel bounces, bounce, retourneringen, geretourneerd
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.26.2025
 version: 10.5
 content_type: howto

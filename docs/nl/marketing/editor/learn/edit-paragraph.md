@@ -3,7 +3,7 @@ uid: help-nl-mailing-edit-paragraph
 title: Een paragraaf bewerken
 description: Een paragraaf bewerken
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.07.2024
 version: 10
 content_type: howto

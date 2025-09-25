@@ -3,7 +3,7 @@ uid: help-de-blocked-email-addresses
 title: Gesperrte E-Mail-Adressen
 description: In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen.
 keywords: gesperrte E-Mail-Adressen, nicht zustellbar, Rückläufer, Bounce
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.26.2025
 version: 10.5
 content_type: howto

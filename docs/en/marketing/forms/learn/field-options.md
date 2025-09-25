@@ -3,7 +3,7 @@ uid: help-en-form-field-options
 title: Field options
 description: List of fields (and their options) you can add to a SuperOffice Marketing form.
 keywords: form, field, form element, view element, reCAPTCHA
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.29.2024
 version: 10
 content_type: reference

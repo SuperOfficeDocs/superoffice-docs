@@ -2,7 +2,7 @@
 uid: help-nl-mailing-send-test
 title: Testmailing door het verzenden van een testmail
 description: In deze handleiding leert u hoe u een testmailing verstuurt.
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.20.2023
 keywords: Marketing
 content_type: howto

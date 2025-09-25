@@ -3,7 +3,7 @@ uid: help-sv-mailing-add-unsubscribe-link
 title: Lägga in länk för avregistrering
 description: När du skickar ett utskick måste mottagarna ges möjlighet att avregistrera sig. Lär dig hur du kan lägga till en länk för avregistrering i ditt utskick i den här guiden.
 keywords: marknadsföring
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10
 content_type: howto

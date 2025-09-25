@@ -3,7 +3,7 @@ uid: help-en-mailing-recipient-list
 title: Work with the recipient list after the mailing
 description: Work with the recipient list after the mailing
 keywords: Marketing, recipient
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.09.2024
 version: 10
 content_type: howto

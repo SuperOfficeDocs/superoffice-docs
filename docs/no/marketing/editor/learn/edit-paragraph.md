@@ -3,7 +3,7 @@ uid: help-no-mailing-edit-paragraph
 title: Redigere et avsnitt
 description: Redigere et avsnitt
 keywords: Markedsføring
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.06.2024
 version: 10
 content_type: howto

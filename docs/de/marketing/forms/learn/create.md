@@ -3,7 +3,7 @@ uid: help-de-form-create
 title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
 keywords: Formular, Web-Formular, Opt-in
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 03.13.2024
 version: 10
 content_type: howto

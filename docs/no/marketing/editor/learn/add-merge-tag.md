@@ -3,7 +3,7 @@ uid: help-no-mailing-add-merge-tags
 title: Legge til flettefelt i meldingen
 description: Finn ut hvordan du legger til flettefelt i utsendelsen
 keywords: Markedsføring, flettefelt, utsendelsen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.06.2024
 version: 10
 content_type: howto

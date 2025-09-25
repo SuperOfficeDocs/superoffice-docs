@@ -3,7 +3,7 @@ uid: help-da-mailing-settings
 title: Angive indstillinger for udsendelser
 description: Angive indstillinger for udsendelser
 keywords: Marketing, indstillinger
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.12.2024
 version: 10
 content_type: howto

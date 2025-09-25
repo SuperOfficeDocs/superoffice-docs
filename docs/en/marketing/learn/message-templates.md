@@ -3,7 +3,7 @@ uid: help-en-marketing-message-templates
 title: Work with the message templates
 description: Creating a master (corporate) template is the best way to ensure all your mailings look good, have the same design and represent your brand.
 keywords: marketing, template
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.06.2024
 version: 10
 content_type: howto

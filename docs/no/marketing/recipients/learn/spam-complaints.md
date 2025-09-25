@@ -3,7 +3,7 @@ uid: help-no-mailing-spam
 title: Klager på søppelpost
 description: Klager på søppelpost
 keywords: Markedsføring
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.09.2024
 version: 10
 content_type: concept

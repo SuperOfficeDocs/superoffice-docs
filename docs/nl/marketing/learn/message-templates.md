@@ -3,7 +3,7 @@ uid: help-nl-marketing-message-templates
 title: Werken met de berichtsjablonen
 description: Het maken van een hoofd- (bedrijfs-)sjabloon is de beste manier om ervoor te zorgen dat al uw mailings er goed uitzien, hetzelfde ontwerp hebben en uw merk vertegenwoordigen.
 keywords: marketing, berichtsjablonen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.07.2024
 version: 10
 content_type: howto

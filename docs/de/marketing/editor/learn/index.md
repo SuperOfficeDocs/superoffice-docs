@@ -3,7 +3,7 @@ uid: help-de-marketing-editor
 title: Drag-and-Drop-Editor
 description: Drag-and-Drop-Editor
 keywords: Marketing, Editor, Vorlagenvariabel, Merge Tag
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto

@@ -3,7 +3,7 @@ uid: help-nl-tracked-links-reset
 title: Tellers voor koppelingen opnieuw instellen
 description: Tellers voor koppelingen opnieuw instellen
 keywords: Marketing, koppelingen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.27.2024
 version: 10
 content_type: howto

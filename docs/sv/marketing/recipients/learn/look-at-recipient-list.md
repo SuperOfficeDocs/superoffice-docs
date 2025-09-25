@@ -3,7 +3,7 @@ uid: help-sv-mailing-recipient-list
 title: Jobba med mottagarlistan efter utskicket
 description: Jobba med mottagarlistan efter utskicket
 keywords: Marknadsföring, mottagare
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10
 content_type: howto

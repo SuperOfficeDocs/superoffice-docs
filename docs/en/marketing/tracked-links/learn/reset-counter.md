@@ -3,7 +3,7 @@ uid: help-en-tracked-links-reset
 title: Reset counters for links
 description: Reset counters for links
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.14.2024
 version: 10
 content_type: howto

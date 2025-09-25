@@ -3,7 +3,7 @@ uid: help-sv-marketing-add-images
 title: Lägga till bilder
 description: Lägga till bilder
 keywords: Marknadsföring
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 content_type: howto
 language: sv

@@ -3,7 +3,7 @@ uid: help-en-mailing-add-merge-tags
 title: Add merge tags to your message
 description: Learn how to add merge tags to your mailing
 keywords: Marketing, placeholder, merge tag, template variable
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.05.2024
 version: 10
 content_type: howto

@@ -2,7 +2,7 @@
 uid: help-de-mailing-create
 title: Neue Kampagne erstellen
 description: "Um ein Marketingkampagnen zu versenden, müssen Sie nur fünf einfache Schritte befolgen. Das Einrichten einer Kampagne umfasst das Erstellen der Kampagne, das Ausfüllen grundlegender Informationen und das Auswählen einer Vorlage."
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.20.2023
 keywords: Marketing, Kampagne
 content_type: howto

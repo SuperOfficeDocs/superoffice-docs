@@ -2,7 +2,7 @@
 uid: help-no-mailing-send-test
 title: Teste utsendelsen ved å sende en test-e-post
 description: I denne veiledningen lærer du hvordan du sender en testutsendelse.
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.20.2023
 keywords: Markedsføring
 content_type: howto

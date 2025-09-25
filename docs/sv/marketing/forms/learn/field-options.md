@@ -3,7 +3,7 @@ uid: help-sv-form-field-options
 title: Fältalternativ
 description: Fältalternativ
 keywords: formulär fält, formulärpost, fältalternativ, reCAPTCHA
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10
 content_type: reference

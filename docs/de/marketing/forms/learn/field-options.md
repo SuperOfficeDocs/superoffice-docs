@@ -3,7 +3,7 @@ uid: help-de-form-field-options
 title: Feldoptionen
 description: Feldoptionen
 keywords: Formular, Feld, Feldoption, Formularelement, Ansichtselement
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 03.18.2024
 version: 10
 content_type: reference

@@ -3,7 +3,7 @@ uid: help-da-mailing-add-image
 title: Indsæt billeder i meddelelsen
 description: At bruge omhyggeligt udvalgte billeder i dine mailudsendelser kan have stor indflydelse på dine resultater. Du kan uploade dine egne billeder eller bruge et af de millioner af billeder fra Unsplash, Pexels, Pixabay, der ligger i online-billedtjenesten.
 keywords: Marketing, billede
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.07.2024
 version: 10
 content_type: howto

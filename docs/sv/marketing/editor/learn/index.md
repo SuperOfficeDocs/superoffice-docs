@@ -3,7 +3,7 @@ uid: help-sv-marketing-editor
 title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10.3.10
 content_type: howto

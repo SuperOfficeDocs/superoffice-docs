@@ -3,7 +3,7 @@ uid: help-de-mailing-add-image
 title: Bilder in die Nachricht einfügen
 description: "Die Verwendung sorgfältig ausgewählter Bilder in Ihren Kampagnen kann Ihre Ergebnisse stark beeinflussen. Sie können Ihre eigenen Bilder hochladen oder eines der Millionen von Bildern powered by Unsplash, Pexels und Pixabay in der Online-Bildbibliothek verwenden."
 keywords: Marketing, Bild
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.06.2024
 version: 10
 content_type: howto

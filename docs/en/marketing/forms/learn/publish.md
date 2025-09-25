@@ -3,7 +3,7 @@ uid: help-en-form-publish
 title: Publish form
 description: Publish form
 keywords: form, publish form, active form, embed form, pre-filled field
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.29.2024
 version: 10
 content_type: howto

@@ -3,7 +3,7 @@ uid: help-en-marketing-add-content
 title: Add content
 description: Add content
 keywords: Marketing, mailing, column, text block
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.05.2024
 version: 10
 content_type: howto

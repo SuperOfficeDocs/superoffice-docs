@@ -3,7 +3,7 @@ uid: help-en-mailing-spam
 title: Spam complaints
 description: Spam complaints
 keywords: Marketing, mailing, recipient, subscriber, spam, junk, complaint, suppressed
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.09.2024
 version: 10
 content_type: concept

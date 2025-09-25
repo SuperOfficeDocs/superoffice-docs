@@ -3,7 +3,7 @@ uid: help-sv-mailing-view-statistics
 title: Visa statistik för utskick
 description: Visa statistik för utskick
 keywords: Marknadsföring
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.12.2024
 version: 10
 content_type: howto

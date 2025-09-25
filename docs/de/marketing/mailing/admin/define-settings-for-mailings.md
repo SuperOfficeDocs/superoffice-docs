@@ -3,7 +3,7 @@ uid: help-de-mailing-settings
 title: Einstellungen für Kampagnen festlegen
 description: Einstellungen für Kampagnen festlegen
 keywords: Marketing, Einstellungen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.12.2024
 version: 10
 content_type: reference

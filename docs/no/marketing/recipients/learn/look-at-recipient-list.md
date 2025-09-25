@@ -3,7 +3,7 @@ uid: help-no-mailing-recipient-list
 title: Arbeide med mottakerlisten i etterkant av utsendelsen
 description: Arbeide med mottakerlisten i etterkant av utsendelsen
 keywords: Markedsføring, mottaker
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.09.2024
 version: 10
 content_type: howto

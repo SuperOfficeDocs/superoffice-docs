@@ -3,7 +3,7 @@ uid: help-de-marketing
 title: SuperOffice Marketing
 description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken.
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 05.31.2024
 version: 10.3.5
 content_type: concept

@@ -2,7 +2,7 @@
 uid: help-da-mailing-send-test
 title: Test mailudsendelsen ved at sende en test-e-mail
 description: I denne vejledning lærer du, hvordan du bruger en webformular.
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.20.2023
 keywords: Marketing
 content_type: howto

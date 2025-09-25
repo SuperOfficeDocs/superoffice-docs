@@ -2,7 +2,7 @@
 uid: help-en-mailing-create
 title: Create new mailing
 description: To send a marketing mailing you only have to follow five easy steps. Setting up a mailing involves creating the mailing, filling out basic information, then choosing a template.
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.20.2023
 keywords: Marketing, mailing
 version: 10

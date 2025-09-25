@@ -3,7 +3,7 @@ uid: help-no-mailing-settings
 title: Angi innstillinger for utsendelser
 description: Angi innstillinger for utsendelser
 keywords: Markedsføring, innstillinger
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.12.2024
 version: 10
 content_type: reference

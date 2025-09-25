@@ -3,7 +3,7 @@ uid: help-da-marketing-create-folder
 title: Sådan oprettes en mappe i Markedsføring
 description: Sådan oprettes en mappe i Markedsføring
 keywords: Marketing, mappe
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.14.2024
 version: 10.3.5
 content_type: howto

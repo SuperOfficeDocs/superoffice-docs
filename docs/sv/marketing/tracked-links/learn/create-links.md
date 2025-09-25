@@ -2,7 +2,7 @@
 uid: help-sv-mailing-create-tracked-link
 title: Skapa spårade länkar
 description: Skapa spårade länkar
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 keywords: Marknadsföring
 date: 02.25.2025
 version: 10

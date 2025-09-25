@@ -3,7 +3,7 @@ uid: help-sv-marketing-create-folder
 title: Så skapar du en mapp
 description: Så här skapar du en mapp i Marknadsföring
 keywords: Marknadsföring, mapp
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.14.2024
 version: 10.3.5
 content_type: howto

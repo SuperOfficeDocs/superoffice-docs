@@ -3,7 +3,7 @@ uid: help-en-mailing-view-statistics
 title: View statistics for mailing
 description: View statistics for mailing
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.12.2024
 version: 10
 content_type: howto

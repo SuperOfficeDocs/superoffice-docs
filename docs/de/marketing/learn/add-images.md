@@ -2,7 +2,7 @@
 uid: help-de-marketing-add-images
 title: Bilder hinzufügen
 description: Bilder hinzufügen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.29.2022
 keywords: Marketing
 content_type: howto

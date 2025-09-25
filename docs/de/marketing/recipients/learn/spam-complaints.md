@@ -3,7 +3,7 @@ uid: help-de-mailing-spam
 title: Spam-Beschwerden
 description: Spam-Beschwerden
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.09.2024
 version: 10
 content_type: concept

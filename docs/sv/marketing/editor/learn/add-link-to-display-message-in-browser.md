@@ -3,7 +3,7 @@ uid: help-sv-mailing-open-in-browser
 title: Lägga in en länk för att visa meddelandet i en webbläsare
 description: Lägga in en länk för att visa meddelandet i en webbläsare
 keywords: Marknadsföring, länk, utskick
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10
 content_type: howto

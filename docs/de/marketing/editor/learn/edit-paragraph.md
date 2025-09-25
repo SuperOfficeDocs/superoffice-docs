@@ -3,7 +3,7 @@ uid: help-de-mailing-edit-paragraph
 title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.06.2024
 version: 10
 content_type: howto

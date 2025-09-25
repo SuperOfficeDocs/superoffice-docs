@@ -3,7 +3,7 @@ uid: help-da-mailing-add-tracked-link
 title: Indsætte sporede links i en meddelelse
 description: Du kan konfigurere dine links på to måder. Du kan enten bruge et forudindstillet sporet link til at spore klik på tværs af flere udsendelser eller du kan oprette et nyt link, der kun er tilgængeligt i denne udsendelse. I denne vejledning får du flere oplysninger om, hvordan du tilføjer et sporet link.
 keywords: Marketing, mailudsendelse
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 11.19.2024
 version: 10.3.12
 content_type: howto

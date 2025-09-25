@@ -2,7 +2,7 @@
 uid: help-no-marketing-add-images
 title: Legg til bilder
 description: Legg til bilder
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.29.2022
 keywords: Markedsføring
 content_type: howto

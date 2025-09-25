@@ -3,7 +3,7 @@ uid: help-en-marketing
 title: SuperOffice Marketing
 description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 04.23.2024
 version: 10.3.5
 content_type: concept

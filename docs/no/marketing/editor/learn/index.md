@@ -3,7 +3,7 @@ uid: help-no-marketing-editor
 title: Dra og slipp editor
 description: Dra og slipp editor
 keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: concept

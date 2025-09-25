@@ -3,7 +3,7 @@ uid: help-sv-mailing-tracked-links
 title: Spårade länkar
 description: En länk som du inkluderar i ett utskick kan användas för att spåra svar från dina befintliga och potentiella kunder. När mottagarna av ditt utskick klickar på länken utförs en åtgärd. 
 keywords: Marknadsföring, sporade länker
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.25.2025
 version: 10.3.12
 content_type: howto

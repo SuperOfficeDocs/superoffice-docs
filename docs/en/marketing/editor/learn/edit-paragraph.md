@@ -3,7 +3,7 @@ uid: help-en-mailing-edit-paragraph
 title: Edit a paragraph
 description: Edit a paragraph
 keywords: Marketing
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 02.05.2024
 version: 10
 content_type: howto

@@ -2,7 +2,7 @@
 uid: help-nl-marketing-add-images
 title: Afbeeldingen toevoegen
 description: Afbeeldingen toevoegen
-author: SuperOffice RnD
+author: SuperOffice Product and Engineering
 date: 06.29.2022
 keywords: Marketing
 content_type: howto
