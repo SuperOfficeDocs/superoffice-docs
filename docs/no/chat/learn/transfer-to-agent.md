@@ -2,10 +2,16 @@
 uid: help-no-chat-transfer-to-agent
 title: Overføre en chatsamtale til en annen agent
 description: I denne guiden lærer du hvordan du overfører en chatsamtale til en annen agent.
-author: SuperOffice RnD
-date: 02.14.2023
-keywords: chat
+keywords: overføre chat, godta overføring, avvis overføring
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -37,7 +43,7 @@ Hvis en agent overfører en chatsamtale til deg, vises samtalen automatisk i cha
 1. (hvis relevant) Velg den overførte chatsamtalen i sesjonslisten for å vise den.
 2. Klikk på **Godta overføring** (nedenfor chatsamtalen) for å godta chatsamtalen. Hvis du ikke vil godta chatsamtalen, klikker du på **Avvis overføring**.
 
-## Relatert
+## Relatert innhold
 
 * [Svare på en chatsamtale og koble den til en person][2]
 

@@ -2,10 +2,16 @@
 uid: help-da-chat-transfer-to-agent
 title: Overførsel af en chatsamtale til en anden repræsentant
 description: I denne vejledning lærer du, hvordan du overfører en chat til en anden repræsentant.
-keywords: chat
-author: SuperOffice RnD
-date: 02.14.2023
+keywords: overføre chat, accepter overførsel, afvis overførsel
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

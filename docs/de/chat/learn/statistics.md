@@ -1,11 +1,17 @@
 ---
 uid: help-de-chat-statistics
 title: Chat-Statistik anzeigen
-description: "In dieser Anleitung erfahren Sie, wie Sie Chat-Statistiken sowohl in einem Dashboard als auch auf dem Chat-Bildschirm anzeigen können."
-author: SuperOffice RnD
-date: 02.14.2023
-keywords: Chat
+description: In dieser Anleitung erfahren Sie, wie Sie Chat-Statistiken sowohl in einem Dashboard als auch auf dem Chat-Bildschirm anzeigen können.
+keywords: Chat-Statistik, Chat-Dashboard
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -28,7 +34,6 @@ Standardmäßig werden Statistiken für alle verfügbaren Kanäle angezeigt, Sie
 
 Sie können Statistiken aus Chat-Konversationen in einem Dashboard visualisieren, um einen informativen Überblick über die Daten zu erhalten. Nachdem Sie die Option [Dashboard erstellen][2] ausgeführt haben, können Sie [Kacheln hinzufügen und bearbeiten][3].
 
-<!-- markdownlint-disable-next-line MD013 -->
 ### Beispiele: Kacheln, die Sie Ihrem Dashboard für Chat-Unterhaltungen hinzufügen können
 
 * Verwenden Sie die Kachel **Diesen Monat durchschnittlich am besten bewerteter Agent**, um zu sehen, welcher Mitarbeiter in diesem Monat im Durchschnitt am besten abgeschnitten hat. Die Kachel kann zur Motivation oder für den internen Wettbewerb verwendet werden.

@@ -2,10 +2,14 @@
 uid: help-da-chat-admin
 title: Chatadministration
 description: Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du konfigurerer chatwidgetten og føjer den til din webside.
-keywords: chat
-author: SuperOffice RnD
-date: 02.22.2023
+keywords: chatbot, connector, AI
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: concept
+license: cep
+category: Service
+topic: chat
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -27,8 +31,6 @@ Vi har oprettet en chatbot-connector, der gør det muligt for SuperOffice at tal
 
 Der er forskellige muligheder tilgængelige i chatkanalen for at aktivere chatbotten.
 
-![I CRMScript har du adgang til alle standardrobottjenesterne -screenshot][img1]
-
 ## Kom i gang med chat
 
 Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du konfigurerer chatwidgetten og føjer den til din webside.
@@ -47,4 +49,3 @@ Her følger de to trin til at konfigurere chatwidgetten og føje den til din web
 [2]: add-javascript.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/chat/crmscript-macros-script-chatbot-bot-folders.png

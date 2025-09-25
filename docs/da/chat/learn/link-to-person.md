@@ -2,11 +2,18 @@
 uid: help-da-chat-link-to-person
 title: Link chat til en eksisterende person
 description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort.
-keywords: chat
-author: SuperOffice RnD
-date: 02.14.2023
+keywords: link chat til person, foreslået person, opret ny person
+author: SuperOffice Product and Engineering
+date: 09.25.2025
+version: 10.5
 content_type: howto
+license: cep
+category: Service
+topic: chat
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/chat/learn/create-contact
 ---
 
 # Link chat til eksisterende person
@@ -33,12 +40,15 @@ Hvis du har valgt den forkerte person, kan du klikke på **Skift person** neders
 
 ## Opret en ny kontakt og kontaktperson
 
-Hvis kunden ikke findes i SuperOffice CRM-database, kan du [oprette en ny person og et nyt firma][1] i sidepanelet.
+Hvis kunden ikke findes i SuperOffice CRM-database, kan du oprette en ny person og et nyt firma i sidepanelet.
 
-## Relateret indhold
+1. Klik på **Opret nyt firma og ny person**. Nogle felter udfyldes med oplysninger, som kontakten har angivet i chatten.
+1. Udfyld de relevante felter.
+1. Klik på **Tilføj**. Den nye person og det nye firma føjes til SuperOffice. Kontakten er også knyttet til chatten til fremtidig reference.
+
+![Du kan tilføje en ny person til SuperOffice CRM via sidepanelet -screenshot][img2]
 
 <!-- Referenced links -->
-[1]: create-contact.md
-
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-link-to-contact.png
+[img2]: ../../../media/loc/en/chat/chat-add-new-to-contact.png
