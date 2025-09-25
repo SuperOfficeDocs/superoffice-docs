@@ -30,8 +30,6 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 
 4. In de lijst die wordt weergegeven, selecteert u **Persoon** en **Voornaam**.
 
-    ![Voeg variabelen toe aan uw bericht -screenshot][img1]
-
 5. Blijf tekst invoeren en de gewenste variabelen invoegen. Zie [de variabeleverwijzing][2] voor een lijst.
 
 > [!TIP]
@@ -42,5 +40,4 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

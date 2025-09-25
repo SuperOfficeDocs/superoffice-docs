@@ -30,8 +30,6 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 
 4. I listen som vises, velger du **Person** og **Fornavn**.
 
-    ![Legge til flettefelt i meldingen -screenshot][img1]
-
 5. Fortsett å legge inn tekst og sett inn ønskede flettefelt. Hvis du vil ha en liste, kan du se [variabelreferansen][2].
 
 > [!TIP]
@@ -42,5 +40,4 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

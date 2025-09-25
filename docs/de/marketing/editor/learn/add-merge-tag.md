@@ -30,8 +30,6 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 
 4. Wählen Sie in der angezeigten Liste **Person** und **Vorname** aus.
 
-    ![Merge Tags zu Ihrer Mitteilung hinzufügen -screenshot][img1]
-
 5. Fahren Sie mit der Eingabe des Textes fort und fügen die erforderlichen Seriendrucktags ein. Für eine Liste siehe die [Variablenreferenz][2].
 
 > [!TIP]
@@ -42,5 +40,4 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

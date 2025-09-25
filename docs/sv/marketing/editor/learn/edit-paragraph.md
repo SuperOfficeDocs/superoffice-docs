@@ -26,7 +26,6 @@ language: sv
 1. Gå till steget **Innehåll** i utskicket eller öppna en mall för redigering.
 
 2. Klicka på texten som du vill redigera så att verktygsfältet för textredigering visas.
-![ikon][img5]
 
 3. Redigera texten med hjälp av knapparna i verktygsfältet.
 
@@ -84,4 +83,3 @@ Klicka på **Nästa** om du är klar med redigeringen.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

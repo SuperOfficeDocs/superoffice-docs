@@ -30,8 +30,6 @@ Merge tags come in many forms: those might be the customer's first name, their c
 
 4. In the list that appears, select **Contact** and **First name**.
 
-    ![Add merge tags to your message -screenshot][img1]
-
 5. Continue entering text and inserting the merge tags you require. For a list, see [the variable reference][2].
 
 > [!TIP]
@@ -42,5 +40,4 @@ Merge tags come in many forms: those might be the customer's first name, their c
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

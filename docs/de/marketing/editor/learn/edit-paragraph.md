@@ -26,7 +26,6 @@ audience_tooltip: SuperOffice Marketing
 1. Gehen Sie zum Schritt **Inhalt** in der Kampagne oder öffnen Sie eine Vorlage zum Bearbeiten.
 
 2. Klicken Sie auf den Text, den Sie bearbeiten möchten, damit die Textbearbeitungssymbolleiste angezeigt wird.
-![Symbol][img5]
 
 3. Bearbeiten Sie den Text mit den Schaltflächen in der Symbolleiste.
 
@@ -84,4 +83,3 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

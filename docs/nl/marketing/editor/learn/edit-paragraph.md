@@ -26,7 +26,6 @@ language: nl
 1. Ga naar de stap **Inhoud** in de mailing of open een sjabloon voor bewerking.
 
 2. Klik op de tekst die u wilt bewerken, zodat de werkbalk voor tekstbewerking wordt weergegeven.
-![pictogram][img5]
 
 3. Bewerk de tekst met de buttons op de werkbalk.
 
@@ -84,4 +83,3 @@ Klik op **Volgende** als u klaar bent met bewerken.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

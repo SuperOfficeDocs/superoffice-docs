@@ -26,7 +26,6 @@ audience_tooltip: SuperOffice Marketing
 1. Gå til trinnet **Innhold** i utsendelsen eller åpne en mal for redigering.
 
 2. Klikk på teksten du vil redigere, slik at verktøylinjen for tekstredigering vises.
-![icon][img5]
 
 3. Rediger teksten ved å bruke knappene på verktøylinjen.
 
@@ -84,4 +83,3 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

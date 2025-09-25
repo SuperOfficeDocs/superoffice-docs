@@ -30,8 +30,6 @@ Kopplingsfält finns i många former: det kan vara kundens förnamn, deras före
 
 4. I listan som visas väljer du **Kontakt** och **Förnamn**.
 
-    ![Lägg till kopplingsfält i meddelandet -screenshot][img1]
-
 5. Fortsätt med resten av texten och lägg in de kopplingsfält som du behöver. En lista finns [i variabelreferensen][2].
 
 > [!TIP]
@@ -42,5 +40,4 @@ Kopplingsfält finns i många former: det kan vara kundens förnamn, deras före
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

@@ -26,7 +26,6 @@ audience_tooltip: SuperOffice Marketing
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Click the text you wish to edit, so that the text editing toolbar is shown.
-![icon][img5]
 
 3. Edit the text using the buttons in the toolbar.
 
@@ -84,4 +83,3 @@ Click **Next** if you are done editing.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png
