@@ -66,7 +66,7 @@ Her kan du velge handlinger som skal utføres når et skjema behandles (automati
 > [!NOTE]
 > Når du oppdaterer et skjema, må du huske at det kan brukes i flere utsendelser og/eller automatiserte flyter. Du bør forsikre deg om at det ikke er noen dupliserte eller motstridende handlinger.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Publisere skjemaer][2]
 

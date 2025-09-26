@@ -93,7 +93,7 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 
 Öffnen Sie die Selektion bzw. das Projekt und überprüfen Sie, ob die Personen hinzugefügt wurden.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Nach der Kampagne mit überwachten Links arbeiten][1]
 

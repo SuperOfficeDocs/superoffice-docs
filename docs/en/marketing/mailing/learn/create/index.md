@@ -73,8 +73,7 @@ In step four you are ready to [add your target list][11] containing the recipien
 
 In the fifth and final step you confirm and send or schedule your mailing. You can either send your mailing immediately or you can schedule your mailing.
 
-## What would you like to do now?
-
+## Related content
 * [Define settings for mailings][5]
 * [Track the mailing and view statistics][7]
 * [Work with the recipient list after the mailing][8]

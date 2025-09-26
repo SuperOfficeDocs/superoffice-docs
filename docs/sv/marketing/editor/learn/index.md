@@ -142,7 +142,7 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 
 [Läs om den gamla redigeraren][2]
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägg till innehåll][1]
 * [Redigera innehåll][5]

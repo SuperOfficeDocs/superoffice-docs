@@ -177,7 +177,7 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 * Hvordan skal en skjemainnsending behandles?
 * Hva skal skje når skjemaet behandles?
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Publisere skjemaer][2]
 

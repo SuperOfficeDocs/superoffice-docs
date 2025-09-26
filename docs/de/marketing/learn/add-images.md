@@ -37,7 +37,7 @@ language: de
 > [!TIP]
 > Beim Bearbeiten einer Mitteilung können Sie auch Bilder aus der lizenzfreien Bildbibliothek hinzufügen.
 
-## Was möchten Sie als Nächstes tun?
+## Verwandte Inhalte
 
 * [Bild zu einer Mitteilung hinzufügen][1]
 

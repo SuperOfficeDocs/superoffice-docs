@@ -175,8 +175,7 @@ Here you can [define what happens when someone submits a form response][3].
 * How should a form submission be processed?
 * What should happen when the form is processed?
 
-## What would you like to do now?
-
+## Related content
 * [Publish forms][2]
 
 <!-- Referenced links -->

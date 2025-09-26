@@ -67,7 +67,7 @@ Sie können die folgenden Bereiche bearbeiten:
 
 Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Inhalt hinzufügen][5]
 * [Verwenden von Seriendrucktags in Nachrichten][2]

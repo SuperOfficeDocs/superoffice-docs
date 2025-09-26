@@ -112,7 +112,7 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 | Formulärinlämningar | Innehåller inskickade formulär. | [Formulärinlämningar][19] |
 | Flöden | Innehåller alla flöden och skapar nya. | [Skapa ett nytt flöde][20] |
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Skapa nytt utskick][5]
 * [Skapa nytt formulär][1]

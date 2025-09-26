@@ -142,7 +142,7 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 
 [Informationen über den alten Editor][2]
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Inhalt hinzufügen][1]
 * [Inhalt bearbeiten][5]

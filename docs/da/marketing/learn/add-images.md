@@ -37,7 +37,7 @@ language: da
 > [!TIP]
 > Når du redigerer en meddelelse, kan du også tilføje billeder fra det royaltyfri billedbibliotek.
 
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Føj billede til en meddelelse][1]
 

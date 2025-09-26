@@ -83,8 +83,7 @@ Watch this demo to see how to manually process a submitted web form.
 
 (video length - 4:30)
 
-## Related topics
-
+## Related content
 * [Track form submissions and view statistics][1]
 * [Analyze your mailing results][4]
 

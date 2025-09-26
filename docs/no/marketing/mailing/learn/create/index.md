@@ -70,7 +70,7 @@ I trinn fire er du klar til å [legge til mållisten][11] som inneholder mottake
 
 I det femte og siste trinnet bekrefter du og sender eller planlegger utsendelsen. Du kan enten sende utsendelsen din umiddelbart, eller du kan planlegge den.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Angi innstillinger for utsendelser][5]
 * [Spore utsendelsen og vise statistikk][7]

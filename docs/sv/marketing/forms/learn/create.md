@@ -177,7 +177,7 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 * Hur ska en formulärinlämning bearbetas?
 * What should happen when the form is processed?
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Publicera formulär][2]
 

@@ -43,7 +43,7 @@ You can add regular (untracked) links. For text links, click <i class="ph ph-lin
 
 If you later decide you want to track these links also, select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings or in flows.
 
-## Related topics
+## Related content
 
 * [Create tracked links][5]
 * [Define link actions][6]

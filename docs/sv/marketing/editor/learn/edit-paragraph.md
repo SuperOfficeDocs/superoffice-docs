@@ -67,7 +67,7 @@ Du kan redigera följande avsnitt:
 
 Klicka på **Nästa** om du är klar med redigeringen.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägg till innehåll][5]
 * [Använd kopplingsfält i meddelanden][2]

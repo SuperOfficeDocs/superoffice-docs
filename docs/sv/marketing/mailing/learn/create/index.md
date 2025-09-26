@@ -70,7 +70,7 @@ I steg fyra är du redo att [lägga till din mållista][11] som innehåller mott
 
 I det femte och sista steget bekräftar du och skickar eller schemalägger ditt utskick. Du kan antingen skicka ditt utskick direkt eller så kan du schemalägga ditt utskick.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Ange inställningar för utskick][5]
 * [Spåra utskick och visa statistik][7]

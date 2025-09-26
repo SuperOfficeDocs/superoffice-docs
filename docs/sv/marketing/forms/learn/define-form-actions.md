@@ -66,7 +66,7 @@ Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (aut
 > [!NOTE]
 > När du uppdaterar ett formulär, kom ihåg att det kan användas av flera kampanjer och/eller automatiserade flöden. Se till att det inte finns några duplicerade eller motstridiga åtgärder.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Publicera formulär][2]
 

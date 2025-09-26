@@ -177,7 +177,7 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 * Wie sollen übermittelte Formulare verarbeitet werden?
 * Was soll bei Verarbeitung des Formulars passieren?
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Formulare veröffentlichen][2]
 

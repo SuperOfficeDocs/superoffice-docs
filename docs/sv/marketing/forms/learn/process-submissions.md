@@ -83,7 +83,7 @@ Titta på denna demo för att se hur du manuellt behandlar ett inskickat webbfor
 
 (videons längd - 4:30)
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Spåra formulärinlämningar och visa statistik][1]
 * [Analysera dina utskicksresultat][4]

@@ -66,8 +66,7 @@ Here you can select actions to perform when a form is processed (automatically o
 > [!NOTE]
 > When updating a form, keep in mind that it might be used in multiple mailings and/or automated flows. You should make sure there are no duplicate or conflicting actions.
 
-## What would you like to do now?
-
+## Related content
 * [Publish forms][2]
 
 <!-- Referenced links -->

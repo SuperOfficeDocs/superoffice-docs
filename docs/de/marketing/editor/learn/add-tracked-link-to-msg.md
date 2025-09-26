@@ -44,7 +44,7 @@ Sie können reguläre (nicht überwachte) Links hinzufügen. Für Textlinks klic
 
 Wenn Sie später feststellen, diese Links ebenfalls überwachen, wählen Sie die Option **Alle Links überwachen** unter **überwachen** im Schritt 1: Einstellungen. Diese Links werden jedoch nur für die entsprechende Kampagne überwacht und sind nicht für andere Kampagnen verfügbar oder in Flows.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Überwachte Links erstellen][5]
 * [Verknüpfungsaktionen definieren][6]

@@ -70,7 +70,7 @@ Hvis du klikker på dette link, kommer modtagerne til siden med abonnementspræf
 
 Dine kunder kan selv styre, hvilke mails de modtager, og du kan sikre dig, at du kun sender mails ud til de personer, der er interesserede. Med SuperOffice CRM respekterer du dine kontakters kommunikationspræferencer og kan sikre, at du arbejder inden for reglerne i GDPR. På den måde risikerer du aldrig at få en bøde på 20.000.000 euro.
 
-## Relateret
+## Relateret indhold
 
 * [GDPR og beskyttelse af personoplysninger][2]
 * [Erklæring om beskyttelse af personoplysninger for SuperOffice][4]

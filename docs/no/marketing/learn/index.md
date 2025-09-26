@@ -110,7 +110,7 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 | Skjemainnsendinger | Inneholder innsendte skjemaer. | [Skjemainnsendinger][19] |
 | Flyter | Inneholder alle flyter og oppretter nye. | [Opprette ny flyt][20] |
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Lage ny utsendelse][5]
 * [Opprette et nytt skjema][1]

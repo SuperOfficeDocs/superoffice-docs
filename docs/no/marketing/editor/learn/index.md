@@ -142,7 +142,7 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 
 [Les om det gamle redigeringsprogrammet][2]
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til innhold][1]
 * [Redigere innhold][5]

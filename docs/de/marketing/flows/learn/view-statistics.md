@@ -43,7 +43,7 @@ Um Statistiken zu Ihrem Flow anzuzeigen, gehen Sie zum Registerkarte **Flows** u
 
 * **Teilnehmer:** Präsentiert eine [Liste aller Teilnehmer][1] innerhalb des Flow.
 
-## Was möchten Sie überprüfen?
+## Verwandte Inhalte
 
 ### Vergleich von Kampagnen/Flows
 

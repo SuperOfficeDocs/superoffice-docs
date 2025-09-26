@@ -88,7 +88,7 @@ For eksempel kan du oprette et dynamisk udvalg af alle dine kunder. Dette udvalg
 
 Dynamiske udvalg er særligt nyttige, når du har brug for **de mest aktuelle data**.
 
-## Relateret
+## Relateret indhold
 
 * [Arbejde med modtagerlisten efter udsendelsen][8]
 * [Arbejde med sporede links efter udsendelsen][9]

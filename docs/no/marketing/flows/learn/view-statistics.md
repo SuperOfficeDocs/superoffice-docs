@@ -43,7 +43,7 @@ For å se statistikk om flyten din, gå til **Flyter**-fanen og klikk på flyten
 
 * **Deltakere:** Presenterer en [liste av alle deltakere][1] i flyten.
 
-## Hva vil du sjekke?
+## Relatert innhold
 
 ### Sammenligne kampanjer/flyter
 

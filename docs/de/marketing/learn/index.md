@@ -110,7 +110,7 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 | Formularübermittlungen | Enthält übermittelte Formulare. | [Formularübermittlungen][19] |
 | Flows | Enthält alle Flows und erstellt neue. | [Ein neues Flow erstellen][20] |
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Neue Kampagne erstellen][5]
 * [Ein neues Formular erstellen][1]

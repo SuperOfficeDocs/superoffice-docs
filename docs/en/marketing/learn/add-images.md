@@ -37,7 +37,7 @@ language: en
 > [!TIP]
 > When editing a message, you can also add images from the royalty-free image library.
 
-## What do you want to do now?
+## Related content
 
 * [Add image to a message][1]
 

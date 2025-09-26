@@ -70,7 +70,7 @@ Im vierten Schritt können Sie Ihre [Zielliste hinzufügen][11], welche die Empf
 
 Im fünften und letzten Schritt bestätigen und versenden bzw. planen Sie Ihre Kampagne. Sie können Ihre Kampagne entweder sofort versenden oder Ihre Kampagne planen.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Einstellungen für Kampagnen festlegen][5]
 * [Kampagnen überwachen und Statistiken anzeigen][7]

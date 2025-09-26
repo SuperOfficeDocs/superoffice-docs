@@ -66,7 +66,7 @@ Hier können Sie Aktionen auswählen, die bei der automatischen oder manuellen V
 > [!NOTE]
 > Wenn Sie einen Formular aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Formulare veröffentlichen][2]
 

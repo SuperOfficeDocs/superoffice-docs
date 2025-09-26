@@ -43,7 +43,7 @@ For at se statistikker om dit flow, gå til fanen **Flows** og klik på flowet i
 
 * **Deltagere:** Præsenterer en [liste over alle deltagere][1] inden for flowet.
 
-## Hvad vil du gerne kontrollere?
+## Relateret indhold
 
 ### Sammenlign kampagner/flows
 

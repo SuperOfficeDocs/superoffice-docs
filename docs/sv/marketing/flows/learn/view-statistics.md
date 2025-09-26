@@ -43,7 +43,7 @@ För att se statistik om ditt flöde, gå till fliken **Flöden** och klicka på
 
 * **Deltagare:** Presenterar en [lista över alla deltagare][1] inom flödet.
 
-## Vad vill du kontrollera?
+## Relaterat innehåll
 
 ### Jämför kampanjer/flöden
 

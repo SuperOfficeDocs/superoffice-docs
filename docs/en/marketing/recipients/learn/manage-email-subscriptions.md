@@ -70,8 +70,7 @@ This link directs recipients to their subscription preferences page, where they 
 
 This ensures that customers control their mailing preferences, and you only send mailings to interested parties. By using SuperOffice CRM, you respect your contacts' communication preferences and can comply with GDPR rules, avoiding potential fines of up to €20,000,000.
 
-## Related
-
+## Related content
 * [GDPR and privacy][2]
 * [SuperOffice privacy statement][4]
 

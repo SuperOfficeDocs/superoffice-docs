@@ -110,7 +110,7 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 | Form submissions | Contains submitted forms. | [Track form submissions][19] |
 | Flows | Contains all flows and create new ones. | [Create a flow][20] |
 
-## What would you like to do now?
+## Related content
 
 * [Create new mailing][5]
 * [Create a new form][1]

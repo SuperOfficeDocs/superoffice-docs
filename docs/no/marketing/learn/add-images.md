@@ -36,7 +36,7 @@ language: no
 > [!TIP]
 > Når du redigerer en melding, kan du også legge til bilder fra det royaltyfrie bildebiblioteket.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til bilde i en melding][1]
 

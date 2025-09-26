@@ -90,8 +90,7 @@ Using the **Action** button you can add recipients and clickers to a selection o
 4. Write the name of the new selection or project.
 5. Click **OK**.
 
-## Related topics
-
+## Related content
 * [Work with tracked links after the mailing][1]
 
 <!-- Referenced links -->

@@ -67,7 +67,7 @@ Du kan redigere følgende deler:
 
 Klikk på **Neste** hvis du er ferdig med å redigere.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til innhold][5]
 * [Bruke flettefelt i meldinger][2]

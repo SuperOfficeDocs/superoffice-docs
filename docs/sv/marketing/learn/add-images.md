@@ -36,7 +36,7 @@ language: sv
 > [!TIP]
 > När du redigerar ett meddelande kan du även lägga till bilder från det royaltyfria bildbiblioteket.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägga till bild i ett meddelande][1]
 
