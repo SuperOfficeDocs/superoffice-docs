@@ -6,6 +6,9 @@ keywords: e-mail-kampagne
 date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 language: de
 ---

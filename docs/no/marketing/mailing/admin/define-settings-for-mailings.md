@@ -7,11 +7,14 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: reference
-language: no
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/mailing/learn/admin/define-settings-for-mailings
+language: no
+deployment: onsite
 ---
 
 # Angi innstillinger for utsendelser

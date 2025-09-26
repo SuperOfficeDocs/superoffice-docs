@@ -6,6 +6,9 @@ keywords: Marknadsföring
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 language: sv
 ---
 

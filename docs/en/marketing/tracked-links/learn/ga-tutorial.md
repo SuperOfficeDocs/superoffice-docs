@@ -7,9 +7,12 @@ author: Alex Pelan
 date: 09.26.2025
 version: 10.5
 content_type: tutorial
-language: en
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Tutorial - simple Google Analytics email tracking

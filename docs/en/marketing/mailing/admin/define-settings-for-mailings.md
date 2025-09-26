@@ -7,11 +7,14 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: en
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/admin/define-settings-for-mailings
+language: en
+deployment: onsite
 index: true
 ---
 

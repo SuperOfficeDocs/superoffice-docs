@@ -7,10 +7,13 @@ author: Alex Pelan
 date: 09.26.2025
 version: 10.5
 content_type: tutorial
-language: da
-translation_type: MT
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
+translation_type: MT
 ---
 
 # Vejledning - simpel Google Analytics e-mail sporing

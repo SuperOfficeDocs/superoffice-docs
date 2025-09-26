@@ -2,10 +2,13 @@
 uid: help-da-mailing-create
 title: Oprette ny udsendelse
 description: Hvis du vil sende en marketingmail ud, skal du bare følge fem nemme trin. En opsætning af mail indebærer, at mailbeskeden skal udarbejdes, der skal udfyldes basisoplysninger, og der skal vælges en skabelon.
+keywords: Marketing, udsendelse
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-keywords: Marketing, udsendelse
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 language: da
 ---
 

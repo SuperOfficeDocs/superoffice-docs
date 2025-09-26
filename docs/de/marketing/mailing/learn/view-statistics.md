@@ -7,10 +7,13 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/follow-up/view-statistics
+language: de
 ---
 
 # Kampagnenergebnisse analysieren

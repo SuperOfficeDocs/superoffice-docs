@@ -2,10 +2,13 @@
 uid: help-de-mailings-resend
 title: Kampagne erneut senden
 description: "Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten Sie versuchen, die Kampagne erneut zu versenden."
+keywords: Marketing
 author: Bergfrid Dias
 date: 09.26.2025
-keywords: Marketing
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 language: de
 ---
 
