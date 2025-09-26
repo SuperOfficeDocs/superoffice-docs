@@ -39,7 +39,7 @@ For å vise statistikk om skjemaet, går til fanen **Skjemaer** og klikk på skj
 
 ## <a id="filter"></a>Filtrere skjemainnsendinger
 
-For å jobbe mer effektivt, kan du filtrere oppføringene for å vise en eller flere skjemastatuser eller Mine/Primære grupper. Du finner **Filtrer**-knappen i nedre høyre hjørne.
+For å jobbe mer effektivt, kan du filtrere oppføringene for å vise en eller flere skjemastatuser eller Mine/Primære grupper. Du finner alternativene i nedre høyre hjørne.
 
 ![Filteralternativer for skjemainnsendinger -screenshot][img1]
 
@@ -54,5 +54,5 @@ Når du har et [dashbord for skjemainnsending][3], blir det enkelt å måle og v
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

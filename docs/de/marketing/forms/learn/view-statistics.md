@@ -39,7 +39,7 @@ Um sich Statistiken zum Formular anzeigen zu lassen, gehen Sie zur Registerkarte
 
 ## <a id="filter"></a>Formularübermittlung filtern
 
-Um effizienter zu arbeiten, können Sie die Datensätze filtern, um eine oder mehrere Formularstatusse oder Meine/Primäre Gruppen anzuzeigen. Sie finden die **Filter**-Schaltfläche in der unteren rechten Ecke.
+Um effizienter zu arbeiten, können Sie die Datensätze filtern, um eine oder mehrere Formularstatusse oder Meine/Primäre Gruppen anzuzeigen. Sie finden die Optionen in der unteren rechten Ecke.
 
 ![Filteroptionen der Formularübermittlungen -screenshot][img1]
 
@@ -54,5 +54,5 @@ Mit einem [Dashboard für die Formularübermittlung][3] können Daten auf einfac
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

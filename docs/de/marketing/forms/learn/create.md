@@ -49,7 +49,7 @@ Um die Benutzerfreundlichkeit zu erhöhen und die Lesbarkeit zu erleichtern, kö
 3. Klicken Sie auf die Schaltfläche **Hinzufügen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Wählen Sie **Ansichtselemente** im Fenster **Elemente hinzufügen** aus.
 5. Wählen Sie **Bereich** und klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und ein Bereich wird zum Formular hinzugefügt. Sie können den Bereich auch in der Vorschau des Formulars sehen.
-6. Klicken Sie auf ![Symbol][img3] oben im Bereich und ziehen Sie ihn an die gewünschte Position auf dem Formular. Die Felder über und unter dem Bereich befinden sich auf zwei separaten Seiten des Formulars.
+6. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Six dots"></i> oben im Bereich und ziehen Sie ihn an die gewünschte Position auf dem Formular. Die Felder über und unter dem Bereich befinden sich auf zwei separaten Seiten des Formulars.
 7. Klicken Sie, sobald Sie fertig sind, auf **Aktivieren**.
 8. Gehen Sie erneut wie in Schritt 2 bis 7 erläutert vor, um einen weiteren Bereich hinzuzufügen.
 
@@ -97,7 +97,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 5. Klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und das Feld wird zum Formular und zur Formularvorschau hinzugefügt.
 
-6. Klicken Sie auf ![Symbol][img3] oben im Feld und ziehen Sie es an die gewünschte Position auf dem Formular.
+6. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Six dots"></i> oben im Feld und ziehen Sie es an die gewünschte Position auf dem Formular.
 
 7. Falls gewünscht, wählen Sie das Feld aus und bearbeiten den Feldnamen. Die ursprüngliche Feldname wird immer im oberen Teil rechts im Feld angezeigt.
 
@@ -201,5 +201,4 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

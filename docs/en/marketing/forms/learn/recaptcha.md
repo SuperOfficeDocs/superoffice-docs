@@ -68,7 +68,7 @@ After you press Submit, your Site key and Secret key will be shown:
 [3]: ../../../../en/api/config/googlerecaptcha.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/imagehkoheq.png
-[img2]: ../../../../media/loc/en/marketing/imagehekct.png
+[img1]: ../../../../media/loc/en/marketing/add-element-dialog.png
+[img2]: ../../../../media/loc/en/marketing/recaptcha-form-element.png
 [img3]: ../../../../media/loc/en/marketing/imagerlc6j.png
 [img4]: ../../../../media/loc/en/marketing/imagehn8rh.png

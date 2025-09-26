@@ -19,7 +19,7 @@ redirect_from: /da/marketing/forms/learn/submissions/track
 
 For at se statistik om din formular skal du gå til fanen **Formularer** og klikke på formularen på listen. Skærmbilledet **Vis formular** åbnes.
 
-## Faner
+## Faner med formularstatistik
 
 * **Oversigt:** Her finner du grundlæggende oplysninger om formularen, herunder en forhåndsvisning af formularen samt visning af forskellige former for statistik over indsendelser:
 
@@ -37,9 +37,9 @@ For at se statistik om din formular skal du gå til fanen **Formularer** og klik
 
 * **Formularindsendelser:** Her kan du se og [behandle alle indsendte formularer][1]. Et rødt ikon på fanen angiver nye formularindsendelser
 
-## <a id="filter"></a>Filterindstillinger
+## <a id="filter"></a>Filtrer formularindsendelser overblik
 
-For at arbejde mere effektivt kan du filtrere posterne for at vise en eller flere formularstatusser eller Mine/Primære grupper. Du finder **Filtrer**-knappen i nederste højre hjørne.
+For at arbejde mere effektivt kan du filtrere posterne for at vise en eller flere formularstatusser eller Mine/Primære grupper. Du finder indstillingerne i nederste højre hjørne.
 
 ![Filterindstillinger for formularindsendelse -screenshot][img1]
 
@@ -54,5 +54,5 @@ At have et [dashboard til formularindsendelse][3] gør det nemt at måle og visu
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

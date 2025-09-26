@@ -51,7 +51,7 @@ Om de gebruiksvriendelijkheid te vergroten en de leesbaarheid te verbeteren, ove
 3. Klik op de knop **Toevoegen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Selecteer in het venster **Element toevoegen** de optie **Elementen weergeven**.
 5. Selecteer **Sectie** en klik op **Toevoegen**. Het venster sluit en er wordt een sectie aan het formulier toegevoegd. U kunt de sectie ook zien in de voorbeeldweergave van het formulier.
-6. Klik op ![pictogram][img3] boven aan de sectie en sleep naar de gewenste positie in het formulier. De velden boven en onder de sectie staan op twee afzonderlijke pagina's in het formulier.
+6. Klik op <i class="ph ph-dots-six" aria-label="Six dots"></i> boven aan de sectie en sleep naar de gewenste positie in het formulier. De velden boven en onder de sectie staan op twee afzonderlijke pagina's in het formulier.
 7. Klik op **Nu toepassen** wanneer u klaar bent.
 8. Herhaal stap 2-7 om een andere sectie toe te voegen.
 
@@ -99,7 +99,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 5. Klik op **Toevoegen**. Het venster wordt gesloten en het veld wordt toegevoegd aan het formulier en het formuliervoorbeeld.
 
-6. Klik ![pictogram][img3] boven aan het veld en sleep het naar de gewenste positie in het formulier.
+6. Klik <i class="ph ph-dots-six" aria-label="Six dots"></i> boven aan het veld en sleep het naar de gewenste positie in het formulier.
 
 7. Selecteer het veld en bewerk de veldnaam indien nodig. De oorspronkelijke veldnaam wordt altijd weergegeven in de rechterbovenhoek van het veld.
 
@@ -205,5 +205,4 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

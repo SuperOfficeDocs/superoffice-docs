@@ -49,7 +49,7 @@ For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema me
 3. Klikk på **Legg til**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Legg til element** velger du **Vis elementer**.
 5. Velg **Seksjon** og klikk på **Legg til** . Vinduet lukkes og en seksjon legges til i skjemaet. Du kan også se seksjonen i forhåndsvisningen av skjemaet.
-6. Klikk på ![ikonet][img3] øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
+6. Klikk på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
 7. Klikk på **Bruk nå** når du er ferdig.
 8. Gjenta trinn 2–7 for å legge til en annen seksjon.
 
@@ -97,7 +97,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 5. Klikk på **Legg til**. Vinduet lukkes, og feltet legges til skjemaet og forhåndsvisningen av skjemaet.
 
-6. Klikk på ![icon][img3] øverst i feltet og dra det til ønsket posisjon i skjemaet.
+6. Klikk på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i feltet og dra det til ønsket posisjon i skjemaet.
 
 7. Velg feltet, og rediger eventuelt feltnavnet. Det opprinnelige feltnavnet vises alltid øverst til høyre i feltet.
 
@@ -201,5 +201,4 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

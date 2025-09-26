@@ -16,11 +16,6 @@ audience_tooltip: SuperOffice Marketing
 
 Web forms make it easier to interact with customers and prospects via your website or customer centre. You have three options: create a form from scratch, create and use a custom form template, or select a free template from the **Online Template Library** in SuperOffice Marketing.
 
-Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
 ## Create new (from scratch)
 
 1. Go to the **Forms** tab.
@@ -49,7 +44,7 @@ To enhance user-friendliness and facilitate readability, consider dividing a for
 3. Click the **Add** button (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
-6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
+6. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
 7. Click **Apply now** when you are done.
 8. Repeat steps 2-7 to add another section.
 
@@ -97,7 +92,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 5. Click **Add**. The window closes and the field is added to the form and the form preview.
 
-6. Click ![icon][img3] at the top of the field and drag it to the desired position in the form.
+6. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of the field and drag it to the desired position in the form.
 
 7. Select the field and edit the field name if relevant. The original field name will always be displayed in the upper right corner of the field.
 
@@ -130,13 +125,6 @@ The preview on the right updates automatically when you change any settings. If 
 
 Double opt-in is an extra step in the form submission process that will guarantee that people submit the correct email address.
 
-Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
-**Steps:**
-
 1. Click **Enable double opt-in**.
 
 2. In the **Message** tab, enter the text to display after the form is submitted.
@@ -163,11 +151,6 @@ If double opt-in is activated for a form, all submissions for this form have sta
 When a person completes and submits a form, you should thank them and let them know what will happen next. It is always nice to say thank you. People really appreciate it.
 
 Use the "Thank You" page to promote other products or events, linking to relevant parts of your website. This enhances the user experience and fosters customer loyalty.
-
-Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
 
 Choose one of the following options:
 
@@ -201,5 +184,4 @@ Here you can [define what happens when someone submits a form response][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

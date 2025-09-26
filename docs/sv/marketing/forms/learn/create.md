@@ -51,7 +51,7 @@ För att öka användarvänligheten och underlätta läsbarheten kan du övervä
 3. Klicka på knappen **Lägg till** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I fönstret **Lägg till post** väljer du **Visa poster**.
 5. Välj **Avsnitt** och klicka på **Lägg till**. Fönstret stängs och ett avsnitt läggs till i formuläret. Du kan också se avsnittet i förhandsgranskningen av formuläret.
-6. Klicka på ![ikon][img3] längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
+6. Klicka på <i class="ph ph-dots-six" aria-label="Six dots"></i> längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
 7. Klicka på **Använd nu** när du är klar.
 8. Upprepa steg 2-7 för att lägga till ett nytt avsnitt.
 
@@ -99,7 +99,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 5. Klicka på **Lägg till**. Fönstret stängs och fältet läggs till i formuläret och i formulärförhandsvisningen.
 
-6. Klicka på ![ikon][img3] längst upp i fältet och dra den till önskad position i formuläret.
+6. Klicka på <i class="ph ph-dots-six" aria-label="Six dots"></i> längst upp i fältet och dra den till önskad position i formuläret.
 
 7. Välj fältnamn och redigera det om det behövs. Det ursprungliga fältnamnet visas alltid längst upp till höger i fältet.
 
@@ -205,5 +205,4 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

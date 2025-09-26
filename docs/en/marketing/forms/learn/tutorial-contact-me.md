@@ -60,7 +60,7 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-1. Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
+1. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -121,7 +121,6 @@ The example does not cover every field and option, but you can find comprehensiv
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

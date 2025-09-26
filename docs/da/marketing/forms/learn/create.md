@@ -51,7 +51,7 @@ For at øge brugervenligheden og lette læsbarheden kan du overveje at opdele en
 3. Klik på knappen **Tilføj** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Tilføj element** vælger du **Vis elementer**.
 5. Vælg **Sektion**, og klik på **Tilføj**. Vinduet lukkes, og der føjes en sektion til formularen. Du kan også se sektionen i formulareksemplet.
-6. Klik på ![ikon][img3] øverst i sektionen, og træk det til den ønskede placering i formularen. Felterne over og under sektionen vil være på to separate sider i formularen.
+6. Klik på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i sektionen, og træk det til den ønskede placering i formularen. Felterne over og under sektionen vil være på to separate sider i formularen.
 7. Klik på **Brug nu**, når du er færdig.
 8. Gentag trin 2-7 for at tilføje en anden sektion.
 
@@ -99,7 +99,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 5. Klik på **Tilføj**. Vinduet lukkes, og feltet føjes til formularen og dens forhåndsvisning.
 
-6. Klik på ![ikon][img3] øverst i feltet, og træk det til den ønskede placering i formularen.
+6. Klik på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i feltet, og træk det til den ønskede placering i formularen.
 
 7. Vælg feltet, og rediger feltnavne, hvis det er relevant. Det oprindelige feltnavn vises altid i øverste højre hjørne af feltet.
 
@@ -205,5 +205,4 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
