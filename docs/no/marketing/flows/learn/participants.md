@@ -7,9 +7,12 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: concept
-language: no
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Flytdeltakere

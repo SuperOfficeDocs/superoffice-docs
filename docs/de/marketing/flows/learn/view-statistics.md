@@ -7,9 +7,12 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Analysieren Sie die Ergebnisse Ihres Flows

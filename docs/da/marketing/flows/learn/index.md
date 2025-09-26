@@ -7,6 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
 version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
