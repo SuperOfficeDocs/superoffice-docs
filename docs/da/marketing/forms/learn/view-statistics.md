@@ -39,7 +39,7 @@ For at se statistik om din formular skal du gå til fanen **Formularer** og klik
 
 ## <a id="filter"></a>Filtrer formularindsendelser overblik
 
-For at arbejde mere effektivt kan du filtrere posterne for at vise en eller flere formularstatusser eller Mine/Primære grupper. Du finder indstillingerne i nederste højre hjørne.
+For at arbejde mere effektivt kan du filtrere posterne for at vise en eller flere formularstatusser eller Mine/Primære grupper. Du finder **Filtrer**-knappen (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) i nederste højre hjørne.
 
 ![Filterindstillinger for formularindsendelse -screenshot][img1]
 

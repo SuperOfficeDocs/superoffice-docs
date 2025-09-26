@@ -39,7 +39,7 @@ Als u de statistieken over uw formulier wilt weergeven, gaat u naar het tabblad 
 
 ## <a id="filter"></a>Formulierverzendingen filteren
 
-Om efficiënter te werken, kunt u de records filteren om één of meer formulierstatussen of Mijn/Primaire groepen weer te geven. U vindt de opties in de rechterbenedenhoek.
+Om efficiënter te werken, kunt u de records filteren om één of meer formulierstatussen of Mijn/Primaire groepen weer te geven. U vindt de **Filter**-knop (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) in de rechterbenedenhoek.
 
 ![Filteropties voor formulierinzendingen -screenshot][img1]
 

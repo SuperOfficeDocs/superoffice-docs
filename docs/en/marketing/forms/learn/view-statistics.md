@@ -39,7 +39,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
 ## <a id="filter"></a>Filter the form submissions overview
 
-To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the options in the lower-right corner.
+To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the **Filter** button (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) in the lower-right corner.
 
 ![Filter options on form submissions -screenshot][img1]
 

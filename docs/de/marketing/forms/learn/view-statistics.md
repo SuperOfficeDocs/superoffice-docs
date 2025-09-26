@@ -39,7 +39,7 @@ Um sich Statistiken zum Formular anzeigen zu lassen, gehen Sie zur Registerkarte
 
 ## <a id="filter"></a>Formularübermittlung filtern
 
-Um effizienter zu arbeiten, können Sie die Datensätze filtern, um eine oder mehrere Formularstatusse oder Meine/Primäre Gruppen anzuzeigen. Sie finden die Optionen in der unteren rechten Ecke.
+Um effizienter zu arbeiten, können Sie die Datensätze filtern, um eine oder mehrere Formularstatusse oder Meine/Primäre Gruppen anzuzeigen. Sie finden die **Filter**-Schaltfläche (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) in der unteren rechten Ecke.
 
 ![Filteroptionen der Formularübermittlungen -screenshot][img1]
 

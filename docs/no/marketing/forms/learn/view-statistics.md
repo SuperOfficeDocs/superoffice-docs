@@ -39,7 +39,7 @@ For å vise statistikk om skjemaet, går til fanen **Skjemaer** og klikk på skj
 
 ## <a id="filter"></a>Filtrere skjemainnsendinger
 
-For å jobbe mer effektivt, kan du filtrere oppføringene for å vise en eller flere skjemastatuser eller Mine/Primære grupper. Du finner alternativene i nedre høyre hjørne.
+For å jobbe mer effektivt, kan du filtrere oppføringene for å vise en eller flere skjemastatuser eller Mine/Primære grupper. Du finner **Filtrer**-knappen (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) i nedre høyre hjørne.
 
 ![Filteralternativer for skjemainnsendinger -screenshot][img1]
 
