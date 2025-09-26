@@ -2,15 +2,17 @@
 uid: help-nl-marketing-best-practices
 title: Beste praktijken
 description: Beste praktijken
-keywords: Marketing, marketingcampagne, publiek, berichten
+keywords: Marketing, beste praktijken, checklist
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/learn/customize-for-mobile
+language: nl
 ---
 
 # Beste praktijken

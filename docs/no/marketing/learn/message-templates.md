@@ -1,16 +1,18 @@
 ﻿---
 uid: help-no-marketing-message-templates
 title: Arbeide med meldingsmaler
-description: "Å lage en hovedmal (bedriftsmal) er den beste måten å sikre at alle utsendelsene ser bra ut, har samme design og representerer varemerket deres."
-keywords: markedsføring, meldingsmal, utsendelse
+description: Å lage en hovedmal (bedriftsmal) er den beste måten å sikre at alle utsendelsene ser bra ut, har samme design og representerer varemerket deres.
+keywords: meldingsmal, mal, utsendelse
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/work-with-messages-and-templates
+language: no
 ---
 
 # Arbeide med meldingsmaler

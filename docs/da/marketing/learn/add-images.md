@@ -2,10 +2,15 @@
 uid: help-da-marketing-add-images
 title: Tilføj billeder
 description: Tilføj billeder
+keywords: Tilføj billed
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-keywords: Marketing
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 

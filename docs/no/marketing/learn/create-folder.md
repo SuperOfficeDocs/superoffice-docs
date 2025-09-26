@@ -2,14 +2,16 @@
 uid: help-no-marketing-create-folder
 title: Slik oppretter du en mappe i Markedsføring
 description: Slik oppretter du en mappe i Markedsføring
-keywords: Markedsføring, mappe
+keywords: legg til mappe
 author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Hvordan opprette en mappe

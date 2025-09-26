@@ -2,14 +2,17 @@
 uid: help-da-marketing
 title: SuperOffice Marketing
 description: Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet.
+keywords: Marketing
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/learn/screen/index
+language: da
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>

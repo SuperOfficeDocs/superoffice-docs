@@ -2,15 +2,17 @@
 uid: help-no-marketing-best-practices
 title: Beste praksis
 description: Beste praksis
-keywords: Markedsføring
+keywords: Markedsføring, beste praksis, sjekkliste
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/customize-for-mobile
+language: no
 ---
 
 # Beste praksis

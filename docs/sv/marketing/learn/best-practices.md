@@ -2,15 +2,17 @@
 uid: help-sv-marketing-best-practices
 title: Bästa praxis
 description: Bästa praxis
-keywords: Marknadsföring
+keywords: Marknadsföring, bästa praxis, checklista
 author: Bergfrid Dias, Jeanette Small Strøm
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/learn/customize-for-mobile
+language: sv
 ---
 
 # Bästa praxis

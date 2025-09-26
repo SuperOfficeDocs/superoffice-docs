@@ -7,10 +7,12 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: concept
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/screen/index
+language: no
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>

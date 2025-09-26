@@ -2,10 +2,15 @@
 uid: help-de-marketing-add-images
 title: Bilder hinzufügen
 description: Bilder hinzufügen
+keywords: Bild hinzufugen, Bildeigenschaften
 author: SuperOffice Product and Engineering
 date: 09.26.2025
-keywords: Marketing
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
