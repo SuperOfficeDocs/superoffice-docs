@@ -7,9 +7,12 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Define form actions

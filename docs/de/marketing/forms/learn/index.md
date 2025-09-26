@@ -7,13 +7,13 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: concept
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-redirect_from:
-  - /de/marketing/forms/learn/examples
-  - /de/marketing/forms/learn/view
-  - /de/marketing/forms/learn/submissions/index
+redirect_from: 
+language: de
 ---
 
 # Mit Formularen arbeiten

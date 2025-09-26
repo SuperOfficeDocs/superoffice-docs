@@ -7,13 +7,13 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: concept
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+redirect_from: 
 language: sv
-redirect_from:
-  - /sv/marketing/forms/learn/examples
-  - /sv/marketing/forms/learn/view
-  - /sv/marketing/forms/learn/submissions/index
 ---
 
 # Arbeta med formulär

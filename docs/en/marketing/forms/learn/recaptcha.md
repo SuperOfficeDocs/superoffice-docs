@@ -7,7 +7,9 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from:
@@ -17,6 +19,7 @@ redirect_from:
   - /sv/marketing/forms/learn/recaptcha
   - /nl/marketing/forms/learn/recaptcha
   - /en/marketing/forms/recaptcha
+language: en
 ---
 
 # Google reCAPTCHA in Forms

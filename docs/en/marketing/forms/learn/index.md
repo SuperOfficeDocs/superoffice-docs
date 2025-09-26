@@ -7,7 +7,9 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: concept
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from:
@@ -15,6 +17,7 @@ redirect_from:
   - /en/marketing/forms/learn/examples
   - /en/marketing/forms/learn/view
   - /en/marketing/forms/learn/submissions/index
+language: en
 ---
 
 # Work with forms

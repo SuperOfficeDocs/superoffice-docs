@@ -7,10 +7,13 @@ author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/forms/learn/submissions/track
+language: nl
 ---
 
 # Formulierverzendingen traceren en statistieken weergeven
