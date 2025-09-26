@@ -7,10 +7,12 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/tracked-links/learn/add-tracked-link-to-msg
+language: nl
 ---
 
 # Gevolgde koppelingen toevoegen aan een bericht

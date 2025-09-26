@@ -7,10 +7,12 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: en
 redirect_from: /en/marketing/tracked-links/learn/add-tracked-link-to-msg
+language: en
 ---
 
 # Add tracked links to message

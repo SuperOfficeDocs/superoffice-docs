@@ -7,10 +7,12 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/learn/editor
+language: nl
 ---
 
 # Editor slepen en neerzetten

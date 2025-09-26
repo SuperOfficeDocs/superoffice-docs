@@ -7,10 +7,12 @@ author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: de
 redirect_from: /de/marketing/tracked-links/learn/add-tracked-link-to-msg
+language: de
 ---
 
 # Überwachte Links zu einer Mitteilung hinzufügen
