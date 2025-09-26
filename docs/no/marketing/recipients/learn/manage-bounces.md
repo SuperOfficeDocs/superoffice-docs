@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-blocked-email-addresses
 title: Blokkerte e-postadresser
 description: Finn ut hvordan du håndterer returnerte e-postmeldinger i denne veiledningen.
 keywords: for mange returmeldinger, returmelding, hard retur, myk retur, blokkerte e-postadresser, returnert e-post
 author: SuperOffice Product and Engineering
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

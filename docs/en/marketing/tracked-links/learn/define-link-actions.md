@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-define-link-actions
 title: Define automatic link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
 keywords: Marketing, mailing, link action, tracked link, call-to-action
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

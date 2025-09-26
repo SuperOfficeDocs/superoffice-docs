@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-marketing-add-content
 title: Lägg till innehåll
 description: Lägg till innehåll
 keywords: Marknadsföring, utskick, kolumn, textblock
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

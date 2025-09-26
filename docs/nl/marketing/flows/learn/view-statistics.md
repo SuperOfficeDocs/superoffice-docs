@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-flow-view-statistics
 title: Statistieken weergeven
 description: Analyseer de resultaten van je flow
 keywords: Marketing, flow, statistieken, succespercentage, rapporten
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

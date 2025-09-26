@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-forms
 title: Arbeta med formulär
 description: Webbformulär i SuperOffice är ett bra sätt att samla in kundinformation och återkoppling. Webbformulär gör det möjligt för personer som besöker din webbplats att komma i kontakt med dig och lämna sin kontaktinformation.
 keywords: formulär, formulärinlämnin, dubbel anmälan
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

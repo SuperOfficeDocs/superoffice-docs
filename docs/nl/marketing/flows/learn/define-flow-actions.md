@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-nl-flow-actions
 title: Definieer flowacties
 description: Definieer flowacties
 keywords: flow, automatisering, flowactie, script uitvoeren, verdeel naar eigenaar
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing

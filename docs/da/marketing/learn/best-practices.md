@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-marketing-best-practices
 title: Bedste praksis
 description: Bedste praksis
 keywords: Marketing, marketingkampagne, udsendelse
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 06.14.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

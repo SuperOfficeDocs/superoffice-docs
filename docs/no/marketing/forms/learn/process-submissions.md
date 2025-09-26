@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-form-submissions-process
 title: Behandle skjemainnsendinger
 description: I denne veiledningen lærer du hvordan du behandler skjemainnsendinger manuelt.
 keywords: skjema, skjemainnsending, data fra skjema, skjemadata, innsender, innsendt, sendt inn
 author: Bergfrid Dias
-date: 03.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-mailing-edit-paragraph
 title: Redigere et afsnit
 description: Redigere et afsnit
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

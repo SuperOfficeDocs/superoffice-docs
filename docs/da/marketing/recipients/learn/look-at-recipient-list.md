@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-mailing-recipient-list
 title: Arbejde med modtagerlisten efter udsendelsen
 description: Arbejde med modtagerlisten efter udsendelsen
 keywords: Marketing, modtager
 author: SuperOffice Product and Engineering
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

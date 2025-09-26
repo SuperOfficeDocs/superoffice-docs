@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-da-flows
 title: Marketing automation - flows
 description: Introduktion til SuperOffice Marketing automatisering og flows.
 keywords: Marketing, flow, kundesegment, kunderejse, kommunikation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 audience: person

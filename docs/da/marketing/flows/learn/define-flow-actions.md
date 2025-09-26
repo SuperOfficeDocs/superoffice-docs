@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-da-flow-actions
 title: Definér flow-handlinger
 description: Definér flow-handlinger
 keywords: flow, automatisering, flow-handling, kør script, fordel til ejer
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing

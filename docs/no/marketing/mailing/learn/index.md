@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-mailing
 title: Arbeide med utsendelser
 description: Arbeide med utsendelser
 keywords: Markedsføring, utsendelse
 author: SuperOffice Product and Engineering, Jeanette Small Strøm
-date: 02.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 language: no
 audience: person

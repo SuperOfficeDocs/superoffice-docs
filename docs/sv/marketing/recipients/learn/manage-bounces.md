@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-sv-blocked-email-addresses
 title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
 keywords: blockerade e-postadresser, studsar, för många returer, returnerade e-postmeddelanden
 author: SuperOffice Product and Engineering
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

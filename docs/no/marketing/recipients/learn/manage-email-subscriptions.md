@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-mailing-manage-subscriptions
 title: Administrere e-postabonnementer
 description: Med funksjonene for abonnementshåndtering i SuperOffice CRM kan du dokumentere hva slags innhold personene dine ønsker å motta fra deg.
 keywords: markedsføring
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 language: no
 audience: person

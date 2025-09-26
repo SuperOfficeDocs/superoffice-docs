@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-flow-view-statistics
 title: Analyser dine flowresultater
 description: Analyser dine flowresultater
 keywords: Marketing, flow, flowresultat, statistik
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

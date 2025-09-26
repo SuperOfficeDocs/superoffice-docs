@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-en-flow-actions
 title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action, run script, distribute to owner
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-form-view-statistics
 title: Spore skjemainnsendinger og vise statistikk
 description: Spore skjemainnsendinger og vise statistikk
 keywords: skjema, innsending, skjemainnsending
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

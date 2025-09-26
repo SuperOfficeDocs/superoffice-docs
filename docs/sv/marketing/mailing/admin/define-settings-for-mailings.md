@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-mailing-settings
 title: Ange inställningar för utskick
 description: Ange inställningar för utskick
 keywords: Marknadsföring, inställningar
 author: SuperOffice Product and Engineering
-date: 02.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: sv
 deployment: onsite

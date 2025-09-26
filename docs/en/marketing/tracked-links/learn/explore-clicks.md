@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-tracked-links-view
 title: Work with tracked links after the mailing
 description: How you can work with tracked links after the mailing is sent.
 keywords: Marketing, mailing, tracked link, clicker
 author: Bergfrid Dias
-date: 02.20.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

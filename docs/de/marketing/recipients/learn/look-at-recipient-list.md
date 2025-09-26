@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-mailing-recipient-list
 title: Nach der Kampagne mit der Empfängerliste arbeiten
 description: Nach der Kampagne mit der Empfängerliste arbeiten
 keywords: Marketing, Empfänger
 author: SuperOffice Product and Engineering
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

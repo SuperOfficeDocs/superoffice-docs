@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-flow-view-statistics
 title: Analysera dina flödesresultat
 description: Analysera dina flödesresultat
 keywords: flöde, flödesresultat, flödesstatistik, statistik, analysera flöde, rapport, meddelandeprestanda, framgångsgrad
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

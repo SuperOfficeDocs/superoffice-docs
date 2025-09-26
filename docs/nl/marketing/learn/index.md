@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-marketing
 title: SuperOffice Marketing
 description: De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 06.17.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-flow-participants
 title: Flowdeltagere
 description: Et komplet overblik over alle deltagere inden for flowet.
 keywords: Marketing, flow, flowdeltager, deltager
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 12.11.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

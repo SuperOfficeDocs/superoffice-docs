@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-mailing-add-unsubscribe-link
 title: Tilføje abonnement-links
 description: Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning.
 keywords: marketing
 author: SuperOffice Product and Engineering
-date: 02.26.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

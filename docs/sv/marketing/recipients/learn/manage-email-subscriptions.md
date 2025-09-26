@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-mailing-manage-subscriptions
 title: Hantera e-postprenumerationer
 description: Med funktionerna för prenumerationshantering i SuperOffice CRM kan du dokumentera vilken typ av innehåll dina kontakter vill få från dig.
 keywords: marknadsföring
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

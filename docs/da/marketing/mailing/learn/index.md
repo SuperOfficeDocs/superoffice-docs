@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-mailing
 title: Arbejde med udsendelser
 description: Arbejde med udsendelser
 keywords: Marketing, udsendelse
 author: SuperOffice Product and Engineering, Jeanette Small Strøm
-date: 02.26.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

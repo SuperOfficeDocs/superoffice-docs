@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-create
 title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
 author: SuperOffice Product and Engineering
-date: 03.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

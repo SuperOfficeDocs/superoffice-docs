@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-form-templates
 title: Arbeide med skjemamaler
 description: Arbeide med skjemamaler
 keywords: skjema, mal, skjemamal
 author: SuperOffice Product and Engineering
-date: 03.04.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

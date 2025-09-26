@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-mailing-create-tracked-link
 title: Create tracked link
 description: How to create tracked links in SuperOffice CRM. These links will then be available when you and other users edit the contents of your mailings. This allows for efficient tracking of user interaction with the emails.
 keywords: Marketing, tracked link
 author: SuperOffice Product and Engineering
-date: 02.20.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

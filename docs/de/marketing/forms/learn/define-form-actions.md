@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-form-actions
 title: Formularaktionen definieren
 description: Formularaktionen definieren
 keywords: Formular, Automatisierung, Formularaktionen, übermittelte Formulare
 author: SuperOffice Product and Engineering
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

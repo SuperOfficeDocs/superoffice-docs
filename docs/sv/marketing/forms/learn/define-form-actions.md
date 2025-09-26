@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-form-actions
 title: Definer formuläråtgärder
 description: Definer formuläråtgärder
 keywords: formulär, automatisera, formuläråtgärd, formulärinlämning
 author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

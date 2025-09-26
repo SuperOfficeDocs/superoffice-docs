@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-nl-tutorial-sms-mailing
 title: Zelfstudie - SMS-mailing
 description: In deze zelfstudie leert u een SMS-mailing te maken.
 keywords: sms mailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-flows
 title: Markedsføringsautomatisering - flyter
 description: Introduksjon til markedsføringsautomatisering og flyter.
 keywords: flyt, arkedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: concept
 language: no

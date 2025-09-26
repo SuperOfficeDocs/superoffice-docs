@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-mailing-view-statistics
 title: View statistics for mailing
 description: View statistics for mailing
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 02.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

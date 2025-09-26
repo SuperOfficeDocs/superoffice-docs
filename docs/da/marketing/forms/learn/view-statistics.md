@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-view-statistics
 title: Sporing af formularindsendelser og visning af statistik
 description: Sporing af formularindsendelser og visning af statistik
 keywords: formular, indsendelse, formularindsendelse
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

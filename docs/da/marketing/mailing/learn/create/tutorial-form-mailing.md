@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-da-tutorial-form-mailing
 title: Selvstudium - udsendelse af formularsvar
 description: I dette selvstudium lærer du, hvordan du opretter en formularsvarudsendelse.
 keywords: formularsvar, formularudsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-flow-participants
 title: Flödesdeltagare
 description: Flödesdeltagare
 keywords: flöde, flödesdeltagare, deltagar, deltagarlistan, deltagarstatus, slutförd, bortfall, framgångsgrad, framgångskriterier
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.7
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

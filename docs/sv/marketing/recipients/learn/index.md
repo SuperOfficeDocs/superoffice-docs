@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-sv-mailing-targets
 title: Skapa en mållista
 description: Målet med ditt utskick avgör vilken din målgrupp är. När du vet vad du vill uppnå med ditt utskick måste du skapa en specifik mållista.
 keywords: Marknadsföring, utskick
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

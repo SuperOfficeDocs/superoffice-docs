@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-mailing-add-image
 title: Afbeeldingen in het bericht invoegen
 description: Het gebruik van zorgvuldig gekozen afbeeldingen in uw mailings kan een krachtige impact hebben op uw resultaten. U kunt uw eigen afbeeldingen uploaden of een van de miljoenen afbeeldingen gebruiken die worden verzorgd door Unsplash, Pexels, Pixabay in de online afbeeldingenbibliotheek.
 keywords: Marketing, afbeelding
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

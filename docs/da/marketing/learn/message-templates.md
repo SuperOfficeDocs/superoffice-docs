@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-marketing-message-templates
 title: Sådan arbejder du med meddelelser og skabeloner
 description: At udvikle en 'masterskabelon' (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand.
 keywords: marketing, meddelelsesskabelon, skabeloner, mailudsendelser
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

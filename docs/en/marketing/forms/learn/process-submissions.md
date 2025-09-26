@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-form-submissions-process
 title: Process form submissions
 description: In this how-to guide you will learn how to process form submissions manually.
 keywords: form, form data, submission, submitted, submitter, process, data from form
 author: Bergfrid Dias
-date: 03.04.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

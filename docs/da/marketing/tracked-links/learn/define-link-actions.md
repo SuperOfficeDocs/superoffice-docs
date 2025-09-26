@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-define-link-actions
 title: Definer automatiserede linkhandlinger
 description: I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger.
 keywords: Marketing, udsendelse, linkhandling, automatisere
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

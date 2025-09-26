@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-mailing-settings
 title: Instellingen voor mailings definiëren
 description: Instellingen voor mailings definiëren
 keywords: Marketing, instellingen
 author: SuperOffice Product and Engineering
-date: 02.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: nl
 deployment: onsite

@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-sv-tutorial-sms-mailing
 title: Handledning - SMS-utskick
 description: I den här instruktionsguiden lär du dig att skapa ett SMS-utskick.
 keywords: sms utskick
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

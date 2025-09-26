@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-marketing-create-folder
 title: Wie man einen Ordner in Marketing erstellt
 description: Wie man einen Ordner in Marketing erstellt
 keywords: Marketing, Ordner, Unterordner, Ordner hinzufügen
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

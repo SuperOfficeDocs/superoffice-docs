@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-mailing-add-merge-tags
 title: Voeg variabelen toe aan uw bericht
 description: Meer informatie over het toevoegen van variabelen aan uw mailing
 keywords: Marketing, variabelen, bericht
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

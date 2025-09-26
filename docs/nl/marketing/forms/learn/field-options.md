@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-form-field-options
 title: Veldopties
 description: Veldopties
 keywords: formulier, veld, veldoptie, formulierelement
 author: SuperOffice Product and Engineering
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-tracked-links-reset
 title: Nullstille tellere for koblinger
 description: Nullstille tellere for koblinger
 keywords: Markedsføring, utsendelse, kobling, teller
 author: Bergfrid Dias
-date: 02.23.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

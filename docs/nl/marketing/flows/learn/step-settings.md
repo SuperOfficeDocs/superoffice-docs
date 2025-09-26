@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-nl-flow-step-settings
 title: Stap instellingen
 description: Overzicht van instellingen voor de verschillende flowstappen.
 keywords: stap, stap instelling, stapveld
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: reference
 category: marketing

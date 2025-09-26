@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-sv-mailings-resend
 title: Skicka ditt utskick på nytt
 description: När du har hanterat de returnerade e-postmeddelandena är det en bra idé att skicka ditt utskick på nytt.
 author: Bergfrid Dias
-date: 02.21.2023
+date: 09.26.2025
 keywords: Marknadsföring
 content_type: howto
 language: sv

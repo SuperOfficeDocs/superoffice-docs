@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-mailing-add-merge-tags
 title: Lägg till kopplingsfält i meddelandet
 description: Läs om hur du lägger till kopplingsfält i ditt utskick
 keywords: Marknadsföring, kopplingsfält
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

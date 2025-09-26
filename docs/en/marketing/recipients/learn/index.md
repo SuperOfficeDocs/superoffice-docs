@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-en-mailing-targets
 title: Create a target list
 description: The goal of your mailing will determine your target audience. After you know what you want to achieve with your mailing, you will need to create a specific target list.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

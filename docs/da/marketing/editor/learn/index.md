@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-marketing-editor
 title: Træk og slip-editor
 description: Træk og slip-editor
 keywords: marketing, editor, skabelonvariabler, fletfelter
 author: SuperOffice Product and Engineering
-date: 10.08.2024
-version: 10.3.10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

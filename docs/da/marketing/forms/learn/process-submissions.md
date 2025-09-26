@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-submissions-process
 title: Behandling af formularindsendelser
 description: I denne vejledning lærer du, hvordan du behandler formularindsendelser manuelt.
 keywords: formular, formularindsendelse, indsendelse, indsendt, indsender, formulardata, data fra formular
 author: Bergfrid Dias
-date: 03.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

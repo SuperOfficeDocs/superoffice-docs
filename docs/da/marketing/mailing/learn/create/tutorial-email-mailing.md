@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-da-tutorial-email-mailing
 title: Selvstudium - e-mail-udsendelse
 description: Når du har gennemført de nødvendige forberedelser, som inkluderer oprettelse af din målliste og forberedelse af din mailskabelon, så er du klar til at oprette en ny udsendelse i SuperOffice CRM. I dette selvstudium lærer du at oprette en e-mail-udsendelse.
 keywords: e-mail-udsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

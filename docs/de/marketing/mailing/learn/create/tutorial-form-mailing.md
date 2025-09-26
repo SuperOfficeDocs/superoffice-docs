@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-de-tutorial-form-mailing
 title: Tutorial - Formularantwort-Kampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine Formularantwort erstellen.
 keywords: formularantwort, kampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-form-view-statistics
 title: Track form submissions and view statistics
 description: Track form submissions and view statistics
 keywords: form, submission, response
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

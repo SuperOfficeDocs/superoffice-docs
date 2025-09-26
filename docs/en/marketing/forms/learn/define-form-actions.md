@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-form-actions
 title: Define form actions
 description: Define form actions
 keywords: form, automation, form action, form submission
 author: Bergfrid Dias
-date: 04.18.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

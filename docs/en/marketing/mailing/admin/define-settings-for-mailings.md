@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-mailing-settings
 title: Define settings for mailings
 description: Define settings for mailings
 keywords: Marketing, mailing, sms, settings
 author: SuperOffice Product and Engineering
-date: 02.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 deployment: onsite

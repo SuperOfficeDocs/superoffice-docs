@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-marketing-best-practices
 title: Beste praksis
 description: Beste praksis
 keywords: Markedsføring
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 05.24.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

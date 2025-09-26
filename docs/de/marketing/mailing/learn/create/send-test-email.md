@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-de-mailing-send-test
 title: Testkampagne durch Versenden einer Test-E-Mail
 description: "In dieser Anleitung lernen Sie, wie Sie eine Testkampagne senden."
 author: SuperOffice Product and Engineering
-date: 02.20.2023
+date: 09.26.2025
 keywords: Marketing
 content_type: howto
 language: de

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-marketing-best-practices
 title: Best practices
 description: Best practices
 keywords: Marketing
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 02.19.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

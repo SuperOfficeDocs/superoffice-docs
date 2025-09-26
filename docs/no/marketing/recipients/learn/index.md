@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-mailing-targets
 title: Opprette en målliste
 description: Målet med utsendelsen din vil bestemme målgruppen din. Når du vet hva du vil oppnå med utsendelsen, må du opprette en bestemt målliste.
 keywords: Markedsføring, utsendelse
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

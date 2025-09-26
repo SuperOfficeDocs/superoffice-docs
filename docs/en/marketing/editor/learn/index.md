@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-marketing-editor
 title: Drag and drop editor
 description: Drag and drop editor
 keywords: marketing, editor, template variable, merge tag
 author: SuperOffice Product and Engineering
-date: 10.08.2024
-version: 10.3.10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 language: en
 audience: person

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-marketing-create-folder
 title: Slik oppretter du en mappe i Markedsføring
 description: Slik oppretter du en mappe i Markedsføring
 keywords: Markedsføring, mappe
 author: Bergfrid Dias
-date: 05.24.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

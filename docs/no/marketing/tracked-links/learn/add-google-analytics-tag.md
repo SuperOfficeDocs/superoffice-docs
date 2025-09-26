@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-mailing-add-google-analytics
 title: Slik legger du til emneknaggen Google Analytics i en utsendelse
 description: I denne veiledningen lærer du hvordan du sporer de besøkende.
 keywords: Markedsføring, Google Analytics, utsendelse
 author: Bergfrid Dias
-date: 02.23.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

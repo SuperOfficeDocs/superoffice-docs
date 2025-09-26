@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-mailing-manage-subscriptions
 title: E-Mail-Abonnements verwalten
 description: "Mit den Abonnementverwaltungsfunktionen in SuperOffice CRM können Sie dokumentieren, welchen Inhaltstyp Ihre Personen von Ihnen erhalten möchten."
 keywords: Marketing
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 language: de
 audience: person

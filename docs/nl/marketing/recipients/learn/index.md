@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-nl-mailing-targets
 title: Een doellijst maken
 description: Het doel van uw mailing bepaalt uw doelgroep. Nadat u weet wat u met uw mailing wilt bereiken, moet u een specifieke doellijst maken.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

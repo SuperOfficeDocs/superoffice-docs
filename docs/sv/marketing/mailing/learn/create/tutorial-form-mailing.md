@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-sv-tutorial-form-mailing
 title: Handledning - utskick av formulärsvar
 description: I den här instruktionsguiden lär du dig att skapa ett formulärsvarsutskick.
 keywords: formulärsvar, formulärutskick
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

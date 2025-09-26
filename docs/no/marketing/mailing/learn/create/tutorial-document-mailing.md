@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-no-tutorial-document-mailing
 title: Opplæring - utsendelse av dokumenter
 description: I denne opplæringen lærer du å opprette et dokumentutsendelse.
 keywords: dokumentutsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

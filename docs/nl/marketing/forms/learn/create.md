@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-form-create
 title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
 author: SuperOffice Product and Engineering
-date: 03.19.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

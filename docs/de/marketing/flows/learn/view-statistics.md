@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-flow-view-statistics
 title: Analysieren Sie die Ergebnisse Ihres Flows
 description: Analysieren Sie die Ergebnisse Ihres Flows
 keywords: Marketing, Flow, Ergebniss, Statistik
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

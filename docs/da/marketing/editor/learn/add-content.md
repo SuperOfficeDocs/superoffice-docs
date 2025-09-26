@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-marketing-add-content
 title: Tilføj indhold
 description: Tilføj indhold
 keywords: Marketing, udsendelse, kolonne, tekstblok
 author: SuperOffice Product and Engineering
-date: 02.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

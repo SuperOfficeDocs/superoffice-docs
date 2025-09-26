@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-de-tutorial-email-mailing
 title: Tutorial - E-Mail-Kampagne
 description: Wenn Sie die notwendigen Vorbereitungen getroffen haben, einschließlich der Erstellung Ihrer Zielliste und der Vorbereitung Ihrer Kampagnevorlage, können Sie eine neue Kampagne in SuperOffice CRM erstellen. In diesem Tutorial erfahren Sie, wie Sie eine E-Mail-Kampagne erstellen.
 keywords: e-mail-kampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-de-mailing-targets
 title: Zielliste erstellen
 description: Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wissen, was Sie mit Ihrer Kampagne erreichen wollen, müssen Sie eine spezifische Zielliste erstellen.
 keywords: Marketing, Kampagne
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

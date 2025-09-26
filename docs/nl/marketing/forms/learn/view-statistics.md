@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-form-view-statistics
 title: Formulierverzendingen traceren en statistieken weergeven
 description: Formulierverzendingen traceren en statistieken weergeven
 keywords: formulier, formulierverzending, formulier weergeven
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

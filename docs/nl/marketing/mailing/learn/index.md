@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-mailing
 title: Werken met mailings
 description: Werken met mailings
 keywords: Marketing, mailings, e-mailcampagne, E-maillevering
 author: SuperOffice Product and Engineering, Jeanette Small Strøm
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice Marketing

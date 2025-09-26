@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-da-mailing-targets
 title: Oprette en målliste
 description: Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste.
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

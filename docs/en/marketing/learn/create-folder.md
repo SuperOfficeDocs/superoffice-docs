@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-marketing-create-folder
 title: How to create a folder in Marketing
 description: How to create a folder in Marketing
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 04.05.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

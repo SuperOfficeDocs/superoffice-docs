@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-tracked-links-view
 title: Nach der Kampagne mit überwachten Links arbeiten
 description: Nach der Kampagne mit überwachten Links arbeiten
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

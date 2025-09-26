@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-da-tutorial-document-mailing
 title: Selvstudium - dokumentudsendelse
 description: I dette selvstudium lærer du at oprette en dokumentudsendelse.
 keywords: dokumentudsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

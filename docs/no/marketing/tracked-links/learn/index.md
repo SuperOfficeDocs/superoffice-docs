@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-mailing-tracked-links
 title: Sporede koblinger
 description: En kobling som du inkluderer i en utsendelse, kan brukes til å spore svar fra kunder og potensielle kunder. Når mottakerne av utsendelsen klikker på koblingen, utløses det en handling.
 keywords: Markedsføring, utsendelse, sporet kobling, Google Analytics
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

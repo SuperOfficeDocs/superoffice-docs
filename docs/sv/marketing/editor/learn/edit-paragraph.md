@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-mailing-edit-paragraph
 title: Redigera ett avsnitt
 description: Redigera ett avsnitt
 keywords: Marknadsföring
 author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

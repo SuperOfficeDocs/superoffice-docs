@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-nl-tutorial-form-mailing
 title: Zelfstudie - formulier antwoordmailing
 description: In deze zelfstudie leert u een formulier voor antwoordmailing te maken.
 keywords: formuliermailing, antwoordmailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

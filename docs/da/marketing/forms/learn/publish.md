@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-publish
 title: Udgiv formularer
 description: Udgiv formularer
 keywords: formular, udgiv, udgiv formular, forudfyldte felt, scripttag
 author: SuperOffice Product and Engineering
-date: 03.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

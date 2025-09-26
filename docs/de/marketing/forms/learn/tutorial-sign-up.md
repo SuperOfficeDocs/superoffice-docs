@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-forms-sign-up
 title: Anleitung - Anmeldung zum Newsletter
 description: In dieser Anleitung erstellen wir ein Formular für Kunden, die sich für einen oder mehrere Newsletter anmelden möchten. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 keywords: Formulare, Anmeldung, Newsletter
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
 language: de
 audience: person

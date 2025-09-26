@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-sv-tutorial-email-mailing
 title: Handledning - e-postutskick
 description: När du har slutfört de nödvändiga förberedelserna, vilket inkluderar att skapa din mållista och förbereda din utskicksmall, är du redo att skapa ett nytt utskick i SuperOffice CRM. I den här instruktionsguiden lär du dig att skapa ett e-postutskick.
 keywords: e-postutskick
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

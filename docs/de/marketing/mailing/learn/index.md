@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-mailing
 title: Mit Kampagnen arbeiten
 description: Mit Kampagnen arbeiten
 keywords: Marketing, E-Mail-Zustellung
 author: SuperOffice Product and Engineering, Jeanette Small Strøm
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
 language: de
 audience: person

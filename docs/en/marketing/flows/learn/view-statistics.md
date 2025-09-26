@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-flow-view-statistics
 title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 05.15.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: en
 audience: person

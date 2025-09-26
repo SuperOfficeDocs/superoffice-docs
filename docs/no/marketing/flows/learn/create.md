@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-flow-create
 title: Opprette en ny flyt
 description: Hvordan opprette ny flyt og definere flytinnstillinger i SuperOffice Marketing
 keywords: flyt, markedsføringsautomatisering, ny flyt, flytinnstilling
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 language: no

@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-sv-flows
 title: Marknadsföringsautomatisering - flöden
 description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 audience: person

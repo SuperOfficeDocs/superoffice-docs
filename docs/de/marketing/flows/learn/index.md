@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-de-flows
 title: Marketing-Automatisierung - Flows
 description: Einführung in die Marketing-Automatisierung und Flows von SuperOffice.
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 language: de

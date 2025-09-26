@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-actions
 title: Definer formularhandlinger
 description: Definer formularhandlinger
 keywords: skjema, automatisering, formularhandling, formularindsendelse, tilmelding
 author: SuperOffice Product and Engineering
-date: 06.14.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

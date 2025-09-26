@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
 description: Lær mere om, hvordan du håndterer afviste mails, i denne vejledning.
 keywords: for mange returposter, blokerede mailadresser, hård afvisning, blød afvisning, e-mails kommer tilbage
 author: SuperOffice Product and Engineering
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
 audience: person

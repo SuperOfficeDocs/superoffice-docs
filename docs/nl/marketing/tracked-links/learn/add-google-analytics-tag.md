@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-mailing-add-google-analytics
 title: Uw Google Analytics-tag toevoegen aan een mailing
 description: In deze handleiding leert u hoe u uw bezoekers kunt volgen.
 keywords: Marketing, koppelingen, Google Analytics, mailing, volgen
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

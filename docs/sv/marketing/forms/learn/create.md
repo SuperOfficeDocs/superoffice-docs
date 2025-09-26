@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

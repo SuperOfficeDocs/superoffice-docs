@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-nl-marketing-add-images
 title: Afbeeldingen toevoegen
 description: Afbeeldingen toevoegen
 author: SuperOffice Product and Engineering
-date: 06.29.2022
+date: 09.26.2025
 keywords: Marketing
 content_type: howto
 language: nl

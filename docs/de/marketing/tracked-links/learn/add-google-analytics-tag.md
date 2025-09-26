@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-mailing-add-google-analytics
 title: Wie man Ihr Google Analytics-Tag zu einer Kampagne hinzufügt
 description: "In dieser Anleitung lernen Sie, wie Sie Ihre Besucher nachverfolgen können."
 keywords: Marketing, Google Analytics, verfolgen, Kampagne, Aussendung, Datenverfolgungsstrategie
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: de
 audience: person

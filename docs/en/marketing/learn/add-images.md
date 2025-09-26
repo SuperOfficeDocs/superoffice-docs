@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-en-marketing-add-images
 title: Add images
 description: Add images
 author: SuperOffice Product and Engineering
-date: 06.29.2022
+date: 09.26.2025
 keywords: Marketing
 content_type: howto
 language: en

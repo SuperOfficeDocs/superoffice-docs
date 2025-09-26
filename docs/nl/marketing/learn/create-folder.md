@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-marketing-create-folder
 title: Een map maken
 description: Hoe maak je een map in Marketing
 keywords: Marketing, map, mapstructuur
 author: Bergfrid Dias
-date: 06.17.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

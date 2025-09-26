@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-field-options
 title: Feltindstillinger
 description: Feltindstillinger
 keywords: formular, felt, formularelementer, reCAPTCHA
 author: SuperOffice Product and Engineering
-date: 03.11.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice Marketing

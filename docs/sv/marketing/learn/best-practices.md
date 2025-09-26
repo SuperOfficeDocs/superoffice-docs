@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-marketing-best-practices
 title: Bästa praxis
 description: Bästa praxis
 keywords: Marknadsföring
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 02.25.2025
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

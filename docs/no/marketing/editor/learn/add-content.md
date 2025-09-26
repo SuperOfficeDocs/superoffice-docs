@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-marketing-add-content
 title: Legg til innhold
 description: Legg til innhold
 keywords: Markedsføring, utsendelse, kolonne, Tekstblokk
 author: SuperOffice Product and Engineering
-date: 02.06.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 language: no
 audience: person

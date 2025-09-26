@@ -1,9 +1,9 @@
----
+﻿---
 uid: help-no-tutorial-email-mailing
 title: Opplæring - sende e-post
 description: Når du har fullført de nødvendige forberedelsene, som inkluderer å opprette mållisten og klargjøre malen for utsendelse, er du klar til å opprette en ny utsendelse i SuperOffice CRM. I denne opplæringen lærer du å opprette en e-postutsendelse.
 keywords: e-postutsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
 audience: person

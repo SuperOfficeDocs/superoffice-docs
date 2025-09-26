@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-da-form-prefilled
 title: Brug af forudfyldte felter i formularer
 description: Brug af forudfyldte felter i formularer
 keywords: formular, forudfyldt, forudfyldte felt, felt-id, feltidentifikator
 author: SuperOffice Product and Engineering
-date: 03.04.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
