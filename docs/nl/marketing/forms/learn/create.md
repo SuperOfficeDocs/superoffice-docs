@@ -16,13 +16,6 @@ language: nl
 
 Webformulieren maken het gemakkelijker om te communiceren met klanten en prospects via uw website Customer Centre. U heeft drie opties: maak een formulier vanaf nul, maak en gebruik een aangepaste formuliersjabloon of selecteer een gratis sjabloon uit de **Online Template Library** in SuperOffice Marketing.
 
-Bekijk deze video om te leren hoe u een webformulier kunt maken  of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videolengte - 7:49)
-
 ## Nieuw maken (vanaf nul)
 
 1. Ga naar het tabblad **Formulieren**.
@@ -132,11 +125,6 @@ Het voorbeeld rechts wordt automatisch bijgewerkt wanneer u instellingen wijzigt
 
 Dubbele opt-in is een extra stap in het proces voor het indienen van formulieren die garandeert dat mensen het juiste e-mailadres indienen.
 
-Bekijk deze video om te leren hoe u de dubbele opt-in-functie op uw webformulier kunt gebruiken (videolengte - 3:45) of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Stappen:**
 
 1. Klik op **Dubbele opt-in inschakelen**.
@@ -165,13 +153,6 @@ Als dubbele opt-in is geactiveerd voor een formulier, hebben alle verzendingen v
 Wanneer een persoon een formulier invult en indient, moet u hem bedanken en laten weten wat er vervolgens zal gebeuren. Het is altijd aardig om dankjewel te zeggen. Mensen waarderen het echt.
 
 Gebruik de "Dank u"-pagina om andere producten of evenementen te promoten en te linken naar relevante delen van uw website. Dit verbetert de klantervaring en bevordert de klantenbinding.
-
-Bekijk deze video om te leren hoe u een 'Dank u'-pagina toevoegt aan uw webformulier of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videolengte - 1:48)
 
 Kies een van de volgende opties:
 

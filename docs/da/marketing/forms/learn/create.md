@@ -16,13 +16,6 @@ language: da
 
 Webformularer gør det lettere at interagere med kunder og potentielle kunder via dit websted eller kundecenteret. Du har tre muligheder: opret et formular fra bunden, opret og brug en brugerdefineret formularskabelon eller vælg en gratis skabelon fra **Online Template Library** i SuperOffice Marketing.
 
-Se denne video for at lære, hvordan du kan oprette en webformular eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videoens længde - 7:49)
-
 ## Opret ny (fra bunden)
 
 1. Gå til fanen **Formularer**.
@@ -132,11 +125,6 @@ Forhåndsvisningen til højre opdateres automatisk, når du ændrer indstillinge
 
 Dobbelt tilsagn (opt-in) er et ekstra trin i formularindsendelsesprocessen, der garanterer, at folk indsender den korrekte e-mailadresse.
 
-Se denne video for at lære, hvordan du bruger dobbelt tilsagnsfunktionen (videolængde - 3:45), eller følg nedenstående fremgangsmåde.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Trin:**
 
 1. Klik på **Aktiver dobbelt tilsagn**.
@@ -165,13 +153,6 @@ Hvis dobbelt tilsagn er aktiveret for en formular, får alle indsendelser af den
 Når en person har udfyldt og indsendt en formular, bør du takke vedkommende og oplyse om det næste, der skal ske. Det er altid rart at sige tak. Folk sætter virkelig pris på det.
 
 Brug "Tak"-siden til at promovere andre produkter eller begivenheder og link til relevante dele af dit websted. Dette forbedrer brugeroplevelsen og fremmer kundeloyalitet.
-
-Se denne video for at lære, hvordan du føjer en "Tak"-side til din webformular, eller følg nedenstående fremgangsmåde.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videolængde - 1:48)
 
 Vælg et af følgende alternativer:
 

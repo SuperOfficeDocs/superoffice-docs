@@ -16,11 +16,6 @@ audience_tooltip: SuperOffice Marketing
 
 Web-Formulare erleichtern die Interaktion mit Kunden und Interessenten über Ihre Website oder Ihr Kundenzentrum. Sie haben drei Optionen: Erstellen Sie ein Formular von Grund auf, erstellen und verwenden Sie eine benutzerdefinierte Formularvorlage oder wählen Sie eine kostenlose Vorlage aus der **Online Template Library** in SuperOffice Marketing.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie man ein Web-Formular erstellt (Videolänge – 7:49) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
 ## Neu erstellen (von Grund auf)
 
 1. Gehen Sie zur Registerkarte **Formulare**.
@@ -130,11 +125,6 @@ Die Vorschau auf der rechten Seite wird automatisch aktualisiert, wenn Sie Einst
 
 Double Opt-in ist ein zusätzlicher Schritt im Formularübermittlungsprozess, der sicherstellt, dass Personen die korrekte E-Mail-Adresse eingeben.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie man die doppelte Opt-in-Funktion an ihrem Web-Formular verwendet, (Videolänge – 3:45) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Schritte:**
 
 1. Klicken Sie auf **Doppeltes Opt-in aktivieren**.
@@ -163,11 +153,6 @@ Wenn das doppelte Opt-in für ein Formular aktiviert wurde, haben alle Übermitt
 Wenn eine Person ein Formular ausgefüllt und übermittelt hat, sollten Sie dieser Person danken und sie darüber informieren, was als Nächstes geschieht. Es ist immer eine nette Geste, sich zu bedanken. Das wird wirklich geschätzt.
 
 Verwenden Sie die "Dankeschön"-Seite, um andere Produkte oder Ereignisse zu bewerben und zu relevanten Teilen Ihrer Website zu verlinken. Dies verbessert das Kundenerlebnis und fördert die Kundentreue.
-
-Sehen Sie sich dieses Video an, um zu lernen, wie man die "Dankeschön"-Seite zu Ihrem Web-Formular hinzufügt, (Videolänge – 1:48) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
 
 Wählen Sie eine der folgenden Optionen aus:
 

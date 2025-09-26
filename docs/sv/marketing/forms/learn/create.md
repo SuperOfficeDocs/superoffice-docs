@@ -16,13 +16,6 @@ language: sv
 
 Webbformulär gör det lättare att interagera med befintliga och potentiella kunder via din webbplats eller kundcenter. Du har tre alternativ: skapa ett formulär från grunden, skapa och använda en anpassad formulärmall eller välj en gratis mall från **Online Template Library** i SuperOffice Marketing.
 
-Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa ett webbformulär.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videons längd: 7:49)
-
 ## Skapa nytt (från grunden)
 
 1. Gå till fliken **Formulär**.
@@ -132,11 +125,6 @@ Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon 
 
 Dubbel anmälan (opt-in) är ett extra steg i processen för formulärinlämning som garanterar att personer skickar in rätt e-postadress.
 
-Titta på den här filmen eller följ stegen nedan för att lära dig hur du använder funktionen för dubbel anmälan i ditt webbformulär (videons längd: 3:45).
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Steg:**
 
 1. Klicka på **Aktivera dubbel anmälan**.
@@ -165,13 +153,6 @@ Om dubbel anmälan är aktiverad för ett formulär får alla inlämningar för 
 När en person slutför och lämnar in ett formulär ska du tacka dem och tala om för dem vad som händer härnäst. Det är alltid trevligt att säga tack. Det är något människor verkligen uppskattar.
 
 Använd "Tack"-sidan för att marknadsföra andra produkter eller evenemang och länka till relevanta delar av din webbplats. Detta förbättrar användarupplevelsen och främjar kundlojalitet.
-
-Titta på den här filmen eller följ stegen nedan för att lära dig hur du lägger till en "Tack"-sida i ditt webbformulär.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videons längd: 1:48)
 
 Välj något av följande alternativ:
 

@@ -16,11 +16,6 @@ audience_tooltip: SuperOffice Marketing
 
 Nettskjemaer gjør det enklere å samhandle med kunder og potensielle kunder via websiden eller kundesenteret. Du har tre alternativer: opprett et skjema fra bunnen av, lag og bruk en tilpasset skjemamal, eller velg en gratis mal fra **Online Template Library** i SuperOffice Marketing.
 
-Se denne videoen for å lære hvordan du kan lage et nettskjema (videolengde - 7:49) eller følg fremgangsmåten nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
 ## Opprette nytt (fra bunnen av)
 
 1. Gå til fanen **Skjemaer**.
@@ -130,11 +125,6 @@ Forhåndsvisningen til høyre oppdateres automatisk når du endrer innstillingen
 
 Dobbel opt-in (bekreftelse) er et ekstra trinn i skjemainnsendingsprosessen som vil garantere at folk sender inn riktig e-postadresse.
 
-Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på webskjemaet ditt (videolengde - 3:45), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Trinn:**
 
 1. Klikk på **Aktiver dobbel opt-in**.
@@ -163,11 +153,6 @@ Hvis dobbel pålogging er aktivert for et skjema, har alle innsendinger for dett
 Når en person fyller ut og sender inn et skjema, bør du takke dem og la dem få vite hva som vil skje videre. Det er alltid hyggelig å si takk. Folk setter stor pris på det.
 
 Bruk "Takk"-siden til å promotere andre produkter eller arrangementer, og lenk til relevante deler av nettsiden din. Dette hever kundeopplevelsen og fremmer kundelojalitet.
-
-Se denne videoen for å lære hvordan du legger til en "Takk"-side i webskjemaet (videolengde - 1:48), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
 
 Velg ett av følgende alternativer:
 
