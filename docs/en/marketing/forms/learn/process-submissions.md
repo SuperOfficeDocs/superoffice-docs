@@ -26,11 +26,6 @@ When a form is submitted, SuperOffice attempts to link the form to an existing c
 * If a match is found, you can display the contact's information, requests, sales, follow-ups, and previous chat sessions.
 * If no match is found, search for the correct contact or create a new one.
 
-Watch this video (or follow the step-by-step guide below) to learn how you can manually process a submitted web form (video length - 4:30) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Steps
 
 ### 1 - Locate and open the form submission
@@ -74,6 +69,16 @@ In the **Form submission** window:
 4. Click **Process**.
 
 ![Form submission, Data from form -screenshot][img1]
+
+## Video: manually process a submitted web form
+
+Watch this demo to see how to manually process a submitted web form.
+(This video shows a previous version of SuperOffice, so the design may look different. The steps are the same.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(video length - 4:30)
 
 ## Related topics
 

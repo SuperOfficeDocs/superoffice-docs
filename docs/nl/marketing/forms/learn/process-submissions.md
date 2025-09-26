@@ -26,11 +26,6 @@ Wanneer een formulier wordt ingediend, probeert SuperOffice het formulier te kop
 * Als er een overeenkomst wordt gevonden, kunt u de contactgegevens, verzoeken, verkopen, vervolgactiviteiten en vorige chatsessies weergeven.
 * Als er geen overeenkomst wordt gevonden, zoek dan naar het correcte persoon of maak een nieuwe aan.
 
-Bekijk deze video (of volg de stapsgewijze handleiding hieronder) om te leren hoe u een ingediend webformulier handmatig kunt verwerken (videolengte - 4:30) of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Stappen
 
 ### 1- Zoek en open het formulierverzending
@@ -74,6 +69,16 @@ In het venster **Formulierinzending**:
 4. Klik op **Verwerken**.
 
 ![Formulierverzending, Gegevens van formulier -screenshot][img1]
+
+## Video: een ingediend webformulier handmatig verwerken
+
+Bekijk deze demo om te zien hoe u een ingediend webformulier handmatig verwerkt.
+(Deze video toont een vorige versie van SuperOffice, dus het ontwerp kan er anders uitzien. De stappen zijn hetzelfde.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolengte - 4:30)
 
 ## Gerelateerde inhoud
 

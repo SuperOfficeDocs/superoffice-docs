@@ -26,11 +26,6 @@ När ett formulär skickas in försöker SuperOffice att koppla formuläret till
 * Om en matchning hittas kan du visa kontakternas information, ärenden, försäljning, händelser och tidigare chattsessioner.
 * Om ingen matchning hittas, sök efter rätt kontakt eller skapa en ny.
 
-Titta på den här videon (eller följ steg-för-steg-guiden nedan) för att lära dig hur du manuellt kan behandla ett inskickat webbformulär (videons längd – 4:30) eller följ stegen nedan.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Steg
 
 ### 1- Hitta och öppna formulärinlämningen
@@ -74,6 +69,16 @@ I **Formulärinlämning**-fönstret:
 4. Klicka på **Behandla**.
 
 ![Formulärinlämningar, Data från-formulär -screenshot][img1]
+
+## Video: behandla ett inskickat webbformulär manuellt
+
+Titta på denna demo för att se hur du manuellt behandlar ett inskickat webbformulär.
+(Den här videon visar en tidigare version av SuperOffice, så designen kan se annorlunda ut. Stegen är desamma.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videons längd - 4:30)
 
 ## Vad vill du göra nu?
 

@@ -26,11 +26,6 @@ Når et formular indsendes, forsøger SuperOffice at knytte formularet til en ek
 * Hvis der findes en match, kan du vise kontaktinformation, sager, salg, opfølgninger og tidligere chat-sessioner.
 * Hvis der ikke findes en match, søg efter den korrekte person eller opret en ny.
 
-Se denne video (eller følg den trinvise vejledning nedenfor) for at få mere at vide om, hvordan du manuelt kan behandle en indsendt webformular (videolængde - 4:30), eller følg nedenstående trin.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Trin
 
 ### 1- Find og åbn formularen
@@ -74,6 +69,16 @@ I vinduet **Indsendelse af formular**:
 4. Klik på **Behandl**.
 
 ![Formularindsendelse, Data fra formular -screenshot][img1]
+
+## Video: behandle et indsendt webformular manuelt
+
+Se denne demo for at se, hvordan du manuelt behandler en indsendt webformular.
+(Denne video viser en tidligere version af SuperOffice, så designet kan se anderledes ud. Trinnene er de samme.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolængde - 4:30)
 
 ## Relateret indhold
 

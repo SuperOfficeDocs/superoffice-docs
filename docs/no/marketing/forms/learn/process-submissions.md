@@ -26,11 +26,6 @@ Når et skjema sendes inn, forsøker SuperOffice å knytte skjemaet til en eksis
 * Hvis det finnes en match, kan du vise kontaktopplysninger, forespørsler, salg, oppfølginger og tidligere chat-sesjoner.
 * Hvis ingen match blir funnet, søk etter riktig kontakt eller opprett en ny.
 
-Se denne videoen (eller følg den trinnvise veiledningen nedenfor) for å lære hvordan du kan behandle et innsendt webskjema manuelt (videolengde – 4:30), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Trinn
 
 ### 1- Finn og åpne skjemainnsendingen
@@ -74,6 +69,16 @@ I **Skjemainnlevering**-vinduet:
 4. Klikk på **Behandle**.
 
 ![Skjemainnsending, Data fra skjema -screenshot][img1]
+
+## Video: behandle et innsendt webskjema manuelt
+
+Se denne demoen for å se hvordan du behandler et innsendt webskjema manuelt.
+(Denne videoen viser en tidligere versjon av SuperOffice, så designet kan se annerledes ut. Trinnene er de samme.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolengde - 4:30)
 
 ## Aktuelt innhold
 

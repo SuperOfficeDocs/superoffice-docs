@@ -26,11 +26,6 @@ Wenn ein Formular eingereicht wird, versucht SuperOffice, das Formular mit einem
 * Wenn eine Übereinstimmung gefunden wird, können Sie Kontaktinformationen, Anfragen, Verkäufe, Folgeaufgaben und zuvor erfasste Chat-Sitzungen anzeigen.
 * Wenn keine Übereinstimmung gefunden wird, suchen Sie nach dem richtigen Person oder erstellen Sie einen neuen.
 
-Sehen Sie sich dieses Video an (oder folgen Sie der folgenden Anleitung), um zu lernen, wie Sie ein übermitteltes Web-Formular manuell verarbeiten können (Videolänge - 4:30), oder führen Sie die folgenden Schritte aus.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
-
 ## Schritte
 
 ### 1- Lokalisieren und Öffnen der Formularübermittlungen
@@ -74,6 +69,16 @@ Im **Formularübermittlung**-Fenster:
 4. Klicken Sie auf **Verarbeiten**.
 
 ![Formularübermittlungen, Daten aus Formular -screenshot][img1]
+
+## Video: ein übermitteltes Web-Formular manuell verarbeiten
+
+Sehen Sie sich diese Demo an, um zu sehen, wie Sie ein übermitteltes Web-Formular manuell verarbeiten.
+(Dieses Video zeigt eine frühere Version von SuperOffice, daher kann das Design anders aussehen. Die Schritte sind dieselben.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(Videolänge - 4:30)
 
 ## Zugehörige Inhalte
 
