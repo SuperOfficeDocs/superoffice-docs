@@ -132,4 +132,4 @@ Använd det här alternativet för att ange en kontakt som tidigare anställd.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png

@@ -88,7 +88,7 @@ Till exempel kan du skapa ett dynamisk urval av alla dina kunder. Detta urval ko
 
 Dynamiska urval är särskilt användbara när du behöver **de mest aktuella datan**.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Jobba med mottagarlistan efter utskicket][8]
 * [Jobba med spårade länkar efter utskicket][9]

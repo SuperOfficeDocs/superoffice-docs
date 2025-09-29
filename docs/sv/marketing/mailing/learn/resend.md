@@ -2,13 +2,16 @@
 uid: help-sv-mailings-resend
 title: Skicka ditt utskick på nytt
 description: När du har hanterat de returnerade e-postmeddelandena är det en bra idé att skicka ditt utskick på nytt.
-keywords: Marknadsföring
+keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: sv
 ---
 
@@ -34,15 +37,17 @@ Efter att utskicket är skickat kan du gå in i utskicket och se de nya resultat
 
 ## Alternativ 2 – Skicka på nytt till valda
 
-Börja med att öppna det utskick du vill skicka igen och gå till fliken **Mottagare**.
+1. Börja med att öppna det utskick du vill skicka igen och gå till fliken **Mottagare**.
 
-Här kan du filtrera och välja mottagare med till exempel statusen **Returnerat** och **Skickat**.
+* Filtrera mottagarlistan med hjälp av filterknappen längst ned till höger i fönstret. Välj till exempel mottagare med statusen **Returnerat** och **Skickat**.
 
-Du kan filtrera mottagarlistan med hjälp av filterknappen längst ned till höger i fönstret. Och du kan välja de mottagare du vill skicka ditt utskick till igen genom att klicka på rutan längst till vänster i mottagarlistan.
+    ![Filtrera status för kontakterna när du skickar ett utskick igen -screenshot][img2]
 
-![Filtrera status för kontakterna när du skickar ett utskick igen -screenshot][img2]
+1. Välj de mottagare du vill skicka ditt utskick till igen genom att klicka på rutan längst till vänster i mottagarlistan.
 
-När du har valt alla mottagare klickar du på knappen **Åtgärder** och väljer **Skicka om till valda**.
+    ![Skicka utskick igen till valda personer -screenshot][img3]
+
+1. Klicka på knappen **Åtgärder** och välj **Skicka om till valda**.
 
 SuperOffice Marknadsföring skickar nu ditt utskick till alla valda mottagare.
 
@@ -53,4 +58,5 @@ SuperOffice Marknadsföring skickar nu ditt utskick till alla valda mottagare.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/select-to-resend.png

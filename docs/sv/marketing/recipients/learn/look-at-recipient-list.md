@@ -66,7 +66,6 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="add-recipients"></a>Lägga till mottagare till urval eller projekt
 
 Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
