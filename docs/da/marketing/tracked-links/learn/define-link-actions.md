@@ -2,7 +2,7 @@
 uid: help-da-define-link-actions
 title: Definer automatiserede linkhandlinger
 description: I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger.
-keywords: Marketing, udsendelse, linkhandling, automatisere
+keywords: udsendelse, linkhandling, automatisere
 author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
@@ -56,7 +56,7 @@ Baseret på din udsendelses mål og call-to-action kan du opdatere din database.
 Vælg, hvad der skal ske, når modtageren klikker på linket.
 
 * **Omdirigere til ny webside**: Indtast webadressen i det angivne felt.
-* Eller, **Vise tilpasset tekst**: Indtast teksten, der skal vises. Klik på ![ikon][img4] redigeringsknappen for at vise værktøjslinjen til formateret tekst.
+* Eller, **Vise tilpasset tekst**: Indtast teksten, der skal vises. Klik på <i class="ph ph-text-a-underline" aria-hidden="true"></i> for at vise værktøjslinjen til formateret tekst.
 * Eller, **Åbn formular**: Vælg navnet på formularen. Vælg eventuelt hvilke felter, der skal forudfyldes med kendte kontaktoplysninger.
 
 ## <a id="set-field"></a>Indstille felt
@@ -113,4 +113,3 @@ Variabler tilgængelige i scriptet inkluderer custId, linkId, shipmentId, linkUr
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

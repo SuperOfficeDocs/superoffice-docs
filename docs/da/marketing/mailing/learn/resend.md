@@ -2,13 +2,16 @@
 uid: help-da-mailings-resend
 title: Genudsende din mailing
 description: Når du har håndteret de afviste e-mails, er det en god ide at genudsende din e-mailudsendelse.
-keywords: Marketing
+keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 
@@ -34,23 +37,24 @@ Når mailudsendelsen er sendt afsted, kan du gå ind i den og se de nye resultat
 
 ## Mulighed 2 – Genudsende til udvalgte
 
-Start med at åbne den mail, du vil sende ud igen, og gå til fanen **Modtagere**.
+1. Start med at åbne den mail, du vil sende ud igen, og gå til fanen **Modtagere**.
 
-Her kan du for eksempel filtrere og udvælge modtagere med status som **Afvist** eller **Sendt**.
+1. Filtrer modtagerlisten ved hjælp af filterknappen i nederste højre hjørne af skærmen. Vælg for eksempel modtagere med status som **Afvist** og **Sendt**.
 
-Du kan filtrere modtagerlisten ved hjælp af filterknappen i nederste højre hjørne af skærmen. Og du kan vælge de modtagere, du vil genudsende din mail til, ved at klikke på feltet i kolonnen længst til venstre på modtagerlisten.
+    ![Filtrer status for kontakterne, når du genudsender en mail -screenshot][img2]
 
-![Du kan filtrere status for kontakterne, når du genudsender en mail -screenshot][img2].
+1. Vælg de modtagere, du vil genudsende din mail til, ved at klikke på feltet i kolonnen længst til venstre på modtagerlisten.
 
-Når du har udvalgt alle modtagerne, skal du klikke på knappen **Handlinger** og vælge **Genudsend til udvalgte**.
+    ![Genudsend en mail til udvalgte kontakter -screenshot][img3]
+
+1. Klik på knappen **Handlinger** og vælg **Genudsend til udvalgte**.
 
 SuperOffice Marketing sender nu din mail til alle de udvalgte modtagere.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
 [1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/select-to-resend.png

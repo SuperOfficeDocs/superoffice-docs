@@ -132,4 +132,4 @@ Brug denne indstilling til at angive en person som fratrådt medarbejder.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png

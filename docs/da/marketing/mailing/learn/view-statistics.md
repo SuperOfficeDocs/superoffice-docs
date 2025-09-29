@@ -2,7 +2,7 @@
 uid: help-da-mailing-view-statistics
 title: Se statistik for udsendelser
 description: Se statistik for udsendelser
-keywords: Marketing
+keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
