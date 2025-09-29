@@ -1,7 +1,7 @@
 ﻿---
 uid: help-de-mailing-add-merge-tags
 title: Merge Tags zu Ihrer Mitteilung hinzufügen
-description: "Lernen Sie, wie Sie Ihrer Kampagne Merge Tags hinzufügen"
+description: Lernen Sie, wie Sie Ihrer Kampagne Merge Tags hinzufügen
 keywords: Marketing
 author: SuperOffice Product and Engineering
 date: 09.26.2025

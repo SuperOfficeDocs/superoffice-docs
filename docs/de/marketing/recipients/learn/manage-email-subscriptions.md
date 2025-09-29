@@ -1,7 +1,7 @@
 ﻿---
 uid: help-de-mailing-manage-subscriptions
 title: E-Mail-Abonnements verwalten
-description: "Mit den Abonnementverwaltungsfunktionen in SuperOffice CRM können Sie dokumentieren, welchen Inhaltstyp Ihre Personen von Ihnen erhalten möchten."
+description: Mit den Abonnementverwaltungsfunktionen in SuperOffice CRM können Sie dokumentieren, welchen Inhaltstyp Ihre Personen von Ihnen erhalten möchten.
 keywords: Marketing
 author: Bergfrid Dias
 date: 09.26.2025
@@ -50,11 +50,6 @@ In Schritt 4 des Kampagnen-Assistenten, genannt Empfänger, können Sie genau se
 
 Wenn die E-Marketing-Datenschutzfunktion deaktiviert ist, ignoriert SuperOffice CRM Einwilligungen und Abonnementeinstellung beim Versenden Ihrer Kampagnen. Um die E-Marketing-Datenschutzfunktion zu aktivieren, benötigen Sie die Administratorrechte.
 
-Sehen Sie sich das Video an, um zu lernen, wie Sie die Datenschutzeinstellungen für die DSGVO in SuperOffice CRM einrichten können.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![Unter Einstellungen und Verwaltung können Sie die E-Marketing-Datenschutzfunktion aktivieren. -screenshot][img3]
 
 ## Abmeldelink verwenden
@@ -72,7 +67,7 @@ Ihr Kunde hat die Kontrolle über die Kampagnen, die er erhält, und Sie können
 
 Mit SuperOffice CRM respektieren Sie die Kommunikationseinstellung Ihrer Personen und können sicherstellen, dass Sie gemäß den DSGVO-Regeln arbeiten. Auf diese Weise riskieren Sie niemals eine Geldstrafe von 20.000.000 €.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [DSGVO und Datenschutz][2]
 * [SuperOffice Datenschutzerklärung][4]

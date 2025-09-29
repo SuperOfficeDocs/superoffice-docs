@@ -1,14 +1,17 @@
 ﻿---
 uid: help-de-mailings-resend
 title: Kampagne erneut senden
-description: "Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten Sie versuchen, die Kampagne erneut zu versenden."
-keywords: Marketing
+description: Nachdem Sie die unzustellbaren E-Mails bearbeitet haben, sollten Sie versuchen, die Kampagne erneut zu versenden.
+keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -34,23 +37,24 @@ Nachdem die Kampagne versendet wurde, können Sie in die Kampagne gehen und die 
 
 ## Option 2 - Erneut an Auswahl senden
 
-Öffnen Sie zunächst die Kampagne, die Sie erneut versenden möchten, und gehen Sie danach auf die Registerkarte **Empfänger**.
+1. Öffnen Sie zunächst die Kampagne, die Sie erneut versenden möchten, und gehen Sie danach auf die Registerkarte **Empfänger**.
 
-Hier können Sie zum Beispiel die Empfänger mit dem Status **Nicht zustellbar** und **Gesendet** filtern und auswählen.
+1. Filtern Sie die Empfängerliste mithilfe der Filterschaltfläche in der unteren rechten Ecke der Anzeige. Wählen Sie beispielsweise die Empfänger mit dem Status **Nicht zustellbar** und **Gesendet** aus.
 
-Sie können die Empfängerliste filtern, indem Sie die Filterschaltfläche in der unteren rechten Ecke der Anzeige verwenden. Sie können die Empfänger auswählen, an die Sie Ihre Kampagne erneut senden möchten, indem Sie auf das Kästchen in der Spalte ganz links in der Empfängerliste klicken.
+    ![Filtern Sie den Status der Personen, wenn Sie eine Kampagne erneut versenden -screenshot][img2]
 
-![Filtern Sie den Status der Personen, wenn Sie eine Kampagne erneut versenden -screenshot][img2]
+1. Wählen Sie die Empfänger aus, an die Sie Ihre Kampagne erneut senden möchten, indem Sie auf das Kästchen in der linken Spalte der Empfängerliste klicken.
 
-Nachdem Sie alle Empfänger ausgewählt haben, müssen Sie auf die Schaltfläche **Aktionen** klicken und **Erneut an Auswahl senden** auswählen.
+    ![Kampagne erneut an ausgewählte Personen senden -screenshot][img3]
+
+1. Klicken Sie auf die Schaltfläche **Aktionen** und wählen Sie **Erneut an Auswahl senden** aus.
 
 SuperOffice Marketing versendet Ihre Kampagne nun an alle ausgewählten Empfänger.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
 [1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/select-to-resend.png

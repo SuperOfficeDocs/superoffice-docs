@@ -88,7 +88,7 @@ Sie könnten beispielsweise eine dynamische Selektion aller Ihrer Kunden erstell
 
 Dynamische Selektionlmöglichkeiten sind besonders nützlich, wenn Sie **die aktuellsten Daten** benötigen.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Nach der Kampagne mit der Empfängerliste arbeiten][8]
 * [Nach der Kampagne mit überwachten Links arbeiten][9]

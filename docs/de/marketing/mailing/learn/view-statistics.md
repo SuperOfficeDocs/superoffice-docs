@@ -2,7 +2,7 @@
 uid: help-de-mailing-view-statistics
 title: Statistiken für Kampagne anzeigen
 description: Statistiken für Kampagne anzeigen
-keywords: Marketing
+keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
