@@ -89,6 +89,7 @@ For instance, you could create a dynamic selection of all your customers. This s
 Dynamic selections are particularly useful when you need **the most current data**.
 
 ## Related content
+
 * [Work with the recipient list after the mailing][8]
 * [Work with tracked links after the mailing][9]
 * [Track the mailing and view statistics][7]

@@ -91,6 +91,7 @@ Using the **Action** button you can add recipients and clickers to a selection o
 5. Click **OK**.
 
 ## Related content
+
 * [Work with tracked links after the mailing][1]
 
 <!-- Referenced links -->

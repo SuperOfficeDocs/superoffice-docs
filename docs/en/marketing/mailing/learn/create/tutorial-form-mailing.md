@@ -10,6 +10,7 @@ category: marketing
 topic: mailing
 license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: en
 ---
 

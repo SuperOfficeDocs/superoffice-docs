@@ -68,6 +68,7 @@ You can edit the following sections:
 Click **Next** if you are done editing.
 
 ## Related content
+
 * [Add content][5]
 * [Use merge tags in messages][2]
 * [Include links you want to track][8]

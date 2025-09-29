@@ -176,6 +176,7 @@ Here you can [define what happens when someone submits a form response][3].
 * What should happen when the form is processed?
 
 ## Related content
+
 * [Publish forms][2]
 
 <!-- Referenced links -->

@@ -2,7 +2,7 @@
 uid: help-en-define-link-actions
 title: Define automatic link actions
 description: In this how-to guide, you will learn how to use links in mailings to automate actions.
-keywords: Marketing, mailing, link action, tracked link, call-to-action
+keywords: link action, tracked link, call-to-action
 author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
@@ -56,7 +56,7 @@ Based on your mailing's goal and call-to-action, you can update your database. T
 Select what should happen when the recipient clicks the link.
 
 * **Redirect to new web page**: Enter the URL in the provided field.
-* Or, **Show custom text**: Enter the text to display. Click the ![icon][img4] editor button to show the rich-text toolbar.
+* Or, **Show custom text**: Enter the text to display. Click <i class="ph ph-text-a-underline" aria-hidden="true"></i> to show the rich-text toolbar.
 * Or, **Open form**: Choose the form's name. Optionally, select fields to pre-fill with known contact information.
 
 ## <a id="set-field"></a>Set field
@@ -113,4 +113,3 @@ Variables available in the script include custId, linkId, shipmentId, linkUrl, l
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

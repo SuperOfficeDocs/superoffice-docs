@@ -39,7 +39,7 @@ Efter att utskicket är skickat kan du gå in i utskicket och se de nya resultat
 
 1. Börja med att öppna det utskick du vill skicka igen och gå till fliken **Mottagare**.
 
-* Filtrera mottagarlistan med hjälp av filterknappen längst ned till höger i fönstret. Välj till exempel mottagare med statusen **Returnerat** och **Skickat**.
+1. Filtrera mottagarlistan med hjälp av filterknappen längst ned till höger i fönstret. Välj till exempel mottagare med statusen **Returnerat** och **Skickat**.
 
     ![Filtrera status för kontakterna när du skickar ett utskick igen -screenshot][img2]
 
@@ -52,8 +52,6 @@ Efter att utskicket är skickat kan du gå in i utskicket och se de nya resultat
 SuperOffice Marknadsföring skickar nu ditt utskick till alla valda mottagare.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
 [1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->

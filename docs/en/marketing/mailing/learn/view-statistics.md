@@ -2,7 +2,7 @@
 uid: help-en-mailing-view-statistics
 title: View statistics for mailing
 description: View statistics for mailing
-keywords: Marketing
+keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5

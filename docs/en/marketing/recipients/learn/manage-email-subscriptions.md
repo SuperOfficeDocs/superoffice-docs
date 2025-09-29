@@ -2,7 +2,7 @@
 uid: help-en-mailing-manage-subscriptions
 title: Manage email subscriptions
 description: SuperOffice CRM's Subscription Management features empower your contacts to specify the content they wish to receive. This is tied to Consent Management
-keywords: Marketing, mailing, consent, subscription, GDPR, privacy
+keywords: mailing, consent, subscription, GDPR, privacy
 author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
@@ -50,11 +50,6 @@ In Step 4: Recipients, you can view who has given consent. If the E-Marketing Pr
 
 If E-Marketing Privacy is OFF, SuperOffice CRM will ignore consents and subscription preferences during mailings. Administrator rights are required to enable the E-marketing Privacy feature.
 
-To learn more, watch the video on how you can set up the privacy settings for GDPR in SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![In Settings and maintenance you can switch on the e-marketing privacy feature. -screenshot][img3]
 
 ## Use the unsubscribe link
@@ -71,6 +66,7 @@ This link directs recipients to their subscription preferences page, where they 
 This ensures that customers control their mailing preferences, and you only send mailings to interested parties. By using SuperOffice CRM, you respect your contacts' communication preferences and can comply with GDPR rules, avoiding potential fines of up to €20,000,000.
 
 ## Related content
+
 * [GDPR and privacy][2]
 * [SuperOffice privacy statement][4]
 

@@ -2,7 +2,7 @@
 uid: help-en-mailings-resend
 title: Resend your mailing
 description: How to resend a mailing in SuperOffice Marketing.
-keywords: Marketing, mailing, recipients
+keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
 version: 10.5
@@ -37,15 +37,17 @@ After the mailing is sent, you can go into the mailing and see the new results i
 
 ## Option 2 – Resend to selected
 
-Start by opening the mailing you wish to resend and go to the **Recipients** tab.
+1. Start by opening the mailing you wish to resend and go to the **Recipients** tab.
 
-Here you can filter and select the recipients with the status **Bounced** and **Sent**, for example.
+1. Filter the recipients list by using the filter button in the bottom-right corner of the screen. For example, select the recipients with the status **Bounced** and **Sent**.
 
-You can filter the recipients list by using the filter button in the bottom-right corner of the screen. And you can select the recipients you want to resend your mailing to by clicking the box in leftmost column of the recipients list.
+    ![Filter the status of the contacts when resending a mailing -screenshot][img2]
 
-![Filter the status of the contacts when resending a mailing -screenshot][img2]
+1. Select the recipients you want to resend your mailing to by clicking the box in leftmost column of the recipients list.
 
-After you have selected all the recipients, click on the **Actions** button and select **Resend to selected**.
+    ![Resend a mailing to selected contacts -screenshot][img3]
+
+1. Click the **Actions** button and select **Resend to selected**.
 
 SuperOffice Marketing will now send your mailing to all the selected recipients.
 
@@ -54,4 +56,5 @@ SuperOffice Marketing will now send your mailing to all the selected recipients.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/select-to-resend.png

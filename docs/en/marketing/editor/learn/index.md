@@ -143,6 +143,7 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 The user guide for the old editor is located in the [SuperOffice version 10.1 help][2].
 
 ## Related content
+
 * [Add content][1]
 * [Edit content][5]
 * [Include links you want to track][8]
