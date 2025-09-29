@@ -57,4 +57,4 @@ SuperOffice Marketing versendet Ihre Kampagne nun an alle ausgewählten Empfäng
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
 [img2]: ../../../../media/loc/en/marketing/filter-recipients.png
-[img3]: ../../../../media/loc/en/marketing/select-to-resend.png
+[img3]: ../../../../media/loc/en/marketing/resend-to-selected.png
