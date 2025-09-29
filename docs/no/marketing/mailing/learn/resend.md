@@ -1,14 +1,17 @@
 ﻿---
 uid: help-no-mailings-resend
 title: Sende utsendelsen på nytt
-description: "Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt."
-keywords: Markedsføring
+description: Etter at du har håndtert de returnerte e-postene, er det lurt å sende utsendelsen på nytt.
+keywords: resend mailing, recipients
 author: Bergfrid Dias
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: no
 ---
 
@@ -34,23 +37,24 @@ Etter at utsendelsen er sendt, kan du gå inn i utsendelsen og se de nye resulta
 
 ## Alternativ 2 – Send på nytt til valgte
 
-Start med å åpne utsendelsen du vil sende på nytt, og gå til fanen **Mottakere**.
+1. Start med å åpne utsendelsen du vil sende på nytt, og gå til fanen **Mottakere**.
 
-Her kan du f.eks. filtrere og velge mottakere med statusen **Returnert** og **Sendt**.
+1. Filtrer mottakerlisten ved å bruke filterknappen nederst til høyre på bildet. Velg for eksempel mottakere med statusen **Returnert** og **Sendt**.
 
-Du kan filtrere mottakerlisten ved å bruke filterknappen nederst til høyre på bildet. Og du kan velge mottakerne du vil sende utsendelsen til på nytt, ved å klikke på boksen i kolonnen lengst til venstre i mottakerlisten.
+    ![Filtrere statusen til personene når du sender en utsendelse på nytt -screenshot][img2]
 
-![Filtrere statusen til personene når du sender en utsendelse på nytt -screenshot][img2]
+1. Velg mottakerne du vil sende utsendelsen til på nytt ved å klikke på boksen i kolonnen lengst til venstre i mottakerlisten.
 
-Etter at du har valgt alle mottakerne, klikker du på **Handlinger**-knappen og velger **Send på nytt til valgte**.
+    ![Send utsendelse på nytt til valgte personer -screenshot][img3]
+
+1. Klikk på **Handlinger**-knappen og velg **Send på nytt til valgte**.
 
 SuperOffice Marketing vil nå sende utsendelsen din til alle de valgte mottakerne.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
 [1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/select-to-resend.png

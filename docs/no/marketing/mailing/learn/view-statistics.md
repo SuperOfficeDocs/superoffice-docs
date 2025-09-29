@@ -2,7 +2,7 @@
 uid: help-no-mailing-view-statistics
 title: Vise statistikk for utsendelse
 description: Vise statistikk for utsendelse
-keywords: Markedsføring
+keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5

@@ -1,7 +1,7 @@
 ﻿---
 uid: help-no-mailing-add-unsubscribe-link
 title: Legge til kobling for avmelding
-description: "Når du sender en utsendelse, kreves det at du gir mottakerne mulighet til å avslutte abonnementet. Her lærer du hvordan du kan legge til en kobling for avmelding i utsendelsen din."
+description: Når du sender en utsendelse, kreves det at du gir mottakerne mulighet til å avslutte abonnementet. Her lærer du hvordan du kan legge til en kobling for avmelding i utsendelsen din.
 keywords: markedsføring
 author: SuperOffice Product and Engineering
 date: 09.26.2025

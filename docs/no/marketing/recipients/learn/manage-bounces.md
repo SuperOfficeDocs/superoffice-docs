@@ -132,4 +132,4 @@ Bruk dette alternativet for å angi en person som tidligere ansatt.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
