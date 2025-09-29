@@ -1,14 +1,17 @@
 ﻿---
 uid: help-de-mailing-create
 title: Neue Kampagne erstellen
-description: "Um ein Marketingkampagnen zu versenden, müssen Sie nur fünf einfache Schritte befolgen. Das Einrichten einer Kampagne umfasst das Erstellen der Kampagne, das Ausfüllen grundlegender Informationen und das Auswählen einer Vorlage."
-keywords: Marketing, Kampagne
+description: Um ein Marketingkampagnen zu versenden, müssen Sie nur fünf einfache Schritte befolgen. Das Einrichten einer Kampagne umfasst das Erstellen der Kampagne, das Ausfüllen grundlegender Informationen und das Auswählen einer Vorlage.
+keywords: Kampagne erstellen
 author: SuperOffice Product and Engineering
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -28,7 +31,7 @@ Bei der Erstellung einer Kampagne, folgen Sie einem Workflow, der sich aus 5 Sc
 
 ![Der Kampagnen-Workflow -screenshot][img1]
 
-**Grün** = Schritt abgeschlossen | **Rot** = Schritt unvollständig oder übersprungen | Grau/gepunktet = Schritt nicht begonnen
+Grün (ausgefüllt) = Vollständiger Schritt | Grün (Ring) = Unvollständig oder übersprungener Schritt | Grau/gepunktet = Schritt nicht gestartet
 
 Jeder einzelne Schritt im Workflow muss abgeschlossen werden, bevor Sie mit dem nächsten Schritt fortfahren können. Sie können jedoch auf die abgeschlossenen Schritte klicken, um vor dem Senden der Kampagne Änderungen vorzunehmen.
 

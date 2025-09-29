@@ -1,14 +1,17 @@
 ﻿---
 uid: help-no-mailing-create
 title: Opprette ny utsendelse
-description: "For å sende en markedsføringsutsendelse trenger du bare å følge fem enkle trinn. Å sette opp en utsendelse innebærer å opprette utsendelsen, fylle ut grunnleggende informasjon og deretter velge en mal."
-keywords: Markedsføring, utsendelse
+description: For å sende en markedsføringsutsendelse trenger du bare å følge fem enkle trinn. Å sette opp en utsendelse innebærer å opprette utsendelsen, fylle ut grunnleggende informasjon og deretter velge en mal.
+keywords: ny utsendelse
 author: SuperOffice Product and Engineering
 date: 09.26.2025
+version: 10.5
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: no
 ---
 
@@ -28,7 +31,7 @@ Når du lager en utsendelse, følger du en arbeidsflyt som består av 5 trinn:
 
 ![Arbeidsflyten for utsendelser -screenshot][img1]
 
-**Grønt** = Fullført trinn | **Rødt** = Ufullstendig trinn eller trinn som er hoppet over | Grå/prikket = Trinn som ikke er påbegynt
+Grønn (fylt) = Fullført trinn | Grønn (ring) = Ufullstendig eller hoppet over trinn | Grå/stiplet = Trinn ikke startet
 
 Hvert trinn i arbeidsflyten må være fullført før du kan gå videre til neste trinn. Du kan imidlertid klikke på fullførte trinn for å gjøre endringer før du sender utsendelsen.
 
