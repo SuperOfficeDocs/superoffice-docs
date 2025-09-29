@@ -60,7 +60,7 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie "Person -".
 
-1. Klicken Sie auf ![Symbol][img2] oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
+1. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Sechs Punkte"></i> oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 
@@ -168,7 +168,6 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 [7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

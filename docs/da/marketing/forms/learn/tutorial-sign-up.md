@@ -60,7 +60,7 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 1. Rediger navnene på de andre felter ved behov. **Tip**: Fjern "Person -".
 
-1. Klik på ![ikon][img2] øverst i feltet, og træk det til den ønskede placering i formularen. Felterne skal have en logisk rækkefølge.
+1. Klik på <i class="ph ph-dots-six" aria-label="Seks prikker"></i> øverst i feltet, og træk det til den ønskede placering i formularen. Felterne skal have en logisk rækkefølge.
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 
@@ -168,7 +168,6 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 [7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

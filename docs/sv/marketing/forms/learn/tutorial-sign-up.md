@@ -60,7 +60,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 1. Redigera namnen på de andra fälten efter behov. **Tips!** Ta bort "Kontakt -".
 
-1. Klicka på ![ikon][img2] överst i fältet och dra den till önskad position i formuläret. Fälten ska ha en logisk ordning.
+1. Klicka på <i class="ph ph-dots-six" aria-label="Sex prickar"></i> överst i fältet och dra den till önskad position i formuläret. Fälten ska ha en logisk ordning.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 
@@ -168,7 +168,6 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 [7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png
