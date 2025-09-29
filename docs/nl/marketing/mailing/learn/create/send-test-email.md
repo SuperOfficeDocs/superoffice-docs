@@ -2,13 +2,15 @@
 uid: help-nl-mailing-send-test
 title: Testmailing door het verzenden van een testmail
 description: In deze handleiding leert u hoe u een testmailing verstuurt.
-keywords: Marketing
+keywords: test-e-mail
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 

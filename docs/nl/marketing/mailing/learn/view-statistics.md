@@ -2,7 +2,7 @@
 uid: help-nl-mailing-view-statistics
 title: Statistieken voor mailings weergeven
 description: Statistieken voor mailings weergeven
-keywords: Marketing
+keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5

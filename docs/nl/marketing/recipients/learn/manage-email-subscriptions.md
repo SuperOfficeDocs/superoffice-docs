@@ -50,11 +50,6 @@ In stap 4 van de mailingwizard, genaamd Ontvangers, kunt u precies zien wie u we
 
 Als de functie E-marketingprivacy is uitgeschakeld, betekent dit dat SuperOffice CRM toestemmingen en abonnementsvoorkeuren negeert bij het verzenden van uw mailings. Als u de functie E-marketingprivacy voor e-marketing wilt inschakelen, hebt u de rechten van de beheerder nodig.
 
-Bekijk voor meer informatie de video over hoe u de privacy-instellingen voor AVG kunt instellen in SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![In Instellingen en onderhoud kunt u de functie e-marketingprivacy inschakelen. -screenshot][img3]
 
 ## De koppeling voor afmelden toevoegen

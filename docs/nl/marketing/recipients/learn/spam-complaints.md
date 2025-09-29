@@ -2,7 +2,7 @@
 uid: help-nl-mailing-spam
 title: Spamklachten
 description: Spamklachten
-keywords: Marketing
+keywords: spamklachten
 author: SuperOffice Product and Engineering
 date: 09.26.2025
 version: 10.5
@@ -22,7 +22,6 @@ Op het tabblad **Spamklachten** worden alle ontvangers weergegeven die een e-mai
 > [!NOTE]
 > Een spamklacht resulteert in een geautomatiseerde verwijdering van de eMarketing-toestemming.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ## Waarom worden mijn mailings gerapporteerd als spam/ongewenst e-mail en wat kan ik doen?
 
 Mensen klikken om verschillende redenen op buttons voor spam (of ongewenste e-mail). Ze kunnen om bepaalde redenen in de war zijn over wie u bent, of waarom u ze e-mailt. In sommige gevallen melden mensen spam omdat ze de uitschrijf-link niet kunnen vinden.

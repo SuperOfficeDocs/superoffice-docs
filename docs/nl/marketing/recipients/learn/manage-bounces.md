@@ -132,4 +132,4 @@ Gebruik deze optie om een persoon in te stellen als voormalige werknemer.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
