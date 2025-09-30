@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-flows
 title: Marketing automation - flows
 description: Introduktion til SuperOffice Marketing automatisering og flows.
 keywords: Marketing, flow, kundesegment, kunderejse, kommunikation
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -74,8 +77,8 @@ Vælg mellem liste eller flise **visningstilstand** i nederste højre hjørne.
 
 | Ikon | Tilstand | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9] | Flise (thumbnail) | Viser et miniaturebillede af hvert flow med essentielle data. Klik på <i class="ph ph-list" aria-label="Task menu"></i> for at åbne, redigere, kopiere eller slette flowet. |
-| ![ikon][img8] | Liste (arkiv, gitter) | Viser en liste over alle flows med information præsenteret i kolonner. Du kan gruppere, filtrere og tilpasse kolonnerne ligesom i [sektion faner][12]. Højreklik for at åbne kontekstmenuen for at åbne, redigere, kopiere eller slette flowet. |
+| <i class="ph ph-squares-four" aria-label="2x2 fliser"></i> | Flise (thumbnail) | Viser et miniaturebillede af hvert flow med essentielle data. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i> for at åbne, redigere, kopiere eller slette flowet. |
+| <i class="ph ph-list" aria-label="Liste"></i> | Liste (arkiv, gitter) | Viser en liste over alle flows med information præsenteret i kolonner. Du kan gruppere, filtrere og tilpasse kolonnerne ligesom i [sektion faner][12]. Højreklik for at åbne kontekstmenuen for at åbne, redigere, kopiere eller slette flowet. |
 
 ## <a id="view"></a>Vis flow-skærmen
 
@@ -156,5 +159,3 @@ Adgang til flows og flowindhold styres af en brugers rolle og [funktionelle rett
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

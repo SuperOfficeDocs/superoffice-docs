@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-de-tutorial-sms-mailing
 title: Tutorial - SMS-Kampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine SMS-Kampagne erstellen.
 keywords: sms kampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 

@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
 description: Lær mere om, hvordan du håndterer afviste mails, i denne vejledning.
 keywords: for mange returposter, blokerede mailadresser, hård afvisning, blød afvisning, e-mails kommer tilbage
-author: SuperOffice RnD
-date: 06.26.2025
+author: SuperOffice Product and Engineering
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/mailing/learn/follow-up/manage-bounces
+language: da
 ---
 
 # Administrere returposter
@@ -129,4 +132,4 @@ Brug denne indstilling til at angive en person som fratrådt medarbejder.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png

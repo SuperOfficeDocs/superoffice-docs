@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-nl-marketing
 title: SuperOffice Marketing
 description: De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen.
 keywords: Marketing
-author: SuperOffice RnD
-date: 06.17.2024
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/learn/screen/index
+language: nl
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
@@ -24,13 +26,6 @@ Met SuperOffice Marketing kunt u het volgende maken:
 * **Mailings** (e-mails, SMS, documenten en formulierantwoorden). [Aan de slag met uw eerste mailing][5].
 * **Formulieren**. [Aan de slag met uw eerste formulier][1].
 * **Flows** (automatisering).
-
-Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
-(videolengte - 2:31)
 
 ## Info mailings
 
@@ -121,6 +116,7 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 * [Nieuwe mailing maken][5]
 * [Een nieuw formulier maken][1]
 * [Mailings en formulieren weergeven in dashboards][4]
+* [Bekijk de SuperOffice Marketing producttourvideo][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -141,3 +137,4 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

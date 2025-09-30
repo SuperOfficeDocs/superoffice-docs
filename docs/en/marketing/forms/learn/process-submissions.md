@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-en-form-submissions-process
 title: Process form submissions
 description: In this how-to guide you will learn how to process form submissions manually.
 keywords: form, form data, submission, submitted, submitter, process, data from form
 author: Bergfrid Dias
-date: 03.04.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/forms/learn/submissions/process
+language: en
 ---
 
 # Process form submissions
@@ -25,11 +28,6 @@ When a form is submitted, SuperOffice attempts to link the form to an existing c
 
 * If a match is found, you can display the contact's information, requests, sales, follow-ups, and previous chat sessions.
 * If no match is found, search for the correct contact or create a new one.
-
-Watch this video (or follow the step-by-step guide below) to learn how you can manually process a submitted web form (video length - 4:30) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Steps
 
@@ -73,9 +71,17 @@ In the **Form submission** window:
 
 4. Click **Process**.
 
-![Form submission, Data from form -screenshot][img1]
+## Video: manually process a submitted web form
 
-## Related topics
+Watch this demo to see how to manually process a submitted web form.
+(This video shows a previous version of SuperOffice, so the design may look different. The steps are the same.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(video length - 4:30)
+
+## Related content
 
 * [Track form submissions and view statistics][1]
 * [Analyze your mailing results][4]
@@ -86,4 +92,3 @@ In the **Form submission** window:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

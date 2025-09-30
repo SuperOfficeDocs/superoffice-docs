@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-de-mailing-tracked-links
 title: Überwachte Links
-description: "Ein in eine Kampagne eingefügter Link kann verwendet werden, um die Antworten Ihrer Kunden und Interessenten zu verfolgen. Wenn die Empfänger Ihrer Kampagne auf den Link klicken, wird eine Aktion ausgelöst." 
+description: Ein in eine Kampagne eingefügter Link kann verwendet werden, um die Antworten Ihrer Kunden und Interessenten zu verfolgen. Wenn die Empfänger Ihrer Kampagne auf den Link klicken, wird eine Aktion ausgelöst.
 keywords: Marketing, Kampagne, Aussendung, Newsletters, Überwachte Links
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: de
 redirect_from: /de/marketing/tracked-links/learn/examples
+language: de
 ---
 
 # Überwachte Links

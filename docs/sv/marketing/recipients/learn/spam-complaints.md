@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-mailing-spam
 title: Klagomål om skräppost
 description: Klagomål om skräppost
 keywords: Marknadsföring
-author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

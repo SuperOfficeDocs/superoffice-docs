@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-nl-marketing-add-content
 title: Inhoud toevoegen
 description: Inhoud toevoegen
 keywords: Marketing, mailing, kolom, tekstblok
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

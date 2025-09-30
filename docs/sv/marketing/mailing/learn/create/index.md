@@ -1,11 +1,17 @@
----
+﻿---
 uid: help-sv-mailing-create
 title: Skapa nytt utskick
-description: "För att skicka ett marknadsföringsutskick behöver du bara följa fem enkla steg. Att ställa in ett utskick innebär att skapa utskicket, fylla i grundläggande information och sedan välja en mall."
-author: SuperOffice RnD
-date: 02.20.2023
-keywords: Marknadsföring, utskick
+description: För att skicka ett marknadsföringsutskick behöver du bara följa fem enkla steg. Att ställa in ett utskick innebär att skapa utskicket, fylla i grundläggande information och sedan välja en mall.
+keywords: skapa utskick
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: sv
 ---
 
@@ -25,7 +31,7 @@ När du skapar ett utskick följer du ett arbetsflöde som består av 5 steg:
 
 ![Arbetsflödet för utskick -screenshot][img1]
 
-**Grönt** = Fullständigt steg | **Rött** = Ofullständigt eller överhoppat steg | Grått/prickat = Steg som inte har påbörjats
+Grön (ifylld) = Fullständigt steg | Grön (ring) = Ofullständigt eller överhoppat steg | Grå/prickad = Steg inte påbörjat
 
 Varje steg i arbetsflödet måste vara avslutat innan du kan gå vidare till nästa steg. Du kan dock klicka på fullständiga steg om du vill ändra något innan du skickar utskicket.
 
@@ -67,7 +73,7 @@ I steg fyra är du redo att [lägga till din mållista][11] som innehåller mott
 
 I det femte och sista steget bekräftar du och skickar eller schemalägger ditt utskick. Du kan antingen skicka ditt utskick direkt eller så kan du schemalägga ditt utskick.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Ange inställningar för utskick][5]
 * [Spåra utskick och visa statistik][7]

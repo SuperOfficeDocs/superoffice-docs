@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-mailing-create
 title: Create new mailing
 description: To send a marketing mailing you only have to follow five easy steps. Setting up a mailing involves creating the mailing, filling out basic information, then choosing a template.
-author: SuperOffice RnD
-date: 02.20.2023
-keywords: Marketing, mailing
-version: 10
+keywords: create mailing
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Create new mailing
@@ -28,7 +31,7 @@ When creating a mailing, you follow a workflow consisting of 5 steps:
 
 ![The mailing workflow -screenshot][img1]
 
-**Green** = Complete step | **Red** = Incomplete or skipped step | Grey/dotted = Step not started
+Green (filled )= Complete step | Green (ring) = Incomplete or skipped step | Grey/dotted = Step not started
 
 Each step in the workflow must be completed before you can move on to the next. You can, however, click on complete steps to make changes before sending the mailing.
 
@@ -70,7 +73,7 @@ In step four you are ready to [add your target list][11] containing the recipien
 
 In the fifth and final step you confirm and send or schedule your mailing. You can either send your mailing immediately or you can schedule your mailing.
 
-## What would you like to do now?
+## Related content
 
 * [Define settings for mailings][5]
 * [Track the mailing and view statistics][7]

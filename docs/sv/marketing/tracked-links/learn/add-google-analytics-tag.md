@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-mailing-add-google-analytics
 title: Så här lägger du till din Google Analytics-tagg i ett utskick
 description: I den här guiden förklarar vi hur du spårar dina besökare.
-author: Bergfrid Dias
 keywords: Marknadsföring
-date: 02.09.2024
-version: 10
+author: Bergfrid Dias
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

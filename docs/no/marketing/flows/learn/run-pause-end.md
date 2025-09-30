@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-no-flow-run-pause-end
 title: Kjør, pause og avslutt flyt
 description: Hvordan kjøre, pause, gjenoppta, avslutte og slette en SuperOffice-markedsføringsautomatiseringsflyt.
 keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause flyt, gjenoppta flyt, avslutte flyt, slette flyt, flytstatus
 author: Bergfrid Dias
-date: 02.17.2025
-version: 10.5.2
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

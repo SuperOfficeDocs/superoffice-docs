@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-flow-participants
 title: Flowteilnehmer
 description: Flowteilnehmer
 keywords: Marketing, Flow, Teilnehmer, Teilnehmerstatus, Mit Erfolg abgeschlossen, Abbruch, Einschreibung
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Flowteilnehmer

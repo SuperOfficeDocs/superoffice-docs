@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-flow-create
 title: Neuen Flow erstellen
 description: Neuen Flow erstellen
 keywords: Marketing, Flow
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
-language: de
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Neuen Flow erstellen

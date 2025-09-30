@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-en-mailing-add-tracked-link
 title: Add tracked links to message
 description: Learn how to add a tracked link to a mailing. Either use a preset tracked link to track clicks across several mailings or set up a new link only available in this mailing.
 keywords: Marketing, mailing, tracked link, special link
-author: SuperOffice RnD
-date: 11.19.2024
-version: 10.3.12
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: en
 redirect_from: /en/marketing/tracked-links/learn/add-tracked-link-to-msg
+language: en
 ---
 
 # Add tracked links to message
@@ -41,7 +43,7 @@ You can add regular (untracked) links. For text links, click <i class="ph ph-lin
 
 If you later decide you want to track these links also, select the **Track all links** option under **Tracking** in Step 1: Setup. However, these links are tracked only for the mailing in question, and will not be available for other mailings or in flows.
 
-## Related topics
+## Related content
 
 * [Create tracked links][5]
 * [Define link actions][6]

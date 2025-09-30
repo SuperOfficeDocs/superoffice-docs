@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-sv-marketing
 title: SuperOffice Marknadsföring
-description: "Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet."
+description: Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet.
 keywords: Marknadsföring
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/learn/screen/index
+language: sv
 ---
 
 # SuperOffice Marknadsföring <i class="ph ph-target" aria-hidden="true"></i>
@@ -24,13 +26,6 @@ I SuperOffice Marknadsföring kan du skapa följande:
 * **Utskick** (e-postmeddelanden, SMS, dokument och formulärsvar). [Kom igång med ditt första utskick][5].
 * **Formulär**. [Kom igång med ditt första formulär][1].
 * **Flöden** (automatisering).
-
-Titta på den här videon med en produktgenomgång och få en introduktion till funktionerna i SuperOffice Marknadsföring:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
-(videons längd – 2:31)
 
 ## Om utskick
 
@@ -117,11 +112,12 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 | Formulärinlämningar | Innehåller inskickade formulär. | [Formulärinlämningar][19] |
 | Flöden | Innehåller alla flöden och skapar nya. | [Skapa ett nytt flöde][20] |
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Skapa nytt utskick][5]
 * [Skapa nytt formulär][1]
 * [Visa utskick och formulär i dashboards][4]
+* [Titta på produktgenomgångsvideo för SuperOffice Marknadsföring][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -142,3 +138,4 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

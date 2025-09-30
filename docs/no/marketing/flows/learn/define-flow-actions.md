@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-flow-actions
 title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, automatisering, flythandling, kjør skript, fordel til eier
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing

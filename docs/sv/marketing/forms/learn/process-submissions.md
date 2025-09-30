@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-sv-form-submissions-process
 title: Behandla formulärinlämningar
 description: I den här guiden lär du dig hur du bearbetar formulärinlämningar manuellt.
 keywords: formulär, formulärinlämning, avsändar, inlämnad, data från formulär, formulärdat
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/forms/learn/submissions/process
+language: sv
 ---
 
 # Behandla formulärinlämningar
@@ -25,11 +28,6 @@ När ett formulär skickas in försöker SuperOffice att koppla formuläret till
 
 * Om en matchning hittas kan du visa kontakternas information, ärenden, försäljning, händelser och tidigare chattsessioner.
 * Om ingen matchning hittas, sök efter rätt kontakt eller skapa en ny.
-
-Titta på den här videon (eller följ steg-för-steg-guiden nedan) för att lära dig hur du manuellt kan behandla ett inskickat webbformulär (videons längd – 4:30) eller följ stegen nedan.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Steg
 
@@ -73,9 +71,17 @@ I **Formulärinlämning**-fönstret:
 
 4. Klicka på **Behandla**.
 
-![Formulärinlämningar, Data från-formulär -screenshot][img1]
+## Video: behandla ett inskickat webbformulär manuellt
 
-## Vad vill du göra nu?
+Titta på denna demo för att se hur du manuellt behandlar ett inskickat webbformulär.
+(Den här videon visar en tidigare version av SuperOffice, så designen kan se annorlunda ut. Stegen är desamma.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videons längd - 4:30)
+
+## Relaterat innehåll
 
 * [Spåra formulärinlämningar och visa statistik][1]
 * [Analysera dina utskicksresultat][4]
@@ -86,4 +92,3 @@ I **Formulärinlämning**-fönstret:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

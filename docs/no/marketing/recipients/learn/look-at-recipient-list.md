@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-mailing-recipient-list
 title: Arbeide med mottakerlisten i etterkant av utsendelsen
 description: Arbeide med mottakerlisten i etterkant av utsendelsen
-keywords: Markedsføring, mottaker
-author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+keywords: mottakerlisten, mottaker
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Se på mottakerlisten i etterkant av utsendelsen
@@ -89,7 +92,7 @@ Ved å bruke menyknappen **Handlinger** kan du legge til mottakere eller klikker
 
 Åpne utvalget eller prosjektet for å bekrefte at personene ble lagt til.
 
-## Aktuelle emner
+## Relatert innhold
 
 * [Arbeide med sporede koblinger i etterkant av utsendelsen][1]
 

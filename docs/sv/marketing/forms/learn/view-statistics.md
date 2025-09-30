@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-sv-form-view-statistics
 title: Spåra formulärinlämningar och visa statistik
 description: Spåra formulärinlämningar och visa statistik
 keywords: Formulär
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/forms/learn/submissions/track
+language: sv
 ---
 
 # Spåra formulärinlämningar och visa statistik
@@ -39,13 +42,13 @@ Om du vill se statistik om ditt formulär kan du gå till fliken **Formulär** o
 
 ## <a id="filter"></a>Filteralternativ
 
-För att arbeta mer effektivt kan du filtrera posterna för att visa en eller flera formulärstatusar eller Mina/Primära grupper. Du hittar **Filtrera**-knappen i nedre högra hörnet.
+För att arbeta mer effektivt kan du filtrera posterna för att visa en eller flera formulärstatusar eller Mina/Primära grupper. Du hittar **Filtrera**-knappen (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) i nedre högra hörnet.
 
 ![Filteralternativ för formulärinlämningar -screenshot][img1]
 
 ## Använd dashboards för att få en översikt över formulärinlämning
 
-Att ha en [dashboard för formulärinlämning][3] gör det enkelt att mäta och visualisera deras data. Med hjälp av dashboarden kan du hålla koll på resultat, trender och produktivitet. Läs mer om dashboards för formulärinlämning.
+Att ha en [dashboard för formulärinlämning][3] gör det enkelt att mäta och visualisera deras data. Med hjälp av dashboarden kan du hålla koll på resultat, trender och produktivitet.
 
 <!-- Referenced links -->
 [1]: process-submissions.md
@@ -54,5 +57,5 @@ Att ha en [dashboard för formulärinlämning][3] gör det enkelt att mäta och 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

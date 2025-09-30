@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-form-prefilled
 title: Verwenden vorausgefüllter Felder in Formularen
 description: Verwenden vorausgefüllter Felder in Formularen
 keywords: Formular, Feld, vorausgefüllt, vorausgefüllts Feld, Feldidentifikator, Feldbezeichnung
-author: SuperOffice RnD
-date: 03.18.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Verwenden vorausgefüllter Felder in Formularen

@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-sv-marketing-message-templates
 title: Arbeta med meddelandemallarna
 description: Att skapa en huvudmall (företag) är det bästa sättet att se till att alla dina utskick ser bra ut, har samma design och representerar ditt varumärke.
-keywords: marknadsföring, meddelandemall
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+keywords: meddelandemall, mall
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/learn/work-with-messages-and-templates
+language: sv
 ---
 
 # Arbeta med meddelandemallarna

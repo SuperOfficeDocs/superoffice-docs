@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-de-mailing-edit-paragraph
 title: Einen Absatz bearbeiten
 description: Einen Absatz bearbeiten
 keywords: Marketing
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Inhalt bearbeiten
@@ -26,7 +28,6 @@ audience_tooltip: SuperOffice Marketing
 1. Gehen Sie zum Schritt **Inhalt** in der Kampagne oder öffnen Sie eine Vorlage zum Bearbeiten.
 
 2. Klicken Sie auf den Text, den Sie bearbeiten möchten, damit die Textbearbeitungssymbolleiste angezeigt wird.
-![Symbol][img5]
 
 3. Bearbeiten Sie den Text mit den Schaltflächen in der Symbolleiste.
 
@@ -66,7 +67,7 @@ Sie können die folgenden Bereiche bearbeiten:
 
 Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Inhalt hinzufügen][5]
 * [Verwenden von Seriendrucktags in Nachrichten][2]
@@ -84,4 +85,3 @@ Klicken Sie auf **Weiter,** wenn Sie mit der Bearbeitung fertig sind.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

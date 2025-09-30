@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-forms-sign-up
 title: How to create a newsletter sign-up form
 description: This tutorial walks you through how to create a newsletter sign-up form in SuperOffice Marketing.
 keywords: form, double opt-in, sign-up, newsletter
 author: Bergfrid Dias
-date: 02.29.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # How to create a newsletter sign-up form
@@ -57,7 +60,7 @@ The example does not cover every field and option, but you can find comprehensiv
 
 1. Edit the names of the other fields as necessary. **Tip**: Remove "Contact -".
 
-1. Click ![icon][img2] at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
+1. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of a field and drag it to the desired position in the form. The fields should have a logical order.
 
 1. Click **Apply now** to save the form and continue editing.
 
@@ -165,7 +168,6 @@ The example does not cover every field and option, but you can find comprehensiv
 [7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

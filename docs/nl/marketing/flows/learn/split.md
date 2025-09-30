@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-flow-split
 title: Flow-controle - opsplitsen
 description: Flow-controle - opsplitsen
 keywords: Marketing, flow, opsplitsen, flow-controle, split-stap, tak, differentiëren, alle anderen
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-da-mailing-tracked-links
 title: Sporede links
 description: Et link, der sættes ind i en mailudsendelse, kan bruges til at spore besvarelser fra både eksisterende og potentielle kunder. Når modtagerne af din mailudsendelse klikker på linket, aktiveres en handling.
-author: SuperOffice RnD
 keywords: Marketing
-date: 11.19.2024
-version: 10.3.12
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/tracked-links/learn/examples
+language: da
 ---
 
 # Sporede links

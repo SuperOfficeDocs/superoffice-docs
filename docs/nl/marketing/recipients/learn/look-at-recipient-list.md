@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-mailing-recipient-list
 title: Werken met de ontvangerslijst na de mailing
 description: Werken met de ontvangerslijst na de mailing
 keywords: Marketing, ontvanger
-author: SuperOffice RnD
-date: 02.27.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

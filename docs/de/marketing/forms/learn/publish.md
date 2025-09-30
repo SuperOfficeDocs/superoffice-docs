@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-form-publish
 title: Formulare veröffentlichen
 description: Formulare veröffentlichen
 keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgefüllt, Formular einbetten, Skript-Tag, veröffentlichen
-author: SuperOffice RnD
-date: 03.18.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Formulare veröffentlichen

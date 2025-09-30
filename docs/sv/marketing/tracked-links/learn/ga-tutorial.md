@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-sv-mailing-google-analytics-tutorial
 title: Guide - enkel spårning av Google Analytics e-post
 description: Denna guide kommer att förklara hur du kan spåra resultat från en utskick med hjälp av SuperOffice och slå upp det i Google Analytics tillsammans med alla dina andra data.
 keywords: Marketing, marknadsföring, utskikt, Google Analytics, spårning, spårningslänk, UTM, kampanj, nyhetsbrev
 author: Alex Pelan
-date: 06.25.2015
-version: 8
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
-language: sv
-translation_type: MT
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
+translation_type: MT
 ---
 
 # Guide - enkel spårning av Google Analytics e-post

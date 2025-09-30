@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-flow-view-statistics
 title: Analyser dine flowresultater
 description: Analyser dine flowresultater
 keywords: Marketing, flow, flowresultat, statistik
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -40,7 +43,7 @@ For at se statistikker om dit flow, gå til fanen **Flows** og klik på flowet i
 
 * **Deltagere:** Præsenterer en [liste over alle deltagere][1] inden for flowet.
 
-## Hvad vil du gerne kontrollere?
+## Relateret indhold
 
 ### Sammenlign kampagner/flows
 
@@ -56,7 +59,7 @@ I skærmbilledet **Vis flow** er status synlig i overskriften og på **Oversigt*
 
 ### Kontroller status for alle flows
 
-Gå til **Marketing** > **Flows** og vælg arkivtilstand ![ikon][img8].
+Gå til **Marketing** > **Flows** og vælg arkivtilstand (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Se status for alle flows i arkivtilstand -screenshot][img1]
 
@@ -89,4 +92,3 @@ Gå til **Marketing** > **Sporede links**. Se [Udforsk linkklik][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

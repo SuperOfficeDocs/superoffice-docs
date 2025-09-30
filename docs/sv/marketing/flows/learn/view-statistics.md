@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-flow-view-statistics
 title: Analysera dina flödesresultat
 description: Analysera dina flödesresultat
 keywords: flöde, flödesresultat, flödesstatistik, statistik, analysera flöde, rapport, meddelandeprestanda, framgångsgrad
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -40,7 +43,7 @@ För att se statistik om ditt flöde, gå till fliken **Flöden** och klicka på
 
 * **Deltagare:** Presenterar en [lista över alla deltagare][1] inom flödet.
 
-## Vad vill du kontrollera?
+## Relaterat innehåll
 
 ### Jämför kampanjer/flöden
 
@@ -56,7 +59,7 @@ På **Visa flöde**-skärmen syns status i sidhuvudet och på fliken **Sammanfat
 
 ### Kontrollera status för alla flöden
 
-Gå till **Marknadsföring** > **Flöden** och välj arkivläge ![ikon][img8].
+Gå till **Marknadsföring** > **Flöden** och välj arkivläge (<i class="ph ph-list" aria-label="Lista"></i>).
 
 ![Visa status för alla flöden i arkivläge -screenshot][img1]
 
@@ -89,4 +92,3 @@ Gå till **Marknadsföring** > **Spårade länkar**. Se [Utforska länkklick][11
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

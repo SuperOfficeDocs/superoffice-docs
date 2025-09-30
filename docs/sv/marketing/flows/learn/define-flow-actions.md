@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-sv-flow-actions
 title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, automatisering, flödesåtgärd, kör skript, fördela till ägare
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing

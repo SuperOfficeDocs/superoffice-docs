@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-en-marketing
 title: SuperOffice Marketing
 description: The features for marketing includes mailings and web forms, and help users to gather information and to communicate better with prospects and customers. Combined, they can help you generate more leads, sell more to existing customers, and build customer loyalty.
 keywords: Marketing
-author: SuperOffice RnD
-date: 04.23.2024
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/learn/screen/index
+language: en
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
@@ -24,11 +26,6 @@ Using SuperOffice Marketing you can create the following:
 * **Mailings** (emails, SMS, documents and form responses). [Get started with your first mailing][5].
 * **Forms**. [Get started on your first form][1].
 * **Flows** (automation).
-
-Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
 
 ## About mailings
 
@@ -113,11 +110,12 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 | Form submissions | Contains submitted forms. | [Track form submissions][19] |
 | Flows | Contains all flows and create new ones. | [Create a flow][20] |
 
-## What would you like to do now?
+## Related content
 
 * [Create new mailing][5]
 * [Create a new form][1]
 * [View mailings and forms in dashboards][4]
+* [Watch the SuperOffice Marketing product tour video][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +136,4 @@ SuperOffice Marketing is offered as an online application (cloud-based) and as a
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

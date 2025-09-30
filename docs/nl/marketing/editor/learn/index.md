@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-nl-marketing-editor
 title: Editor slepen en neerzetten
 description: Editor slepen en neerzetten
 keywords: marketing, editor, sjabloonvariabele, variabelen
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/learn/editor
+language: nl
 ---
 
 # Editor slepen en neerzetten
@@ -167,5 +169,5 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

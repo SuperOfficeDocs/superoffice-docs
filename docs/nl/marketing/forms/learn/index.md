@@ -1,19 +1,23 @@
----
+﻿---
 uid: help-nl-forms
 title: Werken met formulieren
 description: SuperOffice-webformulieren zijn een geweldige manier om klantinformatie en feedback te verzamelen. Met webformulieren kunnen de mensen die uw website bezoeken contact met u opnemen en hun contactgegevens achterlaten.
 keywords: formulier, formulierverzending, dubbele opt-in
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
-redirect_from:
+redirect_from: 
+  - /nl/marketing/forms/index
   - /nl/marketing/forms/learn/examples
   - /nl/marketing/forms/learn/view
   - /nl/marketing/forms/learn/submissions/index
+language: nl
 ---
 
 # Werken met formulieren
@@ -85,7 +89,7 @@ Het scherm **Formulier weergeven** bestaat uit de volgende tabbladen:
 
 ## <a id="submissions"></a>Formulierverzendingen
 
-Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan ![pictogram][img3].
+Wanneer een formulier wordt verzonden naar een Customer Centre of website, worden de gegevens verzameld en weergegeven in het tabblad **Formulierverzendingen**. Een rood pictogram op het tabblad geeft nieuwe formulierverzendingen aan.
 
 Gebruik de filteropties onder aan de lijst om alleen verzendingen weer te geven met specifieke statuswaarden.
 
@@ -121,4 +125,3 @@ Het gebruik van de dubbele opt-in-functie garandeert dat mensen het juiste e-mai
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

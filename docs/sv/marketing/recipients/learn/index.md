@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-mailing-targets
 title: Skapa en mållista
 description: Målet med ditt utskick avgör vilken din målgrupp är. När du vet vad du vill uppnå med ditt utskick måste du skapa en specifik mållista.
 keywords: Marknadsföring, utskick
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -61,8 +64,6 @@ Att tänka på när du vill segmentera databasen:
 > [!NOTE]
 > Be din SuperOffice-administratör att redigera/lägga till listor och fält för att ytterligare avgränsa dina mållistor så att de passar alla segmenteringskriterier och fält du behöver.
 
-![Kontrollera vad en kontaktperson är intresserad av på fliken Intresse på kontaktkortet -screenshot][img1]
-
 ## <a id ="selections"></a>Urval som mållistor
 
 Använd [urval][3] för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
@@ -85,7 +86,7 @@ Till exempel kan du skapa ett dynamisk urval av alla dina kunder. Detta urval ko
 
 Dynamiska urval är särskilt användbara när du behöver **de mest aktuella datan**.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Jobba med mottagarlistan efter utskicket][8]
 * [Jobba med spårade länkar efter utskicket][9]
@@ -101,4 +102,3 @@ Dynamiska urval är särskilt användbara när du behöver **de mest aktuella da
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

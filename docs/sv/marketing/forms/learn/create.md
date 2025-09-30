@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -15,13 +18,6 @@ language: sv
 # Skapa nytt formulär
 
 Webbformulär gör det lättare att interagera med befintliga och potentiella kunder via din webbplats eller kundcenter. Du har tre alternativ: skapa ett formulär från grunden, skapa och använda en anpassad formulärmall eller välj en gratis mall från **Online Template Library** i SuperOffice Marketing.
-
-Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa ett webbformulär.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videons längd: 7:49)
 
 ## Skapa nytt (från grunden)
 
@@ -51,7 +47,7 @@ För att öka användarvänligheten och underlätta läsbarheten kan du övervä
 3. Klicka på knappen **Lägg till** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I fönstret **Lägg till post** väljer du **Visa poster**.
 5. Välj **Avsnitt** och klicka på **Lägg till**. Fönstret stängs och ett avsnitt läggs till i formuläret. Du kan också se avsnittet i förhandsgranskningen av formuläret.
-6. Klicka på ![ikon][img3] längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
+6. Klicka på <i class="ph ph-dots-six" aria-label="Six dots"></i> längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
 7. Klicka på **Använd nu** när du är klar.
 8. Upprepa steg 2-7 för att lägga till ett nytt avsnitt.
 
@@ -99,7 +95,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 5. Klicka på **Lägg till**. Fönstret stängs och fältet läggs till i formuläret och i formulärförhandsvisningen.
 
-6. Klicka på ![ikon][img3] längst upp i fältet och dra den till önskad position i formuläret.
+6. Klicka på <i class="ph ph-dots-six" aria-label="Six dots"></i> längst upp i fältet och dra den till önskad position i formuläret.
 
 7. Välj fältnamn och redigera det om det behövs. Det ursprungliga fältnamnet visas alltid längst upp till höger i fältet.
 
@@ -132,11 +128,6 @@ Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon 
 
 Dubbel anmälan (opt-in) är ett extra steg i processen för formulärinlämning som garanterar att personer skickar in rätt e-postadress.
 
-Titta på den här filmen eller följ stegen nedan för att lära dig hur du använder funktionen för dubbel anmälan i ditt webbformulär (videons längd: 3:45).
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Steg:**
 
 1. Klicka på **Aktivera dubbel anmälan**.
@@ -166,13 +157,6 @@ När en person slutför och lämnar in ett formulär ska du tacka dem och tala o
 
 Använd "Tack"-sidan för att marknadsföra andra produkter eller evenemang och länka till relevanta delar av din webbplats. Detta förbättrar användarupplevelsen och främjar kundlojalitet.
 
-Titta på den här filmen eller följ stegen nedan för att lära dig hur du lägger till en "Tack"-sida i ditt webbformulär.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videons längd: 1:48)
-
 Välj något av följande alternativ:
 
 * **Omdirigera till extern webbplats**: Ange länken till webbsidan med mer information.
@@ -193,7 +177,7 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 * Hur ska en formulärinlämning bearbetas?
 * What should happen when the form is processed?
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Publicera formulär][2]
 
@@ -205,5 +189,4 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

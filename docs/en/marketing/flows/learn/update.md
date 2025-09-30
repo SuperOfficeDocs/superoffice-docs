@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-flow-update
 title: Update flow
 description: Update flow
 keywords: flow, marketing automation, edit flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.11.2024
-version: 10.3.7
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Update flow

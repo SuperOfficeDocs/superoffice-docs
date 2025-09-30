@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-no-marketing-add-content
 title: Legg til innhold
 description: Legg til innhold
 keywords: Markedsføring, utsendelse, kolonne, Tekstblokk
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Legg til innhold
@@ -42,7 +44,7 @@ Denne seksjonen inneholder lagrede innholdsblokker, som topptekster og bunntekst
 
 Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** <i class="ph ph-floppy-disk-back" aria-label="Save block"></i>.
 
-## Redigere globalt utseende [!icon][img14]
+## Redigere globalt utseende ![icon][img14]
 
 I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.
 

@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-sv-mailing
 title: Arbeta med utskick
 description: Arbeta med utskick
 keywords: Marknadsföring
-author: SuperOffice RnD, Jeanette Small Strøm
-date: 02.26.2024
-version: 10
+author: SuperOffice Product and Engineering, Jeanette Small Strøm
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/mailing/learn/follow-up/index
+language: sv
 ---
 
 # Arbeta med utskick

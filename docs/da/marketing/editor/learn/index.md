@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-da-marketing-editor
 title: Træk og slip-editor
 description: Træk og slip-editor
 keywords: marketing, editor, skabelonvariabler, fletfelter
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/learn/editor
+language: da
 ---
 
 # Træk og slip-editor
@@ -167,5 +169,5 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

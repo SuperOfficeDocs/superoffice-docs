@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-nl-form-submissions-process
 title: Formulierverzendingen verwerken
 description: In deze handleiding leert u hoe u formulierverzendingen handmatig kunt verwerken.
 keywords: formulier, formulierverzending, formulierinzending, indiener, inzender, ingediend, gegevens van formulier, formuliergegevens
 author: Bergfrid Dias
-date: 03.19.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/forms/learn/submissions/process
+language: nl
 ---
 
 # Formulierverzendingen verwerken
@@ -25,11 +28,6 @@ Wanneer een formulier wordt ingediend, probeert SuperOffice het formulier te kop
 
 * Als er een overeenkomst wordt gevonden, kunt u de contactgegevens, verzoeken, verkopen, vervolgactiviteiten en vorige chatsessies weergeven.
 * Als er geen overeenkomst wordt gevonden, zoek dan naar het correcte persoon of maak een nieuwe aan.
-
-Bekijk deze video (of volg de stapsgewijze handleiding hieronder) om te leren hoe u een ingediend webformulier handmatig kunt verwerken (videolengte - 4:30) of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Stappen
 
@@ -73,7 +71,15 @@ In het venster **Formulierinzending**:
 
 4. Klik op **Verwerken**.
 
-![Formulierverzending, Gegevens van formulier -screenshot][img1]
+## Video: een ingediend webformulier handmatig verwerken
+
+Bekijk deze demo om te zien hoe u een ingediend webformulier handmatig verwerkt.
+(Deze video toont een vorige versie van SuperOffice, dus het ontwerp kan er anders uitzien. De stappen zijn hetzelfde.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolengte - 4:30)
 
 ## Gerelateerde inhoud
 
@@ -86,4 +92,3 @@ In het venster **Formulierinzending**:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

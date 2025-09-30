@@ -14,8 +14,6 @@ Du kan skapa och spara innehållsblock som alla dina användare kan välja mella
 * [Lägg till bilder i meddelandet][2]
 * [Testa utskicket][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

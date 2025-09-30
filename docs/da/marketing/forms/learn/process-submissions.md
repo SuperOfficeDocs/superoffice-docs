@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-da-form-submissions-process
 title: Behandling af formularindsendelser
 description: I denne vejledning lærer du, hvordan du behandler formularindsendelser manuelt.
 keywords: formular, formularindsendelse, indsendelse, indsendt, indsender, formulardata, data fra formular
 author: Bergfrid Dias
-date: 03.12.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/forms/learn/submissions/process
+language: da
 ---
 
 # Behandling af formularindsendelser
@@ -25,11 +28,6 @@ Når et formular indsendes, forsøger SuperOffice at knytte formularet til en ek
 
 * Hvis der findes en match, kan du vise kontaktinformation, sager, salg, opfølgninger og tidligere chat-sessioner.
 * Hvis der ikke findes en match, søg efter den korrekte person eller opret en ny.
-
-Se denne video (eller følg den trinvise vejledning nedenfor) for at få mere at vide om, hvordan du manuelt kan behandle en indsendt webformular (videolængde - 4:30), eller følg nedenstående trin.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Trin
 
@@ -73,7 +71,15 @@ I vinduet **Indsendelse af formular**:
 
 4. Klik på **Behandl**.
 
-![Formularindsendelse, Data fra formular -screenshot][img1]
+## Video: behandle et indsendt webformular manuelt
+
+Se denne demo for at se, hvordan du manuelt behandler en indsendt webformular.
+(Denne video viser en tidligere version af SuperOffice, så designet kan se anderledes ud. Trinnene er de samme.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolængde - 4:30)
 
 ## Relateret indhold
 
@@ -86,4 +92,3 @@ I vinduet **Indsendelse af formular**:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

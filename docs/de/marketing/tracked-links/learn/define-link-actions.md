@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-de-define-link-actions
 title: Automatisierte Linkaktionen definieren
 description: In dieser Anleitung lernen Sie, wie Sie Links in Kampagnen verwenden, um Aktionen zu automatisieren.
-keywords: Marketing, Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
+keywords: Kampagne, Aussendung, Überwachte Links, Linkaktion, automatisieren
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
@@ -53,7 +56,7 @@ Je nach Ziel und Handlungsaufforderung Ihrer Kampagne können Sie Ihre Datenbank
 Wählen Sie aus, was passieren soll, wenn der Empfänger auf den Link klickt.
 
 * **Auf neue Webseite umleiten**: Geben Sie die URL im vorgesehenen Feld ein.
-* Oder, **Benutzerdefinierten Text anzeigen**: Geben Sie den anzuzeigenden Text ein. Klicken Sie auf das Bearbeitungssymbol ![Symbol][img4], um die Rich-Text-Toolbar anzuzeigen.
+* Oder, **Benutzerdefinierten Text anzeigen**: Geben Sie den anzuzeigenden Text ein. Klicken Sie auf das symbol <i class="ph ph-text-a-underline" aria-hidden="true"></i>, um die Rich-Text-Toolbar anzuzeigen.
 * Oder, **Formular öffnen**: Wählen Sie den Namen des Formulars. Optional wählen Sie, welche Felder mit bekannten Kontaktdaten vorausgefüllt werden sollen.
 
 ## <a id="set-field"></a>Feld festlegen
@@ -111,4 +114,3 @@ In dem Skript verfügbare Variablen sind custId, linkId, shipmentId, linkUrl, li
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

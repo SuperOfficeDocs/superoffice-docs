@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-en-marketing-editor
 title: Drag and drop editor
 description: Drag and drop editor
 keywords: marketing, editor, template variable, merge tag
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/learn/editor
+language: en
 ---
 
 # Drag and drop editor
@@ -140,7 +142,7 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 
 The user guide for the old editor is located in the [SuperOffice version 10.1 help][2].
 
-## What would you like to do now?
+## Related content
 
 * [Add content][1]
 * [Edit content][5]
@@ -167,5 +169,5 @@ The user guide for the old editor is located in the [SuperOffice version 10.1 he
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

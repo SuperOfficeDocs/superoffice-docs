@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-form-prefilled
 title: Vooraf ingevulde velden in formulieren gebruiken
 description: Vooraf ingevulde velden in formulieren gebruiken
 keywords: formulier, vooraf ingevulde velden, veld-ID, veldidentificator
-author: SuperOffice RnD
-date: 03.18.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

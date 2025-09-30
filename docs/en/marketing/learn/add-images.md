@@ -1,11 +1,16 @@
----
+﻿---
 uid: help-en-marketing-add-images
 title: Add images
 description: Add images
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Marketing
+keywords: image properties
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: en
 ---
 
@@ -32,7 +37,7 @@ language: en
 > [!TIP]
 > When editing a message, you can also add images from the royalty-free image library.
 
-## What do you want to do now?
+## Related content
 
 * [Add image to a message][1]
 

@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-de-flow-run-pause-end
 title: Ausführen, pausieren und beenden des Flow
 description: Ausführen, pausieren und beenden des Flow
 keywords: Marketing, Flow, Ausführen, Pausieren, Beenden, Status
 author: Bergfrid Dias
-date: 02.17.2025
-version: 10.5.2
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

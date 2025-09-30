@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-form-actions
 title: Definer formuläråtgärder
 description: Definer formuläråtgärder
 keywords: formulär, automatisera, formuläråtgärd, formulärinlämning
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -63,7 +66,7 @@ Här kan du välja åtgärder som ska utföras när ett formulär bearbetas (aut
 > [!NOTE]
 > När du uppdaterar ett formulär, kom ihåg att det kan användas av flera kampanjer och/eller automatiserade flöden. Se till att det inte finns några duplicerade eller motstridiga åtgärder.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Publicera formulär][2]
 

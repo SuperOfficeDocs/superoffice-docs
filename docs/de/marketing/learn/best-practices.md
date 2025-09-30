@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-de-marketing-best-practices
 title: Beste Praktiken
 description: Beste Praktiken
-keywords: Marketing, E-Mail-Marketing, Nachricht, Publikum
+keywords: Marketing, E-Mail-Marketing, Nachricht, Publikum, Checkliste
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/learn/customize-for-mobile
+language: de
 ---
 
 # Beste Praktiken
@@ -41,8 +43,6 @@ Das Erstellen einer guten Nachricht, die auf Ihr Publikum abgestimmt ist, ist de
 * **Machen Sie es super einfach, sich [abzumelden][3]**. Niemand möchte Abonnenten verlieren, aber wenn jemand Ihre E-Mails nicht mehr erhalten möchte, sollte er diese Option leicht finden können. Andernfalls könnten Menschen versucht sein, Sie als SPAM zu melden, was viel schlimmer wäre.
 
 * **Stellen Sie sicher, dass die Leute Sie erkennen**. Wenn Menschen Ihre E-Mail in ihrem Posteingang betrachten, sollten sie sofort erkennen, dass sie von Ihrem Unternehmen stammt. Seien Sie wieder echt mit Ihrem Publikum. Warum sollten sie eine Nachricht von jemandem öffnen, den sie nicht kennen?
-
-![Wählen Sie vom Namen aus, um Ihre E-Mail erkennbar zu machen][img2]
 
 **Vermeiden Sie das:**
 
@@ -108,4 +108,3 @@ Um die mobil-spezifischen Einstellungen für eine Nachricht anzupassen, wählen 
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

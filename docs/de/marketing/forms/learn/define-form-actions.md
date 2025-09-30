@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-form-actions
 title: Formularaktionen definieren
 description: Formularaktionen definieren
 keywords: Formular, Automatisierung, Formularaktionen, übermittelte Formulare
-author: SuperOffice RnD
-date: 05.31.2024
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Automatisierte Formularaktionen definieren
@@ -63,7 +66,7 @@ Hier können Sie Aktionen auswählen, die bei der automatischen oder manuellen V
 > [!NOTE]
 > Wenn Sie einen Formular aktualisieren, denken Sie daran, dass er von mehreren Kampagnen und/oder automatisierten Flows verwendet werden kann. Stellen Sie sicher, dass es keine duplizierten oder widersprüchlichen Aktionen gibt.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Formulare veröffentlichen][2]
 

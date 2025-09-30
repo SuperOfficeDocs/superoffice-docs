@@ -1,11 +1,17 @@
----
+﻿---
 uid: help-da-mailing-create
 title: Oprette ny udsendelse
 description: Hvis du vil sende en marketingmail ud, skal du bare følge fem nemme trin. En opsætning af mail indebærer, at mailbeskeden skal udarbejdes, der skal udfyldes basisoplysninger, og der skal vælges en skabelon.
-author: SuperOffice RnD
-date: 02.20.2023
-keywords: Marketing, udsendelse
+keywords: create mailing
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 
@@ -25,7 +31,7 @@ Når du opretter en udsendelse, følger du et workflow der består af 5 trin:
 
 ![Workflow for udsendelser -screenshot][img1]
 
-**Grøn** = Fuldført trin | **Rød** = Trin ikke fuldført eller sprunget over | Grå/prikket = Trin ikke påbegyndt
+Grøn (udfyldt) = Fuldført trin | Grøn (ring) = Ufuldstændig eller sprunget over | Grå/prikket = Trin ikke påbegyndt
 
 Hvert trin i workflowet skal være fuldført, inden du går videre til det næste. Du kan dog klikke på færdige trin og foretage ændringer, før du sender udsendelsen.
 

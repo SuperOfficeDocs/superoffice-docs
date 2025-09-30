@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-no-mailing-add-merge-tags
 title: Legge til flettefelt i meldingen
 description: Finn ut hvordan du legger til flettefelt i utsendelsen
 keywords: Markedsføring, flettefelt, utsendelsen
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Legge til flettefelt i meldingen
@@ -30,8 +32,6 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 
 4. I listen som vises, velger du **Person** og **Fornavn**.
 
-    ![Legge til flettefelt i meldingen -screenshot][img1]
-
 5. Fortsett å legge inn tekst og sett inn ønskede flettefelt. Hvis du vil ha en liste, kan du se [variabelreferansen][2].
 
 > [!TIP]
@@ -42,5 +42,4 @@ Flettefelt kommer i mange former: de kan være kundens fornavn, firmanavn, hilse
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

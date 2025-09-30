@@ -1,19 +1,23 @@
----
+﻿---
 uid: help-no-forms
 title: Arbeide med skjemaer
 description: SuperOffice-webskjemaer er en flott måte å samle kundeinformasjon og tilbakemeldinger på. Med webskjemaer kan personer som besøker websiden din, komme i kontakt med deg og legge igjen kontaktinformasjonen sin.
 keywords: skjema, skjemainnsending, dobbel opt-in
 author: Bergfrid Dias
-date: 03.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: no
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-redirect_from:
+redirect_from: 
+  - /no/marketing/forms/index
   - /no/marketing/forms/learn/examples
   - /no/marketing/forms/learn/view
   - /no/marketing/forms/learn/submissions/index
+language: no
 ---
 
 # Arbeide med skjemaer
@@ -85,7 +89,7 @@ Skjermen **Vis skjema** består av følgende faner:
 
 ## <a id="submissions"></a>Skjemainnsendinger
 
-Når et skjema sendes fra et kundesenter eller webside samles dataene inn og vises i fanen **Skjemainnsendinger**. Et rødt ikon indikerer ny skjemainnsending ![icon][img3].
+Når et skjema sendes fra et kundesenter eller webside samles dataene inn og vises i fanen **Skjemainnsendinger**. Et rødt ikon indikerer ny skjemainnsending.
 
 Bruk filteralternativene nederst i listen for å se bare innsendinger med bestemte statuser.
 
@@ -121,4 +125,3 @@ Dette betyr at adresselisten din vil være mer pålitelig, noe som vil bidra til
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

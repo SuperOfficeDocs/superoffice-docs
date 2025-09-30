@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-de-form-submissions-process
 title: Formularübermittlungen verarbeiten
 description: In dieser Anleitung lernen Sie, wie Sie Formularübermittlungen manuell verarbeiten können.
 keywords: Formular, Formularübermittlung, Formulareinsendung, verknüpfen, Übermittler, übermittelt, Daten aus Formular, Formulardaten
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/forms/learn/submissions/process
+language: de
 ---
 
 # Formularübermittlungen verarbeiten
@@ -25,11 +28,6 @@ Wenn ein Formular eingereicht wird, versucht SuperOffice, das Formular mit einem
 
 * Wenn eine Übereinstimmung gefunden wird, können Sie Kontaktinformationen, Anfragen, Verkäufe, Folgeaufgaben und zuvor erfasste Chat-Sitzungen anzeigen.
 * Wenn keine Übereinstimmung gefunden wird, suchen Sie nach dem richtigen Person oder erstellen Sie einen neuen.
-
-Sehen Sie sich dieses Video an (oder folgen Sie der folgenden Anleitung), um zu lernen, wie Sie ein übermitteltes Web-Formular manuell verarbeiten können (Videolänge - 4:30), oder führen Sie die folgenden Schritte aus.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Schritte
 
@@ -73,7 +71,15 @@ Im **Formularübermittlung**-Fenster:
 
 4. Klicken Sie auf **Verarbeiten**.
 
-![Formularübermittlungen, Daten aus Formular -screenshot][img1]
+## Video: ein übermitteltes Web-Formular manuell verarbeiten
+
+Sehen Sie sich diese Demo an, um zu sehen, wie Sie ein übermitteltes Web-Formular manuell verarbeiten.
+(Dieses Video zeigt eine frühere Version von SuperOffice, daher kann das Design anders aussehen. Die Schritte sind dieselben.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(Videolänge - 4:30)
 
 ## Zugehörige Inhalte
 
@@ -86,4 +92,3 @@ Im **Formularübermittlung**-Fenster:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

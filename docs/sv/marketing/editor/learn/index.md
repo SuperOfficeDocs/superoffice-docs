@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-sv-marketing-editor
 title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/learn/editor
+language: sv
 ---
 
 # Dra och släpp-redigerare
@@ -140,7 +142,7 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 
 [Läs om den gamla redigeraren][2]
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägg till innehåll][1]
 * [Redigera innehåll][5]
@@ -167,5 +169,5 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

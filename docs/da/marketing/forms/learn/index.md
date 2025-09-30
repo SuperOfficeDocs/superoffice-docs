@@ -1,19 +1,23 @@
----
+﻿---
 uid: help-da-forms
 title: Arbejde med formularer
 description: SuperOffice webformularer er en fantastisk måde at indsamle kundeoplysninger og feedback på. Webformularer giver de personer, der besøger dit websted, mulighed for at komme i kontakt med dig og efterlade deres kontaktoplysninger.
 keywords: formular, formularindsendelse, dobbelt tilsagn
 author: Bergfrid Dias
-date: 03.13.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
-redirect_from:
+redirect_from: 
+  - /da/marketing/forms/index
   - /da/marketing/forms/learn/examples
   - /da/marketing/forms/learn/view
   - /da/marketing/forms/learn/submissions/index
+language: da
 ---
 
 # Arbejde med formularer
@@ -85,12 +89,12 @@ Skærmbilledet **Vis formular** består af følgende faner:
 
 ## <a id="submissions"></a>Formularindsendelser
 
-Når en formular indsendes fra et kundecenter eller websted, indsamles dataene og vises i fanen **Formularindsendelser**. Et rødt ikon på fanen angiver nye formularindsendelser ![ikon][img3]
+Når en formular indsendes fra et kundecenter eller websted, indsamles dataene og vises i fanen **Formularindsendelser**. Et rødt ikon på fanen angiver nye formularindsendelser.
 
 Brug filterindstillingerne nederst på listen for kun at vise indsendelser med bestemte statusser.
 
 > [!NOTE]
-> Du kan også[vise indsendelser for enkelte formularer][5] ved at åbne en formular i fanen **Formularer**.
+> Du kan også [vise indsendelser for enkelte formularer][5] ved at åbne en formular i fanen **Formularer**.
 
 ### <a id="status"></a>Status
 
@@ -121,4 +125,3 @@ Det betyder, at din mailingliste bliver mere pålidelig, hvilket vil hjælpe med
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

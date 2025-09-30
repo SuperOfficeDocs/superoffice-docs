@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-en-mailing
 title: Work with mailings
 description: Work with mailings
 keywords: Marketing, mailing
-author: SuperOffice RnD, Jeanette Small Strøm
-date: 02.12.2024
-version: 10
+author: SuperOffice Product and Engineering, Jeanette Small Strøm
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: en
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/follow-up/index
+language: en
 ---
 
 # Work with mailings

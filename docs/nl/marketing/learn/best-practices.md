@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-nl-marketing-best-practices
 title: Beste praktijken
 description: Beste praktijken
-keywords: Marketing, marketingcampagne, publiek, berichten
+keywords: Marketing, beste praktijken, checklist
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 06.17.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/learn/customize-for-mobile
+language: nl
 ---
 
 # Beste praktijken
@@ -41,8 +43,6 @@ Het maken van een goede boodschap die relevant is voor uw publiek is waar het al
 * **Maak het super eenvoudig om [af te melden][3]**. Niemand wil abonnees verliezen, maar als iemand uw e-mails niet meer wil ontvangen, moeten ze die optie eenvoudig kunnen vinden. Zo niet, dan zouden mensen geneigd kunnen zijn om u als SPAM te rapporteren, wat veel erger is.
 
 * **Zorg ervoor dat mensen u herkennen**. Wanneer mensen naar uw e-mail in hun inbox kijken, zouden ze meteen moeten herkennen dat deze van uw bedrijf is. Wees opnieuw echt met uw publiek. Waarom zouden ze een bericht openen van iemand die ze niet kennen?
-
-![Selecteer een afzendernaam om uw e-mail herkenbaar te maken][img2]
 
 **Vermijd:**
 
@@ -108,4 +108,3 @@ Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selectee
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

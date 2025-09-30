@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-no-mailing-view-statistics
 title: Vise statistikk for utsendelse
 description: Vise statistikk for utsendelse
-keywords: Markedsføring
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+keywords: mailing results, statistics
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/mailing/learn/follow-up/view-statistics
+language: no
 ---
 
 # Analyser resultatene av utsendelsen

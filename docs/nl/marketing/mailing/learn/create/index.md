@@ -1,11 +1,17 @@
----
+﻿---
 uid: help-nl-mailing-create
 title: Nieuwe mailing maken
 description: Om een marketing mailing te versturen hoeft u slechts vijf eenvoudige stappen te volgen. Het opzetten van een mailing omvat het maken van de mailing, het invullen van basisinformatie en vervolgens het kiezen van een sjabloon.
-author: SuperOffice RnD
-date: 02.20.2023
-keywords: Marketing, mailing
+keywords: mailing maken
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 
@@ -25,7 +31,7 @@ Wanneer u een mailing maakt, volgt u een workflow die bestaat uit 5 stappen:
 
 ![De mailing-workflow -screenshot][img1]
 
-**Groen** = Voltooide stap | **Rood** = Onvoltooide of overgeslagen stap | Grijs/gestippeld = Stap niet gestart
+Groen (gevuld) = Volledige stap | Groen (ring) = Onvolledige of overgeslagen stap | Grijs/gestippeld = Stap niet gestart
 
 Elke stap van de workflow moet zijn voltooid, voordat u naar de volgende stap kunt gaan. U kunt echter op voltooide stappen klikken om wijzigingen aan te brengen, voordat u de mailing verzendt.
 

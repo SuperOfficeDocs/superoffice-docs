@@ -1,13 +1,15 @@
----
+﻿---
 uid: help-en-forms
 title: Work with forms
 description: SuperOffice web forms are a great way to gather customer information and feedback. Web forms allow the people visiting your website to get in touch with you and leave their contact details.
 keywords: form, submission, double opt-in
 author: Bergfrid Dias
-date: 02.29.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from:
@@ -15,6 +17,7 @@ redirect_from:
   - /en/marketing/forms/learn/examples
   - /en/marketing/forms/learn/view
   - /en/marketing/forms/learn/submissions/index
+language: en
 ---
 
 # Work with forms
@@ -86,7 +89,7 @@ The **View form** screen consists of the following tabs:
 
 ## <a id="submissions"></a>Form submissions
 
-When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions ![icon][img3].
+When a form is submitted from a Customer Centre or website, the data is collected and displayed in the **Form submissions** tab. A red icon on the tab indicates new form submissions.
 
 Use the filter options at the bottom of the list to view only submissions with specific statuses.
 
@@ -122,4 +125,3 @@ This means that your mailing list will be more reliable, which will help raise t
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

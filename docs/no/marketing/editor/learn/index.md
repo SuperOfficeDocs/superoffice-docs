@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-no-marketing-editor
 title: Dra og slipp editor
 description: Dra og slipp editor
 keywords: markedsføring, redigeringsprogram, malvariabel, flettefelt
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/editor
+language: no
 ---
 
 # Dra og slipp editor
@@ -140,7 +142,7 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 
 [Les om det gamle redigeringsprogrammet][2]
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til innhold][1]
 * [Redigere innhold][5]
@@ -167,5 +169,5 @@ Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra 
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

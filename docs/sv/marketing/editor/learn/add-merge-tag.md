@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-sv-mailing-add-merge-tags
 title: Lägg till kopplingsfält i meddelandet
 description: Läs om hur du lägger till kopplingsfält i ditt utskick
 keywords: Marknadsföring, kopplingsfält
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -30,8 +32,6 @@ Kopplingsfält finns i många former: det kan vara kundens förnamn, deras före
 
 4. I listan som visas väljer du **Kontakt** och **Förnamn**.
 
-    ![Lägg till kopplingsfält i meddelandet -screenshot][img1]
-
 5. Fortsätt med resten av texten och lägg in de kopplingsfält som du behöver. En lista finns [i variabelreferensen][2].
 
 > [!TIP]
@@ -42,5 +42,4 @@ Kopplingsfält finns i många former: det kan vara kundens förnamn, deras före
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

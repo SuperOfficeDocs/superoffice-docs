@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-no-marketing-best-practices
 title: Beste praksis
 description: Beste praksis
-keywords: Markedsføring
+keywords: Markedsføring, beste praksis, sjekkliste
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 05.24.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/customize-for-mobile
+language: no
 ---
 
 # Beste praksis
@@ -41,8 +43,6 @@ redirect_from: /no/marketing/learn/customize-for-mobile
 * **Gjør det superenkelt å [melde seg av][3]**. Ingen ønsker å miste abonnenter, men hvis noen ikke ønsker å motta e-postene dine lenger, bør de kunne finne den muligheten lett. Hvis ikke kan folk bli fristet til å rapportere deg som SPAM, noe som vil være mye verre.
 
 * **Sørg for at folk kjenner igjen deg**. Når folk ser på e-posten din i innboksen deres, bør de umiddelbart kjenne igjen at den er fra selskapet ditt. Igjen, vær ekte med publikumet ditt. Hvorfor skulle de åpne en melding fra noen de ikke kjenner?
-
-![Velg avsender for å gjøre e-posten din gjenkjennbar -screenshot][img2]
 
 **Unngå:**
 
@@ -108,4 +108,3 @@ Hvis du vil justere mobilspesifikke innstillinger for en melding, velger du en s
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

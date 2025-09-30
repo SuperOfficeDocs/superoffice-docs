@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-nl-mailing-add-unsubscribe-link
 title: Koppeling voor uitschrijven toevoegen
 description: Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen.
 keywords: marketing
-author: SuperOffice RnD
-date: 02.27.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl

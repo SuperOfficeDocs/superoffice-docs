@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-nl-form-view-statistics
 title: Formulierverzendingen traceren en statistieken weergeven
 description: Formulierverzendingen traceren en statistieken weergeven
 keywords: formulier, formulierverzending, formulier weergeven
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: nl
 redirect_from: /nl/marketing/forms/learn/submissions/track
+language: nl
 ---
 
 # Formulierverzendingen traceren en statistieken weergeven
@@ -39,7 +42,7 @@ Als u de statistieken over uw formulier wilt weergeven, gaat u naar het tabblad 
 
 ## <a id="filter"></a>Formulierverzendingen filteren
 
-Om efficiënter te werken, kunt u de records filteren om één of meer formulierstatussen of Mijn/Primaire groepen weer te geven. U vindt de **Filter**-knop in de rechterbenedenhoek.
+Om efficiënter te werken, kunt u de records filteren om één of meer formulierstatussen of Mijn/Primaire groepen weer te geven. U vindt de **Filter**-knop (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) in de rechterbenedenhoek.
 
 ![Filteropties voor formulierinzendingen -screenshot][img1]
 
@@ -54,5 +57,5 @@ Met een [dashboard voor formulierverzending][3] is het eenvoudig om de bijbehore
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-no-marketing
 title: SuperOffice Marketing
-description: "Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet."
+description: Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet.
 keywords: Markedsføring
-author: SuperOffice RnD
-date: 05.24.2024
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/screen/index
+language: no
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
@@ -24,11 +26,6 @@ Ved hjelp av SuperOffice Marketing kan du opprette følgende:
 * **Utsendelser** (e-post, SMS, dokumenter og skjemasvar). [Kom i gang med den første utsendelsen][5].
 * **Skjemaer**. [Kom i gang med det første skjemaet][1].
 * **Flyter** (automatisering).
-
-Se denne produktomvisningen på video og få en introduksjon til funksjonene i SuperOffice Marketing (videolengde – 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
 
 ## Om utsendelser
 
@@ -113,11 +110,12 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 | Skjemainnsendinger | Inneholder innsendte skjemaer. | [Skjemainnsendinger][19] |
 | Flyter | Inneholder alle flyter og oppretter nye. | [Opprette ny flyt][20] |
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Lage ny utsendelse][5]
 * [Opprette et nytt skjema][1]
 * [Vise utsendelser og skjemaer i dashboard][4]
+* [Se produktomvisningsvideoen for SuperOffice Marketing][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +136,4 @@ SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lok
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

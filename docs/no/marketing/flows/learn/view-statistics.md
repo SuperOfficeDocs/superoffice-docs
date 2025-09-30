@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-flow-view-statistics
-title: View statistics for flow
-description:
+title: Analyser resultatene for flyt
+description: Analyser resultatene for flyt
 keywords: flyt, markedsføringsautomasjon, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 05.24.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Analyser resultatene for flyt
@@ -40,7 +43,7 @@ For å se statistikk om flyten din, gå til **Flyter**-fanen og klikk på flyten
 
 * **Deltakere:** Presenterer en [liste av alle deltakere][1] i flyten.
 
-## Hva vil du sjekke?
+## Relatert innhold
 
 ### Sammenligne kampanjer/flyter
 
@@ -56,7 +59,7 @@ I **Vis flyt**-skjermen er status synlig i toppteksten og på **Oversikt**-fanen
 
 ### Sjekke status for alle flyter
 
-Gå til **Markedsføring** > **Flyter** og velg arkivmodus ![ikon][img8].
+Gå til **Markedsføring** > **Flyter** og velg arkivmodus (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Vis status for alle flyter i arkivmodus -screenshot][img1]
 
@@ -89,4 +92,3 @@ Gå til **Markedsføring** > **Sporede lenker**. Se [Utforsk lenkeklikk][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

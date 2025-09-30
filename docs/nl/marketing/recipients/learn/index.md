@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-mailing-targets
 title: Een doellijst maken
 description: Het doel van uw mailing bepaalt uw doelgroep. Nadat u weet wat u met uw mailing wilt bereiken, moet u een specifieke doellijst maken.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -61,8 +64,6 @@ Waar u aan moet denken als u uw database wilt segmenteren:
 > [!NOTE]
 > Vraag uw SuperOffice-beheerder om lijsten en velden te bewerken/toe te voegen om uw doellijsten verder te verfijnen zodat ze voldoen aan alle segmentatiecriteria en velden die u nodig hebt.
 
-![Controleer wat de interesses van een contactpersoon zijn op het tabblad Interesse op de persoonskaart -screenshot][img1]
-
 ## <a id ="selections"></a>Selecties als doellijsten
 
 Gebruik [selecties][3] om uw doellijsten te maken om ervoor te zorgen dat u de juiste doelgroep hebt om uw mailings te ontvangen.
@@ -101,4 +102,3 @@ Dynamische selecties zijn bijzonder nuttig wanneer u **de meest actuele gegevens
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

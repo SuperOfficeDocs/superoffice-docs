@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-nl-mailing-add-merge-tags
 title: Voeg variabelen toe aan uw bericht
 description: Meer informatie over het toevoegen van variabelen aan uw mailing
 keywords: Marketing, variabelen, bericht
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -30,8 +32,6 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 
 4. In de lijst die wordt weergegeven, selecteert u **Persoon** en **Voornaam**.
 
-    ![Voeg variabelen toe aan uw bericht -screenshot][img1]
-
 5. Blijf tekst invoeren en de gewenste variabelen invoegen. Zie [de variabeleverwijzing][2] voor een lijst.
 
 > [!TIP]
@@ -42,5 +42,4 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

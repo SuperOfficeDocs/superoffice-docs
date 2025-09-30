@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-mailing-recipient-list
 title: Work with the recipient list after the mailing
 description: Work with the recipient list after the mailing
 keywords: Marketing, recipient
-author: SuperOffice RnD
-date: 02.09.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Look at recipient list after the mailing
@@ -87,7 +90,7 @@ Using the **Action** button you can add recipients and clickers to a selection o
 4. Write the name of the new selection or project.
 5. Click **OK**.
 
-## Related topics
+## Related content
 
 * [Work with tracked links after the mailing][1]
 

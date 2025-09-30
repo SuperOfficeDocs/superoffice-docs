@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-sv-mailing-edit-paragraph
 title: Redigera ett avsnitt
 description: Redigera ett avsnitt
 keywords: Marknadsföring
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -26,7 +28,6 @@ language: sv
 1. Gå till steget **Innehåll** i utskicket eller öppna en mall för redigering.
 
 2. Klicka på texten som du vill redigera så att verktygsfältet för textredigering visas.
-![ikon][img5]
 
 3. Redigera texten med hjälp av knapparna i verktygsfältet.
 
@@ -66,7 +67,7 @@ Du kan redigera följande avsnitt:
 
 Klicka på **Nästa** om du är klar med redigeringen.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägg till innehåll][5]
 * [Använd kopplingsfält i meddelanden][2]
@@ -84,4 +85,3 @@ Klicka på **Nästa** om du är klar med redigeringen.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

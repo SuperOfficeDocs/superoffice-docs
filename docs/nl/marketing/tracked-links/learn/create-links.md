@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-mailing-create-tracked-link
 title: Gevolgde links maken
 description: Gevolgde links maken
 keywords: Marketing, koppelingen, mailing, gevolgde links
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
