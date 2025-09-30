@@ -13,6 +13,10 @@ license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: 
+  - /de/marketing/forms/index
+  - /de/marketing/forms/learn/examples
+  - /de/marketing/forms/learn/view
+  - /de/marketing/forms/learn/submissions/index
 language: de
 ---
 
