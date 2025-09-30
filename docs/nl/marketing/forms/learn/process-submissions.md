@@ -71,8 +71,6 @@ In het venster **Formulierinzending**:
 
 4. Klik op **Verwerken**.
 
-![Formulierverzending, Gegevens van formulier -screenshot][img1]
-
 ## Video: een ingediend webformulier handmatig verwerken
 
 Bekijk deze demo om te zien hoe u een ingediend webformulier handmatig verwerkt.
@@ -94,4 +92,3 @@ Bekijk deze demo om te zien hoe u een ingediend webformulier handmatig verwerkt.
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

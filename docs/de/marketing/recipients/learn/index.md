@@ -64,8 +64,6 @@ Woran Sie denken sollten, wenn Sie Ihre Datenbank segmentieren möchten:
 > [!NOTE]
 > Bitten Sie Ihren SuperOffice-Administrator, Listen und Felder zu bearbeiten/hinzuzufügen, um Ihre Ziellisten weiter einzugrenzen, damit sie den von Ihnen benötigten Segmentierungskriterien und Feldern entsprechen.
 
-![Überprüfen Sie die Interessen einer Person in der Registerkarte Interessen auf der Personenkarte -screenshot][img1]
-
 ## <a id ="selections"></a>Selektionen als Ziellisten
 
 Verwenden Sie [Selektionen][3], um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
@@ -104,4 +102,3 @@ Dynamische Selektionlmöglichkeiten sind besonders nützlich, wenn Sie **die akt
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

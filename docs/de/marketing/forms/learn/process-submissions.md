@@ -71,8 +71,6 @@ Im **Formularübermittlung**-Fenster:
 
 4. Klicken Sie auf **Verarbeiten**.
 
-![Formularübermittlungen, Daten aus Formular -screenshot][img1]
-
 ## Video: ein übermitteltes Web-Formular manuell verarbeiten
 
 Sehen Sie sich diese Demo an, um zu sehen, wie Sie ein übermitteltes Web-Formular manuell verarbeiten.
@@ -94,4 +92,3 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie ein übermitteltes Web-Formul
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

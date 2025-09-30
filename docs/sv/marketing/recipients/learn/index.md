@@ -64,8 +64,6 @@ Att tänka på när du vill segmentera databasen:
 > [!NOTE]
 > Be din SuperOffice-administratör att redigera/lägga till listor och fält för att ytterligare avgränsa dina mållistor så att de passar alla segmenteringskriterier och fält du behöver.
 
-![Kontrollera vad en kontaktperson är intresserad av på fliken Intresse på kontaktkortet -screenshot][img1]
-
 ## <a id ="selections"></a>Urval som mållistor
 
 Använd [urval][3] för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
@@ -104,4 +102,3 @@ Dynamiska urval är särskilt användbara när du behöver **de mest aktuella da
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

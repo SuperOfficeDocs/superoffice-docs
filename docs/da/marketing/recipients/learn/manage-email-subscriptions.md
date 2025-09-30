@@ -50,11 +50,6 @@ I mailudsendelsesguidens trin 4, der hedder Modtagere, kan du se præcis, hvem d
 
 Hvis funktionen Beskyttelse af personoplysninger for E-Marketing er slået FRA, betyder det, at SuperOffice CRM vil se bort fra samtykker og abonnementspræferencer, når du sender dine mails. Hvis du vil aktivere funktionen Beskyttelse af personoplysninger for e-marketing, skal du have administratorrettigheder.
 
-Hvis du vil vide mere, kan du se videoen om, hvordan du kan konfigurere privatlivsindstillingerne for GDPR i SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![Under Indstillinger og vedligeholdelse kan du aktivere funktionen til beskyttelse af personoplysninger for e-marketing. -screenshot][img3]
 
 ## Bruge afmeldingslinket

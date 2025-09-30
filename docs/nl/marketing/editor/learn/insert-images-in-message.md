@@ -33,7 +33,7 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 
 2. Selecteer **Inhoud** ![pictogram][img1] in het zijpaneel.
 
-3. Klik en sleep het **Afbeeldingsblok** ![pictogram][img1] naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
+3. Klik en sleep het **Afbeeldingsblok** ![pictogram][img2] naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
 
 4. Klik op het blok in het bericht.
 

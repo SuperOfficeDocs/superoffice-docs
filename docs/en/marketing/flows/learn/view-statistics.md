@@ -44,6 +44,7 @@ To view statistics about your flow, go to the **Flows** tab and click the flow i
 * **Participants:** Presents a [list of all participants][1] within the flow.
 
 ## Related content
+
 ### Compare campaigns/flows
 
 Go to **Marketing** > **Flows** and select archive mode.

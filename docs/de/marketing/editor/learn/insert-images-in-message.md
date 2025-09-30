@@ -33,7 +33,7 @@ Nachdem Sie ein Bild hinzugefügt haben, können Sie Eigenschaften, wie zum Beis
 
 2. Wählen Sie in der Seitenleiste den **Inhalt** ![Symbol][img1] aus.
 
-3. Klicken und ziehen Sie den **Bild**-Block ![Symbol][img1] in den entsprechenden Bereich in der Mitteilung. Sie müssen nun das zu verwendende Bild auswählen.
+3. Klicken und ziehen Sie den **Bild**-Block ![Symbol][img2] in den entsprechenden Bereich in der Mitteilung. Sie müssen nun das zu verwendende Bild auswählen.
 
 4. Klicken Sie auf den Block in der Nachricht.
 

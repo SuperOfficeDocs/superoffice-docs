@@ -71,8 +71,6 @@ I **Formulärinlämning**-fönstret:
 
 4. Klicka på **Behandla**.
 
-![Formulärinlämningar, Data från-formulär -screenshot][img1]
-
 ## Video: behandla ett inskickat webbformulär manuellt
 
 Titta på denna demo för att se hur du manuellt behandlar ett inskickat webbformulär.
@@ -94,4 +92,3 @@ Titta på denna demo för att se hur du manuellt behandlar ett inskickat webbfor
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

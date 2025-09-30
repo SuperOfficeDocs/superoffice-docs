@@ -33,7 +33,7 @@ After adding an image, you can add properties, such as a certain action, when th
 
 2. Select **Content** (![icon][img1]) in the side-panel.
 
-3. Click and drag the **Image** block (![icon][img1]) to the relevant section in the message. You must now select the image to use.
+3. Click and drag the **Image** block (![icon][img2]) to the relevant section in the message. You must now select the image to use.
 
 4. Click the block in the message.
 

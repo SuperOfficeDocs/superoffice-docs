@@ -33,7 +33,7 @@ Etter at du har lagt til et bilde, kan du legge til egenskaper, for eksempel en 
 
 2. Velg **Innhold** ![ikon][img1] i sidepanelet.
 
-3. Klikk og dra **bildeblokken** ![(ikon)][img1] til den aktuelle delen i meldingen. Du må nå velge bildet du vil bruke.
+3. Klikk og dra **bildeblokken** ![(ikon)][img2] til den aktuelle delen i meldingen. Du må nå velge bildet du vil bruke.
 
 4. Klikk på blokken i meldingen.
 

@@ -64,8 +64,6 @@ Waar u aan moet denken als u uw database wilt segmenteren:
 > [!NOTE]
 > Vraag uw SuperOffice-beheerder om lijsten en velden te bewerken/toe te voegen om uw doellijsten verder te verfijnen zodat ze voldoen aan alle segmentatiecriteria en velden die u nodig hebt.
 
-![Controleer wat de interesses van een contactpersoon zijn op het tabblad Interesse op de persoonskaart -screenshot][img1]
-
 ## <a id ="selections"></a>Selecties als doellijsten
 
 Gebruik [selecties][3] om uw doellijsten te maken om ervoor te zorgen dat u de juiste doelgroep hebt om uw mailings te ontvangen.
@@ -104,4 +102,3 @@ Dynamische selecties zijn bijzonder nuttig wanneer u **de meest actuele gegevens
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

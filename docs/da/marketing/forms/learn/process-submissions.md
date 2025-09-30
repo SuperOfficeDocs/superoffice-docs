@@ -71,8 +71,6 @@ I vinduet **Indsendelse af formular**:
 
 4. Klik på **Behandl**.
 
-![Formularindsendelse, Data fra formular -screenshot][img1]
-
 ## Video: behandle et indsendt webformular manuelt
 
 Se denne demo for at se, hvordan du manuelt behandler en indsendt webformular.
@@ -94,4 +92,3 @@ Se denne demo for at se, hvordan du manuelt behandler en indsendt webformular.
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

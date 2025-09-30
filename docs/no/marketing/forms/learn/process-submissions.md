@@ -71,8 +71,6 @@ I **Skjemainnlevering**-vinduet:
 
 4. Klikk på **Behandle**.
 
-![Skjemainnsending, Data fra skjema -screenshot][img1]
-
 ## Video: behandle et innsendt webskjema manuelt
 
 Se denne demoen for å se hvordan du behandler et innsendt webskjema manuelt.
@@ -94,4 +92,3 @@ Se denne demoen for å se hvordan du behandler et innsendt webskjema manuelt.
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

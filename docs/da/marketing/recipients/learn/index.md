@@ -64,8 +64,6 @@ Det du skal tænke på, når du vil segmentere databasen:
 > [!NOTE]
 > Bed din SuperOffice-administrator om at redigere/tilføje lister og felter for yderligere at indsnævre dine mållister, så de passer til de segmenteringskriterier og felter, du har brug for.
 
-![Tjek, hvad din kontaktpersons interesser er, under fanen Interesse på visitkortet -screenshot][img1]
-
 ## <a id ="selections"></a>Markeringer til mållister
 
 Markér et [udvalg][3] af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
@@ -104,4 +102,3 @@ Dynamiske udvalg er særligt nyttige, når du har brug for **de mest aktuelle da
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

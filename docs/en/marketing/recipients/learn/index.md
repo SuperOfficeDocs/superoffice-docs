@@ -64,8 +64,6 @@ What to think of when you want to segment your database:
 > [!NOTE]
 > Ask your SuperOffice Administrator to edit/add lists and fields to further narrow down your target lists to fit any segmentation criteria and fields you need.
 
-![Check what a contact person's interests are in the Interest tab on the Contact card -screenshot][img1]
-
 ## <a id ="selections"></a>Selections as target lists
 
 Use [selections][3] to create your target lists to make sure you have the correct audience to receive your mailings.
@@ -104,4 +102,3 @@ Dynamic selections are particularly useful when you need **the most current data
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

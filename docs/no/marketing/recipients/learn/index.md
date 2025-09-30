@@ -64,8 +64,6 @@ Hva du bør tenke på når du vil segmentere databasen:
 > [!NOTE]
 > Be SuperOffice-administratoren om å redigere/legge til lister og felt for å begrense mållistene ytterligere slik at de passer til segmenteringskriteriene og feltene som du trenger.
 
-![Finn ut hvilke interesser en person har i fanen Interesse på personkortet -screenshot][img1]
-
 ## <a id ="selections"></a>Utvalg som mållister
 
 Bruk [utvalgene][3] til å opprette mållistene dine for å sikre at du har riktig målgruppe for utsendelsene.
@@ -104,4 +102,3 @@ Dynamiske utvalg er spesielt nyttige når du trenger **de mest oppdaterte dataen
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

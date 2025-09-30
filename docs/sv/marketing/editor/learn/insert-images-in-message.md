@@ -33,7 +33,7 @@ När du har lagt till en bild kan du lägga till egenskaper, till exempel en vis
 
 2. Välj **Innehåll** (![ikon][img1]) i sidopanelen.
 
-3. Klicka och dra **Bild**-blocket (![ikon][img1]) till det relevanta avsnittet i meddelandet. Du måste nu välja vilken bild som ska användas.
+3. Klicka och dra **Bild**-blocket (![ikon][img2]) till det relevanta avsnittet i meddelandet. Du måste nu välja vilken bild som ska användas.
 
 4. Klicka på blocket i meddelandet.
 

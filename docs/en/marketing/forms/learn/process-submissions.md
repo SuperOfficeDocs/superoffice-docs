@@ -71,8 +71,6 @@ In the **Form submission** window:
 
 4. Click **Process**.
 
-![Form submission, Data from form -screenshot][img1]
-
 ## Video: manually process a submitted web form
 
 Watch this demo to see how to manually process a submitted web form.
@@ -84,6 +82,7 @@ Watch this demo to see how to manually process a submitted web form.
 (video length - 4:30)
 
 ## Related content
+
 * [Track form submissions and view statistics][1]
 * [Analyze your mailing results][4]
 
@@ -93,4 +92,3 @@ Watch this demo to see how to manually process a submitted web form.
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png
