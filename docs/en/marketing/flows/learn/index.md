@@ -77,8 +77,8 @@ Choose between list or tile **view mode** in the lower-right corner.
 
 | Icon | Mode | Description |
 |:-:|---|---|
-| ![icon][img9] | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click <i class="ph ph-list" aria-label="Task menu"></i> to open, edit, copy, or delete the flow. |
-| ![icon][img8] | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, copy, or delete the flow. |
+| <i class="ph ph-squares-four" aria-label="2x2 tiles"></i> | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> to open, edit, copy, or delete the flow. |
+| <i class="ph ph-list" aria-label="List"></i> | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, copy, or delete the flow. |
 
 ## <a id="view"></a>The View flow screen
 
@@ -159,5 +159,3 @@ Access to flows and flow content is controlled by a user's role and [functional 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

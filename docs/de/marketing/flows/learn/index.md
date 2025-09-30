@@ -71,14 +71,14 @@ SuperOffice Marketing hat 1 Registerkarte, die sich auf Flows bezieht.
 
 ![Marketing-Flow-Panel -screenshot][img1]
 
-Die registerkarte *Flows** ermöglicht es Ihnen, neue Flows zu erstellen und zuvor erstellte einzusehen. Verwenden Sie die sekundäre Zeile von Registerkarten (Alle, Kürzlich, Wird ausgefürt) und das Suchfeld, um die verfügbaren Flows zu erkunden. Doppelklicken Sie auf einen Flow, um Details dazu anzuzeigen.
+Die registerkarte **Flows** ermöglicht es Ihnen, neue Flows zu erstellen und zuvor erstellte einzusehen. Verwenden Sie die sekundäre Zeile von Registerkarten (Alle, Kürzlich, Wird ausgefürt) und das Suchfeld, um die verfügbaren Flows zu erkunden. Doppelklicken Sie auf einen Flow, um Details dazu anzuzeigen.
 
 Wählen Sie zwischen der Listen- oder Kachelansicht im unteren rechten Bereich aus.
 
 | Symbol | Modus | Beschreibung |
 |:-:|---|---|
-| ![icon][img9] | Kachel (Miniaturansicht) | Zeigt eine Miniaturansicht jedes Flow mit den wichtigsten Daten an. Klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i>, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
-| ![icon][img8] | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
+| <i class="ph ph-squares-four" aria-hidden="true"></i> | Kachel (Thumbnail) | Zeigt eine Miniaturansicht jedes Flow mit wichtigen Daten an. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgaben-Menü"></i>, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
+| <i class="ph ph-list" aria-hidden="true"></i> | Liste (Archiv, Gitter) | Zeigt eine Liste aller Flows mit Informationen in Spalten an. Sie können ähnlich wie in [Bereichsregisterkarten][12] gruppieren, filtern und die Spalten anpassen. Klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen, um den Flow zu öffnen, zu bearbeiten, zu kopieren oder zu löschen. |
 
 ## <a id="view"></a>Die Ansicht Flow anzeigen
 
@@ -159,6 +159,3 @@ Der Zugriff auf Flows und Flow-Inhalte wird durch die Rolle und die [funktionale
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

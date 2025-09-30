@@ -1,7 +1,7 @@
 ﻿---
 uid: help-sv-flows
 title: Marknadsföringsautomatisering - flöden
-description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
+description: Introduktion till SuperOffice marknadsföringsautomatisering och flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
@@ -77,8 +77,8 @@ Välj mellan lista eller tiles **vy-läge** i det nedre högra hörnet.
 
 | Ikon | Läge | Beskrivning |
 |:-:|---|---|
-| ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> för att öppna, redigera, kopiera eller radera flödet. |
-| ![ikon][img8] | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera, kopiera eller radera flödet. |
+| <i class="ph ph-squares-four" aria-hidden="true"></i> | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> för att öppna, redigera, kopiera eller radera flödet. |
+| <i class="ph ph-list" aria-hidden="true"></i> | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera, kopiera eller radera flödet. |
 
 ## <a id="view"></a>Skärmen Flöde
 
@@ -159,5 +159,3 @@ Det är tillrådligt för de flesta automatiserade flöden att sätta framgångs
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

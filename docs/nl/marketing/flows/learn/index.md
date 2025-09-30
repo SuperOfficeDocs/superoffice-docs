@@ -77,8 +77,8 @@ Kies tussen de weergave in **lijst- of tegelmodus** in de rechterbenedenhoek.
 
 | Pictogram | Modus | Beschrijving |
 |:-:|---|---|
-| ![pictogram][img9] | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op <i class="ph ph-list" aria-label="Task menu"></i> om de flow te openen, bewerken, kopiëren of verwijderen. |
-| ![pictogram][img8] | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken, kopiëren of verwijderen. |
+| <i class="ph ph-squares-four" aria-label="2x2 tegels"></i> | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Taak menu"></i> om de flow te openen, bewerken, kopiëren of verwijderen. |
+| <i class="ph ph-list" aria-label="Lijst"></i> | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken, kopiëren of verwijderen. |
 
 ## <a id="view"></a>Het scherm Flow weergeven
 
@@ -159,5 +159,3 @@ Toegang tot flows en flowinhoud wordt beheerd door de rol en [functionele rechte
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png
