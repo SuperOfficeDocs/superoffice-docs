@@ -33,10 +33,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
 | [SOAP proxy client and web service endpoints][13] | Phase-out initiated | Version 12 | Switch to [SuperOffice.WebApi][23] (REST). |
-| EWS for Microsoft 365 | Phase-out initiated | Version ? | Switch to [x][x] (REST). |
-| Cloud Synchronizer – if used with the 'old' EWS connector | Phase-out initiated | Version ? | Switch to [Cloud Sync Graph][x] (REST). |
-| Onsite Synchronizer – if used with Microsoft 365 | Phase-out initiated | Version ? | Switch to [Cloud Sync Graph][x] (REST). |
-| SO Onsite + Cloud Sync EWS​ | Phase-out initiated | Version ? | Switch to [Cloud Sync Graph][x] (REST). |
+| Exchange Online Synchronizer (onsite) | Phase-out initiated | Version 3.x | Switch to [Synchronizer for SuperOffice][6] (REST). |
 
 ## Archived end-of-life notices
 
@@ -59,6 +56,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [3]: https://community.superoffice.com/en/about/contact-us/
 [4]: https://community.superoffice.com/en/support-faqs/
 [5]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/-have-you-created-web-customizations-breaking-changes-ahead/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [11]: lotus.md
 [12]: pagebuilder.md
 [13]: soap.md

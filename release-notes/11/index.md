@@ -25,10 +25,12 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 * 11.5 (13.10.2025):
   * [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
-  * [Marketing Form - Publish shows direct link in View mode][14] in Marketing
+  * [Marketing Form - View mode shows Direct link in Publish][14] in Marketing
+  * [Request types with different icons][16] in Service
 
 * 11.4 (22.09.2025):
   * [Selection - Board view for requests][10] in Core CRM and Sales
+  * [Dashboard - Copy dashboard link][10] in Core CRM and Sales
   * [Lists of contacts - Create request from a contact's context menu][11] in Service
   * [Production sandbox badge (Test environment)][10] in Core and Settings and maintenance
 
@@ -80,6 +82,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [13]: ../integrations/index.md
 [14]: marketing/11.5-update.md
 [15]: ../mobile/index.md
+[16]: service/11.5-update.md
 [17]: ../index.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/

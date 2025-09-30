@@ -16,6 +16,7 @@ audience_tooltip: SuperOffice CRM
 
 * [Selection - Board view Setting for displaying days (11.5)][5]
 * [Selection - Board view for requests (11.4)][4]
+* [Dashboard - Copy dashboard link (11.4)][4]
 * [Production sandbox badge (Test environment) (11.4)][4]
 * [Selection - Board view for projects (11.3)][3]
 * [Selection - Preview card in board view (11.3)][3]

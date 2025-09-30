@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [Request types with different icons (11.5)][5]
 * [Lists of contacts - Create request from a contact's context menu (11.4)][4]
 * [Request - Anonymise support agent (11.3)][3]
 * [Request - Reply tools in Request properties (11.2)][2]
@@ -25,3 +26,4 @@ audience_tooltip: SuperOffice Service
 [2]: 11.2-update.md
 [3]: 11.3-update.md
 [4]: 11.4-update.md
+[5]: 11.5-update.md

@@ -20,6 +20,8 @@ items:
 - name: Settings and Maintenance
   href: admin/index.md
   items:
+  - name: 11.5 update
+    href: admin/11.5-update.md
   - name: 11.3 update
     href: admin/11.3-update.md
   - name: 11.1 update
@@ -27,6 +29,8 @@ items:
 - name: Service
   href: service/index.md
   items:
+  - name: 11.5 update
+    href: service/11.5-update.md
   - name: 11.4 update
     href: service/11.4-update.md
   - name: 11.3 update
