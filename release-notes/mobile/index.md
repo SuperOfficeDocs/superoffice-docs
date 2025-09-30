@@ -20,6 +20,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
+* [Scan business card from create menu (11.1.3)][41]
 * [Follow-up - Create video meeting link (11.1.2)][40]
 * [Project - Display links (11.1.2)][40]
 * [New mobile experience (11.1.0)][39]
@@ -97,6 +98,7 @@ audience_tooltip: SuperOffice Mobile CRM
 [36]: 11.0.3-update.md
 [39]: 11.1.0-update.md
 [40]: 11.1.2-update.md
+[41]: 11.1.3-update.md
 [50]: ../../docs/en/mobile/overview.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md

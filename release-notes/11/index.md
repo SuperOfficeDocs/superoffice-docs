@@ -4,7 +4,7 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
 author: SuperOffice AS – Product and Engineering
-date: 09.22.2025
+date: 10.13.2025
 version: 11
 content_type: release-note
 audience: person
@@ -23,10 +23,14 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+* 11.5 (13.10.2025):
+  * [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
+  * [Marketing Form - Publish shows direct link in View mode][14] in Marketing
+
 * 11.4 (22.09.2025):
   * [Selection - Board view for requests][10] in Core CRM and Sales
   * [Lists of contacts - Create request from a contact's context menu][11] in Service
-  * [Production sandbox badge (Test environment)][11] in Core and Settings and maintenance
+  * [Production sandbox badge (Test environment)][10] in Core and Settings and maintenance
 
 * 11.3 (02.09.2025):
   * [Selection - Board view for projects][6] in Core CRM and Sales
@@ -34,7 +38,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
   * [Notification - New company/contact assigned][6] in Core CRM and Sales
   * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
   * [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
-  * [Marketing flow – distribute to owner step][7] in Marketing
+  * [Marketing Flow – distribute to owner step][7] in Marketing
   * [Request - Anonymise support agent][8] in Service and Settings and maintenance
   * [Preferences - Global preference to anonymise user on reply][9] in Settings and maintenance
   * [CRMScript - Trigger for Load request][9] in Settings and maintenance
@@ -72,7 +76,9 @@ Some features are available to selected customers as part of ongoing pilots. See
 [9]: admin/11.3-update.md
 [10]: core-crm/11.4-update.md
 [11]: service/11.4-update.md
+[12]: core-crm/11.5-update.md
 [13]: ../integrations/index.md
+[14]: marketing/11.5-update.md
 [15]: ../mobile/index.md
 [17]: ../index.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/

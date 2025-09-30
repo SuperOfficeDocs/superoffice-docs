@@ -4,7 +4,7 @@ title: What's new in SuperOffice Marketing 11
 description: Release notes. What's new in SuperOffice Marketing 11
 keywords: lead management
 author: SuperOffice AS – Product and Engineering
-date: 09.01.2025
+date: 10.13.2025
 version: 11
 content_type: release-note
 category: marketing
@@ -14,7 +14,9 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
+* [Marketing Form - Publish shows direct link in View mode (11.5)][5]
 * [Marketing flow – distribute to owner step (11.3)][3]
 
 <!-- Referenced links-->
 [3]: 11.3-update.md
+[5]: 11.5-update.md

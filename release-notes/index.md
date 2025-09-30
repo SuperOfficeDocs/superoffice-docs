@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Product and Engineering
-date: 09.22.2025
+date: 10.13.2025
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,7 +15,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 11.4**][11] - 22.09.2025.
+The latest release is [**version 11.5**][11] - 13.10.2025.
 
 Recent versions:
 
@@ -27,7 +27,7 @@ Older versions are listed in the table of contents.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.2**][7] - 10.09.2025.
+The latest release is [**version 11.1.3**][7] - 08.10.2025.
 
 ## Product integrations
 
@@ -35,8 +35,11 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
+* 2.6 (30.09.2025):
+  * Dark mode
+
 * 2.5 (02.09.2025):
-  * Role assignment, Simplified management, Improved security.
+  * Role assignment, Simplified management, Improved security
 
 * 2.4 (20.08.2025): Bug fixing release
 
@@ -47,9 +50,10 @@ Different integration components are released on separate schedules. See the [in
 
 ## User guides
 
-* [SuperOffice version 11 user guide][15] (available in six languages)
-* [SuperOffice for Outlook user guide][13] (available in six languages)
-* [SuperOffice Mobile CRM user guide][14] (English only)
+* [SuperOffice version 11 User guide][15] (available in six languages)
+* [SuperOffice for Outlook User guide][13] (available in six languages)
+* [SuperOffice Mobile CRM User guide][14] (English only)
+* [SuperOffice integration overview][19] (English only)
 
 ## Ongoing pilot programs
 
@@ -86,9 +90,10 @@ We use **pilot programs** to assess how well the features and functions meet our
 [13]: ../integrations/superoffice-for-outlook/index.md
 [14]: ../docs/en/mobile/superoffice-mobile/index.md
 [15]: ../docs/en/learn/index.yml
-[18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
+[18]: ../docs/en/developer-portal/widgets/index.md#publish-status
+[19]: ../integrations/index.yml
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
