@@ -18,7 +18,10 @@ audience_tooltip: SuperOffice CRM
 * [Video meetings - Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 
-[Current released versions][6]:
+> [!NOTE]
+> **Zapier - Breaking change:** Starting from version 3.5, the API response structure changes because id, body, and attachments are now moved under the new message property.
+
+### [Current released versions][6]
 
 * SharePoint Documents 3.5 (11.09.2025)
 * SuperOffice Copilot 1.9 (11.09.2025)
