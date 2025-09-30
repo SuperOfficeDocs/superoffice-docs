@@ -14,8 +14,6 @@ Du kan opprette og lagre innholdsblokker som alle brukerne dine kan velge og vra
 * [Legge til bilder i meldingen][2]
 * [Teste utsendelsen][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

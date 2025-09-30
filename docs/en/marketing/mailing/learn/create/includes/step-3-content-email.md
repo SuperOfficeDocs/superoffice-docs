@@ -14,8 +14,6 @@ You can create and save content blocks that all your users can pick and choose f
 * [Add images to the message][2]
 * [Test the mailing][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

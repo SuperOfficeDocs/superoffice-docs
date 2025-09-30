@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-tracked-links-view
 title: Arbejde med sporede links efter udsendelsen
 description: Arbejde med sporede links efter udsendelsen
 keywords: Marketing, udsendelse, sporede links
 author: Bergfrid Dias
-date: 02.26.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da

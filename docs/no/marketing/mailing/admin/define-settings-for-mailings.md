@@ -1,17 +1,20 @@
----
+﻿---
 uid: help-no-mailing-settings
 title: Angi innstillinger for utsendelser
 description: Angi innstillinger for utsendelser
 keywords: Markedsføring, innstillinger
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: reference
-language: no
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/mailing/learn/admin/define-settings-for-mailings
+language: no
+deployment: onsite
 ---
 
 # Angi innstillinger for utsendelser

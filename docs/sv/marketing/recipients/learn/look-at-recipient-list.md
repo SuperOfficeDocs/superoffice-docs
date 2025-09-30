@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-mailing-recipient-list
 title: Jobba med mottagarlistan efter utskicket
 description: Jobba med mottagarlistan efter utskicket
 keywords: Marknadsföring, mottagare
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -63,7 +66,6 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 
 Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice skickar ditt utskick till mottagarna. Status ändras till **Skickat** när det är klart.
 
-<!-- markdownlint-disable-next-line MD013 -->
 ## <a id="add-recipients"></a>Lägga till mottagare till urval eller projekt
 
 Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.

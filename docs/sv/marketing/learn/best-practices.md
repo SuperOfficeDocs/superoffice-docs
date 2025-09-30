@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-sv-marketing-best-practices
 title: Bästa praxis
 description: Bästa praxis
-keywords: Marknadsföring
+keywords: Marknadsföring, bästa praxis, checklista
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 02.25.2025
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/learn/customize-for-mobile
+language: sv
 ---
 
 # Bästa praxis
@@ -41,8 +43,6 @@ Att skapa ett bra meddelande som är relevant för din publik är där det borde
 * **Gör det superenkelt att [avregistrera sig][3]**. Ingen vill förlora prenumeranter, men om någon inte längre vill ta emot dina e-postmeddelanden bör de kunna hitta den möjligheten enkelt. Om inte kan människor frestas att rapportera dig som SPAM, vilket blir mycket värre.
 
 * **Se till att folk känner igen dig**. När folk tittar på ditt e-postmeddelande i sin inkorg bör de omedelbart känna igen att det kommer från ditt företag. Var återigen verklig med din publik. Varför skulle de öppna ett meddelande från någon de inte känner?
-
-![Välj från namn för att göra din e-post igenkännbar][img2]
 
 **Undvik:**
 
@@ -108,4 +108,3 @@ Om du vill justera de mobilspecifika inställningarna för ett meddelande, välj
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

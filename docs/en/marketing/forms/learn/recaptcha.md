@@ -1,13 +1,15 @@
----
+﻿---
 uid: help-en-form-recaptcha
 title: Google reCAPTCHA in Forms
 description: Google reCAPTCHA in Forms. Note - this page is NOT translated.
 keywords: reCAPTCHA, reCAPTCHA profile, form, Google reCAPTCHA, I'm not a robot, site key, secret key
 author: Bergfrid Dias
-date: 03.05.2024
-version: 8.5 R04
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from:
@@ -17,6 +19,7 @@ redirect_from:
   - /sv/marketing/forms/learn/recaptcha
   - /nl/marketing/forms/learn/recaptcha
   - /en/marketing/forms/recaptcha
+language: en
 ---
 
 # Google reCAPTCHA in Forms
@@ -68,7 +71,7 @@ After you press Submit, your Site key and Secret key will be shown:
 [3]: ../../../../en/api/config/googlerecaptcha.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/imagehkoheq.png
-[img2]: ../../../../media/loc/en/marketing/imagehekct.png
+[img1]: ../../../../media/loc/en/marketing/add-element-dialog.png
+[img2]: ../../../../media/loc/en/marketing/recaptcha-form-element.png
 [img3]: ../../../../media/loc/en/marketing/imagerlc6j.png
 [img4]: ../../../../media/loc/en/marketing/imagehn8rh.png

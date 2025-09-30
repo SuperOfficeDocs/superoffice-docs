@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-de-tutorial-document-mailing
 title: Tutorial - Dokumentenkampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine Dokumentkampagne erstellen.
 keywords: dokumentkampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 

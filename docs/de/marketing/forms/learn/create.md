@@ -1,25 +1,23 @@
----
+﻿---
 uid: help-de-form-create
 title: Ein neues Formular erstellen
 description: In dieser Anleitung lernen Sie, wie Sie ein Web-Formular erstellen können.
 keywords: Formular, Web-Formular, Opt-in
-author: SuperOffice RnD
-date: 03.13.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Ein neues Formular erstellen
 
 Web-Formulare erleichtern die Interaktion mit Kunden und Interessenten über Ihre Website oder Ihr Kundenzentrum. Sie haben drei Optionen: Erstellen Sie ein Formular von Grund auf, erstellen und verwenden Sie eine benutzerdefinierte Formularvorlage oder wählen Sie eine kostenlose Vorlage aus der **Online Template Library** in SuperOffice Marketing.
-
-Sehen Sie sich dieses Video an, um zu lernen, wie man ein Web-Formular erstellt (Videolänge – 7:49) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Neu erstellen (von Grund auf)
 
@@ -49,7 +47,7 @@ Um die Benutzerfreundlichkeit zu erhöhen und die Lesbarkeit zu erleichtern, kö
 3. Klicken Sie auf die Schaltfläche **Hinzufügen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Wählen Sie **Ansichtselemente** im Fenster **Elemente hinzufügen** aus.
 5. Wählen Sie **Bereich** und klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und ein Bereich wird zum Formular hinzugefügt. Sie können den Bereich auch in der Vorschau des Formulars sehen.
-6. Klicken Sie auf ![Symbol][img3] oben im Bereich und ziehen Sie ihn an die gewünschte Position auf dem Formular. Die Felder über und unter dem Bereich befinden sich auf zwei separaten Seiten des Formulars.
+6. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Six dots"></i> oben im Bereich und ziehen Sie ihn an die gewünschte Position auf dem Formular. Die Felder über und unter dem Bereich befinden sich auf zwei separaten Seiten des Formulars.
 7. Klicken Sie, sobald Sie fertig sind, auf **Aktivieren**.
 8. Gehen Sie erneut wie in Schritt 2 bis 7 erläutert vor, um einen weiteren Bereich hinzuzufügen.
 
@@ -97,7 +95,7 @@ In der Kategorie **Felder** können Sie die Felder hinzufügen, die im Formular 
 
 5. Klicken Sie auf **Hinzufügen**. Das Fenster wird geschlossen und das Feld wird zum Formular und zur Formularvorschau hinzugefügt.
 
-6. Klicken Sie auf ![Symbol][img3] oben im Feld und ziehen Sie es an die gewünschte Position auf dem Formular.
+6. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Six dots"></i> oben im Feld und ziehen Sie es an die gewünschte Position auf dem Formular.
 
 7. Falls gewünscht, wählen Sie das Feld aus und bearbeiten den Feldnamen. Die ursprüngliche Feldname wird immer im oberen Teil rechts im Feld angezeigt.
 
@@ -130,11 +128,6 @@ Die Vorschau auf der rechten Seite wird automatisch aktualisiert, wenn Sie Einst
 
 Double Opt-in ist ein zusätzlicher Schritt im Formularübermittlungsprozess, der sicherstellt, dass Personen die korrekte E-Mail-Adresse eingeben.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie man die doppelte Opt-in-Funktion an ihrem Web-Formular verwendet, (Videolänge – 3:45) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Schritte:**
 
 1. Klicken Sie auf **Doppeltes Opt-in aktivieren**.
@@ -164,11 +157,6 @@ Wenn eine Person ein Formular ausgefüllt und übermittelt hat, sollten Sie dies
 
 Verwenden Sie die "Dankeschön"-Seite, um andere Produkte oder Ereignisse zu bewerben und zu relevanten Teilen Ihrer Website zu verlinken. Dies verbessert das Kundenerlebnis und fördert die Kundentreue.
 
-Sehen Sie sich dieses Video an, um zu lernen, wie man die "Dankeschön"-Seite zu Ihrem Web-Formular hinzufügt, (Videolänge – 1:48) oder befolgen Sie folgende Schritte.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
 Wählen Sie eine der folgenden Optionen aus:
 
 * **Auf externe Website umleiten**: Geben Sie den Link zur Webseite mit weiteren Informationen ein.
@@ -189,7 +177,7 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 * Wie sollen übermittelte Formulare verarbeitet werden?
 * Was soll bei Verarbeitung des Formulars passieren?
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Formulare veröffentlichen][2]
 
@@ -201,5 +189,4 @@ Hier können Sie [festlegen, was passiert, wenn jemand ein Formularantwort sende
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

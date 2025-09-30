@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-de-mailing-targets
 title: Zielliste erstellen
 description: Das Ziel Ihrer Kampagne bestimmt Ihre Zielaudience. Nachdem Sie wissen, was Sie mit Ihrer Kampagne erreichen wollen, müssen Sie eine spezifische Zielliste erstellen.
 keywords: Marketing, Kampagne
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
@@ -61,8 +64,6 @@ Woran Sie denken sollten, wenn Sie Ihre Datenbank segmentieren möchten:
 > [!NOTE]
 > Bitten Sie Ihren SuperOffice-Administrator, Listen und Felder zu bearbeiten/hinzuzufügen, um Ihre Ziellisten weiter einzugrenzen, damit sie den von Ihnen benötigten Segmentierungskriterien und Feldern entsprechen.
 
-![Überprüfen Sie die Interessen einer Person in der Registerkarte Interessen auf der Personenkarte -screenshot][img1]
-
 ## <a id ="selections"></a>Selektionen als Ziellisten
 
 Verwenden Sie [Selektionen][3], um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
@@ -85,7 +86,7 @@ Sie könnten beispielsweise eine dynamische Selektion aller Ihrer Kunden erstell
 
 Dynamische Selektionlmöglichkeiten sind besonders nützlich, wenn Sie **die aktuellsten Daten** benötigen.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Nach der Kampagne mit der Empfängerliste arbeiten][8]
 * [Nach der Kampagne mit überwachten Links arbeiten][9]
@@ -101,4 +102,3 @@ Dynamische Selektionlmöglichkeiten sind besonders nützlich, wenn Sie **die akt
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-sv-blocked-email-addresses
 title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
 keywords: blockerade e-postadresser, studsar, för många returer, returnerade e-postmeddelanden
-author: SuperOffice RnD
-date: 06.26.2025
+author: SuperOffice Product and Engineering
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
 redirect_from: /sv/marketing/mailing/learn/follow-up/manage-bounces
+language: sv
 ---
 
 # Hantera studsar
@@ -129,4 +132,4 @@ Använd det här alternativet för att ange en kontakt som tidigare anställd.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png

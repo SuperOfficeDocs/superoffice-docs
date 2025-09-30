@@ -14,8 +14,6 @@ U kunt inhoudsblokken maken en opslaan waaruit al uw gebruikers kunnen kiezen, z
 * [Afbeeldingen toevoegen aan het bericht][2]
 * [De mailing testen][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

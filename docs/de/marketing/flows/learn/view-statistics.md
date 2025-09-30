@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-flow-view-statistics
 title: Analysieren Sie die Ergebnisse Ihres Flows
 description: Analysieren Sie die Ergebnisse Ihres Flows
 keywords: Marketing, Flow, Ergebniss, Statistik
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Analysieren Sie die Ergebnisse Ihres Flows
@@ -40,7 +43,7 @@ Um Statistiken zu Ihrem Flow anzuzeigen, gehen Sie zum Registerkarte **Flows** u
 
 * **Teilnehmer:** Präsentiert eine [Liste aller Teilnehmer][1] innerhalb des Flow.
 
-## Was möchten Sie überprüfen?
+## Verwandte Inhalte
 
 ### Vergleich von Kampagnen/Flows
 
@@ -56,7 +59,7 @@ Im Bildschirm **Flow anzeigen** ist der Status im Header und auf der Registerkar
 
 ### Status aller Flows überprüfen
 
-Gehen Sie zu **Marketing** > **Flows** und wählen Sie den Archivmodus aus ![Symbol][img8].
+Gehen Sie zu **Marketing** > **Flows** und wählen Sie den Archivmodus aus (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Status aller Flows im Archivmodus anzeigen -screenshot][img1]
 
@@ -89,4 +92,3 @@ Gehen Sie zu **Marketing** > **Verfolgte Links**. Siehe [Erkunden Sie Link-Klick
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-en-form-view-statistics
 title: Track form submissions and view statistics
 description: Track form submissions and view statistics
 keywords: form, submission, response
 author: Bergfrid Dias
-date: 10.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: en
 redirect_from: /en/marketing/forms/learn/submissions/track
+language: en
 ---
 
 # Track form submissions and view statistics
@@ -39,7 +42,7 @@ To view statistics about your form, go to the **Forms** tab and click the form i
 
 ## <a id="filter"></a>Filter the form submissions overview
 
-To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the **Filter** button in the lower-right corner.
+To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the **Filter** button (<i class="ph ph-funnel" aria-label="Funnel icon"></i>) in the lower-right corner.
 
 ![Filter options on form submissions -screenshot][img1]
 
@@ -54,5 +57,5 @@ Having a [dashboard for form submissions][3] simplifies the process of measuring
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/form-submissions-filter.png
+[img3]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img2]: ../../../../media/loc/en/marketing/form-report-dx.png
-[img3]: ../../../../media/loc/en/marketing/form-summary-dx.png

@@ -14,8 +14,6 @@ Sie können Inhaltsblöcke erstellen und speichern, aus denen alle Ihre Benutzer
 * [Bildern zur Mitteilung hinzufügen][2]
 * [Kampagne testen][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

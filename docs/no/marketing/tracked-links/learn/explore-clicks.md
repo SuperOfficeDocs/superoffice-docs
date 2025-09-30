@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-tracked-links-view
 title: Arbeide med sporede koblinger i etterkant av utsendelsen
 description: Arbeide med sporede koblinger i etterkant av utsendelsen
 keywords: Markedsføring
 author: Bergfrid Dias
-date: 02.23.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Arbeide med sporede koblinger i etterkant av utsendelsen

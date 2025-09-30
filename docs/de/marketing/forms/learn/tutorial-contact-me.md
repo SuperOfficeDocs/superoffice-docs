@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-forms-contact-me
 title: Anleitung - ein "Kontaktieren"-Formular erstellen
 description: In dieser Anleitung wird erläutert, wie Sie ein kurzes Formular für Kunden erstellen können, die sich an einen Supportmitarbeiter wenden wollen. Die Formularübermittlung löst eine neue Anfrage für Ihre Supportabteilung aus.
 keywords: Formular, Feld, Kontaktieren
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
-language: de
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Anleitung - ein "Kontaktieren"-Formular erstellen
@@ -60,7 +63,7 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie "Person -".
 
-1. Klicken Sie auf ![Symbol][img2] oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
+1. Klicken Sie auf <i class="ph ph-dots-six" aria-label="Sechs Punkte"></i> oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 
@@ -121,7 +124,6 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

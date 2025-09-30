@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-en-mailing-targets
 title: Create a target list
 description: The goal of your mailing will determine your target audience. After you know what you want to achieve with your mailing, you will need to create a specific target list.
 keywords: Marketing, mailing
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
@@ -61,8 +64,6 @@ What to think of when you want to segment your database:
 > [!NOTE]
 > Ask your SuperOffice Administrator to edit/add lists and fields to further narrow down your target lists to fit any segmentation criteria and fields you need.
 
-![Check what a contact person's interests are in the Interest tab on the Contact card -screenshot][img1]
-
 ## <a id ="selections"></a>Selections as target lists
 
 Use [selections][3] to create your target lists to make sure you have the correct audience to receive your mailings.
@@ -85,7 +86,7 @@ For instance, you could create a dynamic selection of all your customers. This s
 
 Dynamic selections are particularly useful when you need **the most current data**.
 
-## Related
+## Related content
 
 * [Work with the recipient list after the mailing][8]
 * [Work with tracked links after the mailing][9]
@@ -101,4 +102,3 @@ Dynamic selections are particularly useful when you need **the most current data
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

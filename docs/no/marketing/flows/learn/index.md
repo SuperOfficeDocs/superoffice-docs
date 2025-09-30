@@ -2,14 +2,17 @@
 uid: help-no-flows
 title: Markedsføringsautomatisering - flyter
 description: Introduksjon til markedsføringsautomatisering og flyter.
-keywords: flyt, arkedsføringsautomatisering, kampanje, suksesskriterie, segment
+keywords: flyt, markedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 09.26.2025
+version: 11.3
 content_type: concept
-language: no
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Markedsføringsautomatisering - flyter
@@ -74,8 +77,8 @@ Velg **visningsmodus** i nedre høyre hjørne.
 
 | Ikon | Modus | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9] | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på <i class="ph ph-list" aria-label="Task menu"></i> for å åpne, redigere, kopiere eller slette flyten. |
-| ![ikon][img8] | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere, kopiere eller slette flyten. |
+| <i class="ph ph-squares-four" aria-hidden="true"></i> | Flis (miniatyrbilde) | Viser en miniatyr av hver flyt med essensielle data. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> for å åpne, redigere, kopiere eller slette flyten. |
+| <i class="ph ph-list" aria-hidden="true"></i> | Liste (arkiv, rutenett) | Viser en liste av alle flyter med informasjon presentert i kolonner. Du kan gruppere, filtrere og tilpasse kolonnene på samme måte som kolonner i [detaljkort][12]. Høyreklikk for å åpne kontekstmenyen for å åpne, redigere, kopiere eller slette flyten. |
 
 ## <a id="view"></a>Skjermbildet Vis flyt
 
@@ -156,5 +159,3 @@ Tilgang til flyter og flytinnhold kontrolleres av en brukers rolle og [funksjone
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

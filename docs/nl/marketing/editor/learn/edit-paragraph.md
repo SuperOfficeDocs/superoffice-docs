@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-nl-mailing-edit-paragraph
 title: Een paragraaf bewerken
 description: Een paragraaf bewerken
 keywords: Marketing
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -26,7 +28,6 @@ language: nl
 1. Ga naar de stap **Inhoud** in de mailing of open een sjabloon voor bewerking.
 
 2. Klik op de tekst die u wilt bewerken, zodat de werkbalk voor tekstbewerking wordt weergegeven.
-![pictogram][img5]
 
 3. Bewerk de tekst met de buttons op de werkbalk.
 
@@ -84,4 +85,3 @@ Klik op **Volgende** als u klaar bent met bewerken.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

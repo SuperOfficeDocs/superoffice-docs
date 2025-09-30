@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-en-mailing-view-statistics
 title: View statistics for mailing
 description: View statistics for mailing
-keywords: Marketing
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+keywords: mailing results, statistics
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/mailing/learn/follow-up/view-statistics
+language: en
 ---
 
 # Analyze your mailing results

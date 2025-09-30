@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-da-marketing
 title: SuperOffice Marketing
 description: Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet.
-author: SuperOffice RnD
-date: 06.14.2024
-version: 10.3.5
+keywords: Marketing
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/learn/screen/index
+language: da
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
@@ -23,13 +26,6 @@ Med SuperOffice Marketing kan du oprette følgende:
 * **Udsendelser** (e-mails, SMS, dokumenter og formularbesvarelser). [Kom i gang med din første udsendelse][5].
 * **Formularer**. [Kom i gang med din første formular][1].
 * **Flows** (automatisering).
-
-Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
-
-(videoens længde - 2:31)
 
 ## Om udsendelser
 
@@ -121,6 +117,7 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 * [Oprette ny udsendelse][5]
 * [Oprette en ny formular][1]
 * [Få vist udsendelser og formularer i dashboards][4]
+* [Se videorundvisning i SuperOffice Marketing][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -141,3 +138,4 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

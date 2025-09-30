@@ -1,19 +1,23 @@
----
+﻿---
 uid: help-sv-forms
 title: Arbeta med formulär
 description: Webbformulär i SuperOffice är ett bra sätt att samla in kundinformation och återkoppling. Webbformulär gör det möjligt för personer som besöker din webbplats att komma i kontakt med dig och lämna sin kontaktinformation.
 keywords: formulär, formulärinlämnin, dubbel anmälan
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: sv
-redirect_from:
+redirect_from: 
+  - /sv/marketing/forms/index
   - /sv/marketing/forms/learn/examples
   - /sv/marketing/forms/learn/view
   - /sv/marketing/forms/learn/submissions/index
+language: sv
 ---
 
 # Arbeta med formulär
@@ -85,7 +89,7 @@ Skärmen **Visa formulär** består av följande flikar:
 
 ## <a id="submissions"></a>Formulärinlämningar
 
-När ett formulär lämnas in från ett kundcenter eller en webbplats samlas denna information in och visas på fliken **Formulärinlämningar**. En röd ikon på fliken anger nya formulärinlämningar ![ikon][img3].
+När ett formulär lämnas in från ett kundcenter eller en webbplats samlas denna information in och visas på fliken **Formulärinlämningar**. En röd ikon på fliken anger nya formulärinlämningar.
 
 På fliken **Formulärinlämningar** kan du visa alla inlämnade formulär. Använd filteralternativen längst ned i listan om du bara vill visa inlämningar med specifik status.
 
@@ -121,4 +125,3 @@ Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till
 [img1]: ../../../../media/loc/en/marketing/edit-form.png
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
-[img3]: ../../../../media/loc/en/marketing/form-notification.png

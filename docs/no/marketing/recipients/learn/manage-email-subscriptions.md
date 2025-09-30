@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-mailing-manage-subscriptions
 title: Administrere e-postabonnementer
 description: Med funksjonene for abonnementshåndtering i SuperOffice CRM kan du dokumentere hva slags innhold personene dine ønsker å motta fra deg.
-keywords: markedsføring
+keywords: e-postabonnement, abonnementshåndteringr
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: no
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Administrere e-postabonnementer
@@ -47,11 +50,6 @@ I trinn 4 i veiviseren for utsendelser, kalt Mottakere, kan du se nøyaktig hvem
 
 Hvis Personvern for e-markedsføring er slått AV, betyr det at SuperOffice CRM ignorerer samtykker og abonnementspreferanser når det sender utsendelsene dine. Hvis du vil aktivere Personvern for e-markedsføring, trenger du administratorrettigheter.
 
-Du får vite med ved å se på videoen om hvordan du konfigurerer personverninnstillingene for GDPR i SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![I Innstillinger og vedlikehold kan du slå på funksjonen Personvern for e-markedsføring. -screenshot][img3]
 
 ## Bruk koblingen for avmelding
@@ -69,7 +67,7 @@ Kunden din har kontroll over utsendelsene de mottar, og du kan sikre at du bare 
 
 Med SuperOffice CRM respekterer du personenes kommunikasjonspreferanser og sikrer at du overholder reglene i GDPR. Dermed vil du aldri risikere å få en bot på 20 000 000 euro.
 
-## Relatert
+## Relatert innhold
 
 * [GDPR og personvern][2]
 * [Personvernerklæring for SuperOffice][4]

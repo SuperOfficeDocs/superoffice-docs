@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-nl-mailing-google-analytics-tutorial
 title: Handleiding - eenvoudige Google Analytics e-mailtracking
 description: Deze handleiding zal uitleggen hoe je resultaten van een mailing kunt volgen met SuperOffice en deze kunt opzoeken in Google Analytics samen met al je andere gegevens.
 keywords: Marketing, mailing, Google Analytics, e-mailtracking, gevolgde links, tracking-ID, UTM, campagne, nieuwsbrief
 author: Alex Pelan
-date: 06.25.2015
-version: 8
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: nl
-translation_type: MT
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
+translation_type: MT
 ---
 
 # Handleiding - eenvoudige Google Analytics e-mailtracking

@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-mailing-targets
 title: Oprette en målliste
 description: Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste.
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
-date: 06.26.2025
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -61,8 +64,6 @@ Det du skal tænke på, når du vil segmentere databasen:
 > [!NOTE]
 > Bed din SuperOffice-administrator om at redigere/tilføje lister og felter for yderligere at indsnævre dine mållister, så de passer til de segmenteringskriterier og felter, du har brug for.
 
-![Tjek, hvad din kontaktpersons interesser er, under fanen Interesse på visitkortet -screenshot][img1]
-
 ## <a id ="selections"></a>Markeringer til mållister
 
 Markér et [udvalg][3] af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
@@ -85,7 +86,7 @@ For eksempel kan du oprette et dynamisk udvalg af alle dine kunder. Dette udvalg
 
 Dynamiske udvalg er særligt nyttige, når du har brug for **de mest aktuelle data**.
 
-## Relateret
+## Relateret indhold
 
 * [Arbejde med modtagerlisten efter udsendelsen][8]
 * [Arbejde med sporede links efter udsendelsen][9]
@@ -101,4 +102,3 @@ Dynamiske udvalg er særligt nyttige, når du har brug for **de mest aktuelle da
 [8]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/abigails-contact-card-interests.png

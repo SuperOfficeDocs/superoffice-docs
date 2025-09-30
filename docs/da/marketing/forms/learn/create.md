@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-form-create
 title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
-author: SuperOffice RnD
-date: 03.12.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -15,13 +18,6 @@ language: da
 # Opret en ny formular
 
 Webformularer gør det lettere at interagere med kunder og potentielle kunder via dit websted eller kundecenteret. Du har tre muligheder: opret et formular fra bunden, opret og brug en brugerdefineret formularskabelon eller vælg en gratis skabelon fra **Online Template Library** i SuperOffice Marketing.
-
-Se denne video for at lære, hvordan du kan oprette en webformular eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videoens længde - 7:49)
 
 ## Opret ny (fra bunden)
 
@@ -51,7 +47,7 @@ For at øge brugervenligheden og lette læsbarheden kan du overveje at opdele en
 3. Klik på knappen **Tilføj** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Tilføj element** vælger du **Vis elementer**.
 5. Vælg **Sektion**, og klik på **Tilføj**. Vinduet lukkes, og der føjes en sektion til formularen. Du kan også se sektionen i formulareksemplet.
-6. Klik på ![ikon][img3] øverst i sektionen, og træk det til den ønskede placering i formularen. Felterne over og under sektionen vil være på to separate sider i formularen.
+6. Klik på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i sektionen, og træk det til den ønskede placering i formularen. Felterne over og under sektionen vil være på to separate sider i formularen.
 7. Klik på **Brug nu**, når du er færdig.
 8. Gentag trin 2-7 for at tilføje en anden sektion.
 
@@ -99,7 +95,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 5. Klik på **Tilføj**. Vinduet lukkes, og feltet føjes til formularen og dens forhåndsvisning.
 
-6. Klik på ![ikon][img3] øverst i feltet, og træk det til den ønskede placering i formularen.
+6. Klik på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i feltet, og træk det til den ønskede placering i formularen.
 
 7. Vælg feltet, og rediger feltnavne, hvis det er relevant. Det oprindelige feltnavn vises altid i øverste højre hjørne af feltet.
 
@@ -132,11 +128,6 @@ Forhåndsvisningen til højre opdateres automatisk, når du ændrer indstillinge
 
 Dobbelt tilsagn (opt-in) er et ekstra trin i formularindsendelsesprocessen, der garanterer, at folk indsender den korrekte e-mailadresse.
 
-Se denne video for at lære, hvordan du bruger dobbelt tilsagnsfunktionen (videolængde - 3:45), eller følg nedenstående fremgangsmåde.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Trin:**
 
 1. Klik på **Aktiver dobbelt tilsagn**.
@@ -165,13 +156,6 @@ Hvis dobbelt tilsagn er aktiveret for en formular, får alle indsendelser af den
 Når en person har udfyldt og indsendt en formular, bør du takke vedkommende og oplyse om det næste, der skal ske. Det er altid rart at sige tak. Folk sætter virkelig pris på det.
 
 Brug "Tak"-siden til at promovere andre produkter eller begivenheder og link til relevante dele af dit websted. Dette forbedrer brugeroplevelsen og fremmer kundeloyalitet.
-
-Se denne video for at lære, hvordan du føjer en "Tak"-side til din webformular, eller følg nedenstående fremgangsmåde.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videolængde - 1:48)
 
 Vælg et af følgende alternativer:
 
@@ -205,5 +189,4 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

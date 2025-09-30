@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-de-mailing-add-merge-tags
 title: Merge Tags zu Ihrer Mitteilung hinzufügen
-description: "Lernen Sie, wie Sie Ihrer Kampagne Merge Tags hinzufügen"
+description: Lernen Sie, wie Sie Ihrer Kampagne Merge Tags hinzufügen
 keywords: Marketing
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Merge Tags zu Ihrer Mitteilung hinzufügen
@@ -30,8 +32,6 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 
 4. Wählen Sie in der angezeigten Liste **Person** und **Vorname** aus.
 
-    ![Merge Tags zu Ihrer Mitteilung hinzufügen -screenshot][img1]
-
 5. Fahren Sie mit der Eingabe des Textes fort und fügen die erforderlichen Seriendrucktags ein. Für eine Liste siehe die [Variablenreferenz][2].
 
 > [!TIP]
@@ -42,5 +42,4 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

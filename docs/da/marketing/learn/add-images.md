@@ -1,11 +1,16 @@
----
+﻿---
 uid: help-da-marketing-add-images
 title: Tilføj billeder
 description: Tilføj billeder
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Marketing
+keywords: Tilføj billed
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 
@@ -32,7 +37,7 @@ language: da
 > [!TIP]
 > Når du redigerer en meddelelse, kan du også tilføje billeder fra det royaltyfri billedbibliotek.
 
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Føj billede til en meddelelse][1]
 

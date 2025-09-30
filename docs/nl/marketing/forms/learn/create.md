@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-form-create
 title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
-author: SuperOffice RnD
-date: 03.19.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -15,13 +18,6 @@ language: nl
 # Een nieuw formulier maken
 
 Webformulieren maken het gemakkelijker om te communiceren met klanten en prospects via uw website Customer Centre. U heeft drie opties: maak een formulier vanaf nul, maak en gebruik een aangepaste formuliersjabloon of selecteer een gratis sjabloon uit de **Online Template Library** in SuperOffice Marketing.
-
-Bekijk deze video om te leren hoe u een webformulier kunt maken  of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
-
-(videolengte - 7:49)
 
 ## Nieuw maken (vanaf nul)
 
@@ -51,7 +47,7 @@ Om de gebruiksvriendelijkheid te vergroten en de leesbaarheid te verbeteren, ove
 3. Klik op de knop **Toevoegen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Selecteer in het venster **Element toevoegen** de optie **Elementen weergeven**.
 5. Selecteer **Sectie** en klik op **Toevoegen**. Het venster sluit en er wordt een sectie aan het formulier toegevoegd. U kunt de sectie ook zien in de voorbeeldweergave van het formulier.
-6. Klik op ![pictogram][img3] boven aan de sectie en sleep naar de gewenste positie in het formulier. De velden boven en onder de sectie staan op twee afzonderlijke pagina's in het formulier.
+6. Klik op <i class="ph ph-dots-six" aria-label="Six dots"></i> boven aan de sectie en sleep naar de gewenste positie in het formulier. De velden boven en onder de sectie staan op twee afzonderlijke pagina's in het formulier.
 7. Klik op **Nu toepassen** wanneer u klaar bent.
 8. Herhaal stap 2-7 om een andere sectie toe te voegen.
 
@@ -99,7 +95,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 5. Klik op **Toevoegen**. Het venster wordt gesloten en het veld wordt toegevoegd aan het formulier en het formuliervoorbeeld.
 
-6. Klik ![pictogram][img3] boven aan het veld en sleep het naar de gewenste positie in het formulier.
+6. Klik <i class="ph ph-dots-six" aria-label="Six dots"></i> boven aan het veld en sleep het naar de gewenste positie in het formulier.
 
 7. Selecteer het veld en bewerk de veldnaam indien nodig. De oorspronkelijke veldnaam wordt altijd weergegeven in de rechterbovenhoek van het veld.
 
@@ -132,11 +128,6 @@ Het voorbeeld rechts wordt automatisch bijgewerkt wanneer u instellingen wijzigt
 
 Dubbele opt-in is een extra stap in het proces voor het indienen van formulieren die garandeert dat mensen het juiste e-mailadres indienen.
 
-Bekijk deze video om te leren hoe u de dubbele opt-in-functie op uw webformulier kunt gebruiken (videolengte - 3:45) of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Stappen:**
 
 1. Klik op **Dubbele opt-in inschakelen**.
@@ -165,13 +156,6 @@ Als dubbele opt-in is geactiveerd voor een formulier, hebben alle verzendingen v
 Wanneer een persoon een formulier invult en indient, moet u hem bedanken en laten weten wat er vervolgens zal gebeuren. Het is altijd aardig om dankjewel te zeggen. Mensen waarderen het echt.
 
 Gebruik de "Dank u"-pagina om andere producten of evenementen te promoten en te linken naar relevante delen van uw website. Dit verbetert de klantervaring en bevordert de klantenbinding.
-
-Bekijk deze video om te leren hoe u een 'Dank u'-pagina toevoegt aan uw webformulier of volg de onderstaande stappen.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
-(videolengte - 1:48)
 
 Kies een van de volgende opties:
 
@@ -205,5 +189,4 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

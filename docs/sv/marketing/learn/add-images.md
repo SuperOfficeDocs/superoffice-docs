@@ -1,11 +1,15 @@
----
+﻿---
 uid: help-sv-marketing-add-images
 title: Lägga till bilder
 description: Lägga till bilder
-keywords: Marknadsföring
-author: SuperOffice RnD
-date: 02.25.2025
+keywords: bilder
+author: SuperOffice Product and Engineering
+date: 09.26.2025
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: sv
 ---
 
@@ -32,7 +36,7 @@ language: sv
 > [!TIP]
 > När du redigerar ett meddelande kan du även lägga till bilder från det royaltyfria bildbiblioteket.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägga till bild i ett meddelande][1]
 

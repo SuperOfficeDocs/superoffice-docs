@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-flow-participants
 title: Flytdeltakere
 description: En fullstendig oversikt over alle flytdeltakere.
 keywords: flyt, markedsføring, deltaker, flytdeltaker, melde på, deltakerstatus
 author: Bergfrid Dias
-date: 05.24.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: no
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Flytdeltakere

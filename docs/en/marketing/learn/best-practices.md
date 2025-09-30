@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-en-marketing-best-practices
 title: Best practices
 description: Best practices
 keywords: Marketing
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 02.19.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /en/marketing/learn/customize-for-mobile
+language: en
 ---
 
 # Best practices
@@ -41,8 +43,6 @@ Crafting a good message that is relevant to your audience is where it should all
 * **Make it super easy to [unsubscribe][3]**. No one wants to lose subscribers, but if someone does not want to receive your emails anymore, they should be able to find that option easily. If not, people may be tempted to report you as SPAM, which will be way worse.
 
 * **Make sure people recognize you**. When people look at your email in their inbox, they should immediately recognize it is from your company. Again, be real with your audience. Why would they open a message from someone they do not know?
-
-![Select from name to make your email recognizable -screenshot][img2]
 
 **Avoid:**
 
@@ -108,4 +108,3 @@ To adjust mobile-specific settings for a message, select a section in the messag
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

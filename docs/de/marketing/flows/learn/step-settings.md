@@ -1,13 +1,15 @@
----
+﻿---
 uid: help-de-flow-step-settings
 title: Schrittoptionen
 description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
-content_type: howto
-language: de
+date: 09.26.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 ---

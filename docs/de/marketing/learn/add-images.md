@@ -1,11 +1,16 @@
----
+﻿---
 uid: help-de-marketing-add-images
 title: Bilder hinzufügen
 description: Bilder hinzufügen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Marketing
+keywords: Bild hinzufugen, Bildeigenschaften
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -32,7 +37,7 @@ language: de
 > [!TIP]
 > Beim Bearbeiten einer Mitteilung können Sie auch Bilder aus der lizenzfreien Bildbibliothek hinzufügen.
 
-## Was möchten Sie als Nächstes tun?
+## Verwandte Inhalte
 
 * [Bild zu einer Mitteilung hinzufügen][1]
 

@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-form-prefilled
 title: Bruke ferdigutfylte felt i skjema
 description: Bruke ferdigutfylte felt i skjema
 keywords: skjema, felt, ferdigutfylt, forhåndsutfylling av felt, forhåndsutfylt felt, feltidentifikator
-author: SuperOffice RnD
-date: 03.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Bruke ferdigutfylte felt i skjema

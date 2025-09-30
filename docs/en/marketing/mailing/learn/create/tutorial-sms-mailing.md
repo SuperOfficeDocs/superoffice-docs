@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-en-tutorial-sms-mailing
 title: Tutorial - SMS mailing
 description: In this tutorial, you will learn to create an SMS mailing.
 keywords: sms mailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: en
 ---
 

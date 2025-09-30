@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-tracked-links-view
 title: Jobba med spårade länkar efter utskicket
 description: Jobba med spårade länkar efter utskicket
 keywords: Marknadsföring, spårade länkar, utskikt, e-postmeddeland
 author: Bergfrid Dias
-date: 02.26.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

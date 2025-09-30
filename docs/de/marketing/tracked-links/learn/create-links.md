@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-mailing-create-tracked-link
 title: Überwachte Links erstellen
 description: Überwachte Links erstellen
 keywords: Marketing, Kampagne, Aussendung, Überwachte Links
 author: Bergfrid Dias
-date: 02.27.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Überwachte Links erstellen

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-en-flow-actions
 title: Define flow actions
 description: Define flow actions
 keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

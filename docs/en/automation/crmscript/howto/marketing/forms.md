@@ -1,11 +1,11 @@
----
+﻿---
 uid: crmscript-forms
 title: Forms
 description: Working with forms in CRMScript.
 keywords: marketing, form, form action, submission
 author: Bergfrid Skaara Dias, Christian Mogensen
-date: 03.20.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
 redirect_from: /en/automation/crmscript/howto/marketing/index
 ---

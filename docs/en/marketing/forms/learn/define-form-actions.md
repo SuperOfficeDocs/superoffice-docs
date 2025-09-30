@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-form-actions
 title: Define form actions
 description: Define form actions
 keywords: form, automation, form action, form submission
 author: Bergfrid Dias
-date: 04.18.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Define form actions
@@ -63,7 +66,7 @@ Here you can select actions to perform when a form is processed (automatically o
 > [!NOTE]
 > When updating a form, keep in mind that it might be used in multiple mailings and/or automated flows. You should make sure there are no duplicate or conflicting actions.
 
-## What would you like to do now?
+## Related content
 
 * [Publish forms][2]
 

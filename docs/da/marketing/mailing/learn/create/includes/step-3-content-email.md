@@ -14,8 +14,6 @@ Du kan oprette og gemme indholdsblokke, som alle dine brugere kan vælge imellem
 * [Tilføje billeder til meddelelsen][2]
 * [Teste udsendelsen][7]
 
-[!include[Tip](tip-mailing-save-draft.md)]
-
 <!-- Referenced links -->
 [1]: ../../../../editor/learn/index.md
 [2]: ../../../../editor/learn/insert-images-in-message.md

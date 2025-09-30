@@ -1,7 +1,7 @@
----
+﻿---
 uid: help-nl-tracked-links-examples
 author: Bergfrid Dias
-date: 03.19.2024
+date: 09.26.2025
 language: nl
 redirect_url: https://docs.superoffice.com/nl/marketing/tracked-links/learn/index.html#ex
 ---

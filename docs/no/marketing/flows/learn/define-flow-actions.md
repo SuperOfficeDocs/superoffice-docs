@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-flow-actions
 title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, markedsføring, flythandling, kjør skript
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

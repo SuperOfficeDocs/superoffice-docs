@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-forms-contact-me
 title: Handleiding - Neem contact met mij op-formulier maken
 description: In dit handleiding laten we zien hoe u een kort formulier kunt maken voor klanten die in contact willen komen met een supportmedewerker. De formulierverzending zal leiden tot een nieuwe aanvraag voor uw supportafdeling.
 keywords: formulier, Neem contact met mij op
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -60,7 +63,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 1. Bewerk desgewenst de namen van de andere velden. **Tip**: Verwijder "Persoon -".
 
-1. Klik ![pictogram][img2] boven aan een veld en sleep het naar de gewenste positie in het formulier. De velden moeten een logische volgorde hebben.
+1. Klik <i class="ph ph-dots-six" aria-label="Zes stippen"></i> boven aan een veld en sleep het naar de gewenste positie in het formulier. De velden moeten een logische volgorde hebben.
 
 1. Klik op **Nu toepassen** om het formulier op te slaan en door te gaan met bewerken.
 
@@ -121,7 +124,6 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

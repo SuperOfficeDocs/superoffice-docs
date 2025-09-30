@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-mailing-manage-subscriptions
 title: Hantera e-postprenumerationer
 description: Med funktionerna för prenumerationshantering i SuperOffice CRM kan du dokumentera vilken typ av innehåll dina kontakter vill få från dig.
-keywords: marknadsföring
+keywords: prenumerationshantering
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -47,11 +50,6 @@ I steg 4 i utskicksguiden, som heter Mottagare, kan du se exakt vem som har och 
 
 Om funktionen för e-marknadsföringsintegritet är avstängd innebär det att SuperOffice CRM kommer att bortse från samtycken och prenumerationspreferenser när du skickar dina utskick. För att aktivera funktionen för e-marknadsföringsintegritet behöver du administratörsrättigheter.
 
-Om du vill veta mer kan du titta på videon om hur du konfigurerar integritetsinställningarna för GDPR i SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![I Inställningar och underhåll kan du aktivera funktionen för e-marknadsföringsintegritet. -screenshot][img3]
 
 ## Använd länken för avregistrering
@@ -67,7 +65,7 @@ Genom att klicka på den här länken kommer dina mottagare till sin sida för p
 
 Din kund har kontroll över de utskick de tar emot och du kan se till att du bara skickar dina utskick till de personer som är intresserade. Med SuperOffice CRM respekterar du dina kontakters kommunikationspreferenser och kan se till att du följer reglerna i GDPR. På så sätt riskerar du aldrig att få böter på 20 000 000 euro.
 
-## Relaterat
+## Relaterat innehåll
 
 * [GDPR och integritet][2]
 * [SuperOffice Meddelande om behandling av personuppgifter][4]

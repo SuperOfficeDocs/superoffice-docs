@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-no-define-link-actions
 title: Definere automatiske koblingshandlinger
 description: I denne veiledningen lærer du hvordan du bruker koblinger i utsendelser til å automatisere handlinger.
-keywords: Markedsføring
+keywords: koblinghandlinger
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
@@ -53,7 +56,7 @@ Basert på målet og oppfordringen til handling i e-posten din, kan du oppdatere
 Velg hva som skal skje når mottakeren klikker på koblingen.
 
 * **Omdirigere til ny webside**: Skriv inn URL-en i det angitte feltet.
-* Eller, **Vis tilpasset tekst**: Skriv inn teksten som skal vises. Klikk på ![ikon][img4] redigeringsknappen for å vise verktøylinjen for rik tekst.
+* Eller, **Vis tilpasset tekst**: Skriv inn teksten som skal vises. Klikk på <i class="ph ph-text-a-underline" aria-hidden="true"></i> for å vise verktøylinjen for rik tekst.
 * Eller, **Åpne skjema**: Velg navnet på skjemaet. Eventuelt, velg hvilke felter som skal forhåndsutfylles med kjente kontaktopplysninger.
 
 ## <a id="set-field"></a>Angi felt
@@ -110,4 +113,3 @@ Variabler tilgjengelige i skriptet inkluderer custId, linkId, shipmentId, linkUr
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

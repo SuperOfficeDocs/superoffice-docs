@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-define-link-actions
 title: Geautomatiseerde linkacties definiëren
 description: In deze handleiding leert u hoe u links in mailings kunt gebruiken om acties te automatiseren.
-keywords: Marketing, koppelingen, mailing, gevolgde links
+keywords: koppelingen, mailing, gevolgde links
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -53,7 +56,7 @@ Afhankelijk van het doel en de CTA van uw mailing kunt u uw database bijwerken. 
 Selecteer wat er moet gebeuren wanneer de ontvanger op de link klikt.
 
 * **Omleiden naar nieuwe webpagina**: Voer de URL in het daarvoor bestemde veld in.
-* Of, **Aangepaste tekst weergeven**: Voer de tekst in die moet worden weergegeven. Klik op bewerkingssymbool ![pictogram][img4] om de rich-text toolbar te tonen.
+* Of, **Aangepaste tekst weergeven**: Voer de tekst in die moet worden weergegeven. Klik op <i class="ph ph-text-a-underline" aria-hidden="true"></i> om de rich-text toolbar te tonen.
 * Of, **Formulier openen**: Selecteer de naam van het formulier. Kies eventueel welke velden vooraf ingevuld moeten worden met bekende contactgegevens.
 
 ## <a id="set-field"></a>Veld instellen
@@ -111,4 +114,3 @@ Variabelen die beschikbaar zijn in het script zijn custId, linkId, shipmentId, l
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

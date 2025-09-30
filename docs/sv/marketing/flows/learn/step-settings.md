@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-flow-step-settings
 title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
-keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.9
-content_type: howto
+keywords: steg, steginställning, stegfält
+author: Bergfrid Dias
+date: 09.26.2025
+version: 11.3
+content_type: reference
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-da-mailing-edit-paragraph
 title: Redigere et afsnit
 description: Redigere et afsnit
 keywords: Marketing
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -26,7 +28,6 @@ language: da
 1. Gå til trin **Indhold** i udsendelsen, eller åbn en skabelon til redigering.
 
 2. Klik på den tekst, du vil redigere, så værktøjslinjen til tekstredigering vises.
-![ikon][img5]
 
 3. Rediger teksten ved hjælp af knapperne på værktøjslinjen.
 
@@ -84,4 +85,3 @@ Klik på **Næste**, hvis du er færdig med at redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

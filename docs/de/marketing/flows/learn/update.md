@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-flow-update
 title: Flow aktualisieren
 description: Flow aktualisieren
 keywords: Marketing, Flow, aktualisieren
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.3.7
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Flow aktualisieren

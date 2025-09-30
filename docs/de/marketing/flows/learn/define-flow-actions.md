@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-de-flow-actions
 title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
 keywords: Marketing, Flow, Flow-Aktion, Teilnehmer aktualisieren, Nachricht senden, Skript ausführen
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 09.26.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-no-flow-step-settings
 title: Trinninnstillinger
 description: Oversikt over innstillinger for de ulike flyttrinnene.
-keywords: flyt, markedsføring, automatisering, trinn, trinninnstilling, trinnfelt
-author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+keywords: trinn, trinninnstilling, trinnfelt
+author: Bergfrid Dias, Trude Lien Smedbråten
+date: 09.26.2025
+version: 11.3
 content_type: reference
 language: no
 audience: person

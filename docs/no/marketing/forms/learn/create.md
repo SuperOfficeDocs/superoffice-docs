@@ -1,25 +1,23 @@
----
+﻿---
 uid: help-no-form-create
 title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
-author: SuperOffice RnD
-date: 02.29.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Opprette et nytt skjema
 
 Nettskjemaer gjør det enklere å samhandle med kunder og potensielle kunder via websiden eller kundesenteret. Du har tre alternativer: opprett et skjema fra bunnen av, lag og bruk en tilpasset skjemamal, eller velg en gratis mal fra **Online Template Library** i SuperOffice Marketing.
-
-Se denne videoen for å lære hvordan du kan lage et nettskjema (videolengde - 7:49) eller følg fremgangsmåten nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Opprette nytt (fra bunnen av)
 
@@ -49,7 +47,7 @@ For å øke brukervennligheten og lette lesbarheten, vurder å dele et skjema me
 3. Klikk på **Legg til**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Legg til element** velger du **Vis elementer**.
 5. Velg **Seksjon** og klikk på **Legg til** . Vinduet lukkes og en seksjon legges til i skjemaet. Du kan også se seksjonen i forhåndsvisningen av skjemaet.
-6. Klikk på ![ikonet][img3] øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
+6. Klikk på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i seksjonen og dra det til ønsket posisjon i skjemaet. Feltene over og under seksjonen vil være på to separate sider i skjemaet.
 7. Klikk på **Bruk nå** når du er ferdig.
 8. Gjenta trinn 2–7 for å legge til en annen seksjon.
 
@@ -97,7 +95,7 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 5. Klikk på **Legg til**. Vinduet lukkes, og feltet legges til skjemaet og forhåndsvisningen av skjemaet.
 
-6. Klikk på ![icon][img3] øverst i feltet og dra det til ønsket posisjon i skjemaet.
+6. Klikk på <i class="ph ph-dots-six" aria-label="Six dots"></i> øverst i feltet og dra det til ønsket posisjon i skjemaet.
 
 7. Velg feltet, og rediger eventuelt feltnavnet. Det opprinnelige feltnavnet vises alltid øverst til høyre i feltet.
 
@@ -130,11 +128,6 @@ Forhåndsvisningen til høyre oppdateres automatisk når du endrer innstillingen
 
 Dobbel opt-in (bekreftelse) er et ekstra trinn i skjemainnsendingsprosessen som vil garantere at folk sender inn riktig e-postadresse.
 
-Se denne videoen for å lære hvordan du bruker funksjonen for dobbel opt-in på webskjemaet ditt (videolengde - 3:45), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
 **Trinn:**
 
 1. Klikk på **Aktiver dobbel opt-in**.
@@ -164,11 +157,6 @@ Når en person fyller ut og sender inn et skjema, bør du takke dem og la dem f�
 
 Bruk "Takk"-siden til å promotere andre produkter eller arrangementer, og lenk til relevante deler av nettsiden din. Dette hever kundeopplevelsen og fremmer kundelojalitet.
 
-Se denne videoen for å lære hvordan du legger til en "Takk"-side i webskjemaet (videolengde - 1:48), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
 Velg ett av følgende alternativer:
 
 * **Videresend til ekstern webside:** Skriv inn koblingen til websiden med mer informasjon.
@@ -189,7 +177,7 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 * Hvordan skal en skjemainnsending behandles?
 * Hva skal skje når skjemaet behandles?
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Publisere skjemaer][2]
 
@@ -201,5 +189,4 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

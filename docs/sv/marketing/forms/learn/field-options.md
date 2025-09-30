@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-form-field-options
 title: Fältalternativ
 description: Fältalternativ
 keywords: formulär fält, formulärpost, fältalternativ, reCAPTCHA
-author: SuperOffice RnD
-date: 02.25.2025
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: reference
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv

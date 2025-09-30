@@ -1,25 +1,23 @@
----
+﻿---
 uid: help-en-form-create
 title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
 keywords: form, form template, multi-page
-author: SuperOffice RnD
-date: 02.29.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Create a new form
 
 Web forms make it easier to interact with customers and prospects via your website or customer centre. You have three options: create a form from scratch, create and use a custom form template, or select a free template from the **Online Template Library** in SuperOffice Marketing.
-
-Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Create new (from scratch)
 
@@ -49,7 +47,7 @@ To enhance user-friendliness and facilitate readability, consider dividing a for
 3. Click the **Add** button (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. In the **Add element** window, select **View elements**.
 5. Select **Section** and click **Add**. The window closes and a section is added to the form. You can also see the section In the form preview.
-6. Click ![icon][img3] at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
+6. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of the section and drag it to the desired position in the form. The fields above and below the section will be on two separate pages in the form.
 7. Click **Apply now** when you are done.
 8. Repeat steps 2-7 to add another section.
 
@@ -97,7 +95,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 5. Click **Add**. The window closes and the field is added to the form and the form preview.
 
-6. Click ![icon][img3] at the top of the field and drag it to the desired position in the form.
+6. Click <i class="ph ph-dots-six" aria-label="Six dots"></i> at the top of the field and drag it to the desired position in the form.
 
 7. Select the field and edit the field name if relevant. The original field name will always be displayed in the upper right corner of the field.
 
@@ -130,13 +128,6 @@ The preview on the right updates automatically when you change any settings. If 
 
 Double opt-in is an extra step in the form submission process that will guarantee that people submit the correct email address.
 
-Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
-
-**Steps:**
-
 1. Click **Enable double opt-in**.
 
 2. In the **Message** tab, enter the text to display after the form is submitted.
@@ -164,11 +155,6 @@ When a person completes and submits a form, you should thank them and let them k
 
 Use the "Thank You" page to promote other products or events, linking to relevant parts of your website. This enhances the user experience and fosters customer loyalty.
 
-Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
-
 Choose one of the following options:
 
 * **Redirect to external website**: Enter the link to the web page with more information.
@@ -189,7 +175,7 @@ Here you can [define what happens when someone submits a form response][3].
 * How should a form submission be processed?
 * What should happen when the form is processed?
 
-## What would you like to do now?
+## Related content
 
 * [Publish forms][2]
 
@@ -201,5 +187,4 @@ Here you can [define what happens when someone submits a form response][3].
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

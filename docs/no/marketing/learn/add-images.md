@@ -1,11 +1,15 @@
----
+﻿---
 uid: help-no-marketing-add-images
 title: Legg til bilder
 description: Legg til bilder
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Markedsføring
+keywords: legg til bilde
+author: SuperOffice Product and Engineering
+date: 09.26.2025
 content_type: howto
+category: marketing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: no
 ---
 
@@ -32,7 +36,7 @@ language: no
 > [!TIP]
 > Når du redigerer en melding, kan du også legge til bilder fra det royaltyfrie bildebiblioteket.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til bilde i en melding][1]
 

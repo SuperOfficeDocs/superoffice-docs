@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-forms-sign-up
 title: Handleiding - Aanmelden nieuwsbrief
 description: In deze handleiding zullen we een formulier maken voor klanten die zich willen aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces zal ook dubbele opt-in bevatten om foutieve of valse aanmeldingen te elimineren.
 keywords: formulier, aanmelden, nieuwsbrief
 author: Bergfrid Dias
-date: 03.18.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -57,7 +60,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 1. Bewerk desgewenst de namen van de andere velden. **Tip**: Verwijder "Persoon -".
 
-1. Klik ![pictogram][img2] boven aan een veld en sleep het naar de gewenste positie in het formulier. De velden moeten een logische volgorde hebben.
+1. Klik <i class="ph ph-dots-six" aria-label="Zes stippen"></i> boven aan een veld en sleep het naar de gewenste positie in het formulier. De velden moeten een logische volgorde hebben.
 
 1. Klik op **Nu toepassen** om het formulier op te slaan en door te gaan met bewerken.
 
@@ -165,7 +168,6 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 [7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png
 [img7]: ../../../../media/loc/en/marketing/sign-up-form-fields.png
 [img8]: ../../../../media/loc/en/marketing/sign-up-form-style.png

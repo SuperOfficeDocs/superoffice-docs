@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-en-mailing-edit-paragraph
 title: Edit a paragraph
 description: Edit a paragraph
 keywords: Marketing
-author: SuperOffice RnD
-date: 02.05.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Edit content
@@ -26,7 +28,6 @@ audience_tooltip: SuperOffice Marketing
 1. Go to the **Content** step in the mailing, or open a template for editing.
 
 2. Click the text you wish to edit, so that the text editing toolbar is shown.
-![icon][img5]
 
 3. Edit the text using the buttons in the toolbar.
 
@@ -66,7 +67,7 @@ You can edit the following sections:
 
 Click **Next** if you are done editing.
 
-## What would you like to do now?
+## Related content
 
 * [Add content][5]
 * [Use merge tags in messages][2]
@@ -84,4 +85,3 @@ Click **Next** if you are done editing.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

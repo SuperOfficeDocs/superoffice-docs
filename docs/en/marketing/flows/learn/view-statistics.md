@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-en-flow-view-statistics
 title: View statistics for flow
 description: View statistics for flow
 keywords: Marketing
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 05.15.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Analyze your flow results
@@ -40,7 +43,7 @@ To view statistics about your flow, go to the **Flows** tab and click the flow i
 
 * **Participants:** Presents a [list of all participants][1] within the flow.
 
-## What do you want to check?
+## Related content
 
 ### Compare campaigns/flows
 
@@ -56,7 +59,7 @@ In the **View flow** screen, the status is visible in the header and on the **Su
 
 ### Check status all flows
 
-Go to **Marketing** > **Flows** and select archive mode ![icon][img8].
+Go to **Marketing** > **Flows** and select archive mode (<i class="ph ph-list" aria-label="List"></i>).
 
 ![View status of all flows in archive mode -screenshot][img1]
 
@@ -89,4 +92,3 @@ Go to **Marketing** > **Tracked links**. See [Explore link clicks][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

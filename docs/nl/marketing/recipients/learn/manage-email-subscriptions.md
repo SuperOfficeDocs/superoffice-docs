@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-mailing-manage-subscriptions
 title: E-mailabonnementen beheren
 description: Met de functies voor abonnementsbeheer in SuperOffice CRM kunt u documenteren welk type inhoud uw contactpersonen van u willen ontvangen.
 keywords: marketing
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -46,11 +49,6 @@ In stap 4 van de mailingwizard, genaamd Ontvangers, kunt u precies zien wie u we
 ![Wanneer u ontvangers aan de mailinglijst hebt toegevoegd, kunt u al dan niet toestemming geven voor dat type mailing. -screenshot][img2]
 
 Als de functie E-marketingprivacy is uitgeschakeld, betekent dit dat SuperOffice CRM toestemmingen en abonnementsvoorkeuren negeert bij het verzenden van uw mailings. Als u de functie E-marketingprivacy voor e-marketing wilt inschakelen, hebt u de rechten van de beheerder nodig.
-
-Bekijk voor meer informatie de video over hoe u de privacy-instellingen voor AVG kunt instellen in SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ![In Instellingen en onderhoud kunt u de functie e-marketingprivacy inschakelen. -screenshot][img3]
 

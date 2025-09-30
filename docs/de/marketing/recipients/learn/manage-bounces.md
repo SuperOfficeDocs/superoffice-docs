@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-de-blocked-email-addresses
 title: Gesperrte E-Mail-Adressen
 description: In dieser Anleitung lernen Sie, wie Sie mit unzustellbaren E-Mails umgehen.
 keywords: gesperrte E-Mail-Adressen, nicht zustellbar, Rückläufer, Bounce
-author: SuperOffice RnD
-date: 06.26.2025
+author: SuperOffice Product and Engineering
+date: 09.26.2025
 version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: de
 redirect_from: /de/marketing/mailing/learn/follow-up/manage-bounces
+language: de
 ---
 
 # Nicht zustellbare verwalten
@@ -129,4 +132,4 @@ Mit dieser Option können Sie eine Person als ausgeschiedenen Mitarbeiter festle
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png

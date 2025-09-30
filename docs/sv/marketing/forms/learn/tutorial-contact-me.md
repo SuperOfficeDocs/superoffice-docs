@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-forms-contact-me
 title: Guide - så här skapar du ett Kontakta mig formulär
 description: Denna guide kommer att förklara hur du kan skapa ett Kontakta mig formulär i SuperOffice Marketing
 keywords: formulär, kontakta mig
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -60,7 +63,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 1. Redigera namnen på de andra fälten efter behov. **Tips!** Ta bort "Kontakt -".
 
-1. Klicka på ![ikon][img2] överst i fältet och dra den till önskad position i formuläret. Fälten ska ha en logisk ordning.
+1. Klicka på <i class="ph ph-dots-six" aria-label="Sex prickar"></i> överst i fältet och dra den till önskad position i formuläret. Fälten ska ha en logisk ordning.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 
@@ -121,7 +124,6 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

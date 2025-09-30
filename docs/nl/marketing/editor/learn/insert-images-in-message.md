@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-nl-mailing-add-image
 title: Afbeeldingen in het bericht invoegen
 description: Het gebruik van zorgvuldig gekozen afbeeldingen in uw mailings kan een krachtige impact hebben op uw resultaten. U kunt uw eigen afbeeldingen uploaden of een van de miljoenen afbeeldingen gebruiken die worden verzorgd door Unsplash, Pexels, Pixabay in de online afbeeldingenbibliotheek.
 keywords: Marketing, afbeelding
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -16,11 +18,7 @@ language: nl
 
 Maak een stijlvolle mailing met afbeeldingen. U kunt afbeeldingen uit de SuperOffice-database toevoegen, uw eigen afbeeldingen uploaden of afbeeldingen gebruiken uit een royaltyvrije online afbeeldingsbibliotheek.
 
-![Afbeelding invoegen met slepen en neerzetten vanuit de online afbeeldingsbibliotheek -screenshot][img3]
-
 Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een bepaalde actie, wanneer op de afbeelding wordt geklikt in de mailing
-
-![Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een bepaalde actie, wanneer op de afbeelding wordt geklikt in de mailing -screenshot][img4]
 
 ## Een afbeelding als achtergrond instellen
 
@@ -35,7 +33,7 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 
 2. Selecteer **Inhoud** ![pictogram][img1] in het zijpaneel.
 
-3. Klik en sleep het **Afbeeldingsblok** ![pictogram][img1] naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
+3. Klik en sleep het **Afbeeldingsblok** ![pictogram][img2] naar de desbetreffende sectie in het bericht. U moet nu de afbeelding selecteren die u wilt gebruiken.
 
 4. Klik op het blok in het bericht.
 
@@ -46,7 +44,7 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 7. Klik op de afbeelding in het bericht en breng de nodige wijzigingen aan in het zijpaneel. Controleer of de afbeelding correct wordt weergegeven en breng desgewenst wijzigingen aan.
 
     > [!TIP]
-    > Klik voor extra opties voor het bewerken van afbeeldingen op **Effecten en meer toepassen**.
+    > Klik voor extra opties voor het bewerken van afbeeldingen op **Afbeelding bewerken**.
 
 8. (optioneel) [Voeg een gevolgde koppeling toe][2] aan de afbeelding. Als u bijvoorbeeld een foto invoegt van een product dat u op de markt brengt, kunt u een link toevoegen naar een informatiepagina voor het product. U kunt een nieuwe link maken of een bestaande link toevoegen.
 
@@ -59,6 +57,8 @@ Na het toevoegen van een afbeelding kunt u eigenschappen toevoegen, zoals een be
 
 Kies uit miljoenen afbeeldingen in de royaltyvrije online afbeeldingsbibliotheek.
 
+![Afbeelding invoegen met slepen en neerzetten vanuit de online afbeeldingsbibliotheek -screenshot][img3]
+
 1. Ga naar het scherm **Inhoud** in de mailing of open een sjabloon voor bewerking.
 
 2. Selecteer **Afbeeldingen** ![pictogram][img2].
@@ -70,7 +70,7 @@ Kies uit miljoenen afbeeldingen in de royaltyvrije online afbeeldingsbibliotheek
 5. Klik op de afbeelding in het bericht en breng de nodige wijzigingen aan in het zijpaneel. Controleer of de afbeelding correct wordt weergegeven en breng desgewenst wijzigingen aan.
 
     > [!TIP]
-    > Klik voor extra opties voor het bewerken van afbeeldingen op **Effecten en meer toepassen**.
+    > Klik voor extra opties voor het bewerken van afbeeldingen op **Afbeelding bewerken**.
 
 6. (optioneel) [Voeg een gevolgde koppeling toe][2] aan de afbeelding. Als u bijvoorbeeld een foto invoegt van een product dat u op de markt brengt, kunt u een link toevoegen naar een informatiepagina voor het product. U kunt een nieuwe link maken of een bestaande link toevoegen.
 
@@ -80,21 +80,17 @@ Kies uit miljoenen afbeeldingen in de royaltyvrije online afbeeldingsbibliotheek
 
 De afbeelding die u voor uw mailing wilt gebruiken, heeft mogelijk niet altijd de juiste afmeting. In onze mailingeditor kunt u ook het formaat van uw afbeeldingen wijzigen of effecten toevoegen om ervoor te zorgen dat de afbeelding optimaal is voor uw mailing en merkontwerp.
 
-1. Nadat u de tijdelijke aanduiding voor de afbeelding in uw e-mailsjabloon hebt geselecteerd, kunt u uw afbeelding uploaden en effecten toepassen.
+Nadat u de afbeelding hebt geüpload, kunt u zien hoe deze eruitziet in uw e-mailsjabloon. Als u niet tevreden bent met de grootte, kunt u de afbeeldingsgrootte of resolutie aanpassen
 
-    ![Upload een afbeelding en klik op de knop Effecten en meer toepassen om de afbeeldingsgrootte, resolutie en meer aan te passen -screenshot][img5]
+1. Klik op de knop **Afbeelding bewerken**.
 
-2. Nadat u de afbeelding hebt geüpload, kunt u zien hoe deze eruitziet in uw e-mailsjabloon. Als u niet tevreden bent met de grootte, kunt u de afbeeldingsgrootte of resolutie aanpassen door op de knop **Effecten en meer toepassen** te klikken.
+1. U bevindt zich nu in het dialoogvenster Effect. De werkbalk biedt u een breed scala aan opties om uw afbeelding te wijzigen en aan te passen.
 
     ![Klik op de knop Afmetingen aanpassen om het formaat van uw afbeelding te wijzigen -screenshot][img6]
 
-3. U bevindt zich nu in het dialoogvenster Effect. De werkbalk bovenaan biedt u een breed scala aan opties om uw afbeelding te wijzigen en aan te passen.
+1. Klik op de knop **Afmetingen aanpassen** (tweede van links) om de grootte van uw afbeelding aan te passen. U kunt de breedte en hoogte wijzigen, ervoor kiezen om de hoogte-breedteverhouding te behouden en ervoor kiezen om percentages te gebruiken in plaats van pixels.
 
-4. Klik op de knop Afmetingen aanpassen (tweede van links) om de grootte van uw afbeelding aan te passen. U kunt de breedte en hoogte wijzigen, ervoor kiezen om de hoogte-breedteverhouding te behouden en ervoor kiezen om percentages te gebruiken in plaats van pixels.
-
-    ![In het scherm Afmetingen aanpassen kunt u de grootte van uw afbeelding aanpassen en u hebt ook de optie om het vakje De hoogte-breedteverhouding behouden of Percentages gebruiken aan te vinken][img7]
-
-5. Wanneer u tevreden bent met het nieuwe formaat van uw afbeelding of als u wilt controleren hoe deze eruitziet in uw e-mailsjabloon nadat u uw wijzigingen hebt aangebracht, kunt u op de knop **Toepassen** klikken.
+1. Wanneer u tevreden bent met het nieuwe formaat van uw afbeelding of als u wilt controleren hoe deze eruitziet in uw e-mailsjabloon nadat u uw wijzigingen hebt aangebracht, kunt u op **Opslaan** klikken.
 
 <!-- Referenced links -->
 [1]: ../../learn/add-images.md
@@ -104,7 +100,4 @@ De afbeelding die u voor uw mailing wilt gebruiken, heeft mogelijk niet altijd d
 [img1]: ../../../../media/icons/marketing-and-forms/side-panel-content-small.png
 [img2]: ../../../../media/icons/marketing-and-forms/side-panel-images-small.png
 [img3]: ../../../../media/loc/en/marketing/mailing-image-add-from-onlinelibrary.png
-[img4]: ../../../../media/loc/en/marketing/add-action-properties.png
-[img5]: ../../../../media/loc/en/marketing/apply-effects.png
-[img6]: ../../../../media/loc/en/marketing/resize-image.png
-[img7]: ../../../../media/loc/en/marketing/change-size-of-your-image.png
+[img6]: ../../../../media/loc/en/marketing/edit-image.png

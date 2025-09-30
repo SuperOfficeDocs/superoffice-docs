@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-sv-flow-run-pause-end
 title: Kör, pausa och avsluta flöde
 description: Kör, pausa och avsluta flöde
 keywords: flöde, flödestatus, starta flöde, pausa flöde, körs
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.17.2025
-version: 10.5.2
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: flows
 license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing

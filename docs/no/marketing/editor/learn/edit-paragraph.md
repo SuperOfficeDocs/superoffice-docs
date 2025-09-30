@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-no-mailing-edit-paragraph
 title: Redigere et avsnitt
 description: Redigere et avsnitt
 keywords: Markedsføring
-author: SuperOffice RnD
-date: 02.06.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Redigere innhold
@@ -26,7 +28,6 @@ audience_tooltip: SuperOffice Marketing
 1. Gå til trinnet **Innhold** i utsendelsen eller åpne en mal for redigering.
 
 2. Klikk på teksten du vil redigere, slik at verktøylinjen for tekstredigering vises.
-![icon][img5]
 
 3. Rediger teksten ved å bruke knappene på verktøylinjen.
 
@@ -66,7 +67,7 @@ Du kan redigere følgende deler:
 
 Klikk på **Neste** hvis du er ferdig med å redigere.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til innhold][5]
 * [Bruke flettefelt i meldinger][2]
@@ -84,4 +85,3 @@ Klikk på **Neste** hvis du er ferdig med å redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img5]: ../../../../media/loc/en/marketing/toolbar.png

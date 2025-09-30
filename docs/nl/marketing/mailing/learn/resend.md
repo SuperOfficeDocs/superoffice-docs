@@ -1,11 +1,17 @@
----
+﻿---
 uid: help-nl-mailings-resend
 title: Uw mailing opnieuw verzenden
 description: Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden.
+keywords: resend mailing, recipients
 author: Bergfrid Dias
-date: 02.21.2023
-keywords: Marketing
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 
@@ -31,23 +37,24 @@ Nadat de mailing is verzonden, kunt u naar de mailing gaan en de nieuwe resultat
 
 ## Optie 2 – Opnieuw verzenden naar geselecteerden
 
-Begin met het openen van de mailing die u opnieuw wilt verzenden en ga naar het tabblad **Ontvangers**.
+1. Begin met het openen van de mailing die u opnieuw wilt verzenden en ga naar het tabblad **Ontvangers**.
 
-Hier kunt u de ontvangers filteren en selecteren met bijvoorbeeld de status **Geretourneerd** en **Verzonden**.
+1. Filtreer de lijst met ontvangers met behulp van de filterknop in de rechterbenedenhoek van het scherm. Selecteer bijvoorbeeld de ontvangers met de status **Geretourneerd** en **Verzonden**.
 
-U kunt de lijst met ontvangers filteren met behulp van de filterknop in de rechterbenedenhoek van het scherm. En u kunt de ontvangers selecteren waarnaar u uw mailing opnieuw wilt verzenden door op het vakje in de meest linkse kolom van de lijst met ontvangers te klikken.
+    ![Filter de status van de personen bij het opnieuw verzenden van een mailing -screenshot][img2]
 
-![Filter de status van de personen bij het opnieuw verzenden van een mailing -screenshot][img2]
+1. Selecteer de ontvangers waarnaar u uw mailing opnieuw wilt verzenden door op het vakje in de meest linkse kolom van de lijst met ontvangers te klikken.
 
-Nadat u alle ontvangers hebt geselecteerd, klikt u op de knop **Acties** en selecteert u **Opnieuw verzenden naar geselecteerden**.
+    ![Mailing opnieuw verzenden naar geselecteerde personen -screenshot][img3]
+
+1. Klik op de knop **Acties** en selecteer **Opnieuw verzenden naar geselecteerden**.
 
 SuperOffice Marketing stuurt nu uw mailing naar alle geselecteerde ontvangers.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
 [1]: ../../recipients/learn/manage-bounces.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/reload-resend.png
-[img2]: ../../../../media/loc/en/marketing/filter-and-select-to-resend.png
+[img2]: ../../../../media/loc/en/marketing/filter-recipients.png
+[img3]: ../../../../media/loc/en/marketing/resend-to-selected.png

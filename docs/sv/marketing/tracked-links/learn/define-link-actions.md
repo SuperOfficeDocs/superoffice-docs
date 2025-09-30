@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-sv-define-link-actions
 title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
-keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
+keywords: utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.3.12
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -53,7 +56,7 @@ Baserat på din utskicks mål och CTAkan du uppdatera din databas. Denna informa
 Välj vad som ska hända när mottagaren klickar på länken.
 
 * **Dirigera om till ny webbplatsa**: Ange URL:en i det angivna fältet.
-* Eller, **Visa återkopplingstext**: Ange texten som ska visas. Klicka på ![ikonen][img4] redigeringsknappen för att visa verktygsfältet för rik text.
+* Eller, **Visa återkopplingstext**: Ange texten som ska visas. Klicka på <i class="ph ph-text-a-underline" aria-hidden="true"></i> för att visa verktygsfältet för rik text.
 * Eller, **Öppna formulär**: Välj namnet på formuläret. Välj eventuellt vilka fält som ska förifyllas med kända kontaktuppgifter.
 
 ## <a id="set-field"></a>Konfigurera fält
@@ -111,4 +114,3 @@ Variabler tillgängliga i skriptet inkluderar custId, linkId, shipmentId, linkUr
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
-[img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

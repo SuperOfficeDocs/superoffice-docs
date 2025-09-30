@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-en-mailing-add-merge-tags
 title: Add merge tags to your message
 description: Learn how to add merge tags to your mailing
 keywords: Marketing, placeholder, merge tag, template variable
-author: SuperOffice RnD
-date: 02.05.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Add merge tags to your message
@@ -30,8 +32,6 @@ Merge tags come in many forms: those might be the customer's first name, their c
 
 4. In the list that appears, select **Contact** and **First name**.
 
-    ![Add merge tags to your message -screenshot][img1]
-
 5. Continue entering text and inserting the merge tags you require. For a list, see [the variable reference][2].
 
 > [!TIP]
@@ -42,5 +42,4 @@ Merge tags come in many forms: those might be the customer's first name, their c
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

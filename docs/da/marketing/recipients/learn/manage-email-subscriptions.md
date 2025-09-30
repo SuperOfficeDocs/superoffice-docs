@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-mailing-manage-subscriptions
 title: Administrere e-mail-abonnementer
 description: Funktionerne til administration af abonnementer i SuperOffice CRM giver dig mulighed for at dokumentere, hvilken type indhold dine kontakter ønsker at modtage fra dig.
 keywords: marketing
 author: Bergfrid Dias
-date: 02.09.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: concept
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -47,11 +50,6 @@ I mailudsendelsesguidens trin 4, der hedder Modtagere, kan du se præcis, hvem d
 
 Hvis funktionen Beskyttelse af personoplysninger for E-Marketing er slået FRA, betyder det, at SuperOffice CRM vil se bort fra samtykker og abonnementspræferencer, når du sender dine mails. Hvis du vil aktivere funktionen Beskyttelse af personoplysninger for e-marketing, skal du have administratorrettigheder.
 
-Hvis du vil vide mere, kan du se videoen om, hvordan du kan konfigurere privatlivsindstillingerne for GDPR i SuperOffice CRM.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
-
 ![Under Indstillinger og vedligeholdelse kan du aktivere funktionen til beskyttelse af personoplysninger for e-marketing. -screenshot][img3]
 
 ## Bruge afmeldingslinket
@@ -67,7 +65,7 @@ Hvis du klikker på dette link, kommer modtagerne til siden med abonnementspræf
 
 Dine kunder kan selv styre, hvilke mails de modtager, og du kan sikre dig, at du kun sender mails ud til de personer, der er interesserede. Med SuperOffice CRM respekterer du dine kontakters kommunikationspræferencer og kan sikre, at du arbejder inden for reglerne i GDPR. På den måde risikerer du aldrig at få en bøde på 20.000.000 euro.
 
-## Relateret
+## Relateret indhold
 
 * [GDPR og beskyttelse af personoplysninger][2]
 * [Erklæring om beskyttelse af personoplysninger for SuperOffice][4]

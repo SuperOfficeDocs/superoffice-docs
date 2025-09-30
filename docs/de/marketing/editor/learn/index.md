@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-de-marketing-editor
 title: Drag-and-Drop-Editor
 description: Drag-and-Drop-Editor
 keywords: Marketing, Editor, Vorlagenvariabel, Merge Tag
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/learn/editor
+language: de
 ---
 
 # Drag-and-Drop-Editor
@@ -140,7 +142,7 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 
 [Informationen über den alten Editor][2]
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Inhalt hinzufügen][1]
 * [Inhalt bearbeiten][5]
@@ -167,5 +169,5 @@ Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop 
 [img24]: ../../../../media/icons/marketing-and-forms/side-panel-images.png
 [img25]: ../../../../media/icons/marketing-and-forms/side-panel-audit.png
 
-[img12]: ../../../../media/loc/en/marketing/marketing-email-audit-tab.png
+[img12]: ../../../../media/loc/en/marketing/content-audit-missing-preheader.png
 [img13]: ../../../../media/loc/en/marketing/template-edit-overview-old.png

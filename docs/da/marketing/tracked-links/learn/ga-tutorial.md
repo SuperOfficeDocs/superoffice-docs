@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-da-mailing-google-analytics-tutorial
 title: Vejledning - simpel Google Analytics e-mail sporing
 description: Denne vejledning vil forklare, hvordan du kan spore resultater fra en udsendelse ved hjælp af SuperOffice og slå det op i Google Analytics sammen med alle dine andre data.
 keywords: Marketing, udsendelse, Google Analytics, sporing, sporingslinks, UTM, kampagne, nyhedsbrev
 author: Alex Pelan
-date: 06.25.2015
-version: 8
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
-language: da
-translation_type: MT
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
+translation_type: MT
 ---
 
 # Vejledning - simpel Google Analytics e-mail sporing

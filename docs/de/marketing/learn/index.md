@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-de-marketing
 title: SuperOffice Marketing
 description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken.
 keywords: Marketing
-author: SuperOffice RnD
-date: 05.31.2024
-version: 10.3.5
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: concept
-language: de
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/learn/screen/index
+language: de
 ---
 
 # SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
@@ -24,11 +26,6 @@ Mit SuperOffice Marketing können Sie Folgendes erstellen:
 * **Kampagnen** (E-Mails, SMS, Dokumente und Formularantworten). [Erste Schritte mit Ihrer ersten Kampagne][5].
 * **Formulare**. [Erste Schritt mit Ihrem ersten Formular][1].
 * **Flows** (Automatisierung).
-
-Sehen Sie sich dieses Produkttour-Video an, um eine Einführung in die SuperOffice Marketing-Funktionen zu erhalten (Videolänge - 2:31):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
 
 ## Über Kampagnen
 
@@ -113,11 +110,12 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 | Formularübermittlungen | Enthält übermittelte Formulare. | [Formularübermittlungen][19] |
 | Flows | Enthält alle Flows und erstellt neue. | [Ein neues Flow erstellen][20] |
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Neue Kampagne erstellen][5]
 * [Ein neues Formular erstellen][1]
 * [Kampagnen und Formulare in Dashboards anzeigen][4]
+* [SuperOffice Marketing Produkttour-Video ansehen][21]
 
 <!-- Referenced links -->
 [1]: ../forms/learn/create.md
@@ -138,3 +136,4 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
+[21]: https://www.superoffice.com/crm/marketing/#IDM25

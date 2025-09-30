@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-de-mailing-recipient-list
 title: Nach der Kampagne mit der Empfängerliste arbeiten
 description: Nach der Kampagne mit der Empfängerliste arbeiten
 keywords: Marketing, Empfänger
-author: SuperOffice RnD
-date: 02.27.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: de
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Nach der Kampagne die Empfängerliste ansehen
@@ -90,7 +93,7 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 
 Öffnen Sie die Selektion bzw. das Projekt und überprüfen Sie, ob die Personen hinzugefügt wurden.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Nach der Kampagne mit überwachten Links arbeiten][1]
 

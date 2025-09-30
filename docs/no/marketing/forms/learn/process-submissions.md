@@ -1,16 +1,19 @@
----
+﻿---
 uid: help-no-form-submissions-process
 title: Behandle skjemainnsendinger
 description: I denne veiledningen lærer du hvordan du behandler skjemainnsendinger manuelt.
 keywords: skjema, skjemainnsending, data fra skjema, skjemadata, innsender, innsendt, sendt inn
 author: Bergfrid Dias
-date: 03.07.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: no
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/forms/learn/submissions/process
+language: no
 ---
 
 # Behandle skjemainnsendinger
@@ -25,11 +28,6 @@ Når et skjema sendes inn, forsøker SuperOffice å knytte skjemaet til en eksis
 
 * Hvis det finnes en match, kan du vise kontaktopplysninger, forespørsler, salg, oppfølginger og tidligere chat-sesjoner.
 * Hvis ingen match blir funnet, søk etter riktig kontakt eller opprett en ny.
-
-Se denne videoen (eller følg den trinnvise veiledningen nedenfor) for å lære hvordan du kan behandle et innsendt webskjema manuelt (videolengde – 4:30), eller følg trinnene nedenfor.
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Trinn
 
@@ -73,7 +71,15 @@ I **Skjemainnlevering**-vinduet:
 
 4. Klikk på **Behandle**.
 
-![Skjemainnsending, Data fra skjema -screenshot][img1]
+## Video: behandle et innsendt webskjema manuelt
+
+Se denne demoen for å se hvordan du behandler et innsendt webskjema manuelt.
+(Denne videoen viser en tidligere versjon av SuperOffice, så designet kan se annerledes ut. Trinnene er de samme.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
+
+(videolengde - 4:30)
 
 ## Aktuelt innhold
 
@@ -86,4 +92,3 @@ I **Skjemainnlevering**-vinduet:
 [4]: ../../mailing/learn/view-statistics.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/form-submission-add-contact.png

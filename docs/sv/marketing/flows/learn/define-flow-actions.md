@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-sv-flow-actions
 title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
-keywords: flöde, flödesåtgärd, åtgärd, automatisera, skicka meddelande, skicka e-post. skicka SMSuppdatera deltagare, kör skript, e-poststeg, bilag
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 02.25.2025
-version: 10.3.12
+keywords: flöde, automatisering, flödesåtgärd, kör skript, fördela till ägare
+author: Bergfrid Dias
+date: 09.26.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

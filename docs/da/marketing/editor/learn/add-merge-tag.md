@@ -1,12 +1,14 @@
----
+﻿---
 uid: help-da-mailing-add-merge-tags
 title: Føj fletfelter til din meddelelse
 description: Få flere oplysninger om, hvordan du føjer fletfelter til din udsendelse
 keywords: Marketing, fletfelt, meddelelse, skabelonvariabler
-author: SuperOffice RnD
-date: 02.07.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -30,8 +32,6 @@ fletfelter findes i mange former: det kan være kundens fornavn, firmanavn, hils
 
 4. Vælg **Person** og **Fornavn** på den liste, der vises.
 
-    ![Føj fletfelter til din meddelelse -screenshot][img1]
-
 5. Fortsæt med at skrive tekst og indsætte de ønskede fletfelter. Du kan finde en liste under [variabelreferencen][2].
 
 > [!TIP]
@@ -42,5 +42,4 @@ fletfelter findes i mange former: det kan være kundens fornavn, firmanavn, hils
 [2]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/template-variable.png
 [img2]: ../../../../media/loc/en/marketing/merge-tags.png

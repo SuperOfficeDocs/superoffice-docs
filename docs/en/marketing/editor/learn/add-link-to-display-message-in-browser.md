@@ -1,15 +1,17 @@
----
+﻿---
 uid: help-en-mailing-open-in-browser
 title: Add a link to display the message in a browser
 description: Add a link to display the message in a browser
 keywords: Marketing, link, mailing
-author: SuperOffice RnD
-date: 02.05.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: en
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Add a link to display the message in a browser

@@ -1,15 +1,18 @@
----
+﻿---
 uid: help-no-forms-contact-me
 title: Veiledning - hvordan opprette et Kontakt meg skjema
 description: Denne veiledningen forklarer hvordan du oppretter et Kontakt meg skjema i SuperOffice Marketing.
 keywords: skjema, kontakt meg
 author: Bergfrid Dias
-date: 02.29.2024
-version: 10
+date: 09.26.2025
+version: 10.5
 content_type: tutorial
-language: no
+category: marketing
+topic: forms
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Hvordan opprette et Kontakt meg skjema
@@ -60,7 +63,7 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 
 1. Rediger navn på de andre feltene etter behov. **Tips**: Fjern "Person -".
 
-1. Klikk ![icon][img2] øverst i et felt, og dra det til ønsket plassering i skjemaet. Feltene bør ha en logisk rekkefølge.
+1. Klikk <i class="ph ph-dots-six" aria-label="Seks prikker"></i> øverst i et felt, og dra det til ønsket plassering i skjemaet. Feltene bør ha en logisk rekkefølge.
 
 1. Klikk **Bruk nå** for å lagre skjemaet og fortsette redigeringen.
 
@@ -121,7 +124,6 @@ Eksempelet dekker ikke alle felt og alternativer, men du finner omfattende instr
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
 [img6]: ../../../../media/loc/en/marketing/contact-me-form-fields.png
 [img7]: ../../../../media/loc/en/marketing/contact-me-form-actions.png

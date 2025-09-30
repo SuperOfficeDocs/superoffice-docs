@@ -1,11 +1,11 @@
----
+﻿---
 uid: help-nl-flow-actions
 title: Definieer flowacties
 description: Definieer flowacties
-keywords: Marketing, flow, flowactie, script uitvoeren
-author: Bergfrid Dias, Trude Lien Smedbråten
-date: 11.19.2024
-version: 10.3.12
+keywords: flow, automatisering, flowactie, script uitvoeren, verdeel naar eigenaar
+author: Bergfrid Dias
+date: 09.26.2025
+version: 11.3
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing
