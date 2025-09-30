@@ -59,7 +59,7 @@ In the **View flow** screen, the status is visible in the header and on the **Su
 
 ### Check status all flows
 
-Go to **Marketing** > **Flows** and select archive mode ![icon][img8].
+Go to **Marketing** > **Flows** and select archive mode (<i class="ph ph-list" aria-label="List"></i>).
 
 ![View status of all flows in archive mode -screenshot][img1]
 
@@ -92,4 +92,3 @@ Go to **Marketing** > **Tracked links**. See [Explore link clicks][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

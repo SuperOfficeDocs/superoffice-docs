@@ -1,7 +1,7 @@
 ﻿---
 uid: help-no-flow-view-statistics
-title: View statistics for flow
-description: 
+title: Analyser resultatene for flyt
+description: Analyser resultatene for flyt
 keywords: flyt, markedsføringsautomasjon, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
 date: 09.26.2025
@@ -59,7 +59,7 @@ I **Vis flyt**-skjermen er status synlig i toppteksten og på **Oversikt**-fanen
 
 ### Sjekke status for alle flyter
 
-Gå til **Markedsføring** > **Flyter** og velg arkivmodus ![ikon][img8].
+Gå til **Markedsføring** > **Flyter** og velg arkivmodus (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Vis status for alle flyter i arkivmodus -screenshot][img1]
 
@@ -92,4 +92,3 @@ Gå til **Markedsføring** > **Sporede lenker**. Se [Utforsk lenkeklikk][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

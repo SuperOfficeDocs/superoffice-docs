@@ -59,7 +59,7 @@ In het **View flow** scherm is de status zichtbaar in de header en op het **Same
 
 ### Controleer status van alle flows
 
-Ga naar **Marketing** > **Flows** en selecteer archiefmodus ![icon][img8].
+Ga naar **Marketing** > **Flows** en selecteer archiefmodus (<i class="ph ph-list" aria-label="Lijst"></i>).
 
 ![Bekijk status van alle flows in archiefmodus -screenshot][img1]
 
@@ -92,4 +92,3 @@ Ga naar **Marketing** > **Geregistreerde links**. Zie [Verken link clicks][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

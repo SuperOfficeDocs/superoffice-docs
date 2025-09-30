@@ -59,7 +59,7 @@ Im Bildschirm **Flow anzeigen** ist der Status im Header und auf der Registerkar
 
 ### Status aller Flows überprüfen
 
-Gehen Sie zu **Marketing** > **Flows** und wählen Sie den Archivmodus aus ![Symbol][img8].
+Gehen Sie zu **Marketing** > **Flows** und wählen Sie den Archivmodus aus (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Status aller Flows im Archivmodus anzeigen -screenshot][img1]
 
@@ -92,4 +92,3 @@ Gehen Sie zu **Marketing** > **Verfolgte Links**. Siehe [Erkunden Sie Link-Klick
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

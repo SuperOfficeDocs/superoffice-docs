@@ -59,7 +59,7 @@ I skærmbilledet **Vis flow** er status synlig i overskriften og på **Oversigt*
 
 ### Kontroller status for alle flows
 
-Gå til **Marketing** > **Flows** og vælg arkivtilstand ![ikon][img8].
+Gå til **Marketing** > **Flows** og vælg arkivtilstand (<i class="ph ph-list" aria-label="Liste"></i>).
 
 ![Se status for alle flows i arkivtilstand -screenshot][img1]
 
@@ -92,4 +92,3 @@ Gå til **Marketing** > **Sporede links**. Se [Udforsk linkklik][11].
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png

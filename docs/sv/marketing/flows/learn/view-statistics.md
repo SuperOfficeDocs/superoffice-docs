@@ -59,7 +59,7 @@ På **Visa flöde**-skärmen syns status i sidhuvudet och på fliken **Sammanfat
 
 ### Kontrollera status för alla flöden
 
-Gå till **Marknadsföring** > **Flöden** och välj arkivläge ![ikon][img8].
+Gå till **Marknadsföring** > **Flöden** och välj arkivläge (<i class="ph ph-list" aria-label="Lista"></i>).
 
 ![Visa status för alla flöden i arkivläge -screenshot][img1]
 
@@ -92,4 +92,3 @@ Gå till **Marknadsföring** > **Spårade länkar**. Se [Utforska länkklick][11
 [img2]: ../../../../media/loc/en/marketing/check-flow-status.png
 [img3]: ../../../../media/loc/en/marketing/compare-flow-success.png
 [img4]: ../../../../media/loc/en/marketing/flow-dashboard.png
-[img8]: ../../../../../common/icons/view-list.png
