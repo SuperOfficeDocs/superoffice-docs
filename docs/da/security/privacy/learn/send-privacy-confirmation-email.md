@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-index: true
 ---
 
 # Send e-mail med bekræftelse om personbeskyttelse

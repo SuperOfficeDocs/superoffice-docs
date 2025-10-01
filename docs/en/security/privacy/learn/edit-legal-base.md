@@ -12,7 +12,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-index: true
 ---
 
 # Edit legal base for a contact

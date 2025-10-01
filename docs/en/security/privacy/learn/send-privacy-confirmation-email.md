@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-index: true
 ---
 
 # Send privacy confirmation email

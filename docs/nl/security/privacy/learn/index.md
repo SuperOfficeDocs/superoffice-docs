@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # Privacy <i class="ph ph-shield" aria-label="Shield icon"></i>

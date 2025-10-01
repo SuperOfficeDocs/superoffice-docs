@@ -12,7 +12,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-index: true
 ---
 
 # Redigera rättslig grund för en kontakt
