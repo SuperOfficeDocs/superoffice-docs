@@ -1,8 +1,4 @@
----
-uid: version_11.3.1349.0_changes
-date: 04.09.2025
----
-
+<!-- markdownlint-disable-file MD041 MD033 MD024 MD012 MD013-->
 Changes from v11.2.664.0 and v11.3.1349.0
 
 ### Assembly: SuperOffice.WebApi
