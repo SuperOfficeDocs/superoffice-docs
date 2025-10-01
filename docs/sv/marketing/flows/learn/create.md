@@ -5,7 +5,7 @@ description: Hur man skapar ett nytt flöde och definierar flödesinställningar
 keywords: flöde, Flödesredigerare, flödesfält, trigger, flödeskontroll, exkluderingslista, prenumerationstyp, tidsram, framgångskriterier, väntetid, vänta på åtgärd, flödesschem, kontaktfilter
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

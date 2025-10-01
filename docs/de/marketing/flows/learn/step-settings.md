@@ -5,7 +5,7 @@ description: Übersicht über die Optionen für die verschiedenen Flow-Schritte.
 keywords: Marketing, Flow, Schritt, Feld, Option
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: reference
 category: marketing
 topic: flows

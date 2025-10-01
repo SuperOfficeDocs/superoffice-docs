@@ -5,7 +5,7 @@ description: How to create new flow and define flow setting in SuperOffice Marke
 keywords: flow, marketing automation, new flow, flow setting
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

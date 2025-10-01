@@ -5,7 +5,7 @@ description: Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Dies
 keywords: Kalender öffnen, Kalenderansicht, Aktivitäten-Registerkarte, Aufgabenliste, To-do-Liste, Folgeaufgabe, Kalender
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

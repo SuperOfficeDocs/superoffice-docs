@@ -5,7 +5,7 @@ description: Knoppen in de menubalk
 keywords: menubalk, bovenste balk, knop, Persoonlijke instellingen menu, Hoofdmenu-opties
 author: Product and Engineering
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

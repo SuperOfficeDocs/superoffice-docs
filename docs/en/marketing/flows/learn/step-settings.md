@@ -5,7 +5,7 @@ description: Overview of settings for the various flow steps.
 keywords: flow, automation, step, step setting, step field
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: reference
 language: en
 audience: person

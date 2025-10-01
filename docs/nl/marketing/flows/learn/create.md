@@ -5,7 +5,7 @@ description: Hoe een nieuwe flow te maken en de flowinstellingen te definiëren 
 keywords: Marketing, flow, flow-controle, flow maken, flow-instelling
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

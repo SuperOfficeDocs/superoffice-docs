@@ -5,7 +5,7 @@ description: The SuperOffice Diary is the heart of your CRM system. These how-to
 keywords: open Diary, Diary screen, calendar, Activities section tab, activities, to-do list, task list, follow-up, diary
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

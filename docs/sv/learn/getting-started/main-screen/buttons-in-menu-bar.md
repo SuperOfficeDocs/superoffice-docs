@@ -5,7 +5,7 @@ description: Knappar på toppraden
 keywords: toppraden, knapp, personliga inställningar, huvudmeny, menyfält
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM

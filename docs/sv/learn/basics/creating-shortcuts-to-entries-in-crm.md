@@ -5,7 +5,7 @@ description: Skapa genvägar till poster i CRM
 keywords: kopiera genväg
 author: SuperOffice Product and Engineering
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM

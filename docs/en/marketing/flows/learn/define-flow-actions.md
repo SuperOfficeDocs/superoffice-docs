@@ -5,7 +5,7 @@ description: Define flow actions
 keywords: flow, automation, flow action, run script
 author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

@@ -5,7 +5,7 @@ description: Hvordan opprette ny flyt og definere flytinnstillinger i SuperOffic
 keywords: flyt, markedsføringsautomatisering, ny flyt, flytinnstilling
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

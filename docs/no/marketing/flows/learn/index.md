@@ -5,7 +5,7 @@ description: Introduksjon til markedsføringsautomatisering og flyter.
 keywords: flyt, markedsføringsautomatisering, kampanje, suksesskriterie, segment
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: concept
 category: marketing
 topic: flows

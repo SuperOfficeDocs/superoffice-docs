@@ -5,7 +5,7 @@ description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse veiledni
 keywords: åpne dagbok, dagbokskjerm, kalender, Aktiviteter-fanen, aktiviteter, oppgaveliste, oppfølging, dagbok
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

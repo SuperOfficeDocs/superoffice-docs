@@ -5,7 +5,7 @@ description: SuperOffice Dagbog er hjertet i dit CRM-system. Disse vejledninger 
 keywords: åbn Dagbog, skærmbilledet Dagbog, kalender, detaljekortet Aktiviteter, aktivitet, opgaveliste, to-do-liste, opfølgning, dagbog
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

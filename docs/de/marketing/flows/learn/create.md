@@ -5,7 +5,7 @@ description: Neuen Flow erstellen
 keywords: Marketing, Flow
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

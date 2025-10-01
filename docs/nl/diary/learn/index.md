@@ -5,7 +5,7 @@ description: De SuperOffice Agenda is het hart van uw CRM-systeem. Deze handleid
 keywords: agenda openen, scherm Agenda, kalender, sectietabblad Activiteiten, activiteit, takenlijst, taak, taken, vervolgactiviteit, agenda
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person

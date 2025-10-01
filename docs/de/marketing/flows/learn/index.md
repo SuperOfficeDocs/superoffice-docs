@@ -5,7 +5,7 @@ description: Einführung in die Marketing-Automatisierung und Flows von SuperOff
 keywords: Marketing, Flow, Automatisierung, Kampagne, Segmentieren, Kundenreise
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 category: marketing
 topic: flows

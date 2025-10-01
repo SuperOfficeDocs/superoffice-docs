@@ -5,7 +5,7 @@ description: Definiera flödesåtgärder
 keywords: flöde, automatisering, flödesåtgärd, kör skript, fördela till ägare
 author: Bergfrid Dias
 date: 09.26.2025
-version: 11.3
+version: 10.5
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice Marketing

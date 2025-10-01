@@ -5,7 +5,7 @@ description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De
 keywords: kalender, kalenderfönster, händelse, att-göra-lista, uppgift, bokning, möte, telefon, samtal
 author: Bergfrid Dias
 date: 09.17.2025
-version: 11.3
+version: 10.5
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
