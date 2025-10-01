@@ -19,18 +19,18 @@ audience_tooltip: SuperOffice CRM
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 
 > [!NOTE]
-> **Zapier - Breaking change:** Starting from version 3.5, the API response structure changes because id, body, and attachments are now moved under the new message property.
+> **Zapier - Breaking changes:** Starting from version 3.5, the API response structure changes because id, body, and attachments are now moved under the new message property.
 
 ### [Current released versions][6]
 
-* SharePoint Documents 3.5 (11.09.2025)
-* SuperOffice Copilot 1.9 (11.09.2025)
-* SuperOffice for Gmail 2.10 (11.03.2024
-* SuperOffice for Outlook 6.1.3 (02.09.2025)
-* Video Meetings 2.9 (21.08.2025)
-* WebTools for Mac 13.1 (24.03.2025))
-* WebTools for Windows 13.0 (04.03.2024)
-* Zapier 3.5 (16.10.2025)
+* [SharePoint Documents][25] 3.5 (11.09.2025)
+* [SuperOffice Copilot][26] 1.9 (11.09.2025)
+* [SuperOffice for Gmail][24] 2.10 (11.03.2024
+* [SuperOffice for Outlook][23] 6.1.3 (02.09.2025)
+* [Video Meetings][22] 2.9 (21.08.2025)
+* [WebTools for Mac][21] 13.1 (24.03.2025))
+* [WebTools for Windows][21] 13.0 (04.03.2024)
+* [Zapier][20] 3.5 (16.10.2025)
 
 ## SuperOffice App Store
 
@@ -71,5 +71,12 @@ See all the [new or updated apps][2]
 [17]:https://appstore.superoffice.com/superoffice-as/connecterp-for-businessnxt
 [18]: https://appstore.superoffice.com/i-centrum-ab/d-b-data-blocks
 [19]: https://appstore.superoffice.com/superoffice-as/connecterp-for-tripletex
+[20]: ../../integrations/zapier/index.md
+[21]: ../../integrations/webtools/index.md
+[22]: ../../integrations/video-meetings/index.md
+[23]: ../../integrations/superoffice-for-outlook/index.md
+[24]: ../../integrations/gmail-link/index.md
+[25]: ../../integrations/sharepoint-documents/index.md
+[26]: ../../docs/en/ai/copilot/index.md
 
 <!-- Referenced images -->
