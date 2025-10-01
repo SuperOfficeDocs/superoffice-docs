@@ -52,13 +52,7 @@ Om knappen **Ny språkversion** inte är synlig betyder det att inga kundspråk 
 
 Om ett specifikt språk saknas i rullgardinsmenyn **Språk** har det inte lagts till i listan över kundspråk. Be din administratör att lägga till det saknade språket i **Inställningar och underhåll**.
 
-## Relaterat innehåll
-
-* [Skapa svarsmallar][1]
-* [Redigera eller ta bort svarsmallar][4]
-
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../globalization-and-localization/learn/customer-languages.md
-[3]: ../../../globalization-and-localization/learn/customer-languages.md
-[4]: edit.md
+[2]: ../../../admin/options/learn/custlang/index.md
+[3]: ../../../admin/options/learn/custlang/update.md

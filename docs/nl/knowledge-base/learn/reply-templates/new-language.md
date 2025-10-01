@@ -52,13 +52,7 @@ Als de knop **Nieuwe taalversie** niet zichtbaar is, betekent dit dat er geen kl
 
 Als een bepaalde taal ontbreekt in de **Taal**-keuzelijst, is deze niet toegevoegd aan de lijst met klanttalen. Vraag je beheerder om de ontbrekende taal toe te voegen in **Instellingen en onderhoud**.
 
-## Gerelateerde inhoud
-
-* [Antwoordsjablonen maken][1]
-* [Antwoordsjablonen bewerken of verwijderen][4]
-
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../globalization-and-localization/learn/customer-languages.md
-[3]: ../../../globalization-and-localization/learn/customer-languages.md
-[4]: edit.md
+[2]: ../../../admin/options/learn/custlang/index.md
+[3]: ../../../admin/options/learn/custlang/update.md

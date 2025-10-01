@@ -108,7 +108,7 @@ conceptualContent:
         - text: "Authentication"
           itemType: map
           typeDesc: overview
-          url: ../../api/authentication/index.yml
+          url: ../api/authentication/index.yml
         - text: Reset password
           itemType: list
           typeDesc: how-to-guide
@@ -156,7 +156,7 @@ conceptualContent:
         - text: Integration points
           itemType: explore
           typeDesc: concept
-          url: ../../api/overview/index.md
+          url: ../api/overview/index.md
         - text: App store
           itemType: map
           typeDesc: overview

@@ -63,4 +63,4 @@ In het overzicht van antwoordsjablonen klikt u op de knop **Zoeken** om een spec
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[11]: ../../../learn/reply.md
+[11]: ../../../request/learn/reply.md

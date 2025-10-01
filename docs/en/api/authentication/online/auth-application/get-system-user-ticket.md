@@ -156,7 +156,26 @@ The following example code has an extensive amount of logging to the console. Th
 
 #### package.soap.json file
 
-[!code-json[example 1](includes/package.soap.json)]
+```json
+{
+  "name": "devnet-nodejs-systemuser-soap",
+  "version": "0.0.1",
+  "description": "Exchange system user token for system user ticket.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.soap.js"
+  },
+  "author": "AnthonyYates",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jsonwebtoken": ">=9.0.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  }
+}
+```
 
 </details>
 
