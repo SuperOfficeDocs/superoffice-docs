@@ -1,9 +1,9 @@
 ---
 title: FieldMetadataInfo
-uid: q1uote_connector_carrier_fieldmetadatainfo
+uid: quote_connector_carrier_fieldmetadatainfo
 description: ERP Quote Connector Interface data carrier - FieldMetadataInfo
 author: SuperOffice Product and Engineering
-date:
+date: 10.01.2025
 keywords: quote
 content_type: reference
 redirect_from: /en/api/netserver/plugins/quote-connectors/api/data-carriers/fieldmetadatainfo
@@ -16,7 +16,7 @@ This carrier describes a custom field to be added to the config dialog at runtim
 > [!NOTE]
 > This is just a description of the field - it is not the field itself.
 
-The GUI will use this info to build the user interface controls. The call to the ERP Connector’s [`GetConfigurationFields`](../iquoteconnector.md#dictionaryltstring-fieldmetadatainfo-getconfigurationfields) method returns a list of fields and field types. The Admin client builds a dialog with these fields.
+The GUI will use this info to build the user interface controls. The call to the ERP Connector’s [`GetConfigurationFields`](../iquoteconnector.md#get-configuration-fields) method returns a list of fields and field types. The Admin client builds a dialog with these fields.
 
 **Admin Quote Connection Dialog:**
 

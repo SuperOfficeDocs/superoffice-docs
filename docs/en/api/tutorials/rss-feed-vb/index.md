@@ -258,7 +258,7 @@ By clicking on the link in the feed contents, the appropriate dialog in SuperOff
 
 ![Dialog opened from RSS feed -screenshot][img4]
 
-<a href="~/../assets/downloads/api/rssfeedfinalvb.zip" download>Click to download source code (zip)</a>
+<a href="../../../../assets/downloads/api/rssfeedfinalvb.zip" download>Click to download source code (zip)</a>
 
 <!-- Referenced links -->
 [1]: http://www.w3.org/TR/REC-xml

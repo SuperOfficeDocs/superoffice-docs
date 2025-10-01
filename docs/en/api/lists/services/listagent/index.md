@@ -33,7 +33,7 @@ The endpoint is located at the `/Remote/Services88/list.svc` URL. See [API refer
 View the [How-To pages][1] to see how to work with the lists endpoint to manage lists.
 
 <!-- Referenced links -->
-[1]: how-to/index.md
+[1]: ../how-to/index.md
 
 [2]: ../../../reference/restful/rest/List/index.md
 [3]: ../../../reference/restful/agent/List_Agent/index.md
