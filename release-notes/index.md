@@ -63,7 +63,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
 
-## How to navigate this section
+## How to navigate this content
 
 ![What's new -screenshot][img4]
 

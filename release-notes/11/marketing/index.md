@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
-* [Marketing Form - View mode shows Direct link in Publish (11.5)][5]
+* [Marketing Form - Publish with a direct link (11.5)][5]
 * [Marketing Flow – distribute to owner step (11.3)][3]
 
 <!-- Referenced links-->
