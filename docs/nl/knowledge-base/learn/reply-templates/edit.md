@@ -50,7 +50,7 @@ Het bewerken van een antwoordsjabloon kan betrekking hebben op een van twee ding
 * [Antwoordsjablonen kopiëren][4]
 
 <!-- Referenced links -->
-[1]: ../../../learn/reply.md
+[1]: ../../../request/learn/reply.md
 [2]: create.md
 [3]: new-language.md
 [4]: create.md#copy
