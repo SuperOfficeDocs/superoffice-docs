@@ -134,7 +134,7 @@ And from then on all commits that contain the magical ID reference will end up a
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOffice/CRMScripts
-[2]: ../crmscript/fundamentals/syntax.md
+[2]: ../../../crmscript/fundamentals/syntax.md
 
 <!-- Referenced images -->
 [img1]: media/gh-commit.png
