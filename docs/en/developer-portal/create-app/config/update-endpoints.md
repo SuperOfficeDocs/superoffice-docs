@@ -52,7 +52,6 @@ To get access to additional SuperOffice API endpoints or HTTP RPC Agents, you ne
 
 <!-- Referenced links -->
 [1]: ../index.md#default-config
-[2]: ../request-to-publish.md
 [3]: https://dev.superoffice.com/
 [6]: cors-and-redirection-urls.md
 [7]: ../../best-practices/tenant-status/index.md#notify
