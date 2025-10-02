@@ -33,7 +33,7 @@ The registry key `LogFile` enables logging of the main actions.
 > [!NOTE]
 > A restart of WebTools is often necessary for applying the registry settings.
 
-### Alarms are not working as expected
+## Alarms are not working as expected
 
 If alarms are not showing or are showing at the wrong time, check the **WebTools preferences**.
 
