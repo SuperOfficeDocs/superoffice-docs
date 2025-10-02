@@ -68,52 +68,8 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Aanpassing
-    href: customization.yml
-    items:
-    - name: Overzicht
-      href: customization.yml
-    - name: Lijsten
-      href: ../admin/lists/learn/toc.yml
-      topicHref: ../admin/lists/learn/index.md
-    - name: Voorkeuren
-      href: ../admin/preferences/learn/toc.yml
-      topicHref: ../admin/preferences/learn/index.md
-
-    - name: Aangepaste objecten
-      href: ../custom-objects/learn/toc.yml
-      topicHref: ../custom-objects/learn/index.md
-
-    - name: Schermontwerper
-      href: ../ui/screen-designer/learn/toc.yml
-      topicHref: ../ui/screen-designer/learn/index.md
-
-    - name: Opties
-      href: ../admin/options/learn/toc.yml
-      topicHref: ../admin/options/learn/index.md
-
-    - name: CRMScript
-      href: ../automation/crmscript/learn/toc.yml
-      topicHref: ../automation/crmscript/learn/index.md
-
-    - name: E-mail
-      href: ../email/service/learn/toc.yml
-      topicHref: ../email/service/learn/index.md
-
-    - name: Klantportaal
-      href: ../customer-center/learn/toc.yml
-      topicHref: ../customer-center/learn/index.md
-
-    - name: Systeemontwerp
-      href: ../ui/blogic/learn/toc.yml
-      topicHref: ../ui/blogic/learn/index.md
-
-    - name: Lokaal
-      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-      items:
-      - name: Gegevensuitwisseling
-        href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP-interface configureren
-        href: ../admin/learn/configure-soap.md
+    href: ../customization/learn/toc.yml
+    topicHref: ../customization/index.yml
 
   - name: Beheer en systeeminstellingen
     href: administration.yml
