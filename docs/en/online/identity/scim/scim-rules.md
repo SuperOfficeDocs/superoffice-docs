@@ -4,9 +4,11 @@ title: SCIM rules
 description: SCIM rules for how users shall be configured in SuperOffice CRM.
 keywords: SCIM, IdP, Microsoft Entra, ME-ID, AAD, Azure
 author: Bergfrid Dias, Oleg Deribas
-date: 03.27.2025
+date: 10.02.2025
 version: 10.5.2
 content_type: concepts
+category: identity management
+topic: scim
 deployment: online
 platform: web
 index: true
@@ -40,6 +42,13 @@ If there is at least one active rule with **NotInGroup** scope, all users in the
 ## Property updates
 
 As of version 10.5.2, SCIM will not change a property unless there is a rule that explicitly sets a value. This applies only to properties that are controlled by SCIM rules.
+
+Some rule elements allow you to select a scope for how the property should be applied. There are two possible scopes:
+
+* **Always:** The value is updated even if it was already set by a previous rule.
+* **If not set:** The value is only set if it has not already been set by a previous rule.
+
+Use scopes to control how multiple rules interact when setting the same property.
 
 ## Related content
 
