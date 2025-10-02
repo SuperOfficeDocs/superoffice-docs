@@ -1,5 +1,5 @@
 ---
-uid: help-sales-target-types
+uid: help-de-sales-target-types
 title: Verkaufszieltyp mit Untertypen einrichten
 description: Es kann stressig sein, den Überblick über Ihre Verkaufsziele zu behalten. Wenn Sie jedoch Parameter und Dimensionen Ihrer Verkaufsziele definieren, wird die Verwaltung Ihrer Ziele viel einfacher.
 keywords: Verkaufsziel, Dimension
