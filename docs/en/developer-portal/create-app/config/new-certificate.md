@@ -4,7 +4,7 @@ title: New certificate
 description: How to create a new certificate for an app in the SuperOffice Developer Portal.
 keywords: Developer Portal, app, certificate
 author: Bergfrid Dias
-date: 02.26.2025
+date: 10.02.2025
 version: 2.0
 version_devportal: 2.0
 content_type: howto
@@ -42,24 +42,22 @@ The Developer Portal stores your public key. However, you must store the private
 
 6. Click **Save Settings**.
 
-[!include[When to publish](../includes/ready-to-publish.md)]
+    * If the new certificate is for **SOD only:** No further action is needed.
+    * If the certificate is for **stage, production, or all environments:** You must request publishing.
 
+[!include[When to publish](../includes/ready-to-publish.md)]
 
 <!-- markdownlint-restore -->
 
-## Read more
+## Related content
 
 * [Application environments][3]
 * [SuperID certificates][1]
-
-
-
 
 <!-- Referenced links -->
 [3]: ../../getting-started/app-envir.md
 [1]: ../../../api/authentication/online/certificates/index.md
 [2]: ../../../api//authentication/online/auth-application/sign-system-user-token.md
-[3]: ../request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/secrets-and-certificates.png
