@@ -26,11 +26,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Licensoversigt
-          url: ../admin/license/learn/index.md
+          url: license/learn/index.md
         - text: Skærmbilledet licenser
-          url: ../admin/license/learn/index.md
+          url: license/learn/index.md
         - text: Aktivér licens
-          url: ../admin/license/learn/activate.md
+          url: license/learn/activate.md
 
   # Card
   - title: Brugerstyring
@@ -39,19 +39,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Roller
-          url: ../admin/user-management/learn/role/index.md
+          url: user-management/learn/role/index.md
         - text: Opret en rolle
-          url: ../admin/user-management/learn/role/create-role.md
+          url: user-management/learn/role/create-role.md
         - text: Brugere
-          url: ../admin/user-management/learn/index.md
+          url: user-management/learn/index.md
         - text: Tilføj brugere
-          url: ../admin/user-management/learn/add-associate.md
+          url: user-management/learn/add-associate.md
         - text: Opdater brugerinformation
-          url: ../admin/user-management/learn/update-user.md
+          url: user-management/learn/update-user.md
         - text: Vedligehold brugergrupper
-          url: ../admin/user-management/learn/user-groups.md
+          url: user-management/learn/user-groups.md
         - text: Vedligehold 'Vores firmaer'
-          url: ../admin/user-management/learn/our-companies.md
+          url: user-management/learn/our-companies.md
 
   # Card
   - title: Import
@@ -60,17 +60,17 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Konfigurer importindstillinger
-          url: ../admin/import/learn/configure-import-settings.md
+          url: import/learn/configure-import-settings.md
         - text: Importér fra Excel
-          url: ../admin/import/learn/import-from-excel.md
+          url: import/learn/import-from-excel.md
         - text: Importér produkter fra Excel
-          url: ../admin/import/learn/import-products-from-excel.md
+          url: import/learn/import-products-from-excel.md
         - text: Importér fra Gmail
-          url: ../admin/import/learn/import-from-gmail.md
+          url: import/learn/import-from-gmail.md
         - text: Importér fra Outlook
-          url: ../admin/import/learn/import-from-outlook.md
+          url: import/learn/import-from-outlook.md
         - text: Importér fra ERP
-          url: ../admin/import/learn/import-from-erp.md
+          url: import/learn/import-from-erp.md
 
   # Card
   - title: AI

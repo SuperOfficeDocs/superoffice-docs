@@ -72,24 +72,9 @@ items:
     topicHref: ../customization/index.yml
 
   - name: Beheer en systeeminstellingen
-    href: administration.yml
-    items:
-    - name: Overzicht
-      href: administration.yml
-    - name: Weergaven in Instellingen en onderhoud aanpassen
-      href: ../admin/learn/adjusting-views.md
-    - name: Gebruikersbeheer
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Licenties
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Systeemgebeurtenis toevoegen
-      href: ../admin/learn/add-system-event.md
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: AI-diensten
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
+  - name: AI-diensten
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md

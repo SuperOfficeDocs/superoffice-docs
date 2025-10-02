@@ -4,9 +4,10 @@ uid: help-en-admin
 description: SuperOffice Maintenance and Settings
 author: SuperOffice Product and Engineering
 keywords:
-date:
+date: 10.02.2025
+version: 11.4
 index: true
-redirect_from: /en/admin/index
+redirect_from: /en/learn/administration
 ---
 
 # Admin

@@ -72,24 +72,9 @@ items:
     topicHref: ../customization/index.yml
 
   - name: Verwaltung und Systemeinstellungen
-    href: administration.yml
-    items:
-    - name: Überblick
-      href: administration.yml
-    - name: Ansichten in Einstellungen und Verwaltung anpassen
-      href: ../admin/learn/adjusting-views.md
-    - name: Benutzerverwaltung
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Lizenzen
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Importieren
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Systemereignis hinzufügen
-      href: ../admin/learn/add-system-event.md
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: KI-Services
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
+  - name: KI-Services
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md

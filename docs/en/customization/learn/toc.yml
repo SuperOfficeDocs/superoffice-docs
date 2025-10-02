@@ -6,29 +6,29 @@ items:
   topicHref: ../../admin/lists/learn/index.md
 - name: Preferences
   href: ../../admin/preferences/learn/toc.yml
-  topicHref: ../../admin/preferences/learn/index.m
+  topicHref: ../../admin/preferences/learn/index.md
 - name: Custom objects
   href: ../../custom-objects/learn/toc.yml
-  topicHref: ../../custom-objects/learn/index.m
+  topicHref: ../../custom-objects/learn/index.md
 - name: Screen designer
   href: ../../ui/screen-designer/learn/toc.yml
-  topicHref: ../../ui/screen-designer/learn/index.m
+  topicHref: ../../ui/screen-designer/learn/index.md
 - name: Options
   href: ../../admin/options/learn/toc.yml
-  topicHref: ../../admin/options/learn/index.m
+  topicHref: ../../admin/options/learn/index.md
 - name: CRMScript
   href: ../../automation/crmscript/learn/toc.yml
-  topicHref: ../../automation/crmscript/learn/index.m
+  topicHref: ../../automation/crmscript/learn/index.md
 - name: Email
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
   
 - name: Customer center
   href: ../../customer-center/learn/toc.yml
-  topicHref: ../../customer-center/learn/index.m
+  topicHref: ../../customer-center/learn/index.md
 - name: System design
   href: ../../ui/blogic/learn/toc.yml
-  topicHref: ../../ui/blogic/learn/index.m
+  topicHref: ../../ui/blogic/learn/index.md
 - name: Onsite
   topicHref: ../../automation/crmscript/learn/screen/data-exchange.md
   items:
