@@ -18,9 +18,6 @@ language: en
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
 
-> > [!NOTE]
-> Breaking change: starting from version 3.5, the API response structure changes because **id**, **body**, and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
-
 ## Steps
 
 1. On the page that lists all your Zaps, click **Create**. You will be taken to a new Zap creation window.

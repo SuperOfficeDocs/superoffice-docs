@@ -15,6 +15,9 @@ redirect_from: /en/automation/zapier/index
 
 # Zapier
 
+> [!NOTE]
+> Breaking change: starting from version 3.5 the API response structure changes because **id**, **body** and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
+
 Zapier is a web-based automation tool that allows you to connect various apps and services together to automate workflows and tasks without the need for coding or technical expertise.
 
 It enables you to create automated workflows, known as **Zaps**, that connect different applications and automate tasks based on triggers and actions.
