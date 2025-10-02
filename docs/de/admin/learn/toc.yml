@@ -1,0 +1,23 @@
+items:
+- name: Überblick
+  href: ../index.yml
+- name: Erste Schritte
+  topicHref: ../getting-started/index.md
+  items:
+  - name: Einführung
+    href: ../getting-started/index.md
+  - name: Benutzer einbinden
+    href: ../getting-started/onboard-users.md
+- name: Ansichten in Einstellungen und Verwaltung anpassen
+  href: adjusting-views.md
+- name: Benutzerverwaltung
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
+- name: Lizenzen
+  href: ../license/learn/toc.yml
+  topicHref: ../license/learn/index.md
+- name: Importieren
+  href: ../import/learn/toc.yml
+  topicHref: ../import/learn/index.md
+- name: Systemereignis hinzufügen
+  href: add-system-event.md

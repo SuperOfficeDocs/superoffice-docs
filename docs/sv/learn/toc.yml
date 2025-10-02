@@ -72,24 +72,9 @@ items:
     topicHref: ../customization/index.yml
 
   - name: Administration och systeminställningar
-    href: administration.yml
-    items:
-    - name: Översikt
-      href: administration.yml
-    - name: Anpassa olika vyer i Inställningar och underhåll
-      href: ../admin/learn/adjusting-views.md
-    - name: Administrering av användare
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Licenser
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Lägga till systemhändelse
-      href: ../admin/learn/add-system-event.md
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: AI-tjänster
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
+  - name: AI-tjänster
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md

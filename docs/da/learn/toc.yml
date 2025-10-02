@@ -72,24 +72,9 @@ items:
     topicHref: ../customization/index.yml
 
   - name: Administration og systemindstillinger
-    href: administration.yml
-    items:
-    - name: Oversigt
-      href: administration.yml
-    - name: Juster visninger i Indstillinger og vedligeholdelse
-      href: ../admin/learn/adjusting-views.md
-    - name: Brugerstyring
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Licenser
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Tilføj systemhændelse
-      href: ../admin/learn/add-system-event.md
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: AI-tjenester
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
+  - name: AI-tjenester
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md
