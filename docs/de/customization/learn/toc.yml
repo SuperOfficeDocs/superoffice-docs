@@ -1,0 +1,38 @@
+items:
+- name: Überblick
+  href: ../index.yml
+- name: Listen
+  href: ../../admin/lists/learn/toc.yml
+  topicHref: ../../admin/lists/learn/index.md
+- name: Einstellungen
+  href: ../../admin/preferences/learn/toc.yml
+  topicHref: ../../admin/preferences/learn/index.md
+- name: Benutzerdefinierte Objekte
+  href: ../../custom-objects/learn/toc.yml
+  topicHref: ../../custom-objects/learn/index.md
+- name: Ansichtsdesigner
+  href: ../../ui/screen-designer/learn/toc.yml
+  topicHref: ../../ui/screen-designer/learn/index.md
+- name: Optionen
+  href: ../../admin/options/learn/toc.yml
+  topicHref: ../../admin/options/learn/index.md
+- name: CRMScript
+  href: ../../automation/crmscript/learn/toc.yml
+  topicHref: ../../automation/crmscript/learn/index.md
+- name: E-Mail
+  href: ../../email/service/learn/toc.yml
+  topicHref: ../../email/service/learn/index.md
+  
+- name: Kundenzentrum
+  href: ../../customer-center/learn/toc.yml
+  topicHref: ../../customer-center/learn/index.md
+- name: Systemdesign
+  href: ../../ui/blogic/learn/toc.yml
+  topicHref: ../../ui/blogic/learn/index.md
+- name: Vor Ort
+  topicHref: ../../automation/crmscript/learn/screen/data-exchange.md
+  items:
+  - name: Data Exchange
+    href: ../../automation/crmscript/learn/screen/data-exchange.md
+  - name: SOAP-Schnittstelle konfigurieren
+    href: ../../admin/learn/configure-soap.md

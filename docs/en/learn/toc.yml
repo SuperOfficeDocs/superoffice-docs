@@ -67,53 +67,9 @@ items:
     href: ../erp/learn/toc.yml
     topicHref: ../erp/learn/index.md
 
-  - name: Customisation
-    href: customization.yml
-    items:
-    - name: Overview
-      href: customization.yml
-    - name: Lists
-      href: ../admin/lists/learn/toc.yml
-      topicHref: ../admin/lists/learn/index.md
-    - name: Preferences
-      href: ../admin/preferences/learn/toc.yml
-      topicHref: ../admin/preferences/learn/index.md
-
-    - name: Custom objects
-      href: ../custom-objects/learn/toc.yml
-      topicHref: ../custom-objects/learn/index.md
-
-    - name: Screen designer
-      href: ../ui/screen-designer/learn/toc.yml
-      topicHref: ../ui/screen-designer/learn/index.md
-
-    - name: Options
-      href: ../admin/options/learn/toc.yml
-      topicHref: ../admin/options/learn/index.md
-
-    - name: CRMScript
-      href: ../automation/crmscript/learn/toc.yml
-      topicHref: ../automation/crmscript/learn/index.md
-
-    - name: Email
-      href: ../email/service/learn/toc.yml
-      topicHref: ../email/service/learn/index.md
-      
-    - name: Customer center
-      href: ../customer-center/learn/toc.yml
-      topicHref: ../customer-center/learn/index.md
-
-    - name: System design
-      href: ../ui/blogic/learn/toc.yml
-      topicHref: ../ui/blogic/learn/index.md
-
-    - name: Onsite
-      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-      items:
-      - name: Data Exchange
-        href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: Configure SOAP interface
-        href: ../admin/learn/configure-soap.md
+  - name: Customization
+    href: ../customization/learn/toc.yml
+    topicHref: ../customization/index.yml
 
   - name: Administration and system settings
     href: administration.yml

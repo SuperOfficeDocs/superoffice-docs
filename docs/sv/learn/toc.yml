@@ -68,51 +68,8 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Anpassning
-    href: customization.yml
-    items:
-    - name: Översikt
-      href: customization.yml
-    - name: Listor
-      href: ../admin/lists/learn/toc.yml
-      topicHref: ../admin/lists/learn/index.md
-    - name: Preferenser
-      href: ../admin/preferences/learn/toc.yml
-      topicHref: ../admin/preferences/learn/index.md
-    - name: Egendefinierade objekt
-      href: ../custom-objects/learn/toc.yml
-      topicHref: ../custom-objects/learn/index.md
-
-    - name: Skärmdesigner
-      href: ../ui/screen-designer/learn/toc.yml
-      topicHref: ../ui/screen-designer/learn/index.md
-
-    - name: Alternativ
-      href: ../admin/options/learn/toc.yml
-      topicHref: ../admin/options/learn/index.md
-
-    - name: CRMScript
-      href: ../automation/crmscript/learn/toc.yml
-      topicHref: ../automation/crmscript/learn/index.md
-
-    - name: E-post
-      href: ../email/service/learn/toc.yml
-      topicHref: ../email/service/learn/index.md
-
-    - name: Kundcenter
-      href: ../customer-center/learn/toc.yml
-      topicHref: ../customer-center/learn/index.md
-
-    - name: Systemdesign
-      href: ../ui/blogic/learn/toc.yml
-      topicHref: ../ui/blogic/learn/index.md
-
-    - name: Lokalt
-      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-      items:
-      - name: Data Exchange
-        href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: Konfigurera SOAP-gränssnitt
-        href: ../admin/learn/configure-soap.md
+    href: ../customization/learn/toc.yml
+    topicHref: ../customization/index.yml
 
   - name: Administration och systeminställningar
     href: administration.yml
