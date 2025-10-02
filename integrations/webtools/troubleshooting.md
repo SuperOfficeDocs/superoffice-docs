@@ -4,7 +4,7 @@ title: Troubleshooting
 description: Troubleshooting WebTools
 keywords: WebTools, troubleshooting
 author: Jostein K, Bergfrid Dias
-date: 01.23.2024
+date: 10.02.2025
 content_type: howto
 category: integration
 topic: WebTools
@@ -33,11 +33,24 @@ The registry key `LogFile` enables logging of the main actions.
 > [!NOTE]
 > A restart of WebTools is often necessary for applying the registry settings.
 
+### Alarms are not working as expected
+
+If alarms are not showing or are showing at the wrong time, check the **WebTools preferences**.
+
+If the option **Show alarm for all appointments *n* minutes before** is enabled in WebTools, this setting overrides the [alarm setting in SuperOffice CRM][1].
+
+To change this:
+
+1. Right-click the WebTools icon in the system tray.
+1. Select **Preferences**.
+1. Adjust or disable the **Show alarm for all appointments** setting.
+
 ## Related content
 
 * [What to do when SuperOffice archiving button has disappeared from Outlook?][13] - FAQ
 
 <!-- Referenced links -->
+[1]: ../../docs/en/diary/learn/set-alarm.md
 [13]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 
 <!-- Referenced images -->
