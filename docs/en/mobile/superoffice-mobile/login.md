@@ -9,6 +9,7 @@ version: 11.1
 content_type: howto
 platform: mobile
 language: en
+index: true
 ---
 
 # First time use/log in
