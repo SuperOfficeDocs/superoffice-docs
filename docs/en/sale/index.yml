@@ -132,7 +132,7 @@ landingContent:
         - text: Web panels
           url: ../ui/web-panels/index.md
         - text: SoProtocol
-          url: ../ui/soprotocol/index.md
+          url: ../customization/soprotocol/index.md
         - text: Custom screens (bLogic)
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items

@@ -132,9 +132,9 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: SoProtocol - create follow-up
-            url: ../ui/soprotocol/howto/create-follow-up.md
+            url: ../customization/soprotocol/howto/create-follow-up.md
           - text: SoProtocol - open Follow-up dialog
-            url: ../ui/soprotocol/howto/open-follow-up.md
+            url: ../customization/soprotocol/howto/open-follow-up.md
       - itemType: library_books
         typeDesc: reference
         links:

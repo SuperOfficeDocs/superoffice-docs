@@ -90,7 +90,7 @@ The config data for a view can appear in 2 ways: within the views tag or in a se
 [7]: <xref:SuperOffice.CRM.Web.UI.Controls.FindCard>
 [8]: <xref:SuperOffice.CRM.Web.UI.Controls.TabbedCard>
 [9]: <xref:SuperOffice.CRM.Web.UI.Controls.WizardCard>
-[10]: ../../../soprotocol/index.md
+[10]: ../../../../customization/soprotocol/index.md
 [11]: soml.md
 
 <!-- Referenced images -->

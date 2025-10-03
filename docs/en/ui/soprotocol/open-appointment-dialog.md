@@ -1,11 +1,3 @@
 ---
-uid: sop_open_apt_dialog-redirect
-author: Eivind Fasting
-date: 11.26.2024
-keywords: soprotocol, deeplinking, appointment
-content_type: howto
-platform: web
-deployment: onsite
-redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/open-follow-up.html
+redirect_url: https://docs.superoffice.com/en/customization/soprotocol/howto/open-follow-up.html
 ---
-

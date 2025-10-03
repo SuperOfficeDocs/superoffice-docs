@@ -120,7 +120,7 @@ How it works is detailed in the [technical overview][1].
 [5]: ../../docs/en/document/learn/create.md
 [6]: ../../docs/en/admin/lists/learn/create-email-template.md
 [8]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
-[9]: ../../docs/en/ui/soprotocol/index.md
+[9]: ../../docs/en/customization/soprotocol/index.md
 [12]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=112136
 [15]: https://www3.superoffice.com/DownloadService/
 [19]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
