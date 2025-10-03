@@ -15,7 +15,7 @@ redirect_from:
 language: en
 ---
 
-# Create contact
+# Create company
 
 The soprotocol should be on the format: ```soprotocol:contact.main[new=true]?contact_id=0```
 
