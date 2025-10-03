@@ -9,6 +9,7 @@ version: 11.1
 content_type: reference
 platform: mobile
 language: en
+index: true
 ---
 
 # Settings <i class="ph ph-gear" aria-hidden="true"></i>

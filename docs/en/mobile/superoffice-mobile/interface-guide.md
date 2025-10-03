@@ -9,6 +9,7 @@ version: 11.1
 content_type: reference
 platform: mobile
 language: en
+index: true
 ---
 
 # Interface guide

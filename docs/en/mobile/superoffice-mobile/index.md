@@ -9,6 +9,7 @@ version: 11.1
 content_type: concept
 platform: mobile
 language: en
+index: true
 ---
 
 # Mobile CRM - Access your CRM on the go
