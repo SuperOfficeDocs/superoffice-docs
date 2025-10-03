@@ -14,7 +14,7 @@ language: en
 
 # Create project
 
-The soprotocol should be on the format: ```soprotocol:project.main[new=true]?project_id=0&...other args...```
+The soprotocol should be on the format: ```soprotocol:project.main[new=true]?project_id=0```
 
 ## Create new project
 
