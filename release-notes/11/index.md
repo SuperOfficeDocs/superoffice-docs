@@ -26,7 +26,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 ### 11.5 (13.10.2025)
 
 * [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
-* [Marketing Form - Pre-populate fields when opened from a mailing][14] in Marketing
+* [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
 * [Request types with different icons][16] in Service
 * [Requests - Request types with different icons][18] in Settings and maintenance
 
