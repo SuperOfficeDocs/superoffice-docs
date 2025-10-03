@@ -93,4 +93,4 @@ SuperOffice uses the *SoUdefConfiuration.config* file to determine which set of 
 ```
 
 <!-- Referenced links -->
-[1]: ../../../soprotocol/index.md
+[1]: ../../../../customization/soprotocol/index.md

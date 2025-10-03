@@ -109,4 +109,4 @@ To simplify executing `soprotocol` through a webpanel hosted inside of SuperOffi
 [13]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/customization/soprotocol-copy-shortcut.png
+[img3]: ../../../media/loc/en/customization/soprotocol-copy-shortcut.png

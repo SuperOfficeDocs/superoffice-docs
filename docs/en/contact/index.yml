@@ -129,7 +129,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: SoProtocol - list of contacts from a company
-            url: ../ui/soprotocol/howto/open-contact.md
+            url: ../customization/soprotocol/howto/open-contact.md
       - itemType: video_library
         typeDesc: video
         links:

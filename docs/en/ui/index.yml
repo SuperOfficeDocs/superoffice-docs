@@ -13,7 +13,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 09.04.2024
+  so.date: 10.03.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -112,27 +112,27 @@ conceptualContent:
     - title: SOProtocol
       summary: ""
       links:
-      - url: soprotocol/index.md
+      - url: ../customization/soprotocol/index.md
         itemType: explore
         typeDesc: concept
         text: Overview
-      - url: soprotocol/navigation-points.md
+      - url: ../customization/soprotocol/navigation-points.md
         itemType: explore
         typeDesc: concept
         text: Navigation points
-      - url: soprotocol/page-control-and-cache.md
+      - url: ../customization/soprotocol/page-control-and-cache.md
         itemType: explore
         typeDesc: concept
         text: Page control and cache
-      - url: soprotocol/in-crmscript.md
+      - url: ../customization/soprotocol/in-crmscript.md
         itemType: explore
         typeDesc: concept
         text: In CRMScript
-      - url: soprotocol/used-in-webpanels-web.md
+      - url: ../customization/soprotocol/used-in-webpanels-web.md
         itemType: explore
         typeDesc: concept
         text: In web panels (Web)
-      - url: soprotocol/get-contact.md
+      - url: ../customization/soprotocol/howto/open-contact.md
         itemType: list
         typeDesc: how-to-guide
         text: How to get a contact

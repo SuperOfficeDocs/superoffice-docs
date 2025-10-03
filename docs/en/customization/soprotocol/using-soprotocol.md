@@ -80,5 +80,5 @@ After we have logged in we are taken straight to the contact page that contains 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/customization/soprotocol-contact.png
-[img2]: ../../../../media/loc/en/customization/soprotocol-image024.jpg
+[img1]: ../../../media/loc/en/customization/soprotocol-contact.png
+[img2]: ../../../media/loc/en/customization/soprotocol-image024.jpg

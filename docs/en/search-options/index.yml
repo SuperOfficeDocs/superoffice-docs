@@ -119,7 +119,7 @@ conceptualContent:
       - text: SoProtocol
         itemType: explore
         typeDesc: concept
-        url: ../ui/soprotocol/index.md
+        url: ../customization/soprotocol/index.md
 
     - title: Data options
       summary: ""

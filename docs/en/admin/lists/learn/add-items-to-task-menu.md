@@ -63,7 +63,7 @@ This is how to fill out the fields in the Edit list items dialog for Task menu:
 [3]: specialized-lists.md
 [4]: ../../../../en/ui/web-panels/url-encoding.md
 [5]: ../../../automation/crmscript/learn/index.md
-[6]: ../../../../en/ui/soprotocol/index.md
+[6]: ../../../../en/customization/soprotocol/index.md
 [7]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
