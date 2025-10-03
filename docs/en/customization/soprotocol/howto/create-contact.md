@@ -17,7 +17,7 @@ language: en
 
 # Create contact
 
-The soprotocol should be on the format: ```soprotocol:contact.main[new=true]?contact_id=0&...other args...```
+The soprotocol should be on the format: ```soprotocol:contact.main[new=true]?contact_id=0```
 
 ## How to create contact
 
