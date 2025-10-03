@@ -2,7 +2,7 @@
 uid: sop-create-contact
 title: Create Contact
 description: How to create a Contact using the soprotocol
-keywords: soprotocol, contact, create
+keywords: soprotocol, contact, create, deeplinking
 author: Eivind Fasting
 date: 11.26.2024
 version: 10.3.4

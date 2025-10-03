@@ -2,7 +2,7 @@
 uid: sop-open-company
 title: Open Company
 description: How to create a Company using the soprotocol
-keywords: soprotocol, company, open
+keywords: soprotocol, company, open, deeplinking
 author: Eivind Fasting
 date: 11.26.2024
 content_type: howto
