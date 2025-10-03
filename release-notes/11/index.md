@@ -26,14 +26,13 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 ### 11.5 (13.10.2025)
 
 * [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
-* [Marketing Form - Publish with a direct link][14] in Marketing
+* [Marketing Form - Pre-populate fields when opened from a mailing][14] in Marketing
 * [Request types with different icons][16] in Service
 * [Requests - Request types with different icons][18] in Settings and maintenance
 
 ### 11.4 (22.09.2025)
 
 * [Selection - Board view for requests][10] in Core CRM and Sales
-* [Dashboard - Copy dashboard link][10] in Core CRM and Sales
 * [Lists of contacts - Create request from a contact's context menu][11] in Service
 * [Production sandbox badge (Test environment)][10] in Core and Settings and maintenance
 
@@ -43,6 +42,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * [Selection - Preview card in board view][6] in Core CRM and Sales
 * [Notification - New company/contact assigned][6] in Core CRM and Sales
 * [Company/Contact - Keep Our contact empty][6] in Core CRM and Sales
+* [Dashboard - Copy dashboard link][6] in Core CRM and Sales
 * [Side panel - Preview e-mail with attachments, recipients and reply/forward][6] in Core CRM and Sales
 * [Marketing Flow – distribute to owner step][7] in Marketing
 * [Request - Anonymise support agent][8] in Service and Settings and maintenance

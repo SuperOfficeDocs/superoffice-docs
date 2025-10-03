@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
-* [Marketing Form - Publish with a direct link (11.5)][5]
+* [Marketing Form - Pre-populate fields when opened from a mailing (11.5)][5]
 * [Marketing Flow – distribute to owner step (11.3)][3]
 
 <!-- Referenced links-->
