@@ -1,0 +1,43 @@
+items:
+- name: Overview
+  href: index.md
+- name: Navigation targets
+  href: navigation-points.md
+- name: Page control and cache
+  href: page-control-and-cache.md
+- name: Using SoProtocol
+  href: using-soprotocol.md
+- name: How to...
+  topicHref: howto/open-contact.md
+  items:
+  - name: Open contact
+    href: howto/open-contact.md
+  - name: Create contact
+    href: howto/create-contact.md
+  - name: Open follow-up
+    href: howto/open-follow-up.md
+  - name: Create follow-up
+    href: howto/create-follow-up.md
+  - name: Open document
+    href: howto/open-document.md
+  - name: Create document
+    href: howto/create-document.md
+  - name: Open project
+    href: howto/open-project.md
+  - name: Create project
+    href: howto/create-project.md
+  - name: Requests
+    href: howto/requests.md
+  - name: Create/show custom object
+    href: howto/custom-object.md
+- name: In CRMScript
+  href: in-crmscript.md
+- name: In web panels
+  topicHref: used-in-webpanels-web.md
+  items:
+  - name: Mobile
+    href: used-in-webpanels-mobile.md
+  - name: Web
+    href: used-in-webpanels-web.md
+  - name: Windows
+    href: used-in-webpanels-win.md

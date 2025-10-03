@@ -11,8 +11,8 @@ items:
     href: blogic/toc.yml
     topicHref: blogic/index.yml
   - name: SOProtocol
-    href: soprotocol/toc.yml
-    topicHref: soprotocol/index.md
+    href: ../customization/soprotocol/toc.yml
+    topicHref: ../customization/soprotocol/index.md
   - name: Web panels
     href: web-panels/toc.yml
     topicHref: web-panels/index.md
