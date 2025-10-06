@@ -1,0 +1,23 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Opmaak toevoegen
+  href: add-layout.md
+- name: Opmaak bewerken
+  href: edit-layout.md
+- name: Werken met velden
+  href: working-with-fields.md
+- name: Werken met rasters
+  href: working-with-grids.md
+- name: Werken met tabbladen
+  href: working-with-tabs.md
+- name: Werken met sectietabbladen (archieven)
+  href: working-with-archives.md
+- name: Knop of koppeling toevoegen
+  href: add-button.md
+- name: Opmaak toewijzen aan groep/type/sjabloon
+  href: assign-layout.md
+- name: Veldeferentie
+  href: reference.md
+- name: Tutorial - Land plaatsen
+  href: tutorial-move-country.md
