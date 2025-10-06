@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/learn/reference.html
+redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/admin/reference.html
 ---

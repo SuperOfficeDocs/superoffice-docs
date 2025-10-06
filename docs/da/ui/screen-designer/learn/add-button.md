@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/da/customization/screen-designer/learn/add-button.html
+redirect_url: https://docs.superoffice.com/da/customization/screen-designer/admin/add-button.html
 ---

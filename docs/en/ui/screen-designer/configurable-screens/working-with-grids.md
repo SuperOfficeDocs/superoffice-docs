@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/en/customization/screen-designer/learn/working-with-grids.html
+redirect_url: https://docs.superoffice.com/en/customization/screen-designer/admin/working-with-grids.html
 ---

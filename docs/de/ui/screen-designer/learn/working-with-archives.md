@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/de/customization/screen-designer/learn/working-with-archives.html
+redirect_url: https://docs.superoffice.com/de/customization/screen-designer/admin/working-with-archives.html
 ---

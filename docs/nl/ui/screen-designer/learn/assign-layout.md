@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/learn/assign-layout.html
+redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/admin/assign-layout.html
 ---

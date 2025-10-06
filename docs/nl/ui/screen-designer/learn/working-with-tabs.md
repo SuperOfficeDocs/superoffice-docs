@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/learn/working-with-tabs.html
+redirect_url: https://docs.superoffice.com/nl/customization/screen-designer/admin/working-with-tabs.html
 ---

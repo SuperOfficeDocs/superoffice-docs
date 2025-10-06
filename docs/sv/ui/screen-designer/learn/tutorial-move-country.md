@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/sv/customization/screen-designer/learn/tutorial-move-country.html
+redirect_url: https://docs.superoffice.com/sv/customization/screen-designer/admin/tutorial-move-country.html
 ---
