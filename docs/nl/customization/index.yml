@@ -57,7 +57,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Schermontwerper
-          url: ../ui/screen-designer/learn/index.md
+          url: ../customization/screen-designer/admin/index.md
         - text: Extra menu's
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Webpanelen

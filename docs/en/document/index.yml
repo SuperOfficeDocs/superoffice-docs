@@ -142,7 +142,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Screen Designer
-          url: ../ui/screen-designer/learn/index.md
+          url: ../customization/screen-designer/admin/index.md
         - text: Web panels
           url: ../ui/web-panels/index.md
         - text: SoProtocol

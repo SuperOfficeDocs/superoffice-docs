@@ -86,7 +86,7 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
 [5]: ../learn/more-tab.md
-[11]: ../../ui/screen-designer/learn/index.md
+[11]: ../../customization/screen-designer/admin/index.md
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->

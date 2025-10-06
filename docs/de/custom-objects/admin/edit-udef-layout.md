@@ -96,5 +96,5 @@ Wenn Sie **(alle Benutzergruppen)** in der Liste **Benutzergruppe** auswählen, 
 > Sie müssen eine Überschreibung für eine einzelne Benutzergruppe veröffentlichen, *nachdem* Sie ein Setup für alle Benutzergruppen festgelegt haben. Andernfalls wird es nicht wirksam.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/learn/index.md
+[1]: ../../customization/screen-designer/admin/index.md
 [2]: add-udef.md

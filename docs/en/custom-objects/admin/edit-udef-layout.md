@@ -96,5 +96,5 @@ If you select **(all user groups)** in the **User group** list, select a field o
 > You must publish an override for a single user group *after* you specify a setup for all user groups. Otherwise, it will not take effect.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/learn/index.md
+[1]: ../../customization/screen-designer/admin/index.md
 [2]: add-udef.md

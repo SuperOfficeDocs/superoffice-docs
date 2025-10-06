@@ -159,7 +159,7 @@ Die automatische Speicherung wird standardmäßig aktiviert, wenn Sie Anfragen a
 [2]: reply.md#reply-templ
 [3]: reply.md#time-spent
 [4]: tags.md
-[10]: ../../ui/screen-designer/learn/index.md
+[10]: ../../customization/screen-designer/admin/index.md
 [11]: ../../learn/getting-started/edit-email-signature.md
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md

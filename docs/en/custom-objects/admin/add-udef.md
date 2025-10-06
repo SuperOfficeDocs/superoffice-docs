@@ -86,7 +86,7 @@ Four of each type of field (Short text, Long text, Number, Decimal) are searchab
 [3]: edit-udef-layout.md
 [4]: edit-udef.md
 [5]: ../learn/more-tab.md
-[11]: ../../ui/screen-designer/learn/index.md
+[11]: ../../customization/screen-designer/admin/index.md
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->

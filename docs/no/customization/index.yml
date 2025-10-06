@@ -57,7 +57,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Skjermdesigner
-          url: ../ui/screen-designer/learn/index.md
+          url: ../customization/screen-designer/admin/index.md
         - text: Ekstramenyer
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Nettleserfaner

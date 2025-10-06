@@ -62,4 +62,4 @@ Men genom att anpassa SuperOffice CRM till ditt teams arbetsflöden kan du öka 
 Att anpassa SuperOffice CRM säkerställer att systemet fungerar på det sätt som bäst stödjer ditt team och hjälper dem att hålla sig organiserade och effektiva.
 
 <!-- Referenced links -->
-[1]: ../ui/screen-designer/learn/index.md
+[1]: ../customization/screen-designer/admin/index.md

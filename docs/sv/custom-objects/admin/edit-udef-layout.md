@@ -98,5 +98,5 @@ Om du väljer **(alla användargrupper)** i listan **Användargrupper**, väljer
 > Du måste publicera en åsidosättning för en enskild användargrupp *efter* att du har skapat en konfiguration för alla användargrupper. Annars tillämpas den inte.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/learn/index.md
+[1]: ../../customization/screen-designer/admin/index.md
 [2]: add-udef.md

@@ -134,6 +134,6 @@ You can then add these fields to the Project screen:
 [1]: ../admin/edit-udef-layout.md#page-1
 [2]: ../admin/add-udef.md
 [3]: ../../admin/lists/learn/adding-user-defined-lists.md
-[8]: ../../ui/screen-designer/learn/index.md
+[8]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced links -->

@@ -11,8 +11,8 @@ items:
   href: ../../custom-objects/learn/toc.yml
   topicHref: ../../custom-objects/learn/index.md
 - name: Screen designer
-  href: ../../ui/screen-designer/learn/toc.yml
-  topicHref: ../../ui/screen-designer/learn/index.md
+  href: ../../customization/screen-designer/admin/toc.yml
+  topicHref: ../../customization/screen-designer/admin/index.md
 - name: Options
   href: ../../admin/options/learn/toc.yml
   topicHref: ../../admin/options/learn/index.md

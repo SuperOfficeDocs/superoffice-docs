@@ -102,7 +102,7 @@ Hvis du holder musepekeren over en post i en liste, vises en infoboks med ekstra
 [20]: ../../../ai/learn/index.md
 [21]: ../../../admin/lists/learn/index.md
 [22]: ../../../sale/admin/quote/index.md
-[24]: ../../../ui/screen-designer/learn/index.md
+[24]: ../../../customization/screen-designer/admin/index.md
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md
 [27]: ../../../admin/import/learn/index.md

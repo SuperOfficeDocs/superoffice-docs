@@ -64,4 +64,4 @@ However, customizing SuperOffice CRM to match your team's workflows can help use
 Customizing SuperOffice CRM ensures the system works the way you do, helping your team stay organized and efficient.
 
 <!-- Referenced links -->
-[1]: ../ui/screen-designer/learn/index.md
+[1]: ../customization/screen-designer/admin/index.md
