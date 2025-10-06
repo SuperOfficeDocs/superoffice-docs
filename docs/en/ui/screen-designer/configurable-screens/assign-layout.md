@@ -1,7 +1,3 @@
----
-uid: screen-assign-layout-redirect
-author: Bergfrid Dias
-date: 10.07.2024
-language: en
-redirect_url: https://docs.superoffice.com/en/ui/screen-designer/learn/assign-layout.html
+﻿---
+redirect_url: https://docs.superoffice.com/en/customization/screen-designer/learn/assign-layout.html
 ---
