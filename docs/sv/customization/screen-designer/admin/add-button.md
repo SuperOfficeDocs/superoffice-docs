@@ -136,8 +136,8 @@ Vissa inställningar beror på vilken åtgärd som valts.
 [4]: edit-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/new-button.png
-[img2]: ../../../../media/loc/en/ui/translate-button-label.png
-[img3]: ../../../../media/loc/en/ui/button-script.png
-[img4]: ../../../../media/loc/en/ui/button-website.png
-[img5]: ../../../../media/loc/en/ui/button-soprotocol.png
+[img1]: ../../../../media/loc/en/customization/new-button.png
+[img2]: ../../../../media/loc/en/customization/translate-button-label.png
+[img3]: ../../../../media/loc/en/customization/button-script.png
+[img4]: ../../../../media/loc/en/customization/button-website.png
+[img5]: ../../../../media/loc/en/customization/button-soprotocol.png

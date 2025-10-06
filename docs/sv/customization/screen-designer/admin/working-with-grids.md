@@ -106,7 +106,7 @@ För att återställa ett rutnät:
 [4]: add-button.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/new-grid.png
-[img2]: ../../../../media/loc/en/ui/grid-settings.png
-[img3]: ../../../../media/loc/en/ui/hover-grid.png
-[img4]: ../../../../media/loc/en/ui/edit-grid.png
+[img1]: ../../../../media/loc/en/customization/new-grid.png
+[img2]: ../../../../media/loc/en/customization/grid-settings.png
+[img3]: ../../../../media/loc/en/customization/hover-grid.png
+[img4]: ../../../../media/loc/en/customization/edit-grid.png

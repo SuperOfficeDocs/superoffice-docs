@@ -90,15 +90,13 @@ Um diese Änderungen rückgängig zu machen, klicken Sie auf **Registerkarten wi
 
 ## Verwandte Inhalte
 
-* [Wie organisiere ich die Felder im Mehr-Tab nach dem Upgrade auf SuperOffice Version 10?][3] - FAQ
 * [Neues Layout erstellen][4]
 
 <!-- Referenced links -->
 [2]: ../../../search-options/learn/search-criteria.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
-[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
-[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png
+[img1]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/customization/admin-screendesigner-add-archive-layout.png

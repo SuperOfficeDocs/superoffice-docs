@@ -114,4 +114,4 @@ Der **Mehr**-Tab enthält automatisch alle [benutzerdefinierten Felder][3], sort
 [5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/ui/field-settings.png
+[img2]: ../../../../media/loc/en/customization/field-settings.png

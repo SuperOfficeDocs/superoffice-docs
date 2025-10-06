@@ -114,4 +114,4 @@ Fliken **Mer** innehåller automatiskt alla [anpassade fält][3], ordnade efter 
 [5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/ui/field-settings.png
+[img2]: ../../../../media/loc/en/customization/field-settings.png

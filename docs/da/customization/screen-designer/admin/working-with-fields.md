@@ -93,5 +93,5 @@ For at reducere rod skal du skjule felter, der aldrig bruges. Fjernede felter p√
 [5]: add-button.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
+[img1]: ../../../../media/loc/en/customization/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/customization/screendesigner-field-place.png

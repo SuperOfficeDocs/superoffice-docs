@@ -57,7 +57,7 @@ Sie könnten dies auch für den **Person**-Bildschirm machen.
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/tutorial-country-result.png
-[img2]: ../../../../media/loc/en/ui/open-screen-designer.png
-[img3]: ../../../../media/loc/en/ui/tutorial-country-layout-before.png
-[img4]: ../../../../media/loc/en/ui/tutorial-country-layout-after.png
+[img1]: ../../../../media/loc/en/customization/tutorial-country-result.png
+[img2]: ../../../../media/loc/en/customization/open-screen-designer.png
+[img3]: ../../../../media/loc/en/customization/tutorial-country-layout-before.png
+[img4]: ../../../../media/loc/en/customization/tutorial-country-layout-after.png

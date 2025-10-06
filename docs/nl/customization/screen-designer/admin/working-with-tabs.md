@@ -116,4 +116,4 @@ Het **Meer**-tabblad bevat automatisch alle [aangepaste velden][3], gerangschikt
 [5]: ../../../custom-objects/admin/add-udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/ui/field-settings.png
+[img2]: ../../../../media/loc/en/customization/field-settings.png

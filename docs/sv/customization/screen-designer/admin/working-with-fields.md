@@ -98,5 +98,5 @@ För att minska röran, göm fält som aldrig används. Borttagna fält påverka
 [5]: add-button.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
+[img1]: ../../../../media/loc/en/customization/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/customization/screendesigner-field-place.png

@@ -88,16 +88,14 @@ For å angre disse endringene klikker du på **Gjenopprett faner**.
 
 ## Relatert innhold
 
-* [Hvordan organiserer jeg feltene i Mer-fanen etter oppgraderingen til SuperOffice versjon 10?][3] - FAQ
 * [Opprett ny layout][4]
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../search-options/learn/search-criteria.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
-[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
-[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png
+[img1]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/customization/admin-screendesigner-add-archive-layout.png

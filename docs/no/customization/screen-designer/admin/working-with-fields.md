@@ -90,5 +90,5 @@ For å redusere rot, skjul felt som aldri brukes. Fjernede felt påvirker kun de
 [3]: working-with-tabs.md#label
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
+[img1]: ../../../../media/loc/en/customization/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/customization/screendesigner-field-place.png

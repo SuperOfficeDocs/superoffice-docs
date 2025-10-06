@@ -89,5 +89,5 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 [16]: ../../../admin/user-management/learn/user-groups.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/add-button-for-new-screen-layout.png
-[img2]: ../../../../media/loc/en/ui/add-new-screen-layout.png
+[img1]: ../../../../media/loc/en/customization/add-button-for-new-screen-layout.png
+[img2]: ../../../../media/loc/en/customization/add-new-screen-layout.png

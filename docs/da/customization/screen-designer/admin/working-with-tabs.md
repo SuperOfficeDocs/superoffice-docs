@@ -117,4 +117,4 @@ Hvis du har en bred skærm, kan du bruge flere kolonner for at se flere data sam
 [9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/ui/field-settings.png
+[img2]: ../../../../media/loc/en/customization/field-settings.png

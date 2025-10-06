@@ -116,4 +116,4 @@ The **More** tab automatically contains all [custom fields][3], arranged by rank
 [9]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/ui/field-settings.png
+[img2]: ../../../../media/loc/en/customization/field-settings.png

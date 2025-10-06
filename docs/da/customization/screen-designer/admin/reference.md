@@ -321,13 +321,13 @@ For detaljer om værdien af hvert felt, se [databasereferencen][23].
 [6]: ../../../../en/database/tables/ticket.md
 [7]: ../../../../en/database/tables/appointment.md
 [11]: ../../../../en/sale/dev/index.md
-[10]: ../../../../en/project/overview.md
+[10]: ../../../../en/project/dev/index.md
 [13]: ../../../request/admin/type/index.md
-[14]: ../../../../en/request/overview.md
+[14]: ../../../../en/request/dev/index.md
 [15]: ../../../diary/learn/invitation/add-attendee.md#availability
 [16]: ../../../diary/learn/follow-ups.md
-[17]: ../../../../en/company/interests.md
-[18]: ../../../../en/company/category-list.md
+[17]: ../../../../en/company/dev/index.md#interests
+[18]: ../../../../en/company/dev/index.md#categorylist
 [20]: ../../../../en/globalization-and-localization/address/index.md
 [21]: ../../../document/learn/index.md
 [22]: ../../../document/templates/learn/index.md

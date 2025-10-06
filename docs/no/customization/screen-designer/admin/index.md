@@ -127,6 +127,6 @@ Ved å tilpasse layout med Skjermdesigneren kan du eliminere unødvendig informa
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/ui/status-draft.png
-[img4]: ../../../../media/loc/en/ui/status-published.png
-[img5]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
+[img3]: ../../../../media/loc/en/customization/status-draft.png
+[img4]: ../../../../media/loc/en/customization/status-published.png
+[img5]: ../../../../media/loc/en/customization/edit-card-layout-fields.png

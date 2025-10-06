@@ -98,5 +98,5 @@ Um Unordnung zu reduzieren, blenden Sie Felder aus, die nie verwendet werden. En
 [5]: add-button.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
+[img1]: ../../../../media/loc/en/customization/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/customization/screendesigner-field-place.png

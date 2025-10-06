@@ -96,4 +96,4 @@ For å slette en layout:
 [7]: working-with-archives.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/ui/edit-the-screen-layout-of-companies-and-contacts.png
+[img3]: ../../../../media/loc/en/customization/edit-the-screen-layout-of-companies-and-contacts.png

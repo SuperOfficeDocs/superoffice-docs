@@ -90,15 +90,13 @@ För att ångra dessa ändringar, klicka på **Återställ flikar**.
 
 ## Relaterat innehåll
 
-* [Hur omorganiserar jag fälten i fliken Mer efter uppgraderingen till SuperOffice version 10?][3] - FAQ
 * [Skapa ny layout][4]
 
 <!-- Referenced links -->
 [2]: ../../../search-options/learn/search-criteria.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
-[img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
-[img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png
+[img1]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive.png
+[img5]: ../../../../media/loc/en/customization/admin-screendesigner-edit-archive-add-tab.png
+[img6]: ../../../../media/loc/en/customization/admin-screendesigner-add-archive-layout.png

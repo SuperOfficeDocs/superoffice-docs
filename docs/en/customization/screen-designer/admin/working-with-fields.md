@@ -86,5 +86,5 @@ To reduce clutter, hide fields that are never used. Removed fields affect only w
 [3]: working-with-tabs.md#label
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/ui/edit-card-layout-fields.png
-[img6]: ../../../../media/loc/en/ui/screendesigner-field-place.png
+[img1]: ../../../../media/loc/en/customization/edit-card-layout-fields.png
+[img6]: ../../../../media/loc/en/customization/screendesigner-field-place.png
