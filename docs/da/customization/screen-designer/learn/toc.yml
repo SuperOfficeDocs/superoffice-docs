@@ -1,0 +1,23 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilføj layout
+  href: add-layout.md
+- name: Rediger layout
+  href: edit-layout.md
+- name: Arbejde med felter
+  href: working-with-fields.md
+- name: Arbejde med gittere
+  href: working-with-grids.md
+- name: Arbejde med faner
+  href: working-with-tabs.md
+- name: Arbejde med detaljekort (arkiver)
+  href: working-with-archives.md
+- name: Tilføj knap eller link
+  href: add-button.md
+- name: Tildel layout til gruppe/type/skabelon
+  href: assign-layout.md
+- name: Feltreference
+  href: reference.md
+- name: Tutorial - Flyt land-feltet
+  href: tutorial-move-country.md

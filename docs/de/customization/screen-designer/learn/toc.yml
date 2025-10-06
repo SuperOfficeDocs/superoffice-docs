@@ -1,0 +1,23 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Layout hinzufügen
+  href: add-layout.md
+- name: Hauptkartenlayout bearbeiten
+  href: edit-layout.md
+- name: Arbeiten mit Feldern
+  href: working-with-fields.md
+- name: Arbeiten mit Gittern
+  href: working-with-grids.md
+- name: Arbeiten mit Registerkarten
+  href: working-with-tabs.md
+- name: Bereichsregisterkarten (Archive)
+  href: working-with-archives.md
+- name: Schaltfläche/Link hinzufügen
+  href: add-button.md
+- name: Layout zu Gruppe/Typ/Vorlage zuweisen
+  href: assign-layout.md
+- name: Feldreferenz
+  href: reference.md
+- name: Tutorial - Land verschieben
+  href: tutorial-move-country.md
