@@ -16,7 +16,7 @@ language: en
 
 This document describes how to set up the Twilio NetServer SMS connector to use in Customer Service. You need to set up an account with [Twilio][1] to get an account id and auth token to connect to their service.
 
-## Outgoing SMS Configuration from SuperOffice 8.4 SR6
+## Outgoing SMS configuration
 
 Go to **System - SMS** inside the Service client or **Mailings - Settings** inside Sales & Marketing client. Choose Twilio SMS in the list of available modules
 

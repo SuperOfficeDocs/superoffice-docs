@@ -1,7 +1,7 @@
 ---
 uid: sms-connectors
 title: SMS connectors
-description: NetServer SMS connectors for SuperOffice Service
+description: NetServer SMS connectors for SuperOffice
 keywords: SMS, SMS connector, SMS plugin, SMS plug-in
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -14,11 +14,11 @@ language: en
 
 # SMS connectors
 
-## Customer Service settings for NetServer SMS connectors
+## Settings for NetServer SMS connectors
 
 You could use the Messaging agent with [CRMScript][3] to send SMS from your scripts using your plugin (or any other plugin), without changing any settings in Customer Service, but if you want Customer Service to use your SMS connector for any SMS sent during request handling and notifications, you need to set it up.
 
-The following information applies to all SMS connectors.
+The following information applies to all SMS connectors. We have made this easier to set up you no longer need to change the config file but just edit settings inside Sales & Marketing under **Mailings > Settings** or in **Service under System > SMS**.
 
 ## Add an SMS inbox for incoming SMS
 
@@ -27,18 +27,6 @@ You can do this in Settings/E-mail/New SMS mailbox. This is where settings like 
 ![x -screenshot][img1]
 
 ![x -screenshot][img2]
-
-## From SuperOffice 8.0 SR3
-
-We have made this easier to set up you no longer need to change the config file but just edit settings inside Sales & Marketing under **Mailings > Settings** or in **Service under System > SMS**
-
-## SuperOffice versions up to 8.0 SR2
-
-In Settings/System/SMS tab, set SMS provider to **NetServer plugins** and select your plugin in NetServer module settings.
-
-![x -screenshot][img3]
-
-Configure a sender as well. The sender can be whatever the SMS provider allows, like your company name, a short number, or an international telephone number.
 
 ## Testing the service
 
@@ -89,4 +77,3 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/newsmsinbox.png
 [img2]: ../../../../media/loc/en/marketing/smsinboxsettings.png
-[img3]: ../../../../media/loc/en/marketing/netserverpluginsms.png
