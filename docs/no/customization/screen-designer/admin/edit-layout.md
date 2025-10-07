@@ -2,7 +2,7 @@
 uid: help-no-screen-designer-edit-layout
 title: Rediger layouten til et kort
 description: I denne veiledningen lærer du hvordan du redigerer en layout.
-keywords: Skjermdesigner, layout, oppsett, format, felt, faneoppsett, hovedkort, kortlayout
+keywords: skjermoppsett, rediger layout, endre layout, slett layout, Tilbakestill til fabrikkinnstillinger
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

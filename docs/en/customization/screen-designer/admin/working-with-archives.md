@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-archive
 title: Working with section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
-keywords: Screen designer, layout, section tab, archive
+keywords: add section tab, new section tab, add archive tab, customize section tab, section tab layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.2.11

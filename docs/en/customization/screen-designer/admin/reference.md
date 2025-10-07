@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-field-reference
 title: Reference
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
-keywords: Screen designer, layout, field, standard field, tab, standard tab
+keywords: Screen designer fields, standard field, standard tab
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.11

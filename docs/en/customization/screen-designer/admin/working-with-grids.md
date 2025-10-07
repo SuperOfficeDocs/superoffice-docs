@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-grid
 title: Working with grids
 description: How to add and populate grids in a layout using the Screen Designer in Settings and maintenance.
-keywords: Screen designer, layout, grid, table
+keywords: screen layout, grid, table layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10

@@ -2,7 +2,7 @@
 uid: help-nl-screen-designer-archive
 title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
-keywords: Schermontwerper, opmaak, sectietabblad, archief, tabblad
+keywords: sectietabblad toevoegen, nieuw sectietabblad, archieftabblad toevoegen, sectietabblad aanpassen, sectietabbladopmaak
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.2.11

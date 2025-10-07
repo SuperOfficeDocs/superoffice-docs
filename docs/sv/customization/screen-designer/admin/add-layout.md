@@ -2,7 +2,7 @@
 uid: help-sv-screen-designer-add-layout
 title: Lägg till layout
 description: Så här lägger du till en ny layout för en användargrupp.
-keywords: Skärmdesigner, layout, gränssnitt, flik, fält, huvudkort, anpassa skärmlayout
+keywords: lägg till layout, ny layout, skärmlayout, Tilldela layouter till
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

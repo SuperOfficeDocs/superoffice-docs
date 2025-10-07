@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-tabs
 title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
-keywords: Screen designer, layout, tab layout, heading, label, divider, A-Z
+keywords: layout, tab layout, add tab, remove tab, restore tab, group fields, More tab, add heading, add label, add divider
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.7

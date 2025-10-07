@@ -2,7 +2,7 @@
 uid: help-no-screen-designer-button
 title: Legg til en knapp eller kobling
 description: Hvordan legge til en knapp eller kobling med Skjermdesigneren i Innstillinger og vedlikehold.
-keywords: Skjermdesigner, layout, oppsett, knapp, kobling, etikett, A-Z
+keywords: legg til knapp, ny knapp, legg til lenke, ny lenke, etikett
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.7

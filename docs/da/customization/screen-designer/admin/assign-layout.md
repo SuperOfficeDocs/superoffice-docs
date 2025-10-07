@@ -2,7 +2,7 @@
 uid: help-da-screen-designer-assign-layout
 title: Tildel layout til gruppe, type eller skabelon
 description: Sådan tildeler du et layout til en gruppe, salgstype, projekttype eller sagstype ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
-keywords: Skærmdesigner, layout, tildel layout
+keywords: skærmlayout, tildel layout, layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.11

@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-add-layout
 title: Add layout
 description: How to add a screen layout using the Screen Designer in Settings and maintenance.
-keywords: Screen designer, layout, main card
+keywords: add layout, new layout, screen layout, Assign layouts to
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

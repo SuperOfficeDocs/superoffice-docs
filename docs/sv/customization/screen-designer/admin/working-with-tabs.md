@@ -2,7 +2,7 @@
 uid: help-sv-screen-designer-tabs
 title: Arbeta med flikar
 description: Hur du lägger till, organiserar, tar bort och återställer en flik i en layout och hur du organiserar informationen i logiska grupper med hjälp av Skärmdesignern i Inställningar och underhåll.
-keywords: Skärmdesigner, layout, gränssnitt, flik, fält, fliklayout, rubrik, etikett, avdelare, kolumn
+keywords: layout, fliklayout, lägg till flik, ta bort flik, återställ flik, gruppera fält, Mer flik, lägg till rubrik, lägg till etikett, lägg till avdelare
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.7

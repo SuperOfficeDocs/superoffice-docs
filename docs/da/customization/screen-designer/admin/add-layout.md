@@ -2,7 +2,7 @@
 uid: help-da-screen-designer-add-layout
 title: Tilføj layout
 description: Sådan tilføjes et nyt layout for en brugergruppe.
-keywords: Skærmdesigner, layout, udseende, layout, skærmlayout, hovedkort
+keywords: tilføj layout, nyt layout, skærmlayout, Tildel layout til
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

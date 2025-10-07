@@ -2,7 +2,7 @@
 uid: help-en-screen-designer-assign-layout
 title: Assign layout to group, type, or template
 description: How to assign a layout to a group, sale type, project type, or request type using the Screen Designer in Settings and maintenance.
-keywords: Screen designer, assign layout, layout
+keywords: screen layout, assign layout, layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.11

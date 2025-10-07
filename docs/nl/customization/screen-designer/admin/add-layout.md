@@ -2,7 +2,7 @@
 uid: help-nl-screen-designer-add-layout
 title: Opmaak toevoegen
 description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
-keywords: Schermontwerper, opmaak, hoofdkaart, schermopmaak
+keywords: opmaak toevoegen, nieuwe opmaak, schermopmaak, Opmaken toewijzen aan
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

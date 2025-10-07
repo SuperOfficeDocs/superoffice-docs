@@ -2,7 +2,7 @@
 uid: help-da-screen-designer-edit-layout
 title: Rediger layout af et kort
 description: I denne vejledning lærer du, hvordan du redigerer et layout.
-keywords: Skærmdesigner, layout, udseende, felt, kortlayout, hovedkort
+keywords: skærmlayout, rediger layout, ændre layout, slet layout, Nulstil til fabriksindstillinger
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

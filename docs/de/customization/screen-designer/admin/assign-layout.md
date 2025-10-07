@@ -2,7 +2,7 @@
 uid: help-de-screen-designer-assign-layout
 title: Layout zu Gruppe, Typ oder Vorlage zuweisen
 description: So weisen Sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung ein Layout einer Gruppe, Verkaufstyp, Projekttyp oder Anfrageart zu.
-keywords: Ansichtsdesigner, Layout, Layout zuweisen
+keywords: Bildschirmlayout, Layout zuweisen, Layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.11

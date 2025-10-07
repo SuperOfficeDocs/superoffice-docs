@@ -2,7 +2,7 @@
 uid: help-sv-screen-designer-grid
 title: Arbeta med rutnät
 description: Hur du lägger till och fyller rutnät i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
-keywords: Skärmdesigner, layout, gränssnitt, flik, fält, rutnät
+keywords: skärmlayout, rutnät, tabelllayout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10

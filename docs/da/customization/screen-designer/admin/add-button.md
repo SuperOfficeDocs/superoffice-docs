@@ -2,7 +2,7 @@
 uid: help-da-screen-designer-button
 title: Tilføj en knap eller et link
 description: Sådan tilføjer du en knap eller et link til et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
-keywords: Skærmdesigner, layout, knap, link, etiket, A-Z
+keywords: tilføj knap, ny knap, tilføj link, nyt link, etiket
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.7

@@ -2,7 +2,7 @@
 uid: help-no-screen-designer-assign-layout
 title: Tilordne layout til gruppe, type eller mal
 description: Hvordan tilordne layout til gruppe eller type ved hjelp av Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: Skjermdesigner, brukergrensesnitt, skjerm, layout, oppsett, tilordne, tildel
+keywords: skjermoppsett, tilordne layout, layout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.11

@@ -2,7 +2,7 @@
 uid: help-nl-screen-designer-fields
 title: Werken met velden
 description: Hoe u velden toevoegt, verplaatst en verwijdert in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
-keywords: Schermontwerper, opmaak, veld, opmaak bewerken, veldinstelling
+keywords: veld toevoegen, nieuw veld, veld verplaatsen, veld verwijderen, veld verbergen, opmaak bewerken, veldinstellingen
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10

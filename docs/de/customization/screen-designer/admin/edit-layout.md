@@ -2,7 +2,7 @@
 uid: help-de-screen-designer-edit-layout
 title: Hauptkartenlayout bearbeiten
 description: In dieser Anleitung lernen Sie, wie Sie ein Layout bearbeiten können.
-keywords: Ansichtsdesigner, Layout, Feld, Registerkarten-Layout
+keywords: Bildschirmlayout, Layout bearbeiten, Layout ändern, Layout löschen, Auf Werkseinstellungen zurücksetzen
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.10

@@ -2,7 +2,7 @@
 uid: help-da-screen-designer-archive
 title: Arbejde med detaljekort (arkiver)
 description: Skærmdesigner - arbejde med detaljekort (arkiver)
-keywords: Skærmdesigner, layout, detaljekort, arkiv, arkivlayout, fane
+keywords: tilføj sektionsfane, ny sektionsfane, tilføj arkivfane, tilpas sektionsfane, sektionsfanelayout
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.2.11

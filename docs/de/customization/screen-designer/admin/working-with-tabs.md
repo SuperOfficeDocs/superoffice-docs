@@ -2,7 +2,7 @@
 uid: help-de-screen-designer-tabs
 title: Arbeiten mit Registerkarten
 description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Verwaltung.
-keywords: Ansichtsdesigner,Layout, Registerkarten-Layout, Überschrift, Bezeichnung, Trennlinie
+keywords: Layout, Registerkarten-Layout, Registerkarte hinzufügen, Registerkarte entfernen, Registerkarte wiederherstellen, Felder gruppieren, Weitere Registerkarte, Überschrift hinzufügen, Bezeichnung hinzufügen, Trennlinie hinzufügen
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.3.7

@@ -2,7 +2,7 @@
 uid: help-no-screen-designer-archive
 title: Arbeide med detaljkort (arkiv)
 description: Hvordan tilpasse detaljkort (arkiv) i Skjermdesigneren i Innstillinger of vedlikehold.
-keywords: Skjermdesigner, layout, oppsett, detaljkort, arkiv, arkivlayout
+keywords: legg til detaljekortfane, ny detaljekortfane, legg til arkivfane, tilpass detaljekortfane, detaljekortfaneoppsett
 author: Bergfrid Dias
 date: 10.09.2025
 version: 10.2.11
