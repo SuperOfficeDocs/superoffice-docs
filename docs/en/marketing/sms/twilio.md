@@ -1,11 +1,15 @@
 ---
+uid: twilio-sms-plugin
 title: Twilio
-uid: twilio_sms_plugin
 description: Twilio NetServer SMS plugin
+keywords: Twilio
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/twilio
+language: en
 ---
 
 # Twilio

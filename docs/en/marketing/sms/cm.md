@@ -1,11 +1,15 @@
 ---
+uid: cm-sms-plugin
 title: CM
-uid: cm_sms_plugin
 description: Configuration of CM NetServer SMS plugin
+keywords: CM
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/cm
+language: en
 ---
 
 # Configuration of CM NetServer SMS Plugin

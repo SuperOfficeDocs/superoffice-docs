@@ -1,11 +1,15 @@
 ---
+uid: service-sms
 title: SMS plugins
-uid: service_sms
 description: NetServer SMS plugins for SuperOffice Service
+keywords: SMS
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: concept
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/index
+language: en
 ---
 
 # SMS plugins

@@ -1,11 +1,15 @@
 ---
+uid: smsteknik-sms-plugin
 title: SMSTeknik
-uid: smsteknik_sms_plugin
 description: Configuration of SMSTeknik NetServer SMS plugin
+keywords: SMSTeknik
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/smsteknik
+language: en
 ---
 
 # Configuration of SMSTeknik NetServer SMS Plugin

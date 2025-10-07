@@ -1,11 +1,15 @@
 ---
+uid: pswincom-sms-plugin
 title: Link Mobility (PSWinCom)
-uid: pswincom_sms_plugin
 description: Link Mobility (PSWinCom) NetServer SMS plugin
+keywords: Link Mobility, PSWinCom
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/linkmobility
+language: en
 ---
 
 # Link Mobility (PSWinCom)

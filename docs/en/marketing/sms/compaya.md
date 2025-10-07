@@ -1,11 +1,15 @@
 ---
+uid: compaya-sms-plugin
 title: Compaya
-uid: compaya_sms_plugin
 description: Compaya NetServer SMS plugin
+keywords: Compaya
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/compaya
+language: en
 ---
 
 # Compaya

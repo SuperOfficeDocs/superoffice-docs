@@ -1,11 +1,15 @@
 ---
+uid: intelecom-sms-plugin
 title: Intelecom
-uid: intelecom_sms_plugin
 description: Intelecom NetServer SMS plugin
+keywords: Intelecom
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/intelecom
+language: en
 ---
 
 # Intelecom

@@ -1,11 +1,15 @@
 ---
+uid: txtlocal-sms-plugin
 title: TxtLocal
-uid: txtlocal_sms_plugin
 description: Configuration of TxtLocal NetServer SMS plugin
+keywords: TxtLocal
 author: SuperOffice Product and Engineering
-keywords:
+date: 10.07.2025
 content_type: howto
+category: Marketing
+topic: SMS
 redirect_from: /en/service/sms/txtlocal
+language: en
 ---
 
 # Configuration of TxtLocal NetServer SMS Plugin
