@@ -4,12 +4,16 @@ title: Add a button or link
 description: How to add a button or link to a layout using the Screen Designer in Settings and maintenance.
 keywords: Screen designer, layout, button, link, label, A-Z
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: en
+index: true
 redirect_from:
   - /en/ui/screen-designer/configurable-screens/add-button
   - /en/customization/screen-designer/add-button
@@ -26,7 +30,7 @@ Buttons and links work similarly. The difference is that you can style a button 
 > [!TIP]
 > You can use [template variables][1] in the URLs.
 
-The instructions below assume you're already [editing the layout][4].
+The instructions below assume you are already [editing the layout][4].
 
 ## Add a button
 

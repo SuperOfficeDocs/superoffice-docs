@@ -4,12 +4,16 @@ title: Skärmdesigner
 description: Lär dig hur du konfigurerar skärmar i den här guiden.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält
 author: Bergfrid
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: concept
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: sv
+index: true
 redirect_from: /sv/customization/screen-designer/index
 ---
 

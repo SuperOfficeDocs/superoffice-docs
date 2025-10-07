@@ -4,12 +4,16 @@ title: Arbejde med felter
 description: Sådan tilføjer, flytter og sletter du felter i et layout ved hjælp af Skærmdesigneren i Indstillinger og vedligeholdelse.
 keywords: Skærmdesigner, layout, felt, feltindstilling
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: da
+index: true
 redirect_from: /da/customization/screen-designer/working-with-fields
 ---
 

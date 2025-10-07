@@ -4,12 +4,16 @@ title: Referanse
 description: Oversikt over felt tilgjengelig i Skjermdesigneren i Innstillinger of vedlikeholde.
 keywords: Skjermdesigner, felt, standardfelt, fane, standardfane
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: reference
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: no
+index: true
 redirect_from: /no/customization/screen-designer/reference
 ---
 

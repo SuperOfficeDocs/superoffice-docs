@@ -4,12 +4,16 @@ title: Arbejde med detaljekort (arkiver)
 description: Skærmdesigner - arbejde med detaljekort (arkiver)
 keywords: Skærmdesigner, layout, detaljekort, arkiv, arkivlayout, fane
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.2.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: da
+index: true
 redirect_from:
   - /da/ui/screen-designer/learn/edit-layout-archives
   - /da/customization/screen-designer/working-with-archives

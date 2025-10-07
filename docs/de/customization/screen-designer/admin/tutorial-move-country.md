@@ -3,11 +3,16 @@ uid: help-de-tutorial-country-before-address
 title: Tutorial - Land nach vorne verschieben
 description: In diesem Tutorial lernen Sie, wie Sie das Länderfeld auf einem Firmen- oder Personbildschirm verschieben.
 keywords: länderfeld, ansichtsdesigner
-date: 06.27.2025
+date: 10.09.2025
 version: 10.4
 content_type: tutorial
-audience: admin
+audience: settings
+audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
 language: de
+index: true
 redirect_from: /de/customization/screen-designer/tutorial-move-country
 ---
 

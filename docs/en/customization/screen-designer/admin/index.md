@@ -4,12 +4,16 @@ title: Screen designer
 description: Learn how to configure your screens and dialogs in this how-to guide.
 keywords: Screen designer, layout, UI, screen, customization, configurable screen
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: concept
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: en
+index: true
 redirect_from:
   - /en/customization/screen-designer/index
   - /en/ui/screen-designer/index

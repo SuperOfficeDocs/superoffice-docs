@@ -3,11 +3,16 @@ uid: help-no-tutorial-country-before-address
 title: Tutorial - Flytt landfeltet til toppen
 description: I denne veiledningen vil du lære hvordan du flytter landfeltet på en firma- eller personskjerm.
 keywords: landfelt, skjermdesigner
-date: 06.27.2025
+date: 10.09.2025
 version: 10.4
 content_type: tutorial
-audience: admin
+audience: settings
+audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
 language: no
+index: true
 redirect_from: /no/customization/screen-designer/tutorial-move-country
 ---
 

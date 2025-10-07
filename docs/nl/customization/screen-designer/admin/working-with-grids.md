@@ -4,12 +4,17 @@ title: Werken met rasters
 description: Hoe u rasters toevoegt en invult in een lay-out met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper, opmaak, raster, rasteruiterlijk
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
+audience_tooltip: Settings and maintenance
 language: nl
+index: true
 redirect_from: /nl/customization/screen-designer/working-with-grids
 ---
 

@@ -4,12 +4,16 @@ title: Lägg till layout
 description: Så här lägger du till en ny layout för en användargrupp.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, huvudkort, anpassa skärmlayout
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: sv
+index: true
 redirect_from:
   - /sv/ui/screen-designer/learn/add-new-layout
   - /sv/customization/screen-designer/add-layout

@@ -4,12 +4,16 @@ title: Ansichtsdesigner
 description: In dieser Anleitung lernen Sie, wie Sie Ihre Karten/Ansichten konfigurieren.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, anpassen
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: concept
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: de
+index: true
 redirect_from: /de/customization/screen-designer/index
 ---
 

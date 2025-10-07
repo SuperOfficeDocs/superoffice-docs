@@ -4,12 +4,16 @@ title: Lägg till en knapp eller länk
 description: Hur du lägger till en knapp eller länk i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, knapp, länk, etikett, A-Z
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: sv
+index: true
 redirect_from: /sv/customization/screen-designer/add-button
 ---
 

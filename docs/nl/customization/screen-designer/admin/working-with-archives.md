@@ -4,12 +4,16 @@ title: Werken met sectietabbladen (archieven)
 description: Schermontwerper Opmaak bewerken - Archieven (sectietabbladen)
 keywords: Schermontwerper, opmaak, sectietabblad, archief, tabblad
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.2.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: nl
+index: true
 redirect_from:
   - /nl/ui/screen-designer/learn/edit-layout-archives
   - /nl/customization/screen-designer/working-with-archives

@@ -4,12 +4,16 @@ title: Referenz
 description: Referenz der im Ansichtsdesigner in Einstellungen und Verwaltung verfügbaren Elemente.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Feld, Standardfeld, Registerkarte, Standardregisterkarte
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: reference
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: de
+index: true
 redirect_from: /de/customization/screen-designer/reference
 ---
 

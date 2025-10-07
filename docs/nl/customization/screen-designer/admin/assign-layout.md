@@ -4,12 +4,16 @@ title: Opmaak toewijzen aan groep, type of sjabloon
 description: Hoe u een opmaak toewijst aan een groep, verkooptype, projecttype of verzoektype met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper, opmaak, opmaak toewijzen
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: nl
+index: true
 redirect_from: /nl/customization/screen-designer/assign-layout
 ---
 

@@ -4,12 +4,16 @@ title: Legg til en knapp eller kobling
 description: Hvordan legge til en knapp eller kobling med Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: Skjermdesigner, layout, oppsett, knapp, kobling, etikett, A-Z
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: no
+index: true
 redirect_from: /no/customization/screen-designer/add-button
 ---
 

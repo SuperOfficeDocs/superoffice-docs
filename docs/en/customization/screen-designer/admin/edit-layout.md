@@ -4,12 +4,16 @@ title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 keywords: Screen designer, layout, field
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: en
+index: true
 redirect_from:
   - /en/customization/screen-designer/edit-layout
   - /en/ui/screen-designer/configurable-screens/edit-card-layout

@@ -3,11 +3,16 @@ uid: help-en-tutorial-country-before-address
 title: Tutorial - Front-load country
 description: In this tutorial, you will learn how to move the country field on a company or contact.
 keywords: country field, screen designer
-date: 06.27.2025
+date: 10.09.2025
 version: 10.4
 content_type: tutorial
-audience: admin
+license: development-tools
+audience: settings
+audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: en
+index: true
 redirect_from:
   - /en/ui/screen-designer/tutorial-move-country
   - /en/customization/screen-designer/tutorial-move-country

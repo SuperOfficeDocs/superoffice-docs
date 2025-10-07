@@ -4,12 +4,16 @@ title: Werken met tabbladen
 description: Hoe u een tabblad in een lay-out toevoegt, organiseert, verwijdert en herstelt en hoe u de informatie organiseert in logische groepen met behulp van de Schermontwerper in Instellingen en onderhoud.
 keywords: Schermontwerper, opmaak, tabblad, tabbladindeling, kop, label, scheidingslijn
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: nl
+index: true
 redirect_from: /nl/customization/screen-designer/working-with-tabs
 ---
 

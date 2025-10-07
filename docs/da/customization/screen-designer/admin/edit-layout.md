@@ -4,12 +4,16 @@ title: Rediger layout af et kort
 description: I denne vejledning lærer du, hvordan du redigerer et layout.
 keywords: Skærmdesigner, layout, udseende, felt, kortlayout, hovedkort
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: da
+index: true
 redirect_from:
   - /da/ui/screen-designer/learn/elements
   - /da/customization/screen-designer/edit-layout

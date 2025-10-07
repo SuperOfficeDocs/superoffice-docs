@@ -4,12 +4,16 @@ title: Arbeiten mit Registerkarten
 description: So fügen Sie eine Registerkarte in einem Layout hinzu, organisieren, löschen und wiederherstellen sie und organisieren die Informationen in logische Gruppen mithilfe des Ansichtsdesigners in Einstellungen und Verwaltung.
 keywords: Ansichtsdesigner,Layout, Registerkarten-Layout, Überschrift, Bezeichnung, Trennlinie
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: de
+index: true
 redirect_from: /de/customization/screen-designer/working-with-tabs
 ---
 

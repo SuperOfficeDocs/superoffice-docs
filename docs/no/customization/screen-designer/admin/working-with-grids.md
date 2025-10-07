@@ -4,12 +4,17 @@ title: Arbeide med rutenett
 description: Slik legger du til og fyller ut rutenett i et oppsett ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: Skjermdesigner, layout, oppsett, rutenett, tabell
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
+audience_tooltip: Settings and maintenance
 language: no
+index: true
 redirect_from: /no/customization/screen-designer/working-with-grids
 ---
 

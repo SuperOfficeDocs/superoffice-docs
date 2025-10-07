@@ -4,12 +4,16 @@ title: Opmaak toevoegen
 description: Een nieuwe opmaak toevoegen voor een gebruikersgroep.
 keywords: Schermontwerper, opmaak, hoofdkaart, schermopmaak
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: nl
+index: true
 redirect_from:
   - /nl/ui/screen-designer/learn/add-new-layout
   - /nl/customization/screen-designer/add-layout

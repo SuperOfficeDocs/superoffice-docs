@@ -4,12 +4,16 @@ title: Tilføj layout
 description: Sådan tilføjes et nyt layout for en brugergruppe.
 keywords: Skærmdesigner, layout, udseende, layout, skærmlayout, hovedkort
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.10
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: da
+index: true
 redirect_from:
   - /da/ui/screen-designer/learn/add-new-layout
   - /da/customization/screen-designer/add-layout

@@ -4,12 +4,16 @@ title: Arbeta med detaljkort (arkiv)
 description: Skärmdesigner - arbeta med detaljkort (arkiv)
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, detaljkort, arkiv, arkivflik
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.2.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: sv
+index: true
 redirect_from:
   - /sv/ui/screen-designer/learn/edit-layout-archives
   - /sv/customization/screen-designer/working-with-archives

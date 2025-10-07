@@ -4,12 +4,17 @@ title: Arbeta med rutnät
 description: Hur du lägger till och fyller rutnät i en layout med hjälp av Skärmdesignern i Inställningar och underhåll.
 keywords: Skärmdesigner, layout, gränssnitt, flik, fält, rutnät
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
+audience_tooltip: Settings and maintenance
 language: sv
+index: true
 redirect_from: /sv/customization/screen-designer/working-with-grids
 ---
 

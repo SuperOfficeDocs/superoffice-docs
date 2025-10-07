@@ -4,12 +4,16 @@ title: Schermontwerper
 description: Kom te weten hoe u uw kaarten configureert in deze gids.
 keywords: Schermontwerper, interface, opmaak, lay-out, aanpassen
 author: Bergfrid Dias
-date: 10.29.2024
+date: 10.09.2025
 version: 10.3.11
 content_type: concept
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: nl
+index: true
 redirect_from: /nl/customization/screen-designer/index
 ---
 

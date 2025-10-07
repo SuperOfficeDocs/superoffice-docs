@@ -4,12 +4,16 @@ title: Arbeide med faner
 description: Slik legger du til, organiserer, sletter og gjenoppretter en fane i et oppsett, og hvordan du organiserer informasjonen i logiske grupper ved hjelp av Skjermdesigneren i Innstillinger og vedlikehold.
 keywords: Skjermdesigner, layout, oppsett, faneoppsett, overskrift, etikett, skillelinje, kolonne
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.3.7
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: no
+index: true
 redirect_from: /no/customization/screen-designer/working-with-tabs
 ---
 

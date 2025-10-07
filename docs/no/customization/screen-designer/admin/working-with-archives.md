@@ -4,12 +4,16 @@ title: Arbeide med detaljkort (arkiv)
 description: Hvordan tilpasse detaljkort (arkiv) i Skjermdesigneren i Innstillinger of vedlikehold.
 keywords: Skjermdesigner, layout, oppsett, detaljkort, arkiv, arkivlayout
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.2.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: no
+index: true
 redirect_from:
   - /no/ui/screen-designer/learn/edit-layout-archives
   - /no/customization/screen-designer/working-with-archives

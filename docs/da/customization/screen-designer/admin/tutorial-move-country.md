@@ -3,11 +3,16 @@ uid: help-da-tutorial-country-before-address
 title: Tutorial - Flyt land-feltet frem
 description: I denne tutorial lærer du, hvordan du flytter landfeltet på firma- eller personskærmen.
 keywords: landfelt, skærmdesigner
-date: 06.27.2025
+date: 10.09.2025
 version: 10.4
 content_type: tutorial
-audience: admin
+license: development-tools
+audience: settings
+audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: da
+index: true
 redirect_from: /da/customization/screen-designer/tutorial-move-country
 ---
 

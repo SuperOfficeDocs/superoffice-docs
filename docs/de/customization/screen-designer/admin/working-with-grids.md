@@ -4,12 +4,17 @@ title: Arbeiten mit Gittern
 description: So fügen Sie Raster in ein Layout ein und befüllen sie mit dem Ansichtsdesigner in Einstellungen und Verwaltung.
 keywords: Ansichtsdesigner, Benutzeroberfläche, Layout, Gitter
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+license: development-tools
+category: customization
+topic: screen designer
+audience_tooltip: Settings and maintenance
 language: de
+index: true
 redirect_from: /de/customization/screen-designer/working-with-grids
 ---
 

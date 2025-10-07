@@ -4,12 +4,16 @@ title: Working with section tabs/archives
 description: ScreenDesigner Edit layout - Archives (section tabs)
 keywords: Screen designer, layout, section tab, archive
 author: Bergfrid Dias
-date: 10.07.2024
+date: 10.09.2025
 version: 10.2.11
 content_type: howto
+license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: screen designer
 language: en
+index: true
 redirect_from:
   - /en/ui/screen-designer/learn/edit-layout-archives
   - /en/customization/screen-designer/working-with-archives
