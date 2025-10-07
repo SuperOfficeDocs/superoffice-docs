@@ -34,3 +34,7 @@ items:
 - name: Flows
   href: ../flows/learn/toc.yml
   topicHref: ../flows/learn/index.md
+
+- name: SMS
+  href: sms/index.md
+  topicHref: sms/index.md
