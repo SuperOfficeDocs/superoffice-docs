@@ -34,7 +34,7 @@ Note - do not include the brackets.
 
 ## Outgoing SMS Configuration in SR2 or earlier
 
-The file SupeOffice.Messaging.SMSTeknik.dll must be copied manually to the NetServer library folder (bin folder). <a href="../../../assets/downloads/sms/SuperOffice.messaging.smsteknik.dll" download>Click to download version 8.0 SR2.</a>
+The file SupeOffice.Messaging.SMSTeknik.dll must be copied manually to the NetServer library folder (bin folder). <a href="../../../../assets/downloads/sms/SuperOffice.messaging.smsteknik.dll" download>Click to download version 8.0 SR2.</a>
 
 ### Web.config settings
 
@@ -108,4 +108,4 @@ Under configuration -> system.serviceModel -> bindings, add:
 [1]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/smstekniksmssettings.png
+[img1]: ../../../../media/loc/en/marketing/smstekniksmssettings.png

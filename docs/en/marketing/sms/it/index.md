@@ -75,9 +75,9 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 * [TxtLocal][10]
 
 <!-- Referenced links -->
-[1]: ../../admin/preferences/learn/global-preferences/sms.md
-[2]: ../automated-tasks/ejournalcron.md
-[3]: ../../automation/crmscript/index.yml
+[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[2]: ../../automated-tasks/ejournalcron.md
+[3]: ../../../automation/crmscript/index.yml
 [4]: cm.md
 [5]: compaya.md
 [6]: intelecom.md
@@ -87,6 +87,6 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 [10]: txtlocal.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/newsmsinbox.png
-[img2]: ../../../media/loc/en/marketing/smsinboxsettings.png
-[img3]: ../../../media/loc/en/marketing/netserverpluginsms.png
+[img1]: ../../../../media/loc/en/marketing/newsmsinbox.png
+[img2]: ../../../../media/loc/en/marketing/smsinboxsettings.png
+[img3]: ../../../../media/loc/en/marketing/netserverpluginsms.png

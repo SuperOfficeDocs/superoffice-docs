@@ -88,4 +88,4 @@ Under configuration -> system.serviceModel -> bindings, add:
 [1]: https://www.intele.com/contact-centre-solution/sms/
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/intelecomsmssettings.png
+[img1]: ../../../../media/loc/en/marketing/intelecomsmssettings.png

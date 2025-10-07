@@ -33,7 +33,7 @@ Note - do not include the brackets.
 
 ## Outgoing SMS Configuration in SR2 or earlier
 
-The file *SupeOffice.Messaging.CM.dll* must be copied manually to the NetServer library folder (bin folder). <a href="../../../assets/downloads/sms/SuperOffice.messaging.cm.dll" download>Click to download version 8.0 SR2.</a>
+The file *SupeOffice.Messaging.CM.dll* must be copied manually to the NetServer library folder (bin folder). <a href="../../../../assets/downloads/sms/SuperOffice.messaging.cm.dll" download>Click to download version 8.0 SR2.</a>
 
 ### Web.config settings
 
@@ -58,4 +58,4 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 [1]: https://www.cmtelecom.com/products/messaging/sms
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/cmsmssettings.png
+[img1]: ../../../../media/loc/en/marketing/cmsmssettings.png

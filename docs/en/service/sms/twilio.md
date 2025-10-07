@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/marketing/sms/twilio.html
+redirect_url: https://docs.superoffice.com/en/marketing/sms/it/twilio.html
 ---

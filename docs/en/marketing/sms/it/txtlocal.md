@@ -61,4 +61,4 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 [1]: http://www.textlocal.com/
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/txtlocalsmssettings.png
+[img1]: ../../../../media/loc/en/marketing/txtlocalsmssettings.png

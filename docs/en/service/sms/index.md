@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/marketing/sms/index.html
+redirect_url: https://docs.superoffice.com/en/marketing/sms/it/index.html
 ---

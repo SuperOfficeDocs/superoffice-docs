@@ -1,17 +1,17 @@
 items:
 - name: Introduction
-  href: index.md
+  href: it/index.md
 - name: CM
-  href: cm.md
+  href: it/cm.md
 - name: Compaya
-  href: compaya.md
+  href: it/compaya.md
 - name: Intelecom
-  href: intelecom.md
+  href: it/intelecom.md
 - name: Link Mobility
-  href: linkmobility.md
+  href: it/linkmobility.md
 - name: SMSTeknik
-  href: smsteknik.md
+  href: it/smsteknik.md
 - name: Twilio
-  href: twilio.md
+  href: it/twilio.md
 - name: TxtLocal
-  href: txtlocal.md
+  href: it/txtlocal.md

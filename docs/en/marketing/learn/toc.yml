@@ -36,5 +36,5 @@ items:
   topicHref: ../flows/learn/index.md
 
 - name: SMS
-  href: sms/index.md
-  topicHref: sms/index.md
+  href: sms/it/index.md
+  topicHref: sms/it/index.md

@@ -33,4 +33,4 @@ twilio_auth_token =
 [1]: https://www.twilio.com/sms
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/marketing/imagec3rg.png
+[img1]: ../../../../media/loc/en/marketing/imagec3rg.png
