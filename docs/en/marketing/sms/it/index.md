@@ -1,8 +1,8 @@
 ---
-uid: service-sms
-title: SMS plugins
-description: NetServer SMS plugins for SuperOffice Service
-keywords: SMS
+uid: sms-connectors
+title: SMS connectors
+description: NetServer SMS connectors for SuperOffice Service
+keywords: SMS, SMS connector, SMS plugin, SMS plug-in
 author: SuperOffice Product and Engineering
 date: 10.07.2025
 content_type: concept
@@ -12,13 +12,13 @@ redirect_from: /en/service/sms/index
 language: en
 ---
 
-# SMS plugins
+# SMS connectors
 
-## Customer Service settings for NetServer SMS plugins
+## Customer Service settings for NetServer SMS connectors
 
-You could use the Messaging agent with [CRMScript][3] to send SMS from your scripts using your plugin (or any other plugin), without changing any settings in Customer Service, but if you want Customer Service to use your SMS plugin for any SMS sent during request handling and notifications, you need to set it up.
+You could use the Messaging agent with [CRMScript][3] to send SMS from your scripts using your plugin (or any other plugin), without changing any settings in Customer Service, but if you want Customer Service to use your SMS connector for any SMS sent during request handling and notifications, you need to set it up.
 
-The following information applies to all SMS plugins.
+The following information applies to all SMS connectors.
 
 ## Add an SMS inbox for incoming SMS
 
@@ -62,7 +62,7 @@ This method of sending will not create any entries in the **Settings/E-mail/SMS 
 
 ## How to use
 
-[Read more about how to use the SMS plugins][1]
+[Read more about how to use the SMS connectors][1]
 
 ## Available plugins
 

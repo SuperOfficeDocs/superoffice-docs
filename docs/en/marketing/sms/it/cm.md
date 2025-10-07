@@ -1,7 +1,7 @@
 ---
-uid: cm-sms-plugin
+uid: cm-sms-connector
 title: CM
-description: Configuration of CM NetServer SMS plugin
+description: Configuration of CM NetServer SMS connector
 keywords: CM
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -12,9 +12,9 @@ redirect_from: /en/service/sms/cm
 language: en
 ---
 
-# Configuration of CM NetServer SMS Plugin
+# Configuration of CM NetServer SMS connector
 
-This document describes how to set up the CM NetServer SMS plugin to use in Customer Service. You need to set up an account with [CM][1] to get a username and password to connect to their service.
+This document describes how to set up the CM NetServer SMS connector to use in Customer Service. You need to set up an account with [CM][1] to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 

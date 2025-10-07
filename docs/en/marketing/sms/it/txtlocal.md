@@ -1,7 +1,7 @@
 ---
-uid: txtlocal-sms-plugin
+uid: txtlocal-sms-connector
 title: TxtLocal
-description: Configuration of TxtLocal NetServer SMS plugin
+description: Configuration of TxtLocal NetServer SMS connector
 keywords: TxtLocal
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -12,9 +12,9 @@ redirect_from: /en/service/sms/txtlocal
 language: en
 ---
 
-# Configuration of TxtLocal NetServer SMS Plugin
+# Configuration of TxtLocal NetServer SMS connector
 
-This document describes how to set up the TxtLocal NetServer SMS plugin to use in Customer Service. You need to set up an account with [TxtLocal][1] to get a username and password to connect to their service.
+This document describes how to set up the TxtLocal NetServer SMS connector to use in Customer Service. You need to set up an account with [TxtLocal][1] to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 

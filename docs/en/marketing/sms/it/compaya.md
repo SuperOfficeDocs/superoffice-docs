@@ -1,7 +1,7 @@
 ---
-uid: compaya-sms-plugin
+uid: compaya-sms-connector
 title: Compaya
-description: Compaya NetServer SMS plugin
+description: Compaya NetServer SMS connector
 keywords: Compaya
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -14,7 +14,7 @@ language: en
 
 # Compaya
 
-This document describes how to set up the Compaya NetServer SMS plugin to use in Customer Service. You need to set up an account with [Compaya][1] to get a username and password to connect to their service.
+This document describes how to set up the Compaya NetServer SMS connector to use in Customer Service. You need to set up an account with [Compaya][1] to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 

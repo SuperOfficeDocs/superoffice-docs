@@ -1,7 +1,7 @@
 ---
-uid: smsteknik-sms-plugin
+uid: smsteknik-sms-connector
 title: SMSTeknik
-description: Configuration of SMSTeknik NetServer SMS plugin
+description: Configuration of SMSTeknik NetServer SMS connector
 keywords: SMSTeknik
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -12,9 +12,9 @@ redirect_from: /en/service/sms/smsteknik
 language: en
 ---
 
-# Configuration of SMSTeknik NetServer SMS Plugin
+# Configuration of SMSTeknik NetServer SMS connector
 
-This document describes how to set up the SMSTeknik NetServer SMS plugin to use in Customer Service. You need to set up an account with [SMSTeknik][1] to get a username and password to connect to their service.
+This document describes how to set up the SMSTeknik NetServer SMS connector to use in Customer Service. You need to set up an account with [SMSTeknik][1] to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 

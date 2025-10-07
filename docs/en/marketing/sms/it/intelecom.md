@@ -1,7 +1,7 @@
 ---
-uid: intelecom-sms-plugin
+uid: intelecom-sms-connector
 title: Intelecom
-description: Intelecom NetServer SMS plugin
+description: Intelecom NetServer SMS connector
 keywords: Intelecom
 author: SuperOffice Product and Engineering
 date: 10.07.2025
@@ -14,7 +14,7 @@ language: en
 
 # Intelecom
 
-This document describes how to set up the Intelecom NetServer SMS plugin to use in Customer Service. You need to set up an account with [Intelecom][1] to get a username and password to connect to their service.
+This document describes how to set up the Intelecom NetServer SMS connector to use in Customer Service. You need to set up an account with [Intelecom][1] to get a username and password to connect to their service.
 
 ## Outgoing SMS Configuration from SuperOffice 8.0 SR3
 
