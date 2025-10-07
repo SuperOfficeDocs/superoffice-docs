@@ -11,8 +11,8 @@ items:
   href: ../../custom-objects/learn/toc.yml
   topicHref: ../../custom-objects/learn/index.md
 - name: Skjermdesigner
-  href: ../../customization/screen-designer/admin/toc.yml
-  topicHref: ../../customization/screen-designer/admin/index.md
+  href: ../screen-designer/admin/toc.yml
+  topicHref: ../screen-designer/admin/index.md
 - name: Systemvalg
   href: ../../admin/options/learn/toc.yml
   topicHref: ../../admin/options/learn/index.md
