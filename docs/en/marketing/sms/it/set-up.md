@@ -1,0 +1,145 @@
+---
+uid: sms-connector-config
+title: Configure outgoing SMS connector
+description: How to set up an SMS connector for SuperOffice.
+keywords: SMS connector, SMS plugin, Compaya, CM, Intelecom, Link Mobility, PSWinCom, SMSTeknik, Twilio, TxtLocal
+author: SuperOffice Product and Engineering
+date: 10.07.2025
+version: 11.5
+content_type: howto
+category: Marketing
+topic: SMS
+redirect_from: 
+  - /en/service/sms/cm
+  - /en/service/sms/compaya
+  - /en/service/sms/intelecom
+  - /en/service/sms/linkmobility
+  - /en/service/sms/smsteknik
+  - /en/service/sms/twilio
+  - /en/service/sms/txtlocal
+language: en
+---
+
+# Configure outgoing SMS connector
+
+This page describes how to set up an SMS connector for SuperOffice.
+
+## Pre-requisites
+
+You need an account with the SMS provider to obtain a username and password to connect to their service.
+
+**Supported connectors:**
+
+* [CM][1]
+* [Compaya][2]
+* [Intelecom][3]
+* [Link Mobility (PSWinCom)][4]
+* [SMSTeknik][5]
+* [Twilio][6]
+* [TxtLocal][7]
+
+## Steps
+
+1. Select **Marketing** in the navigator.
+
+1. Go to the **Mailings** tab.
+
+1. Click the **Settings** button in the lower-right corner.
+
+1. Choose your SMS provider from the **Module** list.
+
+1. Enter default country code and sender.
+
+1. In the **Plugin configuration** box, add the following settings. Do not include the brackets.
+
+<!-- markdownlint-disable-file MD051 -->
+### [CM](#tab/cm)
+
+```text
+cm_serviceId =
+cm_username =
+cm_password =
+```
+
+![CM SMS plugin configuration -screenshot][img1]
+
+### [Compaya](#tab/compaya)
+
+```text
+compaya_username=[username]
+compaya_password=[password]
+```
+
+![Compaya SMS plugin configuration -screenshot][img2]
+
+### [Intelecom](#tab/intelecom)
+
+```text
+intele_serviceId =
+intele_username =
+intele_password =
+```
+
+![Intelecom SMS plugin configuration -screenshot][img3]
+
+### [Link Mobility (PSWinCom)](#tab/linkmobility)
+
+```text
+pswin_username =
+pswin_password =
+```
+
+![Link Mobility PSWinCom SMS plugin configuration -screenshot][img4]
+
+### [SMSTeknik](#tab/smsteknik)
+
+```text
+smsteknik_serviceId =
+smsteknik_username =
+smsteknik_password =
+```
+
+![SMSTeknik SMS plugin configuration -screenshot][img5]
+
+### [Twilio](#tab/twilio)
+
+```text
+twilio_account_sid =
+twilio_auth_token =
+```
+
+![Twilio SMS plugin configuration -screenshot][img6]
+
+### [TxtLocal](#tab/txtlocal)
+
+```text
+txtlocal_username =
+txtlocal_password =
+```
+
+![TxtLocal SMS plugin configuration -screenshot][img7]
+
+***
+
+1. Click **OK**.
+
+> [!NOTE]
+> In the legacy Service client, go to **System** > **SMS** to find the settings.
+
+<!-- Referenced links -->
+[1]: https://www.cmtelecom.com/products/messaging/sms
+[2]: http://www.compaya.dk/
+[3]: https://www.intele.com/contact-centre-solution/sms/
+[4]: https://www.linkmobility.com/products/link-sms-gateway/
+[5]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
+[6]: https://www.twilio.com/sms
+[7]: http://www.textlocal.com/
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/marketing/cmsmssettings.png
+[img2]: ../../../../media/loc/en/marketing/compayasmssettings.png
+[img3]: ../../../../media/loc/en/marketing/intelecomsmssettings.png
+[img4]: ../../../../media/loc/en/marketing/pswincomsmssettings.png
+[img5]: ../../../../media/loc/en/marketing/smstekniksmssettings.png
+[img6]: ../../../../media/loc/en/marketing/imagec3rg.png
+[img7]: ../../../../media/loc/en/marketing/txtlocalsmssettings.png
