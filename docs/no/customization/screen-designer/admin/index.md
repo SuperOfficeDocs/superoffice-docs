@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/customization/screen-designer/index
 ---
 
 # Skjermdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>

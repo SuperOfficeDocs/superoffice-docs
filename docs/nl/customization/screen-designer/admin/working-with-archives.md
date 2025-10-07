@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-redirect_from: /nl/ui/screen-designer/learn/edit-layout-archives
+redirect_from:
+  - /nl/ui/screen-designer/learn/edit-layout-archives
+  - /nl/customization/screen-designer/working-with-archives
 ---
 
 # Werken met sectietabbladen (archieven)

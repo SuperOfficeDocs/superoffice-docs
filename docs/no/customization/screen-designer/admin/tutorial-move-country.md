@@ -8,6 +8,7 @@ version: 10.4
 content_type: tutorial
 audience: admin
 language: no
+redirect_from: /no/customization/screen-designer/tutorial-move-country
 ---
 
 # Tutorial - Flytt landfeltet til toppen

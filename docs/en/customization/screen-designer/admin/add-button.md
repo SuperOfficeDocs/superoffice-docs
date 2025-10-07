@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/ui/screen-designer/configurable-screens/add-button
+redirect_from:
+  - /en/ui/screen-designer/configurable-screens/add-button
+  - /en/customization/screen-designer/add-button
 ---
 
 # Add a button or link

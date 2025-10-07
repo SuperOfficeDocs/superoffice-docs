@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/ui/screen-designer/configurable-screens/working-with-fields
+redirect_from:
+  - /en/ui/screen-designer/configurable-screens/working-with-fields
+  - /en/customization/screen-designer/working-with-fields
 ---
 
 # Working with fields

@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from:
+  - /en/customization/screen-designer/add-layout
   - /en/ui/screen-designer/configurable-screens/add-layout
   - /en/ui/screen-designer/learn/add-new-layout
 ---

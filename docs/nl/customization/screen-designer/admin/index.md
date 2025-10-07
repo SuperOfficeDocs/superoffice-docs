@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from: /nl/customization/screen-designer/index
 ---
 
 # Schermontwerper <i class="ph ph-squares-four" aria-hidden="true"></i>

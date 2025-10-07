@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/ui/screen-designer/learn/elements
+redirect_from:
+  - /de/ui/screen-designer/learn/elements
+  - /de/customization/screen-designer/edit-layout
 ---
 
 # Hauptkartenlayout bearbeiten

@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/ui/screen-designer/learn/add-new-layout
+redirect_from:
+  - /de/ui/screen-designer/learn/add-new-layout
+  - /de/customization/screen-designer/add-layout
 ---
 
 # Layout hinzufügen

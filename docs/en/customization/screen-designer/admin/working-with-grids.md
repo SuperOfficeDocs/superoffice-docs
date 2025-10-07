@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/ui/screen-designer/configurable-screens/working-with-grids
+redirect_from:
+  - /en/ui/screen-designer/configurable-screens/working-with-grids
+  - /en/customization/screen-designer/working-with-grids
 ---
 
 # Working with grids

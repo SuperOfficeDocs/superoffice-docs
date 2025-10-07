@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-redirect_from: /da/ui/screen-designer/learn/elements
+redirect_from:
+  - /da/ui/screen-designer/learn/elements
+  - /da/customization/screen-designer/edit-layout
 ---
 
 # Rediger layout af et kort

@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/customization/screen-designer/add-button
 ---
 
 # Lägg till en knapp eller länk

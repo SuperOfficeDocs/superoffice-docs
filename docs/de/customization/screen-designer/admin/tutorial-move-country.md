@@ -8,6 +8,7 @@ version: 10.4
 content_type: tutorial
 audience: admin
 language: de
+redirect_from: /de/customization/screen-designer/tutorial-move-country
 ---
 
 # Tutorial - Land nach vorne verschieben

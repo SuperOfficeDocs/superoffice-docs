@@ -8,6 +8,7 @@ version: 10.4
 content_type: tutorial
 audience: admin
 language: nl
+redirect_from: /nl/customization/screen-designer/tutorial-move-country
 ---
 
 # Tutorial - Land vooraan plaatsen

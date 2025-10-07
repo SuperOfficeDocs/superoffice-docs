@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/ui/screen-designer/configurable-screens/working-with-tabs
+redirect_from:
+  - /en/ui/screen-designer/configurable-screens/working-with-tabs
+  - /en/customization/screen-designer/working-with-tabs
 ---
 
 # Working with tabs

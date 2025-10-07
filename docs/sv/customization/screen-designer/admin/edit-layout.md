@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/ui/screen-designer/learn/elements
+redirect_from:
+  - /sv/ui/screen-designer/learn/elements
+  - /sv/customization/screen-designer/edit-layout
 ---
 
 # Redigera layouten för ett kort

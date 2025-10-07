@@ -10,6 +10,7 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from: /de/customization/screen-designer/index
 ---
 
 # Ansichtsdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>

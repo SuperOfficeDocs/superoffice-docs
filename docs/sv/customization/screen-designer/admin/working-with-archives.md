@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/ui/screen-designer/learn/edit-layout-archives
+redirect_from:
+  - /sv/ui/screen-designer/learn/edit-layout-archives
+  - /sv/customization/screen-designer/working-with-archives
 ---
 
 # Arbeta med detaljkort (arkiv)

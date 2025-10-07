@@ -10,6 +10,7 @@ content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from: /de/customization/screen-designer/reference
 ---
 
 # Referenz

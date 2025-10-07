@@ -8,6 +8,7 @@ version: 10.4
 content_type: tutorial
 audience: admin
 language: sv
+redirect_from: /sv/customization/screen-designer/tutorial-move-country
 ---
 
 # Tutorial - Flytta landfältet till toppen

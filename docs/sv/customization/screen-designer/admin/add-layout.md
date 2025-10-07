@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/ui/screen-designer/learn/add-new-layout
+redirect_from:
+  - /sv/ui/screen-designer/learn/add-new-layout
+  - /sv/customization/screen-designer/add-layout
 ---
 
 # Lägg till layout

@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from: /de/customization/screen-designer/working-with-tabs
 ---
 
 # Arbeiten mit Registerkarten

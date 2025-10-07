@@ -10,7 +10,9 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/ui/screen-designer/learn/edit-layout-archives
+redirect_from:
+  - /en/ui/screen-designer/learn/edit-layout-archives
+  - /en/customization/screen-designer/working-with-archives
 ---
 
 # Working with section tabs (archives)

@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
+redirect_from: /sv/customization/screen-designer/working-with-fields
 ---
 
 # Arbeta med fält
