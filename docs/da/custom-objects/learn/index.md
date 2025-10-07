@@ -60,6 +60,6 @@ Hvis du ikke har licens til konfigurerbare skærme, skal du bruge rangen af de f
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md
-[5]: ../../ui/screen-designer/learn/index.md
+[5]: ../../customization/screen-designer/admin/index.md
 [6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md

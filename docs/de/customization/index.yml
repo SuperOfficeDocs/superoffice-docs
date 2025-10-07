@@ -57,7 +57,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Ansichtsdesigner
-          url: ../ui/screen-designer/learn/index.md
+          url: screen-designer/admin/index.md
         - text: Zusatzmenüs
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Web-Bildschirme

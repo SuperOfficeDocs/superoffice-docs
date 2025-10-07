@@ -98,5 +98,5 @@ Als u **(alle gebruikersgroepen)** selecteert in de lijst **Gebruikersgroep**, e
 > U moet een overschrijving voor één gebruikersgroep publiceren *nadat* u een instelling voor alle gebruikersgroepen hebt opgegeven. Anders heeft het geen effect.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/learn/index.md
+[1]: ../../customization/screen-designer/admin/index.md
 [2]: add-udef.md

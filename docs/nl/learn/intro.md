@@ -64,4 +64,4 @@ Door SuperOffice CRM echter aan te passen aan de werkwijze van uw team, kunnen g
 Door SuperOffice CRM op maat te maken, werkt het systeem op de manier die het beste bij uw organisatie past en helpt het uw team georganiseerd en efficiënt te blijven.
 
 <!-- Referenced links -->
-[1]: ../ui/screen-designer/learn/index.md
+[1]: ../customization/screen-designer/admin/index.md

@@ -94,7 +94,7 @@ Hvis projektnavnet matcher eller ligner en eksisterende post, vises dialogboksen
 [10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md
-[13]: ../../ui/screen-designer/learn/index.md
+[13]: ../../customization/screen-designer/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/create-project.png

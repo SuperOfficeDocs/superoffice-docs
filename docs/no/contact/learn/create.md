@@ -193,7 +193,7 @@ Interesser er nyttige for å opprette målrettede utvalg, for eksempel markedsf�
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
 [5]: ../../learn/basics/notes.md
-[9]: ../../ui/screen-designer/learn/index.md
+[9]: ../../customization/screen-designer/admin/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->

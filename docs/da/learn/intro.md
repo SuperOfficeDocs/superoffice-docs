@@ -62,4 +62,4 @@ SuperOffice CRM fungerer direkte fra start uden behov for ændringer. Men ved at
 Tilpasning af SuperOffice CRM sikrer, at systemet understøtter din virksomheds arbejdsprocesser, så dit team kan arbejde mere effektivt.
 
 <!-- Referenced links -->
-[1]: ../ui/screen-designer/learn/index.md
+[1]: ../customization/screen-designer/admin/index.md

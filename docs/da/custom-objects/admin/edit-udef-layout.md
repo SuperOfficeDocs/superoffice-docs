@@ -96,5 +96,5 @@ Hvis du vælger **(alle brugergrupper)** i listen **Brugergruppe**, vælger et f
 > Du skal publicere en tilsidesættelse for en enkelt brugergruppe *når* du har angivet en opsætning for alle brugergrupper. Ellers træder den ikke i kraft.
 
 <!-- Referenced links -->
-[1]: ../../ui/screen-designer/learn/index.md
+[1]: ../../customization/screen-designer/admin/index.md
 [2]: add-udef.md

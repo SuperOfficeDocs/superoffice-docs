@@ -64,4 +64,4 @@ Allerdings kann eine individuelle Anpassung an die Arbeitsweise Ihres Teams die 
 Indem Sie SuperOffice CRM anpassen, sorgen Sie dafür, dass das System optimal auf die Bedürfnisse Ihres Teams abgestimmt ist – für eine effiziente und organisierte Arbeitsweise.
 
 <!-- Referenced links -->
-[1]: ../ui/screen-designer/learn/index.md
+[1]: ../customization/screen-designer/admin/index.md

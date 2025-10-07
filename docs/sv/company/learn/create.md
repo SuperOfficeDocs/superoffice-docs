@@ -93,7 +93,7 @@ Intressen kan hjälpa dig att skapa riktade urval. Till exempel kan du definiera
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/notes.md
-[9]: ../../ui/screen-designer/learn/index.md
+[9]: ../../customization/screen-designer/admin/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->

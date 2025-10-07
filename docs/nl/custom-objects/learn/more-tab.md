@@ -65,7 +65,7 @@ Klik op <i class="ph ph-pencil-simple" aria-label="Edit"></i> om de informatie i
 [1]: index.md
 [2]: ../admin/add-udef.md
 [3]: ../admin/create-extra-field.md
-[4]: ../../ui/screen-designer/learn/add-layout.md
+[4]: ../../customization/screen-designer/admin/add-layout.md
 
 <!-- Referenced images -->
 [img6]: ../../../media/loc/en/sale/sale-more.png

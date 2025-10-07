@@ -160,7 +160,7 @@ Funktionen autospara aktiveras som standard när du visar och redigerar ärenden
 [3]: reply.md#time-spent
 [4]: tags.md
 [9]: ../admin/priority/escalation-levels.md
-[10]: ../../ui/screen-designer/learn/index.md
+[10]: ../../customization/screen-designer/admin/index.md
 [11]: ../../learn/getting-started/edit-email-signature.md
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md

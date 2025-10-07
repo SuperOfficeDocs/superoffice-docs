@@ -3,7 +3,7 @@ items:
   topicHref: index.yml
   items:
   - name: Screen designer
-    topicHref: screen-designer/learn/index.md
+    topicHref: ../customization/screen-designer/admin/index.md
   - name: Web application
     href: web-app/toc.yml
     topicHref: web-app/index.yml

@@ -122,7 +122,7 @@ conceptualContent:
       - text: Konfigurierbare Bildschirme - Archive
         itemType: explore
         typeDesc: concept
-        url: ../ui/screen-designer/learn/working-with-archives.md
+        url: ../customization/screen-designer/admin/working-with-archives.md
 
     # Card
     - title: Suchoptionen

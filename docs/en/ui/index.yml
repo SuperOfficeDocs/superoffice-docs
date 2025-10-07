@@ -25,7 +25,7 @@ highlightedContent:
     - title: "Configurable screens"
       itemType: map
       typeDesc: overview
-      url: screen-designer/learn/index.md
+      url: ../customization/screen-designer/admin/index.md
     # Card
     - title: "Web application API"
       itemType: library_books
@@ -52,34 +52,34 @@ conceptualContent:
     - title: Configurable screens
       summary: "Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls."
       links:
-        - url: screen-designer/learn/index.md
+        - url: ../customization/screen-designer/admin/index.md
           itemType: explore
           typeDesc: concept
           text: Intro
         - text: Add a layout
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/add-layout.md
+          url: ../customization/screen-designer/admin/add-layout.md
         - text: Edit the layout of a card
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/edit-layout.md
+          url: ../customization/screen-designer/admin/edit-layout.md
         - text: Working with fields
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/working-with-fields.md
+          url: ../customization/screen-designer/admin/working-with-fields.md
         - text: Add a link or button
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/add-button.md
+          url: ../customization/screen-designer/admin/add-button.md
         - text: Working with tabs
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/working-with-tabs.md
+          url: ../customization/screen-designer/admin/working-with-tabs.md
         - text: Assign layout to group or type
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/assign-layout.md
+          url: ../customization/screen-designer/admin/assign-layout.md
     # Card
     - title: Web panels
       summary: ""

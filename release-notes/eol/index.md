@@ -61,7 +61,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [14]: sharepoint-app.md
 [15]: reports.md
 [21]: ../../docs/en/email/inbox/learn/index.md
-[22]: ../../docs/en/ui/screen-designer/learn/index.md
+[22]: ../../docs/en/customization/screen-designer/admin/index.md
 [23]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
 [24]: ../../docs/en/online/identity/superid/sign-in-services.md
 [25]: ../../integrations/sharepoint-documents/migrate/index.md
