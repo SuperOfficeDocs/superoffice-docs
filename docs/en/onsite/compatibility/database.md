@@ -2,9 +2,9 @@
 title: Tested databases
 uid: tested_databases
 description: Tested databases
+keywords: MS SQL Server, Oracle, database version, supported databases
 author: SuperOffice Product and Engineering
-date: 09.12.2023
-keywords:
+date: 10.07.2025
 content_type: reference
 deployment: onsite
 ---
@@ -17,24 +17,26 @@ Our experience tells us that other configurations also should work but SuperOffi
 
 For database-specific system requirements, check the vendor [Microsoft][1] or [Oracle][2].
 
-| Database           | 8.0, SR1 | 8.0 SR2 - SR6 | 8.1 - 8.4 | 8.5 | 9 | 10 |
-|--------------------|:--:|:--:|:--:|:--:|:--:|:--:|
-| MS SQL Server 2022 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
-| MS SQL Server 2019 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| MS SQL Server 2016 | ![i][img3] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| MS SQL Server 2014 | ![i][img1] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| MS SQL Server 2012 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| MS SQL Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
-| Oracle 18c         | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1]\*\* |  ![i][img1]\*\* |
-| Oracle 12c         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
-| Oracle 11g         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
+| Database           | 8.0, SR1 | 8.0 SR2 - SR6 | 8.1 - 8.4 | 8.5 | 9 | 10 | 11 |
+|--------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| MS SQL Server 2022 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2019 | ![i][img3] | ![i][img3]   | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| MS SQL Server 2016 | ![i][img3] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| MS SQL Server 2014 | ![i][img1] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| MS SQL Server 2012 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| MS SQL Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] |
+| Oracle 18c         | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1]\*\* |  ![i][img1]\*\* | ![i][img1]\*\*  |
+| Oracle 12c         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
+| Oracle 11g         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] |
 
 \* See the [compatibility reports][3].
 
 \*\* See Oracle 18c compatibility info.
 
 > [!NOTE]
+> MS SQL Server 2014 reached end of support on July 9, 2024.
+>
 > MS SQL Server 2012 reached end of support on July 12, 2022.
 >
 > MS SQL Server 2008 R2 reached end of support on July 9, 2019.
