@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 11
 description: Release notes. What's new in SuperOffice Core CRM 11
 keywords: new UI
 author: kirstiaa
-date: 09.22.2025
+date: 11.04.2025 #tbd
 version: 11
 content_type: release-note
 category: core-crm
@@ -14,6 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM and Sales
 
+* [Selection - Board view Setting for displaying days (11.6)][5]
 * [Selection - Board view for requests (11.4)][4]
 * [Production sandbox badge (Test environment) (11.4)][4]
 * [Selection - Board view for projects (11.3)][3]
@@ -28,3 +29,4 @@ audience_tooltip: SuperOffice CRM
 [2]: 11.2-update.md
 [3]: 11.3-update.md
 [4]: 11.4-update.md
+[5]: 11.6-update.md
