@@ -4,7 +4,7 @@ title: Tested client OS
 description: Tested client OS
 keywords: client operating system, Windows compatibility, MacOS compatibility, Sequoia, Sonoma, Windows 11
 author: Martin Pavlas
-date: 07.10.2025
+date: 10.07.2025
 content_type: reference
 deployment: onsite
 ---

@@ -2,9 +2,9 @@
 title: Operating system
 uid: tested_server_os
 description: Tested server operating system
+keywords: server operating system, supported OS, Windows Server
 author: SuperOffice Product and Engineering
-date: 07.10.2025
-keywords:
+date: 10.07.2025
 content_type: reference
 deployment: onsite
 ---

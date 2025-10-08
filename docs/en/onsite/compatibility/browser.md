@@ -2,9 +2,9 @@
 title: Tested browsers
 uid: tested_browsers
 description: Tested browser versions
+keywords: browser support
 author: SuperOffice Product and Engineering
-date: 07.10.2025
-keywords:
+date: 10.07.2025
 content_type: reference
 deployment: onsite
 ---
