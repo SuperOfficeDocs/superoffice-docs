@@ -25,7 +25,6 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ### 11.5 (13.10.2025)
 
-* [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
 * [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
 * [Request - Differentiate request types with icons][16] in Service
 
@@ -83,7 +82,6 @@ Some features are available to selected customers as part of ongoing pilots. See
 [9]: admin/11.3-update.md
 [10]: core-crm/11.4-update.md
 [11]: service/11.4-update.md
-[12]: core-crm/11.5-update.md
 [13]: ../integrations/index.md
 [14]: marketing/11.5-update.md
 [15]: ../mobile/index.md
