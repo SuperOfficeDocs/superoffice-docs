@@ -3,12 +3,14 @@ uid: sms-connectors
 title: SMS connectors
 description: NetServer SMS connectors for SuperOffice
 keywords: SMS connector, SMS plugin, SMS plug-in, SMS
-author: SuperOffice Product and Engineering
+author: digitalidiina
 date: 10.07.2025
 version: 11.5
 content_type: concept
 category: Marketing
 topic: SMS
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from: /en/service/sms/index
 language: en
 ---

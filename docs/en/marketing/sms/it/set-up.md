@@ -3,12 +3,14 @@ uid: sms-connector-config
 title: Configure outgoing SMS connector
 description: How to set up an SMS connector for SuperOffice.
 keywords: SMS connector, SMS plugin, Compaya, CM, Intelecom, Link Mobility, PSWinCom, SMSTeknik, Twilio, TxtLocal
-author: SuperOffice Product and Engineering
+author: digitalidiina
 date: 10.07.2025
 version: 11.5
 content_type: howto
 category: Marketing
 topic: SMS
+audience: settings
+audience_tooltip: Settings and maintenance
 redirect_from: 
   - /en/service/sms/cm
   - /en/service/sms/compaya
@@ -50,7 +52,7 @@ You need an **account with the SMS provider** to obtain a username and password 
 
 1. Enter default country code and sender.
 
-1. In the **Plugin configuration** box, add the following settings.
+1. In the **Plugin configuration** box, add the following provider-specific settings. Then click **OK**.
 
 <!-- markdownlint-disable-file MD051 -->
 ### [CM](#tab/cm)
@@ -121,8 +123,6 @@ txtlocal_password =
 
 ***
 
-1. Click **OK**.
-
 > [!NOTE]
 > In the legacy Service client, go to **System** > **SMS** to find the settings.
 
@@ -158,10 +158,10 @@ This method of sending will not create any entries in the [SMS outbox][8], and t
 [9]: ../../../service/automated-tasks/ejournalcron.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/marketing/cmsmssettings.png
-[img2]: ../../../../media/loc/en/marketing/compayasmssettings.png
-[img3]: ../../../../media/loc/en/marketing/intelecomsmssettings.png
-[img4]: ../../../../media/loc/en/marketing/pswincomsmssettings.png
-[img5]: ../../../../media/loc/en/marketing/smstekniksmssettings.png
-[img6]: ../../../../media/loc/en/marketing/imagec3rg.png
-[img7]: ../../../../media/loc/en/marketing/txtlocalsmssettings.png
+[img1]: ../../../../media/loc/en/marketing/sms-settings-cm.png
+[img2]: ../../../../media/loc/en/marketing/sms-settings-compaya.png
+[img3]: ../../../../media/loc/en/marketing/sms-settings-intelecom.png
+[img4]: ../../../../media/loc/en/marketing/sms-settings-pswincom.png
+[img5]: ../../../../media/loc/en/marketing/sms-settings-smsteknik.png
+[img6]: ../../../../media/loc/en/marketing/sms-settings-twilio.png
+[img7]: ../../../../media/loc/en/marketing/sms-settings-txtlocal.png
