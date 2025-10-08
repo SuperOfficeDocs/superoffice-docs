@@ -20,8 +20,6 @@ items:
 - name: Settings and Maintenance
   href: admin/index.md
   items:
-  - name: 11.5 update
-    href: admin/11.5-update.md
   - name: 11.3 update
     href: admin/11.3-update.md
   - name: 11.1 update

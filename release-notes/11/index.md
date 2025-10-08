@@ -27,8 +27,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 * [Selection - Board view Setting for displaying days][12] in Core CRM and Sales
 * [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
-* [Request types with different icons][16] in Service
-* [Requests - Request types with different icons][18] in Settings and maintenance
+* [Request - Differentiate request types with icons][16] in Service
 
 ### 11.4 (22.09.2025)
 
@@ -90,7 +89,6 @@ Some features are available to selected customers as part of ongoing pilots. See
 [15]: ../mobile/index.md
 [16]: service/11.5-update.md
 [17]: ../index.md
-[18]: admin/11.5-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
