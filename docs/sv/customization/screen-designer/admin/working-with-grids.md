@@ -12,7 +12,6 @@ audience_tooltip: Settings and maintenance
 license: development-tools
 category: customization
 topic: screen designer
-audience_tooltip: Settings and maintenance
 language: sv
 index: true
 redirect_from: /sv/customization/screen-designer/working-with-grids
