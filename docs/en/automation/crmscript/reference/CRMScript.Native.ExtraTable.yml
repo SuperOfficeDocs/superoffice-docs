@@ -180,7 +180,7 @@ items:
   nameWithType: ExtraTable.save()
   fullName: CRMScript.Native.ExtraTable.save()
   type: Method
-  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
   remarks: "\nUse save(Bool) to signal that the entry should be reloaded after the save.\n"
   syntax: 
     content: Integer save()
@@ -199,7 +199,7 @@ items:
   nameWithType: ExtraTable.save(Bool)
   fullName: CRMScript.Native.ExtraTable.save(Bool)
   type: Method
-  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
   remarks: 
   syntax: 
     content: Integer save(Bool reload)
@@ -221,7 +221,7 @@ items:
   nameWithType: ExtraTable.save(Bool,Bool)
   fullName: CRMScript.Native.ExtraTable.save(Bool,Bool)
   type: Method
-  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
   remarks: 
   syntax: 
     content: Integer save(Bool reload, Bool signalWebhook)
