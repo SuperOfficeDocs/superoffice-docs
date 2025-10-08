@@ -36,5 +36,5 @@ items:
   topicHref: ../flows/learn/index.md
 
 - name: SMS
-  href: ../sms/it/index.md
+  href: ../sms/toc.yml
   topicHref: ../sms/it/index.md
