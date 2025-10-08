@@ -26,7 +26,7 @@ This page describes how to set up an SMS connector for SuperOffice.
 
 ## Pre-requisites
 
-You need an account with the SMS provider to obtain a username and password to connect to their service.
+You need an **account with the SMS provider** to obtain a username and password to connect to their service.
 
 **Supported connectors:**
 
@@ -50,7 +50,7 @@ You need an account with the SMS provider to obtain a username and password to c
 
 1. Enter default country code and sender.
 
-1. In the **Plugin configuration** box, add the following settings. Do not include the brackets.
+1. In the **Plugin configuration** box, add the following settings.
 
 <!-- markdownlint-disable-file MD051 -->
 ### [CM](#tab/cm)
@@ -66,8 +66,8 @@ cm_password =
 ### [Compaya](#tab/compaya)
 
 ```text
-compaya_username=[username]
-compaya_password=[password]
+compaya_username =
+compaya_password =
 ```
 
 ![Compaya SMS plugin configuration -screenshot][img2]
@@ -126,6 +126,26 @@ txtlocal_password =
 > [!NOTE]
 > In the legacy Service client, go to **System** > **SMS** to find the settings.
 
+## Testing the service
+
+To test that the service is set up correctly, you can create a new request, add an SMS recipient and wait for the SMS service to send the message (within a minute or 2).
+
+It is also possible to test using a simple CRMScript that connects directly to the SMS service using NetServer.
+
+```crmscript
+NSMessagingAgent agent;
+NSOutgoingMessage[] messages;
+NSOutgoingMessage msg;
+msg.SetTo("+47xxxxxxxx");
+msg.SetFrom("MyCompany");
+msg.SetContent("Hi friend! How are you?");
+messages.pushBack(msg);
+
+NSMessageDeliveryStatus[] receipts = agent.SendMessages("MySmsPluginName", messages);
+```
+
+This method of sending will not create any entries in the [SMS outbox][8], and the SMS is sent immediately to NetServer, not when [ejournalcron.exe][9] runs (usually once every minute).
+
 <!-- Referenced links -->
 [1]: https://www.cmtelecom.com/products/messaging/sms
 [2]: http://www.compaya.dk/
@@ -134,6 +154,8 @@ txtlocal_password =
 [5]: http://www3.smsteknik.se/tj%C3%A4nster/sms-gateway
 [6]: https://www.twilio.com/sms
 [7]: http://www.textlocal.com/
+[8]: ../../../email/service/learn/index.md#sms-out
+[9]: ../../../service/automated-tasks/ejournalcron.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/cmsmssettings.png
