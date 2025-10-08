@@ -211,10 +211,11 @@ items:
       type: CRMScript.Global.Integer
       description: "The ID of the newly saved object."
   example:
-- uid: CRMScript.Native.ExtraTable.save(Bool)
-  commentId: M:CRMScript.Native.ExtraTable.save(Bool)
+- uid: CRMScript.Native.ExtraTable.save(Bool,Bool)
+  commentId: M:CRMScript.Native.ExtraTable.save(Bool,Bool)
   id: 'saveBool()'
   so.intellisense: ExtraTable.save
+  so.version: 11.6
   langs:
   - crmscript
   name: 'save(Bool,Bool)'
