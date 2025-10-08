@@ -4,7 +4,7 @@ title: New and improved SuperOffice Mobile CRM
 description: Release notes. What's new in SuperOffice mobile CRM
 keywords: SuperOffice Mobile CRM, mobile app, mobile
 author: SuperOffice AS – Product and Engineering
-date: 09.10.2025
+date: 10.15.2025
 version: 11.1
 content_type: release-note
 platform: mobile
@@ -20,7 +20,7 @@ audience_tooltip: SuperOffice Mobile CRM
 
 ## Version 11.1
 
-* [Scan business card from create menu (11.1.3)][41]
+* [Scan business card from the Create menu (11.1.3)][41]
 * [Follow-up - Create video meeting link (11.1.2)][40]
 * [Project - Display links (11.1.2)][40]
 * [New mobile experience (11.1.0)][39]
