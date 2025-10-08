@@ -12,6 +12,9 @@ audience_tooltip: SuperOffice CRM
 
 # Product integration updates
 
+<!-- markdownlint-disable-next-line MD044 -->
+Documentation for all SuperOffice integrations is available at [docs.superoffice.com/integrations][26].
+
 ## Office integrations
 
 * [Zapier - Breaking changes and improvements (3.5)][15]
@@ -24,7 +27,7 @@ audience_tooltip: SuperOffice CRM
 ### [Current released versions][6]
 
 * [SharePoint Documents][25] 3.5 (11.09.2025)
-* [SuperOffice Copilot][26] 1.9 (11.09.2025)
+* [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024
 * [SuperOffice for Outlook][23] 6.1.3 (02.09.2025)
 * [Video Meetings][22] 2.9 (21.08.2025)
@@ -77,6 +80,7 @@ See all the [new or updated apps][2]
 [23]: ../../integrations/superoffice-for-outlook/index.md
 [24]: ../../integrations/gmail-link/index.md
 [25]: ../../integrations/sharepoint-documents/index.md
-[26]: ../../docs/en/ai/copilot/index.md
+[26]: ../../integrations/index.yml
+[27]: ../../docs/en/ai/copilot/index.md
 
 <!-- Referenced images -->

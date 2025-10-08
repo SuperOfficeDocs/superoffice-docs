@@ -27,7 +27,7 @@ Older versions are listed in the table of contents.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.3**][7] - 08.10.2025.
+The latest release is [**version 11.1.3**][7] - 15.10.2025.
 
 ## Product integrations
 
@@ -51,9 +51,8 @@ Different integration components are released on separate schedules. See the [in
 ## User guides
 
 * [SuperOffice version 11 User guide][15] (available in six languages)
-* [SuperOffice for Outlook User guide][13] (available in six languages)
+* [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
-* [SuperOffice integration overview][19] (English only)
 
 ## Ongoing pilot programs
 
@@ -93,7 +92,6 @@ We use **pilot programs** to assess how well the features and functions meet our
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
-[19]: ../integrations/index.yml
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
