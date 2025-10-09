@@ -55,4 +55,4 @@ If a specific language is missing from the **Language** dropdown, it has not bee
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-[3]: ../../../admin/options/learn/custlang/update.md
+[3]: ../../../localization/admin/add-customer-language.md

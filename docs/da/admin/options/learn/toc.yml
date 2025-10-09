@@ -46,5 +46,3 @@ items:
   items:
   - name: Oversigt
     href: custlang/index.md
-  - name: Opret og rediger kundesprog
-    href: custlang/update.md

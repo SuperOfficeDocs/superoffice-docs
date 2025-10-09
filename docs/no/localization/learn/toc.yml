@@ -1,0 +1,9 @@
+items:
+- name: Endre aktivt språk
+  href: change-language.md
+- name: Oversettelse av innhold
+  href: translate-fields.md
+- name: Tidssoner
+  href: time-zones.md
+- name: Opprette og redigere kundespråk
+  href: ../admin/add-customer-language.md

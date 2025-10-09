@@ -1,7 +1,0 @@
-items:
-- name: Change active language
-  href: change-language.md
-- name: Translation of content
-  href: translate-fields.md
-- name: Time zones
-  href: time-zones.md

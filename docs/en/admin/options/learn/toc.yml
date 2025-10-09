@@ -46,5 +46,3 @@ items:
   items:
   - name: Overview
     href: custlang/index.md
-  - name: Create and edit customer languages
-    href: custlang/update.md

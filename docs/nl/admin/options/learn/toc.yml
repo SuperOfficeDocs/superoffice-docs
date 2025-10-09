@@ -46,5 +46,3 @@ items:
   items:
   - name: Overzicht
     href: custlang/index.md
-  - name: Klanttalen maken en bewerken
-    href: custlang/update.md

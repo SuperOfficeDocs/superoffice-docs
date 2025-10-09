@@ -46,5 +46,3 @@ items:
   items:
   - name: Översikt
     href: custlang/index.md
-  - name: Skapa och redigera kundspråk
-    href: custlang/update.md

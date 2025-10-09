@@ -5,3 +5,5 @@ items:
   href: translate-fields.md
 - name: Zeitzonen
   href: time-zones.md
+- name: Kundensprachen erstellen und bearbeiten
+  href: ../admin/add-customer-language.md
