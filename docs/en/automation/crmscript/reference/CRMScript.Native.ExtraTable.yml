@@ -8,12 +8,14 @@ items:
   children:
   - CRMScript.Native.ExtraTable.#ctor
   - CRMScript.Native.ExtraTable.delete()
+  - CRMScript.Native.ExtraTable.delete(Bool)
   - CRMScript.Native.ExtraTable.getValue(String)
   - CRMScript.Native.ExtraTable.getValues()
   - CRMScript.Native.ExtraTable.load(Integer)
   - CRMScript.Native.ExtraTable.loadFromAgentAndKey(Integer,String)
   - CRMScript.Native.ExtraTable.save()
   - CRMScript.Native.ExtraTable.save(Bool)
+  - CRMScript.Native.ExtraTable.save(Bool,Bool)
   - CRMScript.Native.ExtraTable.setValue(String,String)
   name: ExtraTable
   nameWithType: ExtraTable
@@ -53,6 +55,27 @@ items:
   syntax: 
     content: Void delete()
     parameters: []
+    return:
+      type: CRMScript.Global.Void
+  example: 
+- uid: CRMScript.Native.ExtraTable.delete(Bool)
+  commentId: M:CRMScript.Native.ExtraTable.delete(Bool)
+  id: 'delete(Bool)'
+  so.intellisense: ExtraTable.delete
+  langs:
+  - crmscript
+  name: 'delete(Bool)'
+  nameWithType: ExtraTable.delete(Bool)
+  fullName: CRMScript.Native.ExtraTable.delete(Bool)
+  type: Method
+  summary: "\nDeletes the loaded object.\n"
+  remarks: 
+  syntax: 
+    content: Void delete(Bool signalWebhook)
+    parameters:
+    - id: field
+      type: CRMScript.Global.Bool
+      description: "True signals that the webhook system should be notified about the deletion."
     return:
       type: CRMScript.Global.Void
   example: 
@@ -157,7 +180,7 @@ items:
   nameWithType: ExtraTable.save()
   fullName: CRMScript.Native.ExtraTable.save()
   type: Method
-  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
   remarks: "\nUse save(Bool) to signal that the entry should be reloaded after the save.\n"
   syntax: 
     content: Integer save()
@@ -176,7 +199,7 @@ items:
   nameWithType: ExtraTable.save(Bool)
   fullName: CRMScript.Native.ExtraTable.save(Bool)
   type: Method
-  summary: "\nCreates a new or updates an existing extra-tableSaves an extra table. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
   remarks: 
   syntax: 
     content: Integer save(Bool reload)
@@ -184,6 +207,32 @@ items:
     - id: reload
       type: CRMScript.Global.Bool
       description: "True signals that the entry should be reloaded after the save."
+    return:
+      type: CRMScript.Global.Integer
+      description: "The ID of the newly saved object."
+  example:
+- uid: CRMScript.Native.ExtraTable.save(Bool,Bool)
+  commentId: M:CRMScript.Native.ExtraTable.save(Bool,Bool)
+  id: 'saveBool()'
+  so.intellisense: ExtraTable.save
+  so.version: 11.6
+  langs:
+  - crmscript
+  name: 'save(Bool,Bool)'
+  nameWithType: ExtraTable.save(Bool,Bool)
+  fullName: CRMScript.Native.ExtraTable.save(Bool,Bool)
+  type: Method
+  summary: "\nCreates a new or updates an existing extra-table entry. If ID is set, the table will be updated. Otherwise, a new extra-table entry will be created.\n"
+  remarks: 
+  syntax: 
+    content: Integer save(Bool reload, Bool signalWebhook)
+    parameters:
+    - id: reload
+      type: CRMScript.Global.Bool
+      description: "True signals that the entry should be reloaded after the save."
+    - id: signalWebhook
+      type: CRMScript.Global.Bool
+      description: "True signals that the webhook system should be notified about the save."
     return:
       type: CRMScript.Global.Integer
       description: "The ID of the newly saved object."
