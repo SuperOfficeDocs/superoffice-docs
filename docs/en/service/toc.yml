@@ -62,5 +62,3 @@ items:
     href: integrate/index.md
   - name: API options
     href: soap/toc.yml
-  - name: Time zones
-    href: time-zones.md
