@@ -1,5 +1,5 @@
 items:
-- name: Overview
+- name: Introduction
   href: index.md
 - name: Person name formatter
   href: personnameformatter.md

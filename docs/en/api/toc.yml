@@ -85,6 +85,9 @@ items:
                 href: authentication/onsite/com/index.md
               - name: From secret to ticket
                 href: authentication/onsite/from-secret-to-ticket.md
+  - name: Localization
+    href: localization/toc.yml
+    topicHref: localization/index.md
   - name: Configuration
     href: config/index.md
     items:
