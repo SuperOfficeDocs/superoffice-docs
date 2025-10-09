@@ -2,17 +2,23 @@
 uid: help-no-language-change
 title: Endre aktivt språk
 description: Endre aktivt språk
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: språk
+keywords: endre språk, Aktivt språk
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Endre språkversjon
 
-Gjør følgende hvis du vil bruke Innstillinger og vedlikehold på et annet språk:
+Gjør følgende hvis du vil bruke SuperOffice på et annet språk:
 
 1. Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Lokale innstillinger**.
-2. Velg ønsket språk i listen **Aktivt språk**.
-3. Klikk på **OK**.
+1. Velg ønsket språk i listen **Aktivt språk**.
+1. Klikk på **OK**.

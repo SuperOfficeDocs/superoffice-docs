@@ -2,17 +2,23 @@
 uid: help-nl-language-change
 title: Actieve taal wijzigen
 description: Actieve taal wijzigen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: taal
+keywords: taal wijzigen, Actieve taal
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # De taalversie wijzigen
 
-Om Instellingen en onderhoud in een andere taal te gebruiken:
+Om SuperOffice in een andere taal te gebruiken:
 
 1. Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Lokale instellingen**.
-2. Selecteer de gewenste taal in de lijst **Actieve taal**.
-3. Klik op **OK**.
+1. Selecteer de gewenste taal in de lijst **Actieve taal**.
+1. Klik op **OK**.
