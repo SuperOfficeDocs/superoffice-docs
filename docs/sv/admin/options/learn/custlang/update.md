@@ -40,16 +40,35 @@ language: sv
 
 ## Språkkoder
 
-[!include[Language codes](includes/language-codes.md)]
+| Språk | Kod |
+|---|:-:|
+| Kinesiska (förenklat) | CN |
+| Tjeckiska | CZ |
+| Danska | DA (inte DK) |
+| Holländska | NL |
+| Engelska | EN |
+| Finska | FI |
+| Franska | FR |
+| Tyska | DE |
+| Tyska (Schweiz) | CH |
+| Italienska | IT |
+| Koreanska | KO |
+| Norska | NR |
+| Polska | PL |
+| Portugisiska (Brasilien) | BR |
+| Ryska | RU |
+| Spanska | ES |
+| Svenska | SE (inte SV) |
+| Ukrainska | Storbritannien |
+| Vietnamesiska | VI |
 
 ## Vad vill du veta mer om?
 
-* [Arbeta med externa kategorier][1]
 * [Så väljer SuperOffice kundspråk för nya kontakter][2]
 
 <!-- Referenced links -->
-[1]: external-categories.md
-[2]: select-language.md
+[1]: ../../../../request/admin/category/external-categories.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/customer-centre-language.png

@@ -40,16 +40,35 @@ language: de
 
 ## Sprachcodes
 
-[!include[Language codes](includes/language-codes.md)]
+| Sprache | Code |
+|---|:-:|
+| Chinesisch (vereinfacht) | CN |
+| Tschechisch | CZ |
+| Dänisch | DA (nicht DK) |
+| Niederländisch | NL |
+| Englisch | EN |
+| Finnisch | FI |
+| Französisch | FR |
+| Deutsch | DE |
+| Deutsch (Schweiz) | CH |
+| Italienisch | IT |
+| Koreanisch | KO |
+| Norwegisch | NO |
+| Polnisch | PL |
+| Portugiesisch (Brasilien) | BR |
+| Russisch | RU |
+| Spanisch | ES |
+| Schwedisch | SE (nicht SV) |
+| Ukrainisch | Großbritannien |
+| Vietnamesisch | VI |
 
 ## Worüber würden Sie gern mehr erfahren?
 
-* [Mit externen Kategorien arbeiten][1]
 * [Wie SuperOffice die Kundensprache für neue Personen auswählt][2]
 
 <!-- Referenced links -->
-[1]: external-categories.md
-[2]: select-language.md
+[1]: ../../../../request/admin/category/external-categories.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/customer-centre-language.png

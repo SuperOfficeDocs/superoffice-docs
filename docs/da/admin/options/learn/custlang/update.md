@@ -40,16 +40,35 @@ language: da
 
 ## Sprogkoder
 
-[!include[Language codes](includes/language-codes.md)]
+| Sprog | Kode |
+|---|:-:|
+| Kinesisk (forenklet) | CN |
+| Tjekkisk | CZ |
+| Dansk | DA (ikke DK) |
+| Hollandsk | NL |
+| Engelsk | EN |
+| Finsk | FI |
+| Fransk | FR |
+| Tysk | DE |
+| Tysk (Schweiz) | CH |
+| Italiensk | It |
+| Koreansk | KO |
+| Norsk | NO |
+| Polsk | PL |
+| Portugisisk (Brasilien) | BR |
+| Russisk | RU |
+| Spansk | ES |
+| Svensk | SE (ikke SV) |
+| Ukrainsk | UK |
+| Vietnamesisk | VI |
 
 ## Hvad ønsker du at få mere at vide om?
 
-* [Arbejde med eksterne kategorier][1]
 * [Sådan vælger SuperOffice kundesprog til nye personer][2]
 
 <!-- Referenced links -->
-[1]: external-categories.md
-[2]: select-language.md
+[1]: ../../../../request/admin/category/external-categories.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/customer-centre-language.png

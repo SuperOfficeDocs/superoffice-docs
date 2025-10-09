@@ -40,16 +40,35 @@ language: nl
 
 ## Taalcodes
 
-[!include[Language codes](includes/language-codes.md)]
+| Taal | Code |
+|---|:-:|
+| Chinees (vereenvoudigd) | CN |
+| Tsjechisch | CZ |
+| Deens | DA (niet DK) |
+| Nederlands | NL |
+| Engels | EN |
+| Fins | FI |
+| Frans | FR |
+| Duits | DE |
+| Duits (Zwitserland) | CH |
+| Italiaans | IT |
+| Koreaans | KO |
+| Noors | NO |
+| Pools | PL |
+| Portugees (Brazilië) | BR |
+| Russisch | RU |
+| Spaans | ES |
+| Zweeds | SE (niet SV) |
+| Oekraïens | UK |
+| Vietnamees | VI |
 
 ## Gerelateerde inhoud
 
-* [Werken met externe categorieën][1]
 * [Hoe SuperOffice de klanttaal voor nieuwe personen selecteert][2]
 
 <!-- Referenced links -->
-[1]: external-categories.md
-[2]: select-language.md
+[1]: ../../../../request/admin/category/external-categories.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/customer-centre-language.png
