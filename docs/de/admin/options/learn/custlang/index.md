@@ -25,15 +25,47 @@ Die Ansicht **Kundensprachen** enthält eine Auflistung aller installierten Kund
 
 Zum Beispiel:
 
-* Sie können SuperOffice Kundenzentrum , FAQs und Antwortvorlagen in [verschiedene Sprachversionen][2] nutzen.
+* Sie können SuperOffice Kundenzentrum , FAQs und Antwortvorlagen in verschiedene Sprachversionen nutzen.
 * Sie können eine Sprache für eine Person festlegen, sodass diese Person automatisch Antwortvorlagen in dieser Sprache erhält.
 * [Benutzersupport-Anfragen können in mehrere Gruppen kategorisiert werden][3], die auf definierte Abteilungen und Sprachen verweisen können.
+
+## Wie SuperOffice die Kundensprache für neue Personen auswählt
+
+Wenn eine neue Person eine Anfrage einsendet, versucht SuperOffice zu entscheiden, welche Kundensprache für die Person angezeigt werden soll.
+
+### Szenario 1
+
+1. John, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse `john@coca-cola.se`.
+
+2. Die neue Anfrage wird an das System gesendet, wo Johns E-Mail-Domäne (coca-cola.se) geprüft wird. coca-cola.se ist als Domäne für die Firma Coca-Cola erfasst.
+
+3. John wird als eine neue Person für Coca-Cola hinzugefügt, nicht als neue Person ohne Firma.
+
+4. SuperOffice prüft dann, ob die E-Mail-Domäne .se mit einer der erfassten Kundensprachen verknüpft ist. .se ist als Domäne für die Kundensprache Schwedisch erfasst.
+
+5. Für John wird daher Schwedisch als Kundensprache festgelegt.
+
+6. SuperOffice sendet John eine schwedische Antwortvorlage (wenn diese erstellt wurde) und informiert ihn darüber, dass die Anfrage erhalten und erfasst wurde.
+
+7. John erhält einen Benutzernamen und ein Passwort von SuperOffice und kann sich damit bei cs.liberty.com einloggen und auf die schwedische Version vom SuperOffice Kundenzentrum zugreifen. John erhält auch Zugriff auf schwedische FAQs, wenn dies in SuperOffice festgelegt wurde.
+
+### Szenario 2
+
+1. Maria, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse `maria@coca-cola.nl`.
+2. SuperOffice prüft die E-Mail-Domäne und diese wird für die Firma Coca-Cola erfasst.
+3. Maria wird als neue Person für Coca-Cola hinzugefügt.
+4. Dann prüft SuperOffice, ob die E-Mail-Domäne .nl mit einer der erfassten Kundensprachen verknüpft ist. Die E-Mail-Domäne .nl ist *nicht* mit einer Kundensprache verknüpft, sodass für Maria keine Kundensprache festgelegt werden kann.
+5. Maria erhält eine Antwortvorlage in der Standardsprache für ihre Firma. Das SuperOffice Kundenzentrum und die FAQs werden ebenfalls in der Standardsprache angezeigt.
+
+### Szenario 3
+
+1. Niederländisch wird als neue Kundensprache in SuperOffice hinzugefügt und mit der Domäne .nl verknüpft.
+2. Maria erhält nicht automatisch Niederländisch als Kundensprache. Sie muss der Person manuell zugewiesen werden. Nur neue Personen werden auf neue Kundensprachen geprüft.
 
 Bei der Installation wurden sechs Kundensprache-Ordner (DE, DK, EN, NL, NO und SE) im Ordner **\\templates** auf dem Server untergebracht. Sie müssen diese Kundensprachen selbst einrichten.
 
 <!-- Referenced links -->
 [1]: update.md
-[2]: select-language.md
-[3]: external-categories.md
+[3]: ../../../../request/admin/category/external-categories.md
 
 <!-- Referenced images -->

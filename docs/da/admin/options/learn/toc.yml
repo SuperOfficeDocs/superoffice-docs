@@ -48,7 +48,3 @@ items:
     href: custlang/index.md
   - name: Opret og rediger kundesprog
     href: custlang/update.md
-  - name: Arbejd med eksterne kategorier
-    href: custlang/external-categories.md
-  - name: Vælg kundesprog
-    href: custlang/select-language.md
