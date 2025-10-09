@@ -2,16 +2,22 @@
 uid: help-nl-languages
 title: Klanttalen
 description: Klanttalen
-author: Bergfrid Dias
-date: 02.22.2023
 keywords: taal
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+category: localization
+topic: language
+redirect_from: /nl/admin/options/learn/custlang/index
 language: nl
 ---
 
 # Klanttalen
 
-[!include[Requirement](../../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 Om een geweldige klantervaring te bieden, moet u uw klanten ondersteunen in hun lokale taal wanneer ze uw klantencentrum bezoeken en in de communicatie met de klant.
 
@@ -53,6 +59,6 @@ Wanneer een nieuwe contactpersoon verzoek stuurt, probeert SuperOffice te bepale
 Bij de installatie werden 6 klanttaalmappen (DE, DK, EN, NL, NO en SE) geplaatst in de map **\\templates** op de server. U moet deze klanttalen zelf instellen.
 
 <!-- Referenced links -->
-[1]: update.md
+[1]: ../admin/add-customer-language.md
 
 <!-- Referenced images -->

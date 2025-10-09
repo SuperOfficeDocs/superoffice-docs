@@ -35,7 +35,7 @@ I fönstret Kundcenter anger du inställningar för kundcentret och hanterar kun
 * [Kundspråk][1]
 
 <!-- Referenced links -->
-[1]: ../../admin/options/learn/custlang/index.md
+[1]: ../../localization/learn/customer-languages.md
 [2]: config.md
 [3]: edit.md
 

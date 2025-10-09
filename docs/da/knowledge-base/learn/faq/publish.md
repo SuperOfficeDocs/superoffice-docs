@@ -44,4 +44,4 @@ Når en sagsbehandler [opretter et forslag til en FAQ-post][1], vil det være ik
 [1]: create.md
 [2]: ../../../request/learn/index.md
 [3]: workflow.md
-[4]: ../../../admin/options/learn/custlang/index.md
+[4]: ../../../localization/learn/customer-languages.md

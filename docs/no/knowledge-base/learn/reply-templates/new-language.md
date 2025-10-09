@@ -54,5 +54,5 @@ Hvis et bestemt språk mangler i nedtrekksmenyen **Språk**, er det ikke lagt ti
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../admin/options/learn/custlang/index.md
+[2]: ../../../localization/learn/customer-languages.md
 [3]: ../../../localization/admin/add-customer-language.md

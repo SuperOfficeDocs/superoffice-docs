@@ -118,7 +118,7 @@ Because the option to create FAQ entries this way is only available to **adminis
 [3]: publish.md
 [4]: edit.md
 [5]: ../../../request/learn/reply.md#faq
-[6]: ../../../admin/options/learn/custlang/index.md
+[6]: ../../../localization/learn/customer-languages.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/faq/create-publish-faq.png

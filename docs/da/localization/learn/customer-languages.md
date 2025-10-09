@@ -2,16 +2,22 @@
 uid: help-da-languages
 title: Kundesprog
 description: Kundesprog
-author: Bergfrid Dias
-date: 02.22.2023
 keywords: sprog
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+category: localization
+topic: language
+redirect_from: /da/admin/options/learn/custlang/index
 language: da
 ---
 
 # Kundesprog
 
-[!include[Requirement](../../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 For at tilbyde en god kundeoplevelse skal du støtte dine kunder på deres lokale sprog, når de besøger dit kundecenter og i kommunikationen med kunden.
 
@@ -53,6 +59,6 @@ Når en ny person indsender en sag, forsøger SuperOffice at bestemme, hvilket k
 På installationstidspunktet blev der oprettet 6 mapper for kundesprog (DE, DK, EN, NL og NO) i mappen **\\skabeloner** på serveren. Du skal selv konfigurere disse kundesprog.
 
 <!-- Referenced links -->
-[1]: update.md
+[1]: ../admin/add-customer-language.md
 
 <!-- Referenced images -->

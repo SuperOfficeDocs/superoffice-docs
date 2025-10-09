@@ -2,16 +2,22 @@
 uid: help-de-languages
 title: Kundensprachen
 description: Kundensprachen
-author: Bergfrid Dias
-date: 02.22.2023
 keywords: Sprache
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+category: localization
+topic: language
+redirect_from: /de/admin/options/learn/custlang/index
 language: de
 ---
 
 # Kundensprachen
 
-[!include[Requirement](../../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 Für ein großartiges Kundenerlebnis müssen Sie Ihre Kunden beim Besuch Ihres Kundenzentrums und bei der Kommunikation mit dem Kunden in ihrer Landessprache unterstützen.
 
@@ -53,6 +59,6 @@ Wenn eine neue Person eine Anfrage einsendet, versucht SuperOffice zu entscheide
 Bei der Installation wurden sechs Kundensprache-Ordner (DE, DK, EN, NL, NO und SE) im Ordner **\\templates** auf dem Server untergebracht. Sie müssen diese Kundensprachen selbst einrichten.
 
 <!-- Referenced links -->
-[1]: update.md
+[1]: ../admin/add-customer-language.md
 
 <!-- Referenced images -->

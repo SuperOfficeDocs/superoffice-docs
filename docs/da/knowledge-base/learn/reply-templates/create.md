@@ -127,4 +127,4 @@ Du kan vælge graden af sammenhæng mellem sagen fra kunden og FAQ-posterne i fe
 [2]: ../manage-folders.md
 [5]: new-language.md
 [6]: edit.md
-[7]: ../../../admin/options/learn/custlang/index.md
+[7]: ../../../localization/learn/customer-languages.md

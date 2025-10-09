@@ -2,4 +2,4 @@
 I listrutan **Kundspråk** anger du vilket [språk som ska användas för de kunder][4] som skickar meddelanden till brevlådan.
 
 <!-- Referenced links -->
-[4]: ../../../../admin/options/learn/custlang/index.md
+[4]: ../../../../localization/learn/customer-languages.md

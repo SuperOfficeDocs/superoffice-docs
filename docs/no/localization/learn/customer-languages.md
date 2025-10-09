@@ -2,16 +2,22 @@
 uid: help-no-languages
 title: Kundespråk
 description: Kundespråk
-author: Bergfrid Dias
-date: 02.22.2023
 keywords: språk
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+category: localization
+topic: language
+redirect_from: /no/admin/options/learn/custlang/index
 language: no
 ---
 
 # Kundespråk
 
-[!include[Requirement](../../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 For å kunne tilby gode kundeopplevelser må du støtte kundene dine på deres eget språk når de besøker kundesenteret og i kommunikasjonen med kunden.
 
@@ -53,6 +59,6 @@ Når en ny person sender inn en sak, prøver SuperOffice å finne ut hvilket kun
 Ved installasjon blir det lagt inn 6 kundespråkmapper (DE, DK, EN, NL, NO og SE) i mappen **\\templates** på serveren. Du må konfigurere disse kundespråkene selv.
 
 <!-- Referenced links -->
-[1]: update.md
+[1]: ../admin/add-customer-language.md
 
 <!-- Referenced images -->

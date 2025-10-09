@@ -32,7 +32,7 @@ In der Ansicht **Optionen** können Sie Einstellungen für das gesamte System fe
 [2]: time-zones/index.md
 [3]: number-allocation/index.md
 [4]: labels/index.md
-[6]: custlang/index.md
+[6]: ../../../localization/learn/customer-languages.md
 [7]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

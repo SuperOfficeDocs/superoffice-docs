@@ -2,16 +2,22 @@
 uid: help-en-languages
 title: Customer languages
 description: Customer languages
-author: Bergfrid Dias
-date: 02.22.2023
 keywords: language
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+category: localization
+topic: language
+redirect_from: /en/admin/options/learn/custlang/index
 language: en
 ---
 
 # Customer languages
 
-[!include[Requirement](../../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 To offer great customer experience you need to support your customers in their local language when they visit your Customer centre and in the communication with the customer.
 
@@ -53,6 +59,6 @@ When a new contact sends in a request, SuperOffice tries to decide which custome
 On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were placed in the folder **\\templates** on the server. You must set up these customer languages yourself.
 
 <!-- Referenced links -->
-[1]: update.md
+[1]: ../admin/add-customer-language.md
 
 <!-- Referenced images -->
