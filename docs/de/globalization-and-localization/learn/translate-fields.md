@@ -1,11 +1,17 @@
 ---
 uid: help-de-translate-fields
-title: Felder übersetzen
-description: Felder übersetzen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: CRM
+title: Übersetzung
+description: Felder in SuperOffice übersetzen
+keywords: Übersetzung, übersetzen
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -13,15 +19,20 @@ language: de
 
 Die Standardfelder und andere UI-Texte sind in allen SuperOffice-Sprachen verfügbar. Wenn Sie eigene Felder oder Texte erstellen (beispielsweise Namen von Dashboards und Kacheln), können Sie sie in die Sprachen übersetzen, die in Ihrer Organisation verwendet werden.
 
-Das Symbol <i class="ph ph-translate" aria-hidden="true"></i> neben einem Feld gibt an, dass Sie eine Übersetzung hinzufügen können.
+Das Symbol **Übersetzen** (<i class="ph ph-translate" aria-hidden="true"></i>) neben einem Feld gibt an, dass Sie eine Übersetzung hinzufügen können.
 
 ## Übersetzung hinzufügen
 
 1. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben dem Feld, für das Sie eine Übersetzung einfügen möchten.
-2. Klicken Sie auf **Hinzufügen**.
-3. Wählen Sie in der Liste eine Sprache aus. Für die ausgewählte Sprache wird ein neues Feld hinzugefügt.
-4. Geben Sie Ihre Übersetzung ein.
-5. Wiederholen Sie Schritt 2-4, um weitere Übersetzungen hinzuzufügen.
-6. Klicken Sie außerhalb des Übersetzungsfelds, wenn der Vorgang abgeschlossen ist.
+1. Klicken Sie auf **Hinzufügen**.
+1. Wählen Sie in der Liste eine Sprache aus. Für die ausgewählte Sprache wird ein neues Feld hinzugefügt.
+1. Geben Sie Ihre Übersetzung ein.
+1. Wiederholen Sie Schritt 2-4, um weitere Übersetzungen hinzuzufügen.
+1. Klicken Sie außerhalb des Übersetzungsfelds, wenn der Vorgang abgeschlossen ist.
 
-Ändern Sie probeweise die Spracheinstellungen (siehe **Lokale Einstellungen** im Menü **Persönliche Einstellungen**) und prüfen Sie, ob die Übersetzungen in die jeweiligen Sprachen angezeigt werden.
+## Test
+
+[Ändern Sie die Spracheinstellungen][1] unter <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** und prüfen Sie, ob die Übersetzungen in die jeweiligen Sprachen angezeigt werden.
+
+<!-- Referenced links -->
+[1]: change-language.md
