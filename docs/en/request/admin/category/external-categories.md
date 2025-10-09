@@ -1,14 +1,19 @@
 ---
-uid: help-en-languages-category
+uid: help-en-category-external
 title: Work with external categories
 description: Work with external categories
-author: SuperOffice RnD
-date: 03.29.2023
-keywords: Settings and maintenance
+keywords: external category, customer language
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /en/admin/options/learn/custlang/external-categories
 language: en
+index: true
 ---
 
 # Work with external categories
@@ -47,6 +52,6 @@ Example: The internal category "Support" can then have an external category for 
     * The link to the external category from this customer language is deleted, but not the category itself.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/update.md
+[1]: ../../../localization/admin/add-customer-language.md
 
 <!-- Referenced images -->

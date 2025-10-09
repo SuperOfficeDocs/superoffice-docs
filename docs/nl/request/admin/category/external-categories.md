@@ -1,14 +1,19 @@
 ---
-uid: help-nl-languages-category
+uid: help-nl-category-external
 title: Werken met externe categorieën
 description: Werken met externe categorieën
-author: SuperOffice RnD
-date: 03.29.2023
-keywords: Instellingen en onderhoud
+keywords: externe categorie, klanttaal
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /nl/admin/options/learn/custlang/external-categories
 language: nl
+index: true
 ---
 
 # Werken met externe categorieën
@@ -47,6 +52,6 @@ Bijvoorbeeld: de interne categorie "Support" kan dan een externe categorie hebbe
     * De categorie zelf wordt niet verwijderd, alleen de koppeling naar de externe categorie voor deze klanttaal.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/update.md
+[1]: ../../../localization/admin/add-customer-language.md
 
 <!-- Referenced images -->

@@ -1,14 +1,19 @@
 ---
-uid: help-de-languages-category
+uid: help-de-category-external
 title: Mit externen Kategorien arbeiten
 description: Mit externen Kategorien arbeiten
-author: SuperOffice RnD
-date: 03.29.2023
-keywords: Einstellungen und Verwaltung
+keywords: externe Kategorie, Kundensprache
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /de/admin/options/learn/custlang/external-categories
 language: de
+index: true
 ---
 
 # Mit externen Kategorien arbeiten
@@ -47,6 +52,6 @@ Beispiel: Die interne Kategorie "Support" kann dann eine externe Kategorie für 
     * Der Link zu der externen Kategorie von dieser Kundensprache wird gelöscht, jedoch nicht die Kategorie selbst.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/update.md
+[1]: ../../../localization/admin/add-customer-language.md
 
 <!-- Referenced images -->

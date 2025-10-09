@@ -1,14 +1,19 @@
 ---
-uid: help-sv-languages-category
+uid: help-sv-category-external
 title: Arbeta med externa kategorier
 description: Arbeta med externa kategorier
-author: SuperOffice RnD
-date: 03.29.2023
-keywords: Inställningar och underhåll
+keywords: extern kategori, kundspråk
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /sv/admin/options/learn/custlang/external-categories
 language: sv
+index: true
 ---
 
 # Arbeta med externa kategorier
@@ -47,6 +52,6 @@ Exempel: Den interna kategorin "Support" kan då ha en extern kategori för alla
     * Länken till den externa kategorin från det aktuella kundspråket tas bort, men inte själva kategorin.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/update.md
+[1]: ../../../localization/admin/add-customer-language.md
 
 <!-- Referenced images -->

@@ -1,14 +1,19 @@
 ---
-uid: help-da-languages-category
+uid: help-da-category-external
 title: Arbejde med eksterne kategorier
 description: Arbejde med eksterne kategorier
-author: SuperOffice RnD
-date: 03.29.2023
-keywords: Indstillinger og vedligeholdelse
+keywords: ekstern kategori, kundesprog
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
 content_type: howto
+category: localization
+topic: language
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: /da/admin/options/learn/custlang/external-categories
 language: da
+index: true
 ---
 
 # Arbejde med eksterne kategorier
@@ -47,6 +52,6 @@ Eksempel: Den interne kategori "Support" kan derefter have en ekstern kategori f
     * Linket til den eksterne kategori fra dette kundesprog slettes, men ikke selve kategorien.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/update.md
+[1]: ../../../localization/admin/add-customer-language.md
 
 <!-- Referenced images -->
