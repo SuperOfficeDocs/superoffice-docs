@@ -1,10 +1,16 @@
 ---
-uid: globalization_and_localization
+uid: globalization-and-localization
 title: SuperOffice Globalization
 description: Globalization and Localization
-author: Bergfrid Dias
-date: 02.16.2022
 keywords: globalization, localization
+author: Bergfrid Dias
+date: 10.09.2025
+content_type: concept
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/index
+language: en
 index: true
 ---
 

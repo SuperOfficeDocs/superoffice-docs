@@ -1,11 +1,16 @@
 ---
+uid: parse-input-to-ns-format
 title: Parse values to NetServer format
-uid: parse_input_to_ns_format
 description: How to parse values to NetServer format
+keywords: NetServer format, CultureDataFormatter, parse value
 author: SuperOffice Product and Engineering
-date:
-keywords:
+date: 10.09.2025
 content_type: howto
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/culture/parse-values
+language: en
 ---
 
 # Parse values to NetServer format

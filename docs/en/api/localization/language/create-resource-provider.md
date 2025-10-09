@@ -1,12 +1,19 @@
 ---
+uid: create-resource-provider
 title: How to create a resource provider
-uid: create_resource_provider
 description: How to create a resource provider
+keywords: create resource provider
 author: SuperOffice Product and Engineering
-date:
-keywords:
+date: 10.09.2025
 content_type: howto
-redirect_from: /en/globalization-and-localization/language/index
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: 
+  - /en/api/localization/language/index
+  - /en/globalization-and-localization/language/index
+  - /en/globalization-and-localization/language/create-resource-provider
+language: en
 ---
 
 # How to create a resource provider

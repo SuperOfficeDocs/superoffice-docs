@@ -1,11 +1,16 @@
 ---
+uid: localization-resource-providers
 title: Resource providers
-uid: globalization_resource_providers   
 description: Resource providers
+keywords: resource provider, ResourceDllProvider, string resource
 author: SuperOffice Product and Engineering
-date: 05.08.2018
+date: 10.09.2025
 content_type: concept
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/language/resource-providers
+language: en
 ---
 
 # Resource providers

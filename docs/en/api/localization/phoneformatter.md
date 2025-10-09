@@ -1,18 +1,21 @@
 ---
+uid: localization-phone-formatter
 title: Phone formatter
-uid: globalization_phoneformatter
 description: Localization, class PhoneFormatter
+keywords: PhoneFormatter
 author: SuperOffice Product and Engineering
-date: 05.08.2018
+date: 10.09.2025
 content_type: reference
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/phoneformatter
+language: en
 ---
 
 # Phone formatter
 
 The `PhoneFormatter` class contains various methods used to format phone numbers.
-
-![Phone formats][img1]
 
 ## GetInternationalNumber
 
@@ -25,7 +28,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the international number of the specified country for the given
   // phone number Country ID 578 == Norway
-  string formatedPhoneNumber = PhoneFormatter.GetInternationalNumber(578, "96458551");
+  string formattedPhoneNumber = PhoneFormatter.GetInternationalNumber(578, "96458551");
 
   // outputs
   // 4796458551
@@ -44,7 +47,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   // format the phone number to the base number format of the
   // specified country this will get rid of the additional
   // number and characters
-  string formatedPhoneNumber = PhoneFormatter.GetBaseNumber(578, "+47 779 645 855");
+  string formattedPhoneNumber = PhoneFormatter.GetBaseNumber(578, "+47 779 645 855");
 
   // output:
   // 779645855
@@ -62,7 +65,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // format the phone number to GSM compliant format of the given
   // country the letters of the phone number will be resolved
-  string formatedPhoneNumber = PhoneFormatter.GetGSMNumber(578,"077748VISTA");
+  string formattedPhoneNumber = PhoneFormatter.GetGSMNumber(578,"077748VISTA");
   // output:
   // +4707774884782
 }
@@ -80,7 +83,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   // get the long display number formatted according to the country
   // specified the method will add the country code and the area
   // code to the number 
-  string formatedPhoneNumber = PhoneFormatter.GetLongDisplayNumber(578,"678657856");
+  string formattedPhoneNumber = PhoneFormatter.GetLongDisplayNumber(578,"678657856");
   // output:
   // +47 678657856
 }
@@ -97,7 +100,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the country prefix of the country we specify
 
-  string formatedPhoneNumber = PhoneFormatter.GetPrefix(578);
+  string formattedPhoneNumber = PhoneFormatter.GetPrefix(578);
   // output:
   // +47
 }
@@ -114,12 +117,9 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 {
   // get the alpha numeric characters of a phone number that we specify
   // resolved this will happen according to the standard key pad
-  // of phone e.g: the letters T,U and V will be replased will number 8
-  string formatedPhoneNumber = PhoneFormatter.ResolveAlphanumericNumber("077 748VISTA");
+  // of phone e.g: the letters T,U and V will be replaced will number 8
+  string formattedPhoneNumber = PhoneFormatter.ResolveAlphanumericNumber("077 748VISTA");
   // output:
   // 077 74884782
 }
 ```
-
-<!-- Referenced images -->
-[img1]: media/image004.gif

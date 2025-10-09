@@ -1,13 +1,17 @@
 ---
-uid: globalization-addresshelper
+uid: localization-addresshelper
 title: AddressHelper class
-description: AddressHelper class 
+description: AddressHelper class
 keywords: AddressHelper class
 author: Tony Yates
-date: 05.15.2017
+date: 10.09.2025
 content_type: reference
-category: globalization
+category: localization
 topic: address
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/address/addresshelper
+language: en
 ---
 
 # AddressHelper class

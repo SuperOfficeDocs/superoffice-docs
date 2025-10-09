@@ -1,11 +1,16 @@
 ---
+uid: translate-strings
 title: Translate strings
-uid: translate_strings
 description: How to translate strings
+keywords: ResourceProviders, translate string
 author: SuperOffice Product and Engineering
-date:
-keywords:
+date: 10.09.2025
 content_type: howto
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/language/translate-strings
+language: en
 ---
 
 # Translate strings

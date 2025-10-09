@@ -1,12 +1,19 @@
 ---
+uid: localization-culturedataformatter
 title: CultureDataFormatter
-uid: globalization_culturedataformatter
 description: Localization, class CultureDataFormatter
+keywords: CultureDataFormatter, DisplayValue
 author: SuperOffice Product and Engineering
-date: 05.08.2018
+date: 10.09.2025
 content_type: reference
-keywords:
-redirect_from: /en/globalization-and-localization/culture/index
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: 
+  - /en/api/localization/culture/index
+  - /en/globalization-and-localization/culture/index
+  - /en/globalization-and-localization/culture/culturedataformatter
+language: en
 ---
 
 # CultureDataFormatter

@@ -1,11 +1,16 @@
 ---
+uid: create-resx-file
 title: Create our own resx file
-uid: create_resx_file
 description: Create our own resx file
-author: SuperOffice Product and Engineering
-date:
 keywords: resx, ResourceStrings, translation, globalization, ResXmlFileProvider
+author: SuperOffice Product and Engineering
+date: 10.09.2025
 content_type: howto
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/language/create-resx-file
+language: en
 ---
 
 # Create our own resx file

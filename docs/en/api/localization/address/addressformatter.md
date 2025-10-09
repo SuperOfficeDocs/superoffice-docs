@@ -1,11 +1,16 @@
 ---
+uid: localization-addressformatter
 title: AddressFormatter class
-uid: globalization_addressformatter
 description: Localization, class AddressFormatter
-author: SuperOffice Product and Engineering
-date: 05.08.2018
-content_type: reference
 keywords: globalization, address
+author: SuperOffice Product and Engineering
+date: 10.09.2025
+content_type: reference
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/address/addressformatter
+language: en
 ---
 
 # The AddressFormatter class

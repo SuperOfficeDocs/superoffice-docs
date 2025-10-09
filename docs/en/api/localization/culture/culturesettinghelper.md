@@ -1,11 +1,16 @@
 ---
+uid: localization-culturesettinghelper
 title: Culture Helper
-uid: globalization_culturesettinghelper
 description: CultureSettingHelper class
+keywords: CultureSettingHelper
 author: SuperOffice Product and Engineering
-date: 05.08.2018
+date: 10.09.2025
 content_type: concept
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/culture/culturesettinghelper
+language: en
 ---
 
 # Culture Helper

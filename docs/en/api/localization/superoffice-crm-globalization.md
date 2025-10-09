@@ -1,11 +1,16 @@
 ---
+uid: superoffice-crm-globalization
 title: SuperOffice.CRM.Globalization namespace
-uid: superoffice_crm_globalization 
 description: SuperOffice.CRM.Globalization namespace
+keywords: SuperOffice.CRM.Globalization
 author: SuperOffice Product and Engineering
-date: 04.08.2018
+date: 10.09.2025
 content_type: reference
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/superoffice-crm-globalization
+language: en
 ---
 
 # SuperOffice.CRM.Globalization namespace

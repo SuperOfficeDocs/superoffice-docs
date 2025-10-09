@@ -1,13 +1,19 @@
 ---
-uid: globalization-address
+uid: localization-address
 title: Address formats
 description: Localization, address formats
-author: Tony Yates
-date: 02.16.2022
-content_type: concept
 keywords: address, globalization, LocalizedAddress, FormattedAddress
+author: Tony Yates
+date: 10.09.2025
+content_type: concept
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: 
+  - /en/globalization-and-localization/address/howto/index
+  - /en/globalization-and-localization/address/index
+language: en
 index: true
-redirect_from: /en/globalization-and-localization/address/howto/index
 ---
 
 # Address formats

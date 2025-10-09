@@ -1,11 +1,16 @@
 ---
+uid: superoffice-globalization
 title: SuperOffice.Globalization namespace
-uid: superoffice_globalization 
 description: SuperOffice.Globalization namespace
+keywords: SuperOffice.Globalization
 author: SuperOffice Product and Engineering
-date: 04.08.2018
+date: 10.09.2025
 content_type: reference
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/superoffice-globalization
+language: en
 ---
 
 # SuperOffice.Globalization namespace

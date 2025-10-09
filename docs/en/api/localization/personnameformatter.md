@@ -1,11 +1,16 @@
 ---
+uid: localization-personnameformatter
 title: Person name formatter
-uid: globalization_personnameformatter
 description: Localization, class PersonNameFormatter
+keywords: PersonNameFormatter, NameFormatStylePreference
 author: SuperOffice Product and Engineering
-date: 05.08.2018
+date: 10.09.2025
 content_type: reference
-keywords:
+category: localization
+audience: api
+audience_tooltip: SuperOffice APIs and database
+redirect_from: /en/globalization-and-localization/personnameformatter
+language: en
 ---
 
 # Person name formatter
@@ -44,12 +49,12 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
 
   // format the name of the retrieved person according to the name format 
   // of the country the person belongs to
-  string formatedName1 = PersonNameFormatter.GetFormalName(person);
-  string formatedName2 = PersonNameFormatter.GetFormalName(personRow);
+  string formattedName1 = PersonNameFormatter.GetFormalName(person);
+  string formattedName2 = PersonNameFormatter.GetFormalName(personRow);
 
   // or use the extension method on the person directly
-  string formatedName3 = person.GetFormalName();
-  string formatedName4 = personRow.GetFormalName();
+  string formattedName3 = person.GetFormalName();
+  string formattedName4 = personRow.GetFormalName();
 
   // outputs:
   // Kent Larsen Karlsen
@@ -83,7 +88,7 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   formatPerson = Person.GetFromIdxPersonId(59);
 
   //now lets format the name and see what happens
-  string formatedName = PersonNameFormatter.GetFormalName(formatPerson);
+  string formattedName = PersonNameFormatter.GetFormalName(formatPerson);
 
   // output:
   // Mr Kent Larsen Karlsen\nDr
@@ -114,14 +119,14 @@ using(SoSession session = SoSession.Authenticate("SAL0", ""))
   //retrieve the full name of the person according to the style stored
   //in the user Preference cache if not in the cache will be pulled
   //from the DB
-  string formatedName1 = PersonNameFormatter.GetFullName(person);
-  string formatedName2 = PersonNameFormatter.GetFullName(personRow);
-  string formatedName3 = PersonNameFormatter.GetFullName(person,
+  string formattedName1 = PersonNameFormatter.GetFullName(person);
+  string formattedName2 = PersonNameFormatter.GetFullName(personRow);
+  string formattedName3 = PersonNameFormatter.GetFullName(person,
         PersonNameFormatter.NameFormatStylePreference.LastNameFirstName);
-  string formatedName4 = PersonNameFormatter.GetFullName(personRow,
+  string formattedName4 = PersonNameFormatter.GetFullName(personRow,
         PersonNameFormatter.NameFormatStylePreference.FirstNameOnly);
-  string formatedName5 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen");
-  string formatedName6 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen",
+  string formattedName5 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen");
+  string formattedName6 = PersonNameFormatter.GetFullName("Kent", "Larsen", "Karlsen",
         PersonNameFormatter.NameFormatStylePreference.LastNameOnly);
 
   // outputs:
