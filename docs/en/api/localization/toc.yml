@@ -16,14 +16,8 @@ items:
     href: address/addressformatter.md
   - name: AddressHelper class
     href: address/addresshelper.md
-  - name: API options
-    items:
-    - name: CRMScript
-      topicHref: ../../automation/crmscript/howto/address/index.md
-    - name: Web services
-      topicHref: ../web-services/howto/address/index.md
 - name: Culture
-  href: culture/index.md
+  href: culture/culturedataformatter.md
   items:
   - name: Culture Helper
     href: culture/culturesettinghelper.md
@@ -34,7 +28,7 @@ items:
   - name: Parse values to NetServer format
     href: culture/parse-values.md
 - name: Language
-  href: language/index.md
+  href: language/resource-providers.md
   items:
   - name: Create our own resx file
     href: language/create-resx-file.md
