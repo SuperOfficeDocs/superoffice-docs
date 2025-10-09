@@ -86,7 +86,7 @@ Here you can add translated versions of the document template.
 > Click <i class="ph ph-translate" aria-label="Translate"></i> next to the relevant field to [add translations][1] of the template name and email subject.
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md

@@ -64,6 +64,6 @@ Füllen Sie wie folgt die Felder im Dialogfeld Listenobjekte bearbeiten für das
 [4]: ../../../../en/ui/web-panels/url-encoding.md
 [5]: ../../../automation/crmscript/learn/index.md
 [6]: ../../../../en/ui/soprotocol/index.md
-[7]: ../../../globalization-and-localization/learn/translate-fields.md
+[7]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

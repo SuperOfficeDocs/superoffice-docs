@@ -86,7 +86,7 @@ U kunt een bestaand dashboard dupliceren om het ontwerp of de inhoud opnieuw te 
 * [Een selectie maken][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
 [6]: ../../search-options/selection/learn/create.md

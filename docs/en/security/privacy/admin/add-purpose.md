@@ -57,6 +57,6 @@ Find out how to add and edit purposes for processing personal data, activate def
 * [Privacy - Source][3]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../learn/index.md#legal-basis
 [3]: ../learn/index.md#source

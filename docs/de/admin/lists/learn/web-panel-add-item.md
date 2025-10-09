@@ -93,6 +93,6 @@ language: de
 <!-- Referenced links -->
 [1]: add-items-to-task-menu.md
 [2]: ../../../../en/ui/web-panels/url-encoding.md
-[3]: ../../../globalization-and-localization/learn/translate-fields.md
+[3]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

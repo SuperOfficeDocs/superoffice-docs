@@ -90,7 +90,7 @@ Is the Compare to target not visible at all, make sure that you have selected th
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
-[3]: ../../globalization-and-localization/learn/translate-fields.md
+[3]: ../../localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md
 [5]: create.md
 [6]: working-with-tiles.md

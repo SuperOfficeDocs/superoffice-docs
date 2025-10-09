@@ -233,7 +233,7 @@ Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in the he
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
-[7]: ../../globalization-and-localization/learn/translate-fields.md
+[7]: ../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png

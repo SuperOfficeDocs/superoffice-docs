@@ -120,7 +120,7 @@ In dit voorbeeld worden de volgende sjabloonvariabelen gebruikt:
 [2]: update.md
 [4]: update.md#regen
 [7]: counter-settings.md
-[8]: ../../globalization-and-localization/learn/translate-fields.md
+[8]: ../../localization/learn/translate-fields.md
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->

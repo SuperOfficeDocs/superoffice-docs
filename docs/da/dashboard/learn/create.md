@@ -89,7 +89,7 @@ Du kan duplikere et eksisterende dashboard og genbruge layoutet eller indholdet.
 [1]: working-with-tiles.md#copy
 [2]: working-with-tiles.md
 [3]: update.md
-[5]: ../../globalization-and-localization/learn/translate-fields.md
+[5]: ../../localization/learn/translate-fields.md
 [6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
