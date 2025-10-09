@@ -17,18 +17,6 @@ For å kunne tilby gode kundeopplevelser må du støtte kundene dine på deres e
 
 Ved å [konfigurere ekstra språk][1] gjør du det enkelt for kundene å registrere, kommentere og kontrollere statusen for forespørslene sine på sitt foretrukne språk. I tillegg får de tilgang til alle FAQ-ene på språket de har valgt.
 
-Du kan i utgangspunktet legge til seks forskjellige språk. Hvis språket du vil bruke, ikke er tilgjengelig, kan du kontakte oss, så hjelper konsulentene våre deg med å legge til de ekstra språkene du trenger.
-
-## Kundespråk-bildet
-
-I bildet **Kundespråk** finner du en liste over de installerte kundespråkene. I dette bildet kan du konfigurere kundespråkene og gjøre det enkelt å kommunisere med kunder på forskjellige språk.
-
-For eksempel:
-
-* Du kan ha flere språkversjoner av SuperOffice Customer Center, FAQ-er og svarmaler.
-* Du kan angi et språk for en person, slik at personen automatisk vil motta svarmaler på dette språket.
-* [Saker til brukerstøtte kan kategoriseres][3] i flere grupper som kan henvise til bestemte avdelinger og språk.
-
 ## Slik velger SuperOffice kundespråket for nye personer
 
 Når en ny person sender inn en sak, prøver SuperOffice å finne ut hvilket kundespråk som skal vises for personen.
@@ -66,6 +54,5 @@ Ved installasjon blir det lagt inn 6 kundespråkmapper (DE, DK, EN, NL, NO og SE
 
 <!-- Referenced links -->
 [1]: update.md
-[3]: ../../../../request/admin/category/external-categories.md
 
 <!-- Referenced images -->

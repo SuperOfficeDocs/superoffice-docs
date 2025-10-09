@@ -11,6 +11,16 @@ language: sv
 
 # Skapa och redigera kundspråk
 
+På skärmen **Kundspråk** visas en lista över installerade [kundspråk][2]. På den här sidan kan du konfigurera kundspråken så att det blir enkelt att kommunicera med kunder på olika språk.
+
+Till exempel:
+
+* Du kan ha flera språkversioner av SuperOffice Customer Centre, FAQ och svarsmallar.
+* Du kan ange ett språk för en kontakt så att personen automatiskt får svarsmallar på det språket.
+* [Supportärenden kan delas in][1] i olika grupper för olika avdelningar och språk.
+
+Som standard kan du lägga till 6 olika språk. Om språket du vill använda inte är tillgängligt ber vi dig att kontakta oss så kan våra konsulter hjälpa dig att lägga till de språk du behöver.
+
 ## Så här lägger du till kundspråk
 
 1. [!include[Go to Options](../includes/open-options.md)]

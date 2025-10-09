@@ -17,18 +17,6 @@ Om een geweldige klantervaring te bieden, moet u uw klanten ondersteunen in hun 
 
 Door [extra talen][1] in te stellen, maakt u het uw klanten gemakkelijk om zich te registreren, commentaar te geven op en de status van hun verzoeken te controleren in hun voorkeurstaal. Bovendien hebben ze toegang tot alle veelgestelde vragen in de door hen gekozen taal.
 
-U kunt 6 verschillende talen toevoegen. Als de taal die u wilt gebruiken niet beschikbaar is, neem dan contact met ons op en onze consultants kunnen u helpen de extra talen toe te voegen die u nodig hebt.
-
-## Het scherm Klanttalen
-
-Op het scherm **Klanttalen** vindt u een lijst met de geïnstalleerde klanttalen. Vanuit dit scherm kunt u de taal van de klant configureren, waardoor het gemakkelijk is om met klanten in verschillende talen te communiceren.
-
-Bijvoorbeeld:
-
-* U kunt beschikken over meerdere taalversies van SuperOffice Customer Centre, Veelgestelde vragen en antwoordsjablonen.
-* U kunt een taal opgeven voor een persoon, zodat deze persoon antwoorden automatisch in die taal ontvangt.
-* [Verzoeken om ondersteuning van gebruikers kunnen worden ingedeeld][3] in verschillende groepen die kunnen verwijzen naar bepaalde afdelingen en talen.
-
 ## Hoe SuperOffice de klanttaal voor nieuwe personen selecteert
 
 Wanneer een nieuwe contactpersoon verzoek stuurt, probeert SuperOffice te bepalen welke klanttaal moeten worden weergegeven voor de contactpersoon.
@@ -66,6 +54,5 @@ Bij de installatie werden 6 klanttaalmappen (DE, DK, EN, NL, NO en SE) geplaatst
 
 <!-- Referenced links -->
 [1]: update.md
-[3]: ../../../../request/admin/category/external-categories.md
 
 <!-- Referenced images -->

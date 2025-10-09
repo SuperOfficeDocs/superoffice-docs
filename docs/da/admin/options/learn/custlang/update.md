@@ -11,6 +11,16 @@ language: da
 
 # Sådan oprettes og redigeres kundesprog
 
+I skærmbilledet **Kundesprog** er der en liste over de installerede [kundesprog][2]. Fra dette skærmbillede kan du konfigurere kundesprog, så det bliver nemt at kommunikere med kunder på forskellige sprog.
+
+For eksempel:
+
+* Du kan have forskellige sprogversioner af SuperOffice Customer Centre, FAQ'er og svarskabeloner.
+* Du kan angive et sprog for en person, så personen automatisk modtager svarskabeloner på dette sprog.
+* [Sager til brugersupport kan kategoriseres][1] i flere grupper, som kan henvise til nærmere definerede afdelinger og sprog.
+
+Du kan med det samme tilføje seks forskellige sprog. Hvis det sprog, du ønsker at bruge, ikke er tilgængeligt, bedes du kontakte os. Vores konsulenter kan hjælpe dig med at tilføje de ekstra sprog, du har brug for.
+
 ## Sådan tilføjer du kundesprog
 
 1. [!include[Go to Options](../includes/open-options.md)]

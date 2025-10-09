@@ -11,6 +11,16 @@ language: de
 
 # Wie man Kundensprachen erstellt und bearbeitet
 
+Die Ansicht **Kundensprachen** enthält eine Auflistung aller installierten [Kundensprachen][2]. Von dieser Ansicht aus können Sie die Kundensprachen konfigurieren, sodass Sie einfach in verschiedenen Sprachen mit Kunden kommunizieren können.
+
+Zum Beispiel:
+
+* Sie können SuperOffice Kundenzentrum , FAQs und Antwortvorlagen in verschiedene Sprachversionen nutzen.
+* Sie können eine Sprache für eine Person festlegen, sodass diese Person automatisch Antwortvorlagen in dieser Sprache erhält.
+* [Benutzersupport-Anfragen können in mehrere Gruppen kategorisiert werden][1], die auf definierte Abteilungen und Sprachen verweisen können.
+
+Vorkonfiguriert können Sie 6 verschiedene Sprachen hinzufügen. Wenden Sie sich an uns, wenn die gewünschte Sprache nicht verfügbar ist, damit unsere Berater Ihnen helfen können, die erforderlichen zusätzlichen Sprachen hinzuzufügen.
+
 ## So fügen Sie Kundensprachen hinzu
 
 1. [!include[Go to Options](../includes/open-options.md)]

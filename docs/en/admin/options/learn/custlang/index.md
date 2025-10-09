@@ -66,6 +66,5 @@ On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were pl
 
 <!-- Referenced links -->
 [1]: update.md
-[3]: ../../../../request/admin/category/external-categories.md
 
 <!-- Referenced images -->

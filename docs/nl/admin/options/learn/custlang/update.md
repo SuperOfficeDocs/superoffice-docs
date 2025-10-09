@@ -11,6 +11,16 @@ language: nl
 
 # Klanttalen maken en bewerken
 
+Op het scherm **Klanttalen** vindt u een lijst met de geïnstalleerde [klanttalen][2]. Vanuit dit scherm kunt u de taal van de klant configureren, waardoor het gemakkelijk is om met klanten in verschillende talen te communiceren.
+
+Bijvoorbeeld:
+
+* U kunt beschikken over meerdere taalversies van SuperOffice Customer Centre, Veelgestelde vragen en antwoordsjablonen.
+* U kunt een taal opgeven voor een persoon, zodat deze persoon antwoorden automatisch in die taal ontvangt.
+* [Verzoeken om ondersteuning van gebruikers kunnen worden ingedeeld][1] in verschillende groepen die kunnen verwijzen naar bepaalde afdelingen en talen.
+
+U kunt 6 verschillende talen toevoegen. Als de taal die u wilt gebruiken niet beschikbaar is, neem dan contact met ons op en onze consultants kunnen u helpen de extra talen toe te voegen die u nodig hebt.
+
 ## Klanttalen toevoegen
 
 1. [!include[Go to Options](../includes/open-options.md)]

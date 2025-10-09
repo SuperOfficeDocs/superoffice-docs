@@ -11,9 +11,19 @@ language: en
 
 # How to create and edit customer languages
 
-## How to add customer languages
+In the **Customer languages** screen is a list of the installed [customer languages][2]. From this screen you can configure the customer languages, making it easy to communicate with customers in different languages.
 
-1. [!include[Go to Options](../includes/open-options.md)]
+For example:
+
+* You can have multiple language versions of SuperOffice Customer Centre, FAQs, and reply templates.
+* You can specify a language for a contact, so that person will automatically receive reply templates in that language.
+* [Requests to user support can be categorized][1] in several groups that can refer to defined departments and languages.
+
+Out of the box you can add 6 different languages. If the language you wish to use isn't available, please contact us and our consultants will be able to help you add the additional languages you need.
+
+## How to add a customer language
+
+1. Go to Settings and maintenance and select <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Options**.
 
 2. Select the **Customer languages** tab.
 
