@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Byta språkversion
+# Ändra aktivt språk
 
 Så här använder du SuperOffice på ett annat språk:
 

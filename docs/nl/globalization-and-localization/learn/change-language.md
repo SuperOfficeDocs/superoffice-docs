@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# De taalversie wijzigen
+# Actieve taal wijzigen
 
 Om SuperOffice in een andere taal te gebruiken:
 

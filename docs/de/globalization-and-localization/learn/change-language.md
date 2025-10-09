@@ -15,7 +15,7 @@ audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Sprachversion ändern
+# Aktive Sprache ändern
 
 Die Verwendung von SuperOffice in anderen Sprachen:
 
