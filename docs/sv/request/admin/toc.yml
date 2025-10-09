@@ -19,6 +19,8 @@ items:
     href: category/create.md
   - name: Ta bort ärendekategori
     href: category/delete.md
+  - name: Arbeta med externa kategorier
+    href: category/external-categories.md
 - name: Prioriteter
   topicHref: priority/index.md
   items:

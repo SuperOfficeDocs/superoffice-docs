@@ -19,6 +19,8 @@ items:
     href: category/create.md
   - name: Slett sakskategori
     href: category/delete.md
+  - name: Arbeide med eksterne kategorier
+    href: category/external-categories.md
 - name: Prioriteter
   topicHref: priority/index.md
   items:
