@@ -75,6 +75,10 @@ items:
     href: ../admin/learn/toc.yml
     topicHref: ../admin/index.yml
 
+  - name: Språk, översättning och tidszoner
+    href: ../localization/learn/toc.yml
+    topicHref: ../localization/learn/translate-fields.md
+
   - name: AI-tjänster
     href: ../ai/learn/toc.yml
     topicHref: ../ai/learn/index.md

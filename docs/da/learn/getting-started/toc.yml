@@ -13,3 +13,5 @@ items:
   topicHref: connect-email-doc/index.md
 - name: Rediger e-mailsignatur
   href: edit-email-signature.md
+- name: Skift aktivt sprog
+  href: change-language.md

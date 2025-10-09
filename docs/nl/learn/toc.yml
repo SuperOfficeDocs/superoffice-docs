@@ -75,6 +75,10 @@ items:
     href: ../admin/learn/toc.yml
     topicHref: ../admin/index.yml
 
+  - name: Taal, vertaling en tijdzones
+    href: ../localization/learn/toc.yml
+    topicHref: ../localization/learn/translate-fields.md
+
   - name: AI-diensten
     href: ../ai/learn/toc.yml
     topicHref: ../ai/learn/index.md

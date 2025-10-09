@@ -26,9 +26,6 @@ items:
     href: activity.md
   - name: Company and contact relations
     href: relations.md
-  - name: Language and translation
-    href: ../../globalization-and-localization/learn/toc.yml
-    topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: External applications and URL addresses
     href: external-applications-and-url-addresses.md
   - name: Create/copy shortcut

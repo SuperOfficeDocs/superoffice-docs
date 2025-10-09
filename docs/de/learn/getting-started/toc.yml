@@ -13,3 +13,5 @@ items:
   topicHref: connect-email-doc/index.md
 - name: E-Mail-Signatur bearbeiten
   href: edit-email-signature.md
+- name: Aktive Sprache ändern
+  href: change-language.md
