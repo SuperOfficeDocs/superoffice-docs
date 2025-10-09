@@ -183,7 +183,7 @@ Explore the options and select the most appropriate method for your application.
 
 [29]: ../../api/caching/category-cache.md
 
-[30]: ../../globalization-and-localization/address/index.md
+[30]: ../../api/localization/address/index.md
 [31]: ../../automation/crmscript/overview/index.md
 [32]: ../../automation/crmscript/howto/company/index.md
 [33]: ../../contact/dev/index.md#associate

@@ -161,7 +161,7 @@ Without the link record, the picture will not appear.
 [3]: ../../project/index.yml
 [4]: ../../sale/index.yml
 [5]: ../../company/index.yml
-[6]: ../../globalization-and-localization/address/index.md
+[6]: ../../api/localization/address/index.md
 
 [10]: ../../automation/crmscript/howto/contact/index.md
 [11]: ../../database/getting-started/main-tables.md

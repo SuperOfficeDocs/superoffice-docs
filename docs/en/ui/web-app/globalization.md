@@ -42,8 +42,8 @@ The following namespaces help us in working with different aspects of globalizat
 * [SuperOffice.CRM.Globalization][3] - helper classes for formatting different types of data to localized standards
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/language/resource-providers.md
-[2]: ../../globalization-and-localization/superoffice-globalization.md
-[3]: ../../globalization-and-localization/superoffice-crm-globalization.md
+[1]: ../../api/localization/language/resource-providers.md
+[2]: ../../api/localization/superoffice-globalization.md
+[3]: ../../api/localization/superoffice-crm-globalization.md
 
 <!-- Referenced images -->
