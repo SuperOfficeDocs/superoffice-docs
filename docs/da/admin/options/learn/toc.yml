@@ -41,8 +41,3 @@ items:
     href: labels/change.md
   - name: Nulstil etiketter
     href: labels/reset.md
-- name: Kundesprog
-  topicHref: custlang/index.md
-  items:
-  - name: Oversigt
-    href: custlang/index.md

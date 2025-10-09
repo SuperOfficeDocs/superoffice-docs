@@ -41,8 +41,3 @@ items:
     href: labels/change.md
   - name: Återställa ledtexter
     href: labels/reset.md
-- name: Kundspråk
-  topicHref: custlang/index.md
-  items:
-  - name: Översikt
-    href: custlang/index.md

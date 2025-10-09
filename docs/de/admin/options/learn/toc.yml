@@ -41,8 +41,3 @@ items:
     href: labels/change.md
   - name: Bezeichnungen zurücksetzen
     href: labels/reset.md
-- name: Kundensprachen
-  topicHref: custlang/index.md
-  items:
-  - name: Überblick
-    href: custlang/index.md

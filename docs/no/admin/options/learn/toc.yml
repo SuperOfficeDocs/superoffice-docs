@@ -41,8 +41,3 @@ items:
     href: labels/change.md
   - name: Tilbakestille ledetekster
     href: labels/reset.md
-- name: Kundespråk
-  topicHref: custlang/index.md
-  items:
-  - name: Oversikt
-    href: custlang/index.md

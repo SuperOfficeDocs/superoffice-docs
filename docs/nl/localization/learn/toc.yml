@@ -5,5 +5,10 @@ items:
   href: translate-fields.md
 - name: Tijdzones
   href: time-zones.md
-- name: Klanttalen maken en bewerken
-  href: ../admin/add-customer-language.md
+- name: Klanttalen
+  href: customer-languages.md
+- name: Voor beheerders
+  topicHref: ../admin/add-customer-language.md
+  items:
+  - name: Klanttalen maken en bewerken
+    href: ../admin/add-customer-language.md

@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/no/admin/options/learn/custlang/index.html
+redirect_url: https://docs.superoffice.com/no/localization/learn/customer-languages.html
 ---

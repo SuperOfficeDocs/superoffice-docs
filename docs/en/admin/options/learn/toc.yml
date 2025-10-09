@@ -41,8 +41,3 @@ items:
     href: labels/change.md
   - name: Reset labels
     href: labels/reset.md
-- name: Customer languages
-  topicHref: custlang/index.md
-  items:
-  - name: Overview
-    href: custlang/index.md

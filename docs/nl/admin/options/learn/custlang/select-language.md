@@ -1,5 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/nl/admin/options/learn/custlang/index.html
+redirect_url: https://docs.superoffice.com/nl/localization/learn/customer-languages.html
 ---
-
-
