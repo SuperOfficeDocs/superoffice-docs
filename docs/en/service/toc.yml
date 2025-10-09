@@ -38,23 +38,6 @@ items:
       href: config/update-attachment-location.md
     - name: Split attachment location
       href: config/split-attachment-location.md
-  - name: SMS
-    href: sms/index.md
-    items:
-    - name: CM
-      href: sms/cm.md
-    - name: Compaya
-      href: sms/compaya.md
-    - name: Intelecom
-      href: sms/intelecom.md
-    - name: Link Mobility
-      href: sms/linkmobility.md
-    - name: SMSTeknik
-      href: sms/smsteknik.md
-    - name: Twilio
-      href: sms/twilio.md
-    - name: TxtLocal
-      href: sms/txtlocal.md
   - name: Customer center
     href: ../customer-center/toc.yml
     topicHref: ../customer-center/index.yml
