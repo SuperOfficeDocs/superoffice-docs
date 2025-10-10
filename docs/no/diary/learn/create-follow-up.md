@@ -137,7 +137,7 @@ Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til
 [5]: invitation/add-attendee.md
 [7]: ../../learn/basics/activity.md
 [8]: ../../learn/getting-started/preferences.md
-[9]: ../../globalization-and-localization/learn/time-zones.md
+[9]: ../../localization/learn/time-zones.md
 
 <!-- Referenced images -->
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png

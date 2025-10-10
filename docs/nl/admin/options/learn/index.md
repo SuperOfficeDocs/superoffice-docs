@@ -29,7 +29,7 @@ In het scherm **Opties** definieert u instellingen die gelden voor het hele syst
 
 <!-- Referenced links -->
 [1]: freetext-search/index.md
-[2]: time-zones/index.md
+[2]: ../../../localization/learn/time-zones.md
 [3]: number-allocation/index.md
 [4]: labels/index.md
 [6]: ../../../localization/learn/customer-languages.md

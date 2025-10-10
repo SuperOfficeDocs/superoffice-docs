@@ -29,7 +29,7 @@ I fönstret **Systemval** anger du inställningar som gäller för hela systemet
 
 <!-- Referenced links -->
 [1]: freetext-search/index.md
-[2]: time-zones/index.md
+[2]: ../../../localization/learn/time-zones.md
 [3]: number-allocation/index.md
 [4]: labels/index.md
 [6]: ../../../localization/learn/customer-languages.md

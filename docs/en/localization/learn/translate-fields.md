@@ -36,4 +36,4 @@ The **Translate** icon (<i class="ph ph-translate" aria-hidden="true"></i>) next
 [Change the language settings][1] under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** and check that your translation shows for the relevant languages.
 
 <!-- Referenced links -->
-[1]: change-language.md
+[1]: ../../learn/getting-started/change-language.md

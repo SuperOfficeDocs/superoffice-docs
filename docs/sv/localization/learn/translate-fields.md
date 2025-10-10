@@ -36,4 +36,4 @@ Ikonen **Översätt** (<i class="ph ph-translate" aria-hidden="true"></i>) bredv
 [Byt språkinställningar][1] under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** och kontrollera att översättningen visas för de berörda språken.
 
 <!-- Referenced links -->
-[1]: change-language.md
+[1]: ../../learn/getting-started/change-language.md

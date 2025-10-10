@@ -36,4 +36,4 @@ Das Symbol **Übersetzen** (<i class="ph ph-translate" aria-hidden="true"></i>) 
 [Ändern Sie die Spracheinstellungen][1] unter <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** und prüfen Sie, ob die Übersetzungen in die jeweiligen Sprachen angezeigt werden.
 
 <!-- Referenced links -->
-[1]: change-language.md
+[1]: ../../learn/getting-started/change-language.md

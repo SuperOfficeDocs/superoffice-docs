@@ -36,4 +36,4 @@ Het pictogram **Vertalen** (<i class="ph ph-translate" aria-hidden="true"></i>) 
 [Wijzig de taalinstellingen][1] onder <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** en controleer of uw vertaling in de relevante taal (talen) wordt weergegeven.
 
 <!-- Referenced links -->
-[1]: change-language.md
+[1]: ../../learn/getting-started/change-language.md

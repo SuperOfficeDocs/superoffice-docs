@@ -221,7 +221,7 @@ Sie können den Kalender individuell an Ihren Arbeitsstil anpassen:
 [15]: ../../learn/basics/links.md
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
-[20]: ../../globalization-and-localization/learn/time-zones.md
+[20]: ../../localization/learn/time-zones.md
 [50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->
