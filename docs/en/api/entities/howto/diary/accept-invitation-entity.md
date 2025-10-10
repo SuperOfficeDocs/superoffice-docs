@@ -103,7 +103,7 @@ Finally, we have used the [AppointmentMatrix][3] to accept the invitation we ret
 * [Invitations][2]
 
 <!-- Referenced links -->
-[1]: ../../../../globalization-and-localization/culture/culturedataformatter.md
+[1]: ../../../localization/culture/culturedataformatter.md
 [2]: ../../../../diary/learn/invitation/index.md
 [5]: ../../../../database/tables/appointment.md
 [3]: appointment-matrix.md

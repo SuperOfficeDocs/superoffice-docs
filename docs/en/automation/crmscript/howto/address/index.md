@@ -103,6 +103,6 @@ NSContactEntity SetContactAddresses(NSContactEntity contact, Map addresses)
 <!-- Referenced links -->
 [1]: get-address.md
 [2]: set-address.md
-[3]: ../../../../globalization-and-localization/address/addresshelper.md
+[3]: ../../../../api/localization/address/addresshelper.md
 
 <!-- Referenced images -->
