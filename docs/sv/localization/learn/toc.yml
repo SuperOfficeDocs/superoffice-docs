@@ -1,16 +1,16 @@
 items:
+- name: Kundspråk
+  href: customer-languages.md
 - name: Översättning av innehåll
   href: translate-fields.md
 - name: Tidszoner
   href: time-zones.md
-- name: Kundspråk
-  href: customer-languages.md
 - name: För administratörer
-  topicHref: ../admin/add-customer-language.md
+  topicHref: ../admin/enable-time-zones.md
   items:
-  - name: Skapa och redigera kundspråk
-    href: ../admin/add-customer-language.md
   - name: Aktivera användning av tidszoner
     href: ../admin/enable-time-zones.md
   - name: Välja vilka tidszoner som ska visas
     href: ../admin/select-time-zones.md
+  - name: Skapa och redigera kundspråk
+    href: ../admin/add-customer-language.md
