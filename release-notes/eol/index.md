@@ -4,8 +4,8 @@ title: End-of-life notifications
 description: This section provides crucial notifications and information about products reaching their end-of-life stage. Stay informed about the status of services, features, and products as they transition or are phased out.
 keywords: end-of-life, EOL, phased out, discontinued, deprecated, legacy
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3
+date: 10.16.2025
+version: 11.5
 content_type: release-note
 language: en
 ---
@@ -33,6 +33,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 | Product/Feature | EOL status | Timeline or date for discontinuation | Relevant details |
 |---|---|---|---|
 | [SOAP proxy client and web service endpoints][13] | Phase-out initiated | Version 12 | Switch to [SuperOffice.WebApi][23] (REST). |
+| Exchange Online Synchronizer (onsite) | Phase-out initiated | Version 3.x | Switch to [Synchronizer for SuperOffice][6] (REST). |
 
 ## Archived end-of-life notices
 
@@ -55,6 +56,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [3]: https://community.superoffice.com/en/about/contact-us/
 [4]: https://community.superoffice.com/en/support-faqs/
 [5]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/-have-you-created-web-customizations-breaking-changes-ahead/
+[6]: https://appstore.superoffice.com/superoffice-as/synchronizer-for-superoffice
 [11]: lotus.md
 [12]: pagebuilder.md
 [13]: soap.md
