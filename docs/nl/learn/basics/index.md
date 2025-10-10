@@ -114,7 +114,7 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [10]: ../../diary/learn/invitation/add-attendee.md
 [11]: ../../../../integrations/video-meetings/index.md
 [12]: activity.md
-[13]: ../../../getting-started/change-language.md
+[13]: ../getting-started/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md
 [16]: duplicates.md
