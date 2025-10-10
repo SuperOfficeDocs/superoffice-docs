@@ -10,3 +10,7 @@ items:
   items:
   - name: Opret og rediger kundesprog
     href: ../admin/add-customer-language.md
+  - name: Aktivering af brugen af tidszoner
+    href: ../admin/enable-time-zones.md
+  - name: Vælg, hvilke tidszoner der skal vises
+    href: ../admin/select-time-zones.md

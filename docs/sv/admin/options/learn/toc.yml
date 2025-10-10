@@ -14,15 +14,6 @@ items:
     href: freetext-search/stopwords.md
   - name: Återskapa fritextindex
     href: freetext-search/regenerate-index.md
-- name: Tidszoner
-  topicHref: time-zones/index.md
-  items:
-  - name: Översikt
-    href: time-zones/index.md
-  - name: Aktivera användning av tidszoner
-    href: time-zones/enable.md
-  - name: Välja vilka tidszoner som ska visas
-    href: time-zones/select.md
 - name: Nummertilldelning
   topicHref: number-allocation/index.md
   items:

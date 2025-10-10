@@ -10,3 +10,7 @@ items:
   items:
   - name: Kundensprachen erstellen und bearbeiten
     href: ../admin/add-customer-language.md
+  - name: Verwendung von Zeitzonen aktivieren
+    href: ../admin/enable-time-zones.md
+  - name: Zeitzonen bearbeiten
+    href: ../admin/select-time-zones.md

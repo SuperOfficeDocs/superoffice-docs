@@ -10,3 +10,7 @@ items:
   items:
   - name: Create and edit customer languages
     href: ../admin/add-customer-language.md
+  - name: Enable use of time zones
+    href: ../admin/enable-time-zones.md
+  - name: Select which time zones to show
+    href: ../admin/select-time-zones.md

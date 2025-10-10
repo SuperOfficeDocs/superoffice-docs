@@ -14,15 +14,6 @@ items:
     href: freetext-search/stopwords.md
   - name: Volltextsuche neu generieren
     href: freetext-search/regenerate-index.md
-- name: Zeitzonen
-  topicHref: time-zones/index.md
-  items:
-  - name: Überblick
-    href: time-zones/index.md
-  - name: Verwendung von Zeitzonen aktivieren
-    href: time-zones/enable.md
-  - name: "Wählen Sie aus, welche Zeitzonen angezeigt werden sollen"
-    href: time-zones/select.md
 - name: Nummernzuweisung
   topicHref: number-allocation/index.md
   items:

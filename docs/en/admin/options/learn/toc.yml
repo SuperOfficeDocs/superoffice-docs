@@ -14,15 +14,6 @@ items:
     href: freetext-search/stopwords.md
   - name: Regenerate freetext index
     href: freetext-search/regenerate-index.md
-- name: Timezones
-  topicHref: time-zones/index.md
-  items:
-  - name: Overview
-    href: time-zones/index.md
-  - name: Enable use of time zones
-    href: time-zones/enable.md
-  - name: Select which time zones to show
-    href: time-zones/select.md
 - name: Number allocation
   topicHref: number-allocation/index.md
   items:

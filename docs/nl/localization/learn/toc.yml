@@ -10,3 +10,7 @@ items:
   items:
   - name: Klanttalen maken en bewerken
     href: ../admin/add-customer-language.md
+  - name: Gebruik van tijdzones inschakelen
+    href: ../admin/enable-time-zones.md
+  - name: Selecteer welke tijdzones u wilt weergeven
+    href: ../admin/select-time-zones.md
