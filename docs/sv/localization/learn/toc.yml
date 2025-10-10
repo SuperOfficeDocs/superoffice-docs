@@ -1,6 +1,4 @@
 items:
-- name: Ändra aktivt språk
-  href: change-language.md
 - name: Översättning av innehåll
   href: translate-fields.md
 - name: Tidszoner

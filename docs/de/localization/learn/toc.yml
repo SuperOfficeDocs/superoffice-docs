@@ -1,6 +1,4 @@
 items:
-- name: Aktive Sprache ändern
-  href: change-language.md
 - name: Übersetzung von Inhalten
   href: translate-fields.md
 - name: Zeitzonen
