@@ -69,11 +69,6 @@ items:
       href: resource.md
     - name: Bron toevoegen
       href: adding-items-to-resource-list.md
-    - name: GUI-webpaneel
-      href: web-panel.md
-      items:
-      - name: Webpaneel toevoegen
-        href: web-panel-add-item.md
     - name: Taakmenu
       href: add-items-to-task-menu.md
     - name: GUI-toepassingslijst

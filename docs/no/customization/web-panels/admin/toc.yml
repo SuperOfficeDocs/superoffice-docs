@@ -1,5 +1,5 @@
 items:
-- name: Introduction
+- name: Introduksjon
   href: index.md
-- name: Add web panel
+- name: Legg til webpanel
   href: add-web-panel.md

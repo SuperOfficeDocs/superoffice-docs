@@ -58,7 +58,7 @@ Sådan udfyldes felterne i dialogboksen Rediger forekomster for menuen Opgave:
 * [Tilføjelse af en oversættelse][7]
 
 <!-- Referenced links -->
-[1]: web-panel-add-item.md
+[1]: ../../../customization/web-panels/admin/add-web-panel.md
 [2]: adding-items.md
 [3]: specialized-lists.md
 [4]: ../../../../en/ui/web-panels/url-encoding.md

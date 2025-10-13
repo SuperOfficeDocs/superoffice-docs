@@ -1,0 +1,5 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Web-Bildschirm hinzufügen
+  href: add-web-panel.md

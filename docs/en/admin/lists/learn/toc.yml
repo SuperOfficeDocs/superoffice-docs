@@ -69,11 +69,7 @@ items:
       href: resource.md
     - name: Add resource
       href: adding-items-to-resource-list.md
-    - name: GUI web panel
-      href: web-panel.md
-      items:
-      - name: Add web panel
-        href: web-panel-add-item.md
+
     - name: Task menu
       href: add-items-to-task-menu.md
     - name: GUI application list

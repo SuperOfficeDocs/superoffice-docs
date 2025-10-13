@@ -69,11 +69,6 @@ items:
       href: resource.md
     - name: Lägga till resurs
       href: adding-items-to-resource-list.md
-    - name: GUI - webbpanel
-      href: web-panel.md
-      items:
-      - name: Lägga till webbpanel
-        href: web-panel-add-item.md
     - name: Uppgiftsmeny
       href: add-items-to-task-menu.md
     - name: Lista över GUI-applikationer

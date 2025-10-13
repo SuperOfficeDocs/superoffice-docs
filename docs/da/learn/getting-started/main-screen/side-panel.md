@@ -134,7 +134,7 @@ Administratorer kan [definere tilpassede visninger][7] for sidepanelet i **Indst
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../admin/lists/learn/web-panel-add-item.md
+[7]: ../../../customization/web-panels/admin/add-web-panel.md
 [8]: ../../basics/fav.md
 [9]: ../../../email/learn/index.md#preview
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/

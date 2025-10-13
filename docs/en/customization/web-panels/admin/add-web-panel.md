@@ -1,19 +1,26 @@
 ---
 uid: help-en-adding-items-to-web-panel-list
-title: Adding items to the web panel list
-description: Adding items to the web panel list
-author: SuperOffice RnD
-date: 01.20.2023
-keywords: list, web panel
-content_type: howto
+title: Add web panel
+description: How to add items to the web panel list in Settings and maintenance.
+keywords: web panel, list
+author: digitaldiina
+date: 10.13.2025
+version: 11.5
 audience: settings
 audience_tooltip: Settings and maintenance
+category: customization
+topic: web panel
+content_type: howto
 language: en
+index: true
+redirect_from: /en/admin/lists/learn/web-panel-add-item
 ---
 
-# Add items to the GUI - Web panel list
+# Add web panel
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
+
+Web panels are defined in the **GUI - Web panel** list, which you can manage in **Settings and maintenance** under **Lists**.
 
 ## Steps
 
@@ -60,7 +67,7 @@ language: en
 
 1. Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
 
-1. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. Click **Save** to save the changes or **Cancel** to reject them.
 
 > [!TIP]
 > If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via an URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
@@ -89,15 +96,15 @@ language: en
 
 ## Is SuperOffice CRM for Web installed on an HTTPS site?
 
-[!include[HTTPS restriction](includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
-## Related topics
+## Related content
 
 * [Add a task menu item][1]
 * [Add a translation][3]
 
 <!-- Referenced links -->
-[1]: add-items-to-task-menu.md
+[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: ../../../../en/ui/web-panels/url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 
