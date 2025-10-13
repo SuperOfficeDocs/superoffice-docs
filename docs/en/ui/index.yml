@@ -104,10 +104,6 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         text: Create link to
-      - url: web-panels/detect-superoffice.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Detect running inside SuperOffice
     # Card
     - title: SOProtocol
       summary: ""
