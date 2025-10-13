@@ -105,7 +105,7 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
-[2]: ../../../../en/ui/web-panels/url-encoding.md
+[2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

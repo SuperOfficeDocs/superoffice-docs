@@ -105,7 +105,7 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
-[2]: ../../../../en/ui/web-panels/url-encoding.md
+[2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

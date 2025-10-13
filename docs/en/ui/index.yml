@@ -92,7 +92,7 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         text: Add a web panel
-      - url: web-panels/url-encoding.md
+      - url: ../customization/web-panels/admin/url-encoding.md
         itemType: list
         typeDesc: how-to-guide
         text: URL encoding

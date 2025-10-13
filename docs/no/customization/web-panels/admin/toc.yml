@@ -3,3 +3,5 @@ items:
   href: index.md
 - name: Legg til webpanel
   href: add-web-panel.md
+- name: Url-koding
+  href: url-encoding.md
