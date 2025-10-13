@@ -53,6 +53,6 @@ You can read and comment on the [original post][1] in the SuperOffice technical 
 [4]: ../../docs/en/api/web-services/endpoints/soap/index.md
 [5]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
-[7]: ../../docs/en/service/soap/ports/customer/index.md
-[8]: ../../docs/en/service/soap/ports/admin/index.md
-[9]: ../../docs/en/service/soap/ports/ticket/index.md
+[7]: ../../docs/en/api/reference/soap/customer-service/ports/customer/index.md
+[8]: ../../docs/en/api/reference/soap/customer-service/ports/admin/index.md
+[9]: ../../docs/en/api/reference/soap/customer-service/ports/ticket/index.md

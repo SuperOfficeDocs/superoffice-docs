@@ -1,0 +1,52 @@
+---
+uid: cs-soap-ports-ticket-getusernotifications
+title: getUserNotifications
+description: Services SOAP interface ticket reference getUserNotifications
+keywords: ticket port, getUserNotifications method
+author: SuperOffice Product and Engineering
+date: 01.25.2021
+content_type: reference
+category: Service
+topic: legacy SOAP interface
+language: en
+redirect_from: /en/service/soap/ports/ticket/getusernotifications
+---
+
+# getUserNotifications
+
+## Description
+
+Will retrieve all notifications to the current user that has been generated since the last call to this method, from this or any other client application.
+
+## In parameters
+
+| Parameter | Description |
+|---|---|
+| sessionKey | A valid session key |
+| notificationKey | A subscription key retrieved by the `allocUserNotification()` method |
+
+## Out parameters
+
+| Parameter | Description |
+|---|---|
+| errorCode | [See list of codes][1] |
+| userNotifications | All notifications with the following fields:<br />type (of notification<br />createdBy (the ID of the user that generated this notification)<br />ticketId (the ticketId associated with this notification if any)<br />message (the text message) |
+
+## Example
+
+```csharp
+ticket.ticketService ticketService = new ticket.ticketService();
+string sessionKey;
+string errorCode = ticketService.login("egon", "norges bank", out sessionKey);
+
+if (errorCode.Equals("0"))
+{
+  string notifyKey;
+  allocUserNotifications(sessionKey, "MyClient",out notifyKey);
+  ticket.NotificationStruct[] notifications;
+  getUserNotfications(sessionKey, notifyKey, out notifications);
+}
+```
+
+<!-- Referenced links -->
+[1]: ../../error-codes.md

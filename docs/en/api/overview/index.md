@@ -53,7 +53,7 @@ SuperOffice will continue to invest in research and development to deliver equiv
 
 ## Platforms (SuperOffice clients)
 
-[SuperOffice Service][4] (CS) supports scripting automation and extensive UI customizations and accounts for the majority of integrations.
+SuperOffice Service (CS) supports scripting automation and extensive UI customizations and accounts for the majority of integrations.
 
 SuperOffice CRM is available as the [Online Web client][7], the [Onsite Web client][6], and the [Windows client][5], each of which has its own extensibility characteristics.
 
@@ -150,7 +150,6 @@ Read more about each platform API in the SDK documentation.
 [1]: https://community.superoffice.com/en/technical/forums/api-forums/
 [2]: mailto:sdk@superoffice.com
 [3]: ../../automation/crmscript/overview/index.md
-[4]: ../../service/integrate/index.md
 [5]: ../../onsite/integrate/win-client/index.md
 [6]: ../../onsite/integrate/web-client/index.md
 [7]: ../../online/integrate/index.md
