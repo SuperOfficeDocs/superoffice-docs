@@ -41,7 +41,5 @@ items:
   - name: Customer center
     href: ../customer-center/toc.yml
     topicHref: ../customer-center/index.yml
-  - name: Integrate with Service
-    href: integrate/index.md
   - name: API options
     href: soap/toc.yml
