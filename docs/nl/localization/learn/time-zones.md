@@ -11,7 +11,10 @@ category: localization
 topic: time zone
 audience: person
 audience_tooltip: SuperOffice CRM
-redirect_from: /nl/globalization-and-localization/learn/time-zones
+redirect_from: 
+  - /nl/globalization-and-localization/learn/time-zones
+  - /nl/localization/learn/index
+  - /nl/localization/index
 language: nl
 ---
 

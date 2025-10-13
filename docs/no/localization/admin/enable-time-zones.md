@@ -11,7 +11,9 @@ category: localization
 topic: time zone
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /no/admin/options/learn/time-zones/enable
+redirect_from: 
+  - /no/admin/options/learn/time-zones/enable
+  - /no/localization/learn/index
 language: no
 index: true
 ---
