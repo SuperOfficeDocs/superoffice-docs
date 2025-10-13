@@ -41,5 +41,3 @@ items:
   - name: Customer center
     href: ../customer-center/toc.yml
     topicHref: ../customer-center/index.yml
-  - name: API options
-    href: soap/toc.yml

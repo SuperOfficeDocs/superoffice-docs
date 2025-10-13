@@ -261,7 +261,7 @@ additionalContent:
       # Card
       - title: "Customer Service SOAP API"
         summary: API reference documentation for Service SOAP endpoints
-        url: ../service/soap/overview.md
+        url: reference/soap/customer-service/index.md
       # Card
       - title: "Web Application API"
         summary: API reference documentation for Web Application

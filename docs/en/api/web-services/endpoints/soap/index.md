@@ -171,7 +171,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [3]: ../../../reference/soap/Services86/index.md
 [4]: ../../../reference/soap/Services85/index.md
 [5]: ../../../reference/soap/Services84/index.md
-[6]: ../../../../service/soap/overview.md
+[6]: ../../../reference/soap/customer-service/index.md
 [7]: ../../proxies/index.md#soap-client-proxy
 [8]: ../../../reference/soap/index.md
 [9]: https://www.nuget.org/packages/SuperOffice.NetServer.Services

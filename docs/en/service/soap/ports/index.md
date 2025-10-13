@@ -1,5 +1,3 @@
-# API reference
-
-* admin port
-* customer port
-* ticket port
+---
+redirect_url: https://docs.superoffice.com/en/api/reference/soap/customer-service/ports/index.html
+---
