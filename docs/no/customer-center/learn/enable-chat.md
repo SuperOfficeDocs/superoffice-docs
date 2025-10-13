@@ -41,7 +41,7 @@ Du må [konfigurere chatwidgeten][3] før den kan legges til i kundesenteret.
 * [Kundespråk][1]
 
 <!-- Referenced links -->
-[1]: ../../admin/options/learn/custlang/index.md
+[1]: ../../localization/learn/customer-languages.md
 [3]: ../../chat/admin/channel-create.md
 [2]: config.md
 

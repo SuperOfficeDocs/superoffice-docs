@@ -26,9 +26,6 @@ items:
     href: activity.md
   - name: Bedrijfs- en persoonsrelaties
     href: relations.md
-  - name: Taal en vertaling
-    href: ../../globalization-and-localization/learn/toc.yml
-    topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Externe toepassingen en URL-adressen
     href: external-applications-and-url-addresses.md
   - name: Snelkoppeling maken/kopiëren

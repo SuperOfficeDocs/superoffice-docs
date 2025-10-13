@@ -14,15 +14,6 @@ items:
     href: freetext-search/stopwords.md
   - name: Gendan fritekstindeks
     href: freetext-search/regenerate-index.md
-- name: Tidszoner
-  topicHref: time-zones/index.md
-  items:
-  - name: Oversigt
-    href: time-zones/index.md
-  - name: Aktivér brug af tidszoner
-    href: time-zones/enable.md
-  - name: "Vælg, hvilke tidszoner der skal vises"
-    href: time-zones/select.md
 - name: Nummertildeling
   topicHref: number-allocation/index.md
   items:
@@ -41,14 +32,3 @@ items:
     href: labels/change.md
   - name: Nulstil etiketter
     href: labels/reset.md
-- name: Kundesprog
-  topicHref: custlang/index.md
-  items:
-  - name: Oversigt
-    href: custlang/index.md
-  - name: Opret og rediger kundesprog
-    href: custlang/update.md
-  - name: Arbejd med eksterne kategorier
-    href: custlang/external-categories.md
-  - name: Vælg kundesprog
-    href: custlang/select-language.md

@@ -127,4 +127,4 @@ U kunt de mate van correlatie tussen het verzoek van de klant en de items in Vee
 [4]: ../../../request/learn/reply.md
 [5]: new-language.md
 [6]: edit.md
-[7]: ../../../admin/options/learn/custlang/index.md
+[7]: ../../../localization/learn/customer-languages.md

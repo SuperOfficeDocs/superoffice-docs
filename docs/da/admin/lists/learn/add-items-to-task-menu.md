@@ -64,6 +64,6 @@ Sådan udfyldes felterne i dialogboksen Rediger forekomster for menuen Opgave:
 [4]: ../../../../en/ui/web-panels/url-encoding.md
 [5]: ../../../automation/crmscript/learn/index.md
 [6]: ../../../../en/customization/soprotocol/index.md
-[7]: ../../../globalization-and-localization/learn/translate-fields.md
+[7]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->

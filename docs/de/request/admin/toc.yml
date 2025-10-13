@@ -19,6 +19,8 @@ items:
     href: category/create.md
   - name: Anfragekategorie löschen
     href: category/delete.md
+  - name: Mit externen Kategorien arbeiten
+    href: category/external-categories.md
 - name: Prioritäten
   topicHref: priority/index.md
   items:

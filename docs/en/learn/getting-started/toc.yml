@@ -13,3 +13,5 @@ items:
   topicHref: connect-email-doc/index.md
 - name: Edit email signature
   href: edit-email-signature.md
+- name: Change active language
+  href: change-language.md

@@ -19,6 +19,8 @@ items:
     href: category/create.md
   - name: Verzoekcategorie verwijderen
     href: category/delete.md
+  - name: Werken met externe categorieën
+    href: category/external-categories.md
 - name: Prioriteiten
   topicHref: priority/index.md
   items:

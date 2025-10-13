@@ -44,4 +44,4 @@ Wenn ein Bearbeiter die Funktion [Vorschlag für einen FAQ-Eintrag erstellen][1]
 [1]: create.md
 [2]: ../../../request/learn/index.md
 [3]: workflow.md
-[4]: ../../../admin/options/learn/custlang/index.md
+[4]: ../../../localization/learn/customer-languages.md

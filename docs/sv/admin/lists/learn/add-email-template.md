@@ -88,7 +88,7 @@ Här kan du lägga till översatta versioner av dokumentmallen.
 > Klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid det relevanta fältet om du vill [lägga till översättningar][1] av mallnamnet och e-postrubriken.
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md

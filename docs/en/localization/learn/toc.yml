@@ -1,0 +1,16 @@
+items:
+- name: Customer languages
+  href: customer-languages.md
+- name: Translation of content
+  href: translate-fields.md
+- name: Time zones
+  href: time-zones.md
+- name: For administrators
+  topicHref: ../admin/enable-time-zones.md
+  items:
+  - name: Enable use of time zones
+    href: ../admin/enable-time-zones.md
+  - name: Select which time zones to show
+    href: ../admin/select-time-zones.md
+  - name: Create and edit customer languages
+    href: ../admin/add-customer-language.md

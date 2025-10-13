@@ -88,7 +88,7 @@ Her kan du tilføjer oversatte versioner af dokumentskabelonen.
 > Klik på <i class="ph ph-translate" aria-label="Translate"></i> ud for det relevante felt for at [tilføje oversættelser][1] af skabelonnavnet og e-mailens emne.
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md

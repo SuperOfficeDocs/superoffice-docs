@@ -19,6 +19,8 @@ items:
     href: category/create.md
   - name: Delete request category
     href: category/delete.md
+  - name: Work with external categories
+    href: category/external-categories.md
 - name: Priorities
   topicHref: priority/index.md
   items:

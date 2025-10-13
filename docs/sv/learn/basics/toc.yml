@@ -26,9 +26,6 @@ items:
     href: activity.md
   - name: Företags- och kontaktrelationer
     href: relations.md
-  - name: Språk och översättning
-    href: ../../globalization-and-localization/learn/toc.yml
-    topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Externa applikationer och webbadresser
     href: external-applications-and-url-addresses.md
   - name: Skapa/kopiera genväg

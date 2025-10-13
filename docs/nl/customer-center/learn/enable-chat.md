@@ -41,7 +41,7 @@ U moet [uw chatwidget instellen][3] voordat u deze toevoegt aan uw klantencentru
 * [Klanttalen][1]
 
 <!-- Referenced links -->
-[1]: ../../admin/options/learn/custlang/index.md
+[1]: ../../localization/learn/customer-languages.md
 [3]: ../../chat/admin/channel-create.md
 [2]: config.md
 

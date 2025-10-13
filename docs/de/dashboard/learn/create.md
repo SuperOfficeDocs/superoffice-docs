@@ -86,7 +86,7 @@ Sie können ein vorhandenes Dashboard duplizieren, um Layout oder Inhalt wiederz
 * [Selektion erstellen][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
 [6]: ../../search-options/selection/learn/create.md

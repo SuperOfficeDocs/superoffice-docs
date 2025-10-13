@@ -54,5 +54,5 @@ Om ett specifikt språk saknas i rullgardinsmenyn **Språk** har det inte lagts 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../admin/options/learn/custlang/index.md
-[3]: ../../../admin/options/learn/custlang/update.md
+[2]: ../../../localization/learn/customer-languages.md
+[3]: ../../../localization/admin/add-customer-language.md

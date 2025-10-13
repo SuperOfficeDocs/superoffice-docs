@@ -97,7 +97,7 @@ For å angre disse endringene klikker du på **Gjenopprett faner**.
 * [Opprett ny layout][4]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../search-options/learn/search-criteria.md
 [4]: add-layout.md
 

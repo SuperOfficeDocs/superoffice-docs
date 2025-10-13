@@ -88,7 +88,7 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 > Klik op het <i class="ph ph-translate" aria-label="Translate"></i> naast het relevante veld om [vertalingen][1] van de sjabloonnaam en het e-mailonderwerp toe te voegen.
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md

@@ -43,7 +43,7 @@ In this section, you can configure the settings for Service to tailor it to your
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
-[10]: ../../admin/options/learn/custlang/index.md
+[10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/learn/global-preferences/system.md
 [12]: ../../admin/user-management/learn/role/index.md
 [13]: ../../admin/user-management/learn/index.md

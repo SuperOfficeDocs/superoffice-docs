@@ -54,5 +54,5 @@ Als een bepaalde taal ontbreekt in de **Taal**-keuzelijst, is deze niet toegevoe
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../admin/options/learn/custlang/index.md
-[3]: ../../../admin/options/learn/custlang/update.md
+[2]: ../../../localization/learn/customer-languages.md
+[3]: ../../../localization/admin/add-customer-language.md

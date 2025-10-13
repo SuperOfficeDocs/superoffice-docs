@@ -80,7 +80,7 @@ Opdag det fulde potentiale af SuperOffice CRM. Brug vores trin-for-trin vejledni
 [11]: ../basics/fav.md
 [13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
-[15]: ../../globalization-and-localization/learn/change-language.md
+[15]: change-language.md
 [20]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/index.html
 [21]: ../../../en/onsite/requirements/index.md
 

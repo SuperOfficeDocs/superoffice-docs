@@ -1,7 +1,0 @@
-items:
-- name: Actieve taal wijzigen
-  href: change-language.md
-- name: Vertaling van inhoud
-  href: translate-fields.md
-- name: Tijdzones
-  href: time-zones.md

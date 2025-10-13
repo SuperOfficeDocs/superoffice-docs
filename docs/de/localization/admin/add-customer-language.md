@@ -1,0 +1,91 @@
+---
+uid: help-de-customer-language-add
+title: Kundensprache hinzufügen
+description: In dieser Anleitung lernen Sie, wie Sie Kundensprachen festlegen.
+keywords: Kundensprache, Sprache hinzufügen, neue Kundensprache, Sprachcode
+author: digitaldiina
+date: 10.09.2025
+version: 11.5
+content_type: howto
+category: localization
+topic: language
+audience: settings
+audience_tooltip: Settings and maintenance
+redirect_from: /de/admin/options/learn/custlang/update
+language: de
+index: true
+---
+
+# Kundensprache hinzufügen
+
+Die Ansicht **Kundensprachen** enthält eine Auflistung aller installierten [Kundensprachen][2]. Von dieser Ansicht aus können Sie die Kundensprachen konfigurieren, sodass Sie einfach in verschiedenen Sprachen mit Kunden kommunizieren können.
+
+Zum Beispiel:
+
+* Sie können SuperOffice Kundenzentrum , FAQs und Antwortvorlagen in verschiedene Sprachversionen nutzen.
+* Sie können eine Sprache für eine Person festlegen, sodass diese Person automatisch Antwortvorlagen in dieser Sprache erhält.
+* [Benutzersupport-Anfragen können in mehrere Gruppen kategorisiert werden][1], die auf definierte Abteilungen und Sprachen verweisen können.
+
+Vorkonfiguriert können Sie 6 verschiedene Sprachen hinzufügen. Wenden Sie sich an uns, wenn die gewünschte Sprache nicht verfügbar ist, damit unsere Berater Ihnen helfen können, die erforderlichen zusätzlichen Sprachen hinzuzufügen.
+
+## Schritte
+
+1. Wechseln Sie zu Einstellungen und Verwaltung und wählen Sie <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Optionen**.
+
+2. Wählen Sie die Registerkarte **Kundensprachen** aus.
+
+3. Klicken Sie auf die Schaltfläche **Neue Kundensprache**. Sie gelangen zur Ansicht **Eigenschaften der Kundensprache**.
+
+    ![Sie können eine neue Sprache im Dialogfeld Eigenschaften der Kundensprache einrichten -screenshot][img1]
+
+4. Geben Sie im Feld **Name** den Namen der Sprache ein, die als Bezeichnung in den Sprachen-Auswahlfeldern verwendet werden soll.
+
+5. Geben Sie im Feld **Sprachcode** eine kurze Bezeichnung für die betreffende Sprache (oder ein Äquivalent) ein. Normalerweise werden die internationalen zwei-Buchstaben-Abkürzungen verwendet (z.B. DE, DK, EN, NL, NO und SE). Eine vollständige Liste finden Sie am Ende dieser Seite.
+
+6. Geben Sie im Feld **Virtuelle Domäne** die Domänenadresse für den Zugriff auf das SuperOffice Kundenzentrum in der betreffenden Sprache ein, wie zum Beispiel germany.liberty.com. Solche Domains müssen im Voraus eingestellt werden.
+
+7. Geben Sie im Feld **E-Mail-Domäne** eine Liste mit E-Mail-Domänen ein (jeweils durch ein Komma getrennt), wie zum Beispiel: no, se, co.uk. Wenn eine neue Person automatisch erfasst wird (durch den Import einer E-Mail) und ihre E-Mail-Adresse eine dieser Domänen enthält, wird automatisch diese Sprache ausgewählt.
+
+8. Im Feld **FAQ-Ordner** wählen Sie den obersten Ordner aus, der in der FAQ-Hierarchie für Besucher des SuperOffice Kundenzentrum in der jeweiligen Sprache ganz oben stehen sollte. Dadurch kann die FAQ-Hierarchie in mehrere unterschiedliche Sprachabschnitte aufgeteilt und dann nach Sprache gefiltert werden. Dies bietet bessere Suchergebnisse, und für den Benutzer werden nur FAQs in der entsprechenden Sprache angezeigt.
+
+9. Aktivieren Sie die Option **Als Standard verwenden**, wenn Sie diese Sprache als Standardsprache festlegen möchten. Diese Sprache wird verwendet, wenn keine andere Kundensprache den Kriterien entspricht oder wenn keine Sprache für einen Kunden definiert wird.
+
+10. Klicken Sie auf **OK**. Die Kundensprache wird erstellt und [externe Kategorien][1] können erstellt werden.
+
+    > [!TIP]
+    > Sie können die Kundensprache für andere Elemente als Sprache verwenden, wenn Sie zum Beispiel nur in einem Land tätig sind. Sie können beispielsweise unterschiedliche Abteilungen, Branchen oder Gewerbe wie Bauwesen, Badezimmer, Einrichtung und Gärten erstellen. Dann können das SuperOffice Kundenzentrum, die FAQ-Hierarchie und die Antwortvorlagen den Bereich widerspiegeln, der für die jeweiligen Kunden relevant ist. Die für die Abteilung verwendete Abkürzung muss den Ordnernamen im Ordner \\templates widerspiegeln. Zum Beispiel: Bauwesen = BW.
+
+## Sprachcodes
+
+| Sprache | Code |
+|---|:-:|
+| Chinesisch (vereinfacht) | CN |
+| Tschechisch | CZ |
+| Dänisch | DA (nicht DK) |
+| Niederländisch | NL |
+| Englisch | EN |
+| Finnisch | FI |
+| Französisch | FR |
+| Deutsch | DE |
+| Deutsch (Schweiz) | CH |
+| Italienisch | IT |
+| Koreanisch | KO |
+| Norwegisch | NO |
+| Polnisch | PL |
+| Portugiesisch (Brasilien) | BR |
+| Russisch | RU |
+| Spanisch | ES |
+| Schwedisch | SE (nicht SV) |
+| Ukrainisch | Großbritannien |
+| Vietnamesisch | VI |
+
+## Verwandte Inhalte
+
+* [Wie SuperOffice die Kundensprache für neue Personen auswählt][2]
+
+<!-- Referenced links -->
+[1]: ../../request/admin/category/external-categories.md
+[2]: ../learn/customer-languages.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/admin/customer-centre-language.png

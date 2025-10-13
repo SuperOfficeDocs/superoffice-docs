@@ -14,15 +14,6 @@ items:
     href: freetext-search/stopwords.md
   - name: Vrije-tekstindex opnieuw genereren
     href: freetext-search/regenerate-index.md
-- name: Tijdzones
-  topicHref: time-zones/index.md
-  items:
-  - name: Overzicht
-    href: time-zones/index.md
-  - name: Gebruik van tijdzones inschakelen
-    href: time-zones/enable.md
-  - name: Selecteer welke tijdzones u wilt weergeven
-    href: time-zones/select.md
 - name: Nummertoewijzing
   topicHref: number-allocation/index.md
   items:
@@ -41,14 +32,3 @@ items:
     href: labels/change.md
   - name: Labels opnieuw instellen
     href: labels/reset.md
-- name: Klanttalen
-  topicHref: custlang/index.md
-  items:
-  - name: Overzicht
-    href: custlang/index.md
-  - name: Klanttalen maken en bewerken
-    href: custlang/update.md
-  - name: Werken met externe categorieën
-    href: custlang/external-categories.md
-  - name: Klanttaal selecteren
-    href: custlang/select-language.md

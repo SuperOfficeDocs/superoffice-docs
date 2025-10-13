@@ -26,9 +26,6 @@ items:
     href: activity.md
   - name: Firma- og personrelationer
     href: relations.md
-  - name: Sprog og oversættelse
-    href: ../../globalization-and-localization/learn/toc.yml
-    topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Eksterne programmer og URL-adresser
     href: external-applications-and-url-addresses.md
   - name: Opret/kopier genvej

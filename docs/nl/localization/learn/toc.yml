@@ -1,0 +1,16 @@
+items:
+- name: Klanttalen
+  href: customer-languages.md
+- name: Vertaling van inhoud
+  href: translate-fields.md
+- name: Tijdzones
+  href: time-zones.md
+- name: Voor beheerders
+  topicHref: ../admin/enable-time-zones.md
+  items:
+  - name: Gebruik van tijdzones inschakelen
+    href: ../admin/enable-time-zones.md
+  - name: Selecteer welke tijdzones u wilt weergeven
+    href: ../admin/select-time-zones.md
+  - name: Klanttalen maken en bewerken
+    href: ../admin/add-customer-language.md

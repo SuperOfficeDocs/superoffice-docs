@@ -13,3 +13,5 @@ items:
   topicHref: connect-email-doc/index.md
 - name: E-mail-handtekening bewerken
   href: edit-email-signature.md
+- name: Actieve taal wijzigen
+  href: change-language.md

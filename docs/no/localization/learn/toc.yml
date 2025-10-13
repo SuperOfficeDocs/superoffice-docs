@@ -1,0 +1,16 @@
+items:
+- name: Kundespråk
+  href: customer-languages.md
+- name: Oversettelse av innhold
+  href: translate-fields.md
+- name: Tidssoner
+  href: time-zones.md
+- name: For administratorer
+  topicHref: ../admin/enable-time-zones.md
+  items:
+  - name: Aktivere bruk av tidssoner
+    href: ../admin/enable-time-zones.md
+  - name: Velg hvilke tidssoner som skal vises
+    href: ../admin/select-time-zones.md
+  - name: Opprette og redigere kundespråk
+    href: ../admin/add-customer-language.md

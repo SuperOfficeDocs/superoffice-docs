@@ -86,7 +86,7 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 > Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben dem entsprechenden Feld, um für den Vorlagennamen und E-Mail-Betreff die Funktion [Übersetzungen hinzufügen][1] auszuführen.
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md

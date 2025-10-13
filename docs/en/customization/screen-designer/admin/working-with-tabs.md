@@ -119,7 +119,7 @@ The **More** tab automatically contains all [custom fields][3], arranged by rank
 [3]: ../../../custom-objects/learn/index.md
 [4]: ../../../custom-objects/admin/create-extra-field.md
 [5]: ../../../custom-objects/admin/add-udef.md
-[9]: ../../../globalization-and-localization/learn/translate-fields.md
+[9]: ../../../localization/learn/translate-fields.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/customization/field-settings.png

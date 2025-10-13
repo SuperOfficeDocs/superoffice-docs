@@ -57,6 +57,6 @@ Lernen Sie, wie Sie Zwecke f√ºr die Verarbeitung personenbezogener Daten hinzuf√
 * [Datenschutz - Nachweis][3]
 
 <!-- Referenced links -->
-[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[1]: ../../../localization/learn/translate-fields.md
 [2]: ../learn/index.md#legal-basis
 [3]: ../learn/index.md#source
