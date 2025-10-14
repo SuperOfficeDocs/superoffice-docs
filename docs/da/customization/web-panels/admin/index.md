@@ -18,6 +18,17 @@ redirect_from: /da/ui/web-panels/learn/index
 
 # Webpaneler
 
+## Indholdstyper understøttet af webpaneler
+
+Webpaneler understøtter en række indholdstyper:
+
+* **URL-adresser:** eksterne websider eller interne systemer
+* **Skærmbilleder:** genveje til SuperOffice CRM-skærmbilleder
+* **Udvalg:** genveje til udvalg
+* **Scripts/makroer:** handlinger udløst via en knap eller menu
+
+## Visningsplaceringer for webpaneler
+
 Du kan tilføje ekstra browserfaner til følgende skærmbilleder, så informationen er der, hvor brugerne har behov for den:
 
 * Sag
@@ -25,13 +36,6 @@ Du kan tilføje ekstra browserfaner til følgende skærmbilleder, så informatio
 * Kontaktperson
 * Ekstra tabelpost
 * Dashboard: Browserfanerne vil være tilgængelige på rullelisten, som du bruger til at vælge indholdet af hver af de fire ruder på dashboardet.
-
-## Hvad kan jeg tilføje som indhold
-
-* URL-adresser: Links til websider eller til bestemte poster i SuperOffice Service.
-* Skærmbilleder: Genveje til bestemte skærmbilleder.
-* Scripts/makroer: Knapper eller menuindstillinger, som udløser et script eller en makro.
-* Udvalg: Genvej til et udvalg.
 
 <!-- Referenced links -->
 

@@ -18,6 +18,17 @@ redirect_from: /sv/ui/web-panels/learn/index
 
 # Webbpaneler
 
+## Innehållstyper som stöds av webbpaneler
+
+Webbpaneler stöder en rad innehållstyper:
+
+* **Webbadresser:** externa webbsidor eller interna system
+* **Skärmar:** SuperOffice CRM-skärmgenvägar
+* **Urval:** genvägar till urval
+* **Skripter/makron:** åtgärder utlösta via en knapp eller meny
+
+## Visningsplatser för webbpaneler
+
 Du kan lägga till extra webbläsarflikar på följande skärmar så att informationen finns där användarna behöver den:
 
 * Ärende
@@ -25,13 +36,6 @@ Du kan lägga till extra webbläsarflikar på följande skärmar så att informa
 * Kontaktperson
 * Extra tabellpost
 * Dashboard: Webbläsarflikarna är tillgängliga i den listruta som används för att välja innehållet i de fyra panelerna på dashboarden.
-
-## Vad kan jag lägga till som innehåll?
-
-* Webbadresser: Länkar till webbsidor eller specifika poster i SuperOffice.
-* Skärmar: Genvägar till specifika skärmar.
-* Skripter/makron: Knappar eller menyalternativ som utlöser ett skript eller makro.
-* Urval: Genväg till ett urval.
 
 <!-- Referenced links -->
 

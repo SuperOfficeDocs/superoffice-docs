@@ -18,6 +18,17 @@ redirect_from: /en/ui/web-panels/learn/index
 
 # Web panels
 
+## Content types supported by web panels
+
+Web panels support a range of content types:
+
+* **URLs:** external web pages or internal systems
+* **Screens:** SuperOffice CRM screen shortcuts
+* **Selections:** shortcuts to selections
+* **Scripts/macros:** actions triggered via a button or menu
+
+## Display locations for web panels
+
 You can add extra browser tabs to the following screens so that the information is where the users need it:
 
 * Request
@@ -25,13 +36,6 @@ You can add extra browser tabs to the following screens so that the information 
 * Contact
 * Extra table entry
 * Dashboard: The browser tabs are available in the drop-down list you use to select the content of each or the four tiles on the dashboard.
-
-## What can I add as content
-
-* URLs: Links to web pages or to specific records in SuperOffice.
-* Screens: Shortcuts to specific screens.
-* Scripts/macros: Buttons or menu options that trigger a script or macro.
-* Selections: Shortcut to a selection.
 
 <!-- Referenced links -->
 
