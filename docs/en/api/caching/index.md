@@ -52,7 +52,7 @@ Here's how user preferences are handled *without* caching:
 [3]: superoffice-crm-cache.md
 [4]: associate-cache.md
 [5]: category-cache.md
-[6]: ../../admin/user-preferences/howto/index.md
+[6]: ../../admin/user-preferences/index.md
 [11]: ../web-services/howto/user-preferences/get-preferences-preferenceagent.md
 [12]: ../web-services/howto/user-preferences/set-preferences-preferenceagent.md
 [13]: ../entities/howto/user-preferences/get-preferences-sopreference.md

@@ -1,21 +1,37 @@
 ---
+uid: user-preferences
 title: User preferences
-uid: user_preferences
 description: Preference sections
+keywords: user preference, setting
 author: SuperOffice Product and Engineering
-keywords: database
-content_type: reference
+date: 10.14.2025
+content_type: concept
+audience: admin
+audience_tooltip: Settings and maintenance
+category: settings
+topic: user preferences
 index: true
+language: en
+redirect_from: /en/admin/user-preferences/howto/index
 ---
 
 # User preferences
 
-These pages describe the user preferences used in SuperOffice.
+Preferences are used to personalize SuperOffice. The aim of this is to make the application more user-friendly. We store information on default values the user has set, different visual settings, and you may even store preferences for your own application.
+
+For example:
+
+* Whether the calendar starts on Sunday or Monday
+* The size of the calendar
+* The starting time of the calendar
+* The end time of an all-day event
+
+Preferences can also be used to add default values for a document or follow-up.
 
 > [!NOTE]
-> Many of these preferences control important system functions, and changing the values or adding a new preference value may cause the SuperOffice application or specific functionality (like Travel or Area management) to stop working. **Be very careful when changing these preferences.**
+> All preferences are stored in the [UserPreference table][6].
 
-Preferences are stored in the `UserPreference` table in the database.
+## Levels
 
 Preferences can be defined at 6 different levels:
 
@@ -76,3 +92,33 @@ The user with `assoicate_id` 789 would get the value "quiet" because of the pref
 > If there is no value defined, you won't find a user-preference value in the table. Your code should take care to handle empty preferences sensibly.
 
 With no default defined, we get the empty string back.
+
+## How-to
+
+In NetServer, we can either retrieve the current values of these preferences or set our own. Selected classes can be grouped as [preference caches][5].
+
+> [!CAUTION]
+> Many of these preferences control important system functions, and changing the values or adding a new preference value may cause the SuperOffice application or specific functionality (like Travel or Area management) to stop working. **Be very careful when changing these preferences.**
+
+* [Get preferences - services][1]
+* [Get preferences - data layer][3]
+* [Set preferences - services][2]
+* [Set preferences - data layer][4]
+
+## Related content
+
+* [Preference section reference][7]
+* [UserPreference database table][6]
+* [Changing personal settings][8] - in SuperOffice CRM
+* [Global preferences][9] - in Settings and maintenance
+
+<!-- Referenced links -->
+[1]: ../../../api/web-services/howto/user-preferences/get-preferences-preferenceagent.md
+[2]: ../../../api/web-services/howto/user-preferences/set-preferences-preferenceagent.md
+[3]: ../../../api/entities/howto/user-preferences/get-preferences-sopreference.md
+[4]: ../../../api/entities/howto/user-preferences/set-preferences-sopreference.md
+[5]: ../../../api/caching/superoffice-crm-security.md
+[6]: ../../../database/tables/userpreference.md
+[7]: reference/appointment-dialog.md
+[8]: ../../../learn/getting-started/preferences.md
+[9]: ../preferences/learn/index.md
