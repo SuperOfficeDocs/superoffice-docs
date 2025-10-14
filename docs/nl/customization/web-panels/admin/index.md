@@ -2,7 +2,7 @@
 uid: help-nl-ui-web-panels
 title: Webpanelen
 description: Webpanelen
-keywords: webpaneel
+keywords: webpaneel, www tabblad
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -37,21 +37,20 @@ Webpanelen ondersteunen een reeks inhoudstypen:
 
 De **weergavelocatie** wordt gedefinieerd wanneer u het paneel configureert. Dit bepaalt waar in SuperOffice het paneel verschijnt.
 
-* Zijpaneel
-* Werkbalk
-* Navigatorknop (hoofdmenu)
-* Panelen:
-  * Bedrijfs-, Persoons-, Project-, Verkoop- en Selectiekaarten
-  * SuperOffice-knop webpaneel
-  * Sectietabbladen voor Bedrijfs-, Persoons-, Project- en Verkoopschermen
-* Dialoogvensters:
-  * Vervolgactiviteitdialoogvenster
-  * Documentdialoogvenster
-  * Product- en offertedialoogvensters
-* Menu's:
-  * Werkzeugmenu
-  * Weergavemenu
-* Dashboard-tegels (via inhoudskiezer dropdown)
+* **Zijpaneel** – Verschijnt in het inklapbare paneel aan de zijkant van vele CRM-schermen.
+* **Werkbalk** – Voegt een knop toe aan de werkbalk.
+* **Navigatorknop** – Voegt een knop toe aan het hoofdmenu.
+* **Panelen:**
+  * **Bedrijfs-, Persoons-, Project-, Verkoop- en Selectiekaarten** – Voegt een snelkoppeling toe in het **www**-tabblad voor elk scherm.
+  * **Webpaneel op SuperOffice-knop** – Opent vanuit het SuperOffice-logo (linkerbovenhoek). Meerdere URL's verschijnen als tabbladen rechts.
+  * **Sectietabbladen (in Bedrijfs-, Persoons-, Project- en Verkoopschermen)** – Voegt een apart tabblad toe dat de panelinhoud opent.
+* **Dialoogvensters:**
+  * **Vervolgactiviteitdialoogvenster** – Voegt een snelkoppeling toe in het **www**-tabblad van het vervolgactiviteitdialoogvenster.
+  * **Document-, Product- en Offertedialoogvensters** – Voegt een snelkoppeling toe in het **www**-tabblad van elk dialoogvenster.
+* **Menu's:**
+  * **Werkzeugmenu** – Verschijnt onder **Andere toepassingen** bij het klikken op de **Tools**-knop in de Navigator.
+  * **Weergavemenu** – Verschijnt in de menuoptie **Andere toepassingen**.
+* **Dashboard-tegels** – Beschikbaar in de tegelinhoudskiezer voor dashboard-widgets.
 
 ### In Service (verouderd)
 

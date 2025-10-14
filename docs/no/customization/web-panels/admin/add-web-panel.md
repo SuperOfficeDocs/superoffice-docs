@@ -40,18 +40,10 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. I feltet **Vindusnavn** angir du det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
 
-1. I listeboksen **Synlig i** velger du hvor nettadressen skal være tilgjengelig i SuperOffice CRM.
-    * **Sidepanel**: Velg dette alternativet for å gjøre URL-adressen tilgjengelig i sidepanelene i SuperOffice CRM.
+1. I listeboksen **Synlig i** velger du hvor webpanelet skal vises i SuperOffice CRM.
 
-    * **Knapperad**: Velg dette alternativet for å gjøre URL-adressen tilgjengelig som en knapp i knapperaden.
-
-    * **Navigatorknapp**: Velg dette alternativet for å gjøre nettadressen tilgjengelig som en knapp i navigatoren i SuperOffice CRM.
-
-    * **Panel**: Velg [et alternativ i denne listen](#options) for å gjøre nettadressen tilgjengelig som et panel / en fane i SuperOffice CRM.
-
-    * **Dialog**: Velg et [alternativ i denne listen](#options) for å gjøre URL-adressen tilgjengelig i en dialogboks.
-
-    * **Meny**: Velg et [alternativ i denne listen](#options) for å gjøre URL-adressen tilgjengelig fra en av menyene i SuperOffice CRM.
+    * Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer.
+    * For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8].
 
 1. I listeboksen **URL-format** kan du velge om [URL-adressen][2] skal være ANSI eller Unicode (eller uten format).
 
@@ -80,28 +72,6 @@ Når elementet er lagret, kan du:
 * Spesifisere ytterligere innstillinger for hvert element:
   * Hvilke [brukergrupper elementet er synlig for][7].
   * Hvilken [overskrift][6] det skal vises under.
-
-## <a id="options"></a>Alternativer
-
-### Panel
-
-* **Firmakort**, **Personkort**, **Prosjektkort**, **Utvalgskort** og **Salgskort**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i bildene Firma, Person, Prosjekt, Utvalg og Salg. Når du klikker på snarveien i SuperOffice CRM, vises den aktuelle nettsiden i et lite vindu med rullefelt i fanen. Der er det også mulig å klikke på **Åpne i eget vindu** for å åpne nettsiden i et frittstående nettleservindu.
-
-* **Webpanel**: URL-adressen legges til i webpanelet i SuperOffice CRM. Dermed kan adressen åpnes som en Internett-side. Hvis det er definert flere URL-adresser for webpanelet, vises de som faner til høyre i webpanelet. Webpanelet åpnes ved å klikke på SuperOffice-logoen øverst til venstre i SuperOffice CRM.
-
-* Detaljkort i Firma-, Person-, Prosjekt- og Salg-bildet: URL-adressen legges til som et ekstra detaljkort i Firma/Person/Prosjekt/Lær/Salg-bildet. Når du velger detaljkortet i SuperOffice CRM, åpnes URL-adressen. Der er det også mulig å klikke på **Åpne i eget vindu** for å åpne nettsiden i et frittstående nettleservindu.
-
-### Dialogboks
-
-* **Dialogboksen for oppfølginger**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i dialogboksen **Oppfølging**. Der er det også mulig å klikke på **Åpne i eget vindu** for å åpne nettsiden i et frittstående nettleservindu.
-
-* **Dialogboksen Dokument/Tilbud/Produkt**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i disse dialogboksene.
-
-### Meny
-
-* **Verktøykassemeny**: URL-adressen vises når brukeren klikker på **Verktøy**-knappen (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren eller velger **Andre applikasjoner** i SuperOffice CRM.
-
-* **Vis-menyen**: URL-adressen vises når brukeren velger **Andre applikasjoner** i SuperOffice CRM.
 
 ## <a id="fields"></a>Referanse
 
@@ -146,5 +116,6 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
 [7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[8]: index.md
 
 <!-- Referenced images -->

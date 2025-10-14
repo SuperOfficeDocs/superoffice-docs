@@ -2,7 +2,7 @@
 uid: help-sv-ui-web-panels
 title: Webbpaneler
 description: Webbpaneler
-keywords: webbpanel
+keywords: webbpanel, www flik
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -37,21 +37,20 @@ Webbpaneler stöder en rad innehållstyper:
 
 **Visningsplatsen** definieras när du konfigurerar panelen. Detta styr var i SuperOffice panelen visas.
 
-* Sidopanel
-* Verktygsfält
-* Navigatorknapp (huvudmeny)
-* Paneler:
-  * Företags-, Kontakt-, Projekt-, Försäljnings- och Urvalskort
-  * SuperOffice-knapp webbpanel
-  * Sektionsflikar för Företags-, Kontakt-, Projekt- och Försäljningsskärmar
-* Dialogrutor:
-  * Uppföljningsdialog
-  * Dokumentdialog
-  * Produkt- och offertdialoger
-* Menyer:
-  * Verktygsmenyn
-  * Visa-menyn
-* Dashboard-paneler (via innehållsväljare dropdown)
+* **Sidopanel** – Visas i den hopfällbara panelen på sidan av många CRM-skärmar.
+* **Verktygsfält** – Lägger till en knapp till verktygsfältet.
+* **Navigatorknapp** – Lägger till en knapp till huvudmenyn.
+* **Paneler:**
+  * **Företags-, Kontakt-, Projekt-, Försäljnings- och Urvalskort** – Lägger till en genväg i **www**-fliken för varje skärm.
+  * **Webbpanel på SuperOffice-knapp** – Öppnas från SuperOffice-logotypen (övre vänstra hörnet). Flera URL:er visas som flikar till höger.
+  * **Sektionsflikar (i Företags-, Kontakt-, Projekt- och Försäljningsskärmar)** – Lägger till en separat flik som öppnar panelinnehållet.
+* **Dialogrutor:**
+  * **Uppföljningsdialog** – Lägger till en genväg i **www**-fliken för uppföljningsdialogen.
+  * **Dokument-, Produkt- och Offertdialoger** – Lägger till en genväg i **www**-fliken för varje dialog.
+* **Menyer:**
+  * **Verktygsmenyn** – Visas under **Andra applikationer** när du klickar på **Verktyg**-knappen i Navigatorn.
+  * **Visa-menyn** – Visas i menyalternativet **Andra applikationer**.
+* **Dashboard-paneler** – Tillgängliga i panelinnehållsväljaren för dashboard-widgets.
 
 ### I Service (föråldrad)
 

@@ -42,18 +42,10 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
-1. I listrutan **Synlig i** väljer du var webbadressen ska vara tillgänglig i SuperOffice CRM.
-    * **Sidopanel**: Välj det här alternativet om webbadressen ska vara tillgänglig på sidopanelerna i SuperOffice CRM.
+1. I listrutan **Synlig i** väljer du var webbpanelen ska visas i SuperOffice CRM.
 
-    * **Verktygsfältet**: Välj detta alternativ om webbadressen ska vara tillgänglig som en knapp i verktygsfältet.
-
-    * **Navigatorknapp**: Välj det här alternativet om webbadressen ska vara tillgänglig som en knapp i navigatorn i SuperOffice CRM.
-
-    * **Panel**: välj [ett alternativ i den här listan](#options) om webbadressen ska vara tillgänglig som en panel/flik i SuperOffice CRM.
-
-    * **Dialogruta**: välj ett [alternativ i den här listan](#options) om du vill att webbadressen ska vara tillgänglig i en dialogruta.
-
-    * **Meny**: välj ett [alternativ i den här listan](#options) om du vill att webbadressen ska vara tillgänglig på en av menyerna i SuperOffice CRM.
+    * Du kan välja mellan paneler, dialogrutor, menyer, verktygsfält eller sidopanelplatser.
+    * För en fullständig lista över visningsalternativ, se [Visningsplatser för webbpaneler][8].
 
 1. I listrutan **URL-format** kan du välja om [webbadressen][2] ska ha ANSI- eller Unicode-format (eller inget format).
 
@@ -82,28 +74,6 @@ När posten har sparats kan du:
 * Ange ytterligare inställningar för varje post:
   * Vilka [användargrupper posten ska vara synlig för][7].
   * Vilken [rubrik][6] den ska visas under.
-
-## <a id="options"></a>Alternativ
-
-### Panel
-
-* **Företagskort**, **Kontaktkort**, **Projektkort**, **Urvalskort** och **Försäljningskort**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i fönstren Företag, Kontakt, Projekt, Urval och Försäljning. När du klickar på en genväg i SuperOffice CRM öppnas den aktuella webbplatsen i ett litet fönster med en rullningslist på fliken. Du kan också välja att klicka på **Öppna i eget fönster** om webbplatsen ska öppnas i ett separat fönster i webbläsaren.
-
-* **Webbpanel**: webbadressen läggs till på webbpanelen i SuperOffice CRM. Därmed kan adressen öppnas som en sida på Internet. Om det finns flera definierade webbadresser för webbpanelen visas de som flikar på webbpanelens högra sida. Du öppnar webbpanelen genom att klicka på SuperOffice-logotypen längst upp till vänster i SuperOffice CRM.
-
-* Detaljkort i fönstren Företag, Kontakt, Projekt och Försäljning: webbadressen läggs till som ett extra detaljkort i fönstret Företag/Kontakt/Projekt/Learn/Försäljning. När du väljer detaljkortet i SuperOffice CRM öppnas webbadressen. Du kan också välja att klicka på **Öppna i eget fönster** om webbplatsen ska öppnas i ett separat fönster i webbläsaren.
-
-### Dialogruta
-
-* **Dialogrutan för händelser**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i dialogrutan **Händelse**. Du kan också välja att klicka på **Öppna i eget fönster** om webbplatsen ska öppnas i ett separat fönster i webbläsaren.
-
-* **Dialogrutan Dokument/Offert/Produkt**: Ett kortkommando till webbadressen infogas högst upp på fliken **www** i dialogrutorna.
-
-### Meny
-
-* **Verktygsmenyn**: webbadressen visas när användaren klickar på knappen **Verktyg** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatorn eller väljer **Andra applikationer** i SuperOffice CRM.
-
-* **Visa**-menyn: webbadressen visas när användaren väljer **Andra applikationer** i SuperOffice CRM.
 
 ## <a id="fields"></a>Referens
 
@@ -148,5 +118,6 @@ I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
 [7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[8]: index.md
 
 <!-- Referenced images -->

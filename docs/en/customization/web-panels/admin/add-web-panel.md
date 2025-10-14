@@ -42,18 +42,10 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. In the **Window name** field, specify the required name of the browser window where the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 
-1. In the **Visible in** list box, choose where the URL address will be accessible in SuperOffice CRM.
-    * **Side panel**: select this option to make the URL address available on the side panels in the SuperOffice CRM.
+1. In the **Visible in** list, choose where the web panel should appear in SuperOffice CRM.
 
-    * **Toolbar**: select this option to make the URL accessible as a button on the toolbar.
-
-    * **Navigator button**: select this option to make the URL accessible as a button in the navigator in SuperOffice CRM.
-
-    * **Panel**: select [an option in this list](#options) to make the URL accessible as a panel/tab in SuperOffice CRM.
-
-    * **Dialog**: select [option in this list](#options) to make the URL address accessible in a dialog.
-
-    * **Menu**: select [option in this list](#options) to make the URL accessible on one of the menus in SuperOffice CRM.
+    * You can select from panels, dialogs, menus, toolbar, or side panel locations.
+    * For a full list of display options, see [Display locations for web panels][8].
 
 1. In the **URL encoding** list box, you can select if the [URL][2] should be ANSI or Unicode (or no format).
 
@@ -82,28 +74,6 @@ Once the item is saved, you can:
 * Specify additional settings for each item:
   * Which [user groups the item is visible for][7].
   * Which [heading][6] it will be displayed under.
-
-## <a id="options"></a>Options
-
-### Panel
-
-* **Company card**, **Contact card**, **Project card**, **Selection card**, and **Sale card**: a shortcut to the URL address is added at the top of the **www** tab in the Company, Contact, Project, Selection, and Sale screens. When you click a shortcut in SuperOffice CRM, the web page in question is displayed in a small scrollable window in the tab. You can then also click **Open in separate window** to view the web page in a separate browser window.
-
-* **Web panel on SuperOffice button**: the URL address is added in the web panel in SuperOffice CRM. The address can then be opened as an Internet page. If several URL addresses are defined for the web panel, they are shown as tabs on the right side of the web panel. The Web panel is opened by clicking the SuperOffice logo at the upper left in SuperOffice CRM.
-
-* Section tabs in the Company, Contact, Project, and Sale screens: the URL address is added as an extra section tab in the Company/Contact/project/learn/Sale screen. When you select the section tab in SuperOffice CRM, the URL opens. You can then also click **Open in separate window** to view the web page in a separate browser window.
-
-### Dialog
-
-* **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Follow-up** dialog. You can then also click **Open in separate window** to view the web page in a separate browser window.
-
-* **The Document/Quote/Product dialog**: a shortcut to the URL address is added at the top of the **www** tab in these dialogs.
-
-### Menu
-
-* **Toolbox menu**: the URL address is displayed when the user clicks the **Tools** button (<i class="ph ph-wrench" aria-hidden="true"></i>) in the Navigator or selects **Other Applications** in SuperOffice CRM.
-
-* **View menu**: the URL address is displayed when the user selects **Other Applications** in SuperOffice CRM.
 
 ## <a id="fields"></a>Field reference
 
@@ -148,5 +118,6 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
 [7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[8]: index.md
 
 <!-- Referenced images -->

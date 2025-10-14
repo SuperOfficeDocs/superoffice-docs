@@ -40,18 +40,10 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. Angiv i feltet **Vinduesnavn** det nødvendige navn på det browservindue, hvor URL-adressen skal åbnes. Hvis du tidligere har tilføjet et eller flere vinduesnavne og vil genbruge dem, kan du klikke i feltet og vælge et navn på listen. Du kan også indtaste et nyt navn direkte i feltet. Det endelige vinduesnavn vises understreget nedenfor.
 
-1. På listen **Synlig i** vælger du, hvor URL-adressen skal være tilgængelig i SuperOffice CRM.
-    * **Sidepanel**: Vælg denne indstilling for at gøre URL-adressen tilgængelig i sidepanelerne i SuperOffice CRM.
+1. På listen **Synlig i** vælger du, hvor webpanelet skal vises i SuperOffice CRM.
 
-    * **Værktøjslinje**: Vælg denne indstilling for at gøre URL-adressen tilgængelig som en knap på værktøjslinjen.
-
-    * **Navigatorknap**: Vælg denne indstilling for at gøre URL-adressen tilgængelig som en knap i navigatoren i SuperOffice CRM.
-
-    * **Panel**: Vælg [en indstilling på denne liste](#options) for at gøre URL-adressen tilgængelig som et panel/en fane i SuperOffice CRM.
-
-    * **Dialog**: Vælg [en indstilling på denne liste](#options) for at gøre URL-adressen tilgængelig i en dialogboks.
-
-    * **Menu**: Vælg [en indstilling på denne liste](#options) for at gøre URL-adressen tilgængelig fra en af menuerne i SuperOffice CRM.
+    * Du kan vælge mellem paneler, dialogbokse, menuer, værktøjslinje eller sidepanelplaceringer.
+    * For en komplet liste over visningsindstillinger, se [Visningsplaceringer for webpaneler][8].
 
 1. I rullemenuen **URL-format** kan du vælge, om [URL-adressen][2] skal være ANSI eller Unicode (eller uden format).
 
@@ -80,28 +72,6 @@ Når elementet er gemt, kan du:
 * Angive yderligere indstillinger for hvert element:
   * Hvilke [brugergrupper elementet er synligt for][7].
   * Hvilken [overskrift][6] det skal vises under.
-
-## <a id="options"></a>Indstillinger
-
-### Panel
-
-* **Firmakort**, **Personkort**, **Projektkort**, **Udvalgskort** og **Salgskort**: Der tilføjes en genvej til URL-adressen øverst på fanen **www** i skærmbillederne Firma, Person, Projekt, Udvalg og Salg. Når brugeren klikker på genvejen i SuperOffice CRM, vises den aktuelle internetside i et lille vindue med rullefelt under fanen. Det er også muligt at klikke på **Åbn i nyt vindue** for at åbne internetsiden i et nyt browservindue.
-
-* **Webpanel på knappen SuperOffice**: URL-adressen tilføjes i webpanelet i SuperOffice CRM. Dermed kan adressen åbnes som en internetside. Hvis der er defineret flere URL-adresser til webpanelet, vises de som faner i højre side af webpanelet. Webpanelet åbnes ved at klikke på SuperOffice-logoet øverst til venstre i SuperOffice CRM.
-
-* Detaljekort i skærmbillederne Firma, Person, Projekt og Salg: URL-adressen tilføjes som et ekstra detaljekort i skærmbilledet Firma/Person/Projekt/Læring/Salg. Når du vælger detaljekortet i SuperOffice CRM, åbnes URL-adressen. Det er også muligt at klikke på **Åbn i nyt vindue** for at åbne internetsiden i et nyt browservindue.
-
-### Dialogboks
-
-* **Dialogboksen for opfølgninger**: Der tilføjes en genvej til URL-adressen øverst på fanen **www** i dialogboksen **Opfølgning**. Det er også muligt at klikke på **Åbn i nyt vindue** for at åbne internetsiden i et nyt browservindue.
-
-* **Dialogboksen Dokument/Tilbud/Produkt**: Der tilføjes en genvej til URL-adressen øverst under fanen **www** i disse dialogbokse.
-
-### Menu
-
-* **Værktøjsmenu**: URL-adressen vises, når brugeren klikker på knappen **Værktøj** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren eller vælger **Andre programmer** i SuperOffice CRM.
-
-* **Menuen Vis**: URL-adressen vises, når brugeren vælger **Andre programmer** i SuperOffice CRM.
 
 ## <a id="fields"></a>Reference
 
@@ -146,5 +116,6 @@ I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samm
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
 [7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[8]: index.md
 
 <!-- Referenced images -->

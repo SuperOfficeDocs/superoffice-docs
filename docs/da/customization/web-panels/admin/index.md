@@ -2,7 +2,7 @@
 uid: help-da-ui-web-panels
 title: Webpaneler
 description: Webpaneler
-keywords: webpanel
+keywords: webpanel, www fane
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -37,21 +37,20 @@ Webpaneler understøtter en række indholdstyper:
 
 **Visningsplaceringen** defineres, når du konfigurerer panelet. Dette styrer, hvor i SuperOffice panelet vises.
 
-* Sidepanel
-* Værktøjslinje
-* Navigatorknap (hovedmenu)
-* Paneler:
-  * Firma-, Person-, Projekt-, Salgs- og Udvalgskort
-  * SuperOffice-knap webpanel
-  * Detaljekort for Firma-, Person-, Projekt- og Salgsskærmbilleder
-* Dialogbokse:
-  * Opfølgningsdialogboks
-  * Dokumentdialogboks
-  * Produkt- og tilbudsdialogbokse
-* Menuer:
-  * Værktøjsmenu
-  * Vis-menu
-* Dashboard-ruder (via indholdsudvælger dropdown)
+* **Sidepanel** – Vises i det sammenfoldelige panel på siden af mange CRM-skærmbilleder.
+* **Værktøjslinje** – Tilføjer en knap til værktøjslinjen.
+* **Navigatorknap** – Tilføjer en knap til hovedmenuen.
+* **Paneler:**
+  * **Firma-, Person-, Projekt-, Salgs- og Udvalgskort** – Tilføjer en genvej i **www**-fanen for hvert skærmbillede.
+  * **Webpanel på SuperOffice-knap** – Åbnes fra SuperOffice-logoet (øverste venstre hjørne). Flere URL'er vises som faner til højre.
+  * **Detaljekort (i Firma-, Person-, Projekt- og Salgsskærmbilleder)** – Tilføjer en separat fane, der åbner panelindholdet.
+* **Dialogbokse:**
+  * **Opfølgningsdialogboks** – Tilføjer en genvej i **www**-fanen af opfølgningsdialogboksen.
+  * **Dokument-, Produkt- og Tilbudsdialogbokse** – Tilføjer en genvej i **www**-fanen af hver dialogboks.
+* **Menuer:**
+  * **Værktøjsmenu** – Vises under **Andre programmer** ved klik på **Værktøj**-knappen i Navigatoren.
+  * **Vis-menu** – Vises i menuindstillingen **Andre programmer**.
+* **Dashboard-ruder** – Tilgængelige i rudeindholdsudvælgeren for dashboard-widgets.
 
 ### I Service (forældet)
 

@@ -2,7 +2,7 @@
 uid: help-no-ui-web-panels
 title: Nettleserfaner
 description: Nettleserfaner
-keywords: nettleserfane
+keywords: nettleserfane, www fane
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -37,21 +37,20 @@ Nettleserfaner støtter en rekke innholdstyper:
 
 **Visningsplasseringen** defineres når du konfigurerer panelet. Dette styrer hvor i SuperOffice panelet vises.
 
-* Sidepanel
-* Verktøylinje
-* Navigatorknapp (hovedmeny)
-* Paneler:
-  * Firma-, Person-, Prosjekt-, Salg- og Utvalgskort
-  * SuperOffice-knapp webpanel
-  * Seksjonstabber for Firma-, Person-, Prosjekt- og Salgsskjermbilder
-* Dialogbokser:
-  * Oppfølgingsdialogboks
-  * Dokumentdialogboks
-  * Produkt- og tilbudsdialogbokser
-* Menyer:
-  * Verktøymeny
-  * Vis-meny
-* Dashbord-fliser (via innholdsvelger dropdown)
+* **Sidepanel** – Vises i det sammenleggbare panelet på siden av mange CRM-skjermbilder.
+* **Verktøylinje** – Legger til en knapp på verktøylinjen.
+* **Navigatorknapp** – Legger til en knapp på hovedmenyen.
+* **Paneler:**
+  * **Firma-, Person-, Prosjekt-, Salg- og Utvalgskort** – Legger til en snarvei i **www**-fanen for hvert skjermbilde.
+  * **Webpanel på SuperOffice-knapp** – Åpnes fra SuperOffice-logoen (øvre venstre hjørne). Flere URL-er vises som faner til høyre.
+  * **Seksjonstabber (i Firma-, Person-, Prosjekt- og Salgsskjermbilder)** – Legger til en separat fane som åpner panelinnholdet.
+* **Dialogbokser:**
+  * **Oppfølgingsdialogboks** – Legger til en snarvei i **www**-fanen av oppfølgingsdialogboksen.
+  * **Dokument-, Produkt- og Tilbudsdialogbokser** – Legger til en snarvei i **www**-fanen av hver dialogboks.
+* **Menyer:**
+  * **Verktøymeny** – Vises under **Andre applikasjoner** når du klikker på **Verktøy**-knappen i Navigatoren.
+  * **Vis-meny** – Vises i menyalternativet **Andre applikasjoner**.
+* **Dashbord-fliser** – Tilgjengelige i fliseinnholdsvelgeren for dashbord-widgets.
 
 ### I Service (foreldet)
 

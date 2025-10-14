@@ -2,7 +2,7 @@
 uid: help-en-ui-web-panels
 title: Web panels
 description: Web panels
-keywords: web panel
+keywords: web panel, www tab
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -38,21 +38,20 @@ Web panels support a range of content types:
 
 The **display location** is defined when you configure the panel. This controls where in SuperOffice the panel appears.
 
-* Side panel
-* Toolbar
-* Navigator button (main menu)
-* Panels:
-  * Company, Contact, Project, Sale, and Selection cards
-  * SuperOffice button web panel
-  * Section tabs for Company, Contact, Project, and Sale screens
-* Dialogs:
-  * Follow-up dialog
-  * Document dialog
-  * Product and quote dialogs
-* Menus:
-  * Toolbox menu
-  * View menu
-* Dashboard tiles (via content selector drop-down)
+* **Side panel** – Appears in the collapsible panel on the side of many CRM screens.
+* **Toolbar** – Adds a button to the toolbar.
+* **Navigator button** – Adds a button to the main menu.
+* **Panels:**
+  * **Company, Contact, Project, Sale, and Selection cards** – Adds a shortcut in the **www** tab for each screen.
+  * **Web panel on SuperOffice button** – Opens from the SuperOffice logo (upper left corner). Multiple URLs appear as tabs on the right.
+  * **Section tabs (in Company, Contact, Project, Sale screens)** – Adds a separate tab that opens the panel content.
+* **Dialogs:**
+  * **Follow-up dialog** – Adds a shortcut in the **www** tab of the follow-up dialog.
+  * **Document, Product, and Quote dialogs** – Adds a shortcut in the **www** tab of each dialog.
+* **Menus:**
+  * **Toolbox menu** – Appears under **Other Applications** when clicking the **Tools** button in the Navigator.
+  * **View menu** – Appears in the **Other Applications** menu option.
+* **Dashboard tiles** – Available in the tile content selector for dashboard widgets.
 
 ### In Service (legacy)
 

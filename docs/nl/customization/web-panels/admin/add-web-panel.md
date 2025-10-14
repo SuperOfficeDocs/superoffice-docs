@@ -40,18 +40,10 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Voer in het veld **Vensternaam** de gewenste naam in voor het browservenster waarin het URL-adres moet worden geopend. Als u eerder een of meer vensternamen hebt toegevoegd en ze opnieuw wilt gebruiken, kunt u in het veld klikken en een naam uit de lijst selecteren. U kunt een naam ook rechtstreeks in het veld typen. De vensternaam zoals deze uiteindelijk wordt weergegeven wordt hieronder onderstreept weergegeven.
 
-1. Kies in de keuzelijst **Zichtbaar in** of het URL-adres toegankelijk moet zijn in SuperOffice CRM.
-    * **Zijpaneel**: selecteer deze optie om het URL-adres beschikbaar te maken op de zijpanelen in SuperOffice CRM.
+1. Kies in de keuzelijst **Zichtbaar in** waar het webpaneel moet verschijnen in SuperOffice CRM.
 
-    * **Werkbalk**: selecteer deze optie om de URL toegankelijk te maken als een knop op de werkbalk.
-
-    * **Navigator-knop**: selecteer deze optie om de URL toegankelijk te maken als een knop in de navigator in SuperOffice CRM.
-
-    * **Venster**: selecteer [een optie in deze keuzelijst](#options) om het URL-adres toegankelijk te maken als een venster/tabblad in SuperOffice CRM.
-
-    * **Dialoogvenster**: selecteer [optie in deze lijst](#options) om het URL-adres beschikbaar te maken in een dialoogvenster.
-
-    * **Menu**: selecteer [optie in deze lijst](#options) om het URL-adres toegankelijk te maken op een van de menu's in SuperOffice CRM.
+    * U kunt kiezen uit panelen, dialoogvensters, menu's, werkbalk of zijpaneellocaties.
+    * Voor een volledige lijst van weergaveopties, zie [Weergavelocaties voor webpanelen][8].
 
 1. In de keuzelijst **URL-codering** kunt u selecteren of de [URL][2] moet worden weergegeven in ANSI of Unicode (of geen indeling).
 
@@ -80,28 +72,6 @@ Zodra het item is opgeslagen, kunt u:
 * Aanvullende instellingen specificeren voor elk item:
   * Voor welke [gebruikersgroepen het item zichtbaar is][7].
   * Onder welke [koptekst][6] het wordt weergegeven.
-
-## <a id="options"></a>Opties
-
-### Venster
-
-* **Bedrijfskaart**, **Visitekaartje**, **Projectkaart**, **Selectiekaart** en **Verkoopkaart**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in de schermen Bedrijf, Persoon, Project, Selectie en Verkoop. Wanneer u op een snelkoppeling in SuperOffice CRM klikt, wordt de betreffende webpagina weergegeven in een klein schuifbaar venster op het tabblad. U kunt vervolgens ook op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
-
-* **Webpaneel op SuperOffice-knop**: het URL-adres wordt toegevoegd op het webpaneel in SuperOffice CRM. Het adres kan dan worden geopend als een internetpagina. Wanneer meerdere URL-adressen zijn gedefinieerd voor het webpaneel, worden deze weergegeven als tabbladen aan de rechterkant van het webpaneel. U opent het webpaneel door te klikken op het SuperOffice-logo linksboven in SuperOffice CRM.
-
-* Sectietabbladen in de schermen Bedrijf, Persoon, Project en Verkoop: het URL-adres wordt toegevoegd als een extra sectietabblad op het scherm Bedrijf/Persoon/Project/Verkoop. Wanneer u het sectietabblad in SuperOffice CRM selecteert, wordt de URL geopend. U kunt vervolgens ook op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
-
-### Dialoogvenster
-
-* **Het dialoogvenster voor vervolgactiviteiten**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in de dialoogvenster **Vervolgactiviteit**. U kunt vervolgens ook op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
-
-* **De dialoogvensters Document/Offerte/Product**: er wordt een snelkoppeling naar het URL-adres toegevoegd boven aan het tabblad **WWW** in deze dialoogvensters.
-
-### Menu
-
-* **Modulemenu**: het URL-adres wordt weergegeven wanneer de gebruiker op de knop **Hulpmiddelen** (<i class="ph ph-wrench" aria-hidden="true"></i>) klikt in de Navigator of **Andere toepassingen** selecteert in SuperOffice CRM.
-
-* **Weergavemenu**: het URL-adres wordt weergegeven wanneer de gebruiker **Andere toepassingen** selecteert in SuperOffice CRM.
 
 ## <a id="fields"></a>Referentie
 
@@ -146,5 +116,6 @@ In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde ty
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
 [7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[8]: index.md
 
 <!-- Referenced images -->
