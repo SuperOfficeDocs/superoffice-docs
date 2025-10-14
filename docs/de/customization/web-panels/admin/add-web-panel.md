@@ -36,6 +36,8 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
 
+    * Wenn Sie eine URL-Adresse hinzufügen, kann es nützlich sein, Template-Variablen für das aktive Unternehmen zu verwenden, um beispielsweise Informationen von anderen Anwendungen über eine URL abzurufen. Die URL-Adresse muss Parameter angeben, wie in diesem fiktiven Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist hier die Template-Variable für die Organisationsnummer, aber auch andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt;, Kontaktname &lt;attn&gt; können verwendet werden.
+
 1. Geben Sie im Feld **Fenstername** den Namen für das Browser-Fenster ein, in dem die URL-Adresse geöffnet werden soll. Falls Sie bereits einen oder mehrere Fensternamen hinzugefügt haben und sie erneut verwenden möchten, können Sie auf das Feld klicken und einen Namen in der Liste auswählen. Sie können auch einen neuen Namen direkt in das Feld eingeben. Der künftig angezeigte Fenstername wird als unterstrichener Text unter dem Feld angezeigt.
 
 1. Wählen Sie im Listenfeld **Sichtbar in** aus, an welcher Stelle in SuperOffice CRM auf die URL-Adresse zugegriffen werden kann.
@@ -69,8 +71,15 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 
-> [!TIP]
-> Wenn Sie eine URL-Adresse hinzufügen, könnte es nützlich sein, Vorlagenvariablen für die aktive Firma zu verwenden, um zum Beispiel über eine URL Informationen von anderen Anwendungen abzurufen. Es müssen die URL-Adresse Parameter angegeben werden, wie in folgendem Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist die Vorlagenvariable für die Organisationsnummer, andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt; und Personenname &lt;attn&gt; können ebenfalls verwendet werden.
+## Nach dem Speichern
+
+Sobald das Objekt gespeichert ist, können Sie:
+
+* Die Reihenfolge der Objekte mit den Pfeilschaltflächen links von der Liste ändern (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Zusätzliche Einstellungen für jedes Objekt festlegen:
+  * Für welche [Benutzergruppen das Objekt sichtbar ist][7].
+  * Unter welcher [Überschrift][6] es angezeigt wird.
 
 ## <a id="options"></a>Optionen
 
@@ -135,5 +144,7 @@ In Service werden Web-Bildschirme als **zusätzliche Browser-Tabs** bezeichnet. 
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->

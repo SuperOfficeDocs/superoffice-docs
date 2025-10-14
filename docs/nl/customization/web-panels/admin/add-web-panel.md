@@ -34,7 +34,9 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
     * Deze naam wordt weergegeven wanneer u het URL-adres toevoegt in SuperOffice CRM.
 
-1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Bekijk alstublieft de informatie hierboven voor het gebruik van HTTP/HTTPS URL's.
+1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Voor details over ondersteunde URL-types, zie [HTTP vs HTTPS URL's gebruiken](#https).
+
+    * Als u een URL-adres toevoegt, kan het nuttig zijn om sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie uit andere toepassingen op te halen via een URL. Het URL-adres moet parameters specificeren, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoon &lt;cpho&gt;, contactnaam &lt;attn&gt; kunnen ook worden gebruikt.
 
 1. Voer in het veld **Vensternaam** de gewenste naam in voor het browservenster waarin het URL-adres moet worden geopend. Als u eerder een of meer vensternamen hebt toegevoegd en ze opnieuw wilt gebruiken, kunt u in het veld klikken en een naam uit de lijst selecteren. U kunt een naam ook rechtstreeks in het veld typen. De vensternaam zoals deze uiteindelijk wordt weergegeven wordt hieronder onderstreept weergegeven.
 
@@ -69,8 +71,15 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Klik op **Opslaan** om de wijzigingen op te slaan of op **Annuleren** om ze te negeren.
 
-> [!TIP]
-> Als u een URL-adres toevoegt, kan het handig zijn meerdere sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie van andere toepassingen via een URL op te halen. Het URL-adres moet bepaalde parameters bevatten, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoonnummer &lt;cpho&gt;, persoonsnaam &lt;attn&gt;, kunnen ook gebruikt worden.
+## Na het opslaan
+
+Zodra het item is opgeslagen, kunt u:
+
+* De volgorde van items wijzigen met de pijlknoppen links van de lijst (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Aanvullende instellingen specificeren voor elk item:
+  * Voor welke [gebruikersgroepen het item zichtbaar is][7].
+  * Onder welke [koptekst][6] het wordt weergegeven.
 
 ## <a id="options"></a>Opties
 
@@ -135,5 +144,7 @@ In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde ty
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->

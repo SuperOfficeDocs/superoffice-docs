@@ -36,6 +36,8 @@ Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i *
 
 1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. For detaljer om understøttede URL-typer, se [Brug af HTTP vs HTTPS URL'er](#https).
 
+    * Når du tilføjer en URL-adresse, kan det være nyttigt at bruge skabelonvariabler for det aktive firma, for eksempel til at hente oplysninger fra andre programmer via en URL. URL-adressen skal angive parametre som i dette fiktive eksempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er skabelonvariablen for organisationsnummer, men andre variabler, såsom firmanavn &lt;name&gt;, firmaets telefonnummer &lt;cpho&gt; eller personnavn &lt;attn&gt; kan også anvendes.
+
 1. Angiv i feltet **Vinduesnavn** det nødvendige navn på det browservindue, hvor URL-adressen skal åbnes. Hvis du tidligere har tilføjet et eller flere vinduesnavne og vil genbruge dem, kan du klikke i feltet og vælge et navn på listen. Du kan også indtaste et nyt navn direkte i feltet. Det endelige vinduesnavn vises understreget nedenfor.
 
 1. På listen **Synlig i** vælger du, hvor URL-adressen skal være tilgængelig i SuperOffice CRM.
@@ -69,8 +71,15 @@ Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i *
 
 1. Klik på **Gem** for at gemme ændringerne eller **Annuller** for at afvise dem.
 
-> [!TIP]
-> Når du tilføjer en URL-adresse, kan det være nyttigt at bruge skabelonvariabler for det aktive firma, for eksempel til at hente oplysninger fra andre programmer via en URL. URL-adressen skal angive parametre som i dette fiktive eksempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er skabelonvariablen for organisationsnummer, men andre variabler, såsom firmanavn &lt;name&gt;, firmaets telefonnummer &lt;cpho&gt; eller personnavn &lt;attn&gt; kan også anvendes.
+## Efter at have gemt
+
+Når elementet er gemt, kan du:
+
+* Ændre rækkefølgen af elementer ved hjælp af pilknapperne til venstre for listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Angive yderligere indstillinger for hvert element:
+  * Hvilke [brugergrupper elementet er synligt for][7].
+  * Hvilken [overskrift][6] det skal vises under.
 
 ## <a id="options"></a>Indstillinger
 
@@ -135,5 +144,7 @@ I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samm
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->

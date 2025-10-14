@@ -17,18 +17,9 @@ In SuperOffice CRM beschikt u over snelkoppelingen waarmee u vanuit het programm
 
 U definieert welke URL-adressen beschikbaar zijn voor gebruikers in SuperOffice CRM in het scherm **Lijsten** in Instellingen en onderhoud.
 
-De items worden weergegeven in de volgorde waarin u ze hebt ingevoerd. Als u de volgorde wilt wijzigen, selecteert u het item en plaatst u het met behulp van de pijltoetsen links van de lijst hoger of lager (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
-
-Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven. U kunt opgeven:
-
-* Voor welke [gebruikersgroepen het item zichtbaar is][2].
-* Met welke [koptekst][1] het item moet worden weergegeven.
-
 ## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst GUI - Webpaneel][3]
 
 <!-- Referenced links -->
-[1]: organize/headings.md
-[2]: organize/user-group-filtering.md
 [3]: web-panel-add-item.md

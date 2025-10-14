@@ -38,6 +38,8 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. For details about supported URL types, see [Using HTTP vs HTTPS URLs](#https).
 
+    * If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via an URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+
 1. In the **Window name** field, specify the required name of the browser window where the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 
 1. In the **Visible in** list box, choose where the URL address will be accessible in SuperOffice CRM.
@@ -71,8 +73,15 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. Click **Save** to save the changes or **Cancel** to reject them.
 
-> [!TIP]
-> If you add a URL address, it may be useful to use template variables for the active company, for example, to retrieve information from other applications via an URL. The URL address must specify parameters, as in this fictitious example: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn here is the template variable for the organisation number, but other variables like company name &lt;name&gt;, company phone number &lt;cpho&gt;, contact name &lt;attn&gt;, can also be used.
+## After saving
+
+Once the item is saved, you can:
+
+* Change the order of items using the arrow buttons to the left of the list (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Specify additional settings for each item:
+  * Which [user groups the item is visible for][7].
+  * Which [heading][6] it will be displayed under.
 
 ## <a id="options"></a>Options
 
@@ -137,5 +146,7 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->

@@ -34,7 +34,9 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
     * Det här namnet visas när du lägger till webbadressen i SuperOffice CRM.
 
-1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. [Använda HTTP vs HTTPS-webbadresser](#https)
+1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. För detaljer om stödda URL-typer, se [Använda HTTP vs HTTPS-webbadresser](#https).
+
+    * Om du lägger till en webbadress kan det vara användbart att använda mallvariabler för det aktiva företaget, till exempel för att hämta information från andra applikationer via en URL. Webbadressen måste ange parametrar, som i detta fiktiva exempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är här mallvariabeln för organisationsnumret, men andra variabler som företagsnamn &lt;name&gt;, företagstelefonnummer &lt;cpho&gt;, kontaktnamn &lt;attn&gt; kan också användas.
 
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
@@ -69,8 +71,15 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att förkasta dem.
 
-> [!TIP]
-> När du lägger till en webbadress kan det vara praktiskt att använda mallvariabler för det aktiva företaget, till exempel för att hämta information från andra applikationer via webbadressen. Webbadressen måste innehålla parametrar som i det här fiktiva exemplet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är mallvariabeln för organisationsnummer, men andra variabler, t.ex. företagsnamn &lt;name&gt;, företagets telefonnummer &lt;cpho&gt; och kontaktnamn &lt;attn&gt;, kan också användas.
+## Efter att ha sparat
+
+När posten har sparats kan du:
+
+* Ändra ordningen på poster med hjälp av pilknapparna till vänster om listan (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Ange ytterligare inställningar för varje post:
+  * Vilka [användargrupper posten ska vara synlig för][7].
+  * Vilken [rubrik][6] den ska visas under.
 
 ## <a id="options"></a>Alternativ
 
@@ -135,5 +144,7 @@ I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->

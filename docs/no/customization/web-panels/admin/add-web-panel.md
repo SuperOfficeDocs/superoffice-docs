@@ -34,7 +34,9 @@ Webpaneler er definert i listen **GUI - Webpanel**, som du kan administrere i **
 
     * Dette navnet vises når du legger inn URL-adressen i SuperOffice CRM.
 
-1. I **URL-feltet** angir du URL-adressen, for eksempel en webside eller en serverbasert HTML-fil. [Bruke HTTP vs HTTPS-nettadresser](#https)
+1. I **URL-feltet** angir du URL-adressen, for eksempel en webside eller en serverbasert HTML-fil. For detaljer om støttede URL-typer, se [Bruke HTTP vs HTTPS-nettadresser](#https).
+
+    * Hvis du legger til en URL-adresse, kan det være nyttig å bruke malvariabler for det aktive firmaet, for eksempel for å hente informasjon fra andre applikasjoner via en URL. URL-adressen må spesifisere parametere, som i dette fiktive eksempelet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er her malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt;, kontaktnavn &lt;attn&gt; kan også brukes.
 
 1. I feltet **Vindusnavn** angir du det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
 
@@ -69,8 +71,15 @@ Webpaneler er definert i listen **GUI - Webpanel**, som du kan administrere i **
 
 1. Klikk **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
-> [!TIP]
-> Når du legger til en URL-adresse, kan det være nyttig å bruke malvariabler for aktivt firma, for eksempel for å hente informasjon fra andre applikasjoner via URL. URL-adressen må angi parametere, for eksempel slik: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn her er malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt; og navn på personen &lt;attn&gt;, kan også brukes.
+## Etter lagring
+
+Når elementet er lagret, kan du:
+
+* Endre rekkefølgen på elementer ved hjelp av pilknappene til venstre for listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
+
+* Spesifisere ytterligere innstillinger for hvert element:
+  * Hvilke [brukergrupper elementet er synlig for][7].
+  * Hvilken [overskrift][6] det skal vises under.
 
 ## <a id="options"></a>Alternativer
 
@@ -135,5 +144,7 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
+[6]: ../../../admin/lists/learn/organize/headings.md
+[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
 
 <!-- Referenced images -->
