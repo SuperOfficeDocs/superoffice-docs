@@ -36,8 +36,6 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
 
-    * Wenn Sie eine URL-Adresse hinzufügen, kann es nützlich sein, Template-Variablen für das aktive Unternehmen zu verwenden, um beispielsweise Informationen von anderen Anwendungen über eine URL abzurufen. Die URL-Adresse muss Parameter angeben, wie in diesem fiktiven Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist hier die Template-Variable für die Organisationsnummer, aber auch andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt;, Kontaktname &lt;attn&gt; können verwendet werden.
-
 1. Geben Sie im Feld **Fenstername** den Namen für das Browser-Fenster ein, in dem die URL-Adresse geöffnet werden soll. Falls Sie bereits einen oder mehrere Fensternamen hinzugefügt haben und sie erneut verwenden möchten, können Sie auf das Feld klicken und einen Namen in der Liste auswählen. Sie können auch einen neuen Namen direkt in das Feld eingeben. Der künftig angezeigte Fenstername wird als unterstrichener Text unter dem Feld angezeigt.
 
 1. Wählen Sie im Listenfeld **Sichtbar in** aus, wo der Web-Bildschirm in SuperOffice CRM angezeigt werden soll.
@@ -86,9 +84,13 @@ Sobald das Objekt gespeichert ist, können Sie:
 | Verfügbar auf | Gerätetyp (Web, Mobil) |
 | Anzeigen | Ob Menüleiste, Symbolleiste, Adressleiste und/oder Statusleiste angezeigt werden |
 
-## <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
+### <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+
+### Verwenden von Template-Variablen
+
+Wenn Sie eine URL-Adresse hinzufügen, kann es nützlich sein, Template-Variablen für das aktive Unternehmen zu verwenden, um beispielsweise Informationen von anderen Anwendungen über eine URL abzurufen. Die URL-Adresse muss Parameter angeben, wie in diesem fiktiven Beispiel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn ist hier die Template-Variable für die Organisationsnummer, aber auch andere Variablen wie Firmenname &lt;name&gt;, Firmentelefonnummer &lt;cpho&gt;, Kontaktname &lt;attn&gt; können verwendet werden.
 
 ## Web-Bildschirm in Service hinzufügen (veraltet)
 

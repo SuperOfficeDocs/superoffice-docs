@@ -36,8 +36,6 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. I **URL-feltet** angir du URL-adressen, for eksempel en webside eller en serverbasert HTML-fil. For detaljer om støttede URL-typer, se [Bruke HTTP vs HTTPS-nettadresser](#https).
 
-    * Hvis du legger til en URL-adresse, kan det være nyttig å bruke malvariabler for det aktive firmaet, for eksempel for å hente informasjon fra andre applikasjoner via en URL. URL-adressen må spesifisere parametere, som i dette fiktive eksempelet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er her malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt;, kontaktnavn &lt;attn&gt; kan også brukes.
-
 1. I feltet **Vindusnavn** angir du det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
 
 1. I listeboksen **Synlig i** velger du hvor webpanelet skal vises i SuperOffice CRM.
@@ -86,9 +84,13 @@ Når elementet er lagret, kan du:
 | Tilgjengelig på | Enhetstype (web, mobil) |
 | Vis | Om menylinjen, verktøylinjen, adresselinjen og/eller statuslinjen skal vises |
 
-## <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
+### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+
+### Bruke malvariabler
+
+Hvis du legger til en URL-adresse, kan det være nyttig å bruke malvariabler for det aktive firmaet, for eksempel for å hente informasjon fra andre applikasjoner via en URL. URL-adressen må spesifisere parametere, som i dette fiktive eksempelet: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn er her malvariabelen for organisasjonsnummeret, men andre variabler som firmanavn &lt;name&gt;, firmatelefonnummer &lt;cpho&gt;, kontaktnavn &lt;attn&gt; kan også brukes.
 
 ## Legg til webpanel i Service (utdatert)
 

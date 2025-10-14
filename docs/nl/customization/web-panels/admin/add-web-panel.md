@@ -36,8 +36,6 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Voor details over ondersteunde URL-types, zie [HTTP vs HTTPS URL's gebruiken](#https).
 
-    * Als u een URL-adres toevoegt, kan het nuttig zijn om sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie uit andere toepassingen op te halen via een URL. Het URL-adres moet parameters specificeren, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoon &lt;cpho&gt;, contactnaam &lt;attn&gt; kunnen ook worden gebruikt.
-
 1. Voer in het veld **Vensternaam** de gewenste naam in voor het browservenster waarin het URL-adres moet worden geopend. Als u eerder een of meer vensternamen hebt toegevoegd en ze opnieuw wilt gebruiken, kunt u in het veld klikken en een naam uit de lijst selecteren. U kunt een naam ook rechtstreeks in het veld typen. De vensternaam zoals deze uiteindelijk wordt weergegeven wordt hieronder onderstreept weergegeven.
 
 1. Kies in de keuzelijst **Zichtbaar in** waar het webpaneel moet verschijnen in SuperOffice CRM.
@@ -86,9 +84,13 @@ Zodra het item is opgeslagen, kunt u:
 | Beschikbaar op | Apparaattype (web, mobiel) |
 | Tonen | Of de menubalk, werkbalk, adresbalk en/of statusbalk moet worden getoond |
 
-## <a id="https"></a>HTTP vs HTTPS URL's gebruiken
+### <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+
+### Sjabloonvariabelen gebruiken
+
+Als u een URL-adres toevoegt, kan het nuttig zijn om sjabloonvariabelen te gebruiken voor het actieve bedrijf, bijvoorbeeld om informatie uit andere toepassingen op te halen via een URL. Het URL-adres moet parameters specificeren, zoals in dit fictieve voorbeeld: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn is hier de sjabloonvariabele voor het organisatienummer, maar andere variabelen zoals bedrijfsnaam &lt;name&gt;, bedrijfstelefoon &lt;cpho&gt;, contactnaam &lt;attn&gt; kunnen ook worden gebruikt.
 
 ## Webpaneel in toevoegen Service (verouderd)
 

@@ -38,8 +38,6 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. För detaljer om stödda URL-typer, se [Använda HTTP vs HTTPS-webbadresser](#https).
 
-    * Om du lägger till en webbadress kan det vara användbart att använda mallvariabler för det aktiva företaget, till exempel för att hämta information från andra applikationer via en URL. Webbadressen måste ange parametrar, som i detta fiktiva exempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är här mallvariabeln för organisationsnumret, men andra variabler som företagsnamn &lt;name&gt;, företagstelefonnummer &lt;cpho&gt;, kontaktnamn &lt;attn&gt; kan också användas.
-
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
 1. I listrutan **Synlig i** väljer du var webbpanelen ska visas i SuperOffice CRM.
@@ -88,9 +86,13 @@ När posten har sparats kan du:
 | Tillgänglig på | Enhetstyp (webb, mobil) |
 | Visa | Om menyrad, verktygsfält, adressfält och/eller statusfält ska visas |
 
-## <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
+### <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+
+### Använda mallvariabler
+
+Om du lägger till en webbadress kan det vara användbart att använda mallvariabler för det aktiva företaget, till exempel för att hämta information från andra applikationer via en URL. Webbadressen måste ange parametrar, som i detta fiktiva exempel: `http://www.comlist.com/data/indiv/detail.jsp?orgno=<orgn>`. orgn är här mallvariabeln för organisationsnumret, men andra variabler som företagsnamn &lt;name&gt;, företagstelefonnummer &lt;cpho&gt;, kontaktnamn &lt;attn&gt; kan också användas.
 
 ## Lägg till webbpanel i Service (föråldrad)
 
