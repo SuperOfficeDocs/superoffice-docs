@@ -18,6 +18,10 @@ redirect_from: /da/ui/web-panels/learn/index
 
 # Webpaneler
 
+Et **webpanel** er et konfigurerbart område inden for SuperOffice CRM, der viser indhold fra en webside eller intern ressource baseret på en URL. Dette giver dig mulighed for at integrere eksterne datakilder eller interne værktøjer direkte i SuperOffice.
+
+Webpaneler kan vises på forskellige placeringer og er tilpasset den kontekst, brugeren arbejder i, såsom et firmakort, en sag eller en opfølgning.
+
 ## Indholdstyper understøttet af webpaneler
 
 Webpaneler understøtter en række indholdstyper:
@@ -64,6 +68,17 @@ Du kan omdøbe fanen i **Indstillinger og vedligeholdelse** > **Indstillinger** 
 ### Åbn i nyt vindue
 
 Alle indlejrede URL-adresser kan åbnes i et separat browservindue ved hjælp af **Åbn i nyt vindue**.
+
+## Sådan fungerer webpaneler
+
+Webpaneler indlæser dynamisk indhold baseret på CRM-kontekst og den URL, der er defineret for panelet:
+
+1. En bruger åbner en post (for eksempel et firma).
+1. Systemet beregner URL'en ved hjælp af tilgængelige skabelonvariabler.
+    * For eksempel bliver `http://server/side.asp?id=<cuid>` til `http://server/side.asp?id=123`
+1. Hvis den nye URL er anderledes end den forrige, sender systemet en ny anmodning.
+1. Serveren svarer med den passende webside: den modtager URL'en, beregner siden ved hjælp af URL-parametre og returnerer resultatet.
+1. Panelet gengiver websiden inden for SuperOffice CRM.
 
 <!-- Referenced links -->
 

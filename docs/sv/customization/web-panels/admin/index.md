@@ -18,6 +18,10 @@ redirect_from: /sv/ui/web-panels/learn/index
 
 # Webbpaneler
 
+En **webbpanel** är ett konfigurerbart område i SuperOffice CRM som visar innehåll från en webbsida eller intern resurs, baserat på en URL. Detta låter dig integrera externa datakällor eller interna verktyg direkt i SuperOffice.
+
+Webbpaneler kan visas på olika platser och anpassas till det sammanhang användaren arbetar i, såsom ett företagskort, ett ärende eller en händelse.
+
 ## Innehållstyper som stöds av webbpaneler
 
 Webbpaneler stöder en rad innehållstyper:
@@ -64,6 +68,17 @@ Du kan byta namn på fliken i **Inställningar och underhåll** > **Systemval** 
 ### Öppna i eget fönster
 
 Alla inbäddade URL:er kan öppnas i ett separat webbläsarfönster med **Öppna i eget fönster**.
+
+## Så fungerar webbpaneler
+
+Webbpaneler laddar innehåll dynamiskt baserat på CRM-kontext och URL:en som är definierad för panelen:
+
+1. En användare öppnar en post (till exempel ett företag).
+1. Systemet beräknar URL:en med tillgängliga mallvariabler.
+    * Till exempel blir `http://server/sida.asp?id=<cuid>` till `http://server/sida.asp?id=123`
+1. Om den nya URL:en skiljer sig från den föregående skickar systemet en ny förfrågan.
+1. Servern svarar med lämplig webbsida: den tar emot URL:en, beräknar sidan med URL-parametrar och returnerar resultatet.
+1. Panelen renderar webbsidan inne i SuperOffice CRM.
 
 <!-- Referenced links -->
 

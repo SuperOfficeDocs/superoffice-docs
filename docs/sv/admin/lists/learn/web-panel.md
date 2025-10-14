@@ -13,10 +13,6 @@ language: sv
 
 # GUI – Webbpanel
 
-Du kan ha kortkommandon för webbadresser i SuperOffice CRM så att du kan öppna dem direkt från programmet.
-
-Du definierar vilka webbadresser som ska vara tillgängliga för användarna i SuperOffice CRM i fönstret **Listor** under Inställningar och underhåll.
-
 ## Relaterat innehåll
 
 * [Lägga till poster i listan GUI – Webbpanel][3]

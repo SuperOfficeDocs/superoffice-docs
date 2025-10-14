@@ -13,10 +13,6 @@ language: no
 
 # GUI - Webpanel
 
-Du kan ha snarveier til URL-adresser i SuperOffice CRM, slik at du kan åpne dem direkte fra programmet.
-
-Hvilke URL-adresser som skal være tilgjengelige for brukerne i SuperOffice CRM, defineres i **Lister**-bildet i Innstillinger og vedlikehold.
-
 ## Relatert innhold
 
 * [Legge til forekomster på listen GUI - Webpanel][3]

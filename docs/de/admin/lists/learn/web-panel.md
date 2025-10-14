@@ -13,10 +13,6 @@ language: de
 
 # GUI - Web-Bildschirm
 
-Sie können Verknüpfungen zu URL-Adressen in SuperOffice CRM einrichten, sodass Sie diese direkt aus dem Programm heraus öffnen können.
-
-Sie definieren, welche URL-Adressen den Benutzern in der Ansicht **Listen** in Einstellungen und Verwaltung zur Verfügung stehen.
-
 ## Verwandte Inhalte
 
 * [Objekte zur Liste GUI - Web-Bildschirm hinzufügen][3]

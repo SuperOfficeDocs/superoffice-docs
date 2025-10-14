@@ -13,10 +13,6 @@ language: nl
 
 # GUI - Webpaneel
 
-In SuperOffice CRM beschikt u over snelkoppelingen waarmee u vanuit het programma rechtstreeks naar URL-adressen kunt gaan en deze kunt openen.
-
-U definieert welke URL-adressen beschikbaar zijn voor gebruikers in SuperOffice CRM in het scherm **Lijsten** in Instellingen en onderhoud.
-
 ## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst GUI - Webpaneel][3]

@@ -22,7 +22,7 @@ redirect_from:
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-Web panels are defined in the **GUI - Web panel** list, which you can manage in **Settings and maintenance** under **Lists**.
+Web panels are defined in the **GUI - Web panel** list, which you can manage in **Settings and maintenance** under **Lists**. Where your web panel appears is determined by the display location. The content of your web panel is determined by the URL.
 
 ## Steps
 

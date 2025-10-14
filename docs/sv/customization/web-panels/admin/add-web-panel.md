@@ -20,6 +20,8 @@ redirect_from: /sv/admin/lists/learn/web-panel-add-item
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
+Var din webbpanel visas bestäms av *Synlig i*. Innehållet i din webbpanel bestäms av URL:en.
+
 Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inställningar och underhåll** under **Listor**.
 
 ## Steg

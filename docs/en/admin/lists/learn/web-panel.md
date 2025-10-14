@@ -13,10 +13,6 @@ language: en
 
 # GUI - Web panel
 
-You can have shortcuts to URL addresses in SuperOffice CRM, so that you can open them directly from within the program.
-
-You define which URL addresses will be available to users in SuperOffice CRM in the **Lists** screen in Settings and maintenance.
-
 ## Related content
 
 * [Add items to the GUI - Web panel list][3]

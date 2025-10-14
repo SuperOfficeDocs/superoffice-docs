@@ -18,6 +18,10 @@ redirect_from: /en/ui/web-panels/learn/index
 
 # Web panels
 
+A **web panel** is a configurable area inside SuperOffice CRM that displays content from a web page or internal resource, based on a URL. This lets you integrate external data sources or internal tools directly into the CRM interface.
+
+Web panels can appear in various locations and are tailored to the context the user is working in, such as a company card, request, or follow-up.
+
 ## Content types supported by web panels
 
 Web panels support a range of content types:
@@ -64,6 +68,17 @@ You can rename the tab in **Settings and maintenance** > **Options** > **Labels*
 ### Open in separate window
 
 All embedded URLs can be opened in a separate browser window using **Open in separate window**.
+
+## How web panels work
+
+Web panels dynamically load content based on CRM context and the URL defined for the panel:
+
+1. A user opens a record (for example, a company).
+1. The system computes the URL using available template variables.
+    * For example, `http://server/page.asp?id=<cuid>` becomes `http://server/page.asp?id=123`
+1. If the new URL is different from the previous one, the system sends a new request.
+1. The server responds with the appropriate web page: it receives the URL, computes the page using URL parameters, and returns the result.
+1. The panel renders the web page inside SuperOffice CRM.
 
 <!-- Referenced links -->
 

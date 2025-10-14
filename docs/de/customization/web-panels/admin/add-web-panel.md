@@ -20,7 +20,7 @@ redirect_from: /de/admin/lists/learn/web-panel-add-item
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie in **Einstellungen und Verwaltung** unter **Listen** verwalten können.
+Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie in **Einstellungen und Verwaltung** unter **Listen** verwalten können. Wo Ihr Web-Bildschirm erscheint, wird durch *Sichtbar in* bestimmt. Der Inhalt Ihres Web-Bildschirms wird durch die URL bestimmt.
 
 ## Schritte
 

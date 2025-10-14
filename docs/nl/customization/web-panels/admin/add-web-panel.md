@@ -20,7 +20,7 @@ redirect_from: /nl/admin/lists/learn/web-panel-add-item
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beheren in **Instellingen en onderhoud** onder **Lijsten**.
+Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beheren in **Instellingen en onderhoud** onder **Lijsten**. Waar uw webpaneel verschijnt wordt bepaald door *Zichtbaar in*. De inhoud van uw webpaneel wordt bepaald door de URL.
 
 ## Stappen
 

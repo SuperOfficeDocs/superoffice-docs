@@ -20,7 +20,7 @@ redirect_from: /no/admin/lists/learn/web-panel-add-item
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-Webpaneler er definert i listen **GUI - Webpanel**, som du kan administrere i **Innstillinger og vedlikehold** under **Lister**.
+Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **Innstillinger og vedlikehold** under **Lister**. Hvor webpanelet ditt vises bestemmes av *Synlig i*. Innholdet i webpanelet ditt bestemmes av URL-adressen.
 
 ## Trinn
 
