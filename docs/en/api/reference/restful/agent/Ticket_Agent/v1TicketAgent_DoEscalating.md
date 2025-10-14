@@ -15,6 +15,7 @@ Checks if the ticket should change its alert level based on the priority and act
 
 
 If it is to change, the alert level and alert timeout for the ticket will be updated.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 735,
+  "TicketId": 698,
   "Action": "ActionChangedOwner"
 }
 ```

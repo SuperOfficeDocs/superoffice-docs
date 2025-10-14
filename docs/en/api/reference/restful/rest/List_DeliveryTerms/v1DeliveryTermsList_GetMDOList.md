@@ -28,7 +28,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=mollitia
+GET /api/v1/List/DeliveryTerm/MDOItems?query=quis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Zboncak-Kreiger",
-    "ToolTip": "Officiis id provident voluptatem est consequatur aut non.",
+    "Id": 469,
+    "Name": "Sipes-Waelchi",
+    "ToolTip": "Sed rerum quis voluptatem iste saepe.",
     "Deleted": false,
-    "Rank": 91,
-    "Type": "deserunt",
+    "Rank": 907,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Klein Inc and Sons",
-        "ToolTip": "Dolorem tempore debitis sit quaerat doloribus.",
+        "Id": 20,
+        "Name": "Nikolaus-Kilback",
+        "ToolTip": "Pariatur totam sunt architecto consequatur.",
         "Deleted": false,
-        "Rank": 950,
-        "Type": "officia",
+        "Rank": 703,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 303,
-        "ExtraInfo": "alias",
-        "StyleHint": "cupiditate",
-        "FullName": "Mr. Nikko Gulgowski IV",
+        "IconHint": "eos",
+        "ColorBlock": 338,
+        "ExtraInfo": "impedit",
+        "StyleHint": "eos",
+        "FullName": "Lavinia Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 151,
-    "ExtraInfo": "facere",
-    "StyleHint": "optio",
-    "FullName": "Ms. Sally Stacy Kreiger I",
+    "IconHint": "nihil",
+    "ColorBlock": 796,
+    "ExtraInfo": "ut",
+    "StyleHint": "velit",
+    "FullName": "Miss Pattie Horacio Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 212
       }
     }
   }

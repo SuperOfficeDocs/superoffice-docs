@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPositions
 Returns all the positions a person could have.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Value": "repellat",
-    "Tooltip": "maxime",
+    "Id": 18,
+    "Value": "ut",
+    "Tooltip": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   },
   {
-    "Id": 718,
-    "Value": "repellat",
-    "Tooltip": "maxime",
+    "Id": 18,
+    "Value": "ut",
+    "Tooltip": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

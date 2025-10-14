@@ -15,6 +15,7 @@ Store a document's contents from its stream.
 
 
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -111,13 +112,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -128,88 +129,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 455,
+  "DocumentId": 140,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "corporis",
-  "Header": "hic",
-  "Name": "Treutel-McLaughlin",
-  "OurRef": "ullam",
-  "YourRef": "dolore",
-  "CreatedDate": "2021-08-04T11:24:47.9689125+02:00",
-  "UpdatedDate": "2011-02-07T11:24:47.9689125+01:00",
-  "Description": "Inverse uniform artificial intelligence",
+  "Attention": "pariatur",
+  "Header": "officia",
+  "Name": "Cummings, Crist and Barrows",
+  "OurRef": "expedita",
+  "YourRef": "numquam",
+  "CreatedDate": "2005-02-19T03:40:46.6561419+01:00",
+  "UpdatedDate": "2002-11-30T03:40:46.6561419+01:00",
+  "Description": "Self-enabling neutral pricing structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-02-13T11:24:47.9689125+01:00",
-  "ExternalRef": "aut",
+  "Date": "2005-09-25T03:40:46.6561419+02:00",
+  "ExternalRef": "expedita",
   "Completed": "Completed",
-  "ActiveLinks": 886,
+  "ActiveLinks": 316,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Raynor Inc and Sons",
-      "Id": 543,
-      "Description": "Reduced bi-directional ability",
-      "ExtraInfo": "quo",
-      "LinkId": 622,
+      "EntityName": "Kerluke-Luettgen",
+      "Id": 486,
+      "Description": "Persistent intermediate Graphic Interface",
+      "ExtraInfo": "quidem",
+      "LinkId": 921,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldType": "System.String",
+          "FieldLength": 881
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 920,
-  "Snum": 100,
+  "SuggestedDocumentId": 884,
+  "Snum": 374,
   "UserDefinedFields": {
-    "SuperOffice:1": "1350826995",
-    "SuperOffice:2": "119083742"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Kayley Ward Cruickshank II"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "enim"
+    "CustomFields1": "aut",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "2004-07-11T11:24:47.9689125+02:00",
-  "PublishTo": "2005-05-05T11:24:47.9689125+02:00",
-  "PublishFrom": "2013-07-24T11:24:47.9689125+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2020-04-23T03:40:46.671768+02:00",
+  "PublishTo": "2014-03-21T03:40:46.671768+01:00",
+  "PublishFrom": "2015-02-15T03:40:46.671768+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 704,
+      "VisibleId": 933,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     },
     {
-      "VisibleId": 704,
+      "VisibleId": 933,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
@@ -219,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 136
     }
   }
 }

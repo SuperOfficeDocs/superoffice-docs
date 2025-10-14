@@ -15,6 +15,7 @@ Creates a RecurrenceInfo object populated with the default values for the specif
 
 
 Using startDate as start date for the recurreing pattern.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -89,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1998-11-22T11:24:47.4533128+01:00"
+  "StartDate": "2011-09-20T03:40:45.935643+02:00"
 }
 ```
 
@@ -100,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 887,
-  "StartDate": "2000-10-24T11:24:47.4533128+02:00",
-  "EndDate": "2012-11-20T11:24:47.4533128+01:00",
-  "RecurrenceCounter": 494,
+  "RecurrenceId": 245,
+  "StartDate": "2013-06-10T03:40:45.935643+02:00",
+  "EndDate": "2009-06-08T03:40:45.935643+02:00",
+  "RecurrenceCounter": 488,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-09-16T11:24:47.4533128+02:00",
+      "Date": "2006-07-05T03:40:45.935643+02:00",
       "IsConflict": true,
-      "Description": "Inverse analyzing complexity",
-      "DescriptionStyleHint": "Profit-focused exuding alliance",
-      "Tooltip": "qui"
+      "Description": "Configurable fresh-thinking core",
+      "DescriptionStyleHint": "Ameliorated modular capability",
+      "Tooltip": "ratione"
     },
     {
-      "Date": "2020-09-16T11:24:47.4533128+02:00",
+      "Date": "2006-07-05T03:40:45.935643+02:00",
       "IsConflict": true,
-      "Description": "Inverse analyzing complexity",
-      "DescriptionStyleHint": "Profit-focused exuding alliance",
-      "Tooltip": "qui"
+      "Description": "Configurable fresh-thinking core",
+      "DescriptionStyleHint": "Ameliorated modular capability",
+      "Tooltip": "ratione"
     }
   ],
   "IsRecurrence": true

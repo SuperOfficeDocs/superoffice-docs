@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Loading default values into a new CategoryEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 402,
-  "Name": "Macejkovic LLC",
+  "CategoryId": 879,
+  "Name": "Ankunding Group",
   "CategoryGroup": "Customer",
-  "Tooltip": "velit",
-  "Rank": 478,
+  "Tooltip": "quas",
+  "Rank": 845,
   "EnableLeadStatus": false,
-  "CategoryFamilyId": 739,
-  "Deleted": true,
+  "CategoryFamilyId": 445,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 568
     }
   }
 }

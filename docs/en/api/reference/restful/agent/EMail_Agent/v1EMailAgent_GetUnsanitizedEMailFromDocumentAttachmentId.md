@@ -15,6 +15,7 @@ Get an e-mail based on an email in the archive system and attachment id.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -106,16 +107,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 836,
+  "DocId": 335,
   "AttachmentIds": [
-    "quia",
-    "sed"
+    "incidunt",
+    "eum"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -128,147 +129,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 448,
-      "ContactName": "Lindgren, Osinski and Brekke",
-      "PersonId": 798,
-      "PersonName": "Stehr Inc and Sons",
-      "AssociateId": 237,
-      "Address": "iste",
-      "EmailId": 339,
+      "ContactId": 44,
+      "ContactName": "Upton Inc and Sons",
+      "PersonId": 65,
+      "PersonName": "Rice-Hansen",
+      "AssociateId": 321,
+      "Address": "autem",
+      "EmailId": 405,
       "DuplicatePersonIds": [
-        655,
-        69
+        362,
+        651
       ],
-      "Name": "Kemmer Inc and Sons",
+      "Name": "Rutherford-D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldType": "System.Int32",
+          "FieldLength": 28
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 111,
-      "ContactName": "Sanford, Weissnat and Stoltenberg",
-      "PersonId": 628,
-      "PersonName": "Herman, Huels and O'Connell",
-      "AssociateId": 880,
-      "Address": "veniam",
-      "EmailId": 533,
+      "ContactId": 482,
+      "ContactName": "Gutmann, Shanahan and Hane",
+      "PersonId": 29,
+      "PersonName": "Abshire-Rath",
+      "AssociateId": 296,
+      "Address": "sequi",
+      "EmailId": 58,
       "DuplicatePersonIds": [
-        589,
-        141
+        306,
+        679
       ],
-      "Name": "Bode Group",
+      "Name": "Shields, Kilback and Hauck",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldType": "System.String",
+          "FieldLength": 874
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 148,
-      "ContactName": "Lind Group",
-      "PersonId": 315,
-      "PersonName": "Stanton LLC",
-      "AssociateId": 753,
-      "Address": "dolores",
-      "EmailId": 380,
+      "ContactId": 571,
+      "ContactName": "Durgan-Ziemann",
+      "PersonId": 817,
+      "PersonName": "Langosh Inc and Sons",
+      "AssociateId": 62,
+      "Address": "vel",
+      "EmailId": 922,
       "DuplicatePersonIds": [
-        453,
-        138
+        530,
+        912
       ],
-      "Name": "Johnson Inc and Sons",
+      "Name": "Boyle, Hayes and Johnston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 888
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Subject": "ducimus",
-  "HTMLBody": "perspiciatis",
+  "Subject": "animi",
+  "HTMLBody": "debitis",
   "From": null,
-  "Sent": "2013-04-11T11:24:48.0939075+02:00",
-  "Size": 362,
+  "Sent": "2007-07-23T03:40:46.8905223+02:00",
+  "Size": 103,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
+  "MessageID": "consequatur",
   "PlainBody": "et",
-  "IsSent": true,
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 885,
+  "ServerId": 307,
   "Attachments": [
     {
-      "Description": "Operative real-time protocol",
-      "Filename": "placeat",
-      "Size": 473,
-      "Type": "in",
-      "Encoding": "voluptates",
-      "Id": "beatae",
-      "Disposition": "atque",
-      "IsSafeFileExtension": true,
+      "Description": "Enhanced static application",
+      "Filename": "fugiat",
+      "Size": 95,
+      "Type": "pariatur",
+      "Encoding": "vitae",
+      "Id": "harum",
+      "Disposition": "voluptates",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldLength": 164
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schmeler-Schneider",
+      "Name": "Cummerata Group",
       "Values": [
-        "earum",
-        "enim"
+        "et",
+        "praesentium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 861
         }
       }
     },
     {
-      "Name": "Schmeler-Schneider",
+      "Name": "Cummerata Group",
       "Values": [
-        "earum",
-        "enim"
+        "et",
+        "praesentium"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 861
         }
       }
     }
   ],
-  "FolderName": "Haley-Weber",
-  "EmailItemId": 611,
-  "AccountId": 985,
-  "ReceivedAt": "2019-07-31T11:24:48.0939075+02:00",
+  "FolderName": "Hirthe Inc and Sons",
+  "EmailItemId": 588,
+  "AccountId": 311,
+  "ReceivedAt": "2018-04-19T03:40:46.8905223+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-03-16T11:24:48.0939075+01:00",
+  "RepliedAt": "2006-03-04T03:40:46.8905223+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   }
 }

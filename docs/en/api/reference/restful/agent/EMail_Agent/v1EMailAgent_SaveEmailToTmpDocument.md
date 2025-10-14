@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Save the Email as a tmp document ready to archive
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -73,13 +76,13 @@ OK
 POST /api/v1/Agents/EMail/SaveEmailToTmpDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 524,
-  "StripAttachments": true
+  "FolderId": 128,
+  "StripAttachments": false
 }
 ```
 
@@ -89,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"keenan@ebert.ca"
+"alejandrin@sanfordschaden.biz"
 ```

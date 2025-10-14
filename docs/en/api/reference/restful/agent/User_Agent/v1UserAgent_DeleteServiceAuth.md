@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/DeleteServiceAuth
 Deletes the ServiceAuth
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -28,7 +31,7 @@ Deletes the ServiceAuth
 | serviceAuthId | int32 | **Required** The identity of the ServiceAuth |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=601
+POST /api/v1/Agents/User/DeleteServiceAuth?serviceAuthId=919
 ```
 
 
@@ -59,7 +62,7 @@ No Content
 POST /api/v1/Agents/User/DeleteServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

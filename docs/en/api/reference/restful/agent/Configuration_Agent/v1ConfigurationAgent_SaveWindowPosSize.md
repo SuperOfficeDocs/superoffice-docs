@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Saves a window and dialog position and size setting.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,23 +101,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "nulla",
-  "PersonId": 206,
-  "AssociateId": 237,
-  "ExtraId": 813,
-  "ExtraInfo": "consectetur",
-  "Height": 263,
-  "LeftX": 940,
+  "OwnerWindow": "saepe",
+  "PersonId": 790,
+  "AssociateId": 909,
+  "ExtraId": 973,
+  "ExtraInfo": "reprehenderit",
+  "Height": 226,
+  "LeftX": 878,
   "State": "Maximized",
-  "UpperY": 989,
-  "Width": 418,
-  "WindowPosSizeId": 586,
+  "UpperY": 994,
+  "Width": 571,
+  "WindowPosSizeId": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 999
     }
   }
 }

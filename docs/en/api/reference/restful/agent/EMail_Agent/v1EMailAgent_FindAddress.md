@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/FindAddress
 Search for contacts and persons with the specified e-mail address (exact match on the email address string required)
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -84,11 +87,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "quibusdam"
+  "Address": "illo"
 }
 ```
 
@@ -100,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 491,
-    "ContactName": "Gusikowski LLC",
-    "PersonId": 665,
-    "PersonName": "Rau Inc and Sons",
-    "AssociateId": 482,
-    "Address": "ut",
-    "EmailId": 935,
+    "ContactId": 40,
+    "ContactName": "Corkery, Schowalter and Schamberger",
+    "PersonId": 631,
+    "PersonName": "Blick LLC",
+    "AssociateId": 589,
+    "Address": "modi",
+    "EmailId": 161,
     "DuplicatePersonIds": [
-      495,
-      554
+      970,
+      548
     ],
-    "Name": "Kreiger-Thompson",
+    "Name": "Hermann-Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 549
       }
     }
   }

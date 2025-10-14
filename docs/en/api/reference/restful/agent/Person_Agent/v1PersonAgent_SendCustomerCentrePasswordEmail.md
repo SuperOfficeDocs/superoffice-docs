@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SendCustomerCentrePasswordEmail
 Sends a Customer Centre password email based on the reply template.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,14 +70,14 @@ No Content
 POST /api/v1/Agents/Person/SendCustomerCentrePasswordEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 466,
+  "PersonId": 213,
   "From": "molestias",
-  "To": "est",
-  "Subject": "recusandae"
+  "To": "ut",
+  "Subject": "molestias"
 }
 ```
 

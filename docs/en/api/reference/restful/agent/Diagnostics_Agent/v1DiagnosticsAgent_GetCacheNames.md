@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetCacheNames
 Get the name of the caches that can be flushed
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "maiores"
+  "laborum",
+  "fugiat"
 ]
 ```

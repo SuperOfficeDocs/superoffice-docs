@@ -15,6 +15,7 @@ Create a temporary key in the database from the given parameters and return the 
 
 
 Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -75,15 +76,15 @@ OK
 POST /api/v1/Agents/Person/CreateTemporaryKeyWithPayload
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 671,
-  "PersonId": 879,
-  "Expires": "2016-01-08T11:24:48.3595217+01:00",
-  "Payload": "quasi"
+  "TargetId": 806,
+  "PersonId": 466,
+  "Expires": "2020-08-11T03:40:47.406226+02:00",
+  "Payload": "et"
 }
 ```
 

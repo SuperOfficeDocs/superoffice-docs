@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 Make stuff similar to what happens in the win client
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -113,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 837
+  "SelectedListId": 434
 }
 ```
 
@@ -124,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 296,
-  "ColumnId": 632,
-  "FieldDefault": "eveniet",
-  "FieldHeight": 40,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 724,
-  "FieldTop": 894,
+  "UDefFieldId": 675,
+  "ColumnId": 15,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 309,
+  "FieldLabel": "sunt",
+  "FieldLeft": 619,
+  "FieldTop": 514,
   "FieldType": "Checkbox",
-  "FieldWidth": 286,
-  "FormatMask": "velit",
+  "FieldWidth": 135,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 246,
-  "LabelLeft": 162,
-  "LabelTop": 847,
-  "LabelWidth": 199,
-  "LastVersionId": 633,
-  "ListTableId": 415,
-  "IsMandatory": true,
+  "LabelHeight": 903,
+  "LabelLeft": 887,
+  "LabelTop": 178,
+  "LabelWidth": 909,
+  "LastVersionId": 937,
+  "ListTableId": 854,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 539,
-  "ProgId": "nemo",
-  "IsReadOnly": true,
-  "ShortLabel": "qui",
-  "TabOrder": 419,
-  "TextLength": 471,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 943,
-  "UDListDefinitionId": 639,
+  "Page1LineNo": 913,
+  "ProgId": "mollitia",
+  "IsReadOnly": false,
+  "ShortLabel": "rerum",
+  "TabOrder": 444,
+  "TextLength": 371,
+  "Tooltip": "quasi",
+  "UdefIdentity": 17,
+  "UDListDefinitionId": 399,
   "Justification": "Center",
-  "Version": 376,
-  "TemplateVariableName": "Kihn-Koelpin",
+  "Version": 990,
+  "TemplateVariableName": "Adams Group",
   "HasBeenPublished": true,
-  "MdoListName": "Upton LLC",
+  "MdoListName": "Pagac-Nicolas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

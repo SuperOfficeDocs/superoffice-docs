@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Get a list with meta data for all attached attachments
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 272
+  "TicketMessageEntityId": 409
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 778,
-    "Name": "Schroeder, Walker and O'Kon",
-    "ContentType": "reiciendis",
-    "AttSize": 328,
-    "InlineImage": false,
-    "ContentId": "est",
-    "AuthKey": "dicta",
+    "AttachmentId": 895,
+    "Name": "Larson, Schmeler and Orn",
+    "ContentType": "explicabo",
+    "AttSize": 199,
+    "InlineImage": true,
+    "ContentId": "magni",
+    "AuthKey": "eveniet",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 547
       }
     }
   }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/GetSummaryByAssociate
 ```
 
-
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -103,13 +103,13 @@ OK
 POST /api/v1/Agents/Sale/GetSummaryByAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 367,
-  "FromDate": "2007-08-24T11:24:48.6095199+02:00",
-  "ToDate": "2005-01-25T11:24:48.6095199+01:00"
+  "AssociateId": 516,
+  "FromDate": "2005-05-19T03:40:47.6879666+02:00",
+  "ToDate": "2021-06-13T03:40:47.6879666+02:00"
 }
 ```
 
@@ -120,40 +120,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BaseCurrency": "iusto",
-  "OwnCurrency": "culpa",
-  "SoldTotalBaseCurrency": 13799.002,
-  "Sold": 513,
-  "SoldTotalOwnCurrency": 16500.51,
-  "Lost": 693,
-  "LostTotalBaseCurrency": 24739.796,
-  "LostTotalOwnCurrency": 10009.996,
-  "Open": 787,
-  "OpenTotalBaseCurrency": 9248.434,
-  "OpenTotalOwnCurrency": 1676.69,
-  "OpenWeightedBaseCurrency": 29631.969999999998,
-  "OpenWeightedOwnCurrency": 26422.754,
-  "PreviousOverdue": 72,
-  "PreviousOverdueTotalBaseCurrency": 12517.196,
-  "PreviousOverdueTotalOwnCurrency": 269.524,
-  "PreviousOverdueWeightedBaseCurrency": 8505.676,
-  "PreviousOverdueWeightedOwnCurrency": 1686.0919999999999,
-  "CurrentOverdue": 841,
-  "CurrentOverdueTotalBaseCurrency": 22790.448,
-  "CurrentOverdueTotalOwnCurrency": 31117.486,
-  "CurrentOverdueWeightedBaseCurrency": 18440.456,
-  "CurrentOverdueWeightedOwnCurrency": 17700.832,
-  "FutureOpen": 28,
-  "FutureOpenTotalBaseCurrency": 30565.902,
-  "FutureOpenTotalOwnCurrency": 2391.2419999999997,
-  "FutureOpenWeightedBaseCurrency": 20816.028,
-  "FutureOpenWeightedOwnCurrency": 28751.316,
+  "BaseCurrency": "aut",
+  "OwnCurrency": "neque",
+  "SoldTotalBaseCurrency": 13858.547999999999,
+  "Sold": 237,
+  "SoldTotalOwnCurrency": 8527.614,
+  "Lost": 15,
+  "LostTotalBaseCurrency": 5851.178,
+  "LostTotalOwnCurrency": 10683.806,
+  "Open": 71,
+  "OpenTotalBaseCurrency": 22486.45,
+  "OpenTotalOwnCurrency": 5205.574,
+  "OpenWeightedBaseCurrency": 5653.736,
+  "OpenWeightedOwnCurrency": 9646.452,
+  "PreviousOverdue": 728,
+  "PreviousOverdueTotalBaseCurrency": 7261.478,
+  "PreviousOverdueTotalOwnCurrency": 3964.5099999999998,
+  "PreviousOverdueWeightedBaseCurrency": 22379.894,
+  "PreviousOverdueWeightedOwnCurrency": 16704.22,
+  "CurrentOverdue": 748,
+  "CurrentOverdueTotalBaseCurrency": 20624.854,
+  "CurrentOverdueTotalOwnCurrency": 10480.096,
+  "CurrentOverdueWeightedBaseCurrency": 22116.638,
+  "CurrentOverdueWeightedOwnCurrency": 2732.848,
+  "FutureOpen": 981,
+  "FutureOpenTotalBaseCurrency": 14118.67,
+  "FutureOpenTotalOwnCurrency": 9392.598,
+  "FutureOpenWeightedBaseCurrency": 15854.905999999999,
+  "FutureOpenWeightedOwnCurrency": 27660.683999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldType": "System.String",
+      "FieldLength": 622
     }
   }
 }

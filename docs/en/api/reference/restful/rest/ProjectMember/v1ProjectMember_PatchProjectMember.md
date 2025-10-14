@@ -14,7 +14,8 @@ PATCH /api/v1/ProjectMember/{id}
 Update a ProjectMember with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -131,18 +132,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "incidunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "incidunt",
     "value": {}
   }
 ]
@@ -155,35 +156,35 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 551,
-  "ContactId": 493,
-  "ProjectId": 673,
-  "ContactName": "Harvey-Buckridge",
-  "ContactDepartment": "",
-  "ProjectName": "Stracke-Hammes",
-  "EmailId": 529,
-  "EmailAddress": "cyrus_hermann@lehner.uk",
-  "CountryId": 68,
-  "Firstname": "Jacky",
-  "MiddleName": "Brekke-Hagenes",
-  "Lastname": "Erdman",
-  "PersonId": 705,
-  "Mrmrs": "odit",
-  "ProjectMemberTypeName": "Donnelly LLC",
-  "Phone": "112.588.9547",
-  "PhoneId": 471,
-  "ProjectMemberTypeId": 756,
-  "EmailAddressName": "devon@homenick.info",
-  "Comment": "aspernatur",
-  "FullName": "Jonas Gutmann",
-  "Registered": "2006-07-12T11:24:53.7655512+02:00",
-  "Updated": "2009-07-12T11:24:53.7655512+02:00",
+  "ProjectmemberId": 147,
+  "ContactId": 332,
+  "ProjectId": 654,
+  "ContactName": "Schuppe LLC",
+  "ContactDepartment": "redefine collaborative vortals",
+  "ProjectName": "Muller, Bergnaum and Stanton",
+  "EmailId": 991,
+  "EmailAddress": "zander_gleichner@klingkessler.biz",
+  "CountryId": 643,
+  "Firstname": "Pierce",
+  "MiddleName": "Dooley Group",
+  "Lastname": "Kemmer",
+  "PersonId": 655,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Pouros, Weimann and Streich",
+  "Phone": "(395)067-4659",
+  "PhoneId": 511,
+  "ProjectMemberTypeId": 396,
+  "EmailAddressName": "anya_heaney@bartellhodkiewicz.biz",
+  "Comment": "ut",
+  "FullName": "Hadley Mann",
+  "Registered": "2014-04-05T03:40:56.4932204+02:00",
+  "Updated": "2024-12-14T03:40:56.4932204+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   },
   "_Links": {

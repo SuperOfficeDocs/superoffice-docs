@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion
 Saves a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,7 +114,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 861,
-  "ERPQuoteVersionKey": "voluptate",
-  "QuoteId": 535,
-  "Description": "Implemented discrete benchmark",
-  "Number": "1296153",
+  "QuoteVersionId": 958,
+  "ERPQuoteVersionKey": "et",
+  "QuoteId": 997,
+  "Description": "Diverse bandwidth-monitored circuit",
+  "Number": "1198771",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 884,
-  "SentDate": "2009-12-29T11:24:48.5157652+01:00",
-  "FollowupId": 846,
-  "ExpirationDate": "1999-03-14T11:24:48.5157652+01:00",
-  "DeliveryCountryId": 484,
+  "LikelyQuoteAlternativeId": 984,
+  "SentDate": "2009-01-25T03:40:47.5317063+01:00",
+  "FollowupId": 860,
+  "ExpirationDate": "2018-05-11T03:40:47.5317063+02:00",
+  "DeliveryCountryId": 335,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 861,
+  "InvoiceCountryId": 649,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "aut",
-  "ERPPaymentTypeKey": "fugit",
-  "ERPDeliveryTermsKey": "quo",
-  "ERPDeliveryTypeKey": "excepturi",
-  "Rank": 306,
-  "ApprovedBy": 658,
-  "ApprovedText": "ad",
-  "ApprovedRegisteredBy": 386,
-  "ApprovedRegisteredDate": "2008-05-26T11:24:48.5157652+02:00",
-  "ExtraField1": "aliquam",
-  "ExtraField2": "numquam",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "aliquam",
-  "ExtraField5": "iusto",
-  "LastRecalculated": "2024-09-12T11:24:48.5157652+02:00",
-  "Updated": "2023-05-08T11:24:48.5157652+02:00",
-  "UpdatedAssociateId": 562,
-  "Registered": "2025-06-27T11:24:48.5157652+02:00",
-  "RegisteredAssociateId": 846,
-  "RequestAssociateId": 934,
-  "RequestComment": "iure",
+  "ERPPaymentTermsKey": "consequuntur",
+  "ERPPaymentTypeKey": "doloribus",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "ut",
+  "Rank": 458,
+  "ApprovedBy": 455,
+  "ApprovedText": "quos",
+  "ApprovedRegisteredBy": 796,
+  "ApprovedRegisteredDate": "2022-02-26T03:40:47.5317063+01:00",
+  "ExtraField1": "mollitia",
+  "ExtraField2": "modi",
+  "ExtraField3": "unde",
+  "ExtraField4": "et",
+  "ExtraField5": "sed",
+  "LastRecalculated": "2009-01-29T03:40:47.5317063+01:00",
+  "Updated": "2016-03-12T03:40:47.5317063+01:00",
+  "UpdatedAssociateId": 527,
+  "Registered": "2005-05-06T03:40:47.5317063+02:00",
+  "RegisteredAssociateId": 944,
+  "RequestAssociateId": 103,
+  "RequestComment": "voluptatem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 821,
-      "ERPQuoteAlternativeKey": "maiores",
-      "QuoteVersionId": 516,
-      "Name": "Tillman-Keebler",
-      "Description": "Phased tertiary moderator",
+      "QuoteAlternativeId": 583,
+      "ERPQuoteAlternativeKey": "rerum",
+      "QuoteVersionId": 190,
+      "Name": "Moore, Jerde and Huels",
+      "Description": "Pre-emptive systematic pricing structure",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 27964.682,
-      "ERPDiscountAmount": 1773.844,
-      "DiscountPercent": 31104.95,
-      "DiscountAmount": 20794.09,
+      "ERPDiscountPercent": 20098.342,
+      "ERPDiscountAmount": 23859.142,
+      "DiscountPercent": 12711.503999999999,
+      "DiscountAmount": 15115.282,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quis",
-      "VAT": 8596.562,
-      "EarningPercent": 4707.268,
-      "EarningAmount": 26858.379999999997,
-      "SubTotal": 2554.21,
-      "TotalPrice": 3394.122,
-      "ExtraField1": "fuga",
-      "ExtraField2": "perspiciatis",
-      "ExtraField3": "vitae",
-      "ExtraField4": "maxime",
-      "ExtraField5": "aspernatur",
+      "VATInfo": "ea",
+      "VAT": 22003.814,
+      "EarningPercent": 13466.797999999999,
+      "EarningAmount": 3773.336,
+      "SubTotal": 10677.538,
+      "TotalPrice": 16177.707999999999,
+      "ExtraField1": "repellat",
+      "ExtraField2": "sapiente",
+      "ExtraField3": "molestiae",
+      "ExtraField4": "voluptatem",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 252
+          "FieldType": "System.Int32",
+          "FieldLength": 603
         }
       }
     }
@@ -204,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

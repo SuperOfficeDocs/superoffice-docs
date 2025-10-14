@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=sit
+GET /api/v1/List/LegalBase/MDOItems?query=voluptatem
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Schoen, Ferry and Larkin",
-    "ToolTip": "Saepe ab voluptate dolores itaque nostrum.",
+    "Id": 276,
+    "Name": "Mayert Group",
+    "ToolTip": "Magnam ducimus et necessitatibus non.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "non",
+    "Rank": 768,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Vandervort, Lesch and Moen",
-        "ToolTip": "Debitis sed.",
+        "Id": 924,
+        "Name": "Kassulke-Skiles",
+        "ToolTip": "Explicabo vitae ut aut et odio blanditiis.",
         "Deleted": false,
-        "Rank": 376,
-        "Type": "repellat",
+        "Rank": 627,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 941,
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "dolorem",
-        "FullName": "Miss Unique Estefania McLaughlin III",
+        "IconHint": "molestiae",
+        "ColorBlock": 714,
+        "ExtraInfo": "atque",
+        "StyleHint": "eius",
+        "FullName": "Nathanial Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 983
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 859,
-    "ExtraInfo": "eligendi",
-    "StyleHint": "et",
-    "FullName": "Miss Mazie Hettinger",
+    "IconHint": "amet",
+    "ColorBlock": 943,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "quis",
+    "FullName": "Mrs. Keith Terence Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 60
       }
     }
   }

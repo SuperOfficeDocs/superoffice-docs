@@ -15,6 +15,7 @@ Creates a new RelationDefinitionEntity
 
 
 Calls the List agent service SaveRelationDefinitionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,12 +96,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 305,
-  "Name": "Keeling, Corwin and Kiehn",
-  "Tooltip": "aspernatur",
-  "PassiveText": "et",
+  "ReldefId": 681,
+  "Name": "Weissnat LLC",
+  "Tooltip": "dolor",
+  "PassiveText": "esse",
   "Deleted": false,
-  "Rank": 343,
+  "Rank": 930,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -113,12 +114,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 457,
-  "Name": "Schamberger, Treutel and Dare",
-  "Tooltip": "quisquam",
-  "PassiveText": "corporis",
+  "ReldefId": 166,
+  "Name": "Jast, Hackett and Christiansen",
+  "Tooltip": "eius",
+  "PassiveText": "quia",
   "Deleted": true,
-  "Rank": 816,
+  "Rank": 381,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -126,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 662
     }
   },
   "_Links": {

@@ -14,7 +14,8 @@ PATCH /api/v1/Attachment/{id}
 Update a AttachmentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -122,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "ullam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "ullam",
     "value": {}
   }
 ]
@@ -140,20 +141,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 52,
-  "Name": "Stokes-Wuckert",
-  "ContentType": "soluta",
-  "AttSize": 187,
+  "AttachmentId": 225,
+  "Name": "Baumbach, Mueller and O'Keefe",
+  "ContentType": "sunt",
+  "AttSize": 176,
   "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "nesciunt",
+  "ContentId": "neque",
+  "AuthKey": "atque",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 417
     }
   },
   "_Links": {

@@ -15,6 +15,7 @@ Returns a list of all MDO List names.
 
 
 These names can also be used with the Archive agent as ProviderNames.
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -73,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "ullam"
+  "sint",
+  "reiciendis"
 ]
 ```

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 111,
-    "Name": "Glover, Koss and Little",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 232,
-    "UdListDefinitionId": 728,
+    "HeadingId": 544,
+    "Name": "Orn Group",
+    "Tooltip": "id",
+    "Deleted": true,
+    "Rank": 148,
+    "UdListDefinitionId": 780,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 936
       }
     }
   }

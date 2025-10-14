@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetCustomerLanguages
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Value": "sint",
-    "Tooltip": "et",
+    "Id": 994,
+    "Value": "sit",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 985
       }
     }
   },
   {
-    "Id": 788,
-    "Value": "sint",
-    "Tooltip": "et",
+    "Id": 994,
+    "Value": "sit",
+    "Tooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 985
       }
     }
   }

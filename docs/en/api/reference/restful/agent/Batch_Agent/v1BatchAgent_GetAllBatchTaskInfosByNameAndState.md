@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Get an array of system and user BatchTaskInfo for the provided task name and state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -100,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ziemann-Kshlerin",
+  "TaskName": "Kihn LLC",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Huel-Upton",
-    "AssociateId": 254,
-    "DetailsTable": 2,
-    "DetailsRecord": 271,
-    "IsSystemTask": true,
+    "Id": 444,
+    "Name": "Christiansen, Murphy and Botsford",
+    "AssociateId": 744,
+    "DetailsTable": 798,
+    "DetailsRecord": 751,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nihil",
-      "ParameterObject2": "quod"
+      "ParameterObject1": "et",
+      "ParameterObject2": "ad"
     },
-    "LastStarted": "2020-12-21T11:24:47.6095526+01:00",
-    "Created": "2009-11-09T11:24:47.6095526+01:00",
-    "StartCount": 353,
-    "DatabaseSerialNumber": "895405",
-    "Context": "id",
-    "Result": "ut",
+    "LastStarted": "2019-01-16T03:40:46.0764548+01:00",
+    "Created": "2000-03-01T03:40:46.0764548+01:00",
+    "StartCount": 979,
+    "DatabaseSerialNumber": "1567179",
+    "Context": "ut",
+    "Result": "fuga",
     "State": "All",
-    "Description": "Organized global orchestration",
-    "Response": "incidunt",
-    "Request": "est",
-    "ProgressDescription": "Pre-emptive bifurcated flexibility",
-    "ProgressPercent": 384,
-    "FileName": "Herzog Group",
+    "Description": "Team-oriented disintermediate pricing structure",
+    "Response": "in",
+    "Request": "aperiam",
+    "ProgressDescription": "Innovative empowering workforce",
+    "ProgressPercent": 578,
+    "FileName": "Hamill LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 305
       }
     }
   }

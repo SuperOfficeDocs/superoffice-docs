@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/Run
 Run the workflow engine right now
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Workflow/Run
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,5 +72,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2003-01-31T11:24:48.9688719+01:00"
+"2002-06-14T03:40:48.3130032+02:00"
 ```

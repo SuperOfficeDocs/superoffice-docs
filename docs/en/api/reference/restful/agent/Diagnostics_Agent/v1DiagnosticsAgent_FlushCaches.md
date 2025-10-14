@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/FlushCaches
 Flushes all NetServer caches
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCaches
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

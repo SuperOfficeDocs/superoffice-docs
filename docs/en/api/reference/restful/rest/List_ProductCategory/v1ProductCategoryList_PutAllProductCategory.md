@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Nader-Rohan",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "UdListDefinitionId": 524,
-    "Rank": 364
+    "Id": 955,
+    "Name": "Orn-Swift",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 891,
+    "Rank": 968
   },
   {
-    "Id": 318,
-    "Name": "Nader-Rohan",
-    "Tooltip": "veniam",
-    "Deleted": false,
-    "UdListDefinitionId": 524,
-    "Rank": 364
+    "Id": 955,
+    "Name": "Orn-Swift",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 891,
+    "Rank": 968
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Bode-Marquardt",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "UdListDefinitionId": 938,
-    "Rank": 785,
+    "Id": 208,
+    "Name": "Wiegand Group",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "UdListDefinitionId": 558,
+    "Rank": 519,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldLength": 40
       }
     }
   }

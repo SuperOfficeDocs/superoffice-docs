@@ -14,7 +14,8 @@ PATCH /api/v1/Sale/{id}
 Update a SaleEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -152,18 +153,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dicta",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dicta",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -182,7 +183,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "saepe",
+  "SaleText": "impedit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -191,113 +192,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-04-16T11:24:53.54681+02:00",
-  "Amount": 11131.967999999999,
-  "SaleId": 647,
-  "Earning": 949.602,
-  "EarningPercent": 15516.434,
-  "Heading": "reprehenderit",
-  "Number": "800473",
-  "Probability": 264,
-  "CreatedDate": "2013-06-07T11:24:53.54681+02:00",
-  "UpdatedDate": "2009-07-13T11:24:53.54681+02:00",
+  "Saledate": "2007-07-09T03:40:56.1636707+02:00",
+  "Amount": 30622.314,
+  "SaleId": 899,
+  "Earning": 7004.49,
+  "EarningPercent": 636.202,
+  "Heading": "quasi",
+  "Number": "1487408",
+  "Probability": 388,
+  "CreatedDate": "2022-09-13T03:40:56.1636707+02:00",
+  "UpdatedDate": "2016-02-13T03:40:56.1636707+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 140,
+  "ActiveLinks": 116,
   "Links": [
     {
-      "EntityName": "Kreiger-Yost",
-      "Id": 343,
-      "Description": "Pre-emptive tertiary approach",
+      "EntityName": "Littel LLC",
+      "Id": 859,
+      "Description": "Intuitive actuating time-frame",
       "ExtraInfo": "sed",
-      "LinkId": 838,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 252
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2005-09-24T11:24:53.54681+02:00",
-  "Postit": "harum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2017-08-20T11:24:53.54681+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Schuster, Barrows and Thompson",
-      "Comment": "aut",
-      "StakeholderRoleId": 530,
-      "CountryId": 888,
-      "PersonId": 989,
-      "EmailDescription": "ryley@cartwright.ca",
-      "EmailId": 598,
-      "EmailAddress": "jeremie@botsforddonnelly.name",
-      "PhoneId": 849,
-      "ContactName": "Denesik Inc and Sons",
-      "ContactId": 405,
-      "SaleId": 907,
-      "Mrmrs": "doloremque",
-      "Firstname": "Waldo",
-      "MiddleName": "Funk Inc and Sons",
-      "Lastname": "Lind",
-      "SaleStakeholderId": 407,
-      "Rank": 976,
-      "Phone": "(559)235-2288",
+      "LinkId": 869,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldLength": 650
         }
       }
     }
   ],
-  "ActiveErpLinks": 395,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Loren Gibson",
-    "SuperOffice:2": "1983332896"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "debitis"
-  },
-  "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "eum"
-  },
-  "PublishEventDate": "2004-10-14T11:24:53.54681+02:00",
-  "PublishTo": "2004-03-13T11:24:53.54681+01:00",
-  "PublishFrom": "2021-05-20T11:24:53.54681+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2006-09-04T03:40:56.1636707+02:00",
+  "Postit": "possimus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2009-10-25T03:40:56.1793053+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 998,
-      "Visibility": "All",
-      "DisplayValue": "qui",
+      "StakeholderRoleName": "Leannon Inc and Sons",
+      "Comment": "voluptatem",
+      "StakeholderRoleId": 236,
+      "CountryId": 416,
+      "PersonId": 178,
+      "EmailDescription": "grant@kuhndubuque.us",
+      "EmailId": 629,
+      "EmailAddress": "charles_stehr@yostdoyle.us",
+      "PhoneId": 953,
+      "ContactName": "Wolf, Legros and Konopelski",
+      "ContactId": 828,
+      "SaleId": 679,
+      "Mrmrs": "animi",
+      "Firstname": "Rex",
+      "MiddleName": "Roberts LLC",
+      "Lastname": "Jerde",
+      "SaleStakeholderId": 25,
+      "Rank": 726,
+      "Phone": "(211)985-5945",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 407
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 103,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Angelina Ritchie"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "ea"
+  },
+  "CustomFields": {
+    "CustomFields1": "alias",
+    "CustomFields2": "voluptatibus"
+  },
+  "PublishEventDate": "2015-01-18T03:40:56.1793053+01:00",
+  "PublishTo": "2002-09-06T03:40:56.1793053+02:00",
+  "PublishFrom": "2013-06-01T03:40:56.1793053+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 843,
+      "Visibility": "All",
+      "DisplayValue": "dolores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 391
         }
       }
     },
     {
-      "VisibleId": 998,
+      "VisibleId": 843,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 391
         }
       }
     }
@@ -307,12 +308,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 80
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

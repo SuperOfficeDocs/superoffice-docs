@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Langworth-Russel",
-  "Tooltip": "rem",
+  "Id": 129,
+  "Name": "Vandervort LLC",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 260,
+  "Rank": 102,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 896
     }
   },
   "_Links": {

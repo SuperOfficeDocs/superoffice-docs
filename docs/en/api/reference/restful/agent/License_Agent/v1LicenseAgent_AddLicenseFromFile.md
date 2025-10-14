@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/AddLicenseFromFile
 Load and activate a new license from file/string if the new license is valid.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "et"
+  "FileContent": "unde"
 }
 ```
 
@@ -93,21 +95,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 893,
-      "NumberOfLicensesFree": 375,
-      "NumberOfLicensesAdded": 755,
-      "NumberOfLicensesNewTotal": 615,
-      "NumberOfLicensesNewFree": 472,
-      "NumberOfLicensesTotal": 930
+      "NumberOfLicensesInUse": 631,
+      "NumberOfLicensesFree": 977,
+      "NumberOfLicensesAdded": 840,
+      "NumberOfLicensesNewTotal": 530,
+      "NumberOfLicensesNewFree": 538,
+      "NumberOfLicensesTotal": 961
     }
   ],
-  "AccumulatedNextCheckDate": "2017-08-01T11:24:48.1720293+02:00"
+  "AccumulatedNextCheckDate": "2025-02-22T03:40:47.0155393+01:00"
 }
 ```

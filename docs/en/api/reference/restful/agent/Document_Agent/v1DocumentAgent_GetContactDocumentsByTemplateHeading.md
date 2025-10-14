@@ -15,6 +15,7 @@ Method that returns a specified number of document appointments within a time ra
 
 
 The document appointments belong to the contact specified. The heading represents a grouping or filtering of document templates.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 152,
-  "StartTime": "2014-10-25T11:24:47.8751665+02:00",
-  "EndTime": "2019-07-17T11:24:47.8751665+02:00",
-  "Count": 742,
-  "TemplateHeadingId": 500
+  "ContactId": 552,
+  "StartTime": "2018-11-19T03:40:46.5780122+01:00",
+  "EndTime": "2021-03-03T03:40:46.5780122+01:00",
+  "Count": 20,
+  "TemplateHeadingId": 263
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 687,
-    "Attention": "sed",
-    "Header": "cum",
-    "Name": "Hauck-Kling",
-    "OurRef": "blanditiis",
-    "YourRef": "in",
-    "Description": "Advanced web-enabled capacity",
-    "DocumentTemplate": "error",
-    "IsPublished": true,
-    "PersonId": 858,
-    "PersonFullName": "Patrick Auer",
-    "AssociateFullName": "Antonetta Welch",
-    "ContactId": 857,
-    "ContactName": "Hilll, Marvin and Hamill",
-    "ProjectId": 441,
-    "ProjectName": "Kessler-Torphy",
-    "AssociateId": 801,
-    "Snum": 210,
-    "SaleId": 855,
-    "SaleName": "Graham Inc and Sons",
+    "DocumentId": 167,
+    "Attention": "illo",
+    "Header": "quibusdam",
+    "Name": "Strosin-McClure",
+    "OurRef": "voluptas",
+    "YourRef": "velit",
+    "Description": "Reduced multi-state model",
+    "DocumentTemplate": "blanditiis",
+    "IsPublished": false,
+    "PersonId": 100,
+    "PersonFullName": "Mr. Zula Axel Baumbach",
+    "AssociateFullName": "Mrs. Alexandro Letitia Huel",
+    "ContactId": 529,
+    "ContactName": "D'Amore, Bernier and Goodwin",
+    "ProjectId": 667,
+    "ProjectName": "Parisian, Morissette and Conn",
+    "AssociateId": 761,
+    "Snum": 414,
+    "SaleId": 570,
+    "SaleName": "Wilderman-Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 373
       }
     }
   }

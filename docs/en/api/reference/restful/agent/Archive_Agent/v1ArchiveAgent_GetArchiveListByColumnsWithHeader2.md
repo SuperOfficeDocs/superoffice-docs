@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Get a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options.
 
 
-The return value includes a header that has various extra information, in addition to the actual rows. 
+The return value includes a header that has various extra information, in addition to the actual rows.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -167,18 +168,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Botsford-Emard",
-  "Columns": "vel",
-  "SortOrder": "omnis",
-  "Restriction": "id",
-  "Entities": "quibusdam",
-  "Page": 507,
-  "PageSize": 914,
-  "Options": "beatae"
+  "ProviderName": "Kulas Inc and Sons",
+  "Columns": "nulla",
+  "SortOrder": "officiis",
+  "Restriction": "ipsum",
+  "Entities": "omnis",
+  "Page": 750,
+  "PageSize": 730,
+  "Options": "tenetur"
 }
 ```
 
@@ -189,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 429,
+  "RowCount": 427,
   "Rows": [
     {
-      "EntityName": "Emard-Shanahan",
-      "PrimaryKey": 900,
+      "EntityName": "Lang, Thompson and Brown",
+      "PrimaryKey": 662,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "id",
-          "LinkHint": "vel"
+          "DisplayValue": "sit",
+          "TooltipHint": "debitis",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "a",
+      "LinkHint": "non",
+      "StyleHint": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
@@ -217,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 451
     }
   }
 }

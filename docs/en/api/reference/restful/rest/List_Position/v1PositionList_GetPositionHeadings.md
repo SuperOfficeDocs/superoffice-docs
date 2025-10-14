@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 701,
-    "Name": "Wunsch, Blanda and Jast",
-    "Tooltip": "nesciunt",
+    "HeadingId": 572,
+    "Name": "Ankunding-Schmitt",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 909,
-    "UdListDefinitionId": 305,
+    "Rank": 882,
+    "UdListDefinitionId": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 844
+        "FieldLength": 628
       }
     }
   }

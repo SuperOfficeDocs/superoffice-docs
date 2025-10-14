@@ -14,6 +14,8 @@ PUT /api/v1/RelationDefinition/{id}
 Updates the existing RelationDefinitionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,12 +100,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 914,
-  "Name": "Marquardt Group",
-  "Tooltip": "vero",
-  "PassiveText": "sit",
+  "ReldefId": 569,
+  "Name": "Parisian-Yundt",
+  "Tooltip": "repellendus",
+  "PassiveText": "deserunt",
   "Deleted": false,
-  "Rank": 338,
+  "Rank": 247,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -116,12 +118,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 521,
-  "Name": "Johns, Schmeler and Turner",
-  "Tooltip": "non",
-  "PassiveText": "fugit",
+  "ReldefId": 866,
+  "Name": "Bashirian-Johnson",
+  "Tooltip": "ea",
+  "PassiveText": "vel",
   "Deleted": false,
-  "Rank": 951,
+  "Rank": 913,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -129,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldLength": 700
     }
   },
   "_Links": {

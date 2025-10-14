@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Gets a ShipmentMessageEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=358
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=625
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -98,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 22,
-  "PlainMessage": "id",
-  "HtmlMessage": "vel",
-  "SmsMessage": "odit",
-  "Description": "Grass-roots human-resource customer loyalty",
-  "Subject": "velit",
-  "FolderId": 684,
-  "HeaderField": "ut",
-  "Design": "et",
+  "ShipmentMessageId": 669,
+  "PlainMessage": "sint",
+  "HtmlMessage": "et",
+  "SmsMessage": "unde",
+  "Description": "Assimilated empowering system engine",
+  "Subject": "ut",
+  "FolderId": 21,
+  "HeaderField": "voluptatibus",
+  "Design": "sed",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Profit-focused attitude-oriented Graphical User Interface",
-  "AccessKey": "voluptatem",
-  "DocumentMessage": 209,
-  "Registered": "2020-08-13T11:24:48.2657757+02:00",
-  "RegisteredAssociateId": 38,
-  "Updated": "2018-03-02T11:24:48.2657757+01:00",
-  "UpdatedAssociateId": 265,
-  "UpdatedCount": 176,
+  "LongDescription": "Enterprise-wide fault-tolerant toolset",
+  "AccessKey": "rerum",
+  "DocumentMessage": 78,
+  "Registered": "2010-09-01T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 324,
+  "Updated": "2024-08-10T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 282,
+  "UpdatedCount": 863,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 499
     }
   }
 }

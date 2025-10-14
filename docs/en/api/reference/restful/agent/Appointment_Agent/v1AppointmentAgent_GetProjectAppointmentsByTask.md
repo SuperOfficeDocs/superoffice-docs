@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 724,
-  "StartTime": "2015-01-19T11:24:47.2970652+01:00",
-  "EndTime": "2019-05-16T11:24:47.2970652+02:00",
-  "Count": 319,
-  "TaskId": 520
+  "ProjectId": 665,
+  "StartTime": "2015-08-01T03:40:45.60749+02:00",
+  "EndTime": "2002-05-29T03:40:45.60749+02:00",
+  "Count": 177,
+  "TaskId": 871
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 967,
-    "StartDate": "2023-02-28T11:24:47.2970652+01:00",
-    "EndDate": "2014-05-14T11:24:47.2970652+02:00",
+    "AppointmentId": 756,
+    "StartDate": "2018-02-26T03:40:45.60749+01:00",
+    "EndDate": "2022-12-11T03:40:45.60749+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Mrs. Marietta Anjali Ryan",
-    "ContactName": "Hauck-Anderson",
-    "Description": "Cross-group tertiary challenge",
-    "PersonFullName": "Jamel Mertz",
-    "PersonId": 120,
-    "ContactId": 190,
-    "ProjectId": 483,
-    "ProjectName": "Greenholt, Nikolaus and Toy",
+    "Task": "voluptates",
+    "AssociateFullName": "Freida Heaney",
+    "ContactName": "Armstrong LLC",
+    "Description": "Horizontal intangible leverage",
+    "PersonFullName": "Johnnie Jenkins",
+    "PersonId": 342,
+    "ContactId": 731,
+    "ProjectId": 938,
+    "ProjectName": "Crona-Hackett",
     "IsPublished": true,
-    "AssociateId": 417,
-    "ColorIndex": 62,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 892,
+    "ColorIndex": 403,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 515,
-    "PriorityName": "Baumbach-Wyman",
+    "PriorityId": 397,
+    "PriorityName": "McGlynn, Jakubowski and Kreiger",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2014-04-29T11:24:47.2970652+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2004-07-22T03:40:45.60749+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-07-24T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2005-05-05T11:24:47.2970652+02:00",
-    "MotherId": 599,
-    "AssignedBy": 627,
-    "AssignedByFullName": "Mr. Nash Deshawn Dibbert Sr.",
+    "RecurringStartDate": "2013-04-04T03:40:45.60749+02:00",
+    "RecurringEndDate": "2021-12-07T03:40:45.60749+01:00",
+    "MotherId": 126,
+    "AssignedBy": 518,
+    "AssignedByFullName": "Mr. Elliott Metz PhD",
     "RejectReason": "",
-    "Location": "excepturi",
-    "AlarmLeadTime": "ducimus",
-    "SaleId": 975,
-    "SaleName": "Torp, Yost and Nitzsche",
-    "AssociateName": "Littel, Harber and Friesen",
-    "CreatedDate": "2008-06-23T11:24:47.2970652+02:00",
-    "CreatedBy": "ducimus",
-    "CreatedByFullName": "Destini Kuhic",
-    "CreatedByAssociateId": 354,
+    "Location": "ratione",
+    "AlarmLeadTime": "ad",
+    "SaleId": 715,
+    "SaleName": "Stiedemann-Brakus",
+    "AssociateName": "Grady Inc and Sons",
+    "CreatedDate": "2001-09-12T03:40:45.60749+02:00",
+    "CreatedBy": "minus",
+    "CreatedByFullName": "Jeffery Nader DVM",
+    "CreatedByAssociateId": 469,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 257,
+    "MotherAssociateId": 70,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 152,
-    "Title": "tenetur",
+    "PreferredTZLocation": 660,
+    "Title": "voluptatum",
     "Agenda": "fugit",
     "InternalNotes": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

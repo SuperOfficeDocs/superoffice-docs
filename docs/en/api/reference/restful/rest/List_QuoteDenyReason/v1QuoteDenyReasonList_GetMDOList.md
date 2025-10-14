@@ -27,8 +27,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=velit
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=adipisci
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Welch, Harvey and Metz",
-    "ToolTip": "Soluta ut.",
+    "Id": 378,
+    "Name": "Weissnat, Bergstrom and Anderson",
+    "ToolTip": "Eos repudiandae.",
     "Deleted": true,
-    "Rank": 174,
-    "Type": "assumenda",
+    "Rank": 89,
+    "Type": "voluptatum",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "Bechtelar LLC",
-        "ToolTip": "Laborum et a dicta quae et.",
-        "Deleted": true,
-        "Rank": 72,
-        "Type": "incidunt",
+        "Id": 32,
+        "Name": "Ziemann-O'Hara",
+        "ToolTip": "Mollitia quidem.",
+        "Deleted": false,
+        "Rank": 625,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 351,
-        "ExtraInfo": "vel",
-        "StyleHint": "consequatur",
-        "FullName": "Dr. Delpha Dietrich Jr.",
+        "IconHint": "quia",
+        "ColorBlock": 774,
+        "ExtraInfo": "sunt",
+        "StyleHint": "non",
+        "FullName": "Dr. Alanna Omari Denesik DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldLength": 100
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 592,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "dolorem",
-    "FullName": "Braden Kaden Harber II",
+    "IconHint": "non",
+    "ColorBlock": 123,
+    "ExtraInfo": "vel",
+    "StyleHint": "maiores",
+    "FullName": "Coleman Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldLength": 526
       }
     }
   }

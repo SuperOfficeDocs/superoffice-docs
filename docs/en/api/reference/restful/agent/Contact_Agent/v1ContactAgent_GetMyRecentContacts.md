@@ -15,6 +15,7 @@ Method that returns a set of initial contacts.
 
 
 This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 677,
-    "Name": "Fahey Inc and Sons",
-    "OrgNr": "1699635",
+    "ContactId": 212,
+    "Name": "Hackett-Robel",
+    "OrgNr": "875485",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quaerat",
-    "DirectPhone": "1-793-403-6855 x3706",
-    "AssociateId": 632,
-    "CountryId": 604,
-    "EmailAddress": "reanna_blanda@lang.uk",
-    "Kananame": "et",
-    "EmailAddressName": "hal_homenick@manteschroeder.com",
+    "City": "ullam",
+    "DirectPhone": "719.021.7383 x95726",
+    "AssociateId": 200,
+    "CountryId": 478,
+    "EmailAddress": "leonard.daniel@west.ca",
+    "Kananame": "occaecati",
+    "EmailAddressName": "meda_gusikowski@white.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Darrion Nikolas Lubowitz III",
+    "AssociateFullName": "Giuseppe Nienow",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "iste",
-    "FullName": "Mr. Samanta Shields",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 124,
-    "Number1": "825466",
-    "Number2": "801751",
+    "FormattedAddress": "ad",
+    "FullName": "Theron Lindgren",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 790,
+    "Number1": "814537",
+    "Number2": "1487806",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

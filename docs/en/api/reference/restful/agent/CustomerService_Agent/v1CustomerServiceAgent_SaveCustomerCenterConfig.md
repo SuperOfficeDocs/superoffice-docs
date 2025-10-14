@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,14 +84,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 544,
+  "CustConfigId": 861,
   "Type": "Options",
-  "Config": "voluptatem",
-  "CustLangId": 588,
-  "Registered": "2002-01-22T11:24:47.8439178+01:00",
-  "RegisteredAssociateId": 342,
-  "Updated": "2020-04-09T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 552
+  "Config": "molestiae",
+  "CustLangId": 569,
+  "Registered": "2012-03-01T03:40:46.5468616+01:00",
+  "RegisteredAssociateId": 285,
+  "Updated": "2000-03-18T03:40:46.5468616+01:00",
+  "UpdatedAssociateId": 936
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 813,
+  "CustConfigId": 6,
   "Type": "Options",
-  "Config": "molestiae",
-  "CustLangId": 749,
-  "Registered": "2000-09-08T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 230,
-  "Updated": "2002-11-09T11:24:47.8439178+01:00",
-  "UpdatedAssociateId": 530,
+  "Config": "mollitia",
+  "CustLangId": 497,
+  "Registered": "2019-09-30T03:40:46.5468616+02:00",
+  "RegisteredAssociateId": 684,
+  "Updated": "2023-01-15T03:40:46.5468616+01:00",
+  "UpdatedAssociateId": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 784
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
 Deletes the AppointmentEntity
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the AppointmentEntity
 | appointmentEntityId | int32 | **Required** The identity of the AppointmentEntity |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=797
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?appointmentEntityId=966
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -14,6 +14,8 @@ PUT /api/v1/List/{id}
 Updates the existing ListEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,20 +100,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 516,
-  "Name": "Abernathy, Ziemann and Erdman",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 70,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 975,
+  "Name": "Anderson, Kris and Vandervort",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 944,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": true
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -122,27 +124,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Olson LLC",
-  "Tooltip": "eum",
+  "Id": 132,
+  "Name": "Hoeger-Pfannerstill",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 68,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "modi",
-  "InUseByUserDefinedFields": false,
+  "Rank": 294,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cupiditate",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 675
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

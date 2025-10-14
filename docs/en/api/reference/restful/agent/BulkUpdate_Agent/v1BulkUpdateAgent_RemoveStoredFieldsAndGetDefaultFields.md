@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenfelder-Lowe",
-  "Context": "nesciunt"
+  "TableName": "Wyman LLC",
+  "Context": "quis"
 }
 ```
 
@@ -109,73 +111,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "autem",
-    "ValueType": "laboriosam",
+    "IsActive": true,
+    "Key": "aut",
+    "ValueType": "fuga",
     "Mandatory": false,
-    "EncodedDisplayName": "Friesen-Kohler",
-    "EncodedDisplayDescription": "Multi-tiered leading edge success",
-    "IconHint": "autem",
+    "EncodedDisplayName": "Hartmann-Johnson",
+    "EncodedDisplayDescription": "Object-based fresh-thinking middleware",
+    "IconHint": "distinctio",
     "ControlInfos": [
       {
-        "Type": "voluptatem",
-        "Label": "nam",
-        "Dimension": 434,
-        "ListProviderName": "Lynch, Ward and Yundt",
-        "ListProviderExtraInfo": "unde",
-        "ListProviderPrimaryKeyName": "Christiansen Group",
-        "ListLeadText": "saepe",
+        "Type": "maiores",
+        "Label": "minima",
+        "Dimension": 84,
+        "ListProviderName": "Stamm Group",
+        "ListProviderExtraInfo": "non",
+        "ListProviderPrimaryKeyName": "Weber LLC",
+        "ListLeadText": "vel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 433
           }
         }
       }
     ],
-    "EncodedDataCaption": "rerum",
-    "EncodedDataCaptionDescription": "Virtual systemic framework",
-    "CurrentOperationType": "expedita",
+    "EncodedDataCaption": "qui",
+    "EncodedDataCaptionDescription": "Mandatory content-based neural-net",
+    "CurrentOperationType": "sunt",
     "Values": [
-      "ut",
-      "aut"
+      "architecto",
+      "consequatur"
     ],
     "DisplayValues": [
-      "accusantium",
-      "ut"
+      "labore",
+      "earum"
     ],
     "OperationInfos": [
       {
-        "Key": "minus",
-        "EncodedDisplayName": "Howell-Rempel",
+        "Key": "vero",
+        "EncodedDisplayName": "Kuhic-DuBuque",
         "EncodedLeadTexts": [
-          "sed",
-          "qui"
+          "quia",
+          "quod"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldType": "System.String",
+            "FieldLength": 832
           }
         }
       },
       {
-        "Key": "minus",
-        "EncodedDisplayName": "Howell-Rempel",
+        "Key": "vero",
+        "EncodedDisplayName": "Kuhic-DuBuque",
         "EncodedLeadTexts": [
-          "sed",
-          "qui"
+          "quia",
+          "quod"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldType": "System.String",
+            "FieldLength": 832
           }
         }
       }

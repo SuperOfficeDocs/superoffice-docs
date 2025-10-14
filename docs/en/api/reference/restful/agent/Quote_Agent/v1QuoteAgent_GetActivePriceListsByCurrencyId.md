@@ -15,6 +15,7 @@ Gets the available active PriceLists in a specific currency.
 
 
 Will return empty array if there is no PriceList with the stated currency available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 784,
-  "CurrencyId": 422
+  "QuoteConnectionId": 619,
+  "CurrencyId": 651
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 377,
-    "ERPPriceListKey": "odio",
-    "QuoteConnectionId": 768,
-    "Name": "Mayer Inc and Sons",
-    "Description": "Business-focused tangible ability",
-    "Currency": "non",
-    "CurrencyName": "Wilderman Inc and Sons",
-    "ValidFrom": "2005-08-07T11:24:48.5313897+02:00",
-    "ValidTo": "2017-10-31T11:24:48.5313897+01:00",
+    "PriceListId": 959,
+    "ERPPriceListKey": "dolores",
+    "QuoteConnectionId": 874,
+    "Name": "Ortiz-Hilpert",
+    "Description": "Triple-buffered leading edge benchmark",
+    "Currency": "possimus",
+    "CurrencyName": "Beer-Bruen",
+    "ValidFrom": "2020-05-05T03:40:47.5629587+02:00",
+    "ValidTo": "2022-01-05T03:40:47.5629587+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldLength": 570
       }
     }
   }

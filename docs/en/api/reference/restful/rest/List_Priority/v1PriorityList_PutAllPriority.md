@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Gleason, Nader and Wilderman",
-    "Tooltip": "aliquid",
+    "Id": 135,
+    "Name": "Kunze-Watsica",
+    "Tooltip": "ex",
     "Deleted": false,
-    "UdListDefinitionId": 472,
-    "Rank": 62
+    "UdListDefinitionId": 469,
+    "Rank": 97
   },
   {
-    "Id": 292,
-    "Name": "Gleason, Nader and Wilderman",
-    "Tooltip": "aliquid",
+    "Id": 135,
+    "Name": "Kunze-Watsica",
+    "Tooltip": "ex",
     "Deleted": false,
-    "UdListDefinitionId": 472,
-    "Rank": 62
+    "UdListDefinitionId": 469,
+    "Rank": 97
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Howe LLC",
-    "Tooltip": "pariatur",
+    "Id": 706,
+    "Name": "Hagenes Group",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 676,
-    "Rank": 63,
+    "UdListDefinitionId": 372,
+    "Rank": 8,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 998
       }
     }
   }

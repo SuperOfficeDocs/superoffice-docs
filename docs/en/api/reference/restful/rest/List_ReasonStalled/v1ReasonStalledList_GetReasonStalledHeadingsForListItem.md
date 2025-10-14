@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "Feest-Krajcik",
-    "ToolTip": "Eaque aut sit.",
-    "Deleted": true,
-    "Rank": 954,
-    "Type": "velit",
-    "ColorBlock": 821,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2005-04-09T11:24:54.1249113+02:00",
+    "Id": 21,
+    "Name": "Rodriguez Inc and Sons",
+    "ToolTip": "Nobis voluptatibus sed ratione corporis libero qui et.",
+    "Deleted": false,
+    "Rank": 658,
+    "Type": "atque",
+    "ColorBlock": 707,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2024-11-16T03:40:57.0871054+01:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Ritchie, Price and Borer",
-        "ToolTip": "Molestiae aperiam qui est rerum.",
+        "Id": 11,
+        "Name": "Schowalter, Swaniawski and Schultz",
+        "ToolTip": "Totam ipsam et nam.",
         "Deleted": false,
-        "Rank": 131,
-        "Type": "facilis",
-        "ColorBlock": 985,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2003-08-23T11:24:54.1249113+02:00",
+        "Rank": 804,
+        "Type": "magnam",
+        "ColorBlock": 925,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2024-03-12T03:40:57.0871054+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Wellington Oren Barton I",
+        "ExtraInfo": "ex",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Quentin Carter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 119
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "quasi",
+    "ExtraInfo": "in",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Dr. Aliya Romaguera V",
+    "FullName": "Mr. Reuben Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 871
       }
     }
   }

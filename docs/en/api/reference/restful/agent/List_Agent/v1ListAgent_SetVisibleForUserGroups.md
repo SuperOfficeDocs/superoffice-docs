@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups
 Update User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 927,
-  "ListItemId": 675,
+  "UdListDefinitionId": 923,
+  "ListItemId": 452,
   "UserGroups": [
     {
-      "Id": 44,
-      "Name": "Pfeffer Group",
-      "ToolTip": "Et vel.",
+      "Id": 728,
+      "Name": "Goodwin, Schoen and Durgan",
+      "ToolTip": "Fugit perferendis alias modi totam ad.",
       "Deleted": true,
-      "Rank": 373,
-      "Type": "pariatur",
-      "ColorBlock": 893,
-      "IconHint": "consequatur",
-      "Selected": true,
-      "LastChanged": "2007-08-08T11:24:48.2032781+02:00",
+      "Rank": 737,
+      "Type": "optio",
+      "ColorBlock": 415,
+      "IconHint": "deserunt",
+      "Selected": false,
+      "LastChanged": "2000-10-24T03:40:47.0780355+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "itaque",
+      "ExtraInfo": "quia",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Krystel Batz"
+      "FullName": "Frieda Franecki"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Huels Inc and Sons",
-    "ToolTip": "Atque iure praesentium non eos vel ut.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "voluptate",
-    "ColorBlock": 314,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2008-04-27T11:24:48.2032781+02:00",
+    "Id": 605,
+    "Name": "Hauck, Deckow and Ziemann",
+    "ToolTip": "Qui vel cupiditate fugiat optio totam.",
+    "Deleted": true,
+    "Rank": 677,
+    "Type": "nisi",
+    "ColorBlock": 738,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2015-09-18T03:40:47.0780355+02:00",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "Borer-Daugherty",
-        "ToolTip": "Eaque quod magnam sunt.",
-        "Deleted": true,
-        "Rank": 579,
-        "Type": "velit",
-        "ColorBlock": 943,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2025-02-27T11:24:48.2032781+01:00",
+        "Id": 956,
+        "Name": "Maggio LLC",
+        "ToolTip": "Eaque optio doloribus soluta sunt quis error odit.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "doloribus",
+        "ColorBlock": 201,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2013-12-14T03:40:47.0780355+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Parker Batz",
+        "ExtraInfo": "qui",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Mariane Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 471
+            "FieldLength": 758
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "eius",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Alexzander Russel",
+    "FullName": "Dorothy Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 874
       }
     }
   }

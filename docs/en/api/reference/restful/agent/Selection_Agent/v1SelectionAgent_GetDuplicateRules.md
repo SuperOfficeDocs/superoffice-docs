@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetDuplicateRules
 Retrieve all available duplicate rules for selection
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Connell Group",
-    "DisplayName": "Wehner-Corkery",
-    "DisplayTooltip": "amet",
-    "IsActive": false,
+    "Name": "Maggio-Morar",
+    "DisplayName": "Becker, Lind and Luettgen",
+    "DisplayTooltip": "quo",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 124
       }
     }
   },
   {
-    "Name": "O'Connell Group",
-    "DisplayName": "Wehner-Corkery",
-    "DisplayTooltip": "amet",
-    "IsActive": false,
+    "Name": "Maggio-Morar",
+    "DisplayName": "Becker, Lind and Luettgen",
+    "DisplayTooltip": "quo",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 124
       }
     }
   }

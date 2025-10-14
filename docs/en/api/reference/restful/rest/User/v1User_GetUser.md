@@ -15,6 +15,7 @@ Gets a User object.
 
 
 Calls the User agent service GetUser.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -103,7 +104,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,14 +114,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 596,
-  "Name": "Pouros Group",
-  "Rank": 160,
-  "Tooltip": "autem",
+  "AssociateId": 563,
+  "Name": "Altenwerth-Feest",
+  "Rank": 122,
+  "Tooltip": "sunt",
   "LicenseOwners": [
     {
-      "Name": "Volkman, Krajcik and Marquardt",
-      "Description": "Multi-channelled bi-directional product",
+      "Name": "Pacocha, Bode and Funk",
+      "Description": "Customer-focused tangible info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Volkman, Krajcik and Marquardt",
-      "Description": "Multi-channelled bi-directional product",
+      "Name": "Pacocha, Bode and Funk",
+      "Description": "Customer-focused tangible info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 74
         }
       }
     }
@@ -163,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolorem",
-      "Tooltip": "voluptatem",
-      "Id": 11,
-      "Rank": 169,
+      "Value": "sed",
+      "Tooltip": "officia",
+      "Id": 98,
+      "Rank": 727,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 614
+          "FieldType": "System.Int32",
+          "FieldLength": 302
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2011-10-11T11:24:53.7967997+02:00",
-  "Lastlogout": "2002-06-05T11:24:53.7967997+02:00",
-  "EjUserId": 254,
-  "RequestSignature": "et",
+  "Lastlogin": "1999-06-19T03:40:56.6025934+02:00",
+  "Lastlogout": "1998-07-11T03:40:56.6025934+02:00",
+  "EjUserId": 561,
+  "RequestSignature": "deserunt",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nam",
-      "DisplayValue": "velit",
+      "Value": "sapiente",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 298
         }
       }
     },
     {
       "Type": null,
-      "Value": "nam",
-      "DisplayValue": "velit",
+      "Value": "sapiente",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 298
         }
       }
     }
   ],
-  "UserName": "McKenzie LLC",
+  "UserName": "Conroy, Wunsch and Torphy",
   "TicketCategories": [
     {
-      "Id": 754,
-      "Name": "Armstrong, Pollich and Schneider",
-      "ToolTip": "Aut magnam similique asperiores animi harum repellat ipsum.",
+      "Id": 963,
+      "Name": "McLaughlin-Will",
+      "ToolTip": "Aliquam excepturi laboriosam quae sint expedita consequatur omnis.",
       "Deleted": false,
-      "Rank": 211,
-      "Type": "amet",
+      "Rank": 593,
+      "Type": "voluptas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quos",
-      "ColorBlock": 654,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "asperiores",
-      "FullName": "Jaiden Jast",
+      "IconHint": "dolor",
+      "ColorBlock": 105,
+      "ExtraInfo": "et",
+      "StyleHint": "ut",
+      "FullName": "Ms. Watson Corwin Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     }
   ],
-  "NickName": "Brown Group",
+  "NickName": "Schinner-Miller",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "a",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "nesciunt"
+    "CustomFields1": "et",
+    "CustomFields2": "eos"
   },
   "PostSaveCommands": [
     {
-      "Name": "Marvin Inc and Sons",
-      "DisplayName": "Spencer, Stoltenberg and Sawayn",
-      "Description": "De-engineered attitude-oriented system engine",
-      "ToolTip": "Debitis odio et omnis ratione explicabo.",
+      "Name": "Bradtke, Douglas and Rodriguez",
+      "DisplayName": "Renner, Kuhn and Ledner",
+      "Description": "De-engineered zero defect neural-net",
+      "ToolTip": "Quis fuga doloribus impedit nam cum.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 413
         }
       }
     }
@@ -275,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 243
     }
   },
   "_Links": {

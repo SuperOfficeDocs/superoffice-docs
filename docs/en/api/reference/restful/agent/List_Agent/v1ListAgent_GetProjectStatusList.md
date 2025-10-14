@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProjectStatusList
 Gets an array of ProjectStatus objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetProjectStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Value": "consequatur",
-    "Tooltip": "eum",
+    "Id": 638,
+    "Value": "ad",
+    "Tooltip": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 657
       }
     }
   },
   {
-    "Id": 186,
-    "Value": "consequatur",
-    "Tooltip": "eum",
+    "Id": 638,
+    "Value": "ad",
+    "Tooltip": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 657
       }
     }
   }

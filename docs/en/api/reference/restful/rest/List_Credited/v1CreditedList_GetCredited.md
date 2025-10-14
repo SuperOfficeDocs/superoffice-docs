@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615,
-  "Name": "Herzog Group",
-  "Tooltip": "nobis",
+  "Id": 854,
+  "Name": "Stokes, Schuppe and Steuber",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 499,
-  "Rank": 353,
+  "UdListDefinitionId": 841,
+  "Rank": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

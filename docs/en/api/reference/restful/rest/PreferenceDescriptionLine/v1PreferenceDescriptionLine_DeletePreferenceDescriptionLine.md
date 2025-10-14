@@ -15,6 +15,7 @@ Deletes the PreferenceDescriptionLine
 
 
 Calls the Preference agent service DeletePreferenceDescriptionLine.
+NsApiSlow threshold: 1000 ms.
 
 
 

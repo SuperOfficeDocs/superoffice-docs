@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/EmptyFolder
 Delete all items in folder specified in the connection object
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -73,7 +76,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MoveToFolder": "aliquid"
+  "MoveToFolder": "autem"
 }
 ```
 

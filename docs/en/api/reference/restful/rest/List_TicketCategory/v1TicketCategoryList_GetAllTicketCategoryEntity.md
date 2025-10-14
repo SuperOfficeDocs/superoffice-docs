@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 885,
-    "ParentId": 31,
-    "Name": "Buckridge-Yundt",
-    "Fullname": "est",
-    "CategoryMaster": 857,
+    "TicketCategoryId": 601,
+    "ParentId": 404,
+    "Name": "Anderson Group",
+    "Fullname": "nulla",
+    "CategoryMaster": 930,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Lind-Rice",
+    "ExternalName": "Ullrich, Mertz and Reichel",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 775,
-    "ReplyTemplate": 859,
-    "NotificationEmail": "arturo.jenkins@marvin.info",
+    "AssignmentLag": 249,
+    "ReplyTemplate": 641,
+    "NotificationEmail": "olin@greenholt.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 959,
+    "EffectiveReplyTemplateId": 48,
     "ExtraFields": {
-      "ExtraFields1": "eaque",
-      "ExtraFields2": "dolores"
+      "ExtraFields1": "est",
+      "ExtraFields2": "tempore"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatem",
-      "CustomFields2": "est"
+      "CustomFields1": "saepe",
+      "CustomFields2": "dignissimos"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 373
       }
     }
   }

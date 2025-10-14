@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAnd
 Returns a default target assignment for the specified usergroup, for the specified year and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 167,
-  "Year": 477,
-  "TargetDimensionId": 991
+  "UserGroupId": 651,
+  "Year": 204,
+  "TargetDimensionId": 396
 }
 ```
 
@@ -102,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 355,
+    "TargetAssignmentInfoId": 830,
     "Values": [
-      616,
-      598
+      371,
+      603
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 52,
-    "DimensionListItemDisplayName": "O'Hara, Mayert and Ledner",
+    "DimensionListItem": 831,
+    "DimensionListItemDisplayName": "Schneider, Gaylord and Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

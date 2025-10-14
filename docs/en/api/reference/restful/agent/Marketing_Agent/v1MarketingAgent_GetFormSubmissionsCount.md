@@ -15,6 +15,7 @@ Get counnt of submissions for given form and status.
 
 
 Count for all forms is returned if negative formId is given
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 384,
+  "FormId": 417,
   "Status": "EmailVerification"
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-320
+902
 ```

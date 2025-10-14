@@ -15,6 +15,7 @@ Creates a new CRMScriptEntity
 
 
 Calls the CRMScript agent service SaveCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -116,52 +117,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 403,
-  "UniqueIdentifier": "molestiae",
-  "Name": "Schaden-Leuschke",
-  "Description": "Vision-oriented assymetric flexibility",
-  "IncludeId": "commodi",
-  "AccessKey": "non",
+  "EjscriptId": 909,
+  "UniqueIdentifier": "qui",
+  "Name": "Thiel Group",
+  "Description": "Synergized static support",
+  "IncludeId": "placeat",
+  "AccessKey": "illum",
   "HierarchyId": 1002,
-  "Source": "qui",
-  "SourceCode": "aut",
+  "Source": "sunt",
+  "SourceCode": "fugiat",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 617,
+  "HtmlOutput": 559,
   "Includes": [
-    390,
-    90
+    245,
+    868
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 468,
-      "LineNumberTo": 168,
-      "Delta": 406,
-      "IncludeId": "est",
+      "LineNumberFrom": 853,
+      "LineNumberTo": 116,
+      "Delta": 334,
+      "IncludeId": "esse",
       "IncludedFrom": [
-        "omnis",
-        "ullam"
+        "ut",
+        "a"
       ]
     },
     {
-      "LineNumberFrom": 468,
-      "LineNumberTo": 168,
-      "Delta": 406,
-      "IncludeId": "est",
+      "LineNumberFrom": 853,
+      "LineNumberTo": 116,
+      "Delta": 334,
+      "IncludeId": "esse",
       "IncludedFrom": [
-        "omnis",
-        "ullam"
+        "ut",
+        "a"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2012-01-27T11:24:53.156201+01:00",
-  "RegisteredAssociateId": 815,
-  "Updated": "2013-04-07T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 977,
+  "Registered": "2021-08-03T03:40:55.6162809+02:00",
+  "RegisteredAssociateId": 185,
+  "Updated": "2010-12-24T03:40:55.6162809+01:00",
+  "UpdatedAssociateId": 758,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -173,53 +174,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 467,
-  "UniqueIdentifier": "vel",
-  "Name": "Schoen, Friesen and Welch",
-  "Description": "Seamless exuding encoding",
-  "IncludeId": "est",
-  "AccessKey": "quo",
-  "HierarchyId": 680,
-  "Source": "ratione",
-  "SourceCode": "corrupti",
+  "EjscriptId": 420,
+  "UniqueIdentifier": "eveniet",
+  "Name": "Mitchell, Roob and Sporer",
+  "Description": "Ergonomic attitude-oriented initiative",
+  "IncludeId": "eius",
+  "AccessKey": "expedita",
+  "HierarchyId": 955,
+  "Source": "cupiditate",
+  "SourceCode": "optio",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 944,
+  "HtmlOutput": 825,
   "Includes": [
-    204,
-    504
+    526,
+    731
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 280,
-      "LineNumberTo": 388,
-      "Delta": 622,
-      "IncludeId": "ut",
+      "LineNumberFrom": 508,
+      "LineNumberTo": 514,
+      "Delta": 328,
+      "IncludeId": "quo",
       "IncludedFrom": [
-        "unde",
-        "aliquid"
+        "cum",
+        "temporibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-05-19T11:24:53.156201+02:00",
+  "Registered": "2001-11-25T03:40:55.6162809+01:00",
   "RegisteredAssociateId": 374,
-  "Updated": "2017-05-27T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 297,
+  "Updated": "2022-06-27T03:40:55.6162809+02:00",
+  "UpdatedAssociateId": 220,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 390
     }
   },
   "_Links": {

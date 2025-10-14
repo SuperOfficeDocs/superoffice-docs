@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Hara-Franecki"
+  "OwnerName": "Schoen, Greenfelder and Senger"
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 621,
-      "NumberOfLicensesFree": 614,
-      "NumberOfLicensesAdded": 639,
-      "NumberOfLicensesNewTotal": 924,
-      "NumberOfLicensesNewFree": 34,
-      "NumberOfLicensesTotal": 774
+      "NumberOfLicensesInUse": 951,
+      "NumberOfLicensesFree": 567,
+      "NumberOfLicensesAdded": 507,
+      "NumberOfLicensesNewTotal": 522,
+      "NumberOfLicensesNewFree": 478,
+      "NumberOfLicensesTotal": 6
     }
   ],
-  "AccumulatedNextCheckDate": "2000-05-02T11:24:48.1720293+02:00"
+  "AccumulatedNextCheckDate": "2016-02-07T03:40:46.9999043+01:00"
 }
 ```

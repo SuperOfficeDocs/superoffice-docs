@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Gets a TriggerScriptEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +32,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=652
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=334
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +82,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,22 +92,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 556,
-  "Name": "Schaden Group",
+  "ScreenChooserId": 939,
+  "Name": "Torp LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "debitis",
-  "Source": "qui",
-  "Registered": "2017-10-08T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2000-09-03T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 306,
+  "UniqueIdentifier": "maiores",
+  "Source": "consequatur",
+  "Registered": "2002-05-06T03:40:46.5306238+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2002-11-16T03:40:46.5306238+01:00",
+  "UpdatedAssociateId": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

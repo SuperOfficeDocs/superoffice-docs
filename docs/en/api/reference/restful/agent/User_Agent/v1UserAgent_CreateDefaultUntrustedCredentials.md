@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Loading default values into a new UntrustedCredentials.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -63,7 +66,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2013-03-07T11:24:48.9063744+01:00",
-  "ValidTo": "2024-03-30T11:24:48.9063744+01:00",
-  "Comment": "distinctio",
-  "SecretValue": "maiores",
-  "PublicValue": "quae",
+  "ValidFrom": "2004-09-09T03:40:48.1879959+02:00",
+  "ValidTo": "2000-02-20T03:40:48.1879959+01:00",
+  "Comment": "beatae",
+  "SecretValue": "molestias",
+  "PublicValue": "est",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 654
     }
   }
 }

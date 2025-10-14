@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Returns the configuration field with the given id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 154
+  "QuoteLineConfigurationId": 745
 }
 ```
 
@@ -97,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 762,
-  "FieldName": "Abernathy, Murray and Weimann",
-  "Label": "et",
-  "Tooltip": "saepe",
+  "QuoteLineConfigurationId": 721,
+  "FieldName": "Hammes-Larson",
+  "Label": "consequatur",
+  "Tooltip": "impedit",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 802,
+  "Mandatory": true,
+  "Rank": 69,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 173
     }
   }
 }

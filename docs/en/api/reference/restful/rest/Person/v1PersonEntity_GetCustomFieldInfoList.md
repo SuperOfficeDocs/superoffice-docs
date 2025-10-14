@@ -69,7 +69,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rolfson Inc and Sons",
-    "DisplayName": "Hermann LLC",
-    "Description": "Sharable logistical contingency",
-    "ShortLabel": "nisi",
+    "FieldName": "Mertz-Olson",
+    "DisplayName": "Harvey LLC",
+    "Description": "Persevering systemic access",
+    "ShortLabel": "iste",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 615,
-    "TemplateVariableName": "Schuster, Herzog and Paucek"
+    "IsDisplayField": true,
+    "Rank": 423,
+    "TemplateVariableName": "Kuhlman LLC"
   }
 ]
 ```

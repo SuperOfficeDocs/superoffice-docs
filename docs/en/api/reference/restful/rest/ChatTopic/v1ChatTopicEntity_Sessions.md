@@ -75,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=suscipit
-GET /api/v1/ChatTopic/{id}/Sessions?$top=663
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=941
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=quidem
+GET /api/v1/ChatTopic/{id}/Sessions?$top=34
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=978
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=expedita
+GET /api/v1/ChatTopic/{id}/Sessions?$context=fuga
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
-GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=True
+GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=False
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
 ```
 
@@ -135,19 +135,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "atque",
   "value": [
     {
-      "PrimaryKey": 9704,
+      "PrimaryKey": 5746,
       "EntityName": "person",
-      "personId": 9704,
-      "fullName": "Arvilla Witting"
+      "personId": 5746,
+      "fullName": "Mrs. Jesse Keegan Hudson II"
     },
     {
-      "PrimaryKey": 1254,
+      "PrimaryKey": 7434,
       "EntityName": "person",
-      "personId": 1254,
-      "fullName": "Modesto Jenifer O'Connell Jr."
+      "personId": 7434,
+      "fullName": "Dr. Liza Kutch"
     }
   ]
 }

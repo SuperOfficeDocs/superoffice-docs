@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/SetContactImage
 Stores the contact image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 111,
+  "ContactId": 834,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

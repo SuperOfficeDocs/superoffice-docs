@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 791,
-  "StartTime": "2011-10-26T11:24:47.2970652+02:00",
-  "EndTime": "2009-06-21T11:24:47.2970652+02:00",
-  "Count": 841,
-  "TaskHeadingId": 267
+  "ProjectId": 402,
+  "StartTime": "2011-06-09T03:40:45.60749+02:00",
+  "EndTime": "2014-02-10T03:40:45.60749+01:00",
+  "Count": 899,
+  "TaskHeadingId": 317
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 393,
-    "StartDate": "2000-10-10T11:24:47.2970652+02:00",
-    "EndDate": "2020-02-09T11:24:47.2970652+01:00",
+    "AppointmentId": 447,
+    "StartDate": "2023-05-04T03:40:45.60749+02:00",
+    "EndDate": "2014-04-05T03:40:45.60749+02:00",
     "Type": "BookingForChecklist",
-    "Task": "pariatur",
-    "AssociateFullName": "Misty White",
-    "ContactName": "Denesik, Crona and Mohr",
-    "Description": "Multi-tiered upward-trending standardization",
-    "PersonFullName": "Aida Parker",
-    "PersonId": 73,
-    "ContactId": 807,
-    "ProjectId": 78,
-    "ProjectName": "Berge Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 831,
-    "ColorIndex": 89,
+    "Task": "adipisci",
+    "AssociateFullName": "Pablo Huels",
+    "ContactName": "Ullrich, Zemlak and Nolan",
+    "Description": "Cross-platform maximized interface",
+    "PersonFullName": "Ms. Shayna Markus Quigley",
+    "PersonId": 732,
+    "ContactId": 107,
+    "ProjectId": 294,
+    "ProjectName": "Grimes Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 638,
+    "ColorIndex": 959,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 5,
-    "PriorityName": "Dibbert-Robel",
+    "PriorityId": 349,
+    "PriorityName": "Kris Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2000-05-15T11:24:47.2970652+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2001-11-20T03:40:45.60749+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-05-26T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2001-11-17T11:24:47.2970652+01:00",
-    "MotherId": 413,
-    "AssignedBy": 232,
-    "AssignedByFullName": "Mrs. Russel Abshire",
+    "RecurringStartDate": "2021-01-31T03:40:45.60749+01:00",
+    "RecurringEndDate": "2011-04-14T03:40:45.60749+02:00",
+    "MotherId": 456,
+    "AssignedBy": 325,
+    "AssignedByFullName": "Mr. Marco Medhurst",
     "RejectReason": "",
-    "Location": "quae",
-    "AlarmLeadTime": "atque",
-    "SaleId": 60,
-    "SaleName": "Runolfsson-Nicolas",
-    "AssociateName": "Heaney-Lueilwitz",
-    "CreatedDate": "2005-11-03T11:24:47.2970652+01:00",
-    "CreatedBy": "illo",
-    "CreatedByFullName": "Mr. Aisha Dach",
-    "CreatedByAssociateId": 518,
+    "Location": "corporis",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 92,
+    "SaleName": "Stiedemann Group",
+    "AssociateName": "Murray Inc and Sons",
+    "CreatedDate": "1999-04-17T03:40:45.60749+02:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Dina Kub",
+    "CreatedByAssociateId": 366,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 855,
+    "MotherAssociateId": 789,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 546,
-    "Title": "enim",
-    "Agenda": "qui",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 82,
+    "Title": "ducimus",
+    "Agenda": "eaque",
+    "InternalNotes": "ducimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 192
       }
     }
   }

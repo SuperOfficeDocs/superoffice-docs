@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Gets the blob entity that represents the contact image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -90,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 776
+  "ContactId": 703
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 730,
-  "BlobSize": 964,
-  "Description": "Multi-lateral logistical concept",
-  "ExtraInfo": "sint",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "eaque",
-  "OriginalSize": 531,
-  "CreatedDate": "2015-05-08T11:24:47.6251768+02:00",
-  "UpdatedDate": "2016-08-06T11:24:47.6251768+02:00",
+  "BlobId": 835,
+  "BlobSize": 532,
+  "Description": "Reverse-engineered heuristic process improvement",
+  "ExtraInfo": "molestiae",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 805,
+  "CreatedDate": "2016-04-05T03:40:46.0920806+02:00",
+  "UpdatedDate": "2022-05-30T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque",
+  "ConceptualType": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldLength": 542
     }
   }
 }

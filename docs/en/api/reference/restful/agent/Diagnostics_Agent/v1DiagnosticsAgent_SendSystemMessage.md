@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Adds a system message for a specific associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "sed",
-  "AssociateId": 215,
-  "MarkdownMessage": "error",
-  "Expire": "2024-09-16T11:24:47.8751665+02:00",
+  "SystemMessageId": "expedita",
+  "AssociateId": 279,
+  "MarkdownMessage": "inventore",
+  "Expire": "2002-06-22T03:40:46.5780122+02:00",
   "Type": "Error"
 }
 ```

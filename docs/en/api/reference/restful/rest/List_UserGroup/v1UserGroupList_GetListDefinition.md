@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Hane-Predovic",
-  "Tooltip": "molestias",
+  "Id": 541,
+  "Name": "O'Hara, Parker and Yundt",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 24,
+  "Rank": 692,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "UseGroupsAndHeadings": true,
+  "ListType": "debitis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldType": "System.String",
+      "FieldLength": 885
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetRelationDefinitionEntity
 Gets a RelationDefinitionEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=26
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=39
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -85,12 +87,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 519,
-  "Name": "Cremin, Fadel and Schuppe",
-  "Tooltip": "impedit",
-  "PassiveText": "numquam",
-  "Deleted": false,
-  "Rank": 222,
+  "ReldefId": 574,
+  "Name": "Satterfield-Donnelly",
+  "Tooltip": "pariatur",
+  "PassiveText": "repellat",
+  "Deleted": true,
+  "Rank": 383,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -98,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 392
     }
   }
 }

@@ -15,6 +15,7 @@ Set default values into a new DocumentEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Document agent service CreateDefaultDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,91 +100,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Jun 2020 11:24:53 G6T
+Last-Modified: Sat, 02 Jul 2022 03:40:55 G7T
 
 {
-  "DocumentId": 586,
+  "DocumentId": 952,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "ut",
-  "Name": "Kuvalis, Schmidt and Hansen",
-  "OurRef": "aut",
-  "YourRef": "quaerat",
-  "CreatedDate": "2015-12-30T11:24:53.2345794+01:00",
-  "UpdatedDate": "2020-06-15T11:24:53.2345794+02:00",
-  "Description": "Phased 3rd generation knowledge base",
+  "Attention": "rerum",
+  "Header": "numquam",
+  "Name": "Weissnat-Morissette",
+  "OurRef": "adipisci",
+  "YourRef": "rerum",
+  "CreatedDate": "2003-01-08T03:40:55.6319065+01:00",
+  "UpdatedDate": "2022-07-02T03:40:55.6319065+02:00",
+  "Description": "Focused multi-state service-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-03-23T11:24:53.2345794+01:00",
-  "ExternalRef": "nihil",
+  "Date": "2015-07-06T03:40:55.6319065+02:00",
+  "ExternalRef": "voluptatem",
   "Completed": "Completed",
-  "ActiveLinks": 300,
+  "ActiveLinks": 688,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Corwin LLC",
-      "Id": 573,
-      "Description": "Focused systematic adapter",
-      "ExtraInfo": "dolor",
-      "LinkId": 383,
+      "EntityName": "Barton Inc and Sons",
+      "Id": 917,
+      "Description": "Sharable 5th generation utilisation",
+      "ExtraInfo": "natus",
+      "LinkId": 870,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 384
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 438,
-  "Snum": 314,
+  "SuggestedDocumentId": 454,
+  "Snum": 993,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Ally Green",
-    "SuperOffice:2": "805674130"
+    "SuperOffice:1": "Richmond O'Reilly",
+    "SuperOffice:2": "Myrtice Darrick Thiel IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "quo"
+    "CustomFields1": "aut",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2021-09-24T11:24:53.2345794+02:00",
-  "PublishTo": "2019-12-21T11:24:53.2345794+01:00",
-  "PublishFrom": "2018-11-12T11:24:53.2345794+01:00",
+  "PublishEventDate": "2019-05-26T03:40:55.6319065+02:00",
+  "PublishTo": "2000-06-30T03:40:55.6319065+02:00",
+  "PublishFrom": "2009-04-25T03:40:55.6319065+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 608
         }
       }
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 608
         }
       }
     }
@@ -192,8 +193,8 @@ Last-Modified: Mon, 15 Jun 2020 11:24:53 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 177
     }
   }
 }

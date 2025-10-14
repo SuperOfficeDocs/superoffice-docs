@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument
 Undo (abandon) a checkout
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 802,
+  "DocumentId": 355,
   "AllowedReturnTypes": [
-    "non",
-    "sint"
+    "quod",
+    "dolore"
   ]
 }
 ```
@@ -97,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "reprehenderit",
-  "VersionId": "qui",
-  "Success": false,
+  "ExternalReference": "et",
+  "VersionId": "consequatur",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "fugit",
-  "AdditionalInfo": "eum"
+  "Value": "fugiat",
+  "AdditionalInfo": "aspernatur"
 }
 ```

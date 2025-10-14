@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects
 Get published projects from the logged in user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 191,
-    "Name": "Hagenes Inc and Sons",
-    "Description": "Synergistic explicit infrastructure",
+    "ProjectId": 735,
+    "Name": "Lemke Inc and Sons",
+    "Description": "Function-based didactic capability",
     "URL": "http://www.example.com/",
-    "Type": "assumenda",
-    "AssociateId": 564,
-    "AssociateFullName": "Olaf Macejkovic",
-    "TypeId": 363,
-    "Updated": "2023-05-20T11:24:48.4845166+02:00",
-    "StatusId": 468,
-    "Status": "fuga",
-    "TextId": 527,
-    "PublishTo": "2020-11-20T11:24:48.4845166+01:00",
-    "PublishFrom": "2017-08-05T11:24:48.4845166+02:00",
+    "Type": "in",
+    "AssociateId": 950,
+    "AssociateFullName": "Marty Grant",
+    "TypeId": 23,
+    "Updated": "1998-11-30T03:40:47.4999832+01:00",
+    "StatusId": 173,
+    "Status": "ut",
+    "TextId": 868,
+    "PublishTo": "2014-11-02T03:40:47.4999832+01:00",
+    "PublishFrom": "2000-01-30T03:40:47.4999832+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "286498",
-    "ActiveErpLinks": 704,
+    "ProjectNumber": "900747",
+    "ActiveErpLinks": 145,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

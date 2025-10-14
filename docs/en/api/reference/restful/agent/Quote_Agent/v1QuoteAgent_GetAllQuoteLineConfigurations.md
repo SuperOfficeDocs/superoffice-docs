@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Returns all the configuration fields
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 416,
-    "FieldName": "Wilderman Group",
-    "Label": "id",
-    "Tooltip": "ut",
-    "Editable": false,
+    "QuoteLineConfigurationId": 585,
+    "FieldName": "Rau-Pfannerstill",
+    "Label": "nemo",
+    "Tooltip": "incidunt",
+    "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 350,
+    "Rank": 593,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 504
       }
     }
   }

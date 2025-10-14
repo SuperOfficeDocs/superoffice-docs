@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Connelly LLC",
-    "ToolTip": "Magni est sit odio mollitia molestias voluptatem.",
+    "Id": 536,
+    "Name": "Ortiz-Bins",
+    "ToolTip": "Qui animi vel praesentium labore blanditiis.",
     "Deleted": false,
-    "Rank": 273,
-    "Type": "enim",
-    "ColorBlock": 639,
-    "IconHint": "pariatur",
-    "Selected": false,
-    "LastChanged": "2018-01-12T11:24:54.0936627+01:00",
+    "Rank": 965,
+    "Type": "nihil",
+    "ColorBlock": 96,
+    "IconHint": "fugiat",
+    "Selected": true,
+    "LastChanged": "2017-05-06T03:40:57.0558521+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Kunze-Jenkins",
-        "ToolTip": "Voluptatem blanditiis quibusdam numquam aut atque eos est.",
-        "Deleted": true,
-        "Rank": 247,
-        "Type": "sequi",
-        "ColorBlock": 849,
-        "IconHint": "natus",
+        "Id": 172,
+        "Name": "Wolf, Connelly and Moen",
+        "ToolTip": "Occaecati consequatur qui quisquam repudiandae est nobis.",
+        "Deleted": false,
+        "Rank": 672,
+        "Type": "amet",
+        "ColorBlock": 270,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2002-12-09T11:24:54.0936627+01:00",
+        "LastChanged": "2005-01-13T03:40:57.0558521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "quia",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Miss Arely Kirlin Jr.",
+        "FullName": "Berenice Davin Hintz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "commodi",
+    "ExtraInfo": "alias",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Stephanie King",
+    "FullName": "Gisselle Nolan PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 956
       }
     }
   }

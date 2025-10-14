@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Loading default values into a new WorkflowGoal.
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -59,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,23 +71,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 729,
-  "WorkflowId": 873,
+  "WorkflowGoalId": 819,
+  "WorkflowId": 564,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Hane, Veum and Stoltenberg",
-      "Description": "De-engineered systematic strategy",
-      "Rank": 336,
+      "Name": "Vandervort, Greenfelder and Bartoletti",
+      "Description": "Implemented system-worthy instruction set",
+      "Rank": 833,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hane, Veum and Stoltenberg",
-      "Description": "De-engineered systematic strategy",
-      "Rank": 336,
+      "Name": "Vandervort, Greenfelder and Bartoletti",
+      "Description": "Implemented system-worthy instruction set",
+      "Rank": 833,
       "Restrictions": [
         {},
         {}
@@ -96,8 +98,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 879
     }
   }
 }

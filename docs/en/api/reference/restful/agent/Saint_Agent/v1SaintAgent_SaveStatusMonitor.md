@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/SaveStatusMonitor
 Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,21 +98,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 694,
-  "Rank": 658,
-  "DefaultTask": 35,
-  "DefaultTaskText": "quod",
+  "OwnerTable": 192,
+  "Rank": 476,
+  "DefaultTask": 682,
+  "DefaultTaskText": "blanditiis",
   "IsVisual": false,
-  "LastGenerated": "2014-06-09T11:24:48.5470141+02:00",
-  "Description": "Intuitive real-time implementation",
-  "Name": "Heaney-Sipes",
-  "StatusMonitorId": 363,
-  "PictureId": 19,
+  "LastGenerated": "2012-06-27T03:40:47.5942106+02:00",
+  "Description": "Synergistic web-enabled hub",
+  "Name": "Cole, Hackett and Langworth",
+  "StatusMonitorId": 992,
+  "PictureId": 172,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 435,
-  "NumNeedUpdate": 130,
-  "GenerationStart": "2023-02-16T11:24:48.5470141+01:00"
+  "NumMatches": 509,
+  "NumNeedUpdate": 270,
+  "GenerationStart": "2003-11-06T03:40:47.5942106+01:00"
 }
 ```
 
@@ -121,27 +123,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 817,
-  "Rank": 354,
-  "DefaultTask": 371,
-  "DefaultTaskText": "magnam",
+  "OwnerTable": 892,
+  "Rank": 5,
+  "DefaultTask": 48,
+  "DefaultTaskText": "iure",
   "IsVisual": true,
-  "LastGenerated": "2018-08-11T11:24:48.5470141+02:00",
-  "Description": "Enterprise-wide 3rd generation collaboration",
-  "Name": "Herzog, Mosciski and Nitzsche",
-  "StatusMonitorId": 904,
-  "PictureId": 755,
+  "LastGenerated": "2023-08-22T03:40:47.5942106+02:00",
+  "Description": "Profit-focused content-based strategy",
+  "Name": "Wuckert Inc and Sons",
+  "StatusMonitorId": 849,
+  "PictureId": 766,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 740,
-  "NumNeedUpdate": 545,
-  "GenerationStart": "2022-11-16T11:24:48.5470141+01:00",
+  "NumMatches": 339,
+  "NumNeedUpdate": 398,
+  "GenerationStart": "2022-07-26T03:40:47.5942106+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 674
+      "FieldLength": 232
     }
   }
 }

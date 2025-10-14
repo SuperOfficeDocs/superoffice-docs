@@ -15,6 +15,7 @@ Create a VideoMeetingReservation.
 
 
 System users are not allowed to create video meeting reservations
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateVideoMeetingReservation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,7 +78,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "VideoMeetingId": "quae",
+  "VideoMeetingId": "est",
   "VideoMeetingUrl": "http://www.example.com/"
 }
 ```

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Bergstrom-Sawayn",
-  "Tooltip": "corrupti",
+  "Id": 237,
+  "Name": "Corkery Inc and Sons",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 822,
+  "Rank": 719,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quas",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 980
     }
   },
   "_Links": {

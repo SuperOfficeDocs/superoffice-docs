@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 57,
-  "Name": "Leannon, Little and Lindgren",
-  "Tooltip": "qui",
+  "HeadingId": 468,
+  "Name": "McGlynn-Okuneva",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 147,
-  "UdListDefinitionId": 858
+  "Rank": 96,
+  "UdListDefinitionId": 646
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 742,
-  "Name": "Reichel Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 7,
-  "UdListDefinitionId": 150,
+  "HeadingId": 707,
+  "Name": "Kozey-Trantow",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "Rank": 400,
+  "UdListDefinitionId": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

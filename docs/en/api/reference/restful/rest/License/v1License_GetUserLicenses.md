@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,56 +74,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Luettgen-Bayer",
-    "Description": "Operative incremental process improvement",
+    "Name": "Hyatt LLC",
+    "Description": "Object-based client-server artificial intelligence",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 441,
-        "Tooltip": "quis",
+        "Total": 347,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 203,
-        "InUse": 631,
-        "IsHidden": false,
+        "Free": 740,
+        "InUse": 318,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 192,
-        "Name": "Ritchie-Ernser",
-        "Description": "Visionary incremental framework",
-        "PrerequisiteModuleName": "Kuhlman Group",
-        "SortOrder": 720,
-        "ExtraFlags": 110,
+        "ModuleLicenseId": 777,
+        "Name": "Douglas-Mills",
+        "Description": "Future-proofed stable array",
+        "PrerequisiteModuleName": "Robel, Veum and Price",
+        "SortOrder": 117,
+        "ExtraFlags": 59,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 737
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 434,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 738,
-        "InUse": 40,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 823,
-        "Name": "Prosacco LLC",
-        "Description": "Front-line intangible artificial intelligence",
-        "PrerequisiteModuleName": "Rath-Bayer",
-        "SortOrder": 145,
-        "ExtraFlags": 262,
+        "Unrestricted": true,
+        "Total": 890,
+        "Tooltip": "laudantium",
+        "CanAssign": false,
+        "Free": 983,
+        "InUse": 453,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 998,
+        "Name": "Funk, Cummings and Schaefer",
+        "Description": "Open-source didactic service-desk",
+        "PrerequisiteModuleName": "Botsford, Leffler and Marvin",
+        "SortOrder": 913,
+        "ExtraFlags": 619,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldType": "System.String",
+            "FieldLength": 363
           }
         }
       }
@@ -132,62 +132,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   },
   {
-    "Name": "Luettgen-Bayer",
-    "Description": "Operative incremental process improvement",
+    "Name": "Hyatt LLC",
+    "Description": "Object-based client-server artificial intelligence",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 441,
-        "Tooltip": "quis",
+        "Total": 347,
+        "Tooltip": "ut",
         "CanAssign": false,
-        "Free": 203,
-        "InUse": 631,
-        "IsHidden": false,
+        "Free": 740,
+        "InUse": 318,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 192,
-        "Name": "Ritchie-Ernser",
-        "Description": "Visionary incremental framework",
-        "PrerequisiteModuleName": "Kuhlman Group",
-        "SortOrder": 720,
-        "ExtraFlags": 110,
+        "ModuleLicenseId": 777,
+        "Name": "Douglas-Mills",
+        "Description": "Future-proofed stable array",
+        "PrerequisiteModuleName": "Robel, Veum and Price",
+        "SortOrder": 117,
+        "ExtraFlags": 59,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 737
+            "FieldType": "System.Int32",
+            "FieldLength": 615
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 434,
-        "Tooltip": "ut",
-        "CanAssign": true,
-        "Free": 738,
-        "InUse": 40,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 823,
-        "Name": "Prosacco LLC",
-        "Description": "Front-line intangible artificial intelligence",
-        "PrerequisiteModuleName": "Rath-Bayer",
-        "SortOrder": 145,
-        "ExtraFlags": 262,
+        "Unrestricted": true,
+        "Total": 890,
+        "Tooltip": "laudantium",
+        "CanAssign": false,
+        "Free": 983,
+        "InUse": 453,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 998,
+        "Name": "Funk, Cummings and Schaefer",
+        "Description": "Open-source didactic service-desk",
+        "PrerequisiteModuleName": "Botsford, Leffler and Marvin",
+        "SortOrder": 913,
+        "ExtraFlags": 619,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldType": "System.String",
+            "FieldLength": 363
           }
         }
       }
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldType": "System.String",
+        "FieldLength": 366
       }
     }
   }

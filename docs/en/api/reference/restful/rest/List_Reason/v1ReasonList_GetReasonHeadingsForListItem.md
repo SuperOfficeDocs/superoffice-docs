@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 10,
-    "Name": "Dicki-Ullrich",
-    "ToolTip": "Ea ratione nisi et.",
+    "Id": 284,
+    "Name": "Schowalter LLC",
+    "ToolTip": "Et qui est.",
     "Deleted": false,
-    "Rank": 932,
-    "Type": "nam",
-    "ColorBlock": 572,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2014-02-22T11:24:54.1092872+01:00",
+    "Rank": 155,
+    "Type": "perspiciatis",
+    "ColorBlock": 257,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2008-09-27T03:40:57.071478+02:00",
     "ChildItems": [
       {
-        "Id": 256,
-        "Name": "Dicki Inc and Sons",
-        "ToolTip": "Quisquam necessitatibus vitae.",
-        "Deleted": true,
-        "Rank": 553,
-        "Type": "quo",
-        "ColorBlock": 835,
-        "IconHint": "laboriosam",
+        "Id": 240,
+        "Name": "Doyle Group",
+        "ToolTip": "Et facere eum eligendi.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "hic",
+        "ColorBlock": 859,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2020-01-25T11:24:54.1092872+01:00",
+        "LastChanged": "1999-03-28T03:40:57.071478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "sequi",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Elbert Kling",
+        "FullName": "Prof. Roosevelt Jalon Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldType": "System.String",
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
+    "ExtraInfo": "velit",
     "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Malika Dickens",
+    "FullName": "Miss Adrienne Skiles DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldType": "System.String",
+        "FieldLength": 33
       }
     }
   }

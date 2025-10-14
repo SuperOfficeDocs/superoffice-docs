@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetAllFromSection
 Gets all PreferenceDescription-items in the specified section
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "tempore"
+  "Section": "voluptatibus"
 }
 ```
 
@@ -107,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 761,
-    "Section": "vel",
-    "Key": "voluptas",
-    "Name": "Koch LLC",
+    "PrefDescId": 120,
+    "Section": "perspiciatis",
+    "Key": "sed",
+    "Name": "Nitzsche Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Inverse foreground projection",
+    "Description": "Switchable multi-state model",
     "IsBuiltin": false,
-    "TableName": "Zemlak Inc and Sons",
-    "UserDefinedListId": 240,
-    "Rank": 970,
-    "SubGroup": "omnis",
-    "MinLevel": 307,
-    "MaxValue": 645,
-    "MinValue": 249,
-    "RequiredLicense": "enim",
+    "TableName": "Orn Inc and Sons",
+    "UserDefinedListId": 38,
+    "Rank": 237,
+    "SubGroup": "accusamus",
+    "MinLevel": 8,
+    "MaxValue": 637,
+    "MinValue": 328,
+    "RequiredLicense": "aliquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 107
       }
     }
   }

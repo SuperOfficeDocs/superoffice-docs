@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetPublishedProjects
 Get published projects by project ids.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    29,
-    715
+    523,
+    809
   ]
 }
 ```
@@ -110,30 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 996,
-    "Name": "Ortiz Inc and Sons",
-    "Description": "Universal uniform paradigm",
+    "ProjectId": 312,
+    "Name": "Lockman-Powlowski",
+    "Description": "Reduced 3rd generation groupware",
     "URL": "http://www.example.com/",
-    "Type": "sit",
-    "AssociateId": 88,
-    "AssociateFullName": "Hector Jerde",
-    "TypeId": 128,
-    "Updated": "2005-12-05T11:24:48.4845166+01:00",
-    "StatusId": 897,
-    "Status": "quasi",
-    "TextId": 838,
-    "PublishTo": "2002-04-09T11:24:48.4845166+02:00",
-    "PublishFrom": "2006-01-04T11:24:48.4845166+01:00",
-    "IsPublished": true,
+    "Type": "eos",
+    "AssociateId": 140,
+    "AssociateFullName": "Dr. Lisandro Schimmel",
+    "TypeId": 533,
+    "Updated": "2009-10-12T03:40:47.4999832+02:00",
+    "StatusId": 920,
+    "Status": "ratione",
+    "TextId": 349,
+    "PublishTo": "2015-09-06T03:40:47.4999832+02:00",
+    "PublishFrom": "2023-07-20T03:40:47.4999832+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "878765",
-    "ActiveErpLinks": 420,
+    "ProjectNumber": "1223919",
+    "ActiveErpLinks": 689,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

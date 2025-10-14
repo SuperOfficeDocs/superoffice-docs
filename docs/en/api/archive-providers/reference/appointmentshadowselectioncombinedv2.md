@@ -80,6 +80,7 @@ Implementation of the provider for the combined selection
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -120,11 +121,11 @@ Implementation of the provider for the combined selection
 |contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
-|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
@@ -224,11 +225,11 @@ Implementation of the provider for the combined selection
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|contact/LastActivity|date|Date of last activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
 |contact/NumberOfSales|int|Number of sales|  |
@@ -296,7 +297,9 @@ Implementation of the provider for the combined selection
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -326,13 +329,13 @@ Implementation of the provider for the combined selection
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
-|person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
-|person/personUrl/URLAddress|string|URL| x |
-|person/personUrl/URLDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
+|person/personUrl/URLAddress|string|URL| x |
+|person/personUrl/URLDescription|string|Description| x |
 |person/personAddress/addressId|int|Contact address - Address ID: Database ID for the address record| x |
 |person/personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |person/personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
@@ -430,13 +433,13 @@ Implementation of the provider for the combined selection
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
+|person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/associateDbId|associate|ID| x |
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -534,13 +537,13 @@ Implementation of the provider for the combined selection
 |project/projectAssociate/assocTooltip|string|Description : Description|  |
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -638,13 +641,14 @@ Implementation of the provider for the combined selection
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|sale/visibleFor|listAny|Visible for|  |
-|sale/sale/textId|int|Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/visibleFor|listAny|Visible for|  |
+|sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
@@ -742,7 +746,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=isMilestone,duration,contact/contactAssociate/ejDisplayName,person/middleName,person/personMobilePhone/formattedNumber
+GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=contact/contactAssociate/personEmail,person/personExtra/x_person_contact_relation,person/personAssociate/contactName,project/updatedDate,project/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

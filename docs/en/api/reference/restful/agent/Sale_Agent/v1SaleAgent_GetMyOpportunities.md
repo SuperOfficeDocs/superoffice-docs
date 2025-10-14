@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetMyOpportunities
 Returning the opportunities (open sales) belonging to the user currently logged on
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -98,11 +100,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 915
+  "Count": 853
 }
 ```
 
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kuhlman Inc and Sons",
-    "SaleDate": "2005-10-14T11:24:48.5939056+02:00",
-    "SaleId": 509,
-    "Probability": 159,
-    "Title": "iusto",
-    "Amount": 11511.181999999999,
-    "Currency": "excepturi",
-    "ProjectName": "Sanford-Cormier",
-    "AssociateFullName": "Prof. Carmelo Batz",
-    "Description": "Adaptive dedicated firmware",
+    "ContactName": "Larkin LLC",
+    "SaleDate": "2007-09-21T03:40:47.6723407+02:00",
+    "SaleId": 12,
+    "Probability": 420,
+    "Title": "quos",
+    "Amount": 26961.802,
+    "Currency": "eius",
+    "ProjectName": "Reichert-Leannon",
+    "AssociateFullName": "Mr. Lourdes Parisian Sr.",
+    "Description": "Versatile empowering help-desk",
     "Status": "Lost",
-    "WeightedAmount": 16544.386,
-    "ProjectId": 581,
-    "EarningPercent": 8605.964,
-    "Earning": 13294.428,
-    "ContactId": 96,
-    "AssociateId": 46,
-    "PersonId": 304,
-    "SaleTypeId": 873,
-    "SaleTypeName": "Emard, Lubowitz and Herzog",
-    "PersonFullName": "Saige Kassulke",
+    "WeightedAmount": 11153.905999999999,
+    "ProjectId": 912,
+    "EarningPercent": 24476.54,
+    "Earning": 29845.082,
+    "ContactId": 675,
+    "AssociateId": 625,
+    "PersonId": 971,
+    "SaleTypeId": 117,
+    "SaleTypeName": "Becker-Kshlerin",
+    "PersonFullName": "Taurean Jakubowski",
     "Completed": "Completed",
-    "ActiveErpLinks": 655,
-    "NextDueDate": "2025-01-26T11:24:48.5939056+01:00",
-    "Number": "772754",
+    "ActiveErpLinks": 550,
+    "NextDueDate": "2011-05-23T03:40:47.6723407+02:00",
+    "Number": "217298",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 379
       }
     }
   }

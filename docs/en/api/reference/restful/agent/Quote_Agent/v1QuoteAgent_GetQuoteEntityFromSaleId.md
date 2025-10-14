@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Get a Quote for a sale
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 371
+  "SaleId": 190
 }
 ```
 
@@ -101,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 969,
-  "SaleId": 521,
-  "QuoteConnectionId": 433,
-  "ERPQuoteKey": "aperiam",
-  "ERPOrderKey": "consequatur",
-  "ActiveQuoteVersionId": 598,
-  "AcceptedQuoteAlternativeId": 785,
-  "UseValuesFromQuote": 104,
-  "DocumentId": 397,
-  "PoNumber": "1162937",
-  "OrderComment": "asperiores",
-  "PreferredEmailCulture": "annabel@johnstonbrakus.info",
+  "QuoteId": 633,
+  "SaleId": 447,
+  "QuoteConnectionId": 309,
+  "ERPQuoteKey": "ut",
+  "ERPOrderKey": "enim",
+  "ActiveQuoteVersionId": 472,
+  "AcceptedQuoteAlternativeId": 63,
+  "UseValuesFromQuote": 281,
+  "DocumentId": 724,
+  "PoNumber": "936917",
+  "OrderComment": "voluptatum",
+  "PreferredEmailCulture": "joannie_streich@mrazdaugherty.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 285,
-      "ERPQuoteVersionKey": "rerum",
-      "QuoteId": 658,
-      "Description": "Fundamental neutral challenge",
-      "Number": "1355905",
+      "QuoteVersionId": 968,
+      "ERPQuoteVersionKey": "rem",
+      "QuoteId": 715,
+      "Description": "Down-sized real-time encryption",
+      "Number": "845366",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 76,
-      "SentDate": "2000-02-21T11:24:48.5313897+01:00",
-      "FollowupId": 241,
-      "ExpirationDate": "2000-11-25T11:24:48.5313897+01:00",
-      "DeliveryCountryId": 392,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 651,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "ea",
-      "ERPPaymentTypeKey": "impedit",
-      "ERPDeliveryTermsKey": "voluptatem",
-      "ERPDeliveryTypeKey": "hic",
-      "Rank": 419,
-      "ApprovedBy": 393,
-      "ApprovedText": "ut",
-      "ApprovedRegisteredBy": 341,
-      "ApprovedRegisteredDate": "1999-08-25T11:24:48.5313897+02:00",
-      "ExtraField1": "facilis",
-      "ExtraField2": "aspernatur",
-      "ExtraField3": "voluptas",
-      "ExtraField4": "expedita",
-      "ExtraField5": "sed",
-      "LastRecalculated": "2010-10-12T11:24:48.5313897+02:00",
-      "Updated": "2001-08-28T11:24:48.5313897+02:00",
-      "UpdatedAssociateId": 421,
-      "Registered": "2000-07-23T11:24:48.5313897+02:00",
-      "RegisteredAssociateId": 260,
-      "RequestAssociateId": 631,
-      "RequestComment": "molestias",
+      "LikelyQuoteAlternativeId": 553,
+      "SentDate": "1999-10-03T03:40:47.5785846+02:00",
+      "FollowupId": 204,
+      "ExpirationDate": "2005-04-07T03:40:47.5785846+02:00",
+      "DeliveryCountryId": 215,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 894,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "iste",
+      "ERPPaymentTypeKey": "numquam",
+      "ERPDeliveryTermsKey": "corrupti",
+      "ERPDeliveryTypeKey": "id",
+      "Rank": 76,
+      "ApprovedBy": 46,
+      "ApprovedText": "perspiciatis",
+      "ApprovedRegisteredBy": 242,
+      "ApprovedRegisteredDate": "2016-03-15T03:40:47.5785846+01:00",
+      "ExtraField1": "ipsam",
+      "ExtraField2": "laudantium",
+      "ExtraField3": "eum",
+      "ExtraField4": "quis",
+      "ExtraField5": "commodi",
+      "LastRecalculated": "2000-03-05T03:40:47.5785846+01:00",
+      "Updated": "2025-06-27T03:40:47.5785846+02:00",
+      "UpdatedAssociateId": 253,
+      "Registered": "2003-08-02T03:40:47.5785846+02:00",
+      "RegisteredAssociateId": 279,
+      "RequestAssociateId": 642,
+      "RequestComment": "voluptas",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 964
+          "FieldLength": 544
         }
       }
     }
@@ -172,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 756
     }
   }
 }

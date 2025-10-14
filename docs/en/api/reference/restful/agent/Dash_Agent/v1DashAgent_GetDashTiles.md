@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashTiles
 Gets the ordered list of tiles for a dashboard
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 732
+  "DashboardId": 696
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 124,
-    "DashboardId": 997,
-    "Height": 628,
-    "Width": 587,
-    "Rank": 159,
+    "DashboardTileId": 760,
+    "DashboardId": 581,
+    "Height": 765,
+    "Width": 749,
+    "Rank": 366,
     "DashTileDefinition": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 902
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/GetNumberEachTemplate
 Returns true or false if Automatically create new counters for new document templates
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 

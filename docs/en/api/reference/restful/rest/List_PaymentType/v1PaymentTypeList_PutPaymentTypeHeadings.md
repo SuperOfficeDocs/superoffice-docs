@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "Zemlak, Feeney and Hegmann",
-    "Tooltip": "voluptatem",
+    "HeadingId": 78,
+    "Name": "Rosenbaum-Carroll",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 767,
-    "UdListDefinitionId": 665
+    "Rank": 518,
+    "UdListDefinitionId": 522
   },
   {
-    "HeadingId": 730,
-    "Name": "Zemlak, Feeney and Hegmann",
-    "Tooltip": "voluptatem",
+    "HeadingId": 78,
+    "Name": "Rosenbaum-Carroll",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 767,
-    "UdListDefinitionId": 665
+    "Rank": 518,
+    "UdListDefinitionId": 522
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 463,
-    "Name": "Nienow-Quitzon",
-    "Tooltip": "tenetur",
+    "HeadingId": 392,
+    "Name": "Bednar, Blanda and Wehner",
+    "Tooltip": "ad",
     "Deleted": true,
-    "Rank": 770,
-    "UdListDefinitionId": 750,
+    "Rank": 171,
+    "UdListDefinitionId": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

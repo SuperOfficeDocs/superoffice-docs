@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSaleTypeEntity
 Gets a SaleTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=990
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=947
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -99,53 +101,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 597,
-  "Name": "Ondricka-Wisoky",
-  "Tooltip": "dolore",
-  "Rank": 134,
+  "SaleTypeId": 880,
+  "Name": "Reynolds-Murray",
+  "Tooltip": "sunt",
+  "Rank": 759,
   "DurationUnit": "Century",
-  "SaleDuration": 275,
-  "SaleTypeCatId": 802,
+  "SaleDuration": 835,
+  "SaleTypeCatId": 561,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 120,
-  "QuoteLinesTemplate": 331,
-  "ConfirmationLinesTemplate": 304,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 348,
+  "QuoteLinesTemplate": 153,
+  "ConfirmationLinesTemplate": 455,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 31,
-  "MinEarningPercent": 101,
-  "GroupQuoteLinesBy": 361,
-  "SortGroupLinesBy": 341,
+  "MaxDiscountPercent": 257,
+  "MinEarningPercent": 256,
+  "GroupQuoteLinesBy": 464,
+  "SortGroupLinesBy": 561,
   "Stages": [
     {
-      "Id": 440,
-      "Name": "Gibson, Schinner and Anderson",
-      "ToolTip": "Beatae blanditiis animi.",
-      "Deleted": false,
-      "Rank": 935,
-      "Type": "et",
-      "ColorBlock": 627,
-      "IconHint": "perferendis",
-      "Selected": true,
-      "LastChanged": "2019-08-13T11:24:48.2032781+02:00",
+      "Id": 248,
+      "Name": "Zulauf-Skiles",
+      "ToolTip": "Sed nemo exercitationem laudantium deserunt neque minima.",
+      "Deleted": true,
+      "Rank": 486,
+      "Type": "corporis",
+      "ColorBlock": 221,
+      "IconHint": "enim",
+      "Selected": false,
+      "LastChanged": "2013-02-22T03:40:47.0780355+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "nulla",
-      "Hidden": true,
-      "FullName": "Ms. Johnathon Watsica DVM",
+      "ExtraInfo": "quod",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Favian Koepp MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 371
+          "FieldLength": 938
         }
       }
     }
@@ -155,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 62
     }
   }
 }

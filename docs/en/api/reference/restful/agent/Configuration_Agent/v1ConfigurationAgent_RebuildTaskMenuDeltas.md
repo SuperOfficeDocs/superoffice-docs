@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/RebuildTaskMenuDeltas
 Flush and rebuild TaskMenu deltas.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

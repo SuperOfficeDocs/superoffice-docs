@@ -94,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 425,
-  "ColumnId": 429,
-  "FieldDefault": "eos",
-  "FieldHeight": 911,
-  "FieldLabel": "quasi",
-  "FieldLeft": 440,
-  "FieldTop": 796,
+  "UDefFieldId": 346,
+  "ColumnId": 164,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 748,
+  "FieldLabel": "provident",
+  "FieldLeft": 967,
+  "FieldTop": 798,
   "FieldType": "Checkbox",
-  "FieldWidth": 983,
-  "FormatMask": "tempore",
+  "FieldWidth": 420,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 626,
-  "LabelLeft": 297,
-  "LabelTop": 912,
-  "LabelWidth": 323,
-  "LastVersionId": 90,
-  "ListTableId": 106,
-  "IsMandatory": true,
+  "LabelHeight": 489,
+  "LabelLeft": 568,
+  "LabelTop": 362,
+  "LabelWidth": 596,
+  "LastVersionId": 452,
+  "ListTableId": 212,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 401,
-  "ProgId": "dolor",
+  "Page1LineNo": 743,
+  "ProgId": "odit",
   "IsReadOnly": false,
-  "ShortLabel": "dolores",
-  "TabOrder": 155,
-  "TextLength": 442,
-  "Tooltip": "fugiat",
-  "UdefIdentity": 242,
-  "UDListDefinitionId": 630,
+  "ShortLabel": "qui",
+  "TabOrder": 696,
+  "TextLength": 108,
+  "Tooltip": "itaque",
+  "UdefIdentity": 74,
+  "UDListDefinitionId": 16,
   "Justification": "Center",
-  "Version": 718,
-  "TemplateVariableName": "Walker, Bechtelar and Farrell",
+  "Version": 121,
+  "TemplateVariableName": "Moore-Johnston",
   "HasBeenPublished": true,
-  "MdoListName": "Grant LLC",
+  "MdoListName": "Kub-Kiehn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

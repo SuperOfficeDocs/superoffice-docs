@@ -15,6 +15,7 @@ Retrieve information about folders.
 
 
 If folders parameter is not specified(null), information about all subscribed folders will be returned.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -86,14 +87,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "vel",
-    "eum"
+    "sit",
+    "excepturi"
   ]
 }
 ```
@@ -106,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill Group",
-    "Delimiter": "aut",
-    "Flags": "dolor",
-    "TotalItems": 766,
-    "UnreadItems": 564,
+    "Name": "Volkman, Koss and Keeling",
+    "Delimiter": "magni",
+    "Flags": "ratione",
+    "TotalItems": 138,
+    "UnreadItems": 461,
     "Subscribed": true,
-    "EmailFolderId": 551,
+    "EmailFolderId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 489
       }
     }
   }

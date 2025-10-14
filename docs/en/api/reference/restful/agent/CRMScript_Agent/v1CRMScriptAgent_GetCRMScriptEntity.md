@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Gets a CRMScriptEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +32,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=675
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=261
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +91,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +101,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 969,
-  "UniqueIdentifier": "blanditiis",
-  "Name": "Sauer, Kulas and Conn",
-  "Description": "Multi-lateral client-driven emulation",
-  "IncludeId": "sint",
-  "AccessKey": "quia",
-  "HierarchyId": 76,
-  "Source": "eveniet",
-  "SourceCode": "assumenda",
+  "EjscriptId": 282,
+  "UniqueIdentifier": "aut",
+  "Name": "Littel, Bradtke and Powlowski",
+  "Description": "Advanced static Graphical User Interface",
+  "IncludeId": "ut",
+  "AccessKey": "impedit",
+  "HierarchyId": 87,
+  "Source": "expedita",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 138,
+  "HtmlOutput": 241,
   "Includes": [
-    344,
-    750
+    753,
+    109
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 842,
-      "LineNumberTo": 129,
-      "Delta": 4,
-      "IncludeId": "necessitatibus",
+      "LineNumberFrom": 603,
+      "LineNumberTo": 253,
+      "Delta": 506,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "eum",
-        "unde"
+        "voluptatum",
+        "suscipit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldLength": 862
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2004-07-07T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 77,
-  "Updated": "2017-07-23T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 982,
+  "Registered": "1999-06-11T03:40:46.5149979+02:00",
+  "RegisteredAssociateId": 606,
+  "Updated": "2020-06-24T03:40:46.5149979+02:00",
+  "UpdatedAssociateId": 32,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

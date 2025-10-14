@@ -15,6 +15,7 @@ Get the configuration for one archive.
 
 
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,8 +85,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Herman, Dooley and Wuckert",
-  "ProviderName": "Halvorson-Parker"
+  "GuiName": "Lueilwitz LLC",
+  "ProviderName": "Hane, Nolan and Kunze"
 }
 ```
 
@@ -98,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Cummings Group",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "aspernatur",
+      "DisplayName": "Armstrong Inc and Sons",
+      "DisplayTooltip": "ut",
+      "DisplayType": "asperiores",
       "CanOrderBy": false,
-      "Name": "Leannon Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolores",
-      "RestrictionListName": "Kuphal LLC",
-      "IsVisible": true,
-      "ExtraInfo": "odio",
-      "Width": "et",
-      "IconHint": "non",
-      "HeadingIconHint": "consequatur"
+      "Name": "Towne, Brown and Fadel",
+      "CanRestrictBy": true,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Koelpin, Farrell and Green",
+      "IsVisible": false,
+      "ExtraInfo": "consequatur",
+      "Width": "dignissimos",
+      "IconHint": "quia",
+      "HeadingIconHint": "asperiores"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 326,
-      "Name": "Boyer LLC",
-      "ToolTip": "Esse nam.",
+      "Id": 615,
+      "Name": "Zulauf-Trantow",
+      "ToolTip": "Error non non vel vitae consequatur aut et.",
       "Deleted": false,
-      "Rank": 973,
-      "Type": "et",
-      "ColorBlock": 214,
-      "IconHint": "iusto",
+      "Rank": 419,
+      "Type": "facilis",
+      "ColorBlock": 212,
+      "IconHint": "totam",
       "Selected": false,
-      "LastChanged": "2023-10-28T11:24:47.5939281+02:00",
+      "LastChanged": "2002-10-01T03:40:46.0608291+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vero",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Adriana McGlynn",
+      "ExtraInfo": "illo",
+      "StyleHint": "quis",
+      "Hidden": false,
+      "FullName": "Miss Amelia Tracy Cummerata PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hand-Breitenberg",
+      "Name": "Legros Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Hand-Breitenberg",
+      "Name": "Legros Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "placeat",
+  "OwnerKeys": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldType": "System.String",
+      "FieldLength": 971
     }
   }
 }

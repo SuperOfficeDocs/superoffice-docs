@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Remove a user from a topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 223,
-  "Username": "quis"
+  "ChatTopicId": 181,
+  "Username": "inventore"
 }
 ```
 

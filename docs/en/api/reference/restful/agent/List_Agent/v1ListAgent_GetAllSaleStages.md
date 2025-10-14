@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllSaleStages
 Returns all ratings
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 175,
-    "Value": "eaque",
-    "Tooltip": "quidem",
-    "Probability": 875,
+    "SaleStageId": 984,
+    "Value": "sit",
+    "Tooltip": "minima",
+    "Probability": 636,
     "Deleted": false,
-    "Rank": 392,
+    "Rank": 316,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 128
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

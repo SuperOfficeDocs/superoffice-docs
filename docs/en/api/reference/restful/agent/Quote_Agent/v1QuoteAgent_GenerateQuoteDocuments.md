@@ -15,6 +15,7 @@ Generate all the documents required to send the Quote as an email to the prospec
 
 
 Quote version status is not changed by this method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 676,
-  "EmailBodyTemplateId": 719,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 290,
+  "QuoteVersionId": 820,
+  "EmailBodyTemplateId": 146,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 300,
   "IncludeAttachments": false,
-  "RawMailSubject": "esse"
+  "RawMailSubject": "et"
 }
 ```
 
@@ -108,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 353,
-  "QuotedProductsId": 489,
+  "QuoteDocumentId": 326,
+  "QuotedProductsId": 142,
   "QuoteAttachmentIds": [
-    102,
-    104
+    535,
+    717
   ],
-  "MailBody": "voluptas",
-  "MailSubject": "nesciunt",
-  "ToEmail": "rosemary.schroeder@gerhold.com",
-  "ToFullName": "Regan Watsica",
-  "ErrorMessage": "velit",
+  "MailBody": "sint",
+  "MailSubject": "laborum",
+  "ToEmail": "landen_blanda@grady.co.uk",
+  "ToFullName": "Julius Walker",
+  "ErrorMessage": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 868
     }
   }
 }

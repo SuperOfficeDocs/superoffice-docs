@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 100,
-    "Section": "aspernatur",
-    "Key": "quis",
-    "Name": "Schuster, Gerhold and Trantow",
+    "PrefDescId": 374,
+    "Section": "neque",
+    "Key": "cupiditate",
+    "Name": "Wolf, Miller and Bode",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Right-sized logistical framework",
-    "IsBuiltin": true,
-    "TableName": "Hauck Group",
-    "UserDefinedListId": 664,
-    "Rank": 86,
-    "SubGroup": "occaecati",
-    "MinLevel": 996,
-    "MaxValue": 235,
-    "MinValue": 59,
-    "RequiredLicense": "laborum",
+    "Description": "Persistent secondary architecture",
+    "IsBuiltin": false,
+    "TableName": "Lindgren Group",
+    "UserDefinedListId": 498,
+    "Rank": 803,
+    "SubGroup": "corporis",
+    "MinLevel": 59,
+    "MaxValue": 310,
+    "MinValue": 856,
+    "RequiredLicense": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 95
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

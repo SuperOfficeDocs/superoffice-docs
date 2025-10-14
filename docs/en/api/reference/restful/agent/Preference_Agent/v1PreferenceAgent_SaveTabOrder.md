@@ -15,6 +15,7 @@ Saves the tab order.
 
 
 The order is saved pr. user.
+NsApiSlow threshold: 1000 ms.
 
 
 

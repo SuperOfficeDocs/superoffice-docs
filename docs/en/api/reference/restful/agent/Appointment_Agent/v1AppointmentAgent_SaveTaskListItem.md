@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveTaskListItem
 Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -88,19 +90,19 @@ OK
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 874,
-  "Value": "quia",
+  "TaskListItemId": 516,
+  "Value": "ut",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "IntentId": 105,
-  "Rank": 786,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "qui",
+  "Deleted": false,
+  "IntentId": 53,
+  "Rank": 56,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -115,16 +117,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 734,
-  "Value": "dolor",
+  "TaskListItemId": 398,
+  "Value": "quasi",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "nulla",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "IntentId": 910,
-  "Rank": 89,
+  "IntentId": 646,
+  "Rank": 198,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -133,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 149
     }
   }
 }

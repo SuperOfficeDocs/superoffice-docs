@@ -96,49 +96,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herzog, Jerde and Deckow",
-    "Operator": "sit",
+    "Name": "Auer Inc and Sons",
+    "Operator": "est",
     "Values": [
-      "magnam",
-      "vero"
+      "nulla",
+      "blanditiis"
     ],
     "DisplayValues": [
-      "minus",
-      "alias"
+      "dolor",
+      "enim"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Osinski, Jacobson and Renner",
-        "Operator": "itaque",
+        "Name": "Weimann LLC",
+        "Operator": "maxime",
         "Values": [
-          "totam",
-          "consequatur"
+          "sunt",
+          "sapiente"
         ],
         "DisplayValues": [
-          "quis",
-          "sunt"
+          "quam",
+          "ullam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 77,
+        "InterParenthesis": 547,
         "InterOperator": "And",
-        "UniqueHash": 604
+        "UniqueHash": 7
       }
     ],
-    "InterParenthesis": 919,
+    "InterParenthesis": 938,
     "InterOperator": "And",
-    "UniqueHash": 437
+    "UniqueHash": 811
   }
 ]
 ```
@@ -151,29 +151,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Haag, Bergstrom and Spencer",
-    "Operator": "illum",
+    "Name": "Wilderman, Gerhold and Schmidt",
+    "Operator": "cumque",
     "Values": [
-      "quaerat",
-      "reiciendis"
+      "voluptatibus",
+      "et"
     ],
     "DisplayValues": [
-      "rem",
-      "tempore"
+      "et",
+      "ex"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "O'Hara-Hand",
-        "Operator": "eum",
+        "Name": "Buckridge-Wilderman",
+        "Operator": "harum",
         "Values": [
-          "id",
-          "minus"
+          "delectus",
+          "accusantium"
         ],
         "DisplayValues": [
-          "omnis",
-          "veritatis"
+          "est",
+          "sapiente"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 319,
+        "InterParenthesis": 899,
         "InterOperator": "And",
-        "UniqueHash": 478
+        "UniqueHash": 18
       }
     ],
-    "InterParenthesis": 589,
+    "InterParenthesis": 561,
     "InterOperator": "And",
-    "UniqueHash": 320
+    "UniqueHash": 196
   }
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetOutputFromBatch
 Get the output of a batchtask as a stream
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 914
+  "BatchTaskId": 633
 }
 ```
 

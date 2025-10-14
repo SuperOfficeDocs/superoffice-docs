@@ -15,6 +15,7 @@ Do not want.
 
 
 Deny the transfer to the user. If the session is not being transferred, nothing happens.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 328
+  "ChatSessionId": 757
 }
 ```
 
@@ -121,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 147,
-  "TopicId": 87,
+  "ChatSessionId": 337,
+  "TopicId": 640,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "atque",
-  "CustomerName": "Baumbach-Mills",
-  "CustomerEmail": "carlo@gulgowskiskiles.info",
-  "CustomerPhone": "(963)225-8389",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Bogisich LLC",
+  "CustomerAlias": "facilis",
+  "CustomerHost": "alias",
+  "CustomerName": "Hegmann-McKenzie",
+  "CustomerEmail": "milo.thiel@skiles.co.uk",
+  "CustomerPhone": "531.328.4017 x9982",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Harris, Glover and Kutch",
   "Status": "Closed",
-  "FirstMessage": "porro",
-  "LastMessage": "sed",
-  "WhenRequested": "2023-01-19T11:24:47.6720496+01:00",
-  "WhenStarted": "2010-03-05T11:24:47.6720496+01:00",
-  "WhenEnded": "2018-06-17T11:24:47.6720496+02:00",
-  "WhenIdle": "2006-09-20T11:24:47.6720496+02:00",
-  "WhenFetched": "2023-09-18T11:24:47.6720496+02:00",
-  "SessionKey": "commodi",
-  "InitialQueuePos": 69,
-  "AlertLevel": 548,
-  "Rank": 849,
+  "FirstMessage": "non",
+  "LastMessage": "nulla",
+  "WhenRequested": "2012-04-06T03:40:46.1545847+02:00",
+  "WhenStarted": "2012-11-11T03:40:46.1545847+01:00",
+  "WhenEnded": "2006-02-17T03:40:46.1545847+01:00",
+  "WhenIdle": "2024-04-07T03:40:46.1545847+02:00",
+  "WhenFetched": "2013-08-23T03:40:46.1545847+02:00",
+  "SessionKey": "necessitatibus",
+  "InitialQueuePos": 978,
+  "AlertLevel": 840,
+  "Rank": 751,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 879,
+  "ChatbotIsActive": false,
+  "Rating": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

@@ -15,6 +15,7 @@ Returning a foreign key by its key name and device identifier, that belongs to t
 
 
 A table name and record ID can also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,16 +89,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Emmerich, Boyer and Torphy",
-  "DeviceName": "Hane, Effertz and Grimes",
-  "DeviceIdentifier": "quidem",
-  "KeyName": "Orn LLC",
-  "TableName": "Leuschke Group",
-  "RecordId": 852
+  "ApplicationName": "Rowe Group",
+  "DeviceName": "Marvin Inc and Sons",
+  "DeviceIdentifier": "iusto",
+  "KeyName": "Huels, Rau and Medhurst",
+  "TableName": "Cummings, Shields and Vandervort",
+  "RecordId": 54
 }
 ```
 
@@ -108,20 +109,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "voluptas",
-  "RecordId": 351,
-  "CreatedDate": "2023-01-23T11:24:48.1564051+01:00",
-  "UpdatedDate": "2013-05-08T11:24:48.1564051+02:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "labore",
-  "TableName": "Muller-Deckow",
+  "Key": "vel",
+  "Value": "et",
+  "RecordId": 920,
+  "CreatedDate": "2024-09-29T03:40:46.9842779+02:00",
+  "UpdatedDate": "2024-02-12T03:40:46.9842779+01:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "neque",
+  "TableName": "Dare LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

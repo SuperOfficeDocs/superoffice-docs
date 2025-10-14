@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetMyContacts
 Getting the contacts where the user currently logged in is set as contact owner.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +102,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 798,
-    "Name": "Lind, Farrell and Upton",
-    "OrgNr": "1650997",
+    "ContactId": 265,
+    "Name": "Blick LLC",
+    "OrgNr": "1227289",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "quasi",
-    "DirectPhone": "(914)406-6130 x2433",
-    "AssociateId": 722,
-    "CountryId": 997,
-    "EmailAddress": "casandra@kunde.info",
-    "Kananame": "cum",
-    "EmailAddressName": "marty@lueilwitzbashirian.co.uk",
+    "City": "aut",
+    "DirectPhone": "670-847-3151 x340",
+    "AssociateId": 81,
+    "CountryId": 811,
+    "EmailAddress": "carlee@sawayn.us",
+    "Kananame": "molestiae",
+    "EmailAddressName": "alec_sporer@cole.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Robyn Heidenreich",
+    "AssociateFullName": "Mr. Verna Torphy",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "est",
-    "FullName": "Miss Reva Beatty V",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 417,
-    "Number1": "111465",
-    "Number2": "829845",
+    "FormattedAddress": "laudantium",
+    "FullName": "Rex Willms",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 31,
+    "Number1": "742652",
+    "Number2": "1309467",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 397
       }
     }
   }

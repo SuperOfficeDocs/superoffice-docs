@@ -15,6 +15,7 @@ Set the currently chosen columns for the given gui name/provider name combinatio
 
 
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -73,11 +74,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Huels, Skiles and Mertz",
-  "ProviderName": "Flatley, Hirthe and Herzog",
+  "GuiName": "Gislason Inc and Sons",
+  "ProviderName": "Parisian Group",
   "ChosenColumns": [
-    "provident",
-    "modi"
+    "nihil",
+    "ipsa"
   ]
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/SetMultiWordOperator
 Sets the operator used when matching multiple words
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

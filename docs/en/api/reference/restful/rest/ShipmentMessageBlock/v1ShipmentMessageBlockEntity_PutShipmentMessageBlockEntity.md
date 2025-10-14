@@ -14,6 +14,8 @@ PUT /api/v1/ShipmentMessageBlock/{id}
 Updates the existing ShipmentMessageBlockEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 718,
-  "AssociateId": 198,
-  "Block": "adipisci",
-  "Registered": "2012-03-01T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 549,
-  "Updated": "2017-07-01T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 764,
-  "UpdatedCount": 119
+  "ShipmentMessageBlockId": 675,
+  "AssociateId": 260,
+  "Block": "molestiae",
+  "Registered": "2006-07-18T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 162,
+  "Updated": "2017-03-08T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 675,
+  "UpdatedCount": 811
 }
 ```
 
@@ -116,25 +118,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 888,
-  "AssociateId": 251,
-  "Block": "ad",
-  "Registered": "1999-02-12T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 281,
-  "Updated": "2011-02-04T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 472,
-  "UpdatedCount": 704,
+  "ShipmentMessageBlockId": 657,
+  "AssociateId": 506,
+  "Block": "voluptatem",
+  "Registered": "2001-04-11T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 355,
+  "Updated": "2019-08-14T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 289,
+  "UpdatedCount": 456,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

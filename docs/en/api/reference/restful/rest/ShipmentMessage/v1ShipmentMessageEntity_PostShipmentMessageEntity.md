@@ -15,6 +15,7 @@ Creates a new ShipmentMessageEntity
 
 
 Calls the Marketing agent service SaveShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -121,27 +122,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 796,
-  "PlainMessage": "similique",
-  "HtmlMessage": "nulla",
-  "SmsMessage": "nobis",
-  "Description": "Total dedicated benchmark",
-  "Subject": "eum",
-  "FolderId": 257,
-  "HeaderField": "minima",
-  "Design": "aut",
+  "ShipmentMessageId": 756,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "in",
+  "SmsMessage": "ut",
+  "Description": "Organized demand-driven productivity",
+  "Subject": "quo",
+  "FolderId": 427,
+  "HeaderField": "distinctio",
+  "Design": "dolores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Customer-focused dedicated service-desk",
-  "AccessKey": "aspernatur",
-  "DocumentMessage": 421,
-  "Registered": "2018-09-28T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 910,
-  "Updated": "2017-12-11T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 557,
-  "UpdatedCount": 935
+  "LongDescription": "Triple-buffered system-worthy paradigm",
+  "AccessKey": "nihil",
+  "DocumentMessage": 588,
+  "Registered": "2001-05-27T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 461,
+  "Updated": "1998-10-07T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 895,
+  "UpdatedCount": 825
 }
 ```
 
@@ -152,33 +153,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 608,
-  "PlainMessage": "possimus",
-  "HtmlMessage": "nostrum",
-  "SmsMessage": "explicabo",
-  "Description": "Streamlined bi-directional monitoring",
-  "Subject": "aliquid",
-  "FolderId": 476,
-  "HeaderField": "voluptate",
-  "Design": "in",
+  "ShipmentMessageId": 479,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "accusantium",
+  "SmsMessage": "accusamus",
+  "Description": "Progressive multimedia interface",
+  "Subject": "sapiente",
+  "FolderId": 97,
+  "HeaderField": "autem",
+  "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Ergonomic exuding task-force",
-  "AccessKey": "est",
-  "DocumentMessage": 806,
-  "Registered": "2011-02-20T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 816,
-  "Updated": "2003-04-05T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 414,
-  "UpdatedCount": 773,
+  "InlineImages": true,
+  "LongDescription": "User-friendly fresh-thinking Graphical User Interface",
+  "AccessKey": "autem",
+  "DocumentMessage": 267,
+  "Registered": "2024-01-09T03:40:56.2422072+01:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2002-06-09T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 488,
+  "UpdatedCount": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 904
     }
   },
   "_Links": {

@@ -15,6 +15,7 @@ Gets a ChatSessionEntity object.
 
 
 Calls the Chat agent service GetChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -114,43 +115,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 576,
-  "TopicId": 664,
+  "ChatSessionId": 725,
+  "TopicId": 633,
   "User": null,
   "Person": null,
-  "CustomerAlias": "a",
-  "CustomerHost": "odio",
-  "CustomerName": "Ryan, Klocko and Tremblay",
-  "CustomerEmail": "johnpaul_buckridge@smitham.info",
-  "CustomerPhone": "1-277-425-3193",
+  "CustomerAlias": "sapiente",
+  "CustomerHost": "eveniet",
+  "CustomerName": "Kuhic Group",
+  "CustomerEmail": "sanford@kuhic.info",
+  "CustomerPhone": "(922)653-3878",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Pollich-Kilback",
+  "CustomerCompanyName": "Towne LLC",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "sit",
-  "WhenRequested": "2013-12-03T11:24:52.9999572+01:00",
-  "WhenStarted": "2007-02-04T11:24:52.9999572+01:00",
-  "WhenEnded": "2021-01-06T11:24:52.9999572+01:00",
-  "WhenIdle": "2004-11-20T11:24:52.9999572+01:00",
-  "WhenFetched": "2004-08-19T11:24:52.9999572+02:00",
-  "SessionKey": "rem",
-  "InitialQueuePos": 681,
-  "AlertLevel": 562,
-  "Rank": 171,
+  "FirstMessage": "incidunt",
+  "LastMessage": "ducimus",
+  "WhenRequested": "2023-02-22T03:40:55.2568012+01:00",
+  "WhenStarted": "2023-06-29T03:40:55.2568012+02:00",
+  "WhenEnded": "2010-10-13T03:40:55.2568012+02:00",
+  "WhenIdle": "2008-06-06T03:40:55.2568012+02:00",
+  "WhenFetched": "2006-03-12T03:40:55.2568012+01:00",
+  "SessionKey": "delectus",
+  "InitialQueuePos": 508,
+  "AlertLevel": 183,
+  "Rank": 518,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 898,
+  "ChatbotIsActive": true,
+  "Rating": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 156
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/HasChatNotify
 Check if user has any chat notification
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/CustomerService/HasChatNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

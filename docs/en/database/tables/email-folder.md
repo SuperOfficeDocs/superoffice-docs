@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_folder Table (487)
+# email\_folder Table (488)
 
 Corresponds to an email folder on a mail server
 

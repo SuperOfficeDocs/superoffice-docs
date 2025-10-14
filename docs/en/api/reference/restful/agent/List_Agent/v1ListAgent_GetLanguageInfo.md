@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLanguageInfo
 Gets a LanguageInfo object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=398
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=738
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -84,19 +86,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 84,
-  "LCID": 308,
-  "EnglishName": "Streich Inc and Sons",
-  "NativeName": "Marquardt, Walker and Simonis",
-  "ThreeLetterISOLanguageName": "Hintz Inc and Sons",
-  "TwoLetterISOLanguageName": "Brakus-Runte",
-  "IsBuiltIn": true,
+  "LanguageInfoId": 436,
+  "LCID": 8,
+  "EnglishName": "McKenzie-Farrell",
+  "NativeName": "Wisozk Inc and Sons",
+  "ThreeLetterISOLanguageName": "Connelly, Howe and Schaden",
+  "TwoLetterISOLanguageName": "Hessel LLC",
+  "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 371
     }
   }
 }

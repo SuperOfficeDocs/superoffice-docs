@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/SetSelected
 Saves the selected values as selected by their given list representation.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lakin LLC",
-  "AdditionalInfo": "aliquid",
+  "Name": "Wisoky-Weber",
+  "AdditionalInfo": "pariatur",
   "SelectableMDOList": [
     {
-      "Id": 956,
-      "Name": "Stiedemann, Shields and Haley",
-      "ToolTip": "Rerum quaerat sit.",
-      "Deleted": true,
-      "Rank": 593,
-      "Type": "quis",
-      "ColorBlock": 440,
-      "IconHint": "nihil",
+      "Id": 831,
+      "Name": "Marquardt, Marvin and Walsh",
+      "ToolTip": "Quos iusto voluptatem et esse id et quisquam.",
+      "Deleted": false,
+      "Rank": 754,
+      "Type": "aut",
+      "ColorBlock": 222,
+      "IconHint": "architecto",
       "Selected": false,
-      "LastChanged": "2024-03-02T11:24:48.2657757+01:00",
+      "LastChanged": "2009-12-01T03:40:47.2655452+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "quo",
-      "Hidden": true,
-      "FullName": "Dr. Penelope Kiana Considine"
+      "ExtraInfo": "hic",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Prof. Kailey Lauren Kreiger II"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "O'Keefe Group",
-    "ToolTip": "Unde mollitia ut necessitatibus.",
+    "Id": 894,
+    "Name": "Beier-Fritsch",
+    "ToolTip": "Sunt cum quae.",
     "Deleted": false,
-    "Rank": 50,
-    "Type": "cumque",
-    "ColorBlock": 623,
-    "IconHint": "esse",
+    "Rank": 156,
+    "Type": "sit",
+    "ColorBlock": 223,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2019-03-07T11:24:48.2657757+01:00",
+    "LastChanged": "2013-09-17T03:40:47.2655452+02:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "McGlynn Inc and Sons",
-        "ToolTip": "Delectus eligendi odit possimus.",
+        "Id": 674,
+        "Name": "Wuckert, Renner and Raynor",
+        "ToolTip": "Nostrum rerum veritatis rerum eum voluptatibus.",
         "Deleted": false,
-        "Rank": 233,
-        "Type": "iure",
-        "ColorBlock": 733,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2010-09-11T11:24:48.2657757+02:00",
+        "Rank": 566,
+        "Type": "molestias",
+        "ColorBlock": 68,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2001-05-02T03:40:47.2655452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "ipsum",
-        "Hidden": true,
-        "FullName": "Savanah Witting",
+        "ExtraInfo": "id",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Floyd Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "ad",
+    "ExtraInfo": "ut",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Dillan Upton",
+    "FullName": "Dr. Marilou Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 832
       }
     }
   }

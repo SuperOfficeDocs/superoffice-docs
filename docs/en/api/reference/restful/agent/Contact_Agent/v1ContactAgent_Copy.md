@@ -15,6 +15,7 @@ Copy a contact.
 
 
 Activities and related data will be ignored
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -78,10 +79,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 21,
-  "DestinationContactName": "Glover Inc and Sons",
+  "SourceContactId": 365,
+  "DestinationContactName": "Macejkovic, Brown and Shields",
   "DestinationContactDepartment": "",
-  "CopyPersons": false
+  "CopyPersons": true
 }
 ```
 
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-340
+975
 ```

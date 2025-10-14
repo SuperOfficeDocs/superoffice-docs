@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Gets an array of SaleStakeholder objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,31 +102,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Spencer Inc and Sons",
-    "Comment": "quod",
-    "StakeholderRoleId": 753,
-    "CountryId": 21,
-    "PersonId": 789,
-    "EmailDescription": "delores.schiller@weimann.name",
-    "EmailId": 16,
-    "EmailAddress": "randall.nader@vandervort.biz",
-    "PhoneId": 401,
-    "ContactName": "Lockman-Nader",
-    "ContactId": 867,
-    "SaleId": 580,
-    "Mrmrs": "optio",
-    "Firstname": "Lonie",
-    "MiddleName": "Green-Bruen",
-    "Lastname": "Murray",
-    "SaleStakeholderId": 679,
-    "Rank": 831,
-    "Phone": "(224)842-4370 x56229",
+    "StakeholderRoleName": "Murphy, Eichmann and Osinski",
+    "Comment": "minus",
+    "StakeholderRoleId": 831,
+    "CountryId": 889,
+    "PersonId": 103,
+    "EmailDescription": "toy_weissnat@bruenspencer.uk",
+    "EmailId": 782,
+    "EmailAddress": "rhiannon_considine@lehnerohara.co.uk",
+    "PhoneId": 196,
+    "ContactName": "West Group",
+    "ContactId": 731,
+    "SaleId": 263,
+    "Mrmrs": "aut",
+    "Firstname": "Fay",
+    "MiddleName": "Morissette, Grant and Ankunding",
+    "Lastname": "Feeney",
+    "SaleStakeholderId": 467,
+    "Rank": 256,
+    "Phone": "411-969-9218",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 797
       }
     }
   }

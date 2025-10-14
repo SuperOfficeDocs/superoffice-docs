@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetDimension
 Gets a TargetDimension object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TargetDimension object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=105
+POST /api/v1/Agents/Targets/GetTargetDimension?targetDimensionId=99
 POST /api/v1/Agents/Targets/GetTargetDimension?$select=name,department,category/id
 ```
 
@@ -86,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 474,
+  "TargetDimensionId": 209,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quas",
-  "DimensionListName": "Turner-White",
-  "DimensionListId": 707,
-  "DimensionListLabel": "soluta",
+  "DimensionListField": "harum",
+  "DimensionListName": "Wiegand, Schmeler and O'Conner",
+  "DimensionListId": 243,
+  "DimensionListLabel": "est",
   "SelectedDimensions": [
-    141,
-    311
+    939,
+    438
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldLength": 94
     }
   }
 }

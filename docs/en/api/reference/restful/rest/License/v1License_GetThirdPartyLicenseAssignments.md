@@ -74,7 +74,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 217,
-    "Tooltip": "aspernatur",
-    "CanAssign": true,
-    "Free": 274,
-    "InUse": 118,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 859,
-    "Name": "Monahan-Muller",
-    "Description": "Triple-buffered stable local area network",
-    "PrerequisiteModuleName": "Stamm Inc and Sons",
-    "SortOrder": 746,
-    "ExtraFlags": 506,
+    "Total": 847,
+    "Tooltip": "eos",
+    "CanAssign": false,
+    "Free": 644,
+    "InUse": 333,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 49,
+    "Name": "Dickinson, Flatley and Runolfsdottir",
+    "Description": "Customizable clear-thinking software",
+    "PrerequisiteModuleName": "Hammes Inc and Sons",
+    "SortOrder": 940,
+    "ExtraFlags": 862,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 546
       }
     }
   }

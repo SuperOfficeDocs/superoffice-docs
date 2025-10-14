@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/RegisterDeviceForPushNotification
 Register a device that should receive push notifications when notable events occour
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

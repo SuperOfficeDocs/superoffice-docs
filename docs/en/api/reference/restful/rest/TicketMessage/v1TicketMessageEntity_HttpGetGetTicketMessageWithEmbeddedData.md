@@ -98,7 +98,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,28 +108,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 866,
+  "EjMessageId": 87,
   "Ticket": null,
-  "CreatedAt": "2019-12-31T11:24:53.703054+01:00",
+  "CreatedAt": "2024-10-22T03:40:56.3984728+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "debitis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 127,
-  "Body": "molestiae",
-  "HtmlBody": "ea",
-  "EmailHeader": "regan.gottlieb@aufderhar.us",
-  "DebugInfo": "quibusdam",
-  "MailSorter": "quas",
+  "MessageId": "ad",
+  "TimeSpent": 813,
+  "Body": "facilis",
+  "HtmlBody": "a",
+  "EmailHeader": "jaunita@balistreri.uk",
+  "DebugInfo": "deserunt",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nihil",
+  "SearchTitle": "eius",
   "MessageHeaders": [
     {
-      "Id": 390,
-      "Name": "Medhurst-Reichel",
-      "Value": "ea",
+      "Id": 93,
+      "Name": "Schultz Inc and Sons",
+      "Value": "asperiores",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -137,50 +137,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 768
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "similique",
-  "Sentiment": 957,
-  "SentimentConfidence": 507,
+  "Important": true,
+  "Language": "aut",
+  "Sentiment": 365,
+  "SentimentConfidence": 53,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 339,
-      "Name": "Batz Group",
-      "ContentType": "dicta",
-      "AttSize": 995,
-      "InlineImage": true,
-      "ContentId": "facere",
-      "AuthKey": "molestiae",
+      "AttachmentId": 594,
+      "Name": "Barton Group",
+      "ContentType": "voluptas",
+      "AttSize": 578,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "at",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "qui",
+    "CustomFields2": "provident"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldLength": 657
     }
   }
 }

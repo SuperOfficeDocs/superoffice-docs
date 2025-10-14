@@ -15,6 +15,7 @@ Get the associated billing and invoice quote version addresses.
 
 
 These addresses might be address on the contact, or a custom address.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 36
+  "QuoteVersionId": 755
 }
 ```
 
@@ -97,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 16697.952,
-    "Wgs84Longitude": 27347.284,
+    "Wgs84Latitude": 1692.36,
+    "Wgs84Longitude": 6565.73,
     "LocalizedAddress": [
       [
         {
-          "Name": "Schiller-Schultz",
-          "Value": "quo",
-          "Tooltip": "enim",
-          "Label": "quidem",
-          "ValueLength": 405,
-          "AddressType": "veritatis",
+          "Name": "Walter Inc and Sons",
+          "Value": "quibusdam",
+          "Tooltip": "in",
+          "Label": "earum",
+          "ValueLength": 78,
+          "AddressType": "doloremque",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 499
+              "FieldType": "System.Int32",
+              "FieldLength": 870
             }
           }
         }
       ],
       [
         {
-          "Name": "Ebert Inc and Sons",
-          "Value": "qui",
-          "Tooltip": "tempora",
-          "Label": "ut",
-          "ValueLength": 438,
-          "AddressType": "odio",
+          "Name": "Kuhic Group",
+          "Value": "et",
+          "Tooltip": "praesentium",
+          "Label": "et",
+          "ValueLength": 52,
+          "AddressType": "recusandae",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 197
+              "FieldLength": 760
             }
           }
         }
@@ -139,13 +140,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "dicta",
+    "Formatted": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

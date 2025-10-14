@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/DeletePhysicalDocument
 Delete the document contents
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 961,
+  "DocumentId": 95,
   "AllowedReturnType": [
-    "ullam",
-    "porro"
+    "aut",
+    "quo"
   ]
 }
 ```
@@ -97,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "in",
-  "VersionId": "at",
-  "Success": true,
+  "ExternalReference": "et",
+  "VersionId": "earum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "beatae",
-  "AdditionalInfo": "earum"
+  "Value": "quos",
+  "AdditionalInfo": "quidem"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLegalBases
 Returns all defined bases.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 272,
-    "Name": "Wisoky Group",
-    "Tooltip": "id",
-    "Rank": 838,
-    "Key": "porro",
+    "LegalBaseId": 106,
+    "Name": "Feil LLC",
+    "Tooltip": "illo",
+    "Rank": 825,
+    "Key": "et",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldType": "System.String",
+        "FieldLength": 652
       }
     }
   }

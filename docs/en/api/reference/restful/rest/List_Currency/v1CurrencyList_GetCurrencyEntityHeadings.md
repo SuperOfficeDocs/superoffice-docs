@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Wyman-Schmitt",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "Rank": 959,
-    "UdListDefinitionId": 619,
+    "HeadingId": 426,
+    "Name": "Lueilwitz-Lind",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 491,
+    "UdListDefinitionId": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 446
       }
     }
   }

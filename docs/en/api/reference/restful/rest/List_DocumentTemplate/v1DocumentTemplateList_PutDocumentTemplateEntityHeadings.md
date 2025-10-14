@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 29,
-    "Name": "Halvorson LLC",
-    "Tooltip": "atque",
+    "HeadingId": 144,
+    "Name": "Klocko Group",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 684
+    "Rank": 506,
+    "UdListDefinitionId": 151
   },
   {
-    "HeadingId": 29,
-    "Name": "Halvorson LLC",
-    "Tooltip": "atque",
+    "HeadingId": 144,
+    "Name": "Klocko Group",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 684
+    "Rank": 506,
+    "UdListDefinitionId": 151
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 571,
-    "Name": "Brekke-Pfannerstill",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 639,
-    "UdListDefinitionId": 736,
+    "HeadingId": 420,
+    "Name": "Cummerata-Windler",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 940,
+    "UdListDefinitionId": 544,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 132
+        "FieldLength": 520
       }
     }
   }

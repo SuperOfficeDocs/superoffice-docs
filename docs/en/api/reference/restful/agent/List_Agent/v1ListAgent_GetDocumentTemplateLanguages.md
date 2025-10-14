@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateLanguages
 Get the supported language variations for a document template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 385
+  "DocumentTemplateId": 186
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quis",
-  "sed"
+  "cupiditate",
+  "consequatur"
 ]
 ```

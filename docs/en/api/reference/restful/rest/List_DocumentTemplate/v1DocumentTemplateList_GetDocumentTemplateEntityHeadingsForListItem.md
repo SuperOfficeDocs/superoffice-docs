@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Mante-Swift",
-    "ToolTip": "Sint veritatis ut nesciunt exercitationem.",
-    "Deleted": true,
-    "Rank": 797,
-    "Type": "laudantium",
-    "ColorBlock": 256,
-    "IconHint": "tempora",
+    "Id": 106,
+    "Name": "Hills, Barton and Hartmann",
+    "ToolTip": "Necessitatibus vitae dolorum qui et rerum eos.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "alias",
+    "ColorBlock": 560,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2002-06-13T11:24:53.9374193+02:00",
+    "LastChanged": "2020-04-19T03:40:56.8526098+02:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Gutmann-Schowalter",
-        "ToolTip": "Commodi qui et adipisci eveniet sint error.",
+        "Id": 340,
+        "Name": "Tremblay-Weissnat",
+        "ToolTip": "Cupiditate minima unde expedita culpa impedit omnis enim.",
         "Deleted": false,
-        "Rank": 202,
-        "Type": "maxime",
-        "ColorBlock": 829,
-        "IconHint": "iste",
-        "Selected": false,
-        "LastChanged": "2022-07-30T11:24:53.9374193+02:00",
+        "Rank": 346,
+        "Type": "sed",
+        "ColorBlock": 353,
+        "IconHint": "saepe",
+        "Selected": true,
+        "LastChanged": "2006-11-25T03:40:56.8526098+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "facere",
-        "Hidden": false,
-        "FullName": "Lilly Haag",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Dallin Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldType": "System.String",
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "commodi",
+    "ExtraInfo": "et",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Alessandra Upton",
+    "FullName": "Lorena Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldLength": 595
       }
     }
   }

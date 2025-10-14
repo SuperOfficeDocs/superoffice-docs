@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 270,
-    "Name": "Conn-Corwin",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "UdListDefinitionId": 688,
-    "Rank": 894
+    "Id": 388,
+    "Name": "Schmitt, Rippin and Reilly",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "UdListDefinitionId": 639,
+    "Rank": 670
   },
   {
-    "Id": 270,
-    "Name": "Conn-Corwin",
-    "Tooltip": "dolor",
-    "Deleted": false,
-    "UdListDefinitionId": 688,
-    "Rank": 894
+    "Id": 388,
+    "Name": "Schmitt, Rippin and Reilly",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "UdListDefinitionId": 639,
+    "Rank": 670
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Jacobi LLC",
-    "Tooltip": "nemo",
+    "Id": 156,
+    "Name": "Pfeffer-Price",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 753,
-    "Rank": 158,
+    "UdListDefinitionId": 658,
+    "Rank": 868,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

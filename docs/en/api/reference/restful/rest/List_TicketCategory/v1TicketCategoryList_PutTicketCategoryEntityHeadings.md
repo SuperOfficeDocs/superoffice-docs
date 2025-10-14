@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 643,
-    "Name": "Kassulke, Auer and Turner",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 656,
-    "UdListDefinitionId": 110
+    "HeadingId": 222,
+    "Name": "Krajcik-Hessel",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 184,
+    "UdListDefinitionId": 522
   },
   {
-    "HeadingId": 643,
-    "Name": "Kassulke, Auer and Turner",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 656,
-    "UdListDefinitionId": 110
+    "HeadingId": 222,
+    "Name": "Krajcik-Hessel",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 184,
+    "UdListDefinitionId": 522
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 809,
-    "Name": "Dickinson-Runolfsdottir",
-    "Tooltip": "expedita",
+    "HeadingId": 124,
+    "Name": "Batz-Turner",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 858,
-    "UdListDefinitionId": 366,
+    "Rank": 276,
+    "UdListDefinitionId": 121,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 741
       }
     }
   }

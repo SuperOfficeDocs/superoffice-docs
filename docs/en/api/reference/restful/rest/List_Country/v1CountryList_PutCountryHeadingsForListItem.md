@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Bechtelar Group",
-    "ToolTip": "Exercitationem est.",
+    "Id": 36,
+    "Name": "Mueller-Ward",
+    "ToolTip": "Placeat quia omnis repellat ad.",
     "Deleted": true,
-    "Rank": 39,
-    "Type": "eos",
-    "ColorBlock": 615,
-    "IconHint": "numquam",
+    "Rank": 816,
+    "Type": "consequatur",
+    "ColorBlock": 839,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-06-28T11:24:53.9061703+02:00",
+    "LastChanged": "2014-11-02T03:40:56.7744799+01:00",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "Fay Inc and Sons",
-        "ToolTip": "Minus non dolorum illo dolores distinctio nisi velit.",
+        "Id": 679,
+        "Name": "Streich Inc and Sons",
+        "ToolTip": "Aut reprehenderit cum nihil consectetur molestiae harum.",
         "Deleted": true,
-        "Rank": 56,
-        "Type": "corporis",
-        "ColorBlock": 135,
+        "Rank": 670,
+        "Type": "error",
+        "ColorBlock": 16,
         "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2011-06-29T11:24:53.9061703+02:00",
+        "Selected": true,
+        "LastChanged": "2000-12-05T03:40:56.7744799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "quod",
+        "ExtraInfo": "neque",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Alexandria Lesch"
+        "FullName": "Eunice Thiel"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "sit",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Prof. Kirstin Watson O'Kon"
+    "FullName": "Samson Emard DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Reichel-Mueller",
-    "ToolTip": "Dicta non quod nesciunt est quia praesentium.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "quisquam",
-    "ColorBlock": 325,
-    "IconHint": "officia",
+    "Id": 419,
+    "Name": "Runolfsson, Berge and Effertz",
+    "ToolTip": "Voluptatem ullam sint possimus tempore doloremque eligendi.",
+    "Deleted": true,
+    "Rank": 270,
+    "Type": "labore",
+    "ColorBlock": 560,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2008-03-04T11:24:53.9061703+01:00",
+    "LastChanged": "2016-07-21T03:40:56.7744799+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Goodwin LLC",
-        "ToolTip": "Sit ipsa necessitatibus dolorem totam quia.",
+        "Id": 62,
+        "Name": "Lowe, Rolfson and Hegmann",
+        "ToolTip": "Rerum aut voluptas.",
         "Deleted": true,
-        "Rank": 282,
-        "Type": "qui",
-        "ColorBlock": 195,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2025-05-31T11:24:53.9061703+02:00",
+        "Rank": 896,
+        "Type": "vitae",
+        "ColorBlock": 933,
+        "IconHint": "ex",
+        "Selected": true,
+        "LastChanged": "2001-12-30T03:40:56.7744799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Tanner Deckow DDS",
+        "ExtraInfo": "velit",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Miss Beryl Leffler Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldType": "System.String",
+            "FieldLength": 439
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Dr. Keira Shirley Heidenreich Jr.",
+    "ExtraInfo": "eos",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Kendra Gust Moen IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldType": "System.String",
+        "FieldLength": 937
       }
     }
   }

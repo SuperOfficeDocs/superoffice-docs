@@ -119,12 +119,14 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
-|person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/leadstatus|listAny|Lead status| x |
+|person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
@@ -223,12 +225,12 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|person/personAssociate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|person/personAssociate/associateDbId|associate|ID| x |
 |person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -304,6 +306,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
 |contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|contact/contactFax/description|string|Fax - Description: Phone number description| x |
-|contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+|contact/contactFax/description|string|Fax - Description: Phone number description| x |
+|contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
@@ -430,13 +433,13 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
@@ -482,7 +485,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=associate/isActiveText,person/personExtra/x_person_integer,person/personExtra/x_person_time,person/personExtra/x_person_shorttext_list
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/personAddress/formattedAddress,person/personUdef/SuperOffice:1,contact/contactAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

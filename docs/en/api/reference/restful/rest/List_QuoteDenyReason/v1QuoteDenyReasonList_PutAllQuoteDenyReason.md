@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Berge LLC",
-    "Tooltip": "repellendus",
+    "Id": 439,
+    "Name": "Ritchie, Skiles and Gibson",
+    "Tooltip": "hic",
     "Deleted": true,
-    "UdListDefinitionId": 522,
-    "Rank": 786
+    "UdListDefinitionId": 922,
+    "Rank": 164
   },
   {
-    "Id": 299,
-    "Name": "Berge LLC",
-    "Tooltip": "repellendus",
+    "Id": 439,
+    "Name": "Ritchie, Skiles and Gibson",
+    "Tooltip": "hic",
     "Deleted": true,
-    "UdListDefinitionId": 522,
-    "Rank": 786
+    "UdListDefinitionId": 922,
+    "Rank": 164
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Lang-Ritchie",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "UdListDefinitionId": 873,
-    "Rank": 714,
+    "Id": 889,
+    "Name": "Hermann-Gerhold",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 365,
+    "Rank": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 732
       }
     }
   }

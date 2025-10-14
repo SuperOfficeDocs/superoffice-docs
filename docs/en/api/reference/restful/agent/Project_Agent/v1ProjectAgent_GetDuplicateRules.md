@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetDuplicateRules
 Retrieve all available duplicate rules for project
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bins Group",
-    "DisplayName": "Boyle Inc and Sons",
-    "DisplayTooltip": "rerum",
+    "Name": "Simonis-Farrell",
+    "DisplayName": "Predovic, McGlynn and McKenzie",
+    "DisplayTooltip": "voluptatibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldLength": 78
       }
     }
   },
   {
-    "Name": "Bins Group",
-    "DisplayName": "Boyle Inc and Sons",
-    "DisplayTooltip": "rerum",
+    "Name": "Simonis-Farrell",
+    "DisplayName": "Predovic, McGlynn and McKenzie",
+    "DisplayTooltip": "voluptatibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 338
+        "FieldLength": 78
       }
     }
   }

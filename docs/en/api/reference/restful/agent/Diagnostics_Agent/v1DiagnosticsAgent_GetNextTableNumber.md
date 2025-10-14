@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetNextTableNumber
 Increment save and return NextTableNumber, to be used when creating new extra table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-46
+530
 ```

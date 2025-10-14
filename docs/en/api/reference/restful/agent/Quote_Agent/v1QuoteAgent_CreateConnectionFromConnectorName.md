@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Create a new connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Thompson Inc and Sons"
+  "ConnectorName": "Hayes, Abshire and Willms"
 }
 ```
 
@@ -103,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 847,
-  "ERPName": "Emmerich Group",
-  "DisplayName": "Nitzsche LLC",
-  "DisplayDescription": "Advanced mission-critical productivity",
-  "Rank": 722,
-  "ConnectorName": "Koch Inc and Sons",
-  "ErpConnectionId": 836,
-  "ExtraData": "consequuntur",
+  "QuoteConnectionId": 605,
+  "ERPName": "Pacocha, Brekke and Stiedemann",
+  "DisplayName": "Harber, D'Amore and Osinski",
+  "DisplayDescription": "Compatible client-server throughput",
+  "Rank": 47,
+  "ConnectorName": "Ankunding-Mitchell",
+  "ErpConnectionId": 544,
+  "ExtraData": "non",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 857,
-      "ERPPriceListKey": "doloremque",
-      "QuoteConnectionId": 418,
-      "Name": "Kirlin LLC",
-      "Description": "Reverse-engineered eco-centric circuit",
-      "Currency": "voluptatem",
-      "CurrencyName": "Greenholt-Kunde",
-      "ValidFrom": "2005-03-18T11:24:48.5313897+01:00",
-      "ValidTo": "2025-06-17T11:24:48.5313897+02:00",
+      "PriceListId": 328,
+      "ERPPriceListKey": "omnis",
+      "QuoteConnectionId": 407,
+      "Name": "Kub, Langosh and Cormier",
+      "Description": "Optional grid-enabled throughput",
+      "Currency": "omnis",
+      "CurrencyName": "VonRueden, Bashirian and Effertz",
+      "ValidFrom": "2013-08-19T03:40:47.5629587+02:00",
+      "ValidTo": "2006-12-12T03:40:47.5629587+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 383
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    94,
-    840
+    321,
+    774
   ],
   "AssociateAccessIds": [
-    8,
-    704
+    355,
+    77
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

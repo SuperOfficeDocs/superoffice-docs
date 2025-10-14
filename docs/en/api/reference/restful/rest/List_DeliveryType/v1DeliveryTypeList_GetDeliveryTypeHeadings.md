@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Hilpert Group",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 870,
-    "UdListDefinitionId": 851,
+    "HeadingId": 971,
+    "Name": "Mosciski Group",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 187,
+    "UdListDefinitionId": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

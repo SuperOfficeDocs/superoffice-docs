@@ -15,6 +15,7 @@ Set the start flag for udef publishing.
 
 
 Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {

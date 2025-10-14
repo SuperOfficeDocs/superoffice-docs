@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Volkman LLC",
-    "ToolTip": "Quo sed ullam perspiciatis voluptates.",
+    "Id": 243,
+    "Name": "Leannon, Abshire and Bailey",
+    "ToolTip": "Rerum sed.",
     "Deleted": false,
-    "Rank": 230,
-    "Type": "ea",
-    "ColorBlock": 893,
-    "IconHint": "minima",
+    "Rank": 478,
+    "Type": "doloribus",
+    "ColorBlock": 163,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2016-10-28T11:24:53.9061703+02:00",
+    "LastChanged": "2002-03-03T03:40:56.7744799+01:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Zemlak LLC",
-        "ToolTip": "Sunt cupiditate voluptatem nostrum et rerum laudantium ex.",
+        "Id": 763,
+        "Name": "Fadel, Turner and Lueilwitz",
+        "ToolTip": "Impedit sequi.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "non",
-        "ColorBlock": 402,
-        "IconHint": "quibusdam",
+        "Rank": 15,
+        "Type": "magnam",
+        "ColorBlock": 273,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2022-04-14T11:24:53.9061703+02:00",
+        "LastChanged": "2025-01-10T03:40:56.7744799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Waldo Cleo Jerde MD",
+        "ExtraInfo": "ullam",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Mr. May Price PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 435
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "rerum",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mrs. Michale Hudson",
+    "FullName": "Ms. Lavinia Amir Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 879
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

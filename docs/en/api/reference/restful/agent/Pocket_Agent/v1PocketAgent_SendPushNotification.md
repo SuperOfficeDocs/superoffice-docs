@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/SendPushNotification
 Send a push notification to one or more associates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    113,
-    429
+    308,
+    607
   ],
   "Message": null
 }

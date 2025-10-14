@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Loading default values into a new EMailFolder.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -64,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoppe-Bogan",
-  "Delimiter": "quod",
-  "Flags": "consequatur",
-  "TotalItems": 451,
-  "UnreadItems": 652,
-  "Subscribed": true,
-  "EmailFolderId": 371,
+  "Name": "Collier Inc and Sons",
+  "Delimiter": "harum",
+  "Flags": "non",
+  "TotalItems": 617,
+  "UnreadItems": 346,
+  "Subscribed": false,
+  "EmailFolderId": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 495
     }
   }
 }

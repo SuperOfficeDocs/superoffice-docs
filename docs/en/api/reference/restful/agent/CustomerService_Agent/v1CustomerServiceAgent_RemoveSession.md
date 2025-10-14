@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/RemoveSession
 Remove a login session for a CS user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/CustomerService/RemoveSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LoginId": 20
+  "LoginId": 238
 }
 ```
 

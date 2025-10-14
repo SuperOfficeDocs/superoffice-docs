@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria.
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,18 +84,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sit",
-  "ProviderName": "Rau Group",
-  "StorageKey": "hic",
+  "StorageType": "fugiat",
+  "ProviderName": "Bruen-Haag",
+  "StorageKey": "consequatur",
   "StaticColumns": [
-    "accusantium",
-    "consequuntur"
+    "repudiandae",
+    "accusantium"
   ],
-  "Context": "et"
+  "Context": "accusamus"
 }
 ```
 
@@ -107,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Smitham, Leannon and Douglas",
-      "Operator": "in",
+      "Name": "Durgan LLC",
+      "Operator": "id",
       "Values": [
-        "deserunt",
-        "quasi"
+        "tempore",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "non",
-        "dolor"
+        "aut",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -123,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 751,
+      "InterParenthesis": 830,
       "InterOperator": "And",
-      "UniqueHash": 920
+      "UniqueHash": 595
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Brown, Moore and Zieme",
-      "DisplayTooltip": "eos",
-      "DisplayType": "consequuntur",
+      "DisplayName": "Lind LLC",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Quigley, Gottlieb and Cummings",
+      "Name": "Considine Group",
       "CanRestrictBy": false,
-      "RestrictionType": "optio",
-      "RestrictionListName": "Gutkowski-Braun",
+      "RestrictionType": "ratione",
+      "RestrictionListName": "Block, Senger and Hirthe",
       "IsVisible": false,
-      "ExtraInfo": "quia",
-      "Width": "qui",
-      "IconHint": "aperiam",
-      "HeadingIconHint": "placeat"
+      "ExtraInfo": "non",
+      "Width": "praesentium",
+      "IconHint": "cupiditate",
+      "HeadingIconHint": "rerum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kreiger-Wolf",
-      "PrimaryKey": 373,
+      "EntityName": "Haag Group",
+      "PrimaryKey": 89,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "sunt",
-          "LinkHint": "sit"
+          "DisplayValue": "cupiditate",
+          "TooltipHint": "qui",
+          "LinkHint": "in"
         }
       },
-      "LinkHint": "esse",
-      "StyleHint": "error",
+      "LinkHint": "et",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 955
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Haley Inc and Sons",
-      "Description": "Proactive mission-critical project",
-      "Rank": 283,
+      "Name": "Hackett Group",
+      "Description": "Programmable optimizing time-frame",
+      "Rank": 407,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Haley Inc and Sons",
-      "Description": "Proactive mission-critical project",
-      "Rank": 283,
+      "Name": "Hackett Group",
+      "Description": "Programmable optimizing time-frame",
+      "Rank": 407,
       "Restrictions": [
         {},
         {}
@@ -193,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 656
     }
   }
 }

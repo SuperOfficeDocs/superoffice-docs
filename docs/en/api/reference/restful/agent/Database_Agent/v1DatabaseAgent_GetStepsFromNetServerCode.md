@@ -14,6 +14,8 @@ POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Get information about the dictionary steps that NetServer was generated for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smith, Baumbach and Boyer",
-    "StepNumber": 171,
+    "Name": "O'Keefe, Monahan and Cartwright",
+    "StepNumber": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 752
       }
     }
   },
   {
-    "Name": "Smith, Baumbach and Boyer",
-    "StepNumber": 171,
+    "Name": "O'Keefe, Monahan and Cartwright",
+    "StepNumber": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 752
       }
     }
   }

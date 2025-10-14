@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetCurrentAccount
 Get current account (last logged into should normally be current) for logged in associate
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -79,7 +82,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 491,
-  "EMailAddress": "saepe",
-  "AssociateId": 563,
+  "EMailAccountId": 882,
+  "EMailAddress": "id",
+  "AssociateId": 861,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 346,
-  "ErrorCount": 823,
-  "ErrorReason": "",
-  "InboxFolder": "nobis",
-  "SentFolder": "minima",
-  "SimpleMode": 73,
-  "LastFetch": "2024-05-31T11:24:48.0626591+02:00",
+  "AccountStatus": 102,
+  "ErrorCount": 979,
+  "ErrorReason": "syndicate bricks-and-clicks e-markets",
+  "InboxFolder": "neque",
+  "SentFolder": "voluptatem",
+  "SimpleMode": 585,
+  "LastFetch": "2000-01-13T03:40:46.8280185+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

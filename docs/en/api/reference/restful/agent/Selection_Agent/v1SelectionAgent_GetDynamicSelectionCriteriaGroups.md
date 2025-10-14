@@ -15,6 +15,7 @@ Get the criteria for this dynamic selection.
 
 
 This call supports multiple criteria groups.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 721
+  "SelectionId": 838
 }
 ```
 
@@ -93,20 +94,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Armstrong-Watsica",
-    "Description": "Universal homogeneous portal",
-    "Rank": 702,
+    "Name": "Zboncak, Monahan and Lowe",
+    "Description": "Realigned reciprocal utilisation",
+    "Rank": 322,
     "Restrictions": [
       {
-        "Name": "Gleason LLC",
-        "Operator": "et",
+        "Name": "Dicki, Collins and Romaguera",
+        "Operator": "id",
         "Values": [
-          "eos",
-          "et"
+          "quae",
+          "enim"
         ],
         "DisplayValues": [
-          "officiis",
-          "aut"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -114,27 +115,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 517,
+        "InterParenthesis": 62,
         "InterOperator": "And",
-        "UniqueHash": 42
+        "UniqueHash": 97
       }
     ]
   },
   {
-    "Name": "Armstrong-Watsica",
-    "Description": "Universal homogeneous portal",
-    "Rank": 702,
+    "Name": "Zboncak, Monahan and Lowe",
+    "Description": "Realigned reciprocal utilisation",
+    "Rank": 322,
     "Restrictions": [
       {
-        "Name": "Gleason LLC",
-        "Operator": "et",
+        "Name": "Dicki, Collins and Romaguera",
+        "Operator": "id",
         "Values": [
-          "eos",
-          "et"
+          "quae",
+          "enim"
         ],
         "DisplayValues": [
-          "officiis",
-          "aut"
+          "et",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -142,9 +143,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 517,
+        "InterParenthesis": 62,
         "InterOperator": "And",
-        "UniqueHash": 42
+        "UniqueHash": 97
       }
     ]
   }

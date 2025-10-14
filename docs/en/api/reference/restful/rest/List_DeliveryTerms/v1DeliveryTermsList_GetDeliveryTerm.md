@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Simonis, Heathcote and Fay",
-  "Tooltip": "eum",
+  "Id": 586,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 117,
-  "Rank": 715,
+  "UdListDefinitionId": 537,
+  "Rank": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

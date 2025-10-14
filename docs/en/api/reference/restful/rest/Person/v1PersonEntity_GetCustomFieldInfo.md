@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Lesch, Cummings and Beer",
-  "DisplayName": "Feest-Conroy",
-  "Description": "Profit-focused multi-state software",
-  "ShortLabel": "assumenda",
+  "FieldName": "Emard, Klein and Dickens",
+  "DisplayName": "Herzog, Robel and Feest",
+  "Description": "Self-enabling tangible pricing structure",
+  "ShortLabel": "qui",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
+  "IsReadOnly": true,
+  "IsExternal": true,
   "IsDisplayField": true,
-  "Rank": 186,
-  "TemplateVariableName": "Braun, McDermott and Bergnaum"
+  "Rank": 122,
+  "TemplateVariableName": "Cole-D'Amore"
 }
 ```

@@ -15,6 +15,7 @@ Set default values into a new ContactRelationEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Relation agent service CreateDefaultContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,33 +84,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Jul 2012 11:24:53 G7T
+Last-Modified: Sat, 29 Aug 2015 03:40:55 G8T
 
 {
-  "SourceContactId": 600,
-  "SourcePersonId": 670,
-  "DestinationContactId": 360,
-  "DestinationPersonId": 245,
-  "RelationId": 876,
-  "Comment": "laboriosam",
-  "RelationDefinitionId": 670,
-  "Reversed": 491,
-  "UpdatedDate": "2012-07-05T11:24:53.1405767+02:00",
-  "CreatedDate": "2005-07-26T11:24:53.1405767+02:00",
+  "SourceContactId": 295,
+  "SourcePersonId": 472,
+  "DestinationContactId": 395,
+  "DestinationPersonId": 703,
+  "RelationId": 815,
+  "Comment": "est",
+  "RelationDefinitionId": 319,
+  "Reversed": 320,
+  "UpdatedDate": "2015-08-29T03:40:55.6006549+02:00",
+  "CreatedDate": "2022-11-14T03:40:55.6006549+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wolff, Balistreri and Mitchell",
-  "SourcePersonName": "Bechtelar, Bednar and Farrell",
-  "DestinationContactName": "Boyle-Dare",
-  "DestinationPersonName": "Wilderman-O'Connell",
-  "ActiveText": "nulla",
-  "PassiveText": "at",
+  "SourceContactName": "Flatley Inc and Sons",
+  "SourcePersonName": "Kunze Group",
+  "DestinationContactName": "Oberbrunner, Sipes and Spinka",
+  "DestinationPersonName": "Rempel LLC",
+  "ActiveText": "officia",
+  "PassiveText": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

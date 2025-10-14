@@ -15,6 +15,7 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
 
 
 RecalculateQuoteAlternative shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, listprice (if allowed). RecalculateQuoteAlternative will calculate the TotalPrice and the VAT (if possible) for the lines and the alternative.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 476
+  "QuoteAlternative": 338
 }
 ```
 
@@ -93,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": true,
+  "QuoteLinesHasChanged": false,
   "ChangedQuoteAlternative": null,
   "Changes": null,
   "TableRight": null,
@@ -101,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 891
     }
   }
 }

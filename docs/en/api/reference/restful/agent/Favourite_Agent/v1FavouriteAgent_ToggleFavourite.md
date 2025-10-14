@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/ToggleFavourite
 Toggle a record in a table as a favourite for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -76,10 +78,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rau, Borer and Ondricka",
-  "RecordId": 896,
-  "AssociateId": 682,
-  "ExtraInfo": "voluptatum"
+  "TableName": "Gerhold Group",
+  "RecordId": 87,
+  "AssociateId": 236,
+  "ExtraInfo": "non"
 }
 ```
 

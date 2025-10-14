@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 459,
-  "Name": "Welch Group",
-  "Tooltip": "similique",
+  "Id": 496,
+  "Name": "Nienow-Russel",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 772,
-  "IsCustomList": true,
+  "Rank": 263,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Haley, Nienow and Stiedemann",
+  "Id": 973,
+  "Name": "Hegmann LLC",
   "Tooltip": "magnam",
   "Deleted": false,
-  "Rank": 364,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "Rank": 365,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 693
     }
   }
 }

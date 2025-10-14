@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Stracke LLC",
-    "ToolTip": "Fuga quas eaque laborum.",
+    "Id": 500,
+    "Name": "Jewess Inc and Sons",
+    "ToolTip": "Aliquam quia consequatur quia optio.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "fugit",
-    "ColorBlock": 582,
-    "IconHint": "est",
+    "Rank": 944,
+    "Type": "in",
+    "ColorBlock": 393,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2010-07-07T11:24:54.0467896+02:00",
+    "LastChanged": "2023-12-03T03:40:57.040226+01:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "McDermott Group",
-        "ToolTip": "Qui aut praesentium sed earum sed.",
-        "Deleted": false,
-        "Rank": 442,
-        "Type": "dolores",
-        "ColorBlock": 487,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2009-12-15T11:24:54.0467896+01:00",
+        "Id": 929,
+        "Name": "Nolan-Hudson",
+        "ToolTip": "Iure nesciunt non ipsum dicta ratione id.",
+        "Deleted": true,
+        "Rank": 762,
+        "Type": "et",
+        "ColorBlock": 844,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2023-03-09T03:40:57.040226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Burley Willms"
+        "ExtraInfo": "quos",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Ms. Lavina Littel IV"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Holly Olson"
+    "ExtraInfo": "sit",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Mrs. Damien Brent Ruecker"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Langworth, D'Amore and Wiegand",
-    "ToolTip": "Labore animi.",
-    "Deleted": false,
-    "Rank": 859,
-    "Type": "sit",
-    "ColorBlock": 809,
-    "IconHint": "nostrum",
+    "Id": 391,
+    "Name": "Bauch-Glover",
+    "ToolTip": "Sint officia beatae qui esse qui ab aut.",
+    "Deleted": true,
+    "Rank": 302,
+    "Type": "voluptatum",
+    "ColorBlock": 140,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "1999-11-21T11:24:54.0936627+01:00",
+    "LastChanged": "2006-04-11T03:40:57.0558521+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Lebsack LLC",
-        "ToolTip": "Ducimus animi aut.",
-        "Deleted": true,
-        "Rank": 388,
-        "Type": "qui",
-        "ColorBlock": 263,
-        "IconHint": "voluptate",
+        "Id": 52,
+        "Name": "Dach, Hauck and Grant",
+        "ToolTip": "Earum voluptatem quidem ipsum temporibus.",
+        "Deleted": false,
+        "Rank": 553,
+        "Type": "blanditiis",
+        "ColorBlock": 196,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2002-03-11T11:24:54.0936627+01:00",
+        "LastChanged": "2019-05-21T03:40:57.0558521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Ralph Jerde",
+        "ExtraInfo": "provident",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Prof. Lance Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldType": "System.Int32",
+            "FieldLength": 310
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "quia",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Antone Runolfsdottir III",
+    "FullName": "Norval Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 618
+        "FieldLength": 282
       }
     }
   }

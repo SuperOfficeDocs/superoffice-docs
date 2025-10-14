@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Lubowitz, Bogisich and Wuckert",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 412,
-    "UdListDefinitionId": 665,
+    "HeadingId": 327,
+    "Name": "Gutkowski-Heaney",
+    "Tooltip": "amet",
+    "Deleted": false,
+    "Rank": 213,
+    "UdListDefinitionId": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

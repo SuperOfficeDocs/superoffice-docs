@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 817,
-    "Name": "Keebler LLC",
-    "Tooltip": "sed",
-    "Rank": 190,
-    "Key": "sit",
-    "MailTemplateId": 735,
+    "ConsentSourceId": 712,
+    "Name": "Marks-Marks",
+    "Tooltip": "quis",
+    "Rank": 373,
+    "Key": "numquam",
+    "MailTemplateId": 604,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 672
       }
     }
   }

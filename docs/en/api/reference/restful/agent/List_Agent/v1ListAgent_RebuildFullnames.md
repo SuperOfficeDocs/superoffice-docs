@@ -15,6 +15,7 @@ Update the fullname field of all categories.
 
 
 Use this e.g. when changing parentId or renaming a category with children.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -59,7 +60,7 @@ No Content
 POST /api/v1/Agents/List/RebuildFullnames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

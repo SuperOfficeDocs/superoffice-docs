@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatTranscript
 Get the chat transcript, formatted as plain text or html
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatTranscript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 131,
-  "Html": false
+  "ChatSessionId": 587,
+  "Html": true
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quibusdam"
+"et"
 ```

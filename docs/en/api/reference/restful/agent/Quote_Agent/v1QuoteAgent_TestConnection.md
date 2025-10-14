@@ -15,6 +15,7 @@ Used by the Admin clients.
 
 
 Testing if the connection data is sufficient to get a connection with the ERP system. The Connector should try to do some operations to check if the connection has sufficient rights to run. The connection has not been created yet. TestConnection is called without InitializeConnector being called first.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Skiles, West and Cronin",
+  "ConnectorName": "Stiedemann-Botsford",
   "ConnectionData": {
-    "ConnectionData1": "iusto",
-    "ConnectionData2": "ut"
+    "ConnectionData1": "quam",
+    "ConnectionData2": "porro"
   }
 }
 ```
@@ -102,9 +103,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "quaerat",
-  "TechExplanation": "et",
-  "ErrorCode": "tempora",
+  "UserExplanation": "quo",
+  "TechExplanation": "ea",
+  "ErrorCode": "quibusdam",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 457
     }
   }
 }

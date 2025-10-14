@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/WillSendEmail
 Returns true if the changes will trigger email sending on Save, so you can inform the user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Appointment/WillSendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

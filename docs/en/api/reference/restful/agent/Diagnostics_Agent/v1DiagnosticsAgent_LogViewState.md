@@ -15,6 +15,7 @@ Log a change in view state.
 
 
 The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/Diagnostics/LogViewState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ViewState": "voluptatem"
+  "ViewState": "aut"
 }
 ```
 

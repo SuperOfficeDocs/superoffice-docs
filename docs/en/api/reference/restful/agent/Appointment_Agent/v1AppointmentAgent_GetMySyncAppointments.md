@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the currently logged on user.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -102,12 +103,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2019-12-10T11:24:47.3283137+01:00",
-  "EndTime": "1998-07-03T11:24:47.3283137+02:00"
+  "StartTime": "2005-04-28T03:40:45.654368+02:00",
+  "EndTime": "2001-11-04T03:40:45.654368+01:00"
 }
 ```
 
@@ -119,72 +120,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2025-06-09T11:24:47.3283137+02:00",
-    "AppointmentId": 936,
-    "AppointmentText": "officia",
+    "AlarmTime": "2003-12-20T03:40:45.654368+01:00",
+    "AppointmentId": 571,
+    "AppointmentText": "perspiciatis",
     "ContactDepartment": "",
-    "ContactFullName": "Ms. Alexandrine Herman",
-    "ContactName": "Hodkiewicz-McClure",
-    "ContactId": 363,
-    "EndDate": "2008-12-03T11:24:47.3283137+01:00",
-    "HasAlarm": false,
+    "ContactFullName": "Tyrese Connelly",
+    "ContactName": "Wuckert-Keeling",
+    "ContactId": 128,
+    "EndDate": "2018-09-04T03:40:45.654368+02:00",
+    "HasAlarm": true,
     "IsAllDay": true,
     "IsAssignment": false,
     "IsBusy": false,
-    "IsCompleted": true,
+    "IsCompleted": false,
     "IsInvitation": false,
-    "IsTentative": false,
-    "Location": "labore",
+    "IsTentative": true,
+    "Location": "sapiente",
     "Participants": [
       {
-        "PersonId": 671,
-        "PersonFirstName": "Gaylord-Aufderhar",
-        "PersonMiddleName": "Beer-Gutmann",
-        "PersonLastname": "Koch",
-        "PersonMrmrs": "maiores",
-        "PersonTitle": "in",
-        "PersonPosition": "id",
-        "PersonAcademicTitle": "voluptatem",
-        "PersonFormalName": "Jacobi Inc and Sons",
-        "PersonFullName": "Willie Funk",
-        "ContactId": 153,
-        "ContactName": "Shields Inc and Sons",
-        "ContactDepartment": "enhance holistic communities",
+        "PersonId": 886,
+        "PersonFirstName": "Klocko, Kovacek and Sporer",
+        "PersonMiddleName": "Christiansen, Monahan and Parisian",
+        "PersonLastname": "Langosh",
+        "PersonMrmrs": "nostrum",
+        "PersonTitle": "delectus",
+        "PersonPosition": "at",
+        "PersonAcademicTitle": "neque",
+        "PersonFormalName": "Schaden Inc and Sons",
+        "PersonFullName": "Carlos McCullough",
+        "ContactId": 104,
+        "ContactName": "Miller LLC",
+        "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Vicky Stroman",
+        "ContactFullName": "Arnaldo Predovic",
         "EMail": [
-          "libero",
-          "nihil"
+          "enim",
+          "ducimus"
         ],
         "PhonePrivate": [
-          "(268)355-7350",
-          "845-539-6305"
+          "1-711-840-6240 x020",
+          "911-234-6594 x4447"
         ],
         "PhoneFax": [
-          "(220)456-3279",
-          "1-622-426-1063"
+          "886-131-9095 x1694",
+          "597.114.1437 x734"
         ],
         "PhoneMobile": [
-          "1-515-246-7136",
-          "(159)007-6462"
+          "778-498-1319 x65831",
+          "(468)354-9444"
         ],
         "PhoneDirect": [
-          "(933)883-3701 x07587",
-          "754.475.7004 x51179"
+          "577-737-0289 x087",
+          "(805)991-7369 x14292"
         ],
         "PhoneContact": [
-          "(639)369-6453 x85688",
-          "995.661.2726 x60911"
+          "1-413-386-2399 x987",
+          "1-465-023-5656"
         ],
         "Messenger": [
-          "eos",
-          "similique"
+          "sed",
+          "illum"
         ],
         "Voip": [
-          "aliquam",
-          "mollitia"
+          "optio",
+          "tempora"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -205,26 +206,26 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 811
           }
         }
       }
     ],
-    "PersonFormalName": "Marvin, Jacobson and Casper",
-    "PersonFullName": "Mr. Briana Predovic",
-    "PersonId": 25,
-    "ProjectId": 349,
-    "ProjectName": "Hansen, Gerhold and O'Hara",
-    "SaleId": 540,
-    "SaleName": "Hills, Goyette and Jaskolski",
-    "StartDate": "1998-08-08T11:24:47.3283137+02:00",
-    "TaskName": "Okuneva-Lang",
+    "PersonFormalName": "Hagenes, Larkin and Ratke",
+    "PersonFullName": "Ellen Mills",
+    "PersonId": 729,
+    "ProjectId": 303,
+    "ProjectName": "Glover-Swift",
+    "SaleId": 731,
+    "SaleName": "Marquardt Group",
+    "StartDate": "2015-01-08T03:40:45.654368+01:00",
+    "TaskName": "Lang LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 764
       }
     }
   }

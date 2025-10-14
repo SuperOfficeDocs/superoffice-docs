@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 347,
-  "Name": "Schamberger Group",
-  "Tooltip": "et",
+  "HeadingId": 432,
+  "Name": "Ondricka, Weissnat and Hand",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 645,
-  "UdListDefinitionId": 602
+  "Rank": 788,
+  "UdListDefinitionId": 49
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 610,
-  "Name": "Dietrich, Homenick and Leuschke",
-  "Tooltip": "debitis",
+  "HeadingId": 342,
+  "Name": "Turcotte Inc and Sons",
+  "Tooltip": "reiciendis",
   "Deleted": true,
-  "Rank": 93,
-  "UdListDefinitionId": 956,
+  "Rank": 866,
+  "UdListDefinitionId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 14
     }
   }
 }

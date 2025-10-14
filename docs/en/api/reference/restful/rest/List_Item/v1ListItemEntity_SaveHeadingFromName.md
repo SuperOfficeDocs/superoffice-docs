@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 720,
-  "Name": "Wintheiser LLC",
-  "Tooltip": "distinctio",
+  "HeadingId": 300,
+  "Name": "Mosciski-Wilderman",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 661,
-  "UdListDefinitionId": 952
+  "Rank": 108,
+  "UdListDefinitionId": 516
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 778,
-  "Name": "DuBuque-Daugherty",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "Rank": 484,
-  "UdListDefinitionId": 910,
+  "HeadingId": 562,
+  "Name": "Labadie-Huel",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 788,
+  "UdListDefinitionId": 361,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

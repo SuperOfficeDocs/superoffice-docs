@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Schimmel-Von",
-    "Tooltip": "vel",
+    "Id": 718,
+    "Name": "Runolfsdottir-Howe",
+    "Tooltip": "quisquam",
     "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 442,
+    "UdListDefinitionId": 543,
+    "Rank": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

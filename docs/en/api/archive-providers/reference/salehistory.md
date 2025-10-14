@@ -144,7 +144,9 @@ Sale histories. Contains all changes to the sale records over time.
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -160,6 +162,7 @@ Sale histories. Contains all changes to the sale records over time.
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -208,7 +211,7 @@ Sale histories. Contains all changes to the sale records over time.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleHistory?$select=completed,contact/updatedByFullName,project/completed
+GET /api/v1/archive/SaleHistory?$select=associate/assocTooltip,person/personCountryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetUserLicenses
 Obtain information about associate module licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 462
+  "AssociateId": 502
 }
 ```
 
@@ -93,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pacocha Inc and Sons",
-    "Description": "Multi-channelled encompassing collaboration",
+    "Name": "Bradtke-Abernathy",
+    "Description": "Intuitive 6th generation intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 402,
-        "Tooltip": "dicta",
-        "CanAssign": false,
-        "Free": 36,
-        "InUse": 882,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 905,
-        "Name": "Gleason LLC",
-        "Description": "Compatible optimizing hierarchy",
-        "PrerequisiteModuleName": "Stokes-Beier",
-        "SortOrder": 357,
-        "ExtraFlags": 813,
+        "Unrestricted": true,
+        "Total": 781,
+        "Tooltip": "error",
+        "CanAssign": true,
+        "Free": 520,
+        "InUse": 568,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 973,
+        "Name": "Armstrong, Boyle and Koss",
+        "Description": "Inverse secondary toolset",
+        "PrerequisiteModuleName": "Kautzer, Witting and Koch",
+        "SortOrder": 565,
+        "ExtraFlags": 533,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
@@ -124,25 +126,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 834,
-        "Tooltip": "accusamus",
+        "Total": 163,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 969,
+        "Free": 34,
+        "InUse": 48,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 961,
-        "Name": "Kling LLC",
-        "Description": "Optimized motivating project",
-        "PrerequisiteModuleName": "Kirlin-Daniel",
-        "SortOrder": 437,
-        "ExtraFlags": 925,
+        "ModuleLicenseId": 548,
+        "Name": "Waelchi, Wintheiser and Buckridge",
+        "Description": "Inverse 5th generation conglomeration",
+        "PrerequisiteModuleName": "Pfeffer Group",
+        "SortOrder": 273,
+        "ExtraFlags": 389,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldLength": 449
           }
         }
       }
@@ -152,35 +154,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 424
       }
     }
   },
   {
-    "Name": "Pacocha Inc and Sons",
-    "Description": "Multi-channelled encompassing collaboration",
+    "Name": "Bradtke-Abernathy",
+    "Description": "Intuitive 6th generation intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 402,
-        "Tooltip": "dicta",
-        "CanAssign": false,
-        "Free": 36,
-        "InUse": 882,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 905,
-        "Name": "Gleason LLC",
-        "Description": "Compatible optimizing hierarchy",
-        "PrerequisiteModuleName": "Stokes-Beier",
-        "SortOrder": 357,
-        "ExtraFlags": 813,
+        "Unrestricted": true,
+        "Total": 781,
+        "Tooltip": "error",
+        "CanAssign": true,
+        "Free": 520,
+        "InUse": 568,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 973,
+        "Name": "Armstrong, Boyle and Koss",
+        "Description": "Inverse secondary toolset",
+        "PrerequisiteModuleName": "Kautzer, Witting and Koch",
+        "SortOrder": 565,
+        "ExtraFlags": 533,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
@@ -188,25 +190,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 834,
-        "Tooltip": "accusamus",
+        "Total": 163,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 808,
-        "InUse": 969,
+        "Free": 34,
+        "InUse": 48,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 961,
-        "Name": "Kling LLC",
-        "Description": "Optimized motivating project",
-        "PrerequisiteModuleName": "Kirlin-Daniel",
-        "SortOrder": 437,
-        "ExtraFlags": 925,
+        "ModuleLicenseId": 548,
+        "Name": "Waelchi, Wintheiser and Buckridge",
+        "Description": "Inverse 5th generation conglomeration",
+        "PrerequisiteModuleName": "Pfeffer Group",
+        "SortOrder": 273,
+        "ExtraFlags": 389,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 70
+            "FieldLength": 449
           }
         }
       }
@@ -216,7 +218,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 424
       }
     }
   }

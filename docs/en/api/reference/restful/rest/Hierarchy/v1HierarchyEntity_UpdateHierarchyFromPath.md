@@ -87,36 +87,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 221,
+  "HierarchyId": 492,
   "Domain": "Dashboards",
-  "Name": "Pfeffer, Oberbrunner and Beahan",
-  "Fullname": "unde",
-  "ParentId": 770,
+  "Name": "Ondricka LLC",
+  "Fullname": "accusamus",
+  "ParentId": 343,
   "Children": [
     {
-      "HierarchyId": 930,
+      "HierarchyId": 659,
       "Domain": "Dashboards",
-      "Name": "Oberbrunner-Hayes",
-      "Fullname": "sit",
-      "ParentId": 491,
+      "Name": "Bechtelar-Wunsch",
+      "Fullname": "sunt",
+      "ParentId": 702,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-07-01T11:24:53.3124447+02:00",
-      "RegisteredAssociateId": 386,
-      "Updated": "2023-04-26T11:24:53.3124447+02:00",
+      "Registered": "2007-08-14T03:40:55.7886484+02:00",
+      "RegisteredAssociateId": 733,
+      "Updated": "2020-05-16T03:40:55.7886484+02:00",
       "UpdatedAssociateId": 551
     }
   ],
-  "Registered": "1999-08-09T11:24:53.3124447+02:00",
-  "RegisteredAssociateId": 399,
-  "Updated": "2002-10-07T11:24:53.3124447+02:00",
-  "UpdatedAssociateId": 760
+  "Registered": "2006-08-05T03:40:55.7886484+02:00",
+  "RegisteredAssociateId": 844,
+  "Updated": "2016-02-11T03:40:55.7886484+01:00",
+  "UpdatedAssociateId": 436
 }
 ```
 
@@ -127,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 305,
+  "HierarchyId": 430,
   "Domain": "Dashboards",
-  "Name": "Cummings, Cummings and Greenfelder",
-  "Fullname": "facilis",
-  "ParentId": 538,
+  "Name": "Romaguera Group",
+  "Fullname": "omnis",
+  "ParentId": 979,
   "Children": [
     {
-      "HierarchyId": 254,
+      "HierarchyId": 648,
       "Domain": "Dashboards",
-      "Name": "Bernier, Rodriguez and Stark",
-      "Fullname": "molestiae",
-      "ParentId": 518,
+      "Name": "Prosacco, Kling and Upton",
+      "Fullname": "nam",
+      "ParentId": 536,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-04-21T11:24:53.3124447+02:00",
-      "RegisteredAssociateId": 322,
-      "Updated": "2010-06-26T11:24:53.3124447+02:00",
-      "UpdatedAssociateId": 105,
+      "Registered": "2012-02-17T03:40:55.7886484+01:00",
+      "RegisteredAssociateId": 181,
+      "Updated": "2007-08-09T03:40:55.7886484+02:00",
+      "UpdatedAssociateId": 392,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     }
   ],
-  "Registered": "2020-03-27T11:24:53.3124447+01:00",
-  "RegisteredAssociateId": 42,
-  "Updated": "2020-11-02T11:24:53.3124447+01:00",
-  "UpdatedAssociateId": 515,
+  "Registered": "2016-11-03T03:40:55.7886484+01:00",
+  "RegisteredAssociateId": 207,
+  "Updated": "2005-09-12T03:40:55.7886484+02:00",
+  "UpdatedAssociateId": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 443
+      "FieldLength": 299
     }
   }
 }

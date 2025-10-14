@@ -14,7 +14,8 @@ PATCH /api/v1/ForeignApp/{id}
 Update a ForeignAppEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -115,18 +116,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -139,29 +140,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 7,
-  "Name": "Lowe, Anderson and Harber",
-  "CreatedDate": "2011-05-12T11:24:53.2968202+02:00",
-  "UpdatedDate": "2004-08-17T11:24:53.2968202+02:00",
+  "ForeignAppId": 658,
+  "Name": "Kiehn-Green",
+  "CreatedDate": "2014-12-31T03:40:55.7731411+01:00",
+  "UpdatedDate": "2006-06-03T03:40:55.7731411+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 254,
-      "Name": "Aufderhar LLC",
-      "CreatedDate": "2023-04-03T11:24:53.2968202+02:00",
-      "UpdatedDate": "2016-01-17T11:24:53.2968202+01:00",
-      "AssociateFullName": "Evert Corwin",
-      "CreatedBy": "molestias",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "iste",
-      "ForeignAppId": 522,
+      "ForeignDeviceId": 787,
+      "Name": "Parker, Macejkovic and Legros",
+      "CreatedDate": "2021-12-17T03:40:55.7731411+01:00",
+      "UpdatedDate": "2004-10-25T03:40:55.7731411+02:00",
+      "AssociateFullName": "Braeden Rogahn",
+      "CreatedBy": "ullam",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 366,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 332
+          "FieldLength": 482
         }
       }
     }
@@ -171,12 +172,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 435
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

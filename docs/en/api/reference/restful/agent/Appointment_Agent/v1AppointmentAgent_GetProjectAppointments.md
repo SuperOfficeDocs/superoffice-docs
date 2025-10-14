@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 245,
-  "StartTime": "2021-08-30T11:24:47.2814408+02:00",
-  "EndTime": "2013-08-28T11:24:47.2814408+02:00",
-  "Count": 580
+  "ProjectId": 554,
+  "StartTime": "2005-04-09T03:40:45.5762384+02:00",
+  "EndTime": "2013-01-27T03:40:45.5762384+01:00",
+  "Count": 489
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 155,
-    "StartDate": "2024-05-10T11:24:47.2814408+02:00",
-    "EndDate": "2015-06-15T11:24:47.2814408+02:00",
+    "AppointmentId": 347,
+    "StartDate": "2005-12-17T03:40:45.5762384+01:00",
+    "EndDate": "2016-06-04T03:40:45.5762384+02:00",
     "Type": "BookingForChecklist",
-    "Task": "autem",
-    "AssociateFullName": "Dr. Elvie Carter",
-    "ContactName": "Reichert, Conroy and Towne",
-    "Description": "Multi-layered heuristic protocol",
-    "PersonFullName": "Richie Weimann",
-    "PersonId": 610,
-    "ContactId": 937,
-    "ProjectId": 479,
-    "ProjectName": "Jenkins, Williamson and Borer",
+    "Task": "nemo",
+    "AssociateFullName": "Meta Rice",
+    "ContactName": "Gutkowski-Wilderman",
+    "Description": "Reduced radical focus group",
+    "PersonFullName": "Madelynn Marks IV",
+    "PersonId": 905,
+    "ContactId": 582,
+    "ProjectId": 46,
+    "ProjectName": "Oberbrunner, Becker and Rogahn",
     "IsPublished": false,
-    "AssociateId": 322,
-    "ColorIndex": 94,
-    "IsFree": false,
+    "AssociateId": 979,
+    "ColorIndex": 657,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 247,
-    "PriorityName": "O'Conner Group",
+    "PriorityId": 554,
+    "PriorityName": "Romaguera LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2006-06-13T11:24:47.2814408+02:00",
+    "ActiveDate": "2010-10-08T03:40:45.5762384+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-01-22T11:24:47.2814408+01:00",
-    "RecurringEndDate": "2025-08-31T11:24:47.2814408+02:00",
-    "MotherId": 553,
-    "AssignedBy": 428,
-    "AssignedByFullName": "Darlene McClure",
+    "RecurringStartDate": "2015-01-31T03:40:45.5762384+01:00",
+    "RecurringEndDate": "2000-03-06T03:40:45.5762384+01:00",
+    "MotherId": 663,
+    "AssignedBy": 259,
+    "AssignedByFullName": "Odessa Cassin",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "eos",
-    "SaleId": 614,
-    "SaleName": "Quigley, Bednar and Rice",
-    "AssociateName": "Herzog Group",
-    "CreatedDate": "2003-02-19T11:24:47.2814408+01:00",
-    "CreatedBy": "magnam",
-    "CreatedByFullName": "Kieran Yost",
-    "CreatedByAssociateId": 259,
+    "Location": "sunt",
+    "AlarmLeadTime": "fugit",
+    "SaleId": 252,
+    "SaleName": "Weissnat, Morissette and Volkman",
+    "AssociateName": "Raynor, Schinner and Stracke",
+    "CreatedDate": "2016-10-28T03:40:45.5762384+02:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Prof. Damon Tremblay",
+    "CreatedByAssociateId": 283,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 499,
+    "MotherAssociateId": 162,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 676,
-    "Title": "eveniet",
-    "Agenda": "voluptatum",
-    "InternalNotes": "laboriosam",
+    "PreferredTZLocation": 250,
+    "Title": "accusantium",
+    "Agenda": "cum",
+    "InternalNotes": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 149
+        "FieldLength": 611
       }
     }
   }

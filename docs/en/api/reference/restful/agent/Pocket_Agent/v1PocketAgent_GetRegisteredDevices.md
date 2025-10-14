@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Retrieve all registered devices for an associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 842
+  "AssociateId": 605
 }
 ```
 
@@ -95,14 +97,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Greenholt, Nienow and Cronin",
-    "DeviceIdentifier": "voluptas",
-    "PocketVersion": "qui",
-    "Language": "sed",
-    "PNSHandle": "molestiae",
+    "DeviceName": "Shanahan, Leuschke and Rau",
+    "DeviceIdentifier": "excepturi",
+    "PocketVersion": "delectus",
+    "Language": "quia",
+    "PNSHandle": "quam",
     "Platform": "Apple",
-    "OSVersion": "perspiciatis",
-    "TimeZoneId": 618
+    "OSVersion": "incidunt",
+    "TimeZoneId": 344
   }
 ]
 ```

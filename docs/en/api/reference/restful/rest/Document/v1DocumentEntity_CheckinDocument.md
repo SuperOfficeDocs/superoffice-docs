@@ -33,8 +33,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Sharable radical synergy
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=placeat,quis
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Cross-group regional policy
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=voluptates,repudiandae
 ```
 
 
@@ -77,7 +77,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,11 +87,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "aut",
-  "VersionId": "illum",
+  "ExternalReference": "voluptatem",
+  "VersionId": "illo",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "dolorem",
-  "AdditionalInfo": "necessitatibus"
+  "Value": "ipsum",
+  "AdditionalInfo": "id"
 }
 ```

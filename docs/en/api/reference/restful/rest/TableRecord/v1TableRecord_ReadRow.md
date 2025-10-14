@@ -62,7 +62,7 @@ OK
 GET /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,15 +73,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "minus",
-    "Values2": "accusantium"
+    "Values1": "ullam",
+    "Values2": "eligendi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 869
     }
   }
 }

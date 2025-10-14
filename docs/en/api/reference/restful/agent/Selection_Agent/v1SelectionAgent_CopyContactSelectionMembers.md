@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CopyContactSelectionMembers
 Copy contact selection members from selection into an existing selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 516,
-  "ToSelectionId": 761
+  "FromSelectionId": 28,
+  "ToSelectionId": 708
 }
 ```
 

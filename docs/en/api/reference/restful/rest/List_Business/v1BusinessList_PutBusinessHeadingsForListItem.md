@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Schaefer LLC",
-    "ToolTip": "Assumenda doloremque.",
+    "Id": 72,
+    "Name": "Lueilwitz, Kuhic and Effertz",
+    "ToolTip": "Est magnam sed.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "eos",
-    "ColorBlock": 710,
-    "IconHint": "eum",
+    "Rank": 546,
+    "Type": "veritatis",
+    "ColorBlock": 388,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2020-04-15T11:24:53.8592973+02:00",
+    "LastChanged": "2012-02-05T03:40:56.711976+01:00",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Predovic Inc and Sons",
-        "ToolTip": "Sunt dolorem suscipit incidunt sed.",
-        "Deleted": false,
-        "Rank": 706,
-        "Type": "autem",
-        "ColorBlock": 532,
-        "IconHint": "architecto",
+        "Id": 204,
+        "Name": "Heidenreich Inc and Sons",
+        "ToolTip": "Autem nisi voluptas qui.",
+        "Deleted": true,
+        "Rank": 517,
+        "Type": "voluptas",
+        "ColorBlock": 161,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2002-11-16T11:24:53.8592973+01:00",
+        "LastChanged": "2010-03-30T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "velit",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Darian Feil"
+        "FullName": "Miss Anya Xavier Schumm Sr."
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "alias",
+    "ExtraInfo": "culpa",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Lesly Erdman"
+    "FullName": "Enoch Robel"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Howell Inc and Sons",
-    "ToolTip": "Rerum molestiae nam.",
-    "Deleted": false,
-    "Rank": 278,
-    "Type": "eos",
-    "ColorBlock": 393,
-    "IconHint": "dolor",
+    "Id": 889,
+    "Name": "Herzog, Kuhn and Greenholt",
+    "ToolTip": "Eius ab libero hic modi sit consequatur.",
+    "Deleted": true,
+    "Rank": 2,
+    "Type": "quos",
+    "ColorBlock": 616,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "1999-01-02T11:24:53.8592973+01:00",
+    "LastChanged": "2021-06-08T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Windler-Ryan",
-        "ToolTip": "Rerum ducimus nihil.",
+        "Id": 80,
+        "Name": "Corwin Inc and Sons",
+        "ToolTip": "Et odio dolor sequi.",
         "Deleted": false,
-        "Rank": 634,
-        "Type": "modi",
-        "ColorBlock": 835,
-        "IconHint": "corporis",
+        "Rank": 184,
+        "Type": "quod",
+        "ColorBlock": 493,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2017-12-29T11:24:53.8592973+01:00",
+        "LastChanged": "2024-12-27T03:40:56.711976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "qui",
+        "ExtraInfo": "autem",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Prof. Madeline Brekke Sr.",
+        "FullName": "Laila Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
+    "ExtraInfo": "minima",
     "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Arne Cole",
+    "Hidden": true,
+    "FullName": "Ms. Margot Linnea Bednar I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldType": "System.String",
+        "FieldLength": 901
       }
     }
   }

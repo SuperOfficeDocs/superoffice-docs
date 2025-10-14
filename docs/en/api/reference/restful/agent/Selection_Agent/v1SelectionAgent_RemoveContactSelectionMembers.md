@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembers
 Removes members from the selection as  specified in the collection of ContactPersonId.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,19 +68,19 @@ No Content
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 203,
+  "SelectionId": 122,
   "ContactPersonIds": [
     {
-      "PersonId": 116,
-      "ContactId": 605
+      "PersonId": 978,
+      "ContactId": 590
     },
     {
-      "PersonId": 116,
-      "ContactId": 605
+      "PersonId": 978,
+      "ContactId": 590
     }
   ]
 }

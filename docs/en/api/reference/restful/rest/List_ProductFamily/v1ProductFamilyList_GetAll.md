@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Kozey, Lang and Kling",
-    "Tooltip": "consectetur",
+    "Id": 647,
+    "Name": "Simonis, Heidenreich and Terry",
+    "Tooltip": "asperiores",
     "Deleted": true,
-    "UdListDefinitionId": 125,
-    "Rank": 421,
+    "UdListDefinitionId": 562,
+    "Rank": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 68
       }
     }
   }

@@ -66,9 +66,9 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <License:GetUserAndInstallationLicenceStatusResponse>
    <License:Response xsi:type="License:UserAndInstallationLicenceStatus">
-    <License:AdminWarningDate xsi:type="xsd:dateTime">2025-09-19T09:23:30Z</License:AdminWarningDate>
-    <License:ExpiryDate xsi:type="xsd:dateTime">2025-09-19T09:23:30Z</License:ExpiryDate>
-    <License:GraceDate xsi:type="xsd:dateTime">2025-09-19T09:23:30Z</License:GraceDate>
+    <License:AdminWarningDate xsi:type="xsd:dateTime">2025-10-14T01:39:19Z</License:AdminWarningDate>
+    <License:ExpiryDate xsi:type="xsd:dateTime">2025-10-14T01:39:19Z</License:ExpiryDate>
+    <License:GraceDate xsi:type="xsd:dateTime">2025-10-14T01:39:19Z</License:GraceDate>
     <License:CompanyName xsi:type="xsd:string"></License:CompanyName>
     <License:SerialNr xsi:type="xsd:string"></License:SerialNr>
     <License:UserLicenses xsi:type="NetServerServices883:ArrayOfstring">

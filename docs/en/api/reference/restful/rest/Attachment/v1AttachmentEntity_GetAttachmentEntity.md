@@ -15,6 +15,7 @@ Gets a AttachmentEntity object.
 
 
 Calls the Ticket agent service GetAttachmentEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,20 +92,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 228,
-  "Name": "Cormier, Rolfson and Swift",
-  "ContentType": "quis",
-  "AttSize": 412,
+  "AttachmentId": 113,
+  "Name": "Corkery LLC",
+  "ContentType": "quia",
+  "AttSize": 909,
   "InlineImage": false,
-  "ContentId": "reprehenderit",
-  "AuthKey": "et",
-  "IsSafeFileExtension": false,
+  "ContentId": "aliquam",
+  "AuthKey": "sapiente",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   },
   "_Links": {

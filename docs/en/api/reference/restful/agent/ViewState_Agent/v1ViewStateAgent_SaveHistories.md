@@ -15,6 +15,7 @@ Replaces the existing history-list for the currently logged in user.
 
 
 All elements must belong to the same history list. If not they are ignored.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Stroman, Dickinson and Smitham",
+  "HistoryName": "Kub, Lakin and Strosin",
   "History": [
     {
-      "Rank": 148,
-      "Id": 298,
-      "HistoryName": "Gorczany Inc and Sons",
-      "HistoryId": 726,
-      "AssociateId": 97,
-      "Name": "Kuhic-Bogan",
-      "ItemInfo": "earum"
+      "Rank": 599,
+      "Id": 886,
+      "HistoryName": "Mante-Fisher",
+      "HistoryId": 359,
+      "AssociateId": 694,
+      "Name": "Bashirian-Hoppe",
+      "ItemInfo": "porro"
     }
   ]
 }
@@ -110,19 +111,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 848,
-    "Id": 77,
-    "HistoryName": "Dare-Huels",
-    "HistoryId": 213,
-    "AssociateId": 51,
-    "Name": "Koss, Sauer and Spinka",
-    "ItemInfo": "at",
+    "Rank": 951,
+    "Id": 312,
+    "HistoryName": "Welch-Thompson",
+    "HistoryId": 330,
+    "AssociateId": 403,
+    "Name": "Denesik-Kunze",
+    "ItemInfo": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 491
       }
     }
   }

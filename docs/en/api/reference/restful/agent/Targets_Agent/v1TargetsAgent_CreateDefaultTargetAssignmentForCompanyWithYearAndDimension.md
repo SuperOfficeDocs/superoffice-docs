@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDi
 Returns a default target assignment for the owner company, for the specified year and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,8 +89,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 176,
-  "TargetDimensionId": 748
+  "Year": 428,
+  "TargetDimensionId": 514
 }
 ```
 
@@ -100,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 828,
+    "TargetAssignmentInfoId": 719,
     "Values": [
-      316,
-      941
+      164,
+      870
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 711,
-    "DimensionListItemDisplayName": "Douglas, Block and Turner",
+    "DimensionListItem": 715,
+    "DimensionListItemDisplayName": "Monahan, Spinka and Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldLength": 687
       }
     }
   }

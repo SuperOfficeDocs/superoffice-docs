@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Loading default values into a new DashTheme.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 666,
-  "Name": "Murray, Kemmer and Jacobs",
-  "Config": "pariatur",
-  "Rank": 851,
-  "Client": "excepturi",
-  "Style": "voluptatibus",
+  "DashboardThemeId": 157,
+  "Name": "Collier Inc and Sons",
+  "Config": "repellat",
+  "Rank": 403,
+  "Client": "architecto",
+  "Style": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 925
     }
   }
 }

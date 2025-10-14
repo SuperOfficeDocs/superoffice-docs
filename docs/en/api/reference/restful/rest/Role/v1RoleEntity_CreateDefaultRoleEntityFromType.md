@@ -76,7 +76,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 952,
-  "Name": "Terry-Sawayn",
-  "Tooltip": "exercitationem",
+  "RoleId": 891,
+  "Name": "Franecki Inc and Sons",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 296,
-  "Rank": 541,
-  "Created": "2009-12-31T11:24:53.499937+01:00",
-  "UseCategories": 101,
+  "Deleted": 27,
+  "Rank": 772,
+  "Created": "2016-06-11T03:40:56.0855495+02:00",
+  "UseCategories": 129,
   "CreatedBy": null,
-  "Updated": "2011-07-05T11:24:53.499937+02:00",
+  "Updated": "2014-02-05T03:40:56.0855495+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 692
     }
   }
 }

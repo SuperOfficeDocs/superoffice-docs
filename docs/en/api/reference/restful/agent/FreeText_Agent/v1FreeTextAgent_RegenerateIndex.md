@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/RegenerateIndex
 Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 413,
-  "Name": "Welch LLC",
-  "AssociateId": 655,
-  "DetailsTable": 45,
-  "DetailsRecord": 976,
+  "Id": 804,
+  "Name": "Kessler, Von and Smitham",
+  "AssociateId": 385,
+  "DetailsTable": 451,
+  "DetailsRecord": 40,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "necessitatibus",
-    "ParameterObject2": "ducimus"
+    "ParameterObject1": "sint",
+    "ParameterObject2": "nobis"
   },
-  "LastStarted": "2008-12-11T11:24:48.1720293+01:00",
-  "Created": "2020-01-02T11:24:48.1720293+01:00",
-  "StartCount": 601,
-  "DatabaseSerialNumber": "1142299",
-  "Context": "non",
-  "Result": "totam",
+  "LastStarted": "2000-02-13T03:40:46.9999043+01:00",
+  "Created": "2024-07-19T03:40:46.9999043+02:00",
+  "StartCount": 710,
+  "DatabaseSerialNumber": "250006",
+  "Context": "accusantium",
+  "Result": "amet",
   "State": "All",
-  "Description": "Fundamental multimedia initiative",
-  "Response": "quidem",
-  "Request": "illum",
-  "ProgressDescription": "Expanded needs-based encryption",
-  "ProgressPercent": 929,
-  "FileName": "Terry-Keeling",
+  "Description": "Pre-emptive composite encoding",
+  "Response": "odio",
+  "Request": "reprehenderit",
+  "ProgressDescription": "Intuitive bottom-line circuit",
+  "ProgressPercent": 166,
+  "FileName": "Sporer LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldType": "System.Int32",
+      "FieldLength": 148
     }
   }
 }

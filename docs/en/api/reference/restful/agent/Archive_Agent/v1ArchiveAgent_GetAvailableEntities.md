@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetAvailableEntities
 Return list of all entities supported by an archive provider.
 
 
-See also GetArchiveConfiguration. 
+See also GetArchiveConfiguration.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -175,8 +176,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dickens-Goodwin",
-  "Context": "dolor"
+  "ProviderName": "Luettgen-Medhurst",
+  "Context": "tempora"
 }
 ```
 
@@ -188,50 +189,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Shanahan-Steuber",
-    "ToolTip": "Facilis natus omnis et id eligendi sint.",
+    "Id": 69,
+    "Name": "Schroeder-Roberts",
+    "ToolTip": "Enim vel repellendus officiis ratione.",
     "Deleted": false,
-    "Rank": 365,
-    "Type": "sint",
+    "Rank": 575,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Cummerata LLC",
-        "ToolTip": "Corporis laudantium et est dicta distinctio est quas.",
+        "Id": 119,
+        "Name": "Donnelly-Gutkowski",
+        "ToolTip": "Qui omnis voluptatem aspernatur nesciunt nulla.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "molestiae",
+        "Rank": 601,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 188,
-        "ExtraInfo": "non",
-        "StyleHint": "earum",
-        "FullName": "Ms. Ana Kub PhD",
+        "IconHint": "et",
+        "ColorBlock": 181,
+        "ExtraInfo": "omnis",
+        "StyleHint": "quidem",
+        "FullName": "Dr. Coleman Schiller I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 605
+            "FieldType": "System.Int32",
+            "FieldLength": 357
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 907,
-    "ExtraInfo": "velit",
-    "StyleHint": "alias",
-    "FullName": "Ramon Cronin",
+    "IconHint": "eligendi",
+    "ColorBlock": 751,
+    "ExtraInfo": "nihil",
+    "StyleHint": "enim",
+    "FullName": "Casey Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldType": "System.String",
+        "FieldLength": 493
       }
     }
   }

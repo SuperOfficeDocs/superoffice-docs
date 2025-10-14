@@ -15,6 +15,7 @@ Removes members from the selection as specified in the collection of entity ids.
 
 
 The ids can be a collection of sale ids, or other supported types.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,10 +73,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 43,
+  "SelectionId": 989,
   "Ids": [
-    90,
-    349
+    9,
+    59
   ]
 }
 ```

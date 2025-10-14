@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteEntity
 Get a Quote
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 807
+  "QuoteId": 151
 }
 ```
 
@@ -101,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 145,
-  "SaleId": 791,
-  "QuoteConnectionId": 841,
-  "ERPQuoteKey": "sed",
-  "ERPOrderKey": "id",
-  "ActiveQuoteVersionId": 463,
-  "AcceptedQuoteAlternativeId": 905,
-  "UseValuesFromQuote": 722,
-  "DocumentId": 577,
-  "PoNumber": "224905",
-  "OrderComment": "est",
-  "PreferredEmailCulture": "crystal@wintheiserschumm.name",
+  "QuoteId": 429,
+  "SaleId": 418,
+  "QuoteConnectionId": 672,
+  "ERPQuoteKey": "in",
+  "ERPOrderKey": "unde",
+  "ActiveQuoteVersionId": 141,
+  "AcceptedQuoteAlternativeId": 92,
+  "UseValuesFromQuote": 527,
+  "DocumentId": 828,
+  "PoNumber": "616119",
+  "OrderComment": "eaque",
+  "PreferredEmailCulture": "ryleigh.oberbrunner@spinka.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 128,
-      "ERPQuoteVersionKey": "cupiditate",
-      "QuoteId": 410,
-      "Description": "Configurable disintermediate algorithm",
-      "Number": "1411974",
+      "QuoteVersionId": 810,
+      "ERPQuoteVersionKey": "minima",
+      "QuoteId": 239,
+      "Description": "Assimilated fresh-thinking architecture",
+      "Number": "1108674",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 155,
-      "SentDate": "2006-05-09T11:24:48.5313897+02:00",
-      "FollowupId": 584,
-      "ExpirationDate": "2005-01-05T11:24:48.5313897+01:00",
-      "DeliveryCountryId": 512,
+      "LikelyQuoteAlternativeId": 488,
+      "SentDate": "2017-11-05T03:40:47.5785846+01:00",
+      "FollowupId": 646,
+      "ExpirationDate": "2008-04-12T03:40:47.5785846+02:00",
+      "DeliveryCountryId": 362,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 510,
+      "InvoiceCountryId": 762,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "dolores",
-      "ERPPaymentTypeKey": "enim",
-      "ERPDeliveryTermsKey": "voluptas",
-      "ERPDeliveryTypeKey": "aut",
-      "Rank": 52,
-      "ApprovedBy": 109,
-      "ApprovedText": "quia",
-      "ApprovedRegisteredBy": 397,
-      "ApprovedRegisteredDate": "2011-05-01T11:24:48.5313897+02:00",
-      "ExtraField1": "debitis",
-      "ExtraField2": "quidem",
-      "ExtraField3": "optio",
-      "ExtraField4": "sint",
-      "ExtraField5": "minus",
-      "LastRecalculated": "2001-04-09T11:24:48.5313897+02:00",
-      "Updated": "2015-10-06T11:24:48.5313897+02:00",
-      "UpdatedAssociateId": 102,
-      "Registered": "2021-02-15T11:24:48.5313897+01:00",
-      "RegisteredAssociateId": 643,
-      "RequestAssociateId": 736,
-      "RequestComment": "vitae",
+      "ERPPaymentTermsKey": "cum",
+      "ERPPaymentTypeKey": "eaque",
+      "ERPDeliveryTermsKey": "quo",
+      "ERPDeliveryTypeKey": "debitis",
+      "Rank": 910,
+      "ApprovedBy": 322,
+      "ApprovedText": "ducimus",
+      "ApprovedRegisteredBy": 930,
+      "ApprovedRegisteredDate": "2003-02-07T03:40:47.5785846+01:00",
+      "ExtraField1": "perspiciatis",
+      "ExtraField2": "consequatur",
+      "ExtraField3": "dignissimos",
+      "ExtraField4": "non",
+      "ExtraField5": "nesciunt",
+      "LastRecalculated": "2002-10-31T03:40:47.5785846+01:00",
+      "Updated": "2007-03-12T03:40:47.5785846+01:00",
+      "UpdatedAssociateId": 344,
+      "Registered": "2009-01-23T03:40:47.5785846+01:00",
+      "RegisteredAssociateId": 483,
+      "RequestAssociateId": 449,
+      "RequestComment": "totam",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 438
         }
       }
     }
@@ -171,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

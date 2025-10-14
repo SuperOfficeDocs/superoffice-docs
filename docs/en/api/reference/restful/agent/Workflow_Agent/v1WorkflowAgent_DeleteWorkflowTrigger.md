@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger
 Deletes the WorkflowTrigger
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the WorkflowTrigger
 | workflowTriggerId | int32 | **Required** The identity of the WorkflowTrigger |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?workflowTriggerId=63
+POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger?workflowTriggerId=964
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

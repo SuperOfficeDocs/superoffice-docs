@@ -32,9 +32,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=illum
-GET /api/v1/MDOList/{listname}?query=ea
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=tempore
+GET /api/v1/MDOList/{listname}?query=dolor
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Schulist-Christiansen",
-    "ToolTip": "Sequi ea tempore recusandae amet quod voluptates asperiores.",
+    "Id": 874,
+    "Name": "Haag, Hegmann and Kunze",
+    "ToolTip": "Non qui aut enim delectus rerum.",
     "Deleted": true,
-    "Rank": 287,
-    "Type": "magni",
+    "Rank": 847,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Mraz Group",
-        "ToolTip": "Ut expedita iste et.",
-        "Deleted": false,
-        "Rank": 399,
-        "Type": "perferendis",
+        "Id": 130,
+        "Name": "Runolfsdottir-Gerhold",
+        "ToolTip": "Incidunt voluptatem.",
+        "Deleted": true,
+        "Rank": 462,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 326,
-        "ExtraInfo": "nihil",
-        "StyleHint": "veritatis",
-        "FullName": "Mr. Ramiro Mraz DVM",
+        "IconHint": "amet",
+        "ColorBlock": 50,
+        "ExtraInfo": "ratione",
+        "StyleHint": "labore",
+        "FullName": "Mrs. Xander Amparo Turcotte DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldLength": 989
           }
         }
       }
     ],
-    "IconHint": "dignissimos",
-    "ColorBlock": 762,
-    "ExtraInfo": "sit",
-    "StyleHint": "illum",
-    "FullName": "Zula Ritchie",
+    "IconHint": "magnam",
+    "ColorBlock": 768,
+    "ExtraInfo": "unde",
+    "StyleHint": "molestias",
+    "FullName": "Ari Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 751
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,8 +94,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 744,
-  "ModuleOwner": "sunt"
+  "AssociateId": 194,
+  "ModuleOwner": "optio"
 }
 ```
 
@@ -106,25 +108,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 595,
-    "Tooltip": "animi",
+    "Total": 603,
+    "Tooltip": "minima",
     "CanAssign": false,
-    "Free": 640,
-    "InUse": 513,
+    "Free": 251,
+    "InUse": 505,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 357,
-    "Name": "O'Kon LLC",
-    "Description": "Exclusive full-range productivity",
-    "PrerequisiteModuleName": "Gerhold LLC",
-    "SortOrder": 672,
-    "ExtraFlags": 733,
+    "Assigned": true,
+    "ModuleLicenseId": 760,
+    "Name": "Tromp LLC",
+    "Description": "Streamlined multi-state Graphic Interface",
+    "PrerequisiteModuleName": "Murazik, Daniel and Morissette",
+    "SortOrder": 910,
+    "ExtraFlags": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 169
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

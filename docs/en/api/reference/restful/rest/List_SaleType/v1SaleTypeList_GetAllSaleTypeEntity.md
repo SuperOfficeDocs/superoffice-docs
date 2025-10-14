@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 649,
-    "Name": "Herzog-Koelpin",
-    "Tooltip": "aperiam",
-    "Rank": 664,
+    "SaleTypeId": 539,
+    "Name": "Reinger, Connelly and Smith",
+    "Tooltip": "sit",
+    "Rank": 323,
     "DurationUnit": "Century",
-    "SaleDuration": 787,
-    "SaleTypeCatId": 567,
+    "SaleDuration": 546,
+    "SaleTypeCatId": 784,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 608,
-    "QuoteLinesTemplate": 638,
-    "ConfirmationLinesTemplate": 683,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 346,
-    "MinEarningPercent": 949,
-    "GroupQuoteLinesBy": 233,
-    "SortGroupLinesBy": 285,
+    "DefaultQuoteValidity": 293,
+    "QuoteLinesTemplate": 996,
+    "ConfirmationLinesTemplate": 549,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 747,
+    "MinEarningPercent": 449,
+    "GroupQuoteLinesBy": 567,
+    "SortGroupLinesBy": 221,
     "Stages": [
       {
-        "Id": 154,
-        "Name": "Watsica LLC",
-        "ToolTip": "Rerum nesciunt odio quos et est eligendi voluptatum.",
-        "Deleted": false,
-        "Rank": 171,
-        "Type": "aliquam",
-        "ColorBlock": 141,
-        "IconHint": "maxime",
+        "Id": 982,
+        "Name": "Homenick Group",
+        "ToolTip": "Reiciendis aut quaerat.",
+        "Deleted": true,
+        "Rank": 622,
+        "Type": "tenetur",
+        "ColorBlock": 361,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2000-12-17T11:24:54.1405361+01:00",
+        "LastChanged": "2006-11-08T03:40:57.1027301+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "esse",
+        "ExtraInfo": "ut",
+        "StyleHint": "incidunt",
         "Hidden": true,
-        "FullName": "Kevon Green",
+        "FullName": "Jacky Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 338
           }
         }
       }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldLength": 516
       }
     }
   }

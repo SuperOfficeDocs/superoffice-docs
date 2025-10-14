@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Fetch appointments for given associates
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -135,11 +137,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    579,
-    577
+    64,
+    903
   ],
-  "StartTime": "2011-01-05T11:24:47.3283137+01:00",
-  "EndTime": "2024-06-26T11:24:47.3283137+02:00"
+  "StartTime": "2004-10-23T03:40:45.6387418+02:00",
+  "EndTime": "2003-02-27T03:40:45.6387418+01:00"
 }
 ```
 
@@ -151,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 988,
-    "StartDate": "2016-01-18T11:24:47.3283137+01:00",
-    "EndDate": "2011-11-19T11:24:47.3283137+01:00",
+    "AppointmentId": 112,
+    "StartDate": "2025-01-06T03:40:45.6387418+01:00",
+    "EndDate": "2022-02-01T03:40:45.6387418+01:00",
     "Type": "BookingForChecklist",
-    "Task": "consectetur",
-    "AssociateFullName": "Dr. Kailee Hazel Koss",
-    "ContactName": "Renner Inc and Sons",
-    "Description": "Advanced scalable leverage",
-    "PersonFullName": "Valentin Ledner DVM",
-    "PersonId": 505,
-    "ContactId": 37,
-    "ProjectId": 723,
-    "ProjectName": "Green Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 985,
-    "ColorIndex": 805,
+    "Task": "facere",
+    "AssociateFullName": "Haley Adams",
+    "ContactName": "West LLC",
+    "Description": "Automated local middleware",
+    "PersonFullName": "Mr. Percival Brandyn Legros PhD",
+    "PersonId": 919,
+    "ContactId": 768,
+    "ProjectId": 18,
+    "ProjectName": "Treutel LLC",
+    "IsPublished": true,
+    "AssociateId": 825,
+    "ColorIndex": 547,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 764,
-    "PriorityName": "Wilkinson Group",
+    "PriorityId": 181,
+    "PriorityName": "Davis LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2004-10-16T11:24:47.3283137+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2020-12-24T03:40:45.6387418+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-09-13T11:24:47.3283137+02:00",
-    "RecurringEndDate": "2014-12-31T11:24:47.3283137+01:00",
-    "MotherId": 766,
-    "AssignedBy": 865,
-    "AssignedByFullName": "Luisa Bins",
-    "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "odit",
-    "SaleId": 917,
-    "SaleName": "Luettgen, Ryan and Gottlieb",
-    "AssociateName": "Durgan LLC",
-    "CreatedDate": "2006-11-24T11:24:47.3283137+01:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Yazmin Monty Prohaska Jr.",
-    "CreatedByAssociateId": 780,
+    "RecurringStartDate": "2002-07-30T03:40:45.6387418+02:00",
+    "RecurringEndDate": "2009-03-30T03:40:45.6387418+02:00",
+    "MotherId": 660,
+    "AssignedBy": 533,
+    "AssignedByFullName": "Stephany Smith",
+    "RejectReason": "optimize ubiquitous e-business",
+    "Location": "voluptates",
+    "AlarmLeadTime": "voluptates",
+    "SaleId": 740,
+    "SaleName": "Huels, Zulauf and Buckridge",
+    "AssociateName": "McCullough, White and Connelly",
+    "CreatedDate": "2009-12-16T03:40:45.6387418+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Bret Wunsch",
+    "CreatedByAssociateId": 586,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 280,
+    "MotherAssociateId": 879,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 371,
-    "Title": "magnam",
-    "Agenda": "alias",
-    "InternalNotes": "quaerat",
+    "PreferredTZLocation": 862,
+    "Title": "laborum",
+    "Agenda": "vero",
+    "InternalNotes": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 701
       }
     }
   }

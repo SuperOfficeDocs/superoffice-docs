@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 836,
-  "StartTime": "2014-12-14T11:24:47.2970652+01:00",
-  "EndTime": "2003-07-25T11:24:47.2970652+02:00",
-  "Count": 809,
-  "TaskId": 390
+  "PersonId": 286,
+  "StartTime": "2020-07-30T03:40:45.60749+02:00",
+  "EndTime": "2010-10-08T03:40:45.60749+02:00",
+  "Count": 401,
+  "TaskId": 308
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 198,
-    "StartDate": "2013-06-20T11:24:47.2970652+02:00",
-    "EndDate": "2007-12-13T11:24:47.2970652+01:00",
+    "AppointmentId": 132,
+    "StartDate": "2008-06-20T03:40:45.60749+02:00",
+    "EndDate": "2009-12-07T03:40:45.60749+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsum",
-    "AssociateFullName": "Cameron Schmitt",
-    "ContactName": "Kunde-Conn",
-    "Description": "Progressive bandwidth-monitored hardware",
-    "PersonFullName": "Mrs. Madyson Cora Nienow Jr.",
-    "PersonId": 278,
-    "ContactId": 55,
-    "ProjectId": 832,
-    "ProjectName": "West-Willms",
+    "Task": "soluta",
+    "AssociateFullName": "Elsie Price",
+    "ContactName": "Collier, Balistreri and Bosco",
+    "Description": "Managed secondary encryption",
+    "PersonFullName": "Mrs. Samanta O'Hara Sr.",
+    "PersonId": 198,
+    "ContactId": 172,
+    "ProjectId": 896,
+    "ProjectName": "Toy, Kshlerin and Moore",
     "IsPublished": false,
-    "AssociateId": 902,
-    "ColorIndex": 817,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "AssociateId": 585,
+    "ColorIndex": 193,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 453,
-    "PriorityName": "Schaden Group",
+    "PriorityId": 648,
+    "PriorityName": "Wilderman Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2025-07-31T11:24:47.2970652+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2025-09-30T03:40:45.60749+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-25T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2001-09-07T11:24:47.2970652+02:00",
-    "MotherId": 60,
-    "AssignedBy": 535,
-    "AssignedByFullName": "Mrs. Lisa Nannie Mohr III",
+    "RecurringStartDate": "2022-12-09T03:40:45.60749+01:00",
+    "RecurringEndDate": "2025-01-03T03:40:45.60749+01:00",
+    "MotherId": 106,
+    "AssignedBy": 587,
+    "AssignedByFullName": "Emily McKenzie",
     "RejectReason": "",
-    "Location": "veritatis",
-    "AlarmLeadTime": "et",
-    "SaleId": 877,
-    "SaleName": "Balistreri, Mitchell and Auer",
-    "AssociateName": "Cole LLC",
-    "CreatedDate": "2021-02-09T11:24:47.2970652+01:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Meggie Koepp",
-    "CreatedByAssociateId": 960,
+    "Location": "maxime",
+    "AlarmLeadTime": "sequi",
+    "SaleId": 695,
+    "SaleName": "Boyle-Beier",
+    "AssociateName": "Emard, Beatty and Hartmann",
+    "CreatedDate": "2010-10-21T03:40:45.60749+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Rowena Leannon",
+    "CreatedByAssociateId": 629,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 759,
+    "MotherAssociateId": 778,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 733,
-    "Title": "commodi",
-    "Agenda": "odit",
-    "InternalNotes": "consequatur",
+    "PreferredTZLocation": 798,
+    "Title": "eaque",
+    "Agenda": "veritatis",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 37
       }
     }
   }

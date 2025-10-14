@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentStream
 Get the content of an attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 738
+  "AttachmentId": 468
 }
 ```
 

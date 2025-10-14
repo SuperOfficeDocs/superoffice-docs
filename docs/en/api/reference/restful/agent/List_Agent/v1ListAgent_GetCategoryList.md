@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCategoryList
 Gets an array of Category objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Value": "tempore",
-    "Tooltip": "quia",
+    "Id": 326,
+    "Value": "qui",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 77
       }
     }
   },
   {
-    "Id": 716,
-    "Value": "tempore",
-    "Tooltip": "quia",
+    "Id": 326,
+    "Value": "qui",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 77
       }
     }
   }

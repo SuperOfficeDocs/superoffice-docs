@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoryList
 Gets an array of TicketCategoryEntity objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,36 +101,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 615,
-    "ParentId": 571,
-    "Name": "Hand-Bergstrom",
-    "Fullname": "autem",
-    "CategoryMaster": 398,
+    "TicketCategoryId": 99,
+    "ParentId": 765,
+    "Name": "Carroll, Prohaska and Wisozk",
+    "Fullname": "esse",
+    "CategoryMaster": 840,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Kihn Inc and Sons",
+    "ExternalName": "Reichert, Bechtelar and Langosh",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 274,
-    "ReplyTemplate": 306,
-    "NotificationEmail": "bennett@bergnaum.ca",
+    "AssignmentLag": 319,
+    "ReplyTemplate": 12,
+    "NotificationEmail": "damion.jewess@hermann.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 39,
+    "EffectiveReplyTemplateId": 107,
     "ExtraFields": {
-      "ExtraFields1": "ex",
-      "ExtraFields2": "non"
+      "ExtraFields1": "iure",
+      "ExtraFields2": "neque"
     },
     "CustomFields": {
-      "CustomFields1": "soluta",
-      "CustomFields2": "cupiditate"
+      "CustomFields1": "voluptatum",
+      "CustomFields2": "unde"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 42
       }
     }
   }

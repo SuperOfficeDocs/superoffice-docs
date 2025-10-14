@@ -14,6 +14,8 @@ PUT /api/v1/Product/{id}
 Updates the existing Product
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -149,51 +151,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 256,
-  "ERPProductKey": "vel",
-  "ERPPriceListKey": "est",
-  "Name": "Murazik-Ratke",
-  "Description": "Networked executive circuit",
-  "Code": "eum",
-  "PriceUnit": "laboriosam",
-  "QuantityUnit": "mollitia",
+  "ProductId": 125,
+  "ERPProductKey": "commodi",
+  "ERPPriceListKey": "officiis",
+  "Name": "Jones-Osinski",
+  "Description": "Configurable web-enabled matrix",
+  "Code": "aut",
+  "PriceUnit": "labore",
+  "QuantityUnit": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "aperiam",
-  "DefaultSubscriptionQuantity": 17973.489999999998,
-  "ItemNumber": "1774107",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 23022.363999999998,
+  "ItemNumber": "992074",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "recusandae",
-  "ProductTypeKey": "quos",
-  "VAT": 4769.9479999999994,
-  "VATInfo": "architecto",
-  "UnitCost": 23401.577999999998,
-  "UnitMinimumPrice": 28064.969999999998,
-  "UnitListPrice": 5114.688,
+  "ProductFamilyKey": "quidem",
+  "ProductTypeKey": "magni",
+  "VAT": 14726.666,
+  "VATInfo": "impedit",
+  "UnitCost": 13078.181999999999,
+  "UnitMinimumPrice": 20891.244,
+  "UnitListPrice": 20095.208,
   "InAssortment": false,
-  "Supplier": "quam",
-  "SupplierCode": "rerum",
-  "Rights": "labore",
-  "Rule": "molestias",
+  "Supplier": "veritatis",
+  "SupplierCode": "ab",
+  "Rights": "asperiores",
+  "Rule": "nostrum",
   "ExtraInfo": [
     {
-      "Name": "Ruecker, Konopelski and Kreiger",
-      "Value": "illo",
+      "Name": "Jacobson, Lubowitz and Ratke",
+      "Value": "alias",
       "Type": "Image"
     },
     {
-      "Name": "Ruecker, Konopelski and Kreiger",
-      "Value": "illo",
+      "Name": "Jacobson, Lubowitz and Ratke",
+      "Value": "alias",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "expedita",
-  "ExtraField1": "dolorum",
-  "ExtraField2": "rerum",
-  "ExtraField3": "nisi",
-  "ExtraField4": "porro",
-  "ExtraField5": "voluptas",
-  "InStock": 8480.604
+  "RawExtraInfo": "eius",
+  "ExtraField1": "aliquam",
+  "ExtraField2": "quae",
+  "ExtraField3": "et",
+  "ExtraField4": "qui",
+  "ExtraField5": "et",
+  "InStock": 10921.99
 }
 ```
 
@@ -204,73 +206,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 20,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "deleniti",
-  "Name": "Franecki Group",
-  "Description": "Secured zero defect groupware",
-  "Code": "voluptates",
-  "PriceUnit": "et",
-  "QuantityUnit": "aliquam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "beatae",
-  "DefaultSubscriptionQuantity": 19001.442,
-  "ItemNumber": "675162",
+  "ProductId": 856,
+  "ERPProductKey": "nihil",
+  "ERPPriceListKey": "accusantium",
+  "Name": "Ward Group",
+  "Description": "Diverse encompassing toolset",
+  "Code": "quis",
+  "PriceUnit": "ut",
+  "QuantityUnit": "neque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ex",
+  "DefaultSubscriptionQuantity": 3049.382,
+  "ItemNumber": "1073413",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "porro",
-  "ProductTypeKey": "laboriosam",
-  "VAT": 26805.102,
-  "VATInfo": "similique",
-  "UnitCost": 18145.86,
-  "UnitMinimumPrice": 20226.836,
-  "UnitListPrice": 17666.358,
+  "ProductFamilyKey": "error",
+  "ProductTypeKey": "quasi",
+  "VAT": 26548.113999999998,
+  "VATInfo": "sit",
+  "UnitCost": 6675.42,
+  "UnitMinimumPrice": 22082.164,
+  "UnitListPrice": 19791.21,
   "InAssortment": false,
-  "Supplier": "dolores",
-  "SupplierCode": "ab",
-  "Rights": "accusantium",
-  "Rule": "eum",
+  "Supplier": "aut",
+  "SupplierCode": "quia",
+  "Rights": "ut",
+  "Rule": "est",
   "ExtraInfo": [
     {
-      "Name": "Bernhard-Little",
-      "Value": "placeat",
+      "Name": "Larson Group",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 940
         }
       }
     },
     {
-      "Name": "Bernhard-Little",
-      "Value": "placeat",
+      "Name": "Larson Group",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 940
         }
       }
     }
   ],
-  "RawExtraInfo": "impedit",
-  "ExtraField1": "neque",
-  "ExtraField2": "ut",
-  "ExtraField3": "laudantium",
-  "ExtraField4": "molestias",
-  "ExtraField5": "sit",
-  "InStock": 5092.75,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "dolores",
+  "ExtraField2": "non",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "sed",
+  "ExtraField5": "ullam",
+  "InStock": 25814.757999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 889
     }
   }
 }

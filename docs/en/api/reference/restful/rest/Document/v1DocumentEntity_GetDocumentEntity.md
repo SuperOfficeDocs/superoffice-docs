@@ -15,6 +15,7 @@ Gets a DocumentEntity object.
 
 
 Calls the Document agent service GetDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -110,7 +111,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,91 +119,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 03 Feb 2023 11:24:53 G2T
+Last-Modified: Sun, 30 Jan 2011 03:40:55 G1T
 
 {
-  "DocumentId": 177,
+  "DocumentId": 59,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eaque",
-  "Header": "sed",
-  "Name": "Hoppe Group",
-  "OurRef": "et",
-  "YourRef": "minima",
-  "CreatedDate": "2024-02-24T11:24:53.2499584+01:00",
-  "UpdatedDate": "2023-02-03T11:24:53.2499584+01:00",
-  "Description": "Sharable discrete capacity",
+  "Attention": "aut",
+  "Header": "dignissimos",
+  "Name": "Macejkovic, Morar and Jacobi",
+  "OurRef": "quo",
+  "YourRef": "quidem",
+  "CreatedDate": "2009-02-27T03:40:55.6475326+01:00",
+  "UpdatedDate": "2011-01-30T03:40:55.6475326+01:00",
+  "Description": "Diverse background workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-01-02T11:24:53.2499584+01:00",
-  "ExternalRef": "autem",
+  "Date": "2025-06-07T03:40:55.6475326+02:00",
+  "ExternalRef": "veritatis",
   "Completed": "Completed",
-  "ActiveLinks": 769,
+  "ActiveLinks": 339,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Klocko-Stiedemann",
-      "Id": 348,
-      "Description": "Distributed radical definition",
-      "ExtraInfo": "dolore",
-      "LinkId": 718,
+      "EntityName": "Torp-Hirthe",
+      "Id": 51,
+      "Description": "Proactive next generation pricing structure",
+      "ExtraInfo": "sit",
+      "LinkId": 665,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 913
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 596,
-  "Snum": 589,
+  "SuggestedDocumentId": 473,
+  "Snum": 669,
   "UserDefinedFields": {
-    "SuperOffice:1": "Neal Kilback",
-    "SuperOffice:2": "1343441834"
+    "SuperOffice:1": "1702377062",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2012-02-02T11:24:53.2499584+01:00",
-  "PublishTo": "2001-01-18T11:24:53.2499584+01:00",
-  "PublishFrom": "2017-09-23T11:24:53.2499584+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-05-12T03:40:55.6475326+02:00",
+  "PublishTo": "2002-12-09T03:40:55.6475326+01:00",
+  "PublishFrom": "2014-07-26T03:40:55.6475326+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 205,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldLength": 776
         }
       }
     },
     {
-      "VisibleId": 205,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 510
+          "FieldLength": 776
         }
       }
     }
@@ -212,7 +213,7 @@ Last-Modified: Fri, 03 Feb 2023 11:24:53 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 19
     }
   },
   "_Links": {

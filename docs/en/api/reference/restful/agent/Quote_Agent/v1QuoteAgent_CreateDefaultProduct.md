@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultProduct
 Loading default values into a new Product.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 548,
-  "ERPProductKey": "dolores",
-  "ERPPriceListKey": "omnis",
-  "Name": "Barrows, Runolfsson and Smith",
-  "Description": "Face to face systemic middleware",
-  "Code": "aliquam",
-  "PriceUnit": "omnis",
-  "QuantityUnit": "facilis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 5801.034,
-  "ItemNumber": "915122",
+  "ProductId": 785,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "eum",
+  "Name": "Ritchie-Barrows",
+  "Description": "Triple-buffered asynchronous ability",
+  "Code": "voluptatibus",
+  "PriceUnit": "et",
+  "QuantityUnit": "quo",
+  "IsSubscription": true,
+  "SubscriptionUnit": "facilis",
+  "DefaultSubscriptionQuantity": 22386.162,
+  "ItemNumber": "1294080",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "iusto",
-  "VAT": 15347.198,
-  "VATInfo": "id",
-  "UnitCost": 3961.3759999999997,
-  "UnitMinimumPrice": 25322.719999999998,
-  "UnitListPrice": 4942.318,
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "facilis",
+  "VAT": 24918.433999999997,
+  "VATInfo": "ab",
+  "UnitCost": 2068.44,
+  "UnitMinimumPrice": 28287.484,
+  "UnitListPrice": 14817.552,
   "InAssortment": true,
-  "Supplier": "modi",
-  "SupplierCode": "ab",
-  "Rights": "et",
-  "Rule": "delectus",
+  "Supplier": "praesentium",
+  "SupplierCode": "explicabo",
+  "Rights": "non",
+  "Rule": "minima",
   "ExtraInfo": [
     {
-      "Name": "Kub-Purdy",
-      "Value": "pariatur",
+      "Name": "Paucek Inc and Sons",
+      "Value": "distinctio",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 944
         }
       }
     },
     {
-      "Name": "Kub-Purdy",
-      "Value": "pariatur",
+      "Name": "Paucek Inc and Sons",
+      "Value": "distinctio",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 944
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "sit",
-  "ExtraField2": "dicta",
-  "ExtraField3": "sed",
-  "ExtraField4": "saepe",
-  "ExtraField5": "possimus",
-  "InStock": 14616.975999999999,
+  "RawExtraInfo": "non",
+  "ExtraField1": "quo",
+  "ExtraField2": "tempora",
+  "ExtraField3": "eos",
+  "ExtraField4": "est",
+  "ExtraField5": "fuga",
+  "InStock": 19424.532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 869
     }
   }
 }

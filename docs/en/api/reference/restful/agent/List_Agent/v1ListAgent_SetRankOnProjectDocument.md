@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetRankOnProjectDocument
 Set rank order on project document
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnProjectDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 570,
+  "ProjectTypeStatusLinkId": 885,
   "ItemsIds": [
-    539,
-    482
+    821,
+    781
   ]
 }
 ```

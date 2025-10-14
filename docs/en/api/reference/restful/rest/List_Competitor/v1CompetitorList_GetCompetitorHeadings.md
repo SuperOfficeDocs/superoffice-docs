@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 888,
-    "Name": "D'Amore Group",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "Rank": 608,
-    "UdListDefinitionId": 310,
+    "HeadingId": 479,
+    "Name": "Morar, Von and Lubowitz",
+    "Tooltip": "ad",
+    "Deleted": false,
+    "Rank": 461,
+    "UdListDefinitionId": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 513
       }
     }
   }

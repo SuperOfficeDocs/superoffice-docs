@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=deserunt
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=ut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Kihn, Ondricka and Brown",
-    "ToolTip": "Dolor et sit.",
+    "Id": 899,
+    "Name": "Rempel-Kris",
+    "ToolTip": "Quis eaque mollitia aperiam.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "maxime",
+    "Rank": 42,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Johnston Inc and Sons",
-        "ToolTip": "Voluptates repudiandae vel possimus et.",
-        "Deleted": true,
-        "Rank": 98,
-        "Type": "eligendi",
+        "Id": 772,
+        "Name": "Pollich, Ankunding and Cummerata",
+        "ToolTip": "Consequatur dicta voluptatem sequi fugiat officia quas possimus.",
+        "Deleted": false,
+        "Rank": 713,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 221,
-        "ExtraInfo": "placeat",
-        "StyleHint": "est",
-        "FullName": "Matt Mosciski",
+        "IconHint": "excepturi",
+        "ColorBlock": 484,
+        "ExtraInfo": "odit",
+        "StyleHint": "aliquam",
+        "FullName": "Sylvester Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldType": "System.String",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 480,
-    "ExtraInfo": "dolorum",
-    "StyleHint": "praesentium",
-    "FullName": "Lavinia Bernhard",
+    "IconHint": "voluptate",
+    "ColorBlock": 460,
+    "ExtraInfo": "aut",
+    "StyleHint": "hic",
+    "FullName": "Mrs. Avery Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldLength": 190
       }
     }
   }

@@ -15,6 +15,7 @@ Get the list of members in this selection's shadow (i.
 
 
 e. the list of contacts + persons referenced in the main selection).
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 713,
-  "Select": "quo"
+  "SelectionId": 710,
+  "Select": "repellendus"
 }
 ```
 
@@ -98,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bauch-Fay",
-    "PrimaryKey": 771,
+    "EntityName": "Beahan-Schuster",
+    "PrimaryKey": 925,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "expedita",
-        "TooltipHint": "dolorem",
-        "LinkHint": "quia"
+        "DisplayValue": "deleniti",
+        "TooltipHint": "et",
+        "LinkHint": "iusto"
       }
     },
-    "LinkHint": "sint",
-    "StyleHint": "minima",
+    "LinkHint": "odio",
+    "StyleHint": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 628
       }
     }
   }

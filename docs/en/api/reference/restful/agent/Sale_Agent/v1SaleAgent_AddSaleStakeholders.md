@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -66,32 +66,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 53,
+  "SaleId": 500,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Thiel, Huel and Hackett",
-      "Comment": "nobis",
-      "StakeholderRoleId": 380,
-      "CountryId": 176,
-      "PersonId": 271,
-      "EmailDescription": "osbaldo.damore@blanda.name",
-      "EmailId": 404,
-      "EmailAddress": "selina@koch.com",
-      "PhoneId": 852,
-      "ContactName": "Dach-Kassulke",
-      "ContactId": 624,
-      "SaleId": 327,
-      "Mrmrs": "qui",
-      "Firstname": "Liliana",
-      "MiddleName": "Lemke, Cummerata and Osinski",
-      "Lastname": "Padberg",
-      "SaleStakeholderId": 128,
-      "Rank": 486,
-      "Phone": "910.309.0233 x593"
+      "StakeholderRoleName": "D'Amore-Langosh",
+      "Comment": "laboriosam",
+      "StakeholderRoleId": 544,
+      "CountryId": 946,
+      "PersonId": 490,
+      "EmailDescription": "rodrick.zulauf@conn.biz",
+      "EmailId": 215,
+      "EmailAddress": "herminia@harris.ca",
+      "PhoneId": 94,
+      "ContactName": "Schulist, Lind and Kuhic",
+      "ContactId": 184,
+      "SaleId": 920,
+      "Mrmrs": "harum",
+      "Firstname": "Catharine",
+      "MiddleName": "Weber LLC",
+      "Lastname": "Howell",
+      "SaleStakeholderId": 524,
+      "Rank": 552,
+      "Phone": "173-040-2395"
     }
   ]
 }

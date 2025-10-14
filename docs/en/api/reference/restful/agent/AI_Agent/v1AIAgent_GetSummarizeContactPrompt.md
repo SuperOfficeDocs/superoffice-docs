@@ -15,6 +15,10 @@ Return the prompt used to get a short summary of the activities on a contact.
 
 
 Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -86,10 +90,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 774,
-  "NumSentences": 553,
-  "Summary": "blanditiis",
-  "IsoLangCode": "similique"
+  "ContactId": 730,
+  "NumSentences": 785,
+  "Summary": "officiis",
+  "IsoLangCode": "ut"
 }
 ```
 
@@ -100,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-11-17T11:24:47.2814408+01:00",
-  "UserPrompt": "a",
-  "UserDisplayText": "cum",
-  "BotResponse": "quo",
+  "Timestamp": "2020-06-03T03:40:45.5762384+02:00",
+  "UserPrompt": "temporibus",
+  "UserDisplayText": "voluptatem",
+  "BotResponse": "maiores",
   "BotActions": {
-    "BotActions1": "animi",
-    "BotActions2": "eos"
+    "BotActions1": "accusantium",
+    "BotActions2": "eveniet"
   },
   "Attachments": [
-    "hic",
-    "ab"
+    "quia",
+    "cum"
   ]
 }
 ```

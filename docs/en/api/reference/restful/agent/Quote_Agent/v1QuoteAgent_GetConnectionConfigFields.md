@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectionConfigFields
 Returns the config fields for the connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 683
+  "QuoteConnectionId": 80
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "inventore",
-  "2": "voluptatem"
+  "1": "cupiditate",
+  "2": "est"
 }
 ```

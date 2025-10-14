@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllDomains
 Get list of all domains
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/List/GetAllDomains
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "qui",
-  "numquam"
+  "est",
+  "nesciunt"
 ]
 ```

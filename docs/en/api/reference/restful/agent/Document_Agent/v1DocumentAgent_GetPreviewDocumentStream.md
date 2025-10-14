@@ -15,6 +15,7 @@ Get the preview version of the document content as a stream.
 
 
 Retrieves a sanitized version if possible
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 125
+  "DocumentId": 682
 }
 ```
 
@@ -94,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koelpin Inc and Sons",
-  "Type": "quidem",
-  "Size": 594,
+  "Name": "Gorczany-Waters",
+  "Type": "aut",
+  "Size": 443,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 292
     }
   }
 }

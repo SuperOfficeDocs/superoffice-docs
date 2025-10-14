@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetPersonImage
 Returns the person image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 703
+  "PersonId": 452
 }
 ```
 

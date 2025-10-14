@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Migrates the template with the provided id to the specified document-plugin.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -68,12 +71,12 @@ No Content
 POST /api/v1/Agents/DocumentMigration/MigrateTemplateToNewDocPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 897,
-  "TargetDocumentPluginId": 732
+  "DocumentTemplateId": 182,
+  "TargetDocumentPluginId": 852
 }
 ```
 

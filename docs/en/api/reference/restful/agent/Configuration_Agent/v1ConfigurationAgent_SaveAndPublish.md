@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveAndPublish
 Save the incomming draft and publish
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -101,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 994,
-  "Name": "Parker-Gleason",
-  "Description": "Optional bottom-line matrix",
-  "DeltaJson": "quia",
+  "ConfigurableScreenDeltaId": 757,
+  "Name": "Pollich-Moore",
+  "Description": "Object-based multi-state firmware",
+  "DeltaJson": "occaecati",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eum",
-  "UpdatedDate": "2002-03-13T11:24:47.7189228+01:00",
-  "CreatedDate": "2017-12-03T11:24:47.7189228+01:00",
+  "RecipeId": "nam",
+  "UpdatedDate": "2001-12-01T03:40:46.2488145+01:00",
+  "CreatedDate": "2008-03-04T03:40:46.2488145+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    559,
-    863
+    32,
+    796
   ],
-  "AppliesToKey": "rem",
+  "AppliesToKey": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 879
     }
   }
 }

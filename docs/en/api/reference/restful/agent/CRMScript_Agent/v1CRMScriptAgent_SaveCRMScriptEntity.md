@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -102,52 +105,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 709,
-  "UniqueIdentifier": "a",
-  "Name": "Sauer-Marvin",
-  "Description": "Compatible systemic system engine",
-  "IncludeId": "iusto",
-  "AccessKey": "suscipit",
-  "HierarchyId": 436,
-  "Source": "magnam",
+  "EjscriptId": 109,
+  "UniqueIdentifier": "ipsum",
+  "Name": "Osinski, Gleason and Bednar",
+  "Description": "Multi-channelled client-server Graphical User Interface",
+  "IncludeId": "quis",
+  "AccessKey": "harum",
+  "HierarchyId": 119,
+  "Source": "totam",
   "SourceCode": "velit",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 953,
+  "HtmlOutput": 951,
   "Includes": [
-    375,
-    299
+    633,
+    284
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 817,
-      "LineNumberTo": 864,
-      "Delta": 686,
-      "IncludeId": "iure",
+      "LineNumberFrom": 370,
+      "LineNumberTo": 956,
+      "Delta": 962,
+      "IncludeId": "nostrum",
       "IncludedFrom": [
-        "sit",
-        "iure"
+        "laboriosam",
+        "veniam"
       ]
     },
     {
-      "LineNumberFrom": 817,
-      "LineNumberTo": 864,
-      "Delta": 686,
-      "IncludeId": "iure",
+      "LineNumberFrom": 370,
+      "LineNumberTo": 956,
+      "Delta": 962,
+      "IncludeId": "nostrum",
       "IncludedFrom": [
-        "sit",
-        "iure"
+        "laboriosam",
+        "veniam"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2015-01-17T11:24:47.8439178+01:00",
-  "RegisteredAssociateId": 294,
-  "Updated": "2007-05-07T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 115,
+  "Registered": "2013-12-31T03:40:46.5149979+01:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2005-09-06T03:40:46.5149979+02:00",
+  "UpdatedAssociateId": 339,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -159,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 278,
-  "UniqueIdentifier": "velit",
-  "Name": "Pacocha-Senger",
-  "Description": "Reduced bottom-line database",
-  "IncludeId": "qui",
-  "AccessKey": "inventore",
-  "HierarchyId": 976,
-  "Source": "aut",
-  "SourceCode": "vel",
+  "EjscriptId": 254,
+  "UniqueIdentifier": "atque",
+  "Name": "Hauck-Swift",
+  "Description": "Open-architected multimedia matrix",
+  "IncludeId": "fugit",
+  "AccessKey": "nulla",
+  "HierarchyId": 609,
+  "Source": "recusandae",
+  "SourceCode": "ipsam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 548,
+  "HtmlOutput": 61,
   "Includes": [
-    586,
-    474
+    30,
+    580
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 48,
-      "LineNumberTo": 850,
-      "Delta": 925,
-      "IncludeId": "non",
+      "LineNumberFrom": 36,
+      "LineNumberTo": 182,
+      "Delta": 932,
+      "IncludeId": "inventore",
       "IncludedFrom": [
-        "sunt",
-        "repellat"
+        "odit",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 637
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-09-24T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 528,
-  "Updated": "1999-06-23T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 1002,
+  "Registered": "2021-06-07T03:40:46.5149979+02:00",
+  "RegisteredAssociateId": 448,
+  "Updated": "2011-09-05T03:40:46.5149979+02:00",
+  "UpdatedAssociateId": 263,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

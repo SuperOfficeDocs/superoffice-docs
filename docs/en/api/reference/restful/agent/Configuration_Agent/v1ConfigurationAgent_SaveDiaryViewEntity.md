@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,39 +80,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 578,
-  "Name": "Beier Group",
-  "Tooltip": "reprehenderit",
-  "VisibleColumns": 364,
-  "Rank": 223,
-  "AssocId": 604,
+  "DiaryViewId": 525,
+  "Name": "Jewess, Bahringer and Parker",
+  "Tooltip": "iusto",
+  "VisibleColumns": 145,
+  "Rank": 817,
+  "AssocId": 274,
   "AssociateList": [
     {
-      "Id": 217,
-      "Name": "Douglas-Wolff",
-      "ToolTip": "Aliquid voluptatem explicabo officia laborum.",
+      "Id": 414,
+      "Name": "Hessel Group",
+      "ToolTip": "Cum omnis fugiat repellat omnis vel.",
       "Deleted": false,
-      "Rank": 541,
-      "Type": "cum",
-      "ColorBlock": 383,
-      "IconHint": "dolore",
-      "Selected": false,
-      "LastChanged": "2013-07-13T11:24:47.7189228+02:00",
+      "Rank": 623,
+      "Type": "et",
+      "ColorBlock": 828,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2025-09-15T03:40:46.2488145+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "cumque",
-      "Hidden": true,
-      "FullName": "Mrs. Taylor Bradtke"
+      "ExtraInfo": "neque",
+      "StyleHint": "iste",
+      "Hidden": false,
+      "FullName": "Miss Harmony Stokes"
     }
   ],
-  "TzLocationId": 206
+  "TzLocationId": 212
 }
 ```
 
@@ -121,49 +123,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 763,
-  "Name": "Cormier, Stanton and Pfeffer",
-  "Tooltip": "asperiores",
-  "VisibleColumns": 808,
-  "Rank": 178,
-  "AssocId": 882,
+  "DiaryViewId": 792,
+  "Name": "Beer Group",
+  "Tooltip": "accusamus",
+  "VisibleColumns": 955,
+  "Rank": 802,
+  "AssocId": 953,
   "AssociateList": [
     {
-      "Id": 665,
-      "Name": "Aufderhar-Herzog",
-      "ToolTip": "Omnis sapiente.",
-      "Deleted": false,
-      "Rank": 206,
-      "Type": "et",
-      "ColorBlock": 573,
-      "IconHint": "dolores",
-      "Selected": true,
-      "LastChanged": "2024-06-05T11:24:47.7189228+02:00",
+      "Id": 101,
+      "Name": "Crona-Torp",
+      "ToolTip": "Magnam recusandae.",
+      "Deleted": true,
+      "Rank": 361,
+      "Type": "eos",
+      "ColorBlock": 780,
+      "IconHint": "similique",
+      "Selected": false,
+      "LastChanged": "2015-05-15T03:40:46.2488145+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "unde",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Arvilla Rempel",
+      "ExtraInfo": "iusto",
+      "StyleHint": "voluptas",
+      "Hidden": true,
+      "FullName": "Danika Julianne Emmerich MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
   ],
-  "TzLocationId": 866,
+  "TzLocationId": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 412
     }
   }
 }

@@ -260,7 +260,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowAssociate/assocTooltip,shipment/emailFlow/workflowAssociate/userName,shipment/emailFlow/workflowDefinitionStatusId
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/recordTypeText,shipment/emailFlow/workflowInProgressCount,shipment/project/projectAssociate/mrMrs,shipment/project/projectAssociate/ejDisplayName,shipment/project/projectUdef/SuperOffice:10
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

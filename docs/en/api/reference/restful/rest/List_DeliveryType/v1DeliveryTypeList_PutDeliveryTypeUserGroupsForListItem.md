@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Feeney, Durgan and Nitzsche",
-    "ToolTip": "Fugit fugit necessitatibus commodi.",
+    "Id": 157,
+    "Name": "Jaskolski Group",
+    "ToolTip": "Maiores similique quam maiores.",
     "Deleted": false,
-    "Rank": 655,
-    "Type": "reprehenderit",
-    "ColorBlock": 883,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2017-03-06T11:24:53.9217949+01:00",
+    "Rank": 548,
+    "Type": "facere",
+    "ColorBlock": 296,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2016-02-23T03:40:56.8213578+01:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Pacocha, Jenkins and Schultz",
-        "ToolTip": "Rerum velit rerum nostrum sed.",
-        "Deleted": false,
-        "Rank": 297,
-        "Type": "maxime",
-        "ColorBlock": 637,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2001-01-11T11:24:53.9217949+01:00",
+        "Id": 331,
+        "Name": "Koch-Ullrich",
+        "ToolTip": "Aut et et nobis atque quia dolores temporibus.",
+        "Deleted": true,
+        "Rank": 474,
+        "Type": "id",
+        "ColorBlock": 826,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2017-03-07T03:40:56.8213578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "magnam",
+        "ExtraInfo": "sunt",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Maryse Legros III"
+        "FullName": "Carter Franecki"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Alysa Deangelo Gleichner Jr."
+    "ExtraInfo": "maxime",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Mrs. John Tito Reilly PhD"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Howe-Jacobs",
-    "ToolTip": "Voluptas aliquam consequatur.",
+    "Id": 721,
+    "Name": "Cronin Group",
+    "ToolTip": "Totam iure alias sed enim ducimus.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "est",
-    "ColorBlock": 746,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2021-03-06T11:24:53.9217949+01:00",
+    "Rank": 668,
+    "Type": "impedit",
+    "ColorBlock": 331,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2005-10-26T03:40:56.8213578+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Cormier, Howe and Mitchell",
-        "ToolTip": "Voluptas ut vero dolor ab porro.",
-        "Deleted": true,
-        "Rank": 688,
-        "Type": "cum",
-        "ColorBlock": 270,
-        "IconHint": "hic",
+        "Id": 256,
+        "Name": "Gaylord Inc and Sons",
+        "ToolTip": "Distinctio itaque.",
+        "Deleted": false,
+        "Rank": 547,
+        "Type": "laudantium",
+        "ColorBlock": 403,
+        "IconHint": "placeat",
         "Selected": true,
-        "LastChanged": "2023-04-16T11:24:53.9217949+02:00",
+        "LastChanged": "2000-06-11T03:40:56.8213578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Laurel Roberts Sr.",
+        "ExtraInfo": "ratione",
+        "StyleHint": "iure",
+        "Hidden": false,
+        "FullName": "Mrs. Jayde Brigitte Hettinger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 928
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "aut",
+    "ExtraInfo": "culpa",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Myles Larson",
+    "FullName": "Ivy Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 9
       }
     }
   }

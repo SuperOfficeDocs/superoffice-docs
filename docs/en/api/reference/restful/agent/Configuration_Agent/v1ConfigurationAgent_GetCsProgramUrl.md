@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCsProgramUrl
 This method will convert a module name into a CS URL.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,14 +74,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "laboriosam",
-  "ProgramName": "Turner, Mitchell and Torphy",
-  "Action": "aliquam",
-  "ExtraParameters": "impedit"
+  "Language": "ipsa",
+  "ProgramName": "Rath Inc and Sons",
+  "Action": "architecto",
+  "ExtraParameters": "dignissimos"
 }
 ```
 

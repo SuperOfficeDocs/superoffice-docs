@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProductCategories
 Returns all ProductCategories in SuperOffice list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Value": "nihil",
-    "Tooltip": "quos",
+    "Id": 761,
+    "Value": "distinctio",
+    "Tooltip": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 140
       }
     }
   },
   {
-    "Id": 419,
-    "Value": "nihil",
-    "Tooltip": "quos",
+    "Id": 761,
+    "Value": "distinctio",
+    "Tooltip": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 140
       }
     }
   }

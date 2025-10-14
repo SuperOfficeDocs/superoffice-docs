@@ -15,6 +15,7 @@ Retrieve a stream to a mail template based on its name.
 
 
 Sanitizes the contents if possible.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -77,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Schulist-Bergstrom",
+  "TemplateName": "Haley Group",
   "AllowPersonal": false,
-  "UiCulture": "exercitationem"
+  "UiCulture": "quo"
 }
 ```
 

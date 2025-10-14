@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Hermann Inc and Sons",
-  "Tooltip": "eveniet",
+  "Id": 933,
+  "Name": "Ward LLC",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 67,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 198,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false
+  "ListType": "hic",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 458,
-  "Name": "Mohr Group",
-  "Tooltip": "perferendis",
+  "Id": 743,
+  "Name": "Boyle, Raynor and Bahringer",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 269,
-  "IsCustomList": false,
+  "Rank": 290,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "recusandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

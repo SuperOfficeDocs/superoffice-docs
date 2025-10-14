@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Loading default values into a new EMailEnvelope.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -67,7 +70,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,45 +80,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 703,
-  "MessageId": "perferendis",
-  "Subject": "est",
+  "ServerId": 3,
+  "MessageId": "qui",
+  "Subject": "qui",
   "From": null,
   "To": [
     {
-      "ContactId": 75,
-      "ContactName": "Bosco Group",
-      "PersonId": 214,
-      "PersonName": "Stehr, Douglas and Hintz",
-      "AssociateId": 752,
-      "Address": "nihil",
-      "EmailId": 545,
+      "ContactId": 498,
+      "ContactName": "Pagac, Marvin and Leffler",
+      "PersonId": 633,
+      "PersonName": "O'Hara, Prosacco and Becker",
+      "AssociateId": 930,
+      "Address": "soluta",
+      "EmailId": 504,
       "DuplicatePersonIds": [
-        787,
-        522
+        959,
+        308
       ],
-      "Name": "Thiel-Simonis",
+      "Name": "Rutherford Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldType": "System.String",
+          "FieldLength": 605
         }
       }
     }
   ],
-  "Sent": "1998-07-27T11:24:48.0626591+02:00",
+  "Sent": "2001-08-11T03:40:46.8123923+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 47,
+  "Size": 220,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetMyWindowPosSizes
 Gets the window and dialog position and size settings belonging to the currently logged on user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,23 +89,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sequi",
-    "PersonId": 936,
-    "AssociateId": 175,
-    "ExtraId": 470,
-    "ExtraInfo": "eaque",
-    "Height": 580,
-    "LeftX": 615,
+    "OwnerWindow": "reprehenderit",
+    "PersonId": 698,
+    "AssociateId": 287,
+    "ExtraId": 564,
+    "ExtraInfo": "autem",
+    "Height": 128,
+    "LeftX": 183,
     "State": "Maximized",
-    "UpperY": 102,
-    "Width": 2,
-    "WindowPosSizeId": 198,
+    "UpperY": 397,
+    "Width": 962,
+    "WindowPosSizeId": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 62
       }
     }
   }

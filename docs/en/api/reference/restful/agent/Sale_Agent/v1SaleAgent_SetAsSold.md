@@ -15,6 +15,7 @@ Change the status of one or more Sales to Sold.
 
 
 Note that this does not mark them as Completed.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    366,
-    330
+    856,
+    841
   ]
 }
 ```

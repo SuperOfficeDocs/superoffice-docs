@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/RemoveLicenses
 Remove all user licenses.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -71,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 8
+  "AssociateId": 52
 }
 ```
 

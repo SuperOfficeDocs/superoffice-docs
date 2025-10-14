@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleStakeholder
 Gets a SaleStakeholder object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=101
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=643
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,31 +98,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hills, Schimmel and Erdman",
-  "Comment": "unde",
-  "StakeholderRoleId": 231,
-  "CountryId": 863,
-  "PersonId": 777,
-  "EmailDescription": "mabel@flatleyzemlak.com",
-  "EmailId": 851,
-  "EmailAddress": "ashton@orn.com",
-  "PhoneId": 802,
-  "ContactName": "Nader Inc and Sons",
-  "ContactId": 430,
-  "SaleId": 752,
-  "Mrmrs": "veritatis",
-  "Firstname": "Maddison",
-  "MiddleName": "Anderson-Kshlerin",
-  "Lastname": "Schmidt",
-  "SaleStakeholderId": 570,
-  "Rank": 46,
-  "Phone": "(042)286-9647",
+  "StakeholderRoleName": "Feeney-Veum",
+  "Comment": "sed",
+  "StakeholderRoleId": 897,
+  "CountryId": 955,
+  "PersonId": 240,
+  "EmailDescription": "maverick@waters.co.uk",
+  "EmailId": 572,
+  "EmailAddress": "marlene@keeling.info",
+  "PhoneId": 814,
+  "ContactName": "Mann-Rice",
+  "ContactId": 983,
+  "SaleId": 985,
+  "Mrmrs": "quidem",
+  "Firstname": "Scotty",
+  "MiddleName": "Smitham, Schinner and Stiedemann",
+  "Lastname": "Schuster",
+  "SaleStakeholderId": 104,
+  "Rank": 783,
+  "Phone": "964.317.5482",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 963
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/UpdateRow
 Update a row in a table
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,15 +69,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brown, Ward and Kunde",
-  "Id": 468,
+  "TableName": "Kuhlman Group",
+  "Id": 123,
   "Values": {
-    "Values1": "perspiciatis",
-    "Values2": "ipsum"
+    "Values1": "accusamus",
+    "Values2": "eaque"
   }
 }
 ```

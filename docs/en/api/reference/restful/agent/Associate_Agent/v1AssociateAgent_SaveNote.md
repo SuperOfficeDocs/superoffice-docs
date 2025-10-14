@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/SaveNote
 Saves an array of strings(notepad pages).
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/Associate/SaveNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 405,
+  "AssociateId": 787,
   "Note": [
-    "quibusdam",
-    "iure"
+    "nobis",
+    "minima"
   ]
 }
 ```

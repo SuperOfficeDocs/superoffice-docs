@@ -15,6 +15,7 @@ Get all available connections.
 
 
 Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -93,54 +94,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 108,
-    "ERPName": "Roberts-Kunde",
-    "DisplayName": "Kling Inc and Sons",
-    "DisplayDescription": "Robust dynamic installation",
-    "Rank": 315,
-    "ConnectorName": "Wiza, Fahey and Weber",
-    "ErpConnectionId": 469,
-    "ExtraData": "itaque",
+    "QuoteConnectionId": 193,
+    "ERPName": "Grady LLC",
+    "DisplayName": "Robel Group",
+    "DisplayDescription": "Compatible mission-critical structure",
+    "Rank": 842,
+    "ConnectorName": "Krajcik, Botsford and Haley",
+    "ErpConnectionId": 168,
+    "ExtraData": "quia",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 715,
-        "ERPPriceListKey": "recusandae",
-        "QuoteConnectionId": 594,
-        "Name": "Barrows-Heathcote",
-        "Description": "Adaptive eco-centric matrices",
-        "Currency": "et",
-        "CurrencyName": "Johns-Schaefer",
-        "ValidFrom": "1999-03-10T11:24:48.5313897+01:00",
-        "ValidTo": "2012-06-03T11:24:48.5313897+02:00",
+        "PriceListId": 735,
+        "ERPPriceListKey": "eaque",
+        "QuoteConnectionId": 936,
+        "Name": "Krajcik, Lang and Runte",
+        "Description": "Cloned cohesive pricing structure",
+        "Currency": "dolore",
+        "CurrencyName": "Willms, Jacobs and O'Kon",
+        "ValidFrom": "2021-07-31T03:40:47.5629587+02:00",
+        "ValidTo": "2025-06-08T03:40:47.5629587+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 733
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      859,
-      700
+      725,
+      123
     ],
     "AssociateAccessIds": [
-      516,
-      691
+      631,
+      785
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 301
       }
     }
   }

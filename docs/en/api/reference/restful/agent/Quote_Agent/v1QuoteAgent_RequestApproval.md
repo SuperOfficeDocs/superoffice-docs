@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/RequestApproval
 Notifies specified associate that this quote needs approval.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,13 +83,13 @@ OK
 POST /api/v1/Agents/Quote/RequestApproval
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 38,
-  "AssociateId": 865,
-  "Comment": "et"
+  "QuoteVersionId": 410,
+  "AssociateId": 62,
+  "Comment": "non"
 }
 ```
 
@@ -99,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "distinctio",
-  "TechExplanation": "quia",
-  "ErrorCode": "velit",
+  "UserExplanation": "vel",
+  "TechExplanation": "in",
+  "ErrorCode": "non",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -109,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 441
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/DeleteWorkflowGoal
 Deletes the WorkflowGoal
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the WorkflowGoal
 | workflowGoalId | int32 | **Required** The identity of the WorkflowGoal |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?workflowGoalId=681
+POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?workflowGoalId=262
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

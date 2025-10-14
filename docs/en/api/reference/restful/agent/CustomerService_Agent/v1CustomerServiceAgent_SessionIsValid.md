@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/SessionIsValid
 Check if a CS session is valid
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CsSessionKey": "consectetur"
+  "CsSessionKey": "inventore"
 }
 ```
 

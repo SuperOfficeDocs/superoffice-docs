@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Preference/SaveTabOrders
 ```
 
-
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -71,16 +71,16 @@ Content-Type: application/json; charset=utf-8
 {
   "TabOrders": [
     {
-      "TabOrderId": 772,
-      "TabName": "Hettinger Inc and Sons",
-      "Order": "sed",
-      "AssociateId": 428
+      "TabOrderId": 595,
+      "TabName": "Bayer-Becker",
+      "Order": "inventore",
+      "AssociateId": 239
     },
     {
-      "TabOrderId": 772,
-      "TabName": "Hettinger Inc and Sons",
-      "Order": "sed",
-      "AssociateId": 428
+      "TabOrderId": 595,
+      "TabName": "Bayer-Becker",
+      "Order": "inventore",
+      "AssociateId": 239
     }
   ]
 }

@@ -28,7 +28,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=eaque
+GET /api/v1/List/Country/MDOItems?query=eligendi
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Leffler, Brown and Macejkovic",
-    "ToolTip": "Ab expedita voluptates eveniet omnis ut.",
-    "Deleted": true,
-    "Rank": 719,
-    "Type": "error",
+    "Id": 791,
+    "Name": "Balistreri LLC",
+    "ToolTip": "Voluptatum mollitia sed quia architecto necessitatibus quasi.",
+    "Deleted": false,
+    "Rank": 12,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Deckow, Breitenberg and Littel",
-        "ToolTip": "Molestias amet rerum temporibus autem ratione aut ipsum.",
-        "Deleted": true,
-        "Rank": 642,
-        "Type": "ut",
+        "Id": 141,
+        "Name": "Baumbach Group",
+        "ToolTip": "Non quo at ratione.",
+        "Deleted": false,
+        "Rank": 728,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 27,
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "repellat",
-        "FullName": "Cali Will",
+        "IconHint": "dolor",
+        "ColorBlock": 760,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "sed",
+        "FullName": "Manuel Greg Nicolas IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 695
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 55,
-    "ExtraInfo": "et",
-    "StyleHint": "asperiores",
-    "FullName": "Prof. Amelie Farrell",
+    "IconHint": "repellat",
+    "ColorBlock": 296,
+    "ExtraInfo": "ea",
+    "StyleHint": "sit",
+    "FullName": "Talon Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 135
       }
     }
   }

@@ -80,34 +80,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Johns, Torphy and Pollich",
-  "AssociateId": 379,
-  "DetailsTable": 405,
-  "DetailsRecord": 975,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 388,
+  "Name": "Rolfson, Jacobs and Kunde",
+  "AssociateId": 601,
+  "DetailsTable": 500,
+  "DetailsRecord": 120,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vero",
-    "ParameterObject2": "nostrum"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "vel"
   },
-  "LastStarted": "2005-08-23T11:24:53.7343025+02:00",
-  "Created": "2001-07-31T11:24:53.7343025+02:00",
-  "StartCount": 31,
-  "DatabaseSerialNumber": "989808",
-  "Context": "rerum",
-  "Result": "quibusdam",
+  "LastStarted": "2001-07-13T03:40:56.4303339+02:00",
+  "Created": "2011-10-28T03:40:56.4303339+02:00",
+  "StartCount": 418,
+  "DatabaseSerialNumber": "848178",
+  "Context": "voluptatem",
+  "Result": "et",
   "State": "All",
-  "Description": "Digitized encompassing system engine",
-  "Response": "omnis",
-  "Request": "aspernatur",
-  "ProgressDescription": "Synergistic neutral structure",
-  "ProgressPercent": 34,
-  "FileName": "Renner-Smith",
+  "Description": "Virtual client-driven contingency",
+  "Response": "magnam",
+  "Request": "omnis",
+  "ProgressDescription": "Extended methodical application",
+  "ProgressPercent": 644,
+  "FileName": "Padberg Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-21
+621
 ```

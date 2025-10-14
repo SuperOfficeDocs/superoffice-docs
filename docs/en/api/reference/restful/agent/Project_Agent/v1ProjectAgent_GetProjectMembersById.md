@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectMembersById
 Returns an array of project members
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -101,8 +103,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    797,
-    465
+    304,
+    240
   ]
 }
 ```
@@ -115,35 +117,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 159,
-    "ContactId": 875,
-    "ProjectId": 555,
-    "ContactName": "Roberts, Veum and Mitchell",
+    "ProjectmemberId": 452,
+    "ContactId": 783,
+    "ProjectId": 726,
+    "ContactName": "Cummings Inc and Sons",
     "ContactDepartment": "",
-    "ProjectName": "Schoen, O'Conner and Lowe",
-    "EmailId": 888,
-    "EmailAddress": "darryl_beer@dach.us",
-    "CountryId": 711,
-    "Firstname": "Montana",
-    "MiddleName": "Muller-Hilll",
-    "Lastname": "King",
-    "PersonId": 639,
-    "Mrmrs": "sed",
-    "ProjectMemberTypeName": "Fritsch-Tromp",
-    "Phone": "1-680-850-3692 x820",
-    "PhoneId": 315,
-    "ProjectMemberTypeId": 312,
-    "EmailAddressName": "angelita@heaney.ca",
-    "Comment": "hic",
-    "FullName": "Gerhard Schmeler",
-    "Registered": "2014-09-11T11:24:48.5001409+02:00",
-    "Updated": "2018-12-31T11:24:48.5001409+01:00",
+    "ProjectName": "Daugherty-Gottlieb",
+    "EmailId": 851,
+    "EmailAddress": "adella@sauerherman.uk",
+    "CountryId": 407,
+    "Firstname": "Marcel",
+    "MiddleName": "Schuster Group",
+    "Lastname": "Kunde",
+    "PersonId": 659,
+    "Mrmrs": "nihil",
+    "ProjectMemberTypeName": "Pagac LLC",
+    "Phone": "725.527.2702 x054",
+    "PhoneId": 407,
+    "ProjectMemberTypeId": 156,
+    "EmailAddressName": "rogers@jenkins.biz",
+    "Comment": "occaecati",
+    "FullName": "Haley Ziemann",
+    "Registered": "2010-11-15T03:40:47.5161986+01:00",
+    "Updated": "2016-06-05T03:40:47.5161986+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 171
       }
     }
   }

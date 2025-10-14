@@ -15,6 +15,7 @@ POST /api/v1/Agents/Chat/PickUpFirstChatSession
 
 
 The welcome message is sent to the customer.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,29 +109,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 321,
-  "TopicId": 253,
+  "ChatSessionId": 612,
+  "TopicId": 777,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quaerat",
-  "CustomerHost": "corporis",
-  "CustomerName": "Mayer LLC",
-  "CustomerEmail": "eino@ritchie.com",
-  "CustomerPhone": "(365)577-2208",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Klocko-Moore",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "McClure-Hoeger",
+  "CustomerEmail": "nikki_schamberger@cassin.co.uk",
+  "CustomerPhone": "830.207.3318 x12972",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Haley Group",
   "Status": "Closed",
-  "FirstMessage": "iure",
-  "LastMessage": "ipsam",
-  "WhenRequested": "2018-06-26T11:24:47.6876742+02:00",
-  "WhenStarted": "1999-04-13T11:24:47.6876742+02:00",
-  "WhenEnded": "2022-07-28T11:24:47.6876742+02:00",
-  "WhenIdle": "2016-01-21T11:24:47.6876742+01:00",
-  "WhenFetched": "2000-09-22T11:24:47.6876742+02:00",
-  "SessionKey": "odit",
-  "InitialQueuePos": 370,
-  "AlertLevel": 548,
-  "Rank": 64,
+  "FirstMessage": "ipsam",
+  "LastMessage": "iure",
+  "WhenRequested": "2018-06-11T03:40:46.1702115+02:00",
+  "WhenStarted": "2018-05-12T03:40:46.1702115+02:00",
+  "WhenEnded": "2006-03-17T03:40:46.1702115+01:00",
+  "WhenIdle": "2020-03-07T03:40:46.1702115+01:00",
+  "WhenFetched": "2001-07-13T03:40:46.1702115+02:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 360,
+  "AlertLevel": 883,
+  "Rank": 531,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -138,13 +139,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 427,
+  "Rating": 684,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 1000
     }
   }
 }

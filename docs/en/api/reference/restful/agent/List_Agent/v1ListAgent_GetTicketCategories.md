@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetTicketCategories
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 242,
-    "ParentId": 969,
-    "Name": "Franecki Inc and Sons",
-    "Fullname": "rerum",
-    "CategoryMaster": 587,
+    "TicketCategoryId": 386,
+    "ParentId": 723,
+    "Name": "Bechtelar LLC",
+    "Fullname": "odit",
+    "CategoryMaster": 201,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Abshire-Bahringer",
+    "ExternalName": "Greenholt, Lynch and Greenholt",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 810,
-    "ReplyTemplate": 232,
-    "NotificationEmail": "annabel.marquardt@considinequigley.com",
+    "AssignmentLag": 612,
+    "ReplyTemplate": 107,
+    "NotificationEmail": "colin.damore@bednar.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 354,
+    "EffectiveReplyTemplateId": 860,
     "ExtraFields": {
-      "ExtraFields1": "tempore",
-      "ExtraFields2": "quos"
+      "ExtraFields1": "voluptate",
+      "ExtraFields2": "vel"
     },
     "CustomFields": {
-      "CustomFields1": "autem",
-      "CustomFields2": "voluptatem"
+      "CustomFields1": "exercitationem",
+      "CustomFields2": "doloremque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldLength": 829
       }
     }
   }

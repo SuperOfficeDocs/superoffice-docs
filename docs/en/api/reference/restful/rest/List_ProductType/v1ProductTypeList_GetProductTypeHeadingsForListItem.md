@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Dickinson Inc and Sons",
-    "ToolTip": "Odio occaecati beatae.",
-    "Deleted": false,
-    "Rank": 842,
-    "Type": "praesentium",
-    "ColorBlock": 174,
-    "IconHint": "in",
+    "Id": 126,
+    "Name": "Zulauf-Jerde",
+    "ToolTip": "Beatae esse a temporibus et.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "reprehenderit",
+    "ColorBlock": 411,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2004-02-26T11:24:54.0155411+01:00",
+    "LastChanged": "2007-06-29T03:40:57.0246001+02:00",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Swift Inc and Sons",
-        "ToolTip": "Harum aperiam.",
+        "Id": 704,
+        "Name": "Robel, Quitzon and Rowe",
+        "ToolTip": "Ex aspernatur iusto nulla tempora aperiam iste.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "consequuntur",
-        "ColorBlock": 796,
-        "IconHint": "ut",
+        "Rank": 251,
+        "Type": "molestiae",
+        "ColorBlock": 956,
+        "IconHint": "ratione",
         "Selected": true,
-        "LastChanged": "2012-03-20T11:24:54.0155411+01:00",
+        "LastChanged": "2009-04-05T03:40:57.0246001+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "nesciunt",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Noemi Crooks",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Gerardo Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 98
+            "FieldType": "System.Int32",
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "autem",
+    "ExtraInfo": "ut",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Miss Chloe Harvey Jr.",
+    "FullName": "Eino Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 862
       }
     }
   }

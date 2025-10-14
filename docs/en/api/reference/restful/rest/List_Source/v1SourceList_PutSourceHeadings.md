@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 909,
-    "Name": "Rogahn Inc and Sons",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "Rank": 261,
-    "UdListDefinitionId": 702
+    "HeadingId": 980,
+    "Name": "Nader-Kovacek",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 436,
+    "UdListDefinitionId": 708
   },
   {
-    "HeadingId": 909,
-    "Name": "Rogahn Inc and Sons",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "Rank": 261,
-    "UdListDefinitionId": 702
+    "HeadingId": 980,
+    "Name": "Nader-Kovacek",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 436,
+    "UdListDefinitionId": 708
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 422,
-    "Name": "Rath, Bartell and Mills",
-    "Tooltip": "quo",
+    "HeadingId": 300,
+    "Name": "Dooley LLC",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 495,
-    "UdListDefinitionId": 366,
+    "Rank": 46,
+    "UdListDefinitionId": 653,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

@@ -91,7 +91,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 790,
-    "ColumnId": 768,
-    "FieldDefault": "officiis",
-    "FieldHeight": 884,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 891,
-    "FieldTop": 668,
+    "UDefFieldId": 555,
+    "ColumnId": 505,
+    "FieldDefault": "in",
+    "FieldHeight": 334,
+    "FieldLabel": "nemo",
+    "FieldLeft": 664,
+    "FieldTop": 556,
     "FieldType": "Checkbox",
-    "FieldWidth": 797,
-    "FormatMask": "similique",
+    "FieldWidth": 485,
+    "FormatMask": "est",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 527,
-    "LabelLeft": 736,
-    "LabelTop": 930,
-    "LabelWidth": 283,
-    "LastVersionId": 762,
-    "ListTableId": 751,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 488,
+    "LabelLeft": 129,
+    "LabelTop": 827,
+    "LabelWidth": 101,
+    "LastVersionId": 544,
+    "ListTableId": 634,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 845,
-    "ProgId": "voluptas",
+    "Page1LineNo": 157,
+    "ProgId": "accusantium",
     "IsReadOnly": false,
-    "ShortLabel": "perspiciatis",
-    "TabOrder": 802,
-    "TextLength": 367,
-    "Tooltip": "minus",
-    "UdefIdentity": 222,
-    "UDListDefinitionId": 195,
+    "ShortLabel": "sit",
+    "TabOrder": 231,
+    "TextLength": 321,
+    "Tooltip": "amet",
+    "UdefIdentity": 932,
+    "UDListDefinitionId": 524,
     "Justification": "Center",
-    "Version": 994,
-    "TemplateVariableName": "Dooley-Hahn",
+    "Version": 675,
+    "TemplateVariableName": "Murray-Nitzsche",
     "HasBeenPublished": false,
-    "MdoListName": "Batz-Spinka",
+    "MdoListName": "Wisozk-Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldLength": 174
       }
     }
   }

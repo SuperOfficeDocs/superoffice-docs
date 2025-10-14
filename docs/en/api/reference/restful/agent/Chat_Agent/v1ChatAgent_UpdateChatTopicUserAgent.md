@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Update a user's role in a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,12 +81,12 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 147,
-  "Username": "alias",
+  "ChatTopicId": 143,
+  "Username": "rerum",
   "Useragent": null
 }
 ```
@@ -96,11 +98,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 273,
+  "TopicId": 690,
   "User": null,
   "CanListen": false,
-  "CanRespond": false,
-  "CanManage": false,
+  "CanRespond": true,
+  "CanManage": true,
   "CanNotify": true
 }
 ```

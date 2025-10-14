@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
 Save the quote version number if it is valid
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersionNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 722,
-  "Number": "1066400"
+  "QuoteVersionId": 366,
+  "Number": "1004197"
 }
 ```
 

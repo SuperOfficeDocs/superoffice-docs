@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 Checks whether the core html templates are customized
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

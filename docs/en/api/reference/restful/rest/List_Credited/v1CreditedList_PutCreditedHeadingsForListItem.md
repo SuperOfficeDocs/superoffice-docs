@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Runolfsson-Cremin",
-    "ToolTip": "Qui eaque voluptas nobis.",
-    "Deleted": true,
-    "Rank": 717,
-    "Type": "beatae",
-    "ColorBlock": 391,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2016-09-15T11:24:53.9061703+02:00",
+    "Id": 730,
+    "Name": "Bailey-Rau",
+    "ToolTip": "Dolorem illo qui dolorem sed laborum.",
+    "Deleted": false,
+    "Rank": 938,
+    "Type": "eligendi",
+    "ColorBlock": 662,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2009-10-18T03:40:56.790106+02:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Trantow-Hane",
-        "ToolTip": "Corporis ea.",
-        "Deleted": false,
-        "Rank": 126,
-        "Type": "optio",
-        "ColorBlock": 439,
-        "IconHint": "corrupti",
+        "Id": 678,
+        "Name": "Prosacco, Streich and Ward",
+        "ToolTip": "Dolorem ut.",
+        "Deleted": true,
+        "Rank": 119,
+        "Type": "provident",
+        "ColorBlock": 858,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2017-06-03T11:24:53.9061703+02:00",
+        "LastChanged": "2009-05-12T03:40:56.790106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Mrs. Jerod Gerardo Witting II"
+        "ExtraInfo": "enim",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Amya King"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "impedit",
+    "ExtraInfo": "vero",
+    "StyleHint": "culpa",
     "Hidden": true,
-    "FullName": "Fay Pagac"
+    "FullName": "Prof. Jaeden Luettgen"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Dicki Group",
-    "ToolTip": "Saepe autem nesciunt quisquam rerum blanditiis praesentium.",
+    "Id": 586,
+    "Name": "Bayer Group",
+    "ToolTip": "Minima assumenda voluptatem.",
     "Deleted": false,
-    "Rank": 319,
-    "Type": "repellendus",
-    "ColorBlock": 744,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2013-11-09T11:24:53.9061703+01:00",
+    "Rank": 376,
+    "Type": "et",
+    "ColorBlock": 735,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2019-07-21T03:40:56.790106+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Luettgen Group",
-        "ToolTip": "Atque et.",
+        "Id": 407,
+        "Name": "Medhurst, Feeney and Barton",
+        "ToolTip": "Accusamus recusandae ratione ut.",
         "Deleted": true,
-        "Rank": 437,
-        "Type": "omnis",
-        "ColorBlock": 789,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2022-08-03T11:24:53.9061703+02:00",
+        "Rank": 570,
+        "Type": "iste",
+        "ColorBlock": 159,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2009-04-11T03:40:56.790106+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Stanford Johns",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Joy Walker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 559
+            "FieldType": "System.Int32",
+            "FieldLength": 119
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Miss Aaliyah Hettie Effertz DDS",
+    "ExtraInfo": "numquam",
+    "StyleHint": "voluptates",
+    "Hidden": true,
+    "FullName": "Kasey Greenfelder III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 915
       }
     }
   }

@@ -15,6 +15,7 @@ Get a list of foreignkeys ('app.
 
 
 device.key') and their values ('123') that belong to the specified entity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "dicta",
-  "EntityId": 435
+  "EntityType": "magni",
+  "EntityId": 922
 }
 ```
 
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatum",
-  "2": "nostrum"
+  "1": "autem",
+  "2": "quam"
 }
 ```

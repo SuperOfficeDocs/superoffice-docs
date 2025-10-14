@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Return information about a particular custom field (user-defined + extra) on a particular table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,12 +88,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenfelder Group",
-  "FieldName": "Casper, Dooley and Bailey"
+  "TableName": "Walter LLC",
+  "FieldName": "Kilback, Gibson and Kihn"
 }
 ```
 
@@ -103,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wiegand, Howe and Kuhic",
-  "DisplayName": "Nicolas, Barton and Bogan",
-  "Description": "Cross-group reciprocal structure",
-  "ShortLabel": "assumenda",
+  "FieldName": "Ferry LLC",
+  "DisplayName": "Conn-Boyle",
+  "Description": "Virtual high-level utilisation",
+  "ShortLabel": "laboriosam",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": true,
+  "HideField": true,
+  "IsIndexed": false,
+  "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 944,
-  "TemplateVariableName": "Stracke, Hilll and Stark"
+  "IsExternal": true,
+  "IsDisplayField": false,
+  "Rank": 969,
+  "TemplateVariableName": "Anderson-Harris"
 }
 ```

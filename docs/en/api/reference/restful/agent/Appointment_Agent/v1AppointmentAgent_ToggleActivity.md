@@ -14,7 +14,8 @@ POST /api/v1/Agents/Appointment/ToggleActivity
 Toggle the completed status for an activity.
 
 
-Activity may be sale, document or appointment. The changes are saved immediately.
+Activity may be sale, document or appointment. The changes are saved immediately. 
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityIdentifier": "consequatur"
+  "ActivityIdentifier": "aspernatur"
 }
 ```
 

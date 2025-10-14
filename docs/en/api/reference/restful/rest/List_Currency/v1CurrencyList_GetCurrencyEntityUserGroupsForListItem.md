@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "McDermott Inc and Sons",
-    "ToolTip": "Eius sed.",
+    "Id": 264,
+    "Name": "Rice Group",
+    "ToolTip": "Sed voluptas est voluptas illum ipsum.",
     "Deleted": false,
-    "Rank": 754,
-    "Type": "tempora",
-    "ColorBlock": 15,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2006-11-26T11:24:53.9061703+01:00",
+    "Rank": 190,
+    "Type": "magnam",
+    "ColorBlock": 482,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2024-03-19T03:40:56.805732+01:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Breitenberg-Purdy",
-        "ToolTip": "Magnam nostrum qui rem quia animi exercitationem.",
+        "Id": 736,
+        "Name": "Roob Inc and Sons",
+        "ToolTip": "Nostrum sunt qui et maiores enim ut illo.",
         "Deleted": true,
-        "Rank": 44,
-        "Type": "aut",
-        "ColorBlock": 266,
-        "IconHint": "ea",
+        "Rank": 287,
+        "Type": "odio",
+        "ColorBlock": 251,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2020-02-29T11:24:53.9061703+01:00",
+        "LastChanged": "2005-11-17T03:40:56.805732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Hallie Funk",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Keshawn Antoinette Shields I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldType": "System.String",
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Jermey Stehr",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "aperiam",
+    "Hidden": false,
+    "FullName": "Jaylon Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 662
       }
     }
   }

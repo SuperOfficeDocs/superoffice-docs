@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailSOInfo
 Gets a EMailSOInfo object.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -29,7 +32,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=954
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=590
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -77,7 +80,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,20 +90,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 579,
-  "AppointmentId": 8,
-  "ProjectId": 348,
-  "SaleId": 222,
+  "DocumentId": 311,
+  "AppointmentId": 776,
+  "ProjectId": 6,
+  "SaleId": 216,
   "Archived": true,
-  "ArchivedAt": "2022-08-12T11:24:48.0626591+02:00",
-  "ArchivedBy": 15,
-  "ArchivedDisplayName": "O'Reilly-Rolfson",
+  "ArchivedAt": "2012-01-28T03:40:46.8280185+01:00",
+  "ArchivedBy": 805,
+  "ArchivedDisplayName": "Heller Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

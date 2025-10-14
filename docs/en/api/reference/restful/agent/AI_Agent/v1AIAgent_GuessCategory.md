@@ -15,6 +15,10 @@ Given a ticket's id, guess the ticket category it should be placed in.
 
 
 Currently this is based on the first message in the ticket
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -71,11 +75,11 @@ OK
 POST /api/v1/Agents/AI/GuessCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 374
+  "TicketId": 898
 }
 ```
 
@@ -85,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-225
+608
 ```

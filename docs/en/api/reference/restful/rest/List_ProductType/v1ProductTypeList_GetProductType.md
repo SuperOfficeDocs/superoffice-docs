@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Cremin-Hand",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 577,
-  "Rank": 282,
+  "Id": 966,
+  "Name": "Howe-Zulauf",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 797,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 18
     }
   }
 }

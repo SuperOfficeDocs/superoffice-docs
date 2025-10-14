@@ -15,6 +15,7 @@ Get all chat topics which this user is a member of.
 
 
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -109,43 +110,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 641,
-    "Name": "Raynor Inc and Sons",
-    "Description": "User-centric bottom-line initiative",
-    "WelcomeMessage": "quo",
+    "ChatTopicId": 840,
+    "Name": "Streich-Labadie",
+    "Description": "Ergonomic logistical standardization",
+    "WelcomeMessage": "recusandae",
     "Language": null,
-    "LastAccept": "2024-03-04T11:24:47.7032984+01:00",
-    "SecondsPrAccept": 380,
-    "AlertRecipient": "et",
+    "LastAccept": "2025-05-22T03:40:46.2176794+02:00",
+    "SecondsPrAccept": 755,
+    "AlertRecipient": "vel",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "fugiat",
+    "CollectConsent": false,
+    "BadgeHeader": "veniam",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "porro",
-    "WarnNewChatMinutes": 415,
-    "WarnManagerNewChatMinutes": 161,
+    "CustomQueueText": "sit",
+    "WarnNewChatMinutes": 498,
+    "WarnManagerNewChatMinutes": 418,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 450,
-    "WarnManagerChatMessageMinutes": 863,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 900,
-    "OfflineFormQueueLength": 97,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "minima",
+    "WarnChatMessageMinutes": 283,
+    "WarnManagerChatMessageMinutes": 372,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 924,
+    "OfflineFormQueueLength": 106,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 988
       }
     }
   }

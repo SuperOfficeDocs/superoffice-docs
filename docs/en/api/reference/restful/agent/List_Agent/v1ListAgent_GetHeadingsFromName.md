@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetHeadingsFromName
 Gets headings for list resolved by the provided name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zulauf-O'Reilly"
+  "Name": "Heathcote LLC"
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Jacobson Group",
-    "Tooltip": "debitis",
+    "HeadingId": 256,
+    "Name": "Wintheiser, Frami and Cremin",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 195,
-    "UdListDefinitionId": 863,
+    "Rank": 485,
+    "UdListDefinitionId": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 679
       }
     }
   }

@@ -15,6 +15,7 @@ Returns the contacts where there has been activity since activityStartTime.
 
 
 If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,14 +92,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2024-05-21T11:24:47.7345473+02:00",
+  "ActivityStartTime": "2016-09-20T03:40:46.2644405+02:00",
   "ContactCategories": [
-    525,
-    841
+    241,
+    765
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -112,26 +113,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 574,
+    "ContactId": 727,
     "Department": "",
-    "OrgNr": "584237",
-    "Name": "Abshire, Rath and Bergnaum",
+    "OrgNr": "1376866",
+    "Name": "Greenfelder-Brown",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Margot Price",
+    "AssociateFullName": "Augustus Davis",
     "Action": "ActivityCompleted",
-    "ActionTime": "2024-09-18T11:24:47.7345473+02:00",
+    "ActionTime": "2019-05-25T03:40:46.2644405+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Reichert, Keebler and Keebler",
-    "ActionId": 974,
-    "PersonId": 339,
-    "ActivityPersonId": 235,
-    "AssociateId": 756,
+    "ActivityPersonName": "Glover-Ledner",
+    "ActionId": 458,
+    "PersonId": 954,
+    "ActivityPersonId": 529,
+    "AssociateId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

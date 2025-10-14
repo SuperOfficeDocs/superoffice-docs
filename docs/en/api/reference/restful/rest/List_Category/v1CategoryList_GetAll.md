@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Bechtelar Inc and Sons",
-    "Tooltip": "illum",
+    "Id": 257,
+    "Name": "Feest, Gerhold and Blanda",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 25,
-    "Rank": 631,
+    "UdListDefinitionId": 301,
+    "Rank": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 305
       }
     }
   }

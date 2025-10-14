@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "Stoltenberg Inc and Sons",
-  "Tooltip": "sit",
+  "Id": 929,
+  "Name": "Wisozk, Hills and West",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 705,
+  "Rank": 430,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloribus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,11 +109,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Frami Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 742,
+  "Id": 393,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "Rank": 42,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 572
     }
   }
 }

@@ -71,7 +71,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -119,12 +121,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |person/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
-|person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
-|person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
+|person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |person/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -223,12 +225,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
@@ -256,6 +258,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|contact/url/URLAddress|string|URL| x |
-|contact/url/URLDescription|string|Description| x |
-|contact/contactAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/url/URLAddress|string|URL| x |
+|contact/url/URLDescription|string|Description| x |
+|contact/contactAssociate/firstName|string|First name: Displays the contact's first name| x |
 |contact/contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contact/contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contact/contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -430,7 +433,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=person/personExtra/x_person_category_relation,person/correspondingAssociate/ejDisplayName
+GET /api/v1/archive/SaleStakeholder?$select=person/isStakeholder,person/personExtra/y_car/id,person/correspondingAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

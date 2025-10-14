@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo
 Deletes the UserDefinedFieldInfo
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the UserDefinedFieldInfo
 | userDefinedFieldInfoId | int32 | **Required** The identity of the UserDefinedFieldInfo |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=742
+POST /api/v1/Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo?userDefinedFieldInfoId=922
 ```
 
 

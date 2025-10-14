@@ -82,23 +82,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "Gulgowski-Green",
-  "Description": "Configurable 24/7 matrix",
-  "IncludeId": "nihil",
-  "Source": "eum",
-  "Registered": "2025-04-28T11:24:53.7811756+02:00",
-  "RegisteredBy": "non",
-  "Updated": "2021-01-27T11:24:53.7811756+01:00",
-  "UpdatedBy": "odio",
-  "Path": "necessitatibus",
+  "UniqueIdentifier": "neque",
+  "Name": "Crona-West",
+  "Description": "Digitized clear-thinking projection",
+  "IncludeId": "non",
+  "Source": "ducimus",
+  "Registered": "2024-04-09T03:40:56.5088462+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2007-02-21T03:40:56.5088462+01:00",
+  "UpdatedBy": "qui",
+  "Path": "provident",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

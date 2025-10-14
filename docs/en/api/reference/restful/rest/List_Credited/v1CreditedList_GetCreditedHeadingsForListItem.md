@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Swift Group",
-    "ToolTip": "Nihil ea rerum est dolores.",
+    "Id": 801,
+    "Name": "Bayer-Jewess",
+    "ToolTip": "Qui praesentium deserunt vel et.",
     "Deleted": false,
-    "Rank": 493,
-    "Type": "error",
-    "ColorBlock": 940,
-    "IconHint": "modi",
+    "Rank": 948,
+    "Type": "suscipit",
+    "ColorBlock": 4,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2002-03-23T11:24:53.9061703+01:00",
+    "LastChanged": "2010-05-01T03:40:56.790106+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Lowe Inc and Sons",
-        "ToolTip": "Enim quia facilis repellendus minus commodi.",
+        "Id": 488,
+        "Name": "Gibson, Oberbrunner and Runte",
+        "ToolTip": "Magnam illum similique enim soluta.",
         "Deleted": false,
-        "Rank": 227,
+        "Rank": 160,
         "Type": "quia",
-        "ColorBlock": 741,
-        "IconHint": "ad",
+        "ColorBlock": 361,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2006-06-18T11:24:53.9061703+02:00",
+        "LastChanged": "2006-01-24T03:40:56.790106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "culpa",
+        "ExtraInfo": "minima",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Ms. Rhoda Addison Abernathy",
+        "FullName": "Mia Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 477
+            "FieldType": "System.String",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Mr. Forest Jakayla Murphy Sr.",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Kailyn Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 283
+        "FieldType": "System.Int32",
+        "FieldLength": 865
       }
     }
   }

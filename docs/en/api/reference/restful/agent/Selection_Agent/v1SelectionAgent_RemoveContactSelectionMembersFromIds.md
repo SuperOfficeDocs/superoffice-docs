@@ -15,6 +15,7 @@ Removes members from the selection using a collection a selectionmember id's.
 
 
 Members can only be removed from single selection.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 468,
+  "SelectionId": 529,
   "SelectionMembersIds": [
-    891,
-    253
+    151,
+    79
   ]
 }
 ```

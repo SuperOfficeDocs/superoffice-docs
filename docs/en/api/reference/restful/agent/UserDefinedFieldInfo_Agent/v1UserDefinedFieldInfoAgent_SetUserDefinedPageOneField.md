@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 Sets a user defined fields as page one field.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,14 +70,14 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetUserDefinedPageOneField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UdefFieldId": 131,
-  "UserGroupId": 581,
-  "FieldLineNo": 571
+  "UdefFieldId": 407,
+  "UserGroupId": 86,
+  "FieldLineNo": 229
 }
 ```
 

@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Borer-Bernhard",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 337,
-    "Rank": 531,
+    "Id": 192,
+    "Name": "Jaskolski-Hahn",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 108,
+    "Rank": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 414
+        "FieldType": "System.Int32",
+        "FieldLength": 447
       }
     }
   }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Wehner Inc and Sons",
-    "ToolTip": "Perspiciatis deleniti dolorum ducimus nihil eveniet.",
-    "Deleted": true,
-    "Rank": 179,
-    "Type": "iste",
-    "ColorBlock": 13,
-    "IconHint": "dolorem",
+    "Id": 131,
+    "Name": "Conn, Ratke and Nicolas",
+    "ToolTip": "Quo maiores perspiciatis aperiam commodi et quas excepturi.",
+    "Deleted": false,
+    "Rank": 495,
+    "Type": "officia",
+    "ColorBlock": 113,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2021-05-11T11:24:53.890546+02:00",
+    "LastChanged": "2001-10-09T03:40:56.7588542+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Conn, Effertz and Fisher",
-        "ToolTip": "Deserunt nihil rerum consequatur illo.",
+        "Id": 745,
+        "Name": "Corwin-Douglas",
+        "ToolTip": "Consectetur est molestiae minima consequatur.",
         "Deleted": false,
-        "Rank": 74,
-        "Type": "qui",
-        "ColorBlock": 435,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2001-06-18T11:24:53.890546+02:00",
+        "Rank": 910,
+        "Type": "officia",
+        "ColorBlock": 934,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2011-03-22T03:40:56.7588542+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mr. Aaron Olson III",
+        "ExtraInfo": "provident",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Dayana Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Frida Nader",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "illo",
+    "Hidden": false,
+    "FullName": "Landen Jones Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldLength": 71
       }
     }
   }

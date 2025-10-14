@@ -15,6 +15,7 @@ Gets a Webhook object.
 
 
 Calls the Webhook agent service GetWebhook.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -88,7 +89,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,28 +99,28 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 960,
-  "Name": "Zboncak, Crist and Bradtke",
+  "WebhookId": 32,
+  "Name": "Marvin LLC",
   "Events": [
-    "quis",
-    "ducimus"
+    "ad",
+    "exercitationem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "animi",
+  "Secret": "iste",
   "State": "Active",
-  "Type": "sed",
+  "Type": "ducimus",
   "Headers": {
-    "Headers1": "repellat",
-    "Headers2": "qui"
+    "Headers1": "ut",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-11-25T11:24:53.8280427+01:00",
+  "Registered": "2013-05-11T03:40:56.6650985+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-09-03T11:24:53.8280427+02:00",
+  "Updated": "1999-11-26T03:40:56.6650985+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "tara.bernhard@considine.us",
+  "ErrorsEmail": "jayda_murphy@gibsoncremin.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",
     "Archive": "https://www.example.com/api/v1/contact"

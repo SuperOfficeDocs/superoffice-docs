@@ -73,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:Value xsi:type="xsd:string"></Chat:Value>
       <Chat:Tooltip xsi:type="xsd:string"></Chat:Tooltip>
      </Chat:Language>
-     <Chat:LastAccept xsi:type="xsd:dateTime">2025-09-19T09:22:33Z</Chat:LastAccept>
+     <Chat:LastAccept xsi:type="xsd:dateTime">2025-10-14T01:38:21Z</Chat:LastAccept>
      <Chat:SecondsPrAccept xsi:type="xsd:int">0</Chat:SecondsPrAccept>
      <Chat:AlertRecipient xsi:type="xsd:string"></Chat:AlertRecipient>
      <Chat:AlertTemplate xsi:type="Chat:ReplyTemplate">

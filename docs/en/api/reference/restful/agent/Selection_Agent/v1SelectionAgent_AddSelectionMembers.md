@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/AddSelectionMembers
 Add selection members to a static selection of type others than contacts.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 650,
+  "SelectionId": 690,
   "Ids": [
-    673,
-    172
+    868,
+    894
   ]
 }
 ```
@@ -88,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-473
+927
 ```

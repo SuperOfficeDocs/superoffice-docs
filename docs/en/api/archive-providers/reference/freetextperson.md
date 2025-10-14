@@ -81,7 +81,9 @@ as well as before any ORDER BY, are applied.
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -132,12 +134,12 @@ as well as before any ORDER BY, are applied.
 |restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
-|restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
+|restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
@@ -220,7 +222,9 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/personAssociateId|associate|Source - Our contact: Displays our contact| x |
 |personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory|listAny|Source - Category| x |
+|personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
 |personSourceRelation/personBusiness|listAny|Source - Business| x |
+|personSourceRelation/leadstatus|listAny|Source - Lead status| x |
 |personSourceRelation/personDeletedDate|datetime|Source - Deleted date: Deleted date|  |
 |personSourceRelation/hasCompany|bool|Source - Has company: The contact is associated with a company| x |
 |personSourceRelation/isProjectMember|bool|Source - Is project member: This person is a project member| x |
@@ -234,14 +238,14 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/personPersonRelation|listAny|Source - Contact-to-contact relation: Name of relation, not taking into account the relation direction| x |
 |personTargetRelation/personId|int|Target - DB ID: Displays the database ID of a contact| x |
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
-|personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
-|personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
-|personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
+|personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
+|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personTargetRelation/personHasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -278,7 +282,9 @@ as well as before any ORDER BY, are applied.
 |personTargetRelation/personAssociateId|associate|Target - Our contact: Displays our contact| x |
 |personTargetRelation/personAssociateFullName|associate|Target - Our contact - Full name: Displays our contact| x |
 |personTargetRelation/personCategory|listAny|Target - Category| x |
+|personTargetRelation/personCategoryGroup|listAny|Target - Category group| x |
 |personTargetRelation/personBusiness|listAny|Target - Business| x |
+|personTargetRelation/leadstatus|listAny|Target - Lead status| x |
 |personTargetRelation/personDeletedDate|datetime|Target - Deleted date: Deleted date|  |
 |personTargetRelation/hasCompany|bool|Target - Has company: The contact is associated with a company| x |
 |personTargetRelation/isProjectMember|bool|Target - Is project member: This person is a project member| x |
@@ -336,16 +342,16 @@ as well as before any ORDER BY, are applied.
 |correspondingAssociate/associateDbId|associate|ID| x |
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
 |correspondingAssociate/assocName|associate|User ID : User ID| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/assocTooltip|string|Description : Description|  |
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -370,6 +376,7 @@ as well as before any ORDER BY, are applied.
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
+|personContact/categoryGroup|listAny|Category group| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
@@ -439,6 +446,10 @@ as well as before any ORDER BY, are applied.
 |personContact/streetAddress/wgs84latitude|decimal|Street address - Latitude: Latitude| x |
 |personContact/streetAddress/wgs84longitude|decimal|Street address - Longitude: Longitude| x |
 |personContact/streetAddress/formattedAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/streetAddress/formattedMultiLineAddress| *None* |Street address - {formattedAddress}: {formattedAddress}|  |
 |personContact/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
 |personContact/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
@@ -446,10 +457,6 @@ as well as before any ORDER BY, are applied.
 |personContact/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |personContact/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |personContact/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |personContact/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |personContact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
@@ -543,6 +550,10 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/rank|int|User support contact - Rank: Displays a contact's current rank| x |
 |personContact/contactSupportPerson/birthdate| *None* |User support contact - Birthdate: Displays the contact's date of birth|  |
 |personContact/contactSupportPerson/associateType| *None* |User support contact - User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactSupportPerson/useAsMailingAddress|bool|User support contact - Use as postal address: Use as postal address| x |
 |personContact/contactSupportPerson/personSource|listAny|User support contact - Source: Source (Contact)| x |
 |personContact/contactSupportPerson/retired|bool|User support contact - Former employee: Indicates whether the contact has retired/left the company| x |
@@ -550,10 +561,6 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/birthMonth|int|User support contact - Birth month: Displays contact's birth month| x |
 |personContact/contactSupportPerson/birthDay|int|User support contact - Birth day: Displays contact's birth day (day of month)| x |
 |personContact/contactSupportPerson/kanaFirstName|string|User support contact - First name, kana: Contact's first name, in kana alphabet| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactSupportPerson/kanaLastName|string|User support contact - Last name, kana: Contact's last name, in kana alphabet| x |
 |personContact/contactSupportPerson/personUpdatedBy|associate|User support contact - Updated by: The user who last updated the data| x |
 |personContact/contactSupportPerson/personUpdatedByFullName|associate|User support contact - Updated by - Full name: The user who last updated the data| x |
@@ -570,7 +577,9 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |personContact/contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |personContact/contactSupportPerson/personCategory|listAny|User support contact - Category| x |
+|personContact/contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
 |personContact/contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
+|personContact/contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
 |personContact/contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |personContact/contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |personContact/contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -645,6 +654,10 @@ as well as before any ORDER BY, are applied.
 |personContact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |personContact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |personContact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |personContact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |personContact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
@@ -654,10 +667,6 @@ as well as before any ORDER BY, are applied.
 |personContact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |personContact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |personContact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personContact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |personContact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |personContact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
@@ -749,6 +758,10 @@ as well as before any ORDER BY, are applied.
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/createdBy|ejUser|Created by: Created by| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
 |request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
@@ -758,10 +771,6 @@ as well as before any ORDER BY, are applied.
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/fullName|string|Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
 |request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
@@ -853,6 +862,10 @@ as well as before any ORDER BY, are applied.
 |projectMembers/number|string|Number: Displays the project's number| x |
 |projectMembers/type|listAny|Project type: Displays the project's type| x |
 |projectMembers/status|listAny|Status: Displays the project's status| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
@@ -862,10 +875,6 @@ as well as before any ORDER BY, are applied.
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/registeredBy|associate|Registered by: The user who registered the data| x |
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -957,6 +966,10 @@ as well as before any ORDER BY, are applied.
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
@@ -966,10 +979,6 @@ as well as before any ORDER BY, are applied.
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -1058,7 +1067,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=email/emailDescription,personTargetRelation/personRegisteredBy,personTargetRelation/personActiveErpLinks,personContact/contactAssociate/firstName,personContact/contactSupportPerson/hasInfoText
+GET /api/v1/archive/FreetextPerson?$select=retired,personPrivate/formattedNumber,restrictionAddress/city,personContact/restrictionAddress/line2,personContact/restrictionAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

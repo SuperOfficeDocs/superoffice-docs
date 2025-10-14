@@ -15,6 +15,7 @@ Save this set of preferences.
 
 
 Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -74,16 +75,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "rem",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "consectetur",
-      "DisplayTooltip": "voluptas",
+      "DisplayValue": "alias",
+      "DisplayTooltip": "molestiae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 90,
-      "PrefDescId": 459,
-      "TableName": "Bartoletti, Medhurst and Reynolds",
-      "UserPreferenceId": 879
+      "TargetId": 581,
+      "PrefDescId": 284,
+      "TableName": "Cummings, Frami and Graham",
+      "UserPreferenceId": 873
     }
   ]
 }

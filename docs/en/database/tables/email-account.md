@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_account Table (486)
+# email\_account Table (487)
 
 Email account information
 
@@ -44,8 +44,8 @@ Email account information
 | Fields | Types | Description |
 |--------|-------|-------------|
 |email\_account\_id |PK |Clustered, Unique |
-|email\_address |String(255) |Unique |
 |associate\_id |FK |Index |
+|email\_address |String(255) |Index |
 
 ## Relationships
 

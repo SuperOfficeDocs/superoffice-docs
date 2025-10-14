@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Yundt-Beier",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 301,
+  "Id": 47,
+  "Name": "Walsh-Bailey",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 166,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "impedit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Haley Group",
-  "Tooltip": "molestiae",
+  "Id": 182,
+  "Name": "Simonis, Ledner and Harris",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 279,
+  "Rank": 788,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 817
     }
   }
 }

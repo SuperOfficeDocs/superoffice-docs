@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCategory
 Gets a Category object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Category object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategory?categoryId=771
+POST /api/v1/Agents/List/GetCategory?categoryId=898
 POST /api/v1/Agents/List/GetCategory?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 64,
-  "Value": "ut",
-  "Tooltip": "labore",
+  "Id": 741,
+  "Value": "sequi",
+  "Tooltip": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 371
     }
   }
 }

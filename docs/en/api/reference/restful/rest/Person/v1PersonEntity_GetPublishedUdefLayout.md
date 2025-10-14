@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 393,
-    "ColumnId": 435,
-    "FieldDefault": "harum",
-    "FieldHeight": 112,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 237,
-    "FieldTop": 745,
+    "UDefFieldId": 892,
+    "ColumnId": 745,
+    "FieldDefault": "et",
+    "FieldHeight": 213,
+    "FieldLabel": "ut",
+    "FieldLeft": 726,
+    "FieldTop": 349,
     "FieldType": "Checkbox",
-    "FieldWidth": 929,
-    "FormatMask": "optio",
+    "FieldWidth": 737,
+    "FormatMask": "aut",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 227,
-    "LabelLeft": 456,
-    "LabelTop": 844,
-    "LabelWidth": 61,
-    "LastVersionId": 208,
-    "ListTableId": 250,
+    "LabelHeight": 484,
+    "LabelLeft": 624,
+    "LabelTop": 940,
+    "LabelWidth": 737,
+    "LastVersionId": 991,
+    "ListTableId": 156,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 242,
-    "ProgId": "quos",
+    "Page1LineNo": 457,
+    "ProgId": "voluptas",
     "IsReadOnly": false,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 8,
-    "TextLength": 369,
-    "Tooltip": "totam",
-    "UdefIdentity": 937,
-    "UDListDefinitionId": 349,
+    "ShortLabel": "labore",
+    "TabOrder": 994,
+    "TextLength": 471,
+    "Tooltip": "nobis",
+    "UdefIdentity": 325,
+    "UDListDefinitionId": 729,
     "Justification": "Center",
-    "Version": 13,
-    "TemplateVariableName": "Roob-Keeling",
+    "Version": 673,
+    "TemplateVariableName": "Emard LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Jewess Inc and Sons",
+    "MdoListName": "Roob-Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 545
       }
     }
   }

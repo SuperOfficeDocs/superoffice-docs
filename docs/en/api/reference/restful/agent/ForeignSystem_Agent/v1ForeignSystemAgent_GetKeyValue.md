@@ -15,6 +15,7 @@ Gets the string value of a ForeignKey, that belongs to the specified device and 
 
 
 The table name and record ID must also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -75,15 +76,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lubowitz-O'Connell",
-  "DeviceName": "Crist LLC",
-  "KeyName": "VonRueden-Pagac",
-  "TableName": "Langworth, Davis and Larson",
-  "RecordId": 591
+  "ApplicationName": "Huel, Schoen and Tillman",
+  "DeviceName": "Bosco, Wolf and Huel",
+  "KeyName": "O'Kon-Kihn",
+  "TableName": "Sporer-Cruickshank",
+  "RecordId": 16
 }
 ```
 
@@ -93,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"est"
 ```

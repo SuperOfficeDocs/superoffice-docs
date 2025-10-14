@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -85,10 +87,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 261,
-  "StartDate": "2006-04-13T11:24:47.4064385+02:00",
-  "EndDate": "2021-05-11T11:24:47.4064385+02:00",
-  "RecurrenceCounter": 555,
+  "RecurrenceId": 329,
+  "StartDate": "2025-07-04T03:40:45.7793757+02:00",
+  "EndDate": "2023-10-20T03:40:45.7793757+02:00",
+  "RecurrenceCounter": 77,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-08-08T11:24:47.4064385+02:00",
-      "IsConflict": false,
-      "Description": "Reverse-engineered modular archive",
-      "DescriptionStyleHint": "Open-architected hybrid firmware",
-      "Tooltip": "eveniet"
+      "Date": "1999-07-04T03:40:45.7793757+02:00",
+      "IsConflict": true,
+      "Description": "De-engineered zero defect process improvement",
+      "DescriptionStyleHint": "Monitored mobile strategy",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2015-08-08T11:24:47.4064385+02:00",
-      "IsConflict": false,
-      "Description": "Reverse-engineered modular archive",
-      "DescriptionStyleHint": "Open-architected hybrid firmware",
-      "Tooltip": "eveniet"
+      "Date": "1999-07-04T03:40:45.7793757+02:00",
+      "IsConflict": true,
+      "Description": "De-engineered zero defect process improvement",
+      "DescriptionStyleHint": "Monitored mobile strategy",
+      "Tooltip": "ut"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

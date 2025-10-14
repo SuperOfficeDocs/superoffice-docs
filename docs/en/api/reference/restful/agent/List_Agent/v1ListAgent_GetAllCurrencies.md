@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllCurrencies
 Returns all currencies
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 494,
-    "Name": "Price-Ratke",
-    "Tooltip": "praesentium",
-    "Rank": 971,
-    "Rate": 10232.51,
-    "Units": 282.06,
-    "Deleted": false,
+    "CurrencyId": 358,
+    "Name": "Zieme-Durgan",
+    "Tooltip": "beatae",
+    "Rank": 472,
+    "Rate": 26670.34,
+    "Units": 21235.984,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

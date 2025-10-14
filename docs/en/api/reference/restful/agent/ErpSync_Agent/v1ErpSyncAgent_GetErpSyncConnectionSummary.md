@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Get a summary of the current ErpSync configuration/setup
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -81,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 890
+  "ErpSyncConnectionId": 768
 }
 ```
 
@@ -96,37 +99,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Hilpert Group",
-  "DisplayDescription": "Open-architected responsive groupware",
-  "Active": true,
+  "DisplayName": "Parker, Wilderman and Feil",
+  "DisplayDescription": "Focused non-volatile hardware",
+  "Active": false,
   "Deleted": false,
-  "LastSync": "2009-09-17T11:24:48.1251563+02:00",
+  "LastSync": "2018-04-11T03:40:46.9217741+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "facere",
-      "Mappings": "quam",
+      "Defaults": "recusandae",
+      "Mappings": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 323
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "facere",
-      "Mappings": "quam",
+      "Defaults": "recusandae",
+      "Mappings": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 323
         }
       }
     }
@@ -136,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 783
     }
   }
 }

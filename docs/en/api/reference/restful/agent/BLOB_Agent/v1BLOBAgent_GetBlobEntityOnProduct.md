@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Gets the blob entity that represents the product image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 653
+  "ProductId": 491
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 358,
-  "BlobSize": 217,
-  "Description": "Assimilated real-time project",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": false,
+  "BlobId": 604,
+  "BlobSize": 136,
+  "Description": "Public-key 6th generation productivity",
+  "ExtraInfo": "voluptas",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 246,
-  "CreatedDate": "2024-01-04T11:24:47.6251768+01:00",
-  "UpdatedDate": "1998-06-23T11:24:47.6251768+02:00",
+  "MimeType": "id",
+  "OriginalSize": 9,
+  "CreatedDate": "2003-05-20T03:40:46.0920806+02:00",
+  "UpdatedDate": "2015-10-22T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "impedit",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 838
     }
   }
 }

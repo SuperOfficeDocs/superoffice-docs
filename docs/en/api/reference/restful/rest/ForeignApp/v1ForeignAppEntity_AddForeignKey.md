@@ -84,18 +84,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "veniam",
-  "Value": "consequuntur",
-  "RecordId": 977,
-  "CreatedDate": "2021-03-22T11:24:53.2968202+01:00",
-  "UpdatedDate": "2002-08-08T11:24:53.2968202+02:00",
-  "UpdatedBy": "ea",
-  "CreatedBy": "repudiandae",
-  "TableName": "Heidenreich Group"
+  "Key": "id",
+  "Value": "error",
+  "RecordId": 202,
+  "CreatedDate": "2006-01-21T03:40:55.7886484+01:00",
+  "UpdatedDate": "2008-11-27T03:40:55.7886484+01:00",
+  "UpdatedBy": "praesentium",
+  "CreatedBy": "aut",
+  "TableName": "Roob-Feeney"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "laudantium",
-  "RecordId": 401,
-  "CreatedDate": "2016-06-08T11:24:53.2968202+02:00",
-  "UpdatedDate": "2003-04-03T11:24:53.2968202+02:00",
-  "UpdatedBy": "quidem",
-  "CreatedBy": "quaerat",
-  "TableName": "Parker Inc and Sons",
+  "Key": "consequatur",
+  "Value": "illum",
+  "RecordId": 960,
+  "CreatedDate": "2016-08-16T03:40:55.7886484+02:00",
+  "UpdatedDate": "2025-08-14T03:40:55.7886484+02:00",
+  "UpdatedBy": "sequi",
+  "CreatedBy": "ipsum",
+  "TableName": "Gerhold, Veum and Conroy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 775
     }
   }
 }

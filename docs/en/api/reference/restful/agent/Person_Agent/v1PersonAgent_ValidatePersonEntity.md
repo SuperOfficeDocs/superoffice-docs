@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/ValidatePersonEntity
 Check that entity is ready for saving, return error messages by field.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nisi",
-  "2": "et"
+  "1": "voluptate",
+  "2": "facere"
 }
 ```

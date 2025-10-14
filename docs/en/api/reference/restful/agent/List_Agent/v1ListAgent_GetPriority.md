@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPriority
 Gets a Priority object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Priority object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPriority?priorityId=114
+POST /api/v1/Agents/List/GetPriority?priorityId=376
 POST /api/v1/Agents/List/GetPriority?$select=name,department,category/id
 ```
 
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Value": "labore",
-  "Tooltip": "fugit",
+  "Id": 655,
+  "Value": "dolores",
+  "Tooltip": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 883
     }
   }
 }

@@ -15,6 +15,7 @@ Reset chat session, put it back on the queue for pickup.
 
 
 Used by bots to hand off a session to human
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 551
+  "ChatSessionId": 208
 }
 ```
 
@@ -121,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 838,
-  "TopicId": 488,
+  "ChatSessionId": 551,
+  "TopicId": 79,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "ut",
-  "CustomerName": "Tremblay Inc and Sons",
-  "CustomerEmail": "sonny@borer.ca",
-  "CustomerPhone": "(373)519-2351 x13879",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Streich, Cole and Corkery",
+  "CustomerAlias": "qui",
+  "CustomerHost": "error",
+  "CustomerName": "Schmitt, Schmidt and Hansen",
+  "CustomerEmail": "macey_streich@moore.com",
+  "CustomerPhone": "(739)142-3938 x67955",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Murphy, Corwin and Gleason",
   "Status": "Closed",
-  "FirstMessage": "neque",
-  "LastMessage": "animi",
-  "WhenRequested": "2005-10-17T11:24:47.6876742+02:00",
-  "WhenStarted": "2019-12-12T11:24:47.6876742+01:00",
-  "WhenEnded": "2006-02-05T11:24:47.6876742+01:00",
-  "WhenIdle": "2002-06-02T11:24:47.6876742+02:00",
-  "WhenFetched": "2003-11-12T11:24:47.6876742+01:00",
-  "SessionKey": "atque",
-  "InitialQueuePos": 720,
-  "AlertLevel": 799,
-  "Rank": 833,
+  "FirstMessage": "quia",
+  "LastMessage": "sapiente",
+  "WhenRequested": "2004-09-13T03:40:46.1858375+02:00",
+  "WhenStarted": "2025-01-25T03:40:46.1858375+01:00",
+  "WhenEnded": "2022-03-31T03:40:46.1858375+02:00",
+  "WhenIdle": "2010-12-22T03:40:46.1858375+01:00",
+  "WhenFetched": "2006-06-17T03:40:46.1858375+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 141,
+  "AlertLevel": 960,
+  "Rank": 419,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 585,
+  "ChatbotIsActive": false,
+  "Rating": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 731
     }
   }
 }

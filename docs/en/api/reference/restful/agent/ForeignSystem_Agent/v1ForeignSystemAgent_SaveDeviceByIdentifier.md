@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,13 +87,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jacobs-Anderson",
-  "DeviceName": "Leuschke, Mosciski and White",
-  "DeviceIdentifier": "reprehenderit",
+  "ApplicationName": "DuBuque LLC",
+  "DeviceName": "Marvin, Dickens and Corkery",
+  "DeviceIdentifier": "voluptas",
   "ForeignDevice": null
 }
 ```
@@ -103,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 14,
-  "Name": "Kilback LLC",
-  "CreatedDate": "2012-12-13T11:24:48.1564051+01:00",
-  "UpdatedDate": "2002-03-07T11:24:48.1564051+01:00",
-  "AssociateFullName": "Erick Wisozk",
-  "CreatedBy": "qui",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "nemo",
-  "ForeignAppId": 861,
+  "ForeignDeviceId": 863,
+  "Name": "Morissette-Little",
+  "CreatedDate": "2016-08-08T03:40:46.9842779+02:00",
+  "UpdatedDate": "2003-01-08T03:40:46.9842779+01:00",
+  "AssociateFullName": "Mr. Ashleigh Jon Pollich",
+  "CreatedBy": "est",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ipsa",
+  "ForeignAppId": 693,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 254
     }
   }
 }

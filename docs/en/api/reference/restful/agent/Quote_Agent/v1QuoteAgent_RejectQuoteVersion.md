@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/RejectQuoteVersion
 Rejects a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 452,
-  "RejectedByText": "et",
-  "RejectedByAssociateId": 456,
-  "RejectionText": "non"
+  "QuoteVersionId": 992,
+  "RejectedByText": "labore",
+  "RejectedByAssociateId": 617,
+  "RejectionText": "et"
 }
 ```
 
@@ -97,13 +99,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 800,
+  "CreatedAppointmentId": 58,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 755
     }
   }
 }

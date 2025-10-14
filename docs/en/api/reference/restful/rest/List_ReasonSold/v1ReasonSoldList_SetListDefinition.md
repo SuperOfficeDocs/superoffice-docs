@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Bednar Group",
-  "Tooltip": "et",
+  "Id": 780,
+  "Name": "Larson-Windler",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 751,
+  "Rank": 675,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusantium",
+  "UseGroupsAndHeadings": false,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Kub-Jakubowski",
-  "Tooltip": "deserunt",
+  "Id": 180,
+  "Name": "Braun, Lynch and Durgan",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "Rank": 369,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 785,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 607
     }
   }
 }

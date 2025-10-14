@@ -15,6 +15,7 @@ Get all records involved in a booking and/or recurring appointments.
 
 
 MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -131,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 442,
-  "RecurrenceRuleId": 442
+  "MotherId": 499,
+  "RecurrenceRuleId": 20
 }
 ```
 
@@ -148,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 65,
-    "StartDate": "2017-06-23T11:24:47.3283137+02:00",
-    "EndDate": "2002-08-01T11:24:47.3283137+02:00",
+    "AppointmentId": 505,
+    "StartDate": "2003-01-01T03:40:45.654368+01:00",
+    "EndDate": "2022-08-15T03:40:45.654368+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Valentin Schinner IV",
-    "ContactName": "Nikolaus-Kirlin",
-    "Description": "Programmable tertiary local area network",
-    "PersonFullName": "Miss Scotty Sam Bosco IV",
-    "PersonId": 262,
-    "ContactId": 753,
-    "ProjectId": 732,
-    "ProjectName": "Labadie-Carter",
+    "Task": "quo",
+    "AssociateFullName": "Rafael Larson",
+    "ContactName": "Dickinson Group",
+    "Description": "Polarised holistic ability",
+    "PersonFullName": "Miss Toni Ibrahim Deckow",
+    "PersonId": 689,
+    "ContactId": 841,
+    "ProjectId": 660,
+    "ProjectName": "Turner, Gusikowski and Nader",
     "IsPublished": true,
-    "AssociateId": 303,
-    "ColorIndex": 956,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "AssociateId": 195,
+    "ColorIndex": 843,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 369,
-    "PriorityName": "Sanford, Casper and Goodwin",
+    "PriorityId": 488,
+    "PriorityName": "Kihn-Larson",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2008-07-20T11:24:47.3283137+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2013-02-02T03:40:45.654368+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-08-04T11:24:47.3283137+02:00",
-    "RecurringEndDate": "2004-02-23T11:24:47.3283137+01:00",
-    "MotherId": 112,
-    "AssignedBy": 148,
-    "AssignedByFullName": "Dante Hoppe I",
+    "RecurringStartDate": "2024-11-29T03:40:45.654368+01:00",
+    "RecurringEndDate": "2001-11-27T03:40:45.654368+01:00",
+    "MotherId": 133,
+    "AssignedBy": 129,
+    "AssignedByFullName": "Miss Esteban Buckridge V",
     "RejectReason": "",
-    "Location": "occaecati",
-    "AlarmLeadTime": "est",
-    "SaleId": 419,
-    "SaleName": "Effertz-Torp",
-    "AssociateName": "Larson, Mayert and Emard",
-    "CreatedDate": "2013-05-16T11:24:47.3283137+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Tina Kessler Jr.",
-    "CreatedByAssociateId": 457,
+    "Location": "aut",
+    "AlarmLeadTime": "doloribus",
+    "SaleId": 241,
+    "SaleName": "Blick, Lebsack and McClure",
+    "AssociateName": "Durgan LLC",
+    "CreatedDate": "2000-11-28T03:40:45.654368+01:00",
+    "CreatedBy": "ea",
+    "CreatedByFullName": "Prof. Megane Fadel",
+    "CreatedByAssociateId": 143,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 873,
+    "MotherAssociateId": 81,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 482,
-    "Title": "dignissimos",
-    "Agenda": "sit",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 65,
+    "Title": "tenetur",
+    "Agenda": "velit",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 347
+        "FieldLength": 574
       }
     }
   }

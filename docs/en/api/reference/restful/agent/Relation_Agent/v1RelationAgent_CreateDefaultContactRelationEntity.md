@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Loading default values into a new ContactRelationEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 460,
-  "SourcePersonId": 174,
-  "DestinationContactId": 693,
-  "DestinationPersonId": 265,
-  "RelationId": 787,
-  "Comment": "vero",
-  "RelationDefinitionId": 396,
-  "Reversed": 451,
-  "UpdatedDate": "2011-05-29T11:24:48.5470141+02:00",
-  "CreatedDate": "2020-09-25T11:24:48.5470141+02:00",
+  "SourceContactId": 641,
+  "SourcePersonId": 494,
+  "DestinationContactId": 387,
+  "DestinationPersonId": 538,
+  "RelationId": 269,
+  "Comment": "rerum",
+  "RelationDefinitionId": 302,
+  "Reversed": 321,
+  "UpdatedDate": "2001-03-23T03:40:47.5942106+01:00",
+  "CreatedDate": "2022-09-13T03:40:47.5942106+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "DuBuque, Gutkowski and Carter",
-  "SourcePersonName": "Jast LLC",
-  "DestinationContactName": "Kuhn Inc and Sons",
-  "DestinationPersonName": "Heller LLC",
-  "ActiveText": "quis",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Treutel, Welch and Stroman",
+  "SourcePersonName": "VonRueden-Roob",
+  "DestinationContactName": "Howe, Hackett and Carter",
+  "DestinationPersonName": "Jakubowski-Marquardt",
+  "ActiveText": "officia",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 480
     }
   }
 }

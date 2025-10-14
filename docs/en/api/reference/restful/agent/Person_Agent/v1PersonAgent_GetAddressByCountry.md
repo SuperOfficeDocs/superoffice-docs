@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetAddressByCountry
 Gets the person's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 474,
-  "CountryId": 64
+  "PersonId": 308,
+  "CountryId": 835
 }
 ```
 
@@ -96,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 27397.428,
-  "Wgs84Longitude": 16287.398,
+  "Wgs84Latitude": 18393.446,
+  "Wgs84Longitude": 896.324,
   "LocalizedAddress": [
     [
       {
-        "Name": "D'Amore, Steuber and Cormier",
-        "Value": "asperiores",
-        "Tooltip": "nisi",
-        "Label": "odit",
-        "ValueLength": 696,
-        "AddressType": "in",
+        "Name": "Spinka, Lebsack and Powlowski",
+        "Value": "repellat",
+        "Tooltip": "ut",
+        "Label": "eum",
+        "ValueLength": 502,
+        "AddressType": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldLength": 756
           }
         }
       }
     ],
     [
       {
-        "Name": "Crist Group",
-        "Value": "deserunt",
-        "Tooltip": "placeat",
-        "Label": "similique",
-        "ValueLength": 786,
-        "AddressType": "ut",
+        "Name": "Roberts, Schumm and Zieme",
+        "Value": "facilis",
+        "Tooltip": "distinctio",
+        "Label": "in",
+        "ValueLength": 974,
+        "AddressType": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldLength": 743
           }
         }
       }
@@ -138,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "eos",
+  "Formatted": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 120
     }
   }
 }

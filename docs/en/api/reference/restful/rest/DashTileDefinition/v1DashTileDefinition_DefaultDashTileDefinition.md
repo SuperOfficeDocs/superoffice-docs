@@ -15,6 +15,7 @@ Set default values into a new DashTileDefinition.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,31 +87,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 490,
-  "Name": "Wiza, Emard and O'Conner",
-  "Description": "Focused regional productivity",
-  "DefaultHeight": 882,
-  "DefaultWidth": 102,
+  "DashboardTileDefinitionId": 148,
+  "Name": "Bechtelar LLC",
+  "Description": "Synergistic static neural-net",
+  "DefaultHeight": 269,
+  "DefaultWidth": 320,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gerhold Group",
-  "SelectionId": 67,
+  "EntityName": "Spinka Group",
+  "SelectionId": 140,
   "CurrencyMode": "Base",
-  "CurrencyCode": "officiis",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "excepturi",
-  "LayoutConfig": "maiores",
-  "SecondarySelectionId": 22,
-  "MeasureByField": "minus",
+  "MeasureField": "expedita",
+  "SortBy": "praesentium",
+  "LayoutConfig": "deserunt",
+  "SecondarySelectionId": 722,
+  "MeasureByField": "fugiat",
   "Usage": "Dashboard",
-  "ProviderName": "Hackett, Konopelski and Glover",
+  "ProviderName": "Berge-Kreiger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 332
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey. 
+The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -168,18 +169,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Kling-Kunde",
-  "StorageKey": "enim",
-  "ExtraRestrictions": "quo",
-  "OrderBy": "esse",
-  "DesiredColumns": "adipisci",
-  "PageSize": 410,
-  "PageNumber": 826
+  "StorageType": "maxime",
+  "ProviderName": "Crist-Schmeler",
+  "StorageKey": "voluptas",
+  "ExtraRestrictions": "repudiandae",
+  "OrderBy": "aut",
+  "DesiredColumns": "sit",
+  "PageSize": 293,
+  "PageNumber": 733
 }
 ```
 
@@ -192,45 +193,45 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Spencer, Crona and Cremin",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "nisi",
+      "DisplayName": "Ondricka Group",
+      "DisplayTooltip": "odio",
+      "DisplayType": "sint",
       "CanOrderBy": false,
-      "Name": "Zulauf Inc and Sons",
+      "Name": "King-Hermiston",
       "CanRestrictBy": true,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Schmeler Group",
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Waters-Schamberger",
       "IsVisible": false,
-      "ExtraInfo": "quo",
-      "Width": "nemo",
-      "IconHint": "adipisci",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "sed",
+      "Width": "odit",
+      "IconHint": "vel",
+      "HeadingIconHint": "adipisci"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Goldner, Kautzer and Cummings",
-      "PrimaryKey": 723,
+      "EntityName": "Feeney-Mosciski",
+      "PrimaryKey": 916,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deserunt",
-          "TooltipHint": "vel",
-          "LinkHint": "mollitia"
+          "DisplayValue": "nulla",
+          "TooltipHint": "delectus",
+          "LinkHint": "quod"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "ipsum",
+      "LinkHint": "et",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldType": "System.String",
+          "FieldLength": 836
         }
       }
     }
   ],
-  "RowCount": 50,
+  "RowCount": 587,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

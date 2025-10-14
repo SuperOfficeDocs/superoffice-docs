@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Jast-Harris",
-    "Tooltip": "eum",
+    "Id": 350,
+    "Name": "VonRueden, Boyer and Brown",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 470,
-    "Rank": 752
+    "UdListDefinitionId": 318,
+    "Rank": 151
   },
   {
-    "Id": 24,
-    "Name": "Jast-Harris",
-    "Tooltip": "eum",
+    "Id": 350,
+    "Name": "VonRueden, Boyer and Brown",
+    "Tooltip": "neque",
     "Deleted": false,
-    "UdListDefinitionId": 470,
-    "Rank": 752
+    "UdListDefinitionId": 318,
+    "Rank": 151
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 191,
-    "Name": "Tillman, Bauch and Toy",
-    "Tooltip": "quibusdam",
+    "Id": 831,
+    "Name": "McKenzie Inc and Sons",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "UdListDefinitionId": 470,
-    "Rank": 628,
+    "UdListDefinitionId": 766,
+    "Rank": 568,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 151
       }
     }
   }

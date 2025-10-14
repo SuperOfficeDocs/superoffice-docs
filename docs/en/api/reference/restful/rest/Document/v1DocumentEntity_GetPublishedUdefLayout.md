@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 933,
-    "ColumnId": 423,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 533,
-    "FieldLabel": "similique",
-    "FieldLeft": 311,
-    "FieldTop": 540,
+    "UDefFieldId": 576,
+    "ColumnId": 655,
+    "FieldDefault": "placeat",
+    "FieldHeight": 379,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 56,
+    "FieldTop": 610,
     "FieldType": "Checkbox",
-    "FieldWidth": 144,
-    "FormatMask": "in",
-    "HideLabel": false,
+    "FieldWidth": 616,
+    "FormatMask": "cumque",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 738,
-    "LabelLeft": 215,
-    "LabelTop": 345,
-    "LabelWidth": 572,
-    "LastVersionId": 480,
-    "ListTableId": 374,
-    "IsMandatory": false,
+    "LabelHeight": 69,
+    "LabelLeft": 579,
+    "LabelTop": 835,
+    "LabelWidth": 117,
+    "LastVersionId": 371,
+    "ListTableId": 522,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 901,
-    "ProgId": "consectetur",
+    "Page1LineNo": 712,
+    "ProgId": "nam",
     "IsReadOnly": false,
-    "ShortLabel": "ratione",
-    "TabOrder": 47,
-    "TextLength": 512,
-    "Tooltip": "earum",
-    "UdefIdentity": 737,
-    "UDListDefinitionId": 351,
+    "ShortLabel": "similique",
+    "TabOrder": 45,
+    "TextLength": 868,
+    "Tooltip": "odio",
+    "UdefIdentity": 150,
+    "UDListDefinitionId": 995,
     "Justification": "Center",
-    "Version": 795,
-    "TemplateVariableName": "Balistreri LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Dicki-Beatty",
+    "Version": 334,
+    "TemplateVariableName": "Parisian, Gusikowski and Champlin",
+    "HasBeenPublished": false,
+    "MdoListName": "Bosco-Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldLength": 923
       }
     }
   }

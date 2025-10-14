@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 494
+  "ProjectId": 268
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 232,
-  "ValidPostalAddresses": 375,
-  "ValidEmailAddresses": 658,
-  "ValidFaxNumbers": 861,
-  "NoAddresses": 293,
-  "NoFaxOrEmails": 785,
+  "Total": 40,
+  "ValidPostalAddresses": 465,
+  "ValidEmailAddresses": 118,
+  "ValidFaxNumbers": 120,
+  "NoAddresses": 949,
+  "NoFaxOrEmails": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 295
     }
   }
 }

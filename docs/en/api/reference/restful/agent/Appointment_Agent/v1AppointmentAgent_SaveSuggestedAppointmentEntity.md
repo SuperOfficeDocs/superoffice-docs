@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -94,17 +96,17 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 33,
-  "Name": "Ritchie, Kuhic and Roberts",
-  "Tooltip": "autem",
-  "Rank": 667,
-  "Deleted": false,
-  "DaysFuture": 5,
-  "Duration": "cumque",
-  "AutoSuggest": false,
-  "IsMilestone": false,
+  "SuggestedAppointmentId": 315,
+  "Name": "Predovic, Goyette and Altenwerth",
+  "Tooltip": "ratione",
+  "Rank": 604,
+  "Deleted": true,
+  "DaysFuture": 554,
+  "Duration": "commodi",
+  "AutoSuggest": true,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "sed",
+  "Text": "dolores",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -118,17 +120,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 15,
-  "Name": "Fay, Sauer and Gaylord",
-  "Tooltip": "at",
-  "Rank": 204,
+  "SuggestedAppointmentId": 581,
+  "Name": "Mueller LLC",
+  "Tooltip": "eos",
+  "Rank": 788,
   "Deleted": false,
-  "DaysFuture": 150,
-  "Duration": "repellendus",
+  "DaysFuture": 29,
+  "Duration": "numquam",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": true,
-  "Text": "facilis",
+  "Text": "nulla",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 641
     }
   }
 }

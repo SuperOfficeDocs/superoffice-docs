@@ -15,6 +15,7 @@ Gets a DashTileDefinition object.
 
 
 Calls the Dash agent service GetDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -102,31 +103,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 263,
-  "Name": "Kling, Wehner and Roberts",
-  "Description": "Cross-group secondary intranet",
-  "DefaultHeight": 540,
-  "DefaultWidth": 966,
+  "DashboardTileDefinitionId": 917,
+  "Name": "Homenick-Gleichner",
+  "Description": "Phased systematic archive",
+  "DefaultHeight": 703,
+  "DefaultWidth": 943,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bernier Group",
-  "SelectionId": 107,
+  "EntityName": "Hermann Group",
+  "SelectionId": 391,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatum",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "ea",
-  "SortBy": "sit",
-  "LayoutConfig": "quasi",
-  "SecondarySelectionId": 966,
-  "MeasureByField": "accusantium",
+  "MeasureField": "praesentium",
+  "SortBy": "et",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 184,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Maggio-Harvey",
+  "ProviderName": "Will-Marquardt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 605
     }
   },
   "_Links": {

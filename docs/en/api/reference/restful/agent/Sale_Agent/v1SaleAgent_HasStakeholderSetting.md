@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,7 +73,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 738
+  "SaleId": 707
 }
 ```
 

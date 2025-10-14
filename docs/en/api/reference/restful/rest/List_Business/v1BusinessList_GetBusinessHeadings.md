@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 714,
-    "Name": "Towne, McKenzie and Hilll",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 94,
-    "UdListDefinitionId": 292,
+    "HeadingId": 706,
+    "Name": "Rempel-Brekke",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

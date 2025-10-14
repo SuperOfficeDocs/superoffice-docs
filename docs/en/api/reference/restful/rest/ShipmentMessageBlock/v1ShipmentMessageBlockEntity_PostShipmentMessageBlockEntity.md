@@ -15,6 +15,7 @@ Creates a new ShipmentMessageBlockEntity
 
 
 Calls the Marketing agent service SaveShipmentMessageBlockEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,18 +92,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 426,
-  "AssociateId": 498,
-  "Block": "qui",
-  "Registered": "2020-10-10T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 130,
-  "Updated": "2017-05-07T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 868,
-  "UpdatedCount": 346
+  "ShipmentMessageBlockId": 720,
+  "AssociateId": 860,
+  "Block": "est",
+  "Registered": "2018-10-19T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2023-11-23T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 840,
+  "UpdatedCount": 947
 }
 ```
 
@@ -113,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 11,
-  "AssociateId": 235,
-  "Block": "iste",
-  "Registered": "2025-09-15T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 465,
-  "Updated": "2022-05-18T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 998,
-  "UpdatedCount": 347,
+  "ShipmentMessageBlockId": 790,
+  "AssociateId": 137,
+  "Block": "blanditiis",
+  "Registered": "1999-04-18T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 325,
+  "Updated": "2016-11-21T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 861,
+  "UpdatedCount": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldLength": 569
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

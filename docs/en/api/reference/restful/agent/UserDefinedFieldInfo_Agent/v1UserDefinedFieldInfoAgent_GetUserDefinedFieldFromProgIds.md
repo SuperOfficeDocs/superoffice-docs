@@ -15,6 +15,7 @@ Return an given array user defined field identified by the owner and the prog-id
 
 
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,13 +111,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "ea",
-    "eum"
+    "voluptatem",
+    "consequatur"
   ],
   "OwnerType": "Appointment"
 }
@@ -130,46 +131,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 622,
-    "ColumnId": 924,
-    "FieldDefault": "adipisci",
-    "FieldHeight": 3,
-    "FieldLabel": "praesentium",
-    "FieldLeft": 908,
-    "FieldTop": 979,
+    "UDefFieldId": 975,
+    "ColumnId": 68,
+    "FieldDefault": "dicta",
+    "FieldHeight": 445,
+    "FieldLabel": "quia",
+    "FieldLeft": 882,
+    "FieldTop": 255,
     "FieldType": "Checkbox",
-    "FieldWidth": 821,
-    "FormatMask": "necessitatibus",
+    "FieldWidth": 652,
+    "FormatMask": "ut",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 424,
-    "LabelLeft": 679,
-    "LabelTop": 356,
-    "LabelWidth": 935,
-    "LastVersionId": 872,
-    "ListTableId": 826,
+    "LabelHeight": 913,
+    "LabelLeft": 530,
+    "LabelTop": 593,
+    "LabelWidth": 357,
+    "LastVersionId": 521,
+    "ListTableId": 388,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 538,
-    "ProgId": "voluptatem",
-    "IsReadOnly": false,
-    "ShortLabel": "omnis",
-    "TabOrder": 516,
-    "TextLength": 805,
-    "Tooltip": "ut",
-    "UdefIdentity": 295,
-    "UDListDefinitionId": 902,
+    "Page1LineNo": 630,
+    "ProgId": "a",
+    "IsReadOnly": true,
+    "ShortLabel": "ipsam",
+    "TabOrder": 483,
+    "TextLength": 502,
+    "Tooltip": "autem",
+    "UdefIdentity": 15,
+    "UDListDefinitionId": 168,
     "Justification": "Center",
-    "Version": 570,
-    "TemplateVariableName": "Windler Inc and Sons",
+    "Version": 374,
+    "TemplateVariableName": "Purdy-Wisoky",
     "HasBeenPublished": false,
-    "MdoListName": "Jacobson, Kunde and Schaefer",
+    "MdoListName": "Kris-Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 98
       }
     }
   }

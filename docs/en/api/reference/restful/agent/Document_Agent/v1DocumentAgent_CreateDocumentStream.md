@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDocumentStream
 Creates a new Stream that can be used to store the document in the file archive.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/Document/CreateDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

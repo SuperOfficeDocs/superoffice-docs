@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetWwwUrl
 Will get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

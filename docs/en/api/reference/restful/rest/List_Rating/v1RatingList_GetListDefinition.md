@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "repudiandae",
+  "Id": 714,
+  "Name": "Baumbach Group",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 712,
-  "IsCustomList": false,
+  "Rank": 670,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "libero",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 561
     }
   },
   "_Links": {

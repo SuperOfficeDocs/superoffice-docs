@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity
 Deletes the ForeignAppEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ForeignAppEntity
 | foreignAppEntityId | int32 | **Required** The identity of the ForeignAppEntity |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=717
+POST /api/v1/Agents/ForeignSystem/DeleteForeignAppEntity?foreignAppEntityId=847
 ```
 
 

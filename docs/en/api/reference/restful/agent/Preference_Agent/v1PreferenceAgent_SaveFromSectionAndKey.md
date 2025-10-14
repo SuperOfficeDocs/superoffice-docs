@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Update a PreferenceDescription based on the section and key
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -93,12 +95,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "officiis",
-  "Key": "consequatur",
+  "Section": "quaerat",
+  "Key": "aut",
   "PreferenceDescription": null
 }
 ```
@@ -110,30 +112,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 628,
-  "Section": "fugit",
-  "Key": "unde",
-  "Name": "Langworth, Rohan and Keebler",
+  "PrefDescId": 821,
+  "Section": "libero",
+  "Key": "esse",
+  "Name": "Schimmel-Cronin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive actuating open architecture",
+  "Description": "Re-engineered impactful task-force",
   "IsBuiltin": false,
-  "TableName": "Armstrong, Gleichner and Bashirian",
-  "UserDefinedListId": 106,
-  "Rank": 731,
-  "SubGroup": "praesentium",
-  "MinLevel": 674,
-  "MaxValue": 472,
-  "MinValue": 794,
-  "RequiredLicense": "ipsa",
+  "TableName": "Sporer, Keeling and Collier",
+  "UserDefinedListId": 214,
+  "Rank": 41,
+  "SubGroup": "unde",
+  "MinLevel": 374,
+  "MaxValue": 249,
+  "MinValue": 879,
+  "RequiredLicense": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

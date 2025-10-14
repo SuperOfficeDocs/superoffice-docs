@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CancelApprovalRequest
 Cancel a pending quote approval request.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 831
+  "QuoteVersionId": 285
 }
 ```
 
@@ -95,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "praesentium",
-  "TechExplanation": "beatae",
-  "ErrorCode": "repudiandae",
+  "UserExplanation": "rerum",
+  "TechExplanation": "illo",
+  "ErrorCode": "qui",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 267
     }
   }
 }

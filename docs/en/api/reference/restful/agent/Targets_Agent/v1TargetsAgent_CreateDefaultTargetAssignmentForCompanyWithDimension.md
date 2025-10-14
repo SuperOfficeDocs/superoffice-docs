@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Returns a default target assignment for the owner company, for the specified dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 752
+  "TargetDimensionId": 705
 }
 ```
 
@@ -98,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 682,
+    "TargetAssignmentInfoId": 186,
     "Values": [
-      664,
-      689
+      292,
+      20
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 769,
-    "DimensionListItemDisplayName": "Frami, Kertzmann and Witting",
+    "DimensionListItem": 139,
+    "DimensionListItemDisplayName": "Hilpert LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 983
       }
     }
   }

@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Brekke-Auer",
-  "Tooltip": "amet",
+  "Id": 844,
+  "Name": "Beatty-Sauer",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 384,
-  "Rank": 684,
+  "UdListDefinitionId": 22,
+  "Rank": 863,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   }
 }

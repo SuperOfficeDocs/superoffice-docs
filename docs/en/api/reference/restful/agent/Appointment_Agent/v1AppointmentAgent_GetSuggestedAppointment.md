@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Gets a SuggestedAppointment object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=380
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=432
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -81,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 756,
-  "Deleted": 40,
-  "DaysFuture": 659,
-  "Tooltip": "quas",
-  "Text": "animi",
-  "TaskId": 880,
-  "SuggestedAppointmentId": 652,
-  "SaleTypeStageLinkId": 459,
-  "RegisteredAssociateId": 7,
-  "Rank": 4,
-  "ProjectTypeStatusLinkId": 723,
-  "Name": "Hodkiewicz-Powlowski",
-  "Duration": 504,
+  "AutoSuggest": 819,
+  "Deleted": 407,
+  "DaysFuture": 252,
+  "Tooltip": "eveniet",
+  "Text": "id",
+  "TaskId": 854,
+  "SuggestedAppointmentId": 921,
+  "SaleTypeStageLinkId": 547,
+  "RegisteredAssociateId": 785,
+  "Rank": 694,
+  "ProjectTypeStatusLinkId": 199,
+  "Name": "Kemmer-Hand",
+  "Duration": 878,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

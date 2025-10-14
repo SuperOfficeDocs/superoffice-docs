@@ -80,21 +80,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 644,
-  "Name": "Davis-Konopelski",
-  "CreatedDate": "2005-08-07T11:24:53.2968202+02:00",
-  "UpdatedDate": "2004-04-11T11:24:53.2968202+02:00",
-  "AssociateFullName": "Mr. Modesto Powlowski DVM",
-  "CreatedBy": "sapiente",
-  "UpdatedBy": "officiis",
-  "DeviceIdentifier": "nulla",
-  "ForeignAppId": 91,
+  "ForeignDeviceId": 749,
+  "Name": "Stark, Bogan and Greenfelder",
+  "CreatedDate": "2024-12-10T03:40:55.7731411+01:00",
+  "UpdatedDate": "2022-01-09T03:40:55.7731411+01:00",
+  "AssociateFullName": "Anahi Brakus",
+  "CreatedBy": "ut",
+  "UpdatedBy": "odit",
+  "DeviceIdentifier": "autem",
+  "ForeignAppId": 737,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 575
     }
   }
 }

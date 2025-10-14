@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProductFamily
 Gets a ProductFamily object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ProductFamily object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductFamily?productFamilyId=968
+POST /api/v1/Agents/List/GetProductFamily?productFamilyId=829
 POST /api/v1/Agents/List/GetProductFamily?$select=name,department,category/id
 ```
 
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 394,
-  "Value": "aut",
-  "Tooltip": "vitae",
+  "Id": 74,
+  "Value": "ut",
+  "Tooltip": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

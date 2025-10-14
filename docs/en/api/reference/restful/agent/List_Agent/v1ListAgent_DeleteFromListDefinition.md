@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteFromListDefinition
 Delete a list item from the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "UdListDefinitionId": 449
+  "Id": 341,
+  "UdListDefinitionId": 306
 }
 ```
 

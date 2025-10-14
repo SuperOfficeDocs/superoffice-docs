@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Retrieve a set of e-mail envelopes
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -86,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    45,
-    679
+    536,
+    830
   ]
 }
 ```
@@ -106,45 +109,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 216,
-    "MessageId": "blanditiis",
-    "Subject": "eos",
+    "ServerId": 376,
+    "MessageId": "explicabo",
+    "Subject": "consequuntur",
     "From": null,
     "To": [
       {
-        "ContactId": 905,
-        "ContactName": "Brown Group",
-        "PersonId": 193,
-        "PersonName": "Kunze-Runolfsson",
-        "AssociateId": 111,
-        "Address": "at",
-        "EmailId": 840,
+        "ContactId": 931,
+        "ContactName": "Schimmel, Stanton and Hartmann",
+        "PersonId": 814,
+        "PersonName": "Greenholt, Pacocha and Spencer",
+        "AssociateId": 905,
+        "Address": "nobis",
+        "EmailId": 484,
         "DuplicatePersonIds": [
-          7,
-          905
+          153,
+          703
         ],
-        "Name": "Kuhn, Konopelski and Wilderman",
+        "Name": "Larkin Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldType": "System.String",
+            "FieldLength": 626
           }
         }
       }
     ],
-    "Sent": "2012-02-02T11:24:48.0939075+01:00",
+    "Sent": "2020-07-21T03:40:46.8905223+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 754,
+    "Size": 813,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 232
       }
     }
   }

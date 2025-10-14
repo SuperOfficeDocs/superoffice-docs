@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Get a preference description line from a prefDesc_id and a prefValue
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 464,
-  "PrefValue": "et"
+  "PrefDescId": 193,
+  "PrefValue": "ipsum"
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 49,
-  "PrefDescId": 239,
-  "PrefValue": "in",
-  "PrefShowValue": "consequuntur",
-  "Description": "Cloned dedicated orchestration",
-  "IsBuiltin": true,
+  "PrefDescLineId": 955,
+  "PrefDescId": 627,
+  "PrefValue": "assumenda",
+  "PrefShowValue": "dolores",
+  "Description": "Grass-roots national data-warehouse",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 148
     }
   }
 }

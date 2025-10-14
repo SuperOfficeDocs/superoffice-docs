@@ -74,7 +74,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 10 Mar 2010 11:24:53 G3T
+Last-Modified: Fri, 18 Oct 2019 03:40:56 G10T
 
 {
-  "BlobId": 229,
-  "BlobSize": 505,
-  "Description": "Managed grid-enabled customer loyalty",
-  "ExtraInfo": "reiciendis",
+  "BlobId": 66,
+  "BlobSize": 59,
+  "Description": "Programmable full-range synergy",
+  "ExtraInfo": "nam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 44,
-  "CreatedDate": "2018-04-21T11:24:53.4843128+02:00",
-  "UpdatedDate": "2010-03-10T11:24:53.4843128+01:00",
+  "MimeType": "error",
+  "OriginalSize": 704,
+  "CreatedDate": "2013-11-15T03:40:56.0542974+01:00",
+  "UpdatedDate": "2019-10-18T03:40:56.0542974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloribus",
+  "ConceptualType": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Hickle LLC",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 677,
-    "UdListDefinitionId": 836,
+    "HeadingId": 770,
+    "Name": "McClure-Koelpin",
+    "Tooltip": "at",
+    "Deleted": false,
+    "Rank": 57,
+    "UdListDefinitionId": 661,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

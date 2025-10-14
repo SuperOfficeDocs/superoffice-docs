@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/SaveProjectImage
 Saves a project image that is displayed in the CRM application's project image selection dialog to the database.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly grid-enabled local area network",
+  "Description": "Ameliorated bottom-line encryption",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

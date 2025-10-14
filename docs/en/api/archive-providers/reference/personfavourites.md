@@ -65,7 +65,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -117,12 +119,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-|restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
-|restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
+|restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/assocTooltip|string|Description : Description|  |
 |correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -243,6 +245,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+|withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |subscription|listAny|Subscription: Subscription for marketing| x |
 |legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -340,7 +343,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=restrictionAddress/wgs84latitude,correspondingAssociate/usergroup,contactAssociate/title
+GET /api/v1/archive/personfavourites?$select=favouritePersonAssociateId,contactAssociate/contactId,restrictionAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

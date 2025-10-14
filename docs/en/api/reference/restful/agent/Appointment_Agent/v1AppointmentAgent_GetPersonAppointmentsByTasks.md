@@ -15,6 +15,7 @@ Method that returns a specified number of appointments from a list of appointmen
 
 
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -139,14 +140,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 431,
+  "PersonId": 534,
   "IncludeProjectAppointments": false,
-  "StartTime": "2005-07-18T11:24:47.2970652+02:00",
-  "EndTime": "2012-05-28T11:24:47.2970652+02:00",
-  "Count": 7,
+  "StartTime": "2021-07-20T03:40:45.5918644+02:00",
+  "EndTime": "2023-09-25T03:40:45.5918644+02:00",
+  "Count": 622,
   "TaskIds": [
-    848,
-    131
+    870,
+    24
   ]
 }
 ```
@@ -159,67 +160,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 814,
-    "StartDate": "2024-04-08T11:24:47.2970652+02:00",
-    "EndDate": "2006-10-05T11:24:47.2970652+02:00",
+    "AppointmentId": 134,
+    "StartDate": "2017-11-24T03:40:45.5918644+01:00",
+    "EndDate": "2000-05-17T03:40:45.5918644+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Else Jakubowski",
-    "ContactName": "Ledner Inc and Sons",
-    "Description": "Organized optimal moratorium",
-    "PersonFullName": "Ted Collier",
-    "PersonId": 348,
-    "ContactId": 78,
-    "ProjectId": 562,
-    "ProjectName": "Maggio-O'Hara",
+    "Task": "aliquid",
+    "AssociateFullName": "Ivah Simonis III",
+    "ContactName": "Rosenbaum, Ullrich and Morar",
+    "Description": "Reverse-engineered eco-centric hardware",
+    "PersonFullName": "Casimir Ziemann",
+    "PersonId": 230,
+    "ContactId": 322,
+    "ProjectId": 701,
+    "ProjectName": "Bechtelar LLC",
     "IsPublished": false,
-    "AssociateId": 836,
-    "ColorIndex": 808,
+    "AssociateId": 329,
+    "ColorIndex": 776,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 900,
-    "PriorityName": "Fahey LLC",
+    "PriorityId": 991,
+    "PriorityName": "Brekke, Schultz and Haag",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-03-06T11:24:47.2970652+01:00",
+    "ActiveDate": "2001-01-01T03:40:45.5918644+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-12-08T11:24:47.2970652+01:00",
-    "RecurringEndDate": "2009-11-03T11:24:47.2970652+01:00",
-    "MotherId": 418,
-    "AssignedBy": 367,
-    "AssignedByFullName": "Naomi Lockman",
+    "RecurringStartDate": "2001-11-25T03:40:45.5918644+01:00",
+    "RecurringEndDate": "2017-07-16T03:40:45.5918644+02:00",
+    "MotherId": 392,
+    "AssignedBy": 57,
+    "AssignedByFullName": "Tremaine Kuphal",
     "RejectReason": "",
-    "Location": "officia",
-    "AlarmLeadTime": "ratione",
-    "SaleId": 697,
-    "SaleName": "Trantow LLC",
-    "AssociateName": "Kunze Inc and Sons",
-    "CreatedDate": "1998-12-19T11:24:47.2970652+01:00",
-    "CreatedBy": "asperiores",
-    "CreatedByFullName": "Mr. Janice Arnoldo Lowe",
-    "CreatedByAssociateId": 42,
+    "Location": "tenetur",
+    "AlarmLeadTime": "dignissimos",
+    "SaleId": 978,
+    "SaleName": "Tremblay, DuBuque and Romaguera",
+    "AssociateName": "Spencer, Grimes and Kiehn",
+    "CreatedDate": "2001-11-08T03:40:45.5918644+01:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Jaiden Mills",
+    "CreatedByAssociateId": 243,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 221,
+    "MotherAssociateId": 869,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 723,
-    "Title": "distinctio",
-    "Agenda": "dicta",
-    "InternalNotes": "numquam",
+    "PreferredTZLocation": 275,
+    "Title": "maiores",
+    "Agenda": "natus",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 410
       }
     }
   }

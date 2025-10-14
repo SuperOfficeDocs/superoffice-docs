@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Loading default values into a new WebPanelEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 914,
-  "Name": "Tromp Group",
-  "Tooltip": "id",
+  "WebPanelId": 606,
+  "Name": "Sawayn LLC",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 221,
+  "Rank": 95,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Windler, Ondricka and Hilpert",
+  "WindowName": "Gorczany, Kirlin and O'Reilly",
   "Url": "http://www.example.com/",
-  "ProgId": "distinctio",
-  "Icon": 871,
+  "ProgId": "sint",
+  "Icon": 265,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -114,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 266
     }
   }
 }

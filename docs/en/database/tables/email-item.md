@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# email\_item Table (489)
+# email\_item Table (490)
 
 Email data
 

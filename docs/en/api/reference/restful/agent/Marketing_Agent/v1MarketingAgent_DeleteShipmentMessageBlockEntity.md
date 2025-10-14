@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity
 Deletes the ShipmentMessageBlockEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ShipmentMessageBlockEntity
 | shipmentMessageBlockEntityId | int32 | **Required** The identity of the ShipmentMessageBlockEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=366
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageBlockEntity?shipmentMessageBlockEntityId=774
 ```
 
 

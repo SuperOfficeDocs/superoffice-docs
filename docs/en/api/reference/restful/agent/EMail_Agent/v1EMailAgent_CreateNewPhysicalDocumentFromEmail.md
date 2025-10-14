@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Save the Email from the server as a document file connected to existing document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -110,12 +113,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 635,
-  "EmailItemId": 902
+  "DocumentId": 578,
+  "EmailItemId": 170
 }
 ```
 
@@ -126,88 +129,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 126,
+  "DocumentId": 912,
   "UpdatedBy": null,
   "CreatedBy": null,
   "Attention": "debitis",
-  "Header": "nesciunt",
-  "Name": "Morar-Ritchie",
-  "OurRef": "dolores",
-  "YourRef": "dolor",
-  "CreatedDate": "2019-05-03T11:24:48.0470345+02:00",
-  "UpdatedDate": "2011-12-31T11:24:48.0470345+01:00",
-  "Description": "Realigned context-sensitive alliance",
+  "Header": "voluptas",
+  "Name": "Kovacek LLC",
+  "OurRef": "voluptas",
+  "YourRef": "commodi",
+  "CreatedDate": "2014-02-02T03:40:46.7967663+01:00",
+  "UpdatedDate": "1999-09-22T03:40:46.7967663+02:00",
+  "Description": "Secured context-sensitive circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-04-27T11:24:48.0470345+02:00",
-  "ExternalRef": "animi",
+  "Date": "2008-08-13T03:40:46.7967663+02:00",
+  "ExternalRef": "cumque",
   "Completed": "Completed",
-  "ActiveLinks": 892,
+  "ActiveLinks": 707,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gleichner-Hintz",
-      "Id": 100,
-      "Description": "Customer-focused mission-critical core",
-      "ExtraInfo": "et",
-      "LinkId": 191,
+      "EntityName": "Zulauf Group",
+      "Id": 400,
+      "Description": "Balanced encompassing standardization",
+      "ExtraInfo": "dolor",
+      "LinkId": 205,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 812
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 412,
-  "Snum": 521,
+  "SuggestedDocumentId": 214,
+  "Snum": 124,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Axel Ruecker Sr.",
-    "SuperOffice:2": "Kay Witting III"
+    "SuperOffice:1": "1689104264",
+    "SuperOffice:2": "877806115"
   },
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "optio",
-    "CustomFields2": "est"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "reprehenderit"
   },
-  "PublishEventDate": "2016-06-20T11:24:48.0470345+02:00",
-  "PublishTo": "2014-07-29T11:24:48.0470345+02:00",
-  "PublishFrom": "2005-10-13T11:24:48.0470345+02:00",
+  "PublishEventDate": "2011-11-25T03:40:46.7967663+01:00",
+  "PublishTo": "2021-11-08T03:40:46.7967663+01:00",
+  "PublishFrom": "2014-05-14T03:40:46.7967663+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 238,
+      "VisibleId": 570,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 670
         }
       }
     },
     {
-      "VisibleId": 238,
+      "VisibleId": 570,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 670
         }
       }
     }
@@ -217,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 584
     }
   }
 }

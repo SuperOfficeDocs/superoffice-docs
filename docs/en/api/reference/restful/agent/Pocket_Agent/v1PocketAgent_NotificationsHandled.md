@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/NotificationsHandled
 Mark a set of notifications as handled, so they can be cleaned up on other clients that have received the notification
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,18 +67,18 @@ No Content
 POST /api/v1/Agents/Pocket/NotificationsHandled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEvents": [
     {
       "Type": "AppointmentCancelled",
-      "Id": 671
+      "Id": 419
     },
     {
       "Type": "AppointmentCancelled",
-      "Id": 671
+      "Id": 419
     }
   ]
 }

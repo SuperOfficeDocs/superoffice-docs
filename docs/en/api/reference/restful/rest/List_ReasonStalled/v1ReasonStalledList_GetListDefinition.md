@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Feest Group",
-  "Tooltip": "tenetur",
+  "Id": 911,
+  "Name": "Strosin Inc and Sons",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 734,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": false,
+  "Rank": 363,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   },
   "_Links": {

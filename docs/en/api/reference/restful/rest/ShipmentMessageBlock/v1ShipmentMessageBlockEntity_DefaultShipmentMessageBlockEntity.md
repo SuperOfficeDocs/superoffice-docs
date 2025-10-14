@@ -15,6 +15,7 @@ Set default values into a new ShipmentMessageBlockEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageBlockEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -65,7 +66,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 886,
-  "AssociateId": 445,
-  "Block": "consequatur",
-  "Registered": "1999-07-22T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 456,
-  "Updated": "1998-11-20T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 831,
-  "UpdatedCount": 634,
+  "ShipmentMessageBlockId": 583,
+  "AssociateId": 945,
+  "Block": "fugit",
+  "Registered": "2012-08-30T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 228,
+  "Updated": "2019-03-06T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 219,
+  "UpdatedCount": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

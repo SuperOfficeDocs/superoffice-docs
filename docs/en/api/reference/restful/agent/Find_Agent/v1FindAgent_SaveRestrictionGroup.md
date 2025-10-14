@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionGroup
 Save an array of restrictions as a restriction group for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,15 +71,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "Hills, Walter and Bergnaum",
-  "StorageKey": "enim",
+  "StorageType": "at",
+  "ProviderName": "Yost Group",
+  "StorageKey": "deleniti",
   "RestrictionGroup": null,
-  "Context": "ut"
+  "Context": "aliquam"
 }
 ```
 

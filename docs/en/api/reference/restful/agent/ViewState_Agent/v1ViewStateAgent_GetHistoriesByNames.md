@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Returns the named history lists that belong to the currently logged in user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,13 +82,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Rice, Thiel and Flatley",
-    "Bechtelar, Hane and Effertz"
+    "Kilback, Kuvalis and Lindgren",
+    "Walker, Bergnaum and Kuhlman"
   ]
 }
 ```
@@ -99,19 +101,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 957,
-    "Id": 847,
-    "HistoryName": "Graham, Casper and Carroll",
-    "HistoryId": 519,
-    "AssociateId": 496,
-    "Name": "Legros LLC",
-    "ItemInfo": "et",
+    "Rank": 938,
+    "Id": 672,
+    "HistoryName": "Toy-Turcotte",
+    "HistoryId": 322,
+    "AssociateId": 992,
+    "Name": "Berge Inc and Sons",
+    "ItemInfo": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 781
       }
     }
   }

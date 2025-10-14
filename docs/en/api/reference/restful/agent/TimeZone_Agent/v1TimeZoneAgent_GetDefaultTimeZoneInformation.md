@@ -15,6 +15,7 @@ Get information about the current, preferred timezone for the current user.
 
 
 If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZoneInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 558,
-  "TZLocationId": 866,
-  "LocationCode": "ut",
-  "Description": "Managed asynchronous superstructure",
+  "PreferenceId": 658,
+  "TZLocationId": 399,
+  "LocationCode": "eum",
+  "Description": "Monitored static conglomeration",
   "Country": "Sokovia",
-  "Bias": 856
+  "Bias": 776
 }
 ```

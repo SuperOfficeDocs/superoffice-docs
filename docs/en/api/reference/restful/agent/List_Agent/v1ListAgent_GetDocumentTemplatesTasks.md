@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 The appointment's task is a Document template item when the appointment is a document.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Value": "natus",
-    "Tooltip": "sed",
+    "Id": 525,
+    "Value": "recusandae",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldType": "System.Int32",
+        "FieldLength": 908
       }
     }
   },
   {
-    "Id": 247,
-    "Value": "natus",
-    "Tooltip": "sed",
+    "Id": 525,
+    "Value": "recusandae",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 527
+        "FieldType": "System.Int32",
+        "FieldLength": 908
       }
     }
   }

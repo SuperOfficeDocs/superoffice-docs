@@ -14,7 +14,8 @@ PATCH /api/v1/ShipmentMessageBlock/{id}
 Update a ShipmentMessageBlockEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -122,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -140,25 +141,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 381,
-  "AssociateId": 127,
-  "Block": "odio",
-  "Registered": "2013-04-09T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 715,
-  "Updated": "2007-04-11T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 839,
-  "UpdatedCount": 536,
+  "ShipmentMessageBlockId": 816,
+  "AssociateId": 849,
+  "Block": "sint",
+  "Registered": "2002-12-16T03:40:56.2422072+01:00",
+  "RegisteredAssociateId": 574,
+  "Updated": "2014-09-14T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 858,
+  "UpdatedCount": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 765
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

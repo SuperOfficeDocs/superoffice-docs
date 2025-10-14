@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CopyTileSelection
 Copy Tile Selection for the dashboard
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Dash/CopyTileSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 199
+  "SelectionId": 285
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-816
+534
 ```

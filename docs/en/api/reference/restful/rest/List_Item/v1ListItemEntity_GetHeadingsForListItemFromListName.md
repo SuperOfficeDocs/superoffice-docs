@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Romaguera-Durgan",
-    "ToolTip": "Reprehenderit rerum mollitia tempora.",
-    "Deleted": true,
-    "Rank": 7,
-    "Type": "corrupti",
-    "ColorBlock": 173,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2021-08-16T11:24:53.8436729+02:00",
+    "Id": 280,
+    "Name": "Bernier-O'Keefe",
+    "ToolTip": "Voluptatem omnis vitae quaerat.",
+    "Deleted": false,
+    "Rank": 834,
+    "Type": "porro",
+    "ColorBlock": 492,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2007-08-30T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Block, Purdy and Skiles",
-        "ToolTip": "Et non.",
+        "Id": 958,
+        "Name": "Maggio-Will",
+        "ToolTip": "Laboriosam ipsum cumque aut odio.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "iusto",
-        "ColorBlock": 347,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2013-11-03T11:24:53.8436729+01:00",
+        "Rank": 152,
+        "Type": "non",
+        "ColorBlock": 732,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2007-08-31T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "sit",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Mr. Giovanna Imani Bins Sr.",
+        "FullName": "Trisha Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldType": "System.String",
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "magni",
+    "ExtraInfo": "omnis",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Loma Wiegand",
+    "FullName": "Elton Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

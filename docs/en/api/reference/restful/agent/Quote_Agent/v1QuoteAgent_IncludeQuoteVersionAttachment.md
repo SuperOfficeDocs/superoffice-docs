@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
 Toggle the 'included' state of a quote version attachment; will throw exceptions if called on locked versions
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/Quote/IncludeQuoteVersionAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 501,
-  "DocumentId": 931,
-  "Include": false
+  "QuoteVersionId": 776,
+  "DocumentId": 347,
+  "Include": true
 }
 ```
 

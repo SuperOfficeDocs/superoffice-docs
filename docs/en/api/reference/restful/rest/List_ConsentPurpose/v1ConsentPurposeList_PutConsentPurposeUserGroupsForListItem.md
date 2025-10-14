@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Mayert, Fritsch and Swift",
-    "ToolTip": "Ea voluptates est hic dolorem distinctio voluptas sit.",
+    "Id": 210,
+    "Name": "Kirlin Group",
+    "ToolTip": "Et illo.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "libero",
-    "ColorBlock": 960,
-    "IconHint": "ex",
+    "Rank": 258,
+    "Type": "nemo",
+    "ColorBlock": 390,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2000-06-08T11:24:53.8749217+02:00",
+    "LastChanged": "2014-07-30T03:40:56.743228+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Kuhn Inc and Sons",
-        "ToolTip": "Et dolore neque.",
+        "Id": 779,
+        "Name": "Bins Inc and Sons",
+        "ToolTip": "Neque magni voluptate doloremque.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "a",
-        "ColorBlock": 197,
-        "IconHint": "a",
+        "Rank": 116,
+        "Type": "ut",
+        "ColorBlock": 990,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2016-04-11T11:24:53.8749217+02:00",
+        "LastChanged": "2006-05-06T03:40:56.743228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Kelton Cartwright"
+        "ExtraInfo": "in",
+        "StyleHint": "minus",
+        "Hidden": true,
+        "FullName": "Marie Schuppe"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "sit",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Francis Keeling"
+    "FullName": "Matteo Collier"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Ondricka, Schaden and Quigley",
-    "ToolTip": "Officiis pariatur minus.",
-    "Deleted": true,
-    "Rank": 613,
-    "Type": "ut",
-    "ColorBlock": 277,
-    "IconHint": "praesentium",
+    "Id": 173,
+    "Name": "Gorczany, Raynor and Rogahn",
+    "ToolTip": "Optio quibusdam repellendus delectus soluta dicta rerum.",
+    "Deleted": false,
+    "Rank": 141,
+    "Type": "fugit",
+    "ColorBlock": 640,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2009-05-02T11:24:53.890546+02:00",
+    "LastChanged": "2020-03-24T03:40:56.743228+01:00",
     "ChildItems": [
       {
-        "Id": 897,
-        "Name": "Pagac Inc and Sons",
-        "ToolTip": "Recusandae deleniti error et non.",
-        "Deleted": true,
-        "Rank": 292,
-        "Type": "optio",
-        "ColorBlock": 332,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2008-07-25T11:24:53.890546+02:00",
+        "Id": 444,
+        "Name": "Rath-Conn",
+        "ToolTip": "Expedita consequuntur harum inventore perspiciatis voluptas id.",
+        "Deleted": false,
+        "Rank": 186,
+        "Type": "illum",
+        "ColorBlock": 391,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2009-06-16T03:40:56.743228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Cortez Huels Sr.",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "laudantium",
+        "Hidden": false,
+        "FullName": "Mr. Sheldon Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "veniam",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Norma Quinten Hilll IV",
+    "FullName": "Keara Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 56
       }
     }
   }

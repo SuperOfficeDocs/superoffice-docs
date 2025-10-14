@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Loading default values into a new ShipmentMessageBlockEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 700,
-  "AssociateId": 33,
-  "Block": "quia",
-  "Registered": "2015-07-10T11:24:48.2657757+02:00",
-  "RegisteredAssociateId": 197,
-  "Updated": "2018-09-04T11:24:48.2657757+02:00",
-  "UpdatedAssociateId": 746,
-  "UpdatedCount": 564,
+  "ShipmentMessageBlockId": 483,
+  "AssociateId": 766,
+  "Block": "blanditiis",
+  "Registered": "2015-05-06T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 55,
+  "Updated": "2018-10-10T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 427,
+  "UpdatedCount": 663,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 508
     }
   }
 }

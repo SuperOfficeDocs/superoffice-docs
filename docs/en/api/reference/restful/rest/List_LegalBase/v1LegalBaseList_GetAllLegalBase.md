@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 940,
-    "Name": "Feil, Hayes and McKenzie",
-    "Tooltip": "maxime",
-    "Rank": 186,
-    "Key": "dolor",
-    "Deleted": false,
+    "LegalBaseId": 899,
+    "Name": "Howell-Grady",
+    "Tooltip": "culpa",
+    "Rank": 521,
+    "Key": "libero",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 475
       }
     }
   }

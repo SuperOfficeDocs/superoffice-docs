@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetPriceList
 Gets a PriceList object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=616
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=654
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 932,
-  "ERPPriceListKey": "hic",
-  "QuoteConnectionId": 194,
-  "Name": "Homenick-Lueilwitz",
-  "Description": "Visionary multi-state toolset",
-  "Currency": "numquam",
-  "CurrencyName": "Nikolaus Inc and Sons",
-  "ValidFrom": "2024-09-07T11:24:48.5157652+02:00",
-  "ValidTo": "2003-01-16T11:24:48.5157652+01:00",
-  "IsActive": true,
+  "PriceListId": 723,
+  "ERPPriceListKey": "commodi",
+  "QuoteConnectionId": 132,
+  "Name": "Toy, Greenholt and Bogan",
+  "Description": "Managed reciprocal archive",
+  "Currency": "cupiditate",
+  "CurrencyName": "Feil-Champlin",
+  "ValidFrom": "2021-03-06T03:40:47.5317063+01:00",
+  "ValidTo": "2015-03-28T03:40:47.5317063+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 628
     }
   }
 }

@@ -27,8 +27,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=ratione
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=magni
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Wiegand-Beatty",
-    "ToolTip": "In quo impedit et.",
-    "Deleted": false,
-    "Rank": 802,
-    "Type": "rerum",
+    "Id": 779,
+    "Name": "Thompson Inc and Sons",
+    "ToolTip": "Maiores voluptate impedit cumque aut dolorem officia sint.",
+    "Deleted": true,
+    "Rank": 427,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Zemlak LLC",
-        "ToolTip": "Eaque consequatur.",
-        "Deleted": true,
-        "Rank": 622,
-        "Type": "ea",
+        "Id": 951,
+        "Name": "McLaughlin, Johns and Rohan",
+        "ToolTip": "Voluptas recusandae.",
+        "Deleted": false,
+        "Rank": 534,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 134,
-        "ExtraInfo": "autem",
-        "StyleHint": "accusamus",
-        "FullName": "Alexander Ritchie",
+        "IconHint": "neque",
+        "ColorBlock": 305,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "mollitia",
+        "FullName": "Lauren Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 320
+            "FieldLength": 705
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 365,
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
-    "FullName": "Nyasia Koepp",
+    "IconHint": "numquam",
+    "ColorBlock": 307,
+    "ExtraInfo": "officiis",
+    "StyleHint": "et",
+    "FullName": "Prof. Karley Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 607
       }
     }
   }

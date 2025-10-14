@@ -28,6 +28,12 @@ content_type: reference
 
 * [POST Agents/Dash/GetDashList](v1DashAgent_GetDashList.md)
 
+* [POST Agents/Dash/GetDashQuickFilters](v1DashAgent_GetDashQuickFilters.md)
+
+* [POST Agents/Dash/SaveDashQuickFilters](v1DashAgent_SaveDashQuickFilters.md)
+
+* [POST Agents/Dash/GetPossibleDashQuickFilters](v1DashAgent_GetPossibleDashQuickFilters.md)
+
 * [POST Agents/Dash/CreateDefaultDashCollection](v1DashAgent_CreateDefaultDashCollection.md)
 
 * [POST Agents/Dash/GetDashCollection](v1DashAgent_GetDashCollection.md)

@@ -15,6 +15,7 @@ Get list of users that can be assigned to chat topics.
 
 
 Users with Chat-CALs from the MDO list 'chatuser'
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,11 +89,11 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
+  "Flat": true,
   "OnlyPresent": false
 }
 ```
@@ -105,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Moore Group",
-    "ToolTip": "Aut ullam sint nulla.",
-    "Deleted": false,
-    "Rank": 327,
-    "Type": "perspiciatis",
+    "Id": 175,
+    "Name": "Haag LLC",
+    "ToolTip": "Ipsa omnis dicta nostrum aut placeat perferendis.",
+    "Deleted": true,
+    "Rank": 251,
+    "Type": "sit",
     "ChildItems": [
       {
-        "Id": 512,
-        "Name": "Macejkovic-Hoppe",
-        "ToolTip": "Dolorem beatae doloribus labore.",
+        "Id": 363,
+        "Name": "Grant-Simonis",
+        "ToolTip": "Ab nostrum maxime qui animi in debitis.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "ducimus",
+        "Rank": 978,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 230,
-        "ExtraInfo": "et",
-        "StyleHint": "maiores",
-        "FullName": "Adelbert Schimmel",
+        "IconHint": "quis",
+        "ColorBlock": 644,
+        "ExtraInfo": "quis",
+        "StyleHint": "eius",
+        "FullName": "Prof. Patrick Klein V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 625
+            "FieldLength": 131
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 283,
-    "ExtraInfo": "sunt",
-    "StyleHint": "dolorem",
-    "FullName": "Shyanne Carter",
+    "IconHint": "qui",
+    "ColorBlock": 689,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "eos",
+    "FullName": "Boris Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldType": "System.Int32",
+        "FieldLength": 714
       }
     }
   }

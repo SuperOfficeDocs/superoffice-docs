@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/UpdateTypicalSearch
 Update (import) TypicalSearch information in the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"id"
 ```

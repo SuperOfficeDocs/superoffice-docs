@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Get the current mappings for one connection/actor; connection+actor type = unique key
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -81,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 500,
+  "ErpConnectionId": 984,
   "ActorType": "Customer"
 }
 ```
@@ -97,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 348,
+  "ErpConnectionId": 93,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 561,
-      "CrmFieldKey": "aperiam",
-      "CrmDisplayName": "Harvey-Thompson",
-      "CrmDisplayTooltip": "est",
-      "ErpFieldKey": "ea",
+      "ErpFieldId": 564,
+      "CrmFieldKey": "ratione",
+      "CrmDisplayName": "Marks, Corkery and Wiegand",
+      "CrmDisplayTooltip": "quia",
+      "ErpFieldKey": "qui",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schmitt Inc and Sons",
-      "ErpDisplayTooltip": "ducimus",
+      "ErpDisplayName": "Morissette Group",
+      "ErpDisplayTooltip": "quaerat",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": true,
-      "ShowInSearch": true,
+      "ShowInGui": false,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "maxime",
+      "ListReference": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     }
@@ -134,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllFromListName
 Get all list items for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Yundt-Runolfsdottir",
+  "UdListDefinitionName": "Raynor LLC",
   "IncludeDeleted": false
 }
 ```
@@ -97,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "O'Conner, Raynor and Bailey",
-    "Tooltip": "architecto",
-    "Deleted": true,
-    "UdListDefinitionId": 652,
-    "Rank": 988,
+    "Id": 453,
+    "Name": "McCullough-Heller",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "UdListDefinitionId": 757,
+    "Rank": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 823
       }
     }
   }

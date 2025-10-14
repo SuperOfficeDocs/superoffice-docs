@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity
 Gets a ContactRelationEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=704
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=452
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 209,
-  "SourcePersonId": 465,
-  "DestinationContactId": 248,
-  "DestinationPersonId": 488,
-  "RelationId": 779,
-  "Comment": "in",
-  "RelationDefinitionId": 462,
-  "Reversed": 736,
-  "UpdatedDate": "2009-11-01T11:24:48.5470141+01:00",
-  "CreatedDate": "2018-06-12T11:24:48.5470141+02:00",
+  "SourceContactId": 969,
+  "SourcePersonId": 947,
+  "DestinationContactId": 471,
+  "DestinationPersonId": 991,
+  "RelationId": 944,
+  "Comment": "soluta",
+  "RelationDefinitionId": 913,
+  "Reversed": 175,
+  "UpdatedDate": "2002-06-06T03:40:47.5942106+02:00",
+  "CreatedDate": "2020-03-06T03:40:47.5942106+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bogan LLC",
-  "SourcePersonName": "Price LLC",
-  "DestinationContactName": "Dare-Cassin",
-  "DestinationPersonName": "Fritsch LLC",
-  "ActiveText": "modi",
-  "PassiveText": "ex",
+  "SourceContactName": "Mayer-Bogan",
+  "SourcePersonName": "Davis-Jast",
+  "DestinationContactName": "Steuber-Weissnat",
+  "DestinationPersonName": "Strosin-Tromp",
+  "ActiveText": "vel",
+  "PassiveText": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 823
     }
   }
 }

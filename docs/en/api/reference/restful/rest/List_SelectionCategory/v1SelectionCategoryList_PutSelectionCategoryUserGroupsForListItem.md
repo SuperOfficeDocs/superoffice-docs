@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Homenick, Lindgren and Nienow",
-    "ToolTip": "Molestiae quo consequatur.",
+    "Id": 880,
+    "Name": "Pouros-Hamill",
+    "ToolTip": "Officiis beatae odit rerum sint vero laudantium.",
     "Deleted": false,
-    "Rank": 832,
-    "Type": "ab",
-    "ColorBlock": 12,
-    "IconHint": "culpa",
+    "Rank": 656,
+    "Type": "id",
+    "ColorBlock": 206,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-08-01T11:24:54.1405361+02:00",
+    "LastChanged": "2025-04-11T03:40:57.1189414+02:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Schoen-Johnston",
-        "ToolTip": "Est rem soluta et sequi iste repudiandae ratione.",
-        "Deleted": true,
-        "Rank": 718,
-        "Type": "est",
-        "ColorBlock": 982,
-        "IconHint": "doloremque",
-        "Selected": true,
-        "LastChanged": "2005-08-23T11:24:54.1405361+02:00",
+        "Id": 253,
+        "Name": "Johnston-Adams",
+        "ToolTip": "Dicta reprehenderit ipsum nobis veniam fugiat.",
+        "Deleted": false,
+        "Rank": 742,
+        "Type": "ut",
+        "ColorBlock": 660,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2024-09-05T03:40:57.1189414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Jazmyn Schroeder"
+        "ExtraInfo": "quaerat",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Johanna Koch"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Shaina Rohan"
+    "ExtraInfo": "dolores",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Eloy Price"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Considine LLC",
-    "ToolTip": "Ullam illum aperiam dolores voluptatem et enim.",
-    "Deleted": true,
-    "Rank": 753,
-    "Type": "corporis",
-    "ColorBlock": 238,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2011-03-30T11:24:54.1561606+02:00",
+    "Id": 811,
+    "Name": "Torp-Heathcote",
+    "ToolTip": "Et aperiam nisi eaque velit minus quidem.",
+    "Deleted": false,
+    "Rank": 469,
+    "Type": "vero",
+    "ColorBlock": 565,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2003-09-21T03:40:57.1189414+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Nikolaus LLC",
-        "ToolTip": "Consequatur est delectus rerum sapiente quas consequatur dolorem.",
+        "Id": 304,
+        "Name": "Bednar-Wisoky",
+        "ToolTip": "Non quia et sed.",
         "Deleted": true,
-        "Rank": 437,
-        "Type": "at",
-        "ColorBlock": 773,
-        "IconHint": "expedita",
-        "Selected": true,
-        "LastChanged": "2013-02-06T11:24:54.1561606+01:00",
+        "Rank": 971,
+        "Type": "deleniti",
+        "ColorBlock": 676,
+        "IconHint": "dolorum",
+        "Selected": false,
+        "LastChanged": "2009-10-04T03:40:57.1189414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aut",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Katarina Rodriguez",
+        "FullName": "Kiarra Baumbach III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Bertha Greenfelder",
+    "FullName": "Cynthia Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 8
       }
     }
   }

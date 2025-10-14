@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveToMailServer
 Save the passed e-mail back to the mail server
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,148 +121,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 968,
-      "ContactName": "Jaskolski-Hodkiewicz",
-      "PersonId": 587,
-      "PersonName": "Kessler Group",
-      "AssociateId": 313,
-      "Address": "alias",
-      "EmailId": 623,
+      "ContactId": 984,
+      "ContactName": "Jakubowski Group",
+      "PersonId": 199,
+      "PersonName": "Weissnat LLC",
+      "AssociateId": 653,
+      "Address": "rerum",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        560,
-        723
+        142,
+        290
       ],
-      "Name": "Koepp, Welch and Ebert",
+      "Name": "Greenholt Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldLength": 806
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 941,
-      "ContactName": "Yost-Torphy",
-      "PersonId": 613,
-      "PersonName": "Wintheiser Inc and Sons",
-      "AssociateId": 381,
-      "Address": "atque",
-      "EmailId": 299,
+      "ContactId": 976,
+      "ContactName": "Legros-Gleichner",
+      "PersonId": 65,
+      "PersonName": "Smith, Kassulke and Hansen",
+      "AssociateId": 9,
+      "Address": "voluptas",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        475,
-        282
+        935,
+        240
       ],
-      "Name": "Bergnaum LLC",
+      "Name": "Bahringer-Schultz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 438
+          "FieldLength": 288
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 108,
-      "ContactName": "Franecki, Sawayn and Donnelly",
-      "PersonId": 268,
-      "PersonName": "Harber, Hagenes and Yundt",
-      "AssociateId": 333,
-      "Address": "corrupti",
-      "EmailId": 369,
+      "ContactId": 59,
+      "ContactName": "Rau-Hoeger",
+      "PersonId": 743,
+      "PersonName": "Strosin, Fisher and Beer",
+      "AssociateId": 652,
+      "Address": "tempore",
+      "EmailId": 990,
       "DuplicatePersonIds": [
-        590,
-        6
+        555,
+        88
       ],
-      "Name": "Dickens, Gislason and Mitchell",
+      "Name": "Thiel-Hills",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 15
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
   ],
-  "Subject": "nostrum",
-  "HTMLBody": "fugiat",
+  "Subject": "repudiandae",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2007-01-06T11:24:48.1095319+01:00",
-  "Size": 903,
+  "Sent": "2002-05-21T03:40:46.9061483+02:00",
+  "Size": 419,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "sint",
+  "MessageID": "iusto",
+  "PlainBody": "ipsa",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 272,
+  "ServerId": 246,
   "Attachments": [
     {
-      "Description": "Reactive solution-oriented process improvement",
-      "Filename": "doloremque",
-      "Size": 59,
-      "Type": "dolor",
-      "Encoding": "id",
-      "Id": "laboriosam",
-      "Disposition": "nulla",
-      "IsSafeFileExtension": true,
+      "Description": "Synergized optimizing interface",
+      "Filename": "quidem",
+      "Size": 713,
+      "Type": "ut",
+      "Encoding": "sint",
+      "Id": "odit",
+      "Disposition": "consequatur",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 596
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Funk Group",
+      "Name": "Bailey, Hudson and Goyette",
       "Values": [
-        "voluptatibus",
-        "laboriosam"
+        "possimus",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     },
     {
-      "Name": "Funk Group",
+      "Name": "Bailey, Hudson and Goyette",
       "Values": [
-        "voluptatibus",
-        "laboriosam"
+        "possimus",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 700
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     }
   ],
-  "FolderName": "Hegmann Inc and Sons",
-  "EmailItemId": 513,
-  "AccountId": 288,
-  "ReceivedAt": "2018-05-02T11:24:48.1095319+02:00",
+  "FolderName": "Friesen, Mertz and Schmidt",
+  "EmailItemId": 950,
+  "AccountId": 181,
+  "ReceivedAt": "2018-09-09T03:40:46.9061483+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-12-27T11:24:48.1095319+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-02-13T03:40:46.9061483+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 125
     }
   }
 }

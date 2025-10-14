@@ -15,6 +15,7 @@ Return information about all the user defined fields on a particular owner type 
 
 
 Note this may be different than the currently published fields.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -109,7 +110,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +126,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 133,
-    "ColumnId": 326,
-    "FieldDefault": "est",
-    "FieldHeight": 692,
-    "FieldLabel": "pariatur",
-    "FieldLeft": 87,
-    "FieldTop": 143,
+    "UDefFieldId": 625,
+    "ColumnId": 409,
+    "FieldDefault": "culpa",
+    "FieldHeight": 282,
+    "FieldLabel": "id",
+    "FieldLeft": 510,
+    "FieldTop": 961,
     "FieldType": "Checkbox",
-    "FieldWidth": 546,
-    "FormatMask": "cumque",
+    "FieldWidth": 92,
+    "FormatMask": "eligendi",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 476,
-    "LabelLeft": 740,
-    "LabelTop": 462,
-    "LabelWidth": 295,
-    "LastVersionId": 8,
-    "ListTableId": 987,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 551,
+    "LabelLeft": 577,
+    "LabelTop": 336,
+    "LabelWidth": 746,
+    "LastVersionId": 724,
+    "ListTableId": 386,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 137,
-    "ProgId": "non",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 489,
-    "TextLength": 400,
-    "Tooltip": "blanditiis",
-    "UdefIdentity": 544,
-    "UDListDefinitionId": 911,
+    "Page1LineNo": 200,
+    "ProgId": "neque",
+    "IsReadOnly": false,
+    "ShortLabel": "sed",
+    "TabOrder": 828,
+    "TextLength": 964,
+    "Tooltip": "quidem",
+    "UdefIdentity": 232,
+    "UDListDefinitionId": 724,
     "Justification": "Center",
-    "Version": 456,
-    "TemplateVariableName": "Bernhard-Dare",
+    "Version": 98,
+    "TemplateVariableName": "Frami-Koepp",
     "HasBeenPublished": false,
-    "MdoListName": "Will, Kuvalis and Predovic",
+    "MdoListName": "Reilly, Rogahn and Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 910
       }
     }
   }

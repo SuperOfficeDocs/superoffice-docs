@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReasonSoldList
 Gets an array of ReasonSold objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSoldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Value": "possimus",
-    "Tooltip": "id",
+    "Id": 63,
+    "Value": "officiis",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 951
       }
     }
   },
   {
-    "Id": 93,
-    "Value": "possimus",
-    "Tooltip": "id",
+    "Id": 63,
+    "Value": "officiis",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldType": "System.String",
+        "FieldLength": 951
       }
     }
   }

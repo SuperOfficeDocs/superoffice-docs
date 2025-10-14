@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,13 +84,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 950,
-  "Name": "Schulist, Rau and Vandervort",
-  "ContentType": "est",
-  "AttSize": 262,
+  "AttachmentId": 516,
+  "Name": "Murazik-Mertz",
+  "ContentType": "non",
+  "AttSize": 675,
   "InlineImage": false,
-  "ContentId": "blanditiis",
-  "AuthKey": "quas",
+  "ContentId": "incidunt",
+  "AuthKey": "totam",
   "IsSafeFileExtension": false
 }
 ```
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 245,
-  "Name": "Rolfson, Cummings and Crona",
-  "ContentType": "sed",
-  "AttSize": 913,
-  "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "maxime",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 625,
+  "Name": "Skiles LLC",
+  "ContentType": "eaque",
+  "AttSize": 346,
+  "InlineImage": true,
+  "ContentId": "dolor",
+  "AuthKey": "perspiciatis",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 742
     }
   }
 }

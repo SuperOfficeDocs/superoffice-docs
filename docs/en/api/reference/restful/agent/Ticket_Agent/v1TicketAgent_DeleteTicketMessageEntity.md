@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity
 Delete a ticket message
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 111
+  "TicketMessageEntityId": 673
 }
 ```
 

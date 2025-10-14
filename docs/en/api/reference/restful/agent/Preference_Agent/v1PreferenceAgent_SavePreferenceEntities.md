@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceEntities
 Save this set of preferences.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -73,19 +75,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "nihil",
+      "RawValue": "voluptatum",
       "Specification": null,
-      "DisplayValue": "quia",
-      "DisplayTooltip": "in",
+      "DisplayValue": "enim",
+      "DisplayTooltip": "ea",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 346,
-      "PrefDescId": 855,
-      "TableName": "Schaefer-Stanton",
-      "UserPreferenceId": 895
+      "TargetId": 669,
+      "PrefDescId": 40,
+      "TableName": "Robel-Schimmel",
+      "UserPreferenceId": 279
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

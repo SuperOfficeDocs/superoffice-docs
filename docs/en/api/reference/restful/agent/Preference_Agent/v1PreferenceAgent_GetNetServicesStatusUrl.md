@@ -15,6 +15,7 @@ Returns URL to status service.
 
 
 e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
+NsApiSlow threshold: 1000 ms.
 
 
 

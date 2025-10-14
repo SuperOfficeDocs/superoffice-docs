@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Gislason, Lockman and Bechtelar",
-    "ToolTip": "Eveniet dolores.",
+    "Id": 817,
+    "Name": "Koss-Carter",
+    "ToolTip": "Quia voluptatem rerum ut aliquam et ut rerum.",
     "Deleted": false,
-    "Rank": 457,
+    "Rank": 662,
     "Type": "aspernatur",
-    "ColorBlock": 2,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2015-02-01T11:24:53.9686678+01:00",
+    "ColorBlock": 929,
+    "IconHint": "rem",
+    "Selected": true,
+    "LastChanged": "2016-09-18T03:40:56.9620969+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Quitzon, Skiles and Corwin",
-        "ToolTip": "In autem numquam quae deleniti.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "et",
-        "ColorBlock": 215,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2020-12-03T11:24:53.9686678+01:00",
+        "Id": 534,
+        "Name": "Greenholt Group",
+        "ToolTip": "Fugiat voluptatem fuga.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "illum",
+        "ColorBlock": 313,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2001-09-27T03:40:56.9620969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "eum",
+        "ExtraInfo": "sint",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Percy Harber",
+        "FullName": "Olaf Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "qui",
+    "ExtraInfo": "delectus",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Miss Chet Dickens",
+    "FullName": "Edwina Griffin Oberbrunner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 383
       }
     }
   }

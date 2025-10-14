@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/ToggleProductInAssortment
 Toggles if the prdouct is in assortment or not
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Quote/ToggleProductInAssortment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 109
+  "ProductId": 911
 }
 ```
 

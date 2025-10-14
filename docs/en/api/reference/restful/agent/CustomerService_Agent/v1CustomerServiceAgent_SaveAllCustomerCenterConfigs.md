@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Save an array of CustomerCenterConfig entities to the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,20 +67,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 232,
+      "CustConfigId": 827,
       "Type": "Options",
-      "Config": "sit",
-      "CustLangId": 511,
-      "Registered": "2008-10-06T11:24:47.8439178+02:00",
-      "RegisteredAssociateId": 15,
-      "Updated": "2004-01-30T11:24:47.8439178+01:00",
-      "UpdatedAssociateId": 724
+      "Config": "fuga",
+      "CustLangId": 542,
+      "Registered": "1999-01-23T03:40:46.5468616+01:00",
+      "RegisteredAssociateId": 328,
+      "Updated": "2003-05-27T03:40:46.5468616+02:00",
+      "UpdatedAssociateId": 140
     }
   ]
 }

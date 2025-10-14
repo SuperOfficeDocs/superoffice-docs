@@ -930,6 +930,8 @@ items:
     href: Dash_Agent/v1DashAgent_GetDashCollection.md
   - name: GetDashList
     href: Dash_Agent/v1DashAgent_GetDashList.md
+  - name: GetDashQuickFilters
+    href: Dash_Agent/v1DashAgent_GetDashQuickFilters.md
   - name: GetDashTheme
     href: Dash_Agent/v1DashAgent_GetDashTheme.md
   - name: GetDashTile
@@ -942,6 +944,8 @@ items:
     href: Dash_Agent/v1DashAgent_GetDashTileHtmlList.md
   - name: GetDashTiles
     href: Dash_Agent/v1DashAgent_GetDashTiles.md
+  - name: GetPossibleDashQuickFilters
+    href: Dash_Agent/v1DashAgent_GetPossibleDashQuickFilters.md
   - name: GetPreviewDash
     href: Dash_Agent/v1DashAgent_GetPreviewDash.md
   - name: GetSecondaryTempTileSelection
@@ -950,6 +954,8 @@ items:
     href: Dash_Agent/v1DashAgent_GetTempTileSelection.md
   - name: SaveDash
     href: Dash_Agent/v1DashAgent_SaveDash.md
+  - name: SaveDashQuickFilters
+    href: Dash_Agent/v1DashAgent_SaveDashQuickFilters.md
   - name: SaveDashTheme
     href: Dash_Agent/v1DashAgent_SaveDashTheme.md
   - name: SaveDashTile

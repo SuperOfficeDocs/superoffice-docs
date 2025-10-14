@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Loading default values into a new SelectionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,7 +98,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,70 +108,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented encompassing groupware",
-  "Postit": "dolores",
+  "Description": "Ameliorated upward-trending middleware",
+  "Postit": "eius",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 18,
-  "IncludePerson": 926,
+  "GroupIdx": 147,
+  "IncludePerson": 56,
   "MemberCount": 99.99,
-  "Name": "Von, Bartoletti and Cremin",
-  "PostitTextId": 35,
-  "CreatedDate": "2010-12-07T11:24:48.6095199+01:00",
-  "SelectionId": 482,
-  "SoundEx": "quia",
-  "Source": 289,
-  "TextId": 705,
-  "UpdatedDate": "2015-11-22T11:24:48.6095199+01:00",
-  "UpdatedCount": 670,
-  "Visibility": 973,
+  "Name": "Crist Group",
+  "PostitTextId": 313,
+  "CreatedDate": "2009-12-08T03:40:47.7035926+01:00",
+  "SelectionId": 516,
+  "SoundEx": "sit",
+  "Source": 777,
+  "TextId": 748,
+  "UpdatedDate": "2000-09-18T03:40:47.7035926+02:00",
+  "UpdatedCount": 981,
+  "Visibility": 149,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 871,
-  "TargetTableName": "Robel, Orn and Cruickshank",
+  "CompanyUnique": true,
+  "TargetTableNumber": 31,
+  "TargetTableName": "Trantow-Kuhic",
   "Completed": false,
-  "LeftSelectionId": 79,
-  "RightSelectionId": 118,
+  "LeftSelectionId": 156,
+  "RightSelectionId": 169,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow Group",
-  "ShadowProviderName": "Lang-Barton",
-  "ChartKey": "amet",
-  "LastLoaded": "2014-01-18T11:24:48.6095199+01:00",
-  "LastLoadedBy": 548,
+  "MainProviderName": "Kunde-Raynor",
+  "ShadowProviderName": "Gaylord, Heaney and Torphy",
+  "ChartKey": "nulla",
+  "LastLoaded": "2002-10-22T03:40:47.7035926+02:00",
+  "LastLoadedBy": 942,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-03-01T11:24:48.6095199+01:00",
-  "LastMembershipChangeBy": 334,
+  "LastMembershipChange": "2023-12-11T03:40:47.7035926+01:00",
+  "LastMembershipChangeBy": 647,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cum",
-  "MemberTabHeading": "impedit",
-  "MailingsProviderName": "Beer Inc and Sons",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "ipsam",
+  "MemberTabHeading": "odio",
+  "MailingsProviderName": "Heathcote, Paucek and Nitzsche",
+  "DashboardTileDefinitionId": 696,
   "VisibleFor": [
     {
-      "VisibleId": 816,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldLength": 675
         }
       }
     },
     {
-      "VisibleId": 816,
+      "VisibleId": 153,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldLength": 675
         }
       }
     }
@@ -179,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 108
     }
   }
 }

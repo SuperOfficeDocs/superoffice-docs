@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 927,
-  "StartTime": "1999-03-03T11:24:47.8751665+01:00",
-  "EndTime": "2025-05-25T11:24:47.8751665+02:00",
-  "Count": 882,
-  "DocumentTemplateId": 639
+  "ContactId": 244,
+  "StartTime": "2010-01-17T03:40:46.5780122+01:00",
+  "EndTime": "2023-05-16T03:40:46.5780122+02:00",
+  "Count": 336,
+  "DocumentTemplateId": 228
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 240,
-    "Attention": "repellat",
-    "Header": "saepe",
-    "Name": "Hegmann Group",
-    "OurRef": "et",
-    "YourRef": "voluptas",
-    "Description": "Grass-roots 4th generation throughput",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 255,
+    "Attention": "quia",
+    "Header": "suscipit",
+    "Name": "Simonis-Mann",
+    "OurRef": "consequatur",
+    "YourRef": "enim",
+    "Description": "Stand-alone grid-enabled toolset",
+    "DocumentTemplate": "nobis",
     "IsPublished": false,
-    "PersonId": 94,
-    "PersonFullName": "Bette Nitzsche",
-    "AssociateFullName": "Miss Gunnar Astrid Rodriguez II",
-    "ContactId": 721,
-    "ContactName": "Marquardt Group",
-    "ProjectId": 833,
-    "ProjectName": "Champlin-Howe",
-    "AssociateId": 40,
-    "Snum": 460,
-    "SaleId": 409,
-    "SaleName": "Crona, Johnston and Crist",
+    "PersonId": 360,
+    "PersonFullName": "Earnest Hintz",
+    "AssociateFullName": "Dr. Garfield Williamson",
+    "ContactId": 799,
+    "ContactName": "Dickinson LLC",
+    "ProjectId": 862,
+    "ProjectName": "Bernhard-Prohaska",
+    "AssociateId": 430,
+    "Snum": 530,
+    "SaleId": 163,
+    "SaleName": "Nader-Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 664
       }
     }
   }

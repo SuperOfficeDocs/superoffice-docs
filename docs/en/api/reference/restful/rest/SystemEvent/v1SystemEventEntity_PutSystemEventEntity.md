@@ -14,6 +14,8 @@ PUT /api/v1/SystemEvent/{id}
 Updates the existing SystemEventEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,19 +100,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 777,
+  "SystemEventId": 988,
   "Scope": "Database",
-  "Eta": "2013-10-09T11:24:53.5780588+02:00",
-  "Eventkey": "praesentium",
-  "Eventmess": "ut",
-  "ExtraInfo": 801,
-  "Owner": 625,
-  "UpdatedCount": 970,
-  "Registered": "2024-12-01T11:24:53.5780588+01:00",
+  "Eta": "2013-01-01T03:40:56.2890936+01:00",
+  "Eventkey": "quo",
+  "Eventmess": "voluptate",
+  "ExtraInfo": 191,
+  "Owner": 349,
+  "UpdatedCount": 433,
+  "Registered": "2009-04-09T03:40:56.2890936+02:00",
   "ActivatedBy": null
 }
 ```
@@ -122,22 +124,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 851,
+  "SystemEventId": 924,
   "Scope": "Database",
-  "Eta": "2001-03-02T11:24:53.5780588+01:00",
-  "Eventkey": "eos",
-  "Eventmess": "aspernatur",
-  "ExtraInfo": 233,
-  "Owner": 589,
-  "UpdatedCount": 561,
-  "Registered": "2007-12-13T11:24:53.5780588+01:00",
+  "Eta": "2013-11-12T03:40:56.320343+01:00",
+  "Eventkey": "odio",
+  "Eventmess": "omnis",
+  "ExtraInfo": 402,
+  "Owner": 903,
+  "UpdatedCount": 644,
+  "Registered": "2010-01-01T03:40:56.320343+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   },
   "_Links": {

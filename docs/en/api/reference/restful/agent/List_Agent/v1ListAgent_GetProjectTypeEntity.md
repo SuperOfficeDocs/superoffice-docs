@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProjectTypeEntity
 Gets a ProjectTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=68
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=705
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,41 +89,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 10,
-  "Name": "Wuckert LLC",
-  "Tooltip": "et",
-  "Rank": 44,
+  "ProjTypeId": 486,
+  "Name": "Johnson LLC",
+  "Tooltip": "itaque",
+  "Rank": 813,
   "DurationUnit": "Century",
-  "ProjectDuration": 659,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 730,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 671,
-      "Name": "Feeney Inc and Sons",
-      "ToolTip": "Praesentium laboriosam maxime voluptates quisquam.",
+      "Id": 446,
+      "Name": "Blick LLC",
+      "ToolTip": "Est consectetur sit.",
       "Deleted": false,
-      "Rank": 377,
-      "Type": "vel",
-      "ColorBlock": 338,
-      "IconHint": "velit",
-      "Selected": true,
-      "LastChanged": "2022-01-02T11:24:48.1876539+01:00",
+      "Rank": 143,
+      "Type": "quo",
+      "ColorBlock": 391,
+      "IconHint": "minus",
+      "Selected": false,
+      "LastChanged": "2010-12-31T03:40:47.0624077+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "sed",
+      "ExtraInfo": "atque",
+      "StyleHint": "eveniet",
       "Hidden": false,
-      "FullName": "Kristin Langworth",
+      "FullName": "Dr. Dedric Kadin Reichel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldType": "System.Int32",
+          "FieldLength": 460
         }
       }
     }
@@ -130,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

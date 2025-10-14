@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
+  "PersonId": 781,
   "IncludeProjectDocuments": false,
-  "StartTime": "2023-03-16T11:24:47.9376639+01:00",
-  "EndTime": "2004-11-11T11:24:47.9376639+01:00",
-  "Count": 722
+  "StartTime": "2000-09-10T03:40:46.6092641+02:00",
+  "EndTime": "2002-10-22T03:40:46.6092641+02:00",
+  "Count": 383
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 524,
-    "Attention": "quibusdam",
-    "Header": "voluptatem",
-    "Name": "Hartmann-Larkin",
-    "OurRef": "temporibus",
-    "YourRef": "dolor",
-    "Description": "Profit-focused even-keeled artificial intelligence",
-    "DocumentTemplate": "autem",
-    "IsPublished": false,
-    "PersonId": 737,
-    "PersonFullName": "Hillary Watsica",
-    "AssociateFullName": "Devonte Bryce Fay DDS",
-    "ContactId": 468,
-    "ContactName": "Prohaska-Wolff",
-    "ProjectId": 925,
-    "ProjectName": "Haag-Carroll",
-    "AssociateId": 234,
-    "Snum": 771,
-    "SaleId": 438,
-    "SaleName": "Effertz, Kling and Sanford",
+    "DocumentId": 727,
+    "Attention": "quia",
+    "Header": "neque",
+    "Name": "Walsh Inc and Sons",
+    "OurRef": "necessitatibus",
+    "YourRef": "reiciendis",
+    "Description": "Optional client-driven adapter",
+    "DocumentTemplate": "earum",
+    "IsPublished": true,
+    "PersonId": 376,
+    "PersonFullName": "Prof. Baylee Walsh IV",
+    "AssociateFullName": "Morgan Elaina Brown DVM",
+    "ContactId": 527,
+    "ContactName": "Hand-Cole",
+    "ProjectId": 681,
+    "ProjectName": "Maggio-Batz",
+    "AssociateId": 838,
+    "Snum": 173,
+    "SaleId": 62,
+    "SaleName": "Koch, Carroll and Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 906
       }
     }
   }

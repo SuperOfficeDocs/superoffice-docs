@@ -15,6 +15,7 @@ Creates a new DocumentEntity Save the document entity.
 
 
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth. Calls the Document agent service SaveDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -143,77 +144,77 @@ OK
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 97,
+  "DocumentId": 426,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "totam",
-  "Header": "totam",
-  "Name": "Daniel Group",
-  "OurRef": "repudiandae",
-  "YourRef": "neque",
-  "CreatedDate": "2015-09-10T11:24:53.2345794+02:00",
-  "UpdatedDate": "2000-11-13T11:24:53.2345794+01:00",
-  "Description": "Polarised modular internet solution",
+  "Attention": "et",
+  "Header": "corrupti",
+  "Name": "Block, Predovic and Lakin",
+  "OurRef": "quod",
+  "YourRef": "illum",
+  "CreatedDate": "1999-06-24T03:40:55.6319065+02:00",
+  "UpdatedDate": "2013-10-26T03:40:55.6319065+02:00",
+  "Description": "Multi-lateral fault-tolerant secured line",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-04-02T11:24:53.2345794+02:00",
-  "ExternalRef": "impedit",
+  "Date": "2003-02-26T03:40:55.6319065+01:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 930,
+  "ActiveLinks": 515,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wuckert-Hegmann",
-      "Id": 172,
-      "Description": "Networked methodical product",
-      "ExtraInfo": "non",
-      "LinkId": 567
+      "EntityName": "Quitzon, Ondricka and Rutherford",
+      "Id": 840,
+      "Description": "Profound needs-based service-desk",
+      "ExtraInfo": "ut",
+      "LinkId": 165
     },
     {
-      "EntityName": "Wuckert-Hegmann",
-      "Id": 172,
-      "Description": "Networked methodical product",
-      "ExtraInfo": "non",
-      "LinkId": 567
+      "EntityName": "Quitzon, Ondricka and Rutherford",
+      "Id": 840,
+      "Description": "Profound needs-based service-desk",
+      "ExtraInfo": "ut",
+      "LinkId": 165
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 362,
-  "Snum": 561,
+  "SuggestedDocumentId": 219,
+  "Snum": 794,
   "UserDefinedFields": {
-    "SuperOffice:1": "Anibal Nader",
-    "SuperOffice:2": "582622589"
+    "SuperOffice:1": "1644327237",
+    "SuperOffice:2": "1165217622"
   },
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "et"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "atque"
+    "CustomFields1": "dolor",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2010-10-26T11:24:53.2345794+02:00",
-  "PublishTo": "2021-06-10T11:24:53.2345794+02:00",
-  "PublishFrom": "2004-08-12T11:24:53.2345794+02:00",
+  "PublishEventDate": "2022-01-06T03:40:55.6319065+01:00",
+  "PublishTo": "2013-10-19T03:40:55.6319065+02:00",
+  "PublishFrom": "2011-09-30T03:40:55.6319065+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 686,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "quisquam"
     },
     {
-      "VisibleId": 686,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "quisquam"
     }
   ]
 }
@@ -226,88 +227,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 350,
+  "DocumentId": 272,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "voluptatum",
-  "Name": "Bogisich-Cartwright",
-  "OurRef": "quae",
-  "YourRef": "officiis",
-  "CreatedDate": "2006-03-19T11:24:53.2345794+01:00",
-  "UpdatedDate": "2002-03-22T11:24:53.2345794+01:00",
-  "Description": "Adaptive high-level secured line",
+  "Attention": "non",
+  "Header": "neque",
+  "Name": "Gleason-McLaughlin",
+  "OurRef": "omnis",
+  "YourRef": "itaque",
+  "CreatedDate": "2017-06-12T03:40:55.6319065+02:00",
+  "UpdatedDate": "2015-03-12T03:40:55.6319065+01:00",
+  "Description": "Sharable uniform workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-01-27T11:24:53.2345794+01:00",
-  "ExternalRef": "officia",
+  "Date": "2001-01-28T03:40:55.6475326+01:00",
+  "ExternalRef": "a",
   "Completed": "Completed",
-  "ActiveLinks": 869,
+  "ActiveLinks": 43,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hegmann, Kihn and Mohr",
-      "Id": 662,
-      "Description": "Reverse-engineered high-level alliance",
-      "ExtraInfo": "praesentium",
-      "LinkId": 674,
+      "EntityName": "Mohr, Mills and Fadel",
+      "Id": 735,
+      "Description": "Integrated optimizing structure",
+      "ExtraInfo": "accusamus",
+      "LinkId": 964,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 615,
-  "Snum": 80,
+  "SuggestedDocumentId": 574,
+  "Snum": 712,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kristy Lubowitz",
-    "SuperOffice:2": "1388994283"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Linda Ratke III"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "quasi",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2002-04-07T11:24:53.2345794+02:00",
-  "PublishTo": "2004-12-17T11:24:53.2345794+01:00",
-  "PublishFrom": "2011-05-07T11:24:53.2345794+02:00",
+  "PublishEventDate": "2021-04-11T03:40:55.6475326+02:00",
+  "PublishTo": "2009-05-21T03:40:55.6475326+02:00",
+  "PublishFrom": "2020-10-03T03:40:55.6475326+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 220,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 72
         }
       }
     },
     {
-      "VisibleId": 220,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "ratione",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldLength": 72
         }
       }
     }
@@ -316,13 +317,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

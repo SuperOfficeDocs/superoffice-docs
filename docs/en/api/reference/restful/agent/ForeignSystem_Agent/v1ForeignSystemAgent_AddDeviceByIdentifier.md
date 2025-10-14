@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,13 +86,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goldner LLC",
-  "DeviceName": "Abbott Inc and Sons",
-  "DeviceIdentifier": "recusandae"
+  "ApplicationName": "Smith-Lockman",
+  "DeviceName": "Gaylord-Boyer",
+  "DeviceIdentifier": "placeat"
 }
 ```
 
@@ -101,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 46,
-  "Name": "Gorczany, Franecki and Lesch",
-  "CreatedDate": "2007-02-13T11:24:48.1564051+01:00",
-  "UpdatedDate": "2007-06-12T11:24:48.1564051+02:00",
-  "AssociateFullName": "Anibal Reynolds",
-  "CreatedBy": "et",
-  "UpdatedBy": "quod",
-  "DeviceIdentifier": "dolorum",
-  "ForeignAppId": 35,
+  "ForeignDeviceId": 609,
+  "Name": "Vandervort, Sawayn and Rolfson",
+  "CreatedDate": "2015-09-27T03:40:46.9842779+02:00",
+  "UpdatedDate": "2001-12-04T03:40:46.9842779+01:00",
+  "AssociateFullName": "Miss Martin Schiller Jr.",
+  "CreatedBy": "tenetur",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "quibusdam",
+  "ForeignAppId": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

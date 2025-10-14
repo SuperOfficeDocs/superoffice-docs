@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Aufderhar-Conn",
-    "SoPrimaryKey": 919,
-    "EntryName": "Daugherty LLC",
-    "EntryIdentifier": "voluptas",
-    "RuleDisplayName": "Heidenreich LLC",
+    "RuleName": "Borer, Nienow and McLaughlin",
+    "SoPrimaryKey": 587,
+    "EntryName": "Wiza Group",
+    "EntryIdentifier": "rerum",
+    "RuleDisplayName": "Sipes, Torphy and Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 323
       }
     }
   }

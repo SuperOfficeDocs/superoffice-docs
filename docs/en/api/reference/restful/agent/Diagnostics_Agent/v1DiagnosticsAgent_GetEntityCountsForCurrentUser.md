@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Get an array of entities and number of entities created for the current associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Wyman Inc and Sons",
-    "Records": 477,
+    "EntityName": "Rogahn, Littel and Gulgowski",
+    "Records": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 314
       }
     }
   },
   {
-    "EntityName": "Wyman Inc and Sons",
-    "Records": 477,
+    "EntityName": "Rogahn, Littel and Gulgowski",
+    "Records": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 314
       }
     }
   }

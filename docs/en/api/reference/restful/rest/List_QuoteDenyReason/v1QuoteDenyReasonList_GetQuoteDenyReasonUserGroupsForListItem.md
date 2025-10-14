@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Pouros, Littel and Jacobson",
-    "ToolTip": "Esse officiis dicta.",
+    "Id": 420,
+    "Name": "Reichel, Bashirian and Goodwin",
+    "ToolTip": "Eos aut est.",
     "Deleted": false,
-    "Rank": 794,
-    "Type": "eius",
-    "ColorBlock": 709,
+    "Rank": 796,
+    "Type": "nostrum",
+    "ColorBlock": 587,
     "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2018-11-09T11:24:54.0936627+01:00",
+    "LastChanged": "2019-08-20T03:40:57.0558521+02:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "Zboncak-O'Kon",
-        "ToolTip": "Ut ea neque odit et et deserunt.",
-        "Deleted": false,
-        "Rank": 549,
-        "Type": "numquam",
-        "ColorBlock": 466,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2018-12-13T11:24:54.0936627+01:00",
+        "Id": 729,
+        "Name": "Turcotte Group",
+        "ToolTip": "Dicta quae placeat vero.",
+        "Deleted": true,
+        "Rank": 836,
+        "Type": "voluptatem",
+        "ColorBlock": 737,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2024-06-16T03:40:57.0558521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quis",
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Freda Bailey",
+        "FullName": "Alysa Sipes I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 339
+            "FieldLength": 216
           }
         }
       }
     ],
     "ExtraInfo": "quo",
-    "StyleHint": "facilis",
+    "StyleHint": "laborum",
     "Hidden": true,
-    "FullName": "Stella Bechtelar",
+    "FullName": "Deon Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 839
       }
     }
   }

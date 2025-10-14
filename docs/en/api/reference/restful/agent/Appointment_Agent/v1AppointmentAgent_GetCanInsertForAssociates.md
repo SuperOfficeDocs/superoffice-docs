@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 Check if current associate can create appointments in the diary of other associates.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    218,
-    526
+    311,
+    411
   ]
 }
 ```
@@ -87,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  true,
+  false,
   false
 ]
 ```

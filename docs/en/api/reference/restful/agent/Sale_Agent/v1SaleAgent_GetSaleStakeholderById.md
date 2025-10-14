@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    658,
-    311
+    128,
+    236
   ]
 }
 ```
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Yost LLC",
-    "Comment": "officia",
-    "StakeholderRoleId": 663,
-    "CountryId": 374,
-    "PersonId": 844,
-    "EmailDescription": "adrienne_lemke@terry.ca",
-    "EmailId": 407,
-    "EmailAddress": "german.toy@moore.info",
-    "PhoneId": 519,
-    "ContactName": "Welch-Bogan",
-    "ContactId": 640,
-    "SaleId": 830,
-    "Mrmrs": "sed",
-    "Firstname": "Rolando",
-    "MiddleName": "Langworth-Wiegand",
-    "Lastname": "King",
-    "SaleStakeholderId": 880,
-    "Rank": 679,
-    "Phone": "1-800-848-0502 x82552",
+    "StakeholderRoleName": "Hayes-Berge",
+    "Comment": "ipsa",
+    "StakeholderRoleId": 962,
+    "CountryId": 866,
+    "PersonId": 758,
+    "EmailDescription": "kurt@durgan.us",
+    "EmailId": 237,
+    "EmailAddress": "emmanuelle.bahringer@kemmerhauck.name",
+    "PhoneId": 483,
+    "ContactName": "Ferry LLC",
+    "ContactId": 204,
+    "SaleId": 706,
+    "Mrmrs": "fugiat",
+    "Firstname": "Helene",
+    "MiddleName": "Franecki LLC",
+    "Lastname": "Bernier",
+    "SaleStakeholderId": 351,
+    "Rank": 650,
+    "Phone": "529.192.3718",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 807
       }
     }
   }

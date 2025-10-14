@@ -15,6 +15,7 @@ Set default values into a new ShipmentMessageEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,33 +89,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 942,
-  "PlainMessage": "placeat",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "similique",
-  "Description": "Programmable high-level open system",
-  "Subject": "neque",
-  "FolderId": 528,
-  "HeaderField": "qui",
-  "Design": "eaque",
+  "ShipmentMessageId": 311,
+  "PlainMessage": "et",
+  "HtmlMessage": "quibusdam",
+  "SmsMessage": "dolores",
+  "Description": "Mandatory non-volatile customer loyalty",
+  "Subject": "debitis",
+  "FolderId": 904,
+  "HeaderField": "praesentium",
+  "Design": "ipsum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Re-engineered composite extranet",
-  "AccessKey": "quibusdam",
-  "DocumentMessage": 792,
-  "Registered": "2008-12-30T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 916,
-  "Updated": "2009-08-31T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 575,
-  "UpdatedCount": 103,
+  "LongDescription": "Synergistic directional website",
+  "AccessKey": "est",
+  "DocumentMessage": 128,
+  "Registered": "2002-09-13T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 429,
+  "Updated": "2003-07-21T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 343,
+  "UpdatedCount": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

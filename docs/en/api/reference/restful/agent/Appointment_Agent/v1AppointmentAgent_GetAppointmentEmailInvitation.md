@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Create an EMailEntity (without an ical attachment) with the email sent to participants when the appointment is saved
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -101,13 +103,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Berge LLC",
-  "Language": "consequatur"
+  "TemplateName": "Koepp LLC",
+  "Language": "quia"
 }
 ```
 
@@ -120,156 +122,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 599,
-      "ContactName": "Murphy, Wolff and Macejkovic",
-      "PersonId": 275,
-      "PersonName": "Labadie, Kub and Funk",
-      "AssociateId": 483,
-      "Address": "reprehenderit",
-      "EmailId": 80,
+      "ContactId": 253,
+      "ContactName": "Wilkinson-Kutch",
+      "PersonId": 899,
+      "PersonName": "Goodwin, Dickinson and Waters",
+      "AssociateId": 310,
+      "Address": "quos",
+      "EmailId": 561,
       "DuplicatePersonIds": [
-        104,
-        793
+        854,
+        421
       ],
-      "Name": "Reynolds-Halvorson",
+      "Name": "Bosco Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 873
+          "FieldType": "System.Int32",
+          "FieldLength": 334
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 236,
-      "ContactName": "Deckow, Kovacek and Veum",
-      "PersonId": 258,
-      "PersonName": "Lang, Carter and Hartmann",
-      "AssociateId": 780,
-      "Address": "porro",
-      "EmailId": 109,
+      "ContactId": 86,
+      "ContactName": "Wilkinson, Howell and Huel",
+      "PersonId": 522,
+      "PersonName": "Goldner LLC",
+      "AssociateId": 907,
+      "Address": "earum",
+      "EmailId": 184,
       "DuplicatePersonIds": [
-        509,
-        280
+        495,
+        371
       ],
-      "Name": "Mraz, Mayert and Hahn",
+      "Name": "Altenwerth Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 887
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 169,
-      "ContactName": "Sauer Group",
-      "PersonId": 796,
-      "PersonName": "Leannon, Okuneva and Emard",
-      "AssociateId": 471,
-      "Address": "est",
-      "EmailId": 713,
+      "ContactId": 178,
+      "ContactName": "Hammes-Purdy",
+      "PersonId": 527,
+      "PersonName": "Ryan-Funk",
+      "AssociateId": 826,
+      "Address": "eveniet",
+      "EmailId": 465,
       "DuplicatePersonIds": [
-        514,
-        932
+        17,
+        777
       ],
-      "Name": "Upton Group",
+      "Name": "Braun, Tremblay and Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 792
         }
       }
     }
   ],
-  "Subject": "quis",
-  "HTMLBody": "id",
+  "Subject": "est",
+  "HTMLBody": "nihil",
   "From": null,
-  "Sent": "2006-07-02T11:24:47.5626792+02:00",
-  "Size": 133,
+  "Sent": "2000-10-11T03:40:46.0295774+02:00",
+  "Size": 1001,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "libero",
-  "PlainBody": "voluptatum",
+  "MessageID": "occaecati",
+  "PlainBody": "voluptatem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 40,
+  "ServerId": 781,
   "Attachments": [
     {
-      "Description": "Cross-group methodical productivity",
-      "Filename": "optio",
-      "Size": 776,
-      "Type": "ut",
-      "Encoding": "mollitia",
-      "Id": "libero",
-      "Disposition": "aspernatur",
+      "Description": "Public-key transitional hub",
+      "Filename": "voluptatem",
+      "Size": 374,
+      "Type": "quam",
+      "Encoding": "nostrum",
+      "Id": "ea",
+      "Disposition": "laboriosam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 449
+          "FieldType": "System.Int32",
+          "FieldLength": 193
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Roberts Inc and Sons",
+      "Name": "Blanda Inc and Sons",
       "Values": [
-        "dolore",
-        "alias"
+        "perspiciatis",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldLength": 516
         }
       }
     },
     {
-      "Name": "Roberts Inc and Sons",
+      "Name": "Blanda Inc and Sons",
       "Values": [
-        "dolore",
-        "alias"
+        "perspiciatis",
+        "sequi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldLength": 516
         }
       }
     }
   ],
-  "FolderName": "Predovic-Grimes",
-  "EmailItemId": 12,
-  "AccountId": 77,
-  "ReceivedAt": "2023-01-03T11:24:47.5626792+01:00",
+  "FolderName": "Marks Group",
+  "EmailItemId": 569,
+  "AccountId": 247,
+  "ReceivedAt": "2017-11-23T03:40:46.0295774+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-04-21T11:24:47.5626792+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-03-19T03:40:46.0295774+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 210
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Get credential users within a user group
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -82,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sed",
-  "GroupName": "Sporer-Schiller"
+  "Type": "quos",
+  "GroupName": "Shields Inc and Sons"
 }
 ```
 
@@ -95,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "nesciunt",
-    "nam"
+    "et",
+    "ratione"
   ],
   "Users": [
     {
-      "Value": "ad",
-      "DisplayValue": "id",
+      "Value": "temporibus",
+      "DisplayValue": "quia",
       "Columns": [
-        "eum",
-        "doloremque"
+        "aspernatur",
+        "ut"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 232
         }
       }
     },
     {
-      "Value": "ad",
-      "DisplayValue": "id",
+      "Value": "temporibus",
+      "DisplayValue": "quia",
       "Columns": [
-        "eum",
-        "doloremque"
+        "aspernatur",
+        "ut"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 232
         }
       }
     }
@@ -138,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 263
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

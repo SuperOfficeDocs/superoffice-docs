@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
 Returns the id of the default timezone preference with deflevel system wide
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/TimeZone/GetDefaultTimeZonePreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-385
+169
 ```

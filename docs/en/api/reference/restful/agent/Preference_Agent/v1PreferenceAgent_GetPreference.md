@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreference
 Get a preference by id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,11 +86,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639
+  "Id": 801
 }
 ```
 
@@ -100,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quos",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "et",
+  "DisplayValue": "ad",
+  "DisplayTooltip": "similique",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 407,
-  "PrefDescId": 840,
-  "TableName": "Parker, Kuhic and Doyle",
-  "UserPreferenceId": 199,
+  "TargetId": 877,
+  "PrefDescId": 658,
+  "TableName": "Breitenberg LLC",
+  "UserPreferenceId": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 105
     }
   }
 }

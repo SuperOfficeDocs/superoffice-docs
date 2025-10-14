@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 401,
-    "Name": "Davis-Mills",
-    "ContentType": "magni",
-    "AttSize": 938,
-    "InlineImage": false,
-    "ContentId": "sunt",
-    "AuthKey": "itaque",
+    "AttachmentId": 296,
+    "Name": "Boyer Group",
+    "ContentType": "eligendi",
+    "AttSize": 61,
+    "InlineImage": true,
+    "ContentId": "in",
+    "AuthKey": "totam",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 216
       }
     }
   }

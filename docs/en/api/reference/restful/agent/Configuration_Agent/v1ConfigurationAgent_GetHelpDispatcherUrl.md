@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
 Will get the GetHelpDispatcherUrl used by the help system
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/GetHelpDispatcherUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

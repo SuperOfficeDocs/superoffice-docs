@@ -133,63 +133,63 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 698,
+  "EjMessageId": 578,
   "Ticket": null,
-  "CreatedAt": "2021-12-04T11:24:53.703054+01:00",
+  "CreatedAt": "2011-08-20T03:40:56.3984728+02:00",
   "CreatedBy": null,
-  "Author": "ab",
+  "Author": "nesciunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "facere",
-  "TimeSpent": 195,
-  "Body": "minus",
-  "HtmlBody": "quam",
-  "EmailHeader": "jessy@franeckischumm.biz",
-  "DebugInfo": "occaecati",
-  "MailSorter": "quis",
+  "MessageId": "vitae",
+  "TimeSpent": 269,
+  "Body": "sint",
+  "HtmlBody": "possimus",
+  "EmailHeader": "noe@quitzon.com",
+  "DebugInfo": "porro",
+  "MailSorter": "harum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "error",
   "MessageHeaders": [
     {
-      "Id": 174,
-      "Name": "Little-Metz",
-      "Value": "maiores",
+      "Id": 755,
+      "Name": "Heller-Marvin",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 174,
-      "Name": "Little-Metz",
-      "Value": "maiores",
+      "Id": 755,
+      "Name": "Heller-Marvin",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 435,
-  "SentimentConfidence": 846,
+  "Language": "ut",
+  "Sentiment": 673,
+  "SentimentConfidence": 584,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 313,
-      "Name": "VonRueden-Eichmann",
-      "ContentType": "non",
-      "AttSize": 129,
+      "AttachmentId": 970,
+      "Name": "Jacobson Group",
+      "ContentType": "error",
+      "AttSize": 898,
       "InlineImage": false,
-      "ContentId": "consequatur",
-      "AuthKey": "ducimus",
+      "ContentId": "explicabo",
+      "AuthKey": "et",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "libero"
+    "CustomFields1": "ut",
+    "CustomFields2": "reiciendis"
   }
 }
 ```
@@ -201,79 +201,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 975,
+  "EjMessageId": 124,
   "Ticket": null,
-  "CreatedAt": "2021-04-06T11:24:53.7186781+02:00",
+  "CreatedAt": "2016-09-30T03:40:56.3984728+02:00",
   "CreatedBy": null,
-  "Author": "non",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "eligendi",
-  "TimeSpent": 296,
-  "Body": "harum",
-  "HtmlBody": "similique",
-  "EmailHeader": "russ@greenfelder.biz",
-  "DebugInfo": "deleniti",
-  "MailSorter": "incidunt",
+  "MessageId": "ipsa",
+  "TimeSpent": 279,
+  "Body": "est",
+  "HtmlBody": "harum",
+  "EmailHeader": "gregorio.cartwright@simonis.co.uk",
+  "DebugInfo": "dignissimos",
+  "MailSorter": "molestiae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "perferendis",
+  "SearchTitle": "atque",
   "MessageHeaders": [
     {
-      "Id": 536,
-      "Name": "Jast, Lowe and Stroman",
-      "Value": "consequatur",
+      "Id": 101,
+      "Name": "Maggio Inc and Sons",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldType": "System.String",
+          "FieldLength": 221
         }
       }
     }
   ],
   "Important": false,
-  "Language": "ipsum",
-  "Sentiment": 351,
-  "SentimentConfidence": 610,
+  "Language": "numquam",
+  "Sentiment": 647,
+  "SentimentConfidence": 352,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 969,
-      "Name": "Feeney-Sanford",
-      "ContentType": "officia",
-      "AttSize": 510,
-      "InlineImage": false,
-      "ContentId": "impedit",
-      "AuthKey": "exercitationem",
+      "AttachmentId": 400,
+      "Name": "Koch Inc and Sons",
+      "ContentType": "ut",
+      "AttSize": 807,
+      "InlineImage": true,
+      "ContentId": "aperiam",
+      "AuthKey": "enim",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldType": "System.String",
+          "FieldLength": 323
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "autem",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

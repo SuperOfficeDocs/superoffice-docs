@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntity
 Gets a BlobEntity object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=310
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=21
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,25 +92,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 121,
-  "BlobSize": 688,
-  "Description": "User-centric well-modulated archive",
-  "ExtraInfo": "aliquam",
+  "BlobId": 64,
+  "BlobSize": 600,
+  "Description": "Adaptive zero administration Graphical User Interface",
+  "ExtraInfo": "quisquam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sint",
-  "OriginalSize": 433,
-  "CreatedDate": "2025-03-15T11:24:47.6251768+01:00",
-  "UpdatedDate": "2009-08-12T11:24:47.6251768+02:00",
+  "MimeType": "expedita",
+  "OriginalSize": 180,
+  "CreatedDate": "2016-10-06T03:40:46.0920806+02:00",
+  "UpdatedDate": "2006-10-04T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 482
     }
   }
 }

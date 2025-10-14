@@ -91,7 +91,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 734,
-    "ColumnId": 922,
-    "FieldDefault": "atque",
-    "FieldHeight": 314,
-    "FieldLabel": "neque",
-    "FieldLeft": 152,
-    "FieldTop": 858,
+    "UDefFieldId": 667,
+    "ColumnId": 742,
+    "FieldDefault": "sequi",
+    "FieldHeight": 243,
+    "FieldLabel": "sequi",
+    "FieldLeft": 124,
+    "FieldTop": 53,
     "FieldType": "Checkbox",
-    "FieldWidth": 73,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 238,
-    "LabelLeft": 355,
-    "LabelTop": 526,
-    "LabelWidth": 846,
-    "LastVersionId": 148,
-    "ListTableId": 586,
+    "FieldWidth": 333,
+    "FormatMask": "velit",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 345,
+    "LabelLeft": 491,
+    "LabelTop": 565,
+    "LabelWidth": 206,
+    "LastVersionId": 982,
+    "ListTableId": 640,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 690,
-    "ProgId": "amet",
-    "IsReadOnly": true,
-    "ShortLabel": "molestias",
-    "TabOrder": 145,
-    "TextLength": 483,
-    "Tooltip": "ut",
-    "UdefIdentity": 32,
-    "UDListDefinitionId": 459,
+    "Page1LineNo": 326,
+    "ProgId": "aut",
+    "IsReadOnly": false,
+    "ShortLabel": "quibusdam",
+    "TabOrder": 581,
+    "TextLength": 179,
+    "Tooltip": "odit",
+    "UdefIdentity": 984,
+    "UDListDefinitionId": 791,
     "Justification": "Center",
-    "Version": 538,
-    "TemplateVariableName": "Pfeffer Group",
+    "Version": 966,
+    "TemplateVariableName": "Bauch Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Wintheiser-Lowe",
+    "MdoListName": "Jerde LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

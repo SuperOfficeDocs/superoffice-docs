@@ -15,6 +15,7 @@ Set default values into a new TicketEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -115,7 +116,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -125,21 +126,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 659,
-  "Title": "eum",
-  "CreatedAt": "2011-03-01T11:24:53.5936832+01:00",
-  "LastChanged": "2023-08-11T11:24:53.5936832+02:00",
-  "ReadByOwner": "2014-07-23T11:24:53.5936832+02:00",
-  "ReadByCustomer": "2006-09-22T11:24:53.5936832+02:00",
-  "FirstReadByOwner": "2016-09-20T11:24:53.5936832+02:00",
-  "FirstReadByUser": "2004-06-21T11:24:53.5936832+02:00",
-  "Activate": "2015-09-03T11:24:53.5936832+02:00",
-  "ClosedAt": "2021-07-11T11:24:53.5936832+02:00",
-  "RepliedAt": "2010-09-01T11:24:53.5936832+02:00",
-  "AlertTimeout": "2014-07-13T11:24:53.5936832+02:00",
-  "Deadline": "2012-09-16T11:24:53.5936832+02:00",
+  "TicketId": 156,
+  "Title": "totam",
+  "CreatedAt": "2014-11-27T03:40:56.320343+01:00",
+  "LastChanged": "2002-07-18T03:40:56.320343+02:00",
+  "ReadByOwner": "2022-06-29T03:40:56.320343+02:00",
+  "ReadByCustomer": "2010-05-29T03:40:56.320343+02:00",
+  "FirstReadByOwner": "2016-12-12T03:40:56.320343+01:00",
+  "FirstReadByUser": "2007-08-11T03:40:56.320343+02:00",
+  "Activate": "2009-06-13T03:40:56.320343+02:00",
+  "ClosedAt": "2010-08-03T03:40:56.320343+02:00",
+  "RepliedAt": "2017-02-18T03:40:56.320343+01:00",
+  "AlertTimeout": "2020-09-16T03:40:56.320343+02:00",
+  "Deadline": "2004-05-22T03:40:56.320343+02:00",
   "CreatedBy": null,
-  "Author": "unde",
+  "Author": "non",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -150,163 +151,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "odit",
-      "PersonId": 369,
-      "Mrmrs": "delectus",
-      "Firstname": "Berry",
-      "Lastname": "Murray",
-      "MiddleName": "Hyatt, Sipes and Stehr",
-      "Title": "voluptatibus",
-      "Description": "Open-architected assymetric time-frame",
-      "Email": "kaela@russelkuvalis.info",
-      "FullName": "Forrest Judah Hayes Jr.",
-      "DirectPhone": "1-341-392-3096 x36286",
-      "FormalName": "Littel-Orn",
-      "CountryId": 317,
-      "ContactId": 89,
-      "ContactName": "Marquardt-White",
-      "Retired": 676,
-      "Rank": 213,
-      "ActiveInterests": 782,
+      "Position": "et",
+      "PersonId": 351,
+      "Mrmrs": "esse",
+      "Firstname": "Anna",
+      "Lastname": "King",
+      "MiddleName": "Ortiz, Wintheiser and Feil",
+      "Title": "omnis",
+      "Description": "Seamless fault-tolerant solution",
+      "Email": "haleigh.kris@cartwrightrempel.ca",
+      "FullName": "Mrs. Leonard Cathryn Feil",
+      "DirectPhone": "(171)628-0083 x88264",
+      "FormalName": "Boehm, Fay and Herman",
+      "CountryId": 256,
+      "ContactId": 934,
+      "ContactName": "Mann, Mraz and Carroll",
+      "Retired": 999,
+      "Rank": 814,
+      "ActiveInterests": 433,
       "ContactDepartment": "",
-      "ContactCountryId": 378,
-      "ContactOrgNr": "948028",
-      "FaxPhone": "(214)105-0564",
-      "MobilePhone": "390.489.4154 x98139",
-      "ContactPhone": "302-465-3360",
-      "AssociateName": "Braun, Wintheiser and Kuhlman",
-      "AssociateId": 505,
+      "ContactCountryId": 911,
+      "ContactOrgNr": "685505",
+      "FaxPhone": "092-155-6329 x69407",
+      "MobilePhone": "037.331.2601 x59234",
+      "ContactPhone": "(944)387-5074",
+      "AssociateName": "Kessler Inc and Sons",
+      "AssociateId": 514,
       "UsePersonAddress": false,
-      "ContactFax": "cupiditate",
-      "Kanafname": "placeat",
-      "Kanalname": "aut",
-      "Post1": "commodi",
-      "Post2": "explicabo",
-      "Post3": "distinctio",
-      "EmailName": "hershel_braun@hesselaltenwerth.ca",
-      "ContactFullName": "Mrs. Alize Alexys Rutherford III",
-      "ActiveErpLinks": 202,
-      "TicketPriorityId": 157,
-      "SupportLanguageId": 617,
-      "SupportAssociateId": 17,
+      "ContactFax": "repellendus",
+      "Kanafname": "ipsa",
+      "Kanalname": "quo",
+      "Post1": "illum",
+      "Post2": "possimus",
+      "Post3": "repellat",
+      "EmailName": "quinten@mohr.info",
+      "ContactFullName": "Brionna Abbott",
+      "ActiveErpLinks": 235,
+      "TicketPriorityId": 501,
+      "SupportLanguageId": 510,
+      "SupportAssociateId": 833,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "879076",
+      "PersonNumber": "1637308",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
   ],
-  "AlertLevel": 122,
-  "ConnectId": 744,
+  "AlertLevel": 939,
+  "ConnectId": 323,
   "ReadStatus": "Green",
-  "TimeToReply": 31,
-  "RealTimeToReply": 978,
-  "TimeToClose": 296,
-  "RealTimeToClose": 269,
-  "TimeSpentInternally": 308,
-  "TimeSpentExternally": 522,
-  "TimeSpentQueue": 265,
-  "RealTimeSpentInternally": 711,
-  "RealTimeSpentExternally": 423,
-  "RealTimeSpentQueue": 288,
-  "TimeSpent": 613,
-  "HasAttachment": true,
-  "NumReplies": 876,
-  "NumMessages": 120,
-  "FromAddress": "modi",
+  "TimeToReply": 901,
+  "RealTimeToReply": 915,
+  "TimeToClose": 217,
+  "RealTimeToClose": 77,
+  "TimeSpentInternally": 798,
+  "TimeSpentExternally": 173,
+  "TimeSpentQueue": 140,
+  "RealTimeSpentInternally": 195,
+  "RealTimeSpentExternally": 698,
+  "RealTimeSpentQueue": 437,
+  "TimeSpent": 450,
+  "HasAttachment": false,
+  "NumReplies": 168,
+  "NumMessages": 149,
+  "FromAddress": "in",
   "Messages": [
     {
-      "TicketMessageId": 912,
-      "CreatedAt": "2010-07-18T11:24:53.5936832+02:00",
+      "TicketMessageId": 453,
+      "CreatedAt": "2021-11-24T03:40:56.320343+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "quo",
-      "PersonId": 159,
-      "PersonFullName": "Prof. Alice Luettgen PhD",
-      "ContactId": 984,
-      "ContactName": "Waelchi, Stokes and Jewess",
+      "Author": "dolore",
+      "PersonId": 942,
+      "PersonFullName": "Miss Karolann Tillman Ryan",
+      "ContactId": 634,
+      "ContactName": "Walsh Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 970,
-      "EmailHeader": "sigurd@berniermertz.us",
+      "NumAttachments": 440,
+      "EmailHeader": "issac_von@walshmclaughlin.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "ea",
-      "Sentiment": 87,
-      "SentimentConfidence": 149,
-      "CreatedBy": 25,
-      "ChangedAt": "1998-08-17T11:24:53.5936832+02:00",
+      "Language": "necessitatibus",
+      "Sentiment": 444,
+      "SentimentConfidence": 729,
+      "CreatedBy": 240,
+      "ChangedAt": "2006-02-28T03:40:56.320343+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 358
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 309,
-      "Name": "Hudson, Mitchell and Beer",
-      "ToolTip": "Sequi deleniti.",
+      "Id": 319,
+      "Name": "Christiansen-Mohr",
+      "ToolTip": "Excepturi temporibus blanditiis quasi occaecati.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldType": "System.Int32",
+          "FieldLength": 186
         }
       }
     },
     {
-      "Id": 309,
-      "Name": "Hudson, Mitchell and Beer",
-      "ToolTip": "Sequi deleniti.",
+      "Id": 319,
+      "Name": "Christiansen-Mohr",
+      "ToolTip": "Excepturi temporibus blanditiis quasi occaecati.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldType": "System.Int32",
+          "FieldLength": 186
         }
       }
     }
   ],
-  "Language": "repellendus",
-  "Sentiment": 844,
-  "SentimentConfidence": 110,
-  "SuggestedCategoryId": 858,
+  "Language": "officiis",
+  "Sentiment": 615,
+  "SentimentConfidence": 328,
+  "SuggestedCategoryId": 773,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 178,
-  "IconHint": "aliquam",
+  "OrigHumanCategoryId": 365,
+  "IconHint": "debitis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 608,
+  "ActiveStatusMonitorId": 825,
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "hic"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "et",
+    "CustomFields2": "laboriosam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 714
     }
   }
 }

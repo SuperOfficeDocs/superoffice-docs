@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 186,
-    "Name": "Hoeger Group",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "Rank": 916,
-    "UdListDefinitionId": 581
+    "HeadingId": 225,
+    "Name": "Turner Inc and Sons",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "Rank": 576,
+    "UdListDefinitionId": 466
   },
   {
-    "HeadingId": 186,
-    "Name": "Hoeger Group",
-    "Tooltip": "recusandae",
-    "Deleted": true,
-    "Rank": 916,
-    "UdListDefinitionId": 581
+    "HeadingId": 225,
+    "Name": "Turner Inc and Sons",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "Rank": 576,
+    "UdListDefinitionId": 466
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 73,
-    "Name": "Hansen LLC",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "Rank": 27,
-    "UdListDefinitionId": 526,
+    "HeadingId": 1001,
+    "Name": "Olson Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 64,
+    "UdListDefinitionId": 314,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 702
       }
     }
   }

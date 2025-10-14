@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Hintz-Schneider",
-    "Tooltip": "sint",
+    "Id": 656,
+    "Name": "Rice Group",
+    "Tooltip": "illum",
     "Deleted": true,
-    "UdListDefinitionId": 767,
-    "Rank": 637
+    "UdListDefinitionId": 743,
+    "Rank": 856
   },
   {
-    "Id": 281,
-    "Name": "Hintz-Schneider",
-    "Tooltip": "sint",
+    "Id": 656,
+    "Name": "Rice Group",
+    "Tooltip": "illum",
     "Deleted": true,
-    "UdListDefinitionId": 767,
-    "Rank": 637
+    "UdListDefinitionId": 743,
+    "Rank": 856
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Crona Group",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "UdListDefinitionId": 714,
-    "Rank": 402,
+    "Id": 214,
+    "Name": "Spinka-Braun",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 388,
+    "Rank": 192,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 214
+        "FieldLength": 515
       }
     }
   }

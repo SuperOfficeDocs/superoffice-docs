@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Gets a SystemEventEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=812
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=379
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 643,
+  "SystemEventId": 761,
   "Scope": "Database",
-  "Eta": "2010-04-16T11:24:47.7189228+02:00",
-  "Eventkey": "aut",
-  "Eventmess": "natus",
-  "ExtraInfo": 764,
-  "Owner": 63,
-  "UpdatedCount": 648,
-  "Registered": "2017-06-27T11:24:47.7189228+02:00",
+  "Eta": "2023-12-27T03:40:46.2488145+01:00",
+  "Eventkey": "ut",
+  "Eventmess": "laudantium",
+  "ExtraInfo": 216,
+  "Owner": 283,
+  "UpdatedCount": 884,
+  "Registered": "2010-07-16T03:40:46.2488145+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 416
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

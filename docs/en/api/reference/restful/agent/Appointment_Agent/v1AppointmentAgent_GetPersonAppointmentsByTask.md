@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -135,16 +136,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 268,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2011-06-23T11:24:47.2970652+02:00",
-  "EndTime": "2013-01-03T11:24:47.2970652+01:00",
-  "Count": 664,
-  "TaskId": 566
+  "PersonId": 922,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2020-08-24T03:40:45.5918644+02:00",
+  "EndTime": "2008-02-07T03:40:45.5918644+01:00",
+  "Count": 877,
+  "TaskId": 580
 }
 ```
 
@@ -156,67 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 983,
-    "StartDate": "2025-06-27T11:24:47.2970652+02:00",
-    "EndDate": "2015-10-08T11:24:47.2970652+02:00",
+    "AppointmentId": 403,
+    "StartDate": "2008-01-29T03:40:45.5918644+01:00",
+    "EndDate": "2004-05-12T03:40:45.5918644+02:00",
     "Type": "BookingForChecklist",
-    "Task": "asperiores",
-    "AssociateFullName": "Katherine Reinger",
-    "ContactName": "Hegmann, Lakin and Reichel",
-    "Description": "Exclusive bottom-line website",
-    "PersonFullName": "Reed Mayert",
-    "PersonId": 636,
-    "ContactId": 98,
-    "ProjectId": 912,
-    "ProjectName": "Rosenbaum-McGlynn",
-    "IsPublished": true,
-    "AssociateId": 293,
-    "ColorIndex": 904,
+    "Task": "autem",
+    "AssociateFullName": "Victor Hilll",
+    "ContactName": "Rowe Group",
+    "Description": "Sharable scalable secured line",
+    "PersonFullName": "Prof. Rebeka Jarred Grady DVM",
+    "PersonId": 68,
+    "ContactId": 688,
+    "ProjectId": 571,
+    "ProjectName": "Nitzsche, Cassin and Weber",
+    "IsPublished": false,
+    "AssociateId": 885,
+    "ColorIndex": 261,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 873,
-    "PriorityName": "Grady-Hackett",
+    "PriorityId": 395,
+    "PriorityName": "Wolff-Botsford",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-06-20T11:24:47.2970652+02:00",
+    "ActiveDate": "2001-11-09T03:40:45.5918644+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-08-16T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2024-01-30T11:24:47.2970652+01:00",
-    "MotherId": 57,
-    "AssignedBy": 791,
-    "AssignedByFullName": "Odie Kerluke",
+    "RecurringStartDate": "2024-02-20T03:40:45.5918644+01:00",
+    "RecurringEndDate": "2007-10-10T03:40:45.5918644+02:00",
+    "MotherId": 793,
+    "AssignedBy": 478,
+    "AssignedByFullName": "Jayde Roberts",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "pariatur",
-    "SaleId": 29,
-    "SaleName": "Lebsack, Harvey and McDermott",
-    "AssociateName": "Hahn-Jacobs",
-    "CreatedDate": "2018-07-26T11:24:47.2970652+02:00",
-    "CreatedBy": "placeat",
-    "CreatedByFullName": "Nathanael Kylee King Jr.",
-    "CreatedByAssociateId": 812,
+    "Location": "odit",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 216,
+    "SaleName": "Streich-Pollich",
+    "AssociateName": "McKenzie, Buckridge and Rohan",
+    "CreatedDate": "2020-12-24T03:40:45.5918644+01:00",
+    "CreatedBy": "porro",
+    "CreatedByFullName": "Bella Alessia Hayes V",
+    "CreatedByAssociateId": 904,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 312,
+    "MotherAssociateId": 850,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 511,
-    "Title": "maiores",
-    "Agenda": "dolorem",
-    "InternalNotes": "voluptatem",
+    "PreferredTZLocation": 918,
+    "Title": "sit",
+    "Agenda": "non",
+    "InternalNotes": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 599
       }
     }
   }

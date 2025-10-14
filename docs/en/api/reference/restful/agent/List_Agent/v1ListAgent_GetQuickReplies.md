@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetQuickReplies
 Method to return all quick replies for a given associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 217,
-    "Name": "Toy-Wintheiser",
-    "HtmlBody": "vitae",
+    "QuickReplyId": 333,
+    "Name": "Schiller-Romaguera",
+    "HtmlBody": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 923
       }
     }
   },
   {
-    "QuickReplyId": 217,
-    "Name": "Toy-Wintheiser",
-    "HtmlBody": "vitae",
+    "QuickReplyId": 333,
+    "Name": "Schiller-Romaguera",
+    "HtmlBody": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldLength": 923
       }
     }
   }

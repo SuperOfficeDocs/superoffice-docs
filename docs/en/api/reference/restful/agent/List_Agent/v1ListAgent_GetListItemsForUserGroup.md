@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup
 List of list items that is visible in the usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 405,
-  "GroupId": 715
+  "UdListDefinitionId": 259,
+  "GroupId": 799
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Berge Inc and Sons",
-    "ToolTip": "Voluptatem eaque explicabo.",
-    "Deleted": true,
-    "Rank": 382,
-    "Type": "inventore",
-    "ColorBlock": 944,
-    "IconHint": "officiis",
+    "Id": 79,
+    "Name": "Gaylord-Breitenberg",
+    "ToolTip": "Est voluptatem sunt tempora qui officiis accusamus aut.",
+    "Deleted": false,
+    "Rank": 208,
+    "Type": "molestiae",
+    "ColorBlock": 13,
+    "IconHint": "nobis",
     "Selected": true,
-    "LastChanged": "2012-04-14T11:24:48.2032781+02:00",
+    "LastChanged": "2020-01-21T03:40:47.0780355+01:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Hansen-Wiza",
-        "ToolTip": "Et iste omnis voluptates enim aspernatur qui.",
+        "Id": 562,
+        "Name": "Harris, Hagenes and Gutmann",
+        "ToolTip": "Maiores quasi blanditiis et consequatur mollitia commodi non.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "recusandae",
-        "ColorBlock": 812,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2015-12-10T11:24:48.2032781+01:00",
+        "Rank": 220,
+        "Type": "tempore",
+        "ColorBlock": 662,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2008-04-17T03:40:47.0780355+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Dr. Ismael Olson IV",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Ayana Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 503
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "quidem",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Jaylon Sporer",
+    "FullName": "Ken Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldType": "System.Int32",
+        "FieldLength": 982
       }
     }
   }

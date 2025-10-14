@@ -90,30 +90,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 556,
-  "Name": "Jakubowski-Weissnat",
-  "CurrencyId": 166,
-  "EnglishName": "McDermott-Kling",
+  "CountryId": 31,
+  "Name": "Russel Group",
+  "CurrencyId": 482,
+  "EnglishName": "Schmitt, Hansen and Kuvalis",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused incremental infrastructure",
-  "OrgNrText": "1819222",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "numquam",
-  "ZipPrefix": "ut",
-  "DomainName": "Lowe Group",
-  "AddressLayoutId": 298,
-  "DomesticAddressLayoutId": 943,
-  "ForeignAddressLayoutId": 721,
-  "Rank": 868,
-  "Tooltip": "hic",
+  "ImageDescription": "Multi-tiered holistic frame",
+  "OrgNrText": "696058",
+  "InterAreaPrefix": "consequuntur",
+  "DialInPrefix": "nam",
+  "ZipPrefix": "qui",
+  "DomainName": "Green-Flatley",
+  "AddressLayoutId": 530,
+  "DomesticAddressLayoutId": 505,
+  "ForeignAddressLayoutId": 97,
+  "Rank": 570,
+  "Tooltip": "vero",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

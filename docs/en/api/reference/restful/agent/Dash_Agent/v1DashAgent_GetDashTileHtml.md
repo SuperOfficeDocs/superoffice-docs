@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashTileHtml
 Get HTML for a dashboard tile definition with TileType = HTML
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,12 +78,12 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 319,
-  "LanguageCode": "minima"
+  "DashboardTileDefinitionId": 487,
+  "LanguageCode": "aut"
 }
 ```
 
@@ -92,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "quia",
-  "Html": "voluptas",
+  "LanguageCode": "delectus",
+  "Html": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldType": "System.String",
+      "FieldLength": 663
     }
   }
 }

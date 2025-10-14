@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Trantow LLC",
-  "Tooltip": "harum",
+  "Id": 168,
+  "Name": "Farrell, Adams and Hammes",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 145,
+  "Rank": 949,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Upton Group",
-  "Tooltip": "sit",
+  "Id": 377,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 53,
+  "Rank": 147,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 62
     }
   }
 }

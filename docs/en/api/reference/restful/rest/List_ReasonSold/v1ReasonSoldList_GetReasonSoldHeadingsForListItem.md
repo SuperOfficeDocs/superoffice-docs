@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Leuschke, Doyle and Nolan",
-    "ToolTip": "Sequi assumenda vero aut voluptas eaque qui repellendus.",
-    "Deleted": true,
-    "Rank": 579,
-    "Type": "impedit",
-    "ColorBlock": 499,
-    "IconHint": "omnis",
+    "Id": 402,
+    "Name": "King LLC",
+    "ToolTip": "Aperiam temporibus est eum ipsum dolorem aut nesciunt.",
+    "Deleted": false,
+    "Rank": 740,
+    "Type": "qui",
+    "ColorBlock": 605,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2012-11-12T11:24:54.1249113+01:00",
+    "LastChanged": "2003-11-19T03:40:57.0871054+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Hegmann-Abernathy",
-        "ToolTip": "Vitae neque eligendi eveniet voluptatem aspernatur doloremque possimus.",
+        "Id": 339,
+        "Name": "Bogan, Fadel and Donnelly",
+        "ToolTip": "Autem expedita non mollitia.",
         "Deleted": true,
-        "Rank": 528,
-        "Type": "expedita",
-        "ColorBlock": 312,
-        "IconHint": "aut",
+        "Rank": 431,
+        "Type": "nobis",
+        "ColorBlock": 881,
+        "IconHint": "aperiam",
         "Selected": false,
-        "LastChanged": "2018-10-10T11:24:54.1249113+02:00",
+        "LastChanged": "2001-04-01T03:40:57.0871054+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "impedit",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Mercedes Beer",
+        "FullName": "Simeon Gorczany II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldType": "System.String",
+            "FieldLength": 645
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Jan Turcotte",
+    "FullName": "Teagan Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldLength": 324
       }
     }
   }

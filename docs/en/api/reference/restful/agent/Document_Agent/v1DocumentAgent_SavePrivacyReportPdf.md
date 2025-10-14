@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SavePrivacyReportPdf
 Saves a pdf stream, assigns file name, connects to given contact etc.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/Document/SavePrivacyReportPdf
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stream": "GIF89....File contents as raw bytes...",
-  "Title": "voluptatem",
-  "PersonId": 144
+  "Title": "neque",
+  "PersonId": 648
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-947
+860
 ```

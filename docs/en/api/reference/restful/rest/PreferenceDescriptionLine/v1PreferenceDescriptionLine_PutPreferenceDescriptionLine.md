@@ -14,6 +14,8 @@ PUT /api/v1/PreferenceDescriptionLine/{id}
 Updates the existing PreferenceDescriptionLine
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -90,16 +92,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 696,
-  "PrefDescId": 536,
-  "PrefValue": "ipsum",
-  "PrefShowValue": "necessitatibus",
-  "Description": "De-engineered multi-state migration",
-  "IsBuiltin": true
+  "PrefDescLineId": 614,
+  "PrefDescId": 795,
+  "PrefValue": "sunt",
+  "PrefShowValue": "autem",
+  "Description": "Mandatory foreground archive",
+  "IsBuiltin": false
 }
 ```
 
@@ -110,23 +112,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 689,
-  "PrefDescId": 178,
-  "PrefValue": "expedita",
-  "PrefShowValue": "voluptatibus",
-  "Description": "Optimized modular approach",
-  "IsBuiltin": true,
+  "PrefDescLineId": 680,
+  "PrefDescId": 31,
+  "PrefValue": "suscipit",
+  "PrefShowValue": "nulla",
+  "Description": "Synergistic interactive intranet",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 962
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

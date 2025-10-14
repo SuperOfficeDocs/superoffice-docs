@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllLegalBase
 Gets an array of all LegalBase objects
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetAllLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 705,
-    "Name": "Larson, Sauer and Deckow",
-    "Tooltip": "voluptatem",
-    "Rank": 362,
-    "Key": "omnis",
-    "Deleted": true,
+    "LegalBaseId": 363,
+    "Name": "Ruecker, Terry and Hessel",
+    "Tooltip": "amet",
+    "Rank": 871,
+    "Key": "perferendis",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

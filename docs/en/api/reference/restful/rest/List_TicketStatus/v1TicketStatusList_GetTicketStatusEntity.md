@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 264,
-  "Name": "Roberts-McLaughlin",
+  "TicketStatusId": 429,
+  "Name": "Weber-Crist",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldLength": 551
     }
   }
 }

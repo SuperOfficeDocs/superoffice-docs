@@ -86,7 +86,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,36 +96,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 155,
-  "Name": "Yost Group",
-  "OrgNr": "790411",
+  "ContactId": 714,
+  "Name": "Thompson LLC",
+  "OrgNr": "813432",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "consequatur",
-  "DirectPhone": "741-135-5771",
-  "AssociateId": 92,
-  "CountryId": 874,
-  "EmailAddress": "claire@herman.uk",
-  "Kananame": "minus",
-  "EmailAddressName": "wilhelm@macejkovic.biz",
+  "City": "nihil",
+  "DirectPhone": "777-695-7342 x130",
+  "AssociateId": 431,
+  "CountryId": 320,
+  "EmailAddress": "elda_oreilly@davishermiston.name",
+  "Kananame": "dolorum",
+  "EmailAddressName": "carlotta@sauer.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Dr. Hallie Alek Schroeder",
+  "AssociateFullName": "Teresa Thad Tromp II",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "minima",
-  "FullName": "Dr. Larue Harvey",
+  "FormattedAddress": "at",
+  "FullName": "Cristal Lindgren",
   "IsOwnerContact": true,
-  "ActiveErpLinks": 408,
-  "Number1": "1253281",
-  "Number2": "880975",
+  "ActiveErpLinks": 925,
+  "Number1": "728247",
+  "Number2": "724844",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldLength": 509
     }
   }
 }

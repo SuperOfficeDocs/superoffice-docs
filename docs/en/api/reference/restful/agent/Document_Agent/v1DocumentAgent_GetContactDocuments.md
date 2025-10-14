@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocuments
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -102,10 +103,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 207,
-  "StartTime": "2017-11-24T11:24:47.8751665+01:00",
-  "EndTime": "2016-04-25T11:24:47.8751665+02:00",
-  "Count": 267
+  "ContactId": 59,
+  "StartTime": "2012-05-05T03:40:46.5780122+02:00",
+  "EndTime": "2021-11-20T03:40:46.5780122+01:00",
+  "Count": 205
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 835,
-    "Attention": "quibusdam",
-    "Header": "aspernatur",
-    "Name": "Jacobs-Raynor",
-    "OurRef": "natus",
-    "YourRef": "in",
-    "Description": "Enhanced tangible migration",
-    "DocumentTemplate": "id",
-    "IsPublished": true,
-    "PersonId": 944,
-    "PersonFullName": "Keyon Beer",
-    "AssociateFullName": "Enos Howell",
-    "ContactId": 553,
-    "ContactName": "Rohan LLC",
-    "ProjectId": 367,
-    "ProjectName": "Welch-Medhurst",
-    "AssociateId": 721,
-    "Snum": 879,
-    "SaleId": 705,
-    "SaleName": "Vandervort Inc and Sons",
+    "DocumentId": 644,
+    "Attention": "nesciunt",
+    "Header": "eum",
+    "Name": "Zemlak, Abshire and Metz",
+    "OurRef": "non",
+    "YourRef": "odit",
+    "Description": "Reactive non-volatile architecture",
+    "DocumentTemplate": "quia",
+    "IsPublished": false,
+    "PersonId": 891,
+    "PersonFullName": "Isadore Alycia Hills Jr.",
+    "AssociateFullName": "Yvette Mante",
+    "ContactId": 69,
+    "ContactName": "Kiehn-Ebert",
+    "ProjectId": 156,
+    "ProjectName": "Donnelly Group",
+    "AssociateId": 245,
+    "Snum": 8,
+    "SaleId": 502,
+    "SaleName": "Gibson, Kuhn and Koch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldLength": 362
       }
     }
   }

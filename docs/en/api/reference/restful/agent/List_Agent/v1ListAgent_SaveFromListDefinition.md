@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveFromListDefinition
 Save a list item for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "UdListDefinitionId": 511,
+  "Id": 707,
+  "UdListDefinitionId": 50,
   "Item": null
 }
 ```
@@ -98,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Wilderman, Schinner and Hauck",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "UdListDefinitionId": 609,
-  "Rank": 968,
+  "Id": 446,
+  "Name": "Miller, Schaefer and Hackett",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "UdListDefinitionId": 638,
+  "Rank": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

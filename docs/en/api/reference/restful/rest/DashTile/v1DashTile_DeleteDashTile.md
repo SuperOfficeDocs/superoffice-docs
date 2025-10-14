@@ -15,6 +15,7 @@ Deletes the DashTile
 
 
 Calls the Dash agent service DeleteDashTile.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ DashTile deleted.
 DELETE /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

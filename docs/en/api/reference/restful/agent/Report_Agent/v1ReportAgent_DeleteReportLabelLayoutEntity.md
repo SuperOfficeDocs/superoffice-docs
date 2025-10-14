@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity
 Deletes the ReportLabelLayoutEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ReportLabelLayoutEntity
 | reportLabelLayoutEntityId | int32 | **Required** The identity of the ReportLabelLayoutEntity |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=687
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?reportLabelLayoutEntityId=48
 ```
 
 

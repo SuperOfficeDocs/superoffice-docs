@@ -14,6 +14,8 @@ PUT /api/v1/DashTile/{id}
 Updates the existing DashTile
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,11 +96,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 951,
-  "DashboardId": 65,
-  "Height": 991,
-  "Width": 431,
-  "Rank": 98,
+  "DashboardTileId": 649,
+  "DashboardId": 512,
+  "Height": 327,
+  "Width": 38,
+  "Rank": 342,
   "DashTileDefinition": null
 }
 ```
@@ -110,18 +112,18 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 699,
-  "DashboardId": 655,
-  "Height": 225,
-  "Width": 737,
-  "Rank": 830,
+  "DashboardTileId": 728,
+  "DashboardId": 552,
+  "Height": 211,
+  "Width": 368,
+  "Rank": 451,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   },
   "_Links": {

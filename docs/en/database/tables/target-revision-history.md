@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_revision\_history Table (505)
+# target\_revision\_history Table (507)
 
 Revision history info in case the original target group or assignment info was deleted
 
@@ -40,8 +40,8 @@ Revision history info in case the original target group or assignment info was d
 | Fields | Types | Description |
 |--------|-------|-------------|
 |target\_revision\_history\_id |PK |Clustered, Unique |
-|target\_group\_id |FK |Unique |
 |target\_assignment\_info\_id |FK |Index |
+|target\_group\_id |FK |Index |
 
 ## Relationships
 

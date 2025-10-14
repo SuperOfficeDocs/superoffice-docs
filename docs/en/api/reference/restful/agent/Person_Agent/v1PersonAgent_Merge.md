@@ -15,6 +15,7 @@ Merge two persons.
 
 
 The destination person will remain. You must specify the date after which activities will be moved along with the person.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,15 +72,15 @@ No Content
 POST /api/v1/Agents/Person/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 821,
-  "DestinationPersonId": 179,
-  "MoveAfterDate": "2020-07-18T11:24:48.3438973+02:00",
-  "DeleteSource": false,
-  "ReplaceEmptyFieldsOnDestination": true
+  "SourcePersonId": 772,
+  "DestinationPersonId": 914,
+  "MoveAfterDate": "2004-11-23T03:40:47.3906+01:00",
+  "DeleteSource": true,
+  "ReplaceEmptyFieldsOnDestination": false
 }
 ```
 

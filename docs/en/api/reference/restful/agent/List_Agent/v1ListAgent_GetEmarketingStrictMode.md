@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetEmarketingStrictMode
 Get the value of the Emarketing strict mode setting
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/List/GetEmarketingStrictMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveProjectTypeEntity
 Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,39 +84,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 976,
-  "Name": "Schultz Inc and Sons",
-  "Tooltip": "quos",
-  "Rank": 212,
+  "ProjTypeId": 444,
+  "Name": "Herzog, Dach and Stroman",
+  "Tooltip": "libero",
+  "Rank": 708,
   "DurationUnit": "Century",
-  "ProjectDuration": 424,
-  "Deleted": false,
-  "HasGuide": true,
+  "ProjectDuration": 123,
+  "Deleted": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 673,
-      "Name": "Beahan, Considine and Brown",
-      "ToolTip": "Omnis laudantium qui delectus vero nisi quam voluptas.",
-      "Deleted": false,
-      "Rank": 323,
-      "Type": "adipisci",
-      "ColorBlock": 615,
-      "IconHint": "adipisci",
+      "Id": 935,
+      "Name": "Keeling, Stoltenberg and Gulgowski",
+      "ToolTip": "Itaque quis iusto est et reiciendis laborum.",
+      "Deleted": true,
+      "Rank": 779,
+      "Type": "quo",
+      "ColorBlock": 605,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2017-05-09T11:24:48.1876539+02:00",
+      "LastChanged": "2010-06-25T03:40:47.0624077+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "ut",
-      "Hidden": false,
-      "FullName": "Cathryn Holly Ernser Jr."
+      "ExtraInfo": "ad",
+      "StyleHint": "nulla",
+      "Hidden": true,
+      "FullName": "Amira Ritchie PhD"
     }
   ]
 }
@@ -127,41 +129,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 233,
-  "Name": "Stamm Group",
-  "Tooltip": "voluptas",
-  "Rank": 591,
+  "ProjTypeId": 731,
+  "Name": "Reinger, Hackett and Stehr",
+  "Tooltip": "quas",
+  "Rank": 137,
   "DurationUnit": "Century",
-  "ProjectDuration": 145,
-  "Deleted": false,
+  "ProjectDuration": 960,
+  "Deleted": true,
   "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 917,
-      "Name": "Gaylord LLC",
-      "ToolTip": "Quas dolorum est iure eum voluptatibus.",
+      "Id": 819,
+      "Name": "Adams Inc and Sons",
+      "ToolTip": "Odio iure rem magnam voluptates nihil dolorum vel.",
       "Deleted": false,
-      "Rank": 58,
+      "Rank": 901,
       "Type": "officiis",
-      "ColorBlock": 456,
-      "IconHint": "quae",
-      "Selected": true,
-      "LastChanged": "1999-11-04T11:24:48.1876539+01:00",
+      "ColorBlock": 641,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2017-07-03T03:40:47.0624077+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "suscipit",
-      "StyleHint": "velit",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "non",
       "Hidden": false,
-      "FullName": "Antoinette Okuneva",
+      "FullName": "Dawn Arno Green PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 482
         }
       }
     }
@@ -170,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

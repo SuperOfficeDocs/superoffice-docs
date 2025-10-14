@@ -15,6 +15,7 @@ Return the application configuration.
 
 
 This is a list of pages, with information about the name, main panel and preference mappings of each page.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Configuration/GetApplicationConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "officiis",
-  "Instance": "quis"
+  "Application": "quia",
+  "Instance": "labore"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolor"
+"et"
 ```

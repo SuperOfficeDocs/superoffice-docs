@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,13 +85,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jacobs, Marks and Weber",
-  "DeviceName": "Konopelski, Kassulke and Wisoky",
-  "DeviceIdentifier": "aliquid"
+  "ApplicationName": "Wisozk Group",
+  "DeviceName": "Buckridge-Lind",
+  "DeviceIdentifier": "est"
 }
 ```
 
@@ -101,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "perspiciatis",
-    "Value": "unde",
-    "RecordId": 614,
-    "CreatedDate": "2019-08-18T11:24:48.1720293+02:00",
-    "UpdatedDate": "2023-02-21T11:24:48.1720293+01:00",
-    "UpdatedBy": "veniam",
-    "CreatedBy": "similique",
-    "TableName": "Renner, Sauer and Russel",
+    "Key": "adipisci",
+    "Value": "aperiam",
+    "RecordId": 995,
+    "CreatedDate": "2012-04-21T03:40:46.9999043+02:00",
+    "UpdatedDate": "1999-09-25T03:40:46.9999043+02:00",
+    "UpdatedBy": "consectetur",
+    "CreatedBy": "sit",
+    "TableName": "Boehm, Abbott and Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 312
+        "FieldLength": 412
       }
     }
   }

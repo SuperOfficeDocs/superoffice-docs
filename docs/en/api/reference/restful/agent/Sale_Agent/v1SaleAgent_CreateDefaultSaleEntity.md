@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Loading default values into a new SaleEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,7 +117,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eveniet",
+  "SaleText": "omnis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +126,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-03-14T11:24:48.5626385+01:00",
-  "Amount": 20881.842,
-  "SaleId": 86,
-  "Earning": 17453.246,
-  "EarningPercent": 25971.458,
-  "Heading": "totam",
-  "Number": "1174527",
-  "Probability": 698,
-  "CreatedDate": "2018-08-13T11:24:48.5626385+02:00",
-  "UpdatedDate": "2007-10-24T11:24:48.5626385+02:00",
+  "Saledate": "1999-08-20T03:40:47.6254619+02:00",
+  "Amount": 23088.178,
+  "SaleId": 37,
+  "Earning": 20574.71,
+  "EarningPercent": 27864.394,
+  "Heading": "neque",
+  "Number": "1432181",
+  "Probability": 382,
+  "CreatedDate": "2024-05-04T03:40:47.6254619+02:00",
+  "UpdatedDate": "2010-02-12T03:40:47.6254619+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 4,
+  "ActiveLinks": 235,
   "Links": [
     {
-      "EntityName": "Vandervort Inc and Sons",
-      "Id": 525,
-      "Description": "Total maximized interface",
-      "ExtraInfo": "aut",
-      "LinkId": 97,
+      "EntityName": "Hansen LLC",
+      "Id": 312,
+      "Description": "Exclusive leading edge protocol",
+      "ExtraInfo": "illo",
+      "LinkId": 882,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 99
         }
       }
     }
   ],
-  "NextDueDate": "2017-09-10T11:24:48.5626385+02:00",
-  "Postit": "enim",
+  "NextDueDate": "2013-06-23T03:40:47.6254619+02:00",
+  "Postit": "delectus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-12-24T11:24:48.5626385+01:00",
+  "ReopenDate": "2013-12-20T03:40:47.6254619+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nader, Dooley and Zulauf",
-      "Comment": "fugit",
-      "StakeholderRoleId": 52,
-      "CountryId": 109,
-      "PersonId": 96,
-      "EmailDescription": "vergie.tromp@brakusrunolfsson.us",
-      "EmailId": 432,
-      "EmailAddress": "jermey.schimmel@mcdermott.ca",
-      "PhoneId": 801,
-      "ContactName": "Lesch-Johns",
-      "ContactId": 432,
-      "SaleId": 298,
-      "Mrmrs": "libero",
-      "Firstname": "Veronica",
-      "MiddleName": "Koss Group",
-      "Lastname": "Cole",
-      "SaleStakeholderId": 413,
-      "Rank": 439,
-      "Phone": "476-366-4263 x775",
+      "StakeholderRoleName": "Auer, Roberts and Gottlieb",
+      "Comment": "tempore",
+      "StakeholderRoleId": 67,
+      "CountryId": 429,
+      "PersonId": 211,
+      "EmailDescription": "jessie.glover@wehner.uk",
+      "EmailId": 563,
+      "EmailAddress": "marilyne@mraz.biz",
+      "PhoneId": 841,
+      "ContactName": "Pacocha Group",
+      "ContactId": 610,
+      "SaleId": 108,
+      "Mrmrs": "sint",
+      "Firstname": "Amir",
+      "MiddleName": "Cruickshank, Carter and Wunsch",
+      "Lastname": "Marks",
+      "SaleStakeholderId": 365,
+      "Rank": 663,
+      "Phone": "526.870.0524 x840",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 657
         }
       }
     }
   ],
-  "ActiveErpLinks": 590,
+  "ActiveErpLinks": 978,
   "UserDefinedFields": {
-    "SuperOffice:1": "Anya Ebert DVM",
+    "SuperOffice:1": "False",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "autem"
+    "CustomFields1": "inventore",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2003-09-06T11:24:48.5626385+02:00",
-  "PublishTo": "2008-09-17T11:24:48.5626385+02:00",
-  "PublishFrom": "1999-05-08T11:24:48.5626385+02:00",
+  "PublishEventDate": "2018-10-22T03:40:47.6254619+02:00",
+  "PublishTo": "2024-01-02T03:40:47.6254619+01:00",
+  "PublishFrom": "2016-02-13T03:40:47.6254619+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 819,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     },
     {
-      "VisibleId": 819,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
@@ -239,8 +241,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 653
     }
   }
 }

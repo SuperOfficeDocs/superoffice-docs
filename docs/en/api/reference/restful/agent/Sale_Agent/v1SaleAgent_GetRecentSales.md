@@ -15,6 +15,7 @@ Returns the latest sales (that are sold) limited by their amount.
 
 
 The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -101,12 +102,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 725,
-  "Count": 217
+  "AmountLimit": 420,
+  "Count": 678
 }
 ```
 
@@ -118,31 +119,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Legros, Lebsack and Bernhard",
-    "SaleDate": "2012-02-21T11:24:48.5939056+01:00",
-    "SaleId": 426,
-    "Probability": 525,
-    "Title": "labore",
-    "Amount": 25645.522,
-    "Currency": "beatae",
-    "ProjectName": "Wolff, Jerde and Reichert",
-    "AssociateFullName": "Patience Manuela Bins IV",
-    "Description": "Seamless fault-tolerant parallelism",
+    "ContactName": "Orn-Dicki",
+    "SaleDate": "2022-09-23T03:40:47.6723407+02:00",
+    "SaleId": 86,
+    "Probability": 561,
+    "Title": "quo",
+    "Amount": 29243.354,
+    "Currency": "commodi",
+    "ProjectName": "Buckridge-Hoeger",
+    "AssociateFullName": "Prof. Turner Garry Ebert Jr.",
+    "Description": "Decentralized intangible policy",
     "Status": "Lost",
-    "WeightedAmount": 25100.206,
-    "ProjectId": 170,
-    "EarningPercent": 30885.57,
-    "Earning": 12670.761999999999,
-    "ContactId": 27,
-    "AssociateId": 970,
-    "PersonId": 582,
-    "SaleTypeId": 63,
-    "SaleTypeName": "Little-Doyle",
-    "PersonFullName": "Judah Murazik",
+    "WeightedAmount": 25410.471999999998,
+    "ProjectId": 357,
+    "EarningPercent": 4936.05,
+    "Earning": 19919.703999999998,
+    "ContactId": 860,
+    "AssociateId": 816,
+    "PersonId": 634,
+    "SaleTypeId": 190,
+    "SaleTypeName": "Towne, Dickens and Gerlach",
+    "PersonFullName": "Ward Bahringer II",
     "Completed": "Completed",
-    "ActiveErpLinks": 502,
-    "NextDueDate": "2002-01-13T11:24:48.5939056+01:00",
-    "Number": "1272167",
+    "ActiveErpLinks": 588,
+    "NextDueDate": "2008-08-10T03:40:47.6723407+02:00",
+    "Number": "948541",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

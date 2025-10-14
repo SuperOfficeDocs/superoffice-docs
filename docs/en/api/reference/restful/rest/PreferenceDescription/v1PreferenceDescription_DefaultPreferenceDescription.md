@@ -15,6 +15,7 @@ Set default values into a new PreferenceDescription.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -85,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 133,
-  "Section": "exercitationem",
-  "Key": "voluptatibus",
-  "Name": "Torp LLC",
+  "PrefDescId": 888,
+  "Section": "dicta",
+  "Key": "et",
+  "Name": "Harber Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Future-proofed global moratorium",
+  "Description": "Progressive well-modulated project",
   "IsBuiltin": false,
-  "TableName": "Heidenreich, Halvorson and Lehner",
-  "UserDefinedListId": 162,
-  "Rank": 357,
-  "SubGroup": "voluptatem",
-  "MinLevel": 470,
-  "MaxValue": 237,
-  "MinValue": 111,
-  "RequiredLicense": "odio",
+  "TableName": "Wiegand Group",
+  "UserDefinedListId": 489,
+  "Rank": 90,
+  "SubGroup": "similique",
+  "MinLevel": 247,
+  "MaxValue": 92,
+  "MinValue": 109,
+  "RequiredLicense": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldLength": 854
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Marks, Lockman and Legros",
-    "ToolTip": "Nemo quis.",
+    "Id": 303,
+    "Name": "Lebsack, Conroy and Balistreri",
+    "ToolTip": "Soluta nemo sed.",
     "Deleted": true,
-    "Rank": 971,
-    "Type": "voluptatem",
-    "ColorBlock": 497,
-    "IconHint": "nisi",
+    "Rank": 934,
+    "Type": "autem",
+    "ColorBlock": 749,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1999-05-25T11:24:53.9530436+02:00",
+    "LastChanged": "2022-05-31T03:40:56.8682357+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Schuster Group",
-        "ToolTip": "Optio nulla autem officia assumenda.",
+        "Id": 794,
+        "Name": "Stiedemann Group",
+        "ToolTip": "Aut maiores molestiae labore ea laborum.",
         "Deleted": true,
-        "Rank": 205,
-        "Type": "ad",
-        "ColorBlock": 938,
-        "IconHint": "voluptatem",
+        "Rank": 221,
+        "Type": "dolores",
+        "ColorBlock": 897,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2003-02-11T11:24:53.9530436+01:00",
+        "LastChanged": "2024-10-31T03:40:56.8682357+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "expedita",
+        "ExtraInfo": "et",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Holden Kenyon Roberts Jr.",
+        "FullName": "Tina Williamson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "sequi",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Jodie Lorine Tromp II",
+    "FullName": "Mrs. Madelynn Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldType": "System.Int32",
+        "FieldLength": 782
       }
     }
   }

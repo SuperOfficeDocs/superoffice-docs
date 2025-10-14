@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/DeleteProjectMemberByIds
 Deletes projectmembers rows.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    268,
-    686
+    113,
+    340
   ]
 }
 ```

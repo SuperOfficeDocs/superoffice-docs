@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultSaleStageEntity
 Loading default values into a new SaleStageEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 671,
-  "Value": "illum",
-  "Tooltip": "at",
-  "Probability": 499,
+  "SaleStageId": 144,
+  "Value": "accusantium",
+  "Tooltip": "temporibus",
+  "Probability": 226,
   "Deleted": false,
-  "Rank": 83,
+  "Rank": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 221
     }
   }
 }

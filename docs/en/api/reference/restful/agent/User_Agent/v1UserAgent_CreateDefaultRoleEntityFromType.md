@@ -15,6 +15,7 @@ Create a new role entity of the specified role type.
 
 
 The role type cannot be changed after the entity is created.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,16 +106,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 736,
-  "Name": "Buckridge-Brown",
-  "Tooltip": "est",
+  "RoleId": 940,
+  "Name": "Carroll, Parisian and Pouros",
+  "Tooltip": "rem",
   "RoleType": "Anonymous",
-  "Deleted": 261,
-  "Rank": 832,
-  "Created": "2024-06-04T11:24:48.9063744+02:00",
-  "UseCategories": 871,
+  "Deleted": 202,
+  "Rank": 860,
+  "Created": "2023-09-29T03:40:48.1723713+02:00",
+  "UseCategories": 857,
   "CreatedBy": null,
-  "Updated": "2021-12-05T11:24:48.9063744+01:00",
+  "Updated": "2008-09-13T03:40:48.1723713+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -122,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 340
     }
   }
 }

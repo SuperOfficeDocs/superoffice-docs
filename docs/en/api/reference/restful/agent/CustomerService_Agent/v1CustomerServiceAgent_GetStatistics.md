@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetStatistics
 Returns the calculated results for the required statistics for the Customer Service Status Page
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "iste",
-    "qui"
+    "non",
+    "quam"
   ]
 }
 ```
@@ -95,82 +97,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "dolore",
+    "Label": "a",
     "Values": [
       {
-        "Label": "non",
-        "Value": 8367.7799999999988,
-        "Description": "Managed impactful Graphical User Interface",
+        "Label": "itaque",
+        "Value": 24498.478,
+        "Description": "Quality-focused radical standardization",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 743
           }
         }
       },
       {
-        "Label": "non",
-        "Value": 8367.7799999999988,
-        "Description": "Managed impactful Graphical User Interface",
+        "Label": "itaque",
+        "Value": 24498.478,
+        "Description": "Quality-focused radical standardization",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "Description": "Multi-layered mission-critical framework",
+    "Description": "Business-focused explicit synergy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   },
   {
-    "Label": "dolore",
+    "Label": "a",
     "Values": [
       {
-        "Label": "non",
-        "Value": 8367.7799999999988,
-        "Description": "Managed impactful Graphical User Interface",
+        "Label": "itaque",
+        "Value": 24498.478,
+        "Description": "Quality-focused radical standardization",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 743
           }
         }
       },
       {
-        "Label": "non",
-        "Value": 8367.7799999999988,
-        "Description": "Managed impactful Graphical User Interface",
+        "Label": "itaque",
+        "Value": 24498.478,
+        "Description": "Quality-focused radical standardization",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "Description": "Multi-layered mission-critical framework",
+    "Description": "Business-focused explicit synergy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Brekke Inc and Sons",
-    "ToolTip": "Error incidunt omnis qui ullam alias reprehenderit ut.",
+    "Id": 191,
+    "Name": "Monahan, Berge and Gislason",
+    "ToolTip": "Rerum debitis officiis dolor qui.",
     "Deleted": false,
-    "Rank": 3,
-    "Type": "beatae",
-    "ColorBlock": 377,
-    "IconHint": "ipsam",
+    "Rank": 750,
+    "Type": "autem",
+    "ColorBlock": 867,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2022-03-31T11:24:53.8592973+02:00",
+    "LastChanged": "2004-11-17T03:40:56.727602+01:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Nicolas Group",
-        "ToolTip": "Eos atque ad necessitatibus.",
-        "Deleted": true,
-        "Rank": 293,
-        "Type": "doloremque",
-        "ColorBlock": 464,
-        "IconHint": "ut",
+        "Id": 353,
+        "Name": "Moore, Gislason and Boyle",
+        "ToolTip": "Accusamus sed modi debitis assumenda reprehenderit vitae.",
+        "Deleted": false,
+        "Rank": 436,
+        "Type": "rerum",
+        "ColorBlock": 263,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2010-03-15T11:24:53.8592973+01:00",
+        "LastChanged": "2013-07-10T03:40:56.727602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Winifred Schuppe",
+        "ExtraInfo": "qui",
+        "StyleHint": "cum",
+        "Hidden": true,
+        "FullName": "Ms. Davion Christop Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 559
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "maxime",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Frankie Wiza",
+    "FullName": "Ms. Chadd Florine Prohaska Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

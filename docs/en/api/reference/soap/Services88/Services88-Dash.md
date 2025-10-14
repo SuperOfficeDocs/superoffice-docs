@@ -662,6 +662,110 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetDashQuickFilters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetDashQuickFiltersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfQuickFilterInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfQuickFilterInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="QuickFilterInfo" nillable="true" type="tns:QuickFilterInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfQuickFilterInfo" nillable="true" type="tns:ArrayOfQuickFilterInfo" />
+      <xs:complexType name="QuickFilterInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Restriction" nillable="true" type="tns:ArchiveRestrictionInfo" />
+          <xs:element minOccurs="0" name="Provider" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="QuickFilterInfo" nillable="true" type="tns:QuickFilterInfo" />
+      <xs:complexType name="ArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="q6:ArrayOfstring" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="DisplayValues" nillable="true" type="q7:ArrayOfstring" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="ColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+          <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SubRestrictions" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+          <xs:element minOccurs="0" name="InterParenthesis" type="xs:int" />
+          <xs:element minOccurs="0" name="InterOperator" type="tns:InterRestrictionOperator" />
+          <xs:element minOccurs="0" name="UniqueHash" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+      <xs:complexType name="ArchiveColumnInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanOrderBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CanRestrictBy" type="xs:boolean" />
+          <xs:element minOccurs="0" name="RestrictionType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RestrictionListName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsVisible" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="HeadingIconHint" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArchiveColumnInfo" nillable="true" type="tns:ArchiveColumnInfo" />
+      <xs:complexType name="ArrayOfArchiveRestrictionInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArchiveRestrictionInfo" nillable="true" type="tns:ArchiveRestrictionInfo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfArchiveRestrictionInfo" nillable="true" type="tns:ArrayOfArchiveRestrictionInfo" />
+      <xs:simpleType name="InterRestrictionOperator">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="And" />
+          <xs:enumeration value="Or" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="InterRestrictionOperator" nillable="true" type="tns:InterRestrictionOperator" />
+      <xs:element name="SaveDashQuickFilters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
+            <xs:element minOccurs="0" name="QuickFilters" nillable="true" type="tns:ArrayOfQuickFilterInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SaveDashQuickFiltersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfQuickFilterInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPossibleDashQuickFilters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DashboardId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetPossibleDashQuickFiltersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfQuickFilterInfo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDashCollection">
         <xs:complexType>
           <xs:sequence />
@@ -972,6 +1076,12 @@ content_type: reference
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfint" nillable="true" type="tns:ArrayOfint" />
+      <xs:complexType name="ArrayOfstring">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
   <wsdl:message name="CreateDefaultDashRequest">
@@ -1309,6 +1419,57 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:GetDashListResponse" />
   </wsdl:message>
   <wsdl:message name="GetDashListResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDashQuickFiltersRequest">
+    <wsdl:part name="parameters" element="tns:GetDashQuickFilters" />
+  </wsdl:message>
+  <wsdl:message name="GetDashQuickFiltersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetDashQuickFiltersResponse">
+    <wsdl:part name="parameters" element="tns:GetDashQuickFiltersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDashQuickFiltersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveDashQuickFiltersRequest">
+    <wsdl:part name="parameters" element="tns:SaveDashQuickFilters" />
+  </wsdl:message>
+  <wsdl:message name="SaveDashQuickFiltersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SaveDashQuickFiltersResponse">
+    <wsdl:part name="parameters" element="tns:SaveDashQuickFiltersResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveDashQuickFiltersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPossibleDashQuickFiltersRequest">
+    <wsdl:part name="parameters" element="tns:GetPossibleDashQuickFilters" />
+  </wsdl:message>
+  <wsdl:message name="GetPossibleDashQuickFiltersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetPossibleDashQuickFiltersResponse">
+    <wsdl:part name="parameters" element="tns:GetPossibleDashQuickFiltersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPossibleDashQuickFiltersResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1683,6 +1844,18 @@ content_type: reference
     <wsdl:operation name="GetDashList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashList" name="GetDashListRequest" message="tns:GetDashListRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashListResponse" name="GetDashListResponse" message="tns:GetDashListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDashQuickFilters">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashQuickFilters" name="GetDashQuickFiltersRequest" message="tns:GetDashQuickFiltersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashQuickFiltersResponse" name="GetDashQuickFiltersResponse" message="tns:GetDashQuickFiltersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDashQuickFilters">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashQuickFilters" name="SaveDashQuickFiltersRequest" message="tns:SaveDashQuickFiltersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashQuickFiltersResponse" name="SaveDashQuickFiltersResponse" message="tns:SaveDashQuickFiltersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPossibleDashQuickFilters">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPossibleDashQuickFilters" name="GetPossibleDashQuickFiltersRequest" message="tns:GetPossibleDashQuickFiltersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPossibleDashQuickFiltersResponse" name="GetPossibleDashQuickFiltersResponse" message="tns:GetPossibleDashQuickFiltersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDashCollection">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashCollection" name="GetDashCollectionRequest" message="tns:GetDashCollectionRequest" />
@@ -2072,6 +2245,54 @@ content_type: reference
         <soap:header message="tns:GetDashListResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDashListResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDashListResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDashQuickFilters">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetDashQuickFilters" style="document" />
+      <wsdl:input name="GetDashQuickFiltersRequest">
+        <soap:header message="tns:GetDashQuickFiltersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetDashQuickFiltersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetDashQuickFiltersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetDashQuickFiltersResponse">
+        <soap:header message="tns:GetDashQuickFiltersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetDashQuickFiltersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetDashQuickFiltersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetDashQuickFiltersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDashQuickFilters">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/SaveDashQuickFilters" style="document" />
+      <wsdl:input name="SaveDashQuickFiltersRequest">
+        <soap:header message="tns:SaveDashQuickFiltersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SaveDashQuickFiltersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SaveDashQuickFiltersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SaveDashQuickFiltersResponse">
+        <soap:header message="tns:SaveDashQuickFiltersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SaveDashQuickFiltersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SaveDashQuickFiltersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SaveDashQuickFiltersResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPossibleDashQuickFilters">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Dash/GetPossibleDashQuickFilters" style="document" />
+      <wsdl:input name="GetPossibleDashQuickFiltersRequest">
+        <soap:header message="tns:GetPossibleDashQuickFiltersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetPossibleDashQuickFiltersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetPossibleDashQuickFiltersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetPossibleDashQuickFiltersResponse">
+        <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetPossibleDashQuickFiltersResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

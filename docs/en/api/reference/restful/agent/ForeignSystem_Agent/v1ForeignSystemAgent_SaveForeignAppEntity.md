@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,23 +82,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 132,
-  "Name": "Breitenberg Inc and Sons",
-  "CreatedDate": "2013-05-14T11:24:48.1564051+02:00",
-  "UpdatedDate": "2009-02-06T11:24:48.1564051+01:00",
+  "ForeignAppId": 829,
+  "Name": "Hilpert-Keeling",
+  "CreatedDate": "1998-09-11T03:40:46.9686521+02:00",
+  "UpdatedDate": "2009-03-30T03:40:46.9686521+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 585,
-      "Name": "Collins-Schinner",
-      "CreatedDate": "2003-04-07T11:24:48.1564051+02:00",
-      "UpdatedDate": "2002-08-21T11:24:48.1564051+02:00",
-      "AssociateFullName": "Ms. Avis Alba Jewess PhD",
-      "CreatedBy": "eaque",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 409
+      "ForeignDeviceId": 487,
+      "Name": "Swift, Koss and Moen",
+      "CreatedDate": "2020-09-18T03:40:46.9842779+02:00",
+      "UpdatedDate": "2002-07-31T03:40:46.9842779+02:00",
+      "AssociateFullName": "Nicholas Lauriane Borer III",
+      "CreatedBy": "id",
+      "UpdatedBy": "nemo",
+      "DeviceIdentifier": "laboriosam",
+      "ForeignAppId": 351
     }
   ]
 }
@@ -109,29 +111,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 302,
-  "Name": "Leannon LLC",
-  "CreatedDate": "2019-08-12T11:24:48.1564051+02:00",
-  "UpdatedDate": "2023-12-24T11:24:48.1564051+01:00",
+  "ForeignAppId": 368,
+  "Name": "Orn, Hintz and Lubowitz",
+  "CreatedDate": "2025-08-11T03:40:46.9842779+02:00",
+  "UpdatedDate": "2002-08-14T03:40:46.9842779+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 206,
-      "Name": "Kassulke Group",
-      "CreatedDate": "2018-10-10T11:24:48.1564051+02:00",
-      "UpdatedDate": "2017-07-09T11:24:48.1564051+02:00",
-      "AssociateFullName": "Mr. Albina Frederik Bode PhD",
-      "CreatedBy": "natus",
-      "UpdatedBy": "excepturi",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 259,
+      "ForeignDeviceId": 663,
+      "Name": "Marquardt, Kerluke and Morar",
+      "CreatedDate": "2021-01-07T03:40:46.9842779+01:00",
+      "UpdatedDate": "2013-10-28T03:40:46.9842779+01:00",
+      "AssociateFullName": "Mariah Schultz",
+      "CreatedBy": "eos",
+      "UpdatedBy": "neque",
+      "DeviceIdentifier": "ratione",
+      "ForeignAppId": 636,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 481
         }
       }
     }
@@ -141,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 465
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/AddBounceWithDetails
 Add a number of bounce counts on the email address if it exists, and with possible bounce code and reason
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "kobe_frami@leannonmcglynn.us",
-  "Counts": 716,
-  "Code": 976,
+  "EmailAddress": "sydni@paucekterry.ca",
+  "Counts": 863,
+  "Code": 886,
   "Reason": ""
 }
 ```

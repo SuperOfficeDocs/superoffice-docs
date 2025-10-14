@@ -15,6 +15,7 @@ Signal webhooks that an event has occurred.
 
 
 All webhooks listening for the event will be notified.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -72,12 +73,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Beahan-Bayer",
-  "PrimaryKey": 707,
+  "EventName": "Rowe-Pouros",
+  "PrimaryKey": 914,
   "Data": {
     "fieldName": {}
   }

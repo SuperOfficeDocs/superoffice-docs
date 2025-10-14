@@ -15,6 +15,7 @@ Parse the source document, and replace any template variable tags with their val
 
 
 &lt;p/&gt; The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -78,15 +79,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 958,
-  "AssociateId": 774,
+  "DocumentId": 175,
+  "AssociateId": 144,
   "CustomTags": [
-    "repudiandae",
-    "aut"
+    "est",
+    "ab"
   ],
   "CustomValues": [
-    "cum",
-    "optio"
+    "illo",
+    "dolores"
   ]
 }
 ```

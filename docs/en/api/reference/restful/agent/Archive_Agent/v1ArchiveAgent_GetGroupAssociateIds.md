@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetGroupAssociateIds
 Returns the  associate ids that belongs to the given groups
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    960,
-    197
+    372,
+    690
   ]
 }
 ```
@@ -87,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  42,
-  686
+  455,
+  678
 ]
 ```

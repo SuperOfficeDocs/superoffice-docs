@@ -32,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=198
+PUT /api/v1/Project/{id}/ImageInfo?projectId=187
 ```
 
 
@@ -105,23 +105,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 874,
-  "BlobSize": 987,
-  "Description": "Visionary real-time matrices",
-  "ExtraInfo": "ullam",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quasi",
-  "OriginalSize": 79,
-  "CreatedDate": "2013-12-13T11:24:53.4843128+01:00",
-  "UpdatedDate": "2013-11-22T11:24:53.4843128+01:00",
+  "BlobId": 781,
+  "BlobSize": 310,
+  "Description": "Integrated national adapter",
+  "ExtraInfo": "porro",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 928,
+  "CreatedDate": "1998-08-22T03:40:56.0542974+02:00",
+  "UpdatedDate": "2007-12-23T03:40:56.0542974+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "consequuntur"
 }
 ```
 
@@ -132,25 +132,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 403,
-  "BlobSize": 659,
-  "Description": "Face to face tangible framework",
-  "ExtraInfo": "aperiam",
+  "BlobId": 643,
+  "BlobSize": 158,
+  "Description": "Realigned bifurcated protocol",
+  "ExtraInfo": "quis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "laboriosam",
-  "OriginalSize": 588,
-  "CreatedDate": "2015-12-17T11:24:53.4843128+01:00",
-  "UpdatedDate": "2006-02-03T11:24:53.4843128+01:00",
+  "IsZipped": true,
+  "MimeType": "aut",
+  "OriginalSize": 832,
+  "CreatedDate": "2022-02-05T03:40:56.0542974+01:00",
+  "UpdatedDate": "2007-06-18T03:40:56.0542974+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   }
 }

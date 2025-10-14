@@ -15,6 +15,7 @@ Returns an array of phone list items for all the persons belonging to a contact 
 
 
 The in-parameter must be a valid contact-id.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 994
+  "ContactId": 747
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "136-331-5042 x6544",
-    "PersonCellPhone": "(480)902-8130 x5859",
-    "PersonPrivatePhone": "(154)760-9308",
-    "PersonFaxNumber": "289634",
-    "PersonPagerNumber": "828204",
-    "PersonEmail": "brook@miller.co.uk",
-    "Id": 753,
-    "Name": "Lemke-Jones",
-    "Tooltip": "rerum",
-    "UniqueId": "earum",
+    "PersonDirectPhone": "1-745-483-3198 x97705",
+    "PersonCellPhone": "882-129-4363",
+    "PersonPrivatePhone": "(700)302-4002",
+    "PersonFaxNumber": "919572",
+    "PersonPagerNumber": "201762",
+    "PersonEmail": "keely_barrows@kleinhomenick.name",
+    "Id": 157,
+    "Name": "Pagac Inc and Sons",
+    "Tooltip": "natus",
+    "UniqueId": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 129
       }
     }
   }

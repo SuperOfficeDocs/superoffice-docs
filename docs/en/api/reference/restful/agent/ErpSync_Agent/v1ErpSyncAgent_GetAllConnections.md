@@ -15,6 +15,7 @@ Returns all ERP Sync connections without config field data.
 
 
 Uses the `ErpConnection` archive.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -94,7 +95,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,33 +107,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 319,
-    "ErpConnectorId": 621,
-    "DisplayName": "Crooks LLC",
-    "DisplayDescription": "Front-line real-time portal",
-    "Active": false,
-    "ConnectionId": "aliquam",
-    "MostRecentTimestamp": "ad",
+    "ErpConnectionId": 906,
+    "ErpConnectorId": 662,
+    "DisplayName": "Gulgowski-Stamm",
+    "DisplayDescription": "Robust empowering Graphic Interface",
+    "Active": true,
+    "ConnectionId": "ut",
+    "MostRecentTimestamp": "non",
     "ConfigFields": {
-      "ConfigFields1": "dolor",
-      "ConfigFields2": "explicabo"
+      "ConfigFields1": "itaque",
+      "ConfigFields2": "illum"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      582,
-      922
+      576,
+      595
     ],
     "AssociateAccessIds": [
-      852,
-      128
+      474,
+      982
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 904
       }
     }
   }

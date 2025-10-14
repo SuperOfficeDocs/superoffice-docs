@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectionStartupErrors
 Returns an array of PluginResponseInfos for all failed connection initializations.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionStartupErrors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "IsOk": false,
-    "UserExplanation": "recusandae",
-    "TechExplanation": "quae",
-    "ErrorCode": "quis",
+    "UserExplanation": "voluptatem",
+    "TechExplanation": "recusandae",
+    "ErrorCode": "quo",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

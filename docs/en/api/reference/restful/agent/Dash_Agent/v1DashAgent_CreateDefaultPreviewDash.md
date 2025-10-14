@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Loading default values into a new PreviewDash.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,33 +73,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 107,
-  "Name": "Swift LLC",
-  "Description": "Pre-emptive 6th generation budgetary management",
-  "OwnedByFullName": "Manuela Schinner",
-  "Registered": "2022-10-04T11:24:47.8751665+02:00",
+  "DashboardId": 303,
+  "Name": "Hudson-Kertzmann",
+  "Description": "Balanced didactic access",
+  "OwnedByFullName": "Margaret Golden Becker II",
+  "Registered": "2002-12-27T03:40:46.5780122+01:00",
   "Tiles": [
     {
-      "Name": "Will-Yundt",
+      "Name": "Goldner, Goyette and Bailey",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     },
     {
-      "Name": "Will-Yundt",
+      "Name": "Goldner, Goyette and Bailey",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     }
@@ -107,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 659
     }
   }
 }

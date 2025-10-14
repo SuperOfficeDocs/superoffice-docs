@@ -14,6 +14,8 @@ PUT /api/v1/Attachment/{id}
 Updates the existing AttachmentEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 346,
-  "Name": "Homenick-Nader",
-  "ContentType": "quisquam",
-  "AttSize": 362,
-  "InlineImage": true,
-  "ContentId": "illo",
-  "AuthKey": "est",
-  "IsSafeFileExtension": true
+  "AttachmentId": 710,
+  "Name": "Hilpert, Nienow and Leannon",
+  "ContentType": "harum",
+  "AttSize": 378,
+  "InlineImage": false,
+  "ContentId": "qui",
+  "AuthKey": "dolores",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -116,20 +118,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 510,
-  "Name": "Ruecker Inc and Sons",
-  "ContentType": "velit",
-  "AttSize": 630,
-  "InlineImage": false,
-  "ContentId": "non",
-  "AuthKey": "laudantium",
+  "AttachmentId": 910,
+  "Name": "Rohan, Waters and Murray",
+  "ContentType": "molestiae",
+  "AttSize": 822,
+  "InlineImage": true,
+  "ContentId": "sed",
+  "AuthKey": "aut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   },
   "_Links": {

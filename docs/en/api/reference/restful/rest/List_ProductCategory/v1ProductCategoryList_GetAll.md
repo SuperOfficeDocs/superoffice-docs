@@ -26,7 +26,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=False
+GET /api/v1/List/ProductCategory/Items?includeDeleted=True
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Upton-Koch",
-    "Tooltip": "modi",
+    "Id": 530,
+    "Name": "Lemke, Kirlin and Purdy",
+    "Tooltip": "autem",
     "Deleted": false,
-    "UdListDefinitionId": 288,
-    "Rank": 41,
+    "UdListDefinitionId": 997,
+    "Rank": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

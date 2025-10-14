@@ -92,6 +92,7 @@ as well as before any ORDER BY, are applied.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -133,11 +134,11 @@ as well as before any ORDER BY, are applied.
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
@@ -145,7 +146,9 @@ as well as before any ORDER BY, are applied.
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -235,13 +238,13 @@ as well as before any ORDER BY, are applied.
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
 |person/personExtra/y\_rental/x\_end|date|Rental - End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
-|person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
-|person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
+|person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -326,6 +329,7 @@ as well as before any ORDER BY, are applied.
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -338,14 +342,14 @@ as well as before any ORDER BY, are applied.
 |contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
-|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|contact/contactSource|listAny|Source: Source (Company)| x |
-|contact/contactDeleted|bool|Deleted: Deleted| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|contact/contactSource|listAny|Source: Source (Company)| x |
+|contact/contactDeleted|bool|Deleted: Deleted| x |
 |contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
@@ -442,14 +446,14 @@ as well as before any ORDER BY, are applied.
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
-|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
-|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
-|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
+|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
+|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
+|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
@@ -546,14 +550,14 @@ as well as before any ORDER BY, are applied.
 |project/name|stringorPK|Project name: Displays the Project's name| x |
 |project/number|string|Number: Displays the project's number| x |
 |project/type|listAny|Project type: Displays the project's type| x |
-|project/status|listAny|Status: Displays the project's status| x |
-|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
-|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/status|listAny|Status: Displays the project's status| x |
+|project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
+|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
@@ -650,14 +654,14 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/comment|string|Stakeholder - Sales role comment text: Sales role comment text| x |
 |saleStakeholder/salesRoleId|listAny|Stakeholder - Sales role: Sales role| x |
 |saleStakeholder/hasInfoText|bool|Stakeholder - Sales role comment: Sales role comment| x |
-|saleStakeholder/person/personId|int|Stakeholder - DB ID: Displays the database ID of a contact| x |
-|saleStakeholder/person/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
-|saleStakeholder/person/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
-|saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personId|int|Stakeholder - DB ID: Displays the database ID of a contact| x |
+|saleStakeholder/person/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
+|saleStakeholder/person/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
+|saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.| x |
 |saleStakeholder/person/fullName|stringorPK|Stakeholder - Contact: Displays the contact to which an item is linked| x |
 |saleStakeholder/person/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/person/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
@@ -696,7 +700,9 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
+|saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
+|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
@@ -752,16 +758,16 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
 |saleStakeholder/person/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/person/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/personInterestIds|listInterest|Stakeholder - Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |saleStakeholder/person/personUdef/SuperOffice:1|string|Stakeholder - contactshorttext: tooltipshorttext| x |
 |saleStakeholder/person/personUdef/SuperOffice:2|string|Stakeholder - contactlongtext: tooltiplongtext| x |
 |saleStakeholder/person/personUdef/SuperOffice:3|int|Stakeholder - contactnumber| x |
 |saleStakeholder/person/personUdef/SuperOffice:4|date|Stakeholder - contactdate| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personUdef/SuperOffice:5|unlimitedDate|Stakeholder - contactunlimiteddate: tooltipunlimiteddate| x |
 |saleStakeholder/person/personUdef/SuperOffice:6|bool|Stakeholder - contactcheckbox| x |
 |saleStakeholder/person/personUdef/SuperOffice:7|listAny|Stakeholder - contactdropdownlistbox| x |
@@ -856,16 +862,16 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/correspondingAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/person/correspondingAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/person/correspondingAssociate/userName|string|Stakeholder - User name: User name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail| x |
 |saleStakeholder/person/correspondingAssociate/locationAddress|string|Stakeholder - Location: Location| x |
 |saleStakeholder/person/correspondingAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
 |saleStakeholder/person/isMailingRecipient|bool|Stakeholder - Is mailing recipient: isMailingRecipient| x |
 |saleStakeholder/person/hasStoreConsent|bool|Stakeholder - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/hasEmarketingConsent|bool|Stakeholder - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |saleStakeholder/person/withdrawnEmarketingConsent|bool|Stakeholder - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |saleStakeholder/person/subscription|listAny|Stakeholder - Subscription: Subscription for marketing| x |
@@ -881,6 +887,7 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
+|saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
@@ -959,6 +966,10 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/contactAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |saleStakeholder/contact/contactAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 |saleStakeholder/contact/contactAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/contact/contactAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/contact/contactAssociate/associateDbId|associate|Stakeholder - ID| x |
@@ -966,10 +977,6 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/contactAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group| x |
 |saleStakeholder/contact/contactAssociate/usergroupId|int|Stakeholder - Group ID: The user's primary user group| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/contact/contactAssociate/role|listAny|Stakeholder - Role: Role| x |
@@ -1063,6 +1070,10 @@ as well as before any ORDER BY, are applied.
 |quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
 |quote/version/state|listAny|State: The current state the quote is in| x |
 |quote/version/status|listAny|Quote status: Status field showing the status of each line.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
 |quote/version/paymentTerms|listExternal|Payment terms: Payment terms|  |
 |quote/version/paymentType|listExternal|Payment type: Payment type|  |
@@ -1070,10 +1081,6 @@ as well as before any ORDER BY, are applied.
 |quote/version/deliveryType|listExternal|Delivery type: Delivery type|  |
 |quote/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |quote/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
@@ -1152,7 +1159,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=stageId,person/personInfo/infoText,person/restrictionAddress/line2,person/personAssociate/otherGroups,contact/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/FreetextSale?$select=type,contact/LastDoByActivity,project/projectEvent/hasSignOn,saleStakeholder/person/email/emailBounceCount,saleStakeholder/person/personAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

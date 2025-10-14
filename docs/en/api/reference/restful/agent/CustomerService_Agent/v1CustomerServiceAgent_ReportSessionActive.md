@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/ReportSessionActive
 Report a session as being 'active'; will update the corresponding row in login table, but not more than once per minute/session
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/CustomerService/ReportSessionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SessionKey": "cum"
+  "SessionKey": "temporibus"
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-973
+348
 ```

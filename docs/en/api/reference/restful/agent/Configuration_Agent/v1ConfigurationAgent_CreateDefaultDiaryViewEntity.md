@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Loading default values into a new DiaryViewEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,49 +75,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 890,
-  "Name": "Lynch, Carter and Schulist",
-  "Tooltip": "nam",
-  "VisibleColumns": 168,
-  "Rank": 131,
-  "AssocId": 352,
+  "DiaryViewId": 333,
+  "Name": "Spencer-Adams",
+  "Tooltip": "repudiandae",
+  "VisibleColumns": 610,
+  "Rank": 698,
+  "AssocId": 235,
   "AssociateList": [
     {
-      "Id": 786,
-      "Name": "Luettgen-Kilback",
-      "ToolTip": "Ut cumque aut ut similique iure quisquam.",
+      "Id": 836,
+      "Name": "Runolfsdottir, Rempel and Waters",
+      "ToolTip": "Veniam voluptates est debitis quae iusto et molestiae.",
       "Deleted": false,
-      "Rank": 945,
-      "Type": "eum",
-      "ColorBlock": 925,
-      "IconHint": "animi",
-      "Selected": false,
-      "LastChanged": "2023-02-27T11:24:47.7189228+01:00",
+      "Rank": 32,
+      "Type": "doloremque",
+      "ColorBlock": 679,
+      "IconHint": "ad",
+      "Selected": true,
+      "LastChanged": "2018-01-26T03:40:46.2488145+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
+      "ExtraInfo": "quia",
       "StyleHint": "doloremque",
-      "Hidden": true,
-      "FullName": "Dr. Lafayette Schumm Jr.",
+      "Hidden": false,
+      "FullName": "Chelsey Kris III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldType": "System.String",
+          "FieldLength": 614
         }
       }
     }
   ],
-  "TzLocationId": 495,
+  "TzLocationId": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

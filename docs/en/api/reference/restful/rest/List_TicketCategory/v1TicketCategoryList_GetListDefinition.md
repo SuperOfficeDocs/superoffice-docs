@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Schamberger Group",
-  "Tooltip": "cupiditate",
+  "Id": 46,
+  "Name": "Swift-Kunze",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 230,
+  "Rank": 353,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 612
     }
   },
   "_Links": {

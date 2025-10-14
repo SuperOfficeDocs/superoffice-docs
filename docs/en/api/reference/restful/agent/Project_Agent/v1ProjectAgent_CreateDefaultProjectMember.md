@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Loading default values into a new ProjectMember.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 195,
-  "ContactId": 596,
-  "ProjectId": 314,
-  "ContactName": "Barton-Kuhlman",
+  "ProjectmemberId": 964,
+  "ContactId": 99,
+  "ProjectId": 786,
+  "ContactName": "Jerde Group",
   "ContactDepartment": "",
-  "ProjectName": "Wilkinson, Kemmer and Wolf",
-  "EmailId": 240,
-  "EmailAddress": "brandy_leuschke@hudson.us",
-  "CountryId": 972,
-  "Firstname": "Jacklyn",
-  "MiddleName": "Bahringer, McGlynn and Lemke",
-  "Lastname": "Berge",
-  "PersonId": 62,
-  "Mrmrs": "esse",
-  "ProjectMemberTypeName": "Casper, O'Kon and Bogisich",
-  "Phone": "760-942-0495",
-  "PhoneId": 314,
-  "ProjectMemberTypeId": 752,
-  "EmailAddressName": "myles@turner.ca",
-  "Comment": "blanditiis",
-  "FullName": "Marlene Littel",
-  "Registered": "2023-06-17T11:24:48.5001409+02:00",
-  "Updated": "2022-01-03T11:24:48.5001409+01:00",
+  "ProjectName": "Hills-Cassin",
+  "EmailId": 256,
+  "EmailAddress": "lavon_pollich@prohaskajacobi.us",
+  "CountryId": 121,
+  "Firstname": "Adalberto",
+  "MiddleName": "Conn, Langworth and Luettgen",
+  "Lastname": "Kihn",
+  "PersonId": 11,
+  "Mrmrs": "enim",
+  "ProjectMemberTypeName": "Gleason Inc and Sons",
+  "Phone": "(162)567-6211 x39760",
+  "PhoneId": 878,
+  "ProjectMemberTypeId": 725,
+  "EmailAddressName": "haskell@goodwin.com",
+  "Comment": "itaque",
+  "FullName": "Monserrate Fadel",
+  "Registered": "2007-09-21T03:40:47.4999832+02:00",
+  "Updated": "2017-07-12T03:40:47.4999832+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 969
     }
   }
 }

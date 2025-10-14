@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Loading default values into a new DashCollection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -58,7 +60,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,111 +72,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 807,
-      "UniqueId": "distinctio",
-      "Name": "O'Keefe, Mueller and Ankunding",
-      "Description": "Total demand-driven leverage",
-      "AssociateId": 198,
-      "Columns": 891,
+      "DashboardId": 601,
+      "UniqueId": "ut",
+      "Name": "Greenholt-Hermann",
+      "Description": "Versatile intermediate structure",
+      "AssociateId": 293,
+      "Columns": 625,
       "Theme": null,
-      "VisibleForAll": 551,
+      "VisibleForAll": 867,
       "VisibleForAssociates": [
-        502,
-        450
+        567,
+        739
       ],
       "VisibleForGroups": [
-        296,
-        758
+        553,
+        33
       ],
-      "PinForAll": 30,
+      "PinForAll": 208,
       "PinForAssociates": [
-        960,
-        568
+        434,
+        145
       ],
       "PinForGroups": [
-        385,
-        108
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 325
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 62,
-      "UniqueId": "dolores",
-      "Name": "Prohaska, Goldner and Frami",
-      "Description": "Monitored object-oriented support",
-      "AssociateId": 105,
-      "Columns": 9,
-      "Theme": null,
-      "VisibleForAll": 273,
-      "VisibleForAssociates": [
-        271,
-        202
-      ],
-      "VisibleForGroups": [
-        524,
-        405
-      ],
-      "PinForAll": 899,
-      "PinForAssociates": [
-        501,
-        498
-      ],
-      "PinForGroups": [
-        110,
-        90
+        424,
+        930
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 131
+          "FieldLength": 914
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 766,
+      "UniqueId": "qui",
+      "Name": "Terry Group",
+      "Description": "De-engineered methodical interface",
+      "AssociateId": 16,
+      "Columns": 226,
+      "Theme": null,
+      "VisibleForAll": 212,
+      "VisibleForAssociates": [
+        358,
+        168
+      ],
+      "VisibleForGroups": [
+        853,
+        25
+      ],
+      "PinForAll": 168,
+      "PinForAssociates": [
+        536,
+        693
+      ],
+      "PinForGroups": [
+        552,
+        851
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 662,
-      "UniqueId": "odio",
-      "Name": "Runolfsson Inc and Sons",
-      "Description": "Stand-alone motivating alliance",
-      "AssociateId": 182,
-      "Columns": 450,
+      "DashboardId": 946,
+      "UniqueId": "ut",
+      "Name": "Muller, Zemlak and Pacocha",
+      "Description": "Phased eco-centric portal",
+      "AssociateId": 756,
+      "Columns": 784,
       "Theme": null,
-      "VisibleForAll": 32,
+      "VisibleForAll": 590,
       "VisibleForAssociates": [
-        65,
-        561
+        972,
+        495
       ],
       "VisibleForGroups": [
-        839,
-        618
+        968,
+        915
       ],
-      "PinForAll": 600,
+      "PinForAll": 629,
       "PinForAssociates": [
-        410,
-        546
+        330,
+        965
       ],
       "PinForGroups": [
-        766,
-        543
+        460,
+        13
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 145
         }
       }
     }
@@ -184,7 +186,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 875
     }
   }
 }

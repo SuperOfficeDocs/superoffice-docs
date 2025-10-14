@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 298,
-  "Name": "Homenick Inc and Sons",
-  "Tooltip": "sunt",
-  "Rank": 46,
-  "Rate": 18725.649999999998,
-  "Units": 28782.656,
-  "Deleted": false,
+  "CurrencyId": 251,
+  "Name": "Abshire Group",
+  "Tooltip": "nihil",
+  "Rank": 397,
+  "Rate": 16522.448,
+  "Units": 29117.994,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

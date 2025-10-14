@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetListWithHistory
 Method to get a MDO list with own history list.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -89,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Carroll LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "ut",
+  "Name": "Harvey, Mayert and Kub",
+  "ForceFlatList": false,
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    243,
-    932
+    293,
+    237
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -112,50 +114,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Shanahan, Harvey and Cummings",
-    "ToolTip": "Officiis atque ut voluptas totam corrupti ut.",
+    "Id": 4,
+    "Name": "Haag, Daniel and Klein",
+    "ToolTip": "Minus sed deserunt.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "laboriosam",
+    "Rank": 481,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Lebsack Group",
-        "ToolTip": "Rerum sequi deleniti ducimus sunt.",
+        "Id": 938,
+        "Name": "Cartwright-Yundt",
+        "ToolTip": "Maiores non blanditiis neque velit aperiam minus.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "nisi",
+        "Rank": 252,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 263,
-        "ExtraInfo": "nobis",
-        "StyleHint": "aliquid",
-        "FullName": "Destin Weissnat",
+        "IconHint": "molestiae",
+        "ColorBlock": 983,
+        "ExtraInfo": "eos",
+        "StyleHint": "blanditiis",
+        "FullName": "Mossie Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 146
           }
         }
       }
     ],
-    "IconHint": "numquam",
-    "ColorBlock": 587,
-    "ExtraInfo": "commodi",
-    "StyleHint": "excepturi",
-    "FullName": "Wilson Ondricka",
+    "IconHint": "autem",
+    "ColorBlock": 470,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "consequatur",
+    "FullName": "Alexandria Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldType": "System.Int32",
+        "FieldLength": 672
       }
     }
   }

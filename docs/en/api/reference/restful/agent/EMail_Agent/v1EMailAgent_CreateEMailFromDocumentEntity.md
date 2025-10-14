@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Get an e-mail based on the provided DocumentEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,148 +121,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 133,
-      "ContactName": "Bayer LLC",
-      "PersonId": 136,
-      "PersonName": "Crist Group",
-      "AssociateId": 618,
-      "Address": "a",
-      "EmailId": 911,
+      "ContactId": 123,
+      "ContactName": "Aufderhar LLC",
+      "PersonId": 360,
+      "PersonName": "Jenkins, Hansen and Blanda",
+      "AssociateId": 898,
+      "Address": "magni",
+      "EmailId": 14,
       "DuplicatePersonIds": [
-        293,
-        440
+        103,
+        473
       ],
-      "Name": "Gaylord, Gleason and Schultz",
+      "Name": "Boyle, Hirthe and Russel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 673
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 575,
-      "ContactName": "Murray Inc and Sons",
-      "PersonId": 741,
-      "PersonName": "Lebsack, Paucek and Block",
-      "AssociateId": 949,
-      "Address": "quas",
-      "EmailId": 967,
+      "ContactId": 516,
+      "ContactName": "Heathcote-Jerde",
+      "PersonId": 735,
+      "PersonName": "Jewess, Witting and Tremblay",
+      "AssociateId": 473,
+      "Address": "veniam",
+      "EmailId": 964,
       "DuplicatePersonIds": [
-        800,
-        981
+        253,
+        707
       ],
-      "Name": "Steuber, Stamm and Ward",
+      "Name": "Bartoletti-Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 698
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 876,
-      "ContactName": "Wiza LLC",
-      "PersonId": 428,
-      "PersonName": "Dickinson, Gulgowski and Stracke",
-      "AssociateId": 724,
-      "Address": "cumque",
-      "EmailId": 280,
+      "ContactId": 787,
+      "ContactName": "Sauer-Pfannerstill",
+      "PersonId": 258,
+      "PersonName": "Schaden Group",
+      "AssociateId": 440,
+      "Address": "id",
+      "EmailId": 426,
       "DuplicatePersonIds": [
-        86,
-        212
+        819,
+        536
       ],
-      "Name": "Senger, Luettgen and Tremblay",
+      "Name": "Bosco LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 585
         }
       }
     }
   ],
-  "Subject": "dolorem",
-  "HTMLBody": "sed",
+  "Subject": "corporis",
+  "HTMLBody": "architecto",
   "From": null,
-  "Sent": "2015-12-25T11:24:48.0939075+01:00",
-  "Size": 142,
+  "Sent": "2002-04-16T03:40:46.8905223+02:00",
+  "Size": 721,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "perferendis",
-  "PlainBody": "similique",
-  "IsSent": true,
+  "MessageID": "omnis",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 281,
+  "ServerId": 947,
   "Attachments": [
     {
-      "Description": "Persistent clear-thinking encoding",
-      "Filename": "architecto",
-      "Size": 202,
-      "Type": "neque",
-      "Encoding": "repudiandae",
-      "Id": "est",
-      "Disposition": "nihil",
-      "IsSafeFileExtension": false,
+      "Description": "User-centric demand-driven website",
+      "Filename": "sed",
+      "Size": 363,
+      "Type": "doloremque",
+      "Encoding": "sapiente",
+      "Id": "odio",
+      "Disposition": "repudiandae",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldLength": 64
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rau Inc and Sons",
+      "Name": "Gaylord Inc and Sons",
       "Values": [
-        "est",
-        "fugit"
+        "sed",
+        "corrupti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 405
         }
       }
     },
     {
-      "Name": "Rau Inc and Sons",
+      "Name": "Gaylord Inc and Sons",
       "Values": [
-        "est",
-        "fugit"
+        "sed",
+        "corrupti"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 405
         }
       }
     }
   ],
-  "FolderName": "Anderson-Runte",
-  "EmailItemId": 448,
-  "AccountId": 453,
-  "ReceivedAt": "2019-06-10T11:24:48.0939075+02:00",
+  "FolderName": "Fritsch, Brakus and Tremblay",
+  "EmailItemId": 902,
+  "AccountId": 409,
+  "ReceivedAt": "2019-02-18T03:40:46.8905223+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2025-06-01T11:24:48.0939075+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-07-16T03:40:46.8905223+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 438
     }
   }
 }

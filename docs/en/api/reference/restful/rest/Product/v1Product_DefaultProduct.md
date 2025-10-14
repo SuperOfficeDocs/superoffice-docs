@@ -15,6 +15,7 @@ Set default values into a new Product.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultProduct.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,7 +92,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 897,
-  "ERPProductKey": "tenetur",
-  "ERPPriceListKey": "omnis",
-  "Name": "Ward LLC",
-  "Description": "Proactive eco-centric concept",
-  "Code": "delectus",
-  "PriceUnit": "sapiente",
-  "QuantityUnit": "molestiae",
+  "ProductId": 778,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "nulla",
+  "Name": "Hammes-Bergstrom",
+  "Description": "Virtual full-range protocol",
+  "Code": "et",
+  "PriceUnit": "reiciendis",
+  "QuantityUnit": "aut",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "DefaultSubscriptionQuantity": 18615.96,
-  "ItemNumber": "1013747",
+  "SubscriptionUnit": "alias",
+  "DefaultSubscriptionQuantity": 25799.088,
+  "ItemNumber": "1152862",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "facilis",
-  "VAT": 26472.897999999997,
-  "VATInfo": "quam",
-  "UnitCost": 22715.232,
-  "UnitMinimumPrice": 8571.49,
-  "UnitListPrice": 6894.8,
+  "ProductFamilyKey": "adipisci",
+  "ProductTypeKey": "nemo",
+  "VAT": 27529.056,
+  "VATInfo": "similique",
+  "UnitCost": 25517.028,
+  "UnitMinimumPrice": 24532.951999999997,
+  "UnitListPrice": 15334.662,
   "InAssortment": true,
-  "Supplier": "nesciunt",
-  "SupplierCode": "est",
-  "Rights": "eveniet",
-  "Rule": "sit",
+  "Supplier": "rerum",
+  "SupplierCode": "hic",
+  "Rights": "tempora",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Jacobs, O'Kon and Mills",
-      "Value": "nam",
+      "Name": "Stiedemann, Bogisich and Kuhn",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 712
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     },
     {
-      "Name": "Jacobs, O'Kon and Mills",
-      "Value": "nam",
+      "Name": "Stiedemann, Bogisich and Kuhn",
+      "Value": "provident",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 712
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
   ],
-  "RawExtraInfo": "autem",
-  "ExtraField1": "exercitationem",
-  "ExtraField2": "minima",
-  "ExtraField3": "provident",
-  "ExtraField4": "officia",
-  "ExtraField5": "nulla",
-  "InStock": 17747.842,
+  "RawExtraInfo": "sapiente",
+  "ExtraField1": "dicta",
+  "ExtraField2": "nulla",
+  "ExtraField3": "nihil",
+  "ExtraField4": "quia",
+  "ExtraField5": "rerum",
+  "InStock": 15130.952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

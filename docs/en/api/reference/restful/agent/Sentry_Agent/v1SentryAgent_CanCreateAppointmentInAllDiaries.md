@@ -15,6 +15,7 @@ CanCreateAppointmentInAllDiaries will check if the current associate can create 
 
 
 CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,5 +73,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

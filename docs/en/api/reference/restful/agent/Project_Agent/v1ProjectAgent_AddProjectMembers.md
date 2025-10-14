@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/AddProjectMembers
 Add multiple project members to a project
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,36 +68,36 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 206,
+  "ProjectEntityId": 549,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 206,
-      "ContactId": 168,
-      "ProjectId": 214,
-      "ContactName": "Hintz, Reynolds and Bergstrom",
+      "ProjectmemberId": 973,
+      "ContactId": 557,
+      "ProjectId": 531,
+      "ContactName": "Olson, Swift and Schoen",
       "ContactDepartment": "",
-      "ProjectName": "Rosenbaum Inc and Sons",
-      "EmailId": 986,
-      "EmailAddress": "margret@rosenbaum.info",
-      "CountryId": 244,
-      "Firstname": "Kale",
-      "MiddleName": "Mraz, Hirthe and Pollich",
-      "Lastname": "Prohaska",
-      "PersonId": 425,
-      "Mrmrs": "quod",
-      "ProjectMemberTypeName": "Kerluke Inc and Sons",
-      "Phone": "500.329.9187",
-      "PhoneId": 536,
-      "ProjectMemberTypeId": 610,
-      "EmailAddressName": "ashton.prosacco@reichel.uk",
-      "Comment": "quia",
-      "FullName": "Henry Stanton",
-      "Registered": "2008-07-30T11:24:48.4688922+02:00",
-      "Updated": "2018-06-25T11:24:48.4688922+02:00"
+      "ProjectName": "Vandervort Group",
+      "EmailId": 57,
+      "EmailAddress": "amy.kirlin@kovacekzulauf.com",
+      "CountryId": 874,
+      "Firstname": "Jaycee",
+      "MiddleName": "Veum-Armstrong",
+      "Lastname": "Schmitt",
+      "PersonId": 957,
+      "Mrmrs": "qui",
+      "ProjectMemberTypeName": "Klocko-Keeling",
+      "Phone": "914-537-0644 x67645",
+      "PhoneId": 903,
+      "ProjectMemberTypeId": 549,
+      "EmailAddressName": "deon@schroederpacocha.name",
+      "Comment": "delectus",
+      "FullName": "Prof. Joanne Wyman",
+      "Registered": "2012-12-20T03:40:47.4687299+01:00",
+      "Updated": "2011-07-08T03:40:47.4687299+02:00"
     }
   ]
 }

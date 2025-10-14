@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686,
-  "Name": "Mueller-Huel",
-  "Tooltip": "officia",
+  "Id": 732,
+  "Name": "Towne LLC",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "UdListDefinitionId": 858,
-  "Rank": 448,
+  "UdListDefinitionId": 106,
+  "Rank": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 189
     }
   }
 }

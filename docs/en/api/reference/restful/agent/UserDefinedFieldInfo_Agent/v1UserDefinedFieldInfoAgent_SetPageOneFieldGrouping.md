@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
 Sets the Page One Field grouping for a specific entity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "Active": false
+  "Active": true
 }
 ```
 

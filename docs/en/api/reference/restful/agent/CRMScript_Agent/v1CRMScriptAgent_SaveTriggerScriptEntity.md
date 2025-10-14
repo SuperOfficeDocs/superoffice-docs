@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -84,20 +87,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 212,
-  "Name": "Larkin LLC",
+  "ScreenChooserId": 935,
+  "Name": "Mayert, Kub and Wyman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "ut",
-  "Registered": "2007-10-21T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 635,
-  "Updated": "2024-12-23T11:24:47.8439178+01:00",
-  "UpdatedAssociateId": 757
+  "Enabled": true,
+  "UniqueIdentifier": "aut",
+  "Source": "veniam",
+  "Registered": "2017-09-04T03:40:46.5306238+02:00",
+  "RegisteredAssociateId": 988,
+  "Updated": "2005-05-13T03:40:46.5306238+02:00",
+  "UpdatedAssociateId": 763
 }
 ```
 
@@ -108,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 52,
-  "Name": "Murphy, Jast and Christiansen",
+  "ScreenChooserId": 726,
+  "Name": "Jacobson-Beahan",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "veritatis",
-  "Registered": "2012-02-21T11:24:47.8439178+01:00",
-  "RegisteredAssociateId": 288,
-  "Updated": "2008-05-30T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 454,
+  "UniqueIdentifier": "ex",
+  "Source": "voluptates",
+  "Registered": "2024-12-12T03:40:46.5306238+01:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2013-10-20T03:40:46.5306238+02:00",
+  "UpdatedAssociateId": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldLength": 957
     }
   }
 }

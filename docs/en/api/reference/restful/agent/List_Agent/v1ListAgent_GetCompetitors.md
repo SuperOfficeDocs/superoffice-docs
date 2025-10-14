@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCompetitors
 Returns all competitors
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Value": "aut",
-    "Tooltip": "numquam",
+    "Id": 804,
+    "Value": "sunt",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 12
       }
     }
   },
   {
-    "Id": 562,
-    "Value": "aut",
-    "Tooltip": "numquam",
+    "Id": 804,
+    "Value": "sunt",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 12
       }
     }
   }

@@ -15,6 +15,7 @@ Change the status of one or more sales to Lost.
 
 
 Note that this does not affect the Completed state of the sale.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -67,13 +68,13 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLost
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    114,
-    843
+    885,
+    213
   ]
 }
 ```

@@ -14,6 +14,8 @@ PUT /api/v1/ForeignApp/{id}
 Updates the existing ForeignAppEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,27 +95,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 442,
-  "Name": "O'Keefe Group",
-  "CreatedDate": "2005-10-20T11:24:53.2968202+02:00",
-  "UpdatedDate": "2025-01-07T11:24:53.2968202+01:00",
+  "ForeignAppId": 372,
+  "Name": "Raynor-Quigley",
+  "CreatedDate": "2006-06-27T03:40:55.7569215+02:00",
+  "UpdatedDate": "2000-07-11T03:40:55.7569215+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 574,
-      "Name": "Medhurst Group",
-      "CreatedDate": "2023-05-01T11:24:53.2968202+02:00",
-      "UpdatedDate": "2006-11-29T11:24:53.2968202+01:00",
-      "AssociateFullName": "Kattie Nitzsche",
-      "CreatedBy": "consectetur",
-      "UpdatedBy": "iusto",
-      "DeviceIdentifier": "velit",
-      "ForeignAppId": 348
+      "ForeignDeviceId": 610,
+      "Name": "Watsica Group",
+      "CreatedDate": "2024-12-10T03:40:55.7569215+01:00",
+      "UpdatedDate": "2007-06-18T03:40:55.7569215+02:00",
+      "AssociateFullName": "Claudine Bailey",
+      "CreatedBy": "nesciunt",
+      "UpdatedBy": "sequi",
+      "DeviceIdentifier": "minima",
+      "ForeignAppId": 170
     }
   ]
 }
@@ -126,29 +128,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 338,
-  "Name": "Jenkins-Kreiger",
-  "CreatedDate": "2009-06-22T11:24:53.2968202+02:00",
-  "UpdatedDate": "2021-08-07T11:24:53.2968202+02:00",
+  "ForeignAppId": 75,
+  "Name": "Kessler-Hane",
+  "CreatedDate": "2000-04-26T03:40:55.7569215+02:00",
+  "UpdatedDate": "2004-03-10T03:40:55.7569215+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 280,
-      "Name": "Padberg-Ratke",
-      "CreatedDate": "2001-05-27T11:24:53.2968202+02:00",
-      "UpdatedDate": "2023-03-24T11:24:53.2968202+01:00",
-      "AssociateFullName": "Mrs. Alisha Zemlak",
-      "CreatedBy": "sit",
-      "UpdatedBy": "assumenda",
+      "ForeignDeviceId": 296,
+      "Name": "Brakus-Von",
+      "CreatedDate": "2012-06-05T03:40:55.7569215+02:00",
+      "UpdatedDate": "2014-05-13T03:40:55.7569215+02:00",
+      "AssociateFullName": "Jean Luettgen",
+      "CreatedBy": "beatae",
+      "UpdatedBy": "ad",
       "DeviceIdentifier": "qui",
-      "ForeignAppId": 822,
+      "ForeignAppId": 80,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldType": "System.String",
+          "FieldLength": 743
         }
       }
     }
@@ -158,12 +160,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 235
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

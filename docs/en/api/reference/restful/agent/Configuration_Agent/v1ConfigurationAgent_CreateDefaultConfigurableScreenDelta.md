@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Loading default values into a new ConfigurableScreenDelta.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,28 +80,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 619,
-  "Name": "Howe-O'Conner",
-  "Description": "Advanced directional toolset",
-  "DeltaJson": "expedita",
+  "ConfigurableScreenDeltaId": 736,
+  "Name": "Lesch-Waters",
+  "Description": "Open-architected incremental conglomeration",
+  "DeltaJson": "ea",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quia",
-  "UpdatedDate": "2010-08-14T11:24:47.7189228+02:00",
-  "CreatedDate": "2009-01-21T11:24:47.7189228+01:00",
+  "RecipeId": "quod",
+  "UpdatedDate": "2004-09-17T03:40:46.2331872+02:00",
+  "CreatedDate": "2001-03-08T03:40:46.2331872+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    883,
-    879
+    159,
+    613
   ],
-  "AppliesToKey": "exercitationem",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 819
     }
   }
 }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 548,
-    "Name": "Raynor-Mueller",
-    "Tooltip": "et",
+    "HeadingId": 944,
+    "Name": "Vandervort, Blanda and Nolan",
+    "Tooltip": "eum",
     "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 560
+    "Rank": 150,
+    "UdListDefinitionId": 291
   },
   {
-    "HeadingId": 548,
-    "Name": "Raynor-Mueller",
-    "Tooltip": "et",
+    "HeadingId": 944,
+    "Name": "Vandervort, Blanda and Nolan",
+    "Tooltip": "eum",
     "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 560
+    "Rank": 150,
+    "UdListDefinitionId": 291
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Greenfelder Inc and Sons",
-    "Tooltip": "qui",
+    "HeadingId": 742,
+    "Name": "Ziemann Inc and Sons",
+    "Tooltip": "aspernatur",
     "Deleted": true,
-    "Rank": 639,
-    "UdListDefinitionId": 673,
+    "Rank": 109,
+    "UdListDefinitionId": 916,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 285
       }
     }
   }

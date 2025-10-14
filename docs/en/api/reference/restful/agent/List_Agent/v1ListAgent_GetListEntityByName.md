@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListEntityByName
 Gets a ListEntity resolved by the provided name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe-Becker"
+  "Name": "Fay Group"
 }
 ```
 
@@ -98,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Romaguera, Pagac and Corkery",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 803,
+  "Id": 187,
+  "Name": "Leuschke, Gerhold and Wiza",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "Rank": 646,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

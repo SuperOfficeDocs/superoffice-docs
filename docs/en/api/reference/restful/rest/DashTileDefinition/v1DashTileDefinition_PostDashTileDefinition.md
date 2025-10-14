@@ -15,6 +15,7 @@ Creates a new DashTileDefinition
 
 
 Calls the Dash agent service SaveDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -117,25 +118,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 216,
-  "Name": "Carter, Moore and Christiansen",
-  "Description": "Public-key content-based attitude",
-  "DefaultHeight": 143,
-  "DefaultWidth": 429,
+  "DashboardTileDefinitionId": 27,
+  "Name": "Baumbach-Emard",
+  "Description": "Implemented regional methodology",
+  "DefaultHeight": 122,
+  "DefaultWidth": 631,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gerlach-Koss",
-  "SelectionId": 266,
+  "EntityName": "Little Inc and Sons",
+  "SelectionId": 295,
   "CurrencyMode": "Base",
-  "CurrencyCode": "perspiciatis",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "debitis",
-  "SortBy": "consequuntur",
-  "LayoutConfig": "omnis",
-  "SecondarySelectionId": 912,
-  "MeasureByField": "ut",
+  "MeasureField": "mollitia",
+  "SortBy": "sapiente",
+  "LayoutConfig": "nihil",
+  "SecondarySelectionId": 378,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Russel Group"
+  "ProviderName": "Terry, Cummerata and Konopelski"
 }
 ```
 
@@ -146,31 +147,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 786,
-  "Name": "Dare Group",
-  "Description": "Future-proofed multi-state help-desk",
-  "DefaultHeight": 209,
-  "DefaultWidth": 60,
+  "DashboardTileDefinitionId": 326,
+  "Name": "Kshlerin, Rolfson and Luettgen",
+  "Description": "Focused transitional firmware",
+  "DefaultHeight": 238,
+  "DefaultWidth": 510,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Christiansen, Schulist and Bailey",
-  "SelectionId": 726,
+  "EntityName": "Stroman-Zemlak",
+  "SelectionId": 337,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dicta",
+  "CurrencyCode": "dignissimos",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "autem",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 37,
-  "MeasureByField": "unde",
+  "MeasureField": "ullam",
+  "SortBy": "esse",
+  "LayoutConfig": "reprehenderit",
+  "SecondarySelectionId": 93,
+  "MeasureByField": "omnis",
   "Usage": "Dashboard",
-  "ProviderName": "Yundt, Schneider and Sawayn",
+  "ProviderName": "Turcotte Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   },
   "_Links": {

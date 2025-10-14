@@ -78,12 +78,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Nader-Bode",
-  "Tooltip": "non",
+  "Id": 681,
+  "Name": "Ward-Stiedemann",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 924,
-  "Rank": 730
+  "UdListDefinitionId": 434,
+  "Rank": 33
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Homenick Group",
-  "Tooltip": "rerum",
+  "Id": 994,
+  "Name": "Corkery Group",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 621,
-  "Rank": 82,
+  "UdListDefinitionId": 518,
+  "Rank": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

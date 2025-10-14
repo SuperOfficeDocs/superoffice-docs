@@ -15,6 +15,7 @@ Request to send the session to another user.
 
 
 If the session does not belong to the user, nothing happens.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -107,12 +108,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 247,
-  "ToAssociate": "possimus"
+  "ChatSessionId": 672,
+  "ToAssociate": "libero"
 }
 ```
 
@@ -123,43 +124,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 218,
-  "TopicId": 763,
+  "ChatSessionId": 429,
+  "TopicId": 741,
   "User": null,
   "Person": null,
-  "CustomerAlias": "beatae",
-  "CustomerHost": "sit",
-  "CustomerName": "Roberts-Weber",
-  "CustomerEmail": "maryse_jacobs@bodereinger.name",
-  "CustomerPhone": "(544)972-1135",
+  "CustomerAlias": "inventore",
+  "CustomerHost": "velit",
+  "CustomerName": "Wisoky, Dooley and Rutherford",
+  "CustomerEmail": "camilla@rippinkling.info",
+  "CustomerPhone": "714.692.0692 x26266",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Jaskolski-Walsh",
+  "CustomerCompanyName": "Zemlak-Williamson",
   "Status": "Closed",
-  "FirstMessage": "recusandae",
-  "LastMessage": "reiciendis",
-  "WhenRequested": "2020-08-12T11:24:47.6564254+02:00",
-  "WhenStarted": "2016-11-11T11:24:47.6564254+01:00",
-  "WhenEnded": "2024-01-10T11:24:47.6564254+01:00",
-  "WhenIdle": "2001-08-30T11:24:47.6564254+02:00",
-  "WhenFetched": "1998-05-16T11:24:47.6564254+02:00",
-  "SessionKey": "deserunt",
-  "InitialQueuePos": 123,
-  "AlertLevel": 64,
-  "Rank": 569,
+  "FirstMessage": "autem",
+  "LastMessage": "qui",
+  "WhenRequested": "2010-05-30T03:40:46.1389588+02:00",
+  "WhenStarted": "2009-02-09T03:40:46.1389588+01:00",
+  "WhenEnded": "2008-05-11T03:40:46.1389588+02:00",
+  "WhenIdle": "2007-12-12T03:40:46.1389588+01:00",
+  "WhenFetched": "2005-08-16T03:40:46.1389588+02:00",
+  "SessionKey": "laboriosam",
+  "InitialQueuePos": 682,
+  "AlertLevel": 608,
+  "Rank": 333,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 4,
+  "ChatbotIsActive": false,
+  "Rating": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 153
     }
   }
 }

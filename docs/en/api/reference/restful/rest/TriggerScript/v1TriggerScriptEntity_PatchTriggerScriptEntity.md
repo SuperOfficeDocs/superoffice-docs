@@ -15,6 +15,7 @@ Update a TriggerScriptEntity with changes, as described in a JSON Patch or a JSO
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -121,18 +122,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "perspiciatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "perspiciatis",
     "value": {}
   }
 ]
@@ -145,27 +146,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 655,
-  "Name": "Mann Group",
+  "ScreenChooserId": 659,
+  "Name": "Rath LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "reiciendis",
-  "Source": "aut",
-  "Registered": "2012-12-05T11:24:53.7186781+01:00",
-  "RegisteredAssociateId": 229,
-  "Updated": "1998-09-22T11:24:53.7186781+02:00",
-  "UpdatedAssociateId": 769,
+  "UniqueIdentifier": "possimus",
+  "Source": "non",
+  "Registered": "2003-10-26T03:40:56.4140988+01:00",
+  "RegisteredAssociateId": 233,
+  "Updated": "2004-04-23T03:40:56.4140988+02:00",
+  "UpdatedAssociateId": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

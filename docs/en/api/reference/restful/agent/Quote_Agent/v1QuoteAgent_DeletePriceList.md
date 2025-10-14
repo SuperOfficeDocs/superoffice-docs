@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeletePriceList
 Deletes the PriceList
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the PriceList
 | priceListId | int32 | **Required** The identity of the PriceList |
 
 ```http
-POST /api/v1/Agents/Quote/DeletePriceList?priceListId=434
+POST /api/v1/Agents/Quote/DeletePriceList?priceListId=690
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Quote/DeletePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

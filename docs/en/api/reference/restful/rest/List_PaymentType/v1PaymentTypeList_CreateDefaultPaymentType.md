@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 89,
-  "Name": "Friesen-Skiles",
-  "Tooltip": "dolorem",
+  "Id": 68,
+  "Name": "Champlin Group",
+  "Tooltip": "alias",
   "Deleted": false,
-  "UdListDefinitionId": 486,
-  "Rank": 177,
+  "UdListDefinitionId": 985,
+  "Rank": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 351
     }
   }
 }

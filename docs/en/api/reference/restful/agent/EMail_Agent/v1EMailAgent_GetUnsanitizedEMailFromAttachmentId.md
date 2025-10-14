@@ -15,6 +15,7 @@ Get an e-mail based on an email and attachment id.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -106,14 +107,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 563,
+  "EmailId": 142,
   "AttachmentIds": [
-    "nobis",
-    "sed"
+    "et",
+    "eveniet"
   ],
   "IncludeAttachments": false
 }
@@ -128,97 +129,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 89,
-      "ContactName": "Durgan-Buckridge",
-      "PersonId": 498,
-      "PersonName": "Grimes Group",
-      "AssociateId": 762,
-      "Address": "illum",
-      "EmailId": 804,
+      "ContactId": 969,
+      "ContactName": "Emard Group",
+      "PersonId": 196,
+      "PersonName": "Jaskolski, Ritchie and Powlowski",
+      "AssociateId": 457,
+      "Address": "temporibus",
+      "EmailId": 204,
       "DuplicatePersonIds": [
-        709,
-        298
+        767,
+        670
       ],
-      "Name": "Hermiston LLC",
+      "Name": "Ortiz, Gusikowski and Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 958
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 731,
-      "ContactName": "Von LLC",
-      "PersonId": 139,
-      "PersonName": "Donnelly-Kerluke",
-      "AssociateId": 206,
-      "Address": "sed",
-      "EmailId": 46,
+      "ContactId": 714,
+      "ContactName": "Weber-Barrows",
+      "PersonId": 462,
+      "PersonName": "Kozey Group",
+      "AssociateId": 693,
+      "Address": "amet",
+      "EmailId": 601,
       "DuplicatePersonIds": [
-        459,
-        103
+        106,
+        903
       ],
-      "Name": "O'Reilly-Hodkiewicz",
+      "Name": "Kub LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldType": "System.Int32",
+          "FieldLength": 961
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 193,
-      "ContactName": "Quitzon-Howe",
-      "PersonId": 357,
-      "PersonName": "McCullough, Walter and Turner",
-      "AssociateId": 718,
-      "Address": "qui",
-      "EmailId": 219,
+      "ContactId": 646,
+      "ContactName": "Weissnat LLC",
+      "PersonId": 659,
+      "PersonName": "Herzog-Hauck",
+      "AssociateId": 8,
+      "Address": "quis",
+      "EmailId": 856,
       "DuplicatePersonIds": [
-        221,
-        557
+        805,
+        336
       ],
-      "Name": "Fritsch LLC",
+      "Name": "Romaguera-Tromp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 313
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "quia",
+  "Subject": "est",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2012-02-11T11:24:48.0939075+01:00",
-  "Size": 665,
+  "Sent": "2005-04-27T03:40:46.8748964+02:00",
+  "Size": 673,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "molestiae",
+  "MessageID": "dolorem",
+  "PlainBody": "quis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 716,
+  "ServerId": 154,
   "Attachments": [
     {
-      "Description": "Vision-oriented assymetric conglomeration",
-      "Filename": "praesentium",
-      "Size": 891,
-      "Type": "aut",
-      "Encoding": "autem",
-      "Id": "omnis",
-      "Disposition": "atque",
+      "Description": "Self-enabling motivating productivity",
+      "Filename": "vero",
+      "Size": 595,
+      "Type": "id",
+      "Encoding": "dolore",
+      "Id": "dolores",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -226,49 +227,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 758
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Von, Monahan and Kub",
+      "Name": "Cummerata LLC",
       "Values": [
-        "quis",
-        "qui"
+        "accusantium",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldType": "System.String",
+          "FieldLength": 619
         }
       }
     },
     {
-      "Name": "Von, Monahan and Kub",
+      "Name": "Cummerata LLC",
       "Values": [
-        "quis",
-        "qui"
+        "accusantium",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldType": "System.String",
+          "FieldLength": 619
         }
       }
     }
   ],
-  "FolderName": "Raynor Group",
-  "EmailItemId": 890,
-  "AccountId": 321,
-  "ReceivedAt": "2007-06-07T11:24:48.0939075+02:00",
+  "FolderName": "Morissette-Prohaska",
+  "EmailItemId": 386,
+  "AccountId": 527,
+  "ReceivedAt": "2012-03-24T03:40:46.8748964+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2025-05-08T11:24:48.0939075+02:00",
+  "RepliedAt": "1999-02-08T03:40:46.8748964+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

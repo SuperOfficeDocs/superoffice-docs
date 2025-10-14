@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Get published appointments by project id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 205
+  "ProjectId": 989
 }
 ```
 
@@ -144,67 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 452,
-    "StartDate": "2015-01-30T11:24:47.3126897+01:00",
-    "EndDate": "2005-02-18T11:24:47.3126897+01:00",
+    "AppointmentId": 88,
+    "StartDate": "2021-04-05T03:40:45.6231158+02:00",
+    "EndDate": "2023-09-05T03:40:45.6231158+02:00",
     "Type": "BookingForChecklist",
-    "Task": "unde",
-    "AssociateFullName": "Mr. Billy Little",
-    "ContactName": "Stracke, Anderson and Ernser",
-    "Description": "User-friendly radical algorithm",
-    "PersonFullName": "Eldora Waelchi",
-    "PersonId": 752,
-    "ContactId": 369,
-    "ProjectId": 875,
-    "ProjectName": "Bailey, Kshlerin and Kris",
-    "IsPublished": false,
-    "AssociateId": 673,
-    "ColorIndex": 382,
-    "IsFree": false,
+    "Task": "ullam",
+    "AssociateFullName": "Vilma Renner",
+    "ContactName": "Macejkovic-Bradtke",
+    "Description": "Realigned exuding internet solution",
+    "PersonFullName": "Emmet Marks",
+    "PersonId": 148,
+    "ContactId": 682,
+    "ProjectId": 609,
+    "ProjectName": "Hudson, Lockman and Homenick",
+    "IsPublished": true,
+    "AssociateId": 602,
+    "ColorIndex": 532,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 245,
-    "PriorityName": "Prohaska, Conroy and Kunze",
+    "PriorityId": 30,
+    "PriorityName": "Keebler, Jones and Schneider",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-04-29T11:24:47.3126897+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2014-10-04T03:40:45.6231158+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-10-17T11:24:47.3126897+02:00",
-    "RecurringEndDate": "2017-11-20T11:24:47.3126897+01:00",
-    "MotherId": 856,
-    "AssignedBy": 285,
-    "AssignedByFullName": "Tina Leannon",
-    "RejectReason": "transition holistic paradigms",
-    "Location": "voluptatum",
-    "AlarmLeadTime": "totam",
-    "SaleId": 2,
-    "SaleName": "Friesen LLC",
-    "AssociateName": "Stoltenberg Group",
-    "CreatedDate": "2005-09-08T11:24:47.3126897+02:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Serena Myrna Kuvalis IV",
-    "CreatedByAssociateId": 352,
+    "RecurringStartDate": "2009-01-26T03:40:45.6231158+01:00",
+    "RecurringEndDate": "2009-10-01T03:40:45.6231158+02:00",
+    "MotherId": 385,
+    "AssignedBy": 618,
+    "AssignedByFullName": "Thaddeus Robel",
+    "RejectReason": "",
+    "Location": "et",
+    "AlarmLeadTime": "accusantium",
+    "SaleId": 237,
+    "SaleName": "Stanton, Halvorson and Zboncak",
+    "AssociateName": "Murray, Jacobi and Turcotte",
+    "CreatedDate": "2022-08-13T03:40:45.6231158+02:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Veronica Orn",
+    "CreatedByAssociateId": 968,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 648,
+    "MotherAssociateId": 257,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 758,
-    "Title": "eaque",
-    "Agenda": "autem",
-    "InternalNotes": "iusto",
+    "PreferredTZLocation": 735,
+    "Title": "deleniti",
+    "Agenda": "hic",
+    "InternalNotes": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldType": "System.String",
+        "FieldLength": 383
       }
     }
   }

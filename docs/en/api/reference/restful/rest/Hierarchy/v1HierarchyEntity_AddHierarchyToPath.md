@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 512,
+  "HierarchyId": 990,
   "Domain": "Dashboards",
-  "Name": "Paucek Inc and Sons",
-  "Fullname": "eligendi",
-  "ParentId": 970,
+  "Name": "Schimmel-Murray",
+  "Fullname": "minus",
+  "ParentId": 187,
   "Children": [
     {
-      "HierarchyId": 771,
+      "HierarchyId": 670,
       "Domain": "Dashboards",
-      "Name": "Crona, Mante and Nolan",
-      "Fullname": "fuga",
-      "ParentId": 82,
+      "Name": "Hand-Collier",
+      "Fullname": "quibusdam",
+      "ParentId": 874,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-07-08T11:24:53.3124447+02:00",
-      "RegisteredAssociateId": 671,
-      "Updated": "2021-08-29T11:24:53.3124447+02:00",
-      "UpdatedAssociateId": 337,
+      "Registered": "2020-10-19T03:40:55.7886484+02:00",
+      "RegisteredAssociateId": 151,
+      "Updated": "2000-10-20T03:40:55.7886484+02:00",
+      "UpdatedAssociateId": 1002,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 947
         }
       }
     }
   ],
-  "Registered": "2016-06-11T11:24:53.3124447+02:00",
-  "RegisteredAssociateId": 384,
-  "Updated": "2017-09-13T11:24:53.3124447+02:00",
-  "UpdatedAssociateId": 486,
+  "Registered": "2020-09-22T03:40:55.7886484+02:00",
+  "RegisteredAssociateId": 77,
+  "Updated": "2005-03-21T03:40:55.7886484+01:00",
+  "UpdatedAssociateId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

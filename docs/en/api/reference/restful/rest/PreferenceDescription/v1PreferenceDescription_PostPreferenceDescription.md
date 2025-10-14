@@ -15,6 +15,7 @@ Creates a new PreferenceDescription
 
 
 Calls the Preference agent service SavePreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -111,28 +112,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 631,
-  "Section": "assumenda",
-  "Key": "voluptas",
-  "Name": "Vandervort LLC",
+  "PrefDescId": 710,
+  "Section": "nam",
+  "Key": "in",
+  "Name": "Bartoletti, Cruickshank and Rowe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organic grid-enabled portal",
+  "Description": "Multi-tiered explicit matrix",
   "IsBuiltin": false,
-  "TableName": "Hermann LLC",
-  "UserDefinedListId": 152,
-  "Rank": 874,
-  "SubGroup": "consequatur",
-  "MinLevel": 86,
-  "MaxValue": 18,
-  "MinValue": 811,
-  "RequiredLicense": "alias"
+  "TableName": "Heller, Kemmer and Fay",
+  "UserDefinedListId": 534,
+  "Rank": 769,
+  "SubGroup": "qui",
+  "MinLevel": 923,
+  "MaxValue": 961,
+  "MinValue": 578,
+  "RequiredLicense": "distinctio"
 }
 ```
 
@@ -143,30 +144,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 982,
-  "Section": "aut",
-  "Key": "quibusdam",
-  "Name": "Hills Group",
+  "PrefDescId": 763,
+  "Section": "blanditiis",
+  "Key": "autem",
+  "Name": "Stiedemann, Ankunding and West",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable bi-directional knowledge base",
-  "IsBuiltin": true,
-  "TableName": "Daniel, Kohler and Armstrong",
-  "UserDefinedListId": 398,
-  "Rank": 256,
-  "SubGroup": "quibusdam",
-  "MinLevel": 764,
-  "MaxValue": 486,
-  "MinValue": 856,
-  "RequiredLicense": "illum",
+  "Description": "Profit-focused background definition",
+  "IsBuiltin": false,
+  "TableName": "Leannon-Wyman",
+  "UserDefinedListId": 483,
+  "Rank": 625,
+  "SubGroup": "culpa",
+  "MinLevel": 825,
+  "MaxValue": 748,
+  "MinValue": 774,
+  "RequiredLicense": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 497
     }
   },
   "_Links": {

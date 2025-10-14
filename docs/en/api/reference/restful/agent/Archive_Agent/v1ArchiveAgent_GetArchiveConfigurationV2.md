@@ -15,6 +15,7 @@ Get the configuration for one archive.
 
 
 The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gutmann LLC",
-  "ProviderName": "Wuckert LLC",
-  "Context": "laborum",
-  "OwnerKeys": "in"
+  "GuiName": "Heidenreich-Sauer",
+  "ProviderName": "Kuhlman Group",
+  "Context": "sed",
+  "OwnerKeys": "quasi"
 }
 ```
 
@@ -102,68 +103,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Quigley, Turcotte and Braun",
-      "DisplayTooltip": "laudantium",
-      "DisplayType": "est",
-      "CanOrderBy": false,
-      "Name": "Marquardt, Hand and Rolfson",
+      "DisplayName": "Macejkovic, Lakin and Quigley",
+      "DisplayTooltip": "beatae",
+      "DisplayType": "blanditiis",
+      "CanOrderBy": true,
+      "Name": "Emmerich Inc and Sons",
       "CanRestrictBy": true,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Hand Group",
+      "RestrictionType": "aut",
+      "RestrictionListName": "Kulas, Erdman and Boehm",
       "IsVisible": false,
-      "ExtraInfo": "cumque",
-      "Width": "et",
-      "IconHint": "omnis",
-      "HeadingIconHint": "quas"
+      "ExtraInfo": "pariatur",
+      "Width": "similique",
+      "IconHint": "delectus",
+      "HeadingIconHint": "porro"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 857,
-      "Name": "Koss, Haley and Bosco",
-      "ToolTip": "Laboriosam aut et pariatur consequatur aut asperiores eum.",
+      "Id": 429,
+      "Name": "Kerluke LLC",
+      "ToolTip": "Aliquam dolore voluptas.",
       "Deleted": false,
-      "Rank": 995,
-      "Type": "qui",
-      "ColorBlock": 385,
-      "IconHint": "corporis",
-      "Selected": true,
-      "LastChanged": "2007-09-08T11:24:47.5939281+02:00",
+      "Rank": 127,
+      "Type": "iste",
+      "ColorBlock": 450,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2011-04-15T03:40:46.0608291+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "saepe",
+      "ExtraInfo": "id",
+      "StyleHint": "officia",
       "Hidden": false,
-      "FullName": "Alyson Pfannerstill",
+      "FullName": "Jazmyn Collier I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 912
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "McKenzie-Davis",
+      "Name": "Funk, Blanda and Huel",
       "Direction": "ASC"
     },
     {
-      "Name": "McKenzie-Davis",
+      "Name": "Funk, Blanda and Huel",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "blanditiis",
+  "OwnerKeys": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

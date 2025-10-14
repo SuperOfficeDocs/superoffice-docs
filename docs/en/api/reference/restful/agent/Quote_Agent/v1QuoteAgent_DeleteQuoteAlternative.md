@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteQuoteAlternative
 Delete a quote alternative
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 372
+  "QuoteAlternativeId": 717
 }
 ```
 

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 52,
-  "StartTime": "2006-09-12T11:24:48.03141+02:00",
-  "EndTime": "2012-01-24T11:24:48.03141+01:00",
-  "Count": 28,
+  "ContactId": 383,
+  "StartTime": "2001-03-11T03:40:46.7498885+01:00",
+  "EndTime": "2006-07-01T03:40:46.7498885+02:00",
+  "Count": 936,
   "DocumentTemplateIds": [
-    119,
-    686
+    130,
+    343
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 23,
-    "Attention": "quo",
-    "Header": "minus",
-    "Name": "Hyatt-Kris",
-    "OurRef": "dolorem",
-    "YourRef": "minus",
-    "Description": "Down-sized mission-critical intranet",
-    "DocumentTemplate": "nobis",
+    "DocumentId": 825,
+    "Attention": "mollitia",
+    "Header": "commodi",
+    "Name": "Kling-Ondricka",
+    "OurRef": "explicabo",
+    "YourRef": "optio",
+    "Description": "Reverse-engineered fresh-thinking time-frame",
+    "DocumentTemplate": "voluptatem",
     "IsPublished": true,
-    "PersonId": 661,
-    "PersonFullName": "Burnice Tillman",
-    "AssociateFullName": "Mathew Lockman",
-    "ContactId": 549,
-    "ContactName": "Goldner-Torp",
-    "ProjectId": 756,
-    "ProjectName": "Sanford-Weber",
-    "AssociateId": 392,
-    "Snum": 97,
-    "SaleId": 659,
-    "SaleName": "Schuppe LLC",
+    "PersonId": 198,
+    "PersonFullName": "Marge Raynor",
+    "AssociateFullName": "Maybell Nader",
+    "ContactId": 192,
+    "ContactName": "Kuhn Inc and Sons",
+    "ProjectId": 672,
+    "ProjectName": "Reichert, Harvey and Homenick",
+    "AssociateId": 462,
+    "Snum": 391,
+    "SaleId": 453,
+    "SaleName": "Schuster LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldType": "System.String",
+        "FieldLength": 851
       }
     }
   }

@@ -15,6 +15,7 @@ Deletes the PersonEntity.
 
 
 This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -28,7 +29,7 @@ This table supports Soft Delete; records will be marked as deleted and disappear
 | personEntityId | int32 | **Required** The identity of the PersonEntity |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=671
+POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=662
 ```
 
 

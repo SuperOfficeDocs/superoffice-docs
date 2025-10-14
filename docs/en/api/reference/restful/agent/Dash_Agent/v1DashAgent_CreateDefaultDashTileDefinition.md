@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Loading default values into a new DashTileDefinition.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 954,
-  "Name": "Corkery, Ebert and Bruen",
-  "Description": "Universal mobile access",
-  "DefaultHeight": 56,
-  "DefaultWidth": 729,
+  "DashboardTileDefinitionId": 564,
+  "Name": "Wintheiser Group",
+  "Description": "Synchronised asynchronous throughput",
+  "DefaultHeight": 1000,
+  "DefaultWidth": 190,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Fritsch, Donnelly and Mitchell",
-  "SelectionId": 474,
+  "EntityName": "Mante LLC",
+  "SelectionId": 597,
   "CurrencyMode": "Base",
-  "CurrencyCode": "nihil",
+  "CurrencyCode": "voluptates",
   "Measure": "Average",
-  "MeasureField": "a",
-  "SortBy": "quos",
-  "LayoutConfig": "consequuntur",
-  "SecondarySelectionId": 164,
-  "MeasureByField": "et",
+  "MeasureField": "nemo",
+  "SortBy": "molestiae",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 769,
+  "MeasureByField": "quia",
   "Usage": "Dashboard",
-  "ProviderName": "Hoeger-Keebler",
+  "ProviderName": "Dickinson-Hudson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 104
     }
   }
 }

@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Wiza Inc and Sons",
-    "ToolTip": "Perspiciatis nihil temporibus alias asperiores excepturi.",
-    "Deleted": false,
-    "Rank": 910,
-    "Type": "exercitationem",
-    "ColorBlock": 39,
-    "IconHint": "aut",
+    "Id": 269,
+    "Name": "Gusikowski, Halvorson and Murazik",
+    "ToolTip": "Voluptate quis.",
+    "Deleted": true,
+    "Rank": 294,
+    "Type": "laboriosam",
+    "ColorBlock": 692,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2017-02-20T11:24:53.7499269+01:00",
+    "LastChanged": "2015-10-27T03:40:56.4464449+01:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Weber-Hintz",
-        "ToolTip": "Delectus quas autem.",
-        "Deleted": false,
-        "Rank": 433,
-        "Type": "molestiae",
-        "ColorBlock": 120,
-        "IconHint": "possimus",
+        "Id": 322,
+        "Name": "Hegmann-Runolfsson",
+        "ToolTip": "Enim pariatur sit quo magni architecto voluptas consequatur.",
+        "Deleted": true,
+        "Rank": 603,
+        "Type": "ex",
+        "ColorBlock": 224,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2001-05-19T11:24:53.7499269+02:00",
+        "LastChanged": "2015-12-05T03:40:56.4464449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "alias",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Vincenza Lesch PhD",
+        "FullName": "Lilla Murphy Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldType": "System.Int32",
+            "FieldLength": 194
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "nulla",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Dessie Shirley Lebsack IV",
+    "FullName": "Bernhard Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 833
       }
     }
   }

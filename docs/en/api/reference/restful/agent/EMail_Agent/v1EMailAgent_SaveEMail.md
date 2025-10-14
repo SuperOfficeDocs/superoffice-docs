@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveEMail
 Save the passed e-mail back to the server
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -120,148 +123,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 32,
-      "ContactName": "Brown, Padberg and Beier",
-      "PersonId": 51,
-      "PersonName": "Carter, Tremblay and Erdman",
-      "AssociateId": 865,
-      "Address": "ab",
-      "EmailId": 795,
+      "ContactId": 598,
+      "ContactName": "Howell LLC",
+      "PersonId": 705,
+      "PersonName": "Rowe LLC",
+      "AssociateId": 682,
+      "Address": "magnam",
+      "EmailId": 229,
       "DuplicatePersonIds": [
-        381,
-        932
+        101,
+        331
       ],
-      "Name": "Effertz-Champlin",
+      "Name": "Marvin-Reichel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldType": "System.String",
+          "FieldLength": 695
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 75,
-      "ContactName": "Howe, Kreiger and Lowe",
-      "PersonId": 186,
-      "PersonName": "Gottlieb LLC",
-      "AssociateId": 675,
-      "Address": "aut",
-      "EmailId": 792,
+      "ContactId": 622,
+      "ContactName": "Baumbach, Boyle and Price",
+      "PersonId": 3,
+      "PersonName": "Abshire, Gibson and Ledner",
+      "AssociateId": 281,
+      "Address": "totam",
+      "EmailId": 400,
       "DuplicatePersonIds": [
-        463,
-        558
+        553,
+        547
       ],
-      "Name": "Christiansen-Kiehn",
+      "Name": "Quitzon, Cremin and Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 121
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 416,
-      "ContactName": "Gleason, Paucek and O'Hara",
-      "PersonId": 246,
-      "PersonName": "Considine Group",
-      "AssociateId": 8,
-      "Address": "corrupti",
-      "EmailId": 413,
+      "ContactId": 635,
+      "ContactName": "Simonis-Reynolds",
+      "PersonId": 264,
+      "PersonName": "Towne, Schneider and Ferry",
+      "AssociateId": 316,
+      "Address": "non",
+      "EmailId": 293,
       "DuplicatePersonIds": [
-        750,
-        638
+        283,
+        360
       ],
-      "Name": "Roberts, Mertz and Keebler",
+      "Name": "Marquardt LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldType": "System.Int32",
+          "FieldLength": 804
         }
       }
     }
   ],
-  "Subject": "excepturi",
-  "HTMLBody": "ullam",
+  "Subject": "maiores",
+  "HTMLBody": "atque",
   "From": null,
-  "Sent": "2012-01-15T11:24:48.078283+01:00",
-  "Size": 777,
+  "Sent": "2007-05-14T03:40:46.8592703+02:00",
+  "Size": 649,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "aspernatur",
-  "IsSent": false,
+  "MessageID": "ullam",
+  "PlainBody": "rem",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 472,
+  "ServerId": 672,
   "Attachments": [
     {
-      "Description": "Assimilated 3rd generation support",
-      "Filename": "tenetur",
-      "Size": 221,
-      "Type": "aut",
-      "Encoding": "dolorem",
-      "Id": "sed",
-      "Disposition": "fuga",
+      "Description": "Vision-oriented dynamic task-force",
+      "Filename": "eum",
+      "Size": 822,
+      "Type": "illo",
+      "Encoding": "unde",
+      "Id": "rerum",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 320
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Swaniawski Inc and Sons",
+      "Name": "Zieme Group",
       "Values": [
-        "assumenda",
-        "eveniet"
+        "et",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 834
         }
       }
     },
     {
-      "Name": "Swaniawski Inc and Sons",
+      "Name": "Zieme Group",
       "Values": [
-        "assumenda",
-        "eveniet"
+        "et",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 834
         }
       }
     }
   ],
-  "FolderName": "Koelpin, Stokes and Jakubowski",
-  "EmailItemId": 150,
-  "AccountId": 592,
-  "ReceivedAt": "2015-12-26T11:24:48.078283+01:00",
+  "FolderName": "Ebert-Stiedemann",
+  "EmailItemId": 74,
+  "AccountId": 530,
+  "ReceivedAt": "2022-01-02T03:40:46.8592703+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-07-09T11:24:48.078283+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-07-06T03:40:46.8592703+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 195
     }
   }
 }

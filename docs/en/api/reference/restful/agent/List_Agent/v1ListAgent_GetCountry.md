@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCountry
 Gets a Country object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=819
+POST /api/v1/Agents/List/GetCountry?countryId=688
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 930,
-  "Name": "McDermott, Mohr and Collins",
-  "CurrencyId": 83,
-  "EnglishName": "Huels Inc and Sons",
+  "CountryId": 715,
+  "Name": "Reynolds Group",
+  "CurrencyId": 249,
+  "EnglishName": "Moen-Jacobs",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced dynamic portal",
-  "OrgNrText": "493193",
-  "InterAreaPrefix": "reiciendis",
-  "DialInPrefix": "delectus",
-  "ZipPrefix": "magnam",
-  "DomainName": "Stiedemann Inc and Sons",
-  "AddressLayoutId": 687,
-  "DomesticAddressLayoutId": 222,
-  "ForeignAddressLayoutId": 767,
-  "Rank": 626,
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
+  "ImageDescription": "Function-based heuristic parallelism",
+  "OrgNrText": "1236978",
+  "InterAreaPrefix": "veniam",
+  "DialInPrefix": "laboriosam",
+  "ZipPrefix": "maxime",
+  "DomainName": "Schmitt, Fadel and Armstrong",
+  "AddressLayoutId": 936,
+  "DomesticAddressLayoutId": 991,
+  "ForeignAddressLayoutId": 340,
+  "Rank": 12,
+  "Tooltip": "eos",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 315
     }
   }
 }

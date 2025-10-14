@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Remove all favourites for a table and associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nikolaus-Borer",
-  "AssociateId": 359
+  "TableName": "Pouros Group",
+  "AssociateId": 633
 }
 ```
 

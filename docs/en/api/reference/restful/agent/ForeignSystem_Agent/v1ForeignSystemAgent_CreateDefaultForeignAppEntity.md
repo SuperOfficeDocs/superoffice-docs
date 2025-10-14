@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Loading default values into a new ForeignAppEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,29 +74,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 508,
-  "Name": "Wisoky Group",
-  "CreatedDate": "2022-01-24T11:24:48.1407806+01:00",
-  "UpdatedDate": "2002-07-30T11:24:48.1407806+02:00",
+  "ForeignAppId": 607,
+  "Name": "Harber Inc and Sons",
+  "CreatedDate": "2017-09-12T03:40:46.9686521+02:00",
+  "UpdatedDate": "2023-12-22T03:40:46.9686521+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 264,
-      "Name": "Koepp, West and Collier",
-      "CreatedDate": "2012-07-23T11:24:48.1407806+02:00",
-      "UpdatedDate": "2024-11-02T11:24:48.1407806+01:00",
-      "AssociateFullName": "Coty Yundt",
-      "CreatedBy": "inventore",
-      "UpdatedBy": "quae",
-      "DeviceIdentifier": "dolorum",
-      "ForeignAppId": 990,
+      "ForeignDeviceId": 364,
+      "Name": "Jacobi Group",
+      "CreatedDate": "2018-11-16T03:40:46.9686521+01:00",
+      "UpdatedDate": "2017-02-20T03:40:46.9686521+01:00",
+      "AssociateFullName": "Miss Penelope Joanny Pouros",
+      "CreatedBy": "autem",
+      "UpdatedBy": "minus",
+      "DeviceIdentifier": "laudantium",
+      "ForeignAppId": 119,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 272
         }
       }
     }
@@ -103,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 217
+      "FieldType": "System.Int32",
+      "FieldLength": 311
     }
   }
 }

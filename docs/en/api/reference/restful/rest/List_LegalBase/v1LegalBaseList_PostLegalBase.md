@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 109,
-  "Name": "Raynor-Moen",
-  "Tooltip": "aut",
-  "Rank": 354,
-  "Key": "et",
-  "Deleted": false
+  "LegalBaseId": 326,
+  "Name": "Mante, Mante and Wolff",
+  "Tooltip": "debitis",
+  "Rank": 413,
+  "Key": "officia",
+  "Deleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 457,
-  "Name": "Champlin-Wiza",
-  "Tooltip": "eveniet",
-  "Rank": 313,
-  "Key": "quo",
-  "Deleted": true,
+  "LegalBaseId": 778,
+  "Name": "Kunze, Jacobi and Jacobson",
+  "Tooltip": "sed",
+  "Rank": 737,
+  "Key": "corrupti",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

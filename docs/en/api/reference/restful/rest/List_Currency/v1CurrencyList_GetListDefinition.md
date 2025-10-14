@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "Hackett Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 600,
+  "Name": "Schimmel-Wisoky",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 615,
-  "IsCustomList": false,
+  "Rank": 621,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

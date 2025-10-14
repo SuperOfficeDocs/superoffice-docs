@@ -15,6 +15,7 @@ Parse a tooltip hint and return a tooltip.
 
 
 The returned tooltip string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The tooltip hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical tooltip hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TooltipHint": "nesciunt"
+  "TooltipHint": "unde"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"provident"
+"non"
 ```

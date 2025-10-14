@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Gets recipients for new message
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -76,13 +78,13 @@ OK
 POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 724,
+  "TicketId": 705,
   "ActionType": "Forward",
-  "MessageId": 22
+  "MessageId": 526
 }
 ```
 
@@ -95,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "voluptas",
-    "DisplayValue": "quia"
+    "Value": "perferendis",
+    "DisplayValue": "et"
   },
   {
     "Type": "BCC",
-    "Value": "voluptas",
-    "DisplayValue": "quia"
+    "Value": "perferendis",
+    "DisplayValue": "et"
   }
 ]
 ```

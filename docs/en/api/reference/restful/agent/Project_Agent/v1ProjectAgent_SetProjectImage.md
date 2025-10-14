@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SetProjectImage
 Stores the project image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/Project/SetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 539,
+  "ProjectId": 339,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

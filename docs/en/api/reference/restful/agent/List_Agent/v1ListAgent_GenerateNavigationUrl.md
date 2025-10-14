@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GenerateNavigationUrl
 This methods generates the navigation URL to be used to navigate to the panel
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/List/GenerateNavigationUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Bayer, Stiedemann and Hettinger"
+  "WindowName": "Crooks, Quitzon and Kuhn"
 }
 ```
 

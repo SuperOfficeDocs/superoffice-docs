@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Brekke LLC",
-  "Tooltip": "et",
+  "Id": 39,
+  "Name": "Will-Kuhn",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 145,
-  "IsCustomList": true,
+  "Rank": 292,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldLength": 884
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

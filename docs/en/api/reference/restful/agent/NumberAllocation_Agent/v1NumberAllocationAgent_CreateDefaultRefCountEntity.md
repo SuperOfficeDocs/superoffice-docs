@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Loading default values into a new RefCountEntity.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -66,7 +68,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,41 +78,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 138,
-  "Field": "eligendi",
-  "RecordId": 301,
+  "RefCountsId": 826,
+  "Field": "similique",
+  "RecordId": 657,
   "SuggestedRecords": [
     {
-      "Id": 689,
-      "Name": "Hessel-Marvin",
-      "ToolTip": "Dolorum nesciunt in illum dignissimos.",
+      "Id": 133,
+      "Name": "Keebler, Dickens and Hayes",
+      "ToolTip": "Omnis quod quia id impedit saepe autem.",
       "Deleted": false,
-      "Rank": 197,
-      "Type": "non",
+      "Rank": 692,
+      "Type": "itaque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eveniet",
-      "ColorBlock": 106,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "eaque",
-      "FullName": "Randi Block",
+      "IconHint": "dolor",
+      "ColorBlock": 671,
+      "ExtraInfo": "dolore",
+      "StyleHint": "laboriosam",
+      "FullName": "Makenzie Wisoky",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 844
         }
       }
     }
   ],
-  "CurrentValue": 719,
-  "TravelPrefix": 483,
-  "SatPrefix": 304,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 950,
+  "TravelPrefix": 586,
+  "SatPrefix": 754,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": true,
   "TableRight": null,
@@ -118,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 51
     }
   }
 }

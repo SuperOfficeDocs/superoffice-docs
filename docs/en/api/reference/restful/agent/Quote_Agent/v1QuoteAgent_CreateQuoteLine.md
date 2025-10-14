@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteLine
 Create a quoteline based on a product key.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -123,12 +125,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 759,
-  "ERPProductKey": "possimus"
+  "QuoteAlternativeId": 296,
+  "ERPProductKey": "modi"
 }
 ```
 
@@ -139,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 385,
-  "ERPQuoteLineKey": "suscipit",
-  "QuoteAlternativeId": 746,
-  "ERPProductKey": "modi",
+  "QuoteLineId": 987,
+  "ERPQuoteLineKey": "eaque",
+  "QuoteAlternativeId": 564,
+  "ERPProductKey": "nihil",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 3663.6459999999997,
-  "DeliveredQuantity": 10539.642,
-  "Rank": 677,
-  "Name": "Lehner-Tillman",
-  "Description": "Progressive maximized task-force",
-  "Code": "possimus",
-  "QuantityUnit": "libero",
-  "PriceUnit": "explicabo",
-  "ItemNumber": "1229924",
+  "Quantity": 861.85,
+  "DeliveredQuantity": 1579.536,
+  "Rank": 224,
+  "Name": "Jast-Purdy",
+  "Description": "Visionary 3rd generation info-mediaries",
+  "Code": "quisquam",
+  "QuantityUnit": "alias",
+  "PriceUnit": "temporibus",
+  "ItemNumber": "1057913",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "incidunt",
+  "ProductFamilyKey": "iure",
   "ProductTypeKey": "quae",
-  "Supplier": "dolor",
-  "SupplierCode": "quo",
-  "Thumbnail": "deleniti",
+  "Supplier": "repellat",
+  "SupplierCode": "cum",
+  "Thumbnail": "velit",
   "VATInfo": "et",
-  "VAT": 27952.146,
-  "UnitCost": 23887.347999999998,
-  "UnitMinimumPrice": 17672.626,
-  "UnitListPrice": 6575.132,
+  "VAT": 7831.866,
+  "UnitCost": 12279.011999999999,
+  "UnitMinimumPrice": 25300.782,
+  "UnitListPrice": 29563.022,
   "ExtraInfo": [
     {
-      "Name": "Paucek-Jenkins",
-      "Value": "quae",
+      "Name": "Cummings Inc and Sons",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 546
         }
       }
     },
     {
-      "Name": "Paucek-Jenkins",
-      "Value": "quae",
+      "Name": "Cummings Inc and Sons",
+      "Value": "quis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldLength": 546
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quia",
-  "SubscriptionQuantity": 17030.156,
-  "SubscriptionStart": "2001-09-06T11:24:48.5470141+02:00",
-  "ERPDiscountPercent": 10022.532,
-  "ERPDiscountAmount": 1494.918,
-  "DiscountPercent": 21047.944,
-  "DiscountAmount": 3450.534,
+  "RawExtraInfo": "consequatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "corporis",
+  "SubscriptionQuantity": 27259.532,
+  "SubscriptionStart": "2002-10-17T03:40:47.5785846+02:00",
+  "ERPDiscountPercent": 9577.503999999999,
+  "ERPDiscountAmount": 29678.98,
+  "DiscountPercent": 24648.91,
+  "DiscountAmount": 21107.489999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 9558.6999999999989,
-  "EarningAmount": 17515.926,
-  "SubTotal": 25178.556,
-  "TotalPrice": 26056.076,
-  "Rights": "provident",
-  "Rule": "suscipit",
-  "ExtraField1": "beatae",
-  "ExtraField2": "quasi",
-  "ExtraField3": "ut",
-  "ExtraField4": "est",
-  "ExtraField5": "illum",
+  "EarningPercent": 14259.699999999999,
+  "EarningAmount": 22060.226,
+  "SubTotal": 14801.882,
+  "TotalPrice": 20790.956,
+  "Rights": "sint",
+  "Rule": "aut",
+  "ExtraField1": "labore",
+  "ExtraField2": "numquam",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "eius",
+  "ExtraField5": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldLength": 41
     }
   }
 }

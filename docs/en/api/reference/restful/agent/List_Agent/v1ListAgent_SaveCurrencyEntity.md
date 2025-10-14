@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveCurrencyEntity
 Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,16 +78,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 785,
-  "Name": "Wolf Group",
-  "Tooltip": "qui",
-  "Rank": 844,
-  "Rate": 7114.1799999999994,
-  "Units": 5308.996,
+  "CurrencyId": 199,
+  "Name": "Farrell Group",
+  "Tooltip": "quibusdam",
+  "Rank": 542,
+  "Rate": 20803.492,
+  "Units": 8085.7199999999993,
   "Deleted": false
 }
 ```
@@ -97,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 458,
-  "Name": "Legros, Stokes and Gerhold",
-  "Tooltip": "quo",
-  "Rank": 250,
-  "Rate": 10442.488,
-  "Units": 3948.8399999999997,
-  "Deleted": false,
+  "CurrencyId": 579,
+  "Name": "Rippin, Hansen and Erdman",
+  "Tooltip": "sunt",
+  "Rank": 430,
+  "Rate": 30713.2,
+  "Units": 25266.308,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

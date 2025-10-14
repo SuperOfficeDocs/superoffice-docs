@@ -15,6 +15,7 @@ Retrieve an attachment from an e-mail stored in the document archive.
 
 
 The returned data is intended to be use for a preview.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -92,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 401,
-  "AttachmentId": "et"
+  "DocId": 467,
+  "AttachmentId": "soluta"
 }
 ```
 
@@ -104,13 +105,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic logistical help-desk",
-  "Filename": "vitae",
-  "Size": 665,
-  "Type": "et",
-  "Encoding": "eligendi",
-  "Id": "voluptatem",
-  "Disposition": "et",
+  "Description": "Total systemic complexity",
+  "Filename": "qui",
+  "Size": 608,
+  "Type": "sed",
+  "Encoding": "exercitationem",
+  "Id": "omnis",
+  "Disposition": "incidunt",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -118,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 618
     }
   }
 }

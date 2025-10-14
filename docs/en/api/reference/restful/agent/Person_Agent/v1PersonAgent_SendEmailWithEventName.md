@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SendEmailWithEventName
 Inserts into outbox an email with specified details and event name.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,16 +77,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "non",
-  "To": "voluptas",
-  "Subject": "alias",
-  "PlainBody": "rerum",
-  "HtmlBody": "voluptas",
+  "From": "qui",
+  "To": "vitae",
+  "Subject": "fugiat",
+  "PlainBody": "ut",
+  "HtmlBody": "atque",
   "AttachmentIds": [
-    112,
-    816
+    506,
+    849
   ],
-  "EventName": "Cummerata-Treutel"
+  "EventName": "Kozey-Fadel"
 }
 ```
 

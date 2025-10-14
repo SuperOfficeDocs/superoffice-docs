@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectEvent
 Gets a ProjectEvent object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=637
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=6
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Miss Camille Kilback DVM",
-  "Description": "Object-based solution-oriented standardization",
-  "ProjectId": 726,
-  "EventName": "Witting Inc and Sons",
-  "AssociateId": 665,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "sed",
-  "SignOffText": "aspernatur",
-  "SignOnConfirmationText": "eos",
-  "SignOnText": "dolore",
-  "EventDate": "2008-07-17T11:24:48.4845166+02:00",
+  "AssociateFullName": "Laura Fritsch",
+  "Description": "Persevering 3rd generation moratorium",
+  "ProjectId": 885,
+  "EventName": "Buckridge LLC",
+  "AssociateId": 6,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "expedita",
+  "SignOffText": "aut",
+  "SignOnConfirmationText": "molestias",
+  "SignOnText": "sit",
+  "EventDate": "1998-06-07T03:40:47.4843558+02:00",
   "Enabled": false,
   "SignOff": false,
   "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 619,
-  "SignOnTaskId": 634,
-  "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 643,
-  "SignOffPersonId": 324,
+  "SignOffTaskId": 148,
+  "SignOnTaskId": 115,
+  "SignOffTriggersAssign": true,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 258,
+  "SignOffPersonId": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 998
     }
   }
 }

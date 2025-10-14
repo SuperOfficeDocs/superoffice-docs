@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetCredentialTypes
 Get available credential types that can be used for authentication
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -73,7 +76,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "cum",
-    "Type": "eos",
-    "Description": "Function-based explicit leverage",
+    "DisplayType": "quo",
+    "Type": "consectetur",
+    "Description": "Sharable responsive architecture",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

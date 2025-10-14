@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Greenholt-Conroy",
-  "ModuleName": "Rosenbaum LLC",
-  "ModuleDescription": "Enhanced fault-tolerant collaboration",
-  "ModuleTooltip": "a",
-  "ModuleVersion": "quia",
+  "OwnerName": "Medhurst-Blanda",
+  "ModuleName": "Runte Group",
+  "ModuleDescription": "Secured empowering structure",
+  "ModuleTooltip": "cupiditate",
+  "ModuleVersion": "porro",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
   "NumberOfLicenses": 354,
-  "ExtraFlags": 654,
-  "ExtraInfo": "et",
-  "SortOrder": 983,
+  "ExtraFlags": 358,
+  "ExtraInfo": "qui",
+  "SortOrder": 840,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Yundt, Treutel and Feil",
-  "Signature": "eaque"
+  "PrerequisiteModuleName": "Willms Group",
+  "Signature": "nemo"
 }
 ```

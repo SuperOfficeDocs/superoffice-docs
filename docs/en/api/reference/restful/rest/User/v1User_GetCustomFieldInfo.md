@@ -73,7 +73,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kautzer-Jast",
-  "DisplayName": "Robel-Stark",
-  "Description": "Front-line 3rd generation encryption",
-  "ShortLabel": "repellendus",
-  "HideLabel": true,
+  "FieldName": "Olson Inc and Sons",
+  "DisplayName": "Connelly, Klein and VonRueden",
+  "Description": "Fully-configurable actuating utilisation",
+  "ShortLabel": "necessitatibus",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 497,
-  "TemplateVariableName": "Hyatt, Wolf and Hyatt"
+  "IsDisplayField": true,
+  "Rank": 648,
+  "TemplateVariableName": "Bashirian, Abshire and Fritsch"
 }
 ```

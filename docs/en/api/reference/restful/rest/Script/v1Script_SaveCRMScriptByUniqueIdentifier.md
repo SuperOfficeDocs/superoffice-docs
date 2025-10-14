@@ -90,20 +90,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "minima",
-  "Name": "Fisher LLC",
-  "Description": "Customizable bottom-line hierarchy",
-  "IncludeId": "veniam",
-  "Source": "quas",
-  "Registered": "2011-07-27T11:24:53.7811756+02:00",
-  "RegisteredBy": "blanditiis",
-  "Updated": "1999-08-11T11:24:53.7811756+02:00",
-  "UpdatedBy": "dicta",
-  "Path": "velit",
+  "UniqueIdentifier": "temporibus",
+  "Name": "Veum-Adams",
+  "Description": "Advanced eco-centric neural-net",
+  "IncludeId": "iste",
+  "Source": "nostrum",
+  "Registered": "2010-08-20T03:40:56.5088462+02:00",
+  "RegisteredBy": "sint",
+  "Updated": "2001-12-30T03:40:56.5088462+01:00",
+  "UpdatedBy": "ut",
+  "Path": "nisi",
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -115,23 +115,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eum",
-  "Name": "Dickinson-Predovic",
-  "Description": "Robust mobile infrastructure",
-  "IncludeId": "eum",
-  "Source": "veritatis",
-  "Registered": "2017-10-05T11:24:53.7811756+02:00",
-  "RegisteredBy": "error",
-  "Updated": "2023-03-15T11:24:53.7811756+01:00",
-  "UpdatedBy": "temporibus",
-  "Path": "magni",
+  "UniqueIdentifier": "expedita",
+  "Name": "Ritchie-Gerlach",
+  "Description": "Synchronised incremental array",
+  "IncludeId": "et",
+  "Source": "voluptas",
+  "Registered": "2008-01-29T03:40:56.5088462+01:00",
+  "RegisteredBy": "velit",
+  "Updated": "2022-04-05T03:40:56.5088462+02:00",
+  "UpdatedBy": "veritatis",
+  "Path": "ratione",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 164
     }
   }
 }

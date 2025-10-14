@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 432
+  "TicketMessageEntityId": 608
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 959,
-    "Name": "Ebert Inc and Sons",
-    "ContentType": "repellat",
-    "AttSize": 772,
+    "AttachmentId": 923,
+    "Name": "Graham, Gerhold and Beahan",
+    "ContentType": "omnis",
+    "AttSize": 910,
     "InlineImage": false,
-    "ContentId": "sint",
-    "AuthKey": "est",
-    "IsSafeFileExtension": false,
+    "ContentId": "nihil",
+    "AuthKey": "explicabo",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 973
       }
     }
   }

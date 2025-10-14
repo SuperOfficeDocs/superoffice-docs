@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 594,
-    "Name": "Schroeder Inc and Sons",
-    "Tooltip": "numquam",
+    "HeadingId": 249,
+    "Name": "Jacobs LLC",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 700,
-    "UdListDefinitionId": 699,
+    "Rank": 434,
+    "UdListDefinitionId": 872,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 948
+        "FieldLength": 496
       }
     }
   }

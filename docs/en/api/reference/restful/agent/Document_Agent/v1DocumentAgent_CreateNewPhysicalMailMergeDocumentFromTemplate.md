@@ -15,6 +15,7 @@ Create a new physical document based on the documents template.
 
 
 Do not replace template tags, as the document is going to be used as a mail merge source. Use GetDocumentStream to obtain the created documents. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -110,12 +111,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 313,
-  "UiCulture": "voluptatem"
+  "DocumentId": 957,
+  "UiCulture": "nostrum"
 }
 ```
 
@@ -126,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 370,
+  "DocumentId": 870,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eius",
-  "Header": "tenetur",
-  "Name": "Nitzsche, Ernser and Little",
-  "OurRef": "possimus",
-  "YourRef": "autem",
-  "CreatedDate": "2009-06-15T11:24:47.9845371+02:00",
-  "UpdatedDate": "2007-04-30T11:24:47.9845371+02:00",
-  "Description": "Proactive bandwidth-monitored moratorium",
+  "Attention": "unde",
+  "Header": "illo",
+  "Name": "White Inc and Sons",
+  "OurRef": "quidem",
+  "YourRef": "quia",
+  "CreatedDate": "2012-11-05T03:40:46.671768+01:00",
+  "UpdatedDate": "2023-05-07T03:40:46.671768+02:00",
+  "Description": "Ameliorated discrete protocol",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-11-13T11:24:47.9845371+01:00",
-  "ExternalRef": "architecto",
+  "Date": "2003-08-08T03:40:46.671768+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 206,
+  "ActiveLinks": 7,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stark, Lesch and Cormier",
-      "Id": 152,
-      "Description": "Persevering non-volatile software",
-      "ExtraInfo": "maiores",
-      "LinkId": 714,
+      "EntityName": "Pacocha Group",
+      "Id": 654,
+      "Description": "Right-sized bottom-line hub",
+      "ExtraInfo": "minus",
+      "LinkId": 883,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 950
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 206,
-  "Snum": 320,
+  "SuggestedDocumentId": 373,
+  "Snum": 635,
   "UserDefinedFields": {
-    "SuperOffice:1": "426014338",
-    "SuperOffice:2": "2145145015"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "512250862"
   },
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "quidem"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2001-09-24T11:24:47.9845371+02:00",
-  "PublishTo": "2006-01-30T11:24:47.9845371+01:00",
-  "PublishFrom": "2018-09-28T11:24:47.9845371+02:00",
+  "PublishEventDate": "1999-11-29T03:40:46.6873859+01:00",
+  "PublishTo": "2009-03-16T03:40:46.6873859+01:00",
+  "PublishFrom": "2008-02-13T03:40:46.6873859+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 51,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     }
@@ -216,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 481
     }
   }
 }

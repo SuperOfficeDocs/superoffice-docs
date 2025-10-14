@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "Witting, Cummings and Sipes",
-    "Tooltip": "dolor",
+    "HeadingId": 262,
+    "Name": "Durgan, Willms and Tremblay",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 442,
-    "UdListDefinitionId": 738,
+    "Rank": 503,
+    "UdListDefinitionId": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 66
       }
     }
   }

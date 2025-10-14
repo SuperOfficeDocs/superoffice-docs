@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Mosciski Group",
-    "ToolTip": "Voluptatem quia quo sint quas.",
+    "Id": 926,
+    "Name": "Ziemann, Langosh and Bosco",
+    "ToolTip": "Consequatur explicabo sint magnam facere.",
     "Deleted": false,
-    "Rank": 842,
-    "Type": "delectus",
-    "ColorBlock": 186,
-    "IconHint": "mollitia",
+    "Rank": 473,
+    "Type": "dolorum",
+    "ColorBlock": 103,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2015-04-03T11:24:53.890546+02:00",
+    "LastChanged": "2012-06-03T03:40:56.7588542+02:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Bergstrom, Heaney and Lind",
-        "ToolTip": "Facere voluptas voluptas nulla natus omnis possimus.",
-        "Deleted": true,
-        "Rank": 107,
-        "Type": "voluptas",
-        "ColorBlock": 305,
-        "IconHint": "est",
+        "Id": 139,
+        "Name": "Harris-Dooley",
+        "ToolTip": "A deserunt fugit dolor alias.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "quis",
+        "ColorBlock": 207,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2012-11-06T11:24:53.890546+01:00",
+        "LastChanged": "2008-09-29T03:40:56.7588542+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Alyson Watsica I"
+        "ExtraInfo": "error",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Pablo Harris"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "est",
+    "ExtraInfo": "repellat",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Prof. Flossie Hackett I"
+    "FullName": "Vito Funk III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Labadie, Quigley and Ward",
-    "ToolTip": "Non voluptas quisquam.",
-    "Deleted": true,
-    "Rank": 372,
-    "Type": "autem",
-    "ColorBlock": 603,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "1998-11-25T11:24:53.890546+01:00",
+    "Id": 111,
+    "Name": "Bauch Group",
+    "ToolTip": "Adipisci aut soluta illum mollitia doloremque.",
+    "Deleted": false,
+    "Rank": 979,
+    "Type": "inventore",
+    "ColorBlock": 611,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2007-07-31T03:40:56.7588542+02:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Ritchie Group",
-        "ToolTip": "Eveniet ipsum.",
-        "Deleted": true,
-        "Rank": 325,
-        "Type": "ratione",
-        "ColorBlock": 177,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2019-07-22T11:24:53.890546+02:00",
+        "Id": 826,
+        "Name": "Steuber Group",
+        "ToolTip": "Dolores veritatis inventore eum minus.",
+        "Deleted": false,
+        "Rank": 653,
+        "Type": "quos",
+        "ColorBlock": 1000,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2006-10-21T03:40:56.7588542+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "aut",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Mr. Hobart Jeramie Kuhic III",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Prof. Ova Vito Shanahan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "quas",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Meta Jast",
+    "FullName": "Bo Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldLength": 123
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Set Measure to CountAll and MeasureField to primary key field
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Lockman Group"
+  "EntityName": "Ankunding Group"
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 609,
-  "DashboardId": 854,
-  "Height": 626,
-  "Width": 381,
-  "Rank": 254,
+  "DashboardTileId": 355,
+  "DashboardId": 523,
+  "Height": 33,
+  "Width": 245,
+  "Rank": 227,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

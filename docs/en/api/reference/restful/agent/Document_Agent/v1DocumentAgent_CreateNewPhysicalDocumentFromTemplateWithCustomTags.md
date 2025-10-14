@@ -15,6 +15,7 @@ Create a new physical document based on a document template and store it in the 
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -122,22 +123,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 573,
-  "PersonId": 727,
-  "AppointmentId": 875,
-  "DocumentId": 863,
-  "SaleId": 545,
-  "SelectionId": 536,
-  "ProjectId": 500,
+  "ContactId": 117,
+  "PersonId": 524,
+  "AppointmentId": 473,
+  "DocumentId": 916,
+  "SaleId": 693,
+  "SelectionId": 164,
+  "ProjectId": 493,
   "CustomTags": [
     "ut",
-    "qui"
+    "dignissimos"
   ],
   "CustomValues": [
-    "quae",
-    "tempore"
+    "quo",
+    "possimus"
   ],
-  "UiCulture": "eius"
+  "UiCulture": "iusto"
 }
 ```
 
@@ -148,88 +149,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 606,
+  "DocumentId": 682,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "optio",
-  "Header": "repellat",
-  "Name": "Leuschke Inc and Sons",
-  "OurRef": "nostrum",
-  "YourRef": "eveniet",
-  "CreatedDate": "2003-01-19T11:24:47.9845371+01:00",
-  "UpdatedDate": "2017-08-22T11:24:47.9845371+02:00",
-  "Description": "Seamless even-keeled contingency",
+  "Attention": "suscipit",
+  "Header": "necessitatibus",
+  "Name": "Kuhlman-White",
+  "OurRef": "at",
+  "YourRef": "modi",
+  "CreatedDate": "2013-09-16T03:40:46.6873859+02:00",
+  "UpdatedDate": "2012-05-10T03:40:46.6873859+02:00",
+  "Description": "Optional human-resource productivity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-02-19T11:24:47.9845371+01:00",
-  "ExternalRef": "soluta",
+  "Date": "2003-10-10T03:40:46.6873859+02:00",
+  "ExternalRef": "facilis",
   "Completed": "Completed",
-  "ActiveLinks": 163,
+  "ActiveLinks": 489,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Doyle Inc and Sons",
-      "Id": 441,
-      "Description": "Team-oriented zero tolerance algorithm",
-      "ExtraInfo": "omnis",
-      "LinkId": 786,
+      "EntityName": "Lakin-Rogahn",
+      "Id": 304,
+      "Description": "Streamlined maximized secured line",
+      "ExtraInfo": "error",
+      "LinkId": 489,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldLength": 894
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 752,
-  "Snum": 458,
+  "SuggestedDocumentId": 583,
+  "Snum": 617,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Alden Tevin Stoltenberg",
-    "SuperOffice:2": "Amira Casper"
+    "SuperOffice:1": "1879861566",
+    "SuperOffice:2": "Marielle Beier"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "magnam",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2011-08-18T11:24:47.9845371+02:00",
-  "PublishTo": "2015-11-19T11:24:47.9845371+01:00",
-  "PublishFrom": "2007-12-04T11:24:47.9845371+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-11-09T03:40:46.6873859+01:00",
+  "PublishTo": "2003-02-12T03:40:46.6873859+01:00",
+  "PublishFrom": "2011-05-27T03:40:46.6873859+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 29,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     },
     {
-      "VisibleId": 29,
+      "VisibleId": 105,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 491
         }
       }
     }
@@ -238,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

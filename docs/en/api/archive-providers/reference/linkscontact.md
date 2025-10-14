@@ -39,6 +39,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -68,7 +69,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksContact?$select=nameDepartment,number
+GET /api/v1/archive/LinksContact?$select=hasInfoText,countryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

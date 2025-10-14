@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DuplicateDashboard
 Duplicate for the dashboard and all the sub elements
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,12 +89,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 116,
-  "Name": "Abernathy, Stehr and Kassulke"
+  "DashboardId": 975,
+  "Name": "Stark LLC"
 }
 ```
 
@@ -103,37 +105,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 259,
-  "UniqueId": "sit",
-  "Name": "Kozey, Beier and Block",
-  "Description": "User-centric grid-enabled implementation",
-  "AssociateId": 122,
-  "Columns": 413,
+  "DashboardId": 984,
+  "UniqueId": "sed",
+  "Name": "Schamberger, Jaskolski and Mosciski",
+  "Description": "Monitored object-oriented migration",
+  "AssociateId": 136,
+  "Columns": 782,
   "Theme": null,
-  "VisibleForAll": 630,
+  "VisibleForAll": 192,
   "VisibleForAssociates": [
-    111,
-    93
+    749,
+    518
   ],
   "VisibleForGroups": [
-    610,
-    715
+    194,
+    448
   ],
-  "PinForAll": 317,
+  "PinForAll": 192,
   "PinForAssociates": [
-    94,
-    397
+    270,
+    790
   ],
   "PinForGroups": [
-    51,
-    631
+    757,
+    976
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

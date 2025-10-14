@@ -87,7 +87,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,37 +97,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Russel, Muller and Kemmer",
-  "SaleDate": "2008-01-20T11:24:53.54681+01:00",
-  "SaleId": 829,
-  "Probability": 419,
-  "Title": "expedita",
-  "Amount": 30857.363999999998,
-  "Currency": "omnis",
-  "ProjectName": "Stanton-Jakubowski",
-  "AssociateFullName": "Miss Gussie Tianna Senger MD",
-  "Description": "Multi-layered non-volatile ability",
+  "ContactName": "Kreiger-Reilly",
+  "SaleDate": "2005-10-24T03:40:56.1949223+02:00",
+  "SaleId": 706,
+  "Probability": 573,
+  "Title": "quia",
+  "Amount": 4860.834,
+  "Currency": "tempore",
+  "ProjectName": "Bins-Reichert",
+  "AssociateFullName": "Samantha Abernathy",
+  "Description": "Extended value-added moderator",
   "Status": "Lost",
-  "WeightedAmount": 29506.61,
-  "ProjectId": 889,
-  "EarningPercent": 18139.592,
-  "Earning": 21731.156,
-  "ContactId": 89,
-  "AssociateId": 248,
-  "PersonId": 52,
-  "SaleTypeId": 49,
-  "SaleTypeName": "Schumm-Padberg",
-  "PersonFullName": "Miss Johanna Gussie Kirlin",
+  "WeightedAmount": 22470.78,
+  "ProjectId": 907,
+  "EarningPercent": 15663.732,
+  "Earning": 15190.498,
+  "ContactId": 823,
+  "AssociateId": 518,
+  "PersonId": 541,
+  "SaleTypeId": 298,
+  "SaleTypeName": "Lemke, Donnelly and Huel",
+  "PersonFullName": "Prof. Donald Odessa Mueller MD",
   "Completed": "Completed",
-  "ActiveErpLinks": 972,
-  "NextDueDate": "2004-11-27T11:24:53.54681+01:00",
-  "Number": "1180507",
+  "ActiveErpLinks": 663,
+  "NextDueDate": "2009-03-10T03:40:56.1949223+01:00",
+  "Number": "392316",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 221
     }
   }
 }

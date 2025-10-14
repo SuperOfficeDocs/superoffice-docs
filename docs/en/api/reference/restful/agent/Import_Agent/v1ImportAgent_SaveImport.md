@@ -14,6 +14,8 @@ POST /api/v1/Agents/Import/SaveImport
 Do the actual import
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,39 +75,39 @@ OK
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "eum",
-        "qui"
+        "optio",
+        "aut"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "nesciunt"
+      "ExternalKey": "molestiae"
     },
     {
       "Values": [
-        "eum",
-        "qui"
+        "optio",
+        "aut"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "nesciunt"
+      "ExternalKey": "molestiae"
     }
   ],
   "ColumnDefinition": [
-    "ipsa",
-    "aliquid"
+    "quae",
+    "corrupti"
   ],
   "CreateSelection": true,
-  "Culture": "ut",
-  "Context": "ratione"
+  "Culture": "voluptas",
+  "Context": "omnis"
 }
 ```
 
@@ -116,7 +118,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  295,
-  311
+  22,
+  312
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetSatelliteLicenses
 Obtain information about satellite module licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 744
+  "SatelliteId": 157
 }
 ```
 
@@ -93,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan LLC",
-    "Description": "Innovative actuating product",
+    "Name": "Ankunding-Wyman",
+    "Description": "Re-engineered local standardization",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 133,
-        "Tooltip": "sed",
+        "Total": 326,
+        "Tooltip": "consequuntur",
         "CanAssign": false,
-        "Free": 230,
-        "InUse": 961,
-        "IsHidden": true,
+        "Free": 979,
+        "InUse": 135,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 361,
-        "Name": "Abernathy, Schiller and Ward",
-        "Description": "Implemented contextually-based info-mediaries",
-        "PrerequisiteModuleName": "Lesch, Kertzmann and Kuhlman",
-        "SortOrder": 506,
-        "ExtraFlags": 102,
+        "ModuleLicenseId": 334,
+        "Name": "Olson-Conroy",
+        "Description": "Pre-emptive bifurcated core",
+        "PrerequisiteModuleName": "Barrows-Bergnaum",
+        "SortOrder": 609,
+        "ExtraFlags": 45,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 371
           }
         }
       }
@@ -124,25 +126,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 824,
-        "Tooltip": "quis",
+        "Total": 158,
+        "Tooltip": "veniam",
         "CanAssign": true,
-        "Free": 401,
-        "InUse": 963,
+        "Free": 571,
+        "InUse": 995,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 335,
-        "Name": "Rempel-Oberbrunner",
-        "Description": "Multi-channelled incremental standardization",
-        "PrerequisiteModuleName": "Klein, Oberbrunner and Grimes",
-        "SortOrder": 22,
-        "ExtraFlags": 775,
+        "Assigned": true,
+        "ModuleLicenseId": 625,
+        "Name": "Kemmer LLC",
+        "Description": "Front-line non-volatile task-force",
+        "PrerequisiteModuleName": "Bruen, Hilll and D'Amore",
+        "SortOrder": 995,
+        "ExtraFlags": 942,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 973
+            "FieldType": "System.Int32",
+            "FieldLength": 992
           }
         }
       }
@@ -151,36 +153,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 289
       }
     }
   },
   {
-    "Name": "Beahan LLC",
-    "Description": "Innovative actuating product",
+    "Name": "Ankunding-Wyman",
+    "Description": "Re-engineered local standardization",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 133,
-        "Tooltip": "sed",
+        "Total": 326,
+        "Tooltip": "consequuntur",
         "CanAssign": false,
-        "Free": 230,
-        "InUse": 961,
-        "IsHidden": true,
+        "Free": 979,
+        "InUse": 135,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 361,
-        "Name": "Abernathy, Schiller and Ward",
-        "Description": "Implemented contextually-based info-mediaries",
-        "PrerequisiteModuleName": "Lesch, Kertzmann and Kuhlman",
-        "SortOrder": 506,
-        "ExtraFlags": 102,
+        "ModuleLicenseId": 334,
+        "Name": "Olson-Conroy",
+        "Description": "Pre-emptive bifurcated core",
+        "PrerequisiteModuleName": "Barrows-Bergnaum",
+        "SortOrder": 609,
+        "ExtraFlags": 45,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 371
           }
         }
       }
@@ -188,25 +190,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 824,
-        "Tooltip": "quis",
+        "Total": 158,
+        "Tooltip": "veniam",
         "CanAssign": true,
-        "Free": 401,
-        "InUse": 963,
+        "Free": 571,
+        "InUse": 995,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 335,
-        "Name": "Rempel-Oberbrunner",
-        "Description": "Multi-channelled incremental standardization",
-        "PrerequisiteModuleName": "Klein, Oberbrunner and Grimes",
-        "SortOrder": 22,
-        "ExtraFlags": 775,
+        "Assigned": true,
+        "ModuleLicenseId": 625,
+        "Name": "Kemmer LLC",
+        "Description": "Front-line non-volatile task-force",
+        "PrerequisiteModuleName": "Bruen, Hilll and D'Amore",
+        "SortOrder": 995,
+        "ExtraFlags": 942,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 973
+            "FieldType": "System.Int32",
+            "FieldLength": 992
           }
         }
       }
@@ -215,8 +217,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 289
       }
     }
   }

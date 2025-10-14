@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Get a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
 
-The return value includes a header that has various extra information, in addition to the actual rows. 
+The return value includes a header that has various extra information, in addition to the actual rows.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -104,36 +105,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reichel LLC",
+  "ProviderName": "Wintheiser Inc and Sons",
   "Columns": [
-    "quia",
-    "ea"
+    "dolores",
+    "ipsam"
   ],
   "SortOrder": [
     {
-      "Name": "Murazik LLC",
+      "Name": "Bashirian-Kertzmann",
       "Direction": "ASC"
     },
     {
-      "Name": "Murazik LLC",
+      "Name": "Bashirian-Kertzmann",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Grimes Inc and Sons",
-      "Operator": "explicabo",
+      "Name": "Ward Group",
+      "Operator": "qui",
       "Values": [
-        "culpa",
-        "maxime"
+        "rerum",
+        "inventore"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "voluptas"
+        "necessitatibus",
+        "doloribus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,19 +142,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 189,
+      "InterParenthesis": 558,
       "InterOperator": "And",
-      "UniqueHash": 914
+      "UniqueHash": 907
     }
   ],
   "Entities": [
-    "hic",
-    "aliquam"
+    "repellendus",
+    "quo"
   ],
-  "Page": 61,
-  "PageSize": 765,
-  "Options": "minus",
-  "Context": "qui"
+  "Page": 137,
+  "PageSize": 880,
+  "Options": "nesciunt",
+  "Context": "dolores"
 }
 ```
 
@@ -164,26 +165,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 797,
+  "RowCount": 204,
   "Rows": [
     {
-      "EntityName": "Dare-Graham",
-      "PrimaryKey": 345,
+      "EntityName": "Murazik LLC",
+      "PrimaryKey": 609,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "at",
-          "TooltipHint": "eveniet",
-          "LinkHint": "similique"
+          "DisplayValue": "eius",
+          "TooltipHint": "consequatur",
+          "LinkHint": "veniam"
         }
       },
-      "LinkHint": "temporibus",
-      "StyleHint": "corrupti",
+      "LinkHint": "qui",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 898
         }
       }
     }
@@ -192,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

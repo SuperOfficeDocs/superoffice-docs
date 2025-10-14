@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteTaskMenu
 Deletes the TaskMenu
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TaskMenu
 | taskMenuId | int32 | **Required** The identity of the TaskMenu |
 
 ```http
-POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=250
+POST /api/v1/Agents/List/DeleteTaskMenu?taskMenuId=675
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

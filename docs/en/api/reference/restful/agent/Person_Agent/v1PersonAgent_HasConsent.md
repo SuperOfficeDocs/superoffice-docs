@@ -15,6 +15,7 @@ Check if consent has been given by a specified person, for a specific purpose.
 
 
 Withdraw consents return FALSE.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Person/HasConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 947,
-  "Purpose": "quo"
+  "PersonId": 633,
+  "Purpose": "et"
 }
 ```
 

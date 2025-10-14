@@ -14,6 +14,8 @@ POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Returns an array of phone list items with the Contacts in the users favorites dropdown list.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +88,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-084-241-4085",
-    "PersonCellPhone": "1-175-701-8618 x7135",
-    "PersonPrivatePhone": "(755)251-7193",
-    "PersonFaxNumber": "780623",
-    "PersonPagerNumber": "882299",
-    "PersonEmail": "german@naderkuhn.co.uk",
-    "Id": 327,
-    "Name": "Nicolas-O'Reilly",
-    "Tooltip": "excepturi",
-    "UniqueId": "praesentium",
+    "PersonDirectPhone": "1-304-302-2228 x8097",
+    "PersonCellPhone": "1-453-414-2910 x0130",
+    "PersonPrivatePhone": "1-934-444-2130",
+    "PersonFaxNumber": "930584",
+    "PersonPagerNumber": "1219180",
+    "PersonEmail": "christy_hauck@turcotte.info",
+    "Id": 814,
+    "Name": "Kautzer, Schmidt and Kihn",
+    "Tooltip": "assumenda",
+    "UniqueId": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

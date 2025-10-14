@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveResourceEntity
 Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,13 +82,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 819,
-  "Name": "Aufderhar-Bogisich",
-  "Rank": 761,
-  "Tooltip": "nemo",
-  "Deleted": true,
+  "ResourceId": 695,
+  "Name": "Ferry, Osinski and Klein",
+  "Rank": 730,
+  "Tooltip": "nihil",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "nisi"
+  "LocationAddress": "odit"
 }
 ```
 
@@ -97,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 294,
-  "Name": "Schneider-Crona",
-  "Rank": 2,
-  "Tooltip": "sit",
+  "ResourceId": 826,
+  "Name": "Gerhold, Ward and Lueilwitz",
+  "Rank": 370,
+  "Tooltip": "eos",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "totam",
+  "IsLocation": true,
+  "LocationAddress": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Gets a ProjectEvent object from a project and a person.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -96,12 +98,12 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 177,
-  "PersonId": 908
+  "ProjectId": 682,
+  "PersonId": 136
 }
 ```
 
@@ -112,34 +114,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Mohamed Gutkowski",
-  "Description": "Synergistic multimedia conglomeration",
-  "ProjectId": 805,
-  "EventName": "Graham LLC",
-  "AssociateId": 548,
+  "AssociateFullName": "Mrs. Adalberto Stefanie Bins",
+  "Description": "Optional fault-tolerant architecture",
+  "ProjectId": 230,
+  "EventName": "Prohaska Group",
+  "AssociateId": 769,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "qui",
-  "SignOffText": "beatae",
-  "SignOnConfirmationText": "quos",
-  "SignOnText": "sed",
-  "EventDate": "2003-10-22T11:24:48.4845166+02:00",
+  "SignOffConfirmationText": "aliquam",
+  "SignOffText": "laborum",
+  "SignOnConfirmationText": "optio",
+  "SignOnText": "omnis",
+  "EventDate": "2016-08-03T03:40:47.4843558+02:00",
   "Enabled": false,
   "SignOff": false,
-  "SignOffTaskEnable": false,
+  "SignOffTaskEnable": true,
   "SignOnTaskEnable": true,
   "SignOn": true,
-  "SignOffTaskId": 743,
-  "SignOnTaskId": 229,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 860,
+  "SignOnTaskId": 60,
+  "SignOffTriggersAssign": true,
   "SignOnTriggersAssign": false,
-  "SignOnPersonId": 464,
-  "SignOffPersonId": 79,
+  "SignOnPersonId": 257,
+  "SignOffPersonId": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

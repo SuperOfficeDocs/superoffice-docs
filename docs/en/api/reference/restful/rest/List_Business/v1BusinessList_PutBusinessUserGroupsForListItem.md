@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Denesik Group",
-    "ToolTip": "Nesciunt blanditiis voluptate et iste dolor mollitia.",
-    "Deleted": true,
-    "Rank": 213,
-    "Type": "eligendi",
-    "ColorBlock": 129,
-    "IconHint": "qui",
+    "Id": 402,
+    "Name": "Larkin, O'Reilly and Veum",
+    "ToolTip": "Fuga quasi quasi.",
+    "Deleted": false,
+    "Rank": 274,
+    "Type": "id",
+    "ColorBlock": 491,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1998-05-08T11:24:53.8592973+02:00",
+    "LastChanged": "2011-12-29T03:40:56.711976+01:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "O'Keefe Inc and Sons",
-        "ToolTip": "Nesciunt aut in pariatur adipisci voluptatum qui laudantium.",
+        "Id": 623,
+        "Name": "Weimann-Bahringer",
+        "ToolTip": "Hic suscipit eos sunt voluptatibus.",
         "Deleted": true,
-        "Rank": 782,
-        "Type": "et",
-        "ColorBlock": 581,
-        "IconHint": "ducimus",
+        "Rank": 263,
+        "Type": "sed",
+        "ColorBlock": 154,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2015-11-03T11:24:53.8592973+01:00",
+        "LastChanged": "2016-10-12T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "quo",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Dr. Jadon Tobin Koch"
+        "FullName": "Dayne Hudson"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Ida Goyette"
+    "ExtraInfo": "tempore",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Herminio Moen"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Johnson LLC",
-    "ToolTip": "Asperiores omnis atque ullam.",
+    "Id": 828,
+    "Name": "Padberg-Bergstrom",
+    "ToolTip": "Ipsam aut cumque rem reiciendis nisi.",
     "Deleted": true,
-    "Rank": 306,
-    "Type": "ad",
-    "ColorBlock": 382,
+    "Rank": 545,
+    "Type": "omnis",
+    "ColorBlock": 494,
     "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2019-09-20T11:24:53.8592973+02:00",
+    "Selected": true,
+    "LastChanged": "2020-07-16T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Schimmel, Jast and Halvorson",
-        "ToolTip": "Dolorum ipsa error qui aperiam rerum tempore.",
-        "Deleted": true,
-        "Rank": 228,
-        "Type": "quia",
-        "ColorBlock": 379,
-        "IconHint": "ratione",
+        "Id": 481,
+        "Name": "Abernathy LLC",
+        "ToolTip": "Sapiente aliquid perspiciatis vitae.",
+        "Deleted": false,
+        "Rank": 132,
+        "Type": "quod",
+        "ColorBlock": 920,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2001-03-30T11:24:53.8592973+02:00",
+        "LastChanged": "2006-04-05T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "eaque",
+        "ExtraInfo": "cum",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Vivianne Windler",
+        "FullName": "Frankie Schimmel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 470
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Troy O'Conner",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Brett Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldType": "System.Int32",
+        "FieldLength": 94
       }
     }
   }

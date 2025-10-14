@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Get an e-mail based on an email and attachment id
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -103,16 +106,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 689,
+  "EmailId": 813,
   "AttachmentIds": [
-    "beatae",
-    "qui"
+    "optio",
+    "autem"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,97 +128,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 77,
-      "ContactName": "Stoltenberg, Abshire and Hessel",
-      "PersonId": 48,
-      "PersonName": "Emmerich Inc and Sons",
-      "AssociateId": 722,
-      "Address": "quae",
-      "EmailId": 460,
+      "ContactId": 909,
+      "ContactName": "Considine Group",
+      "PersonId": 329,
+      "PersonName": "Hammes Inc and Sons",
+      "AssociateId": 69,
+      "Address": "repellendus",
+      "EmailId": 949,
       "DuplicatePersonIds": [
-        691,
-        193
+        293,
+        590
       ],
-      "Name": "Smith Group",
+      "Name": "Cummings-Upton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 50
+          "FieldLength": 304
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 57,
-      "ContactName": "Lesch-Treutel",
-      "PersonId": 693,
-      "PersonName": "Schuppe-Wilkinson",
-      "AssociateId": 794,
-      "Address": "enim",
-      "EmailId": 814,
+      "ContactId": 318,
+      "ContactName": "Jacobs Group",
+      "PersonId": 270,
+      "PersonName": "Fadel-Green",
+      "AssociateId": 856,
+      "Address": "tempora",
+      "EmailId": 420,
       "DuplicatePersonIds": [
-        904,
-        120
+        266,
+        531
       ],
-      "Name": "Deckow Group",
+      "Name": "Klocko Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 949
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 960,
-      "ContactName": "Collins, Baumbach and Torp",
-      "PersonId": 934,
-      "PersonName": "Friesen, Jaskolski and Prohaska",
-      "AssociateId": 584,
-      "Address": "velit",
-      "EmailId": 575,
+      "ContactId": 242,
+      "ContactName": "Heller-Hodkiewicz",
+      "PersonId": 114,
+      "PersonName": "Shields-Powlowski",
+      "AssociateId": 227,
+      "Address": "aut",
+      "EmailId": 671,
       "DuplicatePersonIds": [
-        95,
-        946
+        617,
+        913
       ],
-      "Name": "Douglas LLC",
+      "Name": "Corwin, Langosh and Trantow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 472
         }
       }
     }
   ],
-  "Subject": "asperiores",
-  "HTMLBody": "quibusdam",
+  "Subject": "ut",
+  "HTMLBody": "aspernatur",
   "From": null,
-  "Sent": "2021-01-15T11:24:48.0939075+01:00",
-  "Size": 106,
+  "Sent": "2016-06-06T03:40:46.8748964+02:00",
+  "Size": 375,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "enim",
+  "MessageID": "sed",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 171,
+  "ServerId": 940,
   "Attachments": [
     {
-      "Description": "Devolved user-facing artificial intelligence",
-      "Filename": "repellat",
-      "Size": 757,
-      "Type": "in",
-      "Encoding": "soluta",
-      "Id": "id",
-      "Disposition": "quos",
+      "Description": "Versatile client-server parallelism",
+      "Filename": "consequuntur",
+      "Size": 919,
+      "Type": "harum",
+      "Encoding": "est",
+      "Id": "dolore",
+      "Disposition": "in",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,49 +226,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 765
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Herzog Group",
+      "Name": "Gibson, Hagenes and Stehr",
       "Values": [
-        "quis",
-        "aut"
+        "repellendus",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 686
         }
       }
     },
     {
-      "Name": "Herzog Group",
+      "Name": "Gibson, Hagenes and Stehr",
       "Values": [
-        "quis",
-        "aut"
+        "repellendus",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 777
+          "FieldLength": 686
         }
       }
     }
   ],
-  "FolderName": "Torphy, Kulas and Lueilwitz",
-  "EmailItemId": 977,
-  "AccountId": 734,
-  "ReceivedAt": "2025-03-18T11:24:48.0939075+01:00",
+  "FolderName": "Kozey, Stehr and Lockman",
+  "EmailItemId": 513,
+  "AccountId": 664,
+  "ReceivedAt": "2018-05-31T03:40:46.8748964+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-04-09T11:24:48.0939075+02:00",
+  "RepliedAt": "2021-04-07T03:40:46.8748964+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   }
 }

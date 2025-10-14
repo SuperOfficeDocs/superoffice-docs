@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,14 +98,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Haley LLC",
+  "Name": "Hamill, Haag and D'Amore",
   "AssociateIds": [
-    462,
-    244
+    527,
+    33
   ]
 }
 ```
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "O'Reilly LLC",
-    "AssociateId": 82,
-    "DetailsTable": 86,
-    "DetailsRecord": 69,
+    "Id": 771,
+    "Name": "Rippin, Prosacco and Upton",
+    "AssociateId": 479,
+    "DetailsTable": 568,
+    "DetailsRecord": 802,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "necessitatibus"
+      "ParameterObject1": "molestiae",
+      "ParameterObject2": "quia"
     },
-    "LastStarted": "2005-12-27T11:24:47.6095526+01:00",
-    "Created": "2014-06-19T11:24:47.6095526+02:00",
-    "StartCount": 963,
-    "DatabaseSerialNumber": "874254",
-    "Context": "molestiae",
-    "Result": "eum",
+    "LastStarted": "2009-12-25T03:40:46.0764548+01:00",
+    "Created": "2000-02-07T03:40:46.0764548+01:00",
+    "StartCount": 855,
+    "DatabaseSerialNumber": "1272575",
+    "Context": "sit",
+    "Result": "aliquam",
     "State": "All",
-    "Description": "Decentralized composite budgetary management",
-    "Response": "ut",
-    "Request": "magnam",
-    "ProgressDescription": "Advanced exuding algorithm",
-    "ProgressPercent": 131,
-    "FileName": "Zboncak LLC",
+    "Description": "Profit-focused hybrid functionalities",
+    "Response": "blanditiis",
+    "Request": "quibusdam",
+    "ProgressDescription": "Focused intangible benchmark",
+    "ProgressPercent": 478,
+    "FileName": "Hamill Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 527
       }
     }
   }

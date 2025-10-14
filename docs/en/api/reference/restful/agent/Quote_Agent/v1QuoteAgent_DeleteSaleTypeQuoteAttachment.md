@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteSaleTypeQuoteAttachment
 Deletes the sale type quote attachment with the given id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 641
+  "SaleTypeQuoteAttachmentId": 1001
 }
 ```
 

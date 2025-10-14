@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 &lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is also passed in directly.&lt;para/&gt;Use the GetCriteriaInformation, GetDefaultDesiredColumns and GetDefaultOrderBy service methods to let the system calculate these values, if you want to use or modify them.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,50 +84,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Gleichner-Schroeder",
-      "Operator": "doloribus",
+      "Name": "Dickens-Howe",
+      "Operator": "eos",
       "Values": [
-        "nulla",
-        "eaque"
+        "ex",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "soluta",
-        "neque"
+        "consequatur",
+        "optio"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 748,
+      "InterParenthesis": 273,
       "InterOperator": "And",
-      "UniqueHash": 328
+      "UniqueHash": 557
     }
   ],
-  "ProviderName": "Bradtke-Kertzmann",
+  "ProviderName": "Schuster Inc and Sons",
   "DesiredColumns": [
-    "quaerat",
-    "expedita"
+    "et",
+    "consequatur"
   ],
   "OrderBy": [
     {
-      "Name": "Reichert, Price and Lindgren",
+      "Name": "Welch Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Reichert, Price and Lindgren",
+      "Name": "Welch Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 879,
-  "PageNumber": 845
+  "PageSize": 773,
+  "PageNumber": 74
 }
 ```
 
@@ -139,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Becker, Williamson and Stroman",
-      "DisplayTooltip": "aliquam",
-      "DisplayType": "quos",
+      "DisplayName": "Conroy Inc and Sons",
+      "DisplayTooltip": "beatae",
+      "DisplayType": "possimus",
       "CanOrderBy": true,
-      "Name": "Bergstrom-Grimes",
+      "Name": "Wiza, Price and Walsh",
       "CanRestrictBy": true,
-      "RestrictionType": "natus",
-      "RestrictionListName": "Senger-Kunze",
-      "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "eos",
-      "IconHint": "nobis",
-      "HeadingIconHint": "et"
+      "RestrictionType": "ad",
+      "RestrictionListName": "Rosenbaum-Waters",
+      "IsVisible": false,
+      "ExtraInfo": "iusto",
+      "Width": "pariatur",
+      "IconHint": "mollitia",
+      "HeadingIconHint": "optio"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Johnston, Buckridge and Franecki",
-      "PrimaryKey": 963,
+      "EntityName": "Rodriguez LLC",
+      "PrimaryKey": 748,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "ut",
-          "LinkHint": "deserunt"
+          "DisplayValue": "tempore",
+          "TooltipHint": "dignissimos",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "numquam",
+      "LinkHint": "asperiores",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 524
         }
       }
     }
   ],
-  "RowCount": 596,
+  "RowCount": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 961
     }
   }
 }

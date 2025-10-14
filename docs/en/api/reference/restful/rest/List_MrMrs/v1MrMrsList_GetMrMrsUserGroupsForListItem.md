@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Ernser, Nienow and Ferry",
-    "ToolTip": "Veniam accusantium distinctio at dicta inventore expedita deserunt.",
-    "Deleted": false,
-    "Rank": 809,
-    "Type": "id",
-    "ColorBlock": 776,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2022-06-27T11:24:53.9530436+02:00",
+    "Id": 587,
+    "Name": "Welch-Murazik",
+    "ToolTip": "Natus aliquam animi eos accusamus eaque.",
+    "Deleted": true,
+    "Rank": 511,
+    "Type": "velit",
+    "ColorBlock": 901,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2024-10-31T03:40:56.8682357+01:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Reichel, Murphy and Koepp",
-        "ToolTip": "Dolore dolore eaque dignissimos.",
+        "Id": 149,
+        "Name": "Schowalter Inc and Sons",
+        "ToolTip": "Odit sunt ipsum dicta impedit ab ab.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "sunt",
-        "ColorBlock": 495,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2009-11-24T11:24:53.9530436+01:00",
+        "Rank": 514,
+        "Type": "quaerat",
+        "ColorBlock": 291,
+        "IconHint": "ipsa",
+        "Selected": true,
+        "LastChanged": "2004-10-11T03:40:56.8682357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "eos",
+        "ExtraInfo": "cum",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Pansy Breitenberg",
+        "FullName": "Dr. Blake Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldLength": 972
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Jennyfer Kunde",
+    "ExtraInfo": "corporis",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Myrtle Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldLength": 434
       }
     }
   }

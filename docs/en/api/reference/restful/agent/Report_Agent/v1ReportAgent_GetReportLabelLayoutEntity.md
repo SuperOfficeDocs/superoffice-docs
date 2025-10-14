@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Gets a ReportLabelLayoutEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=982
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=538
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -89,24 +91,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 928,
-  "Name": "Strosin, Rosenbaum and Gibson",
-  "Description": "Extended holistic capacity",
+  "ReportLabelLayoutId": 343,
+  "Name": "O'Reilly, Mills and Friesen",
+  "Description": "Self-enabling homogeneous customer loyalty",
   "Orientation": "Landscape",
-  "PaperWidth": 694,
-  "PaperHeight": 572,
-  "LeftMargin": 744,
-  "RightMargin": 14,
-  "TopMargin": 641,
-  "BottomMargin": 230,
-  "CountColumns": 997,
-  "CountRows": 809,
+  "PaperWidth": 938,
+  "PaperHeight": 161,
+  "LeftMargin": 351,
+  "RightMargin": 434,
+  "TopMargin": 232,
+  "BottomMargin": 846,
+  "CountColumns": 563,
+  "CountRows": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 39
     }
   }
 }

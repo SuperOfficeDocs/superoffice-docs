@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Remove the stored settings of the bulk update for this table from this context
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Skiles Group",
-  "Context": "reprehenderit"
+  "TableName": "Towne, Schiller and Gleason",
+  "Context": "iste"
 }
 ```
 

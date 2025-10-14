@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTask
 Gets a SoTask object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SoTask object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTask?taskId=979
+POST /api/v1/Agents/List/GetTask?taskId=384
 POST /api/v1/Agents/List/GetTask?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 381,
-  "Value": "enim",
-  "Tooltip": "deserunt",
+  "Id": 789,
+  "Value": "et",
+  "Tooltip": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 370
     }
   }
 }

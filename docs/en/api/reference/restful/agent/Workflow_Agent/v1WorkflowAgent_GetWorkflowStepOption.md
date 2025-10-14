@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Get WorkflowStepOption by ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 564
+  "WorkflowStepOptionId": 775
 }
 ```
 
@@ -94,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 517,
-  "WorkflowStepId": 876,
-  "WorkflowId": 713,
-  "Name": "Kassulke, Kozey and Larkin",
-  "Rank": 449,
+  "WorkflowStepOptionId": 535,
+  "WorkflowStepId": 823,
+  "WorkflowId": 773,
+  "Name": "Simonis Group",
+  "Rank": 319,
   "Steps": [
     {
-      "WorkflowStepId": 465,
-      "WorkflowId": 260,
+      "WorkflowStepId": 269,
+      "WorkflowId": 968,
       "StepType": "AddToList",
-      "Rank": 958
+      "Rank": 2
     },
     {
-      "WorkflowStepId": 465,
-      "WorkflowId": 260,
+      "WorkflowStepId": 269,
+      "WorkflowId": 968,
       "StepType": "AddToList",
-      "Rank": 958
+      "Rank": 2
     }
   ]
 }

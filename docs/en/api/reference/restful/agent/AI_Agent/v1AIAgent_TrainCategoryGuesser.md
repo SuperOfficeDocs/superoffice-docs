@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/TrainCategoryGuesser
 The category guesser training API will be called with an array of CategorizationTrainingItem during the (background, Batch) execution of this call
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -75,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 951,
-  "MaxItems": 505,
-  "MaxTextLength": 82
+  "SelectionId": 54,
+  "MaxItems": 70,
+  "MaxTextLength": 420
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -130,44 +132,44 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 327,
-  "ColumnId": 159,
-  "FieldDefault": "quia",
-  "FieldHeight": 801,
-  "FieldLabel": "inventore",
-  "FieldLeft": 128,
-  "FieldTop": 326,
+  "UDefFieldId": 30,
+  "ColumnId": 17,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 305,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 229,
+  "FieldTop": 342,
   "FieldType": "Checkbox",
-  "FieldWidth": 147,
-  "FormatMask": "praesentium",
-  "HideLabel": true,
+  "FieldWidth": 687,
+  "FormatMask": "odit",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 103,
-  "LabelLeft": 970,
-  "LabelTop": 988,
-  "LabelWidth": 454,
-  "LastVersionId": 399,
-  "ListTableId": 128,
-  "IsMandatory": true,
+  "LabelHeight": 430,
+  "LabelLeft": 33,
+  "LabelTop": 163,
+  "LabelWidth": 510,
+  "LastVersionId": 3,
+  "ListTableId": 767,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 359,
-  "ProgId": "excepturi",
-  "IsReadOnly": false,
-  "ShortLabel": "sint",
-  "TabOrder": 449,
-  "TextLength": 65,
-  "Tooltip": "quae",
-  "UdefIdentity": 986,
-  "UDListDefinitionId": 375,
+  "Page1LineNo": 927,
+  "ProgId": "dolores",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 518,
+  "TextLength": 487,
+  "Tooltip": "minus",
+  "UdefIdentity": 555,
+  "UDListDefinitionId": 385,
   "Justification": "Center",
-  "Version": 157,
-  "TemplateVariableName": "Rogahn Inc and Sons",
+  "Version": 368,
+  "TemplateVariableName": "Parisian-Hagenes",
   "HasBeenPublished": false,
-  "MdoListName": "Hermann Group"
+  "MdoListName": "Emmerich Group"
 }
 ```
 
@@ -178,46 +180,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 793,
-  "ColumnId": 263,
-  "FieldDefault": "vel",
-  "FieldHeight": 956,
-  "FieldLabel": "omnis",
-  "FieldLeft": 226,
-  "FieldTop": 332,
+  "UDefFieldId": 107,
+  "ColumnId": 324,
+  "FieldDefault": "maxime",
+  "FieldHeight": 414,
+  "FieldLabel": "quae",
+  "FieldLeft": 571,
+  "FieldTop": 255,
   "FieldType": "Checkbox",
-  "FieldWidth": 317,
-  "FormatMask": "est",
+  "FieldWidth": 3,
+  "FormatMask": "eligendi",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 784,
-  "LabelLeft": 270,
-  "LabelTop": 401,
-  "LabelWidth": 664,
-  "LastVersionId": 395,
-  "ListTableId": 487,
+  "IsIndexed": false,
+  "LabelHeight": 243,
+  "LabelLeft": 137,
+  "LabelTop": 870,
+  "LabelWidth": 846,
+  "LastVersionId": 176,
+  "ListTableId": 235,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 652,
-  "ProgId": "consectetur",
-  "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 834,
-  "TextLength": 332,
-  "Tooltip": "qui",
-  "UdefIdentity": 446,
-  "UDListDefinitionId": 817,
+  "Page1LineNo": 285,
+  "ProgId": "voluptate",
+  "IsReadOnly": true,
+  "ShortLabel": "deleniti",
+  "TabOrder": 395,
+  "TextLength": 463,
+  "Tooltip": "in",
+  "UdefIdentity": 867,
+  "UDListDefinitionId": 629,
   "Justification": "Center",
-  "Version": 659,
-  "TemplateVariableName": "Klein LLC",
+  "Version": 258,
+  "TemplateVariableName": "Hettinger-Towne",
   "HasBeenPublished": false,
-  "MdoListName": "Crist-Corkery",
+  "MdoListName": "Nader Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 661
     }
   }
 }

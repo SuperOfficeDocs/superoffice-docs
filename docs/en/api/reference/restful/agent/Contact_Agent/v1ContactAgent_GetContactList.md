@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactList
 Gets an array of Contact objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -105,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 29,
-    "Name": "Feeney Inc and Sons",
-    "OrgNr": "637689",
+    "ContactId": 679,
+    "Name": "Vandervort-Koelpin",
+    "OrgNr": "343851",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "608.743.3417 x0888",
-    "AssociateId": 135,
-    "CountryId": 143,
-    "EmailAddress": "meda_beier@walter.us",
-    "Kananame": "eos",
-    "EmailAddressName": "daren.heidenreich@kreiger.name",
+    "City": "molestiae",
+    "DirectPhone": "325.540.9279",
+    "AssociateId": 466,
+    "CountryId": 282,
+    "EmailAddress": "janae@dietrichlittel.uk",
+    "Kananame": "occaecati",
+    "EmailAddressName": "lottie@rath.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Kelly Benton Reichel I",
+    "AssociateFullName": "Annabel Champlin",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "placeat",
-    "FullName": "Cornell Kuvalis",
+    "FormattedAddress": "autem",
+    "FullName": "Prof. Constance Jammie O'Conner",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 513,
-    "Number1": "1230804",
-    "Number2": "751971",
+    "ActiveErpLinks": 3,
+    "Number1": "401433",
+    "Number2": "687541",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 423
       }
     }
   }

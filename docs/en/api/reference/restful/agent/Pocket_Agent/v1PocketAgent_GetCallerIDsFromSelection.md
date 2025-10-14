@@ -15,6 +15,7 @@ Get caller ids from a selection.
 
 
 Queries the shadow selection of persons and companies, so selections of any kind can be used
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,12 +77,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 861,
-  "LastHash": "dolor"
+  "SelectionId": 844,
+  "LastHash": "sapiente"
 }
 ```
 
@@ -92,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "dolorem",
+  "CallerIDHash": "odio",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 817,
-      "PersonId": 340,
-      "PersonName": "Kassulke LLC",
-      "Mrmrs": "error",
-      "ContactId": 484,
-      "ContactName": "Steuber Inc and Sons"
+      "DialInPrefix": 271,
+      "PersonId": 930,
+      "PersonName": "Cummerata LLC",
+      "Mrmrs": "corrupti",
+      "ContactId": 665,
+      "ContactName": "Moore, Gusikowski and Crist"
     }
   ]
 }

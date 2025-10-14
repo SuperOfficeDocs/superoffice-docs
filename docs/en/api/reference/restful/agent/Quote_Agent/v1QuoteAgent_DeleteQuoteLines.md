@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteQuoteLines
 Delete the QuoteLines in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineIds": [
-    834,
-    900
+    431,
+    364
   ]
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Loading default values into a new BlobEntity.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,25 +80,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 362,
-  "BlobSize": 795,
-  "Description": "Function-based exuding complexity",
-  "ExtraInfo": "non",
-  "IsEncrypted": true,
+  "BlobId": 938,
+  "BlobSize": 258,
+  "Description": "Face to face assymetric archive",
+  "ExtraInfo": "velit",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "molestias",
-  "OriginalSize": 525,
-  "CreatedDate": "2008-09-20T11:24:47.6251768+02:00",
-  "UpdatedDate": "1999-11-08T11:24:47.6251768+01:00",
+  "MimeType": "atque",
+  "OriginalSize": 850,
+  "CreatedDate": "2009-10-18T03:40:46.0764548+02:00",
+  "UpdatedDate": "2016-11-11T03:40:46.0764548+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 301
     }
   }
 }

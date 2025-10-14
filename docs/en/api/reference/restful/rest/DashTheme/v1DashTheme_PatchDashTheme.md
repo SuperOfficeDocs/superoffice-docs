@@ -14,7 +14,8 @@ PATCH /api/v1/DashTheme/{id}
 Update a DashTheme with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -114,18 +115,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "est",
     "value": {}
   }
 ]
@@ -138,18 +139,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 698,
-  "Name": "Lesch, Satterfield and Harris",
-  "Config": "nobis",
-  "Rank": 535,
-  "Client": "voluptate",
-  "Style": "voluptatem",
+  "DashboardThemeId": 111,
+  "Name": "Ferry Group",
+  "Config": "voluptatem",
+  "Rank": 876,
+  "Client": "itaque",
+  "Style": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   },
   "_Links": {

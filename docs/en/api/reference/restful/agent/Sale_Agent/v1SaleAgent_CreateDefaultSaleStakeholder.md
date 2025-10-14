@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Loading default values into a new SaleStakeholder.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Parisian-Hoeger",
-  "Comment": "sed",
-  "StakeholderRoleId": 240,
-  "CountryId": 278,
-  "PersonId": 279,
-  "EmailDescription": "yadira@lemkezieme.co.uk",
-  "EmailId": 382,
-  "EmailAddress": "billy@hintzschultz.uk",
-  "PhoneId": 480,
-  "ContactName": "Donnelly, Rolfson and Konopelski",
-  "ContactId": 511,
-  "SaleId": 292,
-  "Mrmrs": "illo",
-  "Firstname": "Armand",
-  "MiddleName": "Jacobi-Stroman",
-  "Lastname": "Langosh",
-  "SaleStakeholderId": 357,
-  "Rank": 910,
-  "Phone": "580.644.9275",
+  "StakeholderRoleName": "Tromp LLC",
+  "Comment": "nam",
+  "StakeholderRoleId": 719,
+  "CountryId": 248,
+  "PersonId": 841,
+  "EmailDescription": "edna_mann@parker.info",
+  "EmailId": 179,
+  "EmailAddress": "hulda@morar.biz",
+  "PhoneId": 330,
+  "ContactName": "Morissette LLC",
+  "ContactId": 919,
+  "SaleId": 122,
+  "Mrmrs": "ullam",
+  "Firstname": "Dixie",
+  "MiddleName": "Emmerich, Homenick and Jenkins",
+  "Lastname": "Upton",
+  "SaleStakeholderId": 575,
+  "Rank": 887,
+  "Phone": "(124)278-6767 x4829",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 835
     }
   }
 }

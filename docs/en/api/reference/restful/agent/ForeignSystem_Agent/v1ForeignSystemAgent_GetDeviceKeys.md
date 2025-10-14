@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Returns all ForeignKeys that belong to a device.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,12 +84,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rempel Group",
-  "DeviceName": "Stracke-Nienow"
+  "ApplicationName": "Windler, Hermiston and Daugherty",
+  "DeviceName": "Herzog-Kunze"
 }
 ```
 
@@ -99,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "possimus",
-    "Value": "quisquam",
-    "RecordId": 699,
-    "CreatedDate": "2005-03-15T11:24:48.1720293+01:00",
-    "UpdatedDate": "2008-09-07T11:24:48.1720293+02:00",
-    "UpdatedBy": "veniam",
-    "CreatedBy": "non",
-    "TableName": "Jones-Marquardt",
+    "Key": "quis",
+    "Value": "rerum",
+    "RecordId": 738,
+    "CreatedDate": "2011-08-21T03:40:46.9999043+02:00",
+    "UpdatedDate": "2022-09-06T03:40:46.9999043+02:00",
+    "UpdatedBy": "vero",
+    "CreatedBy": "aliquam",
+    "TableName": "Lakin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 34
       }
     }
   }

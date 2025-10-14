@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "molestiae",
+  "RawValue": "rerum",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "laborum",
+  "DisplayTooltip": "quisquam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 807,
-  "PrefDescId": 477,
-  "TableName": "Mayer-Collier",
-  "UserPreferenceId": 435,
+  "TargetId": 174,
+  "PrefDescId": 199,
+  "TableName": "Murray-Rath",
+  "UserPreferenceId": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

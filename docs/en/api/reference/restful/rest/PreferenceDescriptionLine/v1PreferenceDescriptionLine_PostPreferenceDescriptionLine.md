@@ -15,6 +15,7 @@ Creates a new PreferenceDescriptionLine
 
 
 Calls the Preference agent service SavePreferenceDescriptionLine.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -91,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 334,
-  "PrefDescId": 98,
-  "PrefValue": "minus",
-  "PrefShowValue": "aut",
-  "Description": "Enterprise-wide solution-oriented artificial intelligence",
+  "PrefDescLineId": 645,
+  "PrefDescId": 417,
+  "PrefValue": "ea",
+  "PrefShowValue": "dolorem",
+  "Description": "Fundamental next generation ability",
   "IsBuiltin": false
 }
 ```
@@ -107,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 534,
-  "PrefDescId": 90,
-  "PrefValue": "ut",
-  "PrefShowValue": "alias",
-  "Description": "Digitized heuristic Graphic Interface",
-  "IsBuiltin": true,
+  "PrefDescLineId": 794,
+  "PrefDescId": 675,
+  "PrefValue": "qui",
+  "PrefShowValue": "omnis",
+  "Description": "Object-based motivating methodology",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 604
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

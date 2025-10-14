@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetActivityFilter
 Get activity filter for the specified list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,91 +82,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2005-07-12T11:24:47.5939281+02:00",
-  "ToDate": "2002-04-26T11:24:47.5939281+02:00",
+  "FromDate": "2008-08-15T03:40:46.0452033+02:00",
+  "ToDate": "2002-09-08T03:40:46.0452033+02:00",
   "AssociateList": [
     {
-      "Id": 145,
-      "Name": "Wisoky, Ankunding and Schinner",
-      "ToolTip": "Nulla asperiores maxime.",
+      "Id": 905,
+      "Name": "Graham, Wilkinson and Mayert",
+      "ToolTip": "Possimus quia dolore dolorum.",
       "Deleted": true,
-      "Rank": 665,
-      "Type": "odit",
-      "ColorBlock": 238,
-      "IconHint": "quia",
+      "Rank": 128,
+      "Type": "in",
+      "ColorBlock": 640,
+      "IconHint": "aut",
       "Selected": true,
-      "LastChanged": "2020-11-25T11:24:47.5939281+01:00",
+      "LastChanged": "2024-08-17T03:40:46.0452033+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "aut",
+      "ExtraInfo": "aut",
+      "StyleHint": "ea",
       "Hidden": false,
-      "FullName": "Geovanni Litzy Kertzmann III",
+      "FullName": "Rosalinda Monserrat Stanton DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 691
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 67,
-      "Name": "Leannon Inc and Sons",
-      "ToolTip": "Optio officia aut laboriosam.",
+      "Id": 261,
+      "Name": "Jacobi, Kreiger and Kulas",
+      "ToolTip": "In necessitatibus eligendi suscipit.",
       "Deleted": false,
-      "Rank": 72,
-      "Type": "accusantium",
-      "ColorBlock": 144,
-      "IconHint": "iure",
-      "Selected": false,
-      "LastChanged": "2002-03-23T11:24:47.5939281+01:00",
+      "Rank": 711,
+      "Type": "veritatis",
+      "ColorBlock": 60,
+      "IconHint": "occaecati",
+      "Selected": true,
+      "LastChanged": "2009-03-25T03:40:46.0452033+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "quo",
+      "ExtraInfo": "quod",
+      "StyleHint": "rerum",
       "Hidden": true,
-      "FullName": "Estevan Walter",
+      "FullName": "Kacie Fritsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 883
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 922,
-      "Name": "Block-Bogisich",
-      "ToolTip": "Sed eum velit sint aut id dolore.",
-      "Deleted": false,
-      "Rank": 626,
-      "Type": "rem",
+      "Id": 110,
+      "Name": "Kozey Inc and Sons",
+      "ToolTip": "Enim culpa quasi et voluptas sit.",
+      "Deleted": true,
+      "Rank": 298,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "sed",
-      "ColorBlock": 262,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "nostrum",
-      "FullName": "Jacklyn Hauck",
+      "ColorBlock": 526,
+      "ExtraInfo": "error",
+      "StyleHint": "doloremque",
+      "FullName": "Ms. Meta Sigrid Bayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 273
         }
       }
     }
@@ -173,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 337
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetTicketAttachments
 Get attachment infos for all attachments connected to messages in specified ticket
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 789
+  "TicketEntityId": 998
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 275,
-    "Name": "Weimann, Rau and Pacocha",
-    "ContentType": "id",
-    "AttSize": 301,
-    "InlineImage": false,
-    "ContentId": "vel",
-    "AuthKey": "voluptatem",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 123,
+    "Name": "Schumm, O'Hara and Mann",
+    "ContentType": "sed",
+    "AttSize": 566,
+    "InlineImage": true,
+    "ContentId": "itaque",
+    "AuthKey": "enim",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 88
       }
     }
   }

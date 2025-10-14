@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Loading default values into a new PreferenceDescriptionLine.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 381,
-  "PrefDescId": 716,
-  "PrefValue": "sed",
-  "PrefShowValue": "nisi",
-  "Description": "Fully-configurable user-facing utilisation",
-  "IsBuiltin": false,
+  "PrefDescLineId": 934,
+  "PrefDescId": 38,
+  "PrefValue": "mollitia",
+  "PrefShowValue": "velit",
+  "Description": "Reactive attitude-oriented migration",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 120
     }
   }
 }

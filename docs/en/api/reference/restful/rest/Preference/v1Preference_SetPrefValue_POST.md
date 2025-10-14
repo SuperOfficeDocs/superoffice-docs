@@ -72,21 +72,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "itaque",
+  "RawValue": "natus",
   "Specification": null,
-  "DisplayValue": "sint",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "commodi",
+  "DisplayTooltip": "nihil",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 88,
-  "PrefDescId": 354,
-  "TableName": "McCullough Inc and Sons",
-  "UserPreferenceId": 64
+  "TargetId": 260,
+  "PrefDescId": 90,
+  "TableName": "Rempel-Rowe",
+  "UserPreferenceId": 55
 }
 ```
 

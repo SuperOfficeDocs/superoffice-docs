@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Parisian, Ortiz and Hagenes",
-    "ToolTip": "Quis laborum iusto id omnis ipsa dolores vitae.",
-    "Deleted": true,
-    "Rank": 737,
-    "Type": "impedit",
-    "ColorBlock": 830,
-    "IconHint": "quis",
+    "Id": 647,
+    "Name": "Carter Group",
+    "ToolTip": "Facilis distinctio sed.",
+    "Deleted": false,
+    "Rank": 185,
+    "Type": "rem",
+    "ColorBlock": 638,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2015-02-17T11:24:54.1092872+01:00",
+    "LastChanged": "2010-04-07T03:40:57.071478+02:00",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Anderson Group",
-        "ToolTip": "Quas asperiores culpa possimus totam ratione.",
+        "Id": 75,
+        "Name": "Schowalter, Legros and Altenwerth",
+        "ToolTip": "Est est eveniet qui a dolorem.",
         "Deleted": false,
-        "Rank": 111,
-        "Type": "quibusdam",
-        "ColorBlock": 471,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2023-12-19T11:24:54.1092872+01:00",
+        "Rank": 74,
+        "Type": "illo",
+        "ColorBlock": 909,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "1998-09-09T03:40:57.071478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "possimus",
-        "Hidden": false,
-        "FullName": "Prof. Clair Schimmel DVM",
+        "ExtraInfo": "omnis",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Shaniya Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Tabitha Moore",
+    "ExtraInfo": "illo",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Marcel Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

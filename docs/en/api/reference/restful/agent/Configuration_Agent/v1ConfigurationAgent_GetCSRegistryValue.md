@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCSRegistryValue
 This method will get a value from the CS Registry table.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Configuration/GetCSRegistryValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Entry": 561
+  "Entry": 264
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"reprehenderit"
 ```

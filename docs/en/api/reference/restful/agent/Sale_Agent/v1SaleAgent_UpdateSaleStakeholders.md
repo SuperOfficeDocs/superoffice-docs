@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -98,25 +98,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Hegmann Inc and Sons",
-      "Comment": "et",
-      "StakeholderRoleId": 231,
-      "CountryId": 116,
-      "PersonId": 998,
-      "EmailDescription": "doyle@vandervort.ca",
-      "EmailId": 441,
-      "EmailAddress": "christine.zieme@runte.ca",
-      "PhoneId": 358,
-      "ContactName": "Schaden-Abshire",
-      "ContactId": 555,
-      "SaleId": 526,
-      "Mrmrs": "quis",
-      "Firstname": "Erik",
-      "MiddleName": "Hartmann, Renner and Kessler",
-      "Lastname": "Wiegand",
-      "SaleStakeholderId": 811,
-      "Rank": 176,
-      "Phone": "735.131.0370"
+      "StakeholderRoleName": "Blick, Schamberger and Ziemann",
+      "Comment": "quam",
+      "StakeholderRoleId": 873,
+      "CountryId": 729,
+      "PersonId": 890,
+      "EmailDescription": "layne@langworth.us",
+      "EmailId": 162,
+      "EmailAddress": "liliana@crooks.info",
+      "PhoneId": 889,
+      "ContactName": "Kihn, Konopelski and Schimmel",
+      "ContactId": 302,
+      "SaleId": 69,
+      "Mrmrs": "illo",
+      "Firstname": "Israel",
+      "MiddleName": "Rolfson Group",
+      "Lastname": "Kozey",
+      "SaleStakeholderId": 392,
+      "Rank": 120,
+      "Phone": "334.936.4447 x21751"
     }
   ]
 }
@@ -130,31 +130,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Corkery Inc and Sons",
-    "Comment": "non",
-    "StakeholderRoleId": 835,
-    "CountryId": 13,
-    "PersonId": 429,
-    "EmailDescription": "everette@hessel.co.uk",
-    "EmailId": 208,
-    "EmailAddress": "irwin@langworth.info",
-    "PhoneId": 235,
-    "ContactName": "Jacobi, Cremin and Skiles",
-    "ContactId": 706,
-    "SaleId": 114,
-    "Mrmrs": "mollitia",
-    "Firstname": "Jordyn",
-    "MiddleName": "Terry, Green and Sipes",
-    "Lastname": "Schaefer",
-    "SaleStakeholderId": 777,
-    "Rank": 191,
-    "Phone": "572.487.4858",
+    "StakeholderRoleName": "Quigley, Pouros and Marks",
+    "Comment": "veniam",
+    "StakeholderRoleId": 137,
+    "CountryId": 404,
+    "PersonId": 979,
+    "EmailDescription": "nigel.carter@jakubowski.uk",
+    "EmailId": 573,
+    "EmailAddress": "edward@mclaughlin.com",
+    "PhoneId": 449,
+    "ContactName": "Wuckert Group",
+    "ContactId": 197,
+    "SaleId": 609,
+    "Mrmrs": "dicta",
+    "Firstname": "Robin",
+    "MiddleName": "Jacobi, Koch and Wisoky",
+    "Lastname": "Flatley",
+    "SaleStakeholderId": 154,
+    "Rank": 630,
+    "Phone": "973-769-5351",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 74
       }
     }
   }

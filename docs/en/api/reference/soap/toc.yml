@@ -1,4 +1,3 @@
-items:
 - name: SOAP Web Services
   href: index.md
 - name: Services84
@@ -11939,44 +11938,78 @@ items:
       href: Services88/BLOB/GetBlobStream.md
     - name: GetChatImageWithSize
       href: Services88/BLOB/GetChatImageWithSize.md
+    - name: GetChatImageWithSizeAsStream
+      href: Services88/BLOB/GetChatImageWithSizeAsStream.md
     - name: GetContactImage
       href: Services88/BLOB/GetContactImage.md
+    - name: GetContactImageAsStream
+      href: Services88/BLOB/GetContactImageAsStream.md
     - name: GetContactImageWithSize
       href: Services88/BLOB/GetContactImageWithSize.md
+    - name: GetContactImageWithSizeAsStream
+      href: Services88/BLOB/GetContactImageWithSizeAsStream.md
     - name: GetOutputFromBatch
       href: Services88/BLOB/GetOutputFromBatch.md
     - name: GetPersonImage
       href: Services88/BLOB/GetPersonImage.md
+    - name: GetPersonImageAsStream
+      href: Services88/BLOB/GetPersonImageAsStream.md
     - name: GetPersonImageWithSize
       href: Services88/BLOB/GetPersonImageWithSize.md
+    - name: GetPersonImageWithSizeAsStream
+      href: Services88/BLOB/GetPersonImageWithSizeAsStream.md
     - name: GetProductImage
       href: Services88/BLOB/GetProductImage.md
+    - name: GetProductImageAsStream
+      href: Services88/BLOB/GetProductImageAsStream.md
     - name: GetProductThumbnail
       href: Services88/BLOB/GetProductThumbnail.md
+    - name: GetProductThumbnailAsStream
+      href: Services88/BLOB/GetProductThumbnailAsStream.md
     - name: GetProjectImage
       href: Services88/BLOB/GetProjectImage.md
+    - name: GetProjectImageAsStream
+      href: Services88/BLOB/GetProjectImageAsStream.md
     - name: GetProjectImageWithSize
       href: Services88/BLOB/GetProjectImageWithSize.md
+    - name: GetProjectImageWithSizeAsStream
+      href: Services88/BLOB/GetProjectImageWithSizeAsStream.md
     - name: GetQuoteLineImage
       href: Services88/BLOB/GetQuoteLineImage.md
+    - name: GetQuoteLineImageAsStream
+      href: Services88/BLOB/GetQuoteLineImageAsStream.md
     - name: SaveBlobEntity
       href: Services88/BLOB/SaveBlobEntity.md
     - name: SaveImageStream
       href: Services88/BLOB/SaveImageStream.md
+    - name: SaveImageStreamFromStream
+      href: Services88/BLOB/SaveImageStreamFromStream.md
     - name: SaveProjectImage
       href: Services88/BLOB/SaveProjectImage.md
+    - name: SaveProjectImageFromStream
+      href: Services88/BLOB/SaveProjectImageFromStream.md
     - name: SetBlobStream
       href: Services88/BLOB/SetBlobStream.md
     - name: SetContactImage
       href: Services88/BLOB/SetContactImage.md
+    - name: SetContactImageFromStream
+      href: Services88/BLOB/SetContactImageFromStream.md
     - name: SetPersonImage
       href: Services88/BLOB/SetPersonImage.md
+    - name: SetPersonImageFromStream
+      href: Services88/BLOB/SetPersonImageFromStream.md
     - name: SetProductImage
       href: Services88/BLOB/SetProductImage.md
+    - name: SetProductImageFromStream
+      href: Services88/BLOB/SetProductImageFromStream.md
     - name: SetProductThumbnail
       href: Services88/BLOB/SetProductThumbnail.md
+    - name: SetProductThumbnailFromStream
+      href: Services88/BLOB/SetProductThumbnailFromStream.md
     - name: SetProjectImage
       href: Services88/BLOB/SetProjectImage.md
+    - name: SetProjectImageFromStream
+      href: Services88/BLOB/SetProjectImageFromStream.md
   - name: BlobManager
     href: Services88/BlobManager/index.md
     items:
@@ -12447,6 +12480,8 @@ items:
       href: Services88/Dash/GetDashCollection.md
     - name: GetDashList
       href: Services88/Dash/GetDashList.md
+    - name: GetDashQuickFilters
+      href: Services88/Dash/GetDashQuickFilters.md
     - name: GetDashTheme
       href: Services88/Dash/GetDashTheme.md
     - name: GetDashTile
@@ -12459,6 +12494,8 @@ items:
       href: Services88/Dash/GetDashTileHtmlList.md
     - name: GetDashTiles
       href: Services88/Dash/GetDashTiles.md
+    - name: GetPossibleDashQuickFilters
+      href: Services88/Dash/GetPossibleDashQuickFilters.md
     - name: GetPreviewDash
       href: Services88/Dash/GetPreviewDash.md
     - name: GetSecondaryTempTileSelection
@@ -12467,6 +12504,8 @@ items:
       href: Services88/Dash/GetTempTileSelection.md
     - name: SaveDash
       href: Services88/Dash/SaveDash.md
+    - name: SaveDashQuickFilters
+      href: Services88/Dash/SaveDashQuickFilters.md
     - name: SaveDashTheme
       href: Services88/Dash/SaveDashTheme.md
     - name: SaveDashTile
@@ -15533,6 +15572,3 @@ items:
       href: Services88/Workflow/TryAddPersonsToEmailFlow.md
     - name: UpdateFormSubmissions
       href: Services88/Workflow/UpdateFormSubmissions.md
-  - name: Customer Service (legacy)
-    href: customer-service/toc.yml
-    topicHref: customer-service/index.md

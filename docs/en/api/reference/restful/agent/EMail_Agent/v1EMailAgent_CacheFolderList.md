@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CacheFolderList
 Fetch list of folders from email server for the current account, and cache in DB
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -74,7 +77,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Connelly-Huel",
-    "Delimiter": "autem",
-    "Flags": "unde",
-    "TotalItems": 127,
-    "UnreadItems": 983,
-    "Subscribed": true,
-    "EmailFolderId": 702,
+    "Name": "Lind LLC",
+    "Delimiter": "itaque",
+    "Flags": "dolores",
+    "TotalItems": 482,
+    "UnreadItems": 330,
+    "Subscribed": false,
+    "EmailFolderId": 662,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 738
+        "FieldType": "System.Int32",
+        "FieldLength": 689
       }
     }
   }

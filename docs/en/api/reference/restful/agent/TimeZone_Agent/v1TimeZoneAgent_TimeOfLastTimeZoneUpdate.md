@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Get the time time zone data was last updated
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,5 +72,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2023-02-18T11:24:48.8751256+01:00"
+"2018-01-13T03:40:48.1254917+01:00"
 ```

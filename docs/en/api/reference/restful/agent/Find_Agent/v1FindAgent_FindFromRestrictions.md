@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictions
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -100,36 +101,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Jast, Gibson and Wisozk",
-      "Operator": "dolore",
+      "Name": "Emmerich Group",
+      "Operator": "nihil",
       "Values": [
-        "voluptatum",
-        "dolorem"
+        "quia",
+        "veniam"
       ],
       "DisplayValues": [
-        "qui",
-        "cupiditate"
+        "consequatur",
+        "porro"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 649,
+      "InterParenthesis": 393,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 287
     }
   ],
-  "ProviderName": "Turner, Berge and Wyman",
-  "PageSize": 214,
-  "PageNumber": 263
+  "ProviderName": "Ullrich-King",
+  "PageSize": 907,
+  "PageNumber": 41
 }
 ```
 
@@ -142,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wiegand-Kunde",
-      "DisplayTooltip": "et",
-      "DisplayType": "dolore",
-      "CanOrderBy": true,
-      "Name": "Beatty-Nikolaus",
+      "DisplayName": "Osinski Inc and Sons",
+      "DisplayTooltip": "dignissimos",
+      "DisplayType": "nesciunt",
+      "CanOrderBy": false,
+      "Name": "Donnelly, Rolfson and Stark",
       "CanRestrictBy": false,
-      "RestrictionType": "iste",
-      "RestrictionListName": "Nitzsche LLC",
+      "RestrictionType": "nam",
+      "RestrictionListName": "Mayert Group",
       "IsVisible": false,
-      "ExtraInfo": "aperiam",
-      "Width": "magni",
-      "IconHint": "aut",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "error",
+      "Width": "nulla",
+      "IconHint": "error",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Thiel-Hermiston",
-      "PrimaryKey": 177,
+      "EntityName": "Nolan, Hayes and Cartwright",
+      "PrimaryKey": 129,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nulla",
-          "TooltipHint": "ad",
-          "LinkHint": "dolorem"
+          "DisplayValue": "modi",
+          "TooltipHint": "et",
+          "LinkHint": "quam"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "ullam",
+      "LinkHint": "praesentium",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     }
   ],
-  "RowCount": 600,
+  "RowCount": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 273
     }
   }
 }

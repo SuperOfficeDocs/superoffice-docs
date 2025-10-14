@@ -124,12 +124,14 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociateId|associate|Our contact: Displays our contact| x |
 |documentInstance/person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |documentInstance/person/personCategory|listAny|Category| x |
+|documentInstance/person/personCategoryGroup|listAny|Category group| x |
 |documentInstance/person/personBusiness|listAny|Business| x |
-|documentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/leadstatus|listAny|Lead status| x |
+|documentInstance/person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |documentInstance/person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |documentInstance/person/isProjectMember|bool|Is project member: This person is a project member| x |
 |documentInstance/person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
@@ -228,12 +230,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |documentInstance/person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |documentInstance/person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|documentInstance/person/personAssociate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|documentInstance/person/personAssociate/associateDbId|associate|ID| x |
 |documentInstance/person/personAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |documentInstance/person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |documentInstance/person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -309,6 +311,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |documentInstance/contact/associateId|associate|Our contact: Displays our contact| x |
 |documentInstance/contact/category|listAny|Category| x |
+|documentInstance/contact/categoryGroup|listAny|Category group| x |
 |documentInstance/contact/business|listAny|Business| x |
 |documentInstance/contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |documentInstance/contact/countryId|int|Country ID: Country ID| x |
@@ -331,13 +334,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/mainContact| *None* |Main contact: Main contact for this company| x |
 |documentInstance/contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |documentInstance/contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|documentInstance/contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
-|documentInstance/contact/contactFax/description|string|Fax - Description: Phone number description| x |
-|documentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
+|documentInstance/contact/contactFax/description|string|Fax - Description: Phone number description| x |
+|documentInstance/contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |documentInstance/contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |documentInstance/contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |documentInstance/contact/email/emailAddress|string|E-mail| x |
@@ -435,13 +438,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |documentInstance/contact/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |documentInstance/contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|documentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|documentInstance/contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|documentInstance/contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |documentInstance/contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |documentInstance/contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |documentInstance/contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
@@ -539,13 +542,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |documentInstance/project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |documentInstance/project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|documentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|documentInstance/project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|documentInstance/project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |documentInstance/project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |documentInstance/project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |documentInstance/project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -643,13 +646,13 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/userGroup|userGroup|User group : The user group that owns the record| x |
 |documentInstance/sale/who| *None* |Who: Contact and/or company|  |
 |documentInstance/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
-|documentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|documentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|documentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|documentInstance/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|documentInstance/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|documentInstance/sale/registeredBy|associate|Registered by: The user who registered the data| x |
 |documentInstance/sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |documentInstance/sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |documentInstance/sale/currencyId|int|Currency ID: The currency list item ID| x |
@@ -686,6 +689,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|documentInstance/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -740,7 +744,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/isReport,documentInstance/contact/contactUdef/SuperOffice:6,documentInstance/associate/isActive,documentInstance/sale/earning
+GET /api/v1/archive/ProjectGuideDocument?$select=suggestedItemText,documentInstance/contact/searchPhone/description,documentInstance/contact/contactAssociate/otherGroups,documentInstance/contact/SaintStatus2,documentInstance/project/number
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

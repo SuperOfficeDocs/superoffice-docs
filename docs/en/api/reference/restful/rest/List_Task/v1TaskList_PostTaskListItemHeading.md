@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 540,
-  "Name": "Bogisich-Considine",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 624,
-  "UdListDefinitionId": 434
+  "HeadingId": 508,
+  "Name": "Grant Inc and Sons",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 885,
+  "UdListDefinitionId": 292
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 821,
-  "Name": "Huels, Morar and Labadie",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 188,
-  "UdListDefinitionId": 986,
+  "HeadingId": 154,
+  "Name": "Romaguera Group",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "Rank": 92,
+  "UdListDefinitionId": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 855
     }
   }
 }

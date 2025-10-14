@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 634,
-    "Name": "Frami-Ritchie",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "Rank": 484,
-    "UdListDefinitionId": 791
+    "HeadingId": 391,
+    "Name": "Pfannerstill LLC",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 779,
+    "UdListDefinitionId": 672
   },
   {
-    "HeadingId": 634,
-    "Name": "Frami-Ritchie",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "Rank": 484,
-    "UdListDefinitionId": 791
+    "HeadingId": 391,
+    "Name": "Pfannerstill LLC",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 779,
+    "UdListDefinitionId": 672
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 456,
-    "Name": "Bernhard, Champlin and Schiller",
-    "Tooltip": "dolorum",
-    "Deleted": true,
-    "Rank": 340,
-    "UdListDefinitionId": 598,
+    "HeadingId": 59,
+    "Name": "Gutmann Group",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 986,
+    "UdListDefinitionId": 229,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 292
       }
     }
   }

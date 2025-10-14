@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetTicketTypeSortOrder
 This method will set sort order of ticket type in a list
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/SetTicketTypeSortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 46,
-  "SortOrder": 113
+  "TicketTypeId": 86,
+  "SortOrder": 52
 }
 ```
 

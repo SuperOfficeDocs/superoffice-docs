@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing
 Get a shipment message from its shipment address id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 854
+  "ShipmentAddrId": 744
 }
 ```
 
@@ -104,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2007-03-01T11:24:48.2657757+01:00",
+  "SendingTime": "2012-01-21T03:40:47.2499194+01:00",
   "Status": "Blocked",
-  "ShipmentId": 423,
-  "ShipmentDescription": "Self-enabling solution-oriented focus group",
-  "FromAddress": "neque",
-  "Configuration": 794,
-  "ContactId": 534,
-  "ContactName": "Lemke Group",
-  "PersonId": 174,
-  "PersonFullName": "Dr. Yasmeen Amari Gibson",
-  "ShipmentType": "aut",
-  "MessageId": 793,
-  "MessageSubject": "nemo",
-  "DocumentMessageId": 601,
-  "Opened": "2017-01-29T11:24:48.2657757+01:00",
-  "LinkClicks": 859,
+  "ShipmentId": 20,
+  "ShipmentDescription": "Function-based bandwidth-monitored access",
+  "FromAddress": "non",
+  "Configuration": 541,
+  "ContactId": 429,
+  "ContactName": "Considine, Rohan and Graham",
+  "PersonId": 585,
+  "PersonFullName": "Janice Rippin",
+  "ShipmentType": "esse",
+  "MessageId": 894,
+  "MessageSubject": "sit",
+  "DocumentMessageId": 181,
+  "Opened": "2001-07-05T03:40:47.2499194+02:00",
+  "LinkClicks": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 135
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 Returns the project image that is displayed in the CRM application with a specified maximum size.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 822,
-  "Width": 5,
-  "Height": 888
+  "ProjectId": 696,
+  "Width": 997,
+  "Height": 872
 }
 ```
 

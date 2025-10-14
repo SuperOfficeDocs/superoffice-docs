@@ -15,6 +15,7 @@ Nomralize the ranks for all persons that belong to a contact.
 
 
 This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Person/NormalizeRanks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 578
+  "ContactId": 316
 }
 ```
 

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "Zboncak-Shields",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 461,
-  "IsCustomList": false,
+  "Id": 265,
+  "Name": "Funk Inc and Sons",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "Rank": 891,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 85
     }
   },
   "_Links": {

@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 72,
-  "Name": "Mayert LLC",
-  "Tooltip": "expedita",
+  "Id": 216,
+  "Name": "Gutmann LLC",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "UdListDefinitionId": 784,
-  "Rank": 869,
+  "UdListDefinitionId": 329,
+  "Rank": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

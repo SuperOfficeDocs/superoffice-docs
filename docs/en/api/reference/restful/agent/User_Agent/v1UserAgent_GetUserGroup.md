@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserGroup
 Gets a UserGroup object.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +32,7 @@ Gets a UserGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=949
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=894
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
 
@@ -74,7 +77,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,17 +87,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "commodi",
-  "Tooltip": "fuga",
-  "Id": 745,
-  "Rank": 670,
+  "Value": "ad",
+  "Tooltip": "aliquid",
+  "Id": 570,
+  "Rank": 65,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 1000
     }
   }
 }

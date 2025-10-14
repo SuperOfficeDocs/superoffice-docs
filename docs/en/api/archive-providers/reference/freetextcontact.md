@@ -46,6 +46,7 @@ as well as before any ORDER BY, are applied.
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -133,11 +134,11 @@ as well as before any ORDER BY, are applied.
 |contactAssociate/firstName|string|First name: Displays the contact's first name| x |
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -237,16 +238,18 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/personActiveErpLinks|bool|User support contact - ERP connected: Is there an active ERP Sync?| x |
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
-|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
 |contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
+|contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
+|contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -339,13 +342,13 @@ as well as before any ORDER BY, are applied.
 |NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |LastActivity|date|Date of last activity|  |
 |LastCompletedActivity|date|Date of last completed activity|  |
-|LastDoByActivity|date|Date of last non-completed activity|  |
-|NumberOfSales|int|Number of sales|  |
-|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|LastDoByActivity|date|Date of last non-completed activity|  |
+|NumberOfSales|int|Number of sales|  |
+|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
@@ -373,7 +376,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=restrictionPostalAddress/formattedAddress,contactSupportPerson/birthDay,contactSupportPerson/personExtra/x_person_float,contactSupportPerson/hasEmarketingConsent,NumberOfActivities
+GET /api/v1/archive/FreetextContact?$select=contactSupportPerson/rank,contactSupportPerson/personUdef/SuperOffice:3,contactAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

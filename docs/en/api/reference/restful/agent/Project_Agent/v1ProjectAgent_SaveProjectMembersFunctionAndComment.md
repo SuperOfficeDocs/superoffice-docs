@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SaveProjectMembersFunctionAndComment
 Saves role and comment on an array of projectmembers represented by ids
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    923,
-    492
+    13,
+    181
   ],
-  "RoleId": 94,
-  "Comment": "in"
+  "RoleId": 179,
+  "Comment": "totam"
 }
 ```
 

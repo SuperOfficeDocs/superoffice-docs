@@ -100,33 +100,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 256,
-  "ParentId": 688,
-  "Name": "Jenkins, Will and Fahey",
-  "Fullname": "aut",
-  "CategoryMaster": 647,
+  "TicketCategoryId": 788,
+  "ParentId": 98,
+  "Name": "Watsica-Fadel",
+  "Fullname": "quisquam",
+  "CategoryMaster": 374,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jerde-Moore",
+  "ExternalName": "Toy, Mills and Yundt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 265,
-  "ReplyTemplate": 559,
-  "NotificationEmail": "queen@goodwinborer.us",
+  "AssignmentLag": 287,
+  "ReplyTemplate": 147,
+  "NotificationEmail": "alan_moore@hahn.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 77,
+  "EffectiveReplyTemplateId": 953,
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "autem",
+    "CustomFields2": "doloremque"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 12,
-  "ParentId": 314,
-  "Name": "Towne, O'Keefe and Hand",
-  "Fullname": "autem",
-  "CategoryMaster": 266,
+  "TicketCategoryId": 97,
+  "ParentId": 666,
+  "Name": "O'Hara, Bartoletti and Sauer",
+  "Fullname": "laudantium",
+  "CategoryMaster": 158,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kunde-Kuhlman",
+  "ExternalName": "Kub Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 309,
-  "ReplyTemplate": 857,
-  "NotificationEmail": "lamont_goyette@huels.biz",
+  "AssignmentLag": 961,
+  "ReplyTemplate": 118,
+  "NotificationEmail": "bernadine_armstrong@hermistonrenner.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 514,
+  "EffectiveReplyTemplateId": 409,
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "beatae"
+    "CustomFields1": "vel",
+    "CustomFields2": "recusandae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 647
     }
   }
 }

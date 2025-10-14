@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleList
 Gets an array of Sale objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,37 +108,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Blanda, Brekke and Quigley",
-    "SaleDate": "2008-10-21T11:24:48.5939056+02:00",
-    "SaleId": 726,
-    "Probability": 865,
-    "Title": "quae",
-    "Amount": 28046.165999999997,
-    "Currency": "iusto",
-    "ProjectName": "Oberbrunner Group",
-    "AssociateFullName": "Anna Bartoletti",
-    "Description": "Down-sized bi-directional emulation",
+    "ContactName": "Bradtke LLC",
+    "SaleDate": "2010-07-15T03:40:47.6567146+02:00",
+    "SaleId": 413,
+    "Probability": 149,
+    "Title": "molestiae",
+    "Amount": 2663.9,
+    "Currency": "magnam",
+    "ProjectName": "Waters-Effertz",
+    "AssociateFullName": "Scarlett Schuppe",
+    "Description": "Open-source composite utilisation",
     "Status": "Lost",
-    "WeightedAmount": 12946.554,
-    "ProjectId": 387,
-    "EarningPercent": 24670.847999999998,
-    "Earning": 10959.598,
-    "ContactId": 811,
-    "AssociateId": 594,
-    "PersonId": 411,
-    "SaleTypeId": 551,
-    "SaleTypeName": "Konopelski Inc and Sons",
-    "PersonFullName": "Georgette Labadie Jr.",
+    "WeightedAmount": 5193.038,
+    "ProjectId": 427,
+    "EarningPercent": 28434.782,
+    "Earning": 1889.802,
+    "ContactId": 66,
+    "AssociateId": 999,
+    "PersonId": 531,
+    "SaleTypeId": 868,
+    "SaleTypeName": "Hintz, Stamm and Emard",
+    "PersonFullName": "Dedric Monahan",
     "Completed": "Completed",
-    "ActiveErpLinks": 319,
-    "NextDueDate": "2016-04-16T11:24:48.5939056+02:00",
-    "Number": "309397",
+    "ActiveErpLinks": 629,
+    "NextDueDate": "2001-10-08T03:40:47.6723407+02:00",
+    "Number": "841597",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

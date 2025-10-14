@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction
 Deletes the WorkflowWaitForAction
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the WorkflowWaitForAction
 | workflowWaitForActionId | int32 | **Required** The identity of the WorkflowWaitForAction |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=207
+POST /api/v1/Agents/Workflow/DeleteWorkflowWaitForAction?workflowWaitForActionId=856
 ```
 
 

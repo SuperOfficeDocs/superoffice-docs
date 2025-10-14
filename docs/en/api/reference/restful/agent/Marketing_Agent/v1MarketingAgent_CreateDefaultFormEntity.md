@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Loading default values into a new FormEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,38 +90,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 494,
-  "FormKey": "omnis",
-  "Name": "Roob Inc and Sons",
-  "Description": "Implemented multimedia info-mediaries",
-  "Config": "consectetur",
-  "FolderId": 508,
-  "ScriptId": 637,
-  "ResponseShipmentId": 370,
-  "Active": false,
-  "Expires": "2005-08-27T11:24:48.2501511+02:00",
-  "MaxSubmits": 293,
+  "FormId": 231,
+  "FormKey": "voluptas",
+  "Name": "Ryan, Towne and Sanford",
+  "Description": "Optional upward-trending synergy",
+  "Config": "dolores",
+  "FolderId": 613,
+  "ScriptId": 443,
+  "ResponseShipmentId": 184,
+  "Active": true,
+  "Expires": "2003-11-20T03:40:47.2499194+01:00",
+  "MaxSubmits": 225,
   "Type": "Normal",
-  "Recipe": "tenetur",
-  "GroupId": 523,
-  "NewTicket": true,
+  "Recipe": "voluptates",
+  "GroupId": 77,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2018-04-21T11:24:48.2501511+02:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2012-02-26T11:24:48.2501511+01:00",
-  "UpdatedAssociateId": 802,
-  "UpdatedCount": 760,
+  "Registered": "2011-08-26T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 752,
+  "Updated": "2022-03-26T03:40:47.2499194+01:00",
+  "UpdatedAssociateId": 828,
+  "UpdatedCount": 177,
   "EmailFlows": [
-    535,
-    917
+    59,
+    307
   ],
-  "FolderName": "Nienow LLC",
+  "FolderName": "Wolf-Rodriguez",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 618
     }
   }
 }

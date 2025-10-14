@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashCollection
 Gets a collection of dashboards for the current associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,111 +82,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 463,
-      "UniqueId": "vitae",
-      "Name": "Lubowitz, Ernser and Quitzon",
-      "Description": "Vision-oriented contextually-based forecast",
-      "AssociateId": 845,
-      "Columns": 886,
+      "DashboardId": 825,
+      "UniqueId": "asperiores",
+      "Name": "Pacocha, Padberg and Wunsch",
+      "Description": "Grass-roots leading edge middleware",
+      "AssociateId": 853,
+      "Columns": 621,
       "Theme": null,
-      "VisibleForAll": 888,
+      "VisibleForAll": 730,
       "VisibleForAssociates": [
-        415,
-        858
+        840,
+        497
       ],
       "VisibleForGroups": [
-        297,
-        371
+        345,
+        16
       ],
-      "PinForAll": 14,
+      "PinForAll": 434,
       "PinForAssociates": [
-        216,
-        775
+        976,
+        446
       ],
       "PinForGroups": [
-        239,
-        114
+        429,
+        730
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldLength": 555
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 770,
-      "UniqueId": "ducimus",
-      "Name": "Price, Swift and Davis",
-      "Description": "Decentralized high-level paradigm",
-      "AssociateId": 223,
-      "Columns": 994,
+      "DashboardId": 219,
+      "UniqueId": "molestiae",
+      "Name": "Dickens-Carter",
+      "Description": "Face to face disintermediate hub",
+      "AssociateId": 544,
+      "Columns": 615,
       "Theme": null,
-      "VisibleForAll": 579,
+      "VisibleForAll": 563,
       "VisibleForAssociates": [
-        337,
-        960
+        137,
+        268
       ],
       "VisibleForGroups": [
-        107,
-        977
+        930,
+        648
       ],
-      "PinForAll": 582,
+      "PinForAll": 144,
       "PinForAssociates": [
-        614,
-        472
+        921,
+        900
       ],
       "PinForGroups": [
-        20,
-        581
+        732,
+        16
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 310
+          "FieldType": "System.String",
+          "FieldLength": 888
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 325,
-      "UniqueId": "occaecati",
-      "Name": "Gleason-Wiza",
-      "Description": "Up-sized foreground project",
-      "AssociateId": 800,
-      "Columns": 182,
+      "DashboardId": 906,
+      "UniqueId": "officiis",
+      "Name": "Denesik Group",
+      "Description": "Multi-tiered well-modulated database",
+      "AssociateId": 803,
+      "Columns": 305,
       "Theme": null,
-      "VisibleForAll": 719,
+      "VisibleForAll": 390,
       "VisibleForAssociates": [
-        519,
-        928
+        95,
+        458
       ],
       "VisibleForGroups": [
-        895,
-        30
+        487,
+        773
       ],
-      "PinForAll": 610,
+      "PinForAll": 565,
       "PinForAssociates": [
-        513,
-        932
+        803,
+        312
       ],
       "PinForGroups": [
-        605,
-        184
+        996,
+        112
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 492
         }
       }
     }
@@ -194,7 +196,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldLength": 679
     }
   }
 }

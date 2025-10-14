@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Cartwright-Jast",
-    "ToolTip": "Id molestias rem vel officia dolores nobis alias.",
+    "Id": 770,
+    "Name": "Senger LLC",
+    "ToolTip": "Eius commodi voluptatem esse ipsum vel.",
     "Deleted": false,
-    "Rank": 67,
-    "Type": "eligendi",
-    "ColorBlock": 255,
-    "IconHint": "et",
+    "Rank": 897,
+    "Type": "et",
+    "ColorBlock": 261,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2020-06-24T11:24:53.8436729+02:00",
+    "LastChanged": "2009-12-09T03:40:56.6807244+01:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Green, Christiansen and Breitenberg",
-        "ToolTip": "Non optio.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "sit",
-        "ColorBlock": 365,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2018-03-19T11:24:53.8436729+01:00",
+        "Id": 891,
+        "Name": "Rowe LLC",
+        "ToolTip": "Et inventore cumque eius.",
+        "Deleted": false,
+        "Rank": 124,
+        "Type": "ea",
+        "ColorBlock": 85,
+        "IconHint": "officia",
+        "Selected": false,
+        "LastChanged": "2010-09-21T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "eaque",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Kay Walter",
+        "FullName": "Ms. Cindy Charley Ratke II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 545
+            "FieldType": "System.Int32",
+            "FieldLength": 919
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Mrs. Earline Ryleigh Baumbach",
+    "ExtraInfo": "commodi",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Mittie Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 491
       }
     }
   }

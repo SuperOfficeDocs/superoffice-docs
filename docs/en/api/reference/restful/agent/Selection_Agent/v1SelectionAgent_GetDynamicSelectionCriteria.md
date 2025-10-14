@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Get the criteria for this dynamic selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 127
+  "SelectionId": 684
 }
 ```
 
@@ -97,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rutherford-Farrell",
-    "Operator": "deleniti",
+    "Name": "Leffler, Lemke and Kuhn",
+    "Operator": "inventore",
     "Values": [
-      "ut",
-      "asperiores"
+      "fugit",
+      "eos"
     ],
     "DisplayValues": [
-      "dolorem",
-      "cupiditate"
+      "magni",
+      "sit"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Grimes Group",
-        "Operator": "consectetur",
+        "Name": "Predovic, Pfeffer and McClure",
+        "Operator": "ipsam",
         "Values": [
-          "rerum",
-          "veniam"
+          "totam",
+          "inventore"
         ],
         "DisplayValues": [
-          "autem",
-          "odit"
+          "numquam",
+          "perferendis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 440,
+        "InterParenthesis": 932,
         "InterOperator": "And",
-        "UniqueHash": 272
+        "UniqueHash": 524
       }
     ],
-    "InterParenthesis": 561,
+    "InterParenthesis": 653,
     "InterOperator": "And",
-    "UniqueHash": 560
+    "UniqueHash": 692
   }
 ]
 ```

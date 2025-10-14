@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Get a faq entry from its faq entry id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 33
+  "KbEntryId": 720
 }
 ```
 
@@ -93,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "minima",
-  "RegisteredByFullName": "Mr. Christian Dach DDS",
-  "Updated": "2003-04-14T11:24:47.8595421+02:00",
-  "Question": "rerum",
-  "Answer": "maxime",
+  "Title": "nihil",
+  "RegisteredByFullName": "Nettie Daniella Champlin Jr.",
+  "Updated": "2009-04-12T03:40:46.5468616+02:00",
+  "Question": "et",
+  "Answer": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 734
     }
   }
 }

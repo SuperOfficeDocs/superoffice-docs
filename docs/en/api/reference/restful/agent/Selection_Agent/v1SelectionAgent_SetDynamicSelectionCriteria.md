@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Replaces existing criteria with the new values.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,28 +89,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 577,
+  "SelectionId": 184,
   "Criteria": [
     {
-      "Name": "Pouros, Mills and Fahey",
-      "Operator": "nostrum",
+      "Name": "Armstrong-Ratke",
+      "Operator": "sapiente",
       "Values": [
-        "quia",
-        "aliquam"
+        "quis",
+        "commodi"
       ],
       "DisplayValues": [
-        "sunt",
-        "aliquid"
+        "molestiae",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 643,
+      "InterParenthesis": 951,
       "InterOperator": "And",
-      "UniqueHash": 247
+      "UniqueHash": 779
     }
   ]
 }
@@ -123,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Willms-Crist",
-    "Operator": "deserunt",
+    "Name": "Cruickshank-Harber",
+    "Operator": "sit",
     "Values": [
-      "repellendus",
-      "omnis"
+      "et",
+      "amet"
     ],
     "DisplayValues": [
-      "magni",
-      "nihil"
+      "molestiae",
+      "nisi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lockman Inc and Sons",
-        "Operator": "doloribus",
+        "Name": "Bergnaum, Rice and Bernhard",
+        "Operator": "et",
         "Values": [
-          "facilis",
-          "ipsam"
+          "iure",
+          "sed"
         ],
         "DisplayValues": [
-          "deserunt",
-          "quisquam"
+          "rem",
+          "fuga"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 165,
+        "InterParenthesis": 688,
         "InterOperator": "And",
-        "UniqueHash": 846
+        "UniqueHash": 501
       }
     ],
-    "InterParenthesis": 952,
+    "InterParenthesis": 482,
     "InterOperator": "And",
-    "UniqueHash": 512
+    "UniqueHash": 863
   }
 ]
 ```

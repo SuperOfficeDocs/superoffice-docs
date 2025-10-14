@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Spinka-Brakus",
-    "ToolTip": "Dolorem et doloribus perspiciatis aut nihil omnis.",
+    "Id": 985,
+    "Name": "Casper, Hilpert and Schroeder",
+    "ToolTip": "Voluptates ut et numquam vel est aspernatur aut.",
     "Deleted": false,
-    "Rank": 824,
-    "Type": "est",
-    "ColorBlock": 282,
-    "IconHint": "qui",
+    "Rank": 773,
+    "Type": "dolores",
+    "ColorBlock": 634,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2024-09-24T11:24:54.0311654+02:00",
+    "LastChanged": "2018-09-16T03:40:57.040226+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Lindgren, Kautzer and Ruecker",
-        "ToolTip": "Id eum molestiae non.",
-        "Deleted": false,
-        "Rank": 425,
-        "Type": "voluptas",
-        "ColorBlock": 280,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2010-01-08T11:24:54.0311654+01:00",
+        "Id": 272,
+        "Name": "Hintz, Renner and Koelpin",
+        "ToolTip": "Odit officiis rerum.",
+        "Deleted": true,
+        "Rank": 765,
+        "Type": "eligendi",
+        "ColorBlock": 846,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2002-11-03T03:40:57.040226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "est",
+        "ExtraInfo": "repellat",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Pamela Dicki",
+        "FullName": "Darwin Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldType": "System.String",
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "ut",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Dillon Veum",
+    "FullName": "Coby Esperanza Watsica III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 465
       }
     }
   }

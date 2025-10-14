@@ -90,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 172,
-    "Name": "Metz LLC",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 325,
+    "WebPanelId": 171,
+    "Name": "Nicolas, Klocko and Ferry",
+    "Tooltip": "perspiciatis",
+    "Deleted": true,
+    "Rank": 202,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Koch-Kohler",
+    "ShowInStatusBar": true,
+    "WindowName": "Dicki, Beatty and Homenick",
     "Url": "http://www.example.com/",
-    "ProgId": "qui",
-    "Icon": 781,
+    "ProgId": "optio",
+    "Icon": 438,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 193
       }
     }
   }

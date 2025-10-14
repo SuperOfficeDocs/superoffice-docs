@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria, for a specific set of col
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,20 +84,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Trantow Inc and Sons",
-  "StorageKey": "iste",
+  "StorageType": "et",
+  "ProviderName": "Price Group",
+  "StorageKey": "omnis",
   "DesiredColumnNames": [
-    "Rippin Group",
-    "Kohler Group"
+    "Stanton LLC",
+    "Vandervort, Jast and Bernier"
   ],
   "StaticColumns": [
-    "nihil",
-    "dignissimos"
+    "illum",
+    "corrupti"
   ]
 }
 ```
@@ -110,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Medhurst, Bailey and Sawayn",
-      "Operator": "rerum",
+      "Name": "Stamm-Smitham",
+      "Operator": "quae",
       "Values": [
-        "accusantium",
-        "aut"
+        "omnis",
+        "asperiores"
       ],
       "DisplayValues": [
-        "nihil",
-        "eum"
+        "sit",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 985,
+      "InterParenthesis": 962,
       "InterOperator": "And",
-      "UniqueHash": 51
+      "UniqueHash": 461
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Mante-Donnelly",
-      "DisplayTooltip": "earum",
-      "DisplayType": "rem",
+      "DisplayName": "Turner, Luettgen and Heaney",
+      "DisplayTooltip": "culpa",
+      "DisplayType": "placeat",
       "CanOrderBy": false,
-      "Name": "Tremblay, Kuvalis and McClure",
-      "CanRestrictBy": false,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Hyatt-Kautzer",
+      "Name": "Cartwright-Harber",
+      "CanRestrictBy": true,
+      "RestrictionType": "neque",
+      "RestrictionListName": "Johnson Group",
       "IsVisible": true,
-      "ExtraInfo": "eum",
-      "Width": "ut",
-      "IconHint": "sint",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "sed",
+      "Width": "quas",
+      "IconHint": "omnis",
+      "HeadingIconHint": "in"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Lehner, Rowe and Powlowski",
-      "PrimaryKey": 850,
+      "EntityName": "Rau, Yundt and Dooley",
+      "PrimaryKey": 531,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "eius",
-          "LinkHint": "aspernatur"
+          "DisplayValue": "itaque",
+          "TooltipHint": "facere",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "ea",
-      "StyleHint": "repudiandae",
+      "LinkHint": "animi",
+      "StyleHint": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 657
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hartmann Inc and Sons",
-      "Description": "Digitized intermediate model",
-      "Rank": 500,
+      "Name": "Bergstrom, Murphy and Flatley",
+      "Description": "Optional interactive policy",
+      "Rank": 452,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hartmann Inc and Sons",
-      "Description": "Digitized intermediate model",
-      "Rank": 500,
+      "Name": "Bergstrom, Murphy and Flatley",
+      "Description": "Optional interactive policy",
+      "Rank": 452,
       "Restrictions": [
         {},
         {}
@@ -196,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 605
     }
   }
 }

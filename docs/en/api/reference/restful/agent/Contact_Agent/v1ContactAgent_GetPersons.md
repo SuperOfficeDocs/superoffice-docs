@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetPersons
 Returns an array of all the contact persons for the company card.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -118,7 +120,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 699
+  "ContactId": 617
 }
 ```
 
@@ -130,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nisi",
-    "PersonId": 584,
-    "Mrmrs": "ipsa",
-    "Firstname": "Laurence",
-    "Lastname": "Kirlin",
-    "MiddleName": "Effertz, Kulas and Bosco",
-    "Title": "nisi",
-    "Description": "Object-based logistical model",
-    "Email": "cornell@lebsack.biz",
-    "FullName": "Berta Kulas",
-    "DirectPhone": "400-805-3096 x323",
-    "FormalName": "Weber Inc and Sons",
-    "CountryId": 973,
-    "ContactId": 982,
-    "ContactName": "Bergnaum, Cormier and Schaden",
-    "Retired": 93,
-    "Rank": 157,
-    "ActiveInterests": 453,
+    "Position": "consequatur",
+    "PersonId": 32,
+    "Mrmrs": "eveniet",
+    "Firstname": "Araceli",
+    "Lastname": "Shanahan",
+    "MiddleName": "Kub, Price and Greenfelder",
+    "Title": "reprehenderit",
+    "Description": "Phased local emulation",
+    "Email": "cleo@brekke.uk",
+    "FullName": "Abby Crona",
+    "DirectPhone": "(298)466-3649 x924",
+    "FormalName": "Strosin-Lebsack",
+    "CountryId": 464,
+    "ContactId": 882,
+    "ContactName": "Dietrich Group",
+    "Retired": 666,
+    "Rank": 950,
+    "ActiveInterests": 200,
     "ContactDepartment": "",
-    "ContactCountryId": 172,
-    "ContactOrgNr": "1548584",
-    "FaxPhone": "(543)606-5329 x9432",
-    "MobilePhone": "695.180.6476",
-    "ContactPhone": "(820)137-0081 x36688",
-    "AssociateName": "Bernhard, Pollich and Prosacco",
-    "AssociateId": 344,
+    "ContactCountryId": 771,
+    "ContactOrgNr": "1702130",
+    "FaxPhone": "678-773-7279 x0113",
+    "MobilePhone": "(303)910-8042 x40073",
+    "ContactPhone": "895-695-3901 x9502",
+    "AssociateName": "Gleichner, Schmitt and Runte",
+    "AssociateId": 906,
     "UsePersonAddress": true,
-    "ContactFax": "explicabo",
-    "Kanafname": "ullam",
-    "Kanalname": "eius",
-    "Post1": "autem",
-    "Post2": "dicta",
-    "Post3": "quae",
-    "EmailName": "karianne@danieldibbert.biz",
-    "ContactFullName": "Jason Nikolaus",
-    "ActiveErpLinks": 919,
-    "TicketPriorityId": 14,
-    "SupportLanguageId": 928,
-    "SupportAssociateId": 708,
+    "ContactFax": "voluptate",
+    "Kanafname": "autem",
+    "Kanalname": "ex",
+    "Post1": "molestiae",
+    "Post2": "debitis",
+    "Post3": "sed",
+    "EmailName": "jaylan.oreilly@collinswitting.com",
+    "ContactFullName": "Aric Fisher",
+    "ActiveErpLinks": 993,
+    "TicketPriorityId": 102,
+    "SupportLanguageId": 937,
+    "SupportAssociateId": 911,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1764238",
+    "PersonNumber": "740038",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 759
       }
     }
   }

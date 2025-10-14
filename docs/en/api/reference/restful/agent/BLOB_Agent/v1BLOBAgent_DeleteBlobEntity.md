@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/DeleteBlobEntity
 Deletes the BlobEntity
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the BlobEntity
 | blobEntityId | int32 | **Required** The identity of the BlobEntity |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=413
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?blobEntityId=677
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/BLOB/DeleteBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

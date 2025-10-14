@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
 Check if any publish events are active
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

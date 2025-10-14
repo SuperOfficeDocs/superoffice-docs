@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/SaleHasQuote
 Returns true is the sale has a quote
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 661
+  "SaleId": 480
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

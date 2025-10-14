@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetConsentPurposeList
 Gets an array of ConsentPurpose objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,25 +96,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 835,
-    "Name": "Gulgowski, Mohr and Hoppe",
-    "ConsentText": "nihil",
-    "FormText": "eius",
-    "Key": "magni",
-    "Tooltip": "deleniti",
-    "Active": 555,
-    "UpdatedDate": "2017-12-10T11:24:48.2501511+01:00",
+    "ConsentPurposeId": 166,
+    "Name": "O'Hara, Johnston and Hills",
+    "ConsentText": "voluptate",
+    "FormText": "impedit",
+    "Key": "itaque",
+    "Tooltip": "illum",
+    "Active": 257,
+    "UpdatedDate": "2002-01-17T03:40:47.2342937+01:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 810,
-    "PrivacyStatementDesc": "voluptas",
+    "Rank": 512,
+    "PrivacyStatementDesc": "aut",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 578
+        "FieldLength": 893
       }
     }
   }

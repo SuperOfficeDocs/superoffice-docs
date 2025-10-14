@@ -14,6 +14,8 @@ PUT /api/v1/Dash/{id}
 Updates the existing Dash
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,34 +106,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 102,
-  "UniqueId": "laboriosam",
-  "Name": "Denesik-Klein",
-  "Description": "Seamless systematic circuit",
-  "AssociateId": 471,
-  "Columns": 488,
+  "DashboardId": 218,
+  "UniqueId": "labore",
+  "Name": "Pfeffer Inc and Sons",
+  "Description": "Reduced 6th generation interface",
+  "AssociateId": 370,
+  "Columns": 190,
   "Theme": null,
-  "VisibleForAll": 936,
+  "VisibleForAll": 258,
   "VisibleForAssociates": [
-    326,
-    304
+    322,
+    486
   ],
   "VisibleForGroups": [
-    391,
-    603
+    707,
+    976
   ],
-  "PinForAll": 656,
+  "PinForAll": 439,
   "PinForAssociates": [
-    961,
-    540
+    504,
+    647
   ],
   "PinForGroups": [
-    342,
-    412
+    312,
+    411
   ]
 }
 ```
@@ -143,42 +145,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 878,
-  "UniqueId": "corrupti",
-  "Name": "Wisozk-King",
-  "Description": "Pre-emptive foreground productivity",
-  "AssociateId": 168,
-  "Columns": 91,
+  "DashboardId": 585,
+  "UniqueId": "quia",
+  "Name": "Effertz LLC",
+  "Description": "User-centric fault-tolerant standardization",
+  "AssociateId": 386,
+  "Columns": 563,
   "Theme": null,
-  "VisibleForAll": 726,
+  "VisibleForAll": 399,
   "VisibleForAssociates": [
-    253,
-    270
+    268,
+    522
   ],
   "VisibleForGroups": [
-    504,
-    162
+    123,
+    993
   ],
-  "PinForAll": 976,
+  "PinForAll": 719,
   "PinForAssociates": [
-    67,
-    174
+    824,
+    291
   ],
   "PinForGroups": [
-    285,
-    232
+    562,
+    89
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 724
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

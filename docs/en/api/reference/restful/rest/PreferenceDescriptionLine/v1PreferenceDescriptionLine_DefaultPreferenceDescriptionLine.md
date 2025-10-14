@@ -15,6 +15,7 @@ Set default values into a new PreferenceDescriptionLine.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescriptionLine.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -63,7 +64,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 935,
-  "PrefDescId": 548,
-  "PrefValue": "ab",
-  "PrefShowValue": "sequi",
-  "Description": "Reduced grid-enabled intranet",
-  "IsBuiltin": true,
+  "PrefDescLineId": 770,
+  "PrefDescId": 102,
+  "PrefValue": "veniam",
+  "PrefShowValue": "debitis",
+  "Description": "Innovative radical encoding",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 261
     }
   }
 }

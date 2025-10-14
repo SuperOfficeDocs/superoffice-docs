@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Gets a ForeignDevice object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=532
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=887
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -76,7 +78,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,21 +88,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 80,
-  "Name": "Herzog-Morar",
-  "CreatedDate": "2000-09-23T11:24:48.1564051+02:00",
-  "UpdatedDate": "2015-05-31T11:24:48.1564051+02:00",
-  "AssociateFullName": "Yvette Marquardt",
-  "CreatedBy": "id",
-  "UpdatedBy": "iste",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 460,
+  "ForeignDeviceId": 170,
+  "Name": "Turner LLC",
+  "CreatedDate": "2011-07-17T03:40:46.9999043+02:00",
+  "UpdatedDate": "2016-12-17T03:40:46.9999043+01:00",
+  "AssociateFullName": "Clement Madie Stehr I",
+  "CreatedBy": "pariatur",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "animi",
+  "ForeignAppId": 470,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

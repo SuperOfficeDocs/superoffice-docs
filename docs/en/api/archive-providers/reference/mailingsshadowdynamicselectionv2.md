@@ -66,6 +66,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/contact/hasInterests|bool|Company - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mailingAddr/contact/associateId|associate|Company - Our contact: Displays our contact| x |
 |mailingAddr/contact/category|listAny|Company - Category| x |
+|mailingAddr/contact/categoryGroup|listAny|Company - Category group| x |
 |mailingAddr/contact/business|listAny|Company - Business| x |
 |mailingAddr/contact/country|listAny|Company - Country: This criterion corresponds to the Country field on the Company card.| x |
 |mailingAddr/contact/countryId|int|Company - Country ID: Country ID| x |
@@ -120,11 +121,11 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/contact/streetAddress/city|string|Company - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |mailingAddr/contact/streetAddress/zip|string|Company - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |mailingAddr/contact/streetAddress/state|string|Company - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/streetAddress/wgs84latitude|decimal|Company - Street address - Latitude: Latitude| x |
 |mailingAddr/contact/streetAddress/wgs84longitude|decimal|Company - Street address - Longitude: Longitude| x |
 |mailingAddr/contact/streetAddress/formattedAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/streetAddress/formattedMultiLineAddress| *None* |Company - Street address - {formattedAddress}: {formattedAddress}|  |
@@ -224,11 +225,11 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/contact/NumberOfTicketsInPeriod|int|Company - Number of requests in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedTickets|int|Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod|int|Company - Number of non-completed requests in last 90 days|  |
-|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/LastTicket|date|Company - Date of last request|  |
 |mailingAddr/contact/LastCompletedTicket|date|Company - Date of last completed request|  |
 |mailingAddr/contact/LastDoByTicket|date|Company - Date of last non-completed request|  |
 |mailingAddr/contact/SaintStatus1|saintStatus|Company - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
@@ -282,7 +283,9 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/personAssociateId|associate|Contact - Our contact: Displays our contact| x |
 |mailingAddr/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |mailingAddr/person/personCategory|listAny|Contact - Category| x |
+|mailingAddr/person/personCategoryGroup|listAny|Contact - Category group| x |
 |mailingAddr/person/personBusiness|listAny|Contact - Business| x |
+|mailingAddr/person/leadstatus|listAny|Contact - Lead status| x |
 |mailingAddr/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |mailingAddr/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |mailingAddr/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
@@ -326,13 +329,13 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/personAddress/wgs84latitude|decimal|Contact - Contact address - Latitude: Latitude| x |
 |mailingAddr/person/personAddress/wgs84longitude|decimal|Contact - Contact address - Longitude: Longitude| x |
 |mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
-|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
-|mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
+|mailingAddr/person/restrictionAddress/addressId|int|Contact - Search address - Address ID: Database ID for the address record| x |
+|mailingAddr/person/restrictionAddress/line1|string|Contact - Search address - Address 1: First line of the address| x |
 |mailingAddr/person/restrictionAddress/line2|string|Contact - Search address - Address 2: Second line of the address| x |
 |mailingAddr/person/restrictionAddress/line3|string|Contact - Search address - Address 3: Third line of the address| x |
 |mailingAddr/person/restrictionAddress/county|string|Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -430,13 +433,13 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |mailingAddr/person/correspondingAssociate/role|listAny|Contact - Role: Role| x |
 |mailingAddr/person/correspondingAssociate/assocName|associate|Contact - User ID: User ID| x |
 |mailingAddr/person/correspondingAssociate/assocTooltip|string|Contact - Description: Description|  |
-|mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
-|mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
-|mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/correspondingAssociate/assocType|listAny|Contact - Type: Type of user: associate, external user, system user, anonymous account| x |
+|mailingAddr/person/correspondingAssociate/ejUserId|int|Contact - Service user ID: The database ID of a Service user|  |
+|mailingAddr/person/correspondingAssociate/simultaneousEjUser|bool|Contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |mailingAddr/person/correspondingAssociate/ejDisplayName|string|Contact - Nick name: User's nick name in Service| x |
 |mailingAddr/person/correspondingAssociate/ejStatus|int|Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in| x |
@@ -534,13 +537,13 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |emailFlow/workflowAssociate/assocTooltip|string|Owner - Description: Description|  |
 |emailFlow/workflowAssociate/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |emailFlow/workflowAssociate/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
-|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
-|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|emailFlow/workflowAssociate/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|emailFlow/workflowAssociate/ejDisplayName|string|Owner - Nick name: User's nick name in Service| x |
+|emailFlow/workflowAssociate/ejStatus|int|Owner - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |emailFlow/workflowAssociate/credentialType| *None* |Owner - Auth. type: What type of credentials to use when this user logs in| x |
 |emailFlow/workflowAssociate/credentialDisplayValue| *None* |Owner - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |emailFlow/workflowAssociate/isActive|bool|Owner - Active: Is this user active, and should be able to log in?| x |
@@ -638,13 +641,13 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 |project/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |project/LastActivity|date|Date of last activity|  |
 |project/LastCompletedActivity|date|Date of last completed activity|  |
-|project/LastDoByActivity|date|Date of last non-completed activity|  |
-|project/NumberOfSales|int|Number of sales|  |
-|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/LastDoByActivity|date|Date of last non-completed activity|  |
+|project/NumberOfSales|int|Number of sales|  |
+|project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |project/LastSale|date|Date of last sale|  |
@@ -664,7 +667,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=getAllRows,mailingAddr/contact/restrictionAddress/line2,mailingAddr/contact/restrictionAddress/formattedAddress,mailingAddr/contact/contactAssociate/mrMrs,mailingAddr/person/personUdef/SuperOffice:2
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=personId,mailingAddr/contact/contactUdef/SuperOffice:1,mailingAddr/person/personExtra/y_rental/x_start,associate/credentialDisplayValue,project/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

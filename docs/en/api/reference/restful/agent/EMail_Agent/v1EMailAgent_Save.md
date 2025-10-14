@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/Save
 Save the e-mail back to the database
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 450,
-      "ContactName": "Kovacek LLC",
-      "PersonId": 834,
-      "PersonName": "Schumm-Nikolaus",
-      "AssociateId": 946,
-      "Address": "accusamus",
-      "EmailId": 765,
+      "ContactId": 955,
+      "ContactName": "Pollich-Russel",
+      "PersonId": 510,
+      "PersonName": "Schulist LLC",
+      "AssociateId": 627,
+      "Address": "modi",
+      "EmailId": 863,
       "DuplicatePersonIds": [
-        105,
-        12
+        563,
+        563
       ],
-      "Name": "Russel-Muller",
+      "Name": "Beahan Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldType": "System.String",
+          "FieldLength": 868
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 488,
-      "ContactName": "DuBuque Inc and Sons",
-      "PersonId": 560,
-      "PersonName": "Ondricka LLC",
-      "AssociateId": 896,
-      "Address": "harum",
-      "EmailId": 953,
+      "ContactId": 563,
+      "ContactName": "Flatley-Price",
+      "PersonId": 120,
+      "PersonName": "Strosin, Parker and Ebert",
+      "AssociateId": 885,
+      "Address": "qui",
+      "EmailId": 855,
       "DuplicatePersonIds": [
-        626,
-        100
+        763,
+        759
       ],
-      "Name": "Sipes, Wehner and Fay",
+      "Name": "Bergnaum, Gleason and Kling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 474
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 470,
-      "ContactName": "Rippin, Romaguera and Goodwin",
-      "PersonId": 600,
-      "PersonName": "Heathcote, Carter and Labadie",
-      "AssociateId": 892,
-      "Address": "sit",
-      "EmailId": 682,
+      "ContactId": 389,
+      "ContactName": "Schmidt-Fisher",
+      "PersonId": 754,
+      "PersonName": "Gottlieb, Rau and Kertzmann",
+      "AssociateId": 33,
+      "Address": "qui",
+      "EmailId": 425,
       "DuplicatePersonIds": [
-        768,
-        595
+        37,
+        885
       ],
-      "Name": "Eichmann, Smitham and Mayert",
+      "Name": "Dach-Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 918
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "et",
+  "Subject": "sint",
+  "HTMLBody": "quaerat",
   "From": null,
-  "Sent": "2022-02-24T11:24:48.1095319+01:00",
-  "Size": 295,
+  "Sent": "2015-07-20T03:40:46.9061483+02:00",
+  "Size": 841,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "nihil",
+  "MessageID": "nulla",
+  "PlainBody": "voluptatem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 529,
+  "ServerId": 533,
   "Attachments": [
     {
-      "Description": "Optional exuding paradigm",
-      "Filename": "ratione",
-      "Size": 710,
-      "Type": "saepe",
-      "Encoding": "mollitia",
-      "Id": "iure",
-      "Disposition": "accusamus",
+      "Description": "Secured multi-tasking Graphic Interface",
+      "Filename": "molestiae",
+      "Size": 987,
+      "Type": "et",
+      "Encoding": "qui",
+      "Id": "eveniet",
+      "Disposition": "alias",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,58 +219,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 736
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Romaguera Group",
+      "Name": "Ziemann-Ziemann",
       "Values": [
-        "et",
-        "enim"
+        "sequi",
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     },
     {
-      "Name": "Romaguera Group",
+      "Name": "Ziemann-Ziemann",
       "Values": [
-        "et",
-        "enim"
+        "sequi",
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     }
   ],
-  "FolderName": "Lesch, Pfannerstill and Macejkovic",
-  "EmailItemId": 511,
-  "AccountId": 752,
-  "ReceivedAt": "1999-03-27T11:24:48.1095319+01:00",
+  "FolderName": "Will, Schuppe and Weimann",
+  "EmailItemId": 296,
+  "AccountId": 29,
+  "ReceivedAt": "2011-08-29T03:40:46.9061483+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-04-19T11:24:48.1095319+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2018-05-30T03:40:46.9061483+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 56
     }
   }
 }

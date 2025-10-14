@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateExternalUser
 Creates an associate of type external user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -79,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 830,
-  "UserName": "O'Hara-Mraz",
-  "Password": "aut",
-  "RoleId": 255,
+  "PersonId": 750,
+  "UserName": "Jenkins LLC",
+  "Password": "et",
+  "RoleId": 253,
   "IsActive": false
 }
 ```
@@ -93,5 +96,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-48
+342
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescription
 Gets a PreferenceDescription object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=709
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=163
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 285,
-  "Section": "magni",
-  "Key": "praesentium",
-  "Name": "Keebler-Littel",
+  "PrefDescId": 475,
+  "Section": "praesentium",
+  "Key": "temporibus",
+  "Name": "Becker, Schulist and Satterfield",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized 4th generation algorithm",
-  "IsBuiltin": false,
-  "TableName": "Bayer-Bins",
-  "UserDefinedListId": 629,
-  "Rank": 42,
-  "SubGroup": "suscipit",
-  "MinLevel": 997,
-  "MaxValue": 689,
-  "MinValue": 380,
-  "RequiredLicense": "sit",
+  "Description": "Synergized web-enabled help-desk",
+  "IsBuiltin": true,
+  "TableName": "Sawayn-Schmidt",
+  "UserDefinedListId": 93,
+  "Rank": 793,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 477,
+  "MaxValue": 591,
+  "MinValue": 661,
+  "RequiredLicense": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

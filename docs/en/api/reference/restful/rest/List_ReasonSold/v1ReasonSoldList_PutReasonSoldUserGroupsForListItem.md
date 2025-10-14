@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Schuppe, Towne and Huels",
-    "ToolTip": "Aperiam et nihil quas nisi deleniti.",
+    "Id": 628,
+    "Name": "Auer LLC",
+    "ToolTip": "Quos id ut at et.",
     "Deleted": true,
-    "Rank": 393,
-    "Type": "velit",
-    "ColorBlock": 411,
-    "IconHint": "nesciunt",
-    "Selected": true,
-    "LastChanged": "2011-07-19T11:24:54.1249113+02:00",
+    "Rank": 716,
+    "Type": "sunt",
+    "ColorBlock": 776,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2014-01-11T03:40:57.0871054+01:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Wintheiser-Upton",
-        "ToolTip": "Voluptatem consequatur animi alias iusto consequuntur sit unde.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "veniam",
-        "ColorBlock": 978,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "1999-03-26T11:24:54.1249113+01:00",
+        "Id": 867,
+        "Name": "Murphy, Friesen and Klein",
+        "ToolTip": "Omnis non.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "illo",
+        "ColorBlock": 25,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2020-10-03T03:40:57.0871054+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Ms. Rita Keagan Prohaska"
+        "ExtraInfo": "itaque",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Rosella Skiles"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Jamey Jones"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Jesus Bartoletti III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Torphy LLC",
-    "ToolTip": "Dolores assumenda velit.",
+    "Id": 83,
+    "Name": "Morar Inc and Sons",
+    "ToolTip": "Nam ut asperiores nemo.",
     "Deleted": false,
-    "Rank": 102,
-    "Type": "alias",
-    "ColorBlock": 873,
-    "IconHint": "inventore",
+    "Rank": 853,
+    "Type": "ducimus",
+    "ColorBlock": 381,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2004-05-30T11:24:54.1249113+02:00",
+    "LastChanged": "2002-07-25T03:40:57.0871054+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Ritchie, Waelchi and Brakus",
-        "ToolTip": "Aut velit dolorem non non consequatur.",
+        "Id": 456,
+        "Name": "Zulauf, Marvin and Emard",
+        "ToolTip": "Magnam consequatur.",
         "Deleted": false,
-        "Rank": 596,
-        "Type": "aut",
-        "ColorBlock": 859,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2022-02-07T11:24:54.1249113+01:00",
+        "Rank": 118,
+        "Type": "qui",
+        "ColorBlock": 722,
+        "IconHint": "corrupti",
+        "Selected": false,
+        "LastChanged": "2024-05-12T03:40:57.0871054+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "voluptatum",
-        "Hidden": true,
-        "FullName": "Mr. Christian Parker Jr.",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Arianna Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldLength": 771
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "at",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Christiana Thompson II",
+    "FullName": "Fritz Jillian Rolfson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldType": "System.Int32",
+        "FieldLength": 369
       }
     }
   }

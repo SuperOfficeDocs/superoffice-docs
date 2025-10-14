@@ -15,6 +15,7 @@ Update existing project members.
 
 
 Not creating new (only projectmember_id &gt; 0 accepted)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,36 +69,36 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 568,
+  "ProjectId": 867,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 997,
-      "ContactId": 695,
-      "ProjectId": 640,
-      "ContactName": "Russel Group",
-      "ContactDepartment": "target sticky content",
-      "ProjectName": "Schinner Inc and Sons",
-      "EmailId": 327,
-      "EmailAddress": "freda@maggio.name",
-      "CountryId": 493,
-      "Firstname": "Isabell",
-      "MiddleName": "Friesen-Anderson",
-      "Lastname": "Feest",
-      "PersonId": 222,
-      "Mrmrs": "cumque",
-      "ProjectMemberTypeName": "Kreiger-Corwin",
-      "Phone": "1-666-564-7493 x2954",
-      "PhoneId": 708,
-      "ProjectMemberTypeId": 9,
-      "EmailAddressName": "sandra.cassin@hettinger.biz",
-      "Comment": "ea",
-      "FullName": "Amely Funk",
-      "Registered": "2021-08-10T11:24:48.5001409+02:00",
-      "Updated": "2011-06-25T11:24:48.5001409+02:00"
+      "ProjectmemberId": 776,
+      "ContactId": 165,
+      "ProjectId": 542,
+      "ContactName": "Russel Inc and Sons",
+      "ContactDepartment": "",
+      "ProjectName": "Daugherty Group",
+      "EmailId": 954,
+      "EmailAddress": "annette@borer.us",
+      "CountryId": 290,
+      "Firstname": "Anabelle",
+      "MiddleName": "Russel Inc and Sons",
+      "Lastname": "Schinner",
+      "PersonId": 306,
+      "Mrmrs": "totam",
+      "ProjectMemberTypeName": "Aufderhar-Kuvalis",
+      "Phone": "1-706-797-7759 x775",
+      "PhoneId": 778,
+      "ProjectMemberTypeId": 598,
+      "EmailAddressName": "eriberto_boehm@wilderman.com",
+      "Comment": "cupiditate",
+      "FullName": "Dr. Lenore Maegan Gottlieb I",
+      "Registered": "2020-04-04T03:40:47.4999832+02:00",
+      "Updated": "2017-10-28T03:40:47.4999832+02:00"
     }
   ]
 }

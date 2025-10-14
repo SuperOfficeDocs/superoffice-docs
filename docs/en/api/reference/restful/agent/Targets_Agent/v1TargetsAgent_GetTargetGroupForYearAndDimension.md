@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Returns the target group for the specified year and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 667,
-  "DimensionId": 21
+  "TargetYear": 281,
+  "DimensionId": 920
 }
 ```
 
@@ -96,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 370,
-  "Year": 525,
+  "TargetGroupId": 362,
+  "Year": 532,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 209,
+      "TargetAssignmentInfoId": 711,
       "Values": [
-        302,
-        520
+        588,
+        947
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 25,
-      "DimensionListItemDisplayName": "Smith Inc and Sons",
+      "DimensionListItem": 526,
+      "DimensionListItemDisplayName": "Eichmann-Hoppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 968
         }
       }
     }
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   }
 }

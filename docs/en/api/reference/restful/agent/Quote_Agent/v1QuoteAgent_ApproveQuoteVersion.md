@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Approves a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 743,
-  "ApprovedByText": "occaecati",
-  "ApprovedByAssociateId": 912,
-  "ApprovalText": "sint"
+  "QuoteVersionId": 134,
+  "ApprovedByText": "totam",
+  "ApprovedByAssociateId": 10,
+  "ApprovalText": "libero"
 }
 ```
 
@@ -97,13 +99,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 228,
+  "CreatedAppointmentId": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

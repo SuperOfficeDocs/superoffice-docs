@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Loading default values into a new TargetRevision.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -59,7 +61,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +73,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2005-05-14T11:24:48.6720089+02:00",
+  "When": "2017-11-28T03:40:47.8911118+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "dolor",
-      "ValueChangeFrom": 12739.71,
-      "ValueChangeTo": 20900.646,
+      "FieldIdentifier": "minus",
+      "ValueChangeFrom": 13372.778,
+      "ValueChangeTo": 16450.365999999998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 384
         }
       }
     },
     {
-      "FieldIdentifier": "dolor",
-      "ValueChangeFrom": 12739.71,
-      "ValueChangeTo": 20900.646,
+      "FieldIdentifier": "minus",
+      "ValueChangeFrom": 13372.778,
+      "ValueChangeTo": 16450.365999999998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 384
         }
       }
     }
@@ -105,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 590
     }
   }
 }

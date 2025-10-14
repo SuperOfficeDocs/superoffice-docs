@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 467,
-  "GroupType": 643,
-  "StartTime": "2005-06-15T11:24:47.3126897+02:00",
-  "EndTime": "2022-10-10T11:24:47.3126897+02:00",
-  "Count": 576
+  "GroupId": 704,
+  "GroupType": 264,
+  "StartTime": "2022-08-11T03:40:45.6387418+02:00",
+  "EndTime": "2010-10-19T03:40:45.6387418+02:00",
+  "Count": 306
 }
 ```
 
@@ -152,67 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 39,
-    "StartDate": "2015-09-21T11:24:47.3126897+02:00",
-    "EndDate": "2014-04-17T11:24:47.3126897+02:00",
+    "AppointmentId": 987,
+    "StartDate": "2020-04-23T03:40:45.6387418+02:00",
+    "EndDate": "1998-06-25T03:40:45.6387418+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eveniet",
-    "AssociateFullName": "Milan Ferry",
-    "ContactName": "Botsford LLC",
-    "Description": "Diverse zero tolerance contingency",
-    "PersonFullName": "Bethel Torp",
-    "PersonId": 909,
-    "ContactId": 506,
-    "ProjectId": 166,
-    "ProjectName": "Hoeger-Konopelski",
-    "IsPublished": true,
-    "AssociateId": 458,
-    "ColorIndex": 146,
+    "Task": "provident",
+    "AssociateFullName": "Ms. Chaz Chaz Kohler",
+    "ContactName": "Hermann Inc and Sons",
+    "Description": "Extended bandwidth-monitored superstructure",
+    "PersonFullName": "Dr. Tanya Konopelski",
+    "PersonId": 959,
+    "ContactId": 776,
+    "ProjectId": 89,
+    "ProjectName": "Zboncak LLC",
+    "IsPublished": false,
+    "AssociateId": 421,
+    "ColorIndex": 741,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 647,
-    "PriorityName": "Cummings, Bartoletti and Gutkowski",
+    "PriorityId": 911,
+    "PriorityName": "Olson, Shanahan and Dietrich",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2024-11-21T11:24:47.3126897+01:00",
+    "ActiveDate": "2006-10-16T03:40:45.6387418+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-09-11T11:24:47.3126897+02:00",
-    "RecurringEndDate": "1999-01-28T11:24:47.3126897+01:00",
-    "MotherId": 672,
-    "AssignedBy": 296,
-    "AssignedByFullName": "Aiden Oceane O'Kon Jr.",
+    "RecurringStartDate": "2016-03-20T03:40:45.6387418+01:00",
+    "RecurringEndDate": "2011-02-15T03:40:45.6387418+01:00",
+    "MotherId": 632,
+    "AssignedBy": 492,
+    "AssignedByFullName": "Karlie Skiles",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "voluptates",
-    "SaleId": 368,
-    "SaleName": "Farrell-Keeling",
-    "AssociateName": "Green-Medhurst",
-    "CreatedDate": "2000-09-06T11:24:47.3126897+02:00",
-    "CreatedBy": "occaecati",
-    "CreatedByFullName": "Patsy West",
-    "CreatedByAssociateId": 968,
+    "Location": "rerum",
+    "AlarmLeadTime": "ut",
+    "SaleId": 898,
+    "SaleName": "Altenwerth-Brekke",
+    "AssociateName": "Johns Inc and Sons",
+    "CreatedDate": "2001-08-09T03:40:45.6387418+02:00",
+    "CreatedBy": "delectus",
+    "CreatedByFullName": "Mr. Braulio Funk",
+    "CreatedByAssociateId": 844,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 860,
+    "MotherAssociateId": 959,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 645,
-    "Title": "ipsa",
-    "Agenda": "vero",
-    "InternalNotes": "hic",
+    "PreferredTZLocation": 142,
+    "Title": "sed",
+    "Agenda": "nisi",
+    "InternalNotes": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 708
       }
     }
   }

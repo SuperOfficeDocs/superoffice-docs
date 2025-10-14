@@ -15,6 +15,7 @@ Returns all sales within a time period.
 
 
 The sales array can be limited by amount and status.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,13 +104,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2020-03-13T11:24:48.5939056+01:00",
-  "ToDate": "2004-08-12T11:24:48.5939056+02:00",
-  "AmountLimit": 243,
+  "FromDate": "2001-09-14T03:40:47.6723407+02:00",
+  "ToDate": "2009-07-17T03:40:47.6723407+02:00",
+  "AmountLimit": 161,
   "Status": "Lost"
 }
 ```
@@ -122,37 +123,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ortiz-Lueilwitz",
-    "SaleDate": "2006-06-01T11:24:48.5939056+02:00",
-    "SaleId": 715,
-    "Probability": 433,
-    "Title": "qui",
-    "Amount": 23761.987999999998,
-    "Currency": "nam",
-    "ProjectName": "Bartell-Dibbert",
-    "AssociateFullName": "Sheridan Roberts",
-    "Description": "Future-proofed next generation software",
+    "ContactName": "Weimann Group",
+    "SaleDate": "2022-11-30T03:40:47.6723407+01:00",
+    "SaleId": 640,
+    "Probability": 862,
+    "Title": "molestiae",
+    "Amount": 28002.29,
+    "Currency": "doloribus",
+    "ProjectName": "Armstrong, Krajcik and Ruecker",
+    "AssociateFullName": "Mr. Bell Lee Crona",
+    "Description": "Focused client-server help-desk",
     "Status": "Lost",
-    "WeightedAmount": 11103.761999999999,
-    "ProjectId": 309,
-    "EarningPercent": 28948.757999999998,
-    "Earning": 17249.536,
-    "ContactId": 688,
-    "AssociateId": 711,
-    "PersonId": 667,
-    "SaleTypeId": 20,
-    "SaleTypeName": "Prohaska-Hammes",
-    "PersonFullName": "Laurianne Summer Boehm DDS",
+    "WeightedAmount": 18004.829999999998,
+    "ProjectId": 691,
+    "EarningPercent": 3776.47,
+    "Earning": 7004.49,
+    "ContactId": 167,
+    "AssociateId": 963,
+    "PersonId": 419,
+    "SaleTypeId": 345,
+    "SaleTypeName": "Thiel-Graham",
+    "PersonFullName": "Kennedi Gleason",
     "Completed": "Completed",
-    "ActiveErpLinks": 963,
-    "NextDueDate": "2021-07-04T11:24:48.5939056+02:00",
-    "Number": "328879",
+    "ActiveErpLinks": 952,
+    "NextDueDate": "2000-07-28T03:40:47.6723407+02:00",
+    "Number": "854472",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 787
       }
     }
   }

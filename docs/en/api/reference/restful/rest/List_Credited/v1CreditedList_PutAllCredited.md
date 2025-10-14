@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Jakubowski-Hamill",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 283
+    "Id": 718,
+    "Name": "Grant, Klocko and Tromp",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "UdListDefinitionId": 138,
+    "Rank": 826
   },
   {
-    "Id": 404,
-    "Name": "Jakubowski-Hamill",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 347,
-    "Rank": 283
+    "Id": 718,
+    "Name": "Grant, Klocko and Tromp",
+    "Tooltip": "nesciunt",
+    "Deleted": true,
+    "UdListDefinitionId": 138,
+    "Rank": 826
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 316,
-    "Name": "Yundt, Bayer and Beatty",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "UdListDefinitionId": 694,
-    "Rank": 793,
+    "Id": 367,
+    "Name": "Lakin Group",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 980,
+    "Rank": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldLength": 599
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetRankOnFields
 Change rank of user defined fields
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 {
   "OwnerType": "Appointment",
   "RankedFieldsIds": [
-    720,
-    608
+    621,
+    843
   ]
 }
 ```

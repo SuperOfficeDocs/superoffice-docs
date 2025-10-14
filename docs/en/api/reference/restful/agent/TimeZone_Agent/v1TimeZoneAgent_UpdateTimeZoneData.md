@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/UpdateTimeZoneData
 Retrieve time zone data from the SuperOffice server and update TimeZone data in the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/TimeZone/UpdateTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

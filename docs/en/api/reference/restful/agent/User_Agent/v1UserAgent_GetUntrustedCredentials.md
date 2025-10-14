@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUntrustedCredentials
 Get a set of credentials of a specified type for authenticated user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -81,11 +84,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "est"
+  "Type": "expedita"
 }
 ```
 
@@ -97,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2003-08-09T11:24:48.9376234+02:00",
-    "ValidTo": "2000-06-04T11:24:48.9376234+02:00",
-    "Comment": "et",
-    "SecretValue": "non",
-    "PublicValue": "perferendis",
+    "ValidFrom": "2012-06-30T03:40:48.2348737+02:00",
+    "ValidTo": "1999-03-17T03:40:48.2348737+01:00",
+    "Comment": "est",
+    "SecretValue": "mollitia",
+    "PublicValue": "laboriosam",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 16
       }
     }
   }

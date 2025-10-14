@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/AddFromListDefinition
 Save a new list item for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 744,
+  "UdListDefinitionId": 74,
   "Item": null
 }
 ```
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 710,
-  "Name": "Cronin, Rutherford and Jacobs",
-  "Tooltip": "cum",
+  "Id": 698,
+  "Name": "Quitzon LLC",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "UdListDefinitionId": 660,
-  "Rank": 105,
+  "UdListDefinitionId": 706,
+  "Rank": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

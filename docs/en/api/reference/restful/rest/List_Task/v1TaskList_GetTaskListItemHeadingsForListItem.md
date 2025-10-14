@@ -32,7 +32,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 421,
-    "Name": "Swaniawski Inc and Sons",
-    "ToolTip": "Ut sit ut dolor velit consequatur repellendus.",
+    "Id": 195,
+    "Name": "Anderson-Crona",
+    "ToolTip": "Odio quia enim eius sit nesciunt occaecati mollitia.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "et",
-    "ColorBlock": 335,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "2001-12-16T11:24:54.1717846+01:00",
+    "Rank": 82,
+    "Type": "porro",
+    "ColorBlock": 531,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2007-10-27T03:40:57.1344494+02:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Armstrong, Osinski and Oberbrunner",
-        "ToolTip": "Officia sit.",
-        "Deleted": true,
-        "Rank": 512,
-        "Type": "voluptatibus",
-        "ColorBlock": 326,
-        "IconHint": "architecto",
+        "Id": 168,
+        "Name": "Luettgen, Runte and Breitenberg",
+        "ToolTip": "Voluptate rerum.",
+        "Deleted": false,
+        "Rank": 666,
+        "Type": "possimus",
+        "ColorBlock": 211,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2000-07-02T11:24:54.1717846+02:00",
+        "LastChanged": "2013-01-02T03:40:57.1344494+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "magnam",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Prof. Ally Bode",
+        "FullName": "Joel Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 761
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Bertram Lang MD",
+    "ExtraInfo": "nisi",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Irwin Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldLength": 336
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Saves content in stream to document template file
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -79,14 +81,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 385,
+  "DocumentTemplateId": 879,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "eos",
-  "PluginId": 279
+  "LanguageCode": "aliquid",
+  "PluginId": 412
 }
 ```
 
@@ -97,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bode-Ruecker",
-  "Description": "Robust tertiary matrices",
-  "ExternalReference": "officiis",
-  "MimeType": "tenetur",
-  "PluginId": 894
+  "Name": "Berge-Strosin",
+  "Description": "Digitized heuristic groupware",
+  "ExternalReference": "magnam",
+  "MimeType": "sapiente",
+  "PluginId": 873
 }
 ```

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Execute a Find operation and return a page of results.
 
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -165,15 +166,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ea",
-  "ProviderName": "Wilderman-Labadie",
-  "DesiredColumns": "error",
-  "PageSize": 970,
-  "PageNumber": 9
+  "Restrictions": "maiores",
+  "ProviderName": "Kihn-Jaskolski",
+  "DesiredColumns": "voluptas",
+  "PageSize": 119,
+  "PageNumber": 799
 }
 ```
 
@@ -186,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Treutel, Tromp and Medhurst",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "alias",
-      "CanOrderBy": false,
-      "Name": "O'Keefe Group",
+      "DisplayName": "Willms Inc and Sons",
+      "DisplayTooltip": "quasi",
+      "DisplayType": "fuga",
+      "CanOrderBy": true,
+      "Name": "Schinner Group",
       "CanRestrictBy": false,
-      "RestrictionType": "natus",
-      "RestrictionListName": "Conroy LLC",
-      "IsVisible": true,
-      "ExtraInfo": "beatae",
-      "Width": "iusto",
-      "IconHint": "quia",
-      "HeadingIconHint": "atque"
+      "RestrictionType": "vero",
+      "RestrictionListName": "Moen, Bogisich and Effertz",
+      "IsVisible": false,
+      "ExtraInfo": "ratione",
+      "Width": "qui",
+      "IconHint": "sequi",
+      "HeadingIconHint": "quasi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Doyle, Schuppe and Konopelski",
-      "PrimaryKey": 861,
+      "EntityName": "Moore Group",
+      "PrimaryKey": 370,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "recusandae",
-          "TooltipHint": "tenetur",
-          "LinkHint": "asperiores"
+          "DisplayValue": "et",
+          "TooltipHint": "sint",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "odit",
-      "StyleHint": "accusamus",
+      "LinkHint": "debitis",
+      "StyleHint": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldType": "System.String",
+          "FieldLength": 121
         }
       }
     }
   ],
-  "RowCount": 940,
+  "RowCount": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

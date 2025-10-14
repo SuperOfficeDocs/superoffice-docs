@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetNextMilestone
 Next upcoming milestone appointment
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 322
+  "ProjectId": 705
 }
 ```
 
@@ -143,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 333,
-  "StartDate": "2019-05-17T11:24:48.4688922+02:00",
-  "EndDate": "2014-12-05T11:24:48.4688922+01:00",
+  "AppointmentId": 170,
+  "StartDate": "2011-01-01T03:40:47.4687299+01:00",
+  "EndDate": "2015-09-23T03:40:47.4687299+02:00",
   "Type": "BookingForChecklist",
-  "Task": "aperiam",
-  "AssociateFullName": "Otilia Bergnaum",
-  "ContactName": "Heathcote, Schiller and Reinger",
-  "Description": "Innovative 5th generation attitude",
-  "PersonFullName": "Nola Swift",
-  "PersonId": 57,
-  "ContactId": 637,
-  "ProjectId": 598,
-  "ProjectName": "Kreiger Inc and Sons",
-  "IsPublished": false,
-  "AssociateId": 250,
-  "ColorIndex": 659,
+  "Task": "enim",
+  "AssociateFullName": "Gregorio Kessler",
+  "ContactName": "Kuvalis Inc and Sons",
+  "Description": "Secured tertiary approach",
+  "PersonFullName": "Prof. Oral Ferry II",
+  "PersonId": 416,
+  "ContactId": 306,
+  "ProjectId": 908,
+  "ProjectName": "Goyette-Jewess",
+  "IsPublished": true,
+  "AssociateId": 377,
+  "ColorIndex": 602,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 188,
-  "PriorityName": "Schowalter Group",
+  "PriorityId": 568,
+  "PriorityName": "Waters, Bogisich and Romaguera",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2011-12-22T11:24:48.4688922+01:00",
+  "ActiveDate": "2011-01-30T03:40:47.4687299+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2006-01-18T11:24:48.4688922+01:00",
-  "RecurringEndDate": "2016-05-10T11:24:48.4688922+02:00",
-  "MotherId": 717,
-  "AssignedBy": 570,
-  "AssignedByFullName": "Ms. Ryley Emelia Schinner",
+  "RecurringStartDate": "2024-10-10T03:40:47.4687299+02:00",
+  "RecurringEndDate": "2005-02-28T03:40:47.4687299+01:00",
+  "MotherId": 139,
+  "AssignedBy": 501,
+  "AssignedByFullName": "Mrs. Lelah Elfrieda Gerlach",
   "RejectReason": "",
-  "Location": "ut",
-  "AlarmLeadTime": "id",
-  "SaleId": 393,
-  "SaleName": "O'Kon-Von",
-  "AssociateName": "Kiehn Group",
-  "CreatedDate": "2004-07-06T11:24:48.4688922+02:00",
-  "CreatedBy": "praesentium",
-  "CreatedByFullName": "Dr. Seth Ayla Fay",
-  "CreatedByAssociateId": 35,
+  "Location": "nam",
+  "AlarmLeadTime": "sit",
+  "SaleId": 882,
+  "SaleName": "Labadie, Rempel and Schaefer",
+  "AssociateName": "Ebert-Willms",
+  "CreatedDate": "2016-08-09T03:40:47.4687299+02:00",
+  "CreatedBy": "nesciunt",
+  "CreatedByFullName": "Dr. Dario Gustave Mayer",
+  "CreatedByAssociateId": 31,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 69,
+  "MotherAssociateId": 402,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 762,
-  "Title": "ut",
-  "Agenda": "vitae",
-  "InternalNotes": "veniam",
+  "PreferredTZLocation": 617,
+  "Title": "quisquam",
+  "Agenda": "error",
+  "InternalNotes": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

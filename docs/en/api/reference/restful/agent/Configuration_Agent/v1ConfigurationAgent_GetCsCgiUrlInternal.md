@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCsCgiUrlInternal
 This method will get the host name for CS
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

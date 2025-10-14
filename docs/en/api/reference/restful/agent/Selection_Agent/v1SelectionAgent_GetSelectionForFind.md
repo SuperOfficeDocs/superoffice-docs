@@ -15,6 +15,7 @@ Obtain a selection for the given entity, for the current user, of type WorkingSe
 
 
 Optionally populate criteria from the TypicalSearches system
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Senger Group",
-  "TypicalSearchId": 101
+  "EntityName": "Schaefer Group",
+  "TypicalSearchId": 591
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fay-Lueilwitz",
-  "SelectionId": 24,
+  "ProviderName": "Cormier-Hagenes",
+  "SelectionId": 820,
   "CanSaveAsSelection": false,
-  "MainHeading": "corporis",
-  "FilterScreenHeading": "nobis",
-  "SelectionEntityHeading": "amet",
+  "MainHeading": "nulla",
+  "FilterScreenHeading": "placeat",
+  "SelectionEntityHeading": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 365
     }
   }
 }

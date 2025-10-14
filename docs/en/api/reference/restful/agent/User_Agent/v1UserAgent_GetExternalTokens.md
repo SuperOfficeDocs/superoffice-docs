@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetExternalTokens
 Retrieve the tokens from the DB based on the given key
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -82,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "saepe"
+  "Key": "aut"
 }
 ```
 
@@ -93,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "ipsum",
-  "AccessToken": "nihil",
-  "RefreshToken": "esse",
+  "Provider": "sunt",
+  "AccessToken": "reprehenderit",
+  "RefreshToken": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

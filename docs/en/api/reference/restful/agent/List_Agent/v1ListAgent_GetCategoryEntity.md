@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCategoryEntity
 Gets a CategoryEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a CategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCategoryEntity?categoryEntityId=333
+POST /api/v1/Agents/List/GetCategoryEntity?categoryEntityId=814
 POST /api/v1/Agents/List/GetCategoryEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 170,
-  "Name": "Walter, Marvin and Balistreri",
+  "CategoryId": 265,
+  "Name": "Bartell, Boyle and Huel",
   "CategoryGroup": "Customer",
-  "Tooltip": "consequatur",
-  "Rank": 989,
+  "Tooltip": "aspernatur",
+  "Rank": 81,
   "EnableLeadStatus": false,
-  "CategoryFamilyId": 671,
+  "CategoryFamilyId": 644,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 418
     }
   }
 }

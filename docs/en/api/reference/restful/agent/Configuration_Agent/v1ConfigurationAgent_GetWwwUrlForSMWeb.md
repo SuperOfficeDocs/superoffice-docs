@@ -15,6 +15,7 @@ Returns the URL used for the logo by the SM.
 
 
 web client. Uses urldispatch.aspx
+NsApiSlow threshold: 5000 ms.
 
 
 

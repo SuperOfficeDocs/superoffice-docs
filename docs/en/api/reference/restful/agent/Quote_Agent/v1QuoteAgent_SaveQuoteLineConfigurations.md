@@ -15,6 +15,7 @@ Save a collection of QuoteLineConfigurations.
 
 
 It is not possible to add a new configurations.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 810,
-      "FieldName": "Klein, Kirlin and Larson",
-      "Label": "quis",
-      "Tooltip": "libero",
+      "QuoteLineConfigurationId": 126,
+      "FieldName": "Leuschke, Dickens and Renner",
+      "Label": "necessitatibus",
+      "Tooltip": "quod",
       "Editable": false,
       "InUse": false,
-      "Mandatory": true,
-      "Rank": 526,
-      "RestrictEdit": true
+      "Mandatory": false,
+      "Rank": 2,
+      "RestrictEdit": false
     }
   ]
 }
@@ -112,21 +113,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 733,
-    "FieldName": "Jacobs, Schmidt and Ward",
-    "Label": "omnis",
-    "Tooltip": "ducimus",
+    "QuoteLineConfigurationId": 117,
+    "FieldName": "Kunze-Hyatt",
+    "Label": "provident",
+    "Tooltip": "ut",
     "Editable": false,
     "InUse": true,
-    "Mandatory": false,
-    "Rank": 893,
-    "RestrictEdit": true,
+    "Mandatory": true,
+    "Rank": 582,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 709
       }
     }
   }

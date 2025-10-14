@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Name": "Christiansen LLC",
-  "Tooltip": "qui",
+  "Id": 448,
+  "Name": "Pfannerstill-Zulauf",
+  "Tooltip": "aliquid",
   "Deleted": true,
-  "UdListDefinitionId": 320,
-  "Rank": 733,
+  "UdListDefinitionId": 930,
+  "Rank": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 3
     }
   }
 }

@@ -14,6 +14,8 @@ PUT /api/v1/Pricelist/{id}
 Updates the existing PriceList
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,19 +100,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 225,
-  "ERPPriceListKey": "odit",
-  "QuoteConnectionId": 994,
-  "Name": "Hudson-Trantow",
-  "Description": "Object-based heuristic groupware",
-  "Currency": "ratione",
-  "CurrencyName": "Kuphal-Kohler",
-  "ValidFrom": "2000-11-11T11:24:53.9842923+01:00",
-  "ValidTo": "2016-10-08T11:24:53.9842923+02:00",
+  "PriceListId": 799,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 580,
+  "Name": "Zemlak Inc and Sons",
+  "Description": "Managed value-added extranet",
+  "Currency": "qui",
+  "CurrencyName": "Schimmel-Monahan",
+  "ValidFrom": "2005-03-04T03:40:56.9933484+01:00",
+  "ValidTo": "2024-08-23T03:40:56.9933484+02:00",
   "IsActive": false
 }
 ```
@@ -122,27 +124,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 75,
-  "ERPPriceListKey": "maxime",
-  "QuoteConnectionId": 577,
-  "Name": "Marks Group",
-  "Description": "Phased secondary architecture",
-  "Currency": "tempora",
-  "CurrencyName": "Bernier-Jenkins",
-  "ValidFrom": "2021-10-12T11:24:53.9842923+02:00",
-  "ValidTo": "2017-05-17T11:24:53.9842923+02:00",
+  "PriceListId": 64,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 993,
+  "Name": "Dickens-Kuhic",
+  "Description": "Customer-focused client-driven moderator",
+  "Currency": "ea",
+  "CurrencyName": "Hyatt-Ritchie",
+  "ValidFrom": "2015-05-04T03:40:56.9933484+02:00",
+  "ValidTo": "2011-03-23T03:40:56.9933484+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

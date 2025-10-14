@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -88,13 +90,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 977,
-  "Name": "Macejkovic Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 600,
-  "DoctmplId": 294,
-  "Header": "et",
-  "OurRef": "at",
+  "SuggestedDocumentId": 102,
+  "Name": "Dickinson Inc and Sons",
+  "Tooltip": "ut",
+  "Rank": 835,
+  "DoctmplId": 619,
+  "Header": "officiis",
+  "OurRef": "explicabo",
   "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -109,13 +111,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 884,
-  "Name": "Botsford Group",
-  "Tooltip": "quibusdam",
-  "Rank": 833,
-  "DoctmplId": 698,
-  "Header": "nemo",
-  "OurRef": "consequatur",
+  "SuggestedDocumentId": 440,
+  "Name": "Eichmann-Lubowitz",
+  "Tooltip": "vitae",
+  "Rank": 116,
+  "DoctmplId": 608,
+  "Header": "assumenda",
+  "OurRef": "culpa",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -125,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 412
     }
   }
 }

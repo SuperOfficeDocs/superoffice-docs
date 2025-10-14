@@ -15,6 +15,7 @@ Get status info for the Quote version dialog header.
 
 
 Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 168
+  "QuoteVersionId": 24
 }
 ```
 
@@ -95,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "voluptatibus",
-  "DisplayMessage": "ratione",
-  "DisplayTooltip": "dolorem",
+  "IconHint": "earum",
+  "DisplayMessage": "laborum",
+  "DisplayTooltip": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 772
     }
   }
 }

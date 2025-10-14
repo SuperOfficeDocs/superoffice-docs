@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Schneider, Veum and Leffler",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 908,
-  "Rank": 225,
+  "Id": 836,
+  "Name": "Moen-Hudson",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "UdListDefinitionId": 984,
+  "Rank": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

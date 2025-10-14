@@ -42,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ForeignSystem:ForeignDevice xsi:type="ForeignSystem:ForeignDevice">
      <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
      <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-09-19T09:23:29Z</ForeignSystem:CreatedDate>
-     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-09-19T09:23:29Z</ForeignSystem:UpdatedDate>
+     <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-10-14T01:39:18Z</ForeignSystem:CreatedDate>
+     <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-10-14T01:39:18Z</ForeignSystem:UpdatedDate>
      <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
      <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
      <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>
@@ -75,8 +75,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <ForeignSystem:Response xsi:type="ForeignSystem:ForeignDevice">
     <ForeignSystem:ForeignDeviceId xsi:type="xsd:int">0</ForeignSystem:ForeignDeviceId>
     <ForeignSystem:Name xsi:type="xsd:string"></ForeignSystem:Name>
-    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-09-19T09:23:29Z</ForeignSystem:CreatedDate>
-    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-09-19T09:23:29Z</ForeignSystem:UpdatedDate>
+    <ForeignSystem:CreatedDate xsi:type="xsd:dateTime">2025-10-14T01:39:18Z</ForeignSystem:CreatedDate>
+    <ForeignSystem:UpdatedDate xsi:type="xsd:dateTime">2025-10-14T01:39:18Z</ForeignSystem:UpdatedDate>
     <ForeignSystem:AssociateFullName xsi:type="xsd:string"></ForeignSystem:AssociateFullName>
     <ForeignSystem:CreatedBy xsi:type="xsd:string"></ForeignSystem:CreatedBy>
     <ForeignSystem:UpdatedBy xsi:type="xsd:string"></ForeignSystem:UpdatedBy>

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Turner, Pouros and Stamm",
-  "Tooltip": "dolorem",
+  "Id": 772,
+  "Name": "Nienow-Rodriguez",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 635,
-  "IsCustomList": true,
+  "Rank": 921,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 972
     }
   },
   "_Links": {

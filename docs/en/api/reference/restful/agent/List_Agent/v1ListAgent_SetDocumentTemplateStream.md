@@ -15,6 +15,7 @@ Store a document template from its stream.
 
 
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -103,14 +104,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "laborum",
-  "PluginId": 712
+  "LanguageCode": "et",
+  "PluginId": 669
 }
 ```
 
@@ -121,37 +122,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 310,
-  "Name": "Corkery-Abshire",
-  "Tooltip": "unde",
-  "SaveInDb": 900,
-  "Filename": "qui",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 363,
+  "Name": "Jenkins, Pfannerstill and Konopelski",
+  "Tooltip": "vel",
+  "SaveInDb": 358,
+  "Filename": "architecto",
+  "DefaultOref": "corporis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 256,
-  "IntentId": 231,
+  "AutoeventId": 750,
+  "IntentId": 9,
   "IsDefaultPublished": false,
-  "Rank": 367,
-  "LoadTemplateFromPlugin": 196,
-  "MimeType": "sed",
+  "Rank": 556,
+  "LoadTemplateFromPlugin": 597,
+  "MimeType": "non",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 257,
+  "DocumentTypeKey": 334,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "georgiana@friesenokeefe.uk",
+  "EmailSubject": "myles@auer.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "paxton@zieme.co.uk",
+  "SenderEmailAddress": "trudie@bauch.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldLength": 332
     }
   }
 }

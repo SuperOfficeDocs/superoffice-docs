@@ -14,6 +14,9 @@ POST /api/v1/Agents/Webhook/GetLastError
 Return the most recent error message received when calling this webhook.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -75,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 962
+  "WebhookId": 326
 }
 ```
 
@@ -85,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nobis"
+"sint"
 ```

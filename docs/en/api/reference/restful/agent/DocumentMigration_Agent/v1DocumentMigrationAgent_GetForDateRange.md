@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Gets a migration summary for documents in the provided date-rage
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -80,14 +83,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 818,
-  "MinDate": "2016-02-02T11:24:48.03141+01:00",
-  "MaxDate": "2023-11-24T11:24:48.03141+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 965,
+  "MinDate": "2024-02-12T03:40:46.7498885+01:00",
+  "MaxDate": "2008-11-08T03:40:46.7498885+01:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -98,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 817,
-  "NumDocumentsAlreadyMigrated": 226,
+  "NumDocumentsOmitted": 765,
+  "NumDocumentsAlreadyMigrated": 160,
   "Documents": [
     {
-      "DocumentId": 734,
-      "ContactId": 54,
-      "PersonId": 532,
-      "SaleId": 9,
-      "ProjectId": 174,
-      "DocTmplId": 465,
-      "AssociateId": 416,
-      "UserGroupId": 238,
-      "VisibleForId": 355
+      "DocumentId": 753,
+      "ContactId": 356,
+      "PersonId": 888,
+      "SaleId": 807,
+      "ProjectId": 771,
+      "DocTmplId": 319,
+      "AssociateId": 158,
+      "UserGroupId": 471,
+      "VisibleForId": 379
     }
   ],
   "Associates": [
     {
-      "AssociateId": 798,
-      "EmailAddress": "aimee@gerholddaniel.uk"
+      "AssociateId": 197,
+      "EmailAddress": "agnes.moen@watersdooley.ca"
     },
     {
-      "AssociateId": 798,
-      "EmailAddress": "aimee@gerholddaniel.uk"
+      "AssociateId": 197,
+      "EmailAddress": "agnes.moen@watersdooley.ca"
     }
   ]
 }

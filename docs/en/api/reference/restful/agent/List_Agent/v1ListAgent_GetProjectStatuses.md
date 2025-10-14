@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProjectStatuses
 Gets all items from the Project Status (ProjStatus) table.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Value": "hic",
-    "Tooltip": "nostrum",
+    "Id": 159,
+    "Value": "soluta",
+    "Tooltip": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   },
   {
-    "Id": 84,
-    "Value": "hic",
-    "Tooltip": "nostrum",
+    "Id": 159,
+    "Value": "soluta",
+    "Tooltip": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

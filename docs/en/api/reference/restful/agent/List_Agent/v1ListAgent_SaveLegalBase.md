@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/SaveLegalBase
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 841,
-  "Name": "Robel-Krajcik",
-  "Tooltip": "soluta",
-  "Rank": 665,
-  "Key": "perferendis",
+  "LegalBaseId": 131,
+  "Name": "Waters Group",
+  "Tooltip": "delectus",
+  "Rank": 479,
+  "Key": "quo",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

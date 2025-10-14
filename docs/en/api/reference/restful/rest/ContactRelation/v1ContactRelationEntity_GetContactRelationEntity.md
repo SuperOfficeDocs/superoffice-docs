@@ -15,6 +15,7 @@ Gets a ContactRelationEntity object.
 
 
 Calls the Relation agent service GetContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,38 +101,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 23 Mar 1999 11:24:53 G3T
+Last-Modified: Mon, 21 Jan 2008 03:40:55 G1T
 
 {
-  "SourceContactId": 354,
-  "SourcePersonId": 591,
-  "DestinationContactId": 791,
-  "DestinationPersonId": 613,
-  "RelationId": 727,
-  "Comment": "laudantium",
-  "RelationDefinitionId": 354,
-  "Reversed": 199,
-  "UpdatedDate": "1999-03-23T11:24:53.156201+01:00",
-  "CreatedDate": "2023-12-21T11:24:53.156201+01:00",
+  "SourceContactId": 693,
+  "SourcePersonId": 166,
+  "DestinationContactId": 28,
+  "DestinationPersonId": 484,
+  "RelationId": 761,
+  "Comment": "ut",
+  "RelationDefinitionId": 862,
+  "Reversed": 931,
+  "UpdatedDate": "2008-01-21T03:40:55.6162809+01:00",
+  "CreatedDate": "2004-04-04T03:40:55.6162809+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bins, Hane and Stokes",
-  "SourcePersonName": "Kozey Group",
-  "DestinationContactName": "Okuneva, Roberts and Oberbrunner",
-  "DestinationPersonName": "Hand, Jast and Bayer",
-  "ActiveText": "at",
-  "PassiveText": "occaecati",
+  "SourceContactName": "Cormier, Swaniawski and Smith",
+  "SourcePersonName": "Ruecker, Simonis and Braun",
+  "DestinationContactName": "Keeling-Zemlak",
+  "DestinationPersonName": "Marks LLC",
+  "ActiveText": "occaecati",
+  "PassiveText": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 207
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

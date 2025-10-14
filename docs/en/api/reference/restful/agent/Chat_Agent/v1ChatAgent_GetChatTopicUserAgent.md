@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Get a user assigned to a topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,12 +80,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 548,
-  "Username": "a"
+  "ChatTopicId": 977,
+  "Username": "aut"
 }
 ```
 
@@ -94,9 +96,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 21,
+  "TopicId": 31,
   "User": null,
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
   "CanManage": false,
   "CanNotify": false

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,37 +71,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Christiansen Group",
-  "StorageKey": "doloremque",
+  "StorageType": "exercitationem",
+  "ProviderName": "Hermann, Grady and Bogisich",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Lind Inc and Sons",
-      "Operator": "fuga",
+      "Name": "Abbott LLC",
+      "Operator": "dolor",
       "Values": [
-        "eum",
-        "quia"
+        "est",
+        "consequatur"
       ],
       "DisplayValues": [
-        "consectetur",
-        "qui"
+        "sequi",
+        "nulla"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 854,
+      "InterParenthesis": 187,
       "InterOperator": "And",
-      "UniqueHash": 818
+      "UniqueHash": 741
     }
   ],
-  "Context": "minima"
+  "Context": "nemo"
 }
 ```
 

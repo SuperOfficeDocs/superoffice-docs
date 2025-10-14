@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,13 +133,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2014-05-28T11:24:47.5783035+02:00",
-  "EndTime": "1998-10-16T11:24:47.5783035+02:00",
-  "Count": 772
+  "StartTime": "2021-12-19T03:40:46.0452033+01:00",
+  "EndTime": "2021-09-30T03:40:46.0452033+02:00",
+  "Count": 449
 }
 ```
 
@@ -150,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 517,
-    "StartDate": "2023-08-29T11:24:47.5783035+02:00",
-    "EndDate": "2019-08-23T11:24:47.5783035+02:00",
+    "AppointmentId": 715,
+    "StartDate": "2014-07-01T03:40:46.0452033+02:00",
+    "EndDate": "2019-11-21T03:40:46.0452033+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Miss Johan Cronin IV",
-    "ContactName": "Miller Group",
-    "Description": "Adaptive tangible framework",
-    "PersonFullName": "Prof. Karen Weimann DVM",
-    "PersonId": 546,
-    "ContactId": 370,
-    "ProjectId": 99,
-    "ProjectName": "Howe, Gulgowski and Rosenbaum",
+    "Task": "laudantium",
+    "AssociateFullName": "Brannon Jacobi",
+    "ContactName": "Lehner-Renner",
+    "Description": "Profound content-based capability",
+    "PersonFullName": "Miss Cloyd Harley Bailey MD",
+    "PersonId": 556,
+    "ContactId": 365,
+    "ProjectId": 314,
+    "ProjectName": "Koelpin-Schowalter",
     "IsPublished": false,
-    "AssociateId": 674,
-    "ColorIndex": 370,
-    "IsFree": false,
+    "AssociateId": 267,
+    "ColorIndex": 389,
+    "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 562,
-    "PriorityName": "Moen, Vandervort and Volkman",
+    "PriorityId": 500,
+    "PriorityName": "Hagenes, Greenholt and Keeling",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2010-01-04T11:24:47.5783035+01:00",
+    "ActiveDate": "2015-09-05T03:40:46.0452033+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-08-27T11:24:47.5783035+02:00",
-    "RecurringEndDate": "1998-05-20T11:24:47.5783035+02:00",
-    "MotherId": 690,
-    "AssignedBy": 467,
-    "AssignedByFullName": "Hassie Boyle",
+    "RecurringStartDate": "2004-07-12T03:40:46.0452033+02:00",
+    "RecurringEndDate": "2018-03-31T03:40:46.0452033+02:00",
+    "MotherId": 357,
+    "AssignedBy": 55,
+    "AssignedByFullName": "Miss Norma Odie Braun",
     "RejectReason": "",
-    "Location": "pariatur",
-    "AlarmLeadTime": "distinctio",
-    "SaleId": 964,
-    "SaleName": "Barrows, Funk and Cole",
-    "AssociateName": "Schaden, Berge and O'Hara",
-    "CreatedDate": "2009-09-13T11:24:47.5783035+02:00",
-    "CreatedBy": "tenetur",
-    "CreatedByFullName": "Ms. Lester Justine Dooley I",
-    "CreatedByAssociateId": 559,
+    "Location": "tenetur",
+    "AlarmLeadTime": "maiores",
+    "SaleId": 719,
+    "SaleName": "D'Amore Group",
+    "AssociateName": "Towne-Conroy",
+    "CreatedDate": "2007-11-15T03:40:46.0452033+01:00",
+    "CreatedBy": "aliquid",
+    "CreatedByFullName": "Dorthy Hills",
+    "CreatedByAssociateId": 268,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 332,
+    "MotherAssociateId": 306,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 659,
-    "Title": "tempore",
-    "Agenda": "iusto",
-    "InternalNotes": "temporibus",
+    "PreferredTZLocation": 673,
+    "Title": "eaque",
+    "Agenda": "hic",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 274
       }
     }
   }

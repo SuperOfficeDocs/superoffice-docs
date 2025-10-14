@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/SaveTargetDimension
 Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,21 +82,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 41,
+  "TargetDimensionId": 728,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "est",
-  "DimensionListName": "Shields Inc and Sons",
-  "DimensionListId": 225,
-  "DimensionListLabel": "repellat",
+  "DimensionListField": "mollitia",
+  "DimensionListName": "Romaguera-D'Amore",
+  "DimensionListId": 990,
+  "DimensionListLabel": "occaecati",
   "SelectedDimensions": [
-    165,
-    603
+    836,
+    583
   ]
 }
 ```
@@ -106,24 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 62,
+  "TargetDimensionId": 245,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "qui",
-  "DimensionListName": "Greenfelder, Bernier and Kris",
-  "DimensionListId": 482,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "quam",
+  "DimensionListName": "Dietrich-Marquardt",
+  "DimensionListId": 756,
+  "DimensionListLabel": "et",
   "SelectedDimensions": [
-    226,
-    969
+    445,
+    299
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 225
     }
   }
 }

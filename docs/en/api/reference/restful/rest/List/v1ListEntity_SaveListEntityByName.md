@@ -90,16 +90,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Effertz, Rice and Bosco",
-  "Tooltip": "labore",
-  "Deleted": true,
-  "Rank": 962,
+  "Id": 177,
+  "Name": "Dicki Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 219,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nesciunt",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Donnelly Group",
-  "Tooltip": "quo",
+  "Id": 197,
+  "Name": "Hudson-Jakubowski",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 561,
+  "Rank": 330,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "mollitia",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 554
     }
   }
 }

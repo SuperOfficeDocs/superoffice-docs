@@ -15,6 +15,7 @@ Creates a new AttachmentEntity
 
 
 Calls the Ticket agent service SaveAttachmentEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,17 +92,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 104,
-  "Name": "Adams-Kessler",
-  "ContentType": "molestiae",
-  "AttSize": 117,
+  "AttachmentId": 191,
+  "Name": "Macejkovic-Vandervort",
+  "ContentType": "et",
+  "AttSize": 182,
   "InlineImage": false,
-  "ContentId": "dolores",
-  "AuthKey": "accusamus",
+  "ContentId": "id",
+  "AuthKey": "asperiores",
   "IsSafeFileExtension": false
 }
 ```
@@ -113,20 +114,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 975,
-  "Name": "Franecki LLC",
-  "ContentType": "excepturi",
-  "AttSize": 820,
+  "AttachmentId": 878,
+  "Name": "Ritchie, Hamill and Hyatt",
+  "ContentType": "qui",
+  "AttSize": 723,
   "InlineImage": false,
-  "ContentId": "vero",
-  "AuthKey": "voluptatum",
-  "IsSafeFileExtension": false,
+  "ContentId": "ipsum",
+  "AuthKey": "magnam",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 518
     }
   },
   "_Links": {

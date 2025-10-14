@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 144,
-  "Name": "Zulauf Group",
-  "Tooltip": "voluptatem",
+  "HeadingId": 308,
+  "Name": "Ritchie, Hirthe and Wyman",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 195,
-  "UdListDefinitionId": 585
+  "Rank": 565,
+  "UdListDefinitionId": 106
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 850,
-  "Name": "Turcotte-Walker",
-  "Tooltip": "aliquam",
+  "HeadingId": 68,
+  "Name": "Treutel LLC",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 714,
-  "UdListDefinitionId": 527,
+  "Rank": 569,
+  "UdListDefinitionId": 941,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 889
     }
   }
 }

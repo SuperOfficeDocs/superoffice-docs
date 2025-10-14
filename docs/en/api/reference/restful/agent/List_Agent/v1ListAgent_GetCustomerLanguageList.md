@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCustomerLanguageList
 Gets an array of CustomerLanguage objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Value": "est",
-    "Tooltip": "sit",
+    "Id": 130,
+    "Value": "qui",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 808
       }
     }
   },
   {
-    "Id": 774,
-    "Value": "est",
-    "Tooltip": "sit",
+    "Id": 130,
+    "Value": "qui",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 808
       }
     }
   }

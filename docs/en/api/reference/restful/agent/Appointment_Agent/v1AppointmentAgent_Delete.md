@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/Delete
 Deleting a booking
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,13 +71,13 @@ No Content
 POST /api/v1/Agents/Appointment/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 412,
+  "AppointmentId": 516,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Create or Update the CRMScript information
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -87,11 +90,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "amet",
+  "UniqueIdentifier": "sit",
   "Crmscript": null
 }
 ```
@@ -103,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "natus",
-  "Name": "Bartell Inc and Sons",
-  "Description": "Automated homogeneous software",
-  "IncludeId": "dolores",
-  "Source": "non",
-  "Registered": "2021-02-12T11:24:47.8439178+01:00",
-  "RegisteredBy": "dolore",
-  "Updated": "2000-02-05T11:24:47.8439178+01:00",
-  "UpdatedBy": "sed",
-  "Path": "natus",
+  "UniqueIdentifier": "temporibus",
+  "Name": "Thompson Inc and Sons",
+  "Description": "Synchronised 5th generation intranet",
+  "IncludeId": "expedita",
+  "Source": "nihil",
+  "Registered": "1998-08-29T03:40:46.5149979+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2024-11-07T03:40:46.5149979+01:00",
+  "UpdatedBy": "eos",
+  "Path": "facere",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 428
     }
   }
 }

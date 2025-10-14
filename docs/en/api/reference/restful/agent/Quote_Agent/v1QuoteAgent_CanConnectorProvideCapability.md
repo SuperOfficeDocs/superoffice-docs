@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Can the connector provide the capability
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 762,
-  "CapabilityName": "Kuhic-Gusikowski"
+  "QuoteConnectionId": 188,
+  "CapabilityName": "Conroy, Johns and Hermann"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

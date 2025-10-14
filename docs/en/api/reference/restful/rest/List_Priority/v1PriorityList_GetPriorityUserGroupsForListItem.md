@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Orn, Fisher and Ruecker",
-    "ToolTip": "Et voluptas temporibus qui quia.",
-    "Deleted": true,
-    "Rank": 103,
-    "Type": "enim",
-    "ColorBlock": 744,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2014-11-10T11:24:53.9999166+01:00",
+    "Id": 613,
+    "Name": "Nolan-Jakubowski",
+    "ToolTip": "Accusantium et.",
+    "Deleted": false,
+    "Rank": 859,
+    "Type": "dolores",
+    "ColorBlock": 486,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "2010-07-14T03:40:56.9933484+02:00",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Bruen-Sipes",
-        "ToolTip": "Quo nam quia voluptatem tenetur.",
-        "Deleted": true,
-        "Rank": 984,
-        "Type": "sapiente",
-        "ColorBlock": 729,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "1999-11-17T11:24:53.9999166+01:00",
+        "Id": 729,
+        "Name": "Koss, Hodkiewicz and Lang",
+        "ToolTip": "Pariatur quia beatae similique quisquam autem dolore minima.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "tempora",
+        "ColorBlock": 575,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2009-10-28T03:40:56.9933484+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Karli Kassulke",
+        "ExtraInfo": "provident",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Francesco Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 413
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
+    "ExtraInfo": "incidunt",
     "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Berry Gottlieb",
+    "Hidden": false,
+    "FullName": "Tania Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 Adds members to the selection from the search result.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 272,
-  "StorageKey": "nihil"
+  "SelectionId": 731,
+  "StorageKey": "modi"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-5
+484
 ```

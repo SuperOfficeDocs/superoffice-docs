@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCurrencyList
 Gets an array of Currency objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Value": "laborum",
-    "Tooltip": "inventore",
+    "Id": 732,
+    "Value": "vero",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 297
       }
     }
   },
   {
-    "Id": 70,
-    "Value": "laborum",
-    "Tooltip": "inventore",
+    "Id": 732,
+    "Value": "vero",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 297
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Returns a default target assignment for the specified usergroup.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 202
+  "UserGroupId": 254
 }
 ```
 
@@ -98,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 715,
+    "TargetAssignmentInfoId": 251,
     "Values": [
-      95,
-      350
+      572,
+      345
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 141,
-    "DimensionListItemDisplayName": "Jewess-Padberg",
+    "DimensionListItem": 855,
+    "DimensionListItemDisplayName": "Kuvalis Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

@@ -30,6 +30,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -208,7 +209,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/contactfavourites?$select=streetAddress/city,streetAddress/addressId,contactAssociate/contactId
+GET /api/v1/archive/contactfavourites?$select=text,streetAddress/county,contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

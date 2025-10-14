@@ -41,8 +41,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Pocket:GetMyCallerIDs>
     <Pocket:LastHash xsi:type="xsd:string"></Pocket:LastHash>
-    <Pocket:MinDate xsi:type="xsd:dateTime">2025-09-19T09:23:50Z</Pocket:MinDate>
-    <Pocket:MaxDate xsi:type="xsd:dateTime">2025-09-19T09:23:50Z</Pocket:MaxDate>
+    <Pocket:MinDate xsi:type="xsd:dateTime">2025-10-14T01:39:40Z</Pocket:MinDate>
+    <Pocket:MaxDate xsi:type="xsd:dateTime">2025-10-14T01:39:40Z</Pocket:MaxDate>
    </Pocket:GetMyCallerIDs>
 
  </SOAP-ENV:Body>

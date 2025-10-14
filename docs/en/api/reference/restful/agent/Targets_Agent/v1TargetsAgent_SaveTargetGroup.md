@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/SaveTargetGroup
 Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,28 +76,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 962,
-  "Year": 273,
+  "TargetGroupId": 562,
+  "Year": 975,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 963,
+      "TargetAssignmentInfoId": 873,
       "Values": [
-        19,
-        174
+        670,
+        301
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 451,
-      "DimensionListItemDisplayName": "O'Kon LLC"
+      "DimensionListItem": 865,
+      "DimensionListItemDisplayName": "Okuneva-Brown"
     }
   ],
   "TargetDimension": null
@@ -109,30 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 393,
-  "Year": 127,
+  "TargetGroupId": 486,
+  "Year": 451,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 204,
+      "TargetAssignmentInfoId": 929,
       "Values": [
-        386,
-        94
+        263,
+        750
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 294,
-      "DimensionListItemDisplayName": "Witting Group",
+      "DimensionListItem": 658,
+      "DimensionListItemDisplayName": "Green, Kuvalis and Dickens",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 841
         }
       }
     }
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

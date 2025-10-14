@@ -15,6 +15,7 @@ Set default values into a new TicketMessageEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketMessageEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -93,28 +94,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 832,
+  "EjMessageId": 603,
   "Ticket": null,
-  "CreatedAt": "1999-12-24T11:24:53.703054+01:00",
+  "CreatedAt": "2011-04-11T03:40:56.3828469+02:00",
   "CreatedBy": null,
-  "Author": "expedita",
+  "Author": "hic",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quod",
-  "TimeSpent": 109,
-  "Body": "voluptatem",
-  "HtmlBody": "dolorem",
-  "EmailHeader": "cyrus_roberts@carroll.biz",
-  "DebugInfo": "quia",
-  "MailSorter": "et",
+  "MessageId": "et",
+  "TimeSpent": 930,
+  "Body": "soluta",
+  "HtmlBody": "et",
+  "EmailHeader": "derek@auer.us",
+  "DebugInfo": "officia",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolorem",
+  "SearchTitle": "quasi",
   "MessageHeaders": [
     {
-      "Id": 191,
-      "Name": "Goldner-Schmitt",
-      "Value": "vitae",
+      "Id": 862,
+      "Name": "Wolff, Wilkinson and Parisian",
+      "Value": "amet",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -122,50 +123,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldLength": 976
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolorem",
-  "Sentiment": 128,
-  "SentimentConfidence": 459,
+  "Important": true,
+  "Language": "dolores",
+  "Sentiment": 682,
+  "SentimentConfidence": 912,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 427,
-      "Name": "Rath Inc and Sons",
-      "ContentType": "nihil",
-      "AttSize": 44,
+      "AttachmentId": 546,
+      "Name": "Bins, West and Brakus",
+      "ContentType": "doloremque",
+      "AttSize": 514,
       "InlineImage": false,
-      "ContentId": "quos",
-      "AuthKey": "consequatur",
+      "ContentId": "placeat",
+      "AuthKey": "vero",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 844
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "vel"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "quas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

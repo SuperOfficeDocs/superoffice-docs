@@ -124,67 +124,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 573,
+  "EjMessageId": 668,
   "Ticket": null,
-  "CreatedAt": "2005-05-12T11:24:53.703054+02:00",
+  "CreatedAt": "2015-12-15T03:40:56.3828469+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 711,
-  "Body": "repudiandae",
-  "HtmlBody": "commodi",
-  "EmailHeader": "rosanna@watsica.co.uk",
-  "DebugInfo": "velit",
-  "MailSorter": "sed",
+  "MessageId": "dolorem",
+  "TimeSpent": 929,
+  "Body": "quos",
+  "HtmlBody": "dolorum",
+  "EmailHeader": "minnie@koelpin.co.uk",
+  "DebugInfo": "perferendis",
+  "MailSorter": "reprehenderit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "aliquam",
   "MessageHeaders": [
     {
-      "Id": 212,
-      "Name": "Oberbrunner, Rolfson and Kiehn",
-      "Value": "aut",
+      "Id": 2,
+      "Name": "Kertzmann-Littel",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 212,
-      "Name": "Oberbrunner, Rolfson and Kiehn",
-      "Value": "aut",
+      "Id": 2,
+      "Name": "Kertzmann-Littel",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "facilis",
-  "Sentiment": 563,
-  "SentimentConfidence": 36,
+  "Language": "eaque",
+  "Sentiment": 716,
+  "SentimentConfidence": 382,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 415,
-      "Name": "Murray, Dibbert and Wilkinson",
-      "ContentType": "nam",
-      "AttSize": 655,
+      "AttachmentId": 464,
+      "Name": "Kshlerin Group",
+      "ContentType": "officia",
+      "AttSize": 418,
       "InlineImage": false,
-      "ContentId": "vero",
-      "AuthKey": "a",
-      "IsSafeFileExtension": true
+      "ContentId": "nisi",
+      "AuthKey": "dignissimos",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "animi",
+    "CustomFields2": "deleniti"
   }
 }
 ```
@@ -196,28 +196,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 988,
+  "EjMessageId": 778,
   "Ticket": null,
-  "CreatedAt": "2008-05-23T11:24:53.703054+02:00",
+  "CreatedAt": "2002-01-16T03:40:56.3828469+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "eveniet",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aspernatur",
-  "TimeSpent": 545,
-  "Body": "sint",
-  "HtmlBody": "sed",
-  "EmailHeader": "dangelo@damore.com",
-  "DebugInfo": "vel",
-  "MailSorter": "doloribus",
+  "MessageId": "voluptates",
+  "TimeSpent": 711,
+  "Body": "nemo",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "coty_conn@wildermanankunding.ca",
+  "DebugInfo": "enim",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sint",
+  "SearchTitle": "fuga",
   "MessageHeaders": [
     {
-      "Id": 822,
-      "Name": "Heidenreich, Doyle and Wolf",
-      "Value": "nobis",
+      "Id": 972,
+      "Name": "Stoltenberg-Kerluke",
+      "Value": "recusandae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 787
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 247,
-  "SentimentConfidence": 558,
+  "Language": "officia",
+  "Sentiment": 792,
+  "SentimentConfidence": 10,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 749,
-      "Name": "Dietrich-Pollich",
-      "ContentType": "at",
-      "AttSize": 240,
+      "AttachmentId": 575,
+      "Name": "Mayert, Heathcote and Kihn",
+      "ContentType": "dolorum",
+      "AttSize": 941,
       "InlineImage": true,
-      "ContentId": "alias",
-      "AuthKey": "autem",
-      "IsSafeFileExtension": true,
+      "ContentId": "labore",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 278
+          "FieldLength": 43
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "et"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "vitae"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldLength": 627
     }
   }
 }

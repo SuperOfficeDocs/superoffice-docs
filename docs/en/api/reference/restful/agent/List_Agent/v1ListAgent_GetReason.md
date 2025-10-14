@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReason
 Gets a Reason object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Reason object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReason?reasonId=550
+POST /api/v1/Agents/List/GetReason?reasonId=689
 POST /api/v1/Agents/List/GetReason?$select=name,department,category/id
 ```
 
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 389,
-  "Value": "nam",
-  "Tooltip": "eligendi",
+  "Id": 71,
+  "Value": "sunt",
+  "Tooltip": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   }
 }

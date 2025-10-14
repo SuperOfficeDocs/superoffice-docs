@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetVersionList
 Get a list of existing, committed  versions for a given document
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 391
+  "DocumentId": 437
 }
 ```
 
@@ -96,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "natus",
-    "DocumentId": 296,
-    "VersionId": "est",
-    "CheckedInDate": "2003-03-10T11:24:48.0001535+01:00",
-    "CheckedInByName": "Predovic, Stehr and Quigley",
-    "CheckedInByAssociateId": 156,
-    "Description": "Versatile value-added workforce",
-    "DisplayText": "dolorem",
+    "ExternalReference": "molestiae",
+    "DocumentId": 907,
+    "VersionId": "non",
+    "CheckedInDate": "2014-09-27T03:40:46.7186366+02:00",
+    "CheckedInByName": "Rempel, Rau and Lockman",
+    "CheckedInByAssociateId": 987,
+    "Description": "Stand-alone secondary productivity",
+    "DisplayText": "autem",
     "ExtraFields": [
-      "recusandae",
-      "ex"
+      "officiis",
+      "consequatur"
     ]
   }
 ]

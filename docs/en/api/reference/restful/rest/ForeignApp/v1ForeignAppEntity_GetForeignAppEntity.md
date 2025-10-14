@@ -15,6 +15,7 @@ Gets a ForeignAppEntity object.
 
 
 Calls the ForeignSystem agent service GetForeignAppEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,32 +90,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Nov 2018 11:24:53 G11T
+Last-Modified: Thu, 05 Dec 2013 03:40:55 G12T
 
 {
-  "ForeignAppId": 479,
-  "Name": "Raynor-Hoppe",
-  "CreatedDate": "2017-09-01T11:24:53.2968202+02:00",
-  "UpdatedDate": "2018-11-06T11:24:53.2968202+01:00",
+  "ForeignAppId": 113,
+  "Name": "Rath-Gusikowski",
+  "CreatedDate": "2016-09-11T03:40:55.7569215+02:00",
+  "UpdatedDate": "2013-12-05T03:40:55.7569215+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 881,
-      "Name": "Jewess Inc and Sons",
-      "CreatedDate": "2022-05-20T11:24:53.2968202+02:00",
-      "UpdatedDate": "2016-09-06T11:24:53.2968202+02:00",
-      "AssociateFullName": "Earl Lueilwitz",
-      "CreatedBy": "deleniti",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "iste",
-      "ForeignAppId": 848,
+      "ForeignDeviceId": 853,
+      "Name": "Cole Inc and Sons",
+      "CreatedDate": "2003-12-23T03:40:55.7569215+01:00",
+      "UpdatedDate": "2001-08-01T03:40:55.7569215+02:00",
+      "AssociateFullName": "Wiley Hessel",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "corrupti",
+      "DeviceIdentifier": "eligendi",
+      "ForeignAppId": 267,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 674
         }
       }
     }
@@ -123,13 +124,13 @@ Last-Modified: Tue, 06 Nov 2018 11:24:53 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 566
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

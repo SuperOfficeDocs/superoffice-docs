@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Carroll-Kling",
-    "ToolTip": "Maiores debitis iusto tenetur dolor eos eius.",
+    "Id": 571,
+    "Name": "Huels, Franecki and Vandervort",
+    "ToolTip": "Repellendus non cumque quasi eaque labore.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "deserunt",
-    "ColorBlock": 595,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2003-03-27T11:24:53.9217949+01:00",
+    "Rank": 286,
+    "Type": "quis",
+    "ColorBlock": 645,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2012-09-17T03:40:56.805732+02:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Bruen-Beatty",
-        "ToolTip": "Dolores rerum sunt enim aut.",
+        "Id": 678,
+        "Name": "Weber-Kilback",
+        "ToolTip": "Ea temporibus accusantium ratione voluptatem.",
         "Deleted": false,
-        "Rank": 961,
-        "Type": "nam",
-        "ColorBlock": 711,
-        "IconHint": "et",
+        "Rank": 996,
+        "Type": "numquam",
+        "ColorBlock": 396,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2015-03-24T11:24:53.9217949+01:00",
+        "LastChanged": "2010-07-15T03:40:56.805732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "quia",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Mr. Skyla Ferry"
+        "FullName": "Evangeline Carroll"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "vel",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Dr. Jarret Senger II"
+    "FullName": "Hiram Murazik"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Buckridge-Hintz",
-    "ToolTip": "Eius tenetur soluta.",
+    "Id": 890,
+    "Name": "Welch-Gutmann",
+    "ToolTip": "Libero esse et.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "aut",
-    "ColorBlock": 860,
-    "IconHint": "ipsa",
-    "Selected": false,
-    "LastChanged": "2016-03-17T11:24:53.9217949+01:00",
+    "Rank": 699,
+    "Type": "error",
+    "ColorBlock": 655,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2015-06-26T03:40:56.8213578+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Glover, Mertz and Armstrong",
-        "ToolTip": "Est nesciunt.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "quisquam",
-        "ColorBlock": 52,
-        "IconHint": "iste",
+        "Id": 102,
+        "Name": "Balistreri LLC",
+        "ToolTip": "Laborum aut tenetur dolore laboriosam.",
+        "Deleted": true,
+        "Rank": 22,
+        "Type": "nihil",
+        "ColorBlock": 757,
+        "IconHint": "reiciendis",
         "Selected": true,
-        "LastChanged": "2019-10-04T11:24:53.9217949+02:00",
+        "LastChanged": "2017-05-28T03:40:56.8213578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Rosetta Powlowski",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Kasey Stracke IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldType": "System.String",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Conor Metz",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Danyka Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

@@ -14,6 +14,8 @@ PUT /api/v1/DashTheme/{id}
 Updates the existing DashTheme
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,16 +92,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 940,
-  "Name": "Barton-Hoeger",
-  "Config": "nobis",
-  "Rank": 345,
-  "Client": "dolores",
-  "Style": "eius"
+  "DashboardThemeId": 884,
+  "Name": "Abernathy, Kling and Streich",
+  "Config": "non",
+  "Rank": 894,
+  "Client": "sapiente",
+  "Style": "ut"
 }
 ```
 
@@ -110,23 +112,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 401,
-  "Name": "Trantow, Nicolas and Ruecker",
-  "Config": "sit",
-  "Rank": 708,
-  "Client": "magnam",
-  "Style": "fugit",
+  "DashboardThemeId": 486,
+  "Name": "Mertz-Gerhold",
+  "Config": "commodi",
+  "Rank": 642,
+  "Client": "enim",
+  "Style": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 158
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

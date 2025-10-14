@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetEmarketingStrictMode
 Turn on the Emarketing strict mode, which will enable full GDPR rules concerning Emarketing consents and subscriptions
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

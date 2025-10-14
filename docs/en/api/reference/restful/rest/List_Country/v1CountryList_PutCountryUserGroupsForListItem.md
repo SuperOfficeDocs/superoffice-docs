@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Balistreri LLC",
-    "ToolTip": "Velit quidem nam quos non omnis hic.",
+    "Id": 948,
+    "Name": "Kessler Inc and Sons",
+    "ToolTip": "Ut doloribus incidunt.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "explicabo",
-    "ColorBlock": 845,
-    "IconHint": "esse",
+    "Rank": 651,
+    "Type": "tempore",
+    "ColorBlock": 12,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2009-09-30T11:24:53.9061703+02:00",
+    "LastChanged": "2020-12-14T03:40:56.7744799+01:00",
     "ChildItems": [
       {
-        "Id": 470,
-        "Name": "Brekke, Davis and Lueilwitz",
-        "ToolTip": "Deleniti ut dicta numquam sit voluptatem nisi exercitationem.",
+        "Id": 716,
+        "Name": "Wilderman Group",
+        "ToolTip": "Ipsum impedit.",
         "Deleted": true,
-        "Rank": 763,
-        "Type": "nisi",
-        "ColorBlock": 930,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2024-11-20T11:24:53.9061703+01:00",
+        "Rank": 984,
+        "Type": "inventore",
+        "ColorBlock": 169,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2021-03-29T03:40:56.7744799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "libero",
+        "ExtraInfo": "qui",
+        "StyleHint": "deserunt",
         "Hidden": false,
-        "FullName": "Fannie Friesen"
+        "FullName": "Lucius Ledner DVM"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "numquam",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Arnold Jena Gibson II"
+    "FullName": "Dustin Beer"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Bergnaum LLC",
-    "ToolTip": "Cum veritatis aut.",
-    "Deleted": true,
-    "Rank": 238,
-    "Type": "et",
-    "ColorBlock": 581,
-    "IconHint": "quam",
+    "Id": 925,
+    "Name": "O'Kon-Hoeger",
+    "ToolTip": "Quo odio sunt sapiente eum est.",
+    "Deleted": false,
+    "Rank": 20,
+    "Type": "odit",
+    "ColorBlock": 34,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2012-04-04T11:24:53.9061703+02:00",
+    "LastChanged": "2003-06-23T03:40:56.7744799+02:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Roberts Inc and Sons",
-        "ToolTip": "Ut dolorum necessitatibus ipsum ipsum qui ea.",
-        "Deleted": true,
-        "Rank": 527,
-        "Type": "et",
-        "ColorBlock": 137,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2013-12-05T11:24:53.9061703+01:00",
+        "Id": 152,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Necessitatibus rerum culpa quidem nobis qui.",
+        "Deleted": false,
+        "Rank": 33,
+        "Type": "incidunt",
+        "ColorBlock": 273,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2000-12-30T03:40:56.7744799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Mr. Stevie Georgette Abshire Jr.",
+        "FullName": "Myrtie Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldLength": 38
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Vernice Pacocha PhD",
+    "ExtraInfo": "in",
+    "StyleHint": "ducimus",
+    "Hidden": true,
+    "FullName": "Rashad Gerry Fay V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldType": "System.Int32",
+        "FieldLength": 179
       }
     }
   }

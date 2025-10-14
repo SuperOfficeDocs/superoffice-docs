@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 141,
-  "Name": "Osinski-Williamson",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 125,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "esse",
-  "InUseByUserDefinedFields": false,
+  "Id": 680,
+  "Name": "Sipes, Abernathy and Corkery",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 79,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

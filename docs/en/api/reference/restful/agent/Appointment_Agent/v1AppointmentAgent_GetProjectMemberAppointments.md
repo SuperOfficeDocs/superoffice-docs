@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the projects where the person specified is member.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -137,10 +138,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 478,
-  "StartTime": "2011-10-18T11:24:47.2814408+02:00",
-  "EndTime": "2025-04-17T11:24:47.2814408+02:00",
-  "Count": 101
+  "PersonId": 69,
+  "StartTime": "2014-04-04T03:40:45.5918644+02:00",
+  "EndTime": "2010-07-26T03:40:45.5918644+02:00",
+  "Count": 19
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 430,
-    "StartDate": "2008-03-01T11:24:47.2970652+01:00",
-    "EndDate": "2009-11-17T11:24:47.2970652+01:00",
+    "AppointmentId": 109,
+    "StartDate": "2018-01-20T03:40:45.5918644+01:00",
+    "EndDate": "2001-02-05T03:40:45.5918644+01:00",
     "Type": "BookingForChecklist",
-    "Task": "accusantium",
-    "AssociateFullName": "Mr. Christy Frederic Jones",
-    "ContactName": "Trantow, Zieme and Runte",
-    "Description": "Team-oriented composite matrix",
-    "PersonFullName": "Dr. Jackeline Holden Langworth PhD",
-    "PersonId": 776,
-    "ContactId": 359,
-    "ProjectId": 119,
-    "ProjectName": "Yost Group",
+    "Task": "explicabo",
+    "AssociateFullName": "Declan Goodwin",
+    "ContactName": "Batz LLC",
+    "Description": "Optional global approach",
+    "PersonFullName": "Mrs. Zechariah Schiller",
+    "PersonId": 845,
+    "ContactId": 195,
+    "ProjectId": 863,
+    "ProjectName": "Farrell Group",
     "IsPublished": false,
-    "AssociateId": 579,
-    "ColorIndex": 711,
+    "AssociateId": 389,
+    "ColorIndex": 398,
     "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 236,
-    "PriorityName": "Roberts Group",
+    "PriorityId": 994,
+    "PriorityName": "Wiza, Renner and Conroy",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2015-05-02T11:24:47.2970652+02:00",
+    "ActiveDate": "2013-04-24T03:40:45.5918644+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-07-13T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2015-12-19T11:24:47.2970652+01:00",
-    "MotherId": 287,
-    "AssignedBy": 144,
-    "AssignedByFullName": "Verda O'Conner",
+    "RecurringStartDate": "2006-08-05T03:40:45.5918644+02:00",
+    "RecurringEndDate": "2000-08-05T03:40:45.5918644+02:00",
+    "MotherId": 511,
+    "AssignedBy": 867,
+    "AssignedByFullName": "Monte Pacocha III",
     "RejectReason": "",
-    "Location": "asperiores",
-    "AlarmLeadTime": "nihil",
-    "SaleId": 266,
-    "SaleName": "Auer-Lang",
-    "AssociateName": "Cormier Group",
-    "CreatedDate": "2025-03-16T11:24:47.2970652+01:00",
-    "CreatedBy": "quidem",
-    "CreatedByFullName": "Brett Durgan",
-    "CreatedByAssociateId": 970,
+    "Location": "quis",
+    "AlarmLeadTime": "laudantium",
+    "SaleId": 761,
+    "SaleName": "Bechtelar Group",
+    "AssociateName": "Ortiz Group",
+    "CreatedDate": "2000-06-23T03:40:45.5918644+02:00",
+    "CreatedBy": "quis",
+    "CreatedByFullName": "Jewel Lebsack",
+    "CreatedByAssociateId": 60,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 562,
+    "MotherAssociateId": 81,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 906,
-    "Title": "mollitia",
-    "Agenda": "perferendis",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 644,
+    "Title": "illum",
+    "Agenda": "voluptatem",
+    "InternalNotes": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldLength": 667
       }
     }
   }

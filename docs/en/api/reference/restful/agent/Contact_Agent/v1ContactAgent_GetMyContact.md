@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetMyContact
 Gets the contact belonging to the currently logged on user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -110,7 +112,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,157 +122,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 683,
-  "Name": "Mills LLC",
+  "ContactId": 881,
+  "Name": "Koepp, Quigley and Douglas",
   "Department": "",
-  "OrgNr": "687216",
-  "Number1": "918648",
-  "Number2": "1221920",
-  "UpdatedDate": "2007-10-23T11:24:47.7814202+02:00",
-  "CreatedDate": "2017-10-05T11:24:47.7814202+02:00",
+  "OrgNr": "325803",
+  "Number1": "1450545",
+  "Number2": "1144434",
+  "UpdatedDate": "2006-08-11T03:40:46.405616+02:00",
+  "CreatedDate": "2005-10-24T03:40:46.405616+02:00",
   "Emails": [
     {
-      "Value": "quia",
-      "StrippedValue": "quis",
-      "Description": "Persistent exuding capability",
+      "Value": "est",
+      "StrippedValue": "pariatur",
+      "Description": "Distributed assymetric circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "quis",
-      "Description": "Persistent exuding capability",
+      "Value": "est",
+      "StrippedValue": "pariatur",
+      "Description": "Distributed assymetric circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 106,
-      "Name": "Weissnat LLC",
-      "ToolTip": "Optio hic dolor doloribus beatae dolores rerum.",
+      "Id": 824,
+      "Name": "Crooks, Purdy and Lakin",
+      "ToolTip": "Veniam esse sit magni aliquam rem et aliquam.",
       "Deleted": false,
-      "Rank": 32,
-      "Type": "quia",
-      "ColorBlock": 615,
-      "IconHint": "est",
+      "Rank": 375,
+      "Type": "esse",
+      "ColorBlock": 684,
+      "IconHint": "fugiat",
       "Selected": false,
-      "LastChanged": "2002-10-27T11:24:47.7814202+01:00",
+      "LastChanged": "2020-04-22T03:40:46.405616+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "qui",
-      "Hidden": true,
-      "FullName": "Darron Gottlieb",
+      "ExtraInfo": "id",
+      "StyleHint": "omnis",
+      "Hidden": false,
+      "FullName": "Mrs. Kayli Armani Klein",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 392
+          "FieldLength": 409
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "cupiditate",
-      "StrippedValue": "rerum",
-      "Description": "Face to face bottom-line archive",
+      "Value": "illum",
+      "StrippedValue": "officiis",
+      "Description": "Multi-lateral even-keeled ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldType": "System.String",
+          "FieldLength": 416
         }
       }
     },
     {
-      "Value": "cupiditate",
-      "StrippedValue": "rerum",
-      "Description": "Face to face bottom-line archive",
+      "Value": "illum",
+      "StrippedValue": "officiis",
+      "Description": "Multi-lateral even-keeled ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldType": "System.String",
+          "FieldLength": 416
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "velit",
-      "StrippedValue": "distinctio",
-      "Description": "Vision-oriented national approach",
+      "Value": "quibusdam",
+      "StrippedValue": "qui",
+      "Description": "Universal interactive neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "distinctio",
-      "Description": "Vision-oriented national approach",
+      "Value": "quibusdam",
+      "StrippedValue": "qui",
+      "Description": "Universal interactive neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ex",
-      "StrippedValue": "velit",
-      "Description": "Optimized radical structure",
+      "Value": "unde",
+      "StrippedValue": "enim",
+      "Description": "Optimized stable Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldType": "System.Int32",
+          "FieldLength": 241
         }
       }
     },
     {
-      "Value": "ex",
-      "StrippedValue": "velit",
-      "Description": "Optimized radical structure",
+      "Value": "unde",
+      "StrippedValue": "enim",
+      "Description": "Optimized stable Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldType": "System.Int32",
+          "FieldLength": 241
         }
       }
     }
   ],
-  "Description": "Persistent 24/7 adapter",
+  "Description": "Public-key national circuit",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,102 +281,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "rerum",
-      "PersonId": 335,
-      "Mrmrs": "distinctio",
-      "Firstname": "Meaghan",
-      "Lastname": "Gulgowski",
-      "MiddleName": "Beatty LLC",
-      "Title": "odit",
-      "Description": "Cross-platform 4th generation algorithm",
-      "Email": "amanda@morissettepowlowski.ca",
-      "FullName": "Miss Darlene Koby Carter",
-      "DirectPhone": "624-934-0117 x94572",
-      "FormalName": "Orn, VonRueden and Hegmann",
-      "CountryId": 138,
-      "ContactId": 802,
-      "ContactName": "Altenwerth LLC",
-      "Retired": 604,
-      "Rank": 293,
-      "ActiveInterests": 8,
+      "Position": "aut",
+      "PersonId": 820,
+      "Mrmrs": "aliquam",
+      "Firstname": "Tad",
+      "Lastname": "Lang",
+      "MiddleName": "Lindgren, Schaden and Murazik",
+      "Title": "voluptates",
+      "Description": "Customer-focused object-oriented capability",
+      "Email": "meagan_kessler@rowe.co.uk",
+      "FullName": "Mrs. Thaddeus Pfannerstill MD",
+      "DirectPhone": "1-024-627-5646 x04273",
+      "FormalName": "Ankunding, Volkman and Jakubowski",
+      "CountryId": 656,
+      "ContactId": 382,
+      "ContactName": "Block Group",
+      "Retired": 61,
+      "Rank": 286,
+      "ActiveInterests": 580,
       "ContactDepartment": "",
-      "ContactCountryId": 629,
-      "ContactOrgNr": "1405422",
-      "FaxPhone": "242-854-8552 x346",
-      "MobilePhone": "784.522.2869 x554",
-      "ContactPhone": "1-690-120-4096",
-      "AssociateName": "Wilkinson-Blanda",
-      "AssociateId": 37,
-      "UsePersonAddress": false,
-      "ContactFax": "iusto",
-      "Kanafname": "aut",
-      "Kanalname": "autem",
-      "Post1": "consequatur",
-      "Post2": "qui",
-      "Post3": "est",
-      "EmailName": "myrtis_weber@joneseffertz.us",
-      "ContactFullName": "Mr. Hollie Pacocha",
-      "ActiveErpLinks": 533,
-      "TicketPriorityId": 444,
-      "SupportLanguageId": 294,
-      "SupportAssociateId": 710,
+      "ContactCountryId": 4,
+      "ContactOrgNr": "805623",
+      "FaxPhone": "1-766-399-6821 x019",
+      "MobilePhone": "814.701.6826 x494",
+      "ContactPhone": "1-239-858-1319 x24252",
+      "AssociateName": "Price-Welch",
+      "AssociateId": 511,
+      "UsePersonAddress": true,
+      "ContactFax": "alias",
+      "Kanafname": "et",
+      "Kanalname": "reprehenderit",
+      "Post1": "eum",
+      "Post2": "consequatur",
+      "Post3": "eveniet",
+      "EmailName": "brennan.shields@lakinmurray.biz",
+      "ContactFullName": "Broderick Pinkie Nicolas IV",
+      "ActiveErpLinks": 405,
+      "TicketPriorityId": 301,
+      "SupportLanguageId": 498,
+      "SupportAssociateId": 29,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "878034",
+      "PersonNumber": "226857",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 59
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "alias",
+  "NoMailing": true,
+  "Kananame": "nesciunt",
   "Xstop": true,
-  "ActiveInterests": 560,
-  "GroupId": 900,
-  "ActiveStatusMonitorId": 613,
+  "ActiveInterests": 267,
+  "GroupId": 898,
+  "ActiveStatusMonitorId": 721,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 452,
-  "DbiAgentId": 291,
-  "DbiLastSyncronized": "2014-08-09T11:24:47.7814202+02:00",
-  "DbiKey": "inventore",
-  "DbiLastModified": "2003-08-05T11:24:47.7814202+02:00",
+  "Deleted": 958,
+  "DbiAgentId": 958,
+  "DbiLastSyncronized": "2025-07-20T03:40:46.421242+02:00",
+  "DbiKey": "beatae",
+  "DbiLastModified": "2010-01-06T03:40:46.421242+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 391,
-  "ActiveErpLinks": 962,
+  "Source": 338,
+  "ActiveErpLinks": 614,
   "BounceEmails": [
-    "samir@bruen.ca",
-    "jermain.orn@wolff.com"
+    "corine_lakin@spencer.info",
+    "alford@stoltenberg.com"
   ],
   "Domains": [
-    "est",
-    "omnis"
+    "vitae",
+    "laborum"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Miss Jace Funk Jr."
+    "SuperOffice:1": "Elvie Harber",
+    "SuperOffice:2": "Faustino Parisian I"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "est"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "beatae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 263
     }
   }
 }

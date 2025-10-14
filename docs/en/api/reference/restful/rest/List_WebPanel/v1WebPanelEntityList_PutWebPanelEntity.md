@@ -117,28 +117,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 356,
-  "Name": "Christiansen, Weber and Mraz",
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "Rank": 551,
+  "WebPanelId": 97,
+  "Name": "Aufderhar, Zboncak and Halvorson",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 215,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Larkin-Quitzon",
+  "ShowInStatusBar": true,
+  "WindowName": "Heller, Marvin and Breitenberg",
   "Url": "http://www.example.com/",
-  "ProgId": "omnis",
-  "Icon": 665,
+  "ProgId": "nihil",
+  "Icon": 284,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -149,34 +149,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 718,
-  "Name": "McDermott, Gutkowski and Langosh",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 738,
+  "WebPanelId": 421,
+  "Name": "Bins, Lueilwitz and Reynolds",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 689,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Kunde Inc and Sons",
+  "ShowInStatusBar": true,
+  "WindowName": "Skiles-Kirlin",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 184,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "nihil",
+  "Icon": 73,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 209
     }
   }
 }

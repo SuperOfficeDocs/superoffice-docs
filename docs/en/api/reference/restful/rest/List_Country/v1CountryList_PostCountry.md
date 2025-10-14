@@ -100,28 +100,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CountryId": 228,
-  "Name": "Braun, Gerlach and Dickinson",
-  "CurrencyId": 827,
-  "EnglishName": "Kerluke Inc and Sons",
+  "Name": "Runte, Lang and Nikolaus",
+  "CurrencyId": 936,
+  "EnglishName": "Frami LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless interactive ability",
-  "OrgNrText": "723786",
-  "InterAreaPrefix": "soluta",
-  "DialInPrefix": "error",
-  "ZipPrefix": "et",
-  "DomainName": "Anderson-Reilly",
-  "AddressLayoutId": 509,
-  "DomesticAddressLayoutId": 550,
-  "ForeignAddressLayoutId": 767,
-  "Rank": 365,
-  "Tooltip": "odit",
-  "Deleted": false
+  "ImageDescription": "Profit-focused value-added extranet",
+  "OrgNrText": "1125009",
+  "InterAreaPrefix": "dolorum",
+  "DialInPrefix": "laudantium",
+  "ZipPrefix": "nemo",
+  "DomainName": "Friesen, Fadel and Terry",
+  "AddressLayoutId": 939,
+  "DomesticAddressLayoutId": 234,
+  "ForeignAddressLayoutId": 277,
+  "Rank": 574,
+  "Tooltip": "et",
+  "Deleted": true
 }
 ```
 
@@ -132,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 1002,
-  "Name": "Mayer Inc and Sons",
+  "CountryId": 767,
+  "Name": "Gutmann-Sporer",
   "CurrencyId": 788,
-  "EnglishName": "Bogan-Considine",
+  "EnglishName": "Will Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized client-driven software",
-  "OrgNrText": "1123838",
-  "InterAreaPrefix": "officiis",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "neque",
-  "DomainName": "Ruecker-Rice",
-  "AddressLayoutId": 244,
-  "DomesticAddressLayoutId": 451,
-  "ForeignAddressLayoutId": 897,
-  "Rank": 14,
-  "Tooltip": "tempore",
-  "Deleted": true,
+  "ImageDescription": "Networked analyzing collaboration",
+  "OrgNrText": "880511",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "rerum",
+  "ZipPrefix": "autem",
+  "DomainName": "Roob-Hermiston",
+  "AddressLayoutId": 886,
+  "DomesticAddressLayoutId": 265,
+  "ForeignAddressLayoutId": 815,
+  "Rank": 729,
+  "Tooltip": "placeat",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 530
     }
   }
 }

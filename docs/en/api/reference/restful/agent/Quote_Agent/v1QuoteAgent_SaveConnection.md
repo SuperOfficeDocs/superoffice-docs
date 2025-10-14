@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveConnection
 Saves a connection to the database.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -103,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 855,
-  "ERPName": "Howe Inc and Sons",
-  "DisplayName": "Nikolaus Group",
-  "DisplayDescription": "Business-focused responsive support",
-  "Rank": 708,
-  "ConnectorName": "Langworth-Kirlin",
-  "ErpConnectionId": 252,
-  "ExtraData": "fuga",
+  "QuoteConnectionId": 515,
+  "ERPName": "Dooley, Quitzon and Corkery",
+  "DisplayName": "O'Kon-Ward",
+  "DisplayDescription": "Fundamental local architecture",
+  "Rank": 99,
+  "ConnectorName": "Monahan, Harber and Lueilwitz",
+  "ErpConnectionId": 600,
+  "ExtraData": "dolor",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 896,
-      "ERPPriceListKey": "minima",
-      "QuoteConnectionId": 86,
-      "Name": "Mante Group",
-      "Description": "Automated responsive hub",
-      "Currency": "a",
-      "CurrencyName": "Ferry-Veum",
-      "ValidFrom": "2007-07-18T11:24:48.5313897+02:00",
-      "ValidTo": "2004-07-15T11:24:48.5313897+02:00",
+      "PriceListId": 129,
+      "ERPPriceListKey": "facilis",
+      "QuoteConnectionId": 620,
+      "Name": "Lehner Inc and Sons",
+      "Description": "Triple-buffered multi-state extranet",
+      "Currency": "itaque",
+      "CurrencyName": "Bartoletti Group",
+      "ValidFrom": "2025-02-08T03:40:47.5629587+01:00",
+      "ValidTo": "1998-07-25T03:40:47.5629587+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldType": "System.String",
+          "FieldLength": 66
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    729,
-    3
+    302,
+    827
   ],
   "AssociateAccessIds": [
-    217,
-    350
+    991,
+    960
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   }
 }

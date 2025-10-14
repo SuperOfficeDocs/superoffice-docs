@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Ratke LLC",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 581,
+  "Id": 188,
+  "Name": "Batz LLC",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 180,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "Rank": 480,
+  "Id": 367,
+  "Name": "Hilll-Zulauf",
+  "Tooltip": "culpa",
+  "Deleted": true,
+  "Rank": 964,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldLength": 602
     }
   }
 }

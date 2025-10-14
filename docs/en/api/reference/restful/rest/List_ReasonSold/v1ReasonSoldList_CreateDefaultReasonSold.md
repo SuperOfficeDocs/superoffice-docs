@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 214,
-  "Name": "Brown Inc and Sons",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "UdListDefinitionId": 575,
-  "Rank": 984,
+  "Id": 928,
+  "Name": "VonRueden-Kozey",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 83,
+  "Rank": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 958
     }
   }
 }

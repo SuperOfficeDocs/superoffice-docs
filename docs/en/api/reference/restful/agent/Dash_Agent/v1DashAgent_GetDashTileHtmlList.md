@@ -15,6 +15,7 @@ Get HTML for a dashboard tile definition with TileType = HTML.
 
 
 Retrieve a list with all registered languages.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 852
+  "DashboardTileDefinitionId": 846
 }
 ```
 
@@ -93,26 +94,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ipsum",
-    "Html": "itaque",
+    "LanguageCode": "quas",
+    "Html": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 934
       }
     }
   },
   {
-    "LanguageCode": "ipsum",
-    "Html": "itaque",
+    "LanguageCode": "quas",
+    "Html": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 934
       }
     }
   }

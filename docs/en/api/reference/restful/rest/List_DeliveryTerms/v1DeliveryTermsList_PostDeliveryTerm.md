@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "McKenzie, Mertz and Krajcik",
-  "Tooltip": "et",
+  "Id": 113,
+  "Name": "Emard LLC",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "UdListDefinitionId": 704,
-  "Rank": 879
+  "UdListDefinitionId": 900,
+  "Rank": 842
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Cassin Group",
-  "Tooltip": "voluptatem",
+  "Id": 703,
+  "Name": "Steuber-Abernathy",
+  "Tooltip": "optio",
   "Deleted": false,
-  "UdListDefinitionId": 251,
-  "Rank": 538,
+  "UdListDefinitionId": 507,
+  "Rank": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 985
     }
   }
 }

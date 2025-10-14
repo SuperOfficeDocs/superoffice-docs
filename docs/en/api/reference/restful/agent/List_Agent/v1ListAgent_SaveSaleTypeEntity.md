@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveSaleTypeEntity
 Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,51 +108,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 379,
-  "Name": "Stanton Group",
-  "Tooltip": "veniam",
-  "Rank": 267,
+  "SaleTypeId": 9,
+  "Name": "Nikolaus-Beier",
+  "Tooltip": "et",
+  "Rank": 116,
   "DurationUnit": "Century",
-  "SaleDuration": 606,
-  "SaleTypeCatId": 281,
+  "SaleDuration": 327,
+  "SaleTypeCatId": 806,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 548,
-  "QuoteLinesTemplate": 756,
-  "ConfirmationLinesTemplate": 251,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 853,
+  "QuoteLinesTemplate": 897,
+  "ConfirmationLinesTemplate": 211,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 109,
-  "MinEarningPercent": 788,
-  "GroupQuoteLinesBy": 587,
-  "SortGroupLinesBy": 489,
+  "MaxDiscountPercent": 756,
+  "MinEarningPercent": 684,
+  "GroupQuoteLinesBy": 290,
+  "SortGroupLinesBy": 660,
   "Stages": [
     {
-      "Id": 130,
-      "Name": "Bartoletti-Sporer",
-      "ToolTip": "Recusandae iste qui aperiam.",
-      "Deleted": true,
-      "Rank": 287,
-      "Type": "aspernatur",
-      "ColorBlock": 869,
-      "IconHint": "velit",
+      "Id": 485,
+      "Name": "Franecki-Schmidt",
+      "ToolTip": "Perferendis modi et perferendis ut ea numquam.",
+      "Deleted": false,
+      "Rank": 396,
+      "Type": "vel",
+      "ColorBlock": 265,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2010-07-02T11:24:48.2032781+02:00",
+      "LastChanged": "2006-07-24T03:40:47.0780355+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "quia",
+      "StyleHint": "sunt",
       "Hidden": false,
-      "FullName": "Rosalia O'Keefe DVM"
+      "FullName": "Karlee Pouros"
     }
   ]
 }
@@ -163,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 936,
-  "Name": "Graham LLC",
-  "Tooltip": "commodi",
-  "Rank": 90,
+  "SaleTypeId": 153,
+  "Name": "Boehm-Parker",
+  "Tooltip": "blanditiis",
+  "Rank": 825,
   "DurationUnit": "Century",
-  "SaleDuration": 750,
-  "SaleTypeCatId": 408,
+  "SaleDuration": 364,
+  "SaleTypeCatId": 325,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 397,
-  "QuoteLinesTemplate": 268,
-  "ConfirmationLinesTemplate": 770,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 731,
-  "MinEarningPercent": 907,
-  "GroupQuoteLinesBy": 67,
-  "SortGroupLinesBy": 5,
+  "DefaultQuoteValidity": 597,
+  "QuoteLinesTemplate": 105,
+  "ConfirmationLinesTemplate": 347,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 589,
+  "MinEarningPercent": 769,
+  "GroupQuoteLinesBy": 828,
+  "SortGroupLinesBy": 198,
   "Stages": [
     {
-      "Id": 296,
-      "Name": "Gutkowski, Gerlach and Koelpin",
-      "ToolTip": "Et dolor iusto dolorum.",
+      "Id": 363,
+      "Name": "Bernier Group",
+      "ToolTip": "Consectetur harum ut illo id animi.",
       "Deleted": false,
-      "Rank": 520,
-      "Type": "odit",
-      "ColorBlock": 647,
-      "IconHint": "officia",
+      "Rank": 290,
+      "Type": "sit",
+      "ColorBlock": 759,
+      "IconHint": "quas",
       "Selected": false,
-      "LastChanged": "2019-09-06T11:24:48.2032781+02:00",
+      "LastChanged": "2003-10-21T03:40:47.0780355+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "soluta",
-      "StyleHint": "ratione",
-      "Hidden": false,
-      "FullName": "Dr. Steve Konopelski I",
+      "ExtraInfo": "non",
+      "StyleHint": "non",
+      "Hidden": true,
+      "FullName": "Sid Feil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 21
         }
       }
     }
@@ -219,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 652
     }
   }
 }

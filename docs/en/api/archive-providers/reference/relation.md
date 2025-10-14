@@ -78,7 +78,9 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/personAssociateId| *None* |Source - Our contact: Displays our contact|  |
 |source/personAssociateFullName| *None* |Source - Our contact - Full name: Displays our contact|  |
 |source/personCategory| *None* |Source - Category|  |
+|source/personCategoryGroup| *None* |Source - Category group|  |
 |source/personBusiness| *None* |Source - Business|  |
+|source/leadstatus| *None* |Source - Lead status|  |
 |source/personDeletedDate| *None* |Source - Deleted date: Deleted date|  |
 |source/hasCompany| *None* |Source - Has company: The contact is associated with a company|  |
 |source/isProjectMember| *None* |Source - Is project member: This person is a project member|  |
@@ -105,6 +107,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
 |source/associateId|associate|Source - Our contact: Displays our contact| x |
 |source/category|listAny|Source - Category| x |
+|source/categoryGroup|listAny|Source - Category group| x |
 |source/business|listAny|Source - Business| x |
 |source/country|listAny|Source - Country: This criterion corresponds to the Country field on the Company card.| x |
 |source/countryId|int|Source - Country ID: Country ID| x |
@@ -121,13 +124,13 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
 |source/contactSource|listAny|Source - Source: Source (Company)| x |
 |source/contactDeleted|bool|Source - Deleted: Deleted| x |
-|source/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
-|source/deletedDate|datetime|Source - Deleted date: Deleted date|  |
-|source/mainContact| *None* |Source - Main contact: Main contact for this company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|source/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
+|source/deletedDate|datetime|Source - Deleted date: Deleted date|  |
+|source/mainContact| *None* |Source - Main contact: Main contact for this company| x |
 |source/contactPhone/formattedNumber|string|Source - Telephone - Phone: Displays phone number|  |
 |source/contactPhone/description|string|Source - Telephone - Description: Phone number description| x |
 |target/contactId|int|Target - Company ID: Database ID of company| x |
@@ -138,6 +141,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |target/associateId|associate|Target - Our contact: Displays our contact| x |
 |target/category|listAny|Target - Category| x |
+|target/categoryGroup|listAny|Target - Category group| x |
 |target/business|listAny|Target - Business| x |
 |target/country|listAny|Target - Country: This criterion corresponds to the Country field on the Company card.| x |
 |target/countryId|int|Target - Country ID: Country ID| x |
@@ -224,14 +228,14 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/contactAssociate/contactName| *None* |Target - Owning company: Name of the company the user belongs to|  |
 |target/contactAssociate/contactDepartment| *None* |Target - Owning department: Name of the department at the company the user belongs to|  |
 |target/contactAssociate/usergroup| *None* |Target - Primary group: The user's primary user group|  |
-|target/contactAssociate/usergroupId| *None* |Target - Group ID: The user's primary user group|  |
-|target/contactAssociate/contactFullName| *None* |Target - Owner: Name and department of the company the user belongs to|  |
-|target/contactAssociate/contactCategory| *None* |Target - Category: Category|  |
-|target/contactAssociate/role| *None* |Target - Role: Role|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|target/contactAssociate/usergroupId| *None* |Target - Group ID: The user's primary user group|  |
+|target/contactAssociate/contactFullName| *None* |Target - Owner: Name and department of the company the user belongs to|  |
+|target/contactAssociate/contactCategory| *None* |Target - Category: Category|  |
+|target/contactAssociate/role| *None* |Target - Role: Role|  |
 |target/contactAssociate/assocName| *None* |Target - User ID: User ID|  |
 |target/contactAssociate/assocTooltip| *None* |Target - Description: Description|  |
 |target/contactAssociate/assocType| *None* |Target - Type: Type of user: associate, external user, system user, anonymous account|  |
@@ -328,14 +332,14 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |role|listAny|Role : Role| x |
 |assocName|associate|User ID : User ID| x |
 |assocTooltip|string|Description : Description|  |
-|assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|ejUserId|int|Service user ID: The database ID of a Service user|  |
-|simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|ejDisplayName|string|Nick name: User's nick name in Service| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|ejUserId|int|Service user ID: The database ID of a Service user|  |
+|simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|ejDisplayName|string|Nick name: User's nick name in Service| x |
 |ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -387,7 +391,9 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |target/personAssociateId| *None* |Target - Our contact: Displays our contact|  |
 |target/personAssociateFullName| *None* |Target - Our contact - Full name: Displays our contact|  |
 |target/personCategory| *None* |Target - Category|  |
+|target/personCategoryGroup| *None* |Target - Category group|  |
 |target/personBusiness| *None* |Target - Business|  |
+|target/leadstatus| *None* |Target - Lead status|  |
 |target/personDeletedDate| *None* |Target - Deleted date: Deleted date|  |
 |target/hasCompany| *None* |Target - Has company: The contact is associated with a company|  |
 |target/isProjectMember| *None* |Target - Is project member: This person is a project member|  |
@@ -430,16 +436,16 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/postAddress/wgs84longitude| *None* |Source - Postal address - Longitude: Longitude|  |
 |source/postAddress/formattedAddress| *None* |Source - Postal address - {formattedAddress}: {formattedAddress}|  |
 |source/postAddress/formattedMultiLineAddress| *None* |Source - Postal address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/streetAddress/addressId| *None* |Source - Street address - Address ID: Database ID for the address record|  |
 |source/streetAddress/line1| *None* |Source - Street address - Address 1: First line of the address|  |
 |source/streetAddress/line2| *None* |Source - Street address - Address 2: Second line of the address|  |
 |source/streetAddress/line3| *None* |Source - Street address - Address 3: Third line of the address|  |
 |source/streetAddress/county| *None* |Source - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |source/streetAddress/city| *None* |Source - Street address - City: This criterion corresponds to the City field on the Company card.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |source/streetAddress/zip| *None* |Source - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
 |source/streetAddress/state| *None* |Source - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |source/streetAddress/wgs84latitude| *None* |Source - Street address - Latitude: Latitude|  |
@@ -534,16 +540,16 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 |source/NumberOfSales| *None* |Source - Number of sales|  |
 |source/NumberOfSalesInPeriod| *None* |Source - Number of sales in last 90 days|  |
 |source/NumberOfNotCompletedSales| *None* |Source - Number of non-completed sales|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |source/NumberOfNotCompletedSalesInPeriod| *None* |Source - Number of non-completed sales in last 90 days|  |
 |source/LastSale| *None* |Source - Date of last sale|  |
 |source/LastCompletedSale| *None* |Source - Date of last completed sale|  |
 |source/LastDoBySale| *None* |Source - Date of last non-completed sale|  |
 |source/NumberOfTickets| *None* |Source - Number of requests|  |
 |source/NumberOfTicketsInPeriod| *None* |Source - Number of requests in last 90 days|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |source/NumberOfNotCompletedTickets| *None* |Source - Number of non-completed requests|  |
 |source/NumberOfNotCompletedTicketsInPeriod| *None* |Source - Number of non-completed requests in last 90 days|  |
 |source/LastTicket| *None* |Source - Date of last request|  |
@@ -562,7 +568,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/personPager/description,target/streetAddress/line3,target/saintTicketStatus,target/personActiveErpLinks,target/personPager/formattedNumber
+GET /api/v1/archive/Relation?$select=source/birthdate,target/postAddress/wgs84latitude,target/NumberOfSales,source/postAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

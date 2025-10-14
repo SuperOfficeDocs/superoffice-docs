@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 Gets a ShipmentMessageBlockEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=399
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=774
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -85,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 628,
-  "AssociateId": 628,
-  "Block": "qui",
-  "Registered": "2011-07-27T11:24:48.2657757+02:00",
-  "RegisteredAssociateId": 11,
-  "Updated": "2021-06-13T11:24:48.2657757+02:00",
-  "UpdatedAssociateId": 629,
-  "UpdatedCount": 491,
+  "ShipmentMessageBlockId": 958,
+  "AssociateId": 81,
+  "Block": "architecto",
+  "Registered": "2010-07-19T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 634,
+  "Updated": "2008-10-04T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 643,
+  "UpdatedCount": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 898
     }
   }
 }

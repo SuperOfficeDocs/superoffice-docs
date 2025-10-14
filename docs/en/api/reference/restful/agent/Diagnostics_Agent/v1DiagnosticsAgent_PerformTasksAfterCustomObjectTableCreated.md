@@ -15,6 +15,7 @@ A temporary method to be used from c++ until CustomObjectsAgent.
 
 
 CreateTable implemented in NetServer
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/Diagnostics/PerformTasksAfterCustomObjectTableCreated
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Renner-Boehm"
+  "TableName": "Dooley-Blick"
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectMembers
 Returns an array of project members
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 242
+  "ProjectId": 669
 }
 ```
 
@@ -112,35 +114,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 456,
-    "ContactId": 533,
-    "ProjectId": 340,
-    "ContactName": "Daugherty LLC",
-    "ContactDepartment": "transform value-added action-items",
-    "ProjectName": "Jenkins, Schowalter and Murazik",
-    "EmailId": 878,
-    "EmailAddress": "koby_ortiz@balistreri.ca",
-    "CountryId": 582,
-    "Firstname": "Lou",
-    "MiddleName": "Boyer LLC",
-    "Lastname": "Baumbach",
-    "PersonId": 780,
-    "Mrmrs": "provident",
-    "ProjectMemberTypeName": "Romaguera LLC",
-    "Phone": "1-424-130-6112 x32542",
-    "PhoneId": 77,
-    "ProjectMemberTypeId": 913,
-    "EmailAddressName": "maggie.kirlin@mann.co.uk",
-    "Comment": "aut",
-    "FullName": "Adrienne Jayce Adams I",
-    "Registered": "2020-07-09T11:24:48.5001409+02:00",
-    "Updated": "2002-10-29T11:24:48.5001409+01:00",
+    "ProjectmemberId": 559,
+    "ContactId": 137,
+    "ProjectId": 377,
+    "ContactName": "Jenkins, Stiedemann and Runolfsdottir",
+    "ContactDepartment": "",
+    "ProjectName": "Toy Inc and Sons",
+    "EmailId": 743,
+    "EmailAddress": "meghan.bayer@donnellynitzsche.ca",
+    "CountryId": 906,
+    "Firstname": "Coby",
+    "MiddleName": "Spinka-Kozey",
+    "Lastname": "Maggio",
+    "PersonId": 627,
+    "Mrmrs": "nam",
+    "ProjectMemberTypeName": "Stracke-Pouros",
+    "Phone": "(785)965-6260 x331",
+    "PhoneId": 695,
+    "ProjectMemberTypeId": 60,
+    "EmailAddressName": "abbey@bahringer.co.uk",
+    "Comment": "eius",
+    "FullName": "Tina Ruecker",
+    "Registered": "2022-01-26T03:40:47.4999832+01:00",
+    "Updated": "2006-03-12T03:40:47.4999832+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 927
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

@@ -15,6 +15,7 @@ Deletes the ContactEntity.
 
 
 This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -28,7 +29,7 @@ This table supports Soft Delete; records will be marked as deleted and disappear
 | contactEntityId | int32 | **Required** The identity of the ContactEntity |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=294
+POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=656
 ```
 
 

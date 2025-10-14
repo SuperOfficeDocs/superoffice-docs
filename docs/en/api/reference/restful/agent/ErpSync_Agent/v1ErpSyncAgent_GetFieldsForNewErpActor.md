@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Get the fields that must be filled out when creating a new ERP actor
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -86,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 330,
+  "ErpConnectionId": 627,
   "ErpActorType": "Customer"
 }
 ```
@@ -103,14 +106,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "minima",
-    "Rank": 23,
-    "DisplayName": "Swift-Schuster",
-    "DisplayDescription": "Virtual assymetric middleware",
+    "FieldKey": "dicta",
+    "Rank": 531,
+    "DisplayName": "Ortiz, Hodkiewicz and Kuvalis",
+    "DisplayDescription": "Front-line global extranet",
     "FieldType": "Checkbox",
-    "ListName": "Kilback LLC",
-    "DefaultValue": "enim",
-    "MaxLength": 244,
+    "ListName": "Weissnat-White",
+    "DefaultValue": "aliquid",
+    "MaxLength": 693,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -118,7 +121,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 595
       }
     }
   }

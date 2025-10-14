@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetSelectionEntity
 Gets a SelectionEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=534
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=178
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -108,7 +110,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,70 +120,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated 24 hour concept",
-  "Postit": "rerum",
+  "Description": "Robust encompassing model",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 95,
-  "IncludePerson": 619,
+  "GroupIdx": 428,
+  "IncludePerson": 547,
   "MemberCount": 99.99,
-  "Name": "Lang Group",
-  "PostitTextId": 822,
-  "CreatedDate": "2018-09-14T11:24:48.6251358+02:00",
-  "SelectionId": 427,
-  "SoundEx": "maiores",
-  "Source": 669,
-  "TextId": 886,
-  "UpdatedDate": "2004-06-29T11:24:48.6251358+02:00",
-  "UpdatedCount": 503,
-  "Visibility": 709,
+  "Name": "Goyette Inc and Sons",
+  "PostitTextId": 578,
+  "CreatedDate": "2025-02-26T03:40:47.7192182+01:00",
+  "SelectionId": 29,
+  "SoundEx": "quia",
+  "Source": 862,
+  "TextId": 615,
+  "UpdatedDate": "2010-04-29T03:40:47.7192182+02:00",
+  "UpdatedCount": 878,
+  "Visibility": 188,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 574,
-  "TargetTableName": "Hamill Group",
+  "TargetTableNumber": 451,
+  "TargetTableName": "Weimann LLC",
   "Completed": false,
-  "LeftSelectionId": 664,
-  "RightSelectionId": 82,
+  "LeftSelectionId": 631,
+  "RightSelectionId": 871,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Friesen LLC",
-  "ShadowProviderName": "Frami-Armstrong",
-  "ChartKey": "beatae",
-  "LastLoaded": "2012-04-15T11:24:48.6251358+02:00",
-  "LastLoadedBy": 21,
+  "MainProviderName": "Koch, Rodriguez and Pouros",
+  "ShadowProviderName": "Rolfson, Welch and Feest",
+  "ChartKey": "debitis",
+  "LastLoaded": "2001-08-03T03:40:47.7192182+02:00",
+  "LastLoadedBy": 368,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-02-23T11:24:48.6251358+01:00",
-  "LastMembershipChangeBy": 67,
+  "LastMembershipChange": "2025-10-01T03:40:47.7192182+02:00",
+  "LastMembershipChangeBy": 680,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Abbott Group",
-  "DashboardTileDefinitionId": 655,
+  "MainHeading": "atque",
+  "MemberTabHeading": "nam",
+  "MailingsProviderName": "Huel-Abshire",
+  "DashboardTileDefinitionId": 641,
   "VisibleFor": [
     {
-      "VisibleId": 620,
+      "VisibleId": 445,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 894
         }
       }
     },
     {
-      "VisibleId": 620,
+      "VisibleId": 445,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 894
         }
       }
     }
@@ -191,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldLength": 42
     }
   }
 }

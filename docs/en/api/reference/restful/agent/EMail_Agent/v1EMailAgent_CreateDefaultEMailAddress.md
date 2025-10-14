@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Loading default values into a new EMailAddress.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -66,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 76,
-  "ContactName": "Mante LLC",
-  "PersonId": 420,
-  "PersonName": "Armstrong, Hane and Feest",
-  "AssociateId": 180,
-  "Address": "quam",
-  "EmailId": 991,
+  "ContactId": 523,
+  "ContactName": "Bashirian-Larson",
+  "PersonId": 841,
+  "PersonName": "Cartwright, Crona and Hintz",
+  "AssociateId": 311,
+  "Address": "aut",
+  "EmailId": 377,
   "DuplicatePersonIds": [
-    526,
-    274
+    817,
+    619
   ],
-  "Name": "Mohr LLC",
+  "Name": "Wisozk-Bashirian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

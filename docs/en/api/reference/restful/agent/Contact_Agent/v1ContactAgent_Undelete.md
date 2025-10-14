@@ -15,6 +15,7 @@ This entity supports Soft Delete.
 
 
 Call this method to Undelete a previously soft-deleted record
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331
+  "Id": 302
 }
 ```
 

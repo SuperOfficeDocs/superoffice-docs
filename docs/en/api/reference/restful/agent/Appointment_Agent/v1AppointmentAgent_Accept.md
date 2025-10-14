@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/Accept
 Accepting an appointment invitation.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 56,
+  "AppointmentId": 509,
   "UpdateMode": "OnlyThis"
 }
 ```

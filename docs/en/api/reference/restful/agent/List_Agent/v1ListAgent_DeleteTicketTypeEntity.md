@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteTicketTypeEntity
 Deletes the TicketTypeEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TicketTypeEntity
 | ticketTypeEntityId | int32 | **Required** The identity of the TicketTypeEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketTypeEntity?ticketTypeEntityId=449
+POST /api/v1/Agents/List/DeleteTicketTypeEntity?ticketTypeEntityId=18
 ```
 
 

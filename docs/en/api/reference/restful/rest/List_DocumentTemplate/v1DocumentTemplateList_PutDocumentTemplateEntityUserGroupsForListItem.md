@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Rohan LLC",
-    "ToolTip": "Suscipit omnis nihil.",
-    "Deleted": true,
-    "Rank": 824,
-    "Type": "voluptate",
-    "ColorBlock": 252,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2014-11-26T11:24:53.9374193+01:00",
+    "Id": 163,
+    "Name": "Hackett Group",
+    "ToolTip": "Velit doloremque porro sint.",
+    "Deleted": false,
+    "Rank": 112,
+    "Type": "possimus",
+    "ColorBlock": 476,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2005-04-03T03:40:56.8369839+02:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Schultz, McDermott and Harvey",
-        "ToolTip": "Est quasi.",
-        "Deleted": false,
-        "Rank": 896,
-        "Type": "est",
-        "ColorBlock": 854,
-        "IconHint": "eum",
+        "Id": 543,
+        "Name": "Medhurst, Schmitt and McLaughlin",
+        "ToolTip": "Qui nobis non dolorum.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "saepe",
+        "ColorBlock": 484,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2022-07-20T11:24:53.9374193+02:00",
+        "LastChanged": "2002-03-16T03:40:56.8369839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Hailee Deondre Wiza Sr."
+        "ExtraInfo": "voluptate",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Glennie Jacklyn Feest III"
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Rodger Balistreri MD"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Lane Berge"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Name": "Stamm, Bogisich and Mitchell",
-    "ToolTip": "Et natus sit.",
+    "Id": 691,
+    "Name": "Daniel-Barrows",
+    "ToolTip": "Voluptatibus voluptatem provident eveniet rerum rerum distinctio.",
     "Deleted": false,
-    "Rank": 571,
-    "Type": "ad",
-    "ColorBlock": 422,
-    "IconHint": "neque",
+    "Rank": 513,
+    "Type": "et",
+    "ColorBlock": 898,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2023-11-07T11:24:53.9374193+01:00",
+    "LastChanged": "2023-09-27T03:40:56.8526098+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Beer Group",
-        "ToolTip": "Quae sequi at aliquid ad vel velit ducimus.",
-        "Deleted": true,
-        "Rank": 382,
-        "Type": "ipsam",
-        "ColorBlock": 483,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2013-02-16T11:24:53.9374193+01:00",
+        "Id": 508,
+        "Name": "Kemmer LLC",
+        "ToolTip": "Totam dolor harum architecto.",
+        "Deleted": false,
+        "Rank": 967,
+        "Type": "aspernatur",
+        "ColorBlock": 29,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2010-10-14T03:40:56.8526098+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "unde",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Dr. Tracy Zemlak",
+        "FullName": "Mathew Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldType": "System.String",
+            "FieldLength": 444
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "hic",
+    "ExtraInfo": "est",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Gia Marianne Sanford",
+    "FullName": "Abraham Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldType": "System.String",
+        "FieldLength": 971
       }
     }
   }

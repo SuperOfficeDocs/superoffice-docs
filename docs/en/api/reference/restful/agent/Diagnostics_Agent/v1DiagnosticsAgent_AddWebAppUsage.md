@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/AddWebAppUsage
 Adds WebApp usage to existing log
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,19 +67,19 @@ No Content
 POST /api/v1/Agents/Diagnostics/AddWebAppUsage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 827,
-      "AssocId": 441,
-      "Timestamp": "2006-09-20T11:24:47.8751665+02:00",
-      "ViewState": "sapiente",
-      "AggregateCount": 605,
-      "AggregateBin": 925,
-      "Version": 729
+      "WebAppUsageId": 889,
+      "AssocId": 505,
+      "Timestamp": "2000-05-02T03:40:46.5780122+02:00",
+      "ViewState": "enim",
+      "AggregateCount": 211,
+      "AggregateBin": 848,
+      "Version": 292
     }
   ]
 }

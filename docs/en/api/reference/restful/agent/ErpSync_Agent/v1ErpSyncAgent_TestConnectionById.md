@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/TestConnectionById
 Tests to see if we can establish a connection with the given config fields
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,11 +74,11 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectionById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 279
+  "ErpConnectionId": 746
 }
 ```
 
@@ -85,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

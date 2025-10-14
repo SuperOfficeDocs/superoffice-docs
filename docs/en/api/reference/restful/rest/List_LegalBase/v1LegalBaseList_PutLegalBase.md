@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 809,
-  "Name": "Torphy Inc and Sons",
-  "Tooltip": "quasi",
-  "Rank": 10,
-  "Key": "possimus",
-  "Deleted": false
+  "LegalBaseId": 780,
+  "Name": "Orn, Grady and McGlynn",
+  "Tooltip": "et",
+  "Rank": 949,
+  "Key": "laudantium",
+  "Deleted": true
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 779,
-  "Name": "Powlowski Inc and Sons",
-  "Tooltip": "iure",
-  "Rank": 800,
-  "Key": "alias",
+  "LegalBaseId": 632,
+  "Name": "Bradtke Inc and Sons",
+  "Tooltip": "consectetur",
+  "Rank": 691,
+  "Key": "voluptas",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 505
     }
   }
 }

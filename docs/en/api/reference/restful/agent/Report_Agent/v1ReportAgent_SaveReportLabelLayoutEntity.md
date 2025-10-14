@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,22 +88,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 24,
-  "Name": "Heaney, Harber and Schulist",
-  "Description": "Profit-focused leading edge function",
+  "ReportLabelLayoutId": 435,
+  "Name": "O'Kon-Haley",
+  "Description": "Distributed clear-thinking benchmark",
   "Orientation": "Landscape",
-  "PaperWidth": 511,
-  "PaperHeight": 302,
-  "LeftMargin": 59,
-  "RightMargin": 340,
-  "TopMargin": 779,
-  "BottomMargin": 161,
-  "CountColumns": 418,
-  "CountRows": 616
+  "PaperWidth": 382,
+  "PaperHeight": 118,
+  "LeftMargin": 328,
+  "RightMargin": 11,
+  "TopMargin": 801,
+  "BottomMargin": 976,
+  "CountColumns": 534,
+  "CountRows": 354
 }
 ```
 
@@ -112,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 819,
-  "Name": "Yost-Yundt",
-  "Description": "Cross-platform systemic Graphical User Interface",
+  "ReportLabelLayoutId": 369,
+  "Name": "Ebert Inc and Sons",
+  "Description": "Cross-group bi-directional architecture",
   "Orientation": "Landscape",
-  "PaperWidth": 20,
-  "PaperHeight": 104,
-  "LeftMargin": 628,
-  "RightMargin": 368,
-  "TopMargin": 512,
-  "BottomMargin": 972,
-  "CountColumns": 12,
-  "CountRows": 218,
+  "PaperWidth": 319,
+  "PaperHeight": 691,
+  "LeftMargin": 386,
+  "RightMargin": 728,
+  "TopMargin": 592,
+  "BottomMargin": 645,
+  "CountColumns": 49,
+  "CountRows": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

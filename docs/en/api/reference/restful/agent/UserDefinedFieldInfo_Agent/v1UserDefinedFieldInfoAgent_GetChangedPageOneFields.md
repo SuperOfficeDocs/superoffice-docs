@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetChangedPageOneFields
 Gets which page one fields have changed from the current version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 102
+  "UserGroupId": 431
 }
 ```
 
@@ -86,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  true,
+  false,
   false
 ]
 ```

@@ -15,6 +15,7 @@ Get all documents that are linked to the appointment.
 
 
 I.e. the documents that are listed in the appointment dialog.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 99
+  "AppointmentId": 692
 }
 ```
 
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 510,
-    "Attention": "optio",
-    "Header": "aut",
-    "Name": "Kutch Inc and Sons",
-    "OurRef": "autem",
-    "YourRef": "id",
-    "Description": "Front-line transitional open architecture",
-    "DocumentTemplate": "voluptatem",
-    "IsPublished": false,
-    "PersonId": 588,
-    "PersonFullName": "Miss Joesph Dianna Morar MD",
-    "AssociateFullName": "Miss Alvera Dante Jakubowski MD",
-    "ContactId": 397,
-    "ContactName": "Runolfsdottir, Metz and Marks",
-    "ProjectId": 95,
-    "ProjectName": "Cartwright, Leffler and Kuhlman",
-    "AssociateId": 418,
-    "Snum": 216,
-    "SaleId": 941,
-    "SaleName": "Adams Group",
+    "DocumentId": 556,
+    "Attention": "sint",
+    "Header": "debitis",
+    "Name": "Effertz, Glover and Boehm",
+    "OurRef": "labore",
+    "YourRef": "quisquam",
+    "Description": "Fundamental 3rd generation monitoring",
+    "DocumentTemplate": "doloremque",
+    "IsPublished": true,
+    "PersonId": 354,
+    "PersonFullName": "Mrs. Christy Emmalee Kuvalis",
+    "AssociateFullName": "Tracey Vandervort",
+    "ContactId": 892,
+    "ContactName": "Bosco LLC",
+    "ProjectId": 981,
+    "ProjectName": "Bailey, Hagenes and Nolan",
+    "AssociateId": 440,
+    "Snum": 477,
+    "SaleId": 969,
+    "SaleName": "Crona-Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldLength": 243
       }
     }
   }

@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/TranslateEntity
 Retrieve, format and translate text for an entity to a specified language
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Rolfson Group",
-  "EntityId": 337,
-  "TargetLanguage": "eaque"
+  "EntityName": "Farrell-Reichel",
+  "EntityId": 322,
+  "TargetLanguage": "quo"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"enim"
+"et"
 ```

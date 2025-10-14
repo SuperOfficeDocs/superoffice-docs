@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 634,
-    "Name": "Skiles, Dibbert and Gorczany",
-    "Tooltip": "optio",
+    "HeadingId": 688,
+    "Name": "Graham-Raynor",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 529,
-    "UdListDefinitionId": 777,
+    "Rank": 867,
+    "UdListDefinitionId": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 636
+        "FieldLength": 866
       }
     }
   }

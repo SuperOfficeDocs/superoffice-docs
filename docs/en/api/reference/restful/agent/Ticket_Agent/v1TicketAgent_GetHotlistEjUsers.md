@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetHotlistEjUsers
 Get a list of ej_user ids who should receive hotlist notification based on request and notification type
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -76,10 +78,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 867,
+  "TicketId": 544,
   "SkipAssociateIds": [
-    95,
-    37
+    812,
+    307
   ],
   "NotifyType": "ActiveTickets",
   "Channel": "Email"
@@ -93,7 +95,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  554,
-  963
+  197,
+  224
 ]
 ```

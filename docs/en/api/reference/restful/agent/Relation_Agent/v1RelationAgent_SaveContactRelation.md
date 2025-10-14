@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/SaveContactRelation
 Creates a new or updates an existing contact relation.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 825,
-  "SourcePersonId": 219,
-  "DestinationContactId": 469,
-  "DestinationPersonId": 692,
-  "RelationId": 569,
-  "Comment": "necessitatibus",
-  "RelationDefinitionId": 848,
-  "Reversed": 782,
-  "UpdatedDate": "2006-08-26T11:24:48.5470141+02:00",
-  "CreatedDate": "2015-06-16T11:24:48.5470141+02:00",
+  "SourceContactId": 737,
+  "SourcePersonId": 414,
+  "DestinationContactId": 656,
+  "DestinationPersonId": 345,
+  "RelationId": 594,
+  "Comment": "nulla",
+  "RelationDefinitionId": 341,
+  "Reversed": 279,
+  "UpdatedDate": "2018-09-11T03:40:47.5942106+02:00",
+  "CreatedDate": "1998-12-22T03:40:47.5942106+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hessel Inc and Sons",
-  "SourcePersonName": "Homenick LLC",
-  "DestinationContactName": "Lang LLC",
-  "DestinationPersonName": "Stiedemann Group",
-  "ActiveText": "quis",
-  "PassiveText": "aut",
+  "SourceContactName": "Cummerata, Lemke and Jones",
+  "SourcePersonName": "Turner Group",
+  "DestinationContactName": "Anderson, Cormier and Hackett",
+  "DestinationPersonName": "Eichmann, Langosh and Bailey",
+  "ActiveText": "quasi",
+  "PassiveText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

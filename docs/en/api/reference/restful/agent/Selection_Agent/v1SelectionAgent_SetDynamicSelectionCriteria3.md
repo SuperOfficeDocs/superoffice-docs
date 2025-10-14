@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,35 +86,35 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 930,
+  "SelectionId": 67,
   "Criteria": [
     {
-      "Name": "Botsford, Hintz and Kuphal",
-      "Operator": "at",
+      "Name": "Roberts, Thompson and Turcotte",
+      "Operator": "et",
       "Values": [
-        "minus",
-        "ut"
+        "nisi",
+        "magni"
       ],
       "DisplayValues": [
-        "fugit",
-        "qui"
+        "libero",
+        "veniam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 199,
+      "InterParenthesis": 501,
       "InterOperator": "And",
-      "UniqueHash": 693
+      "UniqueHash": 133
     }
   ],
-  "Filter": "earum"
+  "Filter": "delectus"
 }
 ```
 
@@ -125,44 +126,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hyatt-Pouros",
-    "Operator": "aperiam",
+    "Name": "Kessler-Homenick",
+    "Operator": "reiciendis",
     "Values": [
-      "nisi",
-      "earum"
+      "ut",
+      "officiis"
     ],
     "DisplayValues": [
-      "sed",
-      "explicabo"
+      "facere",
+      "aliquid"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Gleichner Group",
-        "Operator": "quasi",
+        "Name": "Jerde-Effertz",
+        "Operator": "molestiae",
         "Values": [
-          "dolores",
-          "laudantium"
+          "ipsam",
+          "laboriosam"
         ],
         "DisplayValues": [
-          "occaecati",
-          "odit"
+          "eaque",
+          "repudiandae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 38,
+        "InterParenthesis": 125,
         "InterOperator": "And",
-        "UniqueHash": 504
+        "UniqueHash": 695
       }
     ],
-    "InterParenthesis": 453,
+    "InterParenthesis": 792,
     "InterOperator": "And",
-    "UniqueHash": 901
+    "UniqueHash": 811
   }
 ]
 ```

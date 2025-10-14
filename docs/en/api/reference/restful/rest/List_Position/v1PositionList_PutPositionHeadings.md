@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 410,
-    "Name": "Kassulke-Kihn",
-    "Tooltip": "voluptas",
+    "HeadingId": 120,
+    "Name": "Zemlak, Collins and Armstrong",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 191
+    "Rank": 789,
+    "UdListDefinitionId": 604
   },
   {
-    "HeadingId": 410,
-    "Name": "Kassulke-Kihn",
-    "Tooltip": "voluptas",
+    "HeadingId": 120,
+    "Name": "Zemlak, Collins and Armstrong",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 191
+    "Rank": 789,
+    "UdListDefinitionId": 604
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 851,
-    "Name": "Mosciski-Wolf",
-    "Tooltip": "distinctio",
+    "HeadingId": 515,
+    "Name": "Schaefer LLC",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 697,
-    "UdListDefinitionId": 755,
+    "Rank": 647,
+    "UdListDefinitionId": 499,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldLength": 946
       }
     }
   }

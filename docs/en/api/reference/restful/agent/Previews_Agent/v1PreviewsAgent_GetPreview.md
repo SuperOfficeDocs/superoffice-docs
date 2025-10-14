@@ -15,6 +15,7 @@ Parse a Preview hint and return a Preview.
 
 
 The returned Preview string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para /&gt;The Preview hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para /&gt;A typical Preview hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Previews/GetPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreviewHint": "distinctio"
+  "PreviewHint": "voluptates"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"occaecati"
 ```

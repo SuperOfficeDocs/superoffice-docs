@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Vero totam nisi aut.",
-    "Deleted": false,
-    "Rank": 828,
-    "Type": "blanditiis",
-    "ColorBlock": 835,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2013-03-26T11:24:53.9686678+01:00",
+    "Id": 924,
+    "Name": "Pfannerstill-Metz",
+    "ToolTip": "Nam enim possimus quo praesentium odit et.",
+    "Deleted": true,
+    "Rank": 310,
+    "Type": "in",
+    "ColorBlock": 647,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2000-01-05T03:40:56.9620969+01:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Graham-McDermott",
-        "ToolTip": "Repudiandae enim tempore voluptate ducimus iure dolorem.",
-        "Deleted": true,
-        "Rank": 196,
-        "Type": "et",
-        "ColorBlock": 453,
-        "IconHint": "ut",
+        "Id": 693,
+        "Name": "Bode, Powlowski and Paucek",
+        "ToolTip": "Error est ut molestiae sint delectus voluptatem voluptatem.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "rerum",
+        "ColorBlock": 991,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2023-04-29T11:24:53.9686678+02:00",
+        "LastChanged": "2000-10-22T03:40:56.9620969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Brody Collier",
+        "ExtraInfo": "et",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Mr. Quincy Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 897
+            "FieldLength": 950
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Norma D'Amore",
+    "ExtraInfo": "eius",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Xzavier Sauer V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 452
       }
     }
   }

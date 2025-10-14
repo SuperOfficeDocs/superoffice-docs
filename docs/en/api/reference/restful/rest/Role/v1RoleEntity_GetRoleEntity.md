@@ -15,6 +15,7 @@ Gets a RoleEntity object.
 
 
 Calls the User agent service GetRoleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -88,7 +89,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,29 +99,29 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 381,
-  "Name": "Christiansen-Weimann",
-  "Tooltip": "excepturi",
+  "RoleId": 751,
+  "Name": "Spinka Inc and Sons",
+  "Tooltip": "eligendi",
   "RoleType": "Anonymous",
-  "Deleted": 655,
-  "Rank": 481,
-  "Created": "2019-09-15T11:24:53.4843128+02:00",
-  "UseCategories": 920,
+  "Deleted": 785,
+  "Rank": 989,
+  "Created": "2020-11-13T03:40:56.0699234+01:00",
+  "UseCategories": 313,
   "CreatedBy": null,
-  "Updated": "2002-05-30T11:24:53.4843128+02:00",
+  "Updated": "2014-11-22T03:40:56.0699234+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 361
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

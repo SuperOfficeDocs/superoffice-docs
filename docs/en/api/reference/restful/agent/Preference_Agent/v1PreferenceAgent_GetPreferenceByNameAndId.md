@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Get a preference by name and owner id.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -87,14 +89,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "eum",
-  "PrefKey": "asperiores",
+  "PrefSection": "ut",
+  "PrefKey": "magnam",
   "PrefLevel": "Database",
-  "OwnerId": 745
+  "OwnerId": 194
 }
 ```
 
@@ -106,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "ex",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "minima",
+  "DisplayValue": "alias",
+  "DisplayTooltip": "enim",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 869,
-  "PrefDescId": 449,
-  "TableName": "Kovacek, Kulas and Stokes",
-  "UserPreferenceId": 708,
+  "TargetId": 48,
+  "PrefDescId": 434,
+  "TableName": "Christiansen-Muller",
+  "UserPreferenceId": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

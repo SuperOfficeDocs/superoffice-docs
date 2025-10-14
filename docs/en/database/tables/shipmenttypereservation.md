@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ShipmentTypeReservation Table (499)
+# ShipmentTypeReservation Table (501)
 
 ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,11 +91,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Miller LLC",
-  "DeviceName": "Anderson Group",
-  "DeviceIdentifier": "consequatur",
-  "TableName": "Rempel Inc and Sons",
-  "RecordId": 836
+  "ApplicationName": "Blick, Hintz and Ratke",
+  "DeviceName": "Dickens-Hermiston",
+  "DeviceIdentifier": "repudiandae",
+  "TableName": "O'Reilly-Kuvalis",
+  "RecordId": 702
 }
 ```
 
@@ -105,20 +107,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "laboriosam",
-    "Value": "autem",
-    "RecordId": 659,
-    "CreatedDate": "2003-10-01T11:24:48.1720293+02:00",
-    "UpdatedDate": "2011-10-24T11:24:48.1720293+02:00",
-    "UpdatedBy": "qui",
-    "CreatedBy": "dolorum",
-    "TableName": "Oberbrunner-Dach",
+    "Key": "et",
+    "Value": "fuga",
+    "RecordId": 561,
+    "CreatedDate": "2007-01-29T03:40:46.9999043+01:00",
+    "UpdatedDate": "2014-01-08T03:40:46.9999043+01:00",
+    "UpdatedBy": "vel",
+    "CreatedBy": "voluptates",
+    "TableName": "Keeling-Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

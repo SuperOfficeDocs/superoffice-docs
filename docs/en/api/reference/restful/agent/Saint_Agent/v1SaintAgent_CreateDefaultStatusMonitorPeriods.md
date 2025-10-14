@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Loading default values into a new StatusMonitorPeriods.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -58,7 +60,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,15 +70,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 306,
-  "Period2": 864,
-  "Period3": 963,
+  "Period1": 2,
+  "Period2": 59,
+  "Period3": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 893
     }
   }
 }

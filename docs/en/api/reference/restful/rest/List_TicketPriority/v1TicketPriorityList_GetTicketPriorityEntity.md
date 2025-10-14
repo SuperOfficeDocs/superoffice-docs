@@ -100,60 +100,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 429,
-  "Name": "Vandervort Group",
+  "TicketPriorityId": 238,
+  "Name": "Murazik LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 781,
+  "SortOrder": 809,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 380,
-  "MonStart": "2009-01-18T11:24:54.1717846+01:00",
-  "MonStop": "2008-12-08T11:24:54.1717846+01:00",
-  "TueStart": "2013-03-19T11:24:54.1717846+01:00",
-  "TueStop": "2008-10-24T11:24:54.1717846+02:00",
-  "WedStart": "2006-05-26T11:24:54.1717846+02:00",
-  "WedStop": "2012-04-28T11:24:54.1717846+02:00",
-  "ThuStart": "2016-08-06T11:24:54.1717846+02:00",
-  "ThuStop": "2005-12-05T11:24:54.1717846+01:00",
-  "FriStart": "1999-04-25T11:24:54.1717846+02:00",
-  "FriStop": "2011-04-06T11:24:54.1717846+02:00",
-  "SatStart": "2007-03-09T11:24:54.1717846+01:00",
-  "SatStop": "2014-07-05T11:24:54.1717846+02:00",
-  "SunStart": "2004-11-29T11:24:54.1717846+01:00",
-  "SunStop": "2004-07-21T11:24:54.1717846+02:00",
+  "Deadline": 942,
+  "MonStart": "2000-06-18T03:40:57.165702+02:00",
+  "MonStop": "2001-06-16T03:40:57.165702+02:00",
+  "TueStart": "2017-06-20T03:40:57.165702+02:00",
+  "TueStop": "2017-03-12T03:40:57.165702+01:00",
+  "WedStart": "2021-12-02T03:40:57.165702+01:00",
+  "WedStop": "2007-08-06T03:40:57.165702+02:00",
+  "ThuStart": "2018-12-18T03:40:57.165702+01:00",
+  "ThuStop": "2014-11-26T03:40:57.165702+01:00",
+  "FriStart": "2019-11-28T03:40:57.165702+01:00",
+  "FriStop": "2016-12-02T03:40:57.165702+01:00",
+  "SatStart": "1998-12-08T03:40:57.165702+01:00",
+  "SatStop": "1999-06-26T03:40:57.165702+02:00",
+  "SunStart": "2013-06-16T03:40:57.165702+02:00",
+  "SunStop": "2012-12-25T03:40:57.165702+01:00",
   "NonDates": [
-    "enim",
-    "quas"
+    "veniam",
+    "omnis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 729,
-      "AlertLevel": 803,
-      "AlertTimeout": 474,
-      "Action": 593,
-      "DelegateTo": 823,
-      "ScriptId": 424,
-      "EmailTo": "carole.hettinger@oberbrunnerhettinger.biz",
-      "SmsTo": "dolore",
-      "ReplyTemplateIdCustomer": 883,
-      "ReplyTemplateIdUser": 511,
-      "ReplyTemplateIdCatmast": 547,
-      "ReplyTemplateIdEmail": 711,
-      "RtiCustomerSms": 574,
-      "ReplyTemplateIdUserSms": 753,
-      "ReplyTemplateIdCatmastSms": 235,
-      "ReplyTemplateIdSms": 74,
+      "TicketAlertId": 761,
+      "AlertLevel": 659,
+      "AlertTimeout": 955,
+      "Action": 370,
+      "DelegateTo": 893,
+      "ScriptId": 125,
+      "EmailTo": "lucas@klein.co.uk",
+      "SmsTo": "voluptas",
+      "ReplyTemplateIdCustomer": 375,
+      "ReplyTemplateIdUser": 617,
+      "ReplyTemplateIdCatmast": 946,
+      "ReplyTemplateIdEmail": 583,
+      "RtiCustomerSms": 222,
+      "ReplyTemplateIdUserSms": 548,
+      "ReplyTemplateIdCatmastSms": 25,
+      "ReplyTemplateIdSms": 767,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldType": "System.Int32",
+          "FieldLength": 963
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 778
     }
   }
 }

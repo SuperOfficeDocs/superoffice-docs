@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetConsentSources
 Returns all defined Sources.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 918,
-    "Name": "O'Conner, McKenzie and Greenholt",
-    "Tooltip": "cum",
-    "Rank": 752,
-    "Key": "dignissimos",
-    "MailTemplateId": 742,
+    "ConsentSourceId": 685,
+    "Name": "Russel-Rippin",
+    "Tooltip": "sunt",
+    "Rank": 89,
+    "Key": "qui",
+    "MailTemplateId": 35,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 215
       }
     }
   }

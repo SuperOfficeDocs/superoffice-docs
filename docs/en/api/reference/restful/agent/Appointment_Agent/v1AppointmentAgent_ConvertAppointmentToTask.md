@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Convert appointment to task if certain criteria are met (participants &lt; 2)
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -137,7 +139,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 218
+  "AppointmentId": 990
 }
 ```
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-01-18T11:24:47.5783035+01:00",
-  "AppointmentId": 366,
-  "Description": "Focused intangible middleware",
-  "Title": "et",
-  "Agenda": "consequatur",
-  "InternalNotes": "laboriosam",
-  "StartDate": "2010-07-07T11:24:47.5783035+02:00",
-  "EndDate": "2019-01-02T11:24:47.5783035+01:00",
+  "CreatedDate": "2014-02-13T03:40:46.0295774+01:00",
+  "AppointmentId": 814,
+  "Description": "Down-sized upward-trending throughput",
+  "Title": "aliquam",
+  "Agenda": "aliquid",
+  "InternalNotes": "magnam",
+  "StartDate": "2025-01-16T03:40:46.0295774+01:00",
+  "EndDate": "2015-08-17T03:40:46.0295774+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 622,
+  "MotherId": 532,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-05-31T11:24:47.5783035+02:00",
+  "UpdatedDate": "2008-02-27T03:40:46.0295774+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 430,
+  "ActiveLinks": 933,
   "Links": [
     {
-      "EntityName": "Hermiston-Becker",
-      "Id": 590,
-      "Description": "Grass-roots optimizing moderator",
-      "ExtraInfo": "velit",
-      "LinkId": 385,
+      "EntityName": "Nolan Group",
+      "Id": 1001,
+      "Description": "User-centric cohesive budgetary management",
+      "ExtraInfo": "voluptas",
+      "LinkId": 621,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldLength": 35
         }
       }
     }
   ],
-  "AlarmLeadTime": "est",
+  "AlarmLeadTime": "vitae",
   "HasAlarm": false,
-  "ColorIndex": 803,
+  "ColorIndex": 721,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eos",
-  "LeadTime": "distinctio",
-  "Location": "facere",
-  "RejectCounter": 926,
+  "LagTime": "earum",
+  "LeadTime": "sed",
+  "Location": "nam",
+  "RejectCounter": 820,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 163,
-      "PersonId": 150,
-      "ContactId": 475,
-      "EmailId": 954,
-      "SendEmail": true,
+      "AssociateId": 98,
+      "PersonId": 692,
+      "ContactId": 631,
+      "EmailId": 147,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lilly.ohara@nicolas.name",
-      "Description": "Decentralized cohesive throughput"
+      "EmailAddress": "mohamed@witting.info",
+      "Description": "Intuitive assymetric data-warehouse"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-03-26T11:24:47.5783035+01:00",
+  "ActiveDate": "2001-06-16T03:40:46.0295774+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 837,
+  "PreferredTZLocation": 378,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 480,
+  "SuggestedAppointmentId": 403,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "unde",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "Erna Collins",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "2081303513"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "quia"
+    "CustomFields1": "quia",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2006-08-21T11:24:47.5783035+02:00",
-  "PublishTo": "2020-05-28T11:24:47.5783035+02:00",
-  "PublishFrom": "2010-03-18T11:24:47.5783035+01:00",
+  "PublishEventDate": "2002-06-12T03:40:46.0295774+02:00",
+  "PublishTo": "2008-10-16T03:40:46.0295774+02:00",
+  "PublishFrom": "2012-09-08T03:40:46.0295774+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 931,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     },
     {
-      "VisibleId": 931,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 806
         }
       }
     }
@@ -276,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldLength": 604
     }
   }
 }

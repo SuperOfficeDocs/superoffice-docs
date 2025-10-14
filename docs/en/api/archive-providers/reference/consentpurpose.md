@@ -87,7 +87,9 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personAssociateId|associate|Contact - Our contact: Displays our contact| x |
 |consentPerson/person/personAssociateFullName|associate|Contact - Our contact - Full name: Displays our contact| x |
 |consentPerson/person/personCategory|listAny|Contact - Category| x |
+|consentPerson/person/personCategoryGroup|listAny|Contact - Category group| x |
 |consentPerson/person/personBusiness|listAny|Contact - Business| x |
+|consentPerson/person/leadstatus|listAny|Contact - Lead status| x |
 |consentPerson/person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
 |consentPerson/person/hasCompany|bool|Contact - Has company: The contact is associated with a company| x |
 |consentPerson/person/isProjectMember|bool|Contact - Is project member: This person is a project member| x |
@@ -121,12 +123,12 @@ and for GDPR relations to person, if you join and restrict on person
 |consentPerson/person/personAddress/addressId|int|Contact - Contact address - Address ID: Database ID for the address record| x |
 |consentPerson/person/personAddress/line1|string|Contact - Contact address - Address 1: First line of the address| x |
 |consentPerson/person/personAddress/line2|string|Contact - Contact address - Address 2: Second line of the address| x |
-|consentPerson/person/personAddress/line3|string|Contact - Contact address - Address 3: Third line of the address| x |
-|consentPerson/person/personAddress/county|string|Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|consentPerson/person/personAddress/line3|string|Contact - Contact address - Address 3: Third line of the address| x |
+|consentPerson/person/personAddress/county|string|Contact - Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |consentPerson/person/personAddress/city|string|Contact - Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |consentPerson/person/personAddress/zip|string|Contact - Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |consentPerson/person/personAddress/state|string|Contact - Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -183,7 +185,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/personRegisteredDate,consentPerson/person/personAddress/city,consentPerson/person/personAddress/formattedAddress,consentPerson/person/personAddress/formattedMultiLineAddress
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/email/emailBounceCount,consentPerson/person/personExtra/x_person_appointment_relation,consentPerson/person/personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

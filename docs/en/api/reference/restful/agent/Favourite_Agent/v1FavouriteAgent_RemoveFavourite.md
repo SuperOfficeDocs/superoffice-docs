@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveFavourite
 Remove favourite for a table, record id and associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,13 +69,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schulist Group",
-  "RecordId": 991,
-  "AssociateId": 532
+  "TableName": "Yost, Stoltenberg and Kuvalis",
+  "RecordId": 100,
+  "AssociateId": 864
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Loading default values into a new TemplateVariablesParameters.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "consectetur",
+  "SourceInput": "error",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 208,
-  "PersonId": 284,
-  "ProjectId": 259,
-  "SelectionId": 819,
-  "AppointmentId": 98,
-  "DocumentId": 682,
-  "SaleId": 645,
-  "QuoteLineId": 91,
-  "QuoteAlternativeId": 573,
-  "ProductKey": "sed",
+  "ContactId": 763,
+  "PersonId": 573,
+  "ProjectId": 228,
+  "SelectionId": 231,
+  "AppointmentId": 855,
+  "DocumentId": 649,
+  "SaleId": 318,
+  "QuoteLineId": 59,
+  "QuoteAlternativeId": 450,
+  "ProductKey": "quibusdam",
   "CustomTags": [
     [
       {}
@@ -102,14 +104,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 602,
+  "TicketId": 52,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 463
     }
   }
 }

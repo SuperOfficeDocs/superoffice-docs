@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitor
 Regenerate the given status monitor
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StatusMonitorId": 534
+  "StatusMonitorId": 573
 }
 ```
 

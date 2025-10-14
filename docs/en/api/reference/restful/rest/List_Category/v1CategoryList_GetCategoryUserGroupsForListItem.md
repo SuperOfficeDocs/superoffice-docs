@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Senger Group",
-    "ToolTip": "Nesciunt velit omnis laborum quos voluptas rerum.",
+    "Id": 745,
+    "Name": "Beahan-Greenholt",
+    "ToolTip": "Aut officia optio aut qui quasi.",
     "Deleted": false,
-    "Rank": 622,
-    "Type": "harum",
-    "ColorBlock": 32,
-    "IconHint": "sapiente",
+    "Rank": 146,
+    "Type": "nihil",
+    "ColorBlock": 960,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2011-11-27T11:24:53.8592973+01:00",
+    "LastChanged": "2001-07-24T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Wiegand Inc and Sons",
-        "ToolTip": "Quis vero voluptatem sit.",
+        "Id": 495,
+        "Name": "Grant Inc and Sons",
+        "ToolTip": "Corporis aspernatur necessitatibus ducimus.",
         "Deleted": false,
-        "Rank": 675,
-        "Type": "quia",
-        "ColorBlock": 433,
-        "IconHint": "dolores",
+        "Rank": 777,
+        "Type": "velit",
+        "ColorBlock": 308,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2019-03-29T11:24:53.8592973+01:00",
+        "LastChanged": "2012-06-30T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Erna Hallie Brown II",
+        "ExtraInfo": "harum",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mr. Hailie Hoeger V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldType": "System.String",
+            "FieldLength": 59
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "neque",
-    "Hidden": true,
-    "FullName": "Clemens Kulas",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Miss Franz Jamaal Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

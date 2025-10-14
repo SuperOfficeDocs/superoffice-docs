@@ -15,6 +15,7 @@ POST /api/v1/Agents/Chat/PickUpChatSession
 
 
 The welcome message is sent to the customer. Returns NULL if session was not in queue.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 977
+  "ChatSessionId": 693
 }
 ```
 
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 328,
-  "TopicId": 794,
+  "ChatSessionId": 135,
+  "TopicId": 933,
   "User": null,
   "Person": null,
-  "CustomerAlias": "natus",
-  "CustomerHost": "aut",
-  "CustomerName": "Altenwerth-Wolff",
-  "CustomerEmail": "felix.hahn@wiza.name",
-  "CustomerPhone": "(266)477-4175 x9259",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Paucek, Bernier and Zemlak",
+  "CustomerAlias": "commodi",
+  "CustomerHost": "enim",
+  "CustomerName": "Brown-Rice",
+  "CustomerEmail": "cali@waelchi.biz",
+  "CustomerPhone": "482-930-2800 x1565",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Casper-Nitzsche",
   "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "eaque",
-  "WhenRequested": "2005-12-01T11:24:47.6876742+01:00",
-  "WhenStarted": "2022-12-23T11:24:47.6876742+01:00",
-  "WhenEnded": "2001-12-24T11:24:47.6876742+01:00",
-  "WhenIdle": "2008-03-10T11:24:47.6876742+01:00",
-  "WhenFetched": "2017-04-11T11:24:47.6876742+02:00",
-  "SessionKey": "sapiente",
-  "InitialQueuePos": 229,
-  "AlertLevel": 102,
-  "Rank": 363,
+  "FirstMessage": "unde",
+  "LastMessage": "debitis",
+  "WhenRequested": "2022-05-18T03:40:46.1702115+02:00",
+  "WhenStarted": "2007-11-06T03:40:46.1702115+01:00",
+  "WhenEnded": "2003-02-03T03:40:46.1702115+01:00",
+  "WhenIdle": "2005-03-12T03:40:46.1702115+01:00",
+  "WhenFetched": "2025-02-18T03:40:46.1702115+01:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 432,
+  "AlertLevel": 260,
+  "Rank": 75,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 529,
+  "Rating": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 527
     }
   }
 }

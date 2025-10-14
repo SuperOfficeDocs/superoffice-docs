@@ -15,6 +15,7 @@ Set default values into a new ChatTopicEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 45,
-  "Name": "Franecki-Mertz",
-  "Description": "Synergistic foreground hardware",
-  "WelcomeMessage": "expedita",
+  "ChatTopicId": 917,
+  "Name": "Strosin, Kessler and Cremin",
+  "Description": "Streamlined intermediate process improvement",
+  "WelcomeMessage": "rerum",
   "Language": null,
-  "LastAccept": "2023-06-22T11:24:53.0468304+02:00",
-  "SecondsPrAccept": 515,
-  "AlertRecipient": "ut",
+  "LastAccept": "2003-02-01T03:40:55.397437+01:00",
+  "SecondsPrAccept": 953,
+  "AlertRecipient": "voluptatem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "in",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eaque",
-  "WarnNewChatMinutes": 599,
-  "WarnManagerNewChatMinutes": 910,
+  "BadgeHeader": "laudantium",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dolores",
+  "WarnNewChatMinutes": 343,
+  "WarnManagerNewChatMinutes": 704,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,20 +122,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 254,
-  "WarnManagerChatMessageMinutes": 52,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 982,
-  "OfflineFormQueueLength": 880,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "dicta",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 474,
+  "WarnManagerChatMessageMinutes": 293,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 894,
+  "OfflineFormQueueLength": 851,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 610
     }
   }
 }

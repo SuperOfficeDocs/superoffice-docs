@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProductFamilies
 Returns all ProductFamily in SuperOffice list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Value": "tempore",
-    "Tooltip": "minus",
+    "Id": 511,
+    "Value": "qui",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 172
       }
     }
   },
   {
-    "Id": 73,
-    "Value": "tempore",
-    "Tooltip": "minus",
+    "Id": 511,
+    "Value": "qui",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 172
       }
     }
   }

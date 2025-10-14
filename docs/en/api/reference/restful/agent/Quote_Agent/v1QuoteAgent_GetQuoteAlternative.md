@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteAlternative
 Gets a QuoteAlternative object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=171
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=729
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -90,7 +92,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +102,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 683,
-  "ERPQuoteAlternativeKey": "corporis",
-  "QuoteVersionId": 951,
-  "Name": "Krajcik, Heidenreich and Rohan",
-  "Description": "Multi-lateral cohesive function",
+  "QuoteAlternativeId": 38,
+  "ERPQuoteAlternativeKey": "labore",
+  "QuoteVersionId": 743,
+  "Name": "Feest, Cruickshank and Zboncak",
+  "Description": "Cross-platform context-sensitive standardization",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22379.894,
-  "ERPDiscountAmount": 27851.858,
-  "DiscountPercent": 24498.478,
-  "DiscountAmount": 14018.382,
+  "ERPDiscountPercent": 14949.18,
+  "ERPDiscountAmount": 29387.518,
+  "DiscountPercent": 8982.044,
+  "DiscountAmount": 10627.394,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ratione",
-  "VAT": 24304.17,
-  "EarningPercent": 30728.87,
-  "EarningAmount": 9994.326,
-  "SubTotal": 4033.458,
-  "TotalPrice": 250.72,
-  "ExtraField1": "omnis",
-  "ExtraField2": "pariatur",
-  "ExtraField3": "ut",
-  "ExtraField4": "amet",
-  "ExtraField5": "omnis",
+  "VATInfo": "modi",
+  "VAT": 24448.334,
+  "EarningPercent": 17901.408,
+  "EarningAmount": 9702.864,
+  "SubTotal": 24689.652,
+  "TotalPrice": 15867.442,
+  "ExtraField1": "sapiente",
+  "ExtraField2": "cupiditate",
+  "ExtraField3": "sed",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   }
 }

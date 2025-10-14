@@ -31,7 +31,7 @@ Merge two projects into one, removing the source project in the process
 | replaceEmptyFieldsOnDestination | bool |  Fill in empty fields on destination from source? |
 
 ```http
-POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}?replaceEmptyFieldsOnDestination=False
+POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}?replaceEmptyFieldsOnDestination=True
 ```
 
 
@@ -62,7 +62,7 @@ No Content
 POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

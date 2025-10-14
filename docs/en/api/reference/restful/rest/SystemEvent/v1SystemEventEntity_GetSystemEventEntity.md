@@ -15,6 +15,7 @@ Gets a SystemEventEntity object.
 
 
 Calls the Configuration agent service GetSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +84,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,27 +94,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 873,
+  "SystemEventId": 737,
   "Scope": "Database",
-  "Eta": "2024-07-21T11:24:53.5780588+02:00",
-  "Eventkey": "quidem",
-  "Eventmess": "commodi",
-  "ExtraInfo": 855,
-  "Owner": 91,
-  "UpdatedCount": 933,
-  "Registered": "2009-05-06T11:24:53.5780588+02:00",
+  "Eta": "2016-10-07T03:40:56.2734583+02:00",
+  "Eventkey": "harum",
+  "Eventmess": "repudiandae",
+  "ExtraInfo": 895,
+  "Owner": 19,
+  "UpdatedCount": 408,
+  "Registered": "2015-09-08T03:40:56.2734583+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 431
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

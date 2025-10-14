@@ -15,6 +15,7 @@ Execute a CRMScript with event data as input.
 
 
 Returns event data with output variable values.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "nisi",
+  "CRMScriptUniqueId": "qui",
   "EventData": null
 }
 ```
@@ -111,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "soluta",
-    "InputValues2": "quas"
+    "InputValues1": "qui",
+    "InputValues2": "facere"
   },
   "BlockExecution": true,
-  "NavigateTo": "voluptate",
-  "Message": "fuga",
-  "ShowDialog": "ut",
+  "NavigateTo": "inventore",
+  "Message": "laborum",
+  "ShowDialog": "sunt",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "eaque"
+    "OutputValues1": "facere",
+    "OutputValues2": "unde"
   },
   "StateValues": {
-    "StateValues1": "quaerat",
-    "StateValues2": "quia"
+    "StateValues1": "sapiente",
+    "StateValues2": "numquam"
   },
-  "Exception": "aut",
+  "Exception": "magnam",
   "ParserValues": {
-    "ParserValues1": "eligendi",
-    "ParserValues2": "accusantium"
+    "ParserValues1": "qui",
+    "ParserValues2": "provident"
   },
   "CgiVariables": {
-    "CgiVariables1": "esse",
-    "CgiVariables2": "quae"
+    "CgiVariables1": "pariatur",
+    "CgiVariables2": "corporis"
   },
-  "CgiContent": "illo",
+  "CgiContent": "tenetur",
   "Headers": {
-    "Headers1": "eveniet",
-    "Headers2": "possimus"
+    "Headers1": "unde",
+    "Headers2": "illo"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -146,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 880
     }
   }
 }

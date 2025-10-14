@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Returns the configuration fields that should be visible in the GUI.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 658,
-    "FieldName": "Mayert-Morar",
-    "Label": "molestiae",
-    "Tooltip": "rerum",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 89,
+    "FieldName": "Hartmann-D'Amore",
+    "Label": "quia",
+    "Tooltip": "aut",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": true,
-    "Rank": 965,
+    "Rank": 837,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 652
       }
     }
   }

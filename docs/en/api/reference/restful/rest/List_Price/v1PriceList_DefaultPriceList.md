@@ -15,6 +15,7 @@ Set default values into a new PriceList.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultPriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 489,
-  "ERPPriceListKey": "excepturi",
-  "QuoteConnectionId": 504,
-  "Name": "Kihn Group",
-  "Description": "Visionary human-resource internet solution",
-  "Currency": "delectus",
-  "CurrencyName": "Kuhic, Schaden and Grant",
-  "ValidFrom": "2017-09-16T11:24:53.9842923+02:00",
-  "ValidTo": "2006-09-08T11:24:53.9842923+02:00",
+  "PriceListId": 315,
+  "ERPPriceListKey": "consequatur",
+  "QuoteConnectionId": 899,
+  "Name": "Walker, Walker and Heathcote",
+  "Description": "Implemented hybrid approach",
+  "Currency": "provident",
+  "CurrencyName": "D'Amore Group",
+  "ValidFrom": "2011-04-03T03:40:56.9777222+02:00",
+  "ValidTo": "2008-04-03T03:40:56.9777222+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 635
     }
   }
 }

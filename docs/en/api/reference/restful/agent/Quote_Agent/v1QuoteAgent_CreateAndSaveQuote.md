@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Creates a new quote on a sale.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,9 +94,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 194,
-  "ConnectionId": 133,
-  "FirstAlternativeName": "Gislason, Steuber and Dickens"
+  "SaleId": 823,
+  "ConnectionId": 276,
+  "FirstAlternativeName": "Toy, Ledner and Gorczany"
 }
 ```
 
@@ -105,58 +107,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 976,
-  "SaleId": 841,
-  "QuoteConnectionId": 598,
-  "ERPQuoteKey": "sapiente",
-  "ERPOrderKey": "aperiam",
-  "ActiveQuoteVersionId": 354,
-  "AcceptedQuoteAlternativeId": 41,
-  "UseValuesFromQuote": 626,
-  "DocumentId": 212,
-  "PoNumber": "1326791",
+  "QuoteId": 108,
+  "SaleId": 363,
+  "QuoteConnectionId": 188,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "labore",
+  "ActiveQuoteVersionId": 521,
+  "AcceptedQuoteAlternativeId": 331,
+  "UseValuesFromQuote": 145,
+  "DocumentId": 263,
+  "PoNumber": "1452600",
   "OrderComment": "non",
-  "PreferredEmailCulture": "jacques@olsonrenner.com",
+  "PreferredEmailCulture": "armand@stracke.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 172,
-      "ERPQuoteVersionKey": "minus",
-      "QuoteId": 181,
-      "Description": "Cross-group homogeneous contingency",
-      "Number": "1085409",
+      "QuoteVersionId": 256,
+      "ERPQuoteVersionKey": "enim",
+      "QuoteId": 711,
+      "Description": "Versatile tangible success",
+      "Number": "1101186",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 378,
-      "SentDate": "2009-07-23T11:24:48.5313897+02:00",
-      "FollowupId": 484,
-      "ExpirationDate": "2018-12-18T11:24:48.5313897+01:00",
-      "DeliveryCountryId": 8,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 402,
+      "LikelyQuoteAlternativeId": 817,
+      "SentDate": "2025-03-14T03:40:47.5629587+01:00",
+      "FollowupId": 521,
+      "ExpirationDate": "2008-05-17T03:40:47.5629587+02:00",
+      "DeliveryCountryId": 874,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 149,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "sed",
-      "ERPPaymentTypeKey": "laudantium",
-      "ERPDeliveryTermsKey": "iure",
-      "ERPDeliveryTypeKey": "sequi",
-      "Rank": 284,
-      "ApprovedBy": 249,
-      "ApprovedText": "cumque",
-      "ApprovedRegisteredBy": 346,
-      "ApprovedRegisteredDate": "2019-05-16T11:24:48.5313897+02:00",
-      "ExtraField1": "laborum",
-      "ExtraField2": "maxime",
-      "ExtraField3": "vel",
-      "ExtraField4": "id",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2025-03-31T11:24:48.5313897+02:00",
-      "Updated": "2001-01-03T11:24:48.5313897+01:00",
-      "UpdatedAssociateId": 483,
-      "Registered": "2010-05-29T11:24:48.5313897+02:00",
-      "RegisteredAssociateId": 517,
-      "RequestAssociateId": 160,
-      "RequestComment": "mollitia",
+      "ERPPaymentTermsKey": "animi",
+      "ERPPaymentTypeKey": "libero",
+      "ERPDeliveryTermsKey": "veniam",
+      "ERPDeliveryTypeKey": "adipisci",
+      "Rank": 200,
+      "ApprovedBy": 381,
+      "ApprovedText": "ut",
+      "ApprovedRegisteredBy": 813,
+      "ApprovedRegisteredDate": "2007-06-23T03:40:47.5629587+02:00",
+      "ExtraField1": "totam",
+      "ExtraField2": "officiis",
+      "ExtraField3": "quis",
+      "ExtraField4": "ipsam",
+      "ExtraField5": "explicabo",
+      "LastRecalculated": "2023-09-19T03:40:47.5629587+02:00",
+      "Updated": "2008-11-29T03:40:47.5629587+01:00",
+      "UpdatedAssociateId": 804,
+      "Registered": "2004-08-28T03:40:47.5629587+02:00",
+      "RegisteredAssociateId": 651,
+      "RequestAssociateId": 166,
+      "RequestComment": "voluptatem",
       "QuoteAlternatives": [
         {},
         {}
@@ -166,7 +168,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldLength": 462
         }
       }
     }
@@ -175,8 +177,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 267
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

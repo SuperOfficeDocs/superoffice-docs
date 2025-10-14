@@ -15,6 +15,7 @@ Find all roles with a given set of functional rights.
 
 
 The roles matched must contain one or more of the specified functional rights. 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -74,13 +75,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Bruen Inc and Sons",
-    "Ondricka Group"
+    "Collier Group",
+    "Schuppe Inc and Sons"
   ]
 }
 ```
@@ -92,7 +93,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  105,
-  180
+  237,
+  356
 ]
 ```

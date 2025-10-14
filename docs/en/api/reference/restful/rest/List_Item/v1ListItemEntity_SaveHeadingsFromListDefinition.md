@@ -79,25 +79,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 435,
-    "Name": "Veum Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 63,
-    "UdListDefinitionId": 727
+    "HeadingId": 243,
+    "Name": "Bergstrom-Mraz",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "Rank": 11,
+    "UdListDefinitionId": 757
   },
   {
-    "HeadingId": 435,
-    "Name": "Veum Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "Rank": 63,
-    "UdListDefinitionId": 727
+    "HeadingId": 243,
+    "Name": "Bergstrom-Mraz",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "Rank": 11,
+    "UdListDefinitionId": 757
   }
 ]
 ```
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 386,
-    "Name": "Dach Inc and Sons",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "Rank": 65,
-    "UdListDefinitionId": 272,
+    "HeadingId": 76,
+    "Name": "Sipes, Koepp and Smith",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 359,
+    "UdListDefinitionId": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 313
       }
     }
   }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 825,
-    "Name": "Rodriguez, Nienow and Skiles",
-    "Tooltip": "sint",
+    "HeadingId": 863,
+    "Name": "Gibson, O'Connell and Mills",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 339
+    "Rank": 742,
+    "UdListDefinitionId": 556
   },
   {
-    "HeadingId": 825,
-    "Name": "Rodriguez, Nienow and Skiles",
-    "Tooltip": "sint",
+    "HeadingId": 863,
+    "Name": "Gibson, O'Connell and Mills",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 339
+    "Rank": 742,
+    "UdListDefinitionId": 556
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Kautzer, Herzog and Turner",
-    "Tooltip": "fugit",
+    "HeadingId": 414,
+    "Name": "Hahn Group",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 300,
-    "UdListDefinitionId": 338,
+    "Rank": 438,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldLength": 944
       }
     }
   }

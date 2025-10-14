@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gorczany-Mohr",
-  "DeviceName": "Hand LLC",
-  "KeyName": "Howe-Orn",
-  "KeyValue": "ipsa",
-  "TableName": "Block-Cummings"
+  "ApplicationName": "Kovacek, Kassulke and Bogisich",
+  "DeviceName": "Zemlak, Heidenreich and McDermott",
+  "KeyName": "Walker-Hayes",
+  "KeyValue": "repellat",
+  "TableName": "Rolfson-Hane"
 }
 ```
 
@@ -104,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "odio",
-  "Value": "molestiae",
-  "RecordId": 686,
-  "CreatedDate": "2002-11-16T11:24:48.1564051+01:00",
-  "UpdatedDate": "2020-07-05T11:24:48.1564051+02:00",
-  "UpdatedBy": "cum",
-  "CreatedBy": "repellendus",
-  "TableName": "Christiansen Group",
+  "Key": "commodi",
+  "Value": "eos",
+  "RecordId": 36,
+  "CreatedDate": "2000-06-22T03:40:46.9999043+02:00",
+  "UpdatedDate": "2010-01-28T03:40:46.9999043+01:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "nulla",
+  "TableName": "Price-Schmitt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldLength": 910
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,25 +80,25 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 762,
-  "WorkflowStepId": 973,
-  "WorkflowId": 942,
-  "Rank": 737,
+  "WorkflowWaitForActionId": 759,
+  "WorkflowStepId": 985,
+  "WorkflowId": 74,
+  "Rank": 370,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Altenwerth Group",
-      "Description": "Integrated bottom-line Graphical User Interface",
-      "Rank": 432,
+      "Name": "Wehner-Bechtelar",
+      "Description": "Phased mission-critical solution",
+      "Rank": 193,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Altenwerth Group",
-      "Description": "Integrated bottom-line Graphical User Interface",
-      "Rank": 432,
+      "Name": "Wehner-Bechtelar",
+      "Description": "Phased mission-critical solution",
+      "Rank": 193,
       "Restrictions": [
         {},
         {}
@@ -113,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 907,
-  "WorkflowStepId": 320,
-  "WorkflowId": 983,
-  "Rank": 329,
+  "WorkflowWaitForActionId": 152,
+  "WorkflowStepId": 609,
+  "WorkflowId": 741,
+  "Rank": 400,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Morar Inc and Sons",
-      "Description": "Vision-oriented client-driven initiative",
-      "Rank": 9,
+      "Name": "Brown-Ullrich",
+      "Description": "Synergistic context-sensitive adapter",
+      "Rank": 621,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Morar Inc and Sons",
-      "Description": "Vision-oriented client-driven initiative",
-      "Rank": 9,
+      "Name": "Brown-Ullrich",
+      "Description": "Synergistic context-sensitive adapter",
+      "Rank": 621,
       "Restrictions": [
         {},
         {}
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 923
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/ChangeCurrency
 Recalculates the amount to the new currency.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/List/ChangeCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 16534.984,
-  "FromCurrency": "beatae",
-  "ToCurrency": "nostrum"
+  "Amount": 59.546,
+  "FromCurrency": "commodi",
+  "ToCurrency": "voluptas"
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-13181.604
+15099.612
 ```

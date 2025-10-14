@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Update listItems that will be visible for this usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,15 +70,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Boyer-Hammes",
-  "UsergroupId": 943,
+  "UdListDefinitionName": "Gislason LLC",
+  "UsergroupId": 457,
   "ListItemsID": [
-    61,
-    986
+    393,
+    430
   ],
   "Enable": false
 }

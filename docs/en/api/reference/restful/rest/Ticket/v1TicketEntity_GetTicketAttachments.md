@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 499,
-    "Name": "Kihn-Wunsch",
-    "ContentType": "a",
-    "AttSize": 366,
-    "InlineImage": false,
-    "ContentId": "necessitatibus",
-    "AuthKey": "numquam",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 336,
+    "Name": "Hackett Inc and Sons",
+    "ContentType": "voluptas",
+    "AttSize": 857,
+    "InlineImage": true,
+    "ContentId": "quia",
+    "AuthKey": "omnis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

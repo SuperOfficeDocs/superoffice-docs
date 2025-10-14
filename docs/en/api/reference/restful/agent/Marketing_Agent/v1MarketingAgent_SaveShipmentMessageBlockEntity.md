@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,14 +84,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 35,
-  "AssociateId": 935,
-  "Block": "molestias",
-  "Registered": "2001-03-06T11:24:48.2657757+01:00",
-  "RegisteredAssociateId": 611,
-  "Updated": "2012-08-11T11:24:48.2657757+02:00",
-  "UpdatedAssociateId": 667,
-  "UpdatedCount": 391
+  "ShipmentMessageBlockId": 72,
+  "AssociateId": 923,
+  "Block": "nemo",
+  "Registered": "2025-08-07T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 953,
+  "Updated": "2008-04-20T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 332,
+  "UpdatedCount": 653
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 258,
-  "AssociateId": 300,
-  "Block": "inventore",
-  "Registered": "2014-10-19T11:24:48.2657757+02:00",
-  "RegisteredAssociateId": 213,
-  "Updated": "2017-12-18T11:24:48.2657757+01:00",
-  "UpdatedAssociateId": 957,
-  "UpdatedCount": 516,
+  "ShipmentMessageBlockId": 618,
+  "AssociateId": 896,
+  "Block": "eveniet",
+  "Registered": "2005-10-17T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 747,
+  "Updated": "2001-06-28T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 215,
+  "UpdatedCount": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

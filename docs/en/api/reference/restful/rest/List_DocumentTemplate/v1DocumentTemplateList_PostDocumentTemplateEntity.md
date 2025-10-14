@@ -114,34 +114,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 996,
-  "Name": "Upton Inc and Sons",
-  "Tooltip": "ea",
-  "SaveInDb": 426,
-  "Filename": "cum",
-  "DefaultOref": "optio",
+  "DocumentTemplateId": 492,
+  "Name": "Frami Inc and Sons",
+  "Tooltip": "exercitationem",
+  "SaveInDb": 306,
+  "Filename": "dolor",
+  "DefaultOref": "nulla",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 649,
-  "IntentId": 233,
+  "AutoeventId": 954,
+  "IntentId": 786,
   "IsDefaultPublished": false,
-  "Rank": 495,
-  "LoadTemplateFromPlugin": 249,
-  "MimeType": "laborum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 787,
+  "Rank": 432,
+  "LoadTemplateFromPlugin": 26,
+  "MimeType": "aut",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 297,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "aurelia.durgan@wisozk.name",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "emmy_medhurst@jones.us",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "onie@witting.info",
+  "SenderEmailAddress": "keshawn@durgan.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 513,
-  "Name": "Prosacco, Hettinger and Terry",
-  "Tooltip": "qui",
-  "SaveInDb": 577,
-  "Filename": "ut",
-  "DefaultOref": "blanditiis",
+  "DocumentTemplateId": 178,
+  "Name": "Gottlieb, Ledner and Bode",
+  "Tooltip": "autem",
+  "SaveInDb": 234,
+  "Filename": "qui",
+  "DefaultOref": "libero",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 957,
-  "IntentId": 497,
-  "IsDefaultPublished": false,
-  "Rank": 189,
-  "LoadTemplateFromPlugin": 338,
-  "MimeType": "voluptates",
+  "AutoeventId": 202,
+  "IntentId": 615,
+  "IsDefaultPublished": true,
+  "Rank": 980,
+  "LoadTemplateFromPlugin": 553,
+  "MimeType": "aspernatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 132,
+  "DocumentTypeKey": 27,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "celia@gaylord.co.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "keyon@mcdermott.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "eric.morissette@bradtke.com",
+  "SenderEmailAddress": "sabryna.ryan@mraz.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 129
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetPersonImage
 Returns the person image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 991
+  "PersonId": 883
 }
 ```
 

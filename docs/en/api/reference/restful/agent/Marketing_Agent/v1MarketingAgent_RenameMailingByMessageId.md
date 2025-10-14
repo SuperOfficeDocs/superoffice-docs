@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Change the mailing name (shipment description) that the given message (MessageId) belongs to
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 952,
-  "Name": "Schulist Group"
+  "MessageId": 956,
+  "Name": "Bauch Group"
 }
 ```
 

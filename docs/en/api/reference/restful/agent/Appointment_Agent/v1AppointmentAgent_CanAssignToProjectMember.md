@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Appointment/CanAssignToProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 620,
-  "SuggestedAppointmentId": 94
+  "ProjectId": 116,
+  "SuggestedAppointmentId": 962
 }
 ```
 

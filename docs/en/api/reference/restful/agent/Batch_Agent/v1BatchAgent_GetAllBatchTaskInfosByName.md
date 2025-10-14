@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Get an array of system and user BatchTaskInfo for the provided task name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ullrich-Gaylord"
+  "TaskName": "Maggio, Spencer and Koepp"
 }
 ```
 
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Mante, Ruecker and Carroll",
-    "AssociateId": 640,
-    "DetailsTable": 548,
-    "DetailsRecord": 236,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 435,
+    "Name": "Casper LLC",
+    "AssociateId": 459,
+    "DetailsTable": 799,
+    "DetailsRecord": 20,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "velit",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "officia",
+      "ParameterObject2": "quaerat"
     },
-    "LastStarted": "1998-06-13T11:24:47.6095526+02:00",
-    "Created": "2011-08-16T11:24:47.6095526+02:00",
-    "StartCount": 4,
-    "DatabaseSerialNumber": "1018216",
-    "Context": "amet",
-    "Result": "qui",
+    "LastStarted": "2004-08-25T03:40:46.0764548+02:00",
+    "Created": "2005-02-03T03:40:46.0764548+01:00",
+    "StartCount": 790,
+    "DatabaseSerialNumber": "796671",
+    "Context": "voluptas",
+    "Result": "alias",
     "State": "All",
-    "Description": "Compatible leading edge approach",
-    "Response": "quos",
-    "Request": "a",
-    "ProgressDescription": "Visionary transitional hierarchy",
-    "ProgressPercent": 929,
-    "FileName": "Davis, Bogisich and Kilback",
+    "Description": "Switchable foreground ability",
+    "Response": "voluptatem",
+    "Request": "eos",
+    "ProgressDescription": "Fundamental real-time architecture",
+    "ProgressPercent": 465,
+    "FileName": "Cartwright, Ziemann and Von",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 550
       }
     }
   }

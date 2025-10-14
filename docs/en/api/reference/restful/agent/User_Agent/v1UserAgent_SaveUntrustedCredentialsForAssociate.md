@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveUntrustedCredentialsForAssociate
 Save credentials for a specified user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -69,12 +72,12 @@ No Content
 POST /api/v1/Agents/User/SaveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 729,
-  "Type": "esse",
+  "AssociateId": 101,
+  "Type": "odio",
   "Credentials": null
 }
 ```

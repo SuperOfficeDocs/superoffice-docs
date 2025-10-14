@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/DeleteExpired
 Trigger deletion of contacts (companies) that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Contact/DeleteExpired
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 566,
-  "Name": "Rempel, Windler and Marquardt",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 591,
-  "UdListDefinitionId": 442
+  "HeadingId": 382,
+  "Name": "Mitchell, Wiza and Aufderhar",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 276,
+  "UdListDefinitionId": 119
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 692,
-  "Name": "Pagac LLC",
-  "Tooltip": "sed",
+  "HeadingId": 189,
+  "Name": "Batz Group",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 940,
-  "UdListDefinitionId": 954,
+  "Rank": 948,
+  "UdListDefinitionId": 713,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 511
     }
   }
 }

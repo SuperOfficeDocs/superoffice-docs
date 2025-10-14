@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Create a new quote alternative on a version.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,13 +100,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 99,
-  "QuoteAlternativeName": "Flatley, Nienow and Pfannerstill",
-  "QuoteAlternativeDescription": "Ameliorated bottom-line collaboration"
+  "QuoteVersionId": 349,
+  "QuoteAlternativeName": "Kertzmann, Padberg and Goodwin",
+  "QuoteAlternativeDescription": "Self-enabling neutral analyzer"
 }
 ```
 
@@ -115,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 981,
-  "ERPQuoteAlternativeKey": "ipsam",
-  "QuoteVersionId": 809,
-  "Name": "Kozey Inc and Sons",
-  "Description": "Diverse eco-centric support",
+  "QuoteAlternativeId": 378,
+  "ERPQuoteAlternativeKey": "in",
+  "QuoteVersionId": 212,
+  "Name": "Conroy-Crooks",
+  "Description": "User-friendly methodical collaboration",
   "Status": "Error",
-  "Reason": "strategize strategic convergence",
-  "ERPDiscountPercent": 30390.397999999997,
-  "ERPDiscountAmount": 3582.162,
-  "DiscountPercent": 13394.716,
-  "DiscountAmount": 18337.034,
+  "Reason": "enhance frictionless vortals",
+  "ERPDiscountPercent": 16136.966,
+  "ERPDiscountAmount": 3390.988,
+  "DiscountPercent": 244.452,
+  "DiscountAmount": 14134.34,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 17343.556,
-  "EarningPercent": 3883.026,
-  "EarningAmount": 11956.21,
-  "SubTotal": 28506.863999999998,
-  "TotalPrice": 72.082,
-  "ExtraField1": "voluptas",
-  "ExtraField2": "eum",
-  "ExtraField3": "quo",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "reprehenderit",
+  "VATInfo": "est",
+  "VAT": 24952.908,
+  "EarningPercent": 22796.716,
+  "EarningAmount": 29635.104,
+  "SubTotal": 29105.458,
+  "TotalPrice": 25824.16,
+  "ExtraField1": "aut",
+  "ExtraField2": "commodi",
+  "ExtraField3": "pariatur",
+  "ExtraField4": "qui",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

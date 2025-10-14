@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Loading default values into a new ReportLabelLayoutEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 484,
-  "Name": "Ebert Inc and Sons",
-  "Description": "Configurable systematic alliance",
+  "ReportLabelLayoutId": 119,
+  "Name": "Heaney LLC",
+  "Description": "Future-proofed hybrid utilisation",
   "Orientation": "Landscape",
-  "PaperWidth": 768,
-  "PaperHeight": 803,
-  "LeftMargin": 670,
-  "RightMargin": 23,
-  "TopMargin": 492,
-  "BottomMargin": 891,
-  "CountColumns": 8,
-  "CountRows": 251,
+  "PaperWidth": 842,
+  "PaperHeight": 486,
+  "LeftMargin": 877,
+  "RightMargin": 847,
+  "TopMargin": 383,
+  "BottomMargin": 673,
+  "CountColumns": 157,
+  "CountRows": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldLength": 2
     }
   }
 }

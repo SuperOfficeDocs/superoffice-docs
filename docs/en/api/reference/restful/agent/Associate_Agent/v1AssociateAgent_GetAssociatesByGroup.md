@@ -15,6 +15,7 @@ Method that returns a array of associate , based on DiaryGroupType and groupId.
 
 
 The differernt types are, Userdefined, Usergroup and ResourceHeadings
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -94,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 493,
-  "Type": 490
+  "GroupId": 876,
+  "Type": 377
 }
 ```
 
@@ -107,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 279,
-    "Name": "Volkman Inc and Sons",
-    "PersonId": 641,
-    "Rank": 98,
-    "Tooltip": "molestiae",
+    "AssociateId": 897,
+    "Name": "Jast-Bechtelar",
+    "PersonId": 849,
+    "Rank": 3,
+    "Tooltip": "ut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 559,
-    "FullName": "Vella Hansen",
-    "FormalName": "Durgan, Zieme and Spencer",
+    "GroupIdx": 905,
+    "FullName": "Lisa Harvey",
+    "FormalName": "Little-Kuhlman",
     "Deleted": false,
-    "EjUserId": 13,
-    "UserName": "Mohr, Feil and Terry",
+    "EjUserId": 964,
+    "UserName": "Simonis-Cormier",
     "ExtraFields": {
-      "ExtraFields1": "blanditiis",
-      "ExtraFields2": "aliquid"
+      "ExtraFields1": "inventore",
+      "ExtraFields2": "tempore"
     },
     "CustomFields": {
-      "CustomFields1": "quisquam",
-      "CustomFields2": "laudantium"
+      "CustomFields1": "in",
+      "CustomFields2": "fugiat"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldLength": 802
       }
     }
   }

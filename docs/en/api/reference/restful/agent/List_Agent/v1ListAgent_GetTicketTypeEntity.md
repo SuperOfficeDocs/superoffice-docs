@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypeEntity
 Gets a TicketTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=593
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=999
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,40 +98,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 96,
-  "Name": "Lindgren-Yost",
-  "Rank": 985,
-  "Tooltip": "labore",
-  "Icon": "mollitia",
-  "DefaultTicketStatus": 243,
+  "TicketTypeId": 678,
+  "Name": "Bruen, Welch and Schiller",
+  "Rank": 283,
+  "Tooltip": "incidunt",
+  "Icon": "fugiat",
+  "DefaultTicketStatus": 283,
   "TicketStatuses": [
-    677,
-    175
+    474,
+    166
   ],
-  "DefaultTicketPriority": 943,
+  "DefaultTicketPriority": 811,
   "TicketPriorities": [
-    751,
-    292
+    833,
+    291
   ],
-  "ReplyTemplate": 97,
+  "ReplyTemplate": 905,
   "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    37,
-    394
+    563,
+    702
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 370
     }
   }
 }

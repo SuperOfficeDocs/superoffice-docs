@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetPhones
 Returning all phones that belong to a person, ordered by the phone type.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -76,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 285
+  "PersonId": 767
 }
 ```
 
@@ -92,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "aut",
-    "StrippedValue": "quia",
-    "Description": "Upgradable user-facing moratorium",
+    "Value": "dolorum",
+    "StrippedValue": "voluptas",
+    "Description": "Inverse demand-driven algorithm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 211
       }
     }
   },
   {
-    "Value": "aut",
-    "StrippedValue": "quia",
-    "Description": "Upgradable user-facing moratorium",
+    "Value": "dolorum",
+    "StrippedValue": "voluptas",
+    "Description": "Inverse demand-driven algorithm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 211
       }
     }
   }

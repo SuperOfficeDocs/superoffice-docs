@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Generate a default message content with option to exclude signature: attachments and body as sanitized HTML
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 877,
+  "TicketId": 492,
   "MessageActionType": "Forward",
-  "TicketMessageId": 350,
-  "TicketTypeId": 85,
+  "TicketMessageId": 678,
+  "TicketTypeId": 47,
   "ExcludeSignature": false
 }
 ```
@@ -96,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "delectus",
+  "Body": "culpa",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 82,
-      "Name": "Kovacek, Greenfelder and Sawayn",
-      "ContentType": "voluptas",
-      "AttSize": 395,
+      "AttachmentId": 732,
+      "Name": "Ferry-Daugherty",
+      "ContentType": "harum",
+      "AttSize": 788,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "iusto",
-      "IsSafeFileExtension": true,
+      "ContentId": "expedita",
+      "AuthKey": "non",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 254
         }
       }
     }

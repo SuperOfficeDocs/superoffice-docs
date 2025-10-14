@@ -15,6 +15,7 @@ Saves the history elements as the current value for their respective lists.
 
 
 If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,19 +83,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 135,
-      "Id": 932,
-      "HistoryName": "Balistreri-Heller",
-      "HistoryId": 953,
-      "AssociateId": 447,
-      "Name": "Bode, Schaden and Marvin",
-      "ItemInfo": "omnis"
+      "Rank": 761,
+      "Id": 209,
+      "HistoryName": "Littel LLC",
+      "HistoryId": 407,
+      "AssociateId": 298,
+      "Name": "Schmitt, Gislason and Hammes",
+      "ItemInfo": "dicta"
     }
   ]
 }
@@ -108,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 424,
-    "Id": 376,
-    "HistoryName": "Reichel, Cruickshank and Koch",
-    "HistoryId": 354,
-    "AssociateId": 480,
-    "Name": "Daniel, Howell and Armstrong",
-    "ItemInfo": "voluptates",
+    "Rank": 446,
+    "Id": 903,
+    "HistoryName": "Swaniawski-Gaylord",
+    "HistoryId": 818,
+    "AssociateId": 660,
+    "Name": "Predovic Inc and Sons",
+    "ItemInfo": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 257
       }
     }
   }

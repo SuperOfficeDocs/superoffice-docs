@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Halvorson-Walsh",
-    "ToolTip": "Possimus quia ipsa exercitationem omnis inventore cum.",
-    "Deleted": false,
-    "Rank": 411,
-    "Type": "odio",
-    "ColorBlock": 379,
-    "IconHint": "officia",
+    "Id": 298,
+    "Name": "Prohaska, Nader and Stark",
+    "ToolTip": "Unde velit quia illum deleniti odio.",
+    "Deleted": true,
+    "Rank": 584,
+    "Type": "aliquam",
+    "ColorBlock": 182,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2013-06-20T11:24:53.8436729+02:00",
+    "LastChanged": "2023-07-29T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Trantow Inc and Sons",
-        "ToolTip": "Possimus enim aspernatur aliquam ducimus voluptas.",
+        "Id": 546,
+        "Name": "Osinski-Prohaska",
+        "ToolTip": "Numquam magnam iste ipsum.",
         "Deleted": false,
-        "Rank": 510,
-        "Type": "illum",
-        "ColorBlock": 287,
-        "IconHint": "temporibus",
+        "Rank": 986,
+        "Type": "sit",
+        "ColorBlock": 613,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2004-11-07T11:24:53.8436729+01:00",
+        "LastChanged": "2021-03-21T03:40:56.6807244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "sed",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Markus Steuber"
+        "FullName": "Noemy Macie Borer PhD"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "quaerat",
-    "Hidden": true,
-    "FullName": "Madie O'Hara"
+    "ExtraInfo": "totam",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Prof. Terrence O'Reilly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Adams, Conn and Hettinger",
-    "ToolTip": "Quos voluptatem qui magni veniam enim magnam qui.",
-    "Deleted": true,
-    "Rank": 235,
-    "Type": "itaque",
-    "ColorBlock": 557,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2004-11-10T11:24:53.8436729+01:00",
+    "Id": 161,
+    "Name": "Franecki-Pagac",
+    "ToolTip": "Et officiis nemo dolorum dolorum.",
+    "Deleted": false,
+    "Rank": 530,
+    "Type": "porro",
+    "ColorBlock": 689,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2006-12-18T03:40:56.6807244+01:00",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Brakus-Langosh",
-        "ToolTip": "Culpa sit aut ut unde dolorem.",
-        "Deleted": false,
-        "Rank": 335,
-        "Type": "natus",
-        "ColorBlock": 700,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2017-01-14T11:24:53.8436729+01:00",
+        "Id": 965,
+        "Name": "Parker, Mann and Walsh",
+        "ToolTip": "Dolore et cumque est fugit enim nulla.",
+        "Deleted": true,
+        "Rank": 96,
+        "Type": "enim",
+        "ColorBlock": 565,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "2021-10-29T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Queenie Morar",
+        "ExtraInfo": "unde",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Barton Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 290
+            "FieldType": "System.String",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Prince Howe",
+    "ExtraInfo": "et",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Esmeralda Graham I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

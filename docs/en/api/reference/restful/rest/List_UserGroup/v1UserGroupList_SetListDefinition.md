@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Brakus, Yost and Jones",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "Rank": 255,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 692,
+  "Name": "Roob Group",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "Rank": 912,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Welch, Willms and Blick",
-  "Tooltip": "earum",
+  "Id": 194,
+  "Name": "Simonis LLC",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 513,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 164,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 186
     }
   }
 }

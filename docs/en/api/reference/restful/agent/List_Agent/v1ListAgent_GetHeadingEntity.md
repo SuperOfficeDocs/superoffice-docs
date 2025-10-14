@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetHeadingEntity
 Gets a HeadingEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a HeadingEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=438
+POST /api/v1/Agents/List/GetHeadingEntity?headingEntityId=302
 POST /api/v1/Agents/List/GetHeadingEntity?$select=name,department,category/id
 ```
 
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 319,
-  "Name": "Baumbach Group",
-  "Tooltip": "impedit",
+  "HeadingId": 837,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 704,
-  "UdListDefinitionId": 144,
+  "Rank": 283,
+  "UdListDefinitionId": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 555
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/DeletePreferences
 Delete some preferences by id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    127,
-    183
+    78,
+    745
   ]
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLanguageInfoList
 Gets an array of LanguageInfo objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,19 +90,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 372,
-    "LCID": 318,
-    "EnglishName": "Kuhlman, Sanford and Davis",
-    "NativeName": "Shields Group",
-    "ThreeLetterISOLanguageName": "Ernser-Lehner",
-    "TwoLetterISOLanguageName": "Wintheiser-Champlin",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 527,
+    "LCID": 299,
+    "EnglishName": "Wyman, Wuckert and Hartmann",
+    "NativeName": "Brown-Maggio",
+    "ThreeLetterISOLanguageName": "Cummerata, Bergnaum and Armstrong",
+    "TwoLetterISOLanguageName": "Hyatt-Johns",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 623
       }
     }
   }

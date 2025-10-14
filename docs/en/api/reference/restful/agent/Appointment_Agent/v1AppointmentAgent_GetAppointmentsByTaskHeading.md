@@ -15,6 +15,7 @@ Method that returns appointments of a specific appointment task heading.
 
 
 Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 993
+  "TaskHeadingId": 296
 }
 ```
 
@@ -146,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 331,
-    "StartDate": "2020-03-21T11:24:47.3126897+01:00",
-    "EndDate": "2005-11-21T11:24:47.3126897+01:00",
+    "AppointmentId": 707,
+    "StartDate": "2020-09-19T03:40:45.6387418+02:00",
+    "EndDate": "2019-12-07T03:40:45.6387418+01:00",
     "Type": "BookingForChecklist",
-    "Task": "incidunt",
-    "AssociateFullName": "Dr. Janet Kreiger Sr.",
-    "ContactName": "Harris Group",
-    "Description": "Digitized background framework",
-    "PersonFullName": "Prof. Desmond Ezra Boyer V",
-    "PersonId": 353,
-    "ContactId": 778,
-    "ProjectId": 994,
-    "ProjectName": "Vandervort Group",
-    "IsPublished": true,
-    "AssociateId": 90,
-    "ColorIndex": 626,
+    "Task": "consectetur",
+    "AssociateFullName": "Eldred Mosciski",
+    "ContactName": "Donnelly LLC",
+    "Description": "Enhanced systematic pricing structure",
+    "PersonFullName": "Ms. Mauricio Wyman Sr.",
+    "PersonId": 52,
+    "ContactId": 195,
+    "ProjectId": 689,
+    "ProjectName": "Gaylord-Franecki",
+    "IsPublished": false,
+    "AssociateId": 793,
+    "ColorIndex": 991,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 113,
-    "PriorityName": "Hand Group",
+    "PriorityId": 242,
+    "PriorityName": "Ritchie-Harvey",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2020-09-19T11:24:47.3126897+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-03-13T03:40:45.6387418+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-11-24T11:24:47.3126897+01:00",
-    "RecurringEndDate": "2002-12-08T11:24:47.3126897+01:00",
-    "MotherId": 982,
-    "AssignedBy": 847,
-    "AssignedByFullName": "Miss Seth Damon Walker II",
+    "RecurringStartDate": "2019-07-30T03:40:45.6387418+02:00",
+    "RecurringEndDate": "2018-08-01T03:40:45.6387418+02:00",
+    "MotherId": 319,
+    "AssignedBy": 202,
+    "AssignedByFullName": "Mrs. Vallie Satterfield Jr.",
     "RejectReason": "",
-    "Location": "assumenda",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 800,
-    "SaleName": "McKenzie, Dicki and Hickle",
-    "AssociateName": "Little, Frami and Barton",
-    "CreatedDate": "2003-08-29T11:24:47.3126897+02:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Ms. Nick Stracke DVM",
-    "CreatedByAssociateId": 208,
+    "Location": "alias",
+    "AlarmLeadTime": "enim",
+    "SaleId": 466,
+    "SaleName": "Hyatt, Waters and Lebsack",
+    "AssociateName": "Baumbach-Carroll",
+    "CreatedDate": "2007-02-16T03:40:45.6387418+01:00",
+    "CreatedBy": "culpa",
+    "CreatedByFullName": "Taryn Rogahn",
+    "CreatedByAssociateId": 691,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 267,
+    "MotherAssociateId": 564,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 129,
-    "Title": "quas",
-    "Agenda": "iure",
-    "InternalNotes": "deleniti",
+    "PreferredTZLocation": 185,
+    "Title": "perferendis",
+    "Agenda": "et",
+    "InternalNotes": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldLength": 718
       }
     }
   }

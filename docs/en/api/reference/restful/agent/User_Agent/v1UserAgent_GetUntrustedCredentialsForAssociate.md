@@ -15,6 +15,7 @@ Get a set of credentials of a specified type for a specified user.
 
 
 SecretValue is only populated for authenticated user, and system users.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 662,
-  "Type": "ducimus"
+  "AssociateId": 168,
+  "Type": "fugit"
 }
 ```
 
@@ -102,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2023-03-17T11:24:48.9376234+01:00",
-    "ValidTo": "2024-06-30T11:24:48.9376234+02:00",
-    "Comment": "recusandae",
-    "SecretValue": "perferendis",
-    "PublicValue": "est",
-    "IsActive": true,
+    "ValidFrom": "2023-09-06T03:40:48.2348737+02:00",
+    "ValidTo": "2007-07-05T03:40:48.2348737+02:00",
+    "Comment": "natus",
+    "SecretValue": "quia",
+    "PublicValue": "suscipit",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

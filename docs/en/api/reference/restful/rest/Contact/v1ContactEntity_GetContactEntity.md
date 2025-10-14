@@ -15,6 +15,7 @@ Gets a ContactEntity object.
 
 
 Calls the Contact agent service GetContactEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -129,160 +130,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 22 Dec 2011 11:24:53 G12T
+Last-Modified: Mon, 02 Jun 2025 03:40:55 G6T
 
 {
-  "ContactId": 331,
-  "Name": "Medhurst, Weimann and Lesch",
+  "ContactId": 4,
+  "Name": "Koch LLC",
   "Department": "",
-  "OrgNr": "1439374",
-  "Number1": "1767510",
-  "Number2": "392891",
-  "UpdatedDate": "2011-12-22T11:24:53.1093279+01:00",
-  "CreatedDate": "2003-08-23T11:24:53.1093279+02:00",
+  "OrgNr": "938678",
+  "Number1": "936716",
+  "Number2": "665402",
+  "UpdatedDate": "2025-06-02T03:40:55.4599408+02:00",
+  "CreatedDate": "2005-10-15T03:40:55.4599408+02:00",
   "Emails": [
     {
-      "Value": "quia",
-      "StrippedValue": "sint",
-      "Description": "Mandatory tertiary knowledge base",
+      "Value": "sit",
+      "StrippedValue": "est",
+      "Description": "Synergistic stable framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 368
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "sint",
-      "Description": "Mandatory tertiary knowledge base",
+      "Value": "sit",
+      "StrippedValue": "est",
+      "Description": "Synergistic stable framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldType": "System.String",
+          "FieldLength": 368
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 575,
-      "Name": "Williamson, Bernier and Beahan",
-      "ToolTip": "Quasi velit ratione quia.",
+      "Id": 503,
+      "Name": "Homenick LLC",
+      "ToolTip": "Dolorum qui a cumque nesciunt.",
       "Deleted": false,
-      "Rank": 262,
-      "Type": "omnis",
-      "ColorBlock": 311,
-      "IconHint": "corporis",
-      "Selected": false,
-      "LastChanged": "2023-01-30T11:24:53.1093279+01:00",
+      "Rank": 46,
+      "Type": "quidem",
+      "ColorBlock": 462,
+      "IconHint": "cupiditate",
+      "Selected": true,
+      "LastChanged": "2008-09-12T03:40:55.4755673+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Ahmed Maggie Jewess DDS",
+      "ExtraInfo": "neque",
+      "StyleHint": "nisi",
+      "Hidden": false,
+      "FullName": "Mr. Candida Schaden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 538
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "beatae",
-      "StrippedValue": "ut",
-      "Description": "Fundamental discrete open system",
+      "Value": "doloremque",
+      "StrippedValue": "vitae",
+      "Description": "Persevering grid-enabled solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 469
+          "FieldLength": 967
         }
       }
     },
     {
-      "Value": "beatae",
-      "StrippedValue": "ut",
-      "Description": "Fundamental discrete open system",
+      "Value": "doloremque",
+      "StrippedValue": "vitae",
+      "Description": "Persevering grid-enabled solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 469
+          "FieldLength": 967
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "molestiae",
-      "StrippedValue": "in",
-      "Description": "Phased intermediate secured line",
+      "Value": "ratione",
+      "StrippedValue": "ab",
+      "Description": "Expanded optimizing data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 565
         }
       }
     },
     {
-      "Value": "molestiae",
-      "StrippedValue": "in",
-      "Description": "Phased intermediate secured line",
+      "Value": "ratione",
+      "StrippedValue": "ab",
+      "Description": "Expanded optimizing data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 565
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "voluptas",
-      "Description": "Customizable system-worthy internet solution",
+      "Value": "vitae",
+      "StrippedValue": "assumenda",
+      "Description": "Monitored 24/7 process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "voluptas",
-      "Description": "Customizable system-worthy internet solution",
+      "Value": "vitae",
+      "StrippedValue": "assumenda",
+      "Description": "Monitored 24/7 process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "Description": "Intuitive motivating task-force",
+  "Description": "Progressive secondary product",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -291,102 +292,102 @@ Last-Modified: Thu, 22 Dec 2011 11:24:53 G12T
   "Country": null,
   "Persons": [
     {
-      "Position": "sit",
-      "PersonId": 688,
-      "Mrmrs": "quidem",
-      "Firstname": "Nelda",
-      "Lastname": "McGlynn",
-      "MiddleName": "Hermann-Hettinger",
-      "Title": "vitae",
-      "Description": "Function-based methodical hardware",
-      "Email": "wilber.gorczany@walshgerhold.us",
-      "FullName": "Shawn Garfield Padberg DVM",
-      "DirectPhone": "(190)116-4870",
-      "FormalName": "Powlowski LLC",
-      "CountryId": 544,
-      "ContactId": 374,
-      "ContactName": "Ziemann, Schamberger and Swaniawski",
-      "Retired": 762,
-      "Rank": 548,
-      "ActiveInterests": 470,
-      "ContactDepartment": "",
-      "ContactCountryId": 838,
-      "ContactOrgNr": "1160006",
-      "FaxPhone": "701.294.7223 x51752",
-      "MobilePhone": "(191)518-6971",
-      "ContactPhone": "1-658-832-1055",
-      "AssociateName": "Olson, Stoltenberg and Anderson",
-      "AssociateId": 571,
-      "UsePersonAddress": true,
-      "ContactFax": "quos",
-      "Kanafname": "eligendi",
-      "Kanalname": "similique",
-      "Post1": "ut",
-      "Post2": "sint",
-      "Post3": "non",
-      "EmailName": "nasir.emard@hane.uk",
-      "ContactFullName": "Prof. Alexandra Kassulke",
-      "ActiveErpLinks": 961,
-      "TicketPriorityId": 420,
-      "SupportLanguageId": 168,
-      "SupportAssociateId": 873,
+      "Position": "dolorem",
+      "PersonId": 572,
+      "Mrmrs": "quas",
+      "Firstname": "Roxanne",
+      "Lastname": "Tromp",
+      "MiddleName": "Mueller-Sporer",
+      "Title": "magnam",
+      "Description": "Reduced demand-driven success",
+      "Email": "lee@sporer.info",
+      "FullName": "Hillard Gutkowski V",
+      "DirectPhone": "477-455-4108 x70631",
+      "FormalName": "Batz, Rogahn and Ondricka",
+      "CountryId": 21,
+      "ContactId": 350,
+      "ContactName": "Rosenbaum, Reilly and Littel",
+      "Retired": 403,
+      "Rank": 121,
+      "ActiveInterests": 339,
+      "ContactDepartment": "brand seamless web-readiness",
+      "ContactCountryId": 73,
+      "ContactOrgNr": "1080366",
+      "FaxPhone": "578.863.2958 x3535",
+      "MobilePhone": "(938)108-2838 x82397",
+      "ContactPhone": "(098)185-8024 x7555",
+      "AssociateName": "Anderson, Considine and Reynolds",
+      "AssociateId": 423,
+      "UsePersonAddress": false,
+      "ContactFax": "dolor",
+      "Kanafname": "debitis",
+      "Kanalname": "facere",
+      "Post1": "sunt",
+      "Post2": "dolorem",
+      "Post3": "neque",
+      "EmailName": "geo@bergstrom.name",
+      "ContactFullName": "Seth Julio Larkin MD",
+      "ActiveErpLinks": 142,
+      "TicketPriorityId": 773,
+      "SupportLanguageId": 984,
+      "SupportAssociateId": 488,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "827800",
+      "PersonNumber": "906130",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 996
+          "FieldLength": 493
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "voluptatem",
-  "Xstop": true,
-  "ActiveInterests": 512,
-  "GroupId": 211,
-  "ActiveStatusMonitorId": 790,
+  "NoMailing": true,
+  "Kananame": "impedit",
+  "Xstop": false,
+  "ActiveInterests": 922,
+  "GroupId": 825,
+  "ActiveStatusMonitorId": 371,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 703,
-  "DbiAgentId": 317,
-  "DbiLastSyncronized": "1999-09-16T11:24:53.1093279+02:00",
-  "DbiKey": "non",
-  "DbiLastModified": "2005-03-31T11:24:53.1093279+02:00",
+  "Deleted": 261,
+  "DbiAgentId": 791,
+  "DbiLastSyncronized": "2013-10-19T03:40:55.4755673+02:00",
+  "DbiKey": "libero",
+  "DbiLastModified": "2009-01-21T03:40:55.4755673+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 818,
-  "ActiveErpLinks": 173,
+  "Source": 639,
+  "ActiveErpLinks": 120,
   "BounceEmails": [
-    "asa.labadie@schulist.ca",
-    "noel@jastdooley.com"
+    "selina_gerhold@kingframi.biz",
+    "yasmin_pacocha@dubuqueschiller.biz"
   ],
   "Domains": [
-    "mollitia",
-    "dignissimos"
+    "assumenda",
+    "quasi"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1425378120"
+    "SuperOffice:1": "Alice Jakubowski III",
+    "SuperOffice:2": "Susie Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "culpa"
+    "CustomFields1": "dolores",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 574
     }
   },
   "_Links": {

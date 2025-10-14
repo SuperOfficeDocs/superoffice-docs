@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLegalBase
 Gets a LegalBase object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a LegalBase object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLegalBase?legalBaseId=143
+POST /api/v1/Agents/List/GetLegalBase?legalBaseId=539
 POST /api/v1/Agents/List/GetLegalBase?$select=name,department,category/id
 ```
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 342,
-  "Name": "Schimmel LLC",
-  "Tooltip": "assumenda",
-  "Rank": 173,
-  "Key": "est",
-  "Deleted": false,
+  "LegalBaseId": 581,
+  "Name": "Gutmann-Russel",
+  "Tooltip": "et",
+  "Rank": 200,
+  "Key": "numquam",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   }
 }

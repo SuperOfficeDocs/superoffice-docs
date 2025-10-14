@@ -15,6 +15,7 @@ Get the current users connected state.
 
 
 This indicates if a user is configured to use VideoMeetings.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Appointment/GetVideoMeetingConnectedState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,8 +79,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsConnected": true,
-  "ProviderId": "labore",
+  "IsConnected": false,
+  "ProviderId": "eos",
   "LoginUrl": "http://www.example.com/"
 }
 ```

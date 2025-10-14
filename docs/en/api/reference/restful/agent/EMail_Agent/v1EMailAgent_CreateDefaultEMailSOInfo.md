@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Loading default values into a new EMailSOInfo.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -75,20 +78,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 96,
-  "AppointmentId": 718,
-  "ProjectId": 182,
-  "SaleId": 266,
-  "Archived": false,
-  "ArchivedAt": "2006-03-14T11:24:48.0626591+01:00",
-  "ArchivedBy": 487,
-  "ArchivedDisplayName": "Zulauf Group",
+  "DocumentId": 434,
+  "AppointmentId": 643,
+  "ProjectId": 762,
+  "SaleId": 846,
+  "Archived": true,
+  "ArchivedAt": "2000-04-10T03:40:46.8280185+02:00",
+  "ArchivedBy": 731,
+  "ArchivedDisplayName": "Lehner-Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   }
 }

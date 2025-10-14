@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Krajcik, Gislason and Thiel",
-    "ToolTip": "Fugiat similique nihil similique quae totam distinctio magni.",
-    "Deleted": false,
-    "Rank": 90,
-    "Type": "fugit",
-    "ColorBlock": 465,
-    "IconHint": "nostrum",
+    "Id": 262,
+    "Name": "Hilll Group",
+    "ToolTip": "Ipsa odit deleniti.",
+    "Deleted": true,
+    "Rank": 212,
+    "Type": "et",
+    "ColorBlock": 517,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2008-08-18T11:24:54.1405361+02:00",
+    "LastChanged": "2011-07-28T03:40:57.1027301+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Kunde-Schulist",
-        "ToolTip": "Et maiores labore maiores sit.",
-        "Deleted": true,
-        "Rank": 928,
-        "Type": "non",
-        "ColorBlock": 16,
-        "IconHint": "eos",
+        "Id": 228,
+        "Name": "Langworth Inc and Sons",
+        "ToolTip": "Aut consequatur possimus.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "omnis",
+        "ColorBlock": 321,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2008-03-21T11:24:54.1405361+01:00",
+        "LastChanged": "2007-10-11T03:40:57.1027301+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "cumque",
+        "ExtraInfo": "minima",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Jackson Tremblay",
+        "FullName": "Mr. Zora Maeve Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "saepe",
+    "ExtraInfo": "aut",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Prof. Moises Monte Osinski II",
+    "FullName": "Kiarra Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 480
       }
     }
   }

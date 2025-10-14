@@ -15,6 +15,7 @@ Stores the product thumbnail that is displayed in the CRM application.
 
 
 The image is scaled down to max 200x200 pixels.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 644,
+  "ProductId": 405,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

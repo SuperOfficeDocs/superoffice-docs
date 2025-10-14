@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Gets headings for list resolved by the provided id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230
+  "Id": 531
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 744,
-    "Name": "Harris, Bechtelar and Bayer",
-    "Tooltip": "recusandae",
+    "HeadingId": 832,
+    "Name": "Considine Group",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "Rank": 374,
-    "UdListDefinitionId": 608,
+    "Rank": 184,
+    "UdListDefinitionId": 22,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

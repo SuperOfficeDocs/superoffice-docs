@@ -80,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 294,
-  "Name": "Heathcote Inc and Sons",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 549,
-  "UdListDefinitionId": 890
+  "HeadingId": 232,
+  "Name": "Oberbrunner-Brakus",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 945,
+  "UdListDefinitionId": 575
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 529,
-  "Name": "Barrows, Stoltenberg and Bosco",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 76,
-  "UdListDefinitionId": 519,
+  "HeadingId": 117,
+  "Name": "Spencer LLC",
+  "Tooltip": "animi",
+  "Deleted": true,
+  "Rank": 128,
+  "UdListDefinitionId": 252,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

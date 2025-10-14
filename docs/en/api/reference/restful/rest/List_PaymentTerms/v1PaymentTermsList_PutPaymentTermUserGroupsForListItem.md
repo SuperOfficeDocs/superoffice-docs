@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Satterfield-Botsford",
-    "ToolTip": "Voluptatum cupiditate iusto.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "mollitia",
-    "ColorBlock": 702,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2024-04-02T11:24:53.9686678+02:00",
+    "Id": 988,
+    "Name": "Halvorson Inc and Sons",
+    "ToolTip": "Excepturi voluptas ipsa similique amet deserunt.",
+    "Deleted": false,
+    "Rank": 220,
+    "Type": "voluptas",
+    "ColorBlock": 218,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2020-12-25T03:40:56.9620969+01:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Skiles Group",
-        "ToolTip": "Quo animi voluptatibus dolorem.",
+        "Id": 237,
+        "Name": "Olson, Moen and Heidenreich",
+        "ToolTip": "Voluptates sunt aperiam.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "dolorem",
-        "ColorBlock": 618,
-        "IconHint": "qui",
+        "Rank": 367,
+        "Type": "itaque",
+        "ColorBlock": 659,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2007-04-11T11:24:53.9686678+02:00",
+        "LastChanged": "2017-04-03T03:40:56.9620969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "et",
+        "ExtraInfo": "velit",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Dr. Zane Rosenbaum PhD"
+        "FullName": "Gus Kiehn"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Chasity Turcotte"
+    "ExtraInfo": "ea",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Brennan Grady"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Runte, Stiedemann and Toy",
-    "ToolTip": "Perspiciatis aut aut odio ex adipisci.",
-    "Deleted": false,
-    "Rank": 331,
-    "Type": "enim",
-    "ColorBlock": 728,
-    "IconHint": "doloremque",
-    "Selected": false,
-    "LastChanged": "2013-02-22T11:24:53.9686678+01:00",
+    "Id": 873,
+    "Name": "Gorczany Group",
+    "ToolTip": "Ab quo veniam et voluptatem perspiciatis maxime aliquam.",
+    "Deleted": true,
+    "Rank": 798,
+    "Type": "non",
+    "ColorBlock": 747,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2008-12-16T03:40:56.9620969+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Lynch, Gorczany and Brakus",
-        "ToolTip": "Deserunt occaecati quibusdam saepe.",
+        "Id": 775,
+        "Name": "Gleason-Reinger",
+        "ToolTip": "Est sit expedita enim quidem minus neque.",
         "Deleted": false,
-        "Rank": 911,
-        "Type": "ut",
-        "ColorBlock": 798,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2006-12-13T11:24:53.9686678+01:00",
+        "Rank": 256,
+        "Type": "nesciunt",
+        "ColorBlock": 94,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2018-06-13T03:40:56.9620969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "itaque",
+        "ExtraInfo": "quo",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Boris Jacobi",
+        "FullName": "Eino Mekhi Marks Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 183
+            "FieldLength": 590
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "minus",
+    "ExtraInfo": "sequi",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Rafaela Keebler",
+    "FullName": "Zita Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 176
       }
     }
   }

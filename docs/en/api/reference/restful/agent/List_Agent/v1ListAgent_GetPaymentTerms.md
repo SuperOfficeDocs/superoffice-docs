@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPaymentTerms
 Returns all PaymentTerms in SuperOffice db.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Value": "ipsum",
-    "Tooltip": "quidem",
+    "Id": 122,
+    "Value": "tempora",
+    "Tooltip": "aliquid",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 609
       }
     }
   },
   {
-    "Id": 887,
-    "Value": "ipsum",
-    "Tooltip": "quidem",
+    "Id": 122,
+    "Value": "tempora",
+    "Tooltip": "aliquid",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 609
       }
     }
   }

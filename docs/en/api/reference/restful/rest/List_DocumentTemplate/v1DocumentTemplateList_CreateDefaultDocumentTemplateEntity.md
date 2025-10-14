@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 267,
-  "Name": "Swaniawski Inc and Sons",
-  "Tooltip": "doloribus",
-  "SaveInDb": 48,
-  "Filename": "corrupti",
-  "DefaultOref": "vero",
+  "DocumentTemplateId": 703,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "a",
+  "SaveInDb": 849,
+  "Filename": "nobis",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 216,
-  "IntentId": 163,
-  "IsDefaultPublished": false,
-  "Rank": 242,
-  "LoadTemplateFromPlugin": 705,
-  "MimeType": "velit",
+  "AutoeventId": 27,
+  "IntentId": 75,
+  "IsDefaultPublished": true,
+  "Rank": 149,
+  "LoadTemplateFromPlugin": 40,
+  "MimeType": "ipsam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 706,
+  "DocumentTypeKey": 824,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ryley.bins@walker.info",
-  "IncludeSignature": false,
+  "EmailSubject": "vernie.schumm@rice.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "samantha.abbott@schummvolkman.uk",
+  "SenderEmailAddress": "sedrick@jerdehammes.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 362
     }
   }
 }

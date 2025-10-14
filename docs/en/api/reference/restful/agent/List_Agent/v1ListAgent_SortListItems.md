@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SortListItems
 Sort the list items in a given list alphabetically
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 444,
+  "UdListDefinitionId": 117,
   "CultureName": "sv"
 }
 ```

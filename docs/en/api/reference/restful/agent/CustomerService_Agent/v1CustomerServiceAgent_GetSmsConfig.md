@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetSmsConfig
 Get the SmsConfig settings for Customer Service sms providers.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "labore",
-  "NsPluginSender": "neque",
+  "NetServerSmsProvider": "omnis",
+  "NsPluginSender": "rerum",
   "NsPluginConfig": {
-    "NsPluginConfig1": "est",
-    "NsPluginConfig2": "sit"
+    "NsPluginConfig1": "illum",
+    "NsPluginConfig2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 447
     }
   }
 }

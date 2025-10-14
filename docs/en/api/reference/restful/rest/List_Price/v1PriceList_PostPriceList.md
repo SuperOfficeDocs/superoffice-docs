@@ -15,6 +15,7 @@ Creates a new PriceList
 
 
 Calls the Quote agent service SavePriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -99,16 +100,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 209,
-  "ERPPriceListKey": "voluptatum",
-  "QuoteConnectionId": 819,
-  "Name": "Klein, Wehner and Emmerich",
-  "Description": "Expanded neutral orchestration",
-  "Currency": "voluptatum",
-  "CurrencyName": "Ferry-Tillman",
-  "ValidFrom": "2006-04-03T11:24:53.9842923+02:00",
-  "ValidTo": "2007-04-12T11:24:53.9842923+02:00",
-  "IsActive": true
+  "PriceListId": 989,
+  "ERPPriceListKey": "tempora",
+  "QuoteConnectionId": 311,
+  "Name": "Stamm, Gislason and Ziemann",
+  "Description": "De-engineered 5th generation challenge",
+  "Currency": "unde",
+  "CurrencyName": "Abernathy, Goodwin and Runolfsson",
+  "ValidFrom": "2015-08-09T03:40:56.9777222+02:00",
+  "ValidTo": "2003-10-29T03:40:56.9777222+01:00",
+  "IsActive": false
 }
 ```
 
@@ -119,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 740,
-  "ERPPriceListKey": "officia",
-  "QuoteConnectionId": 770,
-  "Name": "Ondricka, Aufderhar and Aufderhar",
-  "Description": "Decentralized neutral emulation",
-  "Currency": "quasi",
-  "CurrencyName": "Hermiston, Wilderman and Watsica",
-  "ValidFrom": "2005-07-21T11:24:53.9842923+02:00",
-  "ValidTo": "2001-05-24T11:24:53.9842923+02:00",
+  "PriceListId": 564,
+  "ERPPriceListKey": "repellat",
+  "QuoteConnectionId": 781,
+  "Name": "Dare-Heller",
+  "Description": "Centralized client-driven flexibility",
+  "Currency": "cupiditate",
+  "CurrencyName": "Adams, Abernathy and Corkery",
+  "ValidFrom": "2021-08-02T03:40:56.9777222+02:00",
+  "ValidTo": "2009-01-24T03:40:56.9777222+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 359
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/LatestItemIdByFolder
 Returns the latest id of the mail item by folder
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -75,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 978
+  "FolderId": 515
 }
 ```
 
@@ -85,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-196
+465
 ```

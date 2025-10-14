@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetAllUserGroups
 Get all user groups
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -80,11 +83,11 @@ OK
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "quibusdam",
-    "Tooltip": "occaecati",
-    "Id": 533,
-    "Rank": 952,
-    "Deleted": false,
+    "Value": "pariatur",
+    "Tooltip": "reprehenderit",
+    "Id": 374,
+    "Rank": 974,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 257
       }
     }
   }

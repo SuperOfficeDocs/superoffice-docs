@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetAddress
 Gets the contact's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 437
+  "ContactId": 197
 }
 ```
 
@@ -94,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 7719.0419999999995,
-  "Wgs84Longitude": 1986.956,
+  "Wgs84Latitude": 8925.632,
+  "Wgs84Longitude": 25269.442,
   "LocalizedAddress": [
     [
       {
-        "Name": "Harris-Lubowitz",
-        "Value": "dolor",
-        "Tooltip": "fuga",
-        "Label": "non",
-        "ValueLength": 816,
-        "AddressType": "accusantium",
+        "Name": "Beer-Jewess",
+        "Value": "quod",
+        "Tooltip": "sint",
+        "Label": "itaque",
+        "ValueLength": 483,
+        "AddressType": "vero",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 472
+            "FieldType": "System.Int32",
+            "FieldLength": 79
           }
         }
       }
     ],
     [
       {
-        "Name": "Pfannerstill Group",
-        "Value": "aspernatur",
-        "Tooltip": "facilis",
-        "Label": "vitae",
-        "ValueLength": 378,
-        "AddressType": "perspiciatis",
+        "Name": "Ebert, Leffler and Mraz",
+        "Value": "nesciunt",
+        "Tooltip": "sint",
+        "Label": "qui",
+        "ValueLength": 671,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 266
+            "FieldLength": 955
           }
         }
       }
@@ -136,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aut",
+  "Formatted": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

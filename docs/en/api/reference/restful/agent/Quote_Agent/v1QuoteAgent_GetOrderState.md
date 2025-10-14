@@ -15,6 +15,7 @@ If there is a problem with a quoteline, the error description shall be placed in
 
 
 A summary of all the problems (if any) should be placed in the response object. Requires that the Create-Order capability is true.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/Quote/GetOrderState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 704
+  "QuoteVersionId": 514
 }
 ```
 
@@ -98,9 +99,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "numquam",
-  "TechExplanation": "voluptatem",
-  "ErrorCode": "aut",
+  "UserExplanation": "quisquam",
+  "TechExplanation": "architecto",
+  "ErrorCode": "qui",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -109,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 329
     }
   }
 }

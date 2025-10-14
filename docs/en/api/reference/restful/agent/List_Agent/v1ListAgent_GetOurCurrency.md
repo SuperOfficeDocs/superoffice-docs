@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetOurCurrency
 Gets the Our currency object if currency is enabled
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Value": "est",
-  "Tooltip": "aliquid",
+  "Id": 39,
+  "Value": "doloremque",
+  "Tooltip": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 600
     }
   }
 }

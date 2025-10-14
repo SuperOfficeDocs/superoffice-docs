@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Collier-Murray",
-  "Tooltip": "voluptas",
+  "Id": 464,
+  "Name": "Herman-Becker",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 855,
+  "Rank": 363,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ab",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iusto",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "Huel LLC",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 728,
+  "Id": 6,
+  "Name": "Oberbrunner, Kunze and Gaylord",
+  "Tooltip": "at",
+  "Deleted": false,
+  "Rank": 619,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": true,
+  "ListType": "totam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 652
     }
   }
 }

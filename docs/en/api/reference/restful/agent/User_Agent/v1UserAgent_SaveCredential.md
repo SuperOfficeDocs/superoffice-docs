@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveCredential
 Save (adds/replaces) current credential of the same type for the user.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -72,11 +75,11 @@ OK
 POST /api/v1/Agents/User/SaveCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 254,
+  "UserId": 817,
   "Credential": null
 }
 ```

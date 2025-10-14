@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "Id": 405,
-    "Name": "Douglas Group",
-    "ToolTip": "Aut porro rerum.",
+    "Name": "Mraz LLC",
+    "ToolTip": "Veritatis tenetur id fuga odio tenetur magnam accusamus.",
     "Deleted": false,
-    "Rank": 537,
-    "Type": "omnis",
-    "ColorBlock": 273,
-    "IconHint": "odio",
+    "Rank": 279,
+    "Type": "et",
+    "ColorBlock": 125,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2008-04-29T11:24:54.0936627+02:00",
+    "LastChanged": "2003-05-02T03:40:57.0558521+02:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Kemmer LLC",
-        "ToolTip": "Quae delectus dolor nobis.",
+        "Id": 641,
+        "Name": "Block, Romaguera and Bartoletti",
+        "ToolTip": "Perspiciatis dolore quo veritatis qui omnis aspernatur.",
         "Deleted": true,
-        "Rank": 949,
-        "Type": "velit",
-        "ColorBlock": 736,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2025-02-01T11:24:54.0936627+01:00",
+        "Rank": 308,
+        "Type": "itaque",
+        "ColorBlock": 875,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2014-09-05T03:40:57.0558521+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "nulla",
+        "ExtraInfo": "eius",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Mrs. Lillian Dortha Beatty Jr."
+        "FullName": "Queen Skiles"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "nihil",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Mrs. June Spencer II"
+    "FullName": "Mrs. Phyllis Jacobs"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Kuphal-Fay",
-    "ToolTip": "Accusantium fugiat et est autem voluptatem expedita et.",
-    "Deleted": true,
-    "Rank": 373,
-    "Type": "modi",
-    "ColorBlock": 4,
-    "IconHint": "consequatur",
+    "Id": 704,
+    "Name": "Luettgen-Padberg",
+    "ToolTip": "Fugit eius omnis optio debitis rerum.",
+    "Deleted": false,
+    "Rank": 209,
+    "Type": "consectetur",
+    "ColorBlock": 735,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2019-01-15T11:24:54.0936627+01:00",
+    "LastChanged": "2003-10-23T03:40:57.0558521+02:00",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Thiel Group",
-        "ToolTip": "Veniam saepe et error sed laborum ex.",
+        "Id": 137,
+        "Name": "Dickens, Larson and Streich",
+        "ToolTip": "Quos id eos enim.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "nihil",
-        "ColorBlock": 557,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2003-02-25T11:24:54.0936627+01:00",
+        "Rank": 416,
+        "Type": "veniam",
+        "ColorBlock": 630,
+        "IconHint": "quasi",
+        "Selected": false,
+        "LastChanged": "2005-03-22T03:40:57.0558521+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "unde",
-        "Hidden": true,
-        "FullName": "Mr. Fay Abbie Dach",
+        "ExtraInfo": "aut",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Ms. Clifford Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 603
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Jovany Adams",
+    "ExtraInfo": "alias",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Julie O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 95
+        "FieldLength": 650
       }
     }
   }

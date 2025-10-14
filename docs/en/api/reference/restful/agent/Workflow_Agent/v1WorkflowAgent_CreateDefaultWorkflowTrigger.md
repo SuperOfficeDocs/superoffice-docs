@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Loading default values into a new WorkflowTrigger.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -59,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,23 +71,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 552,
-  "WorkflowId": 12,
+  "WorkflowTriggerId": 430,
+  "WorkflowId": 719,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Gutmann, Prohaska and Upton",
-      "Description": "Phased regional process improvement",
-      "Rank": 364,
+      "Name": "Goyette, Kunze and Beatty",
+      "Description": "Progressive national access",
+      "Rank": 628,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann, Prohaska and Upton",
-      "Description": "Phased regional process improvement",
-      "Rank": 364,
+      "Name": "Goyette, Kunze and Beatty",
+      "Description": "Progressive national access",
+      "Rank": 628,
       "Restrictions": [
         {},
         {}
@@ -97,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 790
     }
   }
 }

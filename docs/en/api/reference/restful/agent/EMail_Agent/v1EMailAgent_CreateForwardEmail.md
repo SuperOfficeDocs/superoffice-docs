@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateForwardEmail
 Create forward email
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 424,
-      "ContactName": "Champlin, Kertzmann and Sawayn",
-      "PersonId": 991,
-      "PersonName": "Weber, Metz and Wisoky",
-      "AssociateId": 351,
-      "Address": "et",
-      "EmailId": 132,
+      "ContactId": 835,
+      "ContactName": "Heidenreich-Mayer",
+      "PersonId": 207,
+      "PersonName": "Moen Inc and Sons",
+      "AssociateId": 643,
+      "Address": "soluta",
+      "EmailId": 419,
       "DuplicatePersonIds": [
-        549,
-        641
+        662,
+        420
       ],
-      "Name": "Miller, Spencer and Halvorson",
+      "Name": "Mertz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldType": "System.Int32",
+          "FieldLength": 46
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 263,
-      "ContactName": "Howell LLC",
-      "PersonId": 326,
-      "PersonName": "Runolfsson LLC",
-      "AssociateId": 722,
-      "Address": "quia",
-      "EmailId": 447,
+      "ContactId": 627,
+      "ContactName": "Jakubowski, Cronin and Ferry",
+      "PersonId": 241,
+      "PersonName": "Howe Inc and Sons",
+      "AssociateId": 196,
+      "Address": "amet",
+      "EmailId": 123,
       "DuplicatePersonIds": [
-        85,
-        545
+        84,
+        652
       ],
-      "Name": "Kulas, Luettgen and Paucek",
+      "Name": "Dare, VonRueden and Gorczany",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 538,
-      "ContactName": "Dibbert, Osinski and Will",
-      "PersonId": 137,
-      "PersonName": "VonRueden Group",
-      "AssociateId": 251,
-      "Address": "id",
-      "EmailId": 284,
+      "ContactId": 825,
+      "ContactName": "Marvin Inc and Sons",
+      "PersonId": 91,
+      "PersonName": "Jewess-Hills",
+      "AssociateId": 515,
+      "Address": "voluptatem",
+      "EmailId": 606,
       "DuplicatePersonIds": [
-        162,
-        866
+        423,
+        578
       ],
-      "Name": "Cummings Group",
+      "Name": "Gottlieb Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 933
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     }
   ],
-  "Subject": "voluptatibus",
-  "HTMLBody": "dolores",
+  "Subject": "omnis",
+  "HTMLBody": "quidem",
   "From": null,
-  "Sent": "2007-12-19T11:24:48.03141+01:00",
-  "Size": 846,
+  "Sent": "2019-01-01T03:40:46.7655146+01:00",
+  "Size": 79,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "expedita",
-  "PlainBody": "ut",
+  "MessageID": "veritatis",
+  "PlainBody": "maiores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 683,
+  "ServerId": 844,
   "Attachments": [
     {
-      "Description": "Open-architected 3rd generation installation",
-      "Filename": "numquam",
-      "Size": 61,
-      "Type": "quis",
-      "Encoding": "sit",
-      "Id": "est",
-      "Disposition": "vel",
+      "Description": "Programmable methodical paradigm",
+      "Filename": "placeat",
+      "Size": 770,
+      "Type": "expedita",
+      "Encoding": "aut",
+      "Id": "facere",
+      "Disposition": "modi",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 702
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Cremin-Botsford",
+      "Name": "Trantow Inc and Sons",
       "Values": [
-        "sit",
-        "neque"
+        "omnis",
+        "nostrum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 181
         }
       }
     },
     {
-      "Name": "Cremin-Botsford",
+      "Name": "Trantow Inc and Sons",
       "Values": [
-        "sit",
-        "neque"
+        "omnis",
+        "nostrum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 181
         }
       }
     }
   ],
-  "FolderName": "Goodwin-Becker",
-  "EmailItemId": 64,
-  "AccountId": 979,
-  "ReceivedAt": "2005-12-24T11:24:48.03141+01:00",
+  "FolderName": "Hagenes, McGlynn and Botsford",
+  "EmailItemId": 494,
+  "AccountId": 394,
+  "ReceivedAt": "2013-10-16T03:40:46.7655146+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-02-06T11:24:48.03141+01:00",
+  "RepliedAt": "2006-04-04T03:40:46.7655146+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 195
     }
   }
 }

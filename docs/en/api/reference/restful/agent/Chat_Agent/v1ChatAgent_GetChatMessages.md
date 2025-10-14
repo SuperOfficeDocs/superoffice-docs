@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatMessages
 Get all or some of the messages in a chat session
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,12 +83,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 591,
-  "After": 860
+  "ChatSessionId": 182,
+  "After": 169
 }
 ```
 
@@ -98,15 +100,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 417,
-    "ChatSessionId": 930,
+    "ChatMessageId": 435,
+    "ChatSessionId": 403,
     "Type": "Invalid",
-    "Message": "consectetur",
-    "Author": "incidunt",
-    "ReadByCustomer": 170,
+    "Message": "esse",
+    "Author": "impedit",
+    "ReadByCustomer": 369,
     "SpecialType": "Block",
-    "SpecialParam": "fugiat",
-    "WhenPosted": "2017-03-27T11:24:47.6876742+02:00"
+    "SpecialParam": "ut",
+    "WhenPosted": "2007-12-28T03:40:46.1858375+01:00"
   }
 ]
 ```

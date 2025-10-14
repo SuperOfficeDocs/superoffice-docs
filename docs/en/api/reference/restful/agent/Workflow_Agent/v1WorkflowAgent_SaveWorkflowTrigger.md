@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -74,23 +76,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 659,
-  "WorkflowId": 393,
+  "WorkflowTriggerId": 411,
+  "WorkflowId": 665,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Ryan, Dicki and Dietrich",
-      "Description": "Devolved cohesive workforce",
-      "Rank": 637,
+      "Name": "Koss Inc and Sons",
+      "Description": "Networked demand-driven service-desk",
+      "Rank": 307,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ryan, Dicki and Dietrich",
-      "Description": "Devolved cohesive workforce",
-      "Rank": 637,
+      "Name": "Koss Inc and Sons",
+      "Description": "Networked demand-driven service-desk",
+      "Rank": 307,
       "Restrictions": [
         {},
         {}
@@ -107,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 311,
-  "WorkflowId": 556,
+  "WorkflowTriggerId": 989,
+  "WorkflowId": 365,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Larson LLC",
-      "Description": "Vision-oriented 6th generation workforce",
-      "Rank": 40,
+      "Name": "Stoltenberg Group",
+      "Description": "Secured stable success",
+      "Rank": 426,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Larson LLC",
-      "Description": "Vision-oriented 6th generation workforce",
-      "Rank": 40,
+      "Name": "Stoltenberg Group",
+      "Description": "Secured stable success",
+      "Rank": 426,
       "Restrictions": [
         {},
         {}
@@ -135,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 975
     }
   }
 }

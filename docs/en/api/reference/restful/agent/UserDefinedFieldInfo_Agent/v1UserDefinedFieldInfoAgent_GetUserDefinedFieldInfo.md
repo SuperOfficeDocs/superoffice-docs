@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Gets a UserDefinedFieldInfo object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=12
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=225
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -111,46 +113,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 762,
-  "ColumnId": 883,
-  "FieldDefault": "itaque",
-  "FieldHeight": 50,
-  "FieldLabel": "modi",
-  "FieldLeft": 707,
-  "FieldTop": 934,
+  "UDefFieldId": 13,
+  "ColumnId": 719,
+  "FieldDefault": "placeat",
+  "FieldHeight": 941,
+  "FieldLabel": "rerum",
+  "FieldLeft": 747,
+  "FieldTop": 168,
   "FieldType": "Checkbox",
-  "FieldWidth": 804,
-  "FormatMask": "blanditiis",
+  "FieldWidth": 730,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 5,
-  "LabelLeft": 76,
-  "LabelTop": 53,
-  "LabelWidth": 504,
-  "LastVersionId": 605,
-  "ListTableId": 127,
+  "LabelHeight": 169,
+  "LabelLeft": 547,
+  "LabelTop": 110,
+  "LabelWidth": 591,
+  "LastVersionId": 424,
+  "ListTableId": 344,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 492,
-  "ProgId": "fuga",
+  "Page1LineNo": 555,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 634,
-  "TextLength": 300,
-  "Tooltip": "qui",
-  "UdefIdentity": 565,
-  "UDListDefinitionId": 225,
+  "ShortLabel": "aut",
+  "TabOrder": 724,
+  "TextLength": 430,
+  "Tooltip": "dolores",
+  "UdefIdentity": 121,
+  "UDListDefinitionId": 987,
   "Justification": "Center",
-  "Version": 836,
-  "TemplateVariableName": "Moen, Kassulke and Cremin",
+  "Version": 715,
+  "TemplateVariableName": "Hegmann, Wyman and Champlin",
   "HasBeenPublished": false,
-  "MdoListName": "Kutch-Huel",
+  "MdoListName": "Cole-Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 465
+      "FieldLength": 488
     }
   }
 }

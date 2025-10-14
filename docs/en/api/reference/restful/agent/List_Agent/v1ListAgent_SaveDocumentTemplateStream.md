@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Writes content in stream to document template file
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,14 +81,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 29,
+  "DocumentTemplateId": 351,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "nisi",
-  "PluginId": 671
+  "LanguageCode": "magni",
+  "PluginId": 60
 }
 ```
 
@@ -97,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Friesen, Kreiger and Mills",
-  "Description": "Decentralized assymetric knowledge user",
-  "ExternalReference": "quia",
-  "MimeType": "voluptatibus",
-  "PluginId": 650
+  "Name": "Dickinson LLC",
+  "Description": "Persistent motivating array",
+  "ExternalReference": "asperiores",
+  "MimeType": "a",
+  "PluginId": 970
 }
 ```

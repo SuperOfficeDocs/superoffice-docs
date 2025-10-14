@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersions
 Get all quote versions for a sale
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 983
+  "QuoteId": 520
 }
 ```
 
@@ -128,75 +130,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 240,
-    "ERPQuoteVersionKey": "illo",
-    "QuoteId": 775,
-    "Description": "Monitored intermediate orchestration",
-    "Number": "620625",
+    "QuoteVersionId": 746,
+    "ERPQuoteVersionKey": "autem",
+    "QuoteId": 632,
+    "Description": "Multi-lateral systemic database",
+    "Number": "1349070",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "embrace world-class infomediaries",
-    "LikelyQuoteAlternativeId": 690,
-    "SentDate": "2018-10-07T11:24:48.5157652+02:00",
-    "FollowupId": 482,
-    "ExpirationDate": "2018-10-14T11:24:48.5157652+02:00",
-    "DeliveryCountryId": 396,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 677,
+    "SentDate": "2012-08-14T03:40:47.5161986+02:00",
+    "FollowupId": 514,
+    "ExpirationDate": "2021-09-15T03:40:47.5161986+02:00",
+    "DeliveryCountryId": 296,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 498,
+    "InvoiceCountryId": 322,
     "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "aut",
-    "ERPPaymentTypeKey": "impedit",
-    "ERPDeliveryTermsKey": "qui",
-    "ERPDeliveryTypeKey": "voluptas",
-    "Rank": 104,
-    "ApprovedBy": 202,
-    "ApprovedText": "magnam",
-    "ApprovedRegisteredBy": 867,
-    "ApprovedRegisteredDate": "1999-08-24T11:24:48.5157652+02:00",
-    "ExtraField1": "ducimus",
-    "ExtraField2": "ad",
-    "ExtraField3": "possimus",
-    "ExtraField4": "voluptatem",
-    "ExtraField5": "earum",
-    "LastRecalculated": "2011-07-11T11:24:48.5157652+02:00",
-    "Updated": "2014-01-21T11:24:48.5157652+01:00",
-    "UpdatedAssociateId": 512,
-    "Registered": "2008-04-02T11:24:48.5157652+02:00",
-    "RegisteredAssociateId": 288,
-    "RequestAssociateId": 303,
-    "RequestComment": "eligendi",
+    "ERPPaymentTermsKey": "pariatur",
+    "ERPPaymentTypeKey": "mollitia",
+    "ERPDeliveryTermsKey": "est",
+    "ERPDeliveryTypeKey": "repellat",
+    "Rank": 915,
+    "ApprovedBy": 235,
+    "ApprovedText": "aut",
+    "ApprovedRegisteredBy": 630,
+    "ApprovedRegisteredDate": "2015-01-31T03:40:47.5161986+01:00",
+    "ExtraField1": "ad",
+    "ExtraField2": "libero",
+    "ExtraField3": "fugit",
+    "ExtraField4": "vitae",
+    "ExtraField5": "alias",
+    "LastRecalculated": "2010-10-05T03:40:47.5317063+02:00",
+    "Updated": "2006-06-24T03:40:47.5317063+02:00",
+    "UpdatedAssociateId": 552,
+    "Registered": "2003-08-01T03:40:47.5317063+02:00",
+    "RegisteredAssociateId": 753,
+    "RequestAssociateId": 513,
+    "RequestComment": "sunt",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 255,
-        "ERPQuoteAlternativeKey": "corporis",
-        "QuoteVersionId": 46,
-        "Name": "Kassulke-Bednar",
-        "Description": "Phased well-modulated migration",
+        "QuoteAlternativeId": 47,
+        "ERPQuoteAlternativeKey": "aut",
+        "QuoteVersionId": 197,
+        "Name": "Dickinson Inc and Sons",
+        "Description": "Reactive bottom-line Graphical User Interface",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 21210.912,
-        "ERPDiscountAmount": 16823.311999999998,
-        "DiscountPercent": 13940.032,
-        "DiscountAmount": 30073.863999999998,
+        "ERPDiscountPercent": 9984.9239999999991,
+        "ERPDiscountAmount": 6352.6179999999995,
+        "DiscountPercent": 20048.198,
+        "DiscountAmount": 13726.92,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "fuga",
-        "VAT": 10712.011999999999,
-        "EarningPercent": 25056.329999999998,
-        "EarningAmount": 18108.252,
-        "SubTotal": 4011.52,
-        "TotalPrice": 21771.898,
-        "ExtraField1": "expedita",
-        "ExtraField2": "quas",
-        "ExtraField3": "qui",
-        "ExtraField4": "adipisci",
-        "ExtraField5": "cumque",
+        "VATInfo": "harum",
+        "VAT": 19010.844,
+        "EarningPercent": 5515.84,
+        "EarningAmount": 30230.564,
+        "SubTotal": 6600.204,
+        "TotalPrice": 17863.8,
+        "ExtraField1": "deserunt",
+        "ExtraField2": "fugit",
+        "ExtraField3": "dolorem",
+        "ExtraField4": "architecto",
+        "ExtraField5": "sit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 612
+            "FieldType": "System.String",
+            "FieldLength": 221
           }
         }
       }
@@ -206,7 +208,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 197
       }
     }
   }

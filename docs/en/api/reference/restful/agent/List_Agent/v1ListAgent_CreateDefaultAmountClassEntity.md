@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Loading default values into a new AmountClassEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 390,
-  "Name": "Abernathy Group",
-  "Tooltip": "cumque",
-  "Rank": 108,
-  "AmountFrom": 770.96399999999994,
-  "AmountTo": 23552.01,
+  "AmountClassId": 468,
+  "Name": "Stark-Hamill",
+  "Tooltip": "eaque",
+  "Rank": 366,
+  "AmountFrom": 29312.302,
+  "AmountTo": 5462.562,
   "Deleted": true,
-  "CurrencyId": 60,
+  "CurrencyId": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

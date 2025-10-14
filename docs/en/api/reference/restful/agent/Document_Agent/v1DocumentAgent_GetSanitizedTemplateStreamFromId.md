@@ -15,6 +15,7 @@ Retrieve a stream to a document template based on its id.
 
 
 Sanitizes the contents if possible.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 538,
-  "UiCulture": "consequatur"
+  "TemplateId": 455,
+  "UiCulture": "in"
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Gets a PreferenceDescription based on the section and key
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -92,12 +94,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "distinctio",
-  "Key": "et"
+  "Section": "eum",
+  "Key": "aliquam"
 }
 ```
 
@@ -108,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 62,
-  "Section": "reprehenderit",
-  "Key": "adipisci",
-  "Name": "Weber LLC",
+  "PrefDescId": 182,
+  "Section": "iusto",
+  "Key": "aut",
+  "Name": "Stiedemann-Robel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused demand-driven capability",
-  "IsBuiltin": true,
-  "TableName": "Terry, Walter and Rutherford",
-  "UserDefinedListId": 329,
-  "Rank": 988,
-  "SubGroup": "labore",
-  "MinLevel": 510,
-  "MaxValue": 248,
-  "MinValue": 111,
-  "RequiredLicense": "quis",
+  "Description": "Open-source fresh-thinking database",
+  "IsBuiltin": false,
+  "TableName": "Satterfield-Batz",
+  "UserDefinedListId": 944,
+  "Rank": 163,
+  "SubGroup": "temporibus",
+  "MinLevel": 591,
+  "MaxValue": 586,
+  "MinValue": 15,
+  "RequiredLicense": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldLength": 218
     }
   }
 }

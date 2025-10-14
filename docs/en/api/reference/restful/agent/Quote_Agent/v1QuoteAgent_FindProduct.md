@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/FindProduct
 Gets a product, from the ProductProvider
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -109,13 +111,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 379,
-  "UserInput": "numquam",
-  "PriceListKey": "culpa"
+  "QuoteAlternativeId": 857,
+  "UserInput": "nobis",
+  "PriceListKey": "impedit"
 }
 ```
 
@@ -127,73 +129,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 400,
-    "ERPProductKey": "consequatur",
-    "ERPPriceListKey": "impedit",
-    "Name": "Fadel LLC",
-    "Description": "Horizontal exuding secured line",
-    "Code": "minima",
-    "PriceUnit": "eum",
-    "QuantityUnit": "aut",
-    "IsSubscription": false,
-    "SubscriptionUnit": "est",
-    "DefaultSubscriptionQuantity": 22652.552,
-    "ItemNumber": "978730",
+    "ProductId": 502,
+    "ERPProductKey": "doloremque",
+    "ERPPriceListKey": "fugit",
+    "Name": "Treutel Group",
+    "Description": "Networked dedicated strategy",
+    "Code": "aut",
+    "PriceUnit": "debitis",
+    "QuantityUnit": "aliquid",
+    "IsSubscription": true,
+    "SubscriptionUnit": "fuga",
+    "DefaultSubscriptionQuantity": 22138.576,
+    "ItemNumber": "845455",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "porro",
-    "ProductTypeKey": "qui",
-    "VAT": 241.31799999999998,
-    "VATInfo": "vitae",
-    "UnitCost": 28622.822,
-    "UnitMinimumPrice": 18625.362,
-    "UnitListPrice": 20273.845999999998,
+    "ProductFamilyKey": "laboriosam",
+    "ProductTypeKey": "et",
+    "VAT": 25673.728,
+    "VATInfo": "perspiciatis",
+    "UnitCost": 6841.522,
+    "UnitMinimumPrice": 25987.128,
+    "UnitListPrice": 23298.156,
     "InAssortment": false,
-    "Supplier": "nihil",
-    "SupplierCode": "ipsam",
+    "Supplier": "illum",
+    "SupplierCode": "dolore",
     "Rights": "tenetur",
-    "Rule": "est",
+    "Rule": "nihil",
     "ExtraInfo": [
       {
-        "Name": "Herzog, Huels and Wiegand",
-        "Value": "assumenda",
+        "Name": "Becker Group",
+        "Value": "aliquid",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 369
           }
         }
       },
       {
-        "Name": "Herzog, Huels and Wiegand",
-        "Value": "assumenda",
+        "Name": "Becker Group",
+        "Value": "aliquid",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 369
           }
         }
       }
     ],
-    "RawExtraInfo": "rerum",
-    "ExtraField1": "possimus",
-    "ExtraField2": "commodi",
-    "ExtraField3": "reprehenderit",
-    "ExtraField4": "iusto",
-    "ExtraField5": "sit",
-    "InStock": 25698.8,
+    "RawExtraInfo": "hic",
+    "ExtraField1": "omnis",
+    "ExtraField2": "et",
+    "ExtraField3": "doloremque",
+    "ExtraField4": "explicabo",
+    "ExtraField5": "explicabo",
+    "InStock": 18368.374,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 272
       }
     }
   }

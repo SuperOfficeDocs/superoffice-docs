@@ -15,6 +15,7 @@ Get the shop URL for the specified module owner.
 
 
 This can be used to redirect user to the web shop.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "D'Amore, Cassin and Frami"
+  "OwnerName": "Keebler, Sauer and Schmitt"
 }
 ```
 

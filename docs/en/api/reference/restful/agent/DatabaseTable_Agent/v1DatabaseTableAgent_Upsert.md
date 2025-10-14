@@ -15,6 +15,7 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
 
 Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,18 +87,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Luettgen LLC",
+  "TableName": "Batz-Sipes",
   "Columns": [
-    "nihil",
-    "molestiae"
+    "ut",
+    "consequuntur"
   ],
   "Keys": [
-    "et",
-    "vitae"
+    "facilis",
+    "rerum"
   ],
   "Data": [
     [
@@ -120,40 +121,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "adipisci",
-  "Inserts": 617,
-  "Updates": 218,
-  "Deletes": 620,
+  "Message": "molestiae",
+  "Inserts": 755,
+  "Updates": 503,
+  "Deletes": 499,
   "RowStatus": [
     {
-      "PrimaryKey": 694,
+      "PrimaryKey": 393,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "eaque"
+        "atque",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldType": "System.String",
+          "FieldLength": 818
         }
       }
     },
     {
-      "PrimaryKey": 694,
+      "PrimaryKey": 393,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "eaque"
+        "atque",
+        "quisquam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldType": "System.String",
+          "FieldLength": 818
         }
       }
     }
@@ -162,8 +163,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

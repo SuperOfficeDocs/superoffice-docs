@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 Toggles the Active state of the connection
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,11 +74,11 @@ OK
 POST /api/v1/Agents/ErpSync/ToggleErpConnectionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 383
+  "ErpConnectionId": 273
 }
 ```
 
@@ -86,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "et",
-  "in"
+  "vel",
+  "enim"
 ]
 ```

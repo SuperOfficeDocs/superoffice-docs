@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Returns system template settings
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 339,
-  "CustomerCustomerReplyTemplateId": 227,
-  "CustomerPasswordTemplateId": 486,
-  "CustomerConfirmEmailTemplateId": 591,
-  "CustomerChatLogTemplateId": 667,
-  "NewLinkTemplateId": 856,
-  "HotlistNewMessageTemplateId": 399,
-  "HotlistTicketActivatedTemplateId": 343,
-  "UserTicketAlarmTemplateId": 805,
-  "HotlistTicketTakenOverTemplateId": 572,
-  "UserActiveTicketsTemplateId": 406,
-  "UserNewMessageTemplateId": 96,
-  "UserTicketActivatedTemplateId": 639,
-  "UserNewTicketTemplateId": 764,
-  "PublishKbQuestionTemplateId": 713,
-  "PublishKbAnswerTemplateId": 881,
-  "UserTicketTakenOverTemplateId": 976,
-  "PrintTicketTemplateId": 378,
-  "WeekStatTemplateId": 916,
-  "TicketAlarmHotlistTemplateId": 127,
-  "EmailAddresses": "marquis@nitzsche.com",
+  "CustomerNewCustomerTemplateId": 143,
+  "CustomerCustomerReplyTemplateId": 421,
+  "CustomerPasswordTemplateId": 52,
+  "CustomerConfirmEmailTemplateId": 579,
+  "CustomerChatLogTemplateId": 379,
+  "NewLinkTemplateId": 110,
+  "HotlistNewMessageTemplateId": 814,
+  "HotlistTicketActivatedTemplateId": 730,
+  "UserTicketAlarmTemplateId": 143,
+  "HotlistTicketTakenOverTemplateId": 309,
+  "UserActiveTicketsTemplateId": 627,
+  "UserNewMessageTemplateId": 925,
+  "UserTicketActivatedTemplateId": 99,
+  "UserNewTicketTemplateId": 62,
+  "PublishKbQuestionTemplateId": 165,
+  "PublishKbAnswerTemplateId": 879,
+  "UserTicketTakenOverTemplateId": 293,
+  "PrintTicketTemplateId": 755,
+  "WeekStatTemplateId": 383,
+  "TicketAlarmHotlistTemplateId": 211,
+  "EmailAddresses": "evelyn@nolan.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

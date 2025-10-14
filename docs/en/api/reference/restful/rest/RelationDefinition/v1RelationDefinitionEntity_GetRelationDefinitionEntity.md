@@ -15,6 +15,7 @@ Gets a RelationDefinitionEntity object.
 
 
 Calls the List agent service GetRelationDefinitionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,12 +92,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 687,
-  "Name": "Wilderman-Leuschke",
-  "Tooltip": "atque",
-  "PassiveText": "est",
+  "ReldefId": 552,
+  "Name": "Kreiger-Bailey",
+  "Tooltip": "sed",
+  "PassiveText": "repellat",
   "Deleted": false,
-  "Rank": 57,
+  "Rank": 350,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -104,12 +105,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 249
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

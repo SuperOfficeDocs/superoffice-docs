@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Update User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kris Inc and Sons",
-  "ListItemId": 453,
+  "UdListDefinitionName": "Zieme, Rau and Pagac",
+  "ListItemId": 647,
   "UserGroups": [
     {
-      "Id": 939,
-      "Name": "Rogahn, Jacobs and Batz",
-      "ToolTip": "Dolor consequatur aliquam id enim deleniti culpa.",
+      "Id": 245,
+      "Name": "West, Windler and Jacobson",
+      "ToolTip": "Accusamus odit ipsam quo.",
       "Deleted": false,
-      "Rank": 189,
-      "Type": "consectetur",
-      "ColorBlock": 767,
-      "IconHint": "iusto",
+      "Rank": 856,
+      "Type": "doloribus",
+      "ColorBlock": 217,
+      "IconHint": "illum",
       "Selected": true,
-      "LastChanged": "2000-08-15T11:24:48.2032781+02:00",
+      "LastChanged": "2012-03-11T03:40:47.0780355+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "fugiat",
-      "Hidden": false,
-      "FullName": "Shaniya Maybelle Wyman PhD"
+      "ExtraInfo": "velit",
+      "StyleHint": "culpa",
+      "Hidden": true,
+      "FullName": "Juanita Jaskolski"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Block, Stokes and O'Reilly",
-    "ToolTip": "Sit sit earum suscipit expedita iste autem consequuntur.",
+    "Id": 740,
+    "Name": "McKenzie, Considine and Hane",
+    "ToolTip": "Est excepturi dolores rerum dolorum non.",
     "Deleted": false,
-    "Rank": 528,
-    "Type": "quasi",
-    "ColorBlock": 861,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2007-04-08T11:24:48.2032781+02:00",
+    "Rank": 279,
+    "Type": "ut",
+    "ColorBlock": 382,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2017-12-24T03:40:47.0780355+01:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Wintheiser-Reichel",
-        "ToolTip": "Est odio modi fuga velit.",
+        "Id": 63,
+        "Name": "Lehner, Bartell and Kohler",
+        "ToolTip": "Qui libero non et dicta aliquid.",
         "Deleted": false,
-        "Rank": 642,
-        "Type": "ullam",
-        "ColorBlock": 217,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1998-12-07T11:24:48.2032781+01:00",
+        "Rank": 425,
+        "Type": "harum",
+        "ColorBlock": 238,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "2016-01-28T03:40:47.0780355+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "id",
+        "ExtraInfo": "cumque",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Ila Rohan",
+        "FullName": "Carmella Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 496
+            "FieldType": "System.Int32",
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Leslie Herman",
+    "ExtraInfo": "natus",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Ms. Drew Ahmad Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldType": "System.Int32",
+        "FieldLength": 912
       }
     }
   }

@@ -66,7 +66,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -92,6 +94,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
+|personContact/categoryGroup|listAny|Category group| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
@@ -117,13 +120,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/email/emailId|int|ID| x |
 |personContact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |personContact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |personContact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personActiveErpLinks,personUpdatedDate,isStakeholder
+GET /api/v1/archive/RecyclePerson?$select=personId,personRegisteredBy,isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

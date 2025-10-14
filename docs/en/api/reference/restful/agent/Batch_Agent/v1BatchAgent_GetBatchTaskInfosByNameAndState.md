@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weimann-Doyle",
+  "Name": "Ritchie LLC",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 176,
-    "Name": "Dooley-Schuppe",
-    "AssociateId": 860,
-    "DetailsTable": 708,
-    "DetailsRecord": 153,
+    "Id": 928,
+    "Name": "Emmerich, Sanford and Borer",
+    "AssociateId": 192,
+    "DetailsTable": 464,
+    "DetailsRecord": 402,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "asperiores",
+      "ParameterObject1": "vel",
       "ParameterObject2": "unde"
     },
-    "LastStarted": "2021-03-28T11:24:47.6095526+02:00",
-    "Created": "2002-02-21T11:24:47.6095526+01:00",
-    "StartCount": 470,
-    "DatabaseSerialNumber": "631215",
-    "Context": "iusto",
-    "Result": "delectus",
+    "LastStarted": "2002-05-31T03:40:46.0764548+02:00",
+    "Created": "2014-12-26T03:40:46.0764548+01:00",
+    "StartCount": 179,
+    "DatabaseSerialNumber": "726856",
+    "Context": "aperiam",
+    "Result": "unde",
     "State": "All",
-    "Description": "De-engineered high-level core",
-    "Response": "totam",
-    "Request": "porro",
-    "ProgressDescription": "Persevering bifurcated definition",
-    "ProgressPercent": 653,
-    "FileName": "Steuber-Abshire",
+    "Description": "Self-enabling zero tolerance hardware",
+    "Response": "est",
+    "Request": "sunt",
+    "ProgressDescription": "Operative real-time product",
+    "ProgressPercent": 676,
+    "FileName": "Johns, Bradtke and Terry",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldLength": 586
       }
     }
   }

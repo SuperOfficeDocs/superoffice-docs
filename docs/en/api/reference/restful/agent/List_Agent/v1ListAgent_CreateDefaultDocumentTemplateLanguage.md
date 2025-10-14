@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Create a new document template language based on an existing template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 928,
-  "LanguageCode": "tempore"
+  "DocumentTemplateId": 697,
+  "LanguageCode": "aliquid"
 }
 ```
 

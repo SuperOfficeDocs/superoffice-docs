@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Create a UserDefinedFieldInfo based on a owner-entity id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,7 +110,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 575,
-  "ColumnId": 55,
-  "FieldDefault": "libero",
-  "FieldHeight": 693,
-  "FieldLabel": "optio",
-  "FieldLeft": 321,
-  "FieldTop": 660,
+  "UDefFieldId": 695,
+  "ColumnId": 116,
+  "FieldDefault": "nesciunt",
+  "FieldHeight": 664,
+  "FieldLabel": "reiciendis",
+  "FieldLeft": 149,
+  "FieldTop": 916,
   "FieldType": "Checkbox",
-  "FieldWidth": 344,
-  "FormatMask": "modi",
+  "FieldWidth": 791,
+  "FormatMask": "dolor",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 181,
-  "LabelLeft": 677,
-  "LabelTop": 842,
-  "LabelWidth": 614,
-  "LastVersionId": 209,
-  "ListTableId": 352,
-  "IsMandatory": false,
+  "LabelHeight": 546,
+  "LabelLeft": 683,
+  "LabelTop": 970,
+  "LabelWidth": 475,
+  "LastVersionId": 839,
+  "ListTableId": 943,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 566,
-  "ProgId": "debitis",
-  "IsReadOnly": false,
-  "ShortLabel": "ratione",
-  "TabOrder": 577,
-  "TextLength": 967,
-  "Tooltip": "reiciendis",
-  "UdefIdentity": 970,
-  "UDListDefinitionId": 919,
+  "Page1LineNo": 905,
+  "ProgId": "amet",
+  "IsReadOnly": true,
+  "ShortLabel": "modi",
+  "TabOrder": 776,
+  "TextLength": 973,
+  "Tooltip": "distinctio",
+  "UdefIdentity": 985,
+  "UDListDefinitionId": 420,
   "Justification": "Center",
-  "Version": 720,
-  "TemplateVariableName": "Heathcote Group",
+  "Version": 252,
+  "TemplateVariableName": "Swift, Ruecker and Bahringer",
   "HasBeenPublished": false,
-  "MdoListName": "Sanford, Morar and Crooks",
+  "MdoListName": "Batz, Heidenreich and Smith",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 100
     }
   }
 }

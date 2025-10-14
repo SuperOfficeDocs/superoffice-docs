@@ -15,6 +15,7 @@ This method will change all references from one ticket status to another.
 
 
 Typically used in conjuction with delete
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/List/GlobalChangeTicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 293,
-  "ToTicketStatusId": 942
+  "FromTicketStatusId": 463,
+  "ToTicketStatusId": 599
 }
 ```
 

@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Save the script directly without compiling TypeScript
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -94,7 +97,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +112,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 287,
-  "UniqueIdentifier": "eaque",
-  "Name": "Mills-Toy",
-  "Description": "Exclusive client-server product",
-  "IncludeId": "nulla",
-  "AccessKey": "est",
-  "HierarchyId": 110,
-  "Source": "officiis",
-  "SourceCode": "natus",
+  "EjscriptId": 498,
+  "UniqueIdentifier": "et",
+  "Name": "Cummerata-Williamson",
+  "Description": "Expanded 5th generation extranet",
+  "IncludeId": "molestiae",
+  "AccessKey": "accusamus",
+  "HierarchyId": 745,
+  "Source": "deleniti",
+  "SourceCode": "voluptas",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 349,
+  "HtmlOutput": 923,
   "Includes": [
-    432,
-    464
+    451,
+    352
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 401,
-      "LineNumberTo": 529,
-      "Delta": 625,
-      "IncludeId": "quis",
+      "LineNumberFrom": 479,
+      "LineNumberTo": 618,
+      "Delta": 351,
+      "IncludeId": "eveniet",
       "IncludedFrom": [
-        "et",
-        "nam"
+        "cupiditate",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 293
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-04-28T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 477,
-  "Updated": "2018-11-08T11:24:47.8439178+01:00",
-  "UpdatedAssociateId": 249,
+  "Registered": "2015-05-09T03:40:46.5306238+02:00",
+  "RegisteredAssociateId": 757,
+  "Updated": "2004-12-05T03:40:46.5306238+01:00",
+  "UpdatedAssociateId": 295,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 486
     }
   }
 }

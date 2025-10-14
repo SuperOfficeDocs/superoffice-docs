@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Get a single BatchTaskInfo based on Id.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400
+  "Id": 237
 }
 ```
 
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Larkin-Paucek",
-  "AssociateId": 154,
-  "DetailsTable": 94,
-  "DetailsRecord": 590,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 106,
+  "Name": "Konopelski-Ferry",
+  "AssociateId": 27,
+  "DetailsTable": 568,
+  "DetailsRecord": 767,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quia",
-    "ParameterObject2": "sint"
+    "ParameterObject1": "veniam",
+    "ParameterObject2": "non"
   },
-  "LastStarted": "2019-06-09T11:24:47.6095526+02:00",
-  "Created": "2021-03-11T11:24:47.6095526+01:00",
-  "StartCount": 886,
-  "DatabaseSerialNumber": "1527964",
-  "Context": "nihil",
-  "Result": "quia",
+  "LastStarted": "2015-01-31T03:40:46.0764548+01:00",
+  "Created": "2009-09-19T03:40:46.0764548+02:00",
+  "StartCount": 575,
+  "DatabaseSerialNumber": "889310",
+  "Context": "harum",
+  "Result": "veritatis",
   "State": "All",
-  "Description": "Vision-oriented client-server superstructure",
-  "Response": "sunt",
-  "Request": "natus",
-  "ProgressDescription": "Mandatory 5th generation moratorium",
-  "ProgressPercent": 115,
-  "FileName": "Shanahan-Lakin",
+  "Description": "Virtual radical encoding",
+  "Response": "qui",
+  "Request": "nemo",
+  "ProgressDescription": "Advanced executive firmware",
+  "ProgressPercent": 626,
+  "FileName": "Hilll-Aufderhar",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 362
     }
   }
 }

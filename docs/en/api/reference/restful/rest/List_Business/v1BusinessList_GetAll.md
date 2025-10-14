@@ -26,7 +26,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Lehner Group",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "UdListDefinitionId": 136,
-    "Rank": 642,
+    "Id": 853,
+    "Name": "Schulist-Reichel",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "UdListDefinitionId": 414,
+    "Rank": 69,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 832
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

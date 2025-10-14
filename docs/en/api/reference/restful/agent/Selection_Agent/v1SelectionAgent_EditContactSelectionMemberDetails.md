@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/EditContactSelectionMemberDetails
 Edit company and contact details in a selection based on contents in selectionMemberEditValues.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 653,
+  "SelectionId": 110,
   "SelectionMemberEditValues": null
 }
 ```

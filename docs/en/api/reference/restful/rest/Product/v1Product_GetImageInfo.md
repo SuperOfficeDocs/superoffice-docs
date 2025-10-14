@@ -74,7 +74,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 16 Nov 2018 11:24:53 G11T
+Last-Modified: Sat, 06 Oct 2012 03:40:56 G10T
 
 {
-  "BlobId": 645,
-  "BlobSize": 932,
-  "Description": "Quality-focused fresh-thinking support",
-  "ExtraInfo": "laboriosam",
+  "BlobId": 119,
+  "BlobSize": 286,
+  "Description": "Automated assymetric alliance",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 640,
-  "CreatedDate": "2005-02-17T11:24:53.7655512+01:00",
-  "UpdatedDate": "2018-11-16T11:24:53.7655512+01:00",
+  "MimeType": "ab",
+  "OriginalSize": 248,
+  "CreatedDate": "2007-08-09T03:40:56.4775944+02:00",
+  "UpdatedDate": "2012-10-06T03:40:56.4775944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit",
+  "ConceptualType": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

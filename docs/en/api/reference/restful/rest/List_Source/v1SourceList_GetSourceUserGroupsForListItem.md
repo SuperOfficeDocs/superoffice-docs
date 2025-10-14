@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Stoltenberg-Cassin",
-    "ToolTip": "Explicabo eum hic et laboriosam placeat voluptatibus fugiat.",
+    "Id": 592,
+    "Name": "Wunsch-Beatty",
+    "ToolTip": "Et est animi.",
     "Deleted": false,
-    "Rank": 471,
-    "Type": "natus",
-    "ColorBlock": 838,
-    "IconHint": "dolor",
+    "Rank": 238,
+    "Type": "animi",
+    "ColorBlock": 946,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2014-02-11T11:24:54.1561606+01:00",
+    "LastChanged": "2000-12-02T03:40:57.1189414+01:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Ullrich-Raynor",
-        "ToolTip": "Autem rem optio consequatur.",
+        "Id": 919,
+        "Name": "Rippin LLC",
+        "ToolTip": "Similique tempore.",
         "Deleted": false,
-        "Rank": 70,
-        "Type": "tenetur",
-        "ColorBlock": 558,
-        "IconHint": "suscipit",
+        "Rank": 589,
+        "Type": "ad",
+        "ColorBlock": 579,
+        "IconHint": "provident",
         "Selected": true,
-        "LastChanged": "2000-06-05T11:24:54.1561606+02:00",
+        "LastChanged": "2001-11-03T03:40:57.1189414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "est",
+        "ExtraInfo": "neque",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Monserrate Sim Powlowski DVM",
+        "FullName": "Kaylah Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 650
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "itaque",
-    "Hidden": true,
-    "FullName": "Ms. Eva Bashirian PhD",
+    "ExtraInfo": "commodi",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Margarett Laura Cruickshank Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 20
       }
     }
   }

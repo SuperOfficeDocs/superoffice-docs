@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Casper-Hermiston",
-    "Description": "Diverse static matrix",
+    "Name": "Rodriguez-Gulgowski",
+    "Description": "Right-sized optimal challenge",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 296,
-        "Tooltip": "atque",
-        "CanAssign": true,
-        "Free": 921,
-        "InUse": 232,
+        "Unrestricted": true,
+        "Total": 293,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 152,
+        "InUse": 966,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 35,
-        "Name": "Tromp Group",
-        "Description": "Reverse-engineered 24/7 hardware",
-        "PrerequisiteModuleName": "Lindgren, Mills and Boyle",
-        "SortOrder": 563,
-        "ExtraFlags": 198,
+        "ModuleLicenseId": 795,
+        "Name": "Roob, Huels and Thiel",
+        "Description": "Team-oriented exuding approach",
+        "PrerequisiteModuleName": "Carter-Donnelly",
+        "SortOrder": 88,
+        "ExtraFlags": 725,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldLength": 74
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 435,
-        "Tooltip": "debitis",
-        "CanAssign": false,
-        "Free": 343,
-        "InUse": 292,
-        "IsHidden": false,
+        "Total": 86,
+        "Tooltip": "neque",
+        "CanAssign": true,
+        "Free": 732,
+        "InUse": 859,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 286,
-        "Name": "Block, Boyer and Anderson",
-        "Description": "Team-oriented client-server neural-net",
-        "PrerequisiteModuleName": "Gutkowski LLC",
-        "SortOrder": 715,
-        "ExtraFlags": 844,
+        "ModuleLicenseId": 375,
+        "Name": "Kihn Group",
+        "Description": "Synergized methodical emulation",
+        "PrerequisiteModuleName": "Kunde Inc and Sons",
+        "SortOrder": 74,
+        "ExtraFlags": 902,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 90
+            "FieldType": "System.Int32",
+            "FieldLength": 557
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 553
       }
     }
   },
   {
-    "Name": "Casper-Hermiston",
-    "Description": "Diverse static matrix",
+    "Name": "Rodriguez-Gulgowski",
+    "Description": "Right-sized optimal challenge",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 296,
-        "Tooltip": "atque",
-        "CanAssign": true,
-        "Free": 921,
-        "InUse": 232,
+        "Unrestricted": true,
+        "Total": 293,
+        "Tooltip": "consequatur",
+        "CanAssign": false,
+        "Free": 152,
+        "InUse": 966,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 35,
-        "Name": "Tromp Group",
-        "Description": "Reverse-engineered 24/7 hardware",
-        "PrerequisiteModuleName": "Lindgren, Mills and Boyle",
-        "SortOrder": 563,
-        "ExtraFlags": 198,
+        "ModuleLicenseId": 795,
+        "Name": "Roob, Huels and Thiel",
+        "Description": "Team-oriented exuding approach",
+        "PrerequisiteModuleName": "Carter-Donnelly",
+        "SortOrder": 88,
+        "ExtraFlags": 725,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 892
+            "FieldLength": 74
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 435,
-        "Tooltip": "debitis",
-        "CanAssign": false,
-        "Free": 343,
-        "InUse": 292,
-        "IsHidden": false,
+        "Total": 86,
+        "Tooltip": "neque",
+        "CanAssign": true,
+        "Free": 732,
+        "InUse": 859,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 286,
-        "Name": "Block, Boyer and Anderson",
-        "Description": "Team-oriented client-server neural-net",
-        "PrerequisiteModuleName": "Gutkowski LLC",
-        "SortOrder": 715,
-        "ExtraFlags": 844,
+        "ModuleLicenseId": 375,
+        "Name": "Kihn Group",
+        "Description": "Synergized methodical emulation",
+        "PrerequisiteModuleName": "Kunde Inc and Sons",
+        "SortOrder": 74,
+        "ExtraFlags": 902,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 90
+            "FieldType": "System.Int32",
+            "FieldLength": 557
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 553
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateEmailFlowContent
 Create content to an email flow
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 322,
-  "ContentName": "Crist Group"
+  "EmailFlowId": 397,
+  "ContentName": "Ferry Group"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-810
+870
 ```

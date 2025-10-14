@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Langworth Inc and Sons",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 365,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "explicabo",
+  "Id": 365,
+  "Name": "Parker-Bergnaum",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "Rank": 6,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Skiles-Gutkowski",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "Rank": 40,
+  "Id": 537,
+  "Name": "Muller Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 979,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
   "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 639
     }
   }
 }

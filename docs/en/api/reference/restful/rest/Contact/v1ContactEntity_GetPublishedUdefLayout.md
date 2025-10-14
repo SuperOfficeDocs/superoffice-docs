@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 248,
-    "ColumnId": 72,
-    "FieldDefault": "dolor",
-    "FieldHeight": 951,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 268,
-    "FieldTop": 654,
+    "UDefFieldId": 420,
+    "ColumnId": 36,
+    "FieldDefault": "reiciendis",
+    "FieldHeight": 32,
+    "FieldLabel": "deleniti",
+    "FieldLeft": 525,
+    "FieldTop": 567,
     "FieldType": "Checkbox",
-    "FieldWidth": 145,
-    "FormatMask": "rerum",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 544,
-    "LabelLeft": 954,
-    "LabelTop": 716,
-    "LabelWidth": 557,
-    "LastVersionId": 164,
-    "ListTableId": 98,
-    "IsMandatory": true,
+    "FieldWidth": 203,
+    "FormatMask": "necessitatibus",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 401,
+    "LabelLeft": 621,
+    "LabelTop": 797,
+    "LabelWidth": 257,
+    "LastVersionId": 988,
+    "ListTableId": 491,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 545,
-    "ProgId": "eligendi",
-    "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 892,
-    "TextLength": 715,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 202,
-    "UDListDefinitionId": 848,
+    "Page1LineNo": 398,
+    "ProgId": "non",
+    "IsReadOnly": true,
+    "ShortLabel": "sapiente",
+    "TabOrder": 335,
+    "TextLength": 970,
+    "Tooltip": "quidem",
+    "UdefIdentity": 430,
+    "UDListDefinitionId": 409,
     "Justification": "Center",
-    "Version": 616,
-    "TemplateVariableName": "Corkery, Hegmann and Bartell",
+    "Version": 592,
+    "TemplateVariableName": "Nienow LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Crooks, Howell and Carroll",
+    "MdoListName": "Haley LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 841
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

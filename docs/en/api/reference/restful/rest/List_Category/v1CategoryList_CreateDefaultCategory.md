@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Yost Group",
-  "Tooltip": "tempora",
+  "Id": 262,
+  "Name": "Kris Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 295,
-  "Rank": 575,
+  "UdListDefinitionId": 613,
+  "Rank": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 471
     }
   }
 }

@@ -113,18 +113,20 @@ Link data provider for documents, handles both addressing by source or by destin
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
 |person/isStakeholder|bool|Is stakeholder: This person is a sale stakeholder| x |
 |person/updatedByWorkflow|listAny|Updated by flow: Updated by flow| x |
-|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
-|person/createdByForm|listAny|Created by form: Created by form| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow| x |
+|person/createdByForm|listAny|Created by form: Created by form| x |
 |person/phone/formattedNumber|string|Phone : Displays phone number|  |
 |person/personDirectPhone/formattedNumber|string|Direct - Phone: Displays phone number|  |
 |person/personDirectPhone/description|string|Direct - Description: Phone number description| x |
@@ -223,12 +225,12 @@ Link data provider for documents, handles both addressing by source or by destin
 |person/personAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/personAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |person/personAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|person/personAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|person/personAssociate/contactCategory|listAny|Category: Category| x |
 |person/personAssociate/role|listAny|Role : Role| x |
 |person/personAssociate/assocName|associate|User ID : User ID| x |
 |person/personAssociate/assocTooltip|string|Description : Description|  |
@@ -298,6 +300,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ Link data provider for documents, handles both addressing by source or by destin
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
 |contact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |contact/email/emailAddress|string|E-mail| x |
-|contact/email/emailDescription|string|Description| x |
-|contact/email/emailId|int|ID| x |
-|contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailDescription|string|Description| x |
+|contact/email/emailId|int|ID| x |
+|contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
@@ -430,13 +433,13 @@ Link data provider for documents, handles both addressing by source or by destin
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
-|contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
-|contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
+|contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
@@ -534,13 +537,13 @@ Link data provider for documents, handles both addressing by source or by destin
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|project/projectAssociate/userName|string|User name: User name| x |
-|project/projectAssociate/personEmail|string|E-mail| x |
-|project/projectAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/userName|string|User name: User name| x |
+|project/projectAssociate/personEmail|string|E-mail| x |
+|project/projectAssociate/locationAddress|string|Location: Location| x |
 |project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
@@ -638,13 +641,13 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |sale/currencyId|int|Currency ID: The currency list item ID| x |
-|sale/currency|listAny|Currency: The currency of the sale| x |
-|sale/credited|listAny|Credited: The user to be credited with the sale| x |
-|sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/currency|listAny|Currency: The currency of the sale| x |
+|sale/credited|listAny|Credited: The user to be credited with the sale| x |
+|sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
 |sale/source|listAny|Source: The source (lead) of the sale| x |
 |sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |sale/heading|stringorPK|Sale: The name of the sale| x |
@@ -675,6 +678,7 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -730,7 +734,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=person/personAssociate/personId,contact/restrictionAddress/formattedMultiLineAddress,contact/contactAssociate/contactId,contact/LastDoByTicket,project/name
+GET /api/v1/archive/LinksDocuments?$select=person/personUdef/SuperOffice:1,person/personUdef/SuperOffice:11,person/correspondingAssociate/otherGroups,project/projectAssociate/isActiveText,project/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

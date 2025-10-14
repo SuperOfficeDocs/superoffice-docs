@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/Delete
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Simonis, Lynch and Wintheiser",
+  "TableName": "Stanton Inc and Sons",
   "IDs": [
-    653,
-    885
+    960,
+    926
   ]
 }
 ```
@@ -99,41 +101,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "aperiam",
-  "Inserts": 712,
-  "Updates": 841,
-  "Deletes": 794,
+  "Success": true,
+  "Message": "velit",
+  "Inserts": 835,
+  "Updates": 514,
+  "Deletes": 205,
   "RowStatus": [
     {
-      "PrimaryKey": 280,
+      "PrimaryKey": 567,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aperiam",
-        "nihil"
+        "esse",
+        "quae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     },
     {
-      "PrimaryKey": 280,
+      "PrimaryKey": 567,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aperiam",
-        "nihil"
+        "esse",
+        "quae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     }
@@ -143,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 454
     }
   }
 }

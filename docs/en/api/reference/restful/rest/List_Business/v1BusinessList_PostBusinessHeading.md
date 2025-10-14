@@ -80,12 +80,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 753,
-  "Name": "Gaylord Inc and Sons",
-  "Tooltip": "at",
+  "HeadingId": 705,
+  "Name": "Schaefer Group",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 509,
-  "UdListDefinitionId": 560
+  "Rank": 782,
+  "UdListDefinitionId": 470
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 54,
-  "Name": "Cummerata LLC",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 120,
-  "UdListDefinitionId": 916,
+  "HeadingId": 780,
+  "Name": "Braun-Sanford",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 303,
+  "UdListDefinitionId": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 879
     }
   }
 }

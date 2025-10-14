@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Buckridge, Mosciski and Boehm",
-    "ToolTip": "Temporibus voluptates quos inventore et rerum sit voluptatem.",
+    "Id": 135,
+    "Name": "Koepp, Schmeler and Feeney",
+    "ToolTip": "Sit praesentium.",
     "Deleted": false,
-    "Rank": 712,
-    "Type": "sint",
-    "ColorBlock": 707,
-    "IconHint": "harum",
+    "Rank": 620,
+    "Type": "et",
+    "ColorBlock": 601,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2001-10-05T11:24:53.8436729+02:00",
+    "LastChanged": "2022-05-08T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Brakus, Balistreri and Gulgowski",
-        "ToolTip": "Voluptatibus nisi dolorem exercitationem.",
+        "Id": 65,
+        "Name": "Grant-Johnson",
+        "ToolTip": "Id officiis illum quisquam quia officia maiores ipsa.",
         "Deleted": false,
-        "Rank": 739,
-        "Type": "in",
-        "ColorBlock": 881,
-        "IconHint": "voluptatibus",
+        "Rank": 449,
+        "Type": "excepturi",
+        "ColorBlock": 604,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2021-09-14T11:24:53.8436729+02:00",
+        "LastChanged": "2021-09-08T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "qui",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Henriette Gulgowski"
+        "FullName": "Dr. Dovie Nels Wintheiser DDS"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Stacey Erdman"
+    "ExtraInfo": "sint",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Evelyn Bins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Renner-O'Connell",
-    "ToolTip": "Impedit ab voluptatum sit nostrum in numquam et.",
+    "Id": 772,
+    "Name": "Stamm, Kertzmann and Waelchi",
+    "ToolTip": "Necessitatibus deserunt quasi nulla.",
     "Deleted": false,
-    "Rank": 569,
-    "Type": "eos",
-    "ColorBlock": 739,
-    "IconHint": "rerum",
+    "Rank": 15,
+    "Type": "eligendi",
+    "ColorBlock": 941,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2018-11-25T11:24:53.8436729+01:00",
+    "LastChanged": "2018-10-18T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Hudson Inc and Sons",
-        "ToolTip": "Dolorem eum laboriosam nisi vitae.",
-        "Deleted": true,
-        "Rank": 809,
-        "Type": "repudiandae",
-        "ColorBlock": 346,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2025-02-26T11:24:53.8436729+01:00",
+        "Id": 149,
+        "Name": "Mante-Beahan",
+        "ToolTip": "Quia dolor dolorem velit et et.",
+        "Deleted": false,
+        "Rank": 840,
+        "Type": "iusto",
+        "ColorBlock": 113,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2012-02-01T03:40:56.6807244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "amet",
+        "ExtraInfo": "quo",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Mrs. Catalina Rippin",
+        "FullName": "Jalen Rahsaan Hand IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldType": "System.String",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Myrtis Will",
+    "ExtraInfo": "quae",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Jaylin Nathan Bechtelar III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 412
       }
     }
   }

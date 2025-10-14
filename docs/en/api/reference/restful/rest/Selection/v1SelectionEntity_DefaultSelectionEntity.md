@@ -15,6 +15,7 @@ Set default values into a new SelectionEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Selection agent service CreateDefaultSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,7 +99,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,73 +107,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Dec 2006 11:24:53 G12T
+Last-Modified: Tue, 28 Aug 2007 03:40:56 G8T
 
 {
-  "Description": "Public-key executive hardware",
-  "Postit": "neque",
+  "Description": "Multi-tiered neutral paradigm",
+  "Postit": "porro",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 419,
-  "IncludePerson": 205,
+  "GroupIdx": 711,
+  "IncludePerson": 140,
   "MemberCount": 99.99,
-  "Name": "Jacobs, Hand and Abbott",
-  "PostitTextId": 906,
-  "CreatedDate": "2006-03-18T11:24:53.5624345+01:00",
-  "SelectionId": 240,
-  "SoundEx": "molestiae",
-  "Source": 702,
-  "TextId": 856,
-  "UpdatedDate": "2006-12-05T11:24:53.5624345+01:00",
-  "UpdatedCount": 773,
-  "Visibility": 409,
+  "Name": "O'Kon-Cassin",
+  "PostitTextId": 569,
+  "CreatedDate": "2016-05-01T03:40:56.2105477+02:00",
+  "SelectionId": 76,
+  "SoundEx": "dolores",
+  "Source": 136,
+  "TextId": 261,
+  "UpdatedDate": "2007-08-28T03:40:56.2105477+02:00",
+  "UpdatedCount": 706,
+  "Visibility": 415,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 446,
-  "TargetTableName": "Paucek-Armstrong",
-  "Completed": true,
-  "LeftSelectionId": 783,
-  "RightSelectionId": 648,
+  "CompanyUnique": true,
+  "TargetTableNumber": 790,
+  "TargetTableName": "Weimann-Lemke",
+  "Completed": false,
+  "LeftSelectionId": 560,
+  "RightSelectionId": 668,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Miller-Ratke",
-  "ShadowProviderName": "Stehr Group",
-  "ChartKey": "et",
-  "LastLoaded": "2016-11-13T11:24:53.5624345+01:00",
-  "LastLoadedBy": 562,
+  "MainProviderName": "Batz, Skiles and Bechtelar",
+  "ShadowProviderName": "Dare LLC",
+  "ChartKey": "quis",
+  "LastLoaded": "2024-08-13T03:40:56.2105477+02:00",
+  "LastLoadedBy": 288,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-09-03T11:24:53.5624345+02:00",
-  "LastMembershipChangeBy": 480,
+  "LastMembershipChange": "2004-12-03T03:40:56.2105477+01:00",
+  "LastMembershipChangeBy": 419,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "harum",
-  "MemberTabHeading": "expedita",
-  "MailingsProviderName": "Kovacek, Hyatt and Koch",
-  "DashboardTileDefinitionId": 119,
+  "MainHeading": "amet",
+  "MemberTabHeading": "assumenda",
+  "MailingsProviderName": "Ryan, Fadel and Fritsch",
+  "DashboardTileDefinitionId": 458,
   "VisibleFor": [
     {
-      "VisibleId": 556,
+      "VisibleId": 42,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 600
         }
       }
     },
     {
-      "VisibleId": 556,
+      "VisibleId": 42,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 678
+          "FieldLength": 600
         }
       }
     }
@@ -181,8 +182,8 @@ Last-Modified: Tue, 05 Dec 2006 11:24:53 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldType": "System.Int32",
+      "FieldLength": 93
     }
   }
 }

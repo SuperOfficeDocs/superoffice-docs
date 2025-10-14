@@ -93,7 +93,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,73 +103,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 978,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "dolor",
-  "Name": "Fay-Macejkovic",
-  "Description": "Organic fault-tolerant archive",
-  "Code": "nesciunt",
-  "PriceUnit": "error",
-  "QuantityUnit": "iusto",
+  "ProductId": 546,
+  "ERPProductKey": "praesentium",
+  "ERPPriceListKey": "sunt",
+  "Name": "Altenwerth-Heller",
+  "Description": "Visionary 5th generation data-warehouse",
+  "Code": "temporibus",
+  "PriceUnit": "in",
+  "QuantityUnit": "et",
   "IsSubscription": true,
-  "SubscriptionUnit": "saepe",
-  "DefaultSubscriptionQuantity": 6462.308,
-  "ItemNumber": "919943",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 20568.442,
+  "ItemNumber": "703086",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "in",
-  "ProductTypeKey": "et",
-  "VAT": 7925.8859999999995,
-  "VATInfo": "accusamus",
-  "UnitCost": 26823.906,
-  "UnitMinimumPrice": 7073.438,
-  "UnitListPrice": 22354.822,
-  "InAssortment": true,
-  "Supplier": "nam",
-  "SupplierCode": "et",
-  "Rights": "est",
-  "Rule": "sit",
+  "ProductFamilyKey": "fuga",
+  "ProductTypeKey": "necessitatibus",
+  "VAT": 24423.262,
+  "VATInfo": "corrupti",
+  "UnitCost": 22176.183999999997,
+  "UnitMinimumPrice": 2478.994,
+  "UnitListPrice": 821.108,
+  "InAssortment": false,
+  "Supplier": "omnis",
+  "SupplierCode": "sit",
+  "Rights": "ipsam",
+  "Rule": "maxime",
   "ExtraInfo": [
     {
-      "Name": "Kessler-Price",
-      "Value": "quo",
+      "Name": "Littel LLC",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 337
         }
       }
     },
     {
-      "Name": "Kessler-Price",
-      "Value": "quo",
+      "Name": "Littel LLC",
+      "Value": "quidem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 337
         }
       }
     }
   ],
-  "RawExtraInfo": "aliquam",
-  "ExtraField1": "nam",
-  "ExtraField2": "omnis",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "minima",
-  "ExtraField5": "qui",
-  "InStock": 9972.387999999999,
+  "RawExtraInfo": "nihil",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "eius",
+  "ExtraField3": "animi",
+  "ExtraField4": "rerum",
+  "ExtraField5": "blanditiis",
+  "InStock": 22837.458,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldLength": 826
     }
   }
 }

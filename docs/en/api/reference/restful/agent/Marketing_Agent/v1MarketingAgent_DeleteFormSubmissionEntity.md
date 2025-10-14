@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity
 Deletes the FormSubmissionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the FormSubmissionEntity
 | formSubmissionEntityId | int32 | **Required** The identity of the FormSubmissionEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?formSubmissionEntityId=634
+POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity?formSubmissionEntityId=291
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

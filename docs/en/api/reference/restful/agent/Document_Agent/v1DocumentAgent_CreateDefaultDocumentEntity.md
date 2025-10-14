@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Loading default values into a new DocumentEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,88 +101,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 60,
+  "DocumentId": 100,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "necessitatibus",
-  "Name": "Kuvalis Inc and Sons",
-  "OurRef": "dignissimos",
-  "YourRef": "voluptas",
-  "CreatedDate": "1998-08-13T11:24:47.9532883+02:00",
-  "UpdatedDate": "2017-04-01T11:24:47.9532883+02:00",
-  "Description": "Visionary logistical productivity",
+  "Attention": "et",
+  "Header": "modi",
+  "Name": "Ferry Inc and Sons",
+  "OurRef": "neque",
+  "YourRef": "est",
+  "CreatedDate": "2003-11-01T03:40:46.6248901+01:00",
+  "UpdatedDate": "2018-06-01T03:40:46.6248901+02:00",
+  "Description": "Stand-alone incremental intranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-03-07T11:24:47.9532883+01:00",
-  "ExternalRef": "qui",
+  "Date": "2022-04-08T03:40:46.6248901+02:00",
+  "ExternalRef": "dolorum",
   "Completed": "Completed",
-  "ActiveLinks": 777,
+  "ActiveLinks": 848,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pfannerstill LLC",
-      "Id": 339,
-      "Description": "Organic optimal methodology",
-      "ExtraInfo": "dolorum",
-      "LinkId": 968,
+      "EntityName": "Murphy-Williamson",
+      "Id": 940,
+      "Description": "Public-key regional conglomeration",
+      "ExtraInfo": "dolor",
+      "LinkId": 190,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 963
+          "FieldType": "System.Int32",
+          "FieldLength": 477
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 536,
-  "Snum": 499,
+  "SuggestedDocumentId": 671,
+  "Snum": 15,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ramona Rogahn",
-    "SuperOffice:2": "1209808885"
+    "SuperOffice:1": "Shea Schoen",
+    "SuperOffice:2": "Judge Thelma Marquardt II"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2024-12-22T11:24:47.9532883+01:00",
-  "PublishTo": "2007-06-23T11:24:47.9532883+02:00",
-  "PublishFrom": "2021-12-07T11:24:47.9532883+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-01-01T03:40:46.6248901+01:00",
+  "PublishTo": "2018-12-08T03:40:46.6248901+01:00",
+  "PublishFrom": "2014-10-17T03:40:46.6248901+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 848,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 544
         }
       }
     },
     {
-      "VisibleId": 848,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 544
         }
       }
     }
@@ -189,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

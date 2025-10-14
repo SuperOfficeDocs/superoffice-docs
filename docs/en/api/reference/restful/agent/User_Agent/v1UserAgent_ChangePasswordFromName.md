@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/ChangePasswordFromName
 Change password for a user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -77,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Kunze, Schowalter and Boehm",
-  "OldPassword": "odit",
-  "NewPassword": "a"
+  "AssociateName": "Rohan-Hackett",
+  "OldPassword": "voluptatibus",
+  "NewPassword": "nesciunt"
 }
 ```
 

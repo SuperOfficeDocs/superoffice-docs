@@ -15,6 +15,7 @@ Change the new serial number for the installation.
 
 
 Requests a new license from SuperLicense, checks if change is authorized.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Jones Group",
-  "NewSerialNumber": "1214338"
+  "NewCompanyName": "Rippin Inc and Sons",
+  "NewSerialNumber": "974192"
 }
 ```
 
@@ -94,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
+  "Succeeded": false,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldLength": 657
     }
   }
 }

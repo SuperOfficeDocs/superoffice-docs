@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the person specified.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -135,15 +136,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 40,
+  "PersonId": 849,
   "IncludeProjectAppointments": false,
-  "StartTime": "2002-11-05T11:24:47.5939281+01:00",
-  "EndTime": "2015-11-06T11:24:47.5939281+01:00",
-  "Count": 498,
+  "StartTime": "2023-09-28T03:40:46.0452033+02:00",
+  "EndTime": "2018-01-08T03:40:46.0452033+01:00",
+  "Count": 219,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -156,67 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 622,
-    "StartDate": "2014-12-13T11:24:47.5939281+01:00",
-    "EndDate": "2019-05-13T11:24:47.5939281+02:00",
+    "AppointmentId": 718,
+    "StartDate": "2016-11-26T03:40:46.0452033+01:00",
+    "EndDate": "2023-12-28T03:40:46.0452033+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Deborah Ward",
-    "ContactName": "Labadie, Swaniawski and Schuppe",
-    "Description": "Reactive web-enabled access",
-    "PersonFullName": "Kraig Ledner",
-    "PersonId": 861,
-    "ContactId": 596,
-    "ProjectId": 753,
-    "ProjectName": "Bins-Pollich",
-    "IsPublished": true,
-    "AssociateId": 496,
-    "ColorIndex": 633,
+    "Task": "omnis",
+    "AssociateFullName": "Wilhelmine Fahey",
+    "ContactName": "Kunze-Goldner",
+    "Description": "Up-sized zero tolerance knowledge base",
+    "PersonFullName": "Fiona Ritchie",
+    "PersonId": 231,
+    "ContactId": 804,
+    "ProjectId": 199,
+    "ProjectName": "Quitzon LLC",
+    "IsPublished": false,
+    "AssociateId": 845,
+    "ColorIndex": 31,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 479,
-    "PriorityName": "O'Reilly-Wiegand",
+    "PriorityId": 536,
+    "PriorityName": "Schneider-Kulas",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-05-21T11:24:47.5939281+02:00",
+    "ActiveDate": "2000-01-03T03:40:46.0452033+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-06-15T11:24:47.5939281+02:00",
-    "RecurringEndDate": "2001-10-02T11:24:47.5939281+02:00",
-    "MotherId": 290,
-    "AssignedBy": 472,
-    "AssignedByFullName": "Jewel Langworth",
+    "RecurringStartDate": "2014-11-26T03:40:46.0452033+01:00",
+    "RecurringEndDate": "2004-03-05T03:40:46.0452033+01:00",
+    "MotherId": 2,
+    "AssignedBy": 216,
+    "AssignedByFullName": "Marisol Ferry",
     "RejectReason": "",
-    "Location": "expedita",
-    "AlarmLeadTime": "quae",
-    "SaleId": 136,
-    "SaleName": "Oberbrunner, Kilback and Collier",
-    "AssociateName": "Klocko-Shields",
-    "CreatedDate": "2017-09-15T11:24:47.5939281+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Sibyl Walker PhD",
-    "CreatedByAssociateId": 39,
+    "Location": "sequi",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 66,
+    "SaleName": "Price, Heathcote and Frami",
+    "AssociateName": "Gaylord, Flatley and Kulas",
+    "CreatedDate": "2004-12-27T03:40:46.0452033+01:00",
+    "CreatedBy": "quod",
+    "CreatedByFullName": "Prof. Dudley Kaela Feest",
+    "CreatedByAssociateId": 400,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 553,
+    "MotherAssociateId": 180,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 19,
-    "Title": "incidunt",
-    "Agenda": "consequatur",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 933,
+    "Title": "ut",
+    "Agenda": "et",
+    "InternalNotes": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 636
       }
     }
   }

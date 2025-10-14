@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/DeleteBatchTasks
 Delete batch tasks from the database.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Batch/DeleteBatchTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "BatchTaskIds": [
-    994,
-    217
+    885,
+    973
   ]
 }
 ```

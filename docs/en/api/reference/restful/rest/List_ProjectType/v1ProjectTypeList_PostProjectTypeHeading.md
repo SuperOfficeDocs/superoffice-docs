@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 704,
-  "Name": "Davis Group",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 888,
-  "UdListDefinitionId": 942
+  "HeadingId": 385,
+  "Name": "Okuneva, Boyer and Heidenreich",
+  "Tooltip": "a",
+  "Deleted": false,
+  "Rank": 99,
+  "UdListDefinitionId": 344
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 914,
-  "Name": "Cormier, Quigley and Kunde",
-  "Tooltip": "sed",
+  "HeadingId": 274,
+  "Name": "Kutch-Kunde",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 178,
-  "UdListDefinitionId": 823,
+  "Rank": 287,
+  "UdListDefinitionId": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldLength": 3
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,26 +90,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 29,
-  "Name": "Luettgen, Ullrich and Jones",
-  "Description": "Team-oriented intangible open architecture",
-  "DeltaJson": "eos",
+  "ConfigurableScreenDeltaId": 529,
+  "Name": "Beahan, Morar and Sauer",
+  "Description": "Extended 5th generation flexibility",
+  "DeltaJson": "nostrum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "explicabo",
-  "UpdatedDate": "2018-03-23T11:24:47.7189228+01:00",
-  "CreatedDate": "2021-05-03T11:24:47.7189228+02:00",
+  "RecipeId": "illum",
+  "UpdatedDate": "2019-02-07T03:40:46.2331872+01:00",
+  "CreatedDate": "2017-12-25T03:40:46.2331872+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    668,
-    866
+    638,
+    278
   ],
-  "AppliesToKey": "quisquam"
+  "AppliesToKey": "et"
 }
 ```
 
@@ -118,28 +120,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 96,
-  "Name": "Kohler-Kovacek",
-  "Description": "Reverse-engineered stable parallelism",
-  "DeltaJson": "corrupti",
+  "ConfigurableScreenDeltaId": 556,
+  "Name": "Hermiston-Klein",
+  "Description": "Multi-tiered bi-directional firmware",
+  "DeltaJson": "illum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dicta",
-  "UpdatedDate": "2008-07-31T11:24:47.7189228+02:00",
-  "CreatedDate": "2019-10-03T11:24:47.7189228+02:00",
+  "RecipeId": "cum",
+  "UpdatedDate": "1999-02-02T03:40:46.2331872+01:00",
+  "CreatedDate": "2009-01-15T03:40:46.2331872+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    297,
-    889
+    660,
+    182
   ],
-  "AppliesToKey": "ipsum",
+  "AppliesToKey": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 48
     }
   }
 }

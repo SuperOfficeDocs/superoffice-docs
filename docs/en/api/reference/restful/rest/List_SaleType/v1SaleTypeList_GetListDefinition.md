@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Lynch Inc and Sons",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 329,
+  "Id": 343,
+  "Name": "Kuhlman-Hermann",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 437,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 560
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

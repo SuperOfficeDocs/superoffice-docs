@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,18 +80,18 @@ OK
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 249,
-  "Enabled": true,
-  "Period1": 432,
-  "Period2": 777,
-  "Period3": 191,
-  "GenerationStart": "2025-08-15T11:24:48.5470141+02:00",
-  "GenerationEnd": "2022-03-23T11:24:48.5470141+01:00",
-  "RowsGenerated": 929
+  "OwnerTable": 437,
+  "Enabled": false,
+  "Period1": 269,
+  "Period2": 427,
+  "Period3": 433,
+  "GenerationStart": "2000-11-17T03:40:47.5942106+01:00",
+  "GenerationEnd": "1999-08-02T03:40:47.5942106+02:00",
+  "RowsGenerated": 26
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 43,
+  "OwnerTable": 311,
   "Enabled": true,
-  "Period1": 227,
-  "Period2": 811,
-  "Period3": 651,
-  "GenerationStart": "1999-11-15T11:24:48.5470141+01:00",
-  "GenerationEnd": "2018-03-28T11:24:48.5470141+02:00",
-  "RowsGenerated": 91,
+  "Period1": 782,
+  "Period2": 491,
+  "Period3": 750,
+  "GenerationStart": "2014-01-29T03:40:47.5942106+01:00",
+  "GenerationEnd": "2021-07-17T03:40:47.5942106+02:00",
+  "RowsGenerated": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 678
     }
   }
 }

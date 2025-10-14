@@ -106,34 +106,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 192,
-  "Name": "Konopelski-McKenzie",
-  "Rank": 355,
-  "Tooltip": "expedita",
-  "Icon": "ducimus",
-  "DefaultTicketStatus": 675,
+  "TicketTypeId": 193,
+  "Name": "Osinski-Weber",
+  "Rank": 604,
+  "Tooltip": "quisquam",
+  "Icon": "eos",
+  "DefaultTicketStatus": 843,
   "TicketStatuses": [
-    117,
-    330
+    153,
+    448
   ],
-  "DefaultTicketPriority": 122,
+  "DefaultTicketPriority": 741,
   "TicketPriorities": [
-    884,
-    182
+    967,
+    80
   ],
-  "ReplyTemplate": 874,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
+  "ReplyTemplate": 743,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    411,
-    974
+    924,
+    493
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 98,
-  "Name": "Sawayn LLC",
-  "Rank": 110,
-  "Tooltip": "culpa",
-  "Icon": "repudiandae",
-  "DefaultTicketStatus": 725,
+  "TicketTypeId": 380,
+  "Name": "Yost, Hamill and Boyle",
+  "Rank": 35,
+  "Tooltip": "dolorum",
+  "Icon": "aut",
+  "DefaultTicketStatus": 631,
   "TicketStatuses": [
-    681,
-    513
+    914,
+    538
   ],
-  "DefaultTicketPriority": 752,
+  "DefaultTicketPriority": 412,
   "TicketPriorities": [
-    218,
-    119
+    986,
+    109
   ],
-  "ReplyTemplate": 149,
+  "ReplyTemplate": 167,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    303,
-    55
+    752,
+    208
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldLength": 650
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetTicketPrioritySortOrder
 This method will set sort order of ticket priority in a list
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/SetTicketPrioritySortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 280,
-  "SortOrder": 606
+  "TicketPriorityId": 670,
+  "SortOrder": 146
 }
 ```
 

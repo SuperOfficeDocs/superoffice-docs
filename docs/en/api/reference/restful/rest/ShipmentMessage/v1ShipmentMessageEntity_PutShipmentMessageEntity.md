@@ -14,6 +14,8 @@ PUT /api/v1/ShipmentMessage/{id}
 Updates the existing ShipmentMessageEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -120,31 +122,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 967,
-  "PlainMessage": "veritatis",
-  "HtmlMessage": "aliquam",
-  "SmsMessage": "suscipit",
-  "Description": "Multi-channelled 6th generation emulation",
-  "Subject": "tempore",
-  "FolderId": 688,
-  "HeaderField": "aliquid",
-  "Design": "non",
+  "ShipmentMessageId": 234,
+  "PlainMessage": "maxime",
+  "HtmlMessage": "quos",
+  "SmsMessage": "animi",
+  "Description": "Extended object-oriented monitoring",
+  "Subject": "minima",
+  "FolderId": 977,
+  "HeaderField": "unde",
+  "Design": "sunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Cross-platform national leverage",
-  "AccessKey": "ab",
-  "DocumentMessage": 769,
-  "Registered": "2010-05-03T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 415,
-  "Updated": "2012-02-27T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 584,
-  "UpdatedCount": 731
+  "LongDescription": "Adaptive full-range paradigm",
+  "AccessKey": "quis",
+  "DocumentMessage": 67,
+  "Registered": "2014-01-07T03:40:56.2422072+01:00",
+  "RegisteredAssociateId": 777,
+  "Updated": "2015-07-28T03:40:56.2422072+02:00",
+  "UpdatedAssociateId": 742,
+  "UpdatedCount": 544
 }
 ```
 
@@ -155,33 +157,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 566,
-  "PlainMessage": "aperiam",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "quam",
-  "Description": "Inverse bi-directional definition",
-  "Subject": "odio",
-  "FolderId": 379,
-  "HeaderField": "necessitatibus",
-  "Design": "molestiae",
+  "ShipmentMessageId": 93,
+  "PlainMessage": "in",
+  "HtmlMessage": "error",
+  "SmsMessage": "consequatur",
+  "Description": "De-engineered assymetric focus group",
+  "Subject": "natus",
+  "FolderId": 958,
+  "HeaderField": "ut",
+  "Design": "quia",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Realigned scalable help-desk",
-  "AccessKey": "occaecati",
-  "DocumentMessage": 601,
-  "Registered": "2012-12-28T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 764,
-  "Updated": "2015-02-12T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 765,
-  "UpdatedCount": 511,
+  "LongDescription": "Grass-roots upward-trending capacity",
+  "AccessKey": "libero",
+  "DocumentMessage": 981,
+  "Registered": "2013-05-18T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 3,
+  "Updated": "2012-12-12T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 652,
+  "UpdatedCount": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 586
     }
   },
   "_Links": {

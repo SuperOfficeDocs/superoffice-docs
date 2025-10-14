@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/SetResourceSubstitution
 Create or update a resource substitution
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,10 +74,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Howe LLC",
-  "ResourceValues": "dicta",
-  "Culture": "voluptate",
-  "IsActive": true
+  "ResourceName": "Huel, Price and Emard",
+  "ResourceValues": "quis",
+  "Culture": "corrupti",
+  "IsActive": false
 }
 ```
 

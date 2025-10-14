@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Weimann Inc and Sons",
-    "ToolTip": "Atque non.",
-    "Deleted": false,
-    "Rank": 179,
-    "Type": "in",
-    "ColorBlock": 742,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2000-04-15T11:24:53.9217949+02:00",
+    "Id": 636,
+    "Name": "Robel-Smitham",
+    "ToolTip": "Laborum animi explicabo non est blanditiis vitae.",
+    "Deleted": true,
+    "Rank": 511,
+    "Type": "voluptatem",
+    "ColorBlock": 564,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2017-05-08T03:40:56.8213578+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Herzog, Cremin and Brown",
-        "ToolTip": "Voluptatem aut.",
+        "Id": 353,
+        "Name": "Swaniawski Group",
+        "ToolTip": "Iste accusantium aliquid assumenda quisquam et aperiam est.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "aut",
-        "ColorBlock": 44,
-        "IconHint": "nemo",
+        "Rank": 431,
+        "Type": "ad",
+        "ColorBlock": 827,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2024-09-16T11:24:53.9217949+02:00",
+        "LastChanged": "2017-12-26T03:40:56.8213578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Einar Conn",
+        "ExtraInfo": "inventore",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Turner Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 874
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Ludie Terry",
+    "ExtraInfo": "ad",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Marcel Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldType": "System.String",
+        "FieldLength": 738
       }
     }
   }

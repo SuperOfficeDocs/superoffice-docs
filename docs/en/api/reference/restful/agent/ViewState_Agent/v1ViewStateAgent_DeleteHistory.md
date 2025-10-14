@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/DeleteHistory
 Deletes the history element
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Abshire-Haag",
-  "Id": 729
+  "HistoryName": "Moen Inc and Sons",
+  "Id": 293
 }
 ```
 

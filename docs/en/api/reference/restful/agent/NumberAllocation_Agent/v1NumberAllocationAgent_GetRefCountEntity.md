@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Gets a RefCountEntity object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=3
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=517
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,41 +90,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 822,
-  "Field": "sint",
-  "RecordId": 151,
+  "RefCountsId": 339,
+  "Field": "magnam",
+  "RecordId": 296,
   "SuggestedRecords": [
     {
-      "Id": 271,
-      "Name": "Nitzsche-Cummings",
-      "ToolTip": "Odit ex.",
-      "Deleted": false,
-      "Rank": 823,
-      "Type": "omnis",
+      "Id": 701,
+      "Name": "Hilpert, O'Hara and Koss",
+      "ToolTip": "Molestiae consequatur.",
+      "Deleted": true,
+      "Rank": 935,
+      "Type": "placeat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "molestiae",
-      "ColorBlock": 807,
-      "ExtraInfo": "quis",
-      "StyleHint": "quia",
-      "FullName": "Dr. Evans Mike Stehr Jr.",
+      "IconHint": "quo",
+      "ColorBlock": 780,
+      "ExtraInfo": "ad",
+      "StyleHint": "nostrum",
+      "FullName": "Jaylon Kirsten Schoen MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 743
         }
       }
     }
   ],
-  "CurrentValue": 361,
-  "TravelPrefix": 996,
-  "SatPrefix": 205,
+  "CurrentValue": 986,
+  "TravelPrefix": 378,
+  "SatPrefix": 289,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -130,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldLength": 16
     }
   }
 }

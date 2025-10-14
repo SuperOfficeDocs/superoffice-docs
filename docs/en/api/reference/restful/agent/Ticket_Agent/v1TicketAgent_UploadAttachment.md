@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/UploadAttachment
 Upload the content for an attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/Ticket/UploadAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 395,
+  "AttachmentId": 748,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -70,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    615,
-    44
+    914,
+    147
   ]
 }
 ```

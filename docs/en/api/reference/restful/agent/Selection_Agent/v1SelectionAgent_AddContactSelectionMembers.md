@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/AddContactSelectionMembers
 Adds the collection of ContactPersonId as members to the static selection
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,19 +68,19 @@ No Content
 POST /api/v1/Agents/Selection/AddContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 719,
+  "SelectionId": 690,
   "ContactPersonIds": [
     {
-      "PersonId": 437,
-      "ContactId": 465
+      "PersonId": 501,
+      "ContactId": 118
     },
     {
-      "PersonId": 437,
-      "ContactId": 465
+      "PersonId": 501,
+      "ContactId": 118
     }
   ]
 }

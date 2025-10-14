@@ -15,6 +15,7 @@ Gets a AppointmentEntity object.
 
 
 Calls the Appointment agent service GetAppointmentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -136,7 +137,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -144,128 +145,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 12 Dec 1998 11:24:52 G12T
+Last-Modified: Thu, 27 Dec 2001 03:40:55 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-03-14T11:24:52.93746+01:00",
-  "AppointmentId": 813,
-  "Description": "Down-sized methodical support",
-  "Title": "voluptatibus",
-  "Agenda": "tempora",
-  "InternalNotes": "quo",
-  "StartDate": "2011-08-23T11:24:52.93746+02:00",
-  "EndDate": "2004-06-16T11:24:52.93746+02:00",
+  "CreatedDate": "2002-10-28T03:40:55.2099235+01:00",
+  "AppointmentId": 703,
+  "Description": "Robust high-level help-desk",
+  "Title": "doloribus",
+  "Agenda": "ratione",
+  "InternalNotes": "eum",
+  "StartDate": "2011-07-15T03:40:55.2099235+02:00",
+  "EndDate": "2008-01-21T03:40:55.2099235+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 263,
+  "MotherId": 210,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-12-12T11:24:52.93746+01:00",
+  "UpdatedDate": "2001-12-27T03:40:55.2099235+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 786,
+  "ActiveLinks": 929,
   "Links": [
     {
-      "EntityName": "Gleichner LLC",
-      "Id": 300,
-      "Description": "Robust tangible solution",
-      "ExtraInfo": "tempora",
-      "LinkId": 723,
+      "EntityName": "Reichert-Haley",
+      "Id": 949,
+      "Description": "Distributed multi-tasking secured line",
+      "ExtraInfo": "deleniti",
+      "LinkId": 91,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 941
         }
       }
     }
   ],
-  "AlarmLeadTime": "itaque",
-  "HasAlarm": true,
-  "ColorIndex": 957,
+  "AlarmLeadTime": "eaque",
+  "HasAlarm": false,
+  "ColorIndex": 784,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "excepturi",
-  "LeadTime": "vero",
-  "Location": "distinctio",
-  "RejectCounter": 8,
+  "IsAlldayEvent": true,
+  "LagTime": "quod",
+  "LeadTime": "iure",
+  "Location": "sit",
+  "RejectCounter": 327,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 540,
-      "PersonId": 194,
-      "ContactId": 709,
-      "EmailId": 373,
-      "SendEmail": false,
+      "AssociateId": 243,
+      "PersonId": 254,
+      "ContactId": 263,
+      "EmailId": 190,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "harley@ward.ca",
-      "Description": "Optimized 5th generation circuit"
+      "EmailAddress": "teagan_spencer@kreiger.uk",
+      "Description": "Organic context-sensitive intranet"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-07-11T11:24:52.93746+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2008-11-18T03:40:55.2099235+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 104,
+  "PreferredTZLocation": 863,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 964,
+  "SuggestedAppointmentId": 877,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatum",
+  "CentralserviceVideomeetId": "occaecati",
   "UserDefinedFields": {
-    "SuperOffice:1": "Victoria Kautzer",
-    "SuperOffice:2": "64565279"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "aut"
+    "CustomFields1": "autem",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2004-09-10T11:24:52.93746+02:00",
-  "PublishTo": "2001-08-17T11:24:52.93746+02:00",
-  "PublishFrom": "2021-08-04T11:24:52.93746+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-06-12T03:40:55.2099235+02:00",
+  "PublishTo": "2014-02-21T03:40:55.2099235+01:00",
+  "PublishFrom": "2015-05-01T03:40:55.2099235+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 993,
+      "VisibleId": 504,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 993,
+      "VisibleId": 504,
       "Visibility": "All",
-      "DisplayValue": "ipsa",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 454
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     }
@@ -275,12 +276,12 @@ Last-Modified: Sat, 12 Dec 1998 11:24:52 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 673
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

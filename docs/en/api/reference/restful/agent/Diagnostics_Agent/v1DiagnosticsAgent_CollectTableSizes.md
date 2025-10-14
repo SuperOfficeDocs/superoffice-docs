@@ -15,6 +15,7 @@ Collect and transmit usage statistics: Table Sizes.
 
 
 If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -59,7 +60,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/CollectTableSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetPublishedProject
 Get published project by project id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 16
+  "ProjectId": 328
 }
 ```
 
@@ -106,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 801,
-  "Name": "Lynch Group",
-  "Description": "Front-line clear-thinking core",
+  "ProjectId": 758,
+  "Name": "Langworth-Hudson",
+  "Description": "Integrated leading edge forecast",
   "URL": "http://www.example.com/",
-  "Type": "sit",
-  "AssociateId": 314,
-  "AssociateFullName": "Prof. Carole Cole Ullrich",
-  "TypeId": 421,
-  "Updated": "2016-10-22T11:24:48.4845166+02:00",
-  "StatusId": 527,
-  "Status": "architecto",
-  "TextId": 368,
-  "PublishTo": "2020-01-03T11:24:48.4845166+01:00",
-  "PublishFrom": "2010-05-29T11:24:48.4845166+02:00",
-  "IsPublished": true,
+  "Type": "dolor",
+  "AssociateId": 697,
+  "AssociateFullName": "Lindsay Hane",
+  "TypeId": 876,
+  "Updated": "2021-09-21T03:40:47.4999832+02:00",
+  "StatusId": 93,
+  "Status": "reprehenderit",
+  "TextId": 192,
+  "PublishTo": "1999-05-02T03:40:47.4999832+02:00",
+  "PublishFrom": "2010-03-26T03:40:47.4999832+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "803178",
-  "ActiveErpLinks": 401,
+  "ProjectNumber": "1493173",
+  "ActiveErpLinks": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 483
     }
   }
 }

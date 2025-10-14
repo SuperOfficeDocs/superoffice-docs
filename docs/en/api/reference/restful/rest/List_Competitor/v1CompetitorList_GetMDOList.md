@@ -27,8 +27,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=est
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=odit
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Brekke-Armstrong",
-    "ToolTip": "Tempore dignissimos facilis.",
-    "Deleted": true,
-    "Rank": 468,
-    "Type": "adipisci",
+    "Id": 472,
+    "Name": "Homenick LLC",
+    "ToolTip": "Velit illo.",
+    "Deleted": false,
+    "Rank": 106,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Vandervort-Kunde",
-        "ToolTip": "Corporis quia.",
+        "Id": 220,
+        "Name": "Fahey, Kuphal and Von",
+        "ToolTip": "Qui dolor quaerat delectus recusandae non rerum.",
         "Deleted": true,
-        "Rank": 422,
-        "Type": "velit",
+        "Rank": 335,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 342,
-        "ExtraInfo": "eligendi",
-        "StyleHint": "quibusdam",
-        "FullName": "Hailee Gerhold",
+        "IconHint": "fuga",
+        "ColorBlock": 393,
+        "ExtraInfo": "molestias",
+        "StyleHint": "ut",
+        "FullName": "Miss Julianne Joy Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldLength": 865
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 622,
-    "ExtraInfo": "sed",
-    "StyleHint": "adipisci",
-    "FullName": "Maiya Rutherford",
+    "IconHint": "quam",
+    "ColorBlock": 760,
+    "ExtraInfo": "ut",
+    "StyleHint": "quo",
+    "FullName": "Maudie Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

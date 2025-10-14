@@ -28,7 +28,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?query=delectus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Parisian Inc and Sons",
-    "ToolTip": "Quis consequuntur et et dolorem.",
+    "Id": 692,
+    "Name": "Friesen-Leffler",
+    "ToolTip": "Impedit aut qui dolorem consequuntur et quia quo.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "similique",
+    "Rank": 116,
+    "Type": "neque",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Schroeder-Reichert",
-        "ToolTip": "Dolores atque molestiae vel est.",
-        "Deleted": true,
-        "Rank": 895,
-        "Type": "dolorum",
+        "Id": 665,
+        "Name": "Waelchi-Schultz",
+        "ToolTip": "Aut veritatis veritatis nesciunt facilis qui.",
+        "Deleted": false,
+        "Rank": 382,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 719,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "beatae",
-        "FullName": "Kyleigh Wilderman",
+        "IconHint": "molestiae",
+        "ColorBlock": 4,
+        "ExtraInfo": "fugit",
+        "StyleHint": "molestiae",
+        "FullName": "Jesse Brown Thiel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 584
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 248,
-    "ExtraInfo": "at",
-    "StyleHint": "similique",
-    "FullName": "Alverta Joany Hickle Sr.",
+    "IconHint": "sed",
+    "ColorBlock": 245,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatibus",
+    "FullName": "Desiree Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Denesik Group",
-    "ToolTip": "Non accusamus ut ratione et consequatur.",
-    "Deleted": true,
-    "Rank": 772,
-    "Type": "ut",
-    "ColorBlock": 981,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2006-01-14T11:24:53.8749217+01:00",
+    "Id": 335,
+    "Name": "Witting, Brekke and Schowalter",
+    "ToolTip": "Fuga qui sequi quo blanditiis labore doloribus.",
+    "Deleted": false,
+    "Rank": 946,
+    "Type": "fugit",
+    "ColorBlock": 193,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2008-10-23T03:40:56.743228+02:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Bogisich Group",
-        "ToolTip": "Laborum possimus omnis inventore molestiae dolor soluta.",
-        "Deleted": false,
-        "Rank": 80,
-        "Type": "magnam",
-        "ColorBlock": 228,
+        "Id": 748,
+        "Name": "O'Kon Inc and Sons",
+        "ToolTip": "Voluptas est sunt ex.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "iusto",
+        "ColorBlock": 705,
         "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2004-01-13T11:24:53.8749217+01:00",
+        "Selected": false,
+        "LastChanged": "2024-11-12T03:40:56.743228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "esse",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Adrian Weber V"
+        "FullName": "Dr. Junius Flatley"
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Lillian Hintz"
+    "ExtraInfo": "animi",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Kaylie Dare"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Jones, Windler and Lakin",
-    "ToolTip": "Repudiandae rerum qui voluptatem.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "et",
-    "ColorBlock": 107,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2009-05-11T11:24:53.8749217+02:00",
+    "Id": 231,
+    "Name": "Becker-Bartell",
+    "ToolTip": "Et amet pariatur quos voluptas totam.",
+    "Deleted": false,
+    "Rank": 55,
+    "Type": "alias",
+    "ColorBlock": 787,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2023-11-19T03:40:56.743228+01:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Quigley LLC",
-        "ToolTip": "Impedit et recusandae molestias omnis eos tempore.",
-        "Deleted": true,
-        "Rank": 307,
-        "Type": "placeat",
-        "ColorBlock": 644,
-        "IconHint": "consectetur",
+        "Id": 389,
+        "Name": "Gutkowski, Sawayn and Hyatt",
+        "ToolTip": "Iure dolore nemo qui velit exercitationem accusantium.",
+        "Deleted": false,
+        "Rank": 408,
+        "Type": "dolorem",
+        "ColorBlock": 19,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2014-06-24T11:24:53.8749217+02:00",
+        "LastChanged": "1999-12-23T03:40:56.743228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ms. Edyth Quigley",
+        "ExtraInfo": "sit",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Mrs. Watson Amelia Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 643
+            "FieldType": "System.Int32",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "dolores",
+    "ExtraInfo": "sed",
+    "StyleHint": "perferendis",
     "Hidden": true,
-    "FullName": "Dr. Myrtis Wilber Runolfsdottir DVM",
+    "FullName": "Everett Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 106
       }
     }
   }

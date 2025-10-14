@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetRecipientStatistics
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 712
+  "SelectionId": 21
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 489,
-  "ValidPostalAddresses": 936,
-  "ValidEmailAddresses": 747,
-  "ValidFaxNumbers": 822,
-  "NoAddresses": 402,
-  "NoFaxOrEmails": 329,
+  "Total": 498,
+  "ValidPostalAddresses": 731,
+  "ValidEmailAddresses": 91,
+  "ValidFaxNumbers": 349,
+  "NoAddresses": 505,
+  "NoFaxOrEmails": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 228
     }
   }
 }

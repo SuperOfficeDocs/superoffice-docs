@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Jakubowski-Kirlin",
-    "Tooltip": "facere",
+    "Id": 711,
+    "Name": "Parisian, Armstrong and Kunde",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 833,
-    "Rank": 480
+    "UdListDefinitionId": 181,
+    "Rank": 78
   },
   {
-    "Id": 404,
-    "Name": "Jakubowski-Kirlin",
-    "Tooltip": "facere",
+    "Id": 711,
+    "Name": "Parisian, Armstrong and Kunde",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 833,
-    "Rank": 480
+    "UdListDefinitionId": 181,
+    "Rank": 78
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Rice LLC",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 660,
-    "Rank": 924,
+    "Id": 171,
+    "Name": "Friesen-Stehr",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 840,
+    "Rank": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 764
       }
     }
   }

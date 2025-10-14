@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Name": "Kautzer, Sipes and Dare",
-  "AssociateId": 317,
-  "DetailsTable": 640,
-  "DetailsRecord": 952,
+  "Id": 916,
+  "Name": "Erdman, Cartwright and Jewess",
+  "AssociateId": 669,
+  "DetailsTable": 243,
+  "DetailsRecord": 497,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "delectus",
-    "ParameterObject2": "nulla"
+    "ParameterObject1": "aliquid",
+    "ParameterObject2": "facere"
   },
-  "LastStarted": "2020-01-09T11:24:53.7343025+01:00",
-  "Created": "2002-04-05T11:24:53.7343025+02:00",
-  "StartCount": 642,
-  "DatabaseSerialNumber": "927228",
-  "Context": "iure",
-  "Result": "aspernatur",
+  "LastStarted": "2008-08-30T03:40:56.4303339+02:00",
+  "Created": "2006-10-22T03:40:56.4303339+02:00",
+  "StartCount": 340,
+  "DatabaseSerialNumber": "634150",
+  "Context": "ut",
+  "Result": "ut",
   "State": "All",
-  "Description": "Reactive contextually-based frame",
-  "Response": "voluptate",
-  "Request": "et",
-  "ProgressDescription": "Innovative uniform orchestration",
-  "ProgressPercent": 311,
-  "FileName": "Jakubowski, Hayes and Sawayn",
+  "Description": "Virtual systematic archive",
+  "Response": "a",
+  "Request": "tempore",
+  "ProgressDescription": "Up-sized context-sensitive open architecture",
+  "ProgressPercent": 53,
+  "FileName": "Borer, Turner and Barton",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 842
     }
   }
 }

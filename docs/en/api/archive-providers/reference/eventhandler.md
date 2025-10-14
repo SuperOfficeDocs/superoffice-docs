@@ -39,7 +39,7 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EventHandler?$select=path,screenType
+GET /api/v1/archive/EventHandler?$select=getAllRows,path,screenType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

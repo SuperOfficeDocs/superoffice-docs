@@ -54,6 +54,7 @@ Describes a dashboard
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[dashboard\_theme](dashboard-theme.md)  |A set of style rules for the Dashboard |
 |[dashboard\_tile](dashboard-tile.md)  |Represents one tile in the dashboard |
+|[quick\_filter\_info](quick-filter-info.md)  |Connect quick filter info from a specific provider to a dashboard |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 
 

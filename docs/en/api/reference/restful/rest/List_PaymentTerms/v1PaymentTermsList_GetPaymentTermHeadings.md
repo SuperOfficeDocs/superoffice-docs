@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "Harris-Botsford",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "Rank": 85,
-    "UdListDefinitionId": 884,
+    "HeadingId": 893,
+    "Name": "Powlowski-Emard",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "Rank": 1001,
+    "UdListDefinitionId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 408
       }
     }
   }

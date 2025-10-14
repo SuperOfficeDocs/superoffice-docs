@@ -28,7 +28,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=a
+GET /api/v1/List/ConsentPurpose/MDOItems?query=corporis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Haag LLC",
-    "ToolTip": "Assumenda debitis similique cum impedit exercitationem quas vitae.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "voluptatem",
+    "Id": 872,
+    "Name": "Jakubowski-O'Hara",
+    "ToolTip": "Fugit neque nobis.",
+    "Deleted": false,
+    "Rank": 686,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Kerluke-Barton",
-        "ToolTip": "Sunt enim distinctio labore.",
+        "Id": 527,
+        "Name": "Hilll LLC",
+        "ToolTip": "Delectus et facere totam et fugit.",
         "Deleted": true,
-        "Rank": 111,
-        "Type": "libero",
+        "Rank": 890,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 460,
+        "IconHint": "in",
+        "ColorBlock": 647,
         "ExtraInfo": "et",
-        "StyleHint": "et",
-        "FullName": "Miss Spencer Orville Bergstrom",
+        "StyleHint": "aut",
+        "FullName": "Christian Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 64
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 470,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "est",
-    "FullName": "Xzavier Ruecker",
+    "IconHint": "at",
+    "ColorBlock": 11,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "et",
+    "FullName": "Terry Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

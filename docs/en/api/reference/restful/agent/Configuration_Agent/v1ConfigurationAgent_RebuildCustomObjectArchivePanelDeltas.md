@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/RebuildCustomObjectArchivePanelDeltas
 Flush and rebuild CustomObjectArchivePanel deltas.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Configuration/RebuildCustomObjectArchivePanelDeltas
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

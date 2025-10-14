@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetAddressByCountry
 Gets the contact's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 398,
-  "CountryId": 105
+  "ContactId": 918,
+  "CountryId": 515
 }
 ```
 
@@ -96,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 25667.46,
-  "Wgs84Longitude": 13708.116,
+  "Wgs84Latitude": 6412.164,
+  "Wgs84Longitude": 23840.338,
   "LocalizedAddress": [
     [
       {
-        "Name": "Little LLC",
-        "Value": "vitae",
-        "Tooltip": "veniam",
-        "Label": "quia",
-        "ValueLength": 226,
-        "AddressType": "nobis",
+        "Name": "McLaughlin, Ruecker and Friesen",
+        "Value": "magnam",
+        "Tooltip": "fugiat",
+        "Label": "soluta",
+        "ValueLength": 815,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 306
+            "FieldType": "System.String",
+            "FieldLength": 483
           }
         }
       }
     ],
     [
       {
-        "Name": "Haley Inc and Sons",
-        "Value": "consequatur",
-        "Tooltip": "iusto",
-        "Label": "dolorum",
-        "ValueLength": 354,
-        "AddressType": "soluta",
+        "Name": "Kautzer, Rice and Tremblay",
+        "Value": "perspiciatis",
+        "Tooltip": "nostrum",
+        "Label": "minima",
+        "ValueLength": 232,
+        "AddressType": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 62
+            "FieldType": "System.Int32",
+            "FieldLength": 9
           }
         }
       }
@@ -138,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "earum",
+  "Formatted": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 58
     }
   }
 }

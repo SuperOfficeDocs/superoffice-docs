@@ -15,6 +15,7 @@ Start syncing of the given accounts, from mail server to SuperOffice database ca
 
 
 Only one of these API calls may run at a time. If one is already active, we return after 1 (one) second, with no indication that the sync was not really started. This is a way to throttle sync'ing to avoid making the mail servers angry at us. &lt;br/&gt; There is an &lt;b&gt;additional&lt;/b&gt; level of throttling within the implementation as well, limiting us to a maximum of 10 tasks, regardless of how many associates are to to be sync'ed. The outer, API-level lock is released when all those tasks are done.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -76,14 +77,14 @@ Content-Type: application/json; charset=utf-8
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 257,
-      "AssociateName": "Pagac-Mohr",
-      "AssociateId": 260
+      "AccountId": 829,
+      "AssociateName": "Keebler, Schumm and Feeney",
+      "AssociateId": 547
     },
     {
-      "AccountId": 257,
-      "AssociateName": "Pagac-Mohr",
-      "AssociateId": 260
+      "AccountId": 829,
+      "AssociateName": "Keebler, Schumm and Feeney",
+      "AssociateId": 547
     }
   ]
 }

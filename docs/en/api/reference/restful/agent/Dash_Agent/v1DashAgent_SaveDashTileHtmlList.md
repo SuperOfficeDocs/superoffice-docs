@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Set the HTML data for a tile with TileType = HTML.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,19 +78,19 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 391,
+  "DashboardTileDefinitionId": 65,
   "Languages": [
     {
-      "LanguageCode": "omnis",
-      "Html": "animi"
+      "LanguageCode": "cum",
+      "Html": "sit"
     },
     {
-      "LanguageCode": "omnis",
-      "Html": "animi"
+      "LanguageCode": "cum",
+      "Html": "sit"
     }
   ]
 }
@@ -102,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "temporibus",
-    "Html": "ut",
+    "LanguageCode": "necessitatibus",
+    "Html": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 733
       }
     }
   },
   {
-    "LanguageCode": "temporibus",
-    "Html": "ut",
+    "LanguageCode": "necessitatibus",
+    "Html": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 733
       }
     }
   }

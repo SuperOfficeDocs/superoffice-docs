@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 583,
-  "BlobSize": 945,
-  "Description": "Adaptive secondary utilisation",
-  "ExtraInfo": "corrupti",
-  "IsEncrypted": true,
+  "BlobId": 704,
+  "BlobSize": 609,
+  "Description": "Advanced analyzing Graphical User Interface",
+  "ExtraInfo": "officia",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ratione",
-  "OriginalSize": 468,
-  "CreatedDate": "2008-02-08T11:24:53.7655512+01:00",
-  "UpdatedDate": "2013-07-24T11:24:53.7655512+02:00",
+  "MimeType": "sit",
+  "OriginalSize": 126,
+  "CreatedDate": "2022-08-21T03:40:56.4775944+02:00",
+  "UpdatedDate": "2016-06-10T03:40:56.4775944+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquid"
+  "ConceptualType": "et"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 975,
-  "BlobSize": 262,
-  "Description": "Re-engineered cohesive extranet",
-  "ExtraInfo": "nobis",
+  "BlobId": 948,
+  "BlobSize": 279,
+  "Description": "Focused uniform hub",
+  "ExtraInfo": "eveniet",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolores",
-  "OriginalSize": 820,
-  "CreatedDate": "2014-08-07T11:24:53.7655512+02:00",
-  "UpdatedDate": "2019-01-01T11:24:53.7655512+01:00",
+  "MimeType": "ratione",
+  "OriginalSize": 141,
+  "CreatedDate": "2001-04-22T03:40:56.4775944+02:00",
+  "UpdatedDate": "2012-01-21T03:40:56.4775944+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit",
+  "ConceptualType": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

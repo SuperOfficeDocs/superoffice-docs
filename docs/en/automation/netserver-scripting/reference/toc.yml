@@ -437,46 +437,80 @@ items:
     href: blobagent/getblobentityonprojectasync.md
   - name: GetBlobStreamAsync
     href: blobagent/getblobstreamasync.md
+  - name: GetChatImageWithSizeAsStreamAsync
+    href: blobagent/getchatimagewithsizeasstreamasync.md
   - name: GetChatImageWithSizeAsync
     href: blobagent/getchatimagewithsizeasync.md
+  - name: GetContactImageAsStreamAsync
+    href: blobagent/getcontactimageasstreamasync.md
   - name: GetContactImageAsync
     href: blobagent/getcontactimageasync.md
+  - name: GetContactImageWithSizeAsStreamAsync
+    href: blobagent/getcontactimagewithsizeasstreamasync.md
   - name: GetContactImageWithSizeAsync
     href: blobagent/getcontactimagewithsizeasync.md
   - name: GetOutputFromBatchAsync
     href: blobagent/getoutputfrombatchasync.md
+  - name: GetPersonImageAsStreamAsync
+    href: blobagent/getpersonimageasstreamasync.md
   - name: GetPersonImageAsync
     href: blobagent/getpersonimageasync.md
+  - name: GetPersonImageWithSizeAsStreamAsync
+    href: blobagent/getpersonimagewithsizeasstreamasync.md
   - name: GetPersonImageWithSizeAsync
     href: blobagent/getpersonimagewithsizeasync.md
+  - name: GetProductImageAsStreamAsync
+    href: blobagent/getproductimageasstreamasync.md
   - name: GetProductImageAsync
     href: blobagent/getproductimageasync.md
+  - name: GetProductThumbnailAsStreamAsync
+    href: blobagent/getproductthumbnailasstreamasync.md
   - name: GetProductThumbnailAsync
     href: blobagent/getproductthumbnailasync.md
+  - name: GetProjectImageAsStreamAsync
+    href: blobagent/getprojectimageasstreamasync.md
   - name: GetProjectImageAsync
     href: blobagent/getprojectimageasync.md
+  - name: GetProjectImageWithSizeAsStreamAsync
+    href: blobagent/getprojectimagewithsizeasstreamasync.md
   - name: GetProjectImageWithSizeAsync
     href: blobagent/getprojectimagewithsizeasync.md
+  - name: GetQuoteLineImageAsStreamAsync
+    href: blobagent/getquotelineimageasstreamasync.md
   - name: GetQuoteLineImageAsync
     href: blobagent/getquotelineimageasync.md
   - name: SaveBlobEntityAsync
     href: blobagent/saveblobentityasync.md
   - name: SaveImageStreamAsync
     href: blobagent/saveimagestreamasync.md
+  - name: SaveImageStreamFromStreamAsync
+    href: blobagent/saveimagestreamfromstreamasync.md
   - name: SaveProjectImageAsync
     href: blobagent/saveprojectimageasync.md
+  - name: SaveProjectImageFromStreamAsync
+    href: blobagent/saveprojectimagefromstreamasync.md
   - name: SetBlobStreamAsync
     href: blobagent/setblobstreamasync.md
   - name: SetContactImageAsync
     href: blobagent/setcontactimageasync.md
+  - name: SetContactImageFromStreamAsync
+    href: blobagent/setcontactimagefromstreamasync.md
   - name: SetPersonImageAsync
     href: blobagent/setpersonimageasync.md
+  - name: SetPersonImageFromStreamAsync
+    href: blobagent/setpersonimagefromstreamasync.md
   - name: SetProductImageAsync
     href: blobagent/setproductimageasync.md
+  - name: SetProductImageFromStreamAsync
+    href: blobagent/setproductimagefromstreamasync.md
   - name: SetProductThumbnailAsync
     href: blobagent/setproductthumbnailasync.md
+  - name: SetProductThumbnailFromStreamAsync
+    href: blobagent/setproductthumbnailfromstreamasync.md
   - name: SetProjectImageAsync
     href: blobagent/setprojectimageasync.md
+  - name: SetProjectImageFromStreamAsync
+    href: blobagent/setprojectimagefromstreamasync.md
 - name: BulkUpdateAgent
   href: bulkupdateagent/index.md
   items:
@@ -825,6 +859,8 @@ items:
     href: dashagent/getdashcollectionasync.md
   - name: GetDashListAsync
     href: dashagent/getdashlistasync.md
+  - name: GetDashQuickFiltersAsync
+    href: dashagent/getdashquickfiltersasync.md
   - name: GetDashThemeAsync
     href: dashagent/getdashthemeasync.md
   - name: GetDashTileAsync
@@ -837,6 +873,8 @@ items:
     href: dashagent/getdashtilehtmllistasync.md
   - name: GetDashTilesAsync
     href: dashagent/getdashtilesasync.md
+  - name: GetPossibleDashQuickFiltersAsync
+    href: dashagent/getpossibledashquickfiltersasync.md
   - name: GetPreviewDashAsync
     href: dashagent/getpreviewdashasync.md
   - name: GetSecondaryTempTileSelectionAsync
@@ -845,6 +883,8 @@ items:
     href: dashagent/gettemptileselectionasync.md
   - name: SaveDashAsync
     href: dashagent/savedashasync.md
+  - name: SaveDashQuickFiltersAsync
+    href: dashagent/savedashquickfiltersasync.md
   - name: SaveDashThemeAsync
     href: dashagent/savedashthemeasync.md
   - name: SaveDashTileAsync

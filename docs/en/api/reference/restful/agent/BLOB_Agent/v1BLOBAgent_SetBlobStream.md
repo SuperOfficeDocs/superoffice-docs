@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/SetBlobStream
 Store a binary object from it's stream
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 311,
+  "BlobEntityId": 292,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

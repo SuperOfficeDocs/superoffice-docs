@@ -15,6 +15,10 @@ Return the prompt used to get a short summary of the activities on a sale.
 
 
 Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -86,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 761,
-  "NumSentences": 859,
+  "SaleId": 978,
+  "NumSentences": 546,
   "Summary": "et",
-  "IsoLangCode": "odio"
+  "IsoLangCode": "laudantium"
 }
 ```
 
@@ -100,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2008-09-07T11:24:47.2814408+02:00",
-  "UserPrompt": "ut",
-  "UserDisplayText": "beatae",
-  "BotResponse": "facere",
+  "Timestamp": "1999-03-12T03:40:45.5762384+01:00",
+  "UserPrompt": "placeat",
+  "UserDisplayText": "saepe",
+  "BotResponse": "corporis",
   "BotActions": {
-    "BotActions1": "qui",
-    "BotActions2": "et"
+    "BotActions1": "nobis",
+    "BotActions2": "aut"
   },
   "Attachments": [
-    "placeat",
-    "et"
+    "consequatur",
+    "dolores"
   ]
 }
 ```

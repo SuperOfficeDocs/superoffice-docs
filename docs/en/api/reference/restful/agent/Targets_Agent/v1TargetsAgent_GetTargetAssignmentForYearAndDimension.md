@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Returns the target assignment for the specified year, entity type and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,15 +88,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 307,
+  "TargetYear": 223,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 852,
-  "DimensionId": 200
+  "Id": 484,
+  "DimensionId": 270
 }
 ```
 
@@ -105,24 +107,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 963,
+  "TargetAssignmentInfoId": 63,
   "Values": [
-    867,
-    392
+    362,
+    915
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 24,
-  "DimensionListItemDisplayName": "Rowe-Wehner",
+  "DimensionListItem": 134,
+  "DimensionListItemDisplayName": "McKenzie, Schulist and Leannon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

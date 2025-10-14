@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Get all quote alternatives for a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 591
+  "QuoteVersionId": 429
 }
 ```
 
@@ -112,35 +114,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 416,
-    "ERPQuoteAlternativeKey": "corporis",
-    "QuoteVersionId": 130,
-    "Name": "Kohler-Wiegand",
-    "Description": "Distributed neutral algorithm",
+    "QuoteAlternativeId": 399,
+    "ERPQuoteAlternativeKey": "saepe",
+    "QuoteVersionId": 274,
+    "Name": "Jenkins-Beer",
+    "Description": "Upgradable leading edge portal",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 1084.364,
-    "ERPDiscountAmount": 24724.126,
-    "DiscountPercent": 30108.338,
-    "DiscountAmount": 26889.719999999998,
+    "Reason": "monetize efficient methodologies",
+    "ERPDiscountPercent": 11219.72,
+    "ERPDiscountAmount": 4553.702,
+    "DiscountPercent": 16603.932,
+    "DiscountAmount": 9373.794,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "a",
-    "VAT": 1827.1219999999998,
-    "EarningPercent": 23671.102,
-    "EarningAmount": 7715.9079999999994,
-    "SubTotal": 29428.26,
-    "TotalPrice": 12921.482,
-    "ExtraField1": "quasi",
-    "ExtraField2": "ipsa",
-    "ExtraField3": "vitae",
-    "ExtraField4": "veniam",
-    "ExtraField5": "vitae",
+    "VATInfo": "architecto",
+    "VAT": 20869.306,
+    "EarningPercent": 31336.865999999998,
+    "EarningAmount": 4694.732,
+    "SubTotal": 9514.824,
+    "TotalPrice": 19437.068,
+    "ExtraField1": "tempora",
+    "ExtraField2": "sint",
+    "ExtraField3": "nostrum",
+    "ExtraField4": "minima",
+    "ExtraField5": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldType": "System.Int32",
+        "FieldLength": 3
       }
     }
   }

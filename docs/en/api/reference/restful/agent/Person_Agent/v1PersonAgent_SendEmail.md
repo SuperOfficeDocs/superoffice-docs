@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SendEmail
 Inserts into outbox an email with specified details.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,18 +72,18 @@ No Content
 POST /api/v1/Agents/Person/SendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "repellendus",
-  "To": "eaque",
-  "Subject": "id",
-  "PlainBody": "rerum",
-  "HtmlBody": "eos",
+  "From": "impedit",
+  "To": "maxime",
+  "Subject": "a",
+  "PlainBody": "sint",
+  "HtmlBody": "dolor",
   "AttachmentIds": [
-    205,
-    296
+    167,
+    637
   ]
 }
 ```

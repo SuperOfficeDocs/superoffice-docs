@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 427,
-    "Name": "Lowe, Hamill and Dare",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 369,
-    "UdListDefinitionId": 155
+    "HeadingId": 581,
+    "Name": "Goyette, Thiel and McGlynn",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 851,
+    "UdListDefinitionId": 132
   },
   {
-    "HeadingId": 427,
-    "Name": "Lowe, Hamill and Dare",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 369,
-    "UdListDefinitionId": 155
+    "HeadingId": 581,
+    "Name": "Goyette, Thiel and McGlynn",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 851,
+    "UdListDefinitionId": 132
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 450,
-    "Name": "Russel LLC",
-    "Tooltip": "quo",
+    "HeadingId": 328,
+    "Name": "Borer-Schmidt",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 560,
-    "UdListDefinitionId": 353,
+    "Rank": 88,
+    "UdListDefinitionId": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

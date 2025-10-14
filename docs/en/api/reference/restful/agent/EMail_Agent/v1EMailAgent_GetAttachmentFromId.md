@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetAttachmentFromId
 Retrieve an attachment from an e-mail
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -89,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 874,
-  "AttachmentId": "deserunt"
+  "MailItemId": 479,
+  "AttachmentId": "voluptatibus"
 }
 ```
 
@@ -101,13 +104,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized optimal firmware",
-  "Filename": "modi",
-  "Size": 984,
-  "Type": "sed",
-  "Encoding": "minima",
-  "Id": "sed",
-  "Disposition": "ducimus",
+  "Description": "Polarised regional data-warehouse",
+  "Filename": "explicabo",
+  "Size": 468,
+  "Type": "fuga",
+  "Encoding": "ipsam",
+  "Id": "est",
+  "Disposition": "labore",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -115,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldLength": 398
     }
   }
 }

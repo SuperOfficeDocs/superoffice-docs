@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,25 +81,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 13,
-    "Name": "Ortiz Group",
-    "ConsentText": "dolorem",
-    "FormText": "eveniet",
-    "Key": "dolore",
-    "Tooltip": "modi",
-    "Active": 444,
-    "UpdatedDate": "2018-10-17T11:24:53.8749217+02:00",
+    "ConsentPurposeId": 349,
+    "Name": "Satterfield Group",
+    "ConsentText": "qui",
+    "FormText": "ducimus",
+    "Key": "sequi",
+    "Tooltip": "ea",
+    "Active": 381,
+    "UpdatedDate": "2018-04-02T03:40:56.743228+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 361,
-    "PrivacyStatementDesc": "quia",
+    "Deleted": false,
+    "Rank": 492,
+    "PrivacyStatementDesc": "sit",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

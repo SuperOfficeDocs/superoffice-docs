@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 525,
-  "Name": "Schuster-Runte",
-  "Tooltip": "accusantium",
+  "Id": 174,
+  "Name": "Johnston, Mann and Cartwright",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 919,
+  "Rank": 211,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 985
     }
   },
   "_Links": {

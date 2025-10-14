@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Altenwerth, Wiza and Yundt",
-  "Tooltip": "nostrum",
+  "Id": 38,
+  "Name": "Green Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 652,
-  "IsCustomList": false,
+  "Rank": 974,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 629,
-  "Name": "Stoltenberg, Fadel and Mayert",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 835,
+  "Id": 948,
+  "Name": "Carter, Rempel and Reichel",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 860,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

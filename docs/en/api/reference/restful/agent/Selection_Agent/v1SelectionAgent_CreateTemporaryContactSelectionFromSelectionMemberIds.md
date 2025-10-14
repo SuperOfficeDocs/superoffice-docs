@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 Creates a temporary selection with members from a collection of selectionmember id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -115,14 +117,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 359,
+  "SelectionId": 477,
   "SelectionMemberIds": [
-    300,
-    380
+    596,
+    781
   ]
 }
 ```
@@ -134,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive responsive approach",
-  "Postit": "quia",
+  "Description": "Phased bottom-line capacity",
+  "Postit": "ipsa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 82,
-  "IncludePerson": 60,
+  "GroupIdx": 360,
+  "IncludePerson": 943,
   "MemberCount": 99.99,
-  "Name": "Conroy, Jacobson and Mann",
-  "PostitTextId": 902,
-  "CreatedDate": "2022-08-13T11:24:48.6407604+02:00",
-  "SelectionId": 718,
-  "SoundEx": "consequatur",
-  "Source": 830,
-  "TextId": 508,
-  "UpdatedDate": "2001-11-17T11:24:48.6407604+01:00",
-  "UpdatedCount": 682,
-  "Visibility": 322,
+  "Name": "Cole, Hudson and Swaniawski",
+  "PostitTextId": 931,
+  "CreatedDate": "2014-12-31T03:40:47.7348444+01:00",
+  "SelectionId": 276,
+  "SoundEx": "voluptatem",
+  "Source": 768,
+  "TextId": 240,
+  "UpdatedDate": "2022-08-19T03:40:47.7348444+02:00",
+  "UpdatedCount": 253,
+  "Visibility": 443,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 731,
-  "TargetTableName": "West-Orn",
+  "TargetTableNumber": 484,
+  "TargetTableName": "Kassulke-Hackett",
   "Completed": false,
-  "LeftSelectionId": 546,
-  "RightSelectionId": 299,
+  "LeftSelectionId": 949,
+  "RightSelectionId": 25,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sporer, Brown and Toy",
-  "ShadowProviderName": "Langworth Group",
-  "ChartKey": "deleniti",
-  "LastLoaded": "2006-10-18T11:24:48.6407604+02:00",
-  "LastLoadedBy": 852,
+  "MainProviderName": "Sipes LLC",
+  "ShadowProviderName": "Gulgowski-Boyle",
+  "ChartKey": "commodi",
+  "LastLoaded": "2012-09-14T03:40:47.7348444+02:00",
+  "LastLoadedBy": 448,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-04-03T11:24:48.6407604+02:00",
-  "LastMembershipChangeBy": 828,
+  "LastMembershipChange": "2006-11-17T03:40:47.7348444+01:00",
+  "LastMembershipChangeBy": 70,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nulla",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Fritsch, Nolan and Koch",
-  "DashboardTileDefinitionId": 552,
+  "MainHeading": "molestias",
+  "MemberTabHeading": "unde",
+  "MailingsProviderName": "Zboncak-Bednar",
+  "DashboardTileDefinitionId": 186,
   "VisibleFor": [
     {
-      "VisibleId": 589,
+      "VisibleId": 990,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 407
         }
       }
     },
     {
-      "VisibleId": 589,
+      "VisibleId": 990,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldLength": 407
         }
       }
     }
@@ -206,8 +208,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldType": "System.String",
+      "FieldLength": 140
     }
   }
 }

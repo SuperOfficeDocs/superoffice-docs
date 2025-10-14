@@ -15,6 +15,7 @@ Saves a complete preference object, on any level and any target.
 
 
 Preference administrator rights are required to use this
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -104,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "est",
+  "RawValue": "officiis",
   "Specification": null,
-  "DisplayValue": "deleniti",
-  "DisplayTooltip": "dolorum",
+  "DisplayValue": "numquam",
+  "DisplayTooltip": "pariatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 141,
-  "PrefDescId": 11,
-  "TableName": "Jaskolski Group",
-  "UserPreferenceId": 211,
+  "TargetId": 659,
+  "PrefDescId": 188,
+  "TableName": "Stamm-Reichert",
+  "UserPreferenceId": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 429
     }
   }
 }

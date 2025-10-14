@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/UpdateFormSubmissions
 Attempt to update stored field values for up to the given number of form submissions
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Workflow/UpdateFormSubmissions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MaxCount": 7
+  "MaxCount": 682
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-364
+386
 ```

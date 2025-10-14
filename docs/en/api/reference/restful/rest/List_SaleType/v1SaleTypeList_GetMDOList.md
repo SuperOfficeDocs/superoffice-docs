@@ -27,8 +27,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=ducimus
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=repudiandae
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Terry Inc and Sons",
-    "ToolTip": "Atque provident repudiandae.",
-    "Deleted": false,
-    "Rank": 866,
-    "Type": "placeat",
+    "Id": 807,
+    "Name": "Price LLC",
+    "ToolTip": "Quidem sed culpa labore rerum ipsa molestias.",
+    "Deleted": true,
+    "Rank": 927,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Turcotte-Borer",
-        "ToolTip": "Eius repudiandae illum.",
+        "Id": 860,
+        "Name": "Muller Inc and Sons",
+        "ToolTip": "Id magni enim cumque.",
         "Deleted": false,
-        "Rank": 561,
-        "Type": "modi",
+        "Rank": 105,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 185,
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Jacynthe Bailey",
+        "IconHint": "eum",
+        "ColorBlock": 349,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "hic",
+        "FullName": "Ms. Joel Gilda Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 721
+            "FieldLength": 664
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 734,
-    "ExtraInfo": "officia",
-    "StyleHint": "quasi",
-    "FullName": "Veronica Spencer I",
+    "IconHint": "est",
+    "ColorBlock": 597,
+    "ExtraInfo": "autem",
+    "StyleHint": "molestiae",
+    "FullName": "Mrs. Athena Kolby Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 900
       }
     }
   }

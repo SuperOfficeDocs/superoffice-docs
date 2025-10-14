@@ -15,6 +15,7 @@ Deletes the ChatSessionEntity
 
 
 Calls the Chat agent service DeleteChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Bayer, Feest and Roob",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "UdListDefinitionId": 717,
-  "Rank": 209,
+  "Id": 822,
+  "Name": "Jacobson-Maggio",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "UdListDefinitionId": 831,
+  "Rank": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

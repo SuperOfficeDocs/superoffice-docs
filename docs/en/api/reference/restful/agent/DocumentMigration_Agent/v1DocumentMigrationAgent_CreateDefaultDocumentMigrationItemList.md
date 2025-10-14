@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Loading default values into a new DocumentMigrationItemList.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -69,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 234,
-  "NumDocumentsAlreadyMigrated": 784,
+  "NumDocumentsOmitted": 634,
+  "NumDocumentsAlreadyMigrated": 285,
   "Documents": [
     {
-      "DocumentId": 85,
-      "ContactId": 220,
-      "PersonId": 924,
-      "SaleId": 734,
-      "ProjectId": 26,
-      "DocTmplId": 169,
-      "AssociateId": 801,
-      "UserGroupId": 673,
-      "VisibleForId": 948
+      "DocumentId": 354,
+      "ContactId": 781,
+      "PersonId": 1000,
+      "SaleId": 614,
+      "ProjectId": 981,
+      "DocTmplId": 718,
+      "AssociateId": 868,
+      "UserGroupId": 169,
+      "VisibleForId": 629
     }
   ],
   "Associates": [
     {
-      "AssociateId": 615,
-      "EmailAddress": "landen_leffler@bernhardrempel.ca"
+      "AssociateId": 252,
+      "EmailAddress": "jewell.greenfelder@carroll.name"
     },
     {
-      "AssociateId": 615,
-      "EmailAddress": "landen_leffler@bernhardrempel.ca"
+      "AssociateId": 252,
+      "EmailAddress": "jewell.greenfelder@carroll.name"
     }
   ]
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Gets a AttachmentEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=626
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=179
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 334,
-  "Name": "Hane, Von and Farrell",
-  "ContentType": "molestiae",
-  "AttSize": 436,
+  "AttachmentId": 890,
+  "Name": "White Inc and Sons",
+  "ContentType": "in",
+  "AttSize": 963,
   "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "laboriosam",
-  "IsSafeFileExtension": true,
+  "ContentId": "dolor",
+  "AuthKey": "ea",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

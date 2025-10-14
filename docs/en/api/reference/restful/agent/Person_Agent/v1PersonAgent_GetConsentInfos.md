@@ -14,7 +14,8 @@ POST /api/v1/Agents/Person/GetConsentInfos
 Get all consent information for a given person.
 
 
-May include withdrawn consents (check
+May include withdrawn consents (check 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -94,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 8
+  "PersonId": 546
 }
 ```
 
@@ -106,27 +107,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 619,
-    "Comment": "repellendus",
-    "Registered": "2024-10-18T11:24:48.3595217+02:00",
-    "RegisteredAssociateId": 29,
-    "Updated": "2019-05-28T11:24:48.3595217+02:00",
-    "UpdatedAssociateId": 665,
-    "LegalBaseId": 69,
-    "LegalBaseKey": "et",
-    "LegalBaseName": "Lind-Wyman",
-    "ConsentPurposeId": 709,
-    "ConsentPurposeKey": "recusandae",
-    "ConsentPurposeName": "O'Connell-VonRueden",
-    "ConsentSourceId": 291,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Carter LLC",
+    "ConsentPersonId": 122,
+    "Comment": "temporibus",
+    "Registered": "2018-04-09T03:40:47.406226+02:00",
+    "RegisteredAssociateId": 440,
+    "Updated": "2003-07-06T03:40:47.406226+02:00",
+    "UpdatedAssociateId": 872,
+    "LegalBaseId": 113,
+    "LegalBaseKey": "maiores",
+    "LegalBaseName": "Kovacek-Harris",
+    "ConsentPurposeId": 442,
+    "ConsentPurposeKey": "ullam",
+    "ConsentPurposeName": "Reichel-Boehm",
+    "ConsentSourceId": 53,
+    "ConsentSourceKey": "omnis",
+    "ConsentSourceName": "Frami, Ankunding and Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldLength": 628
       }
     }
   }

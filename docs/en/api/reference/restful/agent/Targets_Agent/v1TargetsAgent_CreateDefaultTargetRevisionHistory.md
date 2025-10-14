@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetRevisionHistory
 Loading default values into a new TargetRevisionHistory.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -58,7 +60,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,13 +70,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 909,
-  "Year": 742,
+  "TargetGroupId": 833,
+  "Year": 53,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2015-10-29T11:24:48.6720089+01:00",
+      "When": "2019-04-19T03:40:47.8911118+02:00",
       "Changes": [
         {},
         {}
@@ -84,14 +86,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 215
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2015-10-29T11:24:48.6720089+01:00",
+      "When": "2019-04-19T03:40:47.8911118+02:00",
       "Changes": [
         {},
         {}
@@ -101,7 +103,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 215
         }
       }
     }
@@ -111,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 432
     }
   }
 }

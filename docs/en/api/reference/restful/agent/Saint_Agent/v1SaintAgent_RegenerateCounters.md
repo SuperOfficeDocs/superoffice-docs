@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/RegenerateCounters
 Regenerate the Saint counters - this can take several minutes
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Dietrich-Raynor",
-  "AssociateId": 554,
-  "DetailsTable": 212,
-  "DetailsRecord": 222,
+  "Id": 218,
+  "Name": "Gislason, Kling and Hyatt",
+  "AssociateId": 80,
+  "DetailsTable": 588,
+  "DetailsRecord": 1002,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "minima",
-    "ParameterObject2": "facilis"
+    "ParameterObject1": "voluptas",
+    "ParameterObject2": "doloremque"
   },
-  "LastStarted": "2020-05-16T11:24:48.5470141+02:00",
-  "Created": "2018-06-04T11:24:48.5470141+02:00",
-  "StartCount": 553,
-  "DatabaseSerialNumber": "1372471",
-  "Context": "quia",
-  "Result": "labore",
+  "LastStarted": "2001-02-13T03:40:47.5942106+01:00",
+  "Created": "2011-08-22T03:40:47.5942106+02:00",
+  "StartCount": 415,
+  "DatabaseSerialNumber": "1242664",
+  "Context": "autem",
+  "Result": "quia",
   "State": "All",
-  "Description": "Optional national installation",
-  "Response": "dolores",
-  "Request": "officiis",
-  "ProgressDescription": "Cross-group directional toolset",
-  "ProgressPercent": 238,
-  "FileName": "Okuneva, Emmerich and Runte",
+  "Description": "Multi-channelled global throughput",
+  "Response": "perferendis",
+  "Request": "et",
+  "ProgressDescription": "Balanced foreground throughput",
+  "ProgressPercent": 310,
+  "FileName": "Keeling Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 65
+      "FieldLength": 956
     }
   }
 }

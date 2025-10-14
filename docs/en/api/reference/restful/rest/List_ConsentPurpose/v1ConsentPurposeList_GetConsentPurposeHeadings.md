@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 138,
-    "Name": "McKenzie, Johnston and Goodwin",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "Rank": 31,
-    "UdListDefinitionId": 262,
+    "HeadingId": 1002,
+    "Name": "Brakus-Fay",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 200,
+    "UdListDefinitionId": 993,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 354
       }
     }
   }

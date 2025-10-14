@@ -15,6 +15,7 @@ Gets the available active PriceLists in a specific currency.
 
 
 Will return empty array if there is no PriceList with the stated currency available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 742,
-  "Currency": "qui"
+  "QuoteConnectionId": 166,
+  "Currency": "ipsa"
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 577,
-    "ERPPriceListKey": "distinctio",
-    "QuoteConnectionId": 797,
-    "Name": "Feest-Crist",
-    "Description": "Realigned coherent hub",
-    "Currency": "unde",
-    "CurrencyName": "Thompson-Kris",
-    "ValidFrom": "2004-09-27T11:24:48.5313897+02:00",
-    "ValidTo": "2024-05-21T11:24:48.5313897+02:00",
+    "PriceListId": 768,
+    "ERPPriceListKey": "dignissimos",
+    "QuoteConnectionId": 665,
+    "Name": "Effertz Group",
+    "Description": "Open-source human-resource algorithm",
+    "Currency": "et",
+    "CurrencyName": "Reynolds Inc and Sons",
+    "ValidFrom": "2020-02-06T03:40:47.5629587+01:00",
+    "ValidTo": "2022-07-22T03:40:47.5629587+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

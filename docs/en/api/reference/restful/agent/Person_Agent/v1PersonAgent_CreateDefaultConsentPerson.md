@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 Loading default values into a new ConsentPerson.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 716,
+  "ConsentPersonId": 157,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 772,
+  "PersonId": 174,
   "ConsentPurpose": null,
-  "Comment": "et",
+  "Comment": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldLength": 258
     }
   }
 }

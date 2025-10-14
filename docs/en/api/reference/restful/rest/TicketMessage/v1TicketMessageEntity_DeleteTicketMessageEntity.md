@@ -15,6 +15,7 @@ Deletes the TicketMessageEntity
 
 
 Calls the Ticket agent service DeleteTicketMessageEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -53,7 +54,7 @@ TicketMessageEntity deleted.
 DELETE /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

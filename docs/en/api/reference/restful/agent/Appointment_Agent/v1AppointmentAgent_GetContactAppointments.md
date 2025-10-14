@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the contact specified. If the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 245,
-  "StartTime": "2012-08-16T11:24:47.2814408+02:00",
-  "EndTime": "2017-12-15T11:24:47.2814408+01:00",
-  "Count": 344
+  "ContactId": 359,
+  "StartTime": "2004-07-20T03:40:45.5918644+02:00",
+  "EndTime": "2015-10-24T03:40:45.5918644+02:00",
+  "Count": 730
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 683,
-    "StartDate": "2013-02-21T11:24:47.2814408+01:00",
-    "EndDate": "2007-08-03T11:24:47.2814408+02:00",
+    "AppointmentId": 538,
+    "StartDate": "2023-06-25T03:40:45.5918644+02:00",
+    "EndDate": "2007-09-11T03:40:45.5918644+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatibus",
-    "AssociateFullName": "Jovanny Maci Ankunding IV",
-    "ContactName": "Schultz Inc and Sons",
-    "Description": "Team-oriented 24 hour open architecture",
-    "PersonFullName": "Carmen Rolfson",
-    "PersonId": 934,
-    "ContactId": 719,
-    "ProjectId": 281,
-    "ProjectName": "Harris Group",
+    "Task": "accusamus",
+    "AssociateFullName": "Deon Loy Baumbach IV",
+    "ContactName": "Roob-Terry",
+    "Description": "Digitized static flexibility",
+    "PersonFullName": "Dr. Salvatore Graham I",
+    "PersonId": 414,
+    "ContactId": 941,
+    "ProjectId": 200,
+    "ProjectName": "Wisozk-Weissnat",
     "IsPublished": false,
-    "AssociateId": 149,
-    "ColorIndex": 555,
+    "AssociateId": 886,
+    "ColorIndex": 977,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 338,
-    "PriorityName": "Kuhlman, Roob and Rice",
+    "PriorityId": 465,
+    "PriorityName": "Stiedemann LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2020-01-23T11:24:47.2814408+01:00",
+    "ActiveDate": "2019-02-10T03:40:45.5918644+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-07-26T11:24:47.2814408+02:00",
-    "RecurringEndDate": "2023-05-01T11:24:47.2814408+02:00",
-    "MotherId": 898,
-    "AssignedBy": 230,
-    "AssignedByFullName": "Rylee Lehner",
+    "RecurringStartDate": "2017-10-14T03:40:45.5918644+02:00",
+    "RecurringEndDate": "2023-10-04T03:40:45.5918644+02:00",
+    "MotherId": 186,
+    "AssignedBy": 188,
+    "AssignedByFullName": "Dr. Jamey Halie Larkin",
     "RejectReason": "",
-    "Location": "necessitatibus",
-    "AlarmLeadTime": "et",
-    "SaleId": 92,
-    "SaleName": "VonRueden, Pollich and Dicki",
-    "AssociateName": "Beatty Group",
-    "CreatedDate": "1998-09-04T11:24:47.2814408+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Mrs. Belle Christiansen II",
-    "CreatedByAssociateId": 608,
+    "Location": "non",
+    "AlarmLeadTime": "quisquam",
+    "SaleId": 452,
+    "SaleName": "Runte, Stokes and Klein",
+    "AssociateName": "Sawayn, Wiegand and Blick",
+    "CreatedDate": "2002-03-17T03:40:45.5918644+01:00",
+    "CreatedBy": "quod",
+    "CreatedByFullName": "Nedra Brendan Flatley III",
+    "CreatedByAssociateId": 217,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 560,
+    "MotherAssociateId": 910,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 773,
-    "Title": "quibusdam",
-    "Agenda": "placeat",
-    "InternalNotes": "magni",
+    "PreferredTZLocation": 368,
+    "Title": "dolorum",
+    "Agenda": "harum",
+    "InternalNotes": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 249
       }
     }
   }

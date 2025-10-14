@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/Save
 Saving a booking.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -137,7 +139,7 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -160,121 +162,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-09-15T11:24:47.4064385+02:00",
-  "AppointmentId": 899,
-  "Description": "Seamless maximized task-force",
-  "Title": "earum",
-  "Agenda": "quis",
-  "InternalNotes": "dolore",
-  "StartDate": "2001-01-28T11:24:47.4064385+01:00",
-  "EndDate": "2024-12-07T11:24:47.4064385+01:00",
+  "CreatedDate": "2022-08-09T03:40:45.7793757+02:00",
+  "AppointmentId": 940,
+  "Description": "Enhanced dynamic capability",
+  "Title": "sed",
+  "Agenda": "quae",
+  "InternalNotes": "quis",
+  "StartDate": "2006-10-14T03:40:45.7793757+02:00",
+  "EndDate": "2011-06-15T03:40:45.7793757+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 302,
+  "MotherId": 180,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-03-16T11:24:47.4064385+01:00",
+  "UpdatedDate": "2025-02-02T03:40:45.7793757+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 393,
+  "ActiveLinks": 302,
   "Links": [
     {
-      "EntityName": "Rogahn, Blick and Frami",
-      "Id": 403,
-      "Description": "Open-source system-worthy capability",
-      "ExtraInfo": "et",
-      "LinkId": 1001,
+      "EntityName": "Hayes, Rath and Yost",
+      "Id": 931,
+      "Description": "Object-based client-server throughput",
+      "ExtraInfo": "magni",
+      "LinkId": 238,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 663
         }
       }
     }
   ],
-  "AlarmLeadTime": "vel",
+  "AlarmLeadTime": "officiis",
   "HasAlarm": true,
-  "ColorIndex": 775,
+  "ColorIndex": 290,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolorem",
-  "LeadTime": "placeat",
-  "Location": "expedita",
-  "RejectCounter": 58,
+  "LagTime": "fugit",
+  "LeadTime": "quisquam",
+  "Location": "cupiditate",
+  "RejectCounter": 602,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 46,
-      "PersonId": 40,
-      "ContactId": 978,
-      "EmailId": 973,
-      "SendEmail": true,
+      "AssociateId": 872,
+      "PersonId": 689,
+      "ContactId": 468,
+      "EmailId": 329,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "joel@friesen.biz",
-      "Description": "Profit-focused mobile customer loyalty"
+      "EmailAddress": "herbert@schmittabshire.com",
+      "Description": "Decentralized holistic synergy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-09-27T11:24:47.4064385+02:00",
+  "ActiveDate": "2024-11-29T03:40:45.7793757+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 840,
+  "PreferredTZLocation": 209,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 4,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 733,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "temporibus",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "193135904",
-    "SuperOffice:2": "Jarrod Janick Rice DVM"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "qui"
+    "CustomFields1": "nemo",
+    "CustomFields2": "atque"
   },
-  "PublishEventDate": "2013-08-27T11:24:47.4064385+02:00",
-  "PublishTo": "2017-10-10T11:24:47.4064385+02:00",
-  "PublishFrom": "2019-07-30T11:24:47.4064385+02:00",
+  "PublishEventDate": "2020-10-09T03:40:45.7793757+02:00",
+  "PublishTo": "2000-01-16T03:40:45.7793757+01:00",
+  "PublishFrom": "2019-11-08T03:40:45.7793757+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 114,
+      "VisibleId": 913,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 27
         }
       }
     },
     {
-      "VisibleId": 114,
+      "VisibleId": 913,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 17
+          "FieldLength": 27
         }
       }
     }
@@ -283,8 +285,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

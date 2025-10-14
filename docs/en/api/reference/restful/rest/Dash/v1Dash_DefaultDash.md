@@ -15,6 +15,7 @@ Set default values into a new Dash.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,37 +81,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 439,
-  "UniqueId": "velit",
-  "Name": "Bailey Group",
-  "Description": "Automated next generation extranet",
-  "AssociateId": 926,
-  "Columns": 285,
+  "DashboardId": 666,
+  "UniqueId": "et",
+  "Name": "Jaskolski Inc and Sons",
+  "Description": "Down-sized leading edge budgetary management",
+  "AssociateId": 801,
+  "Columns": 247,
   "Theme": null,
-  "VisibleForAll": 41,
+  "VisibleForAll": 242,
   "VisibleForAssociates": [
-    767,
-    307
+    280,
+    915
   ],
   "VisibleForGroups": [
-    307,
-    807
+    941,
+    72
   ],
-  "PinForAll": 249,
+  "PinForAll": 447,
   "PinForAssociates": [
-    915,
-    136
+    768,
+    190
   ],
   "PinForGroups": [
-    5,
-    979
+    429,
+    552
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 463
     }
   }
 }

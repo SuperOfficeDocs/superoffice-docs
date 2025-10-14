@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocument
 Gets a Document object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=400
+POST /api/v1/Agents/Document/GetDocument?documentId=905
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,32 +99,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 192,
-  "Attention": "rem",
-  "Header": "aperiam",
-  "Name": "Crooks, Schinner and Skiles",
-  "OurRef": "quis",
-  "YourRef": "aliquid",
-  "Description": "Synergized demand-driven budgetary management",
-  "DocumentTemplate": "aut",
+  "DocumentId": 582,
+  "Attention": "vero",
+  "Header": "optio",
+  "Name": "Connelly-Kuphal",
+  "OurRef": "aut",
+  "YourRef": "maiores",
+  "Description": "Synergistic real-time secured line",
+  "DocumentTemplate": "vitae",
   "IsPublished": false,
-  "PersonId": 140,
-  "PersonFullName": "Carmen Kautzer",
-  "AssociateFullName": "Mrs. Addie Marley Crist III",
-  "ContactId": 533,
-  "ContactName": "Shanahan Inc and Sons",
-  "ProjectId": 990,
-  "ProjectName": "Bayer-Krajcik",
-  "AssociateId": 772,
-  "Snum": 890,
-  "SaleId": 606,
-  "SaleName": "Veum Inc and Sons",
+  "PersonId": 485,
+  "PersonFullName": "Nico Grady",
+  "AssociateFullName": "Eriberto Whitney Erdman II",
+  "ContactId": 856,
+  "ContactName": "Gerlach Inc and Sons",
+  "ProjectId": 743,
+  "ProjectName": "Orn, Schumm and Huels",
+  "AssociateId": 114,
+  "Snum": 320,
+  "SaleId": 32,
+  "SaleName": "Heathcote, McKenzie and Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 726
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

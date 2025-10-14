@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Rau LLC",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "UdListDefinitionId": 328,
-  "Rank": 588,
+  "Id": 316,
+  "Name": "Hane, Barton and Konopelski",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "UdListDefinitionId": 8,
+  "Rank": 231,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 954
     }
   }
 }

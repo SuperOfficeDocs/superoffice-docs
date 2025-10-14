@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetPersonImageWithSize
 Returns the person image that is displayed in the CRM application with a specified maximum size.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/BLOB/GetPersonImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 322,
-  "Width": 184,
-  "Height": 390
+  "PersonId": 266,
+  "Width": 10,
+  "Height": 337
 }
 ```
 

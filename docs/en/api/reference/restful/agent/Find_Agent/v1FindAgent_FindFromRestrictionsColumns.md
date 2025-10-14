@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Execute a Find operation and return a page of results.
 
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -107,34 +108,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Osinski LLC",
-      "Operator": "architecto",
+      "Name": "Dooley-Hermiston",
+      "Operator": "neque",
       "Values": [
-        "tempora",
-        "esse"
+        "dignissimos",
+        "qui"
       ],
       "DisplayValues": [
-        "facere",
-        "odit"
+        "ut",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 658,
+      "InterParenthesis": 997,
       "InterOperator": "And",
-      "UniqueHash": 653
+      "UniqueHash": 648
     }
   ],
-  "ProviderName": "Kilback-Bruen",
+  "ProviderName": "Brakus, Dicki and Carter",
   "DesiredColumns": [
-    "odio",
-    "voluptatibus"
+    "consequatur",
+    "porro"
   ],
-  "PageSize": 211,
-  "PageNumber": 486
+  "PageSize": 660,
+  "PageNumber": 630
 }
 ```
 
@@ -147,51 +148,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Mueller-Parisian",
-      "DisplayTooltip": "facere",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Mosciski, Wisoky and Pfeffer",
+      "DisplayName": "Prohaska-Weissnat",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "deleniti",
+      "CanOrderBy": false,
+      "Name": "Blick, Nader and Hirthe",
       "CanRestrictBy": false,
-      "RestrictionType": "cumque",
-      "RestrictionListName": "Lockman-Sawayn",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "necessitatibus",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "necessitatibus"
+      "RestrictionType": "dolore",
+      "RestrictionListName": "Rohan, Pouros and Kohler",
+      "IsVisible": false,
+      "ExtraInfo": "possimus",
+      "Width": "aut",
+      "IconHint": "quos",
+      "HeadingIconHint": "velit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuhn-Koch",
-      "PrimaryKey": 17,
+      "EntityName": "Hettinger-Toy",
+      "PrimaryKey": 779,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "qui",
-          "LinkHint": "exercitationem"
+          "DisplayValue": "voluptate",
+          "TooltipHint": "modi",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "similique",
-      "StyleHint": "quia",
+      "LinkHint": "nesciunt",
+      "StyleHint": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 934
         }
       }
     }
   ],
-  "RowCount": 902,
+  "RowCount": 469,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 67
     }
   }
 }

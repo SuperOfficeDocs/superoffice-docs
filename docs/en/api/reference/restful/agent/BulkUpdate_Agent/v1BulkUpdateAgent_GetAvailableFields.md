@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Get all available fields for a given tablename/entity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,76 +106,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "ut",
-    "ValueType": "quasi",
-    "Mandatory": true,
-    "EncodedDisplayName": "Bruen, Cummerata and Lubowitz",
-    "EncodedDisplayDescription": "Configurable intangible array",
-    "IconHint": "velit",
+    "IsActive": false,
+    "Key": "voluptatem",
+    "ValueType": "culpa",
+    "Mandatory": false,
+    "EncodedDisplayName": "Kertzmann-Tremblay",
+    "EncodedDisplayDescription": "Multi-lateral multimedia portal",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "et",
-        "Label": "autem",
-        "Dimension": 324,
-        "ListProviderName": "Stokes LLC",
-        "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Bergnaum-Klein",
-        "ListLeadText": "illum",
+        "Type": "qui",
+        "Label": "sunt",
+        "Dimension": 334,
+        "ListProviderName": "Klein, Swift and Cronin",
+        "ListProviderExtraInfo": "eum",
+        "ListProviderPrimaryKeyName": "Hettinger, Brown and Towne",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 603
+            "FieldLength": 689
           }
         }
       }
     ],
-    "EncodedDataCaption": "reprehenderit",
-    "EncodedDataCaptionDescription": "Public-key full-range access",
-    "CurrentOperationType": "debitis",
+    "EncodedDataCaption": "et",
+    "EncodedDataCaptionDescription": "Sharable multimedia success",
+    "CurrentOperationType": "nemo",
     "Values": [
-      "ipsum",
-      "unde"
+      "autem",
+      "velit"
     ],
     "DisplayValues": [
-      "aut",
-      "sed"
+      "non",
+      "excepturi"
     ],
     "OperationInfos": [
       {
-        "Key": "quisquam",
-        "EncodedDisplayName": "Heathcote, Bogan and Koss",
+        "Key": "quos",
+        "EncodedDisplayName": "Herzog LLC",
         "EncodedLeadTexts": [
-          "illo",
-          "voluptates"
+          "molestiae",
+          "velit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       },
       {
-        "Key": "quisquam",
-        "EncodedDisplayName": "Heathcote, Bogan and Koss",
+        "Key": "quos",
+        "EncodedDisplayName": "Herzog LLC",
         "EncodedLeadTexts": [
-          "illo",
-          "voluptates"
+          "molestiae",
+          "velit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 337
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       }

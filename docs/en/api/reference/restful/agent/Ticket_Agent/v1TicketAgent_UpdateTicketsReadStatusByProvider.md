@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 This method changes multiple tickets' read status
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,22 +73,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "beatae",
+  "Provider": "quia",
   "Restrictions": [
     {
-      "Name": "Gibson, Dickinson and Greenfelder",
-      "Operator": "atque",
+      "Name": "Wuckert LLC",
+      "Operator": "ex",
       "Values": [
-        "culpa",
-        "omnis"
+        "qui",
+        "aut"
       ],
       "DisplayValues": [
-        "consequuntur",
-        "dolores"
+        "inventore",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +96,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 131,
+      "InterParenthesis": 990,
       "InterOperator": "And",
-      "UniqueHash": 181
+      "UniqueHash": 559
     }
   ],
   "NewStatus": "Green"
@@ -110,7 +112,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  68,
-  942
+  574,
+  921
 ]
 ```

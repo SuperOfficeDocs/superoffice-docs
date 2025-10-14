@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 43,
-  "ParentId": 388,
-  "Name": "Welch-Waelchi",
-  "Fullname": "neque",
-  "CategoryMaster": 95,
+  "TicketCategoryId": 109,
+  "ParentId": 705,
+  "Name": "Borer Inc and Sons",
+  "Fullname": "ut",
+  "CategoryMaster": 319,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Huels-Torp",
+  "ExternalName": "Leannon-Mosciski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 777,
-  "ReplyTemplate": 34,
-  "NotificationEmail": "margret@schamberger.ca",
+  "AssignmentLag": 117,
+  "ReplyTemplate": 140,
+  "NotificationEmail": "addie_reilly@schumm.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 346,
+  "EffectiveReplyTemplateId": 289,
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "in",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

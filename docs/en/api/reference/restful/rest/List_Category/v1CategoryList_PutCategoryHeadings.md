@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 212,
-    "Name": "Nienow, Wisozk and Gibson",
-    "Tooltip": "corrupti",
+    "HeadingId": 510,
+    "Name": "Homenick, Ward and Kovacek",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 205
+    "Rank": 853,
+    "UdListDefinitionId": 394
   },
   {
-    "HeadingId": 212,
-    "Name": "Nienow, Wisozk and Gibson",
-    "Tooltip": "corrupti",
+    "HeadingId": 510,
+    "Name": "Homenick, Ward and Kovacek",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 205
+    "Rank": 853,
+    "UdListDefinitionId": 394
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 612,
-    "Name": "McKenzie-McGlynn",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 480,
-    "UdListDefinitionId": 198,
+    "HeadingId": 773,
+    "Name": "Ankunding Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 288,
+    "UdListDefinitionId": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 808
       }
     }
   }

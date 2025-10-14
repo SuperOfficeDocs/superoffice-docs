@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/GetSaintConfigurations
 Returns the StatusMonitorPeriods entity.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,20 +86,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 928,
+    "OwnerTable": 531,
     "Enabled": false,
-    "Period1": 201,
-    "Period2": 298,
-    "Period3": 699,
-    "GenerationStart": "2004-03-25T11:24:48.5470141+01:00",
-    "GenerationEnd": "2019-11-17T11:24:48.5470141+01:00",
-    "RowsGenerated": 382,
+    "Period1": 597,
+    "Period2": 267,
+    "Period3": 622,
+    "GenerationStart": "2010-08-16T03:40:47.5942106+02:00",
+    "GenerationEnd": "2020-11-19T03:40:47.5942106+01:00",
+    "RowsGenerated": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 404
       }
     }
   }

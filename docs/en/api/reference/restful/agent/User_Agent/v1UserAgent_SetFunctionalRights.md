@@ -15,6 +15,7 @@ Set all functional rights for the given role.
 
 
 Functional rights not specified here will be removed from the role. 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -71,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 438,
+  "RoleId": 530,
   "FunctionalRightIds": [
-    656,
-    82
+    835,
+    191
   ]
 }
 ```

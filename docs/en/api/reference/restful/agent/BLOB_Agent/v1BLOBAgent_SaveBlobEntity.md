@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/SaveBlobEntity
 Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -88,23 +90,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 426,
-  "BlobSize": 263,
-  "Description": "Upgradable clear-thinking framework",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "eum",
-  "OriginalSize": 5,
-  "CreatedDate": "2001-02-07T11:24:47.6251768+01:00",
-  "UpdatedDate": "2019-04-10T11:24:47.6251768+02:00",
+  "BlobId": 952,
+  "BlobSize": 677,
+  "Description": "Focused systemic migration",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "quae",
+  "OriginalSize": 545,
+  "CreatedDate": "2017-01-25T03:40:46.0920806+01:00",
+  "UpdatedDate": "2022-02-07T03:40:46.0920806+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum"
+  "ConceptualType": "veritatis"
 }
 ```
 
@@ -115,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 669,
-  "BlobSize": 307,
-  "Description": "Self-enabling high-level parallelism",
-  "ExtraInfo": "doloremque",
+  "BlobId": 604,
+  "BlobSize": 837,
+  "Description": "Organic 3rd generation monitoring",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "doloribus",
-  "OriginalSize": 550,
-  "CreatedDate": "2016-06-20T11:24:47.6251768+02:00",
-  "UpdatedDate": "2005-10-16T11:24:47.6251768+02:00",
+  "MimeType": "fugit",
+  "OriginalSize": 990,
+  "CreatedDate": "2016-04-01T03:40:46.0920806+02:00",
+  "UpdatedDate": "2001-08-26T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "porro",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 291
     }
   }
 }

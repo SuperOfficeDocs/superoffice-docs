@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveFavourites
 Remove a list of record ids from favourites for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,16 +69,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Towne-Gutmann",
+  "TableName": "Hyatt Group",
   "RecordIds": [
-    240,
-    328
+    436,
+    923
   ],
-  "AssociateId": 873
+  "AssociateId": 675
 }
 ```
 

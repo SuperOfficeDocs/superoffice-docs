@@ -15,6 +15,7 @@ This method will do a test of a SMTP account, by sending an email to a special @
 
 
 com account
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "non",
-  "From": "dolorem",
-  "UseStoredPassword": true
+  "SmtpUri": "et",
+  "From": "ut",
+  "UseStoredPassword": false
 }
 ```
 
@@ -97,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "ErrorMessage": "ea",
+  "ErrorMessage": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 201
     }
   }
 }

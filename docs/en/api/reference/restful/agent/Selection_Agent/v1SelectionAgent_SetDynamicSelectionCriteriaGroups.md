@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -78,25 +79,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 400,
+  "SelectionId": 751,
   "Criteria": [
     {
-      "Name": "Simonis, Hagenes and Rohan",
-      "Description": "Upgradable zero administration application",
-      "Rank": 134,
+      "Name": "Anderson-Green",
+      "Description": "Future-proofed well-modulated algorithm",
+      "Rank": 584,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Simonis, Hagenes and Rohan",
-      "Description": "Upgradable zero administration application",
-      "Rank": 134,
+      "Name": "Anderson-Green",
+      "Description": "Future-proofed well-modulated algorithm",
+      "Rank": 584,
       "Restrictions": [
         {},
         {}
@@ -114,58 +115,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian Inc and Sons",
-    "Description": "Future-proofed secondary open system",
-    "Rank": 224,
+    "Name": "Haag Inc and Sons",
+    "Description": "Re-engineered holistic emulation",
+    "Rank": 438,
     "Restrictions": [
       {
-        "Name": "Kuvalis, Barton and Fahey",
-        "Operator": "recusandae",
+        "Name": "Anderson Group",
+        "Operator": "quo",
         "Values": [
-          "omnis",
-          "et"
+          "sit",
+          "delectus"
         ],
         "DisplayValues": [
-          "aut",
-          "animi"
+          "est",
+          "doloribus"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 404,
+        "InterParenthesis": 593,
         "InterOperator": "And",
-        "UniqueHash": 301
+        "UniqueHash": 879
       }
     ]
   },
   {
-    "Name": "Parisian Inc and Sons",
-    "Description": "Future-proofed secondary open system",
-    "Rank": 224,
+    "Name": "Haag Inc and Sons",
+    "Description": "Re-engineered holistic emulation",
+    "Rank": 438,
     "Restrictions": [
       {
-        "Name": "Kuvalis, Barton and Fahey",
-        "Operator": "recusandae",
+        "Name": "Anderson Group",
+        "Operator": "quo",
         "Values": [
-          "omnis",
-          "et"
+          "sit",
+          "delectus"
         ],
         "DisplayValues": [
-          "aut",
-          "animi"
+          "est",
+          "doloribus"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 404,
+        "InterParenthesis": 593,
         "InterOperator": "And",
-        "UniqueHash": 301
+        "UniqueHash": 879
       }
     ]
   }

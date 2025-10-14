@@ -15,6 +15,7 @@ Get a person from the provided information.
 
 
 If the person does not exist, it will be created on demand.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -80,19 +81,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 98,
-  "PersonName": "Ritchie, Waters and Hilll",
+  "ContactId": 6,
+  "PersonName": "Rau Inc and Sons",
   "PhoneNumbers": [
-    "1253550",
-    "1162977"
+    "459451",
+    "289108"
   ],
   "Emails": [
-    "vicenta@mcglynnconn.us",
-    "yvette@wisoky.co.uk"
+    "robbie_blanda@armstrong.com",
+    "garfield_franecki@smithstoltenberg.com"
   ]
 }
 ```
@@ -110,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   }
 }

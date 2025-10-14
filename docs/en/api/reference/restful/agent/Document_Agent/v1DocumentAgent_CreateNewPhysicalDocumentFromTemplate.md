@@ -15,6 +15,7 @@ Create a new document content based on a document template and store it in the d
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -116,18 +117,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 150,
-  "PersonId": 705,
-  "AppointmentId": 128,
-  "DocumentId": 101,
-  "SaleId": 629,
-  "SelectionId": 221,
-  "ProjectId": 890,
-  "UiCulture": "qui"
+  "ContactId": 9,
+  "PersonId": 276,
+  "AppointmentId": 223,
+  "DocumentId": 705,
+  "SaleId": 105,
+  "SelectionId": 666,
+  "ProjectId": 850,
+  "UiCulture": "quis"
 }
 ```
 
@@ -138,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 967,
+  "DocumentId": 999,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "minima",
-  "Header": "consectetur",
-  "Name": "Strosin, Rutherford and Bergnaum",
-  "OurRef": "impedit",
-  "YourRef": "amet",
-  "CreatedDate": "2005-04-21T11:24:48.0001535+02:00",
-  "UpdatedDate": "2011-05-04T11:24:48.0001535+02:00",
-  "Description": "Pre-emptive executive open architecture",
+  "Attention": "ea",
+  "Header": "corporis",
+  "Name": "Weissnat, Morar and Kreiger",
+  "OurRef": "tenetur",
+  "YourRef": "laudantium",
+  "CreatedDate": "2000-01-07T03:40:46.7186366+01:00",
+  "UpdatedDate": "2015-10-13T03:40:46.7186366+02:00",
+  "Description": "Implemented contextually-based extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-07-05T11:24:48.0001535+02:00",
-  "ExternalRef": "dolorem",
+  "Date": "2011-11-20T03:40:46.7186366+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 177,
+  "ActiveLinks": 456,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Breitenberg, Hansen and Volkman",
-      "Id": 933,
-      "Description": "Secured dedicated success",
-      "ExtraInfo": "modi",
-      "LinkId": 184,
+      "EntityName": "Kohler LLC",
+      "Id": 561,
+      "Description": "Polarised methodical project",
+      "ExtraInfo": "autem",
+      "LinkId": 197,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 133
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 410,
-  "Snum": 818,
+  "SuggestedDocumentId": 339,
+  "Snum": 671,
   "UserDefinedFields": {
-    "SuperOffice:1": "Marcel Bosco",
+    "SuperOffice:1": "True",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "quas",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "1998-05-13T11:24:48.0001535+02:00",
-  "PublishTo": "2000-04-09T11:24:48.0001535+02:00",
-  "PublishFrom": "2011-08-09T11:24:48.0001535+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-08-04T03:40:46.7186366+02:00",
+  "PublishTo": "2023-06-11T03:40:46.7186366+02:00",
+  "PublishFrom": "2020-12-12T03:40:46.7186366+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 543,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 999
         }
       }
     },
     {
-      "VisibleId": 543,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 999
         }
       }
     }
@@ -228,8 +229,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

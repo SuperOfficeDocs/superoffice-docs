@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteListEntity
 Deletes the ListEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ListEntity
 | listEntityId | int32 | **Required** The identity of the ListEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteListEntity?listEntityId=784
+POST /api/v1/Agents/List/DeleteListEntity?listEntityId=113
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

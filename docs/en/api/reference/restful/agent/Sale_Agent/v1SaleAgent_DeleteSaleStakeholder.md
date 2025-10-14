@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/DeleteSaleStakeholder
 Deletes the SaleStakeholder
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the SaleStakeholder
 | saleStakeholderId | int32 | **Required** The identity of the SaleStakeholder |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=640
+POST /api/v1/Agents/Sale/DeleteSaleStakeholder?saleStakeholderId=995
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

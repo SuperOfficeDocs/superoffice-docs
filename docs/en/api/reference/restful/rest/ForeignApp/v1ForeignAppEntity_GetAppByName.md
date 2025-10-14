@@ -74,32 +74,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 10 May 2006 11:24:53 G5T
+Last-Modified: Mon, 10 Apr 2023 03:40:55 G4T
 
 {
-  "ForeignAppId": 303,
-  "Name": "Little Group",
-  "CreatedDate": "2009-11-20T11:24:53.2968202+01:00",
-  "UpdatedDate": "2006-05-10T11:24:53.2968202+02:00",
+  "ForeignAppId": 718,
+  "Name": "Leannon Inc and Sons",
+  "CreatedDate": "2006-03-04T03:40:55.7731411+01:00",
+  "UpdatedDate": "2023-04-10T03:40:55.7731411+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 154,
-      "Name": "Kozey-Green",
-      "CreatedDate": "2016-11-23T11:24:53.2968202+01:00",
-      "UpdatedDate": "2001-07-23T11:24:53.2968202+02:00",
-      "AssociateFullName": "Jonathon Grant",
-      "CreatedBy": "ratione",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "ad",
-      "ForeignAppId": 176,
+      "ForeignDeviceId": 774,
+      "Name": "Raynor-Ryan",
+      "CreatedDate": "1998-06-10T03:40:55.7731411+02:00",
+      "UpdatedDate": "2007-08-27T03:40:55.7731411+02:00",
+      "AssociateFullName": "Dewayne Ondricka",
+      "CreatedBy": "ad",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 671,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldType": "System.Int32",
+          "FieldLength": 395
         }
       }
     }
@@ -109,7 +109,7 @@ Last-Modified: Wed, 10 May 2006 11:24:53 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 250
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 57,
-  "Name": "Wuckert, Ullrich and Bode",
-  "Tooltip": "perspiciatis",
+  "Id": 762,
+  "Name": "Gerhold LLC",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "UdListDefinitionId": 291,
-  "Rank": 959,
+  "UdListDefinitionId": 219,
+  "Rank": 833,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

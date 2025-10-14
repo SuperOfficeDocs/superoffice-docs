@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Get a specific langauge version of the reply template, and run this trough the parser
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,10 +87,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 77,
-  "LanguageId": 813,
-  "PersonId": 221,
-  "TicketId": 869
+  "ReplyTemplateId": 312,
+  "LanguageId": 224,
+  "PersonId": 864,
+  "TicketId": 501
 }
 ```
 
@@ -99,36 +101,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 310,
-  "PlainParsed": "nulla",
-  "HtmlParsed": "natus",
+  "ReplyTemplateId": 847,
+  "PlainParsed": "voluptatem",
+  "HtmlParsed": "inventore",
   "Attachments": [
     {
-      "AttachmentId": 965,
-      "Name": "Renner, Howell and Marks",
-      "ContentType": "necessitatibus",
-      "AttSize": 825,
+      "AttachmentId": 112,
+      "Name": "Roob-Littel",
+      "ContentType": "beatae",
+      "AttSize": 760,
       "InlineImage": false,
-      "ContentId": "commodi",
-      "AuthKey": "iste",
-      "IsSafeFileExtension": false,
+      "ContentId": "ipsam",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     }
   ],
-  "Subject": "voluptas",
+  "Subject": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 197
     }
   }
 }

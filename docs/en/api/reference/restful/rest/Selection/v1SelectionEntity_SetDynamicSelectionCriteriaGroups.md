@@ -74,25 +74,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cassin, Casper and Bartoletti",
-    "Description": "Devolved client-driven projection",
-    "Rank": 634,
+    "Name": "Douglas, Jacobs and Kozey",
+    "Description": "Optimized upward-trending customer loyalty",
+    "Rank": 431,
     "Restrictions": [
       {
-        "Name": "Hills-Stracke",
-        "Operator": "officia",
+        "Name": "Lebsack Inc and Sons",
+        "Operator": "quam",
         "Values": [
-          "qui",
-          "voluptas"
+          "nam",
+          "temporibus"
         ],
         "DisplayValues": [
-          "omnis",
-          "inventore"
+          "consequatur",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -100,27 +100,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 921,
+        "InterParenthesis": 796,
         "InterOperator": "And",
-        "UniqueHash": 425
+        "UniqueHash": 527
       }
     ]
   },
   {
-    "Name": "Cassin, Casper and Bartoletti",
-    "Description": "Devolved client-driven projection",
-    "Rank": 634,
+    "Name": "Douglas, Jacobs and Kozey",
+    "Description": "Optimized upward-trending customer loyalty",
+    "Rank": 431,
     "Restrictions": [
       {
-        "Name": "Hills-Stracke",
-        "Operator": "officia",
+        "Name": "Lebsack Inc and Sons",
+        "Operator": "quam",
         "Values": [
-          "qui",
-          "voluptas"
+          "nam",
+          "temporibus"
         ],
         "DisplayValues": [
-          "omnis",
-          "inventore"
+          "consequatur",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -128,9 +128,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 921,
+        "InterParenthesis": 796,
         "InterOperator": "And",
-        "UniqueHash": 425
+        "UniqueHash": 527
       }
     ]
   }
@@ -145,58 +145,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Miller, Klein and Renner",
-    "Description": "Polarised tertiary framework",
-    "Rank": 170,
+    "Name": "Metz LLC",
+    "Description": "Optimized non-volatile website",
+    "Rank": 552,
     "Restrictions": [
       {
-        "Name": "Lesch, Bode and Shanahan",
-        "Operator": "necessitatibus",
+        "Name": "Ankunding, Schoen and Kris",
+        "Operator": "libero",
         "Values": [
-          "earum",
-          "consequatur"
+          "quidem",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "non",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 157,
+        "InterParenthesis": 791,
         "InterOperator": "And",
-        "UniqueHash": 894
+        "UniqueHash": 213
       }
     ]
   },
   {
-    "Name": "Miller, Klein and Renner",
-    "Description": "Polarised tertiary framework",
-    "Rank": 170,
+    "Name": "Metz LLC",
+    "Description": "Optimized non-volatile website",
+    "Rank": 552,
     "Restrictions": [
       {
-        "Name": "Lesch, Bode and Shanahan",
-        "Operator": "necessitatibus",
+        "Name": "Ankunding, Schoen and Kris",
+        "Operator": "libero",
         "Values": [
-          "earum",
-          "consequatur"
+          "quidem",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "et",
-          "et"
+          "non",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 157,
+        "InterParenthesis": 791,
         "InterOperator": "And",
-        "UniqueHash": 894
+        "UniqueHash": 213
       }
     ]
   }

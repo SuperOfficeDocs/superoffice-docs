@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/SetBaseTimeZoneId
 Set the base timezone id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/TimeZone/SetBaseTimeZoneId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneId": 735
+  "TimezoneId": 684
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

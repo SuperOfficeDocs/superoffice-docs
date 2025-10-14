@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 771,
-  "Name": "Heidenreich-Kub",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 946
+  "Id": 955,
+  "Name": "Breitenberg, Kreiger and Kshlerin",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "UdListDefinitionId": 704,
+  "Rank": 815
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 868,
-  "Rank": 883,
+  "Id": 131,
+  "Name": "Tremblay Inc and Sons",
+  "Tooltip": "in",
+  "Deleted": false,
+  "UdListDefinitionId": 922,
+  "Rank": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

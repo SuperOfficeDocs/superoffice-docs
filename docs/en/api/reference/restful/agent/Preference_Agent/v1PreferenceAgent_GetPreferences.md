@@ -15,6 +15,7 @@ Get one or more preferences based on a set of specifications.
 
 
 &lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -86,18 +87,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "at",
-      "Key": "quaerat"
+      "Section": "tempora",
+      "Key": "laborum"
     },
     {
-      "Section": "at",
-      "Key": "quaerat"
+      "Section": "tempora",
+      "Key": "laborum"
     }
   ]
 }
@@ -112,22 +113,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quas",
+    "RawValue": "aut",
     "Specification": null,
-    "DisplayValue": "voluptas",
-    "DisplayTooltip": "doloremque",
+    "DisplayValue": "nulla",
+    "DisplayTooltip": "pariatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 735,
-    "PrefDescId": 763,
-    "TableName": "Feil, Schamberger and Robel",
-    "UserPreferenceId": 282,
+    "TargetId": 198,
+    "PrefDescId": 740,
+    "TableName": "Ruecker, Batz and Doyle",
+    "UserPreferenceId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 643
       }
     }
   }

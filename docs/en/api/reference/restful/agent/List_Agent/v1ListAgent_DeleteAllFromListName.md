@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteAllFromListName
 Marks all items in the list deleted
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Corkery-Schmeler"
+  "UdListDefinitionName": "Nader Group"
 }
 ```
 

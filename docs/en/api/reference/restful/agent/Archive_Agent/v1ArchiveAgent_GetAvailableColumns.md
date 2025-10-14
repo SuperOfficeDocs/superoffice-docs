@@ -15,6 +15,7 @@ Return list of all columns supported by an archive provider.
 
 
 See also GetArchiveConfiguration.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cummerata LLC",
-  "Context": "et"
+  "ProviderName": "Weimann-Ratke",
+  "Context": "ipsam"
 }
 ```
 
@@ -104,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Wunsch-Goodwin",
-    "DisplayTooltip": "molestiae",
-    "DisplayType": "repellendus",
-    "CanOrderBy": false,
-    "Name": "McLaughlin, Fritsch and Mohr",
-    "CanRestrictBy": true,
-    "RestrictionType": "ipsum",
-    "RestrictionListName": "Botsford, Morissette and Howell",
+    "DisplayName": "Schoen Group",
+    "DisplayTooltip": "mollitia",
+    "DisplayType": "qui",
+    "CanOrderBy": true,
+    "Name": "Purdy, Smith and Schultz",
+    "CanRestrictBy": false,
+    "RestrictionType": "culpa",
+    "RestrictionListName": "Labadie Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "ex",
-    "Width": "et",
-    "IconHint": "corrupti",
-    "HeadingIconHint": "sit"
+    "ExtraInfo": "quaerat",
+    "Width": "placeat",
+    "IconHint": "eligendi",
+    "HeadingIconHint": "iusto"
   }
 ]
 ```

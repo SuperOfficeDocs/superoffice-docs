@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -124,41 +126,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 944,
-  "TopicId": 863,
+  "ChatSessionId": 702,
+  "TopicId": 753,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "eius",
-  "CustomerName": "Wolf LLC",
-  "CustomerEmail": "garret@hirtheluettgen.co.uk",
-  "CustomerPhone": "200.837.5420 x0413",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Abernathy Group",
+  "CustomerAlias": "molestias",
+  "CustomerHost": "dolores",
+  "CustomerName": "Goldner Inc and Sons",
+  "CustomerEmail": "cleora@stammjohns.co.uk",
+  "CustomerPhone": "1-465-335-8223 x27749",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Jenkins Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "id",
-  "LastMessage": "asperiores",
-  "WhenRequested": "2009-08-23T11:24:47.6408014+02:00",
-  "WhenStarted": "1999-09-16T11:24:47.6408014+02:00",
-  "WhenEnded": "2000-09-21T11:24:47.6408014+02:00",
-  "WhenIdle": "2016-06-16T11:24:47.6408014+02:00",
-  "WhenFetched": "2001-04-16T11:24:47.6408014+02:00",
-  "SessionKey": "at",
-  "InitialQueuePos": 570,
-  "AlertLevel": 678,
-  "Rank": 512,
+  "FirstMessage": "delectus",
+  "LastMessage": "ipsa",
+  "WhenRequested": "1999-09-25T03:40:46.107707+02:00",
+  "WhenStarted": "2018-04-27T03:40:46.107707+02:00",
+  "WhenEnded": "2002-08-31T03:40:46.107707+02:00",
+  "WhenIdle": "2003-02-24T03:40:46.107707+01:00",
+  "WhenFetched": "2021-10-30T03:40:46.107707+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 993,
+  "AlertLevel": 428,
+  "Rank": 107,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 768
+  "ChatbotIsActive": true,
+  "Rating": 40
 }
 ```
 
@@ -169,43 +171,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 728,
-  "TopicId": 185,
+  "ChatSessionId": 128,
+  "TopicId": 421,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sit",
-  "CustomerHost": "nobis",
-  "CustomerName": "Corkery-DuBuque",
-  "CustomerEmail": "retta@wymankeebler.name",
-  "CustomerPhone": "771-590-4921",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Tremblay, Dicki and Cole",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "id",
+  "CustomerName": "Keebler-Brekke",
+  "CustomerEmail": "dax@pfannerstill.name",
+  "CustomerPhone": "942-535-6787 x24712",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Brown-Haley",
   "Status": "Closed",
-  "FirstMessage": "omnis",
-  "LastMessage": "et",
-  "WhenRequested": "2023-06-02T11:24:47.6408014+02:00",
-  "WhenStarted": "2015-12-11T11:24:47.6408014+01:00",
-  "WhenEnded": "1999-01-06T11:24:47.6408014+01:00",
-  "WhenIdle": "2008-10-14T11:24:47.6408014+02:00",
-  "WhenFetched": "2009-12-02T11:24:47.6408014+01:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 294,
-  "AlertLevel": 118,
-  "Rank": 838,
+  "FirstMessage": "similique",
+  "LastMessage": "est",
+  "WhenRequested": "2023-11-30T03:40:46.1233329+01:00",
+  "WhenStarted": "2016-09-08T03:40:46.1233329+02:00",
+  "WhenEnded": "2006-06-29T03:40:46.1233329+02:00",
+  "WhenIdle": "2006-04-09T03:40:46.1233329+02:00",
+  "WhenFetched": "2002-04-30T03:40:46.1233329+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 50,
+  "AlertLevel": 957,
+  "Rank": 984,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 401,
+  "ChatbotIsActive": false,
+  "Rating": 276,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 418
     }
   }
 }

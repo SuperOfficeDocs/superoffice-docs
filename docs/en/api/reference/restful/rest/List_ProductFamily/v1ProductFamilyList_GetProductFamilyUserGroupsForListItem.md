@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Mayer, Cremin and Flatley",
-    "ToolTip": "Voluptas dignissimos qui eum.",
+    "Id": 692,
+    "Name": "Gerhold, Wuckert and Predovic",
+    "ToolTip": "Consequatur ipsum et blanditiis aut ex maiores vel.",
     "Deleted": false,
-    "Rank": 851,
-    "Type": "sint",
-    "ColorBlock": 610,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2001-12-16T11:24:53.9999166+01:00",
+    "Rank": 693,
+    "Type": "dolores",
+    "ColorBlock": 896,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "1998-06-17T03:40:57.0089742+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Von-Marvin",
-        "ToolTip": "Blanditiis nesciunt.",
-        "Deleted": false,
-        "Rank": 671,
-        "Type": "quis",
-        "ColorBlock": 446,
-        "IconHint": "at",
+        "Id": 498,
+        "Name": "Wilderman-Orn",
+        "ToolTip": "Amet voluptas sint omnis officia qui vitae.",
+        "Deleted": true,
+        "Rank": 783,
+        "Type": "est",
+        "ColorBlock": 23,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2010-11-05T11:24:53.9999166+01:00",
+        "LastChanged": "2004-10-22T03:40:57.0089742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "in",
+        "ExtraInfo": "quia",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Stephanie Rachel Klocko V",
+        "FullName": "Abigayle Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldLength": 698
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "in",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Raegan Beer",
+    "FullName": "Ms. Mathias Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 424
       }
     }
   }

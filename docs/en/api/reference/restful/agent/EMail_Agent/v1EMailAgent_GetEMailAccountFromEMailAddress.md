@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Returns the email account corresponding to this email address (for the current associate).
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -87,11 +90,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "eos"
+  "FromAddress": "molestiae"
 }
 ```
 
@@ -102,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 129,
-  "EMailAddress": "et",
-  "AssociateId": 280,
+  "EMailAccountId": 519,
+  "EMailAddress": "expedita",
+  "AssociateId": 879,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 958,
-  "ErrorCount": 920,
+  "AccountStatus": 763,
+  "ErrorCount": 572,
   "ErrorReason": "",
-  "InboxFolder": "et",
-  "SentFolder": "deserunt",
-  "SimpleMode": 459,
-  "LastFetch": "2014-07-09T11:24:48.0626591+02:00",
+  "InboxFolder": "ut",
+  "SentFolder": "consectetur",
+  "SimpleMode": 15,
+  "LastFetch": "2001-01-02T03:40:46.8280185+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 768
     }
   }
 }

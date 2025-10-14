@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Returns the target group for the specified year and entity type.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 769,
+  "TargetYear": 872,
   "EntityType": "None"
 }
 ```
@@ -96,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 136,
-  "Year": 748,
+  "TargetGroupId": 732,
+  "Year": 677,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 704,
+      "TargetAssignmentInfoId": 834,
       "Values": [
-        95,
-        874
+        635,
+        760
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 293,
-      "DimensionListItemDisplayName": "Fisher-Dickens",
+      "DimensionListItem": 565,
+      "DimensionListItemDisplayName": "Pfannerstill LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 384
         }
       }
     }
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

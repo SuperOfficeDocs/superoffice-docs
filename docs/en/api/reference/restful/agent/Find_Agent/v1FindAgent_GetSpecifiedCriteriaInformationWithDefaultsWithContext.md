@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria, for a specific set of col
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Gutmann, Lebsack and Marks",
-  "StorageKey": "qui",
+  "StorageType": "velit",
+  "ProviderName": "Zieme, Wilderman and Huel",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "Harvey Inc and Sons",
-    "Weber Group"
+    "Braun-Mraz",
+    "Kuphal Inc and Sons"
   ],
   "StaticColumns": [
-    "dolorum",
-    "distinctio"
+    "sit",
+    "minima"
   ],
-  "Context": "nesciunt"
+  "Context": "harum"
 }
 ```
 
@@ -112,81 +113,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wisoky-Weber",
-      "Operator": "suscipit",
+      "Name": "O'Connell Group",
+      "Operator": "dolore",
       "Values": [
-        "est",
-        "ducimus"
+        "omnis",
+        "rerum"
       ],
       "DisplayValues": [
-        "distinctio",
-        "et"
+        "eligendi",
+        "adipisci"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 648,
+      "InterParenthesis": 585,
       "InterOperator": "And",
-      "UniqueHash": 287
+      "UniqueHash": 239
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hartmann, Bode and Treutel",
-      "DisplayTooltip": "nam",
-      "DisplayType": "ducimus",
+      "DisplayName": "Hand-Balistreri",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "eum",
       "CanOrderBy": true,
-      "Name": "Braun, Ryan and King",
+      "Name": "Cole, Denesik and Welch",
       "CanRestrictBy": false,
-      "RestrictionType": "debitis",
-      "RestrictionListName": "Kling-Rippin",
-      "IsVisible": true,
-      "ExtraInfo": "nihil",
-      "Width": "debitis",
-      "IconHint": "in",
-      "HeadingIconHint": "officiis"
+      "RestrictionType": "aut",
+      "RestrictionListName": "Cummerata, Keebler and Reynolds",
+      "IsVisible": false,
+      "ExtraInfo": "sapiente",
+      "Width": "nesciunt",
+      "IconHint": "et",
+      "HeadingIconHint": "eaque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hessel-Reichert",
-      "PrimaryKey": 849,
+      "EntityName": "Luettgen, Nikolaus and McGlynn",
+      "PrimaryKey": 531,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloremque",
-          "TooltipHint": "ut",
-          "LinkHint": "odit"
+          "DisplayValue": "est",
+          "TooltipHint": "temporibus",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "aut",
+      "LinkHint": "autem",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 26
+          "FieldLength": 252
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lesch, Flatley and Kub",
-      "Description": "User-friendly bottom-line toolset",
-      "Rank": 10,
+      "Name": "Rippin, Gleichner and Pagac",
+      "Description": "Multi-channelled scalable hierarchy",
+      "Rank": 986,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lesch, Flatley and Kub",
-      "Description": "User-friendly bottom-line toolset",
-      "Rank": 10,
+      "Name": "Rippin, Gleichner and Pagac",
+      "Description": "Multi-channelled scalable hierarchy",
+      "Rank": 986,
       "Restrictions": [
         {},
         {}
@@ -198,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 427
     }
   }
 }

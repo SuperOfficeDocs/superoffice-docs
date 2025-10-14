@@ -14,7 +14,8 @@ PATCH /api/v1/DashTileDefinition/{id}
 Update a DashTileDefinition with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -133,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "vitae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "vitae",
     "value": {}
   }
 ]
@@ -151,31 +152,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 878,
-  "Name": "Baumbach, Zboncak and Runolfsson",
-  "Description": "Re-engineered systemic toolset",
-  "DefaultHeight": 768,
-  "DefaultWidth": 849,
+  "DashboardTileDefinitionId": 926,
+  "Name": "Streich, Reilly and Block",
+  "Description": "Stand-alone well-modulated capacity",
+  "DefaultHeight": 869,
+  "DefaultWidth": 188,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Padberg, Kilback and Johns",
-  "SelectionId": 346,
+  "EntityName": "Fay-Kutch",
+  "SelectionId": 643,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "sit",
   "Measure": "Average",
-  "MeasureField": "ab",
-  "SortBy": "atque",
-  "LayoutConfig": "assumenda",
-  "SecondarySelectionId": 437,
-  "MeasureByField": "dolore",
+  "MeasureField": "dolores",
+  "SortBy": "omnis",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 109,
+  "MeasureByField": "quis",
   "Usage": "Dashboard",
-  "ProviderName": "Murray-Murray",
+  "ProviderName": "Lind, Strosin and Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   },
   "_Links": {

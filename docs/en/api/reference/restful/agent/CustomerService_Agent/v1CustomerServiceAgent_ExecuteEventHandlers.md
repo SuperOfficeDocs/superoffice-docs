@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 This method will execute event handlers in CRMScript for a given event.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,42 +106,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ab",
-    "InputValues2": "quibusdam"
+    "InputValues1": "ut",
+    "InputValues2": "quo"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "dolore",
-  "ShowDialog": "illo",
+  "NavigateTo": "reprehenderit",
+  "Message": "suscipit",
+  "ShowDialog": "velit",
   "OutputValues": {
-    "OutputValues1": "consequuntur",
-    "OutputValues2": "maxime"
+    "OutputValues1": "vel",
+    "OutputValues2": "magni"
   },
   "StateValues": {
-    "StateValues1": "optio",
-    "StateValues2": "veniam"
+    "StateValues1": "voluptatem",
+    "StateValues2": "animi"
   },
   "Exception": "esse",
   "ParserValues": {
-    "ParserValues1": "excepturi",
-    "ParserValues2": "minus"
+    "ParserValues1": "dolorem",
+    "ParserValues2": "recusandae"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "labore"
+    "CgiVariables1": "sint",
+    "CgiVariables2": "debitis"
   },
-  "CgiContent": "atque",
+  "CgiContent": "dignissimos",
   "Headers": {
-    "Headers1": "commodi",
-    "Headers2": "tempora"
+    "Headers1": "eligendi",
+    "Headers2": "molestiae"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   }
 }

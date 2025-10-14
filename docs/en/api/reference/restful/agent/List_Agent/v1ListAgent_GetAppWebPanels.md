@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAppWebPanels
 Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 451,
-    "Name": "Yundt, Lakin and Blanda",
-    "Tooltip": "aut",
+    "WebPanelId": 740,
+    "Name": "Wiegand Group",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 457,
+    "Rank": 456,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Parker LLC",
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": false,
+    "WindowName": "Klocko Group",
     "Url": "http://www.example.com/",
-    "ProgId": "veniam",
-    "Icon": 19,
+    "ProgId": "omnis",
+    "Icon": 33,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

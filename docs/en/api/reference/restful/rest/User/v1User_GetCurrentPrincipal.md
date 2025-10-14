@@ -82,7 +82,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,76 +93,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "sit",
-  "AssociateId": 580,
+  "Associate": "ipsum",
+  "AssociateId": 19,
   "IsPerson": false,
-  "PersonId": 144,
-  "CountryId": 616,
-  "HomeCountryId": 494,
-  "ContactId": 163,
-  "GroupId": 23,
-  "BusinessId": 906,
-  "CategoryId": 805,
-  "ContactOwner": 235,
-  "RoleId": 560,
-  "RoleName": "Ritchie-Zulauf",
-  "RoleDescription": "Extended modular orchestration",
+  "PersonId": 881,
+  "CountryId": 683,
+  "HomeCountryId": 988,
+  "ContactId": 599,
+  "GroupId": 667,
+  "BusinessId": 183,
+  "CategoryId": 752,
+  "ContactOwner": 368,
+  "RoleId": 423,
+  "RoleName": "Klocko LLC",
+  "RoleDescription": "Extended context-sensitive challenge",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 267,
-      "OwnerName": "Hansen LLC",
-      "OwnerDescription": "Exclusive regional strategy",
-      "ModuleId": 808,
-      "Name": "Robel-Runolfsson",
-      "Description": "Multi-channelled multi-state implementation",
-      "Version": "amet",
+      "OwnerId": 461,
+      "OwnerName": "Simonis, Weissnat and Kub",
+      "OwnerDescription": "Operative 3rd generation circuit",
+      "ModuleId": 114,
+      "Name": "Heidenreich Inc and Sons",
+      "Description": "Integrated global strategy",
+      "Version": "error",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 537,
-      "ExtraInfo": "sunt",
-      "SortOrder": 616,
-      "LicenseNumber": 945,
-      "IsHidden": true,
+      "ExtraFlags": 18,
+      "ExtraInfo": "animi",
+      "SortOrder": 493,
+      "LicenseNumber": 341,
+      "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2025-05-06T11:24:53.8280427+02:00",
+      "ExpiryDate": "2003-07-14T03:40:56.6494726+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 598
+          "FieldLength": 340
         }
       }
     }
   ],
-  "FullName": "Audra Price",
-  "EMailAddress": "aut",
+  "FullName": "Jarrod Nolan",
+  "EMailAddress": "maiores",
   "FunctionRights": [
-    "expedita",
-    "sit"
+    "nihil",
+    "dolore"
   ],
-  "EjUserId": 239,
-  "EjAccessLevel": 386,
+  "EjUserId": 642,
+  "EjAccessLevel": 276,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "necessitatibus",
-      "SearchName": "Schamberger-Hessel",
-      "DisplayName": "Conn LLC",
-      "CredentialId": 101
+      "Type": "omnis",
+      "SearchName": "Schoen, Durgan and Hackett",
+      "DisplayName": "Kovacek LLC",
+      "CredentialId": 955
     },
     {
-      "Type": "necessitatibus",
-      "SearchName": "Schamberger-Hessel",
-      "DisplayName": "Conn LLC",
-      "CredentialId": 101
+      "Type": "omnis",
+      "SearchName": "Schoen, Durgan and Hackett",
+      "DisplayName": "Kovacek LLC",
+      "CredentialId": 955
     }
   ],
   "SecondaryGroups": [
-    480,
-    523
+    332,
+    264
   ],
-  "DatabaseContextIdentifier": "beatae",
-  "UserName": "Goyette, Feest and Schamberger"
+  "DatabaseContextIdentifier": "in",
+  "UserName": "McCullough Group"
 }
 ```

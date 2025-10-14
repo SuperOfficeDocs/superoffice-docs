@@ -15,6 +15,7 @@ Refresh the given folders - i.
 
 
 e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -81,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "repellendus",
-    "eos"
+    "excepturi",
+    "eius"
   ]
 }
 ```
@@ -93,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-30
+746
 ```

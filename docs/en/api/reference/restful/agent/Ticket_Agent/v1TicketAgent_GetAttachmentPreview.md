@@ -15,6 +15,7 @@ Retrieve an attachment from ticket message.
 
 
 The returned data is intended to be used for a preview. The returned data is sanitized.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 98
+  "AttachmentId": 134
 }
 ```
 
@@ -100,31 +101,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Howell Group",
-  "MimeType": "facilis",
-  "Size": 568,
+  "Name": "Mertz-Rosenbaum",
+  "MimeType": "velit",
+  "Size": 299,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "ernestine@mullerbode.ca",
-  "EmailFrom": "rubie@ebert.uk",
-  "EmailTo": "evangeline.christiansen@ward.biz",
-  "EmailCc": "bailey@heller.ca",
-  "EmailDate": "2013-03-08T11:24:48.8595017+01:00",
+  "EmailSubject": "lyda.kemmer@hermann.biz",
+  "EmailFrom": "raphaelle@klocko.co.uk",
+  "EmailTo": "frieda_krajcik@kossgibson.ca",
+  "EmailCc": "ottis.haag@stoltenberg.info",
+  "EmailDate": "2012-11-11T03:40:48.1098657+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 505,
-      "Name": "Pouros-Ledner",
-      "ContentType": "ea",
-      "AttSize": 407,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "omnis",
+      "AttachmentId": 728,
+      "Name": "Rowe, Marquardt and Kovacek",
+      "ContentType": "harum",
+      "AttSize": 967,
+      "InlineImage": true,
+      "ContentId": "explicabo",
+      "AuthKey": "voluptatem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldLength": 679
         }
       }
     }
@@ -134,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 310
     }
   }
 }

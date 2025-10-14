@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Gets the blob entity that represents the person image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 973
+  "PersonId": 281
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 60,
-  "BlobSize": 819,
-  "Description": "Fully-configurable impactful hub",
-  "ExtraInfo": "ratione",
+  "BlobId": 96,
+  "BlobSize": 757,
+  "Description": "Realigned dynamic utilisation",
+  "ExtraInfo": "eius",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quam",
-  "OriginalSize": 97,
-  "CreatedDate": "2002-04-07T11:24:47.6251768+02:00",
-  "UpdatedDate": "2011-07-30T11:24:47.6251768+02:00",
+  "IsZipped": true,
+  "MimeType": "dicta",
+  "OriginalSize": 804,
+  "CreatedDate": "2011-12-10T03:40:46.0920806+01:00",
+  "UpdatedDate": "2004-09-21T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 79
     }
   }
 }

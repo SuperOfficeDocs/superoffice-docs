@@ -15,6 +15,7 @@ Get an e-mail based on an archived document.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -108,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 798
+  "DocumentId": 434
 }
 ```
 
@@ -121,156 +122,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 596,
-      "ContactName": "Stokes, Ullrich and Ryan",
-      "PersonId": 330,
-      "PersonName": "Runolfsson LLC",
-      "AssociateId": 906,
-      "Address": "voluptatem",
-      "EmailId": 298,
+      "ContactId": 286,
+      "ContactName": "Mante-Brown",
+      "PersonId": 855,
+      "PersonName": "Nolan, Will and Mayert",
+      "AssociateId": 565,
+      "Address": "dolores",
+      "EmailId": 877,
       "DuplicatePersonIds": [
-        482,
-        670
+        628,
+        91
       ],
-      "Name": "Quitzon Inc and Sons",
+      "Name": "Wisoky, Blick and Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 103
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 150,
-      "ContactName": "Skiles-Morissette",
-      "PersonId": 913,
-      "PersonName": "Jakubowski LLC",
-      "AssociateId": 620,
+      "ContactId": 571,
+      "ContactName": "Bayer, Dietrich and Runolfsdottir",
+      "PersonId": 548,
+      "PersonName": "Langworth-Wolff",
+      "AssociateId": 997,
       "Address": "et",
-      "EmailId": 613,
+      "EmailId": 715,
       "DuplicatePersonIds": [
-        491,
-        89
+        514,
+        34
       ],
-      "Name": "Parker-Klocko",
+      "Name": "Borer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 842
+          "FieldLength": 959
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 929,
-      "ContactName": "Rau LLC",
-      "PersonId": 395,
-      "PersonName": "Bailey Group",
-      "AssociateId": 313,
-      "Address": "similique",
-      "EmailId": 513,
+      "ContactId": 896,
+      "ContactName": "Emmerich LLC",
+      "PersonId": 539,
+      "PersonName": "Padberg Inc and Sons",
+      "AssociateId": 950,
+      "Address": "sit",
+      "EmailId": 119,
       "DuplicatePersonIds": [
-        975,
-        533
+        714,
+        26
       ],
-      "Name": "Windler Inc and Sons",
+      "Name": "Roob-Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 997
+          "FieldLength": 986
         }
       }
     }
   ],
-  "Subject": "eos",
-  "HTMLBody": "vel",
+  "Subject": "assumenda",
+  "HTMLBody": "libero",
   "From": null,
-  "Sent": "2006-08-08T11:24:48.0939075+02:00",
-  "Size": 26,
+  "Sent": "2002-01-23T03:40:46.8748964+01:00",
+  "Size": 932,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "voluptatum",
-  "IsSent": true,
+  "MessageID": "expedita",
+  "PlainBody": "et",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 733,
+  "ServerId": 109,
   "Attachments": [
     {
-      "Description": "Profit-focused tertiary circuit",
-      "Filename": "soluta",
-      "Size": 266,
-      "Type": "culpa",
-      "Encoding": "laudantium",
-      "Id": "libero",
-      "Disposition": "sed",
-      "IsSafeFileExtension": true,
+      "Description": "Cross-group dynamic encryption",
+      "Filename": "eos",
+      "Size": 897,
+      "Type": "voluptatem",
+      "Encoding": "animi",
+      "Id": "occaecati",
+      "Disposition": "in",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldLength": 563
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Waters-Koepp",
+      "Name": "Smitham Group",
       "Values": [
-        "enim",
-        "quia"
+        "ea",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 532
         }
       }
     },
     {
-      "Name": "Waters-Koepp",
+      "Name": "Smitham Group",
       "Values": [
-        "enim",
-        "quia"
+        "ea",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldLength": 532
         }
       }
     }
   ],
-  "FolderName": "Hilll-Aufderhar",
-  "EmailItemId": 669,
-  "AccountId": 422,
-  "ReceivedAt": "2022-02-25T11:24:48.0939075+01:00",
+  "FolderName": "Harvey Group",
+  "EmailItemId": 710,
+  "AccountId": 994,
+  "ReceivedAt": "2010-07-13T03:40:46.8748964+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-12-08T11:24:48.0939075+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2001-03-02T03:40:46.8748964+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

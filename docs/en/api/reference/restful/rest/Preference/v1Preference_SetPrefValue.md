@@ -72,21 +72,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ipsam",
+  "RawValue": "voluptas",
   "Specification": null,
-  "DisplayValue": "eaque",
-  "DisplayTooltip": "tenetur",
+  "DisplayValue": "sequi",
+  "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 17,
-  "PrefDescId": 10,
-  "TableName": "Ferry, Wisozk and Sauer",
-  "UserPreferenceId": 221
+  "TargetId": 148,
+  "PrefDescId": 128,
+  "TableName": "Oberbrunner LLC",
+  "UserPreferenceId": 275
 }
 ```
 

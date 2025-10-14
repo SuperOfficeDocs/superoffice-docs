@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteFromListName
 Delete a list item from the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 437,
-  "UdListDefinitionName": "Mayert-Lindgren"
+  "Id": 827,
+  "UdListDefinitionName": "Brekke, Flatley and Gutkowski"
 }
 ```
 

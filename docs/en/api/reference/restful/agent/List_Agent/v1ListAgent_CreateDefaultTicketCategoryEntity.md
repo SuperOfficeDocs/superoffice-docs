@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Loading default values into a new TicketCategoryEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,36 +85,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 459,
-  "ParentId": 320,
-  "Name": "Ledner, Padberg and Williamson",
-  "Fullname": "qui",
-  "CategoryMaster": 792,
+  "TicketCategoryId": 929,
+  "ParentId": 79,
+  "Name": "Reynolds-D'Amore",
+  "Fullname": "labore",
+  "CategoryMaster": 894,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Lubowitz, Franecki and Shields",
+  "ExternalName": "Dicki-Grady",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 251,
-  "ReplyTemplate": 747,
-  "NotificationEmail": "timmothy@keeling.name",
+  "AssignmentLag": 972,
+  "ReplyTemplate": 467,
+  "NotificationEmail": "neha@kertzmann.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 566,
+  "EffectiveReplyTemplateId": 907,
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "et"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "provident"
+    "CustomFields1": "earum",
+    "CustomFields2": "adipisci"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

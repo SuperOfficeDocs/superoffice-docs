@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Nader, Beahan and Glover",
-  "Tooltip": "vitae",
+  "Id": 990,
+  "Name": "Beahan LLC",
+  "Tooltip": "sit",
   "Deleted": true,
-  "Rank": 642,
-  "IsCustomList": true,
+  "Rank": 538,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iste",
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 736,
-  "Name": "Wolf-Reichel",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 438,
-  "IsCustomList": false,
+  "Id": 410,
+  "Name": "Maggio LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 51,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugiat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

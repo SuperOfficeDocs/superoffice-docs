@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/MoveEmailsToFolder
 Move one or more emails to the specified folder in the DB, and on the server
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -72,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 858,
+  "FolderId": 391,
   "EmailItemIds": [
-    54,
-    257
+    745,
+    709
   ]
 }
 ```

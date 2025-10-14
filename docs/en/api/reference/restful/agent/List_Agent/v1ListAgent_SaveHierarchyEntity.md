@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHierarchyEntity
 Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,36 +84,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 889,
+  "HierarchyId": 189,
   "Domain": "Dashboards",
-  "Name": "Abshire-Gibson",
-  "Fullname": "pariatur",
-  "ParentId": 78,
+  "Name": "Funk-Schoen",
+  "Fullname": "incidunt",
+  "ParentId": 255,
   "Children": [
     {
-      "HierarchyId": 445,
+      "HierarchyId": 922,
       "Domain": "Dashboards",
-      "Name": "Kreiger-Kuhn",
-      "Fullname": "esse",
-      "ParentId": 732,
+      "Name": "McKenzie Inc and Sons",
+      "Fullname": "quam",
+      "ParentId": 530,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-05-04T11:24:48.234527+02:00",
-      "RegisteredAssociateId": 96,
-      "Updated": "2025-06-07T11:24:48.234527+02:00",
-      "UpdatedAssociateId": 971
+      "Registered": "2019-06-27T03:40:47.2030415+02:00",
+      "RegisteredAssociateId": 296,
+      "Updated": "2011-08-18T03:40:47.2030415+02:00",
+      "UpdatedAssociateId": 740
     }
   ],
-  "Registered": "2003-09-27T11:24:48.234527+02:00",
-  "RegisteredAssociateId": 742,
-  "Updated": "2001-07-28T11:24:48.234527+02:00",
-  "UpdatedAssociateId": 473
+  "Registered": "2014-02-27T03:40:47.2030415+01:00",
+  "RegisteredAssociateId": 803,
+  "Updated": "2010-01-20T03:40:47.2030415+01:00",
+  "UpdatedAssociateId": 776
 }
 ```
 
@@ -122,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 411,
+  "HierarchyId": 42,
   "Domain": "Dashboards",
-  "Name": "Harris-Goodwin",
-  "Fullname": "quos",
-  "ParentId": 52,
+  "Name": "Rutherford, Yost and Schamberger",
+  "Fullname": "quidem",
+  "ParentId": 467,
   "Children": [
     {
-      "HierarchyId": 228,
+      "HierarchyId": 91,
       "Domain": "Dashboards",
-      "Name": "Reichert Inc and Sons",
-      "Fullname": "non",
-      "ParentId": 385,
+      "Name": "Kertzmann, Goldner and Buckridge",
+      "Fullname": "adipisci",
+      "ParentId": 248,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-01-26T11:24:48.234527+01:00",
-      "RegisteredAssociateId": 11,
-      "Updated": "2002-11-28T11:24:48.234527+01:00",
-      "UpdatedAssociateId": 408,
+      "Registered": "2001-07-22T03:40:47.2030415+02:00",
+      "RegisteredAssociateId": 7,
+      "Updated": "2023-01-20T03:40:47.2030415+01:00",
+      "UpdatedAssociateId": 789,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 247
         }
       }
     }
   ],
-  "Registered": "2017-08-11T11:24:48.234527+02:00",
-  "RegisteredAssociateId": 866,
-  "Updated": "2006-10-18T11:24:48.234527+02:00",
-  "UpdatedAssociateId": 801,
+  "Registered": "2005-11-06T03:40:47.2030415+01:00",
+  "RegisteredAssociateId": 533,
+  "Updated": "2016-02-22T03:40:47.2030415+01:00",
+  "UpdatedAssociateId": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 441
     }
   }
 }

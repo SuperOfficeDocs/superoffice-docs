@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddFavourite
 Add a record in a table as a favourite for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,14 +70,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jacobs-Schumm",
-  "RecordId": 21,
-  "AssociateId": 647,
-  "ExtraInfo": "laudantium"
+  "TableName": "Feil, Langworth and Baumbach",
+  "RecordId": 674,
+  "AssociateId": 935,
+  "ExtraInfo": "maxime"
 }
 ```
 

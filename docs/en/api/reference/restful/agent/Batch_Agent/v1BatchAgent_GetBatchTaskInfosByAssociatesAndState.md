@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Get an array of BatchTaskInfo for the provided associate id's and batch task state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,13 +98,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    181,
-    822
+    812,
+    771
   ],
   "State": "All"
 }
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Ziemann, Lakin and Hammes",
-    "AssociateId": 104,
-    "DetailsTable": 896,
-    "DetailsRecord": 981,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 14,
+    "Name": "Bosco Group",
+    "AssociateId": 779,
+    "DetailsTable": 747,
+    "DetailsRecord": 145,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "ex"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "sed"
     },
-    "LastStarted": "2012-09-29T11:24:47.6095526+02:00",
-    "Created": "1999-03-29T11:24:47.6095526+02:00",
-    "StartCount": 7,
-    "DatabaseSerialNumber": "772174",
-    "Context": "placeat",
-    "Result": "sint",
+    "LastStarted": "2019-08-31T03:40:46.0764548+02:00",
+    "Created": "2004-05-10T03:40:46.0764548+02:00",
+    "StartCount": 103,
+    "DatabaseSerialNumber": "1145501",
+    "Context": "odio",
+    "Result": "facere",
     "State": "All",
-    "Description": "Synchronised actuating service-desk",
-    "Response": "sed",
-    "Request": "voluptatem",
-    "ProgressDescription": "Networked fault-tolerant toolset",
-    "ProgressPercent": 454,
-    "FileName": "Orn, Wiegand and McDermott",
+    "Description": "Networked directional throughput",
+    "Response": "voluptas",
+    "Request": "et",
+    "ProgressDescription": "Ameliorated didactic task-force",
+    "ProgressPercent": 631,
+    "FileName": "Haag Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 116
       }
     }
   }

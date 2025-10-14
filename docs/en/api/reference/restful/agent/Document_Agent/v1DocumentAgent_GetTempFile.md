@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetTempFile
 Get data stream for temporary file created with CreateTempFile.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Document/GetTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "aspernatur"
+  "Filename": "eaque"
 }
 ```
 

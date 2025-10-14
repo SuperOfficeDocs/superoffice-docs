@@ -15,6 +15,7 @@ Get all documents that are linked to the sale.
 
 
 I.e. the documents that are listed in the sale dialog.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 222
+  "SaleId": 465
 }
 ```
 
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 979,
-    "Attention": "enim",
-    "Header": "est",
-    "Name": "Moen Inc and Sons",
-    "OurRef": "ratione",
-    "YourRef": "omnis",
-    "Description": "Switchable transitional pricing structure",
-    "DocumentTemplate": "voluptatibus",
-    "IsPublished": false,
-    "PersonId": 382,
-    "PersonFullName": "Mathilde Parisian",
-    "AssociateFullName": "Mrs. Aryanna Flavio Ortiz",
-    "ContactId": 542,
-    "ContactName": "Swaniawski-Feeney",
-    "ProjectId": 66,
-    "ProjectName": "Mosciski-White",
-    "AssociateId": 126,
-    "Snum": 167,
-    "SaleId": 291,
-    "SaleName": "Nienow, Brekke and Mayer",
+    "DocumentId": 97,
+    "Attention": "quo",
+    "Header": "quasi",
+    "Name": "O'Reilly LLC",
+    "OurRef": "eum",
+    "YourRef": "ut",
+    "Description": "Devolved background conglomeration",
+    "DocumentTemplate": "porro",
+    "IsPublished": true,
+    "PersonId": 87,
+    "PersonFullName": "Jay Glover",
+    "AssociateFullName": "Catherine Prosacco",
+    "ContactId": 477,
+    "ContactName": "Spinka, Hoeger and Cummings",
+    "ProjectId": 258,
+    "ProjectName": "Weber, Wintheiser and Ratke",
+    "AssociateId": 334,
+    "Snum": 383,
+    "SaleId": 518,
+    "SaleName": "Jerde Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 406
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/DeleteMessageAndShipment
 Delete the message and the shipment the message (MessageId) belongs to
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Marketing/DeleteMessageAndShipment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 766
+  "MessageId": 21
 }
 ```
 

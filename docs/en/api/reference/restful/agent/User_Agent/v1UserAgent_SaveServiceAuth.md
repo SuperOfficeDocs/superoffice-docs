@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveServiceAuth
 Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -76,16 +79,16 @@ OK
 POST /api/v1/Agents/User/SaveServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 163,
-  "Server": "aspernatur",
-  "Port": 604,
-  "AuthType": "blanditiis",
-  "Username": "aut",
-  "Password": "aperiam"
+  "ServiceAuthId": 754,
+  "Server": "error",
+  "Port": 500,
+  "AuthType": "incidunt",
+  "Username": "vel",
+  "Password": "fugiat"
 }
 ```
 
@@ -96,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 355,
-  "Server": "quis",
-  "Port": 630,
-  "AuthType": "eum",
-  "Username": "voluptas",
-  "Password": "voluptates",
+  "ServiceAuthId": 772,
+  "Server": "quos",
+  "Port": 22,
+  "AuthType": "esse",
+  "Username": "est",
+  "Password": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 586
     }
   }
 }

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -98,14 +99,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 169,
-  "StartTime": "2012-06-28T11:24:47.9376639+02:00",
-  "EndTime": "2013-12-10T11:24:47.9376639+01:00",
-  "Count": 953
+  "PersonId": 273,
+  "StartTime": "2004-10-20T03:40:46.5936381+02:00",
+  "EndTime": "2003-06-07T03:40:46.5936381+02:00",
+  "Count": 369
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 841,
-    "Attention": "quis",
-    "Header": "id",
-    "Name": "Rippin, Marks and Towne",
-    "OurRef": "dolorum",
-    "YourRef": "magnam",
-    "Description": "Grass-roots context-sensitive projection",
-    "DocumentTemplate": "in",
+    "DocumentId": 99,
+    "Attention": "mollitia",
+    "Header": "aut",
+    "Name": "Nienow, Gleichner and Balistreri",
+    "OurRef": "vitae",
+    "YourRef": "praesentium",
+    "Description": "Managed well-modulated throughput",
+    "DocumentTemplate": "repellendus",
     "IsPublished": true,
-    "PersonId": 594,
-    "PersonFullName": "Dr. Junior Catalina Collier",
-    "AssociateFullName": "Emilie Little",
-    "ContactId": 60,
-    "ContactName": "Kuhlman, Ryan and Goyette",
-    "ProjectId": 244,
-    "ProjectName": "Hammes Inc and Sons",
-    "AssociateId": 524,
-    "Snum": 93,
-    "SaleId": 541,
-    "SaleName": "Grady, Dach and Fadel",
+    "PersonId": 286,
+    "PersonFullName": "Gisselle Boyle IV",
+    "AssociateFullName": "Joanny Lehner",
+    "ContactId": 844,
+    "ContactName": "Lehner, Wintheiser and Mertz",
+    "ProjectId": 582,
+    "ProjectName": "Reinger-Bogisich",
+    "AssociateId": 710,
+    "Snum": 899,
+    "SaleId": 291,
+    "SaleName": "Pfeffer, Huels and Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 202
       }
     }
   }

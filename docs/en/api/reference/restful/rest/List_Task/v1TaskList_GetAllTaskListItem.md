@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 982,
-    "Value": "velit",
+    "TaskListItemId": 36,
+    "Value": "cum",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "et",
+    "Tooltip": "ut",
     "Deleted": false,
-    "IntentId": 949,
-    "Rank": 260,
+    "IntentId": 620,
+    "Rank": 872,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": true,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

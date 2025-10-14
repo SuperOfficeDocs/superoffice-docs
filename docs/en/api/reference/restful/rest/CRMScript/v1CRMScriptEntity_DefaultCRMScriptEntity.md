@@ -18,6 +18,7 @@ NetServer calculates default values on the entity, which is required when creati
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,53 +90,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 655,
-  "UniqueIdentifier": "quidem",
-  "Name": "Purdy, Reichert and Gerlach",
-  "Description": "Customer-focused transitional alliance",
-  "IncludeId": "repudiandae",
-  "AccessKey": "omnis",
-  "HierarchyId": 199,
-  "Source": "voluptatem",
-  "SourceCode": "totam",
+  "EjscriptId": 81,
+  "UniqueIdentifier": "aut",
+  "Name": "Wehner, Bergnaum and Luettgen",
+  "Description": "Multi-tiered global standardization",
+  "IncludeId": "dolorem",
+  "AccessKey": "in",
+  "HierarchyId": 448,
+  "Source": "magni",
+  "SourceCode": "fuga",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 641,
+  "HtmlOutput": 294,
   "Includes": [
-    705,
-    310
+    338,
+    9
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 410,
-      "LineNumberTo": 798,
-      "Delta": 113,
-      "IncludeId": "explicabo",
+      "LineNumberFrom": 588,
+      "LineNumberTo": 102,
+      "Delta": 595,
+      "IncludeId": "et",
       "IncludedFrom": [
-        "voluptate",
-        "magnam"
+        "impedit",
+        "perferendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 448
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2019-03-08T11:24:53.156201+01:00",
-  "RegisteredAssociateId": 415,
-  "Updated": "1999-07-01T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 733,
+  "Registered": "2011-12-24T03:40:55.6162809+01:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "2012-07-29T03:40:55.6162809+02:00",
+  "UpdatedAssociateId": 435,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 873
     }
   }
 }

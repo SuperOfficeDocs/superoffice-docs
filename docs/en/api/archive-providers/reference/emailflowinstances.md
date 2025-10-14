@@ -146,7 +146,9 @@ Lists all email flow Instances
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -224,12 +226,12 @@ Lists all email flow Instances
 |person/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
 |person/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
 |person/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-|person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
-|person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
@@ -327,13 +329,14 @@ Lists all email flow Instances
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
-|contact/business|listAny|Business| x |
-|contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|contact/countryId|int|Country ID: Country ID| x |
+|contact/categoryGroup|listAny|Category group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/business|listAny|Business| x |
+|contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
+|contact/countryId|int|Country ID: Country ID| x |
 |contact/number|string|Number| x |
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
@@ -431,13 +434,13 @@ Lists all email flow Instances
 |contact/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |contact/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |contact/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|contact/contactAssociate/userName|string|User name: User name| x |
-|contact/contactAssociate/personEmail|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|contact/contactAssociate/userName|string|User name: User name| x |
+|contact/contactAssociate/personEmail|string|E-mail| x |
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
 |contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
@@ -505,7 +508,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/hierarchyFullname,contact/contactAssociate/lastName,person/personAddress/line2
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowEnrolledCount,emailFlow/workflowAssociate/middleName,emailFlow/workflowAssociate/personId,emailFlow/workflowAssociate/personEmail,person/personDirectFax/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

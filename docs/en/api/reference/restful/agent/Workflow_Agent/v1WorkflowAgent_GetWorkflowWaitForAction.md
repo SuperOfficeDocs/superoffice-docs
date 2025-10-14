@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Gets a WorkflowWaitForAction object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=957
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=69
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -83,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 975,
-  "WorkflowStepId": 781,
-  "WorkflowId": 597,
-  "Rank": 961,
+  "WorkflowWaitForActionId": 978,
+  "WorkflowStepId": 268,
+  "WorkflowId": 193,
+  "Rank": 411,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Armstrong Group",
-      "Description": "Organic optimal support",
-      "Rank": 414,
+      "Name": "O'Connell-Thiel",
+      "Description": "Distributed fault-tolerant encoding",
+      "Rank": 111,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Armstrong Group",
-      "Description": "Organic optimal support",
-      "Rank": 414,
+      "Name": "O'Connell-Thiel",
+      "Description": "Distributed fault-tolerant encoding",
+      "Rank": 111,
       "Restrictions": [
         {},
         {}
@@ -112,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

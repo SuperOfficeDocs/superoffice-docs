@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Tromp, Jakubowski and Ruecker",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 289,
+  "Id": 430,
+  "Name": "Connelly-Watsica",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 4,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "ListType": "vel",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 489
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

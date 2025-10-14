@@ -34,9 +34,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=07/04/2023 11:24:55
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/15/2020 11:24:55
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=737
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=05/06/2005 03:40:59
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=11/13/2016 03:40:59
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=750
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 59,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 384,
-  "Name": "Deckow LLC",
-  "Description": "Reduced content-based forecast",
-  "Currency": "hic",
-  "CurrencyName": "McCullough-Waters",
-  "ValidFrom": "2000-07-10T11:24:53.9842923+02:00",
-  "ValidTo": "2008-05-01T11:24:53.9842923+02:00",
+  "PriceListId": 397,
+  "ERPPriceListKey": "atque",
+  "QuoteConnectionId": 583,
+  "Name": "Dooley LLC",
+  "Description": "Realigned logistical product",
+  "Currency": "iure",
+  "CurrencyName": "Casper, Mueller and Lakin",
+  "ValidFrom": "2002-08-11T03:40:56.9933484+02:00",
+  "ValidTo": "2005-01-10T03:40:56.9933484+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

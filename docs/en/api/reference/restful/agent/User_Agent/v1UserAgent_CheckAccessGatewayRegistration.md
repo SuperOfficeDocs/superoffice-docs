@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Checks if AccessGatewayRegistration is valid
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -63,7 +66,7 @@ OK
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,5 +75,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

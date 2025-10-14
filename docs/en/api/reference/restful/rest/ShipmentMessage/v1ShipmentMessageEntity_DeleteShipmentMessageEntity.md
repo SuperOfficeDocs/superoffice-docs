@@ -15,6 +15,7 @@ Deletes the ShipmentMessageEntity
 
 
 Calls the Marketing agent service DeleteShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 

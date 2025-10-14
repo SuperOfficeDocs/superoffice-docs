@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,13 +133,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2021-08-20T11:24:47.5783035+02:00",
-  "EndTime": "2002-07-26T11:24:47.5783035+02:00",
-  "Count": 445
+  "StartTime": "2020-02-29T03:40:46.0452033+01:00",
+  "EndTime": "1999-04-24T03:40:46.0452033+02:00",
+  "Count": 369
 }
 ```
 
@@ -150,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 324,
-    "StartDate": "2021-10-08T11:24:47.5783035+02:00",
-    "EndDate": "2003-07-08T11:24:47.5783035+02:00",
+    "AppointmentId": 506,
+    "StartDate": "2004-01-13T03:40:46.0452033+01:00",
+    "EndDate": "2024-03-31T03:40:46.0452033+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ratione",
-    "AssociateFullName": "Clemens Ferry",
-    "ContactName": "West-Larson",
-    "Description": "Compatible disintermediate monitoring",
-    "PersonFullName": "Prof. Alba Gertrude Gusikowski Sr.",
-    "PersonId": 34,
-    "ContactId": 798,
-    "ProjectId": 740,
-    "ProjectName": "Rippin, Leuschke and Carroll",
+    "Task": "delectus",
+    "AssociateFullName": "Warren Nienow",
+    "ContactName": "Crona-Hagenes",
+    "Description": "Intuitive local focus group",
+    "PersonFullName": "Dr. Evangeline Lazaro Schmitt MD",
+    "PersonId": 654,
+    "ContactId": 958,
+    "ProjectId": 895,
+    "ProjectName": "Yundt-Paucek",
     "IsPublished": true,
-    "AssociateId": 334,
-    "ColorIndex": 251,
-    "IsFree": false,
+    "AssociateId": 580,
+    "ColorIndex": 908,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 62,
-    "PriorityName": "Orn-Strosin",
+    "PriorityId": 166,
+    "PriorityName": "Bosco Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2010-09-10T11:24:47.5783035+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2014-12-26T03:40:46.0452033+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-02T11:24:47.5783035+02:00",
-    "RecurringEndDate": "2019-12-21T11:24:47.5783035+01:00",
-    "MotherId": 459,
-    "AssignedBy": 616,
-    "AssignedByFullName": "Cielo Stroman",
+    "RecurringStartDate": "2010-03-17T03:40:46.0452033+01:00",
+    "RecurringEndDate": "2025-08-11T03:40:46.0452033+02:00",
+    "MotherId": 417,
+    "AssignedBy": 128,
+    "AssignedByFullName": "Garry Herzog",
     "RejectReason": "",
-    "Location": "consectetur",
+    "Location": "pariatur",
     "AlarmLeadTime": "itaque",
-    "SaleId": 901,
-    "SaleName": "Harris, Mosciski and Strosin",
-    "AssociateName": "Shanahan Inc and Sons",
-    "CreatedDate": "2004-08-21T11:24:47.5783035+02:00",
-    "CreatedBy": "officia",
-    "CreatedByFullName": "Ms. Amina Franecki",
-    "CreatedByAssociateId": 926,
+    "SaleId": 515,
+    "SaleName": "Huel-Veum",
+    "AssociateName": "Keeling-Altenwerth",
+    "CreatedDate": "2003-03-30T03:40:46.0452033+02:00",
+    "CreatedBy": "temporibus",
+    "CreatedByFullName": "Gwen Woodrow Hand Sr.",
+    "CreatedByAssociateId": 719,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 591,
+    "MotherAssociateId": 423,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 2,
-    "Title": "eveniet",
-    "Agenda": "dolorum",
-    "InternalNotes": "eius",
+    "PreferredTZLocation": 100,
+    "Title": "pariatur",
+    "Agenda": "vero",
+    "InternalNotes": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 361
       }
     }
   }

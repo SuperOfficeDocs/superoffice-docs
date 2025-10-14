@@ -15,6 +15,7 @@ After upgrading to a new fileset, there may be tasks that need to be done.
 
 
 Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,5 +73,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"id"
+"aperiam"
 ```

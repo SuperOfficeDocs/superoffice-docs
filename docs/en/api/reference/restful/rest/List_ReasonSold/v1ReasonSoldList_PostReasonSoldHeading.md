@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 341,
-  "Name": "Conn, Thompson and VonRueden",
-  "Tooltip": "excepturi",
+  "HeadingId": 749,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 929,
-  "UdListDefinitionId": 123
+  "Rank": 302,
+  "UdListDefinitionId": 258
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 570,
-  "Name": "Ernser-Will",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "Rank": 545,
-  "UdListDefinitionId": 454,
+  "HeadingId": 710,
+  "Name": "Bartoletti-Jast",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 550,
+  "UdListDefinitionId": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 156
     }
   }
 }

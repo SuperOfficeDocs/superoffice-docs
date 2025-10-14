@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetPreviewDash
 Get a dashboard from its id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 53
+  "DashboardId": 333
 }
 ```
 
@@ -94,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 590,
-  "Name": "Roob-Leuschke",
-  "Description": "Ameliorated homogeneous concept",
-  "OwnedByFullName": "Reggie Kemmer",
-  "Registered": "2002-03-29T11:24:47.8751665+01:00",
+  "DashboardId": 41,
+  "Name": "Beer Inc and Sons",
+  "Description": "Persevering static matrices",
+  "OwnedByFullName": "Dr. Lurline Elmer Kuphal MD",
+  "Registered": "2018-01-02T03:40:46.5780122+01:00",
   "Tiles": [
     {
-      "Name": "McClure-Williamson",
+      "Name": "Roob-Mohr",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldLength": 107
         }
       }
     },
     {
-      "Name": "McClure-Williamson",
+      "Name": "Roob-Mohr",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldLength": 107
         }
       }
     }
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

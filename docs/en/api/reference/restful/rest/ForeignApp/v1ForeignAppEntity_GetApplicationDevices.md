@@ -76,25 +76,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 30 Jan 2014 11:24:53 G1T
+Last-Modified: Fri, 10 Nov 2006 03:40:55 G11T
 
 [
   {
-    "ForeignDeviceId": 634,
-    "Name": "White LLC",
-    "CreatedDate": "2021-07-20T11:24:53.2968202+02:00",
-    "UpdatedDate": "2014-01-30T11:24:53.2968202+01:00",
-    "AssociateFullName": "Ladarius Howell",
-    "CreatedBy": "quod",
-    "UpdatedBy": "beatae",
-    "DeviceIdentifier": "quis",
-    "ForeignAppId": 455,
+    "ForeignDeviceId": 175,
+    "Name": "Streich, Schaden and Dickens",
+    "CreatedDate": "2017-03-18T03:40:55.7731411+01:00",
+    "UpdatedDate": "2006-11-10T03:40:55.7731411+01:00",
+    "AssociateFullName": "Ms. Felicia Kaelyn Aufderhar",
+    "CreatedBy": "qui",
+    "UpdatedBy": "et",
+    "DeviceIdentifier": "voluptatum",
+    "ForeignAppId": 610,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 854
       }
     }
   }

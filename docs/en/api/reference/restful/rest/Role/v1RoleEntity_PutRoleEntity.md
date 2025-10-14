@@ -14,6 +14,9 @@ PUT /api/v1/Role/{id}
 Updates the existing RoleEntity
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -104,20 +107,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 15,
-  "Name": "Bosco, Wolf and Schinner",
-  "Tooltip": "corporis",
+  "RoleId": 649,
+  "Name": "Cummerata-Bartell",
+  "Tooltip": "magni",
   "RoleType": "Anonymous",
-  "Deleted": 124,
-  "Rank": 169,
-  "Created": "2020-03-09T11:24:53.4843128+01:00",
-  "UseCategories": 77,
+  "Deleted": 931,
+  "Rank": 163,
+  "Created": "2001-01-26T03:40:56.0699234+01:00",
+  "UseCategories": 467,
   "CreatedBy": null,
-  "Updated": "1999-12-10T11:24:53.4843128+01:00",
+  "Updated": "2024-01-04T03:40:56.0699234+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -130,24 +133,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 654,
-  "Name": "Gutmann, Pacocha and Hoeger",
-  "Tooltip": "ut",
+  "RoleId": 449,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "mollitia",
   "RoleType": "Anonymous",
-  "Deleted": 62,
-  "Rank": 449,
-  "Created": "2008-10-10T11:24:53.4843128+02:00",
-  "UseCategories": 432,
+  "Deleted": 506,
+  "Rank": 223,
+  "Created": "2001-09-02T03:40:56.0699234+02:00",
+  "UseCategories": 696,
   "CreatedBy": null,
-  "Updated": "2013-06-22T11:24:53.4843128+02:00",
+  "Updated": "2012-05-17T03:40:56.0699234+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   },
   "_Links": {

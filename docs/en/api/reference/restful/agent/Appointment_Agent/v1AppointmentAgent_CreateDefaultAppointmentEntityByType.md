@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Creates an AppointmentEntity populated with the default values for the specific type.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,7 +135,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-01-17T11:24:47.3908145+01:00",
-  "AppointmentId": 449,
-  "Description": "Customer-focused logistical frame",
-  "Title": "ut",
-  "Agenda": "minus",
-  "InternalNotes": "non",
-  "StartDate": "2023-11-23T11:24:47.3908145+01:00",
-  "EndDate": "2024-07-09T11:24:47.3908145+02:00",
+  "CreatedDate": "2000-02-12T03:40:45.7481236+01:00",
+  "AppointmentId": 755,
+  "Description": "Realigned real-time array",
+  "Title": "nihil",
+  "Agenda": "ab",
+  "InternalNotes": "consequatur",
+  "StartDate": "2018-01-12T03:40:45.7481236+01:00",
+  "EndDate": "2008-01-05T03:40:45.7481236+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 325,
+  "MotherId": 43,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-03-11T11:24:47.3908145+01:00",
+  "UpdatedDate": "2021-11-23T03:40:45.7481236+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 906,
+  "ActiveLinks": 438,
   "Links": [
     {
-      "EntityName": "Schmeler-Kutch",
-      "Id": 115,
-      "Description": "Down-sized mission-critical collaboration",
-      "ExtraInfo": "ea",
-      "LinkId": 986,
+      "EntityName": "Green Inc and Sons",
+      "Id": 362,
+      "Description": "Profit-focused national capability",
+      "ExtraInfo": "vero",
+      "LinkId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 333
         }
       }
     }
   ],
-  "AlarmLeadTime": "suscipit",
+  "AlarmLeadTime": "aperiam",
   "HasAlarm": false,
-  "ColorIndex": 149,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "suscipit",
-  "LeadTime": "quibusdam",
-  "Location": "velit",
-  "RejectCounter": 812,
+  "ColorIndex": 558,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "sint",
+  "LeadTime": "itaque",
+  "Location": "non",
+  "RejectCounter": 933,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 606,
-      "PersonId": 377,
-      "ContactId": 590,
-      "EmailId": 744,
-      "SendEmail": true,
+      "AssociateId": 313,
+      "PersonId": 2,
+      "ContactId": 274,
+      "EmailId": 518,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "easter@aufderharbeer.com",
-      "Description": "Switchable scalable archive"
+      "EmailAddress": "elda_schmitt@mills.co.uk",
+      "Description": "Advanced context-sensitive database"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-10-27T11:24:47.3908145+02:00",
+  "ActiveDate": "2001-01-26T03:40:45.7481236+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 682,
+  "PreferredTZLocation": 159,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 16,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 842,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "commodi",
+  "CentralserviceVideomeetId": "hic",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ivory Jovani Hills IV",
-    "SuperOffice:2": "1907921407"
+    "SuperOffice:1": "1616034479",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "et"
+    "CustomFields1": "dicta",
+    "CustomFields2": "dolore"
   },
-  "PublishEventDate": "2014-12-21T11:24:47.3908145+01:00",
-  "PublishTo": "1998-07-25T11:24:47.3908145+02:00",
-  "PublishFrom": "2013-07-11T11:24:47.3908145+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-02-01T03:40:45.7481236+01:00",
+  "PublishTo": "2017-09-25T03:40:45.7481236+02:00",
+  "PublishFrom": "2001-03-12T03:40:45.7481236+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 435,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 450
+          "FieldType": "System.Int32",
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 435,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 450
+          "FieldType": "System.Int32",
+          "FieldLength": 971
         }
       }
     }
@@ -275,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 654
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pagac, Walter and Feil",
-  "EmailAddress": "rachel@hesselconsidine.us",
-  "NumberOfContacts": 276,
-  "NumberOfPersons": 803
+  "Name": "Bechtelar, Bauch and Blanda",
+  "EmailAddress": "juanita@lehner.uk",
+  "NumberOfContacts": 504,
+  "NumberOfPersons": 740
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 418,
-    "FullName": "Eulah Baumbach Sr.",
-    "EmailAddress": "fanny@romagueracronin.ca",
-    "ContactId": 622,
-    "ContactName": "Jast Inc and Sons",
+    "PersonId": 337,
+    "FullName": "Deon Heller",
+    "EmailAddress": "brennan@watsica.biz",
+    "ContactId": 143,
+    "ContactName": "Klocko, Thompson and Stracke",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Padberg-Zieme",
+    "SortName": "Wehner, Grady and Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

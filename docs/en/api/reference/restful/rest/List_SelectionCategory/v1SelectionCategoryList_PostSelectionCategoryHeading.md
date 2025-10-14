@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 448,
-  "Name": "Ruecker-Schroeder",
-  "Tooltip": "suscipit",
+  "HeadingId": 615,
+  "Name": "Bayer Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 474,
-  "UdListDefinitionId": 732
+  "Rank": 215,
+  "UdListDefinitionId": 160
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 742,
-  "Name": "Zieme-Cummings",
-  "Tooltip": "officia",
+  "HeadingId": 94,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 556,
-  "UdListDefinitionId": 934,
+  "Rank": 826,
+  "UdListDefinitionId": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 108
     }
   }
 }

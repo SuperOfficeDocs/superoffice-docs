@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 653,
-  "Name": "Jakubowski-Grady",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 684,
-  "Rank": 561,
+  "Id": 72,
+  "Name": "Gottlieb, Mayert and Hermiston",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 476,
+  "Rank": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 390
     }
   }
 }

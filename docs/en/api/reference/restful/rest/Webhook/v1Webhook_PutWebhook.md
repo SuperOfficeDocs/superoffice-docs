@@ -14,6 +14,9 @@ PUT /api/v1/Webhook/{id}
 Updates the existing Webhook
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -106,32 +109,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 795,
-  "Name": "Grant Group",
+  "WebhookId": 338,
+  "Name": "Kassulke LLC",
   "Events": [
-    "qui",
-    "alias"
+    "ut",
+    "illum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "natus",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "aut",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "dolorum",
-    "Headers2": "ducimus"
+    "Headers1": "sint",
+    "Headers2": "ipsum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-07-28T11:24:53.8280427+02:00",
+  "Registered": "2011-02-06T03:40:56.6650985+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-11-25T11:24:53.8280427+01:00",
+  "Updated": "2022-09-08T03:40:56.6650985+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "dianna.walsh@denesik.uk"
+  "ErrorsEmail": "giuseppe_cole@jacobi.biz"
 }
 ```
 
@@ -142,28 +145,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 362,
-  "Name": "Swift Inc and Sons",
+  "WebhookId": 159,
+  "Name": "Schmeler Inc and Sons",
   "Events": [
-    "illum",
-    "veniam"
+    "quibusdam",
+    "voluptas"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "natus",
+  "Secret": "delectus",
   "State": "Active",
-  "Type": "et",
+  "Type": "possimus",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "nisi"
+    "Headers1": "omnis",
+    "Headers2": "officia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-12T11:24:53.8280427+02:00",
+  "Registered": "2017-01-22T03:40:56.6650985+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-12-25T11:24:53.8280427+01:00",
+  "Updated": "2014-09-07T03:40:56.6650985+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "royal_mcdermott@schillerbahringer.co.uk",
+  "ErrorsEmail": "cleora@labadie.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

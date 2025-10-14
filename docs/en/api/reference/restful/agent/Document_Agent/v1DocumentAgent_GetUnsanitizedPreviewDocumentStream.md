@@ -15,6 +15,7 @@ Get the preview version of the document content as a stream.
 
 
 Retrieves an unsanitized version. This has less CPU impact but the caller must sanitize the content before presenting it to the user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 721
+  "DocumentId": 84
 }
 ```
 
@@ -94,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wilkinson-Ernser",
-  "Type": "et",
-  "Size": 106,
+  "Name": "Greenfelder, Rolfson and Jaskolski",
+  "Type": "soluta",
+  "Size": 925,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 16
     }
   }
 }

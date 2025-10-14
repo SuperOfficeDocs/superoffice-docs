@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 145,
-  "Name": "Gutmann Group",
-  "Tooltip": "perspiciatis",
+  "Id": 841,
+  "Name": "Watsica, Mueller and Murazik",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 660,
+  "Rank": 539,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": true
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "Name": "Feest, Hyatt and Russel",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 376,
+  "Id": 707,
+  "Name": "Bauch-Gusikowski",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 475,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 536
     }
   }
 }

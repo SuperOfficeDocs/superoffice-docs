@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 69,
-  "Name": "Hilll-Kub",
-  "Tooltip": "in",
+  "Id": 839,
+  "Name": "Rath-Yundt",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "UdListDefinitionId": 723,
-  "Rank": 313
+  "UdListDefinitionId": 795,
+  "Rank": 579
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Littel Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 280,
-  "Rank": 200,
+  "Id": 219,
+  "Name": "Quigley LLC",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "UdListDefinitionId": 688,
+  "Rank": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

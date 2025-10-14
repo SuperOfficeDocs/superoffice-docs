@@ -82,7 +82,7 @@ OK
 GET /api/v1/Person/{personId}/UtmParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UtmParametersId": 915,
-  "CreatedContactId": 110,
-  "CreatedPersonId": 638,
-  "FormSubmissionId": 531,
-  "FirstTouchSource": "recusandae",
-  "FirstTouchMedium": "quia",
-  "FirstTouchCampaign": "sint",
-  "FirstTouchTerm": "corporis",
-  "FirstTouchContent": "assumenda",
-  "FirstTouchReferrerDomain": "facere",
-  "FirstTouchWhen": "2025-02-02T11:24:53.4218153+01:00",
-  "Source": "expedita",
-  "Medium": "sit",
-  "Campaign": "nobis",
-  "Term": "sunt",
-  "Content": "fugiat",
-  "ReferrerDomain": "magnam",
-  "When": "2025-06-29T11:24:53.4218153+02:00",
-  "Registered": "2007-05-30T11:24:53.4218153+02:00",
-  "RegisteredAssociateId": 195,
-  "Updated": "2002-08-05T11:24:53.4218153+02:00",
-  "UpdatedAssociateId": 7,
-  "UpdatedCount": 392,
+  "UtmParametersId": 900,
+  "CreatedContactId": 539,
+  "CreatedPersonId": 642,
+  "FormSubmissionId": 152,
+  "FirstTouchSource": "voluptatem",
+  "FirstTouchMedium": "perspiciatis",
+  "FirstTouchCampaign": "eos",
+  "FirstTouchTerm": "beatae",
+  "FirstTouchContent": "tenetur",
+  "FirstTouchReferrerDomain": "temporibus",
+  "FirstTouchWhen": "2021-10-16T03:40:55.9136545+02:00",
+  "Source": "est",
+  "Medium": "est",
+  "Campaign": "aut",
+  "Term": "fugiat",
+  "Content": "aliquid",
+  "ReferrerDomain": "aut",
+  "When": "2016-05-20T03:40:55.9136545+02:00",
+  "Registered": "2018-01-25T03:40:55.9136545+01:00",
+  "RegisteredAssociateId": 339,
+  "Updated": "2017-03-04T03:40:55.9136545+01:00",
+  "UpdatedAssociateId": 284,
+  "UpdatedCount": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateAndAccept
 Creating an appointment from an emailItem invitation and accepting it.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 23,
+  "EmailItemId": 49,
   "UpdateMode": "OnlyThis"
 }
 ```

@@ -113,51 +113,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 195,
-  "Name": "Stoltenberg Group",
-  "Tooltip": "eaque",
-  "Rank": 840,
+  "SaleTypeId": 913,
+  "Name": "Cronin-Marks",
+  "Tooltip": "modi",
+  "Rank": 959,
   "DurationUnit": "Century",
-  "SaleDuration": 619,
-  "SaleTypeCatId": 434,
-  "Deleted": false,
+  "SaleDuration": 934,
+  "SaleTypeCatId": 771,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 533,
-  "QuoteLinesTemplate": 649,
-  "ConfirmationLinesTemplate": 520,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 813,
-  "MinEarningPercent": 238,
-  "GroupQuoteLinesBy": 612,
-  "SortGroupLinesBy": 561,
+  "DefaultQuoteValidity": 555,
+  "QuoteLinesTemplate": 512,
+  "ConfirmationLinesTemplate": 192,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 282,
+  "MinEarningPercent": 290,
+  "GroupQuoteLinesBy": 870,
+  "SortGroupLinesBy": 602,
   "Stages": [
     {
-      "Id": 220,
-      "Name": "Reilly-Johnson",
-      "ToolTip": "Quibusdam enim voluptas ut quia veritatis non exercitationem.",
+      "Id": 47,
+      "Name": "Kuhn-Mills",
+      "ToolTip": "Nisi itaque optio.",
       "Deleted": false,
-      "Rank": 347,
-      "Type": "incidunt",
-      "ColorBlock": 915,
-      "IconHint": "voluptates",
+      "Rank": 457,
+      "Type": "quidem",
+      "ColorBlock": 97,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2005-07-07T11:24:54.1405361+02:00",
+      "LastChanged": "2004-05-01T03:40:57.1027301+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "deleniti",
-      "StyleHint": "suscipit",
+      "ExtraInfo": "odio",
+      "StyleHint": "aliquid",
       "Hidden": false,
-      "FullName": "Ms. Kenna Jacobson IV"
+      "FullName": "Pierre O'Keefe"
     }
   ]
 }
@@ -170,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 800,
-  "Name": "Lebsack, Hudson and Leuschke",
-  "Tooltip": "molestiae",
-  "Rank": 556,
+  "SaleTypeId": 925,
+  "Name": "Upton-Reilly",
+  "Tooltip": "voluptatem",
+  "Rank": 177,
   "DurationUnit": "Century",
-  "SaleDuration": 479,
-  "SaleTypeCatId": 673,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 599,
+  "SaleTypeCatId": 210,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 307,
-  "QuoteLinesTemplate": 149,
-  "ConfirmationLinesTemplate": 89,
+  "DefaultQuoteValidity": 719,
+  "QuoteLinesTemplate": 445,
+  "ConfirmationLinesTemplate": 190,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 367,
-  "MinEarningPercent": 388,
-  "GroupQuoteLinesBy": 582,
-  "SortGroupLinesBy": 712,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 471,
+  "MinEarningPercent": 979,
+  "GroupQuoteLinesBy": 901,
+  "SortGroupLinesBy": 132,
   "Stages": [
     {
-      "Id": 681,
-      "Name": "O'Reilly Inc and Sons",
-      "ToolTip": "Et quasi quo nulla commodi eum.",
+      "Id": 167,
+      "Name": "Gulgowski-McDermott",
+      "ToolTip": "Consequatur qui corporis qui placeat.",
       "Deleted": false,
-      "Rank": 982,
-      "Type": "dolorum",
-      "ColorBlock": 364,
-      "IconHint": "omnis",
+      "Rank": 36,
+      "Type": "voluptatem",
+      "ColorBlock": 472,
+      "IconHint": "nam",
       "Selected": true,
-      "LastChanged": "2006-11-15T11:24:54.1405361+01:00",
+      "LastChanged": "2023-06-12T03:40:57.1027301+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "assumenda",
-      "StyleHint": "culpa",
+      "ExtraInfo": "dolor",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Miss Fritz McLaughlin II",
+      "FullName": "Derick Bryana Pacocha MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldType": "System.String",
+          "FieldLength": 910
         }
       }
     }
@@ -225,8 +225,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   }
 }

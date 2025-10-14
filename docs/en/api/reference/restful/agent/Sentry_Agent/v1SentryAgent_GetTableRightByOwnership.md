@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Return the TableRight from the relationship between the current user and the given user and group.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,13 +77,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Koelpin LLC",
-  "ContactGroupId": 892,
-  "ContactAssociateId": 71
+  "TableName": "Hahn Inc and Sons",
+  "ContactGroupId": 964,
+  "ContactAssociateId": 764
 }
 ```
 
@@ -92,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "voluptates",
+  "Mask": "ea",
   "Reason": ""
 }
 ```

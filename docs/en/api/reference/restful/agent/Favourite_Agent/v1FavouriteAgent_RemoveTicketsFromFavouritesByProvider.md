@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Remove a list of tickets from favourites that are given by the ticket provider.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,18 +73,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Adams-Fay",
+  "ProviderName": "Zemlak LLC",
   "Restrictions": [
     {
-      "Name": "Moore LLC",
-      "Operator": "eius",
+      "Name": "Schimmel Group",
+      "Operator": "unde",
       "Values": [
-        "ut",
-        "totam"
+        "quo",
+        "velit"
       ],
       "DisplayValues": [
-        "et",
-        "iste"
+        "maiores",
+        "quos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,12 +92,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 628,
+      "InterParenthesis": 378,
       "InterOperator": "And",
-      "UniqueHash": 950
+      "UniqueHash": 72
     }
   ],
-  "AssociateId": 902
+  "AssociateId": 465
 }
 ```
 

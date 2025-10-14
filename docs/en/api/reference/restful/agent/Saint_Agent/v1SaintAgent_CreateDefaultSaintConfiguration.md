@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 Loading default values into a new SaintConfiguration.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 681,
-  "Enabled": false,
-  "Period1": 877,
-  "Period2": 690,
-  "Period3": 488,
-  "GenerationStart": "2012-08-18T11:24:48.5470141+02:00",
-  "GenerationEnd": "2010-04-29T11:24:48.5470141+02:00",
-  "RowsGenerated": 260,
+  "OwnerTable": 756,
+  "Enabled": true,
+  "Period1": 165,
+  "Period2": 848,
+  "Period3": 432,
+  "GenerationStart": "2021-02-07T03:40:47.5942106+01:00",
+  "GenerationEnd": "2013-01-05T03:40:47.5942106+01:00",
+  "RowsGenerated": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 323
     }
   }
 }

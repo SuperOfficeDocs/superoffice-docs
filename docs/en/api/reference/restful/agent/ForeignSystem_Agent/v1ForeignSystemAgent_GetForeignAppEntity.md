@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Gets a ForeignAppEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=51
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=168
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,29 +86,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 724,
-  "Name": "Pacocha Group",
-  "CreatedDate": "2011-05-29T11:24:48.1564051+02:00",
-  "UpdatedDate": "2003-07-10T11:24:48.1564051+02:00",
+  "ForeignAppId": 150,
+  "Name": "Kovacek Inc and Sons",
+  "CreatedDate": "2022-07-09T03:40:46.9842779+02:00",
+  "UpdatedDate": "2024-11-18T03:40:46.9842779+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 904,
-      "Name": "Wiegand, Schulist and Wuckert",
-      "CreatedDate": "2013-04-29T11:24:48.1564051+02:00",
-      "UpdatedDate": "2016-05-18T11:24:48.1564051+02:00",
-      "AssociateFullName": "Michael Beahan",
-      "CreatedBy": "repudiandae",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "officia",
-      "ForeignAppId": 62,
+      "ForeignDeviceId": 896,
+      "Name": "Hartmann, O'Reilly and Huels",
+      "CreatedDate": "2017-02-02T03:40:46.9842779+01:00",
+      "UpdatedDate": "2011-03-07T03:40:46.9842779+01:00",
+      "AssociateFullName": "Mrs. Jocelyn Jaeden Morissette",
+      "CreatedBy": "sed",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "fugiat",
+      "ForeignAppId": 39,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 940
+          "FieldType": "System.Int32",
+          "FieldLength": 978
         }
       }
     }
@@ -115,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 11
+      "FieldType": "System.Int32",
+      "FieldLength": 162
     }
   }
 }

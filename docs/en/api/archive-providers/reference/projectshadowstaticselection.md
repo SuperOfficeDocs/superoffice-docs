@@ -180,6 +180,7 @@ Shadow contact provider for the static Project provider.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -224,11 +225,11 @@ Shadow contact provider for the static Project provider.
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
-|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
@@ -328,11 +329,11 @@ Shadow contact provider for the static Project provider.
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
-|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
@@ -432,11 +433,11 @@ Shadow contact provider for the static Project provider.
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMember/position|listAny|Position| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/position|listAny|Position| x |
 |projectMember/personNumber|string|Number: Displays the contact's number| x |
 |projectMember/title|string|Title: Displays the contact's job title| x |
 |projectMember/personCountry|listAny|Country: Country| x |
@@ -468,7 +469,9 @@ Shadow contact provider for the static Project provider.
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
+|projectMember/personCategoryGroup|listAny|Category group| x |
 |projectMember/personBusiness|listAny|Business| x |
+|projectMember/leadstatus|listAny|Lead status| x |
 |projectMember/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |projectMember/hasCompany|bool|Has company: The contact is associated with a company| x |
 |projectMember/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -534,13 +537,13 @@ Shadow contact provider for the static Project provider.
 |projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
 |projectMember/personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
-|projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
-|projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
-|projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
+|projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
+|projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
@@ -638,18 +641,19 @@ Shadow contact provider for the static Project provider.
 |projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/subscription|listAny|Subscription: Subscription for marketing| x |
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|projectMember/consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|projectMember/consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/name|stringorPK|Company name| x |
 |projectMember/department|string|Department| x |
 |projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
+|projectMember/categoryGroup|listAny|Category group| x |
 |projectMember/business|listAny|Business| x |
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |projectMember/countryId|int|Country ID: Country ID| x |
@@ -741,14 +745,14 @@ Shadow contact provider for the static Project provider.
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |projectMember/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |projectMember/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-|projectMember/contactUdef/SuperOffice:9|string|page1saleonly| x |
-|projectMember/contactUdef/SuperOffice:10|string|page1marketingonly| x |
-|projectMember/contactUdef/SuperOffice:11|string|page1adminonly| x |
-|projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:9|string|page1saleonly| x |
+|projectMember/contactUdef/SuperOffice:10|string|page1marketingonly| x |
+|projectMember/contactUdef/SuperOffice:11|string|page1adminonly| x |
+|projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |projectMember/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
@@ -810,7 +814,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelection?$select=appointment/associate/isLocation,document/subject,projectMember/hasCompany,projectMember/personAddress/addressId,projectMember/NumberOfTickets
+GET /api/v1/archive/ProjectShadowStaticSelection?$select=type,projectAssociate/contactId,NumberOfNotCompletedActivitiesInPeriod,sale/earning,appointment/associate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

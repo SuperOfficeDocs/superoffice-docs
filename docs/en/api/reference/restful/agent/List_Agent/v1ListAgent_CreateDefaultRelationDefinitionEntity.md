@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Loading default values into a new RelationDefinitionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 420,
-  "Name": "Buckridge-Rogahn",
-  "Tooltip": "eaque",
-  "PassiveText": "quis",
-  "Deleted": false,
-  "Rank": 413,
+  "ReldefId": 51,
+  "Name": "Jenkins-Weber",
+  "Tooltip": "excepturi",
+  "PassiveText": "unde",
+  "Deleted": true,
+  "Rank": 356,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +88,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 62
     }
   }
 }

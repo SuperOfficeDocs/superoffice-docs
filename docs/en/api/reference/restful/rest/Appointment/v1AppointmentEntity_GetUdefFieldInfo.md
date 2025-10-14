@@ -94,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 163,
-  "ColumnId": 144,
-  "FieldDefault": "velit",
-  "FieldHeight": 782,
-  "FieldLabel": "totam",
-  "FieldLeft": 938,
-  "FieldTop": 139,
+  "UDefFieldId": 887,
+  "ColumnId": 550,
+  "FieldDefault": "consectetur",
+  "FieldHeight": 29,
+  "FieldLabel": "occaecati",
+  "FieldLeft": 52,
+  "FieldTop": 519,
   "FieldType": "Checkbox",
-  "FieldWidth": 66,
-  "FormatMask": "in",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 146,
-  "LabelLeft": 598,
-  "LabelTop": 486,
-  "LabelWidth": 286,
-  "LastVersionId": 783,
-  "ListTableId": 17,
+  "FieldWidth": 916,
+  "FormatMask": "ut",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 936,
+  "LabelLeft": 107,
+  "LabelTop": 737,
+  "LabelWidth": 192,
+  "LastVersionId": 682,
+  "ListTableId": 732,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 574,
-  "ProgId": "et",
+  "Page1LineNo": 94,
+  "ProgId": "commodi",
   "IsReadOnly": true,
-  "ShortLabel": "est",
-  "TabOrder": 292,
-  "TextLength": 406,
-  "Tooltip": "cumque",
-  "UdefIdentity": 580,
-  "UDListDefinitionId": 587,
+  "ShortLabel": "et",
+  "TabOrder": 25,
+  "TextLength": 545,
+  "Tooltip": "magnam",
+  "UdefIdentity": 109,
+  "UDListDefinitionId": 17,
   "Justification": "Center",
-  "Version": 435,
-  "TemplateVariableName": "Bruen Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Williamson, Heaney and Crooks",
+  "Version": 798,
+  "TemplateVariableName": "Lesch, Herzog and Veum",
+  "HasBeenPublished": false,
+  "MdoListName": "Koelpin-Mertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldLength": 325
     }
   }
 }

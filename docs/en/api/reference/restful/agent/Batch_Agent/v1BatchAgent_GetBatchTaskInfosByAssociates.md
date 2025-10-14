@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Get an array of BatchTaskInfo for the provided associate id's.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -100,8 +102,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    632,
-    850
+    951,
+    436
   ]
 }
 ```
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Huel, Gutkowski and Torp",
-    "AssociateId": 19,
-    "DetailsTable": 588,
-    "DetailsRecord": 346,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 45,
+    "Name": "Harris Group",
+    "AssociateId": 679,
+    "DetailsTable": 244,
+    "DetailsRecord": 638,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dicta",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "atque",
+      "ParameterObject2": "quo"
     },
-    "LastStarted": "2011-08-27T11:24:47.6095526+02:00",
-    "Created": "2012-04-21T11:24:47.6095526+02:00",
-    "StartCount": 428,
-    "DatabaseSerialNumber": "389528",
-    "Context": "eum",
-    "Result": "veniam",
+    "LastStarted": "2016-11-05T03:40:46.0764548+01:00",
+    "Created": "2002-11-23T03:40:46.0764548+01:00",
+    "StartCount": 557,
+    "DatabaseSerialNumber": "1422371",
+    "Context": "laudantium",
+    "Result": "veritatis",
     "State": "All",
-    "Description": "Cross-group neutral groupware",
-    "Response": "quia",
-    "Request": "nobis",
-    "ProgressDescription": "Switchable coherent attitude",
-    "ProgressPercent": 734,
-    "FileName": "Deckow-Trantow",
+    "Description": "Function-based responsive function",
+    "Response": "eos",
+    "Request": "ut",
+    "ProgressDescription": "Managed impactful time-frame",
+    "ProgressPercent": 866,
+    "FileName": "Stamm, Ankunding and O'Connell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldType": "System.String",
+        "FieldLength": 806
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 784,
-  "TopicId": 293,
+  "ChatSessionId": 167,
+  "TopicId": 971,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "dolorem",
-  "CustomerName": "Mante-Hagenes",
-  "CustomerEmail": "sydnee@rathadams.biz",
-  "CustomerPhone": "378-018-4565",
+  "CustomerAlias": "et",
+  "CustomerHost": "error",
+  "CustomerName": "Pacocha Group",
+  "CustomerEmail": "alyson@jonesabernathy.co.uk",
+  "CustomerPhone": "644-420-9423",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hodkiewicz Inc and Sons",
+  "CustomerCompanyName": "Batz LLC",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "perferendis",
-  "WhenRequested": "2014-07-16T11:24:53.0468304+02:00",
-  "WhenStarted": "2011-04-11T11:24:53.0468304+02:00",
-  "WhenEnded": "2018-02-06T11:24:53.0468304+01:00",
-  "WhenIdle": "2008-10-28T11:24:53.0468304+01:00",
-  "WhenFetched": "2004-05-04T11:24:53.0468304+02:00",
-  "SessionKey": "ex",
-  "InitialQueuePos": 689,
-  "AlertLevel": 327,
-  "Rank": 88,
+  "FirstMessage": "doloremque",
+  "LastMessage": "eum",
+  "WhenRequested": "2011-12-30T03:40:55.3818111+01:00",
+  "WhenStarted": "2000-06-14T03:40:55.3818111+02:00",
+  "WhenEnded": "2024-04-02T03:40:55.3818111+02:00",
+  "WhenIdle": "2010-05-04T03:40:55.3818111+02:00",
+  "WhenFetched": "2020-08-24T03:40:55.3818111+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 735,
+  "AlertLevel": 450,
+  "Rank": 47,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 896,
+  "ChatbotIsActive": false,
+  "Rating": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 710
     }
   }
 }

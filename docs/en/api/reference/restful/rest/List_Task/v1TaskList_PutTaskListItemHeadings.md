@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 791,
-    "Name": "Windler LLC",
-    "Tooltip": "consequuntur",
+    "HeadingId": 117,
+    "Name": "Schroeder Inc and Sons",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "Rank": 575,
-    "UdListDefinitionId": 993
+    "Rank": 89,
+    "UdListDefinitionId": 361
   },
   {
-    "HeadingId": 791,
-    "Name": "Windler LLC",
-    "Tooltip": "consequuntur",
+    "HeadingId": 117,
+    "Name": "Schroeder Inc and Sons",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "Rank": 575,
-    "UdListDefinitionId": 993
+    "Rank": 89,
+    "UdListDefinitionId": 361
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 131,
-    "Name": "Lehner Inc and Sons",
-    "Tooltip": "quaerat",
+    "HeadingId": 266,
+    "Name": "Collins Inc and Sons",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 112,
-    "UdListDefinitionId": 802,
+    "Rank": 754,
+    "UdListDefinitionId": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

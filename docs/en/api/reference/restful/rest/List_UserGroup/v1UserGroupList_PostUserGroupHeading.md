@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 552,
-  "Name": "Zulauf, Maggio and Von",
-  "Tooltip": "corrupti",
+  "HeadingId": 751,
+  "Name": "Langworth-McGlynn",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 141,
-  "UdListDefinitionId": 3
+  "Rank": 33,
+  "UdListDefinitionId": 420
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 831,
-  "Name": "Green Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 627,
-  "UdListDefinitionId": 783,
+  "HeadingId": 333,
+  "Name": "Abbott, Zboncak and Ziemann",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 862,
+  "UdListDefinitionId": 810,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

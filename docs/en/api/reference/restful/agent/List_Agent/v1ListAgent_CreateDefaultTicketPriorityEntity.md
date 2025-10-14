@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Loading default values into a new TicketPriorityEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,60 +95,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 50,
-  "Name": "Cormier, Smith and Borer",
+  "TicketPriorityId": 723,
+  "Name": "Langworth Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 967,
+  "SortOrder": 165,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 480,
-  "MonStart": "2020-07-15T11:24:48.1876539+02:00",
-  "MonStop": "2003-03-30T11:24:48.1876539+02:00",
-  "TueStart": "2018-08-31T11:24:48.1876539+02:00",
-  "TueStop": "2021-12-08T11:24:48.1876539+01:00",
-  "WedStart": "2008-06-12T11:24:48.1876539+02:00",
-  "WedStop": "2012-03-18T11:24:48.1876539+01:00",
-  "ThuStart": "2003-09-05T11:24:48.1876539+02:00",
-  "ThuStop": "2019-09-21T11:24:48.1876539+02:00",
-  "FriStart": "2003-02-22T11:24:48.1876539+01:00",
-  "FriStop": "2025-08-08T11:24:48.1876539+02:00",
-  "SatStart": "2023-01-05T11:24:48.1876539+01:00",
-  "SatStop": "2010-01-27T11:24:48.1876539+01:00",
-  "SunStart": "2000-12-03T11:24:48.1876539+01:00",
-  "SunStop": "2005-11-01T11:24:48.1876539+01:00",
+  "Deadline": 89,
+  "MonStart": "2006-06-08T03:40:47.0311652+02:00",
+  "MonStop": "2006-03-13T03:40:47.0311652+01:00",
+  "TueStart": "2001-08-13T03:40:47.0311652+02:00",
+  "TueStop": "2002-05-08T03:40:47.0311652+02:00",
+  "WedStart": "2020-11-20T03:40:47.0311652+01:00",
+  "WedStop": "2018-07-30T03:40:47.0311652+02:00",
+  "ThuStart": "2001-02-13T03:40:47.0311652+01:00",
+  "ThuStop": "2010-05-15T03:40:47.0311652+02:00",
+  "FriStart": "2012-05-01T03:40:47.0311652+02:00",
+  "FriStop": "2000-06-21T03:40:47.0311652+02:00",
+  "SatStart": "2007-12-13T03:40:47.0311652+01:00",
+  "SatStop": "2005-08-26T03:40:47.0311652+02:00",
+  "SunStart": "2012-07-17T03:40:47.0311652+02:00",
+  "SunStop": "2024-02-26T03:40:47.0311652+01:00",
   "NonDates": [
-    "magni",
-    "porro"
+    "saepe",
+    "debitis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 257,
-      "AlertLevel": 64,
-      "AlertTimeout": 250,
-      "Action": 141,
-      "DelegateTo": 972,
-      "ScriptId": 806,
-      "EmailTo": "carol.grady@williamson.biz",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 156,
-      "ReplyTemplateIdUser": 282,
-      "ReplyTemplateIdCatmast": 462,
-      "ReplyTemplateIdEmail": 682,
-      "RtiCustomerSms": 873,
-      "ReplyTemplateIdUserSms": 198,
-      "ReplyTemplateIdCatmastSms": 757,
-      "ReplyTemplateIdSms": 331,
+      "TicketAlertId": 816,
+      "AlertLevel": 984,
+      "AlertTimeout": 440,
+      "Action": 94,
+      "DelegateTo": 195,
+      "ScriptId": 891,
+      "EmailTo": "korbin_bartell@sawayn.us",
+      "SmsTo": "voluptas",
+      "ReplyTemplateIdCustomer": 489,
+      "ReplyTemplateIdUser": 232,
+      "ReplyTemplateIdCatmast": 69,
+      "ReplyTemplateIdEmail": 616,
+      "RtiCustomerSms": 70,
+      "ReplyTemplateIdUserSms": 485,
+      "ReplyTemplateIdCatmastSms": 693,
+      "ReplyTemplateIdSms": 603,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     }
@@ -155,8 +157,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 217
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

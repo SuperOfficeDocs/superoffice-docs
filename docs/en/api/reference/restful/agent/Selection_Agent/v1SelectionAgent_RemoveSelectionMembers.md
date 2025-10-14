@@ -15,6 +15,7 @@ Removes members from the selection as  specified in the collection of entity ids
 
 
 The ids are selection member ids (selection member primary key)
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,14 +69,14 @@ No Content
 POST /api/v1/Agents/Selection/RemoveSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 696,
+  "SelectionId": 10,
   "SelectionMemberIds": [
-    734,
-    843
+    514,
+    797
   ]
 }
 ```

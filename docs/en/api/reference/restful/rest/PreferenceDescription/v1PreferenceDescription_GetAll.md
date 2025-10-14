@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 913,
-    "Section": "non",
-    "Key": "consequatur",
-    "Name": "Schowalter, Hoeger and Rosenbaum",
+    "PrefDescId": 446,
+    "Section": "et",
+    "Key": "voluptas",
+    "Name": "Koch, Wilderman and Miller",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Re-contextualized coherent task-force",
+    "Description": "Object-based global projection",
     "IsBuiltin": false,
-    "TableName": "Gislason-Weissnat",
-    "UserDefinedListId": 199,
-    "Rank": 715,
-    "SubGroup": "aut",
-    "MinLevel": 791,
-    "MaxValue": 937,
-    "MinValue": 526,
-    "RequiredLicense": "perferendis",
+    "TableName": "Champlin, McKenzie and Kutch",
+    "UserDefinedListId": 41,
+    "Rank": 999,
+    "SubGroup": "tempore",
+    "MinLevel": 726,
+    "MaxValue": 424,
+    "MinValue": 337,
+    "RequiredLicense": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 188
       }
     }
   }

@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria.
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,16 +83,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Ortiz-Bradtke",
-  "StorageKey": "assumenda",
+  "StorageType": "et",
+  "ProviderName": "Lockman, Zboncak and Ernser",
+  "StorageKey": "ratione",
   "StaticColumns": [
-    "quia",
-    "ullam"
+    "ullam",
+    "modi"
   ]
 }
 ```
@@ -105,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hermann Group",
-      "Operator": "fugit",
+      "Name": "Hegmann-Feeney",
+      "Operator": "sit",
       "Values": [
-        "eos",
-        "est"
+        "eum",
+        "voluptas"
       ],
       "DisplayValues": [
-        "voluptas",
-        "et"
+        "sit",
+        "quo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 863,
+      "InterParenthesis": 413,
       "InterOperator": "And",
-      "UniqueHash": 402
+      "UniqueHash": 112
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grimes-Kuphal",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "a",
+      "DisplayName": "Altenwerth, Williamson and Beahan",
+      "DisplayTooltip": "autem",
+      "DisplayType": "ab",
       "CanOrderBy": false,
-      "Name": "Crooks, Leuschke and Hilpert",
+      "Name": "Green LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Lakin LLC",
-      "IsVisible": false,
-      "ExtraInfo": "mollitia",
-      "Width": "facere",
-      "IconHint": "reprehenderit",
-      "HeadingIconHint": "dolore"
+      "RestrictionType": "quia",
+      "RestrictionListName": "Simonis-Marquardt",
+      "IsVisible": true,
+      "ExtraInfo": "officia",
+      "Width": "provident",
+      "IconHint": "ullam",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goodwin LLC",
-      "PrimaryKey": 509,
+      "EntityName": "Rau Group",
+      "PrimaryKey": 259,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "et",
-          "TooltipHint": "exercitationem",
-          "LinkHint": "vel"
+          "TooltipHint": "tempora",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "minima",
+      "LinkHint": "sed",
+      "StyleHint": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Funk, Frami and Carroll",
-      "Description": "Right-sized optimal firmware",
-      "Rank": 575,
+      "Name": "Feest, Bernier and Keebler",
+      "Description": "Future-proofed interactive website",
+      "Rank": 286,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Funk, Frami and Carroll",
-      "Description": "Right-sized optimal firmware",
-      "Rank": 575,
+      "Name": "Feest, Bernier and Keebler",
+      "Description": "Future-proofed interactive website",
+      "Rank": 286,
       "Restrictions": [
         {},
         {}
@@ -191,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldLength": 231
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Get a quick reply from its quick reply id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 94
+  "QuickReplyId": 125
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Shields-Armstrong",
-  "UpdatedByFullName": "Gwen Rempel",
-  "Updated": "2000-02-21T11:24:47.8595421+01:00",
-  "HtmlBody": "minima",
+  "Name": "Fritsch LLC",
+  "UpdatedByFullName": "Ms. Damien Alana Stiedemann Sr.",
+  "Updated": "2005-02-27T03:40:46.5468616+01:00",
+  "HtmlBody": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 891
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/RegisterWithAccessGateway
 Registers with access gateway if not already done, otherwise will attempt to update
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -77,11 +80,11 @@ OK
 POST /api/v1/Agents/User/RegisterWithAccessGateway
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "exercitationem"
+  "RedirectUri": "voluptatibus"
 }
 ```
 
@@ -92,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "quae",
-  "RedirectUri": "at",
+  "ClientId": "sequi",
+  "RedirectUri": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

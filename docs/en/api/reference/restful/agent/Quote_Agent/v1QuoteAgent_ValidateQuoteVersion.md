@@ -15,6 +15,7 @@ When the user changes one or more values in a quoteline or a quoteAlternative, t
 
 
 ValidateQuoteVersion shall be called when the user presses the validate button, presses the send button or closes the quote dialog. RecalculateQuoteAlternative should typically validate all alternatives, set values in extrafields, and set the state in the version.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 247,
+  "QuoteVersionId": 283,
   "Action": "Approve"
 }
 ```
@@ -102,9 +103,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "eligendi",
-  "TechExplanation": "excepturi",
-  "ErrorCode": "minus",
+  "UserExplanation": "est",
+  "TechExplanation": "quia",
+  "ErrorCode": "qui",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -118,7 +119,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldLength": 380
         }
       }
     },
@@ -131,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 803
+          "FieldLength": 380
         }
       }
     }
@@ -142,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 239
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEvent
 Loading default values into a new WorkflowEvent.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -68,13 +70,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "velit",
+  "Attributes": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

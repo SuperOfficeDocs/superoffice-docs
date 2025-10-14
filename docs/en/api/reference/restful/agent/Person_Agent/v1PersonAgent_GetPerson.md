@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetPerson
 Gets a Person object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=725
+POST /api/v1/Agents/Person/GetPerson?personId=625
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -118,53 +120,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "vel",
-  "PersonId": 687,
-  "Mrmrs": "voluptas",
-  "Firstname": "Blanca",
-  "Lastname": "Heidenreich",
-  "MiddleName": "Beier-Weimann",
-  "Title": "eum",
-  "Description": "Function-based next generation moratorium",
-  "Email": "judd_huel@johnson.biz",
-  "FullName": "Mr. Brando Natalie Nader Sr.",
-  "DirectPhone": "(948)020-1218",
-  "FormalName": "Koss-Rath",
-  "CountryId": 160,
-  "ContactId": 97,
-  "ContactName": "Gorczany, Gutmann and Turcotte",
-  "Retired": 863,
-  "Rank": 93,
-  "ActiveInterests": 825,
+  "Position": "velit",
+  "PersonId": 416,
+  "Mrmrs": "dolores",
+  "Firstname": "Ellie",
+  "Lastname": "Kreiger",
+  "MiddleName": "Dietrich-Ziemann",
+  "Title": "adipisci",
+  "Description": "Sharable system-worthy neural-net",
+  "Email": "athena@boganzieme.us",
+  "FullName": "Timmy Kiehn PhD",
+  "DirectPhone": "133-981-9701 x40331",
+  "FormalName": "Kshlerin, Stark and Larkin",
+  "CountryId": 467,
+  "ContactId": 545,
+  "ContactName": "Upton-Cassin",
+  "Retired": 993,
+  "Rank": 928,
+  "ActiveInterests": 573,
   "ContactDepartment": "",
-  "ContactCountryId": 869,
-  "ContactOrgNr": "1021441",
-  "FaxPhone": "930-382-1683 x80365",
-  "MobilePhone": "1-131-892-9678",
-  "ContactPhone": "591-049-6118",
-  "AssociateName": "McCullough, VonRueden and Rogahn",
-  "AssociateId": 670,
-  "UsePersonAddress": true,
-  "ContactFax": "fugiat",
-  "Kanafname": "labore",
-  "Kanalname": "pariatur",
-  "Post1": "aperiam",
-  "Post2": "omnis",
-  "Post3": "tenetur",
-  "EmailName": "matteo@spinkaschultz.ca",
-  "ContactFullName": "Danyka Wehner",
-  "ActiveErpLinks": 455,
-  "TicketPriorityId": 729,
-  "SupportLanguageId": 98,
-  "SupportAssociateId": 949,
+  "ContactCountryId": 301,
+  "ContactOrgNr": "1269938",
+  "FaxPhone": "446-927-0757 x869",
+  "MobilePhone": "886.892.7970",
+  "ContactPhone": "773.137.6309 x90980",
+  "AssociateName": "Erdman Inc and Sons",
+  "AssociateId": 26,
+  "UsePersonAddress": false,
+  "ContactFax": "inventore",
+  "Kanafname": "eaque",
+  "Kanalname": "non",
+  "Post1": "laboriosam",
+  "Post2": "facere",
+  "Post3": "et",
+  "EmailName": "stanley.schmeler@williamson.ca",
+  "ContactFullName": "Mrs. Deion Vivien Mills PhD",
+  "ActiveErpLinks": 21,
+  "TicketPriorityId": 749,
+  "SupportLanguageId": 354,
+  "SupportAssociateId": 748,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "634032",
+  "PersonNumber": "647809",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 948
     }
   }
 }

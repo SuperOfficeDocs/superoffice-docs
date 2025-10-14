@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Larson Group",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 870,
-    "Rank": 454,
+    "Id": 18,
+    "Name": "Hane-Koch",
+    "Tooltip": "porro",
+    "Deleted": false,
+    "UdListDefinitionId": 685,
+    "Rank": 485,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 987
       }
     }
   }

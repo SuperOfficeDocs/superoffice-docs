@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Loading default values into a new EMailCustomHeader.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -59,7 +62,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailCustomHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,17 +72,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lemke, Moen and Roberts",
+  "Name": "Shields, Fahey and Botsford",
   "Values": [
-    "veniam",
-    "quibusdam"
+    "voluptas",
+    "assumenda"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldLength": 488
     }
   }
 }

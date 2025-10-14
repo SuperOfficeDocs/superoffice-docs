@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Sequi quo in earum.",
-    "Deleted": false,
-    "Rank": 944,
-    "Type": "est",
-    "ColorBlock": 407,
-    "IconHint": "quod",
+    "Id": 974,
+    "Name": "Johns Group",
+    "ToolTip": "Non ullam minus possimus iste totam voluptas reprehenderit.",
+    "Deleted": true,
+    "Rank": 661,
+    "Type": "molestias",
+    "ColorBlock": 850,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2010-12-26T11:24:53.9061703+01:00",
+    "LastChanged": "2007-01-19T03:40:56.790106+01:00",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Hodkiewicz-McDermott",
-        "ToolTip": "Repellat doloribus.",
+        "Id": 712,
+        "Name": "Legros-Huels",
+        "ToolTip": "Labore totam inventore a accusantium quisquam fugiat.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "deleniti",
-        "ColorBlock": 793,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2016-11-02T11:24:53.9061703+01:00",
+        "Rank": 9,
+        "Type": "necessitatibus",
+        "ColorBlock": 767,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2023-11-14T03:40:56.790106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "error",
+        "ExtraInfo": "id",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Shayne Nikolaus",
+        "FullName": "Aileen Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldType": "System.String",
+            "FieldLength": 899
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "ratione",
+    "StyleHint": "quibusdam",
     "Hidden": true,
-    "FullName": "Dr. Delilah Davis",
+    "FullName": "Enoch Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 54
       }
     }
   }

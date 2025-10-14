@@ -115,118 +115,119 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/orderComment|string|Comment: Customer's comment| x |
 |alternative/version/quote/connectionId|int|DB-ID: Database ID| x |
 |alternative/version/quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
-|alternative/version/quote/sale/completed|bool|Sale - Completed: Displays a checkbox showing if an appointment is completed| x |
-|alternative/version/quote/sale/icon|listAny|Sale - Category: Displays the icon for an activity type| x |
-|alternative/version/quote/sale/date|date|Sale - Date: Displays start date of a follow-up / sale date of a sale| x |
-|alternative/version/quote/sale/time| *None* |Sale - Time: Time|  |
+|alternative/version/quote/sale/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|alternative/version/quote/sale/icon|listAny|Category: Displays the icon for an activity type| x |
+|alternative/version/quote/sale/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|alternative/version/quote/sale/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
-|alternative/version/quote/sale/type|listAny|Sale - Type: Displays the type of an activity| x |
-|alternative/version/quote/sale/recordType|string|Sale - Record type: Shows the record type| x |
-|alternative/version/quote/sale/text|positiveString|Sale - Text: Displays a descriptive text for the item| x |
-|alternative/version/quote/sale/associateId|associate|Sale - ID: Displays the login ID of the associate who owns the activity.| x |
-|alternative/version/quote/sale/contactId|listAny|Sale - Company ID: Database ID of company| x |
-|alternative/version/quote/sale/personId|listAny|Sale - Contact ID: Database ID of the contact row| x |
-|alternative/version/quote/sale/projectId|listAny|Sale - Project ID: Database ID of project record| x |
-|alternative/version/quote/sale/saleId|int|Sale - Sale ID: The database ID of the sale record| x |
-|alternative/version/quote/sale/userGroup|userGroup|Sale - User group: The user group that owns the record| x |
-|alternative/version/quote/sale/who| *None* |Sale - Who: Contact and/or company|  |
-|alternative/version/quote/sale/updatedBy|associate|Sale - Updated by: The user who last updated the data| x |
-|alternative/version/quote/sale/updatedByFullName|associate|Sale - Updated by - Full name: The user who last updated the data| x |
-|alternative/version/quote/sale/updatedDate|date|Sale - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/sale/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
-|alternative/version/quote/sale/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
-|alternative/version/quote/sale/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
-|alternative/version/quote/sale/currencyId|int|Sale - Currency ID: The currency list item ID| x |
-|alternative/version/quote/sale/currency|listAny|Sale - Currency: The currency of the sale| x |
-|alternative/version/quote/sale/credited|listAny|Sale - Credited: The user to be credited with the sale| x |
-|alternative/version/quote/sale/lossReason|listAny|Sale - Reason (lost): The reason for losing the sale| x |
-|alternative/version/quote/sale/source|listAny|Sale - Source: The source (lead) of the sale| x |
-|alternative/version/quote/sale/competitor|listAny|Sale - Competitor: The competitor who won the sale| x |
-|alternative/version/quote/sale/heading|stringorPK|Sale - Sale: The name of the sale| x |
-|alternative/version/quote/sale/amount|decimal|Sale - Amount: The gross sales total| x |
-|alternative/version/quote/sale/amountWeighted|decimal|Sale - Weighted amount: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
-|alternative/version/quote/sale/earningPercent|decimal|Sale - Profit as %: The profit as a percentage of the gross sales total| x |
-|alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
-|alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
-|alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
-|alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
-|alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
-|alternative/version/quote/sale/stageRank| *None* |Sale - Stage rank: Rank of the sale stage in the stage list| x |
-|alternative/version/quote/sale/saleType|listAny|Sale - Sale type: Sale type, from list| x |
-|alternative/version/quote/sale/saleTypeId| *None* |Sale - Sale type ID: Sale type, from list| x |
-|alternative/version/quote/sale/stageId| *None* |Sale - Sale stage ID: Displays the stage of the sale| x |
-|alternative/version/quote/sale/nextDueDate|date|Sale - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|alternative/version/quote/sale/reopenDate|date|Sale - Reopen date: Displays the reopen date for the sale| x |
-|alternative/version/quote/sale/stalledComment|listAny|Sale - Reason (stalled): The reason the sale has been stalled| x |
-|alternative/version/quote/sale/saleTypeCategory|listAny|Sale - Sale type category: Sale type category| x |
-|alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
-|alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
-|alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders enabled| x |
-|alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
-|alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
-|alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
-|alternative/version/quote/sale/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
-|alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
-|alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
-|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
-|alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
-|alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
-|alternative/version/quote/sale/associate/firstName|string|Sale - First name: Displays the contact's first name| x |
-|alternative/version/quote/sale/associate/lastName|string|Sale - Last name: Displays the contact's last name| x |
-|alternative/version/quote/sale/associate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/associate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|alternative/version/quote/sale/associate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
-|alternative/version/quote/sale/associate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
-|alternative/version/quote/sale/associate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|alternative/version/quote/sale/associate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|alternative/version/quote/sale/associate/associateDbId|associate|Sale - ID| x |
-|alternative/version/quote/sale/associate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
-|alternative/version/quote/sale/associate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
-|alternative/version/quote/sale/associate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
-|alternative/version/quote/sale/associate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
-|alternative/version/quote/sale/associate/contactFullName|string|Sale - Owner: Name and department of the company the user belongs to| x |
-|alternative/version/quote/sale/associate/contactCategory|listAny|Sale - Category: Category| x |
-|alternative/version/quote/sale/associate/role|listAny|Sale - Role: Role| x |
-|alternative/version/quote/sale/associate/assocName|associate|Sale - User ID: User ID| x |
-|alternative/version/quote/sale/associate/assocTooltip|string|Sale - Description: Description|  |
-|alternative/version/quote/sale/associate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
-|alternative/version/quote/sale/associate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
-|alternative/version/quote/sale/associate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
-|alternative/version/quote/sale/associate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|alternative/version/quote/sale/associate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
-|alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|alternative/version/quote/sale/associate/isActive|bool|Sale - Active: Is this user active, and should be able to log in?| x |
-|alternative/version/quote/sale/associate/isActiveText|bool|Sale - Active status: Is this user active, and should be able to log in?| x |
-|alternative/version/quote/sale/associate/portraitThumbnail| *None* |Sale - Person image: Person image|  |
-|alternative/version/quote/sale/associate/otherGroups|userGroup|Sale - Other groups: Other groups|  |
-|alternative/version/quote/sale/associate/userName|string|Sale - User name: User name| x |
-|alternative/version/quote/sale/associate/personEmail|string|Sale - E-mail| x |
-|alternative/version/quote/sale/associate/locationAddress|string|Sale - Location: Location| x |
-|alternative/version/quote/sale/associate/isLocation|bool|Sale - Is a location: Is a location| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:1|string|Sale - saleshorttext| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:2|string|Sale - salelongtext| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:3|int|Sale - salenumber| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:4|date|Sale - saledate| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:5|unlimitedDate|Sale - saleunlimiteddate| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:6|bool|Sale - salecheckbox| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:7|listAny|Sale - saledropdownlistbox| x |
-|alternative/version/quote/sale/saleUdef/SuperOffice:8|decimal|Sale - saledecimal| x |
+|alternative/version/quote/sale/type|listAny|Type: Displays the type of an activity| x |
+|alternative/version/quote/sale/recordType|string|Record type : Shows the record type| x |
+|alternative/version/quote/sale/text|positiveString|Text: Displays a descriptive text for the item| x |
+|alternative/version/quote/sale/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|alternative/version/quote/sale/contactId|listAny|Company ID: Database ID of company| x |
+|alternative/version/quote/sale/personId|listAny|Contact ID: Database ID of the contact row| x |
+|alternative/version/quote/sale/projectId|listAny|Project ID: Database ID of project record| x |
+|alternative/version/quote/sale/saleId|int|Sale ID: The database ID of the sale record| x |
+|alternative/version/quote/sale/userGroup|userGroup|User group : The user group that owns the record| x |
+|alternative/version/quote/sale/who| *None* |Who: Contact and/or company|  |
+|alternative/version/quote/sale/updatedBy|associate|Updated by: The user who last updated the data| x |
+|alternative/version/quote/sale/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|alternative/version/quote/sale/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|alternative/version/quote/sale/registeredBy|associate|Registered by: The user who registered the data| x |
+|alternative/version/quote/sale/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|alternative/version/quote/sale/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|alternative/version/quote/sale/currencyId|int|Currency ID: The currency list item ID| x |
+|alternative/version/quote/sale/currency|listAny|Currency: The currency of the sale| x |
+|alternative/version/quote/sale/credited|listAny|Credited: The user to be credited with the sale| x |
+|alternative/version/quote/sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
+|alternative/version/quote/sale/source|listAny|Source: The source (lead) of the sale| x |
+|alternative/version/quote/sale/competitor|listAny|Competitor: The competitor who won the sale| x |
+|alternative/version/quote/sale/heading|stringorPK|Sale: The name of the sale| x |
+|alternative/version/quote/sale/amount|decimal|Amount: The gross sales total| x |
+|alternative/version/quote/sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
+|alternative/version/quote/sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|alternative/version/quote/sale/probPercent|int|Probability as %: Probability as %| x |
+|alternative/version/quote/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
+|alternative/version/quote/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
+|alternative/version/quote/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
+|alternative/version/quote/sale/saleType|listAny|Sale type: Sale type, from list| x |
+|alternative/version/quote/sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|alternative/version/quote/sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
+|alternative/version/quote/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|alternative/version/quote/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|alternative/version/quote/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|alternative/version/quote/sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
+|alternative/version/quote/sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+|alternative/version/quote/sale/saleNumber|string|Number: Number| x |
+|alternative/version/quote/sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
+|alternative/version/quote/sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
+|alternative/version/quote/sale/description|string|Description: The long description field on Sale|  |
+|alternative/version/quote/sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|alternative/version/quote/sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|alternative/version/quote/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
+|alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/visibleFor|listAny|Visible for|  |
+|alternative/version/quote/sale/sale/textId|int|Text ID| x |
+|alternative/version/quote/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
+|alternative/version/quote/sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|alternative/version/quote/sale/associate/lastName|string|Last name: Displays the contact's last name| x |
+|alternative/version/quote/sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|alternative/version/quote/sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|alternative/version/quote/sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|alternative/version/quote/sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|alternative/version/quote/sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|alternative/version/quote/sale/associate/associateDbId|associate|ID| x |
+|alternative/version/quote/sale/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|alternative/version/quote/sale/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|alternative/version/quote/sale/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|alternative/version/quote/sale/associate/usergroupId|int|Group ID: The user's primary user group| x |
+|alternative/version/quote/sale/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|alternative/version/quote/sale/associate/contactCategory|listAny|Category: Category| x |
+|alternative/version/quote/sale/associate/role|listAny|Role : Role| x |
+|alternative/version/quote/sale/associate/assocName|associate|User ID : User ID| x |
+|alternative/version/quote/sale/associate/assocTooltip|string|Description : Description|  |
+|alternative/version/quote/sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|alternative/version/quote/sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|alternative/version/quote/sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|alternative/version/quote/sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|alternative/version/quote/sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|alternative/version/quote/sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|alternative/version/quote/sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
+|alternative/version/quote/sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
+|alternative/version/quote/sale/associate/userName|string|User name: User name| x |
+|alternative/version/quote/sale/associate/personEmail|string|E-mail| x |
+|alternative/version/quote/sale/associate/locationAddress|string|Location: Location| x |
+|alternative/version/quote/sale/associate/isLocation|bool|Is a location: Is a location| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:2|string|salelongtext| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:3|int|salenumber| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:4|date|saledate| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
+|alternative/version/quote/sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |alternative/version/quote/connection/quoteConnectionId|int|ERP connection - DB-ID: Database ID| x |
 |alternative/version/quote/connection/deleted|bool|ERP connection - Deleted: Column showing if the ERP connection has been marked as deleted| x |
 |alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
-|alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
@@ -256,7 +257,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/approvalRegisteredBy,alternative/version/quote/sale/associate/ejDisplayName,alternative/version/state
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/approvedBy,alternative/version/quote/sale/saleUdef/SuperOffice:1,alternative/version/quote/connection/erpConnection/erpId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
