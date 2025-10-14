@@ -9,6 +9,7 @@ items:
   - SuperOffice.Util.BizCardResult.Business
   - SuperOffice.Util.BizCardResult.Category
   - SuperOffice.Util.BizCardResult.CompanyName
+  - SuperOffice.Util.BizCardResult.CompanyPhone
   - SuperOffice.Util.BizCardResult.Country
   - SuperOffice.Util.BizCardResult.Department
   - SuperOffice.Util.BizCardResult.DirectPhone
@@ -243,6 +244,27 @@ items:
       type: System.String
     content.vb: Public Property OrganizationNumber As String
   overload: SuperOffice.Util.BizCardResult.OrganizationNumber*
+- uid: SuperOffice.Util.BizCardResult.CompanyPhone
+  commentId: P:SuperOffice.Util.BizCardResult.CompanyPhone
+  id: CompanyPhone
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: CompanyPhone
+  nameWithType: BizCardResult.CompanyPhone
+  fullName: SuperOffice.Util.BizCardResult.CompanyPhone
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string CompanyPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CompanyPhone As String
+  overload: SuperOffice.Util.BizCardResult.CompanyPhone*
 - uid: SuperOffice.Util.BizCardResult.Fax
   commentId: P:SuperOffice.Util.BizCardResult.Fax
   id: Fax
@@ -1332,6 +1354,13 @@ references:
   name: OrganizationNumber
   nameWithType: BizCardResult.OrganizationNumber
   fullName: SuperOffice.Util.BizCardResult.OrganizationNumber
+- uid: SuperOffice.Util.BizCardResult.CompanyPhone*
+  commentId: Overload:SuperOffice.Util.BizCardResult.CompanyPhone
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_CompanyPhone
+  name: CompanyPhone
+  nameWithType: BizCardResult.CompanyPhone
+  fullName: SuperOffice.Util.BizCardResult.CompanyPhone
 - uid: SuperOffice.Util.BizCardResult.Fax*
   commentId: Overload:SuperOffice.Util.BizCardResult.Fax
   isExternal: true

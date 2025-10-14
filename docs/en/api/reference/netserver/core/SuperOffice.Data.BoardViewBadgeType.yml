@@ -1,0 +1,686 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.Data.BoardViewBadgeType
+  id: BoardViewBadgeType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.BoardViewBadgeType.DaysInStage
+  - SuperOffice.Data.BoardViewBadgeType.DaysSinceRegistered
+  - SuperOffice.Data.BoardViewBadgeType.None
+  langs:
+  - csharp
+  - vb
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.Data.BoardViewBadgeType
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: Board view badge type
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
+
+      public enum BoardViewBadgeType
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
+
+      Public Enum BoardViewBadgeType
+  extensionMethods:
+  - SuperOffice.Data.BoardViewBadgeType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.BoardViewBadgeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.BoardViewBadgeType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BoardViewBadgeType)
+  - SuperOffice.Data.BoardViewBadgeType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
+- uid: SuperOffice.Data.BoardViewBadgeType.None
+  commentId: F:SuperOffice.Data.BoardViewBadgeType.None
+  id: None
+  parent: SuperOffice.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BoardViewBadgeType.None
+  fullName: SuperOffice.Data.BoardViewBadgeType.None
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.BoardViewBadgeType.DaysSinceRegistered
+  commentId: F:SuperOffice.Data.BoardViewBadgeType.DaysSinceRegistered
+  id: DaysSinceRegistered
+  parent: SuperOffice.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: DaysSinceRegistered
+  nameWithType: BoardViewBadgeType.DaysSinceRegistered
+  fullName: SuperOffice.Data.BoardViewBadgeType.DaysSinceRegistered
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: DaysSinceRegistered'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DaysSinceRegistered = 1
+    return:
+      type: SuperOffice.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      DaysSinceRegistered = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.BoardViewBadgeType.DaysInStage
+  commentId: F:SuperOffice.Data.BoardViewBadgeType.DaysInStage
+  id: DaysInStage
+  parent: SuperOffice.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: DaysInStage
+  nameWithType: BoardViewBadgeType.DaysInStage
+  fullName: SuperOffice.Data.BoardViewBadgeType.DaysInStage
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: DaysInStage'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DaysInStage = 2
+    return:
+      type: SuperOffice.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      DaysInStage = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.BoardViewBadgeType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<BoardViewBadgeType, To>(BoardViewBadgeType)
+  nameWithType: EnumUtil.MapEnums<BoardViewBadgeType, To>(BoardViewBadgeType)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.BoardViewBadgeType, To>(SuperOffice.Data.BoardViewBadgeType)
+  nameWithType.vb: EnumUtil.MapEnums(Of BoardViewBadgeType, To)(BoardViewBadgeType)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BoardViewBadgeType, To)(SuperOffice.Data.BoardViewBadgeType)
+  name.vb: MapEnums(Of BoardViewBadgeType, To)(BoardViewBadgeType)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.BoardViewBadgeType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.BoardViewBadgeType)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+- uid: SuperOffice.Data.BoardViewBadgeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<BoardViewBadgeType, To>(BoardViewBadgeType)
+  nameWithType: Converters.MapEnums<BoardViewBadgeType, To>(BoardViewBadgeType)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BoardViewBadgeType, To>(SuperOffice.Data.BoardViewBadgeType)
+  nameWithType.vb: Converters.MapEnums(Of BoardViewBadgeType, To)(BoardViewBadgeType)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BoardViewBadgeType, To)(SuperOffice.Data.BoardViewBadgeType)
+  name.vb: MapEnums(Of BoardViewBadgeType, To)(BoardViewBadgeType)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.BoardViewBadgeType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.BoardViewBadgeType)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+- uid: SuperOffice.Data.BoardViewBadgeType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BoardViewBadgeType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<BoardViewBadgeType>(BoardViewBadgeType, BoardViewBadgeType)
+  nameWithType: ObjectExtensions.AssignByReflection<BoardViewBadgeType>(BoardViewBadgeType, BoardViewBadgeType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.BoardViewBadgeType>(SuperOffice.Data.BoardViewBadgeType, SuperOffice.Data.BoardViewBadgeType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BoardViewBadgeType)(BoardViewBadgeType, BoardViewBadgeType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.BoardViewBadgeType)(SuperOffice.Data.BoardViewBadgeType, SuperOffice.Data.BoardViewBadgeType)
+  name.vb: AssignByReflection(Of BoardViewBadgeType)(BoardViewBadgeType, BoardViewBadgeType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BoardViewBadgeType,SuperOffice.Data.BoardViewBadgeType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BoardViewBadgeType,SuperOffice.Data.BoardViewBadgeType)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+- uid: SuperOffice.Data.BoardViewBadgeType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<BoardViewBadgeType>(BoardViewBadgeType)
+  nameWithType: ObjectExtensions.GraphCopy<BoardViewBadgeType>(BoardViewBadgeType)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.BoardViewBadgeType>(SuperOffice.Data.BoardViewBadgeType)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BoardViewBadgeType)(BoardViewBadgeType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.BoardViewBadgeType)(SuperOffice.Data.BoardViewBadgeType)
+  name.vb: GraphCopy(Of BoardViewBadgeType)(BoardViewBadgeType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.BoardViewBadgeType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.BoardViewBadgeType)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.Data.BoardViewBadgeType.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.Data.BoardViewBadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.Data.BoardViewBadgeType

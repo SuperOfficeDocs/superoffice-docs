@@ -22,11 +22,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public enum ImportNewListItem
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Enum ImportNewListItem
   extensionMethods:
@@ -42,7 +42,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.Data.ImportNewListItem.AddItemToList
   commentId: F:SuperOffice.Data.ImportNewListItem.AddItemToList
   id: AddItemToList

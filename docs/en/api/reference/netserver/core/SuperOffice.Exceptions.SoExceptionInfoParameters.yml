@@ -18,11 +18,11 @@ items:
   namespace: SuperOffice.Exceptions
   syntax:
     content: >-
-      [CollectionDataContract(Name = "SoExceptionInfoParameters", ItemName = "SoExceptionInfoParametersKeyValuePair", KeyName = "ParameterKey", ValueName = "ParameterValue", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [CollectionDataContract(Name = "SoExceptionInfoParameters", ItemName = "SoExceptionInfoParametersKeyValuePair", KeyName = "ParameterKey", ValueName = "ParameterValue", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public class SoExceptionInfoParameters : Dictionary<string, string>, IDictionary<string, string>, ICollection<KeyValuePair<string, string>>, IDictionary, ICollection, IReadOnlyDictionary<string, string>, IReadOnlyCollection<KeyValuePair<string, string>>, IEnumerable<KeyValuePair<string, string>>, IEnumerable, ISerializable, IDeserializationCallback
     content.vb: >-
-      <CollectionDataContract(Name:="SoExceptionInfoParameters", ItemName:="SoExceptionInfoParametersKeyValuePair", KeyName:="ParameterKey", ValueName:="ParameterValue", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <CollectionDataContract(Name:="SoExceptionInfoParameters", ItemName:="SoExceptionInfoParametersKeyValuePair", KeyName:="ParameterKey", ValueName:="ParameterValue", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Class SoExceptionInfoParameters Inherits Dictionary(Of String, String) Implements IDictionary(Of String, String), ICollection(Of KeyValuePair(Of String, String)), IDictionary, ICollection, IReadOnlyDictionary(Of String, String), IReadOnlyCollection(Of KeyValuePair(Of String, String)), IEnumerable(Of KeyValuePair(Of String, String)), IEnumerable, ISerializable, IDeserializationCallback
   inheritance:
@@ -112,7 +112,7 @@ items:
       value: ParameterValue
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.Exceptions.SoExceptionInfoParameters.#ctor
   commentId: M:SuperOffice.Exceptions.SoExceptionInfoParameters.#ctor
   id: '#ctor'

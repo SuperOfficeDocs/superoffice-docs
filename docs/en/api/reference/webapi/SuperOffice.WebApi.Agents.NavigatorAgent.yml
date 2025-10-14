@@ -38,13 +38,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class NavigatorAgent : AgentBase, INavigatorAgent, IDisposable'
-    content.vb: Public Class NavigatorAgent Inherits AgentBase Implements INavigatorAgent, IDisposable
+    content: 'public class NavigatorAgent : AgentBase, INavigatorAgent, IAgentBase, IDisposable'
+    content.vb: Public Class NavigatorAgent Inherits AgentBase Implements INavigatorAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.INavigatorAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -299,6 +300,14 @@ references:
   name: INavigatorAgent
   nameWithType: INavigatorAgent
   fullName: SuperOffice.WebApi.Agents.INavigatorAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

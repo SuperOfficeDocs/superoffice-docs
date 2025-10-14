@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Webhooks.WebhookManager
   - SuperOffice.CRM.Webhooks.WebhookPayload
   - SuperOffice.CRM.Webhooks.WebhookResponse
+  - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
   - SuperOffice.CRM.Webhooks.WebhookState
   - SuperOffice.CRM.Webhooks.WebhookTaskInfo
@@ -71,6 +72,13 @@ references:
   name: WebhookManager
   nameWithType: WebhookManager
   fullName: SuperOffice.CRM.Webhooks.WebhookManager
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html
+  name: WebhookSlowDispatcher
+  nameWithType: WebhookSlowDispatcher
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
 - uid: SuperOffice.CRM.Webhooks.WebhookTransmitter
   commentId: T:SuperOffice.CRM.Webhooks.WebhookTransmitter
   isExternal: true

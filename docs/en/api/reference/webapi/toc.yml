@@ -83,6 +83,8 @@ items:
     name: FreeTextAgent
   - uid: SuperOffice.WebApi.Agents.IAIAgent
     name: IAIAgent
+  - uid: SuperOffice.WebApi.Agents.IAgentBase
+    name: IAgentBase
   - uid: SuperOffice.WebApi.Agents.IApiAgent
     name: IApiAgent
   - uid: SuperOffice.WebApi.Agents.IAppointmentAgent
@@ -810,6 +812,8 @@ items:
     name: BlobEntity
   - uid: SuperOffice.WebApi.Data.BlobLinkType
     name: BlobLinkType
+  - uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
   - uid: SuperOffice.WebApi.Data.BoardViewEntityType
     name: BoardViewEntityType
   - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
@@ -1334,18 +1338,24 @@ items:
     name: Dash_GetDashCollectionRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashListRequest
     name: Dash_GetDashListRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest
+    name: Dash_GetDashQuickFiltersRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
     name: Dash_GetDashTileHtmlListRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
     name: Dash_GetDashTileHtmlRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetDashTilesRequest
     name: Dash_GetDashTilesRequest
+  - uid: SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
+    name: Dash_GetPossibleDashQuickFiltersRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
     name: Dash_GetPreviewDashRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetSecondaryTempTileSelectionRequest
     name: Dash_GetSecondaryTempTileSelectionRequest
   - uid: SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
     name: Dash_GetTempTileSelectionRequest
+  - uid: SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest
+    name: Dash_SaveDashQuickFiltersRequest
   - uid: SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
     name: Dash_SaveDashTileHtmlListRequest
   - uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
@@ -3214,6 +3224,8 @@ items:
     name: ProviderInfo
   - uid: SuperOffice.WebApi.Data.PublishType
     name: PublishType
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
   - uid: SuperOffice.WebApi.Data.QuickReply
     name: QuickReply
   - uid: SuperOffice.WebApi.Data.Quote

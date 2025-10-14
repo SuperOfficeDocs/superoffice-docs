@@ -48,9 +48,14 @@ items:
   summary: Collection of all services that works with Foreign key data (Key/Value pairs)
   example: []
   syntax:
-    content: 'public interface IForeignSystemAgent : IDisposable'
-    content.vb: Public Interface IForeignSystemAgent Inherits IDisposable
+    content: 'public interface IForeignSystemAgent : IAgentBase, IDisposable'
+    content.vb: Public Interface IForeignSystemAgent Inherits IAgentBase, IDisposable
   inheritedMembers:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
   - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -1271,6 +1276,60 @@ references:
     name: Agents
     isExternal: true
     href: SuperOffice.WebApi.Agents.html
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
 - uid: System.IDisposable.Dispose
   commentId: M:System.IDisposable.Dispose
   parent: System.IDisposable
@@ -1293,6 +1352,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
   - name: (
   - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

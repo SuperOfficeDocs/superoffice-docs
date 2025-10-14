@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Sale.QuoteManager
   - SuperOffice.CRM.Sale.QuoteManagerFactory
   - SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+  - SuperOffice.CRM.Sale.SaleHelper
   langs:
   - csharp
   - vb
@@ -139,6 +140,13 @@ references:
   name: QuoteVersionAttachmentManager
   nameWithType: QuoteVersionAttachmentManager
   fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
+- uid: SuperOffice.CRM.Sale.SaleHelper
+  commentId: T:SuperOffice.CRM.Sale.SaleHelper
+  isExternal: true
+  href: SuperOffice.CRM.Sale.SaleHelper.html
+  name: SaleHelper
+  nameWithType: SaleHelper
+  fullName: SuperOffice.CRM.Sale.SaleHelper
 - uid: SuperOffice.CRM.Sale
   commentId: N:SuperOffice.CRM.Sale
   isExternal: true

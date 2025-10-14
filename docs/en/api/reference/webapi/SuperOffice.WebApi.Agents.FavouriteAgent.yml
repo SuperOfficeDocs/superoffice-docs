@@ -46,13 +46,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class FavouriteAgent : AgentBase, IFavouriteAgent, IDisposable'
-    content.vb: Public Class FavouriteAgent Inherits AgentBase Implements IFavouriteAgent, IDisposable
+    content: 'public class FavouriteAgent : AgentBase, IFavouriteAgent, IAgentBase, IDisposable'
+    content.vb: Public Class FavouriteAgent Inherits AgentBase Implements IFavouriteAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IFavouriteAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -659,6 +660,14 @@ references:
   name: IFavouriteAgent
   nameWithType: IFavouriteAgent
   fullName: SuperOffice.WebApi.Agents.IFavouriteAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

@@ -142,13 +142,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class EMailAgent : AgentBase, IEMailAgent, IDisposable'
-    content.vb: Public Class EMailAgent Inherits AgentBase Implements IEMailAgent, IDisposable
+    content: 'public class EMailAgent : AgentBase, IEMailAgent, IAgentBase, IDisposable'
+    content.vb: Public Class EMailAgent Inherits AgentBase Implements IEMailAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IEMailAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -682,7 +683,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific EMailAccount object.                        
+    Gets a specific EMailAccount object.
 
     <p></p>
 
@@ -4198,7 +4199,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific EMailSOInfo object.                        
+    Gets a specific EMailSOInfo object.
 
     <p></p>
 
@@ -4399,6 +4400,14 @@ references:
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.WebApi.Agents.IEMailAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

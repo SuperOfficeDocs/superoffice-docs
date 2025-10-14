@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.Dialect.PostgreSqlDialect.HasAliasOnDelete
   - SuperOffice.Data.Dialect.PostgreSqlDialect.HasAliasOnInsert
   - SuperOffice.Data.Dialect.PostgreSqlDialect.HasAliasOnUpdate
+  - SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
   - SuperOffice.Data.Dialect.PostgreSqlDialect.TimeToVarchar(System.String)
   - SuperOffice.Data.Dialect.PostgreSqlDialect.ToSql(SuperOffice.Data.SQL.Add)
   - SuperOffice.Data.Dialect.PostgreSqlDialect.ToSql(SuperOffice.Data.SQL.Equal)
@@ -190,6 +191,43 @@ items:
   extensionMethods:
   - SuperOffice.Data.Dialect.PostgreSqlDialect.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dialect.PostgreSqlDialect.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  commentId: M:SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  id: LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  parent: SuperOffice.Data.Dialect.PostgreSqlDialect
+  langs:
+  - csharp
+  - vb
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: PostgreSqlDialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  summary: The PostgreSQL data reader is <b>not thread safe</b> so we need to lock every call; typically to the <b>innerReader</b>. This is helper method to do that.
+  example: []
+  syntax:
+    content: public override T LockReader<T>(SoDataReader soReader, Func<T> innerLogic)
+    parameters:
+    - id: soReader
+      type: SuperOffice.Data.SoDataReader
+      description: ''
+    - id: innerLogic
+      type: System.Func{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Overrides Function LockReader(Of T)(soReader As SoDataReader, innerLogic As Func(Of T)) As T
+  overridden: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{{T}})
+  overload: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader*
+  nameWithType.vb: PostgreSqlDialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
 - uid: SuperOffice.Data.Dialect.PostgreSqlDialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.Dialect.PostgreSqlDialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   id: ToSql(SuperOffice.Data.SQL.FieldInfo)
@@ -5465,6 +5503,228 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{{T}})
+  commentId: M:SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  parent: SuperOffice.Data.Dialect.Dialect
+  definition: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: Dialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  nameWithType.vb: Dialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader*
+  commentId: Overload:SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader
+  isExternal: true
+  href: SuperOffice.Data.Dialect.PostgreSqlDialect.html#SuperOffice_Data_Dialect_PostgreSqlDialect_LockReader__1_SuperOffice_Data_SoDataReader_System_Func___0__
+  name: LockReader
+  nameWithType: PostgreSqlDialect.LockReader
+  fullName: SuperOffice.Data.Dialect.PostgreSqlDialect.LockReader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.SoDataReader.html
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  commentId: M:SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: Dialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  nameWithType.vb: Dialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
 - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.Data.Dialect.Dialect
@@ -5951,33 +6211,6 @@ references:
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.Dialect.Dialect.DateToVarchar(System.String)
   commentId: M:SuperOffice.Data.Dialect.Dialect.DateToVarchar(System.String)
   parent: SuperOffice.Data.Dialect.Dialect

@@ -32,6 +32,7 @@ items:
   - SuperOffice.WebApi.Agents.ForeignSystemAgent
   - SuperOffice.WebApi.Agents.FreeTextAgent
   - SuperOffice.WebApi.Agents.IAIAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - SuperOffice.WebApi.Agents.IApiAgent
   - SuperOffice.WebApi.Agents.IAppointmentAgent
   - SuperOffice.WebApi.Agents.IArchiveAgent
@@ -992,6 +993,14 @@ references:
   name: WorkflowAgent
   nameWithType: WorkflowAgent
   fullName: SuperOffice.WebApi.Agents.WorkflowAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true

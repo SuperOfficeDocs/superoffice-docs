@@ -138,13 +138,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class UserAgent : AgentBase, IUserAgent, IDisposable'
-    content.vb: Public Class UserAgent Inherits AgentBase Implements IUserAgent, IDisposable
+    content: 'public class UserAgent : AgentBase, IUserAgent, IAgentBase, IDisposable'
+    content.vb: Public Class UserAgent Inherits AgentBase Implements IUserAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IUserAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -1013,7 +1014,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific Role object.                        
+    Gets a specific Role object.
 
     <p></p>
 
@@ -1053,7 +1054,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific RoleEntity object.                        
+    Gets a specific RoleEntity object.
 
     <p></p>
 
@@ -1631,7 +1632,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific ServiceAuth object.                        
+    Gets a specific ServiceAuth object.
 
     <p></p>
 
@@ -1785,7 +1786,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific User object.                        
+    Gets a specific User object.
 
     <p></p>
 
@@ -3865,7 +3866,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific UserGroup object.                        
+    Gets a specific UserGroup object.
 
     <p></p>
 
@@ -4059,7 +4060,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets an array of specific UserGroup objects.                        
+    Gets an array of specific UserGroup objects.
 
     <p></p>
 
@@ -4099,7 +4100,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific UserInfo object.                        
+    Gets a specific UserInfo object.
 
     <p></p>
 
@@ -4139,7 +4140,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets an array of specific UserInfo objects.                        
+    Gets an array of specific UserInfo objects.
 
     <p></p>
 
@@ -4283,6 +4284,14 @@ references:
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.WebApi.Agents.IUserAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

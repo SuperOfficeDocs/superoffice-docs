@@ -81,11 +81,11 @@ items:
     var sessions = archive.GetArchiveListByColumns2("ChatSession", "...", null, "chatTopic/chatTopicId eq 123", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public class ChatTopicEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Class ChatTopicEntity Inherits Carrier
   seealso:
@@ -100,7 +100,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.CRM.Services.ChatTopicEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ChatTopicEntity.#ctor
   id: '#ctor'

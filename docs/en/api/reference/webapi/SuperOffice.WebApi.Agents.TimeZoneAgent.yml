@@ -47,13 +47,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class TimeZoneAgent : AgentBase, ITimeZoneAgent, IDisposable'
-    content.vb: Public Class TimeZoneAgent Inherits AgentBase Implements ITimeZoneAgent, IDisposable
+    content: 'public class TimeZoneAgent : AgentBase, ITimeZoneAgent, IAgentBase, IDisposable'
+    content.vb: Public Class TimeZoneAgent Inherits AgentBase Implements ITimeZoneAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.ITimeZoneAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -587,6 +588,14 @@ references:
   name: ITimeZoneAgent
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

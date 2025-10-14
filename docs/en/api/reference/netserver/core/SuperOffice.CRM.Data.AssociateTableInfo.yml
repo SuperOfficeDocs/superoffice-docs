@@ -437,6 +437,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_PushNotificationService_AssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_PushNotificationService_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_PushNotificationService_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickReply_AssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickReply_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickReply_UpdatedAssociateId
@@ -707,6 +709,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketTypeStatus_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TravelCurrent_CentralId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TravelCurrent_CurrentId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TravelCurrent_RegisteredAssociateId
@@ -16897,6 +16901,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileFieldTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileField_UpdatedAssociateId As TargetedLeftOuterJoin(Of DashboardTileFieldTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_DashboardTileField_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  id: LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to QuickFilterInfo.<xref href="SuperOffice.CRM.Data.QuickFilterInfoTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<QuickFilterInfoTableInfo> LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId As TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  id: LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to QuickFilterInfo.<xref href="SuperOffice.CRM.Data.QuickFilterInfoTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<QuickFilterInfoTableInfo> LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId As TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_Form_RegisteredAssociateId
   id: LeftOuterJoin_Form_RegisteredAssociateId
@@ -17449,6 +17499,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_BoardViewSettings_UpdatedAssociateId As TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  id: LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TimeKeeping.<xref href="SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TimeKeepingTableInfo> LeftOuterJoin_TimeKeeping_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TimeKeepingTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TimeKeeping_RegisteredAssociateId As TargetedLeftOuterJoin(Of TimeKeepingTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  id: LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to TimeKeeping.<xref href="SuperOffice.CRM.Data.TimeKeepingTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<TimeKeepingTableInfo> LeftOuterJoin_TimeKeeping_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TimeKeepingTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_TimeKeeping_UpdatedAssociateId As TargetedLeftOuterJoin(Of TimeKeepingTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   id: LeftOuterJoin_OnlineApp_RegisteredAssociateId
@@ -40891,6 +40987,69 @@ references:
   name: LeftOuterJoin_DashboardTileField_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_DashboardTileField_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_DashboardTileField_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.QuickFilterInfoTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html#SuperOffice_CRM_Data_QuickFilterInfoTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: QuickFilterInfoTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  name: LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<QuickFilterInfoTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuickFilterInfoTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuickFilterInfoTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuickFilterInfoTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    name: QuickFilterInfoTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    name: QuickFilterInfoTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.QuickFilterInfoTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html#SuperOffice_CRM_Data_QuickFilterInfoTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: QuickFilterInfoTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  name: LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_QuickFilterInfo_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.FormTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.FormTableInfo.RegisteredAssociateId
   isExternal: true
@@ -41577,6 +41736,69 @@ references:
   name: LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: TimeKeepingTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  name: LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TimeKeepingTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TimeKeepingTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TimeKeepingTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TimeKeepingTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TimeKeepingTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TimeKeepingTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.TimeKeepingTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TimeKeepingTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo
+    name: TimeKeepingTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo
+    name: TimeKeepingTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.TimeKeepingTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html#SuperOffice_CRM_Data_TimeKeepingTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: TimeKeepingTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  name: LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TimeKeeping_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   isExternal: true

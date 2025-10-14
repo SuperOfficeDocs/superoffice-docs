@@ -17,7 +17,10 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
-  summary: Hosted Service responsible for processing the Webhook queue held by the <xref href="SuperOffice.CRM.Webhooks.WebhookManager" data-throw-if-not-resolved="false"></xref>
+  summary: >-
+    Hosted Service responsible for processing the Webhook queue held by the <xref href="SuperOffice.CRM.Webhooks.WebhookManager" data-throw-if-not-resolved="false"></xref>.
+
+    Calls WebhookManager.NotifyWebhooksAsync to process each item in the queue.
   example: []
   syntax:
     content: 'public class WebhookDispatcher : AsyncQueueProcessor<IAsyncQueue<WebhookTaskInfo>, WebhookTaskInfo>, IDisposable, IHostedService'
@@ -92,20 +95,17 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
-  summary: Process an item from the queue
+  summary: Calls WebhookManager.NotifyWebhooksAsync to process each item in the queue.
   example: []
   syntax:
     content: protected override Task ProcessItemAsync(IAsyncQueueProcessItemContext<WebhookTaskInfo> context, CancellationToken cancellationToken)
     parameters:
     - id: context
       type: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo}
-      description: Context of item to be processed
     - id: cancellationToken
       type: System.Threading.CancellationToken
-      description: ''
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Protected Overrides Function ProcessItemAsync(context As IAsyncQueueProcessItemContext(Of WebhookTaskInfo), cancellationToken As CancellationToken) As Task
   overridden: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   overload: SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync*

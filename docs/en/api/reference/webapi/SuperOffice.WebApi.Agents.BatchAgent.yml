@@ -50,13 +50,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class BatchAgent : AgentBase, IBatchAgent, IDisposable'
-    content.vb: Public Class BatchAgent Inherits AgentBase Implements IBatchAgent, IDisposable
+    content: 'public class BatchAgent : AgentBase, IBatchAgent, IAgentBase, IDisposable'
+    content.vb: Public Class BatchAgent Inherits AgentBase Implements IBatchAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IBatchAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -743,6 +744,14 @@ references:
   name: IBatchAgent
   nameWithType: IBatchAgent
   fullName: SuperOffice.WebApi.Agents.IBatchAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

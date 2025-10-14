@@ -5,6 +5,7 @@ items:
   id: CustomObjectHelper
   parent: SuperOffice.CRM.CustomObject
   children:
+  - SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(System.String)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldNameAsync(SuperOffice.Data.Dictionary.SoField,System.Threading.CancellationToken)
@@ -58,6 +59,36 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveRelationField(f As SoField) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField*
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(System.String)
+  commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(System.String)
+  id: ConvertFromLegacyColumnName(System.String)
+  parent: SuperOffice.CRM.CustomObject.CustomObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertFromLegacyColumnName(string)
+  nameWithType: CustomObjectHelper.ConvertFromLegacyColumnName(string)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.CustomObject
+  summary: Converts legacy column name to new format supporting multi-level relations.
+  example: []
+  syntax:
+    content: public static string ConvertFromLegacyColumnName(string columnName)
+    parameters:
+    - id: columnName
+      type: System.String
+      description: Column name to convert
+    return:
+      type: System.String
+      description: Converted column name. If the given column name is not legacy or something goes wrong, returns the original input.
+    content.vb: Public Shared Function ConvertFromLegacyColumnName(columnName As String) As String
+  overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName*
+  nameWithType.vb: CustomObjectHelper.ConvertFromLegacyColumnName(String)
+  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName(String)
+  name.vb: ConvertFromLegacyColumnName(String)
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
   id: ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
@@ -546,6 +577,13 @@ references:
     name: Dictionary
     isExternal: true
     href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName*
+  commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName
+  isExternal: true
+  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ConvertFromLegacyColumnName_System_String_
+  name: ConvertFromLegacyColumnName
+  nameWithType: CustomObjectHelper.ConvertFromLegacyColumnName
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ConvertFromLegacyColumnName
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName
   isExternal: true

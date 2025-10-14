@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.SaleBoardViewSettings.#ctor
+  - SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  - SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
   - SuperOffice.WebApi.Data.SaleBoardViewSettings.HideClosedSales
   langs:
   - csharp
@@ -98,6 +100,86 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property HideClosedSales As Boolean
   overload: SuperOffice.WebApi.Data.SaleBoardViewSettings.HideClosedSales*
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  id: BadgeType_String
+  parent: SuperOffice.WebApi.Data.SaleBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeType_String
+  nameWithType: SaleBoardViewSettings.BadgeType_String
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    What should be displayed in the badge for the entity in the board
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("BadgeType")]
+
+      public string BadgeType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("BadgeType")>
+
+      Public Property BadgeType_String As String
+  overload: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+    commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: BadgeType
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  id: BadgeType
+  parent: SuperOffice.WebApi.Data.SaleBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeType
+  nameWithType: SaleBoardViewSettings.BadgeType
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    What should be displayed in the badge for the entity in the board
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public BoardViewBadgeType? BadgeType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.BoardViewBadgeType}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property BadgeType As BoardViewBadgeType?
+  overload: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+    commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Agents.SelectionAgent
   commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
@@ -520,3 +602,90 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SaleBoardViewSettings.html#SuperOffice_WebApi_Data_SaleBoardViewSettings_BadgeType
+  name: BadgeType
+  nameWithType: SaleBoardViewSettings.BadgeType
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SaleBoardViewSettings.html#SuperOffice_WebApi_Data_SaleBoardViewSettings_BadgeType_String
+  name: BadgeType_String
+  nameWithType: SaleBoardViewSettings.BadgeType_String
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  commentId: P:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SaleBoardViewSettings.html#SuperOffice_WebApi_Data_SaleBoardViewSettings_BadgeType_String
+  name: BadgeType_String
+  nameWithType: SaleBoardViewSettings.BadgeType_String
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType_String
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SaleBoardViewSettings.html#SuperOffice_WebApi_Data_SaleBoardViewSettings_BadgeType
+  name: BadgeType
+  nameWithType: SaleBoardViewSettings.BadgeType
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings.BadgeType
+- uid: System.Nullable{SuperOffice.WebApi.Data.BoardViewBadgeType}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.BoardViewBadgeType}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType?
+  nameWithType: BoardViewBadgeType?
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewBadgeType.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewBadgeType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

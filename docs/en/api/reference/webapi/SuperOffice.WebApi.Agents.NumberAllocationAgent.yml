@@ -42,13 +42,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class NumberAllocationAgent : AgentBase, INumberAllocationAgent, IDisposable'
-    content.vb: Public Class NumberAllocationAgent Inherits AgentBase Implements INumberAllocationAgent, IDisposable
+    content: 'public class NumberAllocationAgent : AgentBase, INumberAllocationAgent, IAgentBase, IDisposable'
+    content.vb: Public Class NumberAllocationAgent Inherits AgentBase Implements INumberAllocationAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.INumberAllocationAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -433,6 +434,14 @@ references:
   name: INumberAllocationAgent
   nameWithType: INumberAllocationAgent
   fullName: SuperOffice.WebApi.Agents.INumberAllocationAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

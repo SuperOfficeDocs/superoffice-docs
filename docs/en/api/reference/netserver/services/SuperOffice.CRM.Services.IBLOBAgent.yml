@@ -19,26 +19,43 @@ items:
   - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProductAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetBlobStreamAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntityAsync(SuperOffice.CRM.Services.BlobEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamAsync(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageAsync(System.String,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetBlobStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   langs:
   - csharp
   - vb
@@ -303,6 +320,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetProjectImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetProjectImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProjectImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetProjectImageAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the project image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetProjectImageAsStreamAsync(int projectId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The project image.
+    content.vb: Function GetProjectImageAsStreamAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetProjectImageAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProjectImageAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync(System.Int32,System.Threading.CancellationToken)
   id: GetPersonImageAsync(System.Int32,System.Threading.CancellationToken)
@@ -335,6 +384,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetPersonImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPersonImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetPersonImageAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the person image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetPersonImageAsStreamAsync(int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The person image.
+    content.vb: Function GetPersonImageAsStreamAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetPersonImageAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPersonImageAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -370,6 +451,41 @@ items:
   nameWithType.vb: IBLOBAgent.SetProjectImageAsync(Integer, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SetProjectImageAsync(Integer, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetProjectImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProjectImageFromStreamAsync(int, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SetProjectImageFromStreamAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores the project image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task SetProjectImageFromStreamAsync(int projectId, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: image
+      type: System.IO.Stream
+      description: The project image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetProjectImageFromStreamAsync(projectId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetProjectImageFromStreamAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProjectImageFromStreamAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -405,6 +521,41 @@ items:
   nameWithType.vb: IBLOBAgent.SetPersonImageAsync(Integer, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SetPersonImageAsync(Integer, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonImageFromStreamAsync(int, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SetPersonImageFromStreamAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores the person image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task SetPersonImageFromStreamAsync(int personId, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: image
+      type: System.IO.Stream
+      description: The person image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetPersonImageFromStreamAsync(personId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetPersonImageFromStreamAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetPersonImageFromStreamAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ChangeProjectImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -475,6 +626,41 @@ items:
   nameWithType.vb: IBLOBAgent.SaveProjectImageAsync(String, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageAsync(String, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SaveProjectImageAsync(String, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  id: SaveProjectImageFromStreamAsync(System.String,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectImageFromStreamAsync(string, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SaveProjectImageFromStreamAsync(string, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync(string, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Saves a project image that is displayed in the CRM application's project image selection dialog to the database.
+  example: []
+  syntax:
+    content: Task SaveProjectImageFromStreamAsync(string description, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: description
+      type: System.String
+      description: Image description. Should be image name (e.g. winter.jpg) for project images.
+    - id: image
+      type: System.IO.Stream
+      description: The project image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SaveProjectImageFromStreamAsync(description As String, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SaveProjectImageFromStreamAsync(String, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync(String, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SaveProjectImageFromStreamAsync(String, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProjectAsync(System.Int32,System.Threading.CancellationToken)
   id: GetBlobEntityOnProjectAsync(System.Int32,System.Threading.CancellationToken)
@@ -676,6 +862,44 @@ items:
   nameWithType.vb: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Image, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamAsync(SuperOffice.Data.BlobLinkType, System.Drawing.Image, String, System.Threading.CancellationToken)
   name.vb: SaveImageStreamAsync(BlobLinkType, Image, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
+  id: SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType,System.IO.Stream,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveImageStreamFromStreamAsync(BlobLinkType, Stream, string, CancellationToken)
+  nameWithType: IBLOBAgent.SaveImageStreamFromStreamAsync(BlobLinkType, Stream, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType, System.IO.Stream, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
+  example: []
+  syntax:
+    content: Task<int> SaveImageStreamFromStreamAsync(BlobLinkType type, Stream image, string description, CancellationToken cancellationToken = default)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.BlobLinkType
+      description: The type of the image.
+    - id: image
+      type: System.IO.Stream
+      description: Image to store.
+    - id: description
+      type: System.String
+      description: Image description.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The blob id.
+    content.vb: Function SaveImageStreamFromStreamAsync(type As BlobLinkType, image As Stream, description As String, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SaveImageStreamFromStreamAsync(BlobLinkType, Stream, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync(SuperOffice.Data.BlobLinkType, System.IO.Stream, String, System.Threading.CancellationToken)
+  name.vb: SaveImageStreamFromStreamAsync(BlobLinkType, Stream, String, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProductImageAsync(System.Int32,System.Threading.CancellationToken)
@@ -708,6 +932,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetProductImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetProductImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProductImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductImageAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetProductImageAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the product image (rank=1) that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetProductImageAsStreamAsync(int productId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The product image.
+    content.vb: Function GetProductImageAsStreamAsync(productId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetProductImageAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProductImageAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetProductImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -743,6 +999,41 @@ items:
   nameWithType.vb: IBLOBAgent.SetProductImageAsync(Integer, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SetProductImageAsync(Integer, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetProductImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductImageFromStreamAsync(int, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SetProductImageFromStreamAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.
+  example: []
+  syntax:
+    content: Task SetProductImageFromStreamAsync(int productId, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.IO.Stream
+      description: The product image, scaled down to no more than 1000x1000.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetProductImageFromStreamAsync(productId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetProductImageFromStreamAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProductImageFromStreamAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProductThumbnailAsync(System.Int32,System.Threading.CancellationToken)
@@ -775,6 +1066,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetProductThumbnailAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetProductThumbnailAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProductThumbnailAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductThumbnailAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetProductThumbnailAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the product thumbnail that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetProductThumbnailAsStreamAsync(int productId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the thumbnail belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The product thumbnail.
+    content.vb: Function GetProductThumbnailAsStreamAsync(productId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetProductThumbnailAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProductThumbnailAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetProductThumbnailAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -810,6 +1133,41 @@ items:
   nameWithType.vb: IBLOBAgent.SetProductThumbnailAsync(Integer, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SetProductThumbnailAsync(Integer, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetProductThumbnailFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductThumbnailFromStreamAsync(int, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SetProductThumbnailFromStreamAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.
+  example: []
+  syntax:
+    content: Task SetProductThumbnailFromStreamAsync(int productId, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.IO.Stream
+      description: The product thumbnail, scaled down to no more than 200x200.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetProductThumbnailFromStreamAsync(productId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetProductThumbnailFromStreamAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProductThumbnailFromStreamAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ChangeProductImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -877,6 +1235,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetQuoteLineImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetQuoteLineImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetQuoteLineImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineImageAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetQuoteLineImageAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the quoteline image (rank=1) that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetQuoteLineImageAsStreamAsync(int quoteLineId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+      description: The product id of the quoteline the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The quote line image.
+    content.vb: Function GetQuoteLineImageAsStreamAsync(quoteLineId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetQuoteLineImageAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetQuoteLineImageAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   id: GetPersonImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -915,6 +1305,44 @@ items:
   nameWithType.vb: IBLOBAgent.GetPersonImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetPersonImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetPersonImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  nameWithType: IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the person image that is displayed in the CRM application with a specified maximum size.
+  example: []
+  syntax:
+    content: Task<Stream> GetPersonImageWithSizeAsStreamAsync(int personId, int width, int height, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The person image.
+    content.vb: Function GetPersonImageWithSizeAsStreamAsync(personId As Integer, width As Integer, height As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetPersonImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   id: GetProjectImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -953,6 +1381,44 @@ items:
   nameWithType.vb: IBLOBAgent.GetProjectImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetProjectImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetProjectImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  nameWithType: IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the project image that is displayed in the CRM application with a specified maximum size.
+  example: []
+  syntax:
+    content: Task<Stream> GetProjectImageWithSizeAsStreamAsync(int projectId, int width, int height, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The project image.
+    content.vb: Function GetProjectImageWithSizeAsStreamAsync(projectId As Integer, width As Integer, height As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetProjectImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   id: GetChatImageWithSizeAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -991,6 +1457,44 @@ items:
   nameWithType.vb: IBLOBAgent.GetChatImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetChatImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetChatImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  nameWithType: IBLOBAgent.GetChatImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the chat image that is displayed in chat with a specified maximum size.
+  example: []
+  syntax:
+    content: Task<Stream> GetChatImageWithSizeAsStreamAsync(int chatTopicId, int width, int height, CancellationToken cancellationToken = default)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The chat image.
+    content.vb: Function GetChatImageWithSizeAsStreamAsync(chatTopicId As Integer, width As Integer, height As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetChatImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetChatImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync(System.Int32,System.Threading.CancellationToken)
   id: GetContactImageAsync(System.Int32,System.Threading.CancellationToken)
@@ -1023,6 +1527,38 @@ items:
   nameWithType.vb: IBLOBAgent.GetContactImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetContactImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetContactImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImageAsStreamAsync(int, CancellationToken)
+  nameWithType: IBLOBAgent.GetContactImageAsStreamAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the contact image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task<Stream> GetContactImageAsStreamAsync(int contactId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The contact image.
+    content.vb: Function GetContactImageAsStreamAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetContactImageAsStreamAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetContactImageAsStreamAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   id: SetContactImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
@@ -1058,6 +1594,41 @@ items:
   nameWithType.vb: IBLOBAgent.SetContactImageAsync(Integer, Image, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
   name.vb: SetContactImageAsync(Integer, Image, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetContactImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetContactImageFromStreamAsync(int, Stream, CancellationToken)
+  nameWithType: IBLOBAgent.SetContactImageFromStreamAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Stores the contact image that is displayed in the CRM application.
+  example: []
+  syntax:
+    content: Task SetContactImageFromStreamAsync(int contactId, Stream image, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    - id: image
+      type: System.IO.Stream
+      description: The contact image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SetContactImageFromStreamAsync(contactId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync*
+  nameWithType.vb: IBLOBAgent.SetContactImageFromStreamAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetContactImageFromStreamAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   id: ChangeContactImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -1163,6 +1734,44 @@ items:
   nameWithType.vb: IBLOBAgent.GetContactImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetContactImageWithSizeAsync(Integer, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetContactImageWithSizeAsStreamAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  nameWithType: IBLOBAgent.GetContactImageWithSizeAsStreamAsync(int, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync(int, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the contact image that is displayed in the CRM application with a specified maximum size.
+  example: []
+  syntax:
+    content: Task<Stream> GetContactImageWithSizeAsStreamAsync(int contactId, int width, int height, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the Contact the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The contact image.
+    content.vb: Function GetContactImageWithSizeAsStreamAsync(contactId As Integer, width As Integer, height As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync*
+  nameWithType.vb: IBLOBAgent.GetContactImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync(Integer, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetContactImageWithSizeAsStreamAsync(Integer, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync(System.Int32,System.Threading.CancellationToken)
   id: GetOutputFromBatchAsync(System.Int32,System.Threading.CancellationToken)
@@ -1189,7 +1798,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
-      description: The binary object as a Stream
+      description: The binary object as a Stream.
     content.vb: Function GetOutputFromBatchAsync(batchTaskId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync*
   nameWithType.vb: IBLOBAgent.GetOutputFromBatchAsync(Integer, CancellationToken)
@@ -1588,6 +2197,13 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProjectImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProjectImageAsStreamAsync
+  nameWithType: IBLOBAgent.GetProjectImageAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync
   isExternal: true
@@ -1595,6 +2211,13 @@ references:
   name: GetPersonImageAsync
   nameWithType: IBLOBAgent.GetPersonImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetPersonImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPersonImageAsStreamAsync
+  nameWithType: IBLOBAgent.GetPersonImageAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageAsync
   isExternal: true
@@ -1637,6 +2260,13 @@ references:
     name: Drawing
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProjectImageFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
+  name: SetProjectImageFromStreamAsync
+  nameWithType: IBLOBAgent.SetProjectImageFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImageFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync
   isExternal: true
@@ -1644,6 +2274,13 @@ references:
   name: SetPersonImageAsync
   nameWithType: IBLOBAgent.SetPersonImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetPersonImageFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
+  name: SetPersonImageFromStreamAsync
+  nameWithType: IBLOBAgent.SetPersonImageFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImageFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImageAsync
   isExternal: true
@@ -1669,6 +2306,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SaveProjectImageFromStreamAsync_System_String_System_IO_Stream_System_Threading_CancellationToken_
+  name: SaveProjectImageFromStreamAsync
+  nameWithType: IBLOBAgent.SaveProjectImageFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImageFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProjectAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProjectAsync
   isExternal: true
@@ -1751,6 +2395,13 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SaveImageStreamFromStreamAsync_SuperOffice_Data_BlobLinkType_System_IO_Stream_System_String_System_Threading_CancellationToken_
+  name: SaveImageStreamFromStreamAsync
+  nameWithType: IBLOBAgent.SaveImageStreamFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStreamFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync
   isExternal: true
@@ -1758,6 +2409,13 @@ references:
   name: GetProductImageAsync
   nameWithType: IBLOBAgent.GetProductImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProductImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProductImageAsStreamAsync
+  nameWithType: IBLOBAgent.GetProductImageAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImageAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync
   isExternal: true
@@ -1765,6 +2423,13 @@ references:
   name: SetProductImageAsync
   nameWithType: IBLOBAgent.SetProductImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProductImageFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
+  name: SetProductImageFromStreamAsync
+  nameWithType: IBLOBAgent.SetProductImageFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImageFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync
   isExternal: true
@@ -1772,6 +2437,13 @@ references:
   name: GetProductThumbnailAsync
   nameWithType: IBLOBAgent.GetProductThumbnailAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProductThumbnailAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProductThumbnailAsStreamAsync
+  nameWithType: IBLOBAgent.GetProductThumbnailAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnailAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync
   isExternal: true
@@ -1779,6 +2451,13 @@ references:
   name: SetProductThumbnailAsync
   nameWithType: IBLOBAgent.SetProductThumbnailAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProductThumbnailFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
+  name: SetProductThumbnailFromStreamAsync
+  nameWithType: IBLOBAgent.SetProductThumbnailFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnailFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImageAsync
   isExternal: true
@@ -1793,6 +2472,13 @@ references:
   name: GetQuoteLineImageAsync
   nameWithType: IBLOBAgent.GetQuoteLineImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetQuoteLineImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetQuoteLineImageAsStreamAsync
+  nameWithType: IBLOBAgent.GetQuoteLineImageAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImageAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync
   isExternal: true
@@ -1800,6 +2486,13 @@ references:
   name: GetPersonImageWithSizeAsync
   nameWithType: IBLOBAgent.GetPersonImageWithSizeAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetPersonImageWithSizeAsStreamAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetPersonImageWithSizeAsStreamAsync
+  nameWithType: IBLOBAgent.GetPersonImageWithSizeAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSizeAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync
   isExternal: true
@@ -1807,6 +2500,13 @@ references:
   name: GetProjectImageWithSizeAsync
   nameWithType: IBLOBAgent.GetProjectImageWithSizeAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProjectImageWithSizeAsStreamAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetProjectImageWithSizeAsStreamAsync
+  nameWithType: IBLOBAgent.GetProjectImageWithSizeAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSizeAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync
   isExternal: true
@@ -1814,6 +2514,13 @@ references:
   name: GetChatImageWithSizeAsync
   nameWithType: IBLOBAgent.GetChatImageWithSizeAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetChatImageWithSizeAsStreamAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetChatImageWithSizeAsStreamAsync
+  nameWithType: IBLOBAgent.GetChatImageWithSizeAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSizeAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync
   isExternal: true
@@ -1821,6 +2528,13 @@ references:
   name: GetContactImageAsync
   nameWithType: IBLOBAgent.GetContactImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetContactImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetContactImageAsStreamAsync
+  nameWithType: IBLOBAgent.GetContactImageAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync
   isExternal: true
@@ -1828,6 +2542,13 @@ references:
   name: SetContactImageAsync
   nameWithType: IBLOBAgent.SetContactImageAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetContactImageFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
+  name: SetContactImageFromStreamAsync
+  nameWithType: IBLOBAgent.SetContactImageFromStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImageFromStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImageAsync
   isExternal: true
@@ -1849,6 +2570,13 @@ references:
   name: GetContactImageWithSizeAsync
   nameWithType: IBLOBAgent.GetContactImageWithSizeAsync
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsync
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetContactImageWithSizeAsStreamAsync_System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetContactImageWithSizeAsStreamAsync
+  nameWithType: IBLOBAgent.GetContactImageWithSizeAsStreamAsync
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSizeAsStreamAsync
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatchAsync
   isExternal: true

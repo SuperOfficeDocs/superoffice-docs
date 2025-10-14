@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  id: IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  langs:
+  - csharp
+  - vb
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
+  type: Interface
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Base interface for interacting with SuperOffice WebApi agents.
+  example: []
+  syntax:
+    content: 'public interface IAgentBase : IDisposable'
+    content.vb: Public Interface IAgentBase Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  id: CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  langs:
+  - csharp
+  - vb
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Terminate any current method call.
+  example: []
+  syntax:
+    content: void CancelRequest()
+    content.vb: Sub CancelRequest()
+  overload: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest*
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  id: Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Configuration the agent was initialized with.
+  example: []
+  syntax:
+    content: WebApiOptions Configuration { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.WebApiOptions
+    content.vb: ReadOnly Property Configuration As WebApiOptions
+  overload: SuperOffice.WebApi.Agents.IAgentBase.Configuration*
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  id: HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  langs:
+  - csharp
+  - vb
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Is a request in flight?
+  example: []
+  syntax:
+    content: bool HasRunningRequest { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HasRunningRequest As Boolean
+  overload: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest*
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  id: ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Progress callback receiver for downloads.
+  example: []
+  syntax:
+    content: IProgressListener ProgressListener { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IProgressListener
+    content.vb: Property ProgressListener As IProgressListener
+  overload: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener*
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  id: UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  langs:
+  - csharp
+  - vb
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Progress callback receiver for uploads.
+  example: []
+  syntax:
+    content: IProgressListener UploadProgressListener { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IProgressListener
+    content.vb: Property UploadProgressListener As IProgressListener
+  overload: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener*
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest
+  nameWithType: IAgentBase.CancelRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.WebApiOptions.html
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+- uid: SuperOffice.WebApi.IProgressListener
+  commentId: T:SuperOffice.WebApi.IProgressListener
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.IProgressListener.html
+  name: IProgressListener
+  nameWithType: IProgressListener
+  fullName: SuperOffice.WebApi.IProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener

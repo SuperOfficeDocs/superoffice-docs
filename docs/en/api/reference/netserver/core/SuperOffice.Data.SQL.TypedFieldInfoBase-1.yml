@@ -168,6 +168,7 @@ items:
   - SuperOffice.Data.SQL.TicketReadStatusFieldInfo
   - SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
   - SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
+  - SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
   - SuperOffice.Data.SQL.TravelEncryptionChildFieldInfo
   - SuperOffice.Data.SQL.TravelEncryptionOwnFieldInfo
   - SuperOffice.Data.SQL.TrlogTransTypeFieldInfo

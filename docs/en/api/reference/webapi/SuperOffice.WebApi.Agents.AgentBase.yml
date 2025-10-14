@@ -48,8 +48,8 @@ items:
   remarks: Disposes of the client when the agent is disposed, if no client provided to ctor.
   example: []
   syntax:
-    content: 'public class AgentBase : IDisposable'
-    content.vb: Public Class AgentBase Implements IDisposable
+    content: 'public class AgentBase : IAgentBase, IDisposable'
+    content.vb: Public Class AgentBase Implements IAgentBase, IDisposable
   inheritance:
   - System.Object
   derivedClasses:
@@ -111,6 +111,7 @@ items:
   - SuperOffice.WebApi.Agents.WebhookAgent
   - SuperOffice.WebApi.Agents.WorkflowAgent
   implements:
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - System.Object.ToString
@@ -449,6 +450,8 @@ items:
     content: public void CancelRequest()
     content.vb: Public Sub CancelRequest()
   overload: SuperOffice.WebApi.Agents.AgentBase.CancelRequest*
+  implements:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   id: SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
@@ -667,6 +670,8 @@ items:
       type: SuperOffice.WebApi.WebApiOptions
     content.vb: Public ReadOnly Property Configuration As WebApiOptions
   overload: SuperOffice.WebApi.Agents.AgentBase.Configuration*
+  implements:
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
 - uid: SuperOffice.WebApi.Agents.AgentBase.Client
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
   id: Client
@@ -682,7 +687,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    The HTTP Client we are using. 
+    The HTTP Client we are using.
 
     Create a default SO HttpClient if not specified in constructor.
   example: []
@@ -716,6 +721,8 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasRunningRequest As Boolean
   overload: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest*
+  implements:
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
 - uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   id: ClientCancellationTokenSource
@@ -762,6 +769,8 @@ items:
       type: SuperOffice.WebApi.IProgressListener
     content.vb: Public Property ProgressListener As IProgressListener
   overload: SuperOffice.WebApi.Agents.AgentBase.ProgressListener*
+  implements:
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
 - uid: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   id: UploadProgressListener
@@ -785,6 +794,8 @@ items:
       type: SuperOffice.WebApi.IProgressListener
     content.vb: Public Property UploadProgressListener As IProgressListener
   overload: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener*
+  implements:
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
 references:
 - uid: System.Net.Http.HttpClient
   commentId: T:System.Net.Http.HttpClient
@@ -842,6 +853,14 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System
@@ -1381,6 +1400,28 @@ references:
   name: CancelRequest
   nameWithType: AgentBase.CancelRequest
   fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject*
   commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
   isExternal: true
@@ -1604,6 +1645,14 @@ references:
   name: Configuration
   nameWithType: AgentBase.Configuration
   fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
 - uid: SuperOffice.WebApi.Agents.AgentBase.Client*
   commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Client
   isExternal: true
@@ -1618,6 +1667,14 @@ references:
   name: HasRunningRequest
   nameWithType: AgentBase.HasRunningRequest
   fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
 - uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource*
   commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   isExternal: true
@@ -1667,6 +1724,14 @@ references:
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
 - uid: SuperOffice.WebApi.IProgressListener
   commentId: T:SuperOffice.WebApi.IProgressListener
   parent: SuperOffice.WebApi
@@ -1682,3 +1747,11 @@ references:
   name: UploadProgressListener
   nameWithType: AgentBase.UploadProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener

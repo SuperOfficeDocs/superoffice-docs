@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  id: BulkUpdateSystem.UTMParametersFieldValueKeys
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Campaign
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Content
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchCampaign
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchContent
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchMedium
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchReferrerDomain
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchSource
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchTerm
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Medium
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.ReferrerDomain
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Source
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Term
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.UTMParametersFieldValueKeys
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static class BulkUpdateSystem.UTMParametersFieldValueKeys
+    content.vb: Public Module BulkUpdateSystem.UTMParametersFieldValueKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchSource
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchSource
+  id: FirstTouchSource
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchSource
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchSource
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchSource
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchSource = "firsttouch_source"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchSource As String = "firsttouch_source"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchMedium
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchMedium
+  id: FirstTouchMedium
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchMedium
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchMedium
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchMedium
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchMedium = "firsttouch_medium"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchMedium As String = "firsttouch_medium"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchCampaign
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchCampaign
+  id: FirstTouchCampaign
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchCampaign
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchCampaign
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchCampaign
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchCampaign = "firsttouch_campaign"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchCampaign As String = "firsttouch_campaign"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchTerm
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchTerm
+  id: FirstTouchTerm
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchTerm
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchTerm
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchTerm
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchTerm = "firsttouch_term"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchTerm As String = "firsttouch_term"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchContent
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchContent
+  id: FirstTouchContent
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchContent
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchContent
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchContent
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchContent = "firsttouch_content"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchContent As String = "firsttouch_content"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchReferrerDomain
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchReferrerDomain
+  id: FirstTouchReferrerDomain
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchReferrerDomain
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchReferrerDomain
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.FirstTouchReferrerDomain
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string FirstTouchReferrerDomain = "firsttouch_referrerdomain"
+    return:
+      type: System.String
+    content.vb: Public Const FirstTouchReferrerDomain As String = "firsttouch_referrerdomain"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Source
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Source
+  id: Source
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.Source
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Source
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Medium
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Medium
+  id: Medium
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.Medium
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Medium
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Medium = "medium"
+    return:
+      type: System.String
+    content.vb: Public Const Medium As String = "medium"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Campaign
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Campaign
+  id: Campaign
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.Campaign
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Campaign
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Campaign = "campaign"
+    return:
+      type: System.String
+    content.vb: Public Const Campaign As String = "campaign"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Term
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Term
+  id: Term
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.Term
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Term
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Term = "term"
+    return:
+      type: System.String
+    content.vb: Public Const Term As String = "term"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Content
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Content
+  id: Content
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.Content
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.Content
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string Content = "content"
+    return:
+      type: System.String
+    content.vb: Public Const Content As String = "content"
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.ReferrerDomain
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.ReferrerDomain
+  id: ReferrerDomain
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReferrerDomain
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys.ReferrerDomain
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.ReferrerDomain
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public const string ReferrerDomain = "referrerdomain"
+    return:
+      type: System.String
+    content.vb: Public Const ReferrerDomain As String = "referrerdomain"
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate
+    name: BulkUpdate
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

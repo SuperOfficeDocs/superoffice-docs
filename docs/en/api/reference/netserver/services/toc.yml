@@ -789,6 +789,8 @@ items:
     name: ProjectTypeEntity
   - uid: SuperOffice.CRM.Services.ProjectTypeStatusLink
     name: ProjectTypeStatusLink
+  - uid: SuperOffice.CRM.Services.QuickFilterInfo
+    name: QuickFilterInfo
   - uid: SuperOffice.CRM.Services.QuickReply
     name: QuickReply
   - uid: SuperOffice.CRM.Services.Quote

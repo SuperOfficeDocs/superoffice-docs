@@ -260,6 +260,7 @@ items:
   - SuperOffice.WebApi.Data.BizCard
   - SuperOffice.WebApi.Data.BlobEntity
   - SuperOffice.WebApi.Data.BlobLinkType
+  - SuperOffice.WebApi.Data.BoardViewBadgeType
   - SuperOffice.WebApi.Data.BoardViewEntityType
   - SuperOffice.WebApi.Data.BoardViewSettingsBase
   - SuperOffice.WebApi.Data.BookingType
@@ -522,12 +523,15 @@ items:
   - SuperOffice.WebApi.Data.Dash_DuplicateTileRequest
   - SuperOffice.WebApi.Data.Dash_GetDashCollectionRequest
   - SuperOffice.WebApi.Data.Dash_GetDashListRequest
+  - SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest
   - SuperOffice.WebApi.Data.Dash_GetDashTileHtmlListRequest
   - SuperOffice.WebApi.Data.Dash_GetDashTileHtmlRequest
   - SuperOffice.WebApi.Data.Dash_GetDashTilesRequest
+  - SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
   - SuperOffice.WebApi.Data.Dash_GetPreviewDashRequest
   - SuperOffice.WebApi.Data.Dash_GetSecondaryTempTileSelectionRequest
   - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
+  - SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
   - SuperOffice.WebApi.Data.Dashboard
@@ -1462,6 +1466,7 @@ items:
   - SuperOffice.WebApi.Data.ProvidedCredential
   - SuperOffice.WebApi.Data.ProviderInfo
   - SuperOffice.WebApi.Data.PublishType
+  - SuperOffice.WebApi.Data.QuickFilterInfo
   - SuperOffice.WebApi.Data.QuickReply
   - SuperOffice.WebApi.Data.Quote
   - SuperOffice.WebApi.Data.QuoteAlternative
@@ -11849,6 +11854,7 @@ references:
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
   commentId: T:SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+  parent: SuperOffice.WebApi.Data
   isExternal: true
   href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo
@@ -13940,6 +13946,27 @@ references:
   name: Dash_GetDashListRequest
   nameWithType: Dash_GetDashListRequest
   fullName: SuperOffice.WebApi.Data.Dash_GetDashListRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest.html
+  name: Dash_GetDashQuickFiltersRequest
+  nameWithType: Dash_GetDashQuickFiltersRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetDashQuickFiltersRequest
+- uid: SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest.html
+  name: Dash_SaveDashQuickFiltersRequest
+  nameWithType: Dash_SaveDashQuickFiltersRequest
+  fullName: SuperOffice.WebApi.Data.Dash_SaveDashQuickFiltersRequest
+- uid: SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
+  commentId: T:SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest.html
+  name: Dash_GetPossibleDashQuickFiltersRequest
+  nameWithType: Dash_GetPossibleDashQuickFiltersRequest
+  fullName: SuperOffice.WebApi.Data.Dash_GetPossibleDashQuickFiltersRequest
 - uid: SuperOffice.WebApi.Data.DashCollection
   commentId: T:SuperOffice.WebApi.Data.DashCollection
   isExternal: true
@@ -14090,6 +14117,13 @@ references:
   name: PreviewDashTile
   nameWithType: PreviewDashTile
   fullName: SuperOffice.WebApi.Data.PreviewDashTile
+- uid: SuperOffice.WebApi.Data.QuickFilterInfo
+  commentId: T:SuperOffice.WebApi.Data.QuickFilterInfo
+  isExternal: true
+  href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  name: QuickFilterInfo
+  nameWithType: QuickFilterInfo
+  fullName: SuperOffice.WebApi.Data.QuickFilterInfo
 - uid: SuperOffice.WebApi.Data.TargetAssignment
   commentId: T:SuperOffice.WebApi.Data.TargetAssignment
   isExternal: true
@@ -16992,6 +17026,14 @@ references:
   name: BoardViewEntityType
   nameWithType: BoardViewEntityType
   fullName: SuperOffice.WebApi.Data.BoardViewEntityType
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewBadgeType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType
   commentId: T:SuperOffice.WebApi.Data.WorkflowGoalType
   parent: SuperOffice.WebApi.Data

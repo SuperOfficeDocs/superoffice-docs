@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBirthYear
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategory
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colContactId
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCountry
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCountryId
@@ -51,6 +52,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colKanaFirstname
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colKanaLastname
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLastName
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colMiddleName
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colMrMrs
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colNoMailings
@@ -1252,6 +1254,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colCategory As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  id: _colCategoryGroup
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCategoryGroup
+  nameWithType: PersonExtenderBase._colCategoryGroup
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCategoryGroup
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCategoryGroup As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   id: _colBusiness
@@ -1271,6 +1292,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colBusiness As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  id: _colLeadStatus
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colLeadStatus
+  nameWithType: PersonExtenderBase._colLeadStatus
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colLeadStatus
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colLeadStatus As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   id: _colDeletedDate

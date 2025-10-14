@@ -50,6 +50,7 @@ items:
   - Microsoft.Extensions.Hosting.BackgroundService
   derivedClasses:
   - SuperOffice.CRM.Webhooks.WebhookDispatcher
+  - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
   - SuperOffice.Util.TrackEventSender
   implements:
   - System.IDisposable

@@ -48,13 +48,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class WebhookAgent : AgentBase, IWebhookAgent, IDisposable'
-    content.vb: Public Class WebhookAgent Inherits AgentBase Implements IWebhookAgent, IDisposable
+    content: 'public class WebhookAgent : AgentBase, IWebhookAgent, IAgentBase, IDisposable'
+    content.vb: Public Class WebhookAgent Inherits AgentBase Implements IWebhookAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IWebhookAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -268,7 +269,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific Webhook object.                        
+    Gets a specific Webhook object.
 
     <p></p>
 
@@ -527,6 +528,14 @@ references:
   name: IWebhookAgent
   nameWithType: IWebhookAgent
   fullName: SuperOffice.WebApi.Agents.IWebhookAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

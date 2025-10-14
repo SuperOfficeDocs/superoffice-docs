@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BlobLinkType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewBadgeType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BookingType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalMethod@,SuperOffice.Data.SQL.FieldInfo)
@@ -207,6 +208,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketReadStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketSecurityLevel@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TicketStatusTimeCounter@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TravelEncryptionChild@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TravelEncryptionOwn@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TrlogTransType@,SuperOffice.Data.SQL.FieldInfo)
@@ -4340,6 +4342,62 @@ items:
   nameWithType.vb: RowValidator.ValidateField(BoardViewEntityType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(BoardViewEntityType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewBadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewBadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.BoardViewBadgeType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref BoardViewBadgeType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref BoardViewBadgeType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.BoardViewBadgeType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref BoardViewBadgeType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.BoardViewBadgeType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As BoardViewBadgeType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(BoardViewBadgeType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewBadgeType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(BoardViewBadgeType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.TimeKeepingType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref TimeKeepingType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref TimeKeepingType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.TimeKeepingType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref TimeKeepingType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.TimeKeepingType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As TimeKeepingType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(TimeKeepingType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.TimeKeepingType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(TimeKeepingType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
@@ -10007,6 +10065,22 @@ references:
   name: BoardViewEntityType
   nameWithType: BoardViewEntityType
   fullName: SuperOffice.Data.BoardViewEntityType
+- uid: SuperOffice.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.Data.BoardViewBadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.Data.BoardViewBadgeType
+- uid: SuperOffice.Data.TimeKeepingType
+  commentId: T:SuperOffice.Data.TimeKeepingType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TimeKeepingType.html
+  name: TimeKeepingType
+  nameWithType: TimeKeepingType
+  fullName: SuperOffice.Data.TimeKeepingType
 - uid: SuperOffice.Data.WorkflowGoalType
   commentId: T:SuperOffice.Data.WorkflowGoalType
   parent: SuperOffice.Data

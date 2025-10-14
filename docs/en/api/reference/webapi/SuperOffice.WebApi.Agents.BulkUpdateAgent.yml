@@ -43,13 +43,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class BulkUpdateAgent : AgentBase, IBulkUpdateAgent, IDisposable'
-    content.vb: Public Class BulkUpdateAgent Inherits AgentBase Implements IBulkUpdateAgent, IDisposable
+    content: 'public class BulkUpdateAgent : AgentBase, IBulkUpdateAgent, IAgentBase, IDisposable'
+    content.vb: Public Class BulkUpdateAgent Inherits AgentBase Implements IBulkUpdateAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IBulkUpdateAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -512,6 +513,14 @@ references:
   name: IBulkUpdateAgent
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.WebApi.Agents.IBulkUpdateAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

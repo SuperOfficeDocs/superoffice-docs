@@ -309,6 +309,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetProjectTypeStatusLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetPublishTableInfo
   - SuperOffice.Data.TablesInfo.GetPushNotificationServiceTableInfo
+  - SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo
   - SuperOffice.Data.TablesInfo.GetQuickReplyTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteAlternativeTableInfo
   - SuperOffice.Data.TablesInfo.GetQuoteApprReasonGroupLinkTableInfo
@@ -490,6 +491,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetTicketTypePriorityTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketTypeStatusTableInfo
   - SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
+  - SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo
   - SuperOffice.Data.TablesInfo.GetTimestampsTableInfo
   - SuperOffice.Data.TablesInfo.GetTravelCurrentTableInfo
   - SuperOffice.Data.TablesInfo.GetTravelGeneratedDatabaseTableInfo
@@ -12846,6 +12848,31 @@ items:
       type: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
     content.vb: Public Shared Function GetDashboardTileFieldTableInfo() As DashboardTileFieldTableInfo
   overload: SuperOffice.Data.TablesInfo.GetDashboardTileFieldTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo
+  id: GetQuickFilterInfoTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetQuickFilterInfoTableInfo()
+  nameWithType: TablesInfo.GetQuickFilterInfoTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of QuickFilterInfoTableInfo:
+
+    Connect quick filter info from a specific provider to a dashboard
+  example: []
+  syntax:
+    content: public static QuickFilterInfoTableInfo GetQuickFilterInfoTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    content.vb: Public Shared Function GetQuickFilterInfoTableInfo() As QuickFilterInfoTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetFormTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetFormTableInfo
   id: GetFormTableInfo
@@ -13146,6 +13173,31 @@ items:
       type: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
     content.vb: Public Shared Function GetBoardViewSettingsTableInfo() As BoardViewSettingsTableInfo
   overload: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo
+  id: GetTimeKeepingTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetTimeKeepingTableInfo()
+  nameWithType: TablesInfo.GetTimeKeepingTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of TimeKeepingTableInfo:
+
+    Time keeping for how much time a sale or project or other entity has spent in a given stage or other state
+  example: []
+  syntax:
+    content: public static TimeKeepingTableInfo GetTimeKeepingTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.TimeKeepingTableInfo
+    content.vb: Public Shared Function GetTimeKeepingTableInfo() As TimeKeepingTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   id: GetOnlineAppTableInfo
@@ -21886,6 +21938,21 @@ references:
   name: DashboardTileFieldTableInfo
   nameWithType: DashboardTileFieldTableInfo
   fullName: SuperOffice.CRM.Data.DashboardTileFieldTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetQuickFilterInfoTableInfo
+  name: GetQuickFilterInfoTableInfo
+  nameWithType: TablesInfo.GetQuickFilterInfoTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetQuickFilterInfoTableInfo
+- uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
+  name: QuickFilterInfoTableInfo
+  nameWithType: QuickFilterInfoTableInfo
+  fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetFormTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetFormTableInfo
   isExternal: true
@@ -22066,6 +22133,21 @@ references:
   name: BoardViewSettingsTableInfo
   nameWithType: BoardViewSettingsTableInfo
   fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetTimeKeepingTableInfo
+  name: GetTimeKeepingTableInfo
+  nameWithType: TablesInfo.GetTimeKeepingTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo
+  commentId: T:SuperOffice.CRM.Data.TimeKeepingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html
+  name: TimeKeepingTableInfo
+  nameWithType: TimeKeepingTableInfo
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   isExternal: true

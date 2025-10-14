@@ -53,15 +53,16 @@ items:
     content: >-
       [Obsolete("This API is not available from Netserver version 11. If you use this client package to access on-prem Netserver versions before 11 you should disable this warning.", false)]
 
-      public class DashboardAgent : AgentBase, IDashboardAgent, IDisposable
+      public class DashboardAgent : AgentBase, IAgentBase, IDashboardAgent, IDisposable
     content.vb: >-
       <Obsolete("This API is not available from Netserver version 11. If you use this client package to access on-prem Netserver versions before 11 you should disable this warning.", False)>
 
-      Public Class DashboardAgent Inherits AgentBase Implements IDashboardAgent, IDisposable
+      Public Class DashboardAgent Inherits AgentBase Implements IAgentBase, IDashboardAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
+  - SuperOffice.WebApi.Agents.IAgentBase
   - SuperOffice.WebApi.Agents.IDashboardAgent
   - System.IDisposable
   inheritedMembers:
@@ -756,6 +757,14 @@ references:
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent
   commentId: T:SuperOffice.WebApi.Agents.IDashboardAgent
   parent: SuperOffice.WebApi.Agents

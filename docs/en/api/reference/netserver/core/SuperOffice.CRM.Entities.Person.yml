@@ -44,6 +44,7 @@ items:
   - SuperOffice.CRM.Entities.Person.GetSelectionMembershipsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Person.GetShipmentTypeReservationsAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Person.GetUrlsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Entities.Person.GetUtmParametersAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.Person.GroupId
   - SuperOffice.CRM.Entities.Person.Info
   - SuperOffice.CRM.Entities.Person.Initials
@@ -136,6 +137,7 @@ items:
   - SuperOffice.CRM.Entities.Person._udefSmall
   - SuperOffice.CRM.Entities.Person._updatedAssociate
   - SuperOffice.CRM.Entities.Person._urls
+  - SuperOffice.CRM.Entities.Person._utmParameters
   - SuperOffice.CRM.Entities.Person.op_Explicit(SuperOffice.CRM.Rows.PersonRow)~SuperOffice.CRM.Entities.Person
   langs:
   - csharp
@@ -893,6 +895,25 @@ items:
     return:
       type: SuperOffice.CRM.Rows.EmailRows
     content.vb: Protected _internetPhones As EmailRows
+- uid: SuperOffice.CRM.Entities.Person._utmParameters
+  commentId: F:SuperOffice.CRM.Entities.Person._utmParameters
+  id: _utmParameters
+  parent: SuperOffice.CRM.Entities.Person
+  langs:
+  - csharp
+  - vb
+  name: _utmParameters
+  nameWithType: Person._utmParameters
+  fullName: SuperOffice.CRM.Entities.Person._utmParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected UtmParametersRows _utmParameters
+    return:
+      type: SuperOffice.CRM.Rows.UtmParametersRows
+    content.vb: Protected _utmParameters As UtmParametersRows
 - uid: SuperOffice.CRM.Entities.Person.#ctor(SuperOffice.CRM.Entities.Person.PersonIdxBase)
   commentId: M:SuperOffice.CRM.Entities.Person.#ctor(SuperOffice.CRM.Entities.Person.PersonIdxBase)
   id: '#ctor(SuperOffice.CRM.Entities.Person.PersonIdxBase)'
@@ -1432,6 +1453,29 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EmailRows}
     content.vb: Public Function GetChatEmailsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of EmailRows)
   overload: SuperOffice.CRM.Entities.Person.GetChatEmailsAsync*
+- uid: SuperOffice.CRM.Entities.Person.GetUtmParametersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.Person.GetUtmParametersAsync(System.Threading.CancellationToken)
+  id: GetUtmParametersAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.Person
+  langs:
+  - csharp
+  - vb
+  name: GetUtmParametersAsync(CancellationToken)
+  nameWithType: Person.GetUtmParametersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Entities.Person.GetUtmParametersAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public Task<UtmParametersRows> GetUtmParametersAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+    content.vb: Public Function GetUtmParametersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UtmParametersRows)
+  overload: SuperOffice.CRM.Entities.Person.GetUtmParametersAsync*
 - uid: SuperOffice.CRM.Entities.Person.GetInternetPhonesAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.Person.GetInternetPhonesAsync(System.Threading.CancellationToken)
   id: GetInternetPhonesAsync(System.Threading.CancellationToken)
@@ -5348,6 +5392,14 @@ references:
   name: EmailRows
   nameWithType: EmailRows
   fullName: SuperOffice.CRM.Rows.EmailRows
+- uid: SuperOffice.CRM.Rows.UtmParametersRows
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows
+  nameWithType: UtmParametersRows
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows
 - uid: SuperOffice.CRM.Entities.Person.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Person.#ctor
   isExternal: true
@@ -6000,6 +6052,48 @@ references:
   name: GetChatEmailsAsync
   nameWithType: Person.GetChatEmailsAsync
   fullName: SuperOffice.CRM.Entities.Person.GetChatEmailsAsync
+- uid: SuperOffice.CRM.Entities.Person.GetUtmParametersAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Person.GetUtmParametersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Person.html#SuperOffice_CRM_Entities_Person_GetUtmParametersAsync_System_Threading_CancellationToken_
+  name: GetUtmParametersAsync
+  nameWithType: Person.GetUtmParametersAsync
+  fullName: SuperOffice.CRM.Entities.Person.GetUtmParametersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.UtmParametersRows}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UtmParametersRows>
+  nameWithType: Task<UtmParametersRows>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.UtmParametersRows>
+  nameWithType.vb: Task(Of UtmParametersRows)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.UtmParametersRows)
+  name.vb: Task(Of UtmParametersRows)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: )
 - uid: SuperOffice.CRM.Entities.Person.GetInternetPhonesAsync*
   commentId: Overload:SuperOffice.CRM.Entities.Person.GetInternetPhonesAsync
   isExternal: true

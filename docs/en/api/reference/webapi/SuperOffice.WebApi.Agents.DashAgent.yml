@@ -29,16 +29,19 @@ items:
   - SuperOffice.WebApi.Agents.DashAgent.GetDashAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashThemeAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileDefinitionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTileHtmlListAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetDashTilesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetPreviewDashAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.GetTempTileSelectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashAsync(SuperOffice.WebApi.Data.Dash,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashThemeAsync(SuperOffice.WebApi.Data.DashTheme,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashTileAsync(SuperOffice.WebApi.Data.DashTile,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DashAgent.SaveDashTileDefinitionAsync(SuperOffice.WebApi.Data.DashTileDefinition,SuperOffice.WebApi.RequestOptions)
@@ -72,13 +75,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class DashAgent : AgentBase, IDashAgent, IDisposable'
-    content.vb: Public Class DashAgent Inherits AgentBase Implements IDashAgent, IDisposable
+    content: 'public class DashAgent : AgentBase, IDashAgent, IAgentBase, IDisposable'
+    content.vb: Public Class DashAgent Inherits AgentBase Implements IDashAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IDashAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -841,6 +845,114 @@ items:
   nameWithType.vb: DashAgent.GetDashListAsync(Integer(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.DashAgent.GetDashListAsync(Integer(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetDashListAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashQuickFiltersAsync(int, RequestOptions)
+  nameWithType: DashAgent.GetDashQuickFiltersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets the quick filters for this dashboard
+  example: []
+  syntax:
+    content: public Task<QuickFilterInfo[]> GetDashQuickFiltersAsync(int dashboardId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard to get the quick filters for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.QuickFilterInfo[]}
+      description: List of quick filters for the given dashboard
+    content.vb: Public Function GetDashQuickFiltersAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashAgent.GetDashQuickFiltersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashQuickFiltersAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  id: SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashQuickFiltersAsync(int, QuickFilterInfo[], RequestOptions)
+  nameWithType: DashAgent.SaveDashQuickFiltersAsync(int, QuickFilterInfo[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync(int, SuperOffice.WebApi.Data.QuickFilterInfo[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Saves the quick filters for this dashboard
+  example: []
+  syntax:
+    content: public Task<QuickFilterInfo[]> SaveDashQuickFiltersAsync(int dashboardId, QuickFilterInfo[] quickFilters, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard these quick filters are associated with
+    - id: quickFilters
+      type: SuperOffice.WebApi.Data.QuickFilterInfo[]
+      description: Complete list of quick filters for the given dashboard, overwriting the existing list
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.QuickFilterInfo[]}
+      description: List of saved quick filters for the given dashboard
+    content.vb: Public Function SaveDashQuickFiltersAsync(dashboardId As Integer, quickFilters As QuickFilterInfo(), requestOptions As RequestOptions = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashAgent.SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync(Integer, SuperOffice.WebApi.Data.QuickFilterInfo(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPossibleDashQuickFiltersAsync(int, RequestOptions)
+  nameWithType: DashAgent.GetPossibleDashQuickFiltersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets the possible (not stored/selected) quick filters for this dashboard
+  example: []
+  syntax:
+    content: public Task<QuickFilterInfo[]> GetPossibleDashQuickFiltersAsync(int dashboardId, RequestOptions requestOptions = null)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard to get the possible quick filters for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.QuickFilterInfo[]}
+      description: List of possible quick filters for the given dashboard
+    content.vb: Public Function GetPossibleDashQuickFiltersAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DashAgent.GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
   id: GetDashCollectionAsync(SuperOffice.WebApi.RequestOptions)
@@ -1507,6 +1619,14 @@ references:
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.WebApi.Agents.IDashAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System
@@ -4046,6 +4166,240 @@ references:
     href: SuperOffice.WebApi.Data.Dash.html
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DashAgent.html#SuperOffice_WebApi_Agents_DashAgent_GetDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashQuickFiltersAsync
+  nameWithType: DashAgent.GetDashQuickFiltersAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetDashQuickFiltersAsync
+- uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDashAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetDashQuickFiltersAsync(int, RequestOptions)
+  nameWithType: IDashAgent.GetDashQuickFiltersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashAgent.GetDashQuickFiltersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashQuickFiltersAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.GetDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.QuickFilterInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.QuickFilterInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuickFilterInfo[]>
+  nameWithType: Task<QuickFilterInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.QuickFilterInfo[]>
+  nameWithType.vb: Task(Of QuickFilterInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.QuickFilterInfo())
+  name.vb: Task(Of QuickFilterInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DashAgent.html#SuperOffice_WebApi_Agents_DashAgent_SaveDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_Data_QuickFilterInfo___SuperOffice_WebApi_RequestOptions_
+  name: SaveDashQuickFiltersAsync
+  nameWithType: DashAgent.SaveDashQuickFiltersAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.SaveDashQuickFiltersAsync
+- uid: SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDashAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_SaveDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_Data_QuickFilterInfo___SuperOffice_WebApi_RequestOptions_
+  name: SaveDashQuickFiltersAsync(int, QuickFilterInfo[], RequestOptions)
+  nameWithType: IDashAgent.SaveDashQuickFiltersAsync(int, QuickFilterInfo[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(int, SuperOffice.WebApi.Data.QuickFilterInfo[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashAgent.SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(Integer, SuperOffice.WebApi.Data.QuickFilterInfo(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+    name: SaveDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_SaveDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_Data_QuickFilterInfo___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.Data.QuickFilterInfo[],SuperOffice.WebApi.RequestOptions)
+    name: SaveDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_SaveDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_Data_QuickFilterInfo___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.QuickFilterInfo[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  name: QuickFilterInfo[]
+  nameWithType: QuickFilterInfo[]
+  fullName: SuperOffice.WebApi.Data.QuickFilterInfo[]
+  nameWithType.vb: QuickFilterInfo()
+  fullName.vb: SuperOffice.WebApi.Data.QuickFilterInfo()
+  name.vb: QuickFilterInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.QuickFilterInfo.html
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DashAgent.html#SuperOffice_WebApi_Agents_DashAgent_GetPossibleDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetPossibleDashQuickFiltersAsync
+  nameWithType: DashAgent.GetPossibleDashQuickFiltersAsync
+  fullName: SuperOffice.WebApi.Agents.DashAgent.GetPossibleDashQuickFiltersAsync
+- uid: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDashAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetPossibleDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetPossibleDashQuickFiltersAsync(int, RequestOptions)
+  nameWithType: IDashAgent.GetPossibleDashQuickFiltersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPossibleDashQuickFiltersAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPossibleDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetPossibleDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetPossibleDashQuickFiltersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDashAgent.html#SuperOffice_WebApi_Agents_IDashAgent_GetPossibleDashQuickFiltersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.DashAgent.GetDashCollectionAsync
