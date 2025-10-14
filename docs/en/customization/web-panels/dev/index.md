@@ -19,6 +19,9 @@ redirect_from:
 
 # Building web panels
 
+> [!NOTE]
+> After adding a web panel it is good practice to [flush caches][7] in the application.
+
 ## Link to a web panel
 
 You can **add a link** in your web panel that will load another panel when pressed.
@@ -70,5 +73,6 @@ u.load(getVariable("activeUser").toInteger());
 [4]: ../../../document/templates/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 [6]: ../../../ui/blogic/custom-screens/index.md
+[7]: ../../../api/caching/flush-cache.md
 
 <!-- Referenced images -->
