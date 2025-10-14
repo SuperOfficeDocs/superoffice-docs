@@ -55,5 +55,5 @@ Here's how user preferences are handled *without* caching:
 [6]: ../../admin/user-preferences/howto/index.md
 [11]: ../web-services/howto/user-preferences/get-preferences-preferenceagent.md
 [12]: ../web-services/howto/user-preferences/set-preferences-preferenceagent.md
-[13]: ../../admin/user-preferences/howto/get-preferences-sopreference.md
-[14]: ../../admin/user-preferences/howto/set-preferences-sopreference.md
+[13]: ../entities/howto/user-preferences/get-preferences-sopreference.md
+[14]: ../entities/howto/user-preferences/set-preferences-sopreference.md

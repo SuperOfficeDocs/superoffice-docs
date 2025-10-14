@@ -521,6 +521,13 @@ items:
             items:
               - name: Link sale to appointment
                 href: entities/howto/sale/link-sale-to-appointment.md
+          - name: User preferences
+            topicHref: entities/howto/user-preferences/get-preferences-sopreference.md
+            items:
+              - name: Get preferences
+                href: entities/howto/user-preferences/get-preferences-sopreference.md
+              - name: Set preferences
+                href: entities/howto/user-preferences/set-preferences-sopreference.md
   - name: Rows
     href: rows/index.md
     items:
