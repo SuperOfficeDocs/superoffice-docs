@@ -1,8 +1,8 @@
 ---
-uid: help-en-adding-items-to-web-panel-list
+uid: help-en-add-web-panel
 title: Add web panel
 description: How to add items to the web panel list in Settings and maintenance.
-keywords: web panel, list
+keywords: web panel, GUI - Web panel list
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -13,12 +13,14 @@ topic: web panel
 content_type: howto
 language: en
 index: true
-redirect_from: /en/admin/lists/learn/web-panel-add-item
+redirect_from: 
+  - /en/admin/lists/learn/web-panel-add-item
+  - /en/ui/web-panels/add-web-panel
 ---
 
 # Add web panel
 
-[!include[Must be admin](../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 Web panels are defined in the **GUI - Web panel** list, which you can manage in **Settings and maintenance** under **Lists**.
 
@@ -98,14 +100,29 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Add web panel in Service (legacy)
+
+In Service, web panels are called **extra browser tabs**. You can add the same type of content as for [extra menus][4].
+
+1. Sign in to SuperOffice Service.
+1. From the hamburger menu, select **System Design** and then select **Web panels**.
+1. Point to the target display location and click **New web panel**.
+1. Enter a UI label (the tab text).
+1. Select either **Use URL** or **Use screen** and then select the corresponding details.
+1. Select where to insert your new menu item from the **Position** list (0 = top).
+1. Click **OK**.
+1. Test the result.
+
 ## Related content
 
 * [Add a task menu item][1]
-* [Add a translation][3]
+* [Base programs and URL parameters][5]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

@@ -1,8 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Add a web panel
-  href: add-web-panel.md
 - name: Pass data with template variables
   href: passing-data.md
 - name: Create link to

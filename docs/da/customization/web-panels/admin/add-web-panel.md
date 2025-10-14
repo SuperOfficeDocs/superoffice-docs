@@ -1,8 +1,8 @@
 ---
-uid: help-da-adding-items-to-web-panel-list
+uid: help-da-add-web-panel
 title: Tilføj webpanel
 description: Sådan tilføjer du elementer til webpanellisten i Indstillinger og vedligeholdelse.
-keywords: webpanel, liste
+keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -18,7 +18,7 @@ redirect_from: /da/admin/lists/learn/web-panel-add-item
 
 # Tilføj webpanel
 
-[!include[Must be admin](../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i **Indstillinger og vedligeholdelse** under **Lister**.
 
@@ -98,14 +98,29 @@ Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i *
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Tilføj webpanel i Service (forældet)
+
+I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samme type indhold som for [ekstra menuer][5].
+
+1. Log ind i SuperOffice Service.
+1. Vælg **Systemdesign** i hamburgermenuen, og vælg derefter **Webpaneler**.
+1. Peg på den ønskede visningsplacering, og klik på **Nyt webpanel**.
+1. Indtast en UI-etiket (faneteksten).
+1. Vælg enten **Brug URL** eller **Brug skærmbillede**, og vælg derefter de tilsvarende oplysninger.
+1. Vælg, hvor det nye menupunkt skal indsættes, på listen **Placering** (0 = øverst).
+1. Klik på **OK**.
+1. Test resultatet.
+
 ## Relateret indhold
 
 * [Tilføj et opgavemenupunkt][1]
-* [Tilføj en oversættelse][3]
+* [Basisprogrammer og URL-parametre][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

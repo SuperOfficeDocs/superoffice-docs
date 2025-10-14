@@ -1,8 +1,8 @@
 ---
-uid: help-de-adding-items-to-web-panel-list
+uid: help-de-add-web-panel
 title: Web-Bildschirm hinzufügen
 description: So fügen Sie Elemente zur Web-Bildschirm-Liste in Einstellungen und Verwaltung hinzu.
-keywords: Web-Bildschirm, Liste
+keywords: Web-Bildschirm, Liste GUI - Web-Bildschirm
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -18,7 +18,7 @@ redirect_from: /de/admin/lists/learn/web-panel-add-item
 
 # Web-Bildschirm hinzufügen
 
-[!include[Must be admin](../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie in **Einstellungen und Verwaltung** unter **Listen** verwalten können.
 
@@ -98,14 +98,29 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Web-Bildschirm in Service hinzufügen (veraltet)
+
+In Service werden Web-Bildschirme als **zusätzliche Browser-Tabs** bezeichnet. Sie können denselben Inhaltstyp hinzufügen wie bei [zusätzlichen Menüs][4].
+
+1. Melden Sie sich bei SuperOffice Service an.
+1. Wählen Sie im Hamburger-Menü **Systemdesign** und dann **Web-Bildschirme**.
+1. Zeigen Sie auf die gewünschte Anzeigeposition und klicken Sie auf **Neuer Web-Bildschirm**.
+1. Geben Sie eine UI-Beschriftung ein (der Text im Tab).
+1. Wählen Sie entweder **URL verwenden** oder **Bildschirm verwenden** und dann die entsprechenden Details.
+1. Wählen Sie in der Liste **Position** aus, wo das neue Menüelement eingefügt werden soll (0 = oben).
+1. Klicken Sie auf **OK**.
+1. Testen Sie das Ergebnis.
+
 ## Verwandte Inhalte
 
 * [Menüpunkt "Aufgabe" hinzufügen][1]
-* [Übersetzung hinzufügen][3]
+* [Basisprogramme und URL-Parameter][5]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

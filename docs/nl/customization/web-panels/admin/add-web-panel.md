@@ -1,8 +1,8 @@
 ---
-uid: help-nl-adding-items-to-web-panel-list
+uid: help-nl-add-web-panel
 title: Webpaneel toevoegen
 description: Hoe items toe te voegen aan de webpaneellijst in Instellingen en onderhoud.
-keywords: webpaneel, lijst
+keywords: webpaneel, lijst GUI - Webpaneel
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -18,7 +18,7 @@ redirect_from: /nl/admin/lists/learn/web-panel-add-item
 
 # Webpaneel toevoegen
 
-[!include[Must be admin](../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beheren in **Instellingen en onderhoud** onder **Lijsten**.
 
@@ -98,14 +98,29 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Webpaneel in toevoegen Service (verouderd)
+
+In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde type inhoud toevoegen als bij [extra menu's][4].
+
+1. Meld je aan bij SuperOffice Service.
+1. Selecteer **Systeemontwerp** in het hamburgermenu en kies vervolgens **Webpanelen**.
+1. Wijs naar de gewenste weergavepositie en klik op **Nieuw webpaneel**.
+1. Voer een UI-label in (de tekst op het tabblad).
+1. Kies **URL gebruiken** of **Scherm gebruiken** en selecteer de bijbehorende details.
+1. Kies in de lijst **Positie** waar het nieuwe menu-item moet worden ingevoegd (0 = bovenaan).
+1. Klik op **OK**.
+1. Test het resultaat.
+
 ## Gerelateerde inhoud
 
 * [Een taakmenu-item toevoegen][1]
-* [Een vertaling toevoegen][3]
+* [Basisprogramma's en URL-parameters][5]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

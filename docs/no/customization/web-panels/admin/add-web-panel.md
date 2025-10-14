@@ -1,8 +1,8 @@
 ---
-uid: help-no-adding-items-to-web-panel-list
+uid: help-no-add-web-panel
 title: Legg til webpanel
 description: Slik legger du til elementer i webpanellisten i Innstillinger og vedlikehold.
-keywords: webpanel, liste
+keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -18,7 +18,7 @@ redirect_from: /no/admin/lists/learn/web-panel-add-item
 
 # Legg til webpanel
 
-[!include[Must be admin](../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../../learn/includes/req-admin.md)]
 
 Webpaneler er definert i listen **GUI - Webpanel**, som du kan administrere i **Innstillinger og vedlikehold** under **Lister**.
 
@@ -98,14 +98,29 @@ Webpaneler er definert i listen **GUI - Webpanel**, som du kan administrere i **
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Legg til webpanel i Service (utdatert)
+
+I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samme type innhold som for [ekstra menyer][4].
+
+1. Logg inn i SuperOffice Service.
+1. Gå til hamburgermenyen, velg **Systemdesign**, og deretter **Webpaneler**.
+1. Pek på ønsket visningsplassering, og klikk på **Nytt webpanel**.
+1. Skriv inn en UI-etikett (faneteksten).
+1. Velg enten **Bruk URL** eller **Bruk skjermbilde**, og angi relevante detaljer.
+1. Velg hvor det nye menyelementet skal settes inn i listen **Posisjon** (0 = øverst).
+1. Klikk på **OK**.
+1. Test resultatet.
+
 ## Relatert innhold
 
 * [Legg til et oppgavemenyvalg][1]
-* [Legg til en oversettelse][3]
+* [Grunnprogrammer og URL-parametere][5]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

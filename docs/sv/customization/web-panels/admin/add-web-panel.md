@@ -1,8 +1,8 @@
 ---
-uid: help-sv-adding-items-to-web-panel-list
+uid: help-sv-add-web-panel
 title: Lägg till webbpanel
 description: Så lägger du till objekt i webbpanellistan i Inställningar och underhåll.
-keywords: webbpanel, lista
+keywords: webbpanel, listan GUI - Webbpanel
 author: digitaldiina
 date: 10.13.2025
 version: 11.5
@@ -98,14 +98,29 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 
+## Lägg till webbpanel i Service (föråldrad)
+
+I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till samma typ av innehåll som för [extra menyer][4].
+
+1. Logga in i SuperOffice Service.
+1. Välj **Systemdesign** i hamburgermenyn och sedan **Webbpaneler**.
+1. Peka på önskad visningsplats och klicka på **Ny webbpanel**.
+1. Ange en UI-etikett (fliktext).
+1. Välj antingen **Använd URL** eller **Använd skärmbild** och välj motsvarande detaljer.
+1. Välj var det nya menyalternativet ska placeras från listan **Position** (0 = överst).
+1. Klicka på **OK**.
+1. Testa resultatet.
+
 ## Relaterat innehåll
 
 * [Lägg till en post på uppgiftsmenyn][1]
-* [Lägg till en översättning][3]
+* [Basprogram och URL-parametrar][5]
 
 <!-- Referenced links -->
 [1]: ../../../admin/lists/learn/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
+[4]: ../../../ui/blogic/learn/extra-menus/index.md
+[5]: ../../../../en/ui/blogic/url-parameters.md
 
 <!-- Referenced images -->

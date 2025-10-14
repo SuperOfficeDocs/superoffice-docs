@@ -88,7 +88,7 @@ conceptualContent:
         itemType: explore
         typeDesc: concept
         text: Overview
-      - url: web-panels/add-web-panel.md
+      - url: ../customization/web-panels/admin/add-web-panel.md
         itemType: list
         typeDesc: how-to-guide
         text: Add a web panel
