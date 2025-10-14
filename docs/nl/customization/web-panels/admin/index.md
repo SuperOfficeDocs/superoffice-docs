@@ -55,6 +55,16 @@ De **weergavelocatie** wordt gedefinieerd wanneer u het paneel configureert. Dit
 * Persoonscherm
 * Extra tabelitemscherm
 
+## <a id="www"></a>Het www-tabblad
+
+Op plaatsen zoals Bedrijf, Persoon, Project en Verkoop worden webpanelen vaak weergegeven onder het **www**-tabblad.
+
+U kunt het tabblad hernoemen in **Instellingen en onderhoud** > **Opties** > **Labels**. Om het tabblad binnen de CRM-interface te herpositioneren, gebruikt u de lijst **GUI - Webpaneel**.
+
+### Openen in apart venster
+
+Alle ingesloten URL's kunnen worden geopend in een apart browservenster met **Openen in apart venster**.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

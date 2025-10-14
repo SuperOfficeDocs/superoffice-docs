@@ -55,6 +55,16 @@ Nettleserfaner støtter en rekke innholdstyper:
 * Personskjermbilde
 * Ekstra tabelloppføringsskjermbilde
 
+## <a id="www"></a>www-fanen
+
+På steder som Firma, Person, Prosjekt og Salg vises nettleserfaner ofte under **www**-fanen.
+
+Du kan gi fanen nytt navn i **Innstillinger og vedlikehold** > **Alternativer** > **Ledetekster**. For å flytte fanen innenfor CRM-grensesnittet bruker du listen **GUI - Webpanel**.
+
+### Åpne i eget vindu
+
+Alle innebygde URL-er kan åpnes i et eget nettleservindu ved hjelp av **Åpne i eget vindu**.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

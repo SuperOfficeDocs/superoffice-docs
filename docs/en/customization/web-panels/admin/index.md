@@ -55,6 +55,16 @@ The **display location** is defined when you configure the panel. This controls 
 * Contact screen
 * Extra table entry screen
 
+## <a id="www"></a>The www tab
+
+In places like Company, Contact, Project, and Sale, web panels are often displayed under the **www** tab.
+
+You can rename the tab in **Settings and maintenance** > **Options** > **Labels**. To reposition the tab within the CRM interface, use the **GUI – Web panel** list.
+
+### Open in separate window
+
+All embedded URLs can be opened in a separate browser window using **Open in separate window**.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

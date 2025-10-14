@@ -55,6 +55,16 @@ Webpaneler understøtter en række indholdstyper:
 * Personskærmbillede
 * Ekstra tabelpostskærmbillede
 
+## <a id="www"></a>www-fanen
+
+På steder som Firma, Person, Projekt og Salg vises webpaneler ofte under **www**-fanen.
+
+Du kan omdøbe fanen i **Indstillinger og vedligeholdelse** > **Indstillinger** > **Etiketter**. For at flytte fanen inden for CRM-grænsefladen skal du bruge listen **GUI – Webpanel**.
+
+### Åbn i nyt vindue
+
+Alle indlejrede URL-adresser kan åbnes i et separat browservindue ved hjælp af **Åbn i nyt vindue**.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

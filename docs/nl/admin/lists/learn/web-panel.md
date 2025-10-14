@@ -24,15 +24,6 @@ Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven.
 * Voor welke [gebruikersgroepen het item zichtbaar is][2].
 * Met welke [koptekst][1] het item moet worden weergegeven.
 
-## www-tabblad
-
-Op het **www-tabblad** kunt u een snelkoppeling opgeven naar een URL-adres om via een URL informatie op te halen uit andere toepassingen. U kunt het URL-adres opgeven met een sjabloonvariabele. Het **www-tabblad** kan op verschillende plaatsen in SuperOffice CRM worden weergegeven; dit kan worden gedefinieerd in Instellingen en onderhoud. Wanneer u op een snelkoppeling klikt, wordt het gekoppelde URL-adres weergegeven.
-
-> [!TIP]
-> U kunt op het tabblad **Labels** in het venster **Opties** in Instellingen en onderhoud een andere naam opgeven voor dit tabblad dan **www**. U kunt ook een andere locatie opgeven in **GUI - Webpaneel**.
-
-U kunt op **Openen in apart venster** klikken om de webpagina in een apart browservenster weer te geven.
-
 ## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst GUI - Webpaneel][3]

@@ -55,6 +55,16 @@ Webbpaneler stöder en rad innehållstyper:
 * Kontaktskärm
 * Extra tabellpostskärm
 
+## <a id="www"></a>www-fliken
+
+På platser som Företag, Kontakt, Projekt och Försäljning visas webbpaneler ofta under **www**-fliken.
+
+Du kan byta namn på fliken i **Inställningar och underhåll** > **Systemval** > **Etiketter**. För att flytta fliken inom CRM-gränssnittet använder du listan **GUI – Webbpanel**.
+
+### Öppna i eget fönster
+
+Alla inbäddade URL:er kan öppnas i ett separat webbläsarfönster med **Öppna i eget fönster**.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

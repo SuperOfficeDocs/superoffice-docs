@@ -55,6 +55,16 @@ Der **Anzeigeort** wird beim Konfigurieren des Panels definiert. Dies steuert, w
 * Personenansicht
 * Zusatztabelleneintragsansicht
 
+## <a id="www"></a>Die www-Registerkarte
+
+An Orten wie Firma, Person, Projekt und Verkauf werden Web-Bildschirme häufig unter der **www**-Registerkarte angezeigt.
+
+Sie können die Registerkarte in **Einstellungen und Verwaltung** > **Optionen** > **Bezeichnungen** umbenennen. Um die Registerkarte innerhalb der CRM-Oberfläche neu zu positionieren, verwenden Sie die Liste **GUI - Web-Bildschirm**.
+
+### In separatem Fenster öffnen
+
+Alle eingebetteten URLs können mit **In separatem Fenster öffnen** in einem separaten Browser-Fenster geöffnet werden.
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->

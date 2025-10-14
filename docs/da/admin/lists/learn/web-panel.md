@@ -24,15 +24,6 @@ Når du har tilføjet forekomster, kan du angive detaljer for hver enkelt foreko
 * Hvilke [brugergrupper forekomsten er synlig for][2].
 * Hvilken [overskrift][1] den skal vises under.
 
-## www-fanen
-
-I **www-fanen** kan du angive en genvej til en URL-adresse for at hente oplysninger fra andre applikationer via en URL. URL-adressen kan angives ved hjælp af en skabelonvariabel. **www-fanen** kan vises flere steder i SuperOffice CRM, som defineret i Indstillinger og vedligeholdelse. Hvis du klikker på en genvej, åbnes den tilknyttede URL-adresse.
-
-> [!TIP]
-> På fanen **Etiketter** i vinduet **Indstillinger** i Indstillinger og vedligeholdelse kan du angive, at denne fane skal have et andet navn end **www**. Du kan også angive en anden placering i **GUI - Webpanel**.
-
-Her kan du klikke på **Åbn i nyt vindue** for at åbne webstedet i et separat browservindue.
-
 ## Relateret indhold
 
 * [Tilføj elementer til GUI - Webpanel-listen][3]
