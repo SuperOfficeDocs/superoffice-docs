@@ -15,8 +15,6 @@ items:
   - name: User preferences
     href: user-preferences/index.md
     items:
-    - name: Add prefdesc
-      href: user-preferences/add-prefdesc.md
     - name: API options
       href: user-preferences/howto/index.md
       items:

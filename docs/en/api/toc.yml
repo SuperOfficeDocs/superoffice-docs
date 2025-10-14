@@ -690,6 +690,11 @@ items:
         items:
           - name: Stakeholders
             href: sql/howto/sale/stakeholders.md
+      - name: User preferences
+        topicHref: user-preferences/add-prefdesc.md
+        items:
+        - name: Add prefdesc
+          href: user-preferences/add-prefdesc.md
   - name: Bulk Operation
     href: bulk-operations/index.md
     items:
