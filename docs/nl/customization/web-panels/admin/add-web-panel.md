@@ -94,7 +94,20 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 * **Weergavemenu**: het URL-adres wordt weergegeven wanneer de gebruiker **Andere toepassingen** selecteert in SuperOffice CRM.
 
-## Is SuperOffice CRM for Web geïnstalleerd op een HTTPS-site?
+## <a id="fields"></a>Referentie
+
+| Instelling | Beschrijving |
+|---|---|
+| Naam | UI-label |
+| Vensternaam | ID van het paneel, gebruikt in de HTML die je in de panelen laadt. Moet uniek zijn, gebruik voorvoegsels |
+| Beschrijving | Tooltip-tekst |
+| URL | Locatie van de webpagina |
+| URL-codering | Geen, ANSI of Unicode |
+| Zichtbaar in | Weergavepositie |
+| Beschikbaar op | Apparaattype (web, mobiel) |
+| Tonen | Of de menubalk, werkbalk, adresbalk en/of statusbalk moet worden getoond |
+
+## <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 

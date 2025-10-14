@@ -34,7 +34,7 @@ Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i *
 
     * Dette navn vises, når du tilføjer URL-adressen i SuperOffice CRM.
 
-1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. Se informationen øverst vedrørende brug af HTTP/HTTPS URL-adresser.
+1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. For detaljer om understøttede URL-typer, se [Brug af HTTP vs HTTPS URL'er](#https).
 
 1. Angiv i feltet **Vinduesnavn** det nødvendige navn på det browservindue, hvor URL-adressen skal åbnes. Hvis du tidligere har tilføjet et eller flere vinduesnavne og vil genbruge dem, kan du klikke i feltet og vælge et navn på listen. Du kan også indtaste et nyt navn direkte i feltet. Det endelige vinduesnavn vises understreget nedenfor.
 
@@ -94,7 +94,20 @@ Webpaneler er defineret i listen **GUI - Webpanel**, som du kan administrere i *
 
 * **Menuen Vis**: URL-adressen vises, når brugeren vælger **Andre programmer** i SuperOffice CRM.
 
-## Er SuperOffice CRM for Web installeret på et HTTPS-websted?
+## <a id="fields"></a>Reference
+
+| Indstilling | Beskrivelse |
+|---|---|
+| Navn | UI-etiket |
+| Vinduesnavn | ID for panelet, bruges i HTML-koden du indlæser i panelerne. Skal være unik, brug præfikser |
+| Beskrivelse | Værktøjstip-tekst |
+| URL | Placering af webside |
+| URL-format | Ingen, ANSI eller Unicode |
+| Synlig i | Visningsplacering |
+| Tilgængelig på | Enhedstype (web, mobil) |
+| Vis | Om menulinje, værktøjslinje, adresselinje og/eller statuslinje skal vises |
+
+## <a id="https"></a>Brug af HTTP vs HTTPS URL'er
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 

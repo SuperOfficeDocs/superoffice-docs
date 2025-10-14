@@ -34,7 +34,7 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
     * Dieser Name wird angezeigt, wenn Sie die URL-Adresse in SuperOffice CRM hinzufügen.
 
-1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Siehe die Informationen oben bezüglich der Verwendung von HTTP-/HTTPS-URLs.
+1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
 
 1. Geben Sie im Feld **Fenstername** den Namen für das Browser-Fenster ein, in dem die URL-Adresse geöffnet werden soll. Falls Sie bereits einen oder mehrere Fensternamen hinzugefügt haben und sie erneut verwenden möchten, können Sie auf das Feld klicken und einen Namen in der Liste auswählen. Sie können auch einen neuen Namen direkt in das Feld eingeben. Der künftig angezeigte Fenstername wird als unterstrichener Text unter dem Feld angezeigt.
 
@@ -94,7 +94,20 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 * **Menü Ansicht**: Die URL-Adresse wird angezeigt, wenn der Benutzer die Option **Andere Anwendungen** in SuperOffice CRM wählt.
 
-## Ist SuperOffice CRM for Web auf einer HTTPS-Seite installiert?
+## <a id="fields"></a>Referenz
+
+| Einstellung | Beschreibung |
+|---|---|
+| Name | UI-Beschriftung |
+| Fenstername | ID des Panels, verwendet im HTML, das in die Panels geladen wird. Muss eindeutig sein, Präfixe verwenden |
+| Beschreibung | Tooltip-Text |
+| URL | Speicherort der Webseite |
+| URL-Codierung | Keine, ANSI oder Unicode |
+| Sichtbar in | Anzeigeposition |
+| Verfügbar auf | Gerätetyp (Web, Mobil) |
+| Anzeigen | Ob Menüleiste, Symbolleiste, Adressleiste und/oder Statusleiste angezeigt werden |
+
+## <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 

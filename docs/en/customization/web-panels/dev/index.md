@@ -65,7 +65,7 @@ u.load(getVariable("activeUser").toInteger());
 ```
 
 <!-- Referenced links -->
-[1]: ../admin/add-web-panel.md
+[1]: ../admin/add-web-panel.md#fields
 [2]: ../admin/url-encoding.md
 [4]: ../../../document/templates/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/template-variables.md

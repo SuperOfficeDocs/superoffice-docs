@@ -34,7 +34,7 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
     * Det här namnet visas när du lägger till webbadressen i SuperOffice CRM.
 
-1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. Se informationen ovan om hur du använder HTTP/HTTPS-webbadresser.
+1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. [Använda HTTP vs HTTPS-webbadresser](#https)
 
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
@@ -94,7 +94,20 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 * **Visa**-menyn: webbadressen visas när användaren väljer **Andra applikationer** i SuperOffice CRM.
 
-## Är SuperOffice CRM for Web installerat på en HTTPS-sida?
+## <a id="fields"></a>Referens
+
+| Inställning | Beskrivning |
+|---|---|
+| Namn | UI-etikett |
+| Fönsternamn | ID för panelen, används i HTML:en som laddas in i panelerna. Måste vara unikt, använd prefix |
+| Beskrivning | Verktygstips-text |
+| URL | Plats för webbsidan |
+| URL-kodning | Ingen, ANSI eller Unicode |
+| Synlig i | Visningsplats |
+| Tillgänglig på | Enhetstyp (webb, mobil) |
+| Visa | Om menyrad, verktygsfält, adressfält och/eller statusfält ska visas |
+
+## <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
 
 [!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
 

@@ -68,18 +68,5 @@ The **display location** of a web panel is selected as *Visible in* when you def
 * Request screen
 * Extra table entry screen
 
-## Reference
-
-| Setting      | Description                                                           |
-|:-------------|:----------------------------------------------------------------------|
-| Name         | UI label                                                              |
-| Window name  | ID of the panel, used in the HTML you load into the panels<br>Must be unique, use prefixes |
-| Description  | Tool-tip text                                                         |
-| URL          | Location of web page                                                  |
-| URL encoding | None, ANSI, or Unicode                                                |
-| Visible in   | The display location                                                  |
-| Available on | Device type (web, mobile)                                             |
-| Show         | Whether to show the menu bar, toolbar, address bar, and/or status bar |
-
 <!-- Referenced links -->
 [4]: ../../api/caching/flush-cache.md
