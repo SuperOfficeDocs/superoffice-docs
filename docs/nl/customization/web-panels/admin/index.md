@@ -13,7 +13,9 @@ category: customization
 topic: web panel
 language: nl
 index: true
-redirect_from: /nl/ui/web-panels/learn/index
+redirect_from: 
+  - /nl/ui/web-panels/learn/index
+  - /nl/admin/lists/learn/web-panel
 ---
 
 # Webpanelen

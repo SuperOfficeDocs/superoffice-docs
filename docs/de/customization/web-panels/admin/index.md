@@ -13,7 +13,9 @@ category: customization
 topic: web panel
 language: de
 index: true
-redirect_from: /de/ui/web-panels/learn/index
+redirect_from: 
+  - /de/ui/web-panels/learn/index
+  - /de/admin/lists/learn/web-panel
 ---
 
 # Web-Bildschirme

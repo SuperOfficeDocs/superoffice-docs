@@ -15,6 +15,7 @@ language: en
 redirect_from:
   - /en/ui/web-panels/create-link-to
   - /en/ui/web-panels/passing-data
+  - /en/ui/web-panels/detect-superoffice
 ---
 
 # Building web panels

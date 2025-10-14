@@ -13,7 +13,9 @@ category: customization
 topic: web panel
 language: no
 index: true
-redirect_from: /no/ui/web-panels/learn/index
+redirect_from: 
+  - /no/ui/web-panels/learn/index
+  - /no/admin/lists/learn/web-panel
 ---
 
 # Nettleserfaner

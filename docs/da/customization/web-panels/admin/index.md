@@ -13,7 +13,9 @@ category: customization
 topic: web panel
 language: da
 index: true
-redirect_from: /da/ui/web-panels/learn/index
+redirect_from: 
+  - /da/ui/web-panels/learn/index
+  - /da/admin/lists/learn/web-panel
 ---
 
 # Webpaneler

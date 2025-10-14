@@ -13,7 +13,9 @@ category: customization
 topic: web panel
 language: sv
 index: true
-redirect_from: /sv/ui/web-panels/learn/index
+redirect_from: 
+  - /sv/ui/web-panels/learn/index
+  - /sv/admin/lists/learn/web-panel
 ---
 
 # Webbpaneler
