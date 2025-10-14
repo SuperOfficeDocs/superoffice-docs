@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactEntity
 Gets a ContactEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=190
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=466
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -112,7 +114,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,157 +124,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 679,
-  "Name": "Jenkins LLC",
+  "ContactId": 879,
+  "Name": "Sauer-Streich",
   "Department": "",
-  "OrgNr": "338710",
-  "Number1": "1034342",
-  "Number2": "1738068",
-  "UpdatedDate": "2019-03-05T11:24:47.7501716+01:00",
-  "CreatedDate": "2019-04-02T11:24:47.7501716+02:00",
+  "OrgNr": "839550",
+  "Number1": "1090953",
+  "Number2": "641694",
+  "UpdatedDate": "2002-07-14T03:40:46.3743647+02:00",
+  "CreatedDate": "2018-12-07T03:40:46.3743647+01:00",
   "Emails": [
     {
-      "Value": "tempora",
-      "StrippedValue": "consequatur",
-      "Description": "Self-enabling empowering moratorium",
+      "Value": "quis",
+      "StrippedValue": "maiores",
+      "Description": "Streamlined intangible hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     },
     {
-      "Value": "tempora",
-      "StrippedValue": "consequatur",
-      "Description": "Self-enabling empowering moratorium",
+      "Value": "quis",
+      "StrippedValue": "maiores",
+      "Description": "Streamlined intangible hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 339,
-      "Name": "Stehr, Roob and Sawayn",
-      "ToolTip": "Corrupti architecto modi nobis quia ipsam.",
-      "Deleted": true,
-      "Rank": 841,
-      "Type": "accusamus",
-      "ColorBlock": 795,
-      "IconHint": "beatae",
-      "Selected": false,
-      "LastChanged": "2007-09-11T11:24:47.7501716+02:00",
+      "Id": 679,
+      "Name": "Brekke-Farrell",
+      "ToolTip": "Accusantium officia nesciunt rerum rerum necessitatibus.",
+      "Deleted": false,
+      "Rank": 663,
+      "Type": "eius",
+      "ColorBlock": 642,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "2014-06-07T03:40:46.3743647+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "hic",
+      "ExtraInfo": "nihil",
+      "StyleHint": "ipsam",
       "Hidden": true,
-      "FullName": "Vito Jessyca Baumbach Jr.",
+      "FullName": "Karley O'Keefe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 68
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quae",
-      "StrippedValue": "alias",
-      "Description": "Business-focused national capacity",
+      "Value": "voluptatem",
+      "StrippedValue": "mollitia",
+      "Description": "Robust grid-enabled extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     },
     {
-      "Value": "quae",
-      "StrippedValue": "alias",
-      "Description": "Business-focused national capacity",
+      "Value": "voluptatem",
+      "StrippedValue": "mollitia",
+      "Description": "Robust grid-enabled extranet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldType": "System.String",
+          "FieldLength": 356
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "molestiae",
-      "StrippedValue": "ut",
-      "Description": "Versatile context-sensitive info-mediaries",
+      "Value": "sunt",
+      "StrippedValue": "voluptas",
+      "Description": "Up-sized real-time interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 893
         }
       }
     },
     {
-      "Value": "molestiae",
-      "StrippedValue": "ut",
-      "Description": "Versatile context-sensitive info-mediaries",
+      "Value": "sunt",
+      "StrippedValue": "voluptas",
+      "Description": "Up-sized real-time interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 893
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "accusamus",
-      "StrippedValue": "voluptas",
-      "Description": "Fundamental systemic paradigm",
+      "Value": "consequuntur",
+      "StrippedValue": "harum",
+      "Description": "Re-engineered motivating installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     },
     {
-      "Value": "accusamus",
-      "StrippedValue": "voluptas",
-      "Description": "Fundamental systemic paradigm",
+      "Value": "consequuntur",
+      "StrippedValue": "harum",
+      "Description": "Re-engineered motivating installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
   ],
-  "Description": "Diverse executive superstructure",
+  "Description": "Upgradable directional website",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -281,102 +283,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "consequatur",
-      "PersonId": 496,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Nasir",
-      "Lastname": "D'Amore",
-      "MiddleName": "Bashirian-Willms",
-      "Title": "illo",
-      "Description": "Enhanced even-keeled encryption",
-      "Email": "marianna.satterfield@ruecker.biz",
-      "FullName": "Kenna Ibrahim Fritsch Sr.",
-      "DirectPhone": "(696)723-0632 x573",
-      "FormalName": "Haag Inc and Sons",
-      "CountryId": 395,
-      "ContactId": 870,
-      "ContactName": "Toy LLC",
-      "Retired": 486,
-      "Rank": 959,
-      "ActiveInterests": 786,
+      "Position": "vero",
+      "PersonId": 693,
+      "Mrmrs": "voluptas",
+      "Firstname": "Marlen",
+      "Lastname": "Kiehn",
+      "MiddleName": "Spencer, Mueller and Price",
+      "Title": "sapiente",
+      "Description": "Multi-layered assymetric architecture",
+      "Email": "edythe.leffler@harriscrona.us",
+      "FullName": "Jazmin Ahmed Konopelski DDS",
+      "DirectPhone": "1-192-939-0410",
+      "FormalName": "Hagenes Group",
+      "CountryId": 423,
+      "ContactId": 51,
+      "ContactName": "Lindgren-Lubowitz",
+      "Retired": 325,
+      "Rank": 226,
+      "ActiveInterests": 643,
       "ContactDepartment": "",
-      "ContactCountryId": 384,
-      "ContactOrgNr": "227996",
-      "FaxPhone": "(142)031-3066",
-      "MobilePhone": "000-131-9291 x97196",
-      "ContactPhone": "(260)770-5580",
-      "AssociateName": "Sauer-Davis",
-      "AssociateId": 894,
+      "ContactCountryId": 328,
+      "ContactOrgNr": "879860",
+      "FaxPhone": "958.325.8884 x499",
+      "MobilePhone": "745.451.4540",
+      "ContactPhone": "1-334-084-6219 x4707",
+      "AssociateName": "Labadie, Streich and Champlin",
+      "AssociateId": 636,
       "UsePersonAddress": false,
-      "ContactFax": "id",
-      "Kanafname": "aut",
-      "Kanalname": "nesciunt",
-      "Post1": "rerum",
-      "Post2": "tempora",
-      "Post3": "assumenda",
-      "EmailName": "jaclyn@cronin.info",
-      "ContactFullName": "Mr. Darrion Kohler",
-      "ActiveErpLinks": 632,
-      "TicketPriorityId": 159,
-      "SupportLanguageId": 927,
-      "SupportAssociateId": 790,
+      "ContactFax": "omnis",
+      "Kanafname": "error",
+      "Kanalname": "ducimus",
+      "Post1": "magni",
+      "Post2": "et",
+      "Post3": "neque",
+      "EmailName": "donato@upton.uk",
+      "ContactFullName": "Mr. Corbin Shana Schumm",
+      "ActiveErpLinks": 991,
+      "TicketPriorityId": 946,
+      "SupportLanguageId": 353,
+      "SupportAssociateId": 212,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "905346",
+      "PersonNumber": "482473",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldType": "System.String",
+          "FieldLength": 589
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "corrupti",
-  "Xstop": true,
-  "ActiveInterests": 935,
-  "GroupId": 412,
-  "ActiveStatusMonitorId": 306,
+  "NoMailing": true,
+  "Kananame": "cum",
+  "Xstop": false,
+  "ActiveInterests": 229,
+  "GroupId": 200,
+  "ActiveStatusMonitorId": 283,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 773,
-  "DbiAgentId": 125,
-  "DbiLastSyncronized": "2006-04-11T11:24:47.7657959+02:00",
-  "DbiKey": "et",
-  "DbiLastModified": "2009-09-05T11:24:47.7657959+02:00",
+  "Deleted": 729,
+  "DbiAgentId": 987,
+  "DbiLastSyncronized": "2000-07-15T03:40:46.38999+02:00",
+  "DbiKey": "animi",
+  "DbiLastModified": "2016-09-12T03:40:46.38999+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 520,
-  "ActiveErpLinks": 500,
+  "Source": 517,
+  "ActiveErpLinks": 119,
   "BounceEmails": [
-    "johnathon@turcotte.info",
-    "chaim@lehner.info"
+    "maddison.schuster@halvorson.biz",
+    "lorenz@koeppwintheiser.com"
   ],
   "Domains": [
-    "voluptas",
-    "beatae"
+    "ea",
+    "tempore"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Korey Hegmann Sr.",
-    "SuperOffice:2": "587122365"
+    "SuperOffice:1": "Kelley Will Muller Sr.",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "nam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldLength": 405
     }
   }
 }

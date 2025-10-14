@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 225,
-  "BlobSize": 179,
-  "Description": "Ameliorated regional capability",
-  "ExtraInfo": "incidunt",
+  "BlobId": 369,
+  "BlobSize": 114,
+  "Description": "Ergonomic systemic forecast",
+  "ExtraInfo": "consequuntur",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "sit",
-  "OriginalSize": 437,
-  "CreatedDate": "2020-10-22T11:24:53.0780792+02:00",
-  "UpdatedDate": "2017-03-26T11:24:53.0780792+02:00",
+  "IsZipped": false,
+  "MimeType": "magni",
+  "OriginalSize": 338,
+  "CreatedDate": "2019-04-03T03:40:55.428689+02:00",
+  "UpdatedDate": "2021-07-30T03:40:55.428689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis"
+  "ConceptualType": "quia"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 373,
-  "BlobSize": 77,
-  "Description": "Open-source clear-thinking pricing structure",
-  "ExtraInfo": "illo",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "repellendus",
-  "OriginalSize": 938,
-  "CreatedDate": "2001-02-26T11:24:53.0780792+01:00",
-  "UpdatedDate": "2004-05-26T11:24:53.0780792+02:00",
+  "BlobId": 23,
+  "BlobSize": 115,
+  "Description": "Virtual full-range service-desk",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "sequi",
+  "OriginalSize": 484,
+  "CreatedDate": "2007-08-08T03:40:55.428689+02:00",
+  "UpdatedDate": "2015-11-12T03:40:55.428689+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempore",
+  "ConceptualType": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 537
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Creates a temporary selection with members from a collection of entity id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -120,10 +122,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    226,
-    184
+    454,
+    760
   ],
-  "TargetTableNumber": 568
+  "TargetTableNumber": 947
 }
 ```
 
@@ -134,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized optimizing structure",
-  "Postit": "quo",
+  "Description": "Enterprise-wide 4th generation firmware",
+  "Postit": "accusantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 50,
-  "IncludePerson": 203,
+  "GroupIdx": 43,
+  "IncludePerson": 198,
   "MemberCount": 99.99,
-  "Name": "Gulgowski Group",
-  "PostitTextId": 599,
-  "CreatedDate": "2022-07-25T11:24:48.6407604+02:00",
-  "SelectionId": 10,
-  "SoundEx": "tempora",
-  "Source": 283,
-  "TextId": 138,
-  "UpdatedDate": "2019-08-04T11:24:48.6407604+02:00",
-  "UpdatedCount": 204,
-  "Visibility": 717,
+  "Name": "Wisozk-Hand",
+  "PostitTextId": 742,
+  "CreatedDate": "2014-04-20T03:40:47.7504701+02:00",
+  "SelectionId": 366,
+  "SoundEx": "voluptatum",
+  "Source": 991,
+  "TextId": 885,
+  "UpdatedDate": "2004-10-22T03:40:47.7504701+02:00",
+  "UpdatedCount": 326,
+  "Visibility": 195,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 22,
-  "TargetTableName": "Hartmann, Bernier and Hirthe",
-  "Completed": true,
-  "LeftSelectionId": 671,
-  "RightSelectionId": 85,
+  "CompanyUnique": true,
+  "TargetTableNumber": 5,
+  "TargetTableName": "Kunde-Harber",
+  "Completed": false,
+  "LeftSelectionId": 617,
+  "RightSelectionId": 643,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zulauf-Willms",
-  "ShadowProviderName": "Ullrich-Heathcote",
-  "ChartKey": "perferendis",
-  "LastLoaded": "2015-02-14T11:24:48.6407604+01:00",
-  "LastLoadedBy": 144,
+  "MainProviderName": "Barton-Gibson",
+  "ShadowProviderName": "Kuvalis Group",
+  "ChartKey": "qui",
+  "LastLoaded": "2005-03-30T03:40:47.7504701+02:00",
+  "LastLoadedBy": 30,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-03-16T11:24:48.6407604+01:00",
-  "LastMembershipChangeBy": 85,
+  "LastMembershipChange": "2016-04-07T03:40:47.7504701+02:00",
+  "LastMembershipChangeBy": 798,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Gislason, Armstrong and Lehner",
-  "DashboardTileDefinitionId": 601,
+  "MainHeading": "laborum",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Mayer, Gleichner and Hansen",
+  "DashboardTileDefinitionId": 596,
   "VisibleFor": [
     {
-      "VisibleId": 491,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 590
         }
       }
     },
     {
-      "VisibleId": 491,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 590
         }
       }
     }
@@ -207,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 267
     }
   }
 }

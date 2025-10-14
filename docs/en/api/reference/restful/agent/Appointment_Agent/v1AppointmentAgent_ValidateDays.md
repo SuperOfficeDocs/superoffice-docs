@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ValidateDays
 Validates the set of dates to calculate any conflicts.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -77,14 +79,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "saepe",
-    "et"
+    "cupiditate",
+    "ad"
   ]
 }
 ```
@@ -97,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2013-02-06T11:24:47.4064385+01:00",
+    "Date": "2011-09-23T03:40:45.7793757+02:00",
     "IsConflict": false,
-    "Description": "Synergized logistical artificial intelligence",
-    "DescriptionStyleHint": "User-friendly real-time leverage",
-    "Tooltip": "voluptates"
+    "Description": "Future-proofed contextually-based utilisation",
+    "DescriptionStyleHint": "Synchronised non-volatile utilisation",
+    "Tooltip": "qui"
   },
   {
-    "Date": "2013-02-06T11:24:47.4064385+01:00",
+    "Date": "2011-09-23T03:40:45.7793757+02:00",
     "IsConflict": false,
-    "Description": "Synergized logistical artificial intelligence",
-    "DescriptionStyleHint": "User-friendly real-time leverage",
-    "Tooltip": "voluptates"
+    "Description": "Future-proofed contextually-based utilisation",
+    "DescriptionStyleHint": "Synchronised non-volatile utilisation",
+    "Tooltip": "qui"
   }
 ]
 ```

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Eichmann Group",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 744,
+  "Id": 166,
+  "Name": "Murazik Inc and Sons",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "Rank": 877,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 55
     }
   },
   "_Links": {

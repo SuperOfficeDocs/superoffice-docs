@@ -15,6 +15,7 @@ Get a list of all roles for the given type of role.
 
 
 MDO List name = 'Roles', extra='0' (roleType) 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 116,
-    "Name": "Orn-Braun",
-    "ToolTip": "Nesciunt aliquid perspiciatis necessitatibus sed.",
-    "Deleted": true,
-    "Rank": 827,
-    "Type": "minima",
-    "ColorBlock": 472,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2008-02-16T11:24:48.8907508+01:00",
+    "Id": 164,
+    "Name": "Feeney-Wolf",
+    "ToolTip": "Fuga eos totam quis.",
+    "Deleted": false,
+    "Rank": 700,
+    "Type": "ad",
+    "ColorBlock": 675,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2008-09-26T03:40:48.1723713+02:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Robel, Kilback and VonRueden",
-        "ToolTip": "Ut placeat illum aperiam.",
-        "Deleted": true,
-        "Rank": 203,
-        "Type": "repellendus",
-        "ColorBlock": 717,
-        "IconHint": "voluptatibus",
+        "Id": 87,
+        "Name": "Von, Ruecker and Lang",
+        "ToolTip": "Debitis voluptas consequatur dolor pariatur aut quaerat.",
+        "Deleted": false,
+        "Rank": 153,
+        "Type": "explicabo",
+        "ColorBlock": 50,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-01-02T11:24:48.8907508+01:00",
+        "LastChanged": "1998-11-06T03:40:48.1723713+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "omnis",
+        "ExtraInfo": "et",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Sandy Zoe Ondricka PhD",
+        "FullName": "Camylle Windler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldLength": 377
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Cale Berniece Greenholt MD",
+    "ExtraInfo": "hic",
+    "StyleHint": "praesentium",
+    "Hidden": true,
+    "FullName": "Allene Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 769
       }
     }
   }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Jacobi, Mohr and Fadel",
-    "ToolTip": "Accusamus iure mollitia vel sed.",
+    "Id": 558,
+    "Name": "Harris-Brekke",
+    "ToolTip": "Incidunt vitae ut quo.",
     "Deleted": false,
-    "Rank": 913,
-    "Type": "ab",
-    "ColorBlock": 693,
-    "IconHint": "a",
+    "Rank": 751,
+    "Type": "velit",
+    "ColorBlock": 928,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2023-03-30T11:24:53.9217949+02:00",
+    "LastChanged": "2019-08-20T03:40:56.805732+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Hudson, Runolfsson and Murphy",
-        "ToolTip": "At aliquid.",
+        "Id": 433,
+        "Name": "Cummings-Schumm",
+        "ToolTip": "Iste accusantium.",
         "Deleted": true,
-        "Rank": 847,
-        "Type": "qui",
-        "ColorBlock": 68,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2021-03-07T11:24:53.9217949+01:00",
+        "Rank": 962,
+        "Type": "optio",
+        "ColorBlock": 14,
+        "IconHint": "eligendi",
+        "Selected": true,
+        "LastChanged": "2023-05-11T03:40:56.805732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Mrs. Zella Dianna Satterfield",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Audie Napoleon Gleichner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Prof. Brook Bogisich",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Linnie Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

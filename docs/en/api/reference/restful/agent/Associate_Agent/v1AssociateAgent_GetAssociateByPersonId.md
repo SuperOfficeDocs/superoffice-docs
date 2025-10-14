@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Returns the associate that belongs to this person if the person is an associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 734
+  "PersonId": 797
 }
 ```
 
@@ -102,32 +104,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 85,
-  "Name": "Brekke, Miller and Okuneva",
-  "PersonId": 23,
-  "Rank": 249,
-  "Tooltip": "esse",
+  "AssociateId": 422,
+  "Name": "Medhurst Inc and Sons",
+  "PersonId": 353,
+  "Rank": 504,
+  "Tooltip": "aperiam",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 727,
-  "FullName": "Herminia Dickinson",
-  "FormalName": "Dietrich-Pouros",
-  "Deleted": true,
-  "EjUserId": 143,
-  "UserName": "Kulas, Schmeler and Rau",
+  "GroupIdx": 120,
+  "FullName": "Thea Rau",
+  "FormalName": "Crona, Fisher and Wisoky",
+  "Deleted": false,
+  "EjUserId": 939,
+  "UserName": "Schamberger LLC",
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "autem"
+    "CustomFields1": "earum",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 838
     }
   }
 }

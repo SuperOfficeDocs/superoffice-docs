@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLines
 Get all QuoteLines from an alternative
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,11 +124,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 523
+  "QuoteAlternativeId": 37
 }
 ```
 
@@ -138,88 +140,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 891,
-    "ERPQuoteLineKey": "accusamus",
-    "QuoteAlternativeId": 968,
-    "ERPProductKey": "rerum",
+    "QuoteLineId": 821,
+    "ERPQuoteLineKey": "similique",
+    "QuoteAlternativeId": 267,
+    "ERPProductKey": "in",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 275.792,
-    "DeliveredQuantity": 27168.646,
-    "Rank": 357,
-    "Name": "Raynor-Schroeder",
-    "Description": "Front-line needs-based complexity",
-    "Code": "et",
-    "QuantityUnit": "quia",
-    "PriceUnit": "est",
-    "ItemNumber": "156491",
+    "Quantity": 11097.493999999999,
+    "DeliveredQuantity": 12103.508,
+    "Rank": 188,
+    "Name": "Kiehn, Rutherford and Ebert",
+    "Description": "Right-sized web-enabled framework",
+    "Code": "voluptas",
+    "QuantityUnit": "temporibus",
+    "PriceUnit": "et",
+    "ItemNumber": "1378001",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptatem",
-    "ProductTypeKey": "ipsam",
-    "Supplier": "ratione",
-    "SupplierCode": "recusandae",
-    "Thumbnail": "repellat",
-    "VATInfo": "exercitationem",
-    "VAT": 15710.742,
-    "UnitCost": 9680.926,
-    "UnitMinimumPrice": 26933.595999999998,
-    "UnitListPrice": 18860.412,
+    "ProductFamilyKey": "dolores",
+    "ProductTypeKey": "enim",
+    "Supplier": "ullam",
+    "SupplierCode": "tenetur",
+    "Thumbnail": "necessitatibus",
+    "VATInfo": "optio",
+    "VAT": 27300.273999999998,
+    "UnitCost": 22583.604,
+    "UnitMinimumPrice": 18415.384,
+    "UnitListPrice": 12893.276,
     "ExtraInfo": [
       {
-        "Name": "Feest, Pagac and Upton",
-        "Value": "perspiciatis",
+        "Name": "Konopelski-King",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldType": "System.String",
+            "FieldLength": 95
           }
         }
       },
       {
-        "Name": "Feest, Pagac and Upton",
-        "Value": "perspiciatis",
+        "Name": "Konopelski-King",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldType": "System.String",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "RawExtraInfo": "incidunt",
+    "RawExtraInfo": "est",
     "IsSubscription": true,
-    "SubscriptionUnit": "aliquid",
-    "SubscriptionQuantity": 1739.37,
-    "SubscriptionStart": "2023-09-24T11:24:48.5470141+02:00",
-    "ERPDiscountPercent": 13789.6,
-    "ERPDiscountAmount": 2225.14,
-    "DiscountPercent": 11153.905999999999,
-    "DiscountAmount": 24808.744,
+    "SubscriptionUnit": "sit",
+    "SubscriptionQuantity": 2156.192,
+    "SubscriptionStart": "2025-04-26T03:40:47.5942106+02:00",
+    "ERPDiscountPercent": 13194.14,
+    "ERPDiscountAmount": 9160.6819999999989,
+    "DiscountPercent": 6318.144,
+    "DiscountAmount": 20317.721999999998,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 28798.325999999997,
-    "EarningAmount": 10176.098,
-    "SubTotal": 6258.598,
-    "TotalPrice": 1447.908,
-    "Rights": "molestiae",
-    "Rule": "accusamus",
-    "ExtraField1": "magnam",
-    "ExtraField2": "dignissimos",
-    "ExtraField3": "voluptatem",
-    "ExtraField4": "dolore",
-    "ExtraField5": "ratione",
+    "EarningPercent": 8107.6579999999994,
+    "EarningAmount": 3434.864,
+    "SubTotal": 28591.482,
+    "TotalPrice": 25034.392,
+    "Rights": "qui",
+    "Rule": "et",
+    "ExtraField1": "doloremque",
+    "ExtraField2": "libero",
+    "ExtraField3": "cum",
+    "ExtraField4": "et",
+    "ExtraField5": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 761
       }
     }
   }

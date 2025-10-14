@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Becker-Considine",
-    "ToolTip": "Qui sunt.",
+    "Id": 916,
+    "Name": "Osinski-Langosh",
+    "ToolTip": "Quos non voluptatem omnis aliquam.",
     "Deleted": false,
-    "Rank": 800,
-    "Type": "distinctio",
-    "ColorBlock": 423,
-    "IconHint": "est",
+    "Rank": 524,
+    "Type": "sed",
+    "ColorBlock": 190,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2007-03-17T11:24:53.9686678+01:00",
+    "LastChanged": "2023-04-19T03:40:56.9620969+02:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Hegmann Group",
-        "ToolTip": "Iure asperiores id.",
-        "Deleted": false,
-        "Rank": 527,
-        "Type": "ut",
-        "ColorBlock": 196,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2023-09-21T11:24:53.9686678+02:00",
+        "Id": 363,
+        "Name": "Bosco-Friesen",
+        "ToolTip": "Doloremque mollitia nulla eaque ea iusto.",
+        "Deleted": true,
+        "Rank": 23,
+        "Type": "debitis",
+        "ColorBlock": 580,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2025-06-25T03:40:56.9620969+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "commodi",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Viva Balistreri",
+        "FullName": "Kailyn Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldType": "System.String",
+            "FieldLength": 86
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "qui",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Phyllis Jacky Lueilwitz III",
+    "FullName": "Dr. Estella Ryann Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

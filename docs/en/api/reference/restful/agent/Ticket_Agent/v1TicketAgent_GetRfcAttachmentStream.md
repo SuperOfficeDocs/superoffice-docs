@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetRfcAttachmentStream
 Get the content of an attachment which is part of RFC822 email attachment
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 675,
-  "Position": 370
+  "AttachmentId": 645,
+  "Position": 354
 }
 ```
 

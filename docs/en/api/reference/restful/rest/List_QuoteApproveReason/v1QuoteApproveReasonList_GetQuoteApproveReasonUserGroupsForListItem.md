@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Hahn, Bradtke and Bartell",
-    "ToolTip": "Magni totam voluptas aut assumenda distinctio sit et.",
+    "Id": 307,
+    "Name": "Gaylord-Bogisich",
+    "ToolTip": "Repellendus quis et.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "nisi",
-    "ColorBlock": 512,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-09-22T11:24:54.0311654+02:00",
+    "Rank": 560,
+    "Type": "itaque",
+    "ColorBlock": 860,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2016-10-14T03:40:57.040226+02:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Labadie-Mante",
-        "ToolTip": "Sequi aut sunt.",
+        "Id": 553,
+        "Name": "Kutch Inc and Sons",
+        "ToolTip": "Corporis error hic iste velit molestias magni.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "beatae",
-        "ColorBlock": 121,
-        "IconHint": "dolorem",
+        "Rank": 280,
+        "Type": "vitae",
+        "ColorBlock": 647,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2008-08-25T11:24:54.0311654+02:00",
+        "LastChanged": "2006-04-28T03:40:57.040226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Mose Upton",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Morris Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "placeat",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Dovie Rice",
+    "FullName": "Jonatan Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldType": "System.String",
+        "FieldLength": 460
       }
     }
   }

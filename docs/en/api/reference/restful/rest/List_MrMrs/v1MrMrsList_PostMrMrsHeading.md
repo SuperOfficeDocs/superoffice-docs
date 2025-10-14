@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 332,
-  "Name": "Rogahn LLC",
-  "Tooltip": "quia",
+  "HeadingId": 376,
+  "Name": "Volkman Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 171,
-  "UdListDefinitionId": 851
+  "Rank": 126,
+  "UdListDefinitionId": 633
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 299,
-  "Name": "Waelchi, Lemke and Schoen",
+  "HeadingId": 335,
+  "Name": "Legros, Mraz and Windler",
   "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 396,
-  "UdListDefinitionId": 114,
+  "Deleted": true,
+  "Rank": 742,
+  "UdListDefinitionId": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldLength": 600
     }
   }
 }

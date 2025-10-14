@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=pariatur
+GET /api/v1/List/Task/MDOItems?query=hic
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Corkery-Ritchie",
-    "ToolTip": "Ut modi accusamus accusantium quia.",
-    "Deleted": true,
-    "Rank": 647,
-    "Type": "officiis",
+    "Id": 538,
+    "Name": "Zulauf, Morar and Hansen",
+    "ToolTip": "Libero voluptates et est vel.",
+    "Deleted": false,
+    "Rank": 672,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Wilkinson Group",
-        "ToolTip": "Eos nobis.",
-        "Deleted": true,
-        "Rank": 843,
-        "Type": "qui",
+        "Id": 153,
+        "Name": "Kertzmann-Weissnat",
+        "ToolTip": "Exercitationem est et nostrum praesentium.",
+        "Deleted": false,
+        "Rank": 944,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deserunt",
-        "ColorBlock": 385,
-        "ExtraInfo": "illo",
-        "StyleHint": "eos",
-        "FullName": "Freddy Graham",
+        "IconHint": "laudantium",
+        "ColorBlock": 466,
+        "ExtraInfo": "laborum",
+        "StyleHint": "eligendi",
+        "FullName": "Mohammad Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 729,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "vero",
-    "FullName": "Prof. Joannie Ismael Marvin MD",
+    "IconHint": "ut",
+    "ColorBlock": 424,
+    "ExtraInfo": "dolor",
+    "StyleHint": "quis",
+    "FullName": "Coleman Becker V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

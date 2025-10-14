@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -88,22 +91,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 92,
-  "EMailAddress": "aspernatur",
-  "AssociateId": 272,
+  "EMailAccountId": 786,
+  "EMailAddress": "non",
+  "AssociateId": 883,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 926,
-  "ErrorCount": 637,
+  "AccountStatus": 563,
+  "ErrorCount": 968,
   "ErrorReason": "",
-  "InboxFolder": "eius",
-  "SentFolder": "repudiandae",
-  "SimpleMode": 734,
-  "LastFetch": "2015-09-29T11:24:48.0626591+02:00"
+  "InboxFolder": "labore",
+  "SentFolder": "cumque",
+  "SimpleMode": 704,
+  "LastFetch": "2005-02-18T03:40:46.8280185+01:00"
 }
 ```
 
@@ -114,24 +117,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 639,
-  "EMailAddress": "dolore",
-  "AssociateId": 85,
+  "EMailAccountId": 244,
+  "EMailAddress": "dolor",
+  "AssociateId": 450,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 188,
-  "ErrorCount": 172,
+  "AccountStatus": 726,
+  "ErrorCount": 973,
   "ErrorReason": "",
-  "InboxFolder": "non",
-  "SentFolder": "eius",
-  "SimpleMode": 803,
-  "LastFetch": "2024-08-01T11:24:48.0626591+02:00",
+  "InboxFolder": "dolorem",
+  "SentFolder": "quidem",
+  "SimpleMode": 624,
+  "LastFetch": "1999-04-06T03:40:46.8280185+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 610
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DeleteDash
 Deletes the Dash
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the Dash
 | dashId | int32 | **Required** The identity of the Dash |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDash?dashId=913
+POST /api/v1/Agents/Dash/DeleteDash?dashId=795
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

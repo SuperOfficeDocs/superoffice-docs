@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 21 Jun 2008 11:24:53 G6T
+Last-Modified: Tue, 21 Jul 2020 03:40:55 G7T
 
 {
-  "BlobId": 257,
-  "BlobSize": 516,
-  "Description": "Fully-configurable mobile throughput",
-  "ExtraInfo": "quibusdam",
+  "BlobId": 744,
+  "BlobSize": 282,
+  "Description": "Innovative attitude-oriented circuit",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 971,
-  "CreatedDate": "2002-05-25T11:24:53.437431+02:00",
-  "UpdatedDate": "2008-06-21T11:24:53.437431+02:00",
+  "MimeType": "ipsa",
+  "OriginalSize": 304,
+  "CreatedDate": "2022-06-12T03:40:55.9136545+02:00",
+  "UpdatedDate": "2020-07-21T03:40:55.9136545+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

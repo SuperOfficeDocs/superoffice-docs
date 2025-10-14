@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/StartRagIndexing
 Kicks off a batch task to update the RAG index
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -74,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Beatty, Schamberger and Franecki",
-  "SourceId": "ducimus"
+  "NamespaceName": "Rempel Inc and Sons",
+  "SourceId": "qui"
 }
 ```
 
@@ -85,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-657
+476
 ```

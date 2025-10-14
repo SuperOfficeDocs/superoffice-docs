@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Get a list of all selection ids where the given selection is used to create a combined selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Selection/GetParentCombinedSelections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 158
+  "SelectionId": 325
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  838,
-  948
+  708,
+  177
 ]
 ```

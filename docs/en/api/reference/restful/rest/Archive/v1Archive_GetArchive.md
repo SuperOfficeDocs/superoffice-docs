@@ -53,7 +53,7 @@ OK
 GET /api/v1/Archive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -63,7 +63,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ea",
-  "2": "est"
+  "1": "aut",
+  "2": "nam"
 }
 ```

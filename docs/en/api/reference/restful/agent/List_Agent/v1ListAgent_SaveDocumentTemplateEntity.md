@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,30 +118,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 229,
-  "Name": "Effertz LLC",
-  "Tooltip": "sed",
-  "SaveInDb": 202,
-  "Filename": "voluptatem",
-  "DefaultOref": "velit",
+  "DocumentTemplateId": 660,
+  "Name": "Gusikowski, Walker and Mueller",
+  "Tooltip": "ut",
+  "SaveInDb": 874,
+  "Filename": "quas",
+  "DefaultOref": "asperiores",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 539,
-  "IntentId": 516,
+  "AutoeventId": 755,
+  "IntentId": 239,
   "IsDefaultPublished": true,
-  "Rank": 422,
-  "LoadTemplateFromPlugin": 974,
-  "MimeType": "quos",
+  "Rank": 856,
+  "LoadTemplateFromPlugin": 82,
+  "MimeType": "atque",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 632,
+  "DocumentTypeKey": 930,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elena_becker@quitzonziemann.co.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "elmore_kunde@dietrichfahey.name",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "madonna_swaniawski@sipesrunolfsson.com",
+  "SenderEmailAddress": "leora@schmeler.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 191,
-  "Name": "O'Kon LLC",
-  "Tooltip": "voluptate",
-  "SaveInDb": 23,
-  "Filename": "excepturi",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 510,
+  "Name": "Mayert, Koch and Rosenbaum",
+  "Tooltip": "in",
+  "SaveInDb": 879,
+  "Filename": "ipsa",
+  "DefaultOref": "aliquam",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 628,
-  "IntentId": 715,
+  "AutoeventId": 751,
+  "IntentId": 66,
   "IsDefaultPublished": true,
-  "Rank": 853,
-  "LoadTemplateFromPlugin": 747,
-  "MimeType": "a",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 778,
+  "Rank": 923,
+  "LoadTemplateFromPlugin": 370,
+  "MimeType": "qui",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 160,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "carlo@feest.name",
-  "IncludeSignature": false,
+  "EmailSubject": "shanie.trantow@blick.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leda@ritchiewilliamson.uk",
+  "SenderEmailAddress": "aniya@rath.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldLength": 954
     }
   }
 }

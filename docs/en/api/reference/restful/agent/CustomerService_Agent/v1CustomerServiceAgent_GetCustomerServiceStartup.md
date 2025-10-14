@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Get the carrier with data that Service needs when starting up
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 969,
-  "RecaptchaSiteKey": "fugit",
+  "TimezoneEnabled": true,
+  "TZOffset": 869,
+  "RecaptchaSiteKey": "natus",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "qui",
+      "RawValue": "vero",
       "Specification": null,
-      "DisplayValue": "nemo",
-      "DisplayTooltip": "eius",
+      "DisplayValue": "neque",
+      "DisplayTooltip": "iste",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 525,
-      "PrefDescId": 698,
-      "TableName": "Luettgen, Armstrong and Mosciski",
-      "UserPreferenceId": 289,
+      "TargetId": 822,
+      "PrefDescId": 879,
+      "TableName": "Fahey LLC",
+      "UserPreferenceId": 575,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldLength": 967
         }
       }
     }
@@ -110,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 775
     }
   }
 }

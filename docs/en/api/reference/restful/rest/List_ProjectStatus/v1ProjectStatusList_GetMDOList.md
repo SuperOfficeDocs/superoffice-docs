@@ -27,8 +27,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=qui
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=aut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Rice-Kuphal",
-    "ToolTip": "Nemo aut tempore in.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "dolorem",
+    "Id": 125,
+    "Name": "Dietrich, Schaefer and Walsh",
+    "ToolTip": "Distinctio dolorem asperiores.",
+    "Deleted": false,
+    "Rank": 997,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 837,
-        "Name": "Spencer LLC",
-        "ToolTip": "Minus voluptatem.",
-        "Deleted": false,
-        "Rank": 831,
-        "Type": "officiis",
+        "Id": 118,
+        "Name": "Witting-Zboncak",
+        "ToolTip": "Sit tenetur.",
+        "Deleted": true,
+        "Rank": 406,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 843,
-        "ExtraInfo": "in",
-        "StyleHint": "assumenda",
-        "FullName": "Mrs. Katlynn Green PhD",
+        "IconHint": "optio",
+        "ColorBlock": 565,
+        "ExtraInfo": "nihil",
+        "StyleHint": "repellendus",
+        "FullName": "Mr. Seth Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 61
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 586,
-    "ExtraInfo": "incidunt",
-    "StyleHint": "alias",
-    "FullName": "Paul Monahan",
+    "IconHint": "et",
+    "ColorBlock": 270,
+    "ExtraInfo": "sit",
+    "StyleHint": "dolorem",
+    "FullName": "Edwardo Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 656
       }
     }
   }

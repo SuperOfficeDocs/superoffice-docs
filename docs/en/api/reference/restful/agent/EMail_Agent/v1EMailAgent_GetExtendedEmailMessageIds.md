@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetExtendedEmailMessageIds
 Gets not only the Message-Id's but also the UID's and the uniquevalidity property in this format-&gt; uvalidity:uid:MsgId - and this format should be understood by GetEmailsAsString() and DeleteExtended().
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -71,7 +74,7 @@ OK
 POST /api/v1/Agents/EMail/GetExtendedEmailMessageIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aliquam",
-  "facilis"
+  "dignissimos",
+  "soluta"
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/DeleteProjectMember
 Deletes the ProjectMember
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ProjectMember
 | projectMemberId | int32 | **Required** The identity of the ProjectMember |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectMember?projectMemberId=7
+POST /api/v1/Agents/Project/DeleteProjectMember?projectMemberId=958
 ```
 
 

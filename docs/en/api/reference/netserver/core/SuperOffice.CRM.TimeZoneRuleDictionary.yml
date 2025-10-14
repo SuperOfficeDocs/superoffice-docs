@@ -18,11 +18,11 @@ items:
   namespace: SuperOffice.CRM
   syntax:
     content: >-
-      [CollectionDataContract(Name = "TimeZoneRuleDictionary", ItemName = "StringKeyValuePair", KeyName = "Key", ValueName = "TimeZoneRule", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [CollectionDataContract(Name = "TimeZoneRuleDictionary", ItemName = "StringKeyValuePair", KeyName = "Key", ValueName = "TimeZoneRule", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public class TimeZoneRuleDictionary : SortedDictionary<DateTime, TimeZoneRule>, IDictionary<DateTime, TimeZoneRule>, ICollection<KeyValuePair<DateTime, TimeZoneRule>>, IDictionary, ICollection, IReadOnlyDictionary<DateTime, TimeZoneRule>, IReadOnlyCollection<KeyValuePair<DateTime, TimeZoneRule>>, IEnumerable<KeyValuePair<DateTime, TimeZoneRule>>, IEnumerable
     content.vb: >-
-      <CollectionDataContract(Name:="TimeZoneRuleDictionary", ItemName:="StringKeyValuePair", KeyName:="Key", ValueName:="TimeZoneRule", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <CollectionDataContract(Name:="TimeZoneRuleDictionary", ItemName:="StringKeyValuePair", KeyName:="Key", ValueName:="TimeZoneRule", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Class TimeZoneRuleDictionary Inherits SortedDictionary(Of Date, TimeZoneRule) Implements IDictionary(Of Date, TimeZoneRule), ICollection(Of KeyValuePair(Of Date, TimeZoneRule)), IDictionary, ICollection, IReadOnlyDictionary(Of Date, TimeZoneRule), IReadOnlyCollection(Of KeyValuePair(Of Date, TimeZoneRule)), IEnumerable(Of KeyValuePair(Of Date, TimeZoneRule)), IEnumerable
   inheritance:
@@ -102,7 +102,7 @@ items:
       value: TimeZoneRule
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.CRM.TimeZoneRuleDictionary.#ctor
   commentId: M:SuperOffice.CRM.TimeZoneRuleDictionary.#ctor
   id: '#ctor'

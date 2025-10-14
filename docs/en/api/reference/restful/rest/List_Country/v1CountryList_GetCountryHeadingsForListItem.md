@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Abernathy Inc and Sons",
-    "ToolTip": "Ullam sequi ipsam quos rerum.",
+    "Id": 1001,
+    "Name": "Conroy, Parisian and Pfannerstill",
+    "ToolTip": "Et rerum aut qui.",
     "Deleted": false,
-    "Rank": 202,
-    "Type": "iusto",
-    "ColorBlock": 775,
-    "IconHint": "autem",
+    "Rank": 453,
+    "Type": "laboriosam",
+    "ColorBlock": 839,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2002-08-09T11:24:53.9061703+02:00",
+    "LastChanged": "2013-08-10T03:40:56.7744799+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Cartwright Group",
-        "ToolTip": "Ea cumque corrupti aspernatur aut.",
+        "Id": 776,
+        "Name": "Willms-Padberg",
+        "ToolTip": "Aut pariatur eius dolor mollitia.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "exercitationem",
-        "ColorBlock": 438,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2010-03-17T11:24:53.9061703+01:00",
+        "Rank": 537,
+        "Type": "eveniet",
+        "ColorBlock": 203,
+        "IconHint": "modi",
+        "Selected": false,
+        "LastChanged": "2011-02-08T03:40:56.7744799+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Griffin Lubowitz V",
+        "FullName": "Wilhelmine Damion Bernhard MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 125
+            "FieldType": "System.String",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "sit",
+    "ExtraInfo": "illo",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Dr. Garrett Satterfield IV",
+    "FullName": "Margarett D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 354,
-    "Attention": "at",
-    "Header": "quia",
-    "Name": "Zulauf, Kozey and Osinski",
-    "OurRef": "aperiam",
-    "YourRef": "sit",
-    "Description": "Robust bottom-line knowledge user",
-    "DocumentTemplate": "praesentium",
-    "IsPublished": false,
-    "PersonId": 148,
-    "PersonFullName": "Patrick Beier",
-    "AssociateFullName": "Braeden Waters",
-    "ContactId": 562,
-    "ContactName": "Stoltenberg-Kautzer",
-    "ProjectId": 596,
-    "ProjectName": "Hagenes, Lind and Smitham",
-    "AssociateId": 404,
-    "Snum": 823,
-    "SaleId": 332,
-    "SaleName": "Goldner-Hahn",
+    "DocumentId": 599,
+    "Attention": "modi",
+    "Header": "ab",
+    "Name": "Veum Group",
+    "OurRef": "eaque",
+    "YourRef": "tempora",
+    "Description": "Face to face web-enabled product",
+    "DocumentTemplate": "aut",
+    "IsPublished": true,
+    "PersonId": 917,
+    "PersonFullName": "Prof. Jaime Rogelio Ledner",
+    "AssociateFullName": "Isadore Dicki",
+    "ContactId": 279,
+    "ContactName": "Lockman, Zboncak and Ebert",
+    "ProjectId": 565,
+    "ProjectName": "Walter Group",
+    "AssociateId": 98,
+    "Snum": 586,
+    "SaleId": 660,
+    "SaleName": "Hickle Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 405
       }
     }
   }

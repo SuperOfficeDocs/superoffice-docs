@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "voluptate",
-  "RecordId": 373,
-  "CreatedDate": "2015-06-09T11:24:53.2968202+02:00",
-  "UpdatedDate": "2003-11-02T11:24:53.2968202+01:00",
-  "UpdatedBy": "doloremque",
-  "CreatedBy": "officiis",
-  "TableName": "Medhurst, Wolf and Klein"
+  "Key": "quia",
+  "Value": "repudiandae",
+  "RecordId": 867,
+  "CreatedDate": "2022-09-16T03:40:55.7886484+02:00",
+  "UpdatedDate": "2002-03-21T03:40:55.7886484+01:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "sunt",
+  "TableName": "Berge LLC"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "incidunt",
-  "Value": "ipsum",
-  "RecordId": 239,
-  "CreatedDate": "2009-11-16T11:24:53.2968202+01:00",
-  "UpdatedDate": "2006-05-30T11:24:53.2968202+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "rerum",
-  "TableName": "Blick, Gaylord and Rath",
+  "Key": "et",
+  "Value": "reiciendis",
+  "RecordId": 102,
+  "CreatedDate": "2002-09-27T03:40:55.7886484+02:00",
+  "UpdatedDate": "2014-07-23T03:40:55.7886484+02:00",
+  "UpdatedBy": "cumque",
+  "CreatedBy": "laborum",
+  "TableName": "DuBuque Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 987
     }
   }
 }

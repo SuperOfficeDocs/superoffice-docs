@@ -94,6 +94,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests|  |
 |contact/associateId|associate|Our contact: Displays our contact|  |
 |contact/category|listAny|Category|  |
+|contact/categoryGroup|listAny|Category group|  |
 |contact/business|listAny|Business|  |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.|  |
 |contact/countryId|int|Country ID: Country ID|  |
@@ -125,11 +126,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/email/emailDescription|string|Description|  |
 |contact/email/emailId|int|ID|  |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
-|contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record|  |
@@ -229,11 +230,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.|  |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.|  |
-|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company|  |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company|  |
@@ -310,7 +311,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAssociateId|associate|Our contact: Displays our contact|  |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |person/personCategory|listAny|Category|  |
+|person/personCategoryGroup|listAny|Category group|  |
 |person/personBusiness|listAny|Business|  |
+|person/leadstatus|listAny|Lead status|  |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company|  |
 |person/isProjectMember|bool|Is project member: This person is a project member|  |
@@ -331,13 +334,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personDirectFax/description|string|Fax - Description: Phone number description|  |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
 |person/searchPhone/description|string|Description: Phone number description|  |
-|person/personInfo/textId|int|Text ID|  |
-|person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field|  |
-|person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personInfo/textId|int|Text ID|  |
+|person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field|  |
+|person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |person/email/emailAddress|string|E-mail|  |
 |person/email/emailDescription|string|Description|  |
 |person/email/emailId|int|ID|  |
@@ -435,13 +438,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?|  |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?|  |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|person/personAssociate/userName|string|User name: User name|  |
-|person/personAssociate/personEmail|string|E-mail|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|person/personAssociate/userName|string|User name: User name|  |
+|person/personAssociate/personEmail|string|E-mail|  |
 |person/personAssociate/locationAddress|string|Location: Location|  |
 |person/personAssociate/isLocation|bool|Is a location: Is a location|  |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name|  |
@@ -539,13 +542,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/projectAssociate/associateDbId|associate|ID|  |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to|  |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to|  |
-|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group|  |
-|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group|  |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group|  |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group|  |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to|  |
 |project/projectAssociate/contactCategory|listAny|Category: Category|  |
 |project/projectAssociate/role|listAny|Role : Role|  |
 |project/projectAssociate/assocName|associate|User ID : User ID|  |
@@ -643,13 +646,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale|  |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled|  |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category|  |
-|sale/soldReason|listAny|Reason (sold: Reason (sold)|  |
-|sale/saleNumber|string|Number: Number|  |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/soldReason|listAny|Reason (sold: Reason (sold)|  |
+|sale/saleNumber|string|Number: Number|  |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled|  |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?|  |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide|  |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -657,6 +660,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow|  |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID|  |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field|  |
@@ -746,14 +750,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID|  |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field|  |
-|appointment/internalNotesHtml|positiveString|!!Internal Notes Html|  |
-|destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
-|currencyId|int|Currency ID: The currency list item ID|  |
-|currency|listAny|Currency: The currency of the sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/internalNotesHtml|positiveString|!!Internal Notes Html|  |
+|destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
+|currencyId|int|Currency ID: The currency list item ID|  |
+|currency|listAny|Currency: The currency of the sale|  |
 |credited|listAny|Credited: The user to be credited with the sale|  |
 |lossReason|listAny|Reason (lost: The reason for losing the sale|  |
 |source|listAny|Source: The source (lead) of the sale|  |
@@ -785,6 +789,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?|  |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total|  |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.|  |
+|daysInStage| *None* |Days in stage: Total number of days in this stage|  |
 |sale/textId|int|Text ID|  |
 |salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published|  |
 |salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date|  |
@@ -845,8 +850,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact|  |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact|  |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category|  |
+|saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group|  |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business|  |
+|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status|  |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company|  |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member|  |
 |saleStakeholder/person/isStakeholder|bool|Stakeholder - Is stakeholder: This person is a sale stakeholder|  |
@@ -854,10 +865,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/whenUpdatedByWorkflow|datetime|Stakeholder - When updated by flow: When updated by flow|  |
 |saleStakeholder/person/createdByForm|listAny|Stakeholder - Created by form: Created by form|  |
 |saleStakeholder/person/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personDirectPhone/formattedNumber|string|Stakeholder - Direct - Phone: Displays phone number|  |
 |saleStakeholder/person/personDirectPhone/description|string|Stakeholder - Direct - Description: Phone number description|  |
 |saleStakeholder/person/personMobilePhone/formattedNumber|string|Stakeholder - Mobile - Phone: Displays phone number|  |
@@ -951,6 +958,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms|  |
 |saleStakeholder/person/personAssociate/associateDbId|associate|Stakeholder - ID|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personAssociate/contactName|string|Stakeholder - Owning company: Name of the company the user belongs to|  |
 |saleStakeholder/person/personAssociate/contactDepartment|string|Stakeholder - Owning department: Name of the department at the company the user belongs to|  |
 |saleStakeholder/person/personAssociate/usergroup|userGroup|Stakeholder - Primary group: The user's primary user group|  |
@@ -958,10 +969,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/person/personAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to|  |
 |saleStakeholder/person/personAssociate/contactCategory|listAny|Stakeholder - Category: Category|  |
 |saleStakeholder/person/personAssociate/role|listAny|Stakeholder - Role: Role|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personAssociate/assocName|associate|Stakeholder - User ID: User ID|  |
 |saleStakeholder/person/personAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
 |saleStakeholder/person/personAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account|  |
@@ -1030,6 +1037,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact|  |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category|  |
+|saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group|  |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business|  |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.|  |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID|  |
@@ -1054,6 +1062,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description|  |
 |saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
 |saleStakeholder/contact/contactFax/description|string|Stakeholder - Fax - Description: Phone number description|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/searchPhone/formattedNumber|string|Stakeholder - Searchphone - Phone: Displays phone number|  |
 |saleStakeholder/contact/searchPhone/description|string|Stakeholder - Searchphone - Description: Phone number description|  |
 |saleStakeholder/contact/email/emailProtocol|string|Stakeholder - Protocol: E-mail protocol, such as SMTP|  |
@@ -1062,10 +1074,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/email/emailId|int|Stakeholder - ID|  |
 |saleStakeholder/contact/email/emailLastSent|datetime|Stakeholder - Last sent: The date and time an e-mail was last sent to this address|  |
 |saleStakeholder/contact/email/emailBounceCount|int|Stakeholder - Bounce count: Bounce count for this e-mail address|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/email/emailLastBounce|datetime|Stakeholder - Last bounce: Date and time for last bounce to this e-mail address|  |
 |saleStakeholder/contact/email/emailHasBounced|bool|Stakeholder - Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
 |saleStakeholder/contact/postAddress/addressId|int|Stakeholder - Postal address - Address ID: Database ID for the address record|  |
@@ -1158,6 +1166,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactExtra/x\_contact\_dropdown|listAny|Stakeholder - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_date|date|Stakeholder - Extra date: Custom date field. User current as default.|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External|  |
@@ -1166,10 +1178,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleStakeholder/contact/contactExtra/x\_contact\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan field. Hours and minutes in 10 units|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_shorttext|string|Stakeholder - Extra short text: Custom short text field. Keep HTML tags.|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_short\_dropdown|listAny|Stakeholder - Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Stakeholder - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Stakeholder - Extra Request relation: Request relation on company|  |
 |saleStakeholder/contact/contactExtra/x\_contact\_contact|stringorPK|Stakeholder - Extra contact relation: Contact relation on company|  |
@@ -1262,6 +1270,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.|  |
 |quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered|  |
 |quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.|  |
 |quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in|  |
 |quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.|  |
@@ -1270,10 +1282,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |quote/version/alternative/quoteline/UnitListPriceSubscriptionQuantity| *None* |Subscription list price: Unit price * subscription quantity|  |
 |quote/version/alternative/quoteline/PriceUnitSubscriptionUnit| *None* |P/S Unit: Price unit/subscription unit|  |
 |quote/version/alternative/quoteline/PriceUnitSubscriptionQuantityUnit| *None* |Expanded unit: Price unit @ subscription quantity + unit|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/alternative/quoteline/vatInfo|string|VAT info: |  |
 |quote/version/alternative/quoteline/vat|decimal|VAT: May be filled out by the ERP system|  |
 |quote/version/alternative/quoteline/unitCost|decimal|Cost: Cost per item.|  |
@@ -1366,6 +1374,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |LastActivity|date|Date of last activity|  |
 |LastCompletedActivity|date|Date of last completed activity|  |
 |LastDoByActivity|date|Date of last non-completed activity|  |
@@ -1374,10 +1386,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |LastCompletedSale|date|Date of last completed sale|  |
 |LastDoBySale|date|Date of last non-completed sale|  |
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
@@ -1459,7 +1467,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateId|associate|Our contact: Displays our contact|  |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |personCategory|listAny|Category|  |
+|personCategoryGroup|listAny|Category group|  |
 |personBusiness|listAny|Business|  |
+|leadstatus|listAny|Lead status|  |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company|  |
 |isProjectMember|bool|Is project member: This person is a project member|  |
@@ -1468,9 +1478,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |whenUpdatedByWorkflow|datetime|When updated by flow: When updated by flow|  |
 |createdByForm|listAny|Created by form: Created by form|  |
 |destinationPersonRestrictionId|int|ADD LINK Person DESTINATION RESOURCE: ADD LINK Person DESTINATION TOOLTIP RESOURCE|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |department|string|Department|  |
 |nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
 |category|listAny|Category|  |
+|categoryGroup|listAny|Category group|  |
 |business|listAny|Business|  |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.|  |
 |countryId|int|Country ID: Country ID|  |
@@ -1478,10 +1493,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |orgnr|string|VAT No.|  |
 |stop|bool|Stop|  |
 |contactNoMail|bool|No mailings (company|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contactSource|listAny|Source: Source (Company)|  |
 |contactDeleted|bool|Deleted: Deleted|  |
 |deletedDate|datetime|Deleted date: Deleted date|  |
@@ -1504,7 +1515,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/contactSource,contact/phone/formattedNumber,contact/postAddress/line3,person/personInterestIds,person/personExtra/y_rental/x_end
+GET /api/v1/archive/Links?$select=location,contact/registeredByFullName,contact/contactAssociate/mrMrs,person/hasInterests,sale/associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

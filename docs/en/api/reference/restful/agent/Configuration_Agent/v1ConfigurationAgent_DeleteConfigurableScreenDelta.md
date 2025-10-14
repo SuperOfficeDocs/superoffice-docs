@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
 Deletes the ConfigurableScreenDelta
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ConfigurableScreenDelta
 | configurableScreenDeltaId | int32 | **Required** The identity of the ConfigurableScreenDelta |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=29
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?configurableScreenDeltaId=938
 ```
 
 

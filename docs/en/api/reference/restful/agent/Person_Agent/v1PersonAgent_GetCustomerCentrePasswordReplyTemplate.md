@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Gets a parsed Customer Centre password reply template for a particular customer
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 130
+  "PersonId": 613
 }
 ```
 
@@ -93,36 +95,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 657,
-  "PlainParsed": "autem",
-  "HtmlParsed": "porro",
+  "ReplyTemplateId": 17,
+  "PlainParsed": "dignissimos",
+  "HtmlParsed": "consequatur",
   "Attachments": [
     {
-      "AttachmentId": 609,
-      "Name": "Borer, Torphy and Wiza",
-      "ContentType": "enim",
-      "AttSize": 754,
-      "InlineImage": false,
-      "ContentId": "aliquam",
-      "AuthKey": "possimus",
+      "AttachmentId": 944,
+      "Name": "Heidenreich-Muller",
+      "ContentType": "nobis",
+      "AttSize": 235,
+      "InlineImage": true,
+      "ContentId": "omnis",
+      "AuthKey": "voluptatibus",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 380
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
   ],
-  "Subject": "omnis",
+  "Subject": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 779
     }
   }
 }

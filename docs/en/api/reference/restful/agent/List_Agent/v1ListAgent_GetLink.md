@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLink
 Gets a Link object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Link object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLink?linkId=994
+POST /api/v1/Agents/List/GetLink?linkId=31
 POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 ```
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +84,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bashirian Inc and Sons",
-  "Id": 491,
-  "Description": "Optional executive database",
-  "ExtraInfo": "sit",
-  "LinkId": 927,
+  "EntityName": "Roob LLC",
+  "Id": 663,
+  "Description": "Customizable real-time strategy",
+  "ExtraInfo": "numquam",
+  "LinkId": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 877
     }
   }
 }

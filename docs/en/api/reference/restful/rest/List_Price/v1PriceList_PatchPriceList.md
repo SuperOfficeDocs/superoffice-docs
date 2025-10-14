@@ -14,7 +14,8 @@ PATCH /api/v1/Pricelist/{id}
 Update a PriceList with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -118,18 +119,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "consequuntur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "consequuntur",
     "value": {}
   }
 ]
@@ -142,22 +143,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 654,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 273,
-  "Name": "Haag-Crooks",
-  "Description": "Fundamental user-facing flexibility",
-  "Currency": "quasi",
-  "CurrencyName": "Haley, Hirthe and Schmitt",
-  "ValidFrom": "2003-02-06T11:24:53.9842923+01:00",
-  "ValidTo": "2012-11-12T11:24:53.9842923+01:00",
-  "IsActive": false,
+  "PriceListId": 362,
+  "ERPPriceListKey": "ab",
+  "QuoteConnectionId": 840,
+  "Name": "Weissnat Group",
+  "Description": "Programmable asynchronous pricing structure",
+  "Currency": "aliquid",
+  "CurrencyName": "Daugherty Inc and Sons",
+  "ValidFrom": "2008-11-26T03:40:56.9933484+01:00",
+  "ValidTo": "2000-08-16T03:40:56.9933484+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   },
   "_Links": {

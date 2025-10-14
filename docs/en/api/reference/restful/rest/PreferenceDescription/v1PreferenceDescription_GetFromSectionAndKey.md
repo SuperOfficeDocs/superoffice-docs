@@ -78,7 +78,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 396,
-  "Section": "rerum",
-  "Key": "inventore",
-  "Name": "Raynor, Walker and Kreiger",
+  "PrefDescId": 517,
+  "Section": "enim",
+  "Key": "ea",
+  "Name": "Wyman, Kuhlman and Cassin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ameliorated upward-trending migration",
+  "Description": "Customizable secondary knowledge base",
   "IsBuiltin": false,
-  "TableName": "Corkery, Klein and Herman",
-  "UserDefinedListId": 320,
-  "Rank": 280,
-  "SubGroup": "ipsa",
-  "MinLevel": 225,
-  "MaxValue": 357,
-  "MinValue": 357,
-  "RequiredLicense": "ex",
+  "TableName": "Adams, Hane and Christiansen",
+  "UserDefinedListId": 656,
+  "Rank": 688,
+  "SubGroup": "ducimus",
+  "MinLevel": 797,
+  "MaxValue": 530,
+  "MinValue": 385,
+  "RequiredLicense": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 486
     }
   }
 }

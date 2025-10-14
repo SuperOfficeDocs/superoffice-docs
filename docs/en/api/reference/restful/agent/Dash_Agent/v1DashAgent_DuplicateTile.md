@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DuplicateTile
 Duplicate for the tile and all the sub elements
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 540,
-  "Name": "Botsford-Denesik"
+  "DashTileId": 94,
+  "Name": "Von, D'Amore and Macejkovic"
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 771,
-  "DashboardId": 728,
-  "Height": 809,
-  "Width": 578,
-  "Rank": 999,
+  "DashboardTileId": 159,
+  "DashboardId": 485,
+  "Height": 465,
+  "Width": 25,
+  "Rank": 406,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 331
     }
   }
 }

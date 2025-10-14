@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Roberts-Mayer",
-    "ToolTip": "Accusantium vero sit aut aliquam alias.",
+    "Id": 421,
+    "Name": "Lowe-Feest",
+    "ToolTip": "Qui illum et totam.",
     "Deleted": false,
-    "Rank": 464,
-    "Type": "optio",
-    "ColorBlock": 814,
-    "IconHint": "tempore",
+    "Rank": 119,
+    "Type": "maiores",
+    "ColorBlock": 665,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2000-08-01T11:24:53.8749217+02:00",
+    "LastChanged": "2007-11-13T03:40:56.727602+01:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "McGlynn, Collier and Blick",
-        "ToolTip": "Minima excepturi voluptates laborum et.",
+        "Id": 495,
+        "Name": "Grady-Marvin",
+        "ToolTip": "Totam culpa veniam sit.",
         "Deleted": false,
-        "Rank": 843,
-        "Type": "amet",
-        "ColorBlock": 237,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "1999-10-02T11:24:53.8749217+02:00",
+        "Rank": 298,
+        "Type": "dignissimos",
+        "ColorBlock": 763,
+        "IconHint": "vitae",
+        "Selected": true,
+        "LastChanged": "2022-05-30T03:40:56.727602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Madelyn Eichmann",
+        "ExtraInfo": "sit",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Devon Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 82
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "provident",
-    "Hidden": true,
-    "FullName": "Justen Veum",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Eliseo Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldType": "System.String",
+        "FieldLength": 480
       }
     }
   }

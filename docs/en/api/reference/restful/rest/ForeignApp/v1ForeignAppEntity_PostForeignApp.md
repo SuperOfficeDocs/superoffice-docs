@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 51,
-  "Name": "Bins, Schowalter and Koch",
-  "CreatedDate": "2013-09-04T11:24:53.2811958+02:00",
-  "UpdatedDate": "2016-05-08T11:24:53.2811958+02:00",
+  "ForeignAppId": 472,
+  "Name": "Graham LLC",
+  "CreatedDate": "2004-02-24T03:40:55.7569215+01:00",
+  "UpdatedDate": "2002-07-29T03:40:55.7569215+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 488,
-      "Name": "Hessel LLC",
-      "CreatedDate": "2008-08-04T11:24:53.2811958+02:00",
-      "UpdatedDate": "2006-08-08T11:24:53.2811958+02:00",
-      "AssociateFullName": "Donato Buckridge",
-      "CreatedBy": "placeat",
-      "UpdatedBy": "repellendus",
-      "DeviceIdentifier": "inventore",
-      "ForeignAppId": 416,
+      "ForeignDeviceId": 633,
+      "Name": "Ratke LLC",
+      "CreatedDate": "2013-12-19T03:40:55.7569215+01:00",
+      "UpdatedDate": "2000-03-15T03:40:55.7569215+01:00",
+      "AssociateFullName": "Joseph Rice",
+      "CreatedBy": "illum",
+      "UpdatedBy": "deleniti",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 223,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 804
     }
   }
 }

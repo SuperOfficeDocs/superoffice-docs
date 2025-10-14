@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Beatty Inc and Sons",
-    "ToolTip": "Et harum.",
+    "Id": 117,
+    "Name": "Aufderhar-Cartwright",
+    "ToolTip": "Et exercitationem omnis sunt ut ipsum ut et.",
     "Deleted": true,
-    "Rank": 766,
-    "Type": "eveniet",
-    "ColorBlock": 804,
-    "IconHint": "id",
+    "Rank": 592,
+    "Type": "ut",
+    "ColorBlock": 361,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2004-04-23T11:24:53.8436729+02:00",
+    "LastChanged": "2005-06-05T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Koch LLC",
-        "ToolTip": "Facilis omnis.",
-        "Deleted": true,
-        "Rank": 842,
-        "Type": "iusto",
-        "ColorBlock": 196,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2023-11-17T11:24:53.8436729+01:00",
+        "Id": 315,
+        "Name": "Schoen Inc and Sons",
+        "ToolTip": "Possimus aut inventore non deserunt vitae placeat ipsum.",
+        "Deleted": false,
+        "Rank": 921,
+        "Type": "expedita",
+        "ColorBlock": 9,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2015-05-23T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Dr. Jayson Ward DVM"
+        "ExtraInfo": "inventore",
+        "StyleHint": "culpa",
+        "Hidden": false,
+        "FullName": "Mrs. Marielle Kaleb Doyle V"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "odit",
+    "ExtraInfo": "nisi",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Mr. Santina Bartell V"
+    "FullName": "Francisco Harris"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Heller-Padberg",
-    "ToolTip": "Id in molestiae.",
+    "Id": 185,
+    "Name": "Champlin Group",
+    "ToolTip": "Qui inventore occaecati pariatur alias.",
     "Deleted": false,
-    "Rank": 154,
-    "Type": "nesciunt",
-    "ColorBlock": 263,
-    "IconHint": "necessitatibus",
+    "Rank": 471,
+    "Type": "quas",
+    "ColorBlock": 204,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2021-11-07T11:24:53.8436729+01:00",
+    "LastChanged": "2004-06-18T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Torp Group",
-        "ToolTip": "Id ut perferendis perspiciatis officiis reiciendis ut saepe.",
+        "Id": 80,
+        "Name": "Hudson, Hodkiewicz and Wolf",
+        "ToolTip": "Voluptatibus voluptatem ut.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "occaecati",
-        "ColorBlock": 116,
-        "IconHint": "ratione",
+        "Rank": 601,
+        "Type": "itaque",
+        "ColorBlock": 808,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2019-02-27T11:24:53.8436729+01:00",
+        "LastChanged": "2002-12-13T03:40:56.6807244+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Coralie Ryan",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "modi",
+        "Hidden": true,
+        "FullName": "Dr. Keara Goldner DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "nulla",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Terrance Hermiston",
+    "FullName": "Mr. Eugene Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 658
       }
     }
   }

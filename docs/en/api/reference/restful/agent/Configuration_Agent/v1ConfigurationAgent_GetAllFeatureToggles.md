@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetAllFeatureToggles
 Get all the feature toggles with their state (on/off)
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,6 +74,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": false,
-  "2": true
+  "2": false
 }
 ```

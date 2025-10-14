@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEventResult
 Loading default values into a new WorkflowEventResult.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEventResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,13 +70,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "ad",
+  "Attributes": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 873
     }
   }
 }

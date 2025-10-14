@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 Gets a PreferenceDescriptionLine object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a PreferenceDescriptionLine object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=569
+POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=677
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,department,category/id
 ```
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 888,
-  "PrefDescId": 931,
-  "PrefValue": "et",
-  "PrefShowValue": "consequatur",
-  "Description": "Sharable empowering analyzer",
+  "PrefDescLineId": 921,
+  "PrefDescId": 837,
+  "PrefValue": "voluptates",
+  "PrefShowValue": "pariatur",
+  "Description": "Monitored zero tolerance frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 921
     }
   }
 }

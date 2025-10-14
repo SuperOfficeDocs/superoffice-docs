@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 318,
-  "Name": "Brown Inc and Sons",
+  "TicketPriorityId": 749,
+  "Name": "Simonis, O'Kon and Kassulke",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 143,
+  "SortOrder": 984,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 185,
-  "MonStart": "2024-11-25T11:24:54.1717846+01:00",
-  "MonStop": "2023-10-17T11:24:54.1717846+02:00",
-  "TueStart": "2004-05-09T11:24:54.1717846+02:00",
-  "TueStop": "2019-07-05T11:24:54.1717846+02:00",
-  "WedStart": "2005-01-27T11:24:54.1717846+01:00",
-  "WedStop": "2007-05-05T11:24:54.1717846+02:00",
-  "ThuStart": "2017-12-27T11:24:54.1717846+01:00",
-  "ThuStop": "2016-05-17T11:24:54.1717846+02:00",
-  "FriStart": "2005-07-10T11:24:54.1717846+02:00",
-  "FriStop": "2019-05-23T11:24:54.1717846+02:00",
-  "SatStart": "2012-08-21T11:24:54.1717846+02:00",
-  "SatStop": "2012-03-28T11:24:54.1717846+02:00",
-  "SunStart": "1998-08-13T11:24:54.1717846+02:00",
-  "SunStop": "1999-05-28T11:24:54.1717846+02:00",
+  "Deadline": 596,
+  "MonStart": "2019-01-30T03:40:57.1500758+01:00",
+  "MonStop": "2012-01-23T03:40:57.1500758+01:00",
+  "TueStart": "2003-10-28T03:40:57.1500758+01:00",
+  "TueStop": "2024-04-04T03:40:57.1500758+02:00",
+  "WedStart": "1998-08-03T03:40:57.1500758+02:00",
+  "WedStop": "2018-06-19T03:40:57.1500758+02:00",
+  "ThuStart": "2005-02-04T03:40:57.1500758+01:00",
+  "ThuStop": "2018-12-26T03:40:57.1500758+01:00",
+  "FriStart": "2024-02-18T03:40:57.1500758+01:00",
+  "FriStop": "2025-01-19T03:40:57.1500758+01:00",
+  "SatStart": "1999-11-21T03:40:57.1500758+01:00",
+  "SatStop": "2012-01-26T03:40:57.1500758+01:00",
+  "SunStart": "2020-11-10T03:40:57.1500758+01:00",
+  "SunStop": "2005-12-08T03:40:57.1500758+01:00",
   "NonDates": [
     "et",
-    "inventore"
+    "pariatur"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 21,
-      "AlertLevel": 630,
-      "AlertTimeout": 556,
-      "Action": 956,
-      "DelegateTo": 513,
-      "ScriptId": 339,
-      "EmailTo": "brooke_lesch@ortizcrooks.us",
-      "SmsTo": "laudantium",
-      "ReplyTemplateIdCustomer": 535,
-      "ReplyTemplateIdUser": 133,
-      "ReplyTemplateIdCatmast": 825,
-      "ReplyTemplateIdEmail": 70,
-      "RtiCustomerSms": 935,
-      "ReplyTemplateIdUserSms": 870,
-      "ReplyTemplateIdCatmastSms": 306,
-      "ReplyTemplateIdSms": 863,
+      "TicketAlertId": 693,
+      "AlertLevel": 487,
+      "AlertTimeout": 700,
+      "Action": 1001,
+      "DelegateTo": 36,
+      "ScriptId": 110,
+      "EmailTo": "candace_christiansen@vonrueden.name",
+      "SmsTo": "possimus",
+      "ReplyTemplateIdCustomer": 853,
+      "ReplyTemplateIdUser": 618,
+      "ReplyTemplateIdCatmast": 21,
+      "ReplyTemplateIdEmail": 924,
+      "RtiCustomerSms": 516,
+      "ReplyTemplateIdUserSms": 169,
+      "ReplyTemplateIdCatmastSms": 994,
+      "ReplyTemplateIdSms": 916,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   }
 }

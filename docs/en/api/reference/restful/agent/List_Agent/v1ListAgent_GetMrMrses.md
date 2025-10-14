@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetMrMrses
 Returns all Items from the MrMrs table sorted by their value.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetMrMrses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Value": "labore",
-    "Tooltip": "cupiditate",
+    "Id": 766,
+    "Value": "ducimus",
+    "Tooltip": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   },
   {
-    "Id": 958,
-    "Value": "labore",
-    "Tooltip": "cupiditate",
+    "Id": 766,
+    "Value": "ducimus",
+    "Tooltip": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   }

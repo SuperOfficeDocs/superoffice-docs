@@ -15,6 +15,7 @@ Accept the transfer: assign the session to the user.
 
 
 If the session is not being transferred, nothing happens.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 948
+  "ChatSessionId": 380
 }
 ```
 
@@ -121,43 +122,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 826,
-  "TopicId": 694,
+  "ChatSessionId": 17,
+  "TopicId": 254,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "aspernatur",
-  "CustomerName": "Bernier Group",
-  "CustomerEmail": "vance_smith@legros.uk",
-  "CustomerPhone": "758-637-7527 x05533",
+  "CustomerAlias": "in",
+  "CustomerHost": "nesciunt",
+  "CustomerName": "O'Reilly, Waters and Hartmann",
+  "CustomerEmail": "brant.nikolaus@stiedemann.biz",
+  "CustomerPhone": "(745)052-8298",
   "CustomerConsented": false,
-  "CustomerCompanyName": "O'Reilly Inc and Sons",
+  "CustomerCompanyName": "Jones-Bode",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "excepturi",
-  "WhenRequested": "2002-10-14T11:24:47.6720496+02:00",
-  "WhenStarted": "2012-03-30T11:24:47.6720496+02:00",
-  "WhenEnded": "2019-12-10T11:24:47.6720496+01:00",
-  "WhenIdle": "1999-09-03T11:24:47.6720496+02:00",
-  "WhenFetched": "2022-04-15T11:24:47.6720496+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 636,
-  "AlertLevel": 12,
-  "Rank": 634,
+  "FirstMessage": "labore",
+  "LastMessage": "vero",
+  "WhenRequested": "2016-06-05T03:40:46.1389588+02:00",
+  "WhenStarted": "2019-07-09T03:40:46.1389588+02:00",
+  "WhenEnded": "2015-05-05T03:40:46.1389588+02:00",
+  "WhenIdle": "2009-06-12T03:40:46.1389588+02:00",
+  "WhenFetched": "2018-01-21T03:40:46.1389588+01:00",
+  "SessionKey": "aliquam",
+  "InitialQueuePos": 781,
+  "AlertLevel": 597,
+  "Rank": 236,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 855,
+  "ChatbotIsActive": false,
+  "Rating": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 461
     }
   }
 }

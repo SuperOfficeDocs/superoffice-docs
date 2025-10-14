@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/DeleteForeignDevice
 Deletes a foreign device from an application
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Stehr, Pfannerstill and Willms"
+  "ApplicationName": "McCullough Group"
 }
 ```
 

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Creates a PersonEntity with default values based on the contactId and credentials.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -109,10 +112,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 583,
-  "CredentialType": "molestiae",
-  "CredentialValue": "aut",
-  "CredentialDisplayValue": "aut"
+  "ContactId": 608,
+  "CredentialType": "amet",
+  "CredentialValue": "facere",
+  "CredentialDisplayValue": "exercitationem"
 }
 ```
 
@@ -123,14 +126,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 752,
-  "Name": "Labadie-Runolfsson",
-  "Rank": 48,
-  "Tooltip": "laborum",
+  "AssociateId": 200,
+  "Name": "Haley, Effertz and Fahey",
+  "Rank": 950,
+  "Tooltip": "sint",
   "LicenseOwners": [
     {
-      "Name": "Pacocha, Raynor and Leannon",
-      "Description": "User-centric logistical challenge",
+      "Name": "Tromp, Littel and Hauck",
+      "Description": "Programmable modular methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,14 +146,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     },
     {
-      "Name": "Pacocha, Raynor and Leannon",
-      "Description": "User-centric logistical challenge",
+      "Name": "Tromp, Littel and Hauck",
+      "Description": "Programmable modular methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     }
@@ -173,110 +176,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "ipsum",
-      "Id": 685,
-      "Rank": 484,
+      "Value": "consequuntur",
+      "Tooltip": "in",
+      "Id": 483,
+      "Rank": 946,
       "Deleted": false,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 264
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2001-01-24T11:24:48.8907508+01:00",
-  "Lastlogout": "2014-10-26T11:24:48.8907508+01:00",
-  "EjUserId": 630,
-  "RequestSignature": "et",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "ipsum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "ipsum",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
-        }
-      }
-    }
-  ],
-  "UserName": "Zieme, Boehm and Kuhlman",
-  "TicketCategories": [
-    {
-      "Id": 870,
-      "Name": "McCullough LLC",
-      "ToolTip": "Saepe repudiandae debitis ut at voluptate voluptatem.",
-      "Deleted": false,
-      "Rank": 17,
-      "Type": "fuga",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "consequatur",
-      "ColorBlock": 863,
-      "ExtraInfo": "sit",
-      "StyleHint": "hic",
-      "FullName": "Curt Klein",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 66
-        }
-      }
-    }
-  ],
-  "NickName": "Beahan-Batz",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "ad"
-  },
-  "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "praesentium"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Adams-Marquardt",
-      "DisplayName": "Rice LLC",
-      "Description": "Synergized static frame",
-      "ToolTip": "Doloribus odit et dolores perferendis temporibus voluptatem.",
-      "Actions": "Implicit",
-      "ActionData": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 495
+          "FieldLength": 588
+        }
+      }
+    }
+  ],
+  "Person": null,
+  "Deleted": true,
+  "Lastlogin": "2011-04-05T03:40:48.1411177+02:00",
+  "Lastlogout": "2005-01-22T03:40:48.1411177+01:00",
+  "EjUserId": 415,
+  "RequestSignature": "dolores",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
+  "Credentials": [
+    {
+      "Type": null,
+      "Value": "et",
+      "DisplayValue": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 485
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "et",
+      "DisplayValue": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 485
+        }
+      }
+    }
+  ],
+  "UserName": "Metz Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 528,
+      "Name": "Oberbrunner-Gutmann",
+      "ToolTip": "Nostrum omnis et pariatur explicabo tempora.",
+      "Deleted": false,
+      "Rank": 824,
+      "Type": "perferendis",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "similique",
+      "ColorBlock": 696,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "cumque",
+      "FullName": "Jaden Cummings",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 284
+        }
+      }
+    }
+  ],
+  "NickName": "Williamson Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "consequuntur"
+  },
+  "CustomFields": {
+    "CustomFields1": "harum",
+    "CustomFields2": "consequatur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Stokes Inc and Sons",
+      "DisplayName": "Walsh Inc and Sons",
+      "Description": "Synergistic executive info-mediaries",
+      "ToolTip": "Nulla eligendi.",
+      "Actions": "Implicit",
+      "ActionData": "itaque",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     }
@@ -285,8 +288,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Loading default values into a new SuggestedAppointmentEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 692,
-  "Name": "Romaguera-Pouros",
-  "Tooltip": "quos",
-  "Rank": 706,
+  "SuggestedAppointmentId": 551,
+  "Name": "Cummerata, Okuneva and Nitzsche",
+  "Tooltip": "sunt",
+  "Rank": 730,
   "Deleted": false,
-  "DaysFuture": 58,
-  "Duration": "dolor",
+  "DaysFuture": 220,
+  "Duration": "et",
   "AutoSuggest": false,
   "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "pariatur",
+  "Text": "sunt",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +99,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectsFromContact
 Returns all projects where the given contact has projectmembers.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 446
+  "ContactId": 640
 }
 ```
 
@@ -107,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 50,
-    "Name": "Wyman Inc and Sons",
-    "Description": "User-friendly optimizing solution",
+    "ProjectId": 850,
+    "Name": "Littel, Swift and Mann",
+    "Description": "Realigned client-server Graphical User Interface",
     "URL": "http://www.example.com/",
-    "Type": "maiores",
-    "AssociateId": 413,
-    "AssociateFullName": "Ms. Jordan Jon Kuphal",
-    "TypeId": 579,
-    "Updated": "2013-04-01T11:24:48.4845166+02:00",
-    "StatusId": 280,
-    "Status": "quia",
-    "TextId": 612,
-    "PublishTo": "2010-02-24T11:24:48.4845166+01:00",
-    "PublishFrom": "2001-06-17T11:24:48.4845166+02:00",
+    "Type": "provident",
+    "AssociateId": 252,
+    "AssociateFullName": "Dean Kemmer",
+    "TypeId": 941,
+    "Updated": "2024-03-28T03:40:47.4999832+01:00",
+    "StatusId": 957,
+    "Status": "et",
+    "TextId": 460,
+    "PublishTo": "2015-07-28T03:40:47.4999832+02:00",
+    "PublishFrom": "2021-02-12T03:40:47.4999832+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "756307",
-    "ActiveErpLinks": 320,
+    "ProjectNumber": "978683",
+    "ActiveErpLinks": 614,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

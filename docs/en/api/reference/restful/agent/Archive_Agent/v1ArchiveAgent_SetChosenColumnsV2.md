@@ -15,6 +15,7 @@ Set the currently chosen columns for the given gui name/provider name combinatio
 
 
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,17 +72,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dibbert Group",
-  "ProviderName": "McClure Inc and Sons",
-  "Context": "cupiditate",
+  "GuiName": "Mayert Group",
+  "ProviderName": "Littel-Walsh",
+  "Context": "et",
   "OwnerKeys": "optio",
   "ChosenColumns": [
-    "sequi",
-    "aut"
+    "itaque",
+    "ratione"
   ]
 }
 ```

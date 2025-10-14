@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 397,
-    "Name": "Murazik, Prosacco and Harris",
-    "Tooltip": "sequi",
+    "HeadingId": 551,
+    "Name": "Auer-Reilly",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 277,
+    "Rank": 712,
+    "UdListDefinitionId": 73,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 559
       }
     }
   }

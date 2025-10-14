@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSaleStageEntity
 Gets a SaleStageEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleStageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=48
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=389
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 734,
-  "Value": "neque",
-  "Tooltip": "voluptas",
-  "Probability": 937,
+  "SaleStageId": 718,
+  "Value": "ad",
+  "Tooltip": "architecto",
+  "Probability": 444,
   "Deleted": false,
-  "Rank": 457,
+  "Rank": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 649
     }
   }
 }

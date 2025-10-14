@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 513,
-    "Name": "Stamm, Schmitt and Kuhn",
+    "TicketStatusId": 137,
+    "Name": "Daugherty, Ritchie and Braun",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": false,
-    "UsedInQueue": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldType": "System.String",
+        "FieldLength": 105
       }
     }
   }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Abshire-Heaney",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "Rank": 652,
+  "Id": 396,
+  "Name": "Runolfsson-Denesik",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 333,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Streich-Frami",
-  "Tooltip": "recusandae",
+  "Id": 342,
+  "Name": "Carroll Group",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 560,
-  "IsCustomList": false,
+  "Rank": 732,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 389
     }
   }
 }

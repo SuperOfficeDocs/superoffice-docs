@@ -15,6 +15,7 @@ Deletes all entities from a selection.
 
 
 If an entity does not have delete rights, it will be skipped.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/Selection/DeleteEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 495
+  "SelectionId": 709
 }
 ```
 

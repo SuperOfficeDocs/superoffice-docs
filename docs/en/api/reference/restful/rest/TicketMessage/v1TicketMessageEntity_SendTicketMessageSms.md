@@ -31,8 +31,8 @@ Send a message to recipients by sms
 | replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=sint,quibusdam
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=345
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=nobis,est
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=992
 ```
 
 
@@ -63,7 +63,7 @@ No Content
 POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

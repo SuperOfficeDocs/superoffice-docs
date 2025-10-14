@@ -15,6 +15,7 @@ Save new ticket and move/copy data from existing ticket in a single request.
 
 
 Specified messages will be moved.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -137,16 +138,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 550,
-  "SourceTicketEntityStatusId": 584,
-  "SourceTicketEntityActivate": "2006-06-30T11:24:48.7501308+02:00",
+  "SourceTicketEntityId": 980,
+  "SourceTicketEntityStatusId": 840,
+  "SourceTicketEntityActivate": "2023-03-01T03:40:48.0317361+01:00",
   "TransferMessageIds": [
-    51,
-    470
+    851,
+    393
   ],
   "NewTicketEntity": null
 }
@@ -159,21 +160,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 313,
-  "Title": "quo",
-  "CreatedAt": "2004-03-04T11:24:48.7501308+01:00",
-  "LastChanged": "2005-03-09T11:24:48.7501308+01:00",
-  "ReadByOwner": "2021-05-04T11:24:48.7501308+02:00",
-  "ReadByCustomer": "1999-10-11T11:24:48.7501308+02:00",
-  "FirstReadByOwner": "2013-05-27T11:24:48.7501308+02:00",
-  "FirstReadByUser": "2002-03-19T11:24:48.7501308+01:00",
-  "Activate": "2009-11-09T11:24:48.7501308+01:00",
-  "ClosedAt": "2013-10-17T11:24:48.7501308+02:00",
-  "RepliedAt": "2013-02-17T11:24:48.7501308+01:00",
-  "AlertTimeout": "2001-10-25T11:24:48.7501308+02:00",
-  "Deadline": "2017-01-12T11:24:48.7501308+01:00",
+  "TicketId": 198,
+  "Title": "illo",
+  "CreatedAt": "2018-10-31T03:40:48.0317361+01:00",
+  "LastChanged": "2007-11-26T03:40:48.0317361+01:00",
+  "ReadByOwner": "2003-05-19T03:40:48.0317361+02:00",
+  "ReadByCustomer": "2017-07-21T03:40:48.0317361+02:00",
+  "FirstReadByOwner": "2025-07-27T03:40:48.0317361+02:00",
+  "FirstReadByUser": "2001-10-31T03:40:48.0317361+01:00",
+  "Activate": "2025-08-10T03:40:48.0317361+02:00",
+  "ClosedAt": "2021-12-01T03:40:48.0317361+01:00",
+  "RepliedAt": "2023-11-30T03:40:48.0317361+01:00",
+  "AlertTimeout": "2024-02-07T03:40:48.0317361+01:00",
+  "Deadline": "2007-11-04T03:40:48.0317361+01:00",
   "CreatedBy": null,
-  "Author": "pariatur",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -184,163 +185,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sapiente",
-      "PersonId": 698,
-      "Mrmrs": "minus",
-      "Firstname": "Trinity",
-      "Lastname": "Mann",
-      "MiddleName": "VonRueden-Herzog",
-      "Title": "quibusdam",
-      "Description": "Face to face systemic software",
-      "Email": "jessy_douglas@johns.com",
-      "FullName": "Nellie Grant",
-      "DirectPhone": "1-172-280-6939",
-      "FormalName": "Wyman LLC",
-      "CountryId": 584,
-      "ContactId": 884,
-      "ContactName": "Rau, Kunze and Veum",
-      "Retired": 525,
-      "Rank": 528,
-      "ActiveInterests": 822,
+      "Position": "qui",
+      "PersonId": 827,
+      "Mrmrs": "nostrum",
+      "Firstname": "Nelle",
+      "Lastname": "Ullrich",
+      "MiddleName": "Wisozk Inc and Sons",
+      "Title": "dolorem",
+      "Description": "Switchable asynchronous task-force",
+      "Email": "chaim.schroeder@wintheiserrunolfsdottir.com",
+      "FullName": "Bernadette Hagenes",
+      "DirectPhone": "053-538-2058 x56378",
+      "FormalName": "Gleichner Group",
+      "CountryId": 858,
+      "ContactId": 247,
+      "ContactName": "Metz-McKenzie",
+      "Retired": 517,
+      "Rank": 500,
+      "ActiveInterests": 86,
       "ContactDepartment": "",
-      "ContactCountryId": 783,
-      "ContactOrgNr": "329513",
-      "FaxPhone": "028.101.8694",
-      "MobilePhone": "502.009.4933 x381",
-      "ContactPhone": "775-167-4359",
-      "AssociateName": "Zieme Inc and Sons",
-      "AssociateId": 835,
+      "ContactCountryId": 657,
+      "ContactOrgNr": "1363536",
+      "FaxPhone": "1-470-291-5735 x9912",
+      "MobilePhone": "1-057-254-6561 x06271",
+      "ContactPhone": "262-917-4703",
+      "AssociateName": "Davis-Schiller",
+      "AssociateId": 983,
       "UsePersonAddress": false,
-      "ContactFax": "non",
-      "Kanafname": "voluptatibus",
-      "Kanalname": "voluptates",
-      "Post1": "molestias",
-      "Post2": "veniam",
-      "Post3": "beatae",
-      "EmailName": "lupe_langworth@haaggibson.us",
-      "ContactFullName": "Prof. Willy Rosella Steuber",
-      "ActiveErpLinks": 904,
-      "TicketPriorityId": 2,
-      "SupportLanguageId": 886,
-      "SupportAssociateId": 881,
+      "ContactFax": "nesciunt",
+      "Kanafname": "aliquid",
+      "Kanalname": "culpa",
+      "Post1": "commodi",
+      "Post2": "et",
+      "Post3": "qui",
+      "EmailName": "josue@langoshrutherford.ca",
+      "ContactFullName": "Malika Ward",
+      "ActiveErpLinks": 805,
+      "TicketPriorityId": 826,
+      "SupportLanguageId": 114,
+      "SupportAssociateId": 132,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1374984",
+      "PersonNumber": "382473",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 482
         }
       }
     }
   ],
-  "AlertLevel": 338,
-  "ConnectId": 479,
+  "AlertLevel": 208,
+  "ConnectId": 600,
   "ReadStatus": "Green",
-  "TimeToReply": 115,
-  "RealTimeToReply": 980,
-  "TimeToClose": 373,
-  "RealTimeToClose": 861,
-  "TimeSpentInternally": 797,
-  "TimeSpentExternally": 198,
-  "TimeSpentQueue": 661,
-  "RealTimeSpentInternally": 386,
-  "RealTimeSpentExternally": 937,
-  "RealTimeSpentQueue": 947,
-  "TimeSpent": 626,
+  "TimeToReply": 50,
+  "RealTimeToReply": 208,
+  "TimeToClose": 30,
+  "RealTimeToClose": 545,
+  "TimeSpentInternally": 705,
+  "TimeSpentExternally": 514,
+  "TimeSpentQueue": 827,
+  "RealTimeSpentInternally": 373,
+  "RealTimeSpentExternally": 561,
+  "RealTimeSpentQueue": 391,
+  "TimeSpent": 159,
   "HasAttachment": false,
-  "NumReplies": 222,
-  "NumMessages": 783,
-  "FromAddress": "minima",
+  "NumReplies": 281,
+  "NumMessages": 904,
+  "FromAddress": "aut",
   "Messages": [
     {
-      "TicketMessageId": 318,
-      "CreatedAt": "2000-11-04T11:24:48.7657551+01:00",
+      "TicketMessageId": 829,
+      "CreatedAt": "2009-02-24T03:40:48.0317361+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "porro",
-      "PersonId": 707,
-      "PersonFullName": "Dr. Danial Cristal Schumm",
-      "ContactId": 254,
-      "ContactName": "Stroman LLC",
+      "Important": true,
+      "Author": "atque",
+      "PersonId": 574,
+      "PersonFullName": "Silas Marvin",
+      "ContactId": 90,
+      "ContactName": "Blick-Will",
       "ContactDepartment": "",
-      "NumAttachments": 15,
-      "EmailHeader": "frank@kulasstanton.name",
+      "NumAttachments": 593,
+      "EmailHeader": "jaime_stokes@hamill.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "labore",
-      "Sentiment": 783,
-      "SentimentConfidence": 967,
-      "CreatedBy": 958,
-      "ChangedAt": "2014-08-02T11:24:48.7657551+02:00",
+      "Language": "a",
+      "Sentiment": 260,
+      "SentimentConfidence": 404,
+      "CreatedBy": 97,
+      "ChangedAt": "2000-11-15T03:40:48.0317361+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 835
+          "FieldType": "System.Int32",
+          "FieldLength": 406
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 241,
-      "Name": "Zieme-Abbott",
-      "ToolTip": "Commodi ut.",
+      "Id": 901,
+      "Name": "Yundt, O'Connell and Kohler",
+      "ToolTip": "Delectus et et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldLength": 265
         }
       }
     },
     {
-      "Id": 241,
-      "Name": "Zieme-Abbott",
-      "ToolTip": "Commodi ut.",
+      "Id": 901,
+      "Name": "Yundt, O'Connell and Kohler",
+      "ToolTip": "Delectus et et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldLength": 265
         }
       }
     }
   ],
-  "Language": "omnis",
-  "Sentiment": 807,
-  "SentimentConfidence": 605,
-  "SuggestedCategoryId": 446,
+  "Language": "saepe",
+  "Sentiment": 104,
+  "SentimentConfidence": 929,
+  "SuggestedCategoryId": 973,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 586,
-  "IconHint": "ut",
+  "OrigHumanCategoryId": 447,
+  "IconHint": "enim",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 976,
+  "ActiveStatusMonitorId": 506,
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "beatae"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

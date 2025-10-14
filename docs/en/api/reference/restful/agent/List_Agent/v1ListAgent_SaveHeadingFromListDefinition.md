@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Save new heading for list resolved by the provided id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
+  "Id": 319,
   "Entity": null
 }
 ```
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 387,
-  "Name": "Schmitt, Stokes and Littel",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 397,
-  "UdListDefinitionId": 675,
+  "HeadingId": 670,
+  "Name": "Batz, Green and Dicki",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 292,
+  "UdListDefinitionId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 537
     }
   }
 }

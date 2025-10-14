@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Haag-Ankunding",
-    "ToolTip": "Et sint aperiam.",
+    "Id": 203,
+    "Name": "Runolfsdottir Group",
+    "ToolTip": "Velit nemo ut soluta dignissimos dolores.",
     "Deleted": false,
-    "Rank": 498,
-    "Type": "repudiandae",
-    "ColorBlock": 50,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2015-11-09T11:24:53.9374193+01:00",
+    "Rank": 751,
+    "Type": "cum",
+    "ColorBlock": 489,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2002-01-18T03:40:56.8369839+01:00",
     "ChildItems": [
       {
-        "Id": 289,
-        "Name": "Bednar-Blanda",
-        "ToolTip": "Et temporibus sed.",
+        "Id": 624,
+        "Name": "Tremblay-Durgan",
+        "ToolTip": "Doloremque quis odit nihil recusandae occaecati.",
         "Deleted": true,
-        "Rank": 56,
-        "Type": "odit",
-        "ColorBlock": 2,
-        "IconHint": "accusamus",
+        "Rank": 596,
+        "Type": "nihil",
+        "ColorBlock": 956,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2020-06-12T11:24:53.9374193+02:00",
+        "LastChanged": "2009-07-16T03:40:56.8369839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "architecto",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Johanna Little"
+        "FullName": "Rosa Dion Emard DDS"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "harum",
+    "ExtraInfo": "qui",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Thora Price"
+    "FullName": "Rodger Jast"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Stroman, Wilkinson and Becker",
-    "ToolTip": "Explicabo enim eum quos sed quia fugit aliquid.",
+    "Id": 534,
+    "Name": "Goldner-Marquardt",
+    "ToolTip": "Et eius ipsa.",
     "Deleted": false,
-    "Rank": 189,
-    "Type": "accusamus",
-    "ColorBlock": 119,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2008-03-22T11:24:53.9374193+01:00",
+    "Rank": 956,
+    "Type": "sed",
+    "ColorBlock": 898,
+    "IconHint": "vitae",
+    "Selected": false,
+    "LastChanged": "2004-07-30T03:40:56.8369839+02:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Mante, Considine and Pollich",
-        "ToolTip": "Maxime deserunt repellat rerum.",
-        "Deleted": false,
-        "Rank": 119,
-        "Type": "sint",
-        "ColorBlock": 511,
-        "IconHint": "est",
+        "Id": 754,
+        "Name": "Beer-Wisozk",
+        "ToolTip": "Similique autem.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "ab",
+        "ColorBlock": 686,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2014-08-10T11:24:53.9374193+02:00",
+        "LastChanged": "2018-07-28T03:40:56.8369839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "similique",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Dr. Kaylin Lubowitz DDS",
+        "FullName": "Gavin Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "exercitationem",
-    "Hidden": false,
-    "FullName": "Mr. Garett Johnson DVM",
+    "ExtraInfo": "optio",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Miss Cordelia Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 937
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetLicenseFromFile
 Load a new license from file
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "qui"
+  "FileContent": "possimus"
 }
 ```
 
@@ -93,21 +95,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 794,
-      "NumberOfLicensesFree": 519,
-      "NumberOfLicensesAdded": 240,
-      "NumberOfLicensesNewTotal": 996,
-      "NumberOfLicensesNewFree": 898,
-      "NumberOfLicensesTotal": 728
+      "NumberOfLicensesInUse": 946,
+      "NumberOfLicensesFree": 742,
+      "NumberOfLicensesAdded": 643,
+      "NumberOfLicensesNewTotal": 318,
+      "NumberOfLicensesNewFree": 206,
+      "NumberOfLicensesTotal": 499
     }
   ],
-  "AccumulatedNextCheckDate": "2020-10-29T11:24:48.1720293+01:00"
+  "AccumulatedNextCheckDate": "2015-03-23T03:40:47.0155393+01:00"
 }
 ```

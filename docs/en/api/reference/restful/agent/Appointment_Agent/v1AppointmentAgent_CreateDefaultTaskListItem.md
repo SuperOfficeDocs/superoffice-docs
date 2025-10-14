@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Loading default values into a new TaskListItem.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 117,
-  "Value": "dolores",
+  "TaskListItemId": 210,
+  "Value": "animi",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "est",
-  "Deleted": false,
-  "IntentId": 493,
-  "Rank": 243,
+  "Tooltip": "illum",
+  "Deleted": true,
+  "IntentId": 370,
+  "Rank": 540,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -95,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

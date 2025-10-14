@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetConsentPerson
 Gets a ConsentPerson object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ConsentPerson object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=202
+POST /api/v1/Agents/Person/GetConsentPerson?consentPersonId=433
 POST /api/v1/Agents/Person/GetConsentPerson?$select=name,department,category/id
 ```
 
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 321,
+  "ConsentPersonId": 786,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 361,
+  "PersonId": 519,
   "ConsentPurpose": null,
-  "Comment": "ipsa",
+  "Comment": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

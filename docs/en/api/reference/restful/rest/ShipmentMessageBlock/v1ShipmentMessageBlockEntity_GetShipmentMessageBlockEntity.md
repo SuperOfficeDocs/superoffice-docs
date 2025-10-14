@@ -15,6 +15,7 @@ Gets a ShipmentMessageBlockEntity object.
 
 
 Calls the Marketing agent service GetShipmentMessageBlockEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,20 +92,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 601,
-  "AssociateId": 836,
-  "Block": "neque",
-  "Registered": "2007-12-09T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 609,
-  "Updated": "2021-07-01T11:24:53.5780588+02:00",
-  "UpdatedAssociateId": 589,
-  "UpdatedCount": 836,
+  "ShipmentMessageBlockId": 889,
+  "AssociateId": 46,
+  "Block": "ad",
+  "Registered": "2015-01-04T03:40:56.2422072+01:00",
+  "RegisteredAssociateId": 463,
+  "Updated": "2018-01-24T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 543,
+  "UpdatedCount": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldLength": 882
     }
   },
   "_Links": {

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 127,
-  "StartTime": "2000-12-12T11:24:47.2970652+01:00",
-  "EndTime": "2023-11-28T11:24:47.2970652+01:00",
-  "Count": 925,
-  "TaskId": 920
+  "ContactId": 360,
+  "StartTime": "2021-08-13T03:40:45.60749+02:00",
+  "EndTime": "2009-09-24T03:40:45.60749+02:00",
+  "Count": 891,
+  "TaskId": 143
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 688,
-    "StartDate": "2015-06-05T11:24:47.2970652+02:00",
-    "EndDate": "2021-10-14T11:24:47.2970652+02:00",
+    "AppointmentId": 5,
+    "StartDate": "2009-07-03T03:40:45.60749+02:00",
+    "EndDate": "2009-09-30T03:40:45.60749+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Agustin Schaden I",
-    "ContactName": "Bernhard-Considine",
-    "Description": "Cross-group interactive architecture",
-    "PersonFullName": "Mr. Kelley Wendy Ortiz MD",
-    "PersonId": 907,
-    "ContactId": 539,
-    "ProjectId": 55,
-    "ProjectName": "Howe-Doyle",
-    "IsPublished": true,
-    "AssociateId": 306,
-    "ColorIndex": 427,
+    "Task": "itaque",
+    "AssociateFullName": "Retta O'Conner",
+    "ContactName": "Jewess-Will",
+    "Description": "Fundamental 6th generation pricing structure",
+    "PersonFullName": "Aylin Beahan",
+    "PersonId": 945,
+    "ContactId": 256,
+    "ProjectId": 4,
+    "ProjectName": "Sporer, Abbott and Mohr",
+    "IsPublished": false,
+    "AssociateId": 439,
+    "ColorIndex": 858,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 802,
-    "PriorityName": "Dickens-Bergstrom",
+    "PriorityId": 992,
+    "PriorityName": "Block-Kirlin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-05-23T11:24:47.2970652+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2006-03-13T03:40:45.60749+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-02-01T11:24:47.2970652+01:00",
-    "RecurringEndDate": "2006-12-13T11:24:47.2970652+01:00",
-    "MotherId": 709,
-    "AssignedBy": 831,
-    "AssignedByFullName": "Rosalind Cormier",
+    "RecurringStartDate": "2018-06-24T03:40:45.60749+02:00",
+    "RecurringEndDate": "2014-04-02T03:40:45.60749+02:00",
+    "MotherId": 232,
+    "AssignedBy": 206,
+    "AssignedByFullName": "Nola Hackett",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "totam",
-    "SaleId": 704,
-    "SaleName": "Little-Monahan",
-    "AssociateName": "Will, Mante and Zemlak",
-    "CreatedDate": "2001-07-26T11:24:47.2970652+02:00",
-    "CreatedBy": "quod",
-    "CreatedByFullName": "Angelica Heathcote",
-    "CreatedByAssociateId": 931,
+    "Location": "deserunt",
+    "AlarmLeadTime": "cumque",
+    "SaleId": 616,
+    "SaleName": "Grimes Inc and Sons",
+    "AssociateName": "Mitchell-Ward",
+    "CreatedDate": "2000-01-07T03:40:45.60749+01:00",
+    "CreatedBy": "perferendis",
+    "CreatedByFullName": "Mr. Michael Ratke",
+    "CreatedByAssociateId": 657,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 723,
+    "MotherAssociateId": 955,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 374,
-    "Title": "maxime",
-    "Agenda": "consequatur",
-    "InternalNotes": "dicta",
+    "PreferredTZLocation": 845,
+    "Title": "sed",
+    "Agenda": "sint",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

@@ -26,7 +26,7 @@ Gets all the ReasonStalled items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items?includeDeleted=False
+GET /api/v1/List/ReasonStalled/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 88,
-    "Rank": 968,
+    "Id": 261,
+    "Name": "Rogahn LLC",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "UdListDefinitionId": 324,
+    "Rank": 205,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 515
+        "FieldLength": 402
       }
     }
   }

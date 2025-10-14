@@ -15,6 +15,7 @@ Get a list of all data rights for the given role, filtered by relation to owner.
 
 
 MDO List name = 'DataRights', extra='roleType=0'.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -79,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 800,
+  "RoleId": 902,
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatibus",
-  "2": "doloribus"
+  "1": "sit",
+  "2": "cumque"
 }
 ```

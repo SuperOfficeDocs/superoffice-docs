@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCompetitorList
 Gets an array of Competitor objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetCompetitorList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Value": "vitae",
-    "Tooltip": "nostrum",
+    "Id": 392,
+    "Value": "animi",
+    "Tooltip": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 751
       }
     }
   },
   {
-    "Id": 873,
-    "Value": "vitae",
-    "Tooltip": "nostrum",
+    "Id": 392,
+    "Value": "animi",
+    "Tooltip": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 751
       }
     }
   }

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. If the logged on user is not allowed to view this contacts appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 399,
-  "StartTime": "2004-01-26T11:24:47.2814408+01:00",
-  "EndTime": "2025-04-15T11:24:47.2814408+02:00",
-  "Count": 197,
+  "ContactId": 60,
+  "StartTime": "2002-10-18T03:40:45.5918644+02:00",
+  "EndTime": "2010-03-30T03:40:45.5918644+02:00",
+  "Count": 538,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 250,
-    "StartDate": "2006-07-13T11:24:47.2814408+02:00",
-    "EndDate": "2003-11-10T11:24:47.2814408+01:00",
+    "AppointmentId": 344,
+    "StartDate": "2020-07-17T03:40:45.5918644+02:00",
+    "EndDate": "2007-09-30T03:40:45.5918644+02:00",
     "Type": "BookingForChecklist",
-    "Task": "amet",
-    "AssociateFullName": "Garett Dickinson DVM",
-    "ContactName": "Mante, Dooley and Kulas",
-    "Description": "Down-sized optimal ability",
-    "PersonFullName": "Prof. Valerie Bradly Borer",
-    "PersonId": 101,
-    "ContactId": 401,
-    "ProjectId": 999,
-    "ProjectName": "Cummings LLC",
+    "Task": "itaque",
+    "AssociateFullName": "Prof. Blanca Dickinson IV",
+    "ContactName": "Lynch Group",
+    "Description": "Multi-channelled client-driven attitude",
+    "PersonFullName": "Greta Schinner",
+    "PersonId": 696,
+    "ContactId": 404,
+    "ProjectId": 230,
+    "ProjectName": "Torp, Roob and Jaskolski",
     "IsPublished": false,
-    "AssociateId": 548,
-    "ColorIndex": 837,
-    "IsFree": true,
+    "AssociateId": 376,
+    "ColorIndex": 631,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 358,
-    "PriorityName": "Zieme, Gleason and Gleichner",
+    "PriorityId": 485,
+    "PriorityName": "Bergnaum LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2000-10-07T11:24:47.2814408+02:00",
+    "ActiveDate": "2025-03-18T03:40:45.5918644+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-02-17T11:24:47.2814408+01:00",
-    "RecurringEndDate": "2022-11-10T11:24:47.2814408+01:00",
-    "MotherId": 602,
-    "AssignedBy": 152,
-    "AssignedByFullName": "Mervin Abshire",
+    "RecurringStartDate": "2013-09-27T03:40:45.5918644+02:00",
+    "RecurringEndDate": "2013-10-28T03:40:45.5918644+01:00",
+    "MotherId": 153,
+    "AssignedBy": 604,
+    "AssignedByFullName": "Vince Pouros",
     "RejectReason": "",
-    "Location": "ducimus",
-    "AlarmLeadTime": "placeat",
-    "SaleId": 401,
-    "SaleName": "Quigley, Cummerata and Goldner",
-    "AssociateName": "Kertzmann, Dooley and Rice",
-    "CreatedDate": "2002-11-07T11:24:47.2814408+01:00",
-    "CreatedBy": "itaque",
-    "CreatedByFullName": "Dr. Laron Lind",
-    "CreatedByAssociateId": 401,
+    "Location": "totam",
+    "AlarmLeadTime": "at",
+    "SaleId": 333,
+    "SaleName": "Nitzsche Group",
+    "AssociateName": "Fisher Group",
+    "CreatedDate": "2018-06-05T03:40:45.5918644+02:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Dante Jonathon Strosin I",
+    "CreatedByAssociateId": 814,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 19,
+    "MotherAssociateId": 885,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 585,
-    "Title": "similique",
-    "Agenda": "id",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 957,
+    "Title": "officiis",
+    "Agenda": "vel",
+    "InternalNotes": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 729
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

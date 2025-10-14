@@ -73,7 +73,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weber-Jacobs",
-  "DisplayName": "Auer, Bradtke and Thompson",
-  "Description": "Mandatory client-driven data-warehouse",
-  "ShortLabel": "sed",
+  "FieldName": "Parker Inc and Sons",
+  "DisplayName": "Hauck, Weber and Gusikowski",
+  "Description": "Sharable exuding standardization",
+  "ShortLabel": "quaerat",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 446,
-  "TemplateVariableName": "Schulist-Green"
+  "Rank": 85,
+  "TemplateVariableName": "Miller, Witting and Gaylord"
 }
 ```

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -100,16 +101,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 958,
+  "PersonId": 83,
   "IncludeProjectDocuments": false,
-  "StartTime": "2022-10-01T11:24:47.9376639+02:00",
-  "EndTime": "2019-07-17T11:24:47.9376639+02:00",
-  "Count": 142,
-  "DocumentTemplateId": 987
+  "StartTime": "2018-06-16T03:40:46.6092641+02:00",
+  "EndTime": "2017-07-11T03:40:46.6092641+02:00",
+  "Count": 171,
+  "DocumentTemplateId": 715
 }
 ```
 
@@ -121,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 403,
-    "Attention": "qui",
-    "Header": "distinctio",
-    "Name": "Williamson, King and Sporer",
-    "OurRef": "a",
-    "YourRef": "porro",
-    "Description": "Compatible full-range data-warehouse",
+    "DocumentId": 809,
+    "Attention": "architecto",
+    "Header": "quia",
+    "Name": "Luettgen-Kertzmann",
+    "OurRef": "dolor",
+    "YourRef": "non",
+    "Description": "Exclusive reciprocal protocol",
     "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 727,
-    "PersonFullName": "Daija Luettgen",
-    "AssociateFullName": "Weston Walker",
-    "ContactId": 737,
-    "ContactName": "Hoppe-Howe",
-    "ProjectId": 33,
-    "ProjectName": "Grant Inc and Sons",
-    "AssociateId": 483,
-    "Snum": 650,
-    "SaleId": 871,
-    "SaleName": "Stoltenberg-Wunsch",
+    "PersonId": 878,
+    "PersonFullName": "Daren Dickinson",
+    "AssociateFullName": "Coy Waters",
+    "ContactId": 345,
+    "ContactName": "Hegmann Group",
+    "ProjectId": 288,
+    "ProjectName": "Strosin-Denesik",
+    "AssociateId": 997,
+    "Snum": 487,
+    "SaleId": 146,
+    "SaleName": "Mann-Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldType": "System.Int32",
+        "FieldLength": 979
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Gets a CustomerCenterConfig object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=446
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=941
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,20 +87,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 327,
+  "CustConfigId": 980,
   "Type": "Options",
-  "Config": "omnis",
-  "CustLangId": 741,
-  "Registered": "2013-06-20T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 598,
-  "Updated": "2013-10-14T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 780,
+  "Config": "doloremque",
+  "CustLangId": 518,
+  "Registered": "2022-05-17T03:40:46.5468616+02:00",
+  "RegisteredAssociateId": 334,
+  "Updated": "2017-10-21T03:40:46.5468616+02:00",
+  "UpdatedAssociateId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 261
     }
   }
 }

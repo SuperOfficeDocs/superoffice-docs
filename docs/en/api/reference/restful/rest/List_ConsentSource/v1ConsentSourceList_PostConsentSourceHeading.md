@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 595,
-  "Name": "Roob, O'Conner and Hayes",
-  "Tooltip": "alias",
+  "HeadingId": 874,
+  "Name": "Pfeffer Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 966,
-  "UdListDefinitionId": 569
+  "Rank": 916,
+  "UdListDefinitionId": 172
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 933,
-  "Name": "Yost-Hudson",
-  "Tooltip": "accusamus",
+  "HeadingId": 579,
+  "Name": "Feeney Group",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 70,
-  "UdListDefinitionId": 562,
+  "Rank": 420,
+  "UdListDefinitionId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

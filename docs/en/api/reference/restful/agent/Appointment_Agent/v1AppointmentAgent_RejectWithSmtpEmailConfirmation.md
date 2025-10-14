@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation
 Rejecting an appointment invitation and send an email confirmation to the meeting organizer.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,11 +70,11 @@ No Content
 POST /api/v1/Agents/Appointment/RejectWithSmtpEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 2,
+  "AppointmentId": 137,
   "RejectReason": "",
   "UpdateMode": "OnlyThis",
   "SmtpEMailConnectionInfo": null

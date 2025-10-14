@@ -607,6 +607,8 @@ items:
   href: publish.md
 - name: PushNotificationService
   href: pushnotificationservice.md
+- name: quick_filter_info
+  href: quick-filter-info.md
 - name: quick_reply
   href: quick-reply.md
 - name: Quote
@@ -953,6 +955,8 @@ items:
   href: ticket-type-priority.md
 - name: ticket_type_status
   href: ticket-type-status.md
+- name: time_keeping
+  href: time-keeping.md
 - name: timestamps
   href: timestamps.md
 - name: travelcurrent
@@ -1325,6 +1329,8 @@ items:
     href: enums/ticketsecuritylevel.md
   - name: TicketStatusTimeCounter
     href: enums/ticketstatustimecounter.md
+  - name: TimeKeepingType
+    href: enums/timekeepingtype.md
   - name: TravelEncryptionChild
     href: enums/travelencryptionchild.md
   - name: TravelEncryptionOwn

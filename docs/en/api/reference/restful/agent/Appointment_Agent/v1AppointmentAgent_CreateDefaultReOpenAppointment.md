@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 A re-open appointment should be created as a reminder to re-open the sale at a certain date with information regarding the stalled sale.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,11 +135,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 903
+  "SaleId": 911
 }
 ```
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-03-24T11:24:47.4845619+01:00",
-  "AppointmentId": 605,
-  "Description": "Cloned dedicated contingency",
-  "Title": "assumenda",
-  "Agenda": "et",
-  "InternalNotes": "aut",
-  "StartDate": "2015-12-03T11:24:47.4845619+01:00",
-  "EndDate": "2010-10-18T11:24:47.4845619+02:00",
+  "CreatedDate": "2002-07-10T03:40:45.9825998+02:00",
+  "AppointmentId": 728,
+  "Description": "Organic background firmware",
+  "Title": "fugit",
+  "Agenda": "quo",
+  "InternalNotes": "aperiam",
+  "StartDate": "2014-03-25T03:40:45.9825998+01:00",
+  "EndDate": "2003-12-28T03:40:45.9825998+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 837,
+  "MotherId": 220,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-06-04T11:24:47.5470549+02:00",
+  "UpdatedDate": "2011-08-08T03:40:45.9825998+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 843,
+  "ActiveLinks": 997,
   "Links": [
     {
-      "EntityName": "Feest-Rohan",
-      "Id": 268,
-      "Description": "Ameliorated context-sensitive customer loyalty",
-      "ExtraInfo": "ut",
-      "LinkId": 382,
+      "EntityName": "Parker-Smitham",
+      "Id": 872,
+      "Description": "Universal demand-driven software",
+      "ExtraInfo": "soluta",
+      "LinkId": 423,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 59
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "aliquid",
   "HasAlarm": false,
-  "ColorIndex": 677,
+  "ColorIndex": 702,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "incidunt",
-  "LeadTime": "et",
-  "Location": "eum",
-  "RejectCounter": 396,
+  "LagTime": "id",
+  "LeadTime": "doloremque",
+  "Location": "dicta",
+  "RejectCounter": 637,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 78,
-      "PersonId": 968,
-      "ContactId": 597,
-      "EmailId": 179,
+      "AssociateId": 571,
+      "PersonId": 645,
+      "ContactId": 590,
+      "EmailId": 799,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "velda@ullrichwelch.us",
-      "Description": "Reduced neutral utilisation"
+      "EmailAddress": "leopold_stokes@grimes.co.uk",
+      "Description": "Phased solution-oriented array"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-06-11T11:24:47.5470549+02:00",
+  "ActiveDate": "2017-06-23T03:40:45.9825998+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 371,
+  "PreferredTZLocation": 125,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 875,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 117,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quasi",
+  "CentralserviceVideomeetId": "fuga",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cade Stroman",
-    "SuperOffice:2": "1272543622"
+    "SuperOffice:1": "Kailee Luettgen II",
+    "SuperOffice:2": "Salvador Kertzmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2012-07-21T11:24:47.5470549+02:00",
-  "PublishTo": "2001-04-20T11:24:47.5470549+02:00",
-  "PublishFrom": "2016-04-11T11:24:47.5470549+02:00",
+  "PublishEventDate": "2025-09-24T03:40:45.9825998+02:00",
+  "PublishTo": "2007-11-30T03:40:45.9825998+01:00",
+  "PublishFrom": "2001-12-26T03:40:45.9825998+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 959,
+      "VisibleId": 453,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     },
     {
-      "VisibleId": 959,
+      "VisibleId": 453,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 173
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     }
@@ -275,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

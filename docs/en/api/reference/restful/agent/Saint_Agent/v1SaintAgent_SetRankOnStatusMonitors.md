@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Set rank order on status monitors
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,10 +72,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nemo",
+  "Type": "ex",
   "ItemsIds": [
-    582,
-    666
+    703,
+    389
   ]
 }
 ```

@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 348,
-  "Name": "Witting Group",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 618,
+  "Id": 967,
+  "Name": "Paucek-Hegmann",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 742,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Bahringer Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 100,
+  "Name": "Smitham Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 49,
-  "IsCustomList": true,
+  "Rank": 743,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   }
 }

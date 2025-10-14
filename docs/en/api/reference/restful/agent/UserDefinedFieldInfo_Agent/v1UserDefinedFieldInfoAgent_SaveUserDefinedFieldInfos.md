@@ -15,6 +15,7 @@ Save an array of user defined fields.
 
 
 This will update the unpublished layout.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,46 +68,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 544,
-      "ColumnId": 966,
-      "FieldDefault": "quae",
-      "FieldHeight": 211,
-      "FieldLabel": "cumque",
-      "FieldLeft": 466,
-      "FieldTop": 516,
+      "UDefFieldId": 480,
+      "ColumnId": 245,
+      "FieldDefault": "hic",
+      "FieldHeight": 231,
+      "FieldLabel": "minus",
+      "FieldLeft": 111,
+      "FieldTop": 310,
       "FieldType": "Checkbox",
-      "FieldWidth": 992,
-      "FormatMask": "illum",
-      "HideLabel": true,
+      "FieldWidth": 577,
+      "FormatMask": "enim",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 693,
-      "LabelLeft": 11,
-      "LabelTop": 783,
-      "LabelWidth": 848,
-      "LastVersionId": 746,
-      "ListTableId": 525,
-      "IsMandatory": false,
+      "LabelHeight": 482,
+      "LabelLeft": 454,
+      "LabelTop": 517,
+      "LabelWidth": 295,
+      "LastVersionId": 40,
+      "ListTableId": 794,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 857,
-      "ProgId": "nihil",
+      "Page1LineNo": 391,
+      "ProgId": "placeat",
       "IsReadOnly": false,
-      "ShortLabel": "consectetur",
-      "TabOrder": 982,
-      "TextLength": 592,
-      "Tooltip": "voluptatem",
-      "UdefIdentity": 1000,
-      "UDListDefinitionId": 235,
+      "ShortLabel": "aut",
+      "TabOrder": 163,
+      "TextLength": 345,
+      "Tooltip": "quo",
+      "UdefIdentity": 226,
+      "UDListDefinitionId": 774,
       "Justification": "Center",
-      "Version": 149,
-      "TemplateVariableName": "Hilll Group",
+      "Version": 363,
+      "TemplateVariableName": "Adams-McClure",
       "HasBeenPublished": false,
-      "MdoListName": "Block-Stoltenberg"
+      "MdoListName": "West, Altenwerth and Runte"
     }
   ]
 }

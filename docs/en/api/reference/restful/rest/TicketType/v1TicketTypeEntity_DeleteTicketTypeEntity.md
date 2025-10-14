@@ -15,6 +15,7 @@ Deletes the TicketTypeEntity
 
 
 Calls the List agent service DeleteTicketTypeEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ TicketTypeEntity deleted.
 DELETE /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

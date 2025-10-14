@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Kling-Von",
-  "Tooltip": "et",
+  "Id": 886,
+  "Name": "Homenick-Hilll",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "UdListDefinitionId": 816,
-  "Rank": 975,
+  "UdListDefinitionId": 639,
+  "Rank": 643,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 410
     }
   }
 }

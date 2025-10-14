@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Kerluke, McLaughlin and Rice",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 837,
+    "HeadingId": 996,
+    "Name": "Romaguera Inc and Sons",
+    "Tooltip": "dicta",
+    "Deleted": true,
+    "Rank": 764,
+    "UdListDefinitionId": 343,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 731
       }
     }
   }

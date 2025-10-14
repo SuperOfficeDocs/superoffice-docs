@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetDuplicates
 Get duplicates(exact or similar in the database) based on the name
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi LLC"
+  "Name": "Smitham-Spencer"
 }
 ```
 
@@ -94,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Abshire Group",
-    "SoPrimaryKey": 730,
-    "EntryName": "Hayes, Kunze and Stamm",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Bartoletti, Lesch and Morar",
+    "RuleName": "Lindgren-Gerhold",
+    "SoPrimaryKey": 652,
+    "EntryName": "Wyman-Gerlach",
+    "EntryIdentifier": "quis",
+    "RuleDisplayName": "Ziemann-Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 825
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Loading default values into a new SaleTypeEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,53 +89,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 654,
-  "Name": "Reinger Inc and Sons",
-  "Tooltip": "ut",
-  "Rank": 772,
+  "SaleTypeId": 284,
+  "Name": "Huels-Bradtke",
+  "Tooltip": "quis",
+  "Rank": 124,
   "DurationUnit": "Century",
-  "SaleDuration": 90,
-  "SaleTypeCatId": 765,
+  "SaleDuration": 524,
+  "SaleTypeCatId": 734,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 245,
-  "QuoteLinesTemplate": 214,
-  "ConfirmationLinesTemplate": 88,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 618,
+  "QuoteLinesTemplate": 248,
+  "ConfirmationLinesTemplate": 114,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 892,
-  "MinEarningPercent": 645,
-  "GroupQuoteLinesBy": 7,
-  "SortGroupLinesBy": 260,
+  "MaxDiscountPercent": 201,
+  "MinEarningPercent": 855,
+  "GroupQuoteLinesBy": 892,
+  "SortGroupLinesBy": 423,
   "Stages": [
     {
-      "Id": 211,
-      "Name": "Metz, Boyer and Hegmann",
-      "ToolTip": "Commodi minima.",
+      "Id": 550,
+      "Name": "Wolff-Wilderman",
+      "ToolTip": "Ut sequi velit et praesentium.",
       "Deleted": false,
-      "Rank": 450,
-      "Type": "porro",
-      "ColorBlock": 647,
-      "IconHint": "nulla",
+      "Rank": 627,
+      "Type": "ut",
+      "ColorBlock": 609,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2019-07-22T11:24:48.2032781+02:00",
+      "LastChanged": "2007-01-20T03:40:47.0780355+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nisi",
-      "StyleHint": "asperiores",
-      "Hidden": true,
-      "FullName": "Leann Nienow",
+      "ExtraInfo": "molestias",
+      "StyleHint": "sunt",
+      "Hidden": false,
+      "FullName": "Prof. Leif Jessica Vandervort",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldType": "System.String",
+          "FieldLength": 178
         }
       }
     }
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

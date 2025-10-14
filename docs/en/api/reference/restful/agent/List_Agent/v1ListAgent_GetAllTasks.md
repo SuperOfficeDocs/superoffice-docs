@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllTasks
 Returns all appointment tasks
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -102,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 599,
-    "Value": "et",
+    "TaskListItemId": 849,
+    "Value": "dolor",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "sequi",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "IntentId": 51,
-    "Rank": 422,
+    "IntentId": 511,
+    "Rank": 747,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
-    "IsDefaultPublished": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldType": "System.String",
+        "FieldLength": 782
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Legros, Fadel and Rempel",
-    "Tooltip": "doloribus",
-    "Deleted": true,
-    "UdListDefinitionId": 994,
-    "Rank": 977,
+    "Id": 791,
+    "Name": "Bauch Inc and Sons",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "UdListDefinitionId": 246,
+    "Rank": 348,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 166
       }
     }
   }

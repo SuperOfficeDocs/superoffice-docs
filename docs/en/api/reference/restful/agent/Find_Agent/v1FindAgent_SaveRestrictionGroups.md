@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups
 Save and rerank an array of restriction groups, returning the possibly modified array.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,34 +81,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aspernatur",
-  "ProviderName": "Block-Brakus",
-  "StorageKey": "doloribus",
+  "StorageType": "necessitatibus",
+  "ProviderName": "Wilkinson Group",
+  "StorageKey": "non",
   "RestrictionGroups": [
     {
-      "Name": "Pacocha-Oberbrunner",
-      "Description": "Operative zero tolerance pricing structure",
-      "Rank": 69,
+      "Name": "Bruen, Effertz and Padberg",
+      "Description": "Quality-focused disintermediate focus group",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Pacocha-Oberbrunner",
-      "Description": "Operative zero tolerance pricing structure",
-      "Rank": 69,
+      "Name": "Bruen, Effertz and Padberg",
+      "Description": "Quality-focused disintermediate focus group",
+      "Rank": 329,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "eius"
+  "Context": "consequatur"
 }
 ```
 
@@ -118,20 +120,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Eichmann, Lynch and Grady",
-    "Description": "Compatible optimal capacity",
-    "Rank": 739,
+    "Name": "Fay, Gaylord and Hilll",
+    "Description": "Progressive assymetric service-desk",
+    "Rank": 164,
     "Restrictions": [
       {
-        "Name": "Zulauf-Herzog",
-        "Operator": "corrupti",
+        "Name": "Davis-Lockman",
+        "Operator": "maxime",
         "Values": [
-          "quia",
+          "sed",
           "eaque"
         ],
         "DisplayValues": [
-          "quia",
-          "quibusdam"
+          "doloribus",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -139,27 +141,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 919,
+        "InterParenthesis": 483,
         "InterOperator": "And",
-        "UniqueHash": 126
+        "UniqueHash": 514
       }
     ]
   },
   {
-    "Name": "Eichmann, Lynch and Grady",
-    "Description": "Compatible optimal capacity",
-    "Rank": 739,
+    "Name": "Fay, Gaylord and Hilll",
+    "Description": "Progressive assymetric service-desk",
+    "Rank": 164,
     "Restrictions": [
       {
-        "Name": "Zulauf-Herzog",
-        "Operator": "corrupti",
+        "Name": "Davis-Lockman",
+        "Operator": "maxime",
         "Values": [
-          "quia",
+          "sed",
           "eaque"
         ],
         "DisplayValues": [
-          "quia",
-          "quibusdam"
+          "doloribus",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -167,9 +169,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 919,
+        "InterParenthesis": 483,
         "InterOperator": "And",
-        "UniqueHash": 126
+        "UniqueHash": 514
       }
     ]
   }

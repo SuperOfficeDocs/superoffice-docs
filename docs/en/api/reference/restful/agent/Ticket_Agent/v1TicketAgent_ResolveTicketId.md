@@ -15,6 +15,7 @@ Ticket can be connected (merged) to another ticket.
 
 
 This method traverses through its connection(s) and returns proper ticketId
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 925
+  "TicketId": 918
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-653
+918
 ```

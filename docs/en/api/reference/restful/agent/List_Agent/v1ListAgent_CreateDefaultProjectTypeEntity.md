@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Loading default values into a new ProjectTypeEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,41 +77,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 126,
-  "Name": "Huel-Runolfsdottir",
-  "Tooltip": "accusantium",
-  "Rank": 36,
+  "ProjTypeId": 573,
+  "Name": "Keeling-Jakubowski",
+  "Tooltip": "quo",
+  "Rank": 621,
   "DurationUnit": "Century",
-  "ProjectDuration": 673,
-  "Deleted": false,
+  "ProjectDuration": 303,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 179,
-      "Name": "Luettgen-Spinka",
-      "ToolTip": "Occaecati dicta ipsa quo et tempore delectus.",
+      "Id": 848,
+      "Name": "Windler-McCullough",
+      "ToolTip": "At quasi et molestiae dolor.",
       "Deleted": false,
-      "Rank": 103,
-      "Type": "cum",
-      "ColorBlock": 510,
-      "IconHint": "sint",
-      "Selected": false,
-      "LastChanged": "2025-06-13T11:24:48.1876539+02:00",
+      "Rank": 169,
+      "Type": "nisi",
+      "ColorBlock": 155,
+      "IconHint": "neque",
+      "Selected": true,
+      "LastChanged": "2020-03-10T03:40:47.0624077+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempora",
-      "StyleHint": "ut",
+      "ExtraInfo": "aut",
+      "StyleHint": "minus",
       "Hidden": false,
-      "FullName": "Prof. Conor Parisian",
+      "FullName": "Judson Hessel V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 924
+          "FieldLength": 354
         }
       }
     }
@@ -119,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 883
     }
   }
 }

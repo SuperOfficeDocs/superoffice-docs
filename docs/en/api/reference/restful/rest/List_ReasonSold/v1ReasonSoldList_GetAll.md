@@ -26,7 +26,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=False
+GET /api/v1/List/ReasonSold/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Rippin, Hudson and Carroll",
-    "Tooltip": "architecto",
+    "Id": 545,
+    "Name": "Rosenbaum-Hessel",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "UdListDefinitionId": 707,
-    "Rank": 905,
+    "UdListDefinitionId": 795,
+    "Rank": 14,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldLength": 909
       }
     }
   }

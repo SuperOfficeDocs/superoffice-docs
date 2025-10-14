@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the projects where the person specified is member.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,10 +139,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 254,
-  "StartTime": "2009-12-19T11:24:47.2970652+01:00",
-  "EndTime": "2016-09-30T11:24:47.2970652+02:00",
-  "Count": 464,
+  "PersonId": 631,
+  "StartTime": "1998-12-27T03:40:45.5918644+01:00",
+  "EndTime": "2022-05-13T03:40:45.5918644+02:00",
+  "Count": 71,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 270,
-    "StartDate": "2001-01-30T11:24:47.2970652+01:00",
-    "EndDate": "2022-01-31T11:24:47.2970652+01:00",
+    "AppointmentId": 741,
+    "StartDate": "2009-08-29T03:40:45.5918644+02:00",
+    "EndDate": "2022-05-14T03:40:45.5918644+02:00",
     "Type": "BookingForChecklist",
-    "Task": "necessitatibus",
-    "AssociateFullName": "Dr. Roger Bette Bins",
-    "ContactName": "Schiller, Pfeffer and Kiehn",
-    "Description": "Realigned mobile encoding",
-    "PersonFullName": "Darion McDermott",
-    "PersonId": 711,
-    "ContactId": 482,
-    "ProjectId": 767,
-    "ProjectName": "Kris LLC",
+    "Task": "ea",
+    "AssociateFullName": "Ms. Rick Purdy",
+    "ContactName": "Glover Group",
+    "Description": "Visionary zero tolerance conglomeration",
+    "PersonFullName": "Maverick O'Hara",
+    "PersonId": 239,
+    "ContactId": 461,
+    "ProjectId": 584,
+    "ProjectName": "Willms Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 711,
-    "ColorIndex": 159,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 42,
+    "ColorIndex": 696,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 294,
-    "PriorityName": "Vandervort LLC",
+    "PriorityId": 37,
+    "PriorityName": "Quigley-Goyette",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2024-02-23T11:24:47.2970652+01:00",
+    "IsBooking": true,
+    "ActiveDate": "1999-07-07T03:40:45.5918644+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-08-01T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2020-07-03T11:24:47.2970652+02:00",
-    "MotherId": 906,
-    "AssignedBy": 242,
-    "AssignedByFullName": "Stephany Hartmann",
+    "RecurringStartDate": "2006-08-20T03:40:45.5918644+02:00",
+    "RecurringEndDate": "2014-11-03T03:40:45.5918644+01:00",
+    "MotherId": 379,
+    "AssignedBy": 818,
+    "AssignedByFullName": "Dr. Rory Pollich IV",
     "RejectReason": "",
-    "Location": "animi",
-    "AlarmLeadTime": "harum",
-    "SaleId": 603,
-    "SaleName": "Kutch-Gottlieb",
-    "AssociateName": "Raynor-Boyer",
-    "CreatedDate": "2024-11-06T11:24:47.2970652+01:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Maxine Rolfson",
-    "CreatedByAssociateId": 469,
+    "Location": "ducimus",
+    "AlarmLeadTime": "sint",
+    "SaleId": 728,
+    "SaleName": "Wehner-Dach",
+    "AssociateName": "Kozey-Weissnat",
+    "CreatedDate": "2008-01-23T03:40:45.5918644+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Mr. Jerome Terry III",
+    "CreatedByAssociateId": 848,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 412,
+    "MotherAssociateId": 670,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 851,
-    "Title": "enim",
-    "Agenda": "incidunt",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 719,
+    "Title": "porro",
+    "Agenda": "inventore",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 107
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveListEntityByName
 Save a ListEntity resolved by the provided name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings, Von and Schuppe",
+  "Name": "Roob Inc and Sons",
   "ListEntity": null
 }
 ```
@@ -100,22 +102,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Trantow-Toy",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 355,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolores",
+  "Id": 694,
+  "Name": "Hane Inc and Sons",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 772,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 118
     }
   }
 }

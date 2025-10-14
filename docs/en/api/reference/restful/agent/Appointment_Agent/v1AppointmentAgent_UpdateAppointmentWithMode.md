@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentWithMode
 Updates an appointment record, taking the given recurrence update mode into account.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -134,16 +136,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentWithMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 57,
-  "StartTime": "1999-08-07T11:24:47.3126897+02:00",
-  "EndTime": "2013-01-05T11:24:47.3126897+01:00",
+  "Id": 44,
+  "StartTime": "2006-05-22T03:40:45.6387418+02:00",
+  "EndTime": "2010-10-08T03:40:45.6387418+02:00",
   "Status": "Assignment",
   "Type": "BookingForChecklist",
-  "AssociateId": 887,
+  "AssociateId": 750,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -155,67 +157,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 763,
-  "StartDate": "2009-05-20T11:24:47.3126897+02:00",
-  "EndDate": "2014-04-02T11:24:47.3126897+02:00",
+  "AppointmentId": 285,
+  "StartDate": "2013-08-20T03:40:45.6387418+02:00",
+  "EndDate": "2021-12-20T03:40:45.6387418+01:00",
   "Type": "BookingForChecklist",
-  "Task": "quo",
-  "AssociateFullName": "Mrs. Myra Strosin IV",
-  "ContactName": "Weimann Group",
-  "Description": "Versatile logistical orchestration",
-  "PersonFullName": "Roslyn Kihn",
-  "PersonId": 788,
-  "ContactId": 509,
-  "ProjectId": 666,
-  "ProjectName": "Leannon Group",
-  "IsPublished": false,
-  "AssociateId": 239,
-  "ColorIndex": 95,
-  "IsFree": true,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "Task": "et",
+  "AssociateFullName": "Mortimer Marks",
+  "ContactName": "Shields Group",
+  "Description": "Re-contextualized upward-trending solution",
+  "PersonFullName": "Triston Swaniawski",
+  "PersonId": 290,
+  "ContactId": 240,
+  "ProjectId": 793,
+  "ProjectName": "Reilly Inc and Sons",
+  "IsPublished": true,
+  "AssociateId": 123,
+  "ColorIndex": 358,
+  "IsFree": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 373,
-  "PriorityName": "Schaefer-Zboncak",
+  "PriorityId": 603,
+  "PriorityName": "Anderson, Jacobs and Wunsch",
   "TaskType": "Appointment",
   "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2025-04-15T11:24:47.3126897+02:00",
+  "ActiveDate": "2013-02-06T03:40:45.6387418+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2003-12-24T11:24:47.3126897+01:00",
-  "RecurringEndDate": "2009-06-30T11:24:47.3126897+02:00",
-  "MotherId": 362,
-  "AssignedBy": 102,
-  "AssignedByFullName": "Ms. Althea Samson Kassulke IV",
-  "RejectReason": "engage wireless relationships",
-  "Location": "nobis",
-  "AlarmLeadTime": "ipsum",
-  "SaleId": 38,
-  "SaleName": "Moen-Fritsch",
-  "AssociateName": "Okuneva-Ondricka",
-  "CreatedDate": "2005-03-19T11:24:47.3126897+01:00",
-  "CreatedBy": "adipisci",
-  "CreatedByFullName": "Mr. Javier Luettgen",
-  "CreatedByAssociateId": 287,
+  "RecurringStartDate": "1998-11-07T03:40:45.6387418+01:00",
+  "RecurringEndDate": "2018-06-29T03:40:45.6387418+02:00",
+  "MotherId": 603,
+  "AssignedBy": 676,
+  "AssignedByFullName": "Jamaal Gislason",
+  "RejectReason": "",
+  "Location": "est",
+  "AlarmLeadTime": "autem",
+  "SaleId": 201,
+  "SaleName": "Lowe-Botsford",
+  "AssociateName": "Bailey Inc and Sons",
+  "CreatedDate": "2017-07-07T03:40:45.6387418+02:00",
+  "CreatedBy": "molestiae",
+  "CreatedByFullName": "Cameron Eichmann",
+  "CreatedByAssociateId": 159,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 215,
+  "MotherAssociateId": 790,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 219,
-  "Title": "est",
-  "Agenda": "qui",
-  "InternalNotes": "cupiditate",
+  "PreferredTZLocation": 509,
+  "Title": "atque",
+  "Agenda": "maxime",
+  "InternalNotes": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

@@ -381,6 +381,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectTypeStatusLinkRows
   - SuperOffice.CRM.Rows.PublishRows
   - SuperOffice.CRM.Rows.PushNotificationServiceRows
+  - SuperOffice.CRM.Rows.QuickFilterInfoRows
   - SuperOffice.CRM.Rows.QuickReplyRows
   - SuperOffice.CRM.Rows.QuoteAlternativeRows
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRows
@@ -557,6 +558,7 @@ items:
   - SuperOffice.CRM.Rows.TicketTypePriorityRows
   - SuperOffice.CRM.Rows.TicketTypeRows
   - SuperOffice.CRM.Rows.TicketTypeStatusRows
+  - SuperOffice.CRM.Rows.TimeKeepingRows
   - SuperOffice.CRM.Rows.TimestampsRows
   - SuperOffice.CRM.Rows.TravelCurrentRows
   - SuperOffice.CRM.Rows.TravelGeneratedDatabaseRows

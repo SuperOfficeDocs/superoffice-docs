@@ -15,6 +15,7 @@ Drop all rows in a table.
 
 
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schroeder-Schroeder"
+  "TableName": "Hayes LLC"
 }
 ```
 
@@ -97,40 +98,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "cumque",
-  "Inserts": 249,
-  "Updates": 860,
-  "Deletes": 789,
+  "Message": "repellat",
+  "Inserts": 299,
+  "Updates": 671,
+  "Deletes": 396,
   "RowStatus": [
     {
-      "PrimaryKey": 327,
+      "PrimaryKey": 157,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "aliquid"
+        "ipsa",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     },
     {
-      "PrimaryKey": 327,
+      "PrimaryKey": 157,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "aliquid"
+        "ipsa",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     }
@@ -140,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldLength": 799
     }
   }
 }

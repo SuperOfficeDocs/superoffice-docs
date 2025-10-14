@@ -68,9 +68,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <CustomerService:Type xsi:type="CustomerService:ConfigType">Style</CustomerService:Type>
      <CustomerService:Config xsi:type="xsd:string"></CustomerService:Config>
      <CustomerService:CustLangId xsi:type="xsd:int">0</CustomerService:CustLangId>
-     <CustomerService:Registered xsi:type="xsd:dateTime">2025-09-19T09:22:54Z</CustomerService:Registered>
+     <CustomerService:Registered xsi:type="xsd:dateTime">2025-10-14T01:38:42Z</CustomerService:Registered>
      <CustomerService:RegisteredAssociateId xsi:type="xsd:int">0</CustomerService:RegisteredAssociateId>
-     <CustomerService:Updated xsi:type="xsd:dateTime">2025-09-19T09:22:54Z</CustomerService:Updated>
+     <CustomerService:Updated xsi:type="xsd:dateTime">2025-10-14T01:38:42Z</CustomerService:Updated>
      <CustomerService:UpdatedAssociateId xsi:type="xsd:int">0</CustomerService:UpdatedAssociateId>
     </CustomerService:CustomerCenterConfig>
    </CustomerService:Response>

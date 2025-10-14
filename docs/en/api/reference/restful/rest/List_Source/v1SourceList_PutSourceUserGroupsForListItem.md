@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Weber Group",
-    "ToolTip": "Quisquam et.",
-    "Deleted": true,
-    "Rank": 317,
-    "Type": "eius",
-    "ColorBlock": 518,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2025-07-18T11:24:54.1561606+02:00",
+    "Id": 815,
+    "Name": "Dare Inc and Sons",
+    "ToolTip": "Debitis laboriosam minus fuga.",
+    "Deleted": false,
+    "Rank": 549,
+    "Type": "neque",
+    "ColorBlock": 227,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2017-01-28T03:40:57.1189414+01:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Lemke-Tillman",
-        "ToolTip": "Commodi aliquid maiores eligendi ratione eos ut recusandae.",
+        "Id": 153,
+        "Name": "Herman, Simonis and Kuphal",
+        "ToolTip": "Qui quod ea autem libero laudantium et.",
         "Deleted": false,
-        "Rank": 567,
-        "Type": "dolores",
-        "ColorBlock": 947,
-        "IconHint": "quibusdam",
+        "Rank": 625,
+        "Type": "saepe",
+        "ColorBlock": 325,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2004-01-05T11:24:54.1561606+01:00",
+        "LastChanged": "2005-06-10T03:40:57.1189414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Dr. Luna Torrance Ryan II"
+        "ExtraInfo": "voluptates",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Zena Leannon MD"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "eos",
+    "ExtraInfo": "eaque",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Rupert Rolfson IV"
+    "FullName": "Miss Cielo Hickle DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Braun-Hand",
-    "ToolTip": "Et quo officiis est voluptates.",
+    "Id": 541,
+    "Name": "Skiles, Hessel and King",
+    "ToolTip": "Quasi rem quos sapiente aut ut quibusdam rerum.",
     "Deleted": false,
-    "Rank": 17,
-    "Type": "qui",
-    "ColorBlock": 63,
-    "IconHint": "nostrum",
+    "Rank": 121,
+    "Type": "eum",
+    "ColorBlock": 109,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2025-02-27T11:24:54.1561606+01:00",
+    "LastChanged": "2002-05-18T03:40:57.1189414+02:00",
     "ChildItems": [
       {
-        "Id": 545,
-        "Name": "Predovic LLC",
-        "ToolTip": "Nesciunt doloribus praesentium maxime.",
+        "Id": 178,
+        "Name": "Pfannerstill-Beatty",
+        "ToolTip": "Nisi enim dolor excepturi et aperiam.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "voluptatem",
-        "ColorBlock": 740,
-        "IconHint": "non",
+        "Rank": 34,
+        "Type": "impedit",
+        "ColorBlock": 306,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2025-07-09T11:24:54.1561606+02:00",
+        "LastChanged": "2023-08-15T03:40:57.1189414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Monique Buckridge",
+        "ExtraInfo": "minus",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Hudson Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldType": "System.String",
+            "FieldLength": 485
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ex",
+    "ExtraInfo": "ut",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Ms. Kristy Ed Shields",
+    "FullName": "Sydnee Tressie Sawayn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 589
       }
     }
   }

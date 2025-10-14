@@ -3197,6 +3197,8 @@ items:
     name: BulkUpdateSystem.SelectionFieldValueKeys
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
     name: BulkUpdateSystem.TicketFieldValueKeys
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+    name: BulkUpdateSystem.UTMParametersFieldValueKeys
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
     name: BulkUpdateSystem.ValueTypes
   - uid: SuperOffice.CRM.BulkUpdate.ControlInfo
@@ -4145,6 +4147,8 @@ items:
     name: DBC.PublishFields
   - uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
     name: DBC.PushNotificationServiceFields
+  - uid: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+    name: DBC.QuickFilterInfoFields
   - uid: SuperOffice.CRM.Data.DBC.QuickReplyFields
     name: DBC.QuickReplyFields
   - uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
@@ -4497,6 +4501,8 @@ items:
     name: DBC.TicketTypePriorityFields
   - uid: SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
     name: DBC.TicketTypeStatusFields
+  - uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+    name: DBC.TimeKeepingFields
   - uid: SuperOffice.CRM.Data.DBC.TimestampsFields
     name: DBC.TimestampsFields
   - uid: SuperOffice.CRM.Data.DBC.TravelCurrentFields
@@ -5071,6 +5077,8 @@ items:
     name: PublishTableInfo
   - uid: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
     name: PushNotificationServiceTableInfo
+  - uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    name: QuickFilterInfoTableInfo
   - uid: SuperOffice.CRM.Data.QuickReplyTableInfo
     name: QuickReplyTableInfo
   - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
@@ -5423,6 +5431,8 @@ items:
     name: TicketTypeStatusTableInfo
   - uid: SuperOffice.CRM.Data.TicketTypeTableInfo
     name: TicketTypeTableInfo
+  - uid: SuperOffice.CRM.Data.TimeKeepingTableInfo
+    name: TimeKeepingTableInfo
   - uid: SuperOffice.CRM.Data.TimestampsTableInfo
     name: TimestampsTableInfo
   - uid: SuperOffice.CRM.Data.TravelCurrentTableInfo
@@ -9264,14 +9274,14 @@ items:
     name: EmailAccountRow.CustomSearch
   - uid: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAccountId
     name: EmailAccountRow.IdxEmailAccountId
-  - uid: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-    name: EmailAccountRow.IdxEmailAddress
   - uid: SuperOffice.CRM.Rows.EmailAccountRows
     name: EmailAccountRows
   - uid: SuperOffice.CRM.Rows.EmailAccountRows.CustomSearch
     name: EmailAccountRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.EmailAccountRows.IdxAssociateId
     name: EmailAccountRows.IdxAssociateId
+  - uid: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+    name: EmailAccountRows.IdxEmailAddress
   - uid: SuperOffice.CRM.Rows.EmailAttachmentRecordData
     name: EmailAttachmentRecordData
   - uid: SuperOffice.CRM.Rows.EmailAttachmentRecordDataExtensions
@@ -12714,6 +12724,22 @@ items:
     name: PushNotificationServiceRows
   - uid: SuperOffice.CRM.Rows.PushNotificationServiceRows.CustomSearch
     name: PushNotificationServiceRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRecordData
+    name: QuickFilterInfoRecordData
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions
+    name: QuickFilterInfoRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+    name: QuickFilterInfoRow
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+    name: QuickFilterInfoRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+    name: QuickFilterInfoRow.IdxQuickFilterInfoId
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+    name: QuickFilterInfoRows
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+    name: QuickFilterInfoRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+    name: QuickFilterInfoRows.IdxDashboardId
   - uid: SuperOffice.CRM.Rows.QuickReplyRecordData
     name: QuickReplyRecordData
   - uid: SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions
@@ -15522,8 +15548,6 @@ items:
     name: TargetRevisionHistoryRow
   - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.CustomSearch
     name: TargetRevisionHistoryRow.CustomSearch
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-    name: TargetRevisionHistoryRow.IdxTargetGroupId
   - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetRevisionHistoryId
     name: TargetRevisionHistoryRow.IdxTargetRevisionHistoryId
   - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows
@@ -15532,6 +15556,8 @@ items:
     name: TargetRevisionHistoryRows.CustomSearch
   - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetAssignmentInfoId
     name: TargetRevisionHistoryRows.IdxTargetAssignmentInfoId
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+    name: TargetRevisionHistoryRows.IdxTargetGroupId
   - uid: SuperOffice.CRM.Rows.TargetRevisionRecordData
     name: TargetRevisionRecordData
   - uid: SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
@@ -16020,6 +16046,26 @@ items:
     name: TicketTypeStatusRows
   - uid: SuperOffice.CRM.Rows.TicketTypeStatusRows.CustomSearch
     name: TicketTypeStatusRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRecordData
+    name: TimeKeepingRecordData
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions
+    name: TimeKeepingRecordDataExtensions
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow
+    name: TimeKeepingRow
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+    name: TimeKeepingRow.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+    name: TimeKeepingRow.IdxTimeKeepingId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+    name: TimeKeepingRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+    name: TimeKeepingRows.IdxEntityId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+    name: TimeKeepingRows.IdxEntityIdStateId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+    name: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
   - uid: SuperOffice.CRM.Rows.TimestampsRecordData
     name: TimestampsRecordData
   - uid: SuperOffice.CRM.Rows.TimestampsRecordDataExtensions
@@ -17234,6 +17280,8 @@ items:
     name: QuoteManagerFactory
   - uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
     name: QuoteVersionAttachmentManager
+  - uid: SuperOffice.CRM.Sale.SaleHelper
+    name: SaleHelper
 - uid: SuperOffice.CRM.Script
   name: SuperOffice.CRM.Script
   items:
@@ -17761,6 +17809,8 @@ items:
     name: WebhookPayload
   - uid: SuperOffice.CRM.Webhooks.WebhookResponse
     name: WebhookResponse
+  - uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+    name: WebhookSlowDispatcher
   - uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
     name: WebhookSoftTriggerPlugin
   - uid: SuperOffice.CRM.Webhooks.WebhookState
@@ -18121,6 +18171,8 @@ items:
     name: BatchTaskState
   - uid: SuperOffice.Data.BlobLinkType
     name: BlobLinkType
+  - uid: SuperOffice.Data.BoardViewBadgeType
+    name: BoardViewBadgeType
   - uid: SuperOffice.Data.BoardViewEntityType
     name: BoardViewEntityType
   - uid: SuperOffice.Data.BookingType
@@ -18673,6 +18725,8 @@ items:
     name: TicketSecurityLevel
   - uid: SuperOffice.Data.TicketStatusTimeCounter
     name: TicketStatusTimeCounter
+  - uid: SuperOffice.Data.TimeKeepingType
+    name: TimeKeepingType
   - uid: SuperOffice.Data.TravelEncryptionChild
     name: TravelEncryptionChild
   - uid: SuperOffice.Data.TravelEncryptionOwn
@@ -19311,6 +19365,8 @@ items:
     name: TicketSecurityLevelFieldInfo
   - uid: SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
     name: TicketStatusTimeCounterFieldInfo
+  - uid: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
+    name: TimeKeepingTypeFieldInfo
   - uid: SuperOffice.Data.SQL.Top
     name: Top
   - uid: SuperOffice.Data.SQL.TravelEncryptionChildFieldInfo
@@ -20160,6 +20216,8 @@ items:
     name: ITrackEventDispatcher
   - uid: SuperOffice.Util.IWebAppUsageRecorder
     name: IWebAppUsageRecorder
+  - uid: SuperOffice.Util.ImageStreamUtils
+    name: ImageStreamUtils
   - uid: SuperOffice.Util.ImageUtilities
     name: ImageUtilities
   - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy

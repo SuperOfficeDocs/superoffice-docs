@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Returns the target dimensions for the given entity type.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 380,
+    "TargetDimensionId": 543,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "ratione",
-    "DimensionListName": "Kilback-Cruickshank",
-    "DimensionListId": 5,
-    "DimensionListLabel": "amet",
+    "DimensionListField": "expedita",
+    "DimensionListName": "Greenfelder, Hilpert and Eichmann",
+    "DimensionListId": 568,
+    "DimensionListLabel": "reprehenderit",
     "SelectedDimensions": [
-      538,
-      581
+      727,
+      296
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 319
       }
     }
   }

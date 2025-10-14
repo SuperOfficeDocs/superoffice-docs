@@ -15,6 +15,7 @@ Gets a SaleEntity object.
 
 
 Calls the Sale agent service GetSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -34,7 +35,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -120,7 +121,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,7 +129,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 30 Jul 2005 11:24:53 G7T
+Last-Modified: Fri, 28 Jan 2022 03:40:56 G1T
 
 {
   "Appointment": null,
@@ -137,7 +138,7 @@ Last-Modified: Sat, 30 Jul 2005 11:24:53 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quaerat",
+  "SaleText": "dolores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -146,113 +147,113 @@ Last-Modified: Sat, 30 Jul 2005 11:24:53 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-10-21T11:24:53.5155612+02:00",
-  "Amount": 27215.656,
-  "SaleId": 714,
-  "Earning": 30995.26,
-  "EarningPercent": 31039.136,
-  "Heading": "impedit",
-  "Number": "979437",
-  "Probability": 598,
-  "CreatedDate": "2008-04-04T11:24:53.5155612+02:00",
-  "UpdatedDate": "2005-07-30T11:24:53.5155612+02:00",
+  "Saledate": "2017-05-07T03:40:56.1324272+02:00",
+  "Amount": 17989.16,
+  "SaleId": 107,
+  "Earning": 12730.307999999999,
+  "EarningPercent": 27008.811999999998,
+  "Heading": "non",
+  "Number": "928839",
+  "Probability": 464,
+  "CreatedDate": "1998-11-05T03:40:56.1324272+01:00",
+  "UpdatedDate": "2022-01-28T03:40:56.1324272+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 594,
+  "ActiveLinks": 513,
   "Links": [
     {
-      "EntityName": "Murphy-Mann",
-      "Id": 350,
-      "Description": "Horizontal holistic initiative",
-      "ExtraInfo": "quis",
-      "LinkId": 582,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 609
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2012-04-26T11:24:53.5311857+02:00",
-  "Postit": "ut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1998-06-28T11:24:53.5311857+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Shields-Balistreri",
-      "Comment": "iste",
-      "StakeholderRoleId": 55,
-      "CountryId": 381,
-      "PersonId": 663,
-      "EmailDescription": "shana@grady.info",
-      "EmailId": 990,
-      "EmailAddress": "agustin@hauck.com",
-      "PhoneId": 34,
-      "ContactName": "Davis LLC",
-      "ContactId": 447,
-      "SaleId": 582,
-      "Mrmrs": "qui",
-      "Firstname": "Kenna",
-      "MiddleName": "Rodriguez Inc and Sons",
-      "Lastname": "Kuhn",
-      "SaleStakeholderId": 29,
-      "Rank": 180,
-      "Phone": "670-552-1793",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 424
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 655,
-  "UserDefinedFields": {
-    "SuperOffice:1": "65458210",
-    "SuperOffice:2": "Mr. Bryce Schroeder MD"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "fuga"
-  },
-  "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "veritatis"
-  },
-  "PublishEventDate": "2011-04-07T11:24:53.5311857+02:00",
-  "PublishTo": "1998-12-14T11:24:53.5311857+01:00",
-  "PublishFrom": "2004-03-29T11:24:53.5311857+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 369,
-      "Visibility": "All",
-      "DisplayValue": "sit",
+      "EntityName": "Kertzmann, Larkin and Rosenbaum",
+      "Id": 289,
+      "Description": "User-centric exuding project",
+      "ExtraInfo": "reprehenderit",
+      "LinkId": 29,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 155
+          "FieldLength": 885
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2012-11-16T03:40:56.1324272+01:00",
+  "Postit": "aut",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2017-04-29T03:40:56.1324272+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Grant-Gerhold",
+      "Comment": "quasi",
+      "StakeholderRoleId": 918,
+      "CountryId": 322,
+      "PersonId": 410,
+      "EmailDescription": "kattie.tromp@steuber.uk",
+      "EmailId": 206,
+      "EmailAddress": "wyman@zulauf.co.uk",
+      "PhoneId": 709,
+      "ContactName": "Heller, Oberbrunner and Douglas",
+      "ContactId": 138,
+      "SaleId": 381,
+      "Mrmrs": "optio",
+      "Firstname": "Kay",
+      "MiddleName": "Huels LLC",
+      "Lastname": "Schneider",
+      "SaleStakeholderId": 839,
+      "Rank": 454,
+      "Phone": "1-965-231-9994 x337",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 38
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 230,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Toni Schuppe",
+    "SuperOffice:2": "Floy Marvin"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "sed",
+    "ExtraFields2": "qui"
+  },
+  "CustomFields": {
+    "CustomFields1": "in",
+    "CustomFields2": "commodi"
+  },
+  "PublishEventDate": "2011-02-02T03:40:56.1324272+01:00",
+  "PublishTo": "2008-02-01T03:40:56.1324272+01:00",
+  "PublishFrom": "2006-08-07T03:40:56.1324272+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 278,
+      "Visibility": "All",
+      "DisplayValue": "ea",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 730
         }
       }
     },
     {
-      "VisibleId": 369,
+      "VisibleId": 278,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 155
+          "FieldType": "System.Int32",
+          "FieldLength": 730
         }
       }
     }
@@ -262,12 +263,12 @@ Last-Modified: Sat, 30 Jul 2005 11:24:53 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldLength": 188
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

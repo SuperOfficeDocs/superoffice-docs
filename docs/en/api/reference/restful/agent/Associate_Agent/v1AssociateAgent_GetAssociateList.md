@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetAssociateList
 Gets an array of Associate objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +97,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 59,
-    "Name": "Hudson-Cole",
-    "PersonId": 715,
-    "Rank": 479,
-    "Tooltip": "earum",
+    "AssociateId": 512,
+    "Name": "Heaney LLC",
+    "PersonId": 389,
+    "Rank": 175,
+    "Tooltip": "dolorum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 336,
-    "FullName": "Payton Braun",
-    "FormalName": "Bergstrom Group",
+    "GroupIdx": 219,
+    "FullName": "Prof. Ruth Cole",
+    "FormalName": "Bartoletti-Rogahn",
     "Deleted": false,
-    "EjUserId": 554,
-    "UserName": "Schneider-Bashirian",
+    "EjUserId": 570,
+    "UserName": "Ebert, Waters and Abernathy",
     "ExtraFields": {
-      "ExtraFields1": "corporis",
-      "ExtraFields2": "libero"
+      "ExtraFields1": "est",
+      "ExtraFields2": "numquam"
     },
     "CustomFields": {
-      "CustomFields1": "molestiae",
-      "CustomFields2": "sint"
+      "CustomFields1": "error",
+      "CustomFields2": "dignissimos"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 444
       }
     }
   }

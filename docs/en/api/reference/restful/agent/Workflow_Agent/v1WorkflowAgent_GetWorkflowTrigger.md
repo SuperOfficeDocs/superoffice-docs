@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Gets a WorkflowTrigger object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=735
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=538
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,23 +83,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 173,
-  "WorkflowId": 167,
+  "WorkflowTriggerId": 44,
+  "WorkflowId": 525,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Wisoky Group",
-      "Description": "Cross-platform analyzing budgetary management",
-      "Rank": 271,
+      "Name": "Gutkowski, Jacobi and Altenwerth",
+      "Description": "Cloned client-server projection",
+      "Rank": 237,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisoky Group",
-      "Description": "Cross-platform analyzing budgetary management",
-      "Rank": 271,
+      "Name": "Gutkowski, Jacobi and Altenwerth",
+      "Description": "Cloned client-server projection",
+      "Rank": 237,
       "Restrictions": [
         {},
         {}
@@ -109,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 285
     }
   }
 }

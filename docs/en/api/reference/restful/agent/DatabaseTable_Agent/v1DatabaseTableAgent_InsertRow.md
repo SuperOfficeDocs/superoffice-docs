@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/InsertRow
 Insert a row into a table
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,14 +72,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pollich, Adams and Larkin",
+  "TableName": "O'Connell, Bailey and Fritsch",
   "Values": {
-    "Values1": "dignissimos",
-    "Values2": "quia"
+    "Values1": "aut",
+    "Values2": "culpa"
   }
 }
 ```
@@ -88,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-572
+673
 ```

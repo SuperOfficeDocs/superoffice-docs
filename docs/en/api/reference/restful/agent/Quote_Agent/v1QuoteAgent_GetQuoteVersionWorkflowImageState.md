@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 Get state icon and name for the Quote version dialog header.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 612
+  "QuoteVersionId": 194
 }
 ```
 
@@ -94,16 +96,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "sit",
-  "DisplayText": "quisquam",
-  "TooltipText": "et",
-  "Enabled": false,
+  "ImageHint": "rerum",
+  "DisplayText": "vero",
+  "TooltipText": "atque",
+  "Enabled": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 911
     }
   }
 }

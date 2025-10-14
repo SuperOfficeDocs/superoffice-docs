@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Set which duplicate rules should be active or not
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,22 +67,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Pollich LLC",
-      "DisplayName": "Schowalter-Hermann",
-      "DisplayTooltip": "aut",
-      "IsActive": false
+      "Name": "Ward Inc and Sons",
+      "DisplayName": "Walker, Mayert and Kessler",
+      "DisplayTooltip": "doloribus",
+      "IsActive": true
     },
     {
-      "Name": "Pollich LLC",
-      "DisplayName": "Schowalter-Hermann",
-      "DisplayTooltip": "aut",
-      "IsActive": false
+      "Name": "Ward Inc and Sons",
+      "DisplayName": "Walker, Mayert and Kessler",
+      "DisplayTooltip": "doloribus",
+      "IsActive": true
     }
   ]
 }

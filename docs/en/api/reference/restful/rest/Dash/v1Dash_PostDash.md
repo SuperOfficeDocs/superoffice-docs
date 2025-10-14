@@ -15,6 +15,7 @@ Creates a new Dash
 
 
 Calls the Dash agent service SaveDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -101,34 +102,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 104,
-  "UniqueId": "quasi",
-  "Name": "Runte, Aufderhar and Zulauf",
-  "Description": "Organized cohesive database",
-  "AssociateId": 79,
-  "Columns": 3,
+  "DashboardId": 412,
+  "UniqueId": "velit",
+  "Name": "Zboncak, Anderson and Nader",
+  "Description": "Profound tangible analyzer",
+  "AssociateId": 804,
+  "Columns": 442,
   "Theme": null,
-  "VisibleForAll": 552,
+  "VisibleForAll": 710,
   "VisibleForAssociates": [
-    359,
-    826
+    357,
+    355
   ],
   "VisibleForGroups": [
-    652,
-    803
+    988,
+    165
   ],
-  "PinForAll": 271,
+  "PinForAll": 644,
   "PinForAssociates": [
-    276,
-    67
+    735,
+    354
   ],
   "PinForGroups": [
-    1002,
-    994
+    450,
+    198
   ]
 }
 ```
@@ -140,42 +141,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 404,
-  "UniqueId": "at",
-  "Name": "Lubowitz Group",
-  "Description": "Cloned value-added hub",
-  "AssociateId": 911,
-  "Columns": 907,
+  "DashboardId": 334,
+  "UniqueId": "aut",
+  "Name": "Douglas-McLaughlin",
+  "Description": "Sharable bandwidth-monitored archive",
+  "AssociateId": 84,
+  "Columns": 894,
   "Theme": null,
-  "VisibleForAll": 881,
+  "VisibleForAll": 790,
   "VisibleForAssociates": [
-    222,
-    147
+    163,
+    703
   ],
   "VisibleForGroups": [
-    576,
-    482
+    596,
+    605
   ],
-  "PinForAll": 399,
+  "PinForAll": 868,
   "PinForAssociates": [
-    997,
-    888
+    184,
+    649
   ],
   "PinForGroups": [
-    794,
-    77
+    315,
+    136
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 467
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/CreateDefaultPreviewContact
 Loading default values into a new PreviewContact.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 903,
-  "Name": "Dare LLC",
+  "ContactId": 288,
+  "Name": "Reichert-Conn",
   "Department": "",
-  "CountryId": 641,
-  "Number2": "886564",
-  "DirectPhone": "1-830-851-3686 x8553",
+  "CountryId": 212,
+  "Number2": "1186272",
+  "DirectPhone": "099.908.8387 x10266",
   "URL": "http://www.example.com/",
-  "EmailAddress": "coty@farrell.name",
+  "EmailAddress": "hilton_lang@rempelmetz.ca",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Valerie Treutel",
+  "AssociateFullName": "Rodolfo Halvorson",
   "Address": null
 }
 ```

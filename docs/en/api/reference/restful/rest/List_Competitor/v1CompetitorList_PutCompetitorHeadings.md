@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 739,
-    "Name": "O'Connell Group",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "Rank": 287,
-    "UdListDefinitionId": 390
+    "HeadingId": 872,
+    "Name": "Smith, Bins and Marquardt",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 660,
+    "UdListDefinitionId": 176
   },
   {
-    "HeadingId": 739,
-    "Name": "O'Connell Group",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "Rank": 287,
-    "UdListDefinitionId": 390
+    "HeadingId": 872,
+    "Name": "Smith, Bins and Marquardt",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "Rank": 660,
+    "UdListDefinitionId": 176
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 109,
-    "Name": "Feeney, Jacobs and Rosenbaum",
-    "Tooltip": "neque",
-    "Deleted": true,
-    "Rank": 24,
-    "UdListDefinitionId": 830,
+    "HeadingId": 845,
+    "Name": "Kuphal, Reichert and Kris",
+    "Tooltip": "error",
+    "Deleted": false,
+    "Rank": 622,
+    "UdListDefinitionId": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 352
       }
     }
   }

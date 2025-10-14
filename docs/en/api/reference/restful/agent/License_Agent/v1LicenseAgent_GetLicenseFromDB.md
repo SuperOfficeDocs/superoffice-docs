@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetLicenseFromDB
 Get license, with usage, as it is stored in the database for one particular module owner.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Brekke LLC"
+  "OwnerName": "Haag, Bahringer and Ritchie"
 }
 ```
 
@@ -92,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "disintermediate holistic paradigms",
-  "CanBeActivated": true,
+  "Reason": "",
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 608,
-      "NumberOfLicensesFree": 716,
-      "NumberOfLicensesAdded": 488,
-      "NumberOfLicensesNewTotal": 368,
-      "NumberOfLicensesNewFree": 916,
-      "NumberOfLicensesTotal": 407
+      "NumberOfLicensesInUse": 645,
+      "NumberOfLicensesFree": 196,
+      "NumberOfLicensesAdded": 303,
+      "NumberOfLicensesNewTotal": 926,
+      "NumberOfLicensesNewFree": 980,
+      "NumberOfLicensesTotal": 503
     }
   ],
-  "AccumulatedNextCheckDate": "2003-07-06T11:24:48.1720293+02:00"
+  "AccumulatedNextCheckDate": "2017-02-13T03:40:46.9999043+01:00"
 }
 ```

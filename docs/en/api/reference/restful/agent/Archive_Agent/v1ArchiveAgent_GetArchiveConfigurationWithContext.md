@@ -15,6 +15,7 @@ Get the configuration for one archive, with context parameter.
 
 
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Bechtelar, Cassin and Runolfsdottir",
-  "ProviderName": "Gislason Group",
-  "Context": "reprehenderit"
+  "GuiName": "Gutkowski-Leuschke",
+  "ProviderName": "Schuppe, Treutel and Padberg",
+  "Context": "est"
 }
 ```
 
@@ -100,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hermann, Renner and Shanahan",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "ex",
+      "DisplayName": "Lueilwitz, Langosh and Dibbert",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "sit",
       "CanOrderBy": false,
-      "Name": "McGlynn LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "nam",
-      "RestrictionListName": "Aufderhar, Blick and Bradtke",
-      "IsVisible": true,
-      "ExtraInfo": "eos",
-      "Width": "rerum",
-      "IconHint": "delectus",
-      "HeadingIconHint": "omnis"
+      "Name": "Glover Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Stamm, Treutel and Welch",
+      "IsVisible": false,
+      "ExtraInfo": "rerum",
+      "Width": "aspernatur",
+      "IconHint": "at",
+      "HeadingIconHint": "error"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 681,
-      "Name": "Kovacek Group",
-      "ToolTip": "Placeat beatae.",
-      "Deleted": false,
-      "Rank": 695,
-      "Type": "vel",
-      "ColorBlock": 884,
-      "IconHint": "mollitia",
-      "Selected": false,
-      "LastChanged": "2018-08-20T11:24:47.5939281+02:00",
+      "Id": 625,
+      "Name": "Kirlin, Brakus and Schamberger",
+      "ToolTip": "Ullam ratione autem quas distinctio.",
+      "Deleted": true,
+      "Rank": 789,
+      "Type": "saepe",
+      "ColorBlock": 442,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2008-05-28T03:40:46.0608291+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "beatae",
-      "Hidden": false,
-      "FullName": "Elmore Stamm",
+      "ExtraInfo": "animi",
+      "StyleHint": "fuga",
+      "Hidden": true,
+      "FullName": "Rosella Walker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Upton LLC",
+      "Name": "Collier, Dibbert and DuBuque",
       "Direction": "ASC"
     },
     {
-      "Name": "Upton LLC",
+      "Name": "Collier, Dibbert and DuBuque",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "autem",
+  "OwnerKeys": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 702
     }
   }
 }

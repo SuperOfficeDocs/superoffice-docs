@@ -30,7 +30,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,50 +92,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 518,
-    "Name": "O'Conner-Halvorson",
-    "ToolTip": "Qui totam at.",
+    "Id": 874,
+    "Name": "Donnelly LLC",
+    "ToolTip": "Iusto alias delectus.",
     "Deleted": true,
-    "Rank": 179,
-    "Type": "accusamus",
+    "Rank": 955,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Pollich-Mayert",
-        "ToolTip": "Id suscipit repudiandae eius.",
-        "Deleted": false,
-        "Rank": 112,
-        "Type": "delectus",
+        "Id": 877,
+        "Name": "Adams, Rutherford and Stoltenberg",
+        "ToolTip": "Qui minima dignissimos et.",
+        "Deleted": true,
+        "Rank": 470,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 84,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "molestiae",
-        "FullName": "Jaclyn Hilll V",
+        "IconHint": "molestias",
+        "ColorBlock": 703,
+        "ExtraInfo": "qui",
+        "StyleHint": "libero",
+        "FullName": "Lillian Davis PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldType": "System.String",
+            "FieldLength": 688
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 744,
-    "ExtraInfo": "alias",
-    "StyleHint": "expedita",
-    "FullName": "Mrs. Chance Stamm",
+    "IconHint": "et",
+    "ColorBlock": 322,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "maiores",
+    "FullName": "Frederik Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 64
       }
     }
   }

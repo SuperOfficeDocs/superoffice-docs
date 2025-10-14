@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Jacobi-O'Kon",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 413,
-    "UdListDefinitionId": 465
+    "HeadingId": 1002,
+    "Name": "Graham, Ryan and Bayer",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 488
   },
   {
-    "HeadingId": 224,
-    "Name": "Jacobi-O'Kon",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 413,
-    "UdListDefinitionId": 465
+    "HeadingId": 1002,
+    "Name": "Graham, Ryan and Bayer",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 755,
+    "UdListDefinitionId": 488
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 143,
-    "Name": "Osinski Inc and Sons",
-    "Tooltip": "vel",
+    "HeadingId": 497,
+    "Name": "Denesik, Bechtelar and Crona",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 581,
-    "UdListDefinitionId": 474,
+    "Rank": 355,
+    "UdListDefinitionId": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 198
       }
     }
   }

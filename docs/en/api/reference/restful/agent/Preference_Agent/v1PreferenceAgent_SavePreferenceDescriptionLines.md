@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Saves the PreferenceDescriptionLine array in the SuperOffice database
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -85,20 +87,20 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 446,
-      "PrefDescId": 146,
-      "PrefValue": "in",
-      "PrefShowValue": "non",
-      "Description": "Multi-lateral high-level open system",
-      "IsBuiltin": false
+      "PrefDescLineId": 311,
+      "PrefDescId": 460,
+      "PrefValue": "eos",
+      "PrefShowValue": "odit",
+      "Description": "Right-sized 24 hour projection",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 446,
-      "PrefDescId": 146,
-      "PrefValue": "in",
-      "PrefShowValue": "non",
-      "Description": "Multi-lateral high-level open system",
-      "IsBuiltin": false
+      "PrefDescLineId": 311,
+      "PrefDescId": 460,
+      "PrefValue": "eos",
+      "PrefShowValue": "odit",
+      "Description": "Right-sized 24 hour projection",
+      "IsBuiltin": true
     }
   ]
 }
@@ -112,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 473,
-    "PrefDescId": 761,
-    "PrefValue": "vel",
-    "PrefShowValue": "quis",
-    "Description": "Streamlined clear-thinking installation",
+    "PrefDescLineId": 399,
+    "PrefDescId": 930,
+    "PrefValue": "laudantium",
+    "PrefShowValue": "ut",
+    "Description": "Operative disintermediate standardization",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 382
       }
     }
   }

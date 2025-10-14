@@ -15,6 +15,7 @@ Changes the project image link.
 
 
 If the Binary object id is 0, any image link is removed from the project.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 375,
-  "BlobId": 931
+  "ProjectId": 669,
+  "BlobId": 624
 }
 ```
 

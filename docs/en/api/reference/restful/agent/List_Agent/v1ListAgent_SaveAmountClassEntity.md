@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveAmountClassEntity
 Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,18 +80,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 443,
-  "Name": "Dach, Price and Wehner",
-  "Tooltip": "sed",
-  "Rank": 867,
-  "AmountFrom": 12996.698,
-  "AmountTo": 6299.34,
-  "Deleted": true,
-  "CurrencyId": 59
+  "AmountClassId": 284,
+  "Name": "King LLC",
+  "Tooltip": "enim",
+  "Rank": 418,
+  "AmountFrom": 17913.944,
+  "AmountTo": 10166.696,
+  "Deleted": false,
+  "CurrencyId": 380
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 471,
-  "Name": "Runolfsdottir, Schroeder and Hauck",
-  "Tooltip": "est",
-  "Rank": 155,
-  "AmountFrom": 29061.582,
-  "AmountTo": 26751.824,
-  "Deleted": true,
-  "CurrencyId": 902,
+  "AmountClassId": 793,
+  "Name": "Stracke, Daugherty and Bednar",
+  "Tooltip": "occaecati",
+  "Rank": 119,
+  "AmountFrom": 17929.613999999998,
+  "AmountTo": 17428.174,
+  "Deleted": false,
+  "CurrencyId": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldLength": 328
     }
   }
 }

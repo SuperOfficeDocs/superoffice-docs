@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Returns all fields needed to connect to the given connector
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 801
+  "ErpConnectorId": 204
 }
 ```
 
@@ -101,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "delectus",
-    "Rank": 927,
-    "DisplayName": "Herman Group",
-    "DisplayDescription": "Diverse static utilisation",
+    "FieldKey": "nihil",
+    "Rank": 960,
+    "DisplayName": "Klein-Towne",
+    "DisplayDescription": "Adaptive cohesive implementation",
     "FieldType": "Checkbox",
-    "ListName": "Quigley Inc and Sons",
-    "DefaultValue": "quia",
-    "MaxLength": 883,
+    "ListName": "Bode-Kshlerin",
+    "DefaultValue": "eum",
+    "MaxLength": 528,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

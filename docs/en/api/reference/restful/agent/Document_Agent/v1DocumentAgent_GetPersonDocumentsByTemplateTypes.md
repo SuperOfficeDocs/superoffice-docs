@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -104,14 +105,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 912,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2000-11-23T11:24:47.9376639+01:00",
-  "EndTime": "2003-12-10T11:24:47.9376639+01:00",
-  "Count": 4,
+  "PersonId": 917,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2019-07-26T03:40:46.6092641+02:00",
+  "EndTime": "2009-04-22T03:40:46.6092641+02:00",
+  "Count": 368,
   "DocumentTemplateIds": [
-    112,
-    879
+    486,
+    157
   ]
 }
 ```
@@ -124,32 +125,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 841,
-    "Attention": "reprehenderit",
-    "Header": "nostrum",
-    "Name": "Abbott-Murazik",
-    "OurRef": "consequatur",
-    "YourRef": "sapiente",
-    "Description": "Assimilated directional access",
-    "DocumentTemplate": "omnis",
+    "DocumentId": 258,
+    "Attention": "perferendis",
+    "Header": "porro",
+    "Name": "Buckridge Group",
+    "OurRef": "recusandae",
+    "YourRef": "dolores",
+    "Description": "Down-sized zero administration leverage",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 908,
-    "PersonFullName": "Allene Aufderhar MD",
-    "AssociateFullName": "Rosella Jakubowski",
-    "ContactId": 817,
-    "ContactName": "West-Yost",
-    "ProjectId": 188,
-    "ProjectName": "Conn-Konopelski",
-    "AssociateId": 936,
-    "Snum": 814,
-    "SaleId": 556,
-    "SaleName": "Koch LLC",
+    "PersonId": 287,
+    "PersonFullName": "Miss Vidal Lou Towne PhD",
+    "AssociateFullName": "Mack Rutherford",
+    "ContactId": 909,
+    "ContactName": "VonRueden LLC",
+    "ProjectId": 507,
+    "ProjectName": "Wilderman-Keebler",
+    "AssociateId": 673,
+    "Snum": 434,
+    "SaleId": 134,
+    "SaleName": "Rath Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 48
       }
     }
   }

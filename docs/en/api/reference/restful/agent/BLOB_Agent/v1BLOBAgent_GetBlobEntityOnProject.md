@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Gets the blob entity that represents the project image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 474
+  "ProjectId": 289
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 907,
-  "BlobSize": 81,
-  "Description": "Organic reciprocal help-desk",
-  "ExtraInfo": "id",
-  "IsEncrypted": false,
+  "BlobId": 699,
+  "BlobSize": 208,
+  "Description": "Versatile responsive standardization",
+  "ExtraInfo": "vero",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ut",
-  "OriginalSize": 692,
-  "CreatedDate": "2017-11-22T11:24:47.6251768+01:00",
-  "UpdatedDate": "2013-08-15T11:24:47.6251768+02:00",
+  "MimeType": "rem",
+  "OriginalSize": 95,
+  "CreatedDate": "2014-07-09T03:40:46.0920806+02:00",
+  "UpdatedDate": "1998-06-24T03:40:46.0920806+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perferendis",
+  "ConceptualType": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

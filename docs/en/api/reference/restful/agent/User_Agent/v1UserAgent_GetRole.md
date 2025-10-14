@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetRole
 Gets a Role object.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +32,7 @@ Gets a Role object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRole?roleId=186
+POST /api/v1/Agents/User/GetRole?roleId=564
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
 
@@ -72,7 +75,7 @@ OK
 POST /api/v1/Agents/User/GetRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,15 +85,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Value": "accusamus",
-  "Tooltip": "beatae",
+  "Id": 689,
+  "Value": "voluptatem",
+  "Tooltip": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 471
     }
   }
 }

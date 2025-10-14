@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,17 +78,17 @@ OK
 POST /api/v1/Agents/CustomerService/SaveMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 531,
+  "MailInFilterId": 340,
   "ServerType": "Facebook",
-  "Address": "et",
-  "Username": "et",
-  "Password": "minima",
-  "Server": "dicta",
-  "Port": 897
+  "Address": "architecto",
+  "Username": "nobis",
+  "Password": "voluptatem",
+  "Server": "culpa",
+  "Port": 129
 }
 ```
 
@@ -97,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 360,
+  "MailInFilterId": 289,
   "ServerType": "Facebook",
-  "Address": "provident",
-  "Username": "assumenda",
-  "Password": "dolores",
-  "Server": "voluptatum",
-  "Port": 605,
+  "Address": "quisquam",
+  "Username": "quidem",
+  "Password": "voluptatem",
+  "Server": "et",
+  "Port": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 121
     }
   }
 }

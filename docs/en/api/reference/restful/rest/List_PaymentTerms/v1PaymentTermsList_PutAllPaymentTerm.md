@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Hand-Haley",
-    "Tooltip": "ipsum",
+    "Id": 318,
+    "Name": "Stokes-Hoeger",
+    "Tooltip": "aperiam",
     "Deleted": true,
-    "UdListDefinitionId": 67,
-    "Rank": 104
+    "UdListDefinitionId": 658,
+    "Rank": 266
   },
   {
-    "Id": 911,
-    "Name": "Hand-Haley",
-    "Tooltip": "ipsum",
+    "Id": 318,
+    "Name": "Stokes-Hoeger",
+    "Tooltip": "aperiam",
     "Deleted": true,
-    "UdListDefinitionId": 67,
-    "Rank": 104
+    "UdListDefinitionId": 658,
+    "Rank": 266
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Rippin LLC",
-    "Tooltip": "facere",
-    "Deleted": true,
-    "UdListDefinitionId": 83,
-    "Rank": 636,
+    "Id": 73,
+    "Name": "Heathcote Inc and Sons",
+    "Tooltip": "at",
+    "Deleted": false,
+    "UdListDefinitionId": 104,
+    "Rank": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 135
       }
     }
   }

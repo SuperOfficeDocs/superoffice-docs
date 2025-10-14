@@ -15,6 +15,7 @@ Save a user group.
 
 
 Set UserGroup.Deleted to mark a user group as deleted and invisible in the user interface.
+NsApiSlow threshold: 1000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/User/SaveUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "rem",
-  "Tooltip": "quibusdam",
-  "Id": 156,
-  "Rank": 969,
+  "Value": "atque",
+  "Tooltip": "soluta",
+  "Id": 82,
+  "Rank": 421,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 317
     }
   }
 }

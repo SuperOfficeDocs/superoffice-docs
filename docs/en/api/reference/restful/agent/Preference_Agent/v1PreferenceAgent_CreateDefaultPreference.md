@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreference
 Loading default values into a new Preference.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -66,7 +68,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,22 +79,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nihil",
+  "RawValue": "dicta",
   "Specification": null,
-  "DisplayValue": "nobis",
-  "DisplayTooltip": "id",
+  "DisplayValue": "quod",
+  "DisplayTooltip": "asperiores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 586,
-  "PrefDescId": 162,
-  "TableName": "Hauck, Mayert and Bosco",
-  "UserPreferenceId": 218,
+  "TargetId": 567,
+  "PrefDescId": 460,
+  "TableName": "Hegmann Inc and Sons",
+  "UserPreferenceId": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 762
     }
   }
 }

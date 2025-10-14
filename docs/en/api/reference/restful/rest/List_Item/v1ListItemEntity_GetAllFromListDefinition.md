@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Lakin, Kuhic and Rosenbaum",
-    "Tooltip": "aliquam",
+    "Id": 702,
+    "Name": "Yost Group",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "UdListDefinitionId": 64,
-    "Rank": 190,
+    "UdListDefinitionId": 699,
+    "Rank": 224,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldType": "System.String",
+        "FieldLength": 391
       }
     }
   }

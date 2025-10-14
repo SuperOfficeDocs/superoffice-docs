@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SanitizeMailContent
 Remove harmful HTML tags and attributes from an email
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Ticket/SanitizeMailContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "quis"
+  "Content": "voluptate"
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"consequatur"
+"veritatis"
 ```

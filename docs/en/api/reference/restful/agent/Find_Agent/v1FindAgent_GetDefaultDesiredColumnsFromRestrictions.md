@@ -15,6 +15,7 @@ Calculate the default desired columns, i.
 
 
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,21 +88,21 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schoen-Jacobi",
+  "ProviderName": "Dickinson, Torp and Koss",
   "Restrictions": [
     {
-      "Name": "Hintz Group",
-      "Operator": "ratione",
+      "Name": "Blick-Blick",
+      "Operator": "sit",
       "Values": [
-        "quis",
-        "est"
+        "at",
+        "ea"
       ],
       "DisplayValues": [
-        "occaecati",
+        "omnis",
         "itaque"
       ],
       "ColumnInfo": null,
@@ -110,9 +111,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 978,
+      "InterParenthesis": 607,
       "InterOperator": "And",
-      "UniqueHash": 741
+      "UniqueHash": 681
     }
   ]
 }
@@ -126,19 +127,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Harris, Shields and Bernier",
-    "DisplayTooltip": "cum",
-    "DisplayType": "ex",
+    "DisplayName": "Wilkinson, Kihn and O'Conner",
+    "DisplayTooltip": "corporis",
+    "DisplayType": "nobis",
     "CanOrderBy": false,
-    "Name": "Durgan Group",
+    "Name": "Donnelly Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "sed",
-    "RestrictionListName": "Pagac-Senger",
+    "RestrictionType": "unde",
+    "RestrictionListName": "Hand Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "totam",
-    "Width": "a",
-    "IconHint": "non",
-    "HeadingIconHint": "veritatis"
+    "ExtraInfo": "inventore",
+    "Width": "quis",
+    "IconHint": "rerum",
+    "HeadingIconHint": "numquam"
   }
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Gets a ForeignDevice with deviceName that belongs to the application with applicationName.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Blanda, Mitchell and Jacobi",
-  "DeviceName": "Nikolaus, Wisozk and Toy"
+  "ApplicationName": "Fay-Renner",
+  "DeviceName": "Johnson-Bartell"
 }
 ```
 
@@ -99,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 363,
-  "Name": "Schmeler LLC",
-  "CreatedDate": "2021-01-09T11:24:48.1564051+01:00",
-  "UpdatedDate": "2006-12-25T11:24:48.1564051+01:00",
-  "AssociateFullName": "Mr. Sincere Creola O'Hara PhD",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "rerum",
-  "ForeignAppId": 41,
+  "ForeignDeviceId": 280,
+  "Name": "Leffler, Johnson and Lesch",
+  "CreatedDate": "2012-07-11T03:40:46.9842779+02:00",
+  "UpdatedDate": "2018-12-30T03:40:46.9842779+01:00",
+  "AssociateFullName": "Sierra O'Connell III",
+  "CreatedBy": "beatae",
+  "UpdatedBy": "beatae",
+  "DeviceIdentifier": "ducimus",
+  "ForeignAppId": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 777
     }
   }
 }

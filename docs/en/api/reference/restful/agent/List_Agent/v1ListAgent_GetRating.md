@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetRating
 Gets a Rating object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Rating object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRating?ratingId=487
+POST /api/v1/Agents/List/GetRating?ratingId=370
 POST /api/v1/Agents/List/GetRating?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetRating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 172,
-  "Value": "laborum",
-  "Tooltip": "doloremque",
+  "Id": 447,
+  "Value": "voluptatem",
+  "Tooltip": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 7
     }
   }
 }

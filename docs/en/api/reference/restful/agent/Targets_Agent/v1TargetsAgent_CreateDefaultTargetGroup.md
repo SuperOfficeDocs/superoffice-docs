@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Loading default values into a new TargetGroup.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,30 +73,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 49,
-  "Year": 251,
+  "TargetGroupId": 656,
+  "Year": 626,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 116,
+      "TargetAssignmentInfoId": 415,
       "Values": [
-        499,
-        630
+        593,
+        990
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 112,
-      "DimensionListItemDisplayName": "Becker-Carter",
+      "DimensionListItem": 709,
+      "DimensionListItemDisplayName": "Willms LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 744
         }
       }
     }
@@ -104,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

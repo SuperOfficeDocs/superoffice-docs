@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig
 Deletes the CustomerCenterConfig
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the CustomerCenterConfig
 | customerCenterConfigId | int32 | **Required** The identity of the CustomerCenterConfig |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=558
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=807
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

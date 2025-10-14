@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactSummary
 Get summary of contact and its recent activity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 742,
-  "Limit": 206
+  "ContactId": 118,
+  "Limit": 978
 }
 ```
 
@@ -97,79 +99,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 619,
-      "TicketStatus": 469,
-      "Title": "ipsam",
-      "Registered": "2018-03-16T11:24:47.8126691+01:00",
-      "IconHint": "veniam"
+      "TicketId": 380,
+      "TicketStatus": 624,
+      "Title": "sit",
+      "Registered": "2022-06-19T03:40:46.483746+02:00",
+      "IconHint": "dolor"
     },
     {
-      "TicketId": 619,
-      "TicketStatus": 469,
-      "Title": "ipsam",
-      "Registered": "2018-03-16T11:24:47.8126691+01:00",
-      "IconHint": "veniam"
+      "TicketId": 380,
+      "TicketStatus": 624,
+      "Title": "sit",
+      "Registered": "2022-06-19T03:40:46.483746+02:00",
+      "IconHint": "dolor"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 831,
-      "DocumentId": 423,
-      "Date": "2020-10-11T11:24:47.8126691+02:00",
-      "Description": "Switchable interactive hierarchy",
+      "AppointmentId": 920,
+      "DocumentId": 544,
+      "Date": "2020-10-14T03:40:46.483746+02:00",
+      "Description": "Horizontal next generation time-frame",
       "Completed": "Completed",
-      "Registered": "2013-04-15T11:24:47.8126691+02:00"
+      "Registered": "1998-09-12T03:40:46.483746+02:00"
     },
     {
-      "AppointmentId": 831,
-      "DocumentId": 423,
-      "Date": "2020-10-11T11:24:47.8126691+02:00",
-      "Description": "Switchable interactive hierarchy",
+      "AppointmentId": 920,
+      "DocumentId": 544,
+      "Date": "2020-10-14T03:40:46.483746+02:00",
+      "Description": "Horizontal next generation time-frame",
       "Completed": "Completed",
-      "Registered": "2013-04-15T11:24:47.8126691+02:00"
+      "Registered": "1998-09-12T03:40:46.483746+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 180,
-      "DocumentId": 362,
-      "Date": "2023-08-20T11:24:47.8126691+02:00",
-      "Description": "Multi-lateral asynchronous architecture",
+      "AppointmentId": 268,
+      "DocumentId": 541,
+      "Date": "2001-05-15T03:40:46.483746+02:00",
+      "Description": "Implemented value-added throughput",
       "Completed": "Completed",
-      "Registered": "2014-05-11T11:24:47.8126691+02:00"
+      "Registered": "2011-08-16T03:40:46.483746+02:00"
     },
     {
-      "AppointmentId": 180,
-      "DocumentId": 362,
-      "Date": "2023-08-20T11:24:47.8126691+02:00",
-      "Description": "Multi-lateral asynchronous architecture",
+      "AppointmentId": 268,
+      "DocumentId": 541,
+      "Date": "2001-05-15T03:40:46.483746+02:00",
+      "Description": "Implemented value-added throughput",
       "Completed": "Completed",
-      "Registered": "2014-05-11T11:24:47.8126691+02:00"
+      "Registered": "2011-08-16T03:40:46.483746+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 251,
-      "SaleDate": "2025-05-31T11:24:47.8126691+02:00",
-      "Probability": 341,
-      "Heading": "suscipit",
-      "Amount": 2930.29,
-      "Currency": "recusandae",
-      "AmountInBaseCurrency": 31148.825999999997,
+      "SaleId": 79,
+      "SaleDate": "2003-11-26T03:40:46.483746+01:00",
+      "Probability": 904,
+      "Heading": "aut",
+      "Amount": 28986.365999999998,
+      "Currency": "commodi",
+      "AmountInBaseCurrency": 12322.887999999999,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2017-01-12T11:24:47.8126691+01:00"
+      "Registered": "2002-11-27T03:40:46.483746+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 542,
-      "Name": "Pollich, Wintheiser and Simonis",
-      "CompanyName": "Sanford-Weber",
-      "FirstMessage": "quia",
-      "LastMessage": "voluptas",
-      "WhenRequested": "2018-06-10T11:24:47.8126691+02:00",
-      "WhenEnded": "2015-09-07T11:24:47.8126691+02:00"
+      "ChatSessionId": 75,
+      "Name": "Kunze LLC",
+      "CompanyName": "Casper, Ankunding and Stehr",
+      "FirstMessage": "hic",
+      "LastMessage": "blanditiis",
+      "WhenRequested": "2010-02-20T03:40:46.483746+01:00",
+      "WhenEnded": "1999-02-05T03:40:46.483746+01:00"
     }
   ]
 }

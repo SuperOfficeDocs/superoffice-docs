@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetTemplateStream
 Retrieve a stream to a mail template based on its name
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Prohaska-Glover",
+  "TemplateName": "Nader, Stanton and Beer",
   "AllowPersonal": true,
-  "UiCulture": "ad"
+  "UiCulture": "et"
 }
 ```
 

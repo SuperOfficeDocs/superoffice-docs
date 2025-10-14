@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextByType
 Returns a localized text based on the resource id for the selected language.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 605,
-  "LanguageId": 733
+  "ResourceId": 811,
+  "LanguageId": 961
 }
 ```
 
@@ -98,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 291,
-  "ResourceId": 717,
-  "Text": "molestiae",
+  "LanguageId": 289,
+  "ResourceId": 744,
+  "Text": "saepe",
   "Type": "Column",
-  "LocalizedTextId": 457,
+  "LocalizedTextId": 642,
   "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 452
     }
   }
 }

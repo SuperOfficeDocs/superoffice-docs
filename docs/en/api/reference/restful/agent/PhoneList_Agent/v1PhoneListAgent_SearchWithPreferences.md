@@ -15,6 +15,7 @@ Searching the phone list.
 
 
 Search is based on the supplied preferences.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "ad",
+  "SearchString": "ducimus",
   "Preferences": null
 }
 ```
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "471-016-9711 x596",
-    "PersonCellPhone": "(574)082-7313 x72769",
-    "PersonPrivatePhone": "(723)306-1821",
-    "PersonFaxNumber": "1543618",
-    "PersonPagerNumber": "659899",
-    "PersonEmail": "lydia_hauck@mrazbogan.biz",
-    "Id": 749,
-    "Name": "Kuhlman-Feest",
-    "Tooltip": "aut",
-    "UniqueId": "sequi",
+    "PersonDirectPhone": "1-575-802-1956 x5319",
+    "PersonCellPhone": "313-497-9554 x169",
+    "PersonPrivatePhone": "1-000-603-1763 x7010",
+    "PersonFaxNumber": "488578",
+    "PersonPagerNumber": "1264118",
+    "PersonEmail": "luella_pfannerstill@walker.co.uk",
+    "Id": 456,
+    "Name": "O'Conner Inc and Sons",
+    "Tooltip": "non",
+    "UniqueId": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 977
+        "FieldType": "System.Int32",
+        "FieldLength": 492
       }
     }
   }

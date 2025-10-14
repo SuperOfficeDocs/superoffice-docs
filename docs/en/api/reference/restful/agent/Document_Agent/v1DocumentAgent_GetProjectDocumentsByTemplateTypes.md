@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the project specified.
+The document appointments belong to the project specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,13 +104,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 583,
-  "StartTime": "2024-06-09T11:24:47.9376639+02:00",
-  "EndTime": "2005-01-11T11:24:47.9376639+01:00",
-  "Count": 400,
+  "ProjectId": 483,
+  "StartTime": "2021-10-09T03:40:46.5936381+02:00",
+  "EndTime": "2000-05-21T03:40:46.5936381+02:00",
+  "Count": 129,
   "DocumentTemplateIds": [
-    247,
-    826
+    377,
+    195
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 880,
-    "Attention": "fugit",
-    "Header": "voluptatem",
-    "Name": "Koelpin Inc and Sons",
-    "OurRef": "ut",
-    "YourRef": "nihil",
-    "Description": "Versatile didactic alliance",
-    "DocumentTemplate": "deserunt",
-    "IsPublished": true,
-    "PersonId": 204,
-    "PersonFullName": "Prof. Rodrick Kathlyn Streich",
-    "AssociateFullName": "Daryl Schmeler",
-    "ContactId": 717,
-    "ContactName": "Walter, Ledner and Hermann",
-    "ProjectId": 86,
-    "ProjectName": "Bogan-Mosciski",
-    "AssociateId": 800,
-    "Snum": 155,
-    "SaleId": 72,
-    "SaleName": "Renner, Funk and Yundt",
+    "DocumentId": 806,
+    "Attention": "eos",
+    "Header": "occaecati",
+    "Name": "Bahringer Group",
+    "OurRef": "autem",
+    "YourRef": "dolorum",
+    "Description": "Universal secondary moderator",
+    "DocumentTemplate": "consequuntur",
+    "IsPublished": false,
+    "PersonId": 415,
+    "PersonFullName": "Kayleigh Marietta Larkin Jr.",
+    "AssociateFullName": "Mrs. Ramiro Konopelski",
+    "ContactId": 236,
+    "ContactName": "Hirthe, Haley and Parker",
+    "ProjectId": 214,
+    "ProjectName": "Heathcote, Hodkiewicz and Harber",
+    "AssociateId": 133,
+    "Snum": 564,
+    "SaleId": 302,
+    "SaleName": "Koelpin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Gets an array of NavigatorCompany objects.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Value": "magnam",
-    "Tooltip": "pariatur",
+    "Id": 283,
+    "Value": "sit",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 120
       }
     }
   },
   {
-    "Id": 248,
-    "Value": "magnam",
-    "Tooltip": "pariatur",
+    "Id": 283,
+    "Value": "sit",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 120
       }
     }
   }

@@ -38,6 +38,7 @@ This is the archive Provider for the Selection contact/person archive.
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -123,11 +124,11 @@ This is the archive Provider for the Selection contact/person archive.
 |contactAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |contactAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |contactAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
 |contactAssociate/role|listAny|Role : Role| x |
@@ -217,6 +218,7 @@ This is the archive Provider for the Selection contact/person archive.
 |sourceRelation/hasInterests| *None* |Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId| *None* |Source - Our contact: Displays our contact| x |
 |sourceRelation/category| *None* |Source - Category| x |
+|sourceRelation/categoryGroup| *None* |Source - Category group| x |
 |sourceRelation/business| *None* |Source - Business| x |
 |sourceRelation/country| *None* |Source - Country: This criterion corresponds to the Country field on the Company card.| x |
 |sourceRelation/countryId| *None* |Source - Country ID: Country ID| x |
@@ -226,12 +228,12 @@ This is the archive Provider for the Selection contact/person archive.
 |sourceRelation/stop| *None* |Source - Stop| x |
 |sourceRelation/contactNoMail| *None* |Source - No mailings (company)| x |
 |sourceRelation/updatedBy| *None* |Source - Updated by: The user who last updated the data| x |
-|sourceRelation/updatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data| x |
-|sourceRelation/updatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/updatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data| x |
+|sourceRelation/updatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.| x |
 |sourceRelation/registeredBy| *None* |Source - Registered by: The user who registered the data| x |
 |sourceRelation/registeredByFullName| *None* |Source - Registered by - Full name: The user who registered the data| x |
 |sourceRelation/registeredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.| x |
@@ -251,6 +253,7 @@ This is the archive Provider for the Selection contact/person archive.
 |targetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId| *None* |Target - Our contact: Displays our contact| x |
 |targetRelation/category| *None* |Target - Category| x |
+|targetRelation/categoryGroup| *None* |Target - Category group| x |
 |targetRelation/business| *None* |Target - Business| x |
 |targetRelation/country| *None* |Target - Country: This criterion corresponds to the Country field on the Company card.| x |
 |targetRelation/countryId| *None* |Target - Country ID: Country ID| x |
@@ -329,13 +332,14 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/createdByWorkflow| *None* |Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|sale/visibleFor| *None* |Visible for|  |
-|sale/sale/textId| *None* |Text ID| x |
-|sale/sale/description| *None* |Text: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/visibleFor| *None* |Visible for|  |
+|sale/sale/textId| *None* |Text ID| x |
+|sale/sale/description| *None* |Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date| x |
@@ -432,14 +436,14 @@ This is the archive Provider for the Selection contact/person archive.
 |appointment/appointmentUdef/SuperOffice:1| *None* |followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2| *None* |followuplongtext| x |
 |appointment/appointmentUdef/SuperOffice:3| *None* |followupnumber| x |
-|appointment/appointmentUdef/SuperOffice:4| *None* |followupdate| x |
-|appointment/appointmentUdef/SuperOffice:5| *None* |followupunlimiteddate| x |
-|appointment/appointmentUdef/SuperOffice:6| *None* |followupcheckbox| x |
-|appointment/appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentUdef/SuperOffice:4| *None* |followupdate| x |
+|appointment/appointmentUdef/SuperOffice:5| *None* |followupunlimiteddate| x |
+|appointment/appointmentUdef/SuperOffice:6| *None* |followupcheckbox| x |
+|appointment/appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox| x |
 |appointment/appointmentUdef/SuperOffice:8| *None* |followupdecimal| x |
 |appointment/associate/firstName| *None* |First name: Displays the contact's first name| x |
 |appointment/associate/lastName| *None* |Last name: Displays the contact's last name| x |
@@ -536,14 +540,14 @@ This is the archive Provider for the Selection contact/person archive.
 |document/associate/usergroupId| *None* |Group ID: The user's primary user group| x |
 |document/associate/contactFullName| *None* |Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory| *None* |Category: Category| x |
-|document/associate/role| *None* |Role : Role| x |
-|document/associate/assocName| *None* |User ID : User ID| x |
-|document/associate/assocTooltip| *None* |Description : Description|  |
-|document/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/role| *None* |Role : Role| x |
+|document/associate/assocName| *None* |User ID : User ID| x |
+|document/associate/assocTooltip| *None* |Description : Description|  |
+|document/associate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |document/associate/ejDisplayName| *None* |Nick name: User's nick name in Service| x |
@@ -607,7 +611,9 @@ This is the archive Provider for the Selection contact/person archive.
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -638,16 +644,16 @@ This is the archive Provider for the Selection contact/person archive.
 |personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
 |personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
 |personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -742,16 +748,18 @@ This is the archive Provider for the Selection contact/person archive.
 |personSourceRelation/personAssociateId| *None* |Source - Our contact: Displays our contact| x |
 |personSourceRelation/personAssociateFullName| *None* |Source - Our contact - Full name: Displays our contact| x |
 |personSourceRelation/personCategory| *None* |Source - Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
+|personSourceRelation/personCategoryGroup| *None* |Source - Category group| x |
 |personSourceRelation/personBusiness| *None* |Source - Business| x |
+|personSourceRelation/leadstatus| *None* |Source - Lead status| x |
 |personSourceRelation/personDeletedDate| *None* |Source - Deleted date: Deleted date|  |
 |personSourceRelation/hasCompany| *None* |Source - Has company: The contact is associated with a company| x |
 |personSourceRelation/isProjectMember| *None* |Source - Is project member: This person is a project member| x |
 |personSourceRelation/isStakeholder| *None* |Source - Is stakeholder: This person is a sale stakeholder| x |
 |personSourceRelation/updatedByWorkflow| *None* |Source - Updated by flow: Updated by flow| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personSourceRelation/whenUpdatedByWorkflow| *None* |Source - When updated by flow: When updated by flow| x |
 |personSourceRelation/createdByForm| *None* |Source - Created by form: Created by form| x |
 |personSourceRelation/restrictionContactId| *None* |Source - Company ID: Database ID of company to fetch relations for|  |
@@ -800,7 +808,9 @@ This is the archive Provider for the Selection contact/person archive.
 |personTargetRelation/personAssociateId| *None* |Target - Our contact: Displays our contact| x |
 |personTargetRelation/personAssociateFullName| *None* |Target - Our contact - Full name: Displays our contact| x |
 |personTargetRelation/personCategory| *None* |Target - Category| x |
+|personTargetRelation/personCategoryGroup| *None* |Target - Category group| x |
 |personTargetRelation/personBusiness| *None* |Target - Business| x |
+|personTargetRelation/leadstatus| *None* |Target - Lead status| x |
 |personTargetRelation/personDeletedDate| *None* |Target - Deleted date: Deleted date|  |
 |personTargetRelation/hasCompany| *None* |Target - Has company: The contact is associated with a company| x |
 |personTargetRelation/isProjectMember| *None* |Target - Is project member: This person is a project member| x |
@@ -842,6 +852,10 @@ This is the archive Provider for the Selection contact/person archive.
 |personAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?| x |
 |personAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?| x |
 |personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |personAssociate/userName| *None* |User name: User name| x |
 |personAssociate/personEmail| *None* |E-mail| x |
@@ -852,10 +866,6 @@ This is the archive Provider for the Selection contact/person archive.
 |correspondingAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |correspondingAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |correspondingAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |correspondingAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |correspondingAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -946,6 +956,10 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdBy/title| *None* |Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/associateDbId| *None* |Created by - ID| x |
 |request/createdBy/contactName| *None* |Created by - Owning company: Name of the company the user belongs to| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |request/createdBy/contactDepartment| *None* |Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup| *None* |Created by - Primary group: The user's primary user group| x |
 |request/createdBy/usergroupId| *None* |Created by - Group ID: The user's primary user group| x |
@@ -956,10 +970,6 @@ This is the archive Provider for the Selection contact/person archive.
 |request/createdBy/assocTooltip| *None* |Created by - Description: Description|  |
 |request/createdBy/assocType| *None* |Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId| *None* |Created by - Service user ID: The database ID of a Service user|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |request/createdBy/simultaneousEjUser| *None* |Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |request/createdBy/ejDisplayName| *None* |Created by - Nick name: User's nick name in Service| x |
 |request/createdBy/ejStatus| *None* |Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -1050,6 +1060,10 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/nextMilestone| *None* |Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |projectMembers/endDate| *None* |End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/activeErpLinks| *None* |ERP connected: Is there an active ERP Sync?| x |
 |projectMembers/function| *None* |Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published| x |
@@ -1060,10 +1074,6 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/projectEvent/eventDate| *None* |Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLAddress| *None* |URL| x |
 |projectMembers/projectUrl/URLDescription| *None* |Description| x |
 |projectMembers/projectAssociate/firstName| *None* |First name: Displays the contact's first name| x |
@@ -1154,6 +1164,10 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/registeredByFullName| *None* |Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId| *None* |DB ID: Displays the database ID of a row| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/endDate| *None* |End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority| *None* |Priority: Displays the priority of the activity| x |
 |personAppointment/alarm| *None* |Has alarm: Displays the alarm state of a follow-up| x |
@@ -1164,10 +1178,6 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/location| *None* |Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId| *None* |RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType| *None* |Type: Type field for appointment, not decoded or formatted| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus| *None* |Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning| *None* |Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary| *None* |ExcludeBook: Is the activity visible in the diary?| x |
@@ -1258,6 +1268,10 @@ This is the archive Provider for the Selection contact/person archive.
 |formSubmission/registeredBy| *None* |Registered by: The user who registered the data| x |
 |formSubmission/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |formSubmission/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |workflowInstance/workflowInstanceId| *None* |Instance id: Id of the running flow instance| x |
 |workflowInstance/workflowInstanceStatus| *None* |Participant status: Status of the running flow instance| x |
 |workflowInstance/workflowInstanceWaitUntil| *None* |Wait until: Wait until| x |
@@ -1268,10 +1282,6 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime| *None* |Sending time: When the message was sent| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |workflowInstance/workflowInstanceLastCommunicationStatus| *None* |Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy| *None* |Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
@@ -1362,6 +1372,10 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/discountPercent| *None* |Discount %: Enter discount in percent for entire alternative| x |
 |sale/quote/version/alternative/discountAmount| *None* |Discount: Enter total discount for entire alternative| x |
 |sale/quote/version/alternative/vatInfo| *None* |VAT Info: Information about value-added and other taxes| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/vat| *None* |VAT: Value-added and other taxes, total amount| x |
 |sale/quote/version/alternative/earningPercent| *None* |Earnings %: Total Earnings as a percentage of the total price, of all lines in the quote alternative, including all discounts| x |
 |sale/quote/version/alternative/earningAmount| *None* |Earnings: Total Earnings for all lines in the quote alternative, including all discounts| x |
@@ -1372,10 +1386,6 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/extraField4| *None* |Extra 4: Extra field 4 on the quote alternative| x |
 |sale/quote/version/alternative/extraField5| *None* |Extra 5: Extra field 5 on the quote alternative| x |
 |sale/quote/version/alternative/alternativeOrdering| *None* |QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/subTotal| *None* |Total before discount: Total of all lines, before applying the Alternative discount| x |
 |sale/quote/version/alternative/totalPriceIncVAT| *None* |Total incl. VAT: Total of all lines, including VAT| x |
 |sale/quote/version/alternative/vatAmount| *None* |VAT: VAT (amount) for the alternative| x |
@@ -1426,7 +1436,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=postAddress/wgs84longitude,contactAssociate/otherGroups,NumberOfNotCompletedSalesInPeriod,sale/icon,appointment/text
+GET /api/v1/archive/ContactPersonSelectionV2?$select=nameDepartment,contactAssociate/ejDisplayName,contactAssociate/credentialType,contactInterestIds,saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

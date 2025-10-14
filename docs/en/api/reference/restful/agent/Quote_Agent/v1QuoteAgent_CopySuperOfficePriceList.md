@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Create a copy of a PriceList in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,15 +90,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 541,
-  "NewName": "Sauer LLC",
-  "ValidFrom": "2009-06-07T11:24:48.5157652+02:00",
-  "ValidTo": "1998-09-22T11:24:48.5157652+02:00",
-  "NewCurrencyId": 164,
+  "OriginalPriceListId": 786,
+  "NewName": "Toy, Hamill and Wiza",
+  "ValidFrom": "2021-03-04T03:40:47.5317063+01:00",
+  "ValidTo": "2016-12-23T03:40:47.5317063+01:00",
+  "NewCurrencyId": 762,
   "ConvertCurrency": false
 }
 ```
@@ -108,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 180,
-  "ERPPriceListKey": "quam",
-  "QuoteConnectionId": 623,
-  "Name": "Hessel-Koelpin",
-  "Description": "Triple-buffered client-server synergy",
-  "Currency": "voluptatibus",
-  "CurrencyName": "Little, Wintheiser and Rohan",
-  "ValidFrom": "1999-02-27T11:24:48.5157652+01:00",
-  "ValidTo": "2008-06-15T11:24:48.5157652+02:00",
-  "IsActive": false,
+  "PriceListId": 103,
+  "ERPPriceListKey": "explicabo",
+  "QuoteConnectionId": 538,
+  "Name": "Quitzon, Bergstrom and Schoen",
+  "Description": "Public-key neutral synergy",
+  "Currency": "velit",
+  "CurrencyName": "Feeney LLC",
+  "ValidFrom": "2000-02-15T03:40:47.5317063+01:00",
+  "ValidTo": "2024-05-02T03:40:47.5317063+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 951
     }
   }
 }

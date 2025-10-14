@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 50,
-    "Name": "Nolan-Bartoletti",
-    "Tooltip": "aut",
+    "HeadingId": 76,
+    "Name": "Powlowski, Miller and Herzog",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 64,
+    "Rank": 699,
+    "UdListDefinitionId": 455,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 935
       }
     }
   }

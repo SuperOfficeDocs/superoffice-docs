@@ -90,15 +90,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 616,
-  "Name": "Fahey, Stark and Kulas",
-  "CreatedDate": "2014-07-07T11:24:53.2968202+02:00",
-  "UpdatedDate": "2013-04-14T11:24:53.2968202+02:00",
-  "AssociateFullName": "Joaquin Turcotte",
-  "CreatedBy": "et",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "minus",
-  "ForeignAppId": 292
+  "ForeignDeviceId": 346,
+  "Name": "Kiehn, Bednar and Luettgen",
+  "CreatedDate": "2000-11-21T03:40:55.7731411+01:00",
+  "UpdatedDate": "2014-06-03T03:40:55.7731411+02:00",
+  "AssociateFullName": "Lew Gleason",
+  "CreatedBy": "reprehenderit",
+  "UpdatedBy": "dolorem",
+  "DeviceIdentifier": "adipisci",
+  "ForeignAppId": 407
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 474,
-  "Name": "Haley-Fadel",
-  "CreatedDate": "2017-12-24T11:24:53.2968202+01:00",
-  "UpdatedDate": "2012-01-14T11:24:53.2968202+01:00",
-  "AssociateFullName": "Nona Beth Fadel PhD",
-  "CreatedBy": "voluptatibus",
-  "UpdatedBy": "aliquam",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 342,
+  "ForeignDeviceId": 230,
+  "Name": "Zieme-Strosin",
+  "CreatedDate": "2006-01-29T03:40:55.7731411+01:00",
+  "UpdatedDate": "2015-08-01T03:40:55.7731411+02:00",
+  "AssociateFullName": "Miss Giles Charlie Anderson Sr.",
+  "CreatedBy": "non",
+  "UpdatedBy": "suscipit",
+  "DeviceIdentifier": "rerum",
+  "ForeignAppId": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

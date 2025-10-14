@@ -15,6 +15,7 @@ Creates a new ChatTopicEntity
 
 
 Calls the Chat agent service SaveChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -141,22 +142,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 445,
-  "Name": "D'Amore-Willms",
-  "Description": "Phased zero defect synergy",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 88,
+  "Name": "Streich Inc and Sons",
+  "Description": "Optimized next generation data-warehouse",
+  "WelcomeMessage": "esse",
   "Language": null,
-  "LastAccept": "2005-06-21T11:24:53.0468304+02:00",
-  "SecondsPrAccept": 768,
-  "AlertRecipient": "id",
+  "LastAccept": "1998-12-06T03:40:55.397437+01:00",
+  "SecondsPrAccept": 693,
+  "AlertRecipient": "sit",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ex",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "debitis",
-  "WarnNewChatMinutes": 678,
-  "WarnManagerNewChatMinutes": 7,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "est",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "atque",
+  "WarnNewChatMinutes": 728,
+  "WarnManagerNewChatMinutes": 58,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -164,14 +165,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 588,
-  "WarnManagerChatMessageMinutes": 713,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 807,
-  "OfflineFormQueueLength": 871,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "vel"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 260,
+  "WarnManagerChatMessageMinutes": 487,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 788,
+  "OfflineFormQueueLength": 579,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "doloremque"
 }
 ```
 
@@ -182,48 +183,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 890,
-  "Name": "Hyatt, Kreiger and Blanda",
-  "Description": "Multi-channelled systemic ability",
+  "ChatTopicId": 326,
+  "Name": "Johnston, Harvey and Morissette",
+  "Description": "Reactive bandwidth-monitored moderator",
   "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2005-01-29T11:24:53.0468304+01:00",
-  "SecondsPrAccept": 923,
-  "AlertRecipient": "velit",
+  "LastAccept": "2016-02-08T03:40:55.397437+01:00",
+  "SecondsPrAccept": 394,
+  "AlertRecipient": "accusamus",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "omnis",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "numquam",
-  "WarnNewChatMinutes": 975,
-  "WarnManagerNewChatMinutes": 546,
+  "BadgeHeader": "iusto",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "minima",
+  "WarnNewChatMinutes": 212,
+  "WarnManagerNewChatMinutes": 544,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 635,
-  "WarnManagerChatMessageMinutes": 13,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 181,
-  "OfflineFormQueueLength": 757,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "totam",
+  "WarnChatMessageMinutes": 468,
+  "WarnManagerChatMessageMinutes": 381,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 431,
+  "OfflineFormQueueLength": 346,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldType": "System.Int32",
+      "FieldLength": 966
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

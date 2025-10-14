@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteLines
 Create and save quotelines based on the product keys added
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,14 +72,14 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 36,
+  "QuoteAlternativeId": 271,
   "ErpProductKeys": [
-    "animi",
-    "sint"
+    "rem",
+    "amet"
   ]
 }
 ```
@@ -88,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-518
+957
 ```

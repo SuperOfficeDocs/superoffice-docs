@@ -14,6 +14,8 @@ PUT /api/v1/DashTileDefinition/{id}
 Updates the existing DashTileDefinition
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -120,25 +122,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 578,
-  "Name": "Boehm-Hahn",
-  "Description": "Self-enabling empowering methodology",
-  "DefaultHeight": 264,
-  "DefaultWidth": 679,
+  "DashboardTileDefinitionId": 521,
+  "Name": "Zemlak, Reinger and Kirlin",
+  "Description": "Switchable explicit attitude",
+  "DefaultHeight": 235,
+  "DefaultWidth": 534,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Denesik-Thiel",
-  "SelectionId": 502,
+  "EntityName": "Reilly LLC",
+  "SelectionId": 791,
   "CurrencyMode": "Base",
-  "CurrencyCode": "veniam",
+  "CurrencyCode": "praesentium",
   "Measure": "Average",
-  "MeasureField": "quidem",
-  "SortBy": "autem",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 184,
-  "MeasureByField": "excepturi",
+  "MeasureField": "consequuntur",
+  "SortBy": "aperiam",
+  "LayoutConfig": "neque",
+  "SecondarySelectionId": 155,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Legros, Wilderman and Little"
+  "ProviderName": "Kessler-Daugherty"
 }
 ```
 
@@ -149,31 +151,31 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 65,
-  "Name": "Ferry, Conroy and O'Conner",
-  "Description": "Innovative value-added toolset",
-  "DefaultHeight": 741,
-  "DefaultWidth": 772,
+  "DashboardTileDefinitionId": 145,
+  "Name": "Maggio, West and Fadel",
+  "Description": "Cloned content-based internet solution",
+  "DefaultHeight": 882,
+  "DefaultWidth": 507,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Haag Group",
-  "SelectionId": 299,
+  "EntityName": "Gleichner Inc and Sons",
+  "SelectionId": 554,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consectetur",
+  "CurrencyCode": "sed",
   "Measure": "Average",
-  "MeasureField": "maxime",
-  "SortBy": "aut",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 815,
-  "MeasureByField": "id",
+  "MeasureField": "similique",
+  "SortBy": "sint",
+  "LayoutConfig": "neque",
+  "SecondarySelectionId": 861,
+  "MeasureByField": "error",
   "Usage": "Dashboard",
-  "ProviderName": "Rodriguez-Sawayn",
+  "ProviderName": "Reinger Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 974
     }
   },
   "_Links": {

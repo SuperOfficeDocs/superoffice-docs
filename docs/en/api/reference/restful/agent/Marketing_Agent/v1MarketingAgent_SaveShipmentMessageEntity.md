@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,31 +106,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 960,
-  "PlainMessage": "alias",
-  "HtmlMessage": "dicta",
-  "SmsMessage": "vel",
-  "Description": "Optimized didactic contingency",
-  "Subject": "ut",
-  "FolderId": 481,
-  "HeaderField": "dolores",
-  "Design": "nulla",
+  "ShipmentMessageId": 715,
+  "PlainMessage": "architecto",
+  "HtmlMessage": "aut",
+  "SmsMessage": "quia",
+  "Description": "Focused high-level synergy",
+  "Subject": "fugit",
+  "FolderId": 638,
+  "HeaderField": "qui",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Secured optimal analyzer",
-  "AccessKey": "nisi",
-  "DocumentMessage": 494,
-  "Registered": "2013-10-04T11:24:48.2657757+02:00",
-  "RegisteredAssociateId": 599,
-  "Updated": "2009-01-24T11:24:48.2657757+01:00",
-  "UpdatedAssociateId": 887,
-  "UpdatedCount": 852
+  "LongDescription": "Synergistic client-driven system engine",
+  "AccessKey": "est",
+  "DocumentMessage": 268,
+  "Registered": "2023-10-20T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 480,
+  "Updated": "2007-11-24T03:40:47.2499194+01:00",
+  "UpdatedAssociateId": 238,
+  "UpdatedCount": 796
 }
 ```
 
@@ -139,33 +141,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 454,
-  "PlainMessage": "molestias",
-  "HtmlMessage": "accusantium",
-  "SmsMessage": "aut",
-  "Description": "Operative impactful contingency",
-  "Subject": "optio",
-  "FolderId": 921,
-  "HeaderField": "quod",
-  "Design": "facere",
+  "ShipmentMessageId": 938,
+  "PlainMessage": "adipisci",
+  "HtmlMessage": "molestias",
+  "SmsMessage": "quisquam",
+  "Description": "Monitored 4th generation definition",
+  "Subject": "incidunt",
+  "FolderId": 723,
+  "HeaderField": "sapiente",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Right-sized discrete data-warehouse",
-  "AccessKey": "molestiae",
-  "DocumentMessage": 39,
-  "Registered": "2010-02-27T11:24:48.2657757+01:00",
-  "RegisteredAssociateId": 860,
-  "Updated": "2007-03-29T11:24:48.2657757+02:00",
-  "UpdatedAssociateId": 258,
-  "UpdatedCount": 720,
+  "LongDescription": "Exclusive background conglomeration",
+  "AccessKey": "qui",
+  "DocumentMessage": 93,
+  "Registered": "2000-04-02T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 593,
+  "Updated": "2008-12-02T03:40:47.2499194+01:00",
+  "UpdatedAssociateId": 966,
+  "UpdatedCount": 183,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

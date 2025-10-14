@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProjectTypeList
 Gets an array of ProjectType objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Value": "saepe",
-    "Tooltip": "praesentium",
+    "Id": 435,
+    "Value": "id",
+    "Tooltip": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldLength": 536
       }
     }
   },
   {
-    "Id": 457,
-    "Value": "saepe",
-    "Tooltip": "praesentium",
+    "Id": 435,
+    "Value": "id",
+    "Tooltip": "ad",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldLength": 536
       }
     }
   }

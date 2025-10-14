@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Mohr, Pouros and Cummerata",
-    "ToolTip": "Quis ipsam voluptate natus est culpa.",
-    "Deleted": false,
-    "Rank": 121,
-    "Type": "expedita",
-    "ColorBlock": 294,
-    "IconHint": "sunt",
-    "Selected": true,
-    "LastChanged": "2022-01-03T11:24:54.0155411+01:00",
+    "Id": 652,
+    "Name": "Hermann, Kassulke and Gleason",
+    "ToolTip": "Explicabo magni aliquid voluptas culpa iste quasi nulla.",
+    "Deleted": true,
+    "Rank": 643,
+    "Type": "itaque",
+    "ColorBlock": 553,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2023-10-25T03:40:57.0246001+02:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Minus saepe adipisci eos qui aut molestiae.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "vel",
-        "ColorBlock": 975,
-        "IconHint": "officia",
+        "Id": 963,
+        "Name": "Crona-Hand",
+        "ToolTip": "Pariatur nisi saepe.",
+        "Deleted": true,
+        "Rank": 137,
+        "Type": "enim",
+        "ColorBlock": 298,
+        "IconHint": "incidunt",
         "Selected": false,
-        "LastChanged": "2019-11-16T11:24:54.0155411+01:00",
+        "LastChanged": "2016-04-23T03:40:57.0246001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Vicente Ankunding",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Javier Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Marge Pagac DDS",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Tito Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldLength": 836
       }
     }
   }

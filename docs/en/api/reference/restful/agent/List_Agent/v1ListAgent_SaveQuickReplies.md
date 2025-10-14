@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveQuickReplies
 Method to save all quick replies for a given associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 741,
-      "Name": "Schinner-Reichert",
+      "QuickReplyId": 421,
+      "Name": "Emmerich, Boyer and Runolfsson",
       "HtmlBody": "nulla"
     },
     {
-      "QuickReplyId": 741,
-      "Name": "Schinner-Reichert",
+      "QuickReplyId": 421,
+      "Name": "Emmerich, Boyer and Runolfsson",
       "HtmlBody": "nulla"
     }
   ]

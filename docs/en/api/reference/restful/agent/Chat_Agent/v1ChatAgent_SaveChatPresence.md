@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/SaveChatPresence
 Save the chat presence for specified users
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,29 +67,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 412,
-      "DisplayName": "Crona, Schumm and Adams",
-      "OngoingChats": 541,
-      "Present": true,
+      "UserId": 986,
+      "DisplayName": "Schaefer Group",
+      "OngoingChats": 60,
+      "Present": false,
       "ChatTopics": [
-        668,
-        856
+        435,
+        922
       ]
     },
     {
-      "UserId": 412,
-      "DisplayName": "Crona, Schumm and Adams",
-      "OngoingChats": 541,
-      "Present": true,
+      "UserId": 986,
+      "DisplayName": "Schaefer Group",
+      "OngoingChats": 60,
+      "Present": false,
       "ChatTopics": [
-        668,
-        856
+        435,
+        922
       ]
     }
   ]

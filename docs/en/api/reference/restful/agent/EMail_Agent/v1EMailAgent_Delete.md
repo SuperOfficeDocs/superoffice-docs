@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/Delete
 Delete specified mail items
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -75,10 +78,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    565,
-    724
+    325,
+    288
   ],
-  "MoveToFolder": "molestias"
+  "MoveToFolder": "aliquid"
 }
 ```
 

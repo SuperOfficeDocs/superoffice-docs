@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Renders the given targetgroup to excel, and returns the path to the temporary file.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,11 +78,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 381
+  "TargetGroupId": 638
 }
 ```
 
@@ -91,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 717,
-  "FileName": "Prohaska-Wunsch",
-  "Message": "culpa",
+  "BatchTaskId": 685,
+  "FileName": "Deckow, Mertz and Koch",
+  "Message": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

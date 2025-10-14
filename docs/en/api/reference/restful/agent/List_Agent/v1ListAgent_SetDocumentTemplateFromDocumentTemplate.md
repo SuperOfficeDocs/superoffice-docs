@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Create a new document template based on another template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -103,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 562,
+  "SourceDocumentTemplateId": 770,
   "DocumentTemplateEntity": null
 }
 ```
@@ -115,37 +117,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 6,
-  "Name": "Legros-Ward",
-  "Tooltip": "necessitatibus",
-  "SaveInDb": 224,
-  "Filename": "unde",
-  "DefaultOref": "perferendis",
+  "DocumentTemplateId": 263,
+  "Name": "Jast, Huels and Kub",
+  "Tooltip": "quam",
+  "SaveInDb": 589,
+  "Filename": "non",
+  "DefaultOref": "iusto",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 514,
-  "IntentId": 496,
-  "IsDefaultPublished": true,
-  "Rank": 754,
-  "LoadTemplateFromPlugin": 788,
-  "MimeType": "voluptate",
+  "AutoeventId": 948,
+  "IntentId": 620,
+  "IsDefaultPublished": false,
+  "Rank": 655,
+  "LoadTemplateFromPlugin": 572,
+  "MimeType": "non",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 437,
+  "DocumentTypeKey": 800,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tierra.quitzon@rippin.com",
+  "EmailSubject": "jeremy@schuppefay.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "amalia_shields@lueilwitz.info",
+  "SenderEmailAddress": "jadyn_damore@jast.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 213
+      "FieldLength": 761
     }
   }
 }

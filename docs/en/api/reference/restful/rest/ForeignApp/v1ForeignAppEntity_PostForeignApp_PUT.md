@@ -68,7 +68,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 881,
-  "Name": "Weissnat-Koss",
-  "CreatedDate": "2016-03-15T11:24:53.2811958+01:00",
-  "UpdatedDate": "2009-08-15T11:24:53.2811958+02:00",
+  "ForeignAppId": 979,
+  "Name": "Wilkinson, Walter and Ullrich",
+  "CreatedDate": "2018-12-29T03:40:55.7569215+01:00",
+  "UpdatedDate": "2004-12-18T03:40:55.7569215+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 362,
-      "Name": "Pagac, Breitenberg and Bartoletti",
-      "CreatedDate": "2016-08-31T11:24:53.2811958+02:00",
-      "UpdatedDate": "1999-09-09T11:24:53.2811958+02:00",
-      "AssociateFullName": "Buddy Christopher Jacobi MD",
-      "CreatedBy": "quas",
-      "UpdatedBy": "numquam",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 75,
+      "ForeignDeviceId": 130,
+      "Name": "Thiel-Aufderhar",
+      "CreatedDate": "2006-09-21T03:40:55.7569215+02:00",
+      "UpdatedDate": "2010-05-21T03:40:55.7569215+02:00",
+      "AssociateFullName": "Jamey Schmitt",
+      "CreatedBy": "quae",
+      "UpdatedBy": "reiciendis",
+      "DeviceIdentifier": "quaerat",
+      "ForeignAppId": 845,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldType": "System.String",
+          "FieldLength": 314
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 177
     }
   }
 }

@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -115,46 +115,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 567,
-  "ColumnId": 505,
-  "FieldDefault": "perferendis",
-  "FieldHeight": 257,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 451,
-  "FieldTop": 17,
+  "UDefFieldId": 841,
+  "ColumnId": 564,
+  "FieldDefault": "voluptatibus",
+  "FieldHeight": 871,
+  "FieldLabel": "corporis",
+  "FieldLeft": 32,
+  "FieldTop": 462,
   "FieldType": "Checkbox",
-  "FieldWidth": 160,
-  "FormatMask": "praesentium",
+  "FieldWidth": 96,
+  "FormatMask": "eius",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 35,
-  "LabelLeft": 696,
-  "LabelTop": 744,
-  "LabelWidth": 826,
-  "LastVersionId": 490,
-  "ListTableId": 665,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 119,
+  "LabelLeft": 409,
+  "LabelTop": 34,
+  "LabelWidth": 788,
+  "LastVersionId": 644,
+  "ListTableId": 464,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 703,
-  "ProgId": "asperiores",
-  "IsReadOnly": false,
-  "ShortLabel": "eaque",
-  "TabOrder": 664,
-  "TextLength": 128,
-  "Tooltip": "architecto",
-  "UdefIdentity": 566,
-  "UDListDefinitionId": 331,
+  "Page1LineNo": 28,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "totam",
+  "TabOrder": 280,
+  "TextLength": 395,
+  "Tooltip": "quo",
+  "UdefIdentity": 444,
+  "UDListDefinitionId": 937,
   "Justification": "Center",
-  "Version": 940,
-  "TemplateVariableName": "Lowe Inc and Sons",
+  "Version": 17,
+  "TemplateVariableName": "Streich-Welch",
   "HasBeenPublished": false,
-  "MdoListName": "Koss Inc and Sons",
+  "MdoListName": "Murazik, Schowalter and Wiegand",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 788
     }
   }
 }

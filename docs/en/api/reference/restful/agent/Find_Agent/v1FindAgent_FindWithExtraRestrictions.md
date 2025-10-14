@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,20 +90,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Kohler, Quigley and Block",
-  "StorageKey": "quo",
+  "StorageType": "illo",
+  "ProviderName": "Klocko LLC",
+  "StorageKey": "voluptas",
   "ExtraRestrictions": [
     {
-      "Name": "Hamill, Hilpert and Anderson",
-      "Operator": "quis",
+      "Name": "Gutmann, Hauck and Blick",
+      "Operator": "nesciunt",
       "Values": [
-        "beatae",
-        "accusantium"
+        "cum",
+        "qui"
       ],
       "DisplayValues": [
-        "occaecati",
-        "quae"
+        "aut",
+        "consectetur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -110,27 +111,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 395,
+      "InterParenthesis": 25,
       "InterOperator": "And",
-      "UniqueHash": 352
+      "UniqueHash": 709
     }
   ],
   "OrderBy": [
     {
-      "Name": "Breitenberg, Wisozk and Marks",
+      "Name": "Deckow Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Breitenberg, Wisozk and Marks",
+      "Name": "Deckow Group",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "minus",
-    "sequi"
+    "nisi",
+    "iure"
   ],
-  "PageSize": 448,
-  "PageNumber": 432
+  "PageSize": 180,
+  "PageNumber": 248
 }
 ```
 
@@ -143,51 +144,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gutkowski Group",
-      "DisplayTooltip": "qui",
-      "DisplayType": "est",
-      "CanOrderBy": true,
-      "Name": "Blick Inc and Sons",
+      "DisplayName": "Langworth, Hand and Haley",
+      "DisplayTooltip": "beatae",
+      "DisplayType": "unde",
+      "CanOrderBy": false,
+      "Name": "Goodwin LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "odio",
-      "RestrictionListName": "Zboncak LLC",
-      "IsVisible": false,
-      "ExtraInfo": "fugit",
-      "Width": "eaque",
-      "IconHint": "ratione",
-      "HeadingIconHint": "excepturi"
+      "RestrictionType": "amet",
+      "RestrictionListName": "Ankunding, Mertz and Doyle",
+      "IsVisible": true,
+      "ExtraInfo": "officiis",
+      "Width": "suscipit",
+      "IconHint": "ab",
+      "HeadingIconHint": "placeat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mitchell-Streich",
-      "PrimaryKey": 747,
+      "EntityName": "Wuckert, Bogan and Kuhn",
+      "PrimaryKey": 721,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "perferendis",
-          "TooltipHint": "sed",
-          "LinkHint": "pariatur"
+          "DisplayValue": "non",
+          "TooltipHint": "aut",
+          "LinkHint": "suscipit"
         }
       },
-      "LinkHint": "dolores",
-      "StyleHint": "ut",
+      "LinkHint": "recusandae",
+      "StyleHint": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 473
         }
       }
     }
   ],
-  "RowCount": 927,
+  "RowCount": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 797
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

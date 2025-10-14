@@ -28,7 +28,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=nihil
+GET /api/v1/List/DeliveryType/MDOItems?query=esse
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "D'Amore-Mertz",
-    "ToolTip": "Fugit enim omnis omnis exercitationem beatae eaque.",
-    "Deleted": false,
-    "Rank": 23,
-    "Type": "laborum",
+    "Id": 866,
+    "Name": "Vandervort-Kertzmann",
+    "ToolTip": "Qui odio ut sequi velit aut id omnis.",
+    "Deleted": true,
+    "Rank": 289,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Thiel, McDermott and Jones",
-        "ToolTip": "Deleniti culpa quia magnam sit.",
+        "Id": 862,
+        "Name": "Kirlin-Kautzer",
+        "ToolTip": "Quod consequatur quis voluptatem.",
         "Deleted": false,
-        "Rank": 832,
-        "Type": "sit",
+        "Rank": 351,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 436,
-        "ExtraInfo": "ea",
-        "StyleHint": "voluptates",
-        "FullName": "Casimir Graham",
+        "IconHint": "sit",
+        "ColorBlock": 852,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "ipsa",
+        "FullName": "Ms. Perry Patrick Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldLength": 973
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 972,
-    "ExtraInfo": "et",
-    "StyleHint": "consequuntur",
-    "FullName": "Mr. Cortez Callie Hyatt",
+    "IconHint": "iusto",
+    "ColorBlock": 872,
+    "ExtraInfo": "cumque",
+    "StyleHint": "eaque",
+    "FullName": "Wade Conroy V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

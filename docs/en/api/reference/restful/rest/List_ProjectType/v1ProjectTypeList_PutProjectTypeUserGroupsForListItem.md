@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Sauer, Gislason and Murray",
-    "ToolTip": "Quia a ut quia tempora repellendus.",
+    "Id": 833,
+    "Name": "Goyette Group",
+    "ToolTip": "Eius architecto sint nam atque.",
     "Deleted": false,
-    "Rank": 797,
-    "Type": "accusamus",
-    "ColorBlock": 273,
-    "IconHint": "excepturi",
+    "Rank": 381,
+    "Type": "sunt",
+    "ColorBlock": 531,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2021-10-17T11:24:54.0311654+02:00",
+    "LastChanged": "2002-09-02T03:40:57.040226+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Hammes, Conn and Jacobson",
-        "ToolTip": "Nihil et.",
-        "Deleted": false,
-        "Rank": 90,
-        "Type": "enim",
-        "ColorBlock": 829,
-        "IconHint": "amet",
+        "Id": 372,
+        "Name": "McKenzie-Skiles",
+        "ToolTip": "A ab.",
+        "Deleted": true,
+        "Rank": 459,
+        "Type": "totam",
+        "ColorBlock": 367,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2025-05-23T11:24:54.0311654+02:00",
+        "LastChanged": "2018-09-14T03:40:57.040226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Mr. Claudie Jeffrey Boyle"
+        "ExtraInfo": "provident",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Florence Rohan"
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "quam",
     "Hidden": true,
-    "FullName": "Mrs. Davion Corwin"
+    "FullName": "Miss Taurean Littel I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Nienow LLC",
-    "ToolTip": "Nobis quo.",
+    "Id": 536,
+    "Name": "McKenzie-Lebsack",
+    "ToolTip": "Sit ipsam similique dolore recusandae laboriosam.",
     "Deleted": true,
-    "Rank": 581,
-    "Type": "dolorem",
-    "ColorBlock": 8,
-    "IconHint": "aliquam",
+    "Rank": 490,
+    "Type": "commodi",
+    "ColorBlock": 466,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2002-09-09T11:24:54.0311654+02:00",
+    "LastChanged": "1999-12-30T03:40:57.040226+01:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Rippin-Bashirian",
-        "ToolTip": "Quas sint dolor corporis nobis iste a ut.",
+        "Id": 406,
+        "Name": "Kozey, Parisian and Terry",
+        "ToolTip": "Animi placeat eius.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "modi",
-        "ColorBlock": 761,
-        "IconHint": "nisi",
+        "Rank": 84,
+        "Type": "ipsa",
+        "ColorBlock": 122,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2009-01-14T11:24:54.0311654+01:00",
+        "LastChanged": "2006-09-10T03:40:57.040226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "libero",
         "Hidden": true,
-        "FullName": "Mr. Estelle Monty Balistreri I",
+        "FullName": "Valentine Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldLength": 505
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "aut",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Dr. Macey Lamont Weber",
+    "FullName": "Augustine Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldType": "System.String",
+        "FieldLength": 14
       }
     }
   }

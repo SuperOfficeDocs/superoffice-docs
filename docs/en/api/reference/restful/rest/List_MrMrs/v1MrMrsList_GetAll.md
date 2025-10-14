@@ -26,7 +26,7 @@ Gets all the MrMrs items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/MrMrs/Items?includeDeleted=True
+GET /api/v1/List/MrMrs/Items?includeDeleted=False
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Feest, Ferry and Hartmann",
-    "Tooltip": "excepturi",
+    "Id": 706,
+    "Name": "Bartell Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 45,
-    "Rank": 306,
+    "UdListDefinitionId": 712,
+    "Rank": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 781
       }
     }
   }

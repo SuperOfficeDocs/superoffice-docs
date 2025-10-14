@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Get email from db based on In-Reply-To Message Id
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -105,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "consectetur"
+  "MessageId": "debitis"
 }
 ```
 
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 364,
-      "ContactName": "Marvin-Kassulke",
-      "PersonId": 147,
-      "PersonName": "Schmidt-Gusikowski",
-      "AssociateId": 168,
-      "Address": "quae",
-      "EmailId": 890,
+      "ContactId": 965,
+      "ContactName": "Sanford-Powlowski",
+      "PersonId": 561,
+      "PersonName": "Olson-Lesch",
+      "AssociateId": 282,
+      "Address": "laboriosam",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        374,
-        952
+        183,
+        992
       ],
-      "Name": "Anderson, Wisoky and Swift",
+      "Name": "Kutch Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 78
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 37,
-      "ContactName": "Goyette, Hirthe and Jacobi",
-      "PersonId": 410,
-      "PersonName": "West, Kub and Stamm",
-      "AssociateId": 116,
-      "Address": "placeat",
-      "EmailId": 782,
+      "ContactId": 847,
+      "ContactName": "Wisozk, Smitham and Schmidt",
+      "PersonId": 670,
+      "PersonName": "Stoltenberg-Windler",
+      "AssociateId": 356,
+      "Address": "et",
+      "EmailId": 19,
       "DuplicatePersonIds": [
-        163,
-        896
+        684,
+        399
       ],
-      "Name": "Bednar-Kihn",
+      "Name": "Paucek Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 610,
-      "ContactName": "Watsica, Lind and Gottlieb",
-      "PersonId": 817,
-      "PersonName": "Walsh, Nader and Bins",
-      "AssociateId": 450,
-      "Address": "laboriosam",
-      "EmailId": 846,
+      "ContactId": 389,
+      "ContactName": "Gibson-Schoen",
+      "PersonId": 833,
+      "PersonName": "Zulauf-Marvin",
+      "AssociateId": 22,
+      "Address": "accusantium",
+      "EmailId": 682,
       "DuplicatePersonIds": [
-        229,
-        397
+        87,
+        152
       ],
-      "Name": "Heaney-Hessel",
+      "Name": "Homenick, Rath and Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 367
         }
       }
     }
   ],
-  "Subject": "officiis",
-  "HTMLBody": "blanditiis",
+  "Subject": "expedita",
+  "HTMLBody": "perferendis",
   "From": null,
-  "Sent": "2025-08-24T11:24:48.03141+02:00",
-  "Size": 220,
+  "Sent": "2002-08-25T03:40:46.7655146+02:00",
+  "Size": 650,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "facilis",
-  "PlainBody": "sit",
+  "MessageID": "optio",
+  "PlainBody": "reprehenderit",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 953,
+  "ServerId": 326,
   "Attachments": [
     {
-      "Description": "Triple-buffered didactic knowledge base",
-      "Filename": "qui",
-      "Size": 122,
-      "Type": "debitis",
-      "Encoding": "error",
-      "Id": "sed",
-      "Disposition": "aperiam",
+      "Description": "Diverse directional capacity",
+      "Filename": "delectus",
+      "Size": 9,
+      "Type": "corporis",
+      "Encoding": "et",
+      "Id": "placeat",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,50 +219,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 266
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Doyle Group",
+      "Name": "Collier Inc and Sons",
       "Values": [
-        "et",
-        "laboriosam"
+        "perferendis",
+        "doloribus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     },
     {
-      "Name": "Doyle Group",
+      "Name": "Collier Inc and Sons",
       "Values": [
-        "et",
-        "laboriosam"
+        "perferendis",
+        "doloribus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
   ],
-  "FolderName": "Wehner Inc and Sons",
-  "EmailItemId": 450,
-  "AccountId": 343,
-  "ReceivedAt": "2013-05-07T11:24:48.03141+02:00",
+  "FolderName": "Zemlak-Wyman",
+  "EmailItemId": 523,
+  "AccountId": 806,
+  "ReceivedAt": "2017-07-11T03:40:46.7655146+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-02-22T11:24:48.03141+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2011-12-14T03:40:46.7655146+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 996
     }
   }
 }

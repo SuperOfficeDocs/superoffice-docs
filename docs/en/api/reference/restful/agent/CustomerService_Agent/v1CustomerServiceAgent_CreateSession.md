@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CreateSession
 Creates a login session for a CS user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "eveniet"
+  "RemoteIp": "facilis"
 }
 ```
 
@@ -91,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nihil",
-  "LoginId": 434,
-  "UserId": 849,
+  "Key": "repellat",
+  "LoginId": 89,
+  "UserId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 586
     }
   }
 }

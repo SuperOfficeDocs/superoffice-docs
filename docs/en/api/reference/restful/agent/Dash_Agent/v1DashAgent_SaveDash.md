@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDash
 Updates the existing Dash or creates a new Dash if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,34 +90,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 3,
-  "UniqueId": "nostrum",
-  "Name": "Maggio-Gleichner",
-  "Description": "Re-contextualized radical data-warehouse",
-  "AssociateId": 317,
-  "Columns": 300,
+  "DashboardId": 71,
+  "UniqueId": "et",
+  "Name": "Harvey, Jast and Abbott",
+  "Description": "Mandatory neutral collaboration",
+  "AssociateId": 875,
+  "Columns": 519,
   "Theme": null,
-  "VisibleForAll": 679,
+  "VisibleForAll": 729,
   "VisibleForAssociates": [
-    742,
-    721
+    880,
+    176
   ],
   "VisibleForGroups": [
-    721,
-    673
+    445,
+    672
   ],
-  "PinForAll": 305,
+  "PinForAll": 164,
   "PinForAssociates": [
-    858,
-    963
+    954,
+    209
   ],
   "PinForGroups": [
-    169,
-    254
+    847,
+    58
   ]
 }
 ```
@@ -127,37 +129,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 742,
-  "UniqueId": "consequatur",
-  "Name": "Borer LLC",
-  "Description": "De-engineered user-facing encoding",
-  "AssociateId": 455,
-  "Columns": 682,
+  "DashboardId": 56,
+  "UniqueId": "ut",
+  "Name": "Denesik-Ryan",
+  "Description": "Configurable intermediate Graphic Interface",
+  "AssociateId": 485,
+  "Columns": 720,
   "Theme": null,
-  "VisibleForAll": 483,
+  "VisibleForAll": 563,
   "VisibleForAssociates": [
-    130,
-    369
+    361,
+    373
   ],
   "VisibleForGroups": [
-    299,
-    447
+    750,
+    296
   ],
-  "PinForAll": 832,
+  "PinForAll": 651,
   "PinForAssociates": [
-    456,
-    858
+    714,
+    111
   ],
   "PinForGroups": [
-    268,
-    913
+    487,
+    52
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

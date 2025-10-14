@@ -15,6 +15,7 @@ CanCreateAppointmentInAssociateDiaries will check if the current associate can c
 
 
 CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    302,
-    939
+    951,
+    249
   ]
 }
 ```
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

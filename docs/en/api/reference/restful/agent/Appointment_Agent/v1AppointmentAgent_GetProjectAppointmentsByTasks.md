@@ -15,6 +15,7 @@ Method that returns a specified number of appointments matching the list of appo
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 937,
-  "StartTime": "2010-01-03T11:24:47.2970652+01:00",
-  "EndTime": "2012-12-23T11:24:47.2970652+01:00",
-  "Count": 951,
+  "ProjectId": 785,
+  "StartTime": "2022-10-29T03:40:45.60749+02:00",
+  "EndTime": "2014-11-13T03:40:45.60749+01:00",
+  "Count": 995,
   "TaskIds": [
-    886,
-    388
+    564,
+    635
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 741,
-    "StartDate": "2024-03-02T11:24:47.2970652+01:00",
-    "EndDate": "2018-03-06T11:24:47.2970652+01:00",
+    "AppointmentId": 574,
+    "StartDate": "2021-06-09T03:40:45.60749+02:00",
+    "EndDate": "2024-04-07T03:40:45.60749+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ea",
-    "AssociateFullName": "Miss Verona Ryan",
-    "ContactName": "Hagenes Group",
-    "Description": "Ergonomic holistic solution",
-    "PersonFullName": "Osvaldo Mitchell",
-    "PersonId": 367,
-    "ContactId": 129,
-    "ProjectId": 165,
-    "ProjectName": "Beier LLC",
-    "IsPublished": true,
-    "AssociateId": 521,
-    "ColorIndex": 651,
+    "Task": "aliquid",
+    "AssociateFullName": "Laisha Hoppe",
+    "ContactName": "Nolan Group",
+    "Description": "Enterprise-wide object-oriented initiative",
+    "PersonFullName": "Bria Kertzmann",
+    "PersonId": 678,
+    "ContactId": 947,
+    "ProjectId": 361,
+    "ProjectName": "Conn-Berge",
+    "IsPublished": false,
+    "AssociateId": 206,
+    "ColorIndex": 505,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 578,
-    "PriorityName": "Abernathy, Schulist and Streich",
+    "PriorityId": 886,
+    "PriorityName": "Hagenes-Cummerata",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2001-02-15T11:24:47.2970652+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2014-03-26T03:40:45.60749+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-12-08T11:24:47.2970652+01:00",
-    "RecurringEndDate": "2014-12-10T11:24:47.2970652+01:00",
-    "MotherId": 953,
-    "AssignedBy": 904,
-    "AssignedByFullName": "Elise Schmidt",
+    "RecurringStartDate": "2001-07-05T03:40:45.60749+02:00",
+    "RecurringEndDate": "2001-04-28T03:40:45.60749+02:00",
+    "MotherId": 932,
+    "AssignedBy": 506,
+    "AssignedByFullName": "Ebony Purdy",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "quae",
-    "SaleId": 251,
-    "SaleName": "Thiel Inc and Sons",
-    "AssociateName": "Bahringer, Turner and Thiel",
-    "CreatedDate": "2022-02-19T11:24:47.2970652+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Prof. Rowan Ambrose McDermott",
-    "CreatedByAssociateId": 630,
+    "Location": "cupiditate",
+    "AlarmLeadTime": "quo",
+    "SaleId": 874,
+    "SaleName": "Dickens-Toy",
+    "AssociateName": "VonRueden, Larkin and Braun",
+    "CreatedDate": "2009-03-31T03:40:45.60749+02:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Darrel Brown",
+    "CreatedByAssociateId": 760,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 265,
+    "MotherAssociateId": 398,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 263,
-    "Title": "necessitatibus",
-    "Agenda": "eum",
-    "InternalNotes": "accusantium",
+    "PreferredTZLocation": 324,
+    "Title": "modi",
+    "Agenda": "aut",
+    "InternalNotes": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldType": "System.String",
+        "FieldLength": 691
       }
     }
   }

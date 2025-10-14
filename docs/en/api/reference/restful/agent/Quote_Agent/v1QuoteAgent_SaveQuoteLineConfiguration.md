@@ -15,6 +15,7 @@ Save a QuoteLineConfiguration object.
 
 
 It is not possible to add a new configuration.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -99,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 909,
-  "FieldName": "Stroman, Little and White",
-  "Label": "et",
-  "Tooltip": "esse",
+  "QuoteLineConfigurationId": 139,
+  "FieldName": "Gutkowski LLC",
+  "Label": "qui",
+  "Tooltip": "in",
   "Editable": false,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 413,
-  "RestrictEdit": false,
+  "Rank": 233,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 253
     }
   }
 }

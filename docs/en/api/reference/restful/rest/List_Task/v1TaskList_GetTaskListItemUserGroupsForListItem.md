@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Hegmann, Willms and Oberbrunner",
-    "ToolTip": "Et et earum et iure dicta dolores non.",
+    "Id": 615,
+    "Name": "Bergnaum LLC",
+    "ToolTip": "Deserunt est atque rerum ullam.",
     "Deleted": true,
-    "Rank": 344,
-    "Type": "rerum",
-    "ColorBlock": 31,
-    "IconHint": "cupiditate",
-    "Selected": true,
-    "LastChanged": "2018-02-06T11:24:54.1561606+01:00",
+    "Rank": 898,
+    "Type": "tempora",
+    "ColorBlock": 345,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2006-03-03T03:40:57.1344494+01:00",
     "ChildItems": [
       {
-        "Id": 825,
-        "Name": "Haley, Casper and McKenzie",
-        "ToolTip": "Omnis repudiandae delectus qui dicta voluptates in qui.",
+        "Id": 91,
+        "Name": "Pollich LLC",
+        "ToolTip": "Ipsam exercitationem debitis dolores.",
         "Deleted": true,
-        "Rank": 888,
-        "Type": "ut",
-        "ColorBlock": 950,
-        "IconHint": "voluptatem",
+        "Rank": 781,
+        "Type": "ab",
+        "ColorBlock": 959,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2023-01-08T11:24:54.1561606+01:00",
+        "LastChanged": "2016-05-14T03:40:57.1344494+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "non",
+        "ExtraInfo": "rerum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Virgil Gutmann",
+        "FullName": "Karelle Murray MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 969
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "autem",
+    "ExtraInfo": "minus",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Frederik Schaefer",
+    "FullName": "Adeline Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 34
       }
     }
   }

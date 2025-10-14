@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPaymentTypes
 Returns all PaymentTypes in SuperOffice db.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 106,
-    "Value": "aut",
-    "Tooltip": "quia",
+    "Id": 60,
+    "Value": "a",
+    "Tooltip": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 1001
       }
     }
   },
   {
-    "Id": 106,
-    "Value": "aut",
-    "Tooltip": "quia",
+    "Id": 60,
+    "Value": "a",
+    "Tooltip": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 1001
       }
     }
   }

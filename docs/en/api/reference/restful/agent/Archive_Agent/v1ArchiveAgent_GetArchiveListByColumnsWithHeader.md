@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
 
-The return value includes a header that has various extra information, in addition to the actual rows. 
+The return value includes a header that has various extra information, in addition to the actual rows.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -103,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Champlin-Marquardt",
+  "ProviderName": "Breitenberg Inc and Sons",
   "Columns": [
-    "perspiciatis",
+    "aspernatur",
     "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Lang, Parker and Waters",
+      "Name": "Lowe, Heller and Terry",
       "Direction": "ASC"
     },
     {
-      "Name": "Lang, Parker and Waters",
+      "Name": "Lowe, Heller and Terry",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hackett Inc and Sons",
-      "Operator": "illo",
+      "Name": "Deckow Group",
+      "Operator": "explicabo",
       "Values": [
-        "recusandae",
-        "consectetur"
+        "impedit",
+        "illo"
       ],
       "DisplayValues": [
-        "ab",
-        "corporis"
+        "natus",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 223,
+      "InterParenthesis": 510,
       "InterOperator": "And",
-      "UniqueHash": 1001
+      "UniqueHash": 387
     }
   ],
   "Entities": [
-    "facilis",
-    "quidem"
+    "magni",
+    "et"
   ],
-  "Page": 691,
-  "PageSize": 911,
-  "Options": "in"
+  "Page": 216,
+  "PageSize": 192,
+  "Options": "voluptatum"
 }
 ```
 
@@ -162,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 872,
+  "RowCount": 67,
   "Rows": [
     {
-      "EntityName": "O'Kon, Bins and Schneider",
-      "PrimaryKey": 457,
+      "EntityName": "Turcotte-Jacobi",
+      "PrimaryKey": 699,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "rerum",
-          "TooltipHint": "quibusdam",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "cum",
+          "TooltipHint": "et",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "expedita",
-      "StyleHint": "sed",
+      "LinkHint": "voluptatem",
+      "StyleHint": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 401
+          "FieldLength": 104
         }
       }
     }
@@ -190,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

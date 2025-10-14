@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Get all licenses, with usage, from all module owners as they are stored in the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,15 +90,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 686,
-        "NumberOfLicensesFree": 464,
-        "NumberOfLicensesAdded": 464,
-        "NumberOfLicensesNewTotal": 33,
-        "NumberOfLicensesNewFree": 624,
-        "NumberOfLicensesTotal": 447
+        "NumberOfLicensesInUse": 736,
+        "NumberOfLicensesFree": 981,
+        "NumberOfLicensesAdded": 938,
+        "NumberOfLicensesNewTotal": 606,
+        "NumberOfLicensesNewFree": 124,
+        "NumberOfLicensesTotal": 467
       }
     ],
-    "AccumulatedNextCheckDate": "2024-12-05T11:24:48.1720293+01:00"
+    "AccumulatedNextCheckDate": "2001-02-04T03:40:46.9999043+01:00"
   },
   {
     "Reason": "",
@@ -107,15 +109,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 686,
-        "NumberOfLicensesFree": 464,
-        "NumberOfLicensesAdded": 464,
-        "NumberOfLicensesNewTotal": 33,
-        "NumberOfLicensesNewFree": 624,
-        "NumberOfLicensesTotal": 447
+        "NumberOfLicensesInUse": 736,
+        "NumberOfLicensesFree": 981,
+        "NumberOfLicensesAdded": 938,
+        "NumberOfLicensesNewTotal": 606,
+        "NumberOfLicensesNewFree": 124,
+        "NumberOfLicensesTotal": 467
       }
     ],
-    "AccumulatedNextCheckDate": "2024-12-05T11:24:48.1720293+01:00"
+    "AccumulatedNextCheckDate": "2001-02-04T03:40:46.9999043+01:00"
   }
 ]
 ```

@@ -15,6 +15,7 @@ Creates a new ListEntity
 
 
 Calls the List agent service SaveListEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -99,16 +100,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "DuBuque LLC",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "Rank": 76,
+  "Id": 860,
+  "Name": "Sipes LLC",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "Rank": 527,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": true
+  "ListType": "quisquam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -119,22 +120,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Grimes, McKenzie and Bechtelar",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 130,
+  "Id": 333,
+  "Name": "Bergnaum LLC",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 701,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 227
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   },
   "_Links": {

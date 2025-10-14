@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetProduct
 Get a product with the given key
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,12 +110,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 548,
-  "ERPProductKey": "in"
+  "QuoteConnectionId": 774,
+  "ERPProductKey": "et"
 }
 ```
 
@@ -124,73 +126,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 13,
-  "ERPProductKey": "tempora",
-  "ERPPriceListKey": "doloremque",
-  "Name": "Goldner-Kessler",
-  "Description": "Persevering next generation toolset",
-  "Code": "veritatis",
-  "PriceUnit": "totam",
-  "QuantityUnit": "consectetur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "dignissimos",
-  "DefaultSubscriptionQuantity": 10257.582,
-  "ItemNumber": "1509033",
+  "ProductId": 861,
+  "ERPProductKey": "iste",
+  "ERPPriceListKey": "deleniti",
+  "Name": "Weissnat Inc and Sons",
+  "Description": "Distributed dedicated Graphic Interface",
+  "Code": "et",
+  "PriceUnit": "consequatur",
+  "QuantityUnit": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 16820.178,
+  "ItemNumber": "1451760",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "maiores",
-  "VAT": 11094.359999999999,
-  "VATInfo": "in",
-  "UnitCost": 830.51,
-  "UnitMinimumPrice": 6305.608,
-  "UnitListPrice": 1328.816,
+  "ProductFamilyKey": "quam",
+  "ProductTypeKey": "nihil",
+  "VAT": 24742.93,
+  "VATInfo": "eos",
+  "UnitCost": 12247.672,
+  "UnitMinimumPrice": 16105.626,
+  "UnitListPrice": 17926.48,
   "InAssortment": true,
-  "Supplier": "quia",
-  "SupplierCode": "voluptate",
-  "Rights": "voluptatem",
-  "Rule": "placeat",
+  "Supplier": "similique",
+  "SupplierCode": "omnis",
+  "Rights": "voluptas",
+  "Rule": "porro",
   "ExtraInfo": [
     {
-      "Name": "Reilly-Flatley",
-      "Value": "earum",
+      "Name": "Becker-Parisian",
+      "Value": "reprehenderit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldType": "System.Int32",
+          "FieldLength": 475
         }
       }
     },
     {
-      "Name": "Reilly-Flatley",
-      "Value": "earum",
+      "Name": "Becker-Parisian",
+      "Value": "reprehenderit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldType": "System.Int32",
+          "FieldLength": 475
         }
       }
     }
   ],
-  "RawExtraInfo": "beatae",
-  "ExtraField1": "molestiae",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "quam",
-  "ExtraField4": "aut",
-  "ExtraField5": "itaque",
-  "InStock": 4710.402,
+  "RawExtraInfo": "fuga",
+  "ExtraField1": "quis",
+  "ExtraField2": "placeat",
+  "ExtraField3": "sed",
+  "ExtraField4": "vel",
+  "ExtraField5": "iusto",
+  "InStock": 20349.061999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

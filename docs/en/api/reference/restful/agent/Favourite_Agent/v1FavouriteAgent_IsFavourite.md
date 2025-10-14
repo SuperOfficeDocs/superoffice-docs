@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/IsFavourite
 Checks if a record in a table is a favourite for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Howe LLC",
-  "RecordId": 705,
-  "AssociateId": 170
+  "TableName": "Mante-Hane",
+  "RecordId": 939,
+  "AssociateId": 224
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

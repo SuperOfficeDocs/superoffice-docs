@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 154,
-    "Name": "Nolan-Russel",
-    "Tooltip": "aut",
+    "HeadingId": 469,
+    "Name": "Robel, Windler and Carroll",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 506
+    "Rank": 376,
+    "UdListDefinitionId": 660
   },
   {
-    "HeadingId": 154,
-    "Name": "Nolan-Russel",
-    "Tooltip": "aut",
+    "HeadingId": 469,
+    "Name": "Robel, Windler and Carroll",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 549,
-    "UdListDefinitionId": 506
+    "Rank": 376,
+    "UdListDefinitionId": 660
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 938,
-    "Name": "Pollich-Braun",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 711,
+    "HeadingId": 770,
+    "Name": "Ziemann, Nolan and Crist",
+    "Tooltip": "ipsam",
+    "Deleted": true,
+    "Rank": 163,
+    "UdListDefinitionId": 360,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 101
       }
     }
   }

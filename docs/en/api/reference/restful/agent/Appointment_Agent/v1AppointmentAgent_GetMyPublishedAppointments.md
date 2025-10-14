@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Get published appointments from the logged in user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -120,7 +122,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -131,67 +133,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 890,
-    "StartDate": "2016-03-16T11:24:47.3126897+01:00",
-    "EndDate": "2005-06-08T11:24:47.3126897+02:00",
+    "AppointmentId": 182,
+    "StartDate": "2024-12-20T03:40:45.6231158+01:00",
+    "EndDate": "2021-11-08T03:40:45.6231158+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Clementine Amari Gleason III",
-    "ContactName": "Kris Group",
-    "Description": "Extended next generation website",
-    "PersonFullName": "Dr. Kristy Pagac",
-    "PersonId": 600,
-    "ContactId": 253,
-    "ProjectId": 274,
-    "ProjectName": "Marquardt, Reinger and Rosenbaum",
+    "Task": "dignissimos",
+    "AssociateFullName": "Chloe Stanton",
+    "ContactName": "Pfeffer-Sawayn",
+    "Description": "Organic web-enabled info-mediaries",
+    "PersonFullName": "Olen Amalia Schaden DVM",
+    "PersonId": 303,
+    "ContactId": 992,
+    "ProjectId": 995,
+    "ProjectName": "Dibbert Group",
     "IsPublished": false,
-    "AssociateId": 690,
-    "ColorIndex": 433,
+    "AssociateId": 541,
+    "ColorIndex": 650,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 658,
-    "PriorityName": "Predovic, Stanton and Schulist",
+    "PriorityId": 44,
+    "PriorityName": "Schmitt-Conroy",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2012-09-15T11:24:47.3126897+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2021-05-28T03:40:45.6231158+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-06-23T11:24:47.3126897+02:00",
-    "RecurringEndDate": "2014-12-25T11:24:47.3126897+01:00",
-    "MotherId": 774,
-    "AssignedBy": 92,
-    "AssignedByFullName": "Dr. Cyrus Stehr I",
+    "RecurringStartDate": "2005-03-13T03:40:45.6231158+01:00",
+    "RecurringEndDate": "2011-07-16T03:40:45.6231158+02:00",
+    "MotherId": 997,
+    "AssignedBy": 940,
+    "AssignedByFullName": "Katelynn Stehr",
     "RejectReason": "",
-    "Location": "animi",
-    "AlarmLeadTime": "dignissimos",
-    "SaleId": 103,
-    "SaleName": "Braun, Hartmann and Schoen",
-    "AssociateName": "Schuster, Hills and Mann",
-    "CreatedDate": "1998-07-01T11:24:47.3126897+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Verner Kris",
-    "CreatedByAssociateId": 162,
+    "Location": "atque",
+    "AlarmLeadTime": "ut",
+    "SaleId": 656,
+    "SaleName": "Hauck-Reinger",
+    "AssociateName": "Hilpert Inc and Sons",
+    "CreatedDate": "2010-02-28T03:40:45.6231158+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Richmond Macejkovic",
+    "CreatedByAssociateId": 279,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 829,
+    "MotherAssociateId": 252,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 367,
-    "Title": "assumenda",
-    "Agenda": "esse",
-    "InternalNotes": "ducimus",
+    "PreferredTZLocation": 51,
+    "Title": "incidunt",
+    "Agenda": "tempora",
+    "InternalNotes": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

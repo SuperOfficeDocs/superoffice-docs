@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Loading default values into a new PriceList.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 205,
-  "ERPPriceListKey": "debitis",
-  "QuoteConnectionId": 915,
-  "Name": "Senger, Schroeder and Ullrich",
-  "Description": "Re-engineered static access",
-  "Currency": "saepe",
-  "CurrencyName": "Reichel-Lemke",
-  "ValidFrom": "2007-02-03T11:24:48.5157652+01:00",
-  "ValidTo": "2023-12-24T11:24:48.5157652+01:00",
+  "PriceListId": 360,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 58,
+  "Name": "Skiles Inc and Sons",
+  "Description": "Ergonomic incremental analyzer",
+  "Currency": "nemo",
+  "CurrencyName": "Ledner, Beahan and Pollich",
+  "ValidFrom": "2004-02-29T03:40:47.5317063+01:00",
+  "ValidTo": "2008-01-23T03:40:47.5317063+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 992
     }
   }
 }

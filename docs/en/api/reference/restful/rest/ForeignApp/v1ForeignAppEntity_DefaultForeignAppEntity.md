@@ -15,6 +15,7 @@ Set default values into a new ForeignAppEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the ForeignSystem agent service CreateDefaultForeignAppEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -64,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 09 Jul 2016 11:24:53 G7T
+Last-Modified: Thu, 21 Mar 2013 03:40:55 G3T
 
 {
-  "ForeignAppId": 127,
-  "Name": "Greenfelder-Wiegand",
-  "CreatedDate": "2011-01-31T11:24:53.2811958+01:00",
-  "UpdatedDate": "2016-07-09T11:24:53.2811958+02:00",
+  "ForeignAppId": 369,
+  "Name": "Bins-Schowalter",
+  "CreatedDate": "2024-06-01T03:40:55.7569215+02:00",
+  "UpdatedDate": "2013-03-21T03:40:55.7569215+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 32,
-      "Name": "Hoppe, Brown and Kuhn",
-      "CreatedDate": "2021-12-19T11:24:53.2811958+01:00",
-      "UpdatedDate": "2023-08-13T11:24:53.2811958+02:00",
-      "AssociateFullName": "Julia Reichert",
-      "CreatedBy": "amet",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 434,
+      "ForeignDeviceId": 681,
+      "Name": "Tromp, Sipes and Gusikowski",
+      "CreatedDate": "2007-01-15T03:40:55.7569215+01:00",
+      "UpdatedDate": "2001-10-20T03:40:55.7569215+02:00",
+      "AssociateFullName": "Kassandra Rippin",
+      "CreatedBy": "dignissimos",
+      "UpdatedBy": "voluptatem",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 739,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 808
+          "FieldLength": 391
         }
       }
     }
@@ -107,7 +108,7 @@ Last-Modified: Sat, 09 Jul 2016 11:24:53 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 108
     }
   }
 }

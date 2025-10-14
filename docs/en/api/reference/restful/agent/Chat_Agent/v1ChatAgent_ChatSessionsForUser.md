@@ -15,6 +15,7 @@ Get all chat sessions which this user is a member of.
 
 
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,29 +110,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 311,
-    "TopicId": 135,
+    "ChatSessionId": 618,
+    "TopicId": 506,
     "User": null,
     "Person": null,
-    "CustomerAlias": "est",
-    "CustomerHost": "facilis",
-    "CustomerName": "Bins-Ondricka",
-    "CustomerEmail": "sonny@halvorson.us",
-    "CustomerPhone": "970.089.9253 x9712",
+    "CustomerAlias": "et",
+    "CustomerHost": "non",
+    "CustomerName": "Jenkins Inc and Sons",
+    "CustomerEmail": "adelia.rosenbaum@paucek.info",
+    "CustomerPhone": "1-897-852-7160 x41915",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Price LLC",
+    "CustomerCompanyName": "Wehner LLC",
     "Status": "Closed",
-    "FirstMessage": "numquam",
-    "LastMessage": "id",
-    "WhenRequested": "2015-12-18T11:24:47.6564254+01:00",
-    "WhenStarted": "2013-05-11T11:24:47.6564254+02:00",
-    "WhenEnded": "2002-10-01T11:24:47.6564254+02:00",
-    "WhenIdle": "2017-02-20T11:24:47.6564254+01:00",
-    "WhenFetched": "2009-09-24T11:24:47.6564254+02:00",
-    "SessionKey": "ut",
-    "InitialQueuePos": 889,
+    "FirstMessage": "consequatur",
+    "LastMessage": "consequatur",
+    "WhenRequested": "2005-04-18T03:40:46.1389588+02:00",
+    "WhenStarted": "1999-11-26T03:40:46.1389588+01:00",
+    "WhenEnded": "2012-12-08T03:40:46.1389588+01:00",
+    "WhenIdle": "2017-12-15T03:40:46.1389588+01:00",
+    "WhenFetched": "2011-06-24T03:40:46.1389588+02:00",
+    "SessionKey": "illo",
+    "InitialQueuePos": 344,
     "AlertLevel": 576,
-    "Rank": 25,
+    "Rank": 488,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -139,13 +140,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 426,
+    "Rating": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Reichert, Walsh and Reichert",
-    "ToolTip": "Facere quaerat fugit ducimus perferendis sunt qui omnis.",
+    "Id": 215,
+    "Name": "Boyle, Abbott and Sauer",
+    "ToolTip": "Autem magni nostrum.",
     "Deleted": false,
-    "Rank": 725,
-    "Type": "beatae",
-    "ColorBlock": 473,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1999-12-24T11:24:54.1561606+01:00",
+    "Rank": 503,
+    "Type": "voluptas",
+    "ColorBlock": 777,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2001-03-07T03:40:57.1344494+01:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Marks Inc and Sons",
-        "ToolTip": "Rem dolorem error.",
+        "Id": 381,
+        "Name": "Senger Group",
+        "ToolTip": "Et odit.",
         "Deleted": false,
-        "Rank": 443,
-        "Type": "sed",
-        "ColorBlock": 364,
-        "IconHint": "iure",
+        "Rank": 854,
+        "Type": "dolorem",
+        "ColorBlock": 83,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2006-05-24T11:24:54.1717846+02:00",
+        "LastChanged": "2022-01-07T03:40:57.1344494+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "sit",
+        "ExtraInfo": "quia",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Aric Dejah Turcotte II"
+        "FullName": "Karina Myra Bartoletti DDS"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Tianna Cruz Kreiger DVM"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "nihil",
+    "Hidden": true,
+    "FullName": "Tiara Watson Purdy III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kovacek Group",
-    "ToolTip": "Harum aut itaque a atque ipsam quisquam expedita.",
+    "Id": 428,
+    "Name": "Eichmann Group",
+    "ToolTip": "Quia quaerat maiores doloremque omnis fugit ea.",
     "Deleted": true,
-    "Rank": 458,
-    "Type": "ex",
-    "ColorBlock": 106,
-    "IconHint": "architecto",
+    "Rank": 983,
+    "Type": "in",
+    "ColorBlock": 714,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "1999-10-25T11:24:54.1717846+02:00",
+    "LastChanged": "1999-01-04T03:40:57.1344494+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Nicolas-McLaughlin",
-        "ToolTip": "Non sit voluptas suscipit sit.",
+        "Id": 442,
+        "Name": "Stracke, Towne and Lemke",
+        "ToolTip": "Recusandae earum fugit qui.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "facere",
-        "ColorBlock": 546,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2024-02-06T11:24:54.1717846+01:00",
+        "Rank": 26,
+        "Type": "omnis",
+        "ColorBlock": 350,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2004-01-27T03:40:57.1344494+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Rodrick Marks MD",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Ms. Hosea Stephan Steuber Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldType": "System.Int32",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Ms. Anastacio Hills II",
+    "ExtraInfo": "libero",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Julien Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

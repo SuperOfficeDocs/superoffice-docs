@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,20 +84,20 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 499,
-  "FormId": 914,
-  "WhenSubmitted": "2025-06-07T11:24:48.2657757+02:00",
-  "ContactId": 995,
-  "PersonId": 162,
-  "EmailAddress": "kendrick.rau@wolffrippin.name",
-  "ResponseShipmentAddrId": 154,
-  "Response": "aperiam",
+  "FormSubmissionId": 170,
+  "FormId": 802,
+  "WhenSubmitted": "2001-12-09T03:40:47.2499194+01:00",
+  "ContactId": 809,
+  "PersonId": 451,
+  "EmailAddress": "quinn@christiansen.info",
+  "ResponseShipmentAddrId": 894,
+  "Response": "qui",
   "Status": "EmailVerification",
-  "ProcessingLog": "maxime"
+  "ProcessingLog": "saepe"
 }
 ```
 
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 361,
-  "FormId": 518,
-  "WhenSubmitted": "2010-12-09T11:24:48.2657757+01:00",
-  "ContactId": 823,
-  "PersonId": 401,
-  "EmailAddress": "paula.russel@wolf.info",
-  "ResponseShipmentAddrId": 458,
-  "Response": "soluta",
+  "FormSubmissionId": 142,
+  "FormId": 132,
+  "WhenSubmitted": "2002-03-25T03:40:47.2499194+01:00",
+  "ContactId": 471,
+  "PersonId": 170,
+  "EmailAddress": "dominic@monahan.name",
+  "ResponseShipmentAddrId": 306,
+  "Response": "et",
   "Status": "EmailVerification",
-  "ProcessingLog": "enim",
+  "ProcessingLog": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldType": "System.Int32",
+      "FieldLength": 282
     }
   }
 }

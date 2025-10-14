@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Heller, Brown and Hahn",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 667,
+  "Id": 825,
+  "Name": "Bartoletti, Moore and Quitzon",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "Rank": 535,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Runte, Lebsack and Baumbach",
-  "Tooltip": "tempore",
+  "Id": 511,
+  "Name": "Schowalter-Krajcik",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 901,
+  "Rank": 348,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
+  "ListType": "dicta",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 339
     }
   }
 }

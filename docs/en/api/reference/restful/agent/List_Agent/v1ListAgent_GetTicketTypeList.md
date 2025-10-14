@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypeList
 Gets an array of TicketTypeEntity objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,31 +102,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 167,
-    "Name": "Ullrich Inc and Sons",
-    "Rank": 827,
-    "Tooltip": "saepe",
-    "Icon": "corporis",
-    "DefaultTicketStatus": 549,
+    "TicketTypeId": 842,
+    "Name": "O'Reilly, Schulist and Miller",
+    "Rank": 498,
+    "Tooltip": "necessitatibus",
+    "Icon": "aliquid",
+    "DefaultTicketStatus": 335,
     "TicketStatuses": [
-      819,
-      542
+      920,
+      163
     ],
-    "DefaultTicketPriority": 325,
+    "DefaultTicketPriority": 124,
     "TicketPriorities": [
-      363,
-      680
+      654,
+      391
     ],
-    "ReplyTemplate": 269,
-    "IsExternalVisible": true,
-    "IsDefault": false,
+    "ReplyTemplate": 547,
+    "IsExternalVisible": false,
+    "IsDefault": true,
     "ShowInNew": false,
     "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": false,
+    "ExcludeEmailRecipients": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      807,
-      225
+      819,
+      500
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -133,7 +135,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 608
       }
     }
   }

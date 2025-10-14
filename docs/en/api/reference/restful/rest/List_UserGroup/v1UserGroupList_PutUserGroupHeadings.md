@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 882,
-    "Name": "Howell, Volkman and Fadel",
-    "Tooltip": "possimus",
+    "HeadingId": 660,
+    "Name": "Fisher, Zulauf and Renner",
+    "Tooltip": "quidem",
     "Deleted": true,
-    "Rank": 548,
-    "UdListDefinitionId": 881
+    "Rank": 633,
+    "UdListDefinitionId": 996
   },
   {
-    "HeadingId": 882,
-    "Name": "Howell, Volkman and Fadel",
-    "Tooltip": "possimus",
+    "HeadingId": 660,
+    "Name": "Fisher, Zulauf and Renner",
+    "Tooltip": "quidem",
     "Deleted": true,
-    "Rank": 548,
-    "UdListDefinitionId": 881
+    "Rank": 633,
+    "UdListDefinitionId": 996
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Cremin-West",
-    "Tooltip": "quis",
+    "HeadingId": 614,
+    "Name": "O'Reilly, Hudson and Mayer",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 620,
+    "Rank": 984,
+    "UdListDefinitionId": 691,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

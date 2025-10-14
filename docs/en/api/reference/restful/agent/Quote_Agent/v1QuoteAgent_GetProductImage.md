@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetProductImage
 Gets an image connected to a product, from the ProductProvider
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 688,
-  "ERPProductKey": "velit",
-  "Rank": 323
+  "QuoteConnectionId": 230,
+  "ERPProductKey": "error",
+  "Rank": 904
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"natus"
+"corrupti"
 ```

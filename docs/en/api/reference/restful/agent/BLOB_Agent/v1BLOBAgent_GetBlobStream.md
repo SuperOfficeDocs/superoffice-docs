@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobStream
 Get the binary object as a stream
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 681
+  "BlobEntityId": 212
 }
 ```
 

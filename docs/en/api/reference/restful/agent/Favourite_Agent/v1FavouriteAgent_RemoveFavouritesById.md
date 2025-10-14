@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveFavouritesById
 Remove favourite using favourite id
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FavouriteIds": [
-    794,
-    278
+    1001,
+    392
   ]
 }
 ```

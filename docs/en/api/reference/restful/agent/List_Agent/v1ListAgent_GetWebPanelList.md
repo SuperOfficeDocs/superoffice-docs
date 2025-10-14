@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelList
 Return a list of all web panels.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,34 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 856,
-    "Name": "Muller Group",
-    "Tooltip": "non",
+    "WebPanelId": 783,
+    "Name": "Mraz-Sporer",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 838,
+    "Rank": 835,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Jewess LLC",
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Simonis Group",
     "Url": "http://www.example.com/",
-    "ProgId": "non",
-    "Icon": 444,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "qui",
+    "Icon": 463,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

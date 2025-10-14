@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Get an e-mail based on the provided MIME-message
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "voluptatibus"
+  "MimeMessage": "libero"
 }
 ```
 
@@ -118,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 211,
-      "ContactName": "Cole-Dooley",
-      "PersonId": 574,
-      "PersonName": "Gottlieb, Hartmann and Wiza",
-      "AssociateId": 61,
-      "Address": "sit",
-      "EmailId": 590,
+      "ContactId": 426,
+      "ContactName": "Medhurst-Becker",
+      "PersonId": 564,
+      "PersonName": "Hauck, Heaney and Mitchell",
+      "AssociateId": 526,
+      "Address": "ut",
+      "EmailId": 786,
       "DuplicatePersonIds": [
-        649,
-        790
+        635,
+        550
       ],
-      "Name": "Abernathy LLC",
+      "Name": "O'Connell Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 970
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 635,
-      "ContactName": "Tillman Inc and Sons",
-      "PersonId": 723,
-      "PersonName": "Schamberger, Zboncak and Spinka",
-      "AssociateId": 113,
-      "Address": "aut",
-      "EmailId": 371,
+      "ContactId": 349,
+      "ContactName": "Kertzmann-Homenick",
+      "PersonId": 38,
+      "PersonName": "Volkman-Wiza",
+      "AssociateId": 919,
+      "Address": "dolor",
+      "EmailId": 317,
       "DuplicatePersonIds": [
-        14,
-        751
+        2,
+        942
       ],
-      "Name": "Wolf-Towne",
+      "Name": "Kerluke-Wilderman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldLength": 359
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 819,
-      "ContactName": "Harris Inc and Sons",
-      "PersonId": 267,
-      "PersonName": "Hamill Inc and Sons",
-      "AssociateId": 384,
-      "Address": "dolore",
-      "EmailId": 448,
+      "ContactId": 349,
+      "ContactName": "Weimann Group",
+      "PersonId": 529,
+      "PersonName": "Ruecker-Mraz",
+      "AssociateId": 132,
+      "Address": "voluptatem",
+      "EmailId": 869,
       "DuplicatePersonIds": [
-        898,
-        236
+        693,
+        769
       ],
-      "Name": "Pollich Group",
+      "Name": "Sawayn Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "voluptas",
+  "Subject": "aut",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2015-01-08T11:24:48.0939075+01:00",
-  "Size": 424,
+  "Sent": "2006-07-19T03:40:46.8905223+02:00",
+  "Size": 488,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quos",
-  "PlainBody": "non",
-  "IsSent": true,
+  "MessageID": "repellat",
+  "PlainBody": "tempora",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 754,
+  "ServerId": 576,
   "Attachments": [
     {
-      "Description": "Quality-focused bottom-line pricing structure",
-      "Filename": "libero",
-      "Size": 250,
-      "Type": "sequi",
-      "Encoding": "ad",
-      "Id": "reiciendis",
-      "Disposition": "consequatur",
+      "Description": "Compatible neutral project",
+      "Filename": "molestiae",
+      "Size": 448,
+      "Type": "adipisci",
+      "Encoding": "aliquam",
+      "Id": "aut",
+      "Disposition": "adipisci",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldType": "System.String",
+          "FieldLength": 713
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hansen, Brekke and Deckow",
+      "Name": "Kohler LLC",
       "Values": [
-        "totam",
-        "pariatur"
+        "reprehenderit",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 10
         }
       }
     },
     {
-      "Name": "Hansen, Brekke and Deckow",
+      "Name": "Kohler LLC",
       "Values": [
-        "totam",
-        "pariatur"
+        "reprehenderit",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldType": "System.Int32",
+          "FieldLength": 10
         }
       }
     }
   ],
-  "FolderName": "Von-Lind",
-  "EmailItemId": 722,
-  "AccountId": 554,
-  "ReceivedAt": "2014-02-07T11:24:48.0939075+01:00",
+  "FolderName": "Hauck-King",
+  "EmailItemId": 657,
+  "AccountId": 146,
+  "ReceivedAt": "2022-06-07T03:40:46.8905223+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-09-23T11:24:48.0939075+02:00",
+  "RepliedAt": "2018-10-27T03:40:46.8905223+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 308
     }
   }
 }

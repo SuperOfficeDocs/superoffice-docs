@@ -15,6 +15,7 @@ Flush and rebuild webpanel deltas.
 
 
 Mostly used after adding/editing webpanels or change group visibility of them
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -59,7 +60,7 @@ No Content
 POST /api/v1/Agents/Configuration/RebuildWebpanelDeltas
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

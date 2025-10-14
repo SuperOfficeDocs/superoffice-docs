@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup
 Create a restriction group, initialized with next rank etc.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Daugherty Inc and Sons",
-  "StorageKey": "deleniti",
-  "Context": "cum"
+  "StorageType": "omnis",
+  "ProviderName": "Roob, Gaylord and Larkin",
+  "StorageKey": "ducimus",
+  "Context": "omnis"
 }
 ```
 
@@ -96,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zieme, Gutmann and Jacobs",
-  "Description": "Front-line cohesive orchestration",
-  "Rank": 47,
+  "Name": "Runolfsdottir-Schaefer",
+  "Description": "Re-contextualized eco-centric interface",
+  "Rank": 460,
   "Restrictions": [
     {
-      "Name": "Gerhold LLC",
-      "Operator": "sed",
+      "Name": "Morar LLC",
+      "Operator": "perferendis",
       "Values": [
-        "rerum",
-        "hic"
+        "doloremque",
+        "vitae"
       ],
       "DisplayValues": [
-        "eos",
-        "ea"
+        "voluptate",
+        "repudiandae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -117,9 +119,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 425,
+      "InterParenthesis": 220,
       "InterOperator": "And",
-      "UniqueHash": 705
+      "UniqueHash": 491
     }
   ]
 }

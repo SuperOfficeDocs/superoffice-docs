@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListDefinitions
 Get a list of the lists - built-in and user-defined.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Upton Inc and Sons",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 780,
+    "Id": 776,
+    "Name": "Becker-Bartell",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "Rank": 914,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "necessitatibus",
-    "InUseByUserDefinedFields": false,
+    "ListType": "nobis",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 10
       }
     }
   }

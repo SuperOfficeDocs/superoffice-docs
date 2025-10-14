@@ -15,6 +15,7 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 
 
 Save the appointment entity
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -184,7 +185,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -192,106 +193,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-11-07T11:24:47.3595642+01:00",
-  "AppointmentId": 653,
-  "Description": "Optimized even-keeled solution",
-  "Title": "odio",
-  "Agenda": "eligendi",
-  "InternalNotes": "velit",
-  "StartDate": "2024-07-08T11:24:47.3595642+02:00",
-  "EndDate": "2019-08-11T11:24:47.3595642+02:00",
+  "CreatedDate": "2010-01-20T03:40:45.7012459+01:00",
+  "AppointmentId": 520,
+  "Description": "Intuitive executive protocol",
+  "Title": "ducimus",
+  "Agenda": "nulla",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2020-01-03T03:40:45.7012459+01:00",
+  "EndDate": "1999-09-08T03:40:45.7012459+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 969,
+  "MotherId": 73,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-07-07T11:24:47.3595642+02:00",
+  "UpdatedDate": "2023-02-03T03:40:45.7012459+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 93,
+  "ActiveLinks": 386,
   "Links": [
     {
-      "EntityName": "Purdy Group",
-      "Id": 61,
-      "Description": "Integrated attitude-oriented data-warehouse",
-      "ExtraInfo": "modi",
-      "LinkId": 100
+      "EntityName": "Keeling, Koelpin and Stoltenberg",
+      "Id": 529,
+      "Description": "Horizontal explicit groupware",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 870
     },
     {
-      "EntityName": "Purdy Group",
-      "Id": 61,
-      "Description": "Integrated attitude-oriented data-warehouse",
-      "ExtraInfo": "modi",
-      "LinkId": 100
+      "EntityName": "Keeling, Koelpin and Stoltenberg",
+      "Id": 529,
+      "Description": "Horizontal explicit groupware",
+      "ExtraInfo": "consequuntur",
+      "LinkId": 870
     }
   ],
-  "AlarmLeadTime": "corrupti",
+  "AlarmLeadTime": "est",
   "HasAlarm": false,
-  "ColorIndex": 570,
-  "IsFree": false,
+  "ColorIndex": 967,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "repellat",
-  "LeadTime": "iusto",
-  "Location": "odit",
-  "RejectCounter": 110,
+  "LagTime": "maxime",
+  "LeadTime": "harum",
+  "Location": "et",
+  "RejectCounter": 858,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 248,
-      "PersonId": 998,
-      "ContactId": 832,
-      "EmailId": 840,
-      "SendEmail": false,
+      "AssociateId": 662,
+      "PersonId": 69,
+      "ContactId": 70,
+      "EmailId": 824,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "triston@lang.us",
-      "Description": "Optimized system-worthy extranet"
+      "EmailAddress": "eino@harber.info",
+      "Description": "Managed zero administration knowledge user"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-11-29T11:24:47.3595642+01:00",
+  "ActiveDate": "2025-10-13T03:40:45.7012459+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 515,
+  "PreferredTZLocation": 558,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 774,
+  "SuggestedAppointmentId": 517,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "praesentium",
+  "CentralserviceVideomeetId": "nostrum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nicklaus Bogan",
-    "SuperOffice:2": "Marilyne Lourdes Lang DVM"
+    "SuperOffice:1": "1667121727",
+    "SuperOffice:2": "Quinten Daugherty"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "iure"
+    "CustomFields1": "quo",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2012-10-05T11:24:47.3595642+02:00",
-  "PublishTo": "2003-07-24T11:24:47.3595642+02:00",
-  "PublishFrom": "2015-08-29T11:24:47.3595642+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-07-03T03:40:45.7012459+02:00",
+  "PublishTo": "2011-07-25T03:40:45.7012459+02:00",
+  "PublishFrom": "2015-04-25T03:40:45.7012459+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 754,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 754,
+      "VisibleId": 750,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -308,31 +309,31 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-04-28T11:24:47.3595642+02:00",
-  "AppointmentId": 579,
-  "Description": "Re-contextualized interactive system engine",
-  "Title": "id",
-  "Agenda": "ullam",
-  "InternalNotes": "repellat",
-  "StartDate": "2010-05-21T11:24:47.3595642+02:00",
-  "EndDate": "2004-12-29T11:24:47.3595642+01:00",
+  "CreatedDate": "2006-10-06T03:40:45.7168719+02:00",
+  "AppointmentId": 456,
+  "Description": "User-friendly asynchronous data-warehouse",
+  "Title": "autem",
+  "Agenda": "repellendus",
+  "InternalNotes": "voluptatum",
+  "StartDate": "2002-12-30T03:40:45.7168719+01:00",
+  "EndDate": "2000-10-13T03:40:45.7168719+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 169,
+  "MotherId": 277,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-04-30T11:24:47.3595642+02:00",
+  "UpdatedDate": "2015-08-31T03:40:45.7168719+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 357,
+  "ActiveLinks": 349,
   "Links": [
     {
-      "EntityName": "Hayes Inc and Sons",
-      "Id": 759,
-      "Description": "Expanded human-resource firmware",
-      "ExtraInfo": "tempora",
-      "LinkId": 767,
+      "EntityName": "Bartoletti, Nolan and Kuhlman",
+      "Id": 212,
+      "Description": "Synergized modular system engine",
+      "ExtraInfo": "illum",
+      "LinkId": 479,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -343,86 +344,86 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "nihil",
   "HasAlarm": false,
-  "ColorIndex": 642,
+  "ColorIndex": 4,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "omnis",
-  "LeadTime": "voluptate",
-  "Location": "qui",
-  "RejectCounter": 467,
-  "RejectReason": "disintermediate mission-critical partnerships",
+  "LagTime": "error",
+  "LeadTime": "blanditiis",
+  "Location": "debitis",
+  "RejectCounter": 905,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 893,
-      "PersonId": 704,
-      "ContactId": 763,
-      "EmailId": 249,
+      "AssociateId": 545,
+      "PersonId": 669,
+      "ContactId": 893,
+      "EmailId": 889,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "chadd@jerdehyatt.com",
-      "Description": "Ameliorated dynamic moderator"
+      "EmailAddress": "annalise@fahey.co.uk",
+      "Description": "Self-enabling 6th generation contingency"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-03-15T11:24:47.3751914+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2023-02-24T03:40:45.7168719+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 232,
+  "PreferredTZLocation": 151,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 75,
+  "SuggestedAppointmentId": 395,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "corrupti",
+  "CentralserviceVideomeetId": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Santino Hillard Hickle II"
+    "SuperOffice:1": "Ms. Baylee Lubowitz",
+    "SuperOffice:2": "Mrs. Lou Denesik"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "sequi",
-    "CustomFields2": "sed"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2007-09-16T11:24:47.3751914+02:00",
-  "PublishTo": "2021-04-15T11:24:47.3751914+02:00",
-  "PublishFrom": "2001-04-10T11:24:47.3751914+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-01-16T03:40:45.7168719+01:00",
+  "PublishTo": "2011-04-28T03:40:45.7168719+02:00",
+  "PublishFrom": "2020-12-21T03:40:45.7168719+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 119,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 814
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     },
     {
-      "VisibleId": 119,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 814
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     }
@@ -432,7 +433,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 803
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "molestias",
-    "DocumentId": 892,
-    "VersionId": "possimus",
-    "CheckedInDate": "2007-02-17T11:24:53.2811958+01:00",
-    "CheckedInByName": "Streich, Frami and Bartoletti",
-    "CheckedInByAssociateId": 369,
-    "Description": "Customer-focused coherent extranet",
-    "DisplayText": "eligendi",
+    "ExternalReference": "autem",
+    "DocumentId": 290,
+    "VersionId": "voluptatem",
+    "CheckedInDate": "2020-08-14T03:40:55.7412955+02:00",
+    "CheckedInByName": "Walker Group",
+    "CheckedInByAssociateId": 755,
+    "Description": "Organic client-driven implementation",
+    "DisplayText": "cum",
     "ExtraFields": [
-      "sunt",
-      "quasi"
+      "placeat",
+      "quia"
     ]
   }
 ]

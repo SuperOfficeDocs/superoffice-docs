@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplates
 Returns all available document templates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,23 +89,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 5,
-    "Name": "Glover, Bechtelar and Towne",
-    "Tooltip": "ipsam",
-    "SaveInDb": 592,
-    "Filename": "doloribus",
-    "DefaultOref": "iste",
+    "DocumentTemplateId": 234,
+    "Name": "Tremblay, Padberg and Schroeder",
+    "Tooltip": "quia",
+    "SaveInDb": 168,
+    "Filename": "eius",
+    "DefaultOref": "est",
     "RecordType": "Appointment",
-    "Deleted": 346,
+    "Deleted": 573,
     "Direction": "Incoming",
-    "AutoeventId": 895,
+    "AutoeventId": 563,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 226
+        "FieldLength": 215
       }
     }
   }

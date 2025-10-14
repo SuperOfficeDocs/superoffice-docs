@@ -15,6 +15,7 @@ Deletes the SaleEntity
 
 
 Calls the Sale agent service DeleteSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -54,7 +55,7 @@ SaleEntity deleted.
 DELETE /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

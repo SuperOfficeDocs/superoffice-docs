@@ -28,7 +28,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=nesciunt
+GET /api/v1/List/Reason/MDOItems?query=quia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Rau Inc and Sons",
-    "ToolTip": "Natus eos.",
+    "Id": 503,
+    "Name": "Schneider, Stracke and Muller",
+    "ToolTip": "Veritatis assumenda quia repellendus incidunt id est.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "excepturi",
+    "Rank": 496,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Stark, Kohler and Labadie",
-        "ToolTip": "Illo beatae sit qui ut.",
+        "Id": 595,
+        "Name": "Lesch-Schmitt",
+        "ToolTip": "Delectus vitae ducimus voluptatibus.",
         "Deleted": false,
-        "Rank": 666,
-        "Type": "consequatur",
+        "Rank": 657,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 664,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "ratione",
-        "FullName": "Mrs. Wilfrid Adrienne Runolfsson II",
+        "IconHint": "aperiam",
+        "ColorBlock": 773,
+        "ExtraInfo": "sint",
+        "StyleHint": "repellendus",
+        "FullName": "Ms. Helen Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldLength": 452
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 161,
-    "ExtraInfo": "culpa",
-    "StyleHint": "eum",
-    "FullName": "Lenora Schamberger",
+    "IconHint": "aut",
+    "ColorBlock": 310,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "inventore",
+    "FullName": "Tiffany Labadie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 279
+        "FieldType": "System.Int32",
+        "FieldLength": 821
       }
     }
   }

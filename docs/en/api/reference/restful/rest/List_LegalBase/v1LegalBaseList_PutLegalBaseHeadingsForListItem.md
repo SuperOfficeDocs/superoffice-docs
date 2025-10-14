@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Bernier Group",
-    "ToolTip": "Quasi est incidunt.",
-    "Deleted": false,
-    "Rank": 552,
-    "Type": "velit",
-    "ColorBlock": 157,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2013-11-30T11:24:53.9530436+01:00",
+    "Id": 353,
+    "Name": "Koch, Nitzsche and Mayer",
+    "ToolTip": "Ipsam asperiores nesciunt debitis et laboriosam.",
+    "Deleted": true,
+    "Rank": 959,
+    "Type": "et",
+    "ColorBlock": 860,
+    "IconHint": "beatae",
+    "Selected": true,
+    "LastChanged": "2012-03-24T03:40:56.8682357+01:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "McGlynn, Effertz and Johnston",
-        "ToolTip": "Optio fugit quae illum tempore autem impedit.",
+        "Id": 859,
+        "Name": "Altenwerth, Nicolas and Crooks",
+        "ToolTip": "Alias rerum.",
         "Deleted": true,
-        "Rank": 370,
-        "Type": "dolorem",
-        "ColorBlock": 223,
-        "IconHint": "nemo",
+        "Rank": 322,
+        "Type": "porro",
+        "ColorBlock": 399,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2005-08-07T11:24:53.9530436+02:00",
+        "LastChanged": "2017-12-01T03:40:56.8682357+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "nobis",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ambrose Katlyn Collier MD"
+        "FullName": "Derek Sage Schmeler III"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Hassie Murray"
+    "FullName": "Stanley Wuckert"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Mertz-Langworth",
-    "ToolTip": "Et officiis dignissimos fuga.",
+    "Id": 695,
+    "Name": "Beatty-Schuster",
+    "ToolTip": "Rerum excepturi perferendis facilis omnis excepturi.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "quidem",
-    "ColorBlock": 626,
-    "IconHint": "et",
+    "Rank": 467,
+    "Type": "dicta",
+    "ColorBlock": 630,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2003-09-02T11:24:53.9530436+02:00",
+    "LastChanged": "2022-03-14T03:40:56.8682357+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Goodwin Inc and Sons",
-        "ToolTip": "Accusamus qui reiciendis magni modi natus.",
+        "Id": 993,
+        "Name": "Stamm-Bartell",
+        "ToolTip": "Dolorem quae.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "quod",
-        "ColorBlock": 361,
-        "IconHint": "delectus",
+        "Rank": 921,
+        "Type": "accusamus",
+        "ColorBlock": 833,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2002-12-23T11:24:53.9530436+01:00",
+        "LastChanged": "2020-05-18T03:40:56.8682357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "maxime",
+        "ExtraInfo": "non",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Dr. Elmore Wuckert I",
+        "FullName": "Christophe Annalise Rutherford DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldType": "System.String",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Dr. Delia Anderson",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Darion Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   }

@@ -15,6 +15,7 @@ Create a new physical document based on a document template and store it in the 
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -117,22 +118,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 12,
-  "PersonId": 791,
-  "AppointmentId": 71,
-  "DocumentId": 595,
-  "SaleId": 128,
-  "SelectionId": 664,
-  "ProjectId": 286,
+  "ContactId": 318,
+  "PersonId": 12,
+  "AppointmentId": 144,
+  "DocumentId": 972,
+  "SaleId": 930,
+  "SelectionId": 415,
+  "ProjectId": 437,
   "CustomTags": {
-    "CustomTags1": "aut",
-    "CustomTags2": "aut"
+    "CustomTags1": "labore",
+    "CustomTags2": "nemo"
   },
-  "UiCulture": "provident"
+  "UiCulture": "nobis"
 }
 ```
 
@@ -143,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 552,
+  "DocumentId": 961,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officiis",
-  "Header": "illo",
-  "Name": "Steuber LLC",
-  "OurRef": "cumque",
-  "YourRef": "in",
-  "CreatedDate": "2023-07-23T11:24:48.0001535+02:00",
-  "UpdatedDate": "2005-01-07T11:24:48.0001535+01:00",
-  "Description": "Streamlined non-volatile benchmark",
+  "Attention": "nam",
+  "Header": "quam",
+  "Name": "Waters Group",
+  "OurRef": "doloremque",
+  "YourRef": "culpa",
+  "CreatedDate": "2016-09-11T03:40:46.7030116+02:00",
+  "UpdatedDate": "2022-01-06T03:40:46.7030116+01:00",
+  "Description": "Multi-layered composite initiative",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-07-28T11:24:48.0001535+02:00",
-  "ExternalRef": "quos",
+  "Date": "2002-10-06T03:40:46.7030116+02:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 643,
+  "ActiveLinks": 331,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lubowitz-Kub",
-      "Id": 851,
-      "Description": "Implemented coherent info-mediaries",
-      "ExtraInfo": "commodi",
-      "LinkId": 577,
+      "EntityName": "Gislason-Bogisich",
+      "Id": 390,
+      "Description": "Profit-focused maximized leverage",
+      "ExtraInfo": "quia",
+      "LinkId": 301,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 37
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 865,
-  "Snum": 503,
+  "SuggestedDocumentId": 768,
+  "Snum": 386,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bernadette Hegmann",
-    "SuperOffice:2": "Braulio Jacobi"
+    "SuperOffice:1": "Barry Thompson",
+    "SuperOffice:2": "1490842826"
   },
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "et"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "molestias",
+    "CustomFields2": "commodi"
   },
-  "PublishEventDate": "2019-06-01T11:24:48.0001535+02:00",
-  "PublishTo": "2022-07-23T11:24:48.0001535+02:00",
-  "PublishFrom": "2009-12-01T11:24:48.0001535+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-11-24T03:40:46.7030116+01:00",
+  "PublishTo": "2006-01-16T03:40:46.7030116+01:00",
+  "PublishFrom": "2001-10-05T03:40:46.7030116+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 819,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 942
         }
       }
     },
     {
-      "VisibleId": 819,
+      "VisibleId": 691,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 942
         }
       }
     }
@@ -234,7 +235,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 956
     }
   }
 }

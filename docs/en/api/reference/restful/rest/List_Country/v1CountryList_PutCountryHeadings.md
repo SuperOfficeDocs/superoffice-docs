@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 928,
-    "Name": "Huels-Jerde",
-    "Tooltip": "quos",
+    "HeadingId": 981,
+    "Name": "Swift Group",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 587,
-    "UdListDefinitionId": 994
+    "Rank": 636,
+    "UdListDefinitionId": 276
   },
   {
-    "HeadingId": 928,
-    "Name": "Huels-Jerde",
-    "Tooltip": "quos",
+    "HeadingId": 981,
+    "Name": "Swift Group",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 587,
-    "UdListDefinitionId": 994
+    "Rank": 636,
+    "UdListDefinitionId": 276
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 954,
-    "Name": "Kling, Kovacek and Miller",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 709,
-    "UdListDefinitionId": 46,
+    "HeadingId": 515,
+    "Name": "Powlowski Group",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "Rank": 241,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 981
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }

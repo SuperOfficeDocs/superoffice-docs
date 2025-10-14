@@ -15,6 +15,7 @@ Get a list of custom commands valid for the specific document at this time.
 
 
 This information should not be cached by clients, as it may change between documents and over time.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,14 +80,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 633,
+  "DocumentId": 29,
   "AllowedReturnTypes": [
-    "harum",
-    "et"
+    "quisquam",
+    "in"
   ]
 }
 ```
@@ -99,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Halvorson Group",
-    "DisplayName": "Heathcote, DuBuque and Ullrich",
-    "DisplayTooltip": "quae",
-    "IconHint": "cum",
+    "Name": "Kemmer, Schaden and Rohan",
+    "DisplayName": "Purdy-Dickinson",
+    "DisplayTooltip": "est",
+    "IconHint": "omnis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Halvorson Group",
-    "DisplayName": "Heathcote, DuBuque and Ullrich",
-    "DisplayTooltip": "quae",
-    "IconHint": "cum",
+    "Name": "Kemmer, Schaden and Rohan",
+    "DisplayName": "Purdy-Dickinson",
+    "DisplayTooltip": "est",
+    "IconHint": "omnis",
     "ReturnType": "CustomGui"
   }
 ]

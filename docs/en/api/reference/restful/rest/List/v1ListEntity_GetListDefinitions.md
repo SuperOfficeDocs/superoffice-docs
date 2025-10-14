@@ -75,7 +75,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Torp Group",
-    "Tooltip": "laborum",
+    "Id": 544,
+    "Name": "Maggio Inc and Sons",
+    "Tooltip": "aliquam",
     "Deleted": false,
-    "Rank": 880,
+    "Rank": 485,
     "IsCustomList": false,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "doloremque",
-    "InUseByUserDefinedFields": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "sit",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 363
       }
     }
   }

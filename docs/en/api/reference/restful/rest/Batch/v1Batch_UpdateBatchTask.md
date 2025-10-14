@@ -116,30 +116,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Walker Inc and Sons",
-  "AssociateId": 891,
-  "DetailsTable": 564,
-  "DetailsRecord": 113,
+  "Id": 486,
+  "Name": "Dare, Kunde and Cartwright",
+  "AssociateId": 55,
+  "DetailsTable": 122,
+  "DetailsRecord": 919,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "dolorem",
-    "ParameterObject2": "dolorum"
+    "ParameterObject1": "nisi",
+    "ParameterObject2": "ratione"
   },
-  "LastStarted": "2000-03-03T11:24:53.7343025+01:00",
-  "Created": "2012-05-18T11:24:53.7343025+02:00",
-  "StartCount": 552,
-  "DatabaseSerialNumber": "1252938",
-  "Context": "aut",
-  "Result": "non",
+  "LastStarted": "2007-06-19T03:40:56.4303339+02:00",
+  "Created": "2021-07-02T03:40:56.4303339+02:00",
+  "StartCount": 944,
+  "DatabaseSerialNumber": "1548327",
+  "Context": "explicabo",
+  "Result": "doloribus",
   "State": "All",
-  "Description": "Ameliorated contextually-based archive",
-  "Response": "et",
-  "Request": "aut",
-  "ProgressDescription": "Adaptive maximized support",
-  "ProgressPercent": 741,
-  "FileName": "Rice, Spencer and Graham",
+  "Description": "Intuitive object-oriented Graphic Interface",
+  "Response": "minima",
+  "Request": "omnis",
+  "ProgressDescription": "Intuitive needs-based database",
+  "ProgressPercent": 43,
+  "FileName": "Cummings, O'Keefe and McDermott",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Armstrong LLC",
-  "AssociateId": 221,
-  "DetailsTable": 909,
-  "DetailsRecord": 383,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 98,
+  "Name": "Corkery LLC",
+  "AssociateId": 642,
+  "DetailsTable": 290,
+  "DetailsRecord": 583,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quas",
-    "ParameterObject2": "repellat"
+    "ParameterObject1": "laborum",
+    "ParameterObject2": "dignissimos"
   },
-  "LastStarted": "2004-10-27T11:24:53.7343025+02:00",
-  "Created": "1999-08-22T11:24:53.7343025+02:00",
-  "StartCount": 700,
-  "DatabaseSerialNumber": "1364591",
-  "Context": "doloribus",
-  "Result": "placeat",
+  "LastStarted": "2001-08-22T03:40:56.4303339+02:00",
+  "Created": "2024-06-23T03:40:56.4303339+02:00",
+  "StartCount": 278,
+  "DatabaseSerialNumber": "407943",
+  "Context": "voluptatem",
+  "Result": "eos",
   "State": "All",
-  "Description": "Vision-oriented multi-tasking middleware",
-  "Response": "ad",
-  "Request": "culpa",
-  "ProgressDescription": "Customer-focused actuating superstructure",
-  "ProgressPercent": 650,
-  "FileName": "Hayes LLC",
+  "Description": "Profound encompassing system engine",
+  "Response": "eaque",
+  "Request": "dolores",
+  "ProgressDescription": "Integrated interactive circuit",
+  "ProgressPercent": 69,
+  "FileName": "Hintz LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   }
 }

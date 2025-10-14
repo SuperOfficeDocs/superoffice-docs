@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,53 +94,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 558,
-  "Name": "Purdy Inc and Sons",
-  "Tooltip": "tenetur",
-  "Rank": 340,
+  "SaleTypeId": 930,
+  "Name": "Schumm, Kassulke and Hoppe",
+  "Tooltip": "quisquam",
+  "Rank": 463,
   "DurationUnit": "Century",
-  "SaleDuration": 905,
-  "SaleTypeCatId": 457,
-  "Deleted": false,
+  "SaleDuration": 563,
+  "SaleTypeCatId": 201,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 906,
-  "QuoteLinesTemplate": 749,
-  "ConfirmationLinesTemplate": 190,
+  "DefaultQuoteValidity": 320,
+  "QuoteLinesTemplate": 310,
+  "ConfirmationLinesTemplate": 572,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 982,
-  "MinEarningPercent": 609,
-  "GroupQuoteLinesBy": 410,
-  "SortGroupLinesBy": 876,
+  "MaxDiscountPercent": 183,
+  "MinEarningPercent": 293,
+  "GroupQuoteLinesBy": 439,
+  "SortGroupLinesBy": 803,
   "Stages": [
     {
-      "Id": 81,
-      "Name": "Gerhold-Dach",
-      "ToolTip": "Totam nostrum voluptatem ipsam necessitatibus placeat.",
-      "Deleted": true,
-      "Rank": 49,
-      "Type": "et",
-      "ColorBlock": 801,
-      "IconHint": "aliquid",
-      "Selected": true,
-      "LastChanged": "2005-06-26T11:24:54.1405361+02:00",
+      "Id": 363,
+      "Name": "Zboncak-Renner",
+      "ToolTip": "Mollitia in explicabo.",
+      "Deleted": false,
+      "Rank": 574,
+      "Type": "pariatur",
+      "ColorBlock": 858,
+      "IconHint": "officia",
+      "Selected": false,
+      "LastChanged": "2003-01-08T03:40:57.1027301+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "voluptate",
-      "Hidden": false,
-      "FullName": "Laney Cecilia Heller III",
+      "ExtraInfo": "et",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Lester Lueilwitz Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 880
         }
       }
     }
@@ -149,8 +149,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   }
 }

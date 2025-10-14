@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Copy CRM document to an attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 679
+  "DocumentId": 315
 }
 ```
 
@@ -96,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 752,
-  "Name": "Kulas, Hills and Abshire",
-  "ContentType": "necessitatibus",
-  "AttSize": 35,
+  "AttachmentId": 147,
+  "Name": "Moen, Kovacek and Bayer",
+  "ContentType": "est",
+  "AttSize": 902,
   "InlineImage": false,
-  "ContentId": "illum",
-  "AuthKey": "sunt",
-  "IsSafeFileExtension": false,
+  "ContentId": "deserunt",
+  "AuthKey": "fuga",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 735
     }
   }
 }

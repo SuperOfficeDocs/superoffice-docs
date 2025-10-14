@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 686,
-  "Name": "Halvorson, Kuhn and Kuhlman",
-  "Tooltip": "non",
+  "HeadingId": 110,
+  "Name": "Blick, Quigley and Moore",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "Rank": 706,
-  "UdListDefinitionId": 893
+  "Rank": 665,
+  "UdListDefinitionId": 851
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 239,
-  "Name": "Lowe-Green",
-  "Tooltip": "neque",
+  "HeadingId": 616,
+  "Name": "O'Conner, Jaskolski and Bartell",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 418,
-  "UdListDefinitionId": 259,
+  "Rank": 409,
+  "UdListDefinitionId": 110,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

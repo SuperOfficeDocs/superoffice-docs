@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetMailboxes
 This method will get all registered mailboxes in Service
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 778,
-    "Address": "iure",
+    "MailInFilterId": 958,
+    "Address": "dolorem",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Klein-Bode",
+    "PriorityName": "Hamill, O'Keefe and Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 220
       }
     }
   },
   {
-    "MailInFilterId": 778,
-    "Address": "iure",
+    "MailInFilterId": 958,
+    "Address": "dolorem",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Klein-Bode",
+    "PriorityName": "Hamill, O'Keefe and Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 220
       }
     }
   }

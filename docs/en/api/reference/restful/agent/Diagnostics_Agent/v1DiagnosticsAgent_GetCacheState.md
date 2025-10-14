@@ -15,6 +15,7 @@ Get the current generation value of the named caches.
 
 
 State is opaque.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Kutch, Schuppe and Connelly",
-    "Murray, Runolfsdottir and Schulist"
+    "Schmitt-Wilkinson",
+    "Buckridge Group"
   ]
 }
 ```
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"occaecati"
 ```

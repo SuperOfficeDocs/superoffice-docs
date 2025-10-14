@@ -15,6 +15,7 @@ Used by ADMIN.
 
 
 Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in SuperOffice db and used when InitializeConnector is called by the client.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 142,
-  "ConnectorName": "Willms, Herzog and Adams"
+  "ConnectionId": 315,
+  "ConnectorName": "Lockman-Konopelski"
 }
 ```
 
@@ -103,14 +104,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "harum",
-    "Rank": 66,
-    "DisplayName": "Skiles-Roberts",
-    "DisplayDescription": "Implemented 3rd generation workforce",
+    "FieldKey": "sed",
+    "Rank": 843,
+    "DisplayName": "Kuvalis-Goldner",
+    "DisplayDescription": "Fully-configurable disintermediate concept",
     "FieldType": "Checkbox",
-    "ListName": "O'Reilly Inc and Sons",
-    "DefaultValue": "at",
-    "MaxLength": 766,
+    "ListName": "Lesch, Hessel and Runolfsdottir",
+    "DefaultValue": "dolorem",
+    "MaxLength": 929,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -118,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldLength": 984
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Set the column widths for the given set of columns and GUI name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,13 +75,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wuckert-Dibbert",
-  "ProviderName": "Windler, Lockman and Luettgen",
-  "Context": "quasi",
-  "OwnerKeys": "consequatur",
+  "GuiName": "Stehr, Batz and Hermann",
+  "ProviderName": "Bergnaum Inc and Sons",
+  "Context": "doloremque",
+  "OwnerKeys": "qui",
   "ColumnWidths": [
-    "eveniet",
-    "laborum"
+    "ea",
+    "earum"
   ]
 }
 ```

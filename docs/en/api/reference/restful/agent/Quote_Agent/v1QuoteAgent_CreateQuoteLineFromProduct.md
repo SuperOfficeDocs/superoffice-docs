@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Create a quoteline based on a product.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -123,11 +125,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 975,
+  "QuoteAlternativeId": 533,
   "Product": null
 }
 ```
@@ -139,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 138,
-  "ERPQuoteLineKey": "tempora",
-  "QuoteAlternativeId": 767,
-  "ERPProductKey": "deleniti",
+  "QuoteLineId": 762,
+  "ERPQuoteLineKey": "temporibus",
+  "QuoteAlternativeId": 328,
+  "ERPProductKey": "et",
   "Status": "Error",
-  "Reason": "transition sticky convergence",
-  "Quantity": 222.51399999999998,
-  "DeliveredQuantity": 21781.3,
-  "Rank": 485,
-  "Name": "Hessel LLC",
-  "Description": "Front-line attitude-oriented installation",
-  "Code": "est",
-  "QuantityUnit": "non",
-  "PriceUnit": "reiciendis",
-  "ItemNumber": "868417",
+  "Reason": "",
+  "Quantity": 3240.556,
+  "DeliveredQuantity": 14334.916,
+  "Rank": 627,
+  "Name": "Ziemann Group",
+  "Description": "Object-based bottom-line standardization",
+  "Code": "rerum",
+  "QuantityUnit": "est",
+  "PriceUnit": "et",
+  "ItemNumber": "424707",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "rerum",
-  "Supplier": "error",
-  "SupplierCode": "soluta",
-  "Thumbnail": "animi",
-  "VATInfo": "ab",
-  "VAT": 17121.041999999998,
-  "UnitCost": 24930.969999999998,
-  "UnitMinimumPrice": 27450.706,
-  "UnitListPrice": 12147.384,
+  "ProductFamilyKey": "nisi",
+  "ProductTypeKey": "rem",
+  "Supplier": "id",
+  "SupplierCode": "itaque",
+  "Thumbnail": "in",
+  "VATInfo": "ratione",
+  "VAT": 25535.832,
+  "UnitCost": 25933.85,
+  "UnitMinimumPrice": 25040.66,
+  "UnitListPrice": 14679.655999999999,
   "ExtraInfo": [
     {
-      "Name": "Mayer, Spencer and Rodriguez",
-      "Value": "soluta",
+      "Name": "Weber-Murphy",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 110
         }
       }
     },
     {
-      "Name": "Mayer, Spencer and Rodriguez",
-      "Value": "soluta",
+      "Name": "Weber-Murphy",
+      "Value": "atque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 110
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ut",
-  "SubscriptionQuantity": 17581.739999999998,
-  "SubscriptionStart": "2008-06-17T11:24:48.5470141+02:00",
-  "ERPDiscountPercent": 4118.076,
-  "ERPDiscountAmount": 3760.7999999999997,
-  "DiscountPercent": 3785.872,
-  "DiscountAmount": 28845.336,
+  "RawExtraInfo": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "odio",
+  "SubscriptionQuantity": 24241.489999999998,
+  "SubscriptionStart": "2018-01-23T03:40:47.5785846+01:00",
+  "ERPDiscountPercent": 12846.266,
+  "ERPDiscountAmount": 16860.92,
+  "DiscountPercent": 5299.594,
+  "DiscountAmount": 2325.428,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 3491.276,
-  "EarningAmount": 11627.14,
-  "SubTotal": 17722.77,
-  "TotalPrice": 20239.372,
-  "Rights": "error",
-  "Rule": "deleniti",
-  "ExtraField1": "minima",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "sunt",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "pariatur",
+  "EarningPercent": 25955.788,
+  "EarningAmount": 473.234,
+  "SubTotal": 27058.956,
+  "TotalPrice": 1896.07,
+  "Rights": "commodi",
+  "Rule": "ipsa",
+  "ExtraField1": "et",
+  "ExtraField2": "aliquid",
+  "ExtraField3": "neque",
+  "ExtraField4": "aut",
+  "ExtraField5": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 990
     }
   }
 }

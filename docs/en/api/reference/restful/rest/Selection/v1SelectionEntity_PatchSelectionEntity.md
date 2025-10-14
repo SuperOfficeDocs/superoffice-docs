@@ -14,7 +14,8 @@ PATCH /api/v1/Selection/{id}
 Update a SelectionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -149,18 +150,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -173,70 +174,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable homogeneous standardization",
-  "Postit": "libero",
+  "Description": "Devolved regional data-warehouse",
+  "Postit": "consectetur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 434,
-  "IncludePerson": 219,
+  "GroupIdx": 951,
+  "IncludePerson": 34,
   "MemberCount": 99.99,
-  "Name": "Schmidt LLC",
-  "PostitTextId": 997,
-  "CreatedDate": "2010-08-02T11:24:53.5780588+02:00",
-  "SelectionId": 521,
-  "SoundEx": "et",
-  "Source": 923,
-  "TextId": 769,
-  "UpdatedDate": "2015-07-02T11:24:53.5780588+02:00",
-  "UpdatedCount": 189,
-  "Visibility": 369,
+  "Name": "Stark-Haag",
+  "PostitTextId": 975,
+  "CreatedDate": "1999-11-04T03:40:56.2292047+01:00",
+  "SelectionId": 368,
+  "SoundEx": "unde",
+  "Source": 864,
+  "TextId": 56,
+  "UpdatedDate": "2007-07-23T03:40:56.2292047+02:00",
+  "UpdatedCount": 123,
+  "Visibility": 128,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 625,
-  "TargetTableName": "Hermann Group",
+  "TargetTableNumber": 126,
+  "TargetTableName": "Ankunding, Weber and Kirlin",
   "Completed": false,
-  "LeftSelectionId": 179,
-  "RightSelectionId": 178,
+  "LeftSelectionId": 657,
+  "RightSelectionId": 421,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Auer-Heaney",
-  "ShadowProviderName": "Wolf-Hills",
-  "ChartKey": "optio",
-  "LastLoaded": "2021-02-17T11:24:53.5780588+01:00",
-  "LastLoadedBy": 343,
+  "MainProviderName": "Keebler, Bode and Hand",
+  "ShadowProviderName": "Zemlak Inc and Sons",
+  "ChartKey": "quaerat",
+  "LastLoaded": "2019-11-01T03:40:56.2292047+01:00",
+  "LastLoadedBy": 464,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-05-14T11:24:53.5780588+02:00",
-  "LastMembershipChangeBy": 19,
+  "LastMembershipChange": "2009-04-05T03:40:56.2292047+02:00",
+  "LastMembershipChangeBy": 900,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "cumque",
-  "MailingsProviderName": "Collins Group",
-  "DashboardTileDefinitionId": 834,
+  "MainHeading": "quod",
+  "MemberTabHeading": "placeat",
+  "MailingsProviderName": "Nolan, Collins and Collier",
+  "DashboardTileDefinitionId": 584,
   "VisibleFor": [
     {
-      "VisibleId": 765,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 701
         }
       }
     },
     {
-      "VisibleId": 765,
+      "VisibleId": 365,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 701
         }
       }
     }
@@ -245,13 +246,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

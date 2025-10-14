@@ -357,6 +357,7 @@ items:
   - SuperOffice.CRM.Data.ProjectTypeStatusLinkTableInfo
   - SuperOffice.CRM.Data.PublishTableInfo
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  - SuperOffice.CRM.Data.QuickFilterInfoTableInfo
   - SuperOffice.CRM.Data.QuickReplyTableInfo
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo
   - SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
@@ -533,6 +534,7 @@ items:
   - SuperOffice.CRM.Data.TicketTypePriorityTableInfo
   - SuperOffice.CRM.Data.TicketTypeStatusTableInfo
   - SuperOffice.CRM.Data.TicketTypeTableInfo
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo
   - SuperOffice.CRM.Data.TimestampsTableInfo
   - SuperOffice.CRM.Data.TravelCurrentTableInfo
   - SuperOffice.CRM.Data.TravelGeneratedDatabaseTableInfo

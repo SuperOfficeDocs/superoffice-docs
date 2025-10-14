@@ -15,6 +15,7 @@ Create default User providing the user type.
 
 
 Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -118,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 498,
-  "Name": "Kub Group",
-  "Rank": 651,
-  "Tooltip": "ut",
+  "AssociateId": 223,
+  "Name": "Mitchell, Zieme and Mitchell",
+  "Rank": 519,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "Schmidt, Blanda and Conn",
-      "Description": "Mandatory optimizing utilisation",
+      "Name": "Pagac, Bosco and Kertzmann",
+      "Description": "Devolved client-server Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 994
         }
       }
     },
     {
-      "Name": "Schmidt, Blanda and Conn",
-      "Description": "Mandatory optimizing utilisation",
+      "Name": "Pagac, Bosco and Kertzmann",
+      "Description": "Devolved client-server Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 994
         }
       }
     }
@@ -168,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "accusamus",
-      "Tooltip": "et",
-      "Id": 669,
-      "Rank": 726,
+      "Value": "assumenda",
+      "Tooltip": "cumque",
+      "Id": 438,
+      "Rank": 239,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 756
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2008-04-10T11:24:48.9376234+02:00",
-  "Lastlogout": "2014-02-21T11:24:48.9376234+01:00",
-  "EjUserId": 658,
-  "RequestSignature": "dignissimos",
+  "Lastlogin": "2020-01-08T03:40:48.2504996+01:00",
+  "Lastlogout": "2001-05-12T03:40:48.2504996+02:00",
+  "EjUserId": 638,
+  "RequestSignature": "porro",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "magnam",
-      "DisplayValue": "aut",
+      "Value": "fugit",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldType": "System.Int32",
+          "FieldLength": 543
         }
       }
     },
     {
       "Type": null,
-      "Value": "magnam",
-      "DisplayValue": "aut",
+      "Value": "fugit",
+      "DisplayValue": "iste",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 543
+        }
+      }
+    }
+  ],
+  "UserName": "Purdy-Thiel",
+  "TicketCategories": [
+    {
+      "Id": 606,
+      "Name": "Metz, Jewess and Hills",
+      "ToolTip": "Sed ipsam nisi autem similique sed.",
+      "Deleted": false,
+      "Rank": 735,
+      "Type": "aut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quis",
+      "ColorBlock": 695,
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "eos",
+      "FullName": "Macey White",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldLength": 761
         }
       }
     }
   ],
-  "UserName": "Graham, Effertz and Bahringer",
-  "TicketCategories": [
-    {
-      "Id": 643,
-      "Name": "Langosh Inc and Sons",
-      "ToolTip": "Illo vel est reiciendis.",
-      "Deleted": true,
-      "Rank": 246,
-      "Type": "velit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ipsum",
-      "ColorBlock": 617,
-      "ExtraInfo": "aliquam",
-      "StyleHint": "quibusdam",
-      "FullName": "Prof. Carol Daniel V",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
-        }
-      }
-    }
-  ],
-  "NickName": "Keebler-Brakus",
+  "NickName": "Gaylord Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "laborum"
+    "CustomFields1": "qui",
+    "CustomFields2": "quia"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bechtelar-O'Kon",
-      "DisplayName": "Kovacek-Parisian",
-      "Description": "Ergonomic non-volatile approach",
-      "ToolTip": "Fugiat est similique.",
+      "Name": "Casper, Stehr and Wilkinson",
+      "DisplayName": "Little, Lind and Schroeder",
+      "Description": "Multi-channelled empowering Graphical User Interface",
+      "ToolTip": "Placeat enim.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     }
@@ -281,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 578
     }
   }
 }

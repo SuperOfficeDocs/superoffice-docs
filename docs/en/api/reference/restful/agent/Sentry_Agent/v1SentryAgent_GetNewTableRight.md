@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sentry/GetNewTableRight
 Returns a TableRight for a new row based on tableName parameter.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,11 +75,11 @@ OK
 POST /api/v1/Agents/Sentry/GetNewTableRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Waelchi, Labadie and Orn"
+  "TableName": "Hodkiewicz-Halvorson"
 }
 ```
 
@@ -88,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "totam",
+  "Mask": "rem",
   "Reason": ""
 }
 ```

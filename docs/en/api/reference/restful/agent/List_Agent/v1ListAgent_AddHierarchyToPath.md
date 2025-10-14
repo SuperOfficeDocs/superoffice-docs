@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/AddHierarchyToPath
 Add a hierarchy item to a path
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,13 +87,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "velit",
-  "Name": "Johnson, Adams and Hauck"
+  "Path": "error",
+  "Name": "Thompson-Gottlieb"
 }
 ```
 
@@ -102,46 +104,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 789,
+  "HierarchyId": 983,
   "Domain": "Dashboards",
-  "Name": "Champlin, Hagenes and Kessler",
-  "Fullname": "amet",
-  "ParentId": 96,
+  "Name": "Nienow LLC",
+  "Fullname": "molestiae",
+  "ParentId": 612,
   "Children": [
     {
-      "HierarchyId": 576,
+      "HierarchyId": 41,
       "Domain": "Dashboards",
-      "Name": "Greenholt Inc and Sons",
-      "Fullname": "numquam",
-      "ParentId": 657,
+      "Name": "Reinger Inc and Sons",
+      "Fullname": "reiciendis",
+      "ParentId": 392,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-11-15T11:24:48.234527+01:00",
-      "RegisteredAssociateId": 957,
-      "Updated": "2024-01-30T11:24:48.234527+01:00",
-      "UpdatedAssociateId": 822,
+      "Registered": "1999-06-30T03:40:47.2030415+02:00",
+      "RegisteredAssociateId": 719,
+      "Updated": "2024-10-25T03:40:47.2030415+02:00",
+      "UpdatedAssociateId": 955,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 755
         }
       }
     }
   ],
-  "Registered": "2018-11-19T11:24:48.234527+01:00",
-  "RegisteredAssociateId": 33,
-  "Updated": "2005-04-11T11:24:48.234527+02:00",
-  "UpdatedAssociateId": 739,
+  "Registered": "2012-08-03T03:40:47.2030415+02:00",
+  "RegisteredAssociateId": 528,
+  "Updated": "2023-09-05T03:40:47.2030415+02:00",
+  "UpdatedAssociateId": 834,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 254
     }
   }
 }

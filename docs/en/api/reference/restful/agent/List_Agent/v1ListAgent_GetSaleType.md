@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSaleType
 Gets a SaleType object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleType?saleTypeId=102
+POST /api/v1/Agents/List/GetSaleType?saleTypeId=6
 POST /api/v1/Agents/List/GetSaleType?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 334,
-  "Value": "sint",
-  "Tooltip": "aut",
+  "Id": 395,
+  "Value": "impedit",
+  "Tooltip": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

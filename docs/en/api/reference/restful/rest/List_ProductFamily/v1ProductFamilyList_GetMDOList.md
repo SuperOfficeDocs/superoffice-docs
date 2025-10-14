@@ -28,7 +28,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=esse
+GET /api/v1/List/ProductFamily/MDOItems?query=architecto
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Kertzmann-Ziemann",
-    "ToolTip": "Rerum hic sed harum consequuntur soluta ut.",
+    "Id": 937,
+    "Name": "Koepp, Zieme and Ernser",
+    "ToolTip": "Ut maxime commodi vitae eum voluptatem.",
     "Deleted": false,
-    "Rank": 417,
-    "Type": "nesciunt",
+    "Rank": 322,
+    "Type": "quos",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Gleichner Inc and Sons",
-        "ToolTip": "Magni beatae omnis sit exercitationem porro.",
-        "Deleted": true,
-        "Rank": 640,
-        "Type": "natus",
+        "Id": 49,
+        "Name": "Reichel, Carter and Kunde",
+        "ToolTip": "Est reiciendis aut deleniti non magni.",
+        "Deleted": false,
+        "Rank": 295,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facere",
-        "ColorBlock": 363,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "et",
-        "FullName": "Eve Scarlett Heaney II",
+        "IconHint": "fuga",
+        "ColorBlock": 125,
+        "ExtraInfo": "earum",
+        "StyleHint": "sed",
+        "FullName": "Emile Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldType": "System.String",
+            "FieldLength": 418
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 8,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "nemo",
-    "FullName": "Prof. Bennie Federico Cartwright I",
+    "IconHint": "dolores",
+    "ColorBlock": 703,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "id",
+    "FullName": "Otho Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 979
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

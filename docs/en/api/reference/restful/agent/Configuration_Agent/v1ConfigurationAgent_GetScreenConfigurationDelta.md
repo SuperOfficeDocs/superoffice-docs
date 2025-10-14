@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetScreenConfigurationDelta
 This method will return a json with all deltas for screen
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"impedit"
+"dolor"
 ```

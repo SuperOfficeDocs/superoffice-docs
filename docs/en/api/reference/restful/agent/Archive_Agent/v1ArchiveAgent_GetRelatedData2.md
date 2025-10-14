@@ -15,6 +15,7 @@ Get data for fields related to a table record.
 
 
 While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,13 +78,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "autem",
-  "RecordId": 144,
-  "Fields": "corrupti"
+  "Table": "maiores",
+  "RecordId": 97,
+  "Fields": "et"
 }
 ```
 
@@ -95,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "unde",
+    "Field": "repellendus",
     "FieldValue": null
   },
   {
-    "Field": "unde",
+    "Field": "repellendus",
     "FieldValue": null
   }
 ]

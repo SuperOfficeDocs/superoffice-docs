@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Get an array of system BatchTaskInfo for the provided task name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Nitzsche-Dooley"
+  "TaskName": "Bins-Durgan"
 }
 ```
 
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Mante-Pouros",
-    "AssociateId": 2,
-    "DetailsTable": 502,
-    "DetailsRecord": 701,
-    "IsSystemTask": false,
+    "Id": 406,
+    "Name": "Mills, Turner and Lehner",
+    "AssociateId": 309,
+    "DetailsTable": 29,
+    "DetailsRecord": 897,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "consequuntur",
-      "ParameterObject2": "qui"
+      "ParameterObject1": "sit",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2002-11-06T11:24:47.6095526+01:00",
-    "Created": "2002-04-10T11:24:47.6095526+02:00",
-    "StartCount": 596,
-    "DatabaseSerialNumber": "1938876",
-    "Context": "officiis",
-    "Result": "ut",
+    "LastStarted": "2011-01-31T03:40:46.0764548+01:00",
+    "Created": "2008-05-15T03:40:46.0764548+02:00",
+    "StartCount": 750,
+    "DatabaseSerialNumber": "979861",
+    "Context": "error",
+    "Result": "reiciendis",
     "State": "All",
-    "Description": "Pre-emptive bandwidth-monitored service-desk",
-    "Response": "accusantium",
-    "Request": "et",
-    "ProgressDescription": "Distributed actuating database",
-    "ProgressPercent": 828,
-    "FileName": "Marvin LLC",
+    "Description": "Upgradable foreground website",
+    "Response": "illum",
+    "Request": "repudiandae",
+    "ProgressDescription": "Realigned bifurcated service-desk",
+    "ProgressPercent": 494,
+    "FileName": "Jast, Beahan and Gutkowski",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 283
       }
     }
   }

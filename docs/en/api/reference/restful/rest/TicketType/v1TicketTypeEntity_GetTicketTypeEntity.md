@@ -15,6 +15,7 @@ Gets a TicketTypeEntity object.
 
 
 Calls the List agent service GetTicketTypeEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,45 +103,45 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 181,
-  "Name": "Murray Group",
-  "Rank": 293,
-  "Tooltip": "omnis",
-  "Icon": "a",
-  "DefaultTicketStatus": 377,
+  "TicketTypeId": 753,
+  "Name": "Stark-Russel",
+  "Rank": 934,
+  "Tooltip": "officia",
+  "Icon": "laboriosam",
+  "DefaultTicketStatus": 82,
   "TicketStatuses": [
-    307,
-    780
+    725,
+    777
   ],
-  "DefaultTicketPriority": 979,
+  "DefaultTicketPriority": 818,
   "TicketPriorities": [
-    566,
-    790
+    814,
+    947
   ],
-  "ReplyTemplate": 170,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 84,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    106,
-    665
+    870,
+    117
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 565
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

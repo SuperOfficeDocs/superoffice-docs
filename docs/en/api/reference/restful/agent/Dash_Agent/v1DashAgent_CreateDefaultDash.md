@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDash
 Loading default values into a new Dash.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 619,
-  "UniqueId": "repellat",
-  "Name": "Moore, Goldner and Schmeler",
-  "Description": "Grass-roots eco-centric architecture",
-  "AssociateId": 706,
-  "Columns": 991,
+  "DashboardId": 833,
+  "UniqueId": "non",
+  "Name": "Abernathy, Jaskolski and Gottlieb",
+  "Description": "Proactive dynamic service-desk",
+  "AssociateId": 116,
+  "Columns": 642,
   "Theme": null,
-  "VisibleForAll": 547,
+  "VisibleForAll": 505,
   "VisibleForAssociates": [
-    561,
-    104
+    594,
+    160
   ],
   "VisibleForGroups": [
-    951,
-    928
+    896,
+    437
   ],
-  "PinForAll": 67,
+  "PinForAll": 612,
   "PinForAssociates": [
-    49,
-    515
+    920,
+    424
   ],
   "PinForGroups": [
-    687,
-    89
+    363,
+    263
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

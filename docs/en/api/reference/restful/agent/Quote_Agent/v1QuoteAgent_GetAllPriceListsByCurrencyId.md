@@ -15,6 +15,7 @@ Gets the all PriceLists in all currencies, including those inactive.
 
 
 Will return empty array if there is no PriceList available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 535,
-  "CurrencyId": 523
+  "QuoteConnectionId": 90,
+  "CurrencyId": 848
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 996,
-    "ERPPriceListKey": "quo",
-    "QuoteConnectionId": 128,
-    "Name": "Veum LLC",
-    "Description": "Streamlined content-based monitoring",
-    "Currency": "dolor",
-    "CurrencyName": "Prohaska, Veum and Fadel",
-    "ValidFrom": "2016-12-13T11:24:48.5313897+01:00",
-    "ValidTo": "2008-06-10T11:24:48.5313897+02:00",
+    "PriceListId": 767,
+    "ERPPriceListKey": "occaecati",
+    "QuoteConnectionId": 916,
+    "Name": "Jacobs-Legros",
+    "Description": "Synchronised tangible collaboration",
+    "Currency": "aut",
+    "CurrencyName": "Zboncak, Bergnaum and Jakubowski",
+    "ValidFrom": "2001-02-28T03:40:47.5629587+01:00",
+    "ValidTo": "2020-07-28T03:40:47.5629587+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 425
       }
     }
   }

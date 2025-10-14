@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CheckinDocument
 Check in a currently checked-out document
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,19 +82,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 678,
+  "DocumentId": 96,
   "AllowedReturnTypes": [
-    "aut",
-    "eligendi"
+    "voluptatem",
+    "eius"
   ],
-  "VersionDescription": "Team-oriented 4th generation synergy",
+  "VersionDescription": "Decentralized intermediate encoding",
   "VersionExtraFields": [
-    "assumenda",
-    "itaque"
+    "sit",
+    "nostrum"
   ]
 }
 ```
@@ -104,11 +106,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "eveniet",
-  "VersionId": "omnis",
-  "Success": true,
+  "ExternalReference": "repudiandae",
+  "VersionId": "voluptatem",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "natus",
-  "AdditionalInfo": "error"
+  "Value": "unde",
+  "AdditionalInfo": "et"
 }
 ```

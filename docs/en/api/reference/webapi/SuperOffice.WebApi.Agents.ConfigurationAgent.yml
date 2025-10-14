@@ -88,13 +88,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class ConfigurationAgent : AgentBase, IConfigurationAgent, IDisposable'
-    content.vb: Public Class ConfigurationAgent Inherits AgentBase Implements IConfigurationAgent, IDisposable
+    content: 'public class ConfigurationAgent : AgentBase, IConfigurationAgent, IAgentBase, IDisposable'
+    content.vb: Public Class ConfigurationAgent Inherits AgentBase Implements IConfigurationAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IConfigurationAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -2045,6 +2046,14 @@ references:
   name: IConfigurationAgent
   nameWithType: IConfigurationAgent
   fullName: SuperOffice.WebApi.Agents.IConfigurationAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

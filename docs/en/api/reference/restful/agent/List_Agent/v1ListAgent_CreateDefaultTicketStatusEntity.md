@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Loading default values into a new TicketStatusEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -62,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,8 +74,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 90,
-  "Name": "Stehr, Welch and Gottlieb",
+  "TicketStatusId": 568,
+  "Name": "Von, Casper and Jakubowski",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -84,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 496
     }
   }
 }

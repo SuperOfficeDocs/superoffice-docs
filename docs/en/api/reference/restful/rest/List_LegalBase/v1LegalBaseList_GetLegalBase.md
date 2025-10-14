@@ -78,18 +78,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 816,
-  "Name": "Bartell, Emard and Kovacek",
-  "Tooltip": "omnis",
-  "Rank": 168,
-  "Key": "voluptates",
+  "LegalBaseId": 986,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "aut",
+  "Rank": 240,
+  "Key": "sequi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 528
     }
   }
 }

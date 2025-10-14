@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -100,29 +102,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Willms, Ferry and Crona",
-  "Comment": "incidunt",
-  "StakeholderRoleId": 519,
-  "CountryId": 102,
-  "PersonId": 440,
-  "EmailDescription": "kimberly_pfeffer@koelpinrosenbaum.com",
-  "EmailId": 322,
-  "EmailAddress": "pierre_schowalter@braunschmidt.ca",
-  "PhoneId": 360,
-  "ContactName": "Waelchi-Wisozk",
-  "ContactId": 446,
-  "SaleId": 475,
-  "Mrmrs": "sapiente",
-  "Firstname": "Roger",
-  "MiddleName": "West, Mayert and Hahn",
-  "Lastname": "Lemke",
-  "SaleStakeholderId": 119,
-  "Rank": 962,
-  "Phone": "754.297.4334 x57768"
+  "StakeholderRoleName": "Grady Group",
+  "Comment": "quaerat",
+  "StakeholderRoleId": 487,
+  "CountryId": 5,
+  "PersonId": 358,
+  "EmailDescription": "bradford@ritchie.uk",
+  "EmailId": 669,
+  "EmailAddress": "rigoberto.cummerata@kuvalisstiedemann.name",
+  "PhoneId": 294,
+  "ContactName": "Heller, Batz and Weimann",
+  "ContactId": 253,
+  "SaleId": 95,
+  "Mrmrs": "eaque",
+  "Firstname": "Stefanie",
+  "MiddleName": "Mraz, Gleason and Kuhlman",
+  "Lastname": "Kuhlman",
+  "SaleStakeholderId": 686,
+  "Rank": 598,
+  "Phone": "870.464.2501 x10493"
 }
 ```
 
@@ -133,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Von-Bashirian",
-  "Comment": "animi",
-  "StakeholderRoleId": 507,
-  "CountryId": 979,
-  "PersonId": 923,
-  "EmailDescription": "kiara@hettinger.uk",
-  "EmailId": 870,
-  "EmailAddress": "raleigh_bergnaum@koch.us",
-  "PhoneId": 480,
-  "ContactName": "Ondricka-Swift",
-  "ContactId": 918,
-  "SaleId": 475,
-  "Mrmrs": "minima",
-  "Firstname": "Clyde",
-  "MiddleName": "Howell Group",
-  "Lastname": "Bins",
-  "SaleStakeholderId": 159,
-  "Rank": 884,
-  "Phone": "836.532.9386 x217",
+  "StakeholderRoleName": "Kuhic Inc and Sons",
+  "Comment": "officiis",
+  "StakeholderRoleId": 766,
+  "CountryId": 677,
+  "PersonId": 342,
+  "EmailDescription": "julie@hoppe.us",
+  "EmailId": 92,
+  "EmailAddress": "milford_wisoky@jacobson.com",
+  "PhoneId": 436,
+  "ContactName": "Rice-Cartwright",
+  "ContactId": 2,
+  "SaleId": 367,
+  "Mrmrs": "et",
+  "Firstname": "Nils",
+  "MiddleName": "Nader Group",
+  "Lastname": "Koss",
+  "SaleStakeholderId": 853,
+  "Rank": 177,
+  "Phone": "940.412.5287",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 311
     }
   }
 }

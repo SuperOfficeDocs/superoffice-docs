@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/FindCredentialUsers
 Find users matching the partial name.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -78,12 +81,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "qui",
-  "SearchString": "consequatur"
+  "Type": "quo",
+  "SearchString": "laborum"
 }
 ```
 
@@ -95,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "minus",
-    "officiis"
+    "voluptate",
+    "sit"
   ],
   "Users": [
     {
-      "Value": "ab",
-      "DisplayValue": "quod",
+      "Value": "harum",
+      "DisplayValue": "repudiandae",
       "Columns": [
-        "nesciunt",
-        "quaerat"
+        "optio",
+        "facilis"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldType": "System.String",
+          "FieldLength": 241
         }
       }
     },
     {
-      "Value": "ab",
-      "DisplayValue": "quod",
+      "Value": "harum",
+      "DisplayValue": "repudiandae",
       "Columns": [
-        "nesciunt",
-        "quaerat"
+        "optio",
+        "facilis"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldType": "System.String",
+          "FieldLength": 241
         }
       }
     }
@@ -138,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

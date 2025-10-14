@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection using string.
 
 
 Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 760,
-  "Filter": "qui"
+  "SelectionId": 972,
+  "Filter": "modi"
 }
 ```
 
@@ -101,44 +102,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hyatt, Will and Huels",
-    "Operator": "aut",
+    "Name": "Mosciski-Hills",
+    "Operator": "veritatis",
     "Values": [
-      "sit",
-      "numquam"
+      "laboriosam",
+      "dolorem"
     ],
     "DisplayValues": [
-      "labore",
-      "facere"
+      "mollitia",
+      "commodi"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Moore LLC",
-        "Operator": "libero",
+        "Name": "Windler-Flatley",
+        "Operator": "accusantium",
         "Values": [
-          "sed",
-          "dolores"
+          "eos",
+          "aut"
         ],
         "DisplayValues": [
-          "ipsam",
-          "nemo"
+          "aliquid",
+          "ut"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 457,
+        "InterParenthesis": 395,
         "InterOperator": "And",
-        "UniqueHash": 875
+        "UniqueHash": 428
       }
     ],
-    "InterParenthesis": 918,
+    "InterParenthesis": 695,
     "InterOperator": "And",
-    "UniqueHash": 418
+    "UniqueHash": 711
   }
 ]
 ```

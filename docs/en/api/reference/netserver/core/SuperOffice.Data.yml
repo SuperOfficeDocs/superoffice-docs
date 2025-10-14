@@ -23,6 +23,7 @@ items:
   - SuperOffice.Data.BatchTaskCancellationBehaviour
   - SuperOffice.Data.BatchTaskState
   - SuperOffice.Data.BlobLinkType
+  - SuperOffice.Data.BoardViewBadgeType
   - SuperOffice.Data.BoardViewEntityType
   - SuperOffice.Data.BookingType
   - SuperOffice.Data.CachedSequence
@@ -299,6 +300,7 @@ items:
   - SuperOffice.Data.TicketReadStatus
   - SuperOffice.Data.TicketSecurityLevel
   - SuperOffice.Data.TicketStatusTimeCounter
+  - SuperOffice.Data.TimeKeepingType
   - SuperOffice.Data.TravelEncryptionChild
   - SuperOffice.Data.TravelEncryptionOwn
   - SuperOffice.Data.TrlogTransType
@@ -1324,6 +1326,22 @@ references:
   name: BoardViewEntityType
   nameWithType: BoardViewEntityType
   fullName: SuperOffice.Data.BoardViewEntityType
+- uid: SuperOffice.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.Data.BoardViewBadgeType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.Data.BoardViewBadgeType
+- uid: SuperOffice.Data.TimeKeepingType
+  commentId: T:SuperOffice.Data.TimeKeepingType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TimeKeepingType.html
+  name: TimeKeepingType
+  nameWithType: TimeKeepingType
+  fullName: SuperOffice.Data.TimeKeepingType
 - uid: SuperOffice.Data.WorkflowGoalType
   commentId: T:SuperOffice.Data.WorkflowGoalType
   parent: SuperOffice.Data

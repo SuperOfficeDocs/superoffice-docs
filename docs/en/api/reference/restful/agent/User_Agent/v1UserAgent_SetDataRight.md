@@ -15,6 +15,7 @@ Set one specific data right at the given position.
 
 
 An exception will be thrown if non existing position is specified.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -73,14 +74,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 386,
-  "TableName": "Auer Inc and Sons",
+  "RoleId": 592,
+  "TableName": "Pouros-Leffler",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "enim"
+  "DataRightValue": "voluptates"
 }
 ```
 

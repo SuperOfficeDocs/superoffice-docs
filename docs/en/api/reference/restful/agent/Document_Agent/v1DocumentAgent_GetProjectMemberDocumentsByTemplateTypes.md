@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 558,
-  "StartTime": "2016-08-23T11:24:47.8751665+02:00",
-  "EndTime": "2015-02-13T11:24:47.8751665+01:00",
-  "Count": 689,
+  "PersonId": 874,
+  "StartTime": "2024-09-08T03:40:46.5936381+02:00",
+  "EndTime": "2023-03-19T03:40:46.5936381+01:00",
+  "Count": 745,
   "DocumentTemplateIds": [
-    763,
-    299
+    857,
+    851
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 365,
-    "Attention": "debitis",
-    "Header": "et",
-    "Name": "Mayer LLC",
-    "OurRef": "accusantium",
-    "YourRef": "non",
-    "Description": "Quality-focused intermediate forecast",
-    "DocumentTemplate": "at",
-    "IsPublished": false,
-    "PersonId": 369,
-    "PersonFullName": "Annalise Kreiger",
-    "AssociateFullName": "Prof. Letha Carmelo Hermann III",
-    "ContactId": 947,
-    "ContactName": "Halvorson, Williamson and Friesen",
-    "ProjectId": 151,
-    "ProjectName": "Medhurst LLC",
-    "AssociateId": 621,
-    "Snum": 69,
-    "SaleId": 411,
-    "SaleName": "Wintheiser, Gerlach and Carter",
+    "DocumentId": 539,
+    "Attention": "nesciunt",
+    "Header": "quam",
+    "Name": "Buckridge, Huels and King",
+    "OurRef": "sequi",
+    "YourRef": "quis",
+    "Description": "Team-oriented stable interface",
+    "DocumentTemplate": "doloremque",
+    "IsPublished": true,
+    "PersonId": 477,
+    "PersonFullName": "Mrs. Kameron Katelynn Dietrich",
+    "AssociateFullName": "Dr. Rocky Ciara Walsh",
+    "ContactId": 846,
+    "ContactName": "Wilderman, Gerhold and Klocko",
+    "ProjectId": 514,
+    "ProjectName": "West, Dietrich and Bartell",
+    "AssociateId": 734,
+    "Snum": 872,
+    "SaleId": 3,
+    "SaleName": "Jaskolski Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 864
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

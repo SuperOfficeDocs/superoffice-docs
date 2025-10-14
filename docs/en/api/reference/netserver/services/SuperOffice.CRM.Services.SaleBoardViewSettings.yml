@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.SaleBoardViewSettings.#ctor
+  - SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
   - SuperOffice.CRM.Services.SaleBoardViewSettings.HideClosedSales
   - SuperOffice.CRM.Services.SaleBoardViewSettings.ToString
   - SuperOffice.CRM.Services.SaleBoardViewSettings.ToString(System.String)
@@ -30,11 +31,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public class SaleBoardViewSettings : BoardViewSettingsBase
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Class SaleBoardViewSettings Inherits BoardViewSettingsBase
   seealso:
@@ -69,7 +70,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.CRM.Services.SaleBoardViewSettings.#ctor
   commentId: M:SuperOffice.CRM.Services.SaleBoardViewSettings.#ctor
   id: '#ctor'
@@ -180,6 +181,39 @@ items:
 
       Public Overridable Property HideClosedSales As Boolean
   overload: SuperOffice.CRM.Services.SaleBoardViewSettings.HideClosedSales*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
+  commentId: P:SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
+  id: BadgeType
+  parent: SuperOffice.CRM.Services.SaleBoardViewSettings
+  langs:
+  - csharp
+  - vb
+  name: BadgeType
+  nameWithType: SaleBoardViewSettings.BadgeType
+  fullName: SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: What should be displayed in the badge for the entity in the board
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual BoardViewBadgeType BadgeType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.BoardViewBadgeType
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property BadgeType As BoardViewBadgeType
+  overload: SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType*
   attributes:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
@@ -648,3 +682,16 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType*
+  commentId: Overload:SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleBoardViewSettings.html#SuperOffice_CRM_Services_SaleBoardViewSettings_BadgeType
+  name: BadgeType
+  nameWithType: SaleBoardViewSettings.BadgeType
+  fullName: SuperOffice.CRM.Services.SaleBoardViewSettings.BadgeType
+- uid: SuperOffice.Data.BoardViewBadgeType
+  commentId: '!:SuperOffice.Data.BoardViewBadgeType'
+  isExternal: true
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.Data.BoardViewBadgeType

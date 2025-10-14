@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Returns a default target assignment for the owner company.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 656,
+  "TargetAssignmentInfoId": 625,
   "Values": [
-    310,
-    552
+    184,
+    668
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 597,
-  "DimensionListItemDisplayName": "Streich-Stracke",
+  "DimensionListItem": 122,
+  "DimensionListItemDisplayName": "Schmitt, Corkery and Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   }
 }

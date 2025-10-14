@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -102,29 +104,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 393,
-  "ParentId": 550,
-  "Name": "Smith-Vandervort",
-  "Fullname": "et",
-  "CategoryMaster": 474,
+  "TicketCategoryId": 549,
+  "ParentId": 945,
+  "Name": "West-Cremin",
+  "Fullname": "ut",
+  "CategoryMaster": 728,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McClure Inc and Sons",
+  "ExternalName": "Klocko, Conn and Funk",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 792,
-  "ReplyTemplate": 719,
-  "NotificationEmail": "ralph_koss@watershowell.name",
+  "AssignmentLag": 705,
+  "ReplyTemplate": 479,
+  "NotificationEmail": "madison_windler@nadersenger.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 826,
+  "EffectiveReplyTemplateId": 971,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "harum"
+    "CustomFields1": "inventore",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -136,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 316,
-  "ParentId": 967,
-  "Name": "McDermott, Hessel and Feest",
-  "Fullname": "labore",
-  "CategoryMaster": 325,
+  "TicketCategoryId": 481,
+  "ParentId": 493,
+  "Name": "Howe LLC",
+  "Fullname": "ipsum",
+  "CategoryMaster": 376,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sawayn, Littel and Gleichner",
+  "ExternalName": "Stehr Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 873,
-  "ReplyTemplate": 629,
-  "NotificationEmail": "elton@kleinstokes.co.uk",
+  "AssignmentLag": 920,
+  "ReplyTemplate": 900,
+  "NotificationEmail": "patience@lubowitz.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 467,
+  "EffectiveReplyTemplateId": 328,
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "quidem"
+    "CustomFields1": "dolores",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 998
     }
   }
 }

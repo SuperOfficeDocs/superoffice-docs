@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetFilterList
 Get the list of filters to be used for processing the configuration data for this application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Configuration/GetFilterList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "et",
-  "Instance": "aut"
+  "Application": "quia",
+  "Instance": "voluptate"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolorem"
+"eveniet"
 ```

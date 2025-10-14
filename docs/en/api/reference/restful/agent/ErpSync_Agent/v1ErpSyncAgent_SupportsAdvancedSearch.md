@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 Indicates if the connection supports advanced search for the given erp actor
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -76,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 445,
+  "ErpConnectionId": 705,
   "ErpActorType": "Customer"
 }
 ```
@@ -87,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Stoltenberg-Prosacco",
-    "ToolTip": "Saepe quia iste nobis.",
-    "Deleted": true,
-    "Rank": 757,
-    "Type": "saepe",
-    "ColorBlock": 434,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "1998-06-21T11:24:53.9530436+02:00",
+    "Id": 183,
+    "Name": "Hermann, Runolfsdottir and Leffler",
+    "ToolTip": "Eos voluptates dignissimos dolorem ea et.",
+    "Deleted": false,
+    "Rank": 855,
+    "Type": "qui",
+    "ColorBlock": 158,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2018-06-04T03:40:56.8994885+02:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Nicolas LLC",
-        "ToolTip": "Et excepturi eos dicta.",
+        "Id": 696,
+        "Name": "Abbott Inc and Sons",
+        "ToolTip": "Eligendi rerum blanditiis.",
         "Deleted": false,
-        "Rank": 863,
-        "Type": "quis",
-        "ColorBlock": 31,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2010-05-01T11:24:53.9530436+02:00",
+        "Rank": 887,
+        "Type": "cupiditate",
+        "ColorBlock": 927,
+        "IconHint": "tempore",
+        "Selected": false,
+        "LastChanged": "2002-10-07T03:40:56.8994885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Zula Greenfelder",
+        "ExtraInfo": "eos",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Nicklaus Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Prof. Magnolia Aric Graham",
+    "ExtraInfo": "et",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Ted Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 893
       }
     }
   }

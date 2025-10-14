@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Data.DashboardTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.DashboardTableInfo.Guid
   - SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_DashboardTile_DashboardId
+  - SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
   - SuperOffice.CRM.Data.DashboardTableInfo.Name
   - SuperOffice.CRM.Data.DashboardTableInfo.PinForAll
   - SuperOffice.CRM.Data.DashboardTableInfo.PinForAssociates
@@ -789,6 +790,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTile_DashboardId As TargetedLeftOuterJoin(Of DashboardTileTableInfo)
   overload: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_DashboardTile_DashboardId*
+- uid: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  commentId: P:SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  id: LeftOuterJoin_QuickFilterInfo_DashboardId
+  parent: SuperOffice.CRM.Data.DashboardTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_QuickFilterInfo_DashboardId
+  nameWithType: DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  fullName: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key DashboardId on this table, to QuickFilterInfo.<xref href="SuperOffice.CRM.Data.QuickFilterInfoTableInfo.DashboardId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<QuickFilterInfoTableInfo> LeftOuterJoin_QuickFilterInfo_DashboardId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_QuickFilterInfo_DashboardId As TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  overload: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2097,4 +2121,53 @@ references:
   - name: Of
   - name: " "
   - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.DashboardId
+  commentId: P:SuperOffice.CRM.Data.QuickFilterInfoTableInfo.DashboardId
+  isExternal: true
+  href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html#SuperOffice_CRM_Data_QuickFilterInfoTableInfo_DashboardId
+  name: DashboardId
+  nameWithType: QuickFilterInfoTableInfo.DashboardId
+  fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.DashboardId
+- uid: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId*
+  commentId: Overload:SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  isExternal: true
+  href: SuperOffice.CRM.Data.DashboardTableInfo.html#SuperOffice_CRM_Data_DashboardTableInfo_LeftOuterJoin_QuickFilterInfo_DashboardId
+  name: LeftOuterJoin_QuickFilterInfo_DashboardId
+  nameWithType: DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+  fullName: SuperOffice.CRM.Data.DashboardTableInfo.LeftOuterJoin_QuickFilterInfo_DashboardId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuickFilterInfoTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<QuickFilterInfoTableInfo>
+  nameWithType: TargetedLeftOuterJoin<QuickFilterInfoTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuickFilterInfoTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.QuickFilterInfoTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of QuickFilterInfoTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    name: QuickFilterInfoTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+    name: QuickFilterInfoTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
   - name: )

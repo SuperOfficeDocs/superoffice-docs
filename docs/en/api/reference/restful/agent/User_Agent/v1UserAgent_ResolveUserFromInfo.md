@@ -15,6 +15,7 @@ Get a user from the provided information.
 
 
 If the user or associated person does not exist, it will be created on demand.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -85,19 +86,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 737,
-  "PersonName": "Mante Inc and Sons",
+  "ContactId": 476,
+  "PersonName": "Adams, Cormier and Adams",
   "PhoneNumbers": [
-    "851682",
-    "999295"
+    "1158426",
+    "1729962"
   ],
   "Emails": [
-    "zoie@walker.ca",
-    "dewayne.schoen@heaney.name"
+    "karine@stamm.ca",
+    "davonte.lockman@heathcote.us"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -118,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 289
     }
   }
 }

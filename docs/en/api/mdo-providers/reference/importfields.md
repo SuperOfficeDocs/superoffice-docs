@@ -42,19 +42,19 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|533|Company: companyshorttext||[SR_UDEF_TEXT_SHORT]|
-|534|Company: companylongtext||[SR_UDEF_TEXT_LONG]|
-|535|Company: companynumber||[SR_UDEF_NUMBER]|
-|536|Company: companydate||[SR_UDEF_DATE]|
-|537|Company: companyunlimiteddate||[SR_UDEF_UNLIMITEDDATE]|
-|538|Company: companycheckbox||[SR_UDEF_CHECKBOX]|
-|539|Company: companydropdownlistbox||[SR_UDEF_LIST]|
-|540|Company: companydecimal||[SR_UDEF_FLOAT]|
-|541|Company: page1saleonly||[SR_UDEF_TEXT_SHORT]|
-|542|Company: page1marketingonly||[SR_UDEF_TEXT_SHORT]|
-|543|Company: page1adminonly||[SR_UDEF_TEXT_SHORT]|
-|544|Company: Udlist one||[SR_UDEF_LIST]|
-|545|Company: Udlist two||[SR_UDEF_LIST]|
+|520|Company: companyshorttext||[SR_UDEF_TEXT_SHORT]|
+|521|Company: companylongtext||[SR_UDEF_TEXT_LONG]|
+|522|Company: companynumber||[SR_UDEF_NUMBER]|
+|523|Company: companydate||[SR_UDEF_DATE]|
+|524|Company: companyunlimiteddate||[SR_UDEF_UNLIMITEDDATE]|
+|525|Company: companycheckbox||[SR_UDEF_CHECKBOX]|
+|526|Company: companydropdownlistbox||[SR_UDEF_LIST]|
+|527|Company: companydecimal||[SR_UDEF_FLOAT]|
+|528|Company: page1saleonly||[SR_UDEF_TEXT_SHORT]|
+|529|Company: page1marketingonly||[SR_UDEF_TEXT_SHORT]|
+|530|Company: page1adminonly||[SR_UDEF_TEXT_SHORT]|
+|531|Company: Udlist one||[SR_UDEF_LIST]|
+|532|Company: Udlist two||[SR_UDEF_LIST]|
 |0|Company: Business|||
 |1|Company: Category|||
 |2|Company: Country|||

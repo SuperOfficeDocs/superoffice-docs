@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Schamberger, Swift and Hackett",
-    "ToolTip": "At nulla iste.",
+    "Id": 969,
+    "Name": "Murphy-Kreiger",
+    "ToolTip": "Porro ut ab doloremque nulla dolorum.",
     "Deleted": false,
-    "Rank": 165,
-    "Type": "ipsum",
-    "ColorBlock": 634,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2018-12-16T11:24:53.9061703+01:00",
+    "Rank": 431,
+    "Type": "aut",
+    "ColorBlock": 960,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2024-03-23T03:40:56.805732+01:00",
     "ChildItems": [
       {
-        "Id": 17,
-        "Name": "Pfeffer, Wiza and Bartell",
-        "ToolTip": "Occaecati molestiae ad provident.",
-        "Deleted": true,
-        "Rank": 173,
-        "Type": "quam",
-        "ColorBlock": 475,
-        "IconHint": "expedita",
+        "Id": 967,
+        "Name": "Lubowitz LLC",
+        "ToolTip": "Ex ut pariatur accusamus ut repudiandae cupiditate vero.",
+        "Deleted": false,
+        "Rank": 834,
+        "Type": "sit",
+        "ColorBlock": 476,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2010-09-12T11:24:53.9061703+02:00",
+        "LastChanged": "2017-05-14T03:40:56.805732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "optio",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Prof. Francis Ashlynn King"
+        "FullName": "Caleb Wintheiser"
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Tiana Spinka"
+    "ExtraInfo": "quia",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Mrs. Elinor Tate Stiedemann Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Rogahn Group",
-    "ToolTip": "Dolorem sint alias odio accusantium.",
+    "Id": 756,
+    "Name": "Ryan, Green and Lang",
+    "ToolTip": "Tempora est ab enim itaque doloremque.",
     "Deleted": false,
-    "Rank": 417,
-    "Type": "quaerat",
-    "ColorBlock": 615,
-    "IconHint": "eum",
+    "Rank": 366,
+    "Type": "ea",
+    "ColorBlock": 568,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-02-27T11:24:53.9061703+01:00",
+    "LastChanged": "2011-02-28T03:40:56.805732+01:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Stokes Inc and Sons",
-        "ToolTip": "Quo vero voluptas voluptatem ut rerum quasi quia.",
+        "Id": 53,
+        "Name": "Jacobson-Kuhic",
+        "ToolTip": "Odio deserunt explicabo veniam.",
         "Deleted": true,
-        "Rank": 764,
-        "Type": "cumque",
-        "ColorBlock": 997,
-        "IconHint": "doloremque",
-        "Selected": false,
-        "LastChanged": "2000-07-13T11:24:53.9061703+02:00",
+        "Rank": 661,
+        "Type": "nisi",
+        "ColorBlock": 669,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2022-08-08T03:40:56.805732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "at",
-        "Hidden": true,
-        "FullName": "Miss Lafayette Wendell Cassin",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Emmanuelle Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 935
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "qui",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Etha Bartoletti V",
+    "FullName": "Ashley Elijah Runolfsson II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 344
       }
     }
   }

@@ -15,6 +15,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,11 +88,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Sporer Inc and Sons",
-  "StorageKey": "dignissimos",
-  "Restrictions": "recusandae",
-  "StaticColumns": "qui"
+  "StorageType": "asperiores",
+  "ProviderName": "Dickens, Kshlerin and Abshire",
+  "StorageKey": "odit",
+  "Restrictions": "harum",
+  "StaticColumns": "magni"
 }
 ```
 
@@ -104,81 +105,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Skiles, Ratke and Fahey",
-      "Operator": "dolorem",
+      "Name": "Spencer-Stamm",
+      "Operator": "voluptatem",
       "Values": [
-        "earum",
-        "omnis"
+        "amet",
+        "dolor"
       ],
       "DisplayValues": [
-        "magnam",
-        "totam"
+        "accusantium",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 986,
+      "InterParenthesis": 165,
       "InterOperator": "And",
-      "UniqueHash": 868
+      "UniqueHash": 36
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Boehm, Mohr and Grant",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "omnis",
+      "DisplayName": "Halvorson-Prosacco",
+      "DisplayTooltip": "nobis",
+      "DisplayType": "voluptatibus",
       "CanOrderBy": false,
-      "Name": "Hammes-Auer",
+      "Name": "Brakus-Bosco",
       "CanRestrictBy": true,
-      "RestrictionType": "vero",
-      "RestrictionListName": "Ratke, Reinger and Robel",
+      "RestrictionType": "maxime",
+      "RestrictionListName": "O'Kon Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "qui",
-      "IconHint": "culpa",
-      "HeadingIconHint": "quod"
+      "ExtraInfo": "qui",
+      "Width": "quos",
+      "IconHint": "fugit",
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Fisher-Kiehn",
-      "PrimaryKey": 560,
+      "EntityName": "Hyatt, Lubowitz and Nicolas",
+      "PrimaryKey": 84,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "minus",
-          "LinkHint": "pariatur"
+          "DisplayValue": "laboriosam",
+          "TooltipHint": "adipisci",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "dolore",
-      "StyleHint": "eos",
+      "LinkHint": "accusamus",
+      "StyleHint": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 197
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kulas-Hauck",
-      "Description": "Triple-buffered assymetric time-frame",
-      "Rank": 163,
+      "Name": "Erdman-Mayer",
+      "Description": "Distributed mobile internet solution",
+      "Rank": 978,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kulas-Hauck",
-      "Description": "Triple-buffered assymetric time-frame",
-      "Rank": 163,
+      "Name": "Erdman-Mayer",
+      "Description": "Distributed mobile internet solution",
+      "Rank": 978,
       "Restrictions": [
         {},
         {}
@@ -190,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 421
     }
   }
 }

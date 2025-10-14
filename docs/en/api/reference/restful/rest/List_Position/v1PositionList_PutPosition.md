@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Bernier Inc and Sons",
-  "Tooltip": "eius",
+  "Id": 648,
+  "Name": "Schultz Group",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 514,
-  "Rank": 913
+  "UdListDefinitionId": 137,
+  "Rank": 73
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Quitzon Group",
-  "Tooltip": "porro",
+  "Id": 344,
+  "Name": "Farrell LLC",
+  "Tooltip": "ducimus",
   "Deleted": true,
-  "UdListDefinitionId": 339,
-  "Rank": 252,
+  "UdListDefinitionId": 77,
+  "Rank": 339,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 819
     }
   }
 }

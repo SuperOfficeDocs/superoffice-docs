@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Get License from the license server for a particular module owner.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Lockman-Kulas"
+  "OwnerName": "Aufderhar-Cruickshank"
 }
 ```
 
@@ -90,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "omnis",
+  "Message": "ut",
   "Url": "http://www.example.com/"
 }
 ```

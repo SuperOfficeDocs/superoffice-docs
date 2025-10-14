@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCategories
 Returns all categories a contact could belong to
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Value": "quisquam",
-    "Tooltip": "earum",
+    "Id": 823,
+    "Value": "beatae",
+    "Tooltip": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 294
       }
     }
   },
   {
-    "Id": 653,
-    "Value": "quisquam",
-    "Tooltip": "earum",
+    "Id": 823,
+    "Value": "beatae",
+    "Tooltip": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 294
       }
     }
   }

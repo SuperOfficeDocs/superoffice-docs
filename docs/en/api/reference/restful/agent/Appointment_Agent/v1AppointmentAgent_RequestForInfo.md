@@ -15,6 +15,7 @@ Submits a request for information.
 
 
 The request is added to the task list of the user that is responsible for this contact. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,18 +86,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 176,
-  "Channel": "et",
-  "Regarding": "mollitia",
-  "ContactName": "Sanford Inc and Sons",
-  "PersonFirstname": "Piper",
-  "PersonLastname": "Steuber",
-  "EmailAddress": "birdie.wolf@schowalter.ca",
-  "PhoneNumber": "1048255"
+  "AssociateIdForNewContact": 152,
+  "Channel": "temporibus",
+  "Regarding": "possimus",
+  "ContactName": "Fay Inc and Sons",
+  "PersonFirstname": "Laurel",
+  "PersonLastname": "Mosciski",
+  "EmailAddress": "mittie@mills.name",
+  "PhoneNumber": "520902"
 }
 ```
 
@@ -109,36 +110,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 983,
-      "Name": "Price, Abbott and Little",
-      "OrgNr": "1324858",
-      "Department": "optimize enterprise platforms",
+      "ContactId": 849,
+      "Name": "Wintheiser Group",
+      "OrgNr": "777919",
+      "Department": "",
       "URL": "http://www.example.com/",
-      "City": "officiis",
-      "DirectPhone": "(831)000-6865 x90358",
-      "AssociateId": 795,
-      "CountryId": 807,
-      "EmailAddress": "candace@roob.biz",
-      "Kananame": "fugiat",
-      "EmailAddressName": "teagan@crona.us",
+      "City": "recusandae",
+      "DirectPhone": "838-179-9977 x597",
+      "AssociateId": 786,
+      "CountryId": 699,
+      "EmailAddress": "shyann_grant@berge.ca",
+      "Kananame": "dolores",
+      "EmailAddressName": "garrick@connellywest.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Miss Philip Buckridge V",
+      "AssociateFullName": "Mrs. Hailie Maya West",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "inventore",
-      "FullName": "Carroll Mckenna Wisoky MD",
+      "FormattedAddress": "est",
+      "FullName": "Dr. Ariane Schoen",
       "IsOwnerContact": true,
-      "ActiveErpLinks": 99,
-      "Number1": "1470995",
-      "Number2": "441487",
+      "ActiveErpLinks": 841,
+      "Number1": "854839",
+      "Number2": "1440450",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 485
+          "FieldType": "System.Int32",
+          "FieldLength": 109
         }
       }
     }
@@ -150,7 +151,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldLength": 812
     }
   }
 }

@@ -15,6 +15,7 @@ Gets a PreferenceDescription object.
 
 
 Calls the Preference agent service GetPreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -91,7 +92,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,35 +102,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 318,
-  "Section": "aut",
-  "Key": "exercitationem",
-  "Name": "Ankunding Inc and Sons",
+  "PrefDescId": 650,
+  "Section": "labore",
+  "Key": "velit",
+  "Name": "Runolfsdottir LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced encompassing synergy",
-  "IsBuiltin": false,
-  "TableName": "Satterfield Group",
-  "UserDefinedListId": 46,
-  "Rank": 550,
-  "SubGroup": "consequatur",
-  "MinLevel": 427,
-  "MaxValue": 437,
-  "MinValue": 388,
-  "RequiredLicense": "sint",
+  "Description": "Grass-roots composite encryption",
+  "IsBuiltin": true,
+  "TableName": "Kulas Inc and Sons",
+  "UserDefinedListId": 779,
+  "Rank": 874,
+  "SubGroup": "et",
+  "MinLevel": 88,
+  "MaxValue": 38,
+  "MinValue": 535,
+  "RequiredLicense": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldLength": 413
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quia",
-    "voluptate"
+    "et",
+    "nulla"
   ],
-  "CurrentClientTime": "2022-12-31T11:24:48.4532678+01:00"
+  "CurrentClientTime": "1999-06-22T03:40:47.4374779+02:00"
 }
 ```
 
@@ -103,35 +103,35 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "dolor",
-    "consectetur"
+    "molestiae",
+    "dolores"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 975,
-  "NotificationsCount": 700,
+  "OverdueSalesCount": 145,
+  "NotificationsCount": 624,
   "SystemWebPanels": [
     {
-      "WebPanelId": 618,
-      "Name": "Kemmer, Ratke and Kiehn",
-      "Tooltip": "impedit",
+      "WebPanelId": 186,
+      "Name": "Hackett-Harris",
+      "Tooltip": "sint",
       "Deleted": false,
-      "Rank": 1002,
+      "Rank": 521,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": true,
       "OnTravel": false,
-      "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": false,
+      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingPocket": true,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Romaguera, Jones and Haag",
+      "ShowInStatusBar": false,
+      "WindowName": "Lehner-Purdy",
       "Url": "http://www.example.com/",
-      "ProgId": "totam",
-      "Icon": 340,
+      "ProgId": "maxime",
+      "Icon": 483,
       "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": false,
       "TableRight": null,
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 132
         }
       }
     }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "aperiam",
+      "RawValue": "recusandae",
       "Specification": null,
-      "DisplayValue": "ex",
-      "DisplayTooltip": "hic",
+      "DisplayValue": "rem",
+      "DisplayTooltip": "rerum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 6,
-      "PrefDescId": 372,
-      "TableName": "Padberg Inc and Sons",
-      "UserPreferenceId": 483,
+      "TargetId": 633,
+      "PrefDescId": 104,
+      "TableName": "Langosh Group",
+      "UserPreferenceId": 148,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 113
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "error",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 421
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Database/GetStepsInDatabase
 Get information about the dictionary steps that are in the currently-loggedon database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsInDatabase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhn, Collier and Reinger",
-    "StepNumber": 388,
+    "Name": "Mayert-Hammes",
+    "StepNumber": 345,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 323
       }
     }
   },
   {
-    "Name": "Kuhn, Collier and Reinger",
-    "StepNumber": 388,
+    "Name": "Mayert-Hammes",
+    "StepNumber": 345,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 323
       }
     }
   }

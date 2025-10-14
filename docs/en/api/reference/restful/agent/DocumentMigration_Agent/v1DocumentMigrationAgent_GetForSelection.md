@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/GetForSelection
 Gets a migration summary for documents in the provided selection
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -83,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 97,
-  "SelectionId": 122,
-  "IncludeEmails": true
+  "DocumentPluginId": 595,
+  "SelectionId": 802,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 31,
-  "NumDocumentsAlreadyMigrated": 325,
+  "NumDocumentsOmitted": 459,
+  "NumDocumentsAlreadyMigrated": 105,
   "Documents": [
     {
-      "DocumentId": 830,
-      "ContactId": 696,
-      "PersonId": 561,
-      "SaleId": 585,
-      "ProjectId": 227,
-      "DocTmplId": 430,
-      "AssociateId": 18,
-      "UserGroupId": 507,
-      "VisibleForId": 412
+      "DocumentId": 757,
+      "ContactId": 473,
+      "PersonId": 206,
+      "SaleId": 536,
+      "ProjectId": 166,
+      "DocTmplId": 248,
+      "AssociateId": 65,
+      "UserGroupId": 554,
+      "VisibleForId": 368
     }
   ],
   "Associates": [
     {
-      "AssociateId": 3,
-      "EmailAddress": "deborah@wiza.us"
+      "AssociateId": 617,
+      "EmailAddress": "theresa@raynor.info"
     },
     {
-      "AssociateId": 3,
-      "EmailAddress": "deborah@wiza.us"
+      "AssociateId": 617,
+      "EmailAddress": "theresa@raynor.info"
     }
   ]
 }

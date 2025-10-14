@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 451,
-  "Name": "Treutel Group",
-  "Tooltip": "consectetur",
+  "Id": 914,
+  "Name": "Gleichner, Pagac and Zemlak",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 150,
-  "Rank": 501
+  "UdListDefinitionId": 581,
+  "Rank": 90
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Conroy Group",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "UdListDefinitionId": 230,
-  "Rank": 738,
+  "Id": 281,
+  "Name": "Graham LLC",
+  "Tooltip": "nostrum",
+  "Deleted": false,
+  "UdListDefinitionId": 583,
+  "Rank": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

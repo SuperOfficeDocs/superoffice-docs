@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Returns the configuration field with the given field name
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Kozey Group"
+  "FieldName": "Walsh, Huels and Beier"
 }
 ```
 
@@ -97,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 496,
-  "FieldName": "Murphy, VonRueden and Hickle",
-  "Label": "commodi",
-  "Tooltip": "sed",
+  "QuoteLineConfigurationId": 615,
+  "FieldName": "Sporer, Jacobson and Skiles",
+  "Label": "consectetur",
+  "Tooltip": "autem",
   "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 227,
+  "Rank": 276,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

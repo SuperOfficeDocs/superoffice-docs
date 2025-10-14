@@ -15,6 +15,7 @@ Deletes the DocumentEntity
 
 
 Calls the Document agent service DeleteDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -54,7 +55,7 @@ DocumentEntity deleted.
 DELETE /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

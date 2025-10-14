@@ -15,6 +15,7 @@ Change the status of one or more sales to Lost.
 
 
 Note that this does not affect the Completed state of the sale.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,15 +69,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLostWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    412,
-    335
+    473,
+    519
   ],
-  "ReasonId": 245
+  "ReasonId": 535
 }
 ```
 

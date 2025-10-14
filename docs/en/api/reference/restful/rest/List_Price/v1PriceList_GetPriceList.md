@@ -15,6 +15,7 @@ Gets a PriceList object.
 
 
 Calls the Quote agent service GetPriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +84,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,22 +94,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 989,
-  "ERPPriceListKey": "reiciendis",
-  "QuoteConnectionId": 353,
-  "Name": "Welch-Macejkovic",
-  "Description": "Switchable modular flexibility",
-  "Currency": "ducimus",
-  "CurrencyName": "Walsh-McLaughlin",
-  "ValidFrom": "2004-02-20T11:24:53.9842923+01:00",
-  "ValidTo": "2020-02-24T11:24:53.9842923+01:00",
-  "IsActive": true,
+  "PriceListId": 998,
+  "ERPPriceListKey": "necessitatibus",
+  "QuoteConnectionId": 800,
+  "Name": "Streich-Zemlak",
+  "Description": "Profit-focused empowering emulation",
+  "Currency": "occaecati",
+  "CurrencyName": "Koss Inc and Sons",
+  "ValidFrom": "2008-03-07T03:40:56.9777222+01:00",
+  "ValidTo": "2013-05-29T03:40:56.9777222+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   },
   "_Links": {

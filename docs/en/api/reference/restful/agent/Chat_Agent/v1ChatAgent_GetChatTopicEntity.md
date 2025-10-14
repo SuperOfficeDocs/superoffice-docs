@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity
 Gets a ChatTopicEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=896
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=443
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -98,7 +100,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,43 +110,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 183,
-  "Name": "Keeling, Yost and Mann",
-  "Description": "Grass-roots composite challenge",
-  "WelcomeMessage": "illum",
+  "ChatTopicId": 10,
+  "Name": "Strosin LLC",
+  "Description": "Right-sized background hierarchy",
+  "WelcomeMessage": "exercitationem",
   "Language": null,
-  "LastAccept": "2001-08-28T11:24:47.7032984+02:00",
-  "SecondsPrAccept": 390,
-  "AlertRecipient": "doloribus",
+  "LastAccept": "1999-10-27T03:40:46.2014635+02:00",
+  "SecondsPrAccept": 692,
+  "AlertRecipient": "debitis",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "reprehenderit",
+  "CollectConsent": true,
+  "BadgeHeader": "velit",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rem",
-  "WarnNewChatMinutes": 987,
-  "WarnManagerNewChatMinutes": 370,
+  "CustomQueueText": "quas",
+  "WarnNewChatMinutes": 318,
+  "WarnManagerNewChatMinutes": 779,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 906,
-  "WarnManagerChatMessageMinutes": 890,
+  "WarnChatMessageMinutes": 394,
+  "WarnManagerChatMessageMinutes": 412,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 990,
-  "OfflineFormQueueLength": 109,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "est",
+  "OfflineFormTimeLimit": 81,
+  "OfflineFormQueueLength": 226,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

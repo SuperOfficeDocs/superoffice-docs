@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 141,
-  "StartTime": "2018-05-01T11:24:47.3126897+02:00",
-  "EndTime": "2005-01-24T11:24:47.3126897+01:00",
-  "Count": 467,
-  "TaskHeadingId": 265
+  "ContactId": 515,
+  "StartTime": "2004-07-30T03:40:45.6231158+02:00",
+  "EndTime": "1999-03-20T03:40:45.6231158+01:00",
+  "Count": 694,
+  "TaskHeadingId": 345
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 281,
-    "StartDate": "2024-04-23T11:24:47.3126897+02:00",
-    "EndDate": "2017-11-15T11:24:47.3126897+01:00",
+    "AppointmentId": 730,
+    "StartDate": "2005-07-26T03:40:45.6231158+02:00",
+    "EndDate": "2006-07-02T03:40:45.6231158+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Prof. Giles Langosh",
-    "ContactName": "Pacocha, Fadel and Abbott",
-    "Description": "Innovative solution-oriented task-force",
-    "PersonFullName": "Theresa Darian Cummings DDS",
-    "PersonId": 248,
-    "ContactId": 919,
-    "ProjectId": 737,
-    "ProjectName": "Goyette-Metz",
-    "IsPublished": false,
-    "AssociateId": 59,
-    "ColorIndex": 622,
+    "Task": "dolor",
+    "AssociateFullName": "Antonina Maybell Feeney Sr.",
+    "ContactName": "Jakubowski, Miller and Weimann",
+    "Description": "Progressive contextually-based framework",
+    "PersonFullName": "Mrs. Darwin Runolfsdottir",
+    "PersonId": 321,
+    "ContactId": 700,
+    "ProjectId": 692,
+    "ProjectName": "Daniel-Upton",
+    "IsPublished": true,
+    "AssociateId": 989,
+    "ColorIndex": 125,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 435,
-    "PriorityName": "Ledner, Wisozk and Hettinger",
+    "PriorityId": 828,
+    "PriorityName": "Moore LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2011-08-20T11:24:47.3126897+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2004-03-29T03:40:45.6231158+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-03-18T11:24:47.3126897+01:00",
-    "RecurringEndDate": "2023-07-17T11:24:47.3126897+02:00",
-    "MotherId": 138,
-    "AssignedBy": 245,
-    "AssignedByFullName": "Robbie Romaguera DVM",
+    "RecurringStartDate": "2019-01-01T03:40:45.6231158+01:00",
+    "RecurringEndDate": "2020-11-30T03:40:45.6231158+01:00",
+    "MotherId": 366,
+    "AssignedBy": 387,
+    "AssignedByFullName": "Nichole Leannon",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "velit",
-    "SaleId": 16,
-    "SaleName": "Bosco Inc and Sons",
-    "AssociateName": "Champlin-Cole",
-    "CreatedDate": "2001-04-24T11:24:47.3126897+02:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Bryon Goodwin",
-    "CreatedByAssociateId": 16,
+    "Location": "reiciendis",
+    "AlarmLeadTime": "dicta",
+    "SaleId": 642,
+    "SaleName": "Barton-McClure",
+    "AssociateName": "Runolfsdottir, Larkin and Larson",
+    "CreatedDate": "2001-05-19T03:40:45.6231158+02:00",
+    "CreatedBy": "maiores",
+    "CreatedByFullName": "Jefferey Hayes",
+    "CreatedByAssociateId": 748,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 475,
+    "MotherAssociateId": 105,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 900,
-    "Title": "et",
-    "Agenda": "non",
-    "InternalNotes": "error",
+    "PreferredTZLocation": 342,
+    "Title": "rerum",
+    "Agenda": "quia",
+    "InternalNotes": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 487
       }
     }
   }

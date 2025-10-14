@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Set Measure to CountAll and MeasureField to primary key field
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Quigley LLC"
+  "EntityName": "Bednar-Shields"
 }
 ```
 
@@ -107,31 +109,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 609,
-  "Name": "Walsh-Cronin",
-  "Description": "Distributed real-time monitoring",
-  "DefaultHeight": 527,
-  "DefaultWidth": 146,
+  "DashboardTileDefinitionId": 138,
+  "Name": "Parisian, Conroy and Satterfield",
+  "Description": "Ameliorated stable superstructure",
+  "DefaultHeight": 701,
+  "DefaultWidth": 8,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Labadie LLC",
-  "SelectionId": 340,
+  "EntityName": "Veum, Mosciski and Will",
+  "SelectionId": 866,
   "CurrencyMode": "Base",
-  "CurrencyCode": "repellat",
+  "CurrencyCode": "voluptatibus",
   "Measure": "Average",
-  "MeasureField": "molestias",
-  "SortBy": "sit",
-  "LayoutConfig": "officia",
-  "SecondarySelectionId": 6,
-  "MeasureByField": "et",
+  "MeasureField": "consequatur",
+  "SortBy": "quis",
+  "LayoutConfig": "veniam",
+  "SecondarySelectionId": 152,
+  "MeasureByField": "eius",
   "Usage": "Dashboard",
-  "ProviderName": "Price LLC",
+  "ProviderName": "Mann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 488
     }
   }
 }

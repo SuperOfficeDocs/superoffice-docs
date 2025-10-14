@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 926,
-  "PrefDescId": 729,
-  "PrefValue": "sed",
-  "PrefShowValue": "nam",
-  "Description": "Intuitive dynamic help-desk",
+  "PrefDescLineId": 210,
+  "PrefDescId": 10,
+  "PrefValue": "quas",
+  "PrefShowValue": "quo",
+  "Description": "Persistent directional internet solution",
   "IsBuiltin": false
 }
 ```
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 345,
-  "PrefDescId": 637,
-  "PrefValue": "aut",
-  "PrefShowValue": "vel",
-  "Description": "Horizontal asynchronous intranet",
+  "PrefDescLineId": 687,
+  "PrefDescId": 674,
+  "PrefValue": "iste",
+  "PrefShowValue": "qui",
+  "Description": "Vision-oriented dynamic infrastructure",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

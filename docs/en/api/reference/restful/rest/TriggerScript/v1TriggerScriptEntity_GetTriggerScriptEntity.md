@@ -15,6 +15,7 @@ Gets a TriggerScriptEntity object.
 
 
 Calls the CRMScript agent service GetTriggerScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -86,7 +87,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,27 +97,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 825,
-  "Name": "Lindgren-Sauer",
+  "ScreenChooserId": 777,
+  "Name": "Schroeder Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "earum",
-  "Source": "ea",
-  "Registered": "2002-07-21T11:24:53.7186781+02:00",
-  "RegisteredAssociateId": 429,
-  "Updated": "2006-08-09T11:24:53.7186781+02:00",
-  "UpdatedAssociateId": 665,
+  "UniqueIdentifier": "vel",
+  "Source": "aperiam",
+  "Registered": "2011-08-30T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 761,
+  "Updated": "2025-04-17T03:40:56.4140988+02:00",
+  "UpdatedAssociateId": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 982
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

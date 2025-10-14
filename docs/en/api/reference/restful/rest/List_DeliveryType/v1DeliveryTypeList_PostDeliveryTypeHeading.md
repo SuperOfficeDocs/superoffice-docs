@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 334,
-  "Name": "Bode-Kuhn",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 784,
-  "UdListDefinitionId": 120
+  "HeadingId": 818,
+  "Name": "Kreiger, Rohan and Brekke",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "Rank": 818,
+  "UdListDefinitionId": 682
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 464,
-  "Name": "Lowe LLC",
-  "Tooltip": "vero",
+  "HeadingId": 620,
+  "Name": "Rodriguez-Ullrich",
+  "Tooltip": "provident",
   "Deleted": true,
-  "Rank": 486,
-  "UdListDefinitionId": 250,
+  "Rank": 372,
+  "UdListDefinitionId": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 528
     }
   }
 }

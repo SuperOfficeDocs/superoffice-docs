@@ -15,6 +15,7 @@ Change the status of one or more Sales to Sold.
 
 
 Note that this does not mark them as Completed.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,15 +69,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsSoldWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    535,
-    337
+    843,
+    922
   ],
-  "ReasonId": 832
+  "ReasonId": 623
 }
 ```
 

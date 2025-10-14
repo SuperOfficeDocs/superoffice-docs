@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -139,7 +141,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "natus"
+  "UID": "dolorem"
 }
 ```
 
@@ -154,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-02-18T11:24:47.5626792+01:00",
-  "AppointmentId": 954,
-  "Description": "Enhanced non-volatile secured line",
-  "Title": "voluptatem",
-  "Agenda": "dolorem",
-  "InternalNotes": "alias",
-  "StartDate": "2021-12-01T11:24:47.5626792+01:00",
-  "EndDate": "2023-07-28T11:24:47.5626792+02:00",
+  "CreatedDate": "2008-04-20T03:40:45.9994464+02:00",
+  "AppointmentId": 667,
+  "Description": "Polarised client-driven system engine",
+  "Title": "ut",
+  "Agenda": "vel",
+  "InternalNotes": "sed",
+  "StartDate": "2006-12-01T03:40:45.9994464+01:00",
+  "EndDate": "2019-12-19T03:40:45.9994464+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 488,
+  "MotherId": 403,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-01-18T11:24:47.5626792+01:00",
+  "UpdatedDate": "2015-08-18T03:40:45.9994464+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 447,
+  "ActiveLinks": 127,
   "Links": [
     {
-      "EntityName": "Prosacco-Fritsch",
-      "Id": 401,
-      "Description": "Reactive web-enabled matrix",
-      "ExtraInfo": "totam",
-      "LinkId": 5,
+      "EntityName": "Spinka Group",
+      "Id": 585,
+      "Description": "Reactive clear-thinking software",
+      "ExtraInfo": "assumenda",
+      "LinkId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldType": "System.String",
+          "FieldLength": 86
         }
       }
     }
   ],
-  "AlarmLeadTime": "nostrum",
-  "HasAlarm": false,
-  "ColorIndex": 107,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "quo",
-  "LeadTime": "aliquid",
-  "Location": "asperiores",
-  "RejectCounter": 636,
+  "AlarmLeadTime": "aspernatur",
+  "HasAlarm": true,
+  "ColorIndex": 523,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "veniam",
+  "LeadTime": "eos",
+  "Location": "sint",
+  "RejectCounter": 558,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 771,
-      "PersonId": 590,
-      "ContactId": 508,
-      "EmailId": 387,
-      "SendEmail": false,
+      "AssociateId": 318,
+      "PersonId": 551,
+      "ContactId": 332,
+      "EmailId": 755,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "aracely@spinka.ca",
-      "Description": "Ameliorated secondary projection"
+      "EmailAddress": "stone.reinger@weissnatkemmer.biz",
+      "Description": "Front-line needs-based neural-net"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-11-15T11:24:47.5626792+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-01-09T03:40:45.9994464+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 992,
+  "PreferredTZLocation": 959,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 602,
+  "SuggestedAppointmentId": 805,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "architecto",
+  "CentralserviceVideomeetId": "ipsa",
   "UserDefinedFields": {
-    "SuperOffice:1": "Larue Francisca Dooley V",
-    "SuperOffice:2": "Mrs. Freida Pollich"
+    "SuperOffice:1": "Mr. Olaf Selmer Ullrich II",
+    "SuperOffice:2": "Jordi Wisozk"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "id",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quia"
+    "CustomFields1": "nihil",
+    "CustomFields2": "quae"
   },
-  "PublishEventDate": "2018-07-09T11:24:47.5626792+02:00",
-  "PublishTo": "2025-02-01T11:24:47.5626792+01:00",
-  "PublishFrom": "2016-10-19T11:24:47.5626792+02:00",
+  "PublishEventDate": "2016-05-27T03:40:45.9994464+02:00",
+  "PublishTo": "1999-06-07T03:40:45.9994464+02:00",
+  "PublishFrom": "2000-06-18T03:40:45.9994464+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 803,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 846
         }
       }
     },
     {
-      "VisibleId": 803,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 846
         }
       }
     }
@@ -277,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

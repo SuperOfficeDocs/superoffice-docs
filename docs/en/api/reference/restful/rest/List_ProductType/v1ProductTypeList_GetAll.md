@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Nitzsche, Effertz and Bergnaum",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 11,
-    "Rank": 697,
+    "Id": 149,
+    "Name": "Smith-Legros",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 669,
+    "Rank": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldLength": 599
       }
     }
   }

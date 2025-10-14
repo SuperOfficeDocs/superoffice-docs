@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 Detect columnid changes to the admin version (for determining publish warning)
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/DetectColumnIdChanges
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

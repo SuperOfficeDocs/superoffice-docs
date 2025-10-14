@@ -15,6 +15,7 @@ Returns an array of phone list items with the in-parameter as restriction.
 
 
 The in-parameter must be a valid department id (UserGroupId).
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -89,7 +90,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 480
+  "DepartmentId": 267
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "229-572-6068",
-    "PersonCellPhone": "(242)243-3952",
-    "PersonPrivatePhone": "380.836.3273 x3788",
-    "PersonFaxNumber": "30809",
-    "PersonPagerNumber": "1330573",
-    "PersonEmail": "tod.schmidt@oconnellvolkman.biz",
-    "Id": 333,
-    "Name": "Pagac LLC",
-    "Tooltip": "et",
-    "UniqueId": "eos",
+    "PersonDirectPhone": "(710)814-5309",
+    "PersonCellPhone": "472-563-8636 x8993",
+    "PersonPrivatePhone": "634.730.3470",
+    "PersonFaxNumber": "341280",
+    "PersonPagerNumber": "1071247",
+    "PersonEmail": "zoe@powlowski.us",
+    "Id": 202,
+    "Name": "Bednar-Johnston",
+    "Tooltip": "voluptatum",
+    "UniqueId": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 804
       }
     }
   }

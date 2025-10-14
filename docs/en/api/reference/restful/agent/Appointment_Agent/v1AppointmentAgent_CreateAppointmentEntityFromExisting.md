@@ -15,6 +15,7 @@ Creates an AppointmentEntity populated with values from an existing appointment.
 
 
 The new appointment will get the same task type and participant list as the source appointment. The date of the new appointment will be set to today, but the time component is kept.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -136,12 +137,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 940,
-  "AssociateId": 432
+  "AppointmentId": 156,
+  "AssociateId": 602
 }
 ```
 
@@ -156,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2025-07-06T11:24:47.3908145+02:00",
-  "AppointmentId": 356,
-  "Description": "Vision-oriented uniform orchestration",
-  "Title": "fugit",
-  "Agenda": "consequatur",
-  "InternalNotes": "dolore",
-  "StartDate": "2024-11-16T11:24:47.3908145+01:00",
-  "EndDate": "2008-03-01T11:24:47.3908145+01:00",
+  "CreatedDate": "2008-04-09T03:40:45.7637497+02:00",
+  "AppointmentId": 15,
+  "Description": "Phased client-driven projection",
+  "Title": "omnis",
+  "Agenda": "laboriosam",
+  "InternalNotes": "in",
+  "StartDate": "2019-12-09T03:40:45.7637497+01:00",
+  "EndDate": "2011-09-25T03:40:45.7637497+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 287,
+  "MotherId": 6,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-04-11T11:24:47.3908145+02:00",
+  "UpdatedDate": "2019-07-19T03:40:45.7637497+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 593,
+  "ActiveLinks": 496,
   "Links": [
     {
-      "EntityName": "Turner-O'Conner",
-      "Id": 322,
-      "Description": "Expanded responsive collaboration",
-      "ExtraInfo": "distinctio",
-      "LinkId": 525,
+      "EntityName": "Carroll-Ebert",
+      "Id": 810,
+      "Description": "Programmable encompassing success",
+      "ExtraInfo": "id",
+      "LinkId": 48,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 600
         }
       }
     }
   ],
-  "AlarmLeadTime": "quia",
+  "AlarmLeadTime": "rerum",
   "HasAlarm": false,
-  "ColorIndex": 541,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "dolorem",
-  "LeadTime": "totam",
-  "Location": "consectetur",
-  "RejectCounter": 807,
+  "ColorIndex": 42,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "animi",
+  "LeadTime": "velit",
+  "Location": "occaecati",
+  "RejectCounter": 140,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 209,
-      "PersonId": 723,
-      "ContactId": 722,
-      "EmailId": 260,
+      "AssociateId": 233,
+      "PersonId": 850,
+      "ContactId": 181,
+      "EmailId": 89,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "casimer@maggio.us",
-      "Description": "Horizontal leading edge throughput"
+      "EmailAddress": "skylar.gutmann@cummings.uk",
+      "Description": "Exclusive explicit circuit"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-11-27T11:24:47.3908145+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2012-09-22T03:40:45.7637497+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 652,
+  "PreferredTZLocation": 6,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 74,
+  "SuggestedAppointmentId": 232,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eligendi",
+  "CentralserviceVideomeetId": "numquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "1708938342",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Coleman Corwin",
+    "SuperOffice:2": "Hettie Gottlieb"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "quas",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "eaque"
+    "CustomFields1": "non",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2011-01-21T11:24:47.3908145+01:00",
-  "PublishTo": "2018-11-28T11:24:47.3908145+01:00",
-  "PublishFrom": "2017-09-20T11:24:47.3908145+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2011-03-25T03:40:45.7637497+01:00",
+  "PublishTo": "2014-11-03T03:40:45.7637497+01:00",
+  "PublishFrom": "2011-01-27T03:40:45.7637497+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 665,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 665,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
@@ -279,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

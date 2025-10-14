@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTaskMenu
 Loading default values into a new TaskMenu.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,26 +81,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 465,
-  "Name": "Wuckert LLC",
-  "Tooltip": "est",
-  "TableName": "Kerluke-Luettgen",
-  "Area": "libero",
+  "TaskMenuId": 381,
+  "Name": "Rutherford-Will",
+  "Tooltip": "ea",
+  "TableName": "Kuhn LLC",
+  "Area": "placeat",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 257,
+  "CrmScriptId": 88,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 720,
+  "Rank": 264,
   "Encoding": "ANSI",
-  "ProgId": "autem",
+  "ProgId": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   }
 }

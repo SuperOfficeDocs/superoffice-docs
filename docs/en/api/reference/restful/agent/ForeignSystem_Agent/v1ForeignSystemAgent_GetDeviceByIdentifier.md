@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schimmel-Harber",
-  "DeviceName": "Lemke-Williamson",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Paucek Group",
+  "DeviceName": "Kirlin Inc and Sons",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -101,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 21,
-  "Name": "Parisian-Quigley",
-  "CreatedDate": "1998-09-30T11:24:48.1564051+02:00",
-  "UpdatedDate": "2003-03-21T11:24:48.1564051+01:00",
-  "AssociateFullName": "Perry Luettgen",
-  "CreatedBy": "autem",
-  "UpdatedBy": "voluptatibus",
-  "DeviceIdentifier": "provident",
-  "ForeignAppId": 814,
+  "ForeignDeviceId": 688,
+  "Name": "Stiedemann Group",
+  "CreatedDate": "1999-02-02T03:40:46.9842779+01:00",
+  "UpdatedDate": "2010-05-26T03:40:46.9842779+02:00",
+  "AssociateFullName": "Horacio Schuppe",
+  "CreatedBy": "ducimus",
+  "UpdatedBy": "consequuntur",
+  "DeviceIdentifier": "eveniet",
+  "ForeignAppId": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

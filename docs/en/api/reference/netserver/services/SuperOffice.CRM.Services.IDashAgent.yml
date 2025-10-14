@@ -27,16 +27,19 @@ items:
   - SuperOffice.CRM.Services.IDashAgent.GetDashAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashCollectionAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashThemeAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinitionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.GetTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashAsync(SuperOffice.CRM.Services.Dash,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.CRM.Services.QuickFilterInfo[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashThemeAsync(SuperOffice.CRM.Services.DashTheme,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTileAsync(SuperOffice.CRM.Services.DashTile,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinitionAsync(SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
@@ -344,6 +347,105 @@ items:
   nameWithType.vb: IDashAgent.GetDashListAsync(Integer(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashListAsync(Integer(), System.Threading.CancellationToken)
   name.vb: GetDashListAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashQuickFiltersAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetDashQuickFiltersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Gets the quick filters for this dashboard
+  example: []
+  syntax:
+    content: Task<QuickFilterInfo[]> GetDashQuickFiltersAsync(int dashboardId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard to get the quick filters for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuickFilterInfo[]}
+      description: List of quick filters for the given dashboard
+    content.vb: Function GetDashQuickFiltersAsync(dashboardId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync*
+  nameWithType.vb: IDashAgent.GetDashQuickFiltersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDashQuickFiltersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.CRM.Services.QuickFilterInfo[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync(System.Int32,SuperOffice.CRM.Services.QuickFilterInfo[],System.Threading.CancellationToken)
+  id: SaveDashQuickFiltersAsync(System.Int32,SuperOffice.CRM.Services.QuickFilterInfo[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDashQuickFiltersAsync(int, QuickFilterInfo[], CancellationToken)
+  nameWithType: IDashAgent.SaveDashQuickFiltersAsync(int, QuickFilterInfo[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync(int, SuperOffice.CRM.Services.QuickFilterInfo[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Saves the quick filters for this dashboard
+  example: []
+  syntax:
+    content: Task<QuickFilterInfo[]> SaveDashQuickFiltersAsync(int dashboardId, QuickFilterInfo[] quickFilters, CancellationToken cancellationToken = default)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard these quick filters are associated with
+    - id: quickFilters
+      type: SuperOffice.CRM.Services.QuickFilterInfo[]
+      description: Complete list of quick filters for the given dashboard, overwriting the existing list
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuickFilterInfo[]}
+      description: List of saved quick filters for the given dashboard
+    content.vb: Function SaveDashQuickFiltersAsync(dashboardId As Integer, quickFilters As QuickFilterInfo(), cancellationToken As CancellationToken = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync*
+  nameWithType.vb: IDashAgent.SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync(Integer, SuperOffice.CRM.Services.QuickFilterInfo(), System.Threading.CancellationToken)
+  name.vb: SaveDashQuickFiltersAsync(Integer, QuickFilterInfo(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPossibleDashQuickFiltersAsync(int, CancellationToken)
+  nameWithType: IDashAgent.GetPossibleDashQuickFiltersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Gets the possible (not stored/selected) quick filters for this dashboard
+  example: []
+  syntax:
+    content: Task<QuickFilterInfo[]> GetPossibleDashQuickFiltersAsync(int dashboardId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: dashboardId
+      type: System.Int32
+      description: The id of the dashboard to get the possible quick filters for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuickFilterInfo[]}
+      description: List of possible quick filters for the given dashboard
+    content.vb: Function GetPossibleDashQuickFiltersAsync(dashboardId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuickFilterInfo())
+  overload: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync*
+  nameWithType.vb: IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   id: CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
@@ -1612,6 +1714,89 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashQuickFiltersAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDashQuickFiltersAsync
+  nameWithType: IDashAgent.GetDashQuickFiltersAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashQuickFiltersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuickFilterInfo[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuickFilterInfo[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuickFilterInfo[]>
+  nameWithType: Task<QuickFilterInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.QuickFilterInfo[]>
+  nameWithType.vb: Task(Of QuickFilterInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.QuickFilterInfo())
+  name.vb: Task(Of QuickFilterInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashQuickFiltersAsync_System_Int32_SuperOffice_CRM_Services_QuickFilterInfo___System_Threading_CancellationToken_
+  name: SaveDashQuickFiltersAsync
+  nameWithType: IDashAgent.SaveDashQuickFiltersAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashQuickFiltersAsync
+- uid: SuperOffice.CRM.Services.QuickFilterInfo[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  name: QuickFilterInfo[]
+  nameWithType: QuickFilterInfo[]
+  fullName: SuperOffice.CRM.Services.QuickFilterInfo[]
+  nameWithType.vb: QuickFilterInfo()
+  fullName.vb: SuperOffice.CRM.Services.QuickFilterInfo()
+  name.vb: QuickFilterInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.QuickFilterInfo
+    name: QuickFilterInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetPossibleDashQuickFiltersAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetPossibleDashQuickFiltersAsync
+  nameWithType: IDashAgent.GetPossibleDashQuickFiltersAsync
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPossibleDashQuickFiltersAsync
 - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollectionAsync
   isExternal: true

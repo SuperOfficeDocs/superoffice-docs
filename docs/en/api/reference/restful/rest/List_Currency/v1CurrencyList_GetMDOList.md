@@ -28,7 +28,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=deleniti
+GET /api/v1/List/Currency/MDOItems?query=at
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Fadel-Kreiger",
-    "ToolTip": "Aut perspiciatis nostrum.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "fugit",
+    "Id": 110,
+    "Name": "Kovacek Inc and Sons",
+    "ToolTip": "Tempora molestias similique ea in labore.",
+    "Deleted": false,
+    "Rank": 499,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Langworth, Stamm and Kshlerin",
-        "ToolTip": "Magni reprehenderit a esse.",
+        "Id": 105,
+        "Name": "Larkin, Walker and Ledner",
+        "ToolTip": "Neque animi dolorem fuga et quia.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "nostrum",
+        "Rank": 842,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 820,
-        "ExtraInfo": "qui",
-        "StyleHint": "incidunt",
-        "FullName": "Dr. Schuyler Abagail Hintz",
+        "IconHint": "expedita",
+        "ColorBlock": 10,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "debitis",
+        "FullName": "Schuyler Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 554
+            "FieldLength": 401
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 158,
-    "ExtraInfo": "sint",
-    "StyleHint": "cupiditate",
-    "FullName": "Edmund Alvina Kihn IV",
+    "IconHint": "doloribus",
+    "ColorBlock": 106,
+    "ExtraInfo": "sunt",
+    "StyleHint": "eum",
+    "FullName": "Meredith Ward Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 698
+        "FieldLength": 335
       }
     }
   }

@@ -15,6 +15,7 @@ Get all functional rights for the given role.
 
 
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 810
+  "RoleId": 590
 }
 ```
 
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Goodwin-Kulas",
-    "ToolTip": "Accusantium aspernatur voluptas non magni provident eum.",
+    "Id": 586,
+    "Name": "Bernier-Moore",
+    "ToolTip": "Nihil error blanditiis eius repellat accusantium praesentium iste.",
     "Deleted": false,
-    "Rank": 522,
-    "Type": "optio",
-    "ColorBlock": 385,
-    "IconHint": "molestiae",
+    "Rank": 964,
+    "Type": "deserunt",
+    "ColorBlock": 935,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2022-04-09T11:24:48.9063744+02:00",
+    "LastChanged": "2021-12-11T03:40:48.1723713+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Pfeffer, Windler and Armstrong",
-        "ToolTip": "Ea velit asperiores ipsum qui dolores et.",
+        "Id": 119,
+        "Name": "Brekke Inc and Sons",
+        "ToolTip": "Dolore et.",
         "Deleted": false,
-        "Rank": 123,
-        "Type": "officia",
-        "ColorBlock": 720,
-        "IconHint": "dolor",
+        "Rank": 567,
+        "Type": "quo",
+        "ColorBlock": 815,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2017-08-12T11:24:48.9063744+02:00",
+        "LastChanged": "2000-01-11T03:40:48.1723713+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "qui",
+        "ExtraInfo": "esse",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Mr. Bette Nedra Schumm",
+        "FullName": "Eleanora Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 425
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Mark Ziemann",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "deleniti",
+    "Hidden": true,
+    "FullName": "Shana Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 441
       }
     }
   }

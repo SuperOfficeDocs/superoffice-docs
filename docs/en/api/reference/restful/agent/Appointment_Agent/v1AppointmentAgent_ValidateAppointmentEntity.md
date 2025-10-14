@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
 Check that entity is ready for saving.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "soluta",
-  "2": "dolore"
+  "1": "et",
+  "2": "in"
 }
 ```

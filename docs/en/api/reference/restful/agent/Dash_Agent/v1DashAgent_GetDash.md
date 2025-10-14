@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDash
 Gets a Dash object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=627
+POST /api/v1/Agents/Dash/GetDash?dashId=55
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 496,
-  "UniqueId": "dolore",
-  "Name": "Lakin-D'Amore",
-  "Description": "Object-based bandwidth-monitored migration",
-  "AssociateId": 69,
-  "Columns": 788,
+  "DashboardId": 845,
+  "UniqueId": "rem",
+  "Name": "Stehr-Farrell",
+  "Description": "Streamlined motivating Graphic Interface",
+  "AssociateId": 742,
+  "Columns": 874,
   "Theme": null,
-  "VisibleForAll": 647,
+  "VisibleForAll": 331,
   "VisibleForAssociates": [
-    464,
-    26
+    771,
+    573
   ],
   "VisibleForGroups": [
-    718,
-    955
+    631,
+    257
   ],
-  "PinForAll": 492,
+  "PinForAll": 515,
   "PinForAssociates": [
-    414,
-    363
+    429,
+    152
   ],
   "PinForGroups": [
-    789,
-    396
+    57,
+    21
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Gaylord-Smith",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 761,
-    "Rank": 285
+    "Id": 202,
+    "Name": "Smitham-Hoeger",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "UdListDefinitionId": 505,
+    "Rank": 992
   },
   {
-    "Id": 432,
-    "Name": "Gaylord-Smith",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 761,
-    "Rank": 285
+    "Id": 202,
+    "Name": "Smitham-Hoeger",
+    "Tooltip": "repudiandae",
+    "Deleted": false,
+    "UdListDefinitionId": 505,
+    "Rank": 992
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Glover Group",
-    "Tooltip": "error",
+    "Id": 173,
+    "Name": "Kertzmann Group",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "UdListDefinitionId": 555,
-    "Rank": 866,
+    "UdListDefinitionId": 817,
+    "Rank": 630,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 951
       }
     }
   }

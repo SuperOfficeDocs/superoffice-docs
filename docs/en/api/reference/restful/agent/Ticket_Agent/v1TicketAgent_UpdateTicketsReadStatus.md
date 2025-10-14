@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/UpdateTicketsReadStatus
 This method changes multiple tickets' read status
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    311,
-    38
+    144,
+    705
   ],
   "NewStatus": "Green"
 }
@@ -89,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  157,
-  968
+  639,
+  289
 ]
 ```

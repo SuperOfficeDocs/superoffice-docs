@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/ExportArchive
 Exports the target archive to a downloadable format.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,59 +86,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fisher LLC",
-  "Context": "porro",
+  "ProviderName": "Haley, Hartmann and Cole",
+  "Context": "ad",
   "DesiredEntities": [
-    "omnis",
-    "voluptate"
+    "eveniet",
+    "numquam"
   ],
   "Columns": [
-    "praesentium",
-    "corporis"
+    "omnis",
+    "omnis"
   ],
   "SortOrder": [
     {
-      "Name": "Bosco, Runte and Tromp",
+      "Name": "Mayert LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bosco, Runte and Tromp",
+      "Name": "Mayert LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Brown, Koss and Schmeler",
-      "Operator": "possimus",
+      "Name": "Homenick, Heidenreich and Haley",
+      "Operator": "dolore",
       "Values": [
         "molestias",
-        "sapiente"
+        "voluptatem"
       ],
       "DisplayValues": [
-        "quas",
-        "tempore"
+        "occaecati",
+        "minus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 82,
+      "InterParenthesis": 930,
       "InterOperator": "And",
-      "UniqueHash": 765
+      "UniqueHash": 348
     }
   ],
-  "ExportType": "reiciendis",
+  "ExportType": "totam",
   "SelectedRowIds": [
-    "voluptatem",
-    "magnam"
+    "delectus",
+    "excepturi"
   ],
-  "EstimatedRowCount": 585
+  "EstimatedRowCount": 755
 }
 ```
 
@@ -147,15 +149,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 432,
-  "FileName": "Johnston, Larson and Lebsack",
-  "Message": "quidem",
+  "BatchTaskId": 639,
+  "FileName": "Gulgowski Group",
+  "Message": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 609
     }
   }
 }

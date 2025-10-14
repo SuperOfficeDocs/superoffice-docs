@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/TestConnectorUrl
 Test if connector urls anwers
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,7 +74,7 @@ OK
 POST /api/v1/Agents/ErpSync/TestConnectorUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

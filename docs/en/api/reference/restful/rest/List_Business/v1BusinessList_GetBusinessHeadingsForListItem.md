@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Anderson, Lesch and Stamm",
-    "ToolTip": "Quia dignissimos et facilis magni omnis nostrum.",
+    "Id": 400,
+    "Name": "Osinski, Wolff and Thiel",
+    "ToolTip": "Ut voluptas sed vitae harum molestiae.",
     "Deleted": false,
-    "Rank": 7,
+    "Rank": 837,
     "Type": "est",
-    "ColorBlock": 796,
-    "IconHint": "beatae",
+    "ColorBlock": 299,
+    "IconHint": "iusto",
     "Selected": true,
-    "LastChanged": "2017-08-03T11:24:53.8592973+02:00",
+    "LastChanged": "2005-10-16T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Cruickshank-Terry",
-        "ToolTip": "Non omnis vitae.",
-        "Deleted": false,
-        "Rank": 372,
-        "Type": "aliquid",
-        "ColorBlock": 988,
-        "IconHint": "voluptatem",
+        "Id": 23,
+        "Name": "Goldner LLC",
+        "ToolTip": "Assumenda perspiciatis rerum est qui.",
+        "Deleted": true,
+        "Rank": 246,
+        "Type": "labore",
+        "ColorBlock": 16,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2024-01-26T11:24:53.8592973+01:00",
+        "LastChanged": "1999-06-17T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "culpa",
-        "Hidden": false,
-        "FullName": "Ms. Santina Funk",
+        "ExtraInfo": "eos",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Louisa Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "similique",
+    "StyleHint": "ipsa",
     "Hidden": true,
-    "FullName": "Carleton Hayes",
+    "FullName": "Mr. Thalia Ethel Mayert Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 329
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

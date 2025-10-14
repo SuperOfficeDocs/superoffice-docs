@@ -76,6 +76,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor|listAny|Visible for|  |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|saleUdef/SuperOffice:1|string|saleshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleUdef/SuperOffice:1|string|saleshorttext| x |
 |saleUdef/SuperOffice:2|string|salelongtext| x |
 |saleUdef/SuperOffice:3|int|salenumber| x |
 |saleUdef/SuperOffice:4|date|saledate| x |
@@ -134,7 +135,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=salePublish/publishedBy,associate/personId,associate/mrMrs
+GET /api/v1/archive/salefavourites?$select=associate/contactName,stage,createdByWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

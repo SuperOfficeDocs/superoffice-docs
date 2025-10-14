@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Hand Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 12,
+  "Name": "Cruickshank-Lowe",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 616,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "Rank": 969,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Schaden, Ward and McDermott",
-  "Tooltip": "assumenda",
+  "Id": 932,
+  "Name": "Reichert-Sanford",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 64,
+  "Rank": 215,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

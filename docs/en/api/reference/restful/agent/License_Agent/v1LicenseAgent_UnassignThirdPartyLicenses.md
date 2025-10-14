@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Unassign (remove) third party licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,15 +91,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 510,
-  "ModuleOwner": "illum",
+  "AssociateId": 766,
+  "ModuleOwner": "natus",
   "ModuleLicenseNames": [
-    "Wilkinson-Barton",
-    "Lindgren LLC"
+    "Legros, Bogan and O'Keefe",
+    "Ondricka LLC"
   ]
 }
 ```
@@ -110,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 855,
-    "Tooltip": "facere",
+    "Unrestricted": false,
+    "Total": 41,
+    "Tooltip": "labore",
     "CanAssign": true,
-    "Free": 731,
-    "InUse": 991,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 952,
-    "Name": "Hettinger Inc and Sons",
-    "Description": "Fundamental systemic website",
-    "PrerequisiteModuleName": "Schmidt, Murazik and Schiller",
-    "SortOrder": 897,
-    "ExtraFlags": 723,
+    "Free": 438,
+    "InUse": 705,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 917,
+    "Name": "Schmeler, Blick and Grant",
+    "Description": "User-centric 4th generation artificial intelligence",
+    "PrerequisiteModuleName": "Hessel, Kovacek and Bogan",
+    "SortOrder": 986,
+    "ExtraFlags": 806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 212
       }
     }
   }

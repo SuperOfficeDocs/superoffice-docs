@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Get an array of entities and number of entities created for all associates.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Kon-Langosh",
-    "Records": 475,
+    "EntityName": "Mitchell Group",
+    "Records": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   },
   {
-    "EntityName": "O'Kon-Langosh",
-    "Records": 475,
+    "EntityName": "Mitchell Group",
+    "Records": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

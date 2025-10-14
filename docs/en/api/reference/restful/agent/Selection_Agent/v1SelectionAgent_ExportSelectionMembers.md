@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/ExportSelectionMembers
 ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 793,
-  "TemplateName": "Fritsch, Cummings and Mante",
+  "SelectionId": 700,
+  "TemplateName": "Leannon-Carroll",
   "UseContacts": false
 }
 ```

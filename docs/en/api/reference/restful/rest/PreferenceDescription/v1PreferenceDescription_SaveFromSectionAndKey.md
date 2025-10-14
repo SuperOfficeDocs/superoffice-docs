@@ -107,24 +107,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 371,
-  "Section": "ipsa",
-  "Key": "quibusdam",
-  "Name": "Sawayn Inc and Sons",
+  "PrefDescId": 363,
+  "Section": "minima",
+  "Key": "ipsum",
+  "Name": "Koch-Langworth",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source radical instruction set",
+  "Description": "Ergonomic homogeneous analyzer",
   "IsBuiltin": false,
-  "TableName": "Breitenberg, Collier and Kuhic",
-  "UserDefinedListId": 772,
-  "Rank": 881,
-  "SubGroup": "quia",
-  "MinLevel": 297,
-  "MaxValue": 12,
-  "MinValue": 801,
-  "RequiredLicense": "possimus"
+  "TableName": "Kemmer-Kassulke",
+  "UserDefinedListId": 821,
+  "Rank": 837,
+  "SubGroup": "nemo",
+  "MinLevel": 640,
+  "MaxValue": 858,
+  "MinValue": 112,
+  "RequiredLicense": "totam"
 }
 ```
 
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 634,
-  "Section": "commodi",
+  "PrefDescId": 897,
+  "Section": "cumque",
   "Key": "et",
-  "Name": "Graham Group",
+  "Name": "Huel-Mosciski",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Distributed bottom-line synergy",
-  "IsBuiltin": false,
-  "TableName": "Ferry, Schroeder and Jewess",
-  "UserDefinedListId": 37,
-  "Rank": 428,
-  "SubGroup": "molestias",
-  "MinLevel": 380,
-  "MaxValue": 786,
-  "MinValue": 298,
-  "RequiredLicense": "aut",
+  "Description": "Proactive upward-trending neural-net",
+  "IsBuiltin": true,
+  "TableName": "Harris Group",
+  "UserDefinedListId": 620,
+  "Rank": 308,
+  "SubGroup": "voluptatum",
+  "MinLevel": 824,
+  "MaxValue": 836,
+  "MinValue": 456,
+  "RequiredLicense": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 139
     }
   }
 }

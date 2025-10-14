@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "O'Conner Group",
-    "ToolTip": "Rem eos harum dolorum.",
-    "Deleted": true,
-    "Rank": 12,
-    "Type": "laboriosam",
-    "ColorBlock": 34,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2017-07-09T11:24:54.0155411+02:00",
+    "Id": 61,
+    "Name": "Hammes, Glover and Von",
+    "ToolTip": "Labore tenetur quaerat corrupti nam.",
+    "Deleted": false,
+    "Rank": 154,
+    "Type": "maxime",
+    "ColorBlock": 458,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2014-06-30T03:40:57.0089742+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Bernhard Group",
-        "ToolTip": "Quo accusantium sint.",
+        "Id": 935,
+        "Name": "Douglas, Shields and Haag",
+        "ToolTip": "Corporis eum quia sed ut ratione.",
         "Deleted": false,
-        "Rank": 898,
-        "Type": "minima",
-        "ColorBlock": 884,
-        "IconHint": "distinctio",
+        "Rank": 391,
+        "Type": "odio",
+        "ColorBlock": 960,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2017-11-30T11:24:54.0155411+01:00",
+        "LastChanged": "2021-03-04T03:40:57.0089742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "libero",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Antone Hilll"
+        "FullName": "Santino Botsford"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Quinn Rosetta Marquardt PhD"
+    "ExtraInfo": "ullam",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Mrs. Alexis Ortiz"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Walsh Group",
-    "ToolTip": "Ut magni quos.",
+    "Id": 274,
+    "Name": "Gorczany-Rowe",
+    "ToolTip": "Vitae quia aliquid cum sit suscipit.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "quis",
-    "ColorBlock": 716,
-    "IconHint": "laudantium",
+    "Rank": 319,
+    "Type": "culpa",
+    "ColorBlock": 693,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2021-05-28T11:24:54.0155411+02:00",
+    "LastChanged": "2018-10-29T03:40:57.0089742+01:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Parisian LLC",
-        "ToolTip": "Quis molestiae itaque.",
-        "Deleted": true,
-        "Rank": 67,
-        "Type": "et",
-        "ColorBlock": 463,
-        "IconHint": "ut",
+        "Id": 187,
+        "Name": "Dicki-Collins",
+        "ToolTip": "Qui vitae nobis natus repellat.",
+        "Deleted": false,
+        "Rank": 37,
+        "Type": "omnis",
+        "ColorBlock": 103,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2007-06-29T11:24:54.0155411+02:00",
+        "LastChanged": "2011-10-09T03:40:57.0089742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Prof. Roderick Christiansen DDS",
+        "ExtraInfo": "ea",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Lorine Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 434
+            "FieldType": "System.Int32",
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Prof. Kennedi Mayer Sr.",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "sequi",
+    "Hidden": false,
+    "FullName": "Morton Reynolds III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 915
       }
     }
   }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Kohler Group",
-  "Tooltip": "laudantium",
+  "Id": 481,
+  "Name": "Vandervort-Waelchi",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 125,
-  "Rank": 561
+  "UdListDefinitionId": 320,
+  "Rank": 545
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Rosenbaum Inc and Sons",
-  "Tooltip": "et",
+  "Id": 730,
+  "Name": "Harris, Schumm and Baumbach",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "UdListDefinitionId": 459,
-  "Rank": 424,
+  "UdListDefinitionId": 677,
+  "Rank": 584,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 491
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Returns all sale types as entities with stakeholders, guide and quote properties
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -111,53 +113,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 454,
-    "Name": "Dicki Inc and Sons",
-    "Tooltip": "iusto",
-    "Rank": 823,
+    "SaleTypeId": 622,
+    "Name": "Beahan-Turner",
+    "Tooltip": "molestias",
+    "Rank": 594,
     "DurationUnit": "Century",
-    "SaleDuration": 455,
-    "SaleTypeCatId": 459,
+    "SaleDuration": 885,
+    "SaleTypeCatId": 94,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 846,
-    "QuoteLinesTemplate": 900,
-    "ConfirmationLinesTemplate": 82,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 665,
-    "MinEarningPercent": 573,
-    "GroupQuoteLinesBy": 265,
-    "SortGroupLinesBy": 268,
+    "DefaultQuoteValidity": 856,
+    "QuoteLinesTemplate": 137,
+    "ConfirmationLinesTemplate": 255,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 515,
+    "MinEarningPercent": 962,
+    "GroupQuoteLinesBy": 482,
+    "SortGroupLinesBy": 829,
     "Stages": [
       {
-        "Id": 130,
-        "Name": "Boehm, Kulas and Becker",
-        "ToolTip": "Necessitatibus molestias et earum soluta corrupti impedit.",
+        "Id": 509,
+        "Name": "Littel Inc and Sons",
+        "ToolTip": "Praesentium et saepe doloribus recusandae corrupti.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "similique",
-        "ColorBlock": 901,
-        "IconHint": "voluptates",
+        "Rank": 305,
+        "Type": "at",
+        "ColorBlock": 457,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2014-04-17T11:24:48.2032781+02:00",
+        "LastChanged": "2009-02-27T03:40:47.0780355+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Michael Kautzer",
+        "ExtraInfo": "sunt",
+        "StyleHint": "voluptate",
+        "Hidden": false,
+        "FullName": "Heaven Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 612
+            "FieldType": "System.String",
+            "FieldLength": 774
           }
         }
       }
@@ -166,8 +168,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 746
+        "FieldType": "System.String",
+        "FieldLength": 855
       }
     }
   }

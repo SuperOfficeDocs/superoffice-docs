@@ -27,8 +27,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=saepe
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=aut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Jones, Gerhold and Nitzsche",
-    "ToolTip": "Sapiente sed sapiente error.",
-    "Deleted": false,
-    "Rank": 902,
-    "Type": "necessitatibus",
+    "Id": 677,
+    "Name": "O'Conner Group",
+    "ToolTip": "Non eaque nihil repellendus rem incidunt.",
+    "Deleted": true,
+    "Rank": 349,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 518,
-        "Name": "Keebler, Hagenes and Reichert",
-        "ToolTip": "Doloribus dolorem consequatur sit unde occaecati doloribus.",
+        "Id": 272,
+        "Name": "Stoltenberg-Bruen",
+        "ToolTip": "Perspiciatis saepe numquam.",
         "Deleted": false,
-        "Rank": 685,
-        "Type": "eum",
+        "Rank": 324,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 317,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "dolorem",
-        "FullName": "Grayce Rowe",
+        "IconHint": "rem",
+        "ColorBlock": 950,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "voluptatem",
+        "FullName": "Samson Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 238
+            "FieldType": "System.String",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "IconHint": "nulla",
-    "ColorBlock": 162,
-    "ExtraInfo": "tempora",
-    "StyleHint": "ab",
-    "FullName": "Clemens Batz",
+    "IconHint": "dolor",
+    "ColorBlock": 794,
+    "ExtraInfo": "laborum",
+    "StyleHint": "accusamus",
+    "FullName": "Trinity Vandervort",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

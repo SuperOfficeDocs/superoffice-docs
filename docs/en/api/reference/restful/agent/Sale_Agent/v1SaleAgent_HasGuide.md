@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/HasGuide
 Does this sale have a sale guide associated with its sale type?
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Sale/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 810
+  "SaleId": 101
 }
 ```
 

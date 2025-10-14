@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -90,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "libero",
-      "Key": "eos"
+      "Section": "a",
+      "Key": "doloremque"
     },
     {
-      "Section": "libero",
-      "Key": "eos"
+      "Section": "a",
+      "Key": "doloremque"
     }
   ]
 }
@@ -110,22 +112,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "ut",
     "Specification": null,
-    "DisplayValue": "culpa",
-    "DisplayTooltip": "perspiciatis",
+    "DisplayValue": "aut",
+    "DisplayTooltip": "inventore",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 649,
-    "PrefDescId": 160,
-    "TableName": "Tillman LLC",
-    "UserPreferenceId": 476,
+    "TargetId": 417,
+    "PrefDescId": 490,
+    "TableName": "Kautzer LLC",
+    "UserPreferenceId": 946,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

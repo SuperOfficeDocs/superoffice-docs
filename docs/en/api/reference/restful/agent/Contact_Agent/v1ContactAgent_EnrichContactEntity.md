@@ -15,6 +15,7 @@ Enrich a contact with data from the AI Enrichment service.
 
 
 This will update the contact with address, phone number, and email.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -121,12 +122,12 @@ OK
 POST /api/v1/Agents/Contact/EnrichContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactEntity": null,
-  "EnrichId": "qui"
+  "EnrichId": "sint"
 }
 ```
 
@@ -137,157 +138,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 599,
-  "Name": "Christiansen, Lehner and Reichel",
+  "ContactId": 913,
+  "Name": "Boyer, Thiel and Crist",
   "Department": "",
-  "OrgNr": "602777",
-  "Number1": "1219365",
-  "Number2": "1148882",
-  "UpdatedDate": "2015-11-08T11:24:47.8282933+01:00",
-  "CreatedDate": "2001-09-05T11:24:47.8282933+02:00",
+  "OrgNr": "794871",
+  "Number1": "873900",
+  "Number2": "578248",
+  "UpdatedDate": "2022-10-27T03:40:46.4993718+02:00",
+  "CreatedDate": "2016-07-11T03:40:46.4993718+02:00",
   "Emails": [
     {
-      "Value": "expedita",
-      "StrippedValue": "qui",
-      "Description": "Right-sized dynamic task-force",
+      "Value": "veritatis",
+      "StrippedValue": "et",
+      "Description": "Intuitive holistic analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     },
     {
-      "Value": "expedita",
-      "StrippedValue": "qui",
-      "Description": "Right-sized dynamic task-force",
+      "Value": "veritatis",
+      "StrippedValue": "et",
+      "Description": "Intuitive holistic analyzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldType": "System.String",
+          "FieldLength": 96
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 621,
-      "Name": "Tremblay-Hand",
-      "ToolTip": "Praesentium aliquid labore ut.",
+      "Id": 120,
+      "Name": "Russel, Daugherty and Ondricka",
+      "ToolTip": "Distinctio iste ut omnis ad architecto ut.",
       "Deleted": false,
-      "Rank": 570,
-      "Type": "nihil",
-      "ColorBlock": 801,
+      "Rank": 267,
+      "Type": "iusto",
+      "ColorBlock": 696,
       "IconHint": "consequuntur",
       "Selected": false,
-      "LastChanged": "2005-08-02T11:24:47.8282933+02:00",
+      "LastChanged": "2016-07-09T03:40:46.4993718+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "nulla",
-      "Hidden": false,
-      "FullName": "Mrs. Kirk Mikayla Ledner",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "nesciunt",
+      "Hidden": true,
+      "FullName": "Ms. Reilly King",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 866
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "omnis",
-      "StrippedValue": "aut",
-      "Description": "Diverse mission-critical adapter",
+      "Value": "laborum",
+      "StrippedValue": "quas",
+      "Description": "Assimilated dynamic application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "aut",
-      "Description": "Diverse mission-critical adapter",
+      "Value": "laborum",
+      "StrippedValue": "quas",
+      "Description": "Assimilated dynamic application",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "accusantium",
-      "StrippedValue": "doloremque",
-      "Description": "Advanced motivating workforce",
+      "Value": "libero",
+      "StrippedValue": "sunt",
+      "Description": "Triple-buffered high-level secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 689
         }
       }
     },
     {
-      "Value": "accusantium",
-      "StrippedValue": "doloremque",
-      "Description": "Advanced motivating workforce",
+      "Value": "libero",
+      "StrippedValue": "sunt",
+      "Description": "Triple-buffered high-level secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 689
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "nihil",
-      "StrippedValue": "et",
-      "Description": "Organized optimal solution",
+      "Value": "nemo",
+      "StrippedValue": "quia",
+      "Description": "Future-proofed disintermediate task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 444
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "et",
-      "Description": "Organized optimal solution",
+      "Value": "nemo",
+      "StrippedValue": "quia",
+      "Description": "Future-proofed disintermediate task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 444
         }
       }
     }
   ],
-  "Description": "Persevering 4th generation portal",
+  "Description": "Reduced human-resource concept",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -296,102 +297,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 131,
-      "Mrmrs": "nemo",
-      "Firstname": "Alden",
-      "Lastname": "Hansen",
-      "MiddleName": "Hermann, Dooley and Bednar",
-      "Title": "velit",
-      "Description": "Advanced impactful protocol",
-      "Email": "bettie@strosin.ca",
-      "FullName": "Prof. Krystal Dell Yundt",
-      "DirectPhone": "1-808-842-8655 x82501",
-      "FormalName": "Wolff, Batz and Vandervort",
-      "CountryId": 364,
-      "ContactId": 775,
-      "ContactName": "Abshire, Kilback and Batz",
-      "Retired": 527,
-      "Rank": 881,
-      "ActiveInterests": 447,
+      "Position": "natus",
+      "PersonId": 816,
+      "Mrmrs": "quos",
+      "Firstname": "Roosevelt",
+      "Lastname": "Marks",
+      "MiddleName": "White, Johnston and Jenkins",
+      "Title": "rem",
+      "Description": "Integrated incremental analyzer",
+      "Email": "kasey@herman.us",
+      "FullName": "Hattie Parker",
+      "DirectPhone": "738.071.5963",
+      "FormalName": "Lang, Keebler and Spinka",
+      "CountryId": 796,
+      "ContactId": 696,
+      "ContactName": "Ebert-Windler",
+      "Retired": 734,
+      "Rank": 930,
+      "ActiveInterests": 646,
       "ContactDepartment": "",
-      "ContactCountryId": 432,
-      "ContactOrgNr": "1763569",
-      "FaxPhone": "770.356.8677 x7229",
-      "MobilePhone": "379.723.3849",
-      "ContactPhone": "505-911-1083",
-      "AssociateName": "Buckridge LLC",
-      "AssociateId": 135,
-      "UsePersonAddress": false,
-      "ContactFax": "voluptas",
-      "Kanafname": "qui",
-      "Kanalname": "impedit",
-      "Post1": "non",
-      "Post2": "qui",
-      "Post3": "tenetur",
-      "EmailName": "piper@wisozk.uk",
-      "ContactFullName": "Chloe Homenick",
-      "ActiveErpLinks": 479,
-      "TicketPriorityId": 675,
-      "SupportLanguageId": 925,
-      "SupportAssociateId": 621,
+      "ContactCountryId": 952,
+      "ContactOrgNr": "878280",
+      "FaxPhone": "097.065.2544",
+      "MobilePhone": "(509)273-7847 x789",
+      "ContactPhone": "(063)504-3696 x120",
+      "AssociateName": "Kutch-Schiller",
+      "AssociateId": 885,
+      "UsePersonAddress": true,
+      "ContactFax": "at",
+      "Kanafname": "molestiae",
+      "Kanalname": "consequuntur",
+      "Post1": "ipsam",
+      "Post2": "et",
+      "Post3": "fuga",
+      "EmailName": "bryce@macejkoviccarter.info",
+      "ContactFullName": "Prof. Emma Lexi Huels",
+      "ActiveErpLinks": 975,
+      "TicketPriorityId": 248,
+      "SupportLanguageId": 507,
+      "SupportAssociateId": 751,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "435235",
+      "PersonNumber": "1266325",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 591
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "iure",
-  "Xstop": false,
-  "ActiveInterests": 425,
-  "GroupId": 945,
-  "ActiveStatusMonitorId": 19,
+  "NoMailing": false,
+  "Kananame": "sunt",
+  "Xstop": true,
+  "ActiveInterests": 443,
+  "GroupId": 626,
+  "ActiveStatusMonitorId": 381,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 37,
-  "DbiAgentId": 301,
-  "DbiLastSyncronized": "2000-07-20T11:24:47.8282933+02:00",
-  "DbiKey": "a",
-  "DbiLastModified": "2019-07-11T11:24:47.8282933+02:00",
+  "Deleted": 765,
+  "DbiAgentId": 332,
+  "DbiLastSyncronized": "2013-01-14T03:40:46.4993718+01:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2011-09-23T03:40:46.4993718+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 697,
-  "ActiveErpLinks": 206,
+  "Source": 742,
+  "ActiveErpLinks": 308,
   "BounceEmails": [
-    "loyal@williamsonbogisich.ca",
-    "fermin.fritsch@kassulke.biz"
+    "florence@rippinschumm.uk",
+    "carson@wilderman.com"
   ],
   "Domains": [
-    "et",
-    "ut"
+    "ducimus",
+    "quis"
   ],
   "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Jeffery Willie Bednar MD",
-    "SuperOffice:2": "1773172416"
+    "SuperOffice:1": "Guillermo Glover",
+    "SuperOffice:2": "Juliet Schaefer"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "quia"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 17
     }
   }
 }

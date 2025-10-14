@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Gets a DiaryViewEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=685
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=683
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 351,
-  "Name": "Turcotte Inc and Sons",
-  "Tooltip": "facere",
-  "VisibleColumns": 936,
-  "Rank": 818,
-  "AssocId": 926,
+  "DiaryViewId": 933,
+  "Name": "Douglas, Streich and Harris",
+  "Tooltip": "nobis",
+  "VisibleColumns": 692,
+  "Rank": 62,
+  "AssocId": 40,
   "AssociateList": [
     {
-      "Id": 349,
-      "Name": "Olson Group",
-      "ToolTip": "Rerum adipisci.",
+      "Id": 200,
+      "Name": "Kuhlman, Runte and Corkery",
+      "ToolTip": "Esse quia quaerat nostrum provident aut.",
       "Deleted": false,
-      "Rank": 407,
-      "Type": "quas",
-      "ColorBlock": 356,
-      "IconHint": "dignissimos",
+      "Rank": 1002,
+      "Type": "est",
+      "ColorBlock": 61,
+      "IconHint": "numquam",
       "Selected": false,
-      "LastChanged": "2013-08-25T11:24:47.7189228+02:00",
+      "LastChanged": "1999-11-25T03:40:46.2488145+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "omnis",
+      "ExtraInfo": "maiores",
+      "StyleHint": "ipsam",
       "Hidden": false,
-      "FullName": "Prof. Isaiah Deja Lindgren I",
+      "FullName": "Giovanni Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 628
         }
       }
     }
   ],
-  "TzLocationId": 582,
+  "TzLocationId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

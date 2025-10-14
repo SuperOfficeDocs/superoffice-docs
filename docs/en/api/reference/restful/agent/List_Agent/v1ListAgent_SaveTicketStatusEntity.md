@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketStatusEntity
 Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,13 +82,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 70,
-  "Name": "Heller, Swaniawski and Treutel",
+  "TicketStatusId": 378,
+  "Name": "Hyatt-Maggio",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true
+  "IsDefault": false,
+  "UsedInQueue": false
 }
 ```
 
@@ -97,8 +99,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 252,
-  "Name": "Miller, Schamberger and Kris",
+  "TicketStatusId": 983,
+  "Name": "Erdman-Renner",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -109,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 285
     }
   }
 }

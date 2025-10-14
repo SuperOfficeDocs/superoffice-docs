@@ -59,28 +59,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 885,
-    "DisplayName": "Greenholt-Hintz",
-    "OngoingChats": 243,
-    "Present": true,
+    "UserId": 622,
+    "DisplayName": "Runolfsson-Fisher",
+    "OngoingChats": 302,
+    "Present": false,
     "ChatTopics": [
-      528,
-      575
+      638,
+      254
     ]
   },
   {
-    "UserId": 885,
-    "DisplayName": "Greenholt-Hintz",
-    "OngoingChats": 243,
-    "Present": true,
+    "UserId": 622,
+    "DisplayName": "Runolfsson-Fisher",
+    "OngoingChats": 302,
+    "Present": false,
     "ChatTopics": [
-      528,
-      575
+      638,
+      254
     ]
   }
 ]

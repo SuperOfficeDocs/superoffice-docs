@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 144,
-    "Name": "Kirlin-Padberg",
-    "ToolTip": "Vel incidunt.",
-    "Deleted": false,
-    "Rank": 371,
-    "Type": "vel",
-    "ColorBlock": 706,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2019-04-11T11:24:54.0155411+02:00",
+    "Id": 697,
+    "Name": "Willms-Fay",
+    "ToolTip": "Sapiente in suscipit qui aut.",
+    "Deleted": true,
+    "Rank": 813,
+    "Type": "esse",
+    "ColorBlock": 811,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2020-12-10T03:40:57.0246001+01:00",
     "ChildItems": [
       {
-        "Id": 110,
-        "Name": "O'Conner Group",
-        "ToolTip": "Aut est at saepe eligendi aut amet.",
+        "Id": 575,
+        "Name": "Grant, Walsh and Wiza",
+        "ToolTip": "Explicabo tempore sint vel ut autem.",
         "Deleted": false,
-        "Rank": 900,
-        "Type": "vitae",
-        "ColorBlock": 692,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2015-02-06T11:24:54.0155411+01:00",
+        "Rank": 505,
+        "Type": "est",
+        "ColorBlock": 410,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2010-11-30T03:40:57.0246001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "ad",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Mrs. Lonzo O'Kon"
+        "FullName": "Sasha Shanahan"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Anika Borer"
+    "ExtraInfo": "dolores",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Shayne Ward"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Pfannerstill-Veum",
-    "ToolTip": "Sit voluptas.",
+    "Id": 364,
+    "Name": "Keebler-Hauck",
+    "ToolTip": "Sit impedit qui id quia omnis porro fugiat.",
     "Deleted": false,
-    "Rank": 752,
-    "Type": "voluptatem",
-    "ColorBlock": 655,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2025-07-19T11:24:54.0155411+02:00",
+    "Rank": 202,
+    "Type": "aperiam",
+    "ColorBlock": 678,
+    "IconHint": "doloribus",
+    "Selected": true,
+    "LastChanged": "2001-02-01T03:40:57.0246001+01:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Brown, Vandervort and Senger",
-        "ToolTip": "Et nostrum corrupti.",
-        "Deleted": true,
-        "Rank": 293,
-        "Type": "sed",
-        "ColorBlock": 993,
-        "IconHint": "voluptatem",
+        "Id": 317,
+        "Name": "Gusikowski-Padberg",
+        "ToolTip": "Eum est culpa aut libero nemo aspernatur laborum.",
+        "Deleted": false,
+        "Rank": 87,
+        "Type": "illo",
+        "ColorBlock": 712,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "1999-09-25T11:24:54.0155411+02:00",
+        "LastChanged": "2010-01-21T03:40:57.0246001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "vero",
+        "ExtraInfo": "illo",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Assunta Schulist",
+        "FullName": "Theodora Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldType": "System.String",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "voluptates",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quibusdam",
     "Hidden": false,
-    "FullName": "Mrs. Freddie Esteban Gleason",
+    "FullName": "Prof. Jon Chance Lesch III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 214
       }
     }
   }

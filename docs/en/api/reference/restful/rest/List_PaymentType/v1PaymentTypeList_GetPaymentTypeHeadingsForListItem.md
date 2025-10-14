@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "King-Ferry",
-    "ToolTip": "Ab dolorum est ipsum voluptas quaerat molestiae error.",
-    "Deleted": true,
-    "Rank": 581,
-    "Type": "enim",
-    "ColorBlock": 35,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "1999-01-18T11:24:53.9686678+01:00",
+    "Id": 270,
+    "Name": "Ziemann, Wuckert and Quitzon",
+    "ToolTip": "Accusantium qui hic cupiditate.",
+    "Deleted": false,
+    "Rank": 135,
+    "Type": "placeat",
+    "ColorBlock": 129,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2015-09-14T03:40:56.9777222+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "D'Amore, Schaefer and Schmidt",
-        "ToolTip": "Ipsam deserunt alias.",
-        "Deleted": false,
-        "Rank": 121,
-        "Type": "vel",
-        "ColorBlock": 837,
-        "IconHint": "nisi",
+        "Id": 266,
+        "Name": "Kshlerin-Lindgren",
+        "ToolTip": "Quia maiores velit.",
+        "Deleted": true,
+        "Rank": 74,
+        "Type": "temporibus",
+        "ColorBlock": 85,
+        "IconHint": "excepturi",
         "Selected": true,
-        "LastChanged": "2007-11-09T11:24:53.9686678+01:00",
+        "LastChanged": "2005-07-25T03:40:56.9777222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Darrick Koepp V",
+        "FullName": "Tiana Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 964
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Ebba Carter",
+    "ExtraInfo": "molestias",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Vincent Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldLength": 868
       }
     }
   }

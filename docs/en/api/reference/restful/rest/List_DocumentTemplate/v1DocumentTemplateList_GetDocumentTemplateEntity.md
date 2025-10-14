@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,37 +97,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 888,
-  "Name": "Crooks LLC",
-  "Tooltip": "amet",
-  "SaveInDb": 988,
-  "Filename": "ea",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 866,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "voluptas",
+  "SaveInDb": 269,
+  "Filename": "quam",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 508,
-  "IntentId": 651,
+  "AutoeventId": 486,
+  "IntentId": 396,
   "IsDefaultPublished": false,
-  "Rank": 88,
-  "LoadTemplateFromPlugin": 982,
-  "MimeType": "eius",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 615,
+  "Rank": 352,
+  "LoadTemplateFromPlugin": 427,
+  "MimeType": "natus",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 711,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "javon.johnston@hauckcruickshank.biz",
+  "EmailSubject": "aisha_kihn@gutmannrippin.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stefanie.durgan@bernhard.uk",
+  "SenderEmailAddress": "jacinthe_blanda@mckenzietillman.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 714
     }
   }
 }

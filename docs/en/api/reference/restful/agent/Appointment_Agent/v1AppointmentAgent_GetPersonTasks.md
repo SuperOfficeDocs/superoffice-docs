@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -131,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 922,
-  "Count": 501
+  "PersonId": 661,
+  "Count": 231
 }
 ```
 
@@ -148,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 562,
-    "StartDate": "2006-07-08T11:24:47.5939281+02:00",
-    "EndDate": "2021-12-22T11:24:47.5939281+01:00",
+    "AppointmentId": 735,
+    "StartDate": "1999-06-16T03:40:46.0452033+02:00",
+    "EndDate": "2025-10-06T03:40:46.0452033+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolore",
-    "AssociateFullName": "Eleanora Walker I",
-    "ContactName": "Frami-Nikolaus",
-    "Description": "Front-line zero tolerance monitoring",
-    "PersonFullName": "Nels Maggio",
-    "PersonId": 535,
-    "ContactId": 605,
-    "ProjectId": 164,
-    "ProjectName": "Cartwright LLC",
+    "Task": "fugiat",
+    "AssociateFullName": "Prof. Ewell Leann Bogisich",
+    "ContactName": "Gerhold Group",
+    "Description": "Centralized client-server knowledge user",
+    "PersonFullName": "Mr. Curt Grimes PhD",
+    "PersonId": 941,
+    "ContactId": 925,
+    "ProjectId": 676,
+    "ProjectName": "Brekke, Botsford and Aufderhar",
     "IsPublished": false,
-    "AssociateId": 176,
-    "ColorIndex": 880,
-    "IsFree": false,
+    "AssociateId": 741,
+    "ColorIndex": 821,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 298,
-    "PriorityName": "Friesen, Shields and Krajcik",
+    "PriorityId": 150,
+    "PriorityName": "Torp, Hayes and Kling",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2008-08-18T11:24:47.5939281+02:00",
+    "ActiveDate": "1998-06-24T03:40:46.0452033+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-16T11:24:47.5939281+02:00",
-    "RecurringEndDate": "2023-03-29T11:24:47.5939281+02:00",
-    "MotherId": 523,
-    "AssignedBy": 282,
-    "AssignedByFullName": "Chadrick Huels",
+    "RecurringStartDate": "2004-01-11T03:40:46.0452033+01:00",
+    "RecurringEndDate": "2017-05-15T03:40:46.0452033+02:00",
+    "MotherId": 162,
+    "AssignedBy": 998,
+    "AssignedByFullName": "Kristoffer Mante",
     "RejectReason": "",
-    "Location": "hic",
-    "AlarmLeadTime": "possimus",
-    "SaleId": 4,
-    "SaleName": "Schuster-Lehner",
-    "AssociateName": "Stehr, Heaney and Cummerata",
-    "CreatedDate": "2008-12-04T11:24:47.5939281+01:00",
-    "CreatedBy": "officia",
-    "CreatedByFullName": "Prof. Jamaal Marianna Grant",
-    "CreatedByAssociateId": 789,
+    "Location": "suscipit",
+    "AlarmLeadTime": "a",
+    "SaleId": 412,
+    "SaleName": "Volkman LLC",
+    "AssociateName": "Larson Inc and Sons",
+    "CreatedDate": "2005-12-29T03:40:46.0452033+01:00",
+    "CreatedBy": "reiciendis",
+    "CreatedByFullName": "Miss Genevieve Vidal Anderson IV",
+    "CreatedByAssociateId": 478,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 82,
+    "MotherAssociateId": 861,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 438,
-    "Title": "accusantium",
-    "Agenda": "et",
-    "InternalNotes": "officia",
+    "PreferredTZLocation": 63,
+    "Title": "in",
+    "Agenda": "voluptas",
+    "InternalNotes": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 750
       }
     }
   }

@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 399,
-  "Name": "Lockman-Sipes",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "UdListDefinitionId": 54,
-  "Rank": 274
+  "Id": 625,
+  "Name": "Langosh-Wuckert",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 972,
+  "Rank": 37
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 768,
-  "Name": "Wisozk Group",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "UdListDefinitionId": 230,
-  "Rank": 535,
+  "Id": 623,
+  "Name": "Crist-O'Keefe",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 258,
+  "Rank": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 957
     }
   }
 }

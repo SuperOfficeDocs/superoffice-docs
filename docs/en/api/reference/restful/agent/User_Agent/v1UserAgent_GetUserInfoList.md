@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserInfoList
 Gets an array of UserInfo objects.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -99,29 +102,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 343,
-    "UserName": "Hermann-Corwin",
-    "PersonId": 871,
-    "Rank": 43,
-    "Tooltip": "quam",
-    "UserGroupId": 709,
-    "EjUserId": 752,
+    "UserInfoId": 667,
+    "UserName": "Wisoky-Dach",
+    "PersonId": 798,
+    "Rank": 685,
+    "Tooltip": "provident",
+    "UserGroupId": 393,
+    "EjUserId": 683,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "consequatur",
-      "quasi"
+      "tenetur",
+      "ut"
     ],
     "CanLogon": false,
-    "RoleName": "Cassin, Runte and Tromp",
-    "RoleTooltip": "et",
-    "UserGroupName": "Jast-O'Kon",
-    "UserGroupTooltip": "officia",
+    "RoleName": "Heathcote LLC",
+    "RoleTooltip": "est",
+    "UserGroupName": "Schaefer Inc and Sons",
+    "UserGroupTooltip": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 117
       }
     }
   }

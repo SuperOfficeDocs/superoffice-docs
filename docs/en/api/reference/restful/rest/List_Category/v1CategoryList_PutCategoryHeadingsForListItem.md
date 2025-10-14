@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Feest Group",
-    "ToolTip": "Est vel eius ut rem at nobis neque.",
+    "Id": 501,
+    "Name": "Mayert, Pfannerstill and Mann",
+    "ToolTip": "Est amet libero qui et natus cupiditate assumenda.",
     "Deleted": false,
-    "Rank": 149,
-    "Type": "quo",
-    "ColorBlock": 163,
-    "IconHint": "quo",
+    "Rank": 341,
+    "Type": "quia",
+    "ColorBlock": 394,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2008-05-04T11:24:53.8592973+02:00",
+    "LastChanged": "2019-01-21T03:40:56.727602+01:00",
     "ChildItems": [
       {
-        "Id": 651,
-        "Name": "Kohler LLC",
-        "ToolTip": "Aliquam sunt magni non.",
+        "Id": 772,
+        "Name": "Klein, Lind and Spinka",
+        "ToolTip": "Dolorum non ullam facere numquam est at.",
         "Deleted": true,
-        "Rank": 516,
-        "Type": "fugit",
-        "ColorBlock": 60,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2019-01-28T11:24:53.8592973+01:00",
+        "Rank": 686,
+        "Type": "dolor",
+        "ColorBlock": 634,
+        "IconHint": "tenetur",
+        "Selected": false,
+        "LastChanged": "2011-11-29T03:40:56.727602+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Johnny Durgan"
+        "ExtraInfo": "dolores",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Isabell Larkin"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Arne Schulist"
+    "FullName": "Mike Streich"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Farrell-Brown",
-    "ToolTip": "Voluptate debitis molestias velit nemo laborum.",
+    "Id": 306,
+    "Name": "Waters Inc and Sons",
+    "ToolTip": "Quidem corporis eaque ut magni.",
     "Deleted": false,
-    "Rank": 930,
-    "Type": "dolore",
-    "ColorBlock": 45,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "1999-11-24T11:24:53.8749217+01:00",
+    "Rank": 826,
+    "Type": "sed",
+    "ColorBlock": 997,
+    "IconHint": "iure",
+    "Selected": true,
+    "LastChanged": "2010-01-29T03:40:56.727602+01:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Funk, Gislason and Waters",
-        "ToolTip": "Consequuntur impedit rerum eum nisi et.",
-        "Deleted": true,
-        "Rank": 162,
-        "Type": "ducimus",
-        "ColorBlock": 233,
-        "IconHint": "dolor",
+        "Id": 991,
+        "Name": "Heller, Moore and Mueller",
+        "ToolTip": "Eum sint quo quis ipsum.",
+        "Deleted": false,
+        "Rank": 609,
+        "Type": "minima",
+        "ColorBlock": 351,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2023-05-19T11:24:53.8749217+02:00",
+        "LastChanged": "2020-06-15T03:40:56.727602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ut",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Raleigh Langosh",
+        "FullName": "Nikki Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 578
+            "FieldType": "System.String",
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Fiona Shields",
+    "ExtraInfo": "odit",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Matilda Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 783
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Reinger LLC",
-    "ToolTip": "Dolor doloribus expedita in voluptas qui voluptatem.",
-    "Deleted": false,
-    "Rank": 963,
-    "Type": "itaque",
-    "ColorBlock": 588,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2004-03-15T11:24:54.0311654+01:00",
+    "Id": 955,
+    "Name": "Keebler-Ratke",
+    "ToolTip": "Et quia aspernatur.",
+    "Deleted": true,
+    "Rank": 422,
+    "Type": "eius",
+    "ColorBlock": 736,
+    "IconHint": "quae",
+    "Selected": true,
+    "LastChanged": "2005-06-24T03:40:57.040226+02:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Williamson-Bergstrom",
-        "ToolTip": "Autem delectus sunt necessitatibus eos accusantium.",
-        "Deleted": true,
-        "Rank": 608,
-        "Type": "autem",
-        "ColorBlock": 708,
-        "IconHint": "quidem",
+        "Id": 826,
+        "Name": "Berge LLC",
+        "ToolTip": "Non cum vel iusto aut voluptatem saepe.",
+        "Deleted": false,
+        "Rank": 228,
+        "Type": "repellendus",
+        "ColorBlock": 503,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-04-12T11:24:54.0311654+02:00",
+        "LastChanged": "2009-12-07T03:40:57.040226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "tempora",
+        "ExtraInfo": "modi",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Toy Swaniawski"
+        "FullName": "Dr. Ellen Zella Koss DVM"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "et",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Heloise Mosciski"
+    "FullName": "Eula Stehr"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Pfannerstill, Labadie and Gerlach",
-    "ToolTip": "Nostrum cumque voluptas voluptatem non sunt fugit doloremque.",
-    "Deleted": false,
-    "Rank": 977,
-    "Type": "ut",
-    "ColorBlock": 23,
-    "IconHint": "ad",
+    "Id": 476,
+    "Name": "Feeney LLC",
+    "ToolTip": "Sunt est sint maiores quia in vel.",
+    "Deleted": true,
+    "Rank": 386,
+    "Type": "soluta",
+    "ColorBlock": 809,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2000-05-14T11:24:54.0467896+02:00",
+    "LastChanged": "2024-01-17T03:40:57.040226+01:00",
     "ChildItems": [
       {
-        "Id": 571,
-        "Name": "Murazik, Okuneva and Volkman",
-        "ToolTip": "Rerum cupiditate eligendi eum quas quod.",
+        "Id": 842,
+        "Name": "Beier, Ondricka and Eichmann",
+        "ToolTip": "Quis recusandae omnis ut minus.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "voluptas",
-        "ColorBlock": 340,
-        "IconHint": "suscipit",
+        "Rank": 711,
+        "Type": "quasi",
+        "ColorBlock": 288,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2000-03-06T11:24:54.0467896+01:00",
+        "LastChanged": "2021-03-05T03:40:57.040226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Patricia Lind",
+        "ExtraInfo": "facilis",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Mr. Braden Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Josie Carter",
+    "ExtraInfo": "et",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Mrs. Grant Damian Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldLength": 766
       }
     }
   }

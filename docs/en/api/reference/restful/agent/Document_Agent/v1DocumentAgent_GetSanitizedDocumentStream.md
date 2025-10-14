@@ -15,6 +15,7 @@ Get the document content as a stream.
 
 
 Retrieves a sanitized version if possible
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 181
+  "DocumentId": 472
 }
 ```
 

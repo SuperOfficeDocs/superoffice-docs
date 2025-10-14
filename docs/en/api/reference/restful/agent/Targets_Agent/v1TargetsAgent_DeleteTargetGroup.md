@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/DeleteTargetGroup
 Deletes the TargetGroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TargetGroup
 | targetGroupId | int32 | **Required** The identity of the TargetGroup |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=980
+POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=763
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Targets/DeleteTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

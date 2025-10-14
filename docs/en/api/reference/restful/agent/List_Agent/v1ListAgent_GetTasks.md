@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTasks
 Returns all appointment tasks
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Value": "aut",
-    "Tooltip": "dignissimos",
+    "Id": 830,
+    "Value": "dignissimos",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 633
       }
     }
   },
   {
-    "Id": 625,
-    "Value": "aut",
-    "Tooltip": "dignissimos",
+    "Id": 830,
+    "Value": "dignissimos",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 209
+        "FieldType": "System.Int32",
+        "FieldLength": 633
       }
     }
   }

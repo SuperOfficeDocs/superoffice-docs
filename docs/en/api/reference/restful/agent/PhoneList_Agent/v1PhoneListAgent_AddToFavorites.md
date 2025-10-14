@@ -15,6 +15,7 @@ Adds a new contact to the history/favorites.
 
 
 Returns the rank of the new history item. If the contact already existed in the history, it isn't added but the rank is updated.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/PhoneList/AddToFavorites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 524
+  "ContactId": 182
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-658
+807
 ```

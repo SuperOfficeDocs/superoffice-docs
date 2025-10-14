@@ -15,6 +15,7 @@ Creates a new ContactRelationEntity
 
 
 Calls the Relation agent service SaveContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -111,28 +112,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 99,
-  "SourcePersonId": 361,
-  "DestinationContactId": 766,
-  "DestinationPersonId": 925,
-  "RelationId": 189,
-  "Comment": "sint",
-  "RelationDefinitionId": 985,
-  "Reversed": 799,
-  "UpdatedDate": "2002-11-01T11:24:53.1405767+01:00",
-  "CreatedDate": "2015-10-28T11:24:53.1405767+01:00",
+  "SourceContactId": 541,
+  "SourcePersonId": 35,
+  "DestinationContactId": 415,
+  "DestinationPersonId": 677,
+  "RelationId": 701,
+  "Comment": "fugit",
+  "RelationDefinitionId": 62,
+  "Reversed": 467,
+  "UpdatedDate": "2002-02-09T03:40:55.6006549+01:00",
+  "CreatedDate": "2008-02-08T03:40:55.6006549+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jewess-Bernier",
-  "SourcePersonName": "Torp-Pollich",
-  "DestinationContactName": "Hagenes, Herzog and White",
-  "DestinationPersonName": "Hamill-Mraz",
-  "ActiveText": "possimus",
-  "PassiveText": "debitis"
+  "SourceContactName": "Kautzer-Turcotte",
+  "SourcePersonName": "Gleichner-Hansen",
+  "DestinationContactName": "Haag LLC",
+  "DestinationPersonName": "Wisozk-Armstrong",
+  "ActiveText": "dolorum",
+  "PassiveText": "et"
 }
 ```
 
@@ -143,30 +144,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 115,
-  "SourcePersonId": 33,
-  "DestinationContactId": 533,
-  "DestinationPersonId": 315,
-  "RelationId": 916,
-  "Comment": "explicabo",
-  "RelationDefinitionId": 232,
-  "Reversed": 807,
-  "UpdatedDate": "2005-11-21T11:24:53.1405767+01:00",
-  "CreatedDate": "2003-11-22T11:24:53.1405767+01:00",
+  "SourceContactId": 842,
+  "SourcePersonId": 316,
+  "DestinationContactId": 616,
+  "DestinationPersonId": 390,
+  "RelationId": 958,
+  "Comment": "rerum",
+  "RelationDefinitionId": 769,
+  "Reversed": 99,
+  "UpdatedDate": "1998-08-23T03:40:55.6162809+02:00",
+  "CreatedDate": "2007-06-16T03:40:55.6162809+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Gutkowski-Kris",
-  "SourcePersonName": "Grady, Wyman and Kris",
-  "DestinationContactName": "Bernhard, Wuckert and Schroeder",
-  "DestinationPersonName": "D'Amore-Conn",
-  "ActiveText": "quia",
-  "PassiveText": "animi",
+  "SourceContactName": "Langosh, Hills and Streich",
+  "SourcePersonName": "Deckow LLC",
+  "DestinationContactName": "Kunze-Schuppe",
+  "DestinationPersonName": "Howell LLC",
+  "ActiveText": "voluptatem",
+  "PassiveText": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   },
   "_Links": {

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments belonging to an array of 
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 454,
-  "StartTime": "2004-08-22T11:24:47.3126897+02:00",
-  "EndTime": "2022-03-22T11:24:47.3126897+01:00",
-  "Count": 776,
+  "ContactId": 724,
+  "StartTime": "2017-01-28T03:40:45.60749+01:00",
+  "EndTime": "2011-01-24T03:40:45.60749+01:00",
+  "Count": 324,
   "TaskIds": [
-    953,
-    220
+    238,
+    611
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 971,
-    "StartDate": "2022-09-01T11:24:47.3126897+02:00",
-    "EndDate": "2023-12-01T11:24:47.3126897+01:00",
+    "AppointmentId": 408,
+    "StartDate": "2007-07-21T03:40:45.6231158+02:00",
+    "EndDate": "2022-07-24T03:40:45.6231158+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Mrs. Electa Stacey Hills I",
-    "ContactName": "Homenick-Jacobson",
-    "Description": "Vision-oriented homogeneous info-mediaries",
-    "PersonFullName": "Mrs. Norris Block",
-    "PersonId": 855,
-    "ContactId": 790,
-    "ProjectId": 592,
-    "ProjectName": "Macejkovic Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 119,
-    "ColorIndex": 503,
+    "Task": "expedita",
+    "AssociateFullName": "Prof. Roman Vita Herzog",
+    "ContactName": "Morissette-Schmeler",
+    "Description": "Triple-buffered discrete definition",
+    "PersonFullName": "Tressa Talon Effertz Sr.",
+    "PersonId": 847,
+    "ContactId": 229,
+    "ProjectId": 324,
+    "ProjectName": "Bayer-Strosin",
+    "IsPublished": false,
+    "AssociateId": 171,
+    "ColorIndex": 592,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 532,
-    "PriorityName": "Bauch-Schimmel",
+    "PriorityId": 216,
+    "PriorityName": "Brakus Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2010-09-29T11:24:47.3126897+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2016-07-14T03:40:45.6231158+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-03-22T11:24:47.3126897+01:00",
-    "RecurringEndDate": "2015-11-28T11:24:47.3126897+01:00",
-    "MotherId": 850,
-    "AssignedBy": 481,
-    "AssignedByFullName": "Courtney Mueller MD",
-    "RejectReason": "",
-    "Location": "iste",
-    "AlarmLeadTime": "vitae",
-    "SaleId": 340,
-    "SaleName": "Robel, Hane and Gutkowski",
-    "AssociateName": "Wyman LLC",
-    "CreatedDate": "2015-11-16T11:24:47.3126897+01:00",
-    "CreatedBy": "delectus",
-    "CreatedByFullName": "Travis Larson",
-    "CreatedByAssociateId": 237,
+    "RecurringStartDate": "2001-08-04T03:40:45.6231158+02:00",
+    "RecurringEndDate": "2010-09-23T03:40:45.6231158+02:00",
+    "MotherId": 89,
+    "AssignedBy": 417,
+    "AssignedByFullName": "Webster Lora Leuschke DVM",
+    "RejectReason": "disintermediate holistic content",
+    "Location": "sed",
+    "AlarmLeadTime": "ducimus",
+    "SaleId": 14,
+    "SaleName": "Cruickshank LLC",
+    "AssociateName": "Carroll-Wuckert",
+    "CreatedDate": "1999-03-17T03:40:45.6231158+01:00",
+    "CreatedBy": "ab",
+    "CreatedByFullName": "Griffin Homenick",
+    "CreatedByAssociateId": 706,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 515,
+    "MotherAssociateId": 982,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 501,
-    "Title": "et",
-    "Agenda": "quaerat",
-    "InternalNotes": "consequatur",
+    "PreferredTZLocation": 516,
+    "Title": "consectetur",
+    "Agenda": "atque",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 87
       }
     }
   }

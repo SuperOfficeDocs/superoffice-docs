@@ -15,6 +15,7 @@ Gets all project events that belongs to the currently logged on user.
 
 
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -100,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Dr. Clotilde Letitia Bartoletti",
-    "Description": "Exclusive didactic encryption",
-    "ProjectId": 402,
-    "EventName": "Stanton, Miller and Gaylord",
-    "AssociateId": 803,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "atque",
-    "SignOffText": "consequatur",
-    "SignOnConfirmationText": "iure",
-    "SignOnText": "soluta",
-    "EventDate": "2002-01-31T11:24:48.4845166+01:00",
-    "Enabled": true,
+    "AssociateFullName": "Carmine Bins",
+    "Description": "Persevering needs-based solution",
+    "ProjectId": 920,
+    "EventName": "Hand LLC",
+    "AssociateId": 268,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quibusdam",
+    "SignOffText": "magnam",
+    "SignOnConfirmationText": "deserunt",
+    "SignOnText": "reprehenderit",
+    "EventDate": "2001-08-02T03:40:47.4843558+02:00",
+    "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": false,
+    "SignOffTaskEnable": true,
     "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 861,
-    "SignOnTaskId": 36,
+    "SignOn": false,
+    "SignOffTaskId": 430,
+    "SignOnTaskId": 141,
     "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 611,
-    "SignOffPersonId": 269,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 571,
+    "SignOffPersonId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 804
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetConsentPurposes
 Returns all defined purposes.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 615,
-    "Name": "Volkman-Abernathy",
-    "ConsentText": "deserunt",
-    "FormText": "quaerat",
-    "Key": "voluptatem",
-    "Tooltip": "est",
-    "Active": 40,
-    "UpdatedDate": "2015-10-04T11:24:48.2501511+02:00",
+    "ConsentPurposeId": 418,
+    "Name": "Nienow, Hintz and Balistreri",
+    "ConsentText": "omnis",
+    "FormText": "nostrum",
+    "Key": "ipsa",
+    "Tooltip": "reprehenderit",
+    "Active": 404,
+    "UpdatedDate": "2009-11-07T03:40:47.2342937+01:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 236,
-    "PrivacyStatementDesc": "dolor",
+    "Deleted": false,
+    "Rank": 831,
+    "PrivacyStatementDesc": "sapiente",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 265
       }
     }
   }

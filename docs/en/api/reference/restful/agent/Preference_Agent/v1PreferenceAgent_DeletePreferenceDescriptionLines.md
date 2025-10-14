@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLines
 Delete the PrefDescLines in the SuperOffice database
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescLineIds": [
-    195,
-    419
+    268,
+    921
   ]
 }
 ```

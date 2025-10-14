@@ -15,6 +15,7 @@ Set default values into a new SaleEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Sale agent service CreateDefaultSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -101,7 +102,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,7 +110,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 29 Sep 2001 11:24:53 G9T
+Last-Modified: Thu, 05 Jan 2006 03:40:56 G1T
 
 {
   "Appointment": null,
@@ -118,7 +119,7 @@ Last-Modified: Sat, 29 Sep 2001 11:24:53 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nobis",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -127,113 +128,113 @@ Last-Modified: Sat, 29 Sep 2001 11:24:53 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-08-31T11:24:53.499937+02:00",
-  "Amount": 25281.978,
-  "SaleId": 620,
-  "Earning": 4146.282,
-  "EarningPercent": 26002.798,
-  "Heading": "et",
-  "Number": "1153361",
-  "Probability": 560,
-  "CreatedDate": "2021-10-15T11:24:53.499937+02:00",
-  "UpdatedDate": "2001-09-29T11:24:53.499937+02:00",
+  "Saledate": "2016-09-10T03:40:56.1011754+02:00",
+  "Amount": 13238.016,
+  "SaleId": 9,
+  "Earning": 13432.323999999999,
+  "EarningPercent": 27065.224,
+  "Heading": "repellendus",
+  "Number": "1496848",
+  "Probability": 346,
+  "CreatedDate": "2008-06-26T03:40:56.1011754+02:00",
+  "UpdatedDate": "2006-01-05T03:40:56.1011754+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 517,
+  "ActiveLinks": 661,
   "Links": [
     {
-      "EntityName": "Stehr-Hauck",
-      "Id": 804,
-      "Description": "Enhanced asynchronous hub",
-      "ExtraInfo": "hic",
-      "LinkId": 143,
+      "EntityName": "Tromp Group",
+      "Id": 778,
+      "Description": "Cross-group needs-based database",
+      "ExtraInfo": "est",
+      "LinkId": 463,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 729
         }
       }
     }
   ],
-  "NextDueDate": "2021-05-13T11:24:53.499937+02:00",
-  "Postit": "velit",
+  "NextDueDate": "2017-12-22T03:40:56.1011754+01:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-04-28T11:24:53.499937+02:00",
+  "ReopenDate": "2013-09-13T03:40:56.1011754+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gutmann-Kertzmann",
-      "Comment": "est",
-      "StakeholderRoleId": 348,
-      "CountryId": 197,
-      "PersonId": 987,
-      "EmailDescription": "noemie.rath@zboncakkohler.ca",
-      "EmailId": 649,
-      "EmailAddress": "landen@christiansen.uk",
-      "PhoneId": 548,
-      "ContactName": "Dicki, Waelchi and O'Keefe",
-      "ContactId": 148,
-      "SaleId": 616,
-      "Mrmrs": "tenetur",
-      "Firstname": "Faye",
-      "MiddleName": "Heathcote, Ortiz and Nicolas",
-      "Lastname": "Weimann",
-      "SaleStakeholderId": 194,
-      "Rank": 865,
-      "Phone": "(544)091-7991",
+      "StakeholderRoleName": "Sanford LLC",
+      "Comment": "quisquam",
+      "StakeholderRoleId": 292,
+      "CountryId": 326,
+      "PersonId": 660,
+      "EmailDescription": "marianna_kreiger@mueller.biz",
+      "EmailId": 474,
+      "EmailAddress": "golda.kihn@roob.co.uk",
+      "PhoneId": 567,
+      "ContactName": "Lesch Inc and Sons",
+      "ContactId": 658,
+      "SaleId": 522,
+      "Mrmrs": "consequuntur",
+      "Firstname": "Cayla",
+      "MiddleName": "Schimmel-Witting",
+      "Lastname": "Gerlach",
+      "SaleStakeholderId": 502,
+      "Rank": 2,
+      "Phone": "653.891.8528 x440",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldType": "System.Int32",
+          "FieldLength": 907
         }
       }
     }
   ],
-  "ActiveErpLinks": 301,
+  "ActiveErpLinks": 548,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Prof. Jordy Denesik"
+    "SuperOffice:1": "908412252",
+    "SuperOffice:2": "Golda Uriah Wiza V"
   },
   "ExtraFields": {
-    "ExtraFields1": "placeat",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "vero"
+    "CustomFields1": "tempore",
+    "CustomFields2": "ipsa"
   },
-  "PublishEventDate": "2016-12-28T11:24:53.499937+01:00",
-  "PublishTo": "2010-08-02T11:24:53.499937+02:00",
-  "PublishFrom": "2011-02-10T11:24:53.499937+01:00",
+  "PublishEventDate": "2016-06-30T03:40:56.1011754+02:00",
+  "PublishTo": "2022-11-20T03:40:56.1011754+01:00",
+  "PublishFrom": "2003-06-28T03:40:56.1011754+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 552,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     },
     {
-      "VisibleId": 552,
+      "VisibleId": 403,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     }
@@ -243,7 +244,7 @@ Last-Modified: Sat, 29 Sep 2001 11:24:53 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldLength": 429
     }
   }
 }

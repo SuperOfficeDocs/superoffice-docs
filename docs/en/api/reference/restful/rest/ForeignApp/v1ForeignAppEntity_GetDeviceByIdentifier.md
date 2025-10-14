@@ -70,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 May 2002 11:24:53 G5T
+Last-Modified: Tue, 01 Jul 2025 03:40:55 G7T
 
 {
-  "ForeignDeviceId": 152,
-  "Name": "Pollich, Hammes and Swaniawski",
-  "CreatedDate": "2005-04-28T11:24:53.2968202+02:00",
-  "UpdatedDate": "2002-05-29T11:24:53.2968202+02:00",
-  "AssociateFullName": "Miss Nicholas Dare",
-  "CreatedBy": "id",
-  "UpdatedBy": "qui",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 535,
+  "ForeignDeviceId": 207,
+  "Name": "Torp, Roberts and Ullrich",
+  "CreatedDate": "2002-08-20T03:40:55.7731411+02:00",
+  "UpdatedDate": "2025-07-01T03:40:55.7731411+02:00",
+  "AssociateFullName": "Dayton Jast",
+  "CreatedBy": "in",
+  "UpdatedBy": "voluptas",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   }
 }

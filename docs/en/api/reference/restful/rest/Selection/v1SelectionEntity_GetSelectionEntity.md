@@ -15,6 +15,7 @@ Gets a SelectionEntity object.
 
 
 Calls the Selection agent service GetSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -115,7 +116,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -123,73 +124,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 04 Jan 2004 11:24:53 G1T
+Last-Modified: Mon, 25 Jul 2005 03:40:56 G7T
 
 {
-  "Description": "Decentralized cohesive methodology",
-  "Postit": "et",
+  "Description": "Multi-lateral context-sensitive emulation",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 56,
-  "IncludePerson": 960,
+  "GroupIdx": 996,
+  "IncludePerson": 320,
   "MemberCount": 99.99,
-  "Name": "Hermann Group",
-  "PostitTextId": 703,
-  "CreatedDate": "2003-04-30T11:24:53.5624345+02:00",
-  "SelectionId": 856,
-  "SoundEx": "aut",
-  "Source": 626,
-  "TextId": 248,
-  "UpdatedDate": "2004-01-04T11:24:53.5624345+01:00",
-  "UpdatedCount": 493,
-  "Visibility": 773,
+  "Name": "King, Sauer and Toy",
+  "PostitTextId": 430,
+  "CreatedDate": "1998-07-24T03:40:56.2105477+02:00",
+  "SelectionId": 549,
+  "SoundEx": "natus",
+  "Source": 328,
+  "TextId": 78,
+  "UpdatedDate": "2005-07-25T03:40:56.2105477+02:00",
+  "UpdatedCount": 848,
+  "Visibility": 253,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 508,
-  "TargetTableName": "Zemlak, Koss and Franecki",
-  "Completed": false,
-  "LeftSelectionId": 836,
-  "RightSelectionId": 231,
+  "TargetTableNumber": 35,
+  "TargetTableName": "Pacocha-Olson",
+  "Completed": true,
+  "LeftSelectionId": 675,
+  "RightSelectionId": 61,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roob Inc and Sons",
-  "ShadowProviderName": "Waters-Kshlerin",
-  "ChartKey": "qui",
-  "LastLoaded": "2013-01-22T11:24:53.5624345+01:00",
-  "LastLoadedBy": 88,
+  "MainProviderName": "Marquardt LLC",
+  "ShadowProviderName": "Pagac-Kutch",
+  "ChartKey": "libero",
+  "LastLoaded": "2025-01-07T03:40:56.2105477+01:00",
+  "LastLoadedBy": 606,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-09-27T11:24:53.5624345+02:00",
-  "LastMembershipChangeBy": 915,
+  "LastMembershipChange": "1998-08-08T03:40:56.2105477+02:00",
+  "LastMembershipChangeBy": 717,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vitae",
-  "MemberTabHeading": "consectetur",
-  "MailingsProviderName": "Beahan LLC",
-  "DashboardTileDefinitionId": 990,
+  "MainHeading": "provident",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Lueilwitz, Hyatt and Gaylord",
+  "DashboardTileDefinitionId": 451,
   "VisibleFor": [
     {
-      "VisibleId": 341,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 775
         }
       }
     },
     {
-      "VisibleId": 341,
+      "VisibleId": 101,
       "Visibility": "All",
-      "DisplayValue": "maiores",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 775
         }
       }
     }
@@ -199,12 +200,12 @@ Last-Modified: Sun, 04 Jan 2004 11:24:53 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 793
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

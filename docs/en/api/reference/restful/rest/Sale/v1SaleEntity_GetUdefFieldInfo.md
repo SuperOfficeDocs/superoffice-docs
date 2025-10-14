@@ -94,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 546,
-  "ColumnId": 867,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 399,
-  "FieldLabel": "ut",
-  "FieldLeft": 668,
-  "FieldTop": 427,
+  "UDefFieldId": 362,
+  "ColumnId": 910,
+  "FieldDefault": "eaque",
+  "FieldHeight": 927,
+  "FieldLabel": "rerum",
+  "FieldLeft": 920,
+  "FieldTop": 264,
   "FieldType": "Checkbox",
-  "FieldWidth": 878,
-  "FormatMask": "sint",
+  "FieldWidth": 366,
+  "FormatMask": "omnis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 527,
-  "LabelLeft": 582,
-  "LabelTop": 342,
-  "LabelWidth": 347,
-  "LastVersionId": 30,
-  "ListTableId": 573,
-  "IsMandatory": false,
+  "LabelHeight": 614,
+  "LabelLeft": 472,
+  "LabelTop": 888,
+  "LabelWidth": 248,
+  "LastVersionId": 144,
+  "ListTableId": 712,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 227,
-  "ProgId": "aut",
+  "Page1LineNo": 808,
+  "ProgId": "reprehenderit",
   "IsReadOnly": false,
-  "ShortLabel": "repellendus",
-  "TabOrder": 853,
-  "TextLength": 46,
+  "ShortLabel": "aut",
+  "TabOrder": 42,
+  "TextLength": 574,
   "Tooltip": "et",
-  "UdefIdentity": 355,
-  "UDListDefinitionId": 664,
+  "UdefIdentity": 850,
+  "UDListDefinitionId": 554,
   "Justification": "Center",
-  "Version": 437,
-  "TemplateVariableName": "Weissnat, Toy and Ziemann",
-  "HasBeenPublished": true,
-  "MdoListName": "Doyle Group",
+  "Version": 321,
+  "TemplateVariableName": "Schmeler-Koelpin",
+  "HasBeenPublished": false,
+  "MdoListName": "Marquardt LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 599
     }
   }
 }

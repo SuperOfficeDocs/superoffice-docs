@@ -27,8 +27,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=voluptatem
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=natus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Dach LLC",
-    "ToolTip": "Sint mollitia vero ab itaque aut enim.",
-    "Deleted": true,
-    "Rank": 312,
-    "Type": "consequatur",
+    "Id": 446,
+    "Name": "Emard LLC",
+    "ToolTip": "Eius eligendi esse officiis laboriosam.",
+    "Deleted": false,
+    "Rank": 598,
+    "Type": "consectetur",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Ondricka-O'Kon",
-        "ToolTip": "Cupiditate eligendi.",
+        "Id": 29,
+        "Name": "Emmerich-Johnston",
+        "ToolTip": "Quo pariatur enim nisi voluptas.",
         "Deleted": false,
-        "Rank": 676,
-        "Type": "et",
+        "Rank": 274,
+        "Type": "labore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 838,
-        "ExtraInfo": "neque",
-        "StyleHint": "ut",
-        "FullName": "Prof. Dortha Bartoletti Jr.",
+        "IconHint": "est",
+        "ColorBlock": 551,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "doloribus",
+        "FullName": "Kurtis Savion Upton Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 483
+            "FieldLength": 233
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 548,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "qui",
-    "FullName": "Freida Wolff",
+    "IconHint": "excepturi",
+    "ColorBlock": 937,
+    "ExtraInfo": "porro",
+    "StyleHint": "ut",
+    "FullName": "Grayson Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldLength": 25
       }
     }
   }

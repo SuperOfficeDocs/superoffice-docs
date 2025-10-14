@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "ipsum",
-  "Tooltip": "sed",
-  "Id": 491,
-  "Rank": 11,
-  "Deleted": true,
+  "Value": "aliquam",
+  "Tooltip": "voluptatibus",
+  "Id": 48,
+  "Rank": 46,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

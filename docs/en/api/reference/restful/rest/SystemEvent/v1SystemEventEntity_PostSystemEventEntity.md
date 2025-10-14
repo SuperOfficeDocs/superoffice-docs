@@ -15,6 +15,7 @@ Creates a new SystemEventEntity
 
 
 Calls the Configuration agent service SaveSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -99,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 309,
+  "SystemEventId": 838,
   "Scope": "Database",
-  "Eta": "2011-09-02T11:24:53.5780588+02:00",
-  "Eventkey": "doloremque",
-  "Eventmess": "laboriosam",
-  "ExtraInfo": 702,
-  "Owner": 884,
-  "UpdatedCount": 478,
-  "Registered": "2005-09-12T11:24:53.5780588+02:00",
+  "Eta": "1998-07-18T03:40:56.2422072+02:00",
+  "Eventkey": "sed",
+  "Eventmess": "voluptatem",
+  "ExtraInfo": 162,
+  "Owner": 755,
+  "UpdatedCount": 780,
+  "Registered": "2023-02-04T03:40:56.2422072+01:00",
   "ActivatedBy": null
 }
 ```
@@ -119,22 +120,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 152,
+  "SystemEventId": 767,
   "Scope": "Database",
-  "Eta": "2003-01-03T11:24:53.5780588+01:00",
-  "Eventkey": "consequuntur",
-  "Eventmess": "praesentium",
-  "ExtraInfo": 110,
-  "Owner": 483,
-  "UpdatedCount": 817,
-  "Registered": "2017-10-30T11:24:53.5780588+01:00",
+  "Eta": "2017-11-18T03:40:56.2422072+01:00",
+  "Eventkey": "necessitatibus",
+  "Eventmess": "temporibus",
+  "ExtraInfo": 325,
+  "Owner": 896,
+  "UpdatedCount": 553,
+  "Registered": "2016-11-12T03:40:56.2422072+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Get all preference description lines from a prefDesc_id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 744
+  "PrefDescId": 700
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 551,
-    "PrefDescId": 330,
-    "PrefValue": "sit",
-    "PrefShowValue": "sapiente",
-    "Description": "Compatible user-facing middleware",
+    "PrefDescLineId": 102,
+    "PrefDescId": 968,
+    "PrefValue": "odio",
+    "PrefShowValue": "et",
+    "Description": "Integrated incremental application",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 452
       }
     }
   }

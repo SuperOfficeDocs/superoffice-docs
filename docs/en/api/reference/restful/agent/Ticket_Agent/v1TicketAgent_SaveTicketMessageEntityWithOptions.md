@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Saves a ticket message and performs additional actions
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -102,17 +104,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    271,
-    267
+    237,
+    10
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -123,28 +125,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 490,
+  "EjMessageId": 682,
   "Ticket": null,
-  "CreatedAt": "2006-12-25T11:24:48.8751256+01:00",
+  "CreatedAt": "2025-03-15T03:40:48.1254917+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "corporis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "a",
-  "TimeSpent": 990,
-  "Body": "laboriosam",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "susan@senger.info",
-  "DebugInfo": "dicta",
-  "MailSorter": "ducimus",
+  "MessageId": "ab",
+  "TimeSpent": 712,
+  "Body": "sint",
+  "HtmlBody": "magnam",
+  "EmailHeader": "fannie@jenkins.ca",
+  "DebugInfo": "tenetur",
+  "MailSorter": "soluta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reiciendis",
+  "SearchTitle": "dolores",
   "MessageHeaders": [
     {
-      "Id": 742,
-      "Name": "Johns, Reichert and O'Reilly",
-      "Value": "voluptatem",
+      "Id": 900,
+      "Name": "Ward Inc and Sons",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -152,50 +154,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 385
         }
       }
     }
   ],
   "Important": false,
-  "Language": "cum",
-  "Sentiment": 961,
-  "SentimentConfidence": 694,
+  "Language": "quia",
+  "Sentiment": 683,
+  "SentimentConfidence": 886,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 389,
-      "Name": "Von-Schowalter",
-      "ContentType": "recusandae",
-      "AttSize": 842,
+      "AttachmentId": 790,
+      "Name": "Schulist, Schulist and Dibbert",
+      "ContentType": "odio",
+      "AttSize": 726,
       "InlineImage": true,
-      "ContentId": "alias",
-      "AuthKey": "fuga",
+      "ContentId": "rerum",
+      "AuthKey": "iusto",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 530
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

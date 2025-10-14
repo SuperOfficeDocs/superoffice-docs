@@ -14,6 +14,8 @@ PUT /api/v1/ChatTopic/{id}
 Updates the existing ChatTopicEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -140,41 +142,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 448,
-  "Name": "Schneider, Schaefer and Bashirian",
-  "Description": "Innovative assymetric attitude",
-  "WelcomeMessage": "modi",
+  "ChatTopicId": 754,
+  "Name": "Nolan LLC",
+  "Description": "Advanced multi-state projection",
+  "WelcomeMessage": "illo",
   "Language": null,
-  "LastAccept": "2015-07-02T11:24:53.0624548+02:00",
-  "SecondsPrAccept": 489,
-  "AlertRecipient": "delectus",
+  "LastAccept": "2023-10-29T03:40:55.397437+01:00",
+  "SecondsPrAccept": 904,
+  "AlertRecipient": "pariatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "id",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "culpa",
-  "WarnNewChatMinutes": 409,
-  "WarnManagerNewChatMinutes": 556,
+  "BadgeHeader": "delectus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "repellendus",
+  "WarnNewChatMinutes": 76,
+  "WarnManagerNewChatMinutes": 578,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 105,
-  "WarnManagerChatMessageMinutes": 652,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 417,
-  "OfflineFormQueueLength": 820,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 962,
+  "WarnManagerChatMessageMinutes": 33,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 828,
+  "OfflineFormQueueLength": 612,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "iure"
+  "WidgetRatingText": "ab"
 }
 ```
 
@@ -185,48 +187,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 377,
-  "Name": "Halvorson-Stamm",
-  "Description": "Polarised transitional groupware",
-  "WelcomeMessage": "officiis",
+  "ChatTopicId": 679,
+  "Name": "Hansen Group",
+  "Description": "Switchable user-facing application",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2015-05-31T11:24:53.0624548+02:00",
-  "SecondsPrAccept": 395,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2008-01-27T03:40:55.397437+01:00",
+  "SecondsPrAccept": 862,
+  "AlertRecipient": "rerum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "vitae",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 448,
-  "WarnManagerNewChatMinutes": 30,
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aut",
+  "WarnNewChatMinutes": 173,
+  "WarnManagerNewChatMinutes": 433,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 208,
-  "WarnManagerChatMessageMinutes": 484,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 813,
-  "OfflineFormQueueLength": 752,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ab",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 630,
+  "WarnManagerChatMessageMinutes": 612,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 162,
+  "OfflineFormQueueLength": 554,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 951
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

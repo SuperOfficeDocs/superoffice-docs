@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Loading default values into a new UserDefinedFieldInfo.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 186,
-  "ColumnId": 483,
-  "FieldDefault": "repellat",
-  "FieldHeight": 464,
-  "FieldLabel": "odit",
-  "FieldLeft": 75,
-  "FieldTop": 100,
+  "UDefFieldId": 686,
+  "ColumnId": 145,
+  "FieldDefault": "aut",
+  "FieldHeight": 357,
+  "FieldLabel": "et",
+  "FieldLeft": 79,
+  "FieldTop": 690,
   "FieldType": "Checkbox",
-  "FieldWidth": 618,
-  "FormatMask": "consequuntur",
+  "FieldWidth": 919,
+  "FormatMask": "magnam",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 416,
-  "LabelLeft": 226,
-  "LabelTop": 520,
-  "LabelWidth": 706,
-  "LastVersionId": 179,
-  "ListTableId": 548,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 722,
+  "LabelLeft": 491,
+  "LabelTop": 486,
+  "LabelWidth": 251,
+  "LastVersionId": 459,
+  "ListTableId": 833,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 336,
-  "ProgId": "placeat",
-  "IsReadOnly": true,
-  "ShortLabel": "nobis",
-  "TabOrder": 922,
-  "TextLength": 553,
-  "Tooltip": "minus",
-  "UdefIdentity": 658,
-  "UDListDefinitionId": 273,
+  "Page1LineNo": 666,
+  "ProgId": "voluptates",
+  "IsReadOnly": false,
+  "ShortLabel": "ducimus",
+  "TabOrder": 185,
+  "TextLength": 276,
+  "Tooltip": "nihil",
+  "UdefIdentity": 924,
+  "UDListDefinitionId": 82,
   "Justification": "Center",
-  "Version": 314,
-  "TemplateVariableName": "Hettinger Group",
+  "Version": 318,
+  "TemplateVariableName": "Abernathy Group",
   "HasBeenPublished": false,
-  "MdoListName": "Morissette Group",
+  "MdoListName": "Hilll, Bauch and Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 547
     }
   }
 }

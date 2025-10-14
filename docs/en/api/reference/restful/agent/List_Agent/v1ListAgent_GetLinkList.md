@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLinkList
 Gets an array of Link objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,17 +88,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Willms-Schneider",
-    "Id": 16,
-    "Description": "Inverse mobile superstructure",
-    "ExtraInfo": "libero",
-    "LinkId": 919,
+    "EntityName": "Bednar, Toy and Marvin",
+    "Id": 885,
+    "Description": "Multi-tiered user-facing leverage",
+    "ExtraInfo": "vel",
+    "LinkId": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 223
       }
     }
   }

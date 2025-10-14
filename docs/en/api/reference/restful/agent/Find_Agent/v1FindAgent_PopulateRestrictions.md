@@ -15,6 +15,7 @@ Take an incoming set of minimally populated restrictions (name + operator is req
 
 
 This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leffler-Hammes",
+  "ProviderName": "Tromp, Daniel and Runolfsdottir",
   "Restrictions": [
     {
-      "Name": "Swift-Powlowski",
-      "Operator": "et",
+      "Name": "Lebsack-Legros",
+      "Operator": "quas",
       "Values": [
-        "repudiandae",
-        "aut"
+        "id",
+        "incidunt"
       ],
       "DisplayValues": [
-        "ipsum",
-        "aliquid"
+        "sunt",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 786,
+      "InterParenthesis": 202,
       "InterOperator": "And",
-      "UniqueHash": 253
+      "UniqueHash": 973
     }
   ]
 }
@@ -123,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka Inc and Sons",
-    "Operator": "amet",
+    "Name": "Moore Group",
+    "Operator": "quas",
     "Values": [
-      "eaque",
-      "voluptas"
+      "enim",
+      "vel"
     ],
     "DisplayValues": [
-      "et",
-      "assumenda"
+      "rem",
+      "qui"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Russel-Hickle",
-        "Operator": "sequi",
+        "Name": "Kessler Inc and Sons",
+        "Operator": "et",
         "Values": [
-          "quam",
-          "reprehenderit"
+          "magni",
+          "sunt"
         ],
         "DisplayValues": [
-          "maiores",
-          "aut"
+          "laborum",
+          "sequi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -153,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 646,
+        "InterParenthesis": 95,
         "InterOperator": "And",
-        "UniqueHash": 247
+        "UniqueHash": 84
       }
     ],
-    "InterParenthesis": 971,
+    "InterParenthesis": 159,
     "InterOperator": "And",
-    "UniqueHash": 44
+    "UniqueHash": 139
   }
 ]
 ```

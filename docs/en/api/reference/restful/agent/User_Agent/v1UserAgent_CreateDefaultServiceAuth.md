@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Loading default values into a new ServiceAuth.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -73,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 598,
-  "Server": "aperiam",
-  "Port": 93,
-  "AuthType": "qui",
-  "Username": "facilis",
-  "Password": "neque",
+  "ServiceAuthId": 123,
+  "Server": "minima",
+  "Port": 427,
+  "AuthType": "sint",
+  "Username": "libero",
+  "Password": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

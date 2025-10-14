@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/GetStatusMonitor
 Get a single status monitor based on its identity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568
+  "Id": 398
 }
 ```
 
@@ -103,27 +105,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 386,
-  "Rank": 503,
-  "DefaultTask": 940,
-  "DefaultTaskText": "iure",
+  "OwnerTable": 673,
+  "Rank": 33,
+  "DefaultTask": 650,
+  "DefaultTaskText": "eum",
   "IsVisual": false,
-  "LastGenerated": "2002-03-25T11:24:48.5470141+01:00",
-  "Description": "Optimized analyzing concept",
-  "Name": "Carroll-Wiegand",
-  "StatusMonitorId": 687,
-  "PictureId": 652,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 480,
-  "NumNeedUpdate": 889,
-  "GenerationStart": "2000-04-03T11:24:48.5470141+02:00",
+  "LastGenerated": "2019-09-21T03:40:47.5942106+02:00",
+  "Description": "Innovative full-range success",
+  "Name": "Howe, Herzog and Zieme",
+  "StatusMonitorId": 335,
+  "PictureId": 307,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 796,
+  "NumNeedUpdate": 111,
+  "GenerationStart": "1999-05-29T03:40:47.5942106+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 395
     }
   }
 }

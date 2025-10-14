@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition
 Gets a DashTileDefinition object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=581
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=475
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,31 +98,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 913,
-  "Name": "Reynolds, Nicolas and Ryan",
-  "Description": "Reactive systemic matrix",
-  "DefaultHeight": 686,
-  "DefaultWidth": 841,
+  "DashboardTileDefinitionId": 440,
+  "Name": "Glover Group",
+  "Description": "Vision-oriented value-added success",
+  "DefaultHeight": 944,
+  "DefaultWidth": 442,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Macejkovic-Davis",
-  "SelectionId": 843,
+  "EntityName": "Braun Group",
+  "SelectionId": 604,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ad",
+  "CurrencyCode": "quo",
   "Measure": "Average",
-  "MeasureField": "voluptates",
-  "SortBy": "iste",
-  "LayoutConfig": "suscipit",
-  "SecondarySelectionId": 555,
-  "MeasureByField": "distinctio",
+  "MeasureField": "quia",
+  "SortBy": "qui",
+  "LayoutConfig": "in",
+  "SecondarySelectionId": 335,
+  "MeasureByField": "animi",
   "Usage": "Dashboard",
-  "ProviderName": "Nienow, Bartell and Reinger",
+  "ProviderName": "Bechtelar, Schowalter and Price",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

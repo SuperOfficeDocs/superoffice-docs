@@ -30,6 +30,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |contactAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |contactAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |contactAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |contactAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |contactAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -222,15 +223,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactSupportPerson/ticketPriority|listAny|User support contact - Service priority: Default service priority for this contact| x |
 |contactSupportPerson/supportLanguage|listAny|User support contact - Preferred language: Preferred language used for reply templates and more| x |
 |contactSupportPerson/supportAssociate|associate|User support contact - Our service contact: Default service contact for this contact| x |
-|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportPerson/supportAssociateFullName|associate|User support contact - Our service contact - Full name: Default service contact for this contact| x |
 |contactSupportPerson/personAssociateId|associate|User support contact - Our contact: Displays our contact| x |
 |contactSupportPerson/personAssociateFullName|associate|User support contact - Our contact - Full name: Displays our contact| x |
 |contactSupportPerson/personCategory|listAny|User support contact - Category| x |
+|contactSupportPerson/personCategoryGroup|listAny|User support contact - Category group| x |
 |contactSupportPerson/personBusiness|listAny|User support contact - Business| x |
+|contactSupportPerson/leadstatus|listAny|User support contact - Lead status| x |
 |contactSupportPerson/personDeletedDate|datetime|User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany|bool|User support contact - Has company: The contact is associated with a company| x |
 |contactSupportPerson/isProjectMember|bool|User support contact - Is project member: This person is a project member| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |LastActivity|date|Date of last activity|  |
 |LastCompletedActivity|date|Date of last completed activity|  |
 |LastDoByActivity|date|Date of last non-completed activity|  |
-|NumberOfSales|int|Number of sales|  |
-|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
-|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|NumberOfSales|int|Number of sales|  |
+|NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
+|NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |LastSale|date|Date of last sale|  |
 |LastCompletedSale|date|Date of last completed sale|  |
@@ -357,7 +360,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=orgnr,streetAddress/state,contactSupportAssociate/title,contactSupportAssociate/assocType,contactSupportPerson/consentSourceStore
+GET /api/v1/archive/SimpleContact?$select=contactAssociate/contactCategory,contactSupportPerson/personInfo/textId,contactInterestIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

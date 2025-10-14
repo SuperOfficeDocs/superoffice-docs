@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 180,
-  "Name": "Nienow-Bayer",
-  "Tooltip": "aut",
+  "HeadingId": 595,
+  "Name": "Stoltenberg LLC",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 570,
-  "UdListDefinitionId": 510
+  "Rank": 109,
+  "UdListDefinitionId": 760
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 975,
-  "Name": "Zboncak Inc and Sons",
-  "Tooltip": "recusandae",
+  "HeadingId": 366,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 545,
-  "UdListDefinitionId": 428,
+  "Rank": 363,
+  "UdListDefinitionId": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   }
 }

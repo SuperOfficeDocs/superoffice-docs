@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 786,
-    "Name": "Monahan-Ward",
-    "ToolTip": "Error cumque officiis dolor odit exercitationem qui.",
-    "Deleted": false,
-    "Rank": 246,
-    "Type": "reiciendis",
-    "ColorBlock": 922,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2013-10-06T11:24:54.1405361+02:00",
+    "Id": 736,
+    "Name": "VonRueden, Oberbrunner and Roberts",
+    "ToolTip": "Reiciendis est et rerum vel expedita quaerat.",
+    "Deleted": true,
+    "Rank": 218,
+    "Type": "dolores",
+    "ColorBlock": 379,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2009-08-06T03:40:57.1027301+02:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Gutmann, Harris and Boyer",
-        "ToolTip": "Ut earum vitae.",
-        "Deleted": false,
-        "Rank": 32,
-        "Type": "ut",
-        "ColorBlock": 30,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2007-11-24T11:24:54.1405361+01:00",
+        "Id": 545,
+        "Name": "Cremin-Pfeffer",
+        "ToolTip": "Cum est voluptatem totam.",
+        "Deleted": true,
+        "Rank": 447,
+        "Type": "omnis",
+        "ColorBlock": 783,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2007-10-10T03:40:57.1027301+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "cumque",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Prof. Grady Haley MD",
+        "FullName": "Rashad Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldType": "System.String",
+            "FieldLength": 613
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "aut",
+    "ExtraInfo": "velit",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Lucile Balistreri V",
+    "FullName": "Prof. Silas Keshaun Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 527
       }
     }
   }

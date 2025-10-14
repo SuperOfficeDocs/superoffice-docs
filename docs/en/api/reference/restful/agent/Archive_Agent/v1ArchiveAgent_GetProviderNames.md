@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetProviderNames
 Return list of all archive provider names
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Archive/GetProviderNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,6 +74,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "ullam",
-  "pariatur"
+  "est"
 ]
 ```

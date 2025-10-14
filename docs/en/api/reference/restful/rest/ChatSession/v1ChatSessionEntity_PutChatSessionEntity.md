@@ -14,6 +14,8 @@ PUT /api/v1/ChatSession/{id}
 Updates the existing ChatSessionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -144,37 +146,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 707,
-  "TopicId": 537,
+  "ChatSessionId": 171,
+  "TopicId": 364,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ipsam",
-  "CustomerHost": "nemo",
-  "CustomerName": "Zieme, Romaguera and Collins",
-  "CustomerEmail": "callie.rath@leuschke.info",
-  "CustomerPhone": "1-614-095-4371",
+  "CustomerAlias": "totam",
+  "CustomerHost": "velit",
+  "CustomerName": "Roberts, Murphy and Wunsch",
+  "CustomerEmail": "wilburn_heaney@marquardt.info",
+  "CustomerPhone": "568.219.1638",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmidt Inc and Sons",
+  "CustomerCompanyName": "Feest, Corwin and Legros",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "tempora",
-  "WhenRequested": "2015-08-12T11:24:52.9999572+02:00",
-  "WhenStarted": "2016-05-10T11:24:52.9999572+02:00",
-  "WhenEnded": "1999-03-20T11:24:52.9999572+01:00",
-  "WhenIdle": "2018-08-07T11:24:52.9999572+02:00",
-  "WhenFetched": "2016-12-30T11:24:52.9999572+01:00",
-  "SessionKey": "officiis",
-  "InitialQueuePos": 667,
-  "AlertLevel": 53,
-  "Rank": 842,
+  "FirstMessage": "cumque",
+  "LastMessage": "est",
+  "WhenRequested": "2000-02-18T03:40:55.2568012+01:00",
+  "WhenStarted": "2013-12-21T03:40:55.2568012+01:00",
+  "WhenEnded": "2013-05-31T03:40:55.2568012+02:00",
+  "WhenIdle": "2010-03-06T03:40:55.2568012+01:00",
+  "WhenFetched": "2023-09-04T03:40:55.2568012+02:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 82,
+  "AlertLevel": 927,
+  "Rank": 641,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 291
+  "ChatbotIsActive": true,
+  "Rating": 627
 }
 ```
 
@@ -185,29 +187,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 280,
-  "TopicId": 911,
+  "ChatSessionId": 328,
+  "TopicId": 746,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "accusamus",
-  "CustomerName": "Stamm Group",
-  "CustomerEmail": "marianna@paucekwiza.com",
-  "CustomerPhone": "(855)893-7257 x862",
+  "CustomerAlias": "nulla",
+  "CustomerHost": "facilis",
+  "CustomerName": "Cartwright-Stroman",
+  "CustomerEmail": "jamil_oberbrunner@oberbrunner.us",
+  "CustomerPhone": "(645)796-4286",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Pollich Group",
+  "CustomerCompanyName": "Haley Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "cumque",
-  "LastMessage": "culpa",
-  "WhenRequested": "2000-12-10T11:24:52.9999572+01:00",
-  "WhenStarted": "2008-03-25T11:24:52.9999572+01:00",
-  "WhenEnded": "2025-04-23T11:24:52.9999572+02:00",
-  "WhenIdle": "2022-05-20T11:24:52.9999572+02:00",
-  "WhenFetched": "2024-09-11T11:24:52.9999572+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 90,
-  "AlertLevel": 962,
-  "Rank": 197,
+  "FirstMessage": "eos",
+  "LastMessage": "dolorem",
+  "WhenRequested": "2007-12-29T03:40:55.2724271+01:00",
+  "WhenStarted": "2016-02-02T03:40:55.2724271+01:00",
+  "WhenEnded": "2014-04-21T03:40:55.2724271+02:00",
+  "WhenIdle": "2005-05-07T03:40:55.2724271+02:00",
+  "WhenFetched": "2004-01-08T03:40:55.2724271+01:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 361,
+  "AlertLevel": 471,
+  "Rank": 205,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -215,18 +217,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 772,
+  "Rating": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 719
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

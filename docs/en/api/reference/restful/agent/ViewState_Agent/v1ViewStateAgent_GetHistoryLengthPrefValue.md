@@ -15,6 +15,7 @@ Get the logged on user's preferred history list length.
 
 
 Will return the system preference if no user preferences are available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoryLengthPrefValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,5 +73,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-808
+606
 ```

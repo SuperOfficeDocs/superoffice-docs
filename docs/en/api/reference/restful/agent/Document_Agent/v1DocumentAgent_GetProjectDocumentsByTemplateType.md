@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the project specified.
+The document appointments belong to the project specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 359,
-  "StartTime": "2023-11-15T11:24:47.9376639+01:00",
-  "EndTime": "2022-05-14T11:24:47.9376639+02:00",
-  "Count": 727,
-  "DocumentTemplateId": 495
+  "ProjectId": 643,
+  "StartTime": "2001-04-26T03:40:46.5936381+02:00",
+  "EndTime": "2015-08-05T03:40:46.5936381+02:00",
+  "Count": 651,
+  "DocumentTemplateId": 270
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 691,
-    "Attention": "unde",
-    "Header": "cupiditate",
-    "Name": "Thiel LLC",
-    "OurRef": "rerum",
-    "YourRef": "eos",
-    "Description": "Automated zero administration standardization",
-    "DocumentTemplate": "velit",
+    "DocumentId": 389,
+    "Attention": "quia",
+    "Header": "fugit",
+    "Name": "Beahan-Thompson",
+    "OurRef": "sint",
+    "YourRef": "assumenda",
+    "Description": "Re-engineered upward-trending Graphic Interface",
+    "DocumentTemplate": "cumque",
     "IsPublished": false,
-    "PersonId": 858,
-    "PersonFullName": "Miss Norwood Michale Hyatt IV",
-    "AssociateFullName": "Arvid Upton",
-    "ContactId": 747,
-    "ContactName": "Daniel, Nader and Orn",
-    "ProjectId": 561,
-    "ProjectName": "Ritchie, Schmeler and Cremin",
-    "AssociateId": 930,
-    "Snum": 412,
-    "SaleId": 417,
-    "SaleName": "Mayer-Weimann",
+    "PersonId": 775,
+    "PersonFullName": "Ms. Dane Cassin MD",
+    "AssociateFullName": "Mrs. Madison Marta Toy MD",
+    "ContactId": 617,
+    "ContactName": "Upton-Homenick",
+    "ProjectId": 779,
+    "ProjectName": "Gorczany LLC",
+    "AssociateId": 152,
+    "Snum": 648,
+    "SaleId": 238,
+    "SaleName": "Willms Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldLength": 520
       }
     }
   }

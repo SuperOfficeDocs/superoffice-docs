@@ -15,6 +15,7 @@ Set default values into a new ProjectEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Project agent service CreateDefaultProjectEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 GET /api/v1/Project/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,132 +97,132 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 16 Aug 2001 11:24:53 G8T
+Last-Modified: Sat, 02 Jan 2010 03:40:55 G1T
 
 {
-  "ProjectId": 547,
-  "Name": "Schumm LLC",
-  "ProjectNumber": "1396024",
+  "ProjectId": 836,
+  "Name": "Emmerich LLC",
+  "ProjectNumber": "1098581",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 624,
-      "ContactId": 371,
-      "ProjectId": 393,
-      "ContactName": "Towne-Mosciski",
-      "ContactDepartment": "scale B2B portals",
-      "ProjectName": "Collins-Rippin",
-      "EmailId": 751,
-      "EmailAddress": "karley@grimes.biz",
-      "CountryId": 149,
-      "Firstname": "Dion",
-      "MiddleName": "Mertz, Casper and Batz",
-      "Lastname": "Runolfsson",
-      "PersonId": 968,
-      "Mrmrs": "harum",
-      "ProjectMemberTypeName": "Monahan, Rosenbaum and Parker",
-      "Phone": "(736)584-8615",
-      "PhoneId": 626,
-      "ProjectMemberTypeId": 77,
-      "EmailAddressName": "jewel@denesik.uk",
-      "Comment": "eum",
-      "FullName": "Nels Hodkiewicz",
-      "Registered": "2024-05-26T11:24:53.437431+02:00",
-      "Updated": "2003-02-01T11:24:53.437431+01:00",
+      "ProjectmemberId": 961,
+      "ContactId": 935,
+      "ProjectId": 162,
+      "ContactName": "Schuster, Walsh and Volkman",
+      "ContactDepartment": "",
+      "ProjectName": "Fay-Brakus",
+      "EmailId": 104,
+      "EmailAddress": "elvis.greenfelder@lemkeswaniawski.biz",
+      "CountryId": 512,
+      "Firstname": "Rashad",
+      "MiddleName": "Kilback Group",
+      "Lastname": "Ernser",
+      "PersonId": 117,
+      "Mrmrs": "a",
+      "ProjectMemberTypeName": "Quitzon Inc and Sons",
+      "Phone": "1-807-596-8450 x394",
+      "PhoneId": 567,
+      "ProjectMemberTypeId": 643,
+      "EmailAddressName": "rupert@hauck.name",
+      "Comment": "nobis",
+      "FullName": "Branson Bernier",
+      "Registered": "2007-02-22T03:40:55.9292805+01:00",
+      "Updated": "2010-03-14T03:40:55.9292805+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 901
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "voluptate",
-      "StrippedValue": "dolores",
-      "Description": "Vision-oriented encompassing moratorium",
+      "Value": "ut",
+      "StrippedValue": "dolorem",
+      "Description": "Total responsive flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldType": "System.String",
+          "FieldLength": 364
         }
       }
     },
     {
-      "Value": "voluptate",
-      "StrippedValue": "dolores",
-      "Description": "Vision-oriented encompassing moratorium",
+      "Value": "ut",
+      "StrippedValue": "dolorem",
+      "Description": "Total responsive flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldType": "System.String",
+          "FieldLength": 364
         }
       }
     }
   ],
-  "CreatedDate": "2007-04-28T11:24:53.437431+02:00",
-  "UpdatedDate": "2001-08-16T11:24:53.437431+02:00",
-  "Description": "Persistent optimizing circuit",
-  "Postit": "deserunt",
+  "CreatedDate": "2002-07-13T03:40:55.9292805+02:00",
+  "UpdatedDate": "2010-01-02T03:40:55.9292805+01:00",
+  "Description": "Reactive optimal structure",
+  "Postit": "dolorum",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Optional local leverage",
-  "ActiveStatusMonitorId": 603,
+  "HasImage": true,
+  "ImageDescription": "Optimized mission-critical customer loyalty",
+  "ActiveStatusMonitorId": 223,
   "Links": [
     {
-      "EntityName": "Mohr-Collins",
-      "Id": 757,
-      "Description": "Optional demand-driven Graphical User Interface",
-      "ExtraInfo": "aut",
-      "LinkId": 205,
+      "EntityName": "Hane-Walsh",
+      "Id": 397,
+      "Description": "Balanced 5th generation migration",
+      "ExtraInfo": "ea",
+      "LinkId": 870,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldLength": 244
         }
       }
     }
   ],
-  "ActiveLinks": 983,
+  "ActiveLinks": 147,
   "Completed": false,
-  "NextMilestoneDate": "2013-10-23T11:24:53.437431+02:00",
-  "NmdAppointmentId": 445,
-  "EndDate": "2022-02-24T11:24:53.437431+01:00",
-  "ActiveErpLinks": 780,
+  "NextMilestoneDate": "2013-05-16T03:40:55.9292805+02:00",
+  "NmdAppointmentId": 213,
+  "EndDate": "2003-02-27T03:40:55.9292805+01:00",
+  "ActiveErpLinks": 375,
   "UserDefinedFields": {
-    "SuperOffice:1": "1017119402",
-    "SuperOffice:2": "Americo Hoeger"
+    "SuperOffice:1": "2077025356",
+    "SuperOffice:2": "600941831"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "autem"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2011-06-15T11:24:53.437431+02:00",
-  "PublishTo": "2001-08-14T11:24:53.437431+02:00",
-  "PublishFrom": "2025-02-23T11:24:53.437431+01:00",
+  "PublishEventDate": "2021-06-24T03:40:55.9292805+02:00",
+  "PublishTo": "2023-12-29T03:40:55.9292805+01:00",
+  "PublishFrom": "2023-01-13T03:40:55.9292805+01:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 102
     }
   }
 }

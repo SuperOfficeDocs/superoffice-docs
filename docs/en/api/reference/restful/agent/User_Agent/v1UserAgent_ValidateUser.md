@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/ValidateUser
 Check that entity is ready for saving, return error messages by field.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -71,7 +74,7 @@ OK
 POST /api/v1/Agents/User/ValidateUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nostrum",
-  "2": "necessitatibus"
+  "1": "necessitatibus",
+  "2": "aut"
 }
 ```

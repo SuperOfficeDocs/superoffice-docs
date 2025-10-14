@@ -15,6 +15,7 @@ Deletes the SystemEventEntity
 
 
 Calls the Configuration agent service DeleteSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 

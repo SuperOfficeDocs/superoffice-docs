@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Get all rows from cust_config as an array of CustomerCenterConfig entities
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,20 +86,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 507,
+    "CustConfigId": 515,
     "Type": "Options",
-    "Config": "sequi",
-    "CustLangId": 982,
-    "Registered": "2020-04-17T11:24:47.8439178+02:00",
-    "RegisteredAssociateId": 814,
-    "Updated": "2008-09-28T11:24:47.8439178+02:00",
-    "UpdatedAssociateId": 307,
+    "Config": "nam",
+    "CustLangId": 278,
+    "Registered": "2006-11-25T03:40:46.5468616+01:00",
+    "RegisteredAssociateId": 879,
+    "Updated": "2004-12-29T03:40:46.5468616+01:00",
+    "UpdatedAssociateId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 242
       }
     }
   }

@@ -99,21 +99,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 178,
-    "Name": "McLaughlin, Cronin and Shanahan",
-    "Description": "Universal disintermediate project",
-    "WelcomeMessage": "enim",
+    "ChatTopicId": 69,
+    "Name": "Pollich LLC",
+    "Description": "Exclusive 3rd generation access",
+    "WelcomeMessage": "quo",
     "Language": null,
-    "LastAccept": "2018-09-02T11:24:53.0624548+02:00",
-    "SecondsPrAccept": 792,
-    "AlertRecipient": "molestiae",
+    "LastAccept": "2022-08-27T03:40:55.4130631+02:00",
+    "SecondsPrAccept": 22,
+    "AlertRecipient": "dolorum",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "fugit",
+    "BadgeHeader": "sequi",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "qui",
-    "WarnNewChatMinutes": 50,
-    "WarnManagerNewChatMinutes": 548,
+    "CustomQueueText": "veritatis",
+    "WarnNewChatMinutes": 934,
+    "WarnManagerNewChatMinutes": 303,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -123,19 +123,19 @@ Content-Type: application/json; charset=utf-8
     "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 880,
-    "WarnManagerChatMessageMinutes": 107,
+    "WarnChatMessageMinutes": 872,
+    "WarnManagerChatMessageMinutes": 337,
     "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 195,
-    "OfflineFormQueueLength": 138,
+    "OfflineFormTimeLimit": 265,
+    "OfflineFormQueueLength": 945,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "molestiae",
+    "WidgetRatingText": "unde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

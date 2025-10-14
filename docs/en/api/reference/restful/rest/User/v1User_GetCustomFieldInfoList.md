@@ -69,7 +69,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mraz-Murazik",
-    "DisplayName": "Schulist Inc and Sons",
-    "Description": "Re-contextualized well-modulated alliance",
-    "ShortLabel": "quis",
+    "FieldName": "Huels, Wehner and Heidenreich",
+    "DisplayName": "Corkery Inc and Sons",
+    "Description": "Assimilated radical throughput",
+    "ShortLabel": "et",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsMandatory": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 425,
-    "TemplateVariableName": "Bashirian Group"
+    "Rank": 820,
+    "TemplateVariableName": "Schaefer LLC"
   }
 ]
 ```

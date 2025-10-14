@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Torphy Group",
-    "ToolTip": "Minima autem.",
+    "Id": 832,
+    "Name": "Murazik, Kuhlman and Cremin",
+    "ToolTip": "Corporis voluptas.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "est",
-    "ColorBlock": 106,
-    "IconHint": "sequi",
+    "Rank": 129,
+    "Type": "libero",
+    "ColorBlock": 47,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2019-06-04T11:24:54.1249113+02:00",
+    "LastChanged": "2018-06-18T03:40:57.0871054+02:00",
     "ChildItems": [
       {
-        "Id": 217,
-        "Name": "Lemke LLC",
-        "ToolTip": "Quod dolorum optio occaecati eaque.",
+        "Id": 972,
+        "Name": "Hauck Inc and Sons",
+        "ToolTip": "Eos nobis et unde sed dolore velit eum.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "delectus",
-        "ColorBlock": 647,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2024-02-28T11:24:54.1249113+01:00",
+        "Rank": 614,
+        "Type": "qui",
+        "ColorBlock": 721,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2009-08-07T03:40:57.0871054+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "amet",
+        "ExtraInfo": "aut",
+        "StyleHint": "totam",
         "Hidden": true,
-        "FullName": "Mr. Antonina Sauer PhD",
+        "FullName": "Angeline Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 179
+            "FieldType": "System.Int32",
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Percy Kuphal",
+    "ExtraInfo": "ullam",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Lane Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

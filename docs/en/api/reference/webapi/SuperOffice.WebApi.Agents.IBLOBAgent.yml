@@ -52,9 +52,14 @@ items:
   summary: Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.
   example: []
   syntax:
-    content: 'public interface IBLOBAgent : IDisposable'
-    content.vb: Public Interface IBLOBAgent Inherits IDisposable
+    content: 'public interface IBLOBAgent : IAgentBase, IDisposable'
+    content.vb: Public Interface IBLOBAgent Inherits IAgentBase, IDisposable
   inheritedMembers:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
   - System.IDisposable.Dispose
 - uid: SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBLOBAgent.CreateDefaultBlobEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -283,7 +288,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The project image.
     content.vb: Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageAsync*
   nameWithType.vb: IBLOBAgent.GetProjectImageAsync(Integer, String, RequestOptions)
@@ -319,7 +324,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The person image.
     content.vb: Function GetPersonImageAsync(personId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageAsync*
   nameWithType.vb: IBLOBAgent.GetPersonImageAsync(Integer, String, RequestOptions)
@@ -349,7 +354,7 @@ items:
       description: The project id of the project the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the project (System.Drawing.Image)
+      description: The project image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -385,7 +390,7 @@ items:
       description: The person id of the person the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the person (System.Drawing.Image)
+      description: The person image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -454,10 +459,10 @@ items:
     parameters:
     - id: description
       type: System.String
-      description: Image description. Should be image name (e.g. winter.jpg) for project images
+      description: Image description. Should be image name (e.g. winter.jpg) for project images.
     - id: image
       type: System.Byte[]
-      description: The project image (System.Drawing.Image)
+      description: The project image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -661,16 +666,16 @@ items:
       description: The type of the image.
     - id: image
       type: System.Byte[]
-      description: Image to store
+      description: Image to store.
     - id: description
       type: System.String
-      description: Image description
+      description: Image description.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Int32}
-      description: The blob id
+      description: The blob id.
     content.vb: Function SaveImageStreamAsync(type As BlobLinkType, image As Byte(), description As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.SaveImageStreamAsync*
   nameWithType.vb: IBLOBAgent.SaveImageStreamAsync(BlobLinkType, Byte(), String, RequestOptions)
@@ -706,7 +711,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The product image.
     content.vb: Function GetProductImageAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductImageAsync*
   nameWithType.vb: IBLOBAgent.GetProductImageAsync(Integer, String, RequestOptions)
@@ -736,7 +741,7 @@ items:
       description: The product id of the product the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
+      description: The product image, scaled down to no more than 1000x1000.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -778,7 +783,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The thumbnail as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The product thumbnail.
     content.vb: Function GetProductThumbnailAsync(productId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProductThumbnailAsync*
   nameWithType.vb: IBLOBAgent.GetProductThumbnailAsync(Integer, String, RequestOptions)
@@ -808,7 +813,7 @@ items:
       description: The product id of the product the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
+      description: The product thumbnail, scaled down to no more than 200x200.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -886,7 +891,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The quote line image.
     content.vb: Function GetQuoteLineImageAsync(quoteLineId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetQuoteLineImageAsync*
   nameWithType.vb: IBLOBAgent.GetQuoteLineImageAsync(Integer, String, RequestOptions)
@@ -916,10 +921,10 @@ items:
       description: The person id of the person the image belongs to.
     - id: width
       type: System.Int32
-      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: height
       type: System.Int32
-      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: returnContentType
       type: System.String
       description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
@@ -928,7 +933,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+      description: The person image.
     content.vb: Function GetPersonImageWithSizeAsync(personId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetPersonImageWithSizeAsync*
   nameWithType.vb: IBLOBAgent.GetPersonImageWithSizeAsync(Integer, Integer, Integer, String, RequestOptions)
@@ -958,10 +963,10 @@ items:
       description: The project id of the project the image belongs to.
     - id: width
       type: System.Int32
-      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: height
       type: System.Int32
-      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: returnContentType
       type: System.String
       description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
@@ -970,7 +975,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+      description: The project image.
     content.vb: Function GetProjectImageWithSizeAsync(projectId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetProjectImageWithSizeAsync*
   nameWithType.vb: IBLOBAgent.GetProjectImageWithSizeAsync(Integer, Integer, Integer, String, RequestOptions)
@@ -1000,10 +1005,10 @@ items:
       description: The project id of the project the image belongs to.
     - id: width
       type: System.Int32
-      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: height
       type: System.Int32
-      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: returnContentType
       type: System.String
       description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
@@ -1012,7 +1017,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+      description: The chat image.
     content.vb: Function GetChatImageWithSizeAsync(chatTopicId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetChatImageWithSizeAsync*
   nameWithType.vb: IBLOBAgent.GetChatImageWithSizeAsync(Integer, Integer, Integer, String, RequestOptions)
@@ -1048,7 +1053,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The contact image.
     content.vb: Function GetContactImageAsync(contactId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageAsync*
   nameWithType.vb: IBLOBAgent.GetContactImageAsync(Integer, String, RequestOptions)
@@ -1078,7 +1083,7 @@ items:
       description: The contact id of the contact the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the contact (System.Drawing.Image)
+      description: The contact image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -1183,10 +1188,10 @@ items:
       description: The contact id of the Contact the image belongs to.
     - id: width
       type: System.Int32
-      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: height
       type: System.Int32
-      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image.
     - id: returnContentType
       type: System.String
       description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
@@ -1195,7 +1200,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+      description: The contact image.
     content.vb: Function GetContactImageWithSizeAsync(contactId As Integer, width As Integer, height As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetContactImageWithSizeAsync*
   nameWithType.vb: IBLOBAgent.GetContactImageWithSizeAsync(Integer, Integer, Integer, String, RequestOptions)
@@ -1231,7 +1236,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The binary object as a Stream
+      description: The binary object as a Stream.
     content.vb: Function GetOutputFromBatchAsync(batchTaskId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IBLOBAgent.GetOutputFromBatchAsync*
   nameWithType.vb: IBLOBAgent.GetOutputFromBatchAsync(Integer, String, RequestOptions)
@@ -1308,6 +1313,60 @@ references:
     name: Agents
     isExternal: true
     href: SuperOffice.WebApi.Agents.html
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
 - uid: System.IDisposable.Dispose
   commentId: M:System.IDisposable.Dispose
   parent: System.IDisposable
@@ -1330,6 +1389,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
   - name: (
   - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

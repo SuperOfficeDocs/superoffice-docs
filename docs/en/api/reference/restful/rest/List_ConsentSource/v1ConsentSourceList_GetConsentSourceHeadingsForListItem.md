@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Waelchi, Mraz and Harber",
-    "ToolTip": "Enim beatae.",
-    "Deleted": true,
-    "Rank": 410,
-    "Type": "non",
-    "ColorBlock": 245,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2009-09-10T11:24:53.890546+02:00",
+    "Id": 407,
+    "Name": "Huel Inc and Sons",
+    "ToolTip": "Sequi quo neque nesciunt corporis.",
+    "Deleted": false,
+    "Rank": 499,
+    "Type": "molestiae",
+    "ColorBlock": 698,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2015-04-05T03:40:56.7588542+02:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Raynor-Friesen",
-        "ToolTip": "Magni suscipit delectus exercitationem ex dolores laborum.",
+        "Id": 945,
+        "Name": "Erdman-Goldner",
+        "ToolTip": "Enim nam dolorem sed sint accusamus.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "est",
-        "ColorBlock": 85,
-        "IconHint": "impedit",
+        "Rank": 978,
+        "Type": "qui",
+        "ColorBlock": 947,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2016-12-12T11:24:53.890546+01:00",
+        "LastChanged": "2005-04-07T03:40:56.7588542+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "eaque",
+        "ExtraInfo": "architecto",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Chance Pfeffer",
+        "FullName": "Maurine Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "dolores",
+    "ExtraInfo": "numquam",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Arlene Balistreri",
+    "FullName": "Mrs. Ned Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   }

@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.ForEach(System.Action{SuperOffice.CRM.Rows.TargetRevisionHistoryRow})
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.TargetRevisionHistoryRows.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetAssignmentInfoIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.Remove(SuperOffice.CRM.Rows.TargetRevisionHistoryRow)
@@ -324,6 +325,46 @@ items:
   nameWithType.vb: TargetRevisionHistoryRows.GetFromIdxTargetAssignmentInfoIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetAssignmentInfoIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetFromIdxTargetAssignmentInfoIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxTargetGroupIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.TargetRevisionHistoryRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxTargetGroupIdAsync(int, CancellationToken)
+  nameWithType: TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the TargetRevisionHistoryRow object, by querying the database table via the index 'IDXTarget_revision_historyTarget_group_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the TargetRevisionHistory table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.TargetRevisionHistoryRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<TargetRevisionHistoryRows> GetFromIdxTargetGroupIdAsync(int targetGroupId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: targetGroupId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.TargetRevisionHistoryRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxTargetGroupIdAsync(targetGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TargetRevisionHistoryRows)
+  overload: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync*
+  nameWithType.vb: TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxTargetGroupIdAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.TargetRevisionHistoryTableInfo,System.Threading.CancellationToken)
@@ -2937,6 +2978,13 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.html#SuperOffice_CRM_Rows_TargetRevisionHistoryRows_GetFromIdxTargetGroupIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxTargetGroupIdAsync
+  nameWithType: TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.GetFromIdxTargetGroupIdAsync
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

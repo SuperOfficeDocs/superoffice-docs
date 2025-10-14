@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colAssociateId
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategory
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCode
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colContactId
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCountry
@@ -418,6 +419,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colCategory As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  id: _colCategoryGroup
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCategoryGroup
+  nameWithType: ContactExtenderBase._colCategoryGroup
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCategoryGroup
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCategoryGroup As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   id: _colBusiness

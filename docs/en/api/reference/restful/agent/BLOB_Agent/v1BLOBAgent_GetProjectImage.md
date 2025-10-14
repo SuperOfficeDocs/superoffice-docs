@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetProjectImage
 Returns the project image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 648
+  "ProjectId": 802
 }
 ```
 

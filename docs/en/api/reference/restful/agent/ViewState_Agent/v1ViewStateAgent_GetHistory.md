@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/GetHistory
 Gets a History object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=274
+POST /api/v1/Agents/ViewState/GetHistory?historyId=892
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -84,19 +86,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 421,
-  "Id": 658,
-  "HistoryName": "Considine Inc and Sons",
-  "HistoryId": 995,
-  "AssociateId": 911,
-  "Name": "Hegmann-Stoltenberg",
-  "ItemInfo": "aliquam",
+  "Rank": 294,
+  "Id": 427,
+  "HistoryName": "Beier-Lemke",
+  "HistoryId": 566,
+  "AssociateId": 486,
+  "Name": "Von, Macejkovic and Swift",
+  "ItemInfo": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 658
     }
   }
 }

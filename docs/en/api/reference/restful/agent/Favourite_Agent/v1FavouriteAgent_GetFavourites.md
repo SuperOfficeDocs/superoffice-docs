@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/GetFavourites
 Get all favourites for a table and associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -79,12 +81,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harris Inc and Sons",
-  "AssociateId": 435
+  "TableName": "Maggio, Cormier and Kirlin",
+  "AssociateId": 102
 }
 ```
 
@@ -96,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Macejkovic Inc and Sons",
-    "RecordId": 81,
-    "AssociateId": 922,
-    "ExtraInfo": "voluptatem",
-    "Rank": 373,
+    "TableName": "Wilkinson, Bogan and Moen",
+    "RecordId": 715,
+    "AssociateId": 299,
+    "ExtraInfo": "quo",
+    "Rank": 406,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 391
       }
     }
   }

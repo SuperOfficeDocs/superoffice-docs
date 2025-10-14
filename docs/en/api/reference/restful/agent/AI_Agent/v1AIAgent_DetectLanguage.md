@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/DetectLanguage
 Given a (reasonably short) text, detect the language it is written in
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -69,11 +74,11 @@ OK
 POST /api/v1/Agents/AI/DetectLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "sit"
+  "Text": "est"
 }
 ```
 
@@ -83,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"soluta"
+"cupiditate"
 ```

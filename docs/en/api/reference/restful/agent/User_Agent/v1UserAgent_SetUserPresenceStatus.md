@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SetUserPresenceStatus
 Set user presence status
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -80,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 85,
+  "AssociateId": 855,
   "UserPresenceStatus": null
 }
 ```
@@ -93,6 +96,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "voluptatem"
+  "Message": "magnam"
 }
 ```

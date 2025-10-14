@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveList2
 Get a page of data for an archive using a restriction string.
 
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -169,17 +170,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lemke Inc and Sons",
-  "ProviderName": "Hahn, Cartwright and Beier",
-  "SortOrder": "perspiciatis",
-  "Restriction": "itaque",
-  "Entities": "sit",
-  "Page": 889,
-  "PageSize": 559
+  "GuiName": "Klocko, Yundt and Ullrich",
+  "ProviderName": "Leannon, Gutkowski and Satterfield",
+  "SortOrder": "voluptatem",
+  "Restriction": "ipsum",
+  "Entities": "ea",
+  "Page": 422,
+  "PageSize": 57
 }
 ```
 
@@ -191,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Olson, Jenkins and Kihn",
-    "PrimaryKey": 820,
+    "EntityName": "Bradtke Inc and Sons",
+    "PrimaryKey": 564,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "blanditiis",
-        "TooltipHint": "voluptatum",
-        "LinkHint": "molestiae"
+        "DisplayValue": "qui",
+        "TooltipHint": "distinctio",
+        "LinkHint": "exercitationem"
       }
     },
-    "LinkHint": "labore",
-    "StyleHint": "voluptas",
+    "LinkHint": "soluta",
+    "StyleHint": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldType": "System.String",
+        "FieldLength": 216
       }
     }
   }

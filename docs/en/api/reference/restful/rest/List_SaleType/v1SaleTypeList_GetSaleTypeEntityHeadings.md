@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Spencer, Rowe and Medhurst",
-    "Tooltip": "omnis",
+    "HeadingId": 766,
+    "Name": "Legros, Lang and Berge",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 980,
-    "UdListDefinitionId": 62,
+    "Rank": 77,
+    "UdListDefinitionId": 635,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 415
       }
     }
   }

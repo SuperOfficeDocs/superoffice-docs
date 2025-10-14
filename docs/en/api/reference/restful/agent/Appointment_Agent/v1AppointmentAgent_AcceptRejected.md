@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/AcceptRejected
 Accept that an invited participant has rejected your invitation or assignment.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -138,7 +140,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 81,
+  "AppointmentId": 113,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -154,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-01-31T11:24:47.4533128+01:00",
-  "AppointmentId": 314,
-  "Description": "Implemented needs-based architecture",
-  "Title": "quibusdam",
-  "Agenda": "nulla",
-  "InternalNotes": "aut",
-  "StartDate": "2016-03-04T11:24:47.4533128+01:00",
-  "EndDate": "2008-10-12T11:24:47.4533128+02:00",
+  "CreatedDate": "2004-03-28T03:40:45.935643+02:00",
+  "AppointmentId": 362,
+  "Description": "Multi-lateral holistic solution",
+  "Title": "nobis",
+  "Agenda": "illum",
+  "InternalNotes": "et",
+  "StartDate": "2004-01-12T03:40:45.935643+01:00",
+  "EndDate": "2007-06-13T03:40:45.935643+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 74,
+  "MotherId": 184,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-06-07T11:24:47.4533128+02:00",
+  "UpdatedDate": "2010-04-03T03:40:45.935643+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 637,
+  "ActiveLinks": 447,
   "Links": [
     {
-      "EntityName": "Buckridge, Hintz and Legros",
-      "Id": 870,
-      "Description": "Fundamental value-added productivity",
-      "ExtraInfo": "sit",
-      "LinkId": 831,
+      "EntityName": "Hand, Welch and Hayes",
+      "Id": 980,
+      "Description": "Extended national open architecture",
+      "ExtraInfo": "cumque",
+      "LinkId": 224,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 397
         }
       }
     }
   ],
-  "AlarmLeadTime": "rem",
+  "AlarmLeadTime": "asperiores",
   "HasAlarm": false,
-  "ColorIndex": 932,
+  "ColorIndex": 352,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "placeat",
-  "LeadTime": "doloremque",
-  "Location": "exercitationem",
-  "RejectCounter": 829,
+  "IsAlldayEvent": true,
+  "LagTime": "velit",
+  "LeadTime": "vel",
+  "Location": "id",
+  "RejectCounter": 14,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 237,
-      "PersonId": 861,
-      "ContactId": 729,
-      "EmailId": 996,
+      "AssociateId": 389,
+      "PersonId": 29,
+      "ContactId": 990,
+      "EmailId": 70,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jimmie_hand@bernhardfunk.uk",
-      "Description": "Assimilated dynamic algorithm"
+      "EmailAddress": "eulah@treutel.com",
+      "Description": "Universal 24/7 algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-10-17T11:24:47.4533128+02:00",
+  "ActiveDate": "2003-04-02T03:40:45.935643+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 32,
+  "PreferredTZLocation": 158,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 256,
+  "SuggestedAppointmentId": 557,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "in",
   "UserDefinedFields": {
-    "SuperOffice:1": "830475726",
-    "SuperOffice:2": "Mr. Clement Katlyn Runte Sr."
+    "SuperOffice:1": "407581776",
+    "SuperOffice:2": "Skylar Heller"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "et"
+    "CustomFields1": "harum",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2017-02-24T11:24:47.4533128+01:00",
-  "PublishTo": "2010-08-29T11:24:47.4533128+02:00",
-  "PublishFrom": "2020-02-08T11:24:47.4533128+01:00",
+  "PublishEventDate": "2022-01-15T03:40:45.935643+01:00",
+  "PublishTo": "2006-09-07T03:40:45.935643+02:00",
+  "PublishFrom": "2004-07-30T03:40:45.935643+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 798,
+      "VisibleId": 531,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldLength": 153
         }
       }
     },
     {
-      "VisibleId": 798,
+      "VisibleId": 531,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 479
+          "FieldLength": 153
         }
       }
     }
@@ -277,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

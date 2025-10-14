@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Returns the listmappings for the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -78,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 994
+  "ErpConnectionId": 969
 }
 ```
 
@@ -96,31 +99,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Yundt-Bednar",
+      "ErpListName": "Will, Dicki and Kulas",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Batz Group",
-      "ErpFieldId": 780,
+      "ErpActorTypeName": "Bergstrom-Stehr",
+      "ErpFieldId": 211,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 60
         }
       }
     }
   ],
-  "ErpConnectionId": 380,
-  "ErpConnectionName": "Schowalter, Lueilwitz and Beer",
+  "ErpConnectionId": 934,
+  "ErpConnectionName": "Quigley Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 117
     }
   }
 }

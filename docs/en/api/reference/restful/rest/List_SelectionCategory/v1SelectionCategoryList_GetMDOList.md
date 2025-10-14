@@ -27,8 +27,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=consequatur
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=aperiam
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Hyatt Group",
-    "ToolTip": "Quia et magnam corporis libero.",
-    "Deleted": true,
-    "Rank": 268,
-    "Type": "soluta",
+    "Id": 161,
+    "Name": "Stark Group",
+    "ToolTip": "Rerum eum.",
+    "Deleted": false,
+    "Rank": 811,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Schneider-Sipes",
-        "ToolTip": "Excepturi asperiores recusandae accusantium.",
+        "Id": 354,
+        "Name": "Gibson, Berge and Cartwright",
+        "ToolTip": "Alias dolores quia at.",
         "Deleted": false,
-        "Rank": 420,
-        "Type": "ipsum",
+        "Rank": 888,
+        "Type": "itaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 751,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "fugit",
-        "FullName": "Dashawn Hettinger",
+        "IconHint": "labore",
+        "ColorBlock": 628,
+        "ExtraInfo": "rerum",
+        "StyleHint": "laborum",
+        "FullName": "Brice Schamberger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldLength": 497
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 382,
-    "ExtraInfo": "animi",
-    "StyleHint": "quia",
-    "FullName": "Ms. Brooklyn Waelchi",
+    "IconHint": "esse",
+    "ColorBlock": 926,
+    "ExtraInfo": "sequi",
+    "StyleHint": "aut",
+    "FullName": "Dale Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 29
       }
     }
   }

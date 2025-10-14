@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/ExecuteUserCommand
 Executes the custom command for User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -30,7 +33,7 @@ Executes the custom command for User
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Fritsch-Purdy
+POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Pfannerstill, Legros and Little
 POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
 POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 ```
@@ -109,18 +112,18 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 168,
-  "Name": "Feeney, Pfannerstill and Schuppe",
-  "Rank": 732,
-  "Tooltip": "molestiae",
+  "AssociateId": 516,
+  "Name": "Marks Inc and Sons",
+  "Rank": 233,
+  "Tooltip": "neque",
   "LicenseOwners": [
     {
-      "Name": "Gorczany, Schmeler and Bosco",
-      "Description": "Virtual stable moratorium",
+      "Name": "Kiehn, Balistreri and Kautzer",
+      "Description": "Exclusive multimedia circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Gorczany, Schmeler and Bosco",
-      "Description": "Virtual stable moratorium",
+      "Name": "Kiehn, Balistreri and Kautzer",
+      "Description": "Exclusive multimedia circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -147,87 +150,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "minus",
-      "Tooltip": "qui",
-      "Id": 756,
-      "Rank": 216,
+      "Value": "cupiditate",
+      "Tooltip": "dolor",
+      "Id": 112,
+      "Rank": 391,
       "Deleted": false
     },
     {
-      "Value": "minus",
-      "Tooltip": "qui",
-      "Id": 756,
-      "Rank": 216,
+      "Value": "cupiditate",
+      "Tooltip": "dolor",
+      "Id": 112,
+      "Rank": 391,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2018-01-16T11:24:48.9219987+01:00",
-  "Lastlogout": "2005-03-24T11:24:48.9219987+01:00",
-  "EjUserId": 78,
-  "RequestSignature": "dolores",
+  "Deleted": false,
+  "Lastlogin": "2017-07-10T03:40:48.2036224+02:00",
+  "Lastlogout": "2010-02-24T03:40:48.2036224+01:00",
+  "EjUserId": 971,
+  "RequestSignature": "tempora",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "quasi"
+      "Value": "nisi",
+      "DisplayValue": "sunt"
     },
     {
       "Type": null,
-      "Value": "fugit",
-      "DisplayValue": "quasi"
+      "Value": "nisi",
+      "DisplayValue": "sunt"
     }
   ],
-  "UserName": "Huel Group",
+  "UserName": "Tromp-Abbott",
   "TicketCategories": [
     {
-      "Id": 44,
-      "Name": "Hartmann-Gulgowski",
-      "ToolTip": "Natus amet ab quisquam quo autem aspernatur.",
-      "Deleted": false,
-      "Rank": 701,
-      "Type": "sequi",
+      "Id": 88,
+      "Name": "Stracke Group",
+      "ToolTip": "Ea libero dolorem.",
+      "Deleted": true,
+      "Rank": 102,
+      "Type": "cumque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cum",
-      "ColorBlock": 342,
-      "ExtraInfo": "minus",
-      "StyleHint": "nihil",
-      "FullName": "Mr. Dean Elisha Brown Sr."
+      "IconHint": "velit",
+      "ColorBlock": 868,
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "ut",
+      "FullName": "Heloise Muller"
     }
   ],
-  "NickName": "Schaden, Larkin and Zieme",
+  "NickName": "Lockman LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "nemo"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptas"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hodkiewicz Group",
-      "DisplayName": "Murray LLC",
-      "Description": "Object-based impactful neural-net",
-      "ToolTip": "Nostrum atque suscipit.",
+      "Name": "Leannon-Morissette",
+      "DisplayName": "Beier-Leffler",
+      "Description": "Enterprise-wide object-oriented analyzer",
+      "ToolTip": "Consequatur id accusamus.",
       "Actions": "Implicit",
-      "ActionData": "magnam"
+      "ActionData": "qui"
     },
     {
-      "Name": "Hodkiewicz Group",
-      "DisplayName": "Murray LLC",
-      "Description": "Object-based impactful neural-net",
-      "ToolTip": "Nostrum atque suscipit.",
+      "Name": "Leannon-Morissette",
+      "DisplayName": "Beier-Leffler",
+      "Description": "Enterprise-wide object-oriented analyzer",
+      "ToolTip": "Consequatur id accusamus.",
       "Actions": "Implicit",
-      "ActionData": "magnam"
+      "ActionData": "qui"
     }
   ]
 }
@@ -241,14 +244,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "omnis",
+  "Message": "aut",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 428
     }
   }
 }

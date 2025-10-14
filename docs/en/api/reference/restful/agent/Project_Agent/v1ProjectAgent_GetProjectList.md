@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectList
 Gets an array of Project objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,30 +101,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 340,
-    "Name": "Lebsack Inc and Sons",
-    "Description": "Up-sized clear-thinking protocol",
+    "ProjectId": 941,
+    "Name": "Douglas LLC",
+    "Description": "Grass-roots non-volatile installation",
     "URL": "http://www.example.com/",
-    "Type": "consectetur",
-    "AssociateId": 987,
-    "AssociateFullName": "Mrs. Rubie Unique Jones II",
-    "TypeId": 4,
-    "Updated": "2025-08-15T11:24:48.4845166+02:00",
-    "StatusId": 961,
-    "Status": "aperiam",
-    "TextId": 763,
-    "PublishTo": "2014-06-07T11:24:48.4845166+02:00",
-    "PublishFrom": "2022-04-29T11:24:48.4845166+02:00",
-    "IsPublished": false,
+    "Type": "modi",
+    "AssociateId": 468,
+    "AssociateFullName": "Keeley Strosin",
+    "TypeId": 578,
+    "Updated": "2018-11-30T03:40:47.4843558+01:00",
+    "StatusId": 209,
+    "Status": "beatae",
+    "TextId": 656,
+    "PublishTo": "2001-01-05T03:40:47.4843558+01:00",
+    "PublishFrom": "2016-11-24T03:40:47.4843558+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "992173",
-    "ActiveErpLinks": 599,
+    "ProjectNumber": "900126",
+    "ActiveErpLinks": 676,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldLength": 631
       }
     }
   }

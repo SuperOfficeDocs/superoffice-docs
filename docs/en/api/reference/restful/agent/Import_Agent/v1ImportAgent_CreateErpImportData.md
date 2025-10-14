@@ -14,6 +14,8 @@ POST /api/v1/Agents/Import/CreateErpImportData
 Populates the ImportLines and columnDefs basedfrom erp system
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,38 +80,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Bogan Inc and Sons",
-      "Operator": "magni",
+      "Name": "Sawayn LLC",
+      "Operator": "repellat",
       "Values": [
-        "esse",
-        "ut"
+        "asperiores",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "laborum",
-        "maxime"
+        "provident",
+        "ipsum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 535,
+      "InterParenthesis": 910,
       "InterOperator": "And",
-      "UniqueHash": 37
+      "UniqueHash": 983
     }
   ],
   "Columns": [
-    "id",
-    "sit"
+    "qui",
+    "ducimus"
   ],
-  "ConnectionId": 332,
+  "ConnectionId": 501,
   "ErpActorType": "Customer"
 }
 ```
@@ -124,47 +126,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "deleniti",
-        "quis"
+        "non",
+        "suscipit"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "et",
+      "ExternalKey": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 706
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "O'Hara Inc and Sons",
-      "DisplayName": "Lakin Inc and Sons",
-      "Locked": false,
+      "Name": "Koelpin Inc and Sons",
+      "DisplayName": "Smitham, Cartwright and Torphy",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     },
     {
-      "Name": "O'Hara Inc and Sons",
-      "DisplayName": "Lakin Inc and Sons",
-      "Locked": false,
+      "Name": "Koelpin Inc and Sons",
+      "DisplayName": "Smitham, Cartwright and Torphy",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     }
@@ -174,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 792
     }
   }
 }

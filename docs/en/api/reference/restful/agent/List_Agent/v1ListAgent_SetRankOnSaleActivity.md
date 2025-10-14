@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetRankOnSaleActivity
 Set rank order on sale activity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 425,
+  "SaleTypeStageLinkId": 462,
   "ItemsIds": [
-    480,
-    699
+    847,
+    156
   ]
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTaskMenu
 Updates the existing TaskMenu or creates a new TaskMenu if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,19 +96,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 131,
-  "Name": "Jewess, Kihn and Oberbrunner",
-  "Tooltip": "numquam",
-  "TableName": "Jewess-Marquardt",
-  "Area": "quia",
+  "TaskMenuId": 359,
+  "Name": "Jast Inc and Sons",
+  "Tooltip": "quibusdam",
+  "TableName": "Mosciski, Harvey and Kihn",
+  "Area": "optio",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 649,
+  "CrmScriptId": 285,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 615,
+  "Rank": 671,
   "Encoding": "ANSI",
-  "ProgId": "eveniet",
+  "ProgId": "exercitationem",
   "Deleted": true
 }
 ```
@@ -118,26 +120,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 259,
-  "Name": "Hand Inc and Sons",
-  "Tooltip": "dolores",
-  "TableName": "Lubowitz, Rau and Tillman",
-  "Area": "voluptates",
+  "TaskMenuId": 891,
+  "Name": "Spencer LLC",
+  "Tooltip": "ad",
+  "TableName": "Runte, Paucek and Mertz",
+  "Area": "blanditiis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 521,
+  "CrmScriptId": 599,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 434,
+  "Rank": 780,
   "Encoding": "ANSI",
-  "ProgId": "et",
-  "Deleted": false,
+  "ProgId": "numquam",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 89
     }
   }
 }

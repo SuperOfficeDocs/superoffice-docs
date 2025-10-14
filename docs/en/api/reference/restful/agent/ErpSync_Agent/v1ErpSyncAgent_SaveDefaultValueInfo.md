@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Save information about a default value for an ERP field
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -85,7 +88,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 572,
-  "DefaultValue": "facere",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "sit",
+  "ErpFieldId": 89,
+  "DefaultValue": "aut",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "odit",
   "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "et",
+  "Mandatory": true,
+  "ErpFieldKey": "ipsum",
   "FieldType": "Checkbox",
-  "ListName": "Murphy, Pollich and Wyman",
+  "ListName": "Reichert Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 352
     }
   }
 }

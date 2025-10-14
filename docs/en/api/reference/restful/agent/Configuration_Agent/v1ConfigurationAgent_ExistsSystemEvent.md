@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/ExistsSystemEvent
 Is there a system event with the given key?
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Configuration/ExistsSystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "error"
+  "Key": "perferendis"
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDepartmentList
 Gets an array of Department objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDepartmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Value": "harum",
-    "Tooltip": "non",
+    "Id": 74,
+    "Value": "ut",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 660
       }
     }
   },
   {
-    "Id": 246,
-    "Value": "harum",
-    "Tooltip": "non",
+    "Id": 74,
+    "Value": "ut",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 660
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteAppWebPanels
 Permanentely delete all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

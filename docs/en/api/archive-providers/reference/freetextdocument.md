@@ -118,7 +118,9 @@ as well as before any ORDER BY, are applied.
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -132,12 +134,12 @@ as well as before any ORDER BY, are applied.
 |person/personMobilePhone/formattedNumber|string|Mobile - Phone: Displays phone number|  |
 |person/personMobilePhone/description|string|Mobile - Description: Phone number description| x |
 |person/personPrivate/formattedNumber|string|Private - Phone: Displays phone number|  |
-|person/personPrivate/description|string|Private - Description: Phone number description| x |
-|person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personPrivate/description|string|Private - Description: Phone number description| x |
+|person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
 |person/personPager/description|string|Other - Description: Phone number description| x |
 |person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
@@ -236,12 +238,12 @@ as well as before any ORDER BY, are applied.
 |person/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -303,6 +305,7 @@ as well as before any ORDER BY, are applied.
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -339,13 +342,13 @@ as well as before any ORDER BY, are applied.
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
-|contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
+|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
+|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -443,13 +446,13 @@ as well as before any ORDER BY, are applied.
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
-|contact/NumberOfActivities|int|Number of activities|  |
-|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfActivities|int|Number of activities|  |
+|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
@@ -547,13 +550,13 @@ as well as before any ORDER BY, are applied.
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
-|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
-|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
+|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
+|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
@@ -651,13 +654,13 @@ as well as before any ORDER BY, are applied.
 |sale/heading|stringorPK|Sale: The name of the sale| x |
 |sale/amount|decimal|Amount: The gross sales total| x |
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
-|sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
-|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|sale/probPercent|int|Probability as %: Probability as %| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
+|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
@@ -680,6 +683,7 @@ as well as before any ORDER BY, are applied.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -734,7 +738,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextDocument?$select=associateId,person/personInfo/textId,person/personAssociate/contactId,person/personAssociate/otherGroups,project/hasInfoText
+GET /api/v1/archive/FreetextDocument?$select=contact/restrictionAddress/wgs84longitude,contact/contactAssociate/usergroup,associate/contactId,sale/updatedDate,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

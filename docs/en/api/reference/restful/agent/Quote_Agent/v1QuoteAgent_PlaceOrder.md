@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/PlaceOrder
 Place an order in the ERP system.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 863,
-  "MarkSaleAsSold": false,
-  "PoNumber": "1433511",
-  "OrderComment": "vitae",
-  "Culture": "voluptas"
+  "QuoteAlternativeId": 204,
+  "MarkSaleAsSold": true,
+  "PoNumber": "825238",
+  "OrderComment": "vero",
+  "Culture": "dignissimos"
 }
 ```
 
@@ -103,10 +105,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "sed",
-  "ErrorCode": "in",
+  "IsOk": true,
+  "UserExplanation": "voluptatem",
+  "TechExplanation": "nemo",
+  "ErrorCode": "et",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -114,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

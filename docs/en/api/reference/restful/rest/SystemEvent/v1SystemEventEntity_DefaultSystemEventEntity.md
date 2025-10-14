@@ -15,6 +15,7 @@ Set default values into a new SystemEventEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Configuration agent service CreateDefaultSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 846,
+  "SystemEventId": 506,
   "Scope": "Database",
-  "Eta": "2011-10-29T11:24:53.5780588+02:00",
-  "Eventkey": "earum",
-  "Eventmess": "omnis",
-  "ExtraInfo": 455,
-  "Owner": 208,
-  "UpdatedCount": 995,
-  "Registered": "2018-08-06T11:24:53.5780588+02:00",
+  "Eta": "2015-12-24T03:40:56.2422072+01:00",
+  "Eventkey": "itaque",
+  "Eventmess": "quia",
+  "ExtraInfo": 34,
+  "Owner": 164,
+  "UpdatedCount": 631,
+  "Registered": "2025-10-02T03:40:56.2422072+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

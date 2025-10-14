@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Creates a new selection based on selection members from an existing selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -121,10 +123,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 592,
-  "Name": "Armstrong LLC",
+  "SelectionId": 654,
+  "Name": "Kilback Inc and Sons",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -135,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound incremental throughput",
-  "Postit": "repellat",
+  "Description": "Ergonomic systematic groupware",
+  "Postit": "minima",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 243,
-  "IncludePerson": 566,
+  "GroupIdx": 309,
+  "IncludePerson": 215,
   "MemberCount": 99.99,
-  "Name": "Little Group",
-  "PostitTextId": 547,
-  "CreatedDate": "2020-08-12T11:24:48.6407604+02:00",
-  "SelectionId": 876,
-  "SoundEx": "quis",
-  "Source": 380,
-  "TextId": 685,
-  "UpdatedDate": "2000-06-20T11:24:48.6407604+02:00",
-  "UpdatedCount": 152,
-  "Visibility": 624,
+  "Name": "Stanton, Sanford and Walter",
+  "PostitTextId": 650,
+  "CreatedDate": "2009-01-15T03:40:47.7504701+01:00",
+  "SelectionId": 908,
+  "SoundEx": "id",
+  "Source": 8,
+  "TextId": 17,
+  "UpdatedDate": "2011-05-08T03:40:47.7504701+02:00",
+  "UpdatedCount": 724,
+  "Visibility": 459,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 989,
-  "TargetTableName": "West Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 296,
+  "TargetTableName": "Rempel-Bins",
   "Completed": false,
-  "LeftSelectionId": 300,
-  "RightSelectionId": 544,
+  "LeftSelectionId": 461,
+  "RightSelectionId": 44,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kreiger, Lubowitz and Nitzsche",
-  "ShadowProviderName": "Ortiz LLC",
-  "ChartKey": "sed",
-  "LastLoaded": "2019-09-02T11:24:48.6407604+02:00",
-  "LastLoadedBy": 182,
+  "MainProviderName": "Connelly Inc and Sons",
+  "ShadowProviderName": "Tromp Inc and Sons",
+  "ChartKey": "repudiandae",
+  "LastLoaded": "2000-05-03T03:40:47.7504701+02:00",
+  "LastLoadedBy": 445,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-10-04T11:24:48.6407604+02:00",
-  "LastMembershipChangeBy": 426,
+  "LastMembershipChange": "2001-11-01T03:40:47.7504701+01:00",
+  "LastMembershipChangeBy": 962,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "corrupti",
-  "MailingsProviderName": "Zulauf, Walter and Schumm",
-  "DashboardTileDefinitionId": 458,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "itaque",
+  "MailingsProviderName": "Zboncak-Upton",
+  "DashboardTileDefinitionId": 182,
   "VisibleFor": [
     {
-      "VisibleId": 388,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 96
+          "FieldLength": 644
         }
       }
     },
     {
-      "VisibleId": 388,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 96
+          "FieldLength": 644
         }
       }
     }
@@ -207,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

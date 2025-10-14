@@ -15,6 +15,7 @@ Get activity information for one or more days according to the given date interv
 
 
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,13 +80,13 @@ OK
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2024-02-22T11:24:47.3283137+01:00",
-  "EndDate": "2001-11-15T11:24:47.3283137+01:00",
-  "AssociateId": 835
+  "StartDate": "2012-03-06T03:40:45.654368+01:00",
+  "EndDate": "2005-06-14T03:40:45.654368+02:00",
+  "AssociateId": 541
 }
 ```
 
@@ -97,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2002-05-20T11:24:47.3283137+02:00",
+    "Date": "2007-06-15T03:40:45.654368+02:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 668
       }
     }
   },
   {
-    "Date": "2002-05-20T11:24:47.3283137+02:00",
+    "Date": "2007-06-15T03:40:45.654368+02:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 668
       }
     }
   }

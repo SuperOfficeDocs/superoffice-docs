@@ -15,6 +15,7 @@ Calculate the default desired columns, i.
 
 
 e., the result columns for a given search. The search is defined by a storage type, provider name and storage key, which are used to fetch the corresponding restrictions from the database (in the same way as Find does). If you want to specify the restriction directly, use the GetDefaultDesiredColumnsFromRestrictions method instead. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,13 +89,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "soluta",
-  "ProviderName": "Grimes, Witting and Harris",
-  "StorageKey": "assumenda"
+  "StorageType": "quo",
+  "ProviderName": "Schiller-Prosacco",
+  "StorageKey": "veritatis"
 }
 ```
 
@@ -106,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Pollich-Legros",
-    "DisplayTooltip": "animi",
-    "DisplayType": "exercitationem",
+    "DisplayName": "Krajcik, Schoen and Wolf",
+    "DisplayTooltip": "hic",
+    "DisplayType": "omnis",
     "CanOrderBy": false,
-    "Name": "Schowalter-Rosenbaum",
-    "CanRestrictBy": true,
-    "RestrictionType": "et",
-    "RestrictionListName": "Hahn-McGlynn",
-    "IsVisible": true,
-    "ExtraInfo": "voluptas",
-    "Width": "eligendi",
-    "IconHint": "doloribus",
-    "HeadingIconHint": "corporis"
+    "Name": "Mohr, Baumbach and Homenick",
+    "CanRestrictBy": false,
+    "RestrictionType": "illum",
+    "RestrictionListName": "Braun, Tillman and Huels",
+    "IsVisible": false,
+    "ExtraInfo": "non",
+    "Width": "sed",
+    "IconHint": "vel",
+    "HeadingIconHint": "atque"
   }
 ]
 ```

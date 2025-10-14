@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSaleTypeList
 Gets an array of SaleType objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Value": "ab",
-    "Tooltip": "consectetur",
+    "Id": 947,
+    "Value": "et",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 514
       }
     }
   },
   {
-    "Id": 920,
-    "Value": "ab",
-    "Tooltip": "consectetur",
+    "Id": 947,
+    "Value": "et",
+    "Tooltip": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 514
       }
     }
   }

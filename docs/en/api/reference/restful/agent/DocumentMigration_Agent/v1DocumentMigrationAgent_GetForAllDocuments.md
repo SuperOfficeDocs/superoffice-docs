@@ -15,6 +15,7 @@ Gets a migration summary for all documents stored in CRM.
 
 
 Warning: Expensive!
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
@@ -85,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 191,
+  "DocumentPluginId": 542,
   "IncludeEmails": false
 }
 ```
@@ -97,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 810,
-  "NumDocumentsAlreadyMigrated": 432,
+  "NumDocumentsOmitted": 436,
+  "NumDocumentsAlreadyMigrated": 806,
   "Documents": [
     {
-      "DocumentId": 840,
-      "ContactId": 140,
-      "PersonId": 983,
-      "SaleId": 636,
-      "ProjectId": 442,
-      "DocTmplId": 896,
-      "AssociateId": 408,
-      "UserGroupId": 679,
-      "VisibleForId": 765
+      "DocumentId": 456,
+      "ContactId": 459,
+      "PersonId": 524,
+      "SaleId": 921,
+      "ProjectId": 722,
+      "DocTmplId": 214,
+      "AssociateId": 634,
+      "UserGroupId": 788,
+      "VisibleForId": 479
     }
   ],
   "Associates": [
     {
-      "AssociateId": 302,
-      "EmailAddress": "benton.pollich@kling.us"
+      "AssociateId": 188,
+      "EmailAddress": "otha@gerhold.ca"
     },
     {
-      "AssociateId": 302,
-      "EmailAddress": "benton.pollich@kling.us"
+      "AssociateId": 188,
+      "EmailAddress": "otha@gerhold.ca"
     }
   ]
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTaskMenuByProgId
 Get a task menu using the ProgId key that was specified when it was created
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -91,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eius"
+  "ProgId": "quos"
 }
 ```
 
@@ -102,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 353,
-  "Name": "Heaney, Eichmann and Sauer",
-  "Tooltip": "similique",
-  "TableName": "Graham Inc and Sons",
-  "Area": "explicabo",
+  "TaskMenuId": 54,
+  "Name": "Dach LLC",
+  "Tooltip": "laboriosam",
+  "TableName": "Skiles-Spencer",
+  "Area": "sit",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 77,
+  "CrmScriptId": 458,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 183,
+  "Rank": 924,
   "Encoding": "ANSI",
-  "ProgId": "qui",
+  "ProgId": "nesciunt",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 804
     }
   }
 }

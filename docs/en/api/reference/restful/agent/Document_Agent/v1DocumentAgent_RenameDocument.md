@@ -15,6 +15,7 @@ Rename the physical document, i.
 
 
 e., change the file name or equivalent concept in the document archive.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 718,
-  "NewFilename": "assumenda"
+  "DocumentId": 203,
+  "NewFilename": "dignissimos"
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"velit"
+"fugit"
 ```

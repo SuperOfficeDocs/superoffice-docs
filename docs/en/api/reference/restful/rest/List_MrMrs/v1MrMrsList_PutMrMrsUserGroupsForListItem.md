@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Wiegand, Rutherford and Blanda",
-    "ToolTip": "Voluptatem est nobis quae corporis voluptatem blanditiis fuga.",
-    "Deleted": false,
-    "Rank": 877,
+    "Id": 791,
+    "Name": "Roob, Schoen and Sanford",
+    "ToolTip": "Cupiditate enim assumenda molestias sit maxime quasi quia.",
+    "Deleted": true,
+    "Rank": 556,
     "Type": "qui",
-    "ColorBlock": 976,
-    "IconHint": "dolor",
+    "ColorBlock": 719,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2021-05-15T11:24:53.9530436+02:00",
+    "LastChanged": "1999-09-29T03:40:56.8682357+02:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "Mohr-Thompson",
-        "ToolTip": "Accusantium enim odio sint veritatis quasi doloribus.",
-        "Deleted": false,
-        "Rank": 854,
-        "Type": "et",
-        "ColorBlock": 692,
-        "IconHint": "pariatur",
+        "Id": 755,
+        "Name": "Predovic-Schamberger",
+        "ToolTip": "Temporibus fuga corporis voluptatum quia est iusto voluptatum.",
+        "Deleted": true,
+        "Rank": 782,
+        "Type": "sunt",
+        "ColorBlock": 115,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1999-05-14T11:24:53.9530436+02:00",
+        "LastChanged": "2016-10-14T03:40:56.8682357+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "enim",
+        "ExtraInfo": "ullam",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Meaghan Daugherty"
+        "FullName": "Ms. Sophia Rosemarie Wyman MD"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "nobis",
     "Hidden": true,
-    "FullName": "Brandon Cummings"
+    "FullName": "Mrs. Mariela Keon White DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Schimmel, Hane and Simonis",
-    "ToolTip": "Saepe sed sapiente molestiae quam.",
+    "Id": 375,
+    "Name": "Okuneva Inc and Sons",
+    "ToolTip": "Iste tenetur voluptatem.",
     "Deleted": false,
-    "Rank": 954,
-    "Type": "voluptas",
-    "ColorBlock": 346,
-    "IconHint": "ex",
+    "Rank": 137,
+    "Type": "ea",
+    "ColorBlock": 996,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2013-02-14T11:24:53.9530436+01:00",
+    "LastChanged": "2004-09-14T03:40:56.8838617+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Thompson Group",
-        "ToolTip": "Alias sit inventore iste et.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "nostrum",
-        "ColorBlock": 569,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2006-07-17T11:24:53.9530436+02:00",
+        "Id": 752,
+        "Name": "Dickens-Schaden",
+        "ToolTip": "Nesciunt facere at odio voluptatibus.",
+        "Deleted": false,
+        "Rank": 152,
+        "Type": "corrupti",
+        "ColorBlock": 199,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "1999-11-30T03:40:56.8838617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "vel",
+        "ExtraInfo": "sed",
+        "StyleHint": "architecto",
         "Hidden": true,
-        "FullName": "Dr. Casper Fritsch V",
+        "FullName": "Andrew Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 636
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Yasmine Bergstrom",
+    "ExtraInfo": "dolore",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Ms. Ramiro Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 976
       }
     }
   }

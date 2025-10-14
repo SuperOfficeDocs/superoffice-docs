@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Sanford Inc and Sons",
-  "Tooltip": "ab",
+  "Id": 758,
+  "Name": "Nienow Group",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 144,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "Rank": 947,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "occaecati",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Strosin Inc and Sons",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 317,
+  "Id": 786,
+  "Name": "Jacobi LLC",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 959,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "a",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 527
     }
   }
 }

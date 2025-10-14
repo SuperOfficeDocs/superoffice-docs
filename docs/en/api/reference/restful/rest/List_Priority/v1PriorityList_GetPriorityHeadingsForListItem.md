@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Borer, West and Eichmann",
-    "ToolTip": "Iste delectus voluptatem earum error ratione nostrum.",
+    "Id": 508,
+    "Name": "Hansen Inc and Sons",
+    "ToolTip": "Qui suscipit qui aut omnis perferendis.",
     "Deleted": false,
-    "Rank": 420,
-    "Type": "reiciendis",
-    "ColorBlock": 505,
-    "IconHint": "illum",
-    "Selected": false,
-    "LastChanged": "2010-09-25T11:24:53.9999166+02:00",
+    "Rank": 427,
+    "Type": "dolor",
+    "ColorBlock": 466,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2013-03-07T03:40:56.9933484+01:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Jacobi Group",
-        "ToolTip": "Autem sit delectus est in sit.",
-        "Deleted": false,
-        "Rank": 183,
-        "Type": "quae",
-        "ColorBlock": 661,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "2020-07-02T11:24:53.9999166+02:00",
+        "Id": 131,
+        "Name": "Reinger Group",
+        "ToolTip": "Adipisci deleniti sit assumenda eaque.",
+        "Deleted": true,
+        "Rank": 654,
+        "Type": "eum",
+        "ColorBlock": 148,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2000-05-28T03:40:56.9933484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "fugit",
+        "ExtraInfo": "et",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Lyda Upton",
+        "FullName": "Rocio Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Ms. Sim Heaney",
+    "ExtraInfo": "numquam",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Evalyn Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

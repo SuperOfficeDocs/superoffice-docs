@@ -309,6 +309,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ProjectTypeStatusLink
   - SuperOffice.CRM.Data.DBC.Publish
   - SuperOffice.CRM.Data.DBC.PushNotificationService
+  - SuperOffice.CRM.Data.DBC.QuickFilterInfo
   - SuperOffice.CRM.Data.DBC.QuickReply
   - SuperOffice.CRM.Data.DBC.Quote
   - SuperOffice.CRM.Data.DBC.QuoteAlternative
@@ -485,6 +486,7 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketType
   - SuperOffice.CRM.Data.DBC.TicketTypePriority
   - SuperOffice.CRM.Data.DBC.TicketTypeStatus
+  - SuperOffice.CRM.Data.DBC.TimeKeeping
   - SuperOffice.CRM.Data.DBC.Timestamps
   - SuperOffice.CRM.Data.DBC.TravelCurrent
   - SuperOffice.CRM.Data.DBC.TravelGeneratedDatabase
@@ -10710,6 +10712,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const DashboardTileField As String = "dashboard_tile_field"
+- uid: SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  id: QuickFilterInfo
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuickFilterInfo
+  nameWithType: DBC.QuickFilterInfo
+  fullName: SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'QuickFilterInfo: Connect quick filter info from a specific provider to a dashboard'
+  example: []
+  syntax:
+    content: public const string QuickFilterInfo = "quick_filter_info"
+    return:
+      type: System.String
+    content.vb: Public Const QuickFilterInfo As String = "quick_filter_info"
 - uid: SuperOffice.CRM.Data.DBC.Form
   commentId: F:SuperOffice.CRM.Data.DBC.Form
   id: Form
@@ -10962,6 +10985,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const BoardViewSettings As String = "board_view_settings"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeeping
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeeping
+  id: TimeKeeping
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TimeKeeping
+  nameWithType: DBC.TimeKeeping
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeeping
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping: Time keeping for how much time a sale or project or other entity has spent in a given stage or other state'
+  example: []
+  syntax:
+    content: public const string TimeKeeping = "time_keeping"
+    return:
+      type: System.String
+    content.vb: Public Const TimeKeeping As String = "time_keeping"
 - uid: SuperOffice.CRM.Data.DBC.OnlineApp
   commentId: F:SuperOffice.CRM.Data.DBC.OnlineApp
   id: OnlineApp

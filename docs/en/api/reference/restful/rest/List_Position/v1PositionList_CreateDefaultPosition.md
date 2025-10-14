@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 474,
-  "Name": "Bruen Group",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "UdListDefinitionId": 25,
-  "Rank": 662,
+  "Id": 805,
+  "Name": "Hayes Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 617,
+  "Rank": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 528
     }
   }
 }

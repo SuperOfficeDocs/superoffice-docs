@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCurrencies
 Returns all currencies
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Value": "at",
-    "Tooltip": "et",
+    "Id": 509,
+    "Value": "quia",
+    "Tooltip": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   },
   {
-    "Id": 831,
-    "Value": "at",
-    "Tooltip": "et",
+    "Id": 509,
+    "Value": "quia",
+    "Tooltip": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 532
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   }

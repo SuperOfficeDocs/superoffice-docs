@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,11 +104,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 310,
-  "StartTime": "2024-05-13T11:24:47.8751665+02:00",
-  "EndTime": "2012-01-03T11:24:47.8751665+01:00",
-  "Count": 67,
-  "DocumentTemplateId": 357
+  "PersonId": 670,
+  "StartTime": "2003-09-16T03:40:46.5936381+02:00",
+  "EndTime": "2020-09-02T03:40:46.5936381+02:00",
+  "Count": 993,
+  "DocumentTemplateId": 199
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 195,
-    "Attention": "sint",
-    "Header": "eum",
-    "Name": "Bergstrom-Lockman",
-    "OurRef": "officia",
-    "YourRef": "culpa",
-    "Description": "Profound intangible approach",
-    "DocumentTemplate": "earum",
+    "DocumentId": 56,
+    "Attention": "facilis",
+    "Header": "eaque",
+    "Name": "Abernathy-Feest",
+    "OurRef": "nihil",
+    "YourRef": "ut",
+    "Description": "Optimized foreground project",
+    "DocumentTemplate": "facilis",
     "IsPublished": false,
-    "PersonId": 659,
-    "PersonFullName": "Eda Botsford",
-    "AssociateFullName": "Mrs. Layne Alexie Hammes Sr.",
-    "ContactId": 990,
-    "ContactName": "Feil Inc and Sons",
-    "ProjectId": 827,
-    "ProjectName": "D'Amore, Hansen and Purdy",
-    "AssociateId": 668,
-    "Snum": 26,
-    "SaleId": 847,
-    "SaleName": "Flatley Group",
+    "PersonId": 412,
+    "PersonFullName": "Prof. Abraham Bode V",
+    "AssociateFullName": "Mrs. Oliver Schaden I",
+    "ContactId": 340,
+    "ContactName": "Rice-McGlynn",
+    "ProjectId": 355,
+    "ProjectName": "Douglas Group",
+    "AssociateId": 928,
+    "Snum": 785,
+    "SaleId": 88,
+    "SaleName": "Lind-Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldLength": 535
       }
     }
   }

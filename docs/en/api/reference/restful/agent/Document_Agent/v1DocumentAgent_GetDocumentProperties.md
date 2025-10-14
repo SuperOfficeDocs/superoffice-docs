@@ -15,6 +15,7 @@ Get plugin-dependent properties for the document.
 
 
 A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 151,
+  "DocumentId": 614,
   "RequestedProperties": [
-    "alias",
-    "eum"
+    "nostrum",
+    "laboriosam"
   ]
 }
 ```
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "tempora",
-  "2": "aut"
+  "1": "esse",
+  "2": "sint"
 }
 ```

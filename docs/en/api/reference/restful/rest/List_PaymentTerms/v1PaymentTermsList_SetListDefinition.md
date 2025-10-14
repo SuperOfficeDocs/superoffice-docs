@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Swift-Olson",
-  "Tooltip": "nulla",
+  "Id": 445,
+  "Name": "Breitenberg-Glover",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 735,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": false
+  "Rank": 773,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 369,
-  "Name": "Gleichner Inc and Sons",
-  "Tooltip": "dicta",
+  "Id": 88,
+  "Name": "O'Reilly, Morar and Kerluke",
+  "Tooltip": "harum",
   "Deleted": true,
-  "Rank": 329,
+  "Rank": 762,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 670
     }
   }
 }

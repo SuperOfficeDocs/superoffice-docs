@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 122,
-    "Name": "Hauck, Effertz and Hamill",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 564,
-    "UdListDefinitionId": 728
+    "HeadingId": 464,
+    "Name": "Lebsack-Dooley",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "Rank": 336,
+    "UdListDefinitionId": 953
   },
   {
-    "HeadingId": 122,
-    "Name": "Hauck, Effertz and Hamill",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 564,
-    "UdListDefinitionId": 728
+    "HeadingId": 464,
+    "Name": "Lebsack-Dooley",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "Rank": 336,
+    "UdListDefinitionId": 953
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 539,
-    "Name": "Crooks, Metz and Stracke",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 679,
-    "UdListDefinitionId": 693,
+    "HeadingId": 615,
+    "Name": "Stokes Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 268,
+    "UdListDefinitionId": 814,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 333
       }
     }
   }

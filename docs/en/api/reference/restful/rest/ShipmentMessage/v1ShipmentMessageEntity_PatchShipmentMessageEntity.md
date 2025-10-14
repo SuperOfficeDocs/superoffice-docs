@@ -14,7 +14,8 @@ PATCH /api/v1/ShipmentMessage/{id}
 Update a ShipmentMessageEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -129,18 +130,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -153,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 58,
-  "PlainMessage": "numquam",
-  "HtmlMessage": "esse",
-  "SmsMessage": "dolor",
-  "Description": "Quality-focused contextually-based definition",
-  "Subject": "sit",
-  "FolderId": 372,
-  "HeaderField": "alias",
-  "Design": "rerum",
+  "ShipmentMessageId": 756,
+  "PlainMessage": "fugit",
+  "HtmlMessage": "iste",
+  "SmsMessage": "expedita",
+  "Description": "Cloned executive concept",
+  "Subject": "possimus",
+  "FolderId": 101,
+  "HeaderField": "earum",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Compatible encompassing hub",
-  "AccessKey": "quidem",
-  "DocumentMessage": 458,
-  "Registered": "2005-06-16T11:24:53.5780588+02:00",
-  "RegisteredAssociateId": 998,
-  "Updated": "2017-02-09T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 83,
-  "UpdatedCount": 379,
+  "InlineImages": true,
+  "LongDescription": "Re-contextualized even-keeled Graphical User Interface",
+  "AccessKey": "nesciunt",
+  "DocumentMessage": 695,
+  "Registered": "2011-09-23T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 714,
+  "Updated": "2004-02-03T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 974,
+  "UpdatedCount": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 858
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

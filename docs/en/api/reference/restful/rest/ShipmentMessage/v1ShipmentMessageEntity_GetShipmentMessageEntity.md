@@ -15,6 +15,7 @@ Gets a ShipmentMessageEntity object.
 
 
 Calls the Marketing agent service GetShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -94,7 +95,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,33 +105,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 38,
-  "PlainMessage": "rerum",
-  "HtmlMessage": "reiciendis",
-  "SmsMessage": "voluptatibus",
-  "Description": "Balanced methodical framework",
-  "Subject": "doloribus",
-  "FolderId": 723,
-  "HeaderField": "ullam",
-  "Design": "mollitia",
+  "ShipmentMessageId": 928,
+  "PlainMessage": "vitae",
+  "HtmlMessage": "error",
+  "SmsMessage": "sed",
+  "Description": "Persistent impactful initiative",
+  "Subject": "qui",
+  "FolderId": 906,
+  "HeaderField": "velit",
+  "Design": "odit",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Object-based next generation initiative",
-  "AccessKey": "sint",
-  "DocumentMessage": 783,
-  "Registered": "1999-02-28T11:24:53.5780588+01:00",
-  "RegisteredAssociateId": 767,
-  "Updated": "2001-02-15T11:24:53.5780588+01:00",
-  "UpdatedAssociateId": 57,
-  "UpdatedCount": 145,
+  "LongDescription": "Switchable even-keeled utilisation",
+  "AccessKey": "omnis",
+  "DocumentMessage": 895,
+  "Registered": "2001-07-10T03:40:56.2422072+02:00",
+  "RegisteredAssociateId": 868,
+  "Updated": "2010-12-04T03:40:56.2422072+01:00",
+  "UpdatedAssociateId": 581,
+  "UpdatedCount": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   },
   "_Links": {

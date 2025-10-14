@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetColleagues
 Gets the persons working in the same company as the logged on user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -106,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,53 +119,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nihil",
-    "PersonId": 678,
-    "Mrmrs": "ut",
-    "Firstname": "Holden",
-    "Lastname": "Wiegand",
-    "MiddleName": "Kemmer-Turcotte",
-    "Title": "voluptatibus",
-    "Description": "Persevering fresh-thinking hierarchy",
-    "Email": "davon.price@will.biz",
-    "FullName": "Kellie Green",
-    "DirectPhone": "1-376-583-8467",
-    "FormalName": "O'Keefe, Koss and Hackett",
-    "CountryId": 478,
-    "ContactId": 816,
-    "ContactName": "Mayer LLC",
-    "Retired": 216,
-    "Rank": 934,
-    "ActiveInterests": 510,
+    "Position": "est",
+    "PersonId": 509,
+    "Mrmrs": "cum",
+    "Firstname": "Gregg",
+    "Lastname": "Johnston",
+    "MiddleName": "Borer-Lang",
+    "Title": "qui",
+    "Description": "Assimilated stable Graphical User Interface",
+    "Email": "viva.wehner@swaniawskisporer.uk",
+    "FullName": "Onie Barton",
+    "DirectPhone": "654.410.6248",
+    "FormalName": "Torp, Lesch and Sipes",
+    "CountryId": 377,
+    "ContactId": 235,
+    "ContactName": "Hartmann-Von",
+    "Retired": 382,
+    "Rank": 226,
+    "ActiveInterests": 589,
     "ContactDepartment": "",
-    "ContactCountryId": 951,
-    "ContactOrgNr": "432257",
-    "FaxPhone": "499-262-2058 x249",
-    "MobilePhone": "100.094.9268 x268",
-    "ContactPhone": "(001)003-0813",
-    "AssociateName": "Willms-McClure",
-    "AssociateId": 953,
+    "ContactCountryId": 93,
+    "ContactOrgNr": "685584",
+    "FaxPhone": "(969)280-1723 x87879",
+    "MobilePhone": "465-680-3156 x172",
+    "ContactPhone": "139.334.1762 x173",
+    "AssociateName": "Fahey LLC",
+    "AssociateId": 845,
     "UsePersonAddress": true,
-    "ContactFax": "id",
-    "Kanafname": "fuga",
-    "Kanalname": "possimus",
-    "Post1": "temporibus",
-    "Post2": "culpa",
-    "Post3": "repellat",
-    "EmailName": "pierce.kuphal@schaeferemard.name",
-    "ContactFullName": "Dr. Briana White V",
-    "ActiveErpLinks": 742,
-    "TicketPriorityId": 961,
-    "SupportLanguageId": 735,
-    "SupportAssociateId": 705,
+    "ContactFax": "eligendi",
+    "Kanafname": "dignissimos",
+    "Kanalname": "dolorum",
+    "Post1": "dolorum",
+    "Post2": "maiores",
+    "Post3": "ut",
+    "EmailName": "maybell.hessel@satterfield.info",
+    "ContactFullName": "Oral Shawn O'Keefe IV",
+    "ActiveErpLinks": 869,
+    "TicketPriorityId": 1000,
+    "SupportLanguageId": 718,
+    "SupportAssociateId": 946,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "590400",
+    "PersonNumber": "890348",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldLength": 573
       }
     }
   }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Get available credential types that can be used for the specified user type.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -97,9 +100,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "magnam",
-    "Type": "non",
-    "Description": "Down-sized attitude-oriented synergy",
+    "DisplayType": "repudiandae",
+    "Type": "dolorem",
+    "Description": "Mandatory 4th generation frame",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": true,
@@ -108,7 +111,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 48
       }
     }
   }

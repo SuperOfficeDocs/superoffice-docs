@@ -15,6 +15,7 @@ Read specific a set of data rights at the given row in the rights matrix.
 
 
 An exception will be thrown if non existing position is specified.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -75,12 +76,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 802,
-  "TableName": "Stiedemann-Schumm"
+  "RoleId": 932,
+  "TableName": "Bogisich-Klocko"
 }
 ```
 
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eum",
-  "2": "praesentium"
+  "1": "quam",
+  "2": "ipsum"
 }
 ```

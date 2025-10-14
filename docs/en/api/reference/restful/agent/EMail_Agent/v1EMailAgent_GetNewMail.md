@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetNewMail
 Get new email in folder(s) for current associate
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -85,13 +88,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    826,
-    527
+    293,
+    380
   ]
 }
 ```
@@ -104,45 +107,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 303,
-    "MessageId": "et",
-    "Subject": "quos",
+    "ServerId": 871,
+    "MessageId": "provident",
+    "Subject": "eius",
     "From": null,
     "To": [
       {
-        "ContactId": 617,
-        "ContactName": "Thiel-Gerlach",
-        "PersonId": 486,
-        "PersonName": "Friesen Inc and Sons",
-        "AssociateId": 321,
-        "Address": "sunt",
-        "EmailId": 450,
+        "ContactId": 162,
+        "ContactName": "Von, Hills and White",
+        "PersonId": 468,
+        "PersonName": "Hegmann-Romaguera",
+        "AssociateId": 338,
+        "Address": "cum",
+        "EmailId": 158,
         "DuplicatePersonIds": [
-          34,
-          794
+          811,
+          244
         ],
-        "Name": "Weber, Lebsack and Bernhard",
+        "Name": "Brown, Koelpin and Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 862
+            "FieldType": "System.Int32",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "Sent": "2009-12-31T11:24:48.03141+01:00",
+    "Sent": "2009-08-02T03:40:46.7655146+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 721,
+    "Size": 455,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 40
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

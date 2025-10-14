@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Get a ProjectEventEntity based on a projectId.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -103,11 +105,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 623
+  "ProjectId": 499
 }
 ```
 
@@ -118,94 +120,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "maxime",
-  "SignOffText": "esse",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "quos",
-  "EventDate": "2016-04-20T11:24:48.4845166+02:00",
+  "SignOffConfirmationText": "quasi",
+  "SignOffText": "quis",
+  "SignOnConfirmationText": "est",
+  "SignOnText": "atque",
+  "EventDate": "2023-02-08T03:40:47.4843558+01:00",
   "Enabled": false,
-  "CreatedDate": "2025-09-14T11:24:48.4845166+02:00",
+  "CreatedDate": "2012-06-21T03:40:47.4843558+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 73,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskId": 26,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 559,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2015-02-14T11:24:48.4845166+01:00",
+  "SignOnTaskId": 618,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2023-05-08T03:40:47.4843558+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 926,
-  "Id": 859,
-  "PublishFrom": "2019-10-16T11:24:48.4845166+02:00",
+  "ProjectId": 269,
+  "Id": 802,
+  "PublishFrom": "2003-08-13T03:40:47.4843558+02:00",
   "PublishType": "External",
-  "PublishTo": "2006-01-04T11:24:48.4845166+01:00",
+  "PublishTo": "2014-05-31T03:40:47.4843558+02:00",
   "VisibleForCategories": [
     {
-      "Id": 398,
-      "Name": "Satterfield, Herzog and Dickens",
-      "ToolTip": "Id eligendi voluptas sunt expedita quam.",
+      "Id": 915,
+      "Name": "Daniel-Ratke",
+      "ToolTip": "Modi quae ut ad et minima.",
       "Deleted": false,
-      "Rank": 970,
-      "Type": "est",
+      "Rank": 863,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorum",
-      "ColorBlock": 123,
-      "ExtraInfo": "nesciunt",
-      "StyleHint": "ex",
-      "FullName": "Rupert Jenkins",
+      "IconHint": "aut",
+      "ColorBlock": 998,
+      "ExtraInfo": "omnis",
+      "StyleHint": "minima",
+      "FullName": "Leonardo Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 934
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 593,
-      "Name": "Kling-Schumm",
-      "ToolTip": "Corrupti qui libero commodi dicta fugit voluptate.",
+      "Id": 681,
+      "Name": "Stoltenberg, Dickens and Swaniawski",
+      "ToolTip": "Recusandae est voluptatem consequatur voluptates sed animi ex.",
       "Deleted": false,
-      "Rank": 170,
-      "Type": "cupiditate",
+      "Rank": 478,
+      "Type": "reiciendis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "hic",
-      "ColorBlock": 447,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "nisi",
-      "FullName": "Angelica Rowe",
+      "IconHint": "temporibus",
+      "ColorBlock": 401,
+      "ExtraInfo": "magni",
+      "StyleHint": "incidunt",
+      "FullName": "Miss Elnora Armstrong DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 535
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 229,
+  "ProjectEventId": 367,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 207
     }
   }
 }

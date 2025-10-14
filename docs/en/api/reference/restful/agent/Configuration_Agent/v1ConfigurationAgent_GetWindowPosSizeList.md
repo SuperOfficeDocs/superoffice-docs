@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Gets an array of WindowPosSize objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,23 +94,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "eius",
-    "PersonId": 682,
-    "AssociateId": 146,
+    "OwnerWindow": "possimus",
+    "PersonId": 271,
+    "AssociateId": 215,
     "ExtraId": 511,
-    "ExtraInfo": "quas",
-    "Height": 603,
-    "LeftX": 305,
+    "ExtraInfo": "vero",
+    "Height": 424,
+    "LeftX": 390,
     "State": "Maximized",
-    "UpperY": 509,
-    "Width": 534,
-    "WindowPosSizeId": 463,
+    "UpperY": 806,
+    "Width": 619,
+    "WindowPosSizeId": 362,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

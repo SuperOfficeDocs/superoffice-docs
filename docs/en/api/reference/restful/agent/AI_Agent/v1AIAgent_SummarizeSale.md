@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/SummarizeSale
 Generate a short summary of the activities on a sale
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -75,9 +80,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 189,
-  "NumSentences": 59,
-  "IsoLangCode": "tempora"
+  "SaleId": 714,
+  "NumSentences": 701,
+  "IsoLangCode": "est"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestias"
+"error"
 ```

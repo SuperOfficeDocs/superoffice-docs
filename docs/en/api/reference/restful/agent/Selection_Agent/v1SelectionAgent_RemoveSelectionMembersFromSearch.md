@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/RemoveSelectionMembersFromSearch
 Removes members from the selection using the search result.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 557,
-  "StorageKey": "illo"
+  "SelectionId": 432,
+  "StorageKey": "et"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-720
+149
 ```

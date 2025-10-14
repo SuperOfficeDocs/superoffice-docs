@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetBaseCurrency
 Get the base currency, used for calculating exchange rates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 408,
-  "Name": "Nolan Group",
-  "Tooltip": "aliquam",
-  "Rank": 151,
-  "Rate": 30735.138,
-  "Units": 3152.804,
-  "Deleted": true,
+  "CurrencyId": 626,
+  "Name": "Herzog LLC",
+  "Tooltip": "ea",
+  "Rank": 169,
+  "Rate": 30428.005999999998,
+  "Units": 17964.088,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 262
     }
   }
 }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 557,
-  "TopicId": 275,
+  "ChatSessionId": 775,
+  "TopicId": 39,
   "User": null,
   "Person": null,
-  "CustomerAlias": "debitis",
-  "CustomerHost": "repellendus",
-  "CustomerName": "Erdman Inc and Sons",
-  "CustomerEmail": "bette@johnstonjacobi.ca",
-  "CustomerPhone": "139.586.5387",
+  "CustomerAlias": "et",
+  "CustomerHost": "et",
+  "CustomerName": "Daniel, Hermann and Mitchell",
+  "CustomerEmail": "maeve@schuster.info",
+  "CustomerPhone": "(486)156-5283 x156",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Gaylord, Huels and Fritsch",
+  "CustomerCompanyName": "Lueilwitz Group",
   "Status": "Closed",
-  "FirstMessage": "molestiae",
-  "LastMessage": "libero",
-  "WhenRequested": "2002-11-13T11:24:53.0468304+01:00",
-  "WhenStarted": "2012-02-05T11:24:53.0468304+01:00",
-  "WhenEnded": "2010-04-21T11:24:53.0468304+02:00",
-  "WhenIdle": "2000-05-16T11:24:53.0468304+02:00",
-  "WhenFetched": "2012-01-19T11:24:53.0468304+01:00",
-  "SessionKey": "porro",
-  "InitialQueuePos": 272,
-  "AlertLevel": 514,
-  "Rank": 109,
+  "FirstMessage": "a",
+  "LastMessage": "tempora",
+  "WhenRequested": "2020-07-06T03:40:55.3818111+02:00",
+  "WhenStarted": "2009-01-20T03:40:55.3818111+01:00",
+  "WhenEnded": "2015-04-22T03:40:55.3818111+02:00",
+  "WhenIdle": "2011-12-05T03:40:55.3818111+01:00",
+  "WhenFetched": "2006-03-28T03:40:55.3818111+02:00",
+  "SessionKey": "ipsum",
+  "InitialQueuePos": 884,
+  "AlertLevel": 20,
+  "Rank": 26,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 274,
+  "ChatbotIsActive": false,
+  "Rating": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 404
     }
   }
 }

@@ -103,13 +103,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class TicketAgent : AgentBase, ITicketAgent, IDisposable'
-    content.vb: Public Class TicketAgent Inherits AgentBase Implements ITicketAgent, IDisposable
+    content: 'public class TicketAgent : AgentBase, ITicketAgent, IAgentBase, IDisposable'
+    content.vb: Public Class TicketAgent Inherits AgentBase Implements ITicketAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.ITicketAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -2795,6 +2796,14 @@ references:
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.WebApi.Agents.ITicketAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

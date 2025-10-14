@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Deletes all appointments(within the appointmentIds array) with status BookingDeleted.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,13 +71,13 @@ OK
 POST /api/v1/Agents/Appointment/CleanUpBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    571,
-    754
+    976,
+    586
   ]
 }
 ```
@@ -86,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-526
+421
 ```

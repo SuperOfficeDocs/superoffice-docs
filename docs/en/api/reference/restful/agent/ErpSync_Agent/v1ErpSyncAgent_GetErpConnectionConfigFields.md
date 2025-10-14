@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 Returns the config fields for the connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,11 +74,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 826
+  "ErpConnectionId": 222
 }
 ```
 
@@ -86,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "deserunt",
-  "2": "sequi"
+  "1": "sed",
+  "2": "incidunt"
 }
 ```

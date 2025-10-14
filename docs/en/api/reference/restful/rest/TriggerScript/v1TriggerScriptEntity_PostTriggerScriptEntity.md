@@ -15,6 +15,7 @@ Creates a new TriggerScriptEntity
 
 
 Calls the CRMScript agent service SaveTriggerScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -102,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 329,
-  "Name": "Hickle, Brekke and Tromp",
+  "ScreenChooserId": 839,
+  "Name": "Boyle, Cormier and Stiedemann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "reprehenderit",
-  "Source": "necessitatibus",
-  "Registered": "2004-09-13T11:24:53.7186781+02:00",
-  "RegisteredAssociateId": 494,
-  "Updated": "2022-12-17T11:24:53.7186781+01:00",
-  "UpdatedAssociateId": 498
+  "UniqueIdentifier": "reiciendis",
+  "Source": "vel",
+  "Registered": "2024-06-06T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 785,
+  "Updated": "2004-07-14T03:40:56.4140988+02:00",
+  "UpdatedAssociateId": 124
 }
 ```
 
@@ -122,22 +123,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 467,
-  "Name": "Rohan-Carter",
+  "ScreenChooserId": 304,
+  "Name": "Ullrich, Skiles and Kuhn",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "in",
-  "Registered": "2007-12-23T11:24:53.7186781+01:00",
-  "RegisteredAssociateId": 891,
-  "Updated": "2004-10-21T11:24:53.7186781+02:00",
-  "UpdatedAssociateId": 186,
+  "Enabled": true,
+  "UniqueIdentifier": "asperiores",
+  "Source": "voluptas",
+  "Registered": "1999-06-23T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 691,
+  "Updated": "2002-03-30T03:40:56.4140988+01:00",
+  "UpdatedAssociateId": 514,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   },
   "_Links": {

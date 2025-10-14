@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultUser
 Loading default values into a new User.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -82,7 +85,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 400,
-  "Name": "Turner LLC",
-  "Rank": 382,
-  "Tooltip": "itaque",
+  "AssociateId": 262,
+  "Name": "Zboncak, Prohaska and Koelpin",
+  "Rank": 819,
+  "Tooltip": "voluptate",
   "LicenseOwners": [
     {
-      "Name": "Nader-Rath",
-      "Description": "Intuitive coherent migration",
+      "Name": "Koelpin-Predovic",
+      "Description": "Profit-focused mobile collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -113,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 179
         }
       }
     },
     {
-      "Name": "Nader-Rath",
-      "Description": "Intuitive coherent migration",
+      "Name": "Koelpin-Predovic",
+      "Description": "Profit-focused mobile collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 179
         }
       }
     }
@@ -142,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "velit",
-      "Tooltip": "et",
-      "Id": 794,
-      "Rank": 125,
+      "Value": "sunt",
+      "Tooltip": "autem",
+      "Id": 473,
+      "Rank": 803,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 362
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2000-06-17T11:24:48.9063744+02:00",
-  "Lastlogout": "2025-06-24T11:24:48.9063744+02:00",
-  "EjUserId": 661,
-  "RequestSignature": "molestias",
+  "Lastlogin": "2020-04-16T03:40:48.1879959+02:00",
+  "Lastlogout": "2014-07-08T03:40:48.1879959+02:00",
+  "EjUserId": 594,
+  "RequestSignature": "modi",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "ea",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 396
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "est",
-      "DisplayValue": "ea",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 396
-        }
-      }
-    }
-  ],
-  "UserName": "Schowalter Group",
-  "TicketCategories": [
-    {
-      "Id": 150,
-      "Name": "Hudson Group",
-      "ToolTip": "Placeat velit explicabo recusandae.",
-      "Deleted": true,
-      "Rank": 178,
-      "Type": "earum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "porro",
-      "ColorBlock": 276,
-      "ExtraInfo": "eligendi",
-      "StyleHint": "atque",
-      "FullName": "Twila Koch",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
-        }
-      }
-    }
-  ],
-  "NickName": "Schmeler, Ernser and Welch",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "quo"
-  },
-  "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "sit"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Marvin-Bergnaum",
-      "DisplayName": "Smith Group",
-      "Description": "Sharable motivating policy",
-      "ToolTip": "Consequatur autem id dolorem quia veniam dolor.",
-      "Actions": "Implicit",
-      "ActionData": "soluta",
+      "Value": "non",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 873
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "non",
+      "DisplayValue": "esse",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 873
+        }
+      }
+    }
+  ],
+  "UserName": "Wintheiser, Wilkinson and Kassulke",
+  "TicketCategories": [
+    {
+      "Id": 185,
+      "Name": "Greenfelder Inc and Sons",
+      "ToolTip": "Veniam repellat.",
+      "Deleted": false,
+      "Rank": 659,
+      "Type": "optio",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "aut",
+      "ColorBlock": 879,
+      "ExtraInfo": "qui",
+      "StyleHint": "ipsam",
+      "FullName": "Prof. Mervin Schroeder II",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 829
+        }
+      }
+    }
+  ],
+  "NickName": "Nicolas, Streich and Flatley",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "quas"
+  },
+  "CustomFields": {
+    "CustomFields1": "fuga",
+    "CustomFields2": "sed"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Cassin-Kunde",
+      "DisplayName": "Pfeffer-Heathcote",
+      "Description": "Progressive human-resource strategy",
+      "ToolTip": "Nihil rerum sit accusamus.",
+      "Actions": "Implicit",
+      "ActionData": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 249
         }
       }
     }
@@ -254,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

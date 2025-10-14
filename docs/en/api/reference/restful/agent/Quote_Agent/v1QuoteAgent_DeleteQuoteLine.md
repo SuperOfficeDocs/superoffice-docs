@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteQuoteLine
 Deletes the QuoteLine in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 920
+  "QuoteLineId": 263
 }
 ```
 

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 714,
-  "Name": "Mertz Group",
-  "Tooltip": "explicabo",
+  "Id": 274,
+  "Name": "Cruickshank Group",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 130,
-  "Rank": 39,
+  "UdListDefinitionId": 359,
+  "Rank": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 936
     }
   }
 }

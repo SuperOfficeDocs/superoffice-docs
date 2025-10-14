@@ -15,6 +15,7 @@ Stores the product image that is displayed in the CRM application.
 
 
 The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -68,11 +69,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 599,
+  "ProductId": 868,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

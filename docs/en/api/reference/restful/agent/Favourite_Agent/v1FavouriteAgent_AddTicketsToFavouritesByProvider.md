@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Add a list of tickets as favourites that are given by the ticket provider.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,22 +70,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sauer-Pacocha",
+  "ProviderName": "Hessel-Lubowitz",
   "Restrictions": [
     {
-      "Name": "Hartmann LLC",
-      "Operator": "maiores",
+      "Name": "Kohler Inc and Sons",
+      "Operator": "numquam",
       "Values": [
-        "possimus",
-        "dolor"
+        "iusto",
+        "et"
       ],
       "DisplayValues": [
-        "eligendi",
-        "est"
+        "qui",
+        "quos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -91,13 +93,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 901,
+      "InterParenthesis": 759,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 321
     }
   ],
-  "AssociateId": 131,
-  "ExtraInfo": "corrupti"
+  "AssociateId": 112,
+  "ExtraInfo": "fuga"
 }
 ```
 

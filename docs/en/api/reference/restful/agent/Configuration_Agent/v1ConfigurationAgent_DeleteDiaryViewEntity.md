@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity
 Deletes the DiaryViewEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the DiaryViewEntity
 | diaryViewEntityId | int32 | **Required** The identity of the DiaryViewEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=774
+POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=553
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

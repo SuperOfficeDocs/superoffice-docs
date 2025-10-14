@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetAll
 Gets a list of all PreferenceDescriptions in the system.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 635,
-    "Section": "est",
-    "Key": "blanditiis",
-    "Name": "Dickinson, Maggio and Kiehn",
+    "PrefDescId": 759,
+    "Section": "velit",
+    "Key": "temporibus",
+    "Name": "Brakus Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optimized bifurcated solution",
+    "Description": "Up-sized 5th generation application",
     "IsBuiltin": false,
-    "TableName": "Bruen, Medhurst and Rogahn",
-    "UserDefinedListId": 223,
-    "Rank": 925,
-    "SubGroup": "quis",
-    "MinLevel": 851,
-    "MaxValue": 382,
-    "MinValue": 620,
-    "RequiredLicense": "laborum",
+    "TableName": "Hills Group",
+    "UserDefinedListId": 757,
+    "Rank": 314,
+    "SubGroup": "et",
+    "MinLevel": 154,
+    "MaxValue": 885,
+    "MinValue": 970,
+    "RequiredLicense": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

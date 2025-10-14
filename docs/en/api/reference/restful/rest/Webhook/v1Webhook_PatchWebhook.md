@@ -15,6 +15,7 @@ Update a Webhook with changes, as described in a JSON Patch or a JSON Merge Patc
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -123,18 +124,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestias",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestias",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -147,31 +148,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 489,
-  "Name": "Cassin-Funk",
+  "WebhookId": 761,
+  "Name": "Schultz, West and Harber",
   "Events": [
-    "minima",
-    "repudiandae"
+    "voluptas",
+    "veritatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "alias",
+  "Secret": "harum",
   "State": "Active",
-  "Type": "vel",
+  "Type": "dolorem",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "sapiente"
+    "Headers1": "aut",
+    "Headers2": "pariatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-04-03T11:24:53.8280427+02:00",
+  "Registered": "2020-03-08T03:40:56.6650985+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-10-14T11:24:53.8280427+02:00",
+  "Updated": "2025-04-29T03:40:56.6650985+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "mafalda_bernier@dachgreenholt.info",
+  "ErrorsEmail": "emerald@collier.biz",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

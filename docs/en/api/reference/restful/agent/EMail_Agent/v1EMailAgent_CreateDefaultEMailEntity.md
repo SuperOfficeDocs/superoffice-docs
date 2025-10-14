@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Loading default values into a new EMailEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -95,147 +98,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 331,
-      "ContactName": "Sipes Inc and Sons",
-      "PersonId": 60,
-      "PersonName": "O'Reilly-Waters",
-      "AssociateId": 200,
-      "Address": "vel",
-      "EmailId": 299,
+      "ContactId": 243,
+      "ContactName": "Hackett-Ernser",
+      "PersonId": 890,
+      "PersonName": "Hammes, Brakus and Bernhard",
+      "AssociateId": 149,
+      "Address": "nulla",
+      "EmailId": 761,
       "DuplicatePersonIds": [
-        882,
-        877
+        452,
+        644
       ],
-      "Name": "Lind, Thompson and Haley",
+      "Name": "Mohr LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 247
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 135,
-      "ContactName": "Cronin LLC",
-      "PersonId": 405,
-      "PersonName": "Stamm-Franecki",
-      "AssociateId": 473,
-      "Address": "culpa",
-      "EmailId": 975,
+      "ContactId": 806,
+      "ContactName": "Lockman-Wunsch",
+      "PersonId": 594,
+      "PersonName": "Ledner Inc and Sons",
+      "AssociateId": 689,
+      "Address": "sequi",
+      "EmailId": 546,
       "DuplicatePersonIds": [
-        203,
-        855
+        597,
+        319
       ],
-      "Name": "Wunsch-Walker",
+      "Name": "Robel-Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 564
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 286,
-      "ContactName": "Blanda-Robel",
-      "PersonId": 183,
-      "PersonName": "Schneider-Connelly",
-      "AssociateId": 196,
-      "Address": "animi",
-      "EmailId": 816,
+      "ContactId": 526,
+      "ContactName": "Hayes, McClure and Leuschke",
+      "PersonId": 979,
+      "PersonName": "Kiehn-Koss",
+      "AssociateId": 773,
+      "Address": "excepturi",
+      "EmailId": 807,
       "DuplicatePersonIds": [
-        569,
-        686
+        960,
+        264
       ],
-      "Name": "Bradtke-Rutherford",
+      "Name": "Spinka, Baumbach and Haag",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 548
         }
       }
     }
   ],
-  "Subject": "quibusdam",
-  "HTMLBody": "recusandae",
+  "Subject": "officia",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2011-02-21T11:24:48.078283+01:00",
-  "Size": 206,
+  "Sent": "2019-10-05T03:40:46.8592703+02:00",
+  "Size": 695,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "distinctio",
-  "PlainBody": "consequatur",
+  "MessageID": "alias",
+  "PlainBody": "eos",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 88,
+  "ServerId": 441,
   "Attachments": [
     {
-      "Description": "Balanced homogeneous internet solution",
-      "Filename": "nostrum",
-      "Size": 312,
-      "Type": "et",
-      "Encoding": "delectus",
-      "Id": "quam",
-      "Disposition": "voluptatem",
+      "Description": "Implemented optimal artificial intelligence",
+      "Filename": "in",
+      "Size": 463,
+      "Type": "eveniet",
+      "Encoding": "harum",
+      "Id": "quod",
+      "Disposition": "officiis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Leffler Inc and Sons",
+      "Name": "Batz, Nader and Beier",
       "Values": [
-        "ut",
-        "optio"
+        "iusto",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 975
         }
       }
     },
     {
-      "Name": "Leffler Inc and Sons",
+      "Name": "Batz, Nader and Beier",
       "Values": [
-        "ut",
-        "optio"
+        "iusto",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 975
         }
       }
     }
   ],
-  "FolderName": "Harber-Von",
-  "EmailItemId": 421,
-  "AccountId": 305,
-  "ReceivedAt": "2006-06-30T11:24:48.078283+02:00",
+  "FolderName": "Cronin-Toy",
+  "EmailItemId": 950,
+  "AccountId": 312,
+  "ReceivedAt": "2001-02-19T03:40:46.8592703+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-03-19T11:24:48.078283+01:00",
+  "RepliedAt": "2007-04-12T03:40:46.8592703+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -243,8 +246,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   }
 }

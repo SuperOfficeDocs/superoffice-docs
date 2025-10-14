@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Loading default values into a new TicketTypeEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 436,
-  "Name": "Collier Inc and Sons",
-  "Rank": 699,
-  "Tooltip": "neque",
-  "Icon": "illo",
-  "DefaultTicketStatus": 213,
+  "TicketTypeId": 409,
+  "Name": "Stoltenberg Inc and Sons",
+  "Rank": 273,
+  "Tooltip": "est",
+  "Icon": "aut",
+  "DefaultTicketStatus": 409,
   "TicketStatuses": [
-    193,
-    468
+    526,
+    596
   ],
-  "DefaultTicketPriority": 64,
+  "DefaultTicketPriority": 115,
   "TicketPriorities": [
-    591,
-    739
+    982,
+    911
   ],
-  "ReplyTemplate": 327,
+  "ReplyTemplate": 668,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    636,
-    471
+    139,
+    545
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -117,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 297
     }
   }
 }

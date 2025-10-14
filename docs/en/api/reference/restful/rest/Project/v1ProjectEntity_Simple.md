@@ -80,7 +80,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,30 +90,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 555,
-  "Name": "Hessel-Boyer",
-  "Description": "Secured needs-based analyzer",
+  "ProjectId": 448,
+  "Name": "Hintz-Gaylord",
+  "Description": "Organic interactive initiative",
   "URL": "http://www.example.com/",
-  "Type": "sit",
-  "AssociateId": 683,
-  "AssociateFullName": "Mr. Aaliyah Wintheiser Sr.",
-  "TypeId": 414,
-  "Updated": "2022-08-23T11:24:53.4686882+02:00",
-  "StatusId": 654,
-  "Status": "reprehenderit",
-  "TextId": 815,
-  "PublishTo": "2014-03-13T11:24:53.4686882+01:00",
-  "PublishFrom": "2000-03-11T11:24:53.4686882+01:00",
+  "Type": "nesciunt",
+  "AssociateId": 216,
+  "AssociateFullName": "Edmund Hayes",
+  "TypeId": 987,
+  "Updated": "2022-07-06T03:40:56.0386716+02:00",
+  "StatusId": 920,
+  "Status": "quia",
+  "TextId": 458,
+  "PublishTo": "2004-07-13T03:40:56.0386716+02:00",
+  "PublishFrom": "2008-08-02T03:40:56.0386716+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1109662",
-  "ActiveErpLinks": 840,
+  "ProjectNumber": "1440923",
+  "ActiveErpLinks": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

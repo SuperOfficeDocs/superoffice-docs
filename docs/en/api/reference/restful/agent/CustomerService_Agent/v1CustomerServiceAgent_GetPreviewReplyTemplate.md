@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Get a reply template from its reply template id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 302
+  "ReplyTemplateId": 754
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McClure Inc and Sons",
-  "Description": "Organized next generation product",
-  "OwnedByFullName": "Mr. Kristian Marcel Zulauf",
-  "Updated": "2023-11-01T11:24:47.8595421+01:00",
-  "Body": "incidunt",
+  "Name": "Kihn Inc and Sons",
+  "Description": "Exclusive heuristic secured line",
+  "OwnedByFullName": "Guiseppe Von",
+  "Updated": "2024-09-30T03:40:46.5468616+02:00",
+  "Body": "autem",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 937
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 473,
+  "SystemEventId": 308,
   "Scope": "Database",
-  "Eta": "2016-05-31T11:24:47.7189228+02:00",
-  "Eventkey": "tempore",
-  "Eventmess": "consequatur",
-  "ExtraInfo": 550,
-  "Owner": 547,
-  "UpdatedCount": 840,
-  "Registered": "2004-05-27T11:24:47.7189228+02:00",
+  "Eta": "2000-01-18T03:40:46.2488145+01:00",
+  "Eventkey": "aut",
+  "Eventmess": "unde",
+  "ExtraInfo": 331,
+  "Owner": 438,
+  "UpdatedCount": 611,
+  "Registered": "2003-03-14T03:40:46.2488145+01:00",
   "ActivatedBy": null
 }
 ```
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 795,
+  "SystemEventId": 518,
   "Scope": "Database",
-  "Eta": "2024-04-12T11:24:47.7189228+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "tempora",
-  "ExtraInfo": 169,
-  "Owner": 908,
-  "UpdatedCount": 798,
-  "Registered": "2016-08-03T11:24:47.7189228+02:00",
+  "Eta": "2012-09-26T03:40:46.2488145+02:00",
+  "Eventkey": "earum",
+  "Eventmess": "perspiciatis",
+  "ExtraInfo": 261,
+  "Owner": 34,
+  "UpdatedCount": 464,
+  "Registered": "2015-08-12T03:40:46.2488145+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

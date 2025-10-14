@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveListEntity
 Updates the existing ListEntity or creates a new ListEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,20 +84,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Morissette-Gorczany",
-  "Tooltip": "cumque",
+  "Id": 416,
+  "Name": "Bernhard-Thiel",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 76,
+  "Rank": 120,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "soluta",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Bergstrom-Bechtelar",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 813,
+  "Id": 980,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 175,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 788
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

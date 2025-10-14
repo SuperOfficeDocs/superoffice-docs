@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateFolder
 Create a new folder on the server
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 

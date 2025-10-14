@@ -83,10 +83,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "dolorum",
-  "Tooltip": "veritatis",
-  "Id": 68,
-  "Rank": 990,
+  "Value": "id",
+  "Tooltip": "quidem",
+  "Id": 664,
+  "Rank": 473,
   "Deleted": false
 }
 ```
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "eos",
-  "Tooltip": "libero",
-  "Id": 765,
-  "Rank": 53,
+  "Value": "architecto",
+  "Tooltip": "eum",
+  "Id": 320,
+  "Rank": 856,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

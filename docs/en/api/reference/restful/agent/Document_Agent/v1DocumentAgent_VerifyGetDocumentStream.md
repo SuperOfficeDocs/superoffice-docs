@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/VerifyGetDocumentStream
 Verify that the requested document stream exists, and that we can access it, without actually getting the stream.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Document/VerifyGetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 721
+  "DocumentId": 429
 }
 ```
 

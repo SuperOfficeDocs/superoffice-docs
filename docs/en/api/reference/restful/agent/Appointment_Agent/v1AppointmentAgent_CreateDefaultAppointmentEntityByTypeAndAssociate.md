@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Creates a AppointmentEntity populated with the default values for the specific type and owner.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -134,12 +136,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 581
+  "AssociateId": 465
 }
 ```
 
@@ -154,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-09-21T11:24:47.4533128+02:00",
-  "AppointmentId": 796,
-  "Description": "Operative modular workforce",
-  "Title": "veniam",
+  "CreatedDate": "2003-05-25T03:40:45.9524703+02:00",
+  "AppointmentId": 884,
+  "Description": "Fundamental motivating conglomeration",
+  "Title": "velit",
   "Agenda": "ut",
-  "InternalNotes": "et",
-  "StartDate": "2021-05-31T11:24:47.4689372+02:00",
-  "EndDate": "2024-09-29T11:24:47.4689372+02:00",
+  "InternalNotes": "eveniet",
+  "StartDate": "2008-02-15T03:40:45.9524703+01:00",
+  "EndDate": "2012-11-20T03:40:45.9524703+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 49,
+  "MotherId": 686,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-03-30T11:24:47.4689372+02:00",
+  "UpdatedDate": "2006-11-22T03:40:45.9524703+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 851,
+  "ActiveLinks": 960,
   "Links": [
     {
-      "EntityName": "Wintheiser-Armstrong",
-      "Id": 211,
-      "Description": "Profound zero tolerance secured line",
-      "ExtraInfo": "ab",
-      "LinkId": 891,
+      "EntityName": "Mante-Koepp",
+      "Id": 588,
+      "Description": "Proactive mission-critical success",
+      "ExtraInfo": "deleniti",
+      "LinkId": 776,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldLength": 85
         }
       }
     }
   ],
-  "AlarmLeadTime": "cum",
-  "HasAlarm": true,
-  "ColorIndex": 601,
+  "AlarmLeadTime": "est",
+  "HasAlarm": false,
+  "ColorIndex": 758,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptates",
-  "LeadTime": "voluptatem",
-  "Location": "aut",
-  "RejectCounter": 165,
+  "LagTime": "libero",
+  "LeadTime": "a",
+  "Location": "fugiat",
+  "RejectCounter": 627,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 106,
-      "PersonId": 112,
-      "ContactId": 342,
-      "EmailId": 948,
+      "AssociateId": 480,
+      "PersonId": 665,
+      "ContactId": 344,
+      "EmailId": 823,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kennedy@kling.biz",
-      "Description": "Customer-focused holistic product"
+      "EmailAddress": "jewell_bogan@oconnell.info",
+      "Description": "Persevering didactic forecast"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-09-09T11:24:47.4689372+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-01-16T03:40:45.9524703+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 391,
+  "PreferredTZLocation": 88,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 95,
+  "SuggestedAppointmentId": 500,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "CentralserviceVideomeetId": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "847468054",
-    "SuperOffice:2": "Dr. Joel Lindgren"
+    "SuperOffice:1": "Prof. Nicola Wuckert",
+    "SuperOffice:2": "Anderson Corkery"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "incidunt"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "dolore"
+    "CustomFields1": "ratione",
+    "CustomFields2": "quam"
   },
-  "PublishEventDate": "2007-05-21T11:24:47.4689372+02:00",
-  "PublishTo": "2017-07-03T11:24:47.4689372+02:00",
-  "PublishFrom": "2025-07-02T11:24:47.4689372+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-07-26T03:40:45.9524703+02:00",
+  "PublishTo": "2010-03-21T03:40:45.9524703+01:00",
+  "PublishFrom": "2000-12-02T03:40:45.9524703+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 257,
+      "VisibleId": 271,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 868
         }
       }
     },
     {
-      "VisibleId": 257,
+      "VisibleId": 271,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 868
         }
       }
     }
@@ -277,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

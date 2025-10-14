@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCredited
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCurrencyId
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDescription
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colEarning
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colEarningPercent
@@ -911,6 +912,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colWeightedAmountInBaseCurrency As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  id: _colDaysInStage
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colDaysInStage
+  nameWithType: SaleExtenderBase._colDaysInStage
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colDaysInStage
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colDaysInStage As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   id: '#ctor'

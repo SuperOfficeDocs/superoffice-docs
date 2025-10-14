@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
 Get the best language for this person on this template
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 93,
-  "TemplateId": 643
+  "PersonId": 242,
+  "TemplateId": 838
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"aut"
 ```

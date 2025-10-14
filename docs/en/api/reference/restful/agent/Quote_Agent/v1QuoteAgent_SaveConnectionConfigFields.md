@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Saves the connection config fields
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 75,
+  "QuoteConnectionId": 451,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "ea",
-    "ConnectionConfigFields2": "dignissimos"
+    "ConnectionConfigFields1": "blanditiis",
+    "ConnectionConfigFields2": "voluptates"
   }
 }
 ```
@@ -89,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "soluta",
-  "2": "ut"
+  "1": "dolorem",
+  "2": "culpa"
 }
 ```

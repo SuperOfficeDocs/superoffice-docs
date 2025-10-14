@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Get status values for user licenses and installation license that can be used for feedback to the user.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 512
+  "AssociateId": 564
 }
 ```
 
@@ -92,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2003-02-17T11:24:48.1720293+01:00",
-  "ExpiryDate": "2020-05-05T11:24:48.1720293+02:00",
-  "GraceDate": "2010-10-02T11:24:48.1720293+02:00",
-  "CompanyName": "Purdy Group",
+  "AdminWarningDate": "2004-08-04T03:40:46.9999043+02:00",
+  "ExpiryDate": "2018-07-27T03:40:46.9999043+02:00",
+  "GraceDate": "2009-01-01T03:40:46.9999043+01:00",
+  "CompanyName": "Leuschke-Baumbach",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "asperiores",
-    "non"
+    "et",
+    "culpa"
   ]
 }
 ```

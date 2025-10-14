@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 556,
-  "TopicId": 909,
+  "ChatSessionId": 44,
+  "TopicId": 607,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "sit",
-  "CustomerName": "Strosin-Zemlak",
-  "CustomerEmail": "salvador.will@beieroreilly.info",
-  "CustomerPhone": "1-549-174-5956 x19204",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Runte, Barrows and Lebsack",
+  "CustomerAlias": "aut",
+  "CustomerHost": "nam",
+  "CustomerName": "Cole, Goyette and Carter",
+  "CustomerEmail": "oswaldo@oconnell.name",
+  "CustomerPhone": "(709)462-0087",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Berge-Prosacco",
   "Status": "Closed",
-  "FirstMessage": "saepe",
-  "LastMessage": "quia",
-  "WhenRequested": "2014-10-07T11:24:53.0312061+02:00",
-  "WhenStarted": "2009-10-23T11:24:53.0312061+02:00",
-  "WhenEnded": "2021-02-01T11:24:53.0312061+01:00",
-  "WhenIdle": "2004-01-07T11:24:53.0312061+01:00",
-  "WhenFetched": "2017-01-22T11:24:53.0312061+01:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 664,
-  "AlertLevel": 282,
-  "Rank": 514,
+  "FirstMessage": "quos",
+  "LastMessage": "rerum",
+  "WhenRequested": "2009-09-29T03:40:55.3661845+02:00",
+  "WhenStarted": "2003-08-06T03:40:55.3661845+02:00",
+  "WhenEnded": "2005-08-01T03:40:55.3661845+02:00",
+  "WhenIdle": "2022-07-04T03:40:55.3661845+02:00",
+  "WhenFetched": "2014-03-12T03:40:55.3661845+01:00",
+  "SessionKey": "quos",
+  "InitialQueuePos": 31,
+  "AlertLevel": 131,
+  "Rank": 873,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 720,
+  "Rating": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

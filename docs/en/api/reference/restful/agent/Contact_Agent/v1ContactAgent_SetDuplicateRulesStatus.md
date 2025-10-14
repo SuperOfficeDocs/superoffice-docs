@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Set which duplicate rules should be active or not
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,22 +67,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Grant Inc and Sons",
-      "DisplayName": "Littel Group",
-      "DisplayTooltip": "nisi",
-      "IsActive": true
+      "Name": "Wolff-Macejkovic",
+      "DisplayName": "Mraz-Heller",
+      "DisplayTooltip": "et",
+      "IsActive": false
     },
     {
-      "Name": "Grant Inc and Sons",
-      "DisplayName": "Littel Group",
-      "DisplayTooltip": "nisi",
-      "IsActive": true
+      "Name": "Wolff-Macejkovic",
+      "DisplayName": "Mraz-Heller",
+      "DisplayTooltip": "et",
+      "IsActive": false
     }
   ]
 }

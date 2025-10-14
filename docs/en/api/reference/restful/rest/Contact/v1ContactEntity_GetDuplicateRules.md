@@ -59,7 +59,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thompson Inc and Sons",
-    "DisplayName": "Abernathy, Braun and Kerluke",
-    "DisplayTooltip": "molestiae",
-    "IsActive": false,
+    "Name": "Christiansen LLC",
+    "DisplayName": "Bins-Hartmann",
+    "DisplayTooltip": "aliquid",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   },
   {
-    "Name": "Thompson Inc and Sons",
-    "DisplayName": "Abernathy, Braun and Kerluke",
-    "DisplayTooltip": "molestiae",
-    "IsActive": false,
+    "Name": "Christiansen LLC",
+    "DisplayName": "Bins-Hartmann",
+    "DisplayTooltip": "aliquid",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 169
+        "FieldType": "System.Int32",
+        "FieldLength": 294
       }
     }
   }

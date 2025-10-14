@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=sapiente
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=nemo
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Schultz LLC",
-    "ToolTip": "Nisi iste eos rerum dolores in quod.",
+    "Id": 693,
+    "Name": "White, Dicki and Nolan",
+    "ToolTip": "Occaecati voluptatem beatae temporibus.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "dolor",
+    "Rank": 537,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Jacobson Inc and Sons",
-        "ToolTip": "Qui alias rerum.",
+        "Id": 781,
+        "Name": "Beahan LLC",
+        "ToolTip": "Nam explicabo.",
         "Deleted": false,
-        "Rank": 343,
-        "Type": "aut",
+        "Rank": 731,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "pariatur",
-        "ColorBlock": 746,
-        "ExtraInfo": "cum",
-        "StyleHint": "autem",
-        "FullName": "Emerald Okuneva",
+        "IconHint": "omnis",
+        "ColorBlock": 219,
+        "ExtraInfo": "maxime",
+        "StyleHint": "maxime",
+        "FullName": "Roman Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 785
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 338,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "facere",
-    "FullName": "Mr. Bonita Stroman",
+    "IconHint": "et",
+    "ColorBlock": 549,
+    "ExtraInfo": "tempore",
+    "StyleHint": "voluptatem",
+    "FullName": "Moshe Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 521
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

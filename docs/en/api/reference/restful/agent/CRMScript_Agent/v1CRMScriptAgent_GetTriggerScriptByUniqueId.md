@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Get a trigger CRMScript.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "at"
+  "TriggerScriptUniqueId": "tenetur"
 }
 ```
 
@@ -100,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 186,
-  "Name": "Hodkiewicz-Macejkovic",
+  "ScreenChooserId": 518,
+  "Name": "Crooks Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quae",
-  "Source": "id",
-  "Registered": "2023-07-10T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "2024-05-02T11:24:47.8439178+02:00",
-  "UpdatedAssociateId": 93,
+  "UniqueIdentifier": "iste",
+  "Source": "molestiae",
+  "Registered": "2009-10-10T03:40:46.5306238+02:00",
+  "RegisteredAssociateId": 365,
+  "Updated": "2022-01-08T03:40:46.5306238+01:00",
+  "UpdatedAssociateId": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 691
     }
   }
 }

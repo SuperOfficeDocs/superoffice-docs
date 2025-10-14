@@ -62,7 +62,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 914,
-  "Name": "Smitham, Balistreri and Dach",
-  "TZLocationCode": "molestiae",
-  "TZLocationCities": "mollitia",
-  "IsoNumber": 188,
+  "TZLocationID": 29,
+  "Name": "Kris-Breitenberg",
+  "TZLocationCode": "perspiciatis",
+  "TZLocationCities": "in",
+  "IsoNumber": 68,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 640,
-      "StartMonth": 925,
-      "EndDay": 811,
-      "EndMonth": 98,
-      "TZOffset": 746,
-      "StartRulePattern": "non",
-      "EndRulePattern": "eaque"
+      "StartDay": 816,
+      "StartMonth": 198,
+      "EndDay": 659,
+      "EndMonth": 553,
+      "TZOffset": 902,
+      "StartRulePattern": "rerum",
+      "EndRulePattern": "quos"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 556,
-      "StartMonth": 552,
-      "EndDay": 297,
-      "EndMonth": 660,
-      "TZOffset": 444,
-      "StartRulePattern": "est",
-      "EndRulePattern": "quod"
+      "StartDay": 615,
+      "StartMonth": 765,
+      "EndDay": 872,
+      "EndMonth": 688,
+      "TZOffset": 562,
+      "StartRulePattern": "aspernatur",
+      "EndRulePattern": "eum"
     }
   }
 }

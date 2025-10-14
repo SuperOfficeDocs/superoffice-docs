@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Loading default values into a new EMailAppointment.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -65,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,20 +81,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "mollitia",
-    "iste"
+    "ab",
+    "quibusdam"
   ],
-  "Comment": "sed",
-  "Sequence": 105,
-  "DtStart": "2003-11-13T11:24:48.078283+01:00",
-  "DtEnd": "2015-11-22T11:24:48.078283+01:00",
+  "Comment": "sunt",
+  "Sequence": 542,
+  "DtStart": "2018-09-22T03:40:46.8436443+02:00",
+  "DtEnd": "2007-05-26T03:40:46.8436443+02:00",
   "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 100
     }
   }
 }

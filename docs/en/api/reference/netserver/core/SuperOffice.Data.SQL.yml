@@ -221,6 +221,7 @@ items:
   - SuperOffice.Data.SQL.TicketReadStatusFieldInfo
   - SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
   - SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
+  - SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
   - SuperOffice.Data.SQL.Top
   - SuperOffice.Data.SQL.TravelEncryptionChildFieldInfo
   - SuperOffice.Data.SQL.TravelEncryptionOwnFieldInfo
@@ -883,6 +884,14 @@ references:
   name: BoardViewEntityTypeFieldInfo
   nameWithType: BoardViewEntityTypeFieldInfo
   fullName: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+- uid: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo.html
+  name: TimeKeepingTypeFieldInfo
+  nameWithType: TimeKeepingTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
 - uid: SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
   commentId: T:SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
   parent: SuperOffice.Data.SQL

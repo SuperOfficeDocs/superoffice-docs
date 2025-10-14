@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAppointment
 Gets a Appointment object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=204
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=988
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -122,7 +124,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -132,67 +134,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 999,
-  "StartDate": "2010-12-19T11:24:47.3439298+01:00",
-  "EndDate": "2023-02-02T11:24:47.3439298+01:00",
+  "AppointmentId": 883,
+  "StartDate": "2011-03-28T03:40:45.68562+02:00",
+  "EndDate": "2004-06-02T03:40:45.68562+02:00",
   "Type": "BookingForChecklist",
-  "Task": "atque",
-  "AssociateFullName": "Prof. Assunta Olin Boyle III",
-  "ContactName": "Romaguera Group",
-  "Description": "Operative solution-oriented algorithm",
-  "PersonFullName": "Mrs. Bessie Lillian Parisian DVM",
-  "PersonId": 939,
-  "ContactId": 282,
-  "ProjectId": 836,
-  "ProjectName": "Kiehn LLC",
+  "Task": "ea",
+  "AssociateFullName": "Jessika Beahan",
+  "ContactName": "Heaney-Bergnaum",
+  "Description": "Monitored human-resource knowledge user",
+  "PersonFullName": "Katharina Dooley DVM",
+  "PersonId": 425,
+  "ContactId": 231,
+  "ProjectId": 489,
+  "ProjectName": "Cole-Huels",
   "IsPublished": true,
-  "AssociateId": 992,
-  "ColorIndex": 137,
+  "AssociateId": 412,
+  "ColorIndex": 256,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 185,
-  "PriorityName": "Feeney-O'Conner",
+  "PriorityId": 496,
+  "PriorityName": "Wolf Group",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2025-03-26T11:24:47.3439298+01:00",
+  "ActiveDate": "2016-03-12T03:40:45.68562+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-11-19T11:24:47.3439298+01:00",
-  "RecurringEndDate": "2016-12-26T11:24:47.3439298+01:00",
-  "MotherId": 285,
-  "AssignedBy": 875,
-  "AssignedByFullName": "Stacey Kozey",
+  "RecurringStartDate": "2018-08-13T03:40:45.68562+02:00",
+  "RecurringEndDate": "2017-04-04T03:40:45.68562+02:00",
+  "MotherId": 159,
+  "AssignedBy": 559,
+  "AssignedByFullName": "Mr. Clark Ezekiel Reichert I",
   "RejectReason": "",
-  "Location": "eius",
-  "AlarmLeadTime": "totam",
-  "SaleId": 856,
-  "SaleName": "Kihn-Schoen",
-  "AssociateName": "Keeling LLC",
-  "CreatedDate": "1999-06-06T11:24:47.3439298+02:00",
-  "CreatedBy": "veritatis",
-  "CreatedByFullName": "Kaitlin Deckow",
-  "CreatedByAssociateId": 927,
+  "Location": "et",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 309,
+  "SaleName": "Bergnaum, Stark and Pacocha",
+  "AssociateName": "Schaden-O'Reilly",
+  "CreatedDate": "2015-10-29T03:40:45.68562+01:00",
+  "CreatedBy": "omnis",
+  "CreatedByFullName": "Marisol Botsford",
+  "CreatedByAssociateId": 555,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 711,
+  "MotherAssociateId": 618,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 495,
-  "Title": "maiores",
-  "Agenda": "rerum",
-  "InternalNotes": "rem",
+  "PreferredTZLocation": 408,
+  "Title": "ut",
+  "Agenda": "ex",
+  "InternalNotes": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 436
     }
   }
 }

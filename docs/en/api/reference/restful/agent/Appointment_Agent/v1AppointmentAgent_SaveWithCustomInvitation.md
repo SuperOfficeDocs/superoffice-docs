@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Save a booking and send a custom invitation email to participants
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,9 +93,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "daren@bogan.ca",
-  "Subject": "qui",
-  "TemplateLanguage": "dolores"
+  "EmailBody": "christine@carrollbernier.ca",
+  "Subject": "atque",
+  "TemplateLanguage": "sint"
 }
 ```
 
@@ -105,13 +107,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "EmailCreated": true,
+  "EmailCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 94
     }
   }
 }

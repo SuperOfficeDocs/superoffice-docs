@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashList
 Gets the ordered list of dashboards
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,13 +88,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    679,
-    103
+    853,
+    550
   ]
 }
 ```
@@ -105,37 +107,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 673,
-    "UniqueId": "dolores",
-    "Name": "Ruecker Inc and Sons",
-    "Description": "Face to face multi-tasking installation",
-    "AssociateId": 578,
-    "Columns": 777,
+    "DashboardId": 488,
+    "UniqueId": "quas",
+    "Name": "Bergstrom-Adams",
+    "Description": "Multi-lateral eco-centric functionalities",
+    "AssociateId": 940,
+    "Columns": 295,
     "Theme": null,
-    "VisibleForAll": 805,
+    "VisibleForAll": 82,
     "VisibleForAssociates": [
-      647,
-      266
+      175,
+      537
     ],
     "VisibleForGroups": [
-      68,
-      729
+      431,
+      160
     ],
-    "PinForAll": 233,
+    "PinForAll": 378,
     "PinForAssociates": [
-      49,
-      595
+      733,
+      805
     ],
     "PinForGroups": [
-      147,
-      595
+      699,
+      232
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 707
+        "FieldType": "System.Int32",
+        "FieldLength": 274
       }
     }
   }

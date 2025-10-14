@@ -15,6 +15,7 @@ Specify what kind of notification events a user should receive push notification
 
 
 This will update all registerred devices for this user.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 703,
-  "Tags": "vero"
+  "AssociateId": 912,
+  "Tags": "labore"
 }
 ```
 

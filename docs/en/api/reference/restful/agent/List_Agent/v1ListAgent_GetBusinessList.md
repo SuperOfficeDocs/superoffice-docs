@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetBusinessList
 Gets an array of Business objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Value": "a",
-    "Tooltip": "id",
+    "Id": 622,
+    "Value": "aperiam",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 415
       }
     }
   },
   {
-    "Id": 5,
-    "Value": "a",
-    "Tooltip": "id",
+    "Id": 622,
+    "Value": "aperiam",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 415
       }
     }
   }

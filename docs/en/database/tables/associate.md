@@ -261,6 +261,7 @@ Employees, resources and other users - except for External persons
 |[ProjTypeHeadingLink](projtypeheadinglink.md)  |Heading link table for ProjType, for MDO headers |
 |[Publish](publish.md)  |Publishing system for external users |
 |[PushNotificationService](pushnotificationservice.md)  |Used for storing handles to user devices that should receive push notifications |
+|[quick\_filter\_info](quick-filter-info.md)  |Connect quick filter info from a specific provider to a dashboard |
 |[quick\_reply](quick-reply.md)  |Personal quick reply text fragments |
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
 |[QuoteAlternative](quotealternative.md)  |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed. |
@@ -383,6 +384,7 @@ Employees, resources and other users - except for External persons
 |[ticket\_type](ticket-type.md)  |A ticket (request) type |
 |[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 |[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |
+|[time\_keeping](time-keeping.md)  |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
 |[travelgenerateddatabase](travelgenerateddatabase.md)  |Information about all databases generated from this database |
 |[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |

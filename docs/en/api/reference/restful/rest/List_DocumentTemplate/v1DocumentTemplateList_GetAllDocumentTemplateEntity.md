@@ -28,7 +28,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 530,
-    "Name": "Huel-Connelly",
-    "Tooltip": "nam",
-    "SaveInDb": 96,
-    "Filename": "magnam",
-    "DefaultOref": "nisi",
+    "DocumentTemplateId": 671,
+    "Name": "Torp-Douglas",
+    "Tooltip": "voluptatem",
+    "SaveInDb": 394,
+    "Filename": "eaque",
+    "DefaultOref": "provident",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 779,
-    "IntentId": 830,
+    "AutoeventId": 482,
+    "IntentId": 762,
     "IsDefaultPublished": false,
-    "Rank": 670,
-    "LoadTemplateFromPlugin": 299,
-    "MimeType": "quo",
+    "Rank": 418,
+    "LoadTemplateFromPlugin": 971,
+    "MimeType": "et",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 289,
+    "DocumentTypeKey": 926,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "triston@crooks.ca",
+    "EmailSubject": "carolyne@keeling.name",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "amara_kuhn@kertzmann.co.uk",
+    "SenderEmailAddress": "felicita_stanton@bartellschowalter.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

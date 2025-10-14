@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/DeleteRow
 Delete a row from a table
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/DatabaseTable/DeleteRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Skiles LLC",
-  "Id": 908
+  "TableName": "Williamson LLC",
+  "Id": 795
 }
 ```
 

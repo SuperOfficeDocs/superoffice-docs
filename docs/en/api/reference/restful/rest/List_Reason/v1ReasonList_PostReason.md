@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Adams, Collins and Beatty",
-  "Tooltip": "hic",
+  "Id": 971,
+  "Name": "Paucek, Wilderman and Deckow",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "UdListDefinitionId": 567,
-  "Rank": 83
+  "UdListDefinitionId": 26,
+  "Rank": 998
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Howe, Daniel and Jacobs",
-  "Tooltip": "ex",
+  "Id": 848,
+  "Name": "Bartoletti LLC",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 662,
-  "Rank": 877,
+  "UdListDefinitionId": 622,
+  "Rank": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 971
     }
   }
 }

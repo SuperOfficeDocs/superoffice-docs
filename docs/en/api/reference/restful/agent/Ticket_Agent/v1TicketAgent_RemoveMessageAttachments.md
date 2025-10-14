@@ -15,6 +15,7 @@ Removes attachments from the message as specified in the collection of entity id
 
 
 The ids are attachment ids (attachment primary key)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,14 +69,14 @@ No Content
 POST /api/v1/Agents/Ticket/RemoveMessageAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 609,
+  "TicketMessageEntityId": 622,
   "AttachmentIds": [
-    35,
-    4
+    646,
+    264
   ]
 }
 ```

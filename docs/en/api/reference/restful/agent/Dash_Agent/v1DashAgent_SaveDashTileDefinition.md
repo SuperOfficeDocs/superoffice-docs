@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -100,29 +102,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 473,
-  "Name": "Cronin LLC",
-  "Description": "Upgradable directional secured line",
-  "DefaultHeight": 126,
-  "DefaultWidth": 201,
+  "DashboardTileDefinitionId": 82,
+  "Name": "Kovacek-Becker",
+  "Description": "Adaptive 6th generation encryption",
+  "DefaultHeight": 440,
+  "DefaultWidth": 785,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jaskolski LLC",
-  "SelectionId": 164,
+  "EntityName": "Morar-Ernser",
+  "SelectionId": 179,
   "CurrencyMode": "Base",
-  "CurrencyCode": "perferendis",
+  "CurrencyCode": "dicta",
   "Measure": "Average",
-  "MeasureField": "deserunt",
-  "SortBy": "omnis",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 219,
-  "MeasureByField": "accusamus",
+  "MeasureField": "est",
+  "SortBy": "commodi",
+  "LayoutConfig": "aperiam",
+  "SecondarySelectionId": 521,
+  "MeasureByField": "omnis",
   "Usage": "Dashboard",
-  "ProviderName": "Walter, Rutherford and Senger"
+  "ProviderName": "Stark Inc and Sons"
 }
 ```
 
@@ -133,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 16,
-  "Name": "Legros, Kub and Gutmann",
-  "Description": "Horizontal bi-directional software",
-  "DefaultHeight": 704,
-  "DefaultWidth": 17,
+  "DashboardTileDefinitionId": 237,
+  "Name": "Hills, Mitchell and O'Keefe",
+  "Description": "Seamless transitional extranet",
+  "DefaultHeight": 606,
+  "DefaultWidth": 757,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jast, Reynolds and Powlowski",
-  "SelectionId": 874,
+  "EntityName": "Hettinger-Shields",
+  "SelectionId": 291,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "nobis",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "repellendus",
-  "LayoutConfig": "expedita",
-  "SecondarySelectionId": 543,
-  "MeasureByField": "sit",
+  "MeasureField": "eos",
+  "SortBy": "facere",
+  "LayoutConfig": "sed",
+  "SecondarySelectionId": 487,
+  "MeasureByField": "facilis",
   "Usage": "Dashboard",
-  "ProviderName": "Mills Inc and Sons",
+  "ProviderName": "Metz-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 373
     }
   }
 }

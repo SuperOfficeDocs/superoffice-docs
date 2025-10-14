@@ -15,6 +15,7 @@ Method that returns a specified number of appointments matching a set of appoint
 
 
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 842,
-  "StartTime": "1999-01-14T11:24:47.2970652+01:00",
-  "EndTime": "2019-03-20T11:24:47.2970652+01:00",
-  "Count": 170,
+  "PersonId": 846,
+  "StartTime": "2008-06-11T03:40:45.60749+02:00",
+  "EndTime": "2008-01-17T03:40:45.60749+01:00",
+  "Count": 100,
   "TaskIds": [
-    970,
-    454
+    341,
+    472
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 260,
-    "StartDate": "2004-06-23T11:24:47.2970652+02:00",
-    "EndDate": "2000-12-23T11:24:47.2970652+01:00",
+    "AppointmentId": 544,
+    "StartDate": "2020-07-01T03:40:45.60749+02:00",
+    "EndDate": "2007-03-08T03:40:45.60749+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Rocio Bryon Renner DDS",
-    "ContactName": "Gerhold Inc and Sons",
-    "Description": "Universal real-time secured line",
-    "PersonFullName": "Hettie Heller",
-    "PersonId": 716,
-    "ContactId": 384,
-    "ProjectId": 545,
-    "ProjectName": "Ryan LLC",
-    "IsPublished": true,
-    "AssociateId": 243,
-    "ColorIndex": 481,
+    "Task": "eligendi",
+    "AssociateFullName": "Gus Gutmann",
+    "ContactName": "Ernser Group",
+    "Description": "Assimilated optimal flexibility",
+    "PersonFullName": "Aliza McLaughlin",
+    "PersonId": 346,
+    "ContactId": 840,
+    "ProjectId": 533,
+    "ProjectName": "Daugherty, Waelchi and Hoppe",
+    "IsPublished": false,
+    "AssociateId": 616,
+    "ColorIndex": 785,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 540,
-    "PriorityName": "Pollich LLC",
+    "PriorityId": 636,
+    "PriorityName": "Schuppe, Pollich and Davis",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2025-02-25T11:24:47.2970652+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "1999-01-12T03:40:45.60749+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-07-05T11:24:47.2970652+02:00",
-    "RecurringEndDate": "2019-10-01T11:24:47.2970652+02:00",
-    "MotherId": 653,
-    "AssignedBy": 491,
-    "AssignedByFullName": "Mr. Dejuan Fay",
+    "RecurringStartDate": "2008-07-22T03:40:45.60749+02:00",
+    "RecurringEndDate": "2005-05-24T03:40:45.60749+02:00",
+    "MotherId": 374,
+    "AssignedBy": 302,
+    "AssignedByFullName": "Estel Monahan",
     "RejectReason": "",
-    "Location": "non",
-    "AlarmLeadTime": "commodi",
-    "SaleId": 777,
-    "SaleName": "Purdy Group",
-    "AssociateName": "Funk, Wilkinson and Nicolas",
-    "CreatedDate": "2021-01-05T11:24:47.2970652+01:00",
-    "CreatedBy": "aliquid",
-    "CreatedByFullName": "Mr. Keanu Wintheiser",
-    "CreatedByAssociateId": 831,
+    "Location": "enim",
+    "AlarmLeadTime": "minima",
+    "SaleId": 695,
+    "SaleName": "Weber Group",
+    "AssociateName": "Hand-Johnson",
+    "CreatedDate": "2005-07-06T03:40:45.60749+02:00",
+    "CreatedBy": "voluptatem",
+    "CreatedByFullName": "Mrs. Nannie Wunsch Jr.",
+    "CreatedByAssociateId": 46,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 667,
+    "MotherAssociateId": 756,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 197,
-    "Title": "omnis",
-    "Agenda": "dolores",
-    "InternalNotes": "amet",
+    "PreferredTZLocation": 656,
+    "Title": "aut",
+    "Agenda": "et",
+    "InternalNotes": "molestiae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 378
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

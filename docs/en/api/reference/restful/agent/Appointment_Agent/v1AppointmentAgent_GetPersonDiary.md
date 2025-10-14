@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -137,10 +138,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 911,
-  "StartTime": "2015-10-03T11:24:47.5939281+02:00",
-  "EndTime": "2023-04-03T11:24:47.5939281+02:00",
-  "Count": 653
+  "PersonId": 197,
+  "StartTime": "2025-07-27T03:40:46.0452033+02:00",
+  "EndTime": "2004-02-25T03:40:46.0452033+01:00",
+  "Count": 944
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 477,
-    "StartDate": "2012-01-06T11:24:47.5939281+01:00",
-    "EndDate": "2024-05-14T11:24:47.5939281+02:00",
+    "AppointmentId": 770,
+    "StartDate": "2006-07-09T03:40:46.0452033+02:00",
+    "EndDate": "2013-08-11T03:40:46.0452033+02:00",
     "Type": "BookingForChecklist",
-    "Task": "accusamus",
-    "AssociateFullName": "Melba Conroy",
-    "ContactName": "Kreiger Inc and Sons",
-    "Description": "Persevering bi-directional architecture",
-    "PersonFullName": "Chaya Ziemann",
-    "PersonId": 701,
-    "ContactId": 518,
-    "ProjectId": 387,
-    "ProjectName": "Kertzmann LLC",
+    "Task": "aut",
+    "AssociateFullName": "Flossie Macejkovic",
+    "ContactName": "Morissette, Lockman and Herman",
+    "Description": "Profit-focused foreground matrix",
+    "PersonFullName": "Mr. Juston Hand Sr.",
+    "PersonId": 321,
+    "ContactId": 527,
+    "ProjectId": 766,
+    "ProjectName": "Lakin-Ebert",
     "IsPublished": false,
-    "AssociateId": 1001,
-    "ColorIndex": 992,
+    "AssociateId": 222,
+    "ColorIndex": 993,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 96,
-    "PriorityName": "Fadel Inc and Sons",
+    "PriorityId": 269,
+    "PriorityName": "Marvin, Kirlin and Hauck",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-01-10T11:24:47.5939281+01:00",
+    "ActiveDate": "2014-06-07T03:40:46.0452033+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-02-03T11:24:47.5939281+01:00",
-    "RecurringEndDate": "2009-10-27T11:24:47.5939281+01:00",
-    "MotherId": 676,
-    "AssignedBy": 131,
-    "AssignedByFullName": "Jude Leonard Hayes PhD",
+    "RecurringStartDate": "2005-05-05T03:40:46.0452033+02:00",
+    "RecurringEndDate": "2018-12-04T03:40:46.0452033+01:00",
+    "MotherId": 960,
+    "AssignedBy": 38,
+    "AssignedByFullName": "Jerod Ortiz",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "temporibus",
-    "SaleId": 326,
-    "SaleName": "Simonis-Stehr",
-    "AssociateName": "Dooley LLC",
-    "CreatedDate": "1999-12-21T11:24:47.5939281+01:00",
-    "CreatedBy": "nihil",
-    "CreatedByFullName": "Johnnie Lebsack",
-    "CreatedByAssociateId": 895,
+    "Location": "eum",
+    "AlarmLeadTime": "iusto",
+    "SaleId": 396,
+    "SaleName": "O'Connell, Altenwerth and Farrell",
+    "AssociateName": "Pfannerstill-Ebert",
+    "CreatedDate": "2003-04-23T03:40:46.0452033+02:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Dorris Satterfield DDS",
+    "CreatedByAssociateId": 569,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 324,
+    "MotherAssociateId": 814,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 952,
-    "Title": "eius",
+    "PreferredTZLocation": 443,
+    "Title": "omnis",
     "Agenda": "quia",
-    "InternalNotes": "enim",
+    "InternalNotes": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 103
       }
     }
   }

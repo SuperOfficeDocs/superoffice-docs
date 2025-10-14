@@ -15,6 +15,7 @@ Toggles the first activity and sets the rest of the activities to the result of 
 
 
 However, there are some special rules for appointments that trigger a suggested appointment when they are completed. If more than one appointment in the set of identifiers triggers a suggestion, we will not toggle those appointments. This rule is only active when changing the status of an appointment to complete. There must be more than one appointment that triggers such an event for this rule to take effect.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/Appointment/ToggleAndSetActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "consequuntur",
-    "maiores"
+    "enim",
+    "omnis"
   ]
 }
 ```
@@ -89,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dolorem",
-  "consequatur"
+  "eius",
+  "soluta"
 ]
 ```

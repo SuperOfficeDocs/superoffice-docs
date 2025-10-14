@@ -15,6 +15,7 @@ Hard-delete (real, permanent DELETE in the database) the given web panel.
 
 
 Use with care!
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265
+  "Id": 715
 }
 ```
 

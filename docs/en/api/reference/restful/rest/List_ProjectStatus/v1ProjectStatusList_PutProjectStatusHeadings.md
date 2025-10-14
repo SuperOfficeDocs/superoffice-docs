@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 637,
-    "Name": "Stamm, Crona and Walter",
-    "Tooltip": "iusto",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 438
+    "HeadingId": 30,
+    "Name": "Murazik-Reynolds",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 668,
+    "UdListDefinitionId": 535
   },
   {
-    "HeadingId": 637,
-    "Name": "Stamm, Crona and Walter",
-    "Tooltip": "iusto",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 438
+    "HeadingId": 30,
+    "Name": "Murazik-Reynolds",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 668,
+    "UdListDefinitionId": 535
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 967,
-    "Name": "Jewess-Heidenreich",
-    "Tooltip": "maiores",
-    "Deleted": false,
-    "Rank": 541,
-    "UdListDefinitionId": 546,
+    "HeadingId": 898,
+    "Name": "Crooks, Goyette and Harber",
+    "Tooltip": "delectus",
+    "Deleted": true,
+    "Rank": 430,
+    "UdListDefinitionId": 283,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mosciski, Hammes and Haag",
-  "EmailAddress": "bert.emmerich@huelvolkman.uk"
+  "Name": "McDermott-Yundt",
+  "EmailAddress": "zackery@rowe.name"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 357,
-    "FullName": "Miss Weldon O'Conner PhD",
-    "EmailAddress": "jaylen@bogan.uk",
-    "ContactId": 520,
-    "ContactName": "Parker Inc and Sons",
+    "PersonId": 602,
+    "FullName": "Evie Halvorson",
+    "EmailAddress": "samir@harris.com",
+    "ContactId": 439,
+    "ContactName": "Douglas-Witting",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Rippin, Deckow and Tremblay",
+    "SortName": "Purdy Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 255
       }
     }
   }

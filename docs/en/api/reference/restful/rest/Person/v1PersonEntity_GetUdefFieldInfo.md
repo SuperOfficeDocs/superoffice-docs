@@ -94,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 725,
-  "ColumnId": 485,
-  "FieldDefault": "eos",
-  "FieldHeight": 894,
-  "FieldLabel": "est",
-  "FieldLeft": 199,
-  "FieldTop": 70,
+  "UDefFieldId": 938,
+  "ColumnId": 872,
+  "FieldDefault": "in",
+  "FieldHeight": 404,
+  "FieldLabel": "sint",
+  "FieldLeft": 995,
+  "FieldTop": 609,
   "FieldType": "Checkbox",
-  "FieldWidth": 225,
-  "FormatMask": "asperiores",
+  "FieldWidth": 535,
+  "FormatMask": "rerum",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 803,
-  "LabelLeft": 281,
-  "LabelTop": 676,
-  "LabelWidth": 379,
-  "LastVersionId": 873,
-  "ListTableId": 120,
+  "IsIndexed": false,
+  "LabelHeight": 676,
+  "LabelLeft": 906,
+  "LabelTop": 463,
+  "LabelWidth": 874,
+  "LastVersionId": 999,
+  "ListTableId": 916,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 124,
-  "ProgId": "et",
+  "Page1LineNo": 452,
+  "ProgId": "ea",
   "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 426,
-  "TextLength": 476,
-  "Tooltip": "vel",
-  "UdefIdentity": 392,
-  "UDListDefinitionId": 541,
+  "ShortLabel": "earum",
+  "TabOrder": 764,
+  "TextLength": 786,
+  "Tooltip": "impedit",
+  "UdefIdentity": 792,
+  "UDListDefinitionId": 490,
   "Justification": "Center",
-  "Version": 311,
-  "TemplateVariableName": "Zboncak, Gerhold and Kilback",
-  "HasBeenPublished": true,
-  "MdoListName": "Crooks, Cummings and Okuneva",
+  "Version": 675,
+  "TemplateVariableName": "Rippin-Ondricka",
+  "HasBeenPublished": false,
+  "MdoListName": "Toy-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 464
     }
   }
 }

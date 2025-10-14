@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 109,
-  "Name": "Prohaska-Kuvalis",
-  "Tooltip": "aliquam",
-  "PassiveText": "magnam",
+  "ReldefId": 437,
+  "Name": "Kutch-Kovacek",
+  "Tooltip": "et",
+  "PassiveText": "blanditiis",
   "Deleted": false,
-  "Rank": 170,
+  "Rank": 315,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -100,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 34,
-  "Name": "Johnston LLC",
-  "Tooltip": "nemo",
-  "PassiveText": "dolores",
+  "ReldefId": 539,
+  "Name": "Grant-Goyette",
+  "Tooltip": "temporibus",
+  "PassiveText": "tempore",
   "Deleted": false,
-  "Rank": 842,
+  "Rank": 165,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -113,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 156
     }
   }
 }

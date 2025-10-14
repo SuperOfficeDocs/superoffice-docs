@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 151,
-  "Name": "Doyle Inc and Sons",
-  "Tooltip": "quod",
-  "Rank": 540,
-  "Rate": 9380.062,
-  "Units": 17635.018,
+  "CurrencyId": 544,
+  "Name": "Swaniawski-Gusikowski",
+  "Tooltip": "vero",
+  "Rank": 405,
+  "Rate": 24388.788,
+  "Units": 31145.692,
   "Deleted": false
 }
 ```
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 726,
-  "Name": "Bednar-Heller",
-  "Tooltip": "ut",
-  "Rank": 202,
-  "Rate": 3691.852,
-  "Units": 22273.338,
+  "CurrencyId": 922,
+  "Name": "Hegmann, Bins and Barton",
+  "Tooltip": "commodi",
+  "Rank": 376,
+  "Rate": 22746.572,
+  "Units": 9671.524,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

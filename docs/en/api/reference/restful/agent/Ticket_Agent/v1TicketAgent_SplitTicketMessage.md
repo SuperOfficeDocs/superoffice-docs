@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SplitTicketMessage
 Create new ticket and move/copy data from existing ticket in addition update old message and save new message in a single request.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -134,7 +136,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    806,
-    298
+    38,
+    318
   ]
 }
 ```
@@ -155,21 +157,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 952,
-  "Title": "voluptatem",
-  "CreatedAt": "1999-07-23T11:24:48.7657551+02:00",
-  "LastChanged": "2010-09-15T11:24:48.7657551+02:00",
-  "ReadByOwner": "2016-04-04T11:24:48.7657551+02:00",
-  "ReadByCustomer": "1998-07-30T11:24:48.7657551+02:00",
-  "FirstReadByOwner": "2022-01-29T11:24:48.7657551+01:00",
-  "FirstReadByUser": "2018-06-21T11:24:48.7657551+02:00",
-  "Activate": "2014-10-08T11:24:48.7657551+02:00",
-  "ClosedAt": "2004-10-10T11:24:48.7657551+02:00",
-  "RepliedAt": "2009-06-06T11:24:48.7657551+02:00",
-  "AlertTimeout": "2016-10-11T11:24:48.7657551+02:00",
-  "Deadline": "2018-05-08T11:24:48.7657551+02:00",
+  "TicketId": 28,
+  "Title": "reiciendis",
+  "CreatedAt": "2002-05-08T03:40:48.0473619+02:00",
+  "LastChanged": "2025-05-21T03:40:48.0473619+02:00",
+  "ReadByOwner": "2017-02-17T03:40:48.0473619+01:00",
+  "ReadByCustomer": "2017-07-06T03:40:48.0473619+02:00",
+  "FirstReadByOwner": "1999-09-29T03:40:48.0473619+02:00",
+  "FirstReadByUser": "2006-02-28T03:40:48.0473619+01:00",
+  "Activate": "2011-05-29T03:40:48.0473619+02:00",
+  "ClosedAt": "2013-02-23T03:40:48.0473619+01:00",
+  "RepliedAt": "2018-05-25T03:40:48.0473619+02:00",
+  "AlertTimeout": "2011-04-10T03:40:48.0473619+02:00",
+  "Deadline": "2014-12-30T03:40:48.0473619+01:00",
   "CreatedBy": null,
-  "Author": "tenetur",
+  "Author": "officiis",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -180,163 +182,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aut",
-      "PersonId": 236,
-      "Mrmrs": "aliquam",
-      "Firstname": "Arvid",
-      "Lastname": "Gerhold",
-      "MiddleName": "McLaughlin Group",
-      "Title": "excepturi",
-      "Description": "Self-enabling needs-based software",
-      "Email": "carlo.oconner@herman.com",
-      "FullName": "Angelo Kuhlman",
-      "DirectPhone": "1-614-220-5024",
-      "FormalName": "Hessel-Kuhn",
-      "CountryId": 542,
-      "ContactId": 737,
-      "ContactName": "Green, Hickle and Reynolds",
-      "Retired": 462,
-      "Rank": 842,
-      "ActiveInterests": 282,
+      "Position": "ea",
+      "PersonId": 475,
+      "Mrmrs": "quia",
+      "Firstname": "Luther",
+      "Lastname": "Mann",
+      "MiddleName": "Leuschke, Ebert and Wiza",
+      "Title": "quod",
+      "Description": "Vision-oriented discrete parallelism",
+      "Email": "davion@white.biz",
+      "FullName": "Ms. Pearl Jazmyne Franecki V",
+      "DirectPhone": "793-014-7911 x890",
+      "FormalName": "Mante, Cronin and Fisher",
+      "CountryId": 400,
+      "ContactId": 48,
+      "ContactName": "Champlin Inc and Sons",
+      "Retired": 193,
+      "Rank": 472,
+      "ActiveInterests": 385,
       "ContactDepartment": "",
-      "ContactCountryId": 503,
-      "ContactOrgNr": "1582920",
-      "FaxPhone": "280-077-5988 x183",
-      "MobilePhone": "343.561.6827",
-      "ContactPhone": "(862)154-6654",
-      "AssociateName": "Jacobson, Thiel and Tromp",
-      "AssociateId": 634,
-      "UsePersonAddress": true,
-      "ContactFax": "sequi",
-      "Kanafname": "dolor",
-      "Kanalname": "consectetur",
-      "Post1": "vel",
-      "Post2": "vero",
-      "Post3": "perferendis",
-      "EmailName": "morgan@dach.ca",
-      "ContactFullName": "Mr. Jazmin Reese Schiller Jr.",
-      "ActiveErpLinks": 459,
-      "TicketPriorityId": 1000,
-      "SupportLanguageId": 902,
-      "SupportAssociateId": 475,
+      "ContactCountryId": 860,
+      "ContactOrgNr": "1539326",
+      "FaxPhone": "075-574-4845",
+      "MobilePhone": "1-636-178-8985",
+      "ContactPhone": "1-162-330-3715",
+      "AssociateName": "Zemlak LLC",
+      "AssociateId": 327,
+      "UsePersonAddress": false,
+      "ContactFax": "nesciunt",
+      "Kanafname": "maiores",
+      "Kanalname": "quia",
+      "Post1": "voluptatem",
+      "Post2": "voluptas",
+      "Post3": "quisquam",
+      "EmailName": "myrl_rippin@nolan.us",
+      "ContactFullName": "Mr. Ford Willms I",
+      "ActiveErpLinks": 802,
+      "TicketPriorityId": 607,
+      "SupportLanguageId": 49,
+      "SupportAssociateId": 898,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1189378",
+      "PersonNumber": "450532",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldLength": 999
         }
       }
     }
   ],
-  "AlertLevel": 435,
-  "ConnectId": 28,
+  "AlertLevel": 48,
+  "ConnectId": 707,
   "ReadStatus": "Green",
-  "TimeToReply": 518,
-  "RealTimeToReply": 791,
-  "TimeToClose": 65,
-  "RealTimeToClose": 18,
-  "TimeSpentInternally": 588,
-  "TimeSpentExternally": 782,
-  "TimeSpentQueue": 123,
-  "RealTimeSpentInternally": 969,
-  "RealTimeSpentExternally": 693,
-  "RealTimeSpentQueue": 871,
-  "TimeSpent": 526,
+  "TimeToReply": 374,
+  "RealTimeToReply": 370,
+  "TimeToClose": 537,
+  "RealTimeToClose": 513,
+  "TimeSpentInternally": 670,
+  "TimeSpentExternally": 67,
+  "TimeSpentQueue": 254,
+  "RealTimeSpentInternally": 460,
+  "RealTimeSpentExternally": 276,
+  "RealTimeSpentQueue": 415,
+  "TimeSpent": 442,
   "HasAttachment": false,
-  "NumReplies": 209,
-  "NumMessages": 275,
-  "FromAddress": "assumenda",
+  "NumReplies": 737,
+  "NumMessages": 865,
+  "FromAddress": "laudantium",
   "Messages": [
     {
-      "TicketMessageId": 628,
-      "CreatedAt": "2009-11-23T11:24:48.7657551+01:00",
+      "TicketMessageId": 509,
+      "CreatedAt": "2007-12-04T03:40:48.0473619+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "nesciunt",
-      "PersonId": 721,
-      "PersonFullName": "Jeanie Boyer",
-      "ContactId": 164,
-      "ContactName": "Kshlerin LLC",
+      "Author": "et",
+      "PersonId": 738,
+      "PersonFullName": "Terence Legros",
+      "ContactId": 127,
+      "ContactName": "Walter, Kuhic and Balistreri",
       "ContactDepartment": "",
-      "NumAttachments": 45,
-      "EmailHeader": "letitia_ebert@ziemannferry.us",
+      "NumAttachments": 281,
+      "EmailHeader": "karolann_johnson@grant.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "iure",
-      "Sentiment": 213,
-      "SentimentConfidence": 537,
-      "CreatedBy": 397,
-      "ChangedAt": "2010-11-12T11:24:48.7657551+01:00",
+      "Language": "blanditiis",
+      "Sentiment": 556,
+      "SentimentConfidence": 806,
+      "CreatedBy": 618,
+      "ChangedAt": "2011-05-20T03:40:48.0473619+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldType": "System.Int32",
+          "FieldLength": 907
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 480,
-      "Name": "Ortiz Inc and Sons",
-      "ToolTip": "Ad assumenda officia consectetur voluptates quidem.",
+      "Id": 853,
+      "Name": "Dibbert-Kassulke",
+      "ToolTip": "Sed quas dicta officiis occaecati eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 135
+          "FieldLength": 214
         }
       }
     },
     {
-      "Id": 480,
-      "Name": "Ortiz Inc and Sons",
-      "ToolTip": "Ad assumenda officia consectetur voluptates quidem.",
+      "Id": 853,
+      "Name": "Dibbert-Kassulke",
+      "ToolTip": "Sed quas dicta officiis occaecati eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 135
+          "FieldLength": 214
         }
       }
     }
   ],
-  "Language": "id",
-  "Sentiment": 122,
-  "SentimentConfidence": 345,
-  "SuggestedCategoryId": 392,
+  "Language": "delectus",
+  "Sentiment": 508,
+  "SentimentConfidence": 541,
+  "SuggestedCategoryId": 852,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 630,
-  "IconHint": "ea",
+  "OrigHumanCategoryId": 879,
+  "IconHint": "sed",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 988,
+  "ActiveStatusMonitorId": 56,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "nam"
+    "CustomFields1": "rerum",
+    "CustomFields2": "asperiores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 220
     }
   }
 }

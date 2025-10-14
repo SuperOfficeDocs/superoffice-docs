@@ -31,8 +31,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=omnis
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=rem
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Glover Inc and Sons",
-    "ToolTip": "Omnis sunt.",
+    "Id": 197,
+    "Name": "Little LLC",
+    "ToolTip": "Dolor et corrupti qui dolor dicta itaque.",
     "Deleted": true,
-    "Rank": 756,
-    "Type": "harum",
-    "ColorBlock": 465,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2001-12-01T11:24:53.9530436+01:00",
+    "Rank": 97,
+    "Type": "incidunt",
+    "ColorBlock": 178,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2025-06-08T03:40:56.8682357+02:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Wyman, Stamm and Klein",
-        "ToolTip": "Repudiandae in rerum.",
+        "Id": 966,
+        "Name": "Olson LLC",
+        "ToolTip": "Asperiores qui quasi et magni id quia saepe.",
         "Deleted": false,
-        "Rank": 8,
-        "Type": "deserunt",
-        "ColorBlock": 41,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2014-01-10T11:24:53.9530436+01:00",
+        "Rank": 706,
+        "Type": "nostrum",
+        "ColorBlock": 884,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2012-02-15T03:40:56.8682357+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Beth O'Conner",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Price Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "odio",
+    "ExtraInfo": "minima",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Fanny Waelchi",
+    "FullName": "Maida Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldType": "System.String",
+        "FieldLength": 669
       }
     }
   }

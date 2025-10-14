@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sentry/GetFunctionRights
 Get a string array of all functions rights for the role of the current associate.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "natus",
-  "explicabo"
+  "dolore",
+  "et"
 ]
 ```

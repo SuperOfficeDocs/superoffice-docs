@@ -69,7 +69,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Sporer-Pollich",
-    "DisplayName": "Carter, Shanahan and Jaskolski",
-    "Description": "Versatile next generation concept",
-    "ShortLabel": "fuga",
+    "FieldName": "Schultz Group",
+    "DisplayName": "Harris LLC",
+    "Description": "Customer-focused holistic conglomeration",
+    "ShortLabel": "quo",
     "HideLabel": false,
     "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 155,
-    "TemplateVariableName": "Leffler Group"
+    "Rank": 510,
+    "TemplateVariableName": "Romaguera-West"
   }
 ]
 ```

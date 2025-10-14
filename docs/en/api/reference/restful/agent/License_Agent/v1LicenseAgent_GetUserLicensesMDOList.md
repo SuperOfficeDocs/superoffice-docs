@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetUserLicensesMDOList
 Get all licenses in a MDOListItem structure.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,56 +93,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Kemmer Group",
-    "ToolTip": "Veniam reprehenderit non expedita occaecati.",
-    "Deleted": false,
-    "Rank": 621,
-    "Type": "necessitatibus",
-    "ColorBlock": 744,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2023-02-24T11:24:48.1720293+01:00",
+    "Id": 724,
+    "Name": "Kassulke Inc and Sons",
+    "ToolTip": "Sequi qui rerum error qui repudiandae.",
+    "Deleted": true,
+    "Rank": 443,
+    "Type": "perferendis",
+    "ColorBlock": 195,
+    "IconHint": "consectetur",
+    "Selected": false,
+    "LastChanged": "2003-04-06T03:40:47.0155393+02:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Kautzer, Stark and Lueilwitz",
-        "ToolTip": "Molestiae sequi nihil.",
-        "Deleted": true,
-        "Rank": 664,
-        "Type": "facere",
-        "ColorBlock": 836,
-        "IconHint": "et",
+        "Id": 313,
+        "Name": "Rempel, Leannon and Sipes",
+        "ToolTip": "Qui commodi nesciunt beatae deserunt voluptatem.",
+        "Deleted": false,
+        "Rank": 855,
+        "Type": "sit",
+        "ColorBlock": 831,
+        "IconHint": "neque",
         "Selected": true,
-        "LastChanged": "2023-08-21T11:24:48.1720293+02:00",
+        "LastChanged": "2021-05-12T03:40:47.0155393+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Amira Abshire",
+        "FullName": "Griffin Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Augustine Ward",
+    "FullName": "Rebeka Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 922
       }
     }
   }

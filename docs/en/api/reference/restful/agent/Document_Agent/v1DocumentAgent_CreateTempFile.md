@@ -15,6 +15,7 @@ Create a new temporary file based on the provided stream.
 
 
 Specified filename may be overridden, and actual name is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/CreateTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "dolor",
+  "Filename": "impedit",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"iusto"
 ```

@@ -87,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 256,
-    "Comment": "fugiat",
-    "Registered": "2006-09-01T11:24:53.4218153+02:00",
-    "RegisteredAssociateId": 687,
-    "Updated": "2009-06-04T11:24:53.4218153+02:00",
-    "UpdatedAssociateId": 66,
-    "LegalBaseId": 66,
-    "LegalBaseKey": "quia",
-    "LegalBaseName": "Bruen, Zieme and Reichert",
-    "ConsentPurposeId": 162,
-    "ConsentPurposeKey": "nulla",
-    "ConsentPurposeName": "Reichert Group",
-    "ConsentSourceId": 99,
-    "ConsentSourceKey": "sunt",
-    "ConsentSourceName": "Stracke Group",
+    "ConsentPersonId": 799,
+    "Comment": "et",
+    "Registered": "2002-06-30T03:40:55.8980286+02:00",
+    "RegisteredAssociateId": 652,
+    "Updated": "2017-07-15T03:40:55.8980286+02:00",
+    "UpdatedAssociateId": 9,
+    "LegalBaseId": 966,
+    "LegalBaseKey": "in",
+    "LegalBaseName": "Bahringer-Borer",
+    "ConsentPurposeId": 938,
+    "ConsentPurposeKey": "eaque",
+    "ConsentPurposeName": "Sauer-Flatley",
+    "ConsentSourceId": 306,
+    "ConsentSourceKey": "nihil",
+    "ConsentSourceName": "Shanahan Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

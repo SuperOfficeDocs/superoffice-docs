@@ -105,28 +105,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 532,
-  "Name": "Gaylord-O'Keefe",
-  "CurrencyId": 335,
-  "EnglishName": "Corwin Group",
+  "CountryId": 844,
+  "Name": "Schimmel LLC",
+  "CurrencyId": 396,
+  "EnglishName": "Senger-Rau",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Adaptive global array",
-  "OrgNrText": "985294",
-  "InterAreaPrefix": "nemo",
-  "DialInPrefix": "perferendis",
-  "ZipPrefix": "impedit",
-  "DomainName": "Kemmer LLC",
-  "AddressLayoutId": 48,
-  "DomesticAddressLayoutId": 868,
-  "ForeignAddressLayoutId": 954,
-  "Rank": 174,
-  "Tooltip": "in",
-  "Deleted": false
+  "ImageDescription": "Phased logistical installation",
+  "OrgNrText": "464940",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "nihil",
+  "ZipPrefix": "sit",
+  "DomainName": "Mills-Heaney",
+  "AddressLayoutId": 516,
+  "DomesticAddressLayoutId": 688,
+  "ForeignAddressLayoutId": 502,
+  "Rank": 115,
+  "Tooltip": "reprehenderit",
+  "Deleted": true
 }
 ```
 
@@ -137,30 +137,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 223,
-  "Name": "Blick-O'Kon",
-  "CurrencyId": 361,
-  "EnglishName": "Jewess Group",
+  "CountryId": 646,
+  "Name": "Rath-Donnelly",
+  "CurrencyId": 539,
+  "EnglishName": "Sporer, Lind and Legros",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone dynamic matrix",
-  "OrgNrText": "1466173",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "cupiditate",
-  "ZipPrefix": "sit",
-  "DomainName": "Mertz-Toy",
-  "AddressLayoutId": 753,
-  "DomesticAddressLayoutId": 642,
-  "ForeignAddressLayoutId": 887,
-  "Rank": 65,
-  "Tooltip": "debitis",
-  "Deleted": false,
+  "ImageDescription": "Cross-group full-range strategy",
+  "OrgNrText": "1400991",
+  "InterAreaPrefix": "aspernatur",
+  "DialInPrefix": "dicta",
+  "ZipPrefix": "dolorem",
+  "DomainName": "Stoltenberg-Blick",
+  "AddressLayoutId": 294,
+  "DomesticAddressLayoutId": 327,
+  "ForeignAddressLayoutId": 344,
+  "Rank": 807,
+  "Tooltip": "ea",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   }
 }

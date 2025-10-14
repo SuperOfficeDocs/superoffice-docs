@@ -15,6 +15,7 @@ Look at the Quote version, related sale and sale type, and ensure that the corre
 
 
 This method may create or delete records
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 598
+  "QuoteVersionId": 764
 }
 ```
 
@@ -93,26 +94,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 852,
+    "DocumentId": 10,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 154
       }
     }
   },
   {
-    "DocumentId": 852,
+    "DocumentId": 10,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 154
       }
     }
   }

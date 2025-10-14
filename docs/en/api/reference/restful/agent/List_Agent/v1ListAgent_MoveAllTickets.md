@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/MoveAllTickets
 Move all tickets from one ticket category to another
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/MoveAllTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketCategoryId": 876,
-  "ToTicketCategoryId": 158
+  "FromTicketCategoryId": 484,
+  "ToTicketCategoryId": 530
 }
 ```
 

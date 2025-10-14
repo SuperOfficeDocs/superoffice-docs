@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Returns the target assignment for the specified year and entity type.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,10 +91,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 288,
+  "TargetYear": 771,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 568
+  "Id": 789
 }
 ```
 
@@ -103,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 869,
+  "TargetAssignmentInfoId": 270,
   "Values": [
-    547,
-    585
+    867,
+    257
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 714,
-  "DimensionListItemDisplayName": "O'Conner-Brown",
+  "DimensionListItem": 963,
+  "DimensionListItemDisplayName": "Koepp Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 186
     }
   }
 }

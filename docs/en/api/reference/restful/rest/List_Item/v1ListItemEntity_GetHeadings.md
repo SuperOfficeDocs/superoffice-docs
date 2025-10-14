@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Roob LLC",
-    "ToolTip": "Possimus iusto doloribus esse.",
-    "Deleted": true,
-    "Rank": 665,
-    "Type": "aut",
-    "ColorBlock": 719,
-    "IconHint": "molestiae",
+    "Id": 244,
+    "Name": "Bradtke Inc and Sons",
+    "ToolTip": "Itaque qui est enim.",
+    "Deleted": false,
+    "Rank": 150,
+    "Type": "voluptatum",
+    "ColorBlock": 341,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2018-08-17T11:24:53.8436729+02:00",
+    "LastChanged": "2000-04-20T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Hackett, Hamill and Weber",
-        "ToolTip": "Eos suscipit nostrum non necessitatibus incidunt.",
+        "Id": 628,
+        "Name": "Heathcote LLC",
+        "ToolTip": "At est suscipit alias alias.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "sunt",
-        "ColorBlock": 549,
-        "IconHint": "fugit",
+        "Rank": 280,
+        "Type": "mollitia",
+        "ColorBlock": 778,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2012-01-09T11:24:53.8436729+01:00",
+        "LastChanged": "2009-06-02T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "nobis",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "eius",
         "Hidden": true,
-        "FullName": "Gino Schuster",
+        "FullName": "Lily Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Mrs. Jacinto Pfeffer DDS",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Lew Johns V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

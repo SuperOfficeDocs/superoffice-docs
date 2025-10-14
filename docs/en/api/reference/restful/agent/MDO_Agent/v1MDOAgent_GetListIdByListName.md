@@ -15,6 +15,7 @@ Retrieve the UdListDefinition id of a list, by its name.
 
 
 Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schoen, Goodwin and Beahan"
+  "Name": "Carter-Glover"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-800
+521
 ```

@@ -15,6 +15,7 @@ This method will try to verify a Google recaptcha token.
 
 
 The token is gained from the recaptcha frontend component
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "et",
-  "OptionalSecretKey": "rem"
+  "Token": "nihil",
+  "OptionalSecretKey": "occaecati"
 }
 ```
 

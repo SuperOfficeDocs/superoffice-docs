@@ -31,7 +31,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 803,
-  "ColumnId": 716,
-  "FieldDefault": "nemo",
-  "FieldHeight": 282,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 967,
-  "FieldTop": 266,
+  "UDefFieldId": 986,
+  "ColumnId": 819,
+  "FieldDefault": "quasi",
+  "FieldHeight": 159,
+  "FieldLabel": "quod",
+  "FieldLeft": 916,
+  "FieldTop": 831,
   "FieldType": "Checkbox",
-  "FieldWidth": 343,
-  "FormatMask": "vero",
-  "HideLabel": true,
+  "FieldWidth": 539,
+  "FormatMask": "nam",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 159,
-  "LabelLeft": 446,
-  "LabelTop": 740,
-  "LabelWidth": 165,
-  "LastVersionId": 813,
-  "ListTableId": 928,
+  "LabelHeight": 7,
+  "LabelLeft": 280,
+  "LabelTop": 326,
+  "LabelWidth": 834,
+  "LastVersionId": 441,
+  "ListTableId": 570,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 163,
-  "ProgId": "debitis",
-  "IsReadOnly": false,
-  "ShortLabel": "exercitationem",
-  "TabOrder": 873,
-  "TextLength": 372,
-  "Tooltip": "amet",
-  "UdefIdentity": 328,
-  "UDListDefinitionId": 541,
+  "Page1LineNo": 893,
+  "ProgId": "hic",
+  "IsReadOnly": true,
+  "ShortLabel": "repellendus",
+  "TabOrder": 906,
+  "TextLength": 145,
+  "Tooltip": "veniam",
+  "UdefIdentity": 84,
+  "UDListDefinitionId": 812,
   "Justification": "Center",
-  "Version": 524,
-  "TemplateVariableName": "Von Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Konopelski-DuBuque",
+  "Version": 611,
+  "TemplateVariableName": "Bradtke-Braun",
+  "HasBeenPublished": true,
+  "MdoListName": "Daugherty, Turner and Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

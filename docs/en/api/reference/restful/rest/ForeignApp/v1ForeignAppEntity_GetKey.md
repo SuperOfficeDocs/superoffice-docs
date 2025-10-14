@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Jun 2025 11:24:53 G6T
+Last-Modified: Tue, 02 Apr 2019 03:40:55 G4T
 
 {
-  "Key": "voluptas",
-  "Value": "itaque",
-  "RecordId": 652,
-  "CreatedDate": "2016-11-11T11:24:53.2968202+01:00",
-  "UpdatedDate": "2025-06-26T11:24:53.2968202+02:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "vitae",
-  "TableName": "Thiel, Friesen and Gislason",
+  "Key": "maxime",
+  "Value": "ullam",
+  "RecordId": 536,
+  "CreatedDate": "2022-07-10T03:40:55.7731411+02:00",
+  "UpdatedDate": "2019-04-02T03:40:55.7731411+02:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "dolorum",
+  "TableName": "Dare-Kuhic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldLength": 424
     }
   }
 }

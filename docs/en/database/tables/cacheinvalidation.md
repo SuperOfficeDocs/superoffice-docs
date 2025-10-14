@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# CacheInvalidation Table (525)
+# CacheInvalidation Table (527)
 
 Names and generation numbers for distributed invalidation of caches
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllSaleType
 Returns all sale types as simple list items
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Value": "aut",
-    "Tooltip": "sed",
+    "Id": 923,
+    "Value": "sed",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 611
       }
     }
   },
   {
-    "Id": 660,
-    "Value": "aut",
-    "Tooltip": "sed",
+    "Id": 923,
+    "Value": "sed",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 611
       }
     }
   }

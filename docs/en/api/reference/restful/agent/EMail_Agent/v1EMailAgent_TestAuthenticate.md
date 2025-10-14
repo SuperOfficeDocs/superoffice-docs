@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/TestAuthenticate
 Test if logged-in user has a working mail account
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -63,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/TestAuthenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

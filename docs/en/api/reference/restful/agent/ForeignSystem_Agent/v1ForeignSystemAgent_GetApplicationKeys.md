@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Returns all ForeignKeys that belong to an application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ritchie-Wilderman"
+  "ApplicationName": "Ortiz LLC"
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "neque",
-    "Value": "quidem",
-    "RecordId": 177,
-    "CreatedDate": "2022-10-05T11:24:48.1720293+02:00",
-    "UpdatedDate": "2002-07-01T11:24:48.1720293+02:00",
-    "UpdatedBy": "animi",
-    "CreatedBy": "ea",
-    "TableName": "Goldner-Oberbrunner",
+    "Key": "et",
+    "Value": "est",
+    "RecordId": 24,
+    "CreatedDate": "2009-12-11T03:40:46.9999043+01:00",
+    "UpdatedDate": "2006-03-09T03:40:46.9999043+01:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "aliquam",
+    "TableName": "Kuvalis-Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 90
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Loading default values into a new ExtAppEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,34 +89,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 924,
-  "Name": "Conn-Will",
-  "Tooltip": "et",
+  "ExtAppId": 681,
+  "Name": "Barrows Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 212,
-  "Filename": "nostrum",
-  "Parameters": "saepe",
-  "Workdir": "qui",
+  "Rank": 962,
+  "Filename": "reprehenderit",
+  "Parameters": "aut",
+  "Workdir": "in",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 355,
+  "Icon": 600,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non",
+  "Path": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   }
 }

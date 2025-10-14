@@ -15,6 +15,7 @@ Store document content from stream.
 
 
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 784,
+  "DocumentId": 234,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -126,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 873,
+  "DocumentId": 835,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "magni",
-  "Header": "qui",
-  "Name": "Simonis, Wilderman and Considine",
-  "OurRef": "sit",
-  "YourRef": "dolor",
-  "CreatedDate": "2001-06-23T11:24:48.0157858+02:00",
-  "UpdatedDate": "1999-01-09T11:24:48.0157858+01:00",
-  "Description": "Face to face discrete synergy",
+  "Attention": "esse",
+  "Header": "magni",
+  "Name": "Kuhic, Hyatt and Gottlieb",
+  "OurRef": "assumenda",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2025-06-12T03:40:46.7342627+02:00",
+  "UpdatedDate": "2020-09-03T03:40:46.7342627+02:00",
+  "Description": "Quality-focused needs-based function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-03-10T11:24:48.0157858+01:00",
-  "ExternalRef": "ea",
+  "Date": "2006-09-03T03:40:46.7342627+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 584,
+  "ActiveLinks": 770,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Daugherty, Kessler and Doyle",
-      "Id": 447,
-      "Description": "Versatile radical customer loyalty",
-      "ExtraInfo": "eum",
-      "LinkId": 433,
+      "EntityName": "Glover, Tremblay and Hirthe",
+      "Id": 993,
+      "Description": "Vision-oriented incremental website",
+      "ExtraInfo": "accusamus",
+      "LinkId": 578,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 824
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 265,
-  "Snum": 538,
+  "SuggestedDocumentId": 102,
+  "Snum": 709,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Lora Flo Littel DVM",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Brock Bechtelar"
   },
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "cumque"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "ut"
+    "CustomFields1": "error",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "1999-01-21T11:24:48.0157858+01:00",
-  "PublishTo": "2018-02-05T11:24:48.0157858+01:00",
-  "PublishFrom": "2006-03-27T11:24:48.0157858+02:00",
+  "PublishEventDate": "2003-07-25T03:40:46.7342627+02:00",
+  "PublishTo": "1999-01-06T03:40:46.7342627+01:00",
+  "PublishFrom": "2001-12-26T03:40:46.7342627+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 700,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     },
     {
-      "VisibleId": 700,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
@@ -216,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

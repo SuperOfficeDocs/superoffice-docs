@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 861,
-    "Name": "Robel, Gutkowski and Schuppe",
-    "Tooltip": "quidem",
+    "HeadingId": 746,
+    "Name": "Stracke, Barrows and Bednar",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 93,
-    "UdListDefinitionId": 773
+    "Rank": 61,
+    "UdListDefinitionId": 575
   },
   {
-    "HeadingId": 861,
-    "Name": "Robel, Gutkowski and Schuppe",
-    "Tooltip": "quidem",
+    "HeadingId": 746,
+    "Name": "Stracke, Barrows and Bednar",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 93,
-    "UdListDefinitionId": 773
+    "Rank": 61,
+    "UdListDefinitionId": 575
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 64,
-    "Name": "Schuppe-Blick",
-    "Tooltip": "nam",
-    "Deleted": true,
-    "Rank": 989,
-    "UdListDefinitionId": 950,
+    "HeadingId": 891,
+    "Name": "Jacobson Group",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 704,
+    "UdListDefinitionId": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 904
       }
     }
   }

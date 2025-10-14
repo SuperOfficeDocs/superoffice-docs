@@ -94,7 +94,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colAssociateId
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colAssociateFullName
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategory
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colHasCompany
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colIsProjectMember
@@ -1093,6 +1095,14 @@ references:
   name: _colCategory
   nameWithType: PersonExtenderBase._colCategory
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategory
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colCategoryGroup
+  name: _colCategoryGroup
+  nameWithType: PersonExtenderBase._colCategoryGroup
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colCategoryGroup
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
@@ -1101,6 +1111,14 @@ references:
   name: _colBusiness
   nameWithType: PersonExtenderBase._colBusiness
   fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colBusiness
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.html#SuperOffice_CRM_ArchiveLists_PersonExtenderBase__colLeadStatus
+  name: _colLeadStatus
+  nameWithType: PersonExtenderBase._colLeadStatus
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colLeadStatus
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase._colDeletedDate
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase

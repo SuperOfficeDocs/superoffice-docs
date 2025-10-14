@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Method that returns a specified number of published document appointments within a time range.
 
 
-The document appointments belong to the person specified or the document is in a project the person belongs to.
+The document appointments belong to the person specified or the document is in a project the person belongs to. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 893,
+  "PersonId": 810,
   "IncludeProjectDocuments": false,
-  "StartTime": "2000-02-05T11:24:47.8751665+01:00",
-  "EndTime": "2021-08-10T11:24:47.8751665+02:00",
-  "Count": 779
+  "StartTime": "2005-04-13T03:40:46.5936381+02:00",
+  "EndTime": "2013-07-16T03:40:46.5936381+02:00",
+  "Count": 982
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 586,
-    "Attention": "ab",
-    "Header": "ut",
-    "Name": "Krajcik, Ernser and VonRueden",
-    "OurRef": "non",
-    "YourRef": "iure",
-    "Description": "Secured optimal infrastructure",
-    "DocumentTemplate": "adipisci",
+    "DocumentId": 804,
+    "Attention": "sequi",
+    "Header": "alias",
+    "Name": "Larson-Hauck",
+    "OurRef": "cupiditate",
+    "YourRef": "delectus",
+    "Description": "Intuitive uniform throughput",
+    "DocumentTemplate": "non",
     "IsPublished": false,
-    "PersonId": 375,
-    "PersonFullName": "Luther Krajcik",
-    "AssociateFullName": "Alfreda Fisher",
-    "ContactId": 436,
-    "ContactName": "Reynolds, Goodwin and Collins",
-    "ProjectId": 916,
-    "ProjectName": "Friesen, Murray and Moore",
-    "AssociateId": 268,
-    "Snum": 936,
-    "SaleId": 431,
-    "SaleName": "Nienow-Quigley",
+    "PersonId": 971,
+    "PersonFullName": "Will Quitzon",
+    "AssociateFullName": "Ms. Marvin Boyle",
+    "ContactId": 590,
+    "ContactName": "Schiller Inc and Sons",
+    "ProjectId": 265,
+    "ProjectName": "Bailey, Collier and Spencer",
+    "AssociateId": 671,
+    "Snum": 186,
+    "SaleId": 731,
+    "SaleName": "Hudson-Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }

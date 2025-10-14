@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Project/HasGuideActivities
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Project/HasGuideActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 471
+  "ProjectId": 571
 }
 ```
 

@@ -15,6 +15,7 @@ Removes headers from the message as specified in the collection of entity ids.
 
 
 The ids are message header ids (message header primary key)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    544,
-    684
+    836,
+    709
   ]
 }
 ```

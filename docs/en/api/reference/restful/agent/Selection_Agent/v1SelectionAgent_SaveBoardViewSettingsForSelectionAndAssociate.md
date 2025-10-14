@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/SaveBoardViewSettingsForSelectionAndAssociate
 Save BoardViewSettings on the given selection/associate
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -85,13 +87,13 @@ OK
 POST /api/v1/Agents/Selection/SaveBoardViewSettingsForSelectionAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "BoardViewSettings": null,
-  "AssociateId": 134,
-  "SelectionId": 313
+  "AssociateId": 144,
+  "SelectionId": 404
 }
 ```
 
@@ -102,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 754,
+  "BoardViewSettingsId": 610,
   "EntityType": "None",
-  "AssociateId": 203,
-  "SelectionId": 766,
+  "AssociateId": 328,
+  "SelectionId": 67,
   "HideEmptyGroups": false,
-  "GroupBy": "minus",
-  "SubGroupBy": "dolorem",
-  "SortBy": "omnis",
-  "SortDesc": true,
-  "SumBy": "ipsa",
-  "ColorBy": "quidem",
-  "Filters": "ad"
+  "GroupBy": "optio",
+  "SubGroupBy": "quia",
+  "SortBy": "fuga",
+  "SortDesc": false,
+  "SumBy": "porro",
+  "ColorBy": "libero",
+  "Filters": "modi"
 }
 ```

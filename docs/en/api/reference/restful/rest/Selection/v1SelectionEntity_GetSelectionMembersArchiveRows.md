@@ -76,7 +76,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laborum",
+  "odata.nextLink": "ipsam",
   "value": [
     {
-      "PrimaryKey": 9838,
+      "PrimaryKey": 9613,
       "EntityName": "person",
-      "personId": 9838,
-      "fullName": "Baron Robel"
+      "personId": 9613,
+      "fullName": "Mrs. Jaren Dale Kub DVM"
     },
     {
-      "PrimaryKey": 5126,
+      "PrimaryKey": 9809,
       "EntityName": "person",
-      "personId": 5126,
-      "fullName": "Oda Abshire MD"
+      "personId": 9809,
+      "fullName": "Molly Bogan"
     }
   ]
 }

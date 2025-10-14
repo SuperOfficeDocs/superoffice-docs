@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetPublishedDocuments
 Get the published documents from an array of doucment ids.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -93,13 +95,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    267,
-    963
+    541,
+    273
   ]
 }
 ```
@@ -112,32 +114,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 690,
-    "Attention": "rerum",
-    "Header": "recusandae",
-    "Name": "Monahan Group",
-    "OurRef": "dolore",
-    "YourRef": "quam",
-    "Description": "Monitored value-added definition",
-    "DocumentTemplate": "voluptates",
+    "DocumentId": 93,
+    "Attention": "laborum",
+    "Header": "maiores",
+    "Name": "Hilll-Turcotte",
+    "OurRef": "aperiam",
+    "YourRef": "ea",
+    "Description": "Object-based interactive benchmark",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 243,
-    "PersonFullName": "Mr. Luis Sonny Cruickshank III",
-    "AssociateFullName": "Jerald Heller I",
-    "ContactId": 263,
-    "ContactName": "Murray-Cronin",
-    "ProjectId": 422,
-    "ProjectName": "Von, Bogan and Sporer",
-    "AssociateId": 320,
-    "Snum": 561,
-    "SaleId": 532,
-    "SaleName": "Ullrich Group",
+    "PersonId": 349,
+    "PersonFullName": "Ruthe Shanahan",
+    "AssociateFullName": "Jayde Fisher",
+    "ContactId": 521,
+    "ContactName": "Baumbach Group",
+    "ProjectId": 199,
+    "ProjectName": "Langosh, Heidenreich and Prosacco",
+    "AssociateId": 428,
+    "Snum": 685,
+    "SaleId": 959,
+    "SaleName": "Fritsch-Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 722
       }
     }
   }

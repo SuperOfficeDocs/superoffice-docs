@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Crooks-Swift",
-    "ToolTip": "Hic tempore expedita.",
+    "Id": 935,
+    "Name": "Langworth Group",
+    "ToolTip": "Enim aliquam autem rem nesciunt hic quae aperiam.",
     "Deleted": false,
-    "Rank": 177,
-    "Type": "odit",
-    "ColorBlock": 394,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2006-02-08T11:24:54.0311654+01:00",
+    "Rank": 715,
+    "Type": "laboriosam",
+    "ColorBlock": 821,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2024-03-10T03:40:57.0246001+01:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Olson, Funk and Von",
-        "ToolTip": "Voluptatum corporis omnis est.",
+        "Id": 247,
+        "Name": "Kling Inc and Sons",
+        "ToolTip": "Et velit porro.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "voluptas",
-        "ColorBlock": 650,
-        "IconHint": "aut",
+        "Rank": 571,
+        "Type": "culpa",
+        "ColorBlock": 708,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2010-01-27T11:24:54.0311654+01:00",
+        "LastChanged": "2021-07-02T03:40:57.0246001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
+        "ExtraInfo": "officia",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Miss Ryann Connelly",
+        "FullName": "Callie Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldLength": 883
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "sit",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Dustin Keebler",
+    "FullName": "Ms. Clay Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 355
       }
     }
   }

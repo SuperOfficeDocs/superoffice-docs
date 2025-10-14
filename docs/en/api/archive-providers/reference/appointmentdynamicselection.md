@@ -83,6 +83,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -120,11 +121,11 @@ Appointment selection archive using the selectionId as criterionmapping.
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
 |contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -224,11 +225,11 @@ Appointment selection archive using the selectionId as criterionmapping.
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
-|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |contact/LastActivity|date|Date of last activity|  |
@@ -299,7 +300,9 @@ Appointment selection archive using the selectionId as criterionmapping.
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -326,13 +329,13 @@ Appointment selection archive using the selectionId as criterionmapping.
 |person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
-|person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
-|person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
+|person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
+|person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
 |person/personUrl/URLDescription|string|Description| x |
@@ -430,13 +433,13 @@ Appointment selection archive using the selectionId as criterionmapping.
 |person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
-|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -534,13 +537,13 @@ Appointment selection archive using the selectionId as criterionmapping.
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
-|project/projectAssociate/assocTooltip|string|Description : Description|  |
-|project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/assocTooltip|string|Description : Description|  |
+|project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -638,14 +641,15 @@ Appointment selection archive using the selectionId as criterionmapping.
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
-|sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -740,7 +744,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=contact/department,contact/countryId,contact/email/emailDescription,contact/LastTicket,person/birthDay
+GET /api/v1/archive/AppointmentDynamicSelection?$select=person/personActiveErpLinks,person/personAssociate/fullName,person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

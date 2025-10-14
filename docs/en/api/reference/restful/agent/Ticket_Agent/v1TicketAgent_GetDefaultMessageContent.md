@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContent
 Obsolete, use GetDefaultMessageContentFull instead
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 669,
+  "TicketId": 29,
   "MessageActionType": "Forward",
-  "TicketMessageId": 970
+  "TicketMessageId": 860
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nihil"
+"porro"
 ```

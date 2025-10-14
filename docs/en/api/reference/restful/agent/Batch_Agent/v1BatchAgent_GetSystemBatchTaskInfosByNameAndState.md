@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Get an array of system BatchTaskInfo for the provided task name and state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Mraz-Glover",
+  "TaskName": "Aufderhar Group",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Torphy, Kemmer and Feeney",
-    "AssociateId": 196,
-    "DetailsTable": 850,
-    "DetailsRecord": 165,
+    "Id": 745,
+    "Name": "Gerlach Group",
+    "AssociateId": 337,
+    "DetailsTable": 236,
+    "DetailsRecord": 259,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "quibusdam"
+      "ParameterObject1": "sit",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2003-05-25T11:24:47.6095526+02:00",
-    "Created": "2005-07-26T11:24:47.6095526+02:00",
-    "StartCount": 724,
-    "DatabaseSerialNumber": "407413",
-    "Context": "excepturi",
-    "Result": "dolor",
+    "LastStarted": "2011-08-14T03:40:46.0764548+02:00",
+    "Created": "2012-05-25T03:40:46.0764548+02:00",
+    "StartCount": 767,
+    "DatabaseSerialNumber": "1133054",
+    "Context": "laboriosam",
+    "Result": "repellendus",
     "State": "All",
-    "Description": "Team-oriented full-range support",
-    "Response": "culpa",
-    "Request": "cum",
-    "ProgressDescription": "Enterprise-wide holistic intranet",
-    "ProgressPercent": 545,
-    "FileName": "Oberbrunner, Harris and Parker",
+    "Description": "Devolved exuding throughput",
+    "Response": "quam",
+    "Request": "esse",
+    "ProgressDescription": "Quality-focused logistical contingency",
+    "ProgressPercent": 337,
+    "FileName": "Wisozk-Aufderhar",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldType": "System.String",
+        "FieldLength": 823
       }
     }
   }

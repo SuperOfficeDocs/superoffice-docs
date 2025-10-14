@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Loading default values into a new WorkflowFilter.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -56,7 +58,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,18 +70,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Labadie, Gerlach and Paucek",
-      "Description": "Ergonomic executive analyzer",
-      "Rank": 18,
+      "Name": "Stanton, Miller and Streich",
+      "Description": "Function-based background neural-net",
+      "Rank": 19,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Labadie, Gerlach and Paucek",
-      "Description": "Ergonomic executive analyzer",
-      "Rank": 18,
+      "Name": "Stanton, Miller and Streich",
+      "Description": "Function-based background neural-net",
+      "Rank": 19,
       "Restrictions": [
         {},
         {}
@@ -91,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 113
     }
   }
 }

@@ -15,6 +15,7 @@ Deletes the PreferenceDescription
 
 
 Calls the Preference agent service DeletePreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -53,7 +54,7 @@ PreferenceDescription deleted.
 DELETE /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

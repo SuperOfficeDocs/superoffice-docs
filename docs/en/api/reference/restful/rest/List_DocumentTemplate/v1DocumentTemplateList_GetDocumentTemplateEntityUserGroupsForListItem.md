@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 168,
-    "Name": "Langworth Group",
-    "ToolTip": "Esse odit iusto facere.",
-    "Deleted": true,
-    "Rank": 170,
-    "Type": "autem",
-    "ColorBlock": 511,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2025-03-09T11:24:53.9374193+01:00",
+    "Id": 597,
+    "Name": "Blick, Satterfield and Stamm",
+    "ToolTip": "Molestias ipsam consequatur.",
+    "Deleted": false,
+    "Rank": 105,
+    "Type": "eaque",
+    "ColorBlock": 288,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2013-01-25T03:40:56.8369839+01:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Bauch LLC",
-        "ToolTip": "Id voluptas et quis ut.",
+        "Id": 328,
+        "Name": "Bayer-Heathcote",
+        "ToolTip": "Fugiat fugiat quae eos cupiditate.",
         "Deleted": false,
-        "Rank": 974,
-        "Type": "voluptate",
-        "ColorBlock": 677,
-        "IconHint": "in",
+        "Rank": 551,
+        "Type": "consequatur",
+        "ColorBlock": 432,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2021-07-03T11:24:53.9374193+02:00",
+        "LastChanged": "2005-12-16T03:40:56.8369839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mr. Kyler Blanda DDS",
+        "ExtraInfo": "ea",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Ms. Hallie Vandervort Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 749
+            "FieldType": "System.Int32",
+            "FieldLength": 931
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "minus",
+    "ExtraInfo": "a",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Ms. Alvina Reichert III",
+    "FullName": "Dr. Liana Bart Veum I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 520
+        "FieldLength": 153
       }
     }
   }

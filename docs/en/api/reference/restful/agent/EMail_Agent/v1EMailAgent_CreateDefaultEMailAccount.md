@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Loading default values into a new EMailAccount.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -79,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 370,
-  "EMailAddress": "sit",
-  "AssociateId": 399,
+  "EMailAccountId": 365,
+  "EMailAddress": "minus",
+  "AssociateId": 907,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 497,
-  "ErrorCount": 475,
-  "ErrorReason": "",
-  "InboxFolder": "voluptatum",
-  "SentFolder": "voluptatem",
-  "SimpleMode": 425,
-  "LastFetch": "2003-08-09T11:24:48.0626591+02:00",
+  "AccountStatus": 28,
+  "ErrorCount": 678,
+  "ErrorReason": "disintermediate impactful initiatives",
+  "InboxFolder": "molestiae",
+  "SentFolder": "blanditiis",
+  "SimpleMode": 841,
+  "LastFetch": "2016-05-13T03:40:46.8280185+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldLength": 840
     }
   }
 }

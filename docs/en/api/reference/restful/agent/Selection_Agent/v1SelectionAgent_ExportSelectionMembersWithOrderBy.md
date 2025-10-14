@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,14 +74,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 891,
-  "TemplateName": "Kovacek-Conn",
-  "UseContacts": true,
-  "OrderBy": "est"
+  "SelectionId": 391,
+  "TemplateName": "Klein Group",
+  "UseContacts": false,
+  "OrderBy": "labore"
 }
 ```
 

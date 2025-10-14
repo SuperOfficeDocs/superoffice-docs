@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReasonStalledList
 Gets an array of ReasonStalled objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalledList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Value": "numquam",
-    "Tooltip": "ut",
+    "Id": 378,
+    "Value": "odit",
+    "Tooltip": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   },
   {
-    "Id": 850,
-    "Value": "numquam",
-    "Tooltip": "ut",
+    "Id": 378,
+    "Value": "odit",
+    "Tooltip": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

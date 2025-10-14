@@ -15,6 +15,7 @@ Directly set the rank field of a person record, adjusting all other person recor
 
 
 &lt;para/&gt;This call may affect multiple records, potentially all person records belonging to one contact.&lt;para/&gt;You must have write access for to affected records for this method to succeed.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Person/SetPersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 542,
-  "DesiredRank": 705
+  "PersonId": 344,
+  "DesiredRank": 153
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

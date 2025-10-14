@@ -27,8 +27,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=incidunt
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=sunt
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Wilkinson, Durgan and Mraz",
-    "ToolTip": "Cum iure quia repudiandae.",
+    "Id": 926,
+    "Name": "Prosacco Group",
+    "ToolTip": "Corporis ad ea quod magni.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "reiciendis",
+    "Rank": 623,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 215,
-        "Name": "Denesik-Tremblay",
-        "ToolTip": "Et id voluptatem odio.",
+        "Id": 97,
+        "Name": "Kuphal-Gusikowski",
+        "ToolTip": "Corrupti fuga.",
         "Deleted": false,
-        "Rank": 685,
-        "Type": "hic",
+        "Rank": 729,
+        "Type": "voluptates",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 698,
-        "ExtraInfo": "eius",
-        "StyleHint": "unde",
-        "FullName": "Karine Aufderhar",
+        "IconHint": "neque",
+        "ColorBlock": 648,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "sint",
+        "FullName": "Esther Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 281
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "IconHint": "odio",
-    "ColorBlock": 50,
-    "ExtraInfo": "harum",
-    "StyleHint": "aspernatur",
-    "FullName": "Efrain Spinka",
+    "IconHint": "nobis",
+    "ColorBlock": 106,
+    "ExtraInfo": "quis",
+    "StyleHint": "asperiores",
+    "FullName": "Sabina Emiliano Ondricka DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

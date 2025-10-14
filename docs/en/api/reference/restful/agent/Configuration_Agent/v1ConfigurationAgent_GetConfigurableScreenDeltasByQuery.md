@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 This method will return a configurablescreen delta matching the properties received from the incomming query
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 410,
-    "Name": "Mitchell, Romaguera and Langworth",
-    "Description": "Organized secondary utilisation",
-    "DeltaJson": "animi",
+    "ConfigurableScreenDeltaId": 568,
+    "Name": "Schulist-Vandervort",
+    "Description": "Networked actuating instruction set",
+    "DeltaJson": "veritatis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nihil",
-    "UpdatedDate": "2016-11-27T11:24:47.7189228+01:00",
-    "CreatedDate": "2001-12-25T11:24:47.7189228+01:00",
+    "RecipeId": "sapiente",
+    "UpdatedDate": "2015-07-17T03:40:46.2488145+02:00",
+    "CreatedDate": "2023-11-25T03:40:46.2488145+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      242,
-      949
+      811,
+      614
     ],
-    "AppliesToKey": "et",
+    "AppliesToKey": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

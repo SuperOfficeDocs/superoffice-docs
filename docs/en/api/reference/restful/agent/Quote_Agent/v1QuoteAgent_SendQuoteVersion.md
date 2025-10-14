@@ -15,6 +15,7 @@ Send the quote to the user's customer.
 
 
 More parameters to be added later...
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,11 +91,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 394,
-  "ExpiryDate": "2021-08-15T11:24:48.5157652+02:00",
-  "FollowupDate": "2003-06-24T11:24:48.5157652+02:00",
-  "FollowupText": "voluptas",
-  "Culture": "labore"
+  "QuoteVersionId": 509,
+  "ExpiryDate": "2010-10-31T03:40:47.5317063+01:00",
+  "FollowupDate": "2010-09-04T03:40:47.5317063+02:00",
+  "FollowupText": "nisi",
+  "Culture": "ut"
 }
 ```
 
@@ -106,9 +107,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "occaecati",
-  "TechExplanation": "ex",
-  "ErrorCode": "ea",
+  "UserExplanation": "praesentium",
+  "TechExplanation": "facere",
+  "ErrorCode": "quis",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -117,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 126
     }
   }
 }

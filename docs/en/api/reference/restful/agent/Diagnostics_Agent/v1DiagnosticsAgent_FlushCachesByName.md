@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Flushes all NetServer caches named
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Altenwerth-Hoppe",
-    "Botsford-Green"
+    "Fadel-Koss",
+    "Olson Inc and Sons"
   ]
 }
 ```

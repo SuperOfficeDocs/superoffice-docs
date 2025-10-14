@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Loading default values into a new RoleEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -69,7 +72,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 129,
-  "Name": "Graham, Zboncak and Gutmann",
-  "Tooltip": "esse",
+  "RoleId": 850,
+  "Name": "Reilly Group",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 75,
-  "Rank": 975,
-  "Created": "2020-04-23T11:24:48.8907508+02:00",
-  "UseCategories": 808,
+  "Deleted": 428,
+  "Rank": 52,
+  "Created": "2025-08-19T03:40:48.1567456+02:00",
+  "UseCategories": 612,
   "CreatedBy": null,
-  "Updated": "2000-05-25T11:24:48.8907508+02:00",
+  "Updated": "2021-03-10T03:40:48.1567456+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

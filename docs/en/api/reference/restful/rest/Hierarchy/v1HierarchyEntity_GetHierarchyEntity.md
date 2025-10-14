@@ -15,6 +15,7 @@ Gets a HierarchyEntity object.
 
 
 Calls the List agent service GetHierarchyEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -93,51 +94,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 43,
+  "HierarchyId": 110,
   "Domain": "Dashboards",
-  "Name": "Ernser-Moen",
-  "Fullname": "quasi",
-  "ParentId": 217,
+  "Name": "Dickens-Gusikowski",
+  "Fullname": "dolorem",
+  "ParentId": 330,
   "Children": [
     {
-      "HierarchyId": 338,
+      "HierarchyId": 366,
       "Domain": "Dashboards",
-      "Name": "Quigley, King and Kreiger",
-      "Fullname": "quia",
-      "ParentId": 289,
+      "Name": "Leannon, Considine and Hudson",
+      "Fullname": "dolorem",
+      "ParentId": 642,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-03-15T11:24:53.2968202+01:00",
-      "RegisteredAssociateId": 77,
-      "Updated": "2010-04-02T11:24:53.2968202+02:00",
-      "UpdatedAssociateId": 885,
+      "Registered": "2012-11-06T03:40:55.7886484+01:00",
+      "RegisteredAssociateId": 832,
+      "Updated": "2018-11-23T03:40:55.7886484+01:00",
+      "UpdatedAssociateId": 526,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     }
   ],
-  "Registered": "2018-01-02T11:24:53.2968202+01:00",
-  "RegisteredAssociateId": 807,
-  "Updated": "2003-05-15T11:24:53.2968202+02:00",
-  "UpdatedAssociateId": 322,
+  "Registered": "2024-11-02T03:40:55.7886484+01:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2024-01-22T03:40:55.7886484+01:00",
+  "UpdatedAssociateId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 575
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

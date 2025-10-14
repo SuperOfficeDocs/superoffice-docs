@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/UpdateNetServicesStatus
 Update the NetServices preferences with values contained in the content from the Status URL
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Preference/UpdateNetServicesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "XmlOrJson": "fugiat"
+  "XmlOrJson": "commodi"
 }
 ```
 

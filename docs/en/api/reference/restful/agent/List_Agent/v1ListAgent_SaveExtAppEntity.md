@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveExtAppEntity
 Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -110,28 +112,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 623,
-  "Name": "Kulas, Rosenbaum and Jewess",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 935,
-  "Filename": "molestias",
-  "Parameters": "aut",
-  "Workdir": "facere",
+  "ExtAppId": 170,
+  "Name": "Rosenbaum-Treutel",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 732,
+  "Filename": "error",
+  "Parameters": "velit",
+  "Workdir": "dignissimos",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 872,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 466,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequatur"
+  "Path": "est"
 }
 ```
 
@@ -142,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 464,
-  "Name": "Schoen Inc and Sons",
-  "Tooltip": "nemo",
+  "ExtAppId": 524,
+  "Name": "Kozey, Roberts and Greenfelder",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 837,
-  "Filename": "aliquid",
-  "Parameters": "est",
-  "Workdir": "cupiditate",
+  "Rank": 694,
+  "Filename": "est",
+  "Parameters": "eos",
+  "Workdir": "omnis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 921,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 249,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "tempora",
+  "Path": "blanditiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

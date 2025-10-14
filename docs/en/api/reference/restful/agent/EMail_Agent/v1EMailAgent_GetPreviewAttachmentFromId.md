@@ -15,6 +15,7 @@ Retrieve an attachment from an e-mail.
 
 
 The returned data is intended to be use for a preview.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -90,14 +91,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 231,
-  "AttachmentId": "aut",
-  "AttachmentType": "facilis",
-  "AttachmentFilename": "voluptas"
+  "MailItemId": 478,
+  "AttachmentId": "ducimus",
+  "AttachmentType": "accusantium",
+  "AttachmentFilename": "id"
 }
 ```
 
@@ -108,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized scalable framework",
-  "Filename": "dolor",
-  "Size": 957,
-  "Type": "omnis",
-  "Encoding": "ab",
-  "Id": "qui",
-  "Disposition": "voluptatum",
-  "IsSafeFileExtension": true,
+  "Description": "User-friendly bottom-line analyzer",
+  "Filename": "temporibus",
+  "Size": 464,
+  "Type": "est",
+  "Encoding": "quis",
+  "Id": "perferendis",
+  "Disposition": "aut",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 776
     }
   }
 }

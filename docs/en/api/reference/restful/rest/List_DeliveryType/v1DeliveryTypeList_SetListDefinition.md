@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Kuphal-Sawayn",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 924,
-  "IsCustomList": false,
+  "Id": 17,
+  "Name": "Volkman Group",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "Rank": 597,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "VonRueden-Dooley",
-  "Tooltip": "officia",
+  "Id": 527,
+  "Name": "Altenwerth Inc and Sons",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "Rank": 355,
-  "IsCustomList": false,
+  "Rank": 571,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 59
     }
   }
 }

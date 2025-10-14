@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Heidenreich Group",
-  "Tooltip": "numquam",
+  "Id": 187,
+  "Name": "Tremblay-Beier",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 148,
-  "Rank": 445,
+  "UdListDefinitionId": 716,
+  "Rank": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 529
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

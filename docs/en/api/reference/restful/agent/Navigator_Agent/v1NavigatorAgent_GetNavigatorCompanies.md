@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```
 
-
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Miller Group"
+  "Name": "Hodkiewicz, Ankunding and Tillman"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Value": "soluta",
-    "Tooltip": "aut",
+    "Id": 510,
+    "Value": "ut",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   },
   {
-    "Id": 849,
-    "Value": "soluta",
-    "Tooltip": "aut",
+    "Id": 510,
+    "Value": "ut",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

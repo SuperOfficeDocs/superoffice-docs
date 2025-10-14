@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 208,
-  "Name": "Pagac, Kuvalis and Mertz",
-  "Tooltip": "illum",
-  "Rank": 737,
+  "SaleTypeId": 317,
+  "Name": "Schulist Group",
+  "Tooltip": "et",
+  "Rank": 273,
   "DurationUnit": "Century",
-  "SaleDuration": 72,
-  "SaleTypeCatId": 8,
+  "SaleDuration": 229,
+  "SaleTypeCatId": 880,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 112,
-  "QuoteLinesTemplate": 680,
-  "ConfirmationLinesTemplate": 672,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 444,
-  "MinEarningPercent": 887,
-  "GroupQuoteLinesBy": 658,
-  "SortGroupLinesBy": 392,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 230,
+  "QuoteLinesTemplate": 51,
+  "ConfirmationLinesTemplate": 766,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 552,
+  "MinEarningPercent": 626,
+  "GroupQuoteLinesBy": 132,
+  "SortGroupLinesBy": 300,
   "Stages": [
     {
-      "Id": 916,
-      "Name": "Keeling LLC",
-      "ToolTip": "Id quis nostrum facere sunt autem totam.",
+      "Id": 220,
+      "Name": "Fahey, Thiel and Quigley",
+      "ToolTip": "Adipisci odio illo neque.",
       "Deleted": false,
-      "Rank": 232,
-      "Type": "et",
-      "ColorBlock": 191,
-      "IconHint": "eligendi",
+      "Rank": 322,
+      "Type": "voluptatem",
+      "ColorBlock": 821,
+      "IconHint": "magni",
       "Selected": false,
-      "LastChanged": "2018-12-06T11:24:54.1405361+01:00",
+      "LastChanged": "1998-09-16T03:40:57.1027301+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "quaerat",
-      "Hidden": false,
-      "FullName": "Brielle Bartell",
+      "ExtraInfo": "recusandae",
+      "StyleHint": "hic",
+      "Hidden": true,
+      "FullName": "Kariane Nicolas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 834
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 543
     }
   }
 }

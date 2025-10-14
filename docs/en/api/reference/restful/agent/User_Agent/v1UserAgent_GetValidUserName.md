@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/User/GetValidUserName
 ```
 
-<para />
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 596,
+  "AssociateId": 998,
   "Type": "AnonymousAssociate",
-  "PersonId": 92,
-  "UserName": "Nader, Thiel and Hermiston"
+  "PersonId": 419,
+  "UserName": "Larson Inc and Sons"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hettinger-Reynolds"
+"Swaniawski Group"
 ```

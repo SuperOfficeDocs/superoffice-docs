@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/Html2Text
 Create a plain text version of the html, suitable for email
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Ticket/Html2Text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "ad"
+  "Content": "est"
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolor"
+"rerum"
 ```

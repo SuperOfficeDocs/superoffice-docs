@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,11 +75,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsam",
-  "ProviderName": "Dietrich-Ritchie",
-  "StorageKey": "nostrum",
-  "Restrictions": "natus",
-  "Context": "mollitia"
+  "StorageType": "unde",
+  "ProviderName": "Doyle, Murphy and Rosenbaum",
+  "StorageKey": "hic",
+  "Restrictions": "molestiae",
+  "Context": "omnis"
 }
 ```
 

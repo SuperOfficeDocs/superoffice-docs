@@ -15,6 +15,7 @@ Move one person up or down in the ranking in the Person Archive, if possible.
 
 
 &lt;para/&gt;The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).&lt;para/&gt;This method corresponds to the move up/move down functions in the person archive in the contact panel.&lt;para/&gt;This method always affects two records.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Person/ChangePersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 993,
-  "MoveUp": true
+  "PersonId": 809,
+  "MoveUp": false
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-390
+508
 ```

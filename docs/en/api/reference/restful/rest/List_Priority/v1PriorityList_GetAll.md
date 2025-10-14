@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 688,
-    "Name": "Leannon Group",
-    "Tooltip": "est",
+    "Id": 369,
+    "Name": "Zulauf-Rohan",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 794,
-    "Rank": 46,
+    "UdListDefinitionId": 15,
+    "Rank": 896,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 278
+        "FieldLength": 699
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Kessler Group",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 456,
-    "Rank": 594,
+    "Id": 196,
+    "Name": "Denesik-West",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "UdListDefinitionId": 233,
+    "Rank": 737,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

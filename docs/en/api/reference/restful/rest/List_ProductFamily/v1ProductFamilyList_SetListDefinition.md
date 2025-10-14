@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 501,
-  "Name": "Torp, Hickle and Rau",
-  "Tooltip": "ipsa",
+  "Id": 750,
+  "Name": "Frami, O'Kon and Borer",
+  "Tooltip": "a",
   "Deleted": true,
-  "Rank": 303,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 818,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Bogan Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 240,
+  "Name": "Hackett Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 897,
+  "Rank": 374,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "corporis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 193
     }
   }
 }

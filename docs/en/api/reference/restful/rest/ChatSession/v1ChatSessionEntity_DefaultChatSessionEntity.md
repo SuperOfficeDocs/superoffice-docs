@@ -15,6 +15,7 @@ Set default values into a new ChatSessionEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,29 +99,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 543,
-  "TopicId": 471,
+  "ChatSessionId": 48,
+  "TopicId": 455,
   "User": null,
   "Person": null,
-  "CustomerAlias": "perspiciatis",
-  "CustomerHost": "sit",
-  "CustomerName": "Murray, Mann and Leffler",
-  "CustomerEmail": "wava.champlin@bergstrom.biz",
-  "CustomerPhone": "1-611-214-0849",
+  "CustomerAlias": "est",
+  "CustomerHost": "id",
+  "CustomerName": "Bernier-Wilderman",
+  "CustomerEmail": "okey@langworth.us",
+  "CustomerPhone": "372.305.1598",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Considine, Blick and Sauer",
+  "CustomerCompanyName": "Corkery, Howe and Boyer",
   "Status": "Closed",
-  "FirstMessage": "accusantium",
-  "LastMessage": "esse",
-  "WhenRequested": "2005-02-21T11:24:52.9843331+01:00",
-  "WhenStarted": "2002-03-18T11:24:52.9843331+01:00",
-  "WhenEnded": "2012-11-08T11:24:52.9843331+01:00",
-  "WhenIdle": "2010-10-26T11:24:52.9843331+02:00",
-  "WhenFetched": "2012-11-22T11:24:52.9843331+01:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 786,
-  "AlertLevel": 420,
-  "Rank": 796,
+  "FirstMessage": "similique",
+  "LastMessage": "enim",
+  "WhenRequested": "2012-11-18T03:40:55.2411754+01:00",
+  "WhenStarted": "2000-07-21T03:40:55.2411754+02:00",
+  "WhenEnded": "2016-10-09T03:40:55.2411754+02:00",
+  "WhenIdle": "2004-12-27T03:40:55.2411754+01:00",
+  "WhenFetched": "2015-07-06T03:40:55.2411754+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 807,
+  "AlertLevel": 672,
+  "Rank": 636,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -128,13 +129,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 278,
+  "Rating": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetMrMrsList
 Gets an array of MrMrs objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetMrMrsList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Value": "eligendi",
-    "Tooltip": "repudiandae",
+    "Id": 3,
+    "Value": "saepe",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 642
       }
     }
   },
   {
-    "Id": 840,
-    "Value": "eligendi",
-    "Tooltip": "repudiandae",
+    "Id": 3,
+    "Value": "saepe",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 642
       }
     }
   }

@@ -15,6 +15,10 @@ Translate a text from one language to another.
 
 
 Language of the text is automatically detected.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -76,8 +80,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "sint",
-  "TargetLanguage": "molestiae"
+  "Text": "sequi",
+  "TargetLanguage": "ut"
 }
 ```
 
@@ -87,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quia"
+"maxime"
 ```

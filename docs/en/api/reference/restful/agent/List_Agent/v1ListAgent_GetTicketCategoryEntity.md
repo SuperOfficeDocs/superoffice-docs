@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoryEntity
 Gets a TicketCategoryEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=714
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=605
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,36 +97,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 34,
-  "ParentId": 497,
-  "Name": "Monahan Group",
-  "Fullname": "est",
-  "CategoryMaster": 393,
+  "TicketCategoryId": 285,
+  "ParentId": 998,
+  "Name": "Kunde, Dicki and Hodkiewicz",
+  "Fullname": "consequatur",
+  "CategoryMaster": 867,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hackett-Watsica",
+  "ExternalName": "Hartmann, Barton and Anderson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 411,
-  "ReplyTemplate": 83,
-  "NotificationEmail": "erik_schroeder@klockobrown.ca",
+  "AssignmentLag": 823,
+  "ReplyTemplate": 91,
+  "NotificationEmail": "elenora_zulauf@nienowdibbert.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 304,
+  "EffectiveReplyTemplateId": 338,
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "corporis"
+    "CustomFields1": "facilis",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 255
     }
   }
 }

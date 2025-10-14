@@ -15,6 +15,7 @@ Set default values into a new HierarchyEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultHierarchyEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,46 +78,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 266,
+  "HierarchyId": 200,
   "Domain": "Dashboards",
-  "Name": "Walsh Group",
-  "Fullname": "tempore",
-  "ParentId": 84,
+  "Name": "Breitenberg Inc and Sons",
+  "Fullname": "neque",
+  "ParentId": 330,
   "Children": [
     {
-      "HierarchyId": 845,
+      "HierarchyId": 147,
       "Domain": "Dashboards",
-      "Name": "Luettgen, Hackett and Harris",
-      "Fullname": "rerum",
-      "ParentId": 19,
+      "Name": "Satterfield-Herzog",
+      "Fullname": "possimus",
+      "ParentId": 611,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-04-09T11:24:53.2968202+02:00",
-      "RegisteredAssociateId": 388,
-      "Updated": "2020-07-22T11:24:53.2968202+02:00",
-      "UpdatedAssociateId": 154,
+      "Registered": "2012-10-26T03:40:55.7886484+02:00",
+      "RegisteredAssociateId": 627,
+      "Updated": "2015-12-15T03:40:55.7886484+01:00",
+      "UpdatedAssociateId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 941
         }
       }
     }
   ],
-  "Registered": "2001-07-18T11:24:53.2968202+02:00",
-  "RegisteredAssociateId": 157,
-  "Updated": "2003-04-27T11:24:53.2968202+02:00",
-  "UpdatedAssociateId": 781,
+  "Registered": "2005-05-02T03:40:55.7886484+02:00",
+  "RegisteredAssociateId": 485,
+  "Updated": "2012-02-25T03:40:55.7886484+01:00",
+  "UpdatedAssociateId": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

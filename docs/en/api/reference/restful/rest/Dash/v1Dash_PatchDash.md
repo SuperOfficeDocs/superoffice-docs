@@ -14,7 +14,8 @@ PATCH /api/v1/Dash/{id}
 Update a Dash with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -121,18 +122,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -145,37 +146,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 429,
-  "UniqueId": "tempora",
-  "Name": "Murazik-Macejkovic",
-  "Description": "Organic demand-driven product",
-  "AssociateId": 118,
-  "Columns": 155,
+  "DashboardId": 67,
+  "UniqueId": "animi",
+  "Name": "Osinski-Koepp",
+  "Description": "Seamless coherent success",
+  "AssociateId": 283,
+  "Columns": 280,
   "Theme": null,
-  "VisibleForAll": 597,
+  "VisibleForAll": 934,
   "VisibleForAssociates": [
-    966,
-    644
+    284,
+    82
   ],
   "VisibleForGroups": [
-    313,
-    929
+    249,
+    409
   ],
-  "PinForAll": 245,
+  "PinForAll": 335,
   "PinForAssociates": [
-    612,
-    189
+    786,
+    122
   ],
   "PinForGroups": [
-    709,
-    176
+    509,
+    164
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 510
     }
   },
   "_Links": {

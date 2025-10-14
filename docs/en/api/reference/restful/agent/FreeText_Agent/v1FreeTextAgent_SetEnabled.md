@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/SetEnabled
 Sets freetext search to enabled (true) or disabled (false)
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/FreeText/SetEnabled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Enabled": true
+  "Enabled": false
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,12 +87,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 145,
-      "ContactId": 255
+      "PersonId": 963,
+      "ContactId": 38
     },
     {
-      "PersonId": 145,
-      "ContactId": 255
+      "PersonId": 963,
+      "ContactId": 38
     }
   ]
 }
@@ -103,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 461,
-  "ValidPostalAddresses": 274,
-  "ValidEmailAddresses": 688,
-  "ValidFaxNumbers": 84,
-  "NoAddresses": 432,
-  "NoFaxOrEmails": 507,
+  "Total": 826,
+  "ValidPostalAddresses": 241,
+  "ValidEmailAddresses": 803,
+  "ValidFaxNumbers": 515,
+  "NoAddresses": 725,
+  "NoFaxOrEmails": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 543
     }
   }
 }

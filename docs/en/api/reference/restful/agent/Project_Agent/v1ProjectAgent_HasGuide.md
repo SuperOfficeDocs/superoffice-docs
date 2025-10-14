@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/HasGuide
 Does this project have a guide associated with its project type?
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 559
+  "ProjectId": 340
 }
 ```
 

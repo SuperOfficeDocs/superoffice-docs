@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescription
 Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -98,28 +100,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 357,
-  "Section": "quasi",
-  "Key": "atque",
-  "Name": "Harvey-Jewess",
+  "PrefDescId": 213,
+  "Section": "sequi",
+  "Key": "similique",
+  "Name": "Gleason-Volkman",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Polarised assymetric access",
-  "IsBuiltin": false,
-  "TableName": "Hansen, Purdy and Schinner",
-  "UserDefinedListId": 555,
-  "Rank": 988,
-  "SubGroup": "unde",
-  "MinLevel": 133,
-  "MaxValue": 77,
-  "MinValue": 572,
-  "RequiredLicense": "mollitia"
+  "Description": "Adaptive homogeneous middleware",
+  "IsBuiltin": true,
+  "TableName": "Gutmann-Lubowitz",
+  "UserDefinedListId": 264,
+  "Rank": 600,
+  "SubGroup": "ea",
+  "MinLevel": 361,
+  "MaxValue": 571,
+  "MinValue": 634,
+  "RequiredLicense": "occaecati"
 }
 ```
 
@@ -130,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 446,
-  "Section": "perferendis",
-  "Key": "ducimus",
-  "Name": "Marks, Littel and Wilderman",
+  "PrefDescId": 697,
+  "Section": "beatae",
+  "Key": "voluptatibus",
+  "Name": "Jones, Goyette and Pagac",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Monitored background data-warehouse",
-  "IsBuiltin": true,
-  "TableName": "Zemlak-Wilkinson",
-  "UserDefinedListId": 282,
-  "Rank": 316,
-  "SubGroup": "minima",
-  "MinLevel": 256,
-  "MaxValue": 467,
-  "MinValue": 524,
-  "RequiredLicense": "neque",
+  "Description": "Synergistic user-facing framework",
+  "IsBuiltin": false,
+  "TableName": "Klocko Inc and Sons",
+  "UserDefinedListId": 271,
+  "Rank": 436,
+  "SubGroup": "fugit",
+  "MinLevel": 477,
+  "MaxValue": 303,
+  "MinValue": 48,
+  "RequiredLicense": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 918
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

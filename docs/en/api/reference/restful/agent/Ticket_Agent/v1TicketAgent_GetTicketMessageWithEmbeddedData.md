@@ -15,6 +15,7 @@ Get a ticket message entity with posibillity to change embedded images to be rep
 
 
 If using inline data, be sure not to save this back to the database.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -102,11 +103,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
+  "Id": 604,
   "EmbedImages": "Inline"
 }
 ```
@@ -118,28 +119,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 157,
+  "EjMessageId": 971,
   "Ticket": null,
-  "CreatedAt": "2015-11-21T11:24:48.6720089+01:00",
+  "CreatedAt": "2023-12-31T03:40:47.9067285+01:00",
   "CreatedBy": null,
-  "Author": "similique",
+  "Author": "quo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "fugit",
-  "TimeSpent": 172,
-  "Body": "accusamus",
-  "HtmlBody": "qui",
-  "EmailHeader": "cierra_maggio@champlin.name",
-  "DebugInfo": "fugit",
-  "MailSorter": "sint",
+  "MessageId": "ut",
+  "TimeSpent": 316,
+  "Body": "illum",
+  "HtmlBody": "ut",
+  "EmailHeader": "travis@friesen.name",
+  "DebugInfo": "odit",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptates",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 255,
-      "Name": "Larkin-Kuphal",
-      "Value": "aut",
+      "Id": 56,
+      "Name": "Weimann-Pfannerstill",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,50 +148,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 268
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolore",
-  "Sentiment": 741,
-  "SentimentConfidence": 508,
+  "Important": true,
+  "Language": "ipsa",
+  "Sentiment": 40,
+  "SentimentConfidence": 571,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 446,
-      "Name": "Hintz LLC",
-      "ContentType": "reprehenderit",
-      "AttSize": 361,
+      "AttachmentId": 744,
+      "Name": "Goyette Group",
+      "ContentType": "sint",
+      "AttSize": 528,
       "InlineImage": false,
-      "ContentId": "eos",
-      "AuthKey": "dolorem",
+      "ContentId": "magnam",
+      "AuthKey": "et",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldType": "System.String",
+          "FieldLength": 693
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "ut"
+    "CustomFields1": "quia",
+    "CustomFields2": "sint"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 979
     }
   }
 }

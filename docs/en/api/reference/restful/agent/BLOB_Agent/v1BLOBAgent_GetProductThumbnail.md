@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetProductThumbnail
 Returns the product thumbnail that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 102
+  "ProductId": 439
 }
 ```
 

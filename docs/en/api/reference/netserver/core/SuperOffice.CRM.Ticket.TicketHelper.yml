@@ -6,7 +6,8 @@ items:
   parent: SuperOffice.CRM.Ticket
   children:
   - SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
-  - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  - SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions
   - SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
   - SuperOffice.CRM.Ticket.TicketHelper.GetMailInFilterAddressAsync(System.Int32,System.Threading.CancellationToken)
@@ -462,29 +463,42 @@ items:
   nameWithType.vb: TicketHelper.GetTicketStatusRecordDataAsync(Short, CancellationToken)
   fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(Short, System.Threading.CancellationToken)
   name.vb: GetTicketStatusRecordDataAsync(Short, CancellationToken)
-- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
-  id: DemandAdminPermissionsAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+  id: DemandAdminPermissions
   parent: SuperOffice.CRM.Ticket.TicketHelper
   langs:
   - csharp
   - vb
-  name: DemandAdminPermissionsAsync(CancellationToken)
-  nameWithType: TicketHelper.DemandAdminPermissionsAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync(System.Threading.CancellationToken)
+  name: DemandAdminPermissions()
+  nameWithType: TicketHelper.DemandAdminPermissions()
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions()
   type: Method
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static Task DemandAdminPermissionsAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Shared Function DemandAdminPermissionsAsync(cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync*
+    content: public static void DemandAdminPermissions()
+    content.vb: Public Shared Sub DemandAdminPermissions()
+  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions
+  id: DemandServiceT2AndAdminPermissions
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: DemandServiceT2AndAdminPermissions()
+  nameWithType: TicketHelper.DemandServiceT2AndAdminPermissions()
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void DemandServiceT2AndAdminPermissions()
+    content.vb: Public Shared Sub DemandServiceT2AndAdminPermissions()
+  overload: SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions*
 - uid: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
   commentId: M:SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
   id: HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
@@ -1532,13 +1546,20 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.TicketStatusRecordData.html
   - name: )
-- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync*
-  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_DemandAdminPermissionsAsync_System_Threading_CancellationToken_
-  name: DemandAdminPermissionsAsync
-  nameWithType: TicketHelper.DemandAdminPermissionsAsync
-  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissionsAsync
+  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_DemandAdminPermissions
+  name: DemandAdminPermissions
+  nameWithType: TicketHelper.DemandAdminPermissions
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
+- uid: SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_DemandServiceT2AndAdminPermissions
+  name: DemandServiceT2AndAdminPermissions
+  nameWithType: TicketHelper.DemandServiceT2AndAdminPermissions
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.DemandServiceT2AndAdminPermissions
 - uid: SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight
   isExternal: true

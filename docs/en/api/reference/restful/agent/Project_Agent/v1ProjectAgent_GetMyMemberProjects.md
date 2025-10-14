@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetMyMemberProjects
 Returning the projects where an user is project member.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 562,
-    "Name": "Hilll Group",
-    "Description": "Profit-focused methodical initiative",
+    "ProjectId": 375,
+    "Name": "Williamson Inc and Sons",
+    "Description": "Programmable assymetric methodology",
     "URL": "http://www.example.com/",
-    "Type": "reiciendis",
-    "AssociateId": 201,
-    "AssociateFullName": "Kaela Brekke",
-    "TypeId": 881,
-    "Updated": "2009-03-16T11:24:48.4845166+01:00",
-    "StatusId": 580,
-    "Status": "illum",
-    "TextId": 371,
-    "PublishTo": "2002-05-06T11:24:48.4845166+02:00",
-    "PublishFrom": "2016-07-06T11:24:48.4845166+02:00",
-    "IsPublished": true,
+    "Type": "est",
+    "AssociateId": 544,
+    "AssociateFullName": "Mrs. Dillan Madge Smitham PhD",
+    "TypeId": 179,
+    "Updated": "2014-09-18T03:40:47.4843558+02:00",
+    "StatusId": 783,
+    "Status": "et",
+    "TextId": 985,
+    "PublishTo": "2007-02-10T03:40:47.4843558+01:00",
+    "PublishFrom": "2019-02-01T03:40:47.4843558+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1132773",
-    "ActiveErpLinks": 420,
+    "ProjectNumber": "617194",
+    "ActiveErpLinks": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 976
       }
     }
   }

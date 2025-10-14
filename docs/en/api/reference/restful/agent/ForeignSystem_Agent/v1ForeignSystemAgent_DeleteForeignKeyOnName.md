@@ -15,6 +15,7 @@ Deletes all specified occurrences of a key, belonging to the ForeignApp and Fore
 
 
 Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,16 +73,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stracke, Stark and Keeling",
-  "DeviceName": "Nikolaus, Goyette and Klocko",
-  "DeviceIdentifier": "dolorem",
-  "KeyName": "Hyatt, Simonis and Cruickshank",
-  "TableName": "Stark Inc and Sons",
-  "RecordId": 524
+  "ApplicationName": "Rowe-Erdman",
+  "DeviceName": "O'Conner-Stokes",
+  "DeviceIdentifier": "voluptate",
+  "KeyName": "Hartmann LLC",
+  "TableName": "Kassulke, Goyette and Morissette",
+  "RecordId": 431
 }
 ```
 

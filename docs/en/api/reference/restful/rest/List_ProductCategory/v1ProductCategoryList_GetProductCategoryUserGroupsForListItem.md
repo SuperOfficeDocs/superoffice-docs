@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Hermann-Emard",
-    "ToolTip": "Esse ducimus iure et nisi eaque.",
+    "Id": 323,
+    "Name": "Metz Inc and Sons",
+    "ToolTip": "Necessitatibus iusto corrupti quis vitae vel.",
     "Deleted": false,
-    "Rank": 305,
-    "Type": "ullam",
-    "ColorBlock": 650,
-    "IconHint": "praesentium",
-    "Selected": false,
-    "LastChanged": "2013-08-13T11:24:53.9999166+02:00",
+    "Rank": 525,
+    "Type": "hic",
+    "ColorBlock": 254,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2007-08-14T03:40:56.9933484+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Hegmann Inc and Sons",
-        "ToolTip": "Odit iure alias nulla aliquid eos sit vel.",
-        "Deleted": true,
-        "Rank": 342,
-        "Type": "doloremque",
-        "ColorBlock": 344,
-        "IconHint": "sint",
+        "Id": 973,
+        "Name": "Mitchell LLC",
+        "ToolTip": "Repudiandae sed dolore omnis itaque omnis non.",
+        "Deleted": false,
+        "Rank": 476,
+        "Type": "explicabo",
+        "ColorBlock": 541,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2017-09-21T11:24:53.9999166+02:00",
+        "LastChanged": "2005-08-31T03:40:56.9933484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "atque",
+        "ExtraInfo": "sed",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Ian Satterfield",
+        "FullName": "Prof. Issac Blair Pouros III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 329
+            "FieldType": "System.String",
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "non",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Mrs. Allie Heaven Gerlach V",
+    "FullName": "Arvid Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

@@ -15,6 +15,7 @@ Accepts tickets by their ids.
 
 
 Sets owner to current user
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    237,
-    192
+    16,
+    98
   ]
 }
 ```

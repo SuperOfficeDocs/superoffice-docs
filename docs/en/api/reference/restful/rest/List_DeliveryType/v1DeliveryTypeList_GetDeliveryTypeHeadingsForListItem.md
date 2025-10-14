@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Thiel, Bartell and Cummerata",
-    "ToolTip": "Aliquid quia et tempora doloremque eveniet.",
-    "Deleted": true,
-    "Rank": 46,
-    "Type": "eos",
-    "ColorBlock": 462,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2025-08-07T11:24:53.9374193+02:00",
+    "Id": 94,
+    "Name": "Pagac-Quigley",
+    "ToolTip": "Numquam id doloremque provident fuga.",
+    "Deleted": false,
+    "Rank": 792,
+    "Type": "eius",
+    "ColorBlock": 348,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2003-04-12T03:40:56.8369839+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Jacobson-McCullough",
-        "ToolTip": "Cumque voluptates saepe iusto corporis ut.",
-        "Deleted": true,
-        "Rank": 175,
-        "Type": "iste",
-        "ColorBlock": 527,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2009-12-11T11:24:53.9374193+01:00",
+        "Id": 654,
+        "Name": "Heidenreich Inc and Sons",
+        "ToolTip": "Et est in et blanditiis.",
+        "Deleted": false,
+        "Rank": 163,
+        "Type": "harum",
+        "ColorBlock": 382,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2012-05-01T03:40:56.8369839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Rod Jenkins",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Kennedi Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 597
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Enoch Nathaniel Harvey PhD",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "doloribus",
+    "Hidden": false,
+    "FullName": "Elise Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

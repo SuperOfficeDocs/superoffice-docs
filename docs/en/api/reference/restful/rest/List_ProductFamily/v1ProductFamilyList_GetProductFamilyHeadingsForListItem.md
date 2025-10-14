@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Hintz, Rippin and Cartwright",
-    "ToolTip": "Commodi error sit ipsam dolorem perspiciatis voluptas.",
+    "Id": 723,
+    "Name": "Harvey-Schowalter",
+    "ToolTip": "Iste corrupti omnis esse quasi minima.",
     "Deleted": false,
-    "Rank": 89,
-    "Type": "quidem",
-    "ColorBlock": 33,
-    "IconHint": "similique",
+    "Rank": 210,
+    "Type": "est",
+    "ColorBlock": 129,
+    "IconHint": "officiis",
     "Selected": true,
-    "LastChanged": "2003-08-11T11:24:54.0155411+02:00",
+    "LastChanged": "2010-11-29T03:40:57.0089742+01:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Gusikowski-Jaskolski",
-        "ToolTip": "Voluptas eveniet rerum et alias magnam.",
+        "Id": 197,
+        "Name": "Koch, Price and Wiza",
+        "ToolTip": "Molestias asperiores.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "id",
-        "ColorBlock": 799,
-        "IconHint": "nemo",
-        "Selected": true,
-        "LastChanged": "2016-09-06T11:24:54.0155411+02:00",
+        "Rank": 14,
+        "Type": "neque",
+        "ColorBlock": 73,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2020-11-02T03:40:57.0089742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Marcella Goldner",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Virginie Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Mrs. Haley Murray",
+    "ExtraInfo": "sint",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Jena Goodwin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 112
       }
     }
   }

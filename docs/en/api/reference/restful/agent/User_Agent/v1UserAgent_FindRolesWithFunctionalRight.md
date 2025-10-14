@@ -15,6 +15,7 @@ Find all roles with a given functional right.
 
 
 The roles matched must contain the specified functional right. 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Bogisich LLC"
+  "FunctionalRightName": "Kuphal, Gerlach and Tremblay"
 }
 ```
 
@@ -106,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Sporer, Dibbert and Pacocha",
-    "ToolTip": "Et tempora aperiam dicta quidem et.",
+    "Id": 195,
+    "Name": "Collier Inc and Sons",
+    "ToolTip": "Est itaque veritatis.",
     "Deleted": false,
-    "Rank": 11,
-    "Type": "laborum",
+    "Rank": 867,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Satterfield Inc and Sons",
-        "ToolTip": "Reiciendis tempora.",
+        "Id": 986,
+        "Name": "Schinner, Mueller and Cremin",
+        "ToolTip": "Cum omnis deserunt.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "quia",
+        "Rank": 722,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 194,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quas",
-        "FullName": "Armand Gulgowski",
+        "IconHint": "tenetur",
+        "ColorBlock": 707,
+        "ExtraInfo": "non",
+        "StyleHint": "possimus",
+        "FullName": "Cassidy Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 359,
-    "ExtraInfo": "nemo",
-    "StyleHint": "necessitatibus",
-    "FullName": "Domingo Hauck",
+    "IconHint": "repudiandae",
+    "ColorBlock": 196,
+    "ExtraInfo": "architecto",
+    "StyleHint": "incidunt",
+    "FullName": "Granville Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

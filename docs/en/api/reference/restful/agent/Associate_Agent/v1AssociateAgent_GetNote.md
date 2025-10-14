@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetNote
 Returns an array of strings(notepad pages).
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 717
+  "AssociateId": 85
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sed",
-  "eos"
+  "accusamus",
+  "laboriosam"
 ]
 ```

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveUser
 Updates the existing User or creates a new User if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -114,18 +117,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 658,
-  "Name": "Becker, Parker and Herzog",
-  "Rank": 9,
-  "Tooltip": "nostrum",
+  "AssociateId": 837,
+  "Name": "Kub, Bernier and Cartwright",
+  "Rank": 631,
+  "Tooltip": "minus",
   "LicenseOwners": [
     {
-      "Name": "Zemlak-Gutkowski",
-      "Description": "Enhanced bifurcated customer loyalty",
+      "Name": "Lueilwitz Group",
+      "Description": "Polarised context-sensitive encryption",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,8 +139,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Zemlak-Gutkowski",
-      "Description": "Enhanced bifurcated customer loyalty",
+      "Name": "Lueilwitz Group",
+      "Description": "Polarised context-sensitive encryption",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,87 +155,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "accusamus",
-      "Tooltip": "voluptas",
-      "Id": 285,
-      "Rank": 499,
-      "Deleted": true
+      "Value": "provident",
+      "Tooltip": "facilis",
+      "Id": 428,
+      "Rank": 630,
+      "Deleted": false
     },
     {
-      "Value": "accusamus",
-      "Tooltip": "voluptas",
-      "Id": 285,
-      "Rank": 499,
-      "Deleted": true
+      "Value": "provident",
+      "Tooltip": "facilis",
+      "Id": 428,
+      "Rank": 630,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2005-05-19T11:24:48.9063744+02:00",
-  "Lastlogout": "2024-04-04T11:24:48.9063744+02:00",
-  "EjUserId": 972,
-  "RequestSignature": "corrupti",
+  "Lastlogin": "2019-11-18T03:40:48.1879959+01:00",
+  "Lastlogout": "2005-04-01T03:40:48.1879959+02:00",
+  "EjUserId": 179,
+  "RequestSignature": "veniam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "et"
+      "Value": "qui",
+      "DisplayValue": "repudiandae"
     },
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "et"
+      "Value": "qui",
+      "DisplayValue": "repudiandae"
     }
   ],
-  "UserName": "Moen LLC",
+  "UserName": "Bradtke, Champlin and Waters",
   "TicketCategories": [
     {
-      "Id": 970,
-      "Name": "Koch-Bernier",
-      "ToolTip": "Doloremque nihil possimus.",
-      "Deleted": false,
-      "Rank": 901,
-      "Type": "aut",
+      "Id": 844,
+      "Name": "Johnston LLC",
+      "ToolTip": "Ullam voluptatem quo eos libero nostrum.",
+      "Deleted": true,
+      "Rank": 787,
+      "Type": "fugit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "fugiat",
-      "ColorBlock": 876,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "qui",
-      "FullName": "Nicklaus Sporer"
+      "IconHint": "distinctio",
+      "ColorBlock": 921,
+      "ExtraInfo": "maxime",
+      "StyleHint": "impedit",
+      "FullName": "Mrs. Spencer Darrion Barton"
     }
   ],
-  "NickName": "Robel-O'Reilly",
+  "NickName": "Gerlach Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "nulla"
   },
   "PostSaveCommands": [
     {
-      "Name": "Weimann Inc and Sons",
-      "DisplayName": "Langworth, Kozey and Kihn",
-      "Description": "Versatile eco-centric support",
-      "ToolTip": "Dolor consequatur qui aut dolor sit.",
+      "Name": "Ryan, Miller and Torp",
+      "DisplayName": "Lueilwitz, Maggio and Turcotte",
+      "Description": "Multi-lateral multi-state system engine",
+      "ToolTip": "Doloremque et fugit eos.",
       "Actions": "Implicit",
-      "ActionData": "sequi"
+      "ActionData": "numquam"
     },
     {
-      "Name": "Weimann Inc and Sons",
-      "DisplayName": "Langworth, Kozey and Kihn",
-      "Description": "Versatile eco-centric support",
-      "ToolTip": "Dolor consequatur qui aut dolor sit.",
+      "Name": "Ryan, Miller and Torp",
+      "DisplayName": "Lueilwitz, Maggio and Turcotte",
+      "Description": "Multi-lateral multi-state system engine",
+      "ToolTip": "Doloremque et fugit eos.",
       "Actions": "Implicit",
-      "ActionData": "sequi"
+      "ActionData": "numquam"
     }
   ]
 }
@@ -245,14 +248,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 862,
-  "Name": "Morissette-Cormier",
-  "Rank": 565,
-  "Tooltip": "aut",
+  "AssociateId": 386,
+  "Name": "O'Reilly, Quigley and Wisoky",
+  "Rank": 601,
+  "Tooltip": "quidem",
   "LicenseOwners": [
     {
-      "Name": "Smith-Schinner",
-      "Description": "Self-enabling incremental website",
+      "Name": "Doyle, Gulgowski and Hartmann",
+      "Description": "Phased content-based contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -265,14 +268,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldType": "System.String",
+          "FieldLength": 515
         }
       }
     },
     {
-      "Name": "Smith-Schinner",
-      "Description": "Self-enabling incremental website",
+      "Name": "Doyle, Gulgowski and Hartmann",
+      "Description": "Phased content-based contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -285,8 +288,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldType": "System.String",
+          "FieldLength": 515
         }
       }
     }
@@ -295,110 +298,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sint",
-      "Tooltip": "accusamus",
-      "Id": 174,
-      "Rank": 253,
+      "Value": "reiciendis",
+      "Tooltip": "laboriosam",
+      "Id": 797,
+      "Rank": 894,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 540
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2020-09-04T11:24:48.9063744+02:00",
-  "Lastlogout": "2014-04-04T11:24:48.9063744+02:00",
-  "EjUserId": 10,
-  "RequestSignature": "fuga",
+  "Deleted": true,
+  "Lastlogin": "2025-05-30T03:40:48.2036224+02:00",
+  "Lastlogout": "1998-07-16T03:40:48.2036224+02:00",
+  "EjUserId": 828,
+  "RequestSignature": "sapiente",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "repellendus",
+      "Value": "ipsum",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 174
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "repellendus",
+      "Value": "ipsum",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 174
         }
       }
     }
   ],
-  "UserName": "Becker Inc and Sons",
+  "UserName": "Hermiston-Goyette",
   "TicketCategories": [
     {
-      "Id": 299,
-      "Name": "Deckow, Kovacek and Bednar",
-      "ToolTip": "Vitae incidunt magni ut debitis delectus repudiandae.",
-      "Deleted": false,
-      "Rank": 933,
-      "Type": "praesentium",
+      "Id": 79,
+      "Name": "Rodriguez-Lynch",
+      "ToolTip": "Iusto est consequatur suscipit vitae sed necessitatibus architecto.",
+      "Deleted": true,
+      "Rank": 400,
+      "Type": "explicabo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 310,
-      "ExtraInfo": "quia",
-      "StyleHint": "perspiciatis",
-      "FullName": "Mckayla Jacobs",
+      "IconHint": "sed",
+      "ColorBlock": 612,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "quo",
+      "FullName": "Carlo Wunsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 272
+          "FieldLength": 947
         }
       }
     }
   ],
-  "NickName": "Rohan-Christiansen",
+  "NickName": "Gerlach, Rosenbaum and Gusikowski",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "sunt"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "a"
   },
   "PostSaveCommands": [
     {
-      "Name": "Halvorson, Funk and Gibson",
-      "DisplayName": "Cummings Group",
-      "Description": "Proactive leading edge synergy",
-      "ToolTip": "Similique voluptatibus omnis voluptas voluptatem.",
+      "Name": "Kovacek Inc and Sons",
+      "DisplayName": "Schulist Inc and Sons",
+      "Description": "Decentralized impactful concept",
+      "ToolTip": "Et sunt similique eligendi natus consequatur aut.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
@@ -407,8 +410,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldType": "System.String",
+      "FieldLength": 713
     }
   }
 }

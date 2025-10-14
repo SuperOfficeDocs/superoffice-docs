@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Ondricka, Rau and Mraz",
-  "Tooltip": "perspiciatis",
+  "Id": 152,
+  "Name": "Armstrong-Stoltenberg",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 402,
-  "IsCustomList": false,
+  "Rank": 443,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "id",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 588
     }
   },
   "_Links": {

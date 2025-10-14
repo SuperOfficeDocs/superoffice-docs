@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewBadgeType
+  id: BoardViewBadgeType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BoardViewBadgeType.DaysInStage
+  - SuperOffice.WebApi.Data.BoardViewBadgeType.DaysSinceRegistered
+  - SuperOffice.WebApi.Data.BoardViewBadgeType.None
+  langs:
+  - csharp
+  - vb
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Board view badge type
+  example: []
+  syntax:
+    content: public enum BoardViewBadgeType
+    content.vb: Public Enum BoardViewBadgeType
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType.None
+  commentId: F:SuperOffice.WebApi.Data.BoardViewBadgeType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BoardViewBadgeType.None
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType.DaysSinceRegistered
+  commentId: F:SuperOffice.WebApi.Data.BoardViewBadgeType.DaysSinceRegistered
+  id: DaysSinceRegistered
+  parent: SuperOffice.WebApi.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: DaysSinceRegistered
+  nameWithType: BoardViewBadgeType.DaysSinceRegistered
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType.DaysSinceRegistered
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: DaysSinceRegistered'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DaysSinceRegistered = 1
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      DaysSinceRegistered = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType.DaysInStage
+  commentId: F:SuperOffice.WebApi.Data.BoardViewBadgeType.DaysInStage
+  id: DaysInStage
+  parent: SuperOffice.WebApi.Data.BoardViewBadgeType
+  langs:
+  - csharp
+  - vb
+  name: DaysInStage
+  nameWithType: BoardViewBadgeType.DaysInStage
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType.DaysInStage
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: DaysInStage'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      DaysInStage = 2
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewBadgeType
+    content.vb: >-
+      <EnumMember>
+
+      DaysInStage = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.BoardViewBadgeType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewBadgeType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewBadgeType.html
+  name: BoardViewBadgeType
+  nameWithType: BoardViewBadgeType
+  fullName: SuperOffice.WebApi.Data.BoardViewBadgeType

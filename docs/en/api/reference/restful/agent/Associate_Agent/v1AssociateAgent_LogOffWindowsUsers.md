@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/LogOffWindowsUsers
 Method that logs off associates that are logged on to the win client
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Associate/LogOffWindowsUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    139,
-    246
+    592,
+    124
   ]
 }
 ```

@@ -374,6 +374,7 @@ items:
   - SuperOffice.CRM.Services.ProjectType
   - SuperOffice.CRM.Services.ProjectTypeEntity
   - SuperOffice.CRM.Services.ProjectTypeStatusLink
+  - SuperOffice.CRM.Services.QuickFilterInfo
   - SuperOffice.CRM.Services.QuickReply
   - SuperOffice.CRM.Services.Quote
   - SuperOffice.CRM.Services.QuoteAgent
@@ -3117,6 +3118,13 @@ references:
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink
+- uid: SuperOffice.CRM.Services.QuickFilterInfo
+  commentId: T:SuperOffice.CRM.Services.QuickFilterInfo
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  name: QuickFilterInfo
+  nameWithType: QuickFilterInfo
+  fullName: SuperOffice.CRM.Services.QuickFilterInfo
 - uid: SuperOffice.CRM.Services.QuickReply
   commentId: T:SuperOffice.CRM.Services.QuickReply
   isExternal: true

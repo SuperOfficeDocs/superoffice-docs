@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteLine
 Saves the QuoteLine in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -137,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 334,
-  "ERPQuoteLineKey": "est",
-  "QuoteAlternativeId": 803,
-  "ERPProductKey": "molestiae",
+  "QuoteLineId": 221,
+  "ERPQuoteLineKey": "necessitatibus",
+  "QuoteAlternativeId": 121,
+  "ERPProductKey": "quia",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1090.632,
-  "DeliveredQuantity": 7731.5779999999995,
-  "Rank": 233,
-  "Name": "Nader LLC",
-  "Description": "Reactive contextually-based protocol",
-  "Code": "asperiores",
-  "QuantityUnit": "eum",
-  "PriceUnit": "sed",
-  "ItemNumber": "1243920",
+  "Quantity": 6841.522,
+  "DeliveredQuantity": 8471.202,
+  "Rank": 501,
+  "Name": "Hagenes Group",
+  "Description": "Triple-buffered client-driven process improvement",
+  "Code": "officiis",
+  "QuantityUnit": "nostrum",
+  "PriceUnit": "rem",
+  "ItemNumber": "983128",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ad",
-  "ProductTypeKey": "et",
-  "Supplier": "sequi",
-  "SupplierCode": "libero",
-  "Thumbnail": "illo",
-  "VATInfo": "accusantium",
-  "VAT": 4243.436,
-  "UnitCost": 28014.825999999997,
-  "UnitMinimumPrice": 4597.5779999999995,
-  "UnitListPrice": 23561.412,
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "pariatur",
+  "Supplier": "perspiciatis",
+  "SupplierCode": "dicta",
+  "Thumbnail": "nihil",
+  "VATInfo": "iste",
+  "VAT": 15500.764,
+  "UnitCost": 15165.426,
+  "UnitMinimumPrice": 29914.03,
+  "UnitListPrice": 11968.746,
   "ExtraInfo": [
     {
-      "Name": "Bergnaum-Rippin",
-      "Value": "fuga",
+      "Name": "Reilly, Bashirian and Bernhard",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 585
         }
       }
     },
     {
-      "Name": "Bergnaum-Rippin",
-      "Value": "fuga",
+      "Name": "Reilly, Bashirian and Bernhard",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 585
         }
       }
     }
   ],
-  "RawExtraInfo": "dolores",
+  "RawExtraInfo": "cumque",
   "IsSubscription": false,
-  "SubscriptionUnit": "incidunt",
-  "SubscriptionQuantity": 17340.422,
-  "SubscriptionStart": "2016-08-01T11:24:48.5470141+02:00",
-  "ERPDiscountPercent": 27447.572,
-  "ERPDiscountAmount": 16409.624,
-  "DiscountPercent": 9840.76,
-  "DiscountAmount": 25777.149999999998,
+  "SubscriptionUnit": "libero",
+  "SubscriptionQuantity": 26331.868,
+  "SubscriptionStart": "2012-09-11T03:40:47.5785846+02:00",
+  "ERPDiscountPercent": 21903.525999999998,
+  "ERPDiscountAmount": 7136.1179999999995,
+  "DiscountPercent": 27582.334,
+  "DiscountAmount": 28315.69,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 22633.748,
-  "EarningAmount": 16895.394,
-  "SubTotal": 3632.306,
-  "TotalPrice": 4976.7919999999995,
-  "Rights": "vel",
-  "Rule": "omnis",
-  "ExtraField1": "aut",
-  "ExtraField2": "minima",
-  "ExtraField3": "est",
-  "ExtraField4": "totam",
-  "ExtraField5": "deserunt",
+  "EarningPercent": 15040.065999999999,
+  "EarningAmount": 21890.989999999998,
+  "SubTotal": 19051.586,
+  "TotalPrice": 8461.8,
+  "Rights": "aut",
+  "Rule": "quis",
+  "ExtraField1": "quasi",
+  "ExtraField2": "labore",
+  "ExtraField3": "ut",
+  "ExtraField4": "deserunt",
+  "ExtraField5": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 409
+      "FieldLength": 429
     }
   }
 }

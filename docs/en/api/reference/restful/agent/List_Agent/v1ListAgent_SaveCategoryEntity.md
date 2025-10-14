@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveCategoryEntity
 Updates the existing CategoryEntity or creates a new CategoryEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,17 +80,17 @@ OK
 POST /api/v1/Agents/List/SaveCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 888,
-  "Name": "Green, Rath and Bernier",
+  "CategoryId": 985,
+  "Name": "Jones, Sanford and Flatley",
   "CategoryGroup": "Customer",
-  "Tooltip": "dolore",
-  "Rank": 454,
+  "Tooltip": "qui",
+  "Rank": 651,
   "EnableLeadStatus": false,
-  "CategoryFamilyId": 790,
+  "CategoryFamilyId": 88,
   "Deleted": false
 }
 ```
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 446,
-  "Name": "Rogahn-Blanda",
+  "CategoryId": 379,
+  "Name": "Donnelly Group",
   "CategoryGroup": "Customer",
-  "Tooltip": "mollitia",
-  "Rank": 155,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 657,
-  "Deleted": false,
+  "Tooltip": "rem",
+  "Rank": 310,
+  "EnableLeadStatus": false,
+  "CategoryFamilyId": 838,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 381
     }
   }
 }

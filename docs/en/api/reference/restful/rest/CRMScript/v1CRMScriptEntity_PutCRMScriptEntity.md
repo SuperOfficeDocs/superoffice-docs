@@ -14,6 +14,9 @@ PUT /api/v1/CRMScript/{id}
 Updates the existing CRMScriptEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -118,52 +121,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 510,
-  "UniqueIdentifier": "saepe",
-  "Name": "Swaniawski, Gleason and Ruecker",
-  "Description": "Triple-buffered full-range knowledge base",
-  "IncludeId": "voluptas",
-  "AccessKey": "modi",
-  "HierarchyId": 946,
-  "Source": "fugiat",
-  "SourceCode": "dolor",
+  "EjscriptId": 470,
+  "UniqueIdentifier": "repellendus",
+  "Name": "Hintz, Buckridge and Olson",
+  "Description": "Down-sized even-keeled access",
+  "IncludeId": "aut",
+  "AccessKey": "tempore",
+  "HierarchyId": 430,
+  "Source": "tempore",
+  "SourceCode": "est",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 478,
+  "HtmlOutput": 802,
   "Includes": [
-    306,
-    736
+    154,
+    559
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 928,
-      "LineNumberTo": 195,
-      "Delta": 974,
-      "IncludeId": "corrupti",
+      "LineNumberFrom": 835,
+      "LineNumberTo": 888,
+      "Delta": 971,
+      "IncludeId": "dolor",
       "IncludedFrom": [
-        "voluptatem",
-        "magnam"
+        "fugit",
+        "velit"
       ]
     },
     {
-      "LineNumberFrom": 928,
-      "LineNumberTo": 195,
-      "Delta": 974,
-      "IncludeId": "corrupti",
+      "LineNumberFrom": 835,
+      "LineNumberTo": 888,
+      "Delta": 971,
+      "IncludeId": "dolor",
       "IncludedFrom": [
-        "voluptatem",
-        "magnam"
+        "fugit",
+        "velit"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-10-12T11:24:53.156201+02:00",
-  "RegisteredAssociateId": 980,
-  "Updated": "2013-05-22T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 779,
+  "Registered": "2022-01-31T03:40:55.6162809+01:00",
+  "RegisteredAssociateId": 235,
+  "Updated": "2010-04-10T03:40:55.6162809+02:00",
+  "UpdatedAssociateId": 63,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -175,58 +178,58 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 311,
-  "UniqueIdentifier": "eos",
-  "Name": "Paucek, Medhurst and Hudson",
-  "Description": "Stand-alone intermediate collaboration",
-  "IncludeId": "in",
-  "AccessKey": "error",
-  "HierarchyId": 439,
-  "Source": "aliquam",
-  "SourceCode": "sunt",
+  "EjscriptId": 471,
+  "UniqueIdentifier": "recusandae",
+  "Name": "Crist, Murray and Stark",
+  "Description": "Devolved actuating toolset",
+  "IncludeId": "tenetur",
+  "AccessKey": "quis",
+  "HierarchyId": 178,
+  "Source": "ipsa",
+  "SourceCode": "ipsa",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 573,
+  "HtmlOutput": 902,
   "Includes": [
-    54,
-    78
+    165,
+    360
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 203,
-      "LineNumberTo": 924,
-      "Delta": 544,
-      "IncludeId": "debitis",
+      "LineNumberFrom": 680,
+      "LineNumberTo": 610,
+      "Delta": 643,
+      "IncludeId": "illo",
       "IncludedFrom": [
-        "eum",
-        "vel"
+        "ex",
+        "cum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 861
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-07-06T11:24:53.156201+02:00",
-  "RegisteredAssociateId": 180,
-  "Updated": "2017-10-27T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 889,
+  "Registered": "2024-06-29T03:40:55.6162809+02:00",
+  "RegisteredAssociateId": 909,
+  "Updated": "2002-04-15T03:40:55.6162809+02:00",
+  "UpdatedAssociateId": 955,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 858
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

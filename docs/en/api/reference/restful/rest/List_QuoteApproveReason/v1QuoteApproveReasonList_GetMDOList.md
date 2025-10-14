@@ -27,8 +27,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=at
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=aperiam
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Feil Inc and Sons",
-    "ToolTip": "Ratione adipisci cupiditate dolores nemo dolorem modi rerum.",
+    "Id": 118,
+    "Name": "Howe-Torphy",
+    "ToolTip": "Sint hic.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "et",
+    "Rank": 468,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Bartell-Schroeder",
-        "ToolTip": "Et qui eum accusamus libero omnis molestias et.",
+        "Id": 502,
+        "Name": "Spencer, Gorczany and Thiel",
+        "ToolTip": "Dolor id.",
         "Deleted": false,
-        "Rank": 450,
-        "Type": "similique",
+        "Rank": 145,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 613,
-        "ExtraInfo": "aut",
-        "StyleHint": "facilis",
-        "FullName": "Prof. Angelica Mraz I",
+        "IconHint": "voluptatem",
+        "ColorBlock": 856,
+        "ExtraInfo": "quia",
+        "StyleHint": "est",
+        "FullName": "Nico Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 42
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 916,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "autem",
-    "FullName": "Monique Steuber",
+    "IconHint": "pariatur",
+    "ColorBlock": 622,
+    "ExtraInfo": "labore",
+    "StyleHint": "animi",
+    "FullName": "Prof. Coy Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 875
       }
     }
   }

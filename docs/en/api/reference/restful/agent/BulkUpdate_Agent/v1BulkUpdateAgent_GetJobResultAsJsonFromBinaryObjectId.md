@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Get result of the batchupdate job
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rippin-Zboncak",
-  "BinaryObjectId": 231
+  "TableName": "Crooks Inc and Sons",
+  "BinaryObjectId": 957
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"impedit"
 ```

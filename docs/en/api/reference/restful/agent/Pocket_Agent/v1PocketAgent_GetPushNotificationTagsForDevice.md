@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/GetPushNotificationTagsForDevice
 Retrieve current tag value for a device
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "dolorem"
+  "DeviceIdentifier": "fuga"
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"deleniti"
+"enim"
 ```

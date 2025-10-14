@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Calculate the default desired columns, i.
 
 
-e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method. 
+e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -174,8 +175,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Weissnat Inc and Sons",
-  "Restrictions": "ipsa"
+  "ProviderName": "Kris-Gusikowski",
+  "Restrictions": "ratione"
 }
 ```
 
@@ -187,19 +188,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Beier Group",
-    "DisplayTooltip": "tenetur",
-    "DisplayType": "aspernatur",
+    "DisplayName": "Runolfsson, Gutmann and Stehr",
+    "DisplayTooltip": "dolores",
+    "DisplayType": "non",
     "CanOrderBy": true,
-    "Name": "Paucek-Okuneva",
+    "Name": "Tromp-Ankunding",
     "CanRestrictBy": false,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "Robel, Kuhn and Keebler",
+    "RestrictionType": "est",
+    "RestrictionListName": "Cormier, Bergstrom and Ruecker",
     "IsVisible": false,
-    "ExtraInfo": "consectetur",
-    "Width": "dolore",
-    "IconHint": "omnis",
-    "HeadingIconHint": "consequatur"
+    "ExtraInfo": "est",
+    "Width": "et",
+    "IconHint": "vel",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

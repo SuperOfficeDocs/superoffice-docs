@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/ExecuteScript
 Execute a CRMScript with parameters, returning printed output value.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -72,14 +75,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 933,
+  "CRMScriptId": 271,
   "Parameters": {
-    "Parameters1": "qui",
-    "Parameters2": "ab"
+    "Parameters1": "vero",
+    "Parameters2": "hic"
   }
 }
 ```
@@ -90,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"libero"
+"incidunt"
 ```

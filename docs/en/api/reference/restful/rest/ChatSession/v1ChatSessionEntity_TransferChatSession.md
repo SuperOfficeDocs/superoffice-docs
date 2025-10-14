@@ -93,7 +93,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,43 +103,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 841,
-  "TopicId": 975,
+  "ChatSessionId": 614,
+  "TopicId": 588,
   "User": null,
   "Person": null,
-  "CustomerAlias": "suscipit",
-  "CustomerHost": "accusantium",
-  "CustomerName": "Nader-Mills",
-  "CustomerEmail": "arielle.gleason@denesik.uk",
-  "CustomerPhone": "1-830-262-2717 x0521",
+  "CustomerAlias": "et",
+  "CustomerHost": "voluptate",
+  "CustomerName": "Ortiz LLC",
+  "CustomerEmail": "collin_williamson@ullrichkub.co.uk",
+  "CustomerPhone": "1-495-156-0932 x498",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Langworth-Pollich",
+  "CustomerCompanyName": "Harber, Rogahn and Erdman",
   "Status": "Closed",
-  "FirstMessage": "atque",
-  "LastMessage": "excepturi",
-  "WhenRequested": "2015-04-18T11:24:53.0155818+02:00",
-  "WhenStarted": "2024-03-31T11:24:53.0155818+02:00",
-  "WhenEnded": "2012-12-12T11:24:53.0155818+01:00",
-  "WhenIdle": "2021-05-26T11:24:53.0155818+02:00",
-  "WhenFetched": "2023-06-05T11:24:53.0155818+02:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 518,
-  "AlertLevel": 156,
-  "Rank": 318,
+  "FirstMessage": "soluta",
+  "LastMessage": "quidem",
+  "WhenRequested": "2012-02-14T03:40:55.3505585+01:00",
+  "WhenStarted": "2016-01-04T03:40:55.3505585+01:00",
+  "WhenEnded": "2017-03-21T03:40:55.3505585+01:00",
+  "WhenIdle": "2018-03-15T03:40:55.3505585+01:00",
+  "WhenFetched": "2015-03-02T03:40:55.3505585+01:00",
+  "SessionKey": "molestias",
+  "InitialQueuePos": 638,
+  "AlertLevel": 120,
+  "Rank": 499,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 988,
+  "ChatbotIsActive": true,
+  "Rating": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldLength": 291
     }
   }
 }

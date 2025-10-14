@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 770
+  "SuggestedDocumentId": 538
 }
 ```
 
@@ -122,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 426,
+  "DocumentId": 285,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "id",
-  "Header": "qui",
-  "Name": "Stanton Inc and Sons",
-  "OurRef": "veniam",
-  "YourRef": "sit",
-  "CreatedDate": "2010-10-04T11:24:48.0157858+02:00",
-  "UpdatedDate": "2012-06-23T11:24:48.0157858+02:00",
-  "Description": "Seamless well-modulated definition",
+  "Attention": "velit",
+  "Header": "blanditiis",
+  "Name": "Rice, Hilll and Hagenes",
+  "OurRef": "magnam",
+  "YourRef": "accusamus",
+  "CreatedDate": "2017-02-06T03:40:46.7342627+01:00",
+  "UpdatedDate": "2000-02-07T03:40:46.7342627+01:00",
+  "Description": "Visionary mission-critical parallelism",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-01-27T11:24:48.0157858+01:00",
-  "ExternalRef": "beatae",
+  "Date": "2001-06-09T03:40:46.7342627+02:00",
+  "ExternalRef": "labore",
   "Completed": "Completed",
-  "ActiveLinks": 364,
+  "ActiveLinks": 974,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Spinka-Mohr",
-      "Id": 467,
-      "Description": "Reverse-engineered neutral service-desk",
-      "ExtraInfo": "dolor",
-      "LinkId": 340,
+      "EntityName": "Farrell-Langosh",
+      "Id": 897,
+      "Description": "Open-source coherent encoding",
+      "ExtraInfo": "nemo",
+      "LinkId": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 134
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 30,
-  "Snum": 317,
+  "SuggestedDocumentId": 494,
+  "Snum": 921,
   "UserDefinedFields": {
-    "SuperOffice:1": "Baron Cummerata MD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1778476546",
+    "SuperOffice:2": "1549849301"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "rerum"
+    "CustomFields1": "quo",
+    "CustomFields2": "nisi"
   },
-  "PublishEventDate": "2002-08-03T11:24:48.0157858+02:00",
-  "PublishTo": "2024-11-06T11:24:48.0157858+01:00",
-  "PublishFrom": "1999-05-26T11:24:48.0157858+02:00",
+  "PublishEventDate": "2023-02-19T03:40:46.7342627+01:00",
+  "PublishTo": "2015-11-25T03:40:46.7342627+01:00",
+  "PublishFrom": "2023-01-10T03:40:46.7342627+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 534,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     },
     {
-      "VisibleId": 534,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 23
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 294
     }
   }
 }

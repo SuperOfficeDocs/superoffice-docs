@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/Reject
 Rejecting an appointment invitation
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,11 +69,11 @@ No Content
 POST /api/v1/Agents/Appointment/Reject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 100,
+  "AppointmentId": 696,
   "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }

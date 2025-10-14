@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteProduct
 Deletes the Product
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the Product
 | productId | int32 | **Required** The identity of the Product |
 
 ```http
-POST /api/v1/Agents/Quote/DeleteProduct?productId=150
+POST /api/v1/Agents/Quote/DeleteProduct?productId=627
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Quote/DeleteProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Goldner, Reinger and Labadie",
-  "Tooltip": "voluptatibus",
+  "Id": 761,
+  "Name": "Pollich, Dooley and Nitzsche",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 117,
-  "IsCustomList": true,
+  "Rank": 299,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Parisian, Moore and Wiza",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 781,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": true,
+  "Id": 387,
+  "Name": "Davis Group",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 274,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "modi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

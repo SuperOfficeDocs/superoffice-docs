@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Hermiston-Huels",
-    "ToolTip": "Mollitia dignissimos provident saepe cumque.",
-    "Deleted": false,
-    "Rank": 558,
-    "Type": "minus",
-    "ColorBlock": 199,
-    "IconHint": "dolores",
+    "Id": 443,
+    "Name": "Doyle, Corkery and Bailey",
+    "ToolTip": "Facilis aut sapiente ducimus esse.",
+    "Deleted": true,
+    "Rank": 107,
+    "Type": "iure",
+    "ColorBlock": 876,
+    "IconHint": "assumenda",
     "Selected": true,
-    "LastChanged": "2007-05-26T11:24:53.8592973+02:00",
+    "LastChanged": "2010-07-20T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Heidenreich Inc and Sons",
-        "ToolTip": "Vel earum et pariatur qui sed at eum.",
-        "Deleted": true,
-        "Rank": 931,
-        "Type": "numquam",
-        "ColorBlock": 989,
-        "IconHint": "aut",
+        "Id": 222,
+        "Name": "Medhurst, Kessler and Vandervort",
+        "ToolTip": "Aut unde.",
+        "Deleted": false,
+        "Rank": 916,
+        "Type": "consectetur",
+        "ColorBlock": 340,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2009-08-30T11:24:53.8592973+02:00",
+        "LastChanged": "2002-12-17T03:40:56.711976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "velit",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Miss Cary Terrence Moen V"
+        "FullName": "Fabiola Brekke"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "eos",
+    "ExtraInfo": "illo",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Bruce Fisher"
+    "FullName": "Miss Ada Heidenreich DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Lueilwitz Group",
-    "ToolTip": "Voluptates veniam deserunt iusto deleniti saepe suscipit.",
+    "Id": 786,
+    "Name": "Robel-West",
+    "ToolTip": "Atque deserunt quia nihil maiores esse et.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "rerum",
-    "ColorBlock": 738,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2016-01-18T11:24:53.8592973+01:00",
+    "Rank": 266,
+    "Type": "saepe",
+    "ColorBlock": 395,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2024-04-06T03:40:56.727602+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Hagenes-Goyette",
-        "ToolTip": "Voluptatem est soluta totam blanditiis tempora.",
-        "Deleted": true,
-        "Rank": 361,
-        "Type": "aut",
-        "ColorBlock": 456,
-        "IconHint": "quia",
+        "Id": 259,
+        "Name": "Hegmann, Schuppe and Kassulke",
+        "ToolTip": "Cum nesciunt qui.",
+        "Deleted": false,
+        "Rank": 159,
+        "Type": "id",
+        "ColorBlock": 100,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2023-05-05T11:24:53.8592973+02:00",
+        "LastChanged": "2011-03-27T03:40:56.727602+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Reece Larkin",
+        "ExtraInfo": "eius",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Jany Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "rerum",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Mrs. Nella Ernie Gerlach I",
+    "FullName": "Mrs. Davion Jefferey Powlowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 887
       }
     }
   }

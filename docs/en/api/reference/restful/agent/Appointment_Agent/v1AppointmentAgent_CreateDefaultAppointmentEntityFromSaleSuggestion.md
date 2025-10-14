@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Creates an appointment based on a suggested appointment.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -136,14 +138,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 602,
-  "SaleId": 325,
+  "SuggestedAppointmentId": 913,
+  "SaleId": 753,
   "CreateNow": false,
-  "OwnerId": 80
+  "OwnerId": 828
 }
 ```
 
@@ -158,121 +160,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-08-29T11:24:47.4689372+02:00",
-  "AppointmentId": 135,
-  "Description": "Inverse empowering implementation",
-  "Title": "voluptatem",
-  "Agenda": "eos",
-  "InternalNotes": "ea",
-  "StartDate": "2013-12-05T11:24:47.4689372+01:00",
-  "EndDate": "2019-01-03T11:24:47.4689372+01:00",
+  "CreatedDate": "2009-08-16T03:40:45.9669733+02:00",
+  "AppointmentId": 962,
+  "Description": "Optimized logistical standardization",
+  "Title": "quas",
+  "Agenda": "dolorum",
+  "InternalNotes": "delectus",
+  "StartDate": "2003-07-02T03:40:45.9669733+02:00",
+  "EndDate": "2019-02-20T03:40:45.9669733+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 66,
+  "MotherId": 733,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-09-09T11:24:47.4689372+02:00",
+  "UpdatedDate": "2021-03-23T03:40:45.9669733+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 616,
+  "ActiveLinks": 144,
   "Links": [
     {
-      "EntityName": "Roob-Roob",
-      "Id": 696,
-      "Description": "Proactive discrete neural-net",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 208,
+      "EntityName": "Langosh, Wisozk and Turner",
+      "Id": 407,
+      "Description": "Upgradable systematic frame",
+      "ExtraInfo": "ipsum",
+      "LinkId": 487,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 274
         }
       }
     }
   ],
-  "AlarmLeadTime": "corrupti",
+  "AlarmLeadTime": "maiores",
   "HasAlarm": true,
-  "ColorIndex": 596,
+  "ColorIndex": 524,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "eum",
-  "Location": "ut",
-  "RejectCounter": 510,
+  "IsAlldayEvent": true,
+  "LagTime": "enim",
+  "LeadTime": "aliquam",
+  "Location": "in",
+  "RejectCounter": 847,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 401,
-      "PersonId": 141,
-      "ContactId": 598,
-      "EmailId": 737,
+      "AssociateId": 746,
+      "PersonId": 776,
+      "ContactId": 881,
+      "EmailId": 51,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "oswald_huel@kling.uk",
-      "Description": "Ameliorated well-modulated alliance"
+      "EmailAddress": "deshaun@zieme.ca",
+      "Description": "Centralized eco-centric concept"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-05-03T11:24:47.4689372+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-03-10T03:40:45.9669733+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 203,
+  "PreferredTZLocation": 322,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 969,
+  "SuggestedAppointmentId": 679,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ab",
+  "CentralserviceVideomeetId": "doloremque",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Otis Bogan"
+    "SuperOffice:1": "Mr. Aliyah Savanna Hegmann",
+    "SuperOffice:2": "1765696544"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "et"
+    "CustomFields1": "cum",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2024-10-07T11:24:47.4689372+02:00",
-  "PublishTo": "2002-11-05T11:24:47.4689372+01:00",
-  "PublishFrom": "2006-05-23T11:24:47.4689372+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-02-01T03:40:45.9669733+01:00",
+  "PublishTo": "2021-05-15T03:40:45.9669733+02:00",
+  "PublishFrom": "2021-05-29T03:40:45.9669733+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 566,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     },
     {
-      "VisibleId": 566,
+      "VisibleId": 494,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
@@ -281,8 +283,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

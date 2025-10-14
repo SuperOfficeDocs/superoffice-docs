@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DeleteDashTheme
 Deletes the DashTheme
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the DashTheme
 | dashThemeId | int32 | **Required** The identity of the DashTheme |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=747
+POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=544
 ```
 
 

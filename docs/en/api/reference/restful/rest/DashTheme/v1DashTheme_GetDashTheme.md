@@ -15,6 +15,7 @@ Gets a DashTheme object.
 
 
 Calls the Dash agent service GetDashTheme.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,18 +90,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 473,
-  "Name": "Hickle-Eichmann",
-  "Config": "ut",
-  "Rank": 928,
-  "Client": "consequatur",
-  "Style": "eius",
+  "DashboardThemeId": 603,
+  "Name": "Effertz Inc and Sons",
+  "Config": "quasi",
+  "Rank": 378,
+  "Client": "nostrum",
+  "Style": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldType": "System.String",
+      "FieldLength": 558
     }
   },
   "_Links": {

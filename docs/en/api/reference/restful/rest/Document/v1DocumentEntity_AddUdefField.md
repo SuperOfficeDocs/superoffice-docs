@@ -99,7 +99,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,40 +109,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 620,
-  "ColumnId": 29,
-  "FieldDefault": "quis",
-  "FieldHeight": 303,
-  "FieldLabel": "officia",
-  "FieldLeft": 58,
-  "FieldTop": 200,
+  "UDefFieldId": 312,
+  "ColumnId": 850,
+  "FieldDefault": "tempore",
+  "FieldHeight": 55,
+  "FieldLabel": "at",
+  "FieldLeft": 312,
+  "FieldTop": 587,
   "FieldType": "Checkbox",
-  "FieldWidth": 742,
-  "FormatMask": "qui",
+  "FieldWidth": 986,
+  "FormatMask": "quae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 394,
-  "LabelLeft": 141,
-  "LabelTop": 254,
-  "LabelWidth": 672,
-  "LastVersionId": 130,
-  "ListTableId": 946,
+  "IsIndexed": true,
+  "LabelHeight": 968,
+  "LabelLeft": 125,
+  "LabelTop": 782,
+  "LabelWidth": 527,
+  "LastVersionId": 657,
+  "ListTableId": 72,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 927,
-  "ProgId": "rerum",
-  "IsReadOnly": true,
-  "ShortLabel": "minus",
-  "TabOrder": 464,
-  "TextLength": 998,
-  "Tooltip": "ab",
-  "UdefIdentity": 397,
-  "UDListDefinitionId": 666,
+  "Page1LineNo": 407,
+  "ProgId": "exercitationem",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 695,
+  "TextLength": 976,
+  "Tooltip": "amet",
+  "UdefIdentity": 410,
+  "UDListDefinitionId": 895,
   "Justification": "Center",
-  "Version": 947,
-  "TemplateVariableName": "Zboncak-Murray",
+  "Version": 964,
+  "TemplateVariableName": "Torp, Leffler and Stanton",
   "HasBeenPublished": true,
-  "MdoListName": "Bahringer, Torp and Schmeler",
+  "MdoListName": "Borer, Mertz and Terry",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

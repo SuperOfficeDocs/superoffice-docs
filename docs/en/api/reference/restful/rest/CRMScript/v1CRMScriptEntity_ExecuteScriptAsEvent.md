@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "molestiae",
-    "InputValues2": "sunt"
+    "InputValues1": "aut",
+    "InputValues2": "velit"
   },
-  "BlockExecution": false,
-  "NavigateTo": "pariatur",
-  "Message": "quidem",
-  "ShowDialog": "commodi",
+  "BlockExecution": true,
+  "NavigateTo": "quia",
+  "Message": "recusandae",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "quis",
-    "OutputValues2": "quia"
+    "OutputValues1": "nam",
+    "OutputValues2": "eum"
   },
   "StateValues": {
-    "StateValues1": "magni",
-    "StateValues2": "corrupti"
+    "StateValues1": "est",
+    "StateValues2": "minus"
   },
-  "Exception": "numquam",
+  "Exception": "culpa",
   "ParserValues": {
-    "ParserValues1": "autem",
-    "ParserValues2": "sequi"
+    "ParserValues1": "a",
+    "ParserValues2": "accusamus"
   },
   "CgiVariables": {
-    "CgiVariables1": "magnam",
-    "CgiVariables2": "qui"
+    "CgiVariables1": "doloribus",
+    "CgiVariables2": "excepturi"
   },
-  "CgiContent": "repellendus",
+  "CgiContent": "iste",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "accusamus"
+    "Headers1": "modi",
+    "Headers2": "libero"
   },
-  "TraceExecution": false
+  "TraceExecution": true
 }
 ```
 
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "fugit",
-    "InputValues2": "sit"
+    "InputValues1": "qui",
+    "InputValues2": "nesciunt"
   },
-  "BlockExecution": false,
-  "NavigateTo": "possimus",
+  "BlockExecution": true,
+  "NavigateTo": "aut",
   "Message": "et",
-  "ShowDialog": "qui",
+  "ShowDialog": "animi",
   "OutputValues": {
-    "OutputValues1": "praesentium",
-    "OutputValues2": "facilis"
+    "OutputValues1": "reiciendis",
+    "OutputValues2": "eos"
   },
   "StateValues": {
-    "StateValues1": "nesciunt",
-    "StateValues2": "dicta"
+    "StateValues1": "impedit",
+    "StateValues2": "sunt"
   },
   "Exception": "accusantium",
   "ParserValues": {
-    "ParserValues1": "odit",
-    "ParserValues2": "aspernatur"
+    "ParserValues1": "distinctio",
+    "ParserValues2": "reiciendis"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "nobis"
+    "CgiVariables1": "voluptatibus",
+    "CgiVariables2": "eum"
   },
-  "CgiContent": "aliquid",
+  "CgiContent": "possimus",
   "Headers": {
-    "Headers1": "consectetur",
-    "Headers2": "ut"
+    "Headers1": "et",
+    "Headers2": "repudiandae"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 363
     }
   }
 }

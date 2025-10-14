@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 77,
-    "Name": "Smith, Dach and Gorczany",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "UdListDefinitionId": 134,
-    "Rank": 714,
+    "Id": 678,
+    "Name": "Mohr-Nitzsche",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "UdListDefinitionId": 165,
+    "Rank": 933,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 306
       }
     }
   }

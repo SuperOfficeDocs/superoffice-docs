@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SetSubscription
 Set subscription on or off on a set of folders
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -68,20 +71,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Thompson, Mayer and Lakin",
-      "Delimiter": "at",
-      "Flags": "minus",
-      "TotalItems": 172,
-      "UnreadItems": 657,
-      "Subscribed": false,
-      "EmailFolderId": 511
+      "Name": "Pouros-Bahringer",
+      "Delimiter": "assumenda",
+      "Flags": "ipsam",
+      "TotalItems": 915,
+      "UnreadItems": 323,
+      "Subscribed": true,
+      "EmailFolderId": 245
     }
   ]
 }

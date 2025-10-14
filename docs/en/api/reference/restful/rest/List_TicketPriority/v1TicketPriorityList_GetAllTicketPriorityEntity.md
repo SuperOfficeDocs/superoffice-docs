@@ -106,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 494,
-    "Name": "Kerluke, Schmitt and Sanford",
+    "TicketPriorityId": 690,
+    "Name": "Ortiz Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 181,
+    "SortOrder": 623,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 193,
-    "MonStart": "2013-06-29T11:24:54.1717846+02:00",
-    "MonStop": "2006-12-08T11:24:54.1717846+01:00",
-    "TueStart": "2024-02-22T11:24:54.1717846+01:00",
-    "TueStop": "2001-04-27T11:24:54.1717846+02:00",
-    "WedStart": "2005-04-05T11:24:54.1717846+02:00",
-    "WedStop": "2016-02-04T11:24:54.1717846+01:00",
-    "ThuStart": "2009-12-02T11:24:54.1717846+01:00",
-    "ThuStop": "2022-08-18T11:24:54.1717846+02:00",
-    "FriStart": "2003-08-19T11:24:54.1717846+02:00",
-    "FriStop": "2021-07-16T11:24:54.1717846+02:00",
-    "SatStart": "2018-01-01T11:24:54.1717846+01:00",
-    "SatStop": "2004-08-28T11:24:54.1717846+02:00",
-    "SunStart": "2003-04-26T11:24:54.1717846+02:00",
-    "SunStop": "2012-10-19T11:24:54.1717846+02:00",
+    "Deadline": 198,
+    "MonStart": "2023-02-26T03:40:57.1500758+01:00",
+    "MonStop": "2018-03-17T03:40:57.1500758+01:00",
+    "TueStart": "2019-08-08T03:40:57.1500758+02:00",
+    "TueStop": "2017-02-23T03:40:57.1500758+01:00",
+    "WedStart": "2012-12-13T03:40:57.1500758+01:00",
+    "WedStop": "2012-06-22T03:40:57.1500758+02:00",
+    "ThuStart": "1999-04-05T03:40:57.1500758+02:00",
+    "ThuStop": "2025-01-07T03:40:57.1500758+01:00",
+    "FriStart": "2022-05-27T03:40:57.1500758+02:00",
+    "FriStop": "2002-09-19T03:40:57.1500758+02:00",
+    "SatStart": "2024-04-19T03:40:57.1500758+02:00",
+    "SatStop": "2013-01-13T03:40:57.1500758+01:00",
+    "SunStart": "2022-10-06T03:40:57.1500758+02:00",
+    "SunStop": "2014-05-21T03:40:57.1500758+02:00",
     "NonDates": [
-      "magnam",
-      "placeat"
+      "ipsam",
+      "pariatur"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 222,
-        "AlertLevel": 201,
-        "AlertTimeout": 975,
-        "Action": 628,
-        "DelegateTo": 52,
-        "ScriptId": 710,
-        "EmailTo": "marilou@hackett.us",
-        "SmsTo": "architecto",
-        "ReplyTemplateIdCustomer": 511,
-        "ReplyTemplateIdUser": 208,
-        "ReplyTemplateIdCatmast": 538,
-        "ReplyTemplateIdEmail": 576,
-        "RtiCustomerSms": 578,
-        "ReplyTemplateIdUserSms": 18,
+        "TicketAlertId": 609,
+        "AlertLevel": 855,
+        "AlertTimeout": 659,
+        "Action": 530,
+        "DelegateTo": 62,
+        "ScriptId": 656,
+        "EmailTo": "theron_buckridge@crona.com",
+        "SmsTo": "fuga",
+        "ReplyTemplateIdCustomer": 2,
+        "ReplyTemplateIdUser": 732,
+        "ReplyTemplateIdCatmast": 159,
+        "ReplyTemplateIdEmail": 615,
+        "RtiCustomerSms": 644,
+        "ReplyTemplateIdUserSms": 280,
         "ReplyTemplateIdCatmastSms": 161,
-        "ReplyTemplateIdSms": 324,
+        "ReplyTemplateIdSms": 536,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 535
+            "FieldType": "System.Int32",
+            "FieldLength": 915
           }
         }
       }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldLength": 593
       }
     }
   }

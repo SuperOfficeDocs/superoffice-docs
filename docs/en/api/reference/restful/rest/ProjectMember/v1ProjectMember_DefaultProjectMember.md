@@ -15,6 +15,7 @@ Set default values into a new ProjectMember.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Project agent service CreateDefaultProjectMember.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -80,7 +81,7 @@ OK
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,35 +91,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 540,
-  "ContactId": 920,
-  "ProjectId": 100,
-  "ContactName": "Crona-Bernier",
-  "ContactDepartment": "harness enterprise systems",
-  "ProjectName": "Dickens-Yundt",
-  "EmailId": 856,
-  "EmailAddress": "shaniya@carter.biz",
-  "CountryId": 533,
-  "Firstname": "Dannie",
-  "MiddleName": "Block, Shields and Hartmann",
-  "Lastname": "Koelpin",
-  "PersonId": 192,
-  "Mrmrs": "eius",
-  "ProjectMemberTypeName": "Koch Inc and Sons",
-  "Phone": "119-773-8200 x31065",
-  "PhoneId": 708,
-  "ProjectMemberTypeId": 38,
-  "EmailAddressName": "gerald@beerpredovic.com",
-  "Comment": "et",
-  "FullName": "Mariano Crooks",
-  "Registered": "2025-05-12T11:24:53.7655512+02:00",
-  "Updated": "1998-08-09T11:24:53.7655512+02:00",
+  "ProjectmemberId": 848,
+  "ContactId": 987,
+  "ProjectId": 97,
+  "ContactName": "Hammes-Wiza",
+  "ContactDepartment": "",
+  "ProjectName": "Oberbrunner, Runolfsson and O'Conner",
+  "EmailId": 328,
+  "EmailAddress": "delores@lubowitzlockman.uk",
+  "CountryId": 678,
+  "Firstname": "Camron",
+  "MiddleName": "Ondricka Inc and Sons",
+  "Lastname": "Green",
+  "PersonId": 178,
+  "Mrmrs": "sint",
+  "ProjectMemberTypeName": "Armstrong, Heaney and Pouros",
+  "Phone": "1-773-701-2527",
+  "PhoneId": 136,
+  "ProjectMemberTypeId": 560,
+  "EmailAddressName": "brandyn.okon@nicolas.name",
+  "Comment": "optio",
+  "FullName": "Miss Earl Jackie Gutmann Jr.",
+  "Registered": "2009-05-31T03:40:56.4775944+02:00",
+  "Updated": "2021-02-14T03:40:56.4775944+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 812
     }
   }
 }

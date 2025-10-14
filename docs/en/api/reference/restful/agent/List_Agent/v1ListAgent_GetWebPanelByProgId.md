@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelByProgId
 Get a web panel using the ProgId key that was specified when it was created
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "numquam"
+  "ProgId": "ullam"
 }
 ```
 
@@ -110,34 +112,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 947,
-  "Name": "DuBuque, Bode and Pfeffer",
-  "Tooltip": "libero",
+  "WebPanelId": 191,
+  "Name": "Erdman Group",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 636,
+  "Rank": 139,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Connelly-Dicki",
+  "WindowName": "Goyette-Leuschke",
   "Url": "http://www.example.com/",
-  "ProgId": "neque",
-  "Icon": 946,
+  "ProgId": "voluptates",
+  "Icon": 71,
   "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 582
     }
   }
 }

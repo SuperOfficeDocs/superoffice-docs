@@ -14,7 +14,8 @@ PATCH /api/v1/ChatSession/{id}
 Update a ChatSessionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -145,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "quas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "quas",
     "value": {}
   }
 ]
@@ -163,48 +164,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 500,
-  "TopicId": 402,
+  "ChatSessionId": 833,
+  "TopicId": 29,
   "User": null,
   "Person": null,
-  "CustomerAlias": "modi",
-  "CustomerHost": "in",
-  "CustomerName": "Kling-Kihn",
-  "CustomerEmail": "kade@waelchireichert.info",
-  "CustomerPhone": "033.311.6128 x22901",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Sporer, Kilback and Walter",
+  "CustomerAlias": "assumenda",
+  "CustomerHost": "qui",
+  "CustomerName": "Hahn Inc and Sons",
+  "CustomerEmail": "jolie_ferry@aufderhar.com",
+  "CustomerPhone": "849.704.3033 x9268",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Cummings-Mayer",
   "Status": "Closed",
-  "FirstMessage": "hic",
-  "LastMessage": "et",
-  "WhenRequested": "1999-11-03T11:24:53.0155818+01:00",
-  "WhenStarted": "2022-04-28T11:24:53.0155818+02:00",
-  "WhenEnded": "2017-05-30T11:24:53.0155818+02:00",
-  "WhenIdle": "2001-04-14T11:24:53.0155818+02:00",
-  "WhenFetched": "2013-09-02T11:24:53.0155818+02:00",
-  "SessionKey": "magni",
-  "InitialQueuePos": 647,
-  "AlertLevel": 514,
-  "Rank": 692,
+  "FirstMessage": "quasi",
+  "LastMessage": "provident",
+  "WhenRequested": "2001-05-19T03:40:55.3349384+02:00",
+  "WhenStarted": "1999-06-21T03:40:55.3349384+02:00",
+  "WhenEnded": "2014-07-11T03:40:55.3349384+02:00",
+  "WhenIdle": "2008-06-01T03:40:55.3349384+02:00",
+  "WhenFetched": "2010-08-11T03:40:55.3349384+02:00",
+  "SessionKey": "tenetur",
+  "InitialQueuePos": 946,
+  "AlertLevel": 311,
+  "Rank": 637,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 971,
+  "ChatbotIsActive": true,
+  "Rating": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceByName
 Get a preference by name
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -86,12 +88,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ipsum",
-  "PrefKey": "dolores",
+  "PrefSection": "est",
+  "PrefKey": "cum",
   "PrefLevel": "Database"
 }
 ```
@@ -104,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "cum",
+  "RawValue": "dicta",
   "Specification": null,
-  "DisplayValue": "saepe",
-  "DisplayTooltip": "sapiente",
+  "DisplayValue": "maxime",
+  "DisplayTooltip": "saepe",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 975,
-  "PrefDescId": 343,
-  "TableName": "West, Kilback and O'Keefe",
-  "UserPreferenceId": 573,
+  "TargetId": 239,
+  "PrefDescId": 595,
+  "TableName": "Fritsch-O'Hara",
+  "UserPreferenceId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

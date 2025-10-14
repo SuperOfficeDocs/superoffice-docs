@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/RemoveSystemMessageForAssociate
 Removes a system message for specific associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,13 +69,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessageForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 756,
+  "OnlineappId": 89,
   "SystemMessageId": "et",
-  "AssociateId": 88
+  "AssociateId": 701
 }
 ```
 

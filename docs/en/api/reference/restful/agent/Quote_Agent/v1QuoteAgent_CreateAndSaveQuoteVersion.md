@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 784
+  "QuoteVersionId": 855
 }
 ```
 
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 493,
-  "ERPQuoteVersionKey": "tempora",
-  "QuoteId": 121,
-  "Description": "Function-based optimizing capability",
-  "Number": "830452",
+  "QuoteVersionId": 16,
+  "ERPQuoteVersionKey": "asperiores",
+  "QuoteId": 96,
+  "Description": "Automated interactive framework",
+  "Number": "1359017",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 76,
-  "SentDate": "1998-06-02T11:24:48.5157652+02:00",
-  "FollowupId": 66,
-  "ExpirationDate": "2013-05-06T11:24:48.5157652+02:00",
-  "DeliveryCountryId": 42,
+  "LikelyQuoteAlternativeId": 546,
+  "SentDate": "2012-08-03T03:40:47.5161986+02:00",
+  "FollowupId": 340,
+  "ExpirationDate": "2015-05-10T03:40:47.5161986+02:00",
+  "DeliveryCountryId": 343,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 294,
+  "InvoiceCountryId": 709,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "voluptatibus",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "harum",
-  "ERPDeliveryTypeKey": "modi",
-  "Rank": 932,
-  "ApprovedBy": 927,
-  "ApprovedText": "neque",
-  "ApprovedRegisteredBy": 905,
-  "ApprovedRegisteredDate": "2018-09-22T11:24:48.5157652+02:00",
-  "ExtraField1": "laborum",
-  "ExtraField2": "esse",
-  "ExtraField3": "expedita",
-  "ExtraField4": "at",
-  "ExtraField5": "earum",
-  "LastRecalculated": "2017-04-24T11:24:48.5157652+02:00",
-  "Updated": "2004-04-17T11:24:48.5157652+02:00",
-  "UpdatedAssociateId": 214,
-  "Registered": "2008-04-03T11:24:48.5157652+02:00",
-  "RegisteredAssociateId": 997,
-  "RequestAssociateId": 567,
-  "RequestComment": "ut",
+  "ERPPaymentTermsKey": "excepturi",
+  "ERPPaymentTypeKey": "illo",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "explicabo",
+  "Rank": 658,
+  "ApprovedBy": 364,
+  "ApprovedText": "aperiam",
+  "ApprovedRegisteredBy": 388,
+  "ApprovedRegisteredDate": "2000-06-16T03:40:47.5161986+02:00",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "sed",
+  "ExtraField3": "quos",
+  "ExtraField4": "magnam",
+  "ExtraField5": "ab",
+  "LastRecalculated": "2019-11-16T03:40:47.5161986+01:00",
+  "Updated": "2010-09-03T03:40:47.5161986+02:00",
+  "UpdatedAssociateId": 893,
+  "Registered": "2021-01-30T03:40:47.5161986+01:00",
+  "RegisteredAssociateId": 888,
+  "RequestAssociateId": 882,
+  "RequestComment": "magni",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 341,
-      "ERPQuoteAlternativeKey": "deserunt",
-      "QuoteVersionId": 448,
-      "Name": "Walter, Weber and Keebler",
-      "Description": "Function-based zero administration circuit",
+      "QuoteAlternativeId": 875,
+      "ERPQuoteAlternativeKey": "dolor",
+      "QuoteVersionId": 38,
+      "Name": "Bayer-Aufderhar",
+      "Description": "User-friendly eco-centric leverage",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 21383.282,
-      "ERPDiscountAmount": 30177.286,
-      "DiscountPercent": 17703.966,
-      "DiscountAmount": 16528.716,
+      "ERPDiscountPercent": 10874.98,
+      "ERPDiscountAmount": 5995.342,
+      "DiscountPercent": 7057.768,
+      "DiscountAmount": 20471.288,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "quo",
-      "VAT": 20580.978,
-      "EarningPercent": 1582.6699999999998,
-      "EarningAmount": 29171.272,
-      "SubTotal": 10834.238,
-      "TotalPrice": 13686.178,
-      "ExtraField1": "similique",
-      "ExtraField2": "tenetur",
-      "ExtraField3": "fugit",
+      "VATInfo": "dolorem",
+      "VAT": 667.542,
+      "EarningPercent": 28882.944,
+      "EarningAmount": 3977.046,
+      "SubTotal": 28403.442,
+      "TotalPrice": 14124.938,
+      "ExtraField1": "aspernatur",
+      "ExtraField2": "sint",
+      "ExtraField3": "unde",
       "ExtraField4": "et",
-      "ExtraField5": "non",
+      "ExtraField5": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldType": "System.Int32",
+          "FieldLength": 880
         }
       }
     }
@@ -204,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   }
 }

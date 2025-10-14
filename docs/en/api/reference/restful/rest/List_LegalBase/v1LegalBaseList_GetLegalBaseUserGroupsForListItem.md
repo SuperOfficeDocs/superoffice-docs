@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Stanton, McCullough and Gutmann",
-    "ToolTip": "Fuga modi.",
+    "Id": 571,
+    "Name": "Marquardt, Nolan and Jenkins",
+    "ToolTip": "Sunt est saepe sit in maxime.",
     "Deleted": false,
-    "Rank": 191,
-    "Type": "aliquid",
-    "ColorBlock": 533,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2016-03-19T11:24:53.9530436+01:00",
+    "Rank": 964,
+    "Type": "sunt",
+    "ColorBlock": 178,
+    "IconHint": "veniam",
+    "Selected": false,
+    "LastChanged": "2009-07-31T03:40:56.8526098+02:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Labadie Inc and Sons",
-        "ToolTip": "Eum accusamus dolore id fuga quaerat.",
+        "Id": 950,
+        "Name": "King Inc and Sons",
+        "ToolTip": "Veniam eum ex.",
         "Deleted": false,
-        "Rank": 759,
-        "Type": "odio",
-        "ColorBlock": 899,
-        "IconHint": "ut",
+        "Rank": 200,
+        "Type": "dolores",
+        "ColorBlock": 431,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2010-02-04T11:24:53.9530436+01:00",
+        "LastChanged": "2019-01-30T03:40:56.8526098+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Jean Bednar",
+        "ExtraInfo": "sit",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Nick Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 244
+            "FieldType": "System.String",
+            "FieldLength": 176
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Rico Kuvalis",
+    "ExtraInfo": "dolor",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Leo Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

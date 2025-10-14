@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 909,
-    "Name": "Adams LLC",
-    "Tooltip": "sapiente",
+    "HeadingId": 173,
+    "Name": "Schamberger Inc and Sons",
+    "Tooltip": "laudantium",
     "Deleted": false,
-    "Rank": 323,
-    "UdListDefinitionId": 31,
+    "Rank": 745,
+    "UdListDefinitionId": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 768
+        "FieldType": "System.Int32",
+        "FieldLength": 894
       }
     }
   }

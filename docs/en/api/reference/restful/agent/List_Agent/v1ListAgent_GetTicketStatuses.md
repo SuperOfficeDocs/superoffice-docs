@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetTicketStatuses
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 933,
-    "Name": "Ernser Group",
+    "TicketStatusId": 73,
+    "Name": "Fadel, Moen and Steuber",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 46
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,29 +114,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 685,
-  "ERPQuoteAlternativeKey": "et",
-  "QuoteVersionId": 510,
-  "Name": "Gutmann-Parisian",
-  "Description": "Seamless national groupware",
+  "QuoteAlternativeId": 659,
+  "ERPQuoteAlternativeKey": "quam",
+  "QuoteVersionId": 246,
+  "Name": "Fay, Spinka and Rodriguez",
+  "Description": "Public-key fresh-thinking encoding",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24479.674,
-  "ERPDiscountAmount": 28165.257999999998,
-  "DiscountPercent": 24833.816,
-  "DiscountAmount": 19794.344,
+  "ERPDiscountPercent": 4748.01,
+  "ERPDiscountAmount": 8894.292,
+  "DiscountPercent": 12865.07,
+  "DiscountAmount": 19527.953999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "minima",
-  "VAT": 6239.794,
-  "EarningPercent": 6220.99,
-  "EarningAmount": 17124.176,
-  "SubTotal": 5528.376,
-  "TotalPrice": 14955.448,
-  "ExtraField1": "sint",
-  "ExtraField2": "ut",
-  "ExtraField3": "est",
-  "ExtraField4": "impedit",
-  "ExtraField5": "in"
+  "VATInfo": "repudiandae",
+  "VAT": 786.634,
+  "EarningPercent": 15983.4,
+  "EarningAmount": 21342.54,
+  "SubTotal": 31029.734,
+  "TotalPrice": 22630.613999999998,
+  "ExtraField1": "perferendis",
+  "ExtraField2": "quia",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "voluptatum",
+  "ExtraField5": "sed"
 }
 ```
 
@@ -145,35 +147,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 32,
-  "ERPQuoteAlternativeKey": "repudiandae",
-  "QuoteVersionId": 92,
-  "Name": "Rowe, Ruecker and Hilll",
-  "Description": "Monitored attitude-oriented functionalities",
+  "QuoteAlternativeId": 128,
+  "ERPQuoteAlternativeKey": "sed",
+  "QuoteVersionId": 374,
+  "Name": "Kreiger Group",
+  "Description": "Digitized 6th generation array",
   "Status": "Error",
-  "Reason": "redefine granular partnerships",
-  "ERPDiscountPercent": 16763.766,
-  "ERPDiscountAmount": 3453.6679999999997,
-  "DiscountPercent": 7038.964,
-  "DiscountAmount": 23580.216,
+  "Reason": "",
+  "ERPDiscountPercent": 25761.48,
+  "ERPDiscountAmount": 12351.094,
+  "DiscountPercent": 996.612,
+  "DiscountAmount": 11696.088,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "eius",
-  "VAT": 17230.732,
-  "EarningPercent": 24037.78,
-  "EarningAmount": 12351.094,
-  "SubTotal": 27184.316,
-  "TotalPrice": 22759.108,
-  "ExtraField1": "et",
-  "ExtraField2": "ex",
-  "ExtraField3": "minima",
-  "ExtraField4": "vel",
-  "ExtraField5": "nam",
+  "VATInfo": "quo",
+  "VAT": 12488.99,
+  "EarningPercent": 27864.394,
+  "EarningAmount": 27388.025999999998,
+  "SubTotal": 26617.061999999998,
+  "TotalPrice": 14779.944,
+  "ExtraField1": "enim",
+  "ExtraField2": "qui",
+  "ExtraField3": "numquam",
+  "ExtraField4": "itaque",
+  "ExtraField5": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 427
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetListWithRestriction
 Method to get a MDO list with restrictions.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -87,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thompson, Abernathy and Beahan",
-  "AdditionalInfo": "dignissimos",
-  "SearchValue": "esse"
+  "Name": "Mertz Group",
+  "AdditionalInfo": "atque",
+  "SearchValue": "numquam"
 }
 ```
 
@@ -105,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Runolfsson, Cummerata and Buckridge",
-    "ToolTip": "Placeat sint quis ullam labore.",
-    "Deleted": true,
-    "Rank": 937,
-    "Type": "ipsum",
+    "Id": 951,
+    "Name": "Bins, Olson and Cole",
+    "ToolTip": "Qui vel voluptas eum vero tempore expedita.",
+    "Deleted": false,
+    "Rank": 218,
+    "Type": "ipsa",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Will-Kub",
-        "ToolTip": "Qui sint.",
+        "Id": 268,
+        "Name": "Lesch, Bogisich and Schimmel",
+        "ToolTip": "Non nam molestiae et.",
         "Deleted": false,
-        "Rank": 118,
-        "Type": "quaerat",
+        "Rank": 559,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 833,
-        "ExtraInfo": "tempore",
-        "StyleHint": "rerum",
-        "FullName": "Owen Balistreri",
+        "IconHint": "quidem",
+        "ColorBlock": 101,
+        "ExtraInfo": "sint",
+        "StyleHint": "impedit",
+        "FullName": "Gay Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldLength": 156
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 813,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "aut",
-    "FullName": "Hazel Feest",
+    "IconHint": "similique",
+    "ColorBlock": 654,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "natus",
+    "FullName": "Katrine Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 769
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

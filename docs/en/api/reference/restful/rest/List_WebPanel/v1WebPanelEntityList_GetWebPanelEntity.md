@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,34 +94,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 783,
-  "Name": "Adams Group",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 352,
+  "WebPanelId": 227,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "Rank": 949,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Dicki, Marks and Cronin",
+  "WindowName": "Anderson Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "dolores",
-  "Icon": 461,
+  "ProgId": "facere",
+  "Icon": 790,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

@@ -59,13 +59,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class MarketingAgent : AgentBase, IMarketingAgent, IDisposable'
-    content.vb: Public Class MarketingAgent Inherits AgentBase Implements IMarketingAgent, IDisposable
+    content: 'public class MarketingAgent : AgentBase, IMarketingAgent, IAgentBase, IDisposable'
+    content.vb: Public Class MarketingAgent Inherits AgentBase Implements IMarketingAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IMarketingAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -1042,6 +1043,14 @@ references:
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.WebApi.Agents.IMarketingAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

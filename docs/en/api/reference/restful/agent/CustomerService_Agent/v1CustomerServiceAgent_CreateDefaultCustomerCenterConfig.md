@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Loading default values into a new CustomerCenterConfig.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 987,
+  "CustConfigId": 744,
   "Type": "Options",
-  "Config": "accusamus",
-  "CustLangId": 365,
-  "Registered": "2016-07-30T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 695,
-  "Updated": "2023-11-03T11:24:47.8439178+01:00",
-  "UpdatedAssociateId": 889,
+  "Config": "odit",
+  "CustLangId": 614,
+  "Registered": "2012-11-28T03:40:46.5468616+01:00",
+  "RegisteredAssociateId": 328,
+  "Updated": "2004-09-13T03:40:46.5468616+02:00",
+  "UpdatedAssociateId": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   }
 }

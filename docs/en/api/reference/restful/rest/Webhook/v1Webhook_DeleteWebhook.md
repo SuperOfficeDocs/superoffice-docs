@@ -15,6 +15,7 @@ Deletes the Webhook
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the Webhook agent service DeleteWebhook.
+NsApiSlow threshold: 2000 ms.
 
 
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllConsentSource
 Gets an array of all ConsentSource objects
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetAllConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 430,
-    "Name": "Jakubowski, Weber and Gutmann",
-    "Tooltip": "dolorum",
-    "Rank": 900,
-    "Key": "ipsa",
-    "MailTemplateId": 904,
+    "ConsentSourceId": 199,
+    "Name": "Hagenes-Senger",
+    "Tooltip": "ut",
+    "Rank": 458,
+    "Key": "molestiae",
+    "MailTemplateId": 116,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   }

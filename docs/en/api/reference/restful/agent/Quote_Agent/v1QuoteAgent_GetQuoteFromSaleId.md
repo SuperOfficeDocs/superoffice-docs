@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Get a Quote for a sale
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 464
+  "SaleId": 405
 }
 ```
 
@@ -102,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 942,
-  "SaleId": 326,
-  "QuoteConnectionId": 684,
-  "ERPQuoteKey": "ad",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 160,
-  "AcceptedQuoteAlternativeId": 62,
-  "UseValuesFromQuote": 550,
-  "DocumentId": 992,
-  "PoNumber": "1101525",
-  "OrderComment": "doloribus",
-  "PreferredEmailCulture": "gia_schowalter@littel.name",
+  "QuoteId": 7,
+  "SaleId": 923,
+  "QuoteConnectionId": 312,
+  "ERPQuoteKey": "molestias",
+  "ERPOrderKey": "numquam",
+  "ActiveQuoteVersionId": 247,
+  "AcceptedQuoteAlternativeId": 826,
+  "UseValuesFromQuote": 360,
+  "DocumentId": 729,
+  "PoNumber": "1186951",
+  "OrderComment": "vel",
+  "PreferredEmailCulture": "cristian_flatley@sawayn.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

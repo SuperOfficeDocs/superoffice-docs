@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveProduct
 Updates the existing Product or creates a new Product if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -134,51 +136,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 919,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "et",
-  "Name": "Jewess-Frami",
-  "Description": "Customer-focused solution-oriented complexity",
-  "Code": "et",
-  "PriceUnit": "sequi",
-  "QuantityUnit": "commodi",
+  "ProductId": 4,
+  "ERPProductKey": "id",
+  "ERPPriceListKey": "libero",
+  "Name": "Goyette-Shanahan",
+  "Description": "Profound full-range flexibility",
+  "Code": "culpa",
+  "PriceUnit": "voluptatibus",
+  "QuantityUnit": "incidunt",
   "IsSubscription": true,
-  "SubscriptionUnit": "consectetur",
-  "DefaultSubscriptionQuantity": 2027.6979999999999,
-  "ItemNumber": "893852",
+  "SubscriptionUnit": "rem",
+  "DefaultSubscriptionQuantity": 29431.394,
+  "ItemNumber": "425201",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quaerat",
-  "ProductTypeKey": "ratione",
-  "VAT": 18597.156,
-  "VATInfo": "dolor",
-  "UnitCost": 4243.436,
-  "UnitMinimumPrice": 27287.737999999998,
-  "UnitListPrice": 14538.626,
+  "ProductFamilyKey": "temporibus",
+  "ProductTypeKey": "impedit",
+  "VAT": 11761.902,
+  "VATInfo": "corporis",
+  "UnitCost": 25006.185999999998,
+  "UnitMinimumPrice": 6565.73,
+  "UnitListPrice": 22884.468,
   "InAssortment": true,
-  "Supplier": "blanditiis",
-  "SupplierCode": "possimus",
-  "Rights": "quis",
-  "Rule": "illo",
+  "Supplier": "rerum",
+  "SupplierCode": "qui",
+  "Rights": "sequi",
+  "Rule": "nisi",
   "ExtraInfo": [
     {
-      "Name": "Roberts-Spencer",
-      "Value": "voluptas",
+      "Name": "Ernser, Blick and Oberbrunner",
+      "Value": "ea",
       "Type": "Image"
     },
     {
-      "Name": "Roberts-Spencer",
-      "Value": "voluptas",
+      "Name": "Ernser, Blick and Oberbrunner",
+      "Value": "ea",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dignissimos",
-  "ExtraField1": "et",
-  "ExtraField2": "et",
-  "ExtraField3": "ducimus",
-  "ExtraField4": "iste",
-  "ExtraField5": "nemo",
-  "InStock": 4785.6179999999995
+  "RawExtraInfo": "voluptatem",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "blanditiis",
+  "ExtraField5": "autem",
+  "InStock": 6089.362
 }
 ```
 
@@ -189,73 +191,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 903,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "non",
-  "Name": "Kertzmann Group",
-  "Description": "Devolved scalable hierarchy",
-  "Code": "cum",
-  "PriceUnit": "ab",
-  "QuantityUnit": "eum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ad",
-  "DefaultSubscriptionQuantity": 14626.377999999999,
-  "ItemNumber": "1157335",
+  "ProductId": 926,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "cum",
+  "Name": "Kuhic, Ritchie and Bode",
+  "Description": "Team-oriented multi-state approach",
+  "Code": "dolores",
+  "PriceUnit": "saepe",
+  "QuantityUnit": "assumenda",
+  "IsSubscription": true,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 5337.202,
+  "ItemNumber": "280736",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "necessitatibus",
-  "VAT": 19101.73,
-  "VATInfo": "consequatur",
-  "UnitCost": 26579.453999999998,
-  "UnitMinimumPrice": 4732.34,
-  "UnitListPrice": 4165.086,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "aut",
+  "VAT": 25457.482,
+  "VATInfo": "voluptatibus",
+  "UnitCost": 14197.02,
+  "UnitMinimumPrice": 30440.541999999998,
+  "UnitListPrice": 30380.996,
   "InAssortment": false,
-  "Supplier": "nam",
-  "SupplierCode": "earum",
-  "Rights": "provident",
-  "Rule": "tenetur",
+  "Supplier": "sunt",
+  "SupplierCode": "ad",
+  "Rights": "libero",
+  "Rule": "consequatur",
   "ExtraInfo": [
     {
-      "Name": "O'Kon, Barrows and Boehm",
-      "Value": "ut",
+      "Name": "Gerhold-Gleichner",
+      "Value": "nulla",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 745
         }
       }
     },
     {
-      "Name": "O'Kon, Barrows and Boehm",
-      "Value": "ut",
+      "Name": "Gerhold-Gleichner",
+      "Value": "nulla",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldType": "System.String",
+          "FieldLength": 745
         }
       }
     }
   ],
-  "RawExtraInfo": "eum",
-  "ExtraField1": "autem",
-  "ExtraField2": "deserunt",
-  "ExtraField3": "ad",
-  "ExtraField4": "sed",
-  "ExtraField5": "ut",
-  "InStock": 13200.408,
+  "RawExtraInfo": "vel",
+  "ExtraField1": "sequi",
+  "ExtraField2": "ad",
+  "ExtraField3": "sit",
+  "ExtraField4": "aliquam",
+  "ExtraField5": "rem",
+  "InStock": 5631.798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 76
     }
   }
 }

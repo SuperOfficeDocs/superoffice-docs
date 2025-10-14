@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Get information about a script from a unique identifier
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -90,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut"
+  "UniqueIdentifier": "qui"
 }
 ```
 
@@ -101,23 +104,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
-  "Name": "Tremblay-Emmerich",
-  "Description": "Function-based static flexibility",
-  "IncludeId": "esse",
-  "Source": "est",
-  "Registered": "2010-02-23T11:24:47.8439178+01:00",
-  "RegisteredBy": "natus",
-  "Updated": "2007-06-24T11:24:47.8439178+02:00",
-  "UpdatedBy": "ut",
-  "Path": "unde",
+  "UniqueIdentifier": "laudantium",
+  "Name": "Keebler LLC",
+  "Description": "Reactive 24 hour Graphical User Interface",
+  "IncludeId": "reiciendis",
+  "Source": "neque",
+  "Registered": "2000-02-04T03:40:46.5149979+01:00",
+  "RegisteredBy": "eligendi",
+  "Updated": "1998-12-25T03:40:46.5149979+01:00",
+  "UpdatedBy": "voluptas",
+  "Path": "placeat",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 553
     }
   }
 }

@@ -15,6 +15,7 @@ Retiring a user means to remove all licenses, setting person.
 
 
 retired=1 and associate.deleted=1. Unretiering a user means setting  person.retired=0 and associate.deleted=0
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -75,7 +76,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 220,
+  "AssociateId": 998,
   "Retired": false
 }
 ```

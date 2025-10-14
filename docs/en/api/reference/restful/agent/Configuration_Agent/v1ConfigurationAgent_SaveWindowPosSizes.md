@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Saves a set of window and dialog position and size settings.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,23 +86,23 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "omnis",
-      "PersonId": 371,
-      "AssociateId": 234,
-      "ExtraId": 658,
-      "ExtraInfo": "ullam",
-      "Height": 328,
-      "LeftX": 173,
+      "OwnerWindow": "aut",
+      "PersonId": 203,
+      "AssociateId": 165,
+      "ExtraId": 896,
+      "ExtraInfo": "dolor",
+      "Height": 77,
+      "LeftX": 892,
       "State": "Maximized",
-      "UpperY": 338,
-      "Width": 448,
-      "WindowPosSizeId": 969
+      "UpperY": 254,
+      "Width": 958,
+      "WindowPosSizeId": 217
     }
   ]
 }
@@ -114,23 +116,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ut",
-    "PersonId": 38,
-    "AssociateId": 293,
-    "ExtraId": 475,
-    "ExtraInfo": "aliquid",
-    "Height": 612,
-    "LeftX": 797,
+    "OwnerWindow": "ex",
+    "PersonId": 129,
+    "AssociateId": 819,
+    "ExtraId": 620,
+    "ExtraInfo": "in",
+    "Height": 937,
+    "LeftX": 276,
     "State": "Maximized",
-    "UpperY": 884,
-    "Width": 720,
-    "WindowPosSizeId": 996,
+    "UpperY": 119,
+    "Width": 605,
+    "WindowPosSizeId": 594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

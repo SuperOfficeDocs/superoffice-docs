@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetSelectionSummaries
 Get an array of summaryitem for the given selections
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,13 +78,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    273,
-    54
+    205,
+    57
   ]
 }
 ```
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 628,
-    "Name": "Feest LLC",
-    "TargetTable": "facilis",
-    "Registered": "1999-02-18T11:24:48.6563847+01:00",
-    "ProviderName": "Willms Group"
+    "SelectionId": 102,
+    "Name": "Flatley Group",
+    "TargetTable": "et",
+    "Registered": "2019-12-21T03:40:47.7660962+01:00",
+    "ProviderName": "Monahan LLC"
   },
   {
-    "SelectionId": 628,
-    "Name": "Feest LLC",
-    "TargetTable": "facilis",
-    "Registered": "1999-02-18T11:24:48.6563847+01:00",
-    "ProviderName": "Willms Group"
+    "SelectionId": 102,
+    "Name": "Flatley Group",
+    "TargetTable": "et",
+    "Registered": "2019-12-21T03:40:47.7660962+01:00",
+    "ProviderName": "Monahan LLC"
   }
 ]
 ```

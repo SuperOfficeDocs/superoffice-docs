@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/ValidateProjectEntity
 Check that entity is ready for saving, return error messages by field.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consectetur",
-  "2": "vel"
+  "1": "magni",
+  "2": "facere"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListEntity
 Gets a ListEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=204
+POST /api/v1/Agents/List/GetListEntity?listEntityId=226
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Lebsack-Bahringer",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 207,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "Id": 883,
+  "Name": "Ryan LLC",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 639,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 559
     }
   }
 }

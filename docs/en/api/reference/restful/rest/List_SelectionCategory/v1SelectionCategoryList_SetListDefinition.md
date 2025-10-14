@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Rempel-Fritsch",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 681,
+  "Id": 705,
+  "Name": "Waelchi-Nolan",
+  "Tooltip": "nam",
+  "Deleted": false,
+  "Rank": 211,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 900,
-  "Name": "Crona-Lubowitz",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 633,
-  "IsCustomList": false,
+  "Id": 780,
+  "Name": "Pagac Inc and Sons",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 968,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 595
     }
   }
 }

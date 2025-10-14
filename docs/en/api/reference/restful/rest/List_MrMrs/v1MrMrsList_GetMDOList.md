@@ -28,7 +28,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=sint
+GET /api/v1/List/MrMrs/MDOItems?query=eaque
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "O'Connell, Hackett and Fisher",
-    "ToolTip": "Sunt sunt distinctio.",
+    "Id": 912,
+    "Name": "Gerlach LLC",
+    "ToolTip": "Voluptatum molestiae doloribus ipsum aut quia blanditiis.",
     "Deleted": false,
-    "Rank": 358,
-    "Type": "et",
+    "Rank": 260,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Ernser, Lubowitz and Becker",
-        "ToolTip": "Laborum minus iste consequatur.",
-        "Deleted": true,
-        "Rank": 307,
-        "Type": "ut",
+        "Id": 182,
+        "Name": "Schultz-Koelpin",
+        "ToolTip": "Necessitatibus beatae deserunt.",
+        "Deleted": false,
+        "Rank": 983,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 684,
-        "ExtraInfo": "non",
-        "StyleHint": "dolorem",
-        "FullName": "Burdette Lang",
+        "IconHint": "odit",
+        "ColorBlock": 7,
+        "ExtraInfo": "autem",
+        "StyleHint": "laborum",
+        "FullName": "Maurine Welch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldLength": 233
           }
         }
       }
     ],
-    "IconHint": "deleniti",
-    "ColorBlock": 954,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "dolores",
-    "FullName": "Damon Dandre Rutherford IV",
+    "IconHint": "dignissimos",
+    "ColorBlock": 94,
+    "ExtraInfo": "iste",
+    "StyleHint": "facilis",
+    "FullName": "Lexi Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 700
+        "FieldType": "System.Int32",
+        "FieldLength": 978
       }
     }
   }

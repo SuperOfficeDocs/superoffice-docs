@@ -15,6 +15,7 @@ Deletes the PersonEntity
 
 
 Calls the Person agent service DeletePersonEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -54,7 +55,7 @@ PersonEntity deleted.
 DELETE /api/v1/Person/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

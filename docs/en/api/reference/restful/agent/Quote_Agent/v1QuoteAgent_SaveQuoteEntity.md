@@ -15,6 +15,7 @@ Saves a QuoteEntity.
 
 
 Versions and alternatives will not be saved by this call.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 173,
-  "SaleId": 268,
-  "QuoteConnectionId": 695,
-  "ERPQuoteKey": "corporis",
-  "ERPOrderKey": "quo",
-  "ActiveQuoteVersionId": 215,
-  "AcceptedQuoteAlternativeId": 217,
-  "UseValuesFromQuote": 702,
-  "DocumentId": 1000,
-  "PoNumber": "1512204",
-  "OrderComment": "voluptas",
-  "PreferredEmailCulture": "cristina.mraz@reingercole.us",
+  "QuoteId": 537,
+  "SaleId": 532,
+  "QuoteConnectionId": 194,
+  "ERPQuoteKey": "ad",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 7,
+  "AcceptedQuoteAlternativeId": 706,
+  "UseValuesFromQuote": 386,
+  "DocumentId": 546,
+  "PoNumber": "788896",
+  "OrderComment": "tempore",
+  "PreferredEmailCulture": "rollin.pouros@satterfieldzulauf.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 447,
-      "ERPQuoteVersionKey": "doloribus",
-      "QuoteId": 668,
-      "Description": "Quality-focused directional framework",
-      "Number": "1242831",
+      "QuoteVersionId": 300,
+      "ERPQuoteVersionKey": "non",
+      "QuoteId": 116,
+      "Description": "Innovative exuding flexibility",
+      "Number": "421134",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 23,
-      "SentDate": "2017-10-22T11:24:48.5470141+02:00",
-      "FollowupId": 625,
-      "ExpirationDate": "2004-02-29T11:24:48.5470141+01:00",
-      "DeliveryCountryId": 145,
+      "LikelyQuoteAlternativeId": 996,
+      "SentDate": "2007-08-11T03:40:47.5785846+02:00",
+      "FollowupId": 531,
+      "ExpirationDate": "2016-05-10T03:40:47.5785846+02:00",
+      "DeliveryCountryId": 238,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 777,
+      "InvoiceCountryId": 987,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "sed",
-      "ERPPaymentTypeKey": "aut",
-      "ERPDeliveryTermsKey": "commodi",
-      "ERPDeliveryTypeKey": "qui",
-      "Rank": 960,
-      "ApprovedBy": 196,
-      "ApprovedText": "esse",
-      "ApprovedRegisteredBy": 614,
-      "ApprovedRegisteredDate": "2016-04-27T11:24:48.5470141+02:00",
-      "ExtraField1": "eum",
-      "ExtraField2": "occaecati",
-      "ExtraField3": "illum",
-      "ExtraField4": "est",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2014-07-21T11:24:48.5470141+02:00",
-      "Updated": "2024-04-24T11:24:48.5470141+02:00",
-      "UpdatedAssociateId": 510,
-      "Registered": "2019-09-20T11:24:48.5470141+02:00",
-      "RegisteredAssociateId": 521,
-      "RequestAssociateId": 371,
-      "RequestComment": "et",
+      "ERPPaymentTermsKey": "eos",
+      "ERPPaymentTypeKey": "et",
+      "ERPDeliveryTermsKey": "natus",
+      "ERPDeliveryTypeKey": "nam",
+      "Rank": 174,
+      "ApprovedBy": 35,
+      "ApprovedText": "magni",
+      "ApprovedRegisteredBy": 159,
+      "ApprovedRegisteredDate": "1999-10-05T03:40:47.5785846+02:00",
+      "ExtraField1": "aut",
+      "ExtraField2": "quas",
+      "ExtraField3": "et",
+      "ExtraField4": "recusandae",
+      "ExtraField5": "perspiciatis",
+      "LastRecalculated": "2015-05-30T03:40:47.5785846+02:00",
+      "Updated": "2003-04-10T03:40:47.5785846+02:00",
+      "UpdatedAssociateId": 53,
+      "Registered": "2005-12-29T03:40:47.5785846+01:00",
+      "RegisteredAssociateId": 49,
+      "RequestAssociateId": 779,
+      "RequestComment": "sint",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 176
         }
       }
     }
@@ -173,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

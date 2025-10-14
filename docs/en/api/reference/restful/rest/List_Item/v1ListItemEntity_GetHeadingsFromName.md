@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Bergnaum-Volkman",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 561,
-    "UdListDefinitionId": 549,
+    "HeadingId": 216,
+    "Name": "Franecki, Schaefer and Lesch",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 560,
+    "UdListDefinitionId": 729,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 772
       }
     }
   }

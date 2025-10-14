@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Herman Group",
-    "Tooltip": "ipsum",
+    "Id": 497,
+    "Name": "Williamson LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 126
+    "UdListDefinitionId": 673,
+    "Rank": 141
   },
   {
-    "Id": 515,
-    "Name": "Herman Group",
-    "Tooltip": "ipsum",
+    "Id": 497,
+    "Name": "Williamson LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 437,
-    "Rank": 126
+    "UdListDefinitionId": 673,
+    "Rank": 141
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Feil LLC",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 150,
-    "Rank": 349,
+    "Id": 4,
+    "Name": "Cummerata, Weissnat and Windler",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "UdListDefinitionId": 423,
+    "Rank": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 865
       }
     }
   }

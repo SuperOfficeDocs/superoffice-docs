@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Littel-Abbott",
-  "Tooltip": "quibusdam",
+  "Id": 89,
+  "Name": "Romaguera-Krajcik",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 302,
+  "Rank": 504,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Name": "Koelpin LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 659,
+  "Id": 979,
+  "Name": "Gottlieb, Satterfield and Mayert",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 625,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dignissimos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 540
     }
   }
 }

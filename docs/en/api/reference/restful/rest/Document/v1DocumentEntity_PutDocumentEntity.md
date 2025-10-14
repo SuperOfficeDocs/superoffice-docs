@@ -15,6 +15,7 @@ Updates the existing DocumentEntity Save the document entity.
 
 
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -153,73 +154,73 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 95,
+  "DocumentId": 552,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "error",
-  "Header": "velit",
-  "Name": "Little-Leffler",
-  "OurRef": "veniam",
-  "YourRef": "assumenda",
-  "CreatedDate": "2000-02-05T11:24:53.2499584+01:00",
-  "UpdatedDate": "2020-07-04T11:24:53.2499584+02:00",
-  "Description": "Self-enabling methodical algorithm",
+  "Attention": "dolor",
+  "Header": "ea",
+  "Name": "Hermann, Spencer and Braun",
+  "OurRef": "qui",
+  "YourRef": "quis",
+  "CreatedDate": "2016-01-10T03:40:55.6475326+01:00",
+  "UpdatedDate": "2005-03-02T03:40:55.6475326+01:00",
+  "Description": "Multi-tiered coherent task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-09-13T11:24:53.2499584+02:00",
-  "ExternalRef": "dolorum",
+  "Date": "2009-07-29T03:40:55.6475326+02:00",
+  "ExternalRef": "eius",
   "Completed": "Completed",
-  "ActiveLinks": 827,
+  "ActiveLinks": 579,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Abernathy, Williamson and Medhurst",
-      "Id": 39,
-      "Description": "Managed multi-state neural-net",
-      "ExtraInfo": "ut",
-      "LinkId": 919
+      "EntityName": "Wilderman Group",
+      "Id": 469,
+      "Description": "Decentralized user-facing archive",
+      "ExtraInfo": "quia",
+      "LinkId": 840
     },
     {
-      "EntityName": "Abernathy, Williamson and Medhurst",
-      "Id": 39,
-      "Description": "Managed multi-state neural-net",
-      "ExtraInfo": "ut",
-      "LinkId": 919
+      "EntityName": "Wilderman Group",
+      "Id": 469,
+      "Description": "Decentralized user-facing archive",
+      "ExtraInfo": "quia",
+      "LinkId": 840
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 711,
-  "Snum": 349,
+  "SuggestedDocumentId": 625,
+  "Snum": 341,
   "UserDefinedFields": {
-    "SuperOffice:1": "Freda Arturo Prohaska PhD",
-    "SuperOffice:2": "Miss Enrique Kerluke"
+    "SuperOffice:1": "Dovie Eichmann",
+    "SuperOffice:2": "Mr. Manley Jaylon Kemmer DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2007-06-01T11:24:53.2499584+02:00",
-  "PublishTo": "2013-02-07T11:24:53.2499584+01:00",
-  "PublishFrom": "2003-10-20T11:24:53.2499584+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-02-02T03:40:55.6475326+01:00",
+  "PublishTo": "2025-09-13T03:40:55.6475326+02:00",
+  "PublishFrom": "2000-01-03T03:40:55.6475326+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "perferendis"
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "perferendis"
     }
   ]
 }
@@ -232,88 +233,88 @@ HTTP/1.1 200 DocumentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 487,
+  "DocumentId": 190,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sapiente",
-  "Header": "placeat",
-  "Name": "VonRueden, Erdman and Tromp",
-  "OurRef": "esse",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2008-03-21T11:24:53.2499584+01:00",
-  "UpdatedDate": "2025-04-23T11:24:53.2499584+02:00",
-  "Description": "Persevering coherent task-force",
+  "Attention": "est",
+  "Header": "ipsam",
+  "Name": "Jenkins, Ruecker and McLaughlin",
+  "OurRef": "ipsam",
+  "YourRef": "aut",
+  "CreatedDate": "2007-10-15T03:40:55.6475326+02:00",
+  "UpdatedDate": "2011-08-08T03:40:55.6475326+02:00",
+  "Description": "Visionary motivating complexity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-02-05T11:24:53.2499584+01:00",
-  "ExternalRef": "quasi",
+  "Date": "2004-04-15T03:40:55.6631585+02:00",
+  "ExternalRef": "porro",
   "Completed": "Completed",
-  "ActiveLinks": 654,
+  "ActiveLinks": 680,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schmitt LLC",
-      "Id": 769,
-      "Description": "Decentralized neutral neural-net",
-      "ExtraInfo": "aperiam",
-      "LinkId": 97,
+      "EntityName": "Hane-Kerluke",
+      "Id": 921,
+      "Description": "Front-line impactful capacity",
+      "ExtraInfo": "molestias",
+      "LinkId": 418,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 206
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 698,
-  "Snum": 970,
+  "SuggestedDocumentId": 496,
+  "Snum": 347,
   "UserDefinedFields": {
-    "SuperOffice:1": "Arvel Veum",
-    "SuperOffice:2": "Prof. Kaylie Bergstrom"
+    "SuperOffice:1": "Mr. Cameron Bogisich MD",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dolores"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "totam"
   },
-  "PublishEventDate": "2001-06-24T11:24:53.2499584+02:00",
-  "PublishTo": "2002-01-13T11:24:53.2499584+01:00",
-  "PublishFrom": "2024-02-29T11:24:53.2499584+01:00",
+  "PublishEventDate": "2022-03-25T03:40:55.6631585+01:00",
+  "PublishTo": "2013-07-14T03:40:55.6631585+02:00",
+  "PublishFrom": "2018-06-21T03:40:55.6631585+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 435,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 556
         }
       }
     },
     {
-      "VisibleId": 435,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 556
         }
       }
     }
@@ -322,13 +323,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

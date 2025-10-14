@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Baumbach-Farrell",
-  "DeviceName": "Wiegand Inc and Sons",
-  "DeviceIdentifier": "accusantium",
-  "KeyName": "Ledner Group",
-  "KeyValue": "aut",
-  "TableName": "Rippin Group"
+  "ApplicationName": "Herman, Schroeder and Kuhic",
+  "DeviceName": "Johns LLC",
+  "DeviceIdentifier": "placeat",
+  "KeyName": "Cummerata-Reichert",
+  "KeyValue": "vitae",
+  "TableName": "Schultz, Lueilwitz and Willms"
 }
 ```
 
@@ -106,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laboriosam",
-  "Value": "aliquid",
-  "RecordId": 18,
-  "CreatedDate": "2017-04-05T11:24:48.1564051+02:00",
-  "UpdatedDate": "1998-08-10T11:24:48.1564051+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "cum",
-  "TableName": "Prosacco Group",
+  "Key": "voluptatem",
+  "Value": "molestiae",
+  "RecordId": 593,
+  "CreatedDate": "2013-02-12T03:40:46.9999043+01:00",
+  "UpdatedDate": "2006-02-15T03:40:46.9999043+01:00",
+  "UpdatedBy": "culpa",
+  "CreatedBy": "harum",
+  "TableName": "Bruen Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 784
+      "FieldLength": 763
     }
   }
 }

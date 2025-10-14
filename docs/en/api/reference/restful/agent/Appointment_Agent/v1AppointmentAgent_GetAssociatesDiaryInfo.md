@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Fetch appointment info for given associates
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -102,16 +104,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    491,
-    294
+    740,
+    639
   ],
-  "StartTime": "2007-09-10T11:24:47.3283137+02:00",
-  "EndTime": "2020-11-10T11:24:47.3283137+01:00"
+  "StartTime": "2023-08-26T03:40:45.6387418+02:00",
+  "EndTime": "2006-08-05T03:40:45.6387418+02:00"
 }
 ```
 
@@ -123,39 +125,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 349,
-    "AssociateId": 912,
-    "MotherId": 163,
-    "StartDate": "2001-04-11T11:24:47.3283137+02:00",
-    "EndDate": "2019-08-16T11:24:47.3283137+02:00",
+    "AppointmentId": 711,
+    "AssociateId": 362,
+    "MotherId": 93,
+    "StartDate": "2022-01-01T03:40:45.6387418+01:00",
+    "EndDate": "2013-07-12T03:40:45.6387418+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Feest, O'Connell and O'Kon",
-    "ContactName": "Wunsch-Kutch",
-    "ProjectName": "Marquardt, Quitzon and Baumbach",
-    "Title": "id",
-    "Agenda": "non",
-    "IsAllDay": false,
-    "IsBusy": true,
-    "IsRecurring": true,
-    "IsVideoMeeting": false,
-    "HasAlarm": true,
+    "TaskName": "Hudson-Upton",
+    "ContactName": "Upton, Rippin and Harris",
+    "ProjectName": "Nikolaus Group",
+    "Title": "nesciunt",
+    "Agenda": "est",
+    "IsAllDay": true,
+    "IsBusy": false,
+    "IsRecurring": false,
+    "IsVideoMeeting": true,
+    "HasAlarm": false,
     "IsCompleted": false,
     "IsTentative": true,
-    "IsBookingMain": false,
-    "SendEmail": true,
+    "IsBookingMain": true,
+    "SendEmail": false,
     "AnySendEmail": false,
-    "IsPrivate": false,
+    "IsPrivate": true,
     "RecurrenceInfo": null,
-    "PersonName": "Rolfson LLC",
-    "IsBooking": true,
+    "PersonName": "Botsford-Volkman",
+    "IsBooking": false,
     "OwnedExternally": "Google",
-    "MotherAssociateId": 30,
+    "MotherAssociateId": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 716
       }
     }
   }

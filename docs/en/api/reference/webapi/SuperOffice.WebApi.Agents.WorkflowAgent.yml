@@ -69,13 +69,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class WorkflowAgent : AgentBase, IWorkflowAgent, IDisposable'
-    content.vb: Public Class WorkflowAgent Inherits AgentBase Implements IWorkflowAgent, IDisposable
+    content: 'public class WorkflowAgent : AgentBase, IWorkflowAgent, IAgentBase, IDisposable'
+    content.vb: Public Class WorkflowAgent Inherits AgentBase Implements IWorkflowAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IWorkflowAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -1393,6 +1394,14 @@ references:
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent
   fullName: SuperOffice.WebApi.Agents.IWorkflowAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Reilly LLC",
-    "ToolTip": "Accusantium earum veniam ipsam ut magni.",
-    "Deleted": false,
-    "Rank": 461,
-    "Type": "nobis",
-    "ColorBlock": 875,
-    "IconHint": "velit",
+    "Id": 991,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Veritatis aut suscipit voluptas doloremque ad.",
+    "Deleted": true,
+    "Rank": 954,
+    "Type": "quaerat",
+    "ColorBlock": 449,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2012-10-31T11:24:53.9217949+01:00",
+    "LastChanged": "2006-02-14T03:40:56.805732+01:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Rosenbaum-Moore",
-        "ToolTip": "Alias sed sed adipisci inventore.",
-        "Deleted": true,
-        "Rank": 688,
+        "Id": 112,
+        "Name": "Weber, Jones and Hamill",
+        "ToolTip": "Autem omnis omnis et et aperiam.",
+        "Deleted": false,
+        "Rank": 223,
         "Type": "quia",
-        "ColorBlock": 246,
-        "IconHint": "quia",
+        "ColorBlock": 154,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2003-03-25T11:24:53.9217949+01:00",
+        "LastChanged": "2020-01-09T03:40:56.805732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quo",
+        "ExtraInfo": "ut",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Allan Turner",
+        "FullName": "Wilmer Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Noemi Harvey",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Jonatan Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 264
       }
     }
   }

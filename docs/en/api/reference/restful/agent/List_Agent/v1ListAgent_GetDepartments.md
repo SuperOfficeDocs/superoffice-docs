@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDepartments
 Getting all departments/user groups for the internal phone list with the user's colleagues.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDepartments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Value": "occaecati",
-    "Tooltip": "ab",
+    "Id": 252,
+    "Value": "eos",
+    "Tooltip": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 957
       }
     }
   },
   {
-    "Id": 836,
-    "Value": "occaecati",
-    "Tooltip": "ab",
+    "Id": 252,
+    "Value": "eos",
+    "Tooltip": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 957
       }
     }
   }

@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/GetTrainingStatus
 Calling the HugoAI endpoint to fetch the current training status.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -69,7 +74,7 @@ OK
 POST /api/v1/Agents/AI/GetTrainingStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,8 +84,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "vel",
-  "Status": "rem",
+  "ContextIdentifier": "facilis",
+  "Status": "fuga",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
@@ -88,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 519
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 932,
-  "Name": "Kuhic-Jacobson",
-  "Tooltip": "labore",
+  "Id": 620,
+  "Name": "Jenkins-Schmeler",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 140,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 76,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "fuga",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Fadel Group",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "Rank": 580,
+  "Id": 195,
+  "Name": "Moen Group",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 335,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quae",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 Returns the revision history for a given TargetAssignmentInfo in chronological order.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 563
+  "TargetAssignmentInfoId": 418
 }
 ```
 
@@ -91,13 +93,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 254,
-  "Year": 909,
+  "TargetGroupId": 725,
+  "Year": 593,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2023-11-18T11:24:48.6720089+01:00",
+      "When": "2021-09-29T03:40:47.8911118+02:00",
       "Changes": [
         {},
         {}
@@ -107,14 +109,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 518
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2023-11-18T11:24:48.6720089+01:00",
+      "When": "2021-09-29T03:40:47.8911118+02:00",
       "Changes": [
         {},
         {}
@@ -124,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 518
         }
       }
     }
@@ -134,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 920
     }
   }
 }

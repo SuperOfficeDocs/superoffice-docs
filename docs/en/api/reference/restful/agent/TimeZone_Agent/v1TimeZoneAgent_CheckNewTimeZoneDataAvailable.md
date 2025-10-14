@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/CheckNewTimeZoneDataAvailable
 Check to see if new timezone data is available
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

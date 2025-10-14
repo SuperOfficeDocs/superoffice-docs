@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Permanentely delete a resource substitution for one or more cultures
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Lockman-Daugherty",
-  "Culture": "quis"
+  "ResourceName": "Doyle, Strosin and Labadie",
+  "Culture": "dolores"
 }
 ```
 

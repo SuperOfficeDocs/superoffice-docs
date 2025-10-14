@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/Search
 Returns semantic search results from vector database.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -80,14 +85,14 @@ OK
 POST /api/v1/Agents/AI/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Schroeder, Rogahn and Hyatt",
-  "Query": "rerum",
+  "NamespaceName": "Farrell Group",
+  "Query": "ipsum",
   "Type": "Document",
-  "Top": 135
+  "Top": 765
 }
 ```
 
@@ -99,21 +104,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Chunk": "veniam",
-    "Title": "culpa",
-    "Id": "similique",
+    "Chunk": "beatae",
+    "Title": "perspiciatis",
+    "Id": "hic",
     "Type": "Document",
-    "Score": 11298.07,
+    "Score": 22401.832,
     "Metadata": {
       "fieldName": {}
     }
   },
   {
-    "Chunk": "veniam",
-    "Title": "culpa",
-    "Id": "similique",
+    "Chunk": "beatae",
+    "Title": "perspiciatis",
+    "Id": "hic",
     "Type": "Document",
-    "Score": 11298.07,
+    "Score": 22401.832,
     "Metadata": {
       "fieldName": {}
     }

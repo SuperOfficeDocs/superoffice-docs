@@ -14,6 +14,8 @@ PUT /api/v1/TicketType/{id}
 Updates the existing TicketTypeEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,38 +118,38 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 380,
-  "Name": "Zieme Group",
-  "Rank": 612,
-  "Tooltip": "accusamus",
-  "Icon": "error",
-  "DefaultTicketStatus": 515,
+  "TicketTypeId": 57,
+  "Name": "Durgan Inc and Sons",
+  "Rank": 192,
+  "Tooltip": "ducimus",
+  "Icon": "occaecati",
+  "DefaultTicketStatus": 429,
   "TicketStatuses": [
-    177,
-    386
+    461,
+    735
   ],
-  "DefaultTicketPriority": 628,
+  "DefaultTicketPriority": 643,
   "TicketPriorities": [
-    664,
-    44
+    610,
+    181
   ],
-  "ReplyTemplate": 580,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 412,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    306,
-    257
+    829,
+    233
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -158,31 +160,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 978,
-  "Name": "Metz, Sipes and Johns",
-  "Rank": 910,
-  "Tooltip": "in",
-  "Icon": "doloremque",
-  "DefaultTicketStatus": 529,
+  "TicketTypeId": 207,
+  "Name": "Cartwright LLC",
+  "Rank": 861,
+  "Tooltip": "quaerat",
+  "Icon": "corrupti",
+  "DefaultTicketStatus": 213,
   "TicketStatuses": [
-    605,
-    65
+    916,
+    880
   ],
-  "DefaultTicketPriority": 913,
+  "DefaultTicketPriority": 837,
   "TicketPriorities": [
-    762,
-    719
+    197,
+    113
   ],
-  "ReplyTemplate": 328,
+  "ReplyTemplate": 477,
   "IsExternalVisible": true,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    411,
-    695
+    63,
+    267
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -190,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

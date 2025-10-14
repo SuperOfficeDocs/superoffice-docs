@@ -15,6 +15,7 @@ Gets the persons working in the same company as the logged on user.
 
 
 The list of person could be retrieved from the history list, the diary view list, or from all sources.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -117,12 +118,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 76
+  "Count": 583
 }
 ```
 
@@ -134,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "earum",
-    "PersonId": 676,
-    "Mrmrs": "quisquam",
-    "Firstname": "Laury",
-    "Lastname": "Armstrong",
-    "MiddleName": "Brown LLC",
-    "Title": "omnis",
-    "Description": "Triple-buffered holistic core",
-    "Email": "rosalinda@smitham.info",
-    "FullName": "Malcolm Hillary Wintheiser PhD",
-    "DirectPhone": "453-117-3231 x130",
-    "FormalName": "King Group",
-    "CountryId": 520,
-    "ContactId": 446,
-    "ContactName": "Spinka, Conn and Lesch",
-    "Retired": 683,
-    "Rank": 419,
-    "ActiveInterests": 776,
+    "Position": "voluptas",
+    "PersonId": 398,
+    "Mrmrs": "veniam",
+    "Firstname": "Natasha",
+    "Lastname": "Upton",
+    "MiddleName": "Swaniawski Group",
+    "Title": "vel",
+    "Description": "Reverse-engineered empowering product",
+    "Email": "joelle.jaskolski@botsford.com",
+    "FullName": "Lillian Ratke",
+    "DirectPhone": "779.105.5468 x79270",
+    "FormalName": "Conroy Group",
+    "CountryId": 810,
+    "ContactId": 373,
+    "ContactName": "Tremblay, Dickinson and Effertz",
+    "Retired": 991,
+    "Rank": 536,
+    "ActiveInterests": 393,
     "ContactDepartment": "",
-    "ContactCountryId": 663,
-    "ContactOrgNr": "765336",
-    "FaxPhone": "947.539.1161 x618",
-    "MobilePhone": "833-307-6098",
-    "ContactPhone": "1-767-551-4545 x31955",
-    "AssociateName": "Braun, Heathcote and Eichmann",
-    "AssociateId": 587,
+    "ContactCountryId": 312,
+    "ContactOrgNr": "1211494",
+    "FaxPhone": "(636)762-6360 x6335",
+    "MobilePhone": "778.599.7826",
+    "ContactPhone": "1-980-747-8999 x69763",
+    "AssociateName": "O'Connell-Haag",
+    "AssociateId": 760,
     "UsePersonAddress": false,
-    "ContactFax": "vitae",
-    "Kanafname": "officiis",
-    "Kanalname": "est",
-    "Post1": "nulla",
-    "Post2": "recusandae",
-    "Post3": "est",
-    "EmailName": "esmeralda@heathcote.name",
-    "ContactFullName": "Evangeline Johnston",
-    "ActiveErpLinks": 193,
-    "TicketPriorityId": 138,
-    "SupportLanguageId": 600,
-    "SupportAssociateId": 886,
+    "ContactFax": "enim",
+    "Kanafname": "ipsum",
+    "Kanalname": "et",
+    "Post1": "natus",
+    "Post2": "temporibus",
+    "Post3": "harum",
+    "EmailName": "erick.oreilly@baumbach.co.uk",
+    "ContactFullName": "Chet Skiles",
+    "ActiveErpLinks": 718,
+    "TicketPriorityId": 694,
+    "SupportLanguageId": 129,
+    "SupportAssociateId": 76,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1463664",
+    "PersonNumber": "1502478",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 125
       }
     }
   }

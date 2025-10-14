@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Loading default values into a new DocumentTemplateEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 450,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 492,
-  "Filename": "qui",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 697,
+  "Name": "Daugherty Group",
+  "Tooltip": "ullam",
+  "SaveInDb": 639,
+  "Filename": "necessitatibus",
+  "DefaultOref": "labore",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 405,
-  "IntentId": 778,
-  "IsDefaultPublished": false,
-  "Rank": 809,
-  "LoadTemplateFromPlugin": 418,
-  "MimeType": "consequuntur",
+  "AutoeventId": 517,
+  "IntentId": 476,
+  "IsDefaultPublished": true,
+  "Rank": 604,
+  "LoadTemplateFromPlugin": 484,
+  "MimeType": "eaque",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 569,
+  "DocumentTypeKey": 939,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "abdiel@gutkowski.us",
-  "IncludeSignature": false,
+  "EmailSubject": "aurelia.cummerata@gusikowski.com",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "herbert_batz@jewess.name",
+  "SenderEmailAddress": "hermina_conn@fahey.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   }
 }

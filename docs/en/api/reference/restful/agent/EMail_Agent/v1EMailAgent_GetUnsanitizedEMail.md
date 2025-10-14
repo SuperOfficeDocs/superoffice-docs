@@ -15,6 +15,7 @@ Get en e-mail based on its primary key in the DB.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -105,12 +106,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "IncludeAttachments": false
+  "Id": 564,
+  "IncludeAttachments": true
 }
 ```
 
@@ -123,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 575,
-      "ContactName": "Kozey LLC",
-      "PersonId": 35,
-      "PersonName": "Watsica-Kunze",
-      "AssociateId": 241,
-      "Address": "id",
-      "EmailId": 906,
+      "ContactId": 809,
+      "ContactName": "Jacobson-Gibson",
+      "PersonId": 690,
+      "PersonName": "Heaney-D'Amore",
+      "AssociateId": 494,
+      "Address": "iusto",
+      "EmailId": 871,
       "DuplicatePersonIds": [
-        50,
-        807
+        824,
+        506
       ],
-      "Name": "Stoltenberg Inc and Sons",
+      "Name": "Torp Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldType": "System.String",
+          "FieldLength": 150
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 494,
-      "ContactName": "Moen LLC",
-      "PersonId": 645,
-      "PersonName": "Goldner, Beatty and Durgan",
-      "AssociateId": 143,
-      "Address": "tempore",
-      "EmailId": 956,
+      "ContactId": 987,
+      "ContactName": "Dicki-Conroy",
+      "PersonId": 42,
+      "PersonName": "Smith Inc and Sons",
+      "AssociateId": 517,
+      "Address": "impedit",
+      "EmailId": 538,
       "DuplicatePersonIds": [
-        562,
-        887
+        533,
+        375
       ],
-      "Name": "Greenfelder Inc and Sons",
+      "Name": "Harvey-Hansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldLength": 13
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 155,
-      "ContactName": "Christiansen LLC",
-      "PersonId": 583,
-      "PersonName": "Bergstrom-Senger",
-      "AssociateId": 293,
-      "Address": "culpa",
-      "EmailId": 555,
+      "ContactId": 389,
+      "ContactName": "Hessel-Johnston",
+      "PersonId": 376,
+      "PersonName": "Feest Inc and Sons",
+      "AssociateId": 561,
+      "Address": "ut",
+      "EmailId": 637,
       "DuplicatePersonIds": [
-        419,
-        590
+        619,
+        879
       ],
-      "Name": "Gutmann-D'Amore",
+      "Name": "Becker, Schiller and Schinner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 617
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "vel",
+  "Subject": "nulla",
+  "HTMLBody": "magnam",
   "From": null,
-  "Sent": "2007-07-02T11:24:48.1095319+02:00",
-  "Size": 910,
+  "Sent": "2006-05-04T03:40:46.9061483+02:00",
+  "Size": 516,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nobis",
-  "PlainBody": "fugiat",
-  "IsSent": false,
+  "MessageID": "placeat",
+  "PlainBody": "laudantium",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 775,
+  "ServerId": 188,
   "Attachments": [
     {
-      "Description": "Automated human-resource emulation",
-      "Filename": "eum",
-      "Size": 828,
-      "Type": "possimus",
-      "Encoding": "ducimus",
-      "Id": "totam",
-      "Disposition": "repellat",
-      "IsSafeFileExtension": false,
+      "Description": "Assimilated transitional access",
+      "Filename": "qui",
+      "Size": 270,
+      "Type": "doloremque",
+      "Encoding": "fuga",
+      "Id": "sit",
+      "Disposition": "placeat",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 491
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kunde Inc and Sons",
+      "Name": "Emard Inc and Sons",
       "Values": [
-        "nulla",
-        "nobis"
+        "corporis",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldLength": 176
         }
       }
     },
     {
-      "Name": "Kunde Inc and Sons",
+      "Name": "Emard Inc and Sons",
       "Values": [
-        "nulla",
-        "nobis"
+        "corporis",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldLength": 176
         }
       }
     }
   ],
-  "FolderName": "Marvin, Witting and Stroman",
-  "EmailItemId": 861,
-  "AccountId": 714,
-  "ReceivedAt": "2017-03-13T11:24:48.1095319+01:00",
+  "FolderName": "Pfannerstill-Adams",
+  "EmailItemId": 265,
+  "AccountId": 157,
+  "ReceivedAt": "2021-12-11T03:40:46.9061483+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-01-06T11:24:48.1095319+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2007-08-29T03:40:46.9061483+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -272,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 230
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Loading default values into a new MailboxEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 731,
+  "MailInFilterId": 818,
   "ServerType": "Facebook",
-  "Address": "eaque",
-  "Username": "officiis",
-  "Password": "qui",
-  "Server": "sapiente",
-  "Port": 715,
+  "Address": "quis",
+  "Username": "quae",
+  "Password": "necessitatibus",
+  "Server": "nihil",
+  "Port": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

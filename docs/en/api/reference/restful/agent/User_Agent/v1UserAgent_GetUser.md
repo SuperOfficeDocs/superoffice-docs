@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUser
 Gets a User object.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +32,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=181
+POST /api/v1/Agents/User/GetUser?userId=620
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -104,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 67,
-  "Name": "Little-Torphy",
-  "Rank": 764,
-  "Tooltip": "voluptatem",
+  "AssociateId": 571,
+  "Name": "Rempel LLC",
+  "Rank": 273,
+  "Tooltip": "adipisci",
   "LicenseOwners": [
     {
-      "Name": "Prohaska-Pfeffer",
-      "Description": "Triple-buffered impactful alliance",
+      "Name": "Crona-Bechtelar",
+      "Description": "Advanced 24 hour superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,13 +128,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 832
         }
       }
     },
     {
-      "Name": "Prohaska-Pfeffer",
-      "Description": "Triple-buffered impactful alliance",
+      "Name": "Crona-Bechtelar",
+      "Description": "Advanced 24 hour superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -145,7 +148,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 832
         }
       }
     }
@@ -154,110 +157,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatibus",
-      "Tooltip": "eligendi",
-      "Id": 385,
-      "Rank": 264,
-      "Deleted": true,
+      "Value": "amet",
+      "Tooltip": "est",
+      "Id": 278,
+      "Rank": 650,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 262
+          "FieldLength": 346
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-01-16T11:24:48.9219987+01:00",
-  "Lastlogout": "2012-11-07T11:24:48.9219987+01:00",
-  "EjUserId": 162,
-  "RequestSignature": "odit",
+  "Lastlogin": "2014-05-20T03:40:48.2192479+02:00",
+  "Lastlogout": "2004-10-27T03:40:48.2192479+02:00",
+  "EjUserId": 96,
+  "RequestSignature": "eligendi",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolore",
-      "DisplayValue": "animi",
+      "Value": "et",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 785
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolore",
-      "DisplayValue": "animi",
+      "Value": "et",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 792
+          "FieldLength": 785
         }
       }
     }
   ],
-  "UserName": "Lockman-Streich",
+  "UserName": "Buckridge Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 176,
-      "Name": "Fadel-Carter",
-      "ToolTip": "Dolorem sed nobis quia beatae dicta tempore tempore.",
+      "Id": 771,
+      "Name": "Russel, Barton and Von",
+      "ToolTip": "Eum ex saepe aut nam eveniet.",
       "Deleted": false,
-      "Rank": 212,
-      "Type": "iure",
+      "Rank": 418,
+      "Type": "deserunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 392,
-      "ExtraInfo": "eligendi",
-      "StyleHint": "molestiae",
-      "FullName": "Mr. Raymundo Reyna Cassin Sr.",
+      "IconHint": "magnam",
+      "ColorBlock": 461,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "quia",
+      "FullName": "Ellie Haley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldLength": 264
         }
       }
     }
   ],
-  "NickName": "Gibson-Cormier",
+  "NickName": "Block Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "et"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "et"
+    "CustomFields1": "dolor",
+    "CustomFields2": "fugit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hegmann, Schimmel and Price",
-      "DisplayName": "Hills-Bergnaum",
-      "Description": "Profit-focused real-time standardization",
-      "ToolTip": "Vel omnis totam quis et.",
+      "Name": "Dickens-Bergstrom",
+      "DisplayName": "Brakus, Bartoletti and Robel",
+      "Description": "User-centric radical complexity",
+      "ToolTip": "Et vel aut perspiciatis magni.",
       "Actions": "Implicit",
-      "ActionData": "sint",
+      "ActionData": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 597
+          "FieldLength": 246
         }
       }
     }
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 822
     }
   }
 }

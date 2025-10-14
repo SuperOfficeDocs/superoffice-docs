@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Dietrich Inc and Sons",
-    "ToolTip": "Quia culpa nesciunt id est soluta.",
+    "Id": 492,
+    "Name": "Luettgen, Mosciski and Hodkiewicz",
+    "ToolTip": "Nihil enim repellat.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "cumque",
-    "ColorBlock": 210,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2005-09-12T11:24:53.8436729+02:00",
+    "Rank": 448,
+    "Type": "reiciendis",
+    "ColorBlock": 598,
+    "IconHint": "ratione",
+    "Selected": false,
+    "LastChanged": "2012-01-19T03:40:56.6807244+01:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Breitenberg-King",
-        "ToolTip": "Eligendi et.",
+        "Id": 57,
+        "Name": "Kuhlman-Fahey",
+        "ToolTip": "Placeat eum.",
         "Deleted": false,
-        "Rank": 60,
-        "Type": "eos",
-        "ColorBlock": 161,
-        "IconHint": "quia",
+        "Rank": 752,
+        "Type": "neque",
+        "ColorBlock": 887,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2024-05-03T11:24:53.8436729+02:00",
+        "LastChanged": "2013-05-06T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Michaela Rempel",
+        "ExtraInfo": "unde",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Alanis Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldType": "System.Int32",
+            "FieldLength": 905
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "alias",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Mrs. Carey Holden Wilderman MD",
+    "FullName": "Rozella Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 553
       }
     }
   }

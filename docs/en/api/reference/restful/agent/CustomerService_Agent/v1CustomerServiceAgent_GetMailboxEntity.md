@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetMailboxEntity
 Gets a MailboxEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=911
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=413
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,19 +86,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 448,
+  "MailInFilterId": 927,
   "ServerType": "Facebook",
-  "Address": "voluptate",
-  "Username": "est",
-  "Password": "aut",
-  "Server": "provident",
-  "Port": 780,
+  "Address": "dolorem",
+  "Username": "nobis",
+  "Password": "omnis",
+  "Server": "inventore",
+  "Port": 306,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 752
     }
   }
 }

@@ -15,6 +15,7 @@ Deletes all persons from a selection.
 
 
 If a person does not have delete rights, it will be skipped.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 508
+  "SelectionId": 11
 }
 ```
 

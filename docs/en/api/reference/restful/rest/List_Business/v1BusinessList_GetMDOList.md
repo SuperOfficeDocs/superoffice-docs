@@ -27,8 +27,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=autem
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=qui
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Halvorson, Cartwright and Gleason",
-    "ToolTip": "Aut expedita ducimus enim.",
-    "Deleted": false,
-    "Rank": 947,
-    "Type": "ut",
+    "Id": 527,
+    "Name": "Senger LLC",
+    "ToolTip": "Consectetur voluptates.",
+    "Deleted": true,
+    "Rank": 116,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Kemmer, Corkery and Marks",
-        "ToolTip": "Earum magnam rem sint molestias.",
-        "Deleted": false,
-        "Rank": 120,
-        "Type": "unde",
+        "Id": 772,
+        "Name": "Ratke, Gislason and Braun",
+        "ToolTip": "Sunt eius.",
+        "Deleted": true,
+        "Rank": 58,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 685,
-        "ExtraInfo": "qui",
-        "StyleHint": "ea",
-        "FullName": "Elta Lebsack",
+        "IconHint": "cumque",
+        "ColorBlock": 409,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "qui",
+        "FullName": "Filomena Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 149
+            "FieldType": "System.Int32",
+            "FieldLength": 154
           }
         }
       }
     ],
-    "IconHint": "facere",
-    "ColorBlock": 172,
-    "ExtraInfo": "optio",
-    "StyleHint": "commodi",
-    "FullName": "Bernhard Trantow V",
+    "IconHint": "at",
+    "ColorBlock": 775,
+    "ExtraInfo": "non",
+    "StyleHint": "sunt",
+    "FullName": "Elenora Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldType": "System.Int32",
+        "FieldLength": 940
       }
     }
   }

@@ -14,6 +14,9 @@ GET /api/v1/User/{id}/CustomCommand
 Get registered custom commands for User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -57,7 +60,7 @@ Not Found.
 GET /api/v1/User/{id}/CustomCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

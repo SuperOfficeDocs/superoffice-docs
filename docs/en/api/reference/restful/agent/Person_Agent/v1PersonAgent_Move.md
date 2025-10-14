@@ -15,6 +15,7 @@ Move a person to a specified contact.
 
 
 You must specify the date after which activities will be moved along with the person.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -69,13 +70,13 @@ No Content
 POST /api/v1/Agents/Person/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 744,
-  "DestinationContactId": 754,
-  "MoveAfterDate": "2025-02-26T11:24:48.3438973+01:00"
+  "PersonId": 478,
+  "DestinationContactId": 791,
+  "MoveAfterDate": "2006-08-23T03:40:47.3906+02:00"
 }
 ```
 

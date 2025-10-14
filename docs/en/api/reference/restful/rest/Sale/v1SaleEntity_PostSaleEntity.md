@@ -15,6 +15,7 @@ Creates a new SaleEntity
 
 
 Calls the Sale agent service SaveSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -173,7 +174,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "reprehenderit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -182,90 +183,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-08-01T11:24:53.5155612+02:00",
-  "Amount": 7925.8859999999995,
-  "SaleId": 407,
-  "Earning": 29854.484,
-  "EarningPercent": 5186.7699999999995,
-  "Heading": "voluptatem",
-  "Number": "1110515",
-  "Probability": 895,
-  "CreatedDate": "2017-09-07T11:24:53.5155612+02:00",
-  "UpdatedDate": "1999-10-28T11:24:53.5155612+02:00",
+  "Saledate": "2015-05-27T03:40:56.1011754+02:00",
+  "Amount": 9718.534,
+  "SaleId": 323,
+  "Earning": 21543.115999999998,
+  "EarningPercent": 53.278,
+  "Heading": "minima",
+  "Number": "1004552",
+  "Probability": 627,
+  "CreatedDate": "2001-12-14T03:40:56.1011754+01:00",
+  "UpdatedDate": "2018-06-29T03:40:56.1011754+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 116,
+  "ActiveLinks": 371,
   "Links": [
     {
-      "EntityName": "O'Conner, Ruecker and Monahan",
-      "Id": 69,
-      "Description": "Ergonomic global workforce",
-      "ExtraInfo": "accusantium",
-      "LinkId": 885
+      "EntityName": "Cruickshank-Schuppe",
+      "Id": 619,
+      "Description": "Cloned global core",
+      "ExtraInfo": "nulla",
+      "LinkId": 759
     },
     {
-      "EntityName": "O'Conner, Ruecker and Monahan",
-      "Id": 69,
-      "Description": "Ergonomic global workforce",
-      "ExtraInfo": "accusantium",
-      "LinkId": 885
+      "EntityName": "Cruickshank-Schuppe",
+      "Id": 619,
+      "Description": "Cloned global core",
+      "ExtraInfo": "nulla",
+      "LinkId": 759
     }
   ],
-  "NextDueDate": "2025-01-04T11:24:53.5155612+01:00",
-  "Postit": "ipsum",
+  "NextDueDate": "2007-11-29T03:40:56.1011754+01:00",
+  "Postit": "aliquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-05-07T11:24:53.5155612+02:00",
+  "ReopenDate": "2004-12-02T03:40:56.1011754+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Yundt Group",
-      "Comment": "architecto",
-      "StakeholderRoleId": 407,
-      "CountryId": 292,
-      "PersonId": 84,
-      "EmailDescription": "lucy.schultz@quigleyfeest.biz",
-      "EmailId": 724,
-      "EmailAddress": "cassidy@lesch.biz",
-      "PhoneId": 769,
-      "ContactName": "Maggio LLC",
-      "ContactId": 30,
-      "SaleId": 956,
-      "Mrmrs": "quo",
-      "Firstname": "Tracey",
-      "MiddleName": "Wehner-Gislason",
-      "Lastname": "Parisian",
-      "SaleStakeholderId": 861,
-      "Rank": 713,
-      "Phone": "070.147.1841 x3013"
+      "StakeholderRoleName": "Kunze-Dibbert",
+      "Comment": "dolore",
+      "StakeholderRoleId": 839,
+      "CountryId": 797,
+      "PersonId": 252,
+      "EmailDescription": "verner@cummeratagutkowski.co.uk",
+      "EmailId": 833,
+      "EmailAddress": "rachael@aufderhar.uk",
+      "PhoneId": 229,
+      "ContactName": "VonRueden Group",
+      "ContactId": 181,
+      "SaleId": 251,
+      "Mrmrs": "architecto",
+      "Firstname": "Mohammad",
+      "MiddleName": "Hilpert Inc and Sons",
+      "Lastname": "Pacocha",
+      "SaleStakeholderId": 609,
+      "Rank": 86,
+      "Phone": "1-196-527-4942 x0772"
     }
   ],
-  "ActiveErpLinks": 202,
+  "ActiveErpLinks": 650,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lucy Abbott",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1571000674",
+    "SuperOffice:2": "Stefan Margret Hane DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "natus"
+    "CustomFields1": "debitis",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2009-08-23T11:24:53.5155612+02:00",
-  "PublishTo": "2007-09-29T11:24:53.5155612+02:00",
-  "PublishFrom": "2019-07-22T11:24:53.5155612+02:00",
+  "PublishEventDate": "2020-05-12T03:40:56.1011754+02:00",
+  "PublishTo": "2011-05-17T03:40:56.1011754+02:00",
+  "PublishFrom": "2004-10-26T03:40:56.1011754+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 991,
+      "VisibleId": 729,
       "Visibility": "All",
-      "DisplayValue": "rem"
+      "DisplayValue": "ipsa"
     },
     {
-      "VisibleId": 991,
+      "VisibleId": 729,
       "Visibility": "All",
-      "DisplayValue": "rem"
+      "DisplayValue": "ipsa"
     }
   ]
 }
@@ -284,7 +285,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "accusamus",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -293,113 +294,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-05-26T11:24:53.5155612+02:00",
-  "Amount": 14729.8,
-  "SaleId": 114,
-  "Earning": 28334.494,
-  "EarningPercent": 4249.704,
-  "Heading": "ducimus",
-  "Number": "970356",
-  "Probability": 9,
-  "CreatedDate": "1999-11-30T11:24:53.5155612+01:00",
-  "UpdatedDate": "2005-02-28T11:24:53.5155612+01:00",
+  "Saledate": "2016-05-08T03:40:56.1168012+02:00",
+  "Amount": 5550.3139999999994,
+  "SaleId": 742,
+  "Earning": 16513.046,
+  "EarningPercent": 1532.5259999999998,
+  "Heading": "similique",
+  "Number": "597482",
+  "Probability": 884,
+  "CreatedDate": "2025-06-27T03:40:56.1168012+02:00",
+  "UpdatedDate": "2001-12-03T03:40:56.1168012+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 598,
+  "ActiveLinks": 576,
   "Links": [
     {
-      "EntityName": "DuBuque, Bechtelar and Kunze",
-      "Id": 418,
-      "Description": "Fundamental bandwidth-monitored product",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 159,
+      "EntityName": "Lueilwitz LLC",
+      "Id": 312,
+      "Description": "Sharable grid-enabled approach",
+      "ExtraInfo": "quia",
+      "LinkId": 550,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 143
         }
       }
     }
   ],
-  "NextDueDate": "2007-02-04T11:24:53.5155612+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2006-05-01T03:40:56.1168012+02:00",
+  "Postit": "minus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-09-19T11:24:53.5155612+02:00",
+  "ReopenDate": "2003-11-28T03:40:56.1168012+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Volkman Group",
-      "Comment": "ea",
-      "StakeholderRoleId": 869,
-      "CountryId": 886,
-      "PersonId": 65,
-      "EmailDescription": "kristoffer.gutkowski@satterfield.com",
-      "EmailId": 519,
-      "EmailAddress": "marcelo.miller@corkery.ca",
-      "PhoneId": 668,
-      "ContactName": "Schmidt, Klein and Jast",
-      "ContactId": 903,
-      "SaleId": 60,
-      "Mrmrs": "sed",
-      "Firstname": "Felipe",
-      "MiddleName": "Klocko, Stamm and Schulist",
-      "Lastname": "Boehm",
-      "SaleStakeholderId": 769,
-      "Rank": 412,
-      "Phone": "298.304.6903",
+      "StakeholderRoleName": "Bosco-Rau",
+      "Comment": "id",
+      "StakeholderRoleId": 18,
+      "CountryId": 58,
+      "PersonId": 607,
+      "EmailDescription": "travon@toyeffertz.biz",
+      "EmailId": 369,
+      "EmailAddress": "nicklaus_wehner@lebsack.uk",
+      "PhoneId": 77,
+      "ContactName": "Casper, Jakubowski and Ullrich",
+      "ContactId": 773,
+      "SaleId": 780,
+      "Mrmrs": "distinctio",
+      "Firstname": "Dario",
+      "MiddleName": "Crooks Group",
+      "Lastname": "Harvey",
+      "SaleStakeholderId": 93,
+      "Rank": 590,
+      "Phone": "406.604.2497",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 75
         }
       }
     }
   ],
-  "ActiveErpLinks": 423,
+  "ActiveErpLinks": 494,
   "UserDefinedFields": {
-    "SuperOffice:1": "200902503",
-    "SuperOffice:2": "1466733668"
+    "SuperOffice:1": "Saige Boyer",
+    "SuperOffice:2": "Mrs. Marcelo Lynch V"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "non"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "consequuntur"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "at"
   },
-  "PublishEventDate": "2005-10-23T11:24:53.5155612+02:00",
-  "PublishTo": "2010-05-30T11:24:53.5155612+02:00",
-  "PublishFrom": "2020-04-16T11:24:53.5155612+02:00",
+  "PublishEventDate": "2006-01-21T03:40:56.1168012+01:00",
+  "PublishTo": "2018-10-21T03:40:56.1168012+02:00",
+  "PublishFrom": "1999-02-17T03:40:56.1168012+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 32,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 783
         }
       }
     },
     {
-      "VisibleId": 32,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldType": "System.Int32",
+          "FieldLength": 783
         }
       }
     }
@@ -409,12 +410,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 723
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

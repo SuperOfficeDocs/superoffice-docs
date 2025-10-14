@@ -15,6 +15,7 @@ Copy ticket attachment to temporary file.
 
 
 Needed for existing document dialog compatibility
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Ticket/CopyToTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "et",
-  "AttachmentId": 888
+  "Filename": "est",
+  "AttachmentId": 965
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"illo"
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveWebPanelEntity
 Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,31 +108,31 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 921,
-  "Name": "Heaney-Smith",
-  "Tooltip": "porro",
+  "WebPanelId": 226,
+  "Name": "Pollich, Kautzer and Upton",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 794,
+  "Rank": 675,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Paucek Group",
+  "ShowInStatusBar": true,
+  "WindowName": "Rempel-Ortiz",
   "Url": "http://www.example.com/",
-  "ProgId": "natus",
-  "Icon": 295,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "asperiores",
+  "Icon": 905,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true
 }
 ```
@@ -142,26 +144,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 874,
-  "Name": "Wolff Group",
-  "Tooltip": "consectetur",
-  "Deleted": true,
-  "Rank": 297,
+  "WebPanelId": 106,
+  "Name": "Pacocha Group",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 179,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Bartell, Ryan and Kuphal",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Considine-Pouros",
   "Url": "http://www.example.com/",
-  "ProgId": "ab",
-  "Icon": 94,
+  "ProgId": "iste",
+  "Icon": 782,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -169,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 987
     }
   }
 }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 666,
-    "Name": "Lehner-Schmidt",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 998,
-    "UdListDefinitionId": 776
+    "HeadingId": 379,
+    "Name": "Doyle-Lebsack",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 431,
+    "UdListDefinitionId": 751
   },
   {
-    "HeadingId": 666,
-    "Name": "Lehner-Schmidt",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 998,
-    "UdListDefinitionId": 776
+    "HeadingId": 379,
+    "Name": "Doyle-Lebsack",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "Rank": 431,
+    "UdListDefinitionId": 751
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 632,
-    "Name": "Weber Group",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 530,
-    "UdListDefinitionId": 640,
+    "HeadingId": 742,
+    "Name": "Torphy Inc and Sons",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 190,
+    "UdListDefinitionId": 202,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 557
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

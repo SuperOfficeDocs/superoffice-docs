@@ -15,6 +15,7 @@ Delete a project event based on a project id.
 
 
 Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 212
+  "ProjectId": 795
 }
 ```
 

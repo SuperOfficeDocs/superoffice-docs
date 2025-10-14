@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/TryConnectActor
 Create a link between Erp and Crm and set default values
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -80,26 +83,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 700,
-  "CrmRecordId": 251,
+  "ErpConnectionId": 755,
+  "CrmRecordId": 39,
   "CrmActorType": "Contact",
-  "ErpKey": "aliquam",
+  "ErpKey": "dolores",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Tillman, Deckow and Towne",
-      "CrmFieldKey": "similique",
-      "Value": "excepturi",
-      "DisplayValue": "voluptates",
-      "SyncToCrm": true,
+      "DisplayName": "Renner, Hudson and Gutkowski",
+      "CrmFieldKey": "consequatur",
+      "Value": "harum",
+      "DisplayValue": "sequi",
+      "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Tillman, Deckow and Towne",
-      "CrmFieldKey": "similique",
-      "Value": "excepturi",
-      "DisplayValue": "voluptates",
-      "SyncToCrm": true,
+      "DisplayName": "Renner, Hudson and Gutkowski",
+      "CrmFieldKey": "consequatur",
+      "Value": "harum",
+      "DisplayValue": "sequi",
+      "SyncToCrm": false,
       "SyncToErp": false
     }
   ]

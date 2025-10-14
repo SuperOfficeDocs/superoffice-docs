@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Get substitutions for some or all resources for one culture
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,16 +81,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Romaguera-Schroeder",
-    "Dooley, Schamberger and Sanford"
+    "Hammes, Hermann and Klein",
+    "Brakus, Deckow and Wilderman"
   ],
-  "Culture": "consectetur",
-  "ActiveOnly": false
+  "Culture": "consequatur",
+  "ActiveOnly": true
 }
 ```
 
@@ -100,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Monahan-Ortiz",
-    "ResourceValue": "occaecati",
-    "Culture": "dolorem",
+    "ResourceName": "Kub, Pfeffer and Blick",
+    "ResourceValue": "commodi",
+    "Culture": "aut",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 320
       }
     }
   },
   {
-    "ResourceName": "Monahan-Ortiz",
-    "ResourceValue": "occaecati",
-    "Culture": "dolorem",
+    "ResourceName": "Kub, Pfeffer and Blick",
+    "ResourceValue": "commodi",
+    "Culture": "aut",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 320
       }
     }
   }

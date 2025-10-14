@@ -83,7 +83,9 @@ the email_id.
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -123,15 +125,16 @@ the email_id.
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
+|personContact/categoryGroup|listAny|Category group| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|personContact/countryId|int|Country ID: Country ID| x |
-|personContact/number|string|Number| x |
-|personContact/code|string|Code| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/countryId|int|Country ID: Country ID| x |
+|personContact/number|string|Number| x |
+|personContact/code|string|Code| x |
 |personContact/orgnr|string|VAT No.| x |
 |personContact/stop|bool|Stop| x |
 |personContact/contactNoMail|bool|No mailings (company| x |
@@ -189,7 +192,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailpersonaddress?$select=supportAssociateFullName,personAddress/line2
+GET /api/v1/archive/emailpersonaddress?$select=personContact/registeredDate,personContact/deletedDate,personAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

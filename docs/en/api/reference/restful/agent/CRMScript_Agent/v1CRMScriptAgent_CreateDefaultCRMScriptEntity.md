@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Loading default values into a new CRMScriptEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -86,53 +89,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 169,
-  "UniqueIdentifier": "quia",
-  "Name": "Lebsack-Mayert",
-  "Description": "Streamlined eco-centric toolset",
-  "IncludeId": "et",
-  "AccessKey": "voluptatem",
-  "HierarchyId": 947,
-  "Source": "culpa",
-  "SourceCode": "praesentium",
+  "EjscriptId": 771,
+  "UniqueIdentifier": "qui",
+  "Name": "Gutmann LLC",
+  "Description": "Grass-roots systematic success",
+  "IncludeId": "mollitia",
+  "AccessKey": "quam",
+  "HierarchyId": 856,
+  "Source": "quod",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 817,
+  "HtmlOutput": 470,
   "Includes": [
-    39,
-    746
+    258,
+    480
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 89,
-      "LineNumberTo": 812,
-      "Delta": 657,
-      "IncludeId": "et",
+      "LineNumberFrom": 858,
+      "LineNumberTo": 318,
+      "Delta": 885,
+      "IncludeId": "est",
       "IncludedFrom": [
-        "aperiam",
-        "et"
+        "alias",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 403
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-09-30T11:24:47.8439178+02:00",
-  "RegisteredAssociateId": 954,
-  "Updated": "2025-02-08T11:24:47.8439178+01:00",
-  "UpdatedAssociateId": 563,
+  "Registered": "2022-12-18T03:40:46.5149979+01:00",
+  "RegisteredAssociateId": 486,
+  "Updated": "2013-12-30T03:40:46.5149979+01:00",
+  "UpdatedAssociateId": 518,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldLength": 926
     }
   }
 }

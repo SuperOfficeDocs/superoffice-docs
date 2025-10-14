@@ -14,7 +14,8 @@ PATCH /api/v1/PreferenceDescription/{id}
 Update a PreferenceDescription with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 1000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -126,18 +127,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -150,30 +151,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 518,
-  "Section": "eum",
-  "Key": "optio",
-  "Name": "Stokes, Littel and Rath",
+  "PrefDescId": 789,
+  "Section": "sit",
+  "Key": "et",
+  "Name": "Jast Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse 5th generation budgetary management",
-  "IsBuiltin": false,
-  "TableName": "Hoeger-Jacobs",
-  "UserDefinedListId": 731,
-  "Rank": 981,
+  "Description": "Mandatory leading edge extranet",
+  "IsBuiltin": true,
+  "TableName": "Hessel LLC",
+  "UserDefinedListId": 925,
+  "Rank": 790,
   "SubGroup": "quia",
-  "MinLevel": 353,
-  "MaxValue": 514,
-  "MinValue": 820,
-  "RequiredLicense": "eos",
+  "MinLevel": 859,
+  "MaxValue": 415,
+  "MinValue": 146,
+  "RequiredLicense": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCreditedList
 Gets an array of Credited objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetCreditedList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Value": "laudantium",
-    "Tooltip": "qui",
+    "Id": 672,
+    "Value": "autem",
+    "Tooltip": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   },
   {
-    "Id": 50,
-    "Value": "laudantium",
-    "Tooltip": "qui",
+    "Id": 672,
+    "Value": "autem",
+    "Tooltip": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

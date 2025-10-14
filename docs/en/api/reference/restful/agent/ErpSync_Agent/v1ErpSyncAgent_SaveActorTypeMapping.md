@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Save mappings for a connection/actor
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -80,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 319,
+  "ErpConnectionId": 579,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 184,
-      "CrmFieldKey": "sit",
-      "CrmDisplayName": "Leannon, Robel and Berge",
-      "CrmDisplayTooltip": "consequatur",
-      "ErpFieldKey": "omnis",
+      "ErpFieldId": 80,
+      "CrmFieldKey": "qui",
+      "CrmDisplayName": "Cummings, McLaughlin and Predovic",
+      "CrmDisplayTooltip": "molestias",
+      "ErpFieldKey": "doloremque",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Langosh, Moen and Greenfelder",
-      "ErpDisplayTooltip": "neque",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Rice-Johnson",
+      "ErpDisplayTooltip": "et",
+      "SyncToCrm": true,
       "SyncToErp": false,
       "ShowInGui": true,
       "ShowInSearch": true,
       "AlreadyMapped": false,
       "MissingInERP": true,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "aut",
+      "ListReference": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldType": "System.String",
+          "FieldLength": 372
         }
       }
     }
@@ -133,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 3
     }
   }
 }

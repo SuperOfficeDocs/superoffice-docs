@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentStreamFromEntity
 Get the document as a stream
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 

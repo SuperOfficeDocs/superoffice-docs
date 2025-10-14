@@ -15,6 +15,7 @@ When the user changes one or more values in a quoteline, the connector gets to c
 
 
 Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -125,14 +126,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "delectus",
-    "alias"
+    "ullam",
+    "officiis"
   ]
 }
 ```
@@ -144,88 +145,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 455,
-  "ERPQuoteLineKey": "corrupti",
-  "QuoteAlternativeId": 951,
-  "ERPProductKey": "nobis",
+  "QuoteLineId": 203,
+  "ERPQuoteLineKey": "eos",
+  "QuoteAlternativeId": 250,
+  "ERPProductKey": "aut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1225.394,
-  "DeliveredQuantity": 27394.293999999998,
-  "Rank": 302,
-  "Name": "Kautzer, Parker and Stiedemann",
-  "Description": "Devolved empowering task-force",
-  "Code": "consectetur",
-  "QuantityUnit": "neque",
-  "PriceUnit": "nulla",
-  "ItemNumber": "1582855",
+  "Quantity": 1128.24,
+  "DeliveredQuantity": 13031.172,
+  "Rank": 421,
+  "Name": "Altenwerth, Hirthe and Marvin",
+  "Description": "User-centric maximized structure",
+  "Code": "et",
+  "QuantityUnit": "aut",
+  "PriceUnit": "veniam",
+  "ItemNumber": "824114",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quod",
-  "ProductTypeKey": "sed",
-  "Supplier": "aspernatur",
-  "SupplierCode": "voluptatem",
-  "Thumbnail": "fugit",
-  "VATInfo": "et",
-  "VAT": 11636.542,
-  "UnitCost": 30258.77,
-  "UnitMinimumPrice": 5672.54,
-  "UnitListPrice": 23508.134,
+  "ProductFamilyKey": "delectus",
+  "ProductTypeKey": "adipisci",
+  "Supplier": "est",
+  "SupplierCode": "consectetur",
+  "Thumbnail": "in",
+  "VATInfo": "voluptas",
+  "VAT": 25639.254,
+  "UnitCost": 7458.92,
+  "UnitMinimumPrice": 17052.094,
+  "UnitListPrice": 26356.94,
   "ExtraInfo": [
     {
-      "Name": "Bruen-Breitenberg",
-      "Value": "officiis",
+      "Name": "Kohler LLC",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     },
     {
-      "Name": "Bruen-Breitenberg",
-      "Value": "officiis",
+      "Name": "Kohler LLC",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 899
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
-  "RawExtraInfo": "quidem",
+  "RawExtraInfo": "voluptatem",
   "IsSubscription": false,
-  "SubscriptionUnit": "quis",
-  "SubscriptionQuantity": 20182.96,
-  "SubscriptionStart": "2007-01-08T11:24:48.5001409+01:00",
-  "ERPDiscountPercent": 16516.18,
-  "ERPDiscountAmount": 13714.384,
-  "DiscountPercent": 22937.746,
-  "DiscountAmount": 9790.616,
+  "SubscriptionUnit": "soluta",
+  "SubscriptionQuantity": 18487.466,
+  "SubscriptionStart": "2019-06-24T03:40:47.5161986+02:00",
+  "ERPDiscountPercent": 8207.946,
+  "ERPDiscountAmount": 20621.719999999998,
+  "DiscountPercent": 17682.028,
+  "DiscountAmount": 15914.452,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12507.794,
-  "EarningAmount": 10013.13,
-  "SubTotal": 16469.17,
-  "TotalPrice": 9091.734,
-  "Rights": "ipsam",
-  "Rule": "nulla",
-  "ExtraField1": "porro",
-  "ExtraField2": "sint",
-  "ExtraField3": "magni",
-  "ExtraField4": "omnis",
-  "ExtraField5": "aut",
+  "EarningPercent": 13676.776,
+  "EarningAmount": 19236.492,
+  "SubTotal": 25068.865999999998,
+  "TotalPrice": 1382.094,
+  "Rights": "doloremque",
+  "Rule": "rerum",
+  "ExtraField1": "earum",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "ut",
+  "ExtraField5": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 81
     }
   }
 }

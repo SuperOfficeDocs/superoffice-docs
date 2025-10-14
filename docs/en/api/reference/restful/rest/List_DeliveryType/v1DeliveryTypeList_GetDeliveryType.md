@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Hintz, Breitenberg and McLaughlin",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 121,
+  "Id": 786,
+  "Name": "Borer Inc and Sons",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "UdListDefinitionId": 299,
+  "Rank": 928,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   }
 }

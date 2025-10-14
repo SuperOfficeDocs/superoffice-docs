@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSale
 Gets a Sale object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=45
+POST /api/v1/Agents/Sale/GetSale?saleId=698
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -92,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +104,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Medhurst-Wolff",
-  "SaleDate": "1998-06-14T11:24:48.5626385+02:00",
-  "SaleId": 969,
-  "Probability": 419,
-  "Title": "harum",
-  "Amount": 12987.296,
-  "Currency": "deleniti",
-  "ProjectName": "Runte LLC",
-  "AssociateFullName": "Orlo Von",
-  "Description": "Managed zero administration toolset",
+  "ContactName": "Beahan, Dare and Gerhold",
+  "SaleDate": "2008-10-04T03:40:47.6098366+02:00",
+  "SaleId": 793,
+  "Probability": 956,
+  "Title": "veniam",
+  "Amount": 27635.611999999997,
+  "Currency": "est",
+  "ProjectName": "Funk, Dibbert and Marvin",
+  "AssociateFullName": "Jayda Hackett",
+  "Description": "Up-sized value-added adapter",
   "Status": "Lost",
-  "WeightedAmount": 3917.5,
-  "ProjectId": 545,
-  "EarningPercent": 12438.846,
-  "Earning": 14372.524,
-  "ContactId": 189,
-  "AssociateId": 931,
-  "PersonId": 302,
-  "SaleTypeId": 971,
-  "SaleTypeName": "Mraz, Stiedemann and Christiansen",
-  "PersonFullName": "Miss Alison Braxton Gleason",
+  "WeightedAmount": 30214.894,
+  "ProjectId": 902,
+  "EarningPercent": 19562.428,
+  "Earning": 28043.032,
+  "ContactId": 342,
+  "AssociateId": 151,
+  "PersonId": 621,
+  "SaleTypeId": 887,
+  "SaleTypeName": "Zulauf-Stanton",
+  "PersonFullName": "Jaylan Leonel Nicolas DDS",
   "Completed": "Completed",
-  "ActiveErpLinks": 918,
-  "NextDueDate": "1999-01-11T11:24:48.5626385+01:00",
-  "Number": "647503",
+  "ActiveErpLinks": 358,
+  "NextDueDate": "2019-02-17T03:40:47.6098366+01:00",
+  "Number": "138102",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 684
     }
   }
 }

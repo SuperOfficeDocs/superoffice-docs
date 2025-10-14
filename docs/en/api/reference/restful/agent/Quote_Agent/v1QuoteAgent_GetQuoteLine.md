@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLine
 Get QuoteLine from database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,11 +124,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 831
+  "QuoteLineId": 555
 }
 ```
 
@@ -137,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 439,
-  "ERPQuoteLineKey": "ut",
-  "QuoteAlternativeId": 661,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 743,
+  "ERPQuoteLineKey": "aut",
+  "QuoteAlternativeId": 255,
+  "ERPProductKey": "laudantium",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28437.915999999997,
-  "DeliveredQuantity": 20991.532,
-  "Rank": 196,
-  "Name": "Doyle LLC",
-  "Description": "Reverse-engineered zero administration emulation",
-  "Code": "iste",
-  "QuantityUnit": "ipsa",
-  "PriceUnit": "temporibus",
-  "ItemNumber": "1372579",
+  "Quantity": 7267.746,
+  "DeliveredQuantity": 31333.732,
+  "Rank": 46,
+  "Name": "Carroll LLC",
+  "Description": "Organized systemic installation",
+  "Code": "dolores",
+  "QuantityUnit": "assumenda",
+  "PriceUnit": "eos",
+  "ItemNumber": "398908",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "ut",
-  "Supplier": "delectus",
-  "SupplierCode": "nihil",
-  "Thumbnail": "velit",
-  "VATInfo": "quia",
-  "VAT": 11514.315999999999,
-  "UnitCost": 1745.638,
-  "UnitMinimumPrice": 26056.076,
-  "UnitListPrice": 2782.9919999999997,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "doloremque",
+  "Supplier": "voluptate",
+  "SupplierCode": "dolorem",
+  "Thumbnail": "ut",
+  "VATInfo": "tempora",
+  "VAT": 23620.958,
+  "UnitCost": 26570.052,
+  "UnitMinimumPrice": 30440.541999999998,
+  "UnitListPrice": 17939.016,
   "ExtraInfo": [
     {
-      "Name": "Moore-Mann",
-      "Value": "temporibus",
+      "Name": "Smitham LLC",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 309
+          "FieldType": "System.Int32",
+          "FieldLength": 209
         }
       }
     },
     {
-      "Name": "Moore-Mann",
-      "Value": "temporibus",
+      "Name": "Smitham LLC",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 309
+          "FieldType": "System.Int32",
+          "FieldLength": 209
         }
       }
     }
   ],
-  "RawExtraInfo": "ullam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "minima",
-  "SubscriptionQuantity": 6089.362,
-  "SubscriptionStart": "2008-03-23T11:24:48.5470141+01:00",
-  "ERPDiscountPercent": 20649.926,
-  "ERPDiscountAmount": 18362.106,
-  "DiscountPercent": 22705.829999999998,
-  "DiscountAmount": 19223.956,
+  "RawExtraInfo": "quas",
+  "IsSubscription": true,
+  "SubscriptionUnit": "cum",
+  "SubscriptionQuantity": 14989.921999999999,
+  "SubscriptionStart": "2008-05-02T03:40:47.5785846+02:00",
+  "ERPDiscountPercent": 25119.01,
+  "ERPDiscountAmount": 13253.686,
+  "DiscountPercent": 24865.156,
+  "DiscountAmount": 4177.622,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12630.02,
-  "EarningAmount": 24373.118,
-  "SubTotal": 31330.597999999998,
-  "TotalPrice": 6785.11,
-  "Rights": "rerum",
-  "Rule": "est",
-  "ExtraField1": "ab",
-  "ExtraField2": "quam",
-  "ExtraField3": "est",
-  "ExtraField4": "natus",
-  "ExtraField5": "tenetur",
+  "EarningPercent": 17566.07,
+  "EarningAmount": 19954.178,
+  "SubTotal": 14287.905999999999,
+  "TotalPrice": 9079.198,
+  "Rights": "odit",
+  "Rule": "ea",
+  "ExtraField1": "soluta",
+  "ExtraField2": "corporis",
+  "ExtraField3": "minima",
+  "ExtraField4": "quas",
+  "ExtraField5": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 581
     }
   }
 }

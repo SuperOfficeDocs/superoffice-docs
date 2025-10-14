@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddFavourites
 Add a list of record ids as favourites for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,13 +74,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rowe LLC",
+  "TableName": "Lang, Roberts and Sporer",
   "RecordIds": [
-    636,
-    929
+    141,
+    520
   ],
-  "AssociateId": 849,
-  "ExtraInfo": "reiciendis"
+  "AssociateId": 54,
+  "ExtraInfo": "et"
 }
 ```
 

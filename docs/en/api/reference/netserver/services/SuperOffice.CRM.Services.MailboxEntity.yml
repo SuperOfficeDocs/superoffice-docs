@@ -50,11 +50,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")]
 
       public class MailboxEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.5.0.0")>
 
       Public Class MailboxEntity Inherits Carrier
   seealso:
@@ -69,7 +69,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.5.0.0
 - uid: SuperOffice.CRM.Services.MailboxEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.MailboxEntity.#ctor
   id: '#ctor'

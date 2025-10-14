@@ -15,6 +15,7 @@ Stores an image in the database without linking it to a project or a person.
 
 
 It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/BLOB/SaveImageStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Expanded high-level middleware"
+  "Description": "Progressive radical conglomeration"
 }
 ```
 
@@ -89,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-340
+550
 ```

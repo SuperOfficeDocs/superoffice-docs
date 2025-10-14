@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Save headings for list resolved by the provided id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,27 +82,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
+  "Id": 421,
   "Entities": [
     {
-      "HeadingId": 659,
-      "Name": "Kovacek Group",
-      "Tooltip": "ratione",
-      "Deleted": true,
-      "Rank": 78,
-      "UdListDefinitionId": 483
+      "HeadingId": 961,
+      "Name": "Gerhold-Mann",
+      "Tooltip": "facere",
+      "Deleted": false,
+      "Rank": 351,
+      "UdListDefinitionId": 852
     },
     {
-      "HeadingId": 659,
-      "Name": "Kovacek Group",
-      "Tooltip": "ratione",
-      "Deleted": true,
-      "Rank": 78,
-      "UdListDefinitionId": 483
+      "HeadingId": 961,
+      "Name": "Gerhold-Mann",
+      "Tooltip": "facere",
+      "Deleted": false,
+      "Rank": 351,
+      "UdListDefinitionId": 852
     }
   ]
 }
@@ -114,18 +116,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Grimes Group",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 240,
-    "UdListDefinitionId": 760,
+    "HeadingId": 503,
+    "Name": "Schuster, Klocko and Windler",
+    "Tooltip": "maxime",
+    "Deleted": false,
+    "Rank": 355,
+    "UdListDefinitionId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 125
       }
     }
   }

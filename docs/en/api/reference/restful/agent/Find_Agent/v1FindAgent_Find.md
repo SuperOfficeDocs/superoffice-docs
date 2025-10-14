@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,15 +83,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Wuckert LLC",
-  "StorageKey": "accusantium",
-  "PageSize": 617,
-  "PageNumber": 900
+  "StorageType": "voluptates",
+  "ProviderName": "Bayer LLC",
+  "StorageKey": "explicabo",
+  "PageSize": 621,
+  "PageNumber": 860
 }
 ```
 
@@ -103,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Waelchi LLC",
-      "DisplayTooltip": "fuga",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Gerhold, Bergstrom and Roob",
+      "DisplayTooltip": "optio",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Corwin Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Kassulke, Spencer and Murphy",
-      "IsVisible": false,
-      "ExtraInfo": "dolore",
-      "Width": "nostrum",
-      "IconHint": "non",
-      "HeadingIconHint": "minima"
+      "Name": "Stamm-Bruen",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Paucek LLC",
+      "IsVisible": true,
+      "ExtraInfo": "aut",
+      "Width": "repellat",
+      "IconHint": "enim",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Robel, Nicolas and VonRueden",
-      "PrimaryKey": 472,
+      "EntityName": "Moen Group",
+      "PrimaryKey": 826,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "aut",
-          "LinkHint": "ipsum"
+          "DisplayValue": "explicabo",
+          "TooltipHint": "mollitia",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "in",
+      "LinkHint": "fugiat",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
   ],
-  "RowCount": 771,
+  "RowCount": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 657
     }
   }
 }

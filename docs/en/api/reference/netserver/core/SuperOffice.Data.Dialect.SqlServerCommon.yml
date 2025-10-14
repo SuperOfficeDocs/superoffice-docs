@@ -164,6 +164,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetDouble(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetString(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetDecimal(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
+  - SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{{T}})
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   - SuperOffice.Data.Dialect.Dialect.DataReaderGetData(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   - SuperOffice.Data.Dialect.Dialect.DataReaderIsDBNullAsync(SuperOffice.Data.SoDataReader,System.Data.Common.DbDataReader,System.Int32,System.Threading.CancellationToken)
@@ -4576,6 +4577,63 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{{T}})
+  commentId: M:SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  parent: SuperOffice.Data.Dialect.Dialect
+  definition: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: Dialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  nameWithType.vb: Dialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
 - uid: SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   commentId: M:SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   parent: SuperOffice.Data.Dialect.Dialect
@@ -5362,6 +5420,62 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  commentId: M:SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: Dialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  nameWithType.vb: Dialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+    name: LockReader
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentStream
 Get the document content as a stream
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 502
+  "DocumentId": 368
 }
 ```
 

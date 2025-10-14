@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Get the appointment that corresponds to the given UID.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,11 +135,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "recusandae"
+  "UID": "aut"
 }
 ```
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-07-28T11:24:47.5626792+02:00",
-  "AppointmentId": 141,
-  "Description": "Exclusive 3rd generation groupware",
-  "Title": "rerum",
-  "Agenda": "amet",
-  "InternalNotes": "et",
-  "StartDate": "2013-06-29T11:24:47.5626792+02:00",
-  "EndDate": "2023-10-14T11:24:47.5626792+02:00",
+  "CreatedDate": "2010-04-10T03:40:46.01395+02:00",
+  "AppointmentId": 134,
+  "Description": "Multi-lateral motivating encoding",
+  "Title": "officiis",
+  "Agenda": "dolor",
+  "InternalNotes": "iure",
+  "StartDate": "2012-07-12T03:40:46.01395+02:00",
+  "EndDate": "2015-09-03T03:40:46.01395+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 88,
+  "MotherId": 606,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-08-29T11:24:47.5626792+02:00",
+  "UpdatedDate": "2014-03-17T03:40:46.01395+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 464,
+  "ActiveLinks": 17,
   "Links": [
     {
-      "EntityName": "Botsford LLC",
-      "Id": 817,
-      "Description": "Virtual 5th generation throughput",
-      "ExtraInfo": "eius",
-      "LinkId": 815,
+      "EntityName": "Erdman Inc and Sons",
+      "Id": 57,
+      "Description": "Optional cohesive knowledge base",
+      "ExtraInfo": "incidunt",
+      "LinkId": 468,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldLength": 536
         }
       }
     }
   ],
-  "AlarmLeadTime": "architecto",
-  "HasAlarm": true,
-  "ColorIndex": 473,
+  "AlarmLeadTime": "sunt",
+  "HasAlarm": false,
+  "ColorIndex": 605,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "recusandae",
-  "Location": "voluptates",
-  "RejectCounter": 222,
-  "RejectReason": "disintermediate innovative convergence",
+  "IsAlldayEvent": true,
+  "LagTime": "laudantium",
+  "LeadTime": "in",
+  "Location": "optio",
+  "RejectCounter": 125,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 60,
-      "PersonId": 741,
-      "ContactId": 357,
-      "EmailId": 383,
+      "AssociateId": 512,
+      "PersonId": 168,
+      "ContactId": 629,
+      "EmailId": 454,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dayna.beer@bednarblick.com",
-      "Description": "Assimilated contextually-based forecast"
+      "EmailAddress": "jada_thiel@buckridge.ca",
+      "Description": "Ameliorated neutral encryption"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-07-06T11:24:47.5626792+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2003-01-23T03:40:46.01395+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 212,
+  "PreferredTZLocation": 558,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 827,
+  "SuggestedAppointmentId": 252,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ambrose Kunde",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mrs. Stewart Sister Conroy",
+    "SuperOffice:2": "Mrs. Cathy Hal Von"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "est",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2010-02-09T11:24:47.5626792+01:00",
-  "PublishTo": "2017-10-30T11:24:47.5626792+01:00",
-  "PublishFrom": "2020-04-23T11:24:47.5626792+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-03-02T03:40:46.01395+01:00",
+  "PublishTo": "2002-03-24T03:40:46.01395+01:00",
+  "PublishFrom": "2022-08-09T03:40:46.01395+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 970,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldType": "System.String",
+          "FieldLength": 450
         }
       }
     },
     {
-      "VisibleId": 970,
+      "VisibleId": 210,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldType": "System.String",
+          "FieldLength": 450
         }
       }
     }
@@ -275,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

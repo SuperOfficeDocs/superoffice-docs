@@ -15,6 +15,7 @@ Link any SMessage to the email flow.
 
 
 The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/Workflow/ConnectEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 128,
-  "MessageId": 761
+  "EmailFlowId": 347,
+  "MessageId": 220
 }
 ```
 

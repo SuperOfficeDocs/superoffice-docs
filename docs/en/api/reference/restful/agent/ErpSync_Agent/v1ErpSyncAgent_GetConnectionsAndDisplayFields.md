@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Get all connection statuses and fields for a given entity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -83,12 +86,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 498
+  "EntityId": 161
 }
 ```
 
@@ -100,27 +103,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 599,
-    "ConnectionName": "Mitchell, Buckridge and Lesch",
+    "ErpConnectionId": 928,
+    "ConnectionName": "Bogan, Blick and Bergnaum",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "alias",
-        "Rank": 971,
-        "DisplayName": "Morar LLC",
-        "DisplayDescription": "Right-sized user-facing policy",
+        "FieldKey": "odit",
+        "Rank": 513,
+        "DisplayName": "Pfannerstill, McKenzie and Koepp",
+        "DisplayDescription": "Extended didactic instruction set",
         "FieldType": "Checkbox",
-        "ListName": "Hartmann-Lang",
-        "DefaultValue": "ipsam",
-        "MaxLength": 589,
+        "ListName": "Predovic, Botsford and Crona",
+        "DefaultValue": "laudantium",
+        "MaxLength": 985,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 193
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }
@@ -128,15 +131,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "laudantium",
-      "tempore"
+      "fugit",
+      "ratione"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldLength": 1001
       }
     }
   }

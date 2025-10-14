@@ -14,6 +14,9 @@ POST /api/v1/Agents/Webhook/DeleteWebhook
 Deletes the Webhook
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -28,7 +31,7 @@ Deletes the Webhook
 | webhookId | int32 | **Required** The identity of the Webhook |
 
 ```http
-POST /api/v1/Agents/Webhook/DeleteWebhook?webhookId=864
+POST /api/v1/Agents/Webhook/DeleteWebhook?webhookId=885
 ```
 
 

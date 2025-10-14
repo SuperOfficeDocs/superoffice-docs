@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates
 Returns all templates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 592,
-    "Name": "Lubowitz-Price",
-    "Tooltip": "et",
-    "SaveInDb": 486,
-    "Filename": "assumenda",
-    "DefaultOref": "accusantium",
+    "DocumentTemplateId": 315,
+    "Name": "Raynor, Mills and Kohler",
+    "Tooltip": "saepe",
+    "SaveInDb": 570,
+    "Filename": "hic",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 871,
-    "IntentId": 369,
+    "AutoeventId": 763,
+    "IntentId": 991,
     "IsDefaultPublished": false,
-    "Rank": 790,
-    "LoadTemplateFromPlugin": 612,
-    "MimeType": "reiciendis",
+    "Rank": 925,
+    "LoadTemplateFromPlugin": 486,
+    "MimeType": "illum",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 979,
+    "DocumentTypeKey": 239,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "arlene_white@lindwolff.biz",
-    "IncludeSignature": false,
-    "ShowCurrents": true,
+    "EmailSubject": "merl@zieme.ca",
+    "IncludeSignature": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "emerald.brekke@stiedemannjacobi.ca",
+    "SenderEmailAddress": "magali@hahn.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldLength": 893
       }
     }
   }

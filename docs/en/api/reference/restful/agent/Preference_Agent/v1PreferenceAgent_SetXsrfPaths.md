@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SetXsrfPaths
 Update the paths that need XSRF cookies
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -70,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "pariatur",
+  "Hostname": "nulla",
   "Paths": [
-    "voluptatem",
-    "sapiente"
+    "ducimus",
+    "consequatur"
   ]
 }
 ```

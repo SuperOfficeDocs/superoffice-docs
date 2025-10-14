@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Get all stored fields for a given tablename/entity and context
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "cupiditate"
+  "Context": "aliquid"
 }
 ```
 
@@ -106,76 +108,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "qui",
-    "ValueType": "et",
+    "IsActive": false,
+    "Key": "velit",
+    "ValueType": "veniam",
     "Mandatory": false,
-    "EncodedDisplayName": "Hickle, Feeney and Ledner",
-    "EncodedDisplayDescription": "Front-line non-volatile concept",
-    "IconHint": "dolore",
+    "EncodedDisplayName": "Willms Inc and Sons",
+    "EncodedDisplayDescription": "Progressive local neural-net",
+    "IconHint": "quia",
     "ControlInfos": [
       {
-        "Type": "earum",
-        "Label": "ex",
-        "Dimension": 454,
-        "ListProviderName": "Sporer-Bechtelar",
-        "ListProviderExtraInfo": "aliquam",
-        "ListProviderPrimaryKeyName": "Osinski, Reilly and Jenkins",
-        "ListLeadText": "omnis",
+        "Type": "placeat",
+        "Label": "aperiam",
+        "Dimension": 213,
+        "ListProviderName": "Reinger LLC",
+        "ListProviderExtraInfo": "enim",
+        "ListProviderPrimaryKeyName": "Bernier, Hodkiewicz and Vandervort",
+        "ListLeadText": "praesentium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldLength": 213
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequuntur",
-    "EncodedDataCaptionDescription": "Function-based system-worthy groupware",
-    "CurrentOperationType": "aliquid",
+    "EncodedDataCaption": "omnis",
+    "EncodedDataCaptionDescription": "Cross-platform dynamic intranet",
+    "CurrentOperationType": "dolore",
     "Values": [
-      "quod",
-      "labore"
+      "et",
+      "ea"
     ],
     "DisplayValues": [
-      "quo",
-      "ipsum"
+      "officia",
+      "ullam"
     ],
     "OperationInfos": [
       {
-        "Key": "non",
-        "EncodedDisplayName": "Wyman, Towne and Hermiston",
+        "Key": "debitis",
+        "EncodedDisplayName": "Ratke Group",
         "EncodedLeadTexts": [
-          "quam",
-          "velit"
+          "iste",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldLength": 998
           }
         }
       },
       {
-        "Key": "non",
-        "EncodedDisplayName": "Wyman, Towne and Hermiston",
+        "Key": "debitis",
+        "EncodedDisplayName": "Ratke Group",
         "EncodedLeadTexts": [
-          "quam",
-          "velit"
+          "iste",
+          "autem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldLength": 998
           }
         }
       }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextsByType
 Gets localized text by their type
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,13 +81,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "molestiae",
-    "voluptas"
+    "repudiandae",
+    "velit"
   ]
 }
 ```
@@ -98,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 212,
-    "ResourceId": 267,
-    "Text": "totam",
+    "LanguageId": 566,
+    "ResourceId": 261,
+    "Text": "laboriosam",
     "Type": "Column",
-    "LocalizedTextId": 690,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 280,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldLength": 349
       }
     }
   }

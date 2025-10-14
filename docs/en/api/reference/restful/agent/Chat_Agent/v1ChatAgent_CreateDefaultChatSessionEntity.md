@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Loading default values into a new ChatSessionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 570,
-  "TopicId": 338,
+  "ChatSessionId": 74,
+  "TopicId": 510,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "omnis",
-  "CustomerName": "Roob-Bauch",
-  "CustomerEmail": "madalyn_dibbert@upton.us",
-  "CustomerPhone": "(133)423-7717 x85136",
+  "CustomerAlias": "facilis",
+  "CustomerHost": "vitae",
+  "CustomerName": "Bosco, Lakin and Cassin",
+  "CustomerEmail": "antwan@cassin.ca",
+  "CustomerPhone": "(552)050-1830 x08447",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kihn Inc and Sons",
+  "CustomerCompanyName": "Eichmann-Carroll",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "voluptate",
-  "WhenRequested": "2020-07-23T11:24:47.6408014+02:00",
-  "WhenStarted": "2003-10-31T11:24:47.6408014+01:00",
-  "WhenEnded": "2025-09-03T11:24:47.6408014+02:00",
-  "WhenIdle": "2011-03-05T11:24:47.6408014+01:00",
-  "WhenFetched": "2003-06-14T11:24:47.6408014+02:00",
-  "SessionKey": "voluptatibus",
-  "InitialQueuePos": 251,
-  "AlertLevel": 473,
-  "Rank": 469,
+  "FirstMessage": "aut",
+  "LastMessage": "quasi",
+  "WhenRequested": "2014-08-27T03:40:46.107707+02:00",
+  "WhenStarted": "1998-08-25T03:40:46.107707+02:00",
+  "WhenEnded": "2025-08-03T03:40:46.107707+02:00",
+  "WhenIdle": "2015-10-21T03:40:46.107707+02:00",
+  "WhenFetched": "2012-01-26T03:40:46.107707+01:00",
+  "SessionKey": "libero",
+  "InitialQueuePos": 518,
+  "AlertLevel": 904,
+  "Rank": 503,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -126,13 +128,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 946,
+  "Rating": 202,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 451
     }
   }
 }

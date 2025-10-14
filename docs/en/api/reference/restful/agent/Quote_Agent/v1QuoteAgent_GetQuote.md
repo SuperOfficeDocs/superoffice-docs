@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuote
 Get a Quote
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 816
+  "QuoteId": 850
 }
 ```
 
@@ -102,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 3,
-  "SaleId": 769,
-  "QuoteConnectionId": 263,
-  "ERPQuoteKey": "quis",
-  "ERPOrderKey": "sequi",
-  "ActiveQuoteVersionId": 575,
-  "AcceptedQuoteAlternativeId": 680,
-  "UseValuesFromQuote": 426,
-  "DocumentId": 171,
-  "PoNumber": "1316682",
-  "OrderComment": "at",
-  "PreferredEmailCulture": "chase_hansen@robel.info",
+  "QuoteId": 175,
+  "SaleId": 620,
+  "QuoteConnectionId": 657,
+  "ERPQuoteKey": "officia",
+  "ERPOrderKey": "voluptas",
+  "ActiveQuoteVersionId": 373,
+  "AcceptedQuoteAlternativeId": 244,
+  "UseValuesFromQuote": 438,
+  "DocumentId": 75,
+  "PoNumber": "1424050",
+  "OrderComment": "omnis",
+  "PreferredEmailCulture": "octavia.muller@rodriguez.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

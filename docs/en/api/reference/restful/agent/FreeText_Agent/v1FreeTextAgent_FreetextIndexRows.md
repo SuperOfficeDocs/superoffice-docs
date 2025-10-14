@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/FreetextIndexRows
 Update the freetext index for one or more rows from the same table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/FreeText/FreetextIndexRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fritsch-Hoeger",
+  "TableName": "Gottlieb, Ruecker and Graham",
   "IDs": [
-    479,
-    104
+    439,
+    926
   ]
 }
 ```

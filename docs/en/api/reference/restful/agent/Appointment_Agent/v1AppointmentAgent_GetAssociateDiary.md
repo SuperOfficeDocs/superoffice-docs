@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 562,
-  "StartTime": "2012-08-18T11:24:47.3126897+02:00",
-  "EndTime": "2023-10-17T11:24:47.3126897+02:00",
-  "Count": 702
+  "AssociateId": 905,
+  "StartTime": "2006-04-23T03:40:45.6387418+02:00",
+  "EndTime": "2018-08-28T03:40:45.6387418+02:00",
+  "Count": 902
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 243,
-    "StartDate": "2025-05-13T11:24:47.3126897+02:00",
-    "EndDate": "2012-05-16T11:24:47.3126897+02:00",
+    "AppointmentId": 436,
+    "StartDate": "2009-07-08T03:40:45.6387418+02:00",
+    "EndDate": "2004-04-26T03:40:45.6387418+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Judson Quitzon",
-    "ContactName": "Hickle, Volkman and Trantow",
-    "Description": "Innovative heuristic encryption",
-    "PersonFullName": "Vita Hagenes",
-    "PersonId": 324,
-    "ContactId": 427,
-    "ProjectId": 402,
-    "ProjectName": "Buckridge-Senger",
+    "Task": "voluptas",
+    "AssociateFullName": "Fatima Jocelyn Schaefer Sr.",
+    "ContactName": "Bosco LLC",
+    "Description": "Future-proofed logistical concept",
+    "PersonFullName": "Cristina Schimmel",
+    "PersonId": 825,
+    "ContactId": 656,
+    "ProjectId": 536,
+    "ProjectName": "Welch-Will",
     "IsPublished": false,
-    "AssociateId": 102,
-    "ColorIndex": 407,
+    "AssociateId": 695,
+    "ColorIndex": 403,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 835,
-    "PriorityName": "Koch-Wilkinson",
+    "PriorityId": 503,
+    "PriorityName": "Hickle LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1998-09-26T11:24:47.3126897+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2017-09-23T03:40:45.6387418+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-11-15T11:24:47.3126897+01:00",
-    "RecurringEndDate": "2022-05-12T11:24:47.3126897+02:00",
-    "MotherId": 475,
-    "AssignedBy": 971,
-    "AssignedByFullName": "Mr. Duane Steuber DVM",
+    "RecurringStartDate": "2021-12-24T03:40:45.6387418+01:00",
+    "RecurringEndDate": "2013-02-21T03:40:45.6387418+01:00",
+    "MotherId": 267,
+    "AssignedBy": 402,
+    "AssignedByFullName": "Otto Denesik",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "mollitia",
-    "SaleId": 423,
-    "SaleName": "Medhurst-Jacobs",
-    "AssociateName": "Wisoky, Lindgren and Jones",
-    "CreatedDate": "2017-09-25T11:24:47.3126897+02:00",
-    "CreatedBy": "accusamus",
-    "CreatedByFullName": "Chet Treutel DDS",
-    "CreatedByAssociateId": 557,
+    "Location": "excepturi",
+    "AlarmLeadTime": "id",
+    "SaleId": 393,
+    "SaleName": "Dietrich, Kilback and Sawayn",
+    "AssociateName": "Okuneva, Wolff and Tromp",
+    "CreatedDate": "2023-08-05T03:40:45.6387418+02:00",
+    "CreatedBy": "ipsa",
+    "CreatedByFullName": "Norberto Aurore Swift II",
+    "CreatedByAssociateId": 800,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 396,
+    "MotherAssociateId": 303,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 248,
-    "Title": "fugiat",
-    "Agenda": "qui",
-    "InternalNotes": "vero",
+    "PreferredTZLocation": 302,
+    "Title": "facere",
+    "Agenda": "dolorem",
+    "InternalNotes": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 592
       }
     }
   }

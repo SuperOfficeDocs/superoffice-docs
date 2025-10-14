@@ -99,7 +99,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 13,
-  "ColumnId": 766,
-  "FieldDefault": "sed",
-  "FieldHeight": 386,
-  "FieldLabel": "omnis",
-  "FieldLeft": 110,
-  "FieldTop": 245,
+  "UDefFieldId": 141,
+  "ColumnId": 664,
+  "FieldDefault": "recusandae",
+  "FieldHeight": 247,
+  "FieldLabel": "tempore",
+  "FieldLeft": 823,
+  "FieldTop": 576,
   "FieldType": "Checkbox",
-  "FieldWidth": 299,
-  "FormatMask": "consequuntur",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 107,
-  "LabelLeft": 927,
-  "LabelTop": 914,
-  "LabelWidth": 596,
-  "LastVersionId": 729,
-  "ListTableId": 136,
-  "IsMandatory": true,
+  "FieldWidth": 849,
+  "FormatMask": "necessitatibus",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 323,
+  "LabelLeft": 383,
+  "LabelTop": 571,
+  "LabelWidth": 748,
+  "LastVersionId": 728,
+  "ListTableId": 985,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 936,
-  "ProgId": "ea",
+  "Page1LineNo": 725,
+  "ProgId": "in",
   "IsReadOnly": false,
-  "ShortLabel": "officiis",
-  "TabOrder": 96,
-  "TextLength": 218,
-  "Tooltip": "ut",
-  "UdefIdentity": 390,
-  "UDListDefinitionId": 729,
+  "ShortLabel": "deserunt",
+  "TabOrder": 684,
+  "TextLength": 468,
+  "Tooltip": "corporis",
+  "UdefIdentity": 442,
+  "UDListDefinitionId": 828,
   "Justification": "Center",
-  "Version": 479,
-  "TemplateVariableName": "Reynolds-Kozey",
+  "Version": 653,
+  "TemplateVariableName": "McLaughlin-Gorczany",
   "HasBeenPublished": false,
-  "MdoListName": "Hodkiewicz-Schiller",
+  "MdoListName": "Hackett-Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/HasConnections
 Whether or not the system has any connections available for this user.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "iusto",
-  "TechExplanation": "minima",
-  "ErrorCode": "perspiciatis",
+  "IsOk": true,
+  "UserExplanation": "sunt",
+  "TechExplanation": "aspernatur",
+  "ErrorCode": "sequi",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

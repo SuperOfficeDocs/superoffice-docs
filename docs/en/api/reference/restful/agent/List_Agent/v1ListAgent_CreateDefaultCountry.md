@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCountry
 Gets a new country
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 962,
-  "Name": "O'Kon, Schamberger and Hills",
-  "CurrencyId": 919,
-  "EnglishName": "Schmeler-Zulauf",
+  "CountryId": 390,
+  "Name": "Rodriguez, Abernathy and Schinner",
+  "CurrencyId": 488,
+  "EnglishName": "Rutherford, Shields and Feest",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved national ability",
-  "OrgNrText": "630586",
-  "InterAreaPrefix": "tenetur",
-  "DialInPrefix": "ullam",
-  "ZipPrefix": "in",
-  "DomainName": "Kirlin LLC",
-  "AddressLayoutId": 129,
-  "DomesticAddressLayoutId": 211,
-  "ForeignAddressLayoutId": 653,
-  "Rank": 621,
-  "Tooltip": "reprehenderit",
+  "ImageDescription": "Intuitive explicit collaboration",
+  "OrgNrText": "154618",
+  "InterAreaPrefix": "ad",
+  "DialInPrefix": "quis",
+  "ZipPrefix": "corporis",
+  "DomainName": "King-Heathcote",
+  "AddressLayoutId": 762,
+  "DomesticAddressLayoutId": 867,
+  "ForeignAddressLayoutId": 74,
+  "Rank": 953,
+  "Tooltip": "dolore",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

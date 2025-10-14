@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 836,
-  "Rank": 973
+  "Id": 683,
+  "Name": "Bechtelar-Koepp",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "UdListDefinitionId": 496,
+  "Rank": 418
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 131,
-  "Name": "Franecki-Volkman",
-  "Tooltip": "harum",
+  "Id": 526,
+  "Name": "Hoeger LLC",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 728,
-  "Rank": 687,
+  "UdListDefinitionId": 40,
+  "Rank": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldLength": 355
     }
   }
 }

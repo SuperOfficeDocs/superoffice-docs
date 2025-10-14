@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleEntity
 Gets a SaleEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=127
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=376
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -111,7 +113,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,7 +129,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dicta",
+  "SaleText": "aut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -136,113 +138,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-11-29T11:24:48.5782627+01:00",
-  "Amount": 27196.852,
-  "SaleId": 299,
-  "Earning": 18054.974,
-  "EarningPercent": 27124.77,
-  "Heading": "quisquam",
-  "Number": "711965",
-  "Probability": 178,
-  "CreatedDate": "2011-08-04T11:24:48.5782627+02:00",
-  "UpdatedDate": "2001-05-14T11:24:48.5782627+02:00",
+  "Saledate": "2017-03-08T03:40:47.6567146+01:00",
+  "Amount": 13589.024,
+  "SaleId": 531,
+  "Earning": 14162.546,
+  "EarningPercent": 2146.79,
+  "Heading": "totam",
+  "Number": "1853166",
+  "Probability": 594,
+  "CreatedDate": "2003-01-06T03:40:47.6567146+01:00",
+  "UpdatedDate": "2000-04-11T03:40:47.6567146+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 626,
+  "ActiveLinks": 908,
   "Links": [
     {
-      "EntityName": "Stokes-Leannon",
-      "Id": 702,
-      "Description": "Networked disintermediate core",
-      "ExtraInfo": "velit",
-      "LinkId": 666,
+      "EntityName": "Towne LLC",
+      "Id": 531,
+      "Description": "Decentralized transitional collaboration",
+      "ExtraInfo": "veniam",
+      "LinkId": 536,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 920
+          "FieldLength": 818
         }
       }
     }
   ],
-  "NextDueDate": "2001-08-26T11:24:48.5782627+02:00",
-  "Postit": "occaecati",
+  "NextDueDate": "2007-02-20T03:40:47.6567146+01:00",
+  "Postit": "sint",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-11-16T11:24:48.5782627+01:00",
+  "ReopenDate": "2000-07-31T03:40:47.6567146+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Osinski, Ryan and Strosin",
-      "Comment": "placeat",
-      "StakeholderRoleId": 972,
-      "CountryId": 821,
-      "PersonId": 386,
-      "EmailDescription": "ariel_nader@hesselgutmann.biz",
-      "EmailId": 432,
-      "EmailAddress": "jerel@mohr.uk",
-      "PhoneId": 69,
-      "ContactName": "Lueilwitz LLC",
-      "ContactId": 901,
-      "SaleId": 432,
-      "Mrmrs": "rerum",
-      "Firstname": "Kamryn",
-      "MiddleName": "Goodwin-Doyle",
-      "Lastname": "McCullough",
-      "SaleStakeholderId": 754,
-      "Rank": 18,
-      "Phone": "(659)132-5136 x911",
+      "StakeholderRoleName": "Jerde Group",
+      "Comment": "labore",
+      "StakeholderRoleId": 279,
+      "CountryId": 310,
+      "PersonId": 702,
+      "EmailDescription": "reuben_kling@hansen.us",
+      "EmailId": 670,
+      "EmailAddress": "river@torphy.us",
+      "PhoneId": 843,
+      "ContactName": "Funk Inc and Sons",
+      "ContactId": 506,
+      "SaleId": 675,
+      "Mrmrs": "nostrum",
+      "Firstname": "Clay",
+      "MiddleName": "Watsica-Marvin",
+      "Lastname": "Morar",
+      "SaleStakeholderId": 450,
+      "Rank": 114,
+      "Phone": "042-586-1059",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 441
+          "FieldLength": 237
         }
       }
     }
   ],
-  "ActiveErpLinks": 99,
+  "ActiveErpLinks": 16,
   "UserDefinedFields": {
-    "SuperOffice:1": "Isabell Orn",
-    "SuperOffice:2": "Celine Gulgowski"
+    "SuperOffice:1": "Mr. Aron Gustave Nicolas",
+    "SuperOffice:2": "Alexane Cruickshank"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "et"
+    "CustomFields1": "minima",
+    "CustomFields2": "consectetur"
   },
-  "PublishEventDate": "2025-01-31T11:24:48.5782627+01:00",
-  "PublishTo": "2000-08-05T11:24:48.5782627+02:00",
-  "PublishFrom": "2008-04-10T11:24:48.5782627+02:00",
+  "PublishEventDate": "2016-08-18T03:40:47.6567146+02:00",
+  "PublishTo": "2021-01-14T03:40:47.6567146+01:00",
+  "PublishFrom": "2024-12-05T03:40:47.6567146+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 710,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 380
         }
       }
     },
     {
-      "VisibleId": 710,
+      "VisibleId": 766,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 380
         }
       }
     }
@@ -251,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

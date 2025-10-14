@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetFormEntity
 Gets a FormEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=939
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=378
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +92,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,38 +102,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 124,
-  "FormKey": "nisi",
-  "Name": "Larson Inc and Sons",
-  "Description": "Persevering dynamic capacity",
-  "Config": "laborum",
-  "FolderId": 87,
-  "ScriptId": 76,
-  "ResponseShipmentId": 471,
+  "FormId": 562,
+  "FormKey": "omnis",
+  "Name": "Brakus LLC",
+  "Description": "Networked systemic functionalities",
+  "Config": "doloribus",
+  "FolderId": 347,
+  "ScriptId": 423,
+  "ResponseShipmentId": 686,
   "Active": false,
-  "Expires": "2009-05-24T11:24:48.2501511+02:00",
-  "MaxSubmits": 745,
+  "Expires": "1999-08-19T03:40:47.2499194+02:00",
+  "MaxSubmits": 351,
   "Type": "Normal",
-  "Recipe": "ut",
-  "GroupId": 773,
-  "NewTicket": true,
+  "Recipe": "officia",
+  "GroupId": 640,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2004-12-05T11:24:48.2501511+01:00",
-  "RegisteredAssociateId": 914,
-  "Updated": "2002-05-04T11:24:48.2501511+02:00",
-  "UpdatedAssociateId": 348,
-  "UpdatedCount": 369,
+  "Registered": "2015-09-13T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 867,
+  "Updated": "2014-03-27T03:40:47.2499194+01:00",
+  "UpdatedAssociateId": 793,
+  "UpdatedCount": 344,
   "EmailFlows": [
-    543,
-    730
+    131,
+    81
   ],
-  "FolderName": "Larson-Bailey",
+  "FolderName": "Windler, Schulist and Lang",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

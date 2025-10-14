@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Gerlach-Schimmel",
-    "ToolTip": "Sed ea culpa provident voluptates non sint voluptatem.",
+    "Id": 133,
+    "Name": "Hickle, Schneider and Ruecker",
+    "ToolTip": "Mollitia qui autem commodi iste.",
     "Deleted": false,
-    "Rank": 526,
-    "Type": "cum",
-    "ColorBlock": 882,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2019-09-27T11:24:53.9842923+02:00",
+    "Rank": 918,
+    "Type": "quas",
+    "ColorBlock": 696,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2012-02-19T03:40:56.9777222+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Fadel, Keeling and Gibson",
-        "ToolTip": "Dolor suscipit illum voluptatum dolorem vero beatae.",
+        "Id": 76,
+        "Name": "Cremin-Hahn",
+        "ToolTip": "Eius omnis praesentium aut officiis autem velit eius.",
         "Deleted": true,
-        "Rank": 688,
-        "Type": "labore",
-        "ColorBlock": 818,
-        "IconHint": "blanditiis",
+        "Rank": 976,
+        "Type": "repellat",
+        "ColorBlock": 862,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2021-03-20T11:24:53.9842923+01:00",
+        "LastChanged": "2013-09-11T03:40:56.9777222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Glenda Reichert"
+        "ExtraInfo": "corrupti",
+        "StyleHint": "placeat",
+        "Hidden": true,
+        "FullName": "Willard McGlynn"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "officiis",
-    "Hidden": true,
-    "FullName": "Ms. Elenor Pollich"
+    "ExtraInfo": "officiis",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Bill Wehner"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Dickinson Group",
-    "ToolTip": "Aut et recusandae cumque.",
-    "Deleted": false,
-    "Rank": 158,
-    "Type": "sequi",
-    "ColorBlock": 164,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2019-07-09T11:24:53.9842923+02:00",
+    "Id": 706,
+    "Name": "Bauch Inc and Sons",
+    "ToolTip": "Voluptatum omnis velit explicabo voluptatum ipsum.",
+    "Deleted": true,
+    "Rank": 359,
+    "Type": "hic",
+    "ColorBlock": 946,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2025-03-23T03:40:56.9777222+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Beier, Volkman and Ondricka",
-        "ToolTip": "Asperiores accusamus quae delectus.",
-        "Deleted": false,
-        "Rank": 106,
-        "Type": "vero",
-        "ColorBlock": 279,
-        "IconHint": "commodi",
+        "Id": 725,
+        "Name": "Schumm LLC",
+        "ToolTip": "Occaecati recusandae quo deleniti est expedita.",
+        "Deleted": true,
+        "Rank": 469,
+        "Type": "rerum",
+        "ColorBlock": 598,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2005-01-20T11:24:53.9842923+01:00",
+        "LastChanged": "2002-06-14T03:40:56.9777222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "accusamus",
-        "Hidden": false,
-        "FullName": "Carolyn Russel PhD",
+        "ExtraInfo": "provident",
+        "StyleHint": "mollitia",
+        "Hidden": true,
+        "FullName": "Omer Hoppe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 38
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "alias",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Osvaldo Abshire",
+    "FullName": "Mrs. Benedict Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 267
       }
     }
   }

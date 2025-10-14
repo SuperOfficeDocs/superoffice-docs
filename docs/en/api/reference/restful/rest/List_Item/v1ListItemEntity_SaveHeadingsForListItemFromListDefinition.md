@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Weimann Group",
-    "ToolTip": "Optio saepe voluptatibus sed aliquam inventore praesentium enim.",
+    "Id": 529,
+    "Name": "Runolfsson, Graham and Predovic",
+    "ToolTip": "Laudantium vel autem nesciunt dolor ullam.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "perferendis",
-    "ColorBlock": 910,
-    "IconHint": "itaque",
+    "Rank": 749,
+    "Type": "inventore",
+    "ColorBlock": 4,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2021-07-09T11:24:53.8436729+02:00",
+    "LastChanged": "2016-04-11T03:40:56.6807244+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Stamm, Schuppe and Emmerich",
-        "ToolTip": "Dolor ducimus nemo quaerat autem sapiente similique.",
-        "Deleted": true,
-        "Rank": 916,
-        "Type": "quia",
-        "ColorBlock": 467,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2020-06-18T11:24:53.8436729+02:00",
+        "Id": 948,
+        "Name": "Stehr-Price",
+        "ToolTip": "Dolore aut quibusdam voluptatibus quidem numquam.",
+        "Deleted": false,
+        "Rank": 864,
+        "Type": "qui",
+        "ColorBlock": 346,
+        "IconHint": "ad",
+        "Selected": false,
+        "LastChanged": "2000-09-20T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "hic",
+        "ExtraInfo": "et",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Prof. Murl Carey Ziemann DDS"
+        "FullName": "Raquel Zulauf"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "error",
+    "ExtraInfo": "debitis",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Prof. Norene Jazlyn Gerhold"
+    "FullName": "Chaya Hansen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Zemlak, Weissnat and Kohler",
-    "ToolTip": "Aut sit doloremque aut.",
+    "Id": 829,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Sit assumenda sapiente nesciunt qui vitae alias.",
     "Deleted": true,
-    "Rank": 480,
-    "Type": "debitis",
-    "ColorBlock": 858,
-    "IconHint": "pariatur",
+    "Rank": 534,
+    "Type": "recusandae",
+    "ColorBlock": 599,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2024-02-18T11:24:53.8436729+01:00",
+    "LastChanged": "2022-12-10T03:40:56.6807244+01:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Wisozk, Rau and Swaniawski",
-        "ToolTip": "Molestiae molestias aut ut.",
-        "Deleted": false,
-        "Rank": 89,
-        "Type": "quo",
-        "ColorBlock": 942,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2013-04-21T11:24:53.8436729+02:00",
+        "Id": 34,
+        "Name": "Streich LLC",
+        "ToolTip": "Ipsam omnis exercitationem incidunt.",
+        "Deleted": true,
+        "Rank": 604,
+        "Type": "sed",
+        "ColorBlock": 708,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2020-10-21T03:40:56.6807244+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "laudantium",
-        "Hidden": true,
-        "FullName": "Josie Hoppe",
+        "ExtraInfo": "vitae",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Bessie Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 204
+            "FieldType": "System.String",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Brain Turner",
+    "ExtraInfo": "id",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Moriah Genevieve Gulgowski III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 738
       }
     }
   }

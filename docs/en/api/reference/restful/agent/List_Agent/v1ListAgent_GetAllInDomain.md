@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllInDomain
 Get all items in a domain
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -101,46 +103,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 770,
+    "HierarchyId": 427,
     "Domain": "Dashboards",
-    "Name": "Hudson-O'Hara",
-    "Fullname": "veniam",
-    "ParentId": 468,
+    "Name": "Koelpin-Smith",
+    "Fullname": "asperiores",
+    "ParentId": 513,
     "Children": [
       {
-        "HierarchyId": 173,
+        "HierarchyId": 5,
         "Domain": "Dashboards",
-        "Name": "Parisian Inc and Sons",
-        "Fullname": "illum",
-        "ParentId": 476,
+        "Name": "Dickens, Cassin and Hegmann",
+        "Fullname": "labore",
+        "ParentId": 319,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2009-06-05T11:24:48.234527+02:00",
-        "RegisteredAssociateId": 223,
-        "Updated": "2005-02-18T11:24:48.234527+01:00",
-        "UpdatedAssociateId": 796,
+        "Registered": "2005-03-26T03:40:47.2030415+01:00",
+        "RegisteredAssociateId": 171,
+        "Updated": "2006-06-04T03:40:47.2030415+02:00",
+        "UpdatedAssociateId": 40,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 760
+            "FieldLength": 576
           }
         }
       }
     ],
-    "Registered": "2014-03-13T11:24:48.234527+01:00",
-    "RegisteredAssociateId": 594,
-    "Updated": "2024-05-31T11:24:48.234527+02:00",
-    "UpdatedAssociateId": 974,
+    "Registered": "1998-07-23T03:40:47.2030415+02:00",
+    "RegisteredAssociateId": 403,
+    "Updated": "2002-03-10T03:40:47.2030415+01:00",
+    "UpdatedAssociateId": 857,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 583
       }
     }
   }

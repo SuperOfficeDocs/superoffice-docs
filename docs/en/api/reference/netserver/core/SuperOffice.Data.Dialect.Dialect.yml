@@ -75,6 +75,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.InvokeToSql(System.Object[])
   - SuperOffice.Data.Dialect.Dialect.IsAnyArgumentString(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.Dialect.Dialect.IsTableReferencedInSelect(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
   - SuperOffice.Data.Dialect.Dialect.MaxInSize
   - SuperOffice.Data.Dialect.Dialect.ParseJoinClause(SuperOffice.Data.SQL.JoinRestriction)
   - SuperOffice.Data.Dialect.Dialect.ParseMathematicalArguments(SuperOffice.Data.SQL.MathematicalExpression,System.String)
@@ -4312,6 +4313,42 @@ items:
   nameWithType.vb: Dialect.DataReaderGetDecimal(SoDataReader, IDataReader, Integer)
   fullName.vb: SuperOffice.Data.Dialect.Dialect.DataReaderGetDecimal(SuperOffice.Data.SoDataReader, System.Data.IDataReader, Integer)
   name.vb: DataReaderGetDecimal(SoDataReader, IDataReader, Integer)
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  commentId: M:SuperOffice.Data.Dialect.Dialect.LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  id: LockReader``1(SuperOffice.Data.SoDataReader,System.Func{``0})
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: LockReader<T>(SoDataReader, Func<T>)
+  nameWithType: Dialect.LockReader<T>(SoDataReader, Func<T>)
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader<T>(SuperOffice.Data.SoDataReader, System.Func<T>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: The PostgreSQL data reader is <b>not thread safe</b> in GetValue-like calls. Other readers are - here is a helper method to do the locking, or not.
+  example: []
+  syntax:
+    content: public virtual T LockReader<T>(SoDataReader soReader, Func<T> innerLogic)
+    parameters:
+    - id: soReader
+      type: SuperOffice.Data.SoDataReader
+      description: ''
+    - id: innerLogic
+      type: System.Func{{T}}
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Overridable Function LockReader(Of T)(soReader As SoDataReader, innerLogic As Func(Of T)) As T
+  overload: SuperOffice.Data.Dialect.Dialect.LockReader*
+  nameWithType.vb: Dialect.LockReader(Of T)(SoDataReader, Func(Of T))
+  fullName.vb: SuperOffice.Data.Dialect.Dialect.LockReader(Of T)(SuperOffice.Data.SoDataReader, System.Func(Of T))
+  name.vb: LockReader(Of T)(SoDataReader, Func(Of T))
 - uid: SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   commentId: M:SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
   id: DataReaderGetDateTime(SuperOffice.Data.SoDataReader,System.Data.IDataReader,System.Int32)
@@ -7359,6 +7396,80 @@ references:
   nameWithType.vb: Decimal
   fullName.vb: Decimal
   name.vb: Decimal
+- uid: SuperOffice.Data.Dialect.Dialect.LockReader*
+  commentId: Overload:SuperOffice.Data.Dialect.Dialect.LockReader
+  isExternal: true
+  href: SuperOffice.Data.Dialect.Dialect.html#SuperOffice_Data_Dialect_Dialect_LockReader__1_SuperOffice_Data_SoDataReader_System_Func___0__
+  name: LockReader
+  nameWithType: Dialect.LockReader
+  fullName: SuperOffice.Data.Dialect.Dialect.LockReader
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
 - uid: SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime*
   commentId: Overload:SuperOffice.Data.Dialect.Dialect.DataReaderGetDateTime
   isExternal: true

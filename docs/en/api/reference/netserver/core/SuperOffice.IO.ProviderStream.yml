@@ -88,6 +88,8 @@ items:
   - System.IO.Stream.StreamExtensions.ReadReliably(System.Int64,System.Int32)
   - System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
   - System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
+  - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - System.IO.Stream.SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.Threading.CancellationToken)
   - System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
 - uid: SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
   commentId: M:SuperOffice.IO.ProviderStream.GetProviderStreamAsync(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode,System.Threading.CancellationToken)
@@ -2321,6 +2323,117 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
+- uid: System.IO.Stream.SuperOffice.Util.ImageStreamUtils.FitToAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.ImageStreamUtils
+  definition: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: FitToAsync(Stream, int, int, CancellationToken)
+  nameWithType: ImageStreamUtils.FitToAsync(Stream, int, int, CancellationToken)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: ImageStreamUtils.FitToAsync(Stream, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: FitToAsync(Stream, Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.IO.Stream.SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+  parent: SuperOffice.Util.ImageStreamUtils
+  definition: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  name: GetDefaultMimeTypeAsync(Stream, CancellationToken)
+  nameWithType: ImageStreamUtils.GetDefaultMimeTypeAsync(Stream, CancellationToken)
+  fullName: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GetDefaultMimeTypeAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GetDefaultMimeTypeAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
   parent: SuperOffice.Util.ImageUtilities
@@ -2712,6 +2825,123 @@ references:
     name: Stream
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: FitToAsync(Stream, int, int, CancellationToken)
+  nameWithType: ImageStreamUtils.FitToAsync(Stream, int, int, CancellationToken)
+  fullName: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: ImageStreamUtils.FitToAsync(Stream, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: FitToAsync(Stream, Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.FitToAsync(System.IO.Stream,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: FitToAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_FitToAsync_System_IO_Stream_System_Int32_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Util.ImageStreamUtils
+  commentId: T:SuperOffice.Util.ImageStreamUtils
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html
+  name: ImageStreamUtils
+  nameWithType: ImageStreamUtils
+  fullName: SuperOffice.Util.ImageStreamUtils
+- uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  name: GetDefaultMimeTypeAsync(Stream, CancellationToken)
+  nameWithType: ImageStreamUtils.GetDefaultMimeTypeAsync(Stream, CancellationToken)
+  fullName: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GetDefaultMimeTypeAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageStreamUtils.GetDefaultMimeTypeAsync(System.IO.Stream,System.Threading.CancellationToken)
+    name: GetDefaultMimeTypeAsync
+    isExternal: true
+    href: SuperOffice.Util.ImageStreamUtils.html#SuperOffice_Util_ImageStreamUtils_GetDefaultMimeTypeAsync_System_IO_Stream_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)

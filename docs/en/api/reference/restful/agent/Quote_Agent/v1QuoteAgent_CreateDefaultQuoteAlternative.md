@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Loading default values into a new QuoteAlternative.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,35 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 468,
-  "ERPQuoteAlternativeKey": "nulla",
-  "QuoteVersionId": 803,
-  "Name": "Bauch LLC",
-  "Description": "Intuitive logistical moderator",
+  "QuoteAlternativeId": 899,
+  "ERPQuoteAlternativeKey": "nobis",
+  "QuoteVersionId": 440,
+  "Name": "Nolan-Schmitt",
+  "Description": "Advanced well-modulated complexity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 19828.818,
-  "ERPDiscountAmount": 22599.273999999998,
-  "DiscountPercent": 19863.291999999998,
-  "DiscountAmount": 21775.032,
+  "ERPDiscountPercent": 15206.168,
+  "ERPDiscountAmount": 30985.858,
+  "DiscountPercent": 12388.702,
+  "DiscountAmount": 28770.12,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptatibus",
-  "VAT": 20358.464,
-  "EarningPercent": 1316.28,
-  "EarningAmount": 22210.658,
-  "SubTotal": 25589.11,
-  "TotalPrice": 7173.726,
-  "ExtraField1": "et",
-  "ExtraField2": "labore",
-  "ExtraField3": "est",
-  "ExtraField4": "veniam",
-  "ExtraField5": "incidunt",
+  "VATInfo": "quos",
+  "VAT": 4682.196,
+  "EarningPercent": 28723.11,
+  "EarningAmount": 19932.239999999998,
+  "SubTotal": 12548.536,
+  "TotalPrice": 28237.34,
+  "ExtraField1": "aliquam",
+  "ExtraField2": "esse",
+  "ExtraField3": "quaerat",
+  "ExtraField4": "saepe",
+  "ExtraField5": "totam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 346
     }
   }
 }

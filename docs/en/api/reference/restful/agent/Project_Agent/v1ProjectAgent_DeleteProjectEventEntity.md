@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/DeleteProjectEventEntity
 Deletes the ProjectEventEntity
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ProjectEventEntity
 | projectEventEntityId | int32 | **Required** The identity of the ProjectEventEntity |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=266
+POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=407
 ```
 
 

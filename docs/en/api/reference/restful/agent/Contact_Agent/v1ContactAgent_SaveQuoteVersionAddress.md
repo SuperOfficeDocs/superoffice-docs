@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Save a custom quote version address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,14 +84,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 872,
+  "QuoteVersionId": 648,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 641
+  "CountryId": 715
 }
 ```
 
@@ -100,41 +102,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24511.014,
-  "Wgs84Longitude": 16481.706,
+  "Wgs84Latitude": 1560.732,
+  "Wgs84Longitude": 21330.004,
   "LocalizedAddress": [
     [
       {
-        "Name": "Toy, Mayer and Johnston",
-        "Value": "sunt",
-        "Tooltip": "et",
-        "Label": "quasi",
-        "ValueLength": 261,
-        "AddressType": "tempore",
+        "Name": "Ullrich, Jaskolski and Hackett",
+        "Value": "omnis",
+        "Tooltip": "harum",
+        "Label": "minima",
+        "ValueLength": 150,
+        "AddressType": "minima",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 712
+            "FieldLength": 493
           }
         }
       }
     ],
     [
       {
-        "Name": "Barton, Hagenes and Macejkovic",
-        "Value": "corporis",
-        "Tooltip": "facere",
-        "Label": "sapiente",
-        "ValueLength": 32,
-        "AddressType": "necessitatibus",
+        "Name": "Johns-Douglas",
+        "Value": "consectetur",
+        "Tooltip": "qui",
+        "Label": "est",
+        "ValueLength": 877,
+        "AddressType": "harum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 984
+            "FieldLength": 164
           }
         }
       }
@@ -142,13 +144,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "dolor",
+  "Formatted": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 697
     }
   }
 }

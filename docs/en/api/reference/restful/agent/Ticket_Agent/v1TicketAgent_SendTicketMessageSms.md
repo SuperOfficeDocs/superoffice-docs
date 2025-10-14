@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SendTicketMessageSms
 Send a message to recipients by sms
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,15 +69,15 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessageSms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 668,
-  "ReplyTemplateId": 789,
+  "TicketMessageEntityId": 615,
+  "ReplyTemplateId": 217,
   "Sms": [
-    "ipsam",
-    "perspiciatis"
+    "consequatur",
+    "modi"
   ]
 }
 ```

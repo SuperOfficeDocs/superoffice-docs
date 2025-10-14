@@ -15,6 +15,7 @@ Gets a ListEntity object.
 
 
 Calls the List agent service GetListEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +84,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,27 +94,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Hermann-Price",
-  "Tooltip": "ipsam",
+  "Id": 250,
+  "Name": "Schiller LLC",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 814,
+  "Rank": 449,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldLength": 144
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

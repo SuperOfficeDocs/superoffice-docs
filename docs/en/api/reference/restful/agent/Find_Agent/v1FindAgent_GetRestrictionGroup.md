@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/GetRestrictionGroup
 Return the restriction group with given rank or a blank carrier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptates",
-  "ProviderName": "Aufderhar, Watsica and Cormier",
-  "StorageKey": "rem",
-  "Rank": 397,
-  "Context": "necessitatibus"
+  "StorageType": "sit",
+  "ProviderName": "Kunde, Goodwin and Lynch",
+  "StorageKey": "ipsam",
+  "Rank": 66,
+  "Context": "et"
 }
 ```
 
@@ -98,30 +100,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Larkin, Senger and Schoen",
-  "Description": "Managed transitional contingency",
-  "Rank": 59,
+  "Name": "Greenholt, Borer and Lynch",
+  "Description": "Exclusive mobile open system",
+  "Rank": 358,
   "Restrictions": [
     {
-      "Name": "Fay-Feil",
-      "Operator": "ullam",
+      "Name": "Brown Inc and Sons",
+      "Operator": "ut",
       "Values": [
-        "qui",
-        "et"
+        "voluptas",
+        "sit"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "saepe"
+        "aspernatur",
+        "reiciendis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 14,
+      "InterParenthesis": 220,
       "InterOperator": "And",
-      "UniqueHash": 27
+      "UniqueHash": 239
     }
   ]
 }

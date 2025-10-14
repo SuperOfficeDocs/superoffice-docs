@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveListItemEntity
 Save the ListItemEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Ruecker Inc and Sons",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "UdListDefinitionId": 341,
-  "Rank": 733,
+  "Id": 650,
+  "Name": "Gottlieb-Bartoletti",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "UdListDefinitionId": 929,
+  "Rank": 403,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 232
     }
   }
 }

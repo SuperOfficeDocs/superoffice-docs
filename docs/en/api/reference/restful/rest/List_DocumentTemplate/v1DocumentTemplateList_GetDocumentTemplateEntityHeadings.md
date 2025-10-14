@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 521,
-    "Name": "Hilpert-Williamson",
-    "Tooltip": "facilis",
+    "HeadingId": 494,
+    "Name": "Strosin Group",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 802,
-    "UdListDefinitionId": 975,
+    "Rank": 597,
+    "UdListDefinitionId": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 239
       }
     }
   }

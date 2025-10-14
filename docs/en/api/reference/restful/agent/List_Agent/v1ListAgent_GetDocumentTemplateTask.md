@@ -15,6 +15,7 @@ Returns a Document Template list item as a TaskListItem.
 
 
 The appointment's task is a Document template item when the appointment is a document.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 357
+  "DocumentTemplateId": 21
 }
 ```
 
@@ -93,15 +94,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Value": "voluptatem",
-  "Tooltip": "nihil",
+  "Id": 610,
+  "Value": "quas",
+  "Tooltip": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

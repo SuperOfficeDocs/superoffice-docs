@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 669,
-  "Name": "Hamill-Johnston",
-  "TZLocationCode": "quo",
-  "TZLocationCities": "ratione",
-  "IsoNumber": 705,
+  "TZLocationID": 845,
+  "Name": "Johnson-Runolfsdottir",
+  "TZLocationCode": "reprehenderit",
+  "TZLocationCities": "minus",
+  "IsoNumber": 871,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 156,
-      "StartMonth": 511,
-      "EndDay": 684,
-      "EndMonth": 661,
-      "TZOffset": 141,
-      "StartRulePattern": "accusantium",
-      "EndRulePattern": "quia"
+      "StartDay": 841,
+      "StartMonth": 33,
+      "EndDay": 763,
+      "EndMonth": 339,
+      "TZOffset": 785,
+      "StartRulePattern": "sed",
+      "EndRulePattern": "consectetur"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 352,
-      "StartMonth": 222,
-      "EndDay": 738,
-      "EndMonth": 273,
-      "TZOffset": 380,
-      "StartRulePattern": "est",
-      "EndRulePattern": "et"
+      "StartDay": 302,
+      "StartMonth": 170,
+      "EndDay": 373,
+      "EndMonth": 780,
+      "TZOffset": 327,
+      "StartRulePattern": "porro",
+      "EndRulePattern": "odit"
     }
   }
 }

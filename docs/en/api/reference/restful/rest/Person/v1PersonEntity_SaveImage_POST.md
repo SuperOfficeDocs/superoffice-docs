@@ -63,7 +63,7 @@ The image blob id
 POST /api/v1/Person/{personId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-704
+629
 ```

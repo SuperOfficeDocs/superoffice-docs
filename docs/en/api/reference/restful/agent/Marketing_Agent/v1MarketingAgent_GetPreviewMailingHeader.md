@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Get a shipment from its shipment id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,11 +91,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 466
+  "ShipmentId": 232
 }
 ```
 
@@ -104,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-02-12T11:24:48.2657757+01:00",
+  "StartDate": "2006-05-03T03:40:47.2499194+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 195,
-  "ShipmentDescription": "Cross-platform multi-state challenge",
-  "FromAddress": "est",
-  "Configuration": 685,
-  "PersonId": 128,
-  "PersonFullName": "Ms. Kattie Schaefer",
-  "ShipmentType": "quidem",
-  "MessageId": 60,
-  "MessageSubject": "aliquam",
-  "DocumentMessageId": 898,
-  "NumSent": 228,
-  "NumOpened": 383,
-  "NumBounced": 117,
-  "NumClicks": 609,
+  "ShipmentId": 724,
+  "ShipmentDescription": "Stand-alone encompassing workforce",
+  "FromAddress": "nesciunt",
+  "Configuration": 199,
+  "PersonId": 971,
+  "PersonFullName": "Imelda Deckow",
+  "ShipmentType": "provident",
+  "MessageId": 463,
+  "MessageSubject": "labore",
+  "DocumentMessageId": 10,
+  "NumSent": 805,
+  "NumOpened": 389,
+  "NumBounced": 155,
+  "NumClicks": 410,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldType": "System.Int32",
+      "FieldLength": 431
     }
   }
 }

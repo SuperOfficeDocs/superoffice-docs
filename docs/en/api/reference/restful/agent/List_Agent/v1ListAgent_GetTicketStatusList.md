@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketStatusList
 Gets an array of TicketStatusEntity objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,19 +90,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 84,
-    "Name": "Sipes-Huel",
+    "TicketStatusId": 299,
+    "Name": "Considine-Beier",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": false,
+    "NoEmailReopen": true,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 420
       }
     }
   }

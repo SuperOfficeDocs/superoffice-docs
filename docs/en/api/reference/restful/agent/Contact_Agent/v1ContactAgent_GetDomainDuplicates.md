@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetDomainDuplicates
 Get duplicates based on the domain
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "ratione"
+  "Domain": "nulla"
 }
 ```
 
@@ -94,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hammes-Gutmann",
-    "SoPrimaryKey": 121,
-    "EntryName": "Konopelski, Sawayn and Weber",
-    "EntryIdentifier": "rerum",
-    "RuleDisplayName": "Steuber, Sawayn and Hackett",
+    "RuleName": "Hettinger Inc and Sons",
+    "SoPrimaryKey": 518,
+    "EntryName": "Lueilwitz-Kunde",
+    "EntryIdentifier": "ducimus",
+    "RuleDisplayName": "O'Keefe-Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 871
       }
     }
   }

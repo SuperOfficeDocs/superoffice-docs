@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Loading default values into a new HierarchyEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,46 +77,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 991,
+  "HierarchyId": 777,
   "Domain": "Dashboards",
-  "Name": "Smitham, Russel and Hansen",
-  "Fullname": "consequatur",
-  "ParentId": 398,
+  "Name": "Goldner-Ruecker",
+  "Fullname": "ut",
+  "ParentId": 509,
   "Children": [
     {
-      "HierarchyId": 119,
+      "HierarchyId": 212,
       "Domain": "Dashboards",
-      "Name": "Hegmann, Greenfelder and Little",
-      "Fullname": "aut",
-      "ParentId": 252,
+      "Name": "Effertz, Johns and Von",
+      "Fullname": "fugit",
+      "ParentId": 138,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-04-03T11:24:48.234527+02:00",
-      "RegisteredAssociateId": 584,
-      "Updated": "2018-05-16T11:24:48.234527+02:00",
-      "UpdatedAssociateId": 346,
+      "Registered": "2010-08-03T03:40:47.2030415+02:00",
+      "RegisteredAssociateId": 623,
+      "Updated": "2007-03-11T03:40:47.2030415+01:00",
+      "UpdatedAssociateId": 908,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 268
+          "FieldType": "System.Int32",
+          "FieldLength": 202
         }
       }
     }
   ],
-  "Registered": "2024-07-29T11:24:48.234527+02:00",
-  "RegisteredAssociateId": 43,
-  "Updated": "1999-09-27T11:24:48.234527+02:00",
-  "UpdatedAssociateId": 881,
+  "Registered": "2000-05-07T03:40:47.2030415+02:00",
+  "RegisteredAssociateId": 138,
+  "Updated": "2018-02-01T03:40:47.2030415+01:00",
+  "UpdatedAssociateId": 738,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldType": "System.Int32",
+      "FieldLength": 878
     }
   }
 }

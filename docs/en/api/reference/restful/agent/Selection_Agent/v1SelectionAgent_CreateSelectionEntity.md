@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity
 Create (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -114,11 +116,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Steuber Group"
+  "TargetTableName": "Greenfelder, Ferry and Bogan"
 }
 ```
 
@@ -129,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly 6th generation toolset",
-  "Postit": "qui",
+  "Description": "Cross-platform bottom-line strategy",
+  "Postit": "vero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 838,
-  "IncludePerson": 496,
+  "GroupIdx": 774,
+  "IncludePerson": 827,
   "MemberCount": 99.99,
-  "Name": "McCullough LLC",
-  "PostitTextId": 828,
-  "CreatedDate": "1999-06-01T11:24:48.6251358+02:00",
-  "SelectionId": 469,
-  "SoundEx": "beatae",
-  "Source": 220,
-  "TextId": 542,
-  "UpdatedDate": "2014-12-22T11:24:48.6251358+01:00",
-  "UpdatedCount": 432,
-  "Visibility": 60,
+  "Name": "Dickens-Koch",
+  "PostitTextId": 882,
+  "CreatedDate": "2013-06-02T03:40:47.7192182+02:00",
+  "SelectionId": 699,
+  "SoundEx": "commodi",
+  "Source": 21,
+  "TextId": 263,
+  "UpdatedDate": "2002-11-14T03:40:47.7192182+01:00",
+  "UpdatedCount": 855,
+  "Visibility": 110,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 253,
-  "TargetTableName": "Hagenes-Zulauf",
-  "Completed": false,
-  "LeftSelectionId": 452,
-  "RightSelectionId": 958,
+  "CompanyUnique": true,
+  "TargetTableNumber": 710,
+  "TargetTableName": "Sawayn-Kohler",
+  "Completed": true,
+  "LeftSelectionId": 608,
+  "RightSelectionId": 357,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ritchie Inc and Sons",
-  "ShadowProviderName": "Kuphal Inc and Sons",
-  "ChartKey": "perferendis",
-  "LastLoaded": "2017-03-01T11:24:48.6251358+01:00",
-  "LastLoadedBy": 142,
+  "MainProviderName": "Legros, Fisher and Labadie",
+  "ShadowProviderName": "Murphy-Huels",
+  "ChartKey": "aliquam",
+  "LastLoaded": "2001-03-26T03:40:47.7192182+02:00",
+  "LastLoadedBy": 871,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-03-24T11:24:48.6251358+01:00",
-  "LastMembershipChangeBy": 417,
+  "LastMembershipChange": "2022-08-05T03:40:47.7192182+02:00",
+  "LastMembershipChangeBy": 713,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatibus",
-  "MemberTabHeading": "veritatis",
-  "MailingsProviderName": "Kuphal-Konopelski",
-  "DashboardTileDefinitionId": 562,
+  "MainHeading": "veniam",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Ankunding, Hackett and Stamm",
+  "DashboardTileDefinitionId": 415,
   "VisibleFor": [
     {
-      "VisibleId": 255,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 69
         }
       }
     },
     {
-      "VisibleId": 255,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 69
         }
       }
     }
@@ -201,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

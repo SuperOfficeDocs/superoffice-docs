@@ -14,6 +14,8 @@ POST /api/v1/Agents/Navigator/GetAllNavigatorCompany
 Gets an array of all NavigatorCompany objects
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Value": "consequatur",
-    "Tooltip": "assumenda",
+    "Id": 888,
+    "Value": "cum",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 372
       }
     }
   },
   {
-    "Id": 178,
-    "Value": "consequatur",
-    "Tooltip": "assumenda",
+    "Id": 888,
+    "Value": "cum",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 372
       }
     }
   }

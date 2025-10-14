@@ -15,6 +15,7 @@ Deletes the PriceList
 
 
 Calls the Quote agent service DeletePriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ PriceList deleted.
 DELETE /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

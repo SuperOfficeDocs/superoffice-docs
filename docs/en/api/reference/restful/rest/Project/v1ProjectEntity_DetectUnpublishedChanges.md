@@ -28,7 +28,7 @@ True if the ProjectEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=False
+GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=True
 ```
 
 
@@ -63,7 +63,7 @@ OK
 GET /api/v1/Project/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -15,6 +15,7 @@ Get a URL referring to the given document content.
 
 
 &lt;para/&gt;This URL may be passed to the ultimate client (text editor of some kind?), which is then responsible for all further operations.&lt;para/&gt;The returned string is a fully qualified URL.&lt;para/&gt;Not all documents and document plugins support this feature.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,12 +74,12 @@ OK
 POST /api/v1/Agents/Document/GetDocumentUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 977,
-  "VersionId": "dolores",
+  "DocumentId": 945,
+  "VersionId": "laudantium",
   "WriteableUrl": false
 }
 ```

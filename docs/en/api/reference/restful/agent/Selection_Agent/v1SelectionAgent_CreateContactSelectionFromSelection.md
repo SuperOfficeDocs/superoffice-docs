@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Creates a new selection based on selection members from an existing selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -121,8 +123,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 47,
-  "Name": "Pfeffer Group",
+  "SelectionId": 532,
+  "Name": "McClure LLC",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -135,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive bi-directional framework",
-  "Postit": "exercitationem",
+  "Description": "Total client-driven benchmark",
+  "Postit": "aliquid",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 21,
-  "IncludePerson": 155,
+  "GroupIdx": 579,
+  "IncludePerson": 998,
   "MemberCount": 99.99,
-  "Name": "Stanton-Stehr",
-  "PostitTextId": 464,
-  "CreatedDate": "2016-09-22T11:24:48.6251358+02:00",
-  "SelectionId": 818,
-  "SoundEx": "velit",
-  "Source": 901,
-  "TextId": 887,
-  "UpdatedDate": "2016-06-13T11:24:48.6251358+02:00",
-  "UpdatedCount": 49,
-  "Visibility": 331,
+  "Name": "DuBuque-Gaylord",
+  "PostitTextId": 819,
+  "CreatedDate": "2003-02-08T03:40:47.7192182+01:00",
+  "SelectionId": 626,
+  "SoundEx": "tempore",
+  "Source": 709,
+  "TextId": 942,
+  "UpdatedDate": "2013-09-05T03:40:47.7192182+02:00",
+  "UpdatedCount": 800,
+  "Visibility": 999,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 27,
-  "TargetTableName": "Rohan-Goodwin",
+  "CompanyUnique": true,
+  "TargetTableNumber": 818,
+  "TargetTableName": "Medhurst, Kris and Heathcote",
   "Completed": false,
-  "LeftSelectionId": 878,
-  "RightSelectionId": 666,
+  "LeftSelectionId": 977,
+  "RightSelectionId": 56,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zemlak, Mraz and Nolan",
-  "ShadowProviderName": "Turcotte Group",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "1999-09-20T11:24:48.6251358+02:00",
-  "LastLoadedBy": 758,
+  "MainProviderName": "Goodwin, Hermann and Vandervort",
+  "ShadowProviderName": "Batz-Schmidt",
+  "ChartKey": "ea",
+  "LastLoaded": "2011-11-20T03:40:47.7192182+01:00",
+  "LastLoadedBy": 726,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-02-07T11:24:48.6251358+01:00",
-  "LastMembershipChangeBy": 697,
+  "LastMembershipChange": "2007-10-26T03:40:47.7192182+02:00",
+  "LastMembershipChangeBy": 214,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nostrum",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Jast Group",
-  "DashboardTileDefinitionId": 877,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "iste",
+  "MailingsProviderName": "Renner LLC",
+  "DashboardTileDefinitionId": 395,
   "VisibleFor": [
     {
-      "VisibleId": 34,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     },
     {
-      "VisibleId": 34,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
@@ -208,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 298
     }
   }
 }

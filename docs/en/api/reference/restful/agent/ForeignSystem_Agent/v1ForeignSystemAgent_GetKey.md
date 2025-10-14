@@ -15,6 +15,7 @@ Returning a foreign key by its key name, that belongs to the specified device an
 
 
 A table name and record ID can also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Green LLC",
-  "DeviceName": "Homenick, Greenholt and Terry",
-  "KeyName": "Lowe, Shanahan and Russel",
-  "TableName": "Lowe-Dach",
-  "RecordId": 108
+  "ApplicationName": "Ratke, Gottlieb and Hahn",
+  "DeviceName": "Effertz-Bechtelar",
+  "KeyName": "Russel Group",
+  "TableName": "O'Conner, Raynor and Bailey",
+  "RecordId": 997
 }
 ```
 
@@ -106,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "distinctio",
-  "RecordId": 605,
-  "CreatedDate": "2018-10-27T11:24:48.1564051+02:00",
-  "UpdatedDate": "1999-12-22T11:24:48.1564051+01:00",
-  "UpdatedBy": "accusamus",
-  "CreatedBy": "dolore",
-  "TableName": "Beatty LLC",
+  "Key": "iure",
+  "Value": "aut",
+  "RecordId": 255,
+  "CreatedDate": "2007-03-25T03:40:46.9842779+02:00",
+  "UpdatedDate": "2017-12-15T03:40:46.9842779+01:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "a",
+  "TableName": "Bahringer, Greenholt and Macejkovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 396
     }
   }
 }

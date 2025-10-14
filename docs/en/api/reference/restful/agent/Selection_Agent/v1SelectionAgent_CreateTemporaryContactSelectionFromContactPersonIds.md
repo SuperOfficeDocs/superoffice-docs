@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 Creates a temporary selection with members from a collection of ContactPerson id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -120,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 225,
-      "ContactId": 980
+      "PersonId": 998,
+      "ContactId": 384
     },
     {
-      "PersonId": 225,
-      "ContactId": 980
+      "PersonId": 998,
+      "ContactId": 384
     }
   ]
 }
@@ -138,70 +140,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented regional hub",
-  "Postit": "qui",
+  "Description": "Open-source multi-tasking ability",
+  "Postit": "commodi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 616,
-  "IncludePerson": 982,
+  "GroupIdx": 211,
+  "IncludePerson": 693,
   "MemberCount": 99.99,
-  "Name": "Legros, Cronin and Beier",
-  "PostitTextId": 131,
-  "CreatedDate": "2018-04-10T11:24:48.6251358+02:00",
-  "SelectionId": 806,
-  "SoundEx": "labore",
-  "Source": 964,
-  "TextId": 759,
-  "UpdatedDate": "2024-02-20T11:24:48.6251358+01:00",
-  "UpdatedCount": 342,
-  "Visibility": 988,
+  "Name": "Bechtelar Inc and Sons",
+  "PostitTextId": 72,
+  "CreatedDate": "2007-06-30T03:40:47.7348444+02:00",
+  "SelectionId": 903,
+  "SoundEx": "est",
+  "Source": 669,
+  "TextId": 862,
+  "UpdatedDate": "2023-10-24T03:40:47.7348444+02:00",
+  "UpdatedCount": 301,
+  "Visibility": 586,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 628,
-  "TargetTableName": "Rohan, Trantow and Dibbert",
-  "Completed": false,
-  "LeftSelectionId": 846,
-  "RightSelectionId": 350,
+  "TargetTableNumber": 383,
+  "TargetTableName": "Howell Group",
+  "Completed": true,
+  "LeftSelectionId": 63,
+  "RightSelectionId": 63,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Keefe-Spinka",
-  "ShadowProviderName": "Kunde, Kovacek and Zulauf",
-  "ChartKey": "quis",
-  "LastLoaded": "2009-10-05T11:24:48.6251358+02:00",
-  "LastLoadedBy": 516,
+  "MainProviderName": "Pacocha LLC",
+  "ShadowProviderName": "Fay-Weimann",
+  "ChartKey": "odit",
+  "LastLoaded": "2010-06-28T03:40:47.7348444+02:00",
+  "LastLoadedBy": 788,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-11-04T11:24:48.6251358+01:00",
-  "LastMembershipChangeBy": 907,
+  "LastMembershipChange": "2006-04-06T03:40:47.7348444+02:00",
+  "LastMembershipChangeBy": 307,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aliquid",
-  "MemberTabHeading": "officiis",
-  "MailingsProviderName": "Cruickshank Inc and Sons",
-  "DashboardTileDefinitionId": 740,
+  "MainHeading": "et",
+  "MemberTabHeading": "accusantium",
+  "MailingsProviderName": "Bergstrom, Pagac and Breitenberg",
+  "DashboardTileDefinitionId": 269,
   "VisibleFor": [
     {
-      "VisibleId": 804,
+      "VisibleId": 548,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 299
         }
       }
     },
     {
-      "VisibleId": 804,
+      "VisibleId": 548,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 299
         }
       }
     }
@@ -210,8 +212,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

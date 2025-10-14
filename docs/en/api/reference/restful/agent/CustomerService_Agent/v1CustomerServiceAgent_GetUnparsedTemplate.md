@@ -15,6 +15,7 @@ Get a specific langauge version of the reply template.
 
 
 No parsing is performed.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 726,
-  "LanguageId": 297
+  "ReplyTemplateId": 543,
+  "LanguageId": 906
 }
 ```
 
@@ -97,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 90,
-  "PlainParsed": "excepturi",
-  "HtmlParsed": "voluptas",
+  "ReplyTemplateId": 747,
+  "PlainParsed": "ducimus",
+  "HtmlParsed": "temporibus",
   "Attachments": [
     {
-      "AttachmentId": 913,
-      "Name": "Parker-Grady",
-      "ContentType": "rerum",
-      "AttSize": 491,
+      "AttachmentId": 991,
+      "Name": "Johnston-Skiles",
+      "ContentType": "sunt",
+      "AttSize": 757,
       "InlineImage": true,
-      "ContentId": "repellendus",
-      "AuthKey": "quia",
-      "IsSafeFileExtension": false,
+      "ContentId": "aut",
+      "AuthKey": "ullam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldLength": 205
         }
       }
     }
   ],
-  "Subject": "reprehenderit",
+  "Subject": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserFromName
 Get a user, with lookup based on user name.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -100,11 +103,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Champlin, Will and Yost"
+  "UserName": "Boyer LLC"
 }
 ```
 
@@ -115,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 206,
-  "Name": "Price-Lockman",
-  "Rank": 948,
-  "Tooltip": "asperiores",
+  "AssociateId": 660,
+  "Name": "Tillman, Kassulke and Anderson",
+  "Rank": 484,
+  "Tooltip": "autem",
   "LicenseOwners": [
     {
-      "Name": "Schimmel Inc and Sons",
-      "Description": "Public-key solution-oriented productivity",
+      "Name": "Robel, Mills and Botsford",
+      "Description": "Sharable clear-thinking installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +138,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     },
     {
-      "Name": "Schimmel Inc and Sons",
-      "Description": "Public-key solution-oriented productivity",
+      "Name": "Robel, Mills and Botsford",
+      "Description": "Sharable clear-thinking installation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +158,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 937
+          "FieldType": "System.String",
+          "FieldLength": 510
         }
       }
     }
@@ -165,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "et",
-      "Tooltip": "natus",
-      "Id": 838,
-      "Rank": 323,
+      "Value": "ut",
+      "Tooltip": "iste",
+      "Id": 227,
+      "Rank": 437,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 204
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-01-30T11:24:48.9219987+01:00",
-  "Lastlogout": "2008-05-10T11:24:48.9219987+02:00",
-  "EjUserId": 70,
-  "RequestSignature": "ipsum",
+  "Deleted": true,
+  "Lastlogin": "2005-08-27T03:40:48.2192479+02:00",
+  "Lastlogout": "2013-05-03T03:40:48.2192479+02:00",
+  "EjUserId": 983,
+  "RequestSignature": "cumque",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sed",
-      "DisplayValue": "tenetur",
+      "Value": "totam",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 983
         }
       }
     },
     {
       "Type": null,
-      "Value": "sed",
-      "DisplayValue": "tenetur",
+      "Value": "totam",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 983
         }
       }
     }
   ],
-  "UserName": "Hamill LLC",
+  "UserName": "Okuneva, Gerhold and Romaguera",
   "TicketCategories": [
     {
-      "Id": 61,
-      "Name": "Wunsch, Wehner and Hessel",
-      "ToolTip": "Dolores porro quaerat architecto ut ut.",
-      "Deleted": false,
-      "Rank": 322,
-      "Type": "quo",
+      "Id": 930,
+      "Name": "Larkin Group",
+      "ToolTip": "Corporis velit dolorem nemo qui non illo.",
+      "Deleted": true,
+      "Rank": 622,
+      "Type": "ratione",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 446,
-      "ExtraInfo": "doloremque",
-      "StyleHint": "id",
-      "FullName": "Jeramy Cassin Jr.",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 316
-        }
-      }
-    }
-  ],
-  "NickName": "Harvey, Lubowitz and Swaniawski",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "explicabo"
-  },
-  "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "ratione"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Brakus Inc and Sons",
-      "DisplayName": "Lindgren, Feil and Shanahan",
-      "Description": "Optional bandwidth-monitored throughput",
-      "ToolTip": "Ut id officia nihil nostrum.",
-      "Actions": "Implicit",
-      "ActionData": "sit",
+      "IconHint": "eius",
+      "ColorBlock": 371,
+      "ExtraInfo": "et",
+      "StyleHint": "iure",
+      "FullName": "Fausto O'Connell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 350
+        }
+      }
+    }
+  ],
+  "NickName": "Hermiston-Goldner",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "sed",
+    "ExtraFields2": "aut"
+  },
+  "CustomFields": {
+    "CustomFields1": "eos",
+    "CustomFields2": "et"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Farrell-Stoltenberg",
+      "DisplayName": "Treutel LLC",
+      "Description": "Synergized 24 hour Graphic Interface",
+      "ToolTip": "Dignissimos dolores ad facilis.",
+      "Actions": "Implicit",
+      "ActionData": "libero",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     }
@@ -277,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

@@ -14,7 +14,8 @@ PATCH /api/v1/ChatTopic/{id}
 Update a ChatTopicEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -139,18 +140,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -163,21 +164,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 292,
-  "Name": "Corwin, Yundt and Walker",
-  "Description": "Configurable solution-oriented matrix",
-  "WelcomeMessage": "est",
+  "ChatTopicId": 916,
+  "Name": "Witting, Schoen and Bednar",
+  "Description": "Triple-buffered analyzing complexity",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2017-01-11T11:24:53.0624548+01:00",
-  "SecondsPrAccept": 786,
-  "AlertRecipient": "sint",
+  "LastAccept": "2019-11-17T03:40:55.397437+01:00",
+  "SecondsPrAccept": 743,
+  "AlertRecipient": "molestiae",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nam",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "necessitatibus",
-  "WarnNewChatMinutes": 405,
-  "WarnManagerNewChatMinutes": 135,
+  "BadgeHeader": "accusantium",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dicta",
+  "WarnNewChatMinutes": 76,
+  "WarnManagerNewChatMinutes": 728,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -186,25 +187,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 774,
-  "WarnManagerChatMessageMinutes": 86,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 362,
+  "WarnManagerChatMessageMinutes": 111,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 456,
-  "OfflineFormQueueLength": 12,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "saepe",
+  "OfflineFormTimeLimit": 443,
+  "OfflineFormQueueLength": 222,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldType": "System.Int32",
+      "FieldLength": 461
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

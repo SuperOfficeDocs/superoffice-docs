@@ -30,6 +30,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
+|categoryGroup|listAny|Category group| x |
 |business|listAny|Business| x |
 |country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |countryId|int|Country ID: Country ID| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |contactAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |contactAssociate/contactCategory|listAny|Category: Category| x |
-|contactAssociate/role|listAny|Role : Role| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/role|listAny|Role : Role| x |
 |contactAssociate/assocName|associate|User ID : User ID| x |
 |contactAssociate/assocTooltip|string|Description : Description|  |
 |contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
@@ -209,6 +210,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
 |sourceRelation/category|listAny|Source - Category| x |
+|sourceRelation/categoryGroup|listAny|Source - Category group| x |
 |sourceRelation/business|listAny|Source - Business| x |
 |sourceRelation/country|listAny|Source - Country: This criterion corresponds to the Country field on the Company card.| x |
 |sourceRelation/countryId|int|Source - Country ID: Country ID| x |
@@ -221,12 +223,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/updatedByFullName|associate|Source - Updated by - Full name: The user who last updated the data| x |
 |sourceRelation/updatedDate|date|Source - Updated: The date/time the data was last updated in UTC.| x |
 |sourceRelation/registeredBy|associate|Source - Registered by: The user who registered the data| x |
-|sourceRelation/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
-|sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sourceRelation/registeredByFullName|associate|Source - Registered by - Full name: The user who registered the data| x |
+|sourceRelation/registeredDate|date|Source - Registered date: The date/time the data was registered in UTC.| x |
 |sourceRelation/contactSource|listAny|Source - Source: Source (Company)| x |
 |sourceRelation/contactDeleted|bool|Source - Deleted: Deleted| x |
 |sourceRelation/activeErpLinks|bool|Source - ERP connected: Is there an active ERP Sync?| x |
@@ -243,6 +245,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |targetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
 |targetRelation/category|listAny|Target - Category| x |
+|targetRelation/categoryGroup|listAny|Target - Category group| x |
 |targetRelation/business|listAny|Target - Business| x |
 |targetRelation/country|listAny|Target - Country: This criterion corresponds to the Country field on the Company card.| x |
 |targetRelation/countryId|int|Target - Country ID: Country ID| x |
@@ -321,16 +324,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
-|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
-|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
+|sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/appointmentUdef/SuperOffice:4|date|followupdate| x |
 |appointment/appointmentUdef/SuperOffice:5|unlimitedDate|followupunlimiteddate| x |
 |appointment/appointmentUdef/SuperOffice:6|bool|followupcheckbox| x |
-|appointment/appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
-|appointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
-|appointment/associate/firstName|string|First name: Displays the contact's first name| x |
-|appointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentUdef/SuperOffice:7|listAny|followupdropdownlistbox| x |
+|appointment/appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
+|appointment/associate/firstName|string|First name: Displays the contact's first name| x |
+|appointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 |appointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -531,14 +535,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/role|listAny|Role : Role| x |
 |document/associate/assocName|associate|User ID : User ID| x |
 |document/associate/assocTooltip|string|Description : Description|  |
-|document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
+|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -599,7 +603,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
 |personBusiness|listAny|Business| x |
+|leadstatus|listAny|Lead status| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -633,16 +639,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
 |personAddress/line3|string|Contact address - Address 3: Third line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
 |personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
@@ -737,16 +743,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |correspondingAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |correspondingAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |correspondingAssociate/userName|string|User name: User name| x |
 |correspondingAssociate/personEmail|string|E-mail| x |
 |correspondingAssociate/locationAddress|string|Location: Location| x |
@@ -765,7 +771,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindContact?$select=registeredBy,email/emailProtocol,email/emailHasBounced,contactUdef/SuperOffice:7,contactUdef/SuperOffice:8
+GET /api/v1/archive/FindContact?$select=contactPhone/formattedNumber,targetRelation/updatedDate,sale/text,document/attention,document/isMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

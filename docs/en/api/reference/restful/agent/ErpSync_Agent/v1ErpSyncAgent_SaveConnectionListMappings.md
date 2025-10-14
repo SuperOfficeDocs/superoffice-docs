@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Saves a connection to the database.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -78,7 +81,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,31 +99,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Barrows, Wintheiser and Ruecker",
+      "ErpListName": "Wyman, Altenwerth and Bergstrom",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Nitzsche, Nikolaus and Emard",
-      "ErpFieldId": 193,
+      "ErpActorTypeName": "Stoltenberg-Borer",
+      "ErpFieldId": 719,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldLength": 436
         }
       }
     }
   ],
-  "ErpConnectionId": 399,
-  "ErpConnectionName": "Swaniawski-Davis",
+  "ErpConnectionId": 988,
+  "ErpConnectionName": "Kling-Schroeder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldLength": 503
     }
   }
 }

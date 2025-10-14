@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/DeleteEMailAccount
 Deletes the EMailAccount
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -28,7 +31,7 @@ Deletes the EMailAccount
 | eMailAccountId | int32 | **Required** The identity of the EMailAccount |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=169
+POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=762
 ```
 
 
@@ -59,7 +62,7 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

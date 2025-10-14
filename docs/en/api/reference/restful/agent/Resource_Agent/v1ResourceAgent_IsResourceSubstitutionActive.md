@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Determine if resource substitution/override is active, globally or for a subset of resources/cultures
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,10 +85,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Gerhold LLC",
-    "Sauer-Morissette"
+    "Dach Group",
+    "Prohaska-Schroeder"
   ],
-  "Culture": "eum"
+  "Culture": "dolores"
 }
 ```
 
@@ -98,30 +100,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Roberts-Bradtke",
-    "ResourceValue": "voluptas",
-    "Culture": "rem",
-    "IsActive": false,
+    "ResourceName": "Heaney, Spencer and Baumbach",
+    "ResourceValue": "et",
+    "Culture": "quisquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   },
   {
-    "ResourceName": "Roberts-Bradtke",
-    "ResourceValue": "voluptas",
-    "Culture": "rem",
-    "IsActive": false,
+    "ResourceName": "Heaney, Spencer and Baumbach",
+    "ResourceValue": "et",
+    "Culture": "quisquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

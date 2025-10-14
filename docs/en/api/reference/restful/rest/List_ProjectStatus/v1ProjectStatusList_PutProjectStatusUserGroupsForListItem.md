@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Zulauf-Kohler",
-    "ToolTip": "Doloribus impedit porro qui explicabo nobis consequatur.",
-    "Deleted": true,
-    "Rank": 400,
-    "Type": "nesciunt",
-    "ColorBlock": 61,
-    "IconHint": "ipsa",
-    "Selected": true,
-    "LastChanged": "2009-08-03T11:24:54.0155411+02:00",
+    "Id": 43,
+    "Name": "Kovacek-Hammes",
+    "ToolTip": "Qui facere reprehenderit magni sit fugiat.",
+    "Deleted": false,
+    "Rank": 498,
+    "Type": "eum",
+    "ColorBlock": 622,
+    "IconHint": "laboriosam",
+    "Selected": false,
+    "LastChanged": "2018-01-09T03:40:57.0246001+01:00",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Kiehn-Douglas",
-        "ToolTip": "Atque qui ab.",
+        "Id": 922,
+        "Name": "O'Kon-Jacobson",
+        "ToolTip": "Cumque vitae assumenda debitis voluptates.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "sint",
-        "ColorBlock": 949,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2004-07-01T11:24:54.0155411+02:00",
+        "Rank": 51,
+        "Type": "laborum",
+        "ColorBlock": 22,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2000-03-06T03:40:57.0246001+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mary Hettinger"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Destinee Schimmel"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "quos",
+    "ExtraInfo": "magni",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Wendy Kutch"
+    "FullName": "Miss Russell Powlowski"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 582,
-    "Name": "Raynor Group",
-    "ToolTip": "Exercitationem tempore quis maxime consequuntur.",
+    "Id": 231,
+    "Name": "Streich Group",
+    "ToolTip": "Nihil nobis rerum voluptatibus qui culpa dolorem quia.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "molestiae",
-    "ColorBlock": 776,
-    "IconHint": "praesentium",
+    "Rank": 669,
+    "Type": "corrupti",
+    "ColorBlock": 742,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2019-07-17T11:24:54.0311654+02:00",
+    "LastChanged": "2018-10-18T03:40:57.0246001+02:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Schinner Inc and Sons",
-        "ToolTip": "Sed alias omnis sunt enim earum.",
+        "Id": 400,
+        "Name": "Casper-Conroy",
+        "ToolTip": "Alias nemo inventore ex porro recusandae.",
         "Deleted": true,
-        "Rank": 618,
-        "Type": "quis",
-        "ColorBlock": 659,
-        "IconHint": "ea",
+        "Rank": 507,
+        "Type": "id",
+        "ColorBlock": 147,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2019-11-28T11:24:54.0311654+01:00",
+        "LastChanged": "2001-04-22T03:40:57.0246001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Ms. Darrick Tod Goodwin II",
+        "FullName": "Elna Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldLength": 16
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
+    "ExtraInfo": "quia",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Darrion Gottlieb",
+    "FullName": "Aliyah Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

@@ -15,6 +15,7 @@ Get the image for a set of persons scaled to a specific size.
 
 
 Returned images are in PNG format.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -77,16 +78,16 @@ OK
 POST /api/v1/Agents/Person/GetPersonImages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PersonIds": [
-    580,
-    591
+    269,
+    511
   ],
-  "ScaledWidth": 322,
-  "ScaledHeight": 620
+  "ScaledWidth": 560,
+  "ScaledHeight": 756
 }
 ```
 
@@ -98,11 +99,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 856,
+    "PersonId": 755,
     "ImageData": "GIF89....File contents as raw bytes..."
   },
   {
-    "PersonId": 856,
+    "PersonId": 755,
     "ImageData": "GIF89....File contents as raw bytes..."
   }
 ]

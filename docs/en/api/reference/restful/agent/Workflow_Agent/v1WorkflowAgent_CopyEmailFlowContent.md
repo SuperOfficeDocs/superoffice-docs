@@ -15,6 +15,7 @@ Copy smessage and connected shipment to the email flow.
 
 
 The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 183,
-  "ShipmentId": 585
+  "EmailFlowId": 326,
+  "ShipmentId": 656
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-393
+547
 ```

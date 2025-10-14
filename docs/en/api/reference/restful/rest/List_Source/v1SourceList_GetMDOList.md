@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=porro
+GET /api/v1/List/Source/MDOItems?query=eligendi
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Streich, Jerde and Halvorson",
-    "ToolTip": "Molestiae autem inventore consequatur nobis quas.",
+    "Id": 787,
+    "Name": "Predovic Group",
+    "ToolTip": "Deleniti sed aliquid.",
     "Deleted": false,
-    "Rank": 663,
-    "Type": "quo",
+    "Rank": 643,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 92,
-        "Name": "Nicolas LLC",
-        "ToolTip": "Aperiam eum odio deserunt accusamus explicabo.",
+        "Id": 562,
+        "Name": "Willms Inc and Sons",
+        "ToolTip": "Reiciendis vel iusto veritatis.",
         "Deleted": false,
-        "Rank": 40,
-        "Type": "mollitia",
+        "Rank": 97,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 601,
-        "ExtraInfo": "magnam",
-        "StyleHint": "accusamus",
-        "FullName": "Ole Prosacco",
+        "IconHint": "possimus",
+        "ColorBlock": 826,
+        "ExtraInfo": "qui",
+        "StyleHint": "consequatur",
+        "FullName": "Milo Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 401
+            "FieldLength": 342
           }
         }
       }
     ],
-    "IconHint": "cum",
-    "ColorBlock": 981,
-    "ExtraInfo": "ut",
-    "StyleHint": "a",
-    "FullName": "Hunter Boyle",
+    "IconHint": "sunt",
+    "ColorBlock": 691,
+    "ExtraInfo": "amet",
+    "StyleHint": "sit",
+    "FullName": "Cynthia Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

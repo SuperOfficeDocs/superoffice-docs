@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Update price on the all the quotelines for each alternative in the current quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/UpdateQuoteVersionPrices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 29
+  "QuoteVersionId": 673
 }
 ```
 
@@ -97,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "totam",
-  "TechExplanation": "praesentium",
-  "ErrorCode": "itaque",
+  "IsOk": true,
+  "UserExplanation": "aut",
+  "TechExplanation": "quia",
+  "ErrorCode": "vel",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -114,7 +116,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldLength": 89
         }
       }
     },
@@ -127,7 +129,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldLength": 89
         }
       }
     }
@@ -138,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 246
     }
   }
 }

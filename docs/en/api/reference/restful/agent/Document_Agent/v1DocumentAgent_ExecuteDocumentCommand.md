@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Execute a custom command on a particular document, optionally a particular version
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -85,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 585,
-  "VersionId": "consequuntur",
+  "DocumentId": 468,
+  "VersionId": "rerum",
   "AllowedReturnTypes": [
-    "eum",
-    "odio"
+    "tenetur",
+    "voluptate"
   ],
-  "Command": "reiciendis",
+  "Command": "praesentium",
   "AdditionalData": [
-    "sed",
-    "dignissimos"
+    "dolores",
+    "molestiae"
   ]
 }
 ```
@@ -106,11 +108,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "placeat",
-  "VersionId": "et",
+  "ExternalReference": "quidem",
+  "VersionId": "temporibus",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "consectetur",
-  "AdditionalInfo": "magnam"
+  "Value": "est",
+  "AdditionalInfo": "quidem"
 }
 ```

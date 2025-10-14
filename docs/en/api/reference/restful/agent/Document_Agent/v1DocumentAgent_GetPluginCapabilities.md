@@ -15,6 +15,7 @@ Get a list of plugin-dependent capabilities for a given document archive plugin.
 
 
 &lt;br/&gt;A standard set of properties is defined in SuperOffice.CRM.Documents.Constants.Capabilities.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 340
+  "PluginId": 555
 }
 ```
 
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ipsum",
-  "2": "velit"
+  "1": "qui",
+  "2": "adipisci"
 }
 ```

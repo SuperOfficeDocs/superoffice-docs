@@ -15,6 +15,7 @@ Returning the projects belonging to an associate.
 
 
 If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -109,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 36,
-    "Name": "Kilback, Beer and Stokes",
-    "Description": "Sharable multimedia hardware",
+    "ProjectId": 692,
+    "Name": "Koepp, Nikolaus and Christiansen",
+    "Description": "Synergized methodical process improvement",
     "URL": "http://www.example.com/",
-    "Type": "officia",
-    "AssociateId": 709,
-    "AssociateFullName": "Jeffrey Spinka",
-    "TypeId": 537,
-    "Updated": "2008-05-04T11:24:48.4845166+02:00",
-    "StatusId": 861,
-    "Status": "corporis",
-    "TextId": 597,
-    "PublishTo": "2011-08-29T11:24:48.4845166+02:00",
-    "PublishFrom": "2021-04-10T11:24:48.4845166+02:00",
-    "IsPublished": true,
+    "Type": "cumque",
+    "AssociateId": 914,
+    "AssociateFullName": "Eva Deckow",
+    "TypeId": 33,
+    "Updated": "2022-01-27T03:40:47.4843558+01:00",
+    "StatusId": 886,
+    "Status": "consequatur",
+    "TextId": 258,
+    "PublishTo": "2010-06-12T03:40:47.4843558+02:00",
+    "PublishFrom": "2023-06-03T03:40:47.4843558+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1343578",
-    "ActiveErpLinks": 335,
+    "ProjectNumber": "309726",
+    "ActiveErpLinks": 783,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldLength": 29
       }
     }
   }

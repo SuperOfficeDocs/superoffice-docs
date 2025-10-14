@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Saves a foreign device for an foreign application
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,12 +85,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Jacobson Inc and Sons"
+  "ApplicationName": "Corkery-Satterfield"
 }
 ```
 
@@ -99,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 481,
-  "Name": "Dooley-Rosenbaum",
-  "CreatedDate": "2025-06-19T11:24:48.1564051+02:00",
-  "UpdatedDate": "1998-07-10T11:24:48.1564051+02:00",
-  "AssociateFullName": "Ignatius Wolf",
-  "CreatedBy": "nesciunt",
-  "UpdatedBy": "laudantium",
-  "DeviceIdentifier": "non",
-  "ForeignAppId": 98,
+  "ForeignDeviceId": 490,
+  "Name": "Crist Group",
+  "CreatedDate": "2009-07-28T03:40:46.9999043+02:00",
+  "UpdatedDate": "2007-02-12T03:40:46.9999043+01:00",
+  "AssociateFullName": "Ms. Libbie Skiles",
+  "CreatedBy": "atque",
+  "UpdatedBy": "fugit",
+  "DeviceIdentifier": "deleniti",
+  "ForeignAppId": 213,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

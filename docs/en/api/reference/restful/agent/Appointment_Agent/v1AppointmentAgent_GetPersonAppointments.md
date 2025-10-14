@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 558,
+  "PersonId": 397,
   "IncludeProjectAppointments": false,
-  "StartTime": "2021-03-24T11:24:47.5783035+01:00",
-  "EndTime": "2025-06-30T11:24:47.5783035+02:00",
-  "Count": 428
+  "StartTime": "2014-07-20T03:40:46.0452033+02:00",
+  "EndTime": "2005-03-08T03:40:46.0452033+01:00",
+  "Count": 484
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 957,
-    "StartDate": "2007-04-19T11:24:47.5783035+02:00",
-    "EndDate": "2001-08-27T11:24:47.5783035+02:00",
+    "AppointmentId": 411,
+    "StartDate": "2018-09-16T03:40:46.0452033+02:00",
+    "EndDate": "1999-06-18T03:40:46.0452033+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Mrs. Dayton West Sr.",
-    "ContactName": "Brakus, Reynolds and Pouros",
-    "Description": "Focused local methodology",
-    "PersonFullName": "Kathleen Jarrell Grant Sr.",
-    "PersonId": 425,
-    "ContactId": 26,
-    "ProjectId": 778,
-    "ProjectName": "Mills-Marvin",
+    "Task": "unde",
+    "AssociateFullName": "Ricky Gleichner I",
+    "ContactName": "Gutmann, Sporer and Hartmann",
+    "Description": "Exclusive maximized attitude",
+    "PersonFullName": "Valentine Cassin",
+    "PersonId": 446,
+    "ContactId": 618,
+    "ProjectId": 419,
+    "ProjectName": "Hyatt-Bernhard",
     "IsPublished": true,
-    "AssociateId": 608,
-    "ColorIndex": 492,
-    "IsFree": true,
+    "AssociateId": 12,
+    "ColorIndex": 597,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 643,
-    "PriorityName": "Gibson, Wilderman and O'Reilly",
+    "PriorityId": 453,
+    "PriorityName": "Schumm-Kuhn",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2003-02-26T11:24:47.5783035+01:00",
+    "ActiveDate": "2009-11-11T03:40:46.0452033+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-11-13T11:24:47.5783035+01:00",
-    "RecurringEndDate": "2022-08-21T11:24:47.5783035+02:00",
-    "MotherId": 180,
-    "AssignedBy": 310,
-    "AssignedByFullName": "Mckayla Schuppe",
+    "RecurringStartDate": "2011-09-15T03:40:46.0452033+02:00",
+    "RecurringEndDate": "2013-09-18T03:40:46.0452033+02:00",
+    "MotherId": 60,
+    "AssignedBy": 179,
+    "AssignedByFullName": "Antoinette Javonte O'Conner II",
     "RejectReason": "",
-    "Location": "iusto",
-    "AlarmLeadTime": "numquam",
-    "SaleId": 355,
-    "SaleName": "Swaniawski-Stark",
-    "AssociateName": "Quigley Group",
-    "CreatedDate": "2011-03-07T11:24:47.5783035+01:00",
-    "CreatedBy": "sint",
-    "CreatedByFullName": "Mrs. Nichole Koss IV",
-    "CreatedByAssociateId": 181,
+    "Location": "quidem",
+    "AlarmLeadTime": "consectetur",
+    "SaleId": 943,
+    "SaleName": "Bradtke, Rodriguez and Heidenreich",
+    "AssociateName": "Kuhic Group",
+    "CreatedDate": "2006-05-27T03:40:46.0452033+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Mr. Stanley Deckow",
+    "CreatedByAssociateId": 128,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 988,
+    "MotherAssociateId": 304,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 222,
-    "Title": "sint",
-    "Agenda": "id",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 618,
+    "Title": "reprehenderit",
+    "Agenda": "ut",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 544
       }
     }
   }

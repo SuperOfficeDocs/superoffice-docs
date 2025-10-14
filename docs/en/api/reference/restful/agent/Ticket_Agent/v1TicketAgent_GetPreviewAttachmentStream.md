@@ -15,6 +15,7 @@ Deprecated, see GetPreviewAttachment instead.
 
 
 Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -83,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 866
+  "AttachmentId": 49
 }
 ```
 
@@ -94,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger, Brown and Harris",
-  "Type": "officiis",
-  "Size": 418,
+  "Name": "Tillman LLC",
+  "Type": "similique",
+  "Size": 902,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 432
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEmailDocumentAsMimeStream
 Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -75,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 162
+  "DocumentId": 90
 }
 ```
 

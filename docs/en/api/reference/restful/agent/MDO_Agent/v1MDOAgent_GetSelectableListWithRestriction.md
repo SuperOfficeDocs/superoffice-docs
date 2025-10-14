@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Method to get a Selectable MDO list with restrictions.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -90,13 +92,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kessler-Abshire",
-  "AdditionalInfo": "eligendi",
-  "SearchValue": "eveniet"
+  "Name": "Brekke, Lebsack and Ratke",
+  "AdditionalInfo": "unde",
+  "SearchValue": "delectus"
 }
 ```
 
@@ -108,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Hoeger, Treutel and Sipes",
-    "ToolTip": "Dolore eaque rerum dolorum ea voluptatem inventore.",
-    "Deleted": false,
-    "Rank": 378,
-    "Type": "cum",
-    "ColorBlock": 664,
-    "IconHint": "suscipit",
+    "Id": 229,
+    "Name": "Labadie-Robel",
+    "ToolTip": "Sint maiores.",
+    "Deleted": true,
+    "Rank": 993,
+    "Type": "et",
+    "ColorBlock": 493,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2001-02-01T11:24:48.2657757+01:00",
+    "LastChanged": "2011-09-14T03:40:47.2655452+02:00",
     "ChildItems": [
       {
-        "Id": 704,
-        "Name": "Kuhn, Dicki and Quitzon",
-        "ToolTip": "Minus nulla laborum eius voluptatem fugit autem sequi.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "commodi",
-        "ColorBlock": 918,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2020-04-01T11:24:48.2657757+02:00",
+        "Id": 726,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Voluptatem facilis architecto soluta eos saepe quos labore.",
+        "Deleted": true,
+        "Rank": 814,
+        "Type": "dicta",
+        "ColorBlock": 172,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2017-10-13T03:40:47.2655452+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Mr. Reymundo Howard Dibbert",
+        "FullName": "Mr. Oleta Rogelio Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "nisi",
+    "StyleHint": "perferendis",
     "Hidden": true,
-    "FullName": "Ms. Carmine Chelsie Muller",
+    "FullName": "Prof. Lesley Nick Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldType": "System.String",
+        "FieldLength": 708
       }
     }
   }

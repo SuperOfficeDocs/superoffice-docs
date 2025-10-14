@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentials
 Remove a credentials entry for authenticated user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -68,12 +71,12 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "alias",
-  "PublicValue": "nesciunt"
+  "Type": "neque",
+  "PublicValue": "placeat"
 }
 ```
 

@@ -15,6 +15,7 @@ Mass-insert rows, with or without primary keys specified.
 
 
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,14 +84,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Weber-Cremin",
+  "TableName": "Purdy Group",
   "Columns": [
-    "non",
-    "aut"
+    "mollitia",
+    "deleniti"
   ],
   "Data": [
     [
@@ -110,41 +111,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "qui",
-  "Inserts": 769,
-  "Updates": 743,
-  "Deletes": 559,
+  "Success": true,
+  "Message": "et",
+  "Inserts": 22,
+  "Updates": 225,
+  "Deletes": 856,
   "RowStatus": [
     {
-      "PrimaryKey": 37,
+      "PrimaryKey": 525,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "assumenda",
-        "est"
+        "ut",
+        "consectetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 986
         }
       }
     },
     {
-      "PrimaryKey": 37,
+      "PrimaryKey": 525,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "assumenda",
-        "est"
+        "ut",
+        "consectetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 986
         }
       }
     }
@@ -153,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Loading default values into a new CurrencyEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -62,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 704,
-  "Name": "Wisoky, Haag and Huel",
-  "Tooltip": "quidem",
-  "Rank": 94,
-  "Rate": 6114.434,
-  "Units": 5898.188,
+  "CurrencyId": 569,
+  "Name": "Nolan Group",
+  "Tooltip": "quis",
+  "Rank": 131,
+  "Rate": 4835.762,
+  "Units": 7797.392,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   }
 }

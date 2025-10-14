@@ -15,6 +15,7 @@ Creates a new DashTile
 
 
 Calls the Dash agent service SaveDashTile.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 521,
-  "DashboardId": 882,
-  "Height": 703,
-  "Width": 190,
-  "Rank": 644,
+  "DashboardTileId": 140,
+  "DashboardId": 250,
+  "Height": 148,
+  "Width": 750,
+  "Rank": 479,
   "DashTileDefinition": null
 }
 ```
@@ -107,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 615,
-  "DashboardId": 816,
-  "Height": 822,
-  "Width": 803,
-  "Rank": 678,
+  "DashboardTileId": 812,
+  "DashboardId": 979,
+  "Height": 289,
+  "Width": 536,
+  "Rank": 631,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 772
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

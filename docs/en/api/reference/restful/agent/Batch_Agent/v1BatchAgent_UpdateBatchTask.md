@@ -15,6 +15,7 @@ Update information about a BatchTask.
 
 
 Only the following properties can be updated: State, Description, Response and Request.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Jast Inc and Sons",
-  "AssociateId": 29,
-  "DetailsTable": 781,
-  "DetailsRecord": 607,
+  "Id": 906,
+  "Name": "Kutch, Cole and Dibbert",
+  "AssociateId": 663,
+  "DetailsTable": 111,
+  "DetailsRecord": 657,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eligendi",
-    "ParameterObject2": "ipsa"
+    "ParameterObject1": "excepturi",
+    "ParameterObject2": "aperiam"
   },
-  "LastStarted": "2022-02-22T11:24:47.6095526+01:00",
-  "Created": "2012-09-01T11:24:47.6095526+02:00",
-  "StartCount": 148,
-  "DatabaseSerialNumber": "1393859",
-  "Context": "tempore",
-  "Result": "nostrum",
+  "LastStarted": "2004-07-23T03:40:46.0764548+02:00",
+  "Created": "2007-08-28T03:40:46.0764548+02:00",
+  "StartCount": 685,
+  "DatabaseSerialNumber": "832255",
+  "Context": "magnam",
+  "Result": "qui",
   "State": "All",
-  "Description": "Up-sized 6th generation hardware",
-  "Response": "enim",
-  "Request": "sapiente",
-  "ProgressDescription": "Configurable mission-critical process improvement",
-  "ProgressPercent": 707,
-  "FileName": "Rogahn LLC",
+  "Description": "Monitored national focus group",
+  "Response": "qui",
+  "Request": "minus",
+  "ProgressDescription": "Adaptive client-server structure",
+  "ProgressPercent": 481,
+  "FileName": "Nikolaus, Johnston and Herman",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

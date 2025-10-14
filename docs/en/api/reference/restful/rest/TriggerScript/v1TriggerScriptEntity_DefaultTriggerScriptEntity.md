@@ -18,6 +18,7 @@ NetServer calculates default values on the entity, which is required when creati
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultTriggerScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 660,
-  "Name": "Bernier Inc and Sons",
+  "ScreenChooserId": 877,
+  "Name": "Kuhn, Moen and Cronin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "natus",
-  "Registered": "2017-06-11T11:24:53.7186781+02:00",
-  "RegisteredAssociateId": 861,
-  "Updated": "2003-12-31T11:24:53.7186781+01:00",
-  "UpdatedAssociateId": 301,
+  "UniqueIdentifier": "nulla",
+  "Source": "fugiat",
+  "Registered": "2010-09-07T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 931,
+  "Updated": "2014-07-24T03:40:56.4140988+02:00",
+  "UpdatedAssociateId": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

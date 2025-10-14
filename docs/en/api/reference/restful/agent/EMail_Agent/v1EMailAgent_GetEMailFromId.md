@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromId
 Get en e-mail based on its unique id
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -105,12 +108,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 233,
+  "MessageServerId": 901,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
@@ -126,96 +129,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 765,
-      "ContactName": "Bogan, Turcotte and Harvey",
-      "PersonId": 309,
-      "PersonName": "Homenick, Considine and Greenholt",
-      "AssociateId": 623,
-      "Address": "ut",
-      "EmailId": 594,
+      "ContactId": 487,
+      "ContactName": "Sporer, Pollich and Gorczany",
+      "PersonId": 204,
+      "PersonName": "Lehner-Koss",
+      "AssociateId": 106,
+      "Address": "ex",
+      "EmailId": 390,
       "DuplicatePersonIds": [
-        550,
-        192
+        174,
+        348
       ],
-      "Name": "Von, Hegmann and King",
+      "Name": "Gibson, Zulauf and Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 410
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 471,
-      "ContactName": "Ryan, Corkery and Ratke",
-      "PersonId": 603,
-      "PersonName": "Effertz-Price",
-      "AssociateId": 773,
-      "Address": "nam",
-      "EmailId": 454,
+      "ContactId": 756,
+      "ContactName": "Bogisich-Raynor",
+      "PersonId": 764,
+      "PersonName": "Lesch Inc and Sons",
+      "AssociateId": 520,
+      "Address": "quam",
+      "EmailId": 211,
       "DuplicatePersonIds": [
-        238,
-        295
+        327,
+        649
       ],
-      "Name": "Luettgen Inc and Sons",
+      "Name": "Weimann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 713
+          "FieldLength": 119
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 407,
-      "ContactName": "Torp-Cassin",
-      "PersonId": 450,
-      "PersonName": "Boehm-Koch",
-      "AssociateId": 616,
-      "Address": "in",
-      "EmailId": 698,
+      "ContactId": 85,
+      "ContactName": "Swaniawski-Prosacco",
+      "PersonId": 550,
+      "PersonName": "Hintz-Upton",
+      "AssociateId": 954,
+      "Address": "illum",
+      "EmailId": 657,
       "DuplicatePersonIds": [
-        936,
-        554
+        227,
+        89
       ],
-      "Name": "Borer, McLaughlin and Rippin",
+      "Name": "Oberbrunner-Buckridge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldLength": 933
         }
       }
     }
   ],
-  "Subject": "temporibus",
-  "HTMLBody": "maiores",
+  "Subject": "delectus",
+  "HTMLBody": "labore",
   "From": null,
-  "Sent": "2009-04-11T11:24:48.078283+02:00",
-  "Size": 462,
+  "Sent": "2014-03-19T03:40:46.8592703+01:00",
+  "Size": 909,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quam",
-  "PlainBody": "ullam",
-  "IsSent": false,
+  "MessageID": "aut",
+  "PlainBody": "est",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 580,
+  "ServerId": 440,
   "Attachments": [
     {
-      "Description": "Re-engineered intermediate customer loyalty",
-      "Filename": "consectetur",
-      "Size": 59,
-      "Type": "quo",
-      "Encoding": "et",
-      "Id": "molestiae",
+      "Description": "Operative tangible intranet",
+      "Filename": "asperiores",
+      "Size": 278,
+      "Type": "a",
+      "Encoding": "quos",
+      "Id": "repellendus",
       "Disposition": "nisi",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
@@ -224,50 +227,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 578
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kling-Nikolaus",
+      "Name": "Fritsch, Koch and Kling",
       "Values": [
-        "harum",
-        "cumque"
+        "alias",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 960
         }
       }
     },
     {
-      "Name": "Kling-Nikolaus",
+      "Name": "Fritsch, Koch and Kling",
       "Values": [
-        "harum",
-        "cumque"
+        "alias",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 960
         }
       }
     }
   ],
-  "FolderName": "Rau-Lehner",
-  "EmailItemId": 323,
-  "AccountId": 352,
-  "ReceivedAt": "2014-10-31T11:24:48.078283+01:00",
+  "FolderName": "Hansen-Barton",
+  "EmailItemId": 239,
+  "AccountId": 772,
+  "ReceivedAt": "2007-10-12T03:40:46.8592703+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-06-10T11:24:48.078283+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2002-06-30T03:40:46.8592703+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -275,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 507
     }
   }
 }

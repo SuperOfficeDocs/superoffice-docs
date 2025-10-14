@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/CreateDefaultPersonImage
 Loading default values into a new PersonImage.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -55,7 +57,7 @@ OK
 POST /api/v1/Agents/Person/CreateDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -65,7 +67,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 361,
+  "PersonId": 935,
   "ImageData": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetListItemsForHeading
 Update listItems that will be visible for this usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,11 +74,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 488,
-  "HeadingId": 905,
+  "UdListDefinitionId": 116,
+  "HeadingId": 65,
   "ListItemIds": [
-    96,
-    416
+    310,
+    862
   ],
   "Enable": true
 }

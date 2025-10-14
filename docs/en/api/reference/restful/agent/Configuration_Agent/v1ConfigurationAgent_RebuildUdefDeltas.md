@@ -15,6 +15,7 @@ Flush and rebuild userdefined field deltas.
 
 
 Mostly used after publishing udefs or adding/editing Customer Service extrafields
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -59,7 +60,7 @@ No Content
 POST /api/v1/Agents/Configuration/RebuildUdefDeltas
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

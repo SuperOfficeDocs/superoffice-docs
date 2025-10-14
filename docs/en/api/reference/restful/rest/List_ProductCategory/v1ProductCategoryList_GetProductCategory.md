@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 923,
-  "Name": "Hagenes, Jakubowski and Kunze",
-  "Tooltip": "dolorem",
+  "Id": 946,
+  "Name": "Towne, Ebert and Friesen",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 742,
-  "Rank": 839,
+  "UdListDefinitionId": 842,
+  "Rank": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 522
     }
   }
 }

@@ -15,6 +15,10 @@ Returns contact and person information from an image.
 
 
 Merges results with matching database records if merge = true
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -83,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Image": "GIF89....File contents as raw bytes...",
-  "MergeWithDatabase": false
+  "MergeWithDatabase": true
 }
 ```
 
@@ -96,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "natus",
-  "PhotoImage": "non"
+  "LogoImage": "accusamus",
+  "PhotoImage": "magnam"
 }
 ```

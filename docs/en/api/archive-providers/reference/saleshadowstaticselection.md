@@ -78,6 +78,7 @@ Shadow contact provider for the static sale provider.
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -120,18 +121,20 @@ Shadow contact provider for the static sale provider.
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
 |person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
 |person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -222,13 +225,13 @@ Shadow contact provider for the static sale provider.
 |person/personExtra/y\_rental/x\_end|date|Rental - End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
-|person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
-|person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
+|person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
+|person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -312,6 +315,7 @@ Shadow contact provider for the static sale provider.
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -325,14 +329,14 @@ Shadow contact provider for the static sale provider.
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |contact/registeredBy|associate|Registered by: The user who registered the data| x |
 |contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|contact/contactSource|listAny|Source: Source (Company)| x |
-|contact/contactDeleted|bool|Deleted: Deleted| x |
-|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|contact/contactSource|listAny|Source: Source (Company)| x |
+|contact/contactDeleted|bool|Deleted: Deleted| x |
+|contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
@@ -429,14 +433,14 @@ Shadow contact provider for the static sale provider.
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
-|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
-|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
-|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
+|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
+|contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
+|contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
@@ -533,14 +537,14 @@ Shadow contact provider for the static sale provider.
 |appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
 |appointment/recordType|string|Record type : Shows the record type| x |
-|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
-|appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|appointment/contactId|listAny|Company ID: Database ID of company| x |
-|appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
+|appointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
+|appointment/contactId|listAny|Company ID: Database ID of company| x |
+|appointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |appointment/projectId|listAny|Project ID: Database ID of project record| x |
 |appointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |appointment/userGroup|userGroup|User group : The user group that owns the record| x |
@@ -637,14 +641,14 @@ Shadow contact provider for the static sale provider.
 |document/recordType|string|Record type : Shows the record type| x |
 |document/text|positiveString|Text: Displays a descriptive text for the item| x |
 |document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-|document/contactId|listAny|Company ID: Database ID of company| x |
-|document/personId|listAny|Contact ID: Database ID of the contact row| x |
-|document/projectId|listAny|Project ID: Database ID of project record| x |
-|document/saleId|int|Sale ID: The database ID of the sale record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/contactId|listAny|Company ID: Database ID of company| x |
+|document/personId|listAny|Contact ID: Database ID of the contact row| x |
+|document/projectId|listAny|Project ID: Database ID of project record| x |
+|document/saleId|int|Sale ID: The database ID of the sale record| x |
 |document/userGroup|userGroup|User group : The user group that owns the record| x |
 |document/who| *None* |Who: Contact and/or company|  |
 |document/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -741,14 +745,14 @@ Shadow contact provider for the static sale provider.
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |project/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
-|project/projectEvent/eventDate|date|Event date: Event date| x |
-|project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
-|project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
+|project/projectEvent/eventDate|date|Event date: Event date| x |
+|project/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
+|project/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |project/projectUrl/URLAddress|string|URL| x |
 |project/projectUrl/URLDescription|string|Description| x |
 |project/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -845,14 +849,14 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/person/useAsMailingAddress|bool|Stakeholder - Use as postal address: Use as postal address| x |
 |saleStakeholder/person/personSource|listAny|Stakeholder - Source: Source (Contact)| x |
 |saleStakeholder/person/retired|bool|Stakeholder - Former employee: Indicates whether the contact has retired/left the company| x |
-|saleStakeholder/person/birthYear|int|Stakeholder - Birth year: Displays contact's birth year| x |
-|saleStakeholder/person/birthMonth|int|Stakeholder - Birth month: Displays contact's birth month| x |
-|saleStakeholder/person/birthDay|int|Stakeholder - Birth day: Displays contact's birth day (day of month)| x |
-|saleStakeholder/person/kanaFirstName|string|Stakeholder - First name, kana: Contact's first name, in kana alphabet| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/birthYear|int|Stakeholder - Birth year: Displays contact's birth year| x |
+|saleStakeholder/person/birthMonth|int|Stakeholder - Birth month: Displays contact's birth month| x |
+|saleStakeholder/person/birthDay|int|Stakeholder - Birth day: Displays contact's birth day (day of month)| x |
+|saleStakeholder/person/kanaFirstName|string|Stakeholder - First name, kana: Contact's first name, in kana alphabet| x |
 |saleStakeholder/person/kanaLastName|string|Stakeholder - Last name, kana: Contact's last name, in kana alphabet| x |
 |saleStakeholder/person/personUpdatedBy|associate|Stakeholder - Updated by: The user who last updated the data| x |
 |saleStakeholder/person/personUpdatedByFullName|associate|Stakeholder - Updated by - Full name: The user who last updated the data| x |
@@ -869,7 +873,9 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
+|saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
+|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
@@ -947,16 +953,16 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/person/personExtra/x\_person\_time| *None* |Stakeholder - Extra time: Custom time field on person. Current time as default| x |
 |saleStakeholder/person/personExtra/x\_person\_boolean|bool|Stakeholder - Extra Boolean: Custom boolean field on person. Default checked| x |
 |saleStakeholder/person/personExtra/x\_person\_timespan|timeSpan|Stakeholder - Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_shorttext|string|Stakeholder - Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |saleStakeholder/person/personExtra/x\_person\_shorttext\_list|listAny|Stakeholder - Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |saleStakeholder/person/personExtra/x\_person\_user\_relation|associate|Stakeholder - Extra user relation: Custom person-user relation field| x |
 |saleStakeholder/person/personExtra/x\_person\_category\_relation|listAny|Stakeholder - Extra category relation: Custom person-category relation| x |
 |saleStakeholder/person/personExtra/x\_person\_priority\_relation|listAny|Stakeholder - Extra priority relation: Custom person-priority relation| x |
 |saleStakeholder/person/personExtra/x\_person\_request\_relation|stringorPK|Stakeholder - Extra request relation: Request relation on contact| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/personExtra/x\_person\_appointment\_relation|stringorPK|Stakeholder - Extra appointment relation: Appointment relation on person| x |
 |saleStakeholder/person/personExtra/x\_person\_contact\_relation|stringorPK|Stakeholder - Extra company relation: Company relation on contact| x |
 |saleStakeholder/person/personExtra/y\_rental/id|int|Stakeholder - Rental - id: Displays the row's primary key (y\_rental)| x |
@@ -1050,6 +1056,11 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
+|saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
@@ -1057,10 +1068,6 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/code|string|Stakeholder - Code| x |
 |saleStakeholder/contact/orgnr|string|Stakeholder - VAT No.| x |
 |saleStakeholder/contact/stop|bool|Stakeholder - Stop| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactNoMail|bool|Stakeholder - No mailings (company)| x |
 |saleStakeholder/contact/updatedBy|associate|Stakeholder - Updated by: The user who last updated the data| x |
 |saleStakeholder/contact/updatedByFullName|associate|Stakeholder - Updated by - Full name: The user who last updated the data| x |
@@ -1154,6 +1161,10 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/contactAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
 |saleStakeholder/contact/contactAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 |saleStakeholder/contact/contactAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/contact/contactAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/contact/contactAssociate/personEmail|string|Stakeholder - E-mail| x |
@@ -1161,10 +1172,6 @@ Shadow contact provider for the static sale provider.
 |saleStakeholder/contact/contactAssociate/isLocation|bool|Stakeholder - Is a location: Is a location| x |
 |saleStakeholder/contact/contactInterestIds|listInterest|Stakeholder - Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
 |saleStakeholder/contact/contactUdef/SuperOffice:1|string|Stakeholder - companyshorttext: tooltipshorttext| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactUdef/SuperOffice:2|string|Stakeholder - companylongtext: tooltiplongtext| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:3|int|Stakeholder - companynumber| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:4|date|Stakeholder - companydate| x |
@@ -1258,6 +1265,10 @@ Shadow contact provider for the static sale provider.
 |quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
 |quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
 |quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/version/alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
 |quote/version/alternative/discountAmount|decimal|Discount: Enter total discount for entire alternative| x |
 |quote/version/alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
@@ -1265,10 +1276,6 @@ Shadow contact provider for the static sale provider.
 |quote/version/alternative/earningPercent|decimal|Earnings %: Total Earnings as a percentage of the total price, of all lines in the quote alternative, including all discounts| x |
 |quote/version/alternative/earningAmount|decimal|Earnings: Total Earnings for all lines in the quote alternative, including all discounts| x |
 |quote/version/alternative/totalPrice|decimal|Total: Total price of all items in the quote alternative, including all discounts| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/alternative/extraField1|string|Extra 1: Extra field 1 on the quote alternative| x |
 |quote/version/alternative/extraField2|string|Extra 2: Extra field 2 on the quote alternative| x |
 |quote/version/alternative/extraField3|string|Extra 3: Extra field 3on the quote alternative| x |
@@ -1330,7 +1337,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelection?$select=person/personExtra/x_person_request_relation,contact/updatedBy,contact/contactExtra/x_contact_shorttext,associate/personId,appointment/date
+GET /api/v1/archive/SaleShadowStaticSelection?$select=stageRank,person/birthMonth,person/personAssociate/locationAddress,appointment/appointmentUdef/SuperOffice:7,document/associate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

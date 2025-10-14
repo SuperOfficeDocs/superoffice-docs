@@ -15,6 +15,7 @@ Set default values into a new DashTile.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTile.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -73,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 32,
-  "DashboardId": 385,
-  "Height": 459,
-  "Width": 734,
-  "Rank": 942,
+  "DashboardTileId": 505,
+  "DashboardId": 823,
+  "Height": 563,
+  "Width": 388,
+  "Rank": 832,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

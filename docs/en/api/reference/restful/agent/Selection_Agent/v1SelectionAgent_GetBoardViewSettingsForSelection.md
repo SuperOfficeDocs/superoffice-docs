@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetBoardViewSettingsForSelection
 Get BoardViewSettings by associate id and selection id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -88,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 550,
-  "SelectionId": 35
+  "AssociateId": 331,
+  "SelectionId": 853
 }
 ```
 
@@ -100,17 +102,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 441,
+  "BoardViewSettingsId": 629,
   "EntityType": "None",
-  "AssociateId": 68,
-  "SelectionId": 529,
+  "AssociateId": 536,
+  "SelectionId": 184,
   "HideEmptyGroups": false,
-  "GroupBy": "et",
-  "SubGroupBy": "voluptates",
-  "SortBy": "quam",
+  "GroupBy": "fugit",
+  "SubGroupBy": "nostrum",
+  "SortBy": "tenetur",
   "SortDesc": false,
-  "SumBy": "necessitatibus",
-  "ColorBy": "optio",
-  "Filters": "id"
+  "SumBy": "aut",
+  "ColorBy": "ut",
+  "Filters": "et"
 }
 ```

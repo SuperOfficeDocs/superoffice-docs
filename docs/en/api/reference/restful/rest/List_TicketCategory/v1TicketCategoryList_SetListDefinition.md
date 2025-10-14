@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 341,
-  "Name": "Wunsch-Jaskolski",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "Rank": 876,
+  "Id": 303,
+  "Name": "Greenfelder Group",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 41,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Johns, Schiller and Streich",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 443,
+  "Id": 107,
+  "Name": "Wunsch-Corkery",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 261,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

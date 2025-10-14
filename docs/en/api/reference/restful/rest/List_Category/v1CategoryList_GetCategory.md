@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "Name": "Mills-Sauer",
-  "Tooltip": "commodi",
+  "Id": 512,
+  "Name": "Witting, Goldner and Nolan",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 951,
-  "Rank": 897,
+  "UdListDefinitionId": 875,
+  "Rank": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 531
     }
   }
 }

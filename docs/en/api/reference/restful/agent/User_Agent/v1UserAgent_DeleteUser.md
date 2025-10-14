@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/DeleteUser
 Deletes the User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -28,7 +31,7 @@ Deletes the User
 | userId | int32 | **Required** The identity of the User |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?userId=796
+POST /api/v1/Agents/User/DeleteUser?userId=116
 ```
 
 

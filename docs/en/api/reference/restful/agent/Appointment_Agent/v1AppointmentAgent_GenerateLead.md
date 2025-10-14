@@ -15,6 +15,7 @@ Adds a sales lead (task) to a contact in SuperOffice.
 
 
 If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -89,22 +90,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 818,
-  "LeadDescription": "Realigned zero defect structure",
-  "Relation": "aut",
-  "RelationId": 938,
-  "LeadContact": "ea",
-  "LeadPersonFirstname": "Berenice",
-  "LeadPersonLastname": "Johnson",
-  "LeadPersonEmail": "dagmar.mckenzie@pouros.name",
-  "LeadPhoneNumber": "1388830",
-  "CreatorsContact": "provident",
-  "CreatorsFirstname": "Rickey",
-  "CreatorsLastname": "Langosh"
+  "AssociateIdForNewContact": 266,
+  "LeadDescription": "Programmable context-sensitive superstructure",
+  "Relation": "sit",
+  "RelationId": 585,
+  "LeadContact": "iusto",
+  "LeadPersonFirstname": "Bernie",
+  "LeadPersonLastname": "Lockman",
+  "LeadPersonEmail": "murray.fisher@schulist.info",
+  "LeadPhoneNumber": "1155748",
+  "CreatorsContact": "temporibus",
+  "CreatorsFirstname": "Edwina",
+  "CreatorsLastname": "O'Conner"
 }
 ```
 
@@ -117,36 +118,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 300,
-      "Name": "Prosacco, Hartmann and Muller",
-      "OrgNr": "1253235",
+      "ContactId": 901,
+      "Name": "Thompson-Von",
+      "OrgNr": "694638",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "qui",
-      "DirectPhone": "(060)608-8833",
-      "AssociateId": 855,
-      "CountryId": 518,
-      "EmailAddress": "margaretta_kuvalis@gerholdvolkman.co.uk",
-      "Kananame": "natus",
-      "EmailAddressName": "martin@ohara.name",
+      "City": "illum",
+      "DirectPhone": "817-459-3831",
+      "AssociateId": 37,
+      "CountryId": 389,
+      "EmailAddress": "kaia@senger.biz",
+      "Kananame": "id",
+      "EmailAddressName": "gardner@larson.co.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Dell Smith V",
+      "AssociateFullName": "Veronica Bradtke",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sit",
-      "FullName": "Darian Berge",
+      "FormattedAddress": "rerum",
+      "FullName": "Emilia Zola Sipes I",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 1000,
-      "Number1": "822644",
-      "Number2": "296688",
+      "ActiveErpLinks": 266,
+      "Number1": "656752",
+      "Number2": "745208",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 302
         }
       }
     }
@@ -158,7 +159,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 632
     }
   }
 }

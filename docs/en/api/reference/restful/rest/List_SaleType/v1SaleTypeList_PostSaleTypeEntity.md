@@ -108,51 +108,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 791,
-  "Name": "Heaney-Witting",
-  "Tooltip": "ab",
-  "Rank": 414,
+  "SaleTypeId": 465,
+  "Name": "Block, Hudson and Orn",
+  "Tooltip": "minus",
+  "Rank": 353,
   "DurationUnit": "Century",
-  "SaleDuration": 352,
-  "SaleTypeCatId": 351,
+  "SaleDuration": 859,
+  "SaleTypeCatId": 164,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 837,
-  "QuoteLinesTemplate": 244,
-  "ConfirmationLinesTemplate": 362,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 992,
+  "QuoteLinesTemplate": 250,
+  "ConfirmationLinesTemplate": 833,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
   "MaxDiscountPercent": 885,
-  "MinEarningPercent": 916,
-  "GroupQuoteLinesBy": 351,
-  "SortGroupLinesBy": 45,
+  "MinEarningPercent": 581,
+  "GroupQuoteLinesBy": 377,
+  "SortGroupLinesBy": 314,
   "Stages": [
     {
-      "Id": 461,
-      "Name": "Feest-Murray",
-      "ToolTip": "Qui iusto quam error.",
-      "Deleted": false,
-      "Rank": 583,
-      "Type": "et",
-      "ColorBlock": 975,
-      "IconHint": "eos",
-      "Selected": true,
-      "LastChanged": "2009-10-08T11:24:54.1405361+02:00",
+      "Id": 758,
+      "Name": "Harber, Mayert and Stoltenberg",
+      "ToolTip": "Neque doloribus minus sed.",
+      "Deleted": true,
+      "Rank": 914,
+      "Type": "deserunt",
+      "ColorBlock": 346,
+      "IconHint": "consequatur",
+      "Selected": false,
+      "LastChanged": "2000-12-10T03:40:57.1027301+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "dolore",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Brady Murphy"
+      "FullName": "Ms. Karl Monty Schulist"
     }
   ]
 }
@@ -165,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 559,
-  "Name": "Keebler LLC",
-  "Tooltip": "vel",
-  "Rank": 899,
+  "SaleTypeId": 610,
+  "Name": "Ebert-Howell",
+  "Tooltip": "dolores",
+  "Rank": 506,
   "DurationUnit": "Century",
-  "SaleDuration": 351,
-  "SaleTypeCatId": 530,
-  "Deleted": false,
+  "SaleDuration": 290,
+  "SaleTypeCatId": 910,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 582,
-  "QuoteLinesTemplate": 898,
-  "ConfirmationLinesTemplate": 183,
+  "DefaultQuoteValidity": 549,
+  "QuoteLinesTemplate": 934,
+  "ConfirmationLinesTemplate": 284,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 231,
-  "MinEarningPercent": 440,
-  "GroupQuoteLinesBy": 327,
-  "SortGroupLinesBy": 485,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 932,
+  "MinEarningPercent": 488,
+  "GroupQuoteLinesBy": 749,
+  "SortGroupLinesBy": 524,
   "Stages": [
     {
-      "Id": 275,
-      "Name": "Donnelly-Gusikowski",
-      "ToolTip": "Et sint.",
+      "Id": 557,
+      "Name": "Stamm-Monahan",
+      "ToolTip": "Delectus aliquid reiciendis maiores velit.",
       "Deleted": false,
-      "Rank": 774,
-      "Type": "aliquid",
-      "ColorBlock": 79,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2005-12-05T11:24:54.1405361+01:00",
+      "Rank": 440,
+      "Type": "sunt",
+      "ColorBlock": 157,
+      "IconHint": "facere",
+      "Selected": true,
+      "LastChanged": "2024-12-02T03:40:57.1027301+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "eveniet",
-      "Hidden": false,
-      "FullName": "Mr. Bailey Garrett Bauch",
+      "ExtraInfo": "est",
+      "StyleHint": "molestiae",
+      "Hidden": true,
+      "FullName": "Bennie Wilkinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 985
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
@@ -221,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 897
     }
   }
 }

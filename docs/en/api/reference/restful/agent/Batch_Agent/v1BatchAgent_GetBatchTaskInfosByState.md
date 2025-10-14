@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Hilpert-Christiansen",
-    "AssociateId": 798,
-    "DetailsTable": 103,
-    "DetailsRecord": 994,
-    "IsSystemTask": true,
+    "Id": 991,
+    "Name": "Windler Group",
+    "AssociateId": 923,
+    "DetailsTable": 750,
+    "DetailsRecord": 49,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "necessitatibus",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "odit",
+      "ParameterObject2": "aliquam"
     },
-    "LastStarted": "2009-11-13T11:24:47.6095526+01:00",
-    "Created": "1998-12-10T11:24:47.6095526+01:00",
-    "StartCount": 245,
-    "DatabaseSerialNumber": "1322911",
-    "Context": "consequatur",
-    "Result": "quo",
+    "LastStarted": "2001-10-10T03:40:46.0764548+02:00",
+    "Created": "2000-01-21T03:40:46.0764548+01:00",
+    "StartCount": 507,
+    "DatabaseSerialNumber": "927379",
+    "Context": "voluptates",
+    "Result": "quod",
     "State": "All",
-    "Description": "Right-sized 24 hour Graphic Interface",
-    "Response": "culpa",
-    "Request": "animi",
-    "ProgressDescription": "Future-proofed well-modulated collaboration",
-    "ProgressPercent": 175,
-    "FileName": "Ullrich, Marvin and Schneider",
+    "Description": "Vision-oriented system-worthy capability",
+    "Response": "quisquam",
+    "Request": "et",
+    "ProgressDescription": "Reactive analyzing middleware",
+    "ProgressPercent": 432,
+    "FileName": "Dicki LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 348
+        "FieldLength": 455
       }
     }
   }

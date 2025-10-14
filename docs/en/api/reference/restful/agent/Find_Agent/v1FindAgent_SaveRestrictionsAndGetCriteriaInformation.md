@@ -15,6 +15,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "veniam",
-  "ProviderName": "Ward LLC",
-  "StorageKey": "natus",
+  "StorageType": "dolores",
+  "ProviderName": "Connelly-Kautzer",
+  "StorageKey": "accusamus",
   "Restrictions": [
     {
-      "Name": "Gorczany-Simonis",
-      "Operator": "soluta",
+      "Name": "Quitzon-Schamberger",
+      "Operator": "autem",
       "Values": [
-        "consequatur",
-        "quae"
+        "aut",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "sed",
-        "voluptatem"
+        "sapiente",
+        "soluta"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -108,14 +109,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 434,
+      "InterParenthesis": 954,
       "InterOperator": "And",
-      "UniqueHash": 251
+      "UniqueHash": 382
     }
   ],
   "StaticColumns": [
-    "at",
-    "et"
+    "hic",
+    "enim"
   ]
 }
 ```
@@ -129,81 +130,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "McDermott-Zemlak",
-      "Operator": "expedita",
+      "Name": "Rolfson-Funk",
+      "Operator": "ex",
       "Values": [
-        "iste",
-        "quis"
+        "libero",
+        "voluptas"
       ],
       "DisplayValues": [
-        "laborum",
-        "ipsam"
+        "qui",
+        "mollitia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 205,
+      "InterParenthesis": 535,
       "InterOperator": "And",
-      "UniqueHash": 19
+      "UniqueHash": 492
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Frami-Johns",
-      "DisplayTooltip": "itaque",
-      "DisplayType": "hic",
+      "DisplayName": "Ledner-Nienow",
+      "DisplayTooltip": "at",
+      "DisplayType": "voluptate",
       "CanOrderBy": false,
-      "Name": "Kris-Abshire",
-      "CanRestrictBy": false,
-      "RestrictionType": "aspernatur",
-      "RestrictionListName": "Keebler Inc and Sons",
+      "Name": "Heller, Runte and Hermann",
+      "CanRestrictBy": true,
+      "RestrictionType": "enim",
+      "RestrictionListName": "Goodwin Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "praesentium",
-      "Width": "qui",
-      "IconHint": "dolores",
-      "HeadingIconHint": "necessitatibus"
+      "ExtraInfo": "autem",
+      "Width": "ducimus",
+      "IconHint": "veritatis",
+      "HeadingIconHint": "omnis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Metz LLC",
-      "PrimaryKey": 304,
+      "EntityName": "Spinka-Jacobi",
+      "PrimaryKey": 850,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "libero",
-          "LinkHint": "tempore"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "incidunt",
+          "LinkHint": "quam"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "quam",
+      "LinkHint": "quia",
+      "StyleHint": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 976
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Goodwin Inc and Sons",
-      "Description": "Up-sized solution-oriented encoding",
-      "Rank": 144,
+      "Name": "Torphy LLC",
+      "Description": "Function-based transitional moderator",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Goodwin Inc and Sons",
-      "Description": "Up-sized solution-oriented encoding",
-      "Rank": 144,
+      "Name": "Torphy LLC",
+      "Description": "Function-based transitional moderator",
+      "Rank": 670,
       "Restrictions": [
         {},
         {}
@@ -215,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 67
     }
   }
 }

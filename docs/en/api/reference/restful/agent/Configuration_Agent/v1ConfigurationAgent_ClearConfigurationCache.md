@@ -15,6 +15,7 @@ Configuration XML's may be expensive to build and parse, and are therefore cache
 
 
 &lt;para/&gt;Cahcing is per application/instance/associate, and can be turned off through the config file. &lt;para/&gt;If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.&lt;para/&gt;Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -73,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "tempora",
-  "Instance": "velit",
-  "ForAllAssociates": true
+  "Application": "tempore",
+  "Instance": "et",
+  "ForAllAssociates": false
 }
 ```
 

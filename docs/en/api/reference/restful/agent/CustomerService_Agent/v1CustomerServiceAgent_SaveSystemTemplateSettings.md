@@ -15,6 +15,7 @@ Saves and validates updated system templates.
 
 
 Throws exception if validation fails
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,33 +112,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 209,
-  "CustomerCustomerReplyTemplateId": 901,
-  "CustomerPasswordTemplateId": 819,
-  "CustomerConfirmEmailTemplateId": 666,
-  "CustomerChatLogTemplateId": 85,
-  "NewLinkTemplateId": 229,
-  "HotlistNewMessageTemplateId": 372,
-  "HotlistTicketActivatedTemplateId": 320,
-  "UserTicketAlarmTemplateId": 657,
-  "HotlistTicketTakenOverTemplateId": 382,
-  "UserActiveTicketsTemplateId": 573,
-  "UserNewMessageTemplateId": 972,
-  "UserTicketActivatedTemplateId": 640,
-  "UserNewTicketTemplateId": 321,
-  "PublishKbQuestionTemplateId": 881,
-  "PublishKbAnswerTemplateId": 585,
-  "UserTicketTakenOverTemplateId": 491,
-  "PrintTicketTemplateId": 188,
-  "WeekStatTemplateId": 562,
-  "TicketAlarmHotlistTemplateId": 59,
-  "EmailAddresses": "kamille.crona@hartmann.ca",
+  "CustomerNewCustomerTemplateId": 445,
+  "CustomerCustomerReplyTemplateId": 389,
+  "CustomerPasswordTemplateId": 383,
+  "CustomerConfirmEmailTemplateId": 365,
+  "CustomerChatLogTemplateId": 27,
+  "NewLinkTemplateId": 837,
+  "HotlistNewMessageTemplateId": 188,
+  "HotlistTicketActivatedTemplateId": 528,
+  "UserTicketAlarmTemplateId": 73,
+  "HotlistTicketTakenOverTemplateId": 46,
+  "UserActiveTicketsTemplateId": 347,
+  "UserNewMessageTemplateId": 914,
+  "UserTicketActivatedTemplateId": 805,
+  "UserNewTicketTemplateId": 67,
+  "PublishKbQuestionTemplateId": 92,
+  "PublishKbAnswerTemplateId": 486,
+  "UserTicketTakenOverTemplateId": 302,
+  "PrintTicketTemplateId": 424,
+  "WeekStatTemplateId": 121,
+  "TicketAlarmHotlistTemplateId": 101,
+  "EmailAddresses": "ettie_raynor@weissnat.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 108
     }
   }
 }

@@ -82,23 +82,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Dec 2004 11:24:53 G12T
+Last-Modified: Thu, 09 Oct 2008 03:40:55 G10T
 
 {
-  "Key": "minus",
-  "Value": "id",
-  "RecordId": 238,
-  "CreatedDate": "2006-01-25T11:24:53.2968202+01:00",
-  "UpdatedDate": "2004-12-05T11:24:53.2968202+01:00",
-  "UpdatedBy": "unde",
-  "CreatedBy": "ipsa",
-  "TableName": "Collins-Larkin",
+  "Key": "at",
+  "Value": "officia",
+  "RecordId": 883,
+  "CreatedDate": "2012-04-09T03:40:55.7731411+02:00",
+  "UpdatedDate": "2008-10-09T03:40:55.7731411+02:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "quas",
+  "TableName": "Abshire LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 559
     }
   }
 }

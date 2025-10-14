@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersion
 Get a QuoteVersion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 290
+  "QuoteVersionId": 770
 }
 ```
 
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 168,
-  "ERPQuoteVersionKey": "qui",
-  "QuoteId": 713,
-  "Description": "Universal client-driven synergy",
-  "Number": "1408237",
+  "QuoteVersionId": 249,
+  "ERPQuoteVersionKey": "excepturi",
+  "QuoteId": 117,
+  "Description": "Front-line user-facing workforce",
+  "Number": "1499891",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 485,
-  "SentDate": "1999-12-06T11:24:48.5157652+01:00",
-  "FollowupId": 809,
-  "ExpirationDate": "2024-02-15T11:24:48.5157652+01:00",
-  "DeliveryCountryId": 349,
+  "LikelyQuoteAlternativeId": 861,
+  "SentDate": "2020-02-13T03:40:47.5161986+01:00",
+  "FollowupId": 950,
+  "ExpirationDate": "2000-02-23T03:40:47.5161986+01:00",
+  "DeliveryCountryId": 789,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 45,
+  "InvoiceCountryId": 791,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "quos",
-  "ERPPaymentTypeKey": "possimus",
-  "ERPDeliveryTermsKey": "placeat",
-  "ERPDeliveryTypeKey": "labore",
-  "Rank": 831,
-  "ApprovedBy": 752,
-  "ApprovedText": "provident",
-  "ApprovedRegisteredBy": 36,
-  "ApprovedRegisteredDate": "2016-12-13T11:24:48.5157652+01:00",
-  "ExtraField1": "qui",
-  "ExtraField2": "possimus",
-  "ExtraField3": "reiciendis",
-  "ExtraField4": "voluptas",
-  "ExtraField5": "unde",
-  "LastRecalculated": "2010-08-08T11:24:48.5157652+02:00",
-  "Updated": "2019-04-12T11:24:48.5157652+02:00",
-  "UpdatedAssociateId": 144,
-  "Registered": "2017-07-10T11:24:48.5157652+02:00",
-  "RegisteredAssociateId": 341,
-  "RequestAssociateId": 476,
-  "RequestComment": "ratione",
+  "ERPPaymentTermsKey": "dolor",
+  "ERPPaymentTypeKey": "illum",
+  "ERPDeliveryTermsKey": "harum",
+  "ERPDeliveryTypeKey": "in",
+  "Rank": 98,
+  "ApprovedBy": 757,
+  "ApprovedText": "quis",
+  "ApprovedRegisteredBy": 13,
+  "ApprovedRegisteredDate": "2004-09-22T03:40:47.5161986+02:00",
+  "ExtraField1": "ducimus",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "et",
+  "ExtraField4": "perspiciatis",
+  "ExtraField5": "non",
+  "LastRecalculated": "2008-06-26T03:40:47.5161986+02:00",
+  "Updated": "2018-12-23T03:40:47.5161986+01:00",
+  "UpdatedAssociateId": 481,
+  "Registered": "2015-03-11T03:40:47.5161986+01:00",
+  "RegisteredAssociateId": 644,
+  "RequestAssociateId": 829,
+  "RequestComment": "vitae",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 510,
-      "ERPQuoteAlternativeKey": "officia",
-      "QuoteVersionId": 384,
-      "Name": "Lubowitz, Weimann and Stark",
-      "Description": "Inverse zero tolerance archive",
+      "QuoteAlternativeId": 60,
+      "ERPQuoteAlternativeKey": "suscipit",
+      "QuoteVersionId": 970,
+      "Name": "Gusikowski, Hayes and Hahn",
+      "Description": "Business-focused 5th generation conglomeration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 6105.032,
-      "ERPDiscountAmount": 30628.582,
-      "DiscountPercent": 554.718,
-      "DiscountAmount": 4979.9259999999995,
+      "ERPDiscountPercent": 25203.628,
+      "ERPDiscountAmount": 886.922,
+      "DiscountPercent": 13839.743999999999,
+      "DiscountAmount": 1168.982,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "consequatur",
-      "VAT": 17428.174,
-      "EarningPercent": 30208.626,
-      "EarningAmount": 1407.166,
-      "SubTotal": 20270.712,
-      "TotalPrice": 24442.066,
-      "ExtraField1": "occaecati",
-      "ExtraField2": "porro",
-      "ExtraField3": "inventore",
-      "ExtraField4": "maiores",
-      "ExtraField5": "harum",
+      "VATInfo": "sequi",
+      "VAT": 15460.021999999999,
+      "EarningPercent": 28798.325999999997,
+      "EarningAmount": 12178.724,
+      "SubTotal": 10768.423999999999,
+      "TotalPrice": 2792.394,
+      "ExtraField1": "consequatur",
+      "ExtraField2": "sint",
+      "ExtraField3": "harum",
+      "ExtraField4": "eos",
+      "ExtraField5": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 205
+          "FieldType": "System.Int32",
+          "FieldLength": 302
         }
       }
     }
@@ -205,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 781
     }
   }
 }

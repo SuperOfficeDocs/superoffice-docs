@@ -75,7 +75,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 971,
-    "Tooltip": "explicabo",
+    "Total": 222,
+    "Tooltip": "nisi",
     "CanAssign": false,
-    "Free": 590,
-    "InUse": 480,
+    "Free": 47,
+    "InUse": 255,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 503,
-    "Name": "Bailey, Hansen and Metz",
-    "Description": "Distributed mission-critical productivity",
-    "PrerequisiteModuleName": "Fisher, Ebert and Lowe",
-    "SortOrder": 617,
-    "ExtraFlags": 32,
+    "ModuleLicenseId": 323,
+    "Name": "Bechtelar-Oberbrunner",
+    "Description": "Open-source 24 hour model",
+    "PrerequisiteModuleName": "Botsford-Hartmann",
+    "SortOrder": 251,
+    "ExtraFlags": 820,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 425
       }
     }
   }

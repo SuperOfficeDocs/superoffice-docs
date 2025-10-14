@@ -15,6 +15,7 @@ Parse the source string, and replace any template variable tags with their value
 
 
 &lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -82,27 +83,27 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "est",
+  "Source": "consequatur",
   "GeneratorEncoding": "Html",
   "CustomTags": [
     "et",
-    "necessitatibus"
+    "rerum"
   ],
   "CustomValues": [
-    "error",
-    "consequatur"
+    "dolorem",
+    "et"
   ],
-  "ContactId": 282,
-  "PersonId": 42,
-  "AppointmentId": 267,
-  "DocumentId": 43,
-  "SaleId": 160,
-  "SelectionId": 326,
-  "ProjectId": 577,
+  "ContactId": 897,
+  "PersonId": 603,
+  "AppointmentId": 424,
+  "DocumentId": 70,
+  "SaleId": 276,
+  "SelectionId": 733,
+  "ProjectId": 36,
   "CultureName": "sv"
 }
 ```
@@ -113,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"quam"
 ```

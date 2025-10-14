@@ -15,6 +15,7 @@ Creates a new contact selection based on contact selection members from an exist
 
 
 The new selection will always be static even if the original selection is dynamic.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -121,8 +122,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 27,
-  "Name": "Durgan Inc and Sons"
+  "SelectionId": 915,
+  "Name": "Sipes-Yundt"
 }
 ```
 
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed bottom-line matrix",
-  "Postit": "numquam",
+  "Description": "Sharable discrete conglomeration",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 662,
-  "IncludePerson": 366,
+  "GroupIdx": 535,
+  "IncludePerson": 413,
   "MemberCount": 99.99,
-  "Name": "Funk-Blanda",
-  "PostitTextId": 418,
-  "CreatedDate": "2025-07-31T11:24:48.6407604+02:00",
-  "SelectionId": 29,
-  "SoundEx": "placeat",
-  "Source": 856,
-  "TextId": 117,
-  "UpdatedDate": "2025-05-31T11:24:48.6407604+02:00",
-  "UpdatedCount": 3,
-  "Visibility": 20,
+  "Name": "Sanford, Wisoky and Jakubowski",
+  "PostitTextId": 687,
+  "CreatedDate": "2009-08-25T03:40:47.7660962+02:00",
+  "SelectionId": 730,
+  "SoundEx": "aut",
+  "Source": 88,
+  "TextId": 689,
+  "UpdatedDate": "2024-03-31T03:40:47.7660962+02:00",
+  "UpdatedCount": 706,
+  "Visibility": 733,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 329,
-  "TargetTableName": "Wolf-Heller",
+  "CompanyUnique": true,
+  "TargetTableNumber": 774,
+  "TargetTableName": "Pfannerstill LLC",
   "Completed": true,
-  "LeftSelectionId": 127,
-  "RightSelectionId": 656,
+  "LeftSelectionId": 821,
+  "RightSelectionId": 589,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Farrell Inc and Sons",
-  "ShadowProviderName": "Sanford Inc and Sons",
-  "ChartKey": "impedit",
-  "LastLoaded": "2017-09-03T11:24:48.6407604+02:00",
-  "LastLoadedBy": 353,
+  "MainProviderName": "Kihn-Champlin",
+  "ShadowProviderName": "Stoltenberg, Feeney and Howe",
+  "ChartKey": "tempora",
+  "LastLoaded": "2012-12-30T03:40:47.7660962+01:00",
+  "LastLoadedBy": 239,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-07-04T11:24:48.6407604+02:00",
-  "LastMembershipChangeBy": 417,
+  "LastMembershipChange": "2002-04-28T03:40:47.7660962+02:00",
+  "LastMembershipChangeBy": 238,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Ullrich, Cartwright and Thiel",
-  "DashboardTileDefinitionId": 417,
+  "MainHeading": "corporis",
+  "MemberTabHeading": "inventore",
+  "MailingsProviderName": "Emard, Bruen and Moore",
+  "DashboardTileDefinitionId": 278,
   "VisibleFor": [
     {
-      "VisibleId": 606,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 558
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     },
     {
-      "VisibleId": 606,
+      "VisibleId": 703,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 558
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
@@ -205,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

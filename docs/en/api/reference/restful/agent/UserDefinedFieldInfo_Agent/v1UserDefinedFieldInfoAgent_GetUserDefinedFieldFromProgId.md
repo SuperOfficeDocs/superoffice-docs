@@ -15,6 +15,7 @@ Return information about the given user defined field identified by the owner an
 
 
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "atque",
+  "ProgId": "dicta",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 824,
-  "ColumnId": 227,
+  "UDefFieldId": 894,
+  "ColumnId": 638,
   "FieldDefault": "est",
-  "FieldHeight": 942,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 619,
-  "FieldTop": 374,
+  "FieldHeight": 240,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 923,
+  "FieldTop": 169,
   "FieldType": "Checkbox",
-  "FieldWidth": 268,
-  "FormatMask": "consectetur",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 813,
-  "LabelLeft": 676,
-  "LabelTop": 913,
-  "LabelWidth": 918,
-  "LastVersionId": 733,
-  "ListTableId": 463,
-  "IsMandatory": false,
+  "FieldWidth": 416,
+  "FormatMask": "nesciunt",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 636,
+  "LabelLeft": 487,
+  "LabelTop": 237,
+  "LabelWidth": 367,
+  "LastVersionId": 784,
+  "ListTableId": 384,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 241,
-  "ProgId": "odit",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 958,
-  "TextLength": 599,
-  "Tooltip": "voluptate",
-  "UdefIdentity": 536,
-  "UDListDefinitionId": 18,
+  "Page1LineNo": 638,
+  "ProgId": "animi",
+  "IsReadOnly": true,
+  "ShortLabel": "id",
+  "TabOrder": 295,
+  "TextLength": 919,
+  "Tooltip": "nemo",
+  "UdefIdentity": 142,
+  "UDListDefinitionId": 661,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Erdman-Kautzer",
+  "Version": 694,
+  "TemplateVariableName": "Williamson-Block",
   "HasBeenPublished": false,
-  "MdoListName": "Klein, Volkman and Langosh",
+  "MdoListName": "Yost, Bechtelar and Bode",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldLength": 266
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Loading default values into a new ShipmentMessageEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +88,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 718,
-  "PlainMessage": "est",
-  "HtmlMessage": "ut",
-  "SmsMessage": "qui",
-  "Description": "Persistent bottom-line infrastructure",
-  "Subject": "ut",
-  "FolderId": 342,
-  "HeaderField": "consequatur",
-  "Design": "harum",
+  "ShipmentMessageId": 680,
+  "PlainMessage": "voluptatibus",
+  "HtmlMessage": "eos",
+  "SmsMessage": "consequatur",
+  "Description": "Universal secondary benchmark",
+  "Subject": "eum",
+  "FolderId": 495,
+  "HeaderField": "nobis",
+  "Design": "repellendus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Synergized contextually-based synergy",
-  "AccessKey": "ducimus",
-  "DocumentMessage": 87,
-  "Registered": "2003-12-26T11:24:48.2657757+01:00",
-  "RegisteredAssociateId": 87,
-  "Updated": "2022-08-13T11:24:48.2657757+02:00",
-  "UpdatedAssociateId": 762,
-  "UpdatedCount": 919,
+  "InlineImages": true,
+  "LongDescription": "Networked assymetric Graphical User Interface",
+  "AccessKey": "aliquam",
+  "DocumentMessage": 146,
+  "Registered": "1999-07-26T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2005-12-31T03:40:47.2499194+01:00",
+  "UpdatedAssociateId": 538,
+  "UpdatedCount": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 445
     }
   }
 }

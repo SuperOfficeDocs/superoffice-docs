@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/OfferAutoNextStageOnApppointmentCompleted
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 445
+  "AppointmentId": 968
 }
 ```
 

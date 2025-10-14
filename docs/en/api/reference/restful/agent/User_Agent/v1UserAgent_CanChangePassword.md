@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CanChangePassword
 Check if the current assoicate can change the password for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -71,11 +74,11 @@ OK
 POST /api/v1/Agents/User/CanChangePassword
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 236
+  "AssociateId": 276
 }
 ```
 

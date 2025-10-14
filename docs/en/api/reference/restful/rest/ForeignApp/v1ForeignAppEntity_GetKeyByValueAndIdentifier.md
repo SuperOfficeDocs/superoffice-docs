@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=fuga
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=natus
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 06 Apr 2023 11:24:53 G4T
+Last-Modified: Tue, 02 Oct 2001 03:40:55 G10T
 
 {
-  "Key": "quidem",
+  "Key": "suscipit",
   "Value": "non",
-  "RecordId": 154,
-  "CreatedDate": "1999-02-06T11:24:53.2968202+01:00",
-  "UpdatedDate": "2023-04-06T11:24:53.2968202+02:00",
-  "UpdatedBy": "rerum",
-  "CreatedBy": "quo",
-  "TableName": "King Group",
+  "RecordId": 443,
+  "CreatedDate": "2020-12-13T03:40:55.7886484+01:00",
+  "UpdatedDate": "2001-10-02T03:40:55.7886484+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "est",
+  "TableName": "Deckow, Herman and Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

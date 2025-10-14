@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "Marks, Wiegand and Wisozk",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "UdListDefinitionId": 857,
-  "Rank": 282
+  "Id": 375,
+  "Name": "Romaguera Group",
+  "Tooltip": "magnam",
+  "Deleted": true,
+  "UdListDefinitionId": 268,
+  "Rank": 315
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Hettinger-Windler",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "UdListDefinitionId": 480,
-  "Rank": 863,
+  "Id": 399,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 65,
+  "Rank": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 632
     }
   }
 }

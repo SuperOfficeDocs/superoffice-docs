@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SetCompleted
 Set the completed flag on the project
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 489,
-  "IsCompleted": true
+  "ProjectId": 71,
+  "IsCompleted": false
 }
 ```
 

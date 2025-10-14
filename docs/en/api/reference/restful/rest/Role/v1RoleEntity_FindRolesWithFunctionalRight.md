@@ -76,7 +76,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,50 +87,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 25,
-    "Name": "Terry Group",
-    "ToolTip": "Est velit excepturi ea ipsum corrupti suscipit quia.",
+    "Id": 644,
+    "Name": "Lueilwitz, Carroll and Macejkovic",
+    "ToolTip": "Laboriosam quia est quibusdam eos.",
     "Deleted": true,
-    "Rank": 648,
-    "Type": "aspernatur",
+    "Rank": 310,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Von-Considine",
-        "ToolTip": "Minus aut.",
+        "Id": 346,
+        "Name": "Wehner Inc and Sons",
+        "ToolTip": "Doloribus ipsam eaque aperiam asperiores accusamus enim earum.",
         "Deleted": false,
-        "Rank": 323,
-        "Type": "laudantium",
+        "Rank": 544,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 622,
-        "ExtraInfo": "commodi",
-        "StyleHint": "sapiente",
-        "FullName": "Adriel Morar",
+        "IconHint": "est",
+        "ColorBlock": 34,
+        "ExtraInfo": "dolor",
+        "StyleHint": "eaque",
+        "FullName": "Josephine Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 979
+            "FieldLength": 592
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 825,
-    "ExtraInfo": "ratione",
-    "StyleHint": "ullam",
-    "FullName": "Miss Lina Wolf",
+    "IconHint": "odit",
+    "ColorBlock": 583,
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptas",
+    "FullName": "Prof. Keith Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 616
+        "FieldLength": 833
       }
     }
   }

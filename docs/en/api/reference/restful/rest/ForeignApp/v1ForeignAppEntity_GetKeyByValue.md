@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=accusantium
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=est
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 06 Dec 2008 11:24:53 G12T
+Last-Modified: Wed, 05 Jul 2000 03:40:55 G7T
 
 {
-  "Key": "sequi",
-  "Value": "magnam",
-  "RecordId": 345,
-  "CreatedDate": "2007-02-14T11:24:53.2968202+01:00",
-  "UpdatedDate": "2008-12-06T11:24:53.2968202+01:00",
-  "UpdatedBy": "quos",
-  "CreatedBy": "accusamus",
-  "TableName": "Bosco Group",
+  "Key": "qui",
+  "Value": "repudiandae",
+  "RecordId": 50,
+  "CreatedDate": "2011-01-05T03:40:55.7886484+01:00",
+  "UpdatedDate": "2000-07-05T03:40:55.7886484+02:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "quas",
+  "TableName": "Kub LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

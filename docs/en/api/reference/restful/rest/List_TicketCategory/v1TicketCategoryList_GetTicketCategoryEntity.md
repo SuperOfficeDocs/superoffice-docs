@@ -90,36 +90,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 33,
-  "ParentId": 580,
-  "Name": "Lehner LLC",
-  "Fullname": "dicta",
-  "CategoryMaster": 26,
+  "TicketCategoryId": 163,
+  "ParentId": 433,
+  "Name": "Waelchi, Rolfson and Thiel",
+  "Fullname": "molestiae",
+  "CategoryMaster": 531,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Thiel, Sanford and Satterfield",
+  "ExternalName": "Howe Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 377,
-  "ReplyTemplate": 300,
-  "NotificationEmail": "edyth@mertz.ca",
+  "AssignmentLag": 195,
+  "ReplyTemplate": 724,
+  "NotificationEmail": "abbigail.fay@reynolds.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 678,
+  "EffectiveReplyTemplateId": 83,
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "odio"
+    "CustomFields1": "porro",
+    "CustomFields2": "accusantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

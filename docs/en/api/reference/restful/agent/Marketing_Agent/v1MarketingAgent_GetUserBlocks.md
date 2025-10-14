@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetUserBlocks
 Get the saved user blocks to be used in a shipment/mailing message
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 227
+  "AssociateId": 208
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 708,
-    "AssociateId": 439,
-    "Block": "distinctio",
-    "Registered": "2008-12-15T11:24:48.2657757+01:00",
-    "RegisteredAssociateId": 344,
-    "Updated": "2024-02-21T11:24:48.2657757+01:00",
-    "UpdatedAssociateId": 144,
-    "UpdatedCount": 199,
+    "ShipmentMessageBlockId": 847,
+    "AssociateId": 421,
+    "Block": "ex",
+    "Registered": "2010-05-04T03:40:47.2499194+02:00",
+    "RegisteredAssociateId": 601,
+    "Updated": "2011-06-01T03:40:47.2499194+02:00",
+    "UpdatedAssociateId": 924,
+    "UpdatedCount": 125,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 629
       }
     }
   }

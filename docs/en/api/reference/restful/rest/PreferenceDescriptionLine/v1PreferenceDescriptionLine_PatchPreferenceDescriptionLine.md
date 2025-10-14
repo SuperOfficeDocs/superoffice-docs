@@ -14,7 +14,8 @@ PATCH /api/v1/PreferenceDescriptionLine/{id}
 Update a PreferenceDescriptionLine with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 1000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -114,18 +115,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "explicabo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "explicabo",
     "value": {}
   }
 ]
@@ -138,18 +139,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 38,
-  "PrefDescId": 443,
+  "PrefDescLineId": 229,
+  "PrefDescId": 502,
   "PrefValue": "autem",
-  "PrefShowValue": "et",
-  "Description": "Managed hybrid parallelism",
-  "IsBuiltin": true,
+  "PrefShowValue": "aut",
+  "Description": "Future-proofed leading edge knowledge user",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   },
   "_Links": {

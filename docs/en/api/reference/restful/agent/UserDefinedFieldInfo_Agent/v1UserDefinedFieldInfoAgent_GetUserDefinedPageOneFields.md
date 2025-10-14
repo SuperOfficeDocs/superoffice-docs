@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Get a list of page one fields for given Udef type and current user group
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -113,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 61
+  "UserGroupId": 110
 }
 ```
 
@@ -125,46 +127,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 755,
-    "ColumnId": 277,
-    "FieldDefault": "expedita",
-    "FieldHeight": 263,
-    "FieldLabel": "sit",
-    "FieldLeft": 991,
-    "FieldTop": 460,
+    "UDefFieldId": 18,
+    "ColumnId": 524,
+    "FieldDefault": "ut",
+    "FieldHeight": 161,
+    "FieldLabel": "et",
+    "FieldLeft": 663,
+    "FieldTop": 849,
     "FieldType": "Checkbox",
-    "FieldWidth": 746,
-    "FormatMask": "mollitia",
+    "FieldWidth": 411,
+    "FormatMask": "architecto",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 113,
-    "LabelLeft": 227,
-    "LabelTop": 409,
-    "LabelWidth": 527,
-    "LastVersionId": 180,
-    "ListTableId": 962,
+    "LabelHeight": 214,
+    "LabelLeft": 46,
+    "LabelTop": 760,
+    "LabelWidth": 370,
+    "LastVersionId": 934,
+    "ListTableId": 355,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 942,
-    "ProgId": "dolores",
+    "Page1LineNo": 589,
+    "ProgId": "doloribus",
     "IsReadOnly": false,
-    "ShortLabel": "fuga",
-    "TabOrder": 543,
-    "TextLength": 887,
-    "Tooltip": "sapiente",
-    "UdefIdentity": 25,
-    "UDListDefinitionId": 202,
+    "ShortLabel": "voluptate",
+    "TabOrder": 530,
+    "TextLength": 178,
+    "Tooltip": "enim",
+    "UdefIdentity": 327,
+    "UDListDefinitionId": 285,
     "Justification": "Center",
-    "Version": 201,
-    "TemplateVariableName": "Mayer, Feil and Kuhic",
-    "HasBeenPublished": false,
-    "MdoListName": "Cronin, Bechtelar and Senger",
+    "Version": 435,
+    "TemplateVariableName": "Rodriguez Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Casper LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

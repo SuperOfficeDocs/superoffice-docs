@@ -15,6 +15,7 @@ Updates the existing DocumentEntity or creates a new DocumentEntity if the id pa
 
 
 Save the document entity. If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,77 +133,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 744,
+  "DocumentId": 322,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "ut",
-  "Name": "Jones, Crooks and Nicolas",
-  "OurRef": "debitis",
-  "YourRef": "et",
-  "CreatedDate": "2008-08-29T11:24:47.9532883+02:00",
-  "UpdatedDate": "2002-12-11T11:24:47.9532883+01:00",
-  "Description": "Virtual dedicated alliance",
+  "Attention": "distinctio",
+  "Header": "adipisci",
+  "Name": "Steuber Group",
+  "OurRef": "reprehenderit",
+  "YourRef": "autem",
+  "CreatedDate": "2010-11-04T03:40:46.6248901+01:00",
+  "UpdatedDate": "2009-05-05T03:40:46.6248901+02:00",
+  "Description": "Assimilated impactful product",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-10-01T11:24:47.9532883+02:00",
-  "ExternalRef": "ullam",
+  "Date": "2007-12-08T03:40:46.6248901+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 641,
+  "ActiveLinks": 367,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Labadie, Turner and Franecki",
-      "Id": 539,
-      "Description": "Synchronised transitional implementation",
-      "ExtraInfo": "quo",
-      "LinkId": 655
+      "EntityName": "McGlynn, Stokes and Bailey",
+      "Id": 646,
+      "Description": "Front-line foreground software",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 997
     },
     {
-      "EntityName": "Labadie, Turner and Franecki",
-      "Id": 539,
-      "Description": "Synchronised transitional implementation",
-      "ExtraInfo": "quo",
-      "LinkId": 655
+      "EntityName": "McGlynn, Stokes and Bailey",
+      "Id": 646,
+      "Description": "Front-line foreground software",
+      "ExtraInfo": "voluptatum",
+      "LinkId": 997
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 910,
-  "Snum": 212,
+  "SuggestedDocumentId": 229,
+  "Snum": 344,
   "UserDefinedFields": {
-    "SuperOffice:1": "Susana Leffler",
-    "SuperOffice:2": "Miss Remington Willms II"
+    "SuperOffice:1": "Berniece Walker Sr.",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "est"
+    "CustomFields1": "cum",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "2016-06-30T11:24:47.9532883+02:00",
-  "PublishTo": "2017-12-23T11:24:47.9532883+01:00",
-  "PublishFrom": "2015-10-28T11:24:47.9532883+01:00",
+  "PublishEventDate": "1999-07-15T03:40:46.6248901+02:00",
+  "PublishTo": "2013-03-21T03:40:46.6248901+01:00",
+  "PublishFrom": "2022-10-03T03:40:46.6248901+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 47,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "velit"
     },
     {
-      "VisibleId": 47,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "velit"
     }
   ]
 }
@@ -215,88 +216,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 417,
+  "DocumentId": 399,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "alias",
-  "Header": "ullam",
-  "Name": "Gottlieb Group",
-  "OurRef": "dolorum",
-  "YourRef": "distinctio",
-  "CreatedDate": "2010-10-20T11:24:47.9532883+02:00",
-  "UpdatedDate": "1998-11-03T11:24:47.9532883+01:00",
-  "Description": "Realigned holistic projection",
+  "Attention": "rerum",
+  "Header": "non",
+  "Name": "Nicolas, Weimann and Emard",
+  "OurRef": "autem",
+  "YourRef": "consequatur",
+  "CreatedDate": "2007-05-21T03:40:46.6405161+02:00",
+  "UpdatedDate": "2020-02-11T03:40:46.6405161+01:00",
+  "Description": "Synergized static standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-11-28T11:24:47.9689125+01:00",
-  "ExternalRef": "libero",
+  "Date": "2002-11-23T03:40:46.6405161+01:00",
+  "ExternalRef": "cumque",
   "Completed": "Completed",
-  "ActiveLinks": 743,
+  "ActiveLinks": 566,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Moen, Robel and Kihn",
-      "Id": 962,
-      "Description": "Persevering human-resource standardization",
-      "ExtraInfo": "et",
-      "LinkId": 154,
+      "EntityName": "Koelpin, Lynch and Stokes",
+      "Id": 87,
+      "Description": "Function-based mission-critical matrix",
+      "ExtraInfo": "dolores",
+      "LinkId": 275,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 473
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 548,
-  "Snum": 538,
+  "SuggestedDocumentId": 609,
+  "Snum": 856,
   "UserDefinedFields": {
-    "SuperOffice:1": "1559884913",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "et"
+    "CustomFields1": "quia",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2008-12-05T11:24:47.9689125+01:00",
-  "PublishTo": "2004-10-09T11:24:47.9689125+02:00",
-  "PublishFrom": "2020-03-11T11:24:47.9689125+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-04-01T03:40:46.6405161+02:00",
+  "PublishTo": "2002-04-16T03:40:46.6405161+02:00",
+  "PublishFrom": "2021-09-14T03:40:46.6405161+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 516,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 987
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     },
     {
-      "VisibleId": 516,
+      "VisibleId": 931,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 987
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     }
@@ -305,8 +306,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   }
 }

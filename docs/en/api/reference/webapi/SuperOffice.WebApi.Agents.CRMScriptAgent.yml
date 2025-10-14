@@ -68,13 +68,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class CRMScriptAgent : AgentBase, ICRMScriptAgent, IDisposable'
-    content.vb: Public Class CRMScriptAgent Inherits AgentBase Implements ICRMScriptAgent, IDisposable
+    content: 'public class CRMScriptAgent : AgentBase, ICRMScriptAgent, IAgentBase, IDisposable'
+    content.vb: Public Class CRMScriptAgent Inherits AgentBase Implements ICRMScriptAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.ICRMScriptAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -519,7 +520,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific CRMScriptEntity object.                        
+    Gets a specific CRMScriptEntity object.
 
     <p></p>
 
@@ -1060,7 +1061,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific TriggerScriptEntity object.                        
+    Gets a specific TriggerScriptEntity object.
 
     <p></p>
 
@@ -1353,6 +1354,14 @@ references:
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.WebApi.Agents.ICRMScriptAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

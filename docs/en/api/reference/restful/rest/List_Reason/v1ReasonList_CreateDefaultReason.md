@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Nicolas-Reilly",
-  "Tooltip": "quia",
+  "Id": 344,
+  "Name": "Leannon Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": true,
-  "UdListDefinitionId": 262,
-  "Rank": 526,
+  "UdListDefinitionId": 625,
+  "Rank": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Assign third party licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,15 +91,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 959,
-  "ModuleOwner": "quod",
+  "AssociateId": 267,
+  "ModuleOwner": "reiciendis",
   "ModuleLicenseNames": [
-    "Mertz Group",
-    "Dibbert-Wiegand"
+    "Macejkovic LLC",
+    "Crooks Inc and Sons"
   ]
 }
 ```
@@ -111,25 +113,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 605,
-    "Tooltip": "officiis",
+    "Total": 825,
+    "Tooltip": "ipsam",
     "CanAssign": false,
-    "Free": 454,
-    "InUse": 970,
+    "Free": 60,
+    "InUse": 696,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 38,
-    "Name": "Paucek-Hodkiewicz",
-    "Description": "Visionary bi-directional neural-net",
-    "PrerequisiteModuleName": "Upton, Marvin and Koepp",
-    "SortOrder": 169,
-    "ExtraFlags": 83,
+    "ModuleLicenseId": 162,
+    "Name": "Cummings-Koss",
+    "Description": "Enhanced mission-critical superstructure",
+    "PrerequisiteModuleName": "Stokes, O'Reilly and Bailey",
+    "SortOrder": 86,
+    "ExtraFlags": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 960
       }
     }
   }

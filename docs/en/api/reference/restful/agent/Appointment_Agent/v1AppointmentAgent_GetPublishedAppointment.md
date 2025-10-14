@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Get published appointment by appointment id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 898
+  "AppointmentId": 447
 }
 ```
 
@@ -143,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 187,
-  "StartDate": "2005-09-21T11:24:47.3126897+02:00",
-  "EndDate": "2003-08-30T11:24:47.3126897+02:00",
+  "AppointmentId": 366,
+  "StartDate": "2020-07-03T03:40:45.6231158+02:00",
+  "EndDate": "2016-03-23T03:40:45.6231158+01:00",
   "Type": "BookingForChecklist",
-  "Task": "est",
-  "AssociateFullName": "Kaylee Brakus",
-  "ContactName": "Daniel Inc and Sons",
-  "Description": "Persevering analyzing alliance",
-  "PersonFullName": "Dewayne Treutel",
-  "PersonId": 361,
-  "ContactId": 789,
-  "ProjectId": 34,
-  "ProjectName": "Kihn-Boyle",
-  "IsPublished": true,
-  "AssociateId": 203,
-  "ColorIndex": 258,
-  "IsFree": false,
+  "Task": "fugiat",
+  "AssociateFullName": "Kory Kris",
+  "ContactName": "Mohr, Wiza and Kling",
+  "Description": "Quality-focused leading edge installation",
+  "PersonFullName": "Gerald Morar",
+  "PersonId": 524,
+  "ContactId": 185,
+  "ProjectId": 170,
+  "ProjectName": "Rau Group",
+  "IsPublished": false,
+  "AssociateId": 847,
+  "ColorIndex": 263,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 409,
-  "PriorityName": "Stanton, Bradtke and Grady",
+  "PriorityId": 60,
+  "PriorityName": "Wolff-Heller",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2020-08-04T11:24:47.3126897+02:00",
+  "ActiveDate": "2017-06-22T03:40:45.6231158+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2022-04-12T11:24:47.3126897+02:00",
-  "RecurringEndDate": "2001-01-30T11:24:47.3126897+01:00",
-  "MotherId": 699,
-  "AssignedBy": 796,
-  "AssignedByFullName": "Willard Arlo Strosin Sr.",
+  "RecurringStartDate": "2017-03-22T03:40:45.6231158+01:00",
+  "RecurringEndDate": "2019-05-21T03:40:45.6231158+02:00",
+  "MotherId": 379,
+  "AssignedBy": 228,
+  "AssignedByFullName": "Torrey O'Hara",
   "RejectReason": "",
-  "Location": "minima",
-  "AlarmLeadTime": "minima",
-  "SaleId": 38,
-  "SaleName": "Schamberger Group",
-  "AssociateName": "Schmitt Inc and Sons",
-  "CreatedDate": "2017-09-01T11:24:47.3126897+02:00",
-  "CreatedBy": "dolores",
-  "CreatedByFullName": "Ms. Juston Dalton Little",
-  "CreatedByAssociateId": 756,
+  "Location": "et",
+  "AlarmLeadTime": "cum",
+  "SaleId": 754,
+  "SaleName": "Erdman-Gutkowski",
+  "AssociateName": "Bogan-Hauck",
+  "CreatedDate": "2022-03-22T03:40:45.6231158+01:00",
+  "CreatedBy": "non",
+  "CreatedByFullName": "Amparo Jimmie Maggio IV",
+  "CreatedByAssociateId": 510,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 942,
+  "MotherAssociateId": 245,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 935,
-  "Title": "vero",
-  "Agenda": "optio",
-  "InternalNotes": "eveniet",
+  "PreferredTZLocation": 18,
+  "Title": "sint",
+  "Agenda": "excepturi",
+  "InternalNotes": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldLength": 467
     }
   }
 }

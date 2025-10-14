@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 List of list items that is visible in the usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lehner-Fritsch",
-  "GroupId": 367
+  "UdListDefinitionName": "Dare Group",
+  "GroupId": 168
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Mills Group",
-    "ToolTip": "Est dolores aut officiis blanditiis id et.",
-    "Deleted": true,
-    "Rank": 697,
-    "Type": "magni",
-    "ColorBlock": 548,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2003-07-18T11:24:48.2032781+02:00",
+    "Id": 448,
+    "Name": "Kohler Inc and Sons",
+    "ToolTip": "Inventore sed qui et aperiam.",
+    "Deleted": false,
+    "Rank": 365,
+    "Type": "molestias",
+    "ColorBlock": 894,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2019-07-29T03:40:47.0936613+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Cremin, Schiller and Wintheiser",
-        "ToolTip": "Voluptatem est est dolores et enim expedita in.",
+        "Id": 499,
+        "Name": "Jacobs Group",
+        "ToolTip": "Aut tenetur numquam aut libero.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "officia",
-        "ColorBlock": 648,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2020-10-14T11:24:48.2032781+02:00",
+        "Rank": 814,
+        "Type": "aut",
+        "ColorBlock": 769,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2016-11-23T03:40:47.0936613+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "ut",
+        "ExtraInfo": "in",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Keyshawn Konopelski",
+        "FullName": "Nicklaus Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 480
+            "FieldType": "System.Int32",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Alison Larson",
+    "ExtraInfo": "nulla",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Alaina D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldLength": 53
       }
     }
   }

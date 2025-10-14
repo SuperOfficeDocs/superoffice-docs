@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Creates a temporary selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,7 +108,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,70 +118,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group full-range open architecture",
-  "Postit": "atque",
+  "Description": "De-engineered next generation approach",
+  "Postit": "itaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 738,
-  "IncludePerson": 206,
+  "GroupIdx": 538,
+  "IncludePerson": 23,
   "MemberCount": 99.99,
-  "Name": "Bergstrom Group",
-  "PostitTextId": 288,
-  "CreatedDate": "2022-05-19T11:24:48.6251358+02:00",
-  "SelectionId": 36,
-  "SoundEx": "eius",
-  "Source": 261,
-  "TextId": 680,
-  "UpdatedDate": "2022-08-27T11:24:48.6251358+02:00",
-  "UpdatedCount": 40,
-  "Visibility": 636,
+  "Name": "Spinka-Renner",
+  "PostitTextId": 501,
+  "CreatedDate": "2001-01-04T03:40:47.7348444+01:00",
+  "SelectionId": 349,
+  "SoundEx": "dolorum",
+  "Source": 757,
+  "TextId": 399,
+  "UpdatedDate": "2017-03-25T03:40:47.7348444+01:00",
+  "UpdatedCount": 848,
+  "Visibility": 470,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 255,
-  "TargetTableName": "Koch, VonRueden and Rosenbaum",
+  "CompanyUnique": false,
+  "TargetTableNumber": 942,
+  "TargetTableName": "Boyle, Dickens and Cronin",
   "Completed": false,
-  "LeftSelectionId": 304,
-  "RightSelectionId": 399,
+  "LeftSelectionId": 330,
+  "RightSelectionId": 753,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gerlach Inc and Sons",
-  "ShadowProviderName": "Wehner, Weissnat and Kuhic",
-  "ChartKey": "ipsam",
-  "LastLoaded": "2008-07-27T11:24:48.6251358+02:00",
-  "LastLoadedBy": 111,
+  "MainProviderName": "Gorczany, Shanahan and Hahn",
+  "ShadowProviderName": "Towne, Barton and Feest",
+  "ChartKey": "cumque",
+  "LastLoaded": "2000-12-21T03:40:47.7348444+01:00",
+  "LastLoadedBy": 45,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-10-26T11:24:48.6251358+02:00",
-  "LastMembershipChangeBy": 278,
+  "LastMembershipChange": "2001-03-20T03:40:47.7348444+01:00",
+  "LastMembershipChangeBy": 195,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aliquid",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Sawayn-Hayes",
-  "DashboardTileDefinitionId": 561,
+  "MainHeading": "molestiae",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Renner-Nienow",
+  "DashboardTileDefinitionId": 157,
   "VisibleFor": [
     {
-      "VisibleId": 844,
+      "VisibleId": 981,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     },
     {
-      "VisibleId": 844,
+      "VisibleId": 981,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 407
         }
       }
     }
@@ -188,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 335
     }
   }
 }

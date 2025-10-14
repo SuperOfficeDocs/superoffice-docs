@@ -15,6 +15,7 @@ Return information about the given user defined field identified by the owner an
 
 
 The prog-id is used as the key in the entity carriers.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "tenetur",
+  "ProgId": "nihil",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 740,
-  "ColumnId": 887,
-  "FieldDefault": "ut",
-  "FieldHeight": 95,
-  "FieldLabel": "libero",
-  "FieldLeft": 12,
-  "FieldTop": 549,
+  "UDefFieldId": 701,
+  "ColumnId": 246,
+  "FieldDefault": "perspiciatis",
+  "FieldHeight": 886,
+  "FieldLabel": "nam",
+  "FieldLeft": 341,
+  "FieldTop": 384,
   "FieldType": "Checkbox",
-  "FieldWidth": 143,
-  "FormatMask": "architecto",
+  "FieldWidth": 876,
+  "FormatMask": "ut",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 93,
-  "LabelLeft": 607,
-  "LabelTop": 962,
-  "LabelWidth": 870,
-  "LastVersionId": 48,
-  "ListTableId": 773,
+  "IsIndexed": false,
+  "LabelHeight": 561,
+  "LabelLeft": 318,
+  "LabelTop": 557,
+  "LabelWidth": 177,
+  "LastVersionId": 239,
+  "ListTableId": 844,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 971,
-  "ProgId": "harum",
-  "IsReadOnly": true,
-  "ShortLabel": "saepe",
-  "TabOrder": 17,
-  "TextLength": 605,
-  "Tooltip": "et",
-  "UdefIdentity": 562,
-  "UDListDefinitionId": 980,
+  "Page1LineNo": 882,
+  "ProgId": "consequatur",
+  "IsReadOnly": false,
+  "ShortLabel": "soluta",
+  "TabOrder": 765,
+  "TextLength": 851,
+  "Tooltip": "neque",
+  "UdefIdentity": 804,
+  "UDListDefinitionId": 824,
   "Justification": "Center",
-  "Version": 573,
-  "TemplateVariableName": "Heaney Group",
+  "Version": 564,
+  "TemplateVariableName": "Gleichner, Smitham and Bruen",
   "HasBeenPublished": true,
-  "MdoListName": "Abshire-Lind",
+  "MdoListName": "Roob-Hansen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 938
     }
   }
 }

@@ -15,6 +15,7 @@ Calculate the default orderby columns for a given provider and a set of desired 
 
 
 This is the same algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lehner Group",
+  "ProviderName": "Windler, Wilkinson and Beatty",
   "DesiredColumns": [
-    "quidem",
-    "praesentium"
+    "et",
+    "fuga"
   ]
 }
 ```
@@ -96,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobson Group",
+    "Name": "Stoltenberg, Bailey and Lind",
     "Direction": "ASC"
   },
   {
-    "Name": "Jacobson Group",
+    "Name": "Stoltenberg, Bailey and Lind",
     "Direction": "ASC"
   }
 ]

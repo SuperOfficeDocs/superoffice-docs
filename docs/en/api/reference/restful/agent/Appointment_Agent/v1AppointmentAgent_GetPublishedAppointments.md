@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Get published appointments by appointment ids.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,13 +130,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    543,
-    877
+    225,
+    18
   ]
 }
 ```
@@ -147,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 628,
-    "StartDate": "2000-04-28T11:24:47.3126897+02:00",
-    "EndDate": "2016-05-06T11:24:47.3126897+02:00",
+    "AppointmentId": 89,
+    "StartDate": "2024-05-25T03:40:45.6231158+02:00",
+    "EndDate": "2019-01-06T03:40:45.6231158+01:00",
     "Type": "BookingForChecklist",
-    "Task": "iure",
-    "AssociateFullName": "Dimitri Kilback",
-    "ContactName": "Rogahn-Schamberger",
-    "Description": "Re-contextualized zero defect software",
-    "PersonFullName": "Okey Effertz",
-    "PersonId": 810,
-    "ContactId": 304,
-    "ProjectId": 262,
-    "ProjectName": "Treutel, Mraz and Ledner",
+    "Task": "dolorum",
+    "AssociateFullName": "Mrs. Estel Cummings IV",
+    "ContactName": "Orn, Grady and Hintz",
+    "Description": "Extended systematic archive",
+    "PersonFullName": "Carmelo Schinner",
+    "PersonId": 196,
+    "ContactId": 519,
+    "ProjectId": 355,
+    "ProjectName": "Koch, Goldner and Krajcik",
     "IsPublished": false,
-    "AssociateId": 796,
-    "ColorIndex": 727,
+    "AssociateId": 87,
+    "ColorIndex": 756,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 677,
-    "PriorityName": "Mraz-Hudson",
+    "PriorityId": 674,
+    "PriorityName": "Daniel-Bogan",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2006-04-15T11:24:47.3126897+02:00",
+    "ActiveDate": "2020-02-27T03:40:45.6231158+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-07-05T11:24:47.3126897+02:00",
-    "RecurringEndDate": "2008-02-13T11:24:47.3126897+01:00",
-    "MotherId": 321,
-    "AssignedBy": 297,
-    "AssignedByFullName": "Prof. Yessenia Baumbach Jr.",
+    "RecurringStartDate": "2022-10-11T03:40:45.6231158+02:00",
+    "RecurringEndDate": "2024-03-08T03:40:45.6231158+01:00",
+    "MotherId": 43,
+    "AssignedBy": 240,
+    "AssignedByFullName": "Joshuah Pfannerstill",
     "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "quo",
-    "SaleId": 392,
-    "SaleName": "Trantow Group",
-    "AssociateName": "Rau-Pagac",
-    "CreatedDate": "2006-11-06T11:24:47.3126897+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Grace Cruickshank",
-    "CreatedByAssociateId": 803,
+    "Location": "perspiciatis",
+    "AlarmLeadTime": "placeat",
+    "SaleId": 759,
+    "SaleName": "Swift LLC",
+    "AssociateName": "Mohr, Krajcik and Ferry",
+    "CreatedDate": "1998-10-30T03:40:45.6231158+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Leilani Orn",
+    "CreatedByAssociateId": 672,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 224,
+    "MotherAssociateId": 221,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 975,
-    "Title": "nisi",
-    "Agenda": "itaque",
-    "InternalNotes": "corrupti",
+    "PreferredTZLocation": 635,
+    "Title": "voluptates",
+    "Agenda": "placeat",
+    "InternalNotes": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 971
       }
     }
   }

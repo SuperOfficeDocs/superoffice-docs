@@ -15,6 +15,7 @@ Gets the persons working in a specific department in the same company as the log
 
 
 Departments can be retrieved with the PhoneList.DepartmentList service.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -120,7 +121,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 767
+  "DepartmentId": 710
 }
 ```
 
@@ -132,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 105,
-    "Mrmrs": "ad",
-    "Firstname": "Cary",
-    "Lastname": "Fritsch",
-    "MiddleName": "Satterfield-Nicolas",
-    "Title": "fuga",
-    "Description": "Future-proofed optimal groupware",
-    "Email": "jany@wyman.co.uk",
-    "FullName": "Nicole Janelle Leannon PhD",
-    "DirectPhone": "287.288.4338 x559",
-    "FormalName": "Breitenberg-Mitchell",
-    "CountryId": 406,
-    "ContactId": 740,
-    "ContactName": "Streich, Wolff and Mitchell",
-    "Retired": 415,
-    "Rank": 208,
-    "ActiveInterests": 167,
+    "Position": "voluptatum",
+    "PersonId": 993,
+    "Mrmrs": "velit",
+    "Firstname": "Lazaro",
+    "Lastname": "Torphy",
+    "MiddleName": "Farrell-Gottlieb",
+    "Title": "molestiae",
+    "Description": "Multi-layered static support",
+    "Email": "arno_lang@cormier.com",
+    "FullName": "Margaretta Mayer",
+    "DirectPhone": "945.570.9562",
+    "FormalName": "Barrows, Morar and Gibson",
+    "CountryId": 977,
+    "ContactId": 293,
+    "ContactName": "Gaylord, Moore and Koss",
+    "Retired": 163,
+    "Rank": 136,
+    "ActiveInterests": 887,
     "ContactDepartment": "",
-    "ContactCountryId": 599,
-    "ContactOrgNr": "647772",
-    "FaxPhone": "1-944-618-3075",
-    "MobilePhone": "(457)594-8160 x710",
-    "ContactPhone": "(967)512-4400",
-    "AssociateName": "Goyette-Abernathy",
-    "AssociateId": 444,
-    "UsePersonAddress": true,
-    "ContactFax": "qui",
-    "Kanafname": "dolorem",
-    "Kanalname": "maxime",
-    "Post1": "mollitia",
-    "Post2": "et",
-    "Post3": "fugit",
-    "EmailName": "americo_hermiston@green.com",
-    "ContactFullName": "Dr. Kailey Shania Padberg IV",
-    "ActiveErpLinks": 763,
-    "TicketPriorityId": 997,
-    "SupportLanguageId": 232,
-    "SupportAssociateId": 513,
+    "ContactCountryId": 87,
+    "ContactOrgNr": "1136535",
+    "FaxPhone": "1-218-972-0930 x182",
+    "MobilePhone": "1-377-194-9053",
+    "ContactPhone": "596.530.5802 x44151",
+    "AssociateName": "Marvin-Abbott",
+    "AssociateId": 118,
+    "UsePersonAddress": false,
+    "ContactFax": "sed",
+    "Kanafname": "quos",
+    "Kanalname": "dolorem",
+    "Post1": "quam",
+    "Post2": "expedita",
+    "Post3": "et",
+    "EmailName": "coty.corwin@jewess.biz",
+    "ContactFullName": "Dr. Eulah Gerlach",
+    "ActiveErpLinks": 604,
+    "TicketPriorityId": 710,
+    "SupportLanguageId": 200,
+    "SupportAssociateId": 327,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "723794",
+    "PersonNumber": "634902",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 917
       }
     }
   }

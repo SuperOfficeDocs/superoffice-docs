@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "animi",
+  "SaleText": "minima",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -121,90 +121,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-06-19T11:24:53.54681+02:00",
-  "Amount": 20640.523999999998,
-  "SaleId": 730,
-  "Earning": 9517.958,
-  "EarningPercent": 13795.868,
-  "Heading": "non",
-  "Number": "1315387",
-  "Probability": 454,
-  "CreatedDate": "2001-04-09T11:24:53.54681+02:00",
-  "UpdatedDate": "2022-06-08T11:24:53.54681+02:00",
+  "Saledate": "2004-12-08T03:40:56.1949223+01:00",
+  "Amount": 871.252,
+  "SaleId": 784,
+  "Earning": 30913.775999999998,
+  "EarningPercent": 7173.726,
+  "Heading": "quibusdam",
+  "Number": "887068",
+  "Probability": 991,
+  "CreatedDate": "2012-04-19T03:40:56.1949223+02:00",
+  "UpdatedDate": "2015-02-24T03:40:56.1949223+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 660,
+  "ActiveLinks": 664,
   "Links": [
     {
-      "EntityName": "Connelly-Wyman",
-      "Id": 371,
-      "Description": "Diverse bandwidth-monitored toolset",
-      "ExtraInfo": "suscipit",
-      "LinkId": 726
+      "EntityName": "Feest Group",
+      "Id": 535,
+      "Description": "Managed executive process improvement",
+      "ExtraInfo": "veniam",
+      "LinkId": 993
     },
     {
-      "EntityName": "Connelly-Wyman",
-      "Id": 371,
-      "Description": "Diverse bandwidth-monitored toolset",
-      "ExtraInfo": "suscipit",
-      "LinkId": 726
+      "EntityName": "Feest Group",
+      "Id": 535,
+      "Description": "Managed executive process improvement",
+      "ExtraInfo": "veniam",
+      "LinkId": 993
     }
   ],
-  "NextDueDate": "2013-09-01T11:24:53.54681+02:00",
-  "Postit": "quis",
+  "NextDueDate": "2018-05-31T03:40:56.1949223+02:00",
+  "Postit": "dolor",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2025-05-21T11:24:53.54681+02:00",
+  "ReopenDate": "2023-11-01T03:40:56.1949223+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Botsford, Grant and Schinner",
-      "Comment": "nobis",
-      "StakeholderRoleId": 449,
-      "CountryId": 20,
-      "PersonId": 446,
-      "EmailDescription": "kathryn_emmerich@hesselgrant.us",
-      "EmailId": 641,
-      "EmailAddress": "marcos@starkkoch.com",
-      "PhoneId": 469,
-      "ContactName": "Gleichner Group",
-      "ContactId": 960,
-      "SaleId": 72,
-      "Mrmrs": "enim",
-      "Firstname": "Ramon",
-      "MiddleName": "Durgan Inc and Sons",
-      "Lastname": "Haley",
-      "SaleStakeholderId": 560,
-      "Rank": 431,
-      "Phone": "401-675-2400 x75063"
+      "StakeholderRoleName": "Goodwin-Stiedemann",
+      "Comment": "odio",
+      "StakeholderRoleId": 261,
+      "CountryId": 714,
+      "PersonId": 934,
+      "EmailDescription": "jerrell.weissnat@mosciskibatz.us",
+      "EmailId": 151,
+      "EmailAddress": "arturo@bartoletti.uk",
+      "PhoneId": 144,
+      "ContactName": "Kuhlman LLC",
+      "ContactId": 859,
+      "SaleId": 263,
+      "Mrmrs": "quis",
+      "Firstname": "Sammie",
+      "MiddleName": "Goldner, Stracke and Quigley",
+      "Lastname": "Murphy",
+      "SaleStakeholderId": 245,
+      "Rank": 739,
+      "Phone": "(649)922-5418 x423"
     }
   ],
-  "ActiveErpLinks": 389,
+  "ActiveErpLinks": 247,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ward Walker",
-    "SuperOffice:2": "Jazmyne Mayert IV"
+    "SuperOffice:1": "Mrs. Carmine Denis Mraz",
+    "SuperOffice:2": "Lyric Kuvalis"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "id",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "libero"
+    "CustomFields1": "officiis",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "1998-10-30T11:24:53.54681+01:00",
-  "PublishTo": "2010-08-07T11:24:53.54681+02:00",
-  "PublishFrom": "1999-04-19T11:24:53.54681+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-05-14T03:40:56.1949223+02:00",
+  "PublishTo": "2015-10-29T03:40:56.1949223+01:00",
+  "PublishFrom": "2002-07-22T03:40:56.1949223+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 261,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "voluptas"
     },
     {
-      "VisibleId": 261,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "voluptas"
     }
   ]
 }
@@ -217,7 +217,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quo",
-  "2": "occaecati"
+  "1": "rerum",
+  "2": "iste"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Loading default values into a new TargetDimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -64,7 +66,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 901,
+  "TargetDimensionId": 364,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aut",
-  "DimensionListName": "Hills-Kautzer",
-  "DimensionListId": 259,
-  "DimensionListLabel": "ea",
+  "DimensionListField": "enim",
+  "DimensionListName": "Labadie, Reilly and Hayes",
+  "DimensionListId": 134,
+  "DimensionListLabel": "sunt",
   "SelectedDimensions": [
-    178,
-    254
+    803,
+    608
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Heidenreich Inc and Sons",
-    "Tooltip": "facilis",
+    "HeadingId": 727,
+    "Name": "Gutkowski, Pouros and Kautzer",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 47,
-    "UdListDefinitionId": 412,
+    "Rank": 449,
+    "UdListDefinitionId": 358,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 702
       }
     }
   }

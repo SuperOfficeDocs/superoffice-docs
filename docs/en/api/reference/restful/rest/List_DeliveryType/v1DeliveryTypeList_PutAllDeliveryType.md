@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Lynch-Harber",
-    "Tooltip": "accusamus",
+    "Id": 116,
+    "Name": "Kshlerin Group",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "UdListDefinitionId": 893,
-    "Rank": 615
+    "UdListDefinitionId": 160,
+    "Rank": 272
   },
   {
-    "Id": 757,
-    "Name": "Lynch-Harber",
-    "Tooltip": "accusamus",
+    "Id": 116,
+    "Name": "Kshlerin Group",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "UdListDefinitionId": 893,
-    "Rank": 615
+    "UdListDefinitionId": 160,
+    "Rank": 272
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Stoltenberg-Bosco",
-    "Tooltip": "sit",
+    "Id": 499,
+    "Name": "O'Kon-Beier",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "UdListDefinitionId": 458,
-    "Rank": 232,
+    "UdListDefinitionId": 909,
+    "Rank": 508,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

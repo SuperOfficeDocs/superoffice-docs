@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetConsentPurpose
 Gets a ConsentPurpose object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=460
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=97
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -90,25 +92,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 42,
-  "Name": "Casper-Jacobson",
-  "ConsentText": "commodi",
-  "FormText": "corporis",
-  "Key": "qui",
-  "Tooltip": "quisquam",
-  "Active": 792,
-  "UpdatedDate": "2021-11-11T11:24:48.2501511+01:00",
+  "ConsentPurposeId": 536,
+  "Name": "Morar, Schaden and Kiehn",
+  "ConsentText": "nemo",
+  "FormText": "fugiat",
+  "Key": "ut",
+  "Tooltip": "eaque",
+  "Active": 48,
+  "UpdatedDate": "2006-12-22T03:40:47.2186675+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 180,
-  "PrivacyStatementDesc": "delectus",
+  "Rank": 198,
+  "PrivacyStatementDesc": "consequatur",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 454
     }
   }
 }

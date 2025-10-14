@@ -60,7 +60,7 @@ OK
 GET /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,7 +71,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 460,
-  "Name": "Kutch, Moore and Champlin"
+  "AssociateId": 427,
+  "Name": "Stroman Inc and Sons"
 }
 ```

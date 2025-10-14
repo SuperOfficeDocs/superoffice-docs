@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Lang-Hessel",
-    "Tooltip": "ut",
+    "Id": 68,
+    "Name": "Lesch, Champlin and Stroman",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 404,
-    "Rank": 941
+    "UdListDefinitionId": 253,
+    "Rank": 92
   },
   {
-    "Id": 498,
-    "Name": "Lang-Hessel",
-    "Tooltip": "ut",
+    "Id": 68,
+    "Name": "Lesch, Champlin and Stroman",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 404,
-    "Rank": 941
+    "UdListDefinitionId": 253,
+    "Rank": 92
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Hand, Tremblay and DuBuque",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 298,
-    "Rank": 900,
+    "Id": 336,
+    "Name": "Gusikowski Inc and Sons",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 872,
+    "Rank": 173,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

@@ -99,40 +99,40 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "perferendis",
-    "InputValues2": "possimus"
+    "InputValues1": "facilis",
+    "InputValues2": "commodi"
   },
   "BlockExecution": true,
-  "NavigateTo": "nam",
-  "Message": "magni",
-  "ShowDialog": "illum",
+  "NavigateTo": "placeat",
+  "Message": "ullam",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "sunt",
-    "OutputValues2": "minus"
+    "OutputValues1": "sit",
+    "OutputValues2": "repellat"
   },
   "StateValues": {
-    "StateValues1": "voluptas",
-    "StateValues2": "officiis"
+    "StateValues1": "aut",
+    "StateValues2": "perspiciatis"
   },
-  "Exception": "asperiores",
+  "Exception": "laborum",
   "ParserValues": {
-    "ParserValues1": "tempora",
-    "ParserValues2": "neque"
+    "ParserValues1": "qui",
+    "ParserValues2": "ut"
   },
   "CgiVariables": {
-    "CgiVariables1": "nobis",
-    "CgiVariables2": "itaque"
+    "CgiVariables1": "vel",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "qui",
+  "CgiContent": "porro",
   "Headers": {
-    "Headers1": "ut",
-    "Headers2": "rem"
+    "Headers1": "rerum",
+    "Headers2": "et"
   },
   "TraceExecution": false
 }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ullam",
-    "InputValues2": "vero"
+    "InputValues1": "eos",
+    "InputValues2": "eos"
   },
   "BlockExecution": false,
-  "NavigateTo": "provident",
-  "Message": "quos",
-  "ShowDialog": "omnis",
+  "NavigateTo": "eos",
+  "Message": "inventore",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "aperiam",
-    "OutputValues2": "exercitationem"
+    "OutputValues1": "velit",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "ex",
-    "StateValues2": "eius"
+    "StateValues1": "sed",
+    "StateValues2": "quam"
   },
-  "Exception": "excepturi",
+  "Exception": "omnis",
   "ParserValues": {
-    "ParserValues1": "sint",
-    "ParserValues2": "placeat"
+    "ParserValues1": "nesciunt",
+    "ParserValues2": "aliquid"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
+    "CgiVariables1": "cumque",
     "CgiVariables2": "rerum"
   },
-  "CgiContent": "fugit",
+  "CgiContent": "eaque",
   "Headers": {
-    "Headers1": "ab",
-    "Headers2": "ea"
+    "Headers1": "excepturi",
+    "Headers2": "quod"
   },
   "TraceExecution": true,
   "TableRight": null,
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 424
     }
   }
 }

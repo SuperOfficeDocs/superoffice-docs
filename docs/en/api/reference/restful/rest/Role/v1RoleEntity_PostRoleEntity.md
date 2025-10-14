@@ -15,6 +15,7 @@ Creates a new RoleEntity
 
 
 Calls the User agent service SaveRoleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -102,20 +103,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 241,
-  "Name": "Windler, Kozey and Haley",
-  "Tooltip": "voluptatem",
+  "RoleId": 586,
+  "Name": "Boyer Group",
+  "Tooltip": "aspernatur",
   "RoleType": "Anonymous",
-  "Deleted": 569,
-  "Rank": 922,
-  "Created": "2007-03-25T11:24:53.4843128+02:00",
-  "UseCategories": 573,
+  "Deleted": 29,
+  "Rank": 966,
+  "Created": "2004-06-01T03:40:56.0699234+02:00",
+  "UseCategories": 948,
   "CreatedBy": null,
-  "Updated": "2008-09-20T11:24:53.4843128+02:00",
+  "Updated": "2000-07-15T03:40:56.0699234+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,16 +129,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 577,
-  "Name": "Durgan, Rodriguez and Kemmer",
-  "Tooltip": "delectus",
+  "RoleId": 812,
+  "Name": "Gislason, Considine and Murazik",
+  "Tooltip": "amet",
   "RoleType": "Anonymous",
-  "Deleted": 360,
-  "Rank": 70,
-  "Created": "2012-06-23T11:24:53.4843128+02:00",
-  "UseCategories": 997,
+  "Deleted": 427,
+  "Rank": 712,
+  "Created": "2016-10-16T03:40:56.0699234+02:00",
+  "UseCategories": 416,
   "CreatedBy": null,
-  "Updated": "2020-12-07T11:24:53.4843128+01:00",
+  "Updated": "2005-03-29T03:40:56.0699234+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -145,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 710
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

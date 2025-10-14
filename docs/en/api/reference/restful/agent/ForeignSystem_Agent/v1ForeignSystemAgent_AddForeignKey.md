@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,9 +91,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Abernathy LLC",
-  "DeviceName": "Carter, Watsica and Bogisich",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Streich LLC",
+  "DeviceName": "Bogisich-Pacocha",
+  "DeviceIdentifier": "enim"
 }
 ```
 
@@ -102,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptas",
-  "Value": "unde",
-  "RecordId": 144,
-  "CreatedDate": "2011-06-04T11:24:48.1564051+02:00",
-  "UpdatedDate": "2015-11-01T11:24:48.1564051+01:00",
-  "UpdatedBy": "alias",
-  "CreatedBy": "in",
-  "TableName": "Skiles, Metz and Goyette",
+  "Key": "totam",
+  "Value": "qui",
+  "RecordId": 496,
+  "CreatedDate": "2021-07-07T03:40:46.9842779+02:00",
+  "UpdatedDate": "2010-12-29T03:40:46.9842779+01:00",
+  "UpdatedBy": "corrupti",
+  "CreatedBy": "officiis",
+  "TableName": "Blanda, Hoeger and Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 635
     }
   }
 }

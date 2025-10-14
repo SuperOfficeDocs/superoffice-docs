@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Grady, Huels and Mohr",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 302,
-    "Rank": 901,
+    "Id": 617,
+    "Name": "Nitzsche, Johnston and Rice",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 60,
+    "Rank": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

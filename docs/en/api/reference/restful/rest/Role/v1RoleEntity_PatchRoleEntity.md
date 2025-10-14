@@ -15,6 +15,7 @@ Update a RoleEntity with changes, as described in a JSON Patch or a JSON Merge P
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -129,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "totam",
+    "path": "porro",
     "value": {}
   },
   {
     "op": "add",
-    "path": "totam",
+    "path": "porro",
     "value": {}
   }
 ]
@@ -147,16 +148,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 177,
-  "Name": "Cole, Quitzon and Simonis",
-  "Tooltip": "non",
+  "RoleId": 936,
+  "Name": "Rosenbaum Inc and Sons",
+  "Tooltip": "voluptate",
   "RoleType": "Anonymous",
-  "Deleted": 430,
-  "Rank": 604,
-  "Created": "2020-10-21T11:24:53.4843128+02:00",
-  "UseCategories": 848,
+  "Deleted": 237,
+  "Rank": 466,
+  "Created": "2006-10-07T03:40:56.0699234+02:00",
+  "UseCategories": 52,
   "CreatedBy": null,
-  "Updated": "2015-09-15T11:24:53.4843128+02:00",
+  "Updated": "2017-03-26T03:40:56.0699234+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -164,12 +165,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 253
+      "FieldLength": 775
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -15,6 +15,7 @@ Creates a new SelectionEntity
 
 
 Calls the Selection agent service SaveSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -157,60 +158,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated well-modulated monitoring",
-  "Postit": "nam",
+  "Description": "Cross-platform radical toolset",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 749,
-  "IncludePerson": 977,
+  "GroupIdx": 838,
+  "IncludePerson": 547,
   "MemberCount": 99.99,
-  "Name": "Wuckert, Von and Hermann",
-  "PostitTextId": 63,
-  "CreatedDate": "2018-04-18T11:24:53.5624345+02:00",
-  "SelectionId": 667,
-  "SoundEx": "adipisci",
-  "Source": 496,
-  "TextId": 190,
-  "UpdatedDate": "2018-06-23T11:24:53.5624345+02:00",
-  "UpdatedCount": 468,
-  "Visibility": 580,
+  "Name": "Wunsch LLC",
+  "PostitTextId": 627,
+  "CreatedDate": "2011-11-15T03:40:56.2105477+01:00",
+  "SelectionId": 729,
+  "SoundEx": "ab",
+  "Source": 497,
+  "TextId": 729,
+  "UpdatedDate": "2010-10-09T03:40:56.2105477+02:00",
+  "UpdatedCount": 967,
+  "Visibility": 426,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 82,
-  "TargetTableName": "Dickens LLC",
+  "TargetTableNumber": 337,
+  "TargetTableName": "Crist, Marquardt and Haag",
   "Completed": false,
-  "LeftSelectionId": 444,
-  "RightSelectionId": 233,
+  "LeftSelectionId": 934,
+  "RightSelectionId": 597,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goyette, Orn and Hamill",
-  "ShadowProviderName": "Williamson-Stroman",
-  "ChartKey": "sit",
-  "LastLoaded": "2017-05-04T11:24:53.5624345+02:00",
-  "LastLoadedBy": 124,
+  "MainProviderName": "Brekke-Conn",
+  "ShadowProviderName": "Morissette, Schuster and Balistreri",
+  "ChartKey": "totam",
+  "LastLoaded": "2005-12-07T03:40:56.2105477+01:00",
+  "LastLoadedBy": 16,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-04-16T11:24:53.5624345+02:00",
-  "LastMembershipChangeBy": 671,
+  "LastMembershipChange": "2011-10-15T03:40:56.2105477+02:00",
+  "LastMembershipChangeBy": 755,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sequi",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Wisozk, Adams and Weber",
-  "DashboardTileDefinitionId": 852,
+  "MainHeading": "non",
+  "MemberTabHeading": "pariatur",
+  "MailingsProviderName": "Blick LLC",
+  "DashboardTileDefinitionId": 185,
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 199,
       "Visibility": "All",
-      "DisplayValue": "molestias"
+      "DisplayValue": "dolores"
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 199,
       "Visibility": "All",
-      "DisplayValue": "molestias"
+      "DisplayValue": "dolores"
     }
   ]
 }
@@ -223,70 +224,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused client-server architecture",
-  "Postit": "vero",
+  "Description": "Polarised web-enabled project",
+  "Postit": "provident",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 245,
-  "IncludePerson": 584,
+  "GroupIdx": 600,
+  "IncludePerson": 86,
   "MemberCount": 99.99,
-  "Name": "Simonis, Considine and Mills",
-  "PostitTextId": 776,
-  "CreatedDate": "2002-10-31T11:24:53.5624345+01:00",
-  "SelectionId": 213,
-  "SoundEx": "velit",
-  "Source": 410,
-  "TextId": 920,
-  "UpdatedDate": "2024-12-18T11:24:53.5624345+01:00",
-  "UpdatedCount": 622,
-  "Visibility": 364,
+  "Name": "Keebler, Macejkovic and Carter",
+  "PostitTextId": 617,
+  "CreatedDate": "2013-08-17T03:40:56.2105477+02:00",
+  "SelectionId": 410,
+  "SoundEx": "repellat",
+  "Source": 611,
+  "TextId": 441,
+  "UpdatedDate": "2020-03-19T03:40:56.2105477+01:00",
+  "UpdatedCount": 848,
+  "Visibility": 162,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 92,
-  "TargetTableName": "Schneider, Macejkovic and Block",
-  "Completed": false,
-  "LeftSelectionId": 327,
-  "RightSelectionId": 363,
+  "TargetTableNumber": 607,
+  "TargetTableName": "Kuhic, Jacobs and Boyer",
+  "Completed": true,
+  "LeftSelectionId": 313,
+  "RightSelectionId": 844,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stanton-Brakus",
-  "ShadowProviderName": "Weimann Group",
-  "ChartKey": "aperiam",
-  "LastLoaded": "2020-02-28T11:24:53.5624345+01:00",
-  "LastLoadedBy": 4,
+  "MainProviderName": "Tromp, Kshlerin and Mayert",
+  "ShadowProviderName": "Lehner-Jacobi",
+  "ChartKey": "laudantium",
+  "LastLoaded": "2022-07-24T03:40:56.2105477+02:00",
+  "LastLoadedBy": 375,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-10T11:24:53.5624345+01:00",
-  "LastMembershipChangeBy": 681,
+  "LastMembershipChange": "2006-02-07T03:40:56.2105477+01:00",
+  "LastMembershipChangeBy": 842,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fuga",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Gislason, Dach and Waelchi",
-  "DashboardTileDefinitionId": 495,
+  "MainHeading": "nisi",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Herzog, Wisoky and Kunde",
+  "DashboardTileDefinitionId": 125,
   "VisibleFor": [
     {
-      "VisibleId": 316,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 318
         }
       }
     },
     {
-      "VisibleId": 316,
+      "VisibleId": 7,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 318
         }
       }
     }
@@ -296,7 +297,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 658
     }
   },
   "_Links": {

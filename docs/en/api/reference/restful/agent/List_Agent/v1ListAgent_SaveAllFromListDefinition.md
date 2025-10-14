@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveAllFromListDefinition
 Save all list items for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,27 +82,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 704,
+  "UdListDefinitionId": 467,
   "Items": [
     {
-      "Id": 889,
-      "Name": "Windler, Williamson and Monahan",
-      "Tooltip": "aut",
+      "Id": 737,
+      "Name": "Flatley, Bahringer and Rohan",
+      "Tooltip": "et",
       "Deleted": false,
-      "UdListDefinitionId": 510,
-      "Rank": 201
+      "UdListDefinitionId": 843,
+      "Rank": 583
     },
     {
-      "Id": 889,
-      "Name": "Windler, Williamson and Monahan",
-      "Tooltip": "aut",
+      "Id": 737,
+      "Name": "Flatley, Bahringer and Rohan",
+      "Tooltip": "et",
       "Deleted": false,
-      "UdListDefinitionId": 510,
-      "Rank": 201
+      "UdListDefinitionId": 843,
+      "Rank": 583
     }
   ]
 }
@@ -114,18 +116,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Schmitt, Botsford and Gerlach",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "UdListDefinitionId": 409,
-    "Rank": 224,
+    "Id": 130,
+    "Name": "Cartwright, Bins and Gutkowski",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 956,
+    "Rank": 848,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 347
+        "FieldType": "System.Int32",
+        "FieldLength": 606
       }
     }
   }

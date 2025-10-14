@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CheckoutDocument
 Check out a document for editing by the current user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 982,
+  "DocumentId": 303,
   "AllowedReturnTypes": [
-    "assumenda",
-    "et"
+    "et",
+    "qui"
   ]
 }
 ```
@@ -97,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "qui",
-  "VersionId": "et",
-  "Success": true,
+  "ExternalReference": "iure",
+  "VersionId": "molestias",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "maiores",
+  "Value": "eligendi",
   "AdditionalInfo": "ut"
 }
 ```

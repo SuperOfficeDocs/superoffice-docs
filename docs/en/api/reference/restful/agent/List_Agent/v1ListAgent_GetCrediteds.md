@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCrediteds
 Returns all credited
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCrediteds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Value": "a",
-    "Tooltip": "quis",
+    "Id": 156,
+    "Value": "quia",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   },
   {
-    "Id": 361,
-    "Value": "a",
-    "Tooltip": "quis",
+    "Id": 156,
+    "Value": "quia",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 66
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

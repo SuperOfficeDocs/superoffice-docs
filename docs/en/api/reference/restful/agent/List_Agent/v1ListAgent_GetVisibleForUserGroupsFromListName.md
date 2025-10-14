@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 List of User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,8 +95,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ledner, Hodkiewicz and Fisher",
-  "ListItemId": 23
+  "UdListDefinitionName": "O'Reilly, Koss and Beahan",
+  "ListItemId": 851
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Prohaska Group",
-    "ToolTip": "Et voluptate nemo rem.",
-    "Deleted": false,
-    "Rank": 453,
-    "Type": "veniam",
-    "ColorBlock": 729,
-    "IconHint": "exercitationem",
+    "Id": 28,
+    "Name": "Parker-Brakus",
+    "ToolTip": "Consequuntur voluptatem rerum et dolores eveniet ut repellendus.",
+    "Deleted": true,
+    "Rank": 523,
+    "Type": "error",
+    "ColorBlock": 557,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2011-11-02T11:24:48.2501511+01:00",
+    "LastChanged": "2007-09-02T03:40:47.2186675+02:00",
     "ChildItems": [
       {
-        "Id": 825,
-        "Name": "Konopelski-Oberbrunner",
-        "ToolTip": "Illum distinctio temporibus et mollitia quia incidunt.",
-        "Deleted": true,
-        "Rank": 477,
-        "Type": "sequi",
-        "ColorBlock": 518,
-        "IconHint": "quaerat",
+        "Id": 763,
+        "Name": "Medhurst Inc and Sons",
+        "ToolTip": "Asperiores totam quae.",
+        "Deleted": false,
+        "Rank": 798,
+        "Type": "sapiente",
+        "ColorBlock": 224,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2019-12-03T11:24:48.2501511+01:00",
+        "LastChanged": "2023-05-11T03:40:47.2186675+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Prof. Kaylah Ocie Bartell IV",
+        "ExtraInfo": "alias",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Neil Kohler PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldType": "System.String",
+            "FieldLength": 398
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "aut",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Aliyah Carole Smith PhD",
+    "FullName": "Yoshiko Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 512
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

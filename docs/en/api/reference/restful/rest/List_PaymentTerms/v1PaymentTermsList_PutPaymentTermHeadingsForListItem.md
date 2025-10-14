@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Kozey Group",
-    "ToolTip": "Minus impedit aperiam libero molestias laudantium asperiores beatae.",
-    "Deleted": false,
-    "Rank": 831,
-    "Type": "veritatis",
-    "ColorBlock": 843,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "2004-04-06T11:24:53.9686678+02:00",
+    "Id": 423,
+    "Name": "Feest-McLaughlin",
+    "ToolTip": "Delectus repudiandae id officiis.",
+    "Deleted": true,
+    "Rank": 117,
+    "Type": "illum",
+    "ColorBlock": 313,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2012-05-02T03:40:56.9620969+02:00",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Will-Bradtke",
-        "ToolTip": "Rerum repellat aspernatur voluptatem atque.",
+        "Id": 768,
+        "Name": "Hodkiewicz, Dietrich and Spencer",
+        "ToolTip": "Rerum ipsam et fuga deleniti voluptas.",
         "Deleted": false,
-        "Rank": 395,
-        "Type": "facilis",
-        "ColorBlock": 543,
-        "IconHint": "fugiat",
-        "Selected": true,
-        "LastChanged": "2020-01-31T11:24:53.9686678+01:00",
+        "Rank": 973,
+        "Type": "delectus",
+        "ColorBlock": 288,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2008-11-15T03:40:56.9620969+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "iste",
+        "ExtraInfo": "expedita",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dee Schumm I"
+        "FullName": "Ms. Gilda Ryan Koch"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Tamara Johns"
+    "ExtraInfo": "unde",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Trent Goodwin"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Bauch, Thiel and Keebler",
-    "ToolTip": "Recusandae voluptatem rerum nisi officiis.",
-    "Deleted": true,
-    "Rank": 101,
-    "Type": "velit",
-    "ColorBlock": 605,
-    "IconHint": "rerum",
+    "Id": 813,
+    "Name": "Price LLC",
+    "ToolTip": "Aliquid alias earum nihil rem illum.",
+    "Deleted": false,
+    "Rank": 457,
+    "Type": "excepturi",
+    "ColorBlock": 8,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2014-10-08T11:24:53.9686678+02:00",
+    "LastChanged": "2013-02-24T03:40:56.9620969+01:00",
     "ChildItems": [
       {
-        "Id": 576,
-        "Name": "Swift-Schowalter",
-        "ToolTip": "Qui ipsa quia nostrum sequi est dolorem.",
+        "Id": 296,
+        "Name": "Kirlin-Jakubowski",
+        "ToolTip": "Dicta asperiores.",
         "Deleted": false,
-        "Rank": 120,
-        "Type": "reiciendis",
-        "ColorBlock": 422,
-        "IconHint": "itaque",
+        "Rank": 827,
+        "Type": "facilis",
+        "ColorBlock": 125,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2007-12-27T11:24:53.9686678+01:00",
+        "LastChanged": "2025-01-02T03:40:56.9620969+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "et",
+        "ExtraInfo": "tempora",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Liam Harber",
+        "FullName": "Prof. Annalise Annabel Kuvalis PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldType": "System.Int32",
+            "FieldLength": 580
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "qui",
+    "ExtraInfo": "est",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Eldred Heathcote",
+    "FullName": "Rachel Joanie Bergstrom II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 967
       }
     }
   }

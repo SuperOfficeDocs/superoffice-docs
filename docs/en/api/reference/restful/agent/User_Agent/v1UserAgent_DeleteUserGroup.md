@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/DeleteUserGroup
 Delete a usergroup and move its members to another usergroup
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -68,12 +71,12 @@ No Content
 POST /api/v1/Agents/User/DeleteUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupToDelete": 458,
-  "UserGroupToMoveTo": 376
+  "UserGroupToDelete": 359,
+  "UserGroupToMoveTo": 936
 }
 ```
 

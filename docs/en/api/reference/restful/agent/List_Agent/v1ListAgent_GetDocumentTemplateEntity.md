@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Gets a DocumentTemplateEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=937
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=623
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -102,37 +104,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 968,
-  "Name": "Kuphal LLC",
-  "Tooltip": "delectus",
-  "SaveInDb": 523,
-  "Filename": "repudiandae",
-  "DefaultOref": "ea",
+  "DocumentTemplateId": 954,
+  "Name": "Abbott Inc and Sons",
+  "Tooltip": "quo",
+  "SaveInDb": 118,
+  "Filename": "ex",
+  "DefaultOref": "nobis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 358,
-  "IntentId": 292,
+  "AutoeventId": 496,
+  "IntentId": 136,
   "IsDefaultPublished": false,
-  "Rank": 17,
-  "LoadTemplateFromPlugin": 303,
-  "MimeType": "optio",
+  "Rank": 25,
+  "LoadTemplateFromPlugin": 77,
+  "MimeType": "dolor",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 246,
+  "DocumentTypeKey": 594,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "otto@lubowitz.info",
+  "EmailSubject": "augusta@nolan.com",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abdullah.bednar@jacobs.co.uk",
+  "SenderEmailAddress": "delta.kuhlman@lehnertromp.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 720
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetTabOrder
 Gets the tab order.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Senger, Spinka and Reichert"
+  "TabName": "Quigley Inc and Sons"
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 924,
-  "TabName": "Gottlieb Inc and Sons",
-  "Order": "harum",
-  "AssociateId": 258,
+  "TabOrderId": 720,
+  "TabName": "Marks, McDermott and Bednar",
+  "Order": "voluptatem",
+  "AssociateId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 712
     }
   }
 }

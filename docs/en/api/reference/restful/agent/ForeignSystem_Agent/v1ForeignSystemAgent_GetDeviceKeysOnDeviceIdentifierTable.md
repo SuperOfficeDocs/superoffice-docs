@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Abernathy, Kutch and Glover",
-  "DeviceName": "Funk, Hayes and Smith",
-  "DeviceIdentifier": "libero",
-  "TableName": "Stanton, Watsica and Dare"
+  "ApplicationName": "Rath Group",
+  "DeviceName": "Emard-Durgan",
+  "DeviceIdentifier": "voluptates",
+  "TableName": "Leuschke Group"
 }
 ```
 
@@ -103,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ipsam",
-    "Value": "vel",
-    "RecordId": 494,
-    "CreatedDate": "2011-06-30T11:24:48.1720293+02:00",
-    "UpdatedDate": "2020-04-10T11:24:48.1720293+02:00",
-    "UpdatedBy": "rerum",
-    "CreatedBy": "quam",
-    "TableName": "Denesik-Batz",
+    "Key": "temporibus",
+    "Value": "reiciendis",
+    "RecordId": 757,
+    "CreatedDate": "2022-04-12T03:40:46.9999043+02:00",
+    "UpdatedDate": "2018-08-15T03:40:46.9999043+02:00",
+    "UpdatedBy": "molestias",
+    "CreatedBy": "enim",
+    "TableName": "Brown LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 833
       }
     }
   }

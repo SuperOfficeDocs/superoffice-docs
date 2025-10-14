@@ -15,6 +15,10 @@ Return the prompt used to get a short summary of the messages on a ticket.
 
 
 Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -82,14 +86,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeTicketPrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 3,
-  "NumSentences": 495,
-  "Summary": "fugit",
-  "IsoLangCode": "nesciunt"
+  "TicketId": 548,
+  "NumSentences": 777,
+  "Summary": "ipsa",
+  "IsoLangCode": "dicta"
 }
 ```
 
@@ -100,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-02-17T11:24:47.2814408+01:00",
-  "UserPrompt": "quo",
-  "UserDisplayText": "autem",
-  "BotResponse": "nemo",
+  "Timestamp": "2025-10-09T03:40:45.5762384+02:00",
+  "UserPrompt": "fugiat",
+  "UserDisplayText": "rerum",
+  "BotResponse": "voluptatum",
   "BotActions": {
-    "BotActions1": "et",
-    "BotActions2": "aperiam"
+    "BotActions1": "aperiam",
+    "BotActions2": "rerum"
   },
   "Attachments": [
-    "voluptatum",
-    "enim"
+    "vel",
+    "harum"
   ]
 }
 ```

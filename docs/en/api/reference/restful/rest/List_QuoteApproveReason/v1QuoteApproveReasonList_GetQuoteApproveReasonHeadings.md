@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 554,
-    "Name": "Dibbert, Fadel and Becker",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 674,
+    "HeadingId": 724,
+    "Name": "McLaughlin, Wilderman and O'Reilly",
+    "Tooltip": "odit",
+    "Deleted": true,
+    "Rank": 398,
+    "UdListDefinitionId": 861,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldLength": 988
       }
     }
   }

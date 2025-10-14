@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 782,
-  "Name": "Toy-Lebsack",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "UdListDefinitionId": 267,
-  "Rank": 274
+  "Id": 288,
+  "Name": "Kulas-Heidenreich",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "UdListDefinitionId": 132,
+  "Rank": 121
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 879,
-  "Name": "Braun LLC",
-  "Tooltip": "in",
+  "Id": 177,
+  "Name": "Olson Inc and Sons",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "UdListDefinitionId": 643,
-  "Rank": 85,
+  "UdListDefinitionId": 931,
+  "Rank": 721,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 844
     }
   }
 }

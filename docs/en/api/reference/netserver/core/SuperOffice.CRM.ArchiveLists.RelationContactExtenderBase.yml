@@ -80,6 +80,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colHasInterests
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colAssociateId
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategory
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCountry
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCountryId
@@ -705,6 +706,14 @@ references:
   name: _colCategory
   nameWithType: ContactExtenderBase._colCategory
   fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategory
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase__colCategoryGroup
+  name: _colCategoryGroup
+  nameWithType: ContactExtenderBase._colCategoryGroup
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colCategoryGroup
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colBusiness
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase

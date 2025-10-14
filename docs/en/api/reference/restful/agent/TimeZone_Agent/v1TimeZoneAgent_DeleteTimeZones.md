@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/DeleteTimeZones
 Deletes all time zone data (locations and rules) from the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/TimeZone/DeleteTimeZones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

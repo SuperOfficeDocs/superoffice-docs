@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Ticket categories for user groups
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,13 +87,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    355,
-    234
+    882,
+    628
   ]
 }
 ```
@@ -104,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Swift Group",
-    "ToolTip": "At accusantium.",
-    "Deleted": false,
-    "Rank": 385,
-    "Type": "et",
+    "Id": 939,
+    "Name": "Will, Morar and Tremblay",
+    "ToolTip": "Eius alias in officiis alias quis.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Abshire Group",
-        "ToolTip": "Impedit voluptatem.",
+        "Id": 303,
+        "Name": "Little, Feest and Deckow",
+        "ToolTip": "Est quasi eligendi ut.",
         "Deleted": false,
-        "Rank": 796,
-        "Type": "ut",
+        "Rank": 401,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 931,
-        "ExtraInfo": "est",
-        "StyleHint": "consequatur",
-        "FullName": "Sammy Hartmann",
+        "IconHint": "incidunt",
+        "ColorBlock": 373,
+        "ExtraInfo": "repellat",
+        "StyleHint": "earum",
+        "FullName": "Dr. Louisa Mraz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "laboriosam",
-    "ColorBlock": 27,
-    "ExtraInfo": "ab",
-    "StyleHint": "molestias",
-    "FullName": "Ethel Gibson",
+    "IconHint": "sed",
+    "ColorBlock": 822,
+    "ExtraInfo": "voluptate",
+    "StyleHint": "incidunt",
+    "FullName": "Parker Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldType": "System.Int32",
+        "FieldLength": 176
       }
     }
   }

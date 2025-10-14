@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Wolf, Kerluke and Friesen",
-    "ToolTip": "Est ratione.",
+    "Id": 300,
+    "Name": "Cruickshank-Emmerich",
+    "ToolTip": "Architecto enim ducimus et qui est ut.",
     "Deleted": true,
-    "Rank": 978,
-    "Type": "earum",
-    "ColorBlock": 45,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2012-04-25T11:24:53.9686678+02:00",
+    "Rank": 646,
+    "Type": "doloribus",
+    "ColorBlock": 691,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2022-07-07T03:40:56.9777222+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "McLaughlin LLC",
-        "ToolTip": "Et non temporibus vel nemo.",
-        "Deleted": false,
-        "Rank": 435,
-        "Type": "esse",
-        "ColorBlock": 960,
-        "IconHint": "dolor",
+        "Id": 312,
+        "Name": "Cartwright Group",
+        "ToolTip": "Sunt harum quia facere ad eum ut.",
+        "Deleted": true,
+        "Rank": 483,
+        "Type": "enim",
+        "ColorBlock": 880,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2001-05-08T11:24:53.9686678+02:00",
+        "LastChanged": "2011-06-01T03:40:56.9777222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Prof. Clara Charity Runte"
+        "ExtraInfo": "dolore",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Ms. Nyah Wehner IV"
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "ut",
+    "ExtraInfo": "dolor",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Lamar Jennifer Feeney II"
+    "FullName": "Prof. Caterina Kirlin Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Schultz-Predovic",
-    "ToolTip": "Laboriosam nisi accusamus quisquam laborum.",
+    "Id": 184,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Sapiente nemo beatae quos magni nihil et.",
     "Deleted": false,
-    "Rank": 626,
-    "Type": "vel",
-    "ColorBlock": 20,
-    "IconHint": "id",
-    "Selected": false,
-    "LastChanged": "2009-04-13T11:24:53.9686678+02:00",
+    "Rank": 271,
+    "Type": "voluptas",
+    "ColorBlock": 359,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2020-05-05T03:40:56.9777222+02:00",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Skiles, Langosh and Beier",
-        "ToolTip": "Ut voluptatibus quia sit ad occaecati.",
+        "Id": 84,
+        "Name": "Schiller, Mitchell and Howe",
+        "ToolTip": "Aut est et aut earum.",
         "Deleted": false,
-        "Rank": 546,
-        "Type": "aut",
-        "ColorBlock": 672,
-        "IconHint": "quia",
+        "Rank": 337,
+        "Type": "quo",
+        "ColorBlock": 604,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2001-11-03T11:24:53.9686678+01:00",
+        "LastChanged": "2016-01-23T03:40:56.9777222+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Mr. Ibrahim Strosin",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Keven Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldType": "System.String",
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "vitae",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Ms. Sarai Hane PhD",
+    "FullName": "Matilda Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldType": "System.String",
+        "FieldLength": 314
       }
     }
   }

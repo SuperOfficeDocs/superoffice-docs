@@ -15,6 +15,7 @@ Gets a ChatTopicEntity object.
 
 
 Calls the Chat agent service GetChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -104,7 +105,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,43 +115,43 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 841,
-  "Name": "Hermiston-Wyman",
-  "Description": "Implemented secondary collaboration",
-  "WelcomeMessage": "ex",
+  "ChatTopicId": 31,
+  "Name": "Grant Group",
+  "Description": "Mandatory impactful task-force",
+  "WelcomeMessage": "magnam",
   "Language": null,
-  "LastAccept": "2000-02-19T11:24:53.0624548+01:00",
-  "SecondsPrAccept": 286,
-  "AlertRecipient": "praesentium",
+  "LastAccept": "2004-11-25T03:40:55.397437+01:00",
+  "SecondsPrAccept": 972,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "quaerat",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rerum",
-  "WarnNewChatMinutes": 248,
-  "WarnManagerNewChatMinutes": 798,
+  "BadgeHeader": "est",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "voluptatum",
+  "WarnNewChatMinutes": 332,
+  "WarnManagerNewChatMinutes": 463,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 162,
-  "WarnManagerChatMessageMinutes": 84,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 105,
+  "WarnManagerChatMessageMinutes": 704,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 118,
-  "OfflineFormQueueLength": 202,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "qui",
+  "OfflineFormTimeLimit": 994,
+  "OfflineFormQueueLength": 839,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldLength": 771
     }
   },
   "_Links": {

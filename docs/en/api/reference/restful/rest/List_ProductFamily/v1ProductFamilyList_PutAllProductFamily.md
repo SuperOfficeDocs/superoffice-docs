@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Jenkins LLC",
-    "Tooltip": "quibusdam",
+    "Id": 351,
+    "Name": "Dooley Inc and Sons",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 625,
-    "Rank": 323
+    "UdListDefinitionId": 216,
+    "Rank": 754
   },
   {
-    "Id": 716,
-    "Name": "Jenkins LLC",
-    "Tooltip": "quibusdam",
+    "Id": 351,
+    "Name": "Dooley Inc and Sons",
+    "Tooltip": "atque",
     "Deleted": false,
-    "UdListDefinitionId": 625,
-    "Rank": 323
+    "UdListDefinitionId": 216,
+    "Rank": 754
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Dach, Keeling and Wunsch",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 743,
-    "Rank": 257,
+    "Id": 701,
+    "Name": "Schoen-Crona",
+    "Tooltip": "commodi",
+    "Deleted": true,
+    "UdListDefinitionId": 611,
+    "Rank": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

@@ -15,6 +15,7 @@ Clear all relevant caches.
 
 
 This is normally done automatically but can be useful in certain circumstances.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -59,7 +60,7 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/ClearCaches
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

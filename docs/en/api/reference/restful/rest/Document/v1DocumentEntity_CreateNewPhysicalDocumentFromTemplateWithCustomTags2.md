@@ -38,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=77
-POST /api/v1/Document/{documentId}/Content?personId=402
-POST /api/v1/Document/{documentId}/Content?appointmentId=52
-POST /api/v1/Document/{documentId}/Content?saleId=844
-POST /api/v1/Document/{documentId}/Content?selectionId=301
-POST /api/v1/Document/{documentId}/Content?projectId=699
-POST /api/v1/Document/{documentId}/Content?uiCulture=odio
+POST /api/v1/Document/{documentId}/Content?contactId=303
+POST /api/v1/Document/{documentId}/Content?personId=794
+POST /api/v1/Document/{documentId}/Content?appointmentId=518
+POST /api/v1/Document/{documentId}/Content?saleId=593
+POST /api/v1/Document/{documentId}/Content?selectionId=889
+POST /api/v1/Document/{documentId}/Content?projectId=95
+POST /api/v1/Document/{documentId}/Content?uiCulture=magnam
 ```
 
 
@@ -122,7 +122,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -132,88 +132,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 453,
+  "DocumentId": 482,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "quae",
-  "Name": "Macejkovic Group",
-  "OurRef": "mollitia",
-  "YourRef": "occaecati",
-  "CreatedDate": "2024-02-14T11:24:53.2655719+01:00",
-  "UpdatedDate": "2008-03-26T11:24:53.2655719+01:00",
-  "Description": "Monitored multimedia function",
+  "Attention": "veniam",
+  "Header": "aut",
+  "Name": "Nader-Metz",
+  "OurRef": "excepturi",
+  "YourRef": "id",
+  "CreatedDate": "2010-07-15T03:40:55.7412955+02:00",
+  "UpdatedDate": "2011-06-03T03:40:55.7412955+02:00",
+  "Description": "Inverse upward-trending utilisation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-04-16T11:24:53.2811958+02:00",
-  "ExternalRef": "consequuntur",
+  "Date": "2020-01-30T03:40:55.7412955+01:00",
+  "ExternalRef": "earum",
   "Completed": "Completed",
-  "ActiveLinks": 542,
+  "ActiveLinks": 291,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Carroll-Senger",
-      "Id": 757,
-      "Description": "Open-architected composite service-desk",
-      "ExtraInfo": "consequatur",
-      "LinkId": 693,
+      "EntityName": "Morar-Kuphal",
+      "Id": 795,
+      "Description": "Cloned 6th generation customer loyalty",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 152,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldLength": 947
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 392,
-  "Snum": 18,
+  "SuggestedDocumentId": 737,
+  "Snum": 224,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ashlynn Hamill",
-    "SuperOffice:2": "Eladio Cassin"
+    "SuperOffice:1": "1265735159",
+    "SuperOffice:2": "Brycen Jenkins"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "animi"
+    "CustomFields1": "quia",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2006-05-18T11:24:53.2811958+02:00",
-  "PublishTo": "2022-07-25T11:24:53.2811958+02:00",
-  "PublishFrom": "2021-11-01T11:24:53.2811958+01:00",
+  "PublishEventDate": "2001-02-02T03:40:55.7412955+01:00",
+  "PublishTo": "2010-03-20T03:40:55.7412955+01:00",
+  "PublishFrom": "2024-12-30T03:40:55.7412955+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 761,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 175
         }
       }
     },
     {
-      "VisibleId": 761,
+      "VisibleId": 339,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 297
+          "FieldLength": 175
         }
       }
     }
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 406
     }
   }
 }

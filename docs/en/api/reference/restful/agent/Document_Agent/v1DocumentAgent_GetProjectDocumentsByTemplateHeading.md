@@ -15,6 +15,7 @@ Method that returns a specified number of document appointments within a time ra
 
 
 The document appointments belong to the project specified. The heading represents a grouping or filtering of document templates.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,11 +104,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 83,
-  "StartTime": "2014-05-05T11:24:47.9376639+02:00",
-  "EndTime": "2012-11-06T11:24:47.9376639+01:00",
-  "Count": 376,
-  "TemplateHeadingId": 594
+  "ProjectId": 188,
+  "StartTime": "2003-10-30T03:40:46.5936381+01:00",
+  "EndTime": "2010-09-11T03:40:46.5936381+02:00",
+  "Count": 781,
+  "TemplateHeadingId": 210
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 681,
-    "Attention": "neque",
-    "Header": "voluptas",
-    "Name": "Schaefer Group",
-    "OurRef": "et",
-    "YourRef": "voluptas",
-    "Description": "Front-line leading edge leverage",
-    "DocumentTemplate": "quasi",
+    "DocumentId": 367,
+    "Attention": "laborum",
+    "Header": "velit",
+    "Name": "Kihn-Becker",
+    "OurRef": "consequatur",
+    "YourRef": "reiciendis",
+    "Description": "Multi-lateral motivating encryption",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 205,
-    "PersonFullName": "Leo Ebert",
-    "AssociateFullName": "Dr. Keely Block",
-    "ContactId": 359,
-    "ContactName": "Stark LLC",
-    "ProjectId": 57,
-    "ProjectName": "Lakin-Ebert",
-    "AssociateId": 233,
-    "Snum": 350,
-    "SaleId": 629,
-    "SaleName": "Dibbert Inc and Sons",
+    "PersonId": 853,
+    "PersonFullName": "Hailie Thompson",
+    "AssociateFullName": "Miss Ahmad Frami",
+    "ContactId": 676,
+    "ContactName": "McGlynn-Tromp",
+    "ProjectId": 517,
+    "ProjectName": "Bernier LLC",
+    "AssociateId": 681,
+    "Snum": 910,
+    "SaleId": 548,
+    "SaleName": "Shields Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 802
+        "FieldType": "System.Int32",
+        "FieldLength": 197
       }
     }
   }

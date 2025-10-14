@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -93,9 +95,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 579,
-  "CurrentAppointmentId": 614,
-  "SkipCompleteCheck": true
+  "SaleId": 678,
+  "CurrentAppointmentId": 692,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -106,26 +108,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 853,
-  "Deleted": 568,
-  "DaysFuture": 506,
-  "Tooltip": "est",
-  "Text": "ut",
-  "TaskId": 893,
-  "SuggestedAppointmentId": 569,
-  "SaleTypeStageLinkId": 692,
-  "RegisteredAssociateId": 70,
-  "Rank": 342,
-  "ProjectTypeStatusLinkId": 240,
-  "Name": "Koepp, Robel and Cormier",
-  "Duration": 453,
+  "AutoSuggest": 198,
+  "Deleted": 992,
+  "DaysFuture": 461,
+  "Tooltip": "quia",
+  "Text": "illum",
+  "TaskId": 548,
+  "SuggestedAppointmentId": 478,
+  "SaleTypeStageLinkId": 695,
+  "RegisteredAssociateId": 841,
+  "Rank": 645,
+  "ProjectTypeStatusLinkId": 301,
+  "Name": "Marvin-Little",
+  "Duration": 385,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 406
     }
   }
 }

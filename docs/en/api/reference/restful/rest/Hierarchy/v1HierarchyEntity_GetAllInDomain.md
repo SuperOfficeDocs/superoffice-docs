@@ -90,46 +90,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 783,
+    "HierarchyId": 949,
     "Domain": "Dashboards",
-    "Name": "Sipes LLC",
-    "Fullname": "qui",
-    "ParentId": 267,
+    "Name": "Armstrong-Howe",
+    "Fullname": "provident",
+    "ParentId": 738,
     "Children": [
       {
-        "HierarchyId": 921,
+        "HierarchyId": 523,
         "Domain": "Dashboards",
-        "Name": "Kihn, Schultz and Tromp",
-        "Fullname": "quis",
-        "ParentId": 3,
+        "Name": "Nicolas, Labadie and Mayert",
+        "Fullname": "voluptas",
+        "ParentId": 702,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2016-01-15T11:24:53.3124447+01:00",
-        "RegisteredAssociateId": 380,
-        "Updated": "2022-02-26T11:24:53.3124447+01:00",
-        "UpdatedAssociateId": 594,
+        "Registered": "2018-08-27T03:40:55.7886484+02:00",
+        "RegisteredAssociateId": 531,
+        "Updated": "2018-03-09T03:40:55.7886484+01:00",
+        "UpdatedAssociateId": 574,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 912
+            "FieldLength": 342
           }
         }
       }
     ],
-    "Registered": "2020-10-21T11:24:53.3124447+02:00",
-    "RegisteredAssociateId": 832,
-    "Updated": "2001-01-30T11:24:53.3124447+01:00",
-    "UpdatedAssociateId": 748,
+    "Registered": "2016-09-09T03:40:55.7886484+02:00",
+    "RegisteredAssociateId": 313,
+    "Updated": "2002-12-11T03:40:55.7886484+01:00",
+    "UpdatedAssociateId": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

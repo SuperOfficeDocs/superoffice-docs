@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Regenerate status monitors
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Thompson-Feest",
-  "AssociateId": 243,
-  "DetailsTable": 111,
-  "DetailsRecord": 725,
-  "IsSystemTask": true,
+  "Id": 808,
+  "Name": "Moore-Runolfsson",
+  "AssociateId": 329,
+  "DetailsTable": 833,
+  "DetailsRecord": 668,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "laboriosam",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "maxime",
+    "ParameterObject2": "est"
   },
-  "LastStarted": "2004-01-27T11:24:48.5470141+01:00",
-  "Created": "2020-06-19T11:24:48.5470141+02:00",
-  "StartCount": 253,
-  "DatabaseSerialNumber": "1194228",
-  "Context": "corporis",
-  "Result": "amet",
+  "LastStarted": "2000-03-20T03:40:47.5942106+01:00",
+  "Created": "2001-06-23T03:40:47.5942106+02:00",
+  "StartCount": 889,
+  "DatabaseSerialNumber": "906431",
+  "Context": "voluptatem",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Total zero defect intranet",
-  "Response": "aliquam",
-  "Request": "dolorum",
-  "ProgressDescription": "Persistent web-enabled collaboration",
-  "ProgressPercent": 890,
-  "FileName": "Kessler, Swaniawski and Hyatt",
+  "Description": "Synergized global frame",
+  "Response": "molestiae",
+  "Request": "rerum",
+  "ProgressDescription": "Phased high-level hub",
+  "ProgressPercent": 763,
+  "FileName": "Conn-Spinka",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 337
     }
   }
 }

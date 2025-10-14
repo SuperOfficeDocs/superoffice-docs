@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveConnection
 Saves a connection to the database.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -87,7 +90,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 417,
-  "ErpConnectorId": 162,
-  "DisplayName": "Von, Bernier and Beatty",
-  "DisplayDescription": "Team-oriented discrete attitude",
-  "Active": false,
-  "ConnectionId": "iste",
-  "MostRecentTimestamp": "alias",
+  "ErpConnectionId": 780,
+  "ErpConnectorId": 290,
+  "DisplayName": "Turcotte, Rosenbaum and VonRueden",
+  "DisplayDescription": "Re-contextualized object-oriented superstructure",
+  "Active": true,
+  "ConnectionId": "quis",
+  "MostRecentTimestamp": "incidunt",
   "ConfigFields": {
-    "ConfigFields1": "excepturi",
-    "ConfigFields2": "facere"
+    "ConfigFields1": "dolorem",
+    "ConfigFields2": "ratione"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    884,
-    51
+    774,
+    420
   ],
   "AssociateAccessIds": [
-    400,
-    840
+    827,
+    34
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

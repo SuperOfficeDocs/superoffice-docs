@@ -15,6 +15,7 @@ Gets a Dash object.
 
 
 Calls the Dash agent service GetDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,7 +87,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +97,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 401,
-  "UniqueId": "est",
-  "Name": "Bartoletti, Corkery and Strosin",
-  "Description": "Automated responsive utilisation",
-  "AssociateId": 951,
-  "Columns": 691,
+  "DashboardId": 201,
+  "UniqueId": "quasi",
+  "Name": "Dietrich-Murazik",
+  "Description": "Realigned actuating circuit",
+  "AssociateId": 113,
+  "Columns": 407,
   "Theme": null,
-  "VisibleForAll": 930,
+  "VisibleForAll": 194,
   "VisibleForAssociates": [
-    802,
-    383
+    928,
+    266
   ],
   "VisibleForGroups": [
-    418,
-    538
+    360,
+    656
   ],
-  "PinForAll": 797,
+  "PinForAll": 847,
   "PinForAssociates": [
-    541,
-    111
+    539,
+    705
   ],
   "PinForGroups": [
-    408,
-    430
+    372,
+    960
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldLength": 529
     }
   },
   "_Links": {

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 489,
-  "Name": "Sporer-Hodkiewicz",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 377,
-  "UdListDefinitionId": 909
+  "HeadingId": 386,
+  "Name": "Ruecker-Runolfsdottir",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 232,
+  "UdListDefinitionId": 475
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 759,
-  "Name": "Bednar LLC",
-  "Tooltip": "ut",
+  "HeadingId": 435,
+  "Name": "Moore Inc and Sons",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 75,
-  "UdListDefinitionId": 364,
+  "Rank": 853,
+  "UdListDefinitionId": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

@@ -15,6 +15,7 @@ Validate a CRMScript 2 (JavaScript).
 
 
 This will check that the syntax is correct
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -89,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "at"
+  "Script": "repellendus"
 }
 ```
 
@@ -100,31 +101,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "esse",
-  "LineNumber": 706,
+  "Valid": true,
+  "ErrorMessage": "accusantium",
+  "LineNumber": 682,
   "ErrorInformation": null,
-  "Transpiled": "sit",
+  "Transpiled": "eum",
   "Includes": [
-    346,
-    414
+    354,
+    986
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 470,
-      "LineNumberTo": 395,
-      "Delta": 539,
-      "IncludeId": "asperiores",
+      "LineNumberFrom": 96,
+      "LineNumberTo": 129,
+      "Delta": 257,
+      "IncludeId": "enim",
       "IncludedFrom": [
-        "illo",
-        "voluptatum"
+        "voluptates",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 668
         }
       }
     }
@@ -133,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 221
     }
   }
 }

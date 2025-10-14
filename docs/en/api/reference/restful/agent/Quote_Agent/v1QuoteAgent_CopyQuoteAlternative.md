@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Copy a quote alternative from the same sale and adds it to a version.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,13 +100,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 869,
-  "QuoteAlternativeId": 967,
-  "QuoteAlternativeName": "Boyle LLC"
+  "QuoteVersionId": 986,
+  "QuoteAlternativeId": 986,
+  "QuoteAlternativeName": "Haley, Jerde and Runolfsdottir"
 }
 ```
 
@@ -115,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 627,
-  "ERPQuoteAlternativeKey": "magni",
-  "QuoteVersionId": 821,
-  "Name": "Jakubowski, Wolf and Quigley",
-  "Description": "Adaptive clear-thinking toolset",
+  "QuoteAlternativeId": 165,
+  "ERPQuoteAlternativeKey": "delectus",
+  "QuoteVersionId": 724,
+  "Name": "Bartoletti, Johnson and Heller",
+  "Description": "Grass-roots cohesive throughput",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2895.816,
-  "ERPDiscountAmount": 24025.244,
-  "DiscountPercent": 29788.67,
-  "DiscountAmount": 27027.615999999998,
+  "ERPDiscountPercent": 21342.54,
+  "ERPDiscountAmount": 14710.996,
+  "DiscountPercent": 16726.158,
+  "DiscountAmount": 24197.613999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 351.008,
-  "EarningPercent": 12401.238,
-  "EarningAmount": 15679.402,
-  "SubTotal": 11739.964,
-  "TotalPrice": 30672.458,
-  "ExtraField1": "sunt",
-  "ExtraField2": "enim",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "aliquam",
-  "ExtraField5": "eveniet",
+  "VATInfo": "minus",
+  "VAT": 29356.178,
+  "EarningPercent": 10520.838,
+  "EarningAmount": 11865.323999999999,
+  "SubTotal": 2278.418,
+  "TotalPrice": 1924.2759999999998,
+  "ExtraField1": "qui",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "odio",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 546
     }
   }
 }

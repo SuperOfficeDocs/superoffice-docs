@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/DeleteTempFile
 Delete a temporary file created with CreateTempFile.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "debitis"
+  "Filename": "corporis"
 }
 ```
 

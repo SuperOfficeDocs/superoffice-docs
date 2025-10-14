@@ -15,6 +15,7 @@ Deletes the ListEntity
 
 
 Calls the List agent service DeleteListEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 

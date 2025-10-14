@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Morar Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 791,
+  "Name": "Okuneva Inc and Sons",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 236,
+  "Rank": 378,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "ListType": "quas",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 353,
-  "Name": "Rippin-Welch",
-  "Tooltip": "iusto",
+  "Id": 32,
+  "Name": "Tillman, Gusikowski and Nikolaus",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 362,
+  "Rank": 358,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "UseGroupsAndHeadings": true,
+  "ListType": "id",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   }
 }

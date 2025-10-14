@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SavePriceList
 Updates the existing PriceList or creates a new PriceList if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 696,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 717,
-  "Name": "Bashirian LLC",
-  "Description": "Organized asynchronous infrastructure",
-  "Currency": "non",
-  "CurrencyName": "Frami, Medhurst and Hills",
-  "ValidFrom": "2025-08-01T11:24:48.5157652+02:00",
-  "ValidTo": "2006-05-24T11:24:48.5157652+02:00",
-  "IsActive": false
+  "PriceListId": 738,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 654,
+  "Name": "Altenwerth Group",
+  "Description": "Synergistic contextually-based project",
+  "Currency": "recusandae",
+  "CurrencyName": "Emard-Metz",
+  "ValidFrom": "2012-10-14T03:40:47.5317063+02:00",
+  "ValidTo": "2020-03-13T03:40:47.5317063+01:00",
+  "IsActive": true
 }
 ```
 
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 515,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 485,
-  "Name": "Hamill-Bailey",
-  "Description": "Realigned bifurcated structure",
-  "Currency": "autem",
-  "CurrencyName": "Watsica-Feil",
-  "ValidFrom": "2012-05-24T11:24:48.5157652+02:00",
-  "ValidTo": "2014-08-09T11:24:48.5157652+02:00",
+  "PriceListId": 422,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 191,
+  "Name": "Ankunding-Jones",
+  "Description": "Phased bi-directional utilisation",
+  "Currency": "commodi",
+  "CurrencyName": "Little LLC",
+  "ValidFrom": "2010-01-29T03:40:47.5317063+01:00",
+  "ValidTo": "2019-10-12T03:40:47.5317063+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldLength": 240
     }
   }
 }

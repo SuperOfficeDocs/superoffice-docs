@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Dibbert LLC",
-  "Tooltip": "harum",
+  "Id": 183,
+  "Name": "Jast Inc and Sons",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 723,
-  "Rank": 765,
+  "UdListDefinitionId": 16,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 184
     }
   }
 }

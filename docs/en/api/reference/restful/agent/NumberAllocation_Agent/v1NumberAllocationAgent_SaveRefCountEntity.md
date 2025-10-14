@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -88,35 +90,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 6,
-  "Field": "et",
-  "RecordId": 152,
+  "RefCountsId": 193,
+  "Field": "atque",
+  "RecordId": 391,
   "SuggestedRecords": [
     {
-      "Id": 594,
-      "Name": "Welch, Schiller and Greenfelder",
-      "ToolTip": "Quam aut iste.",
-      "Deleted": false,
-      "Rank": 3,
-      "Type": "aut",
+      "Id": 161,
+      "Name": "Dibbert-Pollich",
+      "ToolTip": "Dolor eius aut exercitationem ut sint.",
+      "Deleted": true,
+      "Rank": 156,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsa",
-      "ColorBlock": 531,
-      "ExtraInfo": "ex",
-      "StyleHint": "non",
-      "FullName": "Prof. Karli Satterfield Jr."
+      "IconHint": "suscipit",
+      "ColorBlock": 865,
+      "ExtraInfo": "odio",
+      "StyleHint": "repudiandae",
+      "FullName": "Major Klein"
     }
   ],
-  "CurrentValue": 601,
-  "TravelPrefix": 401,
-  "SatPrefix": 411,
+  "CurrentValue": 518,
+  "TravelPrefix": 902,
+  "SatPrefix": 68,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true
+  "ReadOnly": false,
+  "AllowBlank": false
 }
 ```
 
@@ -127,49 +129,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 260,
-  "Field": "nihil",
-  "RecordId": 684,
+  "RefCountsId": 204,
+  "Field": "omnis",
+  "RecordId": 565,
   "SuggestedRecords": [
     {
-      "Id": 598,
-      "Name": "Ruecker Group",
-      "ToolTip": "Fugiat est.",
-      "Deleted": false,
-      "Rank": 669,
-      "Type": "quas",
+      "Id": 678,
+      "Name": "Schmitt-O'Connell",
+      "ToolTip": "Autem doloribus aut quia cum incidunt.",
+      "Deleted": true,
+      "Rank": 763,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 5,
-      "ExtraInfo": "non",
-      "StyleHint": "assumenda",
-      "FullName": "Mrs. Braulio Schumm",
+      "IconHint": "et",
+      "ColorBlock": 870,
+      "ExtraInfo": "architecto",
+      "StyleHint": "dolorem",
+      "FullName": "Prof. Joy Gerlach MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 593
         }
       }
     }
   ],
-  "CurrentValue": 454,
-  "TravelPrefix": 474,
-  "SatPrefix": 994,
-  "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
+  "CurrentValue": 284,
+  "TravelPrefix": 209,
+  "SatPrefix": 121,
+  "Allocate": true,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 763
     }
   }
 }

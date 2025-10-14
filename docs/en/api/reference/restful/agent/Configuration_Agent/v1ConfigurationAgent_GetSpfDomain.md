@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetSpfDomain
 Get the SPF domain defined for the mail cluster for this tenant (Online only)
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSpfDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"amet"
 ```

@@ -19,7 +19,6 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow.GetFromCustomSearch(SuperOffice.CRM.Rows.EmailAccountRow.CustomSearch)
   - SuperOffice.CRM.Rows.EmailAccountRow.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.EmailAccountRow.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAccountIdAsync(System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.EmailAccountRow.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.EmailAccountTableInfo)
   - SuperOffice.CRM.Rows.EmailAccountRow.GetPersistedFieldValue(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.EmailAccountRow.IncomingAuth
@@ -1218,46 +1217,6 @@ items:
   nameWithType.vb: EmailAccountRow.GetFromIdxEmailAccountIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAccountIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetFromIdxEmailAccountIdAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync(System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync(System.String,System.Threading.CancellationToken)
-  id: GetFromIdxEmailAddressAsync(System.String,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Rows.EmailAccountRow
-  langs:
-  - csharp
-  - vb
-  name: GetFromIdxEmailAddressAsync(string, CancellationToken)
-  nameWithType: EmailAccountRow.GetFromIdxEmailAddressAsync(string, CancellationToken)
-  fullName: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync(string, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the EmailAccountRow object, by querying the database table via the index 'IDXEmail_accountEmail_address'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the EmailAccount table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.EmailAccountRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
-  syntax:
-    content: public static Task<EmailAccountRow> GetFromIdxEmailAddressAsync(string emailAddress, CancellationToken cancellationToken = default)
-    parameters:
-    - id: emailAddress
-      type: System.String
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.EmailAccountRow}
-      description: >-
-        Row object that represents the result of the search. <xref href="SuperOffice.CRM.Rows.EmailAccountRow.IsNew" data-throw-if-not-resolved="false"></xref> will be true if 
-                    the query did not match any row in the table
-    content.vb: Public Shared Function GetFromIdxEmailAddressAsync(emailAddress As String, cancellationToken As CancellationToken = Nothing) As Task(Of EmailAccountRow)
-  overload: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync*
-  nameWithType.vb: EmailAccountRow.GetFromIdxEmailAddressAsync(String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync(String, System.Threading.CancellationToken)
-  name.vb: GetFromIdxEmailAddressAsync(String, CancellationToken)
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   id: SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
@@ -5744,13 +5703,6 @@ references:
   name: GetFromIdxEmailAccountIdAsync
   nameWithType: EmailAccountRow.GetFromIdxEmailAccountIdAsync
   fullName: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAccountIdAsync
-- uid: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync*
-  commentId: Overload:SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync
-  isExternal: true
-  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_GetFromIdxEmailAddressAsync_System_String_System_Threading_CancellationToken_
-  name: GetFromIdxEmailAddressAsync
-  nameWithType: EmailAccountRow.GetFromIdxEmailAddressAsync
-  fullName: SuperOffice.CRM.Rows.EmailAccountRow.GetFromIdxEmailAddressAsync
 - uid: SuperOffice.CRM.Rows.TableRowBase.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.SetDefaultsAsync(SuperOffice.CRM.Rows.DefaulterStrategy,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Rows.TableRowBase

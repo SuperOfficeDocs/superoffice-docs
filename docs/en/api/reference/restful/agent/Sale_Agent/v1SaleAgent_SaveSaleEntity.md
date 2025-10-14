@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/SaveSaleEntity
 Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -150,7 +152,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -160,7 +162,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "excepturi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -169,90 +171,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-03-28T11:24:48.5626385+02:00",
-  "Amount": 16071.152,
-  "SaleId": 193,
-  "Earning": 6130.1039999999994,
-  "EarningPercent": 26830.174,
-  "Heading": "corrupti",
-  "Number": "862452",
-  "Probability": 566,
-  "CreatedDate": "2013-12-16T11:24:48.5626385+01:00",
-  "UpdatedDate": "2003-08-23T11:24:48.5626385+02:00",
+  "Saledate": "2022-07-12T03:40:47.6254619+02:00",
+  "Amount": 29362.446,
+  "SaleId": 838,
+  "Earning": 20001.188,
+  "EarningPercent": 18568.95,
+  "Heading": "repudiandae",
+  "Number": "440396",
+  "Probability": 304,
+  "CreatedDate": "2007-02-08T03:40:47.6254619+01:00",
+  "UpdatedDate": "2012-08-09T03:40:47.6254619+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 818,
+  "ActiveLinks": 23,
   "Links": [
     {
-      "EntityName": "Howell Inc and Sons",
-      "Id": 242,
-      "Description": "Quality-focused logistical info-mediaries",
-      "ExtraInfo": "cumque",
-      "LinkId": 805
+      "EntityName": "Rodriguez-Padberg",
+      "Id": 320,
+      "Description": "Secured interactive knowledge user",
+      "ExtraInfo": "qui",
+      "LinkId": 791
     },
     {
-      "EntityName": "Howell Inc and Sons",
-      "Id": 242,
-      "Description": "Quality-focused logistical info-mediaries",
-      "ExtraInfo": "cumque",
-      "LinkId": 805
+      "EntityName": "Rodriguez-Padberg",
+      "Id": 320,
+      "Description": "Secured interactive knowledge user",
+      "ExtraInfo": "qui",
+      "LinkId": 791
     }
   ],
-  "NextDueDate": "1999-10-28T11:24:48.5626385+02:00",
-  "Postit": "eius",
+  "NextDueDate": "2009-08-26T03:40:47.6254619+02:00",
+  "Postit": "velit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-02-18T11:24:48.5626385+01:00",
+  "ReopenDate": "2019-05-26T03:40:47.6254619+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mills, Cartwright and Kozey",
-      "Comment": "itaque",
-      "StakeholderRoleId": 281,
-      "CountryId": 911,
-      "PersonId": 848,
-      "EmailDescription": "juston.murphy@shields.co.uk",
-      "EmailId": 209,
-      "EmailAddress": "shyann_kulas@kovacekhackett.ca",
-      "PhoneId": 744,
-      "ContactName": "Hegmann Group",
-      "ContactId": 994,
-      "SaleId": 118,
-      "Mrmrs": "aut",
-      "Firstname": "Cheyanne",
-      "MiddleName": "Tillman Inc and Sons",
-      "Lastname": "Hills",
-      "SaleStakeholderId": 909,
-      "Rank": 131,
-      "Phone": "1-428-742-9582"
+      "StakeholderRoleName": "McKenzie, Cole and Grant",
+      "Comment": "cupiditate",
+      "StakeholderRoleId": 348,
+      "CountryId": 36,
+      "PersonId": 416,
+      "EmailDescription": "hayden@runolfsdottir.biz",
+      "EmailId": 551,
+      "EmailAddress": "lulu_green@schmeler.info",
+      "PhoneId": 267,
+      "ContactName": "Grady, Hauck and Gleichner",
+      "ContactId": 89,
+      "SaleId": 493,
+      "Mrmrs": "cumque",
+      "Firstname": "Ibrahim",
+      "MiddleName": "Metz-O'Reilly",
+      "Lastname": "Heller",
+      "SaleStakeholderId": 306,
+      "Rank": 655,
+      "Phone": "1-451-039-2775"
     }
   ],
-  "ActiveErpLinks": 608,
+  "ActiveErpLinks": 908,
   "UserDefinedFields": {
-    "SuperOffice:1": "Uriel Lynch",
-    "SuperOffice:2": "Michelle Boyer"
+    "SuperOffice:1": "Karen Gaylord",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "enim"
+    "CustomFields1": "delectus",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2012-02-01T11:24:48.5626385+01:00",
-  "PublishTo": "2007-02-12T11:24:48.5626385+01:00",
-  "PublishFrom": "1999-03-03T11:24:48.5626385+01:00",
+  "PublishEventDate": "2004-05-20T03:40:47.6254619+02:00",
+  "PublishTo": "2019-01-30T03:40:47.6254619+01:00",
+  "PublishFrom": "2011-03-07T03:40:47.6254619+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 984,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "omnis"
     },
     {
-      "VisibleId": 984,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "asperiores"
+      "DisplayValue": "omnis"
     }
   ]
 }
@@ -271,7 +273,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "laudantium",
+  "SaleText": "laborum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -280,113 +282,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2025-01-29T11:24:48.5782627+01:00",
-  "Amount": 6340.0819999999994,
-  "SaleId": 938,
-  "Earning": 6628.41,
-  "EarningPercent": 5600.458,
-  "Heading": "eos",
-  "Number": "1343635",
-  "Probability": 631,
-  "CreatedDate": "2015-05-19T11:24:48.5782627+02:00",
-  "UpdatedDate": "2020-09-18T11:24:48.5782627+02:00",
+  "Saledate": "2012-10-29T03:40:47.641087+01:00",
+  "Amount": 26745.556,
+  "SaleId": 20,
+  "Earning": 14400.73,
+  "EarningPercent": 11639.676,
+  "Heading": "vitae",
+  "Number": "1805420",
+  "Probability": 426,
+  "CreatedDate": "2014-03-01T03:40:47.641087+01:00",
+  "UpdatedDate": "2001-11-08T03:40:47.641087+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 84,
+  "ActiveLinks": 683,
   "Links": [
     {
-      "EntityName": "Parisian-Dibbert",
-      "Id": 757,
-      "Description": "Fundamental scalable adapter",
-      "ExtraInfo": "sit",
-      "LinkId": 376,
+      "EntityName": "Zieme-Parisian",
+      "Id": 833,
+      "Description": "Ameliorated attitude-oriented hub",
+      "ExtraInfo": "iusto",
+      "LinkId": 296,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 635
+          "FieldLength": 335
         }
       }
     }
   ],
-  "NextDueDate": "2023-07-13T11:24:48.5782627+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2002-08-05T03:40:47.641087+02:00",
+  "Postit": "quo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-01-02T11:24:48.5782627+01:00",
+  "ReopenDate": "2005-05-31T03:40:47.641087+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schoen-Reichert",
-      "Comment": "dolore",
-      "StakeholderRoleId": 812,
-      "CountryId": 294,
-      "PersonId": 787,
-      "EmailDescription": "zula_kunze@stiedemannmccullough.biz",
-      "EmailId": 949,
-      "EmailAddress": "mercedes.daniel@mueller.co.uk",
-      "PhoneId": 658,
-      "ContactName": "Hamill, Jaskolski and Gislason",
-      "ContactId": 55,
-      "SaleId": 835,
-      "Mrmrs": "debitis",
-      "Firstname": "Deion",
-      "MiddleName": "Hilpert, Carter and Beatty",
-      "Lastname": "Walter",
-      "SaleStakeholderId": 294,
-      "Rank": 499,
-      "Phone": "1-032-641-0258",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 950,
-  "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "2036446241"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "beatae"
-  },
-  "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "repellendus"
-  },
-  "PublishEventDate": "2021-10-03T11:24:48.5782627+02:00",
-  "PublishTo": "2021-07-11T11:24:48.5782627+02:00",
-  "PublishFrom": "2012-02-06T11:24:48.5782627+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 37,
-      "Visibility": "All",
-      "DisplayValue": "est",
+      "StakeholderRoleName": "Mayert, Kuhic and Ryan",
+      "Comment": "error",
+      "StakeholderRoleId": 486,
+      "CountryId": 387,
+      "PersonId": 777,
+      "EmailDescription": "arno@hammes.co.uk",
+      "EmailId": 906,
+      "EmailAddress": "griffin.luettgen@eichmann.ca",
+      "PhoneId": 641,
+      "ContactName": "Macejkovic, Keeling and Yost",
+      "ContactId": 970,
+      "SaleId": 568,
+      "Mrmrs": "sunt",
+      "Firstname": "Edd",
+      "MiddleName": "Carroll-O'Reilly",
+      "Lastname": "Luettgen",
+      "SaleStakeholderId": 946,
+      "Rank": 84,
+      "Phone": "(369)598-2493",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 945
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 715,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Kayden Zieme",
+    "SuperOffice:2": "Haskell Parker"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "vel"
+  },
+  "CustomFields": {
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "ipsam"
+  },
+  "PublishEventDate": "2007-01-26T03:40:47.641087+01:00",
+  "PublishTo": "2024-10-01T03:40:47.641087+02:00",
+  "PublishFrom": "2023-02-22T03:40:47.641087+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 439,
+      "Visibility": "All",
+      "DisplayValue": "beatae",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     },
     {
-      "VisibleId": 37,
+      "VisibleId": 439,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 966
         }
       }
     }
@@ -396,7 +398,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 200
     }
   }
 }

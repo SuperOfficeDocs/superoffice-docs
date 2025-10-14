@@ -15,6 +15,10 @@ Extract contact and person information from text.
 
 
 Merge results with matching database records if merge = true
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -78,12 +82,12 @@ OK
 POST /api/v1/Agents/AI/AnalyzeBizCardText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "tempore",
-  "MergeWithDatabase": false
+  "Text": "commodi",
+  "MergeWithDatabase": true
 }
 ```
 
@@ -96,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "nesciunt",
-  "PhotoImage": "modi"
+  "LogoImage": "molestiae",
+  "PhotoImage": "omnis"
 }
 ```

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Wiegand, Pfeffer and Sawayn",
-    "ToolTip": "Amet quas atque facere rerum eius.",
+    "Id": 441,
+    "Name": "Kling Group",
+    "ToolTip": "Dicta aut eveniet repellendus qui voluptatum.",
     "Deleted": false,
-    "Rank": 158,
-    "Type": "id",
-    "ColorBlock": 740,
-    "IconHint": "corrupti",
+    "Rank": 508,
+    "Type": "esse",
+    "ColorBlock": 152,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2007-02-11T11:24:54.1092872+01:00",
+    "LastChanged": "2005-11-20T03:40:57.071478+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Lubowitz-Lemke",
-        "ToolTip": "Minus facere quae non.",
+        "Id": 185,
+        "Name": "Purdy, Lindgren and Padberg",
+        "ToolTip": "Optio consequatur vitae et ullam.",
         "Deleted": true,
-        "Rank": 655,
-        "Type": "quidem",
-        "ColorBlock": 26,
-        "IconHint": "est",
+        "Rank": 365,
+        "Type": "enim",
+        "ColorBlock": 29,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2016-11-20T11:24:54.1092872+01:00",
+        "LastChanged": "1999-04-02T03:40:57.071478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Oswaldo Kertzmann"
+        "ExtraInfo": "ad",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Humberto Reinger"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Dr. Marco Weissnat"
+    "ExtraInfo": "eum",
+    "StyleHint": "odio",
+    "Hidden": true,
+    "FullName": "Adah Wilkinson"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Sipes, Brekke and Tillman",
-    "ToolTip": "Aut quaerat necessitatibus distinctio molestiae ipsam voluptas.",
+    "Id": 587,
+    "Name": "Reynolds, Flatley and Lehner",
+    "ToolTip": "Corporis quo.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "deleniti",
-    "ColorBlock": 952,
-    "IconHint": "quis",
+    "Rank": 876,
+    "Type": "inventore",
+    "ColorBlock": 950,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2001-06-29T11:24:54.1092872+02:00",
+    "LastChanged": "2013-03-15T03:40:57.071478+01:00",
     "ChildItems": [
       {
-        "Id": 911,
-        "Name": "Rau LLC",
-        "ToolTip": "Quod velit ut cumque voluptatem.",
+        "Id": 857,
+        "Name": "Roberts LLC",
+        "ToolTip": "Quae ea odio aspernatur sint rerum.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "rerum",
-        "ColorBlock": 310,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2006-02-27T11:24:54.1092872+01:00",
+        "Rank": 155,
+        "Type": "sunt",
+        "ColorBlock": 479,
+        "IconHint": "dolor",
+        "Selected": false,
+        "LastChanged": "2007-09-03T03:40:57.071478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "natus",
-        "Hidden": false,
-        "FullName": "Miss Ena Nova Prosacco DVM",
+        "ExtraInfo": "minima",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Ottilie Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "error",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Lura Hermiston",
+    "FullName": "Samir Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldType": "System.Int32",
+        "FieldLength": 253
       }
     }
   }

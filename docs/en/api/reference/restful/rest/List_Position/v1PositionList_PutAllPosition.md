@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Rogahn LLC",
-    "Tooltip": "id",
+    "Id": 425,
+    "Name": "Luettgen, Spencer and Kassulke",
+    "Tooltip": "officia",
     "Deleted": false,
-    "UdListDefinitionId": 256,
-    "Rank": 676
+    "UdListDefinitionId": 40,
+    "Rank": 427
   },
   {
-    "Id": 574,
-    "Name": "Rogahn LLC",
-    "Tooltip": "id",
+    "Id": 425,
+    "Name": "Luettgen, Spencer and Kassulke",
+    "Tooltip": "officia",
     "Deleted": false,
-    "UdListDefinitionId": 256,
-    "Rank": 676
+    "UdListDefinitionId": 40,
+    "Rank": 427
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Runte, Jenkins and Kilback",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "UdListDefinitionId": 851,
-    "Rank": 119,
+    "Id": 290,
+    "Name": "Mayert, Robel and Hettinger",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 149,
+    "Rank": 690,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 462
       }
     }
   }

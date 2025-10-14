@@ -15,6 +15,10 @@ Returns stored history of chat messages for a given chat_id.
 
 
 Chat_id is usually derived from soproto + current id, but could also be arbitrary name.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -83,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "quo"
+  "ChatId": "sit"
 }
 ```
 
@@ -95,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2015-08-02T11:24:47.2814408+02:00",
-    "UserPrompt": "voluptas",
-    "UserDisplayText": "iusto",
-    "BotResponse": "ex",
+    "Timestamp": "2012-08-26T03:40:45.5762384+02:00",
+    "UserPrompt": "pariatur",
+    "UserDisplayText": "sapiente",
+    "BotResponse": "soluta",
     "BotActions": {
-      "BotActions1": "amet",
-      "BotActions2": "architecto"
+      "BotActions1": "earum",
+      "BotActions2": "voluptas"
     },
     "Attachments": [
-      "rerum",
-      "sunt"
+      "ut",
+      "est"
     ]
   },
   {
-    "Timestamp": "2015-08-02T11:24:47.2814408+02:00",
-    "UserPrompt": "voluptas",
-    "UserDisplayText": "iusto",
-    "BotResponse": "ex",
+    "Timestamp": "2012-08-26T03:40:45.5762384+02:00",
+    "UserPrompt": "pariatur",
+    "UserDisplayText": "sapiente",
+    "BotResponse": "soluta",
     "BotActions": {
-      "BotActions1": "amet",
-      "BotActions2": "architecto"
+      "BotActions1": "earum",
+      "BotActions2": "voluptas"
     },
     "Attachments": [
-      "rerum",
-      "sunt"
+      "ut",
+      "est"
     ]
   }
 ]

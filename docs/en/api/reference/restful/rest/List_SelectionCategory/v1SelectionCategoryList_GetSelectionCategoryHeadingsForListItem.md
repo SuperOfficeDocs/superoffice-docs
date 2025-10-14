@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Schowalter Inc and Sons",
-    "ToolTip": "Deleniti aliquam aperiam et quam asperiores sapiente beatae.",
-    "Deleted": false,
-    "Rank": 390,
-    "Type": "nobis",
-    "ColorBlock": 408,
-    "IconHint": "voluptatum",
-    "Selected": false,
-    "LastChanged": "2023-06-18T11:24:54.1561606+02:00",
+    "Id": 332,
+    "Name": "Hoeger Group",
+    "ToolTip": "Harum in quaerat reiciendis explicabo.",
+    "Deleted": true,
+    "Rank": 479,
+    "Type": "totam",
+    "ColorBlock": 654,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2012-09-12T03:40:57.1189414+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "McGlynn-Hane",
-        "ToolTip": "Magnam voluptatem qui fuga.",
+        "Id": 15,
+        "Name": "Hickle-Bergstrom",
+        "ToolTip": "Omnis voluptas vel repudiandae quo voluptates officiis non.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "vero",
-        "ColorBlock": 625,
-        "IconHint": "qui",
+        "Rank": 737,
+        "Type": "quisquam",
+        "ColorBlock": 253,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2003-01-08T11:24:54.1561606+01:00",
+        "LastChanged": "2021-08-29T03:40:57.1189414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Annabel Hintz",
+        "ExtraInfo": "iure",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Jadyn Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 24
+            "FieldLength": 585
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "modi",
+    "ExtraInfo": "optio",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Mr. Brenna Deontae Friesen Sr.",
+    "FullName": "Cletus Harris Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldLength": 420
       }
     }
   }

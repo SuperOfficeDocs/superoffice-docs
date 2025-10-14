@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  id: DBC.TimeKeepingFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.AccumulatedMinutes
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.Registered
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.StartTime
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingType
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.Updated
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.TimeKeepingFields
+  nameWithType: DBC.TimeKeepingFields
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for TimeKeeping, Time keeping for how much time a sale or project or other entity has spent in a given stage or other state
+  example: []
+  syntax:
+    content: public static class DBC.TimeKeepingFields
+    content.vb: Public Module DBC.TimeKeepingFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingId
+  id: TimeKeepingId
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: TimeKeepingId
+  nameWithType: DBC.TimeKeepingFields.TimeKeepingId
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.TimeKeepingId: Primary key'
+  example: []
+  syntax:
+    content: public const string TimeKeepingId = "time_keeping_id"
+    return:
+      type: System.String
+    content.vb: Public Const TimeKeepingId As String = "time_keeping_id"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingType
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingType
+  id: TimeKeepingType
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: TimeKeepingType
+  nameWithType: DBC.TimeKeepingFields.TimeKeepingType
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.TimeKeepingType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.TimeKeepingType: What we are keeping time of'
+  example: []
+  syntax:
+    content: public const string TimeKeepingType = "time_keeping_type"
+    return:
+      type: System.String
+    content.vb: Public Const TimeKeepingType As String = "time_keeping_type"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
+  id: EntityId
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: EntityId
+  nameWithType: DBC.TimeKeepingFields.EntityId
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.EntityId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.EntityId: The entity we are keeping time of (a sale, project - given by time_keeping_type)'
+  example: []
+  syntax:
+    content: public const string EntityId = "entity_id"
+    return:
+      type: System.String
+    content.vb: Public Const EntityId As String = "entity_id"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
+  id: StateId
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: StateId
+  nameWithType: DBC.TimeKeepingFields.StateId
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.StateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.StateId: The id of the state we are keeping time of (a sale stage, or other thing - given by time_keeping_type)'
+  example: []
+  syntax:
+    content: public const string StateId = "state_id"
+    return:
+      type: System.String
+    content.vb: Public Const StateId As String = "state_id"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.StartTime
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.StartTime
+  id: StartTime
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: DBC.TimeKeepingFields.StartTime
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.StartTime
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.StartTime: When the time keeping started for the last change, not yet finished/accumulated - The time since start_time must be added to the accumulation of time. When accumulation is done start_time will be set to the minimum value. start_time &gt; min implies this is the current state (stage).'
+  example: []
+  syntax:
+    content: public const string StartTime = "start_time"
+    return:
+      type: System.String
+    content.vb: Public Const StartTime As String = "start_time"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.AccumulatedMinutes
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.AccumulatedMinutes
+  id: AccumulatedMinutes
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: AccumulatedMinutes
+  nameWithType: DBC.TimeKeepingFields.AccumulatedMinutes
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.AccumulatedMinutes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.AccumulatedMinutes: The previously accumulated time in minutes for the given state'
+  example: []
+  syntax:
+    content: public const string AccumulatedMinutes = "accumulated_minutes"
+    return:
+      type: System.String
+    content.vb: Public Const AccumulatedMinutes As String = "accumulated_minutes"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.TimeKeepingFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.TimeKeepingFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.TimeKeepingFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.TimeKeepingFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.TimeKeepingFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

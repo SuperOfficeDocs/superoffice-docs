@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/ClearNotify
 Clear notification status for one or more tickets.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Ticket/ClearNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    282,
-    7
+    771,
+    317
   ]
 }
 ```

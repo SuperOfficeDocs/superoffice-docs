@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/DeleteContactRelation
 Deletes the spesified contact relation.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactRelationEntityId": 847
+  "ContactRelationEntityId": 55
 }
 ```
 

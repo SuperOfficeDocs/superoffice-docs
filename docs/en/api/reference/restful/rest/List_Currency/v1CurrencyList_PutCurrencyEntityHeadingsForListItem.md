@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Bogisich-Runte",
-    "ToolTip": "Voluptatem ducimus repellendus aut dignissimos est qui.",
-    "Deleted": false,
-    "Rank": 980,
-    "Type": "eligendi",
-    "ColorBlock": 569,
-    "IconHint": "voluptatem",
+    "Id": 308,
+    "Name": "Rath LLC",
+    "ToolTip": "Autem ut beatae in.",
+    "Deleted": true,
+    "Rank": 303,
+    "Type": "nemo",
+    "ColorBlock": 202,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2004-03-13T11:24:53.9217949+01:00",
+    "LastChanged": "2004-07-07T03:40:56.805732+02:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Braun-Kunze",
-        "ToolTip": "Fugit enim.",
+        "Id": 957,
+        "Name": "Feest, Abbott and McDermott",
+        "ToolTip": "Sit amet laborum sed animi.",
         "Deleted": false,
-        "Rank": 469,
-        "Type": "quia",
-        "ColorBlock": 260,
-        "IconHint": "illum",
+        "Rank": 58,
+        "Type": "nesciunt",
+        "ColorBlock": 882,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2025-07-18T11:24:53.9217949+02:00",
+        "LastChanged": "2021-01-17T03:40:56.805732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "et",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Keagan Wiza"
+        "FullName": "Miss Willie Larkin"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "unde",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Ms. Myrtie Stroman"
+    "FullName": "Queen McKenzie"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Wintheiser-Crona",
-    "ToolTip": "Qui tempora iure.",
+    "Id": 919,
+    "Name": "Fritsch Group",
+    "ToolTip": "Et quisquam modi in tenetur rerum veritatis temporibus.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "et",
-    "ColorBlock": 270,
-    "IconHint": "quibusdam",
-    "Selected": true,
-    "LastChanged": "2006-09-14T11:24:53.9217949+02:00",
+    "Rank": 808,
+    "Type": "accusantium",
+    "ColorBlock": 210,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2002-02-10T03:40:56.805732+01:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Daugherty-Spinka",
-        "ToolTip": "Dolor laboriosam distinctio perferendis dolorum vel incidunt.",
+        "Id": 212,
+        "Name": "Von-Dicki",
+        "ToolTip": "Impedit dolorum est rerum.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "sit",
-        "ColorBlock": 250,
-        "IconHint": "asperiores",
+        "Rank": 705,
+        "Type": "dignissimos",
+        "ColorBlock": 314,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2009-06-27T11:24:53.9217949+02:00",
+        "LastChanged": "2017-09-29T03:40:56.805732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Floy Brando Stark IV",
+        "ExtraInfo": "nemo",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Robb Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "qui",
+    "ExtraInfo": "minus",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Miss Cedrick Steuber",
+    "FullName": "Ms. Jevon Nathen Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 951
       }
     }
   }

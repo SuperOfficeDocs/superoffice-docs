@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Ledner-Miller",
-  "DeviceName": "Hintz Group",
-  "DeviceIdentifier": "nesciunt"
+  "ApplicationName": "Maggio-Nolan",
+  "DeviceName": "Rice-Weber",
+  "DeviceIdentifier": "quo"
 }
 ```
 
@@ -102,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "fuga",
-  "Value": "itaque",
-  "RecordId": 592,
-  "CreatedDate": "2014-08-09T11:24:48.1564051+02:00",
-  "UpdatedDate": "2001-03-25T11:24:48.1564051+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "iste",
-  "TableName": "Thompson Inc and Sons",
+  "Key": "omnis",
+  "Value": "quia",
+  "RecordId": 499,
+  "CreatedDate": "2021-11-16T03:40:46.9842779+01:00",
+  "UpdatedDate": "2025-06-30T03:40:46.9842779+02:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "ut",
+  "TableName": "Schaefer Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   }
 }

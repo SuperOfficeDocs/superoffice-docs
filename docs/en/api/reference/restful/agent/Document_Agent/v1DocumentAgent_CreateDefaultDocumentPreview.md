@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Loading default values into a new DocumentPreview.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -59,7 +61,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,16 +71,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schoen, Beer and Thompson",
-  "Type": "mollitia",
-  "Size": 331,
+  "Name": "Mann-Wilkinson",
+  "Type": "et",
+  "Size": 856,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 850
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/DeleteCRMScriptByUniqueIdentifier
 Delete the CRMScript
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -71,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "adipisci"
+  "UniqueIdentifier": "vel"
 }
 ```
 

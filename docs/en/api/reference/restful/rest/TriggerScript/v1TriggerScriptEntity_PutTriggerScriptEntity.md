@@ -14,6 +14,9 @@ PUT /api/v1/TriggerScript/{id}
 Updates the existing TriggerScriptEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -104,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 440,
-  "Name": "Trantow, Marks and Beatty",
+  "ScreenChooserId": 119,
+  "Name": "Labadie Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sunt",
-  "Source": "sapiente",
-  "Registered": "2017-09-14T11:24:53.7186781+02:00",
-  "RegisteredAssociateId": 713,
-  "Updated": "1999-05-24T11:24:53.7186781+02:00",
-  "UpdatedAssociateId": 188
+  "UniqueIdentifier": "totam",
+  "Source": "tempore",
+  "Registered": "1998-06-06T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 907,
+  "Updated": "1999-01-19T03:40:56.4140988+01:00",
+  "UpdatedAssociateId": 174
 }
 ```
 
@@ -124,22 +127,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 267,
-  "Name": "Kreiger, Goyette and Sporer",
+  "ScreenChooserId": 114,
+  "Name": "Wintheiser-Walter",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dolorem",
-  "Source": "ducimus",
-  "Registered": "2024-03-30T11:24:53.7186781+01:00",
-  "RegisteredAssociateId": 592,
-  "Updated": "2017-06-16T11:24:53.7186781+02:00",
-  "UpdatedAssociateId": 606,
+  "UniqueIdentifier": "unde",
+  "Source": "est",
+  "Registered": "2006-07-15T03:40:56.4140988+02:00",
+  "RegisteredAssociateId": 104,
+  "Updated": "2025-07-22T03:40:56.4140988+02:00",
+  "UpdatedAssociateId": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 913
     }
   },
   "_Links": {

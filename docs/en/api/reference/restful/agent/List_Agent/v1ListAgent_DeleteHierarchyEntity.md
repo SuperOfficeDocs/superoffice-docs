@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteHierarchyEntity
 Deletes the HierarchyEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the HierarchyEntity
 | hierarchyEntityId | int32 | **Required** The identity of the HierarchyEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?hierarchyEntityId=60
+POST /api/v1/Agents/List/DeleteHierarchyEntity?hierarchyEntityId=639
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

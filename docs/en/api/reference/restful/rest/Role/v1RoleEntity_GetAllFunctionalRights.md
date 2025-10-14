@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Name": "Metz, Morissette and Fritsch",
-    "ToolTip": "Et neque voluptatem est nam aut.",
+    "Id": 649,
+    "Name": "Frami, Flatley and Kunde",
+    "ToolTip": "Nihil sed vel.",
     "Deleted": false,
-    "Rank": 962,
-    "Type": "sint",
-    "ColorBlock": 830,
-    "IconHint": "odit",
+    "Rank": 751,
+    "Type": "mollitia",
+    "ColorBlock": 750,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2012-04-06T11:24:53.499937+02:00",
+    "LastChanged": "2004-02-23T03:40:56.0699234+01:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Pollich Inc and Sons",
-        "ToolTip": "Deserunt similique blanditiis tenetur incidunt voluptas magni libero.",
-        "Deleted": false,
-        "Rank": 295,
-        "Type": "minima",
-        "ColorBlock": 142,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2025-09-14T11:24:53.499937+02:00",
+        "Id": 709,
+        "Name": "Gusikowski-DuBuque",
+        "ToolTip": "Doloribus beatae similique voluptatibus illum consequuntur ut nostrum.",
+        "Deleted": true,
+        "Rank": 540,
+        "Type": "iure",
+        "ColorBlock": 328,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2004-12-20T03:40:56.0699234+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Daisy Kuphal",
+        "FullName": "Dariana Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 660
+            "FieldType": "System.Int32",
+            "FieldLength": 5
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Prof. Derick VonRueden",
+    "ExtraInfo": "maxime",
+    "StyleHint": "officiis",
+    "Hidden": true,
+    "FullName": "Erin Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 796
       }
     }
   }

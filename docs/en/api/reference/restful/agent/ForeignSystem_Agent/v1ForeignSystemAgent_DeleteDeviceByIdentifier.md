@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -67,13 +69,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling Group",
-  "DeviceName": "Nitzsche, West and Reinger",
-  "DeviceIdentifier": "molestias"
+  "ApplicationName": "Donnelly LLC",
+  "DeviceName": "Marvin LLC",
+  "DeviceIdentifier": "minima"
 }
 ```
 

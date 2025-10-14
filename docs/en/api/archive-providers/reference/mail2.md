@@ -94,7 +94,9 @@ Provides populated mail envelope rows as an archive
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -119,12 +121,12 @@ Provides populated mail envelope rows as an archive
 |person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |person/email/emailAddress|string|E-mail| x |
-|person/email/emailDescription|string|Description| x |
-|person/email/emailId|int|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailDescription|string|Description| x |
+|person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
@@ -223,12 +225,12 @@ Provides populated mail envelope rows as an archive
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
-|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
-|person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/isLocation|bool|Is a location: Is a location| x |
+|person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -279,6 +281,7 @@ Provides populated mail envelope rows as an archive
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ Provides populated mail envelope rows as an archive
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
-|contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
-|contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
-|contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
+|contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
+|contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
 |contact/streetAddress/county|string|Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/streetAddress/city|string|Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/streetAddress/zip|string|Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
@@ -430,13 +433,13 @@ Provides populated mail envelope rows as an archive
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|contact/LastSale|date|Date of last sale|  |
-|contact/LastCompletedSale|date|Date of last completed sale|  |
-|contact/LastDoBySale|date|Date of last non-completed sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/LastSale|date|Date of last sale|  |
+|contact/LastCompletedSale|date|Date of last completed sale|  |
+|contact/LastDoBySale|date|Date of last non-completed sale|  |
 |contact/NumberOfTickets|int|Number of requests|  |
 |contact/NumberOfTicketsInPeriod|int|Number of requests in last 90 days|  |
 |contact/NumberOfNotCompletedTickets|int|Number of non-completed requests|  |
@@ -490,7 +493,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=person/personMobilePhone/formattedNumber,person/personDirectFax/formattedNumber,person/personUrl/URLDescription,person/personAssociate/firstName
+GET /api/v1/archive/Mail2?$select=person/kanaLastName,person/personRegisteredDate,person/personUdef/SuperOffice:7,person/legalBaseStore,contact/phone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

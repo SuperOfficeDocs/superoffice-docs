@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatPresence
 Get the chat presence status for all chat users
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 327,
-    "DisplayName": "Prosacco, Zulauf and Jaskolski",
-    "OngoingChats": 444,
+    "UserId": 718,
+    "DisplayName": "Kub Inc and Sons",
+    "OngoingChats": 246,
     "Present": false,
     "ChatTopics": [
-      732,
-      807
+      846,
+      442
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 943
       }
     }
   }

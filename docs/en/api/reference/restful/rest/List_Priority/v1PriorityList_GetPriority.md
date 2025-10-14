@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Paucek, Deckow and Stracke",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 657,
-  "Rank": 906,
+  "Id": 501,
+  "Name": "Wyman Group",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "UdListDefinitionId": 716,
+  "Rank": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 321
     }
   }
 }

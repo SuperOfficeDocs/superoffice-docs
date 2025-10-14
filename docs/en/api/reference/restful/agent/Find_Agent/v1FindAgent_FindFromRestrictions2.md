@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictions2
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -168,10 +169,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "a",
-  "ProviderName": "Prosacco, Flatley and Parisian",
-  "PageSize": 982,
-  "PageNumber": 784
+  "Restrictions": "maiores",
+  "ProviderName": "Satterfield Inc and Sons",
+  "PageSize": 783,
+  "PageNumber": 958
 }
 ```
 
@@ -184,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ledner, Torp and Reichert",
-      "DisplayTooltip": "asperiores",
-      "DisplayType": "voluptas",
+      "DisplayName": "Trantow LLC",
+      "DisplayTooltip": "velit",
+      "DisplayType": "consequatur",
       "CanOrderBy": false,
-      "Name": "Daniel-Ritchie",
+      "Name": "Weber, Konopelski and Gleichner",
       "CanRestrictBy": false,
-      "RestrictionType": "aliquid",
-      "RestrictionListName": "Dibbert-Roob",
+      "RestrictionType": "ea",
+      "RestrictionListName": "Grant-Muller",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "debitis",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "eius",
+      "Width": "sit",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "necessitatibus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ledner Group",
-      "PrimaryKey": 468,
+      "EntityName": "Kunde, Rolfson and Streich",
+      "PrimaryKey": 215,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "eos",
-          "LinkHint": "odio"
+          "DisplayValue": "aliquid",
+          "TooltipHint": "numquam",
+          "LinkHint": "eos"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "alias",
+      "LinkHint": "unde",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 580
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     }
   ],
-  "RowCount": 141,
+  "RowCount": 207,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 533
     }
   }
 }

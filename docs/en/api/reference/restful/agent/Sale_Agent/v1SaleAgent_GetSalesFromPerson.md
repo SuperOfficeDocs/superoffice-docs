@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson
 Returns all sales for the person provided.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,12 +101,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 853,
-  "OnlyOpenSales": true
+  "PersonId": 624,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Heller Group",
-    "SaleDate": "2010-05-21T11:24:48.5939056+02:00",
-    "SaleId": 548,
-    "Probability": 436,
-    "Title": "ea",
-    "Amount": 2532.272,
-    "Currency": "voluptas",
-    "ProjectName": "Ernser-Smitham",
-    "AssociateFullName": "Damion Pacocha",
-    "Description": "Public-key static synergy",
+    "ContactName": "Feil, Sanford and Murray",
+    "SaleDate": "2014-05-06T03:40:47.6723407+02:00",
+    "SaleId": 44,
+    "Probability": 249,
+    "Title": "et",
+    "Amount": 1855.328,
+    "Currency": "quis",
+    "ProjectName": "Fisher, Kunze and Mills",
+    "AssociateFullName": "Mr. Clarabelle VonRueden V",
+    "Description": "Reactive methodical circuit",
     "Status": "Lost",
-    "WeightedAmount": 2836.27,
-    "ProjectId": 198,
-    "EarningPercent": 7158.056,
-    "Earning": 266.39,
-    "ContactId": 653,
-    "AssociateId": 436,
-    "PersonId": 167,
-    "SaleTypeId": 911,
-    "SaleTypeName": "Robel Group",
-    "PersonFullName": "Adolphus Blanda",
+    "WeightedAmount": 3992.716,
+    "ProjectId": 289,
+    "EarningPercent": 12344.826,
+    "Earning": 30086.399999999998,
+    "ContactId": 820,
+    "AssociateId": 708,
+    "PersonId": 960,
+    "SaleTypeId": 940,
+    "SaleTypeName": "Cummings, Shields and Bernhard",
+    "PersonFullName": "Dr. Peyton Mathilde Harris III",
     "Completed": "Completed",
-    "ActiveErpLinks": 527,
-    "NextDueDate": "2019-01-11T11:24:48.5939056+01:00",
-    "Number": "889131",
+    "ActiveErpLinks": 534,
+    "NextDueDate": "2009-10-12T03:40:47.6723407+02:00",
+    "Number": "248153",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 421
       }
     }
   }

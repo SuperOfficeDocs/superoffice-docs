@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Mayer, Ebert and Wintheiser",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "Rank": 276,
+  "Id": 266,
+  "Name": "Huel LLC",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 355,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   },
   "_Links": {

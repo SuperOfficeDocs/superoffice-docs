@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Create a new session on a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 747
+  "ChatTopicId": 359
 }
 ```
 
@@ -119,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 465,
-  "TopicId": 757,
+  "ChatSessionId": 975,
+  "TopicId": 105,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aliquid",
-  "CustomerHost": "quae",
-  "CustomerName": "Hammes-Baumbach",
-  "CustomerEmail": "catharine_schultz@kshlerinbeahan.co.uk",
-  "CustomerPhone": "150-647-8223 x953",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Daugherty LLC",
+  "CustomerAlias": "fugit",
+  "CustomerHost": "distinctio",
+  "CustomerName": "Frami-Stiedemann",
+  "CustomerEmail": "jayda_mcclure@dickinson.info",
+  "CustomerPhone": "(226)683-0657 x968",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Swift LLC",
   "Status": "Closed",
-  "FirstMessage": "voluptatem",
-  "LastMessage": "dolor",
-  "WhenRequested": "2016-09-20T11:24:47.7032984+02:00",
-  "WhenStarted": "2019-05-16T11:24:47.7032984+02:00",
-  "WhenEnded": "2024-02-28T11:24:47.7032984+01:00",
-  "WhenIdle": "2019-05-18T11:24:47.7032984+02:00",
-  "WhenFetched": "2011-09-08T11:24:47.7032984+02:00",
-  "SessionKey": "quibusdam",
-  "InitialQueuePos": 104,
-  "AlertLevel": 306,
-  "Rank": 460,
+  "FirstMessage": "voluptatibus",
+  "LastMessage": "qui",
+  "WhenRequested": "2018-02-19T03:40:46.2331872+01:00",
+  "WhenStarted": "2002-01-02T03:40:46.2331872+01:00",
+  "WhenEnded": "2024-03-24T03:40:46.2331872+01:00",
+  "WhenIdle": "2006-09-12T03:40:46.2331872+02:00",
+  "WhenFetched": "2022-04-17T03:40:46.2331872+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 746,
+  "AlertLevel": 466,
+  "Rank": 366,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 457,
+  "ChatbotIsActive": false,
+  "Rating": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldType": "System.Int32",
+      "FieldLength": 134
     }
   }
 }

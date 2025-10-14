@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Get license information for one particular license module.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,12 +89,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Medhurst, Schulist and Botsford",
-  "ModuleName": "Langosh Group"
+  "OwnerName": "Gaylord, Walter and Crist",
+  "ModuleName": "Will, Kris and Macejkovic"
 }
 ```
 
@@ -103,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hahn Inc and Sons",
-  "ModuleName": "Roob, Jast and Ernser",
-  "ModuleDescription": "Synchronised interactive hierarchy",
-  "ModuleTooltip": "rerum",
-  "ModuleVersion": "dicta",
+  "OwnerName": "Veum, Metz and Kuhic",
+  "ModuleName": "Buckridge, Schinner and Kreiger",
+  "ModuleDescription": "Decentralized static secured line",
+  "ModuleTooltip": "id",
+  "ModuleVersion": "aut",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 228,
-  "ExtraFlags": 844,
-  "ExtraInfo": "vero",
-  "SortOrder": 296,
+  "NumberOfLicenses": 965,
+  "ExtraFlags": 3,
+  "ExtraInfo": "sit",
+  "SortOrder": 256,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Stoltenberg-Kuhlman",
-  "Signature": "dignissimos"
+  "PrerequisiteModuleName": "Paucek LLC",
+  "Signature": "voluptatem"
 }
 ```

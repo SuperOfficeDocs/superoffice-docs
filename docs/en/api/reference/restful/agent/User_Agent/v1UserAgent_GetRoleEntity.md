@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetRoleEntity
 Gets a RoleEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +32,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=806
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=802
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -81,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 626,
-  "Name": "Bogan, Bartell and Green",
-  "Tooltip": "culpa",
+  "RoleId": 972,
+  "Name": "Maggio-Farrell",
+  "Tooltip": "maxime",
   "RoleType": "Anonymous",
-  "Deleted": 67,
-  "Rank": 267,
-  "Created": "2007-06-30T11:24:48.8907508+02:00",
-  "UseCategories": 817,
+  "Deleted": 428,
+  "Rank": 651,
+  "Created": "2013-04-27T03:40:48.1567456+02:00",
+  "UseCategories": 992,
   "CreatedBy": null,
-  "Updated": "2014-11-09T11:24:48.8907508+01:00",
+  "Updated": "2016-01-22T03:40:48.1567456+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -108,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 676
     }
   }
 }

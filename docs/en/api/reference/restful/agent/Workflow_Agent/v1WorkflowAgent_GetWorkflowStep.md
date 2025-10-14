@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowStep
 Get Workflowstep by ID
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -75,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 727
+  "WorkflowStepId": 149
 }
 ```
 
@@ -90,9 +92,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 905,
-  "WorkflowId": 552,
+  "WorkflowStepId": 761,
+  "WorkflowId": 728,
   "StepType": "AddToList",
-  "Rank": 828
+  "Rank": 700
 }
 ```

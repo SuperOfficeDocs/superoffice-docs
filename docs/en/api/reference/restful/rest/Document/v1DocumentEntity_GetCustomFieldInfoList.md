@@ -69,7 +69,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Jacobson, Rowe and Smitham",
-    "DisplayName": "Buckridge Group",
-    "Description": "Polarised upward-trending middleware",
-    "ShortLabel": "debitis",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Ferry, Donnelly and Ziemann",
+    "DisplayName": "Green-Marks",
+    "Description": "Multi-channelled non-volatile parallelism",
+    "ShortLabel": "non",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 945,
-    "TemplateVariableName": "Wyman Group"
+    "IsDisplayField": true,
+    "Rank": 795,
+    "TemplateVariableName": "Collier, Runte and Schinner"
   }
 ]
 ```

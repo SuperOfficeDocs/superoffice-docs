@@ -43,13 +43,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class DatabaseTableAgent : AgentBase, IDatabaseTableAgent, IDisposable'
-    content.vb: Public Class DatabaseTableAgent Inherits AgentBase Implements IDatabaseTableAgent, IDisposable
+    content: 'public class DatabaseTableAgent : AgentBase, IDatabaseTableAgent, IAgentBase, IDisposable'
+    content.vb: Public Class DatabaseTableAgent Inherits AgentBase Implements IDatabaseTableAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IDatabaseTableAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -524,6 +525,14 @@ references:
   name: IDatabaseTableAgent
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.WebApi.Agents.IDatabaseTableAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

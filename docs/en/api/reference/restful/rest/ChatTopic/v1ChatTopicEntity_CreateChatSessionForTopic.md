@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 405,
-  "TopicId": 174,
+  "ChatSessionId": 538,
+  "TopicId": 927,
   "User": null,
   "Person": null,
-  "CustomerAlias": "incidunt",
-  "CustomerHost": "magnam",
-  "CustomerName": "Batz-Cole",
-  "CustomerEmail": "ursula@willms.us",
-  "CustomerPhone": "1-854-564-0998",
+  "CustomerAlias": "quod",
+  "CustomerHost": "nisi",
+  "CustomerName": "Bechtelar, Schimmel and Kuhlman",
+  "CustomerEmail": "selena@okon.ca",
+  "CustomerPhone": "(910)287-2478 x200",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lakin, Lubowitz and Turcotte",
+  "CustomerCompanyName": "Ryan-Nikolaus",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2023-12-16T11:24:53.0780792+01:00",
-  "WhenStarted": "2005-03-05T11:24:53.0780792+01:00",
-  "WhenEnded": "1999-07-27T11:24:53.0780792+02:00",
-  "WhenIdle": "2016-06-29T11:24:53.0780792+02:00",
-  "WhenFetched": "2012-06-04T11:24:53.0780792+02:00",
-  "SessionKey": "nisi",
-  "InitialQueuePos": 295,
-  "AlertLevel": 864,
-  "Rank": 220,
+  "FirstMessage": "et",
+  "LastMessage": "nesciunt",
+  "WhenRequested": "1999-11-13T03:40:55.4130631+01:00",
+  "WhenStarted": "2000-11-25T03:40:55.4130631+01:00",
+  "WhenEnded": "2011-01-27T03:40:55.4130631+01:00",
+  "WhenIdle": "2009-04-05T03:40:55.4130631+02:00",
+  "WhenFetched": "2024-04-13T03:40:55.4130631+02:00",
+  "SessionKey": "corporis",
+  "InitialQueuePos": 527,
+  "AlertLevel": 617,
+  "Rank": 846,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 499,
+  "ChatbotIsActive": true,
+  "Rating": 234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 727
     }
   }
 }

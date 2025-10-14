@@ -15,6 +15,7 @@ Creates a new Product
 
 
 Calls the Quote agent service SaveProduct.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -142,55 +143,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 387,
-  "ERPProductKey": "sint",
-  "ERPPriceListKey": "nihil",
-  "Name": "Schowalter, Upton and Mohr",
-  "Description": "Re-engineered 6th generation framework",
-  "Code": "iure",
-  "PriceUnit": "qui",
-  "QuantityUnit": "quod",
+  "ProductId": 149,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "eaque",
+  "Name": "O'Conner LLC",
+  "Description": "Down-sized dynamic interface",
+  "Code": "earum",
+  "PriceUnit": "est",
+  "QuantityUnit": "exercitationem",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 7396.24,
-  "ItemNumber": "579559",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 14300.442,
+  "ItemNumber": "736300",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "possimus",
-  "VAT": 27312.809999999998,
-  "VATInfo": "voluptatem",
-  "UnitCost": 16099.358,
-  "UnitMinimumPrice": 15945.792,
-  "UnitListPrice": 6120.702,
-  "InAssortment": false,
-  "Supplier": "veniam",
-  "SupplierCode": "non",
-  "Rights": "eligendi",
-  "Rule": "dolores",
+  "ProductFamilyKey": "ullam",
+  "ProductTypeKey": "amet",
+  "VAT": 6443.504,
+  "VATInfo": "cum",
+  "UnitCost": 14723.532,
+  "UnitMinimumPrice": 1153.312,
+  "UnitListPrice": 11094.359999999999,
+  "InAssortment": true,
+  "Supplier": "ea",
+  "SupplierCode": "et",
+  "Rights": "similique",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Jacobi Group",
-      "Value": "error",
+      "Name": "Kulas, Keeling and Stehr",
+      "Value": "est",
       "Type": "Image"
     },
     {
-      "Name": "Jacobi Group",
-      "Value": "error",
+      "Name": "Kulas, Keeling and Stehr",
+      "Value": "est",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "voluptatibus",
-  "ExtraField1": "aliquid",
-  "ExtraField2": "ea",
-  "ExtraField3": "dicta",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "non",
-  "InStock": 31026.6
+  "RawExtraInfo": "est",
+  "ExtraField1": "enim",
+  "ExtraField2": "nostrum",
+  "ExtraField3": "omnis",
+  "ExtraField4": "dolor",
+  "ExtraField5": "quo",
+  "InStock": 26867.782
 }
 ```
 
@@ -201,73 +202,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 732,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "tempore",
-  "Name": "Stamm-Jerde",
-  "Description": "Integrated maximized frame",
-  "Code": "in",
-  "PriceUnit": "ad",
-  "QuantityUnit": "sed",
-  "IsSubscription": true,
-  "SubscriptionUnit": "itaque",
-  "DefaultSubscriptionQuantity": 16904.796,
-  "ItemNumber": "1689919",
+  "ProductId": 760,
+  "ERPProductKey": "maiores",
+  "ERPPriceListKey": "ut",
+  "Name": "Haley LLC",
+  "Description": "Horizontal directional contingency",
+  "Code": "nostrum",
+  "PriceUnit": "harum",
+  "QuantityUnit": "praesentium",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 25144.082,
+  "ItemNumber": "501072",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolor",
-  "ProductTypeKey": "doloribus",
-  "VAT": 28920.552,
-  "VATInfo": "nesciunt",
-  "UnitCost": 24874.558,
-  "UnitMinimumPrice": 17211.928,
-  "UnitListPrice": 2547.942,
-  "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "aperiam",
-  "Rights": "et",
-  "Rule": "porro",
+  "ProductFamilyKey": "nisi",
+  "ProductTypeKey": "officia",
+  "VAT": 14566.832,
+  "VATInfo": "illo",
+  "UnitCost": 30873.034,
+  "UnitMinimumPrice": 9881.502,
+  "UnitListPrice": 2243.944,
+  "InAssortment": true,
+  "Supplier": "ea",
+  "SupplierCode": "repellat",
+  "Rights": "doloribus",
+  "Rule": "sit",
   "ExtraInfo": [
     {
-      "Name": "Keeling, Rippin and Kutch",
-      "Value": "eveniet",
+      "Name": "Rosenbaum-Pagac",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldType": "System.String",
+          "FieldLength": 918
         }
       }
     },
     {
-      "Name": "Keeling, Rippin and Kutch",
-      "Value": "eveniet",
+      "Name": "Rosenbaum-Pagac",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldType": "System.String",
+          "FieldLength": 918
         }
       }
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "architecto",
-  "ExtraField2": "recusandae",
-  "ExtraField3": "aperiam",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "id",
-  "InStock": 11163.307999999999,
+  "RawExtraInfo": "similique",
+  "ExtraField1": "quo",
+  "ExtraField2": "et",
+  "ExtraField3": "est",
+  "ExtraField4": "quam",
+  "ExtraField5": "ex",
+  "InStock": 1845.926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 625
     }
   }
 }

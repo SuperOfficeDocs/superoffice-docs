@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Data.SQL
   children:
   - SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.#ctor(SuperOffice.Data.SQL.Equal)
+  - SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.#ctor(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.Clone
   - SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.TargetTable
   langs:
@@ -73,6 +74,32 @@ items:
   nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo).New(Equal)
   fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo).New(SuperOffice.Data.SQL.Equal)
   name.vb: New(Equal)
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.#ctor(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  commentId: M:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.#ctor(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)
+  id: '#ctor(SuperOffice.Data.SQL.Equal,SuperOffice.Data.SQL.Restriction)'
+  parent: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  langs:
+  - csharp
+  - vb
+  name: TargetedLeftOuterJoin(Equal, Restriction)
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>.TargetedLeftOuterJoin(Equal, Restriction)
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>.TargetedLeftOuterJoin(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public TargetedLeftOuterJoin(Equal comp, Restriction r)
+    parameters:
+    - id: comp
+      type: SuperOffice.Data.SQL.Equal
+    - id: r
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Sub New(comp As Equal, r As Restriction)
+  overload: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.#ctor*
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo).New(Equal, Restriction)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo).New(SuperOffice.Data.SQL.Equal, SuperOffice.Data.SQL.Restriction)
+  name.vb: New(Equal, Restriction)
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.Clone
   commentId: M:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1.Clone
   id: Clone
@@ -759,6 +786,14 @@ references:
   name: Equal
   nameWithType: Equal
   fullName: SuperOffice.Data.SQL.Equal
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.Data.SQL.LeftOuterJoin.Clone
   commentId: M:SuperOffice.Data.SQL.LeftOuterJoin.Clone
   parent: SuperOffice.Data.SQL.LeftOuterJoin

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Dickinson, Hilpert and Volkman",
-  "Tooltip": "perferendis",
+  "Id": 812,
+  "Name": "Gerhold-Schowalter",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 346,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 752,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "facilis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   },
   "_Links": {

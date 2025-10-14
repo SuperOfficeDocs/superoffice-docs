@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Loading default values into a new TargetAssignment.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -64,7 +66,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 98,
+  "TargetAssignmentInfoId": 7,
   "Values": [
-    408,
-    85
+    732,
+    724
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 86,
-  "DimensionListItemDisplayName": "Graham Inc and Sons",
+  "DimensionListItem": 850,
+  "DimensionListItemDisplayName": "Kub LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 489
     }
   }
 }

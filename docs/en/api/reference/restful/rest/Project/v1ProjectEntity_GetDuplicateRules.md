@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler, Mertz and Cummings",
-    "DisplayName": "Pfeffer-Dickinson",
-    "DisplayTooltip": "ullam",
+    "Name": "Glover LLC",
+    "DisplayName": "Rutherford-West",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   },
   {
-    "Name": "Keebler, Mertz and Cummings",
-    "DisplayName": "Pfeffer-Dickinson",
-    "DisplayTooltip": "ullam",
+    "Name": "Glover LLC",
+    "DisplayName": "Rutherford-West",
+    "DisplayTooltip": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

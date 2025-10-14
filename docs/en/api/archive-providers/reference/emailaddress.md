@@ -86,7 +86,9 @@ the email_id.
 |personAssociateId| *None* |Our contact: Displays our contact|  |
 |personAssociateFullName| *None* |Our contact - Full name: Displays our contact|  |
 |personCategory| *None* |Category|  |
+|personCategoryGroup| *None* |Category group|  |
 |personBusiness| *None* |Business|  |
+|leadstatus| *None* |Lead status|  |
 |personDeletedDate| *None* |Deleted date: Deleted date|  |
 |hasCompany| *None* |Has company: The contact is associated with a company|  |
 |isProjectMember| *None* |Is project member: This person is a project member|  |
@@ -126,15 +128,16 @@ the email_id.
 |personContact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
 |personContact/category| *None* |Category|  |
+|personContact/categoryGroup| *None* |Category group|  |
 |personContact/business| *None* |Business|  |
 |personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
-|personContact/countryId| *None* |Country ID: Country ID|  |
-|personContact/number| *None* |Number|  |
-|personContact/code| *None* |Code|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/countryId| *None* |Country ID: Country ID|  |
+|personContact/number| *None* |Number|  |
+|personContact/code| *None* |Code|  |
 |personContact/orgnr| *None* |VAT No.|  |
 |personContact/stop| *None* |Stop|  |
 |personContact/contactNoMail| *None* |No mailings (company|  |
@@ -193,6 +196,7 @@ the email_id.
 |nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
 |associateId| *None* |Our contact: Displays our contact|  |
 |category| *None* |Category|  |
+|categoryGroup| *None* |Category group|  |
 |business| *None* |Business|  |
 |country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |countryId| *None* |Country ID: Country ID|  |
@@ -231,14 +235,14 @@ the email_id.
 |postAddress/line2| *None* |Postal address - Address 2: Second line of the address|  |
 |postAddress/line3| *None* |Postal address - Address 3: Third line of the address|  |
 |postAddress/county| *None* |Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
-|postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
-|postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
-|postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|postAddress/city| *None* |Postal address - City: This criterion corresponds to the City field on the Company card.|  |
+|postAddress/zip| *None* |Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
+|postAddress/state| *None* |Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
+|postAddress/wgs84latitude| *None* |Postal address - Latitude: Latitude|  |
 |postAddress/wgs84longitude| *None* |Postal address - Longitude: Longitude|  |
 |postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
@@ -335,14 +339,14 @@ the email_id.
 |contactSupportAssociate/ejUserId| *None* |Our service contact - Service user ID: The database ID of a Service user|  |
 |contactSupportAssociate/simultaneousEjUser| *None* |Our service contact - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |contactSupportAssociate/ejDisplayName| *None* |Our service contact - Nick name: User's nick name in Service|  |
-|contactSupportAssociate/ejStatus| *None* |Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in|  |
-|contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactSupportAssociate/ejStatus| *None* |Our service contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|contactSupportAssociate/credentialType| *None* |Our service contact - Auth. type: What type of credentials to use when this user logs in|  |
+|contactSupportAssociate/credentialDisplayValue| *None* |Our service contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
+|contactSupportAssociate/isActive| *None* |Our service contact - Active: Is this user active, and should be able to log in?|  |
 |contactSupportAssociate/isActiveText| *None* |Our service contact - Active status: Is this user active, and should be able to log in?|  |
 |contactSupportAssociate/portraitThumbnail| *None* |Our service contact - Person image: Person image|  |
 |contactSupportAssociate/otherGroups| *None* |Our service contact - Other groups: Other groups|  |
@@ -392,7 +396,9 @@ the email_id.
 |contactSupportPerson/personAssociateId| *None* |User support contact - Our contact: Displays our contact|  |
 |contactSupportPerson/personAssociateFullName| *None* |User support contact - Our contact - Full name: Displays our contact|  |
 |contactSupportPerson/personCategory| *None* |User support contact - Category|  |
+|contactSupportPerson/personCategoryGroup| *None* |User support contact - Category group|  |
 |contactSupportPerson/personBusiness| *None* |User support contact - Business|  |
+|contactSupportPerson/leadstatus| *None* |User support contact - Lead status|  |
 |contactSupportPerson/personDeletedDate| *None* |User support contact - Deleted date: Deleted date|  |
 |contactSupportPerson/hasCompany| *None* |User support contact - Has company: The contact is associated with a company|  |
 |contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
@@ -437,16 +443,16 @@ the email_id.
 |contactSupportPerson/personExtra/y\_rental/x\_amount| *None* |User support contact - Rental - Amount: Number to rent. Default = 1|  |
 |contactSupportPerson/personExtra/y\_rental/x\_contact| *None* |User support contact - Rental - Renter: Company that rents equipment|  |
 |contactSupportPerson/personExtra/y\_rental/y\_equipment/x\_name| *None* |User support contact - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |contactSupportPerson/personExtra/y\_car/id| *None* |User support contact - Car - id: Displays the row's primary key (y\_car)|  |
 |contactSupportPerson/isMailingRecipient| *None* |User support contact - Is mailing recipient: isMailingRecipient|  |
 |contactSupportPerson/hasStoreConsent| *None* |User support contact - Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/withdrawnStoreConsent| *None* |User support contact - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/hasEmarketingConsent| *None* |User support contact - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |contactSupportPerson/withdrawnEmarketingConsent| *None* |User support contact - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |contactSupportPerson/subscription| *None* |User support contact - Subscription: Subscription for marketing|  |
 |contactSupportPerson/legalBaseStore| *None* |User support contact - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |contactSupportPerson/legalBaseEmarketing| *None* |User support contact - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -519,7 +525,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=url/URLDescription,NumberOfSales,associateId
+GET /api/v1/archive/EmailAddress?$select=personContact/restrictionAddress/city,updatedBy,registeredBy,contactExtra/x_contact_date
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

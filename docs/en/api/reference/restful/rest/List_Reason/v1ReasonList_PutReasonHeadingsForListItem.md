@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Franecki LLC",
-    "ToolTip": "Quaerat recusandae quia.",
-    "Deleted": true,
-    "Rank": 115,
-    "Type": "nihil",
-    "ColorBlock": 942,
-    "IconHint": "quod",
+    "Id": 68,
+    "Name": "Gleason-Schowalter",
+    "ToolTip": "Velit ea eligendi aperiam quaerat.",
+    "Deleted": false,
+    "Rank": 478,
+    "Type": "occaecati",
+    "ColorBlock": 801,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2002-03-16T11:24:54.1092872+01:00",
+    "LastChanged": "2010-12-14T03:40:57.071478+01:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Kilback-Bayer",
-        "ToolTip": "Vero nihil assumenda sit atque deleniti.",
+        "Id": 345,
+        "Name": "King Inc and Sons",
+        "ToolTip": "Amet praesentium ratione.",
         "Deleted": false,
-        "Rank": 616,
-        "Type": "sit",
-        "ColorBlock": 63,
-        "IconHint": "ut",
+        "Rank": 812,
+        "Type": "dolorem",
+        "ColorBlock": 935,
+        "IconHint": "officiis",
         "Selected": false,
-        "LastChanged": "1998-07-11T11:24:54.1092872+02:00",
+        "LastChanged": "2007-02-28T03:40:57.071478+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Miss Keeley Schultz DDS"
+        "ExtraInfo": "qui",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Amalia Treutel"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "provident",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Orlo Kunze"
+    "FullName": "Diego Mayer"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Konopelski Group",
-    "ToolTip": "Eos voluptas corrupti quis voluptate.",
+    "Id": 541,
+    "Name": "Pollich LLC",
+    "ToolTip": "Sit ipsum et dolorem occaecati repellendus.",
     "Deleted": false,
-    "Rank": 177,
-    "Type": "debitis",
-    "ColorBlock": 534,
-    "IconHint": "nihil",
+    "Rank": 515,
+    "Type": "unde",
+    "ColorBlock": 564,
+    "IconHint": "non",
     "Selected": true,
-    "LastChanged": "2005-08-09T11:24:54.1092872+02:00",
+    "LastChanged": "2021-07-04T03:40:57.071478+02:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Brown-Pouros",
-        "ToolTip": "Qui qui et sequi distinctio id.",
+        "Id": 953,
+        "Name": "Ruecker, Osinski and Renner",
+        "ToolTip": "Totam vero a quia.",
         "Deleted": false,
-        "Rank": 645,
-        "Type": "totam",
-        "ColorBlock": 803,
-        "IconHint": "deserunt",
-        "Selected": true,
-        "LastChanged": "2020-11-20T11:24:54.1092872+01:00",
+        "Rank": 848,
+        "Type": "et",
+        "ColorBlock": 674,
+        "IconHint": "neque",
+        "Selected": false,
+        "LastChanged": "2023-03-29T03:40:57.071478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "numquam",
+        "ExtraInfo": "vitae",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Ms. Kaden Isaac Kessler MD",
+        "FullName": "Ms. Athena Jared Swaniawski PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Deion Bechtelar",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Beryl Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Schmeler-Hahn",
-    "ToolTip": "Voluptatem ducimus consequatur rerum id laboriosam optio.",
+    "Id": 37,
+    "Name": "Wiza, Ebert and Daniel",
+    "ToolTip": "Ut est.",
     "Deleted": false,
-    "Rank": 622,
-    "Type": "molestiae",
-    "ColorBlock": 730,
-    "IconHint": "sunt",
+    "Rank": 53,
+    "Type": "omnis",
+    "ColorBlock": 375,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2010-06-28T11:24:53.9999166+02:00",
+    "LastChanged": "2010-11-01T03:40:56.9933484+01:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Senger Group",
-        "ToolTip": "Beatae ipsum.",
+        "Id": 287,
+        "Name": "Ward LLC",
+        "ToolTip": "Maxime id sit quae cupiditate sit voluptas similique.",
         "Deleted": false,
-        "Rank": 381,
-        "Type": "dolor",
-        "ColorBlock": 187,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "2018-12-29T11:24:53.9999166+01:00",
+        "Rank": 199,
+        "Type": "neque",
+        "ColorBlock": 804,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2022-10-02T03:40:56.9933484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Ms. Lamont Jakayla Lang"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Kareem Crist"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Triston Rippin"
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "culpa",
+    "Hidden": false,
+    "FullName": "Dr. Brionna Madeline Mohr"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Mraz, Rutherford and Weimann",
-    "ToolTip": "Culpa sapiente beatae iste doloribus perspiciatis culpa.",
-    "Deleted": true,
-    "Rank": 628,
-    "Type": "ipsa",
-    "ColorBlock": 953,
-    "IconHint": "officiis",
+    "Id": 242,
+    "Name": "Berge-Von",
+    "ToolTip": "Vitae sit sunt odio.",
+    "Deleted": false,
+    "Rank": 388,
+    "Type": "et",
+    "ColorBlock": 507,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2019-05-23T11:24:53.9999166+02:00",
+    "LastChanged": "2011-06-07T03:40:56.9933484+02:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Koss-Ullrich",
-        "ToolTip": "Fuga nihil distinctio repellendus modi voluptatem iusto atque.",
+        "Id": 339,
+        "Name": "Konopelski LLC",
+        "ToolTip": "Minus aut itaque.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "error",
-        "ColorBlock": 8,
-        "IconHint": "voluptas",
+        "Rank": 978,
+        "Type": "tenetur",
+        "ColorBlock": 990,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2022-10-14T11:24:53.9999166+02:00",
+        "LastChanged": "2006-07-12T03:40:56.9933484+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Murphy Anderson",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Mrs. Chasity Graham MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldType": "System.String",
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "non",
+    "ExtraInfo": "laborum",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Shanny Jaskolski",
+    "FullName": "Alysa Kuhn IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 38
+        "FieldType": "System.Int32",
+        "FieldLength": 573
       }
     }
   }

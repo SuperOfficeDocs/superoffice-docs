@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/ChangeUserType
 Get a user from the user name.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -117,14 +120,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 477,
-  "Name": "Weber-Pollich",
-  "Rank": 232,
-  "Tooltip": "ipsum",
+  "AssociateId": 275,
+  "Name": "Emmerich LLC",
+  "Rank": 350,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Brakus-Windler",
-      "Description": "Managed dynamic capability",
+      "Name": "Corwin, Runolfsson and Hagenes",
+      "Description": "Robust scalable open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,14 +140,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     },
     {
-      "Name": "Brakus-Windler",
-      "Description": "Managed dynamic capability",
+      "Name": "Corwin, Runolfsson and Hagenes",
+      "Description": "Robust scalable open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     }
@@ -167,110 +170,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "similique",
-      "Tooltip": "earum",
-      "Id": 249,
-      "Rank": 991,
+      "Value": "sit",
+      "Tooltip": "dicta",
+      "Id": 87,
+      "Rank": 570,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 682
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2022-04-08T11:24:48.8751256+02:00",
-  "Lastlogout": "2009-11-17T11:24:48.8751256+01:00",
-  "EjUserId": 403,
-  "RequestSignature": "suscipit",
+  "Lastlogin": "2003-12-28T03:40:48.1411177+01:00",
+  "Lastlogout": "2006-06-22T03:40:48.1411177+02:00",
+  "EjUserId": 615,
+  "RequestSignature": "veritatis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "explicabo",
+      "Value": "sequi",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldType": "System.Int32",
+          "FieldLength": 1000
         }
       }
     },
     {
       "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "explicabo",
+      "Value": "sequi",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldType": "System.Int32",
+          "FieldLength": 1000
         }
       }
     }
   ],
-  "UserName": "Waelchi, Robel and Nitzsche",
+  "UserName": "Ward-Weber",
   "TicketCategories": [
     {
-      "Id": 379,
-      "Name": "Kovacek-Trantow",
-      "ToolTip": "Eveniet cum id possimus eum in sit itaque.",
+      "Id": 425,
+      "Name": "Beatty, Paucek and Thompson",
+      "ToolTip": "Officiis consequuntur voluptatibus numquam ut voluptatem.",
       "Deleted": false,
-      "Rank": 444,
-      "Type": "velit",
+      "Rank": 666,
+      "Type": "in",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 107,
-      "ExtraInfo": "commodi",
-      "StyleHint": "quia",
-      "FullName": "Amy Schneider",
+      "IconHint": "a",
+      "ColorBlock": 609,
+      "ExtraInfo": "qui",
+      "StyleHint": "itaque",
+      "FullName": "Freeman McClure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 365
         }
       }
     }
   ],
-  "NickName": "Hilll Inc and Sons",
+  "NickName": "Crist, Weissnat and Cummings",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "ut",
+    "CustomFields2": "provident"
   },
   "PostSaveCommands": [
     {
-      "Name": "Pfannerstill Inc and Sons",
-      "DisplayName": "Roberts, Osinski and Turcotte",
-      "Description": "Grass-roots hybrid archive",
-      "ToolTip": "Aliquam dicta eos culpa.",
+      "Name": "Kunze, Kling and Harvey",
+      "DisplayName": "Krajcik-Schinner",
+      "Description": "Profound 6th generation attitude",
+      "ToolTip": "Esse accusantium aperiam facere repellat libero.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 781
         }
       }
     }
@@ -280,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 164
+      "FieldLength": 25
     }
   }
 }

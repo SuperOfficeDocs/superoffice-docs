@@ -15,6 +15,7 @@ Deletes the SaleStakeholder
 
 
 Calls the Sale agent service DeleteSaleStakeholder.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -53,7 +54,7 @@ SaleStakeholder deleted.
 DELETE /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

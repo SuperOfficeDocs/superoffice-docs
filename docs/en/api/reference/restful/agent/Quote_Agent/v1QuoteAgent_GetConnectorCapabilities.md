@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectorCapabilities
 Gets a list of connector capabilities
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectorCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 532
+  "QuoteConnectionId": 674
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "non",
-  "sint"
+  "vel",
+  "sed"
 ]
 ```

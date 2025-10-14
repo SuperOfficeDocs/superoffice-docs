@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 109,
-  "Name": "Swift, Jacobi and Wilkinson",
-  "Tooltip": "occaecati",
+  "Id": 3,
+  "Name": "Weimann-Hamill",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 896,
+  "Rank": 216,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "praesentium",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 792,
-  "Name": "Abernathy-Keeling",
-  "Tooltip": "nihil",
+  "Id": 326,
+  "Name": "Kuphal LLC",
+  "Tooltip": "atque",
   "Deleted": true,
-  "Rank": 382,
+  "Rank": 454,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequuntur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldLength": 545
     }
   }
 }

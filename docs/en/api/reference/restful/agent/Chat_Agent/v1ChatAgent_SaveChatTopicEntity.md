@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -128,22 +130,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 31,
-  "Name": "Yundt Inc and Sons",
-  "Description": "Ergonomic holistic parallelism",
-  "WelcomeMessage": "quo",
+  "ChatTopicId": 771,
+  "Name": "Hudson-Jacobi",
+  "Description": "Innovative eco-centric secured line",
+  "WelcomeMessage": "voluptatibus",
   "Language": null,
-  "LastAccept": "2010-07-11T11:24:47.7032984+02:00",
-  "SecondsPrAccept": 907,
-  "AlertRecipient": "temporibus",
+  "LastAccept": "2004-05-30T03:40:46.2014635+02:00",
+  "SecondsPrAccept": 719,
+  "AlertRecipient": "excepturi",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "labore",
+  "BadgeHeader": "quis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nihil",
-  "WarnNewChatMinutes": 181,
-  "WarnManagerNewChatMinutes": 607,
-  "TicketEnabled": false,
+  "CustomQueueText": "maiores",
+  "WarnNewChatMinutes": 879,
+  "WarnManagerNewChatMinutes": 440,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -151,14 +153,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 665,
-  "WarnManagerChatMessageMinutes": 321,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 163,
-  "OfflineFormQueueLength": 530,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 602,
+  "WarnManagerChatMessageMinutes": 324,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 525,
+  "OfflineFormQueueLength": 661,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "ut"
+  "WidgetRatingText": "optio"
 }
 ```
 
@@ -169,43 +171,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 71,
-  "Name": "Kilback, Berge and Harber",
-  "Description": "Realigned upward-trending array",
-  "WelcomeMessage": "error",
+  "ChatTopicId": 212,
+  "Name": "Gibson, Turner and Johnson",
+  "Description": "Organized 24 hour ability",
+  "WelcomeMessage": "officiis",
   "Language": null,
-  "LastAccept": "2000-04-19T11:24:47.7032984+02:00",
-  "SecondsPrAccept": 133,
-  "AlertRecipient": "suscipit",
+  "LastAccept": "2014-03-13T03:40:46.2014635+01:00",
+  "SecondsPrAccept": 994,
+  "AlertRecipient": "sint",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "in",
+  "CollectConsent": true,
+  "BadgeHeader": "facere",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "magnam",
-  "WarnNewChatMinutes": 183,
-  "WarnManagerNewChatMinutes": 538,
-  "TicketEnabled": false,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 7,
+  "WarnManagerNewChatMinutes": 802,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 132,
-  "WarnManagerChatMessageMinutes": 329,
+  "WarnChatMessageMinutes": 690,
+  "WarnManagerChatMessageMinutes": 176,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 989,
-  "OfflineFormQueueLength": 350,
+  "OfflineFormTimeLimit": 965,
+  "OfflineFormQueueLength": 359,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "odit",
+  "WidgetRatingText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 121
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Returns all connections available for the specified user.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 592
+  "AssociateId": 264
 }
 ```
 
@@ -104,54 +106,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 3,
-    "ERPName": "Hauck, Mueller and Satterfield",
-    "DisplayName": "Abbott-Quitzon",
-    "DisplayDescription": "Persevering discrete standardization",
-    "Rank": 22,
-    "ConnectorName": "Abbott-Goodwin",
-    "ErpConnectionId": 338,
-    "ExtraData": "vitae",
-    "IsAvailable": false,
+    "QuoteConnectionId": 226,
+    "ERPName": "Funk-Schowalter",
+    "DisplayName": "Kreiger, Steuber and Yost",
+    "DisplayDescription": "Integrated non-volatile software",
+    "Rank": 249,
+    "ConnectorName": "Ebert LLC",
+    "ErpConnectionId": 167,
+    "ExtraData": "a",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 677,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 427,
-        "Name": "Grimes, Kuhlman and West",
-        "Description": "Innovative optimizing firmware",
-        "Currency": "corporis",
-        "CurrencyName": "Swift, Senger and Reinger",
-        "ValidFrom": "2018-09-05T11:24:48.5313897+02:00",
-        "ValidTo": "2001-01-28T11:24:48.5313897+01:00",
+        "PriceListId": 957,
+        "ERPPriceListKey": "maxime",
+        "QuoteConnectionId": 383,
+        "Name": "Schroeder-Hagenes",
+        "Description": "Intuitive bifurcated help-desk",
+        "Currency": "delectus",
+        "CurrencyName": "Thompson Group",
+        "ValidFrom": "2009-06-10T03:40:47.5629587+02:00",
+        "ValidTo": "2019-11-22T03:40:47.5629587+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 280
+            "FieldLength": 840
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      318,
-      506
+      543,
+      816
     ],
     "AssociateAccessIds": [
-      997,
-      944
+      973,
+      887
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldType": "System.String",
+        "FieldLength": 562
       }
     }
   }

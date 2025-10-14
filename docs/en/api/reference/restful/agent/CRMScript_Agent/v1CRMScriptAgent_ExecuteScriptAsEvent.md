@@ -15,6 +15,7 @@ Execute a CRMScript with event data as input.
 
 
 Returns event data with output variable values.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 845,
+  "CRMScriptId": 353,
   "EventData": null
 }
 ```
@@ -111,42 +112,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "itaque",
-    "InputValues2": "sed"
+    "InputValues1": "magnam",
+    "InputValues2": "et"
   },
-  "BlockExecution": false,
-  "NavigateTo": "ab",
-  "Message": "veniam",
-  "ShowDialog": "blanditiis",
+  "BlockExecution": true,
+  "NavigateTo": "cumque",
+  "Message": "alias",
+  "ShowDialog": "sit",
   "OutputValues": {
-    "OutputValues1": "molestias",
-    "OutputValues2": "quis"
+    "OutputValues1": "incidunt",
+    "OutputValues2": "error"
   },
   "StateValues": {
-    "StateValues1": "aspernatur",
-    "StateValues2": "et"
+    "StateValues1": "maiores",
+    "StateValues2": "expedita"
   },
-  "Exception": "eum",
+  "Exception": "vitae",
   "ParserValues": {
-    "ParserValues1": "quas",
-    "ParserValues2": "vitae"
+    "ParserValues1": "aut",
+    "ParserValues2": "facilis"
   },
   "CgiVariables": {
-    "CgiVariables1": "quo",
-    "CgiVariables2": "modi"
+    "CgiVariables1": "sed",
+    "CgiVariables2": "earum"
   },
-  "CgiContent": "aut",
+  "CgiContent": "aliquam",
   "Headers": {
-    "Headers1": "molestiae",
-    "Headers2": "velit"
+    "Headers1": "sint",
+    "Headers2": "assumenda"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 488
     }
   }
 }

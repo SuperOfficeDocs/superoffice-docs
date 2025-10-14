@@ -91,7 +91,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 815,
-    "ColumnId": 850,
-    "FieldDefault": "quos",
-    "FieldHeight": 60,
-    "FieldLabel": "asperiores",
-    "FieldLeft": 336,
-    "FieldTop": 325,
+    "UDefFieldId": 942,
+    "ColumnId": 563,
+    "FieldDefault": "est",
+    "FieldHeight": 694,
+    "FieldLabel": "hic",
+    "FieldLeft": 485,
+    "FieldTop": 831,
     "FieldType": "Checkbox",
-    "FieldWidth": 169,
-    "FormatMask": "quis",
+    "FieldWidth": 723,
+    "FormatMask": "ab",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 391,
-    "LabelLeft": 99,
-    "LabelTop": 735,
-    "LabelWidth": 198,
-    "LastVersionId": 503,
-    "ListTableId": 472,
+    "LabelHeight": 947,
+    "LabelLeft": 994,
+    "LabelTop": 150,
+    "LabelWidth": 788,
+    "LastVersionId": 512,
+    "ListTableId": 280,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 9,
-    "ProgId": "quae",
+    "Page1LineNo": 985,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "fuga",
-    "TabOrder": 628,
-    "TextLength": 740,
-    "Tooltip": "fuga",
-    "UdefIdentity": 927,
-    "UDListDefinitionId": 221,
+    "ShortLabel": "et",
+    "TabOrder": 644,
+    "TextLength": 888,
+    "Tooltip": "modi",
+    "UdefIdentity": 836,
+    "UDListDefinitionId": 964,
     "Justification": "Center",
-    "Version": 965,
-    "TemplateVariableName": "Mosciski-Parker",
+    "Version": 547,
+    "TemplateVariableName": "Sipes, Lind and Borer",
     "HasBeenPublished": false,
-    "MdoListName": "Jast Group",
+    "MdoListName": "Jerde, West and Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldType": "System.String",
+        "FieldLength": 236
       }
     }
   }

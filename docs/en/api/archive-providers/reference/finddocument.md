@@ -104,7 +104,9 @@ Archive provider for finding documents
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -119,12 +121,12 @@ Archive provider for finding documents
 |person/personMobilePhone/description|string|Mobile - Description: Phone number description| x |
 |person/personPrivate/formattedNumber|string|Private - Phone: Displays phone number|  |
 |person/personPrivate/description|string|Private - Description: Phone number description| x |
-|person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
-|person/personPager/description|string|Other - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personPager/formattedNumber|string|Other - Phone: Displays phone number|  |
+|person/personPager/description|string|Other - Description: Phone number description| x |
 |person/personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
@@ -223,12 +225,12 @@ Archive provider for finding documents
 |person/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|person/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |person/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
@@ -289,6 +291,7 @@ Archive provider for finding documents
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -326,13 +329,13 @@ Archive provider for finding documents
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
-|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
-|contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
+|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
+|contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
@@ -430,13 +433,13 @@ Archive provider for finding documents
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
-|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
-|contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
-|contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
+|contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
+|contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
 |contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
@@ -534,13 +537,13 @@ Archive provider for finding documents
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
 |project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
-|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
-|project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
+|project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
+|project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
 |project/projectUdef/SuperOffice:10|int|page1saleandadmin| x |
 |project/NumberOfActivities|int|Number of activities|  |
@@ -638,13 +641,13 @@ Archive provider for finding documents
 |sale/amount|decimal|Amount: The gross sales total| x |
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
-|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
-|sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
+|sale/probPercent|int|Probability as %: Probability as %| x |
+|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -666,6 +669,7 @@ Archive provider for finding documents
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -720,7 +724,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=documentPublish/publishedTo,person/personAssociate/isActiveText,contact/restrictionAddress/wgs84latitude,project/projectAssociate/contactDepartment,associate/usergroup
+GET /api/v1/archive/FindDocument?$select=person/personDirectPhone/formattedNumber,person/restrictionAddress/formattedMultiLineAddress,person/correspondingAssociate/contactCategory,person/correspondingAssociate/credentialDisplayValue,contact/restrictionAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

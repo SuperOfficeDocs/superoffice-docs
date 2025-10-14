@@ -94,20 +94,20 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 496,
-  "BlobSize": 968,
-  "Description": "Centralized exuding knowledge user",
-  "ExtraInfo": "necessitatibus",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "architecto",
-  "OriginalSize": 802,
-  "CreatedDate": "2021-08-03T11:24:53.437431+02:00",
-  "UpdatedDate": "2002-01-31T11:24:53.437431+01:00",
+  "BlobId": 927,
+  "BlobSize": 997,
+  "Description": "Up-sized contextually-based standardization",
+  "ExtraInfo": "molestiae",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "voluptatem",
+  "OriginalSize": 726,
+  "CreatedDate": "2006-06-14T03:40:55.9292805+02:00",
+  "UpdatedDate": "2004-01-11T03:40:55.9292805+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "doloremque"
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 739,
-  "BlobSize": 518,
-  "Description": "Self-enabling 6th generation success",
-  "ExtraInfo": "totam",
+  "BlobId": 214,
+  "BlobSize": 552,
+  "Description": "Focused radical Graphic Interface",
+  "ExtraInfo": "vel",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cum",
-  "OriginalSize": 691,
-  "CreatedDate": "2013-09-17T11:24:53.437431+02:00",
-  "UpdatedDate": "2024-03-26T11:24:53.437431+01:00",
+  "MimeType": "nostrum",
+  "OriginalSize": 945,
+  "CreatedDate": "2020-12-08T03:40:55.9292805+01:00",
+  "UpdatedDate": "2008-08-05T03:40:55.9292805+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor",
+  "ConceptualType": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 867
     }
   }
 }

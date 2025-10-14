@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 Start batch task to force resync from CRM or given Erp connection to all other connections
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -68,14 +71,14 @@ No Content
 POST /api/v1/Agents/ErpSync/ForceResyncBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 100,
+  "ErpConnectionId": 467,
   "InternalKeyIds": [
-    479,
-    721
+    607,
+    694
   ]
 }
 ```

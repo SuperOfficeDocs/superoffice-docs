@@ -14,6 +14,8 @@ POST /api/v1/Agents/PhoneList/SetPreferences
 Setting Phone List Preferences to the CRM 5 user preferences
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ No Content
 POST /api/v1/Agents/PhoneList/SetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

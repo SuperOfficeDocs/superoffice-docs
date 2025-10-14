@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups
 List of User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 631,
-  "ListItemId": 286
+  "UdListDefinitionId": 224,
+  "ListItemId": 196
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Rodriguez, Kling and Little",
-    "ToolTip": "In ea illo rerum ut.",
+    "Id": 17,
+    "Name": "Jerde-Fay",
+    "ToolTip": "Non aut modi quos.",
     "Deleted": false,
-    "Rank": 596,
-    "Type": "quo",
-    "ColorBlock": 650,
-    "IconHint": "incidunt",
+    "Rank": 803,
+    "Type": "sit",
+    "ColorBlock": 725,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2009-09-27T11:24:48.234527+02:00",
+    "LastChanged": "2024-03-18T03:40:47.2186675+01:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Erdman Group",
-        "ToolTip": "Aliquam modi.",
-        "Deleted": false,
-        "Rank": 389,
-        "Type": "minus",
-        "ColorBlock": 739,
-        "IconHint": "dolore",
+        "Id": 608,
+        "Name": "Bogisich-Bruen",
+        "ToolTip": "Temporibus quia quia id dolorem ullam.",
+        "Deleted": true,
+        "Rank": 237,
+        "Type": "qui",
+        "ColorBlock": 639,
+        "IconHint": "facilis",
         "Selected": true,
-        "LastChanged": "2014-01-23T11:24:48.234527+01:00",
+        "LastChanged": "2022-01-19T03:40:47.2186675+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Eric Schroeder",
+        "FullName": "Elouise Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Colton Wisozk",
+    "ExtraInfo": "velit",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Kasandra Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 963
       }
     }
   }

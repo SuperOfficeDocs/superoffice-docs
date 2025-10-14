@@ -74,7 +74,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Sep 2015 11:24:53 G9T
+Last-Modified: Mon, 18 Jul 2011 03:40:55 G7T
 
 {
-  "BlobId": 51,
-  "BlobSize": 271,
-  "Description": "Customizable holistic customer loyalty",
-  "ExtraInfo": "quos",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "error",
-  "OriginalSize": 333,
-  "CreatedDate": "2006-06-02T11:24:53.0780792+02:00",
-  "UpdatedDate": "2015-09-21T11:24:53.0780792+02:00",
+  "BlobId": 627,
+  "BlobSize": 154,
+  "Description": "Customizable systematic instruction set",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "quia",
+  "OriginalSize": 934,
+  "CreatedDate": "2012-12-06T03:40:55.428689+01:00",
+  "UpdatedDate": "2011-07-18T03:40:55.428689+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 28
     }
   }
 }

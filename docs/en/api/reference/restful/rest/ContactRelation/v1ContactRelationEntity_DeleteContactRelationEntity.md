@@ -15,6 +15,7 @@ Deletes the ContactRelationEntity
 
 
 Calls the Relation agent service DeleteContactRelation.
+NsApiSlow threshold: 5000 ms.
 
 
 

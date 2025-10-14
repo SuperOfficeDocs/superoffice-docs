@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 367,
-    "ColumnId": 680,
-    "FieldDefault": "illum",
-    "FieldHeight": 266,
-    "FieldLabel": "id",
-    "FieldLeft": 526,
-    "FieldTop": 262,
+    "UDefFieldId": 371,
+    "ColumnId": 996,
+    "FieldDefault": "quia",
+    "FieldHeight": 552,
+    "FieldLabel": "culpa",
+    "FieldLeft": 103,
+    "FieldTop": 242,
     "FieldType": "Checkbox",
-    "FieldWidth": 458,
-    "FormatMask": "dolores",
+    "FieldWidth": 454,
+    "FormatMask": "vel",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 982,
-    "LabelLeft": 841,
-    "LabelTop": 913,
-    "LabelWidth": 415,
-    "LastVersionId": 710,
-    "ListTableId": 941,
-    "IsMandatory": true,
+    "LabelHeight": 766,
+    "LabelLeft": 145,
+    "LabelTop": 955,
+    "LabelWidth": 98,
+    "LastVersionId": 478,
+    "ListTableId": 894,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 145,
-    "ProgId": "inventore",
-    "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 660,
-    "TextLength": 1000,
-    "Tooltip": "maiores",
-    "UdefIdentity": 634,
-    "UDListDefinitionId": 908,
+    "Page1LineNo": 220,
+    "ProgId": "laborum",
+    "IsReadOnly": true,
+    "ShortLabel": "eveniet",
+    "TabOrder": 35,
+    "TextLength": 672,
+    "Tooltip": "quis",
+    "UdefIdentity": 876,
+    "UDListDefinitionId": 291,
     "Justification": "Center",
-    "Version": 121,
-    "TemplateVariableName": "Moore, Jones and Renner",
-    "HasBeenPublished": true,
-    "MdoListName": "Schiller-Hilll",
+    "Version": 913,
+    "TemplateVariableName": "Bergstrom Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Wunsch-Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 441
       }
     }
   }

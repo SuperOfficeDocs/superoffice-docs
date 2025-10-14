@@ -27,8 +27,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=excepturi
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=tenetur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Morissette-Pagac",
-    "ToolTip": "At vel quis.",
+    "Id": 59,
+    "Name": "Crona, Wuckert and Rempel",
+    "ToolTip": "Sed minima.",
     "Deleted": false,
-    "Rank": 666,
-    "Type": "temporibus",
+    "Rank": 233,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Morar LLC",
-        "ToolTip": "Eum doloremque quam aut consequuntur magnam asperiores beatae.",
+        "Id": 894,
+        "Name": "Jakubowski Group",
+        "ToolTip": "Nostrum ut voluptatem quia tenetur quibusdam.",
         "Deleted": false,
-        "Rank": 257,
-        "Type": "eaque",
+        "Rank": 683,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 397,
-        "ExtraInfo": "autem",
-        "StyleHint": "ab",
-        "FullName": "Lottie Oberbrunner",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 572,
+        "ExtraInfo": "et",
+        "StyleHint": "id",
+        "FullName": "Dr. Jamison Nicholaus Cummerata MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 455
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 999,
-    "ExtraInfo": "quod",
-    "StyleHint": "voluptatem",
-    "FullName": "Alessandro Devan Dietrich DDS",
+    "IconHint": "commodi",
+    "ColorBlock": 262,
+    "ExtraInfo": "culpa",
+    "StyleHint": "numquam",
+    "FullName": "Maximillian Noe West Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 978
       }
     }
   }

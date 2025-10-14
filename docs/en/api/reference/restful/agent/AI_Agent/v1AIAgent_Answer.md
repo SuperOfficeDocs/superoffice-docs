@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/Answer
 Returns an answer.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -81,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Lakin Group",
-  "Query": "et",
+  "NamespaceName": "Greenholt-Dibbert",
+  "Query": "mollitia",
   "Type": "Document",
-  "Top": 183
+  "Top": 755
 }
 ```
 
@@ -95,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Answer": "vitae",
+  "Answer": "provident",
   "Source": [
     {
-      "Chunk": "soluta",
-      "Title": "aut",
-      "Id": "qui",
+      "Chunk": "facilis",
+      "Title": "neque",
+      "Id": "ducimus",
       "Type": "Document",
-      "Score": 5512.706,
+      "Score": 25689.397999999997,
       "Metadata": {
         "fieldName": {}
       }
     },
     {
-      "Chunk": "soluta",
-      "Title": "aut",
-      "Id": "qui",
+      "Chunk": "facilis",
+      "Title": "neque",
+      "Id": "ducimus",
       "Type": "Document",
-      "Score": 5512.706,
+      "Score": 25689.397999999997,
       "Metadata": {
         "fieldName": {}
       }
     }
   ],
-  "TrackingId": "a"
+  "TrackingId": "ullam"
 }
 ```

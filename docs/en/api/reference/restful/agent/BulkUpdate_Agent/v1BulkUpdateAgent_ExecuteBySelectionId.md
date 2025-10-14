@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Do the batchupdate on this selection
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,26 +85,26 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "sint",
-      "ValueType": "repudiandae",
+      "Key": "eos",
+      "ValueType": "nobis",
       "Mandatory": false,
-      "EncodedDisplayName": "Thiel-Rutherford",
-      "EncodedDisplayDescription": "Persevering national hub",
-      "IconHint": "quasi",
+      "EncodedDisplayName": "Ryan, Pagac and Baumbach",
+      "EncodedDisplayDescription": "Diverse background portal",
+      "IconHint": "at",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "minima",
-      "EncodedDataCaptionDescription": "Fundamental heuristic solution",
-      "CurrentOperationType": "omnis",
+      "EncodedDataCaption": "hic",
+      "EncodedDataCaptionDescription": "Multi-lateral high-level leverage",
+      "CurrentOperationType": "atque",
       "Values": [
-        "id",
-        "occaecati"
+        "hic",
+        "praesentium"
       ],
       "DisplayValues": [
-        "tempora",
-        "est"
+        "architecto",
+        "quisquam"
       ],
       "OperationInfos": [
         {},
@@ -110,10 +112,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Marks, Hettinger and Dicki",
-  "Context": "doloremque",
-  "SelectionId": 419,
-  "IsShadow": true
+  "TableName": "Wuckert-Barton",
+  "Context": "alias",
+  "SelectionId": 333,
+  "IsShadow": false
 }
 ```
 
@@ -123,5 +125,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-212
+985
 ```

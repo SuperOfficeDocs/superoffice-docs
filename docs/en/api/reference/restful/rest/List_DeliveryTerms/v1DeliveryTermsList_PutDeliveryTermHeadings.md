@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 957,
-    "Name": "Schulist-Labadie",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 502,
-    "UdListDefinitionId": 358
+    "HeadingId": 849,
+    "Name": "Stark-Berge",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 135,
+    "UdListDefinitionId": 26
   },
   {
-    "HeadingId": 957,
-    "Name": "Schulist-Labadie",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 502,
-    "UdListDefinitionId": 358
+    "HeadingId": 849,
+    "Name": "Stark-Berge",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 135,
+    "UdListDefinitionId": 26
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 667,
-    "Name": "Reynolds Group",
-    "Tooltip": "sunt",
-    "Deleted": true,
-    "Rank": 520,
-    "UdListDefinitionId": 738,
+    "HeadingId": 711,
+    "Name": "Beahan, Cartwright and Aufderhar",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 490,
+    "UdListDefinitionId": 778,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 553
       }
     }
   }

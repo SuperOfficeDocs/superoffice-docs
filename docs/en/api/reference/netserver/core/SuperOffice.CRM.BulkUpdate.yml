@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
   - SuperOffice.CRM.BulkUpdate.ControlInfo
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo
@@ -368,6 +369,33 @@ references:
     name: PersonFieldValueKeys
     isExternal: true
     href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.html
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  isExternal: true
+  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+  name: BulkUpdateSystem.UTMParametersFieldValueKeys
+  nameWithType: BulkUpdateSystem.UTMParametersFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+  spec.csharp:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
+    name: BulkUpdateSystem
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+    name: UTMParametersFieldValueKeys
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.html
+  spec.vb:
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
+    name: BulkUpdateSystem
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+  - name: .
+  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys
+    name: UTMParametersFieldValueKeys
+    isExternal: true
+    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.UTMParametersFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
   isExternal: true

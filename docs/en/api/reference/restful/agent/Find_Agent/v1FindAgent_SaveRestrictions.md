@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictions
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,24 +70,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Yost LLC",
-  "StorageKey": "repellendus",
+  "StorageType": "culpa",
+  "ProviderName": "Heller Inc and Sons",
+  "StorageKey": "ratione",
   "Restrictions": [
     {
-      "Name": "Little-Olson",
-      "Operator": "veritatis",
+      "Name": "Vandervort, Nolan and Padberg",
+      "Operator": "eum",
       "Values": [
-        "distinctio",
-        "cumque"
+        "labore",
+        "amet"
       ],
       "DisplayValues": [
-        "repellendus",
-        "nulla"
+        "quasi",
+        "facilis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,9 +95,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 359,
+      "InterParenthesis": 297,
       "InterOperator": "And",
-      "UniqueHash": 874
+      "UniqueHash": 525
     }
   ]
 }

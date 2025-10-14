@@ -15,6 +15,7 @@ Get a list of the column names corresponding to available restrictions for a cer
 
 
 Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cupiditate",
-  "ProviderName": "Conn-Halvorson"
+  "StorageType": "omnis",
+  "ProviderName": "Rodriguez, Conn and Boyle"
 }
 ```
 
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sint",
-  "fuga"
+  "placeat",
+  "perspiciatis"
 ]
 ```

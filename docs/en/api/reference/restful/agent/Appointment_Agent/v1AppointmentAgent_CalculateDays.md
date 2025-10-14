@@ -15,6 +15,7 @@ Calculates the set of dates that represents a recurrence pattern.
 
 
 Adds conflict information to each date.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 910,
-  "StartDate": "1998-07-11T11:24:47.4064385+02:00",
-  "EndDate": "1998-05-16T11:24:47.4064385+02:00",
-  "RecurrenceCounter": 894,
+  "RecurrenceId": 138,
+  "StartDate": "2005-07-27T03:40:45.7793757+02:00",
+  "EndDate": "2024-09-15T03:40:45.7793757+02:00",
+  "RecurrenceCounter": 504,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,20 +113,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-02-02T11:24:47.4064385+01:00",
-      "IsConflict": true,
-      "Description": "Assimilated fresh-thinking attitude",
-      "DescriptionStyleHint": "Profound radical concept",
-      "Tooltip": "temporibus"
+      "Date": "2012-09-22T03:40:45.7793757+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized 5th generation moderator",
+      "DescriptionStyleHint": "Networked 24 hour parallelism",
+      "Tooltip": "rerum"
     },
     {
-      "Date": "2010-02-02T11:24:47.4064385+01:00",
-      "IsConflict": true,
-      "Description": "Assimilated fresh-thinking attitude",
-      "DescriptionStyleHint": "Profound radical concept",
-      "Tooltip": "temporibus"
+      "Date": "2012-09-22T03:40:45.7793757+02:00",
+      "IsConflict": false,
+      "Description": "Decentralized 5th generation moderator",
+      "DescriptionStyleHint": "Networked 24 hour parallelism",
+      "Tooltip": "rerum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -14,6 +14,9 @@ POST /api/v1/User/{id}/CustomCommand/{commandName}
 Executes a custom command for User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -69,7 +72,7 @@ User with given id does not exist in the db.
 POST /api/v1/User/{id}/CustomCommand/{commandName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/RemoveConsent
 Turn off consent for a specified person and purpose.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 455,
-  "Purpose": "temporibus"
+  "PersonId": 94,
+  "Purpose": "in"
 }
 ```
 

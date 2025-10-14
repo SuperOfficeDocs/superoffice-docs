@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCustomerUrl
 This method will get the URL for the external access to the customer center
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

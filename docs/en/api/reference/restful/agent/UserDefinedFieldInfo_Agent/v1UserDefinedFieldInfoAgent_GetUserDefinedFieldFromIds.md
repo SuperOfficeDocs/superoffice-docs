@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Return an given array of user defined field identified by the ids.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -107,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    872,
-    516
+    48,
+    269
   ]
 }
 ```
@@ -126,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 464,
-    "ColumnId": 992,
-    "FieldDefault": "unde",
-    "FieldHeight": 711,
-    "FieldLabel": "accusamus",
-    "FieldLeft": 683,
-    "FieldTop": 726,
+    "UDefFieldId": 436,
+    "ColumnId": 35,
+    "FieldDefault": "doloribus",
+    "FieldHeight": 910,
+    "FieldLabel": "inventore",
+    "FieldLeft": 242,
+    "FieldTop": 326,
     "FieldType": "Checkbox",
-    "FieldWidth": 148,
-    "FormatMask": "quo",
+    "FieldWidth": 626,
+    "FormatMask": "aspernatur",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 242,
-    "LabelLeft": 832,
-    "LabelTop": 785,
-    "LabelWidth": 249,
-    "LastVersionId": 923,
-    "ListTableId": 640,
-    "IsMandatory": false,
+    "LabelHeight": 470,
+    "LabelLeft": 746,
+    "LabelTop": 348,
+    "LabelWidth": 696,
+    "LastVersionId": 983,
+    "ListTableId": 210,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 759,
-    "ProgId": "aspernatur",
+    "Page1LineNo": 95,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "optio",
-    "TabOrder": 924,
-    "TextLength": 81,
-    "Tooltip": "commodi",
-    "UdefIdentity": 508,
-    "UDListDefinitionId": 472,
+    "ShortLabel": "eligendi",
+    "TabOrder": 406,
+    "TextLength": 927,
+    "Tooltip": "consequuntur",
+    "UdefIdentity": 519,
+    "UDListDefinitionId": 490,
     "Justification": "Center",
-    "Version": 442,
-    "TemplateVariableName": "Kautzer-Schamberger",
-    "HasBeenPublished": true,
-    "MdoListName": "Brown-Cole",
+    "Version": 730,
+    "TemplateVariableName": "Miller-Murphy",
+    "HasBeenPublished": false,
+    "MdoListName": "Haag-Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

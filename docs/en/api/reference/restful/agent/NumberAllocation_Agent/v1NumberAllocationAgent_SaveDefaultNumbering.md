@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/SaveDefaultNumbering
 Saves default numbering values in preferences
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 

@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Hagenes-Stiedemann",
-    "Tooltip": "tenetur",
+    "HeadingId": 609,
+    "Name": "Thiel LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 584,
-    "UdListDefinitionId": 192,
+    "Rank": 162,
+    "UdListDefinitionId": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldType": "System.String",
+        "FieldLength": 375
       }
     }
   }

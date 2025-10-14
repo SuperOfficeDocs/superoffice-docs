@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserFromEjUserId
 Get user from ejUserId - used for eJournal Legacy Support.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -100,11 +103,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 233
+  "EjUserId": 965
 }
 ```
 
@@ -116,14 +119,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 903,
-    "Name": "Crooks, Lang and Hodkiewicz",
-    "Rank": 31,
-    "Tooltip": "vel",
+    "AssociateId": 419,
+    "Name": "Altenwerth-Kshlerin",
+    "Rank": 426,
+    "Tooltip": "at",
     "LicenseOwners": [
       {
-        "Name": "Langworth, Terry and Turcotte",
-        "Description": "Robust foreground parallelism",
+        "Name": "Sanford, Stamm and Cruickshank",
+        "Description": "Focused human-resource function",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -137,13 +140,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldLength": 358
           }
         }
       },
       {
-        "Name": "Langworth, Terry and Turcotte",
-        "Description": "Robust foreground parallelism",
+        "Name": "Sanford, Stamm and Cruickshank",
+        "Description": "Focused human-resource function",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -157,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 543
+            "FieldLength": 358
           }
         }
       }
@@ -166,110 +169,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "nobis",
-        "Tooltip": "sed",
-        "Id": 840,
-        "Rank": 132,
-        "Deleted": false,
+        "Value": "qui",
+        "Tooltip": "eaque",
+        "Id": 783,
+        "Rank": 245,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 897
+            "FieldLength": 172
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2012-05-29T11:24:48.9532475+02:00",
-    "Lastlogout": "2025-05-06T11:24:48.9532475+02:00",
-    "EjUserId": 265,
-    "RequestSignature": "incidunt",
+    "Lastlogin": "2001-09-07T03:40:48.2504996+02:00",
+    "Lastlogout": "2021-02-17T03:40:48.2504996+01:00",
+    "EjUserId": 416,
+    "RequestSignature": "esse",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "est",
-        "DisplayValue": "et",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "est",
-        "DisplayValue": "et",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
-          }
-        }
-      }
-    ],
-    "UserName": "Fritsch-Keeling",
-    "TicketCategories": [
-      {
-        "Id": 720,
-        "Name": "Hilll-O'Conner",
-        "ToolTip": "Repudiandae qui maxime quod quia earum reprehenderit.",
-        "Deleted": false,
-        "Rank": 102,
-        "Type": "voluptatem",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "pariatur",
-        "ColorBlock": 388,
-        "ExtraInfo": "iusto",
-        "StyleHint": "vitae",
-        "FullName": "Ms. Ike Name Doyle",
+        "Value": "repellat",
+        "DisplayValue": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 442
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "repellat",
+        "DisplayValue": "est",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "NickName": "Abbott, Lowe and Pollich",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "nobis",
-      "ExtraFields2": "vitae"
-    },
-    "CustomFields": {
-      "CustomFields1": "expedita",
-      "CustomFields2": "itaque"
-    },
-    "PostSaveCommands": [
+    "UserName": "Fadel, Breitenberg and Gusikowski",
+    "TicketCategories": [
       {
-        "Name": "Raynor Inc and Sons",
-        "DisplayName": "Wiegand Group",
-        "Description": "Future-proofed demand-driven archive",
-        "ToolTip": "Ducimus vero.",
-        "Actions": "Implicit",
-        "ActionData": "dignissimos",
+        "Id": 59,
+        "Name": "Franecki-Abernathy",
+        "ToolTip": "Qui qui.",
+        "Deleted": false,
+        "Rank": 796,
+        "Type": "vero",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "ipsam",
+        "ColorBlock": 54,
+        "ExtraInfo": "earum",
+        "StyleHint": "non",
+        "FullName": "Wilber Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 24
+            "FieldLength": 436
+          }
+        }
+      }
+    ],
+    "NickName": "Moen, Pacocha and Watsica",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "modi",
+      "ExtraFields2": "corrupti"
+    },
+    "CustomFields": {
+      "CustomFields1": "cupiditate",
+      "CustomFields2": "rem"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Mayer-Shields",
+        "DisplayName": "Schultz-Bednar",
+        "Description": "Reverse-engineered didactic productivity",
+        "ToolTip": "Ea minima.",
+        "Actions": "Implicit",
+        "ActionData": "autem",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 397
           }
         }
       }
@@ -278,8 +281,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 357
       }
     }
   }

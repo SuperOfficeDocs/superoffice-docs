@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Loading default values into a new StatusMonitor.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 595,
-  "Rank": 307,
-  "DefaultTask": 855,
-  "DefaultTaskText": "non",
-  "IsVisual": true,
-  "LastGenerated": "2015-10-27T11:24:48.5470141+01:00",
-  "Description": "Cloned modular local area network",
-  "Name": "Moen, Konopelski and Rice",
-  "StatusMonitorId": 418,
-  "PictureId": 371,
-  "NeedsUpdate": false,
+  "OwnerTable": 526,
+  "Rank": 804,
+  "DefaultTask": 598,
+  "DefaultTaskText": "esse",
+  "IsVisual": false,
+  "LastGenerated": "1998-06-29T03:40:47.5942106+02:00",
+  "Description": "Vision-oriented real-time encoding",
+  "Name": "Strosin, Adams and Friesen",
+  "StatusMonitorId": 150,
+  "PictureId": 680,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 817,
-  "NumNeedUpdate": 626,
-  "GenerationStart": "2005-08-28T11:24:48.5470141+02:00",
+  "NumMatches": 663,
+  "NumNeedUpdate": 614,
+  "GenerationStart": "2004-08-12T03:40:47.5942106+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 623
     }
   }
 }

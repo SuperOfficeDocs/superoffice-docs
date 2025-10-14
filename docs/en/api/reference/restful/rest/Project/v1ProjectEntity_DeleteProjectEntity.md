@@ -15,6 +15,7 @@ Deletes the ProjectEntity
 
 
 Calls the Project agent service DeleteProjectEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 

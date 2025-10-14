@@ -15,6 +15,10 @@ Clears the stored history of chat messages for a given chat_id.
 
 
 Chat_id is usually derived from soproto + current id, but could also be arbitrary name
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -67,11 +71,11 @@ No Content
 POST /api/v1/Agents/AI/ClearChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "consequatur"
+  "ChatId": "quos"
 }
 ```
 

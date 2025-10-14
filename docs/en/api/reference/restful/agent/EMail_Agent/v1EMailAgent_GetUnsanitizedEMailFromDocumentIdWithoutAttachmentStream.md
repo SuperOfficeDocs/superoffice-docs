@@ -15,6 +15,7 @@ Get an e-mail based on an archived document.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -104,11 +105,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 710
+  "DocumentId": 561
 }
 ```
 
@@ -121,97 +122,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 674,
-      "ContactName": "Padberg-Hettinger",
-      "PersonId": 568,
-      "PersonName": "Wunsch, Botsford and Wyman",
-      "AssociateId": 640,
-      "Address": "voluptas",
-      "EmailId": 7,
+      "ContactId": 34,
+      "ContactName": "Rau LLC",
+      "PersonId": 503,
+      "PersonName": "Swift-Howe",
+      "AssociateId": 7,
+      "Address": "eaque",
+      "EmailId": 326,
       "DuplicatePersonIds": [
-        599,
-        695
+        869,
+        69
       ],
-      "Name": "Collier, Bahringer and Will",
+      "Name": "Gutmann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 883
+          "FieldType": "System.Int32",
+          "FieldLength": 655
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 794,
-      "ContactName": "Satterfield, Osinski and Rowe",
-      "PersonId": 691,
-      "PersonName": "Witting, Schamberger and Mayert",
-      "AssociateId": 356,
-      "Address": "necessitatibus",
-      "EmailId": 494,
+      "ContactId": 331,
+      "ContactName": "Prosacco-Keebler",
+      "PersonId": 484,
+      "PersonName": "Runolfsson-Lesch",
+      "AssociateId": 792,
+      "Address": "cumque",
+      "EmailId": 365,
       "DuplicatePersonIds": [
-        758,
-        210
+        404,
+        130
       ],
-      "Name": "Senger-Krajcik",
+      "Name": "Tillman, Luettgen and Schowalter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 439
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 906,
-      "ContactName": "Spinka Inc and Sons",
-      "PersonId": 131,
-      "PersonName": "Brown-Skiles",
-      "AssociateId": 244,
-      "Address": "et",
-      "EmailId": 149,
+      "ContactId": 243,
+      "ContactName": "Emard-Goodwin",
+      "PersonId": 577,
+      "PersonName": "Emmerich LLC",
+      "AssociateId": 367,
+      "Address": "non",
+      "EmailId": 926,
       "DuplicatePersonIds": [
-        123,
-        609
+        327,
+        362
       ],
-      "Name": "Reilly, Simonis and Cruickshank",
+      "Name": "Hyatt, West and Swift",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldType": "System.String",
+          "FieldLength": 887
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "officiis",
+  "Subject": "ipsum",
+  "HTMLBody": "sunt",
   "From": null,
-  "Sent": "1999-08-24T11:24:48.0470345+02:00",
-  "Size": 513,
+  "Sent": "1998-06-17T03:40:46.7967663+02:00",
+  "Size": 773,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "repellat",
+  "MessageID": "id",
+  "PlainBody": "libero",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 520,
+  "ServerId": 503,
   "Attachments": [
     {
-      "Description": "Profit-focused didactic utilisation",
-      "Filename": "alias",
-      "Size": 614,
-      "Type": "repellat",
-      "Encoding": "sunt",
-      "Id": "et",
-      "Disposition": "veniam",
+      "Description": "Organic national standardization",
+      "Filename": "voluptates",
+      "Size": 375,
+      "Type": "qui",
+      "Encoding": "facilis",
+      "Id": "enim",
+      "Disposition": "qui",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -219,49 +220,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 105
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gottlieb, Marvin and Mitchell",
+      "Name": "Altenwerth, Block and Feeney",
       "Values": [
-        "ab",
-        "tempore"
+        "et",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldLength": 730
         }
       }
     },
     {
-      "Name": "Gottlieb, Marvin and Mitchell",
+      "Name": "Altenwerth, Block and Feeney",
       "Values": [
-        "ab",
-        "tempore"
+        "et",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 381
+          "FieldLength": 730
         }
       }
     }
   ],
-  "FolderName": "Runolfsdottir, Rogahn and Walter",
-  "EmailItemId": 675,
-  "AccountId": 492,
-  "ReceivedAt": "2007-08-25T11:24:48.0470345+02:00",
+  "FolderName": "Johns LLC",
+  "EmailItemId": 648,
+  "AccountId": 681,
+  "ReceivedAt": "2008-06-21T03:40:46.8123923+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-10-15T11:24:48.0470345+02:00",
+  "RepliedAt": "2011-10-30T03:40:46.8123923+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

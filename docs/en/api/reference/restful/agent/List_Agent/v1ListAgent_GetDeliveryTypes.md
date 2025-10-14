@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDeliveryTypes
 Returns all DeliveryTypes in SuperOffice db.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Value": "quasi",
-    "Tooltip": "deleniti",
+    "Id": 905,
+    "Value": "ut",
+    "Tooltip": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 224
       }
     }
   },
   {
-    "Id": 451,
-    "Value": "quasi",
-    "Tooltip": "deleniti",
+    "Id": 905,
+    "Value": "ut",
+    "Tooltip": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldType": "System.String",
+        "FieldLength": 224
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Get a contact from its ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EnrichId": "est"
+  "EnrichId": "ea"
 }
 ```
 
@@ -98,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 247,
-  "Name": "Grimes, King and Lockman",
+  "ContactId": 319,
+  "Name": "Kautzer, Pouros and Wisozk",
   "Department": "",
-  "CountryId": 891,
-  "Number2": "469445",
-  "DirectPhone": "1-030-645-7910 x218",
+  "CountryId": 746,
+  "Number2": "1617040",
+  "DirectPhone": "1-000-452-6241",
   "URL": "http://www.example.com/",
-  "EmailAddress": "hellen@leffler.ca",
+  "EmailAddress": "chris_roberts@hansenhalvorson.biz",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Ms. Bernhard Colt Cremin",
+  "AssociateFullName": "Santos Kuhlman",
   "Address": null
 }
 ```

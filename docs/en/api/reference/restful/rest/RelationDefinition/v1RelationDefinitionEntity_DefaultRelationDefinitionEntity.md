@@ -15,6 +15,7 @@ Set default values into a new RelationDefinitionEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultRelationDefinitionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -75,12 +76,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 473,
-  "Name": "Goldner, Beier and Kemmer",
-  "Tooltip": "facere",
-  "PassiveText": "et",
-  "Deleted": true,
-  "Rank": 596,
+  "ReldefId": 380,
+  "Name": "Feil Group",
+  "Tooltip": "nihil",
+  "PassiveText": "est",
+  "Deleted": false,
+  "Rank": 285,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -88,7 +89,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 279
     }
   }
 }

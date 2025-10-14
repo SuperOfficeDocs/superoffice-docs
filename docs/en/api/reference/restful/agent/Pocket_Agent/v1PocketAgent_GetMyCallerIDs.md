@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,9 +81,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "tempora",
-  "MinDate": "2000-07-01T11:24:48.4532678+02:00",
-  "MaxDate": "2008-09-30T11:24:48.4532678+02:00"
+  "LastHash": "tenetur",
+  "MinDate": "2016-10-24T03:40:47.4374779+02:00",
+  "MaxDate": "2008-11-15T03:40:47.4374779+01:00"
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "sunt",
+  "CallerIDHash": "necessitatibus",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 106,
-      "PersonId": 541,
-      "PersonName": "Mitchell-Maggio",
-      "Mrmrs": "recusandae",
-      "ContactId": 241,
-      "ContactName": "Hilpert-West"
+      "DialInPrefix": 45,
+      "PersonId": 654,
+      "PersonName": "Lebsack-Denesik",
+      "Mrmrs": "saepe",
+      "ContactId": 243,
+      "ContactName": "Lakin, Renner and Tremblay"
     }
   ]
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetTaskListItems
 Gets all takslist items
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,25 +104,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 71,
-    "Value": "amet",
+    "TaskListItemId": 664,
+    "Value": "qui",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "IntentId": 813,
-    "Rank": 464,
+    "Tooltip": "aut",
+    "Deleted": false,
+    "IntentId": 900,
+    "Rank": 857,
     "IsDefaultAlldayEvent": false,
     "IsDefaultFree": true,
-    "IsDefaultPublished": false,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 231
       }
     }
   }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Wuckert, Murazik and Grimes",
-    "ToolTip": "A nostrum ratione ut nisi voluptatem harum.",
+    "Id": 823,
+    "Name": "Collins-Wolf",
+    "ToolTip": "Consequatur consequatur possimus ut.",
     "Deleted": false,
-    "Rank": 264,
-    "Type": "suscipit",
-    "ColorBlock": 606,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2006-11-01T11:24:53.8749217+01:00",
+    "Rank": 728,
+    "Type": "ut",
+    "ColorBlock": 43,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2015-06-08T03:40:56.743228+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Stracke, Langworth and Deckow",
-        "ToolTip": "Cum praesentium non est.",
+        "Id": 697,
+        "Name": "Will Group",
+        "ToolTip": "Aliquid ut velit aut porro quia aliquam veritatis.",
         "Deleted": false,
-        "Rank": 642,
-        "Type": "ut",
-        "ColorBlock": 584,
-        "IconHint": "qui",
+        "Rank": 436,
+        "Type": "corporis",
+        "ColorBlock": 474,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2014-03-06T11:24:53.8749217+01:00",
+        "LastChanged": "1999-05-23T03:40:56.743228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Agustina Leannon",
+        "ExtraInfo": "esse",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Miss Hillary Kody Hammes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "autem",
+    "ExtraInfo": "iste",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Cedrick Bennie Quitzon I",
+    "FullName": "Zion Ernser Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 848
       }
     }
   }

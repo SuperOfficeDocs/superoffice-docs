@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 803,
-    "Name": "Pfannerstill-Farrell",
-    "Tooltip": "dolor",
+    "HeadingId": 950,
+    "Name": "Gutmann Inc and Sons",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "Rank": 295,
-    "UdListDefinitionId": 563,
+    "Rank": 720,
+    "UdListDefinitionId": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 789
       }
     }
   }

@@ -43,6 +43,7 @@ items:
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.ITrackEventDispatcher
   - SuperOffice.Util.IWebAppUsageRecorder
+  - SuperOffice.Util.ImageStreamUtils
   - SuperOffice.Util.ImageUtilities
   - SuperOffice.Util.ImageUtilities.FallbackStrategy
   - SuperOffice.Util.ImageUtilities.ImageSize
@@ -404,6 +405,14 @@ references:
     name: RequestType
     isExternal: true
     href: SuperOffice.Util.HttpHelper.RequestType.html
+- uid: SuperOffice.Util.ImageStreamUtils
+  commentId: T:SuperOffice.Util.ImageStreamUtils
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ImageStreamUtils.html
+  name: ImageStreamUtils
+  nameWithType: ImageStreamUtils
+  fullName: SuperOffice.Util.ImageStreamUtils
 - uid: SuperOffice.Util.ImageUtilities
   commentId: T:SuperOffice.Util.ImageUtilities
   parent: SuperOffice.Util
@@ -1152,6 +1161,7 @@ references:
   fullName: SuperOffice.Util.NSWinContactHelper
 - uid: SuperOffice.Util.RagAIConfiguration
   commentId: T:SuperOffice.Util.RagAIConfiguration
+  parent: SuperOffice.Util
   isExternal: true
   href: SuperOffice.Util.RagAIConfiguration.html
   name: RagAIConfiguration

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Preference/GetTabOrders
 ```
 
-
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 787,
-    "TabName": "Leannon-Hoppe",
-    "Order": "sed",
-    "AssociateId": 3,
+    "TabOrderId": 132,
+    "TabName": "Cartwright, Schmidt and Cormier",
+    "Order": "sit",
+    "AssociateId": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldLength": 13
       }
     }
   },
   {
-    "TabOrderId": 787,
-    "TabName": "Leannon-Hoppe",
-    "Order": "sed",
-    "AssociateId": 3,
+    "TabOrderId": 132,
+    "TabName": "Cartwright, Schmidt and Cormier",
+    "Order": "sit",
+    "AssociateId": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 172
+        "FieldLength": 13
       }
     }
   }

@@ -15,6 +15,7 @@ Change all references from one ticket type to another.
 
 
 Typically used in conjuction with ticket type delete
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/List/GlobalChangeTicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketTypeId": 778,
-  "ToTicketTypeId": 471
+  "FromTicketTypeId": 104,
+  "ToTicketTypeId": 877
 }
 ```
 

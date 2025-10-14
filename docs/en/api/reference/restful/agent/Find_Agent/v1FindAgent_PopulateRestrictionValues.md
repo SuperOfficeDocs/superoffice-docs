@@ -15,6 +15,7 @@ Take an incoming set of Restrictions (name + operator + any user-entered values)
 
 
 Used for dynamic date periods; perhaps others in the future
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,21 +84,21 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Medhurst-Bradtke",
-      "Operator": "unde",
+      "Name": "Armstrong LLC",
+      "Operator": "ut",
       "Values": [
-        "ullam",
-        "quaerat"
+        "labore",
+        "quod"
       ],
       "DisplayValues": [
-        "aut",
-        "corrupti"
+        "sequi",
+        "fugit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 247,
+      "InterParenthesis": 97,
       "InterOperator": "And",
-      "UniqueHash": 140
+      "UniqueHash": 412
     }
   ]
 }
@@ -121,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brown, Crist and Franecki",
-    "Operator": "ut",
+    "Name": "Gulgowski-Eichmann",
+    "Operator": "sit",
     "Values": [
-      "fuga",
-      "doloremque"
+      "et",
+      "labore"
     ],
     "DisplayValues": [
-      "quasi",
-      "cum"
+      "sit",
+      "sequi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Weimann Inc and Sons",
-        "Operator": "est",
+        "Name": "Ledner LLC",
+        "Operator": "consequatur",
         "Values": [
-          "labore",
-          "ut"
+          "animi",
+          "perspiciatis"
         ],
         "DisplayValues": [
-          "repellendus",
-          "eum"
+          "labore",
+          "vel"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 401,
+        "InterParenthesis": 510,
         "InterOperator": "And",
-        "UniqueHash": 275
+        "UniqueHash": 242
       }
     ],
-    "InterParenthesis": 776,
+    "InterParenthesis": 711,
     "InterOperator": "And",
-    "UniqueHash": 371
+    "UniqueHash": 312
   }
 ]
 ```

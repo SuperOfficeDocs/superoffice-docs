@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Get the carrier with data that Service needs when starting up for a specific user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 317
+  "UserId": 717
 }
 ```
 
@@ -93,27 +95,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": true,
-  "TZOffset": 671,
-  "RecaptchaSiteKey": "magnam",
+  "TZOffset": 418,
+  "RecaptchaSiteKey": "est",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ut",
+      "RawValue": "expedita",
       "Specification": null,
-      "DisplayValue": "nihil",
-      "DisplayTooltip": "tenetur",
+      "DisplayValue": "ut",
+      "DisplayTooltip": "ullam",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 293,
-      "PrefDescId": 948,
-      "TableName": "O'Hara LLC",
-      "UserPreferenceId": 357,
+      "TargetId": 673,
+      "PrefDescId": 492,
+      "TableName": "Keebler-Langosh",
+      "UserPreferenceId": 86,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 333
         }
       }
     }
@@ -122,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 399
     }
   }
 }

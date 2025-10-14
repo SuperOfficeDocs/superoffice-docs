@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 59,
-  "Name": "Crist-Rippin",
-  "Tooltip": "sunt",
+  "HeadingId": 802,
+  "Name": "Buckridge-Maggio",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "Rank": 802,
-  "UdListDefinitionId": 465
+  "Rank": 132,
+  "UdListDefinitionId": 737
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 562,
-  "Name": "Harris-Huel",
-  "Tooltip": "id",
-  "Deleted": false,
-  "Rank": 808,
-  "UdListDefinitionId": 903,
+  "HeadingId": 543,
+  "Name": "Eichmann-Ernser",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 767,
+  "UdListDefinitionId": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 911
     }
   }
 }

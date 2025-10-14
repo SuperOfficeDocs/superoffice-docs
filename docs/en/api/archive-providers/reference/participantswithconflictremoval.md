@@ -120,7 +120,9 @@ inner participants provider, so that the conflict checking is performed.
 |personAssociateId|associate|Our contact: Displays our contact|  |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact|  |
 |personCategory|listAny|Category|  |
+|personCategoryGroup|listAny|Category group|  |
 |personBusiness|listAny|Business|  |
+|leadstatus|listAny|Lead status|  |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company|  |
 |isProjectMember|bool|Is project member: This person is a project member|  |
@@ -131,12 +133,12 @@ inner participants provider, so that the conflict checking is performed.
 |email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP|  |
 |email/emailAddress|string|E-mail|  |
 |email/emailDescription|string|Description|  |
-|email/emailId|int|ID|  |
-|email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|email/emailId|int|ID|  |
+|email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address|  |
 |email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address|  |
 |email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address|  |
 |email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.|  |
@@ -150,6 +152,7 @@ inner participants provider, so that the conflict checking is performed.
 |personContact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
 |personContact/category| *None* |Category|  |
+|personContact/categoryGroup| *None* |Category group|  |
 |personContact/business| *None* |Business|  |
 |personContact/country| *None* |Country: This criterion corresponds to the Country field on the Company card.|  |
 |personContact/countryId| *None* |Country ID: Country ID|  |
@@ -193,7 +196,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=isLocation,personRegisteredBy
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=ejStatus,userName,email/emailLastSent,personContact/updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

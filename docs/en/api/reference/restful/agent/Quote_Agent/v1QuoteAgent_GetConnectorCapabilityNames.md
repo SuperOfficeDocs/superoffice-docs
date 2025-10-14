@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
 Gets a list of all possible connector capabilities
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 787
+  "QuoteConnectionId": 333
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dignissimos",
-  "expedita"
+  "qui",
+  "quod"
 ]
 ```

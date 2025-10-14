@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Return information about all the custom fields (user-defined + extra) on a particular table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,12 +88,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolff Inc and Sons",
-  "IncludeStandard": false
+  "TableName": "Dietrich-Bahringer",
+  "IncludeStandard": true
 }
 ```
 
@@ -104,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Reilly-Mueller",
-    "DisplayName": "Ondricka, Hauck and Daugherty",
-    "Description": "Inverse analyzing extranet",
-    "ShortLabel": "eveniet",
-    "HideLabel": false,
+    "FieldName": "Spinka Inc and Sons",
+    "DisplayName": "Willms LLC",
+    "Description": "Public-key even-keeled architecture",
+    "ShortLabel": "molestiae",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 727,
-    "TemplateVariableName": "Wintheiser, Blick and McKenzie"
+    "IsDisplayField": true,
+    "Rank": 444,
+    "TemplateVariableName": "Gutkowski, Schultz and Lebsack"
   }
 ]
 ```

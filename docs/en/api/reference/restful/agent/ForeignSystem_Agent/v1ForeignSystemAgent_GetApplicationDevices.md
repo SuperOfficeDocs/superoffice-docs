@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Gets all devices that belong to a foreign application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koss-Nitzsche"
+  "ApplicationName": "O'Keefe, Kilback and Altenwerth"
 }
 ```
 
@@ -98,21 +100,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 622,
-    "Name": "Turner-Mann",
-    "CreatedDate": "2022-02-20T11:24:48.1564051+01:00",
-    "UpdatedDate": "1999-01-02T11:24:48.1564051+01:00",
-    "AssociateFullName": "Lexus Windler",
-    "CreatedBy": "ut",
-    "UpdatedBy": "accusantium",
-    "DeviceIdentifier": "vero",
-    "ForeignAppId": 517,
+    "ForeignDeviceId": 646,
+    "Name": "Kessler-Waters",
+    "CreatedDate": "2021-08-03T03:40:46.9842779+02:00",
+    "UpdatedDate": "2023-08-21T03:40:46.9842779+02:00",
+    "AssociateFullName": "Franco Anderson",
+    "CreatedBy": "expedita",
+    "UpdatedBy": "ut",
+    "DeviceIdentifier": "laborum",
+    "ForeignAppId": 584,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

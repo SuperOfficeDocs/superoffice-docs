@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Save the Email from the server as a document file connected to existing document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -111,13 +114,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 960,
-  "EmailItemId": 256,
-  "AttachmentId": "quos"
+  "DocumentId": 827,
+  "EmailItemId": 979,
+  "AttachmentId": "dolorum"
 }
 ```
 
@@ -128,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 154,
+  "DocumentId": 281,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sint",
-  "Header": "voluptates",
-  "Name": "Shanahan LLC",
-  "OurRef": "molestiae",
-  "YourRef": "autem",
-  "CreatedDate": "2009-07-19T11:24:48.0470345+02:00",
-  "UpdatedDate": "2015-07-20T11:24:48.0470345+02:00",
-  "Description": "Intuitive heuristic data-warehouse",
+  "Attention": "dignissimos",
+  "Header": "voluptatibus",
+  "Name": "Stark LLC",
+  "OurRef": "numquam",
+  "YourRef": "mollitia",
+  "CreatedDate": "2002-07-31T03:40:46.7811404+02:00",
+  "UpdatedDate": "2013-11-23T03:40:46.7811404+01:00",
+  "Description": "Compatible object-oriented complexity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-02-17T11:24:48.0470345+01:00",
-  "ExternalRef": "voluptatem",
+  "Date": "2017-08-25T03:40:46.7811404+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 469,
+  "ActiveLinks": 360,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bode, Schuppe and Keebler",
-      "Id": 347,
-      "Description": "Multi-tiered contextually-based standardization",
-      "ExtraInfo": "dolorem",
-      "LinkId": 876,
+      "EntityName": "King Inc and Sons",
+      "Id": 143,
+      "Description": "Balanced eco-centric support",
+      "ExtraInfo": "eligendi",
+      "LinkId": 843,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 768
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 129,
-  "Snum": 692,
+  "SuggestedDocumentId": 195,
+  "Snum": 400,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lauriane Keegan Berge V",
-    "SuperOffice:2": "Aida McCullough"
+    "SuperOffice:1": "Demetris Dicki",
+    "SuperOffice:2": "Cletus Macejkovic"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "non"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "eius"
+    "CustomFields1": "iure",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2012-12-08T11:24:48.0470345+01:00",
-  "PublishTo": "2022-09-20T11:24:48.0470345+02:00",
-  "PublishFrom": "2013-05-25T11:24:48.0470345+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-01-02T03:40:46.7811404+01:00",
+  "PublishTo": "2003-06-20T03:40:46.7811404+02:00",
+  "PublishFrom": "2017-01-04T03:40:46.7811404+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 362,
+      "VisibleId": 933,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 598
         }
       }
     },
     {
-      "VisibleId": 362,
+      "VisibleId": 933,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 598
         }
       }
     }
@@ -218,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldType": "System.String",
+      "FieldLength": 171
     }
   }
 }

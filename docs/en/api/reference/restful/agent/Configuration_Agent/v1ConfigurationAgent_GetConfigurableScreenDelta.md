@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Gets a ConfigurableScreenDelta object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=292
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=780
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -90,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 467,
-  "Name": "Schiller, Ankunding and Klein",
-  "Description": "Phased executive customer loyalty",
-  "DeltaJson": "dolorem",
+  "ConfigurableScreenDeltaId": 20,
+  "Name": "Thompson Inc and Sons",
+  "Description": "Cross-platform value-added standardization",
+  "DeltaJson": "deleniti",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "blanditiis",
-  "UpdatedDate": "2012-11-29T11:24:47.7189228+01:00",
-  "CreatedDate": "2017-05-14T11:24:47.7189228+02:00",
+  "RecipeId": "consectetur",
+  "UpdatedDate": "2019-11-19T03:40:46.2331872+01:00",
+  "CreatedDate": "2015-03-27T03:40:46.2331872+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    20,
-    628
+    408,
+    117
   ],
-  "AppliesToKey": "quia",
+  "AppliesToKey": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

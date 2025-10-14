@@ -15,6 +15,7 @@ Returns the next current item.
 
 
 If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Jenkins-Bayer",
-  "Id": 870
+  "HistoryName": "Kuphal Inc and Sons",
+  "Id": 852
 }
 ```
 
@@ -99,19 +100,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 435,
-  "Id": 13,
-  "HistoryName": "Strosin Group",
-  "HistoryId": 389,
-  "AssociateId": 474,
-  "Name": "Douglas Group",
-  "ItemInfo": "alias",
+  "Rank": 60,
+  "Id": 821,
+  "HistoryName": "Upton-Bernier",
+  "HistoryId": 876,
+  "AssociateId": 219,
+  "Name": "Parker, Zulauf and Glover",
+  "ItemInfo": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

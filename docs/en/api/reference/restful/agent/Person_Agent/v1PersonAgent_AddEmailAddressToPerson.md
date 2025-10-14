@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Sets the primary email address on person, possibly re-ranking email addresses accordingly.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,13 +69,13 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 3,
-  "EmailAddress": "adrian@baumbach.ca",
-  "SetAsPrimaryEmail": false
+  "PersonId": 130,
+  "EmailAddress": "ida@jenkinsrussel.com",
+  "SetAsPrimaryEmail": true
 }
 ```
 

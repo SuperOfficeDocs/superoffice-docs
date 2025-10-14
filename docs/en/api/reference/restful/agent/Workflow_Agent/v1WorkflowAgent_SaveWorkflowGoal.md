@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is 0.
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -74,23 +76,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 57,
-  "WorkflowId": 291,
+  "WorkflowGoalId": 672,
+  "WorkflowId": 760,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Jacobs Inc and Sons",
-      "Description": "Persevering bottom-line capacity",
-      "Rank": 838,
+      "Name": "DuBuque-Pfannerstill",
+      "Description": "Reduced actuating open architecture",
+      "Rank": 269,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jacobs Inc and Sons",
-      "Description": "Persevering bottom-line capacity",
-      "Rank": 838,
+      "Name": "DuBuque-Pfannerstill",
+      "Description": "Reduced actuating open architecture",
+      "Rank": 269,
       "Restrictions": [
         {},
         {}
@@ -107,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 275,
-  "WorkflowId": 301,
+  "WorkflowGoalId": 808,
+  "WorkflowId": 560,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Vandervort, Marks and Altenwerth",
-      "Description": "Secured maximized intranet",
-      "Rank": 572,
+      "Name": "Waelchi-Reichel",
+      "Description": "Re-engineered methodical encryption",
+      "Rank": 603,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Vandervort, Marks and Altenwerth",
-      "Description": "Secured maximized intranet",
-      "Rank": 572,
+      "Name": "Waelchi-Reichel",
+      "Description": "Re-engineered methodical encryption",
+      "Rank": 603,
       "Restrictions": [
         {},
         {}
@@ -134,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

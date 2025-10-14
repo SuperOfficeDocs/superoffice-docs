@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnection
 Returns the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -91,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 818
+  "ErpConnectionId": 241
 }
 ```
 
@@ -102,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 288,
-  "ErpConnectorId": 272,
-  "DisplayName": "Watsica LLC",
-  "DisplayDescription": "Horizontal incremental contingency",
+  "ErpConnectionId": 248,
+  "ErpConnectorId": 193,
+  "DisplayName": "Rempel, Heller and Kris",
+  "DisplayDescription": "Reduced fresh-thinking throughput",
   "Active": true,
-  "ConnectionId": "voluptatem",
-  "MostRecentTimestamp": "deserunt",
+  "ConnectionId": "repudiandae",
+  "MostRecentTimestamp": "aliquid",
   "ConfigFields": {
-    "ConfigFields1": "eligendi",
-    "ConfigFields2": "tempore"
+    "ConfigFields1": "illo",
+    "ConfigFields2": "eos"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    433,
-    699
+    69,
+    142
   ],
   "AssociateAccessIds": [
-    247,
-    345
+    589,
+    320
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 307
     }
   }
 }

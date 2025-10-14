@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Loading default values into a new WorkflowWaitForAction.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,25 +73,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 931,
-  "WorkflowStepId": 660,
-  "WorkflowId": 301,
-  "Rank": 649,
+  "WorkflowWaitForActionId": 142,
+  "WorkflowStepId": 702,
+  "WorkflowId": 81,
+  "Rank": 619,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Hirthe, Hackett and Roberts",
-      "Description": "Networked disintermediate orchestration",
-      "Rank": 644,
+      "Name": "Ruecker-Kovacek",
+      "Description": "Cloned solution-oriented knowledge user",
+      "Rank": 749,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hirthe, Hackett and Roberts",
-      "Description": "Networked disintermediate orchestration",
-      "Rank": 644,
+      "Name": "Ruecker-Kovacek",
+      "Description": "Cloned solution-oriented knowledge user",
+      "Rank": 749,
       "Restrictions": [
         {},
         {}
@@ -101,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 650
     }
   }
 }

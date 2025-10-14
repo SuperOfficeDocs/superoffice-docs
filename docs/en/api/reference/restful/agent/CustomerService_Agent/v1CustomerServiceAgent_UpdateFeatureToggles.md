@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Update the cached FeatureToggles for CS
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,18 +67,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Bashirian-Schimmel",
-      "State": false
+      "Name": "Schaden, Pollich and Prohaska",
+      "State": true
     },
     {
-      "Name": "Bashirian-Schimmel",
-      "State": false
+      "Name": "Schaden, Pollich and Prohaska",
+      "State": true
     }
   ]
 }

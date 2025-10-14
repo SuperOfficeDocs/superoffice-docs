@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Loading default values into a new ChatTopicEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 344,
-  "Name": "Rath Inc and Sons",
-  "Description": "Re-contextualized solution-oriented moderator",
-  "WelcomeMessage": "facilis",
+  "ChatTopicId": 417,
+  "Name": "Luettgen LLC",
+  "Description": "Multi-layered responsive encryption",
+  "WelcomeMessage": "ex",
   "Language": null,
-  "LastAccept": "2009-04-24T11:24:47.7032984+02:00",
-  "SecondsPrAccept": 447,
-  "AlertRecipient": "qui",
+  "LastAccept": "2001-06-24T03:40:46.2014635+02:00",
+  "SecondsPrAccept": 27,
+  "AlertRecipient": "labore",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nesciunt",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "molestias",
-  "WarnNewChatMinutes": 23,
-  "WarnManagerNewChatMinutes": 927,
+  "BadgeHeader": "nihil",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "repellat",
+  "WarnNewChatMinutes": 472,
+  "WarnManagerNewChatMinutes": 347,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 960,
-  "WarnManagerChatMessageMinutes": 941,
+  "WarnChatMessageMinutes": 18,
+  "WarnManagerChatMessageMinutes": 967,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 117,
-  "OfflineFormQueueLength": 52,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "architecto",
+  "OfflineFormTimeLimit": 731,
+  "OfflineFormQueueLength": 837,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 709
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateUserGroup
 Create UserGroup (Rank is assigned to the highest rank)
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -72,7 +75,7 @@ OK
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "mollitia",
-  "Tooltip": "magni",
-  "Id": 827,
-  "Rank": 671,
-  "Deleted": false,
+  "Value": "quam",
+  "Tooltip": "quas",
+  "Id": 493,
+  "Rank": 869,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 803
     }
   }
 }

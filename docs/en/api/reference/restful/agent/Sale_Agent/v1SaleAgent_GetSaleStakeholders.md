@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 582
+  "SaleId": 266
 }
 ```
 
@@ -108,31 +108,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Reilly Group",
-    "Comment": "saepe",
-    "StakeholderRoleId": 986,
-    "CountryId": 552,
-    "PersonId": 427,
-    "EmailDescription": "delphine_becker@howell.name",
-    "EmailId": 319,
-    "EmailAddress": "rosendo_cummerata@hoeger.biz",
-    "PhoneId": 522,
-    "ContactName": "Hauck, Ruecker and Morar",
-    "ContactId": 702,
-    "SaleId": 545,
-    "Mrmrs": "eum",
-    "Firstname": "Wyman",
-    "MiddleName": "Blanda Inc and Sons",
-    "Lastname": "Willms",
-    "SaleStakeholderId": 153,
-    "Rank": 786,
-    "Phone": "1-893-752-6516 x00040",
+    "StakeholderRoleName": "Breitenberg-Leuschke",
+    "Comment": "id",
+    "StakeholderRoleId": 45,
+    "CountryId": 507,
+    "PersonId": 421,
+    "EmailDescription": "barton_becker@rowe.co.uk",
+    "EmailId": 486,
+    "EmailAddress": "rosendo_waters@spencerokon.us",
+    "PhoneId": 321,
+    "ContactName": "Parisian LLC",
+    "ContactId": 35,
+    "SaleId": 360,
+    "Mrmrs": "aut",
+    "Firstname": "Carleton",
+    "MiddleName": "Feest-Bergnaum",
+    "Lastname": "Christiansen",
+    "SaleStakeholderId": 56,
+    "Rank": 606,
+    "Phone": "339.904.0572 x456",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 46
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

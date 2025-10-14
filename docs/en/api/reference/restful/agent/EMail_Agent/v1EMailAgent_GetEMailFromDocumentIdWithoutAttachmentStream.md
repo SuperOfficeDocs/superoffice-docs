@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Get an e-mail based on an archived document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -105,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 264
+  "DocumentId": 589
 }
 ```
 
@@ -118,99 +121,42 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 675,
-      "ContactName": "Sanford Inc and Sons",
-      "PersonId": 91,
-      "PersonName": "Robel, O'Keefe and Torp",
-      "AssociateId": 826,
-      "Address": "quia",
-      "EmailId": 975,
+      "ContactId": 392,
+      "ContactName": "Bartoletti Group",
+      "PersonId": 422,
+      "PersonName": "Schultz-Kessler",
+      "AssociateId": 318,
+      "Address": "dignissimos",
+      "EmailId": 684,
       "DuplicatePersonIds": [
-        889,
-        890
+        244,
+        930
       ],
-      "Name": "Witting, Osinski and Ebert",
+      "Name": "Runolfsson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldType": "System.Int32",
+          "FieldLength": 356
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 524,
-      "ContactName": "Schumm Group",
-      "PersonId": 225,
-      "PersonName": "Homenick Inc and Sons",
-      "AssociateId": 115,
-      "Address": "excepturi",
-      "EmailId": 810,
+      "ContactId": 745,
+      "ContactName": "Walker-Hodkiewicz",
+      "PersonId": 453,
+      "PersonName": "Steuber Group",
+      "AssociateId": 443,
+      "Address": "distinctio",
+      "EmailId": 114,
       "DuplicatePersonIds": [
-        318,
-        31
+        443,
+        466
       ],
-      "Name": "Walsh-Schulist",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 606
-        }
-      }
-    }
-  ],
-  "Bcc": [
-    {
-      "ContactId": 806,
-      "ContactName": "Abshire Inc and Sons",
-      "PersonId": 351,
-      "PersonName": "Osinski, Kertzmann and Murray",
-      "AssociateId": 765,
-      "Address": "cum",
-      "EmailId": 26,
-      "DuplicatePersonIds": [
-        449,
-        527
-      ],
-      "Name": "Runte-Gleason",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 985
-        }
-      }
-    }
-  ],
-  "Subject": "aut",
-  "HTMLBody": "animi",
-  "From": null,
-  "Sent": "2023-05-26T11:24:48.0470345+02:00",
-  "Size": 754,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "aliquid",
-  "PlainBody": "quo",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 570,
-  "Attachments": [
-    {
-      "Description": "Object-based directional strategy",
-      "Filename": "quo",
-      "Size": 623,
-      "Type": "aperiam",
-      "Encoding": "consequatur",
-      "Id": "non",
-      "Disposition": "et",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Simonis-Schuster",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -221,44 +167,101 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "CustomHeaderList": [
+  "Bcc": [
     {
-      "Name": "McDermott Inc and Sons",
-      "Values": [
-        "eveniet",
-        "provident"
+      "ContactId": 179,
+      "ContactName": "Friesen, Towne and Johnson",
+      "PersonId": 60,
+      "PersonName": "Schiller-Keebler",
+      "AssociateId": 16,
+      "Address": "laboriosam",
+      "EmailId": 40,
+      "DuplicatePersonIds": [
+        650,
+        343
       ],
+      "Name": "Bartell-Fisher",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 476
-        }
-      }
-    },
-    {
-      "Name": "McDermott Inc and Sons",
-      "Values": [
-        "eveniet",
-        "provident"
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldType": "System.String",
+          "FieldLength": 653
         }
       }
     }
   ],
-  "FolderName": "King Inc and Sons",
-  "EmailItemId": 888,
-  "AccountId": 961,
-  "ReceivedAt": "2009-10-21T11:24:48.0470345+02:00",
+  "Subject": "enim",
+  "HTMLBody": "modi",
+  "From": null,
+  "Sent": "2002-01-25T03:40:46.7967663+01:00",
+  "Size": 471,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "quia",
+  "PlainBody": "sapiente",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 912,
+  "Attachments": [
+    {
+      "Description": "Multi-channelled context-sensitive portal",
+      "Filename": "enim",
+      "Size": 548,
+      "Type": "sit",
+      "Encoding": "repudiandae",
+      "Id": "eaque",
+      "Disposition": "enim",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 558
+        }
+      }
+    }
+  ],
+  "CustomHeaderList": [
+    {
+      "Name": "Hauck, Hilll and Hudson",
+      "Values": [
+        "fugit",
+        "quisquam"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 4
+        }
+      }
+    },
+    {
+      "Name": "Hauck, Hilll and Hudson",
+      "Values": [
+        "fugit",
+        "quisquam"
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 4
+        }
+      }
+    }
+  ],
+  "FolderName": "Schowalter, McKenzie and Marvin",
+  "EmailItemId": 280,
+  "AccountId": 311,
+  "ReceivedAt": "2016-07-15T03:40:46.7967663+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2025-03-19T11:24:48.0470345+01:00",
+  "RepliedAt": "2011-08-19T03:40:46.7967663+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

@@ -15,6 +15,10 @@ Return a chatbot response given prompt and previous turns.
 
 
 Stores the new turn in the history for the chatId
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -84,41 +88,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "omnis",
-  "IsoLangCode": "perferendis",
-  "UserPrompt": "et",
-  "DisplayValue": "esse",
+  "ChatId": "ut",
+  "IsoLangCode": "inventore",
+  "UserPrompt": "sint",
+  "DisplayValue": "eaque",
   "PreviousTurns": [
     {
-      "Timestamp": "2004-07-05T11:24:47.2814408+02:00",
-      "UserPrompt": "maxime",
-      "UserDisplayText": "qui",
-      "BotResponse": "ut",
+      "Timestamp": "2003-08-14T03:40:45.5762384+02:00",
+      "UserPrompt": "ipsa",
+      "UserDisplayText": "eveniet",
+      "BotResponse": "quae",
       "BotActions": {
-        "BotActions1": "unde",
-        "BotActions2": "eius"
+        "BotActions1": "deserunt",
+        "BotActions2": "qui"
       },
       "Attachments": [
-        "nobis",
-        "quaerat"
+        "repudiandae",
+        "quis"
       ]
     },
     {
-      "Timestamp": "2004-07-05T11:24:47.2814408+02:00",
-      "UserPrompt": "maxime",
-      "UserDisplayText": "qui",
-      "BotResponse": "ut",
+      "Timestamp": "2003-08-14T03:40:45.5762384+02:00",
+      "UserPrompt": "ipsa",
+      "UserDisplayText": "eveniet",
+      "BotResponse": "quae",
       "BotActions": {
-        "BotActions1": "unde",
-        "BotActions2": "eius"
+        "BotActions1": "deserunt",
+        "BotActions2": "qui"
       },
       "Attachments": [
-        "nobis",
-        "quaerat"
+        "repudiandae",
+        "quis"
       ]
     }
   ],
@@ -133,17 +137,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2014-07-19T11:24:47.2814408+02:00",
-  "UserPrompt": "quia",
-  "UserDisplayText": "consectetur",
-  "BotResponse": "quia",
+  "Timestamp": "2002-12-02T03:40:45.5762384+01:00",
+  "UserPrompt": "qui",
+  "UserDisplayText": "voluptatem",
+  "BotResponse": "doloribus",
   "BotActions": {
-    "BotActions1": "ex",
-    "BotActions2": "corporis"
+    "BotActions1": "architecto",
+    "BotActions2": "sed"
   },
   "Attachments": [
-    "accusantium",
-    "quia"
+    "exercitationem",
+    "veniam"
   ]
 }
 ```

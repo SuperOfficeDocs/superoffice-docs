@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Adds or removes interests on companies and persons in a selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,26 +71,26 @@ No Content
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 603,
+  "SelectionId": 729,
   "AddCompanyInterests": [
-    665,
-    968
+    501,
+    708
   ],
   "RemoveCompanyInterests": [
-    625,
-    341
+    944,
+    751
   ],
   "AddContactInterests": [
-    31,
-    525
+    613,
+    480
   ],
   "RemoveContactInterests": [
-    779,
-    186
+    432,
+    250
   ]
 }
 ```

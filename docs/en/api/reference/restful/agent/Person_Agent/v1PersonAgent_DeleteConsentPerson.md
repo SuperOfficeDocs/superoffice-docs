@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/DeleteConsentPerson
 Deletes the ConsentPerson
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ConsentPerson
 | consentPersonId | int32 | **Required** The identity of the ConsentPerson |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=259
+POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=708
 ```
 
 

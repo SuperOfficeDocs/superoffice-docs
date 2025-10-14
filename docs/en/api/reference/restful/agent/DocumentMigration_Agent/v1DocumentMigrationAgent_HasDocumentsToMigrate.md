@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/HasDocumentsToMigrate
 Checks if there are any documents in the current database stored using a non-default document-plugin, and which can be migrated.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -63,7 +66,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/HasDocumentsToMigrate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

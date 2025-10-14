@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetDocumentPluginForAllDocumentTemplates
 Sets the document-plugin to be used for all templates of type 'document'.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/List/SetDocumentPluginForAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 310
+  "DocumentPluginId": 342
 }
 ```
 

@@ -15,6 +15,7 @@ Get a list of document types supported by a given document plugin.
 
 
 Use the document template type when creating a new template.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTypesForPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 923
+  "PluginId": 542
 }
 ```
 
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nihil",
-  "2": "officia"
+  "1": "est",
+  "2": "et"
 }
 ```

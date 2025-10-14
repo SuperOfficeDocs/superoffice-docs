@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Get a ticket message entity with additional options.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -100,12 +102,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 68,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 666,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -116,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 674,
+  "EjMessageId": 800,
   "Ticket": null,
-  "CreatedAt": "2023-02-15T11:24:48.6876333+01:00",
+  "CreatedAt": "2002-07-21T03:40:47.9067285+02:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "possimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ea",
-  "TimeSpent": 518,
-  "Body": "nesciunt",
-  "HtmlBody": "tempora",
-  "EmailHeader": "mabel.beatty@koeppbuckridge.us",
-  "DebugInfo": "aut",
-  "MailSorter": "dolorem",
+  "MessageId": "et",
+  "TimeSpent": 78,
+  "Body": "reiciendis",
+  "HtmlBody": "hic",
+  "EmailHeader": "lilian@priceemard.us",
+  "DebugInfo": "eos",
+  "MailSorter": "quibusdam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "distinctio",
+  "SearchTitle": "odit",
   "MessageHeaders": [
     {
-      "Id": 517,
-      "Name": "Spencer-Jakubowski",
+      "Id": 678,
+      "Name": "Kozey-Dickens",
       "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -144,51 +146,51 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 765
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "nihil",
-  "Sentiment": 47,
-  "SentimentConfidence": 484,
+  "Important": false,
+  "Language": "eum",
+  "Sentiment": 247,
+  "SentimentConfidence": 159,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 697,
-      "Name": "Lang-Hettinger",
-      "ContentType": "omnis",
-      "AttSize": 19,
+      "AttachmentId": 574,
+      "Name": "Howell-Collier",
+      "ContentType": "illum",
+      "AttSize": 786,
       "InlineImage": true,
-      "ContentId": "itaque",
-      "AuthKey": "architecto",
-      "IsSafeFileExtension": true,
+      "ContentId": "corporis",
+      "AuthKey": "assumenda",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 267
+          "FieldType": "System.Int32",
+          "FieldLength": 654
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "quaerat"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "vero"
+    "CustomFields1": "hic",
+    "CustomFields2": "sint"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

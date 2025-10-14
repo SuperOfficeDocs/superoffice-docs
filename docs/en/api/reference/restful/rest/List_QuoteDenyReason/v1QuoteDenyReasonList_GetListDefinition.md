@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "King, Zulauf and Becker",
-  "Tooltip": "eaque",
+  "Id": 523,
+  "Name": "Kunze Group",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 640,
+  "Rank": 151,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eos",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 80
     }
   },
   "_Links": {

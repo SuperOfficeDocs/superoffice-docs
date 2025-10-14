@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Bahringer, Barton and Torphy",
-  "Tooltip": "hic",
-  "Deleted": true,
-  "Rank": 908,
+  "Id": 462,
+  "Name": "Purdy-Olson",
+  "Tooltip": "nulla",
+  "Deleted": false,
+  "Rank": 7,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 545,
-  "Name": "Price-Parisian",
-  "Tooltip": "eaque",
-  "Deleted": true,
-  "Rank": 429,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 877,
+  "Name": "Schoen Group",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 905,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

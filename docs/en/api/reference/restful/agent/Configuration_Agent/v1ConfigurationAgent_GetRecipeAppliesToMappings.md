@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetRecipeAppliesToMappings
 Return the a  dictionary with recipeId as key, and chosen appliesTo for that recipe, Like projecttype for projectcardrecipe
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
-  "2": "tempora"
+  "1": "quis",
+  "2": "nostrum"
 }
 ```

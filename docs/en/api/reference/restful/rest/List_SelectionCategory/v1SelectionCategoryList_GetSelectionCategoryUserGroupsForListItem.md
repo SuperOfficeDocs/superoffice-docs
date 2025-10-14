@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Hettinger, Heidenreich and Kertzmann",
-    "ToolTip": "Est ducimus.",
+    "Id": 661,
+    "Name": "Dicki LLC",
+    "ToolTip": "Perspiciatis in.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "explicabo",
-    "ColorBlock": 546,
-    "IconHint": "amet",
-    "Selected": false,
-    "LastChanged": "2009-08-07T11:24:54.1405361+02:00",
+    "Rank": 283,
+    "Type": "et",
+    "ColorBlock": 668,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2009-12-22T03:40:57.1184362+01:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Bruen-Koelpin",
-        "ToolTip": "Nesciunt molestiae enim et.",
-        "Deleted": true,
-        "Rank": 778,
-        "Type": "sint",
-        "ColorBlock": 681,
-        "IconHint": "ipsa",
+        "Id": 482,
+        "Name": "Nolan, Emard and Nolan",
+        "ToolTip": "Impedit eum nemo.",
+        "Deleted": false,
+        "Rank": 249,
+        "Type": "et",
+        "ColorBlock": 290,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2010-11-12T11:24:54.1405361+01:00",
+        "LastChanged": "2024-10-14T03:40:57.1184362+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Mrs. Lisa Enrique Hilll I",
+        "ExtraInfo": "debitis",
+        "StyleHint": "cumque",
+        "Hidden": true,
+        "FullName": "Malinda Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 320
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Amie Leuschke",
+    "ExtraInfo": "molestias",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Ms. Henri Aniya Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldLength": 370
       }
     }
   }

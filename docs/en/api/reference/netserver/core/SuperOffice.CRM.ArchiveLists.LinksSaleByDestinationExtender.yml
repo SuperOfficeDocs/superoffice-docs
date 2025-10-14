@@ -74,6 +74,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colCreatedByWorkflow
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -779,6 +780,14 @@ references:
   name: _colWeightedAmountInBaseCurrency
   nameWithType: SaleExtenderBase._colWeightedAmountInBaseCurrency
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.html#SuperOffice_CRM_ArchiveLists_SaleExtenderBase__colDaysInStage
+  name: _colDaysInStage
+  nameWithType: SaleExtenderBase._colDaysInStage
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colDaysInStage
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Method that returns a specified number of published document appointments within a time range.
 
 
-The document appointments is visible to the person specified or the document is in a project the person belongs to.
+The document appointments is visible to the person specified or the document is in a project the person belongs to. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 574,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2009-12-11T11:24:48.03141+01:00",
-  "EndTime": "2004-08-10T11:24:48.03141+02:00",
-  "Count": 983
+  "PersonId": 58,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2017-09-22T03:40:46.7498885+02:00",
+  "EndTime": "2017-11-08T03:40:46.7498885+01:00",
+  "Count": 247
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 24,
-    "Attention": "nesciunt",
-    "Header": "harum",
-    "Name": "Kemmer Group",
-    "OurRef": "et",
-    "YourRef": "deserunt",
-    "Description": "Cross-platform explicit analyzer",
-    "DocumentTemplate": "id",
-    "IsPublished": false,
-    "PersonId": 202,
-    "PersonFullName": "Mr. Kieran Buckridge MD",
-    "AssociateFullName": "Flossie Webster Daniel Sr.",
-    "ContactId": 94,
-    "ContactName": "Homenick-Murphy",
-    "ProjectId": 393,
-    "ProjectName": "Kihn Inc and Sons",
-    "AssociateId": 747,
-    "Snum": 510,
-    "SaleId": 304,
-    "SaleName": "Kling LLC",
+    "DocumentId": 653,
+    "Attention": "voluptas",
+    "Header": "ut",
+    "Name": "Goodwin-Turcotte",
+    "OurRef": "ad",
+    "YourRef": "explicabo",
+    "Description": "Focused context-sensitive capability",
+    "DocumentTemplate": "enim",
+    "IsPublished": true,
+    "PersonId": 70,
+    "PersonFullName": "Kimberly Thiel",
+    "AssociateFullName": "Alba Streich",
+    "ContactId": 826,
+    "ContactName": "Schoen, Hansen and Parker",
+    "ProjectId": 847,
+    "ProjectName": "Rau LLC",
+    "AssociateId": 851,
+    "Snum": 205,
+    "SaleId": 298,
+    "SaleName": "Bashirian Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

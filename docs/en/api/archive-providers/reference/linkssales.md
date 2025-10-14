@@ -87,6 +87,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -120,11 +121,11 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/birthMonth|int|Birth month: Displays contact's birth month| x |
 |person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
-|person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
 |person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
 |person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -140,7 +141,9 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -222,13 +225,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |person/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |person/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
-|person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
-|person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
-|person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
+|person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
+|person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
@@ -321,18 +324,19 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
 |contact/number|string|Number| x |
-|contact/code|string|Code| x |
-|contact/orgnr|string|VAT No.| x |
-|contact/stop|bool|Stop| x |
-|contact/contactNoMail|bool|No mailings (company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/code|string|Code| x |
+|contact/orgnr|string|VAT No.| x |
+|contact/stop|bool|Stop| x |
+|contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -429,14 +433,14 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactAssociate/userName|string|User name: User name| x |
 |contact/contactAssociate/personEmail|string|E-mail| x |
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
-|contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
-|contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
-|contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
-|contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
+|contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
+|contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
+|contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
@@ -533,14 +537,14 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleUdef/SuperOffice:3|int|salenumber| x |
 |saleUdef/SuperOffice:4|date|saledate| x |
 |saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
-|saleUdef/SuperOffice:6|bool|salecheckbox| x |
-|saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
-|saleUdef/SuperOffice:8|decimal|saledecimal| x |
-|project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleUdef/SuperOffice:6|bool|salecheckbox| x |
+|saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
+|saleUdef/SuperOffice:8|decimal|saledecimal| x |
+|project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
 |project/number|string|Number: Displays the project's number| x |
@@ -637,14 +641,14 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
-|project/saintTicketCategory|listAny|Category|  |
-|project/project/textId|int|Text ID| x |
-|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintTicketCategory|listAny|Category|  |
+|project/project/textId|int|Text ID| x |
+|project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
 |saleStakeholder/saleId|int|Stakeholder - Sale ID: The database ID of the sale record| x |
 |saleStakeholder/comment|string|Stakeholder - Sales role comment text: Sales role comment text| x |
 |saleStakeholder/salesRoleId|listAny|Stakeholder - Sales role: Sales role| x |
@@ -691,7 +695,9 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
+|saleStakeholder/person/personCategoryGroup|listAny|Stakeholder - Category group| x |
 |saleStakeholder/person/personBusiness|listAny|Stakeholder - Business| x |
+|saleStakeholder/person/leadstatus|listAny|Stakeholder - Lead status| x |
 |saleStakeholder/person/personDeletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
 |saleStakeholder/person/hasCompany|bool|Stakeholder - Has company: The contact is associated with a company| x |
 |saleStakeholder/person/isProjectMember|bool|Stakeholder - Is project member: This person is a project member| x |
@@ -739,16 +745,16 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
 |saleStakeholder/person/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/person/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
 |saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/person/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |saleStakeholder/person/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/person/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
@@ -843,16 +849,16 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |saleStakeholder/person/correspondingAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
 |saleStakeholder/person/correspondingAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 |saleStakeholder/person/correspondingAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/person/correspondingAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/person/correspondingAssociate/userName|string|Stakeholder - User name: User name| x |
 |saleStakeholder/person/correspondingAssociate/personEmail|string|Stakeholder - E-mail| x |
@@ -876,6 +882,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
+|saleStakeholder/contact/categoryGroup|listAny|Stakeholder - Category group| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
 |saleStakeholder/contact/country|listAny|Stakeholder - Country: This criterion corresponds to the Country field on the Company card.| x |
 |saleStakeholder/contact/countryId|int|Stakeholder - Country ID: Country ID| x |
@@ -946,6 +953,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/url/URLAddress|string|Stakeholder - URL| x |
 |saleStakeholder/contact/url/URLDescription|string|Stakeholder - Description| x |
 |saleStakeholder/contact/contactAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
@@ -953,10 +964,6 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/contactAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
 |saleStakeholder/contact/contactAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |saleStakeholder/contact/contactAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |saleStakeholder/contact/contactAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/contact/contactAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/contact/contactAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1050,6 +1057,10 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
 |quote/orderComment|string|Comment: Customer's comment| x |
 |quote/connectionId|int|DB-ID: Database ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |quote/registeredDate|date|Registered at: Displays the date when the quote was registered.| x |
 |quote/version/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/description|string|Description: Description of the quote version| x |
@@ -1057,10 +1068,6 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |quote/version/sent|date|Sent: The date the quote (version) was sent to the customer| x |
 |quote/version/expiration|date|Expiry date: The last date that the quote is valid| x |
 |quote/version/state|listAny|State: The current state the quote is in| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |quote/version/status|listAny|Quote status: Status field showing the status of each line.| x |
 |quote/version/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
 |quote/version/paymentTerms|listExternal|Payment terms: Payment terms|  |
@@ -1148,7 +1155,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personUdef/SuperOffice:9,contact/nameDepartment,contact/contactAssociate/contactDepartment,project/projectAssociate/ejUserId,saleStakeholder/person/personUdef/SuperOffice:2
+GET /api/v1/archive/LinksSales?$select=person/personUpdatedByFullName,person/personExtra/x_person_shorttext,person/personExtra/x_person_shorttext_list,contact/postAddress/wgs84latitude,contact/streetAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

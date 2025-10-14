@@ -15,6 +15,7 @@ Creates a new ForeignAppEntity
 
 
 Calls the ForeignSystem agent service SaveForeignAppEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,27 +90,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 852,
-  "Name": "Koch, Dietrich and Kshlerin",
-  "CreatedDate": "2020-09-30T11:24:53.2968202+02:00",
-  "UpdatedDate": "2018-09-16T11:24:53.2968202+02:00",
+  "ForeignAppId": 220,
+  "Name": "Cassin Group",
+  "CreatedDate": "2022-10-07T03:40:55.7569215+02:00",
+  "UpdatedDate": "2013-02-10T03:40:55.7569215+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 977,
-      "Name": "Nader, Senger and Wiegand",
-      "CreatedDate": "2014-11-24T11:24:53.2968202+01:00",
-      "UpdatedDate": "2024-03-03T11:24:53.2968202+01:00",
-      "AssociateFullName": "Amber Larkin",
-      "CreatedBy": "praesentium",
-      "UpdatedBy": "minima",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 782
+      "ForeignDeviceId": 936,
+      "Name": "Boyer-Reilly",
+      "CreatedDate": "1998-06-08T03:40:55.7569215+02:00",
+      "UpdatedDate": "2018-11-13T03:40:55.7569215+01:00",
+      "AssociateFullName": "Casper Lockman",
+      "CreatedBy": "aut",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "sequi",
+      "ForeignAppId": 113
     }
   ]
 }
@@ -122,29 +123,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 617,
-  "Name": "Koss-Murazik",
-  "CreatedDate": "2017-05-11T11:24:53.2968202+02:00",
-  "UpdatedDate": "2016-12-05T11:24:53.2968202+01:00",
+  "ForeignAppId": 462,
+  "Name": "Nicolas-Carter",
+  "CreatedDate": "2018-01-20T03:40:55.7569215+01:00",
+  "UpdatedDate": "2020-06-16T03:40:55.7569215+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 693,
-      "Name": "Lemke LLC",
-      "CreatedDate": "2013-11-12T11:24:53.2968202+01:00",
-      "UpdatedDate": "2024-03-06T11:24:53.2968202+01:00",
-      "AssociateFullName": "Tyshawn Collier",
-      "CreatedBy": "blanditiis",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 895,
+      "ForeignDeviceId": 976,
+      "Name": "Roob Inc and Sons",
+      "CreatedDate": "2001-01-12T03:40:55.7569215+01:00",
+      "UpdatedDate": "2010-07-01T03:40:55.7569215+02:00",
+      "AssociateFullName": "Dr. Kraig Jennie Walsh IV",
+      "CreatedBy": "quis",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 546,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 160
         }
       }
     }
@@ -154,12 +155,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 165
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

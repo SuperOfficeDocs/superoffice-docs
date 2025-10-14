@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/DeleteWindowPosSize
 Deletes a window and dialog position and size setting.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WindowPosSizeId": 369
+  "WindowPosSizeId": 753
 }
 ```
 

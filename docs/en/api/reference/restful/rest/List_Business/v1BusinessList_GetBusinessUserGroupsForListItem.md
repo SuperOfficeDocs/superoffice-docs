@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Haley Group",
-    "ToolTip": "Maiores illo quia ea voluptatem vitae quis.",
-    "Deleted": true,
-    "Rank": 59,
-    "Type": "libero",
-    "ColorBlock": 398,
-    "IconHint": "perferendis",
+    "Id": 85,
+    "Name": "Bergstrom, Yundt and Yundt",
+    "ToolTip": "Est neque et voluptatum.",
+    "Deleted": false,
+    "Rank": 725,
+    "Type": "perspiciatis",
+    "ColorBlock": 300,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2013-07-14T11:24:53.8592973+02:00",
+    "LastChanged": "2020-04-22T03:40:56.711976+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Blick, Renner and Schowalter",
-        "ToolTip": "Ab inventore porro error qui.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "officia",
-        "ColorBlock": 867,
-        "IconHint": "id",
+        "Id": 641,
+        "Name": "Dickinson, Prohaska and Bartoletti",
+        "ToolTip": "Quia ut qui reprehenderit tenetur.",
+        "Deleted": true,
+        "Rank": 1000,
+        "Type": "adipisci",
+        "ColorBlock": 495,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2005-08-25T11:24:53.8592973+02:00",
+        "LastChanged": "1999-05-07T03:40:56.711976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "sit",
+        "ExtraInfo": "hic",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Jean Else Wilkinson PhD",
+        "FullName": "Prof. Aylin Dan Russel DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 100
+            "FieldType": "System.Int32",
+            "FieldLength": 612
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "iste",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Tia Huel",
+    "FullName": "Andreane Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 791
       }
     }
   }

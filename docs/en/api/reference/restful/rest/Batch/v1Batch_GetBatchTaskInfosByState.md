@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Kerluke Group",
-    "AssociateId": 55,
-    "DetailsTable": 682,
-    "DetailsRecord": 917,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 759,
+    "Name": "Wisoky-Heaney",
+    "AssociateId": 62,
+    "DetailsTable": 501,
+    "DetailsRecord": 399,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "illo",
-      "ParameterObject2": "velit"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "perspiciatis"
     },
-    "LastStarted": "2025-09-03T11:24:53.7343025+02:00",
-    "Created": "2017-11-02T11:24:53.7343025+01:00",
-    "StartCount": 986,
-    "DatabaseSerialNumber": "853764",
-    "Context": "illum",
-    "Result": "blanditiis",
+    "LastStarted": "2018-12-19T03:40:56.4303339+01:00",
+    "Created": "2003-09-01T03:40:56.4303339+02:00",
+    "StartCount": 576,
+    "DatabaseSerialNumber": "1029171",
+    "Context": "quasi",
+    "Result": "quo",
     "State": "All",
-    "Description": "Compatible empowering model",
-    "Response": "exercitationem",
-    "Request": "libero",
-    "ProgressDescription": "Extended empowering system engine",
-    "ProgressPercent": 785,
-    "FileName": "Keeling, Schmitt and Mitchell",
+    "Description": "Digitized dynamic monitoring",
+    "Response": "dolores",
+    "Request": "explicabo",
+    "ProgressDescription": "Operative solution-oriented customer loyalty",
+    "ProgressPercent": 343,
+    "FileName": "Smith Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

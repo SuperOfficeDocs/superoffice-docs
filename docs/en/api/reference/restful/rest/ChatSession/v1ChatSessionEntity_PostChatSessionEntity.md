@@ -15,6 +15,7 @@ Creates a new ChatSessionEntity
 
 
 Calls the Chat agent service SaveChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -137,33 +138,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 109,
-  "TopicId": 395,
+  "ChatSessionId": 517,
+  "TopicId": 470,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "adipisci",
-  "CustomerName": "Bergstrom-Padberg",
-  "CustomerEmail": "terry_bradtke@douglasrath.ca",
-  "CustomerPhone": "1-021-752-0437 x418",
+  "CustomerAlias": "eveniet",
+  "CustomerHost": "atque",
+  "CustomerName": "Zulauf-Bergstrom",
+  "CustomerEmail": "phyllis@predovicondricka.ca",
+  "CustomerPhone": "815.701.8159 x5940",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Zieme-Yost",
+  "CustomerCompanyName": "Cartwright Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "aut",
-  "WhenRequested": "2009-03-25T11:24:52.9843331+01:00",
-  "WhenStarted": "2003-12-27T11:24:52.9843331+01:00",
-  "WhenEnded": "2013-10-27T11:24:52.9843331+01:00",
-  "WhenIdle": "2002-04-09T11:24:52.9843331+02:00",
-  "WhenFetched": "2011-05-04T11:24:52.9843331+02:00",
-  "SessionKey": "doloribus",
-  "InitialQueuePos": 364,
-  "AlertLevel": 465,
-  "Rank": 352,
+  "FirstMessage": "modi",
+  "LastMessage": "similique",
+  "WhenRequested": "2006-12-26T03:40:55.2411754+01:00",
+  "WhenStarted": "2022-12-28T03:40:55.2411754+01:00",
+  "WhenEnded": "2002-09-01T03:40:55.2411754+02:00",
+  "WhenIdle": "2006-12-04T03:40:55.2411754+01:00",
+  "WhenFetched": "2024-04-06T03:40:55.2411754+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 672,
+  "AlertLevel": 224,
+  "Rank": 193,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -171,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 255
+  "Rating": 288
 }
 ```
 
@@ -182,43 +183,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 565,
-  "TopicId": 255,
+  "ChatSessionId": 670,
+  "TopicId": 880,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "rerum",
-  "CustomerName": "Glover LLC",
-  "CustomerEmail": "nickolas_schroeder@boyer.ca",
-  "CustomerPhone": "302-216-6234 x395",
+  "CustomerAlias": "cum",
+  "CustomerHost": "et",
+  "CustomerName": "Halvorson-Goldner",
+  "CustomerEmail": "wade_littel@crookskilback.name",
+  "CustomerPhone": "869-705-8736 x190",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Feeney-Reichert",
+  "CustomerCompanyName": "Schultz-Harvey",
   "Status": "Closed",
-  "FirstMessage": "nesciunt",
-  "LastMessage": "et",
-  "WhenRequested": "2024-09-24T11:24:52.9843331+02:00",
-  "WhenStarted": "2001-08-23T11:24:52.9843331+02:00",
-  "WhenEnded": "2000-05-23T11:24:52.9843331+02:00",
-  "WhenIdle": "2019-10-29T11:24:52.9843331+01:00",
-  "WhenFetched": "1999-08-10T11:24:52.9843331+02:00",
-  "SessionKey": "repellendus",
-  "InitialQueuePos": 300,
-  "AlertLevel": 185,
-  "Rank": 612,
+  "FirstMessage": "accusamus",
+  "LastMessage": "sit",
+  "WhenRequested": "2002-05-26T03:40:55.2568012+02:00",
+  "WhenStarted": "2006-11-02T03:40:55.2568012+01:00",
+  "WhenEnded": "2016-11-30T03:40:55.2568012+01:00",
+  "WhenIdle": "2023-07-16T03:40:55.2568012+02:00",
+  "WhenFetched": "2023-08-30T03:40:55.2568012+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 897,
+  "AlertLevel": 366,
+  "Rank": 906,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 831,
+  "ChatbotIsActive": false,
+  "Rating": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   },
   "_Links": {

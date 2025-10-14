@@ -14,7 +14,8 @@ PATCH /api/v1/Relation/{id}
 Update a ContactRelationEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -126,18 +127,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tenetur",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -150,35 +151,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 627,
-  "SourcePersonId": 353,
-  "DestinationContactId": 797,
-  "DestinationPersonId": 917,
-  "RelationId": 7,
-  "Comment": "et",
-  "RelationDefinitionId": 721,
-  "Reversed": 588,
-  "UpdatedDate": "2003-07-09T11:24:53.156201+02:00",
-  "CreatedDate": "2019-01-24T11:24:53.156201+01:00",
+  "SourceContactId": 841,
+  "SourcePersonId": 19,
+  "DestinationContactId": 798,
+  "DestinationPersonId": 232,
+  "RelationId": 783,
+  "Comment": "nostrum",
+  "RelationDefinitionId": 656,
+  "Reversed": 382,
+  "UpdatedDate": "2013-05-18T03:40:55.6162809+02:00",
+  "CreatedDate": "2013-12-15T03:40:55.6162809+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lang, Zboncak and Nikolaus",
-  "SourcePersonName": "Watsica Inc and Sons",
-  "DestinationContactName": "DuBuque Group",
-  "DestinationPersonName": "Bruen Group",
-  "ActiveText": "rerum",
-  "PassiveText": "omnis",
+  "SourceContactName": "Anderson LLC",
+  "SourcePersonName": "Moore, Rau and Casper",
+  "DestinationContactName": "Thiel Inc and Sons",
+  "DestinationPersonName": "Wyman-Schowalter",
+  "ActiveText": "fugit",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldLength": 34
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

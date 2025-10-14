@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteHierarchyFromPath
 Remove a hierarchy item and its children from a path
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/DeleteHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "voluptatem"
+  "Path": "error"
 }
 ```
 

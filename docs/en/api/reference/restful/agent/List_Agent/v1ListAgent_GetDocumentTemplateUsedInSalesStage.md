@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage
 Get a String array of names in sales guide that this template is used in
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInSalesStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 587
+  "DocumentTemplateId": 793
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "maiores",
-  "maxime"
+  "impedit",
+  "maiores"
 ]
 ```

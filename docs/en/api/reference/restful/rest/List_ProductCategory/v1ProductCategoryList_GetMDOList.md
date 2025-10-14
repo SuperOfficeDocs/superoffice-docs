@@ -27,8 +27,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=voluptatem
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=animi
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Green-Kovacek",
-    "ToolTip": "Rem voluptates.",
-    "Deleted": true,
-    "Rank": 331,
-    "Type": "ut",
+    "Id": 489,
+    "Name": "Ullrich-Fahey",
+    "ToolTip": "Dolorum repellendus velit ullam ducimus incidunt dolorem incidunt.",
+    "Deleted": false,
+    "Rank": 243,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Roob-Homenick",
-        "ToolTip": "Consequatur est voluptatem consequatur.",
+        "Id": 848,
+        "Name": "Hyatt Inc and Sons",
+        "ToolTip": "Sapiente sit.",
         "Deleted": false,
-        "Rank": 595,
-        "Type": "vitae",
+        "Rank": 821,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 463,
-        "ExtraInfo": "odit",
-        "StyleHint": "praesentium",
-        "FullName": "Mercedes Littel",
+        "IconHint": "facere",
+        "ColorBlock": 720,
+        "ExtraInfo": "delectus",
+        "StyleHint": "ducimus",
+        "FullName": "Christa Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldType": "System.String",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 876,
-    "ExtraInfo": "enim",
-    "StyleHint": "suscipit",
-    "FullName": "Mr. Ruthie Collins DDS",
+    "IconHint": "et",
+    "ColorBlock": 251,
+    "ExtraInfo": "eius",
+    "StyleHint": "et",
+    "FullName": "Virginia Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 159
+        "FieldType": "System.Int32",
+        "FieldLength": 771
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetProductImage
 Returns the product image (rank=1) that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 796
+  "ProductId": 224
 }
 ```
 

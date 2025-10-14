@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Initalizes the TimeZoneData
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,31 +83,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 277,
-    "Name": "Weber-Paucek",
-    "TZLocationCode": "voluptatum",
-    "TZLocationCities": "libero",
-    "IsoNumber": 613,
+    "TZLocationID": 477,
+    "Name": "Roberts, Rogahn and Towne",
+    "TZLocationCode": "maxime",
+    "TZLocationCities": "molestiae",
+    "IsoNumber": 374,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 727,
-        "StartMonth": 202,
-        "EndDay": 861,
-        "EndMonth": 887,
-        "TZOffset": 3,
-        "StartRulePattern": "veritatis",
-        "EndRulePattern": "veniam"
+        "StartDay": 133,
+        "StartMonth": 982,
+        "EndDay": 680,
+        "EndMonth": 642,
+        "TZOffset": 156,
+        "StartRulePattern": "sunt",
+        "EndRulePattern": "voluptas"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 119,
-        "StartMonth": 269,
-        "EndDay": 447,
-        "EndMonth": 85,
-        "TZOffset": 186,
-        "StartRulePattern": "voluptas",
-        "EndRulePattern": "animi"
+        "StartDay": 131,
+        "StartMonth": 767,
+        "EndDay": 441,
+        "EndMonth": 60,
+        "TZOffset": 783,
+        "StartRulePattern": "dolore",
+        "EndRulePattern": "aspernatur"
       }
     }
   }

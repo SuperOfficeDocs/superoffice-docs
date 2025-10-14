@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/GetStatus
 Returns status for the freetext search words
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/FreeText/GetStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,16 +87,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 336,
-  "Occurrences": 32,
-  "LastGenerated": "2022-05-07T11:24:48.1720293+02:00",
-  "AutoEnableTravelAreas": false,
+  "CountWords": 131,
+  "Occurrences": 71,
+  "LastGenerated": "2007-11-12T03:40:46.9999043+01:00",
+  "AutoEnableTravelAreas": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Loading default values into a new PreferenceDescription.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 878,
-  "Section": "sint",
-  "Key": "autem",
-  "Name": "Ortiz-Zemlak",
+  "PrefDescId": 216,
+  "Section": "nostrum",
+  "Key": "et",
+  "Name": "Hamill Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly analyzing monitoring",
-  "IsBuiltin": true,
-  "TableName": "Stark, Lowe and Barton",
-  "UserDefinedListId": 333,
-  "Rank": 14,
-  "SubGroup": "similique",
-  "MinLevel": 263,
-  "MaxValue": 441,
-  "MinValue": 329,
-  "RequiredLicense": "suscipit",
+  "Description": "Persevering analyzing monitoring",
+  "IsBuiltin": false,
+  "TableName": "Schultz-Walker",
+  "UserDefinedListId": 818,
+  "Rank": 642,
+  "SubGroup": "sint",
+  "MinLevel": 180,
+  "MaxValue": 664,
+  "MinValue": 713,
+  "RequiredLicense": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 418
     }
   }
 }

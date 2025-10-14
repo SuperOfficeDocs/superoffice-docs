@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 707,
-  "StartTime": "2018-11-24T11:24:47.2814408+01:00",
-  "EndTime": "2018-09-15T11:24:47.2814408+02:00",
-  "Count": 390,
+  "ProjectId": 649,
+  "StartTime": "2025-03-02T03:40:45.5762384+01:00",
+  "EndTime": "2021-11-21T03:40:45.5762384+01:00",
+  "Count": 739,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 897,
-    "StartDate": "2006-09-11T11:24:47.2814408+02:00",
-    "EndDate": "2005-06-07T11:24:47.2814408+02:00",
+    "AppointmentId": 597,
+    "StartDate": "2018-12-29T03:40:45.5762384+01:00",
+    "EndDate": "2004-09-30T03:40:45.5762384+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Prof. Jessyca Corkery",
-    "ContactName": "Boyle Group",
-    "Description": "Automated dedicated infrastructure",
-    "PersonFullName": "Prof. Colby Leannon V",
-    "PersonId": 166,
-    "ContactId": 336,
-    "ProjectId": 181,
-    "ProjectName": "Graham Inc and Sons",
+    "Task": "excepturi",
+    "AssociateFullName": "Eveline Jacobi",
+    "ContactName": "Bosco, Rau and Jenkins",
+    "Description": "Multi-lateral object-oriented ability",
+    "PersonFullName": "Koby Weissnat",
+    "PersonId": 243,
+    "ContactId": 868,
+    "ProjectId": 799,
+    "ProjectName": "Von-Ebert",
     "IsPublished": false,
-    "AssociateId": 776,
-    "ColorIndex": 71,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "AssociateId": 267,
+    "ColorIndex": 791,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 324,
-    "PriorityName": "O'Keefe, Abbott and Moen",
+    "PriorityId": 733,
+    "PriorityName": "Feest-Sauer",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-02-25T11:24:47.2814408+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2008-04-28T03:40:45.5762384+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-06-26T11:24:47.2814408+02:00",
-    "RecurringEndDate": "2021-01-04T11:24:47.2814408+01:00",
-    "MotherId": 511,
-    "AssignedBy": 405,
-    "AssignedByFullName": "Ms. Andreane Ezekiel Tillman I",
+    "RecurringStartDate": "2016-08-27T03:40:45.5762384+02:00",
+    "RecurringEndDate": "2022-06-21T03:40:45.5762384+02:00",
+    "MotherId": 288,
+    "AssignedBy": 60,
+    "AssignedByFullName": "Grayson Johnston II",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 876,
-    "SaleName": "Moen-Hane",
-    "AssociateName": "Langworth Group",
-    "CreatedDate": "2011-09-02T11:24:47.2814408+02:00",
-    "CreatedBy": "in",
-    "CreatedByFullName": "Ada Gerlach",
-    "CreatedByAssociateId": 198,
+    "Location": "culpa",
+    "AlarmLeadTime": "illum",
+    "SaleId": 480,
+    "SaleName": "Windler Inc and Sons",
+    "AssociateName": "Terry-Weimann",
+    "CreatedDate": "2016-07-28T03:40:45.5762384+02:00",
+    "CreatedBy": "doloribus",
+    "CreatedByFullName": "Dr. Frederic Larue Larson Jr.",
+    "CreatedByAssociateId": 293,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 607,
+    "MotherAssociateId": 870,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 221,
-    "Title": "eveniet",
-    "Agenda": "nesciunt",
-    "InternalNotes": "laborum",
+    "PreferredTZLocation": 365,
+    "Title": "minus",
+    "Agenda": "eos",
+    "InternalNotes": "placeat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 133
       }
     }
   }

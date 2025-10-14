@@ -15,6 +15,7 @@ Gets a CRMScriptEntity object.
 
 
 Calls the CRMScript agent service GetCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -95,7 +96,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,53 +106,53 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 553,
-  "UniqueIdentifier": "repellat",
-  "Name": "Bogan, Jaskolski and Auer",
-  "Description": "De-engineered directional matrix",
-  "IncludeId": "modi",
-  "AccessKey": "quibusdam",
-  "HierarchyId": 92,
-  "Source": "fugit",
-  "SourceCode": "et",
+  "EjscriptId": 137,
+  "UniqueIdentifier": "molestias",
+  "Name": "Schimmel, Schmeler and Wuckert",
+  "Description": "Extended homogeneous collaboration",
+  "IncludeId": "ea",
+  "AccessKey": "et",
+  "HierarchyId": 561,
+  "Source": "omnis",
+  "SourceCode": "quia",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 511,
+  "HtmlOutput": 702,
   "Includes": [
-    183,
-    954
+    721,
+    86
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 362,
-      "LineNumberTo": 241,
-      "Delta": 480,
-      "IncludeId": "perspiciatis",
+      "LineNumberFrom": 959,
+      "LineNumberTo": 272,
+      "Delta": 917,
+      "IncludeId": "ut",
       "IncludedFrom": [
-        "ut",
-        "voluptatum"
+        "fugiat",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 365
+          "FieldLength": 483
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-05-16T11:24:53.156201+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2003-08-22T11:24:53.156201+02:00",
-  "UpdatedAssociateId": 985,
+  "Registered": "2015-10-19T03:40:55.6162809+02:00",
+  "RegisteredAssociateId": 711,
+  "Updated": "2022-07-22T03:40:55.6162809+02:00",
+  "UpdatedAssociateId": 182,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 787
     }
   },
   "_Links": {

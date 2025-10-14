@@ -26,7 +26,7 @@ Gets all the ProjectStatus items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items?includeDeleted=True
+GET /api/v1/List/ProjectStatus/Items?includeDeleted=False
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Murazik, Marquardt and Greenfelder",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 297,
-    "Rank": 538,
+    "Id": 571,
+    "Name": "Ruecker-Koelpin",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 121,
+    "Rank": 319,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 578
       }
     }
   }

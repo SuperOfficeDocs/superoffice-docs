@@ -15,6 +15,7 @@ Send a workflow event.
 
 
 Most event signaling will finish very quickly as they normally just change the state of a workflow instance
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/Workflow/SendEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "in",
+  "Attributes": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldLength": 276
     }
   }
 }

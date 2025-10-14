@@ -81,32 +81,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 697,
-  "Name": "Heller, Boyle and Senger",
-  "PersonId": 331,
-  "Rank": 568,
-  "Tooltip": "consectetur",
+  "AssociateId": 674,
+  "Name": "Howe-Jones",
+  "PersonId": 235,
+  "Rank": 316,
+  "Tooltip": "fuga",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 340,
-  "FullName": "Norval Erdman",
-  "FormalName": "Rowe, Williamson and Fadel",
-  "Deleted": false,
-  "EjUserId": 714,
-  "UserName": "Wisoky, Kerluke and Ortiz",
+  "GroupIdx": 76,
+  "FullName": "Lamont Gutkowski PhD",
+  "FormalName": "Rice-Witting",
+  "Deleted": true,
+  "EjUserId": 564,
+  "UserName": "Gutkowski, Schiller and Purdy",
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "ex",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

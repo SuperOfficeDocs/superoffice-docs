@@ -15,6 +15,7 @@ Copy a crm document to cs attachemnt.
 
 
 For use in mailings
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Document/CopyDocumentToCsAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 807
+  "DocumentId": 193
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-560
+804
 ```

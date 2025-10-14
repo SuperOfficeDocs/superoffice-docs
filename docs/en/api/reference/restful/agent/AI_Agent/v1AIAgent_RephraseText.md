@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/RephraseText
 Generate a new version of a text
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/RephraseText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "enim",
+  "Text": "in",
   "Style": "Casual",
-  "IsoLangCode": "voluptatum"
+  "IsoLangCode": "est"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"repellendus"
 ```

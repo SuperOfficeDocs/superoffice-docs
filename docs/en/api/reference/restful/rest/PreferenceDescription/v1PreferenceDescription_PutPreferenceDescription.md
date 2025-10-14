@@ -14,6 +14,8 @@ PUT /api/v1/PreferenceDescription/{id}
 Updates the existing PreferenceDescription
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -118,24 +120,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 204,
-  "Section": "aut",
-  "Key": "quis",
-  "Name": "Zieme-Doyle",
+  "PrefDescId": 941,
+  "Section": "non",
+  "Key": "consequatur",
+  "Name": "Wolff Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Universal holistic circuit",
+  "Description": "Team-oriented needs-based core",
   "IsBuiltin": false,
-  "TableName": "Larkin-Reichert",
-  "UserDefinedListId": 355,
-  "Rank": 145,
-  "SubGroup": "velit",
-  "MinLevel": 744,
-  "MaxValue": 571,
-  "MinValue": 404,
-  "RequiredLicense": "sed"
+  "TableName": "Windler, Price and Littel",
+  "UserDefinedListId": 604,
+  "Rank": 731,
+  "SubGroup": "illum",
+  "MinLevel": 662,
+  "MaxValue": 473,
+  "MinValue": 451,
+  "RequiredLicense": "quas"
 }
 ```
 
@@ -146,35 +148,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 538,
-  "Section": "illum",
-  "Key": "possimus",
-  "Name": "Kutch, Russel and Okuneva",
+  "PrefDescId": 405,
+  "Section": "et",
+  "Key": "et",
+  "Name": "Abernathy-Moen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Self-enabling bifurcated help-desk",
+  "Description": "Synchronised multi-tasking database",
   "IsBuiltin": false,
-  "TableName": "Huel-Dickinson",
-  "UserDefinedListId": 181,
-  "Rank": 7,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 231,
-  "MaxValue": 413,
-  "MinValue": 12,
-  "RequiredLicense": "aperiam",
+  "TableName": "Howell Inc and Sons",
+  "UserDefinedListId": 921,
+  "Rank": 781,
+  "SubGroup": "est",
+  "MinLevel": 794,
+  "MaxValue": 73,
+  "MinValue": 287,
+  "RequiredLicense": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 639
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

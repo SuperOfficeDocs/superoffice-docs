@@ -15,6 +15,7 @@ Publish zero or more events, and return any new events since the given event id.
 
 
 The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,26 +89,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 169,
+  "LatestKnownEventId": 96,
   "PublishEvents": [
     {
-      "EventId": 389,
-      "EventName": "Wilderman LLC",
-      "EntityType": "quia",
-      "EntityKey": 842,
-      "AssociateId": 723,
-      "AssociateName": "Kunde, Roberts and Jerde",
-      "EventDateTime": "2017-05-23T11:24:48.9532475+02:00"
+      "EventId": 995,
+      "EventName": "Armstrong Inc and Sons",
+      "EntityType": "suscipit",
+      "EntityKey": 911,
+      "AssociateId": 420,
+      "AssociateName": "Weimann, Braun and Abbott",
+      "EventDateTime": "2000-10-03T03:40:48.2817514+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Walter, Beahan and Hane",
-      "Value": 407
+      "Name": "Gislason Inc and Sons",
+      "Value": 810
     },
     {
-      "Name": "Walter, Beahan and Hane",
-      "Value": 407
+      "Name": "Gislason Inc and Sons",
+      "Value": 810
     }
   ]
 }
@@ -121,19 +122,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 737,
-    "EventName": "Bergnaum, Smith and Dickens",
-    "EntityType": "beatae",
-    "EntityKey": 431,
-    "AssociateId": 770,
-    "AssociateName": "Botsford-McGlynn",
-    "EventDateTime": "2013-06-24T11:24:48.9532475+02:00",
+    "EventId": 116,
+    "EventName": "Kreiger, Herzog and Bahringer",
+    "EntityType": "illo",
+    "EntityKey": 381,
+    "AssociateId": 386,
+    "AssociateName": "Hammes, Kertzmann and Vandervort",
+    "EventDateTime": "2008-10-04T03:40:48.2817514+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 622
       }
     }
   }

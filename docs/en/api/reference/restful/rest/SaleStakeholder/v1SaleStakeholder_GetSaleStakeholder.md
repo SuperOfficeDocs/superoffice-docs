@@ -15,6 +15,7 @@ Gets a SaleStakeholder object.
 
 
 Calls the Sale agent service GetSaleStakeholder.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -92,7 +93,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,36 +103,36 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Grant-Kihn",
-  "Comment": "iste",
-  "StakeholderRoleId": 991,
-  "CountryId": 105,
-  "PersonId": 256,
-  "EmailDescription": "jazmin@vonrueden.com",
-  "EmailId": 65,
-  "EmailAddress": "adella@durgan.co.uk",
-  "PhoneId": 402,
-  "ContactName": "Pfeffer-Brekke",
-  "ContactId": 67,
-  "SaleId": 533,
-  "Mrmrs": "nihil",
-  "Firstname": "Caleigh",
-  "MiddleName": "Kuhn Inc and Sons",
-  "Lastname": "Vandervort",
-  "SaleStakeholderId": 82,
-  "Rank": 610,
-  "Phone": "(714)705-1732 x8540",
+  "StakeholderRoleName": "Johns-Hayes",
+  "Comment": "soluta",
+  "StakeholderRoleId": 419,
+  "CountryId": 608,
+  "PersonId": 809,
+  "EmailDescription": "tracey@stark.name",
+  "EmailId": 585,
+  "EmailAddress": "mariano@balistreri.name",
+  "PhoneId": 789,
+  "ContactName": "Wilkinson-Mitchell",
+  "ContactId": 63,
+  "SaleId": 781,
+  "Mrmrs": "rerum",
+  "Firstname": "Miles",
+  "MiddleName": "Roberts Inc and Sons",
+  "Lastname": "Romaguera",
+  "SaleStakeholderId": 940,
+  "Rank": 283,
+  "Phone": "(128)533-6360 x5425",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 773
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

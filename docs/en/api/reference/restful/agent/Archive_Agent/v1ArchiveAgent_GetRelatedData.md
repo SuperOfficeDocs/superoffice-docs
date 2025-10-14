@@ -15,6 +15,7 @@ Get data for fields related to a table record.
 
 
 While this method /can/ be used to fetch plain fields, that is not the intended usage and it does not replace the Entity.Get methods available for that purpose. Nor does it replace the generic DotSyntax/Dynamic archive provider.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,11 +82,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "ut",
-  "RecordId": 715,
+  "Table": "tempora",
+  "RecordId": 764,
   "Fields": [
-    "rerum",
-    "corporis"
+    "consectetur",
+    "recusandae"
   ]
 }
 ```
@@ -98,11 +99,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "et",
+    "Field": "rem",
     "FieldValue": null
   },
   {
-    "Field": "et",
+    "Field": "rem",
     "FieldValue": null
   }
 ]

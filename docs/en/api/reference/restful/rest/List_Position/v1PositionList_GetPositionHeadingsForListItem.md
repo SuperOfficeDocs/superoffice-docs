@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Fay LLC",
-    "ToolTip": "A velit reprehenderit.",
-    "Deleted": true,
-    "Rank": 302,
-    "Type": "nulla",
-    "ColorBlock": 140,
-    "IconHint": "voluptatibus",
-    "Selected": true,
-    "LastChanged": "2023-10-11T11:24:53.9842923+02:00",
+    "Id": 290,
+    "Name": "Stark Group",
+    "ToolTip": "Et dolorum quisquam porro soluta nemo veritatis blanditiis.",
+    "Deleted": false,
+    "Rank": 56,
+    "Type": "qui",
+    "ColorBlock": 308,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2005-06-17T03:40:56.9777222+02:00",
     "ChildItems": [
       {
-        "Id": 96,
-        "Name": "Barton, Williamson and Waelchi",
-        "ToolTip": "Quidem sed modi libero qui.",
+        "Id": 144,
+        "Name": "Koelpin Inc and Sons",
+        "ToolTip": "Beatae beatae.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "delectus",
-        "ColorBlock": 100,
-        "IconHint": "et",
+        "Rank": 680,
+        "Type": "error",
+        "ColorBlock": 715,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2025-03-16T11:24:53.9842923+01:00",
+        "LastChanged": "1999-07-03T03:40:56.9777222+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "minus",
-        "Hidden": false,
-        "FullName": "Miss Cristian Jaskolski II",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Brain McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 109
+            "FieldType": "System.Int32",
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "nihil",
+    "ExtraInfo": "qui",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Tyrel Little",
+    "FullName": "Miss Jessica Larson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldType": "System.Int32",
+        "FieldLength": 881
       }
     }
   }

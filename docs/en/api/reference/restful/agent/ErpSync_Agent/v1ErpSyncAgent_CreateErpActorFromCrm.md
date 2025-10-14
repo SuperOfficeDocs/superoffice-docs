@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 Create ErpActor from crm entity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -75,17 +78,17 @@ OK
 POST /api/v1/Agents/ErpSync/CreateErpActorFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 141,
-  "CrmEntityId": 946,
+  "ConnectionId": 834,
+  "CrmEntityId": 154,
   "ErpActorType": "Customer",
   "CrmActorType": "Contact",
   "ErpFieldKeyValues": {
-    "ErpFieldKeyValues1": "veniam",
-    "ErpFieldKeyValues2": "qui"
+    "ErpFieldKeyValues1": "ab",
+    "ErpFieldKeyValues2": "nesciunt"
   }
 }
 ```
@@ -96,5 +99,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

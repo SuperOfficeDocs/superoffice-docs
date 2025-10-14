@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDeliveryType
 Gets a DeliveryType object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DeliveryType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=88
+POST /api/v1/Agents/List/GetDeliveryType?deliveryTypeId=69
 POST /api/v1/Agents/List/GetDeliveryType?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Value": "laboriosam",
-  "Tooltip": "inventore",
+  "Id": 170,
+  "Value": "dolorum",
+  "Tooltip": "asperiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldType": "System.String",
+      "FieldLength": 473
     }
   }
 }

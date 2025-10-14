@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 581,
-    "Name": "Gerhold-Mitchell",
-    "Tooltip": "qui",
+    "HeadingId": 796,
+    "Name": "Fadel-Bahringer",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 337,
-    "UdListDefinitionId": 927,
+    "Rank": 738,
+    "UdListDefinitionId": 167,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 656
       }
     }
   }

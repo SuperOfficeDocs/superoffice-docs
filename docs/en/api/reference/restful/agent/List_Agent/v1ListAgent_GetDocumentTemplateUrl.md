@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateUrl
 Get a url to the document template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 781,
+  "DocumentTemplateId": 543,
   "WritableUrl": true,
-  "LanguageCode": "vel"
+  "LanguageCode": "veritatis"
 }
 ```
 

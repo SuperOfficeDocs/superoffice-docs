@@ -89,6 +89,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
 |contact/category|listAny|Category| x |
+|contact/categoryGroup|listAny|Category group| x |
 |contact/business|listAny|Business| x |
 |contact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |contact/countryId|int|Country ID: Country ID| x |
@@ -120,11 +121,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/email/emailDescription|string|Description| x |
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
-|contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
@@ -224,11 +225,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
 |contact/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
 |contact/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
-|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
@@ -305,7 +306,9 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
+|person/personCategoryGroup|listAny|Category group| x |
 |person/personBusiness|listAny|Business| x |
+|person/leadstatus|listAny|Lead status| x |
 |person/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |person/hasCompany|bool|Has company: The contact is associated with a company| x |
 |person/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -326,13 +329,13 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personDirectFax/description|string|Fax - Description: Phone number description| x |
 |person/searchPhone/formattedNumber|string|Phone : Displays phone number|  |
 |person/searchPhone/description|string|Description: Phone number description| x |
-|person/personInfo/textId|int|Text ID| x |
-|person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personInfo/textId|int|Text ID| x |
+|person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
@@ -430,13 +433,13 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |person/personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |person/personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
-|person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
-|person/personAssociate/userName|string|User name: User name| x |
-|person/personAssociate/personEmail|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
+|person/personAssociate/userName|string|User name: User name| x |
+|person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -534,13 +537,13 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/projectAssociate/associateDbId|associate|ID| x |
 |project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
@@ -638,13 +641,13 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
-|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
-|sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+|sale/saleNumber|string|Number: Number| x |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -652,6 +655,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -741,13 +745,17 @@ Link data provider for appointments, handles both addressing by source or by des
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID| x |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |destinationAppointmentRestrictionId|int|Destination follow-up ID: IDs of follow-ups which are linked to|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/email/emailHasBounced,contact/url/URLDescription,person/rank,person/personDirectPhone/formattedNumber,person/personInfo/infoText
+GET /api/v1/archive/LinksAppointments?$select=contact/streetAddress/wgs84longitude,contact/LastDoByTicket,person/personAssociate/ejStatus,sale/associate/contactCategory,associate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

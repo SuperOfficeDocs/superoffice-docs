@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/HasSPFRecord
 Return true if target domain contains a SPF record which is under the given SPF record
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -72,12 +75,12 @@ OK
 POST /api/v1/Agents/EMail/HasSPFRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceSpf": "natus",
-  "TargetDomain": "incidunt"
+  "SourceSpf": "aut",
+  "TargetDomain": "deserunt"
 }
 ```
 

@@ -15,6 +15,7 @@ Get a list of all functional rights for the given type of role.
 
 
 MDO List name = 'FunctionRights', extra='roleType=0' 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Brakus Inc and Sons",
-    "ToolTip": "Qui assumenda qui officia et vel asperiores sint.",
-    "Deleted": true,
-    "Rank": 260,
-    "Type": "occaecati",
-    "ColorBlock": 211,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2012-11-06T11:24:48.9063744+01:00",
+    "Id": 612,
+    "Name": "Kuphal Group",
+    "ToolTip": "Aliquam laudantium.",
+    "Deleted": false,
+    "Rank": 490,
+    "Type": "qui",
+    "ColorBlock": 55,
+    "IconHint": "quae",
+    "Selected": true,
+    "LastChanged": "2025-05-05T03:40:48.1723713+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Kerluke Inc and Sons",
-        "ToolTip": "Eos vel dolorum nisi cum sit qui enim.",
+        "Id": 770,
+        "Name": "Wunsch Group",
+        "ToolTip": "Quis voluptas perspiciatis qui fugit repellat et.",
         "Deleted": true,
-        "Rank": 908,
-        "Type": "rerum",
-        "ColorBlock": 671,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2003-05-21T11:24:48.9063744+02:00",
+        "Rank": 897,
+        "Type": "possimus",
+        "ColorBlock": 942,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2012-01-20T03:40:48.1723713+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "nobis",
+        "ExtraInfo": "ea",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Ms. Annabel Schmidt V",
+        "FullName": "Leila Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 854
+            "FieldType": "System.String",
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Keven Rippin",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Stacey Furman Feil DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 470
       }
     }
   }

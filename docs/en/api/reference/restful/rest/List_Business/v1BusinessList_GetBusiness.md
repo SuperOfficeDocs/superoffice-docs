@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 339,
-  "Name": "Schuster, Huel and Bogisich",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "UdListDefinitionId": 163,
-  "Rank": 631,
+  "Id": 981,
+  "Name": "Beer-Turner",
+  "Tooltip": "laborum",
+  "Deleted": false,
+  "UdListDefinitionId": 965,
+  "Rank": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

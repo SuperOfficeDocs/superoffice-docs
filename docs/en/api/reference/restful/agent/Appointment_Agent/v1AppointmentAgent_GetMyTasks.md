@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 754
+  "Count": 163
 }
 ```
 
@@ -146,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 806,
-    "StartDate": "2018-07-15T11:24:47.5939281+02:00",
-    "EndDate": "2010-08-28T11:24:47.5939281+02:00",
+    "AppointmentId": 103,
+    "StartDate": "2024-04-30T03:40:46.0452033+02:00",
+    "EndDate": "2011-10-15T03:40:46.0452033+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quos",
-    "AssociateFullName": "Carol Von PhD",
-    "ContactName": "Hoeger, Nader and Bins",
-    "Description": "Enhanced transitional initiative",
-    "PersonFullName": "Prof. Libby Jewell Kuvalis",
-    "PersonId": 140,
-    "ContactId": 283,
-    "ProjectId": 948,
-    "ProjectName": "Dickens-Jacobi",
+    "Task": "iure",
+    "AssociateFullName": "Nakia Kirlin",
+    "ContactName": "Bayer LLC",
+    "Description": "Optimized motivating implementation",
+    "PersonFullName": "Jameson Emard",
+    "PersonId": 691,
+    "ContactId": 358,
+    "ProjectId": 187,
+    "ProjectName": "Reilly-D'Amore",
     "IsPublished": false,
-    "AssociateId": 461,
-    "ColorIndex": 718,
-    "IsFree": true,
+    "AssociateId": 731,
+    "ColorIndex": 52,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 371,
-    "PriorityName": "Cummings Inc and Sons",
+    "PriorityId": 963,
+    "PriorityName": "Bogisich LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2016-10-17T11:24:47.5939281+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2021-11-04T03:40:46.0452033+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-10-31T11:24:47.5939281+01:00",
-    "RecurringEndDate": "2013-08-30T11:24:47.5939281+02:00",
-    "MotherId": 987,
-    "AssignedBy": 281,
-    "AssignedByFullName": "Devin Weissnat",
+    "RecurringStartDate": "2002-06-28T03:40:46.0452033+02:00",
+    "RecurringEndDate": "2014-02-02T03:40:46.0452033+01:00",
+    "MotherId": 530,
+    "AssignedBy": 134,
+    "AssignedByFullName": "Kaia Lowe DDS",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 263,
-    "SaleName": "Larkin-Schamberger",
-    "AssociateName": "Douglas-Pacocha",
-    "CreatedDate": "2007-08-15T11:24:47.5939281+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Miss Esteban Reilly PhD",
-    "CreatedByAssociateId": 363,
+    "Location": "eum",
+    "AlarmLeadTime": "error",
+    "SaleId": 130,
+    "SaleName": "Schneider, Marvin and Wunsch",
+    "AssociateName": "Welch LLC",
+    "CreatedDate": "2000-12-07T03:40:46.0452033+01:00",
+    "CreatedBy": "nesciunt",
+    "CreatedByFullName": "Kaylee McLaughlin",
+    "CreatedByAssociateId": 442,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 605,
+    "MotherAssociateId": 983,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 731,
-    "Title": "porro",
-    "Agenda": "quia",
-    "InternalNotes": "aperiam",
+    "PreferredTZLocation": 753,
+    "Title": "impedit",
+    "Agenda": "tempore",
+    "InternalNotes": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

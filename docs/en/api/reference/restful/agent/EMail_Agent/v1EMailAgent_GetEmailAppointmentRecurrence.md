@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Get recurrence data contained in the email iCal attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 90
+  "MailItemId": 581
 }
 ```
 
@@ -100,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 795,
-  "StartDate": "2014-12-16T11:24:48.0626591+01:00",
-  "EndDate": "2015-08-30T11:24:48.0626591+02:00",
-  "RecurrenceCounter": 242,
+  "RecurrenceId": 562,
+  "StartDate": "2010-04-19T03:40:46.8123923+02:00",
+  "EndDate": "2016-02-13T03:40:46.8123923+01:00",
+  "RecurrenceCounter": 844,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,20 +115,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-09-18T11:24:48.0626591+02:00",
+      "Date": "2020-12-01T03:40:46.8123923+01:00",
       "IsConflict": false,
-      "Description": "Future-proofed multi-tasking matrix",
-      "DescriptionStyleHint": "Customizable fresh-thinking encryption",
-      "Tooltip": "eveniet"
+      "Description": "Monitored fault-tolerant superstructure",
+      "DescriptionStyleHint": "Automated fault-tolerant success",
+      "Tooltip": "nostrum"
     },
     {
-      "Date": "2000-09-18T11:24:48.0626591+02:00",
+      "Date": "2020-12-01T03:40:46.8123923+01:00",
       "IsConflict": false,
-      "Description": "Future-proofed multi-tasking matrix",
-      "DescriptionStyleHint": "Customizable fresh-thinking encryption",
-      "Tooltip": "eveniet"
+      "Description": "Monitored fault-tolerant superstructure",
+      "DescriptionStyleHint": "Automated fault-tolerant success",
+      "Tooltip": "nostrum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

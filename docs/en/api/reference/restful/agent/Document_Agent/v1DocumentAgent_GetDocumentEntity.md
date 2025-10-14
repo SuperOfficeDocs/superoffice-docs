@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentEntity
 Gets a DocumentEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=70
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=474
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -101,7 +103,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -111,88 +113,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 967,
+  "DocumentId": 707,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tenetur",
-  "Header": "id",
-  "Name": "Weissnat, Conn and O'Keefe",
-  "OurRef": "nemo",
-  "YourRef": "maiores",
-  "CreatedDate": "2012-06-29T11:24:47.9689125+02:00",
-  "UpdatedDate": "2024-07-10T11:24:47.9689125+02:00",
-  "Description": "Profit-focused homogeneous groupware",
+  "Attention": "laborum",
+  "Header": "qui",
+  "Name": "Koelpin Group",
+  "OurRef": "omnis",
+  "YourRef": "suscipit",
+  "CreatedDate": "2024-11-17T03:40:46.6405161+01:00",
+  "UpdatedDate": "2025-03-20T03:40:46.6405161+01:00",
+  "Description": "Team-oriented non-volatile product",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-02-15T11:24:47.9689125+01:00",
-  "ExternalRef": "ducimus",
+  "Date": "2001-07-26T03:40:46.6561419+02:00",
+  "ExternalRef": "esse",
   "Completed": "Completed",
-  "ActiveLinks": 489,
+  "ActiveLinks": 898,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Effertz-Blanda",
-      "Id": 304,
-      "Description": "Seamless analyzing secured line",
+      "EntityName": "Hamill-Feeney",
+      "Id": 342,
+      "Description": "Total intangible website",
       "ExtraInfo": "et",
-      "LinkId": 375,
+      "LinkId": 217,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 423
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 231,
-  "Snum": 117,
+  "SuggestedDocumentId": 136,
+  "Snum": 19,
   "UserDefinedFields": {
-    "SuperOffice:1": "Travis Batz",
-    "SuperOffice:2": "391511433"
+    "SuperOffice:1": "Rosalia Collins",
+    "SuperOffice:2": "Landen Parisian"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "sed"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "1999-05-19T11:24:47.9689125+02:00",
-  "PublishTo": "2016-03-19T11:24:47.9689125+01:00",
-  "PublishFrom": "2011-08-07T11:24:47.9689125+02:00",
+  "PublishEventDate": "2003-09-20T03:40:46.6561419+02:00",
+  "PublishTo": "2022-12-30T03:40:46.6561419+01:00",
+  "PublishFrom": "2006-05-11T03:40:46.6561419+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 144
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 144
         }
       }
     }
@@ -202,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 370
     }
   }
 }

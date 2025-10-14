@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypes
 Get all TicketTypes
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,31 +97,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 421,
-    "Name": "Kunze Group",
-    "Rank": 257,
-    "Tooltip": "et",
-    "Icon": "ad",
-    "DefaultTicketStatus": 885,
+    "TicketTypeId": 133,
+    "Name": "Fahey Group",
+    "Rank": 380,
+    "Tooltip": "porro",
+    "Icon": "molestiae",
+    "DefaultTicketStatus": 805,
     "TicketStatuses": [
-      375,
-      787
+      560,
+      706
     ],
-    "DefaultTicketPriority": 827,
+    "DefaultTicketPriority": 289,
     "TicketPriorities": [
-      187,
-      753
+      75,
+      133
     ],
-    "ReplyTemplate": 204,
+    "ReplyTemplate": 492,
     "IsExternalVisible": false,
     "IsDefault": false,
-    "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
+    "ShowInNew": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      276,
-      387
+      649,
+      549
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -127,8 +129,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

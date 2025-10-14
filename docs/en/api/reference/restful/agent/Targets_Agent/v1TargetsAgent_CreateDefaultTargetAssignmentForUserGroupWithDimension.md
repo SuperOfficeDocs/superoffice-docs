@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimensi
 Returns a default target assignment for the specified usergroup, for the specified dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,12 +85,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 756,
-  "TargetDimensionId": 787
+  "UserGroupId": 980,
+  "TargetDimensionId": 454
 }
 ```
 
@@ -100,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 983,
+    "TargetAssignmentInfoId": 312,
     "Values": [
-      827,
-      242
+      640,
+      33
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 118,
-    "DimensionListItemDisplayName": "Fisher Group",
+    "DimensionListItem": 37,
+    "DimensionListItemDisplayName": "Torp Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 871
       }
     }
   }

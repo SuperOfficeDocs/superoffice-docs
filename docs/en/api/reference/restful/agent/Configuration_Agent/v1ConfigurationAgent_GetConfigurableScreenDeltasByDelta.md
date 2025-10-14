@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 This method will return a configurablescreen delta matching the properties received from the incomming delta
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 914,
-    "Name": "Macejkovic Inc and Sons",
-    "Description": "Cross-platform high-level analyzer",
-    "DeltaJson": "modi",
+    "ConfigurableScreenDeltaId": 831,
+    "Name": "Pacocha Inc and Sons",
+    "Description": "Open-architected next generation architecture",
+    "DeltaJson": "impedit",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "nobis",
-    "UpdatedDate": "2020-09-18T11:24:47.7189228+02:00",
-    "CreatedDate": "2000-10-25T11:24:47.7189228+02:00",
+    "RecipeId": "unde",
+    "UpdatedDate": "2018-11-09T03:40:46.2331872+01:00",
+    "CreatedDate": "2019-05-16T03:40:46.2331872+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      668,
-      688
+      930,
+      896
     ],
-    "AppliesToKey": "ad",
+    "AppliesToKey": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 23
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 307,
-  "Name": "West Inc and Sons",
-  "Tooltip": "possimus",
+  "Id": 103,
+  "Name": "Volkman LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 898,
-  "Rank": 729,
+  "UdListDefinitionId": 822,
+  "Rank": 345,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldLength": 678
     }
   }
 }

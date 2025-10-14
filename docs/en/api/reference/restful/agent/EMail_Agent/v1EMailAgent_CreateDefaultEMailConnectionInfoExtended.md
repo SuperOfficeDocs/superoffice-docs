@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfoExtended
 Loading default values into a new EMailConnectionInfoExtended.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -74,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 294,
-  "ServerName": "Bahringer-Purdy",
-  "Protocol": "laborum",
-  "UserName": "Runolfsson, Lowe and Vandervort",
-  "Password": "repellat",
+  "Port": 528,
+  "ServerName": "Paucek Group",
+  "Protocol": "nihil",
+  "UserName": "Cruickshank-Jaskolski",
+  "Password": "dolorum",
   "UseSSL": false,
-  "Folder": "numquam",
+  "Folder": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 104,
-    "Name": "Eichmann, Turcotte and Reichel",
-    "Tooltip": "eligendi",
+    "HeadingId": 326,
+    "Name": "Jacobi, Rippin and Hartmann",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 588,
-    "UdListDefinitionId": 334,
+    "Rank": 164,
+    "UdListDefinitionId": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 964
       }
     }
   }

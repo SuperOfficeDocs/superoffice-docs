@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/GetRestrictionGroups
 Return all the restriction groups.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,9 +85,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "StorageType": "ut",
-  "ProviderName": "Lynch Inc and Sons",
-  "StorageKey": "repellendus",
-  "Context": "est"
+  "ProviderName": "O'Connell Inc and Sons",
+  "StorageKey": "in",
+  "Context": "repellat"
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hand-Roberts",
-    "Description": "Ameliorated exuding middleware",
-    "Rank": 996,
+    "Name": "Bechtelar Group",
+    "Description": "Polarised grid-enabled budgetary management",
+    "Rank": 898,
     "Restrictions": [
       {
-        "Name": "Zieme LLC",
-        "Operator": "sed",
+        "Name": "Schamberger, Wiegand and Hudson",
+        "Operator": "nobis",
         "Values": [
-          "neque",
-          "beatae"
+          "odit",
+          "provident"
         ],
         "DisplayValues": [
-          "illo",
-          "rerum"
+          "aut",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -118,27 +120,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 795,
+        "InterParenthesis": 631,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 953
       }
     ]
   },
   {
-    "Name": "Hand-Roberts",
-    "Description": "Ameliorated exuding middleware",
-    "Rank": 996,
+    "Name": "Bechtelar Group",
+    "Description": "Polarised grid-enabled budgetary management",
+    "Rank": 898,
     "Restrictions": [
       {
-        "Name": "Zieme LLC",
-        "Operator": "sed",
+        "Name": "Schamberger, Wiegand and Hudson",
+        "Operator": "nobis",
         "Values": [
-          "neque",
-          "beatae"
+          "odit",
+          "provident"
         ],
         "DisplayValues": [
-          "illo",
-          "rerum"
+          "aut",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -146,9 +148,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 795,
+        "InterParenthesis": 631,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 953
       }
     ]
   }

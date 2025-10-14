@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSalesFromContact
 Returns all sales for the contact provided.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,12 +101,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 156,
-  "OnlyOpenSales": true
+  "ContactId": 608,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Walsh, Boyer and Trantow",
-    "SaleDate": "2018-12-08T11:24:48.5939056+01:00",
-    "SaleId": 824,
-    "Probability": 411,
-    "Title": "eveniet",
-    "Amount": 20994.666,
-    "Currency": "tempore",
-    "ProjectName": "Skiles LLC",
-    "AssociateFullName": "Dr. Kenyon Schumm IV",
-    "Description": "De-engineered actuating interface",
+    "ContactName": "Gaylord, Torp and Bins",
+    "SaleDate": "2014-08-10T03:40:47.6723407+02:00",
+    "SaleId": 245,
+    "Probability": 829,
+    "Title": "nemo",
+    "Amount": 20841.1,
+    "Currency": "qui",
+    "ProjectName": "Lowe, Huels and Dach",
+    "AssociateFullName": "Trevor Nikolaus IV",
+    "Description": "Multi-lateral context-sensitive toolset",
     "Status": "Lost",
-    "WeightedAmount": 4002.118,
-    "ProjectId": 286,
-    "EarningPercent": 11655.346,
-    "Earning": 648.73799999999994,
-    "ContactId": 850,
-    "AssociateId": 478,
-    "PersonId": 29,
-    "SaleTypeId": 28,
-    "SaleTypeName": "Dietrich-Beer",
-    "PersonFullName": "Ms. Shawn Strosin",
+    "WeightedAmount": 7813.062,
+    "ProjectId": 993,
+    "EarningPercent": 29957.906,
+    "Earning": 8066.916,
+    "ContactId": 846,
+    "AssociateId": 864,
+    "PersonId": 455,
+    "SaleTypeId": 889,
+    "SaleTypeName": "Zulauf, Raynor and Lehner",
+    "PersonFullName": "Prof. Macey Parker",
     "Completed": "Completed",
-    "ActiveErpLinks": 222,
-    "NextDueDate": "2009-05-14T11:24:48.5939056+02:00",
-    "Number": "1465270",
+    "ActiveErpLinks": 721,
+    "NextDueDate": "2003-10-12T03:40:47.6723407+02:00",
+    "Number": "1037535",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 832
       }
     }
   }

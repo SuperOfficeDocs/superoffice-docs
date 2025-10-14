@@ -15,6 +15,7 @@ Set default values into a new AppointmentEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Appointment agent service CreateDefaultAppointmentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -117,7 +118,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -125,128 +126,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 20 Jul 2002 11:24:52 G7T
+Last-Modified: Wed, 11 Dec 2013 03:40:55 G12T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-02-09T11:24:52.9062112+01:00",
-  "AppointmentId": 756,
-  "Description": "User-centric tertiary task-force",
+  "CreatedDate": "2024-12-29T03:40:55.1630455+01:00",
+  "AppointmentId": 3,
+  "Description": "Centralized system-worthy installation",
   "Title": "cum",
-  "Agenda": "eaque",
-  "InternalNotes": "quia",
-  "StartDate": "2023-03-25T11:24:52.9062112+01:00",
-  "EndDate": "2010-09-05T11:24:52.9062112+02:00",
+  "Agenda": "quibusdam",
+  "InternalNotes": "ipsa",
+  "StartDate": "2021-08-26T03:40:55.1630455+02:00",
+  "EndDate": "2021-07-17T03:40:55.1630455+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 192,
+  "MotherId": 428,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-07-20T11:24:52.9062112+02:00",
+  "UpdatedDate": "2013-12-11T03:40:55.1630455+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 936,
   "Links": [
     {
-      "EntityName": "Kessler-Stiedemann",
-      "Id": 886,
-      "Description": "Function-based discrete framework",
-      "ExtraInfo": "veniam",
-      "LinkId": 828,
+      "EntityName": "Pacocha-Blick",
+      "Id": 908,
+      "Description": "Cloned context-sensitive project",
+      "ExtraInfo": "quia",
+      "LinkId": 745,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 23
         }
       }
     }
   ],
-  "AlarmLeadTime": "fuga",
-  "HasAlarm": false,
-  "ColorIndex": 174,
-  "IsFree": false,
+  "AlarmLeadTime": "quaerat",
+  "HasAlarm": true,
+  "ColorIndex": 896,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "temporibus",
-  "LeadTime": "autem",
-  "Location": "eos",
-  "RejectCounter": 849,
-  "RejectReason": "",
+  "LagTime": "et",
+  "LeadTime": "aut",
+  "Location": "minus",
+  "RejectCounter": 793,
+  "RejectReason": "engineer viral content",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 793,
-      "PersonId": 346,
-      "ContactId": 485,
-      "EmailId": 184,
+      "AssociateId": 382,
+      "PersonId": 296,
+      "ContactId": 557,
+      "EmailId": 357,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "melvin@nienowpollich.com",
-      "Description": "Cloned executive contingency"
+      "EmailAddress": "juliet@mosciski.uk",
+      "Description": "Seamless fresh-thinking functionalities"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-09-20T11:24:52.9062112+02:00",
+  "ActiveDate": "1999-02-23T03:40:55.1630455+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 736,
+  "PreferredTZLocation": 319,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 613,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 540,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "saepe",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kaela Turcotte",
-    "SuperOffice:2": "986103002"
+    "SuperOffice:1": "1495895918",
+    "SuperOffice:2": "Martine Daugherty"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "ipsam"
   },
-  "PublishEventDate": "2000-04-15T11:24:52.9062112+02:00",
-  "PublishTo": "2015-07-30T11:24:52.9062112+02:00",
-  "PublishFrom": "2005-02-27T11:24:52.9062112+01:00",
+  "PublishEventDate": "2025-04-02T03:40:55.1786716+02:00",
+  "PublishTo": "2017-09-30T03:40:55.1786716+02:00",
+  "PublishFrom": "2021-09-16T03:40:55.1786716+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 586,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 216
         }
       }
     },
     {
-      "VisibleId": 586,
+      "VisibleId": 560,
       "Visibility": "All",
-      "DisplayValue": "harum",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 216
         }
       }
     }
@@ -255,8 +256,8 @@ Last-Modified: Sat, 20 Jul 2002 11:24:52 G7T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

@@ -89,13 +89,14 @@ items:
           // call methods on agent here...
     }</code></pre>
   syntax:
-    content: 'public class ErpSyncAgent : AgentBase, IErpSyncAgent, IDisposable'
-    content.vb: Public Class ErpSyncAgent Inherits AgentBase Implements IErpSyncAgent, IDisposable
+    content: 'public class ErpSyncAgent : AgentBase, IErpSyncAgent, IAgentBase, IDisposable'
+    content.vb: Public Class ErpSyncAgent Inherits AgentBase Implements IErpSyncAgent, IAgentBase, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
   implements:
   - SuperOffice.WebApi.Agents.IErpSyncAgent
+  - SuperOffice.WebApi.Agents.IAgentBase
   - System.IDisposable
   inheritedMembers:
   - SuperOffice.WebApi.Agents.AgentBase._json
@@ -1642,7 +1643,7 @@ items:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
   summary: >-
-    Gets a specific ErpSyncConnectorEntity object.                        
+    Gets a specific ErpSyncConnectorEntity object.
 
     <p></p>
 
@@ -2289,6 +2290,14 @@ references:
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.WebApi.Agents.IErpSyncAgent
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
 - uid: System.IDisposable
   commentId: T:System.IDisposable
   parent: System

@@ -15,6 +15,7 @@ Returns all open sales, sorted descending with the latest first.
 
 
 If the weigthed amount is -1, the amount restriction is omitted.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -101,12 +102,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 769,
-  "Count": 396
+  "WeightedAmountLimit": 120,
+  "Count": 932
 }
 ```
 
@@ -118,37 +119,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Shields, Nikolaus and Quitzon",
-    "SaleDate": "2015-06-13T11:24:48.5939056+02:00",
-    "SaleId": 705,
-    "Probability": 850,
-    "Title": "eos",
-    "Amount": 15654.33,
-    "Currency": "voluptatem",
-    "ProjectName": "Stroman, Pfeffer and Wisoky",
-    "AssociateFullName": "Dallin Purdy",
-    "Description": "Exclusive transitional framework",
+    "ContactName": "Ruecker-Beahan",
+    "SaleDate": "2022-04-23T03:40:47.6723407+02:00",
+    "SaleId": 634,
+    "Probability": 337,
+    "Title": "numquam",
+    "Amount": 1363.29,
+    "Currency": "quo",
+    "ProjectName": "Rowe Group",
+    "AssociateFullName": "Willy Zemlak",
+    "Description": "Profound human-resource application",
     "Status": "Lost",
-    "WeightedAmount": 3961.3759999999997,
-    "ProjectId": 730,
-    "EarningPercent": 2836.27,
-    "Earning": 17008.218,
-    "ContactId": 915,
-    "AssociateId": 929,
-    "PersonId": 758,
-    "SaleTypeId": 399,
-    "SaleTypeName": "Treutel Group",
-    "PersonFullName": "Elnora Langworth PhD",
+    "WeightedAmount": 28945.624,
+    "ProjectId": 214,
+    "EarningPercent": 2522.87,
+    "Earning": 5660.004,
+    "ContactId": 737,
+    "AssociateId": 647,
+    "PersonId": 533,
+    "SaleTypeId": 13,
+    "SaleTypeName": "Cormier, Casper and Veum",
+    "PersonFullName": "Enos Dickinson",
     "Completed": "Completed",
-    "ActiveErpLinks": 924,
-    "NextDueDate": "2015-11-29T11:24:48.5939056+01:00",
-    "Number": "1210352",
+    "ActiveErpLinks": 396,
+    "NextDueDate": "2015-02-12T03:40:47.6723407+01:00",
+    "Number": "1149183",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 620
       }
     }
   }

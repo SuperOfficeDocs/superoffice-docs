@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnection
 Returns the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 597
+  "QuoteConnectionId": 809
 }
 ```
 
@@ -103,34 +105,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 297,
-  "ERPName": "Erdman Group",
-  "DisplayName": "Cassin, Mraz and Renner",
-  "DisplayDescription": "Profit-focused 24/7 algorithm",
-  "Rank": 178,
-  "ConnectorName": "Cole-Yost",
-  "ErpConnectionId": 807,
-  "ExtraData": "aut",
+  "QuoteConnectionId": 211,
+  "ERPName": "Weissnat-Lindgren",
+  "DisplayName": "Ledner-Nader",
+  "DisplayDescription": "Versatile actuating access",
+  "Rank": 359,
+  "ConnectorName": "Stoltenberg Group",
+  "ErpConnectionId": 571,
+  "ExtraData": "voluptas",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 173,
-      "ERPPriceListKey": "eligendi",
-      "QuoteConnectionId": 574,
-      "Name": "Gottlieb Group",
-      "Description": "Streamlined demand-driven standardization",
-      "Currency": "enim",
-      "CurrencyName": "Veum-Langosh",
-      "ValidFrom": "2004-08-11T11:24:48.5313897+02:00",
-      "ValidTo": "2018-10-31T11:24:48.5313897+01:00",
-      "IsActive": false,
+      "PriceListId": 991,
+      "ERPPriceListKey": "id",
+      "QuoteConnectionId": 272,
+      "Name": "Bartell-Gerhold",
+      "Description": "Centralized assymetric database",
+      "Currency": "nulla",
+      "CurrencyName": "Ortiz Inc and Sons",
+      "ValidFrom": "2006-02-11T03:40:47.5629587+01:00",
+      "ValidTo": "2012-06-21T03:40:47.5629587+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldType": "System.String",
+          "FieldLength": 543
         }
       }
     }
@@ -138,19 +140,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    749,
-    204
+    33,
+    64
   ],
   "AssociateAccessIds": [
-    700,
-    477
+    382,
+    714
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

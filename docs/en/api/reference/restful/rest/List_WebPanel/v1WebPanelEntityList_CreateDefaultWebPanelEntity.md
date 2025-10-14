@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,11 +87,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 111,
-  "Name": "Ruecker-Nienow",
-  "Tooltip": "quia",
+  "WebPanelId": 827,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 537,
+  "Rank": 702,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Cormier Inc and Sons",
+  "WindowName": "Boyle LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "neque",
-  "Icon": 838,
+  "ProgId": "aut",
+  "Icon": 36,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldLength": 293
     }
   }
 }

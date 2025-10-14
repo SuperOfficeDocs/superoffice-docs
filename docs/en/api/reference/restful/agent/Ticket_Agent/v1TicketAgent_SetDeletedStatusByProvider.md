@@ -15,6 +15,7 @@ Sets tickets' status to Deleted.
 
 
 After a grace period these tickets will be deleted by a background job.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,18 +77,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rolfson-Kuhic",
+  "ProviderName": "McClure Group",
   "Restrictions": [
     {
-      "Name": "Gislason-Balistreri",
-      "Operator": "corporis",
+      "Name": "Stokes-Pfeffer",
+      "Operator": "dolor",
       "Values": [
-        "perspiciatis",
-        "voluptatem"
+        "exercitationem",
+        "ut"
       ],
       "DisplayValues": [
-        "sed",
-        "et"
+        "sit",
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -95,9 +96,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 462,
+      "InterParenthesis": 792,
       "InterOperator": "And",
-      "UniqueHash": 89
+      "UniqueHash": 453
     }
   ]
 }
@@ -110,7 +111,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  65,
-  844
+  193,
+  273
 ]
 ```

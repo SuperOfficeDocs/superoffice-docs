@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Bosco-Donnelly",
-    "ToolTip": "Explicabo eius.",
-    "Deleted": true,
-    "Rank": 661,
-    "Type": "et",
-    "ColorBlock": 179,
-    "IconHint": "vitae",
-    "Selected": false,
-    "LastChanged": "2021-03-28T11:24:53.9217949+02:00",
+    "Id": 869,
+    "Name": "Kshlerin Inc and Sons",
+    "ToolTip": "Neque excepturi velit exercitationem ipsa aut ad quisquam.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "neque",
+    "ColorBlock": 369,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "1998-10-18T03:40:56.8213578+02:00",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Farrell Group",
-        "ToolTip": "Cum magnam necessitatibus illum ut et quibusdam.",
+        "Id": 443,
+        "Name": "Satterfield-Leannon",
+        "ToolTip": "Eligendi ut et fugit.",
         "Deleted": false,
-        "Rank": 882,
-        "Type": "qui",
-        "ColorBlock": 871,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2010-06-30T11:24:53.9217949+02:00",
+        "Rank": 976,
+        "Type": "quaerat",
+        "ColorBlock": 833,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2006-11-22T03:40:56.8213578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Dr. Kristy Schamberger",
+        "ExtraInfo": "hic",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Miss Cecil Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldType": "System.String",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Miss Amy Schroeder DVM",
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Helen Royce Mueller I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 547
       }
     }
   }

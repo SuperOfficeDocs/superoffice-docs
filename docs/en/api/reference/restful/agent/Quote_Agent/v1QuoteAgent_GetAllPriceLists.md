@@ -15,6 +15,7 @@ Gets the all PriceLists in all currencies, including those inactive.
 
 
 Will return empty array if there is no PriceList available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 885,
-  "Currency": "accusantium"
+  "QuoteConnectionId": 556,
+  "Currency": "sed"
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 524,
-    "ERPPriceListKey": "itaque",
-    "QuoteConnectionId": 539,
-    "Name": "Parker LLC",
-    "Description": "Multi-layered analyzing paradigm",
-    "Currency": "dolor",
-    "CurrencyName": "Sipes-Bergstrom",
-    "ValidFrom": "2013-07-26T11:24:48.5313897+02:00",
-    "ValidTo": "1999-09-19T11:24:48.5313897+02:00",
+    "PriceListId": 658,
+    "ERPPriceListKey": "culpa",
+    "QuoteConnectionId": 320,
+    "Name": "Eichmann Inc and Sons",
+    "Description": "Ameliorated background product",
+    "Currency": "assumenda",
+    "CurrencyName": "Cruickshank-Bergstrom",
+    "ValidFrom": "2019-03-04T03:40:47.5629587+01:00",
+    "ValidTo": "2015-02-13T03:40:47.5629587+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 892
       }
     }
   }

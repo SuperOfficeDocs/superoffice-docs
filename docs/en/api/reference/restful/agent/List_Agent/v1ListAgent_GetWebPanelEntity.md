@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelEntity
 Gets a WebPanelEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=244
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=756
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -99,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 131,
-  "Name": "Huels-Shanahan",
-  "Tooltip": "quas",
+  "WebPanelId": 444,
+  "Name": "Harvey-Rosenbaum",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 317,
+  "Rank": 780,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Lindgren LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Konopelski Group",
   "Url": "http://www.example.com/",
-  "ProgId": "libero",
-  "Icon": 287,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "quod",
+  "Icon": 722,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 848
     }
   }
 }

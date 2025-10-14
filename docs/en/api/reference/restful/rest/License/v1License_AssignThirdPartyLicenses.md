@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 524,
-    "Tooltip": "quia",
-    "CanAssign": false,
-    "Free": 407,
-    "InUse": 535,
+    "Total": 6,
+    "Tooltip": "veritatis",
+    "CanAssign": true,
+    "Free": 331,
+    "InUse": 553,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 139,
-    "Name": "Pollich-Homenick",
-    "Description": "Function-based even-keeled archive",
-    "PrerequisiteModuleName": "Waelchi-McKenzie",
-    "SortOrder": 670,
-    "ExtraFlags": 189,
+    "Assigned": true,
+    "ModuleLicenseId": 858,
+    "Name": "Haag LLC",
+    "Description": "Multi-layered dynamic help-desk",
+    "PrerequisiteModuleName": "McKenzie, Crooks and Breitenberg",
+    "SortOrder": 861,
+    "ExtraFlags": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 345
       }
     }
   }

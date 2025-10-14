@@ -15,6 +15,10 @@ Detect the sentiment of a (reasonably short) text.
 
 
 Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -77,11 +81,11 @@ OK
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "exercitationem"
+  "Text": "numquam"
 }
 ```
 
@@ -92,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 418,
-  "Confidence": 210,
+  "Score": 667,
+  "Confidence": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   }
 }

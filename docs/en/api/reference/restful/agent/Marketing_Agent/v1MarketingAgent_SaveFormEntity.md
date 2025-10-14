@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveFormEntity
 Updates the existing FormEntity or creates a new FormEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,36 +110,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 984,
-  "FormKey": "ut",
-  "Name": "Kuhic LLC",
-  "Description": "Fundamental multi-tasking help-desk",
-  "Config": "nihil",
-  "FolderId": 688,
-  "ScriptId": 525,
-  "ResponseShipmentId": 772,
-  "Active": true,
-  "Expires": "2000-04-22T11:24:48.2501511+02:00",
-  "MaxSubmits": 707,
+  "FormId": 963,
+  "FormKey": "nihil",
+  "Name": "Lehner Group",
+  "Description": "Programmable object-oriented budgetary management",
+  "Config": "qui",
+  "FolderId": 501,
+  "ScriptId": 986,
+  "ResponseShipmentId": 91,
+  "Active": false,
+  "Expires": "2022-05-13T03:40:47.2499194+02:00",
+  "MaxSubmits": 263,
   "Type": "Normal",
-  "Recipe": "dolores",
-  "GroupId": 433,
+  "Recipe": "officia",
+  "GroupId": 295,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-01-05T11:24:48.2501511+01:00",
-  "RegisteredAssociateId": 381,
-  "Updated": "2018-07-13T11:24:48.2501511+02:00",
-  "UpdatedAssociateId": 984,
-  "UpdatedCount": 942,
+  "Registered": "2010-08-14T03:40:47.2499194+02:00",
+  "RegisteredAssociateId": 515,
+  "Updated": "2024-09-16T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 511,
+  "UpdatedCount": 679,
   "EmailFlows": [
-    175,
-    347
+    436,
+    972
   ],
-  "FolderName": "Herzog-Kuhn"
+  "FolderName": "Wiza-Jacobson"
 }
 ```
 
@@ -148,38 +150,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 324,
-  "FormKey": "nemo",
-  "Name": "Hayes, Toy and Crist",
-  "Description": "Robust tertiary contingency",
-  "Config": "pariatur",
-  "FolderId": 162,
-  "ScriptId": 798,
-  "ResponseShipmentId": 204,
+  "FormId": 798,
+  "FormKey": "quasi",
+  "Name": "Frami Group",
+  "Description": "Quality-focused mission-critical conglomeration",
+  "Config": "eos",
+  "FolderId": 817,
+  "ScriptId": 656,
+  "ResponseShipmentId": 216,
   "Active": false,
-  "Expires": "1998-11-07T11:24:48.2501511+01:00",
-  "MaxSubmits": 805,
+  "Expires": "2020-05-18T03:40:47.2499194+02:00",
+  "MaxSubmits": 623,
   "Type": "Normal",
-  "Recipe": "exercitationem",
-  "GroupId": 111,
+  "Recipe": "eveniet",
+  "GroupId": 509,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2008-05-12T11:24:48.2501511+02:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2012-04-01T11:24:48.2501511+02:00",
-  "UpdatedAssociateId": 350,
-  "UpdatedCount": 978,
+  "Registered": "2008-01-07T03:40:47.2499194+01:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2010-09-12T03:40:47.2499194+02:00",
+  "UpdatedAssociateId": 315,
+  "UpdatedCount": 397,
   "EmailFlows": [
-    657,
-    59
+    907,
+    423
   ],
-  "FolderName": "Kunze, Thiel and Rice",
+  "FolderName": "Bogisich-Mertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

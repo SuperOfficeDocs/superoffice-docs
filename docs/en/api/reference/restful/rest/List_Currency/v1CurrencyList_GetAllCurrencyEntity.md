@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 452,
-    "Name": "Roob Group",
-    "Tooltip": "voluptatem",
-    "Rank": 494,
-    "Rate": 12636.288,
-    "Units": 23505.0,
+    "CurrencyId": 666,
+    "Name": "Murphy, Bednar and Heaney",
+    "Tooltip": "accusamus",
+    "Rank": 319,
+    "Rate": 2996.104,
+    "Units": 24764.868,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 781
+        "FieldLength": 450
       }
     }
   }

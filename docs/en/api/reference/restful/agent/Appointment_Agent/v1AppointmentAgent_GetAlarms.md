@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetAlarms
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 466
+  "DefaultAlarmLeadTimeInMinutes": 19
 }
 ```
 
@@ -97,47 +97,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 482,
-      "StartTime": "2000-11-08T11:24:47.3283137+01:00",
-      "EndDate": "2008-04-29T11:24:47.3283137+02:00",
-      "AlarmTime": "2012-04-19T11:24:47.3283137+02:00",
-      "PersonId": 182,
-      "PersonFullName": "Prof. Suzanne Alverta Treutel V",
-      "ContactName": "Bode LLC",
-      "ProjectId": 18,
-      "ProjectName": "Bartoletti-Kilback",
-      "AppointmentText": "ut",
-      "SaleId": 216,
-      "SaleName": "Hartmann Group",
-      "Location": "dignissimos",
+      "AppointmentId": 742,
+      "StartTime": "2007-09-27T03:40:45.654368+02:00",
+      "EndDate": "2009-07-05T03:40:45.654368+02:00",
+      "AlarmTime": "2025-10-03T03:40:45.654368+02:00",
+      "PersonId": 842,
+      "PersonFullName": "Miss Sheila Brook Brakus MD",
+      "ContactName": "Schuster Group",
+      "ProjectId": 816,
+      "ProjectName": "Little-Feeney",
+      "AppointmentText": "nihil",
+      "SaleId": 400,
+      "SaleName": "Lubowitz, Jewess and Stark",
+      "Location": "ipsa",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 167,
+      "ContactId": 944,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Aufderhar-Schamberger",
-      "TaskName": "Borer LLC",
+      "FormalName": "Hayes Inc and Sons",
+      "TaskName": "Hane-Balistreri",
       "ContactDepartment": "",
-      "ContactFullName": "Erica Vincent Hackett Sr.",
+      "ContactFullName": "Ike Alex Langosh II",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldType": "System.String",
+          "FieldLength": 553
         }
       }
     }
   ],
-  "PollingInterval": 488,
-  "SilentAfter": 347,
+  "PollingInterval": 939,
+  "SilentAfter": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 161
     }
   }
 }
