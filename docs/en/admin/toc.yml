@@ -18,12 +18,8 @@ items:
     - name: API options
       href: user-preferences/howto/index.md
       items:
-      - name: Get preferences - services
-        href: user-preferences/howto/get-preferences-preferenceagent.md
       - name: Get preferences - data layer
         href: user-preferences/howto/get-preferences-sopreference.md
-      - name: Set preferences - services
-        href: user-preferences/howto/set-preferences-preferenceagent.md
       - name: Set preferences - data layer
         href: user-preferences/howto/set-preferences-sopreference.md
     - name: Reference

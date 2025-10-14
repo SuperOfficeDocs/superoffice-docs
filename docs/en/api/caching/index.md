@@ -42,8 +42,8 @@ The PreferenceCache stores information about [what the user prefers][6].
 Here's how user preferences are handled *without* caching:
 
 * [Get preferences - services][11]
-* [Get preferences - data layer][12]
-* [Set preferences - services][13]
+* [Get preferences - data layer][13]
+* [Set preferences - services][12]
 * [Set preferences - data layer][14]
 
 <!-- Referenced links -->
@@ -53,7 +53,7 @@ Here's how user preferences are handled *without* caching:
 [4]: associate-cache.md
 [5]: category-cache.md
 [6]: ../../admin/user-preferences/howto/index.md
-[11]: ../../admin/user-preferences/howto/get-preferences-preferenceagent.md
-[12]: ../../admin/user-preferences/howto/get-preferences-sopreference.md
-[13]: ../../admin/user-preferences/howto/set-preferences-preferenceagent.md
+[11]: ../web-services/howto/user-preferences/get-preferences-preferenceagent.md
+[12]: ../web-services/howto/user-preferences/set-preferences-preferenceagent.md
+[13]: ../../admin/user-preferences/howto/get-preferences-sopreference.md
 [14]: ../../admin/user-preferences/howto/set-preferences-sopreference.md

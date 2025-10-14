@@ -37,9 +37,9 @@ In NetServer, we can either retrieve the current values of these preferences or 
 * [Set preferences - data layer][4]
 
 <!-- Referenced links -->
-[1]: get-preferences-preferenceagent.md
+[1]: ../../../api/web-services/howto/user-preferences/get-preferences-preferenceagent.md
 [2]: get-preferences-sopreference.md
-[3]: set-preferences-preferenceagent.md
+[3]: ../../../api/web-services/howto/user-preferences/set-preferences-preferenceagent.md
 [4]: set-preferences-sopreference.md
 [5]: ../../../api/caching/superoffice-crm-security.md
 [6]: ../../../database/tables/userpreference.md
