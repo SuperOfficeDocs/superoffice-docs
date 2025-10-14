@@ -107,18 +107,18 @@ In NetServer, we can either retrieve the current values of these preferences or 
 
 ## Related content
 
-* [Preference section reference][7]
+* [Preference section reference][8]
 * [UserPreference database table][6]
-* [Changing personal settings][8] - in SuperOffice CRM
+* [Changing personal settings][7] - in SuperOffice CRM
 * [Global preferences][9] - in Settings and maintenance
 
 <!-- Referenced links -->
-[1]: ../../../api/web-services/howto/user-preferences/get-preferences-preferenceagent.md
-[2]: ../../../api/web-services/howto/user-preferences/set-preferences-preferenceagent.md
-[3]: ../../../api/entities/howto/user-preferences/get-preferences-sopreference.md
-[4]: ../../../api/entities/howto/user-preferences/set-preferences-sopreference.md
-[5]: ../../../api/caching/superoffice-crm-security.md
-[6]: ../../../database/tables/userpreference.md
-[7]: reference/appointment-dialog.md
-[8]: ../../../learn/getting-started/preferences.md
+[1]: ../../api/web-services/howto/user-preferences/get-preferences-preferenceagent.md
+[2]: ../../api/web-services/howto/user-preferences/set-preferences-preferenceagent.md
+[3]: ../../api/entities/howto/user-preferences/get-preferences-sopreference.md
+[4]: ../../api/entities/howto/user-preferences/set-preferences-sopreference.md
+[5]: ../../api/caching/superoffice-crm-security.md
+[6]: ../../database/tables/userpreference.md
+[7]: ../../learn/getting-started/preferences.md
+[8]: reference/appointment-dialog.md
 [9]: ../preferences/learn/index.md
