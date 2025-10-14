@@ -29,13 +29,31 @@ Webpanelen ondersteunen een reeks inhoudstypen:
 
 ## Weergavelocaties voor webpanelen
 
-U kunt extra browsertabbladen toevoegen aan de volgende schermen, zodat de informatie staat waar de gebruikers deze nodig hebben:
+De **weergavelocatie** wordt gedefinieerd wanneer u het paneel configureert. Dit bepaalt waar in SuperOffice het paneel verschijnt.
 
-* Verzoek
-* Bedrijf
-* Persoon
-* Extra tabelitem
-* Dashboard: De browsertabbladen zijn beschikbaar in de vervolgkeuzelijst die u gebruikt om de inhoud van elk van de vier tegels op het dashboard te selecteren.
+* Zijpaneel
+* Werkbalk
+* Navigatorknop (hoofdmenu)
+* Panelen:
+  * Bedrijfs-, Persoons-, Project-, Verkoop- en Selectiekaarten
+  * SuperOffice-knop webpaneel
+  * Sectietabbladen voor Bedrijfs-, Persoons-, Project- en Verkoopschermen
+* Dialoogvensters:
+  * Vervolgactiviteitdialoogvenster
+  * Documentdialoogvenster
+  * Product- en offertedialoogvensters
+* Menu's:
+  * Werkzeugmenu
+  * Weergavemenu
+* Dashboard-tegels (via inhoudskiezer dropdown)
+
+### In Service (verouderd)
+
+* Hoofdscherm
+* Verzoekscherm
+* Bedrijfsscherm
+* Persoonscherm
+* Extra tabelitemscherm
 
 <!-- Referenced links -->
 

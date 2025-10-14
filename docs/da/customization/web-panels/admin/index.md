@@ -29,13 +29,31 @@ Webpaneler understøtter en række indholdstyper:
 
 ## Visningsplaceringer for webpaneler
 
-Du kan tilføje ekstra browserfaner til følgende skærmbilleder, så informationen er der, hvor brugerne har behov for den:
+**Visningsplaceringen** defineres, når du konfigurerer panelet. Dette styrer, hvor i SuperOffice panelet vises.
 
-* Sag
-* Firma
-* Kontaktperson
-* Ekstra tabelpost
-* Dashboard: Browserfanerne vil være tilgængelige på rullelisten, som du bruger til at vælge indholdet af hver af de fire ruder på dashboardet.
+* Sidepanel
+* Værktøjslinje
+* Navigatorknap (hovedmenu)
+* Paneler:
+  * Firma-, Person-, Projekt-, Salgs- og Udvalgskort
+  * SuperOffice-knap webpanel
+  * Detaljekort for Firma-, Person-, Projekt- og Salgsskærmbilleder
+* Dialogbokse:
+  * Opfølgningsdialogboks
+  * Dokumentdialogboks
+  * Produkt- og tilbudsdialogbokse
+* Menuer:
+  * Værktøjsmenu
+  * Vis-menu
+* Dashboard-ruder (via indholdsudvælger dropdown)
+
+### I Service (forældet)
+
+* Hovedskærmbillede
+* Sagsskærmbillede
+* Firmaskærmbillede
+* Personskærmbillede
+* Ekstra tabelpostskærmbillede
 
 <!-- Referenced links -->
 

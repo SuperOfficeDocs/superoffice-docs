@@ -29,13 +29,31 @@ Web panels support a range of content types:
 
 ## Display locations for web panels
 
-You can add extra browser tabs to the following screens so that the information is where the users need it:
+The **display location** is defined when you configure the panel. This controls where in SuperOffice the panel appears.
 
-* Request
-* Company
-* Contact
-* Extra table entry
-* Dashboard: The browser tabs are available in the drop-down list you use to select the content of each or the four tiles on the dashboard.
+* Side panel
+* Toolbar
+* Navigator button (main menu)
+* Panels:
+  * Company, Contact, Project, Sale, and Selection cards
+  * SuperOffice button web panel
+  * Section tabs for Company, Contact, Project, and Sale screens
+* Dialogs:
+  * Follow-up dialog
+  * Document dialog
+  * Product and quote dialogs
+* Menus:
+  * Toolbox menu
+  * View menu
+* Dashboard tiles (via content selector drop-down)
+
+### In Service (legacy)
+
+* Main screen
+* Request screen
+* Company screen
+* Contact screen
+* Extra table entry screen
 
 <!-- Referenced links -->
 

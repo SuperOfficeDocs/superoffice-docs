@@ -29,13 +29,31 @@ Web-Bildschirme unterstützen eine Reihe von Inhaltstypen:
 
 ## Anzeigeorte für Web-Bildschirme
 
-Sie können zu den folgenden Ansichten zusätzliche Browser-Registerkarten hinzufügen, damit die Informationen dort sind, wo die Benutzer sie benötigen:
+Der **Anzeigeort** wird beim Konfigurieren des Panels definiert. Dies steuert, wo in SuperOffice das Panel erscheint.
 
-* Anfrage
-* Firma
-* Person
-* Eintrag in Zusatztabelle
-* Dashboard: Die Browser-Registerkarten sind im Listenfeld verfügbar, mit dem Sie den Inhalt der vier Kacheln im Dashboard auswählen.
+* Seitenpanel
+* Symbolleiste
+* Navigator-Schaltfläche (Hauptmenü)
+* Panels:
+  * Firma-, Person-, Projekt-, Verkaufs- und Selektionskarten
+  * SuperOffice-Schaltfläche Web-Panel
+  * Abschnitt-Registerkarten für Firma-, Person-, Projekt- und Verkaufsansichten
+* Dialoge:
+  * Folgeaktivitätsdialog
+  * Dokumentdialog
+  * Produkt- und Angebotsdialoge
+* Menüs:
+  * Werkzeugmenü
+  * Ansichtsmenü
+* Dashboard-Kacheln (über Inhaltsauswahl-Dropdown)
+
+### In Service (veraltet)
+
+* Hauptansicht
+* Anfrageansicht
+* Firmaansicht
+* Personenansicht
+* Zusatztabelleneintragsansicht
 
 <!-- Referenced links -->
 

@@ -29,13 +29,31 @@ Webbpaneler stöder en rad innehållstyper:
 
 ## Visningsplatser för webbpaneler
 
-Du kan lägga till extra webbläsarflikar på följande skärmar så att informationen finns där användarna behöver den:
+**Visningsplatsen** definieras när du konfigurerar panelen. Detta styr var i SuperOffice panelen visas.
 
-* Ärende
-* Företag
-* Kontaktperson
-* Extra tabellpost
-* Dashboard: Webbläsarflikarna är tillgängliga i den listruta som används för att välja innehållet i de fyra panelerna på dashboarden.
+* Sidopanel
+* Verktygsfält
+* Navigatorknapp (huvudmeny)
+* Paneler:
+  * Företags-, Kontakt-, Projekt-, Försäljnings- och Urvalskort
+  * SuperOffice-knapp webbpanel
+  * Sektionsflikar för Företags-, Kontakt-, Projekt- och Försäljningsskärmar
+* Dialogrutor:
+  * Uppföljningsdialog
+  * Dokumentdialog
+  * Produkt- och offertdialoger
+* Menyer:
+  * Verktygsmenyn
+  * Visa-menyn
+* Dashboard-paneler (via innehållsväljare dropdown)
+
+### I Service (föråldrad)
+
+* Huvudskärm
+* Ärendeskärm
+* Företagsskärm
+* Kontaktskärm
+* Extra tabellpostskärm
 
 <!-- Referenced links -->
 

@@ -29,13 +29,31 @@ Nettleserfaner støtter en rekke innholdstyper:
 
 ## Visningsplasseringer for nettleserfaner
 
-Du kan legge til ekstra nettleserfaner på følgende skjermbilder, slik at informasjonen er der brukerne trenger den:
+**Visningsplasseringen** defineres når du konfigurerer panelet. Dette styrer hvor i SuperOffice panelet vises.
 
-* Sak
-* Firma
-* Person
-* Ekstra oppføring i tabell
-* Dashbord: Nettleserfanene er tilgjengelige i nedtrekkslisten du bruker til å velge innholdet i hvert av de fire figurene på dashbordet.
+* Sidepanel
+* Verktøylinje
+* Navigatorknapp (hovedmeny)
+* Paneler:
+  * Firma-, Person-, Prosjekt-, Salg- og Utvalgskort
+  * SuperOffice-knapp webpanel
+  * Seksjonstabber for Firma-, Person-, Prosjekt- og Salgsskjermbilder
+* Dialogbokser:
+  * Oppfølgingsdialogboks
+  * Dokumentdialogboks
+  * Produkt- og tilbudsdialogbokser
+* Menyer:
+  * Verktøymeny
+  * Vis-meny
+* Dashbord-fliser (via innholdsvelger dropdown)
+
+### I Service (foreldet)
+
+* Hovedskjermbilde
+* Saksskjermbilde
+* Firmaskjermbilde
+* Personskjermbilde
+* Ekstra tabelloppføringsskjermbilde
 
 <!-- Referenced links -->
 
