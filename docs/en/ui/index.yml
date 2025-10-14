@@ -96,11 +96,11 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         text: URL encoding
-      - url: web-panels/passing-data.md
+      - url: ../customization/web-panels/dev/index.md#variables
         itemType: list
         typeDesc: how-to-guide
         text: Pass data with template variables
-      - url: web-panels/create-link-to.md
+      - url: ../customization/web-panels/dev/index.md
         itemType: list
         typeDesc: how-to-guide
         text: Create link to

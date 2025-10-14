@@ -1,7 +1,3 @@
 items:
 - name: Overview
   href: index.md
-- name: Pass data with template variables
-  href: passing-data.md
-- name: Create link to
-  href: create-link-to.md
