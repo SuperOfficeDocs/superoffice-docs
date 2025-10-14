@@ -51,5 +51,5 @@ You can now click the link - the **Appointment** dialog appears, and the web pag
 >
 
 <!-- Referenced links -->
-[2]: ../../ui/web-panels/index.md
+[2]: ../web-panels/admin/index.md
 [3]: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging

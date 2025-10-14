@@ -169,7 +169,7 @@ Read more about each platform API in the SDK documentation.
 [21]: ../../automation/trigger/create-trigger-script.md
 [22]: ../../automation/trigger/create-trigger-macro.md
 [23]: ../../custom-objects/overview.md
-[24]: ../../ui/web-panels/index.md
+[24]: ../../customization/web-panels/admin/index.md
 [25]: ../../ui/blogic/custom-screens/index.md
 [26]: ../../ui/web-app/index.yml
 [27]: ../../ui/web-app/custom-ajax-methods.md

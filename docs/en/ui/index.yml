@@ -84,7 +84,7 @@ conceptualContent:
     - title: Web panels
       summary: ""
       links:
-      - url: web-panels/index.md
+      - url: ../customization/web-panels/admin/index.md
         itemType: explore
         typeDesc: concept
         text: Overview

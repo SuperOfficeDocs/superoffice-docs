@@ -115,7 +115,7 @@ conceptualContent:
       - text: Web panels
         itemType: map
         typeDesc: overview
-        url: ../ui/web-panels/index.md
+        url: ../customization/web-panels/admin/index.md
       - text: SoProtocol
         itemType: explore
         typeDesc: concept

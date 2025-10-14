@@ -96,7 +96,7 @@ landingContent:
         - text: Screen Designer
           url: ../customization/screen-designer/admin/index.md
         - text: Web panels
-          url: ../ui/web-panels/index.md
+          url: ../customization/web-panels/admin/index.md
         - text: SoProtocol
           url: ../customization/soprotocol/index.md
         - text: Custom screens (bLogic)

@@ -78,7 +78,7 @@ With scripts, you can:
 [9]: reference/index.md
 [10]: screen-choosers.md
 [11]: url-parameters.md
-[12]: ../web-panels/index.md
+[12]: ../../customization/web-panels/admin/index.md
 [13]: ../../customization/soprotocol/index.md
 [14]: <xref:CRMScript.Native.EventData>
 [15]: <xref:CRMScript.Native.HtmlElement>
