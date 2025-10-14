@@ -81,6 +81,13 @@ Webpaneler laster innhold dynamisk basert på CRM-kontekst og URL-en som er defi
 1. Serveren svarer med den aktuelle websiden: den mottar URL-en, beregner siden ved hjelp av URL-parametere og returnerer resultatet.
 1. Panelet viser websiden inne i SuperOffice CRM.
 
+## Relatert innhold
+
+* [Legg til webpanel][1]
+* [Bygge webpaneler][2]
+
 <!-- Referenced links -->
+[1]: add-web-panel.md
+[2]: ../../../../en/customization/web-panels/dev/index.md
 
 <!-- Referenced images -->

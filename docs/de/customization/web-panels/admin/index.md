@@ -81,6 +81,13 @@ Web-Bildschirme laden Inhalte dynamisch basierend auf dem CRM-Kontext und der f�
 1. Der Server antwortet mit der entsprechenden Webseite: er empfängt die URL, berechnet die Seite anhand der URL-Parameter und gibt das Ergebnis zurück.
 1. Das Panel rendert die Webseite innerhalb von SuperOffice CRM.
 
+## Verwandte Inhalte
+
+* [Web-Panel hinzufügen][1]
+* [Web-Panels erstellen][2]
+
 <!-- Referenced links -->
+[1]: add-web-panel.md
+[2]: ../../../../en/customization/web-panels/dev/index.md
 
 <!-- Referenced images -->
