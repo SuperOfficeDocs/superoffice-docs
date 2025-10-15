@@ -9,8 +9,6 @@ items:
   - name: Admin
     href: admin/toc.yml
     topicHref: admin/overview.md
-  - name: AI services
-    href: ai/toc.yml
   - name: Automation
     href: automation/toc.yml
   - name: Developer portal

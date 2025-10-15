@@ -1,7 +1,0 @@
-items:
-- name: AI services
-  items:
-  - name: Configuration AI
-    items:
-    - name: Getting started
-      href: configuration-ai/getting-started.md
