@@ -38,7 +38,7 @@ This feature uses machine learning, which means the [system must be trained][1] 
 * [Request categories][3]
 
 <!-- Referenced links -->
-[1]: ../admin/categorization.md
+[1]: ../admin/set-up-categorization.md
 [2]: ../../request/learn/index.md
 [3]: ../../request/admin/category/index.md
 

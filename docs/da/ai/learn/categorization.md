@@ -35,7 +35,7 @@ Denne funktion bruger maskinlæring, hvilket betyder, at [systemet skal trænes]
 * [Sagskategorier][3]
 
 <!-- Referenced links -->
-[1]: ../admin/categorization.md
+[1]: ../admin/set-up-categorization.md
 [2]: ../../request/learn/index.md
 [3]: ../../request/admin/category/index.md
 

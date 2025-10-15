@@ -35,7 +35,7 @@ Denna funktion använder maskininlärning, vilket betyder att [systemet måste t
 * [Ärendekategorier][3]
 
 <!-- Referenced links -->
-[1]: ../admin/categorization.md
+[1]: ../admin/set-up-categorization.md
 [2]: ../../request/learn/index.md
 [3]: ../../request/admin/category/index.md
 

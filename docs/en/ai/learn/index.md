@@ -42,7 +42,7 @@ These features allow your team to focus on meaningful work, while AI handles rep
 [1]: text-analysis.md
 [2]: categorization.md
 [3]: ../../chat/admin/channel-create.md#chatbot
-[4]: ../copilot/index.md
+[4]: copilot.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png

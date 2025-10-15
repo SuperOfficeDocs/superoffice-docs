@@ -35,7 +35,7 @@ Denne funksjonen bruker maskinlæring, som betyr at [systemet må trenes][1] fø
 * [Sakskategorier][3]
 
 <!-- Referenced links -->
-[1]: ../admin/categorization.md
+[1]: ../admin/set-up-categorization.md
 [2]: ../../request/learn/index.md
 [3]: ../../request/admin/category/index.md
 
