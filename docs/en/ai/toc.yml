@@ -1,8 +1,6 @@
 items:
 - name: AI services
   items:
-  - name: SuperOffice Copilot
-    href: copilot/index.md
   - name: Configuration AI
     items:
     - name: Getting started

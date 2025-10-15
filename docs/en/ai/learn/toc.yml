@@ -1,7 +1,9 @@
 items:
-  - name: Overview
-    href: index.md
-  - name: Text analysis
-    href: text-analysis.md
-  - name: Categorization
-    href: categorization.md
+- name: Introduction
+  href: index.md
+- name: Text analysis
+  href: text-analysis.md
+- name: Categorization
+  href: categorization.md
+- name: SuperOffice Copilot
+  href: copilot.md

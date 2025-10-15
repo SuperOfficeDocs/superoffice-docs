@@ -5,3 +5,5 @@ items:
     href: text-analysis.md
   - name: Kategorisierung
     href: categorization.md
+  - name: SuperOffice Copilot
+    href: copilot.md
