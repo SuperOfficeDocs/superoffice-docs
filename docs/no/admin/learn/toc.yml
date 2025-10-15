@@ -17,7 +17,7 @@ items:
   href: ../license/learn/toc.yml
   topicHref: ../license/learn/index.md
 - name: Import
-  href: ../import/learn/toc.yml
-  topicHref: ../import/learn/index.md
+  href: ../import/toc.yml
+  topicHref: ../import/index.md
 - name: Legge til systemhendelse
   href: add-system-event.md
