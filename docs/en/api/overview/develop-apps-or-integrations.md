@@ -255,12 +255,12 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [2]: ../../developer-portal/standard-app/index.md
 [3]: ../../developer-portal/custom-app/index.md
 [4]: ../../developer-portal/partner/manage-permissions.md
-[5]: ../../developer-portal/overview/environments.md
+[5]: ../../developer-portal/getting-started/app-envir.md
 [6]: https://dev.superoffice.com/register
 [7]: ../../developer-portal/create-app/index.md
 [8]: ../../developer-portal/standard-app/index.md
 [9]: ../../developer-portal/custom-app/index.md
-[10]: ../../developer-portal/standard-app/certification.md
+[10]: ../../developer-portal/standard-app/certification/index.md
 [11]: ../../developer-portal/custom-app/validate.md
 [12]: ../web-services/index.md
 [13]: https://dev.superoffice.com
@@ -270,7 +270,7 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [17]: ../../developer-portal/create-app/config/redirects.md
 [18]:https://community.superoffice.com/en/forums
 [19]: https://appstore.superoffice.com
-[20]: ../../developer-portal/tenant-manager/index.md
+[20]: ../../developer-portal/tenants/index.md
 [21]: ../../developer-portal/best-practices/index.md
 [22]: ../../../../release-notes/index.md
 [23]: ../../developer-portal/getting-started/quickstart.md
