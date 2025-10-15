@@ -29,7 +29,7 @@ Disse funktioner giver dit team mulighed for at fokusere på meningsfuldt arbejd
 
 | Tjeneste | Beskrivelse | Licens |
 |---|---|---|
-| [Kategorisering][2] | Foreslår en kategori for nye anmodninger baseret på beskedindholdet. | Categorization |
+| [Kategorisering][2] | Foreslår en kategori for nye sager baseret på beskedindholdet. | Categorization |
 | [Oversættelse, sprogregistrering, stemningsregistrering][1] | Analyserer tekst for at registrere sprog, oversætte det og bestemme sentiment. | Text Services |
 | [Chatbot Connector][3] | Muliggør integration med eksterne chatbots til automatisk håndtering af indgående chats. | Chatbot |
 | [SuperOffice Copilot][4] | Bruger generativ AI til at hjælpe brugere med indholdsoprettelse og opgavevejledning. | Kun i pilot, kun efter invitation |

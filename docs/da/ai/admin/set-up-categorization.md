@@ -12,7 +12,7 @@ category: automation
 topic: ai
 deployment: online
 platform: web
-audience: admin
+audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 redirect_from: /da/ai/admin/index
@@ -23,7 +23,7 @@ redirect_from: /da/ai/admin/index
 Kategorisering bruger maskinlæring til at foreslå kategorier for indkommende sager baseret på deres indhold. Før denne funktion kan bruges, skal AI'en trænes ved hjælp af et udvalg af eksisterende sager.
 
 > [!NOTE]
-> Kategorisering kræver SuperOffice AI Platform og en Categorization-licens. SuperOffice AI er kun tilgængelig for CRM Online.
+> Kategorisering kræver SuperOffice AI Platform og en **Categorization-licens**. SuperOffice AI er kun tilgængelig for CRM Online.
 
 ## 1. Opret et udvalg af sager
 

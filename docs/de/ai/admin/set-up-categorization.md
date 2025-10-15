@@ -12,7 +12,7 @@ category: automation
 topic: ai
 deployment: online
 platform: web
-audience: admin
+audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
 redirect_from: /de/ai/admin/index
@@ -20,14 +20,14 @@ redirect_from: /de/ai/admin/index
 
 # AI-basierte Kategorisierung einrichten
 
-Die Kategorisierung nutzt maschinelles Lernen, um Kategorien für eingehende Anfragen basierend auf ihrem Inhalt vorzuschlagen. Bevor diese Funktion verwendet werden kann, muss die AI mit einer Auswahl bestehender Anfragen trainiert werden.
+Die Kategorisierung nutzt maschinelles Lernen, um Kategorien für eingehende Anfragen basierend auf ihrem Inhalt vorzuschlagen. Bevor diese Funktion verwendet werden kann, muss die AI mit einer Selektion bestehender Anfragen trainiert werden.
 
 > [!NOTE]
-> Die Kategorisierung erfordert die SuperOffice AI Platform und eine Categorization-Lizenz. SuperOffice AI ist nur für CRM Online verfügbar.
+> Die Kategorisierung erfordert die SuperOffice AI Platform und eine **Categorization-Lizenz**. SuperOffice AI ist nur für CRM Online verfügbar.
 
-## 1. Eine Auswahl von Anfragen erstellen
+## 1. Eine Selektion von Anfragen erstellen
 
-Sie müssen zunächst eine Auswahl von Anfragen in SuperOffice erstellen, um das AI-Modell zu trainieren.
+Sie müssen zunächst eine Selektion von Anfragen in SuperOffice erstellen, um das AI-Modell zu trainieren.
 
 1. Klicken Sie auf <i class="ph ph-list-magnifying-glass" aria-label="Suchen-Symbol"></i> **Suchen** oder gehen Sie zu **Neu** > **Selektion**.
 

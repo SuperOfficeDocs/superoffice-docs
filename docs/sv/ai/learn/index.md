@@ -29,7 +29,7 @@ Dessa funktioner gör det möjligt för ditt team att fokusera på meningsfullt 
 
 | Tjänst | Beskrivning | Licens |
 |---|---|---|
-| [Kategorisering][2] | Föreslår en kategori för nya förfrågningar baserat på meddelandeinnehållet. | Categorization |
+| [Kategorisering][2] | Föreslår en kategori för nya ärenden baserat på meddelandeinnehållet. | Categorization |
 | [Översättning, språkidentifiering, sentimentidentifiering][1] | Analyserar text för att identifiera språk, översätta det och bestämma sentiment. | Text Services |
 | [Chatbot Connector][3] | Möjliggör integration med externa chatbotar för automatisk hantering av inkommande chattar. | Chatbot |
 | [SuperOffice Copilot][4] | Använder generativ AI för att hjälpa användare med innehållsskapande och uppgiftsvägledning. | Endast i pilot, endast på inbjudan |

@@ -12,7 +12,7 @@ category: automation
 topic: ai
 deployment: online
 platform: web
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 redirect_from: 
@@ -25,7 +25,7 @@ redirect_from:
 Categorization uses machine learning to suggest categories for incoming requests based on their content. Before this feature can be used, the AI must be trained using a selection of existing requests.
 
 > [!NOTE]
-> Categorization requires the SuperOffice AI Platform and a Categorization license. SuperOffice AI is available for CRM Online only.
+> Categorization requires the SuperOffice AI Platform and a **Categorization license**. SuperOffice AI is available for CRM Online only.
 
 ## 1. Create a selection of requests
 

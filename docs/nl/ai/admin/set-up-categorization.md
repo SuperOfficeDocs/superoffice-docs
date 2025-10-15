@@ -12,7 +12,7 @@ category: automation
 topic: ai
 deployment: online
 platform: web
-audience: admin
+audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
 redirect_from: /nl/ai/admin/index
@@ -23,7 +23,7 @@ redirect_from: /nl/ai/admin/index
 Categorisering gebruikt machine learning om categorieën voor te stellen voor binnenkomende verzoeken op basis van hun inhoud. Voordat deze functie kan worden gebruikt, moet de AI worden getraind met een selectie van bestaande verzoeken.
 
 > [!NOTE]
-> Categorisering vereist het SuperOffice AI Platform en een Categorization-licentie. SuperOffice AI is alleen beschikbaar voor CRM Online.
+> Categorisering vereist het SuperOffice AI Platform en een **Categorization-licentie**. SuperOffice AI is alleen beschikbaar voor CRM Online.
 
 ## 1. Een selectie van verzoeken maken
 

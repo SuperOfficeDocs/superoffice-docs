@@ -12,7 +12,7 @@ category: automation
 topic: ai
 deployment: online
 platform: web
-audience: admin
+audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
 redirect_from: /sv/ai/admin/index

@@ -35,7 +35,7 @@ SuperOffice Copilot weet niets over uw klantgegevens en zal u antwoorden geven m
 
 De SuperOffice Copilot is beschikbaar in alle schermen met het [zijpaneel][1]. Standaard toont het zijpaneel een voorvertoning van het geselecteerde record.
 
-1. Ga naar een bedrijf, contactpersoon, agenda, verkoop, project, verzoek of selectie.
+1. Ga naar een bedrijf, persoon, agenda, verkoop, project, verzoek of selectie.
 
 1. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast de naam van het zijpaneel en selecteer **SuperOffice Copilot**.
 
@@ -70,11 +70,11 @@ Prompts kunnen zonder voorafgaande kennisgeving worden gewijzigd tijdens de pilo
 * **Concurrenten:** AI presenteert algemene informatie over concurrenten en concurrentieanalyse.
 * **Business:** AI vertelt u over het bedrijf waarin het bedrijf actief is.
 
-### Contactpersoon
+### Persoon
 
 * **Bedrijfsdetails:** AI vertelt u over het huidige bedrijf.
-* **Contactdetails:** AI vertelt u over de huidige contactpersoon.
-* **Pitch schrijven:** AI schrijft een pitch gericht op de contactpersoon.
+* **Persoondetails:** AI vertelt u over de huidige persoon.
+* **Pitch schrijven:** AI schrijft een pitch gericht op de persoon.
 
 ### Agenda
 
