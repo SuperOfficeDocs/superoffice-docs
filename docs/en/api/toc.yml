@@ -416,6 +416,13 @@ items:
             items:
               - name: Link sale to appointment
                 href: web-services/howto/sale/link-sale-to-appointment.md
+          - name: User preferences
+            topicHref: web-services/howto/user-preferences/get-preferences-preferenceagent.md
+            items:
+              - name: Get preferences
+                href: web-services/howto/user-preferences/get-preferences-preferenceagent.md
+              - name: Set preferences
+                href: web-services/howto/user-preferences/set-preferences-preferenceagent.md
   - name: Entities
     href: entities/index.md
     items:
@@ -514,6 +521,13 @@ items:
             items:
               - name: Link sale to appointment
                 href: entities/howto/sale/link-sale-to-appointment.md
+          - name: User preferences
+            topicHref: entities/howto/user-preferences/get-preferences-sopreference.md
+            items:
+              - name: Get preferences
+                href: entities/howto/user-preferences/get-preferences-sopreference.md
+              - name: Set preferences
+                href: entities/howto/user-preferences/set-preferences-sopreference.md
   - name: Rows
     href: rows/index.md
     items:
@@ -690,6 +704,11 @@ items:
         items:
           - name: Stakeholders
             href: sql/howto/sale/stakeholders.md
+      - name: User preferences
+        topicHref: sql/howto/user-preferences/add-prefdesc.md
+        items:
+        - name: Add prefdesc
+          href: sql/howto/user-preferences/add-prefdesc.md
   - name: Bulk Operation
     href: bulk-operations/index.md
     items:
