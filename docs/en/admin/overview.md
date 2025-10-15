@@ -52,7 +52,7 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 [4]: lists/learn/index.md
 [6]: preferences/learn/index.md
 [7]: options/learn/index.md
-[8]: import/learn/index.md
+[8]: import/index.md
 [9]: ../custom-objects/learn/udef.md
 [11]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [12]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm

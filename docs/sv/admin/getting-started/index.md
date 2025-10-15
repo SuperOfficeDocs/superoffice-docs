@@ -81,7 +81,7 @@ Det bästa sättet att definiera egna projekt- eller försäljningsguider är at
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
-[3]: ../import/learn/index.md
+[3]: ../import/index.md
 [4]: ../../sale/learn/sales-guides.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md

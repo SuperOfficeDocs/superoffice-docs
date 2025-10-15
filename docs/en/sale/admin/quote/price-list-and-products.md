@@ -141,7 +141,7 @@ Check if the user has [access rights][7] and that the export [preference][8] is 
 [1]: set-up-quote-connector.md
 [3]: configure-product-fields.md
 [4]: ../../../learn/section-tabs/configure-columns.md
-[5]: ../../../admin/import/learn/import-products-from-excel.md
+[5]: ../../../admin/import/products-from-excel.md
 [7]: ../../../admin/user-management/learn/role/index.md
 [8]: ../../../admin/preferences/learn/index.md
 

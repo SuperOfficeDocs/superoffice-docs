@@ -105,7 +105,7 @@ Wenn Sie den Mauszeiger über einen Datensatz bewegen, erscheint eine QuickInfo 
 [24]: ../../../customization/screen-designer/admin/index.md
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md
-[27]: ../../../admin/import/learn/index.md
+[27]: ../../../admin/import/index.md
 [28]: ../../../custom-objects/learn/udef.md
 
 [41]: ../../../automation/crmscript/learn/index.md

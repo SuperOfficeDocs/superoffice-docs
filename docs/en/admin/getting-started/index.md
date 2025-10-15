@@ -81,7 +81,7 @@ The best way to define your own project or sales guides is to discuss and agree 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
-[3]: ../import/learn/index.md
+[3]: ../import/index.md
 [4]: ../../sale/learn/sales-guide/index.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md

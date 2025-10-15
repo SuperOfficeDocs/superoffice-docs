@@ -188,7 +188,7 @@ Interesser er nyttige til at oprette målrettede udvalg, f.eks. markedsføringsk
 
 <!-- Referenced links -->
 [1]: ../../../en/mobile/superoffice-mobile/contact/scan-business-card.md
-[2]: ../../admin/import/learn/index.md
+[2]: ../../admin/import/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
