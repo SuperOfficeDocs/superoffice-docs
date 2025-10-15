@@ -1,30 +1,43 @@
 ---
-uid: help-de-ai-categorisation
-title: KI-Kategorisierung
-description: KI-Kategorisierung
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: KI
+uid: help-de-ai-categorization
+title: Kategorisierung
+description: Übersicht über KI-basierte Anfragenkategorisierung in SuperOffice
+keywords: Kategorisierung, KI, maschinelles Lernen, Anfragenautomatisierung
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
-audience: settings
-audience_tooltip: Settings and maintenance
+license: aiplatform, categorization
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Kategorisierung
 
-Mit dieser Funktion können Sie dem System beibringen, für Anfragen Kategorien gemäß dem Textinhalt in Anfragen vorzuschlagen. Wenn ein Supportmitarbeiter eine neue Anfrage öffnet, wird in der Fußzeile der Anfrage eine vorgeschlagene Kategorie angezeigt. Der Supportmitarbeiter kann dann auf den Link für die Kategorie klicken, um die Anfrage anhand der vorgeschlagenen Kategorie zu aktualisieren. Dies bedeutet Zeitersparnis, weil Ihr Support-Team die Anfrage nicht durchlesen muss, um sie manuell zu kategorisieren.
+Die Kategorisierung nutzt künstliche Intelligenz (KI), um automatisch eine Kategorie für eingehende Anfragen basierend auf dem Nachrichteninhalt vorzuschlagen. Dies hilft Support-Teams, manuelle Arbeit zu reduzieren und Anfragen schneller und konsistenter zu kategorisieren.
 
-Um diese Funktion zu aktivieren, müssen Sie die KI zunächst in Wie man Anfragen kategorisiert trainieren und dann **KI Kategorien vorschlagen lassen** auswählen.
+Wenn die Funktion aktiv ist, erscheint eine vorgeschlagene Kategorie in der Fußzeile der Anfrage. Anfragenbearbeiter können auf den Vorschlag klicken, um die Anfrage mit der vorgeschlagenen Kategorie zu aktualisieren. Nach der Anwendung verschwindet der Vorschlag.
 
-## Trainieren der KI
+Diese Funktion nutzt maschinelles Lernen, was bedeutet, dass [das System trainiert werden muss][1], bevor es genaue Vorschläge liefern kann.
 
-Sie trainieren die KI, indem Sie die KI eine Auswahl von Anfragen analysieren lassen.
+![Vorgeschlagene Kategorie in einer Anfrage -screenshot][img1]
 
-1. Erstellen Sie eine Auswahl von Anfragen in SuperOffice.
-2. Wählen Sie im Listenfeld unter **Kategorisierung** in der Ansicht **KI-Services** die von Ihnen gerade erstellte Selektion aus.
-3. Klicken Sie auf **Anfragen analysieren**. Das System gibt Ihnen Feedback, wie erfolgreich das Training war. Wenn die Selektion der Anfragen für ein erfolgreiches Training unzureichend war, erstellen Sie eine größere Selektion an Anfragen und versuchen Sie es erneut.
+> [!NOTE]
+> Die Kategorisierung erfordert die SuperOffice KI-Plattform und eine **Categorization-Lizenz**. SuperOffice KI ist nur in der Cloud verfügbar und als separates Add-on erhältlich.
 
-## Weitere Quellen einbeziehen
+## Verwandte Inhalte
 
-Unten auf dieser Ansicht können Sie für die Analyse beim Kategorisieren einer Anfrage weitere Textquellen einbeziehen.
+* [KI-basierte Kategorisierung einrichten][1]
+* [Anfragenverwaltung][2]
+* [Anfragenkategorien][3]
+
+<!-- Referenced links -->
+[1]: ../admin/categorization.md
+[2]: ../../request/learn/index.md
+[3]: ../../request/admin/category/index.md
+
+<!-- Referenced image -->
+[img1]: ../../../media/loc/en/ai/suggested-category-demo.png

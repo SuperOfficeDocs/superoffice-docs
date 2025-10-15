@@ -1,31 +1,43 @@
 ---
-uid: help-no-ai-categorisation
-title: AI-kategorisering
-description: AI-kategorisering
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+uid: help-no-ai-categorization
+title: Kategorisering
+description: Oversikt over AI-basert sakskategorisering i SuperOffice
+keywords: kategorisering, AI, maskinlæring, saksautomatisering
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
-audience: settings
-audience_tooltip: Settings and maintenance
-
+license: aiplatform, categorization
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Kategorisering
 
-Denne funksjonen lar deg lære opp systemet til å foreslå kategorier for saker, i henhold til sakers tekstinnhold. Når en støtteagent åpner en ny sak, vil det bli foreslått en kategori i bunnteksten på saken. Støtteagenten kan deretter klikke kategorikoblingen for å oppdatere saken med den foreslåtte kategorien. Dette sparer tid, siden supportteamet ikke trenger å lese gjennom saken for å kategorisere manuelt.
+Kategorisering bruker kunstig intelligens (AI) til automatisk å foreslå en kategori for innkommende saker basert på meldingsinnholdet. Dette hjelper støtteteam med å redusere manuelt arbeid og kategorisere saker raskere og mer konsistent.
 
-Hvis du vil aktivere denne funksjonen, må du først lære opp AI-en i hvordan saker skal kategoriseres, og deretter velge **Bruk AI til å foreslå kategorier**.
+Hvis funksjonen er aktiv, vises en foreslått kategori i bunnteksten til saken. Saksbehandlere kan klikke på forslaget for å oppdatere saken med den foreslåtte kategorien. Når den er brukt, forsvinner forslaget.
 
-## Opplæringen av AI
+Denne funksjonen bruker maskinlæring, som betyr at [systemet må trenes][1] før det kan gi nøyaktige forslag.
 
-Du lærer opp AI ved å la AI analysere et utvalg av saker.
+![Foreslått kategori i en sak -screenshot][img1]
 
-1. Opprett et utvalg av saker i SuperOffice.
-2. Velg utvalget du har opprettet, i listen under **Kategorisering** i bildet **AI-tjenester.**
-3. Klikk på **Analyser saker**. Systemet vil gi deg tilbakemelding på hvor vellykket opplæringen var. Hvis utvalget av saker ikke var tilstrekkelig for en vellykket opplæring, oppretter du et større utvalg av saker og prøver på nytt.
+> [!NOTE]
+> Kategorisering krever SuperOffice AI Platform og en **Categorization-lisens**. SuperOffice AI er kun tilgjengelig i skyen og fås som et separat tillegg.
 
-## Inkluder flere kilder
+## Relatert innhold
 
-Nederst i dette bildet kan du inkludere flere tekstkilder som skal analyseres når du kategoriserer en sak.
+* [Sett opp AI-basert kategorisering][1]
+* [Sakshåndtering][2]
+* [Sakskategorier][3]
+
+<!-- Referenced links -->
+[1]: ../admin/categorization.md
+[2]: ../../request/learn/index.md
+[3]: ../../request/admin/category/index.md
+
+<!-- Referenced image -->
+[img1]: ../../../media/loc/en/ai/suggested-category-demo.png

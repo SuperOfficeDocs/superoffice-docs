@@ -1,30 +1,43 @@
 ---
-uid: help-sv-ai-categorisation
-title: AI-kategorisering
-description: AI-kategorisering
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+uid: help-sv-ai-categorization
+title: Kategorisering
+description: Översikt över AI-baserad ärendekategorisering i SuperOffice
+keywords: kategorisering, AI, maskininlärning, ärendeautomatisering
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
-audience: settings
-audience_tooltip: Settings and maintenance
+license: aiplatform, categorization
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Kategorisering
 
-Med den här funktionen kan du träna systemet att föreslå kategorier för ärenden baserat på textinnehållet relaterat till förfrågningar. När en supporthandläggare öppnar ett nytt ärende visas en föreslagen kategori i ärendets sidfot. Supportagenten kan då klicka på kategorilänken för att uppdatera ärendet med den föreslagna kategorin. Det innebär att ni sparar tid eftersom supportteamet inte behöver läsa igenom hela ärendet för att kategorisera det manuellt.
+Kategorisering använder artificiell intelligens (AI) för att automatiskt föreslå en kategori för inkommande ärenden baserat på meddelandeinnehållet. Detta hjälper supportteam att minska manuellt arbete och kategorisera ärenden snabbare och mer konsistent.
 
-Om du vill aktivera den här funktionen måste du först lära AI-funktionen att kategorisera ärenden och sedan välja **Använd AI för att föreslå kategorier**.
+Om funktionen är aktiv visas en föreslagen kategori i ärendets sidfot. Ärendehandläggare kan klicka på förslaget för att uppdatera ärendet med den föreslagna kategorin. När den har tillämpats försvinner förslaget.
 
-## Träna AI-funktionen
+Denna funktion använder maskininlärning, vilket betyder att [systemet måste tränas][1] innan det kan ge korrekta förslag.
 
-Du tränar AI-funktionen genom att låta den analysera ett antal ärenden.
+![Föreslagen kategori i ett ärende -screenshot][img1]
 
-1. Skapa ett urval av ärenden i SuperOffice Service.
-2. Välj urvalet du nyss skapade i listrutan under **Kategorisering** i fönstret **AI-tjänster**.
-3. Klicka på **Analysera ärenden**. Systemet ger dig feedback om hur framgångsrik träningen var. Om urvalet av ärenden inte var tillräckligt stort för att träningen skulle vara framgångsrik, skapar du ett större urval av ärenden och gör ett nytt försök.
+> [!NOTE]
+> Kategorisering kräver SuperOffice AI Platform och en **Categorization-licens**. SuperOffice AI är endast tillgängligt i molnet och finns som separat tillägg.
 
-## Inkludera ytterligare källor
+## Relaterat innehåll
 
-Längst ner i det här fönstret kan du inkludera ytterligare textkällor för analys i samband med kategorisering av ett ärende.
+* [Konfigurera AI-baserad kategorisering][1]
+* [Ärendehantering][2]
+* [Ärendekategorier][3]
+
+<!-- Referenced links -->
+[1]: ../admin/categorization.md
+[2]: ../../request/learn/index.md
+[3]: ../../request/admin/category/index.md
+
+<!-- Referenced image -->
+[img1]: ../../../media/loc/en/ai/suggested-category-demo.png

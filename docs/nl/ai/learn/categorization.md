@@ -1,30 +1,43 @@
 ---
-uid: help-nl-ai-categorisation
-title: AI-categorisering
-description: AI-categorisering
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+uid: help-nl-ai-categorization
+title: Categorisatie
+description: Overzicht van AI-gebaseerde verzoekcategorisatie in SuperOffice
+keywords: categorisatie, AI, machine learning, verzoekautomatisering
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
-audience: settings
-audience_tooltip: Settings and maintenance
+license: aiplatform, categorization
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Categorisering
+# Categorisatie
 
-Met deze functie kunt u het systeem trainen om categorieën voor verzoeken voor te stellen, op basis van de gerelateerde tekstinhoud van de verzoeken. Wanneer een ondersteuningsagent een nieuw verzoek opent, wordt er een voorgestelde categorie weergegeven in de voettekst van het verzoek. De ondersteuningsagent kan vervolgens op de categoriekoppeling klikken om het verzoek bij te werken met de voorgestelde categorie. Dit betekent tijdsbesparing, omdat uw ondersteuningsteam het verzoek niet hoeft te lezen om handmatig te categoriseren.
+Categorisatie gebruikt kunstmatige intelligentie (AI) om automatisch een categorie voor te stellen voor binnenkomende verzoeken op basis van de berichtinhoud. Dit helpt supportteams om handmatig werk te verminderen en verzoeken sneller en consistenter te categoriseren.
 
-Als u deze functie wilt activeren, moet u eerst de AI trainen in het categoriseren van verzoeken en vervolgens **AI gebruiken om categorieën voor te stellen** selecteren.
+Als de functie actief is, verschijnt een voorgestelde categorie in de voettekst van het verzoek. Verzoekbehandelaars kunnen op het voorstel klikken om het verzoek bij te werken met de voorgestelde categorie. Eenmaal toegepast, verdwijnt het voorstel.
 
-## AI trainen
+Deze functie gebruikt machine learning, wat betekent dat [het systeem getraind moet worden][1] voordat het nauwkeurige suggesties kan geven.
 
-U traint AI door de AI een selectie van verzoeken te laten analyseren.
+![Voorgestelde categorie in een verzoek -screenshot][img1]
 
-1. Maak een selectie van verzoeken in SuperOffice.
-2. Kies in de keuzelijst onder **Categorisatie** in het scherm **AI-diensten** de selectie die u net hebt gemaakt.
-3. Klik op **Verzoeken analyseren**. Het systeem geeft u feedback over hoe succesvol de training was. Als de selectie van verzoeken onvoldoende was voor een succesvolle training, maakt u een grotere selectie van verzoeken en probeert u het opnieuw.
+> [!NOTE]
+> Categorisatie vereist het SuperOffice AI Platform en een **Categorization-licentie**. SuperOffice AI is alleen beschikbaar in de cloud en verkrijgbaar als aparte uitbreiding.
 
-## Extra bronnen opnemen
+## Gerelateerde inhoud
 
-Onder aan dit scherm kunt u extra tekstbronnen opnemen om te analyseren bij het categoriseren van een verzoek.
+* [AI-gebaseerde categorisatie instellen][1]
+* [Verzoekbeheer][2]
+* [Verzoekcategorieën][3]
+
+<!-- Referenced links -->
+[1]: ../admin/categorization.md
+[2]: ../../request/learn/index.md
+[3]: ../../request/admin/category/index.md
+
+<!-- Referenced image -->
+[img1]: ../../../media/loc/en/ai/suggested-category-demo.png
