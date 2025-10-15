@@ -1,14 +1,14 @@
 ---
-uid: database-whats-new-11.5.758.0
-title: What's new in version 11.5.758.0
-description: What's new in database version 11.5.758.0.
+uid: database-whats-new-11.5.755.0
+title: What's new in version 11.5.755.0
+description: What's new in database version 11.5.755.0.
 generated: true
 keywords: database
 content_type: reference
 envir: onsite, online
 ---
 
-# Released database changes in version 11.5.758.0
+# Released database changes in version 11.5.755.0
 
 ## SuperOffice
 

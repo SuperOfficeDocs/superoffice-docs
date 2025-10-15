@@ -52,6 +52,8 @@ items:
       href: api/11.5/11.5-netserver-update.md
     - name: SuperOffice WebApi Changes
       href: api/11.5/11.5-webapi-update.md
+    - name: Database changes 11.5
+      href: ../database/changes-11.5.755.md
   - name: 11.4 update
     href: api/11.4/11.4-update.md
     items:
