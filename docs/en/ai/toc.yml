@@ -1,8 +1,6 @@
 items:
 - name: AI services
   items:
-  - name: Introduction
-    href: index.md
   - name: SuperOffice Copilot
     href: copilot/index.md
   - name: Configuration AI
@@ -12,4 +10,3 @@ items:
       href: configuration-ai/getting-started.md
   - name: Text analysis
     href: text-analysis/index.md
-  # Chat TBD

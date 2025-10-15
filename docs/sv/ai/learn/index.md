@@ -1,38 +1,45 @@
 ---
 uid: help-sv-ai
 title: AI-tjänster
-description: AI-tjänster
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: AI
+description: Översikt över artificiell intelligens-tjänster i SuperOffice CRM
+keywords: AI, artificiell intelligens, AI Platform, maskininlärning, automatisering
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # AI-tjänster
 
 > [!NOTE]
-> SuperOffice AI är endast molnbaserat och är ett separat tillägg. Det kräver en AI-plattform och specifika licenser. Tjänsterna debiteras med ett fast pris per månad och tjänst.
+> SuperOffice AI är endast tillgängligt i CRM Online. Det kräver **AI Platform**-tillägget och specifika tjänstelicenser. Dessa tjänster faktureras månadsvis per aktiv AI-tjänst.
 
-Spara tid och minska de manuella arbetsmomenten genom att automatisera olika affärsprocesser utan att behöva ha omfattande kunskap om AI-teknik. Öka effektiviteten genom att använda kraften i Artificiell intelligens (AI). Exempel på tillgängliga tjänster är textanalys för automatisk sentiments- och språkidentifiering och textöversättning, automatisk kategorisering och en [chatbot][3].
+SuperOffice AI hjälper till att automatisera rutinuppgifter och minska manuellt arbete genom att bädda in artificiell intelligens direkt i CRM:et. Du kan förbättra svarstider, minska fel och arbeta mer effektivt—utan att behöva teknisk expertis eller programmeringskunskaper.
 
-![SuperOffices AI-tjänster -screenshot][img1]
+Dessa funktioner gör det möjligt för ditt team att fokusera på meningsfullt arbete, medan AI hanterar repetitiva processer i bakgrunden.
 
-Ett företag måste ofta lägga väldigt stora resurser på AI och maskininlärning för att kunna dra nytta av tekniken. Komplexiteten i AI har ofta varit ett hinder för företagen. Ett vanligt problem med AI i moderna affärsapplikationer är att tekniken, i motsats till förväntningarna, är för komplex för vanliga användare. Användningen av AI kräver dock inte alltid programmeringskunskaper. Vårt sätt att bädda in AI i SuperOffice CRM gör allt mycket enklare och alla kan dra nytta av tekniken.
+## Tillgängliga tjänster
 
-AI kan förvandla enorma datamängder till meningsfull information som minskar medarbetarnas arbetsbelastning och ger dem värdefulla kunskaper med några få klick. Automatiserade AI-verktyg kan också underlätta kommunikationen mellan dina medarbetare och kunderna. Därmed kan ni förbättra den övergripande kundupplevelsen avsevärt genom att helt enkelt svara kunderna snabbare.
+| Tjänst | Beskrivning | Licens |
+|---|---|---|
+| [Kategorisering][2] | Föreslår en kategori för nya förfrågningar baserat på meddelandeinnehållet. | Categorization |
+| [Översättning, språkidentifiering, sentimentidentifiering][1] | Analyserar text för att identifiera språk, översätta det och bestämma sentiment. | Text Services |
+| [Chatbot Connector][3] | Möjliggör integration med externa chatbotar för automatisk hantering av inkommande chattar. | Chatbot |
+| [SuperOffice Copilot][4] | Använder generativ AI för att hjälpa användare med innehållsskapande och uppgiftsvägledning. | Endast i pilot, endast på inbjudan |
 
-AI kan hjälpa dig att förstå de data ni har tillgång till och spara tid genom att automatisera processer. Tekniken hjälper dig också att vårda kunderna mer proaktivt.
-
-## Relaterat innehåll
-
-* [Textanalys][1]
-* [Kategorisering][2]
+![Översikt AI-tjänster -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
 [3]: ../../chat/admin/channel-create.md#chatbot
+[4]: ../copilot/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png

@@ -1,38 +1,45 @@
 ---
 uid: help-de-ai
 title: KI-Services
-description: KI-Services
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: KI
+description: Übersicht über Künstliche Intelligenz-Services in SuperOffice CRM
+keywords: KI, künstliche Intelligenz, KI-Plattform, maschinelles Lernen, Automatisierung
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # KI-Services
 
 > [!NOTE]
-> SuperOffice KI ist nur in der Cloud verfügbar und ein separates Add-on. Es erfordert eine KI-Plattform und spezifische Lizenzen. Die Dienstleistung ist mit einem Fixpreis pro Monat und Leistung abrechenbar.
+> SuperOffice KI ist nur in CRM Online verfügbar. Es erfordert das **AI-Plattform**-Add-on und spezifische Service-Lizenzen. Diese Services werden monatlich pro aktivem KI-Service abgerechnet.
 
-Sparen Sie Zeit, indem Sie den manuellen Arbeitsaufwand verringern und ohne umfassende KI-Kenntnisse verschiedene Geschäftsprozesse automatisieren. Steigern Sie mit KI (Künstlicher Intelligenz) die Effizienz. Erhältliche Services sind Textanalyse zur automatischen Sentiment- und Spracherkennung sowie Textübersetzung, automatische Kategorisierung und ein [Chatbot][3] .
+SuperOffice KI hilft dabei, Routineaufgaben zu automatisieren und manuelle Arbeit zu reduzieren, indem künstliche Intelligenz direkt in das CRM eingebettet wird. Sie können Antwortzeiten verbessern, Fehler reduzieren und effizienter arbeiten—ohne technische Expertise oder Programmierkenntnisse zu benötigen.
 
-![SuperOffice-Dienstleistung für künstliche Intelligenz -screenshot][img1]
+Diese Funktionen ermöglichen es Ihrem Team, sich auf sinnvolle Arbeit zu konzentrieren, während KI repetitive Prozesse im Hintergrund abwickelt.
 
-KI und maschinelles Lernen erfordern in der Regel viele Ressourcen einer Firma, um profitabel zu sein. Die Komplexität der KI war für Firmen oft eine Hemmschwelle. Häufig ist die KI in modernen Branchenanwendungen entgegen den Erwartungen zu komplex für alltägliche Benutzer. Der Einsatz von KI erfordert nicht immer Programmierkenntnisse und da wir KI in SuperOffice CRM einbetten, wird alles vereinfacht und jeder kann davon profitieren.
+## Verfügbare Services
 
-Die KI kann diese enormen Datensammlungen in aussagekräftige Informationen umwandeln, wodurch die Arbeitsbelastung der Mitarbeiter zu erleichtern und ihnen mehr Erkenntnisse aus den verfügbaren Daten zu vermitteln. Automatisierte KI-Tools können auch die Kommunikation zwischen Ihren Mitarbeitern und Ihren Kunden erleichtern. Das bedeutet, dass Sie durch einfach schnellere Antworten das gesamte Kundenerlebnis erheblich verbessern können.
+| Service | Beschreibung | Lizenz |
+|---|---|---|
+| [Kategorisierung][2] | Schlägt eine Kategorie für neue Anfragen basierend auf dem Nachrichteninhalt vor. | Categorization |
+| [Übersetzung, Spracherkennung, Stimmungserkennung][1] | Analysiert Text zur Spracherkennung, Übersetzung und Sentiment-Bestimmung. | Text Services |
+| [Chatbot Connector][3] | Ermöglicht die Integration mit externen Chatbots zur automatischen Bearbeitung eingehender Chats. | Chatbot |
+| [SuperOffice Copilot][4] | Nutzt generative KI zur Unterstützung von Benutzern bei der Inhaltserstellung und Aufgabenführung. | Nur im Pilotbetrieb, nur auf Einladung |
 
-Die KI kann Ihnen helfen, Ihre vorhandenen Daten sinnvoll zu nutzen und Prozesse auf zeitsparende Weise zu automatisieren. Sie wird Ihnen auch helfen, bei Ihrer Kundenbindung proaktiver zu sein.
-
-## Verwandte Themen
-
-* [Textanalyse][1]
-* [Kategorisierung][2]
+![Übersicht KI-Services -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
 [3]: ../../chat/admin/channel-create.md#chatbot
+[4]: ../copilot/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png

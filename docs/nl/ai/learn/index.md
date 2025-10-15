@@ -1,38 +1,45 @@
 ---
 uid: help-nl-ai
 title: AI-diensten
-description: AI-diensten
-author: SuperOffice RnD
-date: 02.22.2023
-keywords: AI
+description: Overzicht van kunstmatige intelligentie-diensten in SuperOffice CRM
+keywords: AI, kunstmatige intelligentie, AI Platform, machine learning, automatisering
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # AI-diensten
 
 > [!NOTE]
-> SuperOffice AI bestaat alleen in de cloud en is een aparte uitbreiding. Het vereist AI Platform en specifieke licenties. De diensten zijn factureerbaar met een vaste prijs per maand per dienst.
+> SuperOffice AI is alleen beschikbaar in CRM Online. Het vereist de **AI Platform**-uitbreiding en specifieke servicelicenties. Deze diensten worden maandelijks gefactureerd per actieve AI-dienst.
 
-Bespaar tijd en verminder handmatig werk; automatiseer verschillende bedrijfsprocessen, zonder uitgebreide kennis van AI-technologie. Verhoog de efficiëntie door gebruik te maken van de kracht van kunstmatige intelligentie (AI). Tot de beschikbare services behoren tekstanalyse voor automatische sentiment- en taaldetectie en tekstvertaling, automatische categorisatie en een [chatbot][3].
+SuperOffice AI helpt bij het automatiseren van routinetaken en het verminderen van handmatig werk door kunstmatige intelligentie direct in de CRM in te bedden. U kunt reactietijden verbeteren, fouten verminderen en efficiënter werken—zonder technische expertise of programmeervaardigheden nodig te hebben.
 
-![SuperOffice kunstmatige intelligentie-diensten -screenshot][img1]
+Deze functies stellen uw team in staat om zich te concentreren op zinvol werk, terwijl AI repetitieve processen op de achtergrond afhandelt.
 
-AI en machine learning vereisen meestal veel van de middelen van een bedrijf om er voordeel uit te halen. De complexiteit van AI was vaak een hindernis voor bedrijven. Het is een veel voorkomende zorg AI in moderne bedrijfstoepassingen dat het te complex is voor dagelijkse gebruikers tegen de verwachtingen in. Het gebruik van AI vereist niet altijd codeerkennis en met onze aanpak om AI in SuperOffice CRM in te bedden, wordt alles vereenvoudigd en kan iedereen ervan profiteren.
+## Beschikbare diensten
 
-AI kan die enorme gegevensverzamelingen omzetten in zinvolle informatie, waardoor werknemers hun werklast kunnen vereenvoudigen en meer inzichten kunnen verzamelen uit gegevens binnen handbereik. Geautomatiseerde AI-hulpmiddelen kunnen ook de communicatie tussen uw werknemers en uw klanten vergemakkelijken. Dit betekent dat u de algehele klantervaring aanzienlijk kunt verbeteren door eenvoudigweg snellere antwoorden aan uw klanten te bieden.
+| Dienst | Beschrijving | Licentie |
+|---|---|---|
+| [Categorisatie][2] | Stelt een categorie voor nieuwe verzoeken voor op basis van de berichtinhoud. | Categorization |
+| [Vertaling, taaldetectie, stemmingsdetectie][1] | Analyseert tekst om taal te detecteren, te vertalen en sentiment te bepalen. | Text Services |
+| [Chatbot Connector][3] | Maakt integratie met externe chatbots mogelijk om inkomende chats automatisch af te handelen. | Chatbot |
+| [SuperOffice Copilot][4] | Gebruikt generatieve AI om gebruikers te helpen bij het maken van content en taakbegeleiding. | Alleen in pilot, alleen op uitnodiging |
 
-AI kan u helpen inzicht te krijgen in de gegevens die u hebt en u helpen processen te automatiseren die tijd besparen. Het zal u ook helpen proactiever te zijn in uw klantbetrokkenheid.
-
-## Gerelateerde inhoud
-
-* [Tekstanalyse][1]
-* [Categorisatie][2]
+![Overzicht AI-diensten -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: text-analysis.md
 [2]: categorization.md
 [3]: ../../chat/admin/channel-create.md#chatbot
+[4]: ../copilot/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/ai/ai-services.png
