@@ -1,22 +1,35 @@
 ---
 uid: help-da-ai-text-analysis
-title: AI-tekst-analyse
-description: AI-tekstanalyse
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+title: Tekstanalyse
+description: Oversigt over tekstanalysefunktioner i SuperOffice AI
+keywords: tekstanalyse, AI, teksttjenester, sentiment, sprog, oversættelse
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform, textservices
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Tekstanalyse
 
-Øg globaliseringen ved at registrere og oversætte fremmedsprog i sager. Dine agenter inden for kundesupport kan vælge at oversætte meddelelsesindhold på ukendte sprog fra skærmbilledet **Sager**.
+Tekstanalyse bruger kunstig intelligens (AI) til at forbedre kundesupport ved at registrere sproget og sentimentet i indgående sager. Det muliggør også oversættelse af meddelelser på ukendte sprog, hvilket hjælper supportteams med at svare hurtigt og effektivt.
 
-* **Registrering af sprog**: Vælg denne indstilling for at aktivere automatisk sprogregistrering for indgående sager. Det registrerede sprog vises under sagsmeddelelser i SuperOffice Service.
+Disse værktøjer reducerer behovet for manuel fortolkning og giver sagsbehandlere mulighed for at forstå tonen, hastegraden og indholdet af en meddelelse uden at forlade skærmen **Sager**.
 
-* **Oversæt meddelelse**: Vælg denne indstilling for at aktivere oversættelse af indgående sager. Sagsbehandlere kan derefter klikke på et link i en meddelelse for at oversætte det. Sprogregistrering skal aktiveres, for at denne funktion kan fungere.
+> [!NOTE]
+> Tekstanalyse kræver SuperOffice AI Platform og en **Text Services-licens**. SuperOffice AI er kun tilgængelig for CRM Online.
 
-Øg kundetilfredsheden ved at bruge AI til at registrere vigtighed/ presserende karakter og kundens følelsesmæssige sprog. Kør automatisk analyse af indgående meddelelser i sager for at finde ud af, om indholdet er positivt, negativt eller neutralt.
+## Funktioner
 
-* **Analyse af synspunkt**: Vælg denne indstilling for at aktivere automatisk synspunktsanalyse for indgående sager. Sagsbehandlere kan hurtigt bestemme "stemningen" i en besked fra emotikonet (glad, ulykkelig eller neutral) under meddelelsen i en sag.
+| Funktion | Beskrivelse |
+|---|---|
+| **Registrering af sprog** | Registrerer automatisk sproget i indgående sager. Det registrerede sprog vises under hver meddelelse. |
+| **Oversæt meddelelse** | Når sprogregistrering er aktiveret, kan sagsbehandlere klikke på et link under meddelelsen for at oversætte den til deres foretrukne sprog. Det oversatte emne og indhold vises under den oprindelige meddelelse. |
+| **Analyse af synspunkt** | Analyserer automatisk tonen i en meddelelse og viser en stemningsindikator (glad, neutral eller utilfreds) under meddelelsen. Dette hjælper med at prioritere svar baseret på følelsesmæssig tone. |
+
+Disse funktioner er synlige direkte i sagsvisningen og kræver ingen konfiguration af slutbrugeren.

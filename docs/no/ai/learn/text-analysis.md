@@ -1,22 +1,35 @@
 ---
 uid: help-no-ai-text-analysis
-title: AIext-analyse
-description: AI-tekstanalyse
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+title: Tekstanalyse
+description: Oversikt over tekstanalysefunksjoner i SuperOffice AI
+keywords: tekstanalyse, AI, teksttjenester, sentiment, språk, oversettelse
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform, textservices
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Tekstanalyse
 
-Øk globaliseringen ved å oppdage og oversette fremmedspråk i saker. Brukerstøtteagentene kan velge å oversette meldingsinnhold på ukjente språk, fra **Saker**-bildet.
+Tekstanalyse bruker kunstig intelligens (AI) til å forbedre kundestøtte ved å gjenkjenne språket og sentimentet i innkommende saker. Det muliggjør også oversettelse av meldinger på ukjente språk, og hjelper team med å svare raskt og effektivt.
 
-* **Språkgjenkjenning**: Velg dette alternativet for å aktivere automatisk språkgjenkjenning for innkommende saker. Det oppdagede språket vises under saksmeldingen i SuperOffice.
+Disse verktøyene reduserer behovet for manuell tolkning og lar saksbehandlere forstå tonen, hastegraden og innholdet i en melding uten å forlate **Saker**-skjermen.
 
-* **Oversett melding**: Velg dette alternativet for å aktivere oversettelse av innkommende saker. Saksbehandlere kan deretter klikke på en kobling i en melding for å oversette den. Språkgjenkjenning må aktiveres for at denne funksjonen skal fungere.
+> [!NOTE]
+> Tekstanalyse krever SuperOffice AI Platform og en **Text Services-lisens**. SuperOffice AI er kun tilgjengelig for CRM Online.
 
-Gjør kundene mer fornøyde ved å bruke kunstig intelligens til å oppdage viktighet/hastverk, og kundens emosjonelle språk. Kjør automatisk analyse av innkommende meldinger i saker for å finne ut om innholdet er positivt, negativt eller nøytralt.
+## Funksjoner
 
-* **Sentimentanalyse**: Velg dette alternativet for å aktivere automatisk sentimentanalyse for innkommende saker. Saksbehandlere kan raskt avgjøre "stemningen" i en melding fra uttrykksikonet (lykkelig, trist eller nøytral) under meldingen i en sak.
+| Funksjon | Beskrivelse |
+|---|---|
+| **Språkgjenkjenning** | Gjenkjenner automatisk språket i innkommende saker. Det gjenkjente språket vises under hver melding. |
+| **Oversett melding** | Når språkgjenkjenning er aktivert, kan saksbehandlere klikke på en lenke under meldingen for å oversette den til sitt foretrukne språk. Det oversatte emnet og innholdet vises under den opprinnelige meldingen. |
+| **Sentimentanalyse** | Analyserer automatisk tonen i en melding og viser en stemningsindikator (glad, nøytral eller misfornøyd) under meldingen. Dette hjelper med å prioritere svar basert på følelsesmessig tone. |
+
+Disse funksjonene er synlige direkte i saksvisningen og krever ingen konfigurasjon av sluttbrukeren.
