@@ -1,6 +1,8 @@
 items:
   - name: SuperOffice APIs
     href: overview/index.md
+  - name: Develop Apps or Integrations
+    href: overview/develop-apps-or-integrations.md
   - name: NetServer fundamentals
     href: overview/netserver.md
   - name: Quick-start

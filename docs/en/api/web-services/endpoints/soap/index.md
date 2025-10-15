@@ -32,7 +32,7 @@ Today we support the following versioned services:
 >
 > Those services are part of the Customer Service FastCGI modules and not part of NetServer web services. NetServer web services includes most of the same functionality, and will continue to evolve for 100% coverage.
 
-WSDL files for all versioned endpoints are [available for download][8] in the reference section, or as individual files on each endpoint reference page.
+WSDL files for all versioned endpoints are [available for download][8] in the reference section, or as individual files on each endpoint reference page. Alternatively, you can use the [SuperOffice.NetServer.Services][9] nuget package.
 
 **Download All:**
 
@@ -166,7 +166,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 > SuperOffice SOAP web services are not at the center of the API focal point any longer. Instead, focus has shifted towards REST web services. Therefore, it's recommended that all who wish to continue using Service Agent pattern switch to using the SuperOffice.WebApi library. It has the exact same Agent/Carrier/Methods, but uses the [Agent REST API][11].
 
 <!-- Referenced links -->
-[1]: ../../../reference/soap/Services88/index.md
+[1]: ../../../entities/index.md
 [2]: ../../../reference/soap/Services87/index.md
 [3]: ../../../reference/soap/Services86/index.md
 [4]: ../../../reference/soap/Services85/index.md
@@ -175,7 +175,7 @@ using(SoSession newSession = SoSession.Authenticate("sam", "sam"))
 [7]: ../../proxies/index.md#soap-client-proxy
 [8]: ../../../reference/soap/index.md
 [9]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
-[10]: ../../proxies/index.md#webapi-client-proxy
+[10]: ../../../rows/index.md
 [11]: ../rest-webapi/index.md
 
 <!-- Referenced images -->
