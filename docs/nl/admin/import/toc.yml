@@ -1,0 +1,19 @@
+items:
+  - name: Inleiding
+    href: index.md
+  - name: Importbestand maken
+    href: create-spreadsheet.md
+  - name: Importeren vanuit Excel
+    href: from-excel.md
+  - name: Importeren vanuit Outlook
+    href: from-outlook.md
+  - name: Importeren vanuit Mac-adresboek
+    href: from-mac-address-book.md
+  - name: Importeren vanuit Gmail
+    href: from-gmail.md
+  - name: Importeren vanuit ERP
+    href: from-erp.md
+  - name: Producten importeren vanuit Excel
+    href: products-from-excel.md
+  - name: Importinstellingen configureren
+    href: settings.md
