@@ -16,6 +16,7 @@ platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/ai/copilot/index
 ---
 
 # SuperOffice Copilot

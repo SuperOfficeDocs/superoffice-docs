@@ -13,6 +13,7 @@ topic: ai
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/ai/index
 ---
 
 # KI-Services

@@ -13,6 +13,7 @@ topic: ai
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/ai/index
 ---
 
 # AI-tjänster
