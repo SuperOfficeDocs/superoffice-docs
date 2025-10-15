@@ -215,7 +215,7 @@ Once you've passed testing, it's time to share your work.
 * Available to any customer.
 * Requires ongoing maintenance and support.
 
-### Custom Apps
+### Custom apps
 
 * Deployed privately to a single tenant.
 * Perfect for specialized or internal use.
@@ -224,7 +224,7 @@ Track everything from the [**Tenant Manager**][20], including who’s using your
 
 ---
 
-## 11. Best Practices for Online Development
+## 11. Best practices for online development
 
 Want your app to shine? Keep these best practices in mind:
 
@@ -238,7 +238,7 @@ Good habits lead to happy users and fewer surprises down the line.
 
 ---
 
-## 12. Resources and Next Steps
+## 12. Resources and next steps
 
 Ready to dive deeper? These links are your best friends:
 
