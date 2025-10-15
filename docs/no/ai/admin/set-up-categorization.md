@@ -15,6 +15,7 @@ platform: web
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
+index: true
 redirect_from: /no/ai/admin/index
 ---
 

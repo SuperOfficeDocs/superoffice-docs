@@ -15,6 +15,7 @@ platform: web
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from: 
   - /en/ai/configuration-ai/getting-started
   - /en/ai/admin/index

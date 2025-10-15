@@ -15,6 +15,7 @@ platform: web
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
+index: true
 redirect_from: /sv/ai/admin/index
 ---
 

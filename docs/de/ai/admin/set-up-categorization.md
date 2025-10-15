@@ -15,6 +15,7 @@ platform: web
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
+index: true
 redirect_from: /de/ai/admin/index
 ---
 

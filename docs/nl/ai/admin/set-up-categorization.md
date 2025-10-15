@@ -15,6 +15,7 @@ platform: web
 audience: settings
 audience_tooltip: Instellingen en onderhoud
 language: nl
+index: true
 redirect_from: /nl/ai/admin/index
 ---
 
