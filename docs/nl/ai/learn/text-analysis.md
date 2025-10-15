@@ -1,22 +1,44 @@
 ---
 uid: help-nl-ai-text-analysis
-title: AIext-analyse
-description: AI-tekstanalyse
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+title: Tekstanalyse
+description: Overzicht van tekstanalyse-functies in SuperOffice AI
+keywords: tekstanalyse, AI, tekstservices, sentiment, taal, vertaling
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform, textservices
+category: automation
+topic: ai
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Tekstanalyse
 
-Vergroot het internationale bereik door vreemde talen op te sporen en te vertalen in verzoeken. Uw agenten van klantensupport kunnen vanaf het scherm **Verzoeken** selecteren of ze berichtinhoud willen vertalen naar onbekende talen.
+Tekstanalyse gebruikt kunstmatige intelligentie (AI) om klantenservice te verbeteren door de taal en het sentiment van binnenkomende verzoeken te detecteren. Het maakt ook vertaling van berichten in onbekende talen mogelijk, waardoor supportteams snel en effectief kunnen reageren.
 
-* **Taaldetectie**: selecteer deze optie om automatische taaldetectie voor inkomende verzoeken te activeren. De gedetecteerde taal wordt weergegeven onder verzoekberichten in SuperOffice.
+Deze tools verminderen de behoefte aan handmatige interpretatie en stellen verzoekbehandelaars in staat om de toon, urgentie en inhoud van een bericht te begrijpen zonder het **Verzoeken**-scherm te verlaten.
 
-* **Bericht vertalen**: selecteer deze optie om de vertaling van inkomende verzoeken te activeren. Verzoekbehandelaars kunnen vervolgens op een koppeling in een bericht klikken om het te vertalen. Taaldetectie moet zijn geactiveerd om deze functie te kunnen gebruiken.
+> [!NOTE]
+> Tekstanalyse vereist het SuperOffice AI Platform en een **Text Services-licentie**. SuperOffice AI is alleen beschikbaar voor CRM Online.
 
-Verhoog de klanttevredenheid door AI te gebruiken om belang/urgentie en de emotionele taal van de klant te detecteren. Voer een automatische analyse uit van inkomende berichten in verzoeken om te bepalen of de inhoud positief, negatief of neutraal is.
+## Functies
 
-* **Sentimentanalyse**: selecteer deze optie om automatische sentimentanalyse voor inkomende verzoeken te activeren. Verzoekbehandelaars kunnen snel de "stemming" van een bericht bepalen aan de hand van de emoticon (blij, ongelukkig of neutraal) onder het bericht in een verzoek.
+| Functie | Beschrijving |
+|---|---|
+| **Taaldetectie** | Detecteert automatisch de taal van binnenkomende verzoeken. De gedetecteerde taal verschijnt onder elk bericht. |
+| **Bericht vertalen** | Wanneer taaldetectie is ingeschakeld, kunnen verzoekbehandelaars op een link onder het bericht klikken om het te vertalen naar hun voorkeurstaal. Het vertaalde onderwerp en de inhoud worden onder het oorspronkelijke bericht weergegeven. |
+| **Sentimentanalyse** | Analyseert automatisch de toon van een bericht en toont een stemmingsindicator (blij, neutraal of ongelukkig) onder het bericht. Dit helpt bij het prioriteren van reacties op basis van emotionele toon. |
+
+Deze functies zijn direct zichtbaar in de verzoekweergave en vereisen geen configuratie door de eindgebruiker.
+
+## Gerelateerde inhoud
+
+* [Efficiënte afhandeling van verzoeken met AI][1]
+* [Andere AI-diensten][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

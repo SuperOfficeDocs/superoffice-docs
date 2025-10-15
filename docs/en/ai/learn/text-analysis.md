@@ -1,22 +1,47 @@
 ---
 uid: help-en-ai-text-analysis
-title: AIext analysis
-description: AI text analysis
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+title: Text analysis
+description: Overview of text analysis features in SuperOffice AI
+keywords: AI, text services, sentiment, language, translation
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
+license: aiplatform, textservices
+category: automation
+topic: ai
+deployment: online
+platform: web
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/ai/text-analysis/index
 ---
 
 # Text analysis
 
-Increase globalization by detecting and translating foreign languages in requests. Your customer support agents can select to translate message content in unfamiliar languages, from the **Requests** screen.
+Text analysis uses artificial intelligence (AI) to improve customer support by detecting the language and sentiment of incoming requests. It also enables translation of messages in unfamiliar languages, helping support teams respond quickly and effectively.
 
-* **Language detection**: Select this option to activate automatic language detection for incoming requests. The detected language is displayed below request messages in SuperOffice.
+These tools reduce the need for manual interpretation and allow request handlers to understand the tone, urgency, and content of a message without leaving the **Requests** screen.
 
-* **Translate message**: Select this option to activate translation of incoming requests. Request handlers can then click a link in a message to translate it. Language detection must be activated for this function to work.
+> [!NOTE]
+> Text analysis requires the SuperOffice AI Platform and a **Text Services license**. SuperOffice AI is available for CRM Online only.
 
-Increase customer satisfaction by using AI to detect importance/urgency and the customer's emotional language. Run automatic analysis of incoming messages in requests, to determine if the content is positive, negative or neutral.
+## Features
 
-* **Sentiment analysis**: Select this option to activate automatic sentiment analysis for incoming requests. Request handlers can quickly determine the "mood" of a message from the emoticon (happy, unhappy or neutral) below the message in a request.
+| Feature | Description |
+|---|---|
+| **Language detection** | Automatically detects the language of incoming requests. The detected language appears below each message. |
+| **Translation** | When language detection is enabled, request handlers can click a link below the message to translate it into their preferred language. The translated subject and body are shown below the original message. |
+| **Sentiment analysis** | Automatically analyzes the tone of a message and displays a mood indicator (happy, neutral, or unhappy) below the message. This helps prioritize responses based on emotional tone. |
+
+These features are visible directly in the request view and do not require any configuration by the end user.
+
+## Related content
+
+* [Efficient handling of requests using AI][1]
+* [Other AI services][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

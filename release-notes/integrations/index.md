@@ -81,6 +81,6 @@ See all the [new or updated apps][2]
 [24]: ../../integrations/gmail-link/index.md
 [25]: ../../integrations/sharepoint-documents/index.md
 [26]: ../../integrations/index.yml
-[27]: ../../docs/en/ai/copilot/index.md
+[27]: ../../docs/en/ai/learn/copilot.md
 
 <!-- Referenced images -->

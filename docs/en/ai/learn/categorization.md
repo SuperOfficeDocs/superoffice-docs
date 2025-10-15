@@ -1,30 +1,46 @@
 ---
-uid: help-en-ai-categorisation
-title: AI categorisation
-description: AI categorisation
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: AI
+uid: help-en-ai-categorization
+title: Categorization
+description: Overview of AI-based request categorization in SuperOffice
+keywords: AI, machine learning, request automation
+author: digitaldiina
+date: 10.15.2025
+version: 11.5
 content_type: concept
-audience: settings
-audience_tooltip: Settings and maintenance
+license: aiplatform, categorization
+category: automation
+topic: ai
+deployment: online
+platform: web
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/ai/configuration-ai/index
 ---
 
-# Categorisation
+# Categorization
 
-This feature allows you to train the system to suggest categories for requests, according to the text content related to requests. When a support agent opens a new request, there is a suggested category in the footer of the request. The support agent can then click the category link to update the request with the suggested category. This means time saved, because your support team will not have to read through the request to categorise manually.
+Categorization uses artificial intelligence (AI) to automatically suggest a category for incoming requests based on the message content. This helps support teams reduce manual work and categorize requests faster and more consistently.
 
-To activate this feature, you must first train the AI in how to categorise requests, and then select **Use AI to suggest categories**.
+If the feature is active, a suggested category appears in the footer of the request. Request handlers can click the suggestion link to update the request with the proposed category. Once applied, the suggestion disappears.
 
-## Training the AI
+This feature uses machine learning, which means the [system must be trained][1] before it can provide accurate suggestions.
 
-You train AI by letting the AI analyze a selection of requests.
+![Suggested category in a request -screenshot][img1]
 
-1. Create a selection of requests in SuperOffice.
-2. In the list box under **Categorization** in the **AI services** screen, choose the selection you just created.
-3. Click **Analyze requests**. The system will give you feedback on how successful the training was. If the selection of requests was insufficient for a successful training, create a bigger selection of requests and try again.
+> [!NOTE]
+> Categorization requires the SuperOffice AI Platform and a **Categorization license**. SuperOffice AI is cloud only and available as a separate add-on.
 
-## Include additional sources
+## Related content
 
-At the bottom of this screen, you can include additional sources of text to analyze when categorizing a request.
+* [Set up AI-based categorization][1]
+* [Request management][2]
+* [Request categories][3]
+
+<!-- Referenced links -->
+[1]: ../admin/set-up-categorization.md
+[2]: ../../request/learn/index.md
+[3]: ../../request/admin/category/index.md
+
+<!-- Referenced image -->
+[img1]: ../../../media/loc/en/ai/suggested-category-demo.png

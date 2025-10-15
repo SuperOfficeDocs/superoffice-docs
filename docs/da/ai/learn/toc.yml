@@ -1,7 +1,14 @@
 items:
-  - name: Oversigt
+  - name: Introduktion
     href: index.md
   - name: Tekstanalyse
     href: text-analysis.md
   - name: Kategorisering
     href: categorization.md
+  - name: SuperOffice Copilot
+    href: copilot.md
+  - name: For administratorer
+    topicHref: ../admin/set-up-categorization.md
+    items:
+      - name: Opsæt kategorisering
+        href: ../admin/set-up-categorization.md
