@@ -36,3 +36,12 @@ These tools reduce the need for manual interpretation and allow request handlers
 | **Sentiment analysis** | Automatically analyzes the tone of a message and displays a mood indicator (happy, neutral, or unhappy) below the message. This helps prioritize responses based on emotional tone. |
 
 These features are visible directly in the request view and do not require any configuration by the end user.
+
+## Related content
+
+* [Efficient handling of requests using AI][1]
+* [Other AI services][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

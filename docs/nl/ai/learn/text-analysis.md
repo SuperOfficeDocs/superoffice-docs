@@ -33,3 +33,12 @@ Deze tools verminderen de behoefte aan handmatige interpretatie en stellen verzo
 | **Sentimentanalyse** | Analyseert automatisch de toon van een bericht en toont een stemmingsindicator (blij, neutraal of ongelukkig) onder het bericht. Dit helpt bij het prioriteren van reacties op basis van emotionele toon. |
 
 Deze functies zijn direct zichtbaar in de verzoekweergave en vereisen geen configuratie door de eindgebruiker.
+
+## Gerelateerde inhoud
+
+* [Efficiënte afhandeling van verzoeken met AI][1]
+* [Andere AI-diensten][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

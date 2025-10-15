@@ -33,3 +33,12 @@ Disse værktøjer reducerer behovet for manuel fortolkning og giver sagsbehandle
 | **Analyse af synspunkt** | Analyserer automatisk tonen i en meddelelse og viser en stemningsindikator (glad, neutral eller utilfreds) under meddelelsen. Dette hjælper med at prioritere svar baseret på følelsesmæssig tone. |
 
 Disse funktioner er synlige direkte i sagsvisningen og kræver ingen konfiguration af slutbrugeren.
+
+## Relateret indhold
+
+* [Effektiv håndtering af sager ved hjælp af AI][1]
+* [Andre AI-tjenester][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

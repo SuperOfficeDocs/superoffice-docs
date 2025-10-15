@@ -33,3 +33,12 @@ Diese Tools reduzieren den Bedarf an manueller Interpretation und ermöglichen e
 | **Sentiment-Analyse** | Analysiert automatisch den Ton einer Nachricht und zeigt einen Stimmungsindikator (zufrieden, neutral oder unzufrieden) unter der Nachricht an. Dies hilft bei der Priorisierung von Antworten basierend auf der emotionalen Stimmung. |
 
 Diese Funktionen sind direkt in der Anfragenansicht sichtbar und erfordern keine Konfiguration durch den Endbenutzer.
+
+## Verwandte Inhalte
+
+* [Effiziente Bearbeitung von Anfragen mit KI][1]
+* [Andere KI-Services][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

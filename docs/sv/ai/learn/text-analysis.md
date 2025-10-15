@@ -33,3 +33,12 @@ Dessa verktyg minskar behovet av manuell tolkning och gör det möjligt för är
 | **Sentimentanalys** | Analyserar automatiskt tonen i ett meddelande och visar en stämningsindikator (glad, neutral eller missnöjd) under meddelandet. Detta hjälper till att prioritera svar baserat på emotionell ton. |
 
 Dessa funktioner är synliga direkt i ärendevyn och kräver ingen konfiguration av slutanvändaren.
+
+## Relaterat innehåll
+
+* [Effektiv hantering av ärenden med AI][1]
+* [Andra AI-tjänster][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md

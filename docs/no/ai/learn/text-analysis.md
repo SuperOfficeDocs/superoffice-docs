@@ -33,3 +33,12 @@ Disse verktøyene reduserer behovet for manuell tolkning og lar saksbehandlere f
 | **Sentimentanalyse** | Analyserer automatisk tonen i en melding og viser en stemningsindikator (glad, nøytral eller misfornøyd) under meldingen. Dette hjelper med å prioritere svar basert på følelsesmessig tone. |
 
 Disse funksjonene er synlige direkte i saksvisningen og krever ingen konfigurasjon av sluttbrukeren.
+
+## Relatert innhold
+
+* [Effektiv håndtering av saker ved hjelp av AI][1]
+* [Andre AI-tjenester][2]
+
+<!-- Referenced links -->
+[1]: ../../request/learn/handle-request-ai.md
+[2]: index.md
