@@ -84,7 +84,7 @@ Nederst i skærmbilledet findes følgende [standard detaljekort][18]:
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
-[21]: ../../admin/lists/learn/web-panel.md
+[21]: ../../customization/web-panels/admin/index.md#www
 [22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->

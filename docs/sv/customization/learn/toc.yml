@@ -13,6 +13,9 @@ items:
 - name: Skärmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
+- name: Webbpaneler
+  href: ../web-panels/admin/toc.yml
+  topicHref: ../web-panels/admin/index.md
 - name: Alternativ
   href: ../../admin/options/learn/toc.yml
   topicHref: ../../admin/options/learn/index.md

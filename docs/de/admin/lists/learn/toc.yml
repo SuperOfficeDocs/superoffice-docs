@@ -69,11 +69,6 @@ items:
       href: resource.md
     - name: Ressource hinzufügen
       href: adding-items-to-resource-list.md
-    - name: GUI Web-Bildschirm
-      href: web-panel.md
-      items:
-      - name: Web-Bildschirm hinzufügen
-        href: web-panel-add-item.md
     - name: Menü "Aufgabe"
       href: add-items-to-task-menu.md
     - name: GUI-Anwendungsliste

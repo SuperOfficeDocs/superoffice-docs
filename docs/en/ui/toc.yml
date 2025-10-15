@@ -14,5 +14,4 @@ items:
     href: ../customization/soprotocol/toc.yml
     topicHref: ../customization/soprotocol/index.md
   - name: Web panels
-    href: web-panels/toc.yml
-    topicHref: web-panels/index.md
+    topicHref: ../customization/web-panels/admin/index.md

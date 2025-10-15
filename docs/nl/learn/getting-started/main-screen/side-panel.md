@@ -134,7 +134,7 @@ Beheerders kunnen [aangepaste weergaven][7] definiëren voor het zijpaneel in **
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../admin/lists/learn/web-panel-add-item.md
+[7]: ../../../customization/web-panels/admin/add-web-panel.md
 [8]: ../../basics/fav.md
 [9]: ../../../email/learn/index.md#preview
 [10]: ../../../sale/learn/index.md#side-panel

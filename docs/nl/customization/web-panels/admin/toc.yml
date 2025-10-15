@@ -1,0 +1,7 @@
+items:
+- name: Inleiding
+  href: index.md
+- name: Webpaneel toevoegen
+  href: add-web-panel.md
+- name: Url-codering
+  href: url-encoding.md
