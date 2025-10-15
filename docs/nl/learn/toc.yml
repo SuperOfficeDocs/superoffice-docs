@@ -60,6 +60,10 @@ items:
     href: ../security/privacy/learn/toc.yml
     topicHref: ../security/privacy/learn/index.md
 
+  - name: AI-diensten
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md
+
   - name: SAINT (Sales Intelligence)
     href: ../saint/learn/toc.yml
     topicHref: ../saint/learn/index.md
@@ -78,7 +82,3 @@ items:
   - name: Taal, vertaling en tijdzones
     href: ../localization/learn/toc.yml
     topicHref: ../localization/learn/translate-fields.md
-
-  - name: AI-diensten
-    href: ../ai/learn/toc.yml
-    topicHref: ../ai/learn/index.md
