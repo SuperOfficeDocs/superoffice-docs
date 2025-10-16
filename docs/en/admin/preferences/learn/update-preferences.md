@@ -13,7 +13,7 @@ language: en
 
 ## Go to the preference you want to update
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. Click the **Preferences** button (<i class="ph ph-gear" aria-hidden="true"></i>) in the Navigator.
 2. Select the required preference group in the list box at the top.
 3. Select the required preference from the **Preferences** list.
 

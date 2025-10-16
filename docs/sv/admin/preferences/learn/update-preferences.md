@@ -13,7 +13,7 @@ language: sv
 
 ## Gå till den inställning du vill uppdatera
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. Klicka på knappen <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navigatorn.
 2. Välj önskad gruppinställning i listrutan högst upp.
 3. Markera ett alternativ i listan **Inställningar**.
 

@@ -13,7 +13,7 @@ language: da
 
 ## Gå til den præference, du vil opdatere
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. Klik på knappen <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigatoren.
 2. Vælg den ønskede præferencegruppe på rullemenuen øverst.
 3. Marker den ønskede præference på listen **Præferencer**.
 

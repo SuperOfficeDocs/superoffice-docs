@@ -13,7 +13,7 @@ language: nl
 
 ## Ga naar de voorkeur die u wilt bijwerken
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. Klik op de knop <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de Navigator.
 2. Selecteer de gewenste voorkeursgroep in de keuzelijst bovenin.
 3. Selecteer de gewenste voorkeur in de lijst **Voorkeuren**.
 

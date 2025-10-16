@@ -13,7 +13,7 @@ language: de
 
 ## Gehen Sie zur Einstellung, die Sie aktualisieren möchten
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. Klicken Sie im Navigator auf der Schaltfläche **Einstellungen** (<i class="ph ph-gear" aria-hidden="true"></i>).
 2. Wählen Sie im Listenfeld oben die gewünschte Einstellungsgruppe aus.
 3. Wählen Sie in der Liste **Einstellungen** die gewünschte Einstellung aus.
 
