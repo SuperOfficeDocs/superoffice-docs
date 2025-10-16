@@ -1,0 +1,9 @@
+items:
+- name: Inleiding
+  href: learn/index.md
+- name: Werken met voorkeuren
+  href: learn/update-preferences.md
+
+- name: Algemene voorkeuren
+  href: learn/global-preferences/toc.yml
+  topicHref: learn/global-preferences/system.md

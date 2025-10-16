@@ -1,0 +1,9 @@
+items:
+- name: Einleitung
+  href: learn/index.md
+- name: Mit Einstellungen arbeiten
+  href: learn/update-preferences.md
+
+- name: Globale Einstellungen
+  href: learn/global-preferences/toc.yml
+  topicHref: learn/global-preferences/system.md

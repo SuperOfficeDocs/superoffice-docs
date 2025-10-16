@@ -1,0 +1,9 @@
+items:
+- name: Introduktion
+  href: learn/index.md
+- name: Arbeta med inställningar
+  href: learn/update-preferences.md
+
+- name: Globala inställningar
+  href: learn/global-preferences/toc.yml
+  topicHref: learn/global-preferences/system.md

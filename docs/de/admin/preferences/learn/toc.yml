@@ -1,9 +1,0 @@
-items:
-- name: Überblick
-  href: index.md
-- name: Mit Einstellungen arbeiten
-  href: update-preferences.md
-
-- name: Globale Einstellungen
-  href: global-preferences/toc.yml
-  topicHref: global-preferences/system.md

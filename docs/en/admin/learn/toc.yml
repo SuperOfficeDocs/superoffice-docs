@@ -13,6 +13,9 @@ items:
 - name: User management
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md
+- name: Preferences
+  href: ../preferences/toc.yml
+  topicHref: ../preferences/learn/index.md
 - name: User preferences
   topicHref: ../user-preferences/index.md
   items:

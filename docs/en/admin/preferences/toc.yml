@@ -1,0 +1,9 @@
+items:
+- name: Introduction
+  href: learn/index.md
+- name: Work with preferences
+  href: learn/update-preferences.md
+
+- name: Global preferences
+  href: learn/global-preferences/toc.yml
+  topicHref: learn/global-preferences/system.md

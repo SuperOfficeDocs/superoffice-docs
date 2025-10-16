@@ -1,9 +1,0 @@
-items:
-- name: Oversikt
-  href: index.md
-- name: Arbeide med preferanser
-  href: update-preferences.md
-
-- name: Globale preferanser
-  href: global-preferences/toc.yml
-  topicHref: global-preferences/system.md

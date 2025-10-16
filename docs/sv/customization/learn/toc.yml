@@ -4,9 +4,6 @@ items:
 - name: Listor
   href: ../../admin/lists/learn/toc.yml
   topicHref: ../../admin/lists/learn/index.md
-- name: Preferenser
-  href: ../../admin/preferences/learn/toc.yml
-  topicHref: ../../admin/preferences/learn/index.md
 - name: Egendefinierade objekt
   href: ../../custom-objects/learn/toc.yml
   topicHref: ../../custom-objects/learn/index.md
