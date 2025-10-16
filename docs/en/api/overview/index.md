@@ -66,17 +66,22 @@ There are several levels of SuperOffice extensibility, and these are commonly de
 ![ExtensibilityStairs][img2]
 
 ### Configuration Level
+
 The first level of extensibility is exposed inside the **admin UI pages** of SuperOffice. These are features commonly managed by system administrators and SuperOffice consultants and are used to tailor SuperOffice to individual customer needs.
 
 ### Scripting Level
+
 The **scripting level** pertains to a few different features that provide similar functionality, albeit by different means:
-- **[CRMScript][3]**: A SuperOffice scripting dialect similar to JavaScript, managed inside the administrative pages
-- **[NetServer scripting][16]**: An Application Server capability that is accessible onsite only
+
+* **[CRMScript][3]**: A SuperOffice scripting dialect similar to JavaScript, managed inside the administrative pages
+* **[NetServer scripting][16]**: An Application Server capability that is accessible onsite only
 
 ### External APIs
+
 **External APIs** provide complete data access for both SuperOffice clients and online applications. This level includes SuperOffice COM APIs and the NetServer API landscape.
 
 ### Internal APIs
+
 **Internal APIs** are the nearly limitless amount of customization capabilities that most onsite installations leverage to provide everything from custom pages and dialogs, document and sentry plugins, and so much more.
 
 ## Online vs. Onsite Deployment
@@ -92,9 +97,11 @@ Online applications are much more strict, and only have a subset of extensible c
 ![Online APIs][img3]
 
 ### Onsite Installations
+
 With onsite installation, there is one web server hosting SuperOffice sites, and the owners can do whatever they like with their installation.
 
 ### Online Tenants
+
 Online tenants, on the other hand, share application file sets. Therefore, any compiled assemblies that are exposed to one installation would inadvertently expose those same customizations across all shared tenants.
 
 > [!NOTE]
@@ -250,27 +257,28 @@ NetServer provides a robust, flexible foundation for all SuperOffice integration
 
 ### Key Takeaways
 
-- **NetServer** is the core of SuperOffice's API ecosystem, providing multiple layers of abstraction
-- **Web services** are the preferred integration point for nearly all scenarios
-- **Online deployments** have security restrictions that limit certain customization capabilities
-- **Choose your API level** based on your needs: configuration, scripting, external APIs, or internal APIs
+* **NetServer** is the core of SuperOffice's API ecosystem, providing multiple layers of abstraction
+* **Web services** are the preferred integration point for nearly all scenarios
+* **Online deployments** have security restrictions that limit certain customization capabilities
+* **Choose your API level** based on your needs: configuration, scripting, external APIs, or internal APIs
 
 ### Getting Help
 
-With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any problem can have multiple solutions, it's important to consider all options before you decide which approach to take. 
+With the understanding that each SuperOffice platform provides a lot of integrations points, and knowing that any problem can have multiple solutions, it's important to consider all options before you decide which approach to take.
 
 Assistance and guidance are available:
-- Use the [developer forums][1] to ask for recommendations
-- Submit integration questions directly to SuperOffice at [sdk@SuperOffice.com][2]
-- Read more about each platform API in the SDK documentation
+
+* Use the [developer forums][1] to ask for recommendations
+* Submit integration questions directly to SuperOffice at [sdk@SuperOffice.com][2]
+* Read more about each platform API in the SDK documentation
 
 ### Related Documentation
 
-- [NetServer Core APIs][32] - Low-level data access
-- [Web Services][5] - RESTful and SOAP APIs  
-- [Authentication Overview][13] - Security and access patterns
-- [Configuration Guide][12] - Setting up NetServer
-- [Automation Overview][14] - Scripting and workflow automation
+* [NetServer Core APIs][32] - Low-level data access
+* [Web Services][5] - RESTful and SOAP APIs
+* [Authentication Overview][13] - Security and access patterns
+* [Configuration Guide][12] - Setting up NetServer
+* [Automation Overview][14] - Scripting and workflow automation
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/technical/forums/api-forums/
