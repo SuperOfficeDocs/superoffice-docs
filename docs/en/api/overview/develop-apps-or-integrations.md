@@ -63,6 +63,7 @@ Every SuperOffice app follows a clear path from start to finish:
 
    * Create your account and partner profile.
    * You’ll get access to a test tenant in SOD.
+   * This is a manual step internally and might take some time. An account confirmation email will be sent when the form is processed.
 
 2. [**Register Your Application**][7]
 
@@ -90,14 +91,11 @@ Every SuperOffice app follows a clear path from start to finish:
 
 Before you can do much else, your app needs a digital identity. That's where app registration comes in.
 
-### How to register:
+### How to register an app
 
-1. Register at [https://dev.superoffice.com/register][6]
-
-   This is a manual step and might take some time, but you will receive an account confirmation email when the form is processed.
-
+1. Make sure you have a [SuperOffice Developer Portal account][6].
 2. Log in to [https://dev.superoffice.com][13] and navigate to your partner page.
-3. On your partner page, click **Create application**.
+3. On your partner page, click [**Create application**][7].
 4. Using the wizard, fill out the basics:
 
    * App type
@@ -175,7 +173,7 @@ You’re in charge of hosting your app — SuperOffice doesn’t run it for you.
 * HTTPS enabled with valid certificates
 * High availability and solid uptime
 
-Make sure your [redirect URLs][17] work before you start testing. And don’t forget to share your hosting details during registration.
+Make sure your [redirect URLs][17] work before you start testing.
 
 ---
 
@@ -201,7 +199,7 @@ Before your app goes live, it needs a check-up.
 
 You’ll get a go/no-go in the Developer Portal when your app is ready for production.
 
-> [!NOTE] All applications must be tested in SOD before going live. This is a requirement for both standard and custom apps.
+> [!NOTE] All applications must be tested in SOD or a [production sandbox][26] before going live. This is a requirement for both standard and custom apps.
 
 ---
 
@@ -276,6 +274,7 @@ Wherever you are in your development journey, the SuperOffice Developer Portal i
 [23]: ../../developer-portal/getting-started/quickstart.md
 [24]: ../authentication/online/index.md
 [25]: https://community.superoffice.com
+[26]: ../../online/sandbox/index.md
 
 <!-- Referenced images -->
 [img1]: media/online-app-development.png

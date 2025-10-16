@@ -18,13 +18,18 @@ All [standard applications][1] must be prepared to operate in at least 2 environ
 
 ## SuperOffice Online Development (SOD)
 
-SOD is where research and development happens. It is our **sandbox environment** that allows you to explore, experiment with, and play with our APIs. This is where all SuperOffice applications are born and evolve until they are ready for either [validation][3] or [certification][4].
+SOD is where research and development happens. It is our **playground environment** that allows you to explore, experiment with, and play with our APIs. This is where all SuperOffice applications are born and evolve until they are ready for either [validation][3] or [certification][4].
 
 ## Stage
 
 In stage, an application must prove it can withstand a high degree of traffic without impacting the server, the main website, and other applications that are running on the same server. This is where all SuperOffice applications go through certification and security evaluation.
 
 ## Production
+
+The production environment has two types of tenants:
+
+* Customer production environments
+* Customer [test environments][12] (also known as **production sandboxes**)
 
 This is the public space where SuperOffice CRM Online and all [deployed applications][5] reside. That means both standard applications published to the App Store and custom applications activated on a customer's [tenant][10].
 
