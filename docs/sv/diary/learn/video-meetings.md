@@ -2,12 +2,16 @@
 uid: help-sv-video-meetings
 title: Arbeta med videomöten
 description: Lär dig hur du skapar och deltar i videomöten i SuperOffice här.
-keywords: kalender, händelse, videomöte
-author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
+keywords: skapa videomöte, videomöte URL, kalender, händelse, videomöte
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
+redirect_from: /sv/admin/preferences/learn/video-meetings/index
 ---
 
 # Arbeta med videomöten <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -17,13 +21,14 @@ Med videomöten i SuperOffice kan du boka och skapa videomöten direkt från din
 > [!NOTE]
 > Innan du kan använda den här funktionen [måste administratören konfigurera][1] önskad videomötestjänst under Inställningar och underhåll i SuperOffice.
 
-## Tillgängliga videokonferenssystem
+## Förutsättningar
 
-* Zoom
-* Microsoft Teams (kräver Microsoft 365 för företag)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (gratis att använda, ingen prenumeration behövs)
+* [Allmänna förutsättningar för videomöten][3]
+* [Zoom][4]
+* [Microsoft Teams (kräver Microsoft 365 för företag)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (gratis att använda, ingen prenumeration behövs)][8]
 
 ## Skapa ett videomöte
 
@@ -96,6 +101,12 @@ Om du vill ansluta till videomötet via förhandsgranskningen klickar du på kna
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

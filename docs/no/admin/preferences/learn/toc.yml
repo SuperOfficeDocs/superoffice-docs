@@ -7,13 +7,3 @@ items:
 - name: Globale preferanser
   href: global-preferences/toc.yml
   topicHref: global-preferences/system.md
-
-- name: Videomøter
-  topicHref: video-meetings/index.md
-  items:
-  - name: Oversikt
-    href: video-meetings/index.md
-  - name: Konfigurere videomøter
-    href: video-meetings/configure-video-meetings.md
-  - name: E-postoppsett for videomøter
-    href: video-meetings/email-setup-in-superoffice.md

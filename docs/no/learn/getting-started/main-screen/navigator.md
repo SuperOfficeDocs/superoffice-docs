@@ -109,7 +109,7 @@ Hvis du holder musepekeren over en post i en liste, vises en infoboks med ekstra
 [28]: ../../../custom-objects/learn/udef.md
 
 [41]: ../../../automation/crmscript/learn/index.md
-[42]: ../../../admin/preferences/learn/video-meetings/index.md
+[42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
