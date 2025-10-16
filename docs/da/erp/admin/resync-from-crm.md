@@ -19,7 +19,7 @@ index: true
 
 Denne funktion bruges til at løse problemer, især hvis du ved, at dataene i SuperOffice CRM er af bedre kvalitet end ERP-dataene. Det fungerer som en normal synkronisering, men tidsstempler ignoreres, og synkroniseringen sker kun i én retning (CRM til ERP).
 
-[!include[Back up database before import](../../admin/import/learn/includes/caution-backup-before-import.md)]
+[!include[Back up database before import](../../admin/import/includes/caution-backup-before-import.md)]
 
 ## Trin
 

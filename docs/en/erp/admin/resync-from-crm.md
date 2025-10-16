@@ -19,7 +19,7 @@ redirect_from: /en/quote/learn/admin/sync/sync-resync-from-crm
 
 This function is used to fix problems, specifically if you know that the data in SuperOffice CRM is of better quality than the ERP data. It works like a normal sync, but timestamps are ignored and sync is in one direction only (CRM to ERP).
 
-[!include[Back up database before import](../../admin/import/learn/includes/caution-backup-before-import.md)]
+[!include[Back up database before import](../../admin/import/includes/caution-backup-before-import.md)]
 
 ## Steps
 

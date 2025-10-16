@@ -19,7 +19,7 @@ index: true
 
 Deze functie wordt gebruikt om problemen op te lossen, met name als u weet dat de gegevens in SuperOffice CRM van betere kwaliteit zijn dan de ERP-gegevens. De functie werkt als een normale synchronisatie, maar de timestamps worden genegeerd en de synchronisatie wordt slechts in één richting uitgevoerd (van CRM naar ERP).
 
-[!include[Back up database before import](../../admin/import/learn/includes/caution-backup-before-import.md)]
+[!include[Back up database before import](../../admin/import/includes/caution-backup-before-import.md)]
 
 ## Stappen
 

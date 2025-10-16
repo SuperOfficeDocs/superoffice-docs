@@ -59,4 +59,4 @@ Dies reduziert doppelte Dateneingaben und verbessert die Datenkonsistenz zwische
 [3]: configure.md#priority
 [4]: configure.md
 [7]: update-connection.md
-[9]: ../../admin/import/learn/import-from-erp.md
+[9]: ../../admin/import/from-erp.md

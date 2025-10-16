@@ -19,7 +19,7 @@ index: true
 
 Mit dieser Funktion können Sie Probleme beheben, vor allem wenn Sie wissen, dass die Daten in SuperOffice CRM von höherer Qualität sind als die ERP-Daten. Sie funktioniert wie eine normale Synchronisation, aber Zeitstempel werden ignoriert und die Synchronisation erfolgt nur in eine Richtung (von CRM nach ERP).
 
-[!include[Back up database before import](../../admin/import/learn/includes/caution-backup-before-import.md)]
+[!include[Back up database before import](../../admin/import/includes/caution-backup-before-import.md)]
 
 ## Schritte
 
