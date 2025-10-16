@@ -1,8 +1,8 @@
 items:
 - name: Einleitung
-  href: learn/index.md
+  href: index.md
 - name: Mit Einstellungen arbeiten
-  href: learn/update-preferences.md
+  href: update-preferences.md
 
 - name: Globale Einstellungen
   href: learn/global-preferences/toc.yml

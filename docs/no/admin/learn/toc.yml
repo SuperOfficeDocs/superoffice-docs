@@ -15,7 +15,7 @@ items:
   topicHref: ../user-management/learn/index.md
 - name: Preferanser
   href: ../preferences/toc.yml
-  topicHref: ../preferences/learn/index.md
+  topicHref: ../preferences/index.md
 - name: Lisenser
   href: ../license/learn/toc.yml
   topicHref: ../license/learn/index.md

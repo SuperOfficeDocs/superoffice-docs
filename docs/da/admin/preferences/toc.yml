@@ -1,8 +1,8 @@
 items:
 - name: Introduktion
-  href: learn/index.md
+  href: index.md
 - name: Arbejd med præferencer
-  href: learn/update-preferences.md
+  href: update-preferences.md
 
 - name: Globale præferencer
   href: learn/global-preferences/toc.yml

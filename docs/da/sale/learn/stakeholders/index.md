@@ -49,7 +49,7 @@ Du skal også angive præferencen **Vis interessenter** i præferencegruppen **S
 [4]: ../../../project/learn/project-members/send-email-to.md
 [5]: ../../admin/sale-type.md
 [6]: ../../../admin/lists/learn/items.md
-[7]: ../../../admin/preferences/learn/update-preferences.md
+[7]: ../../../admin/preferences/update-preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/sale/stakeholders-section-tab.png

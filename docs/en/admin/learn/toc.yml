@@ -15,7 +15,7 @@ items:
   topicHref: ../user-management/learn/index.md
 - name: Preferences
   href: ../preferences/toc.yml
-  topicHref: ../preferences/learn/index.md
+  topicHref: ../preferences/index.md
 - name: User preferences
   topicHref: ../user-preferences/index.md
   items:
