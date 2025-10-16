@@ -2,12 +2,16 @@
 uid: help-da-video-meetings
 title: Arbejde med videomøder
 description: Lær, hvordan du opretter og deltager i et videomøde i SuperOffice her.
-keywords: dagbog, opfølgning, videomøde
-author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
+keywords: opret videomøde, videomøde URL, dagbog, opfølgning, videomøde
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+redirect_from: /da/admin/preferences/learn/video-meetings/index
 ---
 
 # Arbejde med videomøder <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -17,13 +21,14 @@ SuperOffice-videomøder giver dig mulighed for at planlægge og oprette videomø
 > [!NOTE]
 > Før du kan bruge denne funktion, skal [administratoren først konfigurere][1] din foretrukne videomødetjeneste i Indstillinger og vedligeholdelse i SuperOffice.
 
-## Tilgængelige udbydere af videokonferencer
+## Forudsætninger
 
-* Zoom
-* Microsoft Teams (kræver Microsoft 365 til virksomheder)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (gratis at bruge, intet abonnement nødvendigt)
+* [Generelle forudsætninger for videomøder][3]
+* [Zoom][4]
+* [Microsoft Teams (kræver Microsoft 365 til virksomheder)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (gratis at bruge, intet abonnement nødvendigt)][8]
 
 ## Opret et videomøde
 
@@ -96,6 +101,12 @@ Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappe
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

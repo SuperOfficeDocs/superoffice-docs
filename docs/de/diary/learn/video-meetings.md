@@ -2,12 +2,16 @@
 uid: help-de-video-meetings
 title: Mit Videokonferenzen arbeiten
 description: Lernen Sie hier, wie Sie eine Videokonferenz in SuperOffice erstellen und daran teilnehmen können.
-keywords: Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung, Videokonferenzanbieter
-author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
+keywords: Videokonferenz erstellen, Videokonferenz URL, Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung, Videokonferenzanbieter
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
+redirect_from: /de/admin/preferences/learn/video-meetings/index
 ---
 
 # Mit Videokonferenzen arbeiten <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -17,13 +21,14 @@ Mit SuperOffice-Videokonferenzen können Sie Videokonferenzen direkt von Ihrem K
 > [!NOTE]
 > Mit der Option [Administrator muss konfigurieren][1] müssen Sie Ihren bevorzugten Videokonferenzservice in SuperOffice Einstellungen und Verwaltung konfigurieren, bevor Sie diese Funktion verwenden.
 
-## Verfügbare Videokonferenzanbieter
+## Voraussetzungen
 
-* Zoom
-* Microsoft Teams (erfordert Microsoft 365 für Unternehmen)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (kostenlos, kein Abonnement erforderlich)
+* [Allgemeine Voraussetzungen für Videokonferenzen][3]
+* [Zoom][4]
+* [Microsoft Teams (erfordert Microsoft 365 für Unternehmen)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (kostenlos, kein Abonnement erforderlich)][8]
 
 ## Videokonferenz erstellen
 
@@ -96,6 +101,12 @@ Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nu
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

@@ -48,5 +48,5 @@ Accept: application/json
 Additional documentation can be found in the [CreateVideoMeetingReservation Agent reference][2].
 
 <!-- Referenced links -->
-[1]: ../../../../admin/preferences/learn/video-meetings/configure-video-meetings.md
+[1]: ../../../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: ../../../reference/restful/agent/Appointment_Agent/v1AppointmentAgent_CreateVideoMeetingReservation.md

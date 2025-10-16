@@ -4,14 +4,21 @@ title: Connect provider
 description: How to connect video provider
 keywords: video meeting
 author: SuperOffice Product and Engineering
-date: 06.21.2021
+date: 10.16.2025
 content_type: howto
 category: integration
 topic: video meetings
 deployment: online
 platform: web
 language: en
-redirect_from: /en/diary/video-meetings/howto/connect-provider
+redirect_from: 
+  - /en/diary/video-meetings/howto/connect-provider
+  - /en/admin/preferences/learn/video-meetings/configure-video-meetings
+  - /da/admin/preferences/learn/video-meetings/configure-video-meetings
+  - /sv/admin/preferences/learn/video-meetings/configure-video-meetings
+  - /no/admin/preferences/learn/video-meetings/configure-video-meetings
+  - /nl/admin/preferences/learn/video-meetings/configure-video-meetings
+  - /de/admin/preferences/learn/video-meetings/configure-video-meetings
 index: true
 ---
 

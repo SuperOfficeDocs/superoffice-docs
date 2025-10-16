@@ -2,12 +2,16 @@
 uid: help-nl-video-meetings
 title: Werken met videovergaderingen
 description: Lees hier hoe u een videovergadering in SuperOffice kunt maken en eraan kunt deelnemen.
-keywords: agenda, vervolgactiviteit, videovergadering
-author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
+keywords: videovergadering maken, videovergadering URL, agenda, vervolgactiviteit, videovergadering
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
+redirect_from: /nl/admin/preferences/learn/video-meetings/index
 ---
 
 # Werken met videovergaderingen <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -17,13 +21,14 @@ Met SuperOffice-videovergaderingen kunt u rechtstreeks vanuit uw agenda videover
 > [!NOTE]
 > Voordat u deze functie kunt gebruiken, moet de [beheerder eerst de videovergaderingsservice][1] van uw voorkeur configureren in SuperOffice Instellingen en onderhoud.
 
-## Beschikbare aanbieders van videoconferenties
+## Vereisten
 
-* Zoom
-* Microsoft Teams (vereist Microsoft 365 voor bedrijven)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (gratis te gebruiken, geen abonnement nodig)
+* [Algemene vereisten voor videovergaderingen][3]
+* [Zoom][4]
+* [Microsoft Teams (vereist Microsoft 365 voor bedrijven)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (gratis te gebruiken, geen abonnement nodig)][8]
 
 ## Een videovergadering maken
 
@@ -96,6 +101,12 @@ Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

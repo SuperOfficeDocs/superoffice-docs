@@ -3,14 +3,15 @@ uid: help-en-video-meetings
 title: Work with video meetings
 description: Learn how to create and join a video meeting in SuperOffice here.
 keywords: create video meeting, video meeting URL, diary, follow-up, video meeting
-author: SuperOffice RnD
-date: 01.13.2025
-version: 10.5
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: /en/admin/preferences/learn/video-meetings/index
 ---
 
 # Work with video meetings <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -20,13 +21,14 @@ The SuperOffice video meetings allow you to schedule and create video meetings d
 > [!NOTE]
 > Before you can use this feature, the [administrator must configure][1] your preferred video meeting service in SuperOffice Settings and maintenance.
 
-## Available video conferencing providers
+## Pre-requisites
 
-* Zoom
-* Microsoft Teams (requires Microsoft 365 for business)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (free to use, no subscription needed)
+* [General pre-requisites for video meetings][3]
+* [Zoom][4]
+* [Microsoft Teams (requires Microsoft 365 for business)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (free to use, no subscription needed)][8]
 
 ## Create a video meeting
 
@@ -94,6 +96,12 @@ To join the video meeting via the preview screen, just click the **Join Meeting*
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

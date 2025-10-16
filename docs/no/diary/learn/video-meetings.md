@@ -2,12 +2,16 @@
 uid: help-no-video-meetings
 title: Arbeide med videomøter
 description: Lær hvordan du oppretter og blir med i et videomøte i SuperOffice her.
-keywords: dagbok, oppfølging, videomøte
-author: SuperOffice RnD
-date: 12.10.2024
-version: 10.2.11
+keywords: opprett videomøte, videomøte URL, dagbok, oppfølging, videomøte
+author: digitaldiina
+date: 10.16.2025
+version: 11.5
 content_type: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
+redirect_from: /no/admin/preferences/learn/video-meetings/index
 ---
 
 # Arbeide med videomøter <i class="ph ph-video-camera" aria-hidden="true"></i>
@@ -17,13 +21,14 @@ SuperOffice-videomøtene lar deg planlegge og opprette videomøter direkte fra d
 > [!NOTE]
 > Før du kan bruke denne funksjonen, [må administratoren konfigurere][1] din foretrukne videomøtetjeneste i SuperOffice - Innstillinger og vedlikehold.
 
-## Tilgjengelige leverandører av videokonferanser
+## Forutsetninger
 
-* Zoom
-* Microsoft Teams (krever Microsoft 365 for bedrifter)
-* Google Meet
-* Cisco WebEx
-* Jitsi Meet (gratis å bruke, ingen abonnement nødvendig)
+* [Generelle forutsetninger for videomøter][3]
+* [Zoom][4]
+* [Microsoft Teams (krever Microsoft 365 for bedrifter)][5]
+* [Google Meet][6]
+* [Cisco WebEx][7]
+* [Jitsi Meet (gratis å bruke, ingen abonnement nødvendig)][8]
 
 ## Opprette et videomøte
 
@@ -96,6 +101,12 @@ For å bli med i videomøtet via forhåndsvisningsskjermen, klikker du bare på 
 <!-- Referenced links -->
 [1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
+[3]: ../../../../integrations/video-meetings/index.md
+[4]: ../../../../integrations/video-meetings/zoom/index.md
+[5]: ../../../../integrations/video-meetings/ms-teams/index.md
+[6]: ../../../../integrations/video-meetings/google-meet/index.md
+[7]: ../../../../integrations/video-meetings/webex/index.md
+[8]: ../../../../integrations/video-meetings/jitsi/index.md
 
 <!-- Referenced images -->
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

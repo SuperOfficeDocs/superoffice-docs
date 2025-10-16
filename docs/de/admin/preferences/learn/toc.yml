@@ -7,14 +7,3 @@ items:
 - name: Globale Einstellungen
   href: global-preferences/toc.yml
   topicHref: global-preferences/system.md
-
-- name: Videokonferenzen
-  topicHref: video-meetings/index.md
-  items:
-  - name: Überblick
-    href: video-meetings/index.md
-  - name: An Videokonferenzen teilnehmen
-    href: video-meetings/configure-video-meetings.md
-  - name: E-Mail-Setup für Videokonferenzen
-    href: video-meetings/email-setup-in-superoffice.md
-
