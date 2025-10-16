@@ -1,6 +1,4 @@
 items:
-- name: Überblick
-  href: system.md
 - name: Benutzereinstellungen für SuperOffice Service
   href: settings.md
 - name: Richtlinie für Customer Centre-Passwörter

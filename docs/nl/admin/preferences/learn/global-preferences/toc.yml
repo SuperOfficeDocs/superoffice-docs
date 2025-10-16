@@ -1,6 +1,4 @@
 items:
-- name: Overzicht
-  href: system.md
 - name: SuperOffice Service-systeeminstellingen
   href: settings.md
 - name: Wachtwoordbeleid Customer Centre

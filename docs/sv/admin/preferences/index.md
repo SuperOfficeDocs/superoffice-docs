@@ -2,19 +2,21 @@
 uid: help-sv-preferences
 title: Preferenser
 description: Administratörer kan ange inställningar för olika funktioner i systemet för olika användare och användargrupper eller för hela SuperOffice CRM (globala inställningar).
-keywords: inställningar, inställningar
+keywords: inställningar, inställningar, globala inställningar
 author: Bergfrid Dias
 date: 02.25.2025
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/admin/preferences/learn/index
+redirect_from: 
+  - /sv/admin/preferences/learn/index
+  - /sv/admin/preferences/learn/global-preferences/system
 ---
 
 # Preferenser <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-I fönstret Inställningar kan du välja inställningar för hela systemet (globalt), en databas, en användargrupp eller en enskild användare. Inställningar som bara kan göras globalt (på systemnivå) finns på fliken **[Globala inställningar][1]**.
+I fönstret Inställningar kan du välja inställningar för hela systemet (globalt), en databas, en användargrupp eller en enskild användare. Inställningar som bara kan göras globalt (på systemnivå) finns på fliken **[Globala inställningar](#global)**.
 
 Under **Personliga inställningar** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
 
@@ -43,19 +45,22 @@ Du kan välja vilka inställningar som ska visas i listan baserat på vilken niv
 
 ## <a id="global"></a>Globala inställningar (för hela systemet)
 
-Vissa [inställningar][1] kan bara göras på global nivå:
+Vissa inställningar kan bara göras på global nivå:
 
 * Statistik
 * Funktioner
 * E-post
-* Grupperade listor
 * Marknadsföring
+* Grupperade listor
 * Mobile CRM
 * Försäljning
-* Systeminställningar för SuperOffice Service
+* [Systeminställningar för SuperOffice Service][1]
 * System
-* SMS-konfiguration
-* Lösenordspolicy för Kundcenter
+* Mål
+* [Dataspegling][5]
+* [SMS-konfiguration][7]
+* [SMTP][2] (endast LOKALT)
+* [Lösenordspolicy för Kundcenter][6]
 
 ### Ändra globala inställningar
 
@@ -117,8 +122,13 @@ Innehållet i de här kolumnerna definieras i dialogrutan **Inställning**. [Så
 Du kan sortera raderna i kolumnerna genom att klicka på önskad kolumnrubrik. Klicka på kolumnrubriken en gång till om du vill sortera i omvänd ordning.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
+
+[1]: learn/global-preferences/settings.md
+[2]: learn/global-preferences/smtp.md
+[6]: learn/global-preferences/password.md
+[7]: learn/global-preferences/sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options

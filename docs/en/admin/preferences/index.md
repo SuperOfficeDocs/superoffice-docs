@@ -4,7 +4,7 @@ title: Preferences
 description: Administrators can set preferences for various functions in the system for specific users, user groups, or for the entire SuperOffice CRM (global preferences).
 author: Bergfrid Dias
 date: 03.21.2023
-keywords: settings, preferences
+keywords: settings, preferences, global preference
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -14,7 +14,7 @@ redirect_from: /en/admin/preferences/learn/index
 
 # Preferences <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **[Global preferences][1]** tab.
+In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **[Global preferences](#global)** tab.
 
 Users can edit the settings of [individual preferences][4] to customize them for their own use by going to **Personal settings** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferences** in the Top bar. The preferences available to the user depend on what is specified in Settings and maintenance.
 
@@ -43,19 +43,22 @@ You can choose which settings to display in the list based on the level they are
 
 ## <a id="global"></a>Global preferences (for the whole system)
 
-Some [preferences][1] can be set only on a global level:
+Some preferences can be set only on a global level:
 
 * Statistics
 * Functions
-* Email
-* Grouped lists
+* E-mail
 * Marketing
+* Grouped lists
 * Mobile CRM
 * Sale
-* SuperOffice Service system settings
+* [SuperOffice Service system settings][1]
 * System
-* SMS configuration
-* Customer Centre password policy
+* Targets
+* [Data mirroring][5]
+* [SMS configuration][7]
+* [SMTP][2] (ONSITE only)
+* [Customer Centre password policy][6]
 
 ### Change global preferences
 
@@ -117,10 +120,14 @@ The contents of these columns are defined in the **Setting** dialog. [How to add
 You can sort the rows in the columns by clicking on the required column heading. Click the column heading onc to sort in reverse order.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
 
+[1]: settings.md
+[2]: smtp.md
+[6]: password.md
+[7]: sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
 <!-- Referenced images -->

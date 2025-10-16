@@ -9,12 +9,14 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/admin/preferences/learn/index
+redirect_from: 
+  - /de/admin/preferences/learn/index
+  - /de/admin/preferences/learn/global-preferences/system
 ---
 
 # Voreinstellungen <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-In der Ansicht Einstellungen können Sie Einstellungen für das gesamte System (global), eine Datenbank, eine Benutzergruppe oder einen einzelnen Benutzer festlegen. Einstellungen, die nur auf globaler (System) Ebene vorgenommen werden können, befinden sich in der Registerkarte **[Globale Einstellungen][1]**.
+In der Ansicht Einstellungen können Sie Einstellungen für das gesamte System (global), eine Datenbank, eine Benutzergruppe oder einen einzelnen Benutzer festlegen. Einstellungen, die nur auf globaler (System) Ebene vorgenommen werden können, befinden sich in der Registerkarte **[Globale Einstellungen](#global)**.
 
 Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
 
@@ -43,19 +45,22 @@ Sie können im Feld **Aktive Einstellungen** gemäß der betreffenden Stufe fest
 
 ## <a id="global"></a>Globale Einstellungen (für das gesamte System)
 
-Manche [Einstellungen][1] können nur global vorgenommen werden:
+Manche Einstellungen können nur global vorgenommen werden:
 
 * Statistik
 * Funktionen
 * E-Mail
-* Gruppierte Listen
 * Marketing
+* Gruppierte Listen
 * Mobile CRM
 * Verkauf
-* Benutzereinstellungen für SuperOffice Service
+* [Benutzereinstellungen für SuperOffice Service][1]
 * System
-* SMS-Konfiguration
-* Richtlinie für Customer Centre-Passwörter
+* Ziele
+* [Datenspiegelung][5]
+* [SMS-Konfiguration][7]
+* [SMTP][2] (nur VOR ORT)
+* [Richtlinie für Customer Centre-Passwörter][6]
 
 ### Globale Einstellungen ändern
 
@@ -117,10 +122,15 @@ Der Inhalt dieser Spalten wird im Dialogfeld **Einstellung** festgelegt. [Wie ma
 Sie können die Zeilen in den Spalten sortieren, indem Sie auf die einzelnen Spaltenüberschriften klicken. Klicken Sie einmal auf den Spaltenüberschrift, wenn Sie den Inhalt in umgekehrter Reihenfolge sortieren möchten.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
+
+[1]: learn/global-preferences/settings.md
+[2]: learn/global-preferences/smtp.md
+[6]: learn/global-preferences/password.md
+[7]: learn/global-preferences/sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->

@@ -1,6 +1,4 @@
 items:
-- name: Översikt
-  href: system.md
 - name: Systeminställningar för SuperOffice Service
   href: settings.md
 - name: Lösenordspolicy för Kundcenter

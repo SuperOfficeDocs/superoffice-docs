@@ -9,12 +9,14 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
-redirect_from: /no/admin/preferences/learn/index
+redirect_from: 
+  - /no/admin/preferences/learn/index
+  - /no/admin/preferences/learn/global-preferences/system
 ---
 
 # Preferanser <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-I bildet Preferanser kan du angi preferanser for hele systemet (globalt), én database, én brukergruppe eller én bruker. Preferanser som bare kan angis på globalt nivå (system), er plassert i fanen **[Globale preferanser][1]**.
+I bildet Preferanser kan du angi preferanser for hele systemet (globalt), én database, én brukergruppe eller én bruker. Preferanser som bare kan angis på globalt nivå (system), er plassert i fanen **[Globale preferanser](#global)**.
 
 Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferanser** i toppraden. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
 
@@ -43,19 +45,22 @@ I feltet **Aktive innstillinger** kan du velge hvilke innstillinger som skal vis
 
 ## <a id="global"></a>Globale preferanser (for hele systemet)
 
-Noen [preferanser][1] kan bare angis på et globalt nivå:
+Noen preferanser kan bare angis på et globalt nivå:
 
 * Statistikk
 * Funksjoner
 * E-post
-* Grupperte lister
 * Markedsføring
+* Grupperte lister
 * Mobile CRM
 * Salg
-* Systeminnstillinger for SuperOffice Service
+* [Systeminnstillinger for SuperOffice Service][1]
 * System
-* SMS-konfigurasjon
-* Passordregler for kundesenter
+* Mål
+* [Dataspeiling][5]
+* [SMS-konfigurasjon][7]
+* [SMTP][2] (bare ONSITE)
+* [Passordregler for kundesenter][6]
 
 ### Endre globale preferanser
 
@@ -117,10 +122,15 @@ Innholdet i disse kolonnene defineres i dialogboksen **Innstilling**. [Slik legg
 Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. Klikk på kolonneoverskriften én gang hvis du vil sortere i omvendt rekkefølge.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
+
+[1]: learn/global-preferences/settings.md
+[2]: learn/global-preferences/smtp.md
+[6]: learn/global-preferences/password.md
+[7]: learn/global-preferences/sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->

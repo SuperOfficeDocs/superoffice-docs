@@ -1,6 +1,4 @@
 items:
-- name: Oversikt
-  href: system.md
 - name: Systeminnstillinger for SuperOffice Service
   href: settings.md
 - name: Passordregler for kundesenter

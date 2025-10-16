@@ -2,19 +2,21 @@
 uid: help-da-preferences
 title: Præferencer
 description: Administratorer kan indstille præferencer for forskellige funktioner i systemet for bestemte brugere, brugergrupper eller for hele SuperOffice CRM (globale præferencer).
-keywords: indstillinger, præferencer
+keywords: indstillinger, præferencer, globale præferencer
 author: Bergfrid Dias
 date: 02.28.2025
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-redirect_from: /da/admin/preferences/learn/index
+redirect_from: 
+  - /da/admin/preferences/learn/index
+  - /da/admin/preferences/learn/global-preferences/system
 ---
 
 # Præferencer <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-På skærmbilledet Præferencer kan du angive præferencer for hele systemet (globalt), én database, én brugergruppe eller en individuel bruger. Præferencer, der kun kan angives på globalt (system)niveau, findes under fanen **[Globale præferencer][1]**.
+På skærmbilledet Præferencer kan du angive præferencer for hele systemet (globalt), én database, én brugergruppe eller en individuel bruger. Præferencer, der kun kan angives på globalt (system)niveau, findes under fanen **[Globale præferencer](#global)**.
 
 Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at tilpasse dem til egen brug ved at gå til **Personlige indstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Præferencer** i toplinjen. Hvilke præferencer der vises for brugeren, afhænger af, hvad der er angivet i Indstillinger og vedligeholdelse.
 
@@ -43,19 +45,22 @@ Du kan vælge, hvilke indstillinger der skal vises på listen, baseret på det n
 
 ## <a id="global"></a>Globale præferencer (for hele systemet)
 
-Nogle [præferencer][1] kan kun indstilles på globalt niveau:
+Nogle præferencer kan kun indstilles på globalt niveau:
 
 * Statistik
 * Funktioner
 * E-mail
-* Grupperede lister
 * Marketing
+* Grupperede lister
 * Mobile CRM
 * Salg
-* SuperOffice Service-systemindstillinger
+* [SuperOffice Service-systemindstillinger][1]
 * System
-* SMS-konfiguration
-* Adgangskodepolitik for Customer Centre
+* Mål
+* [Spejling af data][5]
+* [SMS-konfiguration][7]
+* [SMTP][2] (kun onsite)
+* [Adgangskodepolitik for Customer Centre][6]
 
 ### Ændring af globale præferencer
 
@@ -117,8 +122,13 @@ Indholdet af disse kolonner er defineret i dialogboksen **Indstilling**. [Sådan
 Du kan sortere rækkerne i kolonnerne ved at klikke på den ønskede kolonneoverskrift. Klik på kolonneoverskriften onc for at sortere i omvendt rækkefølge.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
+
+[1]: learn/global-preferences/settings.md
+[2]: learn/global-preferences/smtp.md
+[6]: learn/global-preferences/password.md
+[7]: learn/global-preferences/sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options

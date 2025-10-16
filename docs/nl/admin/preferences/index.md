@@ -9,12 +9,14 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-redirect_from: /nl/admin/preferences/learn/index
+redirect_from: 
+  - /nl/admin/preferences/learn/index
+  - /nl/admin/preferences/learn/global-preferences/system
 ---
 
 # Voorkeuren <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-In het scherm Voorkeuren kunt u voorkeuren instellen voor het hele systeem (globaal), één database, één gebruikersgroep of een individuele gebruiker. Voorkeuren die alleen op algemeen (systeem)niveau kunnen worden ingesteld, zijn te vinden in het tabblad **[Algemene voorkeuren][1]**.
+In het scherm Voorkeuren kunt u voorkeuren instellen voor het hele systeem (globaal), één database, één gebruikersgroep of een individuele gebruiker. Voorkeuren die alleen op algemeen (systeem)niveau kunnen worden ingesteld, zijn te vinden in het tabblad **[Algemene voorkeuren](#global)**.
 
 Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
 
@@ -43,19 +45,22 @@ U kunt in het veld **Actieve instellingen** kiezen welke instellingen u in de li
 
 ## <a id="global"></a>Algemene voorkeuren (voor het hele systeem)
 
-Sommige [voorkeuren][1] kunnen alleen op algemeen niveau worden ingesteld:
+Sommige voorkeuren kunnen alleen op algemeen niveau worden ingesteld:
 
 * Statistieken
 * Functies
 * E-mail
-* Gegroepeerde lijsten
 * Marketing
+* Gegroepeerde lijsten
 * Mobile CRM
 * Verkoop
-* SuperOffice Service-systeeminstellingen
+* [SuperOffice Service-systeeminstellingen][1]
 * Systeem
-* SMS-configuratie
-* Wachtwoordbeleid Customer Centre
+* Targets
+* [Gegevens spiegelen][5]
+* [SMS-configuratie][7]
+* [SMTP][2] (alleen LOKAAL)
+* [Wachtwoordbeleid Customer Centre][6]
 
 ### Algemene voorkeuren wijzigen
 
@@ -117,8 +122,13 @@ De inhoud van deze kolommen wordt gedefinieerd in het dialoogvenster **Voorkeur 
 U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken. Klik eenmaal op de kolomkop als u de sorteervolgorde wilt omdraaien.
 
 <!-- Referenced links -->
-[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
+
+[1]: learn/global-preferences/settings.md
+[2]: learn/global-preferences/smtp.md
+[6]: learn/global-preferences/password.md
+[7]: learn/global-preferences/sms.md
+[5]: ../../../../../en/online/mirroring/mirroring-task.md#options

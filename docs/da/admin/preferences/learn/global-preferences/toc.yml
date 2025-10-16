@@ -1,6 +1,4 @@
 items:
-- name: Oversigt
-  href: system.md
 - name: SuperOffice Service-systemindstillinger
   href: settings.md
 - name: Adgangskodepolitik for Customer Centre
