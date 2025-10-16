@@ -1,8 +1,6 @@
 items:
 - name: Systeminställningar för SuperOffice Service
   href: settings.md
-- name: Lösenordspolicy för Kundcenter
-  href: password.md
 - name: SMS-konfiguration
   href: sms.md
 - name: SMTP (LOKALT)

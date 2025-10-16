@@ -129,6 +129,6 @@ U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken.
 
 [1]: learn/global-preferences/settings.md
 [2]: learn/global-preferences/smtp.md
-[6]: learn/global-preferences/password.md
+[6]: ../../customer-center/admin/password-policy.md
 [7]: learn/global-preferences/sms.md
 [5]: ../../../../../en/online/mirroring/mirroring-task.md#options

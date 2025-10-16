@@ -1,8 +1,6 @@
 items:
 - name: Systeminnstillinger for SuperOffice Service
   href: settings.md
-- name: Passordregler for kundesenter
-  href: password.md
 - name: SMS-konfigurasjon
   href: sms.md
 - name: SMTP (ONSITE)

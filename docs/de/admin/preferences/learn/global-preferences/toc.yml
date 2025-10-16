@@ -1,8 +1,6 @@
 items:
 - name: Benutzereinstellungen für SuperOffice Service
   href: settings.md
-- name: Richtlinie für Customer Centre-Passwörter
-  href: password.md
 - name: SMS-Konfiguration
   href: sms.md
 - name: SMTP (VOR ORT)

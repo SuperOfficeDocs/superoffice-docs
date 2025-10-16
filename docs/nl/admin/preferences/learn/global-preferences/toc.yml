@@ -1,8 +1,6 @@
 items:
 - name: SuperOffice Service-systeeminstellingen
   href: settings.md
-- name: Wachtwoordbeleid Customer Centre
-  href: password.md
 - name: SMS-configuratie
   href: sms.md
 - name: SMTP (LOKAAL)
