@@ -30,7 +30,12 @@
         "src":"docs/en/api",
         "dest":"en/api/netserver",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
-        "exclude":[ "toc.yml","index.md", "index.yml", "security/", "overview/", "tutorials/", "reference/", "tooltip/", "web-extensions/", "nuget/" ]
+        "exclude":[ "toc.yml","index.md", "index.yml", "localization/", "overview/", "tutorials/", "reference/", "tooltip/", "web-extensions/", "nuget/" ]
+      },
+      {
+        "src":"docs/en/api/localization",
+        "dest":"en/api/localization",
+        "files": [ "**/**.{md,yml}", "*.{md,yml}" ]
       },
       {
         "src":"docs/en/api/overview",
