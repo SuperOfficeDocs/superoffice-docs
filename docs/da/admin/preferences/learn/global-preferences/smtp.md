@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/preferences/smtp/
+redirect_url: https://docs.superoffice.com/da/admin/preferences/smtp.html
 ---

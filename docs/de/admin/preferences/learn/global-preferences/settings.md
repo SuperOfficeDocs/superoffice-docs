@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/de/admin/preferences/service-settings/
+redirect_url: https://docs.superoffice.com/de/admin/preferences/service-settings.html
 ---
