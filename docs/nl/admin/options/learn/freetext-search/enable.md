@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/nl/admin/options/learn/freetext-search/index.html
+redirect_url: https://docs.superoffice.com/nl/search-options\admin\configure-free-text-search.html
 ---

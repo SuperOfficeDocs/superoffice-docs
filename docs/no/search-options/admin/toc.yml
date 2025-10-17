@@ -1,6 +1,6 @@
 items:
 - name: Konfigurer fritekstsøk
-  href: index.md
+  href: configure-free-text-search.md
 - name: Stoppord
   href: stopwords.md
 - name: Bygge fritekstindeks på nytt

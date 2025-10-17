@@ -1,6 +1,6 @@
 items:
 - name: Volltextsuche konfigurieren
-  href: index.md
+  href: configure-free-text-search.md
 - name: Stoppwörter
   href: stopwords.md
 - name: Volltextsuche neu generieren
