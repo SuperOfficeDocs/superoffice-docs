@@ -57,6 +57,6 @@ Hvis du vil teste indstillingerne, skal du angive et mobiltelefonnummer og noget
 For information om yderligere moduler, se [SMS.][1]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

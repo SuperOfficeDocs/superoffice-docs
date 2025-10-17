@@ -11,3 +11,8 @@ items:
   href: enable-chat.md
 - name: Link en webformular
   href: link-form.md
+- name: For administratorer
+  topicHref: ../admin/password-policy.md
+  items:
+  - name: Adgangskodepolitik for Customer Centre
+    href: ../admin/password-policy.md

@@ -1,0 +1,11 @@
+items:
+- name: Inleiding
+  href: index.md
+- name: Werken met voorkeuren
+  href: update.md
+- name: SuperOffice Service-systeeminstellingen
+  href: service-settings.md
+- name: SMS-configuratie
+  href: sms.md
+- name: SMTP (LOKAAL)
+  href: smtp.md

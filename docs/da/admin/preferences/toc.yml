@@ -1,0 +1,11 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Arbejd med præferencer
+  href: update.md
+- name: SuperOffice Service-systemindstillinger
+  href: service-settings.md
+- name: SMS-konfiguration
+  href: sms.md
+- name: SMTP (ONSITE)
+  href: smtp.md

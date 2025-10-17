@@ -40,11 +40,11 @@ Even if the plugin only supports sending SMS, you must still configure this mail
 ## Related content
 
 * [How to set up an outgoing SMS connector][4]
-* [SMS configuration in Global preferences][1]
+* [SMS configuration for mailings][1]
 * [About SMS mailboxes][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../mailing/admin/define-settings-for-mailings.md#sms
 [3]: ../../../automation/crmscript/index.yml
 [4]: set-up.md
 [5]: ../../../email/service/learn/index.md#sms-in
