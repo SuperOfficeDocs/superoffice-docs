@@ -37,13 +37,11 @@ redirect_from: /nl/admin/preferences/learn/update-preferences
 
 1. Kies in het dialoogvenster **Instelling** onder **Deze instelling is van toepassing op** [het niveau][2] waarop de instelling van toepassing is: het hele systeem, een database, een gebruikersgroep of een individuele gebruiker.
 
-    > [!NOTE]
-    > als een of meer van de opties zijn uitgeschakeld, kunt u deze niet kiezen als instelling.
+    * Als een of meer van de opties zijn uitgeschakeld, kunt u deze niet kiezen als instelling.
 
 1. Kies de naam van de gewenste database, groep of gebruiker, afhankelijk van wat u hierboven hebt gekozen.
 
-    > [!NOTE]
-    > als u **Systeem** hebt gekozen, wordt het veld **Doel** automatisch ingevuld, aangezien er slechts Ã©Ã©n systeem is.
+    * Als u **Systeem** hebt gekozen, wordt het veld **Doel** automatisch ingevuld, aangezien er slechts één systeem is.
 
 1. De naam van het veld onder **Waarde** varieert, afhankelijk van de voorkeur. U geeft hier de waarde voor de instelling op door deze in te voeren in dit veld, te kiezen uit een vooraf gedefinieerde lijst of een selectievakje in te schakelen, afhankelijk van het type voorkeur.
 
@@ -62,10 +60,9 @@ redirect_from: /nl/admin/preferences/learn/update-preferences
 
 1. Werk de velden indien nodig bij.
 
-1. Klik op **Opslaan**. De instelling is beschikbaar voor de gebruikers wanneer zij zich weer aanmelden bij SuperOffice.
+1. Klik op **Opslaan** (of **Annuleren** om uw wijzigingen te verwerpen).
 
-    > [!NOTE]
-    > klik op **Annuleren** als u de wijzigingen niet wilt verwerken.
+    * De instelling is beschikbaar voor de gebruikers wanneer zij zich weer aanmelden bij SuperOffice.
 
 ## <a id="personal"></a>Persoonlijke instellingen toestaan
 
@@ -74,7 +71,7 @@ redirect_from: /nl/admin/preferences/learn/update-preferences
 1. Schakel **Persoonlijke instellingen toestaan** in. De voorkeur wordt vervolgens weergegeven in het dialoogvenster **Voorkeuren** en elke persoon kan de instellingen voor eigen gebruik bewerken.
 
 > [!NOTE]
-> u kunt de functie voor gebruikersinstellingen niet gebruiken voor alle voorkeuren.
+> Instellingen op gebruikersniveau zijn niet beschikbaar voor alle voorkeuren.
 
 ## Voorkeursinstelling verwijderen
 

@@ -37,13 +37,11 @@ redirect_from: /sv/admin/preferences/learn/update-preferences
 
 1. Under **Inställningen gäller för** i dialogrutan **Inställning** väljer du på [vilken nivå][2] inställningen ska tillämpas: hela systemet, en databas, en användargrupp eller en enskild användare.
 
-    > [!NOTE]
-    > Om ett eller flera alternativ är inaktiverade kan den här inställningen inte tillämpas på dem.
+    * Om ett eller flera alternativ är inaktiverade kan den här inställningen inte tillämpas på dem.
 
 1. Välj namnet på den önskade databasen, gruppen eller användaren, beroende på vad du valde ovan.
 
-    > [!NOTE]
-    > Om du har valt **System** fylls fältet **Mål** i automatiskt eftersom det bara finns ett system.
+    * Om du har valt **System** fylls fältet **Mål** i automatiskt eftersom det bara finns ett system.
 
 1. Namnet på fältet under **Värde** varierar beroende på vilken inställning det gäller. Här anger du värden för inställningen genom att antingen skriva något i fältet, välja från en fördefinierad lista, markera en ruta osv., beroende på vilken inställningstyp det handlar om.
 
@@ -62,10 +60,9 @@ redirect_from: /sv/admin/preferences/learn/update-preferences
 
 1. Uppdatera fälten efter behov.
 
-1. Klicka på **Spara**. Inställningen blir tillgänglig för användarna nästa gång de loggar in i SuperOffice.
+1. Klicka på **Spara** (eller **Avbryt** för att förkasta dina ändringar).
 
-    > [!NOTE]
-    > Om du inte vill spara ändringarna klickar du på **Avbryt**.
+    * Inställningen blir tillgänglig för användarna nästa gång de loggar in i SuperOffice.
 
 ## <a id="personal"></a>Tillåt individuella inställningar
 
@@ -74,7 +71,7 @@ redirect_from: /sv/admin/preferences/learn/update-preferences
 1. Markera **Tillåt individuella inställningar**. Inställningen kommer att visas i dialogrutan **Inställningar** och varje användare kan redigera den efter egna önskemål.
 
 > [!NOTE]
-> Inställningar på användarnivå är inte tillgängliga för alla parametrar.
+> Inställningar på användarnivå är inte tillgängliga för alla inställningar.
 
 ## Ta bort inställningar
 

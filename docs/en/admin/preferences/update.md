@@ -37,13 +37,11 @@ language: en
 
 1. In the **Setting** dialog under **This setting will apply to**, choose [which level][2] the setting will apply to – the whole system, one database, one user group or an individual user.
 
-    > [!NOTE]
-    > If any of the options are disabled, this setting cannot be applied to them.
+    * If any of the options are disabled, this setting cannot be applied to them.
 
 1. Choose the name of the required database, group or user, depending on the option you selected above.
 
-    > [!NOTE]
-    > If you selected **System**, the **Target** field is filled in automatically as there is only one system.
+    * If you selected **System**, the **Target** field is filled in automatically as there is only one system.
 
 1. The name of the field below **Value** varies depending on the preference involved. Specify the value for the setting by typing into this field, choosing from a predefined list, making a selection in a selection box, and so on, depending on the type of preference.
 
@@ -62,10 +60,9 @@ language: en
 
 1. Update the fields as required.
 
-1. Click **Save**. The setting becomes available to users the next time they log in to SuperOffice.
+1. Click **Save** (or **Cancel** to reject your changes).
 
-    > [!NOTE]
-    > You can click **Cancel** to reject your changes.
+    * The setting becomes available to users the next time they log in to SuperOffice.
 
 ## <a id="personal"></a>Allow individual settings
 

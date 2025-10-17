@@ -37,13 +37,11 @@ redirect_from: /de/admin/preferences/learn/update-preferences
 
 1. Wählen Sie im Dialogfeld **Einstellung** unter **Diese Einstellung gilt für** aus, für [welche Stufe][2] die Option gelten soll: das gesamte System, eine Datenbank, eine Benutzergruppe oder einen einzelnen Benutzer.
 
-    > [!NOTE]
-    > Wenn eine oder mehrere Optionen deaktiviert sind, können Sie diese nicht für die Einstellung auswählen.
+    * Wenn eine oder mehrere Optionen deaktiviert sind, können Sie diese nicht für die Einstellung auswählen.
 
 1. Wählen Sie je nach der oben ausgewählten Option den Namen der gewünschten Datenbank, der Gruppe oder des Benutzers aus.
 
-    > [!NOTE]
-    > Wenn Sie **System** gewählt haben, wird das Feld **Ziel** automatisch ausgefüllt, da es nur ein System gibt.
+    * Wenn Sie **System** gewählt haben, wird das Feld **Ziel** automatisch ausgefüllt, da es nur ein System gibt.
 
 1. Der Name des Felds unter **Wert** hängt von der betreffenden Einstellung ab. Geben Sie hier den Wert der Option je nach Einstellungstyp direkt ein, wählen Sie ihn aus einer vordefinierten Liste aus oder nehmen Sie eine Auswahl in einem Auswahlfeld vor.
 
@@ -62,10 +60,9 @@ redirect_from: /de/admin/preferences/learn/update-preferences
 
 1. Aktualisieren Sie die Felder wie gewünscht.
 
-1. Klicken Sie auf **Speichern**. Die Option ist dann für die Benutzer bei ihrem nächsten Einloggen bei SuperOffice CRM verfügbar.
+1. Klicken Sie auf **Speichern** (oder **Abbrechen**, um Ihre Änderungen zu verwerfen).
 
-    > [!NOTE]
-    > Wenn Sie die Änderungen verwerfen möchten, klicken Sie auf **Abbrechen**.
+    * Die Option ist dann für die Benutzer bei ihrem nächsten Einloggen bei SuperOffice CRM verfügbar.
 
 ## <a id="personal"></a>Individuelle Einstellungen zulassen
 
@@ -74,7 +71,7 @@ redirect_from: /de/admin/preferences/learn/update-preferences
 1. Aktivieren Sie das Kontrollkästchen **Individuelle Einstellungen zulassen**. Die Einstellung wird dann im Dialogfeld **Einstellungen** angezeigt, und jede Person kann die Einstellungen für ihre eigene Verwendung bearbeiten.
 
 > [!NOTE]
-> Die Einstellungen auf Benutzerebene sind nicht für alle Einstellungsoptionen verfügbar.
+> Einstellungen auf Benutzerebene sind nicht für alle Einstellungen verfügbar.
 
 ## Einstellungsoptionen löschen
 

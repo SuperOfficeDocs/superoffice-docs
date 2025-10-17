@@ -35,15 +35,13 @@ redirect_from: /da/admin/preferences/learn/update-preferences
 
 1. Klik på **Tilføj** nederst i vinduet.
 
-1. I dialogboksen **Indstilling** under **Denne indstilling gælder for** skal du vælge, [hvilket niveau][2] indstillingen skal gælde for – hele systemet, én database, én brugergruppe eller en enkelt bruger.
+1. I dialogboksen **Indstilling** under **Denne indstilling gælder for** skal du vælge, [hvilket niveau][2] indstillingen skal gælde for – hele systemet, én database, én brugergruppe eller en enkelt bruger.
 
-    > [!NOTE]
-    > Hvis et eller flere alternativer er deaktiveret, kan du ikke vælge denne indstilling for dem.
+    * Hvis et eller flere alternativer er deaktiveret, kan du ikke vælge denne indstilling for dem.
 
 1. Vælg navnet på den ønskede database, gruppe eller bruger i overensstemmelse med, hvad du valgte ovenfor.
 
-    > [!NOTE]
-    > Hvis du har valgt **System**, udfyldes feltet **Mål** automatisk, da der kun er ét system.
+    * Hvis du har valgt **System**, udfyldes feltet **Mål** automatisk, da der kun er ét system.
 
 1. Navnet på feltet under **Værdi** varierer afhængigt af, hvilken præference der gælder. Her angiver du værdien for indstillingen ved at indtaste en værdi i feltet, vælge fra en foruddefineret liste eller markere et afkrydsningsfelt eller lignende afhængigt af, hvilken præferencetype det drejer sig om.
 
@@ -62,10 +60,9 @@ redirect_from: /da/admin/preferences/learn/update-preferences
 
 1. Opdater felterne efter behov.
 
-1. Klik på **Gem**. Indstillingen bliver tilgængelig for brugerne, næste gang de logger på SuperOffice.
+1. Klik på **Gem** (eller **Afbryd** for at forkaste dine ændringer).
 
-    > [!NOTE]
-    > Hvis du ikke vil gemme ændringerne alligevel, kan du klikke på **Afbryd**.
+    * Indstillingen bliver tilgængelig for brugerne, næste gang de logger på SuperOffice.
 
 ## <a id="personal"></a>Tillad brugerindstillinger
 

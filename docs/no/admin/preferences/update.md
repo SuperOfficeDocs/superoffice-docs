@@ -37,13 +37,11 @@ redirect_from: /no/admin/preferences/learn/update-preferences
 
 1. I dialogboksen **Innstilling** under **Denne innstillingen gjelder for** velger du [hvilket nivå][2] innstillingen skal gjelde for – hele systemet, én database, én brukergruppe eller én bruker.
 
-    > [!NOTE]
-    > Hvis ett eller flere av alternativene er deaktivert, kan du ikke velge dette for denne innstillingen.
+    * Hvis ett eller flere av alternativene er deaktivert, kan du ikke velge dette for denne innstillingen.
 
 1. Velg navnet på ønsket database, gruppe eller bruker, i henhold til hva du valgte ovenfor.
 
-    > [!NOTE]
-    > Hvis du valgte **System**, fylles feltet **Mål** ut automatisk, siden det bare finnes ett system.
+    * Hvis du valgte **System**, fylles feltet **Mål** ut automatisk, siden det bare finnes ett system.
 
 1. Navnet på feltet under **Verdi** varierer, avhengig av hvilken preferanse det gjelder. Her angir du verdien for innstillingen ved å skrive inn noe i feltet, velge fra en forhåndsdefinert liste, merke av i en utvalgboks og så videre, avhengig av hva slags preferansetype det dreier seg om.
 
@@ -62,10 +60,9 @@ redirect_from: /no/admin/preferences/learn/update-preferences
 
 1. Oppdater feltene etter behov.
 
-1. Klikk på **Lagre**. Innstillingen blir tilgjengelig for brukere neste gang de logger på SuperOffice.
+1. Klikk på **Lagre** (eller **Avbryt** for å forkaste endringene).
 
-    > [!NOTE]
-    > Hvis du ikke vil lagre endringene likevel, kan du klikke på **Avbryt**.
+    * Innstillingen blir tilgjengelig for brukere neste gang de logger på SuperOffice.
 
 ## <a id="personal"></a> Tillate brukerinnstillinger
 
@@ -74,7 +71,7 @@ redirect_from: /no/admin/preferences/learn/update-preferences
 1. Merk av for **Tillat brukerinnstillinger**. Da vises preferansen i dialogboksen **Preferanser**, og alle kan redigere innstillingene for eget bruk.
 
 > [!NOTE]
-> Funksjonen for brukerinnstillinger er ikke tilgjengelig for alle preferanser.
+> Innstillinger på brukernivå er ikke tilgjengelig for alle preferanser.
 
 ## Slette preferanseinnstilling
 
