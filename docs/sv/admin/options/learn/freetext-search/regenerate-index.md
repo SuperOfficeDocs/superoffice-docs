@@ -19,7 +19,7 @@ När du [lägger till eller tar bort nya stoppord][1] gäller ändringarna inte 
 
 ## Så här återskapar du fritextindexet
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontrollera att [fritextsökning är aktiverad][4].
 

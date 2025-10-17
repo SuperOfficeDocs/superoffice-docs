@@ -19,7 +19,7 @@ Wanneer u [nieuwe stopwoorden toevoegt of verwijdert][1], hebben uw wijzigingen 
 
 ## Het opnieuw genereren van een vrije-tekstindex
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Controleer of [zoeken op vrije tekst is ingeschakeld][4].
 

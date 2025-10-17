@@ -19,7 +19,7 @@ Når du [tilføjer eller sletter nye stopord][1], har dine ændringer ikke tilba
 
 ## Sådan gendannes fritekstindekset
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontroller, at [fritekstsøgning er aktiveret][4].
 

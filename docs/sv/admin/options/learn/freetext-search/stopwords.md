@@ -22,7 +22,7 @@ De ord som definieras som stoppord för fritextsökningar läggs in i tabellen *
 
 ## Lägg till stoppord
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontrollera att [fritextsökning är aktiverad][2].
 
@@ -38,7 +38,7 @@ De ord som definieras som stoppord för fritextsökningar läggs in i tabellen *
 
 Istället för att lägga till stoppord manuellt kan du låta systemet föreslå stoppord åt dig.
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontrollera att [fritextsökning är aktiverad][2].
 
@@ -56,7 +56,7 @@ Istället för att lägga till stoppord manuellt kan du låta systemet föreslå
 
 Syftet med att ta bort stoppord är att de ska inkluderas i fritextsökningar efter att ha varit exkluderade. Så här tar du bort ett stoppord från listan:
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontrollera att [fritextsökning är aktiverad][2].
 

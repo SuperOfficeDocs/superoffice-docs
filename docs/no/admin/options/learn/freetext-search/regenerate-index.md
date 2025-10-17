@@ -19,7 +19,7 @@ Når du bare [legger til eller sletter nye stoppord][1], har ikke endringene din
 
 ## Regenerere fritekstindeksen
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontroller at [fritekstsøk er aktivert][4].
 

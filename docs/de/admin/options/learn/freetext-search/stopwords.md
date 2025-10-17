@@ -22,7 +22,7 @@ Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansic
 
 ## Stoppwörter hinzufügen
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
 
@@ -38,7 +38,7 @@ Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansic
 
 Anstatt die Stoppwörter manuell einzugeben, können Sie sich auch Stoppwörter vom System vorschlagen lassen.
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
 
@@ -56,7 +56,7 @@ Anstatt die Stoppwörter manuell einzugeben, können Sie sich auch Stoppwörter 
 
 Stoppwörter werden gelöscht, damit sie nach dem Ausschließen doch in die Volltextsuche aufgenommen werden. So löschen Sie ein Stoppwort aus der Liste:
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
 

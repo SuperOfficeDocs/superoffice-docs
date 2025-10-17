@@ -10,6 +10,9 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
+redirect_from:
+  - /de/admin/options/learn/freetext-search/enable.html
+  - /de/admin/options/learn/freetext-search/configure.html
 ---
 
 # Volltextsuche
@@ -18,16 +21,45 @@ Mit der Funktion Volltextsuche in SuperOffice CRM können Benutzer die gesamte A
 
 Über diese Registerkarte in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern. Die Freitextsuche kann nur für OnSite-Lösungen deaktiviert werden, nicht für online-/cloud-Versionen.
 
+## Volltextsuche aktivieren
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+
+1. Aktivieren Sie das Kontrollkästchen **Volltextsuche ermöglichen**.
+
+Standardmäßig ist die Volltextsuche aktiviert. Wenn Ihr Unternehmen jedoch vermeiden möchte, dass für die Aktualisierung des Volltextindex bei jeder Speicherung neuer Daten Zeit verbraucht und Platz auf dem System belegt wird, können Sie das Kontrollkästchen **Volltextsuche aktiviert** deaktivieren. Dies deaktiviert das Feld in SuperOffice CRM onsite für die Volltextsuche.
+
+## Legen Sie Suchkriterien für eine Volltextsuche fest
+
+Sie können Suchkriterien für Einzelwörter (zum Beispiel *Peter*) und Phrasen aus mehreren Wörtern (zum Beispiel *Oliver Peter Gruber*) festlegen.
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+
+1. Überprüfen Sie, ob die Volltextsuche aktiviert ist.
+
+1. Wählen Sie für **Operator für Einzelwortsuche** eine der folgenden Optionen aus:
+
+    * **Beginnt mit**: Hier kann eine Suche nach *pet* beispielsweise *Peter* und *Peterson* ergeben.
+    * **Enthält**: Hier kann eine Suche nach *pet* beispielsweise *Peter* und *Peterson* ergeben.
+    * **Exakte Übereinstimmung**: Hier kann eine Suche nach *Peter* nur das Ergebnis *Peter* ergeben.
+
+    > [!NOTE]
+    > Die Option **Exakte Übereinstimmung** benötigt beim Suchen die wenigsten Ressourcen, während die Option **Enthält** sehr ressourcenintensiv ist.
+
+1. Wählen Sie für **Operator für Mehrwortsuche** eine der folgenden Optionen aus:
+    * **Beginnt mit**: hier kann eine Suche nach *pet* beispielsweise *Peter Nielsen* ergeben.
+    * **Enthält**: Hier kann eine Suche nach *pet* die Ergebnisse *Oliver Peter Gruber* und *Ludwig Peterson* ergeben.
+    * **Exakte Übereinstimmung**: Nur eine Suche nach *Oliver Peter Nielsen* ergibt auch *Oliver Peter Nielsen* als Suchergebnis.
+
+    > [!NOTE]
+    > Bei der Suche nach Phrasen, die aus mehreren Wörtern bestehen, werden alle Wörter zusammen gesucht.
+
 ## Was möchten Sie jetzt tun?
 
-* [Volltextsuche aktivieren (onsite)][1]
-* [Suchkriterien festlegen][2]
 * [Stoppwörter hinzufügen][3]
 * [Volltextindex neu generieren][4]
 
 <!-- Referenced links -->
-[1]: enable.md
-[2]: configure.md
 [3]: stopwords.md
 [4]: regenerate-index.md
 

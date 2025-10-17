@@ -22,7 +22,7 @@ De ord, der er defineret som stopord til fritekstsøgninger, er anført i tabell
 
 ## Tilføjelse af stopord
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontroller, at [fritekstsøgning er aktiveret][2].
 
@@ -38,7 +38,7 @@ De ord, der er defineret som stopord til fritekstsøgninger, er anført i tabell
 
 I stedet for at indtaste stopord manuelt, kan du lade systemet foreslå stopord for dig.
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontroller, at [fritekstsøgning er aktiveret][2].
 
@@ -56,7 +56,7 @@ I stedet for at indtaste stopord manuelt, kan du lade systemet foreslå stopord 
 
 Formålet med at slette stopord er at medtage dem i fritekstsøgninger efter at have udelukket dem. Sådan slettes et stopord fra listen:
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Kontroller, at [fritekstsøgning er aktiveret][2].
 

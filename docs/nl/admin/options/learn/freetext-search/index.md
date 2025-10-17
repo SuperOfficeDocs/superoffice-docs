@@ -10,6 +10,9 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
+redirect_from:
+  - /nl/admin/options/learn/freetext-search/enable.html
+  - /nl/admin/options/learn/freetext-search/configure.html
 ---
 
 # Zoeken op vrije tekst
@@ -18,16 +21,45 @@ Met de functie Vrije-tekstzoekbewerking van SuperOffice CRM kunnen gebruikers ov
 
 Met dit tabblad in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM. De vrije tekst-zoekfunctie kan alleen worden gedeactiveerd voor onsite-oplossingen, niet voor online-/cloud-versies.
 
+## Zoeken op vrije tekst inschakelen
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+
+1. Schakel het selectievakje **Zoeken op vrije tekst inschakelen** in.
+
+Het zoeken op vrije tekst is standaard ingeschakeld. Als uw organisatie echter geen tijd en systeemruimte wil besteden aan het bijwerken van de vrije-tekstindex bij elk nieuw gegeven dat in de database wordt opgeslagen, kunt u het selectievakje **Zoeken op vrije tekst inschakelen** uitschakelen. Hierdoor wordt het veld voor vrije-tekstzoekbewerking in SuperOffice CRM onsite uitgeschakeld.
+
+## Zoekcriteria opgeven voor een zoekopdracht in vrije tekst
+
+U kunt zoekcriteria opgeven voor zowel losse woorden (bijvoorbeeld *Peter*) als voor fragmenten die bestaan uit meerdere woorden (bijvoorbeeld *Jan Peter Brouwers*).
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+
+1. Controleer of zoeken op vrije tekst is ingeschakeld.
+
+1. Schakel een van de volgende opties in voor **Operator voor zoeken naar één woord**:
+
+    * **Start met**: wanneer u deze optie kiest, kan de zoekopdracht *pet* bijvoorbeeld *Peter* en *Petersen* als resultaat geven.
+    * **Bevat**: wanneer u deze optie kiest, kan de zoekopdracht *eter* bijvoorbeeld *Peter* en *Petersen* als resultaat geven.
+    * **100% overeenkomst**: wanneer u deze optie kiest, geeft de zoekopdracht *Peter* als resultaat enkel *Peter*.
+
+    > [!NOTE]
+    > de optie **100% overeenkomst** vergt tijdens een zoekbewerking de minste systeembronnen, de optie **Bevat** vergt de meeste.
+
+1. Schakel een van de volgende opties in voor **Operator voor zoeken naar meerdere woorden**:
+    * **Start met**: wanneer u deze optie kiest, kan de zoekopdracht *pet* bijvoorbeeld *Peter Brouwers* als resultaat geven.
+    * **Bevat**: wanneer u deze optie kiest, kan de zoekopdracht *pet* bijvoorbeeld *Jan Peter Brouwers* en *Erik Petersen* als resultaat geven.
+    * **100% overeenkomst**: wanneer u deze optie kiest, geeft de zoekopdracht *Jan Peter Brouwers* als resultaat enkel *Jan Peter Brouwers*.
+
+    > [!NOTE]
+    > wanneer u zoekt op fragmenten van meerdere woorden, wordt er gezocht naar alle woorden samen.
+
 ## Gerelateerde inhoud
 
-* [Zoeken op vrije tekst inschakelen (onsite)][1]
-* [Zoekcriteria opgeven][2]
 * [Stopwoorden toevoegen][3]
 * [Een vrije-tekstindex opnieuw genereren][4]
 
 <!-- Referenced links -->
-[1]: enable.md
-[2]: configure.md
 [3]: stopwords.md
 [4]: regenerate-index.md
 

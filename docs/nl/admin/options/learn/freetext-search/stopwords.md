@@ -22,7 +22,7 @@ De woorden die zijn gedefinieerd als stopwoorden voor vrije-tekstzoekbewerkingen
 
 ## Stopwoord toevoegen
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Controleer of [zoeken op vrije tekst is ingeschakeld][2].
 
@@ -38,7 +38,7 @@ De woorden die zijn gedefinieerd als stopwoorden voor vrije-tekstzoekbewerkingen
 
 u kunt stopwoorden laten voorstellen door het systeem, in plaats van dat u de stopwoorden handmatig invoert.
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Controleer of [zoeken op vrije tekst is ingeschakeld][2].
 
@@ -56,7 +56,7 @@ u kunt stopwoorden laten voorstellen door het systeem, in plaats van dat u de st
 
 U verwijdert stopwoorden als u ze bij nader inzien toch wilt gebruiken voor vrije-tekstzoekbewerkingen. U verwijdert als volgt een stopwoord uit de lijst:
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Controleer of [zoeken op vrije tekst is ingeschakeld][2].
 

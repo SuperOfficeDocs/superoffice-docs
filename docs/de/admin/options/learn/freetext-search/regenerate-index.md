@@ -19,7 +19,7 @@ Wenn Sie [neue Stoppwörter hinzufügen oder löschen][1], haben Ihre Änderunge
 
 ## Um den Volltextindex zu erneuern
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][4].
 

@@ -19,7 +19,7 @@ When you [add or delete new stopwords][1], your changes do not have a retroactiv
 
 ## To regenerate the freetext index
 
-1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
 1. Check that [freetext search is enabled][4].
 
