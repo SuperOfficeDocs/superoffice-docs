@@ -77,7 +77,7 @@ Batches can in principle be processed in parallel, but doing so would probably s
 [2]: change-tracking.md
 [3]: getting-started/i-mirror-client-service.md
 [4]: skip-tables.md
-[5]: ../../admin/preferences/learn//update-preferences.md#edit
+[5]: ../../admin/preferences/update.md#edit
 
 <!-- Referenced images -->
 [img1]: media/mirroringprinciplessequencediagram.png

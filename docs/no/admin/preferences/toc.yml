@@ -2,7 +2,7 @@ items:
 - name: Introduksjon
   href: index.md
 - name: Arbeide med preferanser
-  href: update-preferences.md
+  href: update.md
 - name: Systeminnstillinger for SuperOffice Service
   href: service-settings.md
 - name: SMS-konfigurasjon

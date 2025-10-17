@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/en/admin/preferences/update-preferences.html
+redirect_url: https://docs.superoffice.com/en/admin/preferences/update.html
 ---

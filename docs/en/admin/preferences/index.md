@@ -124,8 +124,8 @@ You can sort the rows in the columns by clicking on the required column heading.
 <!-- Referenced links -->
 [1]: service-settings.md
 [2]: smtp.md
-[3]: update-preferences.md
-[4]: update-preferences.md#personal
+[3]: update.md
+[4]: update.md#personal
 [5]: sms.md
 [6]: ../../customer-center/admin/password-policy.md
 [8]: ../../diary/learn/video-meetings.md
