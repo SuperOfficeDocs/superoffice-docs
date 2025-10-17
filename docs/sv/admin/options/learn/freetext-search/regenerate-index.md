@@ -2,10 +2,14 @@
 uid: help-sv-freetext-index-regen
 title: Återskapa ett fritextindex
 description: Återskapa ett fritextindex
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: fritext, sökindex
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: sv
 deployment: onsite
 ---

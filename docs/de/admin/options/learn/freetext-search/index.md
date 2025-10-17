@@ -3,12 +3,13 @@ uid: help-de-settings-freetext-search
 title: Volltextsuche
 description: Volltextsuche
 keywords: Volltext, Suchen
-author: Bergfrid Dias
-date: 10.31.2024
-version: 10
-content_type: concept
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: de
 redirect_from:
   - /de/admin/options/learn/freetext-search/enable.html
@@ -53,7 +54,6 @@ Sie können Suchkriterien für Einzelwörter (zum Beispiel *Peter*) und Phrasen 
 
     > [!NOTE]
     > Bei der Suche nach Phrasen, die aus mehreren Wörtern bestehen, werden alle Wörter zusammen gesucht.
-
 
 ## Verwandte Inhalte
 

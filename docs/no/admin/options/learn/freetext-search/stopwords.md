@@ -2,12 +2,14 @@
 uid: help-no-stopwords
 title: Stoppord
 description: Stoppord
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: fritekst, søk, stoppord
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: no
 ---
 

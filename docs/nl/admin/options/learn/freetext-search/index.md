@@ -3,12 +3,13 @@ uid: help-nl-settings-freetext-search
 title: Zoeken op vrije tekst
 description: Zoeken op vrije tekst
 keywords: vrije tekst, zoeken
-author: Bergfrid Dias
-date: 10.31.2024
-version: 10
-content_type: concept
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: nl
 redirect_from:
   - /nl/admin/options/learn/freetext-search/enable.html

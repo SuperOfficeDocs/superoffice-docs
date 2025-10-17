@@ -3,12 +3,13 @@ uid: help-sv-settings-freetext-search
 title: Fritextsökning
 description: Fritextsökning
 keywords: fritext, söka
-author: Bergfrid Dias
-date: 10.31.2024
-version: 10
-content_type: concept
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: sv
 redirect_from:
   - /sv/admin/options/learn/freetext-search/enable.html

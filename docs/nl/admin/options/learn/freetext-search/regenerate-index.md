@@ -2,10 +2,14 @@
 uid: help-nl-freetext-index-regen
 title: Een vrije-tekstindex opnieuw genereren
 description: Een vrije-tekstindex opnieuw genereren
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: vrije tekst, zoekindex
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: nl
 deployment: onsite
 ---

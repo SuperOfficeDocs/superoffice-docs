@@ -2,10 +2,14 @@
 uid: help-de-freetext-index-regen
 title: Volltextindex neu generieren
 description: Volltextindex neu generieren
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: Volltext, Suchindex
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: de
 deployment: onsite
 ---
