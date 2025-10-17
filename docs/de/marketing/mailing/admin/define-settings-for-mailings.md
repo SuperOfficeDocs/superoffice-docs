@@ -57,6 +57,6 @@ Zum Testen der Einstellungen geben Sie eine Mobilfunknummer und etwas Text ein u
 Informationen über zusätzliche Module finden Sie unter [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

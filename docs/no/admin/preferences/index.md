@@ -128,9 +128,9 @@ Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. K
 [9]: ../../../document/library/learn/index.md
 
 [1]: learn/global-preferences/settings.md
-[2]: learn/global-preferences/smtp.md
+[2]: smtp.md
 [6]: ../../customer-center/admin/password-policy.md
-[7]: learn/global-preferences/sms.md
+[7]: sms.md
 [5]: ../../../../../en/online/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->

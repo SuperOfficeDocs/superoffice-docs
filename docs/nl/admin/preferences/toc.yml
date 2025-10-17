@@ -3,6 +3,9 @@ items:
   href: index.md
 - name: Werken met voorkeuren
   href: update-preferences.md
-
-- name: Algemene voorkeuren
-  href: learn/global-preferences/toc.yml
+- name: SuperOffice Service-systeeminstellingen
+  href: learn/global-preferences/settings.md
+- name: SMS-configuratie
+  href: sms.md
+- name: SMTP (LOKAAL)
+  href: smtp.md

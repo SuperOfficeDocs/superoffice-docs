@@ -1,7 +1,0 @@
-items:
-- name: SuperOffice Service-systemindstillinger
-  href: settings.md
-- name: SMS-konfiguration
-  href: sms.md
-- name: SMTP (ONSITE)
-  href: smtp.md

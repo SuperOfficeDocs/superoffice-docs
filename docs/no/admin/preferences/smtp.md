@@ -1,0 +1,18 @@
+---
+uid: help-no-service-settings-system-smtp
+title: SMTP
+description: SMTP
+author: SuperOffice RnD
+date: 06.29.2022
+keywords: Tjeneste, innstillinger
+content_type: concept
+language: no
+deployment: onsite
+redirect_from: /no/admin/preferences/learn/global-preferences/smtp
+---
+
+# SMTP (bare ONSITE)
+
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren, og velg deretter fanen **Globale preferanser**. Delen **SMTP** inneholder følgende valg:
+
+[!include[List of fields for mailings](../../marketing/learn/includes/mailing-smtp-fields.md)]

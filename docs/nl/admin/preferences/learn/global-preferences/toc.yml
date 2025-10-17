@@ -1,7 +1,0 @@
-items:
-- name: SuperOffice Service-systeeminstellingen
-  href: settings.md
-- name: SMS-configuratie
-  href: sms.md
-- name: SMTP (LOKAAL)
-  href: smtp.md

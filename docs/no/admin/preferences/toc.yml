@@ -3,6 +3,9 @@ items:
   href: index.md
 - name: Arbeide med preferanser
   href: update-preferences.md
-
-- name: Globale preferanser
-  href: learn/global-preferences/toc.yml
+- name: Systeminnstillinger for SuperOffice Service
+  href: learn/global-preferences/settings.md
+- name: SMS-konfigurasjon
+  href: sms.md
+- name: SMTP (ONSITE)
+  href: smtp.md

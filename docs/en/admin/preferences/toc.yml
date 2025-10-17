@@ -3,6 +3,9 @@ items:
   href: index.md
 - name: Work with preferences
   href: update-preferences.md
-
-- name: Global preferences
-  href: learn/global-preferences/toc.yml
+- name: SuperOffice Service system settings
+  href: learn/global-preferences/settings.md
+- name: SMS configuration
+  href: sms.md
+- name: SMTP (ONSITE)
+  href: smtp.md

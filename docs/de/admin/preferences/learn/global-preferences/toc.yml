@@ -1,7 +1,0 @@
-items:
-- name: Benutzereinstellungen für SuperOffice Service
-  href: settings.md
-- name: SMS-Konfiguration
-  href: sms.md
-- name: SMTP (VOR ORT)
-  href: smtp.md
