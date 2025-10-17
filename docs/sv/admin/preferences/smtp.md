@@ -2,12 +2,18 @@
 uid: help-sv-service-settings-system-smtp
 title: SMTP
 description: SMTP
-keywords: Tjänst, inställningar
-author: SuperOffice RnD
-date: 02.25.2025
-content_type: howto
-language: sv
+keywords: SMTP inställningar
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
+audience: settings
+audience_tooltip: Settings and maintenance
 deployment: onsite
+index: true
+language: sv
 redirect_from: /sv/admin/preferences/learn/global-preferences/smtp
 ---
 

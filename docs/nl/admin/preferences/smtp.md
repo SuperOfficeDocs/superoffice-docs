@@ -2,12 +2,18 @@
 uid: help-nl-service-settings-system-smtp
 title: SMTP
 description: SMTP
-keywords: Service, instellingen
-author: SuperOffice RnD
-date: 06.29.2022
+keywords: SMTP instellingen
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: reference
-language: nl
+category: Settings and maintenance
+topic: preferences
+audience: settings
+audience_tooltip: Settings and maintenance
 deployment: onsite
+index: true
+language: nl
 redirect_from: /nl/admin/preferences/learn/global-preferences/smtp
 ---
 

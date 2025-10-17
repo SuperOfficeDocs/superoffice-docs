@@ -228,7 +228,7 @@ For users, it means that delete operations can be undone. For DBAs, the deep del
 
 <!--Reference links-->
 [1]: ../../learn/basics/deleting-elements.md#restore
-[2]: ../../admin/preferences/servive-settings.md
+[2]: ../../admin/preferences/service-settings.md
 [3]: ../../online/mirroring/overview.md
 [4]: ../../onsite/travel/index.md
 [5]: ../../database/tables/enums/ticketbasestatus.md

@@ -2,14 +2,18 @@
 uid: help-nl-service-settings-system-sms
 title: SMS
 description: SMS
-keywords: Service, instellingen
-author: SuperOffice RnD
-date: 03.14.2025
+keywords: SMS instellingen
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: reference
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
-language: nl
+index: true
 redirect_from: /nl/admin/preferences/learn/global-preferences/sms
+language: nl
 ---
 
 # SMS-configuratie in Algemene voorkeuren

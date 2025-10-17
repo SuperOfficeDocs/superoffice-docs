@@ -1,13 +1,17 @@
 ---
 uid: help-no-preferences
 title: Preferanser
-description: "Administratorer kan angi preferanser for ulike funksjoner i systemet for bestemte brukere, brukergrupper eller for hele SuperOffice CRM (globale preferanser)."
-author: Bergfrid Dias
-date: 03.21.2023
-keywords: innstillinger, preferanser
+description: Administratorer kan angi preferanser for ulike funksjoner i systemet for bestemte brukere, brukergrupper eller for hele SuperOffice CRM (globale preferanser).
+keywords: innstillinger, preferanser, globale preferanser
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: concept
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: no
 redirect_from: 
   - /no/admin/preferences/learn/index

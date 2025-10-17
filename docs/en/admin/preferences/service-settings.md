@@ -2,17 +2,20 @@
 uid: help-en-service-settings-system-settings
 title: SuperOffice Service system settings
 description: Global preferences for SuperOffice Service system settings
-keywords: Service, settings
-author: SuperOffice Product and Engineering
-date: 09.01.2025
-version: 11.3
-content_type: concept
+keywords: Service settings
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 license: serviceessentials
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+index: true
 redirect_from: /en/admin/preferences/learn/global-preferences/settings
+language: en
 ---
 
 # Global preferences for SuperOffice Service system settings

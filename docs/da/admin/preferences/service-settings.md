@@ -2,15 +2,18 @@
 uid: help-da-service-settings-system-settings
 title: SuperOffice Service-systemindstillinger
 description: Globale præferencer for SuperOffice Service-systemindstillinger
-keywords: Tjeneste, indstillinger, globale præferencer
-author: SuperOffice Product and Engineering
-date: 09.01.2025
-version: 11.3
-content_type: concept
+keywords: Service indstillinger, globale præferencer
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 license: serviceessentials
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: da
 redirect_from: /da/admin/preferences/learn/global-preferences/settings
 ---

@@ -2,12 +2,16 @@
 uid: help-sv-preferences
 title: Preferenser
 description: Administratörer kan ange inställningar för olika funktioner i systemet för olika användare och användargrupper eller för hela SuperOffice CRM (globala inställningar).
-keywords: inställningar, inställningar, globala inställningar
-author: Bergfrid Dias
-date: 02.25.2025
+keywords: inställningar, globala inställningar
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: concept
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: sv
 redirect_from: 
   - /sv/admin/preferences/learn/index

@@ -2,12 +2,16 @@
 uid: help-da-service-settings-system-sms
 title: SMS
 description: SMS
-keywords: Tjeneste, indstillinger
-author: SuperOffice RnD
-date: 03.27.2023
+keywords: SMS indstillinger
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: reference
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: da
 redirect_from: /da/admin/preferences/learn/global-preferences/sms
 ---

@@ -2,13 +2,19 @@
 uid: help-en-service-settings-system-smtp
 title: SMTP
 description: SMTP
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Service, settings
-content_type: concept
-language: en
+keywords: SMTP settings
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 deployment: onsite
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 redirect_from: /en/admin/preferences/learn/global-preferences/smtp
+language: en
 ---
 
 # SMTP (ONSITE only)

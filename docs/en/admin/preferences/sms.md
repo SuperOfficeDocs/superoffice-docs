@@ -2,14 +2,18 @@
 uid: help-en-service-settings-system-sms
 title: SMS
 description: SMS
-author: SuperOffice RnD
-date: 03.27.2023
-keywords: Service, settings
-content_type: concept
+keywords: SMS settings
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+index: true
 redirect_from: /en/admin/preferences/learn/global-preferences/sms
+language: en
 ---
 
 # SMS configuration in Global preferences

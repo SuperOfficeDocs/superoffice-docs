@@ -2,12 +2,16 @@
 uid: help-sv-service-settings-system-sms
 title: SMS
 description: SMS
-keywords: Tjänst, inställningar
-author: SuperOffice RnD
-date: 02.25.2025
-content_type: howto
+keywords: SMS inställningar
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: sv
 redirect_from: /sv/admin/preferences/learn/global-preferences/sms
 ---

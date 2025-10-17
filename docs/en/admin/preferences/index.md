@@ -2,16 +2,20 @@
 uid: help-en-preferences
 title: Preferences
 description: Administrators can set preferences for various functions in the system for specific users, user groups, or for the entire SuperOffice CRM (global preferences).
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: settings, preferences, global preference
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: concept
+category: Settings and maintenance
+topic: preferences
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+index: true
 redirect_from: 
   - /en/admin/preferences/learn/index
   - /en/admin/preferences/learn/global-preferences/system
+language: en
 ---
 
 # Preferences <i class="ph ph-gear" aria-label="Gear icon"></i>

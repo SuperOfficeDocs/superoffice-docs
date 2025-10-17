@@ -2,15 +2,18 @@
 uid: help-de-service-settings-system-settings
 title: Benutzereinstellungen für SuperOffice Service
 description: Globale Einstellungen für Benutzereinstellungen für SuperOffice Service
-keywords: Einstellungen
-author: SuperOffice Product and Engineering
-date: 09.01.2025
-version: 11.3
-content_type: concept
+keywords: Service Einstellungen
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 license: serviceessentials
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: de
 redirect_from: /de/admin/preferences/learn/global-preferences/settings
 ---

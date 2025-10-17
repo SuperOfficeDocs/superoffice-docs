@@ -1,11 +1,17 @@
 ---
 uid: help-sv-preferences-manage
 title: Arbeta med inställningar
-description: "Så lägger du till, ändrar och tar bort inställningar."
-author: Bergfrid Dias
-date: 03.21.2023
-keywords: inställning, inställning
+description: Så lägger du till, ändrar och tar bort inställningar.
+keywords: inställning
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
 content_type: howto
+category: Settings and maintenance
+topic: preferences
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
 language: sv
 redirect_from: /sv/admin/preferences/learn/update-preferences
 ---

@@ -2,15 +2,18 @@
 uid: help-sv-service-settings-system-settings
 title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
-keywords: Tjänst, inställningar
-author: SuperOffice Product and Engineering
-date: 09.01.2025
-version: 11.3
-content_type: concept
+keywords: systeminställningar
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 license: serviceessentials
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: sv
 redirect_from: /sv/admin/preferences/learn/global-preferences/settings
 ---

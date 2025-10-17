@@ -2,15 +2,18 @@
 uid: help-no-service-settings-system-settings
 title: Systeminnstillinger for SuperOffice Service
 description: Globale preferanser for systeminnstillinger for SuperOffice Service
-keywords: sak, preferanse
-author: SuperOffice Product and Engineering
-date: 09.01.2025
-version: 11.3
-content_type: concept
+keywords: Service preferanser
+author: digitaldiina
+date: 10.17.2025
+version: 11.5
+content_type: reference
+category: Settings and maintenance
+topic: preferences
 license: serviceessentials
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: no
 redirect_from: /no/admin/preferences/learn/global-preferences/settings
 ---
