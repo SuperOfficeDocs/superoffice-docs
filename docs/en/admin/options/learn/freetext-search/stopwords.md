@@ -13,22 +13,24 @@ language: en
 
 # Stopwords
 
-A stopword is a word that is not indexed (not included in a freetext search). Typically, this means words like *and*, *or*, *it* and *for*. The object of defining stopwords is to reduce the time required to search through the freetext index by excluding unnecessary words and to use less space in the database.
+A stopword is a word that is not indexed (not included in a free-text search). Typically, this means words like *and*, *or*, *it* and *for*. The object of defining stopwords is to reduce the time required to search through the free-text index by excluding unnecessary words and to use less space in the database.
 
-The words defined as stopwords for freetext searches are listed in the **Stopword list** table in the **Freetext search** tab of the Options screen.
+The words defined as stopwords for free-text searches are listed in the **Stopword list** table in the **Freetext search** tab of the Options screen.
 
-> [!TIP]
-> If you want your changes to have a retroactive effect, you must [regenerate the freetext index][3]. Do this after you add stopwords, after the system suggests stopwords, or after importing a large quantity of text.
-
-## Add stopword
+## Before you begin
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Check that [freetext search is enabled][2].
+1. In onsite installations, make sure the **Enable freetext search** option is selected. In CRM Online, this option is always enabled.
+
+> [!TIP]
+> To apply stopword changes to existing content, you must [regenerate the free-text index][3]. Do this after you add stopwords, after the system suggests stopwords, or after importing a large quantity of text.
+
+## Add stopword
 
 1. Click the **Add** button below the stopword list.
 
-1. In the **New Stopwords** dialog, type in one or more stopwords you want to include. As a separator, use any non-alphabetical character, except a full stop.
+1. In the **New Stopwords** dialog, enter one or more stopwords. Use any non-alphabetical character as a separator, except a full stop.
 
 1. Click **Save**.
 
@@ -37,10 +39,6 @@ The words defined as stopwords for freetext searches are listed in the **Stopwor
 ## Suggest stopwords
 
 Instead of entering stopwords manually, you can let the system suggest stopwords for you.
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Check that [freetext search is enabled][2].
 
 1. Click the **Suggest** button below the stopword list.
 
@@ -54,18 +52,13 @@ Instead of entering stopwords manually, you can let the system suggest stopwords
 
 ## Delete stopwords
 
-The object of deleting stopwords is to include them in freetext searches after having excluded them. To delete a stopword from the list:
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Check that [freetext search is enabled][2].
+The object of deleting stopwords is to include them in free-text searches after having excluded them. To delete a stopword from the list:
 
 1. Select the required stopword.
 
 1. Click the **Delete** button below the stopword list.
 
 <!-- Referenced links -->
-[2]: enable.md
 [3]: regenerate-index.md
 
 <!-- Referenced images -->

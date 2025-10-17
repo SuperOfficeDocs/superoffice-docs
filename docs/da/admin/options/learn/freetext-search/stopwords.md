@@ -17,14 +17,15 @@ Et stopord er et ord, der ikke er indekseret (ikke inkluderet i en fritekstsøgn
 
 De ord, der er defineret som stopord til fritekstsøgninger, er anført i tabellen **Stopordsliste** under fanen **Fritekstsøgning** på skærmbilledet Indstillinger.
 
+## Inden du begynder
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+1. I lokale installationer skal du sikre, at indstillingen **Aktivér fritekstsøgning** er markeret. I CRM Online er denne indstilling altid aktiveret.
+
 > [!TIP]
 > Hvis ændringerne skal have tilbagevirkende kraft, skal du [generere fritekstindekset igen][3]. Gør dette, efter at du har tilføjet stopord, efter at systemet har foreslået stopord, eller efter at du har importeret en stor mængde tekst.
 
 ## Tilføjelse af stopord
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontroller, at [fritekstsøgning er aktiveret][2].
 
 1. Klik på knappen **Tilføj** under stopordslisten.
 
@@ -37,10 +38,6 @@ De ord, der er defineret som stopord til fritekstsøgninger, er anført i tabell
 ## Forslag til stopord
 
 I stedet for at indtaste stopord manuelt, kan du lade systemet foreslå stopord for dig.
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontroller, at [fritekstsøgning er aktiveret][2].
 
 1. Klik på knappen **Foreslå** under stopordslisten.
 
@@ -56,16 +53,11 @@ I stedet for at indtaste stopord manuelt, kan du lade systemet foreslå stopord 
 
 Formålet med at slette stopord er at medtage dem i fritekstsøgninger efter at have udelukket dem. Sådan slettes et stopord fra listen:
 
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontroller, at [fritekstsøgning er aktiveret][2].
-
 1. Vælg det ønskede stopord.
 
 1. Klik på knappen **Slet** under stopordslisten.
 
 <!-- Referenced links -->
-[2]: enable.md
 [3]: regenerate-index.md
 
 <!-- Referenced images -->

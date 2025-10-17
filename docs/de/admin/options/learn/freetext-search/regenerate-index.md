@@ -21,7 +21,7 @@ Wenn Sie [neue Stoppwörter hinzufügen oder löschen][1], haben Ihre Änderunge
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][4].
+1. Stellen Sie sicher, dass die Option **Volltextsuche ermöglichen** ausgewählt ist.
 
 1. Klicken Sie auf die Schaltfläche **Index neu erstellen**.
 
@@ -32,6 +32,5 @@ Wenn Sie [neue Stoppwörter hinzufügen oder löschen][1], haben Ihre Änderunge
 
 <!-- Referenced links -->
 [1]: stopwords.md
-[4]: enable.md
 
 <!-- Referenced images -->

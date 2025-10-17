@@ -21,7 +21,7 @@ När du [lägger till eller tar bort nya stoppord][1] gäller ändringarna inte 
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Kontrollera att [fritextsökning är aktiverad][4].
+1. Se till att alternativet **Aktivera fritextsökning** är valt.
 
 1. Klicka på knappen **Återskapa fritextindex**.
 
@@ -32,6 +32,5 @@ När du [lägger till eller tar bort nya stoppord][1] gäller ändringarna inte 
 
 <!-- Referenced links -->
 [1]: stopwords.md
-[4]: enable.md
 
 <!-- Referenced images -->

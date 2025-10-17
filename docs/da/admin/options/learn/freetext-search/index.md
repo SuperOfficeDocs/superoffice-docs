@@ -15,7 +15,7 @@ redirect_from:
   - /da/admin/options/learn/freetext-search/configure.html
 ---
 
-# Fritekstsøgning
+# Konfigurer fritekstsøgning
 
 Ved hjælp af funktionen til fritekstsøgning i SuperOffice CRM kan brugerne søge efter tekst i hele programmet. Dette gælder for tekst, som de selv har føjet til databasen, f.eks. firmanavne, afdelinger og tekst fra skærmbillederne Person og Dokument.
 

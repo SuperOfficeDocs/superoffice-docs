@@ -17,14 +17,16 @@ Ett stoppord är ett ord som inte är indexerat (inte ingår i en fritextsöknin
 
 De ord som definieras som stoppord för fritextsökningar läggs in i tabellen **Stoppordslista** på fliken **Fritextsökning** i fönstret Systemval.
 
+## Innan du börjar
+
+1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
+
+1. I lokala installationer ska du se till att alternativet **Aktivera fritextsökning** är markerat. I CRM Online är detta alternativ alltid aktiverat.
+
 > [!TIP]
 > Om du vill att dina ändringar ska gälla retroaktivt måste du [återskapa fritextindexet][3]. Det gör du efter att du har lagt till stoppord, efter att systemet föreslår stoppord eller efter att du har importerat stora mängder text.
 
 ## Lägg till stoppord
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontrollera att [fritextsökning är aktiverad][2].
 
 1. Klicka på knappen **Lägg till** under stoppordslistan.
 
@@ -37,10 +39,6 @@ De ord som definieras som stoppord för fritextsökningar läggs in i tabellen *
 ## Föreslå stoppord
 
 Istället för att lägga till stoppord manuellt kan du låta systemet föreslå stoppord åt dig.
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontrollera att [fritextsökning är aktiverad][2].
 
 1. Klicka på knappen **Föreslå** under stoppordslistan.
 
@@ -56,16 +54,11 @@ Istället för att lägga till stoppord manuellt kan du låta systemet föreslå
 
 Syftet med att ta bort stoppord är att de ska inkluderas i fritextsökningar efter att ha varit exkluderade. Så här tar du bort ett stoppord från listan:
 
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Kontrollera att [fritextsökning är aktiverad][2].
-
 1. Välj önskat stoppord.
 
 1. Klicka på knappen **Ta bort** under stoppordslistan.
 
 <!-- Referenced links -->
-[2]: enable.md
 [3]: regenerate-index.md
 
 <!-- Referenced images -->

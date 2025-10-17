@@ -17,14 +17,16 @@ Ein Stoppwort ist ein Wort, das nicht indiziert ist (d.h. nicht in eine Volltext
 
 Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansicht Optionen auf der Registerkarte **Volltextsuche** in der Tabelle unter **Stoppwortliste** angezeigt.
 
-> [!TIP]
-> Wenn Sie möchten, dass Ihre Änderungen einen rückwirkenden Effekt haben, müssen Sie den [Volltextindex erneuern][3]. Tun Sie folgendes, nachdem Sie Stoppwörter hinzugefügt haben, vom System Stoppwörter vorgeschlagen wurden oder Sie eine große Textmenge importiert haben.
-
-## Stoppwörter hinzufügen
+## Bevor Sie beginnen
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
+1. Stellen Sie bei lokalen Installationen sicher, dass die Option **Freetext-Suche aktivieren** ausgewählt ist. In CRM Online ist diese Option immer aktiviert.
+
+> [!TIP]
+> Wenn Sie möchten, dass Ihre Änderungen einen rückwirkenden Effekt haben, müssen Sie den [Volltextindex erneuern][3]. Tun Sie dies, nachdem Sie Stoppwörter hinzugefügt haben, nachdem das System Stoppwörter vorgeschlagen hat oder nachdem Sie eine große Textmenge importiert haben.
+
+## Stoppwörter hinzufügen
 
 1. Klicken Sie unter der Stoppwortliste auf die Schaltfläche **Hinzu**.
 
@@ -37,10 +39,6 @@ Die als Stoppwörter für Volltextsuchen definierten Wörter werden in der Ansic
 ## Stoppwörter vorschlagen
 
 Anstatt die Stoppwörter manuell einzugeben, können Sie sich auch Stoppwörter vom System vorschlagen lassen.
-
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
 
 1. Klicken Sie unter der Stoppwortliste auf die Schaltfläche **Vorschlag**.
 
@@ -56,16 +54,11 @@ Anstatt die Stoppwörter manuell einzugeben, können Sie sich auch Stoppwörter 
 
 Stoppwörter werden gelöscht, damit sie nach dem Ausschließen doch in die Volltextsuche aufgenommen werden. So löschen Sie ein Stoppwort aus der Liste:
 
-1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. Überprüfen Sie, ob die [Volltextsuche aktiviert ist][2].
-
 1. Wählen Sie das gewünschte Stoppwort.
 
 1. Klicken Sie unter der Firmenliste auf die Schaltfläche **Löschen**.
 
 <!-- Referenced links -->
-[2]: enable.md
 [3]: regenerate-index.md
 
 <!-- Referenced images -->

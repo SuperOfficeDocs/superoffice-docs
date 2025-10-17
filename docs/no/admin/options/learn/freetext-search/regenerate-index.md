@@ -21,7 +21,7 @@ Når du bare [legger til eller sletter nye stoppord][1], har ikke endringene din
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Kontroller at [fritekstsøk er aktivert][4].
+1. Kontroller at alternativet **Aktiver fritekstsøk** er valgt.
 
 1. Klikk på knappen **Bygg fritekstindeks**.
 
@@ -32,6 +32,5 @@ Når du bare [legger til eller sletter nye stoppord][1], har ikke endringene din
 
 <!-- Referenced links -->
 [1]: stopwords.md
-[4]: enable.md
 
 <!-- Referenced images -->

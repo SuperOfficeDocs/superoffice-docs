@@ -15,7 +15,7 @@ redirect_from:
   - /no/admin/options/learn/freetext-search/configure.html
 ---
 
-# Fritekstsøk
+# Konfigurer fritekstsøk
 
 Ved hjelp av funksjonen for fritekstsøk i SuperOffice CRM kan brukerne søke etter tekst i hele applikasjonen. Dette gjelder tekst de selv har lagt inn i databasen, for eksempel firmanavn, avdelinger og tekst fra bildene Person og Dokument.
 
@@ -54,7 +54,7 @@ Du kan angi søkekriterier for både enkeltord (for eksempel *Petter*) og fraser
     > [!NOTE]
     > Ved søk på fraser som består av flere ord, søkes det etter alle ordene samtidig.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legge til stoppord][3]
 * [Bygge fritekstindeks][4]

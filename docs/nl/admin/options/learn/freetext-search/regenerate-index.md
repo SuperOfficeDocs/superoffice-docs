@@ -21,7 +21,7 @@ Wanneer u [nieuwe stopwoorden toevoegt of verwijdert][1], hebben uw wijzigingen 
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Controleer of [zoeken op vrije tekst is ingeschakeld][4].
+1. Zorg ervoor dat de optie **Zoeken op vrije tekst inschakelen** is geselecteerd.
 
 1. Klik op de knop **Index opnieuw genereren**.
 
@@ -32,6 +32,5 @@ Wanneer u [nieuwe stopwoorden toevoegt of verwijdert][1], hebben uw wijzigingen 
 
 <!-- Referenced links -->
 [1]: stopwords.md
-[4]: enable.md
 
 <!-- Referenced images -->

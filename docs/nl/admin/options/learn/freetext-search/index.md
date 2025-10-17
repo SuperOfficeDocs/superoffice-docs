@@ -15,7 +15,7 @@ redirect_from:
   - /nl/admin/options/learn/freetext-search/configure.html
 ---
 
-# Zoeken op vrije tekst
+# Configureren van zoeken op vrije tekst
 
 Met de functie Vrije-tekstzoekbewerking van SuperOffice CRM kunnen gebruikers overal in de toepassing zoeken naar tekst. Dit kan gaan om tekst die zij zelf hebben toegevoegd aan de database, bijvoorbeeld bedrijfsnamen, afdelingen, en tekst uit de schermen Contactpersoon en Document.
 

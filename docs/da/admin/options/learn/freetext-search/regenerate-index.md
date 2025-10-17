@@ -21,7 +21,7 @@ Når du [tilføjer eller sletter nye stopord][1], har dine ændringer ikke tilba
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Kontroller, at [fritekstsøgning er aktiveret][4].
+1. Sørg for, at indstillingen **Gør fritekstsøgning tilgængelig** er valgt.
 
 1. Klik på knappen **Regenerer fritekstindeks**.
 
@@ -32,6 +32,5 @@ Når du [tilføjer eller sletter nye stopord][1], har dine ændringer ikke tilba
 
 <!-- Referenced links -->
 [1]: stopwords.md
-[4]: enable.md
 
 <!-- Referenced images -->
