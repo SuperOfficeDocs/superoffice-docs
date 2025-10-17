@@ -20,7 +20,7 @@ I bildet Preferanser kan du angi preferanser for hele systemet (globalt), én da
 
 Brukere kan redigere innstillingene for [individuelle preferanser][4] for å tilpasse dem til sin egen bruk, ved å gå til **Personlige innstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferanser** i toppraden. Preferansene som er tilgjengelige for brukeren, avhenger av hva som er angitt i Innstillinger og vedlikehold.
 
-I tillegg kan du konfigurere videomøter i fanen [Videomøter][8] og dokumentbibliotek i fanen [Dokumentbibliotek][9].
+I tillegg kan du konfigurere [videomøter][8] i fanen **Videomøter** og [dokumentbibliotek][9] i fanen **Dokumentbibliotek**.
 
 ## <a id="levels"></a>Nivåer for innstillinger av preferanser
 
@@ -57,8 +57,8 @@ Noen preferanser kan bare angis på et globalt nivå:
 * [Systeminnstillinger for SuperOffice Service][1]
 * System
 * Mål
-* [Dataspeiling][5]
-* [SMS-konfigurasjon][7]
+* [Dataspeiling][15]
+* [SMS-konfigurasjon][5]
 * [SMTP][2] (bare ONSITE)
 * [Passordregler for kundesenter][6]
 
@@ -122,15 +122,14 @@ Innholdet i disse kolonnene defineres i dialogboksen **Innstilling**. [Slik legg
 Du kan sortere radene i kolonnene ved å klikke på ønsket kolonneoverskrift. Klikk på kolonneoverskriften én gang hvis du vil sortere i omvendt rekkefølge.
 
 <!-- Referenced links -->
+[1]: service-settings.md
+[2]: smtp.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
-[8]: video-meetings/index.md
-[9]: ../../../document/library/learn/index.md
-
-[1]: learn/global-preferences/settings.md
-[2]: smtp.md
+[5]: sms.md
 [6]: ../../customer-center/admin/password-policy.md
-[7]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
+[8]: ../../diary/learn/video-meetings.md
+[9]: ../../document/library/learn/index.md
+[15]: ../../../en/online/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->

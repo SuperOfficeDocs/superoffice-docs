@@ -20,7 +20,7 @@ I fönstret Inställningar kan du välja inställningar för hela systemet (glob
 
 Under **Personliga inställningar** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
 
-Du kan också konfigurera videomöten på fliken [Videomöten][8] och dokumentbiblioteket på fliken [Dokumentbibliotek][9].
+Du kan också konfigurera [videomöten][8] på fliken **Videomöten** och [dokumentbiblioteket][9] på fliken **Dokumentbibliotek**.
 
 ## <a id="levels"></a>Nivåer för inställningar
 
@@ -57,8 +57,8 @@ Vissa inställningar kan bara göras på global nivå:
 * [Systeminställningar för SuperOffice Service][1]
 * System
 * Mål
-* [Dataspegling][5]
-* [SMS-konfiguration][7]
+* [Dataspegling][15]
+* [SMS-konfiguration][5]
 * [SMTP][2] (endast LOKALT)
 * [Lösenordspolicy för Kundcenter][6]
 
@@ -122,13 +122,14 @@ Innehållet i de här kolumnerna definieras i dialogrutan **Inställning**. [Så
 Du kan sortera raderna i kolumnerna genom att klicka på önskad kolumnrubrik. Klicka på kolumnrubriken en gång till om du vill sortera i omvänd ordning.
 
 <!-- Referenced links -->
+[1]: service-settings.md
+[2]: smtp.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
-[8]: video-meetings/index.md
-[9]: ../../../document/library/learn/index.md
-
-[1]: learn/global-preferences/settings.md
-[2]: smtp.md
+[5]: sms.md
 [6]: ../../customer-center/admin/password-policy.md
-[7]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
+[8]: ../../diary/learn/video-meetings.md
+[9]: ../../document/library/learn/index.md
+[15]: ../../../en/online/mirroring/mirroring-task.md#options
+
+<!-- Referenced images -->

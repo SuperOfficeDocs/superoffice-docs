@@ -20,7 +20,7 @@ In het scherm Voorkeuren kunt u voorkeuren instellen voor het hele systeem (glob
 
 Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
 
-Daarnaast kunt u videovergaderingen configureren op het tabblad [Videovergaderingen][8] en de documentbibliotheek op het tabblad [Documentbibliotheek][9].
+Daarnaast kunt u [videovergaderingen][8] configureren op het tabblad **Videovergaderingen** en [documentbibliotheek][9] op het tabblad **Documentbibliotheek**.
 
 ## <a id="levels"></a>Niveaus voor voorkeursinstellingen
 
@@ -57,8 +57,8 @@ Sommige voorkeuren kunnen alleen op algemeen niveau worden ingesteld:
 * [SuperOffice Service-systeeminstellingen][1]
 * Systeem
 * Targets
-* [Gegevens spiegelen][5]
-* [SMS-configuratie][7]
+* [Gegevens spiegelen][15]
+* [SMS-configuratie][5]
 * [SMTP][2] (alleen LOKAAL)
 * [Wachtwoordbeleid Customer Centre][6]
 
@@ -122,13 +122,14 @@ De inhoud van deze kolommen wordt gedefinieerd in het dialoogvenster **Voorkeur 
 U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken. Klik eenmaal op de kolomkop als u de sorteervolgorde wilt omdraaien.
 
 <!-- Referenced links -->
+[1]: service-settings.md
+[2]: smtp.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
-[8]: video-meetings/index.md
-[9]: ../../../document/library/learn/index.md
-
-[1]: learn/global-preferences/settings.md
-[2]: smtp.md
+[5]: sms.md
 [6]: ../../customer-center/admin/password-policy.md
-[7]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
+[8]: ../../diary/learn/video-meetings.md
+[9]: ../../document/library/learn/index.md
+[15]: ../../../en/online/mirroring/mirroring-task.md#options
+
+<!-- Referenced images -->

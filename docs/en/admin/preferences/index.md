@@ -9,7 +9,9 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/admin/preferences/learn/index
+redirect_from: 
+  - /en/admin/preferences/learn/index
+  - /en/admin/preferences/learn/global-preferences/system
 ---
 
 # Preferences <i class="ph ph-gear" aria-label="Gear icon"></i>
@@ -18,7 +20,7 @@ In the Preferences screen you can set preferences for the whole system (globally
 
 Users can edit the settings of [individual preferences][4] to customize them for their own use by going to **Personal settings** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Preferences** in the Top bar. The preferences available to the user depend on what is specified in Settings and maintenance.
 
-In addition, you can configure video meetings in the [Video meetings][8] tab and document library in the [Document library][9] tab.
+In addition, you can configure [video meetings][8] in the **Video meetings** tab and [document library][9] in the **Document library** tab.
 
 ## <a id="levels"></a>Levels for preference settings
 
@@ -55,8 +57,8 @@ Some preferences can be set only on a global level:
 * [SuperOffice Service system settings][1]
 * System
 * Targets
-* [Data mirroring][5]
-* [SMS configuration][7]
+* [Data mirroring][15]
+* [SMS configuration][5]
 * [SMTP][2] (ONSITE only)
 * [Customer Centre password policy][6]
 
@@ -120,14 +122,14 @@ The contents of these columns are defined in the **Setting** dialog. [How to add
 You can sort the rows in the columns by clicking on the required column heading. Click the column heading onc to sort in reverse order.
 
 <!-- Referenced links -->
+[1]: service-settings.md
+[2]: smtp.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
-[8]: video-meetings/index.md
-[9]: ../../../document/library/learn/index.md
+[5]: sms.md
+[6]: ../../customer-center/admin/password-policy.md
+[8]: ../../diary/learn/video-meetings.md
+[9]: ../../document/library/learn/index.md
+[15]: ../../../en/online/mirroring/mirroring-task.md#options
 
-[1]: settings.md
-[2]: smtp.md
-[6]: password.md
-[7]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
 <!-- Referenced images -->

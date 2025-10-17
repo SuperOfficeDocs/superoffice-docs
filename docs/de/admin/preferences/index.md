@@ -20,7 +20,7 @@ In der Ansicht Einstellungen können Sie Einstellungen für das gesamte System (
 
 Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
 
-Zudem können Sie Videokonferenzen auf der Registerkarte [Videokonferenzen][8] und die Dokumentbibliothek auf der Registerkarte [Dokumentbibliothek][9] konfigurieren.
+Zudem können Sie [Videokonferenzen][8] auf der Registerkarte **Videokonferenzen** und die [Dokumentbibliothek][9] auf der Registerkarte **Dokumentbibliothek** konfigurieren.
 
 ## <a id="levels"></a>Ebenen für Einstellungsoptionen
 
@@ -57,8 +57,8 @@ Manche Einstellungen können nur global vorgenommen werden:
 * [Benutzereinstellungen für SuperOffice Service][1]
 * System
 * Ziele
-* [Datenspiegelung][5]
-* [SMS-Konfiguration][7]
+* [Datenspiegelung][15]
+* [SMS-Konfiguration][5]
 * [SMTP][2] (nur VOR ORT)
 * [Richtlinie für Customer Centre-Passwörter][6]
 
@@ -122,15 +122,14 @@ Der Inhalt dieser Spalten wird im Dialogfeld **Einstellung** festgelegt. [Wie ma
 Sie können die Zeilen in den Spalten sortieren, indem Sie auf die einzelnen Spaltenüberschriften klicken. Klicken Sie einmal auf den Spaltenüberschrift, wenn Sie den Inhalt in umgekehrter Reihenfolge sortieren möchten.
 
 <!-- Referenced links -->
+[1]: service-settings.md
+[2]: smtp.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
-[8]: video-meetings/index.md
-[9]: ../../../document/library/learn/index.md
-
-[1]: learn/global-preferences/settings.md
-[2]: smtp.md
+[5]: sms.md
 [6]: ../../customer-center/admin/password-policy.md
-[7]: sms.md
-[5]: ../../../../../en/online/mirroring/mirroring-task.md#options
+[8]: ../../diary/learn/video-meetings.md
+[9]: ../../document/library/learn/index.md
+[15]: ../../../en/online/mirroring/mirroring-task.md#options
 
 <!-- Referenced images -->
