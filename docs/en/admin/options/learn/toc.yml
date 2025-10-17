@@ -2,18 +2,8 @@ items:
 - name: Overview
   href: index.md
 - name: Freetext search
+  href: freetext-search/toc.yml
   topicHref: freetext-search/index.md
-  items:
-  - name: Overview
-    href: freetext-search/index.md
-  - name: Enable freetext search
-    href: freetext-search/enable.md
-  - name: Specify search criteria
-    href: freetext-search/configure.md
-  - name: Stopwords
-    href: freetext-search/stopwords.md
-  - name: Regenerate freetext index
-    href: freetext-search/regenerate-index.md
 - name: Number allocation
   topicHref: number-allocation/index.md
   items:

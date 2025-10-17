@@ -1,0 +1,7 @@
+items:
+- name: Konfigurera fritextsökning
+  href: index.md
+- name: Stoppord
+  href: stopwords.md
+- name: Återskapa fritextindex
+  href: regenerate-index.md

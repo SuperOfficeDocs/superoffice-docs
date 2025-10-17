@@ -2,18 +2,8 @@ items:
 - name: Översikt
   href: index.md
 - name: Fritextsökning
+  href: freetext-search/toc.yml
   topicHref: freetext-search/index.md
-  items:
-  - name: Översikt
-    href: freetext-search/index.md
-  - name: Aktivera fritextsökning
-    href: freetext-search/enable.md
-  - name: Ange sökkriterier
-    href: freetext-search/configure.md
-  - name: Stoppord
-    href: freetext-search/stopwords.md
-  - name: Återskapa fritextindex
-    href: freetext-search/regenerate-index.md
 - name: Nummertilldelning
   topicHref: number-allocation/index.md
   items:
