@@ -4,7 +4,7 @@ items:
 - name: Mit Einstellungen arbeiten
   href: update-preferences.md
 - name: Benutzereinstellungen für SuperOffice Service
-  href: learn/global-preferences/settings.md
+  href: service-settings.md
 - name: SMS-Konfiguration
   href: sms.md
 - name: SMTP (VOR ORT)

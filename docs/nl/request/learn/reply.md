@@ -159,7 +159,7 @@ De gebruikte tijd wordt weergegeven in de koptekst van elk bericht en is terug t
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
-[11]: ../../admin/preferences/learn/global-preferences/settings.md
+[11]: ../../admin/preferences/service-settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png

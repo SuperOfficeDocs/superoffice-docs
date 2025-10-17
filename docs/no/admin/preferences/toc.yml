@@ -4,7 +4,7 @@ items:
 - name: Arbeide med preferanser
   href: update-preferences.md
 - name: Systeminnstillinger for SuperOffice Service
-  href: learn/global-preferences/settings.md
+  href: service-settings.md
 - name: SMS-konfigurasjon
   href: sms.md
 - name: SMTP (ONSITE)

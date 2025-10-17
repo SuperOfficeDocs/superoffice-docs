@@ -4,7 +4,7 @@ items:
 - name: Werken met voorkeuren
   href: update-preferences.md
 - name: SuperOffice Service-systeeminstellingen
-  href: learn/global-preferences/settings.md
+  href: service-settings.md
 - name: SMS-configuratie
   href: sms.md
 - name: SMTP (LOKAAL)
