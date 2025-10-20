@@ -3,7 +3,7 @@ uid: zapier-project-member-changed
 title: Changed SuperOffice CRM project member
 description: How to useSuperOffice project member change trigger with Zapier
 keywords: Project member changed, new Zap, Zapier change trigger
-author: Miguel Lemos
+author: miguellemos95
 date: 17.10.2025
 content_type: howto
 functional_right: general administrator
