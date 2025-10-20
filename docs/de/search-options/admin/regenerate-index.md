@@ -1,6 +1,6 @@
 ---
 uid: help-de-free-text-index-regen
-title: Volltextindex neu generieren
+title: Volltextindex erneuern
 description: Volltextindex neu generieren
 keywords: Volltext, Suchindex
 author: digitaldiina

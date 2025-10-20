@@ -1,7 +1,7 @@
 ---
 uid: help-sv-settings-free-text-search
-title: Fritextsökning
-description: Fritextsökning
+title: Konfigurera fritextsökning
+description: Konfigurera fritextsökning
 keywords: fritextsökning
 author: digitaldiina
 date: 10.17.2025

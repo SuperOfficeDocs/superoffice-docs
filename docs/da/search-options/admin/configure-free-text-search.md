@@ -1,7 +1,7 @@
 ---
 uid: help-da-settings-free-text-search
-title: Fritekstsøgning
-description: Fritekstsøgning
+title: Konfigurer fritekstsøgning
+description: Konfigurer fritekstsøgning
 keywords: fritekstsøgning
 author: digitaldiina
 date: 10.17.2025

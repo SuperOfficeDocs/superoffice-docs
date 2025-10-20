@@ -1,7 +1,7 @@
 ---
 uid: help-en-settings-free-text-search
-title: Free-text search
-description: Free-text search
+title: Configure free-text search
+description: Configure free-text search
 keywords: free-text search
 author: digitaldiina
 date: 10.17.2025

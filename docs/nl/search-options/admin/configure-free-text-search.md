@@ -1,7 +1,7 @@
 ---
 uid: help-nl-settings-free-text-search
-title: Zoeken op vrije tekst
-description: Zoeken op vrije tekst
+title: Configureren van zoeken op vrije tekst
+description: Configureren van  zoeken op vrije tekst
 keywords: zoeken op vrije tekst
 author: digitaldiina
 date: 10.17.2025

@@ -1,7 +1,7 @@
 ---
 uid: help-de-settings-free-text-search
-title: Volltextsuche
-description: Volltextsuche
+title: Volltextsuche konfigurieren
+description: Volltextsuche konfigurieren
 keywords: Volltextsuche
 author: digitaldiina
 date: 10.17.2025

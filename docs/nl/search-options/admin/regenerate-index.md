@@ -1,6 +1,6 @@
 ---
 uid: help-nl-free-text-index-regen
-title: Een vrije-tekstindex opnieuw genereren
+title: Een vrije-tekstindex genereren
 description: Een vrije-tekstindex opnieuw genereren
 keywords: vrije tekst, zoekindex
 author: digitaldiina

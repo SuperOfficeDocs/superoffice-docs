@@ -1,7 +1,7 @@
 ---
 uid: help-no-settings-free-text-search
-title: Fritekstsøk
-description: Fritekstsøk
+title: Konfigurer fritekstsøk
+description: Konfigurer fritekstsøk
 keywords: fritekstsøk
 author: digitaldiina
 date: 10.17.2025
