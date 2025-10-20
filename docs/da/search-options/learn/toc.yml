@@ -11,3 +11,6 @@ items:
   href: in-navigator.md
 - name: Søg i dialogbokse
   href: in-dialogs.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/configure-free-text-search.md

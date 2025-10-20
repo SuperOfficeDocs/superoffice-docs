@@ -1,9 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Zoeken op vrije tekst
-  href: freetext-search/toc.yml
-  topicHref: freetext-search/index.md
 - name: Nummertoewijzing
   topicHref: number-allocation/index.md
   items:

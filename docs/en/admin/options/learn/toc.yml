@@ -1,9 +1,6 @@
 items:
 - name: Overview
   href: index.md
-- name: Freetext search
-  href: freetext-search/toc.yml
-  topicHref: freetext-search/index.md
 - name: Number allocation
   topicHref: number-allocation/index.md
   items:

@@ -1,8 +1,8 @@
 ---
-uid: help-da-settings-freetext-search
+uid: help-da-settings-free-text-search
 title: Fritekstsøgning
 description: Fritekstsøgning
-keywords: fritekst, søge
+keywords: fritekstsøgning
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -12,8 +12,10 @@ audience_tooltip: Settings and maintenance
 index: true
 language: da
 redirect_from:
-  - /da/admin/options/learn/freetext-search/enable.html
-  - /da/admin/options/learn/freetext-search/configure.html
+  - /da/admin/options/learn/freetext-search/enable
+  - /da/admin/options/learn/freetext-search/configure
+  - /da/admin/options/learn/freetext-search/index
+  - /da/search-options/admin/index
 ---
 
 # Konfigurer fritekstsøgning

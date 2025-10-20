@@ -1,8 +1,8 @@
 ---
-uid: help-sv-settings-freetext-search
+uid: help-sv-settings-free-text-search
 title: Fritextsökning
 description: Fritextsökning
-keywords: fritext, söka
+keywords: fritextsökning
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -12,8 +12,10 @@ audience_tooltip: Settings and maintenance
 index: true
 language: sv
 redirect_from:
-  - /sv/admin/options/learn/freetext-search/enable.html
-  - /sv/admin/options/learn/freetext-search/configure.html
+  - /sv/admin/options/learn/freetext-search/enable
+  - /sv/admin/options/learn/freetext-search/configure
+  - /sv/admin/options/learn/freetext-search/index
+  - /sv/search-options/admin/index
 ---
 
 # Konfigurera fritextsökning

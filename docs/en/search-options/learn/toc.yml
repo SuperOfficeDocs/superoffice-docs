@@ -5,9 +5,12 @@ items:
   href: find-screen.md
 - name: Search criteria
   href: search-criteria.md
-- name: Freetext search
+- name: Free-text search
   href: freetext-search.md
 - name: Search from navigator
   href: in-navigator.md
 - name: Search in dialogs
   href: in-dialogs.md
+- name: For administrators
+  href: ../admin/toc.yml
+  topicHref: ../admin/configure-free-text-search.md

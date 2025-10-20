@@ -11,3 +11,6 @@ items:
   href: in-navigator.md
 - name: Söka i dialogrutor
   href: in-dialogs.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/configure-free-text-search.md

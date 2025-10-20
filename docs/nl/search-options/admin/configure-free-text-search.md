@@ -1,8 +1,8 @@
 ---
-uid: help-nl-settings-freetext-search
+uid: help-nl-settings-free-text-search
 title: Zoeken op vrije tekst
 description: Zoeken op vrije tekst
-keywords: vrije tekst, zoeken
+keywords: zoeken op vrije tekst
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -12,8 +12,10 @@ audience_tooltip: Settings and maintenance
 index: true
 language: nl
 redirect_from:
-  - /nl/admin/options/learn/freetext-search/enable.html
-  - /nl/admin/options/learn/freetext-search/configure.html
+  - /nl/admin/options/learn/freetext-search/enable
+  - /nl/admin/options/learn/freetext-search/configure
+  - /nl/admin/options/learn/freetext-search/index
+  - /nl/search-options/admin/index
 ---
 
 # Configureren van zoeken op vrije tekst

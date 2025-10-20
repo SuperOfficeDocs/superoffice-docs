@@ -1,8 +1,8 @@
 ---
-uid: help-no-settings-freetext-search
+uid: help-no-settings-free-text-search
 title: Fritekstsøk
 description: Fritekstsøk
-keywords: fritekst, søk
+keywords: fritekstsøk
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -12,8 +12,10 @@ audience_tooltip: Settings and maintenance
 index: true
 language: no
 redirect_from:
-  - /no/admin/options/learn/freetext-search/enable.html
-  - /no/admin/options/learn/freetext-search/configure.html
+  - /no/admin/options/learn/freetext-search/enable
+  - /no/admin/options/learn/freetext-search/configure
+  - /no/admin/options/learn/freetext-search/index
+  - /no/search-options/admin/index
 ---
 
 # Konfigurer fritekstsøk

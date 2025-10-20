@@ -1,8 +1,8 @@
 ---
-uid: help-de-settings-freetext-search
+uid: help-de-settings-free-text-search
 title: Volltextsuche
 description: Volltextsuche
-keywords: Volltext, Suchen
+keywords: Volltextsuche
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -12,8 +12,10 @@ audience_tooltip: Settings and maintenance
 index: true
 language: de
 redirect_from:
-  - /de/admin/options/learn/freetext-search/enable.html
-  - /de/admin/options/learn/freetext-search/configure.html
+  - /de/admin/options/learn/freetext-search/enable
+  - /de/admin/options/learn/freetext-search/configure
+  - /de/admin/options/learn/freetext-search/index
+  - /de/search-options/admin/index
 ---
 
 # Volltextsuche konfigurieren
