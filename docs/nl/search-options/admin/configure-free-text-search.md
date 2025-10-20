@@ -22,15 +22,15 @@ redirect_from:
 
 Met de functie Vrije-tekstzoekbewerking van SuperOffice CRM kunnen gebruikers overal in de toepassing zoeken naar tekst. Dit kan gaan om tekst die zij zelf hebben toegevoegd aan de database, bijvoorbeeld bedrijfsnamen, afdelingen, en tekst uit de schermen Contactpersoon en Document.
 
-Met dit tabblad in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM. De vrije tekst-zoekfunctie kan alleen worden gedeactiveerd voor onsite-oplossingen, niet voor online-/cloud-versies.
+Met dit tabblad in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM.
 
-## Zoeken op vrije tekst inschakelen
+## Deactiveren van zoeken op vrije tekst (lokaal)
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Schakel het selectievakje **Zoeken op vrije tekst inschakelen** in.
+1. Schakel het selectievakje **Zoeken op vrije tekst inschakelen** uit.
 
-Het zoeken op vrije tekst is standaard ingeschakeld. Als uw organisatie echter geen tijd en systeemruimte wil besteden aan het bijwerken van de vrije-tekstindex bij elk nieuw gegeven dat in de database wordt opgeslagen, kunt u het selectievakje **Zoeken op vrije tekst inschakelen** uitschakelen. Hierdoor wordt het veld voor vrije-tekstzoekbewerking in SuperOffice CRM onsite uitgeschakeld.
+Standaard is zoeken op vrije tekst ingeschakeld. Als uw organisatie systeembronnen wil besparen die worden gebruikt voor het bijwerken van de vrije-tekstindex bij nieuwe gegevens, kunt u het selectievakje **Zoeken op vrije tekst inschakelen** uitschakelen. Hierdoor wordt het veld voor vrije-tekstzoekbewerking in SuperOffice CRM onsite uitgeschakeld. De vrije tekst-zoekfunctie kan niet worden gedeactiveerd voor online-/cloud-versies.
 
 ## Zoekcriteria opgeven voor een zoekopdracht in vrije tekst
 

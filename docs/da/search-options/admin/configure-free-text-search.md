@@ -22,15 +22,15 @@ redirect_from:
 
 Ved hjælp af funktionen til fritekstsøgning i SuperOffice CRM kan brugerne søge efter tekst i hele programmet. Dette gælder for tekst, som de selv har føjet til databasen, f.eks. firmanavne, afdelinger og tekst fra skærmbillederne Person og Dokument.
 
-Du kan definere præcis, hvordan dette skal fungere i SuperOffice CRM, fra denne fane i Indstillinger og vedligeholdelse. Bemærk: fritekstsøgning kan kun deaktiveres for onsite-løsninger, ikke for online-/cloud-versioner.
+Du kan definere præcis, hvordan dette skal fungere i SuperOffice CRM, fra denne fane i Indstillinger og vedligeholdelse.
 
-## Aktivering af fritekstsøgning
+## Deaktiver fritekstsøgning (onsite)
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
 
-1. Marker **Gør fritekstsøgning tilgængelig**.
+1. Fjern markeringen af **Gør fritekstsøgning tilgængelig**.
 
-Standardindstillingen er, at fritekstsøgning er tilgængelig, men hvis din organisation ønsker at undgå, at der bruges tid og plads på systemet til at opdatere fritekstindekset, hver gang der gemmes noget nyt i databasen, er det muligt at fjerne markeringen af **Gør fritekstsøgning tilgængelig**. I så fald deaktiveres feltet til fritekstsøgning i SuperOffice CRM onsite.
+Som standard er fritekstsøgning aktiveret, men hvis din organisation ønsker at spare systemressourcer, der bruges på at opdatere fritekstindekset, hver gang der tilføjes nye data, kan du fjerne markeringen af **Gør fritekstsøgning tilgængelig**. Dette deaktiverer feltet til fritekstsøgning i SuperOffice CRM onsite. Bemærk: fritekstsøgning kan ikke deaktiveres for online-/cloud-versioner.
 
 ## Angivelse af søgekriterier til en fritekstsøgning
 
