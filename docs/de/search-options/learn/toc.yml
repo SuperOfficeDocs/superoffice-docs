@@ -11,3 +11,6 @@ items:
   href: in-navigator.md
 - name: Suche in Dialogfelder
   href: in-dialogs.md
+- name: Für Administratoren
+  href: ../admin/toc.yml
+  topicHref: ../admin/configure-free-text-search.md

@@ -1,19 +1,6 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Fritekstsøgning
-  topicHref: freetext-search/index.md
-  items:
-  - name: Oversigt
-    href: freetext-search/index.md
-  - name: Gør fritekstsøgning tilgængelig
-    href: freetext-search/enable.md
-  - name: Angiv søgekriterier
-    href: freetext-search/configure.md
-  - name: Stopord
-    href: freetext-search/stopwords.md
-  - name: Gendan fritekstindeks
-    href: freetext-search/regenerate-index.md
 - name: Nummertildeling
   topicHref: number-allocation/index.md
   items:

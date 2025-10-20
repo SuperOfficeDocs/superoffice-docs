@@ -1,0 +1,7 @@
+items:
+- name: Configureren van zoeken op vrije tekst
+  href: configure-free-text-search.md
+- name: Stopwoorden
+  href: stopwords.md
+- name: Vrije-tekstindex opnieuw genereren
+  href: regenerate-index.md

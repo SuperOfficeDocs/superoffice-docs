@@ -1,0 +1,7 @@
+items:
+- name: Configure free-text search
+  href: configure-free-text-search.md
+- name: Add stopwords
+  href: stopwords.md
+- name: Regenerate a free-text index
+  href: regenerate-index.md

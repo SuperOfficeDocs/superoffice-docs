@@ -1,0 +1,7 @@
+items:
+- name: Konfigurer fritekstsøgning
+  href: configure-free-text-search.md
+- name: Stopord
+  href: stopwords.md
+- name: Gendan fritekstindeks
+  href: regenerate-index.md

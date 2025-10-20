@@ -1,19 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Zoeken op vrije tekst
-  topicHref: freetext-search/index.md
-  items:
-  - name: Overzicht
-    href: freetext-search/index.md
-  - name: Zoeken op vrije tekst inschakelen
-    href: freetext-search/enable.md
-  - name: Zoekcriteria opgeven
-    href: freetext-search/configure.md
-  - name: Stopwoorden
-    href: freetext-search/stopwords.md
-  - name: Vrije-tekstindex opnieuw genereren
-    href: freetext-search/regenerate-index.md
 - name: Nummertoewijzing
   topicHref: number-allocation/index.md
   items:
