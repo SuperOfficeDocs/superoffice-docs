@@ -22,7 +22,7 @@ redirect_from:
 
 Met de functie Vrije-tekstzoekbewerking van SuperOffice CRM kunnen gebruikers overal in de toepassing zoeken naar tekst. Dit kan gaan om tekst die zij zelf hebben toegevoegd aan de database, bijvoorbeeld bedrijfsnamen, afdelingen, en tekst uit de schermen Contactpersoon en Document.
 
-Met dit tabblad in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM.
+Met het tabblad **Vrije-tekstzoekbewerking** in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM.
 
 ## Deactiveren van zoeken op vrije tekst (lokaal)
 

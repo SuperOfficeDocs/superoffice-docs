@@ -22,7 +22,7 @@ redirect_from:
 
 Ved hjælp af funktionen til fritekstsøgning i SuperOffice CRM kan brugerne søge efter tekst i hele programmet. Dette gælder for tekst, som de selv har føjet til databasen, f.eks. firmanavne, afdelinger og tekst fra skærmbillederne Person og Dokument.
 
-Du kan definere præcis, hvordan dette skal fungere i SuperOffice CRM, fra denne fane i Indstillinger og vedligeholdelse.
+Du kan definere præcis, hvordan dette skal fungere i SuperOffice CRM, fra fanen **Fritekstsøgning** i Indstillinger og vedligeholdelse.
 
 ## Deaktiver fritekstsøgning (onsite)
 

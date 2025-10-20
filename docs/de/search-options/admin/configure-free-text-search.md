@@ -22,7 +22,7 @@ redirect_from:
 
 Mit der Funktion Volltextsuche in SuperOffice CRM können Benutzer die gesamte Anwendung nach Text durchsuchen. Dies gilt für Text, den die Benutzer selbst in die Datenbank eingefügt haben, wie zum Beispiel Firmennamen, Abteilungen und Text aus den Ansichten Person und Dokument.
 
-Über diese Registerkarte in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern.
+Über die Registerkarte **Volltextsuche** in Einstellungen und Verwaltung können Sie die Volltextsuche in SuperOffice CRM genau steuern.
 
 ## Deaktivieren Sie die Volltextsuche (Vor Ort)
 
