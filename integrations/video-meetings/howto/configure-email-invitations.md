@@ -4,13 +4,21 @@ title: Configure
 description: How to configure video meetings in SuperOffice
 keywords: video meetings
 author: SuperOffice Product and Engineering
+date: 10.16.2025
 content_type: howto
 category: integration
 topic: video meetings
 deployment: online
 platform: web
 language: en
-redirect_from: /en/diary/video-meetings/howto/configure-email-invitations
+redirect_from: 
+  - /en/diary/video-meetings/howto/configure-email-invitations
+  - /en/admin/preferences/learn/video-meetings/email-setup-in-superoffice
+  - /da/admin/preferences/learn/video-meetings/email-setup-in-superoffice
+  - /sv/admin/preferences/learn/video-meetings/email-setup-in-superoffice
+  - /no/admin/preferences/learn/video-meetings/email-setup-in-superoffice
+  - /nl/admin/preferences/learn/video-meetings/email-setup-in-superoffice
+  - /de/admin/preferences/learn/video-meetings/email-setup-in-superoffice
 index: true
 ---
 

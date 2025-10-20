@@ -45,7 +45,7 @@ The following settings are available for email mailings:
 
 [!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
-## The SMS tab
+## <a id="sms"></a>The SMS tab
 
 The following settings are available for SMS mailings:
 
@@ -58,6 +58,6 @@ To test the settings, enter a mobile phone number and some text, and then click 
 For information about additional modules, see [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

@@ -1,0 +1,11 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Arbeta med inställningar
+  href: update.md
+- name: Systeminställningar för SuperOffice Service
+  href: service-settings.md
+- name: SMS-konfiguration
+  href: sms.md
+- name: SMTP (LOKALT)
+  href: smtp.md

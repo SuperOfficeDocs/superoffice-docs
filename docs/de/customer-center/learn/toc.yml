@@ -11,3 +11,8 @@ items:
   href: enable-chat.md
 - name: Web-Formular verknüpfen
   href: link-form.md
+- name: Für Administratoren
+  topicHref: ../admin/password-policy.md
+  items:
+  - name: Richtlinie für Customer Centre-Passwörter
+    href: ../admin/password-policy.md

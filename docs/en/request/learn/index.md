@@ -250,7 +250,7 @@ Some settings that affect support agents include:
 [15]: ../../learn/getting-started/edit-email-signature.md
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
-[26]: ../../admin/preferences/learn/global-preferences/settings.md
+[26]: ../../admin/preferences/service-settings.md
 
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/

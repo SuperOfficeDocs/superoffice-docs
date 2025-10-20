@@ -13,6 +13,9 @@ items:
 - name: Brukeradministrasjon
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md
+- name: Preferanser
+  href: ../preferences/toc.yml
+  topicHref: ../preferences/index.md
 - name: Lisenser
   href: ../license/learn/toc.yml
   topicHref: ../license/learn/index.md

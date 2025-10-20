@@ -35,7 +35,7 @@ landingContent:
         typeDesc: reference
         links:
         - text: Globale præferencer
-          url: ../admin/preferences/learn/global-preferences/system.md
+          url: ../admin/preferences/index.md#global
 
   # Card
   - title: Brugerdefinerede objekter

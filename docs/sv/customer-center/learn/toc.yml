@@ -11,3 +11,8 @@ items:
   href: enable-chat.md
 - name: Länka ett webbformulär
   href: link-form.md
+- name: För administratörer
+  topicHref: ../admin/password-policy.md
+  items:
+  - name: Lösenordspolicy för Kundcenter
+    href: ../admin/password-policy.md

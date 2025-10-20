@@ -44,7 +44,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [8]: system-templates.md
 [9]: type/index.md
 [10]: ../../localization/learn/customer-languages.md
-[11]: ../../admin/preferences/learn/global-preferences/system.md
+[11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/learn/role/index.md
 [13]: ../../admin/user-management/learn/index.md
 [14]: ../../admin/learn/configure-soap.md

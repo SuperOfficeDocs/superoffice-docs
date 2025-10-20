@@ -11,3 +11,8 @@ items:
   href: enable-chat.md
 - name: Koble et webskjema
   href: link-form.md
+- name: For administratorer
+  topicHref: ../admin/password-policy.md
+  items:
+  - name: Passordregler for kundesenter
+    href: ../admin/password-policy.md
