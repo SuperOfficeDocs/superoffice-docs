@@ -21,6 +21,8 @@ items:
     href: howto/find-company.md
   - name: Find request
     href: howto/find-request.md
+  - name: Update project action
+    href: howto/update-project.md
   - name: Project member changed trigger
     href: howto/project-member-changed.md
 - name: Triggers, actions, templates
