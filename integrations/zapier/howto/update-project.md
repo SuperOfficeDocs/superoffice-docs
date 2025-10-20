@@ -3,8 +3,8 @@ uid: zapier-update-project
 title: Update SuperOffice CRM project
 description: How to update SuperOffice project with Zapier
 keywords: Update project, new Zap, Zapier update action
-author: Miguel Lemos
-date: 16.10.2025
+author: miguellemos95
+date: 10.16.2025
 content_type: howto
 functional_right: general administrator
 category: integration
