@@ -12,6 +12,7 @@ audience_tooltip: Settings and maintenance
 index: true
 language: de
 deployment: onsite
+redirect_from: /de/admin/options/learn/freetext-search/regenerate-index
 ---
 
 # Volltextindex erneuern (Vor Ort)

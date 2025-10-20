@@ -12,6 +12,7 @@ audience_tooltip: Settings and maintenance
 index: true
 language: en
 deployment: onsite
+redirect_from: /en/admin/options/learn/freetext-search/regenerate-index
 ---
 
 # Regenerate a free-text index (onsite)

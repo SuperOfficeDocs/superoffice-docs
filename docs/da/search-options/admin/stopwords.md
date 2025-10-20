@@ -11,6 +11,7 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: da
+redirect_from: /da/admin/options/learn/freetext-search/stopwords
 ---
 
 # Stopord

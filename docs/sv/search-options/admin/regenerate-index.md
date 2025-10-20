@@ -12,6 +12,7 @@ audience_tooltip: Settings and maintenance
 index: true
 language: sv
 deployment: onsite
+redirect_from: /sv/admin/options/learn/freetext-search/regenerate-index
 ---
 
 # Återskapa ett fritextindex (lokalt)

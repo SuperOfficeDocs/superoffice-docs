@@ -12,6 +12,7 @@ audience_tooltip: Settings and maintenance
 index: true
 language: nl
 deployment: onsite
+redirect_from: /nl/admin/options/learn/freetext-search/regenerate-index
 ---
 
 # Een vrije-tekstindex genereren (lokaal)
