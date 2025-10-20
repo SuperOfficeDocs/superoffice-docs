@@ -10,8 +10,6 @@ deployment: online
 platform: web
 ---
 
-![Online development overview][img1]
-
 # Introduction to online development
 
 ## 1. Getting started with SuperOffice online development
