@@ -1,0 +1,31 @@
+items:
+- name: Overview
+  href: index.md
+- name: Document types
+  href: document-types.md
+- name: Template variables
+  href: template-variables.md
+  items:
+  - name: Reference
+    href: ../variables/toc.yml
+    topicHref: ../variables/index.md
+  - name: Troubleshooting
+    href: troubleshooting.md
+- name: Merge fields (quote templates)
+  href: quote-templates.md
+  items:
+  - name: Reference
+    href: ../merge-fields/toc.yml
+    topicHref: ../merge-fields/index.md
+  - name: Tutorial
+    href: ../admin/tutorial.md
+- name: Create document template
+  href: create.md
+- name: Link template
+  href: ../admin/link-template.md
+- name: Update template
+  href: ../admin/update-template.md
+- name: Document templates in multiple languages
+  href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Default values for new document templates
+  href: ../admin/document-template-defaults.md

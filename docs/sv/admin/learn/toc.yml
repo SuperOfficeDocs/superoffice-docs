@@ -13,9 +13,12 @@ items:
 - name: Administrering av användare
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md
-- name: Preferenser
+- name: Inställningar
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
+- name: Systemval
+  href: ../options/toc.yml
+  topicHref: ../options/index.md
 - name: Licenser
   href: ../license/learn/toc.yml
   topicHref: ../license/learn/index.md
