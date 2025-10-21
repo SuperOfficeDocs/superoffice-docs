@@ -1,0 +1,5 @@
+items:
+- name: Datautveksling
+  href: data-exchange.md
+- name: Konfigurere SOAP-grensesnitt
+  href: configure-soap.md

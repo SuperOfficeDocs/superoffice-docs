@@ -28,9 +28,5 @@ items:
 - name: Systemereignis hinzufügen
   href: add-system-event.md
 - name: Vor Ort
-  topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Data Exchange
-    href: ../automation/crmscript/learn/screen/data-exchange.md
-  - name: SOAP-Schnittstelle konfigurieren
-    href: configure-soap.md
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

@@ -28,9 +28,5 @@ items:
 - name: Lägga till systemhändelse
   href: add-system-event.md
 - name: Lokalt
-  topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Data Exchange
-    href: ../automation/crmscript/learn/screen/data-exchange.md
-  - name: Konfigurera SOAP-gränssnitt
-    href: configure-soap.md
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

@@ -28,9 +28,5 @@ items:
 - name: Systeemgebeurtenis toevoegen
   href: add-system-event.md
 - name: Lokaal
-  topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Gegevensuitwisseling
-    href: ../automation/crmscript/learn/screen/data-exchange.md
-  - name: SOAP-interface configureren
-    href: configure-soap.md
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

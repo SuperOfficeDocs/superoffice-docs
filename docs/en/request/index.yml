@@ -174,7 +174,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Configure SOAP ports
-          url: ../admin/learn/configure-soap.md
+          url: ../admin/onsite/configure-soap.md
 
   - title: Database tables
     linkLists:

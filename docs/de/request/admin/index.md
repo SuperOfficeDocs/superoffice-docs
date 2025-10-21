@@ -47,7 +47,7 @@ In diesem Bereich können Sie die Einstellungen für **Service** konfigurieren, 
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/learn/role/index.md
 [13]: ../../admin/user-management/learn/index.md
-[14]: ../../admin/learn/configure-soap.md
+[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

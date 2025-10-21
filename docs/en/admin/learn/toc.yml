@@ -36,9 +36,5 @@ items:
 - name: Add system event
   href: add-system-event.md
 - name: Onsite
-  topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Data Exchange
-    href: ../automation/crmscript/learn/screen/data-exchange.md
-  - name: Configure SOAP interface
-    href: configure-soap.md
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md
