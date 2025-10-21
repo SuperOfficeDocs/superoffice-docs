@@ -3,3 +3,5 @@ items:
   href: data-exchange.md
 - name: SOAP-Porten konfigurieren
   href: configure-soap.md
+- name: Systemereignis hinzufügen
+  href: add-system-event.md

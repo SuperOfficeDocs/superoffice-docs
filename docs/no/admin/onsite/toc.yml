@@ -3,3 +3,5 @@ items:
   href: data-exchange.md
 - name: Konfigurere SOAP-grensesnitt
   href: configure-soap.md
+- name: Legge til systemhendelse
+  href: add-system-event.md
