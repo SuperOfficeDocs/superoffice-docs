@@ -12,6 +12,7 @@ topic: soap
 deployment: onsite
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
 language: no
 redirect_from:
   - /no/admin/learn/screen/soap-config
