@@ -13,16 +13,12 @@ items:
 - name: Webpaneler
   href: ../web-panels/admin/toc.yml
   topicHref: ../web-panels/admin/index.md
-- name: Muligheder
-  href: ../../admin/options/learn/toc.yml
-  topicHref: ../../admin/options/learn/index.md
 - name: CRMScript
   href: ../../automation/crmscript/learn/toc.yml
   topicHref: ../../automation/crmscript/learn/index.md
 - name: E-mail
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
-  
 - name: Kundecenter
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md

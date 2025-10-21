@@ -1,0 +1,14 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Nummertilldelning
+  topicHref: number-allocation/index.md
+  items:
+  - name: Översikt
+    href: number-allocation/index.md
+  - name: Ange nummertilldelning
+    href: number-allocation/configure.md
+  - name: Standardvärden för nya dokumentmallar
+    href: number-allocation/document-template-defaults.md
+- name: Ledtexter
+  href: change-ui-labels.md

@@ -1,0 +1,14 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Nummertoewijzing
+  topicHref: number-allocation/index.md
+  items:
+  - name: Overzicht
+    href: number-allocation/index.md
+  - name: Nummertoewijzing opgeven
+    href: number-allocation/configure.md
+  - name: Standaardwaarden voor nieuwe documentsjablonen
+    href: number-allocation/document-template-defaults.md
+  - name: Labels
+    href: change-ui-labels.md

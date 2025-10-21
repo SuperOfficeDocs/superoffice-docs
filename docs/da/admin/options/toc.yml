@@ -1,0 +1,14 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Nummertildeling
+  topicHref: number-allocation/index.md
+  items:
+  - name: Oversigt
+    href: number-allocation/index.md
+  - name: Angiv nummertildeling
+    href: number-allocation/configure.md
+  - name: Standardværdier for nye dokumentskabeloner
+    href: number-allocation/document-template-defaults.md
+- name: etiketter
+  href: change-ui-labels.md
