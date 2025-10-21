@@ -27,3 +27,5 @@ items:
   href: ../admin/update-template.md
 - name: Document templates in multiple languages
   href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Default values for new document templates
+  href: ../admin/document-template-defaults.md
