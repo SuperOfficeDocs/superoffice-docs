@@ -39,6 +39,9 @@ items:
   - name: Anfragen
     href: ../request/learn/toc.yml
     topicHref: ../request/learn/index.md
+  - name: Benutzerdefinierte Objekte
+    href: ../custom-objects/learn/toc.yml
+    topicHref: ../custom-objects/learn/index.md
   - name: Selektion
     href: ../search-options/selection/learn/toc.yml
     topicHref: ../search-options/selection/learn/index.md

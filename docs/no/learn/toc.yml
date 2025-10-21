@@ -39,6 +39,9 @@ items:
   - name: Saksbehandling
     href: ../request/learn/toc.yml
     topicHref: ../request/learn/index.md
+  - name: Egendefinerte objekter
+    href: ../custom-objects/learn/toc.yml
+    topicHref: ../custom-objects/learn/index.md
   - name: Utvalg
     href: ../search-options/selection/learn/toc.yml
     topicHref: ../search-options/selection/learn/index.md
