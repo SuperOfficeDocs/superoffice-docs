@@ -13,9 +13,9 @@ audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
 redirect_from: 
-  - /da/admin/options/learn/tables/index
-  - /da/admin/options/learn/tables/change
-  - /da/admin/options/learn/tables/reset
+  - /da/admin/options/learn/labels/index
+  - /da/admin/options/learn/labels/change
+  - /da/admin/options/learn/labels/reset
 language: da
 ---
 
