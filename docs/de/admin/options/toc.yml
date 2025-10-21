@@ -1,12 +1,7 @@
 items:
-- name: Überblick
+- name: Einführung
   href: index.md
 - name: Nummernzuweisung
-  topicHref: number-allocation/index.md
-  items:
-  - name: Überblick
-    href: number-allocation/index.md
-  - name: Nummernzuweisung festlegen
-    href: number-allocation/configure.md
+  href: configure-number-allocation.md
 - name: Bezeichnungen
   href: change-ui-labels.md

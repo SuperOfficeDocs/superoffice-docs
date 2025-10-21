@@ -1,12 +1,7 @@
 items:
-- name: Oversikt
+- name: Introduksjon
   href: index.md
 - name: Nummertildeling
-  topicHref: number-allocation/index.md
-  items:
-  - name: Oversikt
-    href: number-allocation/index.md
-  - name: Angi nummertildeling
-    href: number-allocation/configure.md
-  - name: Ledetekster
-    href: change-ui-labels.md
+  href: configure-number-allocation.md
+- name: Etiketter
+  href: change-ui-labels.md
