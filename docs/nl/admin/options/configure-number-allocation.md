@@ -32,7 +32,7 @@ In het bovenste gedeelte van het tabblad **Nummertoewijzing** ziet u een tabel m
 
 ## Nummertoewijzing voor veld opgeven
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Ga naar Instellingen en onderhoud en selecteer <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Systemopties**.
 
 1. Selecteer het tabblad **Nummertoewijzing**.
 

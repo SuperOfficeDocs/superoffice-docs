@@ -27,27 +27,40 @@ For eksempel kan du endre ledeteksten **Firma** til *Bedrift*.
 
 ## Konfigurer endring av ledetekster
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Gå til Innstillinger og vedlikehold, og velg deretter <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Systemvalg**.
+
 1. Velg fanen **Ledetekster**.
+
 1. Merk av for **Aktiver endring av ledetekster** for å aktivere funksjonen for å overstyre ledetekster.
 
 ## Endre en ledetekst
 
 1. Skriv inn hele eller deler av ledeteksten du vil endre i kolonnen til venstre.
+
     * Denne kolonnen følger språket som er valgt for brukeren din.
+
 1. For å søke på et annet språk, velg et **Målspråk** i listen til høyre og skriv inn søketeksten i det tilsvarende feltet.
+
 1. Trykk på **ENTER** for å oppdatere resultatlisten.
+
 1. Hold musepekeren over en rad for å vise den interne ledeteksten (ressurs-ID).
+
 1. Dobbeltklikk på en ledetekst for å redigere den.
+
 1. Rediger ledeteksten for ett eller flere av de tilgjengelige språkene i dialogboksen.
+
 1. Klikk på **Lagre**.
 
 ## Tilbakestill en ledetekst til standard
 
 1. Søk etter ledeteksten du vil tilbakestille.
+
     * Tilpassede ledetekster vises med fet skrift.
+
 1. Velg ledeteksten i listen.
+
 1. Klikk på **Slett oversettelse** for å fjerne den tilpassede ledeteksten.
+
     * Den opprinnelige ledeteksten gjenopprettes i grensesnittet.
 
 Hvis du vil tilbakestille alle endringer, fjerner du merkingen for **Aktiver endring av ledetekster**.

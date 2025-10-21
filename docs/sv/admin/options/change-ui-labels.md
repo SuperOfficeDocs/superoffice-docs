@@ -27,26 +27,36 @@ Till exempel kan du byta ut ledtexten **Företag** mot *Organisation*.
 
 ## Konfigurera ändring av ledtexter
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Gå till Inställningar och underhåll och klicka på <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Systemval**.
+
 1. Välj fliken **Ledtexter**.
+
 1. Markera **Aktivera ändring av ledtexter** för att slå på möjligheten att ersätta fältrubriker.
 
 ## Så ändrar du en ledtext
 
 1. Skriv hela eller delar av ledtexten du vill ändra i kolumnen till vänster.
     * Den här kolumnen visar det språk du valt som användare.
+
 1. Om du vill söka på ett annat språk väljer du ett **Målspråk** i listan till höger och skriver in söktext i motsvarande fält.
+
 1. Klicka på **ENTER** för att uppdatera listan med resultat.
+
 1. Håll muspekaren över en rad för att visa den interna ledtexten (resurs-ID).
+
 1. Dubbelklicka på en ledtext för att redigera den.
+
 1. Redigera ledtexten för ett eller flera av de tillgängliga språken i dialogrutan.
+
 1. Klicka på **Spara**.
 
 ## Återställ en ledtext till standard
 
 1. Sök efter den ledtext du vill återställa.
     * Anpassade ledtexter visas i fetstil.
+
 1. Markera ledtexten i listan.
+
 1. Klicka på **Ta bort översättning** för att radera den anpassade ledtexten.
     * Den ursprungliga ledtexten visas då i gränssnittet igen.
 

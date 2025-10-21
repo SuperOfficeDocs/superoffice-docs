@@ -27,28 +27,40 @@ For example, you can change the label **Company** to *Organization*.
 
 ## Configure label substitution
 
-[!include[Go to Options](includes/open-options.md)]
+1. Go to Settings and maintenance and select <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Options**.
 
 1. Select the **Labels** tab.
+
 1. Check **Enable label substitution** to activate the label override feature.
 
 ## Change a label
 
 1. In the left column, enter all or part of the label you want to change.
+
     * This column matches the language selected for your user.
+
 1. To search in another language, choose a **Target language** from the list on the right, and enter search text in the corresponding field.
+
 1. Press **ENTER** to update the list of results.
+
 1. Hover over a row to see the internal label (resource ID).
+
 1. Double-click a label to edit it.
+
 1. In the dialog, edit the label for one or more available languages.
+
 1. Click **Save**.
 
 ## Reset a label to default
 
 1. Search for the label you want to reset.
+
     * Custom labels appear in bold text.
+
 1. Select the label in the list.
+
 1. Click **Delete translation** to remove the custom label.
+
     * The original label is restored in the interface.
 
 To revert all label changes, uncheck **Enable label substitution**.

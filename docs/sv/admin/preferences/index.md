@@ -1,8 +1,8 @@
 ---
 uid: help-sv-preferences
-title: Preferenser
+title: Inställningar
 description: Administratörer kan ange inställningar för olika funktioner i systemet för olika användare och användargrupper eller för hela SuperOffice CRM (globala inställningar).
-keywords: inställningar, globala inställningar
+keywords: inställningar, globala inställningar, preferens
 author: digitaldiina
 date: 10.17.2025
 version: 11.5
@@ -18,7 +18,7 @@ redirect_from:
   - /sv/admin/preferences/learn/global-preferences/system
 ---
 
-# Preferenser <i class="ph ph-gear" aria-label="Gear icon"></i>
+# Inställningar <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 I fönstret Inställningar kan du välja inställningar för hela systemet (globalt), en databas, en användargrupp eller en enskild användare. Inställningar som bara kan göras globalt (på systemnivå) finns på fliken **[Globala inställningar](#global)**.
 
@@ -82,7 +82,7 @@ Högst upp i fliken **Inställningar** kan du välja önskad inställningsgrupp.
 
 ### Listan Preferenser
 
-Till vänster finns listan **Inställningar** med alla inställningar som har definierats inom den aktuella inställningsgruppen.
+Till vänster finns listan **Preferenser** med alla inställningar som har definierats inom den aktuella inställningsgruppen.
 
 **Inställningsgrupper:**
 

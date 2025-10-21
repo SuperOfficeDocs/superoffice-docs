@@ -32,7 +32,7 @@ I den øverste del af fanen **Nummertildeling** er der en tabel, der viser de de
 
 ## Angivelse af nummertildeling for felt
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Gå til Indstillinger og vedligeholdelse, og vælg <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Indstillinger**.
 
 1. Vælg fanen **Nummertildeling**.
 

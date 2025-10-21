@@ -32,7 +32,7 @@ Högst upp på fliken **Nummertilldelning** finns en tabell som visar alla räkn
 
 ## Ange nummertilldelning för fält
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Gå till Inställningar och underhåll och klicka på <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Systemval**.
 
 1. Välj fliken **Nummertilldelning**.
 

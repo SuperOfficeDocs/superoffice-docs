@@ -34,7 +34,7 @@ In the top part of the **Number allocation** tab is a table showing the defined 
 
 ## Specify number allocation for field
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Go to Settings and maintenance and select <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Options**.
 
 2. Select the **Number allocation** tab.
 

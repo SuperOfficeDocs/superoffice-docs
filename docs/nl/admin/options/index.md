@@ -1,7 +1,7 @@
 ---
 uid: help-nl-options
-title: Opties
-description: Opties
+title: Systeemopties
+description: Systeemopties
 keywords: instellingen, opties
 author: digitaldiina
 date: 10.21.2025
@@ -16,11 +16,11 @@ redirect_from: /nl/admin/options/learn/index
 language: nl
 ---
 
-# Opties
+# Systeemopties
 
-In het scherm **Opties** definieert u instellingen die gelden voor het hele systeem, met name voor zoekbewerkingen op basis van vrije tekst, tijdzones, nummertoewijzing en labels. De meeste bedrijven hoeven de standaardinstellingen van SuperOffice CRM niet te wijzigen. Als u ze echter toch moet wijzigen, gebruikt u het scherm **Opties**.
+In het scherm **Systeemopties** definieert u instellingen die gelden voor het hele systeem, met name voor zoekbewerkingen op basis van vrije tekst, tijdzones, nummertoewijzing en labels. De meeste bedrijven hoeven de standaardinstellingen van SuperOffice CRM niet te wijzigen. Als u ze echter toch moet wijzigen, gebruikt u het scherm **Systeemopties**.
 
-## Tabbladen in het scherm Opties
+## Tabbladen in het scherm Systeemopties
 
 | Tabblad | Beschrijving |
 |---|---|
@@ -31,7 +31,7 @@ In het scherm **Opties** definieert u instellingen die gelden voor het hele syst
 | [Klanttalen][6] | hier kunt u de klanttalen configureren, waardoor het gemakkelijk is om met klanten in verschillende talen te communiceren. U kunt ook categorienamen instellen in SuperOffice Customer Centre. |
 
 > [!NOTE]
-> Als uw organisatie een licentie voor [SAINT][7] heeft, bevat het scherm **Opties** ook het tabblad **Statuscontroles**.
+> Als uw organisatie een licentie voor [SAINT][7] heeft, bevat het scherm **Systeemopties** ook het tabblad **Statuscontroles**.
 
 <!-- Referenced links -->
 [1]: configure-number-allocation.md

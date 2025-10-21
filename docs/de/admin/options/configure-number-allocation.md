@@ -32,7 +32,7 @@ Im oberen Teil der Registrierkarte **Nummernzuweisung** befindet sich eine Tabel
 
 ## Nummernzuweisung pro Feld festlegen
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. Gehen Sie zu Einstellungen und Verwaltung und wählen Sie <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Optionen** aus.
 
 1. Wählen Sie die Registerkarte **Nummernzuweisung**.
 

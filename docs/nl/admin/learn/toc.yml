@@ -16,7 +16,7 @@ items:
 - name: Voorkeuren
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
-- name: Opties
+- name: Systeemopties
   href: ../options/toc.yml
   topicHref: ../options/index.md
 - name: Licenties
