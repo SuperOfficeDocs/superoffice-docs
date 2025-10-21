@@ -46,3 +46,5 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentmallar på flera språk
     href: ../templates/admin/using-document-templates-for-multiple-languages.md
+  - name: Standardvärden för nya dokumentmallar
+    href: ../templates/admin/document-template-defaults.md

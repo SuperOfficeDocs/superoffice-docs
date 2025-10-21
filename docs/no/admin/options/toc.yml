@@ -8,7 +8,5 @@ items:
     href: number-allocation/index.md
   - name: Angi nummertildeling
     href: number-allocation/configure.md
-  - name: Standardverdier for nye dokumentmaler
-    href: number-allocation/document-template-defaults.md
   - name: Ledetekster
     href: change-ui-labels.md

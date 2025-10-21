@@ -46,3 +46,5 @@ items:
     href: ../templates/admin/update-template.md
   - name: Documentsjablonen in meerdere talen
     href: ../templates/admin/using-document-templates-for-multiple-languages.md
+  - name: Standaardwaarden voor nieuwe documentsjablonen
+    href: ../templates/admin/document-template-defaults.md

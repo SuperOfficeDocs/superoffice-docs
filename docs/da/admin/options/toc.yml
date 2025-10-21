@@ -8,7 +8,5 @@ items:
     href: number-allocation/index.md
   - name: Angiv nummertildeling
     href: number-allocation/configure.md
-  - name: Standardværdier for nye dokumentskabeloner
-    href: number-allocation/document-template-defaults.md
-- name: etiketter
+- name: Etiketter
   href: change-ui-labels.md

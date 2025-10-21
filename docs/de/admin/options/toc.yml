@@ -8,7 +8,5 @@ items:
     href: number-allocation/index.md
   - name: Nummernzuweisung festlegen
     href: number-allocation/configure.md
-  - name: Standardwerte für neue Dokumentvorlagen
-    href: number-allocation/document-template-defaults.md
 - name: Bezeichnungen
   href: change-ui-labels.md

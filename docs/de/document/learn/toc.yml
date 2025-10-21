@@ -46,3 +46,5 @@ items:
     href: ../templates/admin/update-template.md
   - name: Dokumentvorlagen in mehreren Sprachen
     href: ../templates/admin/using-document-templates-for-multiple-languages.md
+  - name: Standardwerte für neue Dokumentvorlagen
+    href: ../templates/admin/document-template-defaults.md
