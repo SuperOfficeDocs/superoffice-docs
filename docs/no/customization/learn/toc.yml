@@ -22,10 +22,3 @@ items:
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Lokalt
-  topicHref: ../../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Datautveksling
-    href: ../../automation/crmscript/learn/screen/data-exchange.md
-  - name: Konfigurere SOAP-grensesnitt
-    href: ../../admin/learn/configure-soap.md

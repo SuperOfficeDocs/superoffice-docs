@@ -22,10 +22,3 @@ items:
 - name: Systeemontwerp
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Lokaal
-  topicHref: ../../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Gegevensuitwisseling
-    href: ../../automation/crmscript/learn/screen/data-exchange.md
-  - name: SOAP-interface configureren
-    href: ../../admin/learn/configure-soap.md
