@@ -1,8 +1,8 @@
 ---
 uid: help-da-options
-title: Muligheder
-description: Muligheder
-keywords: indstillinger, muligheder
+title: Indstillinger
+description: Indstillinger
+keywords: indstillinger
 author: digitaldiina
 date: 10.21.2025
 version: 11.5
@@ -12,12 +12,11 @@ topic: options
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
-redirect_from: 
-  - /da/admin/options/learn/index
+redirect_from: /da/admin/options/learn/index
 language: da
 ---
 
-# Muligheder
+# Indstillinger
 
 I skærmbilledet **Indstillinger** definerer du de indstillinger, der gælder for hele systemet, især for fritekstsøgning, tidszoner, nummertildeling og etiketter. De fleste virksomheder har ikke behov for at ændre standardindstillingerne, der følger med SuperOffice CRM. Men hvis du har brug for at justere dem, skal du bruge skærmbilledet **Indstillinger**.
 
@@ -35,7 +34,7 @@ I skærmbilledet **Indstillinger** definerer du de indstillinger, der gælder fo
 > Hvis din organisation har licens til [SAINT][7], vises fanen **Statusovervågning** også i skærmbilledet **Indstillinger**.
 
 <!-- Referenced links -->
-[1]: number-allocation.md
+[1]: configure-number-allocation.md
 [2]: change-ui-labels.md
 [3]: ../../search-options/admin/configure-free-text-search.md
 [4]: ../../localization/learn/time-zones.md

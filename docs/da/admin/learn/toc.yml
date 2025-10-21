@@ -16,7 +16,7 @@ items:
 - name: Præferencer
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
-- name: Muligheder
+- name: Indstillinger
   href: ../options/toc.yml
   topicHref: ../options/index.md
 - name: Licenser

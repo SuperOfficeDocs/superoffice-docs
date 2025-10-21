@@ -48,6 +48,6 @@ Bei Bedarf können Sie [Standardwerte][1] für neue Dokumentvorlagen festlegen. 
 1. Klicken Sie auf **Speichern**.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/number-allocation/index.md
+[1]: ../../../admin/options/configure-number-allocation.md
 
 <!-- Referenced images -->

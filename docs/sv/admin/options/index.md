@@ -12,8 +12,7 @@ topic: options
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
-redirect_from: 
-  - /sv/admin/options/learn/index
+redirect_from: /sv/admin/options/learn/index
 language: sv
 ---
 
@@ -35,7 +34,7 @@ I fönstret **Systemval** anger du inställningar som gäller för hela systemet
 > Om ditt företag har licens för [SAINT][7] innehåller fönstret **Systemval** även fliken **Statusövervakning**.
 
 <!-- Referenced links -->
-[1]: number-allocation.md
+[1]: configure-number-allocation.md
 [2]: change-ui-labels.md
 [3]: ../../search-options/admin/configure-free-text-search.md
 [4]: ../../localization/learn/time-zones.md

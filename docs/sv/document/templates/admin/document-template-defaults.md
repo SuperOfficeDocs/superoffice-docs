@@ -48,6 +48,6 @@ Du kan ange [standardvärden][1] för nya dokumentmallar om det behövs. Det inn
 1. Klicka på **Spara**.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/number-allocation/index.md
+[1]: ../../../admin/options/configure-number-allocation.md
 
 <!-- Referenced images -->

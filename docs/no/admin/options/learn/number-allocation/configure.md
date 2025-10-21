@@ -1,3 +1,3 @@
 ---
-uid: help-no-number-allocation-configure
+redirect_url: https://docs.superoffice.com/no/admin/options/configure-number-allocations.html
 ---

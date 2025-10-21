@@ -48,6 +48,6 @@ U kunt desgewenst [standaardwaarden][1] voor documentsjablonen definiëren. Dit 
 1. Klik op **Opslaan**.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/number-allocation/index.md
+[1]: ../../../admin/options/configure-number-allocation.md
 
 <!-- Referenced images -->

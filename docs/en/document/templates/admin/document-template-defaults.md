@@ -48,6 +48,6 @@ You can specify [default][1] values for new document templates if required. This
 1. Click **Save**.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/number-allocation/index.md
+[1]: ../../../admin/options/configure-number-allocation.md
 
 <!-- Referenced images -->

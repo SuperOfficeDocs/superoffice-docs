@@ -12,8 +12,7 @@ topic: options
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
-redirect_from: 
-  - /nl/admin/options/learn/index
+redirect_from: /nl/admin/options/learn/index
 language: nl
 ---
 
@@ -35,7 +34,7 @@ In het scherm **Opties** definieert u instellingen die gelden voor het hele syst
 > Als uw organisatie een licentie voor [SAINT][7] heeft, bevat het scherm **Opties** ook het tabblad **Statuscontroles**.
 
 <!-- Referenced links -->
-[1]: number-allocation.md
+[1]: configure-number-allocation.md
 [2]: change-ui-labels.md
 [3]: ../../search-options/admin/configure-free-text-search.md
 [4]: ../../localization/learn/time-zones.md

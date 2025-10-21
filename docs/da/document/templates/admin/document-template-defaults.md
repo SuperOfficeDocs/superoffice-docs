@@ -48,6 +48,6 @@ Du kan angive [standardværdier][1] for nye dokumentskabeloner, hvis det er nød
 1. Klik på **Gem**.
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/number-allocation/index.md
+[1]: ../../../admin/options/configure-number-allocation.md
 
 <!-- Referenced images -->

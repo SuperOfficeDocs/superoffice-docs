@@ -12,8 +12,7 @@ topic: options
 audience: settings
 audience_tooltip: Indstillinger og vedligeholdelse
 index: true
-redirect_from: 
-  - /de/admin/options/learn/index
+redirect_from: /de/admin/options/learn/index
 language: de
 ---
 
@@ -35,7 +34,7 @@ In der Ansicht **Optionen** können Sie Einstellungen für das gesamte System fe
 > Wenn Ihr Unternehmen über eine Lizenz für [SAINT][7] verfügt, enthält die Ansicht **Optionen** auch die Registerkarte **Statuskontrollen**.
 
 <!-- Referenced links -->
-[1]: number-allocation.md
+[1]: configure-number-allocation.md
 [2]: change-ui-labels.md
 [3]: ../../search-options/admin/configure-free-text-search.md
 [4]: ../../localization/learn/time-zones.md

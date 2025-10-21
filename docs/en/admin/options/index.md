@@ -12,8 +12,7 @@ topic: options
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
-redirect_from: 
-  - /en/admin/options/learn/index
+redirect_from: /en/admin/options/learn/index
 language: en
 ---
 
@@ -35,7 +34,7 @@ In the **Options** screen, you define settings that are valid for the whole syst
 > If your organization has a licence for [SAINT][7], the **Options** screen also contains the **Status monitors** tab.
 
 <!-- Referenced links -->
-[1]: number-allocation.md
+[1]: configure-number-allocation.md
 [2]: change-ui-labels.md
 [3]: ../../search-options/admin/configure-free-text-search.md
 [4]: ../../localization/learn/time-zones.md
