@@ -1,0 +1,31 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Documenttypen
+  href: document-types.md
+- name: Vorlagenvariablen
+  href: template-variables.md
+  items:
+  - name: Referenz
+    href: ../variables/toc.yml
+    topicHref: ../variables/index.md
+  - name: Fehlerbehebung
+    href: troubleshooting.md
+- name: Merge fields (Angebotsvorlagen)
+  href: quote-templates.md
+  items:
+  - name: Referenz
+    href: ../merge-fields/toc.yml
+    topicHref: ../merge-fields/index.md
+  - name: Tutorial
+    href: ../admin/tutorial.md
+- name: Eine Dokumentvorlage erstellen
+  href: create.md
+- name: Vorlage hinzufügen
+  href: ../admin/link-template.md
+- name: Vorlage bearbeiten
+  href: ../admin/update-template.md
+- name: Dokumentvorlagen in mehreren Sprachen
+  href: ../admin/using-document-templates-for-multiple-languages.md
+- name: Standardwerte für neue Dokumentvorlagen
+  href: ../admin/document-template-defaults.md

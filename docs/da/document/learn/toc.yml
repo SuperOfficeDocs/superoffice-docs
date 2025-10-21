@@ -16,35 +16,5 @@ items:
     href: send-as-email.md
 
 - name: Dokumentskabeloner
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Oversigt
-    href: ../templates/learn/index.md
-  - name: Dokumenttyper
-    href: ../templates/learn/document-types.md
-  - name: Skabelonvariabler
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Reference
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Fejlfinding
-      href: ../templates/learn/troubleshooting.md
-  - name: Fletfelter (tilbudsskabeloner)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Reference
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Opret dokumentskabelon
-    href: ../templates/learn/create.md
-  - name: Tilføj skabelon
-    href: ../templates/admin/link-template.md
-  - name: Rediger skabelon
-    href: ../templates/admin/update-template.md
-  - name: Dokumentskabeloner på flere sprog
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md
-  - name: Standardværdier for nye dokumentskabeloner
-    href: ../templates/admin/document-template-defaults.md

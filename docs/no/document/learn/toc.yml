@@ -16,35 +16,5 @@ items:
     href: send-as-email.md
 
 - name: Dokumentmaler
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Oversikt
-    href: ../templates/learn/index.md
-  - name: Dokumenttyper
-    href: ../templates/learn/document-types.md
-  - name: Malvariabler
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Referanse
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Feilsøking
-      href: ../templates/learn/troubleshooting.md
-  - name: Flettefelt (tilbudsmaler)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Referanse
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Opprette dokumentmal
-    href: ../templates/learn/create.md
-  - name: Legg til mal
-    href: ../templates/admin/link-template.md
-  - name: Redigere mal
-    href: ../templates/admin/update-template.md
-  - name: Dokumentmaler på flere språk
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md
-  - name: Standardverdier for nye dokumentmaler
-    href: ../templates/admin/document-template-defaults.md

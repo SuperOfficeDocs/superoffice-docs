@@ -16,35 +16,5 @@ items:
     href: send-as-email.md
 
 - name: Dokumentmallar
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Översikt
-    href: ../templates/learn/index.md
-  - name: Dokumenttyper
-    href: ../templates/learn/document-types.md
-  - name: Mallvariabler
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Referens
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Felsökning
-      href: ../templates/learn/troubleshooting.md
-  - name: Merge fields (offertmallar)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Referens
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Skapa dokumentmall
-    href: ../templates/learn/create.md
-  - name: Lägga till mall
-    href: ../templates/admin/link-template.md
-  - name: Redigera mall
-    href: ../templates/admin/update-template.md
-  - name: Dokumentmallar på flera språk
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md
-  - name: Standardvärden för nya dokumentmallar
-    href: ../templates/admin/document-template-defaults.md

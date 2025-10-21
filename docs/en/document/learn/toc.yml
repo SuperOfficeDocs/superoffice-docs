@@ -18,36 +18,8 @@ items:
     href: send-as-email.md
 
 - name: Document templates
+  href: ../templates/learn/toc.yml
   topicHref: ../templates/learn/index.md
-  items:
-  - name: Overview
-    href: ../templates/learn/index.md
-  - name: Document types
-    href: ../templates/learn/document-types.md
-  - name: Template variables
-    href: ../templates/learn/template-variables.md
-    items:
-    - name: Reference
-      href: ../templates/variables/toc.yml
-      topicHref: ../templates/variables/index.md
-    - name: Troubleshooting
-      href: ../templates/learn/troubleshooting.md
-  - name: Merge fields (quote templates)
-    href: ../templates/learn/quote-templates.md
-    items:
-    - name: Reference
-      href: ../templates/merge-fields/toc.yml
-      topicHref: ../templates/merge-fields/index.md
-    - name: Tutorial
-      href: ../templates/admin/tutorial.md
-  - name: Create document template
-    href: ../templates/learn/create.md
-  - name: Link template
-    href: ../templates/admin/link-template.md
-  - name: Update template
-    href: ../templates/admin/update-template.md
-  - name: Document templates in multiple languages
-    href: ../templates/admin/using-document-templates-for-multiple-languages.md
 - name: Technical reference
   href: ../library/it/index.md
   items:
