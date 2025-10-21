@@ -4,9 +4,6 @@ items:
 - name: Listen
   href: ../../admin/lists/learn/toc.yml
   topicHref: ../../admin/lists/learn/index.md
-- name: Benutzerdefinierte Objekte
-  href: ../../custom-objects/learn/toc.yml
-  topicHref: ../../custom-objects/learn/index.md
 - name: Ansichtsdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
