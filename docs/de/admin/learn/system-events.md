@@ -1,4 +1,3 @@
 ---
-uid: help-de-system-events
-redirect_url: https://docs.superoffice.com/de/admin/learn/add-system-event.html
+redirect_url: https://docs.superoffice.com/de/admin/onsite/add-system-event.html
 ---

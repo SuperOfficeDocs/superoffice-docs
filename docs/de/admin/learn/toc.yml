@@ -25,5 +25,6 @@ items:
 - name: Importieren
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Systemereignis hinzufügen
-  href: add-system-event.md
+- name: Vor Ort
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

@@ -22,10 +22,3 @@ items:
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Vor Ort
-  topicHref: ../../automation/crmscript/learn/screen/data-exchange.md
-  items:
-  - name: Data Exchange
-    href: ../../automation/crmscript/learn/screen/data-exchange.md
-  - name: SOAP-Schnittstelle konfigurieren
-    href: ../../admin/learn/configure-soap.md

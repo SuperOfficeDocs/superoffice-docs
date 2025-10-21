@@ -25,5 +25,6 @@ items:
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md
-- name: Lägga till systemhändelse
-  href: add-system-event.md
+- name: Lokalt
+  href: ../onsite/toc.yml
+  topicHref: ../onsite/data-exchange.md

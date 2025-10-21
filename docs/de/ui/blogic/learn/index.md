@@ -60,6 +60,6 @@ Durch [Zusatztabellen und Felder zu SuperOffice hinzufügen][1] können Sie eine
 [11]: extra-menus/index.md
 [12]: ../../web-panels/learn/index.md
 [13]: ../../../admin/learn/package-properties.md
-[14]: ../../../automation/crmscript/learn/screen/data-exchange.md
+[14]: ../../../admin/onsite/data-exchange.md
 
 <!-- Referenced images -->
