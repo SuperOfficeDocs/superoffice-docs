@@ -9,9 +9,6 @@ content_type: reference
 /api/v1/AI/Agent
 ```
 
-
-
-
 * [POST Agents/AI/SummarizeText](v1AIAgent_SummarizeText.md)
 
 * [POST Agents/AI/ExpandText](v1AIAgent_ExpandText.md)
@@ -21,6 +18,8 @@ content_type: reference
 * [POST Agents/AI/CreateTextForAppointment](v1AIAgent_CreateTextForAppointment.md)
 
 * [POST Agents/AI/AnalyzeBizCardImage](v1AIAgent_AnalyzeBizCardImage.md)
+
+* [POST Agents/AI/AnalyzeBizCardImage_new](v1AIAgent_AnalyzeBizCardImage_new.md)
 
 * [POST Agents/AI/AnalyzeBizCardText](v1AIAgent_AnalyzeBizCardText.md)
 
