@@ -67,11 +67,11 @@ OK
 
 ## Sample request
 
-[!include[sample request][1]]
+[!include[sample request][1]
 
 ## Sample response
 
-[!include[sample response][2]]
+[!include[sample response][2]
 
 <!-- Reference links -->
 [1]: ../../../../../../api-reference/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md
