@@ -57,7 +57,6 @@ With Development Tools, you can:
 * Expand and adapt the CRM interface:
   * [Screen Designer][5]: design main screens in the CRM (from version 10 Screen).
   * [Custom screens][6]: build new screens in Service tailored to your processes (old Service).
-
 * Extend the data model:
   * [Extra tables][4]: add new tables to increase flexibility in case and relationship management (custom objects).
 * Develop and integrate custom applications:
@@ -105,9 +104,9 @@ Application developers get access to Development Tools [when registering][13]. C
 
 Which of these customization tools you use will depend on your requirements, the skills you have to use them, and your willingness to pay for expertise.
 
-## What's inside Development Tools?
+### What's inside Development Tools?
 
-### CRMScript: Customize your workflows and automations
+#### CRMScript: Customize your workflows and automations
 
 [CRMScript][2] is a highly flexible **scripting language** embedded in SuperOffice CRM. It allows you to create different automations and workflows to fit the ways your business works.
 
@@ -117,7 +116,7 @@ We advise you to explore the possibilities of triggers before you start looking 
 
 CRMScript, on the other hand, requires technical skills and is ideal for those who are already familiar with such programming languages as C, C++, and Java syntax.
 
-### Extra tables: Add new tables to the database and increase your flexibility
+#### Extra tables: Add new tables to the database and increase your flexibility
 
 SuperOffice CRM comes with a set of pre-defined tables where you can store data. There is an underlying logic about how these tables or data entries relate to each other.
 
@@ -130,7 +129,7 @@ If you need more tables, you can add extra tables to the database when you subsc
 
 To add extra tables requires technical knowledge. Usually, extra tables are used in combination with custom screens.
 
-### Custom screens: Create new screens in Service to support your specific processes
+#### Custom screens: Create new screens in Service to support your specific processes
 
 With Development Tools, you can create new screens in SuperOffice Service to fit your specific business processes.
 
@@ -140,9 +139,9 @@ In combination with extra tables, defining your own custom screens gives you eve
 
 Custom screens created for SuperOffice Service can be made available to users with a Standard, Sales, or Marketing user plan via web panels.
 
-You’ll need substantial technical knowledge to create custom screens.
+You'll need substantial technical knowledge to create custom screens.
 
-### SuperOffice APIs: Create one-off customizations
+#### SuperOffice APIs: Create one-off customizations
 
 Finally, you also get access to all available SuperOffice APIs:
 

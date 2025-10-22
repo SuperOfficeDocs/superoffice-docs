@@ -5,3 +5,5 @@ items:
   href: activate.md
 - name: Brukerplaner
   href: user-plans.md
+- name: Expander services
+  href: expander-services.md
