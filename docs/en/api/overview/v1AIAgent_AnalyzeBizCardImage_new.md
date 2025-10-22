@@ -74,5 +74,5 @@ OK
 [!include[sample response][2]]
 
 <!-- Reference links -->
-[1]: https://github.com/SuperOfficeDocs/api-reference/blob/master/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md
-[2]: https://github.com/SuperOfficeDocs/api-reference/blob/master/samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md
+[1]: ../../../../../../../../../api-reference/samples/rest/request/v1AIAgent_AnalyzeBizCardImage.md
+[2]: ../../../../../../../../../api-reference/samples/rest/request/v1AIAgent_AnalyzeBizCardImage.md
