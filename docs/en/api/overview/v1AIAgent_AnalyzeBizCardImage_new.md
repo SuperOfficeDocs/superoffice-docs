@@ -67,11 +67,11 @@ OK
 
 ## Sample request
 
-![sample request][1]
+[!include[sample request][1]]
 
 ## Sample response
 
-![sample response][2]
+[!include[sample response][2]]
 
 <!-- Reference links -->
 [1]: https://github.com/SuperOfficeDocs/api-reference/blob/master/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md
