@@ -28,8 +28,8 @@ items:
     href: ../user-preferences/reference/toc.yml
     topicHref: ../user-preferences/reference/appointment-dialog.md
 - name: Licenses
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

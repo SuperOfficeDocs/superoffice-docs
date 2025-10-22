@@ -83,7 +83,7 @@ Die nachfolgende Tabelle gibt an, wie sich die verschiedenen Kombinationen der a
 | | | x | x | Es wird keine Nummer zugewiesen und der Benutzer kann auch keine Nummer festlegen. Dies ist nützlich, wenn Zähler von Drittherstellern verwendet werden. |
 | | | x | | Es wird keine Nummer zugewiesen und der Benutzer kann auch keine Nummer festlegen. Die Datenbank darf nur ein leeres Feld haben. (Nicht empfohlen.) |
 
-## Verwandte inhalte
+## Verwandte Inhalte
 
 * [Standardwerte für neue Dokumentvorlagen festlegen][3]
 

@@ -1,5 +1,5 @@
 items:
-- name: Oversigt
+- name: Introduktion
   href: index.md
 - name: Aktivér licens
   href: activate.md

@@ -1,0 +1,5 @@
+items:
+- name: Introduksjon
+  href: index.md
+- name: Aktivere lisens
+  href: activate.md

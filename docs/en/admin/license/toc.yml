@@ -1,0 +1,5 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Activate license
+  href: activate.md

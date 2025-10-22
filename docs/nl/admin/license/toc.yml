@@ -1,5 +1,5 @@
 items:
-- name: Overzicht
+- name: Inleiding
   href: index.md
 - name: Licentie activeren
   href: activate.md

@@ -20,8 +20,8 @@ items:
   href: ../options/toc.yml
   topicHref: ../options/index.md
 - name: Lizenzen
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Importieren
   href: ../import/toc.yml
   topicHref: ../import/index.md

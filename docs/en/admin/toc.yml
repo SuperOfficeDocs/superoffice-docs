@@ -3,7 +3,7 @@ items:
   href: overview.md
   items:
   - name: License
-    href: license/index.md
+    topicHref: license/user-plans.md
     items:
     - name: User plans
       href: license/user-plans.md
