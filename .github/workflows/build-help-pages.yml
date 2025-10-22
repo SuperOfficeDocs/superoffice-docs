@@ -41,9 +41,11 @@ jobs:
         run: |
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
-          cd build-docs/api-reference
-          git pull --rebase
+          cd build-docs
+          cd api-reference
           ls
+          git pull --rebase
+          
       - name: Build Documentation
         uses: nikeee/docfx-action@master
         with:
