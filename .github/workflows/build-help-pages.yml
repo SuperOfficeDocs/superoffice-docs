@@ -44,8 +44,6 @@ jobs:
           cd build-docs/api-reference
           git pull --rebase
           ls
-          git submodule update --init
-          ls
       - name: Build Documentation
         uses: nikeee/docfx-action@master
         with:
