@@ -69,8 +69,8 @@ Required information to put into *web.config* of your mirroring service:
 <!-- Referenced links -->
 [2]: ../best-practices/tenant-status/get-notifications.md
 [3]: ../best-practices/error-emails.md
-[4]: ../../admin/license/expander-services/tool-box.md
-[5]: ../../admin/license/expander-services/index.md#development-products
+[4]: ../../admin/license/expander-services.md#tools
+[5]: ../../admin/license/expander-services.md#development-products
 [6]: ../../online/mirroring/overview.md
 [7]: ../../online/mirroring/getting-started/create-wfc.md
 [18]: request-to-publish.md

@@ -63,7 +63,7 @@ Custom apps therefore do not need to implement the [workflow for giving consent]
 
 <!-- Referenced links -->
 [4]: validate.md
-[1]: ../../admin/license/expander-services/index.md
+[1]: ../../admin/license/expander-services.md
 [2]: ../provisioning/consent.md#hand-shake
 [3]: ../best-practices/tenant-status/check-status.md
 [5]: ../best-practices/index.md

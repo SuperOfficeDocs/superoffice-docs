@@ -1,12 +1,3 @@
 items:
 - name: Admin
   href: overview.md
-  items:
-  - name: License
-    topicHref: license/expander-services/index.md
-    items:
-    - name: Expander services
-      href: license/expander-services/index.md
-      items:
-      - name: Tool box
-        href: license/expander-services/tool-box.md

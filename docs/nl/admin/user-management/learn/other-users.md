@@ -80,6 +80,6 @@ Als een anonieme gebruiker of een systeemgebruiker geen aanmeldrechten meer mag 
 4. Klik op de knop **Verwijderen**. De gebruiker wordt verwijderd uit de lijst.
 
 <!-- Referenced links -->
-[1]: ../../../../en/admin/license/expander-services/index.md
+[1]: ../../license/expander-services.md
 
 <!-- Referenced images -->

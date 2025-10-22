@@ -1,3 +1,3 @@
 ---
-uid: help-en-license-activate
+redirect_url: https://docs.superoffice.com/en/admin/license/activate.html
 ---

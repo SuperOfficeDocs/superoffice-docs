@@ -198,7 +198,7 @@ Du bør ta høyde for denne fleksibiliteten når du integrerer funksjoner og def
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
-[5]: expander-services/index.md
+[5]: expander-services.md
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md

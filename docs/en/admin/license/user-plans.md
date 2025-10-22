@@ -3,7 +3,6 @@ uid: help-en-user-plans
 title: User plans
 description: SuperOffice user plans and subscriptions
 keywords: user plan, license, essential, premium
-author: Christian Mogensen, Bergfrid Dias
 author: digitaldiina, xt1
 date: 10.22.2025
 version: 11.5
@@ -199,7 +198,7 @@ You should keep this flexibility in mind when integrating with specific features
 [2]: https://www.superoffice.com/crm/marketing-features/
 [3]: https://www.superoffice.com/crm/sales-features/
 [4]: https://www.superoffice.com/crm/service-features/
-[5]: expander-services/index.md
+[5]: expander-services.md
 [6]: https://community.superoffice.com/en/learning/best-practices-tips/standard-crm/nebula-synchronizer/
 [7]: ../../ai/learn/index.md
 [8]: ../../../../release-notes/9.2/cep/9.2-R01-update.md
