@@ -3,3 +3,5 @@ items:
   href: index.md
 - name: Aktivera licens
   href: activate.md
+- name: Användarplaner
+  href: user-plans.md

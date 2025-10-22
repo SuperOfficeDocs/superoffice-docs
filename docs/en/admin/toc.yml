@@ -3,10 +3,8 @@ items:
   href: overview.md
   items:
   - name: License
-    topicHref: license/user-plans.md
+    topicHref: license/expander-services/index.md
     items:
-    - name: User plans
-      href: license/user-plans.md
     - name: Expander services
       href: license/expander-services/index.md
       items:

@@ -183,7 +183,7 @@ The same SCIM caveat applies: count the number of user plans in use, rather than
 [1]: activate.md
 [2]: ../../saint/learn/index.md
 [3]: ../onsite/add-system-events.md
-[4]: ../../../en/admin/license/user-plans.md
+[4]: user-plans.md
 [6]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
 [7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 [11]: ../../database/tables/ModuleOwner.md

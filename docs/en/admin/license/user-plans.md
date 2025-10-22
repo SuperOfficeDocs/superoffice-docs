@@ -1,15 +1,21 @@
 ---
-uid: user-plans
+uid: help-en-user-plans
 title: User plans
 description: SuperOffice user plans and subscriptions
 keywords: user plan, license, essential, premium
 author: Christian Mogensen, Bergfrid Dias
-date: 04.23.2024
-version: 10.3.5
+author: digitaldiina, xt1
+date: 10.22.2025
+version: 11.5
 content_type: concept
 deployment: online
 platform: web
+category: Settings and maintenance
+topic: licenses
+audience: settings
+audience_tooltip: Settings and maintenance
 index: true
+language: no
 ---
 
 # SuperOffice user plans and subscriptions
