@@ -15,6 +15,8 @@ index: true
 redirect_from: 
   - /en/admin/license/learn/screen/index
   - /en/admin/license/learn/index
+  - /en/admin/overview
+  - /en/learn/administration
 language: en
 ---
 

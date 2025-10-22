@@ -13,7 +13,10 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 language: nl
-redirect_from: /nl/admin/license/learn/screen/index
+redirect_from: 
+  - /nl/admin/license/learn/screen/index
+  - /nl/admin/license/learn/index
+  - /nl/learn/administration
 ---
 
 # SuperOffice en licenties

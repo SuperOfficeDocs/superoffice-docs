@@ -16,6 +16,7 @@ language: da
 redirect_from: 
   - /da/admin/license/learn/screen/index
   - /da/admin/license/learn/index
+  - /da/learn/administration
 ---
 
 # SuperOffice og licenser

@@ -16,6 +16,7 @@ language: no
 redirect_from: 
   - /no/admin/license/learn/screen/index
   - /no/admin/license/learn/index
+  - /no/learn/administration
 ---
 
 # SuperOffice og lisenser

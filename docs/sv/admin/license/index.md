@@ -16,6 +16,7 @@ language: sv
 redirect_from: 
   - /sv/admin/license/learn/screen/index
   - /sv/admin/license/learn/index
+  - /sv/learn/administration
 ---
 
 # SuperOffice och licenser

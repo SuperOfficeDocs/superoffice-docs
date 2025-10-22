@@ -16,6 +16,7 @@ language: de
 redirect_from: 
   - /de/admin/license/learn/screen/index
   - /de/admin/license/learn/index
+  - /de/learn/administration
 ---
 
 # SuperOffice und Lizenzen
