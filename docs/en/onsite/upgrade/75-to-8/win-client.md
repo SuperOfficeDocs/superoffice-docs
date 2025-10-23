@@ -15,9 +15,9 @@ platform: win
 
 Check the system requirements for the SuperOffice 8 Windows App. In SuperOffice 8 the user needs a Windows App license to be able to log in to the Windows client. [Read more][1].
 
-Maintenance and settings is only accessible from the [Admin client web][3].
+Maintenance and settings is only accessible from the Admin client web.
 
-Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the [Admin client windows][3]. Here you also find a section called *Options* where you can set automatic updates of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. [Read more][2].
+Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the Admin client windows. Here you also find a section called *Options* where you can set automatic updates of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. [Read more][2].
 
 Make sure the [system requirements][8] for the computer are met.
 
@@ -52,7 +52,7 @@ Since you are upgrading the client on a computer, there is information you can u
 
 2. Open the file path to where the server installation is - in file explorer
 
-    1. Open the Run dialog (open it either from the Windows Start menu, choose **Run** or press Windows-key + R.
+    1. Open the Run dialog (open it either from the Windows Start menu, choose **Run** or press Windows-key + R).
     2. Paste or write the address for CentralPath and click **OK**.
 
     ![run_centralpath -screenshot][img3]
@@ -68,7 +68,6 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 <!-- Referenced links -->
 [1]: ../../../contact/dev/index.md#associate
 [2]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
-[3]: ../../../admin/overview.md
 [5]: ../../install/guide.md
 [6]: ../../install/win-client/index.md
 [7]: ../../config/index.md

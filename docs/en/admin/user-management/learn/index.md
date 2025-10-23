@@ -161,7 +161,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 <!-- Referenced links -->
 [1]: role/index.md
 [2]: add-associate.md
-[3]: change-user-plan.md
+[3]: ../../license/change-user-plan.md
 [4]: role/edit-rights-for-anonymous-users.md
 [6]: user-groups.md
 [7]: role/functional-rights.md

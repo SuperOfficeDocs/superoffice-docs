@@ -8,11 +8,11 @@ items:
     href: ../getting-started/index.md
   - name: Get your users on board
     href: ../getting-started/onboard-users.md
-- name: Adjust views in Settings and maintenance
-  href: adjusting-views.md
-- name: User management
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Adjust views
+  href: ../adjusting-views.md
+- name: Licenses
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Preferences
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
@@ -27,9 +27,9 @@ items:
   - name: Reference
     href: ../user-preferences/reference/toc.yml
     topicHref: ../user-preferences/reference/appointment-dialog.md
-- name: Licenses
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+- name: User management
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

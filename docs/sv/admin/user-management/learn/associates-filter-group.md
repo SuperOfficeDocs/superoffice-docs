@@ -61,4 +61,4 @@ Du kan gruppera användarlistan efter roll, användarplan, primärgrupp och likn
 > Om du navigerar till en annan flik återställs grupperingen.
 
 <!-- Referenced links -->
-[1]: ../../learn/adjusting-views.md
+[1]: ../../adjusting-views.md

@@ -80,6 +80,6 @@ Om en anonym användare eller systemanvändare inte längre ska kunna logga in i
 4. Klicka på knappen **Ta bort**. Användaren tas bort från listan.
 
 <!-- Referenced links -->
-[1]: ../../../../en/admin/license/expander-services/index.md
+[1]: ../../license/expander-services.md
 
 <!-- Referenced images -->

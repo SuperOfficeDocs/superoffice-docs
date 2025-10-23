@@ -151,7 +151,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [1]: import-users.md
 [2]: visibility.md
 [3]: role/index.md
-[4]: change-user-plan.md
+[4]: ../../license/change-user-plan.md
 [5]: other-users.md
 [7]: ../../../learn/getting-started/login.md
 [9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003

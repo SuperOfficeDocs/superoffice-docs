@@ -78,7 +78,7 @@ items:
     href: ../customization/learn/toc.yml
     topicHref: ../customization/index.yml
 
-  - name: Administrasjon og systeminnstillinger
+  - name: Innstillinger og vedlikehold
     href: ../admin/learn/toc.yml
     topicHref: ../admin/index.yml
 

@@ -80,6 +80,6 @@ Wenn sich ein anonymer Benutzer oder ein Systembenutzer nicht mehr beim System a
 4. Klicken Sie auf die Schaltfläche **Löschen**. Der Benutzer wird von der Liste entfernt.
 
 <!-- Referenced links -->
-[1]: ../../../../en/admin/license/expander-services/index.md
+[1]: ../../license/expander-services.md
 
 <!-- Referenced images -->

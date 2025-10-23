@@ -1,0 +1,11 @@
+items:
+- name: Inleiding
+  href: index.md
+- name: Licentie activeren
+  href: activate.md
+- name: Gebruikersplannen
+  href: user-plans.md
+- name: Gebruikersplan wijzigen
+  href: change-user-plan.md
+- name: Expander services
+  href: expander-services.md

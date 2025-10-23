@@ -8,20 +8,20 @@ items:
     href: ../getting-started/index.md
   - name: Få dine brugere med ombord
     href: ../getting-started/onboard-users.md
-- name: Juster visninger i Indstillinger og vedligeholdelse
-  href: adjusting-views.md
-- name: Brugerstyring
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Juster visninger
+  href: ../adjusting-views.md
+- name: Licenser
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Præferencer
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
 - name: Indstillinger
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: Licenser
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+- name: Brugerstyring
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

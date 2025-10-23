@@ -8,20 +8,20 @@ items:
     href: ../getting-started/index.md
   - name: Få brukerne dine med på laget
     href: ../getting-started/onboard-users.md
-- name: Juster visninger i Innstillinger og vedlikehold
-  href: adjusting-views.md
-- name: Brukeradministrasjon
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Juster visninger
+  href: ../adjusting-views.md
+- name: Lisenser
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Preferanser
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
 - name: Systemvalg
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: Lisenser
-  href: ../license/learn/toc.yml
-  topicHref: ../license/learn/index.md
+- name: Brukeradministrasjon
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

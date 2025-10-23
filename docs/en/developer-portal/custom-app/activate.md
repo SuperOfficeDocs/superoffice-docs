@@ -39,7 +39,7 @@ You can [change the application configuration][5] in the Developer Portal.
 
 <!-- Referenced links -->
 [1]: validate.md
-[2]: ../../admin/license/expander-services/index.md
+[2]: ../../admin/license/expander-services.md
 [3]: ../provisioning/index.md
 [5]: ../faq/update-app.md
 [6]: ../../online/sandbox/index.md
