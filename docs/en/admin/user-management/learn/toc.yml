@@ -8,7 +8,7 @@ items:
   - name: Filter and group users
     href: associates-filter-group.md
   - name: Edit or delete associate
-    href: update-user.md
+    href: ../update-user.md
   - name: Manage anonymous and system users
     href: other-users.md
   - name: Manage external users
@@ -16,7 +16,7 @@ items:
   - name: Log users off
     href: logging-users-off.md
   - name: Our companies
-    href: our-companies.md
+    href: ../our-companies.md
   - name: Manage user groups
     href: user-groups.md
   - name: Role
