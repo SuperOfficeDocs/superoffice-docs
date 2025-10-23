@@ -4,7 +4,7 @@ items:
   - name: Add SuperOffice user
     href: ../add-associate.md
   - name: Import users from AD
-    href: import-users.md
+    href: ../import-users.md
   - name: Filter and group users
     href: associates-filter-group.md
   - name: Edit user

@@ -9,7 +9,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/admin/user-management/add-associate
+redirect_from: /en/admin/user-management/learn/add-associate
 ---
 
 # Add users
@@ -156,7 +156,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md
 [6]: update-user.md
-[7]: ../../../learn/getting-started/login.md
+[7]: ../../learn/getting-started/login.md
 [9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003
 
 <!-- Referenced images -->
