@@ -24,27 +24,21 @@ language: en
 
     ![Zapier: Create a new Zap -screenshot][img1]
 
-1. Create your **Trigger** by clicking on it. It can be an action in Google Sheets or another action in external systems or a part of SuperOffice.
+1. Create your **Trigger** by clicking on it.
 
     ![Zapier: Create your trigger -screenshot][img2]
 
+    You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
+
+    
+    ![Zapier: Select your action -screenshot][img3]
+
 1. Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
 
-    ![Zapier: Select your action -screenshot][img3]
 
 1. A side menu will open, in the **Action event** section, select **Find Request**, then click the **Account** section and log in using your SuperOffice account.
 
     ![Set up your action -screenshot][img4]
-
-1. Click on the **Continue** button at the bottom of the side panel and you will be taken to the **Configure** step.
-
-1. Fill out the mandatory fields **Search Criteria** and **Search Value** and optionally other fields.
-
-    ![Fill out your action -screenshot][img5]
-
-1. Check that the action works by clicking **Test step**.
-
-    ![Zapier: Verify -screenshot][img6]
 
 ## Related content
 
@@ -60,5 +54,3 @@ language: en
 [img2]: media/new-zap-window.png
 [img3]: media/search-superoffice-in-zapier.png
 [img4]: media/search-for-create-request-action.png
-[img5]: media/find-request-window.png
-[img6]: media/retrieved-request.png
