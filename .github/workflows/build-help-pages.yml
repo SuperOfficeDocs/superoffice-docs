@@ -42,9 +42,9 @@ jobs:
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
           cd build-docs
-          ls -la
+          pwd
           cd api-reference
-          ls -la
+          pwd
           git pull --rebase
           
       - name: Build Documentation
