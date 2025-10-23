@@ -42,17 +42,8 @@ jobs:
           git clone "https://${TOKEN}@github.com/SuperOfficeDocs/build-docs.git"
           ls -la
           cd build-docs
-          
           # Initialize and update submodules
           git submodule update --init --recursive
-          # Go into the submodule
-          cd api-reference
-          # Checkout the correct branch
-          git checkout master
-          pwd
-          git branch --show-current
-          ls -la
-          
       - name: Build Documentation
         uses: nikeee/docfx-action@master
         with:
