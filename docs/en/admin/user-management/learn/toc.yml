@@ -7,19 +7,15 @@ items:
     href: ../import-users.md
   - name: Filter and group users
     href: associates-filter-group.md
-  - name: Edit user
+  - name: Edit or delete associate
     href: update-user.md
-  - name: Move user
-    href: move-user.md
-  - name: Delete user
-    href: delete-user.md
   - name: Manage anonymous and system users
     href: other-users.md
   - name: Manage external users
     href: managing-external-users.md
   - name: Log users off
     href: logging-users-off.md
-  - name: Add/remove company in Our companies
+  - name: Our companies
     href: our-companies.md
   - name: Manage user groups
     href: user-groups.md

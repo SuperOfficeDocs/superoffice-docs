@@ -2,32 +2,52 @@
 uid: help-no-user-update
 title: Redigere brukerinformasjon
 description: Redigere medarbeider
-author: Bergfrid Dias
-date: 03.27.2023
 keywords: bruker, medarbeider
+author: digitaldiina
+date: 10.24.2025
+version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
+redirect_from: /no/admin/user-management/learn/delete-user
 ---
 
 # Oppdatere brukerinformasjon
 
-## Redigere medarbeider
+For å oppdatere, flytte eller slette en bruker (assosiert), må du først velge brukeren på fanen **Brukere**.
 
 1. [!include[Click Users](includes/goto-users.md)]
 
-2. Velg fanen **Medarbeidere**.
+1. Velg fanen **Medarbeidere**.
 
-3. [!include[Select user](includes/select-user.md)]
+1. [!include[Select user](includes/select-user.md)]
 
-4. Gjør endringene, og klikk deretter på **Lagre**.
+## Redigere medarbeider
 
-## Relatert
+1. Gjør endringene.
 
-* [Redigere anonym bruker eller systembruker (onsite)][1]
+1. Klikk deretter på **Lagre**.
+
+## <a id="delete"></a>Slette medarbeider
+
+1. Klikk på **Slett**-knappen. Du kan ikke slette brukeren du er pålogget som.
+
+1. Merk av for ønsket alternativ i dialogboksen **Fjern bruker**.
+
+    * Fjerne brukerlisenser
+    * Merke medarbeider som tidligere ansatt
+    * Slette medarbeider [login ID]
+    * Slette medarbeider [login ID] og person [full name]
+
+    > [!NOTE]
+    > Disse alternativene er rangert etter alvorlighetsgrad. Klikk på et alternativ for å vise en beskrivelse av hva som skjer når du sletter brukeren.
+
+1. Klikk på **OK**.
+
+## Relatert innhold
+
+* [Redigere eller slette anonym bruker eller systembruker (onsite)][1]
 
 <!-- Referenced links -->
 [1]: other-users.md
-
-<!-- Referenced images -->

@@ -10,39 +10,33 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: de
 platform: web
+redirect_from: /de/admin/user-management/learn/move-user
 ---
 
-# "Unsere Firmen" verwalten
+# Unsere Firmen verwalten
 
-## Voraussetzungen
-
-Damit Sie ein Unternehmen zur Registerkarte **Unsere Firmen** hinzufügen können, muss es als Firma in SuperOffice CRM erfasst werden.
-
-Damit eine Firma von der Registerkarte **Unsere Firmen** gelöscht werden kann, müssen folgende Bedingungen erfüllt sein:
-
-* Für die Firma dürfen keine Mitarbeiter registriert sein. Die Anzahl der Mitarbeiter wird in der Firmenliste in der Spalte **Mitarbeiter** angezeigt. Wenn Sie eine Firma löschen möchten, müssen Sie zunächst [erfasste Mitarbeiter löschen][2].
-
-* Die Firma darf kein aktiver Satellit sein. Überprüfen Sie, ob die Firma in der Spalte in der Firmenliste **Aktiver Satellit** aufgeführt ist.
+Im Bildschirm Benutzer unter Einstellungen und Wartung können Sie Unsere Firmen verwalten und Benutzer zwischen ihnen verschieben.
 
 ## Firma in der Registerkarte Unsere Firmen hinzufügen
 
-1. Öffnen Sie die Ansicht Benutzer.
+Voraussetzungen: Damit Sie ein Unternehmen zur Registerkarte **Unsere Firmen** hinzufügen können, muss es als Firma in SuperOffice CRM erfasst werden.
 
-2. Wählen Sie die Registerkarte **Unsere Firmen**.
+1. Wählen Sie die Registerkarte **Unsere Firmen**.
 
-3. Klicken Sie unter der Firmenliste auf die Schaltfläche **Hinzu**.
+1. Klicken Sie unter der Firmenliste auf die Schaltfläche **Hinzu**.
 
-4. Die Ansicht Suchen wird geöffnet. Wenn bereits Suchkriterien eingegeben wurden, Sie diese aber nicht verwenden möchten, klicken Sie auf die Schaltfläche **Alle deaktivieren**, um sie zu entfernen, oder deaktivieren Sie die Kontrollkästchen für die entsprechenden Kriterien.
+1. Die Ansicht Suchen wird geöffnet. Wenn bereits Suchkriterien eingegeben wurden, Sie diese aber nicht verwenden möchten, klicken Sie auf die Schaltfläche **Alle deaktivieren**, um sie zu entfernen, oder deaktivieren Sie die Kontrollkästchen für die entsprechenden Kriterien.
 
-5. Suchen Sie nach einer Firma. Für weitere Details siehe unten.
+1. Suchen Sie nach einer Firma. Für weitere Details siehe unten.
 
-6. Klicken Sie nach Auswahl der gewünschten Firma auf **OK**. Die Firma wird nun in der Liste angezeigt.
+1. Klicken Sie nach Auswahl der gewünschten Firma auf **OK**. Die Firma wird nun in der Liste angezeigt.
 
 ## Firma aus der Registerkarte Unsere Firmen löschen
 
-1. Überprüfen Sie, ob die oben genannten Kriterien erfüllt werden.
+1. Überprüfen Sie, ob diese Kriterien erfüllt werden:
 
-1. Öffnen Sie die Ansicht Benutzer.
+    * Für die Firma dürfen keine Mitarbeiter registriert sein. Die Anzahl der Mitarbeiter wird in der Firmenliste in der Spalte **Mitarbeiter** angezeigt. Wenn Sie eine Firma löschen möchten, müssen Sie zunächst [erfasste Mitarbeiter löschen][2].
+    * Die Firma darf kein aktiver Satellit sein. Überprüfen Sie, ob die Firma in der Spalte in der Firmenliste **Aktiver Satellit** aufgeführt ist.
 
 1. Wählen Sie die Registerkarte **Unsere Firmen**.
 
@@ -52,6 +46,25 @@ Damit eine Firma von der Registerkarte **Unsere Firmen** gelöscht werden kann, 
 
 > [!NOTE]
 > Sie können eine Firma nicht löschen, wenn sie als Datenbank-Besitzer registriert ist. Wenn Sie den Datenbank-Besitzer auswählen, ist die Schaltfläche **Löschen** deaktiviert.
+
+## <a id="move"></a>Benutzer von einer Firma in eine andere verschieben
+
+Sie können einen Benutzer von einer Firma zu einer anderen verschieben, wenn Ihre Organisation aus mehreren Firmen besteht, die in der Registerkarte Unsere Firmen registriert sind. Wenn ein Benutzer unter der falschen Firma konfiguriert wurde oder die Position/Jobs innerhalb der Organisation gewechselt hat, kann er mitsamt seinen Aktivitäten und Verkäufen verschoben werden.
+
+1. Gähen Sie zur Registerkarte **Mitarbeiter** und wählen Sie den gewünschten Benutzer in der Liste aus.
+
+1. Klicken Sie auf **Aufgabe** und wählen Sie **Benutzer verschieben**.
+
+1. Wählen Sie im Dialogfeld **Verschieben in** und dann die Firma aus, zu der die Person verschoben werden soll.
+
+1. Wählen Sie unter **Aktion für alle vorhandenen Aktivitäten und Verkäufe** eine der folgenden Optionen:
+
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    > [!NOTE]
+    > Um die Ergebnisse anzuzeigen, bevor Sie die Aktion bestätigen, müssen Sie auf <i class="ph ph-info" aria-label="Ergebnisse anzeigen"></i> klicken.
+
+1. Klicken Sie auf **Verschieben**. Der Benutzer wird zur die angegebenen Firma verschoben.
 
 ## Wie suche ich nach einer Firma?
 
@@ -85,6 +98,6 @@ Die Felder unten entsprechen den Feldern auf der Firmenkarte.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: delete-user.md
+[2]: update-user.md#delete
 
 <!-- Referenced images -->

@@ -7,19 +7,15 @@ items:
     href: import-users.md
   - name: Filtrera och gruppera användare
     href: associates-filter-group.md
-  - name: Redigera användare
+  - name: Redigera eller ta bort användare
     href: update-user.md
-  - name: Flytta användare
-    href: move-user.md
-  - name: Ta bort användare
-    href: delete-user.md
   - name: Hantera anonyma användare och systemanvändare
     href: other-users.md
   - name: Hantera externa användare
     href: managing-external-users.md
   - name: Logga ut användare
     href: logging-users-off.md
-  - name: Lägga till/ta bort företag i Våra företag
+  - name: Våra företag
     href: our-companies.md
   - name: Hantera användargrupper
     href: user-groups.md

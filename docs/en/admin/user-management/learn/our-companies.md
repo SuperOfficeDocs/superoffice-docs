@@ -8,41 +8,35 @@ keywords: user, our companies
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
 platform: web
+language: en
+redirect_from: /en/admin/user-management/learn/move-user
 ---
 
 # Manage "Our companies"
 
-## Pre-requisites
-
-To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice.
-
-To delete companies in the **Our companies** tab, the following two criteria must be satisfied:
-
-* The company must not have any associates registered. The number of associates is displayed in the **Associates** column in the company list. To delete a company, you must first [delete the registered associates][2].
-
-* The company cannot be an active satellite. Check if the company is listed in the **Active satellite** column in the company list.
+You can manage "Our companies" and move users between them in the Users screen in Settings and maintenance.
 
 ## Add company in the Our companies tab
 
-1. Open the Users screen.
+Pre-requisite: To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice.
 
-2. Select the **Our companies** tab.
+1. Select the **Our companies** tab.
 
-3. Click the **Add** button below the company list.
+1. Click the **Add** button below the company list.
 
-4. The Find screen opens. If there are already search criteria entered, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
+1. The Find screen opens. If there are already search criteria entered, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
 
-5. Search for a company. See details below.
+1. Search for a company. See details below.
 
-6. When you have selected the company you require and clicked **OK**, it is displayed in the list.
+1. When you have selected the company you require and clicked **OK**, it is displayed in the list.
 
 ## Delete company in the Our companies tab
 
-1. Check that the above criteria are met.
+1. Check that the criteria are met:
 
-1. Open the Users screen.
+    * The company must not have any associates registered. The number of associates is displayed in the **Associates** column in the company list. To delete a company, you must first [delete the registered associates][2].
+    * The company cannot be an active satellite. Check if the company is listed in the **Active satellite** column in the company list.
 
 1. Select the **Our companies** tab.
 
@@ -52,6 +46,25 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
 > [!NOTE]
 > You cannot delete the company if it is registered as a database owner. If you select a database owner, the **Delete** button is disabled.
+
+## <a id="move"></a>Move user from one company to another
+
+You can move a user from one company to another, if your organization consists of multiple companies registered in the **Our companies** tab. If a user was set up under the wrong company, or if they have changed positions/jobs within your organization, they can be moved, including their activities and sales.
+
+1. Go to the **Associates** tab and select the required user from the list.
+
+1. Click **Task** and select **Move user**.
+
+1. In the dialog, select **Move to** and choose the company you want to move the contact to.
+
+1. Select one of the following under **Action on all existing activities and sales**:
+
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    > [!NOTE]
+    > To see the results before you confirm the action, click **Show results** <i class="ph ph-info" aria-hidden="true"></i>.
+
+1. Click **Move**. The user is moved to the specified company.
 
 ## How do I search for a company?
 
@@ -85,6 +98,6 @@ The fields below correspond to the fields on the company card.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: delete-user.md
+[2]: update-user.md#delete
 
 <!-- Referenced images -->

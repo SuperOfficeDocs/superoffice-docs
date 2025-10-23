@@ -7,41 +7,35 @@ date: 03.15.2023
 keywords: bruker, våre firmaer
 content_type: howto
 audience: settings
-language: no
 platform: web
+language: no
+redirect_from: /no/admin/user-management/learn/move-user
 ---
 
 # Vedlikeholde Våre firmaer
 
-## Forutsetninger
-
-For at et firma skal kunne legges til i fanen **Våre firmaer**, må det først være registrert som firma i SuperOffice.
-
-For at du skal kunne slette firmaer fra fanen **Våre firmaer**, må følgende to kriterier være oppfylt:
-
-* Det kan ikke være registrert noen medarbeidere på firmaet. Antall medarbeidere vises i kolonnen **Medarbeidere** på firmalisten. Hvis du vil slette et firma, må du først [slette de registrerte medarbeiderne][2].
-
-* Firmaet kan ikke være en aktiv satellitt. Undersøk om firmaet er oppført i kolonnen **Aktiv satellitt** i firmalisten.
+Du kan administrere "Våre firmaer" og flytte brukere mellom dem i Bruker-bildet under Innstillinger og vedlikehold.
 
 ## Legge til firma i fanen Våre firmaer
 
-1. Åpne skjermbildet Brukere.
+Forutsetninger: For at et firma skal kunne legges til i fanen **Våre firmaer**, må det først være registrert som firma i SuperOffice.
 
-2. Velg fanen **Våre firmaer**.
+1. Velg fanen **Våre firmaer**.
 
-3. Klikk på **Legg til**-knappen under firmalisten.
+1. Klikk på **Legg til**-knappen under firmalisten.
 
-4. Finn-skjermen åpnes. Hvis det allerede finnes søkekriterier, men du ikke ønsker å bruke akkurat disse, kan du klikke på **Deaktiver alle**-knappen for å deaktivere dem eller fjerne avmerkingen i avmerkingsboksen for de aktuelle kriteriene.
+1. Finn-skjermen åpnes. Hvis det allerede finnes søkekriterier, men du ikke ønsker å bruke akkurat disse, kan du klikke på **Deaktiver alle**-knappen for å deaktivere dem eller fjerne avmerkingen i avmerkingsboksen for de aktuelle kriteriene.
 
-5. Søk etter et firma. Se detaljer under.
+1. Søk etter et firma. Se detaljer under.
 
-6. Når du har valgt ønsket firma og klikket på **OK**, vises firmaet i listen.
+1. Når du har valgt ønsket firma og klikket på **OK**, vises firmaet i listen.
 
 ## Slette firma i fanen Våre firmaer
 
 1. Kontroller at kriteriene ovenfor er oppfylt.
 
-1. Åpne skjermbildet Brukere.
+    * Det kan ikke være registrert noen medarbeidere på firmaet. Antall medarbeidere vises i kolonnen **Medarbeidere** på firmalisten. Hvis du vil slette et firma, må du først [slette de registrerte medarbeiderne][2].
+    * Firmaet kan ikke være en aktiv satellitt. Undersøk om firmaet er oppført i kolonnen **Aktiv satellitt** i firmalisten.
 
 1. Velg fanen **Våre firmaer**.
 
@@ -51,6 +45,25 @@ For at du skal kunne slette firmaer fra fanen **Våre firmaer**, må følgende t
 
 > [!NOTE]
 > Du kan ikke slette firmaet som er registrert som databaseeier. Hvis du velger en databaseeier, er **Slett**-knappen deaktivert.
+
+## <a id="move"></a>Flytte bruker fra ett firma til et annet
+
+Du kan flytte en bruker fra ett firma til et annet hvis organisasjonen består av flere firmaer som er registrert i fanen Våre firmaer. Hvis brukere blir registrert under feil firma, eller hvis de har byttet stilling/jobb i organisasjonen, kan de flyttes, inkludert aktivitetene og salgene deres.
+
+1. Velg fanen **Medarbeidere** og merk ønsket bruker i oversikten.
+
+1. Klikk på **Oppgave** og velg **Flytt bruker**.
+
+1. Gå til **Flytt til** i dialogboksen, og velg firmaet du vil flytte personen til.
+
+1. Velg ett av følgende under **Handling på alle eksisterende aktiviteter og salg**:
+
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    > [!NOTE]
+    > For å se resultatene før du bekrefter handlingen, klikk på <i class="ph ph-info" aria-hidden="true"></i>.
+
+1. Klikk på **Flytt**. Brukeren flyttes til det bestemte firmaet.
 
 ## Hvordan søker jeg etter et firma?
 
@@ -84,6 +97,6 @@ Feltene nedenfor tilsvarer feltene på firmakortet.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: delete-user.md
+[2]: update-user.md#delete
 
 <!-- Referenced images -->

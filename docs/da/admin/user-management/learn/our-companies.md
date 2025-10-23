@@ -10,39 +10,33 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 platform: web
+redirect_from: /da/admin/user-management/learn/move-user
 ---
 
 # Administration af "Vores firmaer"
 
-## Forudsætninger
-
-For at tilføje et firma under fanen **Vores firmaer** skal det først registreres som et firma i SuperOffice.
-
-For at du kan slette firmaer under fanen **Vores firmaer**, skal følgende to kriterier være opfyldt:
-
-* Der må ikke være registreret medarbejdere på firmaet. Antal medarbejdere vises i kolonnen **Medarbejdere** på firmalisten. Hvis du vil slette et firma, skal du først [slette de registrerede medarbejdere][2].
-
-* Firmaet må ikke være en aktiv satellit. Kontroller, om firmaet er opført i kolonnen **Aktiv satellit** på virksomhedslisten.
+Du kan administrere "Vores firmaer" og flytte brugere mellem dem i skærmbilledet Brugere under Indstillinger og vedligeholdelse.
 
 ## Tilføjelse af firma i fanen Vores firmaer
 
-1. Åbn skærmbilledet Brugere.
+Forudsætninger: For at tilføje et firma under fanen **Vores firmaer** skal det først registreres som et firma i SuperOffice.
 
-2. Vælg fanen **Vores firmaer**.
+1. Vælg fanen **Vores firmaer**.
 
-3. Klik på knappen **Tilføj** under virksomhedslisten.
+1. Klik på knappen **Tilføj** under virksomhedslisten.
 
-4. Skærmbilledet Find åbnes. Hvis der allerede er indtastet søgekriterier, men det ikke er dem, du vil bruge, skal du klikke på knappen **Deaktiver alle** for at fjerne dem eller fjerne markeringerne fra afkrydsningsfelterne for de relevante kriterier.
+1. Skærmbilledet Find åbnes. Hvis der allerede er indtastet søgekriterier, men det ikke er dem, du vil bruge, skal du klikke på knappen **Deaktiver alle** for at fjerne dem eller fjerne markeringerne fra afkrydsningsfelterne for de relevante kriterier.
 
-5. Søg efter et firma. Se detaljer nedenunder.
+1. Søg efter et firma. Se detaljer nedenunder.
 
-6. Når du har valgt det firma, du har brug for, og har klikket på **OK,**, vises det på listen.
+1. Når du har valgt det firma, du har brug for, og har klikket på **OK,**, vises det på listen.
 
 ## Sletning af firma i fanen Vores firmaer
 
-1. Kontroller, at ovenstående kriterier er opfyldt.
+1. Kontroller, at følgende kriterier er opfyldt:
 
-1. Åbn skærmbilledet Brugere.
+    * Der må ikke være registreret medarbejdere på firmaet. Antal medarbejdere vises i kolonnen **Medarbejdere** på firmalisten. Hvis du vil slette et firma, skal du først [slette de registrerede medarbejdere][2].
+    * Firmaet må ikke være en aktiv satellit. Kontroller, om firmaet er opført i kolonnen **Aktiv satellit** på virksomhedslisten.
 
 1. Vælg fanen **Vores firmaer**.
 
@@ -52,6 +46,25 @@ For at du kan slette firmaer under fanen **Vores firmaer**, skal følgende to kr
 
 > [!NOTE]
 > Du kan ikke slette firmaet, hvis det er registreret som databaseejer. Hvis du vælger en databaseejer, deaktiveres knappen **Slet**.
+
+## <a id="move"></a>Flyt bruger fra et firma til et andet
+
+Du kan flytte en bruger fra et firma til et andet, hvis din organisation består af flere firmaer, der er registreret på fanen [Vores firmaer][2]. Hvis en bruger blev konfigureret under det forkerte firma, eller hvis brugeren har skiftet stilling/job i organisationen, kan brugeren flyttes, herunder brugerens aktiviteter og salg.
+
+1. Gå til fanen **Medarbejdere** og marker den ønskede bruger på listen.
+
+1. Klik på **Opgave**, og vælg **Flyt bruger**.
+
+1. Vælg i dialogboksen **Flyt til**, og vælg det firma, du vil flytte personen til.
+
+1. Vælg et af følgende **Handling på alle eksisterende aktiviteter og salg**:
+
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    > [!NOTE]
+    > Hvis du vil se resultaterne, før du bekræfter handlingen, skal du klikke på <i class="ph ph-info" aria-label="Vis resultater"></i>.
+
+1. Klik på **Flyt**. Brugeren flyttes til det angivne firma.
 
 ## Hvordan søger jeg efter et firma?
 
@@ -85,6 +98,6 @@ Felterne nedenfor svarer til felterne på firmakortet.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: delete-user.md
+[2]: update-user.md#delete
 
 <!-- Referenced images -->

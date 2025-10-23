@@ -7,19 +7,15 @@ items:
     href: import-users.md
   - name: Benutzer filtern und gruppieren
     href: associates-filter-group.md
-  - name: Benutzer bearbeiten
+  - name: Benutzer bearbeiten oder löschen
     href: update-user.md
-  - name: Benutzer verschieben
-    href: move-user.md
-  - name: Benutzer löschen
-    href: delete-user.md
   - name: Anonyme und Systembenutzer verwalten
     href: other-users.md
   - name: Externe Benutzer verwalten
     href: managing-external-users.md
   - name: Benutzer abmelden
     href: logging-users-off.md
-  - name: Unternehmen in Unsere Firmen hinzufügen/entfernen
+  - name: Unsere Firmen
     href: our-companies.md
   - name: Benutzergruppen verwalten
     href: user-groups.md

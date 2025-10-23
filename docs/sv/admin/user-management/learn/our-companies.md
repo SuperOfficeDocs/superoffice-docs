@@ -1,6 +1,6 @@
 ---
 uid: help-sv-our-companies-manage
-title: "Hantera 'Våra företag'"
+title: Hantera 'Våra företag'
 description: Så lägger du till och tar bort företag på fliken Våra företag
 author: Bergfrid
 date: 03.15.2023
@@ -10,39 +10,33 @@ audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 platform: web
+redirect_from: /sv/admin/user-management/learn/move-user
 ---
 
 # Hantera "Våra företag"
 
-## Krav
-
-Innan du kan lägga till ett företag på fliken **Våra företag** måste det registreras som ett företag i SuperOffice.
-
-Innan du kan ta bort företag från fliken **Våra företag** måste följande kriterier vara uppfyllda:
-
-* Det får inte finnas några medarbetare registrerade på företaget. Antal medarbetare visas i kolumnen **Medarbetare** i företagslistan. Om du vill ta bort ett företag måste du först [ta bort de registrerade medarbetarna][2].
-
-* Företaget kan inte vara en aktiv satellit. Kontrollera om företaget finns med i kolumnen **Aktiv satellit** i företagslistan.
+Du kan hantera "Våra företag" och flytta användare mellan dem i vyn Användare under Inställningar och underhåll.
 
 ## Lägg till företag på fliken Våra företag
 
-1. Öppna fönstret Användare.
+Krav: Innan du kan lägga till ett företag på fliken **Våra företag** måste det registreras som ett företag i SuperOffice.
 
-2. Välj fliken **Våra företag**.
+1. Välj fliken **Våra företag**.
 
-3. Klicka på knappen **Lägg till** under företagslistan.
+1. Klicka på knappen **Lägg till** under företagslistan.
 
-4. Fönstret Sök öppnas. Om sökkriterier redan har valts, men inte de sökkriterier du vill använda, tar du bort dem genom att klicka på knappen **Inaktivera alla** eller avmarkera kryssrutorna för de aktuella kriterierna.
+1. Fönstret Sök öppnas. Om sökkriterier redan har valts, men inte de sökkriterier du vill använda, tar du bort dem genom att klicka på knappen **Inaktivera alla** eller avmarkera kryssrutorna för de aktuella kriterierna.
 
-5. Sök efter ett företag. Läs mer nedan.
+1. Sök efter ett företag. Läs mer nedan.
 
-6. När du har valt önskat företag och klickat på **OK** visas företaget i listan.
+1. När du har valt önskat företag och klickat på **OK** visas företaget i listan.
 
 ## Ta bort företag på fliken Våra företag
 
-1. Kontrollera att kriterierna ovan är uppfyllda.
+1. Kontrollera att kriterierna är uppfyllda:
 
-1. Öppna fönstret Användare.
+    * Det får inte finnas några medarbetare registrerade på företaget. Antal medarbetare visas i kolumnen **Medarbetare** i företagslistan. Om du vill ta bort ett företag måste du först [ta bort de registrerade medarbetarna][2].
+    * Företaget kan inte vara en aktiv satellit. Kontrollera om företaget finns med i kolumnen **Aktiv satellit** i företagslistan.
 
 1. Välj fliken **Våra företag**.
 
@@ -52,6 +46,25 @@ Innan du kan ta bort företag från fliken **Våra företag** måste följande k
 
 > [!NOTE]
 > Du kan inte ta bort ett företag som är registrerat som databasägare. Om du väljer en databasägare är knappen **Ta bort** inaktiverad.
+
+## <a id="move"></a>Flytta användare från ett företag till ett annat
+
+Du kan flytta en användare från ett företag till ett annat om din organisation består av flera företag som är registrerade under fliken **Våra företag**. Om en användare har skapats under fel företag eller har bytt befattning/tjänst i organisationen kan hen flyttas, inklusive aktiviteter och försäljningar.
+
+1. Välj fliken **Medarbetare** och välj önskad användare i listan.
+
+1. Klicka på **Uppgift** och välj **Flytta användare**.
+
+1. Välj **Flytta till** i dialogrutan och välj det företag du vill flytta kontakten till.
+
+1. Välj något av följande under **Åtgärd för alla befintliga aktiviteter och försäljningar**:
+
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    > [!NOTE]
+    > Om du vill se resultaten innan du bekräftar åtgärden klickar du på <i class="ph ph-info" aria-label="Visa resultat"></i>.
+
+1. Klicka på **Flytta**. Användaren flyttas till företaget som du har angett.
 
 ## Hur söker jag efter ett företag?
 
@@ -85,6 +98,6 @@ Fälten nedan motsvarar fälten på företagskortet.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: delete-user.md
+[2]: update-user.md#delete
 
 <!-- Referenced images -->

@@ -124,7 +124,7 @@ Auf der Registerkarte **Benutzerlizenzen** in der Ansicht Benutzer erhalten Sie 
 
 Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie sich einen Überblick über Benutzer und Benutzergruppen verschaffen. Klicken Sie auf einen Gruppennamen in der Liste **Verfügbare Gruppen**, um eine Liste der Benutzer anzuzeigen, die momentan dieser Gruppe zugeordnet sind.
 
-## Zugehörige Inhalte
+## Verwandte Inhalte
 
 * [Ihre Rollen verwalten][1]
 * [Neuen Benutzer hinzufügen][2]

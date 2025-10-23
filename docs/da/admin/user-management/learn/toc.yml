@@ -7,19 +7,15 @@ items:
     href: import-users.md
   - name: Filtrér og gruppér brugere
     href: associates-filter-group.md
-  - name: Rediger bruger
+  - name: Rediger eller slet bruger
     href: update-user.md
-  - name: Flyt bruger
-    href: move-user.md
-  - name: Slet bruger
-    href: delete-user.md
   - name: Vedligehold anonyme brugere og systembrugere
     href: other-users.md
   - name: Håndtering af eksterne brugere
     href: managing-external-users.md
   - name: Log brugere af
     href: logging-users-off.md
-  - name: Tilføj/fjern firma i Vores firmaer
+  - name: Vores firmaer
     href: our-companies.md
   - name: Vedligehold brugergrupper
     href: user-groups.md
