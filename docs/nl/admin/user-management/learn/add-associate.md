@@ -22,12 +22,7 @@ Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met 
 >
 > Deze procedure beschrijft hoe u één gebruiker tegelijk kunt toevoegen. Zie [Gebruikers importeren][1] om meerdere gebruikers toe te voegen.
 
-Volg de begeleide stappen of bekijk de onderstaande video om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOffice CRM (videolengte - 1:46):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
-
-## Een nieuwe SuperOffice CRM-gebruiker toevoegen
+## Stappen
 
 1. Open het scherm Gebruikers.
 2. Selecteer het tabblad **Medewerkers**.
@@ -85,6 +80,16 @@ In het tabblad **Licenties** kunt u extra licenties selecteren, naast de licenti
 ## Kan aanmelden
 
 In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselecteerde gebruiker activeren of deactiveren door op de knop **Kan aanmelden** te klikken. Deze optie wordt standaard geactiveerd wanneer u een gebruikersplan voor de gebruiker selecteert.
+
+## Video: Een nieuwe SuperOffice CRM-gebruiker toevoegen
+
+Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOffice CRM.
+(Deze video toont een eerdere versie van SuperOffice, dus het ontwerp kan er anders uitzien. De stappen zijn hetzelfde.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
+
+(videolengte - 1:46)
 
 ## Gebruiker / medewerker bewerken
 

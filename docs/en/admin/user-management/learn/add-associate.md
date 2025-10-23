@@ -22,12 +22,7 @@ Administrators are responsible for providing new users with a user plan, a usern
 >
 > This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
 
-Follow the guided steps or watch the video below to see how you can add a new user in SuperOffice CRM (video length - 1:46):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
-
-## Add a new SuperOffice CRM user
+## Steps
 
 1. Open the Users screen.
 2. Select the **Associates** tab.
@@ -85,6 +80,16 @@ In the **Licences** tab, you can select licenses in addition to those defined by
 ## Can log in
 
 In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
+
+## Video: Add a new SuperOffice CRM user
+
+Watch this demo to see how you can add a new user in SuperOffice CRM.
+(This video shows a previous version of SuperOffice, so the design may look different. The steps are the same.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
+
+(video length - 1:46)
 
 ## Edit user / associate
 

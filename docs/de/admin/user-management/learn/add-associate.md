@@ -22,12 +22,7 @@ Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzerplan, 
 >
 > Im Folgenden wird beschrieben, wie Sie einen einzelnen Benutzer hinzufügen. Informationen zum Hinzufügen mehrerer Benutzer finden Sie unter [Benutzer importieren][1].
 
-Befolgen Sie die Schritte mit Leitfaden oder sehen Sie sich das folgende Video an, um zu sehen, wie Sie einen neuen Benutzer in SuperOffice CRM hinzufügen können (Videolänge - 1:46):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
-
-## Neuen SuperOffice CRM-Benutzer hinzufügen
+## Schritte
 
 1. Öffnen Sie die Ansicht Benutzer.
 2. Wählen Sie die Registerkarte **Mitarbeiter** aus.
@@ -86,6 +81,16 @@ In der Registerkarte **Lizenzen** können Sie neben den im ausgewählten Benutze
 
 Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewählten Benutzers aktivieren oder deaktivieren, indem Sie auf die Schaltfläche **Anmelden möglich** klicken. Standardmäßig wird diese Option aktiviert, wenn Sie einen Benutzerplan für den Benutzer auswählen.
 
+## Video: Neuen SuperOffice CRM-Benutzer hinzufügen
+
+Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in SuperOffice CRM hinzufügen können.
+(Dieses Video zeigt eine frühere Version von SuperOffice, daher kann das Design anders aussehen. Die Schritte sind dieselben.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
+
+(Videolänge - 1:46)
+
 ## Benutzer/Mitarbeiter bearbeiten
 
 1. [!include[Click Users](includes/goto-users.md)]
@@ -93,7 +98,7 @@ Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewähl
 3. Wählen Sie den gewünschten Benutzer in der Benutzerliste aus.
 4. Nehmen Sie Ihre Änderungen vor und klicken Sie auf **Speichern**.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Anonymen oder Systembenutzer hinzufügen (vor Ort)][5]
 

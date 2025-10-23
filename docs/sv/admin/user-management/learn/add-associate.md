@@ -22,12 +22,7 @@ Administratörerna ansvarar för att ge nya användare en användarplan, ett anv
 >
 > Den här proceduren beskriver hur du lägger till en användare i taget. Om du vill lägga till flera användare kan du se [Importera användare][1].
 
-Följ steg för steg-anvisningarna eller titta på filmen nedan för att se hur du lägger till en ny användare i SuperOffice CRM (filmens längd: 1:46):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
-
-## Lägg till en ny användare i SuperOffice CRM
+## Steg
 
 1. Öppna fönstret Användare.
 2. Välj fliken **Medarbetare**.
@@ -86,6 +81,16 @@ På fliken **Licenser** kan du välja fler licenser utöver de licenser som defi
 
 I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggningsbehörigheterna för den valda användaren genom att klicka på knappen **Kan logga in**. Alternativet aktiveras som standard när du väljer en användarplan för användaren.
 
+## Video: Lägg till en ny användare i SuperOffice CRM
+
+Se den här demon för att se hur du lägger till en ny användare i SuperOffice CRM.
+(Den här videon visar en tidigare version av SuperOffice, så designen kan se annorlunda ut. Stegen är desamma.)
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
+
+(filmens längd: 1:46)
+
 ## Redigera användare/medarbetare
 
 1. [!include[Click Users](includes/goto-users.md)]
@@ -93,7 +98,7 @@ I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggning
 3. Markera användaren i användarlistan.
 4. Gör önskade ändringar och klicka på **Spara**.
 
-## Relaterat
+## Relaterat innhåll
 
 * [Lägg till anonyma användare eller systemanvändare (lokalt)][5]
 
