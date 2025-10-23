@@ -9,7 +9,7 @@ items:
   - name: Get your users on board
     href: ../getting-started/onboard-users.md
 - name: Adjust views in Settings and maintenance
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: User management
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md

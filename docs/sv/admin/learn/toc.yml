@@ -9,7 +9,7 @@ items:
   - name: Få med dig användarna
     href: ../getting-started/onboard-users.md
 - name: Anpassa olika vyer i Inställningar och underhåll
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: Administrering av användare
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md

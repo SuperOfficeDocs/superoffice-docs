@@ -61,4 +61,4 @@ You can group the list of users by role, user plan, primary group, and similar. 
 > If you navigate to another tab, the grouping is reset.
 
 <!-- Referenced links -->
-[1]: ../../learn/adjusting-views.md
+[1]: ../../adjusting-views.md

@@ -61,4 +61,4 @@ Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und �
 > Wenn Sie zu einer anderen Registerkarte wechseln, wird das Gruppieren zurückgesetzt.
 
 <!-- Referenced links -->
-[1]: ../../learn/adjusting-views.md
+[1]: ../../adjusting-views.md

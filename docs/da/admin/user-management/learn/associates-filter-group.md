@@ -61,4 +61,4 @@ Du kan gruppere listen over brugere efter rolle, brugerplan, primær gruppe og l
 > Hvis du navigerer til en anden fane, nulstilles grupperingen.
 
 <!-- Referenced links -->
-[1]: ../../learn/adjusting-views.md
+[1]: ../../adjusting-views.md

@@ -9,7 +9,7 @@ items:
   - name: Få dine brugere med ombord
     href: ../getting-started/onboard-users.md
 - name: Juster visninger i Indstillinger og vedligeholdelse
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: Brugerstyring
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md

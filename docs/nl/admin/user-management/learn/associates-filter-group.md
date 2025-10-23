@@ -61,4 +61,4 @@ U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep 
 > Als u naar een ander tabblad navigeert, wordt de groepering opnieuw ingesteld.
 
 <!-- Referenced links -->
-[1]: ../../learn/adjusting-views.md
+[1]: ../../adjusting-views.md

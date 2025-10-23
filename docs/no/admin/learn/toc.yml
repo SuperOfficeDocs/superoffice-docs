@@ -9,7 +9,7 @@ items:
   - name: Få brukerne dine med på laget
     href: ../getting-started/onboard-users.md
 - name: Juster visninger i Innstillinger og vedlikehold
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: Brukeradministrasjon
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md

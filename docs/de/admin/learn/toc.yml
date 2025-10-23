@@ -9,7 +9,7 @@ items:
   - name: Benutzer einbinden
     href: ../getting-started/onboard-users.md
 - name: Ansichten in Einstellungen und Verwaltung anpassen
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: Benutzerverwaltung
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md

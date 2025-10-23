@@ -9,7 +9,7 @@ items:
   - name: Krijg uw gebruikers aan boord
     href: ../getting-started/onboard-users.md
 - name: Weergaven in Instellingen en onderhoud aanpassen
-  href: adjusting-views.md
+  href: ../adjusting-views.md
 - name: Gebruikersbeheer
   href: ../user-management/learn/toc.yml
   topicHref: ../user-management/learn/index.md
