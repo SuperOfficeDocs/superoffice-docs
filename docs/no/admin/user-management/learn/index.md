@@ -2,7 +2,7 @@
 uid: help-no-users
 title: Brukere
 description: Finn ut hvordan du legger til nye brukere, hvordan du tilordner de riktige brukerrollene og -gruppene, og hvordan du hjelper brukerne med oppsett og WebTools.
-keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer
+keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer, synlighet, tilgjengelig
 author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.5
@@ -10,12 +10,22 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
-redirect_from: /no/admin/user-management/learn/screen/index
+redirect_from: 
+  - /no/admin/user-management/learn/screen/index
+  - /no/admin/user-management/learn/visibility
 ---
 
 # Brukere
 
 Som administrator har du ansvaret for å legge til og administrere brukerne. I denne seksjonen lærer du hvordan du legger til nye brukere, hvordan du tilordner de riktige brukerrollene og -gruppene, og hvordan du hjelper brukerne med oppsett og WebTools.
+
+## <a id="visible"></a>Synlighet
+
+Om du kan vise spesifikke dokumenter, salg, oppfølginger og utvalg, avhenger ikke bare på [rollen][1] du er tildelt. Det kan også skyldes at den aktuelle informasjonen ikke er tilgjengelig for deg. I dialogboksene for dokumenter og oppfølginger og i Salg- og Utvalg- bildene finner du en listeboks som heter **Synlig for**. I Salg-bildet kan du for eksempel velge om salget skal være synlig for alle, synlig bare for primærgruppen som eieren tilhører eller synlig bare for eieren.
+
+Dette krever lisensen **Konfidensielle aktiviteter**.
+
+For å angi denne lisensen finner du ønsket bruker, klikker på fanen **Lisenser**, og deretter klikker du på avmerkingsboksen for **Konfidensielle aktiviteter**.
 
 ## Brukertyper
 

@@ -80,7 +80,7 @@ In the **Details** tab, you have the following options:
 
 In the **Licences** tab, you can select licenses in addition to those defined by the selected user plan.
 
-**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make [records visible only to][2] the user, the user's primary group or everyone.
+**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone.
 
 ***
 
@@ -151,7 +151,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 
 <!-- Referenced links -->
 [1]: import-users.md
-[2]: visibility.md
+[2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md

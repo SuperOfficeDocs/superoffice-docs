@@ -2,7 +2,7 @@
 uid: help-sv-users
 title: Användare
 description: Lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
-keywords: Fönstret Användare, användare, medarbetare, våra företag
+keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
 author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.5
@@ -10,12 +10,22 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
-redirect_from: /sv/admin/user-management/learn/screen/index
+redirect_from: 
+  - /sv/admin/user-management/learn/screen/index
+  - /sv/admin/user-management/learn/visibility
 ---
 
 # Användare
 
 Som administratör har du till uppgift att lägga till och administrera dina användare. I det här avsnittet lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
+
+## <a id="visible"></a>Synlighet
+
+Huruvida du kan se specifika dokument, försäljningar, händelser och urval beror inte enbart på vilken [roll][1] du har tilldelats. Det kan finnas enskilda informationsposter som du inte har tillgång till. I dialogrutorna dokument och händelser och i fönstren Försäljning och Urval finns en listruta med namnet **Synlig för**. I fönstret Försäljning kan du till exempel välja att göra en försäljning synlig för alla, endast synlig för primärgruppen som ägaren tillhör eller endast synlig för ägaren.
+
+Detta kräver att du har licensen **Konfidentiella aktiviteter**.
+
+Om du vill aktivera den här licensen lokaliserar du önskad användare, klickar på fliken **Licenser** och markerar sedan kryssrutan för **Konfidentiella aktiviteter**.
 
 ## Användartyper
 

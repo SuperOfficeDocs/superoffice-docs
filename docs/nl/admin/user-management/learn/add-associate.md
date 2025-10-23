@@ -100,7 +100,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 
 <!-- Referenced links -->
 [1]: import-users.md
-[2]: visibility.md
+[2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md

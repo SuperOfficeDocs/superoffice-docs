@@ -79,7 +79,7 @@ Auf der Registerkarte **Details** stehen folgende Optionen zur Verfügung:
 
 In der Registerkarte **Lizenzen** können Sie neben den im ausgewählten Benutzerplan definierten Lizenzen weitere Lizenzen auswählen.
 
-**Vertrauliche Aktivitäten**: aktiviert die Liste **Sichtbar für** Folgeaufgaben, Dokumente und Verkäufe, damit [sichtbare Einträge nur für][2] den Benutzer, die Primärgruppe des Benutzers oder für alle sichtbar gemacht werden.
+**Vertrauliche Aktivitäten**: aktiviert die Liste **Sichtbar für** Folgeaufgaben, Dokumente und Verkäufe, damit sichtbare Einträge nur für den Benutzer, die Primärgruppe des Benutzers oder für alle sichtbar gemacht werden.
 
 ***
 
@@ -100,7 +100,7 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 
 <!-- Referenced links -->
 [1]: import-users.md
-[2]: visibility.md
+[2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md

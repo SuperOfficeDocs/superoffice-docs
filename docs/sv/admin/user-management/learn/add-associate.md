@@ -100,7 +100,7 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 
 <!-- Referenced links -->
 [1]: import-users.md
-[2]: visibility.md
+[2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md

@@ -2,7 +2,7 @@
 uid: help-de-users
 title: Benutzer
 description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
-keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen
+keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.5
@@ -10,12 +10,22 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
-redirect_from: /de/admin/user-management/learn/screen/index
+redirect_from: 
+  - /de/admin/user-management/learn/screen/index
+  - /de/admin/user-management/learn/visibility
 ---
 
 # Benutzer
 
 Als Administrator sind Sie für das Hinzufügen und Verwalten Ihrer Benutzer verantwortlich. In diesem Bereich lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
+
+## <a id="visible"></a>Sichtbarkeit
+
+Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten [Rolle][1] ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
+
+Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
+
+Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf die Registerkarte **Lizenzen** und dann das Kontrollkästchen für **Vertrauliche Aktivitäten** anklicken.
 
 ## Benutzer-Typen
 

@@ -79,7 +79,7 @@ Under fanen **Detaljer** har du følgende valgmuligheder:
 
 Under fanen **Licenser** kan du vælge licenser ud over dem, der er defineret i den valgte brugerplan.
 
-**Fortrolige aktiviteter**: Aktiverer listen **Synlig for** for opfølgninger, dokumenter og salg, så [opfølgninger kun bliver synlige][2] for brugeren, brugerens primærgruppe eller alle.
+**Fortrolige aktiviteter**: Aktiverer listen **Synlig for** for opfølgninger, dokumenter og salg, så opfølgninger kun bliver synlige for brugeren, brugerens primærgruppe eller alle.
 
 ***
 
@@ -100,7 +100,7 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 
 <!-- Referenced links -->
 [1]: import-users.md
-[2]: visibility.md
+[2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md

@@ -2,7 +2,7 @@
 uid: help-nl-users
 title: Gebruikers
 description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
-keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven
+keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
 author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.5
@@ -10,12 +10,22 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
-redirect_from: /nl/admin/user-management/learn/screen/index
+redirect_from: 
+  - /nl/admin/user-management/learn/screen/index
+  - /nl/admin/user-management/learn/visibility
 ---
 
 # Gebruikers
 
 Als beheerder bent u verantwoordelijk voor het toevoegen en beheren van uw gebruikers. In deze sectie leert u hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
+
+## <a id="visible"></a>Zichtbaarheid
+
+Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de [rol][1] die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
+
+Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
+
+Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op het tabblad **Licenties** en klikt u vervolgens op het selectievakje voor **Vertrouwelijke activiteiten**.
 
 ## Soorten gebruikers
 

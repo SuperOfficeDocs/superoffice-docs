@@ -2,7 +2,7 @@
 uid: help-da-users
 title: Brugere
 description: Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools.
-keywords: Skærmbilledet Brugere, Brugere, medarbejder, vores virksomheder
+keywords: Skærmbilledet Brugere, Brugere, medarbejder, vores virksomheder, synlighed, tilgængelig
 author: SuperOffice Product and Engineering
 date: 02.21.2023
 version: 10.5
@@ -10,12 +10,22 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
-redirect_from: /da/admin/user-management/learn/screen/index
+redirect_from: 
+  - /da/admin/user-management/learn/screen/index
+  - /da/admin/user-management/learn/visibility
 ---
 
 # Brugere
 
 Som administrator har du ansvaret for at tilføje og administrere dine brugere. I dette afsnit kan du lære, hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools.
+
+## <a id="visible"></a>Synlig for
+
+Hvis du kan se specifikke dokumenter, afhænger salg, opfølgning og valg ikke udelukkende af den [rolle][1] du er tildelt. Visse individuelle oplysninger er muligvis ikke tilgængelige for dig. I dokumenter og opfølgningsdialogerne og på skærmene Salg og Udvalg er der et felt ved navn **Synlig for**. På skærmen Salg kan du f.eks. vælge at gøre salget synligt for alle, kun synligt for den primære gruppe, som ejeren tilhører, eller kun synligt for ejeren.
+
+Dette kræver licensen **Fortrolige aktiviteter**.
+
+For at indstille denne licens skal du finde den ønskede bruger, klikke på fanen **Licenser** og derefter klikke på afkrydsningsfeltet for **Fortrolige aktiviteter**.
 
 ## Brugertyper
 

@@ -2,7 +2,7 @@
 uid: help-en-users
 title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
-keywords: Users screen, user, associate, our companies
+keywords: Users screen, user, associate, our companies, visibility, visible for, available
 author: Bergfrid Dias
 date: 08.25.2023
 version: 10.5
@@ -10,7 +10,9 @@ content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
-redirect_from: /en/admin/user-management/learn/screen/index
+redirect_from: 
+  - /en/admin/user-management/learn/screen/index
+  - /en/admin/user-management/learn/visibility
 ---
 
 # Users
@@ -32,6 +34,14 @@ Each data object belongs to a user who might be you yourself (a), users in your 
 ![The Roles - Associates screen, data rights tab -screenshot][img2]
 
 The ownership of different data objects is set in different fields. For example, in the Company card the field called **Our Contact** specifies the owner of the record. For follow-ups, it is the field **Owner**, in the project **Responsible**, and so on.
+
+## <a id="visible"></a>Visibility
+
+If you can view specific documents, sales, follow-ups and selections does not depend solely on the [role][1] you are assigned. Certain individual items of information may not be available to you. In the documents and follow-ups dialogs and in the Sale and Selection screens, there is a list box called **Visible for**. In the Sale screen, you can, for example, choose to make the sale visible to everyone, visible only to the primary group that the owner belongs to, or visible only to the owner.
+
+This requires the license **Confidential activities**.
+
+To set this license, find the wanted user, click the **Licences** tab and then mark the **Confidential activities** checkbox.
 
 ## User types
 

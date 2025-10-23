@@ -9,8 +9,6 @@ items:
     href: associates-filter-group.md
   - name: Redigere bruker
     href: update-user.md
-  - name: Synlighet
-    href: visibility.md
   - name: Flytt bruker
     href: move-user.md
   - name: Slett bruker

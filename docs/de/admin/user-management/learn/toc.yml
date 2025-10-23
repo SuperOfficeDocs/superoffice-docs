@@ -9,8 +9,6 @@ items:
     href: associates-filter-group.md
   - name: Benutzer bearbeiten
     href: update-user.md
-  - name: Anzeigestatus
-    href: visibility.md
   - name: Benutzer verschieben
     href: move-user.md
   - name: Benutzer löschen

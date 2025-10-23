@@ -9,8 +9,6 @@ items:
     href: associates-filter-group.md
   - name: Gebruiker bewerken
     href: update-user.md
-  - name: Zichtbaarheid
-    href: visibility.md
   - name: Gebruiker verplaatsen
     href: move-user.md
   - name: Gebruiker verwijderen
