@@ -35,10 +35,14 @@ Administratorer er ansvarlige for at give nye brugere en brugerplan, et brugerna
 
 7. Klik på **Gem**. Navnet på den nye bruger vises nu på listen.
 
-> [!TIP]
-> Hvis aktive brugere har brug for en anden brugerplan, kan du [tildele brugerplaner][4] i Indstillinger og vedligeholdelse.
+    * Hvis aktive brugere har brug for en anden brugerplan, kan du [tildele brugerplaner][4] i Indstillinger og vedligeholdelse.
 
-## Fanen Detaljer
+    * I den nederste del af brugerkortet kan du aktivere eller deaktivere den valgte brugers logonrettigheder ved at klikke på knappen **Kan logge på**. Denne indstilling aktiveres som standard, når du vælger en brugerplan for brugeren.
+
+## <a id="fields"></a>Vigtige felter forklaret
+
+<!-- markdownlint-disable-file MD051 -->
+### [Fanen Detaljer](#tab/details)
 
 Under fanen **Detaljer** har du følgende valgmuligheder:
 
@@ -67,19 +71,17 @@ Under fanen **Detaljer** har du følgende valgmuligheder:
 
 * **Servicekategorier fra brugergrupper**: Viser de kategorier, som brugeren får af at være i en brugergruppe.
 
-### Eksempel
+#### Eksempel
 
 [!include[Example](includes/example-grouping.md)]
 
-## Fanen Licenser
+### [Fanen Licenser](#tab/license)
 
 Under fanen **Licenser** kan du vælge licenser ud over dem, der er defineret i den valgte brugerplan.
 
 **Fortrolige aktiviteter**: Aktiverer listen **Synlig for** for opfølgninger, dokumenter og salg, så [opfølgninger kun bliver synlige][2] for brugeren, brugerens primærgruppe eller alle.
 
-## Kan logge på
-
-I den nederste del af brugerkortet kan du aktivere eller deaktivere den valgte brugers logonrettigheder ved at klikke på knappen **Kan logge på**. Denne indstilling aktiveres som standard, når du vælger en brugerplan for brugeren.
+***
 
 ## Video: Tilføjelse af en ny SuperOffice CRM-bruger
 
@@ -91,16 +93,10 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 
 (videolængde – 1:46)
 
-## Redigering af bruger/medarbejder
-
-1. [!include[Click Users](includes/goto-users.md)]
-2. Vælg fanen **Medarbejdere**.
-3. Marker den ønskede bruger på brugerlisten.
-4. Foretag dine ændringer, og klik på **Gem**.
-
 ## Relateret indhold
 
 * [Tilføjelse af anonym bruger eller systembruger (onsite)][5]
+* [Redigering af bruger/medarbejder][6]
 
 <!-- Referenced links -->
 [1]: import-users.md
@@ -108,6 +104,7 @@ Se denne demo for at se, hvordan du kan tilføje en ny bruger i SuperOffice CRM.
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md
+[6]: update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png

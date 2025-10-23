@@ -35,10 +35,14 @@ Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met 
 
 7. Klik op **Opslaan**. De naam van de nieuwe gebruiker wordt nu weergegeven in de lijst.
 
-> [!TIP]
-> Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
+    * Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
 
-## Het tabblad Details
+    * In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselecteerde gebruiker activeren of deactiveren door op de knop **Kan aanmelden** te klikken. Deze optie wordt standaard geactiveerd wanneer u een gebruikersplan voor de gebruiker selecteert.
+
+## <a id="fields"></a>Belangrijke velden uitgelegd
+
+<!-- markdownlint-disable-file MD051 -->
+### [Het tabblad Details](#tab/details)
 
 Het tabblad **Details** bevat de volgende opties:
 
@@ -71,15 +75,13 @@ Het tabblad **Details** bevat de volgende opties:
 
 [!include[Example](includes/example-grouping.md)]
 
-## Het tabblad Licenties
+### [Het tabblad Licenties](#tab/license)
 
 In het tabblad **Licenties** kunt u extra licenties selecteren, naast de licenties die zijn gedefinieerd via het geselecteerde gebruikersplan.
 
 **Vertrouwelijke activiteiten**: schakelt de lijst **Zichtbaar voor** in voor vervolgactiviteiten, documenten en verkoop, om [records zichtbaar te maken voor alleen][2] de gebruiker, de primaire groep van de gebruiker, of iedereen.
 
-## Kan aanmelden
-
-In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselecteerde gebruiker activeren of deactiveren door op de knop **Kan aanmelden** te klikken. Deze optie wordt standaard geactiveerd wanneer u een gebruikersplan voor de gebruiker selecteert.
+***
 
 ## Video: Een nieuwe SuperOffice CRM-gebruiker toevoegen
 
@@ -91,16 +93,10 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 
 (videolengte - 1:46)
 
-## Gebruiker / medewerker bewerken
-
-1. [!include[Click Users](includes/goto-users.md)]
-2. Selecteer het tabblad **Medewerkers**.
-3. Selecteer de gewenste gebruiker in de lijst met gebruikers.
-4. Breng de gewenste wijzigingen aan en klik op **Opslaan**.
-
 ## Gerelateerde inhoud
 
 * [Anonieme gebruikers of systeemgebruikers toevoegen (lokaal)][5]
+* [Gebruiker / medewerker bewerken][6]'
 
 <!-- Referenced links -->
 [1]: import-users.md
@@ -108,6 +104,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md
+[6]:  update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png

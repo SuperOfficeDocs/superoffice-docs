@@ -35,10 +35,14 @@ Administratörerna ansvarar för att ge nya användare en användarplan, ett anv
 
 7. Klicka på **Spara**. Namnet på den nya användaren visas nu i listan.
 
-> [!TIP]
-> Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll.
+    * Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll.
 
-## Fliken Detaljer
+    * I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggningsbehörigheterna för den valda användaren genom att klicka på knappen **Kan logga in**. Alternativet aktiveras som standard när du väljer en användarplan för användaren.
+
+## <a id="fields"></a>Nyckelfält förklarade
+
+<!-- markdownlint-disable-file MD051 -->
+### [Fliken Detaljer](#tab/details)
 
 På fliken **Detaljer** finns följande alternativ:
 
@@ -67,19 +71,17 @@ På fliken **Detaljer** finns följande alternativ:
 
 * **Service-kategorier från användargrupper**: Visar de kategorier som användaren får genom att vara med i en användargrupp.
 
-### Exempel
+#### Exempel
 
 [!include[Example](includes/example-grouping.md)]
 
-## Fliken Licenser
+### [Fliken Licenser](#tab/license)
 
 På fliken **Licenser** kan du välja fler licenser utöver de licenser som definieras av den valda användarplanen.
 
 **Konfidentiella aktiviteter**: aktiverar listan **Synlig för** för händelser, dokument och försäljningar så att [posterna bara är synliga för][2] användaren, användarens primärgrupp eller alla.
 
-## Kan logga in
-
-I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggningsbehörigheterna för den valda användaren genom att klicka på knappen **Kan logga in**. Alternativet aktiveras som standard när du väljer en användarplan för användaren.
+***
 
 ## Video: Lägg till en ny användare i SuperOffice CRM
 
@@ -91,16 +93,10 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 
 (filmens längd: 1:46)
 
-## Redigera användare/medarbetare
-
-1. [!include[Click Users](includes/goto-users.md)]
-2. Välj fliken **Medarbetare**.
-3. Markera användaren i användarlistan.
-4. Gör önskade ändringar och klicka på **Spara**.
-
 ## Relaterat innhåll
 
 * [Lägg till anonyma användare eller systemanvändare (lokalt)][5]
+* [Redigera användare/medarbetare][6]
 
 <!-- Referenced links -->
 [1]: import-users.md
@@ -108,6 +104,7 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md
+[6]: update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png

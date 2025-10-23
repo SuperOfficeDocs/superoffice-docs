@@ -35,10 +35,14 @@ Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzerplan, 
 
 7. Klicken Sie auf **Speichern**. Der Name des neuen Benutzers wird in der Liste angezeigt.
 
-> [!TIP]
-> Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
+    * Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
 
-## Registerkarte Details
+    * Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewählten Benutzers aktivieren oder deaktivieren, indem Sie auf die Schaltfläche **Anmelden möglich** klicken. Standardmäßig wird diese Option aktiviert, wenn Sie einen Benutzerplan für den Benutzer auswählen.
+
+## <a id="fields"></a>Erklärung wichtiger Felder
+
+<!-- markdownlint-disable-file MD051 -->
+### [Registerkarte Details](#tab/details)
 
 Auf der Registerkarte **Details** stehen folgende Optionen zur Verfügung:
 
@@ -67,19 +71,17 @@ Auf der Registerkarte **Details** stehen folgende Optionen zur Verfügung:
 
 * **Service-Kategorien aus Benutzergruppen**: Die Kategorien werden angezeigt, die der Benutzer von einer Benutzergruppe bekommt.
 
-### Beispiel
+#### Beispiel
 
 [!include[Example](includes/example-grouping.md)]
 
-## Die Registerkarte Lizenzen
+### [Die Registerkarte Lizenzen](#tab/license)
 
 In der Registerkarte **Lizenzen** können Sie neben den im ausgewählten Benutzerplan definierten Lizenzen weitere Lizenzen auswählen.
 
 **Vertrauliche Aktivitäten**: aktiviert die Liste **Sichtbar für** Folgeaufgaben, Dokumente und Verkäufe, damit [sichtbare Einträge nur für][2] den Benutzer, die Primärgruppe des Benutzers oder für alle sichtbar gemacht werden.
 
-## Anmelden möglich
-
-Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewählten Benutzers aktivieren oder deaktivieren, indem Sie auf die Schaltfläche **Anmelden möglich** klicken. Standardmäßig wird diese Option aktiviert, wenn Sie einen Benutzerplan für den Benutzer auswählen.
+***
 
 ## Video: Neuen SuperOffice CRM-Benutzer hinzufügen
 
@@ -91,16 +93,10 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 
 (Videolänge - 1:46)
 
-## Benutzer/Mitarbeiter bearbeiten
-
-1. [!include[Click Users](includes/goto-users.md)]
-2. Wählen Sie die Registerkarte **Mitarbeiter** aus.
-3. Wählen Sie den gewünschten Benutzer in der Benutzerliste aus.
-4. Nehmen Sie Ihre Änderungen vor und klicken Sie auf **Speichern**.
-
 ## Verwandte Inhalte
 
 * [Anonymen oder Systembenutzer hinzufügen (vor Ort)][5]
+* [Benutzer/Mitarbeiter bearbeiten][6]
 
 <!-- Referenced links -->
 [1]: import-users.md
@@ -108,6 +104,7 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: other-users.md
+[6]:  update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png
