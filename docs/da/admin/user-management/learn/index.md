@@ -124,7 +124,7 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 <!-- Referenced links -->
 [1]: role/index.md
 [2]: add-associate.md
-[3]: change-user-plan.md
+[3]: ../../license/change-user-plan.md
 [4]: role/edit-rights-for-anonymous-users.md
 [6]: ../../license/learn/activate.md
 [7]: ../../../../../integrations/webtools/install.md

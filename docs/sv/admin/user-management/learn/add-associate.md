@@ -101,7 +101,7 @@ I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggning
 [1]: import-users.md
 [2]: visibility.md
 [3]: role/index.md
-[4]: change-user-plan.md
+[4]: ../../license/change-user-plan.md
 [5]: other-users.md
 
 <!-- Referenced images -->
