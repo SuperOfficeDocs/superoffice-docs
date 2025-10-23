@@ -67,12 +67,11 @@ OK
 
 ## Sample request
 
-[!include[sample request][1]
+[!include[Sample request](../../../../../api-reference/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md)]
 
 ## Sample response
 
-[!include[sample response][2]
+[!include[Sample response](../../../../../api-reference/samples/agent/response/v1AIAgent_AnalyzeBizCardImage.md)]
 
-<!-- Reference links -->
-[1]: ../../../../../../api-reference/samples/agent/request/v1AIAgent_AnalyzeBizCardImage.md
-[2]: ../../../../../../api-reference/samples/rest/request/v1AIAgent_AnalyzeBizCardImage.md
+<!-- Reference links (CANNOT BE INCLUDES) -->
+
