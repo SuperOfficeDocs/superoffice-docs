@@ -1,0 +1,35 @@
+---
+uid: help-en-logging-users-off
+title: Logging users off
+description: Logging users off
+keywords: Log users off, log off, Logged-on to Windows client
+author: SuperOffice Product and Engineering
+date: 09.17.2025
+content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+deployment: onsite
+language: en
+redirect_from: 
+  - /en/onsite/win-client/learn/logging-users-off
+  - /en/admin/user-management/learn/logging-users-off
+---
+
+# Log users off (Onsite)
+
+If a user is denied access to SuperOffice CRM, for example, after a program crash, the administrator can log off the user in Settings and maintenance, so that the user can log in again as normal.
+
+1. [!include[Click Users](../includes/goto-users.md)]
+
+2. Select the **Associates** tab.
+
+3. Select the required company in the **Company** list box.
+
+4. Select **Logged-on to Windows client** in the list box below the list of users.
+
+5. [!include[Select user](../includes/select-user.md)]
+
+6. Click the **Task** button and select **Log user off**. The user is logged off.
+
+> [!NOTE]
+> If the user is not logged in or something other than **Logged-on to Windows client** is selected in the **View** list box, this button is disabled.

@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/admin/user-management/import-users.html
+redirect_url: https://docs.superoffice.com/en/admin/user-management/onsite/import-users.html
 ---

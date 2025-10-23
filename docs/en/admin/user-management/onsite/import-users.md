@@ -32,6 +32,6 @@ If your organization uses Active Directory or another authentication type, you c
 1. [Enter information about the user][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

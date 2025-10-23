@@ -21,7 +21,7 @@ Administrators are responsible for providing new users with a user plan, a usern
 > [!NOTE]
 > If you provided information on users when you ordered SuperOffice CRM, you do not have to add users. Users will have received login information from SuperOffice by email. Check if users are in the system in the menu Users in Settings and maintenance.
 >
-> This procedure describes how to add one user at a time. To add multiple users, see [Import users][1].
+> This procedure describes how to add one user at a time. To add multiple users onsite, see [Import users][1].
 
 ## Steps
 
@@ -150,7 +150,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 * [Edit user / associate][6]
 
 <!-- Referenced links -->
-[1]: import-users.md
+[1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md

@@ -3,18 +3,10 @@ items:
     href: index.md
   - name: Add SuperOffice user
     href: ../add-associate.md
-  - name: Import users from AD
-    href: ../import-users.md
   - name: Filter and group users
     href: associates-filter-group.md
   - name: Edit or delete associate
     href: ../update-user.md
-  - name: Manage anonymous and system users
-    href: other-users.md
-  - name: Manage external users
-    href: managing-external-users.md
-  - name: Log users off
-    href: logging-users-off.md
   - name: Our companies
     href: ../our-companies.md
   - name: Manage user groups
@@ -22,3 +14,6 @@ items:
   - name: Role
     href: role/toc.yml
     topicHref: role/index.md
+  - name: Onsite users
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md
