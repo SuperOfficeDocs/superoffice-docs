@@ -18,7 +18,7 @@ items:
   - name: Our companies
     href: ../our-companies.md
   - name: Manage user groups
-    href: user-groups.md
+    href: ../user-groups.md
   - name: Role
     href: role/toc.yml
     topicHref: role/index.md
