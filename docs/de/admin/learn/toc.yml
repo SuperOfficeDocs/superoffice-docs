@@ -8,20 +8,20 @@ items:
     href: ../getting-started/index.md
   - name: Benutzer einbinden
     href: ../getting-started/onboard-users.md
-- name: Ansichten in Einstellungen und Verwaltung anpassen
+- name: Ansichten anpassen
   href: ../adjusting-views.md
-- name: Benutzerverwaltung
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Lizenzen
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Einstellungen
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
 - name: Optionen
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: Lizenzen
-  href: ../license/toc.yml
-  topicHref: ../license/index.md
+- name: Benutzerverwaltung
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Importieren
   href: ../import/toc.yml
   topicHref: ../import/index.md

@@ -8,20 +8,20 @@ items:
     href: ../getting-started/index.md
   - name: Krijg uw gebruikers aan boord
     href: ../getting-started/onboard-users.md
-- name: Weergaven in Instellingen en onderhoud aanpassen
+- name: Weergaven aanpassen
   href: ../adjusting-views.md
-- name: Gebruikersbeheer
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Licenties
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Voorkeuren
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
 - name: Systeemopties
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: Licenties
-  href: ../license/toc.yml
-  topicHref: ../license/index.md
+- name: Gebruikersbeheer
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

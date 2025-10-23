@@ -8,20 +8,20 @@ items:
     href: ../getting-started/index.md
   - name: Få med dig användarna
     href: ../getting-started/onboard-users.md
-- name: Anpassa olika vyer i Inställningar och underhåll
+- name: Anpassa olika vyer
   href: ../adjusting-views.md
-- name: Administrering av användare
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+- name: Licenser
+  href: ../license/toc.yml
+  topicHref: ../license/index.md
 - name: Inställningar
   href: ../preferences/toc.yml
   topicHref: ../preferences/index.md
 - name: Systemval
   href: ../options/toc.yml
   topicHref: ../options/index.md
-- name: Licenser
-  href: ../license/toc.yml
-  topicHref: ../license/index.md
+- name: Administrering av användare
+  href: ../user-management/learn/toc.yml
+  topicHref: ../user-management/learn/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md
