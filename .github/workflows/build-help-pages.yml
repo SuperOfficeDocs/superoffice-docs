@@ -45,7 +45,7 @@ jobs:
           pwd
           cd api-reference
           pwd
-          git pull --rebase
+          git branch --show-current
           
       - name: Build Documentation
         uses: nikeee/docfx-action@master
