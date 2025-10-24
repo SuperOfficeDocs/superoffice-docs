@@ -75,13 +75,13 @@ En **gruppe** blir tildelt brukeren og gir tilgang til dataobjekter (4 i forrige
 
 ![Diagram for gruppetilhørighet][img5]
 
-I dette eksemplet har bruker A Marketing som annen gruppe og bruker B har Marketing som primær gruppe. I dette tilfellet, hvis bruker A ønsker å se data opprettet av bruker B, må bruker A sin rolle ha retten “Les” ved siden av alle dataobjekter i kolonnen *Annen gruppe*. Dette er fordi Marketing‑gruppen er andre gruppe for bruker A og forbinder dem med postene som bruker B oppretter.
+I dette eksemplet har bruker A Marketing som annen gruppe og bruker B har Marketing som primær gruppe. I dette tilfellet, hvis bruker A ønsker å se data opprettet av bruker B, må bruker A sin rolle ha retten "Les" ved siden av alle dataobjekter i kolonnen *Annen gruppe*. Dette er fordi Marketing‑gruppen er andre gruppe for bruker A og forbinder dem med postene som bruker B oppretter.
 
 En gruppe kan også gi tilgang til listeelementer (5 i diagrammet) i SuperOffice CRM. Dette gjelder kun hvis du bruker innstillingen **Gruppering og filtrering** (a) på listene dine. Hvis denne innstillingen ikke er aktivert, har alle brukere tilgang til alle lister i SuperOffice CRM. Gruppering og filtrering er spesielt nyttig når mange brukere med ulike ansvarsområder får tilgang til systemet. På denne måten kan du unngå at enkelte brukere får tilgang til informasjon de ikke bør se.
 
 ![Gruppering og filtrering etter brukergruppe for dokumentmal‑liste –screenshot][img6]
 
-For eksempel, hvis du ønsker å gjøre et bestemt listeelement synlig kun for noen brukere, må du gå til listen som inneholder disse elementene (a), velge elementet (b) og i boksen «Synlig for brukergrupper», sette et kryss ved de brukergruppene som skal se listeelementet (c).
+For eksempel, hvis du ønsker å gjøre et bestemt listeelement synlig kun for noen brukere, må du gå til listen som inneholder disse elementene (a), velge elementet (b) og i boksen "Synlig for brukergrupper", sette et kryss ved de brukergruppene som skal se listeelementet (c).
 
 ![Velg preferansenivå gruppe for oppfølging –screenshot][img7]
 
@@ -129,13 +129,13 @@ Du kan filtrere listen med brukere etter kolonneoverskrifter.
 > Høyreklikk på en kolonne for å legge til flere kolonner du vil filtrere etter.
 
 1. Velg fanen **Medarbeidere**.
-2. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
-3. Velg **Aktiver filter**.
-4. Klikk på **OK**. Det legges til filterknapper til hver kolonneoverskrift.
-5. Klikk på <i class="ph ph-funnel" aria-label="Filter icon"></i> på kolonnen du vil filtrere.
-6. Velg ønskede verdier i listen. Bruk søkefunksjonen hvis listen er lang.
-7. Klikk på **Filtrer**.
-8. Gjenta trinn 5-7 for å filtrere på flere kolonner.
+1. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
+1. Velg **Aktiver filter**.
+1. Klikk på **OK**. Det legges til filterknapper til hver kolonneoverskrift.
+1. Klikk på <i class="ph ph-funnel" aria-label="Filter icon"></i> på kolonnen du vil filtrere.
+1. Velg ønskede verdier i listen. Bruk søkefunksjonen hvis listen er lang.
+1. Klikk på **Filtrer**.
+1. Gjenta trinn 5-7 for å filtrere på flere kolonner.
 
 #### Gruppere listen
 
@@ -145,13 +145,13 @@ Du kan gruppere listen med brukere etter rolle, brukerplan, primærgruppe og lig
 > Høyreklikk på en kolonne for å legge til flere kolonner du vil gruppere på (se også [Tilpasse oversikter][14]).
 
 1. Velg fanen **Medarbeidere**.
-2. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
-3. Se **Aktiver gruppering**.
-4. Klikk på **OK**.
-5. Klikk på kolonneoverskriften for verdien du vil gruppere på, og dra den til området over kolonnene ("Dra en kolonneoverskrift og ..."). Listen er nå gruppert etter denne verdien.
-6. Hvis du vil gruppere etter flere verdier, klikker og drar du en annen kolonneoverskrift til samme område.
-7. Klikk og dra gruppeverdiene for å endre rekkefølgen på grupperingsnivåene.
-8. Klikk på en gruppeverdi for å endre sorteringsrekkefølgen.
+1. Høyreklikk på en kolonneoverskrift, eller klikk på <i class="ph ph-gear" aria-label="Gear"></i> øverst til høyre i listen.
+1. Se **Aktiver gruppering**.
+1. Klikk på **OK**.
+1. Klikk på kolonneoverskriften for verdien du vil gruppere på, og dra den til området over kolonnene ("Dra en kolonneoverskrift og ..."). Listen er nå gruppert etter denne verdien.
+1. Hvis du vil gruppere etter flere verdier, klikker og drar du en annen kolonneoverskrift til samme område.
+1. Klikk og dra gruppeverdiene for å endre rekkefølgen på grupperingsnivåene.
+1. Klikk på en gruppeverdi for å endre sorteringsrekkefølgen.
 
 > [!NOTE]
 > Hvis du navigerer til en annen fane, tilbakestilles grupperingen.

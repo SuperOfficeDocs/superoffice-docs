@@ -75,13 +75,13 @@ Eine **Gruppe** wird dem Benutzer zugewiesen und gewährt Zugriff auf Datenobjek
 
 ![Diagramm für Gruppenmitgliedschaft][img5]
 
-In diesem Beispiel hat Benutzer A Marketing als andere Gruppe und Benutzer B hat Marketing als primäre Gruppe. In diesem Fall, wenn Benutzer A Daten sehen möchte, die von Benutzer B erstellt wurden, muss in der Rolle von Benutzer A die Rechte „Lesen“ neben allen Datenobjekten in der Spalte *Andere Gruppe* vorhanden sein. Dies liegt daran, dass die Marketing‑Gruppe die andere Gruppe für Benutzer A ist und sie mit Datensätzen verknüpft, die Benutzer B erstellt.
+In diesem Beispiel hat Benutzer A Marketing als andere Gruppe und Benutzer B hat Marketing als primäre Gruppe. In diesem Fall, wenn Benutzer A Daten sehen möchte, die von Benutzer B erstellt wurden, muss in der Rolle von Benutzer A die Rechte „Lesen" neben allen Datenobjekten in der Spalte *Andere Gruppe* vorhanden sein. Dies liegt daran, dass die Marketing‑Gruppe die andere Gruppe für Benutzer A ist und sie mit Datensätzen verknüpft, die Benutzer B erstellt.
 
 Eine Gruppe kann auch Zugriff auf Listenelemente (5 im Diagramm) in SuperOffice CRM gewähren. Dies ist nur relevant, wenn Sie die Einstellung **Gruppierung und Filterung** (a) für Ihre Listen verwenden. Ist diese Einstellung nicht aktiviert, haben alle Benutzer Zugriff auf alle Listen in SuperOffice CRM. Gruppierung und Filterung sind besonders nützlich, wenn viele Benutzer mit verschiedenen Verantwortlichkeiten Zugriff auf das System haben. Auf diese Weise können Sie vermeiden, dass bestimmte Benutzer auf Informationen zugreifen, die sie nicht sehen sollten.
 
 ![Gruppierung und Filterung nach Benutzergruppe für Dokumentvorlagen‑Liste –screenshot][img6]
 
-Beispielsweise wenn Sie ein bestimmtes Listenelement nur für bestimmte Benutzer sichtbar machen möchten, gehen Sie zur Liste, die diese Elemente enthält (a), wählen das Element aus (b) und setzen im Feld „Sichtbar für Benutzergruppen“ ein Häkchen bei den Benutzergruppen, die das Listenelement sehen sollen (c).
+Beispielsweise wenn Sie ein bestimmtes Listenelement nur für bestimmte Benutzer sichtbar machen möchten, gehen Sie zur Liste, die diese Elemente enthält (a), wählen das Element aus (b) und setzen im Feld „Sichtbar für Benutzergruppen" ein Häkchen bei den Benutzergruppen, die das Listenelement sehen sollen (c).
 
 ![Präferenz‑Ebene Auswahl Gruppe für Follow‑up –screenshot][img7]
 
@@ -129,13 +129,13 @@ Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
 > Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gefiltert werden soll.
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
-2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
-3. Wählen Sie **Filter aktivieren**.
-4. Klicken Sie auf **OK**. Es werden Filter-Schaltflächen zu jeder Spaltenkopfzeile hinzugefügt.
-5. Klicken Sie in der zu filternden Spalte auf <i class="ph ph-funnel" aria-label="Filter icon"></i>.
-6. Wählen Sie die entsprechenden Werte in der Liste aus. Bei einer langen Liste verwenden Sie die Suchfunktion.
-7. Klicken Sie auf **Filter**.
-8. Gehen Sie wie in Schritt 5-7 erläutert vor, um nach weiteren Spalten zu filtern.
+1. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
+1. Wählen Sie **Filter aktivieren**.
+1. Klicken Sie auf **OK**. Es werden Filter-Schaltflächen zu jeder Spaltenkopfzeile hinzugefügt.
+1. Klicken Sie in der zu filternden Spalte auf <i class="ph ph-funnel" aria-label="Filter icon"></i>.
+1. Wählen Sie die entsprechenden Werte in der Liste aus. Bei einer langen Liste verwenden Sie die Suchfunktion.
+1. Klicken Sie auf **Filter**.
+1. Gehen Sie wie in Schritt 5-7 erläutert vor, um nach weiteren Spalten zu filtern.
 
 #### Gruppieren der Liste
 
@@ -145,13 +145,13 @@ Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und �
 > Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][14]).
 
 1. Gehen Sie zur Registerkarte **Mitarbeiter**.
-2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
-3. Wählen Sie **Gruppierung aktivieren**.
-4. Klicken Sie auf **OK**.
-5. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten ("Ziehen Sie einen Spaltenkopf ..."). Die Liste wird nun nach diesem Wert gruppiert.
-6. Um nach weiteren Werten zu gruppieren, klicken Sie auf einen anderen Spaltenkopf und ziehen ihn in denselben Bereich.
-7. Klicken Sie auf die Gruppenwerte und ziehen Sie sie, um die Reihenfolge der Gruppierungsebenen zu ändern.
-8. Klicken Sie auf einen Gruppenwert, um die Sortierreihenfolge zu ändern.
+1. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
+1. Wählen Sie **Gruppierung aktivieren**.
+1. Klicken Sie auf **OK**.
+1. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten ("Ziehen Sie einen Spaltenkopf ..."). Die Liste wird nun nach diesem Wert gruppiert.
+1. Um nach weiteren Werten zu gruppieren, klicken Sie auf einen anderen Spaltenkopf und ziehen ihn in denselben Bereich.
+1. Klicken Sie auf die Gruppenwerte und ziehen Sie sie, um die Reihenfolge der Gruppierungsebenen zu ändern.
+1. Klicken Sie auf einen Gruppenwert, um die Sortierreihenfolge zu ändern.
 
 > [!NOTE]
 > Wenn Sie zu einer anderen Registerkarte wechseln, wird das Gruppieren zurückgesetzt.

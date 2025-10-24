@@ -3,4 +3,4 @@
 > Anonyma användare och externa användare kräver en [separat licens][1].
 
 <!-- Referenced links -->
-[1]: ../../../license/learn/index.md
+[1]: ../../license/index.md

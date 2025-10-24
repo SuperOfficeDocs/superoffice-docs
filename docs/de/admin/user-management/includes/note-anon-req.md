@@ -3,4 +3,4 @@
 > Anonyme und externe Benutzer benötigen eine [separate Lizenz][1].
 
 <!-- Referenced links -->
-[1]: ../../../license/learn/index.md
+[1]: ../../license/index.md

@@ -75,13 +75,13 @@ Een **groep** wordt toegewezen aan de gebruiker en geeft toegang tot gegevensobj
 
 ![Groepslidmaatschap‑diagram][img5]
 
-In dit voorbeeld heeft gebruiker A Marketing als andere groep en gebruiker B heeft Marketing als primaire groep. In dit geval, als gebruiker A gegevens wil zien die door gebruiker B zijn gemaakt, moet de rol van gebruiker A de rechten “Lezen” hebben naast alle gegevensobjecten in de kolom *Andere groep*. Dit komt doordat Marketing‑groep de andere groep is voor gebruiker A en hen verbindt met de records die gebruiker B aanmaakt.
+In dit voorbeeld heeft gebruiker A Marketing als andere groep en gebruiker B heeft Marketing als primaire groep. In dit geval, als gebruiker A gegevens wil zien die door gebruiker B zijn gemaakt, moet de rol van gebruiker A de rechten "Lezen" hebben naast alle gegevensobjecten in de kolom *Andere groep*. Dit komt doordat Marketing‑groep de andere groep is voor gebruiker A en hen verbindt met de records die gebruiker B aanmaakt.
 
 Een groep kan ook toegang geven tot lijstitems (5 in het diagram) in SuperOffice CRM. Dit is alleen van toepassing als u de instelling **Groepering en filtering** (a) op uw lijsten gebruikt. Als deze instelling niet geactiveerd is, hebben alle gebruikers toegang tot alle lijsten in SuperOffice CRM. Groepering en filtering zijn bijzonder handig wanneer veel gebruikers met verschillende verantwoordelijkheden toegang hebben tot het systeem. Op deze manier kunt u voorkomen dat bepaalde gebruikers toegang krijgen tot informatie die zij niet zouden moeten zien.
 
 ![Groepering en filtering op basis van gebruikersgroep voor document‑sjabloonlijst –screenshot][img6]
 
-Bijvoorbeeld, als u een specifiek lijstitem alleen zichtbaar wilt maken voor bepaalde gebruikers, moet u naar de lijst gaan die deze items bevat (a), het item selecteren (b) en in het vak “Zichtbaar voor gebruikersgroepen”, een vinkje zetten bij de gebruikersgroepen die het lijstitem moeten zien (c).
+Bijvoorbeeld, als u een specifiek lijstitem alleen zichtbaar wilt maken voor bepaalde gebruikers, moet u naar de lijst gaan die deze items bevat (a), het item selecteren (b) en in het vak "Zichtbaar voor gebruikersgroepen", een vinkje zetten bij de gebruikersgroepen die het lijstitem moeten zien (c).
 
 ![Selecteer voorkeur‑niveau groep voor opvolging –screenshot][img7]
 
@@ -129,13 +129,13 @@ U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
 > Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt filteren.
 
 1. Ga naar het tabblad **Medewerkers**.
-2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
-3. Selecteer **Filter inschakelen**.
-4. Klik op **OK.** Aan elke kolomkop worden filterknoppen toegevoegd.
-5. Klik op <i class="ph ph-funnel" aria-label="Filter icon"></i> in de kolom die u wilt filteren.
-6. Selecteer de relevante waarden in de lijst. Gebruik de zoekfunctie als de lijst lang is.
-7. Klik op **Filter**.
-8. Herhaal de stappen 5-7 om op extra kolommen te filteren.
+1. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
+1. Selecteer **Filter inschakelen**.
+1. Klik op **OK.** Aan elke kolomkop worden filterknoppen toegevoegd.
+1. Klik op <i class="ph ph-funnel" aria-label="Filter icon"></i> in de kolom die u wilt filteren.
+1. Selecteer de relevante waarden in de lijst. Gebruik de zoekfunctie als de lijst lang is.
+1. Klik op **Filter**.
+1. Herhaal de stappen 5-7 om op extra kolommen te filteren.
 
 #### De lijst groeperen
 
@@ -145,13 +145,13 @@ U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep 
 > Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][14]).
 
 1. Ga naar het tabblad **Medewerkers**.
-2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
-3. Selecteer **Groepering inschakelen**.
-4. Klik op **OK**.
-5. Klik op de kolomkop voor de waarde waarmee wilt groeperen en sleep deze naar het gebied boven de kolommen ("Sleep een kolomkop en ..."). De lijst is gegroepeerd op deze waarde.
-6. Als u wilt groeperen op extra waarden, klikt u op een andere kolomkop en sleept u deze naar hetzelfde gebied.
-7. Klik en sleep de groepswaarden om de volgorde van de groeperingsniveaus te wijzigen.
-8. Klik op een groepswaarde om de sorteervolgorde te wijzigen.
+1. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
+1. Selecteer **Groepering inschakelen**.
+1. Klik op **OK**.
+1. Klik op de kolomkop voor de waarde waarmee wilt groeperen en sleep deze naar het gebied boven de kolommen ("Sleep een kolomkop en ..."). De lijst is gegroepeerd op deze waarde.
+1. Als u wilt groeperen op extra waarden, klikt u op een andere kolomkop en sleept u deze naar hetzelfde gebied.
+1. Klik en sleep de groepswaarden om de volgorde van de groeperingsniveaus te wijzigen.
+1. Klik op een groepswaarde om de sorteervolgorde te wijzigen.
 
 > [!NOTE]
 > Als u naar een ander tabblad navigeert, wordt de groepering opnieuw ingesteld.

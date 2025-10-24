@@ -75,13 +75,13 @@ En **grupp** tilldelas användaren och ger åtkomst till dataobjekt (4 i föreg�
 
 ![Diagram för gruppmedlemskap][img5]
 
-I detta exempel har användare A Marketing som annan grupp och användare B har Marketing som primär grupp. I detta fall, om användare A vill se data som skapats av användare B, måste användare A:s roll ha rättigheten “Läs” bredvid alla dataobjekt i kolumnen *Annan grupp*. Detta beror på att Marketing‑gruppen är annan grupp för användare A och binder dem till poster som användare B skapar.
+I detta exempel har användare A Marketing som annan grupp och användare B har Marketing som primär grupp. I detta fall, om användare A vill se data som skapats av användare B, måste användare A:s roll ha rättigheten "Läs" bredvid alla dataobjekt i kolumnen *Annan grupp*. Detta beror på att Marketing‑gruppen är annan grupp för användare A och binder dem till poster som användare B skapar.
 
 En grupp kan också ge åtkomst till listelement (5 i diagrammet) i SuperOffice CRM. Detta gäller endast om du använder inställningen **Gruppering och filtrering** (a) för dina listor. Om denna inställning inte är aktiverad, har alla användare åtkomst till alla listor i SuperOffice CRM. Gruppering och filtrering är särskilt användbart då många användare med olika ansvar får tillgång till systemet. På så sätt kan du undvika att vissa användare får åtkomst till information som de inte borde se.
 
 ![Gruppering och filtrering efter användargrupp för dokumentmall‑lista –screenshot][img6]
 
-Till exempel, om du vill göra ett visst listelement synligt endast för vissa användare, går du till den lista som lagrar dessa element (a), väljer elementet (b) och i rutan “Synligt för användargrupper”, markerar du de användargrupper som ska se listelementet (c).
+Till exempel, om du vill göra ett visst listelement synligt endast för vissa användare, går du till den lista som lagrar dessa element (a), väljer elementet (b) och i rutan "Synligt för användargrupper", markerar du de användargrupper som ska se listelementet (c).
 
 ![Välj preferensnivå grupp för uppföljning –screenshot][img7]
 
@@ -129,13 +129,13 @@ Du kan filtrera listan över användare efter kolumnrubrikerna.
 > Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att filtrera på.
 
 1. Gå till fliken **Medarbetare**.
-2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
-3. Välj **Aktivera filter**.
-4. Klicka på **OK**. Filterknappar läggs till i varje kolumnrubrik.
-5. Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i> i den kolumn du vill filtrera.
-6. Markera relevanta värden i listan. Använd sökfunktionen om listan är lång.
-7. Klicka på **Filter**.
-8. Upprepa steg 5–7 för att filtrera fler kolumner.
+1. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
+1. Välj **Aktivera filter**.
+1. Klicka på **OK**. Filterknappar läggs till i varje kolumnrubrik.
+1. Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i> i den kolumn du vill filtrera.
+1. Markera relevanta värden i listan. Använd sökfunktionen om listan är lång.
+1. Klicka på **Filter**.
+1. Upprepa steg 5–7 för att filtrera fler kolumner.
 
 #### Gruppera listan
 
@@ -145,13 +145,13 @@ Du kan gruppera användarlistan efter roll, användarplan, primärgrupp och likn
 > Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att gruppera efter (se även [Anpassa översikter][14]).
 
 1. Gå till fliken **Medarbetare**.
-2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
-3. Välj **Aktivera gruppering**.
-4. Klicka på **OK**.
-5. Klicka på kolumnrubriken för det värde som du vill gruppera och dra det till området ovanför kolumnerna ("Dra en kolumnrubrik och ..."). Listan grupperas nu efter det värdet.
-6. Om du vill gruppera efter ytterligare värden klickar du på och drar en annan kolumnrubrik till samma område.
-7. Klicka och dra gruppvärdena om du vill ändra ordningen på grupperingsnivåerna.
-8. Klicka på ett gruppvärde om du vill ändra sorteringsordningen.
+1. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
+1. Välj **Aktivera gruppering**.
+1. Klicka på **OK**.
+1. Klicka på kolumnrubriken för det värde som du vill gruppera och dra det till området ovanför kolumnerna ("Dra en kolumnrubrik och ..."). Listan grupperas nu efter det värdet.
+1. Om du vill gruppera efter ytterligare värden klickar du på och drar en annan kolumnrubrik till samma område.
+1. Klicka och dra gruppvärdena om du vill ändra ordningen på grupperingsnivåerna.
+1. Klicka på ett gruppvärde om du vill ändra sorteringsordningen.
 
 > [!NOTE]
 > Om du navigerar till en annan flik återställs grupperingen.
