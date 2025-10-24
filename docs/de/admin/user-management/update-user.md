@@ -9,8 +9,13 @@ version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: 
+  - /de/admin/user-management/learn/delete-user
+  - /de/admin/user-management/learn/update-user
 language: de
-redirect_from: /de/admin/user-management/learn/delete-user
 ---
 
 # Benutzerinformationen aktualisieren
@@ -21,7 +26,9 @@ Um einen Benutzer (Mitarbeiter) zu aktualisieren, zu verschieben oder zu lösche
 
 1. Wählen Sie die Registerkarte **Mitarbeiter** aus.
 
-1. [!include[Select user](includes/select-user.md)]
+1. Wählen Sie den gewünschten Benutzer in der Liste aus.
+
+    * Die Informationen des Benutzers werden im Vorschaubereich auf der rechten Seite angezeigt.
 
 ## Mitarbeiter bearbeiten
 

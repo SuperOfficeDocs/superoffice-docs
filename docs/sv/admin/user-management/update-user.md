@@ -9,7 +9,12 @@ version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /sv/admin/user-management/learn/delete-user
+category: identity management
+topic: user
+index: true
+redirect_from: 
+  - /sv/admin/user-management/learn/delete-user
+  - /sv/admin/user-management/learn/update-user
 language: sv
 ---
 
@@ -21,7 +26,9 @@ För att uppdatera, flytta eller ta bort en användare (anställd) börjar du me
 
 1. Välj fliken **Medarbetare**.
 
-1. [!include[Select user](includes/select-user.md)]
+1. Välj önskad användare i användarlistan.
+
+    * Användarens information visas i förhandsgranskningen till höger.
 
 ## Redigera medarbetare
 

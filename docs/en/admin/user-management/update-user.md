@@ -9,10 +9,13 @@ version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: user
+index: true
 redirect_from: 
   - /en/admin/user-management/learn/delete-user
   - /en/admin/user-management/learn/update-user
+language: en
 ---
 
 # Update users
@@ -23,7 +26,7 @@ To update or delete a user (associate), start by selecting the user from the **A
 
 1. Select the **Associates** tab.
 
-1. Select the required user in the list of users.
+1. Select the required user in the list.
 
     * The user's information is displayed in the preview section on the right.
 

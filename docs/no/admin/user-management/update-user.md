@@ -9,8 +9,13 @@ version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: 
+  - /no/admin/user-management/learn/delete-user
+  - /no/admin/user-management/learn/update-user
 language: no
-redirect_from: /no/admin/user-management/learn/delete-user
 ---
 
 # Oppdatere brukerinformasjon
@@ -21,7 +26,9 @@ For å oppdatere, flytte eller slette en bruker (assosiert), må du først velge
 
 1. Velg fanen **Medarbeidere**.
 
-1. [!include[Select user](includes/select-user.md)]
+1. Merk ønsket bruker i listen.
+
+    * Brukerens informasjon vises i forhåndsvisningen til høyre.
 
 ## Redigere medarbeider
 

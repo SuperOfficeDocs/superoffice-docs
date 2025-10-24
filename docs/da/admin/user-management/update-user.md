@@ -9,8 +9,13 @@ version: 11.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: 
+  - /da/admin/user-management/learn/delete-user
+  - /da/admin/user-management/learn/update-user
 language: da
-redirect_from: /da/admin/user-management/learn/delete-user
 ---
 
 # Opdater brugeroplysninger
@@ -21,7 +26,9 @@ For at opdatere, flytte eller slette en bruger (assistent), skal du først vælg
 
 1. Vælg fanen **Medarbejdere**.
 
-1. [!include[Select user](includes/select-user.md)]
+1. Marker den ønskede bruger på listen.
+
+    * Brugerens oplysninger vises i forhåndsvisningen til højre.
 
 ## Rediger medarbejder
 
