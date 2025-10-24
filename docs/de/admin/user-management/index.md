@@ -32,7 +32,7 @@ Das folgende Diagramm zeigt ein Modell, wie das Zugriffssystem in SuperOffice 
 
 Eine [Rolle][6] hat eine Menge von Daten‑ und [funktionalen Rechten][7], und eine Gruppenzuordnung gewährt Zugriff auf Datenobjekte, verschiedene SuperOffice‑Listen und hilft dabei, Systemeinstellungen effizienter zu setzen.
 
-Das System erlaubt Ihnen, den Zugriff auf Firmen, Kontakte, Projekte, Projektmitglieder, Auswahlen, Verkäufe, Stakeholder (im Verkauf), Follow‑ups, Dokumente (einschließlich E‑Mails und Mailings), Beziehungen (Kontakt und Firma), und Dashboards zu konfigurieren. All diese unterschiedlichen Arten von Datensätzen werden **Datenobjekte** genannt.
+Das System erlaubt Ihnen, den Zugriff auf Firmen, Persone, Projekte, Projektmitglieder, Selektionen, Verkäufe, Stakeholder (im Verkauf), Folgeaufgaben, Dokumente (einschließlich E‑Mails und Mailings), Beziehungen (Person und Firma), und Dashboards zu konfigurieren. All diese unterschiedlichen Arten von Datensätzen werden **Datenobjekte** genannt.
 
 Jedes Datenobjekt gehört einem Benutzer, der Sie selbst (a), Benutzer in Ihrer primären Gruppe (b), Benutzer Ihrer anderen Gruppen (c), andere Mitarbeiter, mit denen Sie nicht über eine Ihrer Gruppen verbunden sind (d), externe Benutzer (e), und anonyme Benutzer (f) sein kann.
 

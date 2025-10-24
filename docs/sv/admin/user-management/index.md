@@ -32,13 +32,13 @@ Följande diagram visar en modell för hur åtkomsträttighetssystemet fungerar 
 
 En [roll][6] har en uppsättning data‑ och [funktionella rättigheter][7], och en grupptilldelning ger tillgång till dataobjekt, olika SuperOffice‑listor och hjälper till att ställa in systempreferenser mer effektivt.
 
-Systemet gör det möjligt att konfigurera åtkomst till företag, kontakter, projekt, projektmedlemmar, urval, försäljning, intressenter (av försäljning), uppföljningar, dokument (inklusive e‑post och utskick), relationer (kontakt och företag), och dashboards. Alla dessa olika typer av poster kallas **dataobjekt**.
+Systemet gör det möjligt att konfigurera åtkomst till företag, kontakter, projekt, projektmedlemmar, urval, försäljning, intressenter (av försäljning), händelser, dokument (inklusive e‑post och utskick), relationer (kontakt och företag), och dashboards. Alla dessa olika typer av poster kallas **dataobjekt**.
 
 Varje dataobjekt tillhör en användare som kan vara du själv (a), användare i din primära grupp (b), användare som tillhör dina andra grupper (c), andra medarbetare som du inte är kopplad till via någon av dina grupper (d), externa användare (e), och anonyma användare (f).
 
 ![Roller ‑ Medarbetare‑skärm, fliken data‑rättigheter ‑screenshot][img2]
 
-Ägandet av olika dataobjekt ställs in via olika fält. Till exempel anger fältet **Vår kontakt** i företagskortet ägaren av posten. För uppföljningar är det fältet **Ägare**, i projektet **Ansvarig**, och så vidare.
+Ägandet av olika dataobjekt ställs in via olika fält. Till exempel anger fältet **Vår kontakt** i företagskortet ägaren av posten. För händelser är det fältet **Ägare**, i projektet **Ansvarig**, och så vidare.
 
 ## <a id="visible"></a>Synlighet
 

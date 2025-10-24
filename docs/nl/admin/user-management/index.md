@@ -32,7 +32,7 @@ Het volgende diagram toont een model van hoe het toegangsrechtensysteem werkt in
 
 Een [rol][6] heeft een set gegevens‑ en [functionele rechten][7], en een groepsinstelling verleent toegang tot gegevensobjecten, diverse SuperOffice‑lijsten, en helpt bij het efficiënter instellen van systeemvoorkeuren.
 
-Het systeem stelt je in staat om toegang te configureren tot bedrijven, contacten, projecten, projectleden, selecties, verkopen, stakeholders (van verkoop), opvolgingen, documenten (inclusief e‑mails en mailings), relaties (contact en bedrijf), en dashboards. Al deze verschillende soorten records worden **gegevensobjecten** genoemd.
+Het systeem stelt je in staat om toegang te configureren tot bedrijven, personen, projecten, projectleden, selecties, verkopen, stakeholders (van verkoop), vervolgactiviteiten, documenten (inclusief e‑mails en mailings), relaties (persoon en bedrijf), en dashboards. Al deze verschillende soorten records worden **gegevensobjecten** genoemd.
 
 Elk gegevensobject behoort toe aan een gebruiker die onder u valt zelf (a), gebruikers in uw primaire groep (b), gebruikers die tot uw andere groepen behoren (c), andere medewerkers waarmee u geen groepsverbinding heeft (d), externe gebruikers (e), en anonieme gebruikers (f).
 

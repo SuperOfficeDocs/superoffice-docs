@@ -32,7 +32,7 @@ Følgende diagram viser en model af, hvordan adgangsrettighedssystemet fungerer 
 
 En [rolle][6] har et sæt data‑ og [funktionelle rettigheder][7], og en gruppetildeling giver adgang til dataobjekter, forskellige SuperOffice‑lister og hjælper med at indstille systempræferencer effektivere.
 
-Systemet giver dig mulighed for at konfigurere adgang til firmaer, kontakter, projekter, projektmedlemmer, udvalg, salg, interessenter (af salg), opfølgninger, dokumenter (inklusive e‑mails og udsendelser), relationer (kontakt og firma), og dashboards. Alle disse forskellige typer poster kaldes **dataobjekter**.
+Systemet giver dig mulighed for at konfigurere adgang til firmaer, personer, projekter, projektmedlemmer, udvalg, salg, interessenter (af salg), opfølgninger, dokumenter (inklusive e‑mails og udsendelser), relationer (person og firma), og dashboards. Alle disse forskellige typer poster kaldes **dataobjekter**.
 
 Hvert dataobjekt tilhører en bruger som kan være dig selv (a), brugere i din primære gruppe (b), brugere der tilhører dine øvrige grupper (c), andre medarbejdere som du ikke er forbundet med via nogen af dine grupper (d), eksterne brugere (e), og anonyme brugere (f).
 
