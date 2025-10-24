@@ -104,7 +104,7 @@ Se denne demoen for å se hvordan du legger til en ny bruker i SuperOffice CRM.
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
-[5]: other-users.md
+[5]: onsite/other-users.md
 [6]: update-user.md
 
 <!-- Referenced images -->

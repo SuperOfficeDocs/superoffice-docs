@@ -50,4 +50,4 @@ Um einen Benutzer (Mitarbeiter) zu aktualisieren, zu verschieben oder zu lösche
 * [Anonymen Benutzer oder Systembenutzer bearbeiten oder löschen (vor Ort)][1]
 
 <!-- Referenced links -->
-[1]: other-users.md
+[1]: onsite/other-users.md

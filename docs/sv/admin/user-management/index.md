@@ -135,7 +135,7 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 [1]: role/index.md
 [2]: add-associate.md
 [3]: ../../license/change-user-plan.md
-[4]: role/edit-rights-for-anonymous-users.md
+[4]: onsite/other-users.md#rights
 [6]: ../../license/learn/activate.md
 [7]: ../../../../../integrations/webtools/install.md
 

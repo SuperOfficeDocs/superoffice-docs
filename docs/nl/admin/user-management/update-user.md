@@ -50,4 +50,4 @@ Om een gebruiker (medewerker) bij te werken, te verplaatsen of te verwijderen, s
 * [Anonieme gebruikers of systeemgebruikers bewerken of verwijderen (lokaal)][1]
 
 <!-- Referenced links -->
-[1]: other-users.md
+[1]: onsite/other-users.md

@@ -50,4 +50,4 @@ For at opdatere, flytte eller slette en bruger (assistent), skal du først vælg
 * [Rediger eller slet anonym bruger eller systembruger (onsite)][1]
 
 <!-- Referenced links -->
-[1]: other-users.md
+[1]: onsite/other-users.md

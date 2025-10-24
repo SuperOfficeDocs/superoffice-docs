@@ -54,4 +54,4 @@ To update or delete a user (associate), start by selecting the user from the **A
 * [Edit or delete anonymous or system user (onsite)][1]
 
 <!-- Referenced links -->
-[1]: other-users.md
+[1]: onsite/other-users.md

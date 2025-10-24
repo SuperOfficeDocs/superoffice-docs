@@ -2,55 +2,70 @@
 uid: help-nl-user-other
 title: Andere gebruikers beheren
 description: Anonieme gebruikers en systeemgebruikers beheren (op locatie)
-author: Bergfrid
-date: 03.15.2023
-keywords: gebruiker, anoniem, systeemgebruiker
+keywords: anonieme gebruiker, systeemgebruiker, Andere gebruikers
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: nl
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /nl/admin/user-management/learn/other-users
+  - /nl/admin/user-management/learn/role/edit-rights-for-anonymous-users
+language: nl
 ---
 
 # Anonieme gebruikers en systeemgebruikers beheren (op locatie)
 
-* **Systeemgebruiker**: [!include[Access rights](includes/def-system-user.md)]
-* **Anoniem**: [!include[Access rights](includes/def-anon-user.md)]
+* **Systeemgebruiker**: Systeemgebruikers kunnen zich via toepassingen van derden bij het systeem aanmelden en hebben alle rechten.
+* **Anoniem**: Anonieme gebruikers hebben rechten op basis van de [rol voor anonieme gebruikers](#rights). Normaalgesproken is het niet nodig meer dan een anonieme gebruiker in te stellen.
 
 > [!NOTE]
-> Anonieme gebruikers en systeemgebruikers hebben de **SuperOffice Expander Services**-systeemlicentie nodig. [Lees meer][1].
+> Anonieme gebruikers en systeemgebruikers hebben de [SuperOffice Expander Services][1]-systeemlicentie nodig en kan worden beheerd op het tabblad **Andere gebruikers**.
+>
+> 1. Selecteer <i class="ph ph-user" aria-hidden="true"></i> **Gebruikers** in de Navigator.
+> 1. Selecteer het tabblad **Andere gebruikers**. De weergegeven lijst bevat bestaande anonieme gebruikers en systeemgebruikers.
 
 ## Anonieme gebruiker of systeemgebruiker toevoegen
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. klik op **Toevoegen** onder de lijst.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Voer een ID in het veld **Gebruikers-ID** in.
 
-3. klik op **Toevoegen** onder de lijst.
+1. Typ desgewenst een wachtwoord voor de gebruiker in het veld **Wachtwoord**.
 
-4. Voer een ID in het veld **Gebruikers-ID** in.
+1. Typ, voorzover van toepassing, een beschrijving van de gebruiker in het vak **Beschrijving**.
 
-5. Typ desgewenst een wachtwoord voor de gebruiker in het veld **Wachtwoord**.
+1. Selecteer **Type**: **Systeemgebruiker** of **Anoniem**
 
-6. Typ, voorzover van toepassing, een beschrijving van de gebruiker in het vak **Beschrijving**.
+1. Selecteer **Actief** rechts van **Aanmelden** om de gebruiker te activeren.
 
-7. Selecteer **Type**: **Systeemgebruiker** of **Anoniem**
-
-8. Selecteer **Actief** rechts van **Aanmelden** om de gebruiker te activeren.
-
-9. Klik op **Opslaan**. De gebruiker wordt nu toegevoegd aan de lijst.
+1. Klik op **Opslaan**. De gebruiker wordt nu toegevoegd aan de lijst.
 
 ## Anoniem gebruiker of systeemgebruiker bewerken
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. Dubbelklik in de lijst op de gebruiker die u wilt bewerken.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Breng de gewenste wijzigingen aan in het dialoogvenster dat wordt weergegeven.
 
-3. Dubbelklik in de lijst op de gebruiker die u wilt bewerken.
+1. Klik op **Opslaan** om af te sluiten.
 
-4. Breng de gewenste wijzigingen aan in het dialoogvenster dat wordt weergegeven.
+## <a id="rights"></a>Rechten voor anonieme gebruikers bewerken (lokaal)
 
-5. Klik op **Opslaan** om af te sluiten.
+Er is slechts een enkele rol voor anonieme gebruikers en alleen de gegevensrechten voor die rol kunnen worden bewerkt.
+
+1. [!include[Open Roles](../includes/open-roles.md)]
+
+1. Selecteer het tabblad **Anoniem**.
+
+1. [Voer de gegevensrechten in op het tabblad **Gegevensrechten**][2].
+
+De wijzigingen worden automatisch opgeslagen.
 
 ## Aanmeldrechten wijzigen voor andere gebruikers
 
@@ -58,28 +73,21 @@ Als een anonieme gebruiker of een systeemgebruiker geen aanmeldrechten meer mag 
 
 ### Een gebruiker deactiveren
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Selecteer in de lijst de actieve gebruiker voor wie u de aanmeldrechten wilt verwijderen en klik op **Aanmelding verwijderen** onder de lijst.
+1. Selecteer in de lijst de actieve gebruiker voor wie u de aanmeldrechten wilt verwijderen en klik op **Aanmelding verwijderen** onder de lijst.
 
     Deze gebruiker kan zich nu niet meer bij het systeem aanmelden.
 
 ### Een gebruiker activeren
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Dubbelklik in de lijst op de gebruiker die u wilt activeren.
-4. Selecteer **Actief** rechts van **Aanmelden** om de gebruiker te activeren.
-5. Klik op **Opslaan**. Deze gebruiker kan zich vervolgens bij het systeem aanmelden.
+1. Dubbelklik in de lijst op de gebruiker die u wilt activeren.
+1. Selecteer **Actief** rechts van **Aanmelden** om de gebruiker te activeren.
+1. Klik op **Opslaan**. Deze gebruiker kan zich vervolgens bij het systeem aanmelden.
 
 ## Anonieme gebruiker of systeemgebruiker verwijderen
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Selecteer de gebruiker die u wilt verwijderen.
-4. Klik op de knop **Verwijderen**. De gebruiker wordt verwijderd uit de lijst.
+1. Selecteer de gebruiker die u wilt verwijderen.
+1. Klik op de knop **Verwijderen**. De gebruiker wordt verwijderd uit de lijst.
 
 <!-- Referenced links -->
 [1]: ../../license/expander-services.md
-
-<!-- Referenced images -->
+[2]: ../role/set-data-rights-for-role.md

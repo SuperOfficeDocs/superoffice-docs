@@ -2,55 +2,70 @@
 uid: help-da-user-other
 title: Administration af andre brugere
 description: Administration af anonyme brugere og systembrugere (onsite)
-author: Bergfrid
-date: 03.15.2023
-keywords: user, anonym, systembruger
+keywords: anonym bruger, systembruger, Andre brugere
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: da
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /da/admin/user-management/learn/other-users
+  - /da/admin/user-management/learn/role/edit-rights-for-anonymous-users
+language: da
 ---
 
 # Administration af anonyme brugere og systembrugere (onsite)
 
-* **Systembruger**: [!include[Access rights](includes/def-system-user.md)]
-* **Anonym**: [!include[Access rights](includes/def-anon-user.md)]
+* **Systembruger**: Systembrugere kan logge på systemet via tredjepartsprogrammer og har alle rettigheder.
+* **Anonym**: Anonyme brugere har rettigheder baseret på [rollen for anonyme brugere](#rights). Det er normalt ikke nødvendigt at have mere end én anonym bruger oprettet.
 
 > [!NOTE]
-> Anonyme brugere og systembrugere har brug for **SuperOffice Expander Services**-systemlicensen. [Læs mere][1].
+> Anonyme brugere og systembrugere har brug for [SuperOffice Expander Services][1]-systemlicensen og kan administreres under fanen **Andre brugere**.
+>
+> 1. Vælg <i class="ph ph-user" aria-hidden="true"></i> **Brugere** i navigatoren.
+> 1. Vælg fanen **Andre brugere**. Listen viser eksisterende anonyme brugere og systembrugere.
 
 ## Tilføjelse af anonym bruger eller systembruger
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. Klik på **Tilføj** under listen.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Indtast et ID i feltet **Bruger-ID**.
 
-3. Klik på **Tilføj** under listen.
+1. Indtast om nødvendigt en adgangskode til brugeren i feltet **Adgangskode**.
 
-4. Indtast et ID i feltet **Bruger-ID**.
+1. Angiv efter behov en beskrivelse af brugeren i feltet **Beskrivelse**.
 
-5. Indtast om nødvendigt en adgangskode til brugeren i feltet **Adgangskode**.
+1. Vælg **Type**: **Systembruger** eller **Anonym**
 
-6. Angiv efter behov en beskrivelse af brugeren i feltet **Beskrivelse**.
+1. Vælg **Aktiv** til højre for **Logon** for at aktivere brugeren.
 
-7. Vælg **Type**: **Systembruger** eller **Anonym**
-
-8. Vælg **Aktiv** til højre for **Logon** for at aktivere brugeren.
-
-9. Klik på **Gem**. Brugeren føjes til listen.
+1. Klik på **Gem**. Brugeren føjes til listen.
 
 ## Rediger anonym bruger eller systembruger
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. På listen, dobbeltklik på den bruger, du vil redigere.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Foretag de ønskede ændringer i den dialogboks, der vises.
 
-3. Dobbeltklik på den bruger, du vil redigere, på listen.
+1. For at afslutte skal du klikke på **Gem**.
 
-4. Foretag de ønskede ændringer i den dialogboks, der vises.
+## <a id="rights"></a>Redigering af rettigheder for anonyme brugere (onsite)
 
-5. For at afslutte skal du klikke på **Gem**.
+Der er kun én rolle for anonyme brugere, og kun datarettighederne for denne rolle kan redigeres.
+
+1. [!include[Open Roles](../includes/open-roles.md)]
+
+1. Vælg fanen **Anonym.**
+
+1. [Angiv datarettighederne under **fanen Datarettigheder** .][2]
+
+Ændringerne gemmes automatisk.
 
 ## Ændring af logonrettigheder for andre brugere
 
@@ -58,28 +73,21 @@ Hvis en anonym bruger eller en systembruger ikke længere skal have mulighed for
 
 ### Deaktivering af en bruger
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Vælg på listen den aktive bruger, du vil fjerne logonrettigheder for, og klik på **Fjern logon** under listen.
+1. Vælg på listen den aktive bruger, du vil fjerne logonrettigheder for, og klik på **Fjern logon** under listen.
 
     Denne bruger kan derefter ikke længere logge på systemet.
 
 ### Aktivering af en bruger
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Dobbeltklik på den bruger, du vil aktivere, på listen.
-4. Vælg **Aktiv** til højre for **Logon** for at aktivere brugeren.
-5. Klik på **Gem**. Denne bruger kan derefter logge på systemet.
+1. Dobbeltklik på den bruger, du vil aktivere, på listen.
+1. Vælg **Aktiv** til højre for **Logon** for at aktivere brugeren.
+1. Klik på **Gem**. Denne bruger kan derefter logge på systemet.
 
 ## Sletning af anonym bruger eller systembruger
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Vælg den bruger, du vil slette.
-4. Klik på knappen **Slet**. Brugeren fjernes fra listen.
+1. Vælg den bruger, du vil slette.
+1. Klik på knappen **Slet**. Brugeren fjernes fra listen.
 
 <!-- Referenced links -->
 [1]: ../../license/expander-services.md
-
-<!-- Referenced images -->
+[2]: ../role/set-data-rights-for-role.md

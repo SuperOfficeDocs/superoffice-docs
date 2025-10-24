@@ -2,55 +2,70 @@
 uid: help-sv-user-other
 title: Hantera andra användare
 description: Hantera anonyma användare och systemanvändare (lokalt)
-author: Bergfrid
-date: 03.15.2023
-keywords: user, anonym, systemanvändare
+keywords: anonyma användare, systemanvändare, Andra användare
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: sv
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /sv/admin/user-management/learn/other-users
+  - /sv/admin/user-management/learn/role/edit-rights-for-anonymous-users
+language: sv
 ---
 
 # Hantera anonyma användare och systemanvändare (lokalt)
 
-* **Systemanvändare**: [!include[Access rights](includes/def-system-user.md)]
-* **Anonym**: [!include[Access rights](includes/def-anon-user.md)]
+* **Systemanvändare**: Systemanvändare kan logga in i systemet via applikationer från tredje part, med fullständiga behörigheter.
+* **Anonym**: Anonyma användare har behörigheter baserat på [rollen för anonyma användare](#rights). Normalt behövs inte mer än en konfiguration för anonyma användare.
 
 > [!NOTE]
-> Anonyma användare och systemanvändare kräver systemlicens för **SuperOffice Expander Services**. [Läs mer][1].
+> Anonyma användare och systemanvändare kräver systemlicens för [SuperOffice Expander Services][1] och kan hanteras på fliken **Andra användare**.
+>
+> 1. Klicka på <i class="ph ph-user" aria-hidden="true"></i> **Användare** i navigatorn.
+> 1. Välj fliken **Andra användare**. Listan visar befintliga anonyma användare och systemanvändare.
 
 ## Lägg till anonym användare eller systemanvändare
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. Klicka på **Lägg till** under listan.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Ange ett ID i fältet **Användar-ID**.
 
-3. Klicka på **Lägg till** under listan.
+1. I fältet **Lösenord** anger du ett lösenord för användaren om det krävs.
 
-4. Ange ett ID i fältet **Användar-ID**.
+1. Lägg eventuellt till en beskrivning av användaren i rutan **Beskrivning**.
 
-5. I fältet **Lösenord** anger du ett lösenord för användaren om det krävs.
+1. Välj **Typ**: **Systemanvändare** eller **Anonym**.
 
-6. Lägg eventuellt till en beskrivning av användaren i rutan **Beskrivning**.
+1. Välj **Aktiv** till höger om **Inloggning** för att aktivera användaren.
 
-7. Välj **Typ**: **Systemanvändare** eller **Anonym**
-
-8. **Välj**Aktiv**till höger om**Inloggning för att aktivera användaren.
-
-9. Klicka på **Spara**. Användaren läggs till i listan.
+1. Klicka på **Spara**. Användaren läggs till i listan.
 
 ## Redigera anonym användare eller systemanvändare
 
-1. [!include[Click Users](includes/goto-users.md)]
+1. I listan, dubbelklicka på den användare du vill redigera.
 
-2. [!include[Select Other users](includes/select-other-users.md)]
+1. Gör önskade ändringar i dialogrutan som visas.
 
-3. Dubbelklicka på den användare du vill redigera i listan.
+1. Klicka på **Spara** för att avsluta.
 
-4. Gör önskade ändringar i dialogrutan som visas.
+## <a id="rights"></a>Redigera behörigheter för anonyma användare
 
-5. Klicka på **Spara** för att avsluta.
+Det finns bara en roll för anonyma användare och endast databehörigheter för den rollen kan redigeras.
+
+1. [!include[Open Roles](../includes/open-roles.md)]
+
+1. Välj fliken **Anonyma**.
+
+1. [Ange databehörigheter på fliken **Databehörigheter**][2].
+
+Ändringarna sparas automatiskt.
 
 ## Ändra inloggningsbehörighet för andra användare
 
@@ -58,28 +73,21 @@ Om en anonym användare eller systemanvändare inte längre ska kunna logga in i
 
 ### Inaktivera en användare
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Välj den aktiva användare som du vill ta bort inloggningsbehörigheterna för i listan och klicka på **Ta bort inloggning** under listan.
+1. Välj den aktiva användare som du vill ta bort inloggningsbehörigheterna för i listan och klicka på **Ta bort inloggning** under listan.
 
     Användaren kan då inte längre logga in i systemet.
 
 ### Aktivera en användare
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Dubbelklicka på den användare du vill aktivera i listan.
-4. Välj **Aktiv** till höger om **Inloggning** för att aktivera användaren.
-5. Klicka på **Spara**. Användaren kan nu logga in i systemet.
+1. Dubbelklicka på den användare du vill aktivera i listan.
+1. Välj **Aktiv** till höger om **Inloggning** för att aktivera användaren.
+1. Klicka på **Spara**. Användaren kan nu logga in i systemet.
 
 ## Ta bort anonyma användare eller systemanvändare
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Markera den användare du vill ta bort.
-4. Klicka på knappen **Ta bort**. Användaren tas bort från listan.
+1. Markera den användare du vill ta bort.
+1. Klicka på knappen **Ta bort**. Användaren tas bort från listan.
 
 <!-- Referenced links -->
 [1]: ../../license/expander-services.md
-
-<!-- Referenced images -->
+[2]: ../role/set-data-rights-for-role.md

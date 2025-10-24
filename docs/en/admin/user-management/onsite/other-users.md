@@ -2,23 +2,28 @@
 uid: help-en-user-other
 title: Manage other users
 description: Manage anonymous users and system users (Onsite)
-author: Bergfrid
-date: 03.15.2023
-keywords: user, anonymous, system user
+keywords: anonymous user, system user, Other users
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
-language: en
+platform: web
+index: true
 redirect_from: 
   - /en/admin/user-management/learn/other-users
   - /en/admin/user-management/learn/role/edit-rights-for-anonymous-users
+language: en
 ---
 
 # Manage anonymous users and system users (Onsite)
 
 * **System user**: System users can log in to the system via third-party applications and have all rights.
-* **Anonymous**: Anonymous users have rights based on the [role for anonymous users][1]. It is not usually necessary to have more than one anonymous user set up.
+* **Anonymous**: Anonymous users have rights based on the [role for anonymous users](#rights). It is not usually necessary to have more than one anonymous user set up.
 
 > [!NOTE]
 > Anonymous users and system users require the [SuperOffice Expander Services][1] system license and can be managed in the **Other users** tab:
@@ -36,7 +41,7 @@ redirect_from:
 
 1. Enter a description of the user, as appropriate, in the **Description** box.
 
-1. Select **Type**: **System user** or **Anonymous**
+1. Select **Type**: **System user** or **Anonymous**.
 
 1. Select **Active** to the right of **Login** to activate the user.
 
@@ -54,11 +59,11 @@ redirect_from:
 
 There is only one role for anonymous users and only the data rights for this role can be edited.
 
-1. [!include[Open Roles](../roles/includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Select the **Anonymous** tab.
+1. Select the **Anonymous** tab.
 
-3. [Enter the data rights in the **Data rights** tab][2].
+1. [Enter the data rights in the **Data rights** tab][2].
 
 The changes are saved automatically.
 

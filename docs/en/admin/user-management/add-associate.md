@@ -156,7 +156,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
-[5]: other-users.md
+[5]: onsite/other-users.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
 [8]: role/set-data-rights-for-role.md
