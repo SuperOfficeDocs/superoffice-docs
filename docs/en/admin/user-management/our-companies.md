@@ -1,18 +1,22 @@
 ---
 uid: help-en-our-companies-manage
-title: Manage "Our companies"
+title: Manage Our companies
 description: How to add and remove companies in the Our companies tab
-author: Bergfrid
-date: 03.15.2023
-keywords: user, our companies
+keywords: our companies
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 platform: web
-language: en
+index: true
 redirect_from: 
   - /en/admin/user-management/learn/move-user
   - /en/admin/user-management/learn/our-companies
+language: en
 ---
 
 # Manage "Our companies"

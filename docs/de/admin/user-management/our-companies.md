@@ -2,15 +2,21 @@
 uid: help-de-our-companies-manage
 title: Unsere Firmen verwalten
 description: Wie man Firmen in der Registerkarte Unsere Firmen hinzufügt oder entfernt
-author: Bergfrid
-date: 03.15.2023
-keywords: user, unsere Firmen
+keywords: unsere Firmen
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: de
+category: identity management
+topic: user
 platform: web
-redirect_from: /de/admin/user-management/learn/move-user
+index: true
+redirect_from: 
+  - /de/admin/user-management/learn/move-user
+  - /de/admin/user-management/learn/our-companies
+language: de
 ---
 
 # Unsere Firmen verwalten
@@ -59,7 +65,7 @@ Sie können einen Benutzer von einer Firma zu einer anderen verschieben, wenn Ih
 
 1. Wählen Sie unter **Aktion für alle vorhandenen Aktivitäten und Verkäufe** eine der folgenden Optionen:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > Um die Ergebnisse anzuzeigen, bevor Sie die Aktion bestätigen, müssen Sie auf <i class="ph ph-info" aria-label="Ergebnisse anzeigen"></i> klicken.
@@ -97,7 +103,7 @@ Die Felder unten entsprechen den Feldern auf der Firmenkarte.
 * Ebenso: Hier können Sie weitere [Suchkriterien][1] festlegen.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: update-user.md#delete
 
 <!-- Referenced images -->

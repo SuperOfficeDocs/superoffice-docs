@@ -1,16 +1,22 @@
 ---
 uid: help-da-our-companies-manage
-title: Administration af 'Vores firmaer'
+title: Administration af Vores firmaer
 description: Sådan tilføjes og fjernes firmaer fra fanen Vores firmaer
-author: Bergfrid
-date: 03.15.2023
-keywords: user, vores firmaer
+keywords: vores firmaer
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: da
+category: identity management
+topic: user
 platform: web
-redirect_from: /da/admin/user-management/learn/move-user
+index: true
+redirect_from: 
+  - /da/admin/user-management/learn/move-user
+  - /da/admin/user-management/learn/our-companies
+language: da
 ---
 
 # Administration af "Vores firmaer"
@@ -59,7 +65,7 @@ Du kan flytte en bruger fra et firma til et andet, hvis din organisation består
 
 1. Vælg et af følgende **Handling på alle eksisterende aktiviteter og salg**:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > Hvis du vil se resultaterne, før du bekræfter handlingen, skal du klikke på <i class="ph ph-info" aria-label="Vis resultater"></i>.
@@ -97,7 +103,7 @@ Felterne nedenfor svarer til felterne på firmakortet.
 * Opfyld også: Her kan du angive yderligere [søgekriterier][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: update-user.md#delete
 
 <!-- Referenced images -->

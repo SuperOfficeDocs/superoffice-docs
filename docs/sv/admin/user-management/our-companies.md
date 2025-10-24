@@ -1,16 +1,22 @@
 ---
 uid: help-sv-our-companies-manage
-title: Hantera 'Våra företag'
+title: Hantera Våra företag
 description: Så lägger du till och tar bort företag på fliken Våra företag
-author: Bergfrid
-date: 03.15.2023
-keywords: user, våra företag
+keywords: våra företag
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: sv
+category: identity management
+topic: user
 platform: web
-redirect_from: /sv/admin/user-management/learn/move-user
+index: true
+redirect_from: 
+  - /sv/admin/user-management/learn/move-user
+  - /sv/admin/user-management/learn/our-companies
+language: sv
 ---
 
 # Hantera "Våra företag"
@@ -59,7 +65,7 @@ Du kan flytta en användare från ett företag till ett annat om din organisatio
 
 1. Välj något av följande under **Åtgärd för alla befintliga aktiviteter och försäljningar**:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > Om du vill se resultaten innan du bekräftar åtgärden klickar du på <i class="ph ph-info" aria-label="Visa resultat"></i>.
@@ -97,7 +103,7 @@ Fälten nedan motsvarar fälten på företagskortet.
 * Uppfyll även: Här kan du ange ytterligare [sökkriterier][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: update-user.md#delete
 
 <!-- Referenced images -->

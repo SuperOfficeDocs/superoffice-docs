@@ -2,14 +2,20 @@
 uid: help-nl-our-companies-manage
 title: Onze bedrijven beheren
 description: Bedrijven toevoegen aan en verwijderen van het tabblad Onze bedrijven
-author: Bergfrid
-date: 03.15.2023
 keywords: gebruiker, onze bedrijven
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 platform: web
-redirect_from: /nl/admin/user-management/learn/move-user
+index: true
+redirect_from: 
+  - /nl/admin/user-management/learn/move-user
+  - /nl/admin/user-management/learn/our-companies
 language: nl
 ---
 
@@ -59,7 +65,7 @@ U kunt een gebruiker van het ene bedrijf naar het andere verplaatsen als uw orga
 
 1. Selecteer een van de volgende opties bij **Actie op alle bestaande activiteiten en verkopen**:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > Als u de resultaten wilt bekijken voordat u de actie bevestigt, klikt u op <i class="ph ph-info" aria-label="Resultaten weergeven"></i>.
@@ -97,7 +103,7 @@ Onderstaande velden komen overeen met de velden op de bedrijfskaart.
 * Zoekcriteria: Hier kunt u nadere [zoekcriteria][1] opgeven.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: update-user.md#delete
 
 <!-- Referenced images -->

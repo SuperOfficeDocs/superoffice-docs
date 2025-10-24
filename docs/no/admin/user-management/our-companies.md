@@ -2,14 +2,21 @@
 uid: help-no-our-companies-manage
 title: Vedlikeholde Våre firmaer
 description: Slik legger du til og fjerner firmaer i fanen Våre firmaer
-author: Bergfrid
-date: 03.15.2023
 keywords: bruker, våre firmaer
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 platform: web
+index: true
+redirect_from: 
+  - /no/admin/user-management/learn/move-user
+  - /no/admin/user-management/learn/our-companies
 language: no
-redirect_from: /no/admin/user-management/learn/move-user
 ---
 
 # Vedlikeholde Våre firmaer
@@ -58,7 +65,7 @@ Du kan flytte en bruker fra ett firma til et annet hvis organisasjonen består a
 
 1. Velg ett av følgende under **Handling på alle eksisterende aktiviteter og salg**:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > For å se resultatene før du bekrefter handlingen, klikk på <i class="ph ph-info" aria-hidden="true"></i>.
@@ -96,7 +103,7 @@ Feltene nedenfor tilsvarer feltene på firmakortet.
 * Tilfredsstill også: Her kan du angi ytterligere [søkekriterier][1].
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: update-user.md#delete
 
 <!-- Referenced images -->
