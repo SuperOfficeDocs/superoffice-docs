@@ -1,20 +1,10 @@
 items:
-  - name: Översikt
+  - name: Introduktion
     href: index.md
   - name: Lägga till SuperOffice-användare
     href: add-associate.md
-  - name: Importera användare från AD
-    href: import-users.md
-  - name: Filtrera och gruppera användare
-    href: associates-filter-group.md
   - name: Redigera eller ta bort användare
     href: update-user.md
-  - name: Hantera anonyma användare och systemanvändare
-    href: other-users.md
-  - name: Hantera externa användare
-    href: managing-external-users.md
-  - name: Logga ut användare
-    href: logging-users-off.md
   - name: Våra företag
     href: our-companies.md
   - name: Hantera användargrupper
@@ -22,3 +12,6 @@ items:
   - name: Roll
     href: role/toc.yml
     topicHref: role/index.md
+  - name: Lokala användare
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md

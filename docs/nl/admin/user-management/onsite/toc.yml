@@ -1,9 +1,9 @@
 items:
-- name: Import users from AD
+- name: Gebruikers importeren uit AD
   href: import-users.md
-- name: Manage anonymous and system users
+- name: Anonieme gebruikers en systeemgebruikers beheren
   href: other-users.md
-- name: Manage external users
+- name: Externe gebruikers beheren
   href: managing-external-users.md
-- name: Log users off
+- name: Gebruikers afmelden
   href: logging-users-off.md

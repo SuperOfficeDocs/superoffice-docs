@@ -1,15 +1,11 @@
- items:
-  - name: Overzicht
-    href: index.md
-  - name: Rol maken
-    href: create-role.md
-  - name: Gegevensrechten voor rol instellen
-    href: set-data-rights-for-role.md
-  - name: Gegevensrechten
-    href: functional-rights.md
-  - name: Rol bewerken
-    href: editing-role.md
-  - name: Rechten voor anonieme gebruikers bewerken
-    href: edit-rights-for-anonymous-users.md
-  - name: Rol verwijderen
-    href: deleting-role.md
+items:
+- name: Introductie
+  href: index.md
+- name: Rol maken
+  href: create-role.md
+- name: Rol bewerken of verwijderen
+  href: update-role.md
+- name: Gegevensrechten voor rol instellen
+  href: set-data-rights-for-role.md
+- name: Gegevensrechten
+  href: functional-rights.md

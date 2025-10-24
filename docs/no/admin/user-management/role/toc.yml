@@ -1,15 +1,11 @@
- items:
-  - name: Oversikt
-    href: index.md
-  - name: Opprette rolle
-    href: create-role.md
-  - name: Angi datarettigheter for rolle
-    href: set-data-rights-for-role.md
-  - name: datarettigheter
-    href: functional-rights.md
-  - name: Redigere rolle
-    href: editing-role.md
-  - name: Redigere rettigheter for anonyme brukere
-    href: edit-rights-for-anonymous-users.md
-  - name: Slette rolle
-    href: deleting-role.md
+items:
+- name: Introduksjon
+  href: index.md
+- name: Opprette rolle
+  href: create-role.md
+- name: Redigere eller slette rolle
+  href: update-role.md
+- name: Angi datarettigheter for rolle
+  href: set-data-rights-for-role.md
+- name: Datarettigheter
+  href: functional-rights.md

@@ -1,20 +1,10 @@
 items:
-  - name: Überblick
+  - name: Einführung
     href: index.md
   - name: SuperOffice-Benutzer hinzufügen
     href: add-associate.md
-  - name: Benutzer aus AD importieren
-    href: import-users.md
-  - name: Benutzer filtern und gruppieren
-    href: associates-filter-group.md
   - name: Benutzer bearbeiten oder löschen
     href: update-user.md
-  - name: Anonyme und Systembenutzer verwalten
-    href: other-users.md
-  - name: Externe Benutzer verwalten
-    href: managing-external-users.md
-  - name: Benutzer abmelden
-    href: logging-users-off.md
   - name: Unsere Firmen
     href: our-companies.md
   - name: Benutzergruppen verwalten
@@ -22,3 +12,6 @@ items:
   - name: Rolle
     href: role/toc.yml
     topicHref: role/index.md
+  - name: Benutzer Vor Ort
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md

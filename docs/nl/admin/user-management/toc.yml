@@ -1,20 +1,10 @@
 items:
-  - name: Overzicht
+  - name: Introductie
     href: index.md
   - name: Een SuperOffice-gebruiker toevoegen
     href: add-associate.md
-  - name: Gebruikers importeren uit AD
-    href: import-users.md
-  - name: Gebruikers filteren en groeperen
-    href: associates-filter-group.md
   - name: Gebruiker bewerken en verwijderen
     href: update-user.md
-  - name: Anonieme gebruikers en systeemgebruikers beheren
-    href: other-users.md
-  - name: Externe gebruikers beheren
-    href: managing-external-users.md
-  - name: Gebruikers afmelden
-    href: logging-users-off.md
   - name: Onze bedrijven
     href: our-companies.md
   - name: Gebruikersgroepen beheren
@@ -22,3 +12,6 @@ items:
   - name: Rol
     href: role/toc.yml
     topicHref: role/index.md
+  - name: Onsite gebruikers
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md
