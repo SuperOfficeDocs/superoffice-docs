@@ -23,7 +23,7 @@ To update or delete a user (associate), start by selecting the user from the **A
 
 1. Select the **Associates** tab.
 
-1. [!include[Select user](includes/select-user.md)]
+1. Select the required user in the list of users.
 
     * The user's information is displayed in the preview section on the right.
 

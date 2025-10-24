@@ -27,7 +27,7 @@ If a user is denied access to SuperOffice CRM, for example, after a program cras
 
 4. Select **Logged-on to Windows client** in the list box below the list of users.
 
-5. [!include[Select user](../includes/select-user.md)]
+5. Select the required user in the list.
 
 6. Click the **Task** button and select **Log user off**. The user is logged off.
 

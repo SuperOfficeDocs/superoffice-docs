@@ -74,7 +74,9 @@ In the **Details** tab, you have the following options:
 
 #### Example
 
-[!include[Example](includes/example-grouping.md)]
+Joe Johnson works in the sales department of a large company. The primary group is set to "Sales" so that Joe has access rights to data created by users in the sales department. The access rights to the primary group are defined in the role Joe belongs to. This role determines if Joe can edit or delete data created by other users in the sales department (see [Define data rights for a role][8]).
+
+Joe also needs limited rights to documents from the marketing department and development department. These two departments are added under **Other groups**. In the role Joe belongs to it is specified that Joe has read access only to these data.
 
 ### [Licences tab](#tab/license)
 
@@ -157,6 +159,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [5]: other-users.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
+[8]: role/set-data-rights-for-role.md
 [9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003
 
 <!-- Referenced images -->

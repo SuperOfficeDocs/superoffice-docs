@@ -61,7 +61,7 @@ You can move a user from one company to another, if your organization consists o
 
 1. Select one of the following under **Action on all existing activities and sales**:
 
-    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
     > [!NOTE]
     > To see the results before you confirm the action, click **Show results** <i class="ph ph-info" aria-hidden="true"></i>.

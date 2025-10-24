@@ -10,48 +10,57 @@ audience: settings
 audience_tooltip: Settings and maintenance
 deployment: onsite
 language: en
-redirect_from: /en/admin/user-management/learn/other-users
+redirect_from: 
+  - /en/admin/user-management/learn/other-users
+  - /en/admin/user-management/learn/role/edit-rights-for-anonymous-users
 ---
 
 # Manage anonymous users and system users (Onsite)
 
-* **System user**: [!include[Access rights](../includes/def-system-user.md)]
-* **Anonymous**: [!include[Access rights](../includes/def-anon-user.md)]
+* **System user**: System users can log in to the system via third-party applications and have all rights.
+* **Anonymous**: Anonymous users have rights based on the [role for anonymous users][1]. It is not usually necessary to have more than one anonymous user set up.
 
 > [!NOTE]
-> Anonymous users and system users require the **SuperOffice Expander Services** system license. [Read more][1].
+> Anonymous users and system users require the [SuperOffice Expander Services][1] system license and can be managed in the **Other users** tab:
+>
+> 1. Select <i class="ph ph-user" aria-hidden="true"></i> **Users** in the Navigator.
+> 1. Select the **Other users** tab. The list displays existing anonymous users and system users.
 
 ## Add anonymous user or system user
 
-1. [!include[Click Users](../includes/goto-users.md)]
+1. Click **Add** below the list.
 
-2. [!include[Select Other users](../includes/select-other-users.md)]
+1. Enter an ID in the **User ID** field.
 
-3. Click **Add** below the list.
+1. Enter, if required, a password for the user in the **Password** field.
 
-4. Enter an ID in the **User ID** field.
+1. Enter a description of the user, as appropriate, in the **Description** box.
 
-5. Enter, if required, a password for the user in the **Password** field.
+1. Select **Type**: **System user** or **Anonymous**
 
-6. Enter a description of the user, as appropriate, in the **Description** box.
+1. Select **Active** to the right of **Login** to activate the user.
 
-7. Select **Type**: **System user** or **Anonymous**
-
-8. Select **Active** to the right of **Login** to activate the user.
-
-9. Click **Save**. The user is added to the list.
+1. Click **Save**. The user is added to the list.
 
 ## Edit anonymous or system user
 
-1. [!include[Click Users](../includes/goto-users.md)]
+1. In the list, double-click the user you want to edit.
 
-2. [!include[Select Other users](../includes/select-other-users.md)]
+1. Make the required changes in the dialog that appears.
 
-3. In the list, double-click the user you want to edit.
+1. To end, click **Save**.
 
-4. Make the required changes in the dialog that appears.
+## <a id="rights"></a>Edit rights for anonymous users
 
-5. To end, click **Save**.
+There is only one role for anonymous users and only the data rights for this role can be edited.
+
+1. [!include[Open Roles](../roles/includes/open-roles.md)]
+
+2. Select the **Anonymous** tab.
+
+3. [Enter the data rights in the **Data rights** tab][2].
+
+The changes are saved automatically.
 
 ## Change login rights for other users
 
@@ -59,28 +68,21 @@ If an anonymous user or a system user is no longer to have the option of logging
 
 ### Deactivate a user
 
-1. [!include[Click Users](../includes/goto-users.md)]
-2. [!include[Select Other users](../includes/select-other-users.md)]
-3. In the list, select the active user who you want to remove login rights for, and click **Remove login** below the list.
+1. In the list, select the active user who you want to remove login rights for, and click **Remove login** below the list.
 
     This user can then no longer log in to the system.
 
 ### Activate a user
 
-1. [!include[Click Users](../includes/goto-users.md)]
-2. [!include[Select Other users](../includes/select-other-users.md)]
-3. In the list, double-click the user you want to activate.
-4. Select **Active** to the right of **Login** to activate the user.
-5. Click **Save**. This user can then log in to the system.
+1. In the list, double-click the user you want to activate.
+1. Select **Active** to the right of **Login** to activate the user.
+1. Click **Save**. This user can then log in to the system.
 
 ## Delete anonymous or system user
 
-1. [!include[Click Users](../includes/goto-users.md)]
-2. [!include[Select Other users](../includes/select-other-users.md)]
-3. Select the user you want to delete.
-4. Click the **Delete** button. The user is removed from the list.
+1. Select the user you want to delete.
+1. Click the **Delete** button. The user is removed from the list.
 
 <!-- Referenced links -->
 [1]: ../../license/expander-services.md
-
-<!-- Referenced images -->
+[2]: ../role/set-data-rights-for-role.md

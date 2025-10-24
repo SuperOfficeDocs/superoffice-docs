@@ -1,0 +1,17 @@
+items:
+  - name: Introduction
+    href: index.md
+  - name: Add SuperOffice user
+    href: add-associate.md
+  - name: Edit or delete associate
+    href: update-user.md
+  - name: Our companies
+    href: our-companies.md
+  - name: Manage user groups
+    href: user-groups.md
+  - name: Role
+    href: role/toc.yml
+    topicHref: role/index.md
+  - name: Onsite users
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md
