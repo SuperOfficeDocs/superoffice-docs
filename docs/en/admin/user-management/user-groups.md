@@ -2,14 +2,18 @@
 uid: help-en-user-group-manage
 title: Manage user groups
 description: How to create and delete user groups
-author: Bergfrid Dias
-date: 08.25.2023
 keywords: user group
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: user
+index: true
 redirect_from: /en/admin/user-management/learn/user-groups
+language: en
 ---
 
 # Manage user groups
