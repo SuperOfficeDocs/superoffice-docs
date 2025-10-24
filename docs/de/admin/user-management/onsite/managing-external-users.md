@@ -3,15 +3,22 @@ uid: help-de-managing-external-users
 title: Externe Benutzer verwalten
 description: Externe Benutzer in Einstellungen und Verwaltung oder in Verbindung mit Audience oder Anwendungen von Drittanbietern hinzufügen und entfernen.
 keywords: externer Benutzer
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
-functional_right: Verwaltung externer Benutzer zulassen
+functional_right: Allow administration of external users
 audience: settings
-audience_tooltip: Einstellungen und Verwaltung
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /de/onsite/win-client/learn/managing-external-users
+  - /de/admin/user-management/learn/managing-external-users
 language: de
-redirect_from: /de/onsite/win-client/learn/managing-external-users
 ---
 
 # Externe Benutzer verwalten

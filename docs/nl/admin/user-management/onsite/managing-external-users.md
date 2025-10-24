@@ -3,15 +3,22 @@ uid: help-nl-managing-external-users
 title: Externe gebruikers beheren
 description: Externe gebruikers toevoegen en verwijderen in Instellingen en onderhoud of in combinatie met Audience of toepassingen van derden.
 keywords: externe gebruiker
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
-functional_right: Beheren van externe gebruikers toestaan
+functional_right: Allow administration of external users
 audience: settings
-audience_tooltip: Instellingen en onderhoud
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /nl/onsite/win-client/learn/managing-external-users
+  - /nl/admin/user-management/learn/managing-external-users
 language: nl
-redirect_from: /nl/onsite/win-client/learn/managing-external-users
 ---
 
 # Externe gebruikers beheren

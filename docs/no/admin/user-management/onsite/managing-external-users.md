@@ -3,15 +3,22 @@ uid: help-no-managing-external-users
 title: Håndtere eksterne brukere
 description: Legge til og fjerne eksterne brukere i Innstillinger og vedlikehold eller i forbindelse med bruk av Audience eller tredjepartsapplikasjoner.
 keywords: ekstern bruker
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
-functional_right: Tillat administrasjon av eksterne brukere
+functional_right: Allow administration of external users
 audience: settings
-audience_tooltip: Innstillinger og vedlikehold
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /no/onsite/win-client/learn/managing-external-users
+  - /no/admin/user-management/learn/managing-external-users
 language: no
-redirect_from: /no/onsite/win-client/learn/managing-external-users
 ---
 
 # Håndtere eksterne brukere

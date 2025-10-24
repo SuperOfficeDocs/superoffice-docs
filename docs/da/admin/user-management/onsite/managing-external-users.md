@@ -3,15 +3,22 @@ uid: help-da-managing-external-users
 title: Håndtering af eksterne brugere
 description: Tilføj og fjern eksterne brugere i Indstillinger og vedligeholdelse eller i forbindelse med Audience eller tredjepartsprogrammer.
 keywords: ekstern bruger
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
-functional_right: Tillad administration af eksterne brugere
+functional_right: Allow administration of external users
 audience: settings
-audience_tooltip: Indstillinger og vedligeholdelse
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /da/onsite/win-client/learn/managing-external-users
+  - /da/admin/user-management/learn/managing-external-users
 language: da
-redirect_from: /da/onsite/win-client/learn/managing-external-users
 ---
 
 # Håndtering af eksterne brugere

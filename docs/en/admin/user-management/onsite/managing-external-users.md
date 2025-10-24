@@ -3,17 +3,22 @@ uid: help-en-managing-external-users
 title: Manage external users
 description: Managing external users
 keywords: external user
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 functional_right: Allow administration of external users
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
-language: en
+platform: web
+index: true
 redirect_from: 
   - /en/onsite/win-client/learn/managing-external-users
   - /en/admin/user-management/learn/managing-external-users
+language: en
 ---
 
 # Manage external users

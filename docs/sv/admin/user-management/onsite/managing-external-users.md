@@ -3,15 +3,22 @@ uid: help-sv-managing-external-users
 title: Hantera externa användare
 description: Lägga till och ta bort externa användare i Inställningar och underhåll eller i samband med Audience eller program från tredje part.
 keywords: extern användare
-author: SuperOffice Product and engineering
-date: 06.29.2022
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
-functional_right: Tillåt administration av externa användare
+functional_right: Allow administration of external users
 audience: settings
-audience_tooltip: Inställningar och underhåll
+audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
+platform: web
+index: true
+redirect_from: 
+  - /sv/onsite/win-client/learn/managing-external-users
+  - /sv/admin/user-management/learn/managing-external-users
 language: sv
-redirect_from: /sv/onsite/win-client/learn/managing-external-users
 ---
 
 # Hantera externa användare
