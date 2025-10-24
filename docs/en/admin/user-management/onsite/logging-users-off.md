@@ -4,15 +4,20 @@ title: Logging users off
 description: Logging users off
 keywords: Log users off, log off, Logged-on to Windows client
 author: SuperOffice Product and Engineering
-date: 09.17.2025
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
-language: en
+platform: web
+index: true
 redirect_from: 
   - /en/onsite/win-client/learn/logging-users-off
   - /en/admin/user-management/learn/logging-users-off
+language: en
 ---
 
 # Log users off (Onsite)
