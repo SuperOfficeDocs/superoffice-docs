@@ -3,25 +3,46 @@ uid: help-sv-users
 title: Användare
 description: Lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
 keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
-author: SuperOffice Product and Engineering
-date: 02.21.2023
+author: digitaldiina
+date: 10.24.2025
 version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-language: sv
+category: identity management
+topic: user
+index: true
 redirect_from: 
+  - /sv/admin/user-management/learn/index
   - /sv/admin/user-management/learn/screen/index
   - /sv/admin/user-management/learn/visibility
+  - /sv/admin/user-management/learn/associates-filter-group
+language: sv
 ---
 
 # Användare
 
-Som administratör har du till uppgift att lägga till och administrera dina användare. I det här avsnittet lär dig hur du lägger till nya användare, tilldelar rätt användarroller och grupper och hjälper användarna med konfigurationen och WebTools.
+Som administratör ansvarar du för att lägga till och hantera dina användare.
+
+SuperOffice CRM använder ett roll‑ och gruppbaserat åtkomsträttighetssystem. Det innebär att **varje SuperOffice‑användare har en roll och tillhör en primär grupp** (dessa inställningar är obligatoriska).
+
+Följande diagram visar en modell för hur åtkomsträttighetssystemet fungerar i SuperOffice CRM.
+
+![Diagram som visar åtkomsträttighetssystemet][img1]
+
+En [roll][6] har en uppsättning data‑ och [funktionella rättigheter][7], och en grupptilldelning ger tillgång till dataobjekt, olika SuperOffice‑listor och hjälper till att ställa in systempreferenser mer effektivt.
+
+Systemet gör det möjligt att konfigurera åtkomst till företag, kontakter, projekt, projektmedlemmar, urval, försäljning, intressenter (av försäljning), uppföljningar, dokument (inklusive e‑post och utskick), relationer (kontakt och företag), och dashboards. Alla dessa olika typer av poster kallas **dataobjekt**.
+
+Varje dataobjekt tillhör en användare som kan vara du själv (a), användare i din primära grupp (b), användare som tillhör dina andra grupper (c), andra medarbetare som du inte är kopplad till via någon av dina grupper (d), externa användare (e), och anonyma användare (f).
+
+![Roller ‑ Medarbetare‑skärm, fliken data‑rättigheter ‑screenshot][img2]
+
+Ägandet av olika dataobjekt ställs in via olika fält. Till exempel anger fältet **Vår kontakt** i företagskortet ägaren av posten. För uppföljningar är det fältet **Ägare**, i projektet **Ansvarig**, och så vidare.
 
 ## <a id="visible"></a>Synlighet
 
-Huruvida du kan se specifika dokument, försäljningar, händelser och urval beror inte enbart på vilken [roll][1] du har tilldelats. Det kan finnas enskilda informationsposter som du inte har tillgång till. I dialogrutorna dokument och händelser och i fönstren Försäljning och Urval finns en listruta med namnet **Synlig för**. I fönstret Försäljning kan du till exempel välja att göra en försäljning synlig för alla, endast synlig för primärgruppen som ägaren tillhör eller endast synlig för ägaren.
+Huruvida du kan se specifika dokument, försäljningar, händelser och urval beror inte enbart på vilken roll du har tilldelats. Det kan finnas enskilda informationsposter som du inte har tillgång till. I dialogrutorna dokument och händelser och i fönstren Försäljning och Urval finns en listruta med namnet **Synlig för**. I fönstret Försäljning kan du till exempel välja att göra en försäljning synlig för alla, endast synlig för primärgruppen som ägaren tillhör eller endast synlig för ägaren.
 
 Detta kräver att du har licensen **Konfidentiella aktiviteter**.
 
@@ -35,9 +56,7 @@ Om du vill aktivera den här licensen lokaliserar du önskad användare, klickar
 
 * **Anonyma användare**: Användare med begränsad behörighet, som definieras av [rollen för anonyma användare][4]. Anonyma användare kan till exempel få tillgång till webbsidor. På så sätt kan säljare publicera relevant information från SuperOffice CRM på en webbplats som inte kräver inloggning där kunderna enkelt får tillgång till den.
 
-* **Systemanvändare**: [!include[Access rights](includes/def-system-user.md)]
-
-    Systemanvändaren är avsedd för integration och kan bland annat användas för att ge processer fullständig åtkomst till SuperOffice-databasen vid replikering av kalendrar.
+* **Systemanvändare**: Systemanvändaren är avsedd för integration och kan bland annat användas för att ge processer fullständig åtkomst till SuperOffice-databasen vid replikering av kalendrar.
 
 ## Medarbetare
 
@@ -48,7 +67,27 @@ På fliken **Medarbetare** i fönstret Användare kan du bland annat lägga till
 Innan en person kan registreras som SuperOffice CRM-användare måste hen ha registrerats på ett företag som finns med i listrutan **Företag** i fönstret Användare. Enligt samma princip måste ett företag finnas med i företagslistan på fliken **Våra företag** i fönstret Användare för att visas i listrutan **Företag**.
 
 > [!NOTE]
-> I fönstret Användare anger du vilka licenser de olika användarna ska ha. Om du vill lägga till nya systemlicenser eller öka/minska antalet licenser för en eller flera moduler kontaktar du SuperOffice och [uppdaterar licensinformationen][6].
+> I fönstret Användare anger du vilka licenser de olika användarna ska ha. Om du vill lägga till nya systemlicenser eller öka/minska antalet licenser för en eller flera moduler kontaktar du SuperOffice och [uppdaterar licensinformationen][16].
+
+## Användargrupper
+
+En **grupp** tilldelas användaren och ger åtkomst till dataobjekt (4 i föregående diagram). En användare måste ha en **primär grupp** och kan ha flera **andra grupper**.
+
+![Diagram för gruppmedlemskap][img5]
+
+I detta exempel har användare A Marketing som annan grupp och användare B har Marketing som primär grupp. I detta fall, om användare A vill se data som skapats av användare B, måste användare A:s roll ha rättigheten “Läs” bredvid alla dataobjekt i kolumnen *Annan grupp*. Detta beror på att Marketing‑gruppen är annan grupp för användare A och binder dem till poster som användare B skapar.
+
+En grupp kan också ge åtkomst till listelement (5 i diagrammet) i SuperOffice CRM. Detta gäller endast om du använder inställningen **Gruppering och filtrering** (a) för dina listor. Om denna inställning inte är aktiverad, har alla användare åtkomst till alla listor i SuperOffice CRM. Gruppering och filtrering är särskilt användbart då många användare med olika ansvar får tillgång till systemet. På så sätt kan du undvika att vissa användare får åtkomst till information som de inte borde se.
+
+![Gruppering och filtrering efter användargrupp för dokumentmall‑lista –screenshot][img6]
+
+Till exempel, om du vill göra ett visst listelement synligt endast för vissa användare, går du till den lista som lagrar dessa element (a), väljer elementet (b) och i rutan “Synligt för användargrupper”, markerar du de användargrupper som ska se listelementet (c).
+
+![Välj preferensnivå grupp för uppföljning –screenshot][img7]
+
+Att organisera dina användare i grupper är också praktiskt när du vill anpassa SuperOffice‑inställningar, vilka vi kallar [preferenser][15] (6). Varje preferens kan ställas in för en användare, användargrupp eller hela systemet.
+
+![Preferenser för Försäljnings‑grupp –screenshot][img8]
 
 ## <a id="screen"></a>Fönstret Användare
 
@@ -77,6 +116,45 @@ Listan på fliken **Medarbetare** har som standard följande kolumner:
 
 > [!TIP]
 > Du kan välja vilka kolumner som ska visas i listan. Högerklicka bara på en kolumnrubrik och markera relevanta kolumner i kolumnlistan. Du kan ändra ordningen på kolumnerna genom att klicka och dra i kolumnrubrikerna.
+
+* **Sök efter användare:** Använd den här dynamiska sökfunktionen för att snabbt hitta specifika användare efter namn eller användar-ID, eller för att hitta alla användare som tillhör specifika roller, grupper eller användarplaner. Skriv bara in text i sökfältet för att uppdatera listan med matchande användare.
+
+* **Visa endast användare som kan logga in:** Välj det här alternativet om du bara vill visa användare som är aktiva (inte har inaktiverats).
+
+#### Filtrera listan <i class="ph ph-funnel" aria-hidden="true"></i>
+
+Du kan filtrera listan över användare efter kolumnrubrikerna.
+
+> [!NOTE]
+> Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att filtrera på.
+
+1. Gå till fliken **Medarbetare**.
+2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
+3. Välj **Aktivera filter**.
+4. Klicka på **OK**. Filterknappar läggs till i varje kolumnrubrik.
+5. Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i> i den kolumn du vill filtrera.
+6. Markera relevanta värden i listan. Använd sökfunktionen om listan är lång.
+7. Klicka på **Filter**.
+8. Upprepa steg 5–7 för att filtrera fler kolumner.
+
+#### Gruppera listan
+
+Du kan gruppera användarlistan efter roll, användarplan, primärgrupp och liknande. Dessutom kan du gruppera på flera nivåer.
+
+> [!NOTE]
+> Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att gruppera efter (se även [Anpassa översikter][14]).
+
+1. Gå till fliken **Medarbetare**.
+2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
+3. Välj **Aktivera gruppering**.
+4. Klicka på **OK**.
+5. Klicka på kolumnrubriken för det värde som du vill gruppera och dra det till området ovanför kolumnerna ("Dra en kolumnrubrik och ..."). Listan grupperas nu efter det värdet.
+6. Om du vill gruppera efter ytterligare värden klickar du på och drar en annan kolumnrubrik till samma område.
+7. Klicka och dra gruppvärdena om du vill ändra ordningen på grupperingsnivåerna.
+8. Klicka på ett gruppvärde om du vill ändra sorteringsordningen.
+
+> [!NOTE]
+> Om du navigerar till en annan flik återställs grupperingen.
 
 #### Användarinformation
 
@@ -126,18 +204,29 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 
 ## Relaterat innehåll
 
-* [Hantera dina roller][1]
+* [Hantera dina roller][6]
 * [Lägg till en ny användare][2]
-* [Ändra användarplaner för aktiva användare][3]
-* [Installera WebTools för dina användare][7]
+* [Skapa en användargrupp][3]
+* [Ändra användarplaner för aktiva användare][17]
+* [Installera WebTools för dina användare][19]
 
 <!-- Referenced links -->
-[1]: role/index.md
 [2]: add-associate.md
-[3]: ../../license/change-user-plan.md
+[3]: user-groups.md
 [4]: onsite/other-users.md#rights
-[6]: ../../license/learn/activate.md
-[7]: ../../../../../integrations/webtools/install.md
+[6]: role/index.md
+[7]: role/functional-rights.md
+[14]: ../adjusting-views.md
+[15]: ../preferences/learn/index.md
+[16]: ../license/activate.md
+[17]: ../license/change-user-plan.md
+[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/admin/admin-users-overview.png
+[img1]: ../../../media/loc/en/admin/access-right-system.png
+[img2]: ../../../media/loc/en/admin/user-access-level.png
+[img3]: ../../../media/loc/en/admin/admin-users-overview.png
+[img5]: ../../../media/loc/en/admin/groups.png
+[img6]: ../../../media/loc/en/admin/lists-grouping.png
+[img7]: ../../../media/loc/en/admin/follow-up-type.png
+[img8]: ../../../media/loc/en/admin/sales-group.png

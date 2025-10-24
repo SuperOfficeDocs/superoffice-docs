@@ -3,25 +3,46 @@ uid: help-nl-users
 title: Gebruikers
 description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
 keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
-author: SuperOffice Product and Engineering
-date: 02.21.2023
+author: digitaldiina
+date: 10.24.2025
 version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-language: nl
+category: identity management
+topic: user
+index: true
 redirect_from: 
+  - /nl/admin/user-management/learn/index
   - /nl/admin/user-management/learn/screen/index
   - /nl/admin/user-management/learn/visibility
+  - /nl/admin/user-management/learn/associates-filter-group
+language: nl
 ---
 
 # Gebruikers
 
-Als beheerder bent u verantwoordelijk voor het toevoegen en beheren van uw gebruikers. In deze sectie leert u hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
+Als beheerder bent u verantwoordelijk voor het toevoegen en beheren van uw gebruikers.
+
+SuperOffice CRM gebruikt een op rollen en groepen gebaseerd toegangsrechtensysteem. Dit betekent dat **elke SuperOffice‑gebruiker een rol heeft en behoort tot een primaire groep** (dit zijn verplichte instellingen).
+
+Het volgende diagram toont een model van hoe het toegangsrechtensysteem werkt in SuperOffice CRM.
+
+![Diagram dat het toegangsrechtensysteem toont][img1]
+
+Een [rol][6] heeft een set gegevens‑ en [functionele rechten][7], en een groepsinstelling verleent toegang tot gegevensobjecten, diverse SuperOffice‑lijsten, en helpt bij het efficiënter instellen van systeemvoorkeuren.
+
+Het systeem stelt je in staat om toegang te configureren tot bedrijven, contacten, projecten, projectleden, selecties, verkopen, stakeholders (van verkoop), opvolgingen, documenten (inclusief e‑mails en mailings), relaties (contact en bedrijf), en dashboards. Al deze verschillende soorten records worden **gegevensobjecten** genoemd.
+
+Elk gegevensobject behoort toe aan een gebruiker die onder u valt zelf (a), gebruikers in uw primaire groep (b), gebruikers die tot uw andere groepen behoren (c), andere medewerkers waarmee u geen groepsverbinding heeft (d), externe gebruikers (e), en anonieme gebruikers (f).
+
+![De rollen‑medewerkers‑scherm, tab Gegevensrechten ‑screenshot][img2]
+
+Het eigenaarschap van verschillende gegevensobjecten wordt ingesteld in verschillende velden. Bijvoorbeeld in de bedrijfskaart geeft het veld **Onze Contactpersoon** de eigenaar van het record aan. Voor opvolgingen is dat het veld **Owner**, in het project **Verantwoordelijke**, enzovoort.
 
 ## <a id="visible"></a>Zichtbaarheid
 
-Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de [rol][1] die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
+Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weergeven, is niet uitsluitend afhankelijk van de rol die aan u is toegewezen. Het kan ook zo zijn dat de relevante informatie voor u niet beschikbaar is. De dialoogvensters voor documenten en vervolgactiviteiten en de schermen Verkoop en Selectie bevatten de keuzelijst **Zichtbaar voor**. U kunt bijvoorbeeld in het scherm Verkoop ervoor kiezen om de verkoop voor iedereen zichtbaar te maken of alleen voor de primaire groep waartoe de eigenaar behoort, of alleen zichtbaar voor de eigenaar.
 
 Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
 
@@ -35,9 +56,7 @@ Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op he
 
 * **Anonieme gebruikers**: Gebruikers met beperkte rechten die worden gedefinieerd door de [rol voor anonieme gebruikers][4]. Anonieme gebruikers kunnen bijvoorbeeld worden gebruikt om toegang tot webpagina's te bieden. Zo kunnen verkoopmedewerkers relevante gegevens uit SuperOffice CRM beschikbaar stellen op een website waarvoor geen aanmelding nodig is, zodat klanten hier gemakkelijk toegang toe kunnen krijgen.
 
-* **Systeemgebruikers**: [!include[Access rights](includes/def-system-user.md)]
-
-    De systeemgebruiker is bedoeld voor integratie en kan worden gebruikt om processen volledige toegang te geven tot de SuperOffice-database voor het repliceren van bijvoorbeeld agenda's.
+* **Systeemgebruikers**: De systeemgebruiker is bedoeld voor integratie en kan worden gebruikt om processen volledige toegang te geven tot de SuperOffice-database voor het repliceren van bijvoorbeeld agenda's.
 
 ## Medewerkers
 
@@ -48,7 +67,27 @@ Op het tabblad **Medewerkers** in het scherm Gebruikers kunt u gebruikers van he
 Een persoon kan alleen worden geregistreerd als een SuperOffice CRM-gebruiker als deze is geregistreerd bij een bedrijf dat wordt weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers. Een bedrijf wordt alleen weergegeven in de keuzelijst **Bedrijf** in het scherm Gebruikers als het bedrijf wordt weergegeven in de lijst met bedrijven op het tabblad **Onze bedrijven**.
 
 > [!NOTE]
-> In het scherm Gebruikers geeft u aan welke licenties kunnen worden gebruikt door de verschillende gebruikers. Als u nieuwe systeemlicenties wilt toevoegen of het aantal licenties voor een of meer modules wilt verhogen/verminderen, neemt u contact op met SuperOffice om [de licentiegegevensbij te werken][6].
+> In het scherm Gebruikers geeft u aan welke licenties kunnen worden gebruikt door de verschillende gebruikers. Als u nieuwe systeemlicenties wilt toevoegen of het aantal licenties voor een of meer modules wilt verhogen/verminderen, neemt u contact op met SuperOffice om [de licentiegegevensbij te werken][16].
+
+## Gebruikersgroepen
+
+Een **groep** wordt toegewezen aan de gebruiker en geeft toegang tot gegevensobjecten (4 in het vorige diagram). Een gebruiker moet één **primaire groep** hebben en kan meerdere **andere groepen** hebben.
+
+![Groepslidmaatschap‑diagram][img5]
+
+In dit voorbeeld heeft gebruiker A Marketing als andere groep en gebruiker B heeft Marketing als primaire groep. In dit geval, als gebruiker A gegevens wil zien die door gebruiker B zijn gemaakt, moet de rol van gebruiker A de rechten “Lezen” hebben naast alle gegevensobjecten in de kolom *Andere groep*. Dit komt doordat Marketing‑groep de andere groep is voor gebruiker A en hen verbindt met de records die gebruiker B aanmaakt.
+
+Een groep kan ook toegang geven tot lijstitems (5 in het diagram) in SuperOffice CRM. Dit is alleen van toepassing als u de instelling **Groepering en filtering** (a) op uw lijsten gebruikt. Als deze instelling niet geactiveerd is, hebben alle gebruikers toegang tot alle lijsten in SuperOffice CRM. Groepering en filtering zijn bijzonder handig wanneer veel gebruikers met verschillende verantwoordelijkheden toegang hebben tot het systeem. Op deze manier kunt u voorkomen dat bepaalde gebruikers toegang krijgen tot informatie die zij niet zouden moeten zien.
+
+![Groepering en filtering op basis van gebruikersgroep voor document‑sjabloonlijst –screenshot][img6]
+
+Bijvoorbeeld, als u een specifiek lijstitem alleen zichtbaar wilt maken voor bepaalde gebruikers, moet u naar de lijst gaan die deze items bevat (a), het item selecteren (b) en in het vak “Zichtbaar voor gebruikersgroepen”, een vinkje zetten bij de gebruikersgroepen die het lijstitem moeten zien (c).
+
+![Selecteer voorkeur‑niveau groep voor opvolging –screenshot][img7]
+
+Het organiseren van uw gebruikers in groepen is ook handig als u de SuperOffice‑instellingen wilt personaliseren, wat wij [voorkeuren][15] (6) noemen. Elke voorkeur kan ingesteld worden voor één gebruiker, gebruikersgroep of voor het hele systeem.
+
+![Voorkeuren voor Verkoop‑groep –screenshot][img8]
 
 ## <a id="screen"></a>Scherm Gebruikers
 
@@ -77,6 +116,45 @@ De lijst op het tabblad **Medewerkers** bestaat standaard uit de volgende kolomm
 
 > [!TIP]
 > U kunt aangeven welke kolommen in de lijst moeten worden weergegeven. Klik met de rechtermuisknop op een kolomkop en selecteer de relevante kolommen in de kolomlijst. Als u de volgorde van de kolommen wilt wijzigen, klikt u op en sleept u een kolomkop.
+
+* **Zoeken naar gebruikers:** Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op naam of gebruikers-ID, of om alle gebruikers te vinden die behoren tot specifieke rollen, groepen of gebruikersplannen. Voer gewoon tekst in het zoekveld in om de lijst bij te werken met overeenkomende gebruikers.
+
+* **Alleen gebruikers weergeven die zich kunnen aanmelden:** Selecteer deze optie om alleen gebruikers weer te geven die actief zijn (die niet zijn gedeactiveerd).
+
+#### De lijst filteren <i class="ph ph-funnel" aria-hidden="true"></i>
+
+U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
+
+> [!NOTE]
+> Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt filteren.
+
+1. Ga naar het tabblad **Medewerkers**.
+2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
+3. Selecteer **Filter inschakelen**.
+4. Klik op **OK.** Aan elke kolomkop worden filterknoppen toegevoegd.
+5. Klik op <i class="ph ph-funnel" aria-label="Filter icon"></i> in de kolom die u wilt filteren.
+6. Selecteer de relevante waarden in de lijst. Gebruik de zoekfunctie als de lijst lang is.
+7. Klik op **Filter**.
+8. Herhaal de stappen 5-7 om op extra kolommen te filteren.
+
+#### De lijst groeperen
+
+U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep en soortgelijke. Bovendien kunt u op meerdere niveaus groeperen.
+
+> [!NOTE]
+> Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][14]).
+
+1. Ga naar het tabblad **Medewerkers**.
+2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
+3. Selecteer **Groepering inschakelen**.
+4. Klik op **OK**.
+5. Klik op de kolomkop voor de waarde waarmee wilt groeperen en sleep deze naar het gebied boven de kolommen ("Sleep een kolomkop en ..."). De lijst is gegroepeerd op deze waarde.
+6. Als u wilt groeperen op extra waarden, klikt u op een andere kolomkop en sleept u deze naar hetzelfde gebied.
+7. Klik en sleep de groepswaarden om de volgorde van de groeperingsniveaus te wijzigen.
+8. Klik op een groepswaarde om de sorteervolgorde te wijzigen.
+
+> [!NOTE]
+> Als u naar een ander tabblad navigeert, wordt de groepering opnieuw ingesteld.
 
 #### Gebruikersgegevens
 
@@ -126,18 +204,29 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 
 ## Gerelateerde inhoud
 
-* [Uw rollen beheren][1]
+* [Uw rollen beheren][6]
 * [Een nieuwe gebruiker toevoegen][2]
-* [Gebruikersplannen voor actieve gebruikers wijzigen][3]
-* [Installeer WebTools voor uw gebruikers][7]
+* [Gebruikersgroepen maken][3]
+* [Gebruikersplannen voor actieve gebruikers wijzigen][17]
+* [Installeer WebTools voor uw gebruikers][19]
 
 <!-- Referenced links -->
-[1]: role/index.md
 [2]: add-associate.md
-[3]: ../../license/change-user-plan.md
+[3]: user-groups.md
 [4]: onsite/other-users.md#rights
-[6]: ../../license/learn/activate.md
-[7]: ../../../../../integrations/webtools/install.md
+[6]: role/index.md
+[7]: role/functional-rights.md
+[14]: ../adjusting-views.md
+[15]: ../preferences/learn/index.md
+[16]: ../license/activate.md
+[17]: ../license/change-user-plan.md
+[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/admin/admin-users-overview.png
+[img1]: ../../../media/loc/en/admin/access-right-system.png
+[img2]: ../../../media/loc/en/admin/user-access-level.png
+[img3]: ../../../media/loc/en/admin/admin-users-overview.png
+[img5]: ../../../media/loc/en/admin/groups.png
+[img6]: ../../../media/loc/en/admin/lists-grouping.png
+[img7]: ../../../media/loc/en/admin/follow-up-type.png
+[img8]: ../../../media/loc/en/admin/sales-group.png

@@ -3,25 +3,46 @@ uid: help-de-users
 title: Benutzer
 description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
-author: SuperOffice Product and Engineering
-date: 02.21.2023
+author: digitaldiina
+date: 10.24.2025
 version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-language: de
+category: identity management
+topic: user
+index: true
 redirect_from: 
+  - /de/admin/user-management/learn/index
   - /de/admin/user-management/learn/screen/index
   - /de/admin/user-management/learn/visibility
+  - /de/admin/user-management/learn/associates-filter-group
+language: de
 ---
 
 # Benutzer
 
-Als Administrator sind Sie für das Hinzufügen und Verwalten Ihrer Benutzer verantwortlich. In diesem Bereich lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutzerrollen und -gruppen zuordnet und den Benutzern beim Setup und den WebTools hilft.
+Als Administrator sind Sie dafür verantwortlich, Ihre Benutzer hinzuzufügen und zu verwalten.
+
+SuperOffice CRM verwendet ein rollen‑ und gruppenbasiertes Zugriffssystem. Das bedeutet, dass **jeder SuperOffice‑Benutzer eine Rolle hat und einer primären Gruppe angehört** (diese Einstellungen sind Pflicht).
+
+Das folgende Diagramm zeigt ein Modell, wie das Zugriffssystem in SuperOffice CRM funktioniert.
+
+![Diagramm zeigt das Zugriffssystem][img1]
+
+Eine [Rolle][6] hat eine Menge von Daten‑ und [funktionalen Rechten][7], und eine Gruppenzuordnung gewährt Zugriff auf Datenobjekte, verschiedene SuperOffice‑Listen und hilft dabei, Systemeinstellungen effizienter zu setzen.
+
+Das System erlaubt Ihnen, den Zugriff auf Firmen, Kontakte, Projekte, Projektmitglieder, Auswahlen, Verkäufe, Stakeholder (im Verkauf), Follow‑ups, Dokumente (einschließlich E‑Mails und Mailings), Beziehungen (Kontakt und Firma), und Dashboards zu konfigurieren. All diese unterschiedlichen Arten von Datensätzen werden **Datenobjekte** genannt.
+
+Jedes Datenobjekt gehört einem Benutzer, der Sie selbst (a), Benutzer in Ihrer primären Gruppe (b), Benutzer Ihrer anderen Gruppen (c), andere Mitarbeiter, mit denen Sie nicht über eine Ihrer Gruppen verbunden sind (d), externe Benutzer (e), und anonyme Benutzer (f) sein kann.
+
+![Die Benutzer‑Rollen‑Ansicht, Datenrechte‑Tab ‑screenshot][img2]
+
+Die Eigentümerschaft der verschiedenen Datenobjekte wird in verschiedenen Feldern festgelegt. Zum Beispiel legt im Firmen­satz das Feld **Unser Kontakt** den Eigentümer des Datensatzes fest. Bei Follow‑ups ist es das Feld **Owner**, im Projekt **Verantwortlich**, und so weiter.
 
 ## <a id="visible"></a>Sichtbarkeit
 
-Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten [Rolle][1] ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
+Ob Sie bestimmte Dokumente, Verkäufe, Wiedervorlagen und Selektionen anzeigen können, hängt nicht nur von der Ihnen zugeordneten Rolle ab. Bestimmte Informationen sind möglicherweise nicht für Sie zugänglich. In den Dialogfeldern Dokumente und Folgeaufgaben und in den Ansicht Verkauf und Selektion gibt es ein Listenfeld namens **Sichtbar für**. In der Ansicht Verkauf können Sie beispielsweise auswählen, ob der Verkauf für jeden sichtbar ist, nur für die primäre Gruppe, der der Besitzer angehört, oder nur für den Eigentümer.
 
 Hierfür ist die Lizenz **Vertrauliche Aktivitäten** erforderlich.
 
@@ -35,9 +56,7 @@ Um diese Lizenz festzulegen, müssen Sie den gewünschten Benutzer suchen, auf d
 
 * **Anonyme Benutzer**: Benutzer mit eingeschränkten Rechten, die durch die [Rolle für anonyme Benutzer][4] definiert werden. Anhand von anonymen Benutzern kann z.B. Zugriff auf Webseiten erteilt werden. Auf diese Weise können Vertriebsmitarbeiter z.B. wichtige Informationen über SuperOffice CRM auf einer Website zur Verfügung stellen, für die keine Anmeldung erforderlich ist. Kunden erhalten so leicht Zugriff auf die Informationen.
 
-* **Systembenutzer**: [!include[Access rights](includes/def-system-user.md)]
-
-    Der Systembenutzer versteht sich als Ergänzung und kann verwendet werden, um Prozessen zum Beispiel zum Replizieren von Kalendern vollständigen Zugriff auf die SuperOffice-Datenbank zu erteilen.
+* **Systembenutzer**: Der Systembenutzer versteht sich als Ergänzung und kann verwendet werden, um Prozessen zum Beispiel zum Replizieren von Kalendern vollständigen Zugriff auf die SuperOffice-Datenbank zu erteilen.
 
 ## Mitarbeiter
 
@@ -48,7 +67,27 @@ Auf der Registerkarte **Mitarbeiter** der Ansicht **Benutzer** können Sie Benut
 Damit eine Person als SuperOffice CRM-Benutzer erfasst werden kann, muss sie bei einer im Listenfeld **Firma** der Ansicht Benutzer angezeigten Firma registriert sein. Damit eine Firma im Listenfeld **Firma** der Ansicht Benutzer aufgeführt wird, muss sie als Firma in der Firmenliste auf der Registerkarte **Unsere Firmen** aufgeführt sein.
 
 > [!NOTE]
-> In der Ansicht Benutzer können Sie festlegen, welche Lizenzen Sie den verschiedenen Benutzern zuteilen wollen. Um neue Systemlizenzen hinzuzufügen oder für ein oder mehrere Module die Anzahl der Lizenzen erhöhen/reduzieren möchten, wenden Sie sich für [Lizenzinformationen aktualisieren][6] an SuperOffice.
+> In der Ansicht Benutzer können Sie festlegen, welche Lizenzen Sie den verschiedenen Benutzern zuteilen wollen. Um neue Systemlizenzen hinzuzufügen oder für ein oder mehrere Module die Anzahl der Lizenzen erhöhen/reduzieren möchten, wenden Sie sich für [Lizenzinformationen aktualisieren][16] an SuperOffice.
+
+## Benutzergruppen
+
+Eine **Gruppe** wird dem Benutzer zugewiesen und gewährt Zugriff auf Datenobjekte (4 im vorherigen Diagramm). Ein Benutzer muss eine **primäre Gruppe** haben und kann mehrere **andere Gruppen** haben.
+
+![Diagramm für Gruppenmitgliedschaft][img5]
+
+In diesem Beispiel hat Benutzer A Marketing als andere Gruppe und Benutzer B hat Marketing als primäre Gruppe. In diesem Fall, wenn Benutzer A Daten sehen möchte, die von Benutzer B erstellt wurden, muss in der Rolle von Benutzer A die Rechte „Lesen“ neben allen Datenobjekten in der Spalte *Andere Gruppe* vorhanden sein. Dies liegt daran, dass die Marketing‑Gruppe die andere Gruppe für Benutzer A ist und sie mit Datensätzen verknüpft, die Benutzer B erstellt.
+
+Eine Gruppe kann auch Zugriff auf Listenelemente (5 im Diagramm) in SuperOffice CRM gewähren. Dies ist nur relevant, wenn Sie die Einstellung **Gruppierung und Filterung** (a) für Ihre Listen verwenden. Ist diese Einstellung nicht aktiviert, haben alle Benutzer Zugriff auf alle Listen in SuperOffice CRM. Gruppierung und Filterung sind besonders nützlich, wenn viele Benutzer mit verschiedenen Verantwortlichkeiten Zugriff auf das System haben. Auf diese Weise können Sie vermeiden, dass bestimmte Benutzer auf Informationen zugreifen, die sie nicht sehen sollten.
+
+![Gruppierung und Filterung nach Benutzergruppe für Dokumentvorlagen‑Liste –screenshot][img6]
+
+Beispielsweise wenn Sie ein bestimmtes Listenelement nur für bestimmte Benutzer sichtbar machen möchten, gehen Sie zur Liste, die diese Elemente enthält (a), wählen das Element aus (b) und setzen im Feld „Sichtbar für Benutzergruppen“ ein Häkchen bei den Benutzergruppen, die das Listenelement sehen sollen (c).
+
+![Präferenz‑Ebene Auswahl Gruppe für Follow‑up –screenshot][img7]
+
+Wenn Sie Ihre Benutzer in Gruppen organisiert haben, ist das auch praktisch, wenn Sie SuperOffice‑Einstellungen personalisieren möchten, die wir [Präferenzen][15] (6) nennen. Jede Präferenz kann für einen einzelnen Benutzer, eine Benutzergruppe oder das gesamte System eingestellt werden.
+
+![Präferenzen für Vertriebs‑Gruppe –screenshot][img8]
 
 ## <a id="screen"></a>Ansicht Benutzer
 
@@ -77,6 +116,45 @@ Standardmäßig enthält die Liste auf der Registerkarte **Mitarbeiter** die fol
 
 > [!TIP]
 > Sie können auswählen, welche Spalten in der Liste angezeigt werden sollen. Klicken Sie einfach mit der rechten Maustaste auf eine Spaltenüberschrift und wählen Sie die relevanten Spalten in der Spaltenliste aus. Um die Reihenfolge der Spalten zu ändern, klicken und ziehen Sie eine Spaltenüberschrift.
+
+* **Suche nach Benutzern:** Mit dieser dynamischen Suchfunktion können Sie bestimmte Benutzer schnell nach Namen oder Benutzer-ID suchen oder alle Benutzer suchen, die zu bestimmten Rollen, Gruppen oder Benutzerplänen gehören. Geben Sie einfach Text in das Suchfeld ein, um die Liste mit den entsprechenden Benutzern zu aktualisieren.
+
+* **Nur Benutzer anzeigen, die sich anmelden können:** Mit dieser Option werden nur Benutzer angezeigt, die aktiv sind (nicht deaktiviert wurden).
+
+#### Liste filtern <i class="ph ph-funnel" aria-hidden="true"></i>
+
+Sie können die Liste der Benutzer nach einem der Spaltenköpfe filtern.
+
+> [!NOTE]
+> Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gefiltert werden soll.
+
+1. Gehen Sie zur Registerkarte **Mitarbeiter**.
+2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
+3. Wählen Sie **Filter aktivieren**.
+4. Klicken Sie auf **OK**. Es werden Filter-Schaltflächen zu jeder Spaltenkopfzeile hinzugefügt.
+5. Klicken Sie in der zu filternden Spalte auf <i class="ph ph-funnel" aria-label="Filter icon"></i>.
+6. Wählen Sie die entsprechenden Werte in der Liste aus. Bei einer langen Liste verwenden Sie die Suchfunktion.
+7. Klicken Sie auf **Filter**.
+8. Gehen Sie wie in Schritt 5-7 erläutert vor, um nach weiteren Spalten zu filtern.
+
+#### Gruppieren der Liste
+
+Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und ähnlichem gruppieren. Darüber hinaus können Sie auf mehreren Ebenen gruppieren.
+
+> [!NOTE]
+> Klicken Sie mit der rechten Maustaste auf eine Spalte, um weitere Spalten hinzuzufügen, nach denen gruppiert werden soll (siehe auch [Ansichten anpassen][14]).
+
+1. Gehen Sie zur Registerkarte **Mitarbeiter**.
+2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> in der Ecke oben rechts in der Liste.
+3. Wählen Sie **Gruppierung aktivieren**.
+4. Klicken Sie auf **OK**.
+5. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten ("Ziehen Sie einen Spaltenkopf ..."). Die Liste wird nun nach diesem Wert gruppiert.
+6. Um nach weiteren Werten zu gruppieren, klicken Sie auf einen anderen Spaltenkopf und ziehen ihn in denselben Bereich.
+7. Klicken Sie auf die Gruppenwerte und ziehen Sie sie, um die Reihenfolge der Gruppierungsebenen zu ändern.
+8. Klicken Sie auf einen Gruppenwert, um die Sortierreihenfolge zu ändern.
+
+> [!NOTE]
+> Wenn Sie zu einer anderen Registerkarte wechseln, wird das Gruppieren zurückgesetzt.
 
 #### Benutzerinformationen
 
@@ -126,18 +204,29 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 
 ## Verwandte Inhalte
 
-* [Ihre Rollen verwalten][1]
+* [Ihre Rollen verwalten][6]
 * [Neuen Benutzer hinzufügen][2]
-* [Benutzerpläne für aktive Benutzer ändern][3]
-* [WebTools für Ihre Benutzer installieren][7]
+* [Benutzergruppen erstellen][3]
+* [Benutzerpläne für aktive Benutzer ändern][17]
+* [WebTools für Ihre Benutzer installieren][19]
 
 <!-- Referenced links -->
-[1]: role/index.md
 [2]: add-associate.md
-[3]: ../../license/change-user-plan.md
+[3]: user-groups.md
 [4]: onsite/other-users.md#rights
-[6]: ../../license/learn/activate.md
-[7]: ../../../../../integrations/webtools/install.md
+[6]: role/index.md
+[7]: role/functional-rights.md
+[14]: ../adjusting-views.md
+[15]: ../preferences/learn/index.md
+[16]: ../license/activate.md
+[17]: ../license/change-user-plan.md
+[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/loc/en/admin/admin-users-overview.png
+[img1]: ../../../media/loc/en/admin/access-right-system.png
+[img2]: ../../../media/loc/en/admin/user-access-level.png
+[img3]: ../../../media/loc/en/admin/admin-users-overview.png
+[img5]: ../../../media/loc/en/admin/groups.png
+[img6]: ../../../media/loc/en/admin/lists-grouping.png
+[img7]: ../../../media/loc/en/admin/follow-up-type.png
+[img8]: ../../../media/loc/en/admin/sales-group.png

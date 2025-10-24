@@ -3,18 +3,21 @@ uid: help-en-users
 title: Users
 description: Learn how to add new users, how to assign the right user roles and groups, and help the users with setup and WebTools.
 keywords: Users screen, user, associate, our companies, visibility, visible for, available
-author: Bergfrid Dias
-date: 08.25.2023
+author: digitaldiina
+date: 10.24.2025
 version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: user
+index: true
 redirect_from: 
   - /en/admin/user-management/learn/index
   - /en/admin/user-management/learn/screen/index
   - /en/admin/user-management/learn/visibility
   - /en/admin/user-management/learn/associates-filter-group
+language: en
 ---
 
 # Users
@@ -215,7 +218,7 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md
 [15]: ../preferences/learn/index.md
-[16]: ../license/learn/activate.md
+[16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
 [19]: ../../../../integrations/webtools/install.md
 
