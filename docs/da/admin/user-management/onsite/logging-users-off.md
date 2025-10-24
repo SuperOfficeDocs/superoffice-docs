@@ -5,7 +5,7 @@ description: Log brugere af
 keywords: log af, Log bruger af, Logget på Windows-klient
 author: SuperOffice Product and Engineering
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

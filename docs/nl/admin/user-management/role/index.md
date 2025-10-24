@@ -5,7 +5,7 @@ description: Rol
 keywords: rol, gegevensobject, gebruikersniveau
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance

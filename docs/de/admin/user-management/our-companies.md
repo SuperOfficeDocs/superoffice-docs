@@ -5,7 +5,7 @@ description: Wie man Firmen in der Registerkarte Unsere Firmen hinzufügt oder e
 keywords: unsere Firmen
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ Sie können einen Benutzer von einer Firma zu einer anderen verschieben, wenn Ih
 
 1. Wählen Sie im Listenfeld rechts neben dem Feld, das Sie für die Suche verwenden möchten, ob mit den eingegebenen Suchkriterien **Beginnt mit**, **Enthält** oder **Ist gleich** nach einer Firma gesucht werden soll.
 
-2. Sie können mehrere [unterschiedliche Suchkriterien](#criteria) wie zum Beispiel Name, Code, Telefonnummer oder E-Mail-Adresse angeben. Wenn Sie mehrere Suchkriterien festlegen, wird eine Suche nach Firmen gestartet, die allen Kriterien gleichzeitig entsprechen.
+2. Sie können mehrere unterschiedliche Suchkriterien wie zum Beispiel Name, Code, Telefonnummer oder E-Mail-Adresse angeben. Wenn Sie mehrere Suchkriterien festlegen, wird eine Suche nach Firmen gestartet, die allen Kriterien gleichzeitig entsprechen.
 
 3. Wenn Sie das gewünschte Kriterium festgelegt haben, klicken Sie auf die Schaltfläche **Suchen**.
 

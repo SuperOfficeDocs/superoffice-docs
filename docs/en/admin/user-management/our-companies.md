@@ -5,7 +5,7 @@ description: How to add and remove companies in the Our companies tab
 keywords: our companies
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ You can move a user from one company to another, if your organization consists o
 
 1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains**, or **Equals** the search criteria you enter.
 
-2. You can specify several [different search criteria](#criteria), for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
+2. You can specify several different search criteria, for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 
 3. When you have specified the required criteria, click the **Find** button.
 

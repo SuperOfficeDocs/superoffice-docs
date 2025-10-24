@@ -5,7 +5,7 @@ description: Skapa roll
 keywords: roll, administrera användare
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: sv
     * **Externt**:  Här kan du lägga till roller för externa användare (endast lokalt).
 
     > [!NOTE]
-    > Det finns bara en roll för anonyma användare och du kan inte skapa nya. Se [Redigera behörigheter för anonyma användare][5].
+    > Det finns bara en roll för anonyma användare och du kan inte skapa nya. Se [Redigera behörigheter för anonyma användare][8].
 
 1. Klicka på **Lägg till** under listan.
 
@@ -70,3 +70,4 @@ language: sv
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
+[8]: ../onsite/other-users.md#rights

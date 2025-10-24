@@ -5,7 +5,7 @@ description: Rolle erstellen
 keywords: Rolle, Benutzerverwaltung
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: de
     * **Extern**:  Hier können Sie Rollen für externe Benutzer (nur Vor Ort) hinzufügen.
 
     > [!NOTE]
-    > Für anonyme Benutzer ist nur eine einzige Rolle vorhanden. Sie können keine neue Rolle erstellen. Siehe [Rechte für anonyme Benutzer bearbeiten][5].
+    > Für anonyme Benutzer ist nur eine einzige Rolle vorhanden. Sie können keine neue Rolle erstellen. Siehe [Rechte für anonyme Benutzer bearbeiten][8].
 
 1. Klicken Sie unter der Liste auf **Hinzufügen**.
 
@@ -70,3 +70,4 @@ language: de
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
+[8]: ../onsite/other-users.md#rights

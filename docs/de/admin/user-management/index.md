@@ -5,7 +5,7 @@ description: Lernen Sie, wie man neue Benutzer hinzufügt, die richtigen Benutze
 keywords: Ansicht Benutzer, Benutzer, Mitarbeiter, unsere Firmen, Anzeigestatus, Verfügung gestellt
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -110,7 +110,7 @@ Standardmäßig enthält die Liste auf der Registerkarte **Mitarbeiter** die fol
 | Vorname | Der Vorname des Benutzers |
 | Nachname | Der Nachname des Benutzers. |
 | Primärgruppe | Die Primärgruppe des Benutzers |
-| Rolle | Die [Rolle][7] die dem Benutzer zugewiesen wurde. Die Rolle bestimmt die Zugriffsrechte des Benutzers in SuperOffice CRM. |
+| Rolle | Die [Rolle][6] die dem Benutzer zugewiesen wurde. Die Rolle bestimmt die Zugriffsrechte des Benutzers in SuperOffice CRM. |
 | Benutzerplan | Der Benutzerplan, der dem Benutzer zugewiesen wurde |
 | Zugehörigkeit: Firma | Der Name der Organisation, zu der der Benutzer gehört (definiert als Datenbankbesitzer). |
 
@@ -208,7 +208,6 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 * [Neuen Benutzer hinzufügen][2]
 * [Benutzergruppen erstellen][3]
 * [Benutzerpläne für aktive Benutzer ändern][17]
-* [WebTools für Ihre Benutzer installieren][19]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -220,7 +219,6 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [15]: ../preferences/learn/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
-[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

@@ -5,7 +5,7 @@ description: Finn ut hvordan du legger til nye brukere, hvordan du tilordner de 
 keywords: Skjermbildet Brukere, bruker, medarbeider, våre firmaer, synlighet, tilgjengelig
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -110,7 +110,7 @@ Listen i fanen **Medarbeidere** består som standard av følgende kolonner:
 | Fornavn | Fornavnet til brukeren. |
 | Etternavn | Etternavnet til brukeren. |
 | Primærgruppe | Primærgruppen til brukeren. |
-| Rolle | [Rollen][7] som er angitt for brukeren. Rollen definerer hvilke tilgangsrettigheter brukeren har til data i SuperOffice CRM. |
+| Rolle | [Rollen][6] som er angitt for brukeren. Rollen definerer hvilke tilgangsrettigheter brukeren har til data i SuperOffice CRM. |
 | Brukerplan | Brukerplanen som er angitt for brukeren. |
 | Eierfirma | Navnet på organisasjon brukeren tilhører (definert som databaseeier). |
 
@@ -208,7 +208,6 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 * [Legge til en ny bruker][2]
 * [Opprette brukergrupper][3]
 * [Endre brukerplaner for aktive brukere][17]
-* [Installere WebTools for brukerne dine][19]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -220,7 +219,6 @@ På fanen **Brukergrupper** i Brukere-bildet kan du få en oversikt over brukere
 [15]: ../preferences/learn/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
-[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

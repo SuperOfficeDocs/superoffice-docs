@@ -5,7 +5,7 @@ description: Slik legger du til og fjerner firmaer i fanen Våre firmaer
 keywords: bruker, våre firmaer
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ Du kan flytte en bruker fra ett firma til et annet hvis organisasjonen består a
 
 1. I listeboksen til høyre for feltet du vil søke i, velger du om du vil søke etter firmaer som **Begynner med**, **Inneholder** eller **Er lik** søkekriteriene du angir.
 
-2. Du kan angi flere [forskjellige søkekriterier](#criteria), for eksempel navn, kode, telefonnummer eller e-postadresse. Angir du flere søkekriterier, søkes det etter firmaer som oppfyller alle kriteriene samtidig.
+2. Du kan angi flere forskjellige søkekriterier, for eksempel navn, kode, telefonnummer eller e-postadresse. Angir du flere søkekriterier, søkes det etter firmaer som oppfyller alle kriteriene samtidig.
 
 3. Når du har angitt ønskede kriterier, klikker du på **Finn**-knappen.
 

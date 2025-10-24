@@ -5,7 +5,7 @@ description: Gegevensrechten voor rol instellen
 keywords: gebruikersbeheer, rol, toegang, rechten
 author: digitaldiina
 date: 03.27.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: nl
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar van het object is. Aan alle gebruikers die tot deze [rol][2] behoren, worden rechten toegewezen op basis van de instellingen die u hier maakt.
+U kunt rechten voor gegevensobjecten instellen op basis van wie de eigenaar van het object is. Aan alle gebruikers die tot deze [rol][2] behoren, worden rechten toegewezen op basis van de instellingen die u hier maakt.
 
 ## Stappen
 

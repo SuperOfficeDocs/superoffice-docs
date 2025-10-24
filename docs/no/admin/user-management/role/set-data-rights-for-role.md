@@ -5,7 +5,7 @@ description: Angi datarettigheter for rolle
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
 author: digitaldiina
 date: 03.27.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: no
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Du kan angi rettigheter for [dataobjekter][2] basert på hvem som eier objektet. Alle brukere som tilhører denne [rollen][2], tilordnes rettigheter basert på innstillingene du gjør her.
+Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. Alle brukere som tilhører denne [rollen][2], tilordnes rettigheter basert på innstillingene du gjør her.
 
 ## Trinn
 

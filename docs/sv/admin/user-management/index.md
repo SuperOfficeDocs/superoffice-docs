@@ -5,7 +5,7 @@ description: Lär dig hur du lägger till nya användare, tilldelar rätt använ
 keywords: Fönstret Användare, användare, medarbetare, våra företag, synlighet, tillgängligt
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -110,7 +110,7 @@ Listan på fliken **Medarbetare** har som standard följande kolumner:
 | Förnamn | Användarens förnamn. |
 | Efternamn | Användarens efternamn. |
 | Primärgrupp | Användarens primära grupp. |
-| Roll | [Rollen][7] som användaren har tilldelats. Rollen definierar vilka databehörigheter användaren har i SuperOffice CRM. |
+| Roll | [Rollen][6] som användaren har tilldelats. Rollen definierar vilka databehörigheter användaren har i SuperOffice CRM. |
 | Användarplan | Användarplanen som användaren har tilldelats. |
 | Ägarföretag | Namn på det företag som användaren tillhör (definieras som databasägare). |
 
@@ -208,7 +208,6 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 * [Lägg till en ny användare][2]
 * [Skapa en användargrupp][3]
 * [Ändra användarplaner för aktiva användare][17]
-* [Installera WebTools för dina användare][19]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -220,7 +219,6 @@ På fliken **Användargrupper** i fönstret Användare får du en översikt öve
 [15]: ../preferences/learn/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
-[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

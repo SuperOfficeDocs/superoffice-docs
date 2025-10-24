@@ -5,7 +5,7 @@ description: I denne guiden lærer du hvordan du legger til en ny bruker i Super
 keywords: Legg til bruker, medarbeider
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -109,7 +109,7 @@ Se denne demoen for å se hvordan du legger til en ny bruker i SuperOffice CRM.
 [1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
-[4]: ../../license/change-user-plan.md
+[4]: ../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md

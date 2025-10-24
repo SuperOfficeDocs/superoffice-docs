@@ -5,7 +5,7 @@ description: Så lägger du till och tar bort företag på fliken Våra företag
 keywords: våra företag
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ Du kan flytta en användare från ett företag till ett annat om din organisatio
 
 1. I listrutan till höger om det fält du vill söka på väljer du om du vill söka efter ett företag som **Börjar med**, **Innehåller** eller **Är lika med** de sökkriterier du har angett.
 
-2. Du kan ange flera [olika sökkriterier](#criteria), till exempel namn, kod, telefonnummer eller e-postadress. Om du anger flera sökkriterier görs en sökning efter företag som uppfyller samtliga kriterier.
+2. Du kan ange flera olika sökkriterier, till exempel namn, kod, telefonnummer eller e-postadress. Om du anger flera sökkriterier görs en sökning efter företag som uppfyller samtliga kriterier.
 
 3. När du har valt sökkriterier klickar du på knappen **Sök**.
 

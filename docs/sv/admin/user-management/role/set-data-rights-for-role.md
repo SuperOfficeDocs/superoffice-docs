@@ -5,7 +5,7 @@ description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
 author: digitaldiina
 date: 03.27.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: sv
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Du kan ange behörigheter för [dataobjekt][2] baserat på vem som äger objekten. Alla användare som tillhör den här [rollen][2] tilldelas behörigheter baserat på inställningarna du gör här.
+Du kan ange behörigheter för dataobjekt baserat på vem som äger objekten. Alla användare som tillhör den här [rollen][2] tilldelas behörigheter baserat på inställningarna du gör här.
 
 ## Steg
 

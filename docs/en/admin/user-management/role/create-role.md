@@ -5,7 +5,7 @@ description: Create role
 keywords: role, user management
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: en
     * **External**:  Here you can add roles for external users (onsite only).
 
     > [!NOTE]
-    > There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users][5].
+    > There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users][8].
 
 1. Click **Add** under the list.
 
@@ -70,3 +70,4 @@ language: en
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
+[8]: ../onsite/other-users.md#rights

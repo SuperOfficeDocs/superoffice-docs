@@ -5,7 +5,7 @@ description: In this how-to guide, you will learn how to add a new user in Super
 keywords: user, associate
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -139,14 +139,6 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 
 ![Assign licence to user -screenshot][img4]
 
-### SuperOffice 8
-
-1. Click on the user who cannot log in, deselect **Active user**, and click the **Save** button. This removes their licence.
-
-1. Then, re-assign the licence: Make sure that the same user is selected, then add a tick next to **Active user**, select the user license from the right side list, and click **Save**.
-
-    ![Select active user -screenshot][img6]
-
 > [!NOTE]
 > If a new user still cannot log in, you can try to [update the SuperOffice CRM license][9] (FAQ).
 
@@ -159,7 +151,7 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
-[4]: ../../license/change-user-plan.md
+[4]: ../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
 [7]: ../../learn/getting-started/login.md
@@ -171,5 +163,4 @@ Onsite, if a new user cannot log in, the most common cause is that a SuperOffice
 [img2]: ../../../media/loc/en/admin/filled-in-email.png
 [img3]: ../../../media/loc/en/admin/activation-email.png
 [img4]: ../../../media/loc/en/admin/give-licence-9.png
-[img6]: ../../../media/loc/en/admin/select-active-user.png
 [img7]: ../../../media/loc/en/admin/selected-user-plan.png

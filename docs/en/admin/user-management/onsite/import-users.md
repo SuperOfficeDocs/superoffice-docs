@@ -5,7 +5,7 @@ description: Import users from Active Directory
 keywords: import user, Active Directory, bulk add, Add users to company
 author: SuperOffice Product and Engineering
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance

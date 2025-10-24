@@ -5,7 +5,7 @@ description: Set data rights for role
 keywords: user management, role, access, rights
 author: digitaldiina
 date: 03.27.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-You can set rights for [data objects][2] based on who owns the object. All users who belong to this [role][2] will be assigned rights based on the settings you make here.
+You can set rights for data objects based on who owns the object. All users who belong to this [role][2] will be assigned rights based on the settings you make here.
 
 ## Steps
 

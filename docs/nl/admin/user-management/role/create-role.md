@@ -5,7 +5,7 @@ description: Rol maken
 keywords: rol, gebruikersbeheer
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: nl
     * **Extern**:  Hier kunt u rollen toevoegen voor externe gebruikers (alleen lokaal).
 
     > [!NOTE]
-    > Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken. Zie [Rechten voor anonieme gebruikers bewerken][5].
+    > Er is slechts een enkele rol voor anonieme gebruikers en u kunt geen nieuwe rol maken. Zie [Rechten voor anonieme gebruikers bewerken][8].
 
 1. Klik op **Toevoegen** onder de lijst.
 
@@ -70,3 +70,4 @@ language: nl
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
+[8]: ../onsite/other-users.md#rights

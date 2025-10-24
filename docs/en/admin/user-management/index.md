@@ -5,7 +5,7 @@ description: Learn how to add new users, how to assign the right user roles and 
 keywords: Users screen, user, associate, our companies, visibility, visible for, available
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -110,8 +110,8 @@ By default, the list in the **Associates** tab consists of the following columns
 | First name | The user's first name. |
 | Last name | The user's last name. |
 | Primary group | The primary group of the user. |
-| Role | The [role][7] assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. |
-| User plan | The user plan assigned to the user, |
+| Role | The [role][6] assigned to the user. The role determines the user's access rights to data in SuperOffice CRM. |
+| User plan | The user plan assigned to the user. |
 | Owning company | The name of the organization the user belongs to (defined as database owner). |
 
 > [!TIP]
@@ -208,7 +208,6 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 * [Add a new user][2]
 * [Create a user group][3]
 * [Change user plans for active users][17]
-* [Install WebTools for your users][19]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -220,7 +219,6 @@ On the **User groups** tab in the Users screen, you can get an overview of users
 [15]: ../preferences/learn/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
-[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

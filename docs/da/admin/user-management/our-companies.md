@@ -5,7 +5,7 @@ description: Sådan tilføjes og fjernes firmaer fra fanen Vores firmaer
 keywords: vores firmaer
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ Du kan flytte en bruger fra et firma til et andet, hvis din organisation består
 
 1. På listen til højre for det felt, du vil søge efter, skal du vælge, om du vil søge efter et firma, der **Begynder med**, **Indeholder** eller **Er lig med** de søgekriterier, du angiver.
 
-2. Du kan angive flere [forskellige søgekriterier](#criteria), f.eks. navn, kode, telefonnummer eller e-mailadresse. Hvis du angiver flere søgekriterier, søges der efter firmaer, som opfylder alle kriterierne.
+2. Du kan angive flere forskellige søgekriterier, f.eks. navn, kode, telefonnummer eller e-mailadresse. Hvis du angiver flere søgekriterier, søges der efter firmaer, som opfylder alle kriterierne.
 
 3. Når du har angivet de nødvendige kriterier, skal du klikke på knappen **Søg**.
 

@@ -5,7 +5,7 @@ description: Bedrijven toevoegen aan en verwijderen van het tabblad Onze bedrijv
 keywords: gebruiker, onze bedrijven
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -76,7 +76,7 @@ U kunt een gebruiker van het ene bedrijf naar het andere verplaatsen als uw orga
 
 1. In de keuzelijst rechts van het veld waarop u wilt zoeken, kunt u opgeven of u wilt zoeken naar een bedrijf dat **Begint met**, **Bevat** of **Gelijk is aan** de zoekcriteria die u invoert.
 
-2. U kunt [meerdere zoekcriteria](#criteria) opgeven, bijvoorbeeld naam, code, telefoonnummer of e-mailadres. Als u meerdere zoekcriteria opgeeft, wordt gezocht naar bedrijven die aan alle criteria voldoen.
+2. U kunt meerdere zoekcriteria opgeven, bijvoorbeeld naam, code, telefoonnummer of e-mailadres. Als u meerdere zoekcriteria opgeeft, wordt gezocht naar bedrijven die aan alle criteria voldoen.
 
 3. Wanneer u alle benodigde criteria hebt opgegeven, klikt u op de knop **Zoeken**.
 

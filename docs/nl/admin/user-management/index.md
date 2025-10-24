@@ -5,7 +5,7 @@ description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersro
 keywords: Scherm Gebruikers, gebruiker, medewerker, onze bedrijven, zichtbaarheid, beschikbaar
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -110,7 +110,7 @@ De lijst op het tabblad **Medewerkers** bestaat standaard uit de volgende kolomm
 | Voornaam | de voornaam van de gebruiker. |
 | Achternaam | De achternaam van de gebruiker. |
 | Primaire groep | De primaire groep van de gebruiker. |
-| Rol | De [rol][7] die aan de medewerker is toegewezen. De rol bepaalt de toegangsniveaus van de gebruiker voor gegevens in SuperOffice CRM. |
+| Rol | De [rol][6] die aan de medewerker is toegewezen. De rol bepaalt de toegangsniveaus van de gebruiker voor gegevens in SuperOffice CRM. |
 | Gebruikersplan | het gebruikersplan dat aan de gebruiker is toegewezen, |
 | Bedrijf eigenaar | De naam van de organisatie waartoe de gebruiker behoort (gedefinieerd als database-eigenaar). |
 
@@ -208,7 +208,6 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 * [Een nieuwe gebruiker toevoegen][2]
 * [Gebruikersgroepen maken][3]
 * [Gebruikersplannen voor actieve gebruikers wijzigen][17]
-* [Installeer WebTools voor uw gebruikers][19]
 
 <!-- Referenced links -->
 [2]: add-associate.md
@@ -220,7 +219,6 @@ Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzi
 [15]: ../preferences/learn/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
-[19]: ../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/access-right-system.png

@@ -5,7 +5,7 @@ description: Datenrechten für Rolle festlegen
 keywords: Benutzerverwaltung, Rolle, Zugriff, Rechte
 author: digitaldiina
 date: 03.27.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,7 +20,7 @@ language: de
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Sie können Rechte für [Datenobjekte][2] festlegen, die davon abhängen, wer Eigentümer des Objekts ist. Alle Benutzer, die zu dieser [Rolle][2] gehören, werden je nach den hier vorgenommenen Einstellungen Rechte zugeordnet.
+Sie können Rechte für Datenobjekte festlegen, die davon abhängen, wer Eigentümer des Objekts ist. Alle Benutzer, die zu dieser [Rolle][2] gehören, werden je nach den hier vorgenommenen Einstellungen Rechte zugeordnet.
 
 ## Schritte
 

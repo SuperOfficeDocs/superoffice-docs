@@ -5,7 +5,7 @@ description: I den här guiden förklarar vi hur du lägger till en ny användar
 keywords: lägg till användare, medarbetare
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -109,7 +109,7 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 [1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
-[4]: ../../license/change-user-plan.md
+[4]: ../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
 [8]: role/set-data-rights-for-role.md

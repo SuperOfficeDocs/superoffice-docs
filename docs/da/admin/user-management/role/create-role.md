@@ -5,7 +5,7 @@ description: Oprettelse af rolle
 keywords: rolle, brugerstyring
 author: digitaldiina
 date: 10.24.2025
-version: 10.5
+version: 10.4
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: da
     * **Eksternt**:  Her kan du tilføje roller til eksterne brugere (kun onsite).
 
     > [!NOTE]
-    > Der findes kun én rolle til anonyme brugere, og du kan ikke oprette nye. Se [Redigering af rettigheder for anonyme brugere][5].
+    > Der findes kun én rolle til anonyme brugere, og du kan ikke oprette nye. Se [Redigering af rettigheder for anonyme brugere][8].
 
 1. Klik på **Tilføj** under listen.
 
@@ -70,3 +70,4 @@ language: da
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
+[8]: ../onsite/other-users.md#rights
