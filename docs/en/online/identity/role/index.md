@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/admin/user-management/learn/role/index.html
+redirect_url: https://docs.superoffice.com/admin/user-management/role/index.html
 ---

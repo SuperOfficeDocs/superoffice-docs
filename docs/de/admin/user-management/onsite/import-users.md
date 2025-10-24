@@ -2,15 +2,20 @@
 uid: help-de-user-import
 title: Benutzer importieren
 description: Benutzer aus Active Directory importieren
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: user, Importieren, Mitarbeiter, Active Directory, Masse
+keywords: Benutzer importieren, Active Directory, Benutzer zu Firma hinzufügen
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: de
+category: identity management
+topic: user
 deployment: onsite
 platform: web
+index: true
+redirect_from: /de/admin/user-management/learn/import-users
+language: de
 ---
 
 # Benutzer importieren
@@ -31,6 +36,6 @@ Wenn Ihr Unternehmen Active Directory oder einen anderen Authentifizierungstyp v
 1. [Geben Sie die Information über den Benutzer ein][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

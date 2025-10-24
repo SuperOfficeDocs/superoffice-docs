@@ -99,7 +99,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 * [Gebruiker / medewerker bewerken][6]'
 
 <!-- Referenced links -->
-[1]: import-users.md
+[1]: onsite/import-users.md
 [2]: index.md#visible
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md

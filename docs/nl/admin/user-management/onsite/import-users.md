@@ -2,15 +2,20 @@
 uid: help-nl-user-import
 title: Gebruikers importeren
 description: Groepen gebruikers importeren uit Active Directory
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: gebruiker, import, medewerker, Active Directory, bulk
+keywords: gebruiker importeren, Active Directory, Gebruikers toevoegen aan bedrijf
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: nl
+category: identity management
+topic: user
 deployment: onsite
 platform: web
+index: true
+redirect_from: /nl/admin/user-management/learn/import-users
+language: nl
 ---
 
 # Gebruikers importeren
@@ -31,6 +36,6 @@ Als uw organisatie Active Directory of een ander verificatietype gebruikt, kunt 
 1. [Voer informatie over de gebruiker in][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

@@ -2,16 +2,20 @@
 uid: help-en-user-import
 title: Import users
 description: Import users from Active Directory
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: user, import, associate, Active Directory, bulk
+keywords: import user, Active Directory, bulk add, Add users to company
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
 deployment: onsite
 platform: web
-language: en
+index: true
 redirect_from: /en/admin/user-management/learn/import-users
+language: en
 ---
 
 # Import users

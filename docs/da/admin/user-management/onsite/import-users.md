@@ -2,15 +2,20 @@
 uid: help-da-user-import
 title: Import af brugere
 description: Import af brugere fra Active Directory
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: user, importer, medarbejder, Active Directory, bulk
+keywords: importer bruger, Active Directory, Tilføj brugere til firma
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: da
+category: identity management
+topic: user
 deployment: onsite
 platform: web
+index: true
+redirect_from: /da/admin/user-management/learn/import-users
+language: da
 ---
 
 # Import af brugere
@@ -31,6 +36,6 @@ Hvis din organisation bruger Active Directory eller en anden autorisationstype, 
 1. [Angiv oplysninger om brugeren][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

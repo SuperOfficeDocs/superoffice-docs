@@ -2,15 +2,20 @@
 uid: help-no-user-import
 title: Importere brukere
 description: Importere brukere fra Active Directory
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: bruker, importere, medarbeider, Active Directory, bulk
+keywords: importere bruker,Active Directory, Legg brukere til firma
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: no
+category: identity management
+topic: user
 deployment: onsite
 platform: web
+index: true
+redirect_from: /no/admin/user-management/learn/import-users
+language: no
 ---
 
 # Importere brukere
@@ -31,6 +36,6 @@ Hvis organisasjonen din bruker Active Directory eller en annen autentiseringstyp
 1. [Skriv inn informasjon om brukeren][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

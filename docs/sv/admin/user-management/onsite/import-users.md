@@ -2,15 +2,20 @@
 uid: help-sv-user-import
 title: Importera användare
 description: Importera användare från Active Directory
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: user, importera, medarbetare, Active Directory, mass
+keywords: importera user, Active Directory, Lägg till användare till företag
+author: SuperOffice Product and Engineering
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: sv
+category: identity management
+topic: user
 deployment: onsite
 platform: web
+index: true
+redirect_from: /sv/admin/user-management/learn/import-users
+language: sv
 ---
 
 # Importera användare
@@ -31,6 +36,6 @@ Om ditt företag använder Active Directory eller någon annan autentiseringstyp
 1. [Ange information om användaren][1].
 
 <!-- Referenced links -->
-[1]: add-associate.md
+[1]: ../add-associate.md
 
 <!-- Referenced images -->

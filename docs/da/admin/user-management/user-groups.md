@@ -47,7 +47,7 @@ For at gruppere kolleger sammen og give dem adgang til CRM-data baseret på denn
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: import-users.md
+[2]: onsite/import-users.md
 [3]: role/index.md
 [4]: ../../../request/admin/category/index.md
 
