@@ -3,12 +3,16 @@ uid: help-nl-role-set-data-rights
 title: Gegevensrechten voor rol instellen
 description: Gegevensrechten voor rol instellen
 keywords: gebruikersbeheer, rol, toegang, rechten
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /nl/admin/user-management/learn/role/set-data-rights-for-role
 language: nl
 ---
 
@@ -20,15 +24,15 @@ U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar
 
 ## Stappen
 
-1. [!include[Open Roles](includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Kies het tabblad **Medewerkers** of het tabblad **Extern** (lokaal).
+1. Kies het tabblad **Medewerkers** of het tabblad **Extern** (lokaal).
 
     [De rol voor anonieme gebruikers bewerken.][1]
 
-3. Selecteer de betreffende rol in de lijst **Rollen**. De rechten voor de geselecteerde rol worden weergegeven op het tabblad **Gegevensrechten**.
+1. Selecteer de betreffende rol in de lijst **Rollen**. De rechten voor de geselecteerde rol worden weergegeven op het tabblad **Gegevensrechten**.
 
-4. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het recht dat u wilt wijzigen en selecteer het vereiste recht.
+1. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het recht dat u wilt wijzigen en selecteer het vereiste recht.
 
     | Naam | Rechten | Knopinfo |
     |---|---|---|
@@ -68,6 +72,6 @@ Als de gegevensobjecten (bedrijven, projecten, documenten enzovoort) toegankelij
 * [Gegevensrechten][3]
 
 <!-- Referenced links -->
-[1]: edit-rights-for-anonymous-users.md
+[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md

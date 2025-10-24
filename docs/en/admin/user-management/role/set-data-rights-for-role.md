@@ -3,14 +3,17 @@ uid: help-en-role-set-data-rights
 title: Set data rights for role
 description: Set data rights for role
 keywords: user management, role, access, rights
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: role
+index: true
 redirect_from: /en/admin/user-management/learn/role/set-data-rights-for-role
+language: en
 ---
 
 # Set data rights for a role
@@ -23,13 +26,13 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Choose the **Associates** tab or the **External** tab (onsite).
+1. Choose the **Associates** tab or the **External** tab (onsite).
 
     [How to edit the role for anonymous users.][1]
 
-3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
+1. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
 
-4. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the right you want to change, and select the required right.
+1. Click <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the right you want to change, and select the required right.
 
     | Name | Rights | Tooltips |
     |---|---|---|
@@ -64,7 +67,7 @@ On the Contact card, the **Our contact** field always pulls the associate from t
 
 If the data objects (companies, projects, documents and so on) to make accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice.
 
-## Related
+## Related content
 
 * [Functional rights][3]
 

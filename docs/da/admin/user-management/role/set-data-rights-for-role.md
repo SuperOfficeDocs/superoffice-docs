@@ -3,12 +3,16 @@ uid: help-da-role-set-data-rights
 title: Angiv datarettigheder for rolle
 description: Angiv datarettigheder for rolle
 keywords: brugerstyring, rolle, adgang, rettigheder
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /da/admin/user-management/learn/role/set-data-rights-for-role
 language: da
 ---
 
@@ -20,15 +24,15 @@ Du kan angive rettigheder for [dataobjekter][2] baseret på, hvem der ejer objek
 
 ## Trin
 
-1. [!include[Open Roles](includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Vælg fanen **Medarbejdere** eller fanen **Ekstern**.
+1. Vælg fanen **Medarbejdere** eller fanen **Ekstern**.
 
     [Sådan redigerer du rollen for anonyme brugere.][1]
 
-3. Vælg den ønskede rolle på listen **Roller** . Rettighederne for den valgte rolle vises under fanen **Datarettigheder** .
+1. Vælg den ønskede rolle på listen **Roller** . Rettighederne for den valgte rolle vises under fanen **Datarettigheder** .
 
-4. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ud for den rettighed, du vil ændre, og vælg den ønskede rettighed.
+1. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ud for den rettighed, du vil ændre, og vælg den ønskede rettighed.
 
     | Navn | Rettigheder | Værktøjstip |
     |---|---|---|
@@ -63,11 +67,11 @@ På personkortet hentes feltet **Vores kontakt** altid fra firmakortet, som pers
 
 Hvis dataobjekterne (firmaer, projekter, dokumenter osv.) skal gøres tilgængelige for eksterne brugere (målgruppebrugere), er det ikke nok blot at tildele de eksterne brugere læseadgang (eller højere). Dataobjekterne skal også publiceres i SuperOffice.
 
-## Relateret
+## Relateret indhold
 
 * [Datarettigheter][3]
 
 <!-- Referenced links -->
-[1]: edit-rights-for-anonymous-users.md
+[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md

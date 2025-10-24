@@ -3,16 +3,19 @@ uid: help-en-functional-right
 title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
-author: Philip Yates, Bergfrid Dias
-date: 02.25.2025
+author: PhilipYates, digitaldiina
+date: 10.24.2025
 version: 10.5.2
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: role
+index: true
 redirect_from: 
   - /en/admin/user-preferences/reference/cripple
   - /en/admin/user-management/learn/role/functional-rights
+language: en
 ---
 
 # Functional rights in SuperOffice
@@ -96,5 +99,3 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 [1]: create-role.md
 [2]: set-data-rights-for-role.md
 [3]: index.md
-
-<!-- Referenced images -->

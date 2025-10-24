@@ -3,12 +3,16 @@ uid: help-sv-role-set-data-rights
 title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /sv/admin/user-management/learn/role/set-data-rights-for-role
 language: sv
 ---
 
@@ -20,15 +24,15 @@ Du kan ange behörigheter för [dataobjekt][2] baserat på vem som äger objekte
 
 ## Steg
 
-1. [!include[Open Roles](includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Gå till fliken **Medarbetare** eller **Externa** (lokalt).
+1. Gå till fliken **Medarbetare** eller **Externa** (lokalt).
 
     [Så redigerar du rollen för anonyma användare.][1]
 
-3. Markera önskad roll i listan **Roller**. Behörigheterna för den valda rollen visas på fliken **Databehörigheter**.
+1. Markera önskad roll i listan **Roller**. Behörigheterna för den valda rollen visas på fliken **Databehörigheter**.
 
-4. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid den rättighet du vill ändra och välj önskad rättighet.
+1. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid den rättighet du vill ändra och välj önskad rättighet.
 
     | Namn | Behörighet | Inforuta |
     |---|---|---|
@@ -63,11 +67,11 @@ I kontaktkortet hämtas fältet **Vår kontakt** alltid från företagskortet so
 
 Om dataobjekten (företag, projekt, dokument etc.) ska vara tillgängliga för externa användare (Audience-användare) räcker det inte att bara tilldela läsbehörighet (eller högre) till externa användare. Dataobjekten måste också publiceras i SuperOffice.
 
-## Relaterat
+## Relaterat innhåll
 
 * [Databehörigheter][3]
 
 <!-- Referenced links -->
-[1]: edit-rights-for-anonymous-users.md
+[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md

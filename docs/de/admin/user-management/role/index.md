@@ -2,12 +2,17 @@
 uid: help-de-role
 title: Rolle
 description: Rolle
-author: Kirsti Aakerholt
-date: 04.19.2023
 keywords: Rolle, Datenobjekt, Benutzerebene
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: concept
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /de/admin/user-management/learn/role/index
 language: de
 ---
 
@@ -68,22 +73,20 @@ Sie können zum Beispiel auf der Registerkarte Datenrechte entscheiden, ob eine 
 | Abgleichen | Kann aktualisieren |  | X | X | X |  |
 | Löschen | Kann löschen |  | X | X | X | X |
 
-## Was möchten Sie jetzt tun?
+![Functional rights -screenshot][img4]
+
+## Verwandte Inhalte
 
 * [Rolle erstellen][1]
-* [Rolle bearbeiten][2]
+* [Rolle bearbeiten oder löschen][2]
 * [Datenrechte für eine Rolle festlegen][3]
-* [Rechte für anonyme Benutzer bearbeiten][4]
-* [Rolle löschen][5]
-* [Funktionsrechte][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
-[2]: editing-role.md
+[2]: update-role.md
 [3]: set-data-rights-for-role.md
-[4]: edit-rights-for-anonymous-users.md
-[5]: deleting-role.md
 [6]: functional-rights.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
+[img1]: ../../../../media/loc/en/admin/manage-user-levels.png
+[img4]: ../../../../media/loc/en/admin/functional-rights.png

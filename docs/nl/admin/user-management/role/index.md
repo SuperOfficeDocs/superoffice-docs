@@ -2,12 +2,17 @@
 uid: help-nl-role
 title: Rol
 description: Rol
-author: Kirsti Aakerholt
-date: 04.19.2023
 keywords: rol, gegevensobject, gebruikersniveau
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: concept
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /nl/admin/user-management/learn/role/index
 language: nl
 ---
 
@@ -68,22 +73,20 @@ U kunt bijvoorbeeld bepalen of een persoon informatie kan verwijderen, bijwerken
 | Bijwerken | Kan bijwerken |  | X | X | X |  |
 | Verwijderen | Kan verwijderen |  | X | X | X | X |
 
+![Functional rights -screenshot][img4]
+
 ## Gerelateerde inhoud
 
 * [Een rol maken][1]
 * [Een rol bewerken][2]
 * [Gegevensrechten voor een rol instellen][3]
-* [Rechten voor anonieme gebruikers bewerken][4]
-* [Een rol verwijderen][5]
-* [Functionele rechten][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
-[2]: editing-role.md
+[2]: update-role.md
 [3]: set-data-rights-for-role.md
-[4]: edit-rights-for-anonymous-users.md
-[5]: deleting-role.md
 [6]: functional-rights.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
+[img1]: ../../../../media/loc/en/admin/manage-user-levels.png
+[img4]: ../../../../media/loc/en/admin/functional-rights.png

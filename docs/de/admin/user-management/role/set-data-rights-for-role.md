@@ -3,12 +3,16 @@ uid: help-de-role-set-data-rights
 title: Datenrechten für Rolle festlegen
 description: Datenrechten für Rolle festlegen
 keywords: Benutzerverwaltung, Rolle, Zugriff, Rechte
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /de/admin/user-management/learn/role/set-data-rights-for-role
 language: de
 ---
 
@@ -20,15 +24,15 @@ Sie können Rechte für [Datenobjekte][2] festlegen, die davon abhängen, wer Ei
 
 ## Schritte
 
-1. [!include[Open Roles](includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Wählen Sie die Registerkarte **Mitarbeiter** oder die Registerkarte **Extern** (vor Ort) aus.
+1. Wählen Sie die Registerkarte **Mitarbeiter** oder die Registerkarte **Extern** (vor Ort) aus.
 
     [Wie man die Rolle für anonyme Benutzer bearbeitet.][1]
 
-3. Wählen Sie die gewünschte Rolle in der Liste **Rollen**. Die Rechte für die ausgewählte Rolle werden auf der Registerkarte **Datenrechte** angezeigt.
+1. Wählen Sie die gewünschte Rolle in der Liste **Rollen**. Die Rechte für die ausgewählte Rolle werden auf der Registerkarte **Datenrechte** angezeigt.
 
-4. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem zu ändernden Recht und wählen Sie das gewünschte Recht aus.
+1. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem zu ändernden Recht und wählen Sie das gewünschte Recht aus.
 
     | Name | Rechte | QuickInfo |
     |---|---|---|
@@ -63,11 +67,11 @@ Im **Personen**-karte wird das Feld **Verantwortliche** immer von der zugehörig
 
 Wenn externe Benutzer (Audience-Benutzer) Zugriff auf die Datenobjekte (Firmen, Projekte, Dokumente usw.) erhalten sollen, reicht es nicht aus, den externen Benutzern Leserechte (oder mehr) zu erteilen. Die Datenobjekte müssen außerdem in SuperOffice veröffentlicht werden.
 
-## Vervandt
+## Verwandte Inhalte
 
 * [Datenrechte][3]
 
 <!-- Referenced links -->
-[1]: edit-rights-for-anonymous-users.md
+[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md

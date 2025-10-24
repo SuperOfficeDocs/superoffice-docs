@@ -2,16 +2,20 @@
 uid: help-en-role
 title: Role
 description: Role
-author: Kirsti Aakerholt, Bergfrid Dias
-date: 08.25.2023
 keywords: role, data object, user level
+author: digitaldiina, kirstiaa
+date: 10.24.2025
+version: 10.5
 content_type: concept
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: role
+index: true
 redirect_from: 
   - /en/online/identity/role/index
   - /en/admin/user-management/learn/role/index
+language: en
 ---
 
 # Roles
@@ -83,15 +87,13 @@ On the **Functional rights** tab you can allow different functional rights on th
 ## Related content
 
 * [Create a role][1]
-* [Edit a role][2]
+* [Edit or delete a role][2]
 * [Set data rights for a role][3]
-* [Delete a role][5]
 
 <!-- Referenced links -->
 [1]: create-role.md
-[2]: editing-role.md
+[2]: update-role.md
 [3]: set-data-rights-for-role.md
-[5]: deleting-role.md
 [6]: functional-rights.md
 
 <!-- Referenced images -->

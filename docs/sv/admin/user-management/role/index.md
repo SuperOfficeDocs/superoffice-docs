@@ -2,12 +2,17 @@
 uid: help-sv-role
 title: Roll
 description: Roll
-author: Kirsti Aakerholt
-date: 04.19.2023
 keywords: roll, dataobjekt, användarnivå
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: concept
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /sv/admin/user-management/learn/role/index
 language: sv
 ---
 
@@ -68,22 +73,20 @@ Du kan till exempel bestämma om en person ska kunna ta bort, uppdatera, skapa e
 | Uppdatera | Kan uppdatera |  | X | X | X |  |
 | Radera | Kan ta bort |  | X | X | X | X |
 
-## Vad vill du göra nu?
+![Functional rights -screenshot][img4]
+
+## Relaterat innhåll
 
 * [Skapa en roll][1]
-* [Redigera en roll][2]
+* [Redigera eller ta bort en roll][2]
 * [Ange behörighet för roll][3]
-* [Redigera behörigheter för anonyma användare][4]
-* [Ta bort en roll][5]
-* [Funktionella behörigheter][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
-[2]: editing-role.md
+[2]: update-role.md
 [3]: set-data-rights-for-role.md
-[4]: edit-rights-for-anonymous-users.md
-[5]: deleting-role.md
 [6]: functional-rights.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
+[img1]: ../../../../media/loc/en/admin/manage-user-levels.png
+[img4]: ../../../../media/loc/en/admin/functional-rights.png

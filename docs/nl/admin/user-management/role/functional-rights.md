@@ -3,12 +3,16 @@ uid: help-nl-functional-right
 title: Functional rights in SuperOffice
 description: What are all available functional rights in SuperOffice and what each of them mean?
 keywords: user management, role, access, rights
-author: Philip Yates, Bergfrid Dias
-date: 02.25.2025
+author: PhilipYates, digitaldiina
+date: 10.24.2025
 version: 10.5.2
 content_type: reference
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /nl/admin/user-management/learn/role/functional-rights
 language: nl
 ---
 
@@ -84,14 +88,12 @@ Using [role-based security][3], we can [customize roles][2] to give access to di
 | View statistics | Grants access to the statistics module. | **Legacy Service client only** |
 | Workflow administrator | Grants limited access to Settings and maintenance. The user may edit workflow (sales or project guide). | To edit lists, the user must also have rights to edit lists or be a general administrator. |
 
-## Related information
+## Gerelateerde inhoud
 
-* [Create role][1]
-* [Set data rights for a role][2]
+* [Rol maken][1]
+* [Gegevensrechten voor rol instellen][2]
 
 <!-- Referenced links -->
 [1]: create-role.md
 [2]: set-data-rights-for-role.md
 [3]: index.md
-
-<!-- Referenced images -->

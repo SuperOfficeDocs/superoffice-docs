@@ -3,12 +3,16 @@ uid: help-no-role-set-data-rights
 title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
-author: Bergfrid Dias
+author: digitaldiina
 date: 03.27.2025
 version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /no/admin/user-management/learn/role/set-data-rights-for-role
 language: no
 ---
 
@@ -20,15 +24,15 @@ Du kan angi rettigheter for [dataobjekter][2] basert på hvem som eier objektet.
 
 ## Trinn
 
-1. [!include[Open Roles](includes/open-roles.md)]
+1. [!include[Open Roles](../includes/open-roles.md)]
 
-2. Velg fanen **Medarbeidere** eller fanen **Eksterne** (onsite).
+1. Velg fanen **Medarbeidere** eller fanen **Eksterne** (onsite).
 
     [Slik redigerer du rollen for anonyme brukere.][1]
 
-3. Merk ønsket rolle i listen **Roller**. Rettighetene for den valgte rollen vises i fanen **Datarettigheter**.
+1. Merk ønsket rolle i listen **Roller**. Rettighetene for den valgte rollen vises i fanen **Datarettigheter**.
 
-4. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av rettigheten du vil endre, og velg deretter ønsket rettighet.
+1. Klikk på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden av rettigheten du vil endre, og velg deretter ønsket rettighet.
 
     | Navn | Rettigheter | Infoboks |
     |---|---|---|
@@ -63,11 +67,11 @@ I personkortet hentes feltet **Vår kontakt** alltid fra firmakortet som persone
 
 Hvis dataobjekter (firmaer, prosjekter, dokumenter og så videre) skal gjøres tilgjengelige for eksterne brukere (Audience-brukere), holder det ikke bare å gi de eksterne brukerne lesetilgang eller høyere tilgang. Dataobjektene må i tillegg publiseres i SuperOffice.
 
-## Relatert
+## Relatert innhold
 
 * [Datarettigheter][3]
 
 <!-- Referenced links -->
-[1]: edit-rights-for-anonymous-users.md
+[1]: ../onsite/other-users.md#rights
 [2]: index.md
 [3]: functional-rights.md

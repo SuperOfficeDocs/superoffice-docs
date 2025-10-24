@@ -2,12 +2,17 @@
 uid: help-no-role
 title: Rolle
 description: Rolle
-author: Kirsti Aakerholt
-date: 04.19.2023
 keywords: rolle, dataobjekt, brukernivå
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: concept
-audience: admin
+audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: role
+index: true
+redirect_from: /no/admin/user-management/learn/role/index
 language: no
 ---
 
@@ -68,22 +73,20 @@ Du kan for eksempel bestemme om en person skal kunne slette, oppdatere, opprette
 | Oppdater | Kan oppdatere |  | X | X | X |  |
 | Slett | Kan slette |  | X | X | X | X |
 
-## Hva vil du gjøre nå?
+![Functional rights -screenshot][img4]
+
+## Relatert innhold
 
 * [Opprett en rolle][1]
-* [Redigere en rolle][2]
+* [Redigere eller slette en rolle][2]
 * [Angi datarettigheter for rolle][3]
-* [Redigere rettigheter for anonyme brukere][4]
-* [Slette en rolle][5]
-* [Funksjonelle rettighetene][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
-[2]: editing-role.md
+[2]: update-role.md
 [3]: set-data-rights-for-role.md
-[4]: edit-rights-for-anonymous-users.md
-[5]: deleting-role.md
 [6]: functional-rights.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
+[img1]: ../../../../media/loc/en/admin/manage-user-levels.png
+[img4]: ../../../../media/loc/en/admin/functional-rights.png
