@@ -1,13 +1,18 @@
 ---
 uid: help-de-user-add
 title: Benutzer hinzufügen
-description: "In dieser Anleitung lernen Sie, wie Sie einen neuen Benutzer zu SuperOffice CRM hinzufügen."
-author: SuperOffice RnD
-date: 02.21.2023
-keywords: user, Mitarbeiter
+description: In dieser Anleitung lernen Sie, wie Sie einen neuen Benutzer zu SuperOffice CRM hinzufügen.
+keywords: Benutzer hinzufügen, Mitarbeiter
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: /de/admin/user-management/learn/add-associate
 language: de
 ---
 
@@ -20,20 +25,20 @@ Administratoren sind dafür verantwortlich, neuen Benutzern einen Benutzerplan, 
 > [!NOTE]
 > Wenn Sie bei der Bestellung von SuperOffice CRM Informationen über Benutzer angegeben haben, müssen Sie keine Benutzer hinzufügen. Die Benutzer haben die Zugangsdaten von SuperOffice per E-Mail erhalten. Überprüfen Sie im Menü Benutzer in Einstellungen und Verwaltung, ob sich Benutzer im System befinden.
 >
-> Im Folgenden wird beschrieben, wie Sie einen einzelnen Benutzer hinzufügen. Informationen zum Hinzufügen mehrerer Benutzer finden Sie unter [Benutzer importieren][1].
+> Im Folgenden wird beschrieben, wie Sie einen einzelnen Benutzer hinzufügen. Informationen zum Hinzufügen mehrerer Benutzer (vor Ort) finden Sie unter [Benutzer importieren][1].
 
 ## Schritte
 
 1. Öffnen Sie die Ansicht Benutzer.
-2. Wählen Sie die Registerkarte **Mitarbeiter** aus.
-3. Klicken Sie unter der Liste auf die Schaltfläche **Hinzufügen**.
-4. Geben Sie den Namen und die E-Mail-Adresse des neuen Benutzers im oberen Bereich der Karte ein.
-5. Wenn in Ihrer SuperOffice-Installation mehr als eine Firma des Eigentümers verfügbar ist, können Sie diese unter dem Feld **E-Mail** auswählen.
-6. Geben Sie die relevanten Informationen in den Registerkarten **Details** und **Lizenzen** ein.
+1. Wählen Sie die Registerkarte **Mitarbeiter** aus.
+1. Klicken Sie unter der Liste auf die Schaltfläche **Hinzufügen**.
+1. Geben Sie den Namen und die E-Mail-Adresse des neuen Benutzers im oberen Bereich der Karte ein.
+1. Wenn in Ihrer SuperOffice-Installation mehr als eine Firma des Eigentümers verfügbar ist, können Sie diese unter dem Feld **E-Mail** auswählen.
+1. Geben Sie die relevanten Informationen in den Registerkarten **Details** und **Lizenzen** ein.
 
     ![Create user details -screenshot][img7]
 
-7. Klicken Sie auf **Speichern**. Der Name des neuen Benutzers wird in der Liste angezeigt.
+1. Klicken Sie auf **Speichern**. Der Name des neuen Benutzers wird in der Liste angezeigt.
 
     * Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
 
@@ -104,7 +109,7 @@ Sehen Sie sich diese Demo an, um zu sehen, wie Sie einen neuen Benutzer in Super
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: onsite/other-users.md
-[6]:  update-user.md
+[6]: update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png

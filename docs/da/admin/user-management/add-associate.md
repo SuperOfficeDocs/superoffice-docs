@@ -2,12 +2,17 @@
 uid: help-da-user-add
 title: Tilføjelse af bruger
 description: I denne vejledning lærer du, hvordan du tilføjer en ny bruger til SuperOffice CRM.
-author: SuperOffice RnD
-date: 12.11.2024
-keywords: user, medarbejder
+keywords: tilføj bruger, medarbejder
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: /da/admin/user-management/learn/add-associate
 language: da
 ---
 
@@ -25,15 +30,15 @@ Administratorer er ansvarlige for at give nye brugere en brugerplan, et brugerna
 ## Trin
 
 1. Åbn skærmbilledet Brugere.
-2. Vælg fanen **Medarbejdere**.
-3. Klik på knappen **Tilføj** under listen.
-4. Skriv navnet og e-mailadressen på den nye bruger i øverste del af kortet.
-5. Hvis der er mere end ét ejerfirma tilgængelig i din SuperOffice-installation, kan du vælge dette under feltet **E-mail**.
-6. Angiv de relevante oplysninger under fanerne **Detaljer** og **Licenser**.
+1. Vælg fanen **Medarbejdere**.
+1. Klik på knappen **Tilføj** under listen.
+1. Skriv navnet og e-mailadressen på den nye bruger i øverste del af kortet.
+1. Hvis der er mere end ét ejerfirma tilgængelig i din SuperOffice-installation, kan du vælge dette under feltet **E-mail**.
+1. Angiv de relevante oplysninger under fanerne **Detaljer** og **Licenser**.
 
     ![Create user details -screenshot][img7]
 
-7. Klik på **Gem**. Navnet på den nye bruger vises nu på listen.
+1. Klik på **Gem**. Navnet på den nye bruger vises nu på listen.
 
     * Hvis aktive brugere har brug for en anden brugerplan, kan du [tildele brugerplaner][4] i Indstillinger og vedligeholdelse.
 

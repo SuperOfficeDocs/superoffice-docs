@@ -2,13 +2,17 @@
 uid: help-no-user-add
 title: Legge til bruker
 description: I denne guiden lærer du hvordan du legger til en ny bruker i SuperOffice CRM.
-author: SuperOffice RnD
-date: 02.21.2023
-keywords: bruker, medarbeider
+keywords: Legg til bruker, medarbeider
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-
+category: identity management
+topic: user
+index: true
+redirect_from: /no/admin/user-management/learn/add-associate
 language: no
 ---
 
@@ -21,20 +25,20 @@ Administratorer har ansvaret for å gi nye brukere en brukerplan, et brukernavn,
 > [!NOTE]
 > Hvis du oppga informasjon om brukerne da du bestilte SuperOffice CRM, trenger du ikke å legge til brukere. Brukerne skal ha fått påloggingsinformasjon fra SuperOffice via e-post. Kontroller om brukerne er i systemet ved hjelp av menyen Brukere i Innstillinger og vedlikehold.
 >
-> Denne prosedyren beskriver hvordan du legger til én bruker om gangen. Hvis du vil legge til flere brukere, kan du se [Importere brukere][1].
+> Denne prosedyren beskriver hvordan du legger til én bruker om gangen. Hvis du vil legge til flere brukere onsite, kan du se [Importere brukere][1].
 
 ## Trinn
 
 1. Åpne skjermbildet Brukere.
-2. Velg fanen **Medarbeidere**.
-3. Klikk på **Legg til**-knappen under listen.
-4. Skriv inn navnet og e-postadressen til den nye brukeren øverst på kortet.
-5. Hvis mer enn ett eierfirma er tilgjengelig i SuperOffice-installasjonen, kan du velge dette under feltet **E-post**.
-6. Skriv inn relevant informasjon i fanene **Detaljer** og **Lisenser**.
+1. Velg fanen **Medarbeidere**.
+1. Klikk på **Legg til**-knappen under listen.
+1. Skriv inn navnet og e-postadressen til den nye brukeren øverst på kortet.
+1. Hvis mer enn ett eierfirma er tilgjengelig i SuperOffice-installasjonen, kan du velge dette under feltet **E-post**.
+1. Skriv inn relevant informasjon i fanene **Detaljer** og **Lisenser**.
 
     ![Create user details -screenshot][img7]
 
-7. Klikk på **Lagre**. Navnet på den nye brukeren vises nå i listen.
+1. Klikk på **Lagre**. Navnet på den nye brukeren vises nå i listen.
 
     * Hvis aktive brukere trenger en annen brukerplan, kan du [tilordne brukerplaner][4] i Innstillinger og vedlikehold.
 

@@ -2,12 +2,17 @@
 uid: help-sv-user-add
 title: Lägg till användare
 description: I den här guiden förklarar vi hur du lägger till en ny användare i SuperOffice CRM.
-author: SuperOffice RnD
-date: 02.21.2023
-keywords: user, medarbetare
+keywords: lägg till användare, medarbetare
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: /sv/admin/user-management/learn/add-associate
 language: sv
 ---
 
@@ -20,20 +25,20 @@ Administratörerna ansvarar för att ge nya användare en användarplan, ett anv
 > [!NOTE]
 > Om du har lämnade information om dina användare när du beställde SuperOffice CRM behöver du inte lägga till användare. Användarna ska ha fått inloggningsuppgifter från SuperOffice via e-post. Kontrollera om användarna ligger inne i systemet på menyn Användare under Inställningar och underhåll.
 >
-> Den här proceduren beskriver hur du lägger till en användare i taget. Om du vill lägga till flera användare kan du se [Importera användare][1].
+> Den här proceduren beskriver hur du lägger till en användare i taget. Om du vill lägga till flera användare onsite kan du se [Importera användare][1].
 
 ## Steg
 
 1. Öppna fönstret Användare.
-2. Välj fliken **Medarbetare**.
-3. Klicka på knappen **Lägg till** under listan.
-4. Ange namnet och e-postadressen för den nya användaren på kortets övre del.
-5. Om mer än ett ägarföretag är tillgängligt i din SuperOffice-installation kan du välja det under fältet **E-post**.
-6. Ange relevanta uppgifter på flikarna **Detaljer** och **Licenser**.
+1. Välj fliken **Medarbetare**.
+1. Klicka på knappen **Lägg till** under listan.
+1. Ange namnet och e-postadressen för den nya användaren på kortets övre del.
+1. Om mer än ett ägarföretag är tillgängligt i din SuperOffice-installation kan du välja det under fältet **E-post**.
+1. Ange relevanta uppgifter på flikarna **Detaljer** och **Licenser**.
 
     ![Create user details -screenshot][img7]
 
-7. Klicka på **Spara**. Namnet på den nya användaren visas nu i listan.
+1. Klicka på **Spara**. Namnet på den nya användaren visas nu i listan.
 
     * Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll.
 

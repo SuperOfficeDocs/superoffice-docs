@@ -2,14 +2,18 @@
 uid: help-en-user-add
 title: Add user
 description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM and what to do if a newly created user cannot log in.
-author: SuperOffice RnD
-date: 08.28.2023
 keywords: user, associate
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-language: en
+category: identity management
+topic: user
+index: true
 redirect_from: /en/admin/user-management/learn/add-associate
+language: en
 ---
 
 # Add users
@@ -26,15 +30,15 @@ Administrators are responsible for providing new users with a user plan, a usern
 ## Steps
 
 1. Open the Users screen.
-2. Select the **Associates** tab.
-3. Click the **Add** button below the list.
-4. Enter the name and email address of the new user in the top-part of the card.
-5. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
-6. Enter the relevant information in the **Details** and **Licences** tabs.
+1. Select the **Associates** tab.
+1. Click the **Add** button below the list.
+1. Enter the name and email address of the new user in the top-part of the card.
+1. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
+1. Enter the relevant information in the **Details** and **Licences** tabs.
 
     ![Create user details -screenshot][img7]
 
-7. Click **Save**. The name of the new user will now be displayed in the list.
+1. Click **Save**. The name of the new user will now be displayed in the list.
 
     * If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance.
 

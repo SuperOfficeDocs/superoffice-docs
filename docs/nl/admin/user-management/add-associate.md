@@ -2,12 +2,17 @@
 uid: help-nl-user-add
 title: Gebruiker toevoegen
 description: In deze handleiding leert u hoe u een nieuwe gebruiker toevoegt in SuperOffice CRM.
-author: SuperOffice RnD
-date: 02.21.2023
-keywords: gebruiker, medewerker
+keywords: gebruiker toevoegen, medewerker
+author: digitaldiina
+date: 10.24.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+category: identity management
+topic: user
+index: true
+redirect_from: /nl/admin/user-management/learn/add-associate
 language: nl
 ---
 
@@ -25,15 +30,15 @@ Beheerders zijn verantwoordelijk voor het verstrekken van nieuwe gebruikers met 
 ## Stappen
 
 1. Open het scherm Gebruikers.
-2. Selecteer het tabblad **Medewerkers**.
-3. Klik op de knop **Toevoegen** onder de lijst.
-4. Voer de naam en het e-mailadres van de nieuwe gebruiker in het bovenste deel van de kaart in.
-5. Als er meer dan één bedrijf beschikbaar is als eigenaar in uw SuperOffice-installatie, kunt u dit selecteren onder het veld **E-mail**.
-6. Voer de relevante informatie in de tabbladen **Details** en **Licenties** in.
+1. Selecteer het tabblad **Medewerkers**.
+1. Klik op de knop **Toevoegen** onder de lijst.
+1. Voer de naam en het e-mailadres van de nieuwe gebruiker in het bovenste deel van de kaart in.
+1. Als er meer dan één bedrijf beschikbaar is als eigenaar in uw SuperOffice-installatie, kunt u dit selecteren onder het veld **E-mail**.
+1. Voer de relevante informatie in de tabbladen **Details** en **Licenties** in.
 
     ![Create user details -screenshot][img7]
 
-7. Klik op **Opslaan**. De naam van de nieuwe gebruiker wordt nu weergegeven in de lijst.
+1. Klik op **Opslaan**. De naam van de nieuwe gebruiker wordt nu weergegeven in de lijst.
 
     * Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
 
@@ -104,7 +109,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 [3]: role/index.md
 [4]: ../../license/change-user-plan.md
 [5]: onsite/other-users.md
-[6]:  update-user.md
+[6]: update-user.md
 
 <!-- Referenced images -->
 [img7]: ../../../../media/loc/en/admin/selected-user-plan.png
