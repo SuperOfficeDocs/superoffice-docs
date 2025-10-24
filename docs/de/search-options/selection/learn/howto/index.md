@@ -68,7 +68,7 @@ Die Schaltfläche **Aufgabe** enthält Aufgaben wie das Senden von E-Mails, Mass
 [5]: ../../../../learn/basics/bulk-update.md
 [6]: ../update/index.md
 [7]: ../update/delete.md
-[8]: ../../../../admin/user-management/learn/role/index.md
+[8]: ../../../../admin/user-management/role/index.md
 [9]: print-labels.md
 [10]: print.md
 [12]: export.md

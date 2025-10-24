@@ -68,4 +68,4 @@ Du kan också ange vilka poster som ska vara tillgängliga för en användargrup
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../../user-management/learn/index.md
+[2]: ../../../user-management/index.md

@@ -47,7 +47,7 @@ Användarinställningar i SuperOffice CRM där du ändrar användarplaner Använ
 * [Lägg till ny användare][1]
 
 <!-- Referenced links -->
-[1]: ../user-management/learn/add-associate.md
-[2]: ../user-management/learn/role/index.md
+[1]: ../user-management/add-associate.md
+[2]: ../user-management/role/index.md
 
 <!-- Referenced images -->

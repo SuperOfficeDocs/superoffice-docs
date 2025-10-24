@@ -112,9 +112,9 @@ Wenn Sie den Mauszeiger über einen Datensatz bewegen, erscheint eine QuickInfo 
 [42]: ../../../diary/learn/video-meetings.md
 [43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
-[45]: ../../../admin/license/learn/index.md
-[46]: ../../../admin/user-management/learn/index.md
-[47]: ../../../admin/user-management/learn/role/index.md
+[45]: ../../../admin/license/index.md
+[46]: ../../../admin/user-management/index.md
+[47]: ../../../admin/user-management/role/index.md
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 

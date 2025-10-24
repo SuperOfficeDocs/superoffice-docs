@@ -141,7 +141,7 @@ Controleer of de gebruiker [toegangsrechten][7] heeft en of de export-[voorkeur]
 [3]: configure-product-fields.md
 [4]: ../../../learn/section-tabs/configure-columns.md
 [5]: ../../../admin/import/products-from-excel.md
-[7]: ../../../admin/user-management/learn/role/index.md
+[7]: ../../../admin/user-management/role/index.md
 [8]: ../../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

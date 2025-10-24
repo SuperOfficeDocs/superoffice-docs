@@ -105,6 +105,6 @@ My application is ready, what should I consider before I ask for a certification
 [18]: ../../provisioning/revoke.md
 [19]: ../../best-practices/tenant-status/check-status.md
 
-[16]: ../../../admin/user-management/learn/visibility.md
+[16]: ../../../admin/user-management/index.md#visible
 [11]: ../../../security/privacy/consent-management.md
 [12]: ../../../security/privacy/e-marketing-consent.md

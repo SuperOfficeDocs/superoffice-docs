@@ -89,8 +89,8 @@ Titta på den här videon och ta reda på hur du lägger till en ny layout eller
 [4]: edit-layout.md#delete
 [5]: add-button.md
 [6]: assign-layout.md
-[15]: ../../../admin/user-management/learn/role/index.md
-[16]: ../../../admin/user-management/learn/user-groups.md
+[15]: ../../../admin/user-management/role/index.md
+[16]: ../../../admin/user-management/user-groups.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/customization/add-button-for-new-screen-layout.png

@@ -26,11 +26,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Översikt över licens
-          url: license/learn/index.md
+          url: license/index.md
         - text: Fönstret Licenser
-          url: license/learn/index.md
+          url: license/index.md
         - text: Aktivera licens
-          url: license/learn/activate.md
+          url: license/activate.md
 
   # Card
   - title: Administrering av användare
@@ -39,19 +39,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Roller
-          url: user-management/learn/role/index.md
+          url: user-management/role/index.md
         - text: Skapa en roll
-          url: user-management/learn/role/create-role.md
+          url: user-management/role/create-role.md
         - text: Användare
-          url: user-management/learn/index.md
+          url: user-management/index.md
         - text: Lägga till användare
-          url: user-management/learn/add-associate.md
+          url: user-management/add-associate.md
         - text: Uppdatera användarinformation
-          url: user-management/learn/update-user.md
+          url: user-management/update-user.md
         - text: Hantera användargrupper
-          url: user-management/learn/user-groups.md
+          url: user-management/user-groups.md
         - text: Hantera 'Våra företag'
-          url: user-management/learn/our-companies.md
+          url: user-management/our-companies.md
 
   # Card
   - title: Import

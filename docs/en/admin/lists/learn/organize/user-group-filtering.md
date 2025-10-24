@@ -68,4 +68,4 @@ You can also specify available items for a user group:
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../../user-management/learn/index.md
+[2]: ../../../user-management/index.md

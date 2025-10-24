@@ -141,7 +141,7 @@ Sjekk om brukeren har [tilgangsrettigheter][7] og at eksport [preferansen][8] er
 [3]: configure-product-fields.md
 [4]: ../../../learn/section-tabs/configure-columns.md
 [5]: ../../../admin/import/products-from-excel.md
-[7]: ../../../admin/user-management/learn/role/index.md
+[7]: ../../../admin/user-management/role/index.md
 [8]: ../../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->

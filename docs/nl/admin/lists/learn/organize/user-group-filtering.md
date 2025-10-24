@@ -68,4 +68,4 @@ U kunt ook beschikbare items opgeven voor een gebruikersgroep:
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../../user-management/learn/index.md
+[2]: ../../../user-management/index.md

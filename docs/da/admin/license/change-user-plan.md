@@ -47,7 +47,7 @@ Brugerindstillinger i SuperOffice CRM, hvor du ændrer brugerplaner. Brugerindst
 * [Tilføj ny bruger][1]
 
 <!-- Referenced links -->
-[1]: ../user-management/learn/add-associate.md
-[2]: ../user-management/learn/role/index.md
+[1]: ../user-management/add-associate.md
+[2]: ../user-management/role/index.md
 
 <!-- Referenced images -->

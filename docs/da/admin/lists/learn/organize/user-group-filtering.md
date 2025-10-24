@@ -68,4 +68,4 @@ Du kan også angive tilgængelige forekomster for en brugergruppe:
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../../user-management/learn/index.md
+[2]: ../../../user-management/index.md

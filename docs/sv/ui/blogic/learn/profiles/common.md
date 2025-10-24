@@ -60,7 +60,7 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 
 <!-- Referenced links -->
 [1]: ../screen-properties.md
-[2]: ../../../../admin/user-management/learn/role/index.md
-[3]: ../../../../admin/user-management/learn/role/create-role.md
+[2]: ../../../../admin/user-management/role/index.md
+[3]: ../../../../admin/user-management/role/create-role.md
 [4]: personal.md
 [5]: global.md
