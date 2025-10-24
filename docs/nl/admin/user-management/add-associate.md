@@ -78,7 +78,9 @@ Het tabblad **Details** bevat de volgende opties:
 
 ### Voorbeeld
 
-[!include[Example](includes/example-grouping.md)]
+Joop Jansen werkt op de verkoopafdeling van een groot bedrijf. De primaire groep is ingesteld op "Verkoop", zodat Joop toegangsrechten heeft voor gegevens die zijn gemaakt door gebruikers op de verkoopafdeling. De toegangsrechten voor de primaire groep worden gedefinieerd door de rol waartoe Joop behoort. Deze rol bepaalt of Joop gegevens die door andere gebruikers op de verkoopafdeling zijn gemaakt, kan bewerken of verwijderen (zie [Gegevensrechten voor een rol definiëren][8]).
+
+Joe heeft ook beperkte rechten voor documenten van de marketingafdeling en de ontwikkelingsafdeling nodig. Deze twee afdelingen worden toegevoegd onder **Andere groepen**. In de rol waar Joop toe behoort, is opgegeven dat hij alleen leestoegang tot deze gegevens heeft.
 
 ### [Het tabblad Licenties](#tab/license)
 
@@ -101,7 +103,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 ## Gerelateerde inhoud
 
 * [Anonieme gebruikers of systeemgebruikers toevoegen (lokaal)][5]
-* [Gebruiker / medewerker bewerken][6]'
+* [Gebruiker / medewerker bewerken][6]
 
 <!-- Referenced links -->
 [1]: onsite/import-users.md
@@ -110,6 +112,7 @@ Bekijk deze demo om te zien hoe u een nieuwe gebruiker kunt toevoegen in SuperOf
 [4]: ../../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
+[8]: role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img7]: ../../../../media/loc/en/admin/selected-user-plan.png
+[img7]: ../../../media/loc/en/admin/selected-user-plan.png

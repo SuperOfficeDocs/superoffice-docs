@@ -78,7 +78,9 @@ På fliken **Detaljer** finns följande alternativ:
 
 #### Exempel
 
-[!include[Example](includes/example-grouping.md)]
+Joe Johnson jobbar på säljavdelningen på ett stort företag. Primärgruppen "Försäljning" har valts vilket innebär att Joe har åtkomstbehörighet till data som skapas av användare på säljavdelningen. Primärgruppens åtkomstbehörigheter definieras i den roll Joe tillhör. Rollen avgör om Joe kan redigera eller ta bort data som skapas av andra användare på säljavdelningen (se [Definiera databehörigheter för en roll][8]).
+
+Joe behöver också begränsad åtkomst till dokument från marknadsavdelningen och utvecklingsavdelningen. Dessa två avdelningar läggs till under **Andra grupper**. Rollen som Joe tillhör har bara läsbehörighet för dessa data.
 
 ### [Fliken Licenser](#tab/license)
 
@@ -110,6 +112,7 @@ Se den här demon för att se hur du lägger till en ny användare i SuperOffice
 [4]: ../../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
+[8]: role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img7]: ../../../../media/loc/en/admin/selected-user-plan.png
+[img7]: ../../../media/loc/en/admin/selected-user-plan.png

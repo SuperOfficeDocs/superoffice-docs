@@ -78,7 +78,9 @@ I fanen **Detaljer** finner du følgende alternativer:
 
 #### Eksempel
 
-[!include[Example](includes/example-grouping.md)]
+Jon Jonsen jobber i salgsavdelingen i et stort selskap. Primærgruppen settes til "Salg", slik at Jon har tilgangsrettigheter til data som brukere i salgsavdelingen har opprettet. Tilgangsrettighetene til primærgruppen er definert i rollen som Jon tilhører. Denne rollen bestemmer om Jon kan redigere eller slette data som er opprettet av de andre brukerne i salgsavdelingen (se [Angi datarettigheter for rolle][8]).
+
+Jon trenger i tillegg begrenset tilgang til dokumenter fra markedsavdelingen og utviklingsavdelingen. Disse to avdelingene legges til under **Andre grupper**. I rollen som Jon tilhører, er det angitt at Jon bare har lesetilgang til disse dataene.
 
 ### [Lisenser-fanen](#tab/license)
 
@@ -110,6 +112,7 @@ Se denne demoen for å se hvordan du legger til en ny bruker i SuperOffice CRM.
 [4]: ../../license/change-user-plan.md
 [5]: onsite/other-users.md
 [6]: update-user.md
+[8]: role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img7]: ../../../../media/loc/en/admin/selected-user-plan.png
+[img7]: ../../../media/loc/en/admin/selected-user-plan.png
