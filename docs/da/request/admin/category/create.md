@@ -83,5 +83,5 @@ index: true
 * [Sådan konfigurerer du Hent næste sag i køen][3]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/index.md
+[1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md

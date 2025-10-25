@@ -33,6 +33,24 @@ landingContent:
           url: license/activate.md
 
   # Card
+  - title: "Lister, preferanser, alternativer og innstillinger"
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Lister
+          url: lists/learn/index.md
+        - text: Preferanser
+          url: preferences/index.md
+        - text: Systemvalg
+          url: options/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Globale preferanser
+          url: preferences/index.md#global
+
+  # Card
   - title: Brukeradministrasjon
     linkLists:
       - itemType: list

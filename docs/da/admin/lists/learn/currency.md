@@ -24,6 +24,6 @@ Under skærmbillederne Salg i SuperOffice CRM angiver du bl.a. salgsbeløb, omko
 
 <!-- Referenced links -->
 [1]: adding-items-to-currency-list.md
-[2]: ../../preferences/learn/index.md
+[2]: ../../preferences/index.md
 
 <!-- Referenced images -->

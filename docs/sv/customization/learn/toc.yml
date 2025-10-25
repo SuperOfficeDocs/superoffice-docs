@@ -1,9 +1,6 @@
 items:
 - name: Översikt
   href: ../index.yml
-- name: Listor
-  href: ../../admin/lists/learn/toc.yml
-  topicHref: ../../admin/lists/learn/index.md
 - name: Skärmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md

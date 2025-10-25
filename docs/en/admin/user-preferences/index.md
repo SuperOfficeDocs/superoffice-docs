@@ -121,4 +121,4 @@ In NetServer, we can either retrieve the current values of these preferences or 
 [6]: ../../database/tables/userpreference.md
 [7]: ../../learn/getting-started/preferences.md
 [8]: reference/appointment-dialog.md
-[9]: ../preferences/learn/index.md
+[9]: ../preferences/index.md

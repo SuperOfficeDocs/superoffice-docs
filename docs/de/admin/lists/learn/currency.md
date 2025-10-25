@@ -24,6 +24,6 @@ In der Ansicht Verkauf in SuperOffice CRM werden der Verkaufsbetrag, die Kosten 
 
 <!-- Referenced links -->
 [1]: adding-items-to-currency-list.md
-[2]: ../../preferences/learn/index.md
+[2]: ../../preferences/index.md
 
 <!-- Referenced images -->

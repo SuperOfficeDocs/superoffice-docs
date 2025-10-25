@@ -20,24 +20,6 @@ metadata:
 landingContent:
 
   # Card
-  - title: "Listor, preferenser, alternativ och inställningar"
-    linkLists:
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Listor
-          url: ../admin/lists/learn/index.md
-        - text: Preferenser
-          url: ../admin/preferences/learn/index.md
-        - text: Alternativ
-          url: ../admin/options/learn/index.md
-      - itemType: library_books
-        typeDesc: reference
-        links:
-        - text: Globala inställningar
-          url: ../admin/preferences/index.md#global
-
-  # Card
   - title: Egendefinierade objekt
     linkLists:
       - itemType: list

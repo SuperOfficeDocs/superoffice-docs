@@ -19,6 +19,9 @@ items:
 - name: Systeemopties
   href: ../options/toc.yml
   topicHref: ../options/index.md
+- name: Lijsten
+  href: ../lists/learn/toc.yml
+  topicHref: ../lists/learn/index.md
 - name: Gebruikersbeheer
   href: ../user-management/toc.yml
   topicHref: ../user-management/index.md

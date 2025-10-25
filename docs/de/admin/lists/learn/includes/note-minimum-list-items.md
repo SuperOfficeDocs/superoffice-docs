@@ -3,4 +3,4 @@
 > Die Liste muss aus einer bestimmten Mindestanzahl von Objekten bestehen, um auf diese Weise angezeigt zu werden. Diese Anzahl wird in der [Ansicht Voreinstellungen][3] definiert.
 
 <!-- Referenced links -->
-[3]: ../../../preferences/learn/index.md
+[3]: ../../../preferences/index.md

@@ -24,6 +24,6 @@ På flikarna i fönstret Försäljning i SuperOffice CRM anger du försäljnings
 
 <!-- Referenced links -->
 [1]: adding-items-to-currency-list.md
-[2]: ../../preferences/learn/index.md
+[2]: ../../preferences/index.md
 
 <!-- Referenced images -->

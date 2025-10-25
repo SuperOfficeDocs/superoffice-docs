@@ -1,9 +1,6 @@
 items:
 - name: Overview
   href: ../index.yml
-- name: Lists
-  href: ../../admin/lists/learn/toc.yml
-  topicHref: ../../admin/lists/learn/index.md
 - name: Screen designer
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md

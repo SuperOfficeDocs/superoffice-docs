@@ -19,6 +19,9 @@ items:
 - name: Systemval
   href: ../options/toc.yml
   topicHref: ../options/index.md
+- name: Listor
+  href: ../lists/learn/toc.yml
+  topicHref: ../lists/learn/index.md
 - name: Administrering av användare
   href: ../user-management/toc.yml
   topicHref: ../user-management/index.md
