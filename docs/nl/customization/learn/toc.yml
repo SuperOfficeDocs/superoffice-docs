@@ -1,9 +1,6 @@
 items:
 - name: Overzicht
   href: ../index.yml
-- name: Lijsten
-  href: ../../admin/lists/learn/toc.yml
-  topicHref: ../../admin/lists/learn/index.md
 - name: Schermontwerper
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
