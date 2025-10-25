@@ -1,0 +1,11 @@
+items:
+- name: Einführung
+  href: index.md
+- name: Rolle erstellen
+  href: create-role.md
+- name: Rolle bearbeiten oder löschen
+  href: update-role.md
+- name: Datenrechten für Rolle festlegen
+  href: set-data-rights-for-role.md
+- name: Datenrechten
+  href: functional-rights.md

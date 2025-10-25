@@ -27,11 +27,11 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Überblick über Lizenzen
-          url: license/learn/index.md
+          url: license/index.md
         - text: Die Ansicht Lizenzen
-          url: license/learn/index.md
+          url: license/index.md
         - text: Lizenz aktivieren
-          url: license/learn/activate.md
+          url: license/activate.md
 
   # Card
   - title: Benutzerverwaltung
@@ -40,19 +40,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Rollen
-          url: user-management/learn/role/index.md
+          url: user-management/role/index.md
         - text: Rolle erstellen
-          url: user-management/learn/role/create-role.md
+          url: user-management/role/create-role.md
         - text: Benutzer
-          url: user-management/learn/index.md
+          url: user-management/index.md
         - text: Benutzer hinzufügen
-          url: user-management/learn/add-associate.md
+          url: user-management/add-associate.md
         - text: Benutzerinformationen aktualisieren
-          url: user-management/learn/update-user.md
+          url: user-management/update-user.md
         - text: Benutzergruppen verwalten
-          url: user-management/learn/user-groups.md
+          url: user-management/user-groups.md
         - text: Unsere Firmen verwalten
-          url: user-management/learn/our-companies.md
+          url: user-management/our-companies.md
 
   # Card
   - title: Importieren

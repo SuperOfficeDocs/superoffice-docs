@@ -1,0 +1,17 @@
+items:
+  - name: Einführung
+    href: index.md
+  - name: SuperOffice-Benutzer hinzufügen
+    href: add-associate.md
+  - name: Benutzer bearbeiten oder löschen
+    href: update-user.md
+  - name: Unsere Firmen
+    href: our-companies.md
+  - name: Benutzergruppen verwalten
+    href: user-groups.md
+  - name: Rolle
+    href: role/toc.yml
+    topicHref: role/index.md
+  - name: Benutzer Vor Ort
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md

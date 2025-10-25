@@ -79,7 +79,7 @@ The best way to define your own project or sales guides is to discuss and agree 
 * [Import companies, contacts, and products][3]
 
 <!-- Referenced links -->
-[1]: ../user-management/learn/index.md
+[1]: ../user-management/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/index.md
 [4]: ../../sale/learn/sales-guide/index.md

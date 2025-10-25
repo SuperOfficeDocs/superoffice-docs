@@ -1,0 +1,17 @@
+items:
+  - name: Introduksjon
+    href: index.md
+  - name: Legge til SuperOffice-bruker
+    href: add-associate.md
+  - name: Redigere eller slette bruker
+    href: update-user.md
+  - name: Våre firmaer
+    href: our-companies.md
+  - name: Administrere brukergrupper
+    href: user-groups.md
+  - name: Rolle
+    href: role/toc.yml
+    topicHref: role/index.md
+  - name: Lokale brukere
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md

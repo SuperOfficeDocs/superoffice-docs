@@ -1,0 +1,17 @@
+items:
+  - name: Introduktion
+    href: index.md
+  - name: Lägga till SuperOffice-användare
+    href: add-associate.md
+  - name: Redigera eller ta bort användare
+    href: update-user.md
+  - name: Våra företag
+    href: our-companies.md
+  - name: Hantera användargrupper
+    href: user-groups.md
+  - name: Roll
+    href: role/toc.yml
+    topicHref: role/index.md
+  - name: Lokala användare
+    href: onsite/toc.yml
+    topicHref: onsite/other-users.md

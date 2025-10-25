@@ -153,7 +153,7 @@ Toegang tot flows en flowinhoud wordt beheerd door de rol en [functionele rechte
 [6]: define-flow-actions.md
 [7]: content.md
 [9]: ../../forms/learn/tutorial-contact-me.md
-[11]: ../../../admin/user-management/learn/role/functional-rights.md
+[11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
 
 <!-- Referenced images -->

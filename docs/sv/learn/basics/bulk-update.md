@@ -96,7 +96,7 @@ Du har upptäckt att fältet **Ställning** för kontakter sällan används. Fö
 
 Du vill röja upp bland alla "gamla" projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
 
-## Relaterad innhåll
+## Relaterat innhåll
 
 * [Hur fyller jag i fälten "Rättslig grund", "Samtyckeskälla" och "Syfte" för flera kontakter samtidigt i SuperOffice CRM?][3]
 * [Ta bort flera kontakter och företag samtidigt från ett urval][1]

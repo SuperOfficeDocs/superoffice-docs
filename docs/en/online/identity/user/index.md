@@ -56,5 +56,5 @@ What a user can do follows an accumulative CRUD pattern. Functional rights perta
 We have defined a [set of default roles][2] that you can change and expand to tailor the access control to the needs of your organization. The roles named **User level 0–5** cover the range from full access (0) to read-only access (5).
 
 <!-- Referenced links -->
-[1]: ../../../admin/user-management/learn/role/functional-rights.md
-[2]: ../../../admin/user-management/learn/role/index.md
+[1]: ../../../admin/user-management/role/functional-rights.md
+[2]: ../../../admin/user-management/role/index.md

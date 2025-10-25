@@ -68,4 +68,4 @@ Sie können auch verfügbare Objekte für eine Benutzergruppe angeben:
 
 <!-- Referenced links -->
 [1]: headings.md
-[2]: ../../../user-management/learn/index.md
+[2]: ../../../user-management/index.md

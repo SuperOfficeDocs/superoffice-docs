@@ -59,7 +59,6 @@ The following fields are available in the Request screen. Some fields are filled
 > [!NOTE]
 > Fields and layout may vary based on [Screen designer][10] configurations and other UI customizations.
 
-<!-- markdownlint-disable-file MD051 -->
 ### [Messages tab](#tab/messages)
 
 This tab is where you compose and manage the request message.

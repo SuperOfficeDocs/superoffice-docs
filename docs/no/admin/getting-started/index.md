@@ -79,7 +79,7 @@ Den beste måten å definere dine egne prosjekt- eller salgsguider på, er å di
 * [Importere firmaer, personer, og produkter][3]
 
 <!-- Referenced links -->
-[1]: ../user-management/learn/index.md
+[1]: ../user-management/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/index.md
 [4]: ../../sale/learn/sales-guides.md

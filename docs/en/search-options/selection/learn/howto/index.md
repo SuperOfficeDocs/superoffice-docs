@@ -71,7 +71,7 @@ The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="tr
 [5]: ../../../../learn/basics/bulk-update.md
 [6]: ../update.md
 [7]: ../update.md#delete
-[8]: ../../../../admin/user-management/learn/role/index.md
+[8]: ../../../../admin/user-management/role/index.md
 [9]: print-labels.md
 [10]: print.md
 [12]: export.md

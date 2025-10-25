@@ -20,8 +20,8 @@ items:
   href: ../options/toc.yml
   topicHref: ../options/index.md
 - name: Brugerstyring
-  href: ../user-management/learn/toc.yml
-  topicHref: ../user-management/learn/index.md
+  href: ../user-management/toc.yml
+  topicHref: ../user-management/index.md
 - name: Import
   href: ../import/toc.yml
   topicHref: ../import/index.md

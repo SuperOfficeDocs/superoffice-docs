@@ -1,0 +1,11 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Skapa roll
+  href: create-role.md
+- name: Redigera eller ta bort roll
+  href: update-role.md
+- name: Ange databehörigheter för en roll
+  href: set-data-rights-for-role.md
+- name: Databehörigheter
+  href: functional-rights.md

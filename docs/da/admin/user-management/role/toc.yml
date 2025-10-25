@@ -1,0 +1,11 @@
+items:
+- name: Introduktion
+  href: index.md
+- name: Opret rolle
+  href: create-role.md
+- name: Rediger eller slet rolle
+  href: update-role.md
+- name: Angiv datarettigheder for rolle
+  href: set-data-rights-for-role.md
+- name: Datarettigheder
+  href: functional-rights.md

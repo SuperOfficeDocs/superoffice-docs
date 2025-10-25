@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/admin/user-management/learn/logging-users-off.html
+redirect_url: https://docs.superoffice.com/en/admin/user-management/onsite/logging-users-off.html
 ---

@@ -79,7 +79,7 @@ De beste manier om uw eigen project- of verkoopgidsen te definiëren, is door uw
 * [Bedrijven, personen, en producten importeren][3]
 
 <!-- Referenced links -->
-[1]: ../user-management/learn/index.md
+[1]: ../user-management/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/index.md
 [4]: ../../sale/learn/sales-guides.md
