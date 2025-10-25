@@ -216,7 +216,7 @@ Auf der Registerkarte **Benutzergruppen** in der Ansicht Benutzer können Sie si
 [6]: role/index.md
 [7]: role/functional-rights.md
 [14]: ../adjusting-views.md
-[15]: ../preferences/learn/index.md
+[15]: ../preferences/index.md
 [16]: ../license/activate.md
 [17]: ../license/change-user-plan.md
 

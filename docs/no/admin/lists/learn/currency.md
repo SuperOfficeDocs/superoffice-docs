@@ -24,6 +24,6 @@ I fanene i Salg-bildet i SuperOffice CRM angir du blant annet salgsbeløp, kostn
 
 <!-- Referenced links -->
 [1]: adding-items-to-currency-list.md
-[2]: ../../preferences/learn/index.md
+[2]: ../../preferences/index.md
 
 <!-- Referenced images -->

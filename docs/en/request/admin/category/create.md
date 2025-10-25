@@ -83,7 +83,7 @@ index: true
 * [How to set up Get next request in queue][3]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/index.md
+[1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
 
 <!-- Referenced images -->

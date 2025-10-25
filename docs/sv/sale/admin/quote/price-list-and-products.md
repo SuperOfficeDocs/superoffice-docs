@@ -142,7 +142,7 @@ Kontrollera att användaren har [behörigheter][7] och att [inställningen för 
 [4]: ../../../learn/section-tabs/configure-columns.md
 [5]: ../../../admin/import/products-from-excel.md
 [7]: ../../../admin/user-management/role/index.md
-[8]: ../../../admin/preferences/learn/index.md
+[8]: ../../../admin/preferences/index.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/sale/add-products-to-price-list.png

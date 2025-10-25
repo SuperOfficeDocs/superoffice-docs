@@ -87,7 +87,7 @@ De beste manier om uw eigen project- of verkoopgidsen te definiëren, is door uw
 [6]: ../lists/learn/index.md
 [7]: ../../document/templates/learn/index.md
 [8]: ../../security/privacy/admin/index.md
-[9]: ../preferences/learn/index.md
+[9]: ../preferences/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/admin/project-guide.png
