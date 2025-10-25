@@ -34,6 +34,24 @@ landingContent:
           url: license/activate.md
 
   # Card
+  - title: "Listen, Voreinstellungen, Optionen und Einstellungen"
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Listen
+          url: lists/learn/index.md
+        - text: Einstellungen
+          url: preferences/index.md
+        - text: Optionen
+          url: options/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Globale Einstellungen
+          url: preferences/index.md#global
+
+  # Card
   - title: Benutzerverwaltung
     linkLists:
       - itemType: list

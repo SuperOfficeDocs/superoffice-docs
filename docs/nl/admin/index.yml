@@ -33,6 +33,24 @@ landingContent:
           url: license/activate.md
 
   # Card
+  - title: "Lijsten, voorkeuren, opties en instellingen"
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Lijsten
+          url: lists/learn/index.md
+        - text: Voorkeuren
+          url: preferences/index.md
+        - text: Opties
+          url: options/index.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Algemene voorkeuren
+          url: preferences/index.md#global
+
+  # Card
   - title: Gebruikersbeheer
     linkLists:
       - itemType: list
