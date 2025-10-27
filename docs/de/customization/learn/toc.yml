@@ -19,3 +19,5 @@ items:
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
+- name: Eigenschaften des Pakets
+  href: ../admin/package-properties.md
