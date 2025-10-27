@@ -30,9 +30,9 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Klicken Sie auf **Hinzufügen**, um das Dialogfeld **Listenelement bearbeiten** zu öffnen.
 
-1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Name** ein. *(Obligatorisch)*
+1. Geben Sie im Feld **Name** die Bezeichnung ein, die in SuperOffice CRM angezeigt werden soll. *(Obligatorisch)*
 
-    * Dieser Name wird angezeigt, wenn Sie die URL-Adresse in SuperOffice CRM hinzufügen.
+    * Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein. Lesen Sie mehr über die [Übersetzung][3].
 
 1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
 
@@ -54,8 +54,6 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
     * **Link anzeigen**, um die Öffnung in separatem Fenster zu ermöglichen.
 
 1. Klicken Sie auf die Liste **Symbol**, um ein Symbol für den Web-Bildschirm auszuwählen.
-
-1. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein. Lesen Sie mehr über die [Übersetzung][3].
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 

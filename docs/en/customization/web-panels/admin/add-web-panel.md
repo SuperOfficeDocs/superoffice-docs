@@ -32,9 +32,9 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. Click **Add** to open the **Edit list item** dialog.
 
-1. Enter the required name of the item in the **Name** field. *(Mandatory)*
+1. In the **Name** field, enter the label that will be shown in SuperOffice CRM. *(Mandatory)*
 
-    * This name is displayed when you add the URL address in SuperOffice CRM.
+    * Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. For details about supported URL types, see [Using HTTP vs HTTPS URLs](#https).
 
@@ -56,8 +56,6 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
     * **Show link** for opening in separate window.
 
 1. Click the **Icon** list to select an icon for the web panel.
-
-1. Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
 
 1. Click **Save** to save the changes or **Cancel** to reject them.
 

@@ -30,9 +30,9 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Klik op **Toevoegen** om het dialoogvenster **Lijstitem bewerken** te openen.
 
-1. Typ de gewenste naam voor het item in het veld **Naam**. *(Verplicht)*
+1. Voer in het veld **Naam** het label in dat in SuperOffice CRM wordt weergegeven. *(Verplicht)*
 
-    * Deze naam wordt weergegeven wanneer u het URL-adres toevoegt in SuperOffice CRM.
+    * Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**. Lees meer over [Vertaling][3].
 
 1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Voor details over ondersteunde URL-types, zie [HTTP vs HTTPS URL's gebruiken](#https).
 
@@ -54,8 +54,6 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
     * **Koppeling weergeven** in afzonderlijk venster.
 
 1. Klik op de lijst **Pictogram** om een pictogram voor het webpaneel te kiezen.
-
-1. Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**. Lees meer over [Vertaling][3].
 
 1. Klik op **Opslaan** om de wijzigingen op te slaan of op **Annuleren** om ze te negeren.
 

@@ -30,9 +30,9 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. Klik på **Tilføj** for at åbne dialogboksen **Rediger listeelement**.
 
-1. Indtast det ønskede navn for forekomsten i feltet **Navn**. *(Obligatorisk)*
+1. Indtast den etiket, der skal vises i SuperOffice CRM, i feltet **Navn**. *(Obligatorisk)*
 
-    * Dette navn vises, når du tilføjer URL-adressen i SuperOffice CRM.
+    * Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**. Læs om [Oversættelse][3].
 
 1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. For detaljer om understøttede URL-typer, se [Brug af HTTP vs HTTPS URL'er](#https).
 
@@ -54,8 +54,6 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
     * **Vis link** til åbning i separat vindue.
 
 1. Klik på listen **Ikon** for at vælge et ikon for webpanelet.
-
-1. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**. Læs om [Oversættelse][3].
 
 1. Klik på **Gem** for at gemme ændringerne eller **Annuller** for at afvise dem.
 

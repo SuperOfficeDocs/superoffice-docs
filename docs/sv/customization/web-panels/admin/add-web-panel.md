@@ -32,9 +32,9 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Klicka på **Lägg till** för att öppna dialogrutan **Redigera listobjekt**.
 
-1. Skriv in namnet på posten i fältet **Namn**. *(Obligatorisk)*
+1. Ange den etikett som ska visas i SuperOffice CRM, i fältet **Namn**. *(Obligatorisk)*
 
-    * Det här namnet visas när du lägger till webbadressen i SuperOffice CRM.
+    * Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**. Läs om [översättning][3].
 
 1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. För detaljer om stödda URL-typer, se [Använda HTTP vs HTTPS-webbadresser](#https).
 
@@ -56,8 +56,6 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
     * **Visa länk** för att öppna i separat fönster.
 
 1. Klicka på listan **Ikon** för att välja en ikon för webbpanelen.
-
-1. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**. Läs om [översättning][3].
 
 1. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att förkasta dem.
 
