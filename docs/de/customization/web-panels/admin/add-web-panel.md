@@ -46,11 +46,13 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
     * **SuperOffice CRM for Web**
     * **Mobile CRM**
 
-    Zusatzeinstellungen:
-    * Den Inhalt bei Navigation zwischen Registerkarten **immer neu laden**.
-    * **Link anzeigen**, um die Öffnung in separatem Fenster zu ermöglichen.
+1. (Optional) So steuern Sie das Verhalten des Panels:
 
-1. Klicken Sie auf die Liste **Symbol**, um ein Symbol für den Web-Bildschirm auszuwählen.
+    * Wählen Sie **Inhalte bei Navigation zwischen Registerkarten immer neu laden**, wenn der Inhalt bei jedem Wechsel der Registerkarte aktualisiert werden soll.
+    * Wählen Sie **Bei Navigation zur Hauptkarte Inhalte nicht neu laden**, um Inhalte während der Kartennavigation zwischenzuspeichern.
+    * Wählen Sie **Link zum Öffnen in separatem Fenster anzeigen**, wenn das Panel auch in einem neuen Browserfenster geöffnet werden soll.
+
+1. (Optional) Klicken Sie auf die Liste **Symbol**, um ein Symbol für den Web-Bildschirm auszuwählen.
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 

@@ -48,11 +48,13 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
     * **SuperOffice CRM for Web**
     * **Mobile CRM**
 
-    Extra inställningar:
-    * **Ladda alltid om** innehållet vid fliknavigering.
-    * **Visa länk** för att öppna i separat fönster.
+1. (Valfritt) Så här styr du hur panelen ska fungera:
 
-1. Klicka på listan **Ikon** för att välja en ikon för webbpanelen.
+    * Välj **Ladda alltid om innehåll vid fliknavigering** om innehållet ska uppdateras varje gång användaren byter flik.
+    * Välj **Ladda inte om innehåll vid navigering till huvudkort** för att cacha innehållet under kortnavigering.
+    * Välj **Visa länk för att öppna i separat fönster** om panelen också ska kunna öppnas i ett nytt webbläsarfönster.
+
+1. (Valfritt) Klicka på listan **Ikon** för att välja en ikon för webbpanelen.
 
 1. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att förkasta dem.
 

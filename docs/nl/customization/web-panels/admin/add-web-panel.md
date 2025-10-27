@@ -46,11 +46,13 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
     * **SuperOffice CRM for Web**
     * **Mobile CRM**
 
-    Extra instellingen:
-    * **Inhoud altijd opnieuw laden** bij tabbladnavigatie.
-    * **Koppeling weergeven** in afzonderlijk venster.
+1. (Optioneel) Zo bepaalt u hoe het paneel zich gedraagt:
 
-1. Klik op de lijst **Pictogram** om een pictogram voor het webpaneel te kiezen.
+    * Selecteer **Inhoud altijd opnieuw laden bij tabbladnavigatie** als de inhoud elke keer vernieuwd moet worden wanneer u van tabblad wisselt.
+    * Selecteer **Laad de inhoud niet opnieuw wanneer u naar de hoofdkaart navigeert** om de inhoud in het geheugen te houden tijdens navigatie.
+    * Selecteer **Koppeling weergeven in afzonderlijk venster** als het paneel ook in een nieuw browservenster geopend moet worden.
+
+1. (Optioneel) Klik op de lijst **Pictogram** om een pictogram voor het webpaneel te kiezen.
 
 1. Klik op **Opslaan** om de wijzigingen op te slaan of op **Annuleren** om ze te negeren.
 

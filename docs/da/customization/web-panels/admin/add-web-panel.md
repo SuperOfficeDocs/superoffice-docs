@@ -46,11 +46,13 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
     * **SuperOffice CRM for Web**
     * **Mobile CRM**
 
-    Ekstra indstillinger:
-    * **Genindlæs altid** indhold ved fanenavigation.
-    * **Vis link** til åbning i separat vindue.
+1. (Valgfrit) Sådan styrer du, hvordan panelet opfører sig:
 
-1. Klik på listen **Ikon** for at vælge et ikon for webpanelet.
+    * Vælg **Genindlæs altid indhold ved fanebladsnavigation**, hvis indholdet skal opdateres hver gang brugeren skifter fane.
+    * Vælg **Genindlæs ikke indhold ved navigation til hovedkort**, hvis indholdet skal caches under navigation mellem kort.
+    * Vælg **Vis link til åbning i separat vindue**, hvis panelet også skal kunne åbnes i et nyt browservindue.
+
+1. (Valgfrit) Klik på listen **Ikon** for at vælge et ikon for webpanelet.
 
 1. Klik på **Gem** for at gemme ændringerne eller **Annuller** for at afvise dem.
 

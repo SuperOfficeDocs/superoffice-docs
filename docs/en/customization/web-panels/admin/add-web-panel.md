@@ -48,11 +48,13 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
     * **SuperOffice CRM for Web**
     * **Mobile CRM**
 
-    Extra settings:
-    * **Always reload** content on tab navigation.
-    * **Show link** for opening in separate window.
+1. (Optional) To control how the panel behaves:
 
-1. Click the **Icon** list to select an icon for the web panel.
+    * Select **Always reload content on tab navigation** if the content should refresh every time users switch tabs.
+    * Select **Do not reload content when navigating to the main card** to cache the content during card navigation.
+    * Select **Show link for opening in separate window** if the panel should also open in a new browser window.
+
+1. (Optional) Click the **Icon** list to select an icon for the web panel.
 
 1. Click **Save** to save the changes or **Cancel** to reject them.
 
