@@ -3,9 +3,9 @@ uid: mobile-crm-scan-business-card
 title: Scan a business card
 description: How do I automatically create a new contact in the Mobile CRM app from a business card?
 keywords: business card, contact
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.1
+author: digitaldiina
+date: 10.15.2025
+version: 11.1.3
 content_type: howto
 platform: mobile
 language: en
@@ -30,21 +30,25 @@ Do you receive many business cards from prospects and customers? The fastest way
 
 1. When the phone's camera opens, take a picture of the business card and tap <i class="ph ph-check" aria-label="Check"></i>.
 
-1. If Mobile CRM recognizes a company name that already exists in SuperOffice CRM, you can choose between these options: **Add contact to company** that exists in the system or **Add  to a different company**. Otherwise you will get the option **Add new contact and company**.
+    Mobile CRM analyzes the input:
 
-    ![Mobile CRM: Add contact to company -app-screen][img2]![Mobile CRM: Add  to a different company -app-screen][img3]
+    * If Mobile CRM recognizes a company name that already exists in SuperOffice CRM, you will see **Create new contact**.
+    * Otherwise, you will see **Contact details from business card is ready**.
 
-    If Mobile CRM recognizes the information from a business card as already existing in the system,  you will see the notification message **This contact already exists in SuperOffice CRM**. Optionally, change the way data was mapped into fields by entering new or rearranging the existing information.
+    ![Mobile CRM: New contact -app-screen][img4]![Mobile CRM: Contact details ready -app-screen][img3]
 
-1. After you select one of the options option, a new contact screen is automatically populated with data.
+1. The contact fields are automatically populated with data.
 
-    ![Mobile CRM: New contact -app-screen][img4]
+    * Optionally, enter new or rearrange the existing information.
+    * If it is an unknown company, continue to create a new company.
+
+    ![Mobile CRM: New company -app-screen][img2]
 
 1. Tap **Save** to store information both in the app and in SuperOffice CRM.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/mobile/add-to-company.png
-[img3]: ../../../../media/loc/en/mobile/new-contact-and-company.png
+[img2]: ../../../../media/loc/en/mobile/new-company.png
+[img3]: ../../../../media/loc/en/mobile/contact-details-from-business-card.png
 [img4]: ../../../../media/loc/en/mobile/new-contact.png
