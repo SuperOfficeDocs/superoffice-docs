@@ -44,9 +44,9 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. In the **Visible in** list, choose where the web panel should appear in SuperOffice CRM.
 
-1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
-    * **SuperOffice CRM for Web**: when you are using the Web version of SuperOffice CRM.
-    * **Mobile CRM**: when you are using the mobile version of SuperOffice CRM.
+1. Under **Available on**, select one or both options:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
     Extra settings:
     * **Always reload** content on tab navigation.
@@ -76,7 +76,7 @@ Once the item is saved, you can:
 | URL | Location of web page |
 | [URL encoding][2] | None, ANSI, or Unicode |
 | Visible in | The display location. You can select from panels, dialogs, menus, toolbar, or side panel locations. For a full list of display options, see [Display locations for web panels][8]. |
-| Available on | Device type (web, mobile) |
+| Available on | Device type (web, mobile) - where you want the URL address to be available |
 
 ### <a id="https"></a>Using HTTP vs HTTPS URLs
 

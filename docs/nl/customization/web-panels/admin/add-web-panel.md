@@ -42,9 +42,9 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Kies in de keuzelijst **Zichtbaar in** waar het webpaneel moet verschijnen in SuperOffice CRM.
 
-1. Geef onder **Beschikbaar op** aan waar het URL-adres beschikbaar moet zijn. U kunt meerdere opties tegelijk selecteren.
-    * **SuperOffice CRM for Web**: wanneer u de webversie van SuperOffice CRM gebruikt.
-    * **Mobile CRM**: wanneer u de mobiele versie gebruikt van SuperOffice CRM.
+1. Onder **Beschikbaar op**, selecteer een of beide opties:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
     Extra instellingen:
     * **Inhoud altijd opnieuw laden** bij tabbladnavigatie.
@@ -74,7 +74,7 @@ Zodra het item is opgeslagen, kunt u:
 | URL | Locatie van de webpagina |
 | [URL-codering][2] | Geen, ANSI of Unicode |
 | Zichtbaar in | Weergavepositie. U kunt kiezen uit panelen, dialoogvensters, menu's, werkbalk of zijpaneellocaties. Voor een volledige lijst van weergaveopties, zie [Weergavelocaties voor webpanelen][8]. |
-| Beschikbaar op | Apparaattype (web, mobiel) |
+| Beschikbaar op | Apparaattype (web, mobiel) - aan waar het URL-adres beschikbaar moet zijn |
 
 ### <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 

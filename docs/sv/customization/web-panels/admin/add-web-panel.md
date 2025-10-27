@@ -42,11 +42,11 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
-1. I listrutan **Synlig i** väljer du var webbpanelen ska visas i SuperOffice CRM.
+1. I listrutan **Synlig i**, välj var webbpanelen ska visas i SuperOffice CRM.
 
-1. Under **Tillgänglig på** väljer du var du vill att webbadressen ska vara tillgänglig. Du kan välja flera av dessa alternativ samtidigt.
-    * **SuperOffice CRM for Web**: när du använder webbversionen av SuperOffice CRM.
-    * **Mobile CRM**: när du använder mobilversionen av SuperOffice CRM.
+1. Under **Tillgänglig på**, välj ett eller båda alternativen:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
     Extra inställningar:
     * **Ladda alltid om** innehållet vid fliknavigering.
@@ -76,7 +76,7 @@ När posten har sparats kan du:
 | URL | Plats för webbsidan |
 | [URL-kodning][2] | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplats. Du kan välja mellan paneler, dialogrutor, menyer, verktygsfält eller sidopanelplatser. För en fullständig lista över visningsalternativ, se [Visningsplatser för webbpaneler][8]. |
-| Tillgänglig på | Enhetstyp (webb, mobil) |
+| Tillgänglig på | Enhetstyp (webb, mobil) - var du vill att webbadressen ska vara tillgänglig |
 
 ### <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
 

@@ -38,13 +38,13 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
     * I feltet **URL-format**, velg *Ingen*, *ANSI*, eller *Unicode*.
 
-1. I feltet **Vindusnavn** angir du det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
+1. I feltet **Vindusnavn**, angi det påkrevde navnet på nettleservinduet der URL-adressen skal åpnes. Hvis du har lagt til ett eller flere vindusnavn tidligere og ønsker å bruke det samme om igjen, kan du klikke i feltet og velge navn fra listen. Du kan også skrive inn et nytt navn direkte i feltet. Det endelige vindusnavnet vises nedenfor med strek under.
 
-1. I listeboksen **Synlig i** velger du hvor webpanelet skal vises i SuperOffice CRM.
+1. I listeboksen **Synlig i**, velg hvor webpanelet skal vises i SuperOffice CRM.
 
-1. Under **Tilgjengelig på** velger du hvor du vil at URL-adressen skal være tilgjengelig. Du kan velge flere av disse alternativene samtidig.
-    * **SuperOffice CRM for Web**: Når du bruker Web-versjonen av SuperOffice CRM.
-    * **Mobile CRM**: Når du bruker mobilversjonen av SuperOffice CRM.
+1. Under **Tilgjengelig på**, velg ett eller begge alternativer:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
     Ekstra innstillinger:
     * **Last alltid innhold på nytt** ved fanebytte.
@@ -74,7 +74,7 @@ Når elementet er lagret, kan du:
 | URL | Plassering av nettside |
 | [URL-koding][2] | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplassering. Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer. For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8]. |
-| Tilgjengelig på | Enhetstype (web, mobil) |
+| Tilgjengelig på | Enhetstype (web, mobil) - hvor du vil at URL-adressen skal være tilgjengelig |
 
 ### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
 
