@@ -2,12 +2,7 @@ items:
 - name: Oversigt
   href: ../index.yml
 - name: Kom godt i gang
-  topicHref: ../getting-started/index.md
-  items:
-  - name: Introduktion
-    href: ../getting-started/index.md
-  - name: Få dine brugere med ombord
-    href: ../getting-started/onboard-users.md
+  href: ../getting-started.md
 - name: Juster visninger
   href: ../adjusting-views.md
 - name: Licenser

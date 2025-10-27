@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/getting-started/index.html
+redirect_url: https://docs.superoffice.com/da/admin/getting-started.html
 ---

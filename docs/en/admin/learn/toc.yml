@@ -2,12 +2,7 @@ items:
 - name: Overview
   href: ../index.yml
 - name: Getting started
-  topicHref: ../getting-started/index.md
-  items:
-  - name: Introduction
-    href: ../getting-started/index.md
-  - name: Get your users on board
-    href: ../getting-started/onboard-users.md
+  href: ../getting-started.md
 - name: Adjust views
   href: ../adjusting-views.md
 - name: Licenses
