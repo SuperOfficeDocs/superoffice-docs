@@ -4,8 +4,8 @@ title: Web-Bildschirm hinzufügen
 description: So fügen Sie Elemente zur Web-Bildschirm-Liste in Einstellungen und Verwaltung hinzu.
 keywords: Web-Bildschirm, Liste GUI - Web-Bildschirm
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -30,34 +30,29 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Klicken Sie auf **Hinzufügen**, um das Dialogfeld **Listenelement bearbeiten** zu öffnen.
 
-1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Name** ein. *(Obligatorisch)*
+1. Geben Sie im Feld **Name** die Bezeichnung ein, die in SuperOffice CRM angezeigt werden soll. *(Obligatorisch)*
 
-    * Dieser Name wird angezeigt, wenn Sie die URL-Adresse in SuperOffice CRM hinzufügen.
+    * Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein. Lesen Sie mehr über die [Übersetzung][3].
 
 1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
+
+    * Im Listenfeld **URL-Verschlüsselung** wählen Sie *Keine*, *ANSI*, or *Unicode* aus.
 
 1. Geben Sie im Feld **Fenstername** den Namen für das Browser-Fenster ein, in dem die URL-Adresse geöffnet werden soll. Falls Sie bereits einen oder mehrere Fensternamen hinzugefügt haben und sie erneut verwenden möchten, können Sie auf das Feld klicken und einen Namen in der Liste auswählen. Sie können auch einen neuen Namen direkt in das Feld eingeben. Der künftig angezeigte Fenstername wird als unterstrichener Text unter dem Feld angezeigt.
 
 1. Wählen Sie im Listenfeld **Sichtbar in** aus, wo der Web-Bildschirm in SuperOffice CRM angezeigt werden soll.
 
-    * Sie können zwischen Panels, Dialogen, Menüs, Symbolleiste oder Seitenleisten-Standorten wählen.
-    * Für eine vollständige Liste der Anzeigeoptionen, siehen Sie [Anzeigeorte für Web-Bildschirme][8].
+1. Wählen Sie unter **Verfügbar auf**, eine oder beide Optionen aus:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. Im Listenfeld **URL-Verschlüsselung** können Sie auswählen, ob die [URL][2] das Format ANSI oder Unicode (oder kein Format) haben soll.
+1. (Optional) So steuern Sie das Verhalten des Panels:
 
-1. Wählen Sie unter **Anzeigen** die Leisten aus, die im Browser, in dem die URL-Adresse geöffnet wird, zur Verfügung stehen sollen: Menüleiste, Symbolleiste, Adressleiste oder Statusleiste.
+    * Wählen Sie **Inhalte bei Navigation zwischen Registerkarten immer neu laden**, wenn der Inhalt bei jedem Wechsel der Registerkarte aktualisiert werden soll.
+    * Wählen Sie **Bei Navigation zur Hauptkarte Inhalte nicht neu laden**, um Inhalte während der Kartennavigation zwischenzuspeichern.
+    * Wählen Sie **Link zum Öffnen in separatem Fenster anzeigen**, wenn das Panel auch in einem neuen Browserfenster geöffnet werden soll.
 
-1. Wählen Sie unter **Verfügbar auf**, wo die URL-Adresse verfügbar sein soll. Sie können mehrere Optionen gleichzeitig auswählen.
-    * **SuperOffice CRM for Web**: Bei Verwendung der Web-Version von SuperOffice CRM.
-    * **Mobile CRM**: Bei Verwendung der mobilen Version von SuperOffice CRM.
-
-    Zusatzeinstellungen:
-    * Den Inhalt bei Navigation zwischen Registerkarten **immer neu laden**.
-    * **Link anzeigen**, um die Öffnung in separatem Fenster zu ermöglichen.
-
-1. Klicken Sie auf die Liste **Symbol**, um ein Symbol für den Web-Bildschirm auszuwählen.
-
-1. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein. Lesen Sie mehr über die [Übersetzung][3].
+1. (Optional) Klicken Sie auf die Liste **Symbol**, um ein Symbol für den Web-Bildschirm auszuwählen.
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 
@@ -79,10 +74,9 @@ Sobald das Objekt gespeichert ist, können Sie:
 | Fenstername | ID des Panels, verwendet im HTML, das in die Panels geladen wird. Muss eindeutig sein, Präfixe verwenden |
 | Beschreibung | Tooltip-Text |
 | URL | Speicherort der Webseite |
-| URL-Codierung | Keine, ANSI oder Unicode |
-| Sichtbar in | Anzeigeposition |
-| Verfügbar auf | Gerätetyp (Web, Mobil) |
-| Anzeigen | Ob Menüleiste, Symbolleiste, Adressleiste und/oder Statusleiste angezeigt werden |
+| [URL-Codierung][2] | Keine, ANSI oder Unicode |
+| Sichtbar in | Anzeigeposition. Sie können zwischen Panels, Dialogen, Menüs, Symbolleiste oder Seitenleisten-Standorten wählen. Für eine vollständige Liste der Anzeigeoptionen, siehen Sie [Anzeigeorte für Web-Bildschirme][8]. |
+| Verfügbar auf | Gerätetyp (Web, Mobil) - wo die URL-Adresse verfügbar sein soll |
 
 ### <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
 

@@ -4,8 +4,8 @@ title: Lägg till webbpanel
 description: Så lägger du till objekt i webbpanellistan i Inställningar och underhåll.
 keywords: webbpanel, listan GUI - Webbpanel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -32,34 +32,29 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. Klicka på **Lägg till** för att öppna dialogrutan **Redigera listobjekt**.
 
-1. Skriv in namnet på posten i fältet **Namn**. *(Obligatorisk)*
+1. Ange den etikett som ska visas i SuperOffice CRM, i fältet **Namn**. *(Obligatorisk)*
 
-    * Det här namnet visas när du lägger till webbadressen i SuperOffice CRM.
+    * Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**. Läs om [översättning][3].
 
 1. Ange webbadressen, till exempel en webbplats eller en serverbaserad HTML-fil, i fältet **URL**. För detaljer om stödda URL-typer, se [Använda HTTP vs HTTPS-webbadresser](#https).
 
+    * I fältet **URL-format**, välj *Ingen*, *ANSI*, eller *Unicode*.
+
 1. Ange namnet på det webbläsarfönster där webbadressen ska öppnas i fältet **Fönstrets namn**. Om du redan har lagt till ett eller flera fönsternamn sedan tidigare och vill använda samma namn, klickar du i fältet och väljer namnet i listan. Du kan även skriva ett nytt namn direkt i fältet. Det slutliga fönsternamnet visas med understrykning nedanför.
 
-1. I listrutan **Synlig i** väljer du var webbpanelen ska visas i SuperOffice CRM.
+1. I listrutan **Synlig i**, välj var webbpanelen ska visas i SuperOffice CRM.
 
-    * Du kan välja mellan paneler, dialogrutor, menyer, verktygsfält eller sidopanelplatser.
-    * För en fullständig lista över visningsalternativ, se [Visningsplatser för webbpaneler][8].
+1. Under **Tillgänglig på**, välj ett eller båda alternativen:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. I listrutan **URL-format** kan du välja om [webbadressen][2] ska ha ANSI- eller Unicode-format (eller inget format).
+1. (Valfritt) Så här styr du hur panelen ska fungera:
 
-1. Under **Visa** kan du markera alla rader som ska vara tillgängliga i webbläsaren som webbadressen öppnas i – menyrad, verktygsfält, adressrad och statusrad.
+    * Välj **Ladda alltid om innehåll vid fliknavigering** om innehållet ska uppdateras varje gång användaren byter flik.
+    * Välj **Ladda inte om innehåll vid navigering till huvudkort** för att cacha innehållet under kortnavigering.
+    * Välj **Visa länk för att öppna i separat fönster** om panelen också ska kunna öppnas i ett nytt webbläsarfönster.
 
-1. Under **Tillgänglig på** väljer du var du vill att webbadressen ska vara tillgänglig. Du kan välja flera av dessa alternativ samtidigt.
-    * **SuperOffice CRM for Web**: när du använder webbversionen av SuperOffice CRM.
-    * **Mobile CRM**: när du använder mobilversionen av SuperOffice CRM.
-
-    Extra inställningar:
-    * **Ladda alltid om** innehållet vid fliknavigering.
-    * **Visa länk** för att öppna i separat fönster.
-
-1. Klicka på listan **Ikon** för att välja en ikon för webbpanelen.
-
-1. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**. Läs om [översättning][3].
+1. (Valfritt) Klicka på listan **Ikon** för att välja en ikon för webbpanelen.
 
 1. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att förkasta dem.
 
@@ -81,10 +76,9 @@ När posten har sparats kan du:
 | Fönsternamn | ID för panelen, används i HTML:en som laddas in i panelerna. Måste vara unikt, använd prefix |
 | Beskrivning | Verktygstips-text |
 | URL | Plats för webbsidan |
-| URL-kodning | Ingen, ANSI eller Unicode |
-| Synlig i | Visningsplats |
-| Tillgänglig på | Enhetstyp (webb, mobil) |
-| Visa | Om menyrad, verktygsfält, adressfält och/eller statusfält ska visas |
+| [URL-kodning][2] | Ingen, ANSI eller Unicode |
+| Synlig i | Visningsplats. Du kan välja mellan paneler, dialogrutor, menyer, verktygsfält eller sidopanelplatser. För en fullständig lista över visningsalternativ, se [Visningsplatser för webbpaneler][8]. |
+| Tillgänglig på | Enhetstyp (webb, mobil) - var du vill att webbadressen ska vara tillgänglig |
 
 ### <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
 

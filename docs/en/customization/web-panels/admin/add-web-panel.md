@@ -4,8 +4,8 @@ title: Add web panel
 description: How to add items to the web panel list in Settings and maintenance.
 keywords: web panel, GUI - Web panel list
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -32,34 +32,29 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. Click **Add** to open the **Edit list item** dialog.
 
-1. Enter the required name of the item in the **Name** field. *(Mandatory)*
+1. In the **Name** field, enter the label that will be shown in SuperOffice CRM. *(Mandatory)*
 
-    * This name is displayed when you add the URL address in SuperOffice CRM.
+    * Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. For details about supported URL types, see [Using HTTP vs HTTPS URLs](#https).
+
+    * In the **URL encoding** field, select *None*, *ANSI*, or *Unicode*.
 
 1. In the **Window name** field, specify the required name of the browser window where the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 
 1. In the **Visible in** list, choose where the web panel should appear in SuperOffice CRM.
 
-    * You can select from panels, dialogs, menus, toolbar, or side panel locations.
-    * For a full list of display options, see [Display locations for web panels][8].
+1. Under **Available on**, select one or both options:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. In the **URL encoding** list box, you can select if the [URL][2] should be ANSI or Unicode (or no format).
+1. (Optional) To control how the panel behaves:
 
-1. Under **Show**, select which bars will be available in the browser that the URL is opened in: menu bar, toolbar, address bar or status bar.
+    * Select **Always reload content on tab navigation** if the content should refresh every time users switch tabs.
+    * Select **Do not reload content when navigating to the main card** to cache the content during card navigation.
+    * Select **Show link for opening in separate window** if the panel should also open in a new browser window.
 
-1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
-    * **SuperOffice CRM for Web**: when you are using the Web version of SuperOffice CRM.
-    * **Mobile CRM**: when you are using the mobile version of SuperOffice CRM.
-
-    Extra settings:
-    * **Always reload** content on tab navigation.
-    * **Show link** for opening in separate window.
-
-1. Click the **Icon** list to select an icon for the web panel.
-
-1. Optionally, type in a description of the item in the **Description** field. Read about [Translation][3].
+1. (Optional) Click the **Icon** list to select an icon for the web panel.
 
 1. Click **Save** to save the changes or **Cancel** to reject them.
 
@@ -81,10 +76,9 @@ Once the item is saved, you can:
 | Window name | ID of the panel, used in the HTML you load into the panels. Must be unique, use prefixes |
 | Description | Tool-tip text |
 | URL | Location of web page |
-| URL encoding | None, ANSI, or Unicode |
-| Visible in | The display location |
-| Available on | Device type (web, mobile) |
-| Show | Whether to show the menu bar, toolbar, address bar, and/or status bar |
+| [URL encoding][2] | None, ANSI, or Unicode |
+| Visible in | The display location. You can select from panels, dialogs, menus, toolbar, or side panel locations. For a full list of display options, see [Display locations for web panels][8]. |
+| Available on | Device type (web, mobile) - where you want the URL address to be available |
 
 ### <a id="https"></a>Using HTTP vs HTTPS URLs
 

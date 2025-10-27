@@ -30,34 +30,29 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. Klik på **Tilføj** for at åbne dialogboksen **Rediger listeelement**.
 
-1. Indtast det ønskede navn for forekomsten i feltet **Navn**. *(Obligatorisk)*
+1. Indtast den etiket, der skal vises i SuperOffice CRM, i feltet **Navn**. *(Obligatorisk)*
 
-    * Dette navn vises, når du tilføjer URL-adressen i SuperOffice CRM.
+    * Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**. Læs om [Oversættelse][3].
 
 1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. For detaljer om understøttede URL-typer, se [Brug af HTTP vs HTTPS URL'er](#https).
 
+    * I feltet **URL-format** vælg, *Ingen*, *ANSI*, eller *Unicode*.
+
 1. Angiv i feltet **Vinduesnavn** det nødvendige navn på det browservindue, hvor URL-adressen skal åbnes. Hvis du tidligere har tilføjet et eller flere vinduesnavne og vil genbruge dem, kan du klikke i feltet og vælge et navn på listen. Du kan også indtaste et nyt navn direkte i feltet. Det endelige vinduesnavn vises understreget nedenfor.
 
-1. På listen **Synlig i** vælger du, hvor webpanelet skal vises i SuperOffice CRM.
+1. På listen **Synlig i** vælg, hvor webpanelet skal vises i SuperOffice CRM.
 
-    * Du kan vælge mellem paneler, dialogbokse, menuer, værktøjslinje eller sidepanelplaceringer.
-    * For en komplet liste over visningsindstillinger, se [Visningsplaceringer for webpaneler][8].
+1. Under **Tilgængelig på** vælg, en eller begge muligheder:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. I rullemenuen **URL-format** kan du vælge, om [URL-adressen][2] skal være ANSI eller Unicode (eller uden format).
+1. (Valgfrit) Sådan styrer du, hvordan panelet opfører sig:
 
-1. Under **Vis** markerer du de linjer, som skal være tilgængelige i det browservindue, som URL-adressen åbnes i – menulinje, værktøjslinje, adresselinje og statuslinje.
+    * Vælg **Genindlæs altid indhold ved fanebladsnavigation**, hvis indholdet skal opdateres hver gang brugeren skifter fane.
+    * Vælg **Genindlæs ikke indhold ved navigation til hovedkort**, hvis indholdet skal caches under navigation mellem kort.
+    * Vælg **Vis link til åbning i separat vindue**, hvis panelet også skal kunne åbnes i et nyt browservindue.
 
-1. Under **Tilgængelig på** vælger du, hvor URL-adressen skal være tilgængelig. Du kan vælge flere af disse indstillinger samtidig.
-    * **SuperOffice CRM for Web**: Når du bruger webversionen af SuperOffice CRM.
-    * **Mobile CRM**: Når du bruger mobilversionen af SuperOffice CRM.
-
-    Ekstra indstillinger:
-    * **Genindlæs altid** indhold ved fanenavigation.
-    * **Vis link** til åbning i separat vindue.
-
-1. Klik på listen **Ikon** for at vælge et ikon for webpanelet.
-
-1. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**. Læs om [Oversættelse][3].
+1. (Valgfrit) Klik på listen **Ikon** for at vælge et ikon for webpanelet.
 
 1. Klik på **Gem** for at gemme ændringerne eller **Annuller** for at afvise dem.
 
@@ -79,10 +74,9 @@ Når elementet er gemt, kan du:
 | Vinduesnavn | ID for panelet, bruges i HTML-koden du indlæser i panelerne. Skal være unik, brug præfikser |
 | Beskrivelse | Værktøjstip-tekst |
 | URL | Placering af webside |
-| URL-format | Ingen, ANSI eller Unicode |
-| Synlig i | Visningsplacering |
-| Tilgængelig på | Enhedstype (web, mobil) |
-| Vis | Om menulinje, værktøjslinje, adresselinje og/eller statuslinje skal vises |
+| [URL-format][2] | Ingen, ANSI eller Unicode |
+| Synlig i | Visningsplacering. Du kan vælge mellem paneler, dialogbokse, menuer, værktøjslinje eller sidepanelplaceringer. For en komplet liste over visningsindstillinger, se [Visningsplaceringer for webpaneler][8]. |
+| Tilgængelig på | Enhedstype (web, mobil) - hvor URL-adressen skal være tilgængelig |
 
 ### <a id="https"></a>Brug af HTTP vs HTTPS URL'er
 

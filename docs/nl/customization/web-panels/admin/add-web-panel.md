@@ -4,8 +4,8 @@ title: Webpaneel toevoegen
 description: Hoe items toe te voegen aan de webpaneellijst in Instellingen en onderhoud.
 keywords: webpaneel, lijst GUI - Webpaneel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -30,34 +30,29 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Klik op **Toevoegen** om het dialoogvenster **Lijstitem bewerken** te openen.
 
-1. Typ de gewenste naam voor het item in het veld **Naam**. *(Verplicht)*
+1. Voer in het veld **Naam** het label in dat in SuperOffice CRM wordt weergegeven. *(Verplicht)*
 
-    * Deze naam wordt weergegeven wanneer u het URL-adres toevoegt in SuperOffice CRM.
+    * Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**. Lees meer over [Vertaling][3].
 
 1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Voor details over ondersteunde URL-types, zie [HTTP vs HTTPS URL's gebruiken](#https).
+
+    * In de veld **URL-codering** selecteer *Geen*, *ANSI*, or *Unicode*.
 
 1. Voer in het veld **Vensternaam** de gewenste naam in voor het browservenster waarin het URL-adres moet worden geopend. Als u eerder een of meer vensternamen hebt toegevoegd en ze opnieuw wilt gebruiken, kunt u in het veld klikken en een naam uit de lijst selecteren. U kunt een naam ook rechtstreeks in het veld typen. De vensternaam zoals deze uiteindelijk wordt weergegeven wordt hieronder onderstreept weergegeven.
 
 1. Kies in de keuzelijst **Zichtbaar in** waar het webpaneel moet verschijnen in SuperOffice CRM.
 
-    * U kunt kiezen uit panelen, dialoogvensters, menu's, werkbalk of zijpaneellocaties.
-    * Voor een volledige lijst van weergaveopties, zie [Weergavelocaties voor webpanelen][8].
+1. Onder **Beschikbaar op**, selecteer een of beide opties:
+    * **SuperOffice CRM for Web**
+    * **Mobile CRM**
 
-1. In de keuzelijst **URL-codering** kunt u selecteren of de [URL][2] moet worden weergegeven in ANSI of Unicode (of geen indeling).
+1. (Optioneel) Zo bepaalt u hoe het paneel zich gedraagt:
 
-1. Selecteer bij **Weergeven** welke balken beschikbaar moeten zijn in de browser waarin de URL wordt geopend: menubalk, werkbalk, adresbalk of statusbalk.
+    * Selecteer **Inhoud altijd opnieuw laden bij tabbladnavigatie** als de inhoud elke keer vernieuwd moet worden wanneer u van tabblad wisselt.
+    * Selecteer **Laad de inhoud niet opnieuw wanneer u naar de hoofdkaart navigeert** om de inhoud in het geheugen te houden tijdens navigatie.
+    * Selecteer **Koppeling weergeven in afzonderlijk venster** als het paneel ook in een nieuw browservenster geopend moet worden.
 
-1. Geef onder **Beschikbaar op** aan waar het URL-adres beschikbaar moet zijn. U kunt meerdere opties tegelijk selecteren.
-    * **SuperOffice CRM for Web**: wanneer u de webversie van SuperOffice CRM gebruikt.
-    * **Mobile CRM**: wanneer u de mobiele versie gebruikt van SuperOffice CRM.
-
-    Extra instellingen:
-    * **Inhoud altijd opnieuw laden** bij tabbladnavigatie.
-    * **Koppeling weergeven** in afzonderlijk venster.
-
-1. Klik op de lijst **Pictogram** om een pictogram voor het webpaneel te kiezen.
-
-1. Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**. Lees meer over [Vertaling][3].
+1. (Optioneel) Klik op de lijst **Pictogram** om een pictogram voor het webpaneel te kiezen.
 
 1. Klik op **Opslaan** om de wijzigingen op te slaan of op **Annuleren** om ze te negeren.
 
@@ -79,10 +74,9 @@ Zodra het item is opgeslagen, kunt u:
 | Vensternaam | ID van het paneel, gebruikt in de HTML die je in de panelen laadt. Moet uniek zijn, gebruik voorvoegsels |
 | Beschrijving | Tooltip-tekst |
 | URL | Locatie van de webpagina |
-| URL-codering | Geen, ANSI of Unicode |
-| Zichtbaar in | Weergavepositie |
-| Beschikbaar op | Apparaattype (web, mobiel) |
-| Tonen | Of de menubalk, werkbalk, adresbalk en/of statusbalk moet worden getoond |
+| [URL-codering][2] | Geen, ANSI of Unicode |
+| Zichtbaar in | Weergavepositie. U kunt kiezen uit panelen, dialoogvensters, menu's, werkbalk of zijpaneellocaties. Voor een volledige lijst van weergaveopties, zie [Weergavelocaties voor webpanelen][8]. |
+| Beschikbaar op | Apparaattype (web, mobiel) - aan waar het URL-adres beschikbaar moet zijn |
 
 ### <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 
