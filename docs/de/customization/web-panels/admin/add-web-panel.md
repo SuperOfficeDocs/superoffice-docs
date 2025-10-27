@@ -42,9 +42,6 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Wählen Sie im Listenfeld **Sichtbar in** aus, wo der Web-Bildschirm in SuperOffice CRM angezeigt werden soll.
 
-    * Sie können zwischen Panels, Dialogen, Menüs, Symbolleiste oder Seitenleisten-Standorten wählen.
-    * Für eine vollständige Liste der Anzeigeoptionen, siehen Sie [Anzeigeorte für Web-Bildschirme][8].
-
 1. Wählen Sie unter **Verfügbar auf**, wo die URL-Adresse verfügbar sein soll. Sie können mehrere Optionen gleichzeitig auswählen.
     * **SuperOffice CRM for Web**: Bei Verwendung der Web-Version von SuperOffice CRM.
     * **Mobile CRM**: Bei Verwendung der mobilen Version von SuperOffice CRM.
@@ -76,7 +73,7 @@ Sobald das Objekt gespeichert ist, können Sie:
 | Beschreibung | Tooltip-Text |
 | URL | Speicherort der Webseite |
 | [URL-Codierung][2] | Keine, ANSI oder Unicode |
-| Sichtbar in | Anzeigeposition |
+| Sichtbar in | Anzeigeposition. Sie können zwischen Panels, Dialogen, Menüs, Symbolleiste oder Seitenleisten-Standorten wählen. Für eine vollständige Liste der Anzeigeoptionen, siehen Sie [Anzeigeorte für Web-Bildschirme][8]. |
 | Verfügbar auf | Gerätetyp (Web, Mobil) |
 
 ### <a id="https"></a>Verwenden von HTTP vs HTTPS URLs

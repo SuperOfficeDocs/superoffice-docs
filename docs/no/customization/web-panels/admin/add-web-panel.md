@@ -42,9 +42,6 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. I listeboksen **Synlig i** velger du hvor webpanelet skal vises i SuperOffice CRM.
 
-    * Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer.
-    * For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8].
-
 1. Under **Tilgjengelig på** velger du hvor du vil at URL-adressen skal være tilgjengelig. Du kan velge flere av disse alternativene samtidig.
     * **SuperOffice CRM for Web**: Når du bruker Web-versjonen av SuperOffice CRM.
     * **Mobile CRM**: Når du bruker mobilversjonen av SuperOffice CRM.
@@ -76,7 +73,7 @@ Når elementet er lagret, kan du:
 | Beskrivelse | Verktøytips-tekst |
 | URL | Plassering av nettside |
 | [URL-koding][2] | Ingen, ANSI eller Unicode |
-| Synlig i | Visningsplassering |
+| Synlig i | Visningsplassering. Du kan velge mellom paneler, dialogbokser, menyer, knapperad eller sidepanelplasseringer. For en fullstendig liste over visningsalternativer, se [Visningsplasseringer for nettleserfaner][8]. |
 | Tilgjengelig på | Enhetstype (web, mobil) |
 
 ### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
