@@ -3,9 +3,9 @@ uid: help-da-selection-board-view
 title: Brug tavlevisning i udvalg
 description: Visualiser udvalg med tavlevisning med gruppering, filtre og træk-og-slip-kort
 keywords: tavlevisning, udvalgsvisning, udvalg, salgstavle, projekttavle, sagstavle, kanban, gruppér efter, filter-værktøjslinje
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -17,7 +17,7 @@ language: da
 
 Tavlevisning viser dit [udvalg][2] i et kolonnebaseret layout med kort. Du kan gruppere og filtrere udvalgsmedlemmerne (de poster, der vises på tavlen), og bruge træk-og-slip til at flytte kort mellem grupper.
 
-Funktionaliteten er den samme på tværs af understøttede poster: Du kan trække kort, åbne opgavemenuer og justere tavleindstillinger. De tilgængelige grupperings- og filterfelter varierer afhængigt af, om du arbejder med salg, projekter eller sager.
+Funktionaliteten er den samme på tværs af understøttede poster: Du kan trække kort, åbne opgavemenuer og justere tavleindstillinger. De tilgængelige grupperings- og filterfelter varierer afhængigt af, om du arbejder med firma, person, salg, projekter eller sager.
 
 ![Tavlevisning, der viser salg grupperet efter fase -screenshot][img2]
 
@@ -52,6 +52,8 @@ Funktionaliteten er den samme på tværs af understøttede poster: Du kan trækk
   * **Salg:** Rediger, Opret opfølgning, Marker som solgt/tabt, Slet
   * **Projekter:** Rediger, Opret opfølgning, Opret dokument, Marker som fuldført, Slet
   * **Sager:** Rediger, Luk sag, Slet
+  * **Firma:** Rediger, Opret opfølgning, Opret salg, Gå til næste kategori, Slet
+  * **Person:** Rediger, Opret opfølgning, Opret salg, Slet
 
   ![Åben opgavemenu på salg i tavlevisning med tilgængelige handlinger -screenshot][img5]
 
@@ -85,6 +87,8 @@ Eksempler på grupperingsfelter:
 * **Salg:** Fase, Salgstype, Ejer
 * **Projekter:** Status, Ansvarlig, Type
 * **Sager:** Status, Sagstype, Prioritet, Ejer
+* **Firma:** Kategori, Vores kontakt
+* **Person:** Kategori, Vores kontakt, Leadstatus
 
 ### Sortér kort i kolonner
 
@@ -117,6 +121,8 @@ Eksempler på filtre:
 * **Salg:** Salgstype, Ejer, Fase, Næste aktivitet, Salgsdato
 * **Projekter:** Type, Ansvarlig, Status, Næste milepæl, Slutdato
 * **Sager:** Sagskategori, Ejer, Status, Registreret, Deadline, Prioritet
+* **Firma:** Vores kontakt, Registreret dato, Næste aktivitet, Kategori, Land
+* **Person:** Vores kontakt, Ejergruppe, Registreret dato, Næste aktivitet, Leadstatus, Kategori, Land
 
 ### Opsummer (kun salg)
 

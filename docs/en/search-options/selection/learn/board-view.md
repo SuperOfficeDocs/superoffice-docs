@@ -3,9 +3,9 @@ uid: help-en-selection-board-view
 title: Use board view in selections
 description: Visualize selections using board view with grouping, filters, and drag-and-drop cards
 keywords: board view, selection view, selection, sales board, project board, request board, kanban, group by, filter toolbar
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -17,7 +17,7 @@ language: en
 
 Board view presents your [selection][2] in a column-based layout using cards. You can group and filter the selection members (records shown on the board), and use drag-and-drop to move cards between groups.
 
-The functionality is the same across supported entities: you can drag cards, open task menus, and adjust board settings. The available grouping and filtering fields vary depending on whether you are working with sales, projects, or requests.
+The functionality is the same across supported entities: you can drag cards, open task menus, and adjust board settings. The available grouping and filtering fields vary depending on whether you are working with company, contact, sales, projects, or requests.
 
 ![Board view showing sales grouped by stage -screenshot][img2]
 
@@ -52,6 +52,8 @@ The functionality is the same across supported entities: you can drag cards, ope
   * **Sales:** Edit, Create follow-up, Mark as sold/lost, Delete
   * **Projects:** Edit, Create follow-up, Create document, Mark as completed, Delete
   * **Requests:** Edit, Close request, Delete
+  * **Company:** Edit, Create follow-up, Create sale, Move to next category, Delete
+  * **Contact:** Edit, Create follow-up, Create sale, Delete
 
   ![Open task menu on a sale in board view showing available options -screenshot][img5]
 
@@ -85,6 +87,8 @@ Examples of grouping fields:
 * **Sales:** Stage, Sale type, Owner
 * **Projects:** Status, Responsible, Type
 * **Requests:** Status, Request type, Priority, Owner
+* **Company:** Category, Our contact
+* **Contact:** Category, Our contact, Lead status
 
 ### Sort cards in columns
 
@@ -117,6 +121,8 @@ Examples of filters:
 * **Sales:** Sale type, Owner, Stage, Next activity, Sale date
 * **Projects:** Type, Responsible, Status, Next milestone, End date
 * **Requests:** Request category, Owner, Status, Created, Deadline, Priority
+* **Company:** Our contact, Registered date, Next activity, Category, Country
+* **Contact:** Our contact, Owner group, Registered date, Next activity, Lead status, Category, Country
 
 ### Summarize (sales only)
 

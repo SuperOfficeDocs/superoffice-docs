@@ -3,9 +3,9 @@ uid: help-sv-selection-board-view
 title: Använd tavlevy i urval
 description: Visualisera urval med tavlevy med gruppering, filter och dra-och-släpp-kort
 keywords: tavlevy, urvalsvy,urval, säljtavla, projekttavla, ärendetavla, kanban, gruppera efter, filterverktygsfält
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -17,7 +17,7 @@ language: sv
 
 Tavlevy visar ditt [urval][2] i ett kolumnbaserat layout med kort. Du kan gruppera och filtrera urvalsmedlemmarna (posterna som visas i tavlan), samt använda dra-och-släpp för att flytta kort mellan grupper.
 
-Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna uppgiftsmenyer och justera tavleinställningar. De tillgängliga grupperings- och filterfälten varierar beroende på om du arbetar med försäljning, projekt eller ärenden.
+Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna uppgiftsmenyer och justera tavleinställningar. De tillgängliga grupperings- och filterfälten varierar beroende på om du arbetar med företag, kontakt, försäljning, projekt eller ärenden.
 
 ![Tavlevy som visar försäljningar grupperade efter fas -screenshot][img2]
 
@@ -49,9 +49,11 @@ Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna u
 
 * För fler alternativ, peka på kortet för att visa **Uppgift**-menyn <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>, klicka på den och välj en åtgärd.
 
-  * **Försäljning:** Redigera, Skapa uppföljning, Markera som såld/förlorad, Ta bort
-  * **Projekt:** Redigera, Skapa uppföljning, Skapa dokument, Markera som slutfört, Ta bort
+  * **Försäljning:** Redigera, Skapa händelse, Markera som såld/förlorad, Ta bort
+  * **Projekt:** Redigera, Skapa händelse, Skapa dokument, Markera som slutfört, Ta bort
   * **Ärenden:** Redigera, Stäng ärende, Ta bort
+  * **Företag:** Redigera, Skapa händelse, Registrera försäljning, Gå till nästa kategori, Ta bort
+  * **Kontakt:** Redigera, Skapa händelse, Registrera försäljning, Ta bort
 
   ![Uppgiftsmeny i tavlevy för en försäljning med tillgängliga alternativ -screenshot][img5]
 
@@ -85,6 +87,8 @@ Exempel på grupperingsfält:
 * **Försäljning:** Fas, Försäljningstyp, Ägare
 * **Projekt:** Status, Ansvarig, Typ
 * **Ärenden:** Status, Ärendetyp, Prioritet, Ägare
+* **Företag:** Kategori, Vår kontakt
+* **Kontakt:** Kategori, Vår kontakt, Lead-status
 
 ### Sortera kort i kolumner
 
@@ -117,6 +121,8 @@ Exempel på filter:
 * **Försäljning:** Försäljningstyp, Ägare, Fas, Nästa aktivitet, Försäljningsdatum
 * **Projekt:** Typ, Ansvarig, Status, Nästa milstolpe, Slutdatum
 * **Ärenden:** Ärendekategori, Ägare, Status, Registrerad, Tidsfrist, Prioritet
+* **Företag:** Vår kontakt, Registreringsdatum, Nästa aktivitet, Kategori, Land
+* **Kontakt:** Vår kontakt, Ägargrupp, Registreringsdatum, Nästa aktivitet, Lead-status, Kategori, Land
 
 ### Sammanfatta (endast försäljning)
 

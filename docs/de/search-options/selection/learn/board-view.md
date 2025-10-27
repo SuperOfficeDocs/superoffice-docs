@@ -3,9 +3,9 @@ uid: help-de-selection-board-view
 title: Board-Ansicht in Selektionen verwenden
 description: Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
 keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Projektboard, Anfrageboard, Kanban, gruppieren nach, Filterleiste
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
@@ -17,7 +17,7 @@ language: de
 
 Die Board-Ansicht zeigt Ihre [Selektion][2] in einem spaltenbasierten Layout mit Karten an. Sie können die Selektionsmitglieder (Datensätze auf dem Board) gruppieren und filtern sowie Karten per Drag-and-Drop zwischen Gruppen verschieben.
 
-Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Verkäufen, Projekten oder Anfragen arbeiten.
+Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Firmen, Personen, Verkäufen, Projekten oder Anfragen arbeiten.
 
 ![Board-Ansicht mit Verkäufen nach Stufe gruppiert -screenshot][img2]
 
@@ -52,6 +52,8 @@ Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie kö
   * **Verkäufe:** Bearbeiten, Folgeaufgabe erstellen, Als verkauft/verloren markieren, Löschen
   * **Projekte:** Bearbeiten, Folgeaufgabe erstellen, Dokument erstellen, Als abgeschlossen markieren, Löschen
   * **Anfragen:** Bearbeiten, Anfrage schließen, Löschen
+  * **Firma:** Bearbeiten, Folgeaufgabe erstellen, Verkauf erstellen, Zur nächten Katerorie wechslen Löschen
+  * **Person:** Bearbeiten, Folgeaufgabe erstellen, Verkauf erstellen, Löschen
 
   ![Geöffnetes Aufgabenmenü für einen Verkauf in der Board-Ansicht mit verfügbaren Optionen -screenshot][img5]
 
@@ -85,6 +87,8 @@ Beispiele für Gruppierungsfelder:
 * **Verkäufe:** Stufe, Verkaufstyp, Besitzer
 * **Projekte:** Status, Verantwortlicher, Typ
 * **Anfragen:** Status, Anfragetyp, Priorität, Besitzer
+* **Firma:** Kategorie, Verantwortlich
+* **Person:** Kategorie, Verantwortlich, Lead Status
 
 ### Karten in Spalten sortieren
 
@@ -117,6 +121,8 @@ Beispiele für Filter:
 * **Verkauf:** Verkaufsart, Eigentümer, Phase, Nächste Aktivität, Verkaufsdatum
 * **Projekte:** Typ, Verantwortlich, Status, Nächster Meilenstein, Enddatum
 * **Anfragen:** Anfragekategorie, Eigentümer, Status, Erstellt, Frist, Priorität
+* **Firma:** Verantwortlich, Erfasstesdatum Nächste Aktivität, Kategorie, Land
+* **Person:** Verantwortlich, Eigentümergruppe Erfasstesdatum Nächste Aktivität, Lead Status, Kategorie, Land
 
 ### Zusammenfassen (nur Verkäufe)
 
