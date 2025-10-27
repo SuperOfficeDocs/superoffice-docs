@@ -13,6 +13,7 @@ language: sv
 index: true
 redirect_from: 
   - /sv/admin/learn/index
+  - /sv/admin/learn/onboard-users
   - /sv/admin/getting-started/index
   - /sv/admin/getting-started/onboard-users
 ---

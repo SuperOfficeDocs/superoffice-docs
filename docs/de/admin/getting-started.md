@@ -13,6 +13,7 @@ language: de
 index: true
 redirect_from: 
   - /de/admin/learn/index
+  - /de/admin/learn/onboard-users
   - /de/admin/getting-started/index
   - /de/admin/getting-started/onboard-users
 ---

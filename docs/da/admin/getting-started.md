@@ -13,6 +13,7 @@ language: da
 index: true
 redirect_from: 
   - /da/admin/learn/index
+  - /da/admin/learn/onboard-users
   - /da/admin/getting-started/index
   - /da/admin/getting-started/onboard-users
 ---

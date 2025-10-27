@@ -13,6 +13,7 @@ language: no
 index: true
 redirect_from: 
   - /no/admin/learn/index
+  - /no/admin/learn/onboard-users
   - /no/admin/getting-started/index
   - /no/admin/getting-started/onboard-users
 ---
