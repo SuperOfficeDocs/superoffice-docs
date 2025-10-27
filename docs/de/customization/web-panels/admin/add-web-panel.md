@@ -36,14 +36,14 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Geben Sie im Feld **URL** die URL-Adresse an, wie zum Beispiel eine Webseite oder eine serverbasierte HTML-Datei. Für Details zu unterstützten URL-Typen siehe [Verwenden von HTTP vs HTTPS URLs](#https).
 
+    * Im Listenfeld **URL-Verschlüsselung** wählen Sie *Keine*, *ANSI*, or *Unicode* aus.
+
 1. Geben Sie im Feld **Fenstername** den Namen für das Browser-Fenster ein, in dem die URL-Adresse geöffnet werden soll. Falls Sie bereits einen oder mehrere Fensternamen hinzugefügt haben und sie erneut verwenden möchten, können Sie auf das Feld klicken und einen Namen in der Liste auswählen. Sie können auch einen neuen Namen direkt in das Feld eingeben. Der künftig angezeigte Fenstername wird als unterstrichener Text unter dem Feld angezeigt.
 
 1. Wählen Sie im Listenfeld **Sichtbar in** aus, wo der Web-Bildschirm in SuperOffice CRM angezeigt werden soll.
 
     * Sie können zwischen Panels, Dialogen, Menüs, Symbolleiste oder Seitenleisten-Standorten wählen.
     * Für eine vollständige Liste der Anzeigeoptionen, siehen Sie [Anzeigeorte für Web-Bildschirme][8].
-
-1. Im Listenfeld **URL-Verschlüsselung** können Sie auswählen, ob die [URL][2] das Format ANSI oder Unicode (oder kein Format) haben soll.
 
 1. Wählen Sie unter **Verfügbar auf**, wo die URL-Adresse verfügbar sein soll. Sie können mehrere Optionen gleichzeitig auswählen.
     * **SuperOffice CRM for Web**: Bei Verwendung der Web-Version von SuperOffice CRM.
@@ -75,7 +75,7 @@ Sobald das Objekt gespeichert ist, können Sie:
 | Fenstername | ID des Panels, verwendet im HTML, das in die Panels geladen wird. Muss eindeutig sein, Präfixe verwenden |
 | Beschreibung | Tooltip-Text |
 | URL | Speicherort der Webseite |
-| URL-Codierung | Keine, ANSI oder Unicode |
+| [URL-Codierung][2] | Keine, ANSI oder Unicode |
 | Sichtbar in | Anzeigeposition |
 | Verfügbar auf | Gerätetyp (Web, Mobil) |
 

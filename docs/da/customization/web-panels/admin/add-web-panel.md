@@ -36,14 +36,14 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. Angiv URL-adressen, f.eks. en webside eller en serverbaseret HTML-fil, i feltet **URL**. For detaljer om understøttede URL-typer, se [Brug af HTTP vs HTTPS URL'er](#https).
 
+    * I feltet **URL-format** vælg, *Ingen*, *ANSI*, eller *Unicode*.
+
 1. Angiv i feltet **Vinduesnavn** det nødvendige navn på det browservindue, hvor URL-adressen skal åbnes. Hvis du tidligere har tilføjet et eller flere vinduesnavne og vil genbruge dem, kan du klikke i feltet og vælge et navn på listen. Du kan også indtaste et nyt navn direkte i feltet. Det endelige vinduesnavn vises understreget nedenfor.
 
 1. På listen **Synlig i** vælger du, hvor webpanelet skal vises i SuperOffice CRM.
 
     * Du kan vælge mellem paneler, dialogbokse, menuer, værktøjslinje eller sidepanelplaceringer.
     * For en komplet liste over visningsindstillinger, se [Visningsplaceringer for webpaneler][8].
-
-1. I rullemenuen **URL-format** kan du vælge, om [URL-adressen][2] skal være ANSI eller Unicode (eller uden format).
 
 1. Under **Tilgængelig på** vælger du, hvor URL-adressen skal være tilgængelig. Du kan vælge flere af disse indstillinger samtidig.
     * **SuperOffice CRM for Web**: Når du bruger webversionen af SuperOffice CRM.
@@ -75,7 +75,7 @@ Når elementet er gemt, kan du:
 | Vinduesnavn | ID for panelet, bruges i HTML-koden du indlæser i panelerne. Skal være unik, brug præfikser |
 | Beskrivelse | Værktøjstip-tekst |
 | URL | Placering af webside |
-| URL-format | Ingen, ANSI eller Unicode |
+| [URL-format][2] | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplacering |
 | Tilgængelig på | Enhedstype (web, mobil) |
 

@@ -36,14 +36,14 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. Geef in het veld **URL** het URL-adres op, zoals een webpagina of een op een server gebaseerd HTML-bestand. Voor details over ondersteunde URL-types, zie [HTTP vs HTTPS URL's gebruiken](#https).
 
+    * In de veld **URL-codering** selecteer *Geen*, *ANSI*, or *Unicode*.
+
 1. Voer in het veld **Vensternaam** de gewenste naam in voor het browservenster waarin het URL-adres moet worden geopend. Als u eerder een of meer vensternamen hebt toegevoegd en ze opnieuw wilt gebruiken, kunt u in het veld klikken en een naam uit de lijst selecteren. U kunt een naam ook rechtstreeks in het veld typen. De vensternaam zoals deze uiteindelijk wordt weergegeven wordt hieronder onderstreept weergegeven.
 
 1. Kies in de keuzelijst **Zichtbaar in** waar het webpaneel moet verschijnen in SuperOffice CRM.
 
     * U kunt kiezen uit panelen, dialoogvensters, menu's, werkbalk of zijpaneellocaties.
     * Voor een volledige lijst van weergaveopties, zie [Weergavelocaties voor webpanelen][8].
-
-1. In de keuzelijst **URL-codering** kunt u selecteren of de [URL][2] moet worden weergegeven in ANSI of Unicode (of geen indeling).
 
 1. Geef onder **Beschikbaar op** aan waar het URL-adres beschikbaar moet zijn. U kunt meerdere opties tegelijk selecteren.
     * **SuperOffice CRM for Web**: wanneer u de webversie van SuperOffice CRM gebruikt.
@@ -75,7 +75,7 @@ Zodra het item is opgeslagen, kunt u:
 | Vensternaam | ID van het paneel, gebruikt in de HTML die je in de panelen laadt. Moet uniek zijn, gebruik voorvoegsels |
 | Beschrijving | Tooltip-tekst |
 | URL | Locatie van de webpagina |
-| URL-codering | Geen, ANSI of Unicode |
+| [URL-codering][2] | Geen, ANSI of Unicode |
 | Zichtbaar in | Weergavepositie |
 | Beschikbaar op | Apparaattype (web, mobiel) |
 

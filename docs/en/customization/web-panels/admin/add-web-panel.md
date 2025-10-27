@@ -38,14 +38,14 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. In the **URL** field, specify the URL address such as a web page or a server-based HTML file. For details about supported URL types, see [Using HTTP vs HTTPS URLs](#https).
 
+    * In the **URL encoding** field, select *None*, *ANSI*, or *Unicode*.
+
 1. In the **Window name** field, specify the required name of the browser window where the URL address should be opened. If you have previously added one or more window names and want to reuse them, you can click in the field and select a name from the list. You can also type a new name directly into the field. The window name as it will finally appear is displayed below, underlined.
 
 1. In the **Visible in** list, choose where the web panel should appear in SuperOffice CRM.
 
     * You can select from panels, dialogs, menus, toolbar, or side panel locations.
     * For a full list of display options, see [Display locations for web panels][8].
-
-1. In the **URL encoding** list box, you can select if the [URL][2] should be ANSI or Unicode (or no format).
 
 1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
     * **SuperOffice CRM for Web**: when you are using the Web version of SuperOffice CRM.
@@ -77,7 +77,7 @@ Once the item is saved, you can:
 | Window name | ID of the panel, used in the HTML you load into the panels. Must be unique, use prefixes |
 | Description | Tool-tip text |
 | URL | Location of web page |
-| URL encoding | None, ANSI, or Unicode |
+| [URL encoding][2] | None, ANSI, or Unicode |
 | Visible in | The display location |
 | Available on | Device type (web, mobile) |
 
