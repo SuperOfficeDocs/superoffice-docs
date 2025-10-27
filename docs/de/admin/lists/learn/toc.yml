@@ -44,11 +44,6 @@ items:
     items:
     - name: E-Mail-Vorlage hinzufügen
       href: add-email-template.md
-  - name: Typ der Folgeaufgabe
-    href: follow-up-type.md
-    items:
-    - name: Typ der Folgeaufgabe hinzufügen
-      href: adding-items-to-follow-up-type-list.md
 
   - name: Allgemein
     topicHref: country.md
@@ -65,10 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Beziehung hinzufügen
       href: adding-items-to-relation-list.md
-    - name: Ressource
-      href: resource.md
-    - name: Ressource hinzufügen
-      href: adding-items-to-resource-list.md
     - name: Menü "Aufgabe"
       href: add-items-to-task-menu.md
     - name: GUI-Anwendungsliste

@@ -44,11 +44,6 @@ items:
     items:
     - name: Tilføj e-mailskabelon
       href: add-email-template.md
-  - name: Opfølgningstype
-    href: follow-up-type.md
-    items:
-    - name: Tilføj opfølgningstype
-      href: adding-items-to-follow-up-type-list.md
 
   - name: Generel
     topicHref: country.md
@@ -65,10 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Tilføj relation
       href: adding-items-to-relation-list.md
-    - name: Ressource
-      href: resource.md
-    - name: Tilføj ressource
-      href: adding-items-to-resource-list.md
     - name: Menuen Opgave
       href: add-items-to-task-menu.md
     - name: GUI applikationsliste

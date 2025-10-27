@@ -29,3 +29,6 @@ items:
 - name: Uitnodigingen
   href: invitation/toc.yml
   topicHref: invitation/index.md
+- name: Voor beheerders
+  href: ../admin/toc.yml
+  topicHref: ../admin/add-follow-up-type.md

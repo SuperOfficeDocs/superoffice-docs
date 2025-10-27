@@ -44,11 +44,6 @@ items:
     items:
     - name: E-mailsjabloon toevoegen
       href: add-email-template.md
-  - name: Type vervolgactiviteit
-    href: follow-up-type.md
-    items:
-    - name: Type vervolgactiviteit toevoegen
-      href: adding-items-to-follow-up-type-list.md
 
   - name: Algemeen
     topicHref: country.md
@@ -65,10 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Relatie toevoegen
       href: adding-items-to-relation-list.md
-    - name: Bron
-      href: resource.md
-    - name: Bron toevoegen
-      href: adding-items-to-resource-list.md
     - name: Taakmenu
       href: add-items-to-task-menu.md
     - name: GUI-toepassingslijst

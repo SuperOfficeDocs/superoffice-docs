@@ -29,3 +29,6 @@ items:
 - name: Inbjudningar
   href: invitation/toc.yml
   topicHref: invitation/index.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/add-follow-up-type.md

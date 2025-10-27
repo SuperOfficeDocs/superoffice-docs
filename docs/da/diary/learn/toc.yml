@@ -29,3 +29,6 @@ items:
 - name: Invitationer
   href: invitation/toc.yml
   topicHref: invitation/index.md
+- name: For admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/add-follow-up-type.md

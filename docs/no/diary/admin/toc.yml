@@ -1,0 +1,5 @@
+items:
+- name: Legge til oppfølgingstype
+  href: add-follow-up-type.md
+- name: Legge til ressurs
+  href: add-resource.md
