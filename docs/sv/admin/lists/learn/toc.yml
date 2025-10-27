@@ -44,11 +44,6 @@ items:
     items:
     - name: Lägga till e-postmall
       href: add-email-template.md
-  - name: Händelsetyp
-    href: follow-up-type.md
-    items:
-    - name: Lägga till händelsetyp
-      href: adding-items-to-follow-up-type-list.md
 
   - name: Allmänt
     topicHref: country.md
@@ -65,10 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Lägga till relation
       href: adding-items-to-relation-list.md
-    - name: Resurs
-      href: resource.md
-    - name: Lägga till resurs
-      href: adding-items-to-resource-list.md
     - name: Uppgiftsmeny
       href: add-items-to-task-menu.md
     - name: Lista över GUI-applikationer

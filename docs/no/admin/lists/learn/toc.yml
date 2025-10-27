@@ -44,11 +44,6 @@ items:
     items:
     - name: Legge til e-postmal
       href: add-email-template.md
-  - name: Oppfølgingstype
-    href: follow-up-type.md
-    items:
-    - name: Legge til oppfølgingstype
-      href: adding-items-to-follow-up-type-list.md
 
   - name: Generelt
     topicHref: country.md
@@ -65,10 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Legge til relasjon
       href: adding-items-to-relation-list.md
-    - name: Ressurs
-      href: resource.md
-    - name: Legge til ressurs
-      href: adding-items-to-resource-list.md
     - name: Oppgave-meny
       href: add-items-to-task-menu.md
     - name: GUI-applikasjonsliste

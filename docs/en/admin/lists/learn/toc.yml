@@ -44,11 +44,6 @@ items:
     items:
     - name: Add email template
       href: add-email-template.md
-  - name: Follow-up type
-    href: follow-up-type.md
-    items:
-    - name: Add follow-up type
-      href: adding-items-to-follow-up-type-list.md
 
   - name: General
     topicHref: country.md
@@ -65,11 +60,6 @@ items:
       href: add-items-to-mailing-domain.md
     - name: Add relation
       href: adding-items-to-relation-list.md
-    - name: Resource
-      href: resource.md
-    - name: Add resource
-      href: adding-items-to-resource-list.md
-
     - name: Task menu
       href: add-items-to-task-menu.md
     - name: GUI application list

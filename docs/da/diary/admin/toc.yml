@@ -1,0 +1,5 @@
+items:
+- name: Tilføj opfølgningstype
+  href: add-follow-up-type.md
+- name: Tilføj ressource
+  href: add-resource.md
