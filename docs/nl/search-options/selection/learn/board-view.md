@@ -24,9 +24,12 @@ De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarte
 ## Boardweergave openen
 
 1. Ga naar een selectie.
+
 1. Klik rechtsboven op het pictogram voor **boardweergave** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Pictogram voor boardweergave rechtsboven in een selectie][img1]
+
+1. Als uw selectie bedrijven en personen bevat, toont de bordweergave slechts één entiteitstype tegelijk. Om te wisselen klikt u op <i class="ph ph-gear-six" aria-label="Settings"></i> en gebruikt u vervolgens de vervolgkeuzelijst **Entiteit weergeven** om *Bedrijf* of *Persoon* te kiezen.
 
 ## Werken met kaarten
 

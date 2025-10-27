@@ -24,9 +24,12 @@ Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie kö
 ## Board-Ansicht öffnen
 
 1. Öffnen Sie eine Selektion.
+
 1. Klicken Sie oben rechts auf das Symbol für die **Board-Ansicht** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Symbol zum Umschalten in die Board-Ansicht oben rechts in einer Selektion][img1]
+
+1. Wenn Ihre Selektion Firmen und Personen enthält, zeigt die Board‑Ansicht immer nur einen Entitätstyp gleichzeitig an. Zum Wechseln klicken Sie auf <i class="ph ph-gear-six" aria-label="Settings"></i> und wählen im Dropdown **Entität anzeigen** entweder *Firma* oder *Person*.
 
 ## Mit Karten arbeiten
 

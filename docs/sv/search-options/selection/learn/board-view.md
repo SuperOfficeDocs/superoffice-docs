@@ -24,9 +24,12 @@ Funktionen är densamma för alla stödda urvalstyper: Du kan dra kort, öppna u
 ## Öppna tavlevy
 
 1. Gå till ett urval.
+
 1. Klicka på ikonen för **tavlevy** i det övre högra hörnet (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Växlingsikon för tavlevy i det övre högra hörnet i ett urval][img1]
+
+1. Om ditt urval innehåller företag och kontakter visar tavlevyn endast en enhetstyp åt gången. För att växla klickar du på <i class="ph ph-gear-six" aria-label="Settings"></i> och använder sedan rullgardinsmenyn **Visa enhet** för att välja *Företag* eller *Kontakt*.
 
 ## Arbeta med kort
 

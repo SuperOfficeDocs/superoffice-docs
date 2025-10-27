@@ -24,9 +24,12 @@ Funksjonaliteten er lik på tvers av støttede posttyper: Du kan dra kort, åpne
 ## Åpne tavlevisning
 
 1. Gå til et utvalg.
+
 1. Velg ikonet for **tavlevisning** øverst til høyre (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Ikon for tavlevisning øverst til høyre i et utvalg][img1]
+
+1. Hvis utvalget ditt inneholder firmaer og personer, vil tavlevisningen bare vise én enhetstype om gangen. For å bytte klikker du på <i class="ph ph-gear-six" aria-label="Settings"></i>, og bruker deretter rullegardinlisten **Vis enhet** til å velge *Firma* eller *Person*.
 
 ## Arbeid med kort
 

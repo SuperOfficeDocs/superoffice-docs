@@ -24,9 +24,12 @@ Funktionaliteten er den samme på tværs af understøttede poster: Du kan trækk
 ## Åbn tavlevisning
 
 1. Gå til et udvalg.
+
 1. Vælg ikonet for **tavlevisning** øverst til højre (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Tavlevisningsikon øverst til højre i et udvalg][img1]
+
+1. Hvis dit udvalg indeholder firmaer og personer, viser tavlevisningen kun én entitetstype ad gangen. For at skifte klikker du på <i class="ph ph-gear-six" aria-label="Settings"></i>, og bruger derefter rullemenuen **Vis enhed** til at vælge *Firma* eller *Person*.
 
 ## Arbejd med kort
 

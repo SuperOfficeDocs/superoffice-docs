@@ -24,9 +24,12 @@ The functionality is the same across supported entities: you can drag cards, ope
 ## Open board view
 
 1. Go to a selection.
+
 1. In the upper-right corner, select the **board view** icon (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Board view toggle icon in the upper-right corner of a selection][img1]
+
+1. If your selection contains companies and contacts, the board view will only show one entity type at a time. To switch, click <i class="ph ph-gear-six" aria-label="Settings"></i>, then use the **View entity** dropdown to choose *Company* or *Contact*.
 
 ## Work with cards
 
