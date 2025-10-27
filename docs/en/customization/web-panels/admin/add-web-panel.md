@@ -4,8 +4,8 @@ title: Add web panel
 description: How to add items to the web panel list in Settings and maintenance.
 keywords: web panel, GUI - Web panel list
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -47,8 +47,6 @@ Web panels are defined in the **GUI - Web panel** list, which you can manage in 
 
 1. In the **URL encoding** list box, you can select if the [URL][2] should be ANSI or Unicode (or no format).
 
-1. Under **Show**, select which bars will be available in the browser that the URL is opened in: menu bar, toolbar, address bar or status bar.
-
 1. Under **Available on** choose where you want the URL address to be available. You can select several of these options simultaneously.
     * **SuperOffice CRM for Web**: when you are using the Web version of SuperOffice CRM.
     * **Mobile CRM**: when you are using the mobile version of SuperOffice CRM.
@@ -84,7 +82,6 @@ Once the item is saved, you can:
 | URL encoding | None, ANSI, or Unicode |
 | Visible in | The display location |
 | Available on | Device type (web, mobile) |
-| Show | Whether to show the menu bar, toolbar, address bar, and/or status bar |
 
 ### <a id="https"></a>Using HTTP vs HTTPS URLs
 

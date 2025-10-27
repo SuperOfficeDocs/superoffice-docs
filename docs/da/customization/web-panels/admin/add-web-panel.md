@@ -45,8 +45,6 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. I rullemenuen **URL-format** kan du vælge, om [URL-adressen][2] skal være ANSI eller Unicode (eller uden format).
 
-1. Under **Vis** markerer du de linjer, som skal være tilgængelige i det browservindue, som URL-adressen åbnes i – menulinje, værktøjslinje, adresselinje og statuslinje.
-
 1. Under **Tilgængelig på** vælger du, hvor URL-adressen skal være tilgængelig. Du kan vælge flere af disse indstillinger samtidig.
     * **SuperOffice CRM for Web**: Når du bruger webversionen af SuperOffice CRM.
     * **Mobile CRM**: Når du bruger mobilversionen af SuperOffice CRM.
@@ -82,7 +80,6 @@ Når elementet er gemt, kan du:
 | URL-format | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplacering |
 | Tilgængelig på | Enhedstype (web, mobil) |
-| Vis | Om menulinje, værktøjslinje, adresselinje og/eller statuslinje skal vises |
 
 ### <a id="https"></a>Brug af HTTP vs HTTPS URL'er
 

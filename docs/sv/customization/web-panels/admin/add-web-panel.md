@@ -4,8 +4,8 @@ title: Lägg till webbpanel
 description: Så lägger du till objekt i webbpanellistan i Inställningar och underhåll.
 keywords: webbpanel, listan GUI - Webbpanel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -47,8 +47,6 @@ Webbpaneler definieras i listan **GUI - Webbpanel**, som du kan hantera i **Inst
 
 1. I listrutan **URL-format** kan du välja om [webbadressen][2] ska ha ANSI- eller Unicode-format (eller inget format).
 
-1. Under **Visa** kan du markera alla rader som ska vara tillgängliga i webbläsaren som webbadressen öppnas i – menyrad, verktygsfält, adressrad och statusrad.
-
 1. Under **Tillgänglig på** väljer du var du vill att webbadressen ska vara tillgänglig. Du kan välja flera av dessa alternativ samtidigt.
     * **SuperOffice CRM for Web**: när du använder webbversionen av SuperOffice CRM.
     * **Mobile CRM**: när du använder mobilversionen av SuperOffice CRM.
@@ -84,7 +82,6 @@ När posten har sparats kan du:
 | URL-kodning | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplats |
 | Tillgänglig på | Enhetstyp (webb, mobil) |
-| Visa | Om menyrad, verktygsfält, adressfält och/eller statusfält ska visas |
 
 ### <a id="https"></a>Använda HTTP vs HTTPS-webbadresser
 

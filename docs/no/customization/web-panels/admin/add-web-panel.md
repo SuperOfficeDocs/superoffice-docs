@@ -4,8 +4,8 @@ title: Legg til webpanel
 description: Slik legger du til elementer i webpanellisten i Innstillinger og vedlikehold.
 keywords: webpanel, listen GUI - Webpanel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -45,8 +45,6 @@ Webpaneler defineres i listen **GUI - Webpanel**, som du kan administrere i **In
 
 1. I listeboksen **URL-format** kan du velge om [URL-adressen][2] skal være ANSI eller Unicode (eller uten format).
 
-1. Under **Vis** merker du av for de linjene som skal være tilgjengelige i nettleservinduet som URL-adressen åpnes i: menylinje, knapperad, adresselinje og statuslinje.
-
 1. Under **Tilgjengelig på** velger du hvor du vil at URL-adressen skal være tilgjengelig. Du kan velge flere av disse alternativene samtidig.
     * **SuperOffice CRM for Web**: Når du bruker Web-versjonen av SuperOffice CRM.
     * **Mobile CRM**: Når du bruker mobilversjonen av SuperOffice CRM.
@@ -82,7 +80,6 @@ Når elementet er lagret, kan du:
 | URL-koding | Ingen, ANSI eller Unicode |
 | Synlig i | Visningsplassering |
 | Tilgjengelig på | Enhetstype (web, mobil) |
-| Vis | Om menylinjen, verktøylinjen, adresselinjen og/eller statuslinjen skal vises |
 
 ### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
 

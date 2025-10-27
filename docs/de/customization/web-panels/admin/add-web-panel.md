@@ -4,8 +4,8 @@ title: Web-Bildschirm hinzufügen
 description: So fügen Sie Elemente zur Web-Bildschirm-Liste in Einstellungen und Verwaltung hinzu.
 keywords: Web-Bildschirm, Liste GUI - Web-Bildschirm
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -45,8 +45,6 @@ Web-Bildschirme werden in der Liste **GUI - Web-Bildschirm** definiert, die Sie 
 
 1. Im Listenfeld **URL-Verschlüsselung** können Sie auswählen, ob die [URL][2] das Format ANSI oder Unicode (oder kein Format) haben soll.
 
-1. Wählen Sie unter **Anzeigen** die Leisten aus, die im Browser, in dem die URL-Adresse geöffnet wird, zur Verfügung stehen sollen: Menüleiste, Symbolleiste, Adressleiste oder Statusleiste.
-
 1. Wählen Sie unter **Verfügbar auf**, wo die URL-Adresse verfügbar sein soll. Sie können mehrere Optionen gleichzeitig auswählen.
     * **SuperOffice CRM for Web**: Bei Verwendung der Web-Version von SuperOffice CRM.
     * **Mobile CRM**: Bei Verwendung der mobilen Version von SuperOffice CRM.
@@ -82,7 +80,6 @@ Sobald das Objekt gespeichert ist, können Sie:
 | URL-Codierung | Keine, ANSI oder Unicode |
 | Sichtbar in | Anzeigeposition |
 | Verfügbar auf | Gerätetyp (Web, Mobil) |
-| Anzeigen | Ob Menüleiste, Symbolleiste, Adressleiste und/oder Statusleiste angezeigt werden |
 
 ### <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
 

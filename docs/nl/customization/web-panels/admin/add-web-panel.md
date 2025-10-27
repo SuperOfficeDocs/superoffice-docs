@@ -4,8 +4,8 @@ title: Webpaneel toevoegen
 description: Hoe items toe te voegen aan de webpaneellijst in Instellingen en onderhoud.
 keywords: webpaneel, lijst GUI - Webpaneel
 author: digitaldiina
-date: 10.13.2025
-version: 11.5
+date: 11.04.2025
+version: 11.6
 audience: settings
 audience_tooltip: Settings and maintenance
 category: customization
@@ -45,8 +45,6 @@ Webpanelen worden gedefinieerd in de lijst **GUI - Webpaneel**, die u kunt beher
 
 1. In de keuzelijst **URL-codering** kunt u selecteren of de [URL][2] moet worden weergegeven in ANSI of Unicode (of geen indeling).
 
-1. Selecteer bij **Weergeven** welke balken beschikbaar moeten zijn in de browser waarin de URL wordt geopend: menubalk, werkbalk, adresbalk of statusbalk.
-
 1. Geef onder **Beschikbaar op** aan waar het URL-adres beschikbaar moet zijn. U kunt meerdere opties tegelijk selecteren.
     * **SuperOffice CRM for Web**: wanneer u de webversie van SuperOffice CRM gebruikt.
     * **Mobile CRM**: wanneer u de mobiele versie gebruikt van SuperOffice CRM.
@@ -82,7 +80,6 @@ Zodra het item is opgeslagen, kunt u:
 | URL-codering | Geen, ANSI of Unicode |
 | Zichtbaar in | Weergavepositie |
 | Beschikbaar op | Apparaattype (web, mobiel) |
-| Tonen | Of de menubalk, werkbalk, adresbalk en/of statusbalk moet worden getoond |
 
 ### <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 
