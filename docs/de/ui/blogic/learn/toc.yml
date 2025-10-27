@@ -13,5 +13,3 @@ items:
   - name: Zusatzmenüs
     href: extra-menus/toc.yml
     topicHref: extra-menus/index.md
-  - name: Eigenschaften des Pakets
-    href: ../../../admin/learn/package-properties.md

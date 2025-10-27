@@ -19,3 +19,5 @@ items:
 - name: Systeemontwerp
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
+- name: Pakketeigenschappen
+  href: ../admin/package-properties.md
