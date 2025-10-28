@@ -22,3 +22,5 @@ items:
   href: resend.md
 - name: Instellingen voor mailings
   href: ../admin/define-settings-for-mailings.md
+- name: Mailingdomein
+  href: ../admin/add-domain.md

@@ -226,7 +226,7 @@ Etter å ha designet en flyt og lagret den, lukkes **Dialogvindu for å redigere
 [7]: index.md#success
 [9]: step-settings.md
 [8]: ../../learn/create-folder.md
-[12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
+[12]: ../../mailing/admin/add-domain.md
 [13]: ../../../search-options/learn/search-criteria.md
 [14]: ../../../search-options/selection/learn/index.md
 

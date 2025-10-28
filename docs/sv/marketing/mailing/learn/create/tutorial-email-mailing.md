@@ -81,5 +81,5 @@ Om du försöker skicka från en domän som inte har en giltig SPF-post visas en
 [!include[Så här bekräftar och skickar du ett utskick](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

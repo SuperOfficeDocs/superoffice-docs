@@ -22,3 +22,5 @@ items:
   href: resend.md
 - name: Einstellungen für Kampagnen
   href: ../admin/define-settings-for-mailings.md
+- name: Kampagnen-Domain
+  href: ../admin/add-domain.md

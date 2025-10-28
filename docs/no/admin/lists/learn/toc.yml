@@ -52,8 +52,6 @@ items:
       href: country.md
     - name: Legge til land
       href: add-items-to-country-list.md
-    - name: Domene for utsendelse
-      href: add-items-to-mailing-domain.md
     - name: Legge til relasjon
       href: adding-items-to-relation-list.md
     - name: Oppgave-meny

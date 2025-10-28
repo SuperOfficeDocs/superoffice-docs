@@ -52,8 +52,6 @@ items:
       href: country.md
     - name: Lägga till land
       href: add-items-to-country-list.md
-    - name: Utskicksdomän
-      href: add-items-to-mailing-domain.md
     - name: Lägga till relation
       href: adding-items-to-relation-list.md
     - name: Uppgiftsmeny

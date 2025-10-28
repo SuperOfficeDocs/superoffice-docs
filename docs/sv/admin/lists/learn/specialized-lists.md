@@ -24,6 +24,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 * [Allmänt – Resurs][7]
 * [GUI – Applikation][8]
 * [GUI – Webbpanel][9]
+* [Utskicksdomäner][19]
 * [Integritet – Rättslig grund][10]
 * [Integritet – Källa][11]
 * [Projektstatus][12]
@@ -51,5 +52,6 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

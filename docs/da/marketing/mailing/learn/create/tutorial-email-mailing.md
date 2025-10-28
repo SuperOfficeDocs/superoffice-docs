@@ -81,5 +81,5 @@ Hvis du forsøger at sende fra et domæne, der ikke har en gyldig SPF-registreri
 [!include[Sådan bekræftes og sendes en udsendelse](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

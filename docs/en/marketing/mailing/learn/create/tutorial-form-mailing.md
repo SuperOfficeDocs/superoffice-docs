@@ -61,5 +61,5 @@ The first step in creating a form response, is called **Setup**. Here you can se
 [!include[Step 3 email](includes/step-3-content-email.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[1]: ../../admin/add-domain.md
 [2]: ../../../learn/create-folder.md

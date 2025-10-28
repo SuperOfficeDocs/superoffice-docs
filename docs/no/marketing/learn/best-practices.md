@@ -102,7 +102,7 @@ Hvis du vil justere mobilspesifikke innstillinger for en melding, velger du en s
 [3]: ../editor/learn/add-unsubscribe-link.md
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
-[6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
+[6]: ../mailing/admin/add-domain.md
 [7]: ../../../en/email/mailgun/spf/index.md
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
