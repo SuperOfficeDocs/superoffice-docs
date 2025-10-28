@@ -27,5 +27,7 @@ items:
     href: howto/project-member-changed.md
   - name: Update appointment action
     href: howto/appointment-updated-action.md
+  - name: Appointment updated trigger
+    href: howto/appointment-updated-trigger.md
 - name: Triggers, actions, templates
   href: reference.md
