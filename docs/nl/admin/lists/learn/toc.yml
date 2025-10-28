@@ -52,8 +52,6 @@ items:
       href: country.md
     - name: Land toevoegen
       href: add-items-to-country-list.md
-    - name: Mailingdomein
-      href: add-items-to-mailing-domain.md
     - name: Relatie toevoegen
       href: adding-items-to-relation-list.md
     - name: Taakmenu

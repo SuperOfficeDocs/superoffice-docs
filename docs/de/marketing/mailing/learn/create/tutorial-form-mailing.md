@@ -61,5 +61,5 @@ Der erste Schritt zum Erstellen einer Formularantwort wird als **Einstellungen**
 [!include[Schritt 3 E-Mail](includes/step-3-content-email.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[1]: ../../admin/add-domain.md
 [2]: ../../../learn/create-folder.md

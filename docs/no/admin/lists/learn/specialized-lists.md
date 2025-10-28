@@ -22,6 +22,7 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 * [Generelt - Ressurs][7]
 * [GUI - Applikasjon][8]
 * [GUI - Webpanel][9]
+* [Domener for utsendelser][19]
 * [Personvern - Hjemmel][10]
 * [Personvern - Kilde][11]
 * [Prosjekt - Status][12]
@@ -49,5 +50,6 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

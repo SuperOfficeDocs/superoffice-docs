@@ -24,6 +24,7 @@ Het is meestal heel eenvoudig om lijsten en items toe te voegen, te bewerken en 
 * [Algemeen - Bron][7]
 * [GUI - Toepassing][8]
 * [GUI - Webpaneel][9]
+* [Mailing-domeinen][19]
 * [Privacy - Rechtsgrondslag][10]
 * [Privacy - Bron][11]
 * [Project - Status][12]
@@ -51,5 +52,6 @@ Het is meestal heel eenvoudig om lijsten en items toe te voegen, te bewerken en 
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

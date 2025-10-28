@@ -56,7 +56,7 @@ language: en
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
 [18]: add-items-to-task-menu.md
-[19]: add-items-to-mailing-domain.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 [20]: items.md
 
 <!-- Referenced images -->

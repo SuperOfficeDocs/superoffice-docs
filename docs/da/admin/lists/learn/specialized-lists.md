@@ -24,6 +24,7 @@ Det er generelt meget nemt at tilføje, redigere og slette lister og forekomster
 * [Generelt – Ressource][7]
 * [GUI – Applikation][8]
 * [GUI – Webpanel][9]
+* [Udsendelsesdomæner][19]
 * [Personbeskyttelse – Retsgrundlag][10]
 * [Personbeskyttelse – Kilde][11]
 * [Projekt – Status][12]
@@ -51,5 +52,6 @@ Det er generelt meget nemt at tilføje, redigere og slette lister og forekomster
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

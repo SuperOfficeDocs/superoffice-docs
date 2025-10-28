@@ -22,6 +22,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 * [Allgemein - Ressource][7]
 * [GUI - Anwendung][8]
 * [GUI - Web-Bildschirm][9]
+* [Kampagnen-Domänen][19]
 * [Datenschutz - Rechtsgrundlage][10]
 * [Datenschutz - Nachweis][11]
 * [Projekt - Status][12]
@@ -49,5 +50,6 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

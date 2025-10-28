@@ -22,3 +22,5 @@ items:
   href: resend.md
 - name: Innstillinger for utsendelser
   href: ../admin/define-settings-for-mailings.md
+- name: Domene for utsendelse
+  href: ../admin/add-domain.md

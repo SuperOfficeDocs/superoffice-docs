@@ -52,8 +52,6 @@ items:
       href: country.md
     - name: Tilføj land
       href: add-items-to-country-list.md
-    - name: Udsendelsesdomæner
-      href: add-items-to-mailing-domain.md
     - name: Tilføj relation
       href: adding-items-to-relation-list.md
     - name: Menuen Opgave
