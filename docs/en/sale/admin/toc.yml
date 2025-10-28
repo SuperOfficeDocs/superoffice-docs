@@ -9,6 +9,8 @@ items:
   href: create-sales-guide.md
 - name: Edit or deactivate sales guide
   href: edit-sales-guide.md
+- name: Add currency
+  href: add-currency.md
 - name: Quote
   href: quote/index.md
   items:

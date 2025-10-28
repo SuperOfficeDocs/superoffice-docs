@@ -9,6 +9,8 @@ items:
   href: create-sales-guide.md
 - name: Verkoopgids bewerken en deactiveren
   href: edit-sales-guide.md
+- name: Valuta toevoegen
+  href: add-currency.md
 - name: Offerte
   href: quote/index.md
   items:

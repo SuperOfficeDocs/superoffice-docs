@@ -3,8 +3,8 @@ uid: help-en-sale-configuration
 title: Managing sale types, stages, and guides
 description: Learn how to manage sales workflows in SuperOffice CRM with sale types, stages, and guides. Configure these tools in Settings and maintenance to standardize tracking, tasks, and documentation.
 keywords: sales guide, sale stage, sale type, workflow, sale
-author: Bergfrid Dias
-date: 01.07.2025
+author: digitaldiina
+date: 10.28.2025
 version: 10.5
 content_type: howto
 audience: settings
@@ -26,6 +26,8 @@ Use the **Workflow** and **Lists** screens in **Settings and maintenance** to co
 | Sale type | Categorizes sales (for example, "New Customer" or "Renewal") and links them to stages and guides. | **Lists** > **Sale - Type, Stages, Quote** |
 | Sale stage | Tracks the phase of a sale (for example, "Quotation" or "Contract Signing"). Defined per sale type. | **Lists** > **Sale - Stage** |
 | Sales guide | A workflow tool linking stages to specific follow-ups and documents. | **Workflow** > **Sales guide** |
+| Currency | A list item defining available currencies for sales amounts, including exchange rate and unit. | **Lists** > **General – Currency** |
+| Base currency | The primary currency used for system-wide calculations and exchange rates. | **Preferences** > **Global preferences** > **System** > **Base currency** |
 
 ## What do you want to do?
 
@@ -33,6 +35,7 @@ Use the **Workflow** and **Lists** screens in **Settings and maintenance** to co
 * [Add a sale type][4]: Create categories such as "Prospect" and assign relevant stages.
 * [Create a new sales guide][1]: Design workflows with follow-ups and documents for sale types.
 * [Edit or deactivate a sales guide][2]: Update workflows or disable guides for specific sale types.
+* [Manage currencies][5]: Add currencies or change the base currency used in sales.
 
 These tools empower administrators to tailor sales workflows, ensuring efficiency and consistency across teams.
 
@@ -41,3 +44,4 @@ These tools empower administrators to tailor sales workflows, ensuring efficienc
 [2]: edit-sales-guide.md
 [3]: sale-stage.md
 [4]: sale-type.md
+[5]: add-currency.md

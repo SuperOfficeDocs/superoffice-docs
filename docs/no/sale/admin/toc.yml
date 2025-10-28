@@ -9,6 +9,8 @@ items:
   href: create-sales-guide.md
 - name: Redigere eller deaktivere salgsguide
   href: edit-sales-guide.md
+- name: Legge til valuta
+  href: add-currency.md
 - name: Tilbud
   href: quote/index.md
   items:

@@ -48,4 +48,4 @@ language: de
 1. Klicken Sie auf **Speichern**. Das Land wird als separates Objekt zur Liste **Objekte** hinzugefügt. Wiederholen Sie diesen Vorgang, wenn Sie weitere Länder hinzufügen möchten.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md
