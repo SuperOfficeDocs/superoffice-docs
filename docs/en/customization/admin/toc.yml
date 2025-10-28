@@ -22,3 +22,5 @@ items:
   topicHref: ../../ui/blogic/learn/index.md
 - name: Package properties
   href: package-properties.md
+- name: Task menu
+  href: add-items-to-task-menu.md

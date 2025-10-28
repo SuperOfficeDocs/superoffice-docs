@@ -33,6 +33,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 * [Försäljning – Fas][15]
 * [Försäljning – Roll (Intressent)][16]
 * [Försäljning – Typ, Faser, Offert][17]
+* [Uppgiftsmeny][18]
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
@@ -52,6 +53,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

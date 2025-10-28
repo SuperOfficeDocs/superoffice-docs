@@ -54,8 +54,6 @@ items:
       href: add-items-to-country-list.md
     - name: Add relation
       href: adding-items-to-relation-list.md
-    - name: Task menu
-      href: add-items-to-task-menu.md
     - name: GUI application list
       href: application.md
       items:

@@ -54,8 +54,6 @@ items:
       href: add-items-to-country-list.md
     - name: Lägga till relation
       href: adding-items-to-relation-list.md
-    - name: Uppgiftsmeny
-      href: add-items-to-task-menu.md
     - name: Lista över GUI-applikationer
       href: application.md
       items:

@@ -80,7 +80,7 @@ Zodra het item is opgeslagen, kunt u:
 
 ### <a id="https"></a>HTTP vs HTTPS URL's gebruiken
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Sjabloonvariabelen gebruiken
 
@@ -105,7 +105,7 @@ In Service worden webpanelen **extra browsertabs** genoemd. Je kunt hetzelfde ty
 * [Basisprogramma's en URL-parameters][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md

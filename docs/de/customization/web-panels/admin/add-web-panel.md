@@ -80,7 +80,7 @@ Sobald das Objekt gespeichert ist, können Sie:
 
 ### <a id="https"></a>Verwenden von HTTP vs HTTPS URLs
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Verwenden von Template-Variablen
 
@@ -105,7 +105,7 @@ In Service werden Web-Bildschirme als **zusätzliche Browser-Tabs** bezeichnet. 
 * [Basisprogramme und URL-Parameter][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md

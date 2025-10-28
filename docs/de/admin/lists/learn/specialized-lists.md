@@ -31,6 +31,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 * [Verkauf - Stufe][15]
 * [Verkauf - Beteiligtenrolle][16]
 * [Verkauf - Typ, Stufen, Angebot][17]
+* [Aufgabenmenü][18]
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
@@ -50,6 +51,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

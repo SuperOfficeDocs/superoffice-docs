@@ -21,3 +21,5 @@ items:
   topicHref: ../../ui/blogic/learn/index.md
 - name: Pakketeigenschappen
   href: package-properties.md
+- name: Taakmenu
+  href: add-items-to-task-menu.md

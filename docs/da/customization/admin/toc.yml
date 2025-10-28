@@ -21,3 +21,5 @@ items:
   topicHref: ../../ui/blogic/learn/index.md
 - name: Egenskaber for pakke
   href: package-properties.md
+- name: Opgavemenuen
+  href: add-items-to-task-menu.md

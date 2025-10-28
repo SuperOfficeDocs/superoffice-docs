@@ -122,7 +122,7 @@ landingContent:
           - text: Web panels
             url: ../customization/web-panels/admin/index.md
           - text: Task menu items
-            url: ../admin/lists/learn/add-items-to-task-menu.md
+            url: ../customization/admin/add-items-to-task-menu.md
           - text: Custom fields
             url: ../custom-objects/overview.md
       - itemType: list
