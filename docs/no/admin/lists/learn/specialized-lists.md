@@ -31,6 +31,7 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 * [Salg - Fase][15]
 * [Salg - Rolle (Interessent)][16]
 * [Salg - Type, Faser, Tilbud][17]
+* [Oppgave-meny][18]
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
@@ -40,8 +41,8 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 [5]: ../../../sale/admin/add-currency.md
 [6]: adding-items-to-relation-list.md
 [7]: ../../../diary/admin/add-resource.md
-[8]: application.md
-[9]: web-panel.md
+[8]: ../../../customization/admin/other-applications.md
+[9]: ../../../customization/web-panels/admin/add-web-panel.md
 [10]: ../../../security/privacy/admin/add-legal-base.md
 [11]: ../../../security/privacy/admin/add-source.md
 [12]: ../../../project/admin/project-status.md
@@ -50,6 +51,7 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

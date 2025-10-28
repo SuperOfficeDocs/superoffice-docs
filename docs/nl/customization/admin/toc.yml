@@ -20,4 +20,8 @@ items:
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
 - name: Pakketeigenschappen
-  href: ../admin/package-properties.md
+  href: package-properties.md
+- name: Taakmenu
+  href: add-items-to-task-menu.md
+- name: Toepassing toevoegen
+  href: other-applications.md

@@ -1,23 +1,27 @@
 items:
-- name: Översikt
+- name: Überblick
   href: ../index.yml
-- name: Skärmdesigner
+- name: Ansichtsdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
-- name: Webbpaneler
+- name: Web-Bildschirme
   href: ../web-panels/admin/toc.yml
   topicHref: ../web-panels/admin/index.md
 - name: CRMScript
   href: ../../automation/crmscript/learn/toc.yml
   topicHref: ../../automation/crmscript/learn/index.md
-- name: E-post
+- name: E-Mail
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
-- name: Kundcenter
+- name: Kundenzentrum
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Egenskaper för paket
-  href: ../admin/package-properties.md
+- name: Eigenschaften des Pakets
+  href: package-properties.md
+- name: Aufgabenmenü
+  href: add-items-to-task-menu.md
+- name: Anwendung hinzufügen
+  href: other-applications.md

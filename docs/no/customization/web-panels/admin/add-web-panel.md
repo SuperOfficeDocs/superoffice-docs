@@ -80,7 +80,7 @@ Når elementet er lagret, kan du:
 
 ### <a id="https"></a>Bruke HTTP vs HTTPS-nettadresser
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Bruke malvariabler
 
@@ -105,7 +105,7 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 * [Grunnprogrammer og URL-parametere][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md

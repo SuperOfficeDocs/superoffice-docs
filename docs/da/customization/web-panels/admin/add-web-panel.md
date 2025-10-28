@@ -80,7 +80,7 @@ Når elementet er gemt, kan du:
 
 ### <a id="https"></a>Brug af HTTP vs HTTPS URL'er
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Brug af skabelonvariabler
 
@@ -105,7 +105,7 @@ I Service kaldes webpaneler for **ekstra browsertabs**. Du kan tilføje den samm
 * [Basisprogrammer og URL-parametre][4]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md

@@ -33,6 +33,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 * [Försäljning – Fas][15]
 * [Försäljning – Roll (Intressent)][16]
 * [Försäljning – Typ, Faser, Offert][17]
+* [Uppgiftsmeny][18]
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
@@ -42,8 +43,8 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [5]: ../../../sale/admin/add-currency.md
 [6]: adding-items-to-relation-list.md
 [7]: ../../../diary/admin/add-resource.md
-[8]: application.md
-[9]: web-panel.md
+[8]: ../../../customization/admin/other-applications.md
+[9]: ../../../customization/web-panels/admin/add-web-panel.md
 [10]: ../../../security/privacy/admin/add-legal-base.md
 [11]: ../../../security/privacy/admin/add-source.md
 [12]: ../../../project/admin/project-status.md
@@ -52,6 +53,7 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
 [17]: ../../../sale/admin/sale-type.md
+[18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
 
 <!-- Referenced images -->

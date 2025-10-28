@@ -139,7 +139,7 @@ The system should open a new browser tab with a URL like: `https://portal.mysyst
 
 <!-- Reference links -->
 [1]: ../../../automation/crmscript/overview/envir-and-tools.md
-[2]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[2]: ../../../customization/admin/add-items-to-task-menu.md
 [3]: ../../../document/templates/variables/for-service.md
 [4]: ../../../document/templates/variables/from-company-card.md
 

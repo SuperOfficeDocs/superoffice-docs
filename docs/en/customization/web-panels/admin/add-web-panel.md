@@ -82,7 +82,7 @@ Once the item is saved, you can:
 
 ### <a id="https"></a>Using HTTP vs HTTPS URLs
 
-[!include[HTTPS restriction](../../../admin/lists/learn/includes/web-panels-and-https.md)]
+[!include[HTTPS restriction](../../includes/web-panels-and-https.md)]
 
 ### Using template variables
 
@@ -107,7 +107,7 @@ In Service, web panels are called **extra browser tabs**. You can add the same t
 * [Base programs and URL parameters][5]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-items-to-task-menu.md
+[1]: ../../admin/add-items-to-task-menu.md
 [2]: url-encoding.md
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md

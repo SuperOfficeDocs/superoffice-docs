@@ -1,7 +1,7 @@
 items:
-- name: Oversikt
+- name: Oversigt
   href: ../index.yml
-- name: Skjermdesigner
+- name: Skærmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
 - name: Webpaneler
@@ -10,14 +10,18 @@ items:
 - name: CRMScript
   href: ../../automation/crmscript/learn/toc.yml
   topicHref: ../../automation/crmscript/learn/index.md
-- name: E-post
+- name: E-mail
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
-- name: Kundesenter
+- name: Kundecenter
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Egenskaper for pakke
-  href: ../admin/package-properties.md
+- name: Egenskaber for pakke
+  href: package-properties.md
+- name: Opgavemenuen
+  href: add-items-to-task-menu.md
+- name: Tilføj applikation
+  href: other-applications.md
