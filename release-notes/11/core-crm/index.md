@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM and Sales
 
-* [Selection - Board view Setting for displaying days (11.6)][5]
+* [Selection - Board view for company and contact (11.6)][6]
 * [Selection - Board view for requests (11.4)][4]
 * [Production sandbox badge (Test environment) (11.4)][4]
 * [Selection - Board view for projects (11.3)][3]
@@ -29,4 +29,4 @@ audience_tooltip: SuperOffice CRM
 [2]: 11.2-update.md
 [3]: 11.3-update.md
 [4]: 11.4-update.md
-[5]: 11.6-update.md
+[6]: 11.6-update.md

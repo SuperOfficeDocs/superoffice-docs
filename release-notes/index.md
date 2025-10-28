@@ -27,7 +27,7 @@ Older versions are listed in the table of contents.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.3**][7] - 15.10.2025.
+The latest release is [**version 11.1.4**][7] - 05.11.2025.
 
 ## Product integrations
 

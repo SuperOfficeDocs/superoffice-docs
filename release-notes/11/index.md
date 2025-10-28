@@ -23,10 +23,15 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ## Feature updates
 
+### 11.6 (03.11.2025)
+
+* [Selection - Board view for company and contact][18] in Core CRM
+
 ### 11.5 (16.10.2025)
 
 * [Marketing Form – Pre-populate fields linked from a mailing][14] in Marketing
 * [Request - Differentiate request types with icons][16] in Service
+* [Reply Tools - Add icon for FAQ/Reply Template underneath editor][16] in Service
 
 ### 11.4 (22.09.2025)
 
@@ -87,6 +92,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [15]: ../mobile/index.md
 [16]: service/11.5-update.md
 [17]: ../index.md
+[18]: core-crm/11.6-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

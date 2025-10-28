@@ -29,19 +29,21 @@ Documentation for all SuperOffice integrations is available at [docs.superoffice
 * [SharePoint Documents][25] 3.5 (11.09.2025)
 * [SuperOffice Copilot][27] 1.9 (11.09.2025)
 * [SuperOffice for Gmail][24] 2.10 (11.03.2024
-* [SuperOffice for Outlook][23] 6.1.3 (02.09.2025)
+* [SuperOffice for Outlook][23] 6.1.4 (23.10.2025)
 * [Video Meetings][22] 2.9 (21.08.2025)
 * [WebTools for Mac][21] 13.1 (24.03.2025))
 * [WebTools for Windows][21] 13.0 (04.03.2024)
-* [Zapier][20] 3.5 (16.10.2025)
+* [Zapier][20] 3.5 (24.10.2025)
 
 ## SuperOffice App Store
 
 See all the [new or updated apps][2]
 
+* [Harmoniser (16.10.2025)][28] from Synergy Technology Ltd
+* [Panels for SuperOffice (03.10.2025)][29] from SuperOffice AS
 * [ConnectERP for Tripletex (17.09.2025)][19] from SuperOffice AS
 * [Book My Calendar (29.08.2025)][14] from SuperOffice AS
-* [FindProspects (08.08.2025)][12] from Cloud Connection AS
+* [findProspects (08.08.2025)][12] from Cloud Connection AS
 * [D&B Data Blocks (03.07.2025)][18] from i-Centrum AB
 * [ConnectERP for Business NXT (31.07.2025)][17] from SuperOffice AS
 * [Connect ERP for Visma Net (31.07.2025)][16] from SuperOffice AS
@@ -69,7 +71,7 @@ See all the [new or updated apps][2]
 [12]: https://appstore.superoffice.com/cloud-connection/findprospects
 [13]: video-meetings/2.9-update.md
 [14]: https://appstore.superoffice.com/superoffice-as/book-my-calendar?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.4
-[15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.5
+[15]: https://community.superoffice.com/en/support-faqs/faq/zapier-integration-version-3.5-changes-in-request-properties?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
 [16]: https://appstore.superoffice.com/superoffice-as/connecterp-for-visma-net
 [17]:https://appstore.superoffice.com/superoffice-as/connecterp-for-businessnxt
 [18]: https://appstore.superoffice.com/i-centrum-ab/d-b-data-blocks
@@ -82,5 +84,7 @@ See all the [new or updated apps][2]
 [25]: ../../integrations/sharepoint-documents/index.md
 [26]: ../../integrations/index.yml
 [27]: ../../docs/en/ai/learn/copilot.md
+[28]: https://appstore.superoffice.com/synergy-technology-ltd/harmoniser?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
+[29]: https://appstore.superoffice.com/superoffice-as/panels-for-superoffice?utm_medium=docs&utm_source=release%20notes&utm_campaign=integration
 
 <!-- Referenced images -->
