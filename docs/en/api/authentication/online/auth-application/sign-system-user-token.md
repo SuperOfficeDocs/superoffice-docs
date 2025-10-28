@@ -4,6 +4,7 @@ uid: sign_system_user_token
 description: How to sign system user token
 author: SuperOffice Product and Engineering
 keywords: authentication, system user
+date: 10.28.2025
 content_type: howto
 category: api
 deployment: online
@@ -215,7 +216,7 @@ class SystemUserTokenSigner:
         return f"{signed_system_token}"
 ```
 
-# pyproject.toml dependencies
+#### pyproject.toml dependencies
 
 ```txt
 [project]
