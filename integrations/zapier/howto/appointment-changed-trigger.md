@@ -3,7 +3,7 @@ uid: zapier-appointment-changed-trigger
 title: Set SuperOffice Appointment changed trigger
 description: How to retrieve SuperOffice requests (tickets) with Zapier
 keywords: Find request, new Zap, Zapier search action
-author: Matas Šamšūra
+author: so-matas
 date: 09.09.2025
 content_type: howto
 functional_right: general administrator
