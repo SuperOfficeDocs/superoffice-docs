@@ -13,8 +13,8 @@ audience: settings
 audience_tooltip: Settings and maintenance
 index: true
 redirect_from:
-  - /en/admin/lists/learn/adding-items-to-currency-list
-  - /en/admin/lists/learn/currency
+  - /nl/admin/lists/learn/adding-items-to-currency-list
+  - /nl/admin/lists/learn/currency
 language: nl
 ---
 
