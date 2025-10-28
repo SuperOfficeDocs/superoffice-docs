@@ -21,8 +21,8 @@ This is the class that describes one column. It is part of the metadata for a pr
 | Property | Description |
 |---|---|
 | Name | code-friendly ID (a string that does not change with language) |
-| Display name | generally contain resource tags |
-| Tooltip | generally contain resource tags |
+| Display name | generally contain string resource tags (placeholders subject to change) |
+| Tooltip | generally contain string resource tags (placeholders subject to change) |
 | Display type | what kind of value this column contains |
 | Restriction type | whether this column can be used as a search column (restriction), and if so of what type |
 
