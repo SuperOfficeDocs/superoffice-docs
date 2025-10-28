@@ -52,10 +52,6 @@ items:
       href: country.md
     - name: Land toevoegen
       href: add-items-to-country-list.md
-    - name: Valuta
-      href: currency.md
-    - name: Valuta toevoegen
-      href: adding-items-to-currency-list.md
     - name: Mailingdomein
       href: add-items-to-mailing-domain.md
     - name: Relatie toevoegen

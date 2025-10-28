@@ -9,6 +9,8 @@ items:
   href: create-sales-guide.md
 - name: Verkaufsleitfaden bearbeiten oder deaktivieren
   href: edit-sales-guide.md
+- name: Währung hinzufügen
+  href: add-currency.md
 - name: Angebote
   href: quote/index.md
   items:

@@ -36,7 +36,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 [2]: email-template.md
 [3]: ../../../diary/admin/add-follow-up-type.md
 [4]: country.md
-[5]: currency.md
+[5]: ../../../sale/admin/add-currency.md
 [6]: adding-items-to-relation-list.md
 [7]: ../../../diary/admin/add-resource.md
 [8]: application.md

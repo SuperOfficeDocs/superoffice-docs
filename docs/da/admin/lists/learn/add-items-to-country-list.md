@@ -48,4 +48,4 @@ language: da
 1. Klik på **Gem**. Landet bliver nu tilføjet som en særlig forekomst på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere lande.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md

@@ -48,4 +48,4 @@ language: nl
 1. Klik op **Opslaan**. Het land wordt als een afzonderlijk item toegevoegd aan de lijst **Items**. Herhaal deze procedure voor alle landen die u wilt toevoegen.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md

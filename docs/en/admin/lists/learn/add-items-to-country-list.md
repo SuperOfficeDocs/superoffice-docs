@@ -48,4 +48,4 @@ language: en
 1. Click **Save**. The country is added as a separate item in the **Items** list. Repeat this procedure to add more countries.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md

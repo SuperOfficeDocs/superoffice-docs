@@ -48,6 +48,6 @@ language: no
 1. Klikk på **Lagre**. Landet blir nå lagt til som en egen forekomst i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere land.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md
 
 <!-- Referenced images -->

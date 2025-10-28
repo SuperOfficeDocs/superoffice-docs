@@ -48,4 +48,4 @@ language: sv
 1. Klicka på **Spara**. Landet läggs till som en egen post i listan **Poster**. Upprepa proceduren om du vill lägga till fler länder.
 
 <!-- Referenced links -->
-[2]: currency.md
+[2]: ../../../sale/admin/add-currency.md

@@ -3,8 +3,8 @@ uid: help-da-sale-configuration
 title: Administration af salgstyper, faser og guider
 description: Lær, hvordan du administrerer salgsarbejdsgange i SuperOffice CRM med salgstyper, faser og guider. Konfigurer disse værktøjer i Indstillinger og vedligeholdelse for at standardisere sporing, opgaver og dokumentation.
 keywords: salgsguide, salgsfase, salgstype, arbejdsgang, salg
-author: Bergfrid Dias
-date: 02.25.2025
+author: digitaldiina
+date: 10.28.2025
 version: 10.5.2
 content_type: howto
 audience: settings
@@ -26,6 +26,8 @@ Brug skærmene **Arbejdsgang** og **Lister** i **Indstillinger og vedligeholdels
 | Salgstype | Kategoriserer salg (f.eks. "Ny kunde" eller "Fornyelse") og knytter dem til faser og guider. | **Lister** > **Salg - Type, Faser, Tilbud** |
 | Salgsfase | Sporer salgets fase (f.eks. "Tilbud" eller "Kontraktskrivning"). Defineres pr. salgstype. | **Lister** > **Salg - Fase** |
 | Salgsguide | Et arbejdsgangsværktøj, der knytter faser til specifikke opfølgninger og dokumenter. | **Arbejdsgang** > **Salgsguide** |
+| Valuta | En listeforekomst, der definerer tilgængelige valutaer for salgsbeløb, inklusive valutakurs og enhed. | **Lister** > **Generelt – Valuta** |
+| Basisvaluta | Den primære valuta, der bruges til systemberegninger og valutakurser. | **Præferencer** > **Globale præferencer** > **System** > **Ledende valuta** |
 
 ## Hvad vil du gøre?
 
@@ -33,6 +35,7 @@ Brug skærmene **Arbejdsgang** og **Lister** i **Indstillinger og vedligeholdels
 * [Tilføj en salgstype][4]: Opret kategorier som "Prospekt" og tildel relevante faser.
 * [Opret en ny salgsguide][1]: Design arbejdsgange med opfølgninger og dokumenter for salgstyper.
 * [Rediger eller deaktiver en salgsguide][2]: Opdater arbejdsgange eller deaktiver guider for specifikke salgstyper.
+* [Administrer valutaer][5]: Tilføj valutaer eller ændr basisvalutaen, der bruges i salg.
 
 Disse værktøjer giver administratorer mulighed for at tilpasse salgsarbejdsgange og sikre effektivitet og konsistens på tværs af teamet.
 
@@ -41,3 +44,4 @@ Disse værktøjer giver administratorer mulighed for at tilpasse salgsarbejdsgan
 [2]: edit-sales-guide.md
 [3]: sale-stage.md
 [4]: sale-type.md
+[5]: add-currency.md

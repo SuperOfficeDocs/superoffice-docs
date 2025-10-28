@@ -52,10 +52,6 @@ items:
       href: country.md
     - name: Lägga till land
       href: add-items-to-country-list.md
-    - name: Valuta
-      href: currency.md
-    - name: Lägga till valuta
-      href: adding-items-to-currency-list.md
     - name: Utskicksdomän
       href: add-items-to-mailing-domain.md
     - name: Lägga till relation

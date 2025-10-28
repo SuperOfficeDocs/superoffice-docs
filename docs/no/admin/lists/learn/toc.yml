@@ -52,10 +52,6 @@ items:
       href: country.md
     - name: Legge til land
       href: add-items-to-country-list.md
-    - name: Valuta
-      href: currency.md
-    - name: Legge til valuta
-      href: adding-items-to-currency-list.md
     - name: Domene for utsendelse
       href: add-items-to-mailing-domain.md
     - name: Legge til relasjon
