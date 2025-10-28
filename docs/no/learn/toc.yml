@@ -75,7 +75,7 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Tilpasning
-    href: ../customization/learn/toc.yml
+    href: ../customization/admin/toc.yml
     topicHref: ../customization/index.yml
 
   - name: Innstillinger og vedlikehold

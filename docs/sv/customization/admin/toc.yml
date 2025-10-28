@@ -1,23 +1,23 @@
 items:
-- name: Oversigt
+- name: Översikt
   href: ../index.yml
-- name: Skærmdesigner
+- name: Skärmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
-- name: Webpaneler
+- name: Webbpaneler
   href: ../web-panels/admin/toc.yml
   topicHref: ../web-panels/admin/index.md
 - name: CRMScript
   href: ../../automation/crmscript/learn/toc.yml
   topicHref: ../../automation/crmscript/learn/index.md
-- name: E-mail
+- name: E-post
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
-- name: Kundecenter
+- name: Kundcenter
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md
 - name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Egenskaber for pakke
-  href: ../admin/package-properties.md
+- name: Egenskaper för paket
+  href: package-properties.md

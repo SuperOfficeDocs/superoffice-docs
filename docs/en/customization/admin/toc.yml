@@ -21,4 +21,4 @@ items:
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
 - name: Package properties
-  href: ../admin/package-properties.md
+  href: package-properties.md

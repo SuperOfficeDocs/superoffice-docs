@@ -1,10 +1,10 @@
 items:
-- name: Overzicht
+- name: Oversigt
   href: ../index.yml
-- name: Schermontwerper
+- name: Skærmdesigner
   href: ../screen-designer/admin/toc.yml
   topicHref: ../screen-designer/admin/index.md
-- name: Webpanelen
+- name: Webpaneler
   href: ../web-panels/admin/toc.yml
   topicHref: ../web-panels/admin/index.md
 - name: CRMScript
@@ -13,11 +13,11 @@ items:
 - name: E-mail
   href: ../../email/service/learn/toc.yml
   topicHref: ../../email/service/learn/index.md
-- name: Klantportaal
+- name: Kundecenter
   href: ../../customer-center/learn/toc.yml
   topicHref: ../../customer-center/learn/index.md
-- name: Systeemontwerp
+- name: Systemdesign
   href: ../../ui/blogic/learn/toc.yml
   topicHref: ../../ui/blogic/learn/index.md
-- name: Pakketeigenschappen
-  href: ../admin/package-properties.md
+- name: Egenskaber for pakke
+  href: package-properties.md
