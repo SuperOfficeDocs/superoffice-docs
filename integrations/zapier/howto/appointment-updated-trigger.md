@@ -30,11 +30,9 @@ language: en
 
     You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
 
-    
     ![Zapier: Select your action -screenshot][img3]
 
 1. Click on **Action**. You will be taken to a window from which you can select the application you want to use.
-
 
 1. A side menu will open, in the **Trigger event** section, select **Appointment Changed**, then click the **Account** section and log in using your SuperOffice account.
 
@@ -63,4 +61,4 @@ language: en
 [img3]: media/search-superoffice-in-zapier.png
 [img4]: media/search-for-appointment-changed-trigger.png
 [img5]: media/found-changed-appointments.png
-[img6]: media/select-action.png.png
+[img6]: media/select-action.png

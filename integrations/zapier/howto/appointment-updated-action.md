@@ -44,7 +44,7 @@ language: en
 
 1. Check that the action works by clicking **Test step**.
 
-1. If the above steps were configured correctly, the response should consist of **Appointment id**, **Conctact id**, **Person if**, **Project id**, **Sale id**, **Start date & time**, **End date & time**, **Type**, **Type**, **Description**, **Location**, **All day event**, **Owner**, **Priority**, **Completed**
+1. If the above steps were configured correctly, the response should consist of **Appointment id**, **Contact id**, **Person if**, **Project id**, **Sale id**, **Start date & time**, **End date & time**, **Type**, **Type**, **Description**, **Location**, **All day event**, **Owner**, **Priority**, **Completed**.
 
     ![Zapier: Verify -screenshot][img6]
 
@@ -59,8 +59,8 @@ language: en
 
 <!-- Referenced images -->
 [img1]: media/create-zap.png
-[img2]: media/new-zap-window.png 
+[img2]: media/new-zap-window.png
 [img3]: media/search-superoffice-in-zapier.png
-[img4]: media/selectUpdateAppointment.png
-[img5]: media/updateAppointmentConfigure.png
-[img6]: media/appointmentChangedResult.png
+[img4]: media/select-update-appointment.png
+[img5]: media/update-appointment-configure.png
+[img6]: media/appointment-changed-result.png

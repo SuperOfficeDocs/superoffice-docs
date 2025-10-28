@@ -59,7 +59,7 @@ language: en
 
 <!-- Referenced images -->
 [img1]: media/create-zap.png
-[img2]: media/new-zap-window.png 
+[img2]: media/new-zap-window.png
 [img3]: media/search-superoffice-in-zapier.png
 [img4]: media/update-project-action.png
 [img5]: media/update-project-window.png
