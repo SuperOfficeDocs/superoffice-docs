@@ -43,8 +43,8 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [5]: ../../../sale/admin/add-currency.md
 [6]: adding-items-to-relation-list.md
 [7]: ../../../diary/admin/add-resource.md
-[8]: application.md
-[9]: web-panel.md
+[8]: ../../../customization/admin/other-applications.md
+[9]: ../../../customization/web-panels/admin/add-web-panel.md
 [10]: ../../../security/privacy/admin/add-legal-base.md
 [11]: ../../../security/privacy/admin/add-source.md
 [12]: ../../../project/admin/project-status.md

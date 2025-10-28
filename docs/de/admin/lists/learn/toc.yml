@@ -54,11 +54,6 @@ items:
       href: add-items-to-country-list.md
     - name: Beziehung hinzufügen
       href: adding-items-to-relation-list.md
-    - name: GUI-Anwendungsliste
-      href: application.md
-      items:
-      - name: Anwendung hinzufügen
-        href: adding-external-applications-to-application-list.md
 
 - name: Benutzerdefinierte Listen
   topicHref: adding-user-defined-lists.md

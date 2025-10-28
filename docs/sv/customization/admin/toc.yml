@@ -23,3 +23,5 @@ items:
   href: package-properties.md
 - name: Uppgiftsmeny
   href: add-items-to-task-menu.md
+- name: Lägga till applikation
+  href: other-applications.md

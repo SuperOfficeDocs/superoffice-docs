@@ -23,3 +23,5 @@ items:
   href: package-properties.md
 - name: Oppgave-meny
   href: add-items-to-task-menu.md
+- name: Legge til applikasjon
+  href: other-applications.md

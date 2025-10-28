@@ -23,3 +23,5 @@ items:
   href: package-properties.md
 - name: Taakmenu
   href: add-items-to-task-menu.md
+- name: Toepassing toevoegen
+  href: other-applications.md

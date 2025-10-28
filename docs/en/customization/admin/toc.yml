@@ -24,3 +24,5 @@ items:
   href: package-properties.md
 - name: Task menu
   href: add-items-to-task-menu.md
+- name: Add application
+  href: other-applications.md

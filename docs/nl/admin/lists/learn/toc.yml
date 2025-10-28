@@ -54,11 +54,6 @@ items:
       href: add-items-to-country-list.md
     - name: Relatie toevoegen
       href: adding-items-to-relation-list.md
-    - name: GUI-toepassingslijst
-      href: application.md
-      items:
-      - name: Toepassing toevoegen
-        href: adding-external-applications-to-application-list.md
 
 - name: Door gebruikers gedefinieerde lijsten
   topicHref: adding-user-defined-lists.md

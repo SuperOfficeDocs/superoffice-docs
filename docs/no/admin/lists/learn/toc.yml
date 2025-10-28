@@ -54,11 +54,6 @@ items:
       href: add-items-to-country-list.md
     - name: Legge til relasjon
       href: adding-items-to-relation-list.md
-    - name: GUI-applikasjonsliste
-      href: application.md
-      items:
-      - name: Legge til applikasjon
-        href: adding-external-applications-to-application-list.md
 
 - name: Brukerdefinerte lister
   topicHref: adding-user-defined-lists.md
