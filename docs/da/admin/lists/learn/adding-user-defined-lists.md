@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/da/admin/lists/learn/user-defined-lists.html
+redirect_url: https://docs.superoffice.com/da/admin/lists/user-defined-lists.html
 ---

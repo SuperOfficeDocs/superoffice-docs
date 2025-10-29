@@ -21,7 +21,7 @@ language: en
 
 To get started, click the **Lists** button in the Navigator (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](includes/tip-find-list.md)]
+[!include[Find specific list](learn/includes/tip-find-list.md)]
 
 ## Add user-defined list
 
@@ -63,6 +63,6 @@ As well as specifying a name and description for the list, you must [add items][
     The list is deleted.
 
 <!-- Referenced links -->
-[1]: adding-items.md
+[1]: learn/adding-items.md
 
 <!-- Referenced images -->

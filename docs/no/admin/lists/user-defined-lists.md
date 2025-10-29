@@ -21,7 +21,7 @@ language: no
 
 For å komme i gang, klikk på **Lister**-knappen i navigatoren (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](includes/tip-find-list.md)]
+[!include[Find specific list](learn/includes/tip-find-list.md)]
 
 ## Legg til brukerdefinert liste
 
@@ -63,6 +63,6 @@ I tillegg til å angi navn på og gi en beskrivelse av listen må du [legge til 
     Listen slettes.
 
 <!-- Referenced links -->
-[1]: adding-items.md
+[1]: learn/adding-items.md
 
 <!-- Referenced images -->

@@ -21,7 +21,7 @@ language: de
 
 Um loszulegen, klicken Sie im Navigator auf die Schaltfläche **Listen** (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](includes/tip-find-list.md)]
+[!include[Find specific list](learn/includes/tip-find-list.md)]
 
 ## Benutzerdefinierte Liste hinzufügen
 
@@ -63,6 +63,6 @@ Zusätzlich zur Angabe eines Namens und einer Beschreibung für die Liste müsse
     Die Liste wird gelöscht.
 
 <!-- Referenced links -->
-[1]: adding-items.md
+[1]: learn/adding-items.md
 
 <!-- Referenced images -->
