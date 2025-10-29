@@ -11,9 +11,11 @@ language: en
 
 # User-defined lists
 
-## Add user-defined list
+To get started, click the **Lists** button in the Navigator (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+[!include[Find specific list](includes/tip-find-list.md)]
+
+## Add user-defined list
 
 1. Click the **Create list** button in the upper right of the screen.
 
@@ -26,6 +28,19 @@ language: en
 The list is added to the **Lists** list. If you check the list in the list, the description is displayed at the top of the **Lists** screen.
 
 As well as specifying a name and description for the list, you must [add items][1] to it.
+
+## Delete user-defined list
+
+> [!NOTE]
+> You cannot delete lists that are predefined in SuperOffice CRM. If you select a predefined list, the **Delete list** button will not be displayed. Nor can you delete lists which are used in user-defined fields. In these cases, the **Delete list** button in the **Lists** tab is disabled.
+
+1. Click the arrow and select the required list from the list box at the top.
+
+1. Click the **Delete list** button.
+
+1. Click **Yes** in the confirmation dialog.
+
+    The list is deleted.
 
 <!-- Referenced links -->
 [1]: adding-items.md

@@ -13,9 +13,11 @@ language: da
 
 # Brugerdefinerede lister
 
-## Tilføj brugerdefinerede lister
+For at komme i gang, skal du klikke på knappen **Lister** i navigatoren (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+[!include[Find specific list](includes/tip-find-list.md)]
+
+## Tilføj brugerdefineret liste
 
 1. Klik på knappen **Opret liste** øverst til højre i skærmbilledet.
 
@@ -28,6 +30,19 @@ language: da
 Listen føjes til listen **Lister**. Hvis du tjekker listen på listen, vises beskrivelsen øverst på skærmbilledet **Lister**.
 
 Ud over at angive et navn og en beskrivelse for listen skal du [tilføje forekomster][1] til den.
+
+## Slet brugerdefineret liste
+
+> [!NOTE]
+> Du kan ikke slette lister, der er foruddefineret i SuperOffice CRM. Hvis du vælger en foruddefineret liste, vises knappen **Slet liste** ikke. Du kan heller ikke slette lister, der bruges i brugerdefinerede felter. I disse tilfælde er knappen **Slet liste** under fanen **Lister** deaktiveret.
+
+1. Klik på pilen, og vælg den påkrævede liste fra listen øverst.
+
+1. Klik på knappen **Slet liste**.
+
+1. Klik på **Ja** i bekræftelsesdialogboksen.
+
+    Listen slettes.
 
 <!-- Referenced links -->
 [1]: adding-items.md

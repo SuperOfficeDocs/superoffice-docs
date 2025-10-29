@@ -13,9 +13,11 @@ language: nl
 
 # Door gebruikers gedefinieerde lijsten
 
-## Door gebruikers gedefinieerde lijsten toevoegen
+Om te beginnen, klikt u op de knop **Lijsten** in de navigator (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+[!include[Find specific list](includes/tip-find-list.md)]
+
+## Door gebruikers gedefinieerde lijst toevoegen
 
 1. Klik op de knop **Lijst maken** rechtsboven in het scherm.
 
@@ -28,6 +30,19 @@ language: nl
 De lijst wordt nu toegevoegd aan de lijst **Lijsten**. Wanneer u de lijst op de lijst aanvinkt, wordt de beschrijving getoond bovenaan het scherm **Lijsten**.
 
 U moet niet alleen een naam en een beschrijving opgeven voor de lijst, maar u moet ook [items toevoegen][1] aan de lijst.
+
+## Door gebruikers gedefinieerde lijst verwijderen
+
+> [!NOTE]
+> u kunt geen lijsten verwijderen die vooraf zijn gedefinieerd in SuperOffice CRM. Als u een vooraf gedefinieerde lijst selecteert, wordt de knop **Lijst verwijderen** niet weergegeven U kunt ook geen lijsten verwijderen die worden gebruikt in door gebruikers gedefinieerde velden. In dergelijke gevallen is de knop **Lijst verwijderen** op het tabblad **Lijsten** uitgeschakeld.
+
+1. Klik op de pijl en selecteer de gewenste lijst in de keuzelijst bovenin.
+
+1. Klik op de knop **Lijst verwijderen**.
+
+1. Klik op **Ja** in het bevestigingsvenster.
+
+    De lijst wordt verwijderd.
 
 <!-- Referenced links -->
 [1]: adding-items.md
