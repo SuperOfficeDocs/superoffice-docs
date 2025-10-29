@@ -27,6 +27,8 @@ items:
     href: howto/update-sale.md
   - name: Update contact action
     href: howto/update-contact.md
+  - name: Update request action
+    href: howto/update-request.md
   - name: Project member changed trigger
     href: howto/project-member-changed.md
   - name: Update appointment action
