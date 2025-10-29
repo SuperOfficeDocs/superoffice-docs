@@ -39,12 +39,6 @@ items:
   items:
   - name: Überblick
     href: specialized-lists.md
-  - name: E-Mail-Vorlage
-    href: email-template.md
-    items:
-    - name: E-Mail-Vorlage hinzufügen
-      href: add-email-template.md
-
   - name: Allgemein
     topicHref: country.md
     items:

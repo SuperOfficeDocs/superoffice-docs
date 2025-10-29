@@ -228,7 +228,7 @@ Some parser variables that exist will not be described. These are present only f
 
 [11]: ../../knowledge-base/learn/reply-templates/create.md
 [13]: ../../knowledge-base/learn/reply-templates/template-variables.md
-[14]: ../../admin/lists/learn/add-email-template.md
+[14]: ../../email/admin/add-email-template.md
 [15]: ../../localization/learn/customer-languages.md
 [16]: ../../database/tables/reply-template.md
 

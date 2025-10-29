@@ -39,12 +39,6 @@ items:
   items:
   - name: Overview
     href: specialized-lists.md
-  - name: Email template
-    href: email-template.md
-    items:
-    - name: Add email template
-      href: add-email-template.md
-
   - name: General
     topicHref: country.md
     items:

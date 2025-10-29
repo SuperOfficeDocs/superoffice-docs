@@ -6,3 +6,8 @@ items:
 - name: Innboks
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
+- name: For administratorer
+  topicHref: ../admin/add-email-template.md
+  items:
+  - name: Legge til e-postmal
+    href: ../admin/add-email-template.md

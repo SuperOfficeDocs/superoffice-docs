@@ -35,7 +35,7 @@ Generelt er det veldig enkelt å legge til, redigere og slette lister og forekom
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
-[2]: email-template.md
+[2]: ../../../email/admin/add-email-template.md
 [3]: ../../../diary/admin/add-follow-up-type.md
 [4]: country.md
 [5]: ../../../sale/admin/add-currency.md

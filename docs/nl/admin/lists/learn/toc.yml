@@ -39,12 +39,6 @@ items:
   items:
   - name: Overzicht
     href: specialized-lists.md
-  - name: E-mailsjabloon
-    href: email-template.md
-    items:
-    - name: E-mailsjabloon toevoegen
-      href: add-email-template.md
-
   - name: Algemeen
     topicHref: country.md
     items:

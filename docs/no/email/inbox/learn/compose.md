@@ -151,7 +151,7 @@ Slik får du tilgang til disse innstillingene:
 [3]: ../../../learn/getting-started/edit-email-signature.md
 [4]: ../../../knowledge-base/learn/faq/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md
-[6]: ../../../admin/lists/learn/add-email-template.md
+[6]: ../../admin/add-email-template.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../../media/loc/en/email/inbox-new-email.png

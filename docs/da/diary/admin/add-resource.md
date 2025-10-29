@@ -24,7 +24,7 @@ Ressourcer vises i dialogboksen for opfølgning i SuperOffice CRM, og det er her
 
 ## Trin
 
-Vælg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i Navigator.
+1. Vælg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i Navigator.
 
 1. Vælg **Generelt – Ressource** fra rullemenuen. Fanen **Forekomster** viser alle eksisterende ressourcer.
 

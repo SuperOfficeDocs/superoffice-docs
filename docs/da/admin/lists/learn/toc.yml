@@ -39,12 +39,6 @@ items:
   items:
   - name: Oversigt
     href: specialized-lists.md
-  - name: E-mailskabelon
-    href: email-template.md
-    items:
-    - name: Tilføj e-mailskabelon
-      href: add-email-template.md
-
   - name: Generel
     topicHref: country.md
     items:
