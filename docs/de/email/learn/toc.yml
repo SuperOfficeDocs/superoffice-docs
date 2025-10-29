@@ -6,3 +6,5 @@ items:
 - name: SuperOffice Posteingang
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
+- name: E-Mail-Vorlage hinzufügen
+  href: ../admin/add-email-template.md

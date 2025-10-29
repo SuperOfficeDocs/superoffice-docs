@@ -8,3 +8,5 @@ items:
 - name: Inbox
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
+- name: Add email template
+  href: ../admin/add-email-template.md
