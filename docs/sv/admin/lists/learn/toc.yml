@@ -39,12 +39,6 @@ items:
   items:
   - name: Översikt
     href: specialized-lists.md
-  - name: E-post - mall
-    href: email-template.md
-    items:
-    - name: Lägga till e-postmall
-      href: add-email-template.md
-
   - name: Allmänt
     topicHref: country.md
     items:

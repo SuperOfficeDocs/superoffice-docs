@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/no/admin/lists/learn/add-email-template.html
+redirect_url: https://docs.superoffice.com/no/email/admin/add-email-template.html
 ---

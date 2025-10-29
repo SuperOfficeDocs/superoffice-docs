@@ -39,12 +39,6 @@ items:
   items:
   - name: Oversikt
     href: specialized-lists.md
-  - name: E-postmal
-    href: email-template.md
-    items:
-    - name: Legge til e-postmal
-      href: add-email-template.md
-
   - name: Generelt
     topicHref: country.md
     items:
