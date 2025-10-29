@@ -43,7 +43,7 @@ Mallen för e-postbekräftelse om personskydd är en **e-postmall** som skapas o
 * [Skicka ett e-postmeddelande om integritet som tar upp dina kontakters rätt att bli informerade][2]
 
 <!-- Referenced links -->
-[1]: ../../../admin/lists/learn/add-email-template.md
+[1]: ../../../email/admin/add-email-template.md
 [2]: ../learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

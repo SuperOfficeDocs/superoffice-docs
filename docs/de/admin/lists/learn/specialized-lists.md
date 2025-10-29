@@ -35,7 +35,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/learn/index.md
-[2]: email-template.md
+[2]: ../../../email/admin/add-email-template.md
 [3]: ../../../diary/admin/add-follow-up-type.md
 [4]: country.md
 [5]: ../../../sale/admin/add-currency.md
