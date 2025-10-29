@@ -34,20 +34,7 @@ items:
       href: organize/headings-editing-and-deleting.md
   - name: Deleted items and headings
     href: organize/deleted-items-and-headings.md
-- name: Specialised lists
-  topicHref: specialized-lists.md
-  items:
-  - name: Overview
-    href: specialized-lists.md
-  - name: General
-    topicHref: country.md
-    items:
-    - name: Country
-      href: country.md
-    - name: Add country
-      href: add-items-to-country-list.md
-    - name: Add relation
-      href: adding-items-to-relation-list.md
-
+- name: Specialized lists
+  href: specialized-lists.md
 - name: User-defined lists
   href: ../user-defined-lists.md

@@ -35,19 +35,6 @@ items:
   - name: Verwijderde items en kopteksten
     href: organize/deleted-items-and-headings.md
 - name: Gespecialiseerde lijsten
-  topicHref: specialized-lists.md
-  items:
-  - name: Overzicht
-    href: specialized-lists.md
-  - name: Algemeen
-    topicHref: country.md
-    items:
-    - name: Land
-      href: country.md
-    - name: Land toevoegen
-      href: add-items-to-country-list.md
-    - name: Relatie toevoegen
-      href: adding-items-to-relation-list.md
-
+  href: specialized-lists.md
 - name: Door gebruikers gedefinieerde lijsten
   href: ../user-defined-lists.md
