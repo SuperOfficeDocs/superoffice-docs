@@ -9,7 +9,15 @@ content_type: howto
 language: no
 ---
 
-# Legge til en e-postmal
+# E-post - Mal
+
+Det er viktig for en organisasjons profil at e-postmeldinger har et unikt og helhetlig utseende. Det betyr at alle e-postmeldinger som sendes ut av organisasjonen, bør bruke samme skrifttyper, formatering, logoer og så videre. Ved å lage e-postmaler som er tilpasset din organisasjon, sikrer du at organisasjonens personer lett gjenkjenner organisasjonens korrespondanse. E-postmaler brukes også når du sender tilbud, ordrebekreftelser og personvernbekreftelser.
+
+SuperOffice CRM leveres med flere standardmaler som du kan bruke umiddelbart etter at du har installert programmet.
+
+Du kan også opprette dine egne maler. Dette gjør du ved å legge inn [malvariabler][2] i e-postmalene, som deretter henter informasjon fra tilsvarende felt i SuperOffice CRM når du skriver en e-post med en mal du har laget.
+
+## Legge til en e-postmal
 
 E-postmaler kan brukes til å opprette nye e-postmeldinger i SuperOffice-innboksen, og når du sender tilbud, ordrebekreftelser og personvernbekreftelser.
 
@@ -19,11 +27,11 @@ Maler vises som elementer i listen **E-post – mal**, og du kan legge til nye m
 
 1. Skriv inn ønsket navn på forekomsten i feltet **Malnavn**.
 
-2. Velg maltypen du oppretter i feltet **Maltype**. Velg **Normal** hvis du vil at malen skal være tilgjengelig i **Innboks**. Du kan også gjøre malen tilgjengelig som en tilbudsmal, et [bekreftelsesdokument][3] eller en [personvernbekreftelsesmal][4].
+1. Velg maltypen du oppretter i feltet **Maltype**. Velg **Normal** hvis du vil at malen skal være tilgjengelig i **Innboks**. Du kan også gjøre malen tilgjengelig som en tilbudsmal, et [bekreftelsesdokument][3] eller en [personvernbekreftelsesmal][4].
 
-3. Velg eventuelt hvor du vil lagre dokumentmalen, i listen **Lagre malen i**.
+1. Velg eventuelt hvor du vil lagre dokumentmalen, i listen **Lagre malen i**.
 
-4. Du har tre valg:
+1. Du har tre valg:
 
     * **Opprette en ny e-postmal**
     * **Kopiere en eksisterende e-postmalfil**.
@@ -34,15 +42,17 @@ Maler vises som elementer i listen **E-post – mal**, og du kan legge til nye m
         2. Klikk på **Last opp fil** i dialogboksen **Last opp fil**.
         3. Velg ønsket fil, og klikk på **Åpne**. Navnet på filen vises i dialogboksen **Rediger forekomst**.
 
-5. Klikk på **Lagre** i dialogboksen **Rediger forekomst**. Dialogboksen oppdateres.
+1. Klikk på **Lagre** i dialogboksen **Rediger forekomst**. Dialogboksen oppdateres.
 
-6. Valgfritt: Rediger malnavnet om nødvendig.
+1. Valgfritt: Rediger malnavnet om nødvendig.
 
-7. Klikk på **Rediger** for å redigere selve malfilen. Hvis du har opprettet en ny e-postmal, legger du til innhold i malen.
+1. Klikk på **Rediger** for å redigere selve malfilen. Hvis du har opprettet en ny e-postmal, legger du til innhold i malen.
 
-8. Angi ønsket informasjon i fanene **Detaljer** og **Språk**.
+1. Angi ønsket informasjon i fanene **Detaljer** og **Språk**.
 
-9. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere maler.
+1. Klikk på **Lagre**. Malen blir nå lagt til som en egen forekomst i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere maler.
+
+1. Gjør e-postmalen tilgjengelig for de nødvendige brukergruppene. Se [Brukergruppefiltrering][7].
 
 ## Fanen Detaljer
 
@@ -77,13 +87,17 @@ Angi følgende informasjon i fanen **Detaljer**:
 Her kan du legge til oversatte versjoner av dokumentmalen.
 
 1. Klikk på **Legg til**.
-2. I dialogboksen **Rediger forekomst** velger du ønsket språk fra listen **Legg til språk**.
-3. Legg til den oversatte dokumentmalen som beskrevet ovenfor.
-4. Klikk på **Legg til**. Språket vises i fanen **Språk**.
-5. Gjenta trinnene ovenfor for å legge til flere språk.
+1. I dialogboksen **Rediger forekomst** velger du ønsket språk fra listen **Legg til språk**.
+1. Legg til den oversatte dokumentmalen som beskrevet ovenfor.
+1. Klikk på **Legg til**. Språket vises i fanen **Språk**.
+1. Gjenta trinnene ovenfor for å legge til flere språk.
 
 > [!TIP]
 > Klikk på <i class="ph ph-translate" aria-label="Translate"></i> ved siden av det relevante feltet for å [legge til oversettelser][1] av malnavn og e-postemne.
+
+## Aktuelt innhold
+
+* [Tilbudsmaler][6]
 
 <!-- Referenced links -->
 [1]: ../../../localization/learn/translate-fields.md
@@ -91,5 +105,5 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md
 [5]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
+[6]: ../../../document/templates/learn/quote-templates.md
+[7]: organize/user-group-filtering.md

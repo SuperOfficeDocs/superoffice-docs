@@ -11,7 +11,15 @@ audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Tilføjelse af en e-mailskabelon
+# E-mail - skabelon
+
+Det er vigtigt for en organisations profil, at e-mails har et karakteristisk og ensartet udseende. Det betyder, at alle e-mails, der sendes ud af organisationen, skal anvende samme skrifttyper, formatering, logoer osv. Ved at oprette e-mailskabeloner, der er tilpasset din organisation, sikrer du, at dine personer nemt kan genkende din korrespondance. E-mailskabeloner bruges også, når du sender tilbud, ordrebekræftelser og bekræftelser på beskyttelse af personoplysninger.
+
+SuperOffice CRM leveres med flere standardskabeloner, som du kan bruge med det samme efter at have installeret programmet.
+
+Du kan også oprette dine egne skabeloner. Det gør du ved at indsætte [skabelonvariabler][2] i e-mailskabelonerne, som derefter henter oplysninger fra tilsvarende felter i SuperOffice CRM, når du skriver en e-mail med en skabelon, du har lavet.
+
+## Tilføjelse af en e-mailskabelon
 
 E-mailskabeloner kan bruges, når du opretter nye e-mails i SuperOffice-indbakken, og når du sender tilbud, ordrebekræftelser og bekræftelser på beskyttelse af personoplysninger.
 
@@ -21,11 +29,11 @@ Skabeloner vises som forekomster på listen **E-mail – Skabelon**, og du kan t
 
 1. Indtast det ønskede navn for forekomsten i feltet **Skabelonnavn**.
 
-2. Vælg den type skabelon, du opretter, i feltet **Skabelontype**. Vælg **Normal**, hvis skabelonen skal være tilgængelig i **Indbakke**. Du kan også gøre skabelonen tilgængelig som tilbudsskabelon, [ordrebekræftelsesskabelon][3] eller [skabelon til bekræftelse af personbeskyttelse][4].
+1. Vælg den type skabelon, du opretter, i feltet **Skabelontype**. Vælg **Normal**, hvis skabelonen skal være tilgængelig i **Indbakke**. Du kan også gøre skabelonen tilgængelig som tilbudsskabelon, [ordrebekræftelsesskabelon][3] eller [skabelon til bekræftelse af personbeskyttelse][4].
 
-3. Vælg eventuelt, hvor du vil gemme dokumentskabelonen, på listen **Gem skabelonen i**.
+1. Vælg eventuelt, hvor du vil gemme dokumentskabelonen, på listen **Gem skabelonen i**.
 
-4. Du har nu tre valgmuligheder:
+1. Du har nu tre valgmuligheder:
 
     * **Opret ny e-mailskabelon**
     * **Kopiér en eksisterende e-mail-skabelonfil**.
@@ -36,15 +44,17 @@ Skabeloner vises som forekomster på listen **E-mail – Skabelon**, og du kan t
         2. Klik på **Upload fil** i dialogboksen **Upload fil**.
         3. Vælg den ønskede fil og klik på **Åbn**. Navnet på filen vises i dialogboksen **Rediger forekomst**.
 
-5. Klik på **Gem** i dialogboksen **Rediger forekomst**. Dialogboksen opdateres.
+1. Klik på **Gem** i dialogboksen **Rediger forekomst**. Dialogboksen opdateres.
 
-6. Valgfrit: Rediger skabelonnavnet, hvis det er nødvendigt.
+1. Valgfrit: Rediger skabelonnavnet, hvis det er nødvendigt.
 
-7. Klik **Rediger** for at redigere selve skabelonfilen. Hvis du har oprettet en ny e-mailskabelon, skal du føje indhold til skabelonen.
+1. Klik **Rediger** for at redigere selve skabelonfilen. Hvis du har oprettet en ny e-mailskabelon, skal du føje indhold til skabelonen.
 
-8. Angiv ønsket information på fanerne **Detaljer** og **Sprog**.
+1. Angiv ønsket information på fanerne **Detaljer** og **Sprog**.
 
-9. Klik på **Gem**. Skabelonen bliver nu tilføjet som en særlig forekomst på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere skabeloner.
+1. Klik på **Gem**. Skabelonen bliver nu tilføjet som en særlig forekomst på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere skabeloner.
+
+1. Gør e-mailskabelonen tilgængelig for de ønskede brugergrupper. Se [Brugergruppefiltrering][7].
 
 ## Fanen Detaljer
 
@@ -79,13 +89,17 @@ Angiv følgende information på fanen **Detaljer**:
 Her kan du tilføjer oversatte versioner af dokumentskabelonen.
 
 1. Klik på **Tilføj**.
-2. I dialogboksen **Rediger listeelement** skal du vælge det sprog, du har brug for, på listen **Tilføj sprog**.
-3. Tilføj den oversatte dokumentskabelon som beskrevet ovenfor.
-4. Klik på **Tilføj**. Sproget vises på fanen **Sprog**.
-5. Gentag ovenstående trin for at tilføje flere sprog.
+1. I dialogboksen **Rediger listeelement** skal du vælge det sprog, du har brug for, på listen **Tilføj sprog**.
+1. Tilføj den oversatte dokumentskabelon som beskrevet ovenfor.
+1. Klik på **Tilføj**. Sproget vises på fanen **Sprog**.
+1. Gentag ovenstående trin for at tilføje flere sprog.
 
 > [!TIP]
 > Klik på <i class="ph ph-translate" aria-label="Translate"></i> ud for det relevante felt for at [tilføje oversættelser][1] af skabelonnavnet og e-mailens emne.
+
+## Relateret inhold
+
+* [Tilbudsskabeloner][6]
 
 <!-- Referenced links -->
 [1]: ../../../localization/learn/translate-fields.md
@@ -93,3 +107,5 @@ Her kan du tilføjer oversatte versioner af dokumentskabelonen.
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md
 [5]: ../../../saint/learn/index.md
+[6]: ../../../document/templates/learn/quote-templates.md
+[7]: organize/user-group-filtering.md

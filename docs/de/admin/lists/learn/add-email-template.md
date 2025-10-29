@@ -9,7 +9,15 @@ content_type: howto
 language: de
 ---
 
-# E-Mail-Vorlage hinzufügen
+# E-Mail - Vorlage
+
+Für das Profil eines Unternehmens ist es wichtig, dass E-Mails ein aussagekräftiges und einheitliches Erscheinungsbild haben. Das bedeutet, dass alle von dem Unternehmen gesendeten E-Mails dieselben Schriften, Formatierungen, Logos usw. aufweisen sollten. Durch das Erstellen von maßgeschneiderten E-Mail-Vorlagen für Ihr Unternehmen können Sie sicherstellen, dass die Personen Ihre Schriftstücke sofort erkennen. E-Mail-Vorlagen werden auch zum Senden von Angeboten, Auftragsbestätigungen und Datenschutzbestätigungen verwendet.
+
+SuperOffice CRM wird mit verschiedenen Standardvorlagen geliefert, die Sie sofort nach der Installation des Programms verwenden können.
+
+Sie können auch eigene Vorlagen erstellen. Geben Sie zu diesem Zweck [Vorlagenvariablen][2] in die E-Mail-Vorlagen ein, die dann Informationen von entsprechenden Feldern in SuperOffice CRM abrufen, wenn Sie eine E-Mail mit einer selbst erstellten Vorlage schreiben.
+
+## E-Mail-Vorlage hinzufügen
 
 E-Mail-Vorlagen können zum Erstellen neuer E-Mails in SuperOffice E-Mail und zum Senden von Angeboten, Auftragsbestätigungen und Datenschutzbestätigungen verwendet werden.
 
@@ -19,11 +27,11 @@ Vorlagen werden in der Liste **E-Mail-Vorlage** als Objekte angezeigt. Sie könn
 
 1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Vorlagenname** ein.
 
-2. Wählen Sie im Feld **Vorlagentyp** den Typ der Vorlage, die Sie erstellen. Wählen Sie **Normal**, wenn die Vorlage in **E-Mail** verfügbar sein soll. Sie können die Vorlage auch als Angebotsvorlage, als [Vorlage für Auftragsbestätigung][3] oder als [Datenschutzbestätigungsvorlage][4] verfügbar machen.
+1. Wählen Sie im Feld **Vorlagentyp** den Typ der Vorlage, die Sie erstellen. Wählen Sie **Normal**, wenn die Vorlage in **E-Mail** verfügbar sein soll. Sie können die Vorlage auch als Angebotsvorlage, als [Vorlage für Auftragsbestätigung][3] oder als [Datenschutzbestätigungsvorlage][4] verfügbar machen.
 
-3. In der Liste **Vorlage speichern in** können Sie angeben, wo die Dokumentvorlage gespeichert werden soll.
+1. In der Liste **Vorlage speichern in** können Sie angeben, wo die Dokumentvorlage gespeichert werden soll.
 
-4. Sie haben jetzt drei Möglichkeiten:
+1. Sie haben jetzt drei Möglichkeiten:
 
     * **Neue E-Mail-Vorlage erstellen**
     * **Vorhandene E-Mail-Vorlagendatei kopieren**.
@@ -34,15 +42,17 @@ Vorlagen werden in der Liste **E-Mail-Vorlage** als Objekte angezeigt. Sie könn
         2. Klicken Sie auf **Datei hochladen** im Dialogfeld **Datei hochladen**.
         3. Wählen Sie die gewünschte Datei aus und klicken Sie auf **Öffnen**. Der Name der Datei wird im Dialogfeld **Listenobjekt bearbeiten** angezeigt.
 
-5. Klicken Sie im Dialogfeld **Listenobjekt bearbeiten** auf **Speichern**. Das Dialogfeld ist aktualisiert.
+1. Klicken Sie im Dialogfeld **Listenobjekt bearbeiten** auf **Speichern**. Das Dialogfeld ist aktualisiert.
 
-6. Optional: Bearbeiten Sie gegebenenfalls den Namen der Vorlage.
+1. Optional: Bearbeiten Sie gegebenenfalls den Namen der Vorlage.
 
-7. Klicken Sie auf **Bearbeiten**, um die Vorlagendatei selbst zu bearbeiten. Fügen Sie den Inhalt zur Vorlage hinzu, wenn Sie eine neue E-Mail-Vorlage erstellt haben.
+1. Klicken Sie auf **Bearbeiten**, um die Vorlagendatei selbst zu bearbeiten. Fügen Sie den Inhalt zur Vorlage hinzu, wenn Sie eine neue E-Mail-Vorlage erstellt haben.
 
-8. Geben Sie die erforderlichen Informationen in die Registerkarten **Details** und **Sprachen** ein.
+1. Geben Sie die erforderlichen Informationen in die Registerkarten **Details** und **Sprachen** ein.
 
-9. Klicken Sie auf **Speichern**. Die Vorlage wird als separates Objekt zur Liste **Objekte** hinzugefügt. Wiederholen Sie diesen Vorgang, wenn Sie weitere Vorlagen hinzufügen möchten.
+1. Klicken Sie auf **Speichern**. Die Vorlage wird als separates Objekt zur Liste **Objekte** hinzugefügt. Wiederholen Sie diesen Vorgang, wenn Sie weitere Vorlagen hinzufügen möchten.
+
+1. Machen Sie die E-Mail-Vorlage in den gewünschten Benutzergruppen verfügbar. Siehe [Benutzergruppe filtern][7].
 
 ## Registerkarte Details
 
@@ -77,13 +87,17 @@ Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 
 1. Klicken Sie auf **Hinzufügen**.
-2. Wählen Sie im Dialogfeld **Listenobjekt bearbeiten** die gewünschte Sprache von der Liste **Sprache hinzufügen** aus.
-3. Fügen Sie eine übersetzte Dokumentvorlage hinzu, wie oben beschrieben.
-4. Klicken Sie auf **Hinzufügen**. Die Sprache ist in der Registerkarte **Sprachen** aufgeführt.
-5. Gehen Sie wie in den Schritten oben erläutert vor, um weitere Sprachen hinzuzufügen.
+1. Wählen Sie im Dialogfeld **Listenobjekt bearbeiten** die gewünschte Sprache von der Liste **Sprache hinzufügen** aus.
+1. Fügen Sie eine übersetzte Dokumentvorlage hinzu, wie oben beschrieben.
+1. Klicken Sie auf **Hinzufügen**. Die Sprache ist in der Registerkarte **Sprachen** aufgeführt.
+1. Gehen Sie wie in den Schritten oben erläutert vor, um weitere Sprachen hinzuzufügen.
 
 > [!TIP]
 > Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben dem entsprechenden Feld, um für den Vorlagennamen und E-Mail-Betreff die Funktion [Übersetzungen hinzufügen][1] auszuführen.
+
+## Verwandte Themen
+
+* [Angebotsvorlage][6]
 
 <!-- Referenced links -->
 [1]: ../../../localization/learn/translate-fields.md
@@ -91,5 +105,5 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 [3]: ../../../sale/admin/sale-type.md
 [4]: ../../../security/privacy/admin/add-source.md
 [5]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
+[6]: ../../../document/templates/learn/quote-templates.md
+[7]: organize/user-group-filtering.md
