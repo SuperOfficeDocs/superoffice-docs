@@ -50,11 +50,4 @@ items:
       href: adding-items-to-relation-list.md
 
 - name: User-defined lists
-  topicHref: adding-user-defined-lists.md
-  items:
-  - name: Add user-defined list
-    href: adding-user-defined-lists.md
-  - name: Edit list name and description
-    href: editing-lists-name-and-description.md
-  - name: Delete user-defined list
-    href: deleting-user-defined-lists.md
+  href: user-defined-lists.md
