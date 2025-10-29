@@ -14,6 +14,7 @@ redirect_from:
   - /nl/admin/lists/learn/email-template
   - /nl/admin/lists/learn/add-email-template
   - /nl/admin/lists/learn/create-email-template
+  - /nl/email/admin/index
 language: nl
 ---
 

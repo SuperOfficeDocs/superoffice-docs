@@ -14,6 +14,7 @@ redirect_from:
   - /da/admin/lists/learn/email-template
   - /da/admin/lists/learn/add-email-template
   - /da/admin/lists/learn/create-email-template
+  - /da/email/admin/index
 language: da
 ---
 

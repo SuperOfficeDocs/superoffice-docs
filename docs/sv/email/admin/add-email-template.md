@@ -14,6 +14,7 @@ redirect_from:
   - /sv/admin/lists/learn/email-template
   - /sv/admin/lists/learn/add-email-template
   - /sv/admin/lists/learn/create-email-template
+  - /sv/email/admin/index
 language: sv
 ---
 
