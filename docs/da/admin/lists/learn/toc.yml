@@ -35,19 +35,6 @@ items:
   - name: Slettede forekomster og overskrifter
     href: organize/deleted-items-and-headings.md
 - name: Specialiserede lister
-  topicHref: specialized-lists.md
-  items:
-  - name: Oversigt
-    href: specialized-lists.md
-  - name: Generel
-    topicHref: country.md
-    items:
-    - name: Land
-      href: country.md
-    - name: Tilføj land
-      href: add-items-to-country-list.md
-    - name: Tilføj relation
-      href: adding-items-to-relation-list.md
-
+  href: specialized-lists.md
 - name: Brugerdefinerede lister
   href: ../user-defined-lists.md

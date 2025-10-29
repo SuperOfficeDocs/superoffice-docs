@@ -90,7 +90,7 @@ To view more details or to edit, double-click a row to open the **Relation** dia
 <!-- Referenced links -->
 [1]: ../section-tabs/index.md
 [2]: deleting-elements.md
-[3]: ../../admin/lists/learn/adding-items-to-relation-list.md
+[3]: ../../admin/lists/learn/specialized-lists.md#relation
 [4]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->

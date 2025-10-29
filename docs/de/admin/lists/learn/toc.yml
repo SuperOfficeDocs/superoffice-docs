@@ -35,19 +35,6 @@ items:
   - name: Gelöschte Objekte und Überschriften
     href: organize/deleted-items-and-headings.md
 - name: Spezialisierte Listen
-  topicHref: specialized-lists.md
-  items:
-  - name: Überblick
-    href: specialized-lists.md
-  - name: Allgemein
-    topicHref: country.md
-    items:
-    - name: Land
-      href: country.md
-    - name: Land hinzufügen
-      href: add-items-to-country-list.md
-    - name: Beziehung hinzufügen
-      href: adding-items-to-relation-list.md
-
+  href: specialized-lists.md
 - name: Benutzerdefinierte Listen
   href: ../user-defined-lists.md
