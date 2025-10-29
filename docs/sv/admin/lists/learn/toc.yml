@@ -50,11 +50,4 @@ items:
       href: adding-items-to-relation-list.md
 
 - name: Användardefinierade listor
-  topicHref: adding-user-defined-lists.md
-  items:
-  - name: Lägga till användardefinierad lista
-    href: adding-user-defined-lists.md
-  - name: Redigera listans namn och beskrivning
-    href: editing-lists-name-and-description.md
-  - name: Ta bort användardefinierad lista
-    href: deleting-user-defined-lists.md
+  href: ../user-defined-lists.md

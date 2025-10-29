@@ -49,6 +49,19 @@ Watch this video to learn how you can edit list items is SuperOffice CRM (video 
 
 5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
+## Example - customize subscription types
+
+According to many European laws that govern local marketing practices, a business is only allowed to send digital marketing messages to the people who have given you their permission to do so. Learn how to add and edit subscription types in this example.
+
+By creating different subscription types for your mailings, you can send your target audiences relevant and expected communication at the right time and improve the results of your E-marketing campaigns.
+
+After a contact is registered in SuperOffice CRM, this person can subscribe to the marketing communications they wish to receive. They can do this by setting their subscription preferences. Basically, you add the subscription types your company offers, and remove those you do not offer.
+
+Watch this video to learn how to add and edit subscription types (video length - 2:00):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/tBtLjFKnBj4]
+
 ## Related content
 
 * [Customise privacy lists][3]

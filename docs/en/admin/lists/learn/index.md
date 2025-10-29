@@ -73,7 +73,7 @@ Watch this video to see how you can edit your sales lists to make them fit the w
 [2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
-[5]: adding-user-defined-lists.md
+[5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md

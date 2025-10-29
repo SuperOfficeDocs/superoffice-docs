@@ -73,7 +73,7 @@ Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze pass
 [2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
-[5]: adding-user-defined-lists.md
+[5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
 [8]: deleting-items.md

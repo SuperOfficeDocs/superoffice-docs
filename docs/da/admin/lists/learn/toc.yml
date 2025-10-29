@@ -50,11 +50,4 @@ items:
       href: adding-items-to-relation-list.md
 
 - name: Brugerdefinerede lister
-  topicHref: adding-user-defined-lists.md
-  items:
-  - name: Tilføj brugerdefineret liste
-    href: adding-user-defined-lists.md
-  - name: Rediger listenavn og -beskrivelse
-    href: editing-lists-name-and-description.md
-  - name: Slet brugerdefineret liste
-    href: deleting-user-defined-lists.md
+  href: ../user-defined-lists.md

@@ -50,11 +50,4 @@ items:
       href: adding-items-to-relation-list.md
 
 - name: Brukerdefinerte lister
-  topicHref: adding-user-defined-lists.md
-  items:
-  - name: Legge til brukerdefinert liste
-    href: adding-user-defined-lists.md
-  - name: Redigere listenavn og beskrivelse
-    href: editing-lists-name-and-description.md
-  - name: Slette brukerdefinert liste
-    href: deleting-user-defined-lists.md
+  href: ../user-defined-lists.md

@@ -50,11 +50,4 @@ items:
       href: adding-items-to-relation-list.md
 
 - name: Door gebruikers gedefinieerde lijsten
-  topicHref: adding-user-defined-lists.md
-  items:
-  - name: Door gebruikers gedefinieerde lijsten toevoegen
-    href: adding-user-defined-lists.md
-  - name: Naam en beschrijving van de lijst bewerken
-    href: editing-lists-name-and-description.md
-  - name: Door gebruikers gedefinieerde lijst verwijderen
-    href: deleting-user-defined-lists.md
+  href: ../user-defined-lists.md
