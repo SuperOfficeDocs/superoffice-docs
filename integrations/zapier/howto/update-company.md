@@ -1,8 +1,8 @@
 ﻿---
-uid: zapier-update-contact
-title: Update SuperOffice CRM contact
-description: How to update SuperOffice contact with Zapier
-keywords: Update contact, new Zap, Zapier update action
+uid: zapier-update-company
+title: Update SuperOffice CRM company
+description: How to update SuperOffice company with Zapier
+keywords: Update company, new Zap, Zapier update action
 author: miguellemos95
 date: 10.29.2025
 content_type: howto
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM contact
+# Update SuperOffice CRM company
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -32,7 +32,7 @@ language: en
 
     ![Zapier: Select your action -screenshot][img3]
 
-1. A side menu will open, in the **Action event** section, select **Update Contact**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Action event** section, select **Update Company**, then click the **Account** section and log in using your SuperOffice account.
 
     ![Set up your action -screenshot][img4]
 
@@ -50,17 +50,17 @@ language: en
 
 ## Related content
 
-* [Update contact][1]
+* [Update company][1]
 * [Create a Zap with SuperOffice CRM][2]
 
 <!-- Referenced links -->
-[1]: update-contact.md
+[1]: update-company.md
 [2]: ../get-started/create-zap.md
 
 <!-- Referenced images -->
 [img1]: media/create-zap.png
 [img2]: media/new-zap-window.png
 [img3]: media/search-superoffice-in-zapier.png
-[img4]: media/update-contact-action.png
-[img5]: media/update-contact-window.png
-[img6]: media/update-contact-output.png
+[img4]: media/update-company-action.png
+[img5]: media/update-company-window.png
+[img6]: media/update-company-output.png
