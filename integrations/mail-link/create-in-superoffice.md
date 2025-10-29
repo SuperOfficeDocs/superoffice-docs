@@ -64,14 +64,12 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 
 ## Related content
 
-* [Create email templates][6]
 * [General settings][7]
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
 [4]: select-recipients.md
 [5]: add-attachment.md
-[6]: ../../docs/en/admin/lists/learn/create-email-template.md
 [7]: settings.md
 
 <!-- Referenced images -->
