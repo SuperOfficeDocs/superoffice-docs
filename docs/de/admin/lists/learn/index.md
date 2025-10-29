@@ -2,12 +2,16 @@
 uid: help-de-lists
 title: Listen
 description: Wie man Listen bearbeitet
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: Liste
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /de/admin/lists/learn/items
+  - /de/admin/lists/learn/duplicates
 language: de
 ---
 
@@ -41,9 +45,19 @@ Mit dem Kontrollkästchen **Gruppieren und Filtern nach Benutzergruppe für dies
 
 Unten in der Ansicht **Listen** finden Sie die Option **Gelöschte Objekte und Überschriften anzeigen**, mit der Sie das Löschen von Objekten und Überschriften rückgängig machen können. (siehe [Objekte löschen][8] und [Gelöschte Objekte und Überschriften][9]).
 
+## Listenobjekten
+
+Im Gegensatz zu den eigentlichen Listen können Sie sowohl in vordefinierten als auch in benutzerdefinierten Listen Objekte hinzufügen, bearbeiten und löschen.
+
+### Duplikate
+
+Sie können keine zwei Objekte mit demselben Namen in einer Liste registrieren. Dies gilt auch für Überschriften. Wenn Sie versuchen, ein Objekt oder eine Überschrift unter einem bereits vorhandenen Namen zu registrieren, erhalten Sie eine Fehlermeldung. Diese Einschränkung gilt unabhängig davon, ob der Name mit Groß- oder Kleinschreibung ist.
+
+> [!NOTE]
+> Sie können ein neues Objekt bzw. eine neue Überschrift nicht unter dem Namen von gelöschten Objekten bzw. Überschriften hinzufügen. (siehe [Gelöschte Objekte und Überschriften][12]).
+
 ## Verwandte Themen
 
-* [Objekte][2]
 * [Listen organisieren][3]
 * [Speziallisten][4]
 * [Benutzerdefinierte Listen hinzufügen][5]
@@ -52,7 +66,6 @@ Unten in der Ansicht **Listen** finden Sie die Option **Gelöschte Objekte und �
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -61,5 +74,6 @@ Unten in der Ansicht **Listen** finden Sie die Option **Gelöschte Objekte und �
 [8]: deleting-items.md
 [9]: organize/deleted-items-and-headings.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

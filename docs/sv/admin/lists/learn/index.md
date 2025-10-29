@@ -2,12 +2,16 @@
 uid: help-sv-lists
 title: Listor
 description: Så redigerar du listor
-author: SuperOffice RnD
-date: 02.23.2023
-keywords: lista
+keywords: lista, listor
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /sv/admin/lists/learn/items
+  - /sv/admin/lists/learn/duplicates
 language: sv
 ---
 
@@ -41,9 +45,19 @@ Längst upp till höger finns kryssrutan **Använd gruppering och användargrupp
 
 Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och rubriker** som du kan använda för att ångra borttagningen av poster och rubriker. Se [Ta bort poster][8] och [Borttagna poster och rubriker][9].
 
+## Poster
+
+Till skillnad från själva listorna kan du göra tillägg till, ändra eller ta bort poster i både fördefinierade och användardefinierade listor.
+
+### Dubbletter
+
+Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rubriker. Om du försöker skapa ett objekt med samma namn som en befintlig post eller rubrik visas ett meddelande om att det inte är tillåtet. Denna begränsning gäller oavsett om namnet är skrivet med versaler eller gemener.
+
+> [!NOTE]
+> Du kan inte lägga till en ny post eller rubrik som har samma namn som en borttagen post eller rubrik. Se [Borttagna poster och rubriker][12].
+
 ## Relaterat innehåll
 
-* [Poster][2]
 * [Organisera listor][3]
 * [Speciallistor][4]
 * [Lägga till användardefinierade listor][5]
@@ -52,7 +66,6 @@ Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och 
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -62,5 +75,6 @@ Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och 
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/learn/udef.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

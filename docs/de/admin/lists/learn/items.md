@@ -11,9 +11,7 @@ audience_tooltip: Settings and maintenance
 language: de
 ---
 
-# Mit Listenobjekten arbeiten
-
-Im Gegensatz zu den eigentlichen Listen können Sie sowohl in vordefinierten als auch in benutzerdefinierten Listen Objekte hinzufügen, bearbeiten und löschen.
+# Mit 
 
 ## Was möchten Sie jetzt tun?
 

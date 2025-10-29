@@ -11,9 +11,7 @@ audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Arbejde med forekomster
-
-I modsætning til selve listerne kan forekomster, der er indeholdt i både foruddefinerede og brugerdefinerede lister, tilføjes, ændres eller slettes.
+# Arbejde med 
 
 ## Relateret indhold
 

@@ -85,7 +85,6 @@ På flera ställen i SuperOffice CRM kan du välja ett land från en lista. Län
 
 ## Relaterat innehåll
 
-* [Lägg till, redigera och ta bort standardlistor och poster][20]
 * [Lägg till och ta bort företags- och kontaktrelationer][1]
 
 <!-- Refererade länkar -->
@@ -108,5 +107,4 @@ På flera ställen i SuperOffice CRM kan du välja ett land från en lista. Län
 [17]: ../../../sale/admin/sale-type.md
 [18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
-[20]: items.md
 [21]: adding-items.md

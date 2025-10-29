@@ -11,9 +11,7 @@ audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Arbeta med poster
-
-Till skillnad från själva listorna kan du göra tillägg till, ändra eller ta bort poster i både fördefinierade och användardefinierade listor.
+# Arbeta med 
 
 ## Vad vill du göra nu?
 

@@ -85,7 +85,6 @@ Flere steder i SuperOffice CRM kan du velge ønsket land fra en valgliste. Liste
 
 ## Relatert innhold
 
-* [Legge til, redigere og slette standardlister og forekomster][20]
 * [Legge til og fjerne firma- og personrelasjoner][1]
 
 <!-- Referenced links -->
@@ -108,5 +107,4 @@ Flere steder i SuperOffice CRM kan du velge ønsket land fra en valgliste. Liste
 [17]: ../../../sale/admin/sale-type.md
 [18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
-[20]: items.md
 [21]: adding-items.md

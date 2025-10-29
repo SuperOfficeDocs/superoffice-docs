@@ -3,11 +3,15 @@ uid: help-nl-lists
 title: Lijsten
 description: Lijsten bewerken
 keywords: lijst
-author: SuperOffice RnD
-date: 03.14.2025
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /nl/admin/lists/learn/items
+  - /nl/admin/lists/learn/duplicates
 language: nl
 ---
 
@@ -41,9 +45,19 @@ Rechts bovenin is het selectievakje **Groeperen en filteren gebruikersgroep voor
 
 Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopteksten weergeven**, waarmee u het verwijderen van items en kopteksten ongedaan kunt maken. Zie [Items verwijderen][8] en [Verwijderde items en kopteksten][9].
 
+## Lijstitems
+
+In tegenstelling tot lijsten, kunt u items wijzigen in, toevoegen aan en verwijderen uit zowel vooraf gedefinieerde lijsten als door gebruikers gedefinieerde lijsten.
+
+### Duplicaten
+
+U kunt binnen Ã©Ã©n lijst niet twee items met dezelfde naam maken. Hetzelfde geldt voor kopteksten. Als u probeert een item of koptekst te maken met dezelfde naam als een bestaand item of een bestaande koptekst, krijgt u de melding dat dit niet is toegestaan. Het maakt hierbij niet uit of u hoofdletters of kleine letters gebruikt.
+
+> [!NOTE]
+> U kunt geen nieuw item of nieuwe koptekst toevoegen met dezelfde naam als een verwijderd item of verwijderde koptekst. Zie [Verwijderde items en kopteksten][12].
+
 ## Gerelateerde inhoud
 
-* [Items][2]
 * [Lijsten organiseren][3]
 * [Gespecialiseerde lijsten][4]
 * [Door gebruikers gedefinieerde lijsten toevoegen][5]
@@ -52,7 +66,6 @@ Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopt
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -62,5 +75,6 @@ Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopt
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/learn/udef.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

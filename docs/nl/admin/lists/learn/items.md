@@ -11,9 +11,7 @@ audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Werken met lijstitems
-
-In tegenstelling tot lijsten, kunt u items wijzigen in, toevoegen aan en verwijderen uit zowel vooraf gedefinieerde lijsten als door gebruikers gedefinieerde lijsten.
+# Werken met 
 
 ## Gerelateerde inhoud
 

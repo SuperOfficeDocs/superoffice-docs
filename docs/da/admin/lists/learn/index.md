@@ -2,12 +2,16 @@
 uid: help-da-lists
 title: Lister
 description: Sådan redigeres lister
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: liste
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /da/admin/lists/learn/items
+  - /da/admin/lists/learn/duplicates
 language: da
 ---
 
@@ -41,9 +45,19 @@ Skærmbilledet **Lister** er inddelt i følgende dele:
 
 Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forekomster og overskrifter**, som giver dig mulighed for at fortryde sletningen af forekomster og overskrifter. Se [Slet forekomster][8] og [Slettede forekomster og overskrifter][9].
 
+## Forekomster
+
+I modsætning til selve listerne kan forekomster, der er indeholdt i både foruddefinerede og brugerdefinerede lister, tilføjes, ændres eller slettes.
+
+### Dubletter
+
+Du kan ikke oprette to forekomster med samme navn på én liste. Det samme gælder overskrifter. Hvis du forsøger at oprette et element med samme navn som et eksisterende element eller en eksisterende overskrift, får du besked om, at dette ikke er tilladt. Denne begrænsning gælder, uanset om navnet er skrevet med store eller små bogstaver.
+
+> [!NOTE]
+> Du kan ikke tilføje et nyt element eller en ny overskrift, der har samme navn som en slettet forekomst eller overskrift. Se [Slettede forekomster og overskrifter][12].
+
 ## Relateret indhold
 
-* [Forekomster][2]
 * [Organisering af lister][3]
 * [Specialiserede lister][4]
 * [Tilføjelse af brugerdefinerede lister][5]
@@ -52,7 +66,6 @@ Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forek
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -62,5 +75,6 @@ Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forek
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/learn/udef.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

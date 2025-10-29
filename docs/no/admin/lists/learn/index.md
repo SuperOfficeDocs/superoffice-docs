@@ -2,12 +2,16 @@
 uid: help-no-lists
 title: Lister
 description: Slik redigerer du lister
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: liste
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /no/admin/lists/learn/items
+  - /no/admin/lists/learn/duplicates
 language: no
 ---
 
@@ -41,9 +45,19 @@ Du kan også legge til egne, brukerdefinerte lister som skal vises i **Mer**-fan
 
 Nederst i **Lister**-bildet finner du valgboksen **Vis slettede forekomster og overskrifter**, som gjør det mulig å oppheve sletting av forekomster og overskrifter. Se [Slette forekomster][8] og [Slettede forekomster og overskrifter][9].
 
-## Aktuelle emner
+## Forekomster
 
-* [Forekomster][2]
+I motsetning til lister, kan du endre, legge til og slette forekomster både i forhåndsdefinerte og brukerdefinerte lister.
+
+### Duplikater
+
+Du kan ikke registrere to forekomster med samme navn i én liste. Det samme gjelder overskrifter. Hvis du forsøker å registrere noe med nøyaktig samme navn som en eksisterende forekomst eller overskrift, får du melding om at dette ikke er tillatt. Dette gjelder uansett om du bruker store eller små bokstaver.
+
+> [!NOTE]
+> Vær oppmerksom på at du heller ikke kan legge til en ny forekomst eller overskrift som har samme navn som en slettet forekomst eller overskrift. Se [Slettede forekomster og overskrifter][12].
+
+## Aktuelt innhold
+
 * [Organisere lister][3]
 * [Spesialiserte lister][4]
 * [Legge til brukerdefinerte lister][5]
@@ -52,7 +66,6 @@ Nederst i **Lister**-bildet finner du valgboksen **Vis slettede forekomster og o
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -62,5 +75,6 @@ Nederst i **Lister**-bildet finner du valgboksen **Vis slettede forekomster og o
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/learn/udef.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

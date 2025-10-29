@@ -11,9 +11,7 @@ audience_tooltip: Settings and maintenance
 language: no
 ---
 
-# Arbeide med forekomster
-
-I motsetning til lister, kan du endre, legge til og slette forekomster både i forhåndsdefinerte og brukerdefinerte lister.
+# Arbeide med 
 
 ## Hva vil du gjøre nå?
 

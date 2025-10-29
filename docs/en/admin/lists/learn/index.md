@@ -2,12 +2,16 @@
 uid: help-en-lists
 title: Lists
 description: How to edit lists
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: list
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /en/admin/lists/learn/items
+  - /en/admin/lists/learn/duplicates
 language: en
 ---
 
@@ -41,9 +45,19 @@ At the upper right is the **Use grouping and user group filtering for this list*
 
 At the bottom of the **Lists** screen is the **Show deleted items and headings** checkbox, which allows you to undo the deletion of items and headings. See [Delete items][8] and [Deleted items and headings][9].
 
-## Related topics
+## Items
 
-* [Items][2]
+In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted.
+
+### Duplicates
+
+You cannot create two items with the same name in one list. The same applies to headings. If you try to create an element with the same name as an existing item or heading, a message advises you that this is not allowed. This restriction applies irrespective of if the name is in uppercase or lowercase.
+
+> [!NOTE]
+> You cannot add a new item or heading that has the same name as a deleted item or heading. See [Deleted items and headings][12].
+
+## Related content
+
 * [Organizing lists][3]
 * [Specialized lists][4]
 * [Add user-defined lists][5]
@@ -52,7 +66,6 @@ At the bottom of the **Lists** screen is the **Show deleted items and headings**
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
@@ -62,5 +75,6 @@ At the bottom of the **Lists** screen is the **Show deleted items and headings**
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
 [11]: editing-items.md
+[12]: organize/deleted-items-and-headings.md
 
 <!-- Referenced images -->

@@ -87,7 +87,6 @@ Het sectietabblad **Relaties** in het scherm Bedrijf geeft alle bestaande verbin
 
 ## Gerelateerde inhoud
 
-* [Standaardlijsten en items toevoegen, bewerken en verwijderen][20]
 * [Relaties tussen bedrijven en personen toevoegen en verwijderen][1]
 
 <!-- Referenced links -->
@@ -110,5 +109,4 @@ Het sectietabblad **Relaties** in het scherm Bedrijf geeft alle bestaande verbin
 [17]: ../../../sale/admin/sale-type.md
 [18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
-[20]: items.md
 [21]: adding-items.md

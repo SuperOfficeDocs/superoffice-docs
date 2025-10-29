@@ -1,19 +1,12 @@
 items:
-- name: Überblick
+- name: Einführung
   href: index.md
-- name: Objekte
-  topicHref: items.md
-  items:
-  - name: Überblick
-    href: items.md
-  - name: Objekte hinzufügen
-    href: adding-items.md
-  - name: Objekte bearbeiten
-    href: editing-items.md
-  - name: Objekte löschen
-    href: deleting-items.md
-  - name: Duplikate
-    href: duplicates.md
+- name: Objekte hinzufügen
+  href: adding-items.md
+- name: Objekte bearbeiten
+  href: editing-items.md
+- name: Objekte löschen
+  href: deleting-items.md
 - name: Gruppieren und Filtern
   topicHref: organize/index.md
   items:
