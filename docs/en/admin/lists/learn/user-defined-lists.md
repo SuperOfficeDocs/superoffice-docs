@@ -1,11 +1,19 @@
 ---
 uid: help-en-user-defined-lists
 title: User-defined lists
-description: Adding user-defined lists
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
+description: Adding, editing, and removing user-defined lists
+keywords: user-defined list, create list, delete list, edit list
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /en/admin/lists/learn/adding-user-defined-lists
+  - /en/admin/lists/learn/deleting-user-defined-lists
+  - /en/admin/lists/learn/editing-lists-name-and-description
 language: en
 ---
 

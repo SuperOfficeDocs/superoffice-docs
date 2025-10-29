@@ -1,11 +1,19 @@
 ---
 uid: help-sv-user-defined-lists
 title: Användardefinierade listor
-description: Lägga till användardefinierade listor
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
+description: Lägga till, ändra och ta bort användardefinierade listor
+keywords: användardefinierad lista, skapa lista, redigera lista, ta bort lista
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
+index: true
+redirect_from:
+  - /sv/admin/lists/learn/adding-user-defined-lists
+  - /sv/admin/lists/learn/deleting-user-defined-lists
+  - /sv/admin/lists/learn/editing-lists-name-and-description
 language: sv
 ---
 
@@ -15,7 +23,7 @@ För att komma igång, klicka på knappen **Listor** i navigatorn (<i class="ph 
 
 [!include[Find specific list](includes/tip-find-list.md)]
 
-## Lägga till användardefinierade listor
+## Lägga till användardefinierad lista
 
 1. Klicka på knappen **Skapa lista** längst upp till höger i fönstret.
 

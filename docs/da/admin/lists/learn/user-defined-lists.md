@@ -1,13 +1,19 @@
 ---
 uid: help-da-user-defined-lists
 title: Brugerdefinerede lister
-description: Tilføjelse af brugerdefinerede lister
-keywords: opret liste, brugerdefinerede lister
-author: SuperOffice RnD
-date: 06.29.2022
+description: Tilføj, ændre, og slet brugerdefinerede lister
+keywords: opret liste, rediger liste, slet liste, brugerdefinerede lister
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /da/admin/lists/learn/adding-user-defined-lists
+  - /da/admin/lists/learn/deleting-user-defined-lists
+  - /da/admin/lists/learn/editing-lists-name-and-description
 language: da
 ---
 

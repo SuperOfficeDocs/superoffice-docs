@@ -1,11 +1,19 @@
 ---
 uid: help-no-user-defined-lists
 title: Brukerdefinerte lister
-description: Legge til brukerdefinerte lister
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold
+description: Legge til, redirere og fjerne brukerdefinerte lister
+keywords: brukerdefinert liste, opprett lista, rediger lista, slett lista
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Innstillinger og vedlikehold
+index: true
+redirect_from:
+  - /no/admin/lists/learn/adding-user-defined-lists
+  - /no/admin/lists/learn/deleting-user-defined-lists
+  - /no/admin/lists/learn/editing-lists-name-and-description
 language: no
 ---
 

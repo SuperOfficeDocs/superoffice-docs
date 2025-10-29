@@ -1,11 +1,19 @@
 ---
 uid: help-de-user-defined-lists
 title: Benutzerdefinierte Listen
-description: Benutzerdefinierte Listen hinzufügen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Einstellungen und Verwaltung
+description: Benutzerdefinierte Listen hinzufügen, bearbeiten und löschen
+keywords: Benutzerdefinierte Listen, Liste erstellen, Liste bearbeiten, Liste löschen
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Einstellungen und Verwaltung
+index: true
+redirect_from:
+  - /de/admin/lists/learn/adding-user-defined-lists
+  - /de/admin/lists/learn/deleting-user-defined-lists
+  - /de/admin/lists/learn/editing-lists-name-and-description
 language: de
 ---
 
