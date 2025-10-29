@@ -15,7 +15,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 11.5**][11] - 16.10.2025.
+The latest release is [**version 11.6**][11] - 03.11.2025.
 
 Recent versions:
 
@@ -46,7 +46,7 @@ Different integration components are released on separate schedules. See the [in
 * 2.3 (11.06.2025): Bug fixing release
 
 * 2.2 (07.05.2025):
-  * Introducing the [Publish Status widget][18], which shows all pending requests to publish app configurations, partner profiles, and App Store information.
+  * [Publish Status widget][18] shows all pending requests to publish app configurations, partner profiles, and App Store information.
 
 ## User guides
 
