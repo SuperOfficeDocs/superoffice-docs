@@ -2,16 +2,22 @@
 uid: help-sv-add-email-template
 title: Lägg till e-postmall
 description: Lägg till e-postmall
-keywords: e-postmall
-author: SuperOffice RnD
-date: 02.25.2025
+keywords: listan E-post – mall, e-postmall
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
-audience_tooltip: Inställningar och underhåll
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /sv/admin/lists/learn/email-template
+  - /sv/admin/lists/learn/add-email-template
+  - /sv/admin/lists/learn/create-email-template
 language: sv
 ---
 
-# E-post – mall
+# Lägg till e-postmall
 
 Det är viktigt för företagets profil att e-postmeddelanden har ett unikt och enhetligt utseende. Det betyder att alla e-postmeddelanden som skickas från företaget bör ha samma typsnitt, format, logotyper och så vidare. Genom att skapa e-postmallar som är anpassade för företaget kan du vara säker på att företagets kontakter lätt känner igen dokument från företaget. E-postmallar används också när offerter, orderbekräftelser och integritetsbekräftelser skickas.
 
@@ -19,13 +25,15 @@ SuperOffice CRM levereras med flera standardmallar som du kan använda så fort 
 
 Du kan också skapa egna mallar. Det gör du genom att lägga till [mallvariabler][2] i e-postmallarna, som sedan hämtar information från motsvarande fält i SuperOffice CRM när du skriver ett e-postmeddelande med en mall som du har skapat.
 
-## Lägg till en e-postmall
-
-E-postmallar kan användas när du skapar nya e-postmeddelanden i SuperOffice-inkorgen och när du skickar offerter, orderbekräftelser och integritetsbekräftelser.
-
 Mallarna visas som objekt i listan **E-post – Mall** och du kan lägga till nya mallar i SuperOffice CRM genom att lägga in dem som poster i listan.
 
-[!include[Edit list item](includes/edit-list-item.md)] när posterna är e-postmallar:
+## Steg
+
+1. Välj <i class="ph ph-list-bullets" aria-hidden="true"></i> **Listor** i navigatorn.
+
+1. Välj **E-post – mall** från rullgardinsmenyn. Fliken **Poster** visar alla befintliga resurser.
+
+1. Klicka på **Lägg till** för att öppna dialogrutan **Redigera listpost**.
 
 1. Skriv in ett namn på posten i fältet **Mallnamn**.
 
@@ -102,10 +110,10 @@ Här kan du lägga till översatta versioner av dokumentmallen.
 * [Offertmallar][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md

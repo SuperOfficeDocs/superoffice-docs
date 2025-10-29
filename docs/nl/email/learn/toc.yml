@@ -6,5 +6,8 @@ items:
 - name: Postvak IN
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: E-mailsjabloon toevoegen
-  href: ../admin/add-email-template.md
+- name: Voor beheerders
+  topicHref: ../admin/add-email-template.md
+  items:
+  - name: E-mailsjabloon toevoegen
+    href: ../admin/add-email-template.md

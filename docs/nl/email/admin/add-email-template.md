@@ -2,16 +2,22 @@
 uid: help-nl-add-email-template
 title: E-mailsjabloon toevoegen
 description: E-mailsjabloon toevoegen
-keywords: e-mailsjabloon
-author: SuperOffice RnD
-date: 03.14.2025
+keywords: E-mail - Sjabloon lijst, e-mailsjabloon
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /nl/admin/lists/learn/email-template
+  - /nl/admin/lists/learn/add-email-template
+  - /nl/admin/lists/learn/create-email-template
 language: nl
 ---
 
-# E-mail - Sjabloon
+# E-mailsjabloon toevoegen
 
 Het is belangrijk voor het profiel van een organisatie dat e-mails een duidelijke en uniforme vormgeving hebben. Dit betekent dat alle uitgaande e-mails dezelfde lettertypen, opmaak, logo's, enzovoort moeten hebben. Door e-mailsjablonen speciaal voor uw organisatie te maken, zorgt u ervoor dat de contactpersonen van uw organisatie eenvoudig de correspondentie van uw organisatie herkennen. E-mailsjablonen worden ook gebruikt voor het verzenden van offertes, opdrachtbevestigingen en privacybevestigingen.
 
@@ -19,13 +25,15 @@ SuperOffice CRM wordt geleverd met een aantal standaardsjablonen die u direct ku
 
 U kunt ook uw eigen sjablonen maken. Dit doet u door [sjabloonvariabelen][2] in te voeren in de e-mailsjablonen. Deze zorgen ervoor dat informatie wordt opgehaald uit de bijbehorende velden in SuperOffice CRM wanneer u een e-mail schrijft met een sjabloon die u hebt gemaakt.
 
-## Een e-mailsjabloon toevoegen
-
-E-mailsjablonen kunnen worden gebruikt om nieuwe e-mails te maken in het Postvak IN van SuperOffice en voor het verzenden van offertes, opdrachtbevestigingen en privacybevestigingen.
-
 Sjablonen worden weergegeven als items in de lijst **E-mail - Sjabloon** en u kunt nieuwe sjablonen toevoegen aan SuperOffice CRM door deze als een item in te voeren in de lijst.
 
-[!include[Edit list item](includes/edit-list-item.md)] wanneer de items e-mailsjablonen zijn:
+## Stappen
+
+1. Selecteer <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lijsten** in de navigator.
+
+1. Selecteer **E-mail - Sjabloon** in het dropdownmenu. Het tabblad **Items** toont alle bestaande bronnen.
+
+1. Klik op **Toevoegen** om het dialoogvenster **Lijstitem bewerken** te openen.
 
 1. Typ de gewenste naam voor het item in het veld **Sjabloonnaam**.
 
@@ -102,10 +110,10 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 * [Offertesjablonen][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md

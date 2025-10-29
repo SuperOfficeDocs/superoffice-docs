@@ -6,5 +6,8 @@ items:
 - name: Indbakke
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Tilføj e-mailskabelon
-  href: ../admin/add-email-template.md
+- name: For admins
+  topicHref: ../admin/add-email-template.md
+  items:
+  - name: Tilføj e-mailskabelon
+    href: ../admin/add-email-template.md

@@ -6,5 +6,8 @@ items:
 - name: Inkorg
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Lägga till e-postmall
-  href: ../admin/add-email-template.md
+- name: För administratörer
+  topicHref: ../admin/add-email-template.md
+  items:
+  - name: Lägga till e-postmall
+    href: ../admin/add-email-template.md

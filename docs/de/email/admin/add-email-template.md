@@ -2,14 +2,22 @@
 uid: help-de-add-email-template
 title: E-Mail-Vorlage hinzufügen
 description: E-Mail-Vorlage hinzufügen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Einstellungen und Verwaltung
+keywords: List E-Mail - Vorlage, E-Mail-Vorlage
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Einstellungen und Verwaltung
+index: true
+redirect_from:
+  - /de/admin/lists/learn/email-template
+  - /de/admin/lists/learn/add-email-template
+  - /de/admin/lists/learn/create-email-template
 language: de
 ---
 
-# E-Mail - Vorlage
+# E-Mail-Vorlage hinzufügen
 
 Für das Profil eines Unternehmens ist es wichtig, dass E-Mails ein aussagekräftiges und einheitliches Erscheinungsbild haben. Das bedeutet, dass alle von dem Unternehmen gesendeten E-Mails dieselben Schriften, Formatierungen, Logos usw. aufweisen sollten. Durch das Erstellen von maßgeschneiderten E-Mail-Vorlagen für Ihr Unternehmen können Sie sicherstellen, dass die Personen Ihre Schriftstücke sofort erkennen. E-Mail-Vorlagen werden auch zum Senden von Angeboten, Auftragsbestätigungen und Datenschutzbestätigungen verwendet.
 
@@ -17,13 +25,15 @@ SuperOffice CRM wird mit verschiedenen Standardvorlagen geliefert, die Sie sofor
 
 Sie können auch eigene Vorlagen erstellen. Geben Sie zu diesem Zweck [Vorlagenvariablen][2] in die E-Mail-Vorlagen ein, die dann Informationen von entsprechenden Feldern in SuperOffice CRM abrufen, wenn Sie eine E-Mail mit einer selbst erstellten Vorlage schreiben.
 
-## E-Mail-Vorlage hinzufügen
-
-E-Mail-Vorlagen können zum Erstellen neuer E-Mails in SuperOffice E-Mail und zum Senden von Angeboten, Auftragsbestätigungen und Datenschutzbestätigungen verwendet werden.
-
 Vorlagen werden in der Liste **E-Mail-Vorlage** als Objekte angezeigt. Sie können neue Vorlagen mit SuperOffice CRM hinzufügen, indem Sie sie als Objekt in diese Liste eingeben.
 
-[!include[Edit list item](includes/edit-list-item.md)] wenn die Objekte E-Mail-Vorlagen sind:
+## Schritte
+
+1. Wählen Sie <i class="ph ph-list-bullets" aria-hidden="true"></i> **Listen** im Navigator.
+
+1. Wählen Sie **E-Mail-Vorlage** aus dem Dropdown-Menü. Die Registerkarte **Objekte** zeigt alle bestehenden Ressourcen an.
+
+1. Klicken Sie auf **Hinzufügen**, um das Dialogfeld **Listenobjekte bearbeiten** zu öffnen.
 
 1. Geben Sie den gewünschten Namen für das Objekt in das Feld **Vorlagenname** ein.
 
@@ -100,10 +110,10 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 * [Angebotsvorlage][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md

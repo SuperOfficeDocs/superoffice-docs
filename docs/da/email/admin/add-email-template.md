@@ -1,17 +1,23 @@
 ---
 uid: help-da-add-email-template
-title: Tilføjelse af e-mailskabelon
-description: Tilføjelse af e-mailskabelon
-keywords: e-mailskabelon
-author: SuperOffice RnD
-date: 02.28.2025
+title: Tilføj e-mailskabelon
+description: Tilføj e-mailskabelon
+keywords: listen E-mail - skabelon, e-mailskabelon
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /da/admin/lists/learn/email-template
+  - /da/admin/lists/learn/add-email-template
+  - /da/admin/lists/learn/create-email-template
 language: da
 ---
 
-# E-mail - skabelon
+# Tilføj e-mailskabelon
 
 Det er vigtigt for en organisations profil, at e-mails har et karakteristisk og ensartet udseende. Det betyder, at alle e-mails, der sendes ud af organisationen, skal anvende samme skrifttyper, formatering, logoer osv. Ved at oprette e-mailskabeloner, der er tilpasset din organisation, sikrer du, at dine personer nemt kan genkende din korrespondance. E-mailskabeloner bruges også, når du sender tilbud, ordrebekræftelser og bekræftelser på beskyttelse af personoplysninger.
 
@@ -19,13 +25,15 @@ SuperOffice CRM leveres med flere standardskabeloner, som du kan bruge med det s
 
 Du kan også oprette dine egne skabeloner. Det gør du ved at indsætte [skabelonvariabler][2] i e-mailskabelonerne, som derefter henter oplysninger fra tilsvarende felter i SuperOffice CRM, når du skriver en e-mail med en skabelon, du har lavet.
 
-## Tilføjelse af en e-mailskabelon
-
-E-mailskabeloner kan bruges, når du opretter nye e-mails i SuperOffice-indbakken, og når du sender tilbud, ordrebekræftelser og bekræftelser på beskyttelse af personoplysninger.
-
 Skabeloner vises som forekomster på listen **E-mail – Skabelon**, og du kan tilføje nye skabeloner til SuperOffice CRM ved at tilføje dem som en forekomst på listen.
 
-[!include[Edit list item](includes/edit-list-item.md)] når forekomsterne er e-mailskabeloner:
+## Trin
+
+Vælg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i Navigator.
+
+1. Vælg **E-mail – Skabelon** fra rullemenuen. Fanen **Forekomster** viser alle eksisterende ressourcer.
+
+1. Klik på **Tilføj** for at åbne dialogboksen **Rediger listeforekomst**.
 
 1. Indtast det ønskede navn for forekomsten i feltet **Skabelonnavn**.
 
@@ -102,10 +110,10 @@ Her kan du tilføjer oversatte versioner af dokumentskabelonen.
 * [Tilbudsskabeloner][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md

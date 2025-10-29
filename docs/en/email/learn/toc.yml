@@ -8,5 +8,8 @@ items:
 - name: Inbox
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Add email template
-  href: ../admin/add-email-template.md
+- name: For administrators
+  topicHref: ../admin/add-email-template.md
+  items:
+  - name: Add email template
+    href: ../admin/add-email-template.md

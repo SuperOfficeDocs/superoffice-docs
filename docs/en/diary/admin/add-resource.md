@@ -26,6 +26,8 @@ Resources such as meeting rooms and projectors are defined in the **Lists** scre
 
 1. Select **General - Resource** from the dropdown menu. The **Items** tab displays all existing resources.
 
+1. Click **Add** to open the **Edit list item** dialog.
+
 1. Enter the required name of the item in the **Name** field. *(Mandatory)*
 
 1. In the **Type** field, choose *Location* or *Other*.

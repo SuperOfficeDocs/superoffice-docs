@@ -2,14 +2,22 @@
 uid: help-en-add-email-template
 title: Add email template
 description: Add email template
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Email - Template list, email template
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /en/admin/lists/learn/email-template
+  - /en/admin/lists/learn/add-email-template
+  - /en/admin/lists/learn/create-email-template
 language: en
 ---
 
-# Email - Template
+# Add email template
 
 It is important for an organization's profile that emails have a distinctive and consistent appearance. This means that all emails sent out by the organization should use the same fonts, formatting, logos and so on. By creating email templates that are customized to your organization you ensure that your contacts can easily recognize your correspondence. Email templates are also used when sending quotes, order confirmations and privacy confirmations.
 
@@ -17,13 +25,15 @@ SuperOffice CRM is supplied with several standard templates that you can use imm
 
 You can also create your own templates. You do this by entering [template variables][2] in the email templates, which then retrieve information from corresponding fields in SuperOffice CRM when you write an email using a template you created.
 
-## Add an email template
-
-Email templates can be used when creating new emails in the SuperOffice inbox, and when sending quotes, order confirmations and privacy confirmations.
-
 Templates are displayed as items in the **Email - Template** list and you can add new templates to SuperOffice CRM by entering it as an item in the list.
 
-[!include[Edit list item](includes/edit-list-item.md)] when the items are email templates:
+## Steps
+
+1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator.
+
+1. Select **Email - Template** from the dropdown menu. The **Items** tab displays all existing resources.
+
+1. Click **Add** to open the **Edit list item** dialog.
 
 1. Enter the required name of the item in the **Template name** field.
 
@@ -100,10 +110,10 @@ Here you can add translated versions of the document template.
 * [Quote templates][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md

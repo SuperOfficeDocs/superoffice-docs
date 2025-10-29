@@ -2,14 +2,22 @@
 uid: help-no-add-email-template
 title: Legge til e-postmal
 description: Legge til e-postmal
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold
+keywords: listen E-post - Mal, e-postmal
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Innstillinger og vedlikehold
+index: true
+redirect_from:
+  - /no/admin/lists/learn/email-template
+  - /no/admin/lists/learn/add-email-template
+  - /no/admin/lists/learn/create-email-template
 language: no
 ---
 
-# E-post - Mal
+# ## Legge til e-postmal
 
 Det er viktig for en organisasjons profil at e-postmeldinger har et unikt og helhetlig utseende. Det betyr at alle e-postmeldinger som sendes ut av organisasjonen, bør bruke samme skrifttyper, formatering, logoer og så videre. Ved å lage e-postmaler som er tilpasset din organisasjon, sikrer du at organisasjonens personer lett gjenkjenner organisasjonens korrespondanse. E-postmaler brukes også når du sender tilbud, ordrebekreftelser og personvernbekreftelser.
 
@@ -17,13 +25,15 @@ SuperOffice CRM leveres med flere standardmaler som du kan bruke umiddelbart ett
 
 Du kan også opprette dine egne maler. Dette gjør du ved å legge inn [malvariabler][2] i e-postmalene, som deretter henter informasjon fra tilsvarende felt i SuperOffice CRM når du skriver en e-post med en mal du har laget.
 
-## Legge til en e-postmal
-
-E-postmaler kan brukes til å opprette nye e-postmeldinger i SuperOffice-innboksen, og når du sender tilbud, ordrebekreftelser og personvernbekreftelser.
-
 Maler vises som elementer i listen **E-post – mal**, og du kan legge til nye maler i SuperOffice CRM ved å angi dem som et element i listen.
 
-[!include[Edit list item](includes/edit-list-item.md)] når elementene er e-postmaler:
+## Trinn
+
+1. Velg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i navigatoren.
+
+1. Velg **E-post – mal** fra rullegardinmenyen. Fanen **Elementer** viser alle eksisterende ressurser.
+
+1. Klikk på **Legg til** for å åpne dialogboksen **Rediger listeelement**.
 
 1. Skriv inn ønsket navn på forekomsten i feltet **Malnavn**.
 
@@ -100,10 +110,10 @@ Her kan du legge til oversatte versjoner av dokumentmalen.
 * [Tilbudsmaler][6]
 
 <!-- Referenced links -->
-[1]: ../../../localization/learn/translate-fields.md
-[2]: ../../../document/templates/learn/template-variables.md
-[3]: ../../../sale/admin/sale-type.md
-[4]: ../../../security/privacy/admin/add-source.md
-[5]: ../../../saint/learn/index.md
-[6]: ../../../document/templates/learn/quote-templates.md
-[7]: organize/user-group-filtering.md
+[1]: ../../localization/learn/translate-fields.md
+[2]: ../../document/templates/learn/template-variables.md
+[3]: ../../sale/admin/sale-type.md
+[4]: ../../security/privacy/admin/add-source.md
+[5]: ../../saint/learn/index.md
+[6]: ../../document/templates/learn/quote-templates.md
+[7]: ../../admin/lists/learn/organize/user-group-filtering.md
