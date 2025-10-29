@@ -41,24 +41,6 @@ Skærmbilledet **Lister** er inddelt i følgende dele:
 
 Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forekomster og overskrifter**, som giver dig mulighed for at fortryde sletningen af forekomster og overskrifter. Se [Slet forekomster][8] og [Slettede forekomster og overskrifter][9].
 
-## Tilpasning af dine salgslister
-
-SuperOffice CRM er designet til at understøtte de salgstyper, der er almindelige for de fleste virksomheder, men der er stadig firmaer, der måske ønsker at oprette deres egne.
-
-Afhængigt af hvilken type branche dit firma er i, kan du skræddersy systemet ved at oprette de salgslister, du har brug for.
-
-Se på følgende lister for at se, om du vil ændre dem eller ej:
-
-* Salg – Kilde
-* Salg – Fase
-* Salg – Typekategori
-* Salg – Type, Faser, Tilbud
-
-Se denne video for at se, hvordan du kan redigere dine salgslister, så de passer til den måde, du arbejder på. Eksemplet, der bruges i denne video, er fra listen Firma – Kategori, der har en opsætning magen til Salg – Stage (videolængde - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
-
 ## Relateret indhold
 
 * [Forekomster][2]

@@ -41,24 +41,6 @@ Du kan også legge til egne, brukerdefinerte lister som skal vises i **Mer**-fan
 
 Nederst i **Lister**-bildet finner du valgboksen **Vis slettede forekomster og overskrifter**, som gjør det mulig å oppheve sletting av forekomster og overskrifter. Se [Slette forekomster][8] og [Slettede forekomster og overskrifter][9].
 
-## Tilpasse salgslistene dine
-
-SuperOffice CRM er utviklet for å støtte salgstypene som er vanlige for de fleste firmaer, men det er likevel noen firmaer som kanskje vil lage sine egne.
-
-Avhengig av hvilken type virksomhet firmaet ditt har, kan du skreddersy systemet ved å lage salgslistene du trenger.
-
-Ta en titt på disse listene for å se om du vil endre dem:
-
-* Salg - Kilde
-* Salg - Fase
-* Salg - Typekategori
-* Salg - Type, Faser, Tilbud
-
-Se denne videoen for å se hvordan du kan redigere salgslistene dine, slik at de passer til måten du arbeider på. Eksemplet som brukes i denne videoen, er Firma - Kategori-listen, som har lignende oppsett som Salg - Fase (videolengde – 02.05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
-
 ## Aktuelle emner
 
 * [Forekomster][2]

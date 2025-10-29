@@ -41,24 +41,6 @@ Längst upp till höger finns kryssrutan **Använd gruppering och användargrupp
 
 Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och rubriker** som du kan använda för att ångra borttagningen av poster och rubriker. Se [Ta bort poster][8] och [Borttagna poster och rubriker][9].
 
-## Anpassa dina försäljningslistor
-
-SuperOffice CRM har stöd för de vanligaste försäljningstyperna som används av de flesta företag. Vissa företag kan dock vilja skapa egna försäljningstyper.
-
-Beroende på vilken bransch ditt företag verkar i kan du skräddarsy systemet genom att skapa de försäljningslistor ni behöver.
-
-Ta en titt på de här listorna för att se om du vill ändra dem eller inte:
-
-* Försäljning – Källa
-* Försäljning – Fas
-* Försäljning – Typkategori
-* Försäljning – Typ, Faser, Offert
-
-Den här filmen beskriver hur du kan redigera dina försäljningslistor så att de passar bättre för ert arbetssätt. I filmen används listan Företag – Kategori som exempel. Denna lista har ungefär samma inställningar som Försäljning – Fas (filmens längd: 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
-
 ## Relaterat innehåll
 
 * [Poster][2]

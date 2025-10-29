@@ -29,6 +29,24 @@ Nutzen Sie die Bildschirme **Workflow** und **Listen** in Einstellungen und Verw
 | Währung | Ein Listeneintrag, der verfügbare Währungen für Verkaufsbeträge mit Wechselkurs und Einheit definiert. | **Listen** > **Allgemein – Währung** |
 | Basiswährung | Die Hauptwährung für systemweite Berechnungen und Wechselkurse. | **Einstellungen** > **Globale Einstellungen** > **System** > **Basiswährung** |
 
+## Ihre Verkaufslisten anpassen
+
+SuperOffice CRM wurde entwickelt, um die für die meisten Branchen üblichen Verkaufstypen zu unterstützen, dennoch gibt es immer noch einige Firmen, die ihre eigenen erstellen möchten.
+
+Je nach dem Branchentyp Ihrer Firma können Sie das System anpassen, indem Sie die benötigten Verkaufslisten erstellen.
+
+Schauen Sie sich die folgenden Listen an, um zu sehen, ob Sie sie ändern möchten oder nicht:
+
+* Verkauf - Quelle
+* Verkauf - Stufe
+* Verkauf - Kategorietyp
+* Verkauf - Typ, Stufen, Angebot
+
+Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Ihre Verkaufslisten bearbeiten können, damit sie zu Ihrer Arbeitsweise passen. Das in diesem Video verwendete Beispiel zeigt die Liste Firma - Kategorie, die ein ähnliches Setup wie Verkauf - Stufe hat (Videolänge - 2:05):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+
 ## Was möchten Sie tun?
 
 * [Eine Verkaufsstufe hinzufügen][3]: Verkaufsphasen wie "Erstgespräch" oder "Abschluss" definieren und verwalten.

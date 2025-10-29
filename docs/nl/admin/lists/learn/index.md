@@ -41,24 +41,6 @@ Rechts bovenin is het selectievakje **Groeperen en filteren gebruikersgroep voor
 
 Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopteksten weergeven**, waarmee u het verwijderen van items en kopteksten ongedaan kunt maken. Zie [Items verwijderen][8] en [Verwijderde items en kopteksten][9].
 
-## Uw verkooplijsten aanpassen
-
-SuperOffice CRM is ontworpen om de verkooptypen te ondersteunen die gebruikelijk zijn voor de meeste bedrijven, maar er zijn nog steeds enkele bedrijven die misschien hun eigen verkooptypen willen maken.
-
-Afhankelijk van het type bedrijf waarin uw bedrijf zich bevindt, kunt u het systeem aanpassen door de verkooplijsten te maken die u nodig hebt.
-
-Bekijk de volgende lijsten om te zien of u ze wilt wijzigen of niet:
-
-* Verkoop - Bron
-* Verkoop - Fase
-* Verkoop - Typecategorie
-* Verkoop - Type, Fasen, Offerte
-
-Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze passen bij de manier waarop u werkt. Het voorbeeld dat in deze video wordt gebruikt, is van de lijst Bedrijf - Categorie met een vergelijkbare instelling als Verkoop - Fase (videolengte - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
-
 ## Gerelateerde inhoud
 
 * [Items][2]

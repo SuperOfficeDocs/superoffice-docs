@@ -29,6 +29,24 @@ Gebruik de schermen **Workflow** en **Lijsten** in **Instellingen en onderhoud**
 | Valuta | Een lijstitem dat de beschikbare valuta's voor verkoopbedragen definieert, inclusief wisselkoers en eenheid. | **Lijsten** > **Algemeen – Valuta** |
 | Basisvaluta | De primaire valuta die wordt gebruikt voor systeemwijde berekeningen en wisselkoersen. | **Voorkeuren** > **Globale voorkeuren** > **Systeem** > **Basisvaluta** |
 
+## Uw verkooplijsten aanpassen
+
+SuperOffice CRM is ontworpen om de verkooptypen te ondersteunen die gebruikelijk zijn voor de meeste bedrijven, maar er zijn nog steeds enkele bedrijven die misschien hun eigen verkooptypen willen maken.
+
+Afhankelijk van het type bedrijf waarin uw bedrijf zich bevindt, kunt u het systeem aanpassen door de verkooplijsten te maken die u nodig hebt.
+
+Bekijk de volgende lijsten om te zien of u ze wilt wijzigen of niet:
+
+* Verkoop - Bron
+* Verkoop - Fase
+* Verkoop - Typecategorie
+* Verkoop - Type, Fasen, Offerte
+
+Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze passen bij de manier waarop u werkt. Het voorbeeld dat in deze video wordt gebruikt, is van de lijst Bedrijf - Categorie met een vergelijkbare instelling als Verkoop - Fase (videolengte - 2:05):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+
 ## Wat wil je doen?
 
 * [Een verkoopfase toevoegen][3]: Definieer en beheer verkoopfasen zoals "Eerste gesprek" of "Afsluiting."

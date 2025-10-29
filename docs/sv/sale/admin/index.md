@@ -29,6 +29,24 @@ Använd skärmarna **Arbetsflöde** och **Listor** i **Inställningar och underh
 | Valuta | Ett listelement som definierar tillgängliga valutor för försäljningsbelopp, inklusive växelkurs och enhet. | **Listor** > **Allmänt – Valuta** |
 | Basvaluta | Den primära valuta som används för systemövergripande beräkningar och växelkurser. | **Inställningar** > **Globala inställningar** > **System** > **Ledvaluta** |
 
+## Anpassa dina försäljningslistor
+
+SuperOffice CRM har stöd för de vanligaste försäljningstyperna som används av de flesta företag. Vissa företag kan dock vilja skapa egna försäljningstyper.
+
+Beroende på vilken bransch ditt företag verkar i kan du skräddarsy systemet genom att skapa de försäljningslistor ni behöver.
+
+Ta en titt på de här listorna för att se om du vill ändra dem eller inte:
+
+* Försäljning – Källa
+* Försäljning – Fas
+* Försäljning – Typkategori
+* Försäljning – Typ, Faser, Offert
+
+Den här filmen beskriver hur du kan redigera dina försäljningslistor så att de passar bättre för ert arbetssätt. I filmen används listan Företag – Kategori som exempel. Denna lista har ungefär samma inställningar som Försäljning – Fas (filmens längd: 2:05):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+
 ## Vad vill du göra?
 
 * [Lägg till en försäljningsfas][3]: Definiera och hantera försäljningsfaser som "Första mötet" eller "Avslut".
