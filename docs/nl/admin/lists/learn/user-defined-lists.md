@@ -31,10 +31,22 @@ De lijst wordt nu toegevoegd aan de lijst **Lijsten**. Wanneer u de lijst op de 
 
 U moet niet alleen een naam en een beschrijving opgeven voor de lijst, maar u moet ook [items toevoegen][1] aan de lijst.
 
+## Naam en beschrijving van een lijst bewerken
+
+1. Klik op de pijl en selecteer de gewenste lijst in de keuzelijst bovenin.
+
+1. Klik op de knop **Lijst bewerken**.
+
+1. Typ een nieuwe naam voor de lijst in het veld **Naam**.
+
+1. Bewerk zo nodig de beschrijving van de lijst in het veld **Beschrijving**.
+
+1. Klik op **OK** om de wijzigingen op te slaan.
+
 ## Door gebruikers gedefinieerde lijst verwijderen
 
 > [!NOTE]
-> u kunt geen lijsten verwijderen die vooraf zijn gedefinieerd in SuperOffice CRM. Als u een vooraf gedefinieerde lijst selecteert, wordt de knop **Lijst verwijderen** niet weergegeven U kunt ook geen lijsten verwijderen die worden gebruikt in door gebruikers gedefinieerde velden. In dergelijke gevallen is de knop **Lijst verwijderen** op het tabblad **Lijsten** uitgeschakeld.
+> U kunt geen lijsten verwijderen die vooraf zijn gedefinieerd in SuperOffice CRM. Als u een vooraf gedefinieerde lijst selecteert, wordt de knop **Lijst verwijderen** niet weergegeven U kunt ook geen lijsten verwijderen die worden gebruikt in door gebruikers gedefinieerde velden. In dergelijke gevallen is de knop **Lijst verwijderen** op het tabblad **Lijsten** uitgeschakeld.
 
 1. Klik op de pijl en selecteer de gewenste lijst in de keuzelijst bovenin.
 

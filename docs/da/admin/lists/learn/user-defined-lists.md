@@ -31,6 +31,18 @@ Listen føjes til listen **Lister**. Hvis du tjekker listen på listen, vises be
 
 Ud over at angive et navn og en beskrivelse for listen skal du [tilføje forekomster][1] til den.
 
+## Ændring af navn og beskrivelse
+
+1. Klik på pilen, og vælg den påkrævede liste fra listen øverst.
+
+1. Klik på knappen **Rediger liste**.
+
+1. Skriv et nyt navn for listen i feltet **Navn**.
+
+1. Rediger beskrivelsen af listen efter behov i feltet **Beskrivelse**.
+
+1. Klik på **OK** for at gemme ændringerne.
+
 ## Slet brugerdefineret liste
 
 > [!NOTE]

@@ -27,6 +27,18 @@ Listan läggs till listan **Listor**. Om du markerar listan i listan visas beskr
 
 Förutom att ange ett namn och en beskrivning för listan måste du [lägga till poster][1] i den.
 
+## Ändra en listas namn och beskrivning
+
+1. Klicka på pilen och välj önskad lista i listrutan högst upp.
+
+1. Klicka på knappen **Redigera lista**.
+
+1. Skriv in ett nytt namn på listan i fältet **Namn**.
+
+1. Redigera beskrivningen av listan i fältet **Beskrivning** om det behövs.
+
+1. Klicka på **OK** så att ändringarna sparas under Inställningar och underhåll.
+
 ## Ta bort användardefinierad lista
 
 > [!NOTE]

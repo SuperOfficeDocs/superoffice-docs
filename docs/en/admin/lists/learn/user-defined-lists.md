@@ -29,12 +29,24 @@ The list is added to the **Lists** list. If you check the list in the list, the 
 
 As well as specifying a name and description for the list, you must [add items][1] to it.
 
+## Edit a list's name and description
+
+1. Select the required list from the list box at the top.
+
+1. Click the **Edit list** button.
+
+1. Type a new name for the list in the **Name** field.
+
+1. Edit the description of the list, as required, in the **Description** field.
+
+1. Click **OK** to save your changes.
+
 ## Delete user-defined list
 
 > [!NOTE]
 > You cannot delete lists that are predefined in SuperOffice CRM. If you select a predefined list, the **Delete list** button will not be displayed. Nor can you delete lists which are used in user-defined fields. In these cases, the **Delete list** button in the **Lists** tab is disabled.
 
-1. Click the arrow and select the required list from the list box at the top.
+1. Select the required list from the list box at the top.
 
 1. Click the **Delete list** button.
 

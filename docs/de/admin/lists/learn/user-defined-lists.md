@@ -17,8 +17,6 @@ Um loszulegen, klicken Sie im Navigator auf die Schaltfläche **Listen** (<i cla
 
 ## Benutzerdefinierte Liste hinzufügen
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
-
 1. Klicken Sie oben rechts in der Ansicht auf die Schaltfläche **Liste erstellen**.
 
 1. Geben Sie den gewünschten Listennamen in das Feld **Name** ein. *(Pflichtfeld)*
@@ -30,6 +28,18 @@ Um loszulegen, klicken Sie im Navigator auf die Schaltfläche **Listen** (<i cla
 Die Liste wird zur Liste **Listen** hinzugefügt. Wenn Sie die Liste in der Liste aktivieren, wird die Beschreibung oben in der Ansicht **Listen** angezeigt.
 
 Zusätzlich zur Angabe eines Namens und einer Beschreibung für die Liste müssen Sie auch [Objekte hinzufügen][1].
+
+## Name und Beschreibung einer Liste bearbeiten
+
+1. Klicken Sie auf den Pfeil und wählen Sie die erforderliche Liste vom Listenfeld oben.
+
+1. Klicken Sie auf die Schaltfläche **Liste bearbeiten**.
+
+1. Geben Sie in das Feld **Name** einen neuen Namen für die Liste ein.
+
+1. Bearbeiten Sie bei Bedarf die Beschreibung für die Liste im Feld **Beschreibung**.
+
+1. Klicken Sie auf **OK**, um die Änderungen zu speichern.
 
 ## Benutzerdefinierte Liste löschen
 

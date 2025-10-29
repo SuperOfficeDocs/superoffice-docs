@@ -29,6 +29,18 @@ Listen blir nå lagt til under **Lister**. Hvis du ser på listen under Lister, 
 
 I tillegg til å angi navn på og gi en beskrivelse av listen må du [legge til forekomster][1] i den.
 
+## Endre navn og beskrivelse
+
+1. Klikk på pilen, og velg den ønskede listen fra listeboksen øverst.
+
+1. Klikk på **Rediger liste**-knappen.
+
+1. Endre eventuelt navnet på listen i feltet **Navn**.
+
+1. Endre eventuelt beskrivelsen av listen i feltet **Beskrivelse**.
+
+1. Klikk på **OK** for å lagre endringene i Innstillinger og vedlikehold.
+
 ## Slett brukerdefinert liste
 
 > [!NOTE]
