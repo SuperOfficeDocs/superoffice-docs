@@ -22,19 +22,6 @@ language: da
 5. Rediger beskrivelsen af listen efter behov i feltet **Beskrivelse**.
 6. Klik på **OK** for at gemme ændringerne i Indstillinger og vedligeholdelse.
 
-## Eksempel – tilpas abonnementstyper
-
-I henhold til mange europæiske love, der regulerer lokal markedsføringspraksis, må en virksomhed kun sende digitale marketingmeddelelser til de personer, der har givet dig deres tilladelse til at gøre det. Få flere oplysninger om, hvordan du tilføjer og redigerer abonnementstyper i dette eksempel.
-
-Ved at oprette forskellige abonnementstyper til dine udsendelser kan du sende dine målgrupper relevant og forventet kommunikation på det rette tidspunkt og forbedre resultaterne af dine E-marketingkampagner.
-
-Når en person er blevet registreret i SuperOffice CRM, kan denne person abonnere på den markedsføringskommunikation, de ønsker at modtage. Det kan de gøre ved at indstille deres abonnementspræferencer. Grundlæggende tilføjer du de abonnementstyper, jeres virksomhed tilbyder, og fjerner dem, I ikke tilbyder.
-
-Se denne video for at få at vide, hvordan du tilføjer og redigerer abonnementstyper (videoens længde - 2:00):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tBtLjFKnBj4]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->

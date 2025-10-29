@@ -22,19 +22,6 @@ language: sv
 5. Redigera beskrivningen av listan i fältet **Beskrivning** om det behövs.
 6. Klicka på **OK** så att ändringarna sparas under Inställningar och underhåll.
 
-## Exempel: anpassa prenumerationstyper
-
-Enligt många europeiska lagar som reglerar lokal marknadsföring får ett företag bara skicka digitala marknadsföringsmeddelanden till personer som har gett sitt samtycke till detta. Det här exemplet visar hur du lägger till och redigerar prenumerationstyper.
-
-Genom att skapa olika prenumerationstyper för olika utskick kan du skicka relevant och förväntad kommunikation vid rätt tidpunkt till dina målgrupper och förbättra resultaten av dina digitala kampanjer.
-
-När en kontakt har lagts in i SuperOffice CRM kan personen i fråga välja vilken marknadskommunikation de vill prenumerera på genom att ange sina prenumerationspreferenser. Du lägger helt enkelt till de prenumerationstyper ditt företag erbjuder och tar bort de ni inte erbjuder.
-
-I den här filmen förklarar vi hur du lägger till och redigerar prenumerationstyper (filmens längd: 2:00):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/tBtLjFKnBj4]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
