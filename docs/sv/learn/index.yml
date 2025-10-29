@@ -24,42 +24,42 @@ highlightedContent:
   items:
     # Card
     - title: Kalender
-      itemType: /media/common/nav-diary-h32.png
+      itemType: /media/common/calendar.png
       isImage: "true"
       url: ../diary/learn/index.md
     # Card
     - title: Dashboards
-      itemType: /media/common/nav-dashboard-h32.png
+      itemType: /media/common/gauge.png
       isImage: "true"
       url: ../dashboard/learn/index.md
     # Card
     - title: Dokument
-      itemType: /media/common/document-h32.png
+      itemType: /media/common/file-text.png
       isImage: "true"
       url: ../document/learn/index.md
     # Card
     - title: Ärenden
-      itemType: /media/common/nav-cs-h32.png
+      itemType: /media/common/ticket.png
       isImage: "true"
       url: ../request/learn/index.md
     # Card
     - title: Projekt
-      itemType: /media/common/nav-project-h32.png
+      itemType: /media/common/clipboard-text.png
       isImage: "true"
       url: ../project/learn/index.md
     # Card
     - title: Försäljning
-      itemType: /media/common/nav-sale-h32.png
+      itemType: /media/common/currency-circle-dollar.png
       isImage: "true"
       url: ../sale/learn/index.md
     # Card
     - title: Marknadsföring
-      itemType: /media/common/nav-marketing-h32.png
+      itemType: /media/common/target.png
       isImage: "true"
       url: ../marketing/learn/index.md
     # Card
     - title: Mobile CRM
-      itemType: /media/common/phone-h32.png
+      itemType: /media/common/device-mobile.png
       isImage: "true"
       url: ../../en/mobile/superoffice-mobile/index.md
 
