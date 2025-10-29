@@ -1,6 +1,6 @@
 ---
-uid: help-nl-adding-user-defined-lists
-title: Door gebruikers gedefinieerde lijsten toevoegen
+uid: help-nl-user-defined-lists
+title: Door gebruikers gedefinieerde lijsten
 description: Door gebruikers gedefinieerde lijsten toevoegen
 keywords: Lijst maken, gebruikers gedefinieerde lijsten
 author: SuperOffice RnD
@@ -11,20 +11,19 @@ audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Door gebruikers gedefinieerde lijsten toevoegen
+# Door gebruikers gedefinieerde lijsten
+
+## Door gebruikers gedefinieerde lijsten toevoegen
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. Klik op de knop **Lijst maken** rechtsboven in het scherm.
+1. Klik op de knop **Lijst maken** rechtsboven in het scherm.
 
-3. Typ de gewenste naam voor de lijst in het veld **Naam**.
+1. Typ de gewenste naam voor de lijst in het veld **Naam**. *(Verplicht)*
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+1. Typ zo nodig een beschrijving voor de lijst in het veld **Beschrijving**.
 
-4. Typ zo nodig een beschrijving voor de lijst in het veld **Beschrijving**.
-
-5. Klik op **OK** om de lijst op te slaan in Instellingen en onderhoud.
+1. Klik op **OK** om de lijst op te slaan.
 
 De lijst wordt nu toegevoegd aan de lijst **Lijsten**. Wanneer u de lijst op de lijst aanvinkt, wordt de beschrijving getoond bovenaan het scherm **Lijsten**.
 

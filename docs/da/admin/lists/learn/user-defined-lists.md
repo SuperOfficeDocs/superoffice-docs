@@ -1,6 +1,6 @@
 ---
-uid: help-da-adding-user-defined-lists
-title: Tilføjelse af brugerdefinerede lister
+uid: help-da-user-defined-lists
+title: Brugerdefinerede lister
 description: Tilføjelse af brugerdefinerede lister
 keywords: opret liste, brugerdefinerede lister
 author: SuperOffice RnD
@@ -11,20 +11,19 @@ audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Tilføjelse af brugerdefinerede lister
+# Brugerdefinerede lister
+
+## Tilføj brugerdefinerede lister
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. Klik på knappen **Opret liste** øverst til højre i skærmbilledet.
+1. Klik på knappen **Opret liste** øverst til højre i skærmbilledet.
 
-3. Indtast det ønskede navn for listen i feltet **Navn**.
+1. Indtast det ønskede navn for listen i feltet **Navn**. *(Obligatorisk)*
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+1. Angiv eventuelt en beskrivelse af listen i feltet **Beskrivelse**.
 
-4. Angiv eventuelt en beskrivelse af listen i feltet **Beskrivelse**.
-
-5. Klik på **OK** for at gemme listen i Indstillinger og vedligeholdelse.
+1. Klik på **OK** for at gemme listen.
 
 Listen føjes til listen **Lister**. Hvis du tjekker listen på listen, vises beskrivelsen øverst på skærmbilledet **Lister**.
 

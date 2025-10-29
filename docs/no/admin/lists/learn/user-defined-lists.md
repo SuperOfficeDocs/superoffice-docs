@@ -1,6 +1,6 @@
 ---
-uid: help-no-adding-user-defined-lists
-title: Legge til brukerdefinerte lister
+uid: help-no-user-defined-lists
+title: Brukerdefinerte lister
 description: Legge til brukerdefinerte lister
 author: SuperOffice RnD
 date: 06.29.2022
@@ -9,20 +9,19 @@ content_type: howto
 language: no
 ---
 
-# Legge til brukerdefinerte lister
+# Brukerdefinerte lister
+
+## Legg til brukerdefinert liste
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. Klikk på knappen **Opprett liste** øverst til høyre i bildet.
+1. Klikk på knappen **Opprett liste** øverst til høyre i bildet.
 
-3. Skriv ønsket navn på listen i feltet **Navn**.
+1. Skriv ønsket navn på listen i feltet **Navn**. *(Obligatorisk)*
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+1. Legg eventuelt inn en beskrivelse av listen i feltet **Beskrivelse**.
 
-4. Legg eventuelt inn en beskrivelse av listen i feltet **Beskrivelse**.
-
-5. Klikk på **OK** for å lagre listen i Innstillinger og vedlikehold.
+1. Klikk på **OK** for å lagre listen.
 
 Listen blir nå lagt til under **Lister**. Hvis du ser på listen under Lister, vises beskrivelsen øverst i **Lister**-bildet.
 

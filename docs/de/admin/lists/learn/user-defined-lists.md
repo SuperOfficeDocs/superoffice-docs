@@ -1,6 +1,6 @@
 ---
-uid: help-de-adding-user-defined-lists
-title: Benutzerdefinierte Listen hinzufügen
+uid: help-de-user-defined-lists
+title: Benutzerdefinierte Listen
 description: Benutzerdefinierte Listen hinzufügen
 author: SuperOffice RnD
 date: 06.29.2022
@@ -9,20 +9,19 @@ content_type: howto
 language: de
 ---
 
-# Benutzerdefinierte Listen hinzufügen
+# Benutzerdefinierte Listen
+
+## Benutzerdefinierte Listen hinzufügen
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. Klicken Sie oben rechts in der Ansicht auf die Schaltfläche **Liste erstellen**.
+1. Klicken Sie oben rechts in der Ansicht auf die Schaltfläche **Liste erstellen**.
 
-3. Geben Sie den gewünschten Listennamen in das Feld **Name** ein.
+1. Geben Sie den gewünschten Listennamen in das Feld **Name** ein. *(Pflichtfeld)*
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+1. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für die Liste ein.
 
-4. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für die Liste ein.
-
-5. Klicken Sie auf **OK**, um die Änderungen in Einstellungen und Verwaltung zu speichern.
+1. Klicken Sie auf **OK**, um die Änderungen zu speichern.
 
 Die Liste wird zur Liste **Listen** hinzugefügt. Wenn Sie die Liste in der Liste aktivieren, wird die Beschreibung oben in der Ansicht **Listen** angezeigt.
 
