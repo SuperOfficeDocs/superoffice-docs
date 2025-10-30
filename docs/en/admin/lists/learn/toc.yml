@@ -1,12 +1,10 @@
 items:
 - name: Introduction
   href: index.md
-- name: Add items
+- name: Add list items
   href: adding-items.md
-- name: Edit items
-  href: editing-items.md
-- name: Delete items
-  href: deleting-items.md
+- name: Edit and delete list items
+  href: ../update-items.md
 - name: Grouping and filtering
   topicHref: organize/index.md
   items:

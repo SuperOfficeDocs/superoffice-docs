@@ -3,10 +3,8 @@ items:
   href: index.md
 - name: Lägga till poster
   href: adding-items.md
-- name: Redigera poster
-  href: editing-items.md
-- name: Ta bort poster
-  href: deleting-items.md
+- name: Redigera eller ta bort poster
+  href: ../update-items.md
 - name: Gruppering och filtrering
   topicHref: organize/index.md
   items:

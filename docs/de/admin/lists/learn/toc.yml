@@ -1,12 +1,10 @@
 items:
 - name: Einführung
   href: index.md
-- name: Objekte hinzufügen
+- name: Listeobjekte hinzufügen
   href: adding-items.md
-- name: Objekte bearbeiten
-  href: editing-items.md
-- name: Objekte löschen
-  href: deleting-items.md
+- name: Listeobjekte bearbeiten oder löschen
+  href: ../update-items.md
 - name: Gruppieren und Filtern
   topicHref: organize/index.md
   items:

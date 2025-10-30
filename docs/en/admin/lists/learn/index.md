@@ -35,7 +35,7 @@ The **Lists** screen is divided into the following parts:
 > User groups and headings are not displayed for lists where they are irrelevant.
 
 * At the top of the screen, you can click the list box to choose from among all available lists in SuperOffice, both predefined and [user-defined lists][5].
-* The **Items** tab contains the [items][1] that are available for the selected list.
+* The **Items** tab contains the [items](#items) that are available for the selected list.
 * The **User groups** tab shows items [filtered by user group][7].
 * The **Headings** tab shows [items per heading][1].
 * In the **Visible for user groups** list, you can see the group(s) that the item selected in the **Items** list are displayed to. You can for example choose to have different follow-up types available for your Sales, Support and Accounting user groups.
@@ -43,9 +43,9 @@ The **Lists** screen is divided into the following parts:
 
 At the upper right is the **Use grouping and user group filtering for this list** checkbox, where you specify if the list can be grouped and filtered. This option is deactivated for lists where this is irrelevant.
 
-At the bottom of the **Lists** screen is the **Show deleted items and headings** checkbox, which allows you to undo the deletion of items and headings. See [Delete items][8] and [Deleted items and headings][9].
+At the bottom of the **Lists** screen is the **Show deleted items and headings** checkbox, which allows you to [undo the deletion][9] of items and headings.
 
-## Items
+## <a id="items"></a>Items
 
 In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted.
 
@@ -54,7 +54,7 @@ In contrast to lists themselves, the items contained in both predefined and user
 You cannot create two items with the same name in one list. The same applies to headings. If you try to create an element with the same name as an existing item or heading, a message advises you that this is not allowed. This restriction applies irrespective of if the name is in uppercase or lowercase.
 
 > [!NOTE]
-> You cannot add a new item or heading that has the same name as a deleted item or heading. See [Deleted items and headings][12].
+> You cannot add a new item or heading that has the same name as a [deleted item or heading][9].
 
 ## Related content
 
@@ -62,7 +62,8 @@ You cannot create two items with the same name in one list. The same applies to 
 * [Specialized lists][4]
 * [Add user-defined lists][5]
 * [Document templates][6]
-* [Edit a list item][11]
+* [Add a list item][11]
+* [Edit or delete a list item][8]
 
 <!-- Referenced links -->
 [1]: organize/headings.md
@@ -71,10 +72,9 @@ You cannot create two items with the same name in one list. The same applies to 
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
-[8]: deleting-items.md
+[8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
-[11]: editing-items.md
-[12]: organize/deleted-items-and-headings.md
+[11]: adding-items.md
 
 <!-- Referenced images -->

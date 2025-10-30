@@ -3,10 +3,8 @@ items:
   href: index.md
 - name: Tilføj forekomster
   href: adding-items.md
-- name: Rediger forekomster
-  href: editing-items.md
-- name: Slet forekomster
-  href: deleting-items.md
+- name: Rediger og slet forekomster
+  href: ../update-items.md
 - name: Gruppering og filtrering
   topicHref: organize/index.md
   items:

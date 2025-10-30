@@ -35,7 +35,7 @@ Fönstret **Listor** är indelat i följande sektioner:
 > Användargrupper och rubriker visas inte för listor i de fall de är irrelevanta.
 
 * Högst upp i fönstret kan du klicka på listrutan och välja bland alla tillgängliga listor i SuperOffice, både fördefinierade och [användardefinierade listor][5].
-* Fliken **Poster** innehåller de [poster][1] som är tillgängliga för den valda listan.
+* Fliken **Poster** innehåller de [poster](#items) som är tillgängliga för den valda listan.
 * På fliken **Användargrupper** visas poster [filtrerat på användargrupp][7].
 * På fliken **Rubriker** visas [poster per rubrik][1].
 * I listan **Synlig för användargrupper** ser du vilken eller vilka grupper den valda posten i listan **Poster** visas för. Du kan till exempel välja att ge användargrupperna Försäljning, Support och Redovisning tillgång till olika händelsetyper.
@@ -43,9 +43,9 @@ Fönstret **Listor** är indelat i följande sektioner:
 
 Längst upp till höger finns kryssrutan **Använd gruppering och användargruppfiltrering för den här listan** där du kan ange om listan ska kunna grupperas och filtreras. Det här alternativet är inaktiverat för listor där detta är irrelevant.
 
-Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och rubriker** som du kan använda för att ångra borttagningen av poster och rubriker. Se [Ta bort poster][8] och [Borttagna poster och rubriker][9].
+Längst ner i fönstret **Listor** finns kryssrutan **Visa borttagna poster och rubriker** som du kan använda för att [ångra borttagningen][9] av poster och rubriker.
 
-## Poster
+## <a id="items"></a>Poster
 
 Till skillnad från själva listorna kan du göra tillägg till, ändra eller ta bort poster i både fördefinierade och användardefinierade listor.
 
@@ -54,7 +54,7 @@ Till skillnad från själva listorna kan du göra tillägg till, ändra eller ta
 Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rubriker. Om du försöker skapa ett objekt med samma namn som en befintlig post eller rubrik visas ett meddelande om att det inte är tillåtet. Denna begränsning gäller oavsett om namnet är skrivet med versaler eller gemener.
 
 > [!NOTE]
-> Du kan inte lägga till en ny post eller rubrik som har samma namn som en borttagen post eller rubrik. Se [Borttagna poster och rubriker][12].
+> Du kan inte lägga till en ny post eller rubrik som har samma namn som en [borttagen post eller rubrik][9].
 
 ## Relaterat innehåll
 
@@ -62,7 +62,8 @@ Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rub
 * [Speciallistor][4]
 * [Lägga till användardefinierade listor][5]
 * [Dokument – Mall][6]
-* [Redigera en post][11]
+* [Redigera eller bort en post][8]
+* [Lägga till en post][11]
 
 <!-- Referenced links -->
 [1]: organize/headings.md
@@ -71,10 +72,9 @@ Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rub
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
-[8]: deleting-items.md
+[8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../../../custom-objects/learn/udef.md
-[11]: editing-items.md
-[12]: organize/deleted-items-and-headings.md
+[10]: ../../../custom-objects/admin/edit-udef-layout.md
+[11]: adding-items.md
 
 <!-- Referenced images -->
