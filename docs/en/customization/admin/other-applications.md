@@ -113,5 +113,5 @@ After adding items, you can specify details for each individual item. You can sp
 The items are displayed in the order you entered them. To change the order, select an item and move it up or down using the arrow buttons to the left of the list (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/organize/headings.md
+[1]: ../../admin/lists/headings.md
 [2]: ../../admin/lists/user-group-filtering.md

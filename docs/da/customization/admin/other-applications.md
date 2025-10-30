@@ -113,5 +113,5 @@ Når du har tilføjet forekomster, kan du angive detaljer for hver enkelt foreko
 Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne til venstre for listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/organize/headings.md
+[1]: ../../admin/lists/headings.md
 [2]: ../../admin/lists/user-group-filtering.md

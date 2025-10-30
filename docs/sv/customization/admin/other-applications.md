@@ -113,5 +113,5 @@ När du har lagt till poster kan du ange egenskaper för varje enskild post. Du 
 Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna till vänster om listan (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/organize/headings.md
+[1]: ../../admin/lists/headings.md
 [2]: ../../admin/lists/user-group-filtering.md

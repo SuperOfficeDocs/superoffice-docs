@@ -84,7 +84,7 @@ You can add project members and stakeholders from the contact lists in different
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [3]: ../../../contact/learn/create.md
-[5]: ../../../admin/lists/learn/editing-items.md
+[5]: ../../../admin/lists/update-items.md
 
 <!-- Referenced images -->
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png

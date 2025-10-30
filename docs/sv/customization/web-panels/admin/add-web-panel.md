@@ -112,7 +112,7 @@ I Service kallas webbpaneler för **extra webbläsarflikar**. Du kan lägga till
 [3]: ../../../localization/learn/translate-fields.md
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
-[6]: ../../../admin/lists/learn/organize/headings.md
+[6]: ../../../admin/lists/headings.md
 [7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
 
