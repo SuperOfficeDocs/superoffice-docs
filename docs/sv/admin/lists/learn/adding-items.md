@@ -1,17 +1,18 @@
 ---
 uid: help-sv-adding-items
-title: Lägga till poster
-description: Lägga till poster
-keywords: lister
-author: SuperOffice RnD
-date: 02.25.2025
+title: Lägga till poster i listor
+description: Lägg till poster i fördefinierade och användardefinierade listor
+keywords: lista, legg till post
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
-# Lägg till poster i fördefinierade och användardefinierade listor
+# Lägga till poster i listor
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -21,9 +22,7 @@ language: sv
 
     Vissa listtyper är mer specialiserade än de som beskrivs i den här proceduren. [Så lägger du till en post i en speciallista][1].
 
-4. Skriv namnet på posten i fältet **Namn** i dialogrutan.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. Skriv namnet på posten i fältet **Namn** i dialogrutan. *(Obligatoriskt)*
 
 5. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**.
 

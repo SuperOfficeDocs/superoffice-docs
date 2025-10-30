@@ -1,19 +1,10 @@
 items:
-- name: Overview
+- name: Introduction
   href: index.md
-- name: Items
-  topicHref: items.md
-  items:
-  - name: Overview
-    href: items.md
-  - name: Add items
-    href: adding-items.md
-  - name: Edit items
-    href: editing-items.md
-  - name: Delete items
-    href: deleting-items.md
-  - name: Duplicates
-    href: duplicates.md
+- name: Add list items
+  href: adding-items.md
+- name: Edit and delete list items
+  href: ../update-items.md
 - name: Grouping and filtering
   topicHref: organize/index.md
   items:

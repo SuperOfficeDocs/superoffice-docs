@@ -1,15 +1,18 @@
 ---
 uid: help-no-adding-items
-title: Legge til forekomster
-description: Legge til forekomster
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold
+title: Legge til listeforekomst
+description: Legge til elementer i forhåndsdefinerte og brukerdefinerte lister
+keywords: legg til forekomst, legg til element, legg til i liste, listeelememnt, listeforekomst
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 
-# Legge til elementer i forhåndsdefinerte og brukerdefinerte lister
+# Legge til listeforekomst
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -19,9 +22,7 @@ language: no
 
     Enkelte listetyper er mer spesialiserte enn de som er nevnt i denne prosedyren. [Slik legger du til et element i en spesialisert liste][1].
 
-4. Skriv inn ønsket navn på elementet i feltet **Navn** i dialogboksen.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. Skriv inn ønsket navn på elementet i feltet **Navn** i dialogboksen. *(Obligatorisk)*
 
 5. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**.
 

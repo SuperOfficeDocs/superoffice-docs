@@ -1,17 +1,18 @@
 ---
 uid: help-en-adding-items
-title: Adding items
-description: Adding items
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance, list
+title: Add list items
+description: Add items to predefined and user-defined lists
+keywords: list
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
 ---
 
-# Add items to predefined and user-defined lists
+# Add lists items
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -21,9 +22,7 @@ language: en
 
     Some list types are more specialized than those referred to in this procedure. [How to add an item to a specialized list][1].
 
-4. In the dialog, enter the required name of the item in the **Name** field.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. In the dialog, enter the required name of the item in the **Name** field. *(Mandatory)*
 
 5. Optionally, type in a description of the item in the **Description** field.
 

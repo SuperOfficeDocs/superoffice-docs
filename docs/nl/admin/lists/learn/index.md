@@ -3,11 +3,15 @@ uid: help-nl-lists
 title: Lijsten
 description: Lijsten bewerken
 keywords: lijst
-author: SuperOffice RnD
-date: 03.14.2025
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /nl/admin/lists/learn/items
+  - /nl/admin/lists/learn/duplicates
 language: nl
 ---
 
@@ -31,7 +35,7 @@ Het scherm **Lijsten** is verdeeld in de volgende tabbladen:
 > Gebruikersgroepen en kopregels worden niet weergegeven voor lijsten als deze niet relevant zijn.
 
 * Boven in het scherm kunt u op de keuzelijst klikken om te kiezen uit alle beschikbare lijsten in SuperOffice, zowel vooraf gedefinieerde als [door de gebruiker gedefinieerde lijsten][5].
-* Het tabblad **Items** bevat de [items][1] die beschikbaar zijn voor de geselecteerde lijst.
+* Het tabblad **Items** bevat de [items](#items) die beschikbaar zijn voor de geselecteerde lijst.
 * Het tabblad **Gebruikersgroepen** geeft items weer [gefilterd op gebruikersgroep][7].
 * Het tabblad **Kopteksten** geeft [items per koptekst][1] weer.
 * In de lijst **Zichtbaar voor gebruikersgroepen** kunt u zien welke groep(en) het item dat is geselecteerd in de lijst **Items** kan zien. U kunt bijvoorbeeld verschillende typen vervolgactiviteiten kiezen voor uw verkoop-, ondersteunings- en boekhoudingsgebruikersgroepen.
@@ -39,46 +43,38 @@ Het scherm **Lijsten** is verdeeld in de volgende tabbladen:
 
 Rechts bovenin is het selectievakje **Groeperen en filteren gebruikersgroep voor deze lijst gebruiken**, waarin u kunt aangeven of de lijst wel of niet kan worden gegroepeerd en gefilterd. Deze optie is gedeactiveerd voor lijsten waarvoor dit irrelevant is.
 
-Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopteksten weergeven**, waarmee u het verwijderen van items en kopteksten ongedaan kunt maken. Zie [Items verwijderen][8] en [Verwijderde items en kopteksten][9].
+Onder in het scherm **Lijsten** is het selectievakje **Verwijderde items en kopteksten weergeven**, waarmee u het verwijderen van items en kopteksten [ongedaan][9] kunt maken.
 
-## Uw verkooplijsten aanpassen
+## <a id="items"></a>Lijstitems
 
-SuperOffice CRM is ontworpen om de verkooptypen te ondersteunen die gebruikelijk zijn voor de meeste bedrijven, maar er zijn nog steeds enkele bedrijven die misschien hun eigen verkooptypen willen maken.
+In tegenstelling tot lijsten, kunt u items wijzigen in, toevoegen aan en verwijderen uit zowel vooraf gedefinieerde lijsten als door gebruikers gedefinieerde lijsten.
 
-Afhankelijk van het type bedrijf waarin uw bedrijf zich bevindt, kunt u het systeem aanpassen door de verkooplijsten te maken die u nodig hebt.
+### Duplicaten
 
-Bekijk de volgende lijsten om te zien of u ze wilt wijzigen of niet:
+U kunt binnen een lijst niet twee items met dezelfde naam maken. Hetzelfde geldt voor kopteksten. Als u probeert een item of koptekst te maken met dezelfde naam als een bestaand item of een bestaande koptekst, krijgt u de melding dat dit niet is toegestaan. Het maakt hierbij niet uit of u hoofdletters of kleine letters gebruikt.
 
-* Verkoop - Bron
-* Verkoop - Fase
-* Verkoop - Typecategorie
-* Verkoop - Type, Fasen, Offerte
-
-Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze passen bij de manier waarop u werkt. Het voorbeeld dat in deze video wordt gebruikt, is van de lijst Bedrijf - Categorie met een vergelijkbare instelling als Verkoop - Fase (videolengte - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+> [!NOTE]
+> U kunt geen nieuw item of nieuwe koptekst toevoegen met dezelfde naam als een [verwijderd item of verwijderde koptekst][9].
 
 ## Gerelateerde inhoud
 
-* [Items][2]
 * [Lijsten organiseren][3]
 * [Gespecialiseerde lijsten][4]
 * [Door gebruikers gedefinieerde lijsten toevoegen][5]
 * [Document - Sjabloon][6]
-* [Een lijstitem bewerken][11]
+* [Een lijstitem bewerken of verwijderen][8]
+* [Een lijstitem toevoegen][11]
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
-[8]: deleting-items.md
+[8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../../../custom-objects/learn/udef.md
-[11]: editing-items.md
+[10]: ../../../custom-objects/admin/edit-udef-layout.md
+[11]: adding-items.md
 
 <!-- Referenced images -->

@@ -2,12 +2,16 @@
 uid: help-de-lists
 title: Listen
 description: Wie man Listen bearbeitet
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: Liste
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /de/admin/lists/learn/items
+  - /de/admin/lists/learn/duplicates
 language: de
 ---
 
@@ -23,7 +27,7 @@ Die Ansicht **Listen** enthält Beschreibungen und Definitionen der Listen in Su
 
 [!include[Find specific list](includes/tip-find-list.md)]
 
-Außerdem können Sie eigene benutzerdefinierte Listen hinzufügen. Diese werden auf den Registerkarten **Mehr** in SuperOffice CRM angezeigt. Sie können in der Ansicht **Felder** angeben, was in den Registerkarten **Mehr** angezeigt wird.
+Außerdem können Sie eigene benutzerdefinierte Listen hinzufügen. Diese werden auf den Registerkarten **Mehr** in SuperOffice CRM angezeigt. Sie können in der [Ansicht Felder][10] angeben, was in den Registerkarten **Mehr** angezeigt wird.
 
 Die Ansicht **Listen** besteht aus den folgenden Teilen:
 
@@ -31,7 +35,7 @@ Die Ansicht **Listen** besteht aus den folgenden Teilen:
 > Benutzergruppen und Überschriften werden nicht für Listen angezeigt, wenn sie nicht relevant sind.
 
 * Sie können oben in der Ansicht auf das Listenfeld klicken, um aus allen verfügbaren Listen in SuperOffice vor- und [benutzerdefinierte Listen][5] auszuwählen.
-* Die Registerkarte **Objekte** enthält die [Objekte][1], die für die ausgewählte Liste verfügbar sind.
+* Die Registerkarte **Objekte** enthält die [Objekte](#items), die für die ausgewählte Liste verfügbar sind.
 * Die Registerkarte **Benutzergruppen** zeigt [nach Benutzergruppe gefiltert][7] die Objekte an.
 * Die Registerkarte **Überschriften** zeigt [Objekte nach Überschrift][1] an.
 * In der Liste **Sichtbar für Benutzergruppen** können Sie die Gruppe(n) sehen, für welche das in der Liste **Objekte** ausgewählte Objekt angezeigt wird. Sie können beispielsweise wählen, dass für Ihre Benutzergruppen Vertrieb, Support und Buchhaltung verschiedene Folgeaufgabentypen verfügbar sind.
@@ -39,45 +43,38 @@ Die Ansicht **Listen** besteht aus den folgenden Teilen:
 
 Mit dem Kontrollkästchen **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** oben rechts können Sie festlegen, ob die Liste gruppiert und gefiltert werden kann. Diese Option ist bei Listen, für die dies nicht relevant ist, deaktiviert.
 
-Unten in der Ansicht **Listen** finden Sie die Option **Gelöschte Objekte und Überschriften anzeigen**, mit der Sie das Löschen von Objekten und Überschriften rückgängig machen können. (siehe [Objekte löschen][8] und [Gelöschte Objekte und Überschriften][9]).
+Unten in der Ansicht **Listen** finden Sie die Option **Gelöschte Objekte und Überschriften anzeigen**, mit der Sie das Löschen von Objekten und Überschriften [rückgängig machen][9] können.
 
-## Ihre Verkaufslisten anpassen
+## <a id="items"></a>Listenobjekten
 
-SuperOffice CRM wurde entwickelt, um die für die meisten Branchen üblichen Verkaufstypen zu unterstützen, dennoch gibt es immer noch einige Firmen, die ihre eigenen erstellen möchten.
+Im Gegensatz zu den eigentlichen Listen können Sie sowohl in vordefinierten als auch in benutzerdefinierten Listen Objekte hinzufügen, bearbeiten und löschen.
 
-Je nach dem Branchentyp Ihrer Firma können Sie das System anpassen, indem Sie die benötigten Verkaufslisten erstellen.
+### Duplikate
 
-Schauen Sie sich die folgenden Listen an, um zu sehen, ob Sie sie ändern möchten oder nicht:
+Sie können keine zwei Objekte mit demselben Namen in einer Liste registrieren. Dies gilt auch für Überschriften. Wenn Sie versuchen, ein Objekt oder eine Überschrift unter einem bereits vorhandenen Namen zu registrieren, erhalten Sie eine Fehlermeldung. Diese Einschränkung gilt unabhängig davon, ob der Name mit Groß- oder Kleinschreibung ist.
 
-* Verkauf - Quelle
-* Verkauf - Stufe
-* Verkauf - Kategorietyp
-* Verkauf - Typ, Stufen, Angebot
-
-Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Ihre Verkaufslisten bearbeiten können, damit sie zu Ihrer Arbeitsweise passen. Das in diesem Video verwendete Beispiel zeigt die Liste Firma - Kategorie, die ein ähnliches Setup wie Verkauf - Stufe hat (Videolänge - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+> [!NOTE]
+> Sie können ein neues Objekt bzw. eine neue Überschrift nicht unter dem Namen von [gelöschten Objekten][9] bzw.
 
 ## Verwandte Themen
 
-* [Objekte][2]
 * [Listen organisieren][3]
 * [Speziallisten][4]
 * [Benutzerdefinierte Listen hinzufügen][5]
 * [Dokument - Vorlage][6]
-* [Listenobjekt bearbeiten][11]
+* [Listenobjekt bearbeiten oder löschen][8]
+* [Listenobjekt hinzufügen][11]
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
-[8]: deleting-items.md
+[8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
-[11]: editing-items.md
+[10]: ../../../custom-objects/admin/edit-udef-layout.md
+[11]: adding-items.md
 
 <!-- Referenced images -->

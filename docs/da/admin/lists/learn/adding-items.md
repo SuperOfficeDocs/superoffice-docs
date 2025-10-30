@@ -1,17 +1,18 @@
 ---
 uid: help-da-adding-items
-title: Tilføjelse af forekomster
-description: Tilføjelse af forekomster
-keywords: tilføjelse af elementer, tilføjelse af listeelementer, lister
-author: SuperOffice RnD
-date: 02.28.2025
+title: Tilføj listeforekomst
+description: Tilføjelse af forekomster til foruddefinerede og brugerdefinerede lister
+keywords: tilføj listeelement, tilføj forekomst
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Tilføjelse af elementer til foruddefinerede og brugerdefinerede lister
+# Tilføj listeforekomst
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -21,9 +22,7 @@ language: da
 
     Nogle listetyper er mere specialiserede end dem, der henvises til i denne procedure. [Sådan føjer du en forekomst til en specialiseret liste][1].
 
-4. Indtast i dialogboksen det ønskede navn for forekomsten i feltet **Navn**.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. Indtast i dialogboksen det ønskede navn for forekomsten i feltet **Navn**.*(Obligatorisk)*
 
 5. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**.
 

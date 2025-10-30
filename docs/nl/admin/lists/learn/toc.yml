@@ -1,19 +1,10 @@
 items:
-- name: Overzicht
+- name: Introductie
   href: index.md
-- name: Items
-  topicHref: items.md
-  items:
-  - name: Overzicht
-    href: items.md
-  - name: Items toevoegen
-    href: adding-items.md
-  - name: Items bewerken
-    href: editing-items.md
-  - name: Items verwijderen
-    href: deleting-items.md
-  - name: Duplicaten
-    href: duplicates.md
+- name: Lijstitems toevoegen
+  href: adding-items.md
+- name: Lijstitems bewerken of verwijderen
+  href: ../update-items.md
 - name: Groeperen en filteren
   topicHref: organize/index.md
   items:

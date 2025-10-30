@@ -1,17 +1,18 @@
 ---
 uid: help-nl-adding-items
-title: Items toevoegen
-description: Items toevoegen
-keywords: Items toevoegen, lijst
-author: SuperOffice RnD
-date: 03.14.2025
+title: Lijsttems toevoegen
+description: Items toevoegen in vooraf gedefinieerde en door gebruikers gedefinieerde lijsten
+keywords: item toevoegen, lijstitem
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Items toevoegen in vooraf gedefinieerde en door gebruikers gedefinieerde lijsten
+# Lijsttems toevoegen
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -21,9 +22,7 @@ language: nl
 
     Sommige typen lijsten zijn gespecialiseerder dan de typen waarnaar wordt verwezen in deze procedure. [Een item toevoegen aan een gespecialiseerde lijst][1].
 
-4. Voer in het dialoogvenster de vereiste naam van het item in het veld **Naam** in.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. Voer in het dialoogvenster de vereiste naam van het item in het veld **Naam** in. *(Verplicht)*
 
 5. Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**.
 

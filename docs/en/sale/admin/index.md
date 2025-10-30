@@ -29,6 +29,24 @@ Use the **Workflow** and **Lists** screens in **Settings and maintenance** to co
 | Currency | A list item defining available currencies for sales amounts, including exchange rate and unit. | **Lists** > **General – Currency** |
 | Base currency | The primary currency used for system-wide calculations and exchange rates. | **Preferences** > **Global preferences** > **System** > **Base currency** |
 
+## Customize your sales lists
+
+SuperOffice CRM is designed to support the sales types common for most businesses, yet there are still some companies that may want to create their own.
+
+Depending on the type of business your company is in, you can tailor the system by creating the sales lists you need.
+
+Have a look at the following lists, to see whether you want to change them or not:
+
+* Sale - Source
+* Sale - Stage
+* Sale - Type Category
+* Sale - Type, Stages, Quote
+
+Watch this video to see how you can edit your sales lists to make them fit the way you work. The example used in this video is of the Company - Category list which has similar setup as Sale - Stage (video length - 2:05):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+
 ## What do you want to do?
 
 * [Add a sale stage][3]: Define and manage sales phases such as "First Meeting" or "Closing."

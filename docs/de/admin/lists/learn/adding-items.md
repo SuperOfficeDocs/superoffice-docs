@@ -1,15 +1,18 @@
 ---
 uid: help-de-adding-items
-title: Objekte hinzufügen
-description: Objekte hinzufügen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Einstellungen und Verwaltung
+title: Liste Objekte hinzufügen
+description: Objekte in vordefinierte und benutzerdefinierte Listen hinzufügen
+keywords: Liste Objekte hinzufügen, Objekte hinzufügen
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Einstellungen und Verwaltung
 language: de
 ---
 
-# Objekte in vordefinierte und benutzerdefinierte Listen hinzufügen
+# Liste Objekte hinzufügen
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
@@ -19,9 +22,7 @@ language: de
 
     Einige Listentypen sind spezialisierter als die in dieser Vorgehensweise beschriebenen Listen. [Wie ein Objekt zu einer spezialisierten Liste hinzugefügt wird][1].
 
-4. Geben Sie im Dialogfeld den gewünschten Namen für das Objekt in das Feld **Name** ein.
-
-    [!include[Mandatory](includes/note-mandatory-field.md)]
+4. Geben Sie im Dialogfeld den gewünschten Namen für das Objekt in das Feld **Name** ein. *(Pflichtfeld)*
 
 5. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein.
 

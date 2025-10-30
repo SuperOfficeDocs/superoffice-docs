@@ -1,19 +1,10 @@
 items:
-- name: Oversikt
+- name: Inntroduksjon
   href: index.md
-- name: Forekomster
-  topicHref: items.md
-  items:
-  - name: Oversikt
-    href: items.md
-  - name: Legge til forekomster
-    href: adding-items.md
-  - name: Redigere forekomster
-    href: editing-items.md
-  - name: Slette forekomster
-    href: deleting-items.md
-  - name: Duplikater
-    href: duplicates.md
+- name: Legge til forekomster
+  href: adding-items.md
+- name: Redigere eller slette forekomster
+  href: ../update-items.md
 - name: Gruppering og filtrering
   topicHref: organize/index.md
   items:

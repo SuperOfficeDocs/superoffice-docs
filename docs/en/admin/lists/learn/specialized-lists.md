@@ -85,7 +85,6 @@ The [**Relations** section tab][4] in the Company and Contact screens displays a
 
 ## Related content
 
-* [Add, edit, and delete standard lists and items][20]
 * [Add and delete company and contact relations][1]
 
 <!-- Referenced links -->
@@ -108,7 +107,6 @@ The [**Relations** section tab][4] in the Company and Contact screens displays a
 [17]: ../../../sale/admin/sale-type.md
 [18]: ../../../customization/admin/add-items-to-task-menu.md
 [19]: ../../../marketing/mailing/admin/add-domain.md
-[20]: items.md
 [21]: adding-items.md
 
 <!-- Referenced images -->

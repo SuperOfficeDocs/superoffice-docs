@@ -29,6 +29,24 @@ Bruk skjermbildene **Arbeidsflyt** og **Lister** i **Innstillinger og vedlikehol
 | Valuta | En listeforekomst som definerer tilgjengelige valutaer for salgsbeløp, inkludert valutakurs og enhet. | **Lister** > **Generelt – Valuta** |
 | Basisvaluta | Standardvalutaen som brukes til beregninger og valutakurser i hele systemet. | **Preferanser** > **Globale preferanser** > **System** > **Ledende valuta** |
 
+## Tilpasse salgslistene dine
+
+SuperOffice CRM er utviklet for å støtte salgstypene som er vanlige for de fleste firmaer, men det er likevel noen firmaer som kanskje vil lage sine egne.
+
+Avhengig av hvilken type virksomhet firmaet ditt har, kan du skreddersy systemet ved å lage salgslistene du trenger.
+
+Ta en titt på disse listene for å se om du vil endre dem:
+
+* Salg - Kilde
+* Salg - Fase
+* Salg - Typekategori
+* Salg - Type, Faser, Tilbud
+
+Se denne videoen for å se hvordan du kan redigere salgslistene dine, slik at de passer til måten du arbeider på. Eksemplet som brukes i denne videoen, er Firma - Kategori-listen, som har lignende oppsett som Salg - Fase (videolengde – 02.05):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+
 ## Hva vil du gjøre?
 
 * [Legge til en salgsfase][3]: Definer og administrer salgsfaser som "Første møte" eller "Avslutning".

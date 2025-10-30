@@ -2,12 +2,16 @@
 uid: help-da-lists
 title: Lister
 description: Sådan redigeres lister
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: liste
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+redirect_from: 
+  - /da/admin/lists/learn/items
+  - /da/admin/lists/learn/duplicates
 language: da
 ---
 
@@ -31,7 +35,7 @@ Skærmbilledet **Lister** er inddelt i følgende dele:
 > Brugergrupper og overskrifter vises ikke for lister, hvor de er irrelevante.
 
 * Øverst på skærmen kan du klikke på listen for at vælge mellem alle tilgængelige lister i SuperOffice, både foruddefinerede og [brugerdefinerede lister][5].
-* Fanen **Forekomster** indeholder de [forekomster][1], der er tilgængelige for den valgte liste.
+* Fanen **Forekomster** indeholder de [forekomster](#items), der er tilgængelige for den valgte liste.
 * Fanen **Brugergrupper** viser forekomster, der er [filtreret efter brugergruppe][7].
 * Fanen **Overskrifter** viser [forekomster pr. overskrift][1].
 * På listen **Synlig for brugergrupper** kan du se den eller de grupper, som det element, der er valgt på listen **Forekomster**, vises til. Du kan f.eks. vælge at have forskellige opfølgningstyper tilgængelige for dine brugergrupper for salg, support og regnskab.
@@ -39,46 +43,38 @@ Skærmbilledet **Lister** er inddelt i følgende dele:
 
 Øverst til højre er afkrydsningsfeltet **Brug gruppering og brugergruppefiltrering til denne liste**, hvor du angiver, om listen kan grupperes og filtreres. Denne indstilling deaktiveres for lister, hvor dette er irrelevant.
 
-Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forekomster og overskrifter**, som giver dig mulighed for at fortryde sletningen af forekomster og overskrifter. Se [Slet forekomster][8] og [Slettede forekomster og overskrifter][9].
+Nederst på skærmbilledet **Lister** er afkrydsningsfeltet **Vis slettede forekomster og overskrifter**, som giver dig mulighed for at [fortryde][9] sletningen af forekomster og overskrifter.
 
-## Tilpasning af dine salgslister
+## <a id="items"></a>Forekomster
 
-SuperOffice CRM er designet til at understøtte de salgstyper, der er almindelige for de fleste virksomheder, men der er stadig firmaer, der måske ønsker at oprette deres egne.
+I modsætning til selve listerne kan forekomster, der er indeholdt i både foruddefinerede og brugerdefinerede lister, tilføjes, ændres eller slettes.
 
-Afhængigt af hvilken type branche dit firma er i, kan du skræddersy systemet ved at oprette de salgslister, du har brug for.
+### Dubletter
 
-Se på følgende lister for at se, om du vil ændre dem eller ej:
+Du kan ikke oprette to forekomster med samme navn på én liste. Det samme gælder overskrifter. Hvis du forsøger at oprette et element med samme navn som et eksisterende element eller en eksisterende overskrift, får du besked om, at dette ikke er tilladt. Denne begrænsning gælder, uanset om navnet er skrevet med store eller små bogstaver.
 
-* Salg – Kilde
-* Salg – Fase
-* Salg – Typekategori
-* Salg – Type, Faser, Tilbud
-
-Se denne video for at se, hvordan du kan redigere dine salgslister, så de passer til den måde, du arbejder på. Eksemplet, der bruges i denne video, er fra listen Firma – Kategori, der har en opsætning magen til Salg – Stage (videolængde - 2:05):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
+> [!NOTE]
+> Du kan ikke tilføje et nyt element eller en ny overskrift, der har samme navn som en [slettet forekomst eller overskrift][9].
 
 ## Relateret indhold
 
-* [Forekomster][2]
 * [Organisering af lister][3]
 * [Specialiserede lister][4]
 * [Tilføjelse af brugerdefinerede lister][5]
 * [Dokument – Skabelon][6]
-* [Redigering af en forekomst][11]
+* [Rediger eller slet en forekomst][8]
+* [Tilføj en forekomst][11]
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[2]: items.md
 [3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
 [7]: organize/user-group-filtering.md
-[8]: deleting-items.md
+[8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
-[10]: ../../../custom-objects/learn/udef.md
-[11]: editing-items.md
+[10]: ../../../custom-objects/admin/edit-udef-layout.md
+[11]: adding-items.md
 
 <!-- Referenced images -->
