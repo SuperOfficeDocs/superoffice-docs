@@ -86,7 +86,7 @@ I den här filmen förklarar vi hur du lägger till och redigerar prenumerations
 * [Anpassa dina försäljningslistor][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
 [5]: restore.md

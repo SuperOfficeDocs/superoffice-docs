@@ -86,7 +86,7 @@ Se denne video for at få at vide, hvordan du tilføjer og redigerer abonnements
 * [Tilpasning af dine salgslister][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
 [5]: restore.md

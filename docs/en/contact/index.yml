@@ -95,7 +95,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: Adding items to relation list
-            url: ../admin/lists/learn/specialized-lists.md#relation
+            url: ../admin/lists/specialized-lists.md#relation
 
   - title: Import and bulk operations
     linkLists:

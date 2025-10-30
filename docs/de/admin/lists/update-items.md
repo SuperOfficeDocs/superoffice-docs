@@ -86,7 +86,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Abonnementtypen hinzufüge
 * [Ihre Verkaufslisten anpassen][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
 [5]: restore.md

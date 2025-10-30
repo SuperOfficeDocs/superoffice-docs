@@ -86,7 +86,7 @@ Bekijk deze video om te leren hoe u abonnementstypen toevoegt en bewerkt (videol
 * [Uw verkooplijsten aanpassen][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
 [5]: restore.md
