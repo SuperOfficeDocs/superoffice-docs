@@ -2,7 +2,7 @@ items:
 - name: Introduction
   href: index.md
 - name: Add list items
-  href: adding-items.md
+  href: add-items.md
 - name: Edit and delete list items
   href: update-items.md
 - name: Deleted items and headings

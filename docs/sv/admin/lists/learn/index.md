@@ -84,6 +84,6 @@ Under Inställningar och underhåll kan du för de flesta fördefinierade och al
 [8]: ../update-items.md
 [9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
-[11]: adding-items.md
+[11]: add-items.md
 
 <!-- Referenced images -->

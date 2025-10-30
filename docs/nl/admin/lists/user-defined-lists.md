@@ -61,6 +61,6 @@ U moet niet alleen een naam en een beschrijving opgeven voor de lijst, maar u mo
     De lijst wordt verwijderd.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

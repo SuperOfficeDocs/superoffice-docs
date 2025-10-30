@@ -84,6 +84,6 @@ Voor de meeste vooraf gedefinieerde lijsten en voor alle door gebruikers gedefin
 [8]: ../update-items.md
 [9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
-[11]: adding-items.md
+[11]: add-items.md
 
 <!-- Referenced images -->

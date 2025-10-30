@@ -61,6 +61,6 @@ Zusätzlich zur Angabe eines Namens und einer Beschreibung für die Liste müsse
     Die Liste wird gelöscht.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

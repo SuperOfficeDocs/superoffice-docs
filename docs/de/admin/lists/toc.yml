@@ -2,7 +2,7 @@ items:
 - name: Einführung
   href: index.md
 - name: Listeobjekte hinzufügen
-  href: adding-items.md
+  href: add-items.md
 - name: Listeobjekte bearbeiten oder löschen
   href: update-items.md
 - name: Gelöschte Objekte und Überschriften

@@ -92,7 +92,7 @@ Example:
 * `{pcvu}` variable is used as the display name for the Pocket configuration URL.
 
 <!-- Referenced links -->
-[2]: ../../admin/lists/learn/adding-items.md
+[2]: ../../admin/lists/add-items.md
 [3]: https://www.apple.com/business/docs/iOS_Security_Guide.pdf
 [4]: https://source.android.com/security/encryption/full-disk
 [5]: ../../onsite/security/deployment-scenarios.md

@@ -61,6 +61,6 @@ As well as specifying a name and description for the list, you must [add items][
     The list is deleted.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

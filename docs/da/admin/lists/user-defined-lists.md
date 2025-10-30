@@ -61,6 +61,6 @@ Ud over at angive et navn og en beskrivelse for listen skal du [tilføje forekom
     Listen slettes.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

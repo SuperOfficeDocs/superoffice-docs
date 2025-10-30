@@ -2,7 +2,7 @@ items:
 - name: Introduktion
   href: index.md
 - name: Lägga till poster
-  href: adding-items.md
+  href: add-items.md
 - name: Redigera eller ta bort poster
   href: update-items.md
 - name: Borttagna poster och rubriker

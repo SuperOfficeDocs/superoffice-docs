@@ -2,7 +2,7 @@ items:
 - name: Introductie
   href: index.md
 - name: Lijstitems toevoegen
-  href: adding-items.md
+  href: add-items.md
 - name: Lijstitems bewerken of verwijderen
   href: update-items.md
 - name: Gebruikersgroepen filteren

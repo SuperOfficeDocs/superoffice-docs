@@ -84,6 +84,6 @@ In Settings and maintenance, you can specify for most predefined and all user-de
 [8]: ../update-items.md
 [9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
-[11]: adding-items.md
+[11]: add-items.md
 
 <!-- Referenced images -->

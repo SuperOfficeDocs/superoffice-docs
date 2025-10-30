@@ -108,4 +108,4 @@ Die [Detailkarte **Beziehungen**][4] im Firmen‑ oder Persontbild zeigt bestehe
 [17]: ../../sale/admin/sale-type.md
 [18]: ../../customization/admin/add-items-to-task-menu.md
 [19]: ../../marketing/mailing/admin/add-domain.md
-[21]: adding-items.md
+[21]: add-items.md

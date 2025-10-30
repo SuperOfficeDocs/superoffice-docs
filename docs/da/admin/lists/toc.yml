@@ -2,7 +2,7 @@ items:
 - name: Introduktion
   href: index.md
 - name: Tilføj forekomster
-  href: adding-items.md
+  href: add-items.md
 - name: Rediger og slet forekomster
   href: update-items.md
 - name: Slettede forekomster og overskrifter

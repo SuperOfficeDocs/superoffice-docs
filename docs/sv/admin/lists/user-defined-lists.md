@@ -59,6 +59,6 @@ Förutom att ange ett namn och en beskrivning för listan måste du [lägga till
     Listan tas bort.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

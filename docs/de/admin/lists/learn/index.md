@@ -84,6 +84,6 @@ In Einstellungen und Verwaltung können Sie für die meisten vordefinierten und 
 [8]: ../update-items.md
 [9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
-[11]: adding-items.md
+[11]: add-items.md
 
 <!-- Referenced images -->
