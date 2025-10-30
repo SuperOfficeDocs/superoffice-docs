@@ -22,9 +22,9 @@ När du lägger till en post i en lista i fönstret Listor kan du också ange vi
 
 ## Välj användargrupper för en post
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den aktuella listan.
+2. [!include[Click arrow and select](includes/expand-list.md)] den aktuella listan.
 
 3. Markera **Använd gruppering och användargruppfiltrering för den här listan** längst upp till höger.
 
@@ -48,9 +48,9 @@ Du kan välja flera användargrupper för samma post. Klicka på **Markera alla*
 
 Du kan också ange vilka poster som ska vara tillgängliga för en användargrupp:
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den aktuella listan.
+2. [!include[Click arrow and select](includes/expand-list.md)] den aktuella listan.
 
 3. Markera **Använd gruppering och användargruppfiltrering för den här listan** längst upp till höger.
 

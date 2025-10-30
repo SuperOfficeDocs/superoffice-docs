@@ -22,9 +22,9 @@ Wanneer u items opgeeft voor een lijst in het scherm Lijsten, kunt u in het tabb
 
 ## Gebruikersgroepen opgeven voor een item
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] de vereiste lijst.
+2. [!include[Click arrow and select](includes/expand-list.md)] de vereiste lijst.
 
 3. Schakel **Groeperen en filteren gebruikersgroep voor deze lijst gebruiken** in de rechterbovenhoek in.
 
@@ -48,9 +48,9 @@ U kunt verschillende gebruikersgroepen inschakelen voor Ã©Ã©n item. Klik op 
 
 U kunt ook beschikbare items opgeven voor een gebruikersgroep:
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] de vereiste lijst.
+2. [!include[Click arrow and select](includes/expand-list.md)] de vereiste lijst.
 
 3. Schakel **Groeperen en filteren gebruikersgroep voor deze lijst gebruiken** in de rechterbovenhoek in.
 

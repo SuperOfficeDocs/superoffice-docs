@@ -26,9 +26,9 @@ Slettinger du gjør i disse fanene, er derfor ikke permanente. Du kan vise forek
 
 Hvis du har slettet en forekomst eller overskrift og ikke vil at den skal være fjernet fra listen i Innstillinger og vedlikehold likevel, kan du oppheve slettingen i Innstillinger og vedlikehold.
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] ønsket liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
 
 3. Merk av for **Vis slettede forekomster og overskrifter**.
 
@@ -39,7 +39,7 @@ Hvis du har slettet en forekomst eller overskrift og ikke vil at den skal være 
     > [!NOTE]
     > Denne knappen er bare tilgjengelig for slettede elementer.
 
-6. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Hvis du lagrer endringene, vil forekomsten eller overskriften også vises i den aktuelle listen i SuperOffice CRM igjen.
 

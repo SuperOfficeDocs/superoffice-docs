@@ -26,9 +26,9 @@ Derfor er de sletninger, du foretager på disse faner, ikke permanente. Du kan f
 
 Hvis du sletter en forekomst eller en overskrift og senere beslutter, at du ikke vil fjerne den fra listen under Indstillinger og vedligeholdelse, kan du fortryde sletningen i Indstillinger og vedligeholdelse.
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den påkrævede liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste.
 
 3. Tjek **Vis slettede forekomster og overskrifter**.
 
@@ -39,7 +39,7 @@ Hvis du sletter en forekomst eller en overskrift og senere beslutter, at du ikke
     > [!NOTE]
     > Denne knap er kun tilgængelig for slettede forekomster.
 
-6. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Hvis du gemmer dine ændringer, vises forekomsten eller overskriften igen på den relevante liste i SuperOffice CRM.
 

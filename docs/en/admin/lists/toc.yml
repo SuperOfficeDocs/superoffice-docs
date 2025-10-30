@@ -4,14 +4,14 @@ items:
 - name: Add list items
   href: adding-items.md
 - name: Edit and delete list items
-  href: ../update-items.md
-- name: User group filtering
-  href: ../user-group-filtering.md
-- name: Headings
-  href: organize/headings.md
+  href: update-items.md
 - name: Deleted items and headings
-  href: ../restore.md
+  href: restore.md
+- name: Headings
+  href: headings.md
+- name: User group filtering
+  href: user-group-filtering.md
 - name: Specialized lists
   href: specialized-lists.md
 - name: User-defined lists
-  href: ../user-defined-lists.md
+  href: user-defined-lists.md

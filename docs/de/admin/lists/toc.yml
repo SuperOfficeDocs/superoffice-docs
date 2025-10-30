@@ -4,14 +4,14 @@ items:
 - name: Listeobjekte hinzufügen
   href: adding-items.md
 - name: Listeobjekte bearbeiten oder löschen
-  href: ../update-items.md
-- name: Benutzergruppe filtern
-  href: ../user-group-filtering.md
-- name: Überschriften
-  href: organize/headings.md
+  href: update-items.md
 - name: Gelöschte Objekte und Überschriften
-  href: ../restore.md
+  href: restore.md
+- name: Überschriften
+  href: headings.md
+- name: Benutzergruppe filtern
+  href: user-group-filtering.md
 - name: Spezialisierte Listen
   href: specialized-lists.md
 - name: Benutzerdefinierte Listen
-  href: ../user-defined-lists.md
+  href: user-defined-lists.md

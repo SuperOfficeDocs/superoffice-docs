@@ -22,9 +22,9 @@ When you specify an item in a list in the Lists screen, you can also specify whi
 
 ## Specify user groups for an item
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
@@ -48,9 +48,9 @@ You can select several user groups for one item. Click **Select all** (<i class=
 
 You can also specify available items for a user group:
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] the required list.
+2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
 
 3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 

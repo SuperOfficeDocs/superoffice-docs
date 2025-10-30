@@ -21,8 +21,6 @@ language: en
 
 To get started, click the **Lists** button in the Navigator (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](learn/includes/tip-find-list.md)]
-
 ## Add user-defined list
 
 1. Click the **Create list** button in the upper right of the screen.

@@ -35,9 +35,9 @@ Du kan ændre navnet på eller beskrivelsen af en forekomst, der tidligere er an
 
 ### Trin
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den påkrævede liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste.
 
     Alle tidligere definerede forekomster for den valgte liste vises på listen **Forekomster**. Hvis du vælger en ny brugerdefineret liste, er listen tom.
 
@@ -47,7 +47,7 @@ Du kan ændre navnet på eller beskrivelsen af en forekomst, der tidligere er an
 
 4. Indtast et nyt navn og en beskrivelse i dialogboksen. *(Obligatorisk)*
 
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Se denne video for at få mere at vide om, hvordan du kan redigere forekomster i SuperOffice CRM (videoens længde - 2:05):
 
@@ -69,11 +69,11 @@ Se denne video for at få at vide, hvordan du tilføjer og redigerer abonnements
 
 ## <a id="delete"></a>Sletning af foruddefinerede og brugerdefinerede forekomster
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den påkrævede liste.
+1. [!include[Go to Lists](includes/goto-lists.md)]
+2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste.
 3. Vælg den forekomst, der skal slettes, på listen **Forekomster**.
 4. Klik på knappen **Slet** nederst i skærmbilledet. Forekomsten slettes fra listen og vises heller ikke længere på den relevante liste i SuperOffice CRM.
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > [Sletningen er ikke permanent, selvom du bekræfter den][5]. Navnet på forekomsten vil stadig blive vist i poster i SuperOffice CRM, der refererer til den. Dette gælder ikke, hvis du opretter en liste og sletter den, før du gemte den. I så fald kan listen ikke slettes igen.

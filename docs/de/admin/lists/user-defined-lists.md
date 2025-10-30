@@ -21,8 +21,6 @@ language: de
 
 Um loszulegen, klicken Sie im Navigator auf die Schaltfläche **Listen** (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](learn/includes/tip-find-list.md)]
-
 ## Benutzerdefinierte Liste hinzufügen
 
 1. Klicken Sie oben rechts in der Ansicht auf die Schaltfläche **Liste erstellen**.

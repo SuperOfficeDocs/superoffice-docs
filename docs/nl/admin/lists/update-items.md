@@ -35,9 +35,9 @@ U kunt de naam of beschrijving van een item dat eerder is ingesteld wijzigen in 
 
 ### Stappen
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] de vereiste lijst.
+2. [!include[Click arrow and select](includes/expand-list.md)] de vereiste lijst.
 
     Alle eerder gedefinieerde items voor de geselecteerde lijst worden weergegeven in de lijst **Items**. Als u een nieuwe door gebruiker gedefinieerde lijst selecteert, is de lijst leeg.
 
@@ -47,7 +47,7 @@ U kunt de naam of beschrijving van een item dat eerder is ingesteld wijzigen in 
 
 4. Voer in het dialoogvenster een nieuwe naam en een beschrijving in. *(Verplicht)*
 
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Bekijk deze video om te leren hoe u lijstitems kunt bewerken in SuperOffice CRM (videolengte - 2:05):
 
@@ -69,11 +69,11 @@ Bekijk deze video om te leren hoe u abonnementstypen toevoegt en bewerkt (videol
 
 ## <a id="delete"></a>Vooraf gedefinieerde lijsten en door gebruikers gedefinieerde lijsten verwijderen
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] de vereiste lijst.
+1. [!include[Go to Lists](includes/goto-lists.md)]
+2. [!include[Click arrow and select](includes/expand-list.md)] de vereiste lijst.
 3. Selecteer het item dat u wilt verwijderen in de lijst **Items**.
 4. Klik op de knop **Verwijderen** onder in het scherm. Het item wordt verwijderd uit de lijst en wordt niet meer weergegeven in de relevante lijst in SuperOffice CRM.
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > De [verwijdering is niet permanent, zelfs niet wanneer u deze bevestigt][5]. De naam van het item wordt nog wel weergegeven in de records in SuperOffice CRM die naar het desbetreffende item verwijzen. Dit is niet het geval als u een lijst maakt en deze verwijdert voordat u de lijst hebt opgeslagen. In dat geval kan het verwijderen van de lijst niet ongedaan worden gemaakt.

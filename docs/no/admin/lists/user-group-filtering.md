@@ -22,9 +22,9 @@ Når du angir forekomster for en liste i Lister-bildet, kan du også angi hvilke
 
 ## Angi brukergrupper for en forekomst
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] ønsket liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
 
 3. Merk av for **Bruk gruppering og brukergruppefiltrering for denne listen** oppe til høyre.
 
@@ -48,9 +48,9 @@ Du kan velge flere brukergrupper for én forekomst. Klikk på **Merk alle** (<i 
 
 Du kan også angi tilgjengelige forekomster for en brukergruppe:
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] ønsket liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
 
 3. Merk av for **Bruk gruppering og brukergruppefiltrering for denne listen** oppe til høyre.
 

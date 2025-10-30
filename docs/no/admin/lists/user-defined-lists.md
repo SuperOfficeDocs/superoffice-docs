@@ -21,8 +21,6 @@ language: no
 
 For å komme i gang, klikk på **Lister**-knappen i navigatoren (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](learn/includes/tip-find-list.md)]
-
 ## Legg til brukerdefinert liste
 
 1. Klikk på knappen **Opprett liste** øverst til høyre i bildet.

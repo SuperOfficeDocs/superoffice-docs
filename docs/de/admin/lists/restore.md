@@ -26,9 +26,9 @@ Aus diesem Grund können Löschvorgänge auf den genannten Registerkarten rückg
 
 Wenn Sie ein Objekt oder eine Überschrift löschen und später entscheiden, dass Sie sie nicht von der Liste in Einstellungen und Verwaltung entfernen möchten, können Sie den Löschvorgang in Einstellungen und Verwaltung rückgängig machen.
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] die erforderliche Liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
 
 3. Aktivieren Sie die Option **Gelöschte Objekte und Überschriften anzeigen**.
 
@@ -39,7 +39,7 @@ Wenn Sie ein Objekt oder eine Überschrift löschen und später entscheiden, das
     > [!NOTE]
     > Diese Schaltfläche ist nur für gelöschte Elemente verfügbar.
 
-6. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Wenn Sie Ihre Änderungen speichern, wird das Objekt bzw. die Überschrift wieder in der betreffenden Liste in SuperOffice CRM angezeigt.
 

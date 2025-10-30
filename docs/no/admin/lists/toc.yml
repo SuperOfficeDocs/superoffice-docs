@@ -4,14 +4,14 @@ items:
 - name: Legge til forekomster
   href: adding-items.md
 - name: Redigere eller slette forekomster
-  href: ../update-items.md
-- name: Brukergruppefiltrering
-  href: ../user-group-filtering.md
-- name: Overskrifter
-  href: organize/headings.md
+  href: update-items.md
 - name: Slettede forekomster og overskrifter
-  href: ../restore.md
+  href: restore.md
+- name: Overskrifter
+  href: headings.md
+- name: Brukergruppefiltrering
+  href: user-group-filtering.md
 - name: Spesialiserte lister
   href: specialized-lists.md
 - name: Brukerdefinerte lister
-  href: ../user-defined-lists.md
+  href: user-defined-lists.md

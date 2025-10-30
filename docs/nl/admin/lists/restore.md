@@ -26,9 +26,9 @@ Daarom zijn de verwijderingen in deze tabbladen niet definitief. U kunt de items
 
 Als u een item of een koptekst hebt verwijderd en u ze achteraf toch niet wilt verwijderen uit de lijst in Instellingen en onderhoud, kunt u de verwijdering ongedaan maken in Instellingen en onderhoud.
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] de vereiste lijst.
+2. [!include[Click arrow and select](includes/expand-list.md)] de vereiste lijst.
 
 3. Schakel het vakje **Verwijderde items en kopteksten weergeven** in.
 
@@ -39,7 +39,7 @@ Als u een item of een koptekst hebt verwijderd en u ze achteraf toch niet wilt v
     > [!NOTE]
     > Deze knop is alleen beschikbaar voor verwijderde elementen.
 
-6. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Als u de wijzigingen opslaat, wordt het item of de koptekst ook nogmaals weergegeven in de relevante lijst in SuperOffice CRM.
 

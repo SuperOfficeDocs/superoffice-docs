@@ -22,9 +22,9 @@ Wenn Sie in der Ansicht Listen ein Objekt in einer Liste angeben, können Sie zu
 
 ## Benutzergruppen für ein Objekt festlegen
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] die erforderliche Liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
 
 3. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** in der Ecke oben rechts.
 
@@ -48,9 +48,9 @@ Sie können mehrere Benutzergruppen für ein Objekt auswählen. Klicken Sie auf 
 
 Sie können auch verfügbare Objekte für eine Benutzergruppe angeben:
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] die erforderliche Liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
 
 3. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** in der Ecke oben rechts.
 
