@@ -25,14 +25,12 @@ Avhengig av hvilken bransje firmaet din har virksomhet i, kan du skreddersy alle
 
 **Lister**-bildet består av beskrivelser og definisjoner av listene som forekommer i SuperOffice CRM. Her kan du blant annet tilpasse forhåndsdefinerte lister som er standard i SuperOffice CRM.
 
-[!include[Find specific list](includes/tip-find-list.md)]
+> [!TIP]
+> Du kan raskt åpne en liste ved å klikke på **Lister** i navigatoren og begynne å skrive i søkefeltet. Søkeresultatene blir oppdatert mens du skriver.
 
 Du kan også legge til egne, brukerdefinerte lister som skal vises i **Mer**-faner i SuperOffice CRM. Hva som skal vises i disse **Mer**-fanene, angir du i [Felt][10]-bildet.
 
 **Lister**-bildet er inndelt i følgende deler:
-
-> [!NOTE]
-> Brukergrupper og overskrifter vises ikke for lister der disse elementene ikke er aktuelle.
 
 * Øverst i bildet kan du klikke på listeboksen for å velge blant alle tilgjengelige lister i SuperOffice, både forhåndsdefinerte og [brukerdefinerte lister][5].
 * Fanen **Forekomster** inneholder tilgjengelige [forekomster](#items) på den valgte listen.
@@ -56,9 +54,21 @@ Du kan ikke registrere to forekomster med samme navn i én liste. Det samme gjel
 > [!NOTE]
 > Vær oppmerksom på at du heller ikke kan legge til en ny forekomst eller overskrift som har samme navn som en [slettet forekomst eller overskrift][9].
 
+## Organisere lister
+
+SuperOffice CRM inneholder mange standardlister og enda flere forekomster. Når du legger til dine egne (brukerdefinerte) lister og forekomster, er det lurt å organisere listene. Du kan organisere lister på to hovedmåter i SuperOffice CRM:
+
+* **Gruppering:** Bruk [overskrifter][1] i lister for å kategorisere forekomstene i to nivåer. Eksempel: Listen **Generelt - Ressurs** kan grupperes under to overskrifter: *Utstyr* og *Rom*.
+
+* **Brukergruppefiltrering:** Sørg for at forekomstene bare er synlige for brukergruppene som faktisk bruker dem. Eksempel: Listen **Dokument - Mal** kan [filtreres][7] slik at tilbudsmaler ikke er synlige for brukergrupper som aldri sender tilbud.
+
+> [!NOTE]
+> Brukergrupper og overskrifter vises ikke for lister der disse elementene ikke er aktuelle.
+
+I Innstillinger og vedlikehold kan du for de fleste forhåndsdefinerte lister og alle brukerdefinerte lister angi at de skal være grupperte.
+
 ## Relatert innhold
 
-* [Organisere lister][3]
 * [Spesialiserte lister][4]
 * [Legge til brukerdefinerte lister][5]
 * [Dokument - Mal][6]
@@ -67,7 +77,6 @@ Du kan ikke registrere to forekomster med samme navn i én liste. Det samme gjel
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md

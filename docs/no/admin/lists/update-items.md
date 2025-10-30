@@ -89,6 +89,6 @@ Se denne videoen for å finne ut hvordan du legger til og redigerer abonnementst
 [2]: learn/specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/restore.md
+[5]: restore.md
 
 <!-- Referenced images -->

@@ -5,24 +5,10 @@ items:
   href: adding-items.md
 - name: Lijstitems bewerken of verwijderen
   href: ../update-items.md
-- name: Groeperen en filteren
-  topicHref: organize/index.md
-  items:
-  - name: Overzicht
-    href: organize/index.md
-  - name: Gebruikersgroepen filteren
-    href: ../user-group-filtering.md
-  - name: Kopteksten
-    topicHref: organize/headings.md
-    items:
-    - name: Overzicht
-      href: organize/headings.md
-    - name: Items groeperen onder kopteksten
-      href: organize/grouping-items-under-headings.md
-    - name: Kopteksten toevoegen
-      href: organize/adding-headings.md
-    - name: Kopteksten veranderen en verwijderen
-      href: organize/headings-editing-and-deleting.md
+- name: Gebruikersgroepen filteren
+  href: ../user-group-filtering.md
+- name: Kopteksten
+  href: organize/headings.md
 - name: Verwijderde items en kopteksten
   href: ../restore.md
 - name: Gespecialiseerde lijsten

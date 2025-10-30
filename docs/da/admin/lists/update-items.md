@@ -45,9 +45,7 @@ Du kan ændre navnet på eller beskrivelsen af en forekomst, der tidligere er an
 
     [Sådan opdateres en specialiseret liste][2].
 
-4. Indtast et nyt navn og en beskrivelse i dialogboksen.
-
-    [!include[Mandatory](learn/includes/note-mandatory-field.md)]
+4. Indtast et nyt navn og en beskrivelse i dialogboksen. *(Obligatorisk)*
 
 5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
 
@@ -91,6 +89,6 @@ Se denne video for at få at vide, hvordan du tilføjer og redigerer abonnements
 [2]: learn/specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/restore.md
+[5]: restore.md
 
 <!-- Referenced images -->

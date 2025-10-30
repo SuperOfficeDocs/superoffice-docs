@@ -5,24 +5,10 @@ items:
   href: adding-items.md
 - name: Redigere eller slette forekomster
   href: ../update-items.md
-- name: Gruppering og filtrering
-  topicHref: organize/index.md
-  items:
-  - name: Oversikt
-    href: organize/index.md
-  - name: Brukergruppefiltrering
-    href: ../user-group-filtering.md
-  - name: Overskrifter
-    topicHref: organize/headings.md
-    items:
-    - name: Oversikt
-      href: organize/headings.md
-    - name: Gruppere forekomster under overskrifter
-      href: organize/grouping-items-under-headings.md
-    - name: Legge til overskrifter
-      href: organize/adding-headings.md
-    - name: Endre og slette overskrifter
-      href: organize/headings-editing-and-deleting.md
+- name: Brukergruppefiltrering
+  href: ../user-group-filtering.md
+- name: Overskrifter
+  href: organize/headings.md
 - name: Slettede forekomster og overskrifter
   href: ../restore.md
 - name: Spesialiserte lister

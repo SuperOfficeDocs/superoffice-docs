@@ -25,14 +25,12 @@ Beroende på vilken bransch ditt företag verkar i kan du skräddarsy alla listo
 
 Fönstret **Listor** innehåller beskrivningar och definitioner av listorna i SuperOffice CRM. Här kan du anpassa de fördefinierade listorna som medföljer SuperOffice CRM.
 
-[!include[Find specific list](includes/tip-find-list.md)]
+> [!TIP]
+> Om du snabbt vill gå till en lista klickar du på **Listor** i navigatorn och börjar skriva i sökfältet. Sökresultaten uppdateras samtidigt som du skriver.
 
 Du kan också lägga till egna användardefinierade listor som visas på **Mer**-flikarna i SuperOffice CRM. Du kan ange vad som ska visas på **Mer**-flikarna i fönstret [Fält][10].
 
 Fönstret **Listor** är indelat i följande sektioner:
-
-> [!NOTE]
-> Användargrupper och rubriker visas inte för listor i de fall de är irrelevanta.
 
 * Högst upp i fönstret kan du klicka på listrutan och välja bland alla tillgängliga listor i SuperOffice, både fördefinierade och [användardefinierade listor][5].
 * Fliken **Poster** innehåller de [poster](#items) som är tillgängliga för den valda listan.
@@ -56,9 +54,21 @@ Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rub
 > [!NOTE]
 > Du kan inte lägga till en ny post eller rubrik som har samma namn som en [borttagen post eller rubrik][9].
 
+## Organisera listor
+
+SuperOffice CRM innehåller många standardlistor med ännu fler poster. Om du lägger till egna (användardefinierade) listor och poster är det en bra idé att organisera dina listor. I SuperOffice CRM finns det i huvudsak två sätt att organisera listor:
+
+* **Gruppering:** Använda [rubriker][1] i listor för att kategorisera poster på 2 nivåer. Exempel: Listan **Allmänt – Resurs** kan delas in i två grupper med hjälp av två rubriker: *Utrustning* och *Rum*.
+
+* **Användargruppfiltrering:** Göra poster synliga enbart för de användargrupper som faktiskt använder dem. Exempel: Listan **Dokument – Mall** kan [filtreras][7] så att offertmallar inte är synliga för användargrupper som aldrig skickar offerter.
+
+> [!NOTE]
+> Användargrupper och rubriker visas inte för listor i de fall de är irrelevanta.
+
+Under Inställningar och underhåll kan du för de flesta fördefinierade och alla användardefinierade listor ange att de ska grupperas.
+
 ## Relaterat innehåll
 
-* [Organisera listor][3]
 * [Speciallistor][4]
 * [Lägga till användardefinierade listor][5]
 * [Dokument – Mall][6]
@@ -67,7 +77,6 @@ Du kan inte skapa två poster med samma namn i samma lista. Detsamma gäller rub
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md

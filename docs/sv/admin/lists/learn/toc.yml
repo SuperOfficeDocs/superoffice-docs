@@ -5,24 +5,10 @@ items:
   href: adding-items.md
 - name: Redigera eller ta bort poster
   href: ../update-items.md
-- name: Gruppering och filtrering
-  topicHref: organize/index.md
-  items:
-  - name: Översikt
-    href: organize/index.md
-  - name: Användargruppfiltrering
-    href: ../user-group-filtering.md
-  - name: Rubriker
-    topicHref: organize/headings.md
-    items:
-    - name: Översikt
-      href: organize/headings.md
-    - name: Gruppera poster under rubriker
-      href: organize/grouping-items-under-headings.md
-    - name: Lägga till rubriker
-      href: organize/adding-headings.md
-    - name: Ändra och ta bort rubriker
-      href: organize/headings-editing-and-deleting.md
+- name: Användargruppfiltrering
+  href: ../user-group-filtering.md
+- name: Rubriker
+  href: organize/headings.md
 - name: Borttagna poster och rubriker
   href: ../restore.md
 - name: Specialiserade listor

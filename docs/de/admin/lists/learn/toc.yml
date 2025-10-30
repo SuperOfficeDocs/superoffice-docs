@@ -5,24 +5,10 @@ items:
   href: adding-items.md
 - name: Listeobjekte bearbeiten oder löschen
   href: ../update-items.md
-- name: Gruppieren und Filtern
-  topicHref: organize/index.md
-  items:
-  - name: Überblick
-    href: organize/index.md
-  - name: Benutzergruppe filtern
-    href: ../user-group-filtering.md
-  - name: Überschriften
-    topicHref: organize/headings.md
-    items:
-    - name: Überblick
-      href: organize/headings.md
-    - name: Objekte unter Überschriften gruppieren
-      href: organize/grouping-items-under-headings.md
-    - name: Überschriften hinzufügen
-      href: organize/adding-headings.md
-    - name: Überschriften ändern und löschen
-      href: organize/headings-editing-and-deleting.md
+- name: Benutzergruppe filtern
+  href: ../user-group-filtering.md
+- name: Überschriften
+  href: organize/headings.md
 - name: Gelöschte Objekte und Überschriften
   href: ../restore.md
 - name: Spezialisierte Listen

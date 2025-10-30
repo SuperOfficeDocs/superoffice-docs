@@ -25,14 +25,12 @@ Je nach dem Branchentyp, in dem Ihre Firma tätig ist, können Sie alle Listen i
 
 Die Ansicht **Listen** enthält Beschreibungen und Definitionen der Listen in SuperOffice CRM. Sie können die mit SuperOffice CRM gelieferten vordefinierten Listen anpassen.
 
-[!include[Find specific list](includes/tip-find-list.md)]
+> [!TIP]
+> Klicken Sie im Navigator auf **Listen**, um schnell zu einer Liste zu gelangen, und beginnen Sie etwas in das Suchfeld einzutippen. Die Suchresultate werden während des Tippens aktualisiert.
 
 Außerdem können Sie eigene benutzerdefinierte Listen hinzufügen. Diese werden auf den Registerkarten **Mehr** in SuperOffice CRM angezeigt. Sie können in der [Ansicht Felder][10] angeben, was in den Registerkarten **Mehr** angezeigt wird.
 
 Die Ansicht **Listen** besteht aus den folgenden Teilen:
-
-> [!NOTE]
-> Benutzergruppen und Überschriften werden nicht für Listen angezeigt, wenn sie nicht relevant sind.
 
 * Sie können oben in der Ansicht auf das Listenfeld klicken, um aus allen verfügbaren Listen in SuperOffice vor- und [benutzerdefinierte Listen][5] auszuwählen.
 * Die Registerkarte **Objekte** enthält die [Objekte](#items), die für die ausgewählte Liste verfügbar sind.
@@ -56,9 +54,21 @@ Sie können keine zwei Objekte mit demselben Namen in einer Liste registrieren. 
 > [!NOTE]
 > Sie können ein neues Objekt bzw. eine neue Überschrift nicht unter dem Namen von [gelöschten Objekten][9] bzw.
 
+## Listen organisieren
+
+SuperOffice CRM enthält viele Standardlisten mit noch mehr Listenobjekten. Sobald Sie Ihre eigenen (benutzerdefinierten) Listen und Listenobjekte zufügen, sollten Sie beginnen, ihre Listen zu organisieren. Hierfür haben Sie in SuperOffice CRM zwei Hauptmöglichkeiten, um Listen zu organisieren:
+
+* **Gruppieren:** Listen [Überschriften][1] werden verwendet, um Listenobjekte auf zwei Ebenen zu kategorisieren. Beispiel: Die Liste **Allgemein - Ressource** kann unter zwei Überschriften gruppiert werden: *Ausrüstung* und *Zimmer*.
+
+* **Benutzergruppe filtern:** Dies macht Listenobjekte nur für jene Benutzergruppen sichtbar, die die Objekte auch tatsächlich benutzen. Beispiel: Die Liste **Dokument - Vorlage** kann so [gefiltert werden][7], dass Angebotsvorlagen für Benutzergruppen, die nie Angebote verschicken, nicht sichtbar sind.
+
+> [!NOTE]
+> Benutzergruppen und Überschriften werden nicht für Listen angezeigt, wenn sie nicht relevant sind.
+
+In Einstellungen und Verwaltung können Sie für die meisten vordefinierten und alle benutzerdefinierten Listen festlegen, dass sie gruppiert werden sollen.
+
 ## Verwandte Themen
 
-* [Listen organisieren][3]
 * [Speziallisten][4]
 * [Benutzerdefinierte Listen hinzufügen][5]
 * [Dokument - Vorlage][6]
@@ -67,7 +77,6 @@ Sie können keine zwei Objekte mit demselben Namen in einer Liste registrieren. 
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md

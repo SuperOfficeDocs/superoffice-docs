@@ -25,14 +25,12 @@ Depending on the type of business your company is in, you can tailor all lists i
 
 The **Lists** screen contains descriptions and definitions of the lists in SuperOffice CRM. Here you can customize the predefined lists supplied with SuperOffice CRM.
 
-[!include[Find specific list](includes/tip-find-list.md)]
+> [!TIP]
+> To quickly go to a list, click **Lists** in the navigator and start typing in the search field. The search results are updated while you type.
 
 You can also add your own user-defined lists which are displayed on the **More** tabs in SuperOffice CRM. You specify what is displayed in the **More** tabs in the [Fields screen][10].
 
 The **Lists** screen is divided into the following parts:
-
-> [!NOTE]
-> User groups and headings are not displayed for lists where they are irrelevant.
 
 * At the top of the screen, you can click the list box to choose from among all available lists in SuperOffice, both predefined and [user-defined lists][5].
 * The **Items** tab contains the [items](#items) that are available for the selected list.
@@ -56,9 +54,21 @@ You cannot create two items with the same name in one list. The same applies to 
 > [!NOTE]
 > You cannot add a new item or heading that has the same name as a [deleted item or heading][9].
 
+## Organizing lists
+
+SuperOffice CRM contains many default lists with even more list items. As you add your own (user-defined) lists and list items, it is a good idea to organize your lists. There are two main ways to organize lists in SuperOffice CRM:
+
+* **Grouping:** Using [headings][1] in lists to categorize list items in 2 levels. Example: The **General - Resource** list can be grouped using two headings; *Equipment* and *Rooms*.
+
+* **User group filtering:** Making list items visible only to the user groups who actually use them. Example: The **Document - Template** list can be [filtered][7] so that quote templates are not visible to user groups that never send quotes.
+
+> [!NOTE]
+> User groups and headings are not displayed for lists where they are irrelevant.
+
+In Settings and maintenance, you can specify for most predefined and all user-defined lists that they should be grouped.
+
 ## Related content
 
-* [Organizing lists][3]
 * [Specialized lists][4]
 * [Add user-defined lists][5]
 * [Document templates][6]
@@ -67,7 +77,6 @@ You cannot create two items with the same name in one list. The same applies to 
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md

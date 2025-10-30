@@ -25,14 +25,12 @@ Afhængigt af hvilken type branche dit firma er i, kan du skræddersy alle liste
 
 Skærmbilledet **Lister** indeholder beskrivelser og definitioner på listerne i SuperOffice CRM. Her kan du tilpasse de foruddefinerede lister, der følger med SuperOffice CRM.
 
-[!include[Find specific list](includes/tip-find-list.md)]
+> [!TIP]
+> Hvis du hurtigt vil gå til en liste, skal du klikke på **Lister** i navigatoren og begynde at skrive i søgefeltet. Søgeresultaterne opdateres, mens du skriver.
 
 Du kan også tilføje dine egne brugerdefinerede lister, som vises på fanerne **Mere** i SuperOffice CRM. Du angiver, hvad der skal vises under fanerne **Mere** på skærmbilledet [Felter][10].
 
 Skærmbilledet **Lister** er inddelt i følgende dele:
-
-> [!NOTE]
-> Brugergrupper og overskrifter vises ikke for lister, hvor de er irrelevante.
 
 * Øverst på skærmen kan du klikke på listen for at vælge mellem alle tilgængelige lister i SuperOffice, både foruddefinerede og [brugerdefinerede lister][5].
 * Fanen **Forekomster** indeholder de [forekomster](#items), der er tilgængelige for den valgte liste.
@@ -56,9 +54,21 @@ Du kan ikke oprette to forekomster med samme navn på én liste. Det samme gæld
 > [!NOTE]
 > Du kan ikke tilføje et nyt element eller en ny overskrift, der har samme navn som en [slettet forekomst eller overskrift][9].
 
+## Organisering af lister
+
+SuperOffice CRM indeholder mange standardlister med endnu flere forekomster. Når du tilføjer dine egne (brugerdefinerede) lister og forekomster, er det en god ide at organisere dine lister. Der er to primære måder at organisere lister på i SuperOffice CRM:
+
+* **Gruppering:** Brug af [overskrifter][1] på lister til at kategorisere forekomster i 2 niveauer. Eksempel: Listen **Generelt – Ressource** kan grupperes ved hjælp af to overskrifter; *Udstyr* og *Lokaler*.
+
+* **Brugergruppefiltrering:** Når forekomster gøres synlige for de brugergrupper, der reelt bruger dem. Eksempel: Listen **Dokument – Skabelon** kan [filtreres][7], så tilbudsskabeloner ikke er synlige for brugergrupper, der aldrig sender tilbud.
+
+> [!NOTE]
+> Brugergrupper og overskrifter vises ikke for lister, hvor de er irrelevante.
+
+Under Indstillinger og vedligeholdelse kan du angive for de fleste foruddefinerede og alle brugerdefinerede lister, at de skal grupperes.
+
 ## Relateret indhold
 
-* [Organisering af lister][3]
 * [Specialiserede lister][4]
 * [Tilføjelse af brugerdefinerede lister][5]
 * [Dokument – Skabelon][6]
@@ -67,7 +77,6 @@ Du kan ikke oprette to forekomster med samme navn på én liste. Det samme gæld
 
 <!-- Referenced links -->
 [1]: organize/headings.md
-[3]: organize/index.md
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md

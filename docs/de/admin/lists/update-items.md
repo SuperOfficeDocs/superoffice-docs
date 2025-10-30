@@ -89,6 +89,6 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Abonnementtypen hinzufüge
 [2]: learn/specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/restore.md
+[5]: restore.md
 
 <!-- Referenced images -->
