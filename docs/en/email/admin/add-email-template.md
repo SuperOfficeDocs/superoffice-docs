@@ -117,4 +117,4 @@ Here you can add translated versions of the document template.
 [4]: ../../security/privacy/admin/add-source.md
 [5]: ../../saint/learn/index.md
 [6]: ../../document/templates/learn/quote-templates.md
-[7]: ../../admin/lists/learn/organize/user-group-filtering.md
+[7]: ../../admin/lists/user-group-filtering.md

@@ -11,7 +11,7 @@ items:
   - name: Überblick
     href: organize/index.md
   - name: Benutzergruppe filtern
-    href: organize/user-group-filtering.md
+    href: ../user-group-filtering.md
   - name: Überschriften
     topicHref: organize/headings.md
     items:

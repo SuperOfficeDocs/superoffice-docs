@@ -11,7 +11,7 @@ items:
   - name: Översikt
     href: organize/index.md
   - name: Användargruppfiltrering
-    href: organize/user-group-filtering.md
+    href: ../user-group-filtering.md
   - name: Rubriker
     topicHref: organize/headings.md
     items:

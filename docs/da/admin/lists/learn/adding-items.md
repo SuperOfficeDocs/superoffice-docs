@@ -37,5 +37,5 @@ Når du har tilføjet forekomster, kan du angive detaljer for hvert enkelt eleme
 
 <!-- Referenced links -->
 [1]: specialized-lists.md
-[2]: organize/user-group-filtering.md
+[2]: ../user-group-filtering.md
 [3]: organize/headings.md

@@ -37,5 +37,5 @@ Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven.
 
 <!-- Referenced links -->
 [1]: specialized-lists.md
-[2]: organize/user-group-filtering.md
+[2]: ../user-group-filtering.md
 [3]: organize/headings.md

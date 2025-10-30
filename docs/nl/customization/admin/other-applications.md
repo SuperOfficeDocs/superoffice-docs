@@ -114,4 +114,4 @@ De items worden weergegeven in de volgorde waarin u ze hebt ingevoerd. Als u de 
 
 <!-- Referenced links -->
 [1]: ../../admin/lists/learn/organize/headings.md
-[2]: ../../admin/lists/learn/organize/user-group-filtering.md
+[2]: ../../admin/lists/user-group-filtering.md

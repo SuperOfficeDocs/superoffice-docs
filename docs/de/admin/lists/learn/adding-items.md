@@ -37,5 +37,5 @@ Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Deta
 
 <!-- Referenced links -->
 [1]: specialized-lists.md
-[2]: organize/user-group-filtering.md
+[2]: ../user-group-filtering.md
 [3]: organize/headings.md

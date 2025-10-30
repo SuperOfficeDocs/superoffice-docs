@@ -32,6 +32,6 @@ In Einstellungen und Verwaltung können Sie für die meisten vordefinierten und 
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md
-[2]: user-group-filtering.md
+[2]:../../user-group-filtering.md
 
 <!-- Referenced images -->

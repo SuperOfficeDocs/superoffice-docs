@@ -71,7 +71,7 @@ U kunt binnen een lijst niet twee items met dezelfde naam maken. Hetzelfde geldt
 [4]: specialized-lists.md
 [5]: ../user-defined-lists.md
 [6]: ../../../document/templates/learn/index.md
-[7]: organize/user-group-filtering.md
+[7]: ../user-group-filtering.md
 [8]: ../update-items.md
 [9]: organize/deleted-items-and-headings.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md

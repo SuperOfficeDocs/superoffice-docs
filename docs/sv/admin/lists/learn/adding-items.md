@@ -37,5 +37,5 @@ När du har lagt till poster kan du ange egenskaper för varje enskild post. Du 
 
 <!-- Referenced links -->
 [1]: specialized-lists.md
-[2]: organize/user-group-filtering.md
+[2]: ../user-group-filtering.md
 [3]: organize/headings.md

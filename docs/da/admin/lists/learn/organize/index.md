@@ -32,6 +32,6 @@ Under Indstillinger og vedligeholdelse kan du angive for de fleste foruddefinere
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md
-[2]: user-group-filtering.md
+[2]:../../user-group-filtering.md
 
 <!-- Referenced images -->

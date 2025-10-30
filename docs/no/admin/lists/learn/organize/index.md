@@ -32,6 +32,6 @@ I Innstillinger og vedlikehold kan du for de fleste forhåndsdefinerte lister og
 
 <!-- Referenced links -->
 [1]: grouping-items-under-headings.md
-[2]: user-group-filtering.md
+[2]:../../user-group-filtering.md
 
 <!-- Referenced images -->

@@ -111,7 +111,7 @@ I Service kalles webpaneler for **ekstra nettleserfaner**. Du kan legge til samm
 [4]: ../../../ui/blogic/learn/extra-menus/index.md
 [5]: ../../../../en/ui/blogic/url-parameters.md
 [6]: ../../../admin/lists/learn/organize/headings.md
-[7]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[7]: ../../../admin/lists/user-group-filtering.md
 [8]: index.md
 
 <!-- Referenced images -->

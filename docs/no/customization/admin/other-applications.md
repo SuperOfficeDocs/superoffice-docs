@@ -114,4 +114,4 @@ Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkef
 
 <!-- Referenced links -->
 [1]: ../../admin/lists/learn/organize/headings.md
-[2]: ../../admin/lists/learn/organize/user-group-filtering.md
+[2]: ../../admin/lists/user-group-filtering.md
