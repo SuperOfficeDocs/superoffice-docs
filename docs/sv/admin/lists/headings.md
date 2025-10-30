@@ -50,9 +50,13 @@ Du kan också lägga till, redigera eller ta bort rubriker vid behov.
 Innan du kopplar en rubrik till en post måste du lägga till de rubriker du behöver.
 
 1. Gå till fliken **Rubriker**.
+
 1. Klicka på **Lägg till** under listan **Rubriker**.
+
 1. Ange det namn du vill använda för rubriken *(obligatoriskt)* och en beskrivning *(valfritt)*.
+
     * Fältet **Beskrivning** kan användas för att förklara syftet med rubriken och kan visas som en tooltiptext i gränssnittet.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Rubriken läggs till i listan **Rubriker**. Upprepa proceduren för att lägga till fler rubriker.
@@ -63,14 +67,15 @@ När du har lagt till rubrikerna kan du [välja vilka rubriker varje post ska vi
 
 Om du vill använda två nivåer i en lista måste du tilldela rubriker till varje post i listan **Poster**. Alternativt kan du använda fliken **Rubriker** för att ange vilka poster som ska höra till varje rubrik.
 
-[!NOTE]
+> [!NOTE]
 > Listan måste innehålla ett visst minimiantal poster för att kunna visas med rubriker. Detta antal definieras i [Inställningar för preferenser][3].
 
-## Välj rubriker för en post
+### Välj rubriker för en post
 
 Eventuella rubriker som redan är angivna för den valda listan visas i panelen **Rubriker** längst ned till höger. Om fältet är tomt måste du [lägga till rubriker först](#add).
 
 1. Välj önskad post i listan **Poster**.
+
 1. Markera kryssrutan bredvid den rubrik du vill använda i listan **Rubriker**. En bock (<i class="ph ph-check" aria-hidden="true"></i>) visas för att ange att posten hör till rubriken.
     Ändringarna sparas automatiskt.
 
@@ -80,9 +85,13 @@ Eventuella rubriker som redan är angivna för den valda listan visas i panelen 
 ### Välj poster för en rubrik
 
 1. Gå till fliken **Rubriker**.
+
 1. Välj en rubrik i listan.
+
 1. I listan **Poster under denna rubrik** markerar du kryssrutan bredvid varje post som ska visas under den valda rubriken.
+
 1. Upprepa för varje rubrik.
+
     Ändringarna sparas automatiskt.
 
 ## <a id="update"></a>Redigera rubriker

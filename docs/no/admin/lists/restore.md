@@ -26,20 +26,18 @@ Slettinger du gjør i disse fanene, er derfor ikke permanente. Du kan vise forek
 
 Hvis du har slettet en forekomst eller overskrift og ikke vil at den skal være fjernet fra listen i Innstillinger og vedlikehold likevel, kan du oppheve slettingen i Innstillinger og vedlikehold.
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Åpne **Lister**-bildet og velg ønsket liste fra nedtrekksmenyen øverst til venstre.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
+1. Merk av for **Vis slettede forekomster og overskrifter**.
 
-3. Merk av for **Vis slettede forekomster og overskrifter**.
+1. Dobbeltklikk på forekomsten eller overskriften du vil oppheve slettingen av (merket i rødt med gjennomstreking).
 
-4. Dobbeltklikk på forekomsten eller overskriften du vil oppheve slettingen av (merket i rødt med gjennomstreking).
-
-5. Klikk på **Gjenopprett**.
+1. Klikk på **Gjenopprett**.
 
     > [!NOTE]
     > Denne knappen er bare tilgjengelig for slettede elementer.
 
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Hvis du lagrer endringene, vil forekomsten eller overskriften også vises i den aktuelle listen i SuperOffice CRM igjen.
 

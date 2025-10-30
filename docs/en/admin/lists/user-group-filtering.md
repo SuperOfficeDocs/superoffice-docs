@@ -20,24 +20,26 @@ SuperOffice CRM users belong to different user groups depending on what type of 
 
 When you specify an item in a list in the Lists screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
 
-## Specify user groups for an item
+> [!NOTE]
+> If you do not check **Use grouping and user group filtering for this list**, all items in the list are visible for all user groups.
+
+## Enable grouping
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
+1. Select the desired list from the dropdown menu in the upper-left corner of the Lists screen.
 
-3. Check **Use grouping and user group filtering for this list** in the upper right corner.
+1. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
-    > [!NOTE]
-    > If you do not check **Use grouping and user group filtering for this list**, all items in the list are visible for all user groups.
+## Specify user groups for an item
 
-4. Select the required item in the **Items** list.
+1. Select the required item in the **Items** list.
 
-5. Select a user group in the **Visible for user groups** list. All the user groups in the organization are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
+1. Select a user group in the **Visible for user groups** list. All the user groups in the organization are displayed here. Click the box next to the required user group to specify that the item should be visible to that group.
 
     The box will then be marked with a tick (<i class="ph ph-check" aria-hidden="true"></i>).
 
-6. Repeat steps 4 and 5 for each item you want to make visible for particular user groups.
+1. Repeat steps for each item you want to make visible for particular user groups.
 
 > [!NOTE]
 > When you add an item to the **Items** list, it will automatically be visible to all the user groups listed under **Visible for user groups**. You can, if required, remove the checks for the user groups you do not want the items to be visible to.
@@ -48,22 +50,13 @@ You can select several user groups for one item. Click **Select all** (<i class=
 
 You can also specify available items for a user group:
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Go to the **User groups** tab.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
+1. Select a user group in the list.
 
-3. Check **Use grouping and user group filtering for this list** in the upper right corner.
+1. In the **List items available to this user group** list, click the box next to each item that should be visible to that group.
 
-    > [!NOTE]
-    > If you do not check **Use grouping and user group filtering for this list**, all items in the list will be visible for all user groups.
-
-4. Go to the **User groups** tab.
-
-5. Select a user group in the list.
-
-6. In the **List items available to this user group** list, click the box next to each item that should be visible to that group.
-
-7. Repeat steps 5 and 6 for each user group.
+1. Repeat steps for each user group.
 
 ## Related content
 

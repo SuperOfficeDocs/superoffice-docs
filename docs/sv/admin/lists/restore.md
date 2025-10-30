@@ -26,20 +26,18 @@ Därför är borttagningar som du gör på de här flikarna inte permanenta. Du 
 
 Om du tar bort en post eller rubrik och senare kommer fram till att du inte vill ta bort den från listan under Inställningar och underhåll kan du ångra borttagningen under Inställningar och underhåll.
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Öppna fönstret **Listor** och välj önskad lista från rullgardinsmenyn längst upp till vänster.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] den aktuella listan.
+1. Markera **Visa borttagna poster och rubriker**.
 
-3. Markera **Visa borttagna poster och rubriker**.
+1. Dubbelklicka på den post eller rubrik du vill återställa (visas överstruken i rött).
 
-4. Dubbelklicka på den post eller rubrik du vill återställa (visas överstruken i rött).
-
-5. Klicka på knappen **Återställ**.
+1. Klicka på knappen **Återställ**.
 
     > [!NOTE]
     > Den här knappen är endast tillgänglig för borttagna objekt.
 
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Om du sparar ändringarna visas posten eller rubriken igen i de relevanta listorna i SuperOffice CRM.
 

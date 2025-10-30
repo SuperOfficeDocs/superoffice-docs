@@ -50,9 +50,13 @@ U kunt ook nieuwe kopteksten toevoegen, bestaande kopteksten bewerken of verwijd
 Voordat u een koptekst aan een item kunt koppelen, moet u de gewenste kopteksten toevoegen.
 
 1. Ga naar het tabblad **Kopteksten**.
+
 1. Klik onder de lijst **Kopteksten** op **Toevoegen** om een nieuwe koptekst aan te maken.
+
 1. Voer in het dialoogvenster de naam van de koptekst in *(verplicht)* en eventueel een beschrijving *(optioneel)*.
+
     * Het veld **Beschrijving** kan worden gebruikt om het doel van de koptekst toe te lichten en verschijnt mogelijk als tooltip in de gebruikersinterface.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 De koptekst wordt toegevoegd aan de lijst **Kopteksten**. Herhaal deze procedure om meer kopteksten toe te voegen.
@@ -63,15 +67,17 @@ Nadat u de benodigde kopteksten hebt toegevoegd, kunt u [selecteren onder welke 
 
 Als u een lijst met twee niveaus wilt gebruiken, moet u voor elk item in de lijst **Items** kopteksten selecteren. U kunt ook naar het tabblad **Kopteksten** gaan en per koptekst de gekoppelde items instellen. Beide methoden worden hieronder beschreven.
 
-[!NOTE]
+> [!NOTE]
 > De lijst moet een bepaald minimum aantal items bevatten om op deze manier weergegeven te worden. Dit minimumaantal is gedefinieerd in het scherm [Voorkeuren][3].
 
-## Kopteksten toewijzen aan een lijstitem
+### Kopteksten toewijzen aan een lijstitem
 
 Alle reeds gedefinieerde kopteksten voor de geselecteerde lijst worden weergegeven in de lijst **Kopteksten** rechtsonder. Als dit veld leeg is, moet u [eerst kopteksten toevoegen](#add).
 
 1. Selecteer het gewenste item in de lijst **Items**.
+
 1. Schakel het selectievakje naast de gewenste koptekst in de lijst **Kopteksten** in. Hiermee geeft u aan dat het geselecteerde lijstitem onder die koptekst wordt weergegeven. Het vak wordt gemarkeerd met een vinkje (<i class="ph ph-check" aria-hidden="true"></i>).
+
     De wijzigingen worden automatisch opgeslagen.
 
 > [!TIP]
@@ -80,8 +86,11 @@ Alle reeds gedefinieerde kopteksten voor de geselecteerde lijst worden weergegev
 ### Lijstitems toewijzen aan een koptekst
 
 1. Ga naar het tabblad **Kopteksten**.
+
 1. Selecteer een koptekst in de lijst.
+
 1. In de lijst **Items onder deze koptekst** klikt u op het selectievakje naast elk item dat onder deze koptekst zichtbaar moet zijn.
+
 1. Herhaal stap 2 en 3 voor elke koptekst.
     De wijzigingen worden automatisch opgeslagen.
 

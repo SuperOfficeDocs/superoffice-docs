@@ -26,20 +26,18 @@ Therefore the deletions you make in these tabs are not permanent. You can displa
 
 If you delete an item or a heading and later decide you do not want to remove it from the list in Settings and maintenance, you can undo your deletion in Settings and maintenance.
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Open the **Lists** screen and select the desired list from the dropdown menu in the upper-left corner of the screen.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
+1. Check **Show deleted items and headings**.
 
-3. Check **Show deleted items and headings**.
+1. Double-click the item or heading you want to un-delete (shown in red with strikethrough).
 
-4. Double-click the item or heading you want to un-delete (shown in red with strikethrough).
-
-5. Click the **Restore** button.
+1. Click the **Restore** button.
 
     > [!NOTE]
     > This button is available only for deleted elements.
 
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     If you save your changes, the item or heading will then be displayed again in the relevant list in SuperOffice CRM.
 

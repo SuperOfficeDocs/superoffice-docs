@@ -50,9 +50,13 @@ Du kan også tilføje, redigere eller slette overskrifter efter behov.
 Før du kan knytte en overskrift til et element, skal du tilføje de nødvendige overskrifter.
 
 1. Gå til fanen **Overskrifter**.
+
 1. Klik på **Tilføj** under listen **Overskrifter**.
+
 1. Indtast det ønskede navn på overskriften *(obligatorisk)* og en beskrivelse *(valgfri)*.
+
     * Feltet **Beskrivelse** kan bruges til at forklare formålet med overskriften og kan vises som tooltiptekst i brugergrænsefladen.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Overskriften føjes til listen **Overskrifter**. Gentag processen for at tilføje flere overskrifter.
@@ -63,10 +67,10 @@ Når du har tilføjet overskrifterne, kan du [vælge, hvilke overskrifter hvert 
 
 Hvis du vil bruge to niveauer i en liste, skal du vælge overskrifter for hvert element i listen **Elementer**. Alternativt kan du bruge fanen **Overskrifter** til at angive, hvilke elementer der hører til hver overskrift.
 
-[!NOTE]
+> [!NOTE]
 > Listen skal indeholde et minimumsantal elementer for at kunne vises med overskrifter. Dette antal defineres i [Præferencer][3].
 
-## Vælg overskrifter for et listeelement
+### Vælg overskrifter for et listeelement
 
 Eventuelle overskrifter, der allerede er defineret for den valgte liste, vises i panelet **Overskrifter** nederst til højre. Hvis feltet er tomt, skal du [tilføje overskrifter først](#add).
 
@@ -80,9 +84,13 @@ Eventuelle overskrifter, der allerede er defineret for den valgte liste, vises i
 ### Vælg elementer til en overskrift
 
 1. Gå til fanen **Overskrifter**.
+
 1. Vælg en overskrift på listen.
+
 1. I listen **Elementer under denne overskrift** skal du klikke på feltet ud for hvert element, der skal vises under den valgte overskrift.
+
 1. Gentag for hver overskrift.
+
     Ændringerne gemmes automatisk.
 
 ## <a id="update"></a>Rediger overskrifter

@@ -50,9 +50,13 @@ Du kan også legge til, redigere eller slette overskrifter ved behov.
 Før du kan knytte en overskrift til en forekomst, må du legge til de overskriftene du trenger.
 
 1. Gå til fanen **Overskrifter**.
+
 1. Klikk på **Legg til** under listen **Overskrifter**.
+
 1. Skriv inn ønsket navn for overskriften *(obligatorisk)* og en beskrivelse *(valgfritt)*.
+
     * Feltet **Beskrivelse** kan brukes til å forklare hensikten med overskriften, og kan vises som verktøytips i grensesnittet.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Overskriften legges til i listen **Overskrifter**. Gjenta prosedyren for å legge til flere overskrifter.
@@ -63,14 +67,15 @@ Etterpå kan du [velge hvilke overskrifter forekomstene skal vises under](#group
 
 Hvis du vil bruke to nivåer i en liste, må du tildele overskrifter til hver enkelt forekomst i listen **Forekomster**. Alternativt kan du bruke fanen **Overskrifter** for å spesifisere hvilke forekomster som hører til en bestemt overskrift.
 
-[!NOTE]
+> [!NOTE]
 > Listen må inneholde et visst minimum antall forekomster for at gruppering skal aktiveres. Dette antallet defineres i [Preferanser][3].
 
-## Velg overskrifter for en forekomst
+### Velg overskrifter for en forekomst
 
 Eventuelle overskrifter som allerede er definert for den valgte listen, vises i panelet **Overskrifter** nederst til høyre. Hvis dette feltet er tomt, må du [legge til overskrifter først](#add).
 
 1. Velg ønsket forekomst i listen **Forekomster**.
+
 1. Kryss av ved ønsket overskrift i **Overskrifter**-listen. Da vil forekomsten vises under denne overskriften. En hake (<i class="ph ph-check" aria-hidden="true"></i>) vises.
     Endringene lagres automatisk.
 
@@ -80,9 +85,13 @@ Eventuelle overskrifter som allerede er definert for den valgte listen, vises i 
 ### Velg forekomster for en overskrift
 
 1. Gå til fanen **Overskrifter**.
+
 1. Velg en overskrift i listen.
+
 1. I listen **Forekomster under denne overskriften** klikker du av for hver forekomst som skal vises under den valgte overskriften.
+
 1. Gjenta for hver overskrift du vil tilordne forekomster til.
+
     Endringene lagres automatisk.
 
 ## <a id="update"></a>Redigere overskrifter
