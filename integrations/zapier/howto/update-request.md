@@ -63,4 +63,4 @@ language: en
 [img3]: media/search-superoffice-in-zapier.png
 [img4]: media/update-request-action.png
 [img5]: media/update-request-window.png
-[img6]: media/update-request-output.png.png
+[img6]: media/update-request-output.png
