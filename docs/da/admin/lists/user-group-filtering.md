@@ -20,24 +20,26 @@ SuperOffice CRM-brugere tilhører forskellige brugergrupper afhængigt af, hvilk
 
 Når du angiver en forekomst på en liste på skærmbilledet Lister, kan du også angive, hvilke brugergrupper forekomsten er synlig for, under fanen **Elementer**. Alternativt kan du gå til fanen **Brugergrupper** for at angive tilgængelige forekomster for hver brugergruppe. Begge metoder er beskrevet nedenfor.
 
-## Angivelse af brugergrupper for en forekomst
+> [!NOTE]
+> Hvis du ikke markerer **Brug gruppering og brugergruppefiltrering for denne liste**, er alle forekomster på listen synlige for alle brugergrupper.
+
+## Brug gruppering
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste.
+1. Vælg den ønskede liste fra dropdown-menuen i øverste venstre hjørne.
 
-3. Markér **Brug gruppering og brugergruppefiltrering for denne liste** i øverste højre hjørne.
+1. Markér **Brug gruppering og brugergruppefiltrering for denne liste** i øverste højre hjørne.
 
-    > [!NOTE]
-    > Hvis du ikke markerer **Brug gruppering og brugergruppefiltrering for denne liste**, er alle forekomster på listen synlige for alle brugergrupper.
+## Angivelse af brugergrupper for en forekomst
 
-4. Vælg den ønskede forekomst på listen **Forekomster**.
+1. Vælg den ønskede forekomst på listen **Forekomster**.
 
-5. Vælg en brugergruppe på listen **Synlig for brugergrupper**. Alle brugergrupper i organisationen vises her. Klik på feltet ud for den påkrævede brugergruppe for at angive, at forekomsten skal være synlig for den pågældende gruppe.
+1. Vælg en brugergruppe på listen **Synlig for brugergrupper**. Alle brugergrupper i organisationen vises her. Klik på feltet ud for den påkrævede brugergruppe for at angive, at forekomsten skal være synlig for den pågældende gruppe.
 
     Feltet markeres derefter med et flueben (<i class="ph ph-check" aria-hidden="true"></i>).
 
-6. Gentag trin 4 og 5 for hver forekomst, du vil gøre synligt for bestemte brugergrupper.
+1. Gentag trin 1 og 2 for hver forekomst, du vil gøre synligt for bestemte brugergrupper.
 
 > [!NOTE]
 > Når du føjer en forekomst til listen **Forekomster**, vil den automatisk være synlig for alle de brugergrupper, der er angivet under **Synlig for brugergrupper**. Du kan om nødvendigt fjerne markeringen for de brugergrupper, du ikke ønsker, at forekomsterne skal være synlige for.
@@ -48,22 +50,13 @@ Du kan vælge flere brugergrupper for en forekomst. Klik på **Marker alle** (<i
 
 Du kan også angive tilgængelige forekomster for en brugergruppe:
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Gå til fanen **Brugergrupper**.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste.
+1. Vælg en brugergruppe på listen.
 
-3. Markér **Brug gruppering og brugergruppefiltrering for denne liste** i øverste højre hjørne.
+1. På listen **Forekomster, der er tilgængelige for denne brugergruppe** skal du klikke på feltet ud for hver forekomst, der skal være synlig for den gruppe.
 
-    > [!NOTE]
-    > Hvis du ikke markerer **Brug gruppering og brugergruppefiltrering for denne liste**, vil alle forekomster på listen være synlige for alle brugergrupper.
-
-4. Gå til fanen **Brugergrupper**.
-
-5. Vælg en brugergruppe på listen.
-
-6. På listen **Forekomster, der er tilgængelige for denne brugergruppe** skal du klikke på feltet ud for hver forekomst, der skal være synlig for den gruppe.
-
-7. Gentag trin 5 og 6 for hver brugergruppe.
+1. Gentag trin 2 og 3 for hver brugergruppe.
 
 ## Relateret indhold
 

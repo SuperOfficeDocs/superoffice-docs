@@ -17,20 +17,23 @@ language: sv
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] önskad lista i listrutan högst upp. Alla poster som redan har definierats för den valda listan visas i listan **Poster**. Om du väljer en ny användardefinierad lista är listan tom.
+1. Välj önskad lista från rullgardinsmenyn längst upp till vänster.
 
-3. Klicka på knappen **Lägg till** under listan **Poster**.
+    * Alla poster som redan har definierats för den valda listan visas i listan **Poster**.
+    * Om du väljer en ny användardefinierad lista är listan tom.
+
+1. Klicka på knappen **Lägg till** under listan **Poster**.
 
     Vissa listtyper är mer specialiserade än de som beskrivs i den här proceduren. [Så lägger du till en post i en speciallista][1].
 
-4. Skriv namnet på posten i fältet **Namn** i dialogrutan. *(Obligatoriskt)*
+1. Skriv namnet på posten i fältet **Namn** i dialogrutan. *(Obligatoriskt)*
 
-5. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**.
+1. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**.
 
     > [!NOTE]
     > Beskrivningen du lägger till här kommer att visas som hjälptext när listan används för ett användardefinierat fält.
 
-6. Klicka på **Spara**. Posten läggs nu till i listan **Poster**. Upprepa proceduren om du vill lägga till fler poster.
+1. Klicka på **Spara**. Posten läggs nu till i listan **Poster**. Upprepa proceduren om du vill lägga till fler poster.
 
 Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna under listan (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 

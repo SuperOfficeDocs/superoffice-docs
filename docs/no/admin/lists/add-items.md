@@ -17,20 +17,23 @@ language: no
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] den ønskede listen fra listeboksen øverst. Alle forekomster som tidligere er definert for den valgte listen, vises i listen **Forekomster**. Hvis du velger en ny brukerdefinert liste, er listen tom.
+1. Velg ønsket liste fra nedtrekksmenyen øverst til venstre.
 
-3. Klikk på **Legg til**-knappen under listen **Forekomster**.
+    * Alle forekomster som tidligere er definert for den valgte listen, vises i listen **Forekomster**.
+    * Hvis du velger en ny brukerdefinert liste, er listen tom.
+
+1. Klikk på **Legg til**-knappen under listen **Forekomster**.
 
     Enkelte listetyper er mer spesialiserte enn de som er nevnt i denne prosedyren. [Slik legger du til et element i en spesialisert liste][1].
 
-4. Skriv inn ønsket navn på elementet i feltet **Navn** i dialogboksen. *(Obligatorisk)*
+1. Skriv inn ønsket navn på elementet i feltet **Navn** i dialogboksen. *(Obligatorisk)*
 
-5. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**.
+1. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**.
 
     > [!NOTE]
     > Beskrivelsen du legger inn her, vil være tilgjengelig som en infoboks når listen brukes i et brukerdefinert felt.
 
-6. Klikk på **Lagre**. Forekomsten blir nå lagt til i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere forekomster.
+1. Klikk på **Lagre**. Forekomsten blir nå lagt til i listen **Forekomster**. Gjenta prosedyren hvis du vil legge til flere forekomster.
 
 Forekomstene vises i den rekkefølgen de blir lagt inn. Hvis du vil endre rekkefølgen, kan du merke ønsket forekomst og flytte den opp eller ned med pilknappene under listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 

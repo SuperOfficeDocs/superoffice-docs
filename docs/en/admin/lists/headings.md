@@ -50,9 +50,13 @@ You can also add, edit, or delete headings as needed.
 Before linking a heading to an item, you must add the headings you require.
 
 1. Go to the **Headings** tab.
+
 1. Click the **Add** button below the **Headings** list to add a new heading.
+
 1. In the dialog, enter the required name for the heading *(Mandatory)* and a description (*Optional*).
+
     * The **Description** field can be used to clarify the purpose of the heading and may appear as tooltip text in the interface.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
@@ -63,15 +67,17 @@ After adding the required headings, [choose which headings each item will be dis
 
 If you want a list with two levels, you must select headings for each individual item in the **Items** list in the **Lists** screen. Alternatively, you can go to the **Headings** tab to specify available items for specific headings. Both methods are described below.
 
-[!NOTE]
+> [!NOTE]
 > The list must consist of a certain minimum number of items to be displayed in this way. This number is defined in the [Preferences screen][3].
 
-## Choose headings for a list item
+### Choose headings for a list item
 
 Any headings already specified for the selected list are displayed in the **Headings** list at the lower right. If this field is empty, [add headings first](#add).
 
 1. Select the required item in the **Items** list.
+
 1. Check the box next to the required heading name in the **Headings** list to specify that the selected list item will be displayed under it. The box will then be marked with a tick (<i class="ph ph-check" aria-hidden="true"></i>).
+
     The changes are saved automatically.
 
 > [!TIP]
@@ -80,9 +86,13 @@ Any headings already specified for the selected list are displayed in the **Head
 ### Choose list items for a heading
 
 1. Go to the **Headings** tab.
+
 1. Select a heading in the list.
+
 1. In the **List items under this heading** list, click the box next to each item that should be visible under the selected heading.
+
 1. Repeat steps 2 and 3 for each heading.
+
     The changes are saved automatically.
 
 ## <a id="update"></a>Edit headings

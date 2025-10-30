@@ -35,19 +35,18 @@ You can change the name or description of an item previously set up in Settings 
 
 ### Steps
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Open the **Lists** screen and select the desired list from the dropdown menu in the upper-left corner of the screen.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
+    * All previously defined items for the selected list are displayed in the **Items** list.
+    * If you select a new user-defined list, the list is empty.
 
-    All previously defined items for the selected list are displayed in the **Items** list. If you select a new user-defined list, the list is empty.
-
-3. Double-click the required item in the **Items** list.
+1. Double-click the required item in the **Items** list.
 
     [How to update a specialized list][2].
 
-4. In the dialog, enter a new name and a description. *(Mandatory)*
+1. In the dialog, enter a new name and a description. *(Mandatory)*
 
-5. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Watch this video to learn how you can edit list items is SuperOffice CRM (video length - 2:05):
 
@@ -69,11 +68,11 @@ Watch this video to learn how to add and edit subscription types (video length -
 
 ## <a id="delete"></a>Delete predefined and user-defined list items
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
-2. [!include[Click arrow and select](includes/expand-list.md)] the required list.
-3. Select the item to delete in the **Items** list.
-4. Click the **Delete** button at the bottom of the screen. The item will be deleted from the list and will also no longer be displayed in the relevant list in SuperOffice CRM.
-5. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. Select the item to delete in the **Items** list.
+
+1. Click the **Delete** button at the bottom of the screen. The item will be deleted from the list and will also no longer be displayed in the relevant list in SuperOffice CRM.
+
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > The [deletion is not permanent even if you confirm it][5]. The name of the item will still be displayed in records in SuperOffice CRM that refer to it. This does not apply if you create a list and delete it before you saved it. In that case, the list cannot be undeleted.

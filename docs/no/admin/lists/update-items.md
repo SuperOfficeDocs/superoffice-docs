@@ -35,19 +35,18 @@ Du kan endre navnet på eller beskrivelsen av en tidligere opprettet forekomst i
 
 ### Trinn
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Åpne **Lister**-bildet og velg ønsket liste fra nedtrekksmenyen øverst til venstre.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
+    * Alle forekomster som tidligere er definert for den valgte listen, vises i listen **Forekomster**.
+    * Hvis du velger en ny brukerdefinert liste, er listen tom.
 
-    Alle forekomster som tidligere er definert for den valgte listen, vises i listen **Forekomster**. Hvis du velger en ny brukerdefinert liste, er listen tom.
-
-3. Dobbeltklikk på ønsket forekomst i listen **Forekomster**.
+1. Dobbeltklikk på ønsket forekomst i listen **Forekomster**.
 
     [Slik oppdaterer du en spesialisert liste][2].
 
-4. Skriv inn et nytt navn og en beskrivelse i dialogboksen. *(Obligatorisk)*
+1. Skriv inn et nytt navn og en beskrivelse i dialogboksen. *(Obligatorisk)*
 
-5. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Se denne videoen for å finne ut hvordan du kan redigere listeforekomster i SuperOffice CRM (videolengde – 2.05):
 
@@ -69,11 +68,11 @@ Se denne videoen for å finne ut hvordan du legger til og redigerer abonnementst
 
 ## <a id="delete"></a>Slette forhåndsdefinerte og brukerdefinerte forekomster
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
-2. [!include[Click arrow and select](includes/expand-list.md)] ønsket liste.
-3. Merk forekomsten du vil slette, i **Forekomster**-listen.
-4. Klikk på **Slett**-knappen nederst i bildet. Forekomsten fjernes fra listen, og den vil heller ikke lenger vises i den aktuelle listen i SuperOffice CRM.
-5. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. Merk forekomsten du vil slette, i **Forekomster**-listen.
+
+1. Klikk på **Slett**-knappen nederst i bildet. Forekomsten fjernes fra listen, og den vil heller ikke lenger vises i den aktuelle listen i SuperOffice CRM.
+
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > Slettingen [er ikke permanent selv om du bekrefter den][5]. Navnet på forekomsten vises fortsatt i oppføringer i SuperOffice CRM som refererer til den. Dette gjelder ikke hvis du oppretter en liste og sletter den før du lagret den. I så fall får du ikke gjenopprettet listen.

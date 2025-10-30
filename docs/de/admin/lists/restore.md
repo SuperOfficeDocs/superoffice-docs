@@ -26,20 +26,18 @@ Aus diesem Grund können Löschvorgänge auf den genannten Registerkarten rückg
 
 Wenn Sie ein Objekt oder eine Überschrift löschen und später entscheiden, dass Sie sie nicht von der Liste in Einstellungen und Verwaltung entfernen möchten, können Sie den Löschvorgang in Einstellungen und Verwaltung rückgängig machen.
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Öffnen Sie die Ansicht **Listen** und wählen Sie die gewünschte Liste aus dem Dropdown-Menü in der oberen linken Ecke.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
+1. Aktivieren Sie die Option **Gelöschte Objekte und Überschriften anzeigen**.
 
-3. Aktivieren Sie die Option **Gelöschte Objekte und Überschriften anzeigen**.
+1. Doppelklicken Sie auf das Objekt bzw. die Überschrift, für das/die der Löschvorgang rückgängig gemacht werden soll (rot und durchgestrichen dargestellt).
 
-4. Doppelklicken Sie auf das Objekt bzw. die Überschrift, für das/die der Löschvorgang rückgängig gemacht werden soll (rot und durchgestrichen dargestellt).
-
-5. Klicken Sie auf die Schaltfläche **Wiederherstellen**.
+1. Klicken Sie auf die Schaltfläche **Wiederherstellen**.
 
     > [!NOTE]
     > Diese Schaltfläche ist nur für gelöschte Elemente verfügbar.
 
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
     Wenn Sie Ihre Änderungen speichern, wird das Objekt bzw. die Überschrift wieder in der betreffenden Liste in SuperOffice CRM angezeigt.
 

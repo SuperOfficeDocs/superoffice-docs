@@ -17,20 +17,23 @@ language: da
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] den påkrævede liste fra listen øverst. Alle tidligere definerede forekomster for den valgte liste vises på listen **Forekomster**. Hvis du vælger en ny brugerdefineret liste, er listen tom.
+1. Vælg den ønskede liste fra dropdown-menuen i øverste venstre hjørne.
 
-3. Klik på knappen **Tilføj** under listen **Forekomster**.
+    * Alle tidligere definerede forekomster for den valgte liste vises på listen **Forekomster**.
+    * Hvis du vælger en ny brugerdefineret liste, er listen tom.
+
+1. Klik på knappen **Tilføj** under listen **Forekomster**.
 
     Nogle listetyper er mere specialiserede end dem, der henvises til i denne procedure. [Sådan føjer du en forekomst til en specialiseret liste][1].
 
-4. Indtast i dialogboksen det ønskede navn for forekomsten i feltet **Navn**.*(Obligatorisk)*
+1. Indtast i dialogboksen det ønskede navn for forekomsten i feltet **Navn**.*(Obligatorisk)*
 
-5. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**.
+1. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**.
 
     > [!NOTE]
     > Den beskrivelse, du tilføjer her, vil være tilgængelig som et værktøjstip, når listen bruges til et brugerdefineret felt.
 
-6. Klik på **Gem**. Forekomsten bliver nu tilføjet på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere forekomster.
+1. Klik på **Gem**. Forekomsten bliver nu tilføjet på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere forekomster.
 
 Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne under listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
