@@ -2,10 +2,15 @@
 uid: help-no-deleted-items-and-headings
 title: Slettede forekomster og overskrifter
 description: Slettede forekomster og overskrifter
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold
+keywords: angre sletting
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from: /no/admin/lists/learn/organize/deleted-items-and-headings
 language: no
 ---
 

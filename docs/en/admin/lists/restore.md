@@ -2,10 +2,15 @@
 uid: help-en-deleted-items-and-headings
 title: Deleted items and headings
 description: Deleted items and headings
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance
+keywords: undo deletion, restore
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
+audience: settings
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from: /en/admin/lists/learn/organize/deleted-items-and-headings
 language: en
 ---
 
