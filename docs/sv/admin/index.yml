@@ -39,7 +39,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Listor
-          url: lists/learn/index.md
+          url: lists/index.md
         - text: Preferenser
           url: preferences/index.md
         - text: Alternativ
