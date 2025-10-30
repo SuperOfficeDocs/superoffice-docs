@@ -17,20 +17,22 @@ items:
     href: howto/listsource.md
   - name: Format date and time
     href: howto/datetime.md
-  - name: Create search action
+  - name: Find company action
     href: howto/find-company.md
   - name: Find request
     href: howto/find-request.md
   - name: Update project action
-    href: howto/update-project.md
+    href: howto/actions/update/update-project.md
   - name: Update sale action
-    href: howto/update-sale.md
+    href: howto/actions/update/update-sale.md
   - name: Update company action
-    href: howto/update-company.md
+    href: howto/actions/update/update-company.md
   - name: Update contact action
-    href: howto/update-contact.md
+    href: howto/actions/update/update-contact.md
   - name: Update request action
-    href: howto/update-request.md
+    href: howto/actions/update/update-request.md
+  - name: Update document content action
+    href: howto/actions/update/update-document-content.md
   - name: Project member changed trigger
     href: howto/project-member-changed.md
   - name: Update appointment action

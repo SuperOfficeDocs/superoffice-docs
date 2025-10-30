@@ -55,12 +55,12 @@ language: en
 
 <!-- Referenced links -->
 [1]: update-request.md
-[2]: ../get-started/create-zap.md
+[2]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: media/create-zap.png
-[img2]: media/new-zap-window.png
-[img3]: media/search-superoffice-in-zapier.png
-[img4]: media/update-request-action.png
-[img5]: media/update-request-window.png
-[img6]: media/update-request-output.png
+[img1]: ../../media/create-zap.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/update-request/update-request-action.png
+[img5]: ../../media/update-request/update-request-window.png
+[img6]: ../../media/update-request/update-request-output.png

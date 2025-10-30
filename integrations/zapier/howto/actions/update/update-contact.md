@@ -55,12 +55,12 @@ language: en
 
 <!-- Referenced links -->
 [1]: update-contact.md
-[2]: ../get-started/create-zap.md
+[2]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: media/create-zap.png
-[img2]: media/new-zap-window.png
-[img3]: media/search-superoffice-in-zapier.png
-[img4]: media/update-contact-action.png
-[img5]: media/update-contact-window.png
-[img6]: media/update-contact-output.png
+[img1]: ../../media/create-zap.png
+[img2]: ../../media/new-zap-window.png
+[img3]: ../../media/search-superoffice-in-zapier.png
+[img4]: ../../media/update-contact/update-contact-action.png
+[img5]: ../../media/update-contact/update-contact-window.png
+[img6]: ../../media/update-contact/update-contact-output.png
