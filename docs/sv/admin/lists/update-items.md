@@ -35,9 +35,9 @@ Du kan byta namn på eller ändra beskrivningen för en post som tidigare har ko
 
 ### Steg
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den aktuella listan.
+2. [!include[Click arrow and select](includes/expand-list.md)] den aktuella listan.
 
     Alla poster som redan har definierats för den valda listan visas i listan **Poster**. Om du väljer en ny användardefinierad lista är listan tom.
 
@@ -47,7 +47,7 @@ Du kan byta namn på eller ändra beskrivningen för en post som tidigare har ko
 
 4. Ange ett nytt namn och en beskrivning i dialogrutan. *(Obligatoriskt)*
 
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Den här filmen visar hur du redigerar poster i SuperOffice CRM (filmens längd: 2:05):
 
@@ -69,11 +69,11 @@ I den här filmen förklarar vi hur du lägger till och redigerar prenumerations
 
 ## <a id="delete"></a>Ta bort poster i fördefinierade och användardefinierade listor
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] den aktuella listan.
+1. [!include[Go to Lists](includes/goto-lists.md)]
+2. [!include[Click arrow and select](includes/expand-list.md)] den aktuella listan.
 3. Välj den post som ska tas bort i listan **Poster**.
 4. Klicka på knappen **Ta bort** längst ned på skärmen. Posten tas bort från listan och kommer inte heller att visas i den relevanta listan i SuperOffice CRM.
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > [Borttagningen är inte permanent även om du bekräftar den][5]. Postens namn kommer fortfarande att visas i poster i SuperOffice CRM som hänvisar till den. Detta gäller inte om du skapar en lista och tar bort den innan du har sparat den. I ett sådant fall kan listan inte återställas.
@@ -86,9 +86,9 @@ I den här filmen förklarar vi hur du lägger till och redigerar prenumerations
 * [Anpassa dina försäljningslistor][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/organize/deleted-items-and-headings.md
+[5]: restore.md
 
 <!-- Referenced images -->

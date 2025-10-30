@@ -52,7 +52,7 @@ Tags kan bruges til at søge efter sager i [fritekstsøgning][2] og i den almind
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../search-options/learn/freetext-search.md
-[4]: ../../admin/lists/learn/adding-items.md
+[4]: ../../admin/lists/add-items.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/request/tags.png

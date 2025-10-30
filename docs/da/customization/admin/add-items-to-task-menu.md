@@ -58,7 +58,7 @@ Når du tilføjer en URL-adresse, kan det være nyttigt at bruge f.eks. skabelon
 <!-- Referenced links -->
 [1]: ../web-panels/admin/add-web-panel.md
 [4]: ../web-panels/admin/url-encoding.md
-[3]: ../../admin/lists/learn/specialized-lists.md
+[3]: ../../admin/lists/specialized-lists.md
 [5]: ../../automation/crmscript/learn/index.md
 [6]: ../../../en/customization/soprotocol/index.md
 [7]: ../../localization/learn/translate-fields.md

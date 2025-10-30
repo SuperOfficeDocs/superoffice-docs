@@ -1,0 +1,17 @@
+items:
+- name: Introductie
+  href: index.md
+- name: Lijstitems toevoegen
+  href: add-items.md
+- name: Lijstitems bewerken of verwijderen
+  href: update-items.md
+- name: Gebruikersgroepen filteren
+  href: user-group-filtering.md
+- name: Kopteksten
+  href: headings.md
+- name: Verwijderde items en kopteksten
+  href: restore.md
+- name: Gespecialiseerde lijsten
+  href: specialized-lists.md
+- name: Door gebruikers gedefinieerde lijsten
+  href: user-defined-lists.md

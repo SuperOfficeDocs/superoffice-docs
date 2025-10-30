@@ -1,0 +1,17 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Add list items
+  href: add-items.md
+- name: Edit and delete list items
+  href: update-items.md
+- name: Deleted items and headings
+  href: restore.md
+- name: Headings
+  href: headings.md
+- name: User group filtering
+  href: user-group-filtering.md
+- name: Specialized lists
+  href: specialized-lists.md
+- name: User-defined lists
+  href: user-defined-lists.md

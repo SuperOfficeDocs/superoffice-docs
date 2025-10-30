@@ -113,5 +113,5 @@ Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven.
 De items worden weergegeven in de volgorde waarin u ze hebt ingevoerd. Als u de volgorde wilt wijzigen, selecteert u het item en plaatst u het met behulp van de pijltoetsen links van de lijst hoger of lager (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/organize/headings.md
-[2]: ../../admin/lists/learn/organize/user-group-filtering.md
+[1]: ../../admin/lists/headings.md
+[2]: ../../admin/lists/user-group-filtering.md

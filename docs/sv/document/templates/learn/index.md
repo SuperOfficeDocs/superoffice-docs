@@ -65,7 +65,7 @@ För att säkerställa att du kan kommunicera med dina kunder på deras eget spr
 [4]: create.md
 [2]: ../admin/update-template.md
 [6]: ../admin/link-template.md
-[5]: ../../../admin/lists/learn/organize/user-group-filtering.md
+[5]: ../../../admin/lists/user-group-filtering.md
 [7]: quote-templates.md
 [8]: ../../../knowledge-base/learn/reply-templates/template-variables.md
 

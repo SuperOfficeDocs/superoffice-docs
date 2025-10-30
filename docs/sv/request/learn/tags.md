@@ -52,7 +52,7 @@ Taggar kan användas för att söka efter ärenden i [fritextsökning][2] och i 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../search-options/learn/freetext-search.md
-[4]: ../../admin/lists/learn/adding-items.md
+[4]: ../../admin/lists/add-items.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/request/tags.png

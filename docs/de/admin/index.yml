@@ -40,7 +40,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Listen
-          url: lists/learn/index.md
+          url: lists/index.md
         - text: Einstellungen
           url: preferences/index.md
         - text: Optionen

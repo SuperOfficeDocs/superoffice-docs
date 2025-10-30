@@ -21,8 +21,6 @@ language: sv
 
 För att komma igång, klicka på knappen **Listor** i navigatorn (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](learn/includes/tip-find-list.md)]
-
 ## Lägga till användardefinierad lista
 
 1. Klicka på knappen **Skapa lista** längst upp till höger i fönstret.
@@ -61,6 +59,6 @@ Förutom att ange ett namn och en beskrivning för listan måste du [lägga till
     Listan tas bort.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

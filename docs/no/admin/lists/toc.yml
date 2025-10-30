@@ -1,0 +1,17 @@
+items:
+- name: Inntroduksjon
+  href: index.md
+- name: Legge til forekomster
+  href: add-items.md
+- name: Redigere eller slette forekomster
+  href: update-items.md
+- name: Slettede forekomster og overskrifter
+  href: restore.md
+- name: Overskrifter
+  href: headings.md
+- name: Brukergruppefiltrering
+  href: user-group-filtering.md
+- name: Spesialiserte lister
+  href: specialized-lists.md
+- name: Brukerdefinerte lister
+  href: user-defined-lists.md

@@ -141,7 +141,7 @@ Ved at installere WebTools får du din e-mail og dine dokumenter integreret med 
 [3]: import/index.md
 [4]: ../sale/learn/sales-guide/index.md
 [5]: ../project/learn/index.md
-[6]: lists/learn/index.md
+[6]: lists/index.md
 [7]: ../document/templates/learn/index.md
 [8]: ../security/privacy/admin/index.md
 [9]: preferences/index.md

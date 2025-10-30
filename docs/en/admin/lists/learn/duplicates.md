@@ -1,3 +1,3 @@
 ---
-redirect_url: https://docs.superoffice.com/en/admin/lists/learn/index.html
+redirect_url: https://docs.superoffice.com/en/admin/lists/index.html
 ---

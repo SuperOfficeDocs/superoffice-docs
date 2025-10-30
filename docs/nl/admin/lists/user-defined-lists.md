@@ -21,8 +21,6 @@ language: nl
 
 Om te beginnen, klikt u op de knop **Lijsten** in de navigator (<i class="ph ph-list-bullets" aria-hidden="true"></i>).
 
-[!include[Find specific list](learn/includes/tip-find-list.md)]
-
 ## Door gebruikers gedefinieerde lijst toevoegen
 
 1. Klik op de knop **Lijst maken** rechtsboven in het scherm.
@@ -63,6 +61,6 @@ U moet niet alleen een naam en een beschrijving opgeven voor de lijst, maar u mo
     De lijst wordt verwijderd.
 
 <!-- Referenced links -->
-[1]: learn/adding-items.md
+[1]: add-items.md
 
 <!-- Referenced images -->

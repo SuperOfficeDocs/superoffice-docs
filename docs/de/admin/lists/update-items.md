@@ -37,9 +37,9 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Listenobjekte in SuperOffi
 
 ### Schritte
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
+1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] die erforderliche Liste.
+2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
 
     In der Liste **Objekte** werden alle zuvor definierten Objekte für die ausgewählte Liste angezeigt. Wenn Sie eine neue benutzerdefinierte Liste auswählen, ist die Liste leer.
 
@@ -49,7 +49,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Listenobjekte in SuperOffi
 
 4. Geben Sie im Dialogfeld einen neuen Namen und eine Beschreibung ein. *(Pflichtfeld)*
 
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
@@ -69,11 +69,11 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Abonnementtypen hinzufüge
 
 ## <a id="delete"></a>Löschen Sie vordefinierte und benutzerdefinierte Listenobjekte
 
-1. [!include[Go to Lists](learn/includes/goto-lists.md)]
-2. [!include[Click arrow and select](learn/includes/expand-list.md)] die erforderliche Liste.
+1. [!include[Go to Lists](includes/goto-lists.md)]
+2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
 3. Wählen Sie das zu löschende Objekt in der Liste **Objekte** aus.
 4. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**. Das Objekt wird von der Liste gelöscht und nicht mehr in der entsprechenden Liste in SuperOffice CRM angezeigt.
-5. [!include[Save or cancel](learn/includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 > [!NOTE]
 > Der [Löschvorgang ist selbst dann nicht permanent, wenn Sie ihn bestätigt haben][5]. Der Name des Objekts wird weiterhin in SuperOffice CRM-Datensätzen angezeigt, die auf das Objekt verweisen. Dies gilt jedoch nicht, wenn Sie eine Liste erstellt und vor dem Speichern wieder gelöscht haben. In diesem Fall kann die Liste nicht wiederhergestellt werden.
@@ -86,9 +86,9 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Abonnementtypen hinzufüge
 * [Ihre Verkaufslisten anpassen][4]
 
 <!-- Referenced links -->
-[2]: learn/specialized-lists.md
+[2]: specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/organize/deleted-items-and-headings.md
+[5]: restore.md
 
 <!-- Referenced images -->

@@ -23,8 +23,8 @@ items:
     href: ../user-preferences/reference/toc.yml
     topicHref: ../user-preferences/reference/appointment-dialog.md
 - name: Lists
-  href: ../lists/learn/toc.yml
-  topicHref: ../lists/learn/index.md
+  href: ../lists/toc.yml
+  topichref: ../lists/index.md
 - name: User management
   href: ../user-management/toc.yml
   topicHref: ../user-management/index.md

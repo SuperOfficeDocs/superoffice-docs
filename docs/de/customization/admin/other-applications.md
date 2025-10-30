@@ -113,5 +113,5 @@ Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Deta
 Die Objekte werden in der Reihenfolge angezeigt, in der Sie sie eingegeben haben. Wenn Sie die Reihenfolge ändern möchten, wählen Sie das gewünschte Objekt aus und verschieben Sie es mit den Pfeiltasten links von der Liste (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>) nach oben oder unten.
 
 <!-- Referenced links -->
-[1]: ../../admin/lists/learn/organize/headings.md
-[2]: ../../admin/lists/learn/organize/user-group-filtering.md
+[1]: ../../admin/lists/headings.md
+[2]: ../../admin/lists/user-group-filtering.md
