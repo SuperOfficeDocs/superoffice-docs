@@ -73,7 +73,7 @@ Sie können keine zwei Objekte mit demselben Namen in einer Liste registrieren. 
 [6]: ../../../document/templates/learn/index.md
 [7]: ../user-group-filtering.md
 [8]: ../update-items.md
-[9]: organize/deleted-items-and-headings.md
+[9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
 [11]: adding-items.md
 

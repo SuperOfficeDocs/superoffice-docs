@@ -23,8 +23,8 @@ items:
       href: organize/adding-headings.md
     - name: Ändra och ta bort rubriker
       href: organize/headings-editing-and-deleting.md
-  - name: Borttagna poster och rubriker
-    href: organize/deleted-items-and-headings.md
+- name: Borttagna poster och rubriker
+  href: ../restore.md
 - name: Specialiserade listor
   href: specialized-lists.md
 - name: Användardefinierade listor

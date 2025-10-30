@@ -24,6 +24,6 @@ Du sletter overskrifter ved å merke den aktuelle overskriften i listen **Oversk
 
 <!-- Referenced links -->
 [1]: adding-headings.md
-[2]: deleted-items-and-headings.md
+[2]: ../../restore.md
 
 <!-- Referenced images -->

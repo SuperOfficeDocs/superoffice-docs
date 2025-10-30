@@ -23,8 +23,8 @@ items:
       href: organize/adding-headings.md
     - name: Skift og slet overskrifter
       href: organize/headings-editing-and-deleting.md
-  - name: Slettede forekomster og overskrifter
-    href: organize/deleted-items-and-headings.md
+- name: Slettede forekomster og overskrifter
+  href: ../restore.md
 - name: Specialiserede lister
   href: specialized-lists.md
 - name: Brugerdefinerede lister

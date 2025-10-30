@@ -24,6 +24,6 @@ You delete headings by checking the relevant heading in the **Headings** list an
 
 <!-- Referenced links -->
 [1]: adding-headings.md
-[2]: deleted-items-and-headings.md
+[2]: ../../restore.md
 
 <!-- Referenced images -->

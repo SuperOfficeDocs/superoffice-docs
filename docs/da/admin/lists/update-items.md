@@ -91,6 +91,6 @@ Se denne video for at få at vide, hvordan du tilføjer og redigerer abonnements
 [2]: learn/specialized-lists.md
 [3]: ../../security/privacy/admin/add-source.md
 [4]: ../../sale/admin/sale-type.md
-[5]: learn/organize/deleted-items-and-headings.md
+[5]: learn/restore.md
 
 <!-- Referenced images -->

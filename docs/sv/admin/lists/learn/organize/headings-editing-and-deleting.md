@@ -24,6 +24,6 @@ Du kan ta bort en rubrik genom att markera den i listan **Rubriker** och klicka 
 
 <!-- Referenced links -->
 [1]: adding-headings.md
-[2]: deleted-items-and-headings.md
+[2]: ../../restore.md
 
 <!-- Referenced images -->

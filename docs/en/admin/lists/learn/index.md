@@ -73,7 +73,7 @@ You cannot create two items with the same name in one list. The same applies to 
 [6]: ../../../document/templates/learn/index.md
 [7]: ../user-group-filtering.md
 [8]: ../update-items.md
-[9]: organize/deleted-items-and-headings.md
+[9]: ../restore.md
 [10]: ../../../custom-objects/admin/edit-udef-layout.md
 [11]: adding-items.md
 

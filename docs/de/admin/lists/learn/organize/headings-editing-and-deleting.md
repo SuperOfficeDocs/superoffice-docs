@@ -24,6 +24,6 @@ Um eine Überschrift zu löschen, markieren Sie die betreffende Überschrift in 
 
 <!-- Referenced links -->
 [1]: adding-headings.md
-[2]: deleted-items-and-headings.md
+[2]: ../../restore.md
 
 <!-- Referenced images -->

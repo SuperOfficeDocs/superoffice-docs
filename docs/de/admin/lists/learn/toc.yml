@@ -23,8 +23,8 @@ items:
       href: organize/adding-headings.md
     - name: Überschriften ändern und löschen
       href: organize/headings-editing-and-deleting.md
-  - name: Gelöschte Objekte und Überschriften
-    href: organize/deleted-items-and-headings.md
+- name: Gelöschte Objekte und Überschriften
+  href: ../restore.md
 - name: Spezialisierte Listen
   href: specialized-lists.md
 - name: Benutzerdefinierte Listen

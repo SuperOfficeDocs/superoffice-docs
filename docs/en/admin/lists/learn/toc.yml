@@ -23,8 +23,8 @@ items:
       href: organize/adding-headings.md
     - name: Change and delete headings
       href: organize/headings-editing-and-deleting.md
-  - name: Deleted items and headings
-    href: organize/deleted-items-and-headings.md
+- name: Deleted items and headings
+  href: ../restore.md
 - name: Specialized lists
   href: specialized-lists.md
 - name: User-defined lists

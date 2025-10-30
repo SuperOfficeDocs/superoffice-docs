@@ -23,8 +23,8 @@ items:
       href: organize/adding-headings.md
     - name: Kopteksten veranderen en verwijderen
       href: organize/headings-editing-and-deleting.md
-  - name: Verwijderde items en kopteksten
-    href: organize/deleted-items-and-headings.md
+- name: Verwijderde items en kopteksten
+  href: ../restore.md
 - name: Gespecialiseerde lijsten
   href: specialized-lists.md
 - name: Door gebruikers gedefinieerde lijsten
