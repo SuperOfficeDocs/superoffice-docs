@@ -2,12 +2,17 @@
 uid: help-en-update-list-items
 title: Edit items
 description: In this how-to guide you'll learn how to edit a list item.
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: list item
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /en/admin/lists/learn/editing-items
+  - /en/admin/lists/learn/deleting-items
 language: en
 ---
 

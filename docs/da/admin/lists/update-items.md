@@ -3,11 +3,16 @@ uid: help-da-update-list-items
 title: Ændre forekomster
 description: I denne vejledning lærer du, hvordan du redigerer en forekomst.
 keywords: forekomst, lister
-author: SuperOffice RnD
-date: 02.28.2025
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /da/admin/lists/learn/editing-items
+  - /da/admin/lists/learn/deleting-items
 language: da
 ---
 

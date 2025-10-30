@@ -3,11 +3,16 @@ uid: help-sv-update-list-items
 title: Ändra listposter
 description: I den här guiden förklarar vi hur du redigerar en listpost.
 keywords: post
-author: SuperOffice RnD
-date: 02.25.2025
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
-audience_tooltip: Inställningar och underhåll
+audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /sv/admin/lists/learn/editing-items
+  - /sv/admin/lists/learn/deleting-items
 language: sv
 ---
 

@@ -3,11 +3,16 @@ uid: help-nl-update-list-items
 title: Lijstitems bewerken
 description: In deze handleiding leert u hoe u een lijstitem bewerkt.
 keywords: lijstitem, lijsten
-author: SuperOffice RnD
-date: 03.14.2025
+author: digitaldiina
+date: 10.29.2025
+version: 10.5
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+index: true
+redirect_from:
+  - /nl/admin/lists/learn/editing-items
+  - /nl/admin/lists/learn/deleting-items
 language: nl
 ---
 
