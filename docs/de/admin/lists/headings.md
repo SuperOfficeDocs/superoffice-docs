@@ -50,9 +50,13 @@ Sie können Überschriften auch bei Bedarf hinzufügen, bearbeiten oder löschen
 Bevor Sie eine Überschrift mit einem Objekt verknüpfen können, müssen Sie die erforderlichen Überschriften hinzufügen.
 
 1. Gehen Sie zur Registerkarte **Überschriften**.
+
 1. Klicken Sie unter der Liste **Überschriften** auf **Hinzufügen**, um eine neue Überschrift zu erstellen.
+
 1. Geben Sie im Dialogfeld den Namen der Überschrift *(Pflichtfeld)* und eine Beschreibung *(optional)* ein.
+
     * Das Feld **Beschreibung** kann verwendet werden, um den Zweck der Überschrift zu erläutern und kann als Tooltip im Benutzerinterface erscheinen.
+
 1. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 Die Überschrift wird der Liste **Überschriften** hinzugefügt. Wiederholen Sie den Vorgang, um weitere Überschriften hinzuzufügen.
@@ -63,14 +67,15 @@ Nachdem Sie die Überschriften hinzugefügt haben, können Sie [festlegen, unter
 
 Wenn Sie eine Liste mit zwei Ebenen verwenden möchten, müssen Sie für jedes Objekt in der Liste **Objekte** Überschriften auswählen. Alternativ können Sie auf der Registerkarte **Überschriften** festlegen, welche Objekte unter welcher Überschrift angezeigt werden sollen.
 
-[!NOTE]
+> [!NOTE]
 > Die Liste muss eine bestimmte Mindestanzahl von Objekten enthalten, damit sie auf diese Weise angezeigt werden kann. Diese Zahl ist in den [Benutzereinstellungen][3] definiert.
 
-## Überschriften für ein Listenobjekt auswählen
+### Überschriften für ein Listenobjekt auswählen
 
 Alle Überschriften, die bereits für die ausgewählte Liste definiert sind, werden unten rechts im Bereich **Überschriften** angezeigt. Wenn dieser Bereich leer ist, müssen Sie [zuerst Überschriften hinzufügen](#add).
 
 1. Wählen Sie das gewünschte Objekt in der Liste **Objekte** aus.
+
 1. Aktivieren Sie das Kontrollkästchen neben der gewünschten Überschrift in der Liste **Überschriften**, um festzulegen, dass das ausgewählte Objekt unter dieser Überschrift angezeigt wird. Das Kontrollkästchen wird mit einem Häkchen (<i class="ph ph-check" aria-hidden="true"></i>) markiert.
     Die Änderungen werden automatisch gespeichert.
 
@@ -80,9 +85,13 @@ Alle Überschriften, die bereits für die ausgewählte Liste definiert sind, wer
 ### Listenobjekte für eine Überschrift auswählen
 
 1. Wechseln Sie zur Registerkarte **Überschriften**.
+
 1. Wählen Sie eine Überschrift in der Liste aus.
+
 1. In der Liste **Objekte unter dieser Überschrift** aktivieren Sie die Kontrollkästchen neben den Objekten, die unter der ausgewählten Überschrift angezeigt werden sollen.
+
 1. Wiederholen Sie diesen Vorgang für jede Überschrift.
+
     Die Änderungen werden automatisch gespeichert.
 
 ## <a id="update"></a>Überschriften bearbeiten

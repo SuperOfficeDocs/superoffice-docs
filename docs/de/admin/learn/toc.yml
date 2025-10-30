@@ -16,7 +16,7 @@ items:
   topicHref: ../options/index.md
 - name: Listen
   href: ../lists/toc.yml
-  topichref: ../lists/index.md
+  topicHref: ../lists/index.md
 - name: Benutzerverwaltung
   href: ../user-management/toc.yml
   topicHref: ../user-management/index.md

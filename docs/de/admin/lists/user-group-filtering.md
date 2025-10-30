@@ -20,24 +20,26 @@ SuperOffice CRM-Benutzer gehören je nach Typ der ihnen eingeräumten Zugriffsre
 
 Wenn Sie in der Ansicht Listen ein Objekt in einer Liste angeben, können Sie zudem in der Registerkarte **Objekte** festlegen, für welche Benutzergruppen das Objekt sichtbar ist. Sie können stattdessen auch auf der Registerkarte **Benutzergruppen** verfügbare Objekte für die einzelnen Benutzergruppen angeben. Beide Methoden werden im Folgenden beschrieben.
 
-## Benutzergruppen für ein Objekt festlegen
+> [!NOTE]
+> Wenn Sie **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** nicht aktivieren, sind alle Objekte in der Liste für alle Benutzergruppen sichtbar.
+
+## Gruppieren verwenden
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
+1. Wählen Sie die gewünschte Liste aus dem Dropdown-Menü in der oberen linken Ecke.
 
-3. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** in der Ecke oben rechts.
+1. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** in der Ecke oben rechts.
 
-    > [!NOTE]
-    > Wenn Sie **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** nicht aktivieren, sind alle Objekte in der Liste für alle Benutzergruppen sichtbar.
+## Benutzergruppen für ein Objekt festlegen
 
-4. Wählen Sie das gewünschte Objekt in der Liste **Objekte** aus.
+1. Wählen Sie das gewünschte Objekt in der Liste **Objekte** aus.
 
-5. Wählen Sie in der Liste **Sichtbar für Benutzergruppen** eine Benutzergruppe aus. Hier werden alle Benutzergruppen des Unternehmens angezeigt. Klicken Sie auf das Kontrollkästchen neben der gewünschten Benutzergruppe, um festzulegen, dass das Objekt für diese Gruppe sichtbar sein soll.
+1. Wählen Sie in der Liste **Sichtbar für Benutzergruppen** eine Benutzergruppe aus. Hier werden alle Benutzergruppen des Unternehmens angezeigt. Klicken Sie auf das Kontrollkästchen neben der gewünschten Benutzergruppe, um festzulegen, dass das Objekt für diese Gruppe sichtbar sein soll.
 
     Das Kontrollkästchen wird mit einem Häkchen (<i class="ph ph-check" aria-hidden="true"></i>) markiert.
 
-6. Wiederholen Sie die Schritte 4 und 5 für jedes Objekt, das für bestimmte Benutzergruppen sichtbar sein soll.
+1. Wiederholen Sie die Schritte für jedes Objekt, das für bestimmte Benutzergruppen sichtbar sein soll.
 
 > [!NOTE]
 > Wenn Sie ein Objekt zur Liste **Objekte** hinzufügen, ist es automatisch für all diejenigen Benutzergruppen sichtbar, die unter **Sichtbar für Benutzergruppen** aufgeführt sind. Sie können gegebenenfalls die Häkchen für diejenigen Benutzergruppen entfernen, für die die Objekte nicht sichtbar sein sollen.
@@ -48,22 +50,13 @@ Sie können mehrere Benutzergruppen für ein Objekt auswählen. Klicken Sie auf 
 
 Sie können auch verfügbare Objekte für eine Benutzergruppe angeben:
 
-1. [!include[Go to Lists](includes/goto-lists.md)]
+1. Wechseln Sie zur Registerkarte **Benutzergruppen**.
 
-2. [!include[Click arrow and select](includes/expand-list.md)] die erforderliche Liste.
+1. Wählen Sie in der Liste eine Benutzergruppe aus.
 
-3. Aktivieren Sie die Option **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** in der Ecke oben rechts.
+1. Klicken Sie in der Liste **Für diese Benutzergruppe verfügbare Listenelemente** auf das Feld neben jedem Objekt, das für die Gruppe sichtbar sein soll.
 
-    > [!NOTE]
-    > Wenn Sie **Gruppieren und Filtern nach Benutzergruppe für diese Liste verwenden** nicht aktivieren, werden alle Objekte in der Liste für alle Benutzergruppen sichtbar.
-
-4. Wechseln Sie zur Registerkarte **Benutzergruppen**.
-
-5. Wählen Sie in der Liste eine Benutzergruppe aus.
-
-6. Klicken Sie in der Liste **Für diese Benutzergruppe verfügbare Listenelemente** auf das Feld neben jedem Objekt, das für die Gruppe sichtbar sein soll.
-
-7. Gehen Sie für jede Gruppe wie in Schritt 5 und 6 erläutert vor.
+1. Gehen Sie für jede Gruppe wie in Schritt 2 und 3 erläutert vor.
 
 ## Verwandte Themen
 
