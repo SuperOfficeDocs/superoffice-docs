@@ -61,6 +61,6 @@ language: en
 [img1]: ../../media/create-zap.png
 [img2]: ../../media/new-zap-window.png
 [img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update-contact/update-contact-action.png
-[img5]: ../../media/update-contact/update-contact-window.png
-[img6]: ../../media/update-contact/update-contact-output.png
+[img4]: ../../media/update/update-contact/update-contact-action.png
+[img5]: ../../media/update/update-contact/update-contact-window.png
+[img6]: ../../media/update/update-contact/update-contact-output.png

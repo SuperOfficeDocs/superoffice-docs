@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-company
-title: Update SuperOffice CRM company
-description: How to update SuperOffice company with Zapier
-keywords: Update company, new Zap, Zapier update action
+uid: zapier-create-project
+title: Create SuperOffice CRM project
+description: How to create SuperOffice project with Zapier
+keywords: Create project, new Zap, Zapier update action
 author: miguellemos95
-date: 10.29.2025
+date: 10.31.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM company
+# Create SuperOffice CRM project
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -32,35 +32,36 @@ language: en
 
     ![Zapier: Select your action -screenshot][img3]
 
-1. A side menu will open, in the **Action event** section, select **Update Company**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Action event** section, select **Create Project**, then click the **Account** section and log in using your SuperOffice account.
 
     ![Set up your action -screenshot][img4]
 
 1. Click on the **Continue** button at the bottom of the side panel and you will be taken to the **Configure** step.
 
-1. Fill out the mandatory fields **Company ID** and optionally other fields.
+1. Fill out the mandatory fields **Title**, **Responsible**, **Type** and optionally other fields.
 
     ![Fill out your action -screenshot][img5]
 
 1. Check that the action works by clicking **Test step**.
 
-1. If the above steps were configured correctly, the response should consist of **Company id**, **Company**, **Department**, **Category id**, **Category**, **Business id**, **Business**, **Our contact id**, **Our contact**, **Country id**, **Country**, **Number**, **Created date**, **Created by**, **Updated date**, **Updated by**, **Address 1**, **Address 2**, **Address 3**, **City**, **State**, **County**, **Zip code / postal code**, **Postal address 1**, **Postal address 2**, **Postal address 3**, **Postal city**, **Postal state**, **Postal county**, **Postal zip code / postal code**, **Note**, **E-mail**, **Phone**, **Fax**, **Web site**, **Interests**, **Code**, **VAT No**, **Stop**, **No Mailings**, **Self URL**
+1. If the above steps were configured correctly, the response should consist of **Project id**, **Title**, **Responsible id**, **Responsible**, **Description**, **Number**, **Web site**, **Type id**, **Type**, **Status id**, **Status**, **Completed**, **End date**, **Next milestone**, **Note**, **Created by**, **Created date**, **Updated by**, **Updated date**, **Project members**, **Self URL**.
+
 
     ![Zapier: Verify -screenshot][img6]
 
 ## Related content
 
-* [Update company][1]
+* [Create project][1]
 * [Create a Zap with SuperOffice CRM][2]
 
 <!-- Referenced links -->
-[1]: update-company.md
+[1]: create-project.md
 [2]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
 [img1]: ../../media/create-zap.png
 [img2]: ../../media/new-zap-window.png
 [img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-company/update-company-action.png
-[img5]: ../../media/update/update-company/update-company-window.png
-[img6]: ../../media/update/update-company/update-company-output.png
+[img4]: ../../media/create/create-project/create-project-action.png
+[img5]: ../../media/create/create-project/create-project-window.png
+[img6]: ../../media/create/create-project/create-project-output.png

@@ -61,6 +61,6 @@ language: en
 [img1]: ../../media/create-zap.png
 [img2]: ../../media/new-zap-window.png
 [img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update-appointment/update-appointment-action.png
-[img5]: ../../media/update-appointment/update-appointment-window.png
-[img6]: ../../media/update-appointment/update-appointment-output.png
+[img4]: ../../media/update/update-appointment/update-appointment-action.png
+[img5]: ../../media/update/update-appointment/update-appointment-window.png
+[img6]: ../../media/update/update-appointment/update-appointment-output.png

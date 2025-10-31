@@ -44,7 +44,7 @@ language: en
 
 1. Check that the action works by clicking **Test step**.
 
-1. If the above steps were configured correctly, the response should consist of **Request id**, **Title**, **Author**, **Contact id**, **Contact name**, **Company id**, **Company name**, **Owner id**, **Owner**, **Category id**, **Category**, **Priority id**, **Priority**, **Status**, **Access level for request**, **Origin**, **Created by id**, **Created by**, **Replied at**, **Closed at**, **Deadline**, **Self URL**
+1. If the above steps were configured correctly, the response should consist of **Request id**, **Title**, **Author**, **Contact id**, **Contact name**, **Company id**, **Company name**, **Owner id**, **Owner**, **Category id**, **Category**, **Priority id**, **Priority**, **Status**, **Access level for request**, **Origin**, **Created by id**, **Created by**, **Replied at**, **Closed at**, **Deadline**, **Self URL**.
 
     ![Zapier: Verify -screenshot][img6]
 
@@ -61,6 +61,6 @@ language: en
 [img1]: ../../media/create-zap.png
 [img2]: ../../media/new-zap-window.png
 [img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update-request/update-request-action.png
-[img5]: ../../media/update-request/update-request-window.png
-[img6]: ../../media/update-request/update-request-output.png
+[img4]: ../../media/update/update-request/update-request-action.png
+[img5]: ../../media/update/update-request/update-request-window.png
+[img6]: ../../media/update/update-request/update-request-output.png

@@ -46,7 +46,6 @@ language: en
 
 1. If the above steps were configured correctly, the response should consist of **Document id**, **Company id**, **Company name**, **Contact id**, **Contact name**, **Project id**, **Project name**, **Sale id**, **Sale title**, **Template id**, **Template name**, **Completed?**, **Date**, **Our ref.**, **Your ref.**, **Title/Subject**, **Description**, **Owner id**, **Owner**, **Filename**, **Created date**, **Created by**, **Updated date**, **Update by**, **File**
 
-
     ![Zapier: Verify -screenshot][img6]
 
 ## Related content
@@ -62,6 +61,6 @@ language: en
 [img1]: ../../media/create-zap.png
 [img2]: ../../media/new-zap-window.png
 [img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update-document-content/update-document-content-action.png
-[img5]: ../../media/update-document-content/update-document-content-window.png
-[img6]: ../../media/update-document-content/update-document-content-output.png
+[img4]: ../../media/update/update-document-content/update-document-content-action.png
+[img5]: ../../media/update/update-document-content/update-document-content-window.png
+[img6]: ../../media/update/update-document-content/update-document-content-output.png
