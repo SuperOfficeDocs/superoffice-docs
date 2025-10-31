@@ -25,12 +25,12 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ### 11.6 (03.11.2025)
 
-* [Settings and maintenance – the Marketing navigator with UTM tracking][6] in Marketing
-* [Marketing Form - Add UTM parameters to your campaign links][6] in Marketing
-* [Dashboard – Lead management tiles][6] in Marketing
-* [Contact selections - Use board view to get overview of leads][6] in Marketing
-* [Company - Category list][6] in Marketing
-* [Contact - Lead status list][6] in Marketing
+* [Settings and maintenance – the Marketing navigator with UTM tracking][19] in Marketing
+* [Marketing Form - Add UTM parameters to your campaign links][19] in Marketing
+* [Dashboard – Lead management tiles][19] in Marketing
+* [Contact selections - Use board view to get overview of leads][19] in Marketing
+* [Company - Category list][19] in Marketing
+* [Contact - Lead status list][19] in Marketing
 * [Contact - Lead status list connected to the Category][18] in Core CRM
 * [Selection - Board view for company and contact][18]
 * [Search criteria - Lead creation and first touch on companies and contacts][18] in Core CRM
