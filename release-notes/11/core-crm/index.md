@@ -14,7 +14,10 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM and Sales
 
+* [Contact - Lead status list connected to the Category (11.6)][6]
 * [Selection - Board view for company and contact (11.6)][6]
+* [Search criteria - Lead creation and first touch on companies and contacts (11.6)][6]
+* [Dashboard - Tiles for leads information (11.6)][6]
 * [Selection - Board view for requests (11.4)][4]
 * [Production sandbox badge (Test environment) (11.4)][4]
 * [Selection - Board view for projects (11.3)][3]

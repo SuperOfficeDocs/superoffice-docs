@@ -25,10 +25,22 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ### 11.6 (03.11.2025)
 
-* [Selection - Board view for company and contact][18] in Core CRM
-* [Lists - GUI Web panel - Option for always reload content on tab navigation][19] in Service
-* [CRMScript - Trigger for "Load request message" with message creation logic][19] in Service
-* [Preferences - Set Request preferences for system, group, or user][19] in Service
+* [Settings and maintenance – the Marketing navigator with UTM tracking][6] in Marketing
+* [Marketing Form - Add UTM parameters to your campaign links][6] in Marketing
+* [Dashboard – Lead management tiles][6] in Marketing
+* [Contact selections - Use board view to get overview of leads][6] in Marketing
+* [Company - Category list][6] in Marketing
+* [Contact - Lead status list][6] in Marketing
+* [Contact - Lead status list connected to the Category][18] in Core CRM
+* [Selection - Board view for company and contact][18]
+* [Search criteria - Lead creation and first touch on companies and contacts][18] in Core CRM
+* [Dashboard - Tiles for leads information][18] in Core CRM
+* [Marketing - Conversion tracking for UTM tracking][20] in Settings and maintenance
+* [Lists - Company Category with Category group][20] in Settings and maintenance
+* [Lists - Contact - Lead status][20] in Settings and maintenance
+* [Lists - GUI Web panel - Option for always reload content on tab navigation][20] in Settings and maintenance
+* [CRMScript - Trigger for "Load request message" with message creation logic][20] in Settings and maintenance
+* [Preferences - Set Request preferences for system, group, or user][20] in Settings and maintenance
 
 ### 11.5 (16.10.2025)
 
@@ -96,7 +108,8 @@ Some features are available to selected customers as part of ongoing pilots. See
 [16]: service/11.5-update.md
 [17]: ../index.md
 [18]: core-crm/11.6-update.md
-[19]: service/11.6-update.md
+[19]: marketing/11.6-update.md
+[20]: admin/11.6-update.md
 [30]: https://community.superoffice.com/en/product-releases/release-notes/
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated

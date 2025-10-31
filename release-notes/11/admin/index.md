@@ -13,6 +13,9 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
+* [Marketing - Conversion tracking for UTM tracking (11.6)][6]
+* [Lists - Company Category with Category group (11.6)][6]
+* [Lists - Contact - Lead status (11.6)][6]
 * [Lists - GUI Web panel - Option for always reload content on tab navigation (11.6)][6]
 * [CRMScript - Trigger for "Load request message" with message creation logic (11.6)][6]
 * [Preferences - Set Request preferences for system, group, or user (11.6)][6]
