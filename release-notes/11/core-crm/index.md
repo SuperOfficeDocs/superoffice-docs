@@ -4,7 +4,7 @@ title: What's new in SuperOffice Core CRM 11
 description: Release notes. What's new in SuperOffice Core CRM 11
 keywords: new UI
 author: kirstiaa
-date: 11.04.2025 #tbd
+date: 11.03.2025
 version: 11
 content_type: release-note
 category: core-crm

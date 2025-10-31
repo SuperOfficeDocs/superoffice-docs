@@ -4,7 +4,7 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution
 author: SuperOffice AS – Product and Engineering
-date: 10.16.2025
+date: 11.03.2025
 version: 11
 content_type: release-note
 audience: person
