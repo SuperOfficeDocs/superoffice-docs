@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Marketing
 
-* [Settings and maintenance – the Marketing navigator with UTM tracking (11.6)][6]
+* [Settings and maintenance – Marketing screen with conversion tracking (UTM) (11.6)][6]
 * [Marketing Form - Use UTM tracking when publishing the form (11.6)][6]
 * [Dashboard – Lead management tiles (11.6)][6]
 * [Contact selections - Use board view to get overview of leads (11.6)][6]

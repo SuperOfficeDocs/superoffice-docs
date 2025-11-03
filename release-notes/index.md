@@ -15,15 +15,22 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 11.6**][11] - 03.11.2025.
+The latest online release is [**version 11.6**][11] - 03.11.2025.
 
 Recent versions:
 
+* [11.5][11]
+* [11.4][11]
+* [11.3][11]
+* [11.2][11]
 * [11.1][11]
 * [10.5][9]
-* [10.3][8]
 
 Older versions are listed in the table of contents.
+
+### Onsite
+
+The latest onsite release is **10.5**. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
@@ -54,7 +61,7 @@ Different integration components are released on separate schedules. See the [in
 * [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
 
-## Ongoing pilot programs
+## <a id="pilot"></a>Ongoing pilot programs
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
@@ -82,7 +89,6 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 <!-- Referenced links-->
 [7]: mobile/index.md
-[8]: 10.3/index.md
 [9]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md
@@ -92,6 +98,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
+[19]: ../docs/en/onsite/version-history.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

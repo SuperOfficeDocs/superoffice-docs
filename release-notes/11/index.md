@@ -25,18 +25,18 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 
 ### 11.6 (03.11.2025)
 
-* [Settings and maintenance – the Marketing navigator with UTM tracking][19] in Marketing
+* [Selection - Board view for company and contact][18] in Core CRM
+* [Contact - Lead status list connected to the Category][18] in Core CRM
+* [Search criteria - Lead creation and first touch on companies and contacts][18] in Core CRM
+* [Dashboard - Tiles for lead information][18] in Core CRM
+* [Settings and maintenance – Marketing screen with conversion tracking (UTM)][19] in Marketing
 * [Marketing Form - Add UTM parameters to your campaign links][19] in Marketing
 * [Dashboard – Lead management tiles][19] in Marketing
 * [Contact selections - Use board view to get overview of leads][19] in Marketing
 * [Company - Category list][19] in Marketing
 * [Contact - Lead status list][19] in Marketing
-* [Contact - Lead status list connected to the Category][18] in Core CRM
-* [Selection - Board view for company and contact][18]
-* [Search criteria - Lead creation and first touch on companies and contacts][18] in Core CRM
-* [Dashboard - Tiles for leads information][18] in Core CRM
-* [Marketing - Conversion tracking for UTM tracking][20] in Settings and maintenance
-* [Lists - Company Category with Category group][20] in Settings and maintenance
+* [Marketing - Conversion tracking with UTM data][20] in Settings and maintenance
+* [Lists - Company category with category group][20] in Settings and maintenance
 * [Lists - Contact - Lead status][20] in Settings and maintenance
 * [Lists - GUI Web panel - Option for always reload content on tab navigation][20] in Settings and maintenance
 * [CRMScript - Trigger for "Load request message" with message creation logic][20] in Settings and maintenance
@@ -106,7 +106,7 @@ Some features are available to selected customers as part of ongoing pilots. See
 [14]: marketing/11.5-update.md
 [15]: ../mobile/index.md
 [16]: service/11.5-update.md
-[17]: ../index.md
+[17]: ../index.md#pilot
 [18]: core-crm/11.6-update.md
 [19]: marketing/11.6-update.md
 [20]: admin/11.6-update.md

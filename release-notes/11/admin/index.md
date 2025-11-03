@@ -2,7 +2,7 @@
 uid: news-admin-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Settings and maintenance 11
-author: SuperOffice AS – Product and engineering
+author: kirstiaa
 date: 11.03.2025
 version: 11
 content_type: release-note
@@ -13,8 +13,8 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
-* [Marketing - Conversion tracking for UTM tracking (11.6)][6]
-* [Lists - Company Category with Category group (11.6)][6]
+* [Marketing - Conversion tracking with UTM data (11.6)][6]
+* [Lists - Company category with category group (11.6)][6]
 * [Lists - Contact - Lead status (11.6)][6]
 * [Lists - GUI Web panel - Option for always reload content on tab navigation (11.6)][6]
 * [CRMScript - Trigger for "Load request message" with message creation logic (11.6)][6]
