@@ -3,7 +3,7 @@ uid: news-admin-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Settings and maintenance 11
 author: kirstiaa
-date: 11.03.2025
+date: 11.06.2025
 version: 11
 content_type: release-note
 category: Settings and maintenance
