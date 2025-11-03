@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-find-request
-title: Find SuperOffice CRM request
-description: How to find SuperOffice request with Zapier
+uid: zapier-find-request-action
+title: Find SuperOffice CRM Request action
+description: How to use SuperOffice find request action with Zapier
 keywords: Find request, new Zap, Zapier find action
 author: miguellemos95
-date: 10.30.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Find SuperOffice CRM request
+# Find a SuperOffice CRM Request action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -56,19 +56,23 @@ language: en
 
 ## Related content
 
-* [Find request][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Request Action][1]
+* [Update Request Action][2]
+* [New Request Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: search-request.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-request.md
+[2]: ../update/update-request.md
+[3]: ../../triggers/new/new-request.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/search/search-request/search-request-action.png
-[img5]: ../../media/search/search-request/search-request-window.png
-[img6]: ../../media/search/search-request/search-criteria-request-window.png
-[img7]: ../../media/search/search-request/search-value-request-window.png
-[img8]: ../../media/search/search-request/search-request-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/search/search-request/search-request-action.png
+[img5]: ../../media/actions/search/search-request/search-request-window.png
+[img6]: ../../media/actions/search/search-request/search-criteria-request-window.png
+[img7]: ../../media/actions/search/search-request/search-value-request-window.png
+[img8]: ../../media/actions/search/search-request/search-request-output.png

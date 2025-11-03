@@ -1,10 +1,10 @@
 ---
-uid: zapier-update-appointment
-title: Update SuperOffice CRM appointment
-description: How to update SuperOffice appointment with Zapier
+uid: zapier-update-appointment-action
+title: Set SuperOffice CRM Appointment update action
+description: How to use SuperOffice update appointment action with Zapier
 keywords: Update appointment, new Zap, Zapier update action
 author: so-matas
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM appointment
+# Update a SuperOffice CRM Appointment action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,21 @@ language: en
 
 ## Related content
 
-* [Update appointment][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Appointment Action][1]
+* [New Appointment Trigger][2]
+* [Appointment Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: update-appointment.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-appointment.md
+[2]: ../../triggers/new/new-appointment.md
+[3]: ../../triggers/changed/appointment-changed.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-appointment/update-appointment-action.png
-[img5]: ../../media/update/update-appointment/update-appointment-window.png
-[img6]: ../../media/update/update-appointment/update-appointment-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-appointment/update-appointment-action.png
+[img5]: ../../media/actions/update/update-appointment/update-appointment-window.png
+[img6]: ../../media/actions/update/update-appointment/update-appointment-output.png

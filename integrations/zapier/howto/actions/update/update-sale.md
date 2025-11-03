@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-sale
-title: Update SuperOffice CRM sale
-description: How to update SuperOffice sale with Zapier
+uid: zapier-update-sale-action
+title: Set SuperOffice CRM Sale update action
+description: How to use SuperOffice update sale action with Zapier
 keywords: Update sale, new Zap, Zapier update action
 author: miguellemos95
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM sale
+# Update a SuperOffice CRM Sale action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,23 @@ language: en
 
 ## Related content
 
-* [Update sale][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Find Sale Action][1]
+* [Create Sale Action][2]
+* [New Sale Trigger][3]
+* [Sale Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: update-sale.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../search/search-sale.md
+[2]: ../create/create-sale.md
+[3]: ../../triggers/new/new-sale.md
+[4]: ../../triggers/changed/sale-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-sale/update-sale-action.png
-[img5]: ../../media/update/update-sale/update-sale-window.png
-[img6]: ../../media/update/update-sale/update-sale-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-sale/update-sale-action.png
+[img5]: ../../media/actions/update/update-sale/update-sale-window.png
+[img6]: ../../media/actions/update/update-sale/update-sale-output.png

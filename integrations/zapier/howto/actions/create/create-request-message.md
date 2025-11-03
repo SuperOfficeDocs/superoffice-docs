@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-create-request-message
-title: Create SuperOffice CRM request message
-description: How to create SuperOffice request message with Zapier
-keywords: Create request message, new Zap, Zapier update action
+uid: zapier-create-request-message-action
+title: Set SuperOffice CRM Request Message create action
+description: How to use SuperOffice request message action with Zapier
+keywords: Create request message, new Zap, Zapier create action
 author: miguellemos95
-date: 10.31.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Create SuperOffice CRM request message
+# Create SuperOffice CRM Request Message action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,15 @@ language: en
 
 ## Related content
 
-* [Create request message][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create a Zap with SuperOffice CRM][1]
 
 <!-- Referenced links -->
-[1]: create-request-message.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/create/create-request-message/create-request-message-action.png
-[img5]: ../../media/create/create-request-message/create-request-message-window.png
-[img6]: ../../media/create/create-request-message/create-request-message-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/create/create-request-message/create-request-message-action.png
+[img5]: ../../media/actions/create/create-request-message/create-request-message-window.png
+[img6]: ../../media/actions/create/create-request-message/create-request-message-output.png

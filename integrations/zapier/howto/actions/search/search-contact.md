@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-find-contact
-title: Find SuperOffice CRM contact
-description: How to find SuperOffice contact with Zapier
+uid: zapier-find-contact-action
+title: Set SuperOffice CRM Contact find action
+description: How to use SuperOffice find contact action with Zapier
 keywords: Find contact, new Zap, Zapier find action
 author: miguellemos95
-date: 10.30.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Find SuperOffice CRM contact
+# Find a SuperOffice CRM Contact action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -56,19 +56,25 @@ language: en
 
 ## Related content
 
-* [Find contact][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Contact Action][1]
+* [Update Contact Action][2]
+* [New Contact Trigger][3]
+* [Contact Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: search-contact.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-contact.md
+[2]: ../update/update-contact.md
+[3]: ../../triggers/new/new-contact.md
+[4]: ../../triggers/changed/contact-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/search/search-contact/search-contact-action.png
-[img5]: ../../media/search/search-contact/search-contact-window.png
-[img6]: ../../media/search/search-contact/search-criteria-contact-window.png
-[img7]: ../../media/search/search-contact/search-value-contact-window.png
-[img8]: ../../media/search/search-contact/search-contact-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/search/search-contact/search-contact-action.png
+[img5]: ../../media/actions/search/search-contact/search-contact-window.png
+[img6]: ../../media/actions/search/search-contact/search-criteria-contact-window.png
+[img7]: ../../media/actions/search/search-contact/search-value-contact-window.png
+[img8]: ../../media/actions/search/search-contact/search-contact-output.png

@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-find-project
-title: Find SuperOffice CRM project
-description: How to find SuperOffice project with Zapier
+uid: zapier-find-project-action
+title: Find SuperOffice CRM Project action
+description: How to use SuperOffice find project action with Zapier
 keywords: Find project, new Zap, Zapier find action
 author: miguellemos95
-date: 10.30.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Find SuperOffice CRM project
+# Find a SuperOffice CRM Project action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -56,19 +56,25 @@ language: en
 
 ## Related content
 
-* [Find project][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Project Action][1]
+* [Update Project Action][2]
+* [New Project Trigger][3]
+* [Project Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: search-project.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-project.md
+[2]: ../update/update-project.md
+[3]: ../../triggers/new/new-project.md
+[4]: ../../triggers/changed/project-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/search/search-project/search-project-action.png
-[img5]: ../../media/search/search-project/search-project-window.png
-[img6]: ../../media/search/search-project/search-criteria-project-window.png
-[img7]: ../../media/search/search-project/search-value-project-window.png
-[img8]: ../../media/search/search-project/search-project-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/search/search-project/search-project-action.png
+[img5]: ../../media/actions/search/search-project/search-project-window.png
+[img6]: ../../media/actions/search/search-project/search-criteria-project-window.png
+[img7]: ../../media/actions/search/search-project/search-value-project-window.png
+[img8]: ../../media/actions/search/search-project/search-project-output.png

@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-project-member-changed
-title: Changed SuperOffice CRM project member
-description: How to useSuperOffice project member change trigger with Zapier
-keywords: Project member changed, new Zap, Zapier change trigger
+uid: zapier-new-company-trigger
+title: Set SuperOffice CRM new Company trigger
+description: How to use SuperOffice new company trigger with Zapier
+keywords: New company, new Zap, Zapier new trigger
 author: miguellemos95
-date: 10.17.2025
+date: 10.31.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM project
+# Create a SuperOffice CRM new Company trigger
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -32,7 +32,7 @@ language: en
 
     ![Zapier: Select your trigger -screenshot][img3]
 
-1. A side menu will open, in the **Trigger event** section, select **Project Member Changed**, then click the **Account** section and log in using your SuperOffice account.
+1. A side menu will open, in the **Trigger event** section, select **New Company**, then click the **Account** section and log in using your SuperOffice account.
 
     ![Set up your trigger -screenshot][img4]
 
@@ -44,21 +44,25 @@ language: en
 
     ![Zapier: Select your action -screenshot][img6]
 
-1. If the above steps were configured correctly, the action you chosen should be executed properly when the **Trigger event Project Member Changed** is executed in SuperOffice CRM.
+1. If the above steps were configured correctly, the action you chosen should be executed properly when the **Trigger event New Company** is executed in SuperOffice CRM.
 
 ## Related content
 
-* [Project Member Changed][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Company Action][1]
+* [Update Company Action][2]
+* [Company Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: update-project.md
-[2]: ../get-started/create-zap.md
+[1]: ../../actions/create/create-company.md
+[2]: ../../actions/update/update-company.md
+[3]: ../../triggers/changed/company-changed.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: media/create-zap.png
-[img2]: media/new-zap-window.png
-[img3]: media/search-superoffice-in-zapier.png
-[img4]: media/project-changed-trigger.png
-[img5]: media/test-trigger.png
-[img6]: media/select-action.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/triggers/new-company/new-company-action.png
+[img5]: ../../media/triggers/new-company/new-company-output.png
+[img6]: ../../media/common/select-action.png

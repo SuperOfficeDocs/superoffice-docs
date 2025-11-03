@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-find-company
-title: Find SuperOffice CRM company
-description: How to find SuperOffice company with Zapier
+uid: zapier-find-company-action
+title: Find SuperOffice CRM Company action
+description: How to use SuperOffice find company action with Zapier
 keywords: Find company, new Zap, Zapier find action
 author: miguellemos95
-date: 10.30.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Find SuperOffice CRM company
+# Find a SuperOffice CRM Company action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -57,19 +57,25 @@ language: en
 
 ## Related content
 
-* [Find company][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Company Action][1]
+* [Update Company Action][2]
+* [New Company Trigger][3]
+* [Company Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: search-company.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-company.md
+[2]: ../update/update-company.md
+[3]: ../../triggers/new/new-company.md
+[4]: ../../triggers/changed/company-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/search/search-company/search-company-action.png
-[img5]: ../../media/search/search-company/search-company-window.png
-[img6]: ../../media/search/search-company/search-criteria-company-window.png
-[img7]: ../../media/search/search-company/search-value-company-window.png
-[img8]: ../../media/search/search-company/search-company-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/search/search-company/search-company-action.png
+[img5]: ../../media/actions/search/search-company/search-company-window.png
+[img6]: ../../media/actions/search/search-company/search-criteria-company-window.png
+[img7]: ../../media/actions/search/search-company/search-value-company-window.png
+[img8]: ../../media/actions/search/search-company/search-company-output.png

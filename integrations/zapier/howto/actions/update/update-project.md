@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-project
-title: Update SuperOffice CRM project
-description: How to update SuperOffice project with Zapier
+uid: zapier-update-project-action
+title: Set SuperOffice CRM Project update action
+description: How to use SuperOffice update project action with Zapier
 keywords: Update project, new Zap, Zapier update action
 author: miguellemos95
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM project
+# Update SuperOffice CRM Project action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,23 @@ language: en
 
 ## Related content
 
-* [Update project][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Find Project Action][1]
+* [Create Project Action][2]
+* [New Project Trigger][3]
+* [Project Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: update-project.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../search/search-project.md
+[2]: ../create/create-project.md
+[3]: ../../triggers/new/new-project.md
+[4]: ../../triggers/changed/project-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-project/update-project-action.png
-[img5]: ../../media/update/update-project/update-project-window.png
-[img6]: ../../media/update/update-project/update-project-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-project/update-project-action.png
+[img5]: ../../media/actions/update/update-project/update-project-window.png
+[img6]: ../../media/actions/update/update-project/update-project-output.png

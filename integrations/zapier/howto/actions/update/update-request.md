@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-request
-title: Update SuperOffice CRM request
-description: How to update SuperOffice request with Zapier
+uid: zapier-update-request-action
+title: Set SuperOffice CRM request update action
+description: How to use SuperOffice update request action with Zapier
 keywords: Update request, new Zap, Zapier update action
 author: miguellemos95
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM request
+# Update a SuperOffice CRM Request action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,21 @@ language: en
 
 ## Related content
 
-* [Update request][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Find Request Action][1]
+* [Create Request Action][2]
+* [New Request Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: update-request.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../search/search-request.md
+[2]: ../create/create-request.md
+[3]: ../../triggers/new/new-request.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-request/update-request-action.png
-[img5]: ../../media/update/update-request/update-request-window.png
-[img6]: ../../media/update/update-request/update-request-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-request/update-request-action.png
+[img5]: ../../media/actions/update/update-request/update-request-window.png
+[img6]: ../../media/actions/update/update-request/update-request-output.png

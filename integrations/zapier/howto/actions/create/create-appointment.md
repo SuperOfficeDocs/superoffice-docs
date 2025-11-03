@@ -1,10 +1,10 @@
 ---
-uid: zapier-create-appointment
-title: Create SuperOffice CRM appointment
-description: How to create SuperOffice appointment with Zapier
+uid: zapier-create-appointment-action
+title: Set SuperOffice CRM Appointment create action
+description: How to use SuperOffice create appointment action with Zapier
 keywords: Create appointment, new Zap, Zapier create action
 author: so-matas
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Create SuperOffice CRM appointment
+# Create a SuperOffice CRM Appointment action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,21 @@ language: en
 
 ## Related content
 
-* [Create appointment][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Update Appointment Action][1]
+* [New Appointment Trigger][2]
+* [Appointment Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: create-appointment.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../update/update-appointment.md
+[2]: ../../triggers/new/new-appointment.md
+[3]: ../../triggers/changed/appointment-changed.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/create/create-appointment/create-appointment-action.png
-[img5]: ../../media/create/create-appointment/create-appointment-window.png
-[img6]: ../../media/create/create-appointment/create-appointment-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/create/create-appointment/create-appointment-action.png
+[img5]: ../../media/actions/create/create-appointment/create-appointment-window.png
+[img6]: ../../media/actions/create/create-appointment/create-appointment-output.png

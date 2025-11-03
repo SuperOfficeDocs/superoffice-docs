@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-contact
-title: Update SuperOffice CRM contact
-description: How to update SuperOffice contact with Zapier
+uid: zapier-update-contact-action
+title: Set SuperOffice CRM Contact update action
+description: How to use SuperOffice update contact action with Zapier
 keywords: Update contact, new Zap, Zapier update action
 author: miguellemos95
-date: 10.29.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM contact
+# Update a SuperOffice CRM Contact action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,23 @@ language: en
 
 ## Related content
 
-* [Update contact][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Find Contact Action][1]
+* [Create Contact Action][2]
+* [New Contact Trigger][3]
+* [Contact Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: update-contact.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../search/search-contact.md
+[2]: ../create/create-contact.md
+[3]: ../../triggers/new/new-contact.md
+[4]: ../../triggers/changed/contact-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-contact/update-contact-action.png
-[img5]: ../../media/update/update-contact/update-contact-window.png
-[img6]: ../../media/update/update-contact/update-contact-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-contact/update-contact-action.png
+[img5]: ../../media/actions/update/update-contact/update-contact-window.png
+[img6]: ../../media/actions/update/update-contact/update-contact-output.png

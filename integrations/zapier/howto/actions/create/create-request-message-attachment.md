@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-create-request-message-attachment
-title: Create SuperOffice CRM request message attachment
-description: How to create SuperOffice request message attachment with Zapier
-keywords: Create request message attachment, new Zap, Zapier update action
+uid: zapier-create-request-message-attachment-action
+title: Set SuperOffice CRM Request Message Attachment create action 
+description: How to use SuperOffice create request message attachment action with Zapier
+keywords: Create request message attachment, new Zap, Zapier create action
 author: miguellemos95
-date: 10.31.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Create SuperOffice CRM request message attachment
+# Create a SuperOffice CRM Request Message Attachment action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -58,19 +58,17 @@ language: en
 
 ## Related content
 
-* [Create request message attachment][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create a Zap with SuperOffice CRM][1]
 
 <!-- Referenced links -->
-[1]: create-request-message-attachment.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/create/create-request-message-attachment/create-request-message-attachment-action.png
-[img5]: ../../media/create/create-request-message-attachment/create-request-message-attachment-step-flow.png
-[img6]: ../../media/create/create-request-message-attachment/create-request-message-attachment-fetch-id.png
-[img7]: ../../media/create/create-request-message-attachment/create-request-message-attachment-window.png
-[img8]: ../../media/create/create-request-message-attachment/create-request-message-attachment-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-action.png
+[img5]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-step-flow.png
+[img6]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-fetch-id.png
+[img7]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-window.png
+[img8]: ../../media/actions/create/create-request-message-attachment/create-request-message-attachment-output.png

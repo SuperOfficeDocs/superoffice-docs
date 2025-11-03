@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-remove-project-member
-title: Remove SuperOffice CRM project member
-description: How to remove SuperOffice project member with Zapier
+uid: zapier-remove-project-member-action
+title: Set SuperOffice CRM Project Member remove action
+description: How to use SuperOffice remove project member action with Zapier
 keywords: Remove project member, new Zap, Zapier remove action
 author: miguellemos95
-date: 10.31.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Remove SuperOffice CRM project member
+# Remove a SuperOffice CRM Project Member action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -58,19 +58,23 @@ language: en
 
 ## Related content
 
-* [Remove project member][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create Project Member Action][1]
+* [New Project Member Trigger][2]
+* [Project Member Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: remove-project-member.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../create/create-project-member.md
+[2]: ../../triggers/new/new-project-member.md
+[3]: ../../triggers/changed/project-member-changed.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/remove/remove-project-member/remove-project-member-action.png
-[img5]: ../../media/remove/remove-project-member/remove-project-member-selection-window.png
-[img6]: ../../media/remove/remove-project-member/remove-by-project-member-id-window.png
-[img7]: ../../media/remove/remove-project-member/remove-by-project-and-member-window.png
-[img8]: ../../media/remove/remove-project-member/remove-project-member-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/remove/remove-project-member/remove-project-member-action.png
+[img5]: ../../media/actions/remove/remove-project-member/remove-project-member-selection-window.png
+[img6]: ../../media/actions/remove/remove-project-member/remove-by-project-member-id-window.png
+[img7]: ../../media/actions/remove/remove-project-member/remove-by-project-and-member-window.png
+[img8]: ../../media/actions/remove/remove-project-member/remove-project-member-output.png

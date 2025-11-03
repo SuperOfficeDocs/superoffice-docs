@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-create-project-member
-title: Create SuperOffice CRM project member
+uid: zapier-create-project-member-action
+title: Create SuperOffice CRM Project Member
 description: How to create SuperOffice project member with Zapier
-keywords: Create project member, new Zap, Zapier update action
+keywords: Create project member, new Zap, Zapier create action
 author: miguellemos95
-date: 10.31.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Create SuperOffice CRM project member
+# Create a SuperOffice CRM Project Member action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,21 @@ language: en
 
 ## Related content
 
-* [Create project member][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Remove Project Member Action][1]
+* [New Project Member Trigger][2]
+* [Project Member Changed Trigger][3]
+* [Create a Zap with SuperOffice CRM][4]
 
 <!-- Referenced links -->
-[1]: create-project-member.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../remove/remove-project-member.md
+[2]: ../../triggers/new/new-project-member.md
+[3]: ../../triggers/changed/project-member-changed.md
+[4]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/create/create-project-member/create-project-member-action.png
-[img5]: ../../media/create/create-project-member/create-project-member-window.png
-[img6]: ../../media/create/create-project-member/create-project-member-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/create/create-project-member/create-project-member-action.png
+[img5]: ../../media/actions/create/create-project-member/create-project-member-window.png
+[img6]: ../../media/actions/create/create-project-member/create-project-member-output.png

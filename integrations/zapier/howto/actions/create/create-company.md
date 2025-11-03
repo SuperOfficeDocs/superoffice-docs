@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-create-company
-title: Create SuperOffice CRM company
-description: How to create SuperOffice company with Zapier
-keywords: Create company, new Zap, Zapier update action
+uid: zapier-create-company-action
+title: Set SuperOffice CRM Company create action
+description: How to use SuperOffice create company action with Zapier
+keywords: Create company, new Zap, Zapier create action
 author: miguellemos95
-date: 10.29.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Create SuperOffice CRM company
+# Create a SuperOffice CRM Company action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,23 @@ language: en
 
 ## Related content
 
-* [Create company][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Find Company Action][1]
+* [Update Company Action][2]
+* [New Company Trigger][3]
+* [Company Changed Trigger][4]
+* [Create a Zap with SuperOffice CRM][5]
 
 <!-- Referenced links -->
-[1]: create-company.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../search/search-company.md
+[2]: ../update/update-company.md
+[3]: ../../triggers/new/new-company.md
+[4]: ../../triggers/changed/company-changed.md
+[5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/create/create-company/create-company-action.png
-[img5]: ../../media/create/create-company/create-company-window.png
-[img6]: ../../media/create/create-company/create-company-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/create/create-company/create-company-action.png
+[img5]: ../../media/actions/create/create-company/create-company-window.png
+[img6]: ../../media/actions/create/create-company/create-company-output.png

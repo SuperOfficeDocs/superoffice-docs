@@ -1,10 +1,10 @@
 ﻿---
-uid: zapier-update-document-content
-title: Update SuperOffice CRM document content
-description: How to update SuperOffice document content with Zapier
+uid: zapier-update-document-content-action
+title: Set SuperOffice CRM Document Content update action
+description: How to use SuperOffice update document content action with Zapier
 keywords: Update document content, new Zap, Zapier update action
 author: miguellemos95
-date: 10.16.2025
+date: 11.03.2025
 content_type: howto
 functional_right: general administrator
 category: integration
@@ -13,7 +13,7 @@ platform: Zapier
 language: en
 ---
 
-# Update SuperOffice CRM document content
+# Update a SuperOffice CRM Document Content action
 
 > [!NOTE]
 > To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
@@ -50,17 +50,15 @@ language: en
 
 ## Related content
 
-* [Update document content][1]
-* [Create a Zap with SuperOffice CRM][2]
+* [Create a Zap with SuperOffice CRM][1]
 
 <!-- Referenced links -->
-[1]: update-document-content.md
-[2]: ../../../get-started/create-zap.md
+[1]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/create-zap.png
-[img2]: ../../media/new-zap-window.png
-[img3]: ../../media/search-superoffice-in-zapier.png
-[img4]: ../../media/update/update-document-content/update-document-content-action.png
-[img5]: ../../media/update/update-document-content/update-document-content-window.png
-[img6]: ../../media/update/update-document-content/update-document-content-output.png
+[img1]: ../../media/common/create-zap.png
+[img2]: ../../media/common/new-zap-window.png
+[img3]: ../../media/common/search-superoffice-in-zapier.png
+[img4]: ../../media/actions/update/update-document-content/update-document-content-action.png
+[img5]: ../../media/actions/update/update-document-content/update-document-content-window.png
+[img6]: ../../media/actions/update/update-document-content/update-document-content-output.png
