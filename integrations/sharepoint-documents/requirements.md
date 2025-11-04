@@ -15,6 +15,12 @@ redirect_from: /en/document/cloud/sharepoint-documents/requirements
 index: true
 ---
 
+# Limitations
+
+## VisibleFor - confidential documents: Too many confidential documents.
+
+CRM Online tenants with over 25000 confidential documents cannot migrate automatically due to SharePoint Online restrictions. Please contact SuperOffice Support for assistance.
+
 # Requirements
 
 ## To set it up
