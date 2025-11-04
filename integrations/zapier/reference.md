@@ -22,22 +22,22 @@ Supported triggers and the events in SuperOffice CRM Online that cause them to b
 | Trigger | Called when |
 |---|---|
 | **New** | |
-| New Appointment | A new appointment is created in SuperOffice. |
-| New Company | A new company is created in SuperOffice. |
-| New Contact | A new contact is created in SuperOffice. |
-| New Document | A new document is created in SuperOffice. |
-| New Project Member | A new project member is created in SuperOffice. |
-| New Project | A new project is created in SuperOffice. |
-| New Request | A new request is created in SuperOffice. |
-| New Sale | A new sale is created in SuperOffice. |
+| [New Appointment][1] | A new appointment is created in SuperOffice. |
+| [New Company][2] | A new company is created in SuperOffice. |
+| [New Contact][3] | A new contact is created in SuperOffice. |
+| [New Document][4] | A new document is created in SuperOffice. |
+| [New Project Member][5] | A new project member is created in SuperOffice. |
+| [New Project][6] | A new project is created in SuperOffice. |
+| [New Request][7] | A new request is created in SuperOffice. |
+| [New Sale][8] | A new sale is created in SuperOffice. |
 | **Changed** | |
-| Appointment Changed | An appointment in SuperOffice is updated. |
-| Company Changed | A company in SuperOffice is updated. |
-| Contact Changed | A contact in SuperOffice is updated. |
-| Document Changed | A document in SuperOffice is updated. |
-| Project Changed | A project in SuperOffice is updated. |
-| Project Member Changed | A project member in SuperOffice is updated. |
-| Sale Changed | A sale in SuperOffice is updated (edited, sold, lost, completed). |
+| [Appointment Changed][9] | An appointment in SuperOffice is updated. |
+| [Company Changed][10] | A company in SuperOffice is updated. |
+| [Contact Changed][11] | A contact in SuperOffice is updated. |
+| [Document Changed][12] | A document in SuperOffice is updated. |
+| [Project Changed ][13]| A project in SuperOffice is updated. |
+| [Project Member Changed][14] | A project member in SuperOffice is updated. |
+| [Sale Changed][15] | A sale in SuperOffice is updated (edited, sold, lost, completed). |
 
 ## Actions
 
@@ -46,32 +46,32 @@ Supported actions and the effect they have on SuperOffice CRM Online when run.
 | Action | Result |
 |---|---|
 | **Create** | |
-| Create appointment | Creates a new appointment in SuperOffice. |
-| Create company | Creates a new company in SuperOffice. |
-| Create contact | Creates a new contact in SuperOffice. |
-| Create document | Creates a new document in SuperOffice. |
-| Create project member | Creates a new project member in an existing project in SuperOffice. |
-| Create project | Creates a new project in SuperOffice. |
-| Create request message attachment | Creates a new request message attachment in SuperOffice in an existing request message. |
-| Create request message | Creates a new request message in an existing request. |
-| Create request | Creates a new request in SuperOffice. |
-| Create sale | Creates a new sale in SuperOffice. |
+| [Create appointment][16] | Creates a new appointment in SuperOffice. |
+| [Create company][17] | Creates a new company in SuperOffice. |
+| [Create contact][18] | Creates a new contact in SuperOffice. |
+| [Create document][19] | Creates a new document in SuperOffice. |
+| [Create project member][20] | Creates a new project member in an existing project in SuperOffice. |
+| [Create project][21] | Creates a new project in SuperOffice. |
+| [Create request message attachment][22] | Creates a new request message attachment in SuperOffice in an existing request message. |
+| [Create request message][23] | Creates a new request message in an existing request. |
+| [Create request][24] | Creates a new request in SuperOffice. |
+| [Create sale][25] | Creates a new sale in SuperOffice. |
 | **Remove** | |
-| Remove project member | Removes a project member from an existing project in SuperOffice. |
+| [Remove project member][26] | Removes a project member from an existing project in SuperOffice. |
 | **Search** | |
-| Find Company | Searches for a company with specified criteria in SuperOffice. |
-| Find Contact | Searches for a contact with specified criteria in SuperOffice. |
-| Find project | Searches for a project with specified criteria in SuperOffice. |
-| Find request | Searches for a request with specified criteria in SuperOffice. |
-| Find Sale | Searches for a sale with specified criteria in SuperOffice. |
+| [Find Company][27] | Searches for a company with specified criteria in SuperOffice. |
+| [Find Contact][28] | Searches for a contact with specified criteria in SuperOffice. |
+| [Find project][29] | Searches for a project with specified criteria in SuperOffice. |
+| [Find request][30] | Searches for a request with specified criteria in SuperOffice. |
+| [Find Sale][31] | Searches for a sale with specified criteria in SuperOffice. |
 | **Update** | |
-| Update appointment | Updates an existing appointment in SuperOffice. |
-| Update company | Updates an existing company in SuperOffice. |
-| Update contact | Updates an existing contact in SuperOffice. |
-| Update document content | Updates content in an existing document in SuperOffice. |
-| Update project | Updates an existing project in SuperOffice. |
-| Update request | Updates an existing request in SuperOffice. |
-| Update sale | Updates an existing sale in SuperOffice. |
+| [Update appointment][32] | Updates an existing appointment in SuperOffice. |
+| [Update company][33] | Updates an existing company in SuperOffice. |
+| [Update contact][34] | Updates an existing contact in SuperOffice. |
+| [Update document content][35] | Updates content in an existing document in SuperOffice. |
+| [Update project][36] | Updates an existing project in SuperOffice. |
+| [Update request][37] | Updates an existing request in SuperOffice. |
+| [Update sale][38] | Updates an existing sale in SuperOffice. |
 
 ## Zap templates
 
@@ -120,3 +120,43 @@ Zap templates are ready-made Zaps you can use as-is or amend to fit your particu
 * Set time aside automatically (action) whenever someone reaches out on **Facebook** (trigger).
 
 * Add new leads from **Facebook Lead AS** (trigger) as new contacts in SuperOffice (action).
+
+<!-- Referenced links -->
+[1]: /integrations/zapier/howto/triggers/new/new-appointment.md
+[2]: /integrations/zapier/howto/triggers/new/new-company.md
+[3]: /integrations/zapier/howto/triggers/new/new-contact.md
+[4]: /integrations/zapier/howto/triggers/new/new-document.md
+[5]: /integrations/zapier/howto/triggers/new/new-project-member.md
+[6]: /integrations/zapier/howto/triggers/new/new-project.md
+[7]: /integrations/zapier/howto/triggers/new/new-request.md
+[8]: /integrations/zapier/howto/triggers/new/new-sale.md
+[9]: /integrations/zapier/howto/triggers/changed/appointment-changed.md
+[10]: /integrations/zapier/howto/triggers/changed/company-changed.md
+[11]: /integrations/zapier/howto/triggers/changed/contact-changed.md
+[12]: /integrations/zapier/howto/triggers/changed/document-changed.md
+[13]: /integrations/zapier/howto/triggers/changed/project-changed.md
+[14]: /integrations/zapier/howto/triggers/changed/project-member-changed.md
+[15]: /integrations/zapier/howto/triggers/changed/sale-changed.md
+[16]: /integrations/zapier/howto/actions/create/create-appointment.md
+[17]: /integrations/zapier/howto/actions/create/create-company.md
+[18]: /integrations/zapier/howto/actions/create/create-contact.md
+[19]: /integrations/zapier/howto/actions/create/create-document.md
+[20]: /integrations/zapier/howto/actions/create/create-project-member.md
+[21]: /integrations/zapier/howto/actions/create/create-project.md
+[22]: /integrations/zapier/howto/actions/create/create-request-message-attachment.md
+[23]: /integrations/zapier/howto/actions/create/create-request-message.md
+[24]: /integrations/zapier/howto/actions/create/create-request.md
+[25]: /integrations/zapier/howto/actions/create/create-sale.md
+[26]: /integrations/zapier/howto/actions/remove/remove-project-member.md
+[27]: /integrations/zapier/howto/actions/search/search-company.md
+[28]: /integrations/zapier/howto/actions/search/search-contact.md
+[29]: /integrations/zapier/howto/actions/search/search-project.md
+[30]: /integrations/zapier/howto/actions/search/search-request.md
+[31]: /integrations/zapier/howto/actions/search/search-sale.md
+[32]: /integrations/zapier/howto/actions/update/update-appointment.md
+[33]: /integrations/zapier/howto/actions/update/update-company.md
+[34]: /integrations/zapier/howto/actions/update/update-contact.md
+[35]: /integrations/zapier/howto/actions/update/update-document-content.md
+[36]: /integrations/zapier/howto/actions/update/update-project.md
+[37]: /integrations/zapier/howto/actions/update/update-request.md
+[38]: /integrations/zapier/howto/actions/update/update-sale.md
