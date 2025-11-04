@@ -21,18 +21,23 @@ Supported triggers and the events in SuperOffice CRM Online that cause them to b
 
 | Trigger | Called when |
 |---|---|
+| **New** | |
+| New Appointment | A new appointment is created in SuperOffice. |
 | New Company | A new company is created in SuperOffice. |
 | New Contact | A new contact is created in SuperOffice. |
-| New Sale | A new sale is created in SuperOffice. |
-| New Appointment | A new appointment is created in SuperOffice. |
-| Updated New Document | A new document is created in SuperOffice. |
-| New Project | A new project is created in SuperOffice. |
+| New Document | A new document is created in SuperOffice. |
 | New Project Member | A new project member is created in SuperOffice. |
+| New Project | A new project is created in SuperOffice. |
+| New Request | A new request is created in SuperOffice. |
+| New Sale | A new sale is created in SuperOffice. |
+| **Changed** | |
+| Appointment Changed | An appointment in SuperOffice is updated. |
 | Company Changed | A company in SuperOffice is updated. |
 | Contact Changed | A contact in SuperOffice is updated. |
-| Sale Changed | A sale is updated in SuperOffice (edited, sold, lost, completed). |
-| Project Changed | A project in SuperOffice is updated. |
 | Document Changed | A document in SuperOffice is updated. |
+| Project Changed | A project in SuperOffice is updated. |
+| Project Member Changed | A project member in SuperOffice is updated. |
+| Sale Changed | A sale in SuperOffice is updated (edited, sold, lost, completed). |
 
 ## Actions
 
@@ -40,29 +45,33 @@ Supported actions and the effect they have on SuperOffice CRM Online when run.
 
 | Action | Result |
 |---|---|
+| **Create** | |
+| Create appointment | Creates a new appointment in SuperOffice. |
 | Create company | Creates a new company in SuperOffice. |
 | Create contact | Creates a new contact in SuperOffice. |
-| Create sale | Creates a new sale in SuperOffice. |
-| Create appointment | Creates a new appointment in SuperOffice. |
 | Create document | Creates a new document in SuperOffice. |
-| Create project | Creates a new project in SuperOffice. |
-| Create request | Creates a new request in SuperOffice. |
-| Create request message | Creates a new request message. |
 | Create project member | Creates a new project member in an existing project in SuperOffice. |
+| Create project | Creates a new project in SuperOffice. |
+| Create request message attachment | Creates a new request message attachment in SuperOffice in an existing request message. |
+| Create request message | Creates a new request message in an existing request. |
+| Create request | Creates a new request in SuperOffice. |
+| Create sale | Creates a new sale in SuperOffice. |
+| **Remove** | |
 | Remove project member | Removes a project member from an existing project in SuperOffice. |
-| Update document content | Updates content in an existing document in SuperOffice. |
-
-## Searches (find)
-
-Searches you can run with Zapier to prevent creating duplicate information in SuperOffice.
-
-| Search | Description |
-|---|---|
+| **Search** | |
 | Find Company | Searches for a company with specified criteria in SuperOffice. |
 | Find Contact | Searches for a contact with specified criteria in SuperOffice. |
-| Find Sale | Searches for a sale with specified criteria. |
-| Find request | Searches for a request with specified criteria. |
-| Find project | Searches for a project with specified criteria . |
+| Find project | Searches for a project with specified criteria in SuperOffice. |
+| Find request | Searches for a request with specified criteria in SuperOffice. |
+| Find Sale | Searches for a sale with specified criteria in SuperOffice. |
+| **Update** | |
+| Update appointment | Updates an existing appointment in SuperOffice. |
+| Update company | Updates an existing company in SuperOffice. |
+| Update contact | Updates an existing contact in SuperOffice. |
+| Update document content | Updates content in an existing document in SuperOffice. |
+| Update project | Updates an existing project in SuperOffice. |
+| Update request | Updates an existing request in SuperOffice. |
+| Update sale | Updates an existing sale in SuperOffice. |
 
 ## Zap templates
 

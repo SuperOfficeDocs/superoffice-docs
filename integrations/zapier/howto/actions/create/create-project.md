@@ -65,7 +65,7 @@ language: en
 [5]: ../../../get-started/create-zap.md
 
 <!-- Referenced images -->
-[img1]: ../../media/ccommon/reate-zap.png
+[img1]: ../../media/common/create-zap.png
 [img2]: ../../media/common/new-zap-window.png
 [img3]: ../../media/common/search-superoffice-in-zapier.png
 [img4]: ../../media/actions/create/create-project/create-project-action.png
