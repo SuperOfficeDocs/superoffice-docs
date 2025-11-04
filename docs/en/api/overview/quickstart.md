@@ -22,7 +22,7 @@ SuperOffice APIs offer a rich and flexible set of capabilities designed to suppo
   SuperOffice provides both `SOAP` and `REST` APIs.
 
   > [!NOTE]
-  > SuperOffice plans ro phase out the SOAP API in the future.
+  > SuperOffice plans to phase out the SOAP API in the future.
   > We recommend using the REST API for new integrations.
 
 * **Flexible Authentication Options:**
