@@ -3,9 +3,9 @@ uid: help-nl-ui-navigator
 title: Navigator
 description: Navigator
 keywords: navigator, menu, gebruikersinterface, hoofdsecties
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 11.05.2025
+version: 11.6
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,11 +58,11 @@ De navigator biedt snelle toegang tot belangrijke functies in SuperOffice CRM. E
 | <i class="ph ph-squares-four" aria-label="Schermontwerper"></i> | **[Schermontwerper][24]** | Pas lay-outs aan voor specifieke gebruikersgroepen. |
 | <i class="ph ph-gear" aria-label="Instellingenpictogram"></i> | **[Voorkeuren][25]** | Pas standaardinstellingen aan, zoals [videovergaderingen][42] en de [documentbibliotheek][43]. |
 | <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | **[Chat][2]** | Stel chatkanalen in en beheer de chatfunctie voor SuperOffice CRM. |
+| <i class="ph ph-target" aria-label="Marketingpictogram"></i> | **[Marketing][12]** | Schakel UTM-tracking in voor alle formulieren. |
 | <i class="ph ph-sliders-horizontal" aria-label="Horizontal slider icon"></i> | **[Opties][26]** | Configureer wereldwijde systeeminstellingen, zoals vrije tekst zoeken, tijdzones, labels en nummering. |
 | <i class="ph ph-file-arrow-up" aria-label="Import icon"></i> | **[Import][27]** | Importeer gegevens in SuperOffice CRM. |
 | <i class="ph ph-rows" aria-label="Fields icon"></i> | **[Velden][28]** | Definieer en beheer aangepaste velden voor SuperOffice CRM. |
 | <i class="ph ph-code-block" aria-label="Script icon"></i> | **[CRMScript][41]** | Automatiseer taken met scripts, macro's en gebeurtenisregistraties. |
-
 | <i class="ph ph-ticket" aria-label="Verzoekpictogram"></i> | **[Verzoeken][34]** | Pas instellingen voor SuperOffice Service aan. |
 | <i class="ph ph-question" aria-label="Vraagtekenpictogram"></i> | **Customer Center** | Beheer de opmaak en inhoud van het Customer Center. |
 | <i class="ph ph-basket" aria-label="Winkelmandpictogram"></i> | [**App Store**][44] | Ontdek apps en integraties voor SuperOffice CRM. |
@@ -95,6 +95,7 @@ Als u de muisaanwijzer op een record in een lijst plaatst, verschijnt er een too
 [8]: ../../../email/inbox/learn/index.md
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
+[12]: ../../../marketing/utm/learn/index.md
 [15]: ../../basics/fav.md
 [16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
